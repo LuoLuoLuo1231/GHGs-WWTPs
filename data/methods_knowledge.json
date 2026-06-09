@@ -2,7 +2,7 @@
   "meta": {
     "category": "methods",
     "description": "分析方法",
-    "version": 2,
+    "version": 3,
     "created": "2026-05-26T08:12:45.165373+00:00",
     "updated": "2026-06-09T00:00:00+00:00",
     "source": "initial + meta_analysis_v2 + dispersion_analysis"
@@ -267,6 +267,127 @@
       },
       "confidence": 0.95,
       "source": "meta_analysis_v2.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "method_combinations": {
+      "value": {
+        "name_zh": "研究方法组合模式",
+        "name_en": "Research Method Combination Patterns",
+        "description": "基于118篇WWTP GHG排放文献总结的方法使用规律",
+        "frequency_ranking": [
+          {
+            "method": "IPCC排放因子法",
+            "usage_rate": "92%",
+            "role": "基础方法，几乎必用"
+          },
+          {
+            "method": "模型法",
+            "usage_rate": "95%",
+            "role": "预测和情景分析"
+          },
+          {
+            "method": "LCA",
+            "usage_rate": "71%",
+            "role": "全流程碳足迹评估"
+          },
+          {
+            "method": "实测法",
+            "usage_rate": "63%",
+            "role": "验证排放因子，数据最可靠"
+          },
+          {
+            "method": "不确定性分析",
+            "usage_rate": "53%",
+            "role": "量化结果可靠性"
+          },
+          {
+            "method": "相关性分析",
+            "usage_rate": "52%",
+            "role": "探索变量关系"
+          },
+          {
+            "method": "碳足迹分析",
+            "usage_rate": "48%",
+            "role": "聚焦碳排放评估"
+          },
+          {
+            "method": "回归分析",
+            "usage_rate": "24%",
+            "role": "建立预测模型"
+          },
+          {
+            "method": "蒙特卡洛模拟",
+            "usage_rate": "19%",
+            "role": "不确定性分析核心"
+          },
+          {
+            "method": "PCA",
+            "usage_rate": "19%",
+            "role": "降维和变量探索"
+          }
+        ],
+        "classic_combinations": [
+          {
+            "name": "排放因子法 + 不确定性分析",
+            "description": "最常见的搭配，用于量化估算的可靠性",
+            "usage": "基础研究标配"
+          },
+          {
+            "name": "实测法 + 模型法",
+            "description": "实测验证模型，提高可信度",
+            "usage": "高水平研究验证组合"
+          },
+          {
+            "name": "LCA + 碳足迹",
+            "description": "全流程碳评估",
+            "usage": "综合评估研究"
+          },
+          {
+            "name": "情景分析 + 敏感性分析",
+            "description": "评估减排策略的鲁棒性",
+            "usage": "政策建议类研究"
+          }
+        ],
+        "advanced_combinations": [
+          "机器学习 + 排放因子法 — 用ML优化排放因子",
+          "遥感 + 实测法 — 大尺度验证",
+          "蒙特卡洛 + 排放因子法 — 量化不确定性"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "wwtp_emission_factors": {
+      "value": {
+        "name_zh": "WWTP温室气体排放因子经验值",
+        "name_en": "WWTP GHG Emission Factor经验值",
+        "description": "基于118篇文献的排放因子统计",
+        "data_characteristics": {
+          "distribution": "高度右偏(skewness>1)",
+          "variability": "CV通常>100%，排放差异巨大",
+          "central_tendency": "用中位数和IQR，不用均值±SD",
+          "seasonal_effect": "春夏排放通常高于秋冬",
+          "process_effect": "厌氧工艺CH4高，好氧工艺N2O高"
+        },
+        "key_influencing_factors": [
+          "处理工艺: 厌氧→高CH4，好氧→高N2O",
+          "处理规模: 大型厂单位排放通常更低(规模效应)",
+          "温度: 高温促进CH4，低温可能增加N2O",
+          "进水水质: 高有机物→高CH4，高氮→高N2O",
+          "运行管理: 曝气控制、污泥回流比等"
+        ],
+        "reporting_recommendations": [
+          "必须报告: n, median, IQR, min, max",
+          "建议报告: mean±SD(如果正态), CV",
+          "图表: 箱线图优于柱状图",
+          "统计: 先做Shapiro-Wilk正态性检验"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
       "updated": "2026-06-09T00:00:00+00:00",
       "version": 1
     }
