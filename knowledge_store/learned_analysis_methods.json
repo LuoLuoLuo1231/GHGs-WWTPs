@@ -1,0 +1,70 @@
+{
+  "last_updated": "2026-06-23T10:01:42.104290",
+  "papers_analyzed": 117,
+  "methods_frequency": {
+    "statistical_tests": {
+      "ANOVA": 19,
+      "Mann-Whitney U": 3,
+      "paired test": 5,
+      "Kruskal-Wallis": 2,
+      "Bartlett test": 1,
+      "t-test": 2,
+      "Levene test": 2,
+      "Chi-square": 1
+    },
+    "regression_methods": {
+      "linear regression": 75,
+      "ridge/lasso": 54,
+      "multiple regression": 5,
+      "geographically weighted regression": 3,
+      "stepwise regression": 6,
+      "polynomial regression": 2
+    },
+    "machine_learning": {
+      "random forest": 116,
+      "neural network": 112,
+      "GAN": 115,
+      "decision tree": 31,
+      "deep learning": 13,
+      "PCA": 27,
+      "clustering": 7,
+      "SVM": 2
+    },
+    "uncertainty_methods": {
+      "confidence interval": 117,
+      "sensitivity analysis": 45,
+      "Monte Carlo": 22,
+      "error propagation": 3,
+      "bootstrap": 3,
+      "Bayesian": 7
+    },
+    "emission_accounting": {
+      "IPCC method": 114,
+      "LCA": 82,
+      "carbon footprint": 63,
+      "operational data": 50,
+      "mass balance": 20,
+      "energy balance": 14,
+      "carbon balance": 1
+    },
+    "visualization_methods": {
+      "map/GIS": 103,
+      "3D plot": 36,
+      "box plot": 11,
+      "line chart": 8,
+      "Sankey diagram": 9,
+      "heatmap": 3,
+      "pie chart": 3,
+      "scatter plot": 2
+    },
+    "data_processing": {
+      "normalization": 29,
+      "data cleaning": 8,
+      "log transformation": 6,
+      "outlier detection": 16,
+      "missing data": 5,
+      "interpolation": 5,
+      "smoothing": 2
+    }
+  }
+}

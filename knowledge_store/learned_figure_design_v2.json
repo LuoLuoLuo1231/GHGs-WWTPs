@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-06-24T18:20:20.160210",
+  "papers_analyzed": 117,
+  "version": "v2",
+  "figure_types": {
+    "box plot": 11,
+    "radar chart": 1,
+    "heatmap": 3,
+    "pie chart": 3,
+    "scatter plot": 2
+  },
+  "avg_figures": 5.9914529914529915,
+  "avg_tables": 5.136752136752137
+}

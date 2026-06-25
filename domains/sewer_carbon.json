@@ -1,0 +1,180 @@
+{
+  "name": "污水管网碳排放",
+  "description": "污水管网系统碳排放、甲烷排放、碳转化相关研究",
+  "keywords": [
+    "sewer",
+    "pipeline",
+    "drainage",
+    "methane",
+    "carbon emission",
+    "fugitive emission",
+    "collection system",
+    "gravity sewer",
+    "pressure sewer"
+  ],
+  "method_categories": {
+    "emission_measurement": {
+      "name": "排放测量方法",
+      "methods": {
+        "floating chamber": {
+          "keywords": [
+            "floating chamber",
+            "flux chamber",
+            "hood method",
+            "static chamber"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|measured|collected|applied|deployed).*?(?:floating chamber|flux chamber|hood|static chamber)",
+            "(?:floating chamber|flux chamber|hood).*?(?:was|were|used|deployed|placed)",
+            "(?:emissions?|fluxes?|GHG).*?(?:measured|collected|quantified).*?(?:using|with|by).*?(?:chamber|hood)"
+          ]
+        },
+        "eddy covariance": {
+          "keywords": [
+            "eddy covariance",
+            "eddy correlation",
+            "EC method"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|measured|applied|conducted).*?(?:eddy covariance|eddy correlation|EC method)",
+            "(?:eddy covariance|eddy correlation).*?(?:was|were|used|applied|measurements?)"
+          ]
+        },
+        "tracer gas": {
+          "keywords": [
+            "tracer gas",
+            "SF6",
+            "N2O tracer",
+            "sulfur hexafluoride"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|measured|applied|released).*?(?:tracer gas|SF6|sulfur hexafluoride|N2O tracer)",
+            "(?:tracer|SF6).*?(?:was|were|used|released|injected|measured)"
+          ]
+        },
+        "direct measurement": {
+          "keywords": [
+            "direct measurement",
+            "direct monitoring",
+            "continuous monitoring"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|measured|conducted|performed).*?(?:direct measurement|direct monitoring|continuous monitoring)",
+            "(?:continuous|online|real-time).*?(?:monitoring|measurement|detection).*?(?:was|were|conducted|performed)"
+          ]
+        }
+      }
+    },
+    "process_modeling": {
+      "name": "过程建模方法",
+      "methods": {
+        "ASM": {
+          "keywords": [
+            "activated sludge model",
+            "ASM1",
+            "ASM2",
+            "ASM3"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|applied|implemented|based on).*?(?:activated sludge model|ASM[123]d?)",
+            "(?:activated sludge|ASM).*?(?:model|framework).*?(?:was|were|used|applied|implemented)"
+          ]
+        },
+        "CFD": {
+          "keywords": [
+            "computational fluid dynamics",
+            "CFD"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|applied|implemented|simulated).*?(?:computational fluid dynamics|CFD)",
+            "(?:CFD|computational fluid).*?(?:was|were|used|applied|simulation|modeling)"
+          ]
+        },
+        "water quality model": {
+          "keywords": [
+            "water quality model",
+            "SWMM",
+            "QUAL2E"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|applied|implemented|simulated).*?(?:water quality model|SWMM|QUAL2E)",
+            "(?:SWMM|QUAL2E).*?(?:was|were|used|applied|simulation)"
+          ]
+        }
+      }
+    },
+    "emission_factors": {
+      "name": "排放因子方法",
+      "methods": {
+        "IPCC method": {
+          "keywords": [
+            "IPCC",
+            "IPCC guidelines",
+            "emission factor"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|based on|applied|adopted|followed|employed).*?(?:IPCC|IPCC guidelines|emission factor|Tier [123])",
+            "(?:IPCC|Tier [123]).*?(?:methodology|approach|method|guideline|tier)"
+          ]
+        },
+        "local emission factor": {
+          "keywords": [
+            "local emission factor",
+            "regional emission factor"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|determined|measured|applied).*?(?:local|regional|site-specific).*?emission.?factor"
+          ]
+        }
+      }
+    },
+    "data_analysis": {
+      "name": "数据分析方法",
+      "methods": {
+        "regression analysis": {
+          "keywords": [
+            "regression analysis",
+            "linear regression",
+            "multiple regression"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|fitted).*?(?:regression analysis|linear regression|multiple regression)"
+          ]
+        },
+        "ANOVA": {
+          "keywords": [
+            "ANOVA",
+            "analysis of variance"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied).*?(?:ANOVA|analysis of variance)"
+          ]
+        }
+      }
+    },
+    "machine_learning": {
+      "name": "机器学习方法",
+      "methods": {
+        "random forest": {
+          "keywords": [
+            "random forest",
+            "RF"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|trained|built|implemented|applied).*?(?:random forest|RF model|RF algorithm)",
+            "(?:random forest|RF).*?(?:regression|classification|model|predictor)"
+          ]
+        },
+        "neural network": {
+          "keywords": [
+            "neural network",
+            "ANN"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|developed|trained|built|implemented|applied).*?(?:neural network|ANN)"
+          ]
+        }
+      }
+    }
+  }
+}

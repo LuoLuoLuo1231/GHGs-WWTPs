@@ -9,9 +9,11 @@
 import pandas as pd
 import numpy as np
 from scipy import stats
+from scipy.stats import kruskal
 import os
 import json
 from datetime import datetime
+from typing import Dict, List, Optional, Tuple
 
 from data_loader import DataLoader
 from statistical_analysis import StatisticalAnalyzer
@@ -965,3 +967,221 @@ def run_analysis(data_path=None, output_dir=None, language='zh'):
 
 if __name__ == '__main__':
     agent = run_analysis()
+
+
+# ============================================================================
+# 6. 元分析整合模块
+# ============================================================================
+class MetaAnalysisIntegrator:
+    """
+    元分析整合器
+
+    将元分析模块 v3 整合到科学分析代理中，支持：
+    - 异常值检测和剔除
+    - 智能选择统计方法
+    - 效应量分析
+    - Bootstrap置信区间
+    """
+
+    def __init__(self, df: pd.DataFrame, output_dir: str = 'output'):
+        """
+        初始化
+
+        Parameters:
+        -----------
+        df : DataFrame
+            数据
+        output_dir : str
+            输出目录
+        """
+        self.df = df
+        self.output_dir = output_dir
+        os.makedirs(output_dir, exist_ok=True)
+
+    def run_meta_analysis(self, group_col: str, value_col: str,
+                          exclude_groups: List[str] = None,
+                          exclude_outliers: bool = True) -> Dict:
+        """
+        运行元分析
+
+        Parameters:
+        -----------
+        group_col : str
+            分组列名（如"Method"、"核算方法"）
+        value_col : str
+            数值列名（如"CH4"、"排放强度"）
+        exclude_groups : List[str]
+            要排除的组（如样本量太少的组）
+        exclude_outliers : bool
+            是否剔除异常值
+
+        Returns:
+        --------
+        Dict
+            分析结果
+        """
+        try:
+            from meta_analysis_module_v3 import MetaAnalyzer
+
+            analyzer = MetaAnalyzer(df=self.df)
+
+            results = analyzer.run(
+                group_col=group_col,
+                value_col=value_col,
+                exclude_groups=exclude_groups,
+                exclude_outliers=exclude_outliers
+            )
+
+            # 生成报告
+            report_path = os.path.join(self.output_dir, f'meta_analysis_{value_col}.md')
+            analyzer.generate_report(report_path)
+
+            return results
+
+        except ImportError:
+            print("元分析模块不可用")
+            return {}
+
+    def run_multi_gas_analysis(self, gas_cols: List[str], method_col: str = 'Method',
+                               exclude_groups: List[str] = None) -> Dict:
+        """
+        运行多气体元分析
+
+        Parameters:
+        -----------
+        gas_cols : List[str]
+            气体列名列表（如['CH4', 'N2O', 'CO2']）
+        method_col : str
+            方法列名
+        exclude_groups : List[str]
+            要排除的组
+
+        Returns:
+        --------
+        Dict
+            {气体名: 分析结果}
+        """
+        all_results = {}
+
+        for gas in gas_cols:
+            if gas in self.df.columns:
+                print(f"\n{'='*60}")
+                print(f"  分析: {gas}")
+                print(f"{'='*60}")
+
+                results = self.run_meta_analysis(
+                    group_col=method_col,
+                    value_col=gas,
+                    exclude_groups=exclude_groups,
+                    exclude_outliers=True
+                )
+
+                all_results[gas] = results
+
+        return all_results
+
+    def compare_methods(self, method_col: str, value_cols: List[str],
+                        exclude_groups: List[str] = None) -> pd.DataFrame:
+        """
+        比较不同方法的差异
+
+        Parameters:
+        -----------
+        method_col : str
+            方法列名
+        value_cols : List[str]
+            数值列名列表
+        exclude_groups : List[str]
+            要排除的组
+
+        Returns:
+        --------
+        DataFrame
+            比较结果汇总
+        """
+        comparison_results = []
+
+        for value_col in value_cols:
+            if value_col not in self.df.columns:
+                continue
+
+            # 准备数据
+            df_clean = self.df[[method_col, value_col]].dropna()
+
+            if exclude_groups:
+                df_clean = df_clean[~df_clean[method_col].isin(exclude_groups)]
+
+            # 分组统计
+            group_stats = df_clean.groupby(method_col)[value_col].agg([
+                'count', 'median', 'mean', 'std'
+            ]).reset_index()
+
+            group_stats['cv'] = (group_stats['std'] / group_stats['mean'] * 100).round(1)
+
+            # Kruskal-Wallis检验
+            groups = [group[value_col].values for _, group in df_clean.groupby(method_col)]
+            if len(groups) >= 2 and all(len(g) >= 3 for g in groups):
+                h_stat, p_value = kruskal(*groups)
+
+                # 效应量 ε²
+                n_total = sum(len(g) for g in groups)
+                k = len(groups)
+                epsilon_squared = (h_stat - k + 1) / (n_total - k) if (n_total - k) > 0 else 0
+
+                group_stats['H_statistic'] = h_stat
+                group_stats['p_value'] = p_value
+                group_stats['epsilon_squared'] = epsilon_squared
+                group_stats['significant'] = p_value < 0.05
+
+            group_stats['variable'] = value_col
+            comparison_results.append(group_stats)
+
+        if comparison_results:
+            return pd.concat(comparison_results, ignore_index=True)
+        else:
+            return pd.DataFrame()
+
+
+def run_meta_analysis_from_file(data_path: str, group_col: str, value_col: str,
+                                exclude_groups: List[str] = None,
+                                output_dir: str = 'output') -> Dict:
+    """
+    从文件运行元分析的快捷函数
+
+    Parameters:
+    -----------
+    data_path : str
+        数据文件路径
+    group_col : str
+        分组列名
+    value_col : str
+        数值列名
+    exclude_groups : List[str]
+        要排除的组
+    output_dir : str
+        输出目录
+
+    Returns:
+    --------
+    Dict
+        分析结果
+    """
+    # 加载数据
+    if data_path.endswith('.xlsx') or data_path.endswith('.xls'):
+        df = pd.read_excel(data_path)
+    elif data_path.endswith('.csv'):
+        df = pd.read_csv(data_path)
+    else:
+        raise ValueError(f"不支持的文件格式: {data_path}")
+
+    # 创建整合器
+    integrator = MetaAnalysisIntegrator(df, output_dir)
+
+    # 运行分析
+    results = integrator.run_meta_analysis(
+        group_col=group_col,
+        value_col=value_col,
+        exclude_groups=exclude_groups
+    )
+
+    return results
