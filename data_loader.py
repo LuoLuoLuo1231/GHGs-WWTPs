@@ -100,8 +100,80 @@ class DataLoader:
         # 返回第一个候选（后续 load_data 会报清晰的 FileNotFoundError）
         return os.path.join(self.base_dir, candidates[0])
 
+    def _load_meta_analysis_data(self):
+        """
+        加载元分析格式数据（如 2222.xlsx）。
+
+        该格式特点：
+        - 第0行为额外信息
+        - 第1行为表头
+        - 第2行起为数据
+        - 包含'方法学'、'CO2'、'CH4'、'N2O'等列
+
+        Returns
+        -------
+        pd.DataFrame: 清洗后的数据
+        """
+        from meta_analysis_module import load_and_clean_data
+        print("=" * 60)
+        print("数据加载中 (元分析格式)...")
+        print(f"数据文件: {self.sampling_file}")
+        print("=" * 60)
+
+        data_clean, outlier_log = load_and_clean_data(self.sampling_file)
+
+        print(f"\n  清洗后: {len(data_clean)} 篇文献")
+        for gas, n_out in outlier_log.items():
+            if n_out > 0:
+                print(f"  {gas}: 剔除 {n_out} 个异常值")
+
+        self.df = data_clean
+        self.data_dict = {
+            'format': 'meta_analysis',
+            'n_studies': len(data_clean),
+            'methods': data_clean['核算方法'].unique().tolist() if '核算方法' in data_clean.columns else [],
+            'outlier_log': outlier_log,
+        }
+        return data_clean
+
+    def _detect_format(self):
+        """
+        检测数据文件格式。
+
+        Returns
+        -------
+        str: 'meta_analysis' (2222.xlsx格式) 或 'campus_sewer' (校园管网格式)
+        """
+        file_path = self.sampling_file
+        if not os.path.isfile(file_path):
+            return 'campus_sewer'
+        try:
+            # 读取前3行来检测格式
+            df_head = pd.read_excel(file_path, header=None, nrows=3)
+            # 检查是否是元分析格式：第1行有内容，第2行是表头（包含'方法学'等关键词）
+            if len(df_head) >= 2:
+                headers = df_head.iloc[1].tolist()
+                header_str = ' '.join(str(h) for h in headers)
+                if '方法学' in header_str or '核算方法' in header_str or '排放因子' in header_str:
+                    return 'meta_analysis'
+                # 检查是否有CO2/CH4/N2O列
+                if any(h in header_str for h in ['CO2', 'CH4', 'N2O']):
+                    # 如果第0行不是标准表头，可能是元分析格式
+                    row0 = df_head.iloc[0].tolist()
+                    row0_str = ' '.join(str(h) for h in row0)
+                    if not any(h in row0_str for h in ['采样点', '季节', '日期']):
+                        return 'meta_analysis'
+        except Exception:
+            pass
+        return 'campus_sewer'
+
     def load_data(self):
         """加载并合并所有数据源"""
+        # 检测数据格式
+        fmt = self._detect_format()
+        if fmt == 'meta_analysis':
+            return self._load_meta_analysis_data()
+
         print("=" * 60)
         print("数据加载中...")
         print(f"数据目录: {self.base_dir}")

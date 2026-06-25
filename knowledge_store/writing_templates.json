@@ -1,8 +1,8 @@
 {
   "meta": {
-    "count": 17,
-    "updated": "2026-06-04T09:23:51.804512+00:00",
-    "version": 18
+    "count": 25,
+    "updated": "2026-06-21T00:00:00.000000+00:00",
+    "version": 19
   },
   "entries": {
     "intro_opening_zh": {
@@ -364,6 +364,62 @@
       "confidence": 0.7,
       "source": "auto_learn",
       "updated": "2026-06-04T09:23:51.804512+00:00",
+      "version": 1
+    },
+    "meta_analysis_intro_zh": {
+      "value": "污水处理厂（WWTPs）是温室气体（GHG）的重要排放源，主要包括二氧化碳（CO2）、甲烷（CH4）和氧化亚氮（N2O）。不同核算方法（排放因子法、实测法、模型法）对排放量的估算存在差异，系统评估这些差异对于准确核算WWTPs碳排放具有重要意义。",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_results_zh": {
+      "value": "元分析结果表明，{气体}的排放估算在不同核算方法间存在{显著/无显著}差异（Kruskal-Wallis H={H值}, p={p值}, η²={η²值}）。{具体比较结果}。",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_discussion_zh": {
+      "value": "排放因子法系统性{高估/低估}{气体}排放的可能原因包括：（1）IPCC默认排放因子基于有限的实测数据，未能充分反映不同工艺和工况的差异；（2）{具体机制}。这一发现与{引用}的研究结果一致/不一致。",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_heterogeneity_zh": {
+      "value": "组内异质性分析显示，各方法内部的变异程度极高（I²>{I²值}%），表明核算方法仅解释了总变异的{百分比}%，其余{百分比}%的变异来源于工艺类型、处理规模、气候条件等其他因素。",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_conclusion_zh": {
+      "value": "本研究通过元分析方法，系统比较了{N}篇文献中排放因子法、实测法和模型法对WWTPs温室气体排放估算的差异。主要结论如下：（1）{核心发现1}；（2）{核心发现2}；（3）{核心发现3}。研究结果为完善WWTPs温室气体核算体系提供了科学依据。",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_intro_en": {
+      "value": "Wastewater treatment plants (WWTPs) are significant sources of greenhouse gas (GHG) emissions, primarily including carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O). Different accounting methods (emission factor, direct measurement, and model simulation) yield varying emission estimates, and systematic assessment of these discrepancies is crucial for accurate GHG accounting.",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_results_en": {
+      "value": "The meta-analysis revealed {significant/no significant} differences in {gas} emission estimates across accounting methods (Kruskal-Wallis H={H}, p={p}, η²={eta_sq}). {Specific comparison results}.",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
+      "version": 1
+    },
+    "meta_analysis_discussion_en": {
+      "value": "The systematic {overestimation/underestimation} of {gas} emissions by the emission factor method may be attributed to: (1) IPCC default emission factors are based on limited field measurements and may not adequately capture variations across different processes and operating conditions; (2) {specific mechanism}. This finding is consistent/inconsistent with the results of {reference}.",
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-06-21T00:00:00.000000+00:00",
       "version": 1
     }
   },

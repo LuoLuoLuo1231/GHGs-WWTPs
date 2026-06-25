@@ -1,7 +1,7 @@
 {
   "meta": {
-    "count": 21,
-    "updated": "2026-06-02T09:20:59.002167+00:00"
+    "count": 32,
+    "updated": "2026-06-21T00:00:00.000000+00:00"
   },
   "entries": {
     "DO": {
@@ -241,6 +241,106 @@
       },
       "version": 1,
       "created": "2026-06-02T09:20:59.002167+00:00"
+    },
+    "WWTP": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "污水处理厂",
+        "en": "Wastewater Treatment Plant",
+        "definition": "对污水进行物理、化学和生物处理的设施"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "emission_factor": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "排放因子法",
+        "en": "Emission Factor Method",
+        "definition": "使用IPCC推荐的默认排放因子估算温室气体排放量"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "direct_measurement": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "实测法",
+        "en": "Direct Measurement",
+        "definition": "通过现场通量箱或气相色谱等仪器直接测量温室气体排放"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "model_simulation": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "模型法",
+        "en": "Model Simulation",
+        "definition": "使用数学模型模拟污水处理过程中的温室气体排放"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "GHG": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "温室气体",
+        "en": "Greenhouse Gas",
+        "definition": "包括CO2、CH4、N2O等导致温室效应的气体"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "meta_analysis": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "元分析",
+        "en": "Meta-Analysis",
+        "definition": "对多个独立研究结果进行定量综合的统计方法"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "activated_sludge": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "活性污泥法",
+        "en": "Activated Sludge Process",
+        "definition": "利用微生物降解有机物的污水处理工艺"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "anaerobic_digestion": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "厌氧消化",
+        "en": "Anaerobic Digestion",
+        "definition": "在无氧条件下微生物分解有机物产生CH4和CO2的过程"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "nitrification": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "硝化作用",
+        "en": "Nitrification",
+        "definition": "氨氮在好氧条件下被氧化为硝酸盐的过程，可产生N2O"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
+    },
+    "denitrification": {
+      "category": "domain_terms",
+      "value": {
+        "zh": "反硝化作用",
+        "en": "Denitrification",
+        "definition": "在缺氧条件下硝酸盐被还原为N2或N2O的过程"
+      },
+      "version": 1,
+      "created": "2026-06-21T00:00:00.000000+00:00"
     }
   }
 }
