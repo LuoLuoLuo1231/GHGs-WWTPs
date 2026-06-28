@@ -635,7 +635,14 @@ class UniversalPDFParser:
         return tables_data
 
     def extract_sections(self, text: str) -> Dict[str, str]:
-        """提取论文各章节"""
+        """提取论文各章节
+
+        优化点：
+        1. 放宽正则匹配条件，支持更多格式
+        2. 处理PDF提取中常见的字母间空格问题（如"A B S T R A C T"）
+        3. 增加章节内容长度限制到20000字符
+        4. 支持数字编号和无编号的章节标题
+        """
         sections = {
             'abstract': '',
             'introduction': '',
@@ -647,45 +654,153 @@ class UniversalPDFParser:
             'other': ''
         }
 
+        # 预处理：处理PDF提取中常见的字母间空格问题
+        # 例如 "A B S T R A C T" -> "ABSTRACT"
+        # 但要小心不要破坏正常的单词
+        def normalize_text(text):
+            """规范化文本，处理PDF提取的格式问题"""
+            # 处理常见的带空格的标题
+            replacements = {
+                'A R T I C L E  I N F O': 'ARTICLE INFO',
+                'A B S T R A C T': 'ABSTRACT',
+                'I N T R O D U C T I O N': 'INTRODUCTION',
+                'M E T H O D S': 'METHODS',
+                'R E S U L T S': 'RESULTS',
+                'D I S C U S S I O N': 'DISCUSSION',
+                'C O N C L U S I O N': 'CONCLUSION',
+                'R E F E R E N C E S': 'REFERENCES',
+                'M A T E R I A L S  A N D  M E T H O D S': 'MATERIALS AND METHODS',
+            }
+            for old, new in replacements.items():
+                text = text.replace(old, new)
+            return text
+
+        text = normalize_text(text)
+
+        # 优化后的正则表达式：放宽匹配条件
         section_patterns = {
-            'abstract': r'(?i)(?:^|\n)\s*(?:Abstract|ABSTRACT|摘要)\s*(?:\n|:)',
-            'introduction': r'(?i)(?:^|\n)\s*(?:1\.?\s*)?Introduction\s*(?:\n|:)',
-            'methods': r'(?i)(?:^|\n)\s*(?:2\.?\s*)?(?:Methods?|Materials?\s*(?:and|&)\s*Methods?|Methodology|Experimental)\s*(?:\n|:)',
-            'results': r'(?i)(?:^|\n)\s*(?:3\.?\s*)?(?:Results?(?:\s*(?:and|&)\s*Discussion)?)\s*(?:\n|:)',
-            'discussion': r'(?i)(?:^|\n)\s*(?:4\.?\s*)?Discussion\s*(?:\n|:)',
-            'conclusion': r'(?i)(?:^|\n)\s*(?:5\.?\s*)?(?:Conclusions?|Summary)\s*(?:\n|:)',
-            'references': r'(?i)(?:^|\n)\s*(?:References?|Bibliography)\s*(?:\n|:)',
+            'abstract': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?Abstract\s*',
+                r'(?i)Abstract\s*(?:\n|:)',
+                r'(?i)(?:^|\n)\s*摘要',
+            ],
+            'introduction': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?Introduction\s*',
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?INTRODUCTION\s*',
+            ],
+            'methods': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?(?:Methods?|Materials?\s*(?:and|&)\s*Methods?|Methodology|Experimental)\s*',
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?(?:MATERIALS?\s+AND\s+METHODS?)\s*',
+            ],
+            'results': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?(?:Results?(?:\s*(?:and|&)\s*Discussion)?)\s*',
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?RESULTS?\s*',
+            ],
+            'discussion': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?Discussion\s*',
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?DISCUSSION\s*',
+            ],
+            'conclusion': [
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?(?:Conclusions?|Summary|Concluding\s+Remarks)\s*',
+                r'(?i)(?:^|\n)\s*(?:\d+\.?\s*)?(?:CONCLUSIONS?|SUMMARY)\s*',
+            ],
+            'references': [
+                r'(?i)(?:^|\n)\s*(?:References?|Bibliography|REFERENCES?)\s*',
+            ],
         }
 
+        # 找到所有章节标题的位置
         positions = []
-        for section_name, pattern in section_patterns.items():
-            matches = list(re.finditer(pattern, text))
-            if matches:
-                positions.append((matches[0].start(), section_name))
+        for section_name, patterns in section_patterns.items():
+            for pattern in patterns:
+                matches = list(re.finditer(pattern, text))
+                if matches:
+                    # 取第一个匹配
+                    start = matches[0].start()
+                    # 放宽验证条件：PDF提取的文本格式不太规整
+                    # 允许：行首、换行后、空格后、标点符号后、或者紧跟在其他内容后面
+                    # 主要目的是避免在单词中间匹配（如"methods"在"measurements"中间）
+                    if start == 0 or text[start-1] in '\n\r \t.,;:()[]{}':
+                        positions.append((start, section_name))
+                        break  # 找到就跳出，不再尝试其他模式
+                    # 额外检查：如果前面是字母，检查是否是完整的单词
+                    elif text[start-1].isalpha():
+                        # 检查前面是否是完整的单词
+                        word_before = ''
+                        idx = start - 1
+                        while idx >= 0 and text[idx].isalpha():
+                            word_before = text[idx] + word_before
+                            idx -= 1
+                        # 如果前面的单词是常见的非标题词，跳过
+                        skip_words = ['the', 'and', 'of', 'in', 'to', 'for', 'with', 'on', 'at', 'by']
+                        if word_before.lower() not in skip_words:
+                            positions.append((start, section_name))
+                            break
 
+        # 按位置排序
         positions.sort(key=lambda x: x[0])
 
-        for i, (start, section_name) in enumerate(positions):
-            if i + 1 < len(positions):
-                end = positions[i + 1][0]
+        # 去重：同一章节只保留第一个
+        seen = set()
+        unique_positions = []
+        for pos, name in positions:
+            if name not in seen:
+                seen.add(name)
+                unique_positions.append((pos, name))
+
+        # 提取各章节内容
+        for i, (start, section_name) in enumerate(unique_positions):
+            if i + 1 < len(unique_positions):
+                end = unique_positions[i + 1][0]
             else:
-                end = len(text)
+                # 最后一个章节，取到references之前或文本末尾
+                ref_match = re.search(r'(?i)\b(?:References?|Bibliography|REFERENCES?)\b', text[start+100:])
+                if ref_match:
+                    end = start + 100 + ref_match.start()
+                else:
+                    end = len(text)
 
             section_text = text[start:end].strip()
+
+            # 去掉章节标题行
             lines = section_text.split('\n', 1)
             if len(lines) > 1:
                 section_text = lines[1].strip()
 
-            sections[section_name] = section_text[:10000]
+            # 增加长度限制到20000字符
+            sections[section_name] = section_text[:20000]
 
+        # 如果methods为空，尝试用关键词提取
         if not sections['methods']:
             method_paragraphs = []
             paragraphs = text.split('\n\n')
             for para in paragraphs:
-                if re.search(r'(?i)(?:method|experimental|procedure|sampling|analysis)', para[:200]):
+                if re.search(r'(?i)(?:method|experimental|procedure|sampling|analysis|样品|实验|方法)', para[:300]):
                     method_paragraphs.append(para)
             if method_paragraphs:
-                sections['methods'] = '\n\n'.join(method_paragraphs[:5])
+                sections['methods'] = '\n\n'.join(method_paragraphs[:10])
+
+        # 如果abstract为空，尝试更灵活的提取方式
+        if not sections['abstract']:
+            # 策略1：查找Introduction之前的内容
+            intro_patterns = [r'(?i)\bIntroduction\b', r'(?i)\bINTRODUCTION\b', r'(?i)\n\s*1\.\s+Introduction']
+            for pattern in intro_patterns:
+                intro_match = re.search(pattern, text)
+                if intro_match:
+                    intro_pos = intro_match.start()
+                    pre_intro = text[:intro_pos].strip()
+                    # 在Introduction之前查找Abstract
+                    abstract_patterns = [r'(?i)\bAbstract\b', r'(?i)\bABSTRACT\b', r'(?i)摘要']
+                    for abs_pattern in abstract_patterns:
+                        abs_match = re.search(abs_pattern, pre_intro)
+                        if abs_match:
+                            abstract_text = pre_intro[abs_match.end():].strip()
+                            # 去掉可能的冒号开头
+                            if abstract_text.startswith(':'):
+                                abstract_text = abstract_text[1:].strip()
+                            sections['abstract'] = abstract_text[:5000]
+                            break
+                    break
 
         return sections
 
@@ -1157,7 +1272,8 @@ class UniversalLiteratureReader:
                 "metadata": meta,
                 "word_count": word_count,
                 "char_count": len(text),
-                "sections_available": {k: bool(v) for k, v in sections.items()},
+                "sections": sections,  # 保存实际的章节内容
+                "sections_available": {k: bool(v) for k, v in sections.items()},  # 同时保留布尔值
                 "writing_patterns": writing_patterns,
                 "analysis_methods": analysis_methods,
                 "figure_info": figure_info,
