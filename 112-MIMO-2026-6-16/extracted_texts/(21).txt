@@ -1,0 +1,468 @@
+--- Page 1 ---
+©2023TheAuthors JournalofWaterandClimateChangeVol14No1,223doi:10.2166/wcc.2022.267
+AssessmentofenergyperformanceandGHGemissionsfortheurbanwatercycletoward
+sustainability
+Ayse Muhammetoglu a,*, Abbas Al-Omarib, Zain Al-Houric, Bulent Topkayaa, Tugba Tumbula
+and Habib Muhammetoglua
+aDepartmentofEnvironmentalEngineering,AkdenizUniversity,Antalya,Turkey
+bWater,EnergyandEnvironmentCenter,UniversityofJordan,Amman,Jordan
+cCivilEngineeringDepartment,AlAlbaytUniversity,Mafraq,Jordan
+*Correspondingauthor.E-mail:aysemuh@akdeniz.edu.tr
+AM,0000-0002-7919-3671
+ABSTRACT
+Thisstudypresentsaholisticapproachtoevaluateenergyperformanceandgreenhousegas(GHG)emissionsfromurbanwatersupplyand
+sanitationstages,whichareimportantforsustainablewatermanagementandclimatechangemitigation.ThestudywasconductedforAnta-
+lyacityofTurkeytocomparebaselineandimprovedscenarioconditionsusingtheEnergyPerformanceandCarbonEmissionsAssessment
+andMonitoring(ECAM)tool.Thecurrentapplicationofurbanwaterandwastewaterserviceswasdefinedasthebaselinescenario.Forthe
+improved urbanwatercycle, the reduction of non-revenuewater, onsite sanitation prevention, increasein energyefficiency, biogas pro-
+ductionandreuseoftreatedwastewaterwereinvestigated.Watersupplyandsanitationstagescontributedtoapproximately26and74%
+oftotalGHGemissionsand70 and30%of energyconsumptionforthe baselinescenario,respectively.GHG emissions weredetermined
+approximatelyas52,423tCO eq/yearforCO (40%),47,029tCO eq/yearforCH (35%)and33,006tCO eq/yearforN O(25%)forthebaseline
+2 2 2 4 2 2
+scenario.ThetotalGHGemissionsof132,457tCO eq/yearandenergyconsumptionof136,328MWh/yearwerereducedby27.65%forGHG
+2
+emissionsand16.48%forenergyconsumptionfortheimprovedurbanwatercycle.Theoutcomesofthisresearchareexpectedtoachieve
+sustainablecitiesandcombatclimatechange.
+Keywords:Antalyacity,climatechange,energyefficiency,greenhousegasemissions,sanitation,watersupply
+HIGHLIGHTS
+(cid:129)
+Energyperformanceandcarbonemissionassessmentandmonitoringstudyfortheurbanwatercycleisconducted.
+(cid:129)
+Thebaselineconditionandimprovedwatersupplyandsanitationstagesareassessed.
+(cid:129)
+Impactsofnon-revenuewater,onsitesanitationreductionandtreatedwastewaterreuseonGHGemissionsareinvestigated.
+(cid:129)
+Energyandcarbonfootprintanalysesareperformed.
+(cid:129)
+GHGemissions,energyperformanceandservicelevelindicatorsforwastewatercollectionandtreatmentareexamined.
+ThisisanOpenAccessarticledistributedunderthetermsoftheCreativeCommonsAttributionLicence(CCBY-NC-ND4.0),whichpermitscopyingandredistribution
+fornon-commercialpurposeswithnoderivatives,providedtheoriginalworkisproperlycited(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 2 ---
+JournalofWaterandClimateChangeVol14No1,224
+GRAPHICALABSTRACT
+LIST OF ACRONYMS
+ASAT Antalya WaterandWastewaterAuthority
+BOD 5-daybiochemical oxygen demand
+5
+CF carbonfootprint
+ECAM EnergyPerformance and Carbon EmissionsAssessmentand Monitoring
+EF energyfootprint
+ETS EmissionsTrading System
+EU European Union
+GHG greenhouse gas
+GWP globalwarming potential
+IPCC Intergovernmental Panel onClimateChange
+IWA International WaterAssociation
+LCA lifecycleassessment
+MMA Metropolitan Municipalityof Antalya
+NDCs Nationally Determined Contributions
+NRW non-revenuewater
+SIV systeminput volume
+TN total nitrogen
+TP total phosphorus
+WDN waterdistribution network
+WWTP wastewatertreatment plant
+INTRODUCTION
+ClimatechangeisaverycrucialglobalissuethatthreatensallnationsbyraisingtheEarth’ssurfacetemperature,causingsea-
+level rise, changes in precipitation patterns and intensities, evapotranspiration rates, and more intense and frequent occur-
+rences of floods and droughts (Valipour 2017; Hamdi et al. 2020). These consequences lead to adverse impacts on the
+quality and quantity of water resources, human life, houses and infrastructure, agricultural production and the ecosystem.
+Thethreatsofwaterscarcityanddesertificationimposechallengestoecosystems,socialandeconomicactivitiesthatrequire
+effective water stress mitigation measures (Tsanov et al. 2020) and the evaluation of public services delivery performance
+mainlyindevelopingcountries(Siddiquietal.2021).Theurbanwatercycle,whichiscomposedofwatersupply,wastewater
+collection,treatmentanddisposal,isoneofthecriticalsectorsthreatenedbyclimatechange.Increasingdemandforadequate
+and hygienic water supply and more stringent quality standards for wastewater treatment plant (WWTP) effluents cause
+increases in energy consumption and consequently greenhouse gas (GHG) emissions. The urban water cycle was reported
+to account for 1–3% of total electric energy consumption (Longo et al. 2016), as much as 40% of municipal energy use,
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 3 ---
+JournalofWaterandClimateChangeVol14No1,225
+and 3–10% of the global warming potential (GWP) by direct and indirect GHG emissions, in many European countries
+(Samuelssonetal.2018).IncreasingenergydemandandglobalcommitmentstoreduceGHGemissionsledmanycountries
+to renewable energy production, and therefore, small-scale hydropower plants showed a massive expansion (Kuriqi et al.
+2019).However,the balance between hydropower production and ecosystemconservation needsto be studiedin detailby
+coupling hydrologic and ecohydraulic approaches (Kuriqi et al. 2020), analyzing ecological impacts (Kuriqi et al. 2021)
+and assessing energy storage benefits (Malka et al. 2022). Sustainable management of the urban water cycle, which leads
+to low-carbon emissions, is highly dependent on water-use efficiency, energy efficiency, energy recovery, reuse of treated
+wastewaterand nutrient recycling.
+Inthelasttwodecades,theestimationofwaterandcarbonfootprint(CF)studiesgainedhighinterest.Severalmodelsand
+toolshavebeenpresentedintheliteraturetoestimateCFfromdifferentcomponentsoftheurbanwatercycle(WWTPs,water
+and wastewater services and biological treatment units). In addition, different emission categories have been addressed,
+namely, direct and dissolved GHG, sludge disposal, energy, chemicals and transport. CFCT (Gustavsson & Tumlin 2013),
+CF-TOOL CTRL (Baeza et al. 2017), CHEApet (2011), BSM2G (Flores-Alsina et al. 2012) and BSM2-e (Sweetapple et al.
+2013)modelsareapplicabletoWWTPs,whereasDEEMandASMN(Guoetal.2012)areusedtoestimateCFfrombiological
+wastewater treatment units. WESTWeb (2022), Energy Performance and Carbon Emissions Assessment and Monitoring
+(ECAM; WaCCliM 2022) and WWEECarb (Marinelli et al. 2021) tools address urban water and wastewater services for
+theassessmentofcarbonemissions.Thereareseveralstudiesfortheapplicationofthelifecycleassessment(LCA)approach
+to estimate CF of water and wastewater services, such as for Pamplona, Columbia (Ortiz-Rodriguez et al. 2020), Ukraine
+(Levkovska et al. 2020), Denmark and Sweden (Delre et al. 2019), Gold Coast region of Australia (Lane et al. 2015),
+municipalityof Aveiro inPortugal (Lemos etal. 2013) andUSA (Zib etal. 2021).
+The recent research studies related to the sanitation stage of the urban water cycle addressed the analysis of wastewater
+infrastructure for total energy and GHG emissions considering the water–energy–carbon nexus (Singh & Kansal 2018),
+carbonneutralityofwastewatertreatmentsystemsforenergy,nutrientandwaterrecovery(Mo&Zhang2012),comparison
+ofdifferentwastewaterandsludgetreatmenttechnologiesanddisposalalternativesforthelowestCF(Chaietal.2015),analy-
+sisofenergyconsumption inWWTPsto evaluatewater, CFandenergyfootprints (EF), andgraywaterfootprint reduction
+(Gu et al. 2016), application of a new methodological approach to determine direct and indirect emissions from WWTPs
+accordingtotheguidelinesofISO14064-1(Marinellietal.2021)andCFestimationofmunicipalwaterandwastewaterser-
+vicesbyembodiedenergyassociatedwithtopographiccharacteristics,efficiencyofwaterandwastewatertreatmentsystems
+andpumps(Bakhshi&Demonsabert2012).Inthecaseofthewatersupplystage,therelevantresearchstudiesfocusedonthe
+evaluationofalternativesforthewatersupplyinfrastructuresystembyintegratedCFandcost–benefitanalysis(Qi&Chang
+2012),analysisofthewatercyclebyLCAconsideringtheimpactsofwatertreatmentanddesalinationplants,waterlossesin
+thewaterworks,electricalconsumptionsandnetworkmaintenance(DelBorghietal.2013),implementationofperformance
+indicatorstocompareimpactsofenergy-saving,energyproductionandwaterlossesreductiononwatersupply(Puleoetal.
+2015),evaluationofwatercycleforhotspotsofcarbonemissionsandpumpingefficiency(Lin&Kang2019)andcomparison
+ofcurrent and futurealternativewaterreclamation andresourcerecoveryscenarios(Lahmouri etal. 2019).
+Intheliterature,thereisnoholisticstudyfortheassessmentofCF,energyperformanceandGHGemissionsforbothwater
+supplyandsanitationstagesoftheurbanwatercycle,whichconsiderscriticalmanagementscenariossuchasthereductionof
+non-revenuewater(NRW),anincreaseofwastewaterreuseandimprovementsinwastewatertreatmentprocesses.Therefore,
+themainobjectiveofthisstudyistopresentaholisticapproachforevaluatingCF,energyperformanceandGHGemissions
+of the urban water supply (abstraction, treatment and distribution) and sanitation stages (wastewater collection, treatment,
+discharge, sludge management and onsite sanitation) with the consideration of critical management scenarios for NRW
+reduction, improvements in wastewater treatment processes and wastewater reuse. The application site is Antalya city,
+which faces the common problems of high NRW and very limited recovery of treated water and nutrients. Consequently,
+there is an urgent need to improve the sustainable management of urban water by increasing water and energy efficiency
+andreducingGHGemissions.Forthispurpose,ECAMmethodologywasimplemented.IntheECAMtool,GHGemissions
+areassessed in consistency with the methodologyof the Intergovernmental Panel on Climate Change (IPCC), and the per-
+formance indicators of the International Water Association (IWA) are used for water supply and sanitation service levels
+andenergyperformance(ECAM2018).Thenoveltyofthisresearchistoassesstheimpactsofseveralmanagementscenarios
+relatedtotheurbanwatersupply(reductionofphysicalwaterlossesandenergyrecoveryfromtheexcesswaterpressurein
+waterdistributionnetworks(WDN))andsanitationstages(preventingonsitesanitation,increasingenergyefficiency,biogas
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 4 ---
+JournalofWaterandClimateChangeVol14No1,226
+productionandreuseoftreatedwastewater)onCF,energyperformanceandGHGemissions.Theoutcomesofthisresearch
+areexpectedtoprovideavaluablecontributiontothereductionofindirectanddirectemissionsoftheurbanwatercycleto
+combatclimatechange.ThepresentedstudyforAntalyacitycoverstheurbanwatercycleinaholisticapproachwithseveral
+managementscenarios,beingdifferentfromthepreviousstudiesintheliterature.Thepaperisorganizedasfollows:thesec-
+tion‘MaterialandMethods’presentsinformationaboutthestudyareaandmethodology,thesection‘ResultsandDiscussion’
+includestheresultsof applied scenariosand theirdiscussion, andfinally,the lastsection presentstheconclusions.
+MATERIAL AND METHODS
+Urban watersupplyandsanitation in thestudyarea
+AntalyacityisinthesouthofTurkeyandalongtheMediterraneanSeacoast.ThepopulationofAntalyacitywasreportedat
+1,420,166 for the year 2020. The city is a worldwide famous domestic and international tourist destination. Despite the
+COVID-19pandemicwhichwaswidespreadandriskyintheyears2020and2021,thewholeofAntalyaprovincereceived
+morethan9millioninternationaltouristsin2021.TheAntalyaWaterandWastewaterAuthority(ASAT)isresponsiblefor
+the municipal water and wastewater services in Antalya province, which covers a surface area of 20,723km2. The water
+supplyanddistributionsysteminAntalyacityisshowninFigure1wherealltheurbanwaterissuppliedfromgroundwater
+sources.Therearesevenmainpressurezones(P1–P7)inthewatersupplyanddistributionsysteminAntalyacity,asdepicted
+inFigure1withdifferentcolors.Thesepressurezonesweredesignedbasedonthetopographyandthedesiredwaterpressure
+levelsintheWDN.ThepressurezonesP3andP7 coverconsiderably highsurface areas with respectto theotherpressure
+Figure1| WatersupplysystemofAntalyacitywiththepressurezones.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 5 ---
+JournalofWaterandClimateChangeVol14No1,227
+zoneswhereP7islocatedatthehighestelevation.Additionally,pressurezonesP1andP2,whichliealongtheMediterranean
+Seacoast, have thelowestelevationlevels.
+Thesourcesofwatersupply,servedpopulation,abstractedvolumesofwaterandtheenergyconsumedforwaterabstraction
+are given in Table 1. Arsenic treatment by pressurized filters and disinfection is applied at Termessos Wells, whereas only
+disinfectionbychlorineisappliedattherestofthewatersupplysources.Theannualenergyconsumedforarsenictreatment
+wasestimatedat2,756,179kWhin2020.ThereisanincreasingdemandforurbanwatersupplyinAntalyaprovinceastheper
+capitawaterconsumptionincreasedfrom293to329L/person/daybetweentheyears2010and2018(TSI2021).Thelevelof
+NRWinAntalyacityWDNwasreportedas44.1%,whichcorrespondstomorethan63millionm3ofwaterfortheyear2020
+and the physical water losses level was 35.37%. The water balance for Antalya city in 2020 is depicted in Supplementary
+Table S1.
+Approximately87%ofthepopulationofAntalyacityisconnectedtosewers,andtheentirecollectedwastewaterreceives
+anadvancedleveloftreatment.TherearetwoWWTPs,namelyHurmaandLara,inAntalyacity,andtheplanteffluentsare
+discharged to the Mediterranean Sea by deep sea outfall systems following disinfection. Treatment capacities, influent pol-
+lution loads and treatment efficiencies of these WWTPs are presented in Table 1. About 1.3% of Hurma WWTP effluents
+(1.14millionm3/year) are reused for in-plant green area irrigation and as cooling water in the thermal sludge drying unit.
+Mechanical thickening, anaerobic digestion, dewatering and thermal drying processes are applied for sludge treatment at
+theHurmaWWTP,and thebiosolidswithmorethan90%drysolidsaretransportedtoacementfactoryforincineration.In
+the case of Lara WWTP, the excess sludge is mechanically dewatered up to 25% dry solids and then transferred to the
+Hurma WWTP for thermal drying. The volume of biogas produced at the Hurma WWTP is more than 5.5millionm3/year,
+and 50% of the biogas is valorized at the cogeneration unit to obtain heat and electricity simultaneously, which is used to
+heattheanaerobicdigesterand thethermaldryingunits.Asdepicted inSupplementaryFigureS1,thebiologicalunitsofthe
+Lara WWTP are fully covered by a football field and the sedimentation tanks are covered by a special design of caps. This
+unique design of the treatment plant was selected to improve the landscape view, as this plant is located within an intense
+tourismarea.
+ThetotalelectricityconsumptionofASATinAntalyaprovincewasreportedapproximately349.5millionkWh/year,which
+correspondsto4.5%ofelectricityconsumptioninAntalyaprovince(ASAT2021).Furthermore,theconsumedelectricityfor
+water and wastewater services in Antalya city was nearly 95.7 and 40.6millionkWh/year in 2020, respectively. There is a
+need foraholisticstudyto assessthe energy performanceand GHG emissions from the urban watercycle and to propose
+alternativesolutionsto improvewaterand energyefficiency inAntalyacity.
+Table1 | WatersupplyandWWTPsinAntalyacity
+Watersupply
+Source Servedpopulation(people) Volumeofabstractedwater(m3/year) Energyconsumedfromthegridforabstraction(kWh)
+BogacayPumpingStation 137,206 13,821,306 7,018,757
+DuralilerPumpingStation 589,384 59,370,947 47,922,051
+GurkavakSprings 20,928 2,108,124 0
+TermessosWells 520,481 52,430,001 24,805,611
+Otherwells 152,167 15,328,400 13,217,068
+Total 1,420,166 143,058,778 92,963,487
+Sanitation
+WWTPnameandcapacity Populationequivalent Influentloadsa(kg/year) Treatmentefficiencya(%)
+Hurma 1,400,000 BOD ¼25,417,542 BOD ¼96
+5 5
+210,000m3/day TN¼3,358,276 TN¼88
+TP¼408,261 TP¼83
+Lara 500,000 BOD ¼6,908,802
+5
+62,500m3/day TN¼887,589
+TP¼160,726
+BOD5,5-daybiochemicaloxygendemand;TN,totalnitrogen;TP,totalphosphorus.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 6 ---
+JournalofWaterandClimateChangeVol14No1,228
+ECAMassessmenttool
+ECAMisaweb-based,free,andopen-sourcedecisionsupporttooldevelopedbytheWaterandWastewaterCompaniesfor
+ClimateMitigation(WaCClim)Projecttoguidewaterutilitiestowardenergyandcarbonneutrality(ECAM2018).ECAMisa
+practicaltooltoquantifyGHGemissionsandtoassessenergyperformancefortheurbanwatercycleinaholisticapproach,
+as depicted inFigure2.
+IntheECAMtool,directandindirectemissionsfromtheurbanwatercyclearedefinedinthreedifferentscopesaccording
+to the IPCC Guidelines for National Greenhouse Gas Inventories and Biosolids Emissions Assessment Model (BEAM).
+Scope 1 includes direct CO , CH and N O emissions from onsite fossil fuel combustion, CH , CO and N O emissions
+2 4 2 4 2 2
+from biological wastewater treatment, and CH and N O emissions from fecal sludge management. In Scope 2, indirect
+4 2
+GHGemissionsfromgridenergyarecomputedconsideringanenergybalancebetweenenergyinputs(electricalenergypur-
+chased from the grid and self-produced renewable energy) and energy outputs (surplus renewable electricity and energy
+consumptionfortheoperationofequipment).Finally,Scope3involvesCO andN Oemissionsfromuntreatedwastewater
+2 2
+dischargeddirectlytowaterbodies,N Oemissionsfromtheeffluentdischargetoreceivingwaters,CO ,CH andN Oemis-
+2 2 4 2
+sionsfromthetransportofsludgeorwateroff-sitefromtheWWTP,andCH andN Oemissionsfromsludgeandfecalsludge
+4 2
+management.Sludgemanagementcoversstorage,disposal(landfilling,landapplication,incineration,compostingandstock-
+piling) andtransport to adisposal site. TheECAM tool alsocomputestheGHG emissionoffset from waterreuse, nutrient
+recoveryandcarbonsequestrationfromsludgemanagement.Inthisapplication,GHGemissionsavoidedduetowastewater
+treatmentwereinvestigatedforbiogasvalorization,nutrient(totalnitrogen(TN)andtotalphosphorus(TP))reusebydispla-
+cingsyntheticfertilizersandwastewaterreusebyeliminatingdischargetoreceivingwaters.IntheECAMtool,theelectrical
+energy produced (kWh) from biogas valorization (defined as wwt_nrg_biog) is considered to estimate GHG emissions
+avoided due to biogas valorizationusing Equation (1):
+CO equiv:avoided(kgCO e)¼wwt nrg biog(cid:2)emissionfactor(kgCO e=kWh) (1)
+2 2 2
+In this equation, the emission factor wasdefined as0.36kgCO e/kWh for Turkey(EIB2020).
+2
+Additionally, the GHGemissions avoided due to TN andTPreusedarecalculated asfollows:
+CO equiv:avoided(kgCO e)¼TNreused(kg=m3)(cid:2)defaultconversionfactor(kgCO =kgN) (2)
+2 2 2
+CO equiv:avoided(kgCO e)¼TPreused(kg=m3)(cid:2)defaultconversionfactor(kgCO =kgP) (3)
+2 2 2
+Figure2| StagesoftheurbanwatercycleintheECAMtool(ECAM2018).
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 7 ---
+JournalofWaterandClimateChangeVol14No1,229
+Furthermore,GHGemissionsavoidedduetowastewaterreusewerequantifiedbytheamountofGHG(N O)avoidedby
+2
+not discharging the treated effluentto a receivingbody.Thesimplifiedequation for this quantification isgiven below:
+CO equiv:avoided(kgCO e)¼TN (mg=L)=1000(cid:2)V (m3)(cid:2)defaultconversionfactors (4)
+2 2 eff eff
+whereTN isthe TNconcentrationin theeffluent andV isthe volume ofreused effluent.
+eff eff
+CH and N O emissions from sewers, CO , CH and N O emissions from truck transport of water, emissions from the
+4 2 2 4 2
+manufacture and transport of chemicals and emissions from the construction materials used are not included in the
+ECAMtool.Thescopeofapplication,methodology,conceptualbackgroundandallthemathematicalformulationsarepre-
+sentedelsewhere(ECAM2018).IntheECAMtool,theemissionsarecountedintermsofCO equivalents.Inthisstudy,the
+2
+100-yearGWPforCH andN Oweretakenas34and298timesofCO accordingtotheIPCC5thAssessmentReport(IPCC
+4 2 2
+2013).TheemissionfactorforgridelectricityinTurkeywastakenas0.36kgCO eq/kWh(EIB2020).Themaininputsforthe
+2
+sanitationstagearegiveninSupplementaryTableS2.EmissionfactorsforCH andN Owere0.018kgCH /kgBOD
+4 2 4 removed
+and0.016kgN O-N/kgNforwastewatertreatmentand0.068kgCH /kgBOD and0.005kgN O-N/kgN for
+2 4 removed 2 removed
+treatedwastewaterdischarge.
+Managementscenarios
+The ECAM tool was applied to evaluate different management scenarios for urban water supply and sanitation stages as
+describedbelow:
+(cid:129)
+Baselinescenario:ThecurrentconditionsofwaterandwastewaterservicesinAntalyacitywereinvestigatedasthebaseline
+scenario. Physicalwaterlosses level isgiven as35.37%intheyear2020(ASAT2021).
+(cid:129)
+Improvedwatersupplyscenario:TherelatedTurkishlegislationstatesthattotalwaterlossesshouldnotbehigherthan25%
+of the system input volume (SIV) (MFWA 2014). Physical water losses usually make up 60% of the total water losses in
+Turkey (Muhammetoglu & Muhammetoglu 2017). Thus, physical water losses should not be higher than 15% of SIV
+according to Turkish legislation. This means that the existing physical water losses in Antalya city should be reduced
+from 35.37to 15%.The improved watersupplyscenarioincludestwo components.
+-reductionofNRW(reducingtotalwaterlossesto25%whichimpliesreducingphysicalwaterlossesto15%ofSIV)and
+-energyproductionfromexcesspressurein watertransmission lines.
+(cid:129)
+Improved sanitation-stagescenario: This scenarioincludes fourcomponentsas given below:
+-increasingthe populationconnected to sewersto 100%,
+-increasingenergyefficiencyin WWTPsby 10%,
+-increasingbiogas productionin theHurma WWTPby 5%,and
+-increasingreuseoftreatedwastewater to 5%.
+The above-mentioned scenario components were reported as performance improvement targets by ASAT in their yearly
+progressreports(ASAT2022).ThesecomponentsaretoberealizedbyoperationalimprovementsintheWWTPprocesses,
+theuseofmoreenergy-efficientequipmentandincreasedreuseoftreatedwastewater.Likewise,operationaloptimizationand
+technology improvements in WWTPs were reported to achieve 5–30% energy-savings (Longo et al. 2016). In fact, the
+improvedwatersupplyandsanitation-stagescenariosarerealisticforAntalyacityandalltheothermetropolitanmunicipa-
+litiesinTurkeybecausethewaterutilitiesareenforcedtoreducetotalwaterlossesinurbanWDNsbelow25%ofsysteminput
+volumetill2028,andalsotherearenationalprojectstoincreasereuseoftreatedwastewaterinTurkey.Furthermore,many
+waterutilitiesinthemetropolitancitiesofTurkeyhavesimilaroperationaltargetsandprojectstoimproveurbanwatersupply
+andsanitationservices.
+RESULTS AND DISCUSSION
+Baselinescenario
+GHG emissions and energy consumption values for the baseline scenario arepresented in Table 2, as givenby the ECAM
+tool. The total GHG emissions for both water supply and sanitation stages were about 132,457tCO eq/year for Antalya
+2
+cityfortheyear2020.ThedistributionsofGHGemissionsforthewatersupplyandsanitationstageswereabout34,459
+tCO eq/year(26.02%)and 97,998tCO eq/year(73.98%),respectively.Inthecaseoftheurbanwatercycle,abstraction
+2 2
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 8 ---
+JournalofWaterandClimateChangeVol14No1,230
+Table2 | GHGemissionsandenergyconsumptionforthebaselinescenario
+GHGemissions(kgCO2eq/ GHGemissions GHGemissions(kgCO2eq/ Energyconsumption Energyconsumption
+Stage year) (%) year/capita) (kWh/year) (%)
+Abstraction 33,466,855 25.27 23.57 92,963,487 68.19
+Treatment 992,224 0.75 0.70 2,756,179 2.02
+Distribution 0 0 0 0 0
+Totalwatersupply 34,459,080 26.02 24.27 95,719,666 70.21
+stage
+Collection 712,269 0.54 0.58 1,978,524 1.45
+Treatment 61,184,121 46.19 49.72 38,630,103 28.34
+Onsitesanitation 36,101,368 27.25 190.49 0 0
+Totalsanitation 97,997,758 73.98 79.63 40,608,627 29.79
+stage
+Total 132,456,837 100 136,328,293 100
+caused the highest CO emissions (64%), whereas distribution did not cause any GHG emissions. Considering water
+2
+supply and sanitation stages, GHG emissions were determined approximately as 52,423tCO eq/year for CO (40%),
+2 2
+47,029tCO eq/year for CH (35%) and 33,006tCO eq/year for N O (25%), as shown in Figure 3. There were no CH
+2 4 2 2 4
+andN Oemissionsfromthewatersupplystage.Withinthesanitationstage,onsitesanitationwasthemaincontributor
+2
+to CH emissions (77%), whereas wastewater treatment was the only contributor to N O emissions. For the sanitation
+4 2
+stage, the collection of wastewater caused the lowest GHG emissions (0.54%), while treatment processes caused the
+highest (46.19%) and the contribution of onsite sanitation to GHG emissions was also high (27.25%). In the case of
+energy consumption, the total energy consumption for the urban water cycle of Antalya city was about
+136,328MWh/year for the year 2020. Water supply and sanitation stages consumed about 95,720 MWh/year
+(70.21%) and 40,609MWh/year (29.79%), respectively. Abstraction was the main contributor (68.19%) to energy con-
+sumption of the urban water cycle, whereas water and wastewater treatment consumed 30.36% of all energy
+consumption. For the baseline scenario, NRW in Antalya city was high (44.1%) and also physical water losses were
+as highas 35.37%(SupplementaryTableS1).Thismeansthat35.37%oftheconsumedenergyandtheGHGemissions
+of the water supply stage are due to physical losses.
+Improvedwater supplyscenario
+ThefirstcomponentoftheimprovedwatersupplyscenarioinvolvedthereductionofNRWandphysicalwaterlosseslevelsto
+25 and 15%, respectively. Table 3 summarizes GHG emissions and energy consumption for the improved water supply
+Figure3| CO ,CH andN Oemissionsoftheurbanwatercycleforthebaselinescenario.
+2 4 2
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 9 ---
+JournalofWaterandClimateChangeVol14No1,231
+Table3 | GHGemissionsandenergyconsumptionforimprovedwatersupplyandsanitation-stagescenarios
+GHGemissions(kg GHGemissions GHGemissions(kgCO2eq/ Energyconsumption(kWh/ Energyconsumption
+Stage CO2eq/year) (%) year/capita) year) (%)
+Abstraction 25,060,387 26.15 17.65 69,612,187 61.14
+Treatment 742,990 0.78 0.52 2,063,860 1.81
+Distribution 0 0 0 0 0
+Totalwatersupply 25,803,377 26.93 18.17 71,676,047 62.96
+stage
+Collection 739,762 0.77 0.52 2,054,895 1.80
+Treatment 69,285,113 72.30 48.79 40,121,110 35.24
+Onsitesanitation 0 0 0 0 0
+Totalsanitation 70,024,875 73.07 49.31 42,176,005 37.04
+stage
+Total 95,828,252 100 113,852,052 100
+scenario. The GHG emission of the improved water supply scenario was estimated at 25,803tCO eq/year, which corre-
+2
+sponded to 26.93% of all GHG emissions for the urban water cycle. In the case of energy consumption, the improved
+water supply stage consumed about 71,676MWh/year, which makes 62.96% of all urban water energy use. With the
+reduction of physical water losses, 25% reduction in GHG emissions and energy consumption was achieved with respect
+to the baseline scenario. The abstraction substage was the main source of CO emissions (around 97%) from the water
+2
+supplystagewheretherewereno emissions ofCH andN O asshownin Figure 4.
+4 2
+GHGemissionsandspecificenergyofthedifferentwatersourcesdemonstratedwidevariationsasshowninTable4forthe
+abstraction substage for the baseline and improved urban water supply scenarios. Asthe energy consumed for abstraction,
+treatment and distribution was null for Gurkavak Springs, there were no GHG emissions for this source. For the baseline
+scenario,theGHGemissionsofdifferentwatersupplysourcesvariedbetween17.16and31.27kgCO eq/year/capita.How-
+2
+ever,GHGemissionsfortheabstractionsubstageoftheimprovedwatersupplyscenariowerereduced,andthevalueswere
+between 12.85and 23.41kgCO eq/year/capitafor the samewatersupplysources.
+2
+Thesecondcomponentoftheimprovedwatersupplyscenarioinvolvedenergyproductionfromexcesspressureinwater
+transmissionlines.TermessosWellsisanimportantwatersupplysourceforAntalyacitywhichis375mabovemeansealevel
+(asl),anditsupplieswaterbygravitytoresidentialareasclosetothesealevelwitha1,000mmdiametersteelpipe.Addition-
+ally,thesurfacelevelofGurkavakSpringsis260maslwhichsupplieswaterbygravitytomuchlowerelevationsbya350mm
+cast iron pipe. Currently, break pressure tanks are used to break the excess pressure; however, ASAT prepared feasibility
+Figure4| CO ,CH andN Oemissionsoftheurbanwatercyclefortheimprovedwatersupplyandsanitation-stagescenarios.
+2 4 2
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026
+
+--- Page 10 ---
+JournalofWaterandClimateChangeVol14No1,232
+Table4 | GHGemissionsandenergyconsumptionsforabstractionsubstagesofdifferentwatersourcesforbaselineandimprovedwater
+supplyscenarios
+GHGemission GHGemission Energyconsumption Energyconsumptionper
+Watersupplysource (kgCO2eq/year) (kgCO2eq/year/capita) (kWh/year) unitabstractedwater(kWh/m3)
+Baselinescenario
+BogacayPumpingStation 2,526,753 18.42 7,018,757 0.51
+DuralilerPumpingStation 17,251,938 29.27 47,922,051 0.81
+GurkavakSprings 0 0 0 0
+TermessosWells 8,930,020 17.16 24,805,611 0.47
+Otherwells 4,758,144 31.27 13,217,068 0.86
+Improvedwatersupplyscenario
+BogacayPumpingStation 1,892,063 13.79 5,255,730 0.51
+DuralilerPumpingStation 12,918,461 21.92 35,884,613 0.81
+GurkavakSprings 0 0 0 0
+TermessosWells 6,686,907 12.85 18,574,743 0.47
+Otherwells 3,562,956 23.41 9,897,101 0.86
+projectstoproduceenergyfromthisexcesspressure.Energyproductionfromtheexcesswaterpressureinthesetwowater
+transmission lines wasdesignedasfollows:
+(cid:129)
+Termessos-2PressureReductionPowerStationwithacapacityof0.98Mwe,yearlyelectricityproductionof7,816,000kWh
+and apay-back period of5 years
+(cid:129)
+KutukcuPressureReductionPowerStationwithacapacityof1.5Mwe,yearlyelectricityproductionof8,898,120kWhand
+a pay-backperiod of4yearsforGurkavak Springs
+Thus, the total energy production is estimated at 16,714,120kWh/year, which corresponds to 12.26% of all urban water
+energyconsumptionfor thebaselinescenario.Consequently,theenergyrecoveredfromexcesswaterpressurecorresponds
+to a savingof 6,017,083kgCO eq/yearof GHGemissions.
+2
+Improvedsanitation-stage scenario
+Fortheimplementationoftheimprovedsanitation-stagescenario,allthescenariocomponents(extensionofwastewatercol-
+lectionandtreatmentservicestothewholeresidentpopulationofAntalyacity,increasingwastewaterreuseto5%,increasing
+biogasproductionby5%andincreasingenergyefficiencyinWWTPsby10%)wereappliedsimultaneously.GHGemissions
+andenergyconsumptionlevelsfortheimprovedsanitationstagearepresentedinTable3andFigure4.GHGemissionsand
+total energy consumption of the improved sanitation stage were estimated at 70,025tCO eq/year and 42,176MWh/year,
+2
+respectively. Wastewater collection and treatment substages constituted 0.77 and 72.30% of total GHG emissions, respect-
+ively. In the case of energy consumption, collection and treatment substages consumed 1.80 and 35.24% of all urban
+water energy use, respectively. GHG emissions of the improved sanitation stage contributed to 73.07% of the total GHG
+emissions and 37.04% of the total urban waterenergy use. Since there is no onsite sanitation for the case of the improved
+sanitationstage,whichimpliesfullcoverageofwastewatercollectionandtreatment,GHGemissionsandenergyconsump-
+tion were null for onsite sanitation (Figure 4). With the implementation of the improved sanitation stage scenario, 29%
+reduction in GHG emissions was achieved with respect to the baseline scenario. The energy consumed for the sanitation
+stageincreasedby3.85%withrespecttothebaselinescenarioduetotheextensionofwastewatercollectionandtreatment
+servicestothewholeresidentpopulationofAntalyacity.AdetailedassessmentofGHGemissions,energyperformanceand
+service levelindicators for improved sanitation-stagescenarioaregivenin Table 5.
+Theimprovedsanitation-stagescenariowaseffectivetoreduceenergyconsumptionforwastewatercollection(from0.022
+to0.02kWh/m3)andwastewatertreatment(from0.43to0.39kWh/m3).Withthepreventionofonsitesanitation,theorganic
+materialremovedattheWWTPsincreasedtomorethan35,812tBOD /yearandenergyconsumedfortheremovaloforganic
+5
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/1/223/1165859/jwc0140223.pdf
+by guest
+on 27 March 2026

@@ -1,0 +1,583 @@
+--- Page 1 ---
+www.nature.com/scientificdata
+oPeN Greenhouse gas emissions from
+municipal wastewater treatment
+DaTa DeSCRIPToR
+facilities in China from 2006 to 2019
+Dan Wang 1,7, Weili Ye2,7, Guangxue Wu 3, Ruoqi Li1,4, Yuru Guan 1, Wei Zhang 2,5 ✉,
+Junxia Wang6, Yuli Shan 1 & Klaus Hubacek 1 ✉
+Wastewater treatment plants (WWtPs) alleviate water pollution but also induce resource consumption
+and environmental impacts especially greenhouse gas (GHG) emissions. Mitigating GHG emissions
+of WWtPs can contribute to achieving carbon neutrality in China. But there is still a lack of a high-
+resolution and time-series GHG emission inventories of WWTPs in China. In this study, we construct
+a firm-level emission inventory of WWTPs for CH , N O and CO emissions from different wastewater
+4 2 2
+treatment processes, energy consumption and effluent discharge for the time-period from 2006 to
+2019. We aim to develop a transparent, verifiable and comparable WWTP GHG emission inventory to
+support GHG mitigation of WWtPs in China.
+Background & Summary
+Municipal wastewater treatment facilities are the main technical solution to mitigating water pollution. But
+wastewater purification in WWTPs and other treatment facilities always comes at the cost of energy consump-
+tion, use of chemicals and environmental impacts1,2, among which, GHG emissions are of most concern3,4.
+Even though GHG emissions from wastewater make only a small contribution to global anthropogenic GHG
+emissions, it is still important to map GHG emissions from wastewater treatment systems, and to set reasonable
+targets for mitigation of GHG emissions5,6. To achieve these purposes, a comprehensive GHG inventory is a
+prerequisite. There have been numerous studies establishing GHG accounts of WWTPs7–13, but there still exist
+challenges and problems.
+Current GHG accounts often do not consider differences of treatment processes/technologies. The account-
+ing of GHG emissions of WWTPs at the regional level mainly uses IPCC emission factors, where the centralized
+biological treatment processes are only categorized into aerobic and anaerobic processes but neglect the dif-
+ferentiation of sub-categories of aerobic or anaerobic technologies7,10–14, leading to large uncertainties of GHG
+emission factors. To accurately account GHG emissions in WWTPs, detailed processes/technologies should be
+considered and analysed.
+Frequently, only CH and/or NO are accounted for, excluding CO emissions of biological treatment pro-
+4 2 2
+cesses as ‘these are generally derived from modern (biogenic) organic matter in human excreta or food waste
+and should not be included in national total emissions (IPCC 2019, Volume 5, Chapter 6, Page 7)’15. But inten-
+sive research has shown that a significant amount of fossil CO are directly emitted from WWTPs, and assuming
+2
+that all direct CO emissions are biogenic may underestimate GHG emissions16–20.
+2
+Dissolved GHG in the treated effluent themselves have the potential to be released. In addition, many water-
+ways are in eutrophic or nutrient-rich conditions, which can further induce discharged wastewater to increase
+1integrated Research on energy, environment and Society (iReeS), energy Sustainability Research institute
+Groningen (ESRIG), University of Groningen, Groningen, 9747 AG, The Netherlands. 2The Center for Beijing-Tianjin-
+Hebei Regional Environment and Ecology, Chinese Academy of Environmental Planning, Beijing, 100012, China.
+3civil engineering, School of engineering, college of Science and engineering, national University of ireland,
+Galway, Galway, H91 TK33, Ireland. 4State Key Laboratory of Pollution Control and Resource Reuse, School of the
+Environment, Nanjing University, Nanjing, 210023, China. 5State Environmental Protection Key Laboratory of
+Environmental Planning and Policy Simulation, Chinese Academy of Environmental Planning, Beijing, 100012, China.
+6State Environmental Protection Key Laboratory of Quality Control in Environmental Monitoring, China National
+Environmental Monitoring Centre, Beijing, 100012, China. 7these authors contributed equally: Dan Wang, Weili Ye.
+✉e-mail: zhangwei@caep.org.cn; k.hubacek@rug.nl
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 1
+
+--- Page 2 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+GHG emissions15. However, GHG emissions from receiving waters are rarely accounted for, due to a lack of data
+of the water quality of the recipient body of water and downstream discharge pathways. Even though some stud-
+ies considered off-site emissions from the treated effluent, only one discharge pathway of entering rivers, lakes
+or oceans was assumed7–9. To account emissions from different discharge pathways (such as direct discharge
+into rivers, lakes, reservoirs, seas, soil, and sewage irrigated farmland) is essential for identifying key emission
+sources, GHG composition and their contribution to the whole wastewater treatment system.
+Existing reginal- or national-level studies on GHG emissions accounting of wastewater treatment systems
+are not comparable. This is mainly due to different emission factors and data sources in different studies. For
+example, Zhao, et al.10 used firm-level activity data and IPCC 2006 emission factors to calculate CH emissions,
+4
+while emission factors of Yan, et al.11 were obtained from the average of four references excluding IPCC emission
+factors, and provincial-level activity data from China Environment Yearbook and China Statistical Yearbook.
+Differences in applied methodology and data sources contribute to a factor 38 difference in calculated CH
+4
+emissions for the same year.
+To solve the above gaps, we constructed a high-resolution (firm-level) and time series (from 2006 to 2019)
+GHG emission inventory of WWTPs in China. Emission sources include on-site emissions from biological
+treatment processes and off-site emissions from energy consumption and discharge pathways of the WWTP.
+We distinguished between 10 potential pathways: direct and indirect (after sewers) discharge into seas; direct
+and indirect discharge into rivers, lakes, reservoirs etc.; municipal WWPTs; direct discharge onto sewage irri-
+gated farmlands; discharge onto land; other facilities (decentralized wastewater treatment facilities); centralized
+industrial WWTPs and other discharge pathways. To account for the different emission potentials of different
+treatment technologies, we calculated emissions based on 48 separate biological, physical, chemical and phys-
+icochemical technologies and their combinations. GHG emission factors of different biological treatment tech-
+nologies in line with China’s conditions were obtained from the literature. Three GHG were estimated in this
+research, i.e., CO, NO and CH. We did not distinguish between fossil CO and biogenic CO emissions from
+2 2 4 2 2
+biological treatment but regarded CO emission as the sum of fossil CO and biogenic CO emissions.
+2 2 2
+Methods
+We include GHG emissions from domestic wastewater treated by municipal WWTPs and other facilities in this
+paper. The other facilities mainly collect and treat wastewater discharged from residential areas, tourist facilities,
+resorts, nursing homes, airports, railway stations, and other public places. Domestic wastewater collected by
+both municipal WWTPs, and other facilities maybe mixed with industrial wastewater under certain conditions.
+In this case, IPCC 2019 suggests that the mixed domestic and industrial wastewater can be considered as domes-
+tic wastewater15.
+GHG emissions of a WWTP result from on-site and off-site emissions. On-site emissions are usually defined
+as emissions induced by wastewater and sludge treatment processes of WWTPs21,22. In our study, the system
+boundary excludes GHG emissions from sludge treatment and disposal processes in a WWTP due to lack of
+data, even though it is reported that sewage sludge treatment and disposal processes account for about 40%
+GHG emissions in wastewater systems23. On the other hand, generated CH emissions from a WWTP are rarely
+4
+recovered or flared in China, we regard recovered or flared CH emissions as being zero. Therefore, on-site
+4
+emissions only refer to emissions from wastewater treatment procedures in this research. For various wastewater
+treatment technologies, biological treatment technologies generate on-site GHG emissions during wastewater
+treatment processes, but physical, chemical, and physicochemical treatment technologies do not. Off-site emis-
+sions refer to emissions from effluent, electricity consumption, production and transportation of chemicals. But
+we exclude off-site emissions generated by chemicals’ production and transportation due to lack of data for each
+WWTP, and they being negligible compared with electricity consumption13. CO emissions from electricity
+2
+consumption are fossil CO, because they come from coal-fired power generation, but CO emissions generated
+2 2
+by on-site wastewater treatment and off-site effluent are mixed with fossil CO and biogenic CO, as influent and
+2 2
+effluent COD may contain both fossil and biogenic carbon.
+Figure 1 shows a flowchart of the construction of the firm-level GHG emission inventory of wastewater treat-
+ment facilities from 2006 to 2019 in China. The first step to quantify GHG emissions of a WWTP is to judge the
+applied treatment technology. If the WWTP adopts a biological process, on-site emissions from the biological
+treatment process are calculated. Otherwise, off-site emissions from electricity consumption and the discharge
+pathway for each WWTP are quantified. Calculation of GHG emissions from each emission source was based
+on the multiplication of emission factors and activity data. The activity data for each WWTP was collected from
+China Environmental Statistics Database (CESD)24–37.
+Classification of wastewater treatment technologies and its priority. To examine GHG emissions
+of different wastewater treatment processes, we need to decide the category of technology applied in each WWTP.
+In most cases, a WWTP has a primary, secondary or tertiary treatment process, and for each process, especially in
+secondary treatment, more than one technology may be applied. It is impossible to quantify on-site GHG emis-
+sions for each technology, since we only collected data on concentration of influent and effluent pollutants for the
+whole WWTP, rather than for each technology or process. Therefore, to simplify the calculations of on-site GHG
+emissions, we first need to judge the main category of treatment technology of a WWTP, and then choose the cor-
+responding emission factors of CH, NO and CO to calculate GHG emissions generated by biological treatment
+4 2 2
+processes. The technology classification is presented in Table 1. A decision tree for determining the category of
+treatment technology of a WWTP is shown in Fig. 2.
+On-site emissions from biological treatment. CH , N O and CO emissions estimated by this
+4 2 2
+study. WWTPs or other treatment facilities, which have biological treatment processes, emit CH, NO and
+4 2
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 2
+
+--- Page 3 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+Fig. 1 The flowchart of the construction of firm-level GHG emissions inventory of wastewater treatment
+facilities from 2006 to 2019 in China. Only biological treatment processes emit on-site GHG, but physical,
+chemical, and physicochemical treatment technologies do not generate on-site GHG emissions.
+CO directly, which were calculated by Eq. 1.1, 1.2 and 1.3, respectively. The CH, NO and CO emission factors
+2 4 2 2
+of different biological treatment processes adopted in this study were obtained from the literature, and most were
+studies on GHG emission factors of existing Chinese WWTPs. On the other hand, some emission factors were
+adopted from the IPCC 2019 report, laboratory-based studies or other models, because of a lack of studies on
+emission factors of full-scale wastewater treatment processes. Detailed CH, NO and CO emission factors from
+4 2 2
+the literature were summarised in Table S1, Table S2 and Table S3, respectively. We obtained the minimum, maxi-
+mum and average values of emission factors for each biological treatment process. The average values of emission
+factors were defined as the default emission factors in this study, and they are shown in Table 2. We also list IPCC
+2019 emission factors of biological treatment processes in Table 2 for comparison. For those WWTPs or other
+treatment facilities adopted by the combined enhanced activated sludge treatment technology, their emissions
+factors are mean of emission factors of specific enhanced activated sludge treatment technologies (i.e., AO, A2O,
+OD or SBR). CH and NO are converted to the CO equivalent by Global Warming Potential (GWP) values for
+4 2 2
+100 years. The GWP of NO, CH and CO are 265, 28 and 1, respectively38.
+2 4 2
+CH4 bio,i = EF bio,CH4,j ∗ AD bio,CH4,i ∗ 28 (1.1)
+N2O bio,i = EF bio,N2O,j ∗ TN in,i ∗ 265 (1.2)
+CO2 bio,i = EF bio,CO2,j ∗ COD removed,i (1.3)
+Where, CH4 , N2O and CO2 refer to CH, NO, and CO emissions (g COeq/year) from biological
+bio,i bio,i bio,i 4 2 2 2
+treatment processes in the i th WWTP. EF (g CH/kg COD removed or g CH/kg COD), EF (g
+bio,CH4,j 4 4 bio,N2O,j
+NO/kg TN influent) and EF (g CO/kg COD removed) are three GHG emission factors of the process j
+2 bio,CO2,j 2
+in the i th WWTP. AD is activity data of biological CH emissions. There are two types of AD .
+bio,CH4,i 4 bio,CH4,i
+When the unit of EF for the process j is g CH/kg COD removed, AD is the removed COD per
+bio,CH4,j 4 bio,CH4,i
+year (kg COD removed/year) in the ith WWTP. But AD refers to the difference between influent COD
+bio,CH4,i
+mass and COD transferred to sludge if the unit of EF is g CH/kg COD. In the section of ‘Calculation of
+bio,CH4,j 4
+COD removed in the form of sludge’, we described how to estimate the COD transferred in the form of sludge
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 3
+
+--- Page 4 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+No. Treatment processes No. Treatment processes
+1 Physical Method 5.1 Anoxic/Oxic (AO)
+1.1 Physical Treatment 5.2 Anaerobic/Anoxic/Oxic (A2O)
+1.2 Filtration and Separation 5.3 Oxidation Ditch (OD)
+1.3 Membrane Separation 5.4 Sequencing Batch Reactor (SBR)
+1.4 Centrifugal Separation 6 Biofilm
+1.5 Settlement 6.1 Biofilm
+1.6 Flotation Separation 6.2 Biofilter
+1.7 Evaporation Crystallization 6.3 Rotating Biological Contactor
+1.8 Other Physical Treatment 6.4 Biological Contact Oxidation
+2 Chemical Method 7 Anaerobic Biological Method
+2.1 Chemical Treatment 7.1 Anaerobic Biological Treatment
+2.2 Neutralization 7.2 Anaerobic Hydrolysis
+2.3 Chemical Precipitation 7.3 Typical Anaerobic Reactors
+2.4 Oxidation Reduction 7.4 Anaerobic Biofilter
+2.5 Electrolysis 7.5 Other Anaerobic Biological Treatment
+Stabilization Pond, Constructed Wetland
+2.6 Other Chemical Treatment 8
+and Land Treatment
+Stabilization Pond, Constructed Wetland
+3 Physicochemical Method 8.1
+and Land Treatment
+3.1 Physicochemical Treatment 8.2 Stabilization Lagoon
+3.2 Chemical Coagulation 8.3 Oxidation Lagoon
+3.3 Adsorption 8.4 Anaerobic Lagoon
+3.4 Ion Exchange 8.5 Facultative Lagoon
+3.5 Electrodialysis 8.6 Aerated Lagoon
+3.6 Other Physicochemical Treatment 8.7 Constructed Wetland
+4 Conventional Activated Sludge 8.8 Subsurface Flow Constructed Wetland
+4.1 Aerobic Biological Treatment 8.9 Surface Flow Constructed Wetland
+4.2 Activated Sludge 8.10 Land Infiltration
+4.3 Adsorption/Biodegradation (A/B) 9 Membrane Bioreactor (MBR)
+5 Enhanced Activated Sludge Process 10 Biological Treatment
+Table 1. Classification of treatment processes of WWTPs in China . Note: Wastewater treatment technologies
+of Conventional Activated Sludge (4), Enhanced Activated Sludge Process (5), Biofilm (6), Anaerobic Biological
+Method (7), Stabilization Pond, Constructed Wetland and Land Treatment (8) all belong to subcategories of
+biological treatment processes. But for some WWTPs, their subcategories of biological treatment processes
+were not reported in the original dataset. In this case, their treatment technologies were named as Biological
+Treatment (10), and their GHG emissions are estimated by emission factors of the technology of activated
+sludge treatment (4.2 in Table 1), as it is recognized as the most popular wastewater treatment technology
+around the world.
+for each process. TN is the annually influent TN mass (kg TN influent/year) in the ith WWTP, and COD
+in,i removed,i
+is the annually removed COD (kg COD removed/year) in the ith WWTP.
+CH and N O emissions estimated by IPCC 2019. To make a comparison with our study, we also used the
+4 2
+method of IPCC 2019 to calculate CH and NO emissions from biological treatment processes. CH and NO
+4 2 4 2
+emission factors for each wastewater treatment process are from IPCC 2019 (Table 2).
+CH4 IPCC_bio,i =  EF IPCC_bio,CH4,j ∗ (COD in,i − S COD,i) − R CH4,i  ∗ 28 (1.4)
+N2O IPCC_bio,i = EF IPCC_bio,N2O,j ∗ TN in,i ∗ 265 (1.5)
+where, CH4 IPCC_bio,i and N2O IPCC_bio,i refer to CH 4 and CO 2 emissions (g CO 2eq/year) from biological treat-
+ment processes in the ith WWTP. EF IPCC_bio,CH4,j (g CH 4/kg COD) and EF IPCC_bio,N2O,j (g N 2O/kg TN influent)
+are IPCC 2019 CH and NO emission factors of the process j in the i th WWTP. COD is the annually influent
+4 2 in,i
+COD mass (kg COD influent/year) in the ith WWTP. S (kg COD removed as sludge/year) is the COD
+COD,i
+removed in the form of sludge in the ith WWTP. R is amount of CH recovered or flared from the ith
+CH4,i 4
+WWTP. This value was regarded as being zero because there are very few CH recovered or flared in China.
+4
+TN is the annually influent TN mass (kg TN influent/year) in the i th WWTP.
+in,i
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 4
+
+--- Page 5 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+Fig. 2 A decision tree for determining the category of treatment technology of a WWTP.
+Calculation of COD removed in the form of sludge.
+S COD,i = COD removed,i ∗ Y obs,j ∗ 1.42 (1.6)
+COD removed,i = (COD in − COD out) ∗ V wastewater,i (1.7)
+where, S (g COD removed as sludge/year) is the COD removed in the form of sludge in the ith WWTP,
+COD,i
+COD (g COD/year) is the COD removed of the ith WWTP. Y (g VSS/ g COD) is the observed sludge
+removed,i obs,j
+yield of process j in the ith WWTP. 1.42 (g COD/ g VSS) is the conversion factor that determine biomass con-
+centration in terms of COD39. COD and COD are influent and effluent COD concentration of the ith WWTP.
+in out
+V is the volume of treated wastewater in the ith WWTP. The coefficient of Y (g VSS/ g COD) for each
+wastewater obs,j
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 5
+
+--- Page 6 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+IPCC 2019 This study
+CH4 N2O CH4 N2O CO2
+g CH4/kg COD removed
+g CH4/kg g N2O /kg (No. 1–11); g CH4/kg g N2O /kg g CO2/kg
+No. Biological treatment technology COD TN influent COD (No, 12–27) TN influent COD removed
+1 Aerobic Biological Treatment 7.50 25.00 0.70 1.20 560.00
+2 Activated sludge 7.50 25.00 0.70 1.20 560.00
+3 AO 7.50 25.00 0.74 13.94 365.75
+4 A2O 7.50 25.00 2.66 6.19 375.53
+5 OD 7.50 25.00 4.27 2.18 510.65
+6 SBR 7.50 25.00 1.76 43.60 531.80
+7 AB 7.50 25.00 0.70 1.20 560.00
+8 Biofilm 0.00 25.00 0.00 11.67 436.20
+9 Biofilter 0.00 25.00 0.00 11.67 436.20
+10 Rotating Biological Contactor 0.00 25.00 0.00 11.67 436.20
+11 Biological Contact Oxidation 0.00 25.00 0.00 11.67 436.20
+12 Anaerobic Biological Treatment 200.00 0.00 200.00 0.00 380.50
+13 Anaerobic Hydrolysis 200.00 0.00 200.00 0.00 380.50
+14 Typical Anaerobic Reactors 200.00 0.00 200.00 0.00 380.50
+15 Anaerobic Biofilter 200.00 0.00 200.00 0.00 380.50
+16 Other Anaerobic Biological Treatment 200.00 0.00 200.00 0.00 380.50
+Stabilization Pond, Constructed Wetland
+17 68.06 11.98 68.06 11.98 502.91
+and Land Treatment
+18 Stabilization Lagoon 66.25 18.75 66.25 18.75 515.13
+19 Oxidation Lagoon 7.50 25.00 7.50 25.00 560.00
+20 Anaerobic Lagoon 200.00 0.00 200.00 0.00 380.50
+21 Facultative Lagoon 50.00 25.00 50.00 25.00 560.00
+22 Aerated Lagoon 7.50 25.00 7.50 25.00 560.00
+23 Constructed Wetland 42.50 4.94 42.50 4.94 482.54
+24 Subsurface Flow Constructed Wetland 13.75 6.39 13.75 6.39 482.54
+25 Surface Flow Constructed Wetland 100.00 2.04 100.00 2.04 482.54
+26 Land Infiltration 125.00 0.70 125.00 0.70 502.91
+27 Biological Treatment 7.50 25.00 7.50 25.00 560.00
+Table 2. Default GHG emission factors of biological treatment technologies in this study and in IPCC 2019.
+Note: The CH, NO and CO emission factors of different biological treatment processes adopted in this
+4 2 2
+study were obtained from the literature. Some emission factors were from studies on GHG emission factors of
+Chinese WWTPs. However, because of a lack of studies on emission factors of full-scale wastewater treatment
+processes in China, emission factors of some specific treatment technologies were adopted from the IPCC 2019
+report (CH and NO emission factors of anaerobic biological treatment processes (12–16) and stabilization
+4 2
+pond, constructed wetland and land treatment method (17–26)), laboratory-based studies (NO emission
+2
+factors of biofilm processes (8–11)) or other models (CO emission factors of aerobic biological treatment
+2
+process (1), activated sludge process (2), biofilm processes (8–11), and CO and CH emission factors of
+2 4
+anaerobic biological treatment processes (12–16)).
+process is from Chen et al.40. Since a membrane bioreactor (MBR) is the combination of an enhanced activated
+sludge process and a membrane process, its Y was estimated by the average value of observed sludge yield of
+obs,j
+an enhanced activated sludge process and a biofilm process. Coefficients Y of different treatment processes
+obs,j
+are shown in Table 3.
+off-site emissions from discharge pathways. Treated wastewater was discharged in one of 10 different
+pathways. Table 5 shows emission factors of CO, NO and CH of each discharge pathway. The effluent emission
+2 2 4
+factors of CH and NO were adopted from IPCC 2019, while the CO emission factors of the treated effluent were
+4 2 2
+derived from the appendix of IPCC 2019 (IPCC 2019, Volume 5, Chapter 6, Page 59-Page 60)15. The detailed der-
+ivation process of CO emission factor of effluent discharge refers to Supplementary Information ‘CO emission
+2 2
+factor of effluent discharge’. Emissions from discharge pathways were calculated by Eq. 2.1–2.3:
+CH4 eff,i = EF eff,CH4,j ∗ COD out,i ∗ 28 (2.1)
+N2O eff,i = EF eff,N2O,j ∗ TN out,i ∗ 265 (2.2)
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 6
+
+--- Page 7 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+Process Yobs (g VSS/g COD)
+Conventional Activated Sludge 0.350
+Biofilm 0.250
+Anaerobic Biological Treatment —
+Stabilization Pond, Constructed Wetland and Land Treatment —
+Biological treatment 0.350
+AO 0.290
+A2O 0.290
+OD 0.220
+SBR 0.260
+AO + A2O 0.290
+AO + OD 0.255
+AO + SBR 0.275
+AO + MBR 0.270
+A2O + OD 0.255
+A2O + SBR 0.275
+A2O + MBR 0.270
+OD + SBR 0.240
+OD + MBR 0.235
+SBR + MBR 0.255
+Table 3. Coefficients Y of biological treatment processes. Note: Coefficients Y of Anaerobic Biological
+obs obs
+Treatment processes and Stabilization Pond, Constructed Wetland and Land Treatment processes were not
+considered in this study, as they are relatively lower or more difficult to obtain compared with other biological
+treatment processes. Coefficients Y of combined enhance activated sludge treatment technology in this study
+obs
+are the average Y of specific enhance activated sludge treatment technologies.
+obs
+Regions in
+China 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019
+North 0.983 1.030 0.993 0.894 0.870 0.811 0.798 0.804 0.800 0.760 0.725 0.713 0.708 0.712
+Northeast 1.005 1.050 1.030 0.927 0.910 0.842 0.852 0.862 0.841 0.780 0.780 0.720 0.678 0.661
+East 0.864 0.905 0.884 0.783 0.769 0.749 0.757 0.761 0.748 0.703 0.678 0.648 0.589 0.590
+Central 0.944 0.975 0.997 0.853 0.771 0.724 0.734 0.738 0.723 0.651 0.615 0.606 0.571 0.572
+Northwest 0.841 0.850 0.877 0.834 0.841 0.793 0.766 0.742 0.705 0.631 0.639 0.619 0.643 0.666
+South 0.778 0.843 0.880 0.788 0.713 0.632 0.657 0.650 0.678 0.630 0.587 0.542 0.503 0.509
+Hainan 0.846 0.836 0.829 0.773 0.765 0.632 0.657 0.650 0.678 0.630 0.587 0.542 0.503 0.509
+Table 4. Baseline emission factors for regional power grid in China from 2006 to 2019 (Unit: kg CO/kWh).
+2
+CO2 eff,i = EF eff,CO2,j ∗ COD out,i (2.3)
+where, CH4 , N2O and CO2 are CH, NO and CO emissions (g COeq/year) from the discharge path-
+eff,i eff,i eff,i 4 2 2 2
+way j in the ith WWTP. EF (g CH/kg COD effluent), EF (g NO/kg TN effluent) and EF (g
+eff,CH4,j 4 eff,N2O,j 2 eff,CO2,j
+CO/kg COD effluent) are effluent emission factors of the discharge pathway j of the ith WWTP. COD (kg
+2 out,i
+COD effluent/year) and TN (kg TN effluent/year) are annually effluent COD and TN mass of the ith WWTP.
+out,i
+off-site emissions from electricity consumption. The calculation of GHG emissions from electricity
+consumption is shown in Eq. 3.1. Baseline emission factors for regional power grids in China41–44 were used in
+this study. Only CO is considered for emission factors for regional power grids without considering NO and
+2 2
+CH due to their small contributions. China’s baseline emission factors for regional power grids are presented in
+4
+Table 4.
+CO2 ele,i = EF ele,CO2,j ∗ Ele con,i (3.1)
+where, CO2 is the CO emission from electricity consumption (kg CO /year). EF (kg CO /kWh)
+ele,i 2 2 ele,CO2,j 2
+denotes the CO emission factor of province j of the studied WWTP. Ele (kWh/year) refers to the electricity
+2 con,i
+consumption of the ith WWTP.
+Uncertainty analysis. The uncertainty of GHG emissions was mainly caused by emission factors. Since
+calculation of activity data of each WWTP was based on annual on-site monitored data of the volume of treated
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 7
+
+--- Page 8 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+CH4 N2O CO2
+(g CH4/kg (g N2O/kg (g CO2/kg
+COD effluent) TN effluent) COD effluent)
+1 Discharge into seas directly 8.75 7.90 570.90
+2 Discharge into rivers, lakes, reservoirs etc. directly 47.50 7.90 570.90
+3 Enter sewers first, then discharge into rivers, lakes, and reservoirs 47.50 7.90 570.90
+4 Enter sewers first, then discharge into seas 8.75 7.90 570.90
+5 Enter municipal WWPTs 0.00 0.00 0.00
+6 Discharge into sewage irrigated farmlands directly 0.00 8.00 —
+7 Discharge into soil 0.00 8.00 —
+8 Enter other facilities (decentralized wastewater treatment facilities) 0.00 0.00 0.00
+9 Centralized industrial WWTPs 0.00 0.00 0.00
+10 Other discharge pathways 27.50 7.90 570.90
+Table 5. Emission factors of different GHG emissions from discharge pathways. Note: CH and NO emission
+4 2
+factors of discharge pathways of 5, 8, and 9 are zero, as they belong to the pathway of ‘flowing sewer’, and CH
+4
+and NO emission factors for the discharge pathway of ‘flowing sewer (open or closed)’ are zero in IPCC 2019.
+2
+We also assumed that there was no CO generation under the pathway of ‘flowing sewer’. Discharge pathway
+2
+6 and 7 were regarded as discharge into soil in this study. From IPCC 2019, default CH emission factor of the
+4
+pathway of discharge into soil was 0 g CH/kg COD effluent. We did not consider CO emissions of discharge
+4 2
+into soil, because of a lack of data on the CO emission factor of discharge into soil.
+2
+wastewater, influent and effluent concentration of pollutants and electricity consumption, there is no uncertainty
+for activity data. We analysed GHG emissions uncertainty induced by biological treatment processes and dis-
+charge pathways. The uncertainty caused by electricity consumption was not considered, because China’s regional
+power grid baseline emission factors are based on specific values rather than ranges.
+For the emission factors of biological treatment processes, we acquired the minimum, maximum and average
+emission factors of each technology from the literature. Then, we used the following Eq. 4.1 and 4.2 to calculate
+the uncertainty of emission factors.
+(EF − EF )
+UncertaintylowerboundUlb = min ave ∗ 100%
+EF (4.1)
+ave
+(EF − EF )
+UncertaintyupperboundUub = max ave ∗ 100%
+EF (4.2)
+ave
+Since the CH emission factor was determined by the multiplication of the maximum producing potential
+4
+(B) and the methane correction factor (MCF), its uncertainty was measured by Eq. 4.3. The uncertainty of B
+0 0
+(U ) is ± 30% in IPCC 2019, and the uncertainty of MCF (U ) was determined by Eq. 4.1 and 4.2. The uncer-
+B0 MCF
+tainties of NO and CO emission factors of discharge pathways were calculated by Eq. 4.1 and 4.2.
+2 2
+U = ± U2 + U2
+CH4 B0 MCF (4.3)
+We applied Monte Carlo simulations to analyse the combined uncertainty of emission factors and activity
+data. Emission factors of CH, NO and CO of biological treatment processes and discharge pathways all follow
+4 2 2
+triangular distributions, because ‘upper and lower and a preferred value are provided (IPCC 2006, Volume 1,
+Chapter 3, Page 22)’15 in this study. Random sampling on emission factors was performed 100,000 times, then
+multiplied by activity data of each GHG in each WWTP, generating 100,000 values for GHG emissions. Finally,
+uncertainty ranges of 95% confidence intervals of GHG emissions were adopted.
+Other causes that may induce uncertainties include ‘Measurement error’, ‘Lack of completeness’ and
+‘Misreporting or misclassification’. With regard to the measurement error in a real WWTP, the measured influ-
+ent and effluent concentration of pollutants and electricity consumption may be incorrect. But this uncertainty is
+difficult to quantify and control in this study. In terms of lack of completeness, the original data was incomplete
+for all WWTPs. For instance, data of some indicators was lacking, e.g., volume of treated wastewater, influent, or
+effluent concentrations of COD. When a WWTP does not have sufficient indicators, the WWTP was removed,
+and its emissions were not calculated. For the misreporting or misclassification, accurate classification of treat-
+ment technologies is the basis for calculating GHG emissions of secondary biological treatment processes, but
+uncertainties caused by misreporting and/or misclassification of treatment technologies are possible and cannot
+be easily rectified.
+Data Records
+The dataset of “Greenhouse gas emissions of wastewater treatment plants in China from 2006 to 2019” is made
+public under Figshare45. There are 400,512 data records in the dataset. These include:
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 8
+
+--- Page 9 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+Fig. 3 China’s GHG emissions from wastewater treatment (in million tons COeq) and treated wastewater
+2
+(in billion cubic meters) 2006 to 2019. Ele, Bio and Eff indicate GHG emissions from electricity consumption,
+biological treatment processes and effluent discharge.
+• 399,420 firm-level GHG emission inventories (57,060 firms, i.e., 57,060 WWTPs and other wastewater treat-
+ment facilities; for each firm, there are CH, NO and CO emissions from biological treatment processes, CO
+4 2 2 2
+emissions from electricity consumption, and CH, NO and CO emissions from the discharge pathways);
+4 2 2
+• 70 annual biological treatment GHG emission inventories (from 2006–2019, CH and NO emissions calcu-
+4 2
+lated by IPCC 2019 methodology, and CH, NO and CO emissions calculated as described in the section
+4 2 2
+of Methods);
+• 42 annual effluent GHG emission inventories (from 2006–2019, CH and NO emissions calculated by the
+4 2
+IPCC 2019 methodology, and CO emissions calculated by the method of this paper);
+2
+• 14 annual electricity CO emission inventories (from 2006–2019);
+2
+• 322 annual COeq emissions of different technologies from biological treatment processes (from 2006–2019,
+2
+23 technology categories);
+• 322 are annual CO emissions of different technologies from electricity consumption (from 2006–2019, 23
+2
+technology categories);
+• 322 annual COeq emissions of different technologies from discharge pathways (from 2006–2019, 23 tech-
+2
+nology categories).
+In this study, the firm-level GHG emission inventory provides a foundation for the remaining emission
+inventories. Based on the firm-level GHG emission inventory, annual CH, NO and CO emission inventories
+4 2 2
+of biological treatment processes, effluent and electricity consumption are presented, and annual total COeq
+2
+emissions of different technologies from biological treatment processes, electricity consumption and discharge
+pathways are also quantified.
+Figure 3 presents annual CH, NO and CO emissions from different emission sources and annual treated
+4 2 2
+wastewater from 2006 to 2019. The pie charts in Fig. 4 show the structure of treatment technology in total
+COeq emissions in 2006, 2010, 2015 and 2019, respectively. Treatment technologies are classified by main cat-
+2
+egories of processes based on the classification in Table 1. Since the enhanced activated sludge process is the
+main wastewater treatment technology in China and it includes many sub-categories, the emission structure of
+sub-categories (i.e., AO, A2O, OD and SBR) of the enhanced activated sludge process is also shown in pie charts.
+technical Validation
+Uncertainty analysis. Uncertainty of emission factors. The uncertainty of CH, NO and CO emission
+4 2 2
+factors of biological treatment technologies is presented in Table 6. For comparison, we also list the uncertainty
+of CH and NO emission factors based on IPCC 2019. The analysis by IPCC 2019 shows higher uncertainty in
+4 2
+terms of CH and NO emission factors of a majority of biological treatment technologies, due to its less detailed
+4 2
+classification of technologies. For instance, different activated sludge technologies in IPCC 2019 possess the same
+emission factors and uncertainties, because IPCC 2019 classifies all activated sludge processes into one aerobic
+process category. However, processes of AO, A2O, SBR and OD are quite different, although they are all activated
+sludge technologies. Since we collected GHG emission factors based on different categories of traditional or
+enhanced activated sludge processes, emission factors and their uncertainties of processes of AO, A2O, SBR and
+OD are different and have different ranges (Table 6). However, on-site emission factors of certain processes are
+rarely reported in the literature, and we cannot obtain their emission factors based on detailed process classifi-
+cation. For example, we applied a CH emission factor (200 g CH/kg COD) of the anaerobic process from IPCC
+4 4
+2019 to four different anaerobic processes (i.e., anaerobic hydrolysis, typical anaerobic reactors, anaerobic bio-
+filter, and other anaerobic biological treatment), due to a lack of their on-site emission factors from references.
+Therefore, reported uncertainties (−30%,39%) for CH emission factors of the four anaerobic processes are the
+4
+same. Overall, the uncertainties of GHG emission factors of different biological treatment technologies were
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 9
+
+--- Page 10 ---
+www.nature.com/scientificdata/ www.nature.com/scientificdata
+Fig. 4 Structure of treatment technology in total COeq emissions in 2006, 2010, 2015 and 2019 (in million
+2
+tons COeq). GHG emissions from enhanced activated sludge processes and conventional activated sludge
+2
+accounted for a large proportion (>80%) in 2010, 2015 and 2019. While the percentage from biological
+treatment process was very high (58%) in 2006, because for some WWTPs, their subcategories of biological
+treatment processes were not reported in the original dataset. In this case, their treatment technologies were
+named as biological treatment, and their GHG emissions were estimated by emission factors of the process of
+activated sludge treatment in this study.
+relatively high. One of the main reasons is that GHG emission factors are strongly affected by different operational
+parameters46–49 (temperature, pH, dissolved oxygen (DO), sludge retention time (SRT), hydraulic retention time
+(HRT), influent chemical oxygen demand (COD) to total nitrogen ratio (C/N), influent chemical oxygen demand
+(COD) to total phosphorus ratio (C/P), etc.) of these WWTPs.
+The uncertainty of CH, NO and CO emission factors of 10 discharge pathways is shown in Table 7. Since
+4 2 2
+CH and NO emission factors for the discharge pathway of ‘flowing sewer (open or closed)’ are zero in IPCC
+4 2
+2019, we assumed that there was no CO generation under this flowing condition. We regarded discharge path-
+2
+ways via municipal WWPTs, centralized industrial WWTPs and other facilities (decentralized wastewater treat-
+ment facilities) as discharge pathway of ‘flowing sewer’. Therefore, we do not report any uncertainty of CH, NO
+4 2
+and CO emission factors of entering municipal WWTPs, industrial WWTPs and other facilities. We considered
+2
+the discharge pathway of ‘other discharge pathways’ in this study as ‘discharge to aquatic environments (Tier 1)’
+in IPCC 2019, and its uncertainties of CH (−100%, 148%) and NO emission factors (−90%, 1394%) are the
+4 2
+largest compared with other discharge pathways. Because there are very few studies on the CO emission factor
+2
+of the treated effluent, we derived CO emission factors of lakes, rivers and reservoirs from the appendix of IPCC
+2
+2019 (IPCC 2019, Volume 5, Chapter 6, Page 59-Page 60)15, and we assumed that pathways of discharging into
+sea and ‘others’ also have the same CO emission factors. Thus, their CO emission factor uncertainties were all
+2 2
+the same, with the uncertainty of (−12%, 20%).
+Scientific Data | (2022) 9:317 | https://doi.org/10.1038/s41597-022-01439-7 10

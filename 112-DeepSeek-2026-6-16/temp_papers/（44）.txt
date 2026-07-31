@@ -1,0 +1,579 @@
+--- Page 1 ---
+water
+Article
+Analysis of the Effect of the Use of Food Waste Disposers on
+Wastewater Treatment Plant and Greenhouse Gas
+Emission Characteristics
+DowanKim andChaegunPhae*
+DepartmentofEnvironmentalEngineering,SeoulNationalUniversityofScienceandTechnology,
+Seoul01811,RepublicofKorea
+* Correspondence:phae@seoultech.ac.kr;Tel.:+82-10-6218-6617
+Abstract:Theintroductionoffoodwastedisposers(FWDs)hasbeendiscussedinvariouscountries,
+andinKorea, amethodforutilizingFWDshasbeenconsidered. Theresultsofthestudyshow
+thattheuseofFWDsismoreeco-friendlyandeconomicalthanotherformsoffoodwaste(FW)
+disposal.However,therearealsostudiesshowingthatFWDsareworse,forexample,theyaggravate
+waterpollutionanddeterioratethefunctionofmunicipalwastewatertreatmentplants(WWTPs).
+Therefore,thisstudyanalyzedtheconcentrationofpollutantsofwastewaterfromFWDandthe
+effectontheoperationrateandGHGemissionofWWTPwhenFWwasintroducedintothesewer
+byFWDusingoperationdataforeachWWTP.Asaresultoftheanalysis,whenFWDwasused,
+facilitiesexceedingtheappropriateoperationrateaccountedfor86%ofthetotalWWTP,andnet-GHG
+emissionsincreasedby58%. Throughthis,FWDwastewatershowedmuchhighercontaminant
+concentrationsthanregularwastewater;thus,theintroductionofFWDinthecurrentsituationwill
+haveanegativeeffectonmaintainingthefunctionofWWTPandreducingGHG.TointroduceFWDs,
+improvementinWWTPsregardingpollutantloadanddischargecharacteristicsofFWandinputof
+digestionsystemsthroughaseparateFWDpipe,theintroductionofhigh-efficiencyenergyfacilities,
+andtherecyclingofwastewatersludgearenecessarytoreduceGHGemissions.
+Keywords:foodwaste;foodwastedisposer;greenhousegas;operationrate;municipalwastewater
+treatmentplant
+Citation:Kim,D.;Phae,C.Analysis
+oftheEffectoftheUseofFoodWaste
+DisposersonWastewaterTreatment
+PlantandGreenhouseGasEmission
+1. Introduction
+Characteristics.Water2023,15,940.
+https://doi.org/10.3390/w15050940 Municipalwastewatertreatmentplants(WWTPs)areanintegralpartofurbansystems.
+Theyrequireasignificantamountofelectricityandcost[1,2]. Thisenergyandcostcan
+AcademicEditors:StefanoPapirio
+bereducedbyproducingbiogas. Methane(CH )andcarbondioxide(CO )areproduced
+andXuemingChen 4 2
+duringanaerobicdigestion(AD)[3,4]. Biogascanreadilybeusedasafueltogenerateheat
+Received:15December2022 orelectricityinWWTPs[5,6]. Itshouldalsobenotedthatwastewaterandsludgetreatment
+Revised:7February2023 is associated with significant financial cost and energy for WWTPs. Sludge treatment
+Accepted:24February2023 accountsfor40–60%oftotaloperatingcosts,andADhelpstoreducetheamountofsludge
+Published:28February2023
+produced[7]. Therefore,thereisstillaneedforsolutionsthatimprovetherecoveryand
+productionefficiencyofelectricalandthermalenergyinWWTPs.
+Significant amounts of food waste (FW) are generated worldwide, and typically
+exhibit the highest methane potential of any MSW component, resulting in significant
+Copyright: © 2023 by the authors.
+fugitivegreenhousegas(GHG)emissionsfromlandfills[8,9]. Thelandfillhasbeenthe
+Licensee MDPI, Basel, Switzerland.
+mostconvenientandeconomicalformofwastedisposalinmanycountriesaroundthe
+This article is an open access article
+world. However,increasingenvironmentalregulationsaimedatreducingtheamountof
+distributed under the terms and
+biodegradablemunicipalwasteandensuringthatFWgoestolandfillshaveintroduced
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// alternativemethodsofmanagingFW.
+creativecommons.org/licenses/by/ TopreventFWfrombeingdisposedinlandfills,manystudieshavebeenconducted
+4.0/). worldwidetodeterminewhetherfoodwastedisposers(FWDs)canbeused[10,11]. They
+Water2023,15,940.https://doi.org/10.3390/w15050940 https://www.mdpi.com/journal/water
+
+--- Page 2 ---
+Water2023,15,940 2of12
+areusedwithwaterwhilegrindingtoattainefficientanduniformgrindinganddischargeto
+thesewer;theyaremainlyusedunderthesink.Assuch,avastmajorityoftheFWproduced
+athouseholdlevelentersthewastewaterstreamandistreatedinWWTPs. FWDsareused
+inmanycountriesaroundtheworld,buttheirimplementationasawastemanagement
+optionhasneverbeenfullyorappropriatelyconsidered.
+WWTPsandFWDhaveaparticularlyimportantroletoplayinimplementingcircular
+economygoals. FoodwastewatertreatedwithFWDsflowstoWWTPalongthesewage
+pipe. Althoughsomearecaughtonthescreen,mostareconvertedtosludgeinthesettling
+pond and thickener. This is fed into WWTPs’ AD. FW can increase the biogas yield by
+increasing the concentration of organic matter in sludge with high organic matter and
+relativelyloworganicmatter[12]. However,inconsistentandcontradictoryresultshave
+beenreportedforeachstudy,andopinionsontheintroductionofFWDaredividedaround
+theworld. thisisduetoreasonssuchasthepropertiesoffood, treatmentprocess, and
+statusofWWTPbycountry[13].
+LookingatthepositivestudiesontheintroductionofFWD,itisarguedthatusing
+FWD is a sustainable treatment method, because the amount of FW can be reduced by
+42%, and wastewater can be treated in connection with the WWTP [14,15], which can
+reducethecostofFWcollectionandincreasebiogasproduction[16]. AstudyonFWDs
+hasalsobeenconductedinKorea,andthemethodwasfoundtobealmostassustainable
+ascomposting[17].
+LookingatthenegativestudiesontheintroductionofFWDs,itisarguedthatintro-
+ducing FW into the sewer increases the pollution load and may impair the soundness
+of wastewater treatment (including septic tanks), and is not an eco-friendly treatment
+method [18]. Household composting had the lowest impact on the environment in all
+impactcategories,whileFWDsconsumelessenergybuthavethehighesteutrophication
+potential(theemissioninWWTP),andwaterconsumptionisknowntobethehighest[19].
+Inaddition,lookingatthestudyontheeffectofFWDonthewastewatersystem,itwas
+reportedthattheBODloadincreasedby17~62%andtheSSincreasedby1.9~7.1%[20]. In
+addition,othersimilarstudiesareconcernedthatCOD,BOD,andT-NinFWmaycause
+secondaryloads[21].
+Themaincauseoftheseconflictingresearchresultscanbeseenasbeinginfluenced
+bytheFWcharacteristicsandanalysismethodsofthecountryconcernedreviewingthe
+introductionofFWD.ThecharacteristicsofFWandinformationonthewastewatersystem
+inKoreashouldbereflectedandanalyzed. However,similarstudiesconductedinKorea
+havebeenconductedonanexperimentalscale,andstudiesonthesewagesystemhavenot
+beentheoreticallyreviewed,andonlyenergyconsumptionhasbeenanalyzedforGHG
+reductioneffects.
+In Korea, FWDs are highly preferred, but their sale and use were banned in 1995,
+andmanufacturingandimportingwerebannedin1999,consideringthenegativesewage
+impact. However, in recent years, the dissemination of the separated pipe has been
+expandedalongwiththeclaimtoallowtheuseofFWDs. However,onlydiscussionsare
+beingconductedontheprosandconsoftheintroduction,andobjectivedataareneededto
+resolvethis.
+Thepurposeofthisstudywastoassesstheexistingdataonthepotentialimpactsof
+theuseofFWDsonthewastewatersystemandtheenvironment. Therefore,toanalyze,
+theeffectofintroducingFWDontheWWTP,anincreaseininflowloadonWWTPswitha
+capacityof500m3/dayormore,andtheeffectsofGHGemissionwereanalyzed.
+2. MaterialsandMethods
+2.1. CharacteristicsofWastewaterfromDischargedFoodWasteDisposer
+InKorea,biochemicaloxygendemand(BOD)andchemicaloxygendemand(COD)
+areusedasorganicmattermanagementindicatorsineffluentsfromWWTPs.
+BOD is a method for measuring biodegradable organic substances among organic
+substancesandhasdisadvantagesinthatittakesalotoftimeforanalysisanditisdifficult
+
+--- Page 3 ---
+Water2023,15,940 3of12
+to accurately quantify the total amount of organic substances in a sample due to a low
+decompositionrate. InthecaseofCOD,itcanbearelativelyaccurateindicatoroforganic
+mattercomparedtoBOD,butthedifferenceinoxidationrateaccordingtothepropertiesof
+thesampleislargeandreproducibilityislow,soithasbeenpointedoutasarepresentative
+indicator[22]. Ontheotherhand,totalorganiccarbon(TOC)canaccuratelyquantifythe
+amountoforganicmatterinthewaterbodybydirectlymeasuringtheamountofcarbon,
+reducingmeasurementerrorsandmakingitpossibletomeasurenon-degradableorganic
+matter. Therefore,TOCinthewaterqualityoffoodwastewaterwasalsoanalyzed[23].
+Anexperimentwasconductedtounderstandthecharacteristicsofthewastewater
+dischargedfromtheFWD.Intheexperiment,atotalofthreetypesofwastewaterwereana-
+lyzed: wastewaterdischargedfromwashing/dehydration(WD),wastewaterdischarged
+fromgrinding(GR),andmicrobialliquidfermentation(MLF)types.
+TheWDtypeisamethodusedingeneralhouseholds,wheretheFWisplacedina
+sink, and natural dehydration is performed by gravity. Most of the FW will end up in
+thesieve. TheGRtypeisatypicalFWDmethod,butasieveisinstalledattheendofthe
+crushingparttorecover80%ofthesolidsinFW.Theoretically,only20%ofthegroundFW
+isdischargedtothewastewater. TheMLFtypeiswhereaftergrinding,thewastewater
+istransportedtoamicrobialreactor,whichisthendecomposedbymicroorganismsand
+dischargedintothesewagesystem. Itisassumedthatallsolidsaredecomposedintowater.
+Awiderangeofgeodemographicfactors,includinglocation,lifestyle,cookinghabits,
+andsocioeconomicconditions,cansubstantiallyaffecttheamountofMSWandthusthe
+FWgenerated. Thecompositionratioofthesamplewasartificiallyproducedusingthe
+compositionratioof“Thenationalwastestatisticalsurvey5th[24]”,whichcanbeseen
+in Table 1. A sample of 500 g was used. Water was injected at 3 L/40 s, wastewater
+wascollectedusingthepipe,homogenized,andthencollectedandanalyzedby50mL.
+However,sincetheMLFtyperequiresastabilizationperiod,continuousexperimentswere
+conducted for 16 days. After measuring the pH of the collected sample, 10 mL of the
+samplewasdiluted100timesandanalyzedforTOC.Theremainingfiltratewasusedto
+analyzeTSandVS.
+Table1.Compositionofsampleusedforanalysis.
+ProcessedSample
+Category
+Weight(g) Ratio(%)
+Vegetables Kimchi(68),lettuce(34),onion(34),radishkimchi(17) 30.6
+Cereals Rice(102) 20.4
+Fruits Tomato(17),orangepeel(42),applecore(42) 20.2
+Fishmeat Grilledporkbelly(34),grilledfish(51) 17
+Leachate Soybeanpastestew(34) 6.8
+Etc. Eggshell(17),bananapeel(8) 5
+Total 500g 100
+2.2. AnalysisoftheImpactontheOperationofWWTP
+TheuseofanFWDincreasestheamountofwastewatertreatmentandpollutionload
+intheWWTP,soitmaybenecessarytoexpand. Theexpansionwasclassifiedassubjectto
+anexpansiononlywhentheutilizationratebasedonBODloadduetoFWDexceeded80%.
+Therefore,wereviewedthecostfortheexpansionandoperationofWWTP(679plantsof
+500m3/dayormore)[25].
+To analyze the effect of FWDs, the theoretical basic unit assuming the generation
+characteristicsofFWandtheamountofwastewaterwasapplied. Theoretically,theamount
+ofwastewaterbyusinganFWDwasappliedat15L/day/household(5L/1time×3times
+adayintotal). TheBODofFWisverydifferentforeachpreviousstudy[20]becauseit
+isdesirabletouseKoreanresearch; BODwasappliedasanaveragevalue(140g/L)of
+182.3g/L[26],107.9g/L[27],132.0g/L[28],T-Nwasapplied4665mg/L[29](sincethere
+isonlyonestudyinKoreawherewastewaterT-Nwasanalyzed).
+
+--- Page 4 ---
+Water2023,15,940 4of12
+The amount of FW generation was obtained in the national waste generation and
+treatmentstatusbytheMinistryofEnvironment[30].TheamountofFWinflowbyWWTPs
+fromFWDswascalculatedbymultiplyingthesewagetreatmentpopulationinthearea
+covered by the WWTP by the amount of FW generated per household in the area. For
+example,thedailyFWgenerationperhouseholdinSeoulis0.62kg,andifthenumberof
+householdschargedbyWWTPAis100,then26kg/dayofFWinflowisapplied.
+2.3. AnalysisofGHGEmissions
+FortheoperationofFWDs,electricityisusedand,energyisconsumed(theenergy
+consumedbyFWDsmaydependonthemodel,type,frequency,anddurationofuse).Inad-
+dition,manystudieshavereportedthattheGHGcausedbyusingFWDisnegligible[19,31].
+Therefore,inthisstudy,GHGemissionsgeneratedduringtheFWDusestagewereexcluded
+fromtheanalysis.
+TheeffectofFWDonGHGemissionshasbeenignoredinmoststudies. Increases
+in BOD, SS, and TKN can certainly increase GHG emissions in wastewater treatment
+processes, and increases in energy consumption and sludge transport, treatment, and
+disposalcanalsocontributetoGHGemissions.
+Thewastewatertreatmentprocessincludestwostages: mechanical(removalofsus-
+pendedandsuspendedsolids)andbiologicaltreatment(removaloforganiccontaminants,
+nitrogen, and phosphorus compounds). Mechanical treatment includes screening and
+removalofmineralsandorganicsolids. Sincethetreatmentprocessisdifferentforeach
+WWTP,theBODmaterialbalanceoftheWWTPwasusedasastandardprocessinKorea
+andisshowninFigure1. TheBODremovalrateoftheprimarysettlingcellis35%,and
+itis fedinto theanaerobic digesterin theform ofconcentrated primarysludge. Ofthe
+65%oftheBODintroducedintothebioreactorviatheprimarysettlingtank,60%(total
+inputBOD39%)isoxidized(respirationofmicroorganisms),and40%(26%ofthetotal
+inputBOD)istransferredtothesecondarysettlingtank. Ofthe26%ofBOD,about5%is
+dischargedaseffluent,about10%isreturnedtothebioreactor,andtheremainderisinput
+totheAnaerobicdigesterintheformofconcentratedsurplussludgefromthesecondary
+settlingtankassurplussludge. TheBODremovalrateoftheanaerobicdigesterisabout
+80%. Underthispremise, ifFWistreatedusinganFWD,itisbroughtintogetherwith
+wastewaterandpassesthroughthebioreactorofaWWTP,39%oftheintroducedBODis
+decomposed,andonlyabout44.4%flowsintotheAD.
+Assuming that organic matter is glucose (C H O ), the amount of methane gas
+6 12 6
+generated per 1 kg of BOD is 0.25 kg, and when converted to standard volume, it is
+0.35m3[32]. Therefore,theamountofmethanegasgeneratedwasappliedas0.35m3per
+inletBOD.EmittedGHGfromWWTPcanberoughlydividedintoCO generatedusing
+2
+energysuchaselectricityandoil,andCH andN Oemittedduringwatertreatment.CH is
+4 2 4
+generatedinanaerobicconditionsduringthewatertreatmentprocess,andN Oisgenerated
+2
+during the nitrification process, which is an aerobic condition, and the denitrification
+process,underanoxicconditions.
+GHG can be generated in the water and sludge treatment processes. In the water
+treatmentprocess,accordingtotheIPCCguidelines(2006,Tier1)[33],CO emittedfrom
+2
+wastewaterisofbiologicaloriginandisexcludedfromthecalculationofemissions,and
+CH ,CO wascalculatedaccordingtothepowerrequiredtoremoveN OandBOD.IPCC
+4 2 2
+Category6DwasappliedasamethodologyforcalculatingtheamountofGHGemitted
+frombiologicaltreatmentamongGHGemittedfromWWTP.Tocalculate,theparameters,
+theincreasedamountofwastewaterandthepollutionloadwereappliedbyaddingthe
+operationdataof679WWTP,theamountofFWgeneratedaccordingtothepopulationof
+eachfacility,andtheamounttreatedbyFWD.
+
+--- Page 5 ---
+Water 2023, 15, 940 5 of 12
+emitted from biological treatment among GHG emitted from WWTP. To calculate, the
+parameters, the increased amount of wastewater and the pollution load were applied by
+adding the operation data of 679 WWTP, the amount of FW generated according to the
+population of each facility, and the amount treated by FWD.
+The GHG calculation formula by IPCC is as follows (Table 2).
+Table 2. GHG calculation formula for WWTP(Tier 1).
+Category Contents
+(𝐵𝑂𝐷 ×𝑄 −𝐵𝑂𝐷 ×𝑄 −𝐵𝑂𝑈 ×𝑄 )×10−6×𝐸𝐹−𝑅
+𝑖𝑛 𝑖𝑛 𝑂𝑢𝑡 𝑂𝑢𝑡 𝑠𝑙 𝑠𝑙
+CH 4 Emissions
+Emissions from wastewater treatment (tCH4)
+BODIn Concentration of influent(BOD5) (mg-BOD/L)
+BODout Concentration of effluent(BOD5) (mg-BOD/L)
+BODsl Concentration of Sludge(BOD5) (mg-BOD/L)
+Qin Volume of influent (m3)
+Qout Volume of effluent (m3)
+Qsl Volume of sludge (m3)
+EF Emission factor (kg CH4/kg-BOD) 0.48
+R Methane recovery (tCH4)
+(𝑇𝑁 ×𝑄 −𝑇𝑁 ×𝑄 −𝑇𝑁 ×𝑄 )×10−6×𝐸𝐹×1.571
+𝑖𝑛 𝑖𝑛 𝑂𝑢𝑡 𝑂𝑢𝑡 𝑠𝑙 𝑠𝑙
+N2O Emissions
+Emissions: emissions from wastewater treatment (tN2O)
+TNin Concentration of influent (mg-T-N/L)
+TNout Concentration of effluent (mg-T-N/L)
+TNsl Concentration of Sludge (mg-T-N/L)
+EF Emission factor (kg N2O-N/kg-T-N) 1.571
+The amount of FW was input for each WWTP, the increased rate of inflow concen-
+tration was applied, and the amount of wastewater generated, and FW input used in the
+data was prepared using the data used when reviewing the expansion WWTP that had
+Water2023,15,940 been built as a database. For the analysis, it is assumed that an AD is installed in al5l odfo12-
+mestic WWTPs and that all the generated sludge is incinerated.
+Figure1.Materialflowchart(BODofwastewater)forwastewatertreatmentplants.RASisreturned
+Figure 1. Material flow chart (BOD of wastewater) for wastewater treatment plants. RAS is re-
+activatedsludge,WASiswastedactivatedsludge.
+turned activated sludge, WAS is wasted activated sludge.
+TheGHGcalculationformulabyIPCCisasfollows(Table2).
+Table2.GHGcalculationformulaforWWTP(Tier1).
+Category Contents
+(BOD ×Q −BOD ×Q −BOU ×Q )×10−6×EF−R
+CH Emissions in in Out Out sl sl
+4 Emissionsfromwastewatertreatment(tCH4)
+BOD Concentrationofinfluent(BOD )(mg-BOD/L)
+In 5
+BODout Concentrationofeffluent(BOD 5)(mg-BOD/L)
+BOD ConcentrationofSludge(BOD )(mg-BOD/L)
+sl 5
+Q Volumeofinfluent(m3)
+in
+Qout Volumeofeffluent(m3)
+Q Volumeofsludge(m3)
+sl
+EF Emissionfactor(kgCH /kg-BOD)0.48
+4
+R Methanerecovery(tCH )
+4
+(TN ×Q −TN ×Q −TN ×Q )×10−6×EF×1.571
+N OEmissions in in Out Out sl sl
+2 Emissions:emissionsfromwastewatertreatment(tN2O)
+TN Concentrationofinfluent(mg-T-N/L)
+in
+TNout Concentrationofeffluent(mg-T-N/L)
+TN ConcentrationofSludge(mg-T-N/L)
+sl
+EF Emissionfactor(kgN O-N/kg-T-N)1.571
+2
+TheamountofFWwasinputforeachWWTP,theincreasedrateofinflowconcentra-
+tionwasapplied,andtheamountofwastewatergenerated,andFWinputusedinthedata
+waspreparedusingthedatausedwhenreviewingtheexpansionWWTPthathadbeen
+builtasadatabase. Fortheanalysis,itisassumedthatanADisinstalledinalldomestic
+WWTPsandthatallthegeneratedsludgeisincinerated.
+3. Results
+3.1. EffluentCharacteristicsAnalysisofFoodWasteDisposer
+TheTSofWDwas1.15%,1.96%fortheGRtype,and1.07~5.75%fortheMLFtype. In
+themicrobialliquidfermentationtype,atotalof61.9%oftheinputsolidswasliquefied
+anddischarged(Table3). WhencomparingthefactthatthesolidsoutflowrateoftheMLF
+is 61.9% and the theoretically reviewed rate was 44.4%, some of the input solids seem
+
+--- Page 6 ---
+Water2023,15,940 6of12
+tobedischargedwithoutbeingdecomposed. Whencomparedwiththereferencevalues
+ofwastewater,thedehydratedwastewaterhadhigherTSandTOCthanthewastewater
+(70.5~76.6mg/L)[34]. Ontheotherhand,theMLFtypeshowedhighconcentrationsof
+TOCotherthanTS.Inthebeginning,relativelycleanwastewaterwasdischarged,butas
+theexperimentproceeded,theMLFtypeincreasedto14,800mg/L,anditwasidentified
+thatthedecompositiondidnotperformwellduetotheaccumulationphenomenoninside
+thedevice(Figure2). ConsideringthattheconcentrationofTOCgenerallyflowingintothe
+WWTPis1.7~293.7[35],itisaveryhighconcentrationofwastewater. IncreasesinTSSand
+BOD/CODratiosduetotheuseofFWDscanleadtosubsequentincreasesinsludgeand
+biogasgenerationratesdependingonthetreatmentprocessesfollowedintheWWTP.
+Table3.TSandTOCofwastewater.
+TypeofFWD
+Wash·
+Category Dehydration Grinding Microbialliquidfermentation
+(1) (2) (3)
+TS(%) 1.15 5.9 1.07~5.75
+VS/TS 82 95 91~97.1
+Water 2023, 15, 940 TOC(mg/L) 1680 5000 3724~14,800 7 of 12
+pH 7.0 6.9 5.5~7.1
+Figure2.TSandTOCofwastewaterfrommicrobialliquidfermentation.
+Figure 2. TS and TOC of wastewater from microbial liquid fermentation.
+ComparingthepH,intheFWD,theMLFtypeofwastewaterwasloweredtopH5.5.
+PotentialincreasesinHproductionfromaFWDcandamageWWTPsystems[36]. Sul-
+phidesareproducedthroughanaerobicdecompositionoforganicmatterinHwastewater.
+Itisaknowncorrosiveagentthatcanattackclaypipes,concrete,andmetalsurfaces,caus-
+ingdeteriorationandsubsequentleaksintheWWTP[37]. Inaddition,pHintheinfluent
+ofWWTPhasagreatinfluenceonmicroorganismsinthewastewatertreatmentprocess.
+MicroorganismsinthewastewatertreatmentprocessaresensitivetopHchanges,andin
+strongacidoralkaliconditions,theactivityofthemicroorganismsisreduced,andinsevere
+cases,thecellwallsandtissuesofthemicroorganismsaredestroyed,therebydestroying
+thewastewatertreatmentfunction[38].
+InFigure3a,theresultofsedimentationofwastewaterat25◦Cfor2hisshown,and
+thedegreeofsedimentationoftheFWDismorepronouncedthanthatofwashingand
+dewatering. Observation of the dry matter of the pulverized effluent for each method
+visually showed that fat, oil, and grease (FOG), and fine solids remained in the case of
+
+--- Page 7 ---
+Water 2023, 15, 940 7 of 12
+Water2023,15,940 7of12
+WD,andalargeamountoforganicmatterandoilremainedintheFWD(Figure3b). FOG
+containedinwastewatercansolidifyandsticktopipes,cloggingthesystem[39]. Through
+theaboveexperimentalresults,sincewastewatercontainspollutants,itseemsunreasonable
+aswastewateFri.gure 2. TS and TOC of wastewater from microbial liquid fermentation.
+Figure3.SedimentationphotographofwastewaterbyFWtreatmentmethod(a)anddriedphoto-
+graph(b).(1)isWD,(2)isGR,and(3)iswastewaterdischargedfromMLFtype.
+3.2. AnalysisoftheImpactontheOperationofWWTP
+WhenaFWDwasintroducedbasedonthepollutionload(BOD),thetotalinflowBOD
+loadofdomesticWWTPincreasedby51.2%,anditwasfoundtoincreaseby0.8~1.714%
+dependingontheWWTP(Figure4). Mostofthefacilitieswithahighrateofincreasein
+theinflowBODloadwerecharacterizedasWWTPoflessthan10,000m3. Thisisbecause
+thesefacilitiesareinstalledtoprovideonlyaminimalwastewatertreatmentfunction,soit
+isdifficulttorespondtoanunplannedincreaseinload. However,WWTPwithmorethan
+100,000m3 oftenexceedsthedesignstandardofBOD180ppm,soitmaybedifficultto
+handleFWDsevenforalargeWWTP.
+
+--- Page 8 ---
+Water 2023, 15, 940 8 of 12
+Figure 3. Sedimentation photograph of wastewater by FW treatment method (a) and dried photo-
+graph (b). (1) is WD, (2) is GR, and (3) is wastewater discharged from MLF type.
+3.2. Analysis of the Impact on the Operation of WWTP
+When a FWD was introduced based on the pollution load (BOD), the total inflow
+BOD load of domestic WWTP increased by 51.2%, and it was found to increase by
+0.8~1.714% depending on the WWTP (Figure 4). Most of the facilities with a high rate of
+increase in the inflow BOD load were characterized as WWTP of less than 10,000 m3.
+This is because these facilities are installed to provide only a minimal wastewater treat-
+ment function, so it is difficult to respond to an unplanned increase in load. However,
+WWTP with more than 100,000 m3 often exceeds the design standard of BOD 180 ppm,
+so it may be difficult to handle FWDs even for a large WWTP.
+As the concentration of incoming BOD increased due to FWDs, the average opera-
+tion rate was to increase by 58%. Only 95 of the total 679 facilities had WWTP with an
+operation rate of less than 80% after using FWDs (Figure 5). This means that all facilities
+corresponding to the remaining 86% exceed the appropriate operation rate. If WWTP is
+operated with an overload, wastewater that has not been treated can be discharged into
+the river as it is, which can adversely affect the ecosystem. Therefore, it was found that
+14% of facilities in Korea can introduce FWDs, and it is possible to introduce FWDs only
+in areas with lower population density than large cities. Additionally, average data were
+used in this analysis, but FW occurs intensively at specific times (morning, lunch, and
+dinner) and seasons, so the deviation will be very large. Due to this, the treatment effi-
+ciency is reduced due to the shock load of the bioreactor tank and lack of hydraulic resi-
+Water2023,15,940 dence time, and the scum and sludge overflow phenomenon may occur due to the 8laocfk1 2
+of residence time of the settling tank [40].
+FFigiguurere 44. .BBOODD coconncecnentrtartaitoionn bbefeoforere aanndd aaftfeter rththee inintrtorodduucctitoionn oof fFFWWDD bbyy ththee ccaappaaccitiyty oof fWWWWTTPP..
+AstheconcentrationofincomingBODincreasedduetoFWDs,theaverageopera-
+tionratewastoincreaseby58%. Only95ofthetotal679facilitieshadWWTPwithan
+operationrateoflessthan80%afterusingFWDs(Figure5). Thismeansthatallfacilities
+correspondingtotheremaining86%exceedtheappropriateoperationrate. IfWWTPis
+operatedwithanoverload,wastewaterthathasnotbeentreatedcanbedischargedintothe
+riverasitis,whichcanadverselyaffecttheecosystem. Therefore,itwasfoundthat14%of
+facilitiesinKoreacanintroduceFWDs,anditispossibletointroduceFWDsonlyinareas
+withlowerpopulationdensitythanlargecities. Additionally,averagedatawereusedin
+thisanalysis,butFWoccursintensivelyatspecifictimes(morning,lunch,anddinner)and
+seasons,sothedeviationwillbeverylarge. Duetothis,thetreatmentefficiencyisreduced
+duetotheshockloadofthebioreactortankandlackofhydraulicresidencetime,andthe
+Water 2023, 15, 940 9 of 12
+scumandsludgeoverflowphenomenonmayoccurduetothelackofresidencetimeofthe
+settlingtank[40].
+Figure5.ChangesintheWWTPutilizationratebeforeandaftertheFWDintroduction.
+Figure 5. Changes in the WWTP utilization rate before and after the FWD introduction.
+3.3. Analysis of GHG Emissions
+Table 4 shows the results of the analysis of the GHG emission impact of the intro-
+duction of FWD. GHG emissions are −1854 tCO2eq/day in the process of treating
+wastewater at a WWTP, and −3468 tCO2eq/day when using FWDs. This is because CO2
+emitted from wastewater is an organic source and is excluded from the calculation of
+emissions and generates energy through anaerobic digestion. In the presence of the co-
+substrate, the removal efficiency of AD was improved. It improved from 64% (single di-
+gestion) to 69–70% (co-digestion) [41].
+In terms of energy, additional power is required to remove contaminants flowing in
+from FW. The electricity required for this was calculated to be 8,718,673 KW/day when
+only wastewater is treated and 13,800,886 KW/day when FW is treated together. Con-
+verting this to the amount of GHG, it was found that 3958 tCO2eq/day and 6266
+tCO2eq/day were generated, respectively.
+The amount of wastewater sludge generated increased, and it was found that 12,471
+tons/day of wastewater treatment alone and 19,263 tons/day of wastewater sludge were
+generated when FW was treated together. Assuming that it is incinerated, and applying
+the emission factor and global warming potential, it was found that the GHG emissions
+were 3482 tCO2eq/day and 5379 tCO2eq/day, respectively.
+However, when only wastewater is treated, the net GHG emission is 5586
+tCO2eq/day, whereas when FW is treated together, the net GHG emission is 8176
+tCO2eq/day, which increases the GHG emission of the WWTP. Carbon neutrality is ad-
+versely affected when additional energy used for increased organic matter treatment is
+considered.
+The net GHG emission per ton of FW is 206.1 kgCO2/t-FW. This was higher than the
+research results of 125 kgCO2eq/t-FW [42] and 121 kgCO2eq/t-FW [17] when FW was
+treated through the conventional FWD. This is because the above two studies did not
+even consider the GHG generated during the wastewater sludge treatment process, but
+only considered the energy used for simple FWD operation and wastewater treatment.
+In addition, there is also a low difference in the amount of pollution load by the used FW
+which is 76 g/kg-FW. However, considering that it is lower than 510 kgCO2eq/t-FW
+(wastewater + FWD co-digestion) [43], if we add up the amount of GHG emitted into the
+atmosphere during the wastewater treatment process, it can be inferred that more GHGs
+are emitted.
+
+--- Page 9 ---
+Water2023,15,940 9of12
+3.3. AnalysisofGHGEmissions
+Table4showstheresultsoftheanalysisoftheGHGemissionimpactoftheintroduc-
+tionofFWD.GHGemissionsare−1854tCO eq/dayintheprocessoftreatingwastewater
+2
+ataWWTP,and−3468tCO eq/daywhenusingFWDs. ThisisbecauseCO emittedfrom
+2 2
+wastewater is an organic source and is excluded from the calculation of emissions and
+generates energy through anaerobic digestion. In the presence of the co-substrate, the
+removalefficiencyofADwasimproved. Itimprovedfrom64%(singledigestion)to69–70%
+(co-digestion)[41].
+Table4.GHGemissionsfromwastewaterandwastewater+FWDtreatmentprocess.
+Type
+Category Unit Wastewater Wastewater+FWD
+Q m3/day 20,555,969 20,881,380
+FW ton/day 0 12,564
+Influent
+mg-BOD/L 167 251
+Conc
+mg-T-N/L 41 43
+Q m3/day 19,630,950 19,941,718
+Effluent mg-BOD/L 4 4
+Conc
+mg-T-N/L 10 10
+Parameters Q ton/day 12,471 19,263
+Sludge mg-BOD/L 38,473 36,855
+Conc
+mg-T-N/L 4306 3312
+EF-CH4byWastewater kgCH 4/kgBOD 0.18452
+EF-N2ObyWastewater kgN 2O/kgT-N 0.00072
+EF-GHGbyElectric kgCO eq/kW 0.454
+2
+EF-CH4bySludge kgCH 4/ton 0.0097
+EF-N2ObySludge kgN 2O/ton 0.90
+CH4GAS m3CH 960,656 1,465,568
+4
+Wastewater CH4emissions tCH 4 −157 −239
+treatment N2Oemissions tN 2O 4.7 5.0
+GHGemissions tCO eq/day −1854 −3468
+2
+Electric KW/day 8,718,673 13,800,886
+Electricenergyconsumption
+GHGemissions tCO eq/day 3958 6266
+2
+CH4emissions tCH 0.12 0.19
+4
+Sludgedisposal N2Oemissions tN 2O 11.2 17.3
+GHGemissions tCO eq/day 3482 5379
+2
+Net-GHGemissions tCO eq/day 5586 8176
+2
+Net-GHGemissionspertonofFW kgCO eq/t-FW - 206.1
+2
+Intermsofenergy,additionalpowerisrequiredtoremovecontaminantsflowingin
+fromFW.Theelectricityrequiredforthiswascalculatedtobe8,718,673KW/daywhenonly
+wastewateristreatedand13,800,886KW/daywhenFWistreatedtogether. Converting
+thistotheamountofGHG,itwasfoundthat3958tCO eq/dayand6266tCO eq/daywere
+2 2
+generated,respectively.
+Theamountofwastewatersludgegeneratedincreased,anditwasfoundthat12,471tons/day
+ofwastewatertreatmentaloneand19,263tons/dayofwastewatersludgeweregenerated
+whenFWwastreatedtogether. Assumingthatitisincinerated,andapplyingtheemis-
+sion factor and global warming potential, it was found that the GHG emissions were
+3482tCO eq/dayand5379tCO eq/day,respectively.
+2 2
+However,whenonlywastewateristreated,thenetGHGemissionis5586tCO eq/day,
+2
+whereaswhenFWistreatedtogether,thenetGHGemissionis8176tCO eq/day,which
+2
+increasestheGHGemissionoftheWWTP.Carbonneutralityisadverselyaffectedwhen
+additionalenergyusedforincreasedorganicmattertreatmentisconsidered.
+ThenetGHGemissionpertonofFWis206.1kgCO /t-FW.Thiswashigherthanthe
+2
+research results of 125 kgCO eq/t-FW [42] and 121 kgCO eq/t-FW [17] when FW was
+2 2
+treated through the conventional FWD. This is because the above two studies did not
+
+--- Page 10 ---
+Water2023,15,940 10of12
+evenconsidertheGHGgeneratedduringthewastewatersludgetreatmentprocess,but
+only considered the energy used for simple FWD operation and wastewater treatment.
+In addition, there is also a low difference in the amount of pollution load by the used
+FWwhichis76g/kg-FW.However,consideringthatitislowerthan510kgCO eq/t-FW
+2
+(wastewater+FWDco-digestion)[43],ifweadduptheamountofGHGemittedintothe
+atmosphereduringthewastewatertreatmentprocess,itcanbeinferredthatmoreGHGs
+areemitted.
+However, these results do not mean that it is not rational to utilize FWDs. This is
+becauseGHGemissionscanbereducedbyactivelyinstallingenergy-savingfacilitiesorby
+compostinganddryingthefuelofwastewatersludgeratherthanincineration. Ifpossible,
+wastewatertreatedwithFWDsisintroducedintotheADthroughaseparatepipeandtank;
+theamountoflosscanbereducedandtheproductionofCH gascanbeincreased.
+4
+4. Conclusions
+FWDsarepracticalandrelativelyinexpensive,andtheirusecaneffectivelyreducethe
+needforseparatebinsforcollectionanddisposalandprovideamoreconvenientwayto
+disposeofFW.However,theuseofthesedevicesisassociatedwithpotentiallynegative
+impactsthatmaketheirsustainabilityunclear.
+ThisstudyanalyzedthecharacteristicsofwastewaterfromFWDs,theeffectofpollu-
+tantsonWWTPs,andtheeffectofGHGgeneration,andtheresultsareasfollows.
+AsaresultofanalyzingthecharacteristicsofwastewaterfromFWD,itwasfoundthat
+theconcentrationofpollutantswasmuchhigherthanthatofwastewater. Therefore,in
+thecaseofusingFWDs,itisacausethatitcanimposeaburdenonseparatemanagement
+andWWTPs.
+As a result of analyzing the effect of the wastewater system in Korea due to the
+introduction of FWDs, it was found that the inflow BOD increased by 51.2% based on
+thetotalamountofWWTPbroughtinandthat86%ofWWTPexceededtheappropriate
+operationrateof80%. ItseemsthatitisdifficulttocopewiththeintroductionofFWDsin
+thecurrentWWTPs.
+AsaresultofanalyzingGHGemissionsbyFWD,thenetGHGwasfoundtoincrease
+by58%. Inaddition,theGHGemissiongeneratedbyprocessing1tonofFWwasfound
+tobe206.1tCO eq. EvenifmethaneisrecoveredbybiogasfromWWTPusingFWD,the
+2
+emissionofGHGisincreased,butthisdoesnotmeanunreasonableFWdisposalusing
+FWDs. ToreduceGHGemissionsfromWWTPs,wastewatertreatedwithFWDsisdirectly
+injectedintotheADtominimizeorganicmatterlossandreduceenergyconsumption. If
+highenergyefficiencyfacilitiesareactivelyintroducedandGHGssuchassludgedryfuel
+conversionandcompostingarereduced,themethodusingFWDscanbeconsideredasa
+sustainabletreatmentmethodforFW.
+AuthorContributions:Writing—originaldraftpreparation,D.K.;writing—reviewandediting,C.P.
+Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:ThisworkwassupportedbyKoreaEnvironmentIndustry&TechnologyInstitute(KEITI)
+through “Climate Change R&D Project for New Climate Regime.”, funded by Korea Ministry of
+Environment(MOE)(2022003570003).
+DataAvailabilityStatement:RelateddataisbasedonseweragestatisticsbutwasprovidedbyK-eco
+(KoreaEnvironmentCorporation).
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. DiFraia,S.;Massarotti,N.;Vanoli,L.Anovelenergyassessmentofurbanwastewatertreatmentplants.EnergyConvers.Manag.
+2018,163,304–313.[CrossRef]
+2. Roots,P.;Sabba,F.;Rosenthal,A.F.;Wang,Y.;Yuan,Q.;Rieger,L.;Yang,F.;Kozak,J.A.;Zhang,H.;Wells,G.F.Integratedshortcut
+nitrogenandbiologicalphosphorusremovalfrommainstreamwastewater:Processoperationandmodeling.Environ.Sci.Water
+Res.Technol.2020,6,566–580.[CrossRef]

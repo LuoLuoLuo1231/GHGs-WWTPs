@@ -1,0 +1,704 @@
+--- Page 1 ---
+pubs.acs.org/est Article
+Underestimation of Sector-Wide Methane Emissions from United
+States Wastewater Treatment
+Daniel P. Moore, Nathan P. Li, Lars P. Wendt, Sierra R. Castañeda, Mark M. Falinski, Jun-Jie Zhu,
+Cuihong Song, Zhiyong Jason Ren, and Mark A. Zondlo*
+CiteThis:Environ.Sci.Technol.2023,57,4082−4090 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+.selcitra
+ABSTRACT: An increasing percentage of US waste methane (CH )
+4
+dehsilbup emissions come from wastewater treatment (10% in 1990 to 14% in
+.)CTU( 2019), although there are limited measurements across the sector,
+leading to large uncertainties in current inventories. We conducted the
+42:53:70 erahs largest study of CH 4 emissions from US wastewater treatment,
+measuring 63 plants with average daily flows ranging from 4.2 × 10−4
+yletamitigel to8.5m3s−1(<0.1to193MGD),totaling2%ofthe62.5billiongallons
+ta treated,nationally.We employedBayesianinferenceto quantifyfacility-
+6202 integratedemissionrateswithamobilelaboratoryapproach(1165cross-
+plume transects). The median plant-averaged emission rate was 1.1 g
+,32 ot
+lirpA woh s−1),andthemedianemissionfactorwas3.4×10−2gCH CH 4 s−1 (0.1−21.6 g CH 4 s−1; 10th/90th percentiles; mean (ginfluent5 7.9 g CH 4
+4
+no day biochemical oxygen demand; BOD )−1 [0.6−9.9 × 10−2 g CH (g
+no VINU snoitpo BOD 5 )−1; 10th/90th percentiles; mean 5 5.7 × 10−2 g CH 4 (g BOD 5 )−1]. 4 Using a Monte Carlo-based scaling of measured emission
+factors,emissionsfromUScentrallytreateddomesticwastewaterare1.9(95%CI:1.5−2.4)timesgreaterthanthecurrentUSEPA
+TSEWHTRON rof inventory(biasof5.4MMTCO 2 -eq).Withincreasingurbanizationandcentralizedtreatment,effortstoidentifyandmitigateCH 4
+senilediuggnirahs/gro.sca.sbup//:sptth emissions are needed.
+KEYWORDS: methane, wastewater treatment plant, mobile measurements, inverse Gaussian dispersion model,
+wastewater treatment emissions, greenhouse gas emissions inventory, aerobic treatment, anaerobic treatment
+aiv
+dedaolnwoD 1. INTRODUCTION treatment processes under anaerobic conditions.5,6 Guidelines
+developedbytheIntergovernmentalPanelonClimateChange
+Methane(CH )isapotentgreenhousegas(GHG)withglobal
+4 (IPCC) estimate CH emissions from wastewater treatment
+warming potentials of 80−83 and 27−30 over 20 and 100 4
+years’ time horizons, respectively.1 Due to the relatively short plants (WWTPs) using plant-specific treatment processes,
+atmospheric lifetime of CH (∼9 years),2 rapid mitigation sludge handling, and discharge methods.7 However, these
+4 guidelines were developed from previous monitoring studies
+eeS efforts will yield near-term results in combatting increased
+using a range of measurement techniques focused on one or
+radiative forcing and warming. Despite this, CH emissions
+4 few facilities,8−12 with a particular focus on Europe,9,12−16
+continue to increase, and the waste industry (including solid
+China,10,17 Mexico,18,19 and the US,8,20 calling into question
+and liquid waste management) is the third-largest contributor
+theirrepresentativenessacrossthesectorindifferentcountries.
+(∼15%) of global non-CO GHG emissions, behind only the
+2 Previously measured emission factors (EFs), which are often
+agricultureandenergysectors.3Further,centralizedwastewater
+definedasemissionrates(ERs)normalizedbyorganicloading,
+treatment is expanding globally in response to a growing and
+rangeseveralordersofmagnitudefrom6.2×10−4gCH (g5
+increasingly urbanized population, leading to a rise in CH 4
+4 day biochemical oxygen demand, BOD )−1 to 6.4 × 10−2 g
+emissions from these facilities. This makes understanding and 5
+CH (g BOD )−1. This large variability may be a result of
+mitigating CH emissions from wastewater treatment an 4 5
+4 differences in influent conditions, plant-specific treatment
+increasingly urgent need.
+According to the United States Environmental Protection
+Agency(USEPA),4centralizeddomesticwastewatertreatment Received: July29,2022
+in the US, including anaerobic sludge digestion, is responsible Revised: December5, 2022
+for250 kt CH (6.3 MMT CO -eq), or roughly 14% of waste Accepted: December5, 2022
+4 2
+CH emissions(1%ofnationalanthropogenicCH emissions). Published: February27, 2023
+4 4
+This is driven by the by-production of CH via the microbial
+4
+breakdown of organic waste during wastewater and sludge
+©2023TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acs.est.2c05373
+4082 Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 2 ---
+Environmental Science & Technology pubs.acs.org/est Article
+processes and/or operating conditions, or systematic biases ratory,31,32 an electric vehicle-based mobile laboratory
+fromparticularmeasurementtechniques,andlikelypropagates designed to avoid sampling self-emissions. Carbon monoxide
+to the current national-scale inventories. (CO)concentrationsfortraffic-basedcombustioninterference
+Most early quantification efforts of WWTP emissions were measured using a custom open-path, quantum cascade
+utilized bottom-up gas and water sampling.8,10 Bottom-up, laser-based sensor operating at 10 Hz.33,34 The use of open-
+process-level studies focus on a specific location and small path sensors for mobile quantification of emissions avoids the
+magnitude of emissions from individual sources, so they may difficulties associated with slower response time instruments
+not resolve large-scope facility-integrated emissions or and sampling manifolds.35 Concurrent meteorological data
+unknown sources, such as leaks,9,21 unintended anaerobic (i.e., wind speed and direction, temperature) were recorded
+processes,and/orsignificantincompletecombustion ofbiogas using an Airmar WX200 (Airmar, Milford, NH, USA), and
+produced in the system. Omission of such sources inherently data were geo-located using a 1−10Hz GPS (Garmin, Olathe,
+leadstobiasesandunderestimationsinemissionsfromthefull KS, USA). Section S1 in the Supporting Information provides
+treatment process. Contrastingly, assuming homogeneity of a more detailed description of the accuracy and precision of
+emissions from a source when measuring only a subset or
+the instruments used, in addition to the wind statistics, which
+portionofitmayleadtooverestimations.22,23Asaresult,more
+were calculated using a combination of in situ measurements
+recent studies utilize top-down, mobile-based remote-sensing
+and reanalysis data.
+techniques.9,13,14,16 The primary advantage of top-down
+Thesourceinversiontechniqueemployedinthisstudy,and
+methodologies is the ability to quantify facility-integrated
+further discussed in the following section, requires sampling
+emissions. For instance, by using a top-down, mobile-based
+the entire plume such that background CH concentration
+method via tracer release,8,15,18,21 Delre et al.14 found that a 4
+levels are reached on either side of the enhancement.
+leak in an anaerobic digester, which otherwise would likely
+Forecasted meteorological conditions were used to inform
+have been neglected by component-wise measurements,
+routeplanningbydeterminingprobableplumelocations.CH
+increased the facility CH emissions 3-fold compared to 4
+4 concentrationsweremonitoredinrealtimetoensuretraversal
+when the leak was fixed. Indeed, facility-integrated emissions
+ofthefullplume.Inaddition,foreachobservationalperiodata
+havebeenfoundtobeupto10timesgreaterthancomponent-
+WWTP, we targeted at least 10 individual transects of the
+wise measurements.9,24 However, the site access and labor
+plume. Instantaneous plumes are stochastic in nature, and
+requirements associated with tracer release restrict the ability
+prior modeling and observational work has shown that
+to efficiently analyze many plants to capture a representative
+performing 10 traverses maintains the efficiency of mobile
+sample of facilities in the country across locations, sizes, and
+sampling while minimizing the stochastic effects of turbu-
+treatment types.
+lence.27
+In this study, we measured CH emissions and quantified
+4 2.2. Integrated Gaussian Plume Dispersion Ap-
+associated uncertainties from 63 WWTPs in the US using
+proach. We employed a Gaussian dispersion model with
+mobile laboratory-based measurements with inverse Gaussian
+total reflection at the surface36 to represent the CH
+dispersion modeling and Bayesian source rate inference. The 4
+enhancements (above background) downwind of a point
+relatively large number of WWTPs allows for a better
+source (Section S2). As described by Albertson et al.,37 cross-
+understanding of the magnitude and variability of wastewater
+plume integration minimizes the uncertainty due to crosswind
+treatment emissions in the US. Gaussian dispersion modeling
+is an alternative top-down approach to quantify plant-scale turbulent variability. Therefore, integrations of both the
+emissions, which has proven effective in estimating trace gas modeled and measured plumes were used to infer source
+emissions from single-point,25,26 multi-point,27,28 and area ratesforeachobservationalperiod.AsdiscussedinSectionS3,
+sources.29,30Thisapproachrequireslessequipment,siteaccess, two screening measures and five quality control steps were
+and labor compared to other top-down methods (e.g., tracer taken to ensure that the data was valid for emission
+release), allowing for more rapid data acquisition. Although calculations using this method. Although 10 transects were
+uncertainties associated with atmospheric variability and targeted, due to sampling constraints and data quality control
+dispersion coefficients for an individual observation can be measures, 78% of observational periods utilized 10+ transects,
+larger than with a tracer release,27 by averaging many sites 13% utilized 7−9 transects, and 9% utilized 2−6 transects
+across a range of atmospheric conditions, we can compile a (though with greater uncertainty).
+more representative estimate of wastewater CH emissions, The modeled source was chosen based on satellite imagery.
+4
+which can be used to improve the current understanding of Whereapplicable,locationsofanaerobicdigesterswerechosen
+emissions from this sector. Further, current inventories are tobethepointsourceforthemodelastheyarethemostlikely
+based on guidelines that use measurements from only 14 source of CH emissions from WWTPs.11 When multiple
+4
+WWTPs and calculate emissions from each treatment step digesters were located at the facility, a location central to the
+(i.e., wastewater, solids, and discharge) individually and later appropriatestructureswaschosen.Apointsourcewasdefined
+aggregate them to a facility-integrated value. Results from the asthegeometriccenteroffacilitieswithoutanaerobicdigesters.
+current study are presented in the context of plant-specific Although this method of choosing a point source location is
+estimates using these guidelines and expand the data set used likely to introduce biases on an individual plant basis, the
+to inform them. average across many sites will converge as the actual source
+locations should be randomly distributed with respect to the
+2. MATERIALS AND METHODS
+centroid.Thereisuncertaintyassociatedwithassumingapoint
+2.1. Sampling Methods. We measured CH with an LI- source from these plants, which are likely a combination of
+4
+7700(LI-CORBiosciences,Lincoln,NE,USA),anopen-path, point and area sources both known and unknown (i.e., leaks)
+high frequency (5−10 Hz) sensor, mounted on the Princeton totheplantoperators.However,withoutfurtherknowledgeof,
+Atmospheric Chemistry Experiment (PACE) Mobile Labo- or access to, each site, multi-point or area source models
+4083 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 3 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 1. Mobile measurements of CH across emitted plume from plant W011 in August for 11 downwind transects along the far downwind
+4
+(north)sideofthehighway(a)andassociatedposteriorPDFforall22transects(b)coloredbytransectnumber.ThePDFmeasuredafterthefirst
+transectprocessedusinganinitialuninformativeuniformpriordistributionisshownasadottedblacklinein(b).MeasuredCH concentrationsare
+4
+averagedoverthenorthandsouthtransects(c),andinsetsprovideacomparisonofthemodeled(orange)andmeasured(cyan)enhancements.
+Significantenhancementsareobserveddownwindoftheanaerobicdigesterstowardthenorthendoftheplant(pinkcross).Forreference,ERA5
+modelwind direction was167°east of north.
+cannotbeused.Forafurtherdiscussionregardingtheuseand denominator, p(C|m), is the evidence function, which for
+validation of this method, the reader is referred to Section S4. ourcasemerelyensuresthatthefinalposteriorPDFintegrates
+2.3. Bayesian Inference. Although we employed an to unity. The minimum detection limit, which was calculated
+integrated Gaussian dispersion model approach, a Bayesian for each transect and is accounted for in the likelihood
+framework in conjunction with inverse dispersion modeling, function, constrains the final emission calculation. Section S5
+similar to that described by Zhou et al.,38 incorporates provides greater detail of each of these terms, as well as the
+uncertainties of both the observations and model inputs to error term, which incorporates uncertainty from both
+robustlycalculateERsandtheiroveralluncertainty.Asapplied measured and modeled values and drives uncertainty of the
+to the current analysis, this is presented using Bayes law posterior distribution. Finally, the source ER and associated
+p(C|Q, m)p (Q|m) uncertaintywereestimatedfromthefinalposteriorprobability
+p(Q|C, m) = 0 distribution for each observational period.
+p(C|m) (1) 2.4. Site Descriptions. 63 WWTPs located in the mid-
+Atlantic region and California were sampled from July 2019
+where p(Q|C, m)istheposteriorprobabilitydensityfunction
+through November 2021. Sites were chosen to encompass a
+(PDF) for the ER, Q, based on the information contained in
+wide range of treatmenttypes and flow rates. Thesampled 63
+themeasuredconcentrations,C,givenothermodelparameters,
+WWTPsspanthetypicaltreatmentprocessesrepresentativeof
+m.Thefactor p(C|Q, m)isthelikelihoodfunction, p 0(Q|m)
+plants in the US. We categorized them into three groups:
+is the prior distribution of model parameters, and the plants with anaerobic digestion (AD;1) and without AD (2)
+4084 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 4 ---
+Environmental Science & Technology pubs.acs.org/est Article
+that employ centralized aerobic wastewater treatment and (3) gCH s−1and4.5(1.9−7.4)gCH s−1,respectively;4.2(2.1−
+4 4
+plants that treat wastewater using anaerobic reactors/lagoons. 6.5) g CH s−1 combined, Figure 1b; all values represent the
+4
+Detailed treatment processes of the sampled 63 plants, which mean (10th/90th percentile) emission rate].
+are listed in Table S4, were collected by analyzing publicly 3.2. Observed Emission Rates. In the context of the
+availabledataandemailingplantofficials.Despitetheseefforts, Bayesian framework described in Section 2.3 (and further in
+specific treatment processes for the sampled plants were Section S5), the initial prior PDF is uninformative (i.e.,
+incompleteandpossiblyoutofdate.Theaveragedailyflowfor uniform), which can result in broad posterior PDFs after
+thestudiedplants(2020−2021)ranges4ordersofmagnitude
+processing just one transect. Beyond the first transect,
+from0.01to193milliongallonsperday(MGD;4.2×10−4to
+however, the posterior PDF of the previous transect defines
+8.5 m3 s−1). The 63 sampled WWTPs treat a combined
+the prior distribution, and with each subsequent transect
+averageof1332MGDorabout2%ofthe62500MGDtreated
+processed, the posterior PDF, from which the ER and
+by centralized domestic wastewater facilities in the US,
+associated uncertainty are calculated, converges (Figure 1b).
+according to the American Society of Civil Engineers.39 For
+For instance, the average relative variance after processing the
+the discussion below, we will often refer to the size categories
+finaltransectforeachobservationalperiodis0.20(seeSection
+as defined by the US EPA, where small, medium, and large
+S6foradetaileddiscussionoftheposteriorPDFconvergence).
+plantsaredefinedbyaverageflowsof<1MGD(<0.04m3s−1),
+Measured ERs for each observational period were then
+1−10MGD(0.04−0.4m3s−1),and>10MGD(>0.4m3s−1),
+determined as the expected value of the final posterior PDF.
+respectively. Sampled plants exhibit a similar size distribution
+Asummaryofestimatedemissionsandassociateduncertainties
+comparedtoallUSplants,withaslightbiastowardhigherflow
+are given in Table S6 and presented graphically in Figure 2a.
+facilitieswhenconsideringthetotalsampledflow(FigureS15).
+TheerrortermintheBayesiansourcerateestimationmethod
+Of the 63 plants in the current study, 49 reported monthly
+was largely driven by the atmospheric dispersion model
+influent data including flow and BOD (Table S5).
+5
+uncertainty.
+3. RESULTS AND DISCUSSION Overall, the final emissions estimated using the Bayesian
+framework,whichconsidersbackgroundvariability,wereabove
+3.1.ObservationsofCH Plumes.Weanalyzedatotalof
+4 the detection limit (see Section S5) for84% of transects (980
+95 observational periods for the 63 unique WWTPs as 20
+of 1,165) with the median (10th/90th percentile) detection
+plantsweresampledmultipletimes.Eachobservationalperiod
+consisted of at least 2 and up to 32 transects. In total, 1,165
+transects of instantaneous CH plumes from the WWTPs
+4
+passed quality control. Most measurements were captured
+during daylight hours, and all measurements were taken
+between 06:49 and 22:54 local time across a range of
+atmospheric and sampling conditions (Table S6).
+Figure 1a shows an example of an observational period
+where measurements were captured across 11 transects of the
+CH plume along the north path. The stochastic nature of
+4
+plume dispersion is evident by the variability in the
+instantaneous plume width and magnitude and peak location.
+Arepresentative exampleoftransect-averagedresults isshown
+in Figure 1c, which shows the averaged concentration
+measurements from 11 transects, each, for the two routes
+downwind of the plant separated by ∼25 meters. This site
+provides an opportunity to investigate the effect of downwind
+distance (i.e., turbulent dispersion) on the quantification
+method. While Figure 1a exhibits a significant variability in
+enhancement magnitude and location for the northern
+(further) downwind transects, averaging the concentration
+values across all transects results in a more Gaussian plume
+structure,asseeninFigure1c.Asexpected,theenhancements
+alongthefurthertransectsaresignificantlylowerinmagnitude
+than the nearer transects and exhibit a broader plume due to
+turbulent diffusion. The far transect peak concentration (4.2
+ppmv)is55%lowerthanthatoftheneartransect(9.4ppmv),
+and the plume widths of the far and near transects, defined as
+the distance between the 10th percentiles of the enhance-
+ments,are703and266meters,respectively.Thepoint-source Figure 2. Estimated CH 4 emission rate (a) and emission factor (b;
+emissionratenormalizedbyinfluentorganicload,whereavailable)for
+assumption, as discussed in Section 2.2, results in a narrower
+plantswithdifferentflowrates,averagedacrossobservationalperiods,
+modeled plume compared to the observations (Figure 1c);
+whereapplicable.Colors/markersindicatethetypeoftreatmentused
+however, the quantification methods incorporate uncertainty
+byeachplant.Thebestfitline,asdeterminedbyorthogonaldistance
+with regard to the true source location and configuration (see
+regression on a log−log plot, is given in (a) and the log-linear
+Section S5). The integrated plume approach with data from relationshipbetweenERandflowrate(F;slopeof1.2±0.1,intercept
+either the near or the far transects alone elicits agreeable of 1.0 ± 0.1) is given. Error bars represent the standard deviation
+emissionestimatesforthisobservationalperiod[4.8(1.7−8.1) around the mean.Bothaxesare presented onalog scale.
+4085 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 5 ---
+Environmental Science & Technology pubs.acs.org/est Article
+limit across all 1,165 transects being 0.3 (0.1−1.9) g CH s−1 small- and medium-sized [median, 3.3 × 10−2 g CH (g
+4 4
+(mean, 0.8 g CH s−1). Measured ERs for all observational BOD )−1] and large WWTPs [median, 3.8 × 10−2 g CH (g
+4 5 4
+periodsfromallsitesspanroughly4ordersofmagnitude,from BOD )−1] was found. This supports the notion that influent
+5
+0.01 to 74.8 g CH s−1 with a plant-averaged median (10th/ organiccontent,regardlessofsize,isgenerallyagoodproxyfor
+4
+90thpercentile)emissionof1.1(0.1−21.6)gCH s−1(mean, CH emissions. Further, plant-averaged EFs vary from 1.0 ×
+4 4
+7.9gCH s−1),whichagreeswellwithpreviousmeasurements 10−3 g CH (g BOD )−1 to 0.4 g CH (g BOD )−1 across all
+4 4 5 4 5
+that range from 0.01 to 33.3 g CH s−1.8,13 plants with different flows, though small (<1 MGD) plants
+4
+Out of the 63 plants sampled, 43 were sampled once, 15 demonstrated much larger variations [s.d. = 0.1 g CH (g
+4
+weresampledtwice,3weresampledthrice,1wassampledfive BOD )−1] than medium and large (>1 MGD) plants [s.d. =
+5
+times, and 1 was sampled eight times (Table S6). Measured 0.03gCH (gBOD )−1].Themedian(10th/90thpercentile)
+4 5
+ERs from plants sampled more than once were, on average, EFacrossallplantsis3.4(0.6−9.9)×10−2gCH (gBOD )−1
+4 5
+within a factor of 1.6 of the plant-averaged ER, and all were [mean, 5.7 × 10−2 g CH (g BOD )−1]. Overall, our results
+4 5
+within a factor of 3.7 across ranges of temperatures, wind support the large variability in plant-to-plant emissions
+speeds, and direction(Figure S16). Thus,replicative sampling observed in the literature.
+reveals generally consistent emissions from these plants and Asrecognizedbymanystudies,theactualEFsareinfluenced
+suggests minor day-to-day variability in CH emissions. byvariousfactors,sooneshouldtaketheaveragenumberasa
+4
+Previous mobile analyses show similar variability between rough estimate but consider the plant specificity when
+observations of the same plant. For instance, Delre et al.14 estimatingtheCH emissionsforanygivenplant.Inparticular,
+4
+found“littlevariation”inemissionsbetweenobservationswith flow variability may alter individual estimations using this
+two important exceptions with clear causation. Additionally, method as daily and sub-daily flow can range quite
+Yoshida et al.13 estimated emissions from one treatment plant significantly,11 especially for utilities with shorter collection
+over9samplingperiods,calculatingemissionsrangingafactor systemsandtraveltimes.Additionally,WWTPswithcombined
+of24.However,whenatleast10transectsweremeasuredand sewer lines and those with a greater proportion of industrial
+averaged over a given observational period, emissions were waste will experience significantly different influent statistics
+within a factor of 2.3 from the plant-averaged ER (Table 2 in (e.g., flow rate and BOD ). Variability due to instantaneous
+5
+ref 13). This highlights the importance of replicative sampling differencesinflowwasnotexplicitlyhandledinourestimation
+to determine representative plant-scale emissions. as it was assumed to be negligible compared to other
+Figure 2a shows that a significant positive correlation (R2 = uncertainties.
+0.55, p < 0.001) exists between the logarithm of the plant Many previous top-down measurements have focused on
+influentflowandthelogarithmofthemeasuredemissionrate, plants with on-site AD, and results from the current study
+determined using orthogonal distance regression. Emission demonstrate a median EF of 3.4 × 10−2 g CH (g BOD )−1
+4 5
+ratesgraduallyincreasedfrom0.1gCH s−1forplantstreating from these facilities, which agrees with the previous work
+4
+<0.1MGDwastewaterto46gCH s−1forlargerfacilitiesthat (range 2.3 × 10−2 to 6.4 × 10−2 g CH (g BOD )−1).12,14
+4 4 5
+have a flow rate of >100 MGD. Most monitored plants are in However, previous plant-integrated mobile measurements of
+the 1−10 MGD range, and CH emission rates from these WWTPswithADhavenotanalyzedplantsbelow8MGD.Of
+4
+plantsarebetween0.02and12.8gCH s−1.Thiscorrelationis the 21 plants with digestion and reported influent data, the 9
+4
+understandable as larger plants process larger amounts of with capacities <8 MGD exhibited significant overlap in
+organic matter. Finally, while Figure 2 highlights the basic measuredEFs[median:2.9×10−2gCH (gBOD )−1;10th/
+4 5
+treatment category used at the sampled facilities, we caution 90thpercentile:1.1×10−2to7.2×10−2gCH (gBOD )−1]
+4 5
+thatthereisalackofdatatodrawsignificantconclusionsbased comparedwiththose>8MGD[median:3.6×10−2gCH (g
+4
+on the relationship between treatment and facility-integrated BOD )−1; 10th/90th percentile: 0.8 × 10−2 to 8.6 × 10−2 g
+5
+emissions. CH (g BOD )−1]. Given that ∼95% of plants in the US
+4 5
+3.3. Emission Factors. Most previous works have operate <8 MGD, the relationship between EFs, treatment
+attributed large variability in WWTP CH emissions to capacity, and treatment type is crucial to understanding the
+4
+differences in treatment processes, infrastructure, and organic emissions across the sector.
+loading.10,11 Therefore, to better analyze our results across a 3.4.ScalingEmissionstotheNationalScale.TheEPA
+wide range of influent organic loadings, we calculated the inventory estimates that 6.3 million metric tons (MMT) of
+emission factors (EFs) as ERs normalized by influent BOD CO -eqCH wasemittedintheUSin2019byacombination
+5 2 4
+loading(Figure2b;2020−2021meansaregiveninTableS5). ofcentralizedaerobicandanaerobicwastewatertreatment,AD,
+Monthly averages of influent BOD concentration for the and wastewater effluent, and a further 5.8 MMT CO -eq was
+5 2
+monthduringwhicheachobservationalperiodtookplacewere emittedfromsepticsystems(notstudiedhere).4Weemployed
+used, and uncertainty was calculated as the standard deviation a Monte Carlo analysis to scale measured emissions to the
+of monthly values over the year prior to the observational national level and directly compare to the EPA inventory. A
+period. The following assumption was made in converting full description of the methods used is given in Section S7. In
+reported ERs to EFs with respect to BOD :1.2 g BOD (g short,wecategorizedtheplantsassmall,medium,andlarge,as
+5 5
+carbonaceous BOD; CBOD)−1.40 Plants lacking publicly classified by the EPA, corresponding to <1 MGD (>0.04 m3
+available monthly influent BOD concentrations (14 of 63 s−1),1−10MGD(0.04−0.4m3s−1),and>10MGD(>0.4m3
+5
+plants) are not considered in Figure 2b and the associated EF s−1), respectively. Assuming that the measured EF and
+analyses. associateduncertaintyforeachplantareequallyrepresentative
+We analyzed an unprecedented range of plant sizes and across each category, we employed bootstrapping using the
+found no clear trend in EFs among the plants with different mean and standard deviations of the measured EFs to build a
+capacities (Figure 2b). Specifically, no significant difference distribution for each size category. Thus, the magnitude and
+(Mann−Whitney nonparametric test, p = 0.31) in EFs from variability in measured EFs for each category, as discussed in
+4086 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 6 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Section3.3,directlydrivethescaledemissionsforallplantsof current EPA inventory of 6.3 MMT CO -eq yr−1 corresponds
+2
+thatsize,nationally.AMonteCarloapproachwasthenapplied to the mode of the resulting distribution. This suggests an
+to quantify the emissions by randomly selecting values from increase of the sector-wide emissions (including septic
+the distributions of each category, multiplying by the amount systems) to 17.4 MMT CO -eq, or 2.5% of all US
+2
+of waste treated by that category, and finally summing the anthropogenicCH emissions(currently1.8%).Analternative
+4
+emissions into a combined sector-wide emission. approach using a regression analysis between measured and
+Figure 3 shows the distribution of resulting national-scale estimated emissions yields similar results (see Section S8).
+emissions, as determined by the Monte Carlo analysis, 3.5. Comparison to IPCC/EPA-Based EFs. While
+measured EFs showed no correlation with plant size, an
+alternative approach to investigating this relationship is to
+compare measured emissions to those estimated using IPCC
+guidelines, which serve as the basis for the current national
+EPA inventory. Following these guidelines (Section S9),
+emissions are estimated from each wastewater line, sludge
+line, and discharge according to plant-specific data and
+subsequently aggregated to estimate facility-integrated emis-
+sions.Uncertaintyforeachestimationisbasedontherangeof
+monthly values foreachrelevant parameter. Adefaultvalue of
+250 mg BOD L−1 (±30%) was used for plants without
+5
+reportedBOD dataandisgreaterthantheproposed“medium
+5
+strength” value for untreated domestic wastewater (190 mg
+L−1).41 This value was used as a conservative estimate as it is
+near the 75th percentile of known BOD values from the
+5
+sampledplants. UsingaMonte Carloapproach toincorporate
+the levels of uncertainty inherent in the IPCC’s methodology,
+Figure 3. Distribution of US emissions from domestic wastewater resultingEFsforthesampledplantsrangedfrom0.005to0.05
+treatment,excludingsepticsystems.Forreference,theexpectedvalue g CH (g BOD )−1. Overall, measured EFs from 71% of
+4 5
+(mean) of the lognormal distribution (vertical green solid line) and sampled plants were greater than the upper limit of IPCC-
+thecurrentUSEPAinventory(verticaldottedblackline)areshown. recommended EFs for the dominant US treatment type
+(centralized aerobic, Section S9).
+comparedtothecurrentinventory.Bycalculatingtheexpected We calculated the ratios between measured emissions and
+value (mean) of the resulting lognormal distribution (green IPCC-based estimates (Section S10), which are displayed in
+vertical line), we found that emissions from centrally treated Figure4.Themedian(10th/90thpercentile)ratiofromthe63
+domestic wastewater in the US are 11.6 (95% CI: 9.2−14.8) sampled WWTPs is 2.9 (0.6−12.7). Moreover, the median
+MMT CO -eq yr−1, or a factor of 1.9 (95% CI: 1.5−2.4) ratio from treatment plants with AD (n = 28) is 3.2. In a
+2
+greater than the current EPA inventory. For context, the bottom-upstudy,Daelmanetal.11showedthatroughly75%of
+Figure4.RatioofmeasuredCH emissionstoIPCC-basedestimatesfor63domesticwastewatertreatmentplantsplottedbyflowrate(MGD).
+4
+Bothaxesareplottedonalogarithmicscale.Colors/markersindicatethetypeoftreatmentusedbyeachplant.Valueslyingabovetheone-to-one
+line(blackdottedhorizontalline)areshadedblue,representingmeasurementsthataregreaterthanIPCC-basedestimates.Conversely,valueslying
+belowtheone-to-onelineareshadedorange,suggestingthattrueemissionsareoverestimatedwhenusingtheIPCCguidelines.Themedianratio
+of2.9 acrossall measured sitesis presented (redline).For clarity,error barsinthe x-direction areomitted.
+4087 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 7 ---
+Environmental Science & Technology pubs.acs.org/est Article
+plant-integrated emissions were from the anaerobic digesters. Our mobile sensing approach provides a rigorous and
+ThesesuggestthatIPCCmethods,whichfailtoprovideaclear convenientmethodforlarge-scalemonitoringofWWTPGHG
+guidance on aerobic treatment plants with on-site AD,18,19 emissions. In addition, our method allows us to sample many
+overestimatetheefficiencyofthesesystemsintermsoffugitive plants to gain a more representative sample size while
+emissions. averaging out biases associated with source location errors at
+Figure 4 also suggests that IPCC guidelines disproportion- individual plants. The current methodology provides a
+ally underestimate emissions from small- and medium-sized framework to measure many plants efficiently, often several
+plants. Specifically, the median ratio of measured to estimated inaday,whichisusefulforexaminingemissionsfromarange
+emissions for plants with an average daily flow of <10 MGD, of treatment processes observed in the US.
+whichrepresent∼97%ofplantsintheUS,42is3.2.Incontrast, This study presents CH emissions from plants that
+4
+themedianratioforlargeplants(>10MGD)is2.5,suggesting represent approximately 2% of centrally treated wastewater in
+that the IPCC guidelines not only underestimate the large the US. The number of facilities measured (63) is more than
+plants but also are especially unrepresentative of small- and four times the number used to develop current IPCC-based
+medium-sized facilities. guidelines for predicting emissions (14). The current CH 4
+emissions inventory is significantly underestimated, and
+additional data from plant operators of the sampled utilities,
+4. IMPLICATIONS AND FUTURE WORK
+suchasexistingtreatmentprocessesanddailyloading,canlead
+We have presented the largest study of CH 4 emission to the development of measurement-informed EFs, by
+measurements of WWTPs by the number of sites and treatment type, which may be used to update the existing
+treatment types sampled for ER inter-comparison. We IPCC guidelines and inform more accurate emission
+measured ERs, normalized EFs, and associated uncertainties inventories. Despite gathering all publicly available data,
+from 63 WWTPs in the mid-Atlantic and California. These process-level data were incomplete and/or out of date, and
+plants were sampled across 95 observational periods over a efforts to obtain this information are ongoing. Although this
+range of atmospheric conditions. We found that estimates studyprovidesthelargestandmostcomprehensiveanalysis of
+based on the IPCC guidelines underestimate emissions from wastewaterCH emissionswithregardtotherangeofWWTP
+4
+most WWTPs measured in the current study, especially those sizes (i.e., average flow rates) and treatment types, it is still
+with lower daily influent flow. Based on the actual monitoring limited with regard to intensive analyses of specific treatment
+across the 63 plants of different sizes, the true CH emissions processes, geographic diversity, and seasonal and diurnal
+4
+are 1.9 times higher than IPCC/EPA estimates, equating to a dependences. Therefore, further investigation is needed to
+5.1 MMT CO -eq low bias in current inventories,4 if our developrobustsector-wideemissioninventoriesconsideringall
+2
+results are representative. The Monte Carlo scaling revealed a relevant variability.
+highly skewed distribution, which has also been seen in other ■
+industries(e.g.,gasandoil43)andiscausedbytheexistenceof
+ASSOCIATED CONTENT
+afewlargeemitters.Inthecaseofwastewatertreatment,thisis
+* sı Supporting Information
+understandable given the similarly skewed distribution of US
+The Supporting Information is available free of charge at
+WWTP throughput.
+https://pubs.acs.org/doi/10.1021/acs.est.2c05373.
+Evidencefromfacilitiesthatweresampledmultipletimesin
+the current study revealed no relationship between emissions Underestimationofmethaneemissionsfromwastewater
+andenvironmentalvariables,suchaswindspeedanddirection, treatmentmethane,sitessampled,andfullresults(PDF)
+temperature, season, and time of day. Previous research11,44
+hasshowntheexistenceofadiurnalpatterninCH emissions ■
+4
+coinciding with influent flow and/or storage of dewatered AUTHOR INFORMATION
+solids,withageneralincreaseinemissionsduringthemorning, Corresponding Author
+daytime maxima, and early morning minima. Therefore, more Mark A. Zondlo − Department of Civil & Environmental
+work is needed to quantify the timing and magnitude of
+Engineering, Princeton University, Princeton, New Jersey
+diurnal patterns in CH emissions from WWTPs, but we
+4 08544, United States; orcid.org/0000-0003-2302-9554;
+acknowledge that the presented measurements exhibit a
+Email: mzondlo@princeton.edu
+daytime bias (Figure S17) that we do not correct. We expect
+this bias to be highly plant specific based on influent flow Authors
+characteristics, wastewater/solid residence times, and treat- Daniel P. Moore − Department of Civil & Environmental
+ment practices, among other things, and it therefore needs Engineering, Princeton University, Princeton, New Jersey
+more investigation. 08544, United States; orcid.org/0000-0002-6208-0224
+As global population and urbanization rates rise, the Nathan P. Li − Department of Civil & Environmental
+environmental impacts of waste and wastewater treatment Engineering, Princeton University, Princeton, New Jersey
+will become increasingly important. Our findings suggest that 08544, United States
+IPCC-based estimates underestimate CH emissions across all Lars P. Wendt − Department of Civil & Environmental
+4
+sizes of WWTPs, especially those with AD. The US EPA Engineering, Princeton University, Princeton, New Jersey
+categorizes WWTPs as small (<1 MGD), medium (1−10 08544, United States
+MGD), and large (>10 MGD), and although medium and Sierra R. Castañeda − Departmentof Civil &Environmental
+large plants make up approximately 20% of the plants in the Engineering, Princeton University, Princeton, New Jersey
+US and serve 89% of the nation’s population served by 08544, United States; Now at Department of Earth Systems
+centralized treatment,42 the effect of plant size on CH Science, Stanford University, Stanford, California 94305,
+4
+emissions has not been robustly studied previous to this. United States
+4088 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 8 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Mark M. Falinski − Department of Civil & Environmental Y., Goldfarb, L., Gomis, M. I., Huang, M., Leitzell, K., Lonnoy, E.,
+Engineering and Andlinger Center for Energy and the Matthews,J.B.R.,Maycock,T.K.,Waterfield,T.,Yelekci,O.,Yu,R.,
+Environment, Princeton University, Princeton, New Jersey Zhou, B., Eds.; Cambridge University Press: Cambridge, U.K. and
+08544, United States New York, NY, USA, 2021, p 1017. DOI: 10.1017/
+Jun-Jie Zhu − Department of Civil & Environmental 9781009157896.009.
+(2)Prather,M.J.;Holmes,C.D.;Hsu,J.ReactiveGreenhouseGas
+Engineering and Andlinger Center for Energy and the
+Scenarios: Systematic Exploration of Uncertainties and the Role of
+Environment, Princeton University, Princeton, New Jersey
+Atmospheric Chemistry.Geophys.Res. Lett.2012, 39, 6−10.
+08544, United States; orcid.org/0000-0002-7546-2870
+(3)Yusuf,R.O.;Noor,Z.Z.;Abba,A.H.;Hassan,M.A.A.;Din,M.
+Cuihong Song − Department of Civil & Environmental
+F. M. Methane Emission by Sectors: A Comprehensive Review of
+Engineering, Princeton University, Princeton, New Jersey
+EmissionSourcesandMitigationMethods.Renew.Sustain.EnergyRev.
+08544, United States 2012, 16, 5059−5070.
+Zhiyong Jason Ren − Department of Civil & Environmental (4) US EPA. Inventory of U.S. Greenhouse Gas Emissions and Sinks
+Engineering and Andlinger Center for Energy and the 1990-2019,2021.
+Environment, Princeton University, Princeton, New Jersey (5)El-Fadel,M.;Massoud,M.MethaneEmissionsfromWastewater
+08544, United States; orcid.org/0000-0001-7606-0331 Management. Environ. Pollut.2001, 114,177−185.
+(6)Nguyen,T.K.L.;Ngo,H.H.;Guo,W.;Chang,S.W.;Nguyen,
+Complete contact information is available at:
+D. D.; Nghiem, L. D.; Liu, Y.; Ni, B.; Hai, F. I. Insight into
+https://pubs.acs.org/10.1021/acs.est.2c05373
+Greenhouse Gases Emissions from the Two Popular Treatment
+Technologies in Municipal Wastewater Treatment Processes. Sci.
+Author Contributions Total Environ. 2019, 671, 1302−1313.
+D.M., N.L., L.W., and S.C. collected data. M.Z., N.L., M.F., (7) Doorn, M.; Treatment, W.; Guidelines, I.; Irving, W.;
+Z.J.R., C.S., and J.Z. advised D.M. in data analysis. D.M. Greenhouse, N.; Inventories, G. 2019 Refinement to the 2006
+compiledtheanalysisinto thismanuscriptwithfeedbackfrom IPCCGuidelinesforNationalGreenhouseGasInventoriesChapter6
+all other authors. WastewaterTreatmentandDischarge.WastewaterTreat.Disch.2019,
+5, 7−65.
+Funding
+(8) Czepiel, P. M.; Crill, P. M.; Harriss, R. C. Methane Emissions
+The Alfred P. Sloan Foundation and the High Meadows
+from Municipal Wastewater Treatment Processes. Environ. Sci.
+Environmental Institute (formerly Princeton Environmental
+Technol. 1993, 27,2472−2477.
+Institute)fundedthisstudy.WealsothanktheWaterResearch (9)YverKwok,C.E.;Müller,D.;Caldow,C.;Lebeg̀ ue,B.;Mønster,
+Foundation for cost share funding via the 2021 Paul L. Busch J.G.;Rella,C.W.;Scheutz,C.;Schmidt,M.;Ramonet,M.;Warneke,
+Award and coordination with facilities on field campaigns. T.; Broquet, G.; Ciais, P. Methane Emission Estimates Using
+Notes Chamber and Tracer Release Experiments for a Municipal Waste
+The authors declare no competing financial interest. Water TreatmentPlant.Atmos.Meas. Tech.2015, 8, 2853−2867.
+(10) Wang, J.; Zhang, J.; Xie, H.; Qi, P.; Ren, Y.; Hu, Z. Methane
+■
+Emissions from a Full-Scale A/A/O Wastewater Treatment Plant.
+ACKNOWLEDGMENTS
+Bioresour. Technol.2011, 102, 5479−5485.
+The authors would like to thank Allen Dai, Vladislav (11)Daelman,M.R.J.;vanVoorthuizen,E.M.;vanDongen,U.G.
+Sevostianov,andJamesMcSpirittforhelpwithdataacquisition J.M.; Volcke,E.I. P.;van Loosdrecht,M. C.M.Methane Emission
+and Da Pan, James McSpiritt, and Xuehui Guo for technical duringMunicipalWastewaterTreatment.WaterRes.2012,46,3657−
+assistance and guidance. 3670.
+■ (12)Daelman,M.R.J.;vanVoorthuizen,E.M.;vanDongen,L.G.
+ABBREVIATIONS J.M.;Volcke,E.I.P.;vanLoosdrecht,M.C.M.MethaneandNitrous
+Oxide Emissions from Municipal Wastewater Treatment - Results
+AD anaerobic digestion
+from aLong-TermStudy. WaterSci. Technol.2013, 67, 2350−2355.
+WWTP wastewater treatment plant (13) Yoshida, H.; Mønster, J.; Scheutz, C. Plant-Integrated
+WW wastewater Measurement of Greenhouse Gas Emissions from a Municipal
+EPA Environmental Protection Agency Wastewater TreatmentPlant.WaterRes. 2014, 61,108−118.
+MGD million gallons per day (14) Delre, A.; Mønster, J.; Scheutz, C. Greenhouse Gas Emission
+PDF probability density function Quantification from Wastewater Treatment Plants, Using a Tracer
+ECMWF European Center for Medium-Range Weather GasDispersionMethod.Sci.TotalEnviron.2017,605-606,258−268.
+Forecasts (15)Tumendelger,A.;Alshboul,Z.;Lorke,A.MethaneandNitrous
+ERA5 ECMWF 5th Generation Re-Analysis product Oxide Emission from Different Treatment Units of Municipal
+Wastewater Treatment Plants in Southwest Germany. PLoS One
+IPCC Intergovernmental Panel on Climate Change
+2019, 14, No. e0209763.
+BOD 5 day biochemical oxygen demand
+5 (16) Samuelsson, J.; Delre, A.; Tumlin, S.; Hadi, S.; Offerle, B.;
+EF emission factor
+Scheutz, C. Optical Technologies Applied alongside On-Site and
+ER emission rate
+Remote Approaches for Climate Gas Emission Quantification at a
+CBOD carbonaceous biochemical oxygen demand
+Wastewater TreatmentPlant.WaterRes. 2018, 131, 299−309.
+■ (17)Zhao,X.;Jin,X.K.;Guo,W.;Zhang,C.;Shan,Y.L.;Du,M.X.;
+REFERENCES
+Tillotson, M. R.; Yang, H.; Liao, X. W.; Li, Y. P. China’s Urban
+(1)Forster,P.;Storelvmo,T.;Armour,K.;Collins,W.;Dufresne,J.- Methane Emissions From Municipal Wastewater Treatment Plant.
+L.; Frame, D.; Lunt, D. J.; Mauritsen, T.; Palmer, M. D.; Watanabe, Earth’s Futur.2019, 7, 480−490.
+M.; Wild, M.; Zhang, H.Earth’s Energy Budget, Climate Feedbacks, (18) Noyola, A.; Paredes, M. G.; Güereca, L. P.; Molina, L. T.;
+andClimateSensitivity.InClimateChange2021:ThePhysicalScience Zavala, M. Methane Correction Factors for Estimating Emissions
+Basis.ContributionofWorkingGroupItotheSixthAssessmentReportof fromAerobicWastewaterTreatmentFacilitiesBasedonFieldDatain
+theIntergovernmentalPanelonClimateChange;Masson-Delmotte,V., MexicoandonLiteratureReview.Sci.TotalEnviron.2018,639,84−
+Zhai,P.,Pirani,A.,Connors,S.,Pean,C.,Berger,S.,Caud,N.,Chen, 91.
+4089 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090
+
+--- Page 9 ---
+Environmental Science & Technology pubs.acs.org/est Article
+(19) Paredes, M. G.; Güereca, L. P.; Molina, L. T.; Noyola, A. (36) Seinfeld, J. H.; Pandis, S. N.Atmospheric Diffusion. In
+MethaneEmissionsfromAnaerobicSludgeDigestersinMexico:On- Atmospheric Chemistry and Physics : From Air Pollution to Climate
+SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019, Change; John Wiley & Sons: Incorporated: Hoboken, NJ, 2016, pp
+656,468−474. 763−828.
+(20) Doorn, M.; Strait, R.; Barnard, W.; Eklund, B.Estimates of (37) Albertson, J. D.; Harvey, T.; Foderaro, G.; Zhu, P.; Zhou, X.;
+Global Greenhouse Gas Emissions from Industrial and Domestic Ferrari, S.; Amin, M. S.; Modrak, M.; Brantley, H.; Thoma, E. D. A
+Wastewater Treatment: Washington, D.C., 1997.EPA/600/R-97/091 Mobile Sensing Approach for Regional Surveillance of Fugitive
+(NTISPB98-106420). MethaneEmissionsinOilandGasProduction.Environ.Sci.Technol.
+(21) Gal̊falk, M.; Pal̊edal, S. N.; Sehlén, R.; Bastviken, D. Ground- 2016, 50, 2487−2497.
+Based Remote Sensing of CH4 and N2O Fluxes from a Wastewater (38)Zhou,X.;Passow,F.H.;Rudek,J.;vonFisher,J.C.;Hamburg,
+Treatment Plant and Nearby Biogas Production with Discoveries of S.P.;Albertson,J.D.EstimationofMethaneEmissionsfromtheU.S.
+UnexpectedSources.Environ. Res. 2022, 204, 111978. Ammonia Fertilizer Industry Using a Mobile Sensing Approach.
+(22) Gruber, W.; Villez, K.; Kipf, M.; Wunderlin, P.; Siegrist, H.; Elementa2019,7(). DOI: 10.1525/elementa.358.
+Vogt,L.;Joss,A.N2OEmissioninFull-ScaleWastewaterTreatment: (39)Brady,J.;Denecke,A.;Feenstra,E.;Henze-Gongola,R.;Hight,
+Proposing a Refined Monitoring Strategy. Sci. Total Environ.2020, M.; Howell, J.; Howell, L.; Longley, K.; Mamerow, N.; Prouty, C.;
+699.DOI:10.1016/j.scitotenv.2019.134157. Sevier, C.; Shuster, L.; Smith, T.; Walpole, B.; Wiley, G.; Williams,
+(23)Pan,Y.;vandenAkker,B.;Ye,L.;Ni,B.J.;Watts,S.;Reid,K.; C.Report Cardfor America’sInfrastructure, 2021;.
+Yuan,Z.UnravellingtheSpatialVariationofNitrousOxideEmissions (40)Muirhead,W.M.;Farmer,G.;Walker,S.;Robb,L.;Elmendorf,
+fromaStep-FeedPlug-FlowFullScaleWastewaterTreatmentPlant. H.; Matthews, R.; Butler, R.; Melcer, H. Study of Raw Wastewater
+Sci.Rep. 2016,6, 1−10. BOD5andcBOD5RelationshipYieldsSurprisingResults.Proc.Water
+(24) Jensen, M. B.; Møller, J.; Mønster, J.; Scheutz, C. Environ. Fed. 2006, 2006,840−853.
+Quantification of Greenhouse Gas Emissions from a Biological (41) Metcalf & Eddy Inc. Table 3-15: Typical Composiiton of
+WasteTreatmentFacility. Waste Manag 2017, 67,375−384. Untreated Domestic Wastewater. In Wastewater Engineering: Treat-
+(25)Foster-Wittig,T.A.;Thoma,E.D.;Albertson,J.D.Estimation mentandResourceRecovery;McGraw-Hill:Boston,MA,2003;p186.
+of Point Source Fugitive Emission Rates from a Single Sensor Time (42) Basic Information about Water Securityhttps://web.archive.
+Series: A Conditionally-Sampled Gaussian Plume Reconstruction. org/web/20150906005124/http://water.epa.gov/infrastructure/
+Atmos.Environ. 2015,115, 101−109. watersecurity/basicinformation.cfm(accessed Apr27,2020).
+(26)Zhou,X.;Yoon,S.;Mara,S.;Falk,M.;Kuwayama,T.;Tran,T.; (43)Caulton,D.R.;Lu,J.M.;Lane,H.M.;Buchholz,B.;Fitts,J.P.;
+Cheadle, L.; Nyarady, J.; Croes, B.; Scheehle, E.; Herner, J. D.; Golston, L. M.; Guo, X.; Li, Q.; McSpiritt, J.; Pan, D.; Wendt, L.;
+Vijayan,A.MobileSamplingofMethaneEmissionsfromNaturalGas Bou-Zeid,E.;Zondlo,M.A.ImportanceofSuperemitterNaturalGas
+WellPadsinCalifornia. Atmos.Environ. 2021, 244, 117930. Well Pads in the Marcellus Shale. Environ. Sci. Technol. 2019, 53,
+4747−4754.
+(27)Caulton,D.R.;Li,Q.;Bou-Zeid,E.;Fitts,J.P.;Golston,L.M.;
+(44)Bühler,M.;Häni,C.;Ammann,C.;Brönnimann,S.;Kupper,T.
+Pan, D.; Lu, J.; Lane, H. M.; Buchholz, B.; Guo, X.; McSpiritt, J.;
+Wendt, L.; Zondlo, M. A. Quantifying Uncertainties from Mobile- Using the Inverse Dispersion Method to Determine Methane
+Laboratory-Derived Emissions of Well Pads Using Inverse Gaussian Emissions from Biogas Plants and Wastewater Treatment Plants
+Methods.Atmos.Chem. Phys.2018, 18,15145−15168. with Complex Source Configurations. Atmos. Environ.: X 2022, 13,
+100161.
+(28)Lushi,E.;Stockie,J.M.AnInverseGaussianPlumeApproach
+forEstimatingAtmosphericPollutantEmissionsfromMultiplePoint
+Sources.Atmos.Environ. 2010, 44,1097−1107.
+(29) Thiruvenkatachari,R. R.;Carranza,V.; Ahangar,F.; Marklein,
+A.; Hopkins, F. M.; Venkatram, A. Uncertainty in Using Dispersion
+Models To Estimate Methane Emissions From Manure Lagoons in
+Dairies.Agric. For.Meteorol. 2020, 290, 108011No. April.
+(30) Mønster, J.; Kjeldsen, P.; Scheutz, C. Methodologies for
+measuringfugitivemethaneemissionsfromlandfills-Areview.Waste
+Manag 2019, 87,835−859.
+(31)Miller,D.J.;Sun,K.;Tao,L.;Pan,D.;Zondlo,M.A.;Nowak,
+J. B.; Liu, Z.; Diskin, G.; Sachse, G.; Beyersdorf, A.; Ferrare, R.;
+Scarino, A. J. Ammonia and Methane Dairy Emission Plumes in the
+SanJoaquinValleyofCaliforniafromIndividualFeedlottoRegional
+Scales.J. Geophys. Res.2015, 120,9718−9738.
+(32)Sun,K.;Tao,L.;Miller,D.J.;Pan,D.;Golston,L.M.;Zondlo,
+M.A.;Griffin,R.J.;Wallace,H.W.;Leong,Y.J.;Yang,M.M.;Zhang,
+Y.; Mauzerall, D. L.; Zhu, T. Vehicle Emissions as an Important
+UrbanAmmoniaSourceintheUnitedStatesandChina.Environ.Sci.
+Technol.2017, 51, 2472−2481.
+(33)Tao,L.;Sun,K.;Miller,D.J.;Pan,D.;Golston,L.M.;Zondlo,
+M. A.Low-Power, Open-Path Mobile Sensing Platform for High-
+Resolution Measurements of Greenhouse Gases and Air Pollutants.
+Appl. Phys. B Lasers Opt.2015, 119(). DOI: 10.1007/s00340-015-
+6069-1.
+(34) Tao, L.; Sun, K.; Khan, M. A.; Miller, D. J.; Zondlo, M. A.
+CompactandPortableOpen-PathSensorforSimultaneousMeasure-
+ments of Atmospheric N2O and CO Using a Quantum Cascade
+Laser. Opt. Express2912, 20,28106−28118.
+(35)Takriti,M.;Wynn,P.M.;Elias,D.M.O.;Ward,S.E.;Oakley,
+S.; McNamara, N. P. Mobile Methane Measurements: Effects of
+Instrument Specifications on Data Interpretation, Reproducibility,
+andIsotopic Precision.Atmos.Environ. 2021, 246,118067.
+4090 https://doi.org/10.1021/acs.est.2c05373
+Environ.Sci.Technol.2023,57,4082−4090

@@ -1,0 +1,351 @@
+--- Page 1 ---
+Membrane and Water Treatment, Vol. 11, No. 3 (2020) 173-177
+DOI: https://doi.org/10.12989/mwt.2020.11.3.173 173
+Estimation of greenhouse gas emissions from an underground wastewater
+treatment plant
+Daeseung Kyung*1a, Da-Yoon Jung*2b and Seong-Rin Lim2c
+1School of Civil & Environmental Engineering, University of Ulsan 44610, Republic of Korea
+2Department of Environmental Engineering, College of Engineering, Kangwon National University,
+Chuncheon, Gangwon 24341, Republic of Korea
+(Received December 24, 2019, Revised February 20, 2020, Accepted March 4, 2020)
+Abstract. Wastewater treatment plants (WWTPs) have been recognized as one of the significant greenhouse gas (GHG)
+generators, due to the complex biochemical reaction and huge consumption of energy and materials. Recently, WWTPs have been
+built underground and they will be confronted with the challenges of mitigating GHG emissions and improving the quality of
+treated wastewater. Here, we focus on estimating GHG emissions to set up effective management plans for a WWTP built
+underground. First, we apply the process-based life cycle assessment (LCA) with an inventory database of the underground WWTP
+for a case study. Then, we identify significant factors affecting GHG emissions during service life using sensitivity analysis and
+suggest the proper tactics that could properly reduce GHG emissions from the WWTP.
+Keywords: greenhouse gas emissions; underground wastewater treatment plant; life cycle assessment
+1. Introduction (CH 4) and nitrous oxide (N 2O) (Corominas et al. 2012,
+Yerushalmi et al. 2013). WWTPs produce both direct and
+Water and energy are closely linked because huge indirect GHGs due to biochemical reaction and
+amounts of energy are required to treat and distribute water consumption of energy and materials during their life cycle
+for human use while water is essential resource to produce (Bani Shahabadi et al. 2009, Kyung et al. 2015). Because of
+energy (DOE, 2014, Pan et al. 2018). Recently, the the strict regulation by international climate change
+development of advanced water technologies (e.g., green prevention protocols such as Paris Agreement, WWTPs will
+water infrastructure, energy-efficient water treatment, waste be confronted with the challenges of mitigating their GHG
+management, etc.) are emerging issues to achieve emissions. Therefore, the GHG emissions from WWTPs
+sustainable water-energy nexus (Pan et al. 2018). should be accurately estimated and need to be reduced by
+Life Cycle Assessment (LCA) is a widely known effective management plans.
+technique that assesses and quantifies the environmental In recent times, WWTPs haven been built underground
+loads and impacts associated with a product or process (MOE, 2017). This is because underground construction of
+throughout their entire life cycle (ISO 2006). This identifies WWTPs could minimize visual disturbances and generation
+the data for all energy, raw materials, by-products and of secondary hazardous pollutants such as odor. This also
+environmental pollutants within the established system could stabilize the treatment efficiency due to prevention of
+boundary. LCA has been successfully used to investigate slowing down of microbial activity at temperature below
+main environmental impacts of water infrastructures such as 10°C in cold weather. In addition, the upper part of WWTPs
+water and wastewater treatment plants (WTPs and could be used as waterfront parks, sports complexes, and
+WWTPs), and its results have suggested several options to cultural spaces through the efficient land use and it changes
+minimize the impacts (Lee et al. 2012, Nessi et al. 2012, awareness of people towards eco-friendly facilities.
+Kyung et al. 2018). LCA has been applied to the environmental assessment
+WWTPs have been recognized as one of the significant of WWTPs to quantitatively estimate the GHG emissions
+GHG emission sources due to their generation of the three and investigate significant factors affecting the GHG
+primary GHGs such as carbon dioxide (CO 2), methane emissions. However, previous studies have usually focused
+on the WWTPs constructed on the ground. Some
+researchers have dealt with design and removal efficiency
+Co-Corresponding authors of underground WWTP, while GHG emissions were not
+E-mail: dkyung@ulsan.ac.kr; srlim@kangwon.ac.kr deeply considered due to its different construction and
+a Assistant Professor operation method (Kuokkanen et al. 2017, Tang et al.
+b Ph.D. Candidate 2018). Hence, the main goal of this study is to estimate
+c Professor GHG emissions from an underground WWTP within the
+*Daeseung Kyung and Da-Yoon Jung contributed equally to system boundary and suggest proper tactics to minimize
+this manuscript. GHG emissions and enhance the sustainability of the
+system.
+Copyright © 2020 Techno-Press, Ltd.
+http://www.techno-press.org/?journal=mwt&subpage=7 ISSN: 2005-8624(Print), 2092-7037(Online)
+
+--- Page 2 ---
+174 Daeseung Kyung, Da-Yoon Jung and Seong-Rin Lim
+2. Methodology Table 1 Consumption of materials and energy in the WWTP
+Materials and
+2.1 Functional unit and system boundary Stages Energy Consumption Unit
+Cement 43 kg
+The purpose of this study is to estimate the GHG
+Sand 5,247
+emissions generated from a WWTP built underground and BC m3
+Gravel 87
+investigate proper solutions to reduce them. Therefore, the
+Rebar 4
+functional unit of this study is set up as a WWTP in South kg
+Korea that deals with 122,000 m3/d of wastewater. The Cement 6,385
+construction and operation stages were established as Sand 9,412
+m3
+system boundary to quantitatively estimate the GHG Gravel 11,812
+associated with the WWTP. In addition, the life cycle of the PF Rebar 2,313
+WWTP was set as 45 years, which is the ordinary life of Cast iron 319
+Construction kg
+civil engineering structures. It was assumed that equipment STS 34
+such as pipes and pumps is replaced twice during the life
+SPP 11
+cycle since they have a duration of about 15 years.
+Cement 17,629 kg
+Activities occurring in the disposal stage were excluded
+Sand 24,244
+from this study, due to data uncertainty. Data of material m3
+Gravel 30,309
+and energy consumption were taken from the specification
+of the WWTP. Data on actual inflow and water quality BSR Rebar 5,448
+during the operation stage were difficult to use and could Cast iron 100
+kg
+not be applied. However, it is expected that the amount of STS 216
+GHG emission related with energy consumption is highly SPP 88
+accurate, because the equipment capacity described in the
+SB 391,207
+detailed design report was used.
+FCT Electricity 3,289,818 kWh
+BB 30,775,997
+2.2 Data inventory
+Electricity 15,294 kWh
+PAC 903.8
+The construction stages were divided into basic
+CS
+construction (BC), pretreatment and flow control tanks Operation NaOCl 146.11 kg
+(PF), bio-reactors, sludge treatment, and reuse (BSR) Polymer 90.17
+facilities. RWT 3,294,282
+The operation stages were classified as sedimentation ST 1,581,866
+Electricity kWh
+basin (SB), flow control tanks (FCT), bio-reactors and D 1,258,279
+blowing (BB), chemical supply (CS), reclaimed wastewater
+V 11,418,660
+treatment (RWT), sludge treatment (ST), deodorization (D),
+and ventilation (V). The materials and electricity consumed
+at each process are shown in Table 1.
+(KPX) and National LCI DB, respectively. In case of those
+2.3 Estimation of GHG emissions for sodium hypochlorite (NaOCl) and polymer were
+acquired from Eco-invent, due to the lack of national data.
+In the construction stage, the amount of cement, sand, BOD removal was used as a contaminant source for CH 4, as
+gravel, rebar, cast iron, steel tool special (STS) and steel TN removal was for N 2O. The emission factors of on-site
+piping (SPP) used in the construction was considered. Table CH 4 and N 2O were obtained from field operation data. CH 4
+2 shows the emissions factors used at the construction stage. and N 2O emissions were converted to CO 2 equivalent
+The emission factors of materials were referenced by the emissions (CO 2 eq) by multiplying their global warming
+Ministry of Environment (MOE), national life cycle potential (GWP, CH 4: 21 and N 2O: 310), and then added to
+inventory database (LCI DB) and Eco-invent DB. The estimate total on-site GHG emissions.
+MOE data was preferentially used, due to the consideration
+𝐸 =𝐸 +𝐸 +𝐸 +𝐸 (2)
+of domestic situation. Foreign DB such as Eco-invent was 𝑜𝑝𝑒𝑟 𝑒𝑙𝑒𝑐𝑡 𝑐ℎ𝑒𝑚 𝐶𝐻4 𝑁2𝑂
+used when no appropriate data were available.
+𝐸 =∑(𝐸 ×𝐸𝐹 ) (3)
+𝑒𝑙𝑒𝑐𝑡 𝑢𝑛𝑖𝑡 𝑝𝑟𝑜𝑐𝑒𝑠𝑠,𝑖 𝑒𝑙𝑒𝑐𝑡
+𝐸 𝑐𝑜𝑛𝑠𝑡 =∑ (𝐸𝐹 𝑚(𝑖)×𝑀 𝑚(𝑖)) (1) 𝑖
+𝑚(𝑖)
+The total GHG emissions from an operation stage is the 𝐸 =∑(𝑀 ×𝐸𝐹 ) (4)
+𝑐ℎ𝑒𝑚 𝑐ℎ𝑒𝑚,𝑖 𝑐ℎ𝑒𝑚
+summation of those from electricity and chemical 𝑖
+consumption for wastewater treatment and on-site CH and
+4
+N 2O emissions during the processes. Table 3 shows the 𝐸 𝐶𝐻4 =𝐸𝐹 𝐶𝐻4×𝐵𝑂𝐷 𝑟𝑒𝑚𝑜𝑣𝑎𝑙×21 (5)
+emissions factors used at the operation stage. The emission
+factors for electricity and poly-aluminium chloride (PAC) 𝐸 =𝐸𝐹 ×𝑇𝑁 𝑟𝑒𝑚𝑜𝑣𝑎𝑙×310 (6)
+𝑁2𝑂 𝑁2𝑂
+consumption were obtained from Korea Power Exchange
+
+--- Page 3 ---
+Estimation of greenhouse gas emissions from an underground wastewater treatment plant 175
+Table 2 Emission factors at the construction stage
+Emission factor
+Category Reference
+Unit Value
+Cement 0.944
+Sand kgCO2 eq/m3 3.87 MOE
+Gravel 11.3
+Cast iron 1.631 Eco-invent
+National LCI
+Rebar 0.3405
+kgCO2 eq/kg DB
+STS 3.23
+MOE
+SPP 2.34
+Fig. 1 GHG emissions at the construction stage
+Table 3 Emission factors at the operation stage
+Emission factor
+Category Reference
+Unit Value
+Electricity kgCO2 eq/kWh 0.4958 KPX
+PAC 0.871 National LCI DB
+NaOCl kgCO2 eq/kg 0.6341
+Eco-invent
+Polymer 2.5748
+On-site CH4 kgCH4/kgBOD 0.0071 Field operation
+On-site N2O kgN2O/kgTN 0.0012 data
+2.4 Sensitivity analysis and uncertainty evaluation
+Fig. 2 GHG emissions at the operation stage
+Sensitivity analysis was implemented to determine the
+most influential factors affecting GHG emissions during the
+life cycle of the WWTP. A Monte-Carlo simulation scheme facilities and flow control tanks (PF). As a result, GHG
+provided by commercial software, Crystal Ball (Ver. 11.1), emissions from BSR were approximately 2.6 and 21 times
+was employed to perform the sensitivity analysis. The higher than that of PF and BC, respectively.
+average daily wastewater inflow of the WWTP was set as The major GHG source associated with the construction
+an average value for the sensitivity analysis, while the daily of BSR and PF is the use of gravel, which contributes to
+maximum inflow of the WWTP were used for LCA. It was 75.1% of GHG emissions (BSR: 342.5 tonCO 2 eq; PF:
+assumed that the data variation is fitted by normal 133.5 tonCO 2 eq). This is due to the huge consumption of
+distribution, and its mean value was calculated. Standard gravel and its higher emission factor than other materials.
+deviation was estimated by assuming 10% of the mean On the other hand, GHG emissions related to rebar, cast
+value. iron, and pipes were negligible. The material with the
+greatest impact (95.2%, 20.3 kgCO eq) on GHG emissions
+2
+during the BC appeared as sand. This is because the amount
+3. Results and discussion of sand used for BC is enormous compared to other
+materials.
+As a result of evaluating GHG emissions generated
+during the life cycle of the WWTP, the operating stage 3.2 GHG emission at operation stage
+accounts for the most of GHG emissions (99.9%). This is
+because construction is completed only one time during its Fig. 2 shows the GHG emissions at the operation stage.
+life cycle, while operations are carried out over 45 years of Unit processes that have the greatest impact on GHG
+continuous use of energy and materials. emissions during the operation stage were found to be bio-
+reactors and blowing facilities (BB, 59.2%) and ventilation
+3.1 GHG emission at construction stage facilities (V, 21.9%). The large amount of GHG emissions
+were emitted from BB because primary sedimentation basin
+Fig. 1 illustrates the GHG emissions at the construction (SB) was not installed to lower the cost during the
+stage. Construction of bio-reactors, sludge treatment construction of underground WWTP. Due to the lack of the
+facilities, and reuse facilities (BSR) accounted for 69.6% SB, the amount of air used to oxidize organic pollutants is
+(456.45 ton CO 2 eq) of the total emissions at the increased, thus increasing GHG emissions. Membrane Bio-
+construction stage. This is because larger amount of Reactor (MBR) process has the advantage of reducing
+materials is consumed at the BSR process compared to the construction cost because it uses filtration membrane
+basic construction (BC) and construction of pre-treatment without SB. However, blowers and cleaning processes are
+
+--- Page 4 ---
+176 Daeseung Kyung, Da-Yoon Jung and Seong-Rin Lim
+additionally required to supply air and prevent Table 4 Comparison of GHG emissions
+contamination of membrane. The WWTP was installed
+GHG
+underground unlike general WWTPs constructed on ground. Author Capacity Method Life cycle emissions
+(m3/d) (year)
+Therefore, the GHG emissions were very high, due to the (kgCO2 eq/m3)
+increase of electricity consumption used for ventilation This study 122,000 MBR 45 0.87
+system.
+Park & Hwang 100,000 BNR 40 0.21
+Membrane blowers (30.0%), aerobic blowers (25.6%),
+Activated
+and internal return pumps (25.0%) were the most Zhang et al. 150,000 20 0.0075
+Sludge
+influencing equipment on GHG emissions related to BB.
+Aerobic
+Membrane blowers are used to supply oxygen for Godin et al. 251,700 Lagoon - 0.0051
+microorganism and air to prevent membrane contamination. Activated
+Shin 150,000 - 0.13
+The bubble size of the supplying air is larger than that Sludge
+generally used in biological process so that oxygen transfer
+efficiency is declined. This requires more supplying air than
+a typical bio-reactor, and the use of more electricity 3.3 Comparison of GHG emission with other WWTPs
+increases GHG emissions. In case of internal return pumps,
+GHG emissions can be reduced by optimizing the process, In order to evaluate the level of GHG emissions at the
+according to the loading of incoming nitrogen required for WWTP, the GHG emissions were compared with other
+denitrification. Significant amounts of GHG are emitted existing WWTPs (Table 4). The GHG emissions of the
+from the use of electrical energy required for the operation WWTP were 0.87 kgCO eq/m3, much higher than other
+2
+of ventilation facilities (V). Regarding the system of V, WWTPs. This is because the use of electric energy is very
+supplying fan (50.3%) and exhausting fan (49.7%) were large due to the increase of (1) required air supply for bio-
+identified as the main sources of GHG emissions. The reactors, (2) amount of internal transfer for the
+equipment that have the greatest impact on GHG emissions denitrification process, and (3) ventilation according to the
+related to reclaimed wastewater treatment facilities (RWT) underground location. In the Biological Nutrient Removal
+are pumps (47.9%), air compressors (19.9%) and ozone (BNR) process, the amount of GHG emissions is much
+generators (17.3%). RWT needs long distance higher than that of the standard activated sludge process
+transportation to supply environmental water, and this leads since the air supply is increased during nitrification.
+to high amounts of GHG emissions due to pump operation.
+The inflow pump (43.9%) and the flow control tank blower 3.4 Tactics to reduce GHG emissions from the
+(39.9%) were found to have a significant impact on GHG WWTP
+emissions among the flow control tank (FCT) related
+equipment. In the WWTP, the FCT is equipped in the Sensitivity analysis was performed to identify the most
+basement deeper than the inlet pumping station of the significant factor affecting the GHG emissions in the
+general WWTPs. This can reduce electricity consumption WWTP. As a result, the use of electric energy in membrane
+by lowing the pump head of pumping station to collect and blower and aerobic blower was the most. It is expected that
+transport the wastewater. However, in the absence of the the total GHG emissions can be effectively reduced by
+primary sedimentation basin, it is essential to increase the optimizing the operation of the blower. In addition, huge
+storage capacity of flow control tank and maintain the amount of electrical energy was consumed during the
+residence time longer to keep the bio-reactor load constant. operation of the internal return pump used for
+Under the circumstance, larger amount of air must be denitrification reaction. Therefore, a method to minimize
+supplied to prevent sedimentation of suspended solids (SS) the energy consumption due to the operation of the internal
+and odor from anaerobic conditions. Therefore, GHG return pump should be prepared, by optimizing the
+emissions relatively increase compared to general WWTPs. nitrification of the aerobic tank and the denitrification of the
+Among the sludge treatment facilities (ST), the equipment anoxic tank. In addition, a lot of electric energy is
+with a large influence on GHG emissions were surplus consumed in the use of supplying and exhausting fans for
+sludge storage blowers (30.5%) and dehydrators (27.3%). ventilation because of the underground construction of
+The primary sedimentation sludge is not generated in the WWTP. Thus, the system should be improved and
+WWTP because there is no primary sedimentation basin, supplemented to minimize the ventilation space in the
+whereas surplus sludge is generated in the bio-reactor. future.
+Therefore, the use of blowers increases and other types of
+GHGs can be emitted. The high concentration deodorizer
+4. Conclusions
+(41.8%) and low concentration deodorizer (26.5%) were
+found to have a significant effect on GHG emissions among
+The process-based LCA was adopted to quantitatively
+the equipment related to the deodorization facilities (D).
+estimate GHG emissions from whole life cycle stages
+The agitator showed the most significant effect on GHG
+(construction and operation) of the underground WWTP in
+emissions among the equipment related to the grit chamber.
+South Korea as a case study. The results showed that
+In case of chemical supply facilities (CS), the PAC pump
+use to supply PCA 24 hours has the largest impact on GHG operation stage accounted for 99.9% of the GHG emissions
+emissions (79.6%). during the lifecycle. The main processes that produce the
+
+--- Page 5 ---
+Estimation of greenhouse gas emissions from an underground wastewater treatment plant 177
+greatest amount of GHG (81.0% of total emissions) were Lee, K.-M., Yu, S., Choi, Y.-H. and Lee, M. (2012),
+bio-reactors and ventilation. The GHG emission of the “Environmental assessment of sewage effluent disinfection
+system”, Int. J. Life Cycle Assess., 17, 565-579.
+WWTP was 0.87 kgCO e/m3, higher than other WWTPs
+2 https://doi.org/10.1007/s11367-012-0388-9.
+constructed on the ground. This is mainly due to the
+MOE (2017) National sewage master plan. Ministry of
+increase of electric energy consumption for air supply (bio- Environment, South Korea.
+reactor and MBR) without primary sedimentation, internal Nessi, S., Rigamonti, L. and Grosso, M. (2012), “LCA of waste
+transport for the denitrification, and ventilation for system prevention activities: a case study for drinking water in Italy”, J.
+Environ. Manag., 108, 73-83.
+installed in underground. In order to minimize GHG
+https://doi.org/10.1016/j.jenvman.2012.04.025.
+emissions, optimization of design and operation should be
+Kuokkanen, A., Mikola, A. and Heinonen, M. (2017), Seasonal
+achieved soon. A variety of WWTPs have been built and and diurnal variations of GHG emissions measured continuously
+operated under different operating conditions to remove at the Viikinmaki underground WWTP”, Frontiers International
+carbonaceous matter and nutrients from wastewater. Conference on Wastewater Treatment and Modeling, 464-469.
+Springer, Cham.
+Optimal types and operating conditions of WWTPs can be
+Pan, S.-Y., Snyder, S. W., Packman, A. I., Lin, Y.-J., and Chiang,
+changed depending on different environmental scenarios.
+P.-C. (2018), “Cooling water use in thermoelectric power
+The LCA approaches could be applied to classify low- generation and its associated challenges for addressing water-
+carbon emission and high-removal efficiency methods. energy nexus”, Water-Energy Nexus, 1, 26-41.
+Moreover, the boundaries can be further extended to other https://doi.org/10.1016/j.wen.2018.04.002.
+Tang, M., Chen, Y.J., Yong, W.B. and Liu, J. (2018), “Operational
+environmental and industrial sectors to estimate total GHG
+experience of large-scale membrane bioreactors in an
+emissions. This could lead to the development of novel
+underground sewage treatment plant”, Water Pract. Tech., 13,
+green and sustainable urban environmental infrastructures 481-486. https://doi.org/10.2166/wpt.2018.060.
+providing more efficient removals of contaminants, as well
+as lower GHG emissions.
+CC
+Acknowledgment
+This work was supported by the project(2018-82) funded
+by Land & Housing Institute(LHI), Korea Land & Housing
+Corporation(LH) and National Research Foundation of
+Korea (NRF) grant funded by the Korea government
+(MIST) (No. 2020R1A2C1008532).
+References
+Bani Shahabadi, M., Yerushalmi, L., and Haghighat, F. (2009),
+“Impact of process design on greenhouse gas (GHG) generation
+by wastewater treatment plants”, Water Res., 43, 2679-2687.
+https://doi.org/10.1016/j.watres.2009.02.040.
+Corominas, L., Flores-Alsina, X., Snip, L. and Vanrolleghern, P. A.
+(2012), “Comparison of different modeling approaches to better
+evaluate greenhouse gas emissions from whole wastewater
+treatment plants”, Biotechnol. Bioeng., 109, 2854-2863.
+https://doi.org/10.1002/bit.24544.
+DOE (2014) The Water-Energy Nexus: Challenges and
+Opportunities, Department of Energy, U.S.A.
+Kyung, D., Kim, D., Yi, S. and Lee, W. (2018), “Estimation of
+greenhouse gas emissions from sewer pipeline system”, Int. J.
+Life Cycle Assess., 22, 1901-1911.
+https://doi.org/10.1007/s11367-017-1288-9.
+Kyung, D., Kim, M. and Lee, W. (2015), “Estimation of
+greenhouse gas emissions from a hybrid wastewater plant”, J.
+Clean. Prod., 95, 117-123.
+https://doi.org/10.1016/j.jclepro.2015.02.032.
+Kyung, D., Kim, D., Park, N. and Lee, W. (2013), “Estimation of
+CO2 emission from water treatment plant-Model development
+and application”, J. Environ. Manag., 131, 74-81.
+https://doi.org/10.1016/j.jenvman.2013.09.019.
+ISO 14044 (2006) Environmental management-life cycle
+assessment-requirements and guidelines. International Standards
+Organisation, Geneva.

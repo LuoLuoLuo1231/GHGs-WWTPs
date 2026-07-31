@@ -1,0 +1,521 @@
+--- Page 1 ---
+JournalofCleanerProduction443(2024)141134
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Achieving carbon neutrality in Shanghai’s municipal wastewater treatment
+sector requires coordinated water conservation and technical improvement
+Yintian Fanga, Hongyi Xiea, Bin Chena, Zhixiu Hana, Dong Ana, Wenxiong Caib, Wei Zhangb,
+Yutao Wanga,c,d,e,*
+aFudan Tyndall Center and Shanghai Key Laboratory of Atmospheric Particle Pollution and Prevention (LAP3), Department of Environmental Science and Engineering,
+Fudan University, Shanghai, 200082, China
+bShanghai Youlian Zhuyuan First Sewage Treatment Investment Development Co., LTD, China
+cInstitute of Eco-Chongming (IEC), No. 3663 Northern Zhongshan Road, Shanghai, 200062, China
+dIRDR International Center of Excellence on Risk Interconnectivity and Governance on Weather/Climate Extremes Impact and Public Health, Fudan University,
+Shanghai, China
+eShanghai Institute for Energy and Carbon Neutrality Strategy, Fudan University, Shanghai, China
+A R T I C L E I N F O A B S T R A C T
+Handling Editor: Cecilia Maria Villas Boˆas de Municipal wastewater treatment plants (WWTPs) situated within urban landscapes play a critical role in
+Almeida fostering sustainable urban development while concurrently serving as substantial contributors to greenhouse
+gas (GHG) emissions. Under the dual pressure of future urban socioeconomic development and the carbon
+Keywords: neutrality target, it is important to identify GHG emission reduction pathways for municipal WWTPs. Existing
+Municipal wastewater treatment plant
+research on GHG emission reduction in WWTPs exhibit a notable absence of a comprehensive city-centric
+Carbon neutrality
+perspective, with insufficient consideration given to the impact of water conservation measures. We con-
+Greenhouse gas emission
+structed a GHG emission accounting system for the municipal WWTPs employing Shanghai as a case study. Based
+GHG emission reduction pathway
+Scenario analysis on field surveys of typical WWTPs, we proposed GHG emission reduction pathways and future demand-
+technology scenarios. Our results showed that, with the robust mitigation measures, Shanghai’s municipal
+WWTPs have the potential to curtail GHG emissions to 0.55 Mt by 2050. Notably, GHG emission reduction can be
+achieved through water conservation and technical improvement. Medication optimization and energy saving
+are significant mitigation measures for GHG emission reduction, and should be optimally considered in the
+future. This investigation not only establishes a forward-looking GHG emission reduction roadmap for the
+municipal WWTPs at the city-scale but also imparts valuable insights to urban management practices in anal-
+ogous urban settings.
+1. Introduction and societal development (Chen et al., 2023). Recent research revealed
+that GHG emissions from WWTPs in China have risen precipitously,
+A major source of greenhouse gas (GHG) emissions is wastewater from 13 Mt CO2-eq to 30 Mt CO2-eq between 2005 and 2020, and are
+treatment plants (WWTPs) (Liu et al., 2021), concurrently fulfilling the projected to rise to 36 Mt CO2-eq by 2035 without effective mitigation
+imperative role of sustainably recycling urban water resources (Wu measures (Yang et al., 2023). Notably, China has established ambitious
+et al., 2021). Recently, the mitigation of GHG emissions from WWTPs emissions abatement goals, aiming to peak carbon dioxide emissions by
+has become a hot topic (Mannina et al., 2019; Pang et al., 2023; Yapi- 2030 and achieve carbon neutrality by 2060 (Cai et al., 2021). A sig-
+cioglu and Demir, 2021). The wastewater treatment processes generate nificant source of GHG emissions from wastewater treatment is munic-
+significant GHG emissions through the utilization of energy and chem- ipal WWTPs (Wang et al., 2022a). Consequently, it is important to
+icals, along with the thickening and dewatering of the by-product sludge understand how to achieve carbon neutrality in the municipal WWTPs
+(Yang et al., 2023). Projections indicate an escalating demand for by adopting effective GHG emission reduction pathways against the
+wastewater treatment in tandem with the nation’s ongoing economic backdrop of growing demand (Wang et al., 2022a).
+* Corresponding author. Department of environmental science and engineering, Fudan University, 2005th, Songhu Road, Yangpu District, Shanghai 200438,
+China.
+E-mail address: yutaowang@fudan.edu.cn (Y. Wang).
+https://doi.org/10.1016/j.jclepro.2024.141134
+Received 29 November 2023; Received in revised form 24 January 2024; Accepted 5 February 2024
+Availableonline12February2024
+0959-6526/©2024ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+GHG emission reduction pathways for the municipal WWTPs rely on recommended that global climate change should be actively addressed
+the precise quantification of GHG emissions (Bao et al., 2016). Recent to increase the resilience of cities to natural disasters. Shanghai has set
+research has significantly contributed to quantifying GHG emissions ambitious targets to peak total GHG emissions by 2030 and achieve a
+from WWTPs. At the national scale, scholars (Yang et al., 2023) have subsequent 15% reduction by 2040. Consequently, it is imperative to
+analyzed the characteristics and hotspots of GHG emissions from devise GHG emission reduction pathways for Shanghai’s municipal
+WWTPs in China between 2005 and 2020 using the population equiv- WWTPs to attain carbon neutrality.
+alent approach. At the plant scale, a previous study conducted a In this study, we have established a unified city-level accounting
+comprehensive assessment of GHG emissions from two large-scale system. Leveraging field surveys of representative WWTPs, we calcu-
+WWTPs situated in eastern China (Zhao et al., 2021). Several studies lated the GHG emissions from Shanghai’s municipal WWTPs in 2020
+have also explored GHG emission reduction pathways applicable to and pinpointed pivotal emission sources. Subsequently, we proposed
+WWTPs. For instance, the implementation of appropriate monitoring, GHG emission reduction pathways and formulated future demand-
+followed by the identification of operational interventions in WWTPs technology scenarios for GHG emissions based on the projections of
+could effectively reduce direct emissions of methane (CH4) and nitrous Shanghai’s future population development and technological advance-
+oxide (N2O) from the wastewater treatment process (Duan et al., 2021; ments in urban wastewater treatment. Through these scenarios, we
+Kumar et al., 2021). Additionally, chemical energy recovery from ascertained the GHG emission reduction potential of significant mea-
+wastewater can be achieved through anaerobic digestion, as well as sures and factors, providing actionable policy suggestions for sustain-
+combined heat and power (CHP) technology (Liu et al., 2021). Elec- able urban development.
+tricity can also be generated by installing photovoltaic modules on the
+building surface of WWTPs (Liu et al., 2021; Yang et al., 2020). More- 2. Methods and data
+over, heat energy in wastewater could be extracted and utilized by
+applying wastewater source heat pumps (WSHP) (Liu et al., 2021). 2.1. Accounting boundary and framework
+However, at the city scale, the crucial role of water conservation in
+designing GHG emission reduction pathways for achieving low-carbon In our study, the system boundary for the calculation of GHG emis-
+development goals has not been comprehensively considered. Further- sions is shown in Fig. 1. The GHG emissions we primarily computed from
+more, the emission reduction potential of city-scale specific strategies, wastewater treatment systems incorporate two key components as per
+such as ‘New Energy Power, zero sludge for landfill’, etc., should be relevant studies (Farago et al., 2022; Li et al., 2022; Wu et al., 2022): (1)
+considered in developing unified management strategies for the Direct emissions including CH4 emissions (produced by anoxic and
+municipal WWTPs. anaerobic degradation of organic matter) and N2O emissions (generated
+Shanghai, a globally prominent financial center and one of the by a series of nitrifying and denitrifying microorganisms) from waste-
+world’s largest metropolitan areas, with a population of nearly 25 water treatment and sludge treatment (sludge incineration, sludge
+million in 2020 (SMBS, 2020), was confronted with substantial GHG composting and sludge landfill). (2) Indirect emissions including CO2
+emissions amounting to 193 Mt, constituting approximately 1.97% of emissions from electricity (the aeration system, lifting pumps, and
+the national total (Guan et al., 2021; NBS, 2021). A total of 46 WWTPs sludge dewatering), heat (sludge drying) and chemical consumption
+have been built and were in operation, with a total treatment capacity of (enhance phosphorus removal and sludge dewatering, or used as carbon
+8.4 Mm3/d (SMBS, 2020), and a total of 2370 Mt of wastewater were sources for denitrification). Any other sources of GHG emissions, such as
+treated (Cheng, 2021). In the ‘Shanghai Pollution Reduction and Carbon emissions from receiving waters and sewer collection, were excluded
+Synergy Implementation Program’ (Government, 2023c), it is from our scope based on the study by Wu et al. (2022). Additionally, CO2
+Fig. 1. The accounting boundary and framework of the municipal WWTPs in Shanghai. (a) The GHG emission accounting boundary; (b) the GHG emission reduction
+pathways framework.
+2
+
+--- Page 3 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+emissions from biogenic sources and GHG emissions from energy con- incineration processes; Ecomposting,N20 is the N2O emissions (tN 2O) from
+sumption for sludge transportation were considered beyond the scope sludge composting processes. The specific calculation processed can be
+following previous studies (Guo et al., 2023; Wang et al., 2022a; Wu found in Text S2.
+et al., 2022; Yang et al., 2023).
+We also assessed the carbon offset effect resulting from sludge reuse. CO 2Emissions=EC×EF Electricity+EH×EF Heat+E medicine (5)
+The sludge carbon offset is the reuse of energy or resources from sludge
+where EC is the actual electricity consumption from the municipal
+to reduce GHG emissions (Dai et al., 2021). In this study, carbon offsets
+WWTPs (MWh); EFElectricity is the CO2 emission factor for electricity
+for sludge resource recovery included the recovery of methane during
+consumption (tCO 2-eq/MWh), using the recommended value of 0.42
+sludge landfill processes and the substitution of fertilizers during sludge
+(SMBEE, 2022); EH is the actual heat consumption of WWTPs (GJ);
+land utilization processes (Li et al., 2023). We delineated the system
+EFHeat is the CO2 emission factor for heat consumption (tCO 2-eq/GJ),
+boundary for wastewater treatment processes and GHG emissions from
+using the recommended value of 0.06 (SMBEE, 2022); Emedicine is the CO2
+the municipal WWTPs in Shanghai.
+emissions (tCO 2-eq) from chemical consumption in WWTPs. The specific
+calculation processed can be found in Text S3.
+2.2. Prediction model for domestic water use and wastewater discharge
+CO 2(cid:0)eqoffsets=R landuse+R landfill (6)
+The Impacts, Population, Affluence and Technology (IPAT) model
+captures the extent to which population, wealth and technology levels where Rlanduse is the carbon offsets from sludge land utilization processes
+affect the environment (Ehrlich and Holdren, 1971; Zhang et al., 2014). (tCO 2-eq); Rlandfill is the carbon offsets from sludge landfill processes. The
+Additionally, the IPAT model is now widely used due to its simplicity specific calculation processed can be found in Text S4.
+and practicality (Hu et al., 2018; Ren et al., 2023). In this work, we
+constructed an IPAT model for domestic water use to predict the vol-
+2.4. Scenarios setting for GHG emissions
+umes of wastewater treatment in the future.
+The total domestic wastewater amount treated in WWTPs is given by:
+We designed cross scenario groups that integrate parameters focused
+Q DOM=Q QD QOM×Q QQ ×Q P×P (1) o on ew na tete dr pc ao rn as mer ev ta et ri so an ea n cd tt ee gc oh rn izic ea dl ii nm top r to hv re em le en vt e. lW s—at le or c ,o mns ide drv lea ,t i ao nn d-
+ri r a e w
+high—representing varying intensities in the implementation of water
+where QDOM is the volume of domestic wastewater treated in WWTPs conservation management measures. Similarly, technical improvement-
+(m3); QQ is the volume of domestic wastewater generated from resi- oriented parameters are stratified into three levels—low, middle, and
+dential use (m3); Q is the volume of domestic water consumption (m3); P high—denoting increasing intensities in the implementation of GHG
+is the urban population, the predicted value in 2020–2050 refer to SSP mitigation measures. The mitigation measures derived from relevant
+2–4.5 (Chen et al., 2020); QDOM is the rate of domestic wastewater research (Yang et al., 2023) include energy saving, operational optimi-
+QQ
+treatment; QQ is the domestic wastewater discharge intensity; Q is the zation, solar energy utilization, sludge resource recovery and medica-
+Q P
+tion optimization (see Fig. 1). The cross scenario groups consist of a
+domestic water consumption per capita. The predictive model was ob-
+business-as-usual (BAU) scenario and eight mitigation scenarios, aiming
+tained by linearly fitting parameters to historical data from statistical
+to predict the future trend of GHG emissions from the municipal WWTPs
+yearbooks and water resources bulletin (Bureau, 2020; Cheng, 2021;
+in Shanghai up to 2050, as shown in Table S2.
+SMBS, 2020). Details can be found in Fig. S1.
+Under the BAU scenario, the mitigation measures for GHG emissions
+are held constant at the base year (2020) level, involving low-level water
+2.3. Carbon accounting from WWTPs
+conservation and low-level technical improvement. The additional eight
+mitigation scenarios introduce different levels of water conservation and
+The following equations are used to calculate the total GHG emis-
+technical improvement to project the future trend of GHG emissions up
+sions from the municipal WWTPs:
+to 2050. Scenario S1, S2 and S3 all incorporate high-level technical
+TotalCO 2(cid:0)eq=CH 4Emissions×28+N 2Oemissions×265 improvement, coupled with high-level, middle-level, and low-level
++CO 2Emissions×1(cid:0) CO 2(cid:0)eqoffsets (2) water conservation, respectively. S4, S5 and S6 scenarios involve
+middle-level technical improvement, combined with high-level, middle-
+level, and low-level water conservation, respectively. S7 and S8 sce-
+where TotalCO2(cid:0)eq is the total CO2 emissions from the municipal
+WWTPs (tCO 2-eq); CH4Emissions, N2Oemissions and CO2Emissions are narios feature low-level technical improvement, along with high-level
+and middle-level water conservation, respectively.
+the CH4 emissions (tCH 4), N2O emissions (tN 2O), and CO2 emissions
+(tCO 2) from WWTPs, respectively; CO2(cid:0)eqoffsets is the carbon offsets For the other key variables, it is assumed that the urban population,
+the rate of domestic wastewater treatment, the domestic wastewater
+from sludge resource utilization (tCO 2-eq); the multipliers 1, 28 and 265
+discharge intensity and the domestic water consumption per capita in
+represent the GWPs of CO2, CH4 and N2O, respectively (IPCC, 2019).
+Shanghai will change in the future with the advancement of urbaniza-
+CH 4Emissions=E wastewater,CH4+E incineration,CH4+E composting,CH4+E landfill,CH4 tion (Chen et al., 2020), as shown in Fig. S1. We projected the changes in
+(3) domestic wastewater treated in Shanghai from 2020 to 2050 under three
+water conservation levels, as shown in Fig. S1. Parameter settings for
+where Ewastewater,CH4 is the CH4 emissions (tCH 4) from the process of different levels of water conservation and technical improvement can be
+wastewater treatment; Eincineration,CH4 is the CH4 emissions (tCH 4) from found in Figs. S1, S2 and S3.
+sludge incineration processes; Ecomposting,CH4 is the CH4 emissions (tCH 4)
+from sludge composting processes; Elandfill,CH4 is the CH4 emissions
+2.5. Data and resource
+(tCH 4) from sludge landfill processes. The specific calculation processed
+can be found in Text S1.
+The basic data for WWTPs in Shanghai were obtained from field
+N 2OEmissions=E wastwater,N20+E incineration,N20+E composting,N20 (4) surveys and statistical yearbooks (Cheng, 2021; NBS, 2021; SMBEE,
+2020; SMBS, 2020), as detailed in Table S1. Parameters for domestic
+where Ewastwater,N20 is the N2O emissions (tN 2O) from wastewater treat- wastewater treatment volume and population in the prediction model
+ment processes; Eincineration,N20 is the N2O emissions (tN 2O) from sludge were sourced from statistical yearbooks (Cheng, 2021; SMBS, 2020).
+3
+
+--- Page 4 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+The original CH4 and N2O emission factors were obtained from pertinent
+research (Hua et al., 2022). Emission factors associated with electricity
+and heat consumption were derived from the Shanghai Municipal
+Report (SMBEE, 2022). Emission factors related to chemical consump-
+tion were obtained from guidelines and reports (Li et al., 2023; Lin et al.,
+2017; MEE, 2010; Wang et al., 2022b; Zhang et al., 2021b). The calcu-
+lation method and related data of the carbon offset were referenced from
+the literature (Li et al., 2023).
+3. Results
+3.1. GHG emission pattern and reduction roadmap
+In 2020, the municipal WWTPs in Shanghai generated a total of 1.32
+Mt CO2-eq in GHG emissions (Fig. 2). From the view of the emission
+sections, chemical consumption accounted for 44.50% of total GHG
+emissions, with 0.59 Mt CO2-eq. The next largest emission was N2O gas,
+which emitted 0.29 Mt CO2-eq, 22.32% of the total emissions. The direct
+Fig. 3. Future GHG emissions from the municipal WWTPs in Shanghai under
+emission of CH4 gas contributed 0.13 Mt CO2-eq, 9.51% of the total different scenarios. Under the dimensions of water conservation and technical
+emissions. Electricity consumption and heat consumption contributed improvement, BAU scenario represents low-low, scenario S1 represents high-
+0.27 Mt CO2-eq and 0.05 Mt CO2-eq, accounting for 20.29% and 3.47%, high, scenario S2 represents middle-high, scenario S3 represents low-high,
+respectively. In terms of the treatment process, the wastewater treat- scenario S4 represents high-middle, scenario S5 represents middle-middle,
+ment generated the largest amount of GHG emissions, which reached scenario S6 represents low-middle, scenario S7 represents high-low and sce-
+0.64 Mt CO2-eq, accounting for 48.21% of total emissions. Of these, N2O nario S8 represents middle-low.
+produced the largest GHG emissions which accounts for 45.29%. Due to
+large proportion disposal in 2020, the GHG emissions from the sludge the comprehensive scenario S1 can achieve the GHG emission reduction
+incineration amounted to 0.47 Mt CO2-eq, 35.53% of the total emissions. that are greater than other scenarios. GHG emissions from the municipal
+Of these, 81% of the total GHG emissions from sludge incineration were WWTPs in 2050 under scenario S1 would be 58.78% lower than in 2020.
+due to the chemical consumption. Although the sludge land utilization By comparing S4 and S3, it can be seen that with the high-level of water
+and sludge landfill generated carbon offset of 0.71 Kt CO2-eq and 0.36 Kt conservation and middle-level of technical improvement (S4), the GHG
+CO2-eq, they produced significant GHG emissions for 0.01 Mt CO2-eq emission reduction would be similar to the scenario S3 which applying
+and 0.20 Mt CO2-eq, respectively. Mitigation measures need to be taken the low-level of water conservation and high-level of technical
+in key aspects of the wastewater treatment process such as N2O emis- improvement. Significant GHG emission reduction could be achieved by
+sion, chemical consumption, and electricity consumption in the future. applying the high-level of water conservation and middle-level of
+Each of these scenarios has shown a pattern of increasing and then technical improvement.
+declining GHG emissions except scenario S1 (Fig. 3). In the BAU sce- As we can see in Fig. 2, in 2050, the municipal WWTPs in Shanghai
+nario, with the low-level of water conservation and low-level of tech- would generate a total of 0.54 Mt CO2-eq in GHG emissions under the
+nical improvement, the GHG emissions from the municipal WWTPs in high-level water conservation and high-level technical improvement
+Shanghai will increase from 1.32 Mt CO2-eq in 2020 to 1.57 Mt CO2-eq scenario (S1), with a 58.78% reduction compared to 2020. From the
+in 2050, an increase of 18.85%. For the eight scenarios combining water view of the emission sections, the GHG emissions from the chemical
+conservation and technical improvement, scenario S1 is projected to consumption will still be the largest GHG emission emitting section
+have the lowest GHG emissions in 2050 (0.54 Mt CO2-eq), followed by despite the mitigation measures we would take, which will reach 0.26
+scenario S2, scenario S3, scenario S4, scenario S5, scenario S7, scenario Mt CO2-eq and accounting for 47.11% of the total emissions, 56.36%
+S6 and scenario S8, with values being 0.65, 0.80, 0.83, 1.00 1.07, 1.22 lower than in 2020. The next largest emission will continue to be N2O
+and 1.28 Mt CO2-eq, representing reduction of 50.53%, 39.57%, gas, which emitted 0.18 Mt CO2-eq, 33.86% of the total, 37.46% lower
+36.74%, 24.09%, 18.93%, 7.26% and 2.71%, respectively. Specifically, than in 2020. The direct emission of CH4 gas would contribute 0.07 Mt
+CO2-eq, 13.38% of the total, 41.95% lower than in 2020. Heat con-
+sumption will contribute 0.04 Mt CO2-eq, 7.48% of the total, 11.04%
+lower than in 2020. In terms of the treatment process, the largest source
+of GHG emissions will still be the wastewater treatment process, which
+would reach 0.28 Mt CO2-eq, accounting for 50.79% of total emissions,
+56.57% lower than in 2020. Of these, the proportion of N2O emissions
+will increase to 64.08%. GHG emissions from the sludge incineration
+would reach 0.21 Mt CO2-eq, 37.72% of total emissions, which is
+56.24% lower than in 2020. Of these, the emissions from chemical
+consumption would remain large at 77.46%. GHG emissions from the
+sludge land utilization would reach 0.06 Mt CO2-eq, accounting for
+11.49% of total and nearly six times as much as in 2020. The carbon
+offset from sludge land utilization would increase to 0.01 Mt CO2-eq.
+There would be no GHG emissions from sludge landfill in 2050, as the
+document stipulates that sludge will no longer be disposed of in landfills
+by 2025 (SMBEE, 2023). In the future, attention needs to be paid to two
+key aspects of the municipal WWTPs, N2O emissions and chemical
+consumption.
+Fig. 2. GHG emissions from the municipal WWTPs in Shanghai in 2020 and
+2050 (S1). Scenario S1 represents the best-case scenario, which apply the high-
+level of water conservation and the high-level of technical improvement.
+4
+
+--- Page 5 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+3.2. GHG emission reduction potential N₂O operational optimization, CH4 operational optimization and carbon
+offset could achieve reduction of 0.01, 0.02 and 0.001 Mt CO2-eq
+We then proceed to assess the GHG emission reduction potential of respectively, accounting for 5.70%, 8.08% and 0.47% of the total
+different scenarios, using the BAU scenario as a baseline (Fig. 4). Under emission reduction. Heat consumption will generate GHG emissions of
+different scenarios, GHG emission reduction are mainly generated by 0.03 Mt CO2-eq. By 2050, the scenario S2 would achieve a GHG emission
+water conservation and technical improvement. In the scenario S1, the reduction of 0.91 Mt CO2-eq, of which medication optimization and
+GHG emission reduction in 2035 and 2050 will be mainly attributed to energy saving continue to be the two segments with the greatest po-
+technical improvement, with reduction reaching 0.32 Mt CO2-eq and tential for reduction, both with a reduction of 0.32 Mt CO2-eq and the
+0.77 Mt CO2-eq, respectively, with the proportion increasing from ratio would increase to 35.20% and 34.76% respectively. N₂O opera-
+61.9% to 75.26%. Similarly, in the scenario S2, the GHG emission tional optimization, CH4 operational optimization and carbon offset
+reduction in 2035 and 2050 will be mainly attributed to technical could achieve reduction of 0.08, 0.04 and 0.01 Mt CO2-eq respectively,
+improvement, with reduction reaching 0.32 Mt CO2-eq and 0.77 Mt accounting for 8.74%, 4.62% and 1.46% of the total emission reduction.
+CO2-eq, respectively, with the proportion increasing from 74.49% to Heat consumption will generate emissions of 0.01 Mt CO2-eq. The sce-
+84.20%. However, in the scenario S4, the GHG emission reduction in nario S5 would achieve a GHG emission reduction of 0.57 Mt CO2-eq, of
+2035 and 2050 will be mainly attributed to water conservation, with which energy saving and medication optimization continue to be the
+reduction reaching 0.23 Mt CO2-eq and 0.39 Mt CO2-eq, respectively, two segments with the greatest potential for reduction, with a reduction
+with the proportion decreasing from 67.46% to 53.02%. Specially, in the of 0.17 Mt CO2-eq and 0.13 Mt CO2-eq, the ratio would increase to
+scenario S5, the GHG emission reduction in 2035 will be mainly 29.91% and 23.82% respectively. N₂O operational optimization, CH4
+attributed to water conservation, with reduction reaching 0.13 Mt CO2- operational optimization and carbon offset could achieve reduction of
+eq, accounting for 53.63% of the total reduction. While the reduction in 0.03, 0.03 and 0.004 Mt CO2-eq respectively, accounting for 5.71%,
+2050 would be mainly attributed to technical improvement, with 4.68% and 0.64% of the total emission reduction. Heat consumption will
+reduction reaching 0.34 Mt CO2-eq, accounting for 60.82% of the total. generate emissions of 0.02 Mt CO2-eq. It can be seen that the mitigation
+In summary, water conservation and technical improvement can have a measures of medication optimization and energy saving have a great
+great potential for GHG emission reduction in the municipal WWTPs. potential for GHG emission reduction and should be given priority in the
+Managers should consider them in a comprehensive manner in order to future.
+get the greatest reduction potential in the future.
+We select scenario S2 and scenario S5 with the same level of water 3.3. Uncertainty analysis
+conservation to explore the GHG emission reduction potential of
+different mitigation measures of technical improvement for the munic- Our modelling results were based on a variety of parameters and
+ipal WWTPs (Fig. 5). In 2035, a GHG emission reduction of 0.43 Mt CO2- therefore have unavoidable uncertainties. Our study used a Monte Carlo
+eq can be achieved in the scenario S2, of which the largest reduction is algorithm to quantify parameter uncertainty. We set up crossover sce-
+the medication optimization, reaching 0.13 Mt CO2-eq, 30.41% of the narios for water conservation and technical improvement, complete
+total reduction. It will be followed by energy saving, with a GHG with benchmarks for each parameter (water conservation、energy
+emission reduction of 0.12 Mt CO2-eq, 27.98% of the total. N₂O opera- saving, operational optimization, solar energy utilization and medica-
+tional optimization, CH4 operational optimization and carbon offset tion optimization) and allowable fluctuations of 10% above and below
+could achieve reduction of 0.05, 0.03 and 0.01 Mt CO2-eq respectively, the benchmarks. The Monte Carlo results for GHG emissions formed the
+accounting for 11.39%, 7.42% and 1.36% of the total emission reduc- lightly shaded part of Fig. S4. Compared to the scenarios with repre-
+tion. Since sludge drying and incineration will be continuously pro- sentative parameter compositions, the ranges of modeled changes in
+moted in Shanghai (SMBEE, 2023), heat consumption will generate GHG emissions for scenarios S1, S2, S3, S4, S5, S6, S7, and S8 were
+GHG emissions of 0.02 Mt CO2-eq. In the scenario S5, a GHG emission (cid:0) 5.16%～+28.47%、-5.06%～+28.69%、-4.63%～28.25%、-10.81%
+reduction of 0.24 Mt CO2-eq can be achieved in 2035, of which the ～+13.41%、-11.26%～+13.01%、-11.45%～+13.18%、-10.40%～+
+largest reduction is the energy saving, reaching 0.06 Mt CO2-eq, 26.15% 10.46% and (cid:0) 10.39%～+10.51% in 2050. In addition, it could be found
+of the total reduction. It will be followed by medication optimization, that parameter variations affect the final GHG emissions, but the dif-
+with a GHG emission reduction of 0.04 Mt CO2-eq, 16.68% of the total. ference between the eight scenarios was significant. This result sug-
+gested that our scenario settings can represent different levels of GHG
+emissions. The Monte Carlo results for the shaded portions of Fig. S4
+indicated that the emission trends of different scenarios differed
+significantly under random combinations of parameter values, and that
+the parameter values did not affect the overall trend of GHG emission
+changes. We did not consider the uncertainty in the proportion of sludge
+resource recovery because there was already a document (SMBEE, 2023)
+that sets out the proportional situation of sludge disposal.
+4. Discussion
+We constructed a comprehensive GHG emission accounting system
+for Shanghai’s municipal WWTPs and projected emissions trends up to
+2050. Our results revealed that through the implementation of advanced
+water conservation and technical improvement, the municipal WWTPs
+in Shanghai could potentially cap GHG emissions at 0.55 Mt CO2-eq by
+2050. Despite achieving a substantial reduction in GHG emissions,
+further endeavors are imperative for the municipal WWTPs to attain
+carbon neutrality. The reduction ratio in technical improvement we
+Fig. 4. Future GHG emission reduction of different scenarios in 2035 and 2050 applied was conservative, resulting in notable GHG emissions, particu-
+(Based on the BAU scenario). The implications of scenarios S1 to S8 are larly from nitrous oxide (N2O) emissions and chemical consumption in
+consistent with Fig. 3. 2050. This aligns with the outcomes of related studies (Wang et al.,
+5
+
+--- Page 6 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+Fig. 5. Future GHG emission reduction potential for different mitigation measures in scenario S2 and scenario S5 in 2035 and 2050. Under the dimensions of water
+conservation and technical improvement, scenario S2 represents middle-high and scenario S5 represents middle-middle.
+2023; Yang et al., 2023), indicating that GHG emissions from electricity Additionally, if all the thermal energy generated from sludge incinera-
+and chemical consumption play a dominant role in emissions from tion is utilized for electricity generation by combined heat and power
+wastewater treatment systems. With regard to N2O emissions, WWTPs (CHP), a carbon offset effect of 1440.29 kg/t Ds can be generated (Li
+can implement strategies such as process optimization, feed optimiza- et al., 2023). Consequently, it is advisable for managers to promptly
+tion and aeration control to efficiently mitigate direct N2O emissions evaluate and analyze anaerobically digested sludge from WWTPs, and
+(Duan et al., 2020; Yang et al., 2023). While N2O capture is currently gradually to increase the proportion utilized for land utilization. The
+underutilized (Kampschreur et al., 2009), its incorporation into future heat recovery rate of sludge incineration should also be improved to
+WWTP designs in Shanghai should be considered to alleviate GHG reduce energy consumption and GHG emissions. Furthermore, there
+emissions. Furthermore, the GHG emissions stemming from chemical exists potential for “Certified Emission Reductions (CERs)” related to
+consumption are anticipated to represent a significant proportion of the thermal energy in wastewater, and once approved by the government
+total, given that sludge incineration is projected to account for 70% in for inclusion in the carbon market list, the amount of carbon traded can
+Shanghai by 2050. In the future, chemical consumption can be saved be substantial (Hao et al., 2021). The exploration of thermal energy
+through digital transformation or the development of intelligent dosing recovery from wastewater for carbon trading represents a viable avenue
+systems (Yuan et al., 2023). Concurrently, optimizing the wastewater for future investigation.
+treatment process and implementing artificial wetlands can enhance the While GHG emission reduction through technical improvements in
+removal efficiency of organic matter, nitrogen, and phosphorus. This the municipal WWTPs is attainable, the application of mitigation mea-
+approach reduces dependence on chemical agents, thereby mitigating sures is constrained by notable technological barriers and economic
+chemical consumption (Xie and Liu, 2023). In summary, novel mitiga- costs. Operational optimization, for instance, is not universally suitable
+tion measures for reducing N2O emissions and chemical consumption for all WWTPs, as its feasibility is closely tied to the specific conditions of
+are imperative for achieving carbon neutrality in the municipal WWTPs. individual facilities. Different configurations, processes and operating
+Our results highlighted medication optimization and energy saving conditions of in-situ applications at WWTPs affect the pathways and
+as significant mitigation measures for GHG emission reduction, emission dynamics of CH4 and N2O (Duan et al., 2021). In the context of
+emphasizing their crucial consideration in future GHG emission reduc- sludge resource utilization, the low carbon content of sludge limits the
+tion pathways. This is consistent with related research (Yang et al., potential for chemical energy extraction during anaerobic digestion,
+2023), emphasizing the crucial need for effective energy saving in- resulting in reduced gas production and project benefits (Qu et al., 2022;
+terventions to minimize the energy demand of WWTPs. Moreover, the Yang et al., 2023). Moreover, due to the high cost of sludge anaerobic
+potential for reducing GHG emissions from other sources, including digestion treatment systems, sludge incineration is expected to remain
+sludge disposal through anaerobic digestion for land utilization and the predominant method of sludge treatment and disposal in the future
+utilizing thermal energy from sludge incineration for electricity gener- (Kor-Bicakci and Eskicioglu, 2019). For energy saving, compared with
+ation through combined heat and power (CHP), should be explored. In traditional coal-fired and thermal power generation methods, solar en-
+considering carbon offset, a case assessment (Li et al., 2023) underscores ergy utilization has higher application costs (Sun et al., 2019). The
+that sludge disposal through anaerobic digestion for land utilization power generation capacity is significantly influenced by weather con-
+represents the most low-carbon process route for sludge treatment. ditions, presenting potential challenges in regions with unstable
+6
+
+--- Page 7 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+climates (Zhao et al., 2022). Consequently, the municipal WWTPs in proposed GHG emission reduction pathways as a reference for the
+Shanghai faces constraints and limitations related to the application of remaining cities. In the future, city managers can reduce the amount of
+technical improvements, and the GHG emission potential of water wastewater generated from the source by implementing water conser-
+conservation warrants equal consideration. vation, thus reducing GHG emissions. At the same time, more advanced
+In contrast to previous studies, our results showed that water con- and mature mitigation measures could be utilized in the construction of
+servation has the potential to reduce GHG emissions and it could be WWTPs to reduce GHG emissions during the treatment process, helping
+implemented in Shanghai. Water use efficiency in most regions of China the municipal WWTPs to achieve carbon neutrality.
+is widely acknowledged to be low, and the issue of water pollution re-
+mains largely unresolved, signaling a substantial potential for water CRediT authorship contribution statement
+conservation in the broader context of high-quality development (Ren
+et al., 2023). Furthermore, recent policy directives (Government, Yintian Fang: Writing – original draft, Investigation, Data curation.
+2023a) have explicitly advocated for water conservation and the Hongyi Xie: Writing – review & editing. Bin Chen: Writing – review &
+development of a comprehensive water-saving city. Additionally, in editing. Zhixiu Han: Writing – review & editing. Dong An: Writing –
+Shanghai, the successful implementation of waste sorting initiatives review & editing. Wenxiong Cai: Writing – review & editing. Wei
+since 2019 (Congress, 2021), with residential areas and units achieving Zhang: Writing – review & editing. Yutao Wang: Writing – review &
+a classification compliance rate of 95%, demonstrates the high will- editing, Supervision, Resources, Project administration,
+ingness of citizens to protect the environment (Bian et al., 2022; Bureau, Conceptualization.
+2022), making it feasible to implement water conservation measures in
+the city. Managers can adopt various measures to encourage residents to
+Declaration of competing interest
+conserve water and reduce wastewater production. For instance, water
+conservation can be integrated into the carbon credit mechanism, and
+The authors declare that they have no known competing financial
+positive incentives can be employed to promote green and low-carbon
+interests or personal relationships that could have appeared to influence
+production and lifestyles (Government, 2023b). Green carbon credit
+the work reported in this paper.
+can effectively curb GHG emissions and have significant spatial spillover
+effects on GHG emissions (Liu et al., 2023).
+Data availability
+It is important to recognize that our analysis has certain limitations.
+The methodology employed for determining the carbon offset section
+related to this paper’s sludge reuse is derived from the literature and Data will be made available on request.
+subject to uncertainty. Additionally, there are other potential measures
+to reduce GHG emissions from WWTPs, such as wind power generation Acknowledgment
+(Li et al., 2022). Hence, achieving carbon neutrality in the municipal
+WWTPs necessitates a holistic approach in the future. Shanghai should This work was funded by National Natural Science Foundation of
+intensify its efforts to promote carbon-inclusive policies and water China (No. 52022023) and Science and Technology Innovation Plan Of
+conservation, integrating the latter into the carbon sink mechanism. Shanghai Science and Technology Commission (22DZ2200500). We also
+Moreover, greater attention can be directed towards reducing GHG appreciate Ms. Sijing Wang and Mr. Ju Wang of Fudan University for
+emissions from water reclamation, particularly within the urban water their useful comments and suggestions.
+cycle (Zhang et al., 2021a). Looking ahead, strategies such as promoting
+energy consumption optimization and clean energy usage, curbing Appendix A. Supplementary data
+carbon and chemical consumption in the treatment process, and
+enhancing the efficacy of wastewater regeneration and the recycling of Supplementary data to this article can be found online at https://doi.
+valuable substances are effective pathways for establishing org/10.1016/j.jclepro.2024.141134.
+carbon-neutral WWTPs (Xie and Liu, 2023).
+References
+5. Conclusion
+Bao, Z., Sun, S., Sun, D., 2016. Assessment of greenhouse gas emission from A/O and SBR
+wastewater treatment plants in Beijing, China. Int. Biodeterior. Biodegrad. 108,
+In this work, we calculated the GHG emissions from the municipal 108–114.
+WWTPs in Shanghai in 2020 and analyzed the key emission sections. In Bian, S., Xue, Y., Li, C., Wu, W., Ma, Z., Okoro, J.O., Harder, M.K., 2022. Depositing
+addition, based on historical trends, we assessed the future emission waste in ’certain place’ at ’certain time’: does this policy improve recycling
+performance? Resour. Conserv. Recycl. 176.
+trends and reduction potential up to 2050, considering important factors
+Bureau, S.M.W., 2020. Shanghai Water Resources Bulletin 2020.
+for GHG emissions. Our findings suggested that GHG emissions from the Bureau, S.U.M., 2022. Suggestions on Better Implementing the Responsibilities of
+municipal WWTPs in Shanghai can be controlled to within 0.55 Mt by Relevant Departments to Promote the Normal and Long-Term Effectiveness of
+Domestic Waste Separation.
+2050 if the robust mitigation measures could be taken. GHG emission
+Cai, B., Zhang, L., Xia, C., Yang, L., Liu, H., Jiang, L., Cao, L., Lei, Y., Yan, G., Wang, J.,
+reduction can be achieved through water conservation and technical 2021. A new model for China’s CO2 emission pathway using the top-down and
+improvement, but the former is more economical and should receive bottom-up approaches. Chin. J. Popul. Resour. Environ. 19 (4), 291–294.
+Chen, Y., Guo, F., Wang, J., Cai, W., Wang, C., Wang, K., 2020. Provincial and gridded
+more attention. Optimization of medication use and energy saving are
+population projection for China under shared socioeconomic pathways from 2010 to
+important mitigation measures for GHG emission reduction and should 2100. Sci. Data 7 (1).
+be prioritized when designing future GHG emission reduction pathways. Chen, W., Zhang, Q., Hu, L., Geng, Y., Liu, C., 2023. Understanding the greenhouse gas
+emissions from China’s wastewater treatment plants: based on life cycle assessment
+While our analysis provides valuable insights, it is essential to
+coupled with statistical data. Ecotoxicol. Environ. Saf. 259, 115007-115007.
+acknowledge certain limitations and the need for further research in the Cheng, P., 2021. Shanghai Environment Yearbook (2020). Shanghai People’s Publishing
+future. Consequently, future research efforts can focus on developing House, Shanghai, China.
+more authoritative and systematic calculation methods for carbon offset Congress, S.M.P.s., 2021. Regulations on the Management of Domestic Garbage in
+Shanghai.
+from sludge resource utilization. Furthermore, WWTPs can explore and Dai, X., Zhang, C., Zhang, L., Zhang, R., Chen, G., Hu, W., 2021. Thoughts on the
+implement more energy-efficient and cost-effective GHG emission development direction of sludge treatment and resource recovery under the
+reduction measures, thus enhancing the overall strategies for achieving background of carbon neutrality. Water Wastewater Eng. 57 (3), 1–5.
+Duan, H., van den Akker, B., Thwaites, B.J., Peng, L., Herman, C., Pan, Y., Ni, B.-J.,
+carbon neutrality. In summary, our study established a city-scale ac-
+Watt, S., Yuan, Z., Ye, L., 2020. Mitigating nitrous oxide emissions at a full-scale
+counting system for GHG emissions in the municipal WWTPs and wastewater treatment plant. Water Res. 185.
+7
+
+--- Page 8 ---
+Y. Fang et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 443(2024)141134
+Duan, H., Zhao, Y., Koch, K., Wells, G.F., Zheng, M., Yuan, Z., Ye, L., 2021. Insights into Qu, J., Dai, X., Hong-Ying, H., Huang, X., Chen, Z., Li, T., Cao, Y., Daigger, G.T., 2022.
+nitrous oxide mitigation strategies in wastewater treatment and challenges for wider Emerging trends and prospects for municipal wastewater management in China. ACS
+implementation. Environ. Sci. Technol. 55 (11), 7208–7224. Es&T Eng. 2 (3), 323–336.
+Ehrlich, Paul R., Holdren, J.P., 1971. Impact of population growth. Science 171. Ren, W., Ye, L., Sun, Y., Lyu, S., Wang, Y., Zhang, Z., 2023. Decomposing the effect of
+Farago, M., Damgaard, A., Rebsdorf, M., Nielsen, P.H., Rygaard, M., 2022. Challenges in technology on wastewater and related pollutants discharges in China. Resour.
+carbon footprint evaluations of state-of-the-art municipal wastewater resource Conserv. Recycl. 198.
+recovery facilities. J. Environ. Manag. 320. SMBEE, 2020. Statistical Data on Water Environmental Protection in Shanghai in 2020.
+Government, S.M.P.s., 2023a. Highlights of Water Conservation and Water Resource Shanghai Municipal Bureau of Ecological Environment, Shanghai, China.
+Management in Shanghai in 2023. Shanghai, China. SMBEE, 2022. Notice on Adjusting the Values of Emission Factors Related to the City’s
+Government, S.M.P., 2023b. Shanghai Carbon Inclusion Management Measures. Greenhouse Gas Emission Accounting Guidelines. Shanghai Municipal Bureau of
+https://www.shanghai.gov.cn/gwk/search/content/78a437ce9f7b4f30bc50b4fc Ecological Environment, Shanghai, China.
+11fc5d0b. SMBEE, 2023. Implementation Programme for the Environmentally Sound Treatment
+Government, S.M.P., 2023c. Shanghai Pollution Reduction and Carbon Synergy and Resource Utilization of Sludge. Shanghai Municipal Bureau of Ecological
+Implementation Program. https://www.shanghai.gov.cn/gwk/search/content/9ba Environment, Shanghai, China.
+f505e74654c2e8f6de16f42802e43. SMBS, 2020. Shanghai Statistical Yearbook (2020). Shanghai Municipal Bureau of
+Guan, Y., Shan, Y., Huang, Q., Chen, H., Wang, D., Hubacek, K., 2021. Assessment to Statistics, Shanghai, China.
+China’s recent emission pattern shifts. Earth’s Future 9 (11). Sun, T.Q., Cheng, D.L., Xu, L., Qian, B.L., 2019. Status and trend analysis of solar energy
+Guo, D., Li, B., Yu, W., Han, J.-C., Zhou, Y., Ye, Z., Wu, X., Young, B., Huang, Y., 2023. utilization technology. In: 4th International Conference on New Energy and Future
+Revisiting China’s domestic greenhouse gas emission from wastewater treatment: a Energy System (NEFES) 354.
+quantitative process life-cycle assessment. Sci. Total Environ. 876, 162597–162597. Wang, D., Ye, W., Wu, G., Li, R., Guan, Y., Zhang, W., Wang, J., Shan, Y., Hubacek, K.,
+Hao, X., Rao, Z., Li, S., Li, J., Jiang, H., 2021. Potential carbon trading volume of thermal 2022a. Greenhouse gas emissions from municipal wastewater treatment facilities in
+energy contained in wastewater. China Water Wastewater 37 (12), 7–13. China from 2006 to 2019. Sci. Data 9 (1).
+Hu, S., Xia, J., Wu, X., Wang, Y., Xia, F., 2018. Water environment variation in the three Wang, L., Li, D., Liu, Z., Li, H., 2022b. Analysis on carbon emission from sludge treatment
+gorges tributary and its influencing factors on different scales. Water 10 (12). and disposal. China Environ. Sci. 42 (5), 2404–2412.
+Hua, H., Jiang, S., Yuan, Z., Liu, X., Zhang, Y., Cai, Z., 2022. Advancing greenhouse gas Wang, M., He, G., Dou, P., Qin, C., Zhao, Y., Zhu, Y., Jiang, S., 2023. Greenhouse gas
+emission factors for municipal wastewater treatment plants in China. Environ. emissions and future forecast of the sewage treatment system in Beijing. J. Tsinghua
+Pollut. 295. Univ. (Sci. Technol.) 1–12.
+IPCC, 2019. 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Wu, D., Li, X., Li, X., 2021. Toward energy neutrality in municipal wastewater treatment:
+Inventories. a systematic analysis of energy flow balance for different scenarios. ACS Es&T Water
+Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S.M., van Loosdrecht, M.C. 1 (4), 796–807.
+M., 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43 (17), Wu, Z., Duan, H., Li, K., Ye, L., 2022. A comprehensive carbon footprint analysis of
+4093–4103. different wastewater treatment plant configurations. Environ. Res. 214.
+Kor-Bicakci, G., Eskicioglu, C., 2019. Recent developments on thermal municipal sludge Xie, C., Liu, G., 2023. Road map for constructing carbon neutral wastewater treatment
+pretreatment technologies for enhanced anaerobic digestion. Renew. Sustain. Energy plants. J. Inst. Eng. Environ. Eng. Div. 41 (9), 181–186.
+Rev. 110, 423–443. Yang, X., Wei, J., Ye, G., Zhao, Y., Li, Z., Qiu, G., Li, F., Wei, C., 2020. The correlations
+Kumar, A., Thanki, A., Padhiyar, H., Singh, N.K., Pandey, S., Yadav, M., Yu, Z.-G., 2021. among wastewater internal energy, energy consumption and energy recovery/
+Greenhouse gases emission control in WWTS via potential operational strategies: a production potentials in wastewater treatment plant: an assessment of the energy
+critical review. Chemosphere 273. balance. Sci. Total Environ. 714.
+Li, L., Wang, X., Miao, J., Abulimiti, A., Jing, X., Ren, N., 2022. Carbon neutrality of Yang, M., Peng, M., Wu, D., Feng, H., Wang, Y., Lv, Y., Sun, F., Sharma, S., Che, Y.,
+wastewater treatment-A systematic concept beyond the plant boundary. Environ. Yang, K., 2023. Greenhouse gas emissions from wastewater treatment plants in
+Sci. Ecotechnol. 11. China: historical emissions and future mitigation potentials. Resour. Conserv.
+Li, Z., Zhang, L., Du, Z., Feng, L., Liu, Y., 2023. Comparison of carbon emissions in Recycl. 190.
+different treatment and disposal process routes of municipal sludge. Environ. Sci. J. Yapicioglu, P., Demir, O., 2021. Minimizing greenhouse gas emissions of an industrial
+Integr. Environ. Res. 44 (2), 1181–1190. wastewater treatment plant in terms of water-energy nexus. Appl. Water Sci. 11 (12).
+Lin, W., Zhao, G., Liu, W., Cao, H., Huang, X., Xu, J., 2017. Study on carbon emission Yuan, F., Jiang, X., Wei, M., Xiao, Y., 2023. Research and application of intelligent
+accounting for typical processes of sewage sludge treatment and disposal. J. Inst. control system for chemical phosphorus removal in sewage treatment plant. China
+Eng. Environ. Eng. Div. 35 (7), 175–179. Environ. Protect. Ind. 2, 67–72.
+Liu, R., Huang, R., Shen, Z., Wang, H., Xu, J., 2021. Optimizing the recovery pathway of Zhang, J., Dou, Y., Dong, H., 2014. Intrinsic ductility of Mg-based binary alloys: a first-
+a net-zero energy wastewater treatment model by balancing energy recovery and principles study. Scr. Mater. 89, 13–16.
+eco-efficiency. Appl. Energy 298. Zhang, Q., Smith, K., Zhao, X., Jin, X., Wang, S., Shen, J., Ren, Z.J., 2021a. Greenhouse
+Liu, Z., He, S., Li, W., Sun, H., 2023. Does green credit reduce carbon emissions? gas emissions associated with urban water infrastructure: what we have learnt from
+Evidence from China. Environ. Sci. Pollut. Control Ser. 30 (10), 26735–26751. China’s practice. Wiley Interdiscip. Rev.-Water 8 (4).
+Mannina, G., Reboucas, T.F., Cosenza, A., Chandran, K., 2019. A plant-wide wastewater Zhang, Y., Ge, T., Sun, Y., Liu, J., Gao, C., Zhang, W., 2021b. Research on carbon
+treatment plant model for carbon and energy footprint: model application and emission model based on the whole process of urban sewage treatment. China Water
+scenario analysis. J. Clean. Prod. 217, 244–256. Wastewater 37 (9), 65–74.
+MEE, 2010. Guideline on Best Available Technologies of Pollution Prevention and Zhao, G., Liu, W., Xu, J., Huang, X., Lin, X., Huang, J., Li, G., 2021. Greenhouse gas
+Control for Treatment and Disposal of Sludge from Municipal Wastewater Treatment emission mitigation of large-scale wastewater treatment plants (WWTPs):
+Plant(on Trial). optimization of sludge treatment and disposal. Pol. J. Environ. Stud. 30 (1),
+NBS, 2021. China Energy Statistics Yearbook (2020). China Statistics Press, Beijing, 955–964.
+China. Zhao, Y., Zhang, L., Liu, Y., Deng, Z., Zhang, R., Zhang, S., He, W., Qiu, Z., Zhao, Z.,
+Pang, C., Luo, X., Rong, B., Nie, X., Jin, Z., Xia, X., 2023. Carbon emission accounting and Tang, B.Z., 2022. AIEgens in solar energy utilization: advances and opportunities.
+the carbon neutralization model for a typical wastewater treatment plant in China. Langmuir 38 (29), 8719–8732.
+Int. J. Environ. Res. Publ. Health 20 (1).
+8

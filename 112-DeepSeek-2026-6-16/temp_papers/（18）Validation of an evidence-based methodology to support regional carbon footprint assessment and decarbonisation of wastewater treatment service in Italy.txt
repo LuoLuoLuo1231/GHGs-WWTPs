@@ -1,0 +1,470 @@
+--- Page 1 ---
+WaterResearch207(2021)117831
+Contents lists available at ScienceDirect
+Water Research
+journal homepage: www.elsevier.com/locate/watres
+Validation of an evidence-based methodology to support regional carbon
+footprint assessment and decarbonisation of wastewater treatment service
+in Italy
+Enrico Marinellia, Serena Radinia, Alessia Fogliaa, Nicola Lancionia, Alberto Piasentinb,
+Anna Laura Eusebia,*, Francesco Fatonea
+aDepartment of Science and Engineering of Materials, Environment and Urban Planning-SIMAU, Marche Polytechnic University, Via Brecce Bianche,12, Ancona 60131,
+Italy
+bPublic-Owned Water Utility, Alto Trevigiano Servizi Srl, Via Schiavonesca Priula, 86 – 31044 Montebelluna, Treviso, Italy
+A R T I C L E I N F O A B S T R A C T
+Keywords: In this paper, a new regional methodological approach for determining direct and indirect emissions from
+Carbon footprint wastewater treatment plants (WWTPs) is proposed. Additionally, an entire territorial wastewater treatment
+Greenhouse gas service located in the northern Italy and serving 411,484 PE was assessed. The most accurate emission factor
+Wastewater
+identification is presented using appropriate on-site measurements, monitoring different aerated operational
+Emission factor
+units and sampling several streams in 12 relevant WWTPs of different treatment capacities, ranging from 3000 to
+Decarbonisation
+73,000 PE. Dissolved greenhouse gas (GHG) concentrations from 0.2 to 24 mgN2O/L, 0.1 to 1 mgCH4/L and 1.8
+to 52 mgCO2/L in effluent flows were detected. Specific carbon footprints resulted in the emissions of 0.04–0.20
+tonCO2eq/PE/y, varying as per the size of the plants. The most impactful categories were identified for indirect
+emissions, associated with dissolved GHGs discharged in the surface water body and due to energy consumption,
+which accounted for 13–70% and 10–40%, respectively. The overall territorial carbon footprint of the waste-
+water treatment service was also quantified to provide evidence-based decision support system (DSS) and pre-
+pare systemic mitigation strategies.
+constitute the largest part of CF of WWTPs, and global GHG emissions of
+the wastewater sector are predicted to increase by up to 27% by 2030
+1. Introduction
+(Caniani et al., 2019; Huang et al., 2020).
+In this context, several national and international initiatives and
+Several regions are working towards low carbon and circular econ-
+activities have been started to support the transition to low-carbon re-
+omy (Regional Policy, EC, 2014) and actions to decarbonise urban water
+gions and urban water utility (WACCLIM, 2020; Crippa et al., 2019). In
+management can have a relevant impact (Ballard et al., 2018) especially
+Italy, the National Regulatory Authority for Energy, Networks, and
+when territorial pathways are developed.
+Environment (ARERA, 2017) introduced the ‘Carbon Footprint of the
+In recent years, environmental legislations such as the Urban
+wastewater treatment service’ as one of the key performance indicators
+Wastewater Treatment Directive (UWWTD) (DIRECTIVE 91/271/EC),
+to analyse and assess the technical quality standard of the activities
+currently under revision, introduced more stringent quality standards
+carried out by water utilities. On one hand this regulatory driver can
+for the effluents of the wastewater treatment plants (WWTPs) that led to
+make a substantial shift towards the low-carbon water utilities, on the
+increase in energy consumption and greenhouse gas (GHG) emissions
+other hand the Authority could only guide the operators by indicating
+(Gu et al., 2016). In many European countries, urban water cycle ac-
+counts for 1–3% of the total electric energy consumption (Longo et al., the adoption of the general ISO 14,064–1:2019. In fact, while for energy
+2016) and 3–10% of the global warming potential (GWP) by contrib- audits, a standardised European methodology was developed in the
+H2020 project ENERWATER to assess the energy footprint of WWTPs
+uting towards GHG emissions into the atmosphere, both as direct and
+(Longo et al., 2019), for CF, same standard approach is missing. Today
+indirect footprints (Samuelsson et al., 2018). As per the U.S. Environ-
+several tools and software have been developed in recent years to
+mental Protection Agency (EPA), the emissions of CO2, CH4, and N2O
+* Corresponding author.
+E-mail address: a.l.eusebi@univpm.it (A.L. Eusebi).
+https://doi.org/10.1016/j.watres.2021.117831
+Received 20 August 2021; Received in revised form 23 October 2021; Accepted 31 October 2021
+Availableonline3November2021
+0043-1354/©2021ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Nomenclature GHG greenhouse gas
+GWP global warming potential
+AD activity data IA intermittent aeration
+ASMN activated sludge models for nitrogen K potassium
+BSM2-e benchmark simulation model No. 2 emission MLE modified Ludzack(cid:0) Ettinger
+BSM2G benchmark simulation model No. 2 greenhouse gas PE population equivalent
+C carbon SCENA short cut enhanced nutrients abatement
+CF carbon footprint SCF specific carbon footprint
+CFCT carbon footprint calculation tool EF emission factor
+CF-TOOL CTRL carbon footprint control TN total nitrogen
+CHEApet carbon heat energy assessment plant evaluation tool TNeff effluent total nitrogen
+CO2eq equivalent CO2 TNrem removed total nitrogen
+COD chemical oxygen demand TP total phosphorus
+CODeff effluent chemical oxygen demand TS total solids
+CODin influent chemical oxygen demand TSS total suspended solids
+CODrem removed chemical oxygen demand WESTWeb water energy sustainability tool
+DEEM diffusive emissions estimation model WWEECarb water and waste environmental engineering carbon
+DSS decision support system footprint;
+ECAM energy performance and carbon emissions assessment and WWTP wastewater treatment plant
+monitoring
+Table 1
+Selected WWTPs for on-site measurements.
+Design Measured units Biological treatment COD TN TP COD TN TP
+capacity influent influent influent removal removal removal
+PE - - tonCOD/y tonTN/y tonTP/y % % %
+WWTP1 73,000 Biological reactor MLE 1919 198 30 93% 84% 90%
+WWTP2 40,000 Biological reactor MLE 1394 69 21.6 92% 84% 96%
+WWTP3 40,000 Biological reactor, Via-nitrite MLE, via-nitrite 2037 165 24 90% 70% 49%
+supernatant treatment, Biofilter supernatant treatment
+WWTP4 70,000 Biological reactor, Biofilter IA 1876 137 21.7 88% 71% 70%
+WWTP5 32,000 Biological reactor MLE 1253 103 21.1 93% 88% 79%
+WWTP6 45,000 Biological reactor, Aerobic MLE 432 49 5.8 87% 85% 82%
+stabilisation
+WWTP7 9500 Biological reactor, Biofilter MLE 273 34 3.9 93% 85% 72%
+WWTP8 18,000 Biological reactor, Aerated MLE 318 44 4.9 86% 88% 58%
+degritting unit
+WWTP9 22,000 Biological reactor, Aerated MLE 444 40 7.8 90% 80% 60%
+degritting unit
+WWTP10 3000 Biological reactor MLE 58 8.6 1.1 87% 88% 43%
+WWTP11 4500 Biological reactor MLE 93 11.7 1.1 93% 87% 60%
+WWTP12 10,000 Biological reactor, Aerated IA 237 18.4 2.5 89% 88% 73%
+degritting unit
+WWTP=wastewater treatment plant; PE=population equivalent; MLE= Modified Ludzack(cid:0) Ettinger; IA=intermittent aeration; COD=chemical oxygen demand;
+TN=total nitrogen; TP=total Phosphorus.
+quantify CF although they do not follow any specific normalised or emissions factors, were validated by site-specific measurements cam-
+standard methodologies (Mannina et al., 2016). Moreover, one of the paigns and emissions categories included both fossil and biogenic origin
+most critical aspects is the appropriate identification of representative of the main GHGs. This validated approach can contribute to the stan-
+and validated emission factors (EFs). In fact, some referenced databases dardization of the methodology for carbon footprint assessment in
+were developed to collect and update the EFs, mainly at the interna- wastewater treatment service and to identify mitigation actions and
+tional or national level, such as emission factor database (EFDB) by priorities for regional decarbonisation.
+Intergovernmental Panel on Climate Change (IPCC). Nevertheless, the This methodology was applied to territorial wastewater service (52
+wastewater sector is typically characterised by wide local variations in municipalities and 1376 km2s) located in the northern Italy (411,484
+influent characteristics and different process parameters or operative PE) managed by a single public-owned water utility. The most accurate
+conditions (Vasilaki et al., 2019). Therefore, site-specific EFs need to be EF identification is presented by using the real operational data and
+considered (Parravicini et al., 2016) through long-term sampling cam- appropriate measurements of emitted and dissolved GHGs from
+paigns, especially for evaluating direct emissions from the main pro- different operational units of 12 WWTPs.
+cesses and indirect dissolved GHGs present in the final effluents.
+This paper goes beyong the current state of the art because a new 2. Materials and methods
+normalised methodological approach according to the guidelines of ISO
+14,064 (WWEECarb) is proposed for the determination both of direct 2.1. General guideline ISO 14,064–1
+and indirect emissions in WWTPs and of the overall CF of regional
+wastewater service carried out by a water utility. Most of the considered ISO standard (ISO 14064-1, 2019) provides ‘specifications with
+2
+
+--- Page 3 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Table 2
+Comparison between existing carbon footprint tool and models and this specific case study methodology.
+MODEL/ Application GHGs Emissions Categories Mitigation EFs
+TOOL
+Direct Dissolved Sludge Energy Chemicals Transports Carbon sequestration
+GHGs GHGs Disposal and minimisation
+1 -CFCT WWTP CH4, N2O, fossil CO2 ✓* ✓ ✓ ✓ ✓ ✓ ✓ Editable
+2 -CF-TOOL WWTP N2O, CO2 ✓** ✓ ✓ ✓ Default
+CTRL
+3-CHEApet WWTP CH4, N2O, CO2 ✓** ✓ only N2O ✓ ✓ ✓ ✓ Default
+4-WESTWeb Water CH4, N2O, CO2, NOx, ✓** ✓ ✓ ✓ Default
+Service PM, SOx, VOC, CO
+5-ECAM Water CH4, N2O, fossil CO2 ✓** Not ✓ ✓ ✓ Editable
+service specified
+6-DEEM Biological N2O, CO2 ✓** Default
+Unit
+7-ASMN Biological N2O ✓** Default
+Unit
+8-BSM2G WWTP CH4, N2O, CO2 ✓** ✓ ✓ ✓ Default
+9-BSM2-e WWTP CH4, N2O, CO2 ✓** ✓ ✓ ✓ Default
+10- WW Service CH4, N2O, fossil and ✓§ ✓ ✓ ✓ ✓ ✓ ✓ Editable
+WWEECarb biogenic CO2
+CFCT=Carbon Footprint Calculation Tool; CF-TOOL CTRL=Carbon Footprint Control; CHEApet=Carbon Heat Energy Assessment Plant Evaluation Tool (CHEApet,
+2011); WESTWeb=Water-Energy Sustainability Tool (WESTWeb, 2021); ECAM=Energy Performance and Carbon Emissions Assessment and Monitoring; DEEM=
+Diffusive Emissions Estimation Model; ASMN=Activated Sludge Models for Nitrogen; BSM2G= Benchmark Simulation Model No 2 Greenhouse Gas; BSM2-e=
+Benchmark Simulation Model No 2 Emission, WWEECarb=Water and Waste Environmental Engineering Carbon Footprint; WWTP=wastewater treatment plant;
+WW=wastewater; GHGs=greenhouse gases; EFs=emission factors.
+* Unique Direct EF from the whole water line.
+** Direct EFs from biological reactor and sludge line.
+§
+Direct EFs from aerated de-sanding units, aerobic biological process, aerobic stabilization of sludge, fuggitive emissions from sludge line and biofilters 1 Gus-
+tavsson and Tumlin (2013), 2 Baeza et al. (2017), 3 https://www.waterrf.org/research/projects/demonstration-carbon-heat-energy-assessment-and-plant-evaluat
+ion-tool-cheapet, 4 https://west.berkeley.edu/model.php, 5 http://wacclim.org/ecam/sources.php, 6 Guo et al. (2012), Mannina et al. (2016), 7 Guo et al. (2012),
+Mannina et al. (2016), 8 Flores-Alsina et al. (2012), Mannina et al. (2016), 9 Mannina et al. (2016), Sweetapple et al. (2013), 10 This study.
+guidance at the organization level for quantification and reporting of green- selected WWTPs included both conventional activated sludge in the
+house gas emissions and removals’. Several aspects and steps should be Modified Ludzack(cid:0) Ettinger (MLE) configuration (n = 10) and inter-
+followed to apply the ISO standard at organisation level: (1) reporting mittent aeration (IA) processes (n =2). The innovative technology of
+boundaries should be defined; (2) direct and indirect emissions must be Short Cut Enhanced Nutrients Abatement (SCENA) (n = 1) (https://
+aggregated into inventory categories, including direct emissions and www.smart-plant.eu/) for the nitrite treatment of nutrient-rich anaer-
+removals, and indirect emissions from imported energy, transportation, obic rejected liquor from the sludge line was studied. All the aerated
+products used by the organisation, associated with the use of products units of different water and sludge lines (aerated degritting unit, bio-
+from the organisation, and other sources; and (3) different GHGs (i.e. logical reactor, aerobic stabilisation, via-nitrite supernatant treatment,
+CO2, CH4, N2O, NF3, and SF6) associated with the type of organisation and biofilter) were monitored. The operation data were collected for all
+have to be separately quantified, and (4) anthropogenic biogenic, the plants over one whole year. The CF results of the monitored WWTPs
+non-anthropogenic biogenic, or fossil origin of CO2 should be distin- were reported as the entire data (tonCO2eq/y) and specific coefficients
+guished. Moreover, CF determination should be annually referred, and (SCF, tonCO2eq/PE/y). SCFs were used to quantify the GHG impacts of
+the result should be reported in tonnes of CO2eq using appropriate GWPs the unselected WWTPs.
+(Towprayoon et al., 2019). Finally, based on the general principles of Septic tank emissions were also calculated according to the meth-
+consistency and accuracy, ISO 14,064-1 requires the definition of odology mentioned in Towprayoon et al. (2019), considering proposed
+quantitative and/or qualitative uncertainty associated with the method EFs for both direct and indirect contributions of the dissolved GHGs in
+used for the quantification of the emissions. the effluent.
+2.2. Description of the territorial wastewater service 2.3. Direct emissions and dissolved gases measurements campaigns
+The proposed approach was applied to determine the CF of waste- Each selected WWTP was monitored for one month during the on-
+water services in the region managed by the Italian water utility Alto site campaign. Aerated points were considered as direct emission sour-
+Trevigiano Servizi, consisting of 52 municipalities in the province of ces (aerated de-sanding units, aerobic biological processes, aerobic
+Treviso(Italy), with a total served population of 411,484 PE. The stabilisations of sludge, and biofilters). Measurements were performed
+regional wastewater treatment service is operated by 5 WWTPs with a for at least one week in each sampling unit. Monitoring was continu-
+design treatment capacity of more than 40,000 PE, by 3 WWTPs with the ously carried out for the biggest WWTPs (WWTP1, 2, 3, 4, 5, and 6) and
+capacities range of 15,000–40,000 PE, 27 WWTPs with less than 15,000 discontinuously for the smaller ones (WWTP7, 8, 9, 10, 11, and 12).
+PE capacity, and 28 septic tanks. The representative WWTPs to be Experimental equipment for the analysis of direct GHG mainly consisted
+monitored over the long-term, were selected by considering both the of two devices.
+treatment capacity of the WWTPs and the representative characteristics. For continuous measurements, the gas analyser (MIR 9000-CLD type,
+Therefore, site-specific EF measurements were carried out in 12 WWTPs ENVEA, IT) with a membrane air dryer Mgf Sky 30/7 M was used under
+(8 WWTPs with capacities higher than 15,000 PE and 4 smaller controlled thermal conditions with the online acquisition of emitted
+WWTPs), covering approximately 90% of the total served population. GHG concentrations (one data every 5 min). The measurements of CH4,
+The characteristics of these WWTPs in terms of process configuration, CO2, and N2O were performed using the standard infrared absorption
+influent loads and removals efficiencies are summarized in Table 1. The (UNICHIM method and ISTISAN 91/41 Report). The system was also
+3
+
+--- Page 4 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Table 3 Table 4
+Emissions categories, including the distinction of CO2 origin and the separate Emissions categories, activity data and type of EFs.
+quantification for each GHG.
+Number Declined Activity data Emission Ref.
+ISO 14,064–1:2019 Proposed declined CO2 Considered GHG category factor
+Category categories origin (EF)
+Direct emissions Direct emission Biogenic tonCO2eq/y, (1) Direct Biogas produced g CO2/kg International
+from combustion reported separately emission from (Nm3/y), burnt CH4 databases (
+Direct emissions Biogenic for N2O, CH4 and combustion methane content g CH4/kg Bartram et al.,
+from WWTP CO2 (%CH4) burnt CH4 2019)
+processes in g N2O/kg
+mainstream burnt CH4
+Direct fugitive Biogenic (2) Direct Influent and kg N2O/ Measured in this
+emissions emissions effluent COD and kgTNrem study
+Indirect emissions from Indirect emissions Non tonCO2eq/y from WWTP TN loads (ton/y) kg CH4/kg Literature,
+imported energy from energy biogenic processes in CODin international
+consumption mainstream kg CO2/kg databases (
+Indirect emissions from Indirect emissions Non tonCO2eq/y, CODrem Aboobakar et al.,
+transportation from waste biogenic reported separately 2013; Ahn et al.,
+transport for N2O, CH4 and 2010; Caniani
+Indirect emissions Non CO2 et al., 2019;
+from chemical biogenic Foley et al.,
+transport 2010; Joss et al.,
+Indirect emissions from Indirect emissions Non tonCO2eq/y 2009; Masuda
+products used by the from chemical biogenic et al., 2018;
+organization consumption Ribera-Guardia
+Indirect emissions from Indirect emissions Biogenic tonCO2eq/y, et al., 2019;
+other sources on the water body reported separately Wang et al.,
+Indirect emissions Biogenic for N2O, CH4 and 2016);
+from sludge CO2 (3) Direct fugitive Biogas produced kgN2O/ Literature (
+composting emissions (Nm3/y) and tonTS Kirkeby et al.,
+methane content kgCH4/ 2005;
+(%CH4); sludge tonTS Majumder et al.,
+calibrated each week using gas cylinders at the standard concentrations produced (ton/y) kgCO2/ 2014; Scheutz
+and tonTS and
+(CH4 at 40.6 ppm, CO2 at 2.33%, and N2O at 160 ppm). The gaseous
+characterisation Fredenslund,
+samples were conveyed to the analyser through a heated gas line at (%TS,%N,%P,% 2019; Will´en
+120 ◦C. A cooling device (HIREF solution, https://hiref.it/) was used to K,%C) et al., 2016)
+reduce the temperature of the gases to 4 ◦C, thus, minimising the water (4) Indirect Electricity tonCO2eq/ National and
+vapour content. Every 3 h, a compressor was activated for ambient air emissions for consumption GWh International
+energy (MWh/y), other databases (
+sampling as a zero reference. In addition, a floating chamber was used to
+consumption fuel combustion ISPRA, 2018)
+convey the samples to the analyser. For the design and construction of also renewable
+the chamber, guideline indications reported for similar measurements (Nm3/y or l/y)
+were followed (Spinelli et al., 2018; Caniani et al., 2019; Kwok et al., (5) Indirect km travelled gN2O/km National
+emissions for gCH4/km databases
+2015). The floating system was made from high-density polyethylene
+with a total volume of 310 L and a bottom area of 1 m2. waste gCO2/km (SINANET,
+transport 2017)
+Some specific sampling campaigns were carried out in the discon- (6) Indirect km travelled gN2O/km National
+tinuous mode for WWTPs with less than 25,000 PE capacity. Specif- emissions for gCH4/km databases (
+ically, peristaltic pump and gas bags (5 L) were used to acquire the chemical gCO2/km SINANET, 2017)
+transport
+gaseous samples (three replicates for each point). Subsequently, GHG
+(7) Indirect Quantity used kgCO2eq/ Literature,
+concentrations were determined using photoacoustic spectroscopy emissions for (kg/y) kg reagent international
+(Brüel & Kjaer Multi-gas Monitor Type 1302). chemical databases (
+Moreover, composite liquid samples from the influent and effluent of consumption Gustavsson and
+Tumlin, 2013)
+each WWTP were collected twice a week. The dissolved CO2, CH4, and
+N2O were measured to calculate the possible indirect emissions of the (8) I en md ii sr se ic ot E Tf Nfl u loe an dt sC (O toD /a yn )d g gC CO O2 D/ M stue da ysu red in this
+n s on n k eff
+GHG mass loads discharged in the water bodies. In this case, it was the water body g CH4/
+assumed that the dissolved gases are totally stripped after the discharge kgCODeff
+in the water body. Since the fate of dissolved GHGs is not uniquely g N2O/
+kgTNeff
+predictable, the hypothesis allows to be conservative for the footprint
+calculation. Stripping the pre-treatment at 20 ◦C (ultrasonic sonication (9) I en md ii sr se ic ot n s and Dried sludge k /tg o N nT2O S L init te er ra nt au tr ioe, n al
+SONOREX model), followed by photoacoustic spectroscopy determina- mitigation for kg CH4/ databases (
+tion (Brüel & Kjaer Multi-gas Monitor Type 1302) were carried out. sludge tonTS Boldrin et al.,
+disposal kg CO2/ 2009; Chai et al.,
+Finally, the main conventional physical and chemical characterisations
+tonTS 2015; Chen and
+(chemical oxygen demand (COD), total suspended solids (TSS), total
+Kuo, 2016; Han
+nitrogen (TN), and total phosphorus (TP)) of the wastewaters were et al., 2018;
+analysed (APHA, 2015). Hergoualc’h
+et al., 2019;
+Kirkeby et al.,
+3. Results and discussion
+2005; Piippo
+et al., 2018;
+3.1. Audit of predictive tool and models Yuan et al.,
+(continued on next page)
+Technical and scientific literature shows that several tools and
+4
+
+--- Page 5 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Table 4 (continued) CH4 is generally considered only from the sludge line. Nevertheless,
+depending on the wastewater treatment configurations and influent
+Number Declined Activity data Emission Ref.
+category factor characteristics, methane emissions could also represent a relevant
+(EF) contribution to the mainstream water line, even higher than N2O
+2018; ClimFoot, emissions (Zhan et al., 2017). Moreover, CO2 concentrations have
+2018) typically accounted only for the fossil origin, while biogenic part,
+(10) Indirect Dried sludge kg N2O (Boldrin et al., derived from microbial respiration during the biological processes has
+emissions /tonTS 2009; Bruun usually not been quantified. Finally, only a few studies have considered
+f rr eo um sludge tk og C TH 4/ e Ht a rgl. o, u2 a0 l0 c6 ’h;
+the dissolved fractions in the liquid of the gases, even when their con-
+se n S e
+kg CO2/ et al., 2019; tributions seemed relevant. In fact, the last report of the European
+tonTS Kirkeby et al., Commission (JRC, 2020) also underlined the importance of considering
+2005) the GHG impacts of an integrated system, including sewer network,
+(11) Mitigations: Dried sludge kg N2O (Foley et al.,
+wastewater treatment, sludge disposal, and final discharge into water
+carbon /tonTS 2010; Kirkeby
+sequestration kg CH4/ et al., 2005) bodies.
+and synthetic tonTS Additionally, even when emissions sources are located outside the
+fertiliser kg CO2/ physical boundaries of the WWTPs, they are strictly associated with the
+substitution tonTS water utility management choices. Thus, indirect impacts due to energy
+TS=total solids, CODin= influent chemical oxygen demand; CODeff=effluent consumption, chemical dosing, transport, and waste disposal have to be
+chemical oxygen demand; CODrem=removed chemical oxygen demand; TNrem= considered in wastewater CF assessment (Brown et al., 2010).
+removed total nitrogen; TNeff=effluent total nitrogen; K=potassium; C=carbon. Currently, in the existing models, EFs are usually set by using in-
+ternal libraries, without the possibility of editing default values and
+software solutions have been developed for different purposes. Simple considering case-specific factors, which are crucial to achieve real
+stationary (i.e., Carbon Footprint Calculation Tool (CFCT)) or dynamic evidence-based results in heterogeneous sectors such as the wastewater
+calculations (Mannina et al., 2016) have been proposed in recent de- treatment service.
+cades (Table 2). Simulation models (Models 6, 7, 8, and 9) were A few applications included CO2eq mitigations, such as carbon
+implemented to calculate the emissions generated mainly from biolog- sequestration from the soils and substitution of mineral fertiliser when
+ical processes, such as activated sludge model (ASM) and benchmark sludge is applied in agriculture fields.
+simulation model (BSM), while specific tools were implemented for In contrast, normalised approach proposed in this study (WWEE-
+determining the CF of a single WWTP (Tools 1, 2, and 3) or for the entire Carb) was applied to the entire wastewater service considering: (1) all
+water and wastewater service (Tools 4, 5, and 10). Direct emissions in main GHGs, both biogenic and of fossil origin; (2) direct emissions
+most of these existing tools are mainly considered from the biological generated from different operational units of the WWTP; (3) indirect
+processes of the water line and only in some few cases from biogas emissions due to energy and chemical consumptions and transportation;
+production. Other aerated stages, such as degritting units, aerobic sta- (4) dissolved gases present in the effluent; (5) emissions and removals
+bilisations of sludge, biofilters, and anaerobic supernatant treatments, related to sludge disposal and reuse; and (6) editable EFs, derived from
+are not usually considered, notwithstanding their wide impact on the both onsite measurement campaigns and technical literature libraries.
+global emissions of the plants (Demir et al., 2019). Moreover, most of the Finally, the standard deviations of EFs were considered to evaluate the
+analysed models and tools focus mainly on direct N2O emissions, while uncertainty and accuracy of the CF results.
+Fig. 1. General WWTP scheme and emissions categories in respect to operative, carbon footprint (CF) reporting and calculation boundaries.
+5
+
+--- Page 6 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Fig. 2. Logical flow scheme of the proposed methodology.
+Fig. 3. Direct emitted GHGs concentrations from biological processes related to the capacity of the plants, from WWTP1 (highest capacity) to WWTP12 (small-
+est capacity).
+3.2. Proposed methodology for carbon footprint estimation in wastewater Specifically, direct emissions included the GHGs from: (i) biogas
+service combustion, (ii) different aerated units (aerated degritting unit, bio-
+logical reactor, aerobic sludge stabilisation, and biofilter) of the WWTP,
+The methodology was developed based on ISO 14,064–1:2019 and (iii) fugitive gases of the sludge line. In contrast, emissions from the
+standard and adapted to a wastewater service with systemic and terri- dissolved gases on the water body, energy and chemical consumptions,
+torial approaches. In this context, the operational control principle transportation, and sludge disposal were considered as indirect. The
+defined by UNI ISO 14,064–1:2019 was applied as a reporting boundary indirect emissions from sludge reuse and related mitigations, such as
+criterion for CF quantification. The reporting boundaries were set carbon sequestration and synthetic fertiliser substitution, were esti-
+considering: (1) the physical operative limits of the WWTPs to define the mated. CF was calculated based on the contribution of three main GHGs:
+direct emissions, (2) impacts of energy and chemical supplies, (3) waste methane, carbon dioxide, and nitrous oxide (Nguyen et al., 2019). Each
+and reagent transportations, and (4) emissions caused by the final sludge relevant GHG contribution, fossil or biogenic CO2 was distinguished
+disposal or recovery/valorisation. based on the origin of the emission (Table 3).
+6
+
+--- Page 7 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Fig. 4. Direct GHGs concentrations during the measurement campaigns, including wet period: (a) N2O concentrations and (b) CH4 concentrations from aerated
+degritting unit, (c) N2O concentrations and (d) emitted CH4 concentrations from biological treatment. LEGEND: xx Wet period Dried period.
+Fig. 5. Emission factors for direct N2O emissions from WWTPs grouped for operational unit.
+Fig. 6. Emission factors for direct CH4 emissions from WWTPs grouped for operational unit.
+Fig. 7. Emission factors for direct CO2 emissions from WWTPs grouped for operational unit.
+7
+
+--- Page 8 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Table 5
+Emission factors (EFs) for indirect emissions on water body due to dissolve GHGs in WWTPs effluent and related standard deviations.
+WWTP1 WWTP2 WWTP3 WWTP4 WWTP5 WWTP6 WWTP7 WWTP8 WWTP9 WWTP10 WWTP11 WWTP12
+DISSOLVED PE_COD 44,499 31,819 46,511 53,713 30,645 20,166 6241 7258 10,139 1335 2125 5410
+GHG_EF
+gN2O/kgTNeff Mean 46 53 33 108 782 305 98 129 538 346 140 122
+Dev std 23 23 21 147 330 171 – – – – – –
+gCH4/kgCODeff Mean 7 4 39 10 133 41 8 11 10 9 11 16
+Dev std 5 5 24 8 63 2 – – – – – –
+gCO2/kgCODeff Mean 790 1328 5358 1330 2546 3603 853 378 1014 735 553 3434
+Dev std 551 503 3082 1667 865 3508 – – – – – –
+Fig. 8. GHGs contributions to the category’s direct emissions from processes and indirect emission to the water body in relation with the WWTP size (<15,000 PE
+and >15,000 PE).
+Emissions were determined based on Eq. (1). variability in GHGs emitted from the biological processes of different
+( ) ( ) ( ) ( )
+tonCO quantity tonGHGs tonCO
+Emissioncontribution 2eq =Activitydata ∗EF ∗GWPs 2eq (1)
+y y quantity tonGHG
+WWTPs, as reported in previously literature studies (Tumendelger et al.,
+where GWPs are referred in IPCC Fifth Assessment Report, AR5 (Tow- 2019). The average values of N2O concentrations were less than 4
+prayoon et al., 2019). mg/m3 of air for the largest WWTPs (WWTP1–6), while they ranged
+In general, activity data (AD) represents the quantity, generated or from 4 to 15 mg/m3 for the smallest plants (WWTP7–12) (Fig. 2). A
+used, of energy, mass, or volume, representing the key parameter for similar behaviour was observed for CO2 quantification. Values lower
+each emission category. The types of AD considered in this study are than 5 g CO2/m3 were detected for the largest WWTPs and in the range
+listed in Table 4. The EFs used were collected from the literature, of 7–16 g CO2/m3 in other cases (Fig. 2). Especially for N2O emissions,
+guidelines, and databases or measured with specific on-site campaigns the difference in the contributions of the largest WWTPs could be
+(Table 4 and Fig. 1). justified by the usually higher efficiencies of the aeration systems and
+The logical flow scheme of the proposed approach according to ISO more elevated removals, as reported by Valkova et al. (2020). In
+14,064–1 is reported in Fig. 2. contrast, for directly emitted CH4 concentrations, a strict correlation was
+The overall calculation of CF, considering the on-site measured not identified with the size of the WWTPs (Fig. 3).
+emissions, was carried out by following several phases: (1) elaboration Furthermore, an important relationship was observed during the rain
+of 1-year plant operation data of 12 WWTPs, such as temperature, events that occurred during the sampling campaigns. It was evident
+wastewater flowrate, airflow rate, influent and effluent COD and TN (example shown for WWTP1 in Fig. 3) that wet periods affected the
+mass loads; (2) calculation of the mass loads of emitted CO2, CH4, and direct GHG emissions with higher concentrations, mainly for N2O and
+N2O; (3) normalisation at 20 ◦C; and (4) conversion into CO2 equivalent. CH4, both emitting from the aerated degritting units and biological
+processes. It can be noticed that the emitted CH4 and N2O detected
+during the rain events were more than 3–6 times higher than the those
+3.3. Measurement campaigns: direct emitted GHG concentrations
+detected during the dry period (Fig. 4a, c, b, and d). These variations
+were probably dependent on sewage system characteristics and a
+Results from the measurement campaigns showed concentration
+8
+
+--- Page 9 ---
+E.
+Marinelli
+Table 6
+Carbon footprint of the selected monitored WWTPs. et
+al.
+Direct Direct emissions Direct Indirect Indirect Indirect Indirect Indirect Indirect Indirect Mitigations from Total
+emission from from WWTP fugitive emissions from emissions emissions emissions from emissions on emissions from emissions carbon sequestration WWTP CF
+combustion processes in emissions energy from waste from chemical chemical the water sludge from sludge and synthetic
+mainstream consumption transport transport consumption body composting reuse* fertiliser substitution
+*
+tonCO2eq/y tonCO2eq /y tonCO2eq tonCO2eq /y tonCO2eq /y tonCO2eq /y tonCO2eq /y tonCO2eq /y tonCO2eq /y tonCO2eq/y tonCO2eq/y tonCO2eq
+/y /y
+WWTP1 0 862 3.2 881 30 2.2 61 511 777 220* (cid:0) 314* 3128
+WWTP2 0 17 2.2 570 20 1.2 20 316 490 129* (cid:0) 190* 1436
+WWTP3 398 310 252 770 14 3.2 110 1933 257 63* (cid:0) 101* 4047
+WWTP4 530 87 335 370 28 4.1 189 1493 493 132* (cid:0) 204* 3528
+WWTP5 0 244 1.9 627 20 1.4 49 3136 437 124* (cid:0) 186* 4517
+WWTP6 0 7 2.7 679 30 3.1 210 872 598 139* (cid:0) 219* 2402
+WWTP7 0 725 2.6 215 4 1.3 22 149 59 18* (cid:0) 29* 1179
+WWTP8 0 79 1.9 189 8 1.5 16 215 116 31* (cid:0) 44* 627
+WWTP9 0 185 2.2 187 6 0.9 42 1222 106 29* (cid:0) 42* 1752
+WWTP10 0 66 0.0 39 2 0.2 4 100 0 0* 0* 210
+WWTP11 0 103 0.0 69 3 0.3 4 61 0 0* 0* 240
+WWTP12 0 717 1.9 99 5 0.5 19 174 71 20* (cid:0) 28* 1087
+TOTAL 24,154
+* Emissions Categories excluded from reporting boundaries.
+976
+GHG tored. influent contributions. erly This CO2 24 scarce. the 2.5 to and the 1.8–52 varied 3.5.Measured final 10kg N2O cubic kgTS, those WWTP stabilisation, kg than biological /kgTNrem), resulted process values inversely 3.1 N2O/kgNrem, highest respectively. and normalised 3.4.Measured GHGs For almost concentrations, loads of N2O mg 50 end For points GHG previously degradations, the corresponding
+N2O, CH4, CO2, and respectively, while the values ±86 mg/L for influent concentrations were found to be 12.5 ±26, 1.1 ±1.2, and Specifically, in the largest WWTPs (from 1 to 6), the dissolved streams of the WWTPs from the sewage systems were moni- Moreover, during the sampling campaigns, dissolved GHGs in the evaluating the indirect emissions due to dissolved GHG variability indicates the need for site-specific campaigns for prop- (Caniani et al., 2019; Masuda et al., 2015, 2018; Vieira et al., 2019). N2O, CH4, 0.009 to 4.5 mg/L for and 245 to 1352 mg/L for mg/L for In general, these values have been found to range from 0.009 to measured values of dissolved GHGs in the effluents of WWTPs is mg/L for the smaller WWTPs (from 7 to 12). Scientific literature on be lower and respectively equal to 0.8 ±0.5, 0.3 ±0.2, and 16.4 ± CO2. Meanwhile, the values were generally found 30 ±19 mg/L for N2O, CH4, average values were 4.6 ±9.4 mg/L for 0.4 ±0.3 mg/L for CO2. Specifically, for the largest WWTPs (from 1 to 6), mg/L for N2O, CH4, 0.1–1 mg/L for and in the range of 0.2–24 mg/L for The dissolved GHG concentrations in the effluents of the WWTPs indirect emission factors global emission from these air treatment units. CO2/m, highlighting the significant impact of methane on the (cid:0)4 3 CH4/m3 /m3 , 2.6 ×10(cid:0)5 to 7.5 ×10(cid:0)5 kg , and 4 ×10(cid:0)4 to 8.3 × to 6 ×10(cid:0)6 kg meter of the treated air changed from 1.2 ×10(cid:0)6 respectively). Finally, for biofilters, the normalised values per N2O CH4 N2O/kgTS CH4/ and (8.9 ×10(cid:0)8 kg and 3.8 ×10(cid:0)7 kg of CO2 CO2/kgTS) 6, yielded the EFs for (1.3 ×10(cid:0)3 kg higher than measured with a continuous monitoring campaign for CH4/kgCODin kgCO2/kgCODrem. and 4.1 ×10(cid:0)3–0.1 Aerated sludge N2O /kgNrem, kg in the range of 1.3 ×10(cid:0)4 -–1.5 * 10(cid:0)3 2.6 ×10(cid:0)4 treatments. Aerated degritting units showed the values of less CH4 CO2 while and impacts were consistent with other N2O N2O (0.27 kg in significantly high EFs in terms of treating nutrient-rich anaerobic rejected liquor via nitrite for the smallest WWTPs (WWTP7–12). In the short cut biological proportional to the WWTP size, resulting in higher specific CO2/kgCODrem. It was also observed that the EF values were kg CH4/kgCODin, 2.2 ×10(cid:0)8 to 0.003 kg and 1.8 ×10(cid:0)5 to emissions, with the values ranging from 6.7 ×10(cid:0)8 to 0.02 kg Biological treatment was typically characterised by the N2O, CH4, CO2, and standard deviations in Figs. 5, 6, and 7 for to identify different EFs reported in terms of average values GHG loads were calculated from the measured concentrations and direct emissions factors for each unit were considered. the calculation of the emitted mass loads, average concentrations of stable throughout the entire biological unit (Zhan et al., 2017). mainly generated from biomass respiration, remained CO2 (COD and TN) were also probably higher. On the other hand, the reaction volume, where the influent macro-contaminant mass CH4, and higher concentrations were observed in the initial section CH4/m3 CO2/m3 , and 5 ±2 g , respectively. It was observed that for mgCH4/m3 gCO2/m3 mgN2O/m3 , and 5 ±2 to 3 ±5 , 22 ±28 ±41 mgN2O/m3 of the aerobic reaction volume decreased from 6 ±17 WWTP5, the average emitted concentrations at the beginning and of the same biological reactor, as discussed by Pan et al. (2016). concentrations were also found to be spatially varying at different Moreover, from the measurement campaigns, the directly emitted reported by Jin et al. (2019). which can generate dissolved gaseous sub-products, as rain events. Urban sewer systems can cause several contaminant increase in the dissolved gases in the influent flow during W a t e r R e s e a r c h 207(2021)117831
+,
+
+--- Page 10 ---
+E. Marinelli et al. W a t e r R e s e a r c h 207(2021)117831
+Fig. 9. Categories contributions (%) to the total carbon footprint for each selected WWTP.
+Fig. 10. Specific Carbon Footprints (SCF) of the selected WWTPs.
+were found to be 0.5 ±0.4 mg N2O /L, 0.3 ±0.2 mg CH4/L, and 50 ±16 monitored WWTPs were significantly relevant and heterogeneous,
+mg CO2/L for the smaller WWTPs (from 7 to 12). These aspects indicated ranging from 34 to 136% with respect to the average values. Moreover,
+that a relevant contribution of dissolved GHG comes directly from the the EF values were found to be inversely proportional to the WWTP size,
+sewage networks, especially for plants with higher capacities. Further- resulting in the higher specific factors for the smallest WWTPs (Table 5).
+more, for smaller WWTPs, the dissolved GHG concentrations in the
+effluent were higher than those of the influent stream. This confirmed
+that for smaller WWTPs, which are usually subjected to more limiting 3.6. Specific GHG contributions on measured direct and dissolved
+operative conditions (such as low carbon:nitrogen (C:N) ratio, unstable emissions
+or optimised process parameters, and inefficient aeration supply)
+(Kumar et al., 2021), additional contributions of GHGs were generated The main contributions of different GHGs to the direct and dissolved
+during the biological processes, which remained dissolved in the liquid emission categories were calculated as a percentage of the total emis-
+stream. sions (Fig. 8). The reported percentages of different GHG contributions
+The EFs of dissolved GHG emission category varied in the ranges of were expressed as the percentage of equivalent CO2. The values, as the
+33–782 g N2O /kgNeff, 4–132 g CH4/kgCODeff, and 553–358 g CO2/ gaseous flows were directly transferred to the atmosphere, showed that
+kgCODeff for N2O, CH4, and CO2, respectively (Table 5). The standard the main impacts were attributed to CO2 for smaller plants (<15,000
+deviations of the dissolved GHG EFs obtained for the six continuously PE), while N2O was the main responsible in largest WWTPs (>15,000
+PE). On the other hand, CH4 emissions accounted for about 11–12% for
+10

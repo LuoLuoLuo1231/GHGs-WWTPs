@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-07-07T16:27:02.714439",
+  "papers_analyzed": 35,
+  "domain": "环境反应工程",
+  "figure_types": {
+    "schematic": 21,
+    "heatmap": 2,
+    "flow chart": 3,
+    "box plot": 1,
+    "radar chart": 1
+  },
+  "avg_figures": 6.885714285714286,
+  "avg_tables": 3.914285714285714
+}

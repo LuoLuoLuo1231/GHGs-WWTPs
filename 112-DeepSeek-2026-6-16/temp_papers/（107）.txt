@@ -1,0 +1,597 @@
+--- Page 1 ---
+Journal of Environmental Chemical Engineering 13 (2025) 117770
+Contents lists available at ScienceDirect
+Journal of Environmental Chemical Engineering
+journal homepage: www.elsevier.com/locate/jece
+A multi-objective evaluation of wastewater treatment process from the
+perspectives of environment, carbon footprint and economy
+Yuting Wanga,1, Huijia Wanga,1, Jiaqing Wanga, Zhi Sunb, Longyi Lva, Zhijun Rena,
+Guangming Zhanga,*, Wenfang Gaoa,*
+aSchool of Energy and Environmental Engineering, Hebei University of Technology, Tianjin 300401, China
+bNational Key Laboratory of Biochemical Engineering, Beijing Engineering Research Centre of Process Pollution Control, Institute of Process Engineering, Innovation
+Academy for Green Manufacture, Chinese Academy of Sciences, Beijing 100190, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Municipal wastewater treatment process holds paramount importance in advancing energy conservation and
+Municipal wastewater treatment emission reduction. However, with unclear environmental pollution and economic impact in wastewater treat-
+Process optimization ment process, typical life cycle assessment (LCA) is still insufficient for business and policymakers. In this
+Life cycle assessment
+research, a multi-objective evaluation method based on the LCA, carbon footprint (CF) analysis and economic
+Economic evaluation
+assessment (EA), is proposed to comprehensively assess the effectiveness of typical treatment processes (i.e.,
+Carbon footprint analysis
+oxidation ditch (OD), anaerobic anoxic oxic (A2O)). CML 2001-Aug.2016 databases were selected for LCA in
+Comprehensive assessment
+GaBi software. The LCA results illustrate that the environmental impact could be significantly reduced by cutting
+down the consumptions of electricity and chemicals, especially in the biochemical treatment section. After CF
+analyzation, the direct and indirect emissions of OD is 1.97 times and 1.51 times higher than A2O, respectively.
+In terms of EA, the macro cost of A2O (0.0945 USD/m3) decreases by 31 % compared with OD (0.1369 USD/m3).
+Overall, A2O is more ideal for municipal wastewater treatment, which combines cleaner production and better
+economic benefits with slight environmental impact, significant carbon reduction effect and modest cost. The
+proposed comprehensive assessment can provide a basis for the optimization of municipal wastewater treatment
+process.
+stricter regulations and discharge standards have been implemented to
+1. Introduction significantly diminish pollutant emissions and water pollution [14,15].
+Enterprises are now in the dilemma of meeting environmental standards
+With the increasing attention to sustainable development [1], energy by technological innovation and paying substantial processing charges
+saving and carbon reduction have become one of the main problems for [16]. Therefore, it is urgent to develop a comprehensive assessment
+the development of wastewater treatment process [2,3]. As an important method that takes environmental impact, carbon footprint (CF), and
+type of wastewater, the treatment of municipal wastewater still faces economic cost into consideration.
+some challenges such as low energy utilization efficiency [4], grievous The multi-objective evaluation of municipal wastewater treatment
+impact of chemicals [5,6], high technical economic cost [7], and large process has become the focus of many researchers. Municipal waste-
+gap in treatment efficiency [8]. Currently, many wastewater treatment water treatment process can cause significant environmental impacts
+processes generally have the advantages of stable operation and easy [17,18]. Therefore, life cycle assessment (LCA) becomes a major envi-
+management in actual operations [9–11]. The most popular wastewater ronmental impact assessment method for municipal wastewater treat-
+treatment process in China is the anaerobic anoxic oxic (A2O), which can ment process to identify environmental hotspots and reveal unintended
+effectively remove nitrogen and phosphorus. It is reported that 62 % of environmental influences for intervention action [19,20]. Li et al.
+the enterprises use A2O to process wastewater, followed by oxidation (2013) performed the environmental impact assessment for a municipal
+ditch (OD) (22 %) and sequencing batch reactor (SBR) (9 %) [12,13]. wastewater treatment plant (WWTP) and identified that eutrophication,
+However, following the declaration of carbon neutrality by 2060, many global warming and waterborne suspended particles were the most
+* Corresponding authors.
+E-mail addresses: 2020017@hebut.edu.cn(G. Zhang), wfgao@hebut.edu.cn(W. Gao).
+1 These authors contributed equally to this work and should be considered co-first authors.
+https://doi.org/10.1016/j.jece.2025.117770
+Received 24 March 2025; Received in revised form 6 June 2025; Accepted 26 June 2025
+Available online 27 June 2025
+2213-3437/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+Nomenclatures POCP Photochemical ozone creation potential
+TETP Terrestrial ecotoxicity potential
+A2O Anaerobic anoxic oxic CT Total cost
+OD Oxidation ditch CI Pretreatment cost
+SBR Sequencing batch reactor CII Biotreatment cost
+LCA Life cycle assessment CIII Advanced treatment cost
+WWTP Wastewater treatment plant CIV Sludge treatment cost
+AnMBR Anaerobic membrane bioreactor CE Energy cost
+GHG Greenhouse gas CP Pharmaceutical cost
+CF Carbon footprint ME Power consumption
+EA Economic assessment C0,E Unit price of electricity
+FAHP Fuzzy analytic hierarchy process MP Pharmaceutical consumption
+SI The pretreatment section C0,P Unit price of chemicals
+SII The biotreatment section FRS Fossil resource scarcity
+SIII The advanced treatment section FWE Freshwater eutrophication
+SIV The sludge treatment ME Marine eutrophication;
+PAM Polyacrylamide MRS Mineral resource scarcity;
+ADP Abiotic depletion potential ODP Ozone layer depletion potential;
+AP Acidification potential PHO Photochemical oxidation
+EP Eutrophication potential TAP Terrestrial acidification potential
+FAETP Freshwater aquatic ecotoxicity pot WC Water consumption
+GWP Global warming potential BNR Biological nutrient removal
+HTP Human toxicity potential
+expensive impacts [21]. Morsy et al. (2020) used LCA to evaluate the of process optimization rather than energy saving to reduce the eco-
+environmental impact of a WWTP upgrading from primary treatment to nomic cost of WWTP operation [31]. Therefore, economic evaluation is
+secondary treatment, and proved that the promotion of secondary closely connected to the corresponding environmental impact and car-
+treatment has more positive effects than negative effects [22]. bon emissions, appropriate evaluation methods should be selected ac-
+Jim´enez-Benítez et al. (2023) applied LCA to evaluate the environ- cording to specific discharge requirements.
+mental performance of a projected full-scale Anaerobic membrane bio- However, previous studies (Table 1) have problems such as single
+reactors (AnMBR) system for municipal wastewater treatment, and assessment perspective or subjective influencing factors in quantitative
+energy and nutrients recovery were identified as the key factors [23]. methods, and failed to deeply analyze the complex relationship between
+Delre et al. (2017) suggested that technological improvements in WWTP carbon emission reduction, cost-effectiveness and environmental per-
+reduce the environmental impact on the receiving waterbodies [24]. formance improvement. Therefore, the multi-objective evaluation
+However, as substantial amounts of greenhouse gas (GHG) are released method is more suitable for the actual operation of WWTP and has more
+and the economic cost is likely to increase [25], the separate LCA guiding significance. In this research, a comprehensive assessment,
+assessment in previous studies has failed to emphasize carbon intensity considering LCA, EA and CF analysis, is carried out for typical treatment
+and economic efficiency in WWTP. Therefore, traditional LCA methods processes (i.e., OD, A2O). The environmental impact of different process
+cannot meet the practical needs of comprehensive impact evaluation. is analyzed through LCA while direct and indirect GHG emissions are
+CF is a crucial point in ensuring green and sustainable development studied through CF analysis. The full process economic evaluation is also
+of the wastewater treatment process [14]. Using CF analysis, Delre et al. performed to estimate economic impact. This study aims to (1) evaluate
+(2019) identified that direct GHG emissions are the main contributors to the relationship of environmental impact, CF and economic cost, which
+CF, where the electricity consumption for plant operation has a great are the key factors affecting the decision-making of enterprises and
+carbon emission [26]. However, owing to different measurement governments, (2) identify the critical influencing sections and factors
+methods, different electricity systems and other factors, the investiga- across the entire treatment process contributing to the overall environ-
+tion into direct GHG emissions confronts many standardization chal- mental impact, CF and economic impact, and (3) provide feasible carbon
+lenges. There is a complex relationship between the vision of low-carbon emission reduction strategies for the municipal wastewater treatment
+wastewater management and enhancing environmental performance, industry while reducing the other environmental burdens and guaran-
+and only focusing on reducing GHG emissions will bring other adverse teeing the profit. In addition, the outcome of this study is expected to
+environmental impacts [27,28]. Therefore, CF analysis should be provide basic information regarding environmental and economic im-
+included in the comprehensive assessment system to realize the eco- pacts of municipal wastewater treatment processes and lay a quantita-
+nomic, clean and sustainable development. In terms of economic tive foundation for the successful popularization of feasible processes
+assessment (EA), it plays a critical role and has become a central issue in [32].
+the wastewater treatment process. Dewalkar and Shastri (2022) inte-
+grated LCA and life cycle cost assessment (LCCA) to determine the 2. Scope and methods
+quantitative parameters related to environmental and economic sus-
+tainability, adopting an approach for selecting the suitable wastewater A quantitative multi-objective evaluation of the municipal waste-
+treatment process [29]. However, LCCA considers the whole process water treatment process is crucial for its further development and
+costs of facilities, use, transportation, and disposal, there are few studies optimization. However, the traditional LCA cannot fulfill this important
+focusing on the treatment processes which only happen in plants [30]. role for business and policymakers. Therefore, a comprehensive assess-
+Campana et al. (2021) assessed the feasibility of using excess renewable ment, including LCA, CF analysis and EA, is performed in this research
+energy from the electricity grid to reduce WWTP operation costs (Fig. 1).
+through technical and economic analysis, emphasizing the importance
+2
+
+--- Page 3 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+Table 1
+The summary of wastewater treatment assessment perspectives.
+Number Assessment Scope Method Assessment Research Contents Conclusion References
+Perspectives
+1 A municipal LCA Environment The significance of environmental impact in the Eutrophication, global warming and [21]
+WWTP in Kunshan, economic aspect has been quantified through the waterborne suspended particles
+China “green tax”. However, the lack of accounting and have the most expensive
+analysis of economic costs makes it difficult to environmental impacts.
+guide the actual transformation and improvement.
+2 7 WWTPs in LCA Environment The environmental impacts under different power Electricity use is the dominant [33]
+Bangkok, Thailand plans and wastewater management plans were contributor to almost all of the
+discussed. But perspective is relatively single, environmental impacts.
+which cannot comprehensively guide the actual
+operation.
+3 The Al-Samra LCA Environment The LCA calculation based on the operation data of There are significant differences in [34]
+WWTP in Jordan two consecutive years makes the results more environmental impact in different
+convincing. But it is also necessary to incorporate years.
+the economic assessment results to bring
+referenceable suggestions for the actual operation
+process
+4 A WWTP in LCA, EA Environment, Set up a variety of scenario assumptions to get most Merging anaerobic digestion and [35]
+Gamasa, Egypt. economy environmentally and economically beneficial tertiary treatment attain maximum
+improvement scheme for developing countries. But benefits.
+the sensitivity of key variables to the results was
+not considered.
+5 3 WWTPs in Busan, LCA, EA Environment, The direct emissions of greenhouse gases were Sludge-management alternatives [36]
+South Korea. economy quantified by emission factors and the restrictive could provide a valuable example in
+relationships among different environmental a large city.
+impact categories were analyzed. However, there
+is a lack of comparison of the impact on different
+sections.
+6 Previous literature LCA, Environment, Quantifying ambiguous indicators is necessary to DOSIWAM is the most preferred [37]
+researches in India. LCCA, economy, obtain comprehensive assessment results, but this alternative.
+FAHP technology, socio- process remains highly dependent on expert
+culture. judgment and contains subjective uncertainties.
+7 A pilot-scale LCA, CF Environment, carbon Micro carbon element flow analysis and macro M-CAST has the lowest [38]
+WWTP in Daqing, footprint carbon footprint analysis based on LCA has environmental impact of carbon
+China enabled a comprehensive assessment of CF for emission.
+renovation and upgrading. But the significant
+impact of economic costs on energy conservation
+and carbon reduction is overlooked.
+8 A demo-scale LCA Environment Based on the LCA results and sensitivity analysis, Energy and nutrients recovery [23]
+AnMBR system in critical factors for enhancing environmental identified as key factors for AnMBR
+Valencia, Spain performance were identified. Nevertheless, LCA.
+economic cost remains a pivotal challenge in
+practical implementation.
+9 A municipal LCA, CF, Environment, carbon According to the actual operation data, the A2O is the best process after multi- This
+WWTP in EA footprint, economy traditional process and improved process of objective assessment research
+Shandong, China municipal WWTP are comprehensively evaluated
+in environmental, carbon footprint and economic
+perspectives.
+2.1. System boundary plants in China (GB18918–2002).
+As for the improved treatment process (e.g., A²O), only the bell-
+OD and A2O adopted by a municipal WWTP in Shandong, China are shaped sedimentation tank is changed to swirl sedimentation tank in
+selected as typical treatment processes, in which OD is the traditional SI. In SII, the treated wastewater flows into A²O tank to remove the
+treatment process and A2O is the improved treatment process (Fig. 2). nitrogen and phosphorus of organic matter. And then part of the mud-
+To facilitate a detailed analysis, the operation phase of the whole water mixture enters the sedimentation tank for mud-water separa-
+wastewater treatment process is divided into four sections (i.e., SI: the tion, and the rest continues to flow back to A²O tank for treatment. In
+pretreatment section, SII: the biotreatment section, SIII: the advanced SIII, the precipitated supernatant is lifted to the flocculation sedimen-
+treatment section, and SIV: the sludge treatment). Compared with tation tank, and the fine impurities are filtered by the active sand filter
+operation phase, the impact of construction, demolition and mainte- and discharged to the standard.
+nance phase of the WWTP is negligible [39]. The sludge is sent to the
+same sludge incineration plant and the section of sludge disposal only
+includes the impact of the equipment [40]. The assumptions made 2.2. Functional unit
+during the comprehensive evaluation were outlined in S1.
+In traditional treatment process (e.g., OD), small flotsam and gravel The selection of functional unit is a key aspect in defining impacts
+are removed by the grid and bell-shaped sedimentation tank in SI. In [25,41]. In the comprehensive impact assessment, environmental
+terms of SII, the required bacteria are cultured in the biological selection impact, CF and economic impact were all considered. Among these,
+tank, and then treated by Carrousel 2000 OD. For SIII, polyacrylamide electricity consumption and chemical usage contributed to environ-
+(PAM) is used to ensure micro-flocculation filtration and sludge treat- mental and economic impact. It is noteworthy that, except the indirect
+ment, and finally the wastewater is discharged through the V-shaped CF generated by electricity and chemical consumption, the direct CF of
+sand filter, which meets the discharge standard of municipal wastewater the operation phase has also been tried to be calculated. All results of
+comprehensive impact were calculated and analyzed based on the same
+3
+
+--- Page 4 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+concentration of wastewater was the average of the pollutant concen-
+tration at the water outlet four times a day. The actual influent and
+effluent water qualities are shown in Table 2. Differently, due to the lack
+of inflow and outflow water data in different sections and error of es-
+timate, emission factors were used for the calculation of direct emis-
+sions, which is explained in “Carbon footprint analysis” section. To be
+more specific, the energy cost was the power consumption of the
+equipment, and the unit price of power referred to the industrial and
+commercial electricity price of Shandong Province in 2024, which was
+set as 0.6 CNY/kWh. In terms of pharmaceutical costs, all pharmaceu-
+tical prices were the average market prices in China in 2024 (https
+://news.chemnet.com/list-14–1311-95785.html). To reflect the global
+perspective and enhance the comparability of the results, all economic
+results were translated and expressed in USD (average currency ex-
+change rate at 7.2 CNY/USD, https://www.safe.gov.cn/).
+2.4. Life cycle assessment
+According to ISO 14040 (2006), LCA software GaBi and its database
+CML 2001-Aug. 2016 are selected to evaluate the environmental impact.
+Eight midpoint impact categories are discussed: abiotic depletion po-
+Fig. 1. Schematic of the assessment methodology. tential (ADP), acidification potential (AP), eutrophication potential
+(EP), freshwater aquatic ecotoxicity potential (FAETP), global warming
+functional unit. Therefore, the treatment of 20000 t/d of wastewater, potential (GWP), human toxicity potential (HTP), photochemical ozone
+which is the average of actual daily treatment capacity of the WWTP,
+was chosen as the functional unit.
+Table 2
+Influent and effluent quality in OD and A2O.
+2.3. Data source Parameters OD A2O
+Influent Effluent Influent Effluent
+The actual operation data was obtained from a full-scale WWTP in
+COD (mg/L) 110 12 110 11
+Shandong, China. Detailed data of the energy and chemical consumption
+TN (mg/L) 64 8 59 9
+were collected from directly measured in actual wastewater treatment TP (mg/L) 7 0.02 6 0.02
+plant operation, which was not estimated by experimental data NH3-N (mg/L) 42 0.2 40 0.17
+(Table S1-S2). Chemical dosage data were obtained from the daily SS (mg/L) 460 25 420 22
+Chroma (mg/L) 200 20 180 18
+average of site material addition records, while electricity consumption
+BOD (mg/L) 110 4 120 5
+was recorded directly from the daily average of main electricity meter. DO concentration (mg/L) 8 2 7 2
+The composition of pollutants in municipal wastewater varies greatly in pH 7.9 7.2 7.6 6.9
+different countries and regions [42]. Therefore, the pollutant
+Fig. 2. System boundary of two wastewater treatment process.
+4
+
+--- Page 5 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+creation potential (POCP), terrestrial ecotoxicity potential (TETP). The 3. Results and discussion
+detailed inventory analysis is provided in Table S1-S2, which is the input
+and output data in Gabi software. Due to absence of actual measurement 3.1. LCA analysis
+data and error of estimate, direct GHG emissions are not treated as
+output items to avoid introducing incomparable uncertainties to key 3.1.1. Environmental impact contributions of different sections
+sections and substances. Therefore, all input and output data in the in- Based on the characterized environmental impact categories
+ventory (including wastewater flow, power consumption, chemical (Table S3), the proportion of environmental impact of each section in
+consumption, sludge output, and solid waste) are based on actual OD and A2O is exhibited in Fig. 3(a, b) and the order is: SII >SI >SIII
+operation conditions to ensure the comparability of environmental >SIV, which contributes 87%, 7%, 4% and 2% in OD and 62%, 32%,
+burdens generated by the two processes. In addition, characterization 5% and 2% in A2O, respectively. It can be seen that SII in two processes
+and normalization methods are calculated to observe the potential consumes the most energy and carbon source, which accounts for 55%–
+environmental impact of major impact categories and identify the key 84% of the ADP, AP, EP, GWP and POCP in A2O. Moreover, the per-
+sections and substances. The characterization value is calculated by centages of SII in OD are higher than 65% in all eight environmental
+multiplying the number of related substance indicators and the char- impact categories. For the reasons mentioned above, SII contributes the
+acterization weight factor, and then, the results are normalized to most to the whole process. The FAETP, HTP and TETP results elucidate
+further analyze the environmental impact. that SI is the second largest contributor in A2O, the proportion of which
+takes up to 71%, 75% and 61%, respectively. The main reason is the
+2.5. Carbon footprint analysis increase of energy consumption, which leads to more resource usage and
+GHG emissions. Therefore, energy consumption is an important factor
+CF analysis refers to the GHG produced throughout the whole pro- affecting the evaluation results, which is consistent with previous
+cess, which is uniformly translated into CO2 equivalent (CO2 eq). The research [48].
+main GHG emitted by wastewater treatment process are CO2, CH4 and As a result, the key sections in OD and A2O that identified based on
+N2O [43]. In order to determine the key sections and substances for the environmental impacts are different. In OD, SII has the greatest
+carbon reduction, the direct and indirect emissions of GHG are included environmental impact, and is identified as the key section. For A2O, SI
+in CF analysis. Direct emissions are calculated using the emission factor and SII have more nonnegligible environmental impact and are the key
+measured by Yan et al. [44](Table 3), and then are all converted into sections.
+carbon dioxide equivalents (CO2 eq) by GWP (i.e., 1 for CO2, 28 for CH4
+and 265 for N2O). Indirect emissions from electricity and pharmaceu- 3.1.2. Environmental impact contributions of two wastewater treatment
+tical consumption highly depend on the treatment technologies [45]. processes
+Therefore, GWP result is selected to present indirect emissions, which is The characterization results are normalized (Table S4) so that the
+an important impact category of LCA that reflects the impact of GHG different influence categories have the same dimension. As shown in
+emissions (direct GHG emissions are not included in the inventory Fig. 3(c), OD has more environmental impact than A2O. The environ-
+analysis). A 100-year period is used as the residence time of gases in the mental impact distribution of municipal wastewater treatment process is
+atmosphere [46]. concentrated in ADP (43% in OD and 41% in A2O). The ADP of A2O is
+37% lower than that of OD, indicating that the wastewater treatment
+2.6. Economic assessment effect is significantly improved. Chemical consumption of SII is the main
+contributor to the ADP, accounting for 86% of OD and 83% of A2O,
+The EA of the whole process is conducted through the economic respectively, which means that the process that consuming less chem-
+assessment methodology by considering different types of costs, icals has more significant environmental benefits. In addition, other
+including the energy cost, pharmaceutical cost (e.g., carbon source, impacts of A2O are also reduced by 24~37% compared to OD,
+polyacrylamide) and section cost [47]. The calculation of the total cost demonstrating that reasonable technological improvements and re-
+and section cost of wastewater treatment processes are shown as follows: ductions in the number of chemical additives would significantly
+improve the environmental benefits.
+CT=CE+CP=CI+CII+CIII+CIV (1)
+CT: Total cost; CE: Energy cost; CP: Pharmaceutical cost; CI: pre- 3.1.3. Environmental impact contributions of substances
+treatment cost; CII: biotreatment cost; CIII: advanced treatment cost; CIV: To identify the key substances in the whole treatment process, the
+sludge treatment; environmental impacts of five substances (i.e., electricity, sodium hy-
+∑ pochlorite, polyacrylamide, phosphorus removal agent, carbon source)
+CE= (ME×C0,E) (2)
+are compared (Fig. 3(d)). In OD, phosphorus removal agent and elec-
+∑(cid:0) ) tricity have the greatest environmental impact (38.37% and 35.84%,
+CP= MP×C0,P (3) respectively), and are the key substances. Carbon source, sodium hy-
+pochlorite and PAM account for 25.43%, 0.30% and 0.09%, respec-
+ME: Power consumption; C0,E: Unit price of electricity; MP: Pharma-
+tively. However, the data for chemicals in the whole process is based on
+ceutical consumption; C0,P: Unit price of chemicals.
+the Gabi database, which may not well reflect the situation in China. The
+environmental impact of electricity mainly originates from the potential
+impact of power generation methods, and thus more clean power gen-
+eration sources should be adapted in the future [49]. For A2O, electricity
+has the greatest environmental impact (41.45%) and is the key sub-
+stance. Because the use of chemicals has decreased with the improve-
+ment of technology, but lifted the proportion of electricity. This result
+Table 3
+also reflects the environmental sensitivity of electricity.
+GHG emission factors of OD and A2O.
+Emission factor OD A2O 3.1.4. Sensitivity analysis
+CH4 (kg CH4 / kg CODremoved) 0.0033 0.0009 The sensitivity of the ADP in eight environmental impact categories
+N2O (kg N2O / kg TNremoved) 0.0036 0.0008 is the highest (Fig. 4). Comparing with the baseline scenario, the envi-
+CO2 (kg CO2 / kg CODremoved) 0.2613 0.3193 ronmental impact increases 2.16% (OD) and 2.06% (A2O),
+5
+
+--- Page 6 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+Fig. 3. Characterized results of OD (a) and A2O (b); Normalized results of OD and A2O (c); The environmental impacts of different substances (d).
+Fig. 4. Sensitivity analysis of environmental impact: (a) OD, (b) A2O.
+respectively, with a 5% increase of ADP. It is worth mentioning that SII dust, nickel, and nitrogen oxides into the atmosphere during electricity
+still is the main contributor. For SII, chemical consumption is the generation [51], they indicate that power consumption is the key factor
+dominant factor, with carbon sources and phosphorus removal agents that affects HTP.
+contributing 19% and 18% to ADP, respectively. As indicated by prior
+research [21,50], reliance on non-localized background data for chem-
+ical consumption also contributes to uncertainty. Consequently, estab- 3.2. Carbon footprint analysis
+lishing a more comprehensive and accurate database will facilitate the
+generation of actionable recommendations from the evaluation results. The typical GHG (e.g., CH4, N2O and CO2) through direct emissions is
+The trend of sensitivity of other environmental impact categories is exhibited in Fig. 5(a) and Table S5. In OD, N2O emission accounts for
+roughly the same as that of ADP, following the order of SII >SI >SIII 61%, making it the most significant direct emission, while methane
+>SIV. Hence, SII becomes the most sensitive treatment section with the emission accounts for 10%, and CO2 emission accounts for 29%. N2O is
+largest consumption of electricity and pharmaceutical. However, in generated by both biotic and abiotic pathways, and heterotrophic
+A2O, the sensitivity of HTP reaches highest at SI (0.62%), and then denitrification under both anoxic and oxic conditions plays the pre-
+gradually decreases. These HTP results are attributed to the emissions of dominant pathway [52]. In A2O, CO2 (accounts for 71%) is the most
+direct emission, with CH4 emission accounts for 5%, and N2O emission
+6
+
+--- Page 7 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+Fig. 5. CF analysis: (a) direct emissions, (b) indirect emissions.
+accounts for 24%. OD has more carbon emission on total CF than A2O, The GWP at different sections of OD and A2O is illustrated in Fig. 5(b)
+which can be attributed to the high electricity consumption and the and Table S7. As the superior wastewater treatment process, A2O shows
+fossil fuels in upstream data is the key [53,54]. Given that variations in a lower GWP than OD. According to the environmental assessment re-
+emission factors may introduce substantial deviations, Wang et al. sults of the four sections by LCA, SII in the OD and A2O is the key section
+conducted a systematic assessment of the uncertainty of emission factors that accounts for most of GWP (occupies 86% and 62%, respectively),
+in China [55]. Based on their methodological framework and uncer- followed by SI, SIII and SIV. The leading reason is the consumption of
+tainty quantification, uncertainty and upper and lower limits analysis pharmaceuticals at SII, in which the phosphorus removal agents account
+was performed according to the minimum, maximum and average for 48% and 58%, respectively. The result is different from the previous
+emission factors (Table S6). The results indicated that the direct emis- results [38,56], which could because the assumptions about pharma-
+sions exhibited a relatively high degree of uncertainty, (-56%, 121%) ceuticals differ from reality owing to the complex composition of
+for OD and (-58%, 1118%) for A2O. Therefore, due to the differences of pharmaceuticals and the limitation of the database. All in all, the effects
+detection methods for direct emissions and the influence of seasonal of chemicals on global warming cannot be ignored even if the results are
+changes on emission results, emission factors may be different and flawed.
+further studies are needed to determine more accurate emission factors CF of wastewater treatment is an important part of the environ-
+[44]. mental impact [57]. The direct and indirect emissions in OD are 1.97
+Fig. 6. Macro cost of OD (a) and A2O (b); Cost comparison of section (c); Sensitive analysis of different cost (d).
+7
+
+--- Page 8 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+times and 1.51 times higher than A2O. In other words, after process 3.4. Comprehensive assessment
+changing, direct carbon emissions have been reduced by 49.25%, and
+indirect emissions have been reduced by 33.91%. Additionally, a In order to obtain a more effective municipal wastewater treatment
+comprehensive comparison reveals that direct CF accounts for less than process, a comprehensive evaluation based on LCA, CF analysis and EA
+7% of the total CF, and its measurement is subject to significant un- are conducted. The accounting results of the influence from different
+certainties. Therefore, the assumption without direct emissions in LCA perspectives are supplemented in Table S8. The process with the larger
+calculations is reasonable. Hence, A2O is a more effective way to reduce shape marker (indicating the accounting result) has the greater impact
+CF, demonstrating that improvements in treatment technology and (i.e., environmental impact, CF, and economic impact) (Fig. 7). Through
+reduction in energy consumption will cut down GHG emissions, which is a comprehensive comparison of two typical municipal wastewater
+consistent with previous studies [58,59]. treatment processes, A2O is the more ideal process for municipal
+wastewater treatment. The result is similar to the research conducted by
+3.3. Economic assessment Piao et al. [36], but owing to the addition of different sludge treatment
+processes, their research results in more electricity and chemical
+3.3.1. Macro cost assessment of two wastewater treatment processes consumption.
+The macro value of OD is higher than that of A2O (Fig. 6(a-b)), and The comprehensive assessment results were compared with prior
+the result of different types of costs is supplemented in Table S8. On the studies (Table 4). Despite minor differences in system boundaries and
+whole, A2O decreases by 31% compared with OD and has significant treatment technologies, the results remain comparable. From environ-
+economic benefits. Specifically, the total consumption of OD is 2727.89 mental and economic perspectives, this study exhibits marginally higher
+USD (the energy cost accounts for 34% and the pharmaceutical cost values than literature data. Due to the regional disparities in electricity
+accounts for 66%), while that of A2O is 1890.38 USD (the energy cost datasets, power consumption substantially influences overall results.
+accounts for 38% and the pharmaceutical cost accounts for 62%), Furthermore, the differences in evaluation results reflect discrepancies
+indicating that the cost distribution trends are similar. The decline of between modeled scenarios and actual operational conditions. From CF
+costs is conspicuous throughout the whole process, which is 0.1369 perspective, this study implements separate accounting for direct GHG
+USD/m3 for OD and 0.0945 USD/m3 for A2O. After improvement of emissions to distinguish total emissions from GWP results in LCA, which
+treatment process, the overall operating cost decreased by 30.97%. In is a methodological deviation from conventional literature. Given the
+both processes, the pharmaceutical cost is higher than the energy cost, significant uncertainty in direct emissions quantification, this approach
+which differs from the conclusion of previous research [60,61], due to enhances comparability in normalized LCA outcomes. Overall, the
+the higher cost of carbon sources invested in SII. In fact, insufficient multi-objective assessment based on LCA, CF analysis and EA is more
+carbon source is becoming one of the most noteworthy problems in scientific and comprehensive, delivering enhanced comparability and
+municipal wastewater treatment. In addition to the common carbon certainty.
+sources like methanol, glycerol, acetate, and glucose [62], optimizing
+mixed carbon sources [63], inoculating waste-activated sludge [64], and 4. Conclusions
+using brewery wastewater as carbon source [65]etc., will become po-
+tential measures to reduce carbon source costs. In this study, a comprehensive assessment is conducted for the
+traditional and improved municipal wastewater treatment processes
+3.3.2. Cost comparison of the different sections based on LCA, CF analysis and EA. The environmental assessment under
+To investigate the critical section of economic consumption, the costs LCA shows that SII is the key section in both OD and A2O, accounting
+of each section are compared (Fig. 6(c)). SII of OD accounts for the 87% and 62% respectively. SI of A2O is also a key section affecting
+highest proportion (85.3%), followed by SI (6.8%), SIII (5.4%) and SIV FAETP, HTP and TETP. Both electricity and chemicals are key sub-
+(2.5%). A2O has a similar distribution pattern, where SII accounts for stances to be reckoned with environmental impact, and ADP is the most
+84.2% and other sections account for 6.5%, 6.4% and 2.9%, respec- susceptible impacts for chemical consumptions. Under CF analysis, the
+tively. Benefitting from the improvement of equipment in A2O, the en- direct emissions of OD are 1.97 times higher than A2O, and the indirect
+ergy cost and pharmaceutical cost are reduced by 31% compared to OD. emissions is 1.51 times higher than A2O. The reduction of electricity and
+Moreover, because of the reduction of energy cost, the costs of A2O in SI, chemical consumptions have obvious effect on carbon emission reduc-
+SIII and SIV also decreased by 34%, 18% and 20% respectively. Also tion. For EA, the quantified economic costs are 0.1369 USD/m3 for OD
+attributed to electricity consumption, the cost fluctuation of 5% has the
+greatest impact on the cost of SII. In conclusion, electricity is the most
+sensitive to economic accounting, and it is consistent with previous
+research [47].
+3.3.3. Sensitivity analysis
+In order to explore the impact of key variable on total cost and the
+impact degree, cost change sensitivity is analyzed by increasing two key
+factors (energy and pharmaceutical cost) by 5%. Pharmaceutical cost of
+OD and A2O reduced by 3.31% and 3.09%, respectively, which is the
+most sensitive factor. Reduction in pharmaceutical consumption
+considerably reduced the total cost, mainly because carbon sources in SII
+is an important part of the treatment process. Energy cost of SII in OD
+and A2O reduced by 1.05% and 1.25%, respectively. Followed by SI,
+the economic impact sensitivity of the two typical wastewater treatment
+processes is approximately 0.3%, which is primarily attributed to high
+energy consumption. Therefore, to reduce the economic cost of whole
+process, the consumption of electricity and carbon sources must be
+controlled.
+Fig. 7. Comprehensive assessment of OD and A2O.
+8
+
+--- Page 9 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+Table 4
+Comparison of comprehensive evaluation results.
+Assessment Key This research Mateo et al. (2025) [66] Daskiran et al. Awad et al. (2019) [35]
+perspectives and indicator (2022) [61]
+method OD A2O Scenario 1 Scenario 2 A2O Scenario Scenario Scenario 3 Scenario 4
+1 2
+Environment (LCA) ADP 3.30E+01 2.08E+01 – – – 2.67E(cid:0) 04 1.54E(cid:0) 04 (cid:0) 1.19E(cid:0) 03 (cid:0) 1.29E(cid:0) 03
+AP 4.40E(cid:0) 03 2.93E(cid:0) 03 – – – 1.74E(cid:0) 04 9.08E(cid:0) 05 2.85E(cid:0) 06 (cid:0) 6.60E(cid:0) 05
+EP 4.59E(cid:0) 04 2.89E(cid:0) 04 – – – 1.33E(cid:0) 03 1.33E(cid:0) 03 1.75E(cid:0) 04 1.73E(cid:0) 04
+FRS – – 1.10E(cid:0) 02 (cid:0) 8.00E(cid:0) 03 6.33E(cid:0) 02 – – – –
+FWE – – 2.61E(cid:0) 03 1.72E(cid:0) 03 6.73E(cid:0) 04 – – – –
+FAETP 4.59E(cid:0) 03 3.50E(cid:0) 03 – – – 3.64E(cid:0) 03 2.45E(cid:0) 03 8.84E(cid:0) 04 (cid:0) 5.70E(cid:0) 04
+GWP 1.30E+00 8.57E(cid:0) 01 1.77E(cid:0) 01 (cid:0) 3.30E(cid:0) 02 1.06E+00 9.54E(cid:0) 01 9.51E(cid:0) 01 7.47E(cid:0) 01 9.07E(cid:0) 01
+HTP 1.55E(cid:0) 01 1.19E(cid:0) 01 – – – – – – –
+ME – – 1.22E(cid:0) 02 9.96E(cid:0) 03 3.72E(cid:0) 04 – – – –
+MRS – – (cid:0) 1.86E(cid:0) 04 (cid:0) 3.90E(cid:0) 04 – – – – –
+ODP – – – – – 1.99E(cid:0) 09 1.40E(cid:0) 09 (cid:0) 7.60E(cid:0) 09 (cid:0) 7.90E(cid:0) 09
+PHO – – – – – 7.21E(cid:0) 06 7.89E(cid:0) 06 (cid:0) 1.40E(cid:0) 06 (cid:0) 5.09E(cid:0) 07
+POCP 5.66E(cid:0) 04 3.65E(cid:0) 04 – – – – – – –
+TAP – – – – 1.48E(cid:0) 03 – – – –
+TETP 4.60E(cid:0) 03 3.48E(cid:0) 03 – – 6.51E(cid:0) 02 1.97E(cid:0) 04 1.40E(cid:0) 04 1.89E(cid:0) 04 1.30E(cid:0) 04
+WC – – – – – – – – –
+Carbon footprint Total 1.39E+00 9.02E(cid:0) 01 1.77E(cid:0) 01 (cid:0) 3.30E(cid:0) 02 1.06E+00 9.54E(cid:0) 01 9.51E(cid:0) 01 7.47E(cid:0) 01 9.07E(cid:0) 01
+emissions
+Economy (EA, LCCA) Total cost 1.37E(cid:0) 01 9.45E(cid:0) 02 9.46E(cid:0) 02 6.27E(cid:0) 02 – – 5.04E(cid:0) 03 3.92E(cid:0) 03 8.96E(cid:0) 04
+Note: 1. Fossil resource scarcity (FRS), Freshwater eutrophication (FWE), Marine eutrophication (ME), Mineral resource scarcity (MRS), Ozone layer depletion po-
+tential (ODP), Photochemical oxidation (PHO), Terrestrial acidification potential (TAP), Terrestrial ecotoxicity potential (TETP), Water consumption (WC). 2. CF
+incorporates both direct emissions and indirect emissions in this study (direct GHG emissions were excluded from inventory in LCA). However, given that most prior
+studies did not isolate CF as a standalone metric, GWP results derived from LCA were adopted as proxies for CF in other studies. 3. In Mateo et al. (2025), scenario 1
+consists of an anaerobic membrane bioreactor fed with raw wastewater, and scenario 2 couples AnMBR, primary settling and anaerobic digestion. In Daskiran et al.
+(2022), a biological nutrient removal (BNR) plant employing A2O process after primary sedimentation with anaerobic sludge digestion was examined. In Awad et al.
+(2019), scenario 1 is the plant in its current status. Scenario 2 is the plant in its current status but with the addition of anaerobic digester for sludge fermentation and
+biogas production. Scenario 3 is the plant in its current status with the addition of a tertiary treatment process, that includes conventional chemical coagulation and
+sand filtration process. Scenario 4 is a combination of scenarios 2 and 3 that includes the addition of both tertiary treatment and anaerobic digestion of the sludge. 4. All
+results are expressed relative to the functional unit of 1 m3. Costs are expressed in USD.
+and 0.0945 USD/m3 for A2O, respectively. A comparison of the section (2022KJ098).
+costs indicates that SII is the most expensive section with the precent of
+85.5% in OD and 84.2% in A2O. Therefore, controlling the consump- Appendix A. Supporting information
+tions of electricity and carbon sources are essential for reducing the
+environmental impacts and total costs. The comprehensive assessment Supplementary data associated with this article can be found in the
+shows that A2O has a lower range with environmental impact, carbon online version at doi:10.1016/j.jece.2025.117770.
+emission, and economic impact. Both power consumption and chemical
+consumption play a significant role in municipal wastewater treatment Data availability
+process. These research results are valuable for the selection and opti-
+mization of municipal wastewater treatment process, while some limi- Data will be made available on request.
+tations still exist. The development of exhaustive and relevant life cycle
+inventories in China should be emphatic, and a clearer list of costs would
+References
+improve the accounting accuracy.
+[1] C. Sharma, H. Bas¸ag˘aog˘lu, I. Yoosefdoost, A. Wootten, D. Chakraborty-Reddy, F.
+CRediT authorship contribution statement P. Bertetti, A. Mirchi, D. Chakraborty, Efficacy of mitigation strategies for aquifer
+sustainability under climate change, Nat. Sustain 8 (1) (2025) 44–53.
+[2] L. Jin, G. Zhang, H. Tian, Current state of sewage treatment in China, Water Res 66
+Yuting Wang: Writing – original draft, Software, Methodology. (2014) 85–98.
+Huijia Wang: Visualization, Investigation. Jiaqing Wang: Software. [3] S. Guerra-Rodríguez, S. Cuesta, J. P´erez, E. Rodríguez, J. Rodríguez-Chueca, Life
+Zhi Sun: Writing – review & editing, Supervision. Longyi Lv: Supervi- Cycle Assessment of sulfate radical based-AOPs for wastewater disinfection, Chem.
+sion. Zhijun Ren: Supervision. Guangming Zhang: Writing – review & Eng. J. 474 (2023) 145427.
+[4] A. Gong, G. Wang, X. Qi, Y. He, X. Yang, X. Huang, P. Liang, Energy recovery and
+editing. Wenfang Gao: Writing – review & editing. saving in municipal wastewater treatment engineering practices, Nat. Sustain 8 (1)
+(2024).
+[5] N.H. Tran, M. Reinhard, K.Y.-H. Gin, Occurrence and fate of emerging
+Declaration of Competing Interest contaminants in municipal wastewater treatment plants from different
+geographical regions-a review, Water Res 133 (2018) 182–207.
+The authors declare that they have no known competing financial [6] L. Zhang, P. Du, Q. Zheng, M. Zhao, R. Zhang, Z. Wang, Z. Xu, X. Li, P.K. Thai,
+Exposure to smoking and greenspace are associated with allergy medicine use – A
+interests or personal relationships that could have appeared to influence study of wastewaterin 28 cities of China, Environ. Int. 196 (2025) 109291.
+the work reported in this paper. [7] T. Yang, Y. Zhu, Y. Li, B. Zhou, Achieving win-win policy outcomes for water
+resource management and economic development: The experience of Chinese
+cities, Sustain. Prod. Consum. 27 (2021) 873–888.
+Acknowledgments [8] Y. Zhang, C. Zhang, Y. Qiu, B. Li, H. Pang, Y. Xue, Y. Liu, Z. Yuan, X. Huang,
+Wastewater treatment technology selection under various influent conditions and
+This paper is supported by National Natural Science Foundation of effluent standards based on life cycle assessment, Resour. Conserv. Recy 154
+(2020) 104562.
+China (No. 52300232), Science and Technology Project of Tianjin
+[9] D. Xu, S. Wu, Z. Li, S. Wu, J. Xu, C. Gu, Aerobic granular sludge treating tannery
+(23JCQNJC00970), Education Commission Project of Tianjin wastewater and particle size control, AIP Adv. 15 (2025).
+9
+
+--- Page 10 ---
+Y. Wang et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 117770
+[10] Y.J. Chan, M.F. Chong, C.L. Law, D.G. Hassell, A review on anaerobic–aerobic selection of appropriate wastewater treatment system, J. Water, Process Eng. 45
+treatment of industrial and municipal wastewater, Chem. Eng. J. 155 (2009) 1–18. (2022) 102476.
+[11] Q. Bi, X. Dong, J. Duan, F. Wang, S. Yu, L. Cheng, X. Bi, D. Chen, Study on the effect [38] Y. Wang, W. Gao, L. Lv, X. Ma, Z. Ren, L. Sun, X. Liu, P. Wang, Z. Sun, Y. Tian,
+of multistage A/O-, MBBR Pilot Syst. Urban Sew. Treat. Remov. Contrib. Microb. G. Zhang, Comprehensive carbon footprint analysis of wastewater treatment: A
+Community Chang. J. Environ. Chem. Eng. 13 (2025) 115827. case study of modified cyclic activated sludge technology for low carbon source
+[12] Y. Zhao, J. Li, Q. Liu, Z. Qi, X. Li, Q. Zhang, J. Sui, C. Wang, Y. Peng, Fast start-up urban wastewater treatment, Sci. Total Environ. 923 (2024) 171550.
+and stable operation of mainstream anammox without inoculation in an A2/O [39] S. Morera, L. Corominas, M. Rigola, M. Poch, J. Comas, Using a detailed inventory
+process treating low COD/N real municipal wastewater, Water Res 231 (2023) of a large wastewater treatment plant to estimate the relative importance of
+119598. construction to the overall environmental impacts, Water Res 122 (2017) 614–623.
+[13] J.B. Zhang, Y.T. Shao, H.C. Wang, G.H. Liu, L. Qi, X.L. Xu, S. Liu, Current operation [40] K. Kapadia, A. Agrawal, Municipal Solid Waste to Energy Options - A Review, SSRN
+state of wastewater treatment plants in urban China, Environ. Res. 195 (2021) Electronic Journal, Proceedings of Recent Advances in Interdisciplinary Trends in
+110843. Engineering & Application, (2019).
+[14] L.Y. Wu, Y.L. Pan, J.F. Li, H.M. Li, J.Y. Li, H.Y. Li, A.Z. Li, Y. Jin, Spatial [41] Z. Jiang, X. Wang, H. Zhao, Z. Yang, J. Zhou, X. Sun, H. Yang, C. Wang, S. Huan,
+heterogeneity of factors affecting GHG emission intensity in urban water supply Micro/nano-plastic removal from wastewater using cellulose membrane:
+and wastewater treatment systems in China, J. Clean. Prod. 428 (2023) 139325. Performance and life cycle assessment, Sep. Purif. Technol. 317 (2023) 123925.
+[15] P. Li, X. Xia, J. Guo, A review of the life cycle carbon footprint of electric vehicle [42] M.A. Agrawal, Solid waste management of Indore city, a Rev. Int. Res. J. Eng.
+batteries, Sep. Purif. Technol. 296 (2022) 121389. Technol. 4 (2017) 1906–1909.
+[16] X. Guo, F. Guo, J. Chen, C. Xu, F. Wu, B.A. Bryan, Optimal pathways for upgrading [43] L. Li, X. Wang, J. Miao, A. Abulimiti, X. Jing, N. Ren, Carbon neutrality of
+China’s wastewater treatment plants for achieving water quality standards at least wastewater treatment - A systematic concept beyond the plant boundary, Environ.
+economic and environmental cost, J. Environ. Manag. 344 (2023) 118397. Sci. Ecotechnology 11 (2022) 100180.
+[17] H. Xu, G. Fu, Q. Ye, M. Lyu, X. Yan, Life cycle environmental impacts of urban [44] X. Yan, L. Li, J. Liu, Characteristics of greenhouse gas emission in three full-scale
+water systems in China, Water Res 266 (2024) 122350. wastewater treatment processes, J. Environ. Sci. 26 (2014) 256–263.
+[18] Z. Ren, J. Zhang, G. Zhang, W. Gao, Y. Wang, H. Duan, Z. Sun, Comprehensive [45] Z. Wu, H. Duan, K. Li, L. Ye, A comprehensive carbon footprint analysis of different
+assessment of the ultrasound lysis–cryptic growth technology for in situ sludge wastewater treatment plant configurations, Environ. Res. 214 (2022) 113818.
+reduction: Mass balance and environmental and economic analyses, Appl. Energy [46] P.M. Cox, R.A. Betts, C.D. Jones, S.A. Spall, I.J. Totterdell, Acceleration of global
+360 (2024) 122787. warming due to carbon-cycle feedbacks in a coupled climate model, Nature 408
+[19] L. Corominas, J. Foley, J.S. Guest, A. Hospido, H.F. Larsen, S. Morera, A. Shaw, Life (2000) 184–187.
+cycle assessment applied to wastewater treatment: State of the art, Water Res 47 [47] W.F. Gao, Z. Sun, H.B. Cao, H. Ding, Y.J. Zeng, P.G. Ning, G.J. Xu, Y. Zhang,
+(2013) 5480–5492. Economic evaluation of typical metal production process: A case study of
+[20] S. Moussavi, M. Thompson, S. Li, B. Dvorak, Assessment of small mechanical vanadium oxide production in China, J. Clean. Prod. 256 (2020) 120217.
+wastewater treatment plants: Relative life cycle environmental impacts of [48] T. Pan, P. Ocłon´, P. Cisek, M. Nowak-Ocłon´, M.A. Yildirim, B. Wang, Y. Van Fan, P.
+construction and operations, J. Environ. Manag. 292 (2021) 112802. S. Varbanov, S.R.Wan Alwi, A comparative life cycle assessment of solar combined
+[21] Y. Li, X. Luo, X. Huang, D. Wang, W. Zhang, Life Cycle Assessment of a municipal cooling, heating, and power systems based on RESHeat technology, Appl. Energy
+wastewater treatment plant: a case study in Suzhou, China, J. Clean. Prod. 57 359 (2024) 122754.
+(2013) 221–227. [49] Y.D. Tong, X.W. Liao, Y.Y. He, X.M. Cui, M. Wishart, F. Zhao, Y.L. Liao, Y.X. Zhao,
+[22] K.M. Morsy, M.K. Mostafa, K.Z. Abdalla, M.M. Galal, Life Cycle Assessment of X.B. Lv, J.W. Xie, Y.W. Liu, G.Y. Chen, L.A. Hou, Mitigating greenhouse gas
+upgrading primary wastewater treatment plants to secondary treatment including emissions from municipal wastewater treatment in China, Environ. Sci.
+a circular economy approach, Air, Soil and Water Res 13 (2020), Ecotechnology 20 (2024) 100341.
+1178622120935857. [50] D. Zhang, H. Zhao, W. Gao, Y. Sheng, H. Cao, The significance of resource recycling
+[23] A. Jim´enez-Benítez, A. Ruiz-Martínez, J. Ferrer, J. Ribes, F. Rogalla, A. Robles, Life for coking wastewater treatment: based on environmental and economic life cycle
+cycle costing of AnMBR technology for urban wastewater treatment: A case study assessment, Green, Chem. Eng. 5 (2024) 50–59.
+based on a demo-scale AnMBR, Syst. J. Environ. Chem. Eng. 11 (2023) 110267. [51] S. Muhaba, M.R. Darun, A.N. Oumer, Life cycle assessment of an industrial-scale
+[24] A. Delre, J. Mønster, C. Scheutz, Greenhouse gas emission quantification from petrochemical wastewater treatment plant, J. Clean. Prod. 475 (2024) 143673.
+wastewater treatment plants, using a tracer gas dispersion method, Sci. Total [52] R. Bhattacharya, S.B.K. Kanchinadham, Recovery and reuse of nitrous oxide from
+Environ. 605 (2017) 258–268. wastewater treatment plants – A step towards carbon neutrality, J. Environ. Chem.
+[25] G. Rodriguez-Garcia, M. Molinos-Senante, A. Hospido, F. Herna´ndez-Sancho, M. Eng. 12 (2024) 112130.
+T. Moreira, G. Feijoo, Environmental and economic profile of six typologies of [53] X. Gao, W. Xing, X. Bao, H. Wang, Y. Chen, N. Mei, T. Liu, J. Guo, H. Yao, Full-scale
+wastewater treatment plants, Water Res 45 (2011) 5997–6010. partial nitritation and anammox (PN/A) application in removing nitrogen from
+[26] A. Delre, M. ten Hoeve, C. Scheutz, Site-specific carbon footprints of Scandinavian industrial wastewater: Performance and life cycle assessment, Chem. Eng. J. 472
+wastewater treatment plants, using the life cycle assessment approach, J. Clean. (2023) 144956.
+Prod. 211 (2019) 1001–1014. [54] X. Liao, Y. Tian, Y. Gan, J. Ji, Quantifying urban wastewater treatment sector’s
+[27] X. Zheng, K.L. Lam, An overview of environmental co-benefits and trade-offs to greenhouse gas emissions using a hybrid life cycle analysis method – An
+reduce greenhouse gas emissions in municipal wastewater management, Sustain. application on Shenzhen city in China, Sci. Total Environ. 745 (2020) 141176.
+Prod. Consum. 46 (2024) 1–10. [55] D. Wang, W. Ye, G. Wu, R. Li, Y. Guan, W. Zhang, J. Wang, Y. Shan, K. Hubacek,
+[28] T.K.L. Nguyen, H.H. Ngo, W.S. Guo, S.W. Chang, D.D. Nguyen, L.D. Nghiem, T. Greenhouse gas emissions from municipal wastewater treatment facilities in China
+V. Nguyen, A critical review on life cycle assessment and plant-wide models from 2006 to 2019, Sci. Data 9 (1) (2022) 317.
+towards emission control strategies for greenhouse gas from wastewater treatment [56] Y. Kobayashi, N.J. Ashbolt, E.G.R. Davies, Y. Liu, Life cycle assessment of
+plants, J. Environ. Manag. 264 (2020) 110440. decentralized greywater treatment systems with reuse at different scales in cold
+[29] S.V. Dewalkar, S.S. Shastri, Integrated life cycle assessment and life cycle cost regions, Environ. Int. 134 (2020) 105215.
+assessment based fuzzy multi-criteria decision-making approach for selection of [57] A. Gallego-Schmid, R.R.Z. Tarpani, Life cycle assessment of wastewater treatment
+appropriate wastewater treatment system, J. Water, Process Eng. 45 (2022) in developing countries: A review, Water Res 153 (2019) 63–79.
+102476. [58] Y.J. Huang, F.L. Meng, S.M. Liu, S. Sun, K. Smith, China’s enhanced urban
+[30] B. Zakeri, S. Syri, Electrical energy storage systems: A comparative life cycle cost wastewater treatment increases greenhouse gas emissions and regional inequality,
+analysis, Renew. Sustain. Energy Rev. 42 (2015) 569–596. Water Res 230 (2023) 119536.
+[31] P.E. Campana, M. Mainardis, A. Moretti, M. Cottes, 100% renewable wastewater [59] Y. Li, Y. Xu, Z.H. Fu, W. Li, L.J. Zheng, M.R. Li, Assessment of energy use and
+treatment plants: Techno-economic assessment using a modelling and optimization environmental impacts of wastewater treatment plants in the entire life cycle: A
+approach, Energy Convers. Manag. 239 (2021) 114214. system meta-analysis, Environ. Res. 198 (2021) 110458.
+[32] H. Li, Y. Tao, T. Xu, H. Wang, M. Yang, Y. Chen, A. Wang, Real-time quantification [60] M. Maktabifard, E. Zaborowska, J. Makinia, Achieving energy neutrality in
+of activated sludge concentration and viscosity through deep learning of wastewater treatment plants through energy savings and enhancing renewable
+microscopic images, Environ. Sci. Ecotechnology 24 (2025) 100527. energy production, Rev. Environ. Sci. Bio/Technol. 17 (2018) 655–689.
+[33] S. Polruang, S. Sirivithayapakorn, R. Prateep Na Talang, A comparative life cycle [61] F. Daskiran, H. Gulhan, H. Guven, H. Ozgun, M.E. Ersahin, Comparative evaluation
+assessment of municipal wastewater treatment plants in Thailand under variable of different operation scenarios for a full-scale wastewater treatment plant:
+power schemes and effluent management programs, J. Clean. Prod. 172 (2018) Modeling coupled with life cycle assessment, J. Clean. Prod. 341 (2022) 130864.
+635–648. [62] Y. Pan, R.Z. Sun, Y. Wang, G.L. Chen, Y.Y. Fu, H.Q. Yu, Carbon source shaped
+[34] S.B. Ataa, A. Jamraha, T.M. Al-Zghoula, Environmental impact of wastewater microbial ecology, metabolism and performance in denitrification systems, Water
+treatment plant using life-cycle assessment–case study in Jordan, Water Conserv. Res 243 (2023) 120330.
+Manag. 8 (4) (2024) 480–486. [63] Y. Pan, T.W. Hua, R.Z. Sun, Y.Y. Fu, Z.C. Xiao, J. Wang, H.Q. Yu, Machine learning-
+[35] H. Awad, M. Gar Alalm, H.K. El-Etriby, Environmental and cost life cycle assisted optimization of mixed carbon source compositions for high-performance
+assessment of different alternatives for improvement of wastewater treatment denitrification, Environ. Sci. Technol. 58 (28) (2024) 12498–12508.
+plants in developing countries, Sci. Total Environ. 660 (2019) 57–68.
+[36] W. Piao, Y. Kim, H. Kim, M. Kim, C. Kim, Life cycle assessment and economic
+efficiency analysis of integrated management of wastewater treatment plants,
+J. Clean. Prod. 113 (2016) 325–337.
+[37] S.V. Dewalkar, S.S.J.J.o.W.P.E. Shastri, Integrated life cycle assessment and life
+cycle cost assessment based fuzzy multi-criteria decision-making approach for
+10

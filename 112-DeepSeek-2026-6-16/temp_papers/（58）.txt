@@ -1,0 +1,473 @@
+--- Page 1 ---
+JournalofEnvironmentalManagement365(2024)121502
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: www.elsevier.com/locate/jenvman
+Novel extended hybrid tool for real time control and practically support
+decisions to reduce GHG emissions in full scale wastewater treatment plants
+Nicola Lancionia,*, Bartosz Szelaga,b,**, Massimiliano Sgroia,***, Krzysztof Barbusin´ skic,
+Francesco Fatonea, Anna Laura Eusebia
+aDipartimento SIMAU, Universita` Politecnica Delle Marche, Via Brecce Bianche, 60131, Ancona, Italy
+bDepartment of Geotechnics and Water Engineering, Kielce University of Technology, Al. Tysiąclecia Pa′ nstwa Polskiego 7, 25-314, Kielce, Poland
+cDepartment of Water and Wastewater Engineering, Silesian University of Technology, Konarskiego 18 St., 44-100, Gliwice, Poland
+A R T I C L E I N F O A B S T R A C T
+Keywords: In this paper, a novel methodology and extended hybrid model for the real time control, prediction and reduction
+Carbon footprint of direct emissions of greenhouse gases (GHGs) from wastewater treatment plants (WWTPs) is proposed to
+Greenhous gas overcome the lack of long-term data availability in several full-scale case studies. A mechanistic model (MCM)
+Wastewater treatment plant
+and a machine learning (ML) model are combined to real time control, predict the emissions of nitrous oxide
+Decarbonisation strategies
+(N2O) and carbon dioxide (CO2) as well as effluent quality (COD – chemical oxygen demand, NH4-N – ammonia,
+Modeling and decision support
+NO3-N - nitrate) in activated sludge method. For methane (CH4), using the MCM model, predictions are per-
+formed on the input data (VFA, CODs for aerobic and anaerobic compartments) to the MLM model. Additionally,
+scenarios were analyzed to assess and reduce the GHGs emissions related to the biological processes. A real
+WWTP, with a population equivalent (PE) of 125,000, was studied for the validation of the hybrid model. A
+global sensitivity analysis (GSA) of the MCM and a ML model were implemented to assess GHGs emission
+mechanisms the biological reactor. Finally, an early warning tool for the prediction of GHGs errors was
+implemented to assess the accuracy and the reliability of the proposed algorithm. The results could support the
+wastewater treatment plant operators to evaluate possible mitigation scenarios (MS) that can reduce direct GHG
+emissions from WWTPs by up to 21%, while maintaining the final quality standard of the treated effluent.
+1. Introduction according to the Intergovernmental Panel on Climate Change (IPCC)
+values. While the measurements of specific GHG emissions for different
+WWTPs are significant sources of greenhouse gases emissions, technological solutions of WWTPs showed a large variation in emission
+nitrous oxide (N2O), methane (CH4), and carbon dioxide (CO2) are the factors, indicating a limited application of the EF recommended value
+main GHGs either emitted during the removal of nitrogen and carbon in 1.6% (Daelman et al., 2015). It also indicates the need to explore
+biological reactors (Nguyen et al., 2019). The environmental impact of methods to identify EF more accurately (Vasilaki et al., 2018).
+the emissions of the above-mentioned gases is expressed in terms of In an age of new paradigms for WWTP operations, the water and
+global warming potential (GWP). Particularly significant is N2O, with wastewater sectors are working hard to reduce carbon emissions, there
+global warming potential (GWP) value of about 280 (Vasilaki et al., is an urgent need to support researchers and water professionals with
+2020a), while for CH4 and CO2 they were about 56 and 1 (IPCC, 2021). proven tools that predict GHG emissions. To date, most of the scientific
+Globally, WWTPs using enhanced biological nitrogen removal system literature has been focused on N2O quantification and to a minor extent
+can emit up to 20% of removable nitrogen in the gaseous form of N2O on CH4 and direct CO2 production and emissions. (IPCC, 2021; Liu et al.,
+(Campos et al., 2016; Marinelli et al., 2021). GHG emissions for bio- 2014). To date, there have been attempts to extend activated sludge
+reactors were initially determined based on the emission factors (EF), models (ASMs) to predict liquid- and gas-phase GHG emissions for real
+* Corresponding author.
+** Corresponding author. Department of Geotechnics and Water Engineering, Kielce University of Technology, Al. Tysiąclecia Pa′ nstwa Polskiego 7, 25-314, Kielce,
+Poland
+*** Corresponding author.
+E-mail addresses: n.lancioni@pm.univpm.it (N. Lancioni), bartoszszelag@op.pl (B. Szelag), m.sgroi@univpm.it (M. Sgroi).
+https://doi.org/10.1016/j.jenvman.2024.121502
+Received 15 January 2024; Received in revised form 8 April 2024; Accepted 15 June 2024
+Availableonline26June2024
+0301-4797/©2024ElsevierLtd.Allrightsarereserved,includingthosefortextanddatamining,AItraining,andsimilartechnologies.
+
+--- Page 2 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+WWTPs (Blomberg et al., 2018; Duan et al., 2020; Ye et al., 2022). MCM 2. Material and methods
+(mechanistic model) have been successfully applied for WWTPs to
+identify GHG emission pathways or to mitigate emissions. However, 2.1. Study site and data collection
+these models require extensive data for the calibration and only a
+limited number of studies are presented in literature about the real Characteristic WWTP. The case study operates the biological nutrient
+application of ASM GHGs models at full-scale WWTPs, due to their removal (BNR) scheme treating municipal wastewater located in
+complex structure (Sp´erandio et al., 2022). It was shown that due to the norther Italy with design organic load of 125,000 PE. The average
+number of kinetic parameters to be identified and the strong interaction influent flow rate is about 87,000 m3/d. The biological treatment in-
+between them, the calibration of ASM models for GHG (CO2, CH4, N2O) cludes two parallel lines with intermittent aeration configuration and
+prediction was a complex task (Cosenza et al., 2014; Szeląg et al., 2022). three parallel lines with Modified Ludzak-Ettinger (MLE) process
+To obtain great fit agreement between simulations and measurements configuration (Fig. 1). The current study focused on the MLE scheme,
+for the ASM model, there was a need to implement advanced compu- where the volume of the aerobic (AE) and anoxic (AN) compartments
+tational methods (Sin et al., 2011; Borzooei et al., 2019). are, respectively, 4800 m3 and 2400 m3. The mixed liquor internal
+Considering the limitations of ASM models, there is growing interest recycle (IR) is directed from the end of the AE to the beginning of AN
+in using machine learning (ML) methods to model municipal and in- compartment, while the returned activated sludge (RAS) is recirculated
+dustrial WWTPs. ML models can be an alternative to ASM (Vasilaki from the secondary clarifier to the influent of the bioreactor.
+et al., 2018; Yapiciog˘lu and Yes¸ilnacar, 2022; Szeląg et al., 2023), and a Inflow to WWTP. Based on the results of measuring the quantity of
+better goodness of fit was obtained than in MCM models. In fact, ML wastewater inflow to the WWTP (period April 01, 2020 to May 01,
+methods have been used to simulate N2O emissions, while less models 2021) with a resolution of 1 h and wastewater quality (BOD, COD, TSS,
+have been proposed and validated for the assessment of CH4 and CO2 NH4 - N, NO3 - N, pH) with a resolution of 1-day, typical inflow condi-
+emissions from secondary treatment. Hwangbo et al. (2021) using a tions were determined. For this purpose, the 50% percentiles were
+Deep Neural Network method developed a model for N2O prediction. Li determined; for flow, they were equal to hourly values, while for the
+et al. (2022) developed a hybrid model for N2O prediction, based on the effluent quality and pH to daily values. A weekly period was used to
+combination ASM and Long Short-Term Memory (LSTM) model, where predict the operation of the WWTP. Table S1 summarizes the collected
+the input data for LSTM are provided by the MCM model. data for the study of nitrous oxide, methane, and carbon dioxide emis-
+ML tools only allowed the prediction of N2O (the other gases were sions from the WWTP under investigation, and their application in the
+omitted), ignored effluent quality and prevented process real time prediction and control of the GHGs emissions.
+control and identification of operational parameters in advance. Input Bioreactor compartment and operational parameters. Bioreactor oper-
+data for ML included effluent quality in the bioreactor compartments, ating parameters (Q - influent, MLSS - mixed liquid suspension, DO -
+operational parameters, the lack of which prevented its use. No attempt dissolved oxygen in aerated tank, RAS - recirculated activated sludge,
+was made to generalize the input data for GHG models, which would WAS - waste activated sludge, Oxidation Potential Redox in the bio-
+have made it possible to eliminate the above problems. The ML tools logical reactor) were acquired from continuous monitoring at the WWTP
+developed ignored the aspect of identifying GHG prediction errors. with a resolution of 15 min. Conventional characterisation parameters
+The ML models usually are focused only on N2O, the other green- of the wastewaters, such as pH, chemical oxygen demand (COD), total
+house gases (i.e. CH4 and CO2) were less discussed and analyzed. These suspended solids (TSS), total Kejldahl nitrogen (TKN), ammonia nitro-
+models were only used to predict N2O based on measured data (quality, gen (NH4-N), nitrate nitrogen (NO3-N), nitrite nitrogen (NO2-N), and
+bioreactor compartments, operational parameters) and the absence of total phosphorous (TP), were analyzed in liquid samples. Three 24-h
+one of the inputs to the model made impossible or less accurate the liquid samples of the influent and effluent of the bioreactor were
+prediction. Therefore, it was not possible to simultaneously real time collected during GHGs continuous monitoring.
+control the other operational parameters of the bioreactor including Two intensive measurement campaigns (9 days) were carried out for
+effluent quality, which is a key criterion for the operation of a WWTP. the full-scale facility, one during the winter and the other one during the
+The ML models proposed so far for GHG prediction did not allow the summer. Samples were taken from secondary settler effluent at a reso-
+selection of bioreactor operating parameters in advance, in such a way lution of 3 h, and were analyzed for several parameters, including COD,
+as to achieve the assumed technological influence in terms of waste- TSS, TN, NH4-N, NO3-N and TP in the liquid samples according to
+water quality and gas emissions. The computational approaches used Standard Methods (APAH). NO2-N and NO3-N were measured by ion
+allowed the selection of control strategies and improvement of biore- chromatography in samples that were first filtered through 0.45 μm
+actor operating conditions, but were usually based on the MCM model Whatman membrane filters. The results from the first sampling
+(Blomberg et al., 2018; Zaborowska et al., 2019) - requiring modifica- campaign were used for the calibration of the ASM, while the second one
+tions to the ASM model or probabilistic approaches were used (Yapi- was exploited for the validation of the MCM model. Mąkinia and
+ciog˘lu et al., 2023), which based on simplified models to predict GHGs Zaborowska (2020) showed that the assumed resolution of measure-
+emissions. ments and a period of not less than 5 days can be used to develop an ASM
+The aim of this paper was to develop an innovative tool for predic- model for process control in a WWTP. The summer period was used to
+tion, real-time control of bioreactor performance parameters, effluent calibrate the kinetic parameters in the ASM2D model, while the results
+quality (COD, NH4-N, NO3-N) and mitigation of GHGs (N2O, CH4 and for the winter period formed the basis for validation.
+CO2) for large WWTPs. The above was achieved with an extended hybrid Measured of emission GHG. Greenhouse gases emitted from the AE
+model including (i) mechanistic, (ii) machine learning - a multilayer tank were continuously monitored for 9 days during the winter period in
+perceptron with multiple outputs. The developed approach ensures high continuous way and with a resolution of 15 min. A floating chamber and
+operational reliability of the bioreactor even for missing measurements a heated gas line at 120 ◦C were used to convey the samples from the
+of continuous input data to the ML due to sensor failures. In these sit- aerated bioreactor to the gas analyzer, where a cooling device was used
+uations, these data can be obtained from simulations with the MCM to reduce the temperature of the gases to 4 ◦C, thus, minimising the
+model. The reliability of technological decision-making was increased water vapour content prior to the measurement. The gas analyser (MIR
+through the use of EWS and GSA in the context of identifying GHGs 9000-CLD type, ENVEA, IT) with a membrane air dryer Mgf Sky 30/7 M
+errors and reducing prediction uncertainty. was used under controlled thermal conditions with the online acquisi-
+tion of emitted GHG concentrations (one data every 5 min). The mea-
+surements of CH4, CO2, and N2O were performed using the standard
+infrared absorption (UNICHIM method and ISTISAN 91/41 Report).
+2
+
+--- Page 3 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+Fig. 1. Layout of the secondary biological treatment in the studied WWTP with the location of sampling points (where: samp - laboratory samplings, 15 min -
+continuous measurements with sensors, L, G - measurement in liquid, gas phase).
+Nitrous oxide (N2O), methane (CH4) and carbon dioxide (CO2) were values for changing process conditions (for example, inflow of toxic
+measured using the standard infrared absorption. The gas analyser was substances). The second part (steps 4–7) was the development of
+calibrated using standard gas concentrations. Every 3 h, a compressor extended hybrid model for prediction, real time control of operational
+was activated for ambient air sampling as a zero reference. In addition, a parameters, effluent quality and greenhouse gases (N2O, CH4, CO2). The
+floating chamber was used to convey the samples to the analyser proposed tool includes integrations of two models: (i) mechanistic for
+(Spinelli et al., 2018). The floating system was made from high-density bioreactor performance prediction (operational parameters, effluent
+polyethylene with a total volume of 310 L and a bottom area of 1 m. quality at the outlet), (ii) machine learning for GHG prediction based on
+MCM model calculations. Using cluster analysis methods, an Early
+Warning System (EWS) for the assessment of the GHG simulation errors
+2.2. Methodology for the development of a novel hybrid algorithm was developed. In part three (step 8–9), the ML and MCM model was
+integrated and used to carry out scenarios for optimizing the process in
+An algorithm for developing a simulation tool (WWEEDeCarb) for the bioreactors and reduce the emissions of nitrous oxide, methane, and
+modelling, controlling in real time of greenhouse gas emissions (N2O, carbon dioxide.
+CH4, CO2) and effluent quality for activated sludge-based WWTPs is
+presented (Fig. 2), which include four steps. In this study, a modified 2.2.1. Development of mechanistic model for WWTP (step 2)
+Ludzak-Ettinger wastewater treatment system, which is often used in Activated Sludge Model No. 2d was used for the development of the
+engineering practice, was assumed for the research (Ren et al., 2013; simulation model for biochemical processes of the studied WWTP.
+Moore et al., 2023). Default kinetic coefficients and influent wastewater characterization of
+This is of great importance from a utilitarian point of view, since the the ASM2D were set prior to the global sensitivity analysis (GSA) of the
+proposed solution provides opportunities to apply the provided meth- model. The hydraulic model of the bioreactors was assumed to be
+odology to other WWTPs as well, and to be widely used in engineering completely stirred tank reactors in series with constant volume, while
+practice in the development of monitoring systems based on soft - sen- the secondary clarifier model was set as a non-reactive Taka`cs model. As
+sors. Since the operation is limited to routine input data hence the described in the following subchapter, the accuracy of the ASM model
+developed approach can also be applied to other WWTP systems; pro- was confirmed by the coefficient of determination (R2), mean absolute
+vided the data is available for model verification or recalibration ML and error (MAE) and root of mean square error (RMSE) during the calibra-
+MCM models. The manuscript is limited to the prediction on the outflow tion phase (Section 1, Equations of S3 – S5).
+and compartments of the bioreactor COD, NH4-N, NO3-N, TN. Literature
+data (McCarty, 2018; Mugwili et al., 2023) confirms that from the point 2.2.2. Extended global sensitivity analysis (GSA) and calibration (step 3)
+of acceptable concentrations in the effluent of WWTPs, it is most difficult A two-step procedure was used to identify kinetic parameters. It
+to achieve the requirements for nitrogen and ammonia. With regard to includes a sensitivity analysis and calibration of the parameters in
+phosphorus, in case of insufficient efficiency of the biological removal sliding time windows (Δt) for the measurement period of the effluent
+process, chemical precipitation with coagulants is used, which is simpler quality indicators (Fig. S1). In this study, effluent concentration of COD,
+to implement than the prediction of nitrogen compounds (Arambarri NH4-N, NO3-N were used for the calibration of the ASM. The dynamic
+et al., 2019; Xu et al., 2024). global sensitivity analysis (dGSA) was applied including the following
+The first part (steps 1–4) includes the development and calibration of steps:
+the ASM2d model for the prediction of the WWTP’s biological waste-
+water treatment stage. The model was calibrated and validated based on (a) Monte Carlo predictions of kinetic parameters (1000 samples
+two measurement campaigns. Extended global sensitivity analysis was were assumed),
+performed, in which the influence of kinetic parameters on effluent (b) predictions of effluent quality for combinations of kinetic
+quality indicators (COD, NH4-N, NO3-N) was formulated as a time series. parameters,
+The approach used allowed real-time verification of kinetic parameter
+3
+
+--- Page 4 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+Fig. 2. Algorithm for developing a tool to model and mitigate GHG emissions for WWTP.
+(c) development of multivariate polynomial regression (MPR) adopted allowed verification of kinetic parameters in real time.
+models for subsequent t values according to the formula:
+2.2.3. Development of the ML model for control WWTP (step 5)
+∑j ∑n ∑n ∑n
+S(tk)∗=α 0+ α i⋅x∗ + α ii⋅x∗ i2+ α ij⋅x∗ i⋅x∗ (1)
+i j
+i=1 i=1 i<j j=2 2.2.3.1. Selection of input data for the model. The selection of model
+inputs for the N2O prediction was driven, on the one hand, by the results
+where: S (tk)* – concentration of selected water quality index (WQI) at of field studies for bioreactors (Boiocchi et al., 2017), and on the other
+time tk in the effluent of the WWTP; α 0, α 1, α 2, α ij, α i – coefficients hand, the correlations shown by the MCM (Massara et al., 2018) and ML
+estimated by the method of least squares; S (tk)*, xj* – standardized (Vasilaki et al., 2020b) models were taken into account. For the N2O
+dependent/independent variables calculated according to Section S2 prediction, the following were taken into account: flow rate (Daelman
+(Suppport Information). et al. (2015) showed a strong correlation between influent and emission
+over a diurnal cycle), air flow and air concentration (studies by Vasilaki
+d) determination of α i,ii,ij = f(t) for kinetic parameters in relation to et al. (2018) for the Caroussel bioreactor, including simulations by
+effluent. Zaborowska et al. (2019) with the MCM model showed the influence of
+air on emissions), NH4-N removal load, COD and redox (oxidation and
+The calibration procedure was performed for sliding time windows reduction processes of nitrogen compounds described by stoichiometric
+(Δt) (Fig. 1) involving period t, in which for N measured values of COD equations showed that ammonia was a source of nitrous oxide emissions
+(t), NH4-N(t), NO3-N(t), the kinetic parameters were optimized using the - Mąkinia and Zaborowska, 2020, Vasilaki et al., 2019).
+determined MPR models according to Equation (1). The subsequent The issue of methane prediction from the aerobic compartment ap-
+computational steps are discussed in detail in Section S3. The approach pears more complex, as the number of studies in this area is limited
+4
+
+--- Page 5 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+(Wang et al., 2021). Daelman et al. (2015) showed that CH4 emission is 2.2.3.3. Advanced hybrid model (integration MCM and ML model). The
+correlated with inflow rate, Tumendelger et al. (2019) and Liu et al. calibrated MCM model was used to perform predictions of the operation
+(2014) proved a correlation with DO concentration, established a strong of the WWTP and determined LCODrem, LNH4-Nrem, LNO3-Neff, Qair
+correlation with airflow. Zaborowska et al. (2019) confirmed the in- for the measured data of the input data (flow influent and quality at the
+fluence of oxidoreductive potential on CH4 in the aerobic compartment. inflow, activated sludge concentration, recirculation, redox). These data
+IPCC (2021), based on studies of WWTPs, recommends calculating CH4, were determined with a time resolution of 15 min and were the input to
+CO2 emissions on an effluent basis, which was also confirmed by Wang the MLP model for N2O and CO2. For CH4, in addition to the input data
+et al. (2021). Operation of the activated sludge system at high SRT quoted above, VFA, COD soluble for aerobic, anaerobic compartments
+values has been shown to promote endogenous biomass respiration, were also predicted using the MCM model, which included additional
+which increases the availability of COD. It was found that a reduction in input data. This approach was used to analyze bioreactor control
+SRT is also associated with an increase in energy efficiency of the WWTP stategies in the context of GHGs reduction, as detailed in Section 2.2.8.
+and thus a decreasing in indirect CO2 emissions (Kyung et al., 2015;
+Campos et al., 2016). Jiang et al. (2009) and Mesqiuta et al. (2010) 2.2.4. Global sensitivity analysis for GHG (step 6)
+showed that the source of acetate and thus methane emissions can be A global sensitivity analysis (GSA) was performed to determine the
+easily degradable substances such as volatile fatty acids (VFAs), soluble impact of the selected input data on GHG emissions. This aspect is
+COD that have been shown in aerobic compartments. Considering that crucial from a technological point of view, in order for the ML model
+several processes (Wang et al., 2011; Wang et al., 2021) are involved in obtained to be applied at the operation stage. The artificial neural
+maintaining the assumed WWTP efficiency, other sources of methane network should appropriately describe the influence of the input data on
+(secondary settling tank operation, recirculation, sludge floc processes, the simulation results, especially in the case of GHG emissions (Szeląg
+etc.) in the nitrification compartments cannot also be excluded. et al., 2023). The calculation steps are given in Section S4 – Support
+Information. In order to complete the GSA and better understand the
+2.2.3.2. Multilayer perceptron (MLP). An artificial neural network relationships obtained, Spearman correlation coefficients were calcu-
+method was developed for the predictions of GHGs from WWTP. This lated as a first step.
+method has been widely used to model WWTPs including bioreactor
+emissions (Hwangbo et al., 2021). In this study, a model of three layers 2.2.5. Early warning system for error predictions (step 7)
+(input, output, hidden) was used. A detailed description of the method, In this study of the Early Warning System, the reliability of ML model
+the determination of hyperparameters in the MLP model and the eval- simulation results was modeled in the context of their implementation
+uation of the fit of the prediction to the measurements are discussed in for bioreactor control. For this purpose, the cluster analysis method was
+Section S2. The model developed to control WWTP is defined in a gen- used. The basis for developing the EWS was the relative error values of
+)
+eral equation: (e=GHGmes(cid:0)GHGsim
+the GHG prediction . In the first step of the calculation,
+GHGmes
+⎛ ⎞ the Hierarchical cluster analysis (HCA) method was used to determine
+⎜ Q(t) ⎟ the number of clusters, followed by the method of k - mean to determine
+⎜ ⎜ ⎜ ⎜ ⎜ ⎜ LCOQ D Da Oir r(( ett m)) ⎟ ⎟ ⎟ ⎟ ⎟ ⎟ ⎛ ⎜ ⎜ ⎜ QQ ai( rt (t(cid:0) (cid:0)m m) ) ⎞ ⎟ ⎟ ⎟ ot Lh N re dO er 3 ra -n N tg oee ff d,o eSf t S ev , r a mrr ei ida nob exi l ,i t t Q hy ea o ir df , i i D sn tO ad ni ,v cVi ed F u A ba , e l C t wd Oa eDt ea s n ) ( iQ tn h , t e hL eC n O i ed wD e nre ctim lfi u, se tdL e N rc slH u c4 s r- tN e er ar s te . em I dn, ,
+⎜ (t) ⎟ ⎜ ⎟
+⎜ ⎜ ⎜LNH4(cid:0) Nrem(t)⎟ ⎟ ⎜ ⎜ LCOD DO r( et m(cid:0) (tm (cid:0)) ⎟ ⎟ l ei nn ok ua gg he r tu ol e bs w ce or me bu is ne ed to d ae st ile ar km in ete aw l.h e 2th 0e 1r )tw Io c tl hu est e nr es a r se es pim i tl ha er
+⎜ ⎟ ⎟ ⎜ ⎜ m) ⎟ ⎟ e d (V i , 8 . n x t t ,
+⎜ ⎜ ⎜ ⎜ ⎜ LNO re3 S d(cid:0) S o( xN t ()e t)ff(t) ⎟ ⎟ ⎟ ⎟ ⎟ ⎟=f⎜ ⎜ ⎜ ⎜ ⎜ ⎜L LN NH O4 3(cid:0) (cid:0) N Nr ee fm f(( tt (cid:0)(cid:0) mm ))⎟ ⎟ ⎟ ⎟ ⎟ (2) k a an n-m d e w ta han ess um s oee ddt eh t loo d nd, pe a t uel ts r so m ik nn eo tw hen ca os r rt eh le a tc ioe nn t br eo ti wd ea el ng o thri eth Gm H, G w ea rs r oa rp vp al li ue ed s,
+⎜ ⎟ d m i .
+⎜ ⎜ ⎜ ⎜ ⎜ ⎜ ⎜ CV O CF CD OA Hs 2∗ A ∗ A (N 4N t, (A ), tA ,E )E C( (t t) ) ⎟ ⎟ ⎟ ⎟ ⎟ ⎟ ⎟ ⎜ ⎜ ⎜ ⎜ ⎜ ⎜ ⎝ CV OFr De AS d s∗ AS o AN( Nx ,t A ,( A(cid:0) Et E((cid:0) (tm t(cid:0) (cid:0)m) m) m) ⎟ ⎟ ⎟ ⎟ ⎟ ⎟ ⎠ 2 Mr. a2 Lt. SC i6 Su. r rM oe nni t cti hg eea s nt t tai ro et an e is s obc h nie co n w ata rr s oni o ukas vl( di as m rt 4e ii ep 0t i 0n8 0) g mC wO /D Ln/ N 7r ea t Ri go So f an4 nd, t eh se bmD eO Lc o ewn nic 0e hn 8a-
+⎜ ⎜ ⎟ ⎟ ∗ ) t o n i n t a r to a s b e t ge e 1 t. m A/ L a 0 . 2 g tw/ t
+⎜ ⎟
+⎝ ⎠ c n , h r g e .
+N2O(t) and 1.3 while the influent flow rate is between 15,400 m3/d and 25,170
+m3/d. Thus, direct GHGs emissions from the biological reactor as well as
+effluent quality, in terms of COD, NH4-N and NO3-N concentrations,
+where: Q(t) - inflow for t; Qair(t) - air flow rate for t; DO(t) - oxygen were studies and compared for several process conditions, in order to
+concentration for t; LCODrem(t) - COD load removed for t; LNH4-Nrem reduce the carbon footprint of secondary treatments while maintaining
+(t) - NH4 - N load removed for t; LNO3-Neff(t) - effluent nitrate load for t; the removal efficiencies of the WWTP. Mitigation scenarios were
+SS(t) - suspended solids for t; VFAAN,AE(t)* - volatile fatty acids in the implemented for the control and the mitigation of nitrous oxide,
+anaerobic, aerobic compartment for t obtained from MCM model pre- methane, and carbon dioxide emissions in the studied WWTP. These
+dictions; CODAN,AE(t) soluble in aerobic (AE), anaerobic (AN) predictions were performed for a typical influent to the WWTP, deter-
+compartment obtained from MCM model predictions; redox(t) - mined in according to the methodology in Section 2.1., as the current
+oxidation-reduction potential for t; CO2(t), CH4(t), N2O(t) - greenhouse state and several simulation scenarios, varying the influent COD/TN
+gas emissions for t. The inputs to the MLP model obtained from the MCM ratio (from 4 to 8), DO controller of the aeration tank (up to 1.5 mg/L),
+were the values of Qair, LCODrem, LNH4-Nrem, LNO3-Neff, SS, VFA*, sludge retention time (SRT from 15 to 40), recycle activated sludge (RAS
+CODs* for time (t), and those obtained from measurements of Q and DO, from 0.8 to 1.5) and, finally, adding an online equalization tank to
+respectively. Three datasets (period of six days) were used to develop the provide constant loads to the biological reactor (details in Table S2).
+model: learning (70%), test (15%), validation (15%). In addition, model Computational variants of GHG emission mitigation and effluent
+verification was performed on independent data - a period of 3 days. The quality control at the WWTP effluent were performed for mean values of
+weights in the multilayer perceptron (MLP) model were calibrated based effluent quantity and quality (BOD, COD, TSS, NH4-N, NO3-N) at the
+on 10-fold cross-validation. influent. The results obtained are intended to provide an optimal GHG
+emission control strategy for typical operating conditions, which is
+5
+
+--- Page 6 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+common in studies by other authors (Zaborowska et al., 2019). The 3.1.2. Calibration of the ASM model
+study did not analyze extreme conditions on the inflow to the WWTP Using Equation (1) in section 3.1.1 for the assumed sliding time
+such as heavy rainfall, load surge on the inflow due to the incidental windows (Δt = 1 day) for period 1–7 days, kinetic parameters were
+nature of the events and priorities during their occurrence - obtaining easily obtained for the calibration of the effluent quality (Table 1). A
+the required effluent quality on the outflow, providing the necessary high fit between the predictions and the measurements (calibration) at
+amount of nutrients for activated sludge microorganisms to carry out the bioreactor effluent were therefore obtained (Fig. S36); the coeffi-
+basic metabolic processes (Martin and Vanrolleghem, 2014; Andreides cient of determination (R2) for the effluent COD, NH4-N, NO3-N con-
+et al., 2022). centration were, respectively, 0.93, 0.92 and 0.90.
+Fig. S37 shows the validation of the AMS model considering the
+3. Results effluent concentrations of COD (R2 = 0.90), NH4-N (R2 = 0.86), and
+NO3-N (R2 =0.88) during 5 days of intensive monitoring.
+3.1. Dynamic global sensitivity analysis (dGSA) and calibration of the
+ASM model
+3.2. Synthetic data generation
+3.1.1. Global sensitivity analysis
+The calculations performed showed that the average hourly inflow to
+The main kinetic parameters influencing effluent COD were shown to the WWTP was 2662 m3/h and the daily inflow was equal to 62,326 m3/
+be the ratio of soluble COD to fermentation products (fSF) and the d. The lowest inflow to the WWTP in a day was at 7 o’clock and was
+ammonium half saturation factor for autotrophic growth (KNH,A) - Fig. 3 equal to 2284 m3/h. The values of BOD, COD, TSS, NH4-N, NO3-N on a
+b, c. The effluent NH4-N depends mainly on the autotrophic maximum weekly basis were 46–51 mg/L, 109–122 mg/L, 56–63 mg/L,
+specific growth rate (μ A) and autotrophic decay rate (bA) (Fig. 3a–c). The 22.92–23.87 mg/L, 0.88–1.00 mg/L. Fig. S38 shows the data for
+dGSA allows to observe the variation of the kinetic parameters for the
+modeling the WWTP on a weekly basis.
+calibration period, Fig. 3 highlights a daily seasonal pattern of the ki-
+netic parameters for the COD, NH4-N.
+3.3. Development of the ML model
+Figures S2 - S14, S15 - S24, S25 - S35 showed, respectively, the in-
+fluence of selected kinetic parameters for a 7-day period for NO3-N,
+The calculations performed showed that the greatest predictions for
+COD, NH4-N in the effluent.
+GHGs (CO2, CH4, N2O), operational parameters (redox, DO, Qair, MLSS,
+Fig. 3. (a) Variation of SbAUT for the calibration period of the NH4-N; (b) Variation of SfSF for the calibration period of the COD; (c) Variation of α i for the calibration
+period of the NH4-N calibration; (d) Variation of α i for the calibration period of the COD calibration.
+6
+
+--- Page 7 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+Table 1 Q =f (RAS)), effluent quality (LCODrem, LNH4-Nrem, LNO3-Neff) were
+Set of kinetic coefficients estimated during the modified ASM2d model. obtained for 8 neurons in the hidden layer and logistic activation
+Kinetic parameter Symbol Units ASM2d Value function. Table S3 gives the values of the measures of the fit of the
+default (calibration) computed results to the measurements (R2, MAE, MAPE, RMSE) for the
+value obtained control model for the learning, test, and validation sets.
+Autotrophic maximum μ A X3 d(cid:0)1 1 0.70 Figs. 4 and 5 provide a comparison of the calculations to the mea-
+specific growth rate surements of GHGs and selected operational parameters (Qair, redox,
+Autotrophic decay rate bA X2 d(cid:0)1 0.2 0.25 TSS), effluent quality (LCODrem, LNH4-Nrem). The determined GHG
+Oxygen half saturation KO,A X1 mgO2/ 0.5 0.50
+models showed a high fit of the calculation measurements to the simu-
+coefficient for l
+autotrophic growth lations for N2O (R2 =0.858, MAE =0.28 kg/d, RMSE =3.10 kg/d), CH4
+Ammonium half KNH,A X0 mgN/l 1.0 1.00 (R2 =0.994, MAE =0.17 kg/d, RMSE =0.23 kg/d), CO2 (R2 =0.784,
+saturation coefficient MAE =0.15 kg/d, RMSE =0.20 kg/d) – Fig. 4, Table S3. The differences
+for autotrophic in MAE, RMSE for GHG showed an underestimation of the minimum and
+growth
+Heterotrophic μ H X6 d(cid:0)1 6 6.00 maximum values, as confirmed in Fig. 4. This did not exclude the
+maximum specific applicability of the model, as this fact was mentioned in the EWS, in
+growth rate section 3.6. Predictions of operational parameters (Qair, DO, MLSS,
+Nitrate half saturation KNO,H X4 mgN/l 0.2 0.20 redox, Q) showed that the developed model could also be applied to
+coefficient for
+control effluent quality (LNH4-Nrem, LCODrem, LNO3-Neff).
+heterotrophic growth
+Heterotrophic decay bH X5 d(cid:0)1 0.4 0.20 This was confirmed by a good accuracy between the simulated pa-
+rate rameters, such as Qair, redox, Q, effluent quality for LCODrem and
+Soluble COD to fSA X7 – 0.25 0.40 LNH4-Nrem, and the related measured data in the biological reactor
+fermentation (Table S3, Fig. 5). The goodness of fit of the predictions to GHG mea-
+products ratio
+Soluble COD to readily fSF X8 – 0.35 0.50 surements and operational parameters for verification period is given in
+biodegradable Table S4.
+substrate ratio
+3.4. Early warning system for simulation error of GHG’s
+Fig. S39 shows the normalized mean values of effluent quality
+(LCODrem, LNO3-Neff, LNH4-Nrem), operational parameters (Q, DO,
+Fig. 4. Comparison of predictions to measurements: a) N2O, b) CH4, c) CO2, d) Qair.
+7
+
+--- Page 8 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+Fig. 5. Comparison of calculation results to measurements: a) redox, b) MLSS, c) LNH4-Nrem, d) LCODrem.
+Qair, Q, SS) and the associated N2O prediction error values; Tables S5 Nrem (Rij =0.89), Q - LNO3-Neff (Rij =0.87), Qair - DO (Rij =0.85),
+and S6 report their numerical values. CO2 was finally omitted from the LNH4-Nrem - LNO3-Neff (Rij =0.86). For the other input combinations,
+analyses due to the small range of its variability over the period R ≤0.513 was found. Therefore, the Iman - Conover method was used
+considered. For CH4, analyses have been omitted due to the excellent fit for MC predictions. The results of the KS, AD, pCh test calculations of
+between prediction results and measurements. Using the k-means fitting the theoretical distributions to the empirical inputs (Q, Qair, DO,
+method, it was shown that the greatest relative N2O prediction errors LNH4-Nrem, LNO3-Neff) in the ML model are given in Table S7. MC
+(eN2O =0.27) were obtained for cluster 3 (CL3), with the lowest values simulations were performed and MPR models were determined for GHG
+of Qair = 1408 m3/d, MLSS = 3.93 mg/L, DO = 0.65 mg/L and the (CO2, CH4, N2O); Fig. 6 showed the results of calculating α i coefficients
+greatest LCODrem =6211 kgCOD/d compared to clusters CL1 and CL2 on the individual models.
+(e =0.11–0.16) – Fig. S39, Table S5. LCODrem, LNH4-Nrem (non-linear relationships) and DO were found
+to have the greatest influence on N2O emissions, as confirmed by the α i
+values obtained (Fig. 6). For CH4, it was shown that LNH4-Nrem, LCO-
+3.5. Global sensitivity analysis for GHG Drem were the key influences on emissions (Daelman et al., 2014; Wang
+et al., 2011), VFAs, CODs in the aerobic and anaerobic compartments
+3.5.1. Spearman correlation were also important (Jiang et al., 2009); these relationships, as for N2O,
+The results of calculating Rij correlation coefficients between GHGs were non-linear (Daelman et al., 2012; 2014). For CO2, it was found that
+(N2O, CH4, CO2) and process parameters (Qair, Q, redox, TSS, DO, the LCODrem, LNH4-Nrem values had the greatest influence on emis-
+LNH4-Nrem, LNO3-Neff, LCODrem) are given in Table S6. For N2O, the sions (Fig. 6). At the same time, the results showed that the input data
+greatest correlations were shown for LNH4-Nrem (Rij =0.46), LCODrem assumed for the predictions can lead to an increase/decrease in GHGs
+(Rij =0.41), DO (Rij =0.40), while low correlations (Rij <0.40) were emissions, which depends on the operational conditions.
+found for the other cases. For CH4, the correlation was found for LCO- At the same time, these results may indicate that the model allows for
+Drem (Rij =0.66), redox (Rij =0.41), DO (Rij =0.42) and for additional the identification of different production pathways of GHGs.
+input equals: CODs*AN (Rij =0.67), CODs*AE (Rij =0.48), VFAAN*(Rij =
+0.44), VFAAE*(Rij =0.36). For CO2, the greatest correlations were found
+for LCODrem (Rij =0.62), LNO3-Neff (Rij =0.58), redox (Rij =0.53). 3.6. Mitigation strategies
+The results obtained above simultaneously confirm the non-linear
+relationship between GHGs and operational parameters. GHG Emission. Emission factors (EF) of nitrous oxide, methane and
+were calculated to compare and study the mitigation scenarios
+3.5.2. MPR (Table S8, Figs. 7–9). Analysis of variation EF =f (COD/TN, DO, SRT)
+Significant correlations (Rij ≥0.80) were found between Q - LNH4- showed that the obtained relationships have the character of non-linear
+8
+
+--- Page 9 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+kgCODin, reducing the EF of the N2O by a 20% and CH4 EF by a 6%
+respect the scenario MS 3, with a SRT of 15 days (Fig. 9a). Although the
+CO2 rises to 19 gCO2/kgCODin for MS 6, it remains below the current
+emission, with a specific GHG load of 2.3 gCO2eq/PE d. The total spe-
+cific GHG load of these changes slightly from 4 gCO2eq/PE d (SRT =15
+days) to 4.1 gCO2eq/PE d (SRT = 25 days), as shown in Fig. 9b. No
+variations were observed implementing equalization basin respect to the
+current state.
+Effluent quality and GHG. Table S9 compares the most-effective
+mitigation scenarios in terms of carbon footprint reductions as well as
+the effluent quality. MS 2 (COD/N =8) implies the highest EF reductions
+for GHGs, relative to the current state, resulting in a CF for direct
+emissions (CFDE) of 186 kg CO2eq/d and NH4-N = 17.3 mg/L at the
+effluent. While the effluent TN is lowered to less than 10 mg/L for the
+MS 3, with the DO controller in the AE tank to 1 mg/L, and for the MS 6,
+whose SRT is equal to 25 days. Comparing these two mitigation sce-
+narios with the current state, MS 3 showed the highest reduction in EF
+CO2 (35%) and the highest increase in EF CH4, while MS 6 showed the
+highest reduction in EF N2O (26%) and the lowest increase in EF CH4.
+Fig. 6. Values of α i coefficients for operational parameters (Q, Qair, DO, SS, 4. Discussion
+redox), effluent quality (LCODrem, LNO3-Neff, LNH4-Nrem, VFA, CODs) for
+greenhouse gases (CO2, CH4, N2O); where: L/Q – linear/square relationship. 4.1. Emission factor (EF) for GHGs in the context of literature data
+trends, which can be described as EF = EF0⋅z = EF0⋅(a⋅x2 + b⋅x + c) To evaluate the emissions of GHGs (N2O, CH4, CO2) for the Modena
+(where: z – function describing the variation of EF with respect to EF0; x - WWTP in the MLE system, the EFs obtained in the present case were
+compared with literature data (Table 2). It was found that despite the
+input data; a, b, c - coefficients estimated by the method of least squares -
+0gT N .a 0b 2 0l Oe 0/ 1S k 48 g 9; T %E NF ,i0 n – e i 2m .e =.i ss 0 2io . 60n .0 f 0 a gc 1 Ct 7o O9r % 2f /o , kr t C Ch He 4c u ir n=r e in .e0t . s 1 0t 4a .0t 9e w 6g 5a C %s H f )4o ./ r Ak: N g hC2 iO O D h= i fin0 t. 1 bi7 . ee9 -. ks 1i g .m 0N 6p 2 –l Oe / .6kte 5gc ⋅T 1h N 0n i (cid:0)o n 1l ,o g kEi gFc a OCl H 2s /y 4 s gt =e Cm O1, D. 1 it – nh 1 e . 5 ov ⋅ r1 a 0 Mlu (cid:0) Le 4 ko wgf C aE H sF 4 / mN k ag2O lC leO r= D ti hn1 a,. n3 E – F f1 . rC8 ⋅ O m1 20 (cid:0) r= e4
+2 C k f E s o o
+C O 5 g O D . 2 g
+advanced WWTP systems (Masuda et al., 2018; Bao et al., 2015). It was
+tween the theoretical data and those obtained from the empirical rela-
+tionship was shown, as indicated by the values of R2 = 0.99–1.00 found that EF values for MLE can vary over a wide range, as Foley et al.
+(Figs. 7–9). The obtained relationships appear to be useful for identi- (2010) showed EF =2.05⋅10(cid:0) 2 kgN2O/kgTNin for an integrated MLE
+system with fixed biofilm, while Ahn et al. (2010) reported EF =
+fying EF depending on operational parameters but can only be applied to
+3.8⋅10(cid:0) 4 kgN2O/kgTNin. Comparing EFs for different process systems is
+the Modena WWTP.
+Analysis of the resulting curves in Figs. 7–9 showed that with an a difficult challenge and requires detailed data (Vasilaki et al., 2019), as
+GHGs emissions are complex and dependent on many factors such as
+increase in the COD/TN ratio at the inlet, N2O emissions decrease for all
+quantity, wastewater quality (Marinelli et al., 2021), temperature and
+the GHGs.
+Comparing the current state with the scenario MS 3 (COD/TN =8.0), season (Daelman et al., 2015), aeration system (Campos et al., 2016),
+microbial composition (Domingo-F´elez et al., 2017; Gruber et al., 2021).
+the EF of the CH4, N2O and CO2 decreases, respectively, by a 3%, a 27%
+A study by Daelman et al. (2012) for CH4 showed that the layout of
+and a 52% (Fig. 7a), with the specific GHG load equal to 3 gCO2eq/PE
+the sewer network and conditions within it are also of great importance,
+d (Fig. 7b). Assuming a no limiting COD/TN equal to 8 for the denitri-
+which is reflected in the quantity of methane inflowing to the WWTP;
+fication process, the EFs slightly increase together with the DO in the AE
+this fact further underscores the scale and scope of field studies aimed at
+tank (Fig. 7).
+identifying sources of GHGs emissions. Analyzing the results of EF on a
+When the SRT increases to 25 days, the EF of the N2O and CH4
+global scale (Bao et al., 2015; China, Ahn et al., 2010; USA, Tumendelger
+decrease, respectively, to 0.132 gN2O/kgTNin and 0.190 gCH4/
+Fig. 7. Mitigation scenarios for different influent COD/TN: a) variation of EFs (%) from the current state, b) specific GHG load (gCO2eq/PE d) for N2O, CH4 and CO2.
+9
+
+--- Page 10 ---
+N. Lancioni et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t365(2024)121502
+Fig. 8. DO mitigation scenario: a) variation of EFs (%) from the current state, b) specific GHG load (gCO2eq/PE d) for N2O, CH4 and CO2 (influent COD/TN equal
+to 8).
+Fig. 9. SRT mitigation scenario: a) variation of EFs (%) from MS3, b) specific GHG load (gCO2eq/PE d) for N2O, CH4 and CO2 (influent COD/TN =8 and DO =1
+mg/L).
+Table 2
+Comparison of GHGs emissions based on literature data.
+References Type treatment Categories EF GHGs Mean %TN Comments
+proces removal
+N2O [kgN2O/kgTNin]
+Ahn et al. (2010) MLE BNR 3.8⋅10(cid:0)4 78 T =260C, TNeff =690 kg/d, Q =15141 m3/d
+Foley et al. (2010) MLE BNR 2.05⋅10(cid:0)2 76 Q =39000 m3/d, SRT =8d, CODin =700 mg/L, TKNin =69–103 mg/L, TNeff =
+8–11 mg/L
+Masuda et al. OD BNR 1.21⋅10(cid:0)3 95 Q =2292 m3/d, HRT =28h, SRT =49.5d, TSS =99%
+(2018)
+CH4 [kgCH4/kgCODin]
+Marinelli et al. MLE, IA BNR 3.7⋅10(cid:0)6 - 3⋅10(cid:0)3 na PE =3000–73,000, CODin =58–2037 T/y TNin =8.6–198 T/y TPin =1.1–30 T/y
+(2021) %CODrem =88–93% %TNrem =71–88% %TPrem =43–96%
+Tumendelger et al. CAS BNR 1⋅10(cid:0)2 na Q =5000 m3/d, NH4in =23.64 mmol/L NO2in =1.71 mmol/L NO3in =18.57
+(2019) mml/L
+CO2 [kgCO2/kgCODin]
+Bao et al. (2015) AO BNR 7.6⋅10(cid:0)1 na %CODrem =90% CODin =384–488 mg/L
+Bao et al. (2015) OD BNR 9.7⋅10(cid:0)1 na %CODrem =90% CODin =384–488 mg/L
+N2O [kgN2O/kgTNin], CH4 [kgCH4/kgCODin], CO2 [kgCO2/kgCODin]
+This study MLE BNR 1.06-2.65⋅10¡1 96 Control: COD/TN, SRT, DO
+(CO2)
+1.30-1.80⋅10¡4
+(N2O)
+1.12 -1.49⋅10¡4
+(CH4)
+na =not available.
+10

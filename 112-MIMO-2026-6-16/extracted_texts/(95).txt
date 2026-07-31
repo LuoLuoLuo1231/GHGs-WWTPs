@@ -1,0 +1,791 @@
+--- Page 1 ---
+pubs.acs.org/est Article
+Flexible Carbon Source Regulation for Mitigating Greenhouse Gas
+Emissions in Full-Scale Wastewater Treatment
+⊥ ⊥
+Yun-Peng Song, Li-Li Du, Bao-Gui Wang, Ling-Min Zhang, Hong-Yong Lin, Fang Ma, Yu Bai,
+Ai-Jie Wang,* Hong-Cheng Wang,* and Nan-Qi Ren
+CiteThis:Environ.Sci.Technol.2025,59,9517−9528 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+.selcitra
+ABSTRACT: Achieving carbon neutrality in wastewater treatment
+dehsilbup plants (WWTPs) by 2060 requires effective strategies to mitigate
+.)CTU( greenhouse gas (GHG) emissions. This study explores the potential
+of flexible carbon source regulation to reduce GHG emissions while
+erahs improving the nutrient removal efficiency under varying influent
+44:15:70
+conditions. A plant-wide model was developed, calibrated with one
+yletamitigel yearofhourlymonitoringdata,toquantifyGHGemissionsinafull-
+scale WWTP. We evaluated three carbon regulation strategies:
+ta
+6202 anaerobic digestion (AD), short fermentation (SF), and adaptive
+carbon source regulation (ACSR). Results show that AD was most
+,52 ot
+woh effective in high carbon-to-nitrogen (C/N) ratios, reducing GHG
+yaM
+emissions by 29.2%. SF performed best at low C/N ratios, reducing
+no
+no snoitpo N 2 O emissions by 56.3%. The ACSR strategy, which dynamically
+VINU adjusts between AD and SF based on influent C/N, achieved a total GHG reduction of 18.2% compared with the base strategy
+(conventional activated sludge process with mechanical dewatering and landfill disposal of waste sludge). Seasonal variations
+TSEWHTRON rof significantlyimpactedemissions(p<0.001),whileC/Nratios,althoughnotstatisticallysignificantinisolation,playacrucialrolein
+senilediuggnirahs/gro.sca.sbup//:sptth influencingN Oemissionsandsludgeproduction,emphasizingtheneedforadaptivecarbonallocation.Thisstudyunderscoresthe
+2
+viability of plant-wide, data-driven carbon source regulation as an integrated approach to achieving net-zero emissions inWWTPs,
+effectively addressing diverse GHG emission sources within the system.
+KEYWORDS: GHG emissions, carbon source regulation, full-scale WWTP, plant-wide model
+aiv
+dedaolnwoD
+1. INTRODUCTION There exists a positive correlation between energy con-
+sumption and influent chemical oxygen demand (COD)
+Amid increasing global urbanization and intensifying impacts
+levels.4 Stringent effluent standards necessitate sufficient
+ofclimatechange,theneedtojointlymanagewaterpollutants
+carbon sources to sustain the efficiency of nitrogen and
+and greenhouse gas (GHG) emissions from wastewater
+phosphorus removal by denitrifying bacteria and polyphos-
+eeS treatment plants (WWTPs) is critical. From a life cycle
+phate-accumulating organism (PAO). Inadequate carbon
+perspective, WWTPs contribute to GHG emissions through
+sourcesleadtoincreaseduseofsupplementarycarbonsources
+three primary sources: direct emissions from biological
+and phosphorus removal chemicals.5,6 Additionally, the excess
+processes, indirect emissions from imported energy and
+sludge generated from COD conversion produces substantial
+chemicals, and emissions from the downstream disposal of
+GHG emissions during treatment and disposal, underscoring
+sewage sludge and transportation of sewage sludge.1 The
+the need for optimized sludge management to mitigate CH
+wastewatertreatmentsector,responsiblefor5%ofglobalnon- 4
+and N O emissions.7 Diurnal variations in N O emissions are
+CO GHG emissions, notably methane (CH ) and nitrous 2 2
+2 4 strongly correlated with changes in the influent ammonium
+oxide (N O), consumes 1% of global energy and emits 601
+2 nitrogen load to the aerated zones of the activated sludge
+MtCO 2 annually.2,3 Effective mitigation strategies are essential process.8 However, given that influent characteristics are not
+for steering this sector toward carbon neutrality by 2060�
+China’s national decarbonization target. GHG emissions are
+influenced by influent characteristics and operational energy/ Received: November18,2024
+materialconsumption,complicatingemissionmechanismsand Revised: May3, 2025
+posing challenges to mitigation efforts. Accepted: May5, 2025
+Elucidating the determinants of GHG emissions in waste- Published: May9, 2025
+watertreatmentsystems,particularlyinfluentcharacteristics,is
+crucial for sustainable environmental management practices.
+©2025AmericanChemicalSociety https://doi.org/10.1021/acs.est.4c12704
+9517 Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 2 ---
+Environmental Science & Technology pubs.acs.org/est Article
+controllable variables, it is imperative to focus on optimizing model to evaluate the dynamic GHG emissions under
+energy and material usage in treatment processes tailored to proposed carbon source regulation strategies and discussed
+specific influent characteristics to effectively mitigate GHG in detail the potential mitigation mechanisms. Finally, we
+emissions. explored the effects of carbon source regulation strategies on
+Carbon source regulation offers a promising approach for GHGemissionsandnutrientremovalefficiencyunderdifferent
+targeted GHG mitigation strategies based on influent influent C/N ratios. The findings suggest that flexible carbon
+characteristics by altering carbon distribution within source regulation could be a potential strategy for mitigating
+WWTPs.9,10 Optimizing carbon mass flow allocation within a GHG emissions under varying influent conditions and
+WWTP yields numerous benefits,11 so it is reasonable to providing a practical systematic approach for achieving net-
+hypothesizethatdifferentinfluentC/Nratioscanbemanaged zero emissions in WWTPs.
+byregulatingthedistributionandutilizationofcarbonsources
+to mitigate GHG emissions from WWTPs. However, current 2. MATERIALS AND METHODS
+approachestocarbonregulationfallintothreecategories,each 2.1. Full-Scale Plant Layout and Process Description.
+with significant limitations. First, external carbon source Thefull-scaleWWTPlocatedinHenanProvince,China,based
+supplementation (e.g., methanol or acetate) increases both onanactivatedsludgeprocess,wasthefocusofthisstudy.The
+operational costs and GHG emissions.12 Second, internal WWTP predominantly treats municipal wastewater, with a
+carbon source utilization methods, such as the anaerobic/ minor industrial contribution, and was originally designed to
+aerobic/anoxic(AOA)process,13,14facilitatestorageandusage handle an average dry weather flow of 300,000 m3/d and
+of PHA and glycogen for denitrification, with studies showing consisted of 4 parallel modules. The influent to the plant
+internal carbon can drive approximately 30% of nitrogen undergoes preliminary treatment, including screening, degrit-
+removal in full-scale plants.15−17 However, these approaches ting,andprimaryclarification(PRIM),followedbyanaerobic−
+present notable GHG-related concerns, as denitrification anoxic−aerobic (AAO) treatment processes, a secondary
+driven by internal carbon sources might actually produce clarifier (SEC), and disinfection via sodium hypochlorite
+more N 2O,18 and they primarily focus on enhancing nitrogen (NaClO) to eradicate pathogenic microorganisms, thus
+removal rather than comprehensive GHG mitigation. Third, ensuring effluent safety. The excess sludge is thickened
+existing carbon recovery strategies such as anaerobicdigestion (THK) and, together with the primary sludge from PRIM, is
+(AD)andshortfermentation(SF)typicallyoperatewithfixed subjected to dewatering (DEW) with the addition of
+parameters regardless of influent variability, optimizing for poly(acrylamide) (PAM), after which it is transported for
+either energy recovery or nutrient removal but not both landfilling (Figure S2). The return liquor from the thickening
+simultaneously.Theinteractionbetweencarbonallocationand and dewatering presses is recirculated to the plant’s inlet.
+GHG emissions across different plant units remains poorly 2.2. Sampling Campaigns, Analytical Methods, and
+understood, particularly under varying C/N ratios. Therefore, DataReconciliation.Thesamplingcampaigncomprisedtwo
+there exists a critical need for an adaptive strategy that can extensive monitoring periods: from 1st to 31st Aug 2021
+dynamically adjust internal carbon flows between different (summer) and 1st to 28th Feb 2022 (winter), as these
+treatment pathways based on influent characteristics to represent the extremes in both operational conditions and
+optimize both GHG mitigation and effluent quality across all treatment performance at our study site. Daily grab samples
+operational conditions. were collected for subsequent analysis from the following
+Furthermore,plant-widemodelingoffersarobustframework locations:rawwastewaterinfluent,PRIM,ANA,ANOX,AER,
+forthecomprehensiveassessmentofdiversecontrolstrategies, SEC,andfinaleffluent(EFF).Toverifytherepresentativeness
+including sludge management,19 operational parameters,20,21 of daily sampling, hourly samples were also collected from
+and nutrient recovery options.22 However, comprehensive these locations between 9:00 and 16:00 during intensive
+model validation with full-scale data remains challenging, monitoring campaigns in both summer and winter periods
+particularlyforGHGemissions.Existingstudieshaveprimarily (Figure S4).
+focusedoneitherCH orN Oemissionsindividually,withfew Furthermore, the influent and effluent quality were
+4 2
+addressing both simultaneously. Most validation efforts have monitored on a daily basis for a year (July 2021−Jun 2022).
+been limited to short-term monitoring periods or steady-state Total suspended solids (TSS) and volatile suspended solids
+conditions, lacking a consideration of seasonal variations and (VSS) were measured using standard methods.23 Total
+dynamic influent characteristics. These limitations can be chemical oxygen demand (TCOD), soluble chemical oxygen
+attributed to technical challenges in continuous GHG demand (SCOD), total nitrogen (TN), nitrate (NO −),
+3
+monitoring, high costs associated with long-term data ammonium (NH +), total phosphate (TP), and phosphate
+4
+collection, and the complexity in capturing interactions (PO −) were measured by Hach methods (Hach Company,
+4
+between water and sludge treatment lines. Nevertheless, Loveland, Colorado). Data regarding dosed chemicals such as
+validated instances of plant-wide models remain limited, PAM and NaClOwere obtained from historical plant records.
+primarily due to the scarcity of comprehensive and reliable A comprehensive data reconciliation framework was
+databasesfromfull-scaleWWTPs,particularlyconcerningCH implemented to verify mass balances across all sampling
+4
+and N O emissions.20,22 locations. The reconciled data set demonstrated excellent
+2
+Thisstudyaddressescarbonsourceallocationandutilization closure of mass balances with minimal adjustments to
+under GHG constraints through dynamic simulation of a full- measuredvalues(<0.5%)whilesignificantlyreducingmeasure-
+scale WWTP, supported by on-site data collection. A mentuncertainties.Detailedreconciliationresultsareprovided
+comprehensive plant-wide model, calibrated with a year of in the Supporting Information.
+hourly monitoring data, was developed to quantify GHG 2.3. Measurement of CH and N O Emissions. The
+4 2
+emissions and evaluate the relationship between influent emissionratesofCH andN Oweremeasuredeverydaybya
+4 2
+quality and emissions. Subsequently, the study utilized the portable Fourier transform infrared (FTIR) gas analyzer
+9518 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 3 ---
+Environmental Science & Technology pubs.acs.org/est Article
+coupled with a floating hood, positioned at four points along wasdirectedtoacombinedheatandpower(CHP)unit(39%
+the aeration tank to calculate the mean value. As shown in electrical,45%thermalefficiency)forenergyrecovery.TheSF
+Figure S3, the emitted gas was first collected by a floating process was operated semicontinuously with a 2 day HRT
+hood,whichwasthenpassedtotheportableFTIRgasanalyzer under controlled mesophilic conditions (∼35 °C) and
+via a polypipe, with a dehumidifier for moisture removal. A maintained at pH 10 using NaOH dosing. This optimized
+flowmeter, corrected for temperature and pressure, was set up VFA production (yield: 0.25−0.30 g VFA/g VSS; concen-
+torecordthegas flow inthegas pipe. Theemissionrate from tration: 2500−3500 mg/L as Ac eq), converting sludge into a
+hood (M , kg/(m2·d)) was determined by the emission valuable carbon source while inhibiting methanogenesis. The
+g,hood
+flow rate (Q , m3/d), concentration of the targeted GHG produced VFAs were redirected to enhance denitrification.
+g,hood
+(C ,kg/m3),andsurfaceareaofthehood(A ,m2)using Detailed process parameters are provided in Table S32 of the
+g,hood hood
+eq 1 Supporting Information.
+2.4.2.ModelCalibration.ThemodifiedSumo4Nmodelhas
+Q × C
+g,hood g,hood 384 dynamic parameters, stoichiometric parameters, and 15
+M =
+g,hood A waterqualityparameters.Acomprehensivelistingofallkinetic
+hood (1)
+andstoichiometricparameters,includingprocessmatrices,rate
+While direct measurements using the FTIR gas analyzer equations, and sensitivity analysis results, is provided in the
+were conducted at the aeration tank, the plant-wide model Supporting Information. Parameter sensitivity was evaluated
+(described in Sections 2.4 and 2.5) accounts for GHG using one-way sensitivity analysis with relative sensitivity
+emissions from all process units within the WWTP. Recent functions (RSFs). Parameters were varied by +10% from their
+studieshaveshownthatbothprimarytreatmentandsecondary defaultvalueswhilekeepingothersconstant.Parameterswith|
+clarifiers can release dissolved N O and CH generated from RSF| ≥ 0.1 were identified as critical, resulting in 50
+2 4
+upstream processes. Sludge treatment units, particularly those parameters significantly influencing GHG emissions. These
+with anaerobic digestion, can contribute significantly to total parametersprimarilygovernmicrobialgrowthkinetics,oxygen
+CH emissions.24 The aeration tank measurements served transfer, and carbon transformation processes. A comprehen-
+4
+primarily for model calibration and validation, while the sive listing of all kinetic and stoichiometric parameters,
+comprehensive model captures emissions throughout the including process matrices, rate equations, and sensitivity
+treatment train. analysisresults,isprovidedintheSupportingInformation.For
+2.4.Full-ScalePlant-WideModelDevelopment.Inthis modelcalibration,keyparameterswereheldconstant,while50
+study, SUMO v.22 (Dynamita, France) was utilized as the critical parameters were selected for one-way sensitivity
+simulation platform for developing process schemes, calibrat- analysis to assess their impact on effluent quality. Model
+ing parameters, and running models due to its open-source calibration was conducted in two stages: steady-state
+plant-wide GHG modeling framework and flexibility in model calibration, followed by dynamic calibration. Steady-state
+development, which were essential for implementing and calibration used mean values of data from monitoring in Aug
+validating the proposed carbon source regulation strategies. 2021 (summer) and February 2022 (winter). Samples were
+2.4.1. Model Description. SumoSlang, a proprietary collected from key locations (as mentioned in Section 2.2) to
+modeling language within the SUMO software, was employed estimate parameters specifically for steady-state conditions.
+to further customize and develop the Sumo4N model. This The steady-state calibration used the Nelder−Mead simplex
+enhanced model incorporates the dynamics of sludge alkaline optimizationalgorithmtominimizediscrepanciesbetweenthe
+fermentation, with a particular focus on the role of free simulated and observed values, targeting an acceptable error
+ammonia (FA). FA is crucial, as it facilitates hydrolysis while threshold to accurately reflect steady-state conditions.
+simultaneously inhibiting acetogenesis and methanogenesis. Estimates of the kinetic parameters from the steady-state
+This dual functionality is explicitly represented in the model, simulations were used to initiate dynamic simulations.
+which significantly improves the prediction accuracy for Dynamic calibration used time-series data, including daily
+fermentation products and precisely characterizes the inter- monitoring of effluent quality over a year before the
+action between hydrolytic and methanogenic activities.25 The implementation of the mitigation strategy (Jul 2021−Jun
+core features of the original Sumo4N model include a 2022),asdescribedinSection2.2,tocapturesystemvariability
+comprehensive depiction of essential biochemical processes, under operational conditions. The Nelder−Mead algorithm
+such as microbial growth and COD/N/P removal, as well as was applied again to adjust parameter values and minimize
+GHG production pathways, gas transfer dynamics, and discrepancies between model predictions and observed time-
+chemical precipitation processes. Additional insights into the dependent effluent quality.20
+Sumo4N model can be found in a previous study.20 The 2.5. GHG Emission Quantification. Different GHG
+updated model was used to simulate various carbon source compounds (CH and N O), as well as their emission types
+4 2
+regulation strategies and evaluate their impacts on GHG and sources (direct or indirect), were accounted for in the
+emissions and treatment efficiency. model. Estimates not explicitly calculated by the submodels
+The activated sludge system was configured in an A/A/O wereestimatedfollowingthecomprehensivemethodology.27,28
+sequence consisting of three tanks in series. The PRIM, SEC, Following IPCC guidelines, WWTPs’ GHG emissions are
+THK, and DEW were modeled as ideal units, assuming no categorized into three scopes: (1) direct process emissions
+biological activity and maintaining a constant percentage of from biological treatment (Scope 1), (2) indirect emissions
+TSS in the concentrated sludge flows.26 The AD unit was from energy consumption (Scope 2), and (3) other indirect
+operated as a completely mixed reactor (20,000 m3) under emissions from chemical production, sludge handling, and
+mesophilic conditions (35 ± 1 °C) with a 25 day HRT, disposal (Scope 3).29
+achieving45−55%volatilesolid(VS)reduction.Theproduced Scope 1 encompasses direct emissions from all treatment
+biogas(yield:∼0.35m3/kgofVSSremoved;∼65−70%CH ) unitswithintheWWTPfenceline,frominfluententrythrough
+4
+9519 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 4 ---
+Environmental Science & Technology pubs.acs.org/est Article
+effluent discharge. This includes N 2O (SP1_N 2O) and CH 4 simplicity compared to continuous-flow systems. This
+emissions (SP1_CH 4). N 2O is generated during biological configurationofferedbettercontroloffermentationtime
+nitrogenremovalviathenitriteandincompletehydroxylamine thanconventionalCSTRswhileavoidingthecomplexity
+oxidation pathways of ammonia-oxidizing and heterotrophic of plug-flow reactors, making it particularly suitable for
+denitrification pathways of heterotrophic organisms. CH 4 was dynamic adaptation to fluctuating influent C/N
+mainlygeneratedduringanaerobicdigestion.DissolvedCH 4in conditions. VFAs are used to enhance denitrification
+the digester effluent is assumed to be fully stripped in the and phosphorus removal in mainstream processes.
+subsequent processing units and emitted to the atmosphere.
+• Theadaptive carbon sourceregulation (ACSR) strategy
+CO emissions, mainly derived from biogenic carbon, are
+2 combines anaerobic digestion and fermentation to
+excluded from the GHG emissions inventory as proposed by
+benefitfrombothenergyrecoveryandVFAproduction.
+the IPCC 2019 approach.30 While fossil carbon exists in
+Wasted sludge is distributed between AD and SF based
+wastewater, its quantification faces significant technical and
+on the influent C/N ratios, to optimize carbon source
+economic constraints.31,32 N O and CH emissions are
+2 4 utilization. Specifically, when influent C/N drops below
+converted into units of CO equivalents by Global Warming
+2 athresholdof6,100%ofthesludgeisdirectedtoSFto
+Potentials (GWP). The GWP for a 100 year time horizon for
+maximize VFA supply; conversely, when C/N is ≥6,
+N O and CH are 265 kg CO /kg N O and 28 kg CO /kg
+2 4 2 2 2 sludgeissplit(e.g.,90%toAD,10%toSF)toprioritize
+CH , respectively.33
+4 energy recovery while maintaining sufficient VFA (Text
+Scope 2 covers indirect emissions from electricity con-
+S4).
+sumption,boundedfrompowergenerationtothepointofuse
+at the WWTP. Energy consumption, involving pumping, The study evaluates the impact of each strategy on GHG
+mixing, and aeration, is calculated according to a previous emissions,operationalcosts,andtreatmentefficiency.Theflow
+study.34 Energy production is electricity generated by the diagrams provided in the Supporting Information (Figure S9)
+anaerobic digestion turbine. According to the “average carbon detail the operational flow of each strategy, illustrating the
+dioxideemissionfactorofChina’sregionalpowergridin2012” integration of technological components and process mod-
+reprinted by the National Development and Reform ifications. By comparing these strategies under various
+Commission and the China Electricity Council, the value of operational scenarios, the study aims to identify the most
+the power grid in central China is 0.5257 kg CO /kW h. sustainable approach for carbon management in wastewater
+2
+Scope3includesindirectemissionsfromupstreamchemical treatment, contributing to the broader goals of environmental
+production through delivery and downstream sludge manage- protection and sustainability in the sector.
+mentfrom dewatering throughfinal disposal,within a 100km
+transportation radius. This includes chemical usage 3. RESULTS AND DISCUSSION
+(SP3_CHEM) and wasted sludge disposal (SP3_SLUDGE). 3.1.GHG Emissionand ModelValidation of the Base
+2.6. Carbon Source Regulation Strategies. This study WWTP. Figure 1 illustrates the GHG emissions and model
+focuses on evaluating the effectiveness of four distinct carbon
+predictionsfromtwoseparatemonth-longsamplingcampaigns
+source control strategies designed to mitigate GHG emissions
+at the wastewater treatment facility. Despite fluctuations in
+in wastewater treatment. Each strategy is distinct in its
+influent COD fractions due to seasonal changes (Figure S11),
+approach to managing carbon sources and aims to optimize
+the plant maintained stable removal efficiencies for organic
+both the environmental and operational performance of the
+matter, nitrogen, and phosphorus. In the summer, influent
+treatment processes. The strategies include the following: concentrations averaged 215.5± 49.4 mg/Lfor COD,32.1 ±
+• Thebasestrategyrepresentstheconventionaltreatment 7.3 mg/L for TN, and 2.5 ± 0.6 mg/L for TP. Effluent levels
+configuration where waste activated sludge undergoes weresignificantlyreducedto17.6±3.0mg/L,9.8±1.4mg/L,
+mechanicaldewateringandlandfilldisposal,withoutAD and 0.2 ± 0.1 mg/L, achieving removal rates of 91.8 ± 4.2%,
+orotherredirectingcarbonflowsforenhancedtreatment 69.6 ± 27.3%, and 93.7 ± 4.2%, respectively. During winter,
+performance. In this configuration, the excess sludge influentconcentrationsroseto341.9±121.6mg/LforCOD,
+from the secondary clarifier is thickened, dewatered 44.0 ± 7.9 mg/L for TN, and 5.8 ± 2.1 mg/L for TP. The
+using PAM as a flocculant, and then transported for effluent concentrations during this season were 18.0 ± 6.0,
+landfill disposal. 10.8±1.1,and0.2±0.1mg/L,resultinginimprovedremoval
+efficiencies of 94.7 ± 4.2%, 75.6 ± 3.5%, and 96.2 ± 3.6%.
+• The anaerobic digestion (AD) strategy integrates
+Throughoutthestudy,theeffluentconsistentlymetClass1A,a
+anaerobic digestion to recover energy from sludge. An
+stringent effluent standard implemented in China,35 demon-
+anaerobic digester and combined heat and power unit
+strating the plant’s robust performance and adaptability to
+are used to produce energy from biogas under
+seasonal variations. This highlights the plant’s capability to
+mesophilic conditions (35 °C). The biogas is used to
+effectively manage varying influent conditions while ensuring
+generate electricity and heat to support facility
+environmental compliance.
+operations.
+For long-term model validation, we analyzed a one-year
+• The short fermentation (SF) strategy recovers VFAs monitoring data set during the implementation of Class 1A
+from sludge through short-term fermentation. Sodium standards (COD <30 mg/L, TN < 10 mg/L, TP < 0.3 mg/L,
+hydroxide (NaOH) is added via a proportional- NH + < 1.5 mg/L). Statistical analysis revealed that all key
+4
+derivative controller to maintain a pH of 10, promoting parameters demonstrated typical variability for full-scale
+hydrolysis, acidogenesis, and inhibiting methanogenesis. WWTPs, with coefficient of variation values within expected
+This study employed a semicontinuous operation for ranges: COD (23.0%), TN (14.5%), TP (30.5%), NH +
+4
+short fermentation with daily sludge replacement, (34.2%), and MLSS (8.2%). The outlier analysis identified a
+chosen for its operational stability and maintenance small percentage of anomalous points (0.8−3.8% across
+9520 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 5 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 2. Dynamic simulation (red lines) and measurements (blue
+points) for effluent (a) COD, (b) NH+, (c) TN, (d) TP, and (e)
+4
+Figure 1. Plant-wide measurements (box plots) and steady-state
+MLSSinthe aeration tank.
+model predictions (red stars) at different plant locations in two
+samplingcampaigns(1st−31stAug2021,1st−28thFeb2022).(a,b)
+variations in the C/N ratios, which were well captured by
+SCOD, (c,d) NO−, (e,f) NH+, (g,h)PO3−, (i,j) MLSS, (k,l) CH
+3 4 4 4 the summer and winter sampling campaigns. These findings
+emissions, and(m,n) NOemissions (n =31, n = 28).
+2 summer winter were corroborated by the initial calibration approach and
+support the robustness of the plant-wide model in capturing
+parameters), all of which were validated against operational critical operational boundaries.
+records. The proposed model effectively simulates the key 3.2. Key Factors Influencing GHG Emissions. Identify-
+transformations of organics, nitrogen, and phosphorus across ingtheprimaryGHGemissionsourcesoftheWWTPandthe
+multiple units in the flow diagram, achieving an average key parameters influencing them is critical for developing
+deviation of just 7.8%. As illustrated in Figure 2, the dynamic effectivemitigationstrategies.Figure3aillustratesthemonthly
+simulationsaccuratelyforecasteffluentqualityparameterssuch dynamicsofscope-basedGHGemissions,revealingsubstantial
+as COD, NH +, TN, and TP. The mean absolute percentage seasonal variations. These data indicate significantly elevated
+4
+error (MAPE) for the model is 20.8%, 30.2%, 22.8%, and emissions during two distinct periods: September to
+32.1%, respectively, indicating a strong alignment between November (Period I, low C/N) and from February to May
+predicted and observed values. These low error rates confirm (Period II, high C/N). During Period I, emissions range from
+the model’s robustness in predicting effluent quality. Both 139.9 to 163.6 tCO /d, while in Period II, they range from
+2
+simulationsandplantmeasurementshighlightnotableseasonal 163.8 to 172.5 tCO /d. An analysis of the composition of
+2
+variations in the N O and CH emissions from the aeration GHG emissions reveals that the major contributing sources
+2 4
+tank. N O emissions ranged from 0.2% to 1.4% of incoming differ significantly between these two periods: SP1_N O
+2 2
+nitrogen, consistent with findings from other full-scale dominatesduringPeriodI,whereasSP3_SLUDGEisthemain
+reports.36−38 This order-of-magnitude variation was primarily contributor during Period II.
+attributed to differences in the carbon source availability for Statistical analysis using a two-way ANOVA revealed that
+denitrification. seasonal variations had a significant effect on total GHG
+To further evaluate the temporal dynamics of the influent emissions(F=8.8,p<0.05),whiletheinfluenceofC/Nratios
+C/N ratio, an additional 9 year data set of monthly water was not statistically significant (F = 2.9, p = 0.16). However,
+quality and flow measurements was analyzed (Supporting this is shown in Figure 3b. A significant negative correlation
+Information). The analysis revealed significant seasonal was identified between SP1_N O and influent C/N ratio (r =
+2
+9521 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 6 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 4. Dynamics and scope-based analysis of GHG emissions by
+carbonsourceregulationstrategiesduringhighemissionperiods.(a)
+Dynamic simulation of GHG emissions over a year. Scope-based
+analysis of GHGemissionsduringPeriods I(b)and II(c).
+Figure3.Dynamicsofscope-basedGHGemissionsandcorrelations illustrates the temporal dynamics of total GHG emissions
+analysisidentifyingthekeyinfluencingfactors.(a)Monthlydynamics
+acrossallfourstrategies(base,AD,SF,andACSR)overthe1
+of scope-based GHG emissions and C/N over one year; (b)
+year-long study period. The time series reveals distinct
+correlations between influent characteristics and scope-based GHG
+emission patterns between Period I (characterized by low C/
+emissions. SPrefersto scope.
+N ratios) and Period II (characterized by high C/N ratios).
+The ACSR strategy consistently maintained lower emission
+−0.832,p<0.001).Thisresulthighlightsthecriticalregulatory levels throughout both periods, demonstrating its adaptability
+role of the influent C/N ratio in N O production.39 The to varying influent conditions. Notable emission peaks
+2
+observed negative correlation may be attributed to increased occurred around day 150 and day 225, corresponding to
+carbon availability, enhancing the denitrification process, significant shifts in influent C/N ratios, highlighting the
+thereby reducing N O emissions. N O can be emitted from importance of carbon source regulation for GHG mitigation.
+2 2
+WWTPs as a byproduct of ammonium oxidation and as the Specifically, Figure 4c highlights that the AD strategy
+last intermediate in the stepwise reduction of nitrate to significantly reduces GHG emissions, yielding the lowest
+nitrogen by denitrifying organisms. Conditions such as a low emissions during Period II among all strategies examined.
+C/Nratioorprolongeduse ofrecalcitrantcarbonsources can Compared with the base strategy, the AD strategy achieved a
+increase the likelihood of N O accumulation and emission in notable reduction in total GHG emissions by approximately
+2
+denitrification systems.40 A potential strategy to mitigate N O 29.2%. This includes a 51.2% reduction in emissions from
+2
+emissions would be to enhance the activity of N O reductase sludge processing (SP3_SLUDGE) and a 57.7% reduction in
+2
+in the denitrifying microbial community.41 Figure 3b also energy-relatedemissions(SP2_ENERGY).Conversely,during
+illustrates a significant positive correlation between PeriodI,theADstrategyexhibitedamarginalincreaseintotal
+SP3_SLUDGE and various influent parameters, specifically GHG emissions by 0.2% relative to that of the base strategy.
+COD, TP, and the C/N ratio. This result suggests that an This increase was primarily due to a 27.3% rise in N O
+2
+increase in carbon sources in the influent promotes the emissions (SP1_N O) (Figure 4b). These dynamics highlight
+2
+production of excess sludge.42 In summary, the elevated levels the AD strategy’s effectiveness under conditions of high C/N
+of GHG emissions during different periods are attributed to ratios, with potential mechanisms illustrated in Figure S12,
+distinct carbon-related mechanisms. Under low C/N con- showing that approximately 33.1% of influent COD was
+ditions, carbon limitation leads to increased N O emissions recoveredasCH .Thisconversionfacilitatessignificantenergy
+2 4
+through incomplete denitrification. Under high C/N con- savingsandreducessludgewaste,thoughitraisesthenitrogen
+ditions, increased carbon availability promotes excess sludge content in the recirculation liquor from 4.3% in the base
+production and associated disposal emissions. strategy to 16.4% (Figure S13), which exacerbates N O
+2
+3.3. Dynamic Simulations and Comparison of emissions under lower C/N ratios.22
+Mitigation Strategies. 3.3.1. Results of GHG Emissions AsillustratedinFigure4b,theSFstrategydemonstratedthe
+across Different Strategies. Figure 4a−c demonstrates the lowest GHG emissions during Period I among the tested
+effectiveness of a plant-wide model in assessing GHG strategies. It achieved an overall reduction in GHG emissions
+emissions under three different carbon source regulation by about 17.9%, with a substantial 56.3% reduction in
+strategies in comparison with the base strategy. Figure 4a SP1_N O. In Period II, the SF strategy saw a modest overall
+2
+9522 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 7 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Table 1. Performance Evaluation Criteria for Each Carbon Source Regulation Strategy (n = 8761)
+base AD SF ACSR
+SP1_CH 262.9±150.7 5950.0±3536.0 1044.3±536.0 4655.5±4388.4
+4
+SP1_NO 40962.6±24795.8 56234.9±34021.8 27047.8±17459.5 34850.7±14313.8
+2
+SP2_ENERGY 50658.3±5637.2 32835.6±8978.6 54310.9±6378.1 39386.9±12244.5
+SP3_CHEM 12221.8±1824.9 11739.3±1894.0 24137.4±2132.9 17516.2±5858.2
+SP3_SLUDGE 44798.3±23296.3 24112.5±10281.3 30263.0±12143.0 25393.0±9710.8
+totalGHGemissions 148903.9±26573.2 130872.3±31164.0 148585.1±24540.2 121802.2±19227.2
+COD 15.9±3.3 15.8±3.3 14.9±3.3 14.9±3.3
+TN 10.0±1.6 11.7±2.0 11.7±2.4 11.8±1.8
+NH+ 0.3±0.1 0.3±0.1 0.3±0.1 0.3±0.1
+4
+TP 0.1±0.0 0.3±0.1 0.1±0.0 0.3±0.1
+WLa 0.7±0.1 0.8±0.2 0.8±0.2 0.9±0.2
+MLSS 3362.4±283.0 3087.8±343.1 3724.7±427.0 3375.0±339.1
+MLVSS/MLSS 0.5±0.1 0.5±0.1 0.6±0.1 0.5±0.1
+XBIO/XCOD 0.8±0.0 0.8±0.0 0.8±0.0 0.8±0.0
+aWLis the maximumvalue of theratio betweeneach waterqualityparameterand the correspondingvalue of the Class1A standard.
+GHG reduction of 5.5%. This period also witnessed a 39.0% and R were systematically varied between 0 and 1. An R
+s inf
+decrease in SP3_SLUDGE emissions but a 9.2% increase in value of 1 indicated complete bypass of PRIM, whereas an R
+s
+SP2_ENERGY emissions. This increased energy consumption value of 1 signified that all wasted sludge was routed through
+can be attributed to two mechanisms: (1) higher COD loss the short-term fermentation reactor. Upon completion of the
+through dissimilatory respiration (64% vs 52% in the base simulations,theminimumGHGemissionsforeachC/Nratio
+strategy,FigureS12)duetoacceleratedVFAoxidationand(2) were determined while maintaining Class 1A effluent quality.
+increased oxygen demand for nitrification resulting from Figure 5a presents the minimum GHG emissions attainable
+nitrogen recycle loads. The SF strategy’s performance is under Class 1A effluent quality constraints for each carbon
+primarily attributed to improved influent characteristics, such source regulation strategy across different influent C/N ratios.
+as an enhanced C/N ratio and a higher proportion of easily The AD and ACSR strategies demonstrated consistently low
+biodegradable carbon sources (Figure S12), which bolstered GHG emissions across the entire range of C/N ratios. This
+biomassactivitywithinthebioreactor(Table1)andefficiently performance can be largely attributed to enhanced methane
+mitigated N O emissions.43
+2 production and subsequent energy recovery. In contrast, the
+3.3.2. Results of the Adaptive Combined Strategy. The
+SF strategy exhibited lower GHG emissions when the C/N
+ACSR leverages the flexibility to switch between AD and SF
+ratiowasbelow5.5,whichcanbeascribedtothereductionin
+strategies based on the varying influent conditions. During
+N O emissions. Despite the advantages of the AD strategy in
+Period I, ACSR’s GHG emission reduction was slightly better 2
+GHGmitigation,itseffluentqualitymettherequiredstandards
+than SF, at a 5.7% total decrease, effectively utilizing the
+only when the C/N ratio exceeded 6. Conversely, the ACSR
+biodegradable carbon recovered from sludge to mitigate N O
+2 strategy was capable of achieving the effluent standards under
+emissions under low C/N conditions. In comparison with the
+lower C/N conditions (C/N ratios below 5.75). Figure 5b−e
+base strategy, this period saw SF achieve a 13.2% decrease in
+illustrates the flow regulation patterns for each strategy at the
+total GHG emissions, with a significant 40.1% reduction in
+minimum GHG emission levels. For the base strategy, the
+SP1_N O. During Period II, ACSR’s performance closely
+2 influent predominantly bypassed PRIM across the studied C/
+matched that of the AD strategy, with only a 0.9% higher
+Nratios.Incontrast,theAD,SF,andACSRstrategiesshowed
+emission rate, but achieved substantial reductions in both
+a gradual transition from bypassing to full utilization of PRIM
+SP2_ENERGY and SP3_SLUDGE. Although not recording
+as the C/N ratio increased. Notably, the ACSR strategy
+the lowest emissions in individual categories, ACSR demon-
+involved the redirection of a portion of the sludge toward
+stratedthemostconsistentoverallGHGreductionthroughout
+short-termfermentationforVFArecoverywhentheC/Nratio
+the entire simulation, achieving an approximate 18.2%
+was below 6.
+reduction in total emissions compared to the base strategy
+Previous studies have shown that enhancing the sedimenta-
+(Table 1). These results underscore the importance of a
+tion efficiency of particulate carbon in the primary
+flexible carbon source allocation strategy, informed by the
+sedimentation tank can lead to increased energy recovery.44,45
+influent carbon content, in maximizing GHG emission
+reduction. For instance, chemically enhanced primary treatment can
+3.4. Effect of Influent C/N Ratios on GHG Emissions. support nutrient removal and anaerobic digestion by
+This section evaluates the influence of influent C/N ratios on concentrating sludge, thereby achieving substantial energy
+three proposed carbon source regulation strategies alongside recovery while maintaining high effluent quality.46 These
+the base strategy. Steady-state simulations were conducted by findings demonstrate that flexible carbon source regulation
+varying three parameters: influent C/N ratio, influent strategies can effectively balance effluent quality against GHG
+distribution ratios (R ), and sludge distribution ratios (R, emissions under variable influent C/N conditions. This
+inf s
+applicableonlyfortheACSRstrategy).Theadjustmentofthe balance is crucial for optimizing GHG mitigation while
+influent C/N ratio was achieved by fixing the influent TN ensuringregulatorycompliancewitheffluentqualitystandards,
+concentration at 40 mg-N/L while varying the influent COD offering the dual benefit of environmental protection and
+(200−400mg/L)toachievethedesiredC/Nratios.BothR resource recovery in wastewater treatment operations.
+inf
+9523 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 8 ---
+Environmental Science & Technology pubs.acs.org/est Article
+seasonal variations by dynamically redistributing primary
+sludge between AD and SF based on real-time C/N
+monitoring, prioritizing SF, potentially coupled with mild
+pretreatment, during low C/N periods to provide readily
+available carbon for denitrification, while managing nutrient
+release.
+3.5. Environmental Implications. Achieving net-zero
+GHG emissions in WWTPs is a significant challenge that
+requires the development of integrated mitigation strategies.
+GHGemissionsfromWWTPsinvolvemultiplescopes,making
+them challenging to quantify, with complex interactions and
+emissionstransfersoccurringacrossthesescopesandorganiza-
+tional boundaries.51 These complexities make the implemen-
+tation of comprehensive, system-wide mitigation strategies
+particularlychallenging.Historically,researchfocusedonGHG
+emission reduction within WWTPs has primarily targeted
+optimizing specific unit processes, such as aeration control,20
+improving pumping efficiency,52 or enhancing nutrient
+recovery.22 While these approaches contribute to reductions
+in GHG emissions, they often fall short of addressing the
+interconnected emissions across the entire system. Moreover,
+many studies have targeted GHG emissions within a specific
+scope,suchasSP1_N Othroughaerationcontrol53orexternal
+2
+carbon source dosing,54 or SP2_ENERGY through renewable
+energy integration.55
+Our study shifts this paradigm by focusing on the
+optimization of carbon source regulation from the perspective
+of influent carbon source allocation, recovery, and utilization,
+integratingbothwaterandsludgelines.Theproposedstrategy
+considers GHG emissions comprehensively across SP1_N O,
+2
+Figure 5. (a) Minimum GHG emissions achievable under Class 1A SP2_ENERGY, and SP3_SLUDGE, offering a promising
+effluentqualityconstraintsforeachcarbonsourceregulationstrategy pathway toward a more integrated and systemic reduction of
+acrossvaryinginfluentC/Nratios.Influentdistributionratios(R inf)at GHG emissions. By elucidating the relationship between
+different influent C/N ratios corresponding to the minimum GHG
+influent carbon sources and the scope and overall quantity of
+emissionfor(b)base,(c)AD,and(d)SFstrategy.(e)Relationship
+GHG emissions from WWTPs, our findings reveal substantial
+between R and sludge distribution ratios (R) at different influent
+inf s potential for plant-wide GHG reduction through strategic
+C/N ratios corresponding to the minimum GHG emissions for the
+ACSR strategy. In (a−d), the hollow points and in (e), the gray management of influent carbon sources.
+spheresrepresentsimulatedconditionswheretheeffluentqualitydoes This work’s limitations include its primary data collection
+notmeetthe Class1A standard atthis C/Nlevel. from specific seasons (summer and winter), which does not
+fully capture the impact of year-round climatic variations on
+The seasonal variations in influent COD fractionation GHG emissions. Future research should be conducted over
+significantlyimpacttheACSRstrategyimplementation.During longertimeframestocapturethedynamicsofGHGemissions
+high C/N periods, the abundant particulate organic matter undervaryingseasonalconditions.Alimitationintheemission
+(X : 41%) is ideally suited for AD processes, which benefit measurement methodology should be noted as direct GHG
+S
+from extended retention times, allowing complete conversion measurements were confined to the aeration tank. Although
+of these slowly biodegradable substrates to methane. For plant-wide emissions were assessed through model-based
+optimizingADperformanceundertheseconditions,enhanced approaches, future studies employing multiple measurement
+primaryclarification(e.g.,polymeraddition)couldincreasethe techniques across all treatment units are needed to validate
+capture of particulate organics, maximizing biogas production. model predictions and establish comprehensive emission
+Conversely,duringlowC/Nperiods,thechallengebecomes factors.
+2-fold:addressingthereducedavailabilityofparticulateorganic The applicability of ACSR strategies varies across WWTP
+matter while minimizing nitrogen release during sludge configurations and influent characteristics. While conventional
+processing. For these conditions, the SF process must be activated sludge processes can readily implement ACSR
+carefully optimized to balance VFA production against through existing infrastructure modifications, MBR systems
+potentialnutrientrelease.Thisinvolvescontrollingoperational require additional consideration of membrane fouling
+parameters (pH, HRT, temperature) and potentially employ- potential. Industrial wastewaters with a high organic content
+ingmildpretreatmentmethods(e.g.,low-temperaturethermal mayfavorAD-focusedstrategies,whilemunicipalsystemswith
+hydrolysis,biosurfactants,andhigh-speedhydro-cyclone).47−50 lower C/N ratios may benefit more from SF implementation.
+Thesepretreatmentscanselectivelyextractcarbonsourceslike Success factors include (1) flexible infrastructure allowing
+EPS for fermentation into VFAs while minimizing the release carbon source redirection, (2) robust monitoring systems for
+of intracellular nitrogen and phosphorus, thus improving key process parameters, (3) adequate buffer capacity for
+substrate quality and mitigating internal nutrient loads and managing variability, and (4) process-specific modifications
+potential N O emissions. The ACSR strategy addresses these based on treatment configuration. Future research should
+2
+9524 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 9 ---
+Environmental Science & Technology pubs.acs.org/est Article
+systematically evaluate the ACSR performance across diverse Supporting Information Figure S19 and Table S34). This
+WWTP configurations and influent compositions to develop enhanced stability under dynamic conditions further supports
+configuration-specific implementation guidelines. Additionally, the viability of ACSR for managing the inherent variability of
+while this studyhas investigated theGHGreduction potential full-scale wastewater treatment operations, while consistently
+of carbon source regulation strategies, further assessments mitigating GHG emissions. The future evolution of ACSR
+regarding their economic feasibility and energy efficiency are strategies will benefit from integration with emerging
+requiredtoensurewidespreadadoptioninlarge-scaleWWTPs.
+technologies.AI-drivenoptimizationusingdeepreinforcement
+Life-cycle assessment reveals that while the AD strategy
+learning can continuously adapt carbon allocation based on
+demonstrates the lowest overall environmental impact (30.2
+historical performance data. Advanced sensor networks
+mPt), the ACSR strategy emerges as the most balanced
+incorporating novel N O, CH , and VFA sensors with
+approach, achieving significant reductions in key impact 2 4
+automatic drift correction can provide high-resolution spatial
+categories while maintaining minimal impacts on other
+and temporal monitoring. Hybrid digital twin models
+environmental indicators. This balanced environmental per-
+combining physics-based and data-driven approaches enable
+formance, combined with superior economic returns (NPV: +
+real-time optimization and scenario analysis. These techno-
+€34.9 M relative to the base strategy) and operational
+logical advances will enhance ACSR’s capability to achieve
+flexibility, positions ACSR as a particularly promising strategy
+forsustainablewastewatertreatmentimplementation.Regional consistentGHGreductionwhilemaintainingrobusttreatment
+analysis of 5,155 WWTPs across China demonstrates that performance under varying conditions. Furthermore, future
+influent characteristics vary significantly with local industrial refinements of the ACSR strategy should include the
+structure, urbanization level, and economic development optimization of primary treatment processes under varying
+(Table S40). The proposed ACSR strategy shows promise in C/N conditions. During high C/N periods, polymer addition
+adapting to these regional variations through dynamic in primary clarification could enhance the capture of
+adjustment of carbon source allocation based on influent C/ particulate organics for improved methane production in AD.
+N ratios while maintaining treatment efficiency and meeting During low C/N periods, selective primary treatment
+effluent quality standards (Supporting Information). This optimization should focus on balancing particulate matter
+flexibilityisparticularlyvaluablegiventhesubstantialvariations capture for VFA production against minimizing nitrogen
+in influent characteristics observed across different regions of
+release during subsequent fermentation. This might involve
+China.
+adjusting polymer types and dosages, optimizing hydraulic
+Moreover, carbon source regulation strategies should be
+retention times, or implementing selective capture technolo-
+systematically integrated with advanced process control and
+giesthatpreferentiallyremovecarbonaceousparticulateswhile
+modeling frameworks, including reinforcement learning
+minimizing nitrogen-rich biomass capture. Integration with
+algorithms56 and hybrid modeling approaches,57 to facilitate
+mild sludge pretreatment methods prior to SF should also be
+more effective GHG emission mitigation. In addition to
+exploredtomaximizetheVFAyieldwhilecontrollingnutrient
+leveraging advanced technologies, it is crucial to optimize the
+release. Such targeted primary sludge management would
+useofbufferingcapacitieswithinWWTPfacilities(e.g.,PRIM,
+further enhance the adaptability of the ACSR strategy across
+buffer tanks) to augment carbon source modulation and
+storage potential, thereby ensuring robust responses to abrupt seasonalvariationsininfluentcharacteristics.Furthermore,the
+variations in influent water quality. Implementation of ACSR optimization of the ACSR strategy could extend beyond bulk
+strategiesinexistingWWTPsrequires carefulconsiderationof C/N ratio control to consider the specific composition of
+both infrastructure modifications and monitoring systems. VFAs produced during a short fermentation. Different
+Infrastructure challenges include the installation of AD/SF microbial guilds involved in nutrient removal exhibit distinct
+fermentation tanks, CHP units, flow distribution devices, and preferences and metabolic efficiencies for the various VFAs.
+carbonsourcebuffertanks. Additionally,successfulimplemen- For instance, diverse heterotrophic denitrifiers utilize VFAs as
+tation depends on comprehensive monitoring systems for electron donors, with acetate often considered highly
+influent characteristics, suspended solids, settling efficiency, efficient,58−60whilePAOclades(Accumulibacter,Tetrasphaera)
+and VFA content. While these modifications represent and denitrifying PAOs (Dechloromonas) also show varying
+significant investments, they can be implemented gradually specificities for substrates like acetate, propionate, or even
+through planned upgrade cycles to manage costs while amino acids.61−63 Future refinements of ACSR could involve
+maintaining operational stability. The dynamic operation of
+dynamically adjusting SF operational parameters to tailor the
+ACSR is enabled by a three-tiered automation architecture
+VFA profile, thereby optimizing substrate availability for the
+integrating real-time monitoring, advanced process control,
+dominant microbial populations under the prevailing con-
+and optimization systems. This infrastructure allows ACSR to
+ditions. This substrate-specific carbon allocation, guided by
+respond to influent variations within 15−30 min, maintaining
+advanced monitoring and control, represents a promising
+stableperformanceunderdynamicconditionswhileoptimizing
+avenue for further enhancing the integrated performance of
+both nutrient removal and GHG mitigation. Furthermore, the
+ACSR in simultaneous GHG mitigationand nutrient removal.
+practical implementation of ACSR requires the consideration
+This study underscores the potential for achieving net-zero
+ofoperationalrobustness.Toevaluatethis,additionaldynamic
+simulations were conducted to assess system response to GHG emissions in WWTPs through an optimized carbon
+transient shock loads (5 h duration, +25% influent COD or source allocation. By integration of advanced process control
+TN). The ACSR strategy demonstrated superior resilience and modeling frameworks, such as reinforcement learning
+compared to base, AD, and SF strategies, exhibiting smaller algorithms and hybrid modeling approaches, with systematic
+deviations in effluent quality and GHG emissions and strategy implementation, WWTPs can attain net-zero
+achieving significantly faster recovery times (details in emissions in a practical and systematic manner.
+9525 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528
+
+--- Page 10 ---
+Environmental Science & Technology pubs.acs.org/est Article
+■ ■
+ASSOCIATED CONTENT ACKNOWLEDGMENTS
+* sı Supporting Information We gratefully acknowledge the financial support from the
+The Supporting Information is available free of charge at National Key R&D Program of China (No.
+https://pubs.acs.org/doi/10.1021/acs.est.4c12704. 2023YFC3207101) and Shenzhen Science and Technology
+WWTP characteristics and operation; GHG measure- Program (Grant Nos. JCYJ20241202123900001,
+ment and monitoring methods; data reconciliation KCXFZ20211020163404007, KQTD20190929172630447).
+procedures; long-term influent data analysis; compre- ■
+hensive model kinetics, parameters, and sensitivity NOMENCLATURE
+analysis; carbon source regulation strategy details and
+AAO anaerobic−anoxic−aerobic
+logic; simulation results for nutrient/COD fluxes, GHG
+ACSR adaptive carbon source regulation
+emissions,andshockloadresponses;energybalance;life
+AD anaerobic digestion
+cycle assessment and cost-benefit analysis; and pre-
+AER aerobic zone
+dictive control feasibility assessment (PDF)
+ANA anaerobic zone
+■
+ANOVA analysis of variance
+AUTHOR INFORMATION
+ANOX anoxic zone
+Corresponding Authors C/N carbon-to-nitrogen ratio
+Ai-JieWang−StateKeyLaboratoryofUrbanWaterResource CH methane
+4
+andEnvironment,SchoolofEnvironment,HarbinInstituteof CHP combined heat and power
+Technology, Harbin 150090, China; School of Civil and COD chemical oxygen demand
+Environmental Engineering, Harbin Institute of Technology DEW dewatering
+Shenzhen, Shenzhen 518055, China; orcid.org/0009- DO dissolved oxygen
+0001-4829-2538; Email: waj0578@hit.edu.cn EFF final effluent
+Hong-Cheng Wang − State Key Laboratory of Urban Water FA free ammonia
+Resource and Environment, School of Environment, Harbin FTIR Fourier transform infrared
+Institute of Technology, Harbin 150090, China; School of GHG greenhouse gas
+Civil and Environmental Engineering, Harbin Institute of GWP global warming potential
+Technology Shenzhen, Shenzhen 518055, China; HRT hydraulic retention time
+orcid.org/0000-0002-6555-1722; LCA life cycle assessment
+Email: wanghongcheng@hit.edu.cn N O nitrous oxide
+2
+NPV net present value
+Authors
+R influent distribution ratio
+Yun-Peng Song − State Key Laboratory of Urban Water inf
+R sludge distribution ratio
+Resource and Environment, School of Environment, Harbin S
+SumoSlang SUMO simulation language
+Institute of Technology, Harbin 150090, China; School of
+WWTP wastewater treatment plant
+Civil and Environmental Engineering, Harbin Institute of
+IPCC Intergovernmental Panel on Climate Change
+Technology Shenzhen, Shenzhen 518055, China
+MAPE mean absolute percentage error
+Li-Li Du − Central Plains Environmental Protection Co.,
+MLSS mixed liquor suspended solids
+LCD., Zhengzhou 450000, China
+NaClO sodium hypochlorite
+Bao-Gui Wang − Central Plains Environmental Protection
+NaOH sodium hydroxide
+Co., LCD., Zhengzhou 450000, China NH + ammonium
+Ling-Min Zhang − Central Plains Environmental Protection NO4 − nitrate
+Co., LCD., Zhengzhou 450000, China 3
+PAM polyacrylamide
+Hong-Yong Lin − Central Plains Environmental Protection PO − phosphate
+Co., LCD., Zhengzhou 450000, China 4
+PRIM primary clarification
+Fang Ma − State Key Laboratory of Urban Water Resource
+RSF relative sensitivity function
+andEnvironment,SchoolofEnvironment,HarbinInstituteof
+SCOD soluble chemical oxygen demand
+Technology, Harbin 150090, China; orcid.org/0000-
+SEC secondary clarifier
+0002-8849-0803
+SF short fermentation
+YuBai−UnicomDigitalTechnologyCo.Ltd.,Beijing100032,
+SP1_CH Scope 1 methane emissions
+China 4
+SP1_N O Scope 1 nitrous oxide emissions
+Nan-QiRen−StateKeyLaboratoryofUrbanWaterResource 2
+SP2_ENERGY Scope 2 energy-related emissions
+andEnvironment,SchoolofEnvironment,HarbinInstituteof
+SP3_CHEM Scope 3 chemical-related emissions
+Technology, Harbin 150090, China; School of Civil and
+SP3_SLUDGE Scope 3 sludge-related emissions
+Environmental Engineering, Harbin Institute of Technology
+TCOD total chemical oxygen demand
+Shenzhen, Shenzhen 518055, China
+THK thickening
+Complete contact information is available at: TN total nitrogen
+https://pubs.acs.org/10.1021/acs.est.4c12704 TP total phosphate
+TSS total suspended solids
+Author Contributions VFA volatile fatty acid
+⊥Y.-P.S. and L.L.D. contributed equally to this work. VSS volatile suspended solids
+Notes
+The authors declare no competing financial interest.
+9526 https://doi.org/10.1021/acs.est.4c12704
+Environ.Sci.Technol.2025,59,9517−9528

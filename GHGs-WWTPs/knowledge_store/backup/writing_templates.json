@@ -1,0 +1,1124 @@
+{
+  "meta": {
+    "count": 17,
+    "updated": "2026-06-11T04:48:35.501694+00:00",
+    "version": 50
+  },
+  "entries": {
+    "intro_opening_zh": {
+      "value": "近年来，{领域}受到了广泛关注。{具体问题}是该领域的关键问题之一。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_gap_zh": {
+      "value": "然而，现有研究主要集中在{方向}，对{空白}的研究仍然不足。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_objective_zh": {
+      "value": "本研究旨在{目标}，以{方法}为核心手段，探究{问题}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_finding_zh": {
+      "value": "结果表明，{变量1}与{变量2}呈显著{方向}相关(r={值}, p<{值})。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_comparison_zh": {
+      "value": "{组1}的{指标}显著{高于/低于}{组2}({值} vs {值}, p={值})。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_mechanism_zh": {
+      "value": "这一现象的可能机制是{机制描述}。{引用}也报道了类似的发现。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_contrast_zh": {
+      "value": "与{引用}的研究不同，本研究发现{差异}。这一差异可能源于{原因}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_significance_zh": {
+      "value": "本研究的发现对{领域}具有{理论/实践}意义，为{应用}提供了{依据/参考}。",
+      "confidence": 0.7,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "conclusion_summary_zh": {
+      "value": "本研究通过{方法}，系统分析了{对象}，发现{核心发现}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_opening_en": {
+      "value": "{Topic} has attracted considerable attention in recent years.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_gap_en": {
+      "value": "However, existing studies have primarily focused on {direction}, leaving {gap} largely unexplored.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_finding_en": {
+      "value": "The results revealed a significant {positive/negative} correlation between {var1} and {var2} (r={value}, p<{value}).",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_mechanism_en": {
+      "value": "A possible mechanism underlying this phenomenon is {mechanism}.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "correlation_discussion_zh": {
+      "category": "writing_templates",
+      "value": {
+        "template": "{变量A}与{变量B}呈显著{正/负}相关(r={r}, p={p})。{机制}。{文献}也报道了类似关系。",
+        "usage": "Discussion讨论相关性"
+      },
+      "version": 1,
+      "created": "2026-06-02T09:20:59.002167+00:00"
+    },
+    "gap_statement_zh": {
+      "category": "writing_templates",
+      "value": {
+        "template": "然而，{现有不足}。特别是{具体空白}尚未{开展/解决}。",
+        "usage": "Introduction指空白"
+      },
+      "version": 1,
+      "created": "2026-06-02T09:20:59.002167+00:00"
+    },
+    "mechanism_explanation_zh": {
+      "category": "writing_templates",
+      "value": {
+        "template": "{发现}。机制如下：{步骤1}，进而{步骤2}，最终{结果}。",
+        "usage": "Discussion解释机制"
+      },
+      "version": 1,
+      "created": "2026-06-02T09:20:59.002167+00:00"
+    },
+    "carbon_balance_zh": {
+      "category": "writing_templates",
+      "value": {
+        "template": "碳平衡分析表明，{相态}碳占总碳的{百分比}%，是{主导/次要}碳形式。{意义}。",
+        "usage": "Results/Discussion碳平衡"
+      },
+      "version": 1,
+      "created": "2026-06-02T09:20:59.002167+00:00"
+    },
+    "learned_abstract_5424": {
+      "value": {
+        "pattern": "Partial nitrif[VAR]ation has the advantages of saving energy and reducing the need for carbon sources in mun[VAR]ipal wastewater treatment.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_background_3936": {
+      "value": {
+        "pattern": "However, for mun[VAR]ipal wastewater with low ammonia, start-up and maintenance of partial nitrif[VAR]ation is a worldwide challenge.",
+        "function": "background",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_5604": {
+      "value": {
+        "pattern": "Here we developed a pilot-scale [VAR]uble sludge system consisting of two sequencing ba[VAR]h reactors for partial nitrif[VAR]ation ([NUM] m[NUM]) and denitrif[VAR]ation/anaerob[VAR]ammonium oxidation (denitrif[VAR]ation/anammox, [NUM] m[NUM]) to treat mun[VAR]ipal wastewater.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_8261": {
+      "value": {
+        "pattern": "Partial nitrif[VAR]ation was maintained at no ammonium remaining with a nitrite accumulation rate of [VALUE_UNIT].",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_result_4900": {
+      "value": {
+        "pattern": "This study found that partial nitrif[VAR]ation system effluent chem[VAR]al oxygen demand increased from [NUM] mg L−[NUM] to [NUM] mg L−[NUM] accompanied by transformation from complete nitrif[VAR]ation to partial nitrif[VAR]ation.",
+        "function": "result",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_9421": {
+      "value": {
+        "pattern": "In the denitrif[VAR]ation/anammox system, the reduction of nitrite to nitrogen required about [VALUE_UNIT] less carbon consumption than nitrate.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_8389": {
+      "value": {
+        "pattern": "High nitrogen removal was achieved with effluent total inorgan[VAR]nitrogen of [NUM] mg L−[NUM] without carbon addition.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_4669": {
+      "value": {
+        "pattern": "This work provided a pilot-scale demonstration of low-carbon high-nitrogen removal.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_6216": {
+      "value": {
+        "pattern": "Yongzhen Peng and colleagues achieved high nitrogen removal in mun[VAR]ipal wastewater treatment by sequentially combining partial nitrif[VAR]ation and denitrif[VAR]ation reactors.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_7413": {
+      "value": {
+        "pattern": "This pilot-scale study provides a low-energy and low-carbon technology toward a sustainable wastewater treatment solution.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_7365": {
+      "value": {
+        "pattern": "To address the challenges associated with biolog[VAR]al treatment of high-salinity wastewater, a novel salt-tolerant strain, Zobellella en[VAR][VAR]yt[VAR]a W[NUM], was isolated.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_5002": {
+      "value": {
+        "pattern": "This strain exhibited heterotro[VAR][VAR]nitrif[VAR]ation-aerob[VAR]denitrif[VAR]ation (HN-AD) capabilities.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_6795": {
+      "value": {
+        "pattern": "Strain W[NUM] could grow and remove ammonium in high-salinity environments with salinity levels ranging from [NUM] to [VALUE_UNIT] (w/v).",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_7299": {
+      "value": {
+        "pattern": "At [VALUE_UNIT] salinity, strain W[NUM] demonstrated high removal eff[VAR]iencies for nitrite, ammonium, and nitrate ([VALUE_UNIT], [VALUE_UNIT], and [VALUE_UNIT], respectively), when these compounds were provided as the single source of nitrogen.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_8010": {
+      "value": {
+        "pattern": "In cases of mixed nitrogen sources, total nitrogen removal eff[VAR]iency of strain reached [VALUE_UNIT].",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.788891+00:00",
+      "version": 1
+    },
+    "learned_abstract_6330": {
+      "value": {
+        "pattern": "The nitrogen balance analysis confirmed the utilization of nitrogen sources by strain W[NUM] through both assimilation and dissimilation.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.804512+00:00",
+      "version": 1
+    },
+    "learned_abstract_8512": {
+      "value": {
+        "pattern": "Through the amplif[VAR]ation of functional genes involved in nitrogen metabolism (i.e. , hao, napA, nirS, and nosZ), the nitrogen metabolism pathway of strain W[NUM] was pred[VAR]ted to be: [CHEM[VAR]AL]⁺ → NH₂OH → NO₂⁻ → [CHEM[VAR]AL]⁻ → NO₂⁻ → NO → [CHEM[VAR]AL] → N₂.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.804512+00:00",
+      "version": 1
+    },
+    "learned_abstract_8936": {
+      "value": {
+        "pattern": "The study reveals that the novel W[NUM] strain can eff[VAR]iently remove total nitrogen from high-salinity wastewater and has signif[VAR]ant potential for biolog[VAR]al treatment of such wastewater.",
+        "function": "abstract",
+        "section_type": "abstract",
+        "count": 1,
+        "source": "auto_learn:wastewater nitrogen ammonium n"
+      },
+      "confidence": 0.7,
+      "source": "auto_learn",
+      "updated": "2026-06-04T09:23:51.804512+00:00",
+      "version": 1
+    },
+    "sentence_bank_使用说明": {
+      "value": {
+        "title": "使用说明",
+        "content": "按功能分类，每个句式提供中文和英文版本。可直接套用，将[变量]替换为具体内容。\n标注使用场景（Introduction/Methods/Results/Discussion/Conclusion）。\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.251269+00:00",
+      "version": 3
+    },
+    "sentence_bank_一_研究背景与开篇": {
+      "value": {
+        "title": "一、研究背景与开篇",
+        "content": "### 宏观背景引入\n\n**中文：**\n- 随着[进程/发展]的不断推进，[问题]已成为[领域]关注的焦点。\n- [领域]是[上层系统]的重要组成部分，对[影响对象]具有重要影响。\n- 近年来，[现象]引起了学术界的广泛关注。\n- 在[大背景]的背景下，[具体问题]的研究具有重要的理论和现实意义。\n\n**English:**\n- With the rapid development of [X], [issue] has become a growing concern in [field].\n- [X] plays a critical role in [system], significantly affecting [Y].\n- In recent years, increasing attention has been paid to [topic].\n- Against the backdrop of [context], research on [specific topic] holds significant theoretical and practical implications.\n\n### 具体问题聚焦\n\n**中文：**\n- [具体现象]是影响[结果]的关键因素之一。\n- [指标/参数]的[变化/分布]直接关系到[应用/影响]。\n- 关于[问题]，目前仍存在较大争议/尚不明确。\n- 尽管[已有认识]，但[未知方面]仍不清楚。\n\n**English:**\n- [X] is one of the key factors influencing [Y].\n- The [distribution/variation] of [parameter] is directly related to [outcome].\n- Regarding [issue], considerable debate remains / much uncertainty persists.\n- While [established knowledge], the [unknown aspect] remains poorly understood.\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.257272+00:00",
+      "version": 3
+    },
+    "sentence_bank_二_文献综述": {
+      "value": {
+        "title": "二、文献综述",
+        "content": "### 总结前人研究\n\n**中文：**\n- [作者]等([年份])对[对象]进行了研究，发现[结论]。\n- 众多学者对[问题]开展了大量研究，取得了丰硕成果。\n- 前人研究主要集中在以下几个方面：一是[方面1]，二是[方面2]，三是[方面3]。\n- 综合已有研究可以发现，[总结性发现]。\n\n**English:**\n- [Author] et al. ([year]) investigated [subject] and found that [finding].\n- Extensive studies have been conducted on [topic], yielding significant results.\n- Previous research has primarily focused on [aspect 1], [aspect 2], and [aspect 3].\n- A synthesis of existing literature reveals that [summary finding].\n\n### 引用具体文献\n\n**中文：**\n- [作者]([年份])指出，[观点/结论]。\n- 据[作者]([年份])报道，[发现]。\n- [作者]([年份])的研究表明，[结论]。\n- [作者]([年份])采用[方法]对[对象]进行了分析，结果显示[结果]。\n\n**English:**\n- [Author] ([year]) demonstrated that [finding].\n- It has been reported that [finding] ([Author], [year]).\n- According to [Author] ([year), [statement].\n- Using [method], [Author] ([year]) analyzed [subject] and reported that [result].\n\n### 对比文献结论\n\n**中文：**\n- 与[研究1]不同，[研究2]发现[不同结论]，这可能与[原因]有关。\n- [研究1]和[研究2]得出了相似/相悖的结论。\n- 然而，[作者]([年份])在[不同条件]下的研究得出了不同结论。\n- 上述研究在[方面]取得了重要进展，但在[方面]仍存在不足。\n\n**English:**\n- In contrast to [study 1], [study 2] reported [different finding], which may be attributed to [reason].\n- [Study 1] and [study 2] yielded similar/contradictory conclusions.\n- However, [Author] ([year]) reached a different conclusion under [different conditions].\n- While significant progress has been made in [aspect], gaps remain in [aspect].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.261799+00:00",
+      "version": 3
+    },
+    "sentence_bank_三_研究空白与问题提出": {
+      "value": {
+        "title": "三、研究空白与问题提出",
+        "content": "### 指出研究空白\n\n**中文：**\n- 目前，关于[问题]的研究仍相对较少/尚不充分。\n- 尽管[已有研究]，但[具体空白]仍缺乏系统研究。\n- 现有研究多集中于[方面A]，而对[方面B]关注不足。\n- 已有研究多采用[方法A]，而[方法B]的应用尚不普遍。\n- 上述研究为本课题提供了重要参考，但[不足]仍需进一步探讨。\n\n**English:**\n- To date, limited studies have focused on [topic].\n- Despite [existing research], [specific gap] has not been systematically investigated.\n- Most previous studies have focused on [aspect A], while [aspect B] remains underexplored.\n- While [method A] has been widely adopted, the application of [method B] is still limited.\n- The aforementioned studies provide valuable references; however, [gap] requires further investigation.\n\n### 本研究的目的\n\n**中文：**\n- 本研究旨在[目的]，以期为[应用]提供科学依据。\n- 为此，本研究以[对象]为研究对象，采用[方法]，对[内容]进行系统分析。\n- 本研究的主要目标是：(1) [目标1]；(2) [目标2]；(3) [目标3]。\n- 基于此，本研究拟从[角度]出发，探讨[问题]。\n\n**English:**\n- This study aims to [objective], providing a scientific basis for [application].\n- To this end, [subject] was investigated using [methods] to systematically analyze [content].\n- The primary objectives of this study are: (1) [objective 1]; (2) [objective 2]; (3) [objective 3].\n- Accordingly, this study examines [topic] from the perspective of [angle].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.266307+00:00",
+      "version": 3
+    },
+    "sentence_bank_四_方法描述": {
+      "value": {
+        "title": "四、方法描述",
+        "content": "### 采样方法\n\n**中文：**\n- 样品采集于[时间]在[地点]进行。\n- 采样点布设依据[原则/标准]，共设置[n]个采样点。\n- 每个采样点设置[n]个平行样，以保证数据的可靠性。\n- 采样过程中严格遵守[规范/标准]操作。\n\n**English:**\n- Samples were collected at [location] during [time period].\n- Based on [principle/criterion], a total of [n] sampling sites were established.\n- [n] replicates were collected at each sampling site to ensure data reliability.\n- All sampling procedures strictly followed [protocol/standard].\n\n### 分析方法\n\n**中文：**\n- [指标]采用[方法/仪器]进行测定。\n- [指标]的测定依据[标准名称]([标准号])执行。\n- 实验数据采用[软件名称]([版本号])进行处理。\n- 统计分析包括[方法1]、[方法2]和[方法3]。\n\n**English:**\n- [Parameter] was determined using [method/instrument].\n- The measurement of [parameter] was conducted according to [standard name] ([standard number]).\n- Data analysis was performed using [software name] ([version]).\n- Statistical analyses included [method 1], [method 2], and [method 3].\n\n### 统计方法\n\n**中文：**\n- 采用[方法]检验数据的正态性。\n- 组间差异采用[方法]进行分析。\n- 当p < [值]时，认为差异具有统计学意义。\n- 采用[软件]进行数据处理和统计分析。\n- PCA分析由[软件]完成，提取特征值大于1的主成分。\n\n**English:**\n- The normality of data was tested using [method].\n- Differences among groups were analyzed by [method].\n- A p-value < [value] was considered statistically significant.\n- All data processing and statistical analyses were performed using [software].\n- PCA was conducted using [software], extracting principal components with eigenvalues > 1.\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.269675+00:00",
+      "version": 3
+    },
+    "sentence_bank_五_数据描述与结果表述": {
+      "value": {
+        "title": "五、数据描述与结果表述",
+        "content": "### 描述数据范围\n\n**中文：**\n- [指标]的变化范围为[X]~[Y]，平均值为[Z±SD]。\n- [指标]的最低值出现在[地点/时间]，为[X]；\n  最高值出现在[地点/时间]，为[Y]。\n- [指标]的中位数为[X]，变异系数为[Y]%。\n- 整体来看，[指标]呈现[趋势]。\n\n**English:**\n- [Parameter] ranged from [X] to [Y], with a mean value of [Z±SD].\n- The minimum value of [parameter] was observed at [location/time] ([X]),\n  while the maximum was recorded at [location/time] ([Y]).\n- The median value of [parameter] was [X], with a coefficient of variation of [Y]%.\n- Overall, [parameter] exhibited a [trend].\n\n### 描述空间分布\n\n**中文：**\n- 从空间分布来看，[指标]呈现出[空间规律]的特征。\n- [区域A]的[指标]显著高于/低于[区域B]。\n- [指标]的空间分布与[因素]密切相关。\n- 由南向北/由上游至下游，[指标]呈递增/递减趋势。\n\n**English:**\n- Spatially, [parameter] exhibited a pattern of [spatial pattern].\n- [Parameter] in [area A] was significantly higher/lower than that in [area B].\n- The spatial distribution of [parameter] was closely related to [factor].\n- [Parameter] showed an increasing/decreasing trend from south to north / upstream to downstream.\n\n### 描述时间变化\n\n**中文：**\n- 从时间变化来看，[指标]在[季节/时段]较高/较低。\n- 冬季[指标]显著高于/低于春季([值1] vs [值2], p < [值])。\n- [指标]呈现明显的季节性变化规律。\n- 采样期间，[指标]的变化趋势为[趋势描述]。\n\n**English:**\n- Temporally, [parameter] was higher/lower during [season/period].\n- [Parameter] in winter was significantly higher/lower than that in spring ([value 1] vs [value 2], p < [value]).\n- [Parameter] exhibited a pronounced seasonal variation pattern.\n- During the sampling period, [parameter] showed a [trend description].\n\n### 统计检验结果\n\n**中文：**\n- 方差分析结果表明，不同[组别]之间[指标]存在显著差异\n  (F=[值], p=[值])。\n- t检验结果显示，[组A]与[组B]的[指标]差异具有统计学意义\n  (t=[值], p=[值])。\n- 相关性分析表明，[指标A]与[指标B]呈显著正/负相关\n  (r=[值], p<[值])。\n- 多元回归分析表明，[因素]对[指标]的影响最为显著\n  (β=[值], p<[值])。\n\n**English:**\n- ANOVA revealed significant differences in [parameter] among [groups] (F=[value], p=[value]).\n- The t-test indicated a statistically significant difference in [parameter] between [group A] and [group B] (t=[value], p=[value]).\n- Correlation analysis showed a significant positive/negative correlation between [parameter A] and [parameter B] (r=[value], p<[value]).\n- Multiple regression analysis indicated that [factor] had the most significant effect on [parameter] (β=[value], p<[value]).\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.273187+00:00",
+      "version": 3
+    },
+    "sentence_bank_六_对比与分析": {
+      "value": {
+        "title": "六、对比与分析",
+        "content": "### 相似性对比\n\n**中文：**\n- 本研究结果与[文献]基本一致。\n- [发现]与前人研究结果相吻合。\n- 与[研究]类似，本研究也发现[发现]。\n- 这一结果进一步验证了[理论/观点]。\n\n**English:**\n- Our findings are consistent with those reported by [reference].\n- [Finding] is in agreement with previous studies.\n- Similar to [study], we also observed [finding].\n- This result further supports [theory/viewpoint].\n\n### 差异性对比\n\n**中文：**\n- 然而，本研究发现[发现]，这与[文献]的结论有所不同。\n- 与[研究]不同，本研究结果显示[不同结果]。\n- 这种差异可能源于[原因1]、[原因2]和[原因3]。\n- 值得注意的是，[发现]与预期不符，可能的原因是[解释]。\n\n**English:**\n- However, our study found [finding], which differs from [reference].\n- Unlike [study], our results showed [different result].\n- This discrepancy may be attributed to [reason 1], [reason 2], and [reason 3].\n- Notably, [finding] was unexpected, possibly due to [explanation].\n\n### 趋势分析\n\n**中文：**\n- 随着[变量]的增加/减少，[指标]呈上升/下降趋势。\n- [指标]与[变量]之间存在显著的线性/非线性关系。\n- 从[n1]到[n2]，[指标]增长了[X]%。\n- 值得关注的是，[指标]在[特定条件]下出现了异常变化。\n\n**English:**\n- [Parameter] showed an increasing/decreasing trend with the increase/decrease of [variable].\n- A significant linear/non-linear relationship was observed between [parameter] and [variable].\n- From [n1] to [n2], [parameter] increased by [X]%.\n- Notably, [parameter] exhibited anomalous variation under [specific conditions].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.277192+00:00",
+      "version": 3
+    },
+    "sentence_bank_七_因果逻辑与机制解释": {
+      "value": {
+        "title": "七、因果逻辑与机制解释",
+        "content": "### 表达因果关系\n\n**中文：**\n- [现象]主要是由[原因]导致的。\n- [原因]可能是造成[现象]的主要因素。\n- [现象]与[因素]密切相关，[详细说明]。\n- 综合以上分析，可以推断[结论]。\n\n**English:**\n- [Phenomenon] was primarily attributed to [cause].\n- [Cause] may be a major factor contributing to [phenomenon].\n- [Phenomenon] was closely associated with [factor], [elaboration].\n- Based on the above analysis, it can be inferred that [conclusion].\n\n### 机制解释\n\n**中文：**\n- 其可能的机制如下：首先，[机制1]；其次，[机制2]。\n- 这一现象可以通过[机制/理论]来解释。\n- [过程]的发生可能涉及以下环节：(1) [环节1]；(2) [环节2]。\n- 上述机制的综合作用可能导致了[结果]。\n\n**English:**\n- The possible mechanisms are as follows: first, [mechanism 1]; second, [mechanism 2].\n- This phenomenon can be explained by [mechanism/theory].\n- [Process] may involve the following steps: (1) [step 1]; (2) [step 2].\n- The combined effects of the above mechanisms may have led to [result].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.281714+00:00",
+      "version": 3
+    },
+    "sentence_bank_八_讨论常用句式": {
+      "value": {
+        "title": "八、讨论常用句式",
+        "content": "### 引出讨论要点\n\n**中文：**\n- 本研究的核心发现是[发现]，这一发现具有以下几方面的重要意义。\n- 关于[发现1]，本研究结果表明[结论]。\n- [发现]可以从以下几个方面进行讨论。\n\n**English:**\n- The key finding of this study is [finding], which has several important implications.\n- Regarding [finding 1], our results indicate that [conclusion].\n- [Finding] can be discussed from the following perspectives.\n\n### 强调研究意义\n\n**中文：**\n- 本研究首次/系统地[做了什么]。\n- 这一发现为[应用/理论]提供了新的见解。\n- 本研究的贡献在于[贡献]。\n- 上述发现对于[领域/应用]具有重要参考价值。\n\n**English:**\n- This study is the first to systematically [do what].\n- This finding provides new insights into [application/theory].\n- The contribution of this study lies in [contribution].\n- The above findings hold important reference value for [field/application].\n\n### 承认局限性\n\n**中文：**\n- 本研究也存在一些局限性。\n- 需要指出的是，[局限性描述]。\n- 受[条件]限制，本研究未能[不足]。\n- 上述结论仍需[更多数据/进一步验证]来支持。\n\n**English:**\n- Several limitations of this study should be acknowledged.\n- It should be noted that [limitation description].\n- Due to [constraint], this study was unable to [shortcoming].\n- The above conclusions require further support from [more data/further validation].\n\n### 提出展望\n\n**中文：**\n- 未来研究可从以下几个方面深入：\n  (1) [方向1]；(2) [方向2]。\n- 后续研究可进一步探讨[问题]。\n- 建议未来研究关注[方向]。\n\n**English:**\n- Future research could be further extended in the following aspects:\n  (1) [direction 1]; (2) [direction 2].\n- Further studies are warranted to investigate [issue].\n- It is recommended that future research focus on [direction].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.289507+00:00",
+      "version": 3
+    },
+    "sentence_bank_九_结论常用句式": {
+      "value": {
+        "title": "九、结论常用句式",
+        "content": "### 总结性结论\n\n**中文：**\n- 综上所述，本研究得出以下主要结论：\n- 本研究以[对象]为研究对象，采用[方法]，系统研究了[内容]。\n- 主要结论如下：\n- 上述研究结果为[应用]提供了科学依据和技术支撑。\n\n**English:**\n- In summary, the main conclusions of this study are as follows:\n- This study systematically investigated [content] in [subject] using [methods].\n- The key findings are summarized below:\n- These results provide a scientific basis and technical support for [application].\n\n### 逐条列结论\n\n**中文：**\n- (1) [结论1]。\n- (2) [结论2]。\n- (3) [结论3]。\n- 上述研究结果丰富了[领域]的理论认识，可为[应用]提供参考。\n\n**English:**\n- (1) [Conclusion 1].\n- (2) [Conclusion 2].\n- (3) [Conclusion 3].\n- These findings enrich the theoretical understanding of [field] and can serve as a reference for [application].\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.295423+00:00",
+      "version": 3
+    },
+    "sentence_bank_十_过渡与连接词": {
+      "value": {
+        "title": "十、过渡与连接词",
+        "content": "### 段落过渡\n\n**中文：**\n- 在此基础上，进一步分析了[内容]。\n- 为了深入理解[问题]，本研究还[做了什么]。\n- 基于上述分析，接下来将讨论[内容]。\n- 除了[方面]，[另一方面]同样值得关注。\n\n**English:**\n- Building on this, [content] was further analyzed.\n- To gain deeper insight into [issue], this study also [did what].\n- Based on the above analysis, [content] will be discussed next.\n- In addition to [aspect], [another aspect] also deserves attention.\n\n### 逻辑连接\n\n**中文：**\n- 因此/据此/基于此：用于推导结论\n- 然而/但是/相反：用于转折\n- 此外/另外/同时：用于补充\n- 具体而言/换句话说/也就是说：用于解释\n- 特别是/尤其是：用于强调\n- 尽管/虽然：用于让步\n\n**English:**\n- Therefore / Accordingly / Thus: for drawing conclusions\n- However / Nevertheless / In contrast: for transitions\n- Moreover / Furthermore / Additionally: for additions\n- Specifically / In other words / That is: for explanations\n- Particularly / Especially: for emphasis\n- Although / Despite / While: for concessions\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.299947+00:00",
+      "version": 3
+    },
+    "sentence_bank_十一_环境科学领域特有句式": {
+      "value": {
+        "title": "十一、环境科学领域特有句式",
+        "content": "### 污染物描述\n\n**中文：**\n- [污染物]是[来源]产生的主要[类型]污染物之一。\n- [污染物]的[浓度/含量]远超/低于[标准值]。\n- [区域]的[污染水平]处于[评价]水平。\n- [污染物]在[相态]中的赋存形态主要包括[形态1]和[形态2]。\n\n**English:**\n- [Pollutant] is one of the primary [type] pollutants originating from [source].\n- The [concentration/content] of [pollutant] far exceeded / was well below [standard value].\n- The [pollution level] in [area] was classified as [assessment] level.\n- The speciation of [pollutant] in [phase] primarily includes [form 1] and [form 2].\n\n### 碳循环相关\n\n**中文：**\n- 碳平衡分析表明，[系统]中碳的[输入/输出]主要通过[途径]实现。\n- [系统]的碳通量为[X]，其中[途径1]占[Y]%，[途径2]占[Z]%。\n- 固、液、气三相态碳的分配比例分别为[X:Y:Z]。\n- [系统]整体呈碳[汇/源]特征。\n\n**English:**\n- Carbon balance analysis indicated that carbon [input/output] in [system] was primarily achieved through [pathway].\n- The carbon flux of [system] was [X], of which [pathway 1] accounted for [Y]% and [pathway 2] accounted for [Z]%.\n- The distribution ratios of carbon in solid, liquid, and gas phases were [X:Y:Z], respectively.\n- [System] exhibited an overall carbon [sink/source] characteristic.\n\n---",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.304942+00:00",
+      "version": 3
+    },
+    "sentence_bank_使用备忘": {
+      "value": {
+        "title": "使用备忘",
+        "content": "- 所有句式中的[变量]必须替换为具体内容\n- 注意时态一致性（中文不明显，英文必须注意）\n- 统计数据格式：均值±标准差 (mean ± SD)\n- 统计检验格式：F(df1, df2)=值, p=值 或 t(df)=值, p=值\n- 相关系数格式：r(df)=值, p=值",
+        "source_file": "03-sentence-bank.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.308455+00:00",
+      "version": 3
+    },
+    "discussion_library_discussion的本质": {
+      "value": {
+        "title": "Discussion的本质",
+        "content": "**Discussion = 本研究发现 + 与文献对比 + 机制解释 + 意义阐述**\n\nDiscussion不是Results的重复，而是：\n- 解释数据\"为什么\"是这样（机制）\n- 与前人研究对比（一致性与差异性）\n- 推导更深层的意义（理论贡献与应用价值）\n- 承认不足并展望未来\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.312247+00:00",
+      "version": 3
+    },
+    "discussion_library_一_discussion结构模型": {
+      "value": {
+        "title": "一、Discussion结构模型",
+        "content": "### 模型A：漏斗模型（最常用）\n\n```\n段落1: 核心发现概述（最宽/最概括）\n  ↓\n段落2: 发现1的讨论（对比文献+机制）\n  ↓\n段落3: 发现2的讨论（对比文献+机制）\n  ↓\n段落4: 发现3的讨论（对比文献+机制）\n  ↓\n段落5: 局限性（收窄）\n  ↓\n段落6: 展望与结论（最窄/最具体）\n```\n\n**适用场景：** 大多数环境科学论文\n**优点：** 逻辑清晰，读者容易跟随\n**本课题适用性：** ★★★★★\n\n### 模型B：比较模型\n\n```\n段落1: 本研究概述\n  ↓\n段落2: 与国内研究对比\n  ↓\n段落3: 与国外研究对比\n  ↓\n段落4: 差异的原因分析\n  ↓\n段落5: 局限性+展望\n```\n\n**适用场景：** 侧重文献对比的研究\n**本课题适用性：** ★★★☆☆\n\n### 模型C：问题-解决模型\n\n```\n段落1: 核心问题回顾\n  ↓\n段落2: 本研究如何回答问题1\n  ↓\n段落3: 本研究如何回答问题2\n  ↓\n段落4: 本研究如何回答问题3\n  ↓\n段落5: 整体意义+局限性+展望\n```\n\n**适用场景：** Introduction中明确提出研究问题的论文\n**本课题适用性：** ★★★★☆\n\n### 本课题推荐结构（漏斗模型变体）\n\n```\n第4章 讨论\n├── 4.1 固相碳污染物赋存特征讨论\n│   ├── 核心发现重述\n│   ├── 与文献对比\n│   ├── 空间差异的机制解释\n│   └── 季节差异的机制解释\n├── 4.2 液相碳污染物赋存特征讨论\n│   ├── 核心发现重述\n│   ├── 与文献对比\n│   ├── TOC/DOC/POC的关系讨论\n│   └── 功能区差异的机制解释\n├── 4.3 气相碳污染物赋存特征讨论\n│   ├── 核心发现重述\n│   ├── 与文献对比\n│   ├── CH4/CO2排放的影响因素\n│   └── 温度效应的讨论\n├── 4.4 多相态碳污染物关联性讨论\n│   ├── PCA结果的深层解读\n│   ├── 相关性网络的意义\n│   └── 碳在相态间迁移转化的机制\n├── 4.5 碳平衡讨论\n│   ├── 碳通量估算结果讨论\n│   ├── 与区域碳核算的对比\n│   └── 对碳减排的启示\n├── 4.6 研究局限性\n└── 4.7 未来展望\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.319854+00:00",
+      "version": 3
+    },
+    "discussion_library_二_单个发现的讨论框架_parcm模型": {
+      "value": {
+        "title": "二、单个发现的讨论框架（PARCM模型）",
+        "content": "每个发现的讨论遵循 **PARCM** 五步框架：\n\n### P - Point（观点/发现）\n重述本研究的核心发现（1-2句）\n\n**模板：**\n```\n本研究发现，[核心发现简述]。\n[具体数据支撑]。\n```\n\n### A - Agree/Contrast（一致性/对比性）\n与文献对比，指出一致或不一致\n\n**一致性模板：**\n```\n这一结果与[文献]的研究结论一致。\n[文献]在[条件]下也观察到了类似现象，\n其[指标]为[值]，与本研究结果([值])相近。\n```\n\n**差异性模板：**\n```\n然而，这一结果与[文献]有所不同。\n[文献]报道[不同结果]，可能的原因包括：\n(1) [原因1]；\n(2) [原因2]。\n```\n\n### R - Reason（原因/机制）\n解释为什么会出现这个发现\n\n**模板：**\n```\n这一现象可以从以下几个方面解释。\n首先，[机制1]。[详细说明]。\n其次，[机制2]。[详细说明]。\n此外，[机制3]也可能起到一定作用。\n```\n\n### C - Connection（关联）\n与其他发现或更广泛的问题关联\n\n**模板：**\n```\n结合[另一发现]来看，[关联分析]。\n这表明[更深层的认识]。\n```\n\n### M - Meaning（意义）\n阐明这个发现的理论或实践意义\n\n**模板：**\n```\n上述发现对于[理论/实践]具有重要意义。\n在理论层面，[理论贡献]。\n在实践层面，[应用价值]。\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.326583+00:00",
+      "version": 3
+    },
+    "discussion_library_三_discussion写作详解": {
+      "value": {
+        "title": "三、Discussion写作详解",
+        "content": "### 段落1：核心发现概述\n\n**目的：** 让读者快速了解本研究的主要发现\n\n**写作要点：**\n- 概括2-3个最重要的发现\n- 不要罗列所有数据\n- 点出研究的核心价值\n\n**中文模板：**\n```\n本研究以[研究对象]为研究区域，系统分析了[内容]。\n结果表明：(1) [发现1概述]；(2) [发现2概述]；(3) [发现3概述]。\n这些发现揭示了[核心认识]，对于[应用方向]具有重要参考价值。\n以下将对各主要发现进行深入讨论。\n```\n\n**英文模板：**\n```\nIn this study, [subject] was systematically investigated in [area].\nThe results revealed that: (1) [finding 1]; (2) [finding 2]; (3) [finding 3].\nThese findings shed light on [core insight] and hold important implications for [application].\nEach major finding is discussed in detail below.\n```\n\n### 段落2-N：逐个讨论发现\n\n**每个发现的讨论包含四个要素（PARCM精简版）：**\n\n1. **重述发现**（P）：1-2句\n2. **文献对比**（A）：2-3句，引用2-3篇文献\n3. **机制解释**（R）：3-5句，这是讨论的核心\n4. **意义阐述**（M）：1-2句\n\n**总长度建议：** 每个发现的讨论约500-800字\n\n### 倒数第2段：局限性\n\n**写作原则：**\n- 诚实但不过度贬低\n- 每个局限性后跟可能的改进方向\n- 不要把核心结论的关键不足放在这里\n\n**中文模板：**\n```\n本研究也存在一些局限性，主要包括：\n(1) [局限性1]。受[条件]限制，本研究[具体不足]。\n    今后可通过[改进方案]加以完善。\n(2) [局限性2]。[详细说明]。\n    后续研究可[改进方向]。\n(3) [局限性3]。[详细说明]。\n尽管存在上述局限，本研究在[方面]仍取得了有价值的发现。\n```\n\n**英文模板：**\n```\nSeveral limitations of this study should be acknowledged.\nFirst, [limitation 1]. Due to [constraint], [specific shortcoming].\nFuture studies could address this by [improvement].\nSecond, [limitation 2]. [Details].\nThird, [limitation 3]. [Details].\nDespite these limitations, valuable insights were gained regarding [aspect].\n```\n\n### 最后段：展望与总结\n\n**中文模板：**\n```\n未来研究可从以下几个方面深入：\n(1) [方向1，具体说明]；\n(2) [方向2，具体说明]；\n(3) [方向3，具体说明]。\n总体而言，本研究为[领域]提供了新的数据和认识，\n对于[应用]具有一定的指导意义。\n```\n\n**英文模板：**\n```\nFuture research could be extended in several directions:\n(1) [direction 1, specifics];\n(2) [direction 2, specifics];\n(3) [direction 3, specifics].\nOverall, this study provides new data and insights into [field],\nwhich can serve as a guide for [application].\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.332432+00:00",
+      "version": 3
+    },
+    "discussion_library_四_数据解释的逻辑框架": {
+      "value": {
+        "title": "四、数据解释的逻辑框架",
+        "content": "### 空间差异解释框架\n\n```\n发现：区域A的指标 > 区域B\n\n解释逻辑：\n1. 功能差异：区域A的功能是什么 → 产生什么影响\n2. 输入差异：区域A的污染输入途径和强度\n3. 环境条件差异：温度/湿度/通风等因素\n4. 累积效应：长期使用导致的累积\n\n模板：\n[区域A]的[指标]显著高于[区域B]，这主要与以下因素有关：\n(1) [区域A]为[功能]，[污染物来源]较为集中/频繁，\n    导致[影响]；\n(2) [区域A]的[环境条件]有利于/不利于[过程]，\n    进而影响了[指标]；\n(3) [其他因素]也可能起到了一定作用。\n```\n\n### 季节差异解释框架\n\n```\n发现：冬季指标 > 春季（或反之）\n\n解释逻辑：\n1. 温度效应：温度对微生物活性/化学反应的影响\n2. 稀释效应：降雨/径流对浓度的稀释\n3. 通风条件：季节变化导致的通风差异\n4. 使用模式：教学/生活活动的季节差异\n\n模板：\n[指标]在冬季显著高于春季，可能与以下因素有关：\n(1) 冬季温度较低，[过程]速率减慢，导致[结果]；\n(2) 春季降水量增加，对[污染物]产生稀释效应；\n(3) 冬季室内通风减少，[气态污染物]更易积聚。\n```\n\n### 相关性解释框架\n\n```\n发现：指标A与指标B呈正相关\n\n解释逻辑：\n1. 同源性：A和B可能来自同一来源\n2. 因果性：A可能是B的前体物或产物\n3. 共变性：A和B共同受第三因素驱动\n4. 迁移性：A和B在环境中共同迁移\n\n模板：\n[指标A]与[指标B]之间的显著正相关可能反映了：\n(1) [指标A]和[指标B]具有相同的来源或驱动因素；\n(2) [指标A]可能是[指标B]的[前体物/产物]，两者在[过程]中\n    存在[转化关系]；\n(3) 两者共同受[第三因素]的影响。\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.339049+00:00",
+      "version": 3
+    },
+    "discussion_library_五_与文献对比的高级写法": {
+      "value": {
+        "title": "五、与文献对比的高级写法",
+        "content": "### 一致性对比\n\n**基础写法：**\n```\n本研究结果与[文献]一致。\n```\n\n**高级写法：**\n```\n本研究发现[发现]，这与[文献1]([年份])在[研究对象]中\n报道的[类似结论]一致（[文献数据]）。\n同时，[文献2]([年份])在[不同区域]的研究也得出了\n相似结论（[文献数据]）。\n上述一致性表明，[发现]可能具有[普遍性/规律性]。\n```\n\n### 差异性对比\n\n**基础写法：**\n```\n本研究结果与[文献]不同。\n```\n\n**高级写法：**\n```\n值得注意的是，本研究发现[发现]，这与[文献]报道的\n[不同结果]存在明显差异。\n[文献]在[条件下]观察到[他们的结果]，\n而本研究在[不同条件下]得到[本研究结果]。\n这种差异可能归因于：\n(1) [原因1]：[解释]；\n(2) [原因2]：[解释]；\n(3) [原因3]：[解释]。\n因此，在将本研究结果外推到[其他条件]时应谨慎。\n```\n\n### 选择性对比的注意事项\n\n**常见错误：**\n- 只引用支持自己结论的文献（确认偏差）\n- 忽略与自己结论不一致的重要文献\n- 对不一致的结果不加解释\n\n**正确做法：**\n- 主动引用与自己不一致的文献\n- 对不一致给出合理的解释\n- 说明自己的研究在哪些方面是独特的\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.345082+00:00",
+      "version": 3
+    },
+    "discussion_library_六_机制解释的方法": {
+      "value": {
+        "title": "六、机制解释的方法",
+        "content": "### 层次1：描述机制\n\n```\n[现象]的产生机制如下：\n首先，[步骤1]，导致[结果1]。\n其次，[步骤2]，导致[结果2]。\n最终，[步骤3]，表现为[最终现象]。\n```\n\n### 层次2：引用机制文献\n\n```\n[现象]的机制已有较多报道。\n[文献1]([年份])提出[机制名称]，\n认为[机制简述]。\n[文献2]([年份])进一步指出[补充机制]。\n本研究的结果支持/部分支持上述机制，\n因为[证据]。\n```\n\n### 层次3：提出新机制假设\n\n```\n除上述已知机制外，本研究还发现了一些新的线索。\n[新发现]提示[新机制假设]。\n具体而言，[详细描述]。\n这一假设尚需[验证方法]来进一步证实。\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.354714+00:00",
+      "version": 3
+    },
+    "discussion_library_七_本课题discussion模板": {
+      "value": {
+        "title": "七、本课题Discussion模板",
+        "content": "### 4.1 固相碳污染物赋存特征讨论\n\n```\n本研究发现，校园污水管网沉积物中碳含量在不同功能区和不同季节\n均存在显著差异。以下从空间分布和季节变化两个方面进行讨论。\n\n【空间分布】\n从空间分布来看，[区域]的[指标]显著高于[区域]。\n这一结果与[文献]在[类似环境]中的研究结果一致/不同。\n[文献]报道[他们的发现]，并将其归因于[原因]。\n在本研究中，[区域]的高[指标]可能与以下因素有关：\n(1) [因素1]：[解释]；\n(2) [因素2]：[解释]。\n上述因素的综合作用导致了观测到的空间差异。\n\n【季节变化】\n从季节变化来看，冬季[指标]显著高于/低于春季。\n[文献]在[条件]下也观察到了类似/不同现象。\n冬季[指标]较高的原因可能包括：\n(1) [原因1]；\n(2) [原因2]。\n```\n\n### 4.2 多相态碳污染物关联性讨论\n\n```\nPCA和相关性分析结果表明，固、液、气三相态碳污染物之间\n存在复杂的关联关系。以下对这种关联性的意义进行讨论。\n\n【PCA结果解读】\nPCA分析共提取了[n]个主成分，累计方差贡献率达[X]%。\n第一主成分(PC1)主要由[变量1]、[变量2]、[变量3]贡献，\n反映了[解释1]。\n第二主成分(PC2)主要由[变量4]、[变量5]贡献，\n反映了[解释2]。\n这一结果表明，[多相态碳污染物]的[分布/变化]主要受\n[因素1]和[因素2]两个方面控制。\n\n【相态间迁移转化】\n相关性分析显示，[固相指标]与[液相指标]之间呈显著正相关\n(r=[值], p<[值])。这表明[固相]和[液相]碳之间\n存在[迁移/转化]关系。[文献]也报道了类似现象，\n并认为[机制]是其主要原因。\n```\n\n### 4.3 碳平衡讨论\n\n```\n碳平衡分析结果表明，校园污水管网系统的碳通量主要通过\n[途径1]和[途径2]实现。\n\n【碳通量估算】\n本研究估算的碳通量为[值]，其中[途径1]占[X]%，\n[途径2]占[Y]%。与[文献]在[类似系统]中的估算结果\n([值])相比，[比较结论]。\n\n【碳减排启示】\n上述碳平衡结果提示，要降低校园污水管网系统的碳排放，\n应重点关注[途径]，因为该途径贡献了[比例]的碳通量。\n具体措施可包括[措施1]和[措施2]。\n```\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.361937+00:00",
+      "version": 3
+    },
+    "discussion_library_八_discussion写作检查清单": {
+      "value": {
+        "title": "八、Discussion写作检查清单",
+        "content": "### 结构检查\n- [ ] 是否以核心发现概述开头？\n- [ ] 每个发现的讨论是否包含：发现、对比、机制、意义？\n- [ ] 是否有局限性讨论？\n- [ ] 是否有未来展望？\n- [ ] 段落之间是否有逻辑过渡？\n\n### 内容检查\n- [ ] 是否与Results重复？（Discussion应解释\"为什么\"，不只是描述\"是什么\"）\n- [ ] 是否引用了足够的文献进行对比？（每个发现至少2-3篇）\n- [ ] 是否主动引用了不一致的文献？\n- [ ] 机制解释是否有依据？\n- [ ] 结论推断是否过度？\n\n### 语言检查\n- [ ] 讨论部分是否以现在时为主？\n- [ ] 连接词是否恰当使用？\n- [ ] 避免使用\"prove\"（应用\"suggest\"/\"indicate\"）\n- [ ] 统计术语是否准确？\n\n---",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.369700+00:00",
+      "version": 3
+    },
+    "discussion_library_九_常见问题与解决方案": {
+      "value": {
+        "title": "九、常见问题与解决方案",
+        "content": "### 问题1：Discussion变成了Results的复述\n\n**错误示例：**\n```\n结果表明A区域的TOC为50 mg/L，B区域为30 mg/L。\nA区域的DOC为20 mg/L，B区域为15 mg/L。\n```\n\n**正确示例：**\n```\nA区域的TOC（50 mg/L）显著高于B区域（30 mg/L），\n这主要与A区域[功能]产生的有机质输入较多有关。\n[文献]在类似区域也观察到了相似趋势。\n```\n\n### 问题2：只引用支持自己的文献\n\n**解决方法：** 使用\"literature triangulation\"\n- 每个发现至少引用1篇一致的文献 + 1篇不一致的文献\n- 对不一致给出解释\n\n### 问题3：机制解释过于空泛\n\n**空泛示例：**\n```\n这可能与环境因素有关。\n```\n\n**具体示例：**\n```\n这可能与温度对微生物活性的影响有关。\n冬季低温条件下（平均8°C），微生物分解有机碳的速率降低，\n导致固相碳累积增加。\n```\n\n### 问题4：缺乏过渡\n\n**解决方法：** 使用过渡句\n```\n上述讨论了固相碳的赋存特征，接下来将讨论液相碳的分布规律。\n除空间差异外，季节变化也是影响碳赋存的重要因素。\n```",
+        "source_file": "04-discussion-library.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.376700+00:00",
+      "version": 3
+    },
+    "reviewer_comments_一_response_letter结构": {
+      "value": {
+        "title": "一、Response Letter结构",
+        "content": "```\nDear Editor,\n\nThank you for the opportunity to revise our manuscript [ID: XXX].\nWe have carefully addressed all comments from the reviewers.\nBelow we provide point-by-point responses.\n\n[修改总结 - 2-3句话概括主要修改]\n\nSincerely,\n[Authors]\n```\n\n### 完整模板\n\n```\nResponse to Reviewer Comments\nManuscript ID: [XXX]\nTitle: [Title]\n\n================================================================\nREVIEWER 1\n================================================================\n\nComment 1.1: [审稿人原文逐字引用]\n\nResponse: Thank you for this insightful comment. [回复内容].\n[说明具体修改，标注修改位置] (see Page X, Lines X-X, highlighted\nin blue)\n\nComment 1.2: [审稿人原文]\n\nResponse: [回复]\n\n================================================================\nREVIEWER 2\n================================================================\n\n...\n```\n\n---",
+        "source_file": "07-reviewer-comments.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.383259+00:00",
+      "version": 3
+    },
+    "reviewer_comments_二_回复句式库": {
+      "value": {
+        "title": "二、回复句式库",
+        "content": "### 2.1 同意并修改\n\n```\n英文：\n- \"We thank the reviewer for this valuable suggestion. We have\n   revised the text accordingly (Page X, Lines X-X).\"\n- \"We agree with the reviewer and have added [具体内容] as\n   suggested (Page X).\"\n- \"This is an excellent point. We have incorporated the suggested\n   analysis/clarification.\"\n\n中文：\n- \"感谢审稿人的建议。我们已按要求修改（见第X页，第X-X行）。\"\n- \"我们同意审稿人的观点，已补充说明如下：...\"\n```\n\n### 2.2 同意但部分采纳\n\n```\n- \"We appreciate this suggestion. While we agree that [部分同意],\n   we have chosen to retain [保留部分] because [理由]. However,\n   we have added a clarification in the Discussion (Page X).\"\n- \"Thank you for this comment. We have addressed it by [具体做法],\n   which we believe achieves the same purpose as suggested.\"\n```\n\n### 2.3 礼貌地不同意\n\n```\n- \"We respectfully disagree with this interpretation for the\n   following reasons: (1)... (2)... However, we have revised the\n   text to better explain our reasoning (Page X).\"\n- \"We thank the reviewer for raising this point. While [审稿人观点],\n   our data suggest [我们的证据]. We have added a discussion of\n   this alternative interpretation (Page X).\"\n- \"This is a valid concern. However, [解释原因]. We have added a\n   sentence acknowledging this limitation (Page X).\"\n```\n\n### 2.4 需要补充实验/数据\n\n```\n- \"We appreciate the reviewer's suggestion to [实验建议].\n   Due to [限制原因], we were unable to perform this analysis.\n   However, we have [替代做法] to address this concern.\"\n- \"We agree this would strengthen the study. We have added [补充内容]\n   in the revised manuscript. [说明结果]\"\n```\n\n### 2.5 审稿人误解/不清晰\n\n```\n- \"We apologize for the unclear description. We have revised the\n   text to better explain [内容] (Page X, Lines X-X).\"\n- \"We thank the reviewer for pointing out this ambiguity. We have\n   rewritten this section to clarify that [澄清内容].\"\n```\n\n---",
+        "source_file": "07-reviewer-comments.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.389502+00:00",
+      "version": 3
+    },
+    "reviewer_comments_三_各类型审稿意见回复模板": {
+      "value": {
+        "title": "三、各类型审稿意见回复模板",
+        "content": "### 3.1 \"The novelty is insufficient\"\n\n```\nResponse: We thank the reviewer for this concern. In the revised\nmanuscript, we have:\n(1) Strengthened the novelty statement in the Introduction (Page X),\n    clearly articulating how this study differs from previous work.\n(2) Added a paragraph in the Discussion highlighting the unique\n    contributions (Page X).\n(3) Revised the Abstract to emphasize the novel aspects.\n\nSpecifically, this study is the first to [具体创新点], which\ndistinguishes it from prior studies that [对比].\n```\n\n### 3.2 \"The Discussion needs improvement\"\n\n```\nResponse: We agree with the reviewer that the Discussion needed\nmore depth. We have substantially revised the Discussion section:\n\n(1) Added mechanistic explanations for [发现] (Page X, Lines X-X).\n(2) Included comparison with [补充文献] studies.\n(3) Expanded the discussion of [具体方面].\n\nThe revised Discussion now covers [概括改进内容].\n```\n\n### 3.3 \"More references are needed\"\n\n```\nResponse: We have added [N] additional references to strengthen the\nliterature support:\n- [Ref X]: Supports the statement about [内容] (Page X)\n- [Ref X]: Provides comparison data for [内容] (Page X)\n- [Ref X]: Discusses [相关内容] (Page X)\n\nThe total number of references has increased from [N1] to [N2].\n```\n\n### 3.4 \"Statistical analysis needs improvement\"\n\n```\nResponse: We thank the reviewer for this important suggestion. We\nhave improved the statistical analysis:\n\n(1) Added [检验方法] to verify [内容].\n(2) Provided confidence intervals for all regression parameters.\n(3) Added a multiple comparison correction (Bonferroni/Holm) for\n    [分析].\n\nThe revised results are presented in Table X and discussed on Page X.\n```\n\n### 3.5 \"The figures need improvement\"\n\n```\nResponse: We have revised the figures as suggested:\n- Fig. X: [具体修改内容]\n- Fig. X: [具体修改内容]\n- Added new Fig. X to show [新内容]\n\nAll figures now meet the journal's resolution and formatting\nrequirements.\n```\n\n### 3.6 \"English language needs improvement\"\n\n```\nResponse: We thank the reviewer for noting the language issues.\nThe manuscript has been thoroughly revised by a professional\nediting service [or: a native English-speaking co-author].\nChanges are too extensive to mark individually, but the entire\nmanuscript has been improved for clarity and readability.\n```\n\n---",
+        "source_file": "07-reviewer-comments.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.393841+00:00",
+      "version": 3
+    },
+    "reviewer_comments_四_rebuttal策略": {
+      "value": {
+        "title": "四、Rebuttal策略",
+        "content": "### 4.1 核心原则\n\n1. **永远先感谢** — 不管意见多尖锐\n2. **引用原文** — 逐字引用审稿人的话\n3. **有理有据** — 用数据/文献支撑回复\n4. **标注位置** — 每次回复都标注修改位置\n5. **区分轻重** — 重要问题详细回复，小问题简洁回复\n\n### 4.2 回复长度指南\n\n| 意见类型 | 回复长度 |\n|---------|---------|\n| 简单格式问题 | 1-2句 |\n| 需要解释的观点 | 1段（3-5句） |\n| 需要补充数据 | 2-3段 + 图/表 |\n| 核心争议点 | 详细回复 + 文献支撑 |\n\n### 4.3 常见陷阱\n\n- **不要反驳情绪** — 只回应事实\n- **不要过度道歉** — \"We apologize\"用一次就够\n- **不要空口承诺** — \"Future work will...\"不如具体修改\n- **不要遗漏任何意见** — 逐条回应，包括minor comments\n- **不要大幅重写** — 修改范围要与意见程度匹配\n\n---",
+        "source_file": "07-reviewer-comments.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.400485+00:00",
+      "version": 3
+    },
+    "reviewer_comments_五_审稿回复模板_环境科学版": {
+      "value": {
+        "title": "五、审稿回复模板（环境科学版）",
+        "content": "### 针对\"Discussion不足\"的回复\n\n```\nComment: The Discussion section lacks mechanistic explanations and\nis largely a repetition of the results.\n\nResponse: We sincerely thank the reviewer for this constructive\ncriticism. We have completely rewritten the Discussion section\nwith the following improvements:\n\n(1) Mechanistic explanations: Each finding is now accompanied by\n    a biogeochemical mechanism. For example, we now explain why\n    CH4 concentrations increase along the pipeline in terms of\n    progressive DO depletion and methanogenic activity (Page X,\n    Lines X-X).\n\n(2) Literature comparison: We have added comparisons with X\n    published studies, including [作者] [年份] who reported\n    similar findings in [地点].\n\n(3) Integration: We have added a new subsection (Section X.X)\n    discussing the implications of our findings for carbon\n    emission accounting in urban sewage systems.\n\nThe revised Discussion is approximately [X] words, compared to\n[X] words in the original version.\n```\n\n### 针对\"样本量不足\"的回复\n\n```\nComment: The sample size (n=X) may not be sufficient to support\nthe statistical conclusions.\n\nResponse: We appreciate this concern. While our sample size is\nrelatively modest, we have taken the following steps to ensure\nstatistical robustness:\n\n(1) We performed power analysis and confirmed that our sample\n    size provides >80% power to detect the observed effect sizes\n    at α=0.05.\n\n(2) We supplemented parametric tests with non-parametric\n    alternatives (Mann-Whitney U), which do not assume normality.\n\n(3) We have added a statement acknowledging the sample size\n    limitation in the revised Discussion (Page X).\n\nWe note that similar studies in the field [references] have used\ncomparable sample sizes.\n```",
+        "source_file": "07-reviewer-comments.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.404223+00:00",
+      "version": 3
+    },
+    "structure_templates_中文硕士论文结构模板": {
+      "value": {
+        "title": "中文硕士论文结构模板",
+        "content": "### 总体结构\n\n```\n第1章 绪论 (约3000-5000字)\n├── 1.1 研究背景与意义 (1500-2000字)\n│   ├── 1.1.1 研究背景\n│   └── 1.1.2 研究意义\n├── 1.2 国内外研究现状 (3000-5000字)\n│   ├── 1.2.1 国外研究现状\n│   ├── 1.2.2 国内研究现状\n│   └── 1.2.3 现有研究不足\n├── 1.3 研究内容与目标 (500-800字)\n├── 1.4 技术路线 (图+200字说明)\n└── 1.5 创新点 (300-500字)\n```\n\n### 各章结构要求\n\n#### 第1章 绪论\n**写作模式：** 从宏观到微观，从背景到问题\n\n**学术逻辑链：**\n```\n大背景（全球/国家层面）\n  → 具体领域问题\n    → 现有研究做了什么\n      → 还存在什么不足（研究空白）\n        → 本研究要解决什么问题\n          → 怎么解决（技术路线）\n            → 预期成果（创新点）\n```\n\n**可复用模板（研究背景）：**\n```\n[领域]是[宏观背景]的重要组成部分。近年来，随着[驱动因素]，\n[问题]日益突出，已成为制约[发展]的关键因素之一。\n[具体数据/事实]表明，[量化说明问题严重性]。\n因此，开展[本研究方向]研究具有重要的理论意义和实践价值。\n```\n\n**本课题示例：**\n```\n城市污水管网系统是城市基础设施的重要组成部分。\n近年来，随着城镇化进程加快和污水收集范围扩大，\n管网系统中碳污染物的赋存与迁移问题日益突出，\n已成为制约城市碳减排和碳中和目标实现的关键因素之一。\n研究表明，污水管网中碳污染物以固、液、气三种相态存在，\n其赋存特征和转化规律直接影响碳核算的准确性和减排策略的制定。\n```\n\n**常见错误：**\n- 研究背景过于宏大，与具体课题脱节\n- 文献综述是简单罗列而非批判性分析\n- \"研究空白\"表述过于主观（\"很少有人研究\"）\n- 技术路线图信息量不足或过于复杂\n\n---\n\n#### 第2章 材料与方法 (约5000-8000字)\n```\n第2章 材料与方法\n├── 2.1 研究区域概况 (1000-1500字)\n│   ├── 2.1.1 地理位置\n│   ├── 2.1.2 气候特征\n│   └── 2.1.3 污水管网概况\n├── 2.2 样品采集与处理 (1500-2000字)\n│   ├── 2.2.1 采样点布设\n│   ├── 2.2.2 采样时间与频次\n│   └── 2.2.3 样品预处理方法\n├── 2.3 分析测试方法 (1500-2000字)\n│   ├── 2.3.1 固相指标测定\n│   ├── 2.3.2 液相指标测定\n│   └── 2.3.3 气相指标测定\n├── 2.4 数据处理与统计分析 (1000-1500字)\n│   ├── 2.4.1 数据预处理\n│   ├── 2.4.2 统计分析方法\n│   └── 2.4.3 软件与工具\n└── 2.5 质量控制与保证 (500字)\n```\n\n**可复用模板（采样方法）：**\n```\n本研究于[时间]在[地点]开展采样工作。根据[布点依据]，\n在[区域]设置了[数量]个采样点，分别为[S1-Sn]。\n采样点具体位置如图[X]所示。采样过程中，\n[气体/液体/固体]样品分别采用[具体方法/设备]采集，\n采集后立即[保存/处理方法]，并在[时间]内完成[分析/测定]。\n每个采样点设置[n]个平行样，以确保数据的可靠性。\n```\n\n**常见错误：**\n- 方法描述不完整，无法复现\n- 缺少质量控制措施说明\n- 统计方法选择依据未交代\n- 设备型号和参数信息不全\n\n---\n\n#### 第3章 结果与分析 (约8000-12000字)\n```\n第3章 结果与分析\n├── 3.1 固相碳污染物赋存特征 (2000-3000字)\n│   ├── 3.1.1 空间分布特征\n│   └── 3.1.2 季节变化特征\n├── 3.2 液相碳污染物赋存特征 (2000-3000字)\n│   ├── 3.2.1 空间分布特征\n│   └── 3.2.2 季节变化特征\n├── 3.3 气相碳污染物赋存特征 (2000-3000字)\n│   ├── 3.3.1 空间分布特征\n│   └── 3.3.2 季节变化特征\n├── 3.4 多相态碳污染物关联分析 (1500-2000字)\n│   ├── 3.4.1 相关性分析\n│   └── 3.4.2 主成分分析\n└── 3.5 碳平衡分析 (1500-2000字)\n```\n\n**写作模式：** 先描述现象，再解释原因\n\n**可复用模板（描述数据）：**\n```\n由图[X]可知，[指标]在[区域/时间]呈现出[变化趋势]的特征。\n具体而言，[指标]的变化范围为[X-Y]，平均值为[Z±SD]。\n其中，[最高值点]的[指标]最高，达到[X]；\n[最低值点]的[指标]最低，仅为[Y]。\n方差分析结果表明，[不同组别]之间[指标]存在显著差异\n(F=[值], p<[0.05/0.01])。\n```\n\n**可复用模板（空间对比）：**\n```\n从空间分布来看，[指标]呈现出明显的[空间规律]。\n[区域A]的[指标]显著高于/低于[区域B]\n([具体值] vs [具体值], p<[值])，\n这可能与[原因1]和[原因2]有关。\n[区域A]主要为[功能描述]，[污染物来源/影响因素]较为集中；\n而[区域B]则以[功能描述]为主，[影响因素]相对较少。\n```\n\n**常见错误：**\n- 只描述数据不解释原因\n- 图表与文字描述不一致\n- 过度解读统计显著性\n- 缺少必要的统计检验结果\n\n---\n\n#### 第4章 讨论 (约5000-8000字)\n```\n第4章 讨论\n├── 4.1 [核心发现1的讨论] (1500-2000字)\n├── 4.2 [核心发现2的讨论] (1500-2000字)\n├── 4.3 [核心发现3的讨论] (1500-2000字)\n├── 4.4 研究局限性 (500-800字)\n└── 4.5 研究展望 (500-800字)\n```\n\n**写作模式：** 讨论 = 本研究发现 + 与文献对比 + 机制解释\n\n**可复用模板（发现+对比）：**\n```\n本研究发现，[核心发现描述]。这一结果与[文献1]的研究结果\n[一致/不一致]。[文献1]在[研究对象]中也观察到了类似现象，\n并将其归因于[原因]。然而，[文献2]在[不同条件下]的研究\n得出了不同的结论，[具体差异]。这种差异可能源于[原因分析]，\n包括[因素1]、[因素2]等。\n```\n\n**可复用模板（机制解释）：**\n```\n[发现]的可能机制如下：首先，[机制1]。[详细解释]。\n其次，[机制2]。[详细解释]。\n此外，[机制3]也可能起到一定作用。[详细解释]。\n上述机制的综合作用可能导致了本研究观察到的[发现]。\n```\n\n**常见错误：**\n- 讨论只是重复Results的内容\n- 与文献对比时选择性引用\n- 机制解释缺乏依据或过度推断\n- ",
+        "source_file": "09-structure-templates.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.487321+00:00",
+      "version": 3
+    },
+    "structure_templates_sci论文结构模板": {
+      "value": {
+        "title": "SCI论文结构模板",
+        "content": "### 总体结构（IMRaD）\n\n```\nTitle (标题)\nAbstract (摘要, 200-300 words)\n  ├── Background\n  ├── Methods\n  ├── Results\n  └── Conclusions\nIntroduction (引言, 500-800 words)\nMaterials and Methods (材料与方法, 800-1200 words)\nResults (结果, 1500-2500 words)\nDiscussion (讨论, 1500-2500 words)\nConclusions (结论, 150-200 words)\nAcknowledgements\nReferences\nSupplementary Materials (可选)\n```\n\n### SCI各部分写作要点\n\n#### Title（标题）\n**规则：**\n- 10-15个实词为宜\n- 避免缩写（除非广为人知）\n- 包含关键变量和研究范围\n- 避免问句式标题\n\n**模板：**\n```\n[方法/手段] of [研究对象] in [研究范围]:\n[关键发现/特征]\n```\n\n**本课题示例：**\n```\nOccurrence and Distribution of Carbon Pollutants\nin Solid-Liquid-Gas Phases in Campus Sewage Networks:\nA Carbon Balance Analysis\n```\n\n#### Abstract（摘要）\n**结构：1+1+2+1+1**\n```\n[1句] Background: [研究背景/问题]\n[1句] Objectives: [研究目的]\n[2句] Methods: [研究方法和数据来源]\n[2-3句] Results: [主要发现，含关键数据]\n[1句] Conclusions: [核心结论和意义]\n```\n\n**时态：**\n- Background/Conclusions: 现在时\n- Methods/Results: 过去时\n\n#### Introduction（引言）\n**结构：漏斗模型**\n```\nParagraph 1: 大背景（宏观→具体领域）\nParagraph 2: 文献综述（现有研究做了什么）\nParagraph 3: 研究空白（还缺什么）\nParagraph 4: 本研究（目的+方法+创新点+结构安排）\n```\n\n**高级写法：** 用\"However, ... remains unclear/largely unknown\"引出研究空白\n\n#### Materials and Methods\n**时态：** 全部过去时\n**语态：** 被动语态为主\n\n#### Results\n**时态：** 过去时\n**原则：** 客观描述数据，不做推断（推断留给Discussion）\n\n#### Discussion\n**结构：漏斗模型（与Introduction反向）**\n```\nParagraph 1: 核心发现概述\nParagraph 2-N: 逐个讨论主要发现（对比文献+机制解释）\nLast-1 paragraph: 局限性\nLast paragraph: 展望/结论\n```\n\n---",
+        "source_file": "09-structure-templates.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.492821+00:00",
+      "version": 3
+    },
+    "structure_templates_硕士论文各章字数分配参考": {
+      "value": {
+        "title": "硕士论文各章字数分配参考",
+        "content": "| 章节 | 字数范围 | 占比建议 |\n|------|---------|---------|\n| 摘要 | 500-800字 | - |\n| 第1章 绪论 | 5000-8000 | 10-15% |\n| 第2章 材料与方法 | 5000-8000 | 10-15% |\n| 第3章 结果与分析 | 10000-15000 | 25-30% |\n| 第4章 讨论 | 5000-8000 | 15-20% |\n| 第5章 结论与展望 | 1500-2500 | 5% |\n| 参考文献 | 80-120篇 | - |\n| 总字数 | 30000-50000 | 100% |\n\n---",
+        "source_file": "09-structure-templates.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.497075+00:00",
+      "version": 3
+    },
+    "structure_templates_技术路线图模板": {
+      "value": {
+        "title": "技术路线图模板",
+        "content": "```\n研究区域概况调研\n    ↓\n采样点布设 → 固相样品 → [测定方法1]\n    ↓         液相样品 → [测定方法2]\n多季节采样   气相样品 → [测定方法3]\n    ↓\n数据整理与质控\n    ↓\n┌──────────┬──────────┬──────────┐\n↓          ↓          ↓          ↓\n描述统计   空间分析   多变量分析  碳平衡\n(均值±SD)  (分布图)   (PCA/HCA)  (质量守恒)\n    ↓          ↓          ↓          ↓\n└──────────┴──────────┴──────────┘\n    ↓\n综合讨论与机理解释\n    ↓\n结论与展望\n```",
+        "source_file": "09-structure-templates.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.501694+00:00",
+      "version": 3
+    }
+  },
+  "changelog": [
+    {
+      "action": "create",
+      "key": "learned_abstract_5424",
+      "old": null,
+      "new": "{'pattern': 'Partial nitrif[VAR]ation has the advantages of saving energy and reducing the need for carbon sources in mun[VAR]ipal wastewater treatment.', 'function': 'abstract', 'section_type': 'abst",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_background_3936",
+      "old": null,
+      "new": "{'pattern': 'However, for mun[VAR]ipal wastewater with low ammonia, start-up and maintenance of partial nitrif[VAR]ation is a worldwide challenge.', 'function': 'background', 'section_type': 'abstract",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_5604",
+      "old": null,
+      "new": "{'pattern': 'Here we developed a pilot-scale [VAR]uble sludge system consisting of two sequencing ba[VAR]h reactors for partial nitrif[VAR]ation ([NUM] m[NUM]) and denitrif[VAR]ation/anaerob[VAR]ammon",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_8261",
+      "old": null,
+      "new": "{'pattern': 'Partial nitrif[VAR]ation was maintained at no ammonium remaining with a nitrite accumulation rate of [VALUE_UNIT].', 'function': 'abstract', 'section_type': 'abstract', 'count': 1, 'sourc",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_result_4900",
+      "old": null,
+      "new": "{'pattern': 'This study found that partial nitrif[VAR]ation system effluent chem[VAR]al oxygen demand increased from [NUM] mg L−[NUM] to [NUM] mg L−[NUM] accompanied by transformation from complete ni",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_9421",
+      "old": null,
+      "new": "{'pattern': 'In the denitrif[VAR]ation/anammox system, the reduction of nitrite to nitrogen required about [VALUE_UNIT] less carbon consumption than nitrate.', 'function': 'abstract', 'section_type': ",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_8389",
+      "old": null,
+      "new": "{'pattern': 'High nitrogen removal was achieved with effluent total inorgan[VAR]nitrogen of [NUM] mg L−[NUM] without carbon addition.', 'function': 'abstract', 'section_type': 'abstract', 'count': 1, ",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_4669",
+      "old": null,
+      "new": "{'pattern': 'This work provided a pilot-scale demonstration of low-carbon high-nitrogen removal.', 'function': 'abstract', 'section_type': 'abstract', 'count': 1, 'source': 'auto_learn:wastewater nitr",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_6216",
+      "old": null,
+      "new": "{'pattern': 'Yongzhen Peng and colleagues achieved high nitrogen removal in mun[VAR]ipal wastewater treatment by sequentially combining partial nitrif[VAR]ation and denitrif[VAR]ation reactors.', 'fun",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_7413",
+      "old": null,
+      "new": "{'pattern': 'This pilot-scale study provides a low-energy and low-carbon technology toward a sustainable wastewater treatment solution.', 'function': 'abstract', 'section_type': 'abstract', 'count': 1",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_7365",
+      "old": null,
+      "new": "{'pattern': 'To address the challenges associated with biolog[VAR]al treatment of high-salinity wastewater, a novel salt-tolerant strain, Zobellella en[VAR][VAR]yt[VAR]a W[NUM], was isolated.', 'funct",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_5002",
+      "old": null,
+      "new": "{'pattern': 'This strain exhibited heterotro[VAR][VAR]nitrif[VAR]ation-aerob[VAR]denitrif[VAR]ation (HN-AD) capabilities.', 'function': 'abstract', 'section_type': 'abstract', 'count': 1, 'source': 'a",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_6795",
+      "old": null,
+      "new": "{'pattern': 'Strain W[NUM] could grow and remove ammonium in high-salinity environments with salinity levels ranging from [NUM] to [VALUE_UNIT] (w/v).', 'function': 'abstract', 'section_type': 'abstra",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_7299",
+      "old": null,
+      "new": "{'pattern': 'At [VALUE_UNIT] salinity, strain W[NUM] demonstrated high removal eff[VAR]iencies for nitrite, ammonium, and nitrate ([VALUE_UNIT], [VALUE_UNIT], and [VALUE_UNIT], respectively), when the",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_8010",
+      "old": null,
+      "new": "{'pattern': 'In cases of mixed nitrogen sources, total nitrogen removal eff[VAR]iency of strain reached [VALUE_UNIT].', 'function': 'abstract', 'section_type': 'abstract', 'count': 1, 'source': 'auto_",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.788891+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_6330",
+      "old": null,
+      "new": "{'pattern': 'The nitrogen balance analysis confirmed the utilization of nitrogen sources by strain W[NUM] through both assimilation and dissimilation.', 'function': 'abstract', 'section_type': 'abstra",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.804512+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_8512",
+      "old": null,
+      "new": "{'pattern': 'Through the amplif[VAR]ation of functional genes involved in nitrogen metabolism (i.e. , hao, napA, nirS, and nosZ), the nitrogen metabolism pathway of strain W[NUM] was pred[VAR]ted to b",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.804512+00:00"
+    },
+    {
+      "action": "create",
+      "key": "learned_abstract_8936",
+      "old": null,
+      "new": "{'pattern': 'The study reveals that the novel W[NUM] strain can eff[VAR]iently remove total nitrogen from high-salinity wastewater and has signif[VAR]ant potential for biolog[VAR]al treatment of such ",
+      "source": "auto_learn",
+      "timestamp": "2026-06-04T09:23:51.804512+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_使用说明",
+      "old": null,
+      "new": "{'title': '使用说明', 'content': '按功能分类，每个句式提供中文和英文版本。可直接套用，将[变量]替换为具体内容。\\n标注使用场景（Introduction/Methods/Results/Discussion/Conclusion）。\\n\\n---', 'source_file': '03-sentence-bank.md'}",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.118522+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_一_研究背景与开篇",
+      "old": null,
+      "new": "{'title': '一、研究背景与开篇', 'content': '### 宏观背景引入\\n\\n**中文：**\\n- 随着[进程/发展]的不断推进，[问题]已成为[领域]关注的焦点。\\n- [领域]是[上层系统]的重要组成部分，对[影响对象]具有重要影响。\\n- 近年来，[现象]引起了学术界的广泛关注。\\n- 在[大背景]的背景下，[具体问题]的研究具有重要的理论和现实意义。\\n\\n**Engl",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.118522+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_二_文献综述",
+      "old": null,
+      "new": "{'title': '二、文献综述', 'content': '### 总结前人研究\\n\\n**中文：**\\n- [作者]等([年份])对[对象]进行了研究，发现[结论]。\\n- 众多学者对[问题]开展了大量研究，取得了丰硕成果。\\n- 前人研究主要集中在以下几个方面：一是[方面1]，二是[方面2]，三是[方面3]。\\n- 综合已有研究可以发现，[总结性发现]。\\n\\n**English:**\\n",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.118522+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_三_研究空白与问题提出",
+      "old": null,
+      "new": "{'title': '三、研究空白与问题提出', 'content': '### 指出研究空白\\n\\n**中文：**\\n- 目前，关于[问题]的研究仍相对较少/尚不充分。\\n- 尽管[已有研究]，但[具体空白]仍缺乏系统研究。\\n- 现有研究多集中于[方面A]，而对[方面B]关注不足。\\n- 已有研究多采用[方法A]，而[方法B]的应用尚不普遍。\\n- 上述研究为本课题提供了重要参考，但[不足]仍",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.123829+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_四_方法描述",
+      "old": null,
+      "new": "{'title': '四、方法描述', 'content': '### 采样方法\\n\\n**中文：**\\n- 样品采集于[时间]在[地点]进行。\\n- 采样点布设依据[原则/标准]，共设置[n]个采样点。\\n- 每个采样点设置[n]个平行样，以保证数据的可靠性。\\n- 采样过程中严格遵守[规范/标准]操作。\\n\\n**English:**\\n- Samples were collected at ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.123829+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_五_数据描述与结果表述",
+      "old": null,
+      "new": "{'title': '五、数据描述与结果表述', 'content': '### 描述数据范围\\n\\n**中文：**\\n- [指标]的变化范围为[X]~[Y]，平均值为[Z±SD]。\\n- [指标]的最低值出现在[地点/时间]，为[X]；\\n  最高值出现在[地点/时间]，为[Y]。\\n- [指标]的中位数为[X]，变异系数为[Y]%。\\n- 整体来看，[指标]呈现[趋势]。\\n\\n**Engli",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.123829+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_六_对比与分析",
+      "old": null,
+      "new": "{'title': '六、对比与分析', 'content': '### 相似性对比\\n\\n**中文：**\\n- 本研究结果与[文献]基本一致。\\n- [发现]与前人研究结果相吻合。\\n- 与[研究]类似，本研究也发现[发现]。\\n- 这一结果进一步验证了[理论/观点]。\\n\\n**English:**\\n- Our findings are consistent with those repor",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.128966+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_七_因果逻辑与机制解释",
+      "old": null,
+      "new": "{'title': '七、因果逻辑与机制解释', 'content': '### 表达因果关系\\n\\n**中文：**\\n- [现象]主要是由[原因]导致的。\\n- [原因]可能是造成[现象]的主要因素。\\n- [现象]与[因素]密切相关，[详细说明]。\\n- 综合以上分析，可以推断[结论]。\\n\\n**English:**\\n- [Phenomenon] was primarily attribu",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.129907+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_八_讨论常用句式",
+      "old": null,
+      "new": "{'title': '八、讨论常用句式', 'content': '### 引出讨论要点\\n\\n**中文：**\\n- 本研究的核心发现是[发现]，这一发现具有以下几方面的重要意义。\\n- 关于[发现1]，本研究结果表明[结论]。\\n- [发现]可以从以下几个方面进行讨论。\\n\\n**English:**\\n- The key finding of this study is [finding], ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.129907+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_九_结论常用句式",
+      "old": null,
+      "new": "{'title': '九、结论常用句式', 'content': '### 总结性结论\\n\\n**中文：**\\n- 综上所述，本研究得出以下主要结论：\\n- 本研究以[对象]为研究对象，采用[方法]，系统研究了[内容]。\\n- 主要结论如下：\\n- 上述研究结果为[应用]提供了科学依据和技术支撑。\\n\\n**English:**\\n- In summary, the main conclusion",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.134685+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_十_过渡与连接词",
+      "old": null,
+      "new": "{'title': '十、过渡与连接词', 'content': '### 段落过渡\\n\\n**中文：**\\n- 在此基础上，进一步分析了[内容]。\\n- 为了深入理解[问题]，本研究还[做了什么]。\\n- 基于上述分析，接下来将讨论[内容]。\\n- 除了[方面]，[另一方面]同样值得关注。\\n\\n**English:**\\n- Building on this, [content] was fu",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.134685+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_十一_环境科学领域特有句式",
+      "old": null,
+      "new": "{'title': '十一、环境科学领域特有句式', 'content': '### 污染物描述\\n\\n**中文：**\\n- [污染物]是[来源]产生的主要[类型]污染物之一。\\n- [污染物]的[浓度/含量]远超/低于[标准值]。\\n- [区域]的[污染水平]处于[评价]水平。\\n- [污染物]在[相态]中的赋存形态主要包括[形态1]和[形态2]。\\n\\n**English:**\\n- [Pol",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.139915+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sentence_bank_使用备忘",
+      "old": null,
+      "new": "{'title': '使用备忘', 'content': '- 所有句式中的[变量]必须替换为具体内容\\n- 注意时态一致性（中文不明显，英文必须注意）\\n- 统计数据格式：均值±标准差 (mean ± SD)\\n- 统计检验格式：F(df1, df2)=值, p=值 或 t(df)=值, p=值\\n- 相关系数格式：r(df)=值, p=值', 'source_file': '03-senten",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.143608+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_discussion的本质",
+      "old": null,
+      "new": "{'title': 'Discussion的本质', 'content': '**Discussion = 本研究发现 + 与文献对比 + 机制解释 + 意义阐述**\\n\\nDiscussion不是Results的重复，而是：\\n- 解释数据\"为什么\"是这样（机制）\\n- 与前人研究对比（一致性与差异性）\\n- 推导更深层的意义（理论贡献与应用价值）\\n- 承认不足并展望未来\\n\\n---', '",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.146519+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_一_discussion结构模型",
+      "old": null,
+      "new": "{'title': '一、Discussion结构模型', 'content': '### 模型A：漏斗模型（最常用）\\n\\n```\\n段落1: 核心发现概述（最宽/最概括）\\n  ↓\\n段落2: 发现1的讨论（对比文献+机制）\\n  ↓\\n段落3: 发现2的讨论（对比文献+机制）\\n  ↓\\n段落4: 发现3的讨论（对比文献+机制）\\n  ↓\\n段落5: 局限性（收窄）\\n  ↓\\n段落6: 展",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.146519+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_二_单个发现的讨论框架_parcm模型",
+      "old": null,
+      "new": "{'title': '二、单个发现的讨论框架（PARCM模型）', 'content': '每个发现的讨论遵循 **PARCM** 五步框架：\\n\\n### P - Point（观点/发现）\\n重述本研究的核心发现（1-2句）\\n\\n**模板：**\\n```\\n本研究发现，[核心发现简述]。\\n[具体数据支撑]。\\n```\\n\\n### A - Agree/Contrast（一致性/对比性）\\n与",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.151555+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_三_discussion写作详解",
+      "old": null,
+      "new": "{'title': '三、Discussion写作详解', 'content': '### 段落1：核心发现概述\\n\\n**目的：** 让读者快速了解本研究的主要发现\\n\\n**写作要点：**\\n- 概括2-3个最重要的发现\\n- 不要罗列所有数据\\n- 点出研究的核心价值\\n\\n**中文模板：**\\n```\\n本研究以[研究对象]为研究区域，系统分析了[内容]。\\n结果表明：(1) [发现1概述",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.151555+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_四_数据解释的逻辑框架",
+      "old": null,
+      "new": "{'title': '四、数据解释的逻辑框架', 'content': '### 空间差异解释框架\\n\\n```\\n发现：区域A的指标 > 区域B\\n\\n解释逻辑：\\n1. 功能差异：区域A的功能是什么 → 产生什么影响\\n2. 输入差异：区域A的污染输入途径和强度\\n3. 环境条件差异：温度/湿度/通风等因素\\n4. 累积效应：长期使用导致的累积\\n\\n模板：\\n[区域A]的[指标]显著高于[区",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.151555+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_五_与文献对比的高级写法",
+      "old": null,
+      "new": "{'title': '五、与文献对比的高级写法', 'content': '### 一致性对比\\n\\n**基础写法：**\\n```\\n本研究结果与[文献]一致。\\n```\\n\\n**高级写法：**\\n```\\n本研究发现[发现]，这与[文献1]([年份])在[研究对象]中\\n报道的[类似结论]一致（[文献数据]）。\\n同时，[文献2]([年份])在[不同区域]的研究也得出了\\n相似结论（[文献数据",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.157010+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_六_机制解释的方法",
+      "old": null,
+      "new": "{'title': '六、机制解释的方法', 'content': '### 层次1：描述机制\\n\\n```\\n[现象]的产生机制如下：\\n首先，[步骤1]，导致[结果1]。\\n其次，[步骤2]，导致[结果2]。\\n最终，[步骤3]，表现为[最终现象]。\\n```\\n\\n### 层次2：引用机制文献\\n\\n```\\n[现象]的机制已有较多报道。\\n[文献1]([年份])提出[机制名称]，\\n认为[",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.157010+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_七_本课题discussion模板",
+      "old": null,
+      "new": "{'title': '七、本课题Discussion模板', 'content': '### 4.1 固相碳污染物赋存特征讨论\\n\\n```\\n本研究发现，校园污水管网沉积物中碳含量在不同功能区和不同季节\\n均存在显著差异。以下从空间分布和季节变化两个方面进行讨论。\\n\\n【空间分布】\\n从空间分布来看，[区域]的[指标]显著高于[区域]。\\n这一结果与[文献]在[类似环境]中的研究结果一致/不同",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.162508+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_八_discussion写作检查清单",
+      "old": null,
+      "new": "{'title': '八、Discussion写作检查清单', 'content': '### 结构检查\\n- [ ] 是否以核心发现概述开头？\\n- [ ] 每个发现的讨论是否包含：发现、对比、机制、意义？\\n- [ ] 是否有局限性讨论？\\n- [ ] 是否有未来展望？\\n- [ ] 段落之间是否有逻辑过渡？\\n\\n### 内容检查\\n- [ ] 是否与Results重复？（Discussio",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.163113+00:00"
+    },
+    {
+      "action": "create",
+      "key": "discussion_library_九_常见问题与解决方案",
+      "old": null,
+      "new": "{'title': '九、常见问题与解决方案', 'content': '### 问题1：Discussion变成了Results的复述\\n\\n**错误示例：**\\n```\\n结果表明A区域的TOC为50 mg/L，B区域为30 mg/L。\\nA区域的DOC为20 mg/L，B区域为15 mg/L。\\n```\\n\\n**正确示例：**\\n```\\nA区域的TOC（50 mg/L）显著高于B区域（3",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.168369+00:00"
+    },
+    {
+      "action": "create",
+      "key": "reviewer_comments_一_response_letter结构",
+      "old": null,
+      "new": "{'title': '一、Response Letter结构', 'content': '```\\nDear Editor,\\n\\nThank you for the opportunity to revise our manuscript [ID: XXX].\\nWe have carefully addressed all comments from the reviewers.\\nBelow",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.168369+00:00"
+    },
+    {
+      "action": "create",
+      "key": "reviewer_comments_二_回复句式库",
+      "old": null,
+      "new": "{'title': '二、回复句式库', 'content': '### 2.1 同意并修改\\n\\n```\\n英文：\\n- \"We thank the reviewer for this valuable suggestion. We have\\n   revised the text accordingly (Page X, Lines X-X).\"\\n- \"We agree with the ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.173455+00:00"
+    },
+    {
+      "action": "create",
+      "key": "reviewer_comments_三_各类型审稿意见回复模板",
+      "old": null,
+      "new": "{'title': '三、各类型审稿意见回复模板', 'content': '### 3.1 \"The novelty is insufficient\"\\n\\n```\\nResponse: We thank the reviewer for this concern. In the revised\\nmanuscript, we have:\\n(1) Strengthened the novelt",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.173455+00:00"
+    },
+    {
+      "action": "create",
+      "key": "reviewer_comments_四_rebuttal策略",
+      "old": null,
+      "new": "{'title': '四、Rebuttal策略', 'content': '### 4.1 核心原则\\n\\n1. **永远先感谢** — 不管意见多尖锐\\n2. **引用原文** — 逐字引用审稿人的话\\n3. **有理有据** — 用数据/文献支撑回复\\n4. **标注位置** — 每次回复都标注修改位置\\n5. **区分轻重** — 重要问题详细回复，小问题简洁回复\\n\\n### 4.2 回复",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.179927+00:00"
+    },
+    {
+      "action": "create",
+      "key": "reviewer_comments_五_审稿回复模板_环境科学版",
+      "old": null,
+      "new": "{'title': '五、审稿回复模板（环境科学版）', 'content': '### 针对\"Discussion不足\"的回复\\n\\n```\\nComment: The Discussion section lacks mechanistic explanations and\\nis largely a repetition of the results.\\n\\nResponse: We sin",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.184163+00:00"
+    },
+    {
+      "action": "create",
+      "key": "structure_templates_中文硕士论文结构模板",
+      "old": null,
+      "new": "{'title': '中文硕士论文结构模板', 'content': '### 总体结构\\n\\n```\\n第1章 绪论 (约3000-5000字)\\n├── 1.1 研究背景与意义 (1500-2000字)\\n│   ├── 1.1.1 研究背景\\n│   └── 1.1.2 研究意义\\n├── 1.2 国内外研究现状 (3000-5000字)\\n│   ├── 1.2.1 国外研究现状\\n│  ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.223937+00:00"
+    },
+    {
+      "action": "create",
+      "key": "structure_templates_sci论文结构模板",
+      "old": null,
+      "new": "{'title': 'SCI论文结构模板', 'content': '### 总体结构（IMRaD）\\n\\n```\\nTitle (标题)\\nAbstract (摘要, 200-300 words)\\n  ├── Background\\n  ├── Methods\\n  ├── Results\\n  └── Conclusions\\nIntroduction (引言, 500-800 words)",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.229933+00:00"
+    },
+    {
+      "action": "create",
+      "key": "structure_templates_硕士论文各章字数分配参考",
+      "old": null,
+      "new": "{'title': '硕士论文各章字数分配参考', 'content': '| 章节 | 字数范围 | 占比建议 |\\n|------|---------|---------|\\n| 摘要 | 500-800字 | - |\\n| 第1章 绪论 | 5000-8000 | 10-15% |\\n| 第2章 材料与方法 | 5000-8000 | 10-15% |\\n| 第3章 结果与分析 | 1000",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.229933+00:00"
+    },
+    {
+      "action": "create",
+      "key": "structure_templates_技术路线图模板",
+      "old": null,
+      "new": "{'title': '技术路线图模板', 'content': '```\\n研究区域概况调研\\n    ↓\\n采样点布设 → 固相样品 → [测定方法1]\\n    ↓         液相样品 → [测定方法2]\\n多季节采样   气相样品 → [测定方法3]\\n    ↓\\n数据整理与质控\\n    ↓\\n┌──────────┬──────────┬──────────┐\\n↓       ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.235516+00:00"
+    }
+  ]
+}

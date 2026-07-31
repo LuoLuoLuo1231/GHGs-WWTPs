@@ -1,0 +1,708 @@
+--- Page 1 ---
+This article is licensed under CC-BY 4.0
+http://pubs.acs.org/journal/acsodf Article
+Greenhouse Gas Mass-Balance in Conventional Activated Sludge
+Wastewater Treatment: A Case Study in Mexico for Developing
+Countries
+Pablo Morales-Rico, Jessica Ramos-Díaz, and Frédéric Thalasso*
+CiteThis:ACSOmega2025,10,5574−5581 ReadOnline
+.selcitra ACCESS
+Metrics&More ArticleRecommendations
+dehsilbup ABSTRACT: While numerous studies report methane emissions from
+.)CTU( wastewater treatment plants (WWTPs) in developed countries, few
+address emissions from plants in developing countries, where outdated
+55:70:70 erahs technologies, such as the lack of enhanced primary and sludge treatment,
+are common. Moreover, these studies often rely on indirect calculations
+yletamitigel
+rather than direct measurements. Our study fills this gap by providing
+ta unit-process-level direct measurements of methane emissions in a
+6202
+conventional WWTP in Mexico, serving as a case study for developing
+,52 ot countries. A standard plant was selected and visited on five occasions. It
+woh includesaprimarysettler,anaeratedreactor,andasecondarysettler,with
+yaM
+nosludgetreatmentinplace.OurfindingsrevealedaCH emissionfactor
+no 4
+no of 0.396 ± 0.218 g CH m−3 of treated water, with the primary settler
+snoitpo 4
+VINU accounting for 72.3 ± 15.9% of emissions, and the aerated reactor
+contributing27.7±15.9%.Notably,theemissionfactorsarecomparabletothosereportedforplantswithmoreadvancedtreatment
+TSEWHTRON rof technologies, suggesting that technological obsolescence may not significantly enhance CH emissions. Methanotrophy in the
+senilediuggnirahs/gro.sca.sbup//:sptth 4
+aeratedreactorwasakeyprocess,oxidizing91−98%oftheCH transportedfromtheprimarysettler.Additionally,acarbondioxide
+4
+(CO ) emission factor of 97.4 ± 34.4 g CO m−3 was measured, primarily from the aerated reactor, consistent with the plant’s
+2 2
+overall treatment efficiency. These findings provide crucial data for understanding greenhouse gas emissions from WWTPs in
+developing regions and highlight the need for targeted mitigation strategies.
+aiv
+dedaolnwoD
+1. INTRODUCTION such as Mexico, where GHG emissions are far less well-
+known.17−23
+Among various sources, greenhouse gas (GHG) emissions
+For example, in Mexico, stabilization ponds are the most
+generated in the waste sector, notably carbon dioxide (CO ),
+2 prevalent technology, with 825 facilities, followed closely by
+methane (CH ), and nitrous oxide (N O), significantly
+4 2 conventional activated sludge (CAS) systems, which are used
+eeS contribute to the global GHG budget. Emissions from
+in 787 facilities. However, in terms of flow rate, activated
+wastewater treatment plants (WWTPs) play a particularly
+sludge remains by far the predominant treatment technology,
+significant role in this context. The wastewater treatment
+handling 103.9 m3 s−1 or 72% of the total treated wastewater
+sector is estimated to be responsible for 5% of global
+flow rate.24 Asimilarsituation isobservedinotherdeveloping
+anthropogenic CH emissions1 and 4−5% of global N O
+4 2 countries in Latin America, as reflected in a study of 2734
+emissions.2 Despite being quantitatively the major GHG
+WWTPs.25 This comprehensive study indicates that activated
+component, CO emissions are usually excluded from
+2 sludge is the most widely used technology in terms of treated
+inventories because CO is the final product of the oxidation
+2 flowrate(58%),followedbystabilizationponds(15%).These
+of carbon from natural (biogenic) sources, which absorb an
+activated sludge plants are typically based on a “conventional
+equivalent mass of CO . This means CO emissions do not
+2 2 design”, composed of a primary settler (PS), followed by an
+directly contribute to the increase in its atmospheric
+concentration.3 However, carbon compounds are frequently
+present in industrial wastewater and should also be Received: September9, 2024
+considered.4,5 In developed countries, most WWTPs combine Revised: January26,2025
+activated sludge processes with advanced nutrient removal via Accepted: January30,2025
+oxic/anoxic treatment steps and sludge treatment, and their Published: February6, 2025
+GHG emissions have been relatively well documented.6−16 In
+contrast, simpler WWTPs are used in developing countries
+©2025TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acsomega.4c08289
+5574 ACSOmega2025,10,5574−5581
+
+--- Page 2 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Figure 1.Schemeof the WWTPcharacterizedshowing sampling pointsand methods.
+aerated reactor and a secondary settler (SS), with sludge 2. MATERIAL AND METHODS
+recirculation to the reactor. In Mexico, most WWTPs
+2.1.DescriptionoftheWWTPandCampaigns.Forthe
+(81%),26,27 do not include enhanced primary treatment, and
+purposeofthisstudy,weselectedaspecifictreatmenttrainofa
+many lack treatment units for the generated sludge.28
+WWTP situated at an undisclosed site within Mexico City
+Consequently, the sludge is often returned to the sewage (Lat. 19.43; Long. −99.13). It is a CAS plant treating a mean
+network or disposed of without treatment. This lack of sludge flow rate of about 70 L s−1 of urban wastewater with some
+treatment is a common practice in developing countries.29,30 unidentified industrial effluents. The WWTP follows a
+Additionally,thecombinedhandlingofindustrialanddomestic common CAS configuration (Figure 1), consisting of a
+wastewaterandtheabsenceofseparationbetweensewageand pretreatment unit with a mechanically cleaned coarse screen
+rainwater further complicate thesituation. These factors make (manuallyoperated)followedbyaPS,anaerobic/oxicreactor
+activated sludge treatment in developing countries potentially (OR)operatedwithafine-bubbleaerationsystemandasludge
+verydifferent interms of GHG impactcompared toadvanced recirculation system, and a SS. The biological reactor has a
+treatment schemes in use in developed countries. plug-flow U-shaped configuration with a total length of 66 m
+Most developing countries are committed to the United andatotalvolumeof1562m3.Aftertreatment,thewatergoes
+Nations Framework Convention on Climate Change, which throughafinalchlorinedisinfectionunitandisthenreusedfor
+emphasizestheneedtoquantifyandreduceGHGemissions.31 irrigation purposes. This plant is not equipped with a sludge
+These countries have developed inventories that include treatmentline;allthesludgeproducedispartlyreturnedtothe
+emissions from the waste sector, primarily using the TIER 1 aerobic reactor or sent to a storage tank and subsequently
+methodology of the Intergovernmental Panel on Climate dischargedintothesewersystem(Figure1).ThisCASdesign
+Change.32Thisbasicapproachutilizesdefaultemissionfactors is the most common in Mexico City and throughout the
+andactivitydatatoestimateGHGemissions,33−40asdone,for country.InMexicoCity,thereare22CASplantsinoperation,
+comprising 84% of the total number of treatment plants.40
+instance, in conventional WWTPs by El-Fadel and Massoud
+Nationally, there are 787 CAS facilities, accounting for 28.4%
+(2001),GuptaandSingh(2012),Santosetal.,(2015),Noyola
+of all WWTPs in Mexico.24
+et al., (2016) Shrestha et al., (2022) Johnson et al. (2022),
+́ The WWTP was visited on five occasions: May 4 and 20,
+Ramirez-Melgarejo (2020) and Stringer (2024). Migrating to
+July29,andAugust6and24,2021.Thesedateswereselected
+TIER 2, which involves country-specific emission factors, and
+to capture both the dry season (May) and the rainy season
+TIER 3, which includes comprehensive modeling and direct
+(JulyandAugust),astherainyseasoncansignificantlyimpact
+measurements, would provide more precise and reliable
+wastewater quality by introducing a dilution effect due to
+estimates. Some developing countries, such as China, India,
+increasedwaterinflow.Oneachvisit,CH andCO emissions
+4 2
+and Turkey, are transitioning to higher-tier methodolo-
+were measured using floating chambers, and the wastewater
+gies.16,22,41−44 However, data on GHG emissions measured
+alongthetreatmenttrainwascharacterizedatinputandoutput
+intheconventionalWWTPsprevalentinthesenationsremain
+of each treatment unit. This characterization included
+scarce,42,45−48 likely hindering the adoption of Tier 2 or 3
+dissolved CH (S ) and CO (S ) concentrations, total
+methods. 4 CH d4 2 CO d2
+Chemical Oxygen Demand (COD; S) determined from
+Inthiscontext,thepresentstudyaimedtoprovideadetailed t
+unfiltered water samples, and soluble COD (S), determined
+analysisofGHGemissionsfromafull-scaleWWTPinMexico, filter,49s
+filtering the samples with 0.45 μm pore according to
+serving as a case study for developing countries. To achieve
+the protocol reported by van Loosdrecht et al., 2016.
+this,aGHGmassbalancearoundthePS,aeratedreactor, and
+2.2.CH /CO Emissions.Greenhousegasemissions(CH
+4 2 4
+SS of a conventional treatment plant was conducted on five
+and CO ) were measured in each process unit. In both the
+2
+occasions, with direct measurements of GHG inputs, outputs, primary and SSs, with no aeration, GHG emissions were
+and emissions. The primary GHG measured was CH 4, but measuredusingafloatingstaticchambermethodatthecenter
+CO 2 was also included, which, although it does not directly oftheunitsandalong7equidistantlongitudinallocations.The
+add to atmospheric CO 2 levels, is relevant for assessing chamberwasconstructedfromaplasticbasinpaintedwhiteto
+wastewater degradation dynamics as the final oxidation reflectlight,withafloatingnoodleattachedtoitsperimeterto
+product.Theseresultswerediscussedinthecontextoforganic ensure buoyancy (contact area with water: 0.1385 m2;
+load degradation to define, for the first time, a locally headspace volume: 14 L). The chamber headspace was
+determined emission factor. connected to an ultraportable greenhouse gas analyzer
+5575 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 3 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+(UGGA, Los Gatos Research, USA) in a closed-loop setup. through a 0.45 μm glass fiber filter according to the protocol
+Continuous measurements of CH and CO were taken for 5 previously reported.49 An appropriate volume of each sample
+4 2
+min, excluding the first 30 s after positioning the chamber on (2−10mL)wastransferredtoCODlowandmiddlerangekit
+the water surface. Each flux was measured in triplicate, digestion vials (Hanna Instruments, Mexico) containing
+calculated from the slope of the gas concentration multiplied digestion reagents. The vials were then heated at 150 °C for
+by the chamber headspace volume and divided by its contact 2 h to ensure complete oxidation of the organic matter. After
+area. In the aerated reactor, CH and CO emissions were cooling,theabsorbanceofthedigestedsampleswasmeasured
+4 2
+measured at the center of the reactor along 7 equidistant using a spectrophotometer (Genesys 20, Thermo Spectronic,
+longitudinal locations using an open flux chamber method50 Mexico) at 600 nm. Quality control included blanks,
+previouslydescribedbyMorales-Ricoetal.(2024).Briefly,this triplicates,andstandardreferencematerialstoensureaccuracy
+method used the same GHG analyzer as the static chamber and precision. In addition to COD, a multiparametric probe
+method (UGGA, Los Gatos Research, USA) and a specially (HI9829, Hanna Instruments, Mexico) was used to measure
+designed floating chamber (referred to as the “A″ chamber in dissolved oxygen (DO) concentration, pH, oxidation−
+Morales-Rico et al., 2024). This chamber is placed at the reduction potential (ORP), and water temperature.
+desired location on the water surface, where the gas emitted 2.5. Mass Balance. The CH and CO mass balance over
+4 2
+fromthewatersurfacemixeswiththechamberheadspace,with the treatment units was established by considering only the
+excess gas being evacuated through a vent. As a result, the dissolved CH /CO input and output, emissions to the
+4 2
+chamber headspace, initially filled with atmospheric air, is atmosphere, and a biological component expressed as the net
+gradually replaced by the gas emitted from the water, production rate. For CH 4, this net production rate can be
+eventually reaching a new steady state. By adjusting the positive in the case of net methanogenesis or negative in the
+chamber’smassbalancebasedonthemeasuredtrendsofCH 4 case of net methanotrophy (CH 4 oxidation).
+andCO concentrations,thegasresidencetime(dependenton
+2 dS
+thegasflowrate)andtheconcentrationoftheemittedgasare y = Input output emissions + netproduction
+determined. This allowed for the calculation of the flux as the dt (1)
+product of the gas flow rate and the CH /CO gas
+4 2
+concentration at steady-state divided by the area of the dS Q Q A
+y,i = 0,i × S e,i × S F × i + r
+chamber deployed. Each measurement was done in triplicate, dt V y,i,0 V y,i,e y,i V y,i
+over 5 min of deployment time. i i i
+2.3. Dissolved CH /CO Concentration. Dissolved CH (2)
+4 2 4
+(S ) and CO (S ) concentrations at the influent and WhereS istheconcentrationofcompoundy(CH orCO )
+CH d4 2 CO d2 y 4 2
+effluent of each process unit (Figure 1) were determined in in the water phase of unit i, Q 0,i and Q e,i are the influent and
+triplicateoneachdateusingadiscreteheadspaceequilibration effluent flow rates (m3 h−1), respectively, at which the
+method.Thismethodinvolvedtakingasampleofwaterina60 treatment unit is operated, V i is the volume of process unit
+mL plastic syringe, ensuring the absence of air bubbles. Then, (m3),A iisthesurfaceareaoftheprocessunit,S y,i,0andS y,i,eare
+20 mL of water was gently evacuated and replaced with CH - the influent and effluent concentrations of compound y (g
+sa yn rd inC geO 2- cf ore ne ten ni ttro wge an ( v9 i9 g. o9 r9 o9 u% slyN 2, shP ar ka ex nair, foM rex 3ic 0o) s. T fh o4 e m th− e3 a) t, mre os sp pe hc eti rv eel (y g,F my, −i 2is ht −h 1e ),fl au nx do rf yt ,ih ie sc tho em np eo tu pn rd ody ue cm tii ott ned rat to
+s r e
+equilibration, and the water was evacuated. Next, 10 mL of of compound y (g m−3 h−1).
+the remaining headspace gas was injected into a continuous Assuming steady-state conditions, where the concentration
+flow of nitrogen connected to the UGGA in an open circuit. does not change over time, and mass conservation, meaning
+ThepresenceofCH andCO inthegassamplewasdetected that the influent and effluent flow rates are equal, eq 2 can be
+4 2
+as a peak response, which was integrated after proper written as
+a sc onal ld uib bSr ia C lit O ti yo d2n i cn ow nth si tt e ah nli tqs .t 5ua 1in d Td s ha ur isd bs paC rm oH cp e4 l se/ ssC iwO nce2 lr ues da d em derp i svl ye e rs d i. ngfF r eoin m ca al ll iHy b, re anS tr iC oyH ’ nsd4 d dS ty,i = 0 = Q V0 i,i × (S y,i,0 S y,i,e) F y,i × A V ii + r y,i
+(3)
+and careful consideration of water temperature, and the
+volumes of gas and water involved in each step. Unlike Ineq3,eachtermisexpressedasthemassofthecompound
+standard headspace equilibration methods, we did not use a of interest per unit volume of theprocess unit and per unit of
+microbial inhibitor because the interval between water time. Alternative units, commonly used in the literature,
+sampling and analysis was typically less than 5 min. This considereachtermasthemassofcompoundyperunitvolume
+brief time frame minimizes the potential for microbial activity of water treated. For this purpose, eq 3 was modified by
+to alter the sample’s composition. multiplying each term by V/Q , as follows
+i 0,i
+2.4. Physicochemical Parameters. To determine the
+Q V A V
+wastewater composition through the treatment units, total 0 = 0,i × (S S ) × i F × i × i
+chemical oxygen demand (COD) (S) and soluble COD (S) V y,i,0 y,i,e Q y,i V Q
+t s i 0,i i 0,i
+was determined in triplicate from the influent and effluent of
+V
+each process unit, on each date. In the present work, soluble + r × i
+y,i Q , i
+COD was considered as the readily biodegradable fraction of 0 (4)
+the COD.52 For the determination of S, thoroughly mixed
+t
+wastewater samples were directly analyzed, while for S , A V
+S 0 = S S F × i + r × i
+samples were centrifuged at 7000 rpm for 10 min (K2015, y,i,0 y,i,e y,i Q y,i Q
+CenturionScientific,Mexico),andthesupernatantwasfiltered 0,i 0,i (5)
+5576 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 4 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+It is worth noting that eq 5 can be applied to a specific temperature of the PS were 7.05 ± 0.12 and 26.5 ± 1.9 °C,
+treatment unit or over an entire treatment train, which in this respectively. Contrastingly, the aerated reactor was operated
+case is written as follows under aerobic conditions, with a mean DO concentration of
+1.21±0.44mgL−1,andanORPof101.3±29mV.Themean
+n A n V
+0 = S S F × i + r × i pH and temperature of the aerated reactor were 7.9 ± 17 and
+y,1,0 y,n,e y,i Q y,i Q 22.07±1.15°C,respectively.Lastly,theSSwassuboxic,with
+i=1 0,i i=1 0,i
+(6) a mean DO concentration of 0.18 ± 0.13 mg/L, and an ORP
+of −37.3 ± 18 mV. The mean pH and temperature of the SS
+WhereS istheconcentrationofcompoundy(CH orCO )
+y,1,0 4 2 were 7.87 ± 0.20 and 22.8 ± 0.82 °C, respectively.
+intheinfluentofthefirstunitofthetreatmenttrain,S isthe
+y,n,0 3.2.CH MassBalance.Asaresultofanaerobicconditions
+concentration of the same compound in effluent of the last 4
+andrelativelyhighinputoforganicmatter,thePSoperatedas
+unit, and n is the number of units included in the treatment
+a CH production unit, producing 1.42 ± 0.82 g CH m−3 of
+train. The third term in eq 6, is the Emission factor (EF) 4 4
+treatedwater.ThisproductionwasslightlylowerthantheCH
+widely reported in the field. 4
+input (S ), which was 1.55 ± 0.61 g m−3. Thus, CH
+n A CH d4 4
+EF = F × i produced in the sewer system prior to entering the treatment
+y,i Q plantwasthemainsourceofmethanetothePS.Asaresultof
+i=1 0,i (7)
+this relatively high S , the settler emitted CH at a flux of
+It is important to underline that, in this study, the effluent 10.2 ± 7.6 g m−2 d−1C ,H cd4 orresponding to an emiss4 ion factor of
+from one treatment unit was assumed to be equal to the 0.30 ± 0.23 g m−3 of treated water or 3.71 ± 2.66 × 10−3 kg
+influent of the succeeding unit. This approach was supported CH kg−1 COD removed. These CH emissions represent a
+by two considerations. First, the residence time within the 4 4
+relatively minor component of the CH mass balance,
+pipesconnectingtheunitswasconsideredveryshortcompared 4
+constituting approximately 19% of the influent S and 11%
+to the in-unit residence time and was therefore assumed to CH d4
+have a negligible impact on water composition and CH 4/CO 2 of the effluent S CH d4 (Figure 2). In the OR, where measure-
+concentrations. Second, unlike the primary and SSs, where
+inflow and outflow were clearly identifiable, the design of the
+biologicalreactordidnotallowfordirectsampling,asboththe
+inflow and outflow points were located below the water level,
+making sampling impossible.
+2.6. Statistical Analysis. To accurately estimate the
+uncertaintylinkedto combinedparameters (added,multiplied
+or divided), we applied standard errorpropagation techniques
+based on the nature of the mathematical operations
+involved.53,54 These methods ensured that the propagated
+errors in the final parameters were accurately quantified,
+considering the uncertainties of the individual measurements.
+Statistical comparisons among results were determined
+according to Tukey’s honest significance test. Most variables
+hadapositiveskew,whichwerelog-transformedtoachievethe
+normality of the ANOVA residuals. This analysis was
+performed with Origin(Pro) software (Version 2016, North-
+hampton, USA).
+3. RESULTS AND DISCUSSION
+3.1. Plant Operation. During the sampling period, The
+influent COD varies seasonally, with an average of S of 0.341
+t
+± 13% kg COD m−3. The interquartile range spans from 0.28 Figure 2. Mass balance of CH 4 depicted using divided boxes. The
+to 0.36 kg COD m−3, with 50% of the data falling within this upper section of each box represents the positive inputs, while the
+lower section depicts the negative outputs. Mass balances in the PS,
+range. This variability is attributed to the dilution factor
+the OR, and the SS are shown. All values are expressed in mass per
+prevalent during the rainy season, as Mexico City lacks a unit of wastewater volume treated (g m−3). The size of the boxes is
+separate rainwater drainage system. This dilution factor has a
+proportional to themagnitude ofthe processesinvolved.
+greater impact on the soluble COD (S), as evidenced by a
+s
+measured variation of 0.24 ± 20% kg COD m−3. The overall
+ments indicated uniform aerobic conditions and where CH
+removalefficiencyduringthevisits,intermsofCODremoval, 4
+was entering at a moderate concentration of at 2.66 ± 0.70 g
+was 84.4 ± 7%. We also measured the physicochemical
+m−3,theeffluentcontainedonlytracelevelsofS at3×10−3
+parameters of the water for each process unit, including pH, CH d4
+DO concentration, ORP, and temperature. Briefly, the PS was g m−3. We hypothesized that the drastic decrease in S CH d4 was
+characterized by strict anaerobic conditions, evidenced by primarily caused by emissions to the atmosphere due to air
+undetectable levels of DO, and by a mean ORP of −204.3 ± stripping, with a minor contribution from aerobic CH
+4
+82 mV. We hypothesize that these anaerobic conditions oxidation (methanotrophy). This hypothesis was put in
+resulted from the combination of no aeration, relatively still doubt by CH flux measurements, which turned out to be
+4
+water, and the high organic load promoting dissolved oxygen lower than anticipated. In fact, we found that the CH
+4
+uptake through microbial respiration. The mean pH and emissions were relatively small compared to those observed
+5577 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 5 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+in the PS, at 1.36 ± 0.98 g m−2 d−1, corresponding to an of the removed COD, we observed a very small conversion
+emission factor of 0.09 ± 0.07 g CH m−3 of treated water or yield,at0.55±0.38%overtheentireoperationoftheWWTP.
+4
+4.15 ± 2.51 × 10−4 kg CH kg−1 COD removed (Figure 2). 3.3.CO MassBalance.Similarlytowhatwasobservedfor
+4 2
+This CH emission was only about 3.4% of the influent S . CH , CO accumulation was detected in the PS, as the
+4 CH d4 wast4 ewater2
+exited the treatment unit with a concentration
+This relatively small contribution of CH emissions suggests
+4
+thatmostoftheCH (range91−98%,mean96.3±2.8%)was 51.7% higher than its influent concentration. The observed
+4 accumulation reached 12.5 ± 8.4 g m−3 of treated wastewater
+oxidizedwithinthereactor,suggestingthatmethanotrophywas
+(Figure 3) and was only minimally offset by emissions to the
+a dominant process, controlling the CH mass balance in the
+4
+WWTP. This is in accordance with the literature that shows
+thatmostof thedissolved CH isoxidizedinaeratedreactors,
+4
+ataproportionthatdependontheoperatingconditionsofthe
+reactor.7,55,56Lastly,aftercharacterizingthePSandtheaerobic
+reactor, we characterized the SS. The SS was confirmed as a
+minorprocessunit,intermsofCH ,withemissionsof1.44±
+4
+1.54 × 10−3 g m−2 d−1, i.e., more than 3 orders of magnitude
+lower than emissions observed in the PS and the aerobic
+reactor.
+Globally, the CH emission factor for the entire treatment
+4
+plantwas0.396±0.218gCH m−3oftreatedwateror1.39±
+4
+0.74 × 10−3 kg CH kg−1 COD removed, of which 72.3 ±
+4
+15.9%wasoriginatingfromthePSand27.7±15.9%fromthe
+aerated reactor. This emission factor is within the range
+previouslyreported in the literature, as depicted inTable 1. It
+Table 1. CH EFs Reported for CAS Technology in the
+4
+Literature and This Work
+WWTP country EF(gm−3) references
+thiswork Mexico 0.39
+Chongqing China 11.6 Wangetal.,202222
+region
+Jinan China 0.16 Wangetal.,202222
+Viikinmak̈ ia Finland 2.9 Mölsa.̈,202019
+Bellheim Germany 0.5 Tumendelgeretal.,20192
+Akiu Japan 0.42 Masudaetal.,201814
+Jungryang Korea 1.03×10−5 Hwangetal.,201613
+Cerrodela Mexico 6.4 Noyolaetal.,201847
+Estrella
+Avedøre Norway 0.12 Faragòetal.,202221 Figure 3. Mass balance of CO 2 depicted using divided boxes. The
+upper section of each box represents the positive inputs, while the
+Granollers Spain 0.06 Rodriguez-Caballeroet
+al.,20148 lower section depicts the negative outputs. Mass balances in the PS,
+WWTPin Spain 8.05×10−2 Floresetal.,202120 the OR, and the SS are shown. All values are expressed in mass per
+Galicia unit of wastewater volume treated (g m−3). The size of the boxes is
+Linköping Sweden 0.48 Gal̊falketal.,202257 proportionaltothemagnitudeoftheprocessesinvolved,thoughnot
+Kal̈lby Sweden 0.21 Delreetal.,201923 to the samescale asthose inFigure2.
+Papendrecht The 2.44 Daelmanetal.,20127
+Netherlands
+atmosphere. These emissions corresponded to an emission
+Kortenoord The 1.56 Daelmanetal.,20127
+Netherlands factor of 0.47 ± 0.21 g m−3, accounting for just 3.7% of the
+Durham USA 0.14 Czepieletal.,199317 accumulatedCO 2.Thislimitedemissioncouldbeattributedto
+medianvalue 0.42 the still nature of the water surface in the PS, which is
+min 1.03×10−5 unfavorable for gas transfer to the atmosphere. Notably, CO 2
+max 11.60 production in the PS was about ten times higher than CH 4
+aReceives industrialwastewater. production, with a corresponding mass ratio of 1:10.
+In the aerated reactor, significant CO production was also
+2
+observed, with high variability ranging from 38.3 to 138.7 g
+isworth notingthatdata reportedinTable 1are allmeasured m−3oftreatedwaterandameanof75.6±41.0gm−3(Figure
+data (excluding other determination methods), and are 3). This production level can reasonably be associated with
+exclusively those reported for the activated sludge process, respiratory processes, stoichiometrically balanced with COD
+i.e. excluding sludge digestion and treatment. The range of removal,asdiscussedlaterinthissection.Duetogasstripping
+emission factors previously reported cover several orders of and turbulence at the reactor surface caused by aeration, CO
+2
+magnitude, with an interquartile range of 0.12−1.56 g CH emissions were a dominant process, averaging 96.8 ± 34.3 g
+4
+m−3 of treated water and a median of 0.42 g CH m−3, m−3. These emissions accounted for 87.4% of the combined
+4
+relatively close to the mean value determined in the present influent and produced CO , meaning only 12.6% of the CO
+2 2
+study. Regarding the conversion to CH (expressed as COD) enteringthereactororproducedwithinitwasreleasedthrough
+4
+5578 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 6 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+the reactor effluent. The CO emission factor of 96.8 g m−3 significant methane production60−62 suggesting that CH
+2 4
+corresponded to 0.26 ± 0.15 kg CH kg−1 COD removed, production from discharged sludge could potentially be a
+4
+whichisapproximately3ordersofmagnitudehigherthanthat majorcomponentoftheoverallemissionfactor.Futurestudies
+ofCH ,with32%originatingfrominfluentdissolvedCO and should aim to incorporate the entire lifecycle of sludge
+4 2
+68% produced within the reactor. handling, including its fate postdischarge, to provide a more
+Unlike CH , the CO mass balance in the SS was not comprehensiveassessmentofGHGemissionsfromwastewater
+4 2
+negligible but still exhibited significant uncertainty. No treatmentprocesses.However,thisisachallengingtaskdueto
+significant difference was observed between the influent and the diversity of conditions encountered in complex sewage
+effluent CO concentrations, and the CO flux was relatively networks and the difficulties associated with measuring CH
+2 2 4
+small (0.11 ± 0.02 g m−3), preventing definitive conclusions emissions in situ or replicating these conditions in a model
+about whether the SS exhibited significant CO uptake or study.63
+2
+production.
+Globally, the CO emission factor for the entire treatment 4. CONCLUSIONS
+2
+0p .l 1an 2t kw gas C9 O7. 24 k± g−3 14. C4 Og DCO re2 mm o− v3 edo ,f otr fea wte hd ichwa 9te 9r .4or ±0.3 04 .3%± T emhi is ssis otu nd sy frop mres aen Ct As Sa Wpi Won Te Peri in ng Ma en xa il cy os ,is emof plC oyH in4 ga and TieC rO 32
+-
+originated from the aerated reactor, with negligible amounts equivalent approach with process unit-level resolution. The
+emitted from both the primary and SSs. From eq 6, the total CH emissionfactorfortheentiretreatmentplantwas0.396±
+4
+iC nO pu2 tsp )ro wd au sct ei so tn imi an tet dhe totr bea etm 84e .n 9t ±tra 3in 6.7(s gum COof 2o mu −tp 3.u Its nl te hs es 0 C. H21 48 kg g−C 1H C4 Om D−3 reo mf otr ve ea dt ,ed prw imat ae rr ilyor or1 i. g3 i9 na± tin0 g.7 f4 rom× 1 th0 e−3 Pk Sg
+.
+aerated reactor, the CO 2 production was 75.6 ± 41.0 g CO 2 This emission factor falls within the range reported for plants
+m−3, while the COD removal was 230.2 ± 53.4 g COD m−3. with more advanced treatment technologies. While CO
+2
+ThisallowsforthedeterminationoftheratioofCO 2produced emissions are rarely included in inventories, they were
+to COD removed, which was 0.135 to 0.523 g CO 2 g−1 COD considered in this study, with the mean CO 2 emission factor
+in the aerated reactor. Assuming a wastewater and biomass for the entire treatment plant estimated at 97.4 ± 34.4 g CO
+mean composition of C 18H 19NO 9,58 the process equation m−3 of treated water or 0.34 ± 0.12 kg CO kg−1 COD2
+2
+which is in agreement with the mean measured CO 2/COD removed. Unlike CH 4, 99.4 ± 0.3% of CO emissions
+2
+ratio is described by originated from the aerated reactor, consistent with the
+observed COD removal efficiency. These results suggest that
+1.00C 18H 19NO 9 + 4.52O 2 the simple technology commonly used in Mexico and other
+developing countries�comprising a PS, aerated reactor, and
+0.77C H NO + 4.18CO + 2.09H O + 0.23NO
+18 19 9 2 2 3 SS�does not inherently produce higher GHG emissions
++ 0.23H+ (8) compared to more sophisticated systems. However, this
+conclusion does not account for the absence of sludge
+The measured CO /COD ratio corresponded to a biomass treatment, a prevalent practice in developing countries, nor
+2
+growth yield of 0.442−0.635 g of biomass growth per g of thepotentialCH emissionsfromuntreatedsludgedischarged
+4
+COD removed, with a mean of 0.539 g g−1. This range aligns into the sewage system. Transitioning to Tier 2 and Tier 3
+with values suggested for domestic wastewater treated by methodologies, whichprovidemore preciseandreliableGHG
+activated sludge.55 estimates, should therefore include the handling and fate of
+3.4. Greenhouse Gas Balance. When combining CO sludge postdischarge. Similarly, the present study did not
+2
+and CH emissions in terms of global warming potential considerfossilcarbonwhichisoftenintroducedthroughfossil
+4
+(GWP), the total emission factor of the treatment train, fuel-derived compounds in wastewater, which should also be
+assumingaGWP of30forCH overa100yeartimeframe,59 accounted for in future analyses. Both aspects are critical for
+4
+was109.3±35.1gCO equivalentsm−3oftreatedwater,with improving the accuracy of GHG inventories and aligning with
+2
+CH contributing10.82%ofthetotalemissions.Itisimportant the commitments of developing countries under the United
+4
+to recall that, in this study, CO was considered the final Nations Framework Convention on Climate Change.
+2
+product of the oxidation of carbon from natural (biogenic) ■
+sources,whichabsorbanequivalentmassofCO andtherefore AUTHOR INFORMATION
+2
+do not directly contribute to increased atmospheric CO 2 Corresponding Author
+concentrations. Based on this consideration, anthropogenic Frédéric Thalasso − Biotecnología y Bioingeniería, Centro de
+emissions were limited to CH , with a total emission factor of
+4 Investigación y de Estudios Avanzados del Instituto
+11.85 g CO -eq m−3 of treated water. It should be
+2 Politécnico Nacional (Cinvestav), 07360 Ciudad de México,
+acknowledged, however, that this approach excludes fossil
+Mexico; orcid.org/0000-0003-2246-2372;
+fuel-derived carbon compounds, which are often present in
+Email: thalasso@cinvestav.mx
+wastewater and should be quantified as part of anthropogenic
+CO emissions. Authors
+2
+Importantly, this study did not account either for CH Pablo Morales-Rico − Biotecnología y Bioingeniería, Centro
+4
+emissions associated with the sludge produced during the de Investigación y de Estudios Avanzados del Instituto
+activated sludge treatment process, which is often discharged PolitécnicoNacional(Cinvestav),07360CiudaddeMéxico,
+directly into the sewer system without further treatment�a Mexico; orcid.org/0009-0003-0070-8500
+widespreadpracticeindevelopingcountries.Consequently,the JessicaRamos-Díaz−BiotecnologíayBioingeniería,Centrode
+potentialCH emissionsfrom theanaerobicdecompositionof Investigación y de Estudios Avanzados del Instituto
+4
+thissludgewithinthesewernetworkhavenotbeenaccounted PolitécnicoNacional(Cinvestav),07360CiudaddeMéxico,
+forinour analysis. Anaerobicconditions insewers canleadto Mexico; orcid.org/0009-0006-8785-080X
+5579 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 7 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+Complete contact information is available at: (10) Yan, X.; Li, L.; Liu, J. Characteristics of Greenhouse Gas
+https://pubs.acs.org/10.1021/acsomega.4c08289 Emission in Three Full-Scale Wastewater Treatment Processes. J.
+Environ. Sci. 2014, 26(2),256−263.
+Author Contributions (11) Yoshida, H.; Mønster, J.; Scheutz, C. Plant-Integrated
+Measurement of Greenhouse Gas Emissions from a Municipal
+Pablo Morales-Rico: Conceptualization, Administrative man-
+Wastewater TreatmentPlant.WaterRes. 2014, 61,108−118.
+agement, Field/lab work, Data processing, Writing - Original
+(12) Bao, Z.; Sun, S.; Sun, D. Assessment of Greenhouse Gas
+draftpreparation.JessicaRamos-DiazField/labwork.Fred́ eŕic
+Emission from A/O and SBR Wastewater Treatment Plants in
+Thalasso: Conceptualization, Funding and administrative Beijing, China.Int. Biodeterior.Biodegrad.2016, 108,108−114.
+management, Field work, Data processing, Writing - original (13) Hwang, K.-L.; Bang, C.-H.; Zoh, K.-D. Characteristics of
+draft preparation. Methane and Nitrous Oxide Emissions from the Wastewater
+Funding Treatment Plant.Bioresour.Technol. 2016, 214, 881−884.
+́ (14) Masuda, S.; Sano, I.; Hojo, T.; Li, Y.-Y.; Nishimura, O. The
+Consejo Nacional de Ciencia y Tecnologia (Conacyt) for the
+Comparison of Greenhouse Gas Emissions in Sewage Treatment
+financial support to Pablo Morales-Rico, Jessica Ramos-Diaz,
+Plants with Different Treatment Processes. Chemosphere 2018, 193,
+(#703565, #1008375).
+581−590.
+Notes (15) Wu, Z.; Duan, H.; Li, K.; Ye, L. A Comprehensive Carbon
+The authors declare no competing financial interest. Footprint Analysis of Different Wastewater Treatment Plant
+■ Configurations. Environ. Res.2022, 214, 113818.
+ACKNOWLEDGMENTS (16) Chong, Y.; Li, H.; Pan, T.; You, L.; Du, H.; Yu, B.; Chen, J.;
+Ren, N.; Lu, L. More Applicable Quantification of Non-CO2
+TheauthorsthankLic.FranciscoSilvaOlmedo,M.Sc.Victoria Greenhouse Gas Emissions from Wastewater Treatment Plants by
+Teresita Velázquez Martínez, David Flores Rojas and Gabriel on-SitePlant-IntegratedMeasurements.Sci.TotalEnviron.2024,929,
+Enrique Ramos Rodríguez for their technical support. The 172598.
+authors acknowledge the field support received by the (17)Czepiel,P.M.;Crill,P.M.;Harriss,R.C.MethaneEmissions
+operators of the WWTP. The authors declare that they have from Municipal Wastewater Treatment Processes. Environ. Sci.
+no conflict of interest. Technol. 1993, 27(12),2472−2477.
+(18)Daelman,M.R.J.;vanVoorthuizen,E.M.;vanDongen,L.G.
+■
+J.M.;Volcke,E.I.P.;vanLoosdrecht,M.C.M.MethaneandNitrous
+ABBREVIATIONS
+Oxide Emissions from Municipal Wastewater Treatment − Results
+CAS, conventional activated sludge; EF, emission factor; from a Long-TermStudy. Water Sci. Technol. 2013, 67 (10), 2350−
+GHG, greenhouse gas; PS, primary settler; OR, aerobic/oxic 2355.
+reactor; WWTP, wastewater treatment plant (19) Mölsä, K. Life Cycle Assessment of a Wastewater Treatment
+■ and aSludgeHandlingProcess.CurrentStateandFuture Scenarios,
+REFERENCES Master thesis,AaltoUniversity, 2020.
+(20) Flores, L.; Garfí, M.; Pena, R.; García, J. Promotion of Full-
+(1)QuantificationandModellingofFugitiveGreenhouseGasEmissions Scale Constructed Wetlands in the Wine Sector: Comparison of
+from Urban Water Systems; Ye, L., Porro, J., Nopens, I., Eds.; IWA GreenhouseGasEmissionswithActivatedSludgeSystems.Sci.Total
+Publishing,2022. Environ. 2021, 770, 145326.
+(2)Tumendelger,A.;Alshboul,Z.;Lorke,A.MethaneandNitrous (21) Farago,̀ M.; Damgaard, A.; Rebsdorf, M.; Nielsen, P. H.;
+Oxide Emission from Different Treatment Units of Municipal
+Rygaard,M.ChallengesinCarbonFootprintEvaluationsofState-of-
+Wastewater Treatment Plants in Southwest Germany. PLoS One
+the-Art Municipal Wastewater Resource Recovery Facilities. J.
+2019, 14(1),No. e0209763.
+Environ. Manage. 2022,320,115715.
+(3)Zhan,X.;Hu,Z.;Wu,G.GreenhouseGasEmissionandMitigation
+(22)Wang,D.;Ye,W.;Wu,G.;Li,R.;Guan,Y.;Zhang,W.;Wang,
+in Municipal Wastewater Treatment Plants; IWA Publishing: London,
+J.;Shan,Y.;Hubacek,K.GreenhouseGasEmissionsfromMunicipal
+2018.
+Wastewater Treatment Facilities in China from 2006 to 2019. Sci.
+(4)Law,Y.;Jacobsen,G.E.;Smith,A.M.;Yuan,Z.;Lant,P.Fossil
+Data 2022, 9(1), 317.
+Organic Carbon in Wastewater and Its Fate in Treatment Plants.
+(23) Delre, A.; Ten Hoeve, M.; Scheutz, C. Site-Specific Carbon
+WaterRes. 2013,47 (14),5270−5281.
+Footprints of Scandinavian Wastewater Treatment Plants, Using the
+(5) Tseng, L. Y.; Robinson, A. K.; Zhang, X.; Xu, X.; Southon, J.;
+Life Cycle Assessment Approach. J. Clean. Prod. 2019, 211, 1001−
+Hamilton, A. J.; Sobhani, R.; Stenstrom, M. K.; Rosso, D.
+1014.
+Identification of Preferential Paths of Fossil Carbon within Water
+(24) CONAGUA. Sistema Nacional de Informacioń del Agua.
+Resource Recovery Facilities via Radiocarbon Analysis. Environ. Sci.
+https://sinav30.conagua.gob.mx:8080/ (accessed2023−02−10).
+Technol.2016, 50(22),12166−12178.
+(25) Noyola, A.; Padilla-Rivera, A.; Morgan-Sagastume, J. M.;
+(6) Wang, J.; Zhang, J.; Xie, H.; Qi, P.; Ren, Y.; Hu, Z. Methane
+Güereca, L. P.; Hernández-Padilla, F. Typology of Municipal
+Emissions from a Full-Scale A/A/O Wastewater Treatment Plant.
+Bioresour.Technol. 2011, 102(9), 5479−5485. Wastewater Treatment Technologies in Latin America. Clean:Soil,
+(7)Daelman,M.R.J.;vanVoorthuizen,E.M.;vanDongen,U.G.J. Air, Water2012, 40(9), 926−932.
+(26)CONAGUA;Morales-Rico,P.;;CIIEMAD-IPNDiagnośticode
+M.; Volcke, E. I. P.; van Loosdrecht, M. C. M. Methane Emission
+during Municipal Wastewater Treatment. Water Res. 2012, 46 (11), las plantas de tratamiento de aguas residuales municipales mayores de
+3657−3670. 100 l/s y determinacioń de estrategias y criterios para mantener en
+(8) Rodriguez-Caballero, A.; Aymerich, I.; Poch, M.; Pijuan, M. operacioń la infraestructura de tratamiento; Comisioń Nacional del
+Evaluation of Process Conditions Triggering Emissions of Green- Agua, 2014; p 243.
+House Gases from a Biological Wastewater Treatment System. Sci. (27) Mantilla Morales, G. Revisioń y actualizacioń del potential de
+TotalEnviron.2014, 493,384−391. biomasa para generacioń de energiá elećtrica a partir de plantas de
+(9) Schneider, A. G.; Townsend-Small, A.; Rosso, D. Impact of tratamiento de aguas residualespresentado en el Inventario Nacional de
+DirectGreenhouseGasEmissionsontheCarbonFootprintofWater EnergiásRenovables(INERE);IMTA.Coordinacioń deTratamientoy
+Reclamation Processes Employing Nitrification−Denitrification. Sci. Calidad del Agua. Subcoordinación de Tratamiento de Aguas
+TotalEnviron.2015, 505,1166−1173. Residuales, 2016.20200421.
+5580 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581
+
+--- Page 8 ---
+ACS Omega http://pubs.acs.org/journal/acsodf Article
+(28) Jimenez, B.; Barrios, J. A.; Mendez, J. M.; Diaz, J. Sustainable water Treatment in Mexico. J. Integr. Environ. Sci. 2015, 12 (sup1),
+Sludge Management in Developing Countries. Water Sci. Technol. 139−153.
+2004, 49(10),251−258. (47) Noyola, A.; Paredes, M. G.; Güereca, L. P.; Molina, L. T.;
+(29) Shaddel, S.; Bakhtiary-Davijany, H.; Kabbe, C.; Dadgar, F.; Zavala, M. Methane Correction Factors for Estimating Emissions
+Østerhus,S.SustainableSewageSludgeManagement:FromCurrent fromAerobicWastewaterTreatmentFacilitiesBasedonFieldDatain
+PracticestoEmergingNutrientRecoveryTechnologies.Sustainability MexicoandonLiteratureReview.Sci.TotalEnviron.2018,639,84−
+2019, 11(12),3435. 91.
+(30) Abdel Wahaab, R.; Mahmoud, M.; Van Lier, J. B. Toward (48) Paredes, M. G.; Güereca, L. P.; Molina, L. T.; Noyola, A.
+AchievingSustainable Managementof Municipal Wastewater Sludge MethaneEmissionsfromAnaerobicSludgeDigestersinMexico:On-
+in Egypt: The Current Status and Future Prospective. Renewable SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019,
+SustainableEnergy Rev.2020, 127,109880. 656, 468−474.
+(31) IPCC. 2006 IPCC Guidelines for National Greenhouse Gas (49) van Loosdrecht, M. C. M.; Nielsen, P. H.; Lopez-Vazquez,C.
+Inventories,2006, p5. M.; Brdjanovic, D. Experimental Methods in Wastewater Treatment;
+(32)IPCC.2019Refinementtothe2006IPCCGuidelinesforNational IWA Publishing,2016.
+GreenhouseGasInventories;IPCC.https://www.ipcc.ch/report/2019- (50) Morales-Rico, P.; Ramos-Diaz, J.; Mendoza-León, E.; Silva-
+refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas- Olmedo, F.; Thalasso, F. A Simplified Open Flux Chamber Method
+inventories/(accessed2021−04−26). for the Measurement of Greenhouse Gas Emissions from Activated
+(33) El-Fadel, M.; Massoud, M. Methane Emissions from Waste- Sludge Reactors. J. WaterClim.Change 2024, 15(5),2127−2140.
+waterManagement. Environ. Pollut.2001, 114(2), 177−185. (51) Linstrom, P. NIST Chemistry WebBook; NIST Standard
+(34) Gupta, D.; Singh, S. Greenhouse Gas Emissions From Reference Database69, 1997.
+Wastewater Treatment Plants: A Case Study of Noida. J. Water (52) Ekama, G. A.; Dold, P. L.; Marais, G. v. R. Procedures for
+Sustainability2012, 2, 131. Determining Influent COD Fractions and the Maximum Specific
+(35)Santos,J.O.;Andrade,J.C.S.;Marinho,M.M.O.;Noyola,A.; GrowthRateofHeterotrophsinActivatedSludgeSystems.WaterSci.
+Güereca, L. P. Greenhouse Gas Inventory of a State Water and Technol. 1986, 18(6), 91−114.
+Wastewater Utility in Northeast Brazil. J. Clean. Prod. 2015, 104, (53) Taylor, J. R. An Introduction to Error Analysis: The Study of
+168−176. Uncertainties in Physical Measurements, 2nd ed.; University Science
+(36)Noyola,A.;Paredes,M.G.;Morgan-Sagastume,J.M.;Güereca, Books: Sausalito,Calif, 1997.
+L. P. Reduction of Greenhouse Gas Emissions From Municipal (54) Bevington, P. R.; Robinson, D. K. Data Reduction and Error
+Wastewater Treatment in Mexico Based on Technology Selection: AnalysisforthePhysicalSciences,3rded.;McGraw-Hill:Boston,2003.
+Water.Clean:Soil, Air,Water 2016, 44(9),1091−1098. (55)Daelman,M.R.J.;VanEynde,T.;vanLoosdrecht,M.C.M.;
+(37)Shrestha,A.;Bhattarai,T.N.;Ghimire,S.;Mainali,B.;Treichel, Volcke,E.I.P.EffectofProcessDesignandOperatingParameterson
+H.; Paudel, S. R. Estimation of Greenhouse Gases Emission from AerobicMethaneOxidationinMunicipalWWTPs.WaterRes.2014,
+DomesticWastewaterinNepal:AScenario-BasedAnalysisApplicable 66, 308−319.
+forDeveloping Countries.Chemosphere2022, 300, 134501. (56)Baeten,J.E.;Walgraeve,C.;Granja,R.C.;vanLoosdrecht,M.
+(38)Johnson,J.;Zakaria,F.;Nkurunziza,A.G.;Way,C.;Camargo- C.M.;Volcke,E.I.P.UnaeratedFeedingAlterstheFateofDissolved
+Methane during Aerobic Wastewater Treatment. Water Res. 2021,
+Valero, M. A.; Evans, B. Whole-System Analysis Reveals High
+204, 117619.
+Greenhouse-Gas Emissions from Citywide Sanitation in Kampala,
+(57) Gal̊falk, M.; Pal̊edal, S. N.; Sehlén, R.; Bastviken, D. Ground-
+Uganda. Commun.Earth Environ.2022, 3 (1),80.
+Based Remote Sensing of CH and NO Fluxes from a Wastewater
+(39) Ramírez-Melgarejo, M.; Reyes-Figueroa, A. D.; Gassó- 4 2
+Domingo, S.; Güereca, L. P. Analysis of Empirical Methods for the Treatment Plant and Nearby Biogas Production with Discoveries of
+Unexpected Sources.Environ. Res.2022, 204,111978.
+Quantification of N2O Emissions in Wastewater Treatment Plants:
+(58) Henze, M.; van Loosdrecht, M. C. M.; Ekama, G. A.;
+Comparison of Emission Results Obtained from the IPCC Tier 1
+Brdjanovic, D. Biological Wastewater Treatment: Principles, Model-
+Methodology and the Methodologies That Integrate Operational
+ling andDesign. Water Intell.2008, 7 (0),9781780401867.
+Data.Sci. Total Environ.2020, 747,141288.
+(59) IEA. Global Methane Tracker 2024; IEA: Paris, 2024 https://
+(40) Ramírez-Melgarejo, M.; Stringer, T. Wastewater Treatment,
+www.iea.org/reports/global-methane-tracker-2024/understanding-
+Energy Consumption, and Greenhouse Gas Emissions: An Opera-
+methane-emissions (accessed2024−07−16).
+tionalApproachtoComparingBarcelonaandMexicoCity.J.Environ.
+(60) Guisasola, A.; de Haas, D.; Keller, J.; Yuan, Z. Methane
+Manage.2024, 353,120175.
+FormationinSewerSystems.WaterRes.2008,42(6−7),1421−1430.
+(41) Wu, Z.; Duan, H.; Li, K.; Ye, L. A Comprehensive Carbon
+(61) Liu, Y.; Ni, B.-J.; Sharma, K. R.; Yuan, Z. Methane Emission
+Footprint Analysis of Different Wastewater Treatment Plant
+from Sewers. Sci.Total Environ. 2015, 524−525, 40−51.
+Configurations.Environ. Res.2022, 214,113818.
+(62)Liu,Y.;Sharma,K.R.;Murthy,S.;Johnson,I.;Evans,T.;Yuan,
+(42) Li, H.; You, L.; Du, H.; Yu, B.; Lu, L.; Zheng, B.; Zhang, Q.;
+Z. On-Line Monitoring of Methane in Sewer Air. Sci. Rep. 2014, 4
+He, K.; Ren, N. Methane and Nitrous Oxide Emissions from
+(1), 6637.
+MunicipalWastewaterTreatmentPlantsinChina:APlant-Leveland
+(63) Chaosakul, T.; Koottatep, T.; Polprasert, C. A Model for
+Technology-Specific Study. Environ. Sci. Ecotechnology 2024, 20,
+MethaneProductioninSewers.J.Environ.Sci.Eng.A2014,49(11),
+100345.
+1316−1321.
+(43)Yapıcıoğlu,P.;Demir,O..̈ EnvironmentalPerformancesofthe
+Wastewater Treatment Plants: Green Index. Int. J. Glob. Warming
+2020, 21(1),1−19.
+(44) Gupta, D.; Singh, S. Greenhouse Gas Emissions From
+Wastewater Treatment Plants: A Case Study of Noida. J. Water
+Sustainability2012, 2, 131.
+(45) Chong, Y.; Li, H.; Pan, T.; You, L.; Du, H.; Yu, B.; Chen, J.;
+Ren, N.; Lu, L. More Applicable Quantification of Non-CO2
+Greenhouse Gas Emissions from Wastewater Treatment Plants by
+on-SitePlant-IntegratedMeasurements.Sci.TotalEnviron.2024,929,
+172598.
+(46) Paredes, M. G.; Güereca, L. P.; Molina, L. T.; Noyola, A.
+Methane Emissions from Stabilization Ponds for Municipal Waste-
+5581 https://doi.org/10.1021/acsomega.4c08289
+ACSOmega2025,10,5574−5581

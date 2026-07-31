@@ -1,0 +1,587 @@
+--- Page 1 ---
+water
+Article
+Multi-Objective Optimization Based on Simulation Integrated
+Pareto Analysis to Achieve Low-Carbon and Economical
+Operation of a Wastewater Treatment Plant
+JianboLiao1,ShuangLi1,YihongLiu1,SiyuanMao1,TuoTian2,XueyanMa2,BingLi1,*andYongQiu2,*
+1 SchoolofEnergyandEnvironmentalEngineering,UniversityofScienceandTechnologyBeijing,
+Beijing100083,China
+2 StateKeyJointLaboratoryofEnvironmentSimulationandPollutionControl,SchoolofEnvironment,
+TsinghuaUniversity,Beijing100084,China;tiantuo@mail.tsinghua.edu.cn(T.T.);
+maxueyan@mail.tsinghua.edu.cn(X.M.)
+* Correspondence:libing@ustb.edu.cn(B.L.);qiuyong@tsinghua.edu.cn(Y.Q.);Tel.:+86-13810103096(Y.Q.)
+Abstract: Itisessentialtoreducecarbonemissionsinwastewatertreatmentplants(WWTPs)to
+achieve carbon neutrality in society. However, current optimization of WWTPs prioritizes the
+operationcostindex(OCI)andeffluentqualityindex(EQI)overgreenhousegas(GHG)emissions.
+Thisstudyaimstoconductamulti-objectiveoptimizationofaWWTP,consideringGHGemissions,
+EQI,andOCI.Theanaerobic-anoxic-oxicintegratedmembranebioreactor(AAO-MBR)processin
+anactualWWTPwasselectedasatypicalcase,tensofthousandsofscenarioswithcombinationsof
+sixoperationalparameters(dissolvedoxygen(DO),externalcarbonresource(ECR),polyaluminum
+chloride(PAC),internalrefluxratio(IRR),externalrefluxratio(ERR),andsludgedischarge(SD))
+weresimulatedbyGPS-Xsoftware(Hydromantics8.0.1). ItwasshownthatECRhasthegreatest
+impactonoptimizationobjectives.Intheoptimalscenario,themainparametersofATDO,MTDO,
+IRR,andERRwere0.1mg/L,4mg/L,50%,and100%,respectively.TheEQI,OCI,andGHGofthe
+bestscenariowere0.046kg/m3,0.27¥/m3,and0.51kgCO /m3,whichwere2.1%,72.2%,and34.6%
+2
+Citation:Liao,J.;Li,S.;Liu,Y.;Mao, betterthanthecurrentsituationofthecaseWWTP,respectively. Thisstudyprovidesaneffective
+S.;Tian,T.;Ma,X.;Li,B.;Qiu,Y. methodforrealizinglow-carbonandeconomicaloperationofWWTPs.
+Multi-ObjectiveOptimizationBased
+onSimulationIntegratedPareto Keywords: multi-objectiveoptimization;Paretoanalysis;greenhousegasemissions; AAO-MBR;
+AnalysistoAchieveLow-Carbonand operationalparameters
+EconomicalOperationofa
+WastewaterTreatmentPlant.Water
+2024,16,995. https://doi.org/
+10.3390/w16070995
+1. Introduction
+AcademicEditor:AndreaG. Reducinggreenhousegasemissionsisofutmostimportanceintheglobalfightagainst
+Capodaglio climatechange. TheParisAgreement,establishedin2015,hasmotivatednumerouscoun-
+tries to establish objectives for carbon peaking and carbon neutrality [1]. As a result,
+Received:5February2024
+industriesaroundtheworldhaveadaptedtheirdevelopmentstrategiesandimplemented
+Revised:15March2024
+emission-reducingmeasures. Accordingtostatisticsfrommajordevelopedcountries,the
+Accepted:22March2024
+Published:29March2024 wastewatertreatmentindustryisamongthetoptencontributorstototalcarbonemissions,
+accounting for 1% to 2% [2]. It is expected that the total greenhouse gas emissions (in
+terms of CO equivalent) from China’s wastewater treatment industry will be as high
+2
+as365milliontby2030. Itaccountsfor2.95%ofthecountry’stotalemissions[3,4]. On
+Copyright: © 2024 by the authors. 29December2023,theChinesegovernmentreleasedthepolicyentitled“Opinionsonthe
+Licensee MDPI, Basel, Switzerland.
+ImplementationofPromotingSynergisticEfficiencyinWastewaterTreatmentforReducing
+Thisarticleisanopenaccessarticle
+PollutionandReducingCarbon”. ItannouncedChineseplanstobuild100greenandlow-
+distributed under the terms and
+carbonbenchmarkplantsforwastewatertreatmentin2025withhigh-efficiencyrecyclingin
+conditionsoftheCreativeCommons
+energyandresources. Therefore,measuressuchasadoptingnewprocessesandimproving
+Attribution(CCBY)license(https://
+operationlevelstoachievecarbonreductioninthewastewatertreatmentindustryareof
+creativecommons.org/licenses/by/
+greatsignificanceinachievingcarbonneutrality.
+4.0/).
+Water2024,16,995.https://doi.org/10.3390/w16070995 https://www.mdpi.com/journal/water
+
+--- Page 2 ---
+Water2024,16,995 2of16
+Due to the diversity of municipal wastewater treatment processes, there is a large
+levelofcomplexityanduncertaintywhenitcomestobalancingmultipleobjectivessuchas
+operationalefficiencyandlow-carbonemissions. Inpractice,improvingeffluentquality
+andminimizingoperatingcostsarestilltheprimaryconcernsofoperationmanagers. To
+attaintheseobjectives,itiscrucialtoexploreavenuesforreducingtheoperationcostindex
+(OCI)andgreenhousegas(GHG)whileupholdingthestandardsoftheeffluentquality
+index(EQI).Thisisaprobleminvolvingtheoptimizationofmultipleobjectivesinnature.
+Intermsofsingle-objectiveandbi-objectiveoptimization,therehavebeennumerous
+reports. Wuetal.[5]usedWEST2012® softwaretosimulateandoptimizeanindustrial
+wastewatereffluentplantwithcomplexinfluentcompositions,whichledtothereduction
+in OCI from 6.2 to 5.5 €/m3. Cao et al. [6] screened and analyzed the sensitivity of
+61parameters. Theydevelopedaquadraticpolynomialresponsesurfacemodelofsixkey
+processparameters. Finally,thewaterqualityimprovementwasachievedbyoptimizing
+twoprocessparameters,dissolvedoxygen(DO)andsolidsretentiontime(SRT).Allofthe
+abovestudiesfocusonthesingle-objectiveoptimizationproblemofwastewatertreatment
+process. However,theyhavenotformedanintegratedandcomprehensivestudy. Vega
+etal.[7]combinedreal-timeoptimizationandhierarchicalcontrolwithnonlinearmodel
+predictivecontrol,andevaluatedthewastewatertreatmentprocessEQIandOCIthrough
+thecontrolstructure. Zhangetal.[8]proposedamulti-objectiveoptimizationandcontrol
+methodofBPneuralnetworkcombinedwithageneticalgorithm,whicheffectivelysolves
+the problems of EQI and OCI, a pair of mutually constrained optimization objectives.
+Guerreroetal.[9]usedbothOCIandEQIasthecontroloptimizationobjectives,which
+produced a set of optimal operating setpoints that could be approximated by a Pareto
+surface. Theseoptimizationstudiescanguidewastewatertreatmentplants(WWTPs)to
+effectivelyreduceOCIwithoutconsiderationaboutGHGemissions.
+Regardingthetri-objectiveoptimizationofEQI,OCI,andGHG,althoughthereare
+some research reports in recent years, there are still some deficiencies that need to be
+improved. Luetal.[10]assessedtheeffectivenessofgaugingadynamicsimulationmodel
+inregulatingGHGinWWTP.Theevaluationputsforthafreshapproachforachieving
+optimalcontrolofsuchplants,takingintoaccountEQI,OCI,andGHG.Itisimportantto
+mention,however,thatwhiletheproposedframeworkissoundintheory,itlackspractical
+real-worldcasestudies.X.Flores-Alsinaetal.[11]foundthataerobictankdissolvedoxygen,
+primarysedimentationtanksuspendedsolid(SS)removal,anaerobicdigestertemperature,
+andrefluxstrategyhadeffectsonthethreeobjectivesconsidered(GHG,EQI,andOCI).But
+theseobjectivescouldnotbeoptimizedforallofthem. Similarconclusionswereobtained
+inthestudyofC.Sweetappleetal.[12],wherenoneofthe315aerationstrategiessetup
+couldsimultaneouslyachievetheco-optimizationofthethreeobjectives. Theoperation
+energyconsumption,waterquality,andcarbonemissionsofWWTPbasedoncontinuous
+batchreactorwerestudied,butnocollaborativeoptimizationwasachieved[13].
+SinceEQI,OCI,andGHGarethreemutuallyconstrainedoptimizationobjectives,itis
+difficulttoachievetheoptimalsolutionofthethreeobjectivesatthesametime. Hence,itis
+necessarytoadoptanonlinearmulti-objectiveoptimizationmethodtodeterminetheoverall
+optimalsolution[8]. Forthispurpose,thestudyemploysParetooptimizationprinciples
+andintroducestheupstreamlogicintheNSGA-IIalgorithm—theNon-dominatedSorting
+GeneticAlgorithms,whichhasproveneffectiveinoptimizingcontrolstrategiesforWWTPs
+frompriorstudies. Chenetal.[14]usedNSGA-IItoachievemulti-objectiveoptimization
+of operational energy consumption, effluent quality, total volume of structures, and SS
+ofstructuresbasedontheactivatedsludgemethod. Beraudetal.[15]coupledNSGA-II
+withacommonwastewatertreatmentplantmodeltoillustratehowthealgorithmcanbe
+usedtodeterminethefeasibilityofParetooptimality. Itisworthnotingthatresearchers
+usemathematicalmodelstosimulatecomplexprocessconditionsandobtainbasicdata
+foroptimizationevaluationcommonly. Inthisway,asthehighinputoftimeandlabor
+decreasesapparently,sodoesthecostoftrialanderror. Moreover,theissuescausedby
+
+--- Page 3 ---
+Water2024,16,995 3of16
+uncertainty and inefficiency in relying on traditional methods to optimize operational
+parameterscanbeavoidedefficiently,aswell[16].
+At present, there are hundreds of domestic and foreign wastewater treatment pro-
+cesses. Among them, the combination of anaerobic-anoxic-oxic (AAO) and membrane
+bioreactor(MBR)processes(namedAAO-MBR)hasarousedgeneralattention,because
+it can achieve high and stable effluent quality, short hydraulic retention time, and low
+residualsludgevolume[17,18]. Duetoitshigheffluentquality,theresultingwastewater
+cannotonlybedischargeddirectlyintotheenvironment,butalsoreusedfornon-potable
+waterapplications[19]. ConsideringtheincreasinguseofAAO-MBRinupgradingprojects
+andundergroundWWTPs,morethan25%ofundergroundWWTPsuseAAO-MBRasthe
+primaryprocess[20],thetypicalAAO-MBRprocesswasselectedastheresearchobjectin
+thisstudy. Thenonlinearmulti-objectiveoptimizationmethodwasexploredtoachieve
+low-carbonemissiontakingintoaccounttheeffluentqualityandoperationcost. Wees-
+tablishedaprocessmodelwiththehelpofGPS-Xsimulationandmodelingsoftwareto
+analyzetheeffectsofsixtypicaloperationalparametersonEQI,OCI,andGHG.Anon-
+dominatedsortingmethodwasadoptedtosearchforthePareto-optimalsetofsolutions
+andscreentheoptimalsolutionfromit.Throughtheaboveprocess,thenecessarytrade-offs
+betweenconflictingcontrolobjectivesweremade,whichprovidedsupportforenhancing
+thesustainabilityofthewastewatertreatmentsystem.
+2. MaterialsandMethods
+2.1. AMulti-ObjectiveOptimizationFramework
+Theresearchframeworkofthemulti-objectiveoptimizationcomparisonmethodused
+inthispaperisvisuallydepictedinFigure1. Differentfromthetraditionalmulti-objective
+weightedevaluationoptimizationmethod,thispapersearchesfortheoptimalcombination
+Water 2024, 16, x FOR PEER REVIEW ofoperationalparametersbasedonthethreemutualrestraintobjectivesofEQI,OCI,and4 of 15
+GHGbymeansofParetooptimalsolutionset. Theoptimizationprocessentailsthreemajor
+parts: modelconstruction,multi-parameterevaluation,andoptimizationcomparison.
+Figure1.Theresearchframeworkofthemulti-objectiveoptimization.
+Figure 1. The research framework of the multi-objective optimization.
+Firstly, the process model was built with the help of GPS-X (Hydromantics 8.0.1)
+2.2.s iTmeuchlantoiolongaicnadl Pmroodceeslisn Mgsoodfetwlinagre a.nTdh eSckeenyaorpioe rAantianlgysciosn ditionsincludedsixoperational
+parameters, including dissolved oxygen (DO) concentration, external carbon resource
+2.2.1. Construction of Process Model
+(ECR),phosphorusremovalagentpolyaluminumchloride(PAC),internalrefluxratio(IRR),
+The case plant is located in Luohu District, Shenzhen, China. It adopts the AAO-MBR
+externalrefluxratio(ERR),andsludgedischarge(SD).Amongthese,theDOconcentration
+treatment process, and the actual treatment scale is 33,500 m3/d, with hydraulic retention
+time (HRT) of 17.33 h and solid retention time (SRT) of 10.94 d. The influent water quality
+is shown in Table S1, and the design effluent is required to meet the Class A standard of
+the China Urban Wastewater Treatment Plant Emission Standard (GB18918-2022) [21].
+Based on the actual process and operational parameters of the case WWTP, the model
+is generalized and the parameters are calibrated according to the standardized procedure
+[22]. Its actual operational parameters and unit structures are shown in Tables S2 and S3.
+The generalized model of the case plant is depicted in Figure 2.
+The daily water quality data in 2022 is collected for model calibration of the baseline
+scenario. Then, the relevant stoichiometric and dynamic parameters in the structure are
+adjusted to make the simulated effluent water quality the same or close to the actual ef-
+fluent water quality, with reference to the previous studies [6,23]. The results of the cali-
+bration and the baseline simulation scenario of the effluent quality are shown in Table S1.
+After calibration, the average errors of BOD 5, COD, SS, TN, TP, and NH 4+-N were 7.0%,
+10%, 8.0%, 0.3%, 18%, and 25%, respectively, and the maximum absolute errors were 0.15,
+1.23, 0.02, 0.03, 0.03, and 0.02 mg/L. Almost all the indicators’ errors were within accepta-
+ble limits [24].
+Figure 2. Generalized model of the case WWTP established in GPX-S software.
+
+--- Page 4 ---
+Water 2024, 16, x FOR PEER REVIEW 4 of 15
+Figure 1. The research framework of the multi-objective optimization.
+2.2. Technological Process Modeling and Scenario Analysis
+Water2024,16,995 4of16
+2.2.1. Construction of Process Model
+The case plant is located in Luohu District, Shenzhen, China. It adopts the AAO-MBR
+includedtheaerobictankdissolvedoxygen(ATDO)concentrationandthemembranetank
+treatment process, and the actual treatment scale is 33,500 m3/d, with hydraulic retention
+dissolvedoxygen(MTDO)concentration. Basedonthebaselinescenario,thesimulated
+time (HRT) of 17v.3a3lu he paonidnt ssoolfidsi xreotpeenratitoionn atilmpaer a(SmReTte)r sowf 1e0re.9s4et d. . The influent water quality
+is shown in Table S1,S eacnodn dtlhy,et hdeeosrigthno geofflnaulecnomt ibsi nraetqiouniroefdp atroa mmeeteert stihmeu Clatliaosns vAal usteasnwdaasrcdar orife dout
+the China Urbant hWroausgtehwdaatteart rTarveearstmaletontf oPrmlanatn Eomrthisosgioonna Sltsaimndulaartdio n(GscBe1n8a9ri1o8.-G20P2S2-X) [s2o1ft]w. arewas
+usedtorealizemasssimulationcalculationandautomaticoutputresults.
+Based on the actual process and operational parameters of the case WWTP, the model
+Finally,basedonthesimulationresultsoftheorthogonalparameterset,theevaluation
+is generalized and the parameters are calibrated according to the standardized procedure
+valuesofeachscenarioweresolvedbytheequalproportionweightingcalculation. The
+[22]. Its actual operational parameters and unit structures are shown in Tables S2 and S3.
+optimalscenariowasselectedtodeterminetheoptimaloperationparametercombination.
+The generalized model of the case plant is depicted in Figure 2.
+2.2. TechnologicalProcessModelingandScenarioAnalysis
+The daily water quality data in 2022 is collected for model calibration of the baseline
+2.2.1. ConstructionofProcessModel
+scenario. Then, the relevant stoichiometric and dynamic parameters in the structure are
+ThecaseplantislocatedinLuohuDistrict,Shenzhen,China. ItadoptstheAAO-MBR
+adjusted to make the simulated effluent water quality the same or close to the actual ef-
+treatmentprocess,andtheactualtreatmentscaleis33,500m3/d,withhydraulicretention
+fluent water quality, with reference to the previous studies [6,23]. The results of the cali-
+time(HRT)of17.33handsolidretentiontime(SRT)of10.94d. Theinfluentwaterquality
+bration and the baseline simulation scenario of the effluent quality are shown in Table S1.
+isshowninTableS1,andthedesigneffluentisrequiredtomeettheClassAstandardofthe
+After calibrationC, hthinea aUvrebraangWe aesrtreowrast eorfT BreOatDm5e, nCtOPlDan,t SESm, iTssNio,n TSPta,n adnadrd N(GHB14+8-9N18 w-20e2r2e) 7[2.01%]. ,
+10%, 8.0%, 0.3%, 18%B, aasnedd o2n5t%he, raectsupaelcptriovceelsys,a annddo ptehrea tmionaaxlipmauramm eatberssoolfutthee ecrarseorWs WwTePr,et h0e.1m5o, delis
+1.23, 0.02, 0.03, 0.g0e3n,e aranlidz e0d.0a2n dmthge/Lp.a Aramlmetoesrts aarlel tchaleib irnadteidcaatcocorrsd’ ienrgrtoortsh wesetraen dwaridthiziend apcrcoecpedtau-re[22].
+ItsactualoperationalparametersandunitstructuresareshowninTablesS2andS3. The
+ble limits [24].
+generalizedmodelofthecaseplantisdepictedinFigure2.
+Figure2.GeneralizedmodelofthecaseWWTPestablishedinGPX-Ssoftware.
+Figure 2. Generalized model of the case WWTP established in GPX-S software.
+Thedailywaterqualitydatain2022iscollectedformodelcalibrationofthebaseline
+scenario. Then,therelevantstoichiometricanddynamicparametersinthestructureare
+adjustedtomakethesimulatedeffluentwaterqualitythesameorclosetotheactualeffluent
+waterquality,withreferencetothepreviousstudies[6,23]. Theresultsofthecalibration
+andthebaselinesimulationscenariooftheeffluentqualityareshowninTableS1. After
+calibration,theaverageerrorsofBOD ,COD,SS,TN,TP,andNH +-Nwere7.0%,10%,
+5 4
+8.0%,0.3%,18%,and25%,respectively,andthemaximumabsoluteerrorswere0.15,1.23,
+0.02,0.03,0.03,and0.02mg/L.Almostalltheindicators’errorswerewithinacceptable
+limits[24].
+ThePythonScriptManagerattachedtothesoftwareisusedtoachieveexternalcontrol.
+Alargenumberofexhaustivesimulationsrunwithinacertainrangearecompletedunder
+thepremiseoffixedprocessflowandstructure. Atthesametime,thescriptiswrittenin
+Pythonenvironmenttorealizeautomaticdataimportandexport. Theautomatedoperation
+isimplementedthroughtheloopstatementsoftheupperlogic. Thelogicalstructureof
+whichisshowninFigureS1.
+
+--- Page 5 ---
+Water2024,16,995 5of16
+2.2.2. OrthogonalScenarioSettingsofOperationalVariable
+ReferringtothebasicoperationalparameterspresentedinTableS2, wesettheop-
+timized values of the six operational parameters, DO (ATDO, MTDO), ECR, PAC, IRR,
+ERR,andSDofthecaseWWTP,respectively. Thesesixwerechosenfromalargersetof
+operationalanddesignparametersasthesetofmostlikelytobesignificanttotheobjective
+functions[25,26]. ThesevaluesarecombinedwiththeactualoperatingdataofWWTPand
+thesimulativescenariovaluesareshowninTableS4.
+Through the way of data traversal, the value points of the operational parameters
+(Table S4) are arranged and combined successively, forming a total of 80,000 (4 × 4 ×
+4 × 5 × 5 × 5 × 10) groups of parameter combinations, forming orthogonal scenarios.
+ThesescenariosaresimulatedintheconstructionofthecaseWWTPmodel,andtheresults
+obtainedareusedforsubsequentanalysis. ThevaluesofMTDOhadnosignificanteffect
+on the three objectives (Figure S2). Therefore, the effects of six operational parameters,
+ATDO,ECR,SD,PAC,IRR,andERR,onEQI,OCI,andGHGwereexaminedseparately.
+2.3. CalculationMethodofThreeOptimizableObjectives
+2.3.1. EffluentQualityIndex(EQI)
+TheeffluentqualityischaracterizedbyEQIwithaunitofkg/m3,whichrepresents
+thetotalamountofpollutantsdischargedpertonofwastewatertreatedbythestudyobject.
+Inthisstudy,EQIischaracterizedbyCOD,BOD ,TSS,SolublePO -P,NO (NO +NO ),
+5 4 x 2 3
+andTKN.Theirweightingfactorsareusedwithdefaultvaluesof1,2,2,2,2,1,and20,
+respectively. Thevaluesareobtaineddirectlyfromthesoftware,andthereferenceformula
+inthesoftwareisshowninEquation(1):
+6
+∑
+EQI=Q wS (1)
+i i
+i=1
+whereQistheeffluentflowofWWTP,m3/d,w istheweightoftheithpollutantinthe
+i
+EQI.S istheconcentrationoftheithpollutantintheEQI,mg/L.
+i
+2.3.2. OperatingCostsIndex(OCI)
+TheoperatingcostischaracterizedbyOCIwithaunitof$/m3. TheOCIincludes
+energycosts,pharmaceuticalcosts,andsludgedisposalcosts. Theenergycostsinclude
+aerationenergycosts,pumpingenergycosts,mixingenergycosts,heatingenergycosts,
+andotherenergycosts. Similarly,theOCIvaluecanbedirectlyoutputbyGPS-Xsoftware,
+andtheOCIcalculationformulaisshowninEquation(2):
+OCI=C +C +C (2)
+are che disp
+whereC iselectronicenergycost,0.1$/kWh. C ischemicalcost,includingthecarbon
+are che
+sourcecostof2.0$/kg,PACcostof0.5$/kg,andsludgepretreatmentchemicalcostof
+1.0$/kg. C issludgedisposalcost,includingthesludgetransportationcostof80$/t.
+disp
+Since theassociatedeconomic indicatorsin thesoftwareuse USD$as theunit, we
+convertthemtoUSD$intheanalysiswithreferencetotheUSD-RMBexchangerateatthe
+beginningofMay2023,basedon1USDequals6.91RMB.
+2.3.3. GreenhouseGas(GHG)
+Operational greenhouse gas emissions are characterized using GHG in units of
+tCO eq/m3. Amongthewidelyusedcarbonemissionaccountingmethods,theactual-
+2
+measurementmethodisnotapplicableinthesimulationandcalculationscenarios. This
+study combines the emission factor method with the mass balance method to slice the
+
+--- Page 6 ---
+Water2024,16,995 6of16
+carbonemissionsofthewastewatertreatmentplantintomultiplepartsforseparatecalcula-
+tions. TheaccountingequationsareshowninEquations(3)and(4):
+GHG=Q(C −C )×EF×GWP (3)
+in out
+GHG=AD×EF×GWP (4)
+whereADistheactivitydatafortheemissionsourceandtheunitdependsonthecalculated
+emissionsource. EFistheemissionfactorandtheunitdependsontheactivitydata. Qis
+theeffluentflowofWWTP,m3/d. C istheconcentrationofthecorrespondingpollutant
+in
+intheinfluentwater,mg/L.C istheconcentrationofthecorrespondingpollutantinthe
+out
+effluentwater,mg/L.GWPisGlobalWarmingPotential. GWPCH is25tCO eq/tCH
+4 2 4
+andGWPN Ois298tCO eq/tN O.
+2 2 2
+Thetotalcarbonemissionsarecomposedof10components,whicharepresentedin
+TableS5. Forspecificcalculationsofbiochemicalprocesses,power,andchemicalscarbon
+emissionsforeachstructure,refertoEquations(S1)–(S10). Threeofthedirectemissions
+(S1),(S2),and(S10)arecalculatedwiththemassbalancemethod(Equation(3)),whilethe
+restoftheemissionprocessesareconvenientlycalculatedwiththeemissionfactormethod
+(Equation(4)).
+2.4. Non-DominatedSortingMethod
+ReferringtotheconceptofParetooptimum,theupstreamlogic-non-dominatedsorting
+methodwasintroducedintheNSGA-IIalgorithmtofilterouttheParetooptimalsolution
+fromtensofthousandsofsimulationscenarios. Itenablesustoachievemulti-objective
+comprehensiveoptimizationofthethreeobjectives,EQI,OCI,andGHG.Thismethodis
+idealforoptimizingcontrolstrategiesinWWTPsasitcanhandlenonlinearoptimization
+problems. Moreover,itiscapableofevaluatingtheobjectivefunctionwithfewerconditions
+andachievingmulti-objectiveoptimizationinasinglesimulation[27].
+Acycle-basediterativerankingmethodisusedtoachievetheaboveoptimization. For
+eachroundofthestudyobjectswithinthestudyscope,the“dominance”relationshipof
+eachscenariopointwithotherscenariopointsisexaminedseparately. Then,theoptimal
+scenario in a “non-dominated” state is selected in each round until all the remaining
+scenariosarenotdominatedbyeachother.
+Ingeneral,thescenarioswithParetorank1obtainedbymulti-objectivesortingare
+notunique. Inordertofurthercompletethescreeningin“Pareto-optimal”scenarios,this
+studyestablishesarankingmethodwithconstraints,focusingonthecomprehensivelevel
+ofobjectivesundercertainweights. Bysettingtheweights, wecalculatethecomposite
+objective values to complete the final ranking. In this study, the three objectives are
+consideredtobeofthesameimportance,thustheweightfactorsK ofthethreeobjectives
+i,j
+were equal. MATLAB (2021B) programming is used to implement the non-dominated
+sortinganddrawtheParetofrontier. Thecalculationoftheintegratedobjectivevaluefor
+thei’thscenarioisshowninEquation(5):
+3
+∑
+S = K ·F /F (5)
+i i,j i,j 0,j
+j=1
+whereS isthevalueofthecompositeobjectivefortheithscenario. jisthenumberofthe
+i
+objective. K istheweightofthejthobjective(K =K =K =1/3). F isthevalueof
+i,j i,1 i,2 i,3 i,j
+thejthobjectivefortheithscenario,withunitsreferencedtotheobjectives. F isthevalue
+0,j
+ofthejthobjectiveforthebasedscenario,withunitsreferencedtotheobjectives.
+3. ResultsandDiscussion
+3.1. EffectofOperationalParametersonEffluentQualityIndex(EQI)
+TheinfluenceofthesixoperationalparametersontheEQIvaluesisshowninFigure3.
+Ingeneral,theEQIvaluesincreasewiththeincreaseinATDOandSDvalues,anddecrease
+
+--- Page 7 ---
+Water2024,16,995 7of16
+Water 2024, 16, x FOR PEER REVIEW withtheincreaseinPACandERRvalues. ThechangeinECRandIRRvalu8e sodf o1e5s nothave
+asignificanteffectontheEQI.Amongthese,thechangeinPACvaluesaffectsthemost
+largely,indicatingthatPACisthemostinfluentialoperationalparameter.
+Figure 3. The effecFt iogfu sreim3.uTlahteedef fveactluoef scihmaunlgaetesd inv aeluacehc hoapnegreastiionneaalc hpaorpaemraetitoenr aolnp aErQamI eftoerr tohneE cQasIefo rthecase
+plant. (a) ATDO; (bp)l aPnAt.C(a; )(Ac)T EDCOR;(; b()dP) AIRCR;(;c ()eE)C ERR;R(d;) (IfR) RS;D(e, )aEnRdR t;h(fe) vSDal,uaensd otfh ethvea lbuaesseolfinthee sbcaesnealirnioe scenariois
+is denoted by (B) ind ethneo taebdsbcyis(sBa). intheabscissa.
+TheEQIvalueofthecaseplantincreasesslightlywiththeincreaseinATDO,which
+3.2. Effect of Operational Parameters on the Operation Cost Index (OCI)
+is shown in Figure 3a, indicating that high ATDO does not enhance the EQI, a similar
+The influencceo oncf ltuhseio snixw oapsefroautniodnianl tphaersatmudeyte[r2s8 o].nS tinhcee OthCeI svuablsueeqsu iesn sthmoewmnb irna nFeigtaunrke isableto
+4. It can be seen tshhaatr eIRthRe aanerdo bSiDc tdanok nporte shsauvree ,ath seigAnAifiOc-aMntB Reffpercotc eosns tahlleo wOsCfIo. rAenxt rinemcreelaysleo wATDO
+valuestobeutilized,resultinginmorestableEQIscenariosbeingmetandretained. Jiang
+in the values of the remaining operational parameters causes an increase in the OCI, with
+etal.[29]demonstratedthattheAAO-MBRprocessimproveswaterqualitybyefficiently
+a change in the value of ECR causing the largest change in the OCI. It suggests that ECR
+removing nitrogen and phosphorus with limited aeration (DO = 0.5–1.0 mg/L), which
+is the operational parameter with the greatest influence.
+isconsistentwiththesimulationresults. ItisnoteworthythatwhilereducingATDOto
+As Figure 4a shows, the OCI experiences gradual growth as the ATDO increases. This
+0.1mg/Lfacilitatesshort-rangedenitrification,theactualengineeringdesignparameter
+growth is especiawllays psertoanto2umncge/dL .wThhiesns uthgge eAstTsDthOat caonnecmenptirriactailo-bnass eadred eeistihgnerc alonwacehr itehvaenlo 0c.a5l optimum
+mgO 2/L or highevr atlhuaens. 4H mowgeOv2e/rL,d. uTehtios iins stuhfefi crieeanstoenm tphiraitc alolcwo vAeTraDgeOo rfevdauricoeuss escneenragryio cs,odne-termining
+sumption, and thcuosm OprCeIh einn stihvee AanAdOop-MtimBaRl sporlouctieosnss [m34a,y35n]o. tCaolwnavyesrsbeelyp,o shsiigbhlee.rT AheTDreOsu lltesvd-epictedin
+els mean that theF wigautreer 3ibs arelrveeaadlay nsoatteuwraotretdhy wreitdhu dctiisosnolivnetdhe oExQygIevnal, ucea,uassinthge aP AdCecvreaalusee riins es,which
+isespeciallyprominentwhenthePACvalueislow. ItindicatesthesignificanceofPAC
+oxygen transfer rate and utilization. This, in turn, results in an increase in energy con-
+indecreasingtheintegratedwaterqualityindex. ItalsosuggeststhatasthePACdosage
+sumption and OCI. Other studies have also arrived at similar conclusions [36,37]. Addi-
+increases,itsoptimizationeffectontheEQIdwindles. Thesetwopointsmatchwiththe
+tionally, it has been shown that the aeration process accounts for around 50% of the total
+findings[24,30]. ByaddingasmallamountofECR,theEQIvalueshaveacertaindecrease,
+power consumption of a WWTP [38] and over 30% of the total OCI [39]. This highlights
+but with the increase in the dosage, the EQI values will turn to increase (Figure 3c). It
+the crucial role of ATDO in optimizing OCI in wastewater treatment processes. A smooth
+indicatesthatECRhasalimitedeffectontheoveralloptimizationofeffluentwaterquality
+increase in the OaCsIt hweiitnhp uthteo friEsCe Rint oPrAedCu cise pefrfleuseenntteTdN inm aFyigleuarde t4obt.h Aenindc rieta mseaitnchCeOsD thaet thesame
+traditional concetpimt oef, wthhei cihmnpeaecdts otof obpeearnaatliyozne.d Tihnec olonwjuenrc tvioanluweist hoft hOeCacIt ufoarl itnhfleu beansteC s/cNe-ratio. The
+nario demonstratien cthreaats ethsein ptahreaCm/eNterra vtiaoluineas cfoerrt athine rbaansgee sccaenneanrhioa nacree trheelaretimveolvya lboef(cid:308)TeNr. aTnhde COD[31].
+IRRhaslittleeffectontheEQI,whichisarelativelyinsensitiveparameter,aspresentedin
+OCI increases dramatically with the increase in ECR (Figure 4c). There is a positive corre-
+Figure3d. DuetothefactthatIRRmainlyregulatesthedenitrificationprocesswhilethe
+lation with OCI as the amount of added carbon source is linearly related to the cost of
+carbonsourceisrelativelylow,increasingtheIRRratiodoesnotcontributesignificantly
+pharmaceuticals as the unit price remains constant. This finding is also well supported by
+totheeffluentquality. TheEQIvaluedecreasessignificantlyastheERRrises(Figure3e).
+a study that optimizing the dosage rate with a dosing control system can reduce OCI [40].
+This is because the rise in ERR increases the concentration of the bicycles, and further
+The effect of ERR is more pronounced on the case plant compared to IRR because the inner
+return pumps have a lower head than the outer return pumps, and therefore contribute
+relatively less to OCI, which are shown in Figure 4d,e. Kim et al. [41] analyzed the effect
+of six decision variables on OCI, in which the effect of IRR on OCI is smaller than ERR,
+which is consistent with the simulation scenario results. Meanwhile, due to the existence
+of a multi-stage sludge return line, the number of return pumps and energy consumption
+are greater compared to other wastewater treatment processes. The change in SD value
+does not contribute much to OCI (Figure 4f). Improving the OCI of the case plant by
+
+--- Page 8 ---
+Water2024,16,995 8of16
+improvestheEQI.Wangetal.[32]recordedthattheNH -Nremovalwas98.1%,98.5%,
+3
+and98.9%whentheERRwastakenas100%,300%,and500%,respectively. Itindicated
+thattheincreaseinERRcontributestothewaterquality,whichisinagreementwiththe
+Water 2024, 16, x FOR PEER REVIEW 9 of 15
+simulationresults. IthasbeennotedthatwhentheSDincreases,theEQIvalueofthecase
+plantalsotendstoincrease,asdepictedinFigure3f. ThisisreasonthathigherSDresultsin
+ashorterSRTandlowerconcentrationofmixedliquorsuspendedsolids(MLSS),which
+adjusting the SD aproesuens faa vsoigranbilfieccaonntd cithioanllsenfogreb. iHoloogwiceavletrr,e auttmilieznitn[g3 3r]e.cAysclaedre sbuioltg,tahse aesf flaune ntquality
+energy source cand eecffreeacsteisv.eFlyu rltohweremro erele,cthtreicsittuyd ycorencsoummmpetniodns.t hTahteth aismporoucnets soifs bbieottgearss upirteod-forastate
+oflongsludgeage.
+duced is directly proportional to the SD; therefore, increasing biogas production by rais-
+ing the SD can help reduce OCI [41]. Yet, this approach has its limitations. Heightening
+3.2. EffectofOperationalParametersontheOperationCostIndex(OCI)
+biogas production may increase carbon and nitrogen loads on the environment. Addition-
+TheinfluenceofthesixoperationalparametersontheOCIvaluesisshowninFigure4.
+ally, only the biodegradable portion of the sludge can be transformed into biogas, while
+ItcanbeseenthatIRRandSDdonothaveasignificanteffectontheOCI.Anincreasein
+the remaining partth wevoaululde sroeqftuhierer etmraaninspinogrtoapteiorant,i opnoatlepnatiraalmlye tienrcsrceaaussinesga OnCinIc frreoasme i2n5t%he toO CI,witha
+65% [42]. As a resuchlta, nfugertihnetrh reevsaelaurechof iEs CnRecceasussairnyg ttoh edleatregremstinchea tnhgee fienatshibeiOlitCyI .oIft tshuigsg peasttsht-hatECRis
+way. theoperationalparameterwiththegreatestinfluence.
+Figure 4. The effectF oigf usrime4u.lTahteede fvfeaclutoe fcshimanuglaetse dinv eaalucehc ohpanergaetsioinneaal cphaorpameraettieorn oalnp OarCamI feoter rthone OcaCsIe forthecase
+plant. (a) ATDO; (bp) lPaAntC.(;a ()cA) TEDCOR;; ((bd))P IARCR;;( c()e)E CERR;R(;d ()fI)R SRD;(,e a)nEdR Rth;(ef )vSaDlu,eans doft htehve abluaesseloifnteh escbeansaelriinoe scenariois
+is denoted by (B) ind tehneo atebdscbiyss(aB.) intheabscissa.
+As Figure 4a shows, the OCI experiences gradual growth as the ATDO increases.
+3.3. Effect of Operational Parameters on Greenhouse Gas (GHG)
+This growth is especially pronounced when the ATDO concentrations are either lower
+The influence of the six operational parameters on the value of GHG is shown in
+than 0.5 mgO /L or higher than 4 mgO /L. This is the reason that low ATDO reduces
+2 2
+Figure 5. It can bee sneeergny thcoant sGumHpGt iroins,easn wditthhu tshOe CinIcinretahseeA inA tOh-eM vBaRluperso coefs EsC[3R4, 3a5n]d. C AoTnDveOrs,e ly,higher
+and the effect of AthTeD rOemleavienlsinmge faonutrh aotpthereawtioatnearli spaalrraeamdeytesarstu orant eGdHwGith isd inssoot lvsiegdnoifixycagnent., causinga
+Among them, thed ienccrreeaasesei nino xthyeg evnalturaen osffe ErCraRte caanudseudti laiz laatriogne. inTchrise,aisne tiunr nG,HreGsu, lwtshinichan isi ncrease in
+the same as OCI aennder igsy tchoen msuomspt tiinonfluanedntOiaCl Io.Opethreartisotundaile psahraavmeaeltseora. rrivedatsimilarconclusions[36,37].
+Additionally,ithasbeenshownthattheaerationprocessaccountsforaround50%ofthe
+GHG increases with an increase in ATDO which is presented in Figure 5a. This is
+totalpowerconsumptionofaWWTP[38]andover30%ofthetotalOCI[39].Thishighlights
+because higher ATDO increases power consumption and GHG increases with power con-
+thecrucialroleofATDOinoptimizingOCIinwastewatertreatmentprocesses. Asmooth
+sumption [43]. A study showed a similar conclusion by demonstrating that electricity con-
+increase in the OCI with the rise in PAC is presented in Figure 4b. And it matches the
+sumption is directly related to indirect GHG emissions [44]. The GHG corresponding to
+traditional concept of the impact of operation. The lower values of OCI for the base
+the baseline scenasrcieon vaarilouedse maroen lsotrwateer tthhaatnth tehep arreammaeitnerinvga lsuimesufolarttehde sbcaesneasrcieon avraioluaerse, rienldatii-velybetter.
+cating that the ATDO design values have been taken to a more optimal level. Huang, F et
+al. [45] reduced power consumption and GHG emissions by optimizing DO se(cid:308)ings
+through a DO control system using a conventional proportional-integral control strategy.
+Flores-Alsina et al. [46] investigated the control strategy of WWTP and activated sludge
+process modeling for GHG emission benchmarking. They used the Benchmark Simulation
+Model No 2 (BSM2G) to optimize the ATDO values to achieve carbon reduction. Accord-
+ing to Figure 5b, GHG levels remain relatively stable as PAC increases. This suggests that
+carbon emissions from PAC have a minimal impact on the plant’s overall GHG levels.
+However, as shown in Figure 5c, the GHG levels steadily increase with the rise in ECR,
+indicating a certain degree of linearity. Determining the emission factor reveals a linear
+
+--- Page 9 ---
+Water2024,16,995 9of16
+Water 2024, 16, x FOR PEER REVIEW 10 of 15
+TheOCIincreasesdramaticallywiththeincreaseinECR(Figure4c). Thereisapositive
+correlationwithOCIastheamountofaddedcarbonsourceislinearlyrelatedtothecostof
+pharmaceuticalsastheunitpriceremainsconstant. Thisfindingisalsowellsupportedby
+relationship between the amount of additional carbon source injection and carbon emis-
+astudythatoptimizingthedosageratewithadosingcontrolsystemcanreduceOCI[40].
+sions. When this component accounts for a significant proportion, an increase in added
+TheeffectofERRismorepronouncedonthecaseplantcomparedtoIRRbecausetheinner
+carbon sources can have a significant impact on the GHG emissions of the entire plant. It
+returnpumpshavealowerheadthantheouterreturnpumps,andthereforecontribute
+is worth noting that in practical situations, it is crucial to consider the influent of C/N ratio
+relativelylesstoOCI,whichareshowninFigure4d,e. Kimetal.[41]analyzedtheeffect
+when making determinations. Kishida et al. [47] found that an appropriate C/N ratio can
+ofsixdecisionvariablesonOCI,inwhichtheeffectofIRRonOCIissmallerthanERR,
+substantially decrwehaisceh Nis2cOo nesmistiesnstiownisth dtuhreisnigm tuhlaet idoennsicternifiarciaotrioesnu lsttsa.gMee. aInRwRh ailned,d EuReRto hthaeveex istenceof
+a small impact ona mthuel tGi-sHtaGge asnludd gtheer ettruernndlisn ae,rteh edenpuimctbeedr oinfr eFtiugrunrpe u5mdp,es. aTnhdee npeorwgyecro cnosnu-mptionare
+sumption in the sgerweaatgeer ctoremaptmareendtt oproothceerssw caosntetwriabtuetretsr etahtem menotspt rtooc eGssHesG.,T whehcilhea tnhgee pinoSwDerv aluedoes
+notcontributemuchtoOCI(Figure4f). ImprovingtheOCIofthecaseplantbyadjusting
+consumption in the whole process mainly lies in the energy consumption of sewage lifting
+the SD poses a significant challenge. However, utilizing recycled biogas as an energy
+pump and aeration energy consumption. The energy consumption of reflux pump ac-
+source can effectively lower electricity consumption. The amount of biogas produced
+counts for a small proportion [48]; therefore, it contributes little to GHG. At the same time,
+isdirectlyproportionaltotheSD;therefore,increasingbiogasproductionbyraisingthe
+ERR has a more significant influence on GHG than IRR. On the one hand, the internal
+SDcanhelpreduceOCI[41]. Yet,thisapproachhasitslimitations. Heighteningbiogas
+reflux pump has a lower head than the external reflux pump. On the other hand, the in-
+productionmayincreasecarbonandnitrogenloadsontheenvironment. Additionally,only
+ternal reflux mainthlye bcioondtergorlasd athbele epfforetciot naonfdt hpersolucedsgse ocaf ndbeentirtarnifisfcoartmioend. inTthoeb idoegnasit,rwifihcilaettihoenr emaining
+process producesp NarOtw2, oaunldd rtehqeu iermetirsasniospno ortfa NtioOn2, piso tmenatiinalllyy ainffcerecatesdin gbyO CDIOfr oamnd2 5C%/Nto [6459%]. [42]. Asa
+Thus, the contriburetsiounlt ,offu rIRthRer troe sGeaHrcGh iiss rneelcaetsisvaerlyyt modinetoerr.m Fiingeutrhee 5ffe asshiobiwlitsy tohfatth tihsep acthhawnagye.
+in the value of SD has almost no effect on the GHG of the case plant, which manifests that
+3.3. EffectofOperationalParametersonGreenhouseGas(GHG)
+the optimization of the GHG by changing the value of SD alone is not very effective. In
+The influence of the six operational parameters on the value of GHG is shown in
+addition, CH accounts for a relatively large proportion of the carbon emissions from
+4
+Figure5. ItcanbeseenthatGHGriseswiththeincreaseinthevaluesofECRandATDO,
+wastewater treatment processes [50]; therefore, it is possible to generate electricity from
+and the effect of the remaining four operational parameters on GHG is not significant.
+the collection of discharged CH and realize the recycling of resources, thus effectively
+Amongthem,the4increaseinthevalueofECRcausedalargeincreaseinGHG,whichisthe
+reducing GHG [5s1a]m. easOCIandisthemostinfluentialoperationalparameter.
+Figure5.TheeffectofsimulatedvaluechangesineachoperationalparameteronGHGIforthecase
+Figure 5. The effectp olaf nsti.m(au)lAatTeDdO v;a(lbu)eP cAhCa;n(cg)eEsC inR ;e(adc)hI RoRp;e(rea)tEioRnRa;l( fp)aSrDa,manetdetrh oenv aGluHeGsoI ffothre tbhaes celaisnee scenariois
+plant. (a) ATDO; (bd) ePnAotCed; (bcy) E(BC)Rin; t(hde) aIbRsRci;s (sea). ERR; (f) SD, and the values of the baseline scenario
+is denoted by (B) in the abscissa.
+GHG increases with an increase in ATDO which is presented in Figure 5a. This
+3.4. Multi-Objectivise bOepctaiumsiezahtiigohne orfA thTeD AOnianecrroebaisce-Asnpooxwice-rOcxoincs aunmdp MtioenmabnradnGe HBiGoreinaccrtoear seswithpower
+consumption[43]. Astudyshowedasimilarconclusionbydemonstratingthatelectricity
+(AAO-MBR) Process
+consumptionisdirectlyrelatedtoindirectGHGemissions[44]. TheGHGcorresponding
+In order to synthesize the interrelationships among the three objectives and screen
+the strategies to optimize the operational results, a comprehensive comparison of the three
+objectives was performed using multi-objective optimization. The study involved analyz-
+ing 55,460 different optimization scenarios and comparing them to one set of baseline sce-
+narios in the case plant. The relative relationship between these scenarios and their Pareto
+ratings was determined using a non-dominated ranking method. The data were compared
+to produce a total of 133 Pareto ratings (Table S6).
+
+--- Page 10 ---
+Water2024,16,995 10of16
+tothebaselinescenariovaluesarelowerthantheremainingsimulatedscenariovalues,
+indicatingthattheATDOdesignvalueshavebeentakentoamoreoptimallevel. Huang,
+Fetal.[45]reducedpowerconsumptionandGHGemissionsbyoptimizingDOsettings
+throughaDOcontrolsystemusingaconventionalproportional-integralcontrolstrategy.
+Flores-Alsinaetal.[46]investigatedthecontrolstrategyofWWTPandactivatedsludge
+processmodelingforGHGemissionbenchmarking. TheyusedtheBenchmarkSimulation
+ModelNo2(BSM2G)tooptimizetheATDOvaluestoachievecarbonreduction. According
+to Figure 5b, GHG levels remain relatively stable as PAC increases. This suggests that
+carbon emissions from PAC have a minimal impact on the plant’s overall GHG levels.
+However,asshowninFigure5c,theGHGlevelssteadilyincreasewiththeriseinECR,
+indicatingacertaindegreeoflinearity. Determiningtheemissionfactorrevealsalinear
+relationshipbetweentheamountofadditionalcarbonsourceinjectionandcarbonemissions.
+Whenthiscomponentaccountsforasignificantproportion,anincreaseinaddedcarbon
+sources can have a significant impact on the GHG emissions of the entire plant. It is
+worthnotingthatinpracticalsituations,itiscrucialtoconsidertheinfluentofC/Nratio
+when making determinations. Kishida et al. [47] found that an appropriate C/N ratio
+cansubstantiallydecreaseN Oemissionsduringthedenitrificationstage. IRRandERR
+2
+haveasmallimpactontheGHGandthetrendsaredepictedinFigure5d,e. Thepower
+consumption in the sewage treatment process contributes the most to GHG, while the
+powerconsumptioninthewholeprocessmainlyliesintheenergyconsumptionofsewage
+liftingpumpandaerationenergyconsumption. Theenergyconsumptionofrefluxpump
+accountsforasmallproportion[48];therefore,itcontributeslittletoGHG.Atthesame
+time,ERRhasamoresignificantinfluenceonGHGthanIRR.Ontheonehand,theinternal
+reflux pump has a lower head than the external reflux pump. On the other hand, the
+internalrefluxmainlycontrolstheeffectandprocessofdenitrification. Thedenitrification
+processproducesNO ,andtheemissionofNO ismainlyaffectedbyDOandC/N[49].
+2 2
+Thus,thecontributionofIRRtoGHGisrelativelyminor. Figure5fshowsthatthechange
+in the value of SD has almost no effect on the GHG of the case plant, which manifests
+thattheoptimizationoftheGHGbychangingthevalueofSDaloneisnotveryeffective.
+Inaddition,CH accountsforarelativelylargeproportionofthecarbonemissionsfrom
+4
+wastewatertreatmentprocesses[50];therefore,itispossibletogenerateelectricityfrom
+the collection of discharged CH and realize the recycling of resources, thus effectively
+4
+reducingGHG[51].
+3.4. Multi-ObjectiveOptimizationoftheAnaerobic-Anoxic-OxicandMembraneBioreactor
+(AAO-MBR)Process
+Inordertosynthesizetheinterrelationshipsamongthethreeobjectivesandscreen
+the strategies to optimize the operational results, a comprehensive comparison of the
+threeobjectiveswasperformedusingmulti-objectiveoptimization. Thestudyinvolved
+analyzing55,460differentoptimizationscenariosandcomparingthemtoonesetofbaseline
+scenarios in the case plant. The relative relationship between these scenarios and their
+Paretoratingswasdeterminedusinganon-dominatedrankingmethod. Thedatawere
+comparedtoproduceatotalof133Paretoratings(TableS6).
+ScenarioswithhighParetoratingsarebetterthanscenarioswithlowParetoratings
+forallthreeobjectives(here,lowervaluesforallthreemetricsarepreferred). Ifallscenarios
+wereplottedinathree-dimensionalcoordinatesystemusingthethreeobjectivesascoordi-
+nates,scenarioswithhighParetoratingswouldbeatthemore“frontier”position. Plots
+withParetoratingsof1,50,and127inblue,orange,andyellowaredepictedinFigure6a,
+respectively,inthe3Dcoordinatesystem,interpolatingthepointstoconstructanenvelope
+withextradatapoints.

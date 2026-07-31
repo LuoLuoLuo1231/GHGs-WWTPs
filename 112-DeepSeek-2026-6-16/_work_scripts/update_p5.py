@@ -1,0 +1,56 @@
+# coding: utf-8
+import re
+
+with open(r"d:\VScode\firstcc\temp_papers\final_112.txt", "r", encoding="utf-8") as f:
+    content = f.read()
+
+# New paper (5) description
+new_p5 = (
+    "\uff085\uff09Analysis of empirical methods for the quantification of N2O emissions in wastewater treatment plants: "
+    "Comparison of emission results obtained from the IPCC Tier 1 methodology and the methodologies that integrate "
+    "operational data (Science of the Total Environment, 2020) | \u7efc\u5408\u6cd5\uff08\u516d\u79cd\u5b9e\u8bc1\u65b9\u6cd5\u5bf9\u6bd4+\u8499\u7279\u5361\u6d1b\u6a21\u62df\uff09 | "
+    "a. IPCC 2006 Tier 1\u65b9\u6cd5\uff1a\u57fa\u4e8e\u4eba\u53e3\uff08P\uff09\u00d7 \u5904\u7406\u7387\uff08TPLANT\uff09\u00d7 \u5de5\u4e1a/\u5546\u4e1a\u5171\u540c\u6392\u653e\u86cb\u767d\u56e0\u5b50\uff08FIND-COM\uff09\u00d7 \u6392\u653e\u56e0\u5b50\uff08EF=3.2g N2O/\u4eba/\u5e74\uff09\u8ba1\u7b97\u76f4\u63a5\u6392\u653e\uff0c"
+    "\u95f4\u63a5\u6392\u653e\u57fa\u4e8e\u6c34\u73af\u5883\u4e2d\u51fa\u6c34\u603b\u6c2e\uff08NEFFLUENT\uff09\u00d7 EF\uff080.005 kg N2O-N/kg N\uff09\u00d7 44/28\u8f6c\u6362\uff0c\u86cb\u767d\u8d28\u5e74\u4eba\u5747\u6d88\u8d39\u91cf\u6570\u636e\u6765\u81eaFAO\uff08\u897f\u73ed\u725938.32-39.42 kg/\u4eba/\u5e74\uff0c\u58a8\u897f\u54e531.39-33.58 kg/\u4eba/\u5e74\uff09\uff1b"
+    "b. IPCC 2019\u4fee\u8ba2\u7248\u65b9\u6cd5\uff1a\u5f15\u5165\u65b0\u53c2\u6570\u2014\u2014\u533a\u5206\u6536\u5165\u7fa4\u4f53\uff08Ui\uff1a\u4e61\u6751/\u57ce\u5e02\u9ad8\u6536\u5165/\u57ce\u5e02\u4f4e\u6536\u5165\uff09\uff0c\u6309\u5904\u7406\u5de5\u827a/\u6392\u653e\u9014\u5f84\uff08Tij\uff09\u548c\u6392\u653e\u56e0\u5b50\uff08EFj\uff09\u5206\u9879\u8ba1\u7b97\uff0c"
+    "TN_DOM\u8ba1\u7b97\u7eb3\u5165\u5bb6\u5ead\u4ea7\u54c1\u989d\u5916\u6c2e\u6dfb\u52a0\uff08NHH=1.1\uff09\uff0c\u8003\u8651\u6c61\u6ce5\u4e2d\u6c2e\u53bb\u9664\uff08NREM\uff09\uff1b"
+    "c. Doorn and Liles (1999)\u65b9\u6cd5\uff1a\u57fa\u4e8e\u8fdb\u6c34BOD5\u7684\u5b9e\u8bc1\u65b9\u6cd5\uff0c\u8003\u8651\u4eba\u5747BOD\u548c\u4eba\u53e3\u670d\u52a1\u91cf\uff1b"
+    "d. Snip (2010)\u65b9\u6cd5\uff1a\u57fa\u4e8e\u8fdb\u6c34TN\u8ba1\u7b97\u76f4\u63a5N2O\u6392\u653e\uff0c\u8003\u8651\u66f4\u771f\u5b9e\u7684N2O\u4ea7\u751f\u89c6\u89d2\uff1b"
+    "e. Chandran (RTI International, 2010)\u65b9\u6cd5\uff1a\u57fa\u4e8e\u8fdb\u6c34TKN\u8ba1\u7b97\u76f4\u63a5\u6392\u653e\uff0c\u4e3b\u5f20\u4e0d\u91c7\u7528\u5355\u4e00\u6807\u51c6\u5316\u6392\u653e\u56e0\u5b50\uff1b"
+    "f. Das (2011)\u65b9\u6cd5\uff1a\u8ba1\u7b97\u76f4\u63a5+\u95f4\u63a5N2O\u6392\u653e\uff0c\u5305\u542b\u670d\u52a1\u4eba\u53e3\u3001\u5904\u7406\u8fc7\u7a0b\u53bb\u9664\u7684N\u91cf\uff0c\u4ee5\u53ca\u6bcf\u5382\u6c61\u6ce5\u4e2dN\u91cf\uff1b"
+    "g. \u8499\u7279\u5361\u6d1b\u6a21\u62df\uff1a\u4f7f\u7528Python v2.7\uff0cWeibull\u5206\u5e03\uff08\u53c2\u65700.764, 1.44162\uff09\uff0c100\u4e07\u968f\u673a\u70b9\u91c7\u6837\uff0c\u6a21\u62df\u6392\u653e\u4f30\u7b97\u8bc4\u4f30\u65b9\u6cd5\u5b66\u4e0d\u786e\u5b9a\u6027\uff0c\u7cbe\u5ea60.007\uff1b"
+    "h. \u8fd0\u8425\u6570\u636e\uff1a\u58a8\u897f\u54e5\u57ce\uff08MXC\uff0925\u5ea7WWTP\u548c\u5df4\u585e\u7f57\u90a3\u5927\u90fd\u4f1a\u533a\uff08MAB\uff097\u5ea7WWTP\u76842015-2016\u5e74\u8fd0\u884c\u6570\u636e\uff08\u670d\u52a1\u4eba\u53e3\u3001\u6d41\u91cf\u3001BOD5\u3001TN\u3001TKN\uff09\uff1b"
+    "i. GWP\u8f6c\u6362\uff1a\u91c7\u7528Lexmond and Zeeman (1995)\u65b9\u7a0b\uff0cGWP_N2O=298\uff08100\u5e74\u6295\u5f71\uff09 | "
+    "\u5e94\u7528\u76ee\u7684\uff1a\u7cfb\u7edf\u6bd4\u8f83IPCC Tier 1\u65b9\u6cd5\u4e0e\u56db\u79cd\u96c6\u6210\u8fd0\u8425\u6570\u636e\u7684\u5b9e\u8bc1\u65b9\u6cd5\u5bf9N2O\u6392\u653e\u91cf\u5316\u7684\u5dee\u5f02\uff0c"
+    "\u8bc4\u4f30IPCC\u7f3a\u7701\u6392\u653e\u56e0\u5b50\u7684\u4e0d\u786e\u5b9a\u6027\u548c\u4f4e\u4f30\u7a0b\u5ea6\uff08\u5efa\u8baeEF\u8303\u56f4\u5e94\u6269\u5927\u81f3\u6700\u4f4e0.03 kg N2O-N/kg N\uff09\uff0c"
+    "\u4e3a\u6539\u8fdb\u56fd\u5bb6\u6e29\u5ba4\u6c14\u4f53\u6e05\u5355\u7f16\u5236\u63d0\u4f9b\u65b9\u6cd5\u5b66\u4f9d\u636e\n"
+)
+
+# Find and replace - old section starts with (5)
+idx = content.find("\uff085\uff09Analysis of empirical methods")
+if idx >= 0:
+    # Find end of old (5) content (next line starting with ---- or next numbered paper)
+    end_idx = content.find("\n-", idx)
+    if end_idx < 0:
+        end_idx = content.find("\n\uff08", idx)
+    if end_idx < 0:
+        end_idx = idx + 500  # fallback
+    
+    # Find actual end by next --- or next paper number
+    line_end = content.find("\n\n", end_idx + 10)
+    if line_end < 0:
+        line_end = end_idx + 2000
+    
+    # Find the --- separator after the old content
+    sep = content.find("-" * 80, idx)
+    if sep > 0:
+        line_end = content.find("\n", sep) + 1
+    
+    content = content[:idx] + new_p5 + content[line_end:]
+    print("Replaced successfully!")
+else:
+    print("Could not find old (5) content")
+
+with open(r"d:\VScode\firstcc\temp_papers\final_112.txt", "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("Done - final_112.txt updated")

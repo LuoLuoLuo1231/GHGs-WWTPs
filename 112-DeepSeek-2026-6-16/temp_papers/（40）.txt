@@ -1,0 +1,805 @@
+--- Page 1 ---
+Original Research Article
+Estimating nitrous oxide emissions
+based on TN discharge from
+municipal wastewater treatment
+plants: A case study for the city of
+Xiamen, China
+Ruolin Bai,College of Environmental Science and Engineering, Xiamen University of Technology,
+Xiamen, Fujian, China
+Lei Jin and Haiyan Fu,Key Laboratory of Environmental Biotechnology (XMUT), Fujian Province
+University, Fujian Engineering and Research Center of Rural Sewage Treatment and Water Safety,
+Xiamen University of Technology, Xiamen, Fujian, China
+Mazhan Zhuang,Xiamen Institute of Environmental Sciences, Xiamen, Fujian, China
+Yi Wei,College of Environmental Science and Engineering, Xiamen University of Technology, Xiamen,
+Fujian, China
+Abstract: Mitigation of nitrous oxide (N O) emissions is of primary importance to meet the targets of
+2
+reducing carbon footprints of wastewater treatment plants (WWTPs). This paper takes the N O
+2
+discharged from a case study of wastewater treatment plants as the main research object, and then
+developsanovelalgorithm,whichcanaccuratelyestimatetheamountofN Orelease,andthenapplies
+2
+it to the local wastewater treatment plants. According to the results, the nitrous oxide emission flux and
+the emission factors (EFs) are discussed. The results include the following: (1) The total amount of N O
+2
+discharged from Xiamen wastewater treatment plants between 2018 and 2019 was 3881.29 kg and
+3642.97kg,respectively;(2)theproductionofN Oemissionsbasedonthetotalnitrogen(TN)algorithm
+2
+in the existing wastewater treatment factories in Xiamen was obtained based on the research EFs; and
+(3) by controlling other factors of WWTPs process such as chemical oxygen demand /nitrogen (COD)/
+(N)ratio,dissolvedoxygen(DO)concentration,pHvalue(thedegreeofconcentrationofhydrogenions),
+and solids retention time (SRT) in the wastewater treatment process, selecting a secondary wastewater
+treatment process with an economical and reasonable approach can reduce N O emissions in the
+2
+wastewater treatment process. © 2023 Society of Chemical Industry and John Wiley & Sons, Ltd.
+Keywords: greenhouse gas; nitrous oxide; total nitrogen; wastewater treatment plant
+Correspondenceto:LeiJinandHaiyanFu,KeyLaboratoryofEnvironmentalBiotechnology(XMUT),FujianProvinceUniversity,Fujian
+EngineeringandResearchCenterofRuralSewageTreatmentandWaterSafety,XiamenUniversityofTechnology,Xiamen,Fujian361024,
+China.E-mail:seabook2000@outlook.com;fuhy@xmut.edu.cn
+ReceivedMarch1,2023;revisedMay16,2023;acceptedMay24,2023
+PublishedonlineatWileyOnlineLibrary(wileyonlinelibrary.com).DOI:10.1002/ghg.2230
+699
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 2 ---
+21523878,
+2023,
+R.Baietal.
+5,
+Downloaded
+Introduction AccordingtoKhalilandRasmussen’s9estimationof from
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+globalN Oemissions,theannualreleaseofN O
+Withthecontinuousdevelopmentoftheworld through2 thewastewatertreatmentprocessis0.2
+3–3.0×
+economyandtheimprovementinpeople’s
+1012g/a,accountingfor2.5–25%ofthetotalN O
+2
+livingstandards,manyecologicalproblems
+releaseworldwide.
+havealsooccurred,resultinginpeoplepaying
+QuantifyingairemissionsfromWWTPsisadifficult
+increasedattentiontoenvironmentalpollution.Alarge
+challengebecausetheseemissionsarediffusedand
+amountofpollutedresidentialwaterandindustrial
+occurinseveralprocessunitsandtechnologiesin
+wastewaterhasledtoseriouspollution.Many
+differentphysicalforms.10Forthisreason,different
+wastewatertreatmentplants(WWTPs)werebuiltto
+methodshavebeendevelopedtoestimateandevaluate
+treatthiswastewater.However,greenhousegas,suchas
+N OemissionsinWWTPs.Thecurrentmethodsfor
+2
+nitrousoxide(N O)canbeproducedduring
+2 quantifyingN Oemissionsmainlyincludethe by
+wastewatertreatment.1 2 Northwest
+populationequivalentmethod,actualmeasurement
+N Oisoneofthethreemajorgreenhousegases
+2 method,andemissionfactormethod.Doornand University,
+(CO ,CH ,andN O),itschemicalpropertiesare
+2 4 2 Liles11proposedanempiricalmethodforcalculating
+stable,withanaveragelifespanof116years.1Each
+N OemissionsfromWWTPs,whichhasservedasthe Wiley
+2
+doublingofthevolumefractionofN Ointhe
+2 basisforthecreationofothermethods,suchasthe Online
+atmospherewillincreasetheglobalaveragesurface
+methodsbyIntergovernmentalPanelonClimate Library
+temperatureby0.4°C,2andthevolumefractionof
+Change12andtheUSEnvironmentalProtection
+ozoneintheatmospherewilldecreaseby10–16%.N O on
+2 Agency(EPA).13TheDoornandLilesmethod [22/04/2026].
+easilydestroystheozonelayer.3WhenN Oentersthe
+2 proposesobtainingdirectemissionofN Obasedon
+2
+stratosphere,iteasilyaffectsthephotochemicalbalance
+thespecificdataofplantoperation,suchas See
+ofO 3 whilegeneratingtwosubstances,NOorNO 2 . Biochemicaloxygendemand(BOD)percapitaand the
+Undercertainconditions,itcanalsoproduce Terms
+servicepopulation.11Theinternationalreferenceand
+photochemicalsmogandacidrain.4,5 and
+mostcommonlyusedempiricalmethodfor Conditions
+TheemissionsofN Ointotheatmosphereoriginate
+2 quantifyingN OemissionsfromWWTPsisthat
+2
+frombothnaturalsourcesandartificialsources.
+proposedbyIPCC.12Themethodcalculatesthedirect (https://onlinelibrary.wiley.com/terms-and-conditions)
+Naturalsourcesincludesoil,oceans,andpossible
+andindirectdischargeinwastewaterfromadvanced
+synthesismethodsintheatmosphere;artificialsources
+treatmentplants.Itarguesthatdirectdispositionsare
+includeagriculturalsoilcultivation,combustionof
+muchlowerthanwastewaterdispositionsandwould
+fossilfuel,biomasscombustion,industrialproduction,
+onlybeofinteresttocountriesdominatedbyadvanced
+andpollutioncontrol(wastewatertreatment,solid
+WWTPswithnitrificationanddenitrificationstages.14
+wastelandfill,etc.).TheconcentrationofN Ointhe
+2 InMay2019,theIPCCpublishedanimprovedversion
+atmospherehasbeenincreasingsincetheindustrial
+ofthe2006guidelines,whichtookintoaccountnew
+period.Wastewatertreatmentisthemainartificial
+parameterssuchastotalnitrogen,treatmenttype,and
+sourceofN 2 Oemissions,municipalWWTPsproduce nitrogeninsludge.15 on Wiley
+alargeamountofN Ointheprocessofbiological
+2 BasedontheguideproposedbytheIPCC,inrecent Online
+denitrification.TheN OreleasedthroughWWTPs
+2 yearsmoreempiricalmethodshavebeendeveloped
+Library
+eachyearaccountsfor3.2%oftheglobal
+andproposedtoquantifytheN Oemissionsin
+anthropogenicemissions,6anditcontinuestogrowat 2 for
+WWTP,usingdifferentoperatingparameterstoknow rules
+anaverageannualrateof0.25–0.31%.7Atpresent,
+theemissionwithouttheneedtoconduct of
+wastewatertreatmentprocessesmainlyachieve use;
+measurementcampaignsonsideandwithoutthe
+OA
+biologicaldenitrificationthroughnitrificationand
+applicationoftechnology.TheEPAusedCzepiel’s articles
+denitrificationreactions.Nitrificationreactionsmainly
+methodtoestimateN 2 Oemissionsfromurban are
+occurinaerobicunits,anddenitrificationreactions WWTPs.16Theactualmeasurementmethodcalculates governed
+mainlyoccurinanaerobicoranoxicunits.Intheory,
+theN OemissionsofaWWTPthroughexperimental
+2 by
+bothnitrificationanddenitrificationprocessesmay the
+methods,on-sitesampling,laboratoryanalysisand
+produceN O.8Withdevelopingurbanareas, applicable
+2 actualmonitoringmethods.Theactualmeasurement
+increasingamountsofwastewaterhasbeenproduced,
+methodisnotsuitableforalargenumberofurban Creative
+andtheamountofN Oemissionshasalsoincreased.
+2 WWTPsduetothecomplicatedexperimentalprocess.
+Commons
+License
+700
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 3 ---
+21523878,
+2023,
+EstimatingNitrousOxideEmissionsBasedonTNDischarge
+5,
+Downloaded
+from
+ThepopulationequivalentmethodadoptedbytheEPA Therearethreemainmicrobialpathwaysandtwo
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+andthecurrentemissionfactormethoddonot groupsofbacteriainvolvedinFig.1theformationof
+integratetheactualoperatingconditionsandtreatment N O.
+2
+processparametersofurbanWWTPs,sotheyresultin
+largevariabilitywiththeactualemissions. The production mechanism of N O in the
+2
+Theobjectivesofthispaper,therefore,aretodevelop
+nitrification process
+anewalgorithmforestimatingN Obasedon
+2 Thenitrificationprocessmainlyincludestwostages,
+investigatingtheprincipalprocessofWWTPsand
+ammoniaoxidationandnitriteoxidation.The
+analyzingtheprocedurenitrificationofN O;usethat
+2 ammoniaoxidationstageisthestagewhereammonia
+qualificationmethodtoestimatetheN Oemissions,
+2 nitrogenisoxidizedfromammonia-oxidizingbacteria
+whichcombiningemissionfactors(EFs)oflocal
+(AOB)tonitrite,andammoniamonooxygenase
+wastewaterfacilitiescommonlyappliedinChina; by
+(AMO)andhydroxylamineoxidoreductase(HAO)are Northwest
+comparethatemissionresultsbetweenthenew
+usedascatalyticenzymesinthisprocess.Thenitrite
+algorithmandtraditionalemissionmethod;and University,
+oxidationstageisthestagewherenitriteisoxidized
+identifyinfluencefactortoreduceN Oemissionsat
+2 fromnitrite-oxidizingbacteria(NOB)tonitrate,and
+WWTPs. Wiley
+nitriteoxidoreductase(NOR)isusedasthecatalytic
+Online
+enzymeforthisprocess.
+Methodology Library
+Duringthenitrificationprocess,N Oisproduceddue
+2
+Inwastewatertreatment,biologicalnitrogenand totheaccumulationofnitrite.Whentheaccumulation on [22/04/2026].
+phosphorusremovalprocesshasthecharacteristicsof ofnitriteisexcessive,AOBwillusetheheterogeneous
+stabletreatmenteffectandlowoperatingcost,thevast nitritereductaseproducedinthecellasanelectron
+majorityofurbanWWTPsinourcountryadopts acceptortoproduceN 2O.17Studieshavealsofoundthe See the
+biologicalnitrogenandphosphorusremovalprocesses. existenceofheterotrophicnitrifyingbacteriaandthe Terms
+N Oisanimportantby-productinbiologicalnitrogen processofheterotrophicnitrificationmayalsoproduce and
+removalprocess,whichhasastrongthermogeniceffect 2 N 2O.18NOisreducedtoN 2OcatalyzedbyNOR.N 2O Conditions
+andenvironmentaldamageability.Therefore,itisof istheendproductinthenitrifierdenitrification
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+processsincenitrousoxidereductases.8
+greatsignificancetoclarifythecausesofN Oemission
+2
+inwastewatertreatmentformitigatingglobalwarming,
+ozoneholeandotherenvironmentalproblems.At The production mechanism of N O in the
+2
+present,thereislimitedfewresearchonN O process of denitrification
+2
+quantificationmethodsinwastewatertreatmentin
+Denitrificationistheprocessbywhichnitrateis
+Chinaandtheyareconcentratedinsmalllaboratory
+reducedtonitrogenundertheactionofdenitrifying
+scale.Inaddition,N Oemissioninwastewater
+2 bacteria.Therearefourmainstagesinthe
+treatmentiscloselyrelatedtosecondarywastewater
+denitrificationprocess,eachofwhichiscatalyzedbyan
+treatmentprocessandoperatingconditions,andN O on
+2 enzyme,asshowninFig.1above. Wiley
+productionhasagreatdiurnalvariability.Inthisstudy,
+N 2 Oisanintermediateproductinthedenitrification Online
+theN OemissionsofallWWTPsareuniformly
+2 process,andtherearetwowaystoproduceN O:When
+2 Library
+calculatedbyareasonableandsimplequantitative
+someexternalconditions(suchasexcessivelyhigh
+method,whichprovidesanewideaforquantifyingthe for
+dissolvedoxygen[DO],lowpH,andtoxicsubstances) rules
+N OemissionsofWWTPsandisofgreatsignificance
+2 inhibittheactivityofNos,N Ocannotbefurther of
+forthenationaldevelopmentofcorrespondingcontrol 2 use;
+convertedintoN 2 ,whichcausestheaccumulationof OA
+measures. N O;somedenitrifyingbacteriadonothaveNos,and articles
+2
+thedenitrificationproductofthesedenitrifying are
+N O release mechanism governed
+2 bacteriawillbeN 2O.Intheaerationstage,some
+TherearethreemainwaysofN Oproduction: denitrifyingbacteriaoftenusetheirintracellular
+2 by
+the
+Hydroxylamine(NH OH)oxidation,heterotrophic polymerasacarbonsourcefordenitrificationinside
+2 applicable
+denitrificationandnitrifierdenitrification.InWWTPs, thesludgeflocandtheenvironmentswheretheDOis
+N Oismainlyproducedbyabiologicaldenitrification toolow,sothenitriteandnitrateproducedduringthe Creative
+2
+processconsistingofnitrificationanddenitrification. nitrificationprocessarereducedtoN OandN .19
+2 2 Commons
+License
+701
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 4 ---
+21523878,
+2023,
+R.Baietal.
+5,
+Downloaded
+from
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+by
+Northwest
+Figure1. N Oproductionpathwayinthenitrificationanddenitrificationprocess.
+2 University,
+Estimation of N 2 O emission factor sludge(mg/L);TKN eff,as istheeffluentTKNofactive Wiley
+Emissionfactor(wGHG)isdefinedastheamountof sludge(mg/L);andTKN wasistheTKNofwaste Online
+non-carbondioxideGHGemittedperunitofinfluent activatedsludge(mg/L). Library
+water,whichisanimportantindicatortocomparethe Therefore,theN 2Oemissionequationcanbeformed
+on
+GHGemissionsofdifferentprocesses.Itiscalculated asfollowed: [22/04/2026].
+asfollows: N Oemission, as
+2
+E See
+w GHG,influent = QGHG (1) = (cid:2)TKN, as×%removedTKNasN 2O (3) the
+Terms
+infiuent
+and
+where,W isthegreenhousegasemission Quantitative emission factor method of
+GHG,influent Conditions
+factor(kg/m3)calculatedbythedailywaterintakeof N O
+2
+theWWTP;Q influent isthedailyintakeofWWTP WhentheinfluentKjeldahlnitrogenloadis (https://onlinelibrary.wiley.com/terms-and-conditions)
+(m3/d);E isthegreenhousegasreleaserate(kg/d).
+GHG standardized,TKNcanbeusedasaquantitative
+indicatorofnitrogenpollutiontoestimatetheemission
+Calculation of N O emission from
+2 ofN O.InChina,thereisnoaccuratemeasurementof
+2
+activated sludge
+Kjeldahlnitrogenconcentrationinthepollutants
+MostWWTPsachievenitrificationreactionswitha dischargedfromWWTPs,sothisstudywillquantify
+longersludgeresidencetimeasshowninTableA1. N Oaccordingtothetotalnitrogen(TN)in
+2
+Therefore,theestimationofgreenhousegasemissions wastewater.BasedontheaboveanalysisoftheN O
+2
+includesN 2Oemissions. generationpathandthemassbalancecalculationof
+on
+N Oemissionestimation,theemissionformulacanbe Wiley
+2
+Total Kjeldahl nitrogen (TKN) balance for obtainedbytakingtotalnitrogen(TN)asthecommon Online
+substrate index:
+(cid:4) (cid:5) Library
+MostWWTPsachievednitrificationwithlongsludge kg
+for
+N O
+retentiontime(SRT),therefore,theN Oemissionis 2 rules
+2 d
+includedinthisgreenhousegasestimationcalculator: of use;
+= (Q in ×TN in −Q out ×TN out −Q was ×TN was ) OA
+(cid:2)TKN,as=Q in,as×TKN
+in,as articles
+(cid:2) (cid:3) 44 1kg
+− Q e×TKN eff,as+Q w ×TKN was (2) × 28 × f × 1000g (4) are governed
+where(cid:2)TKNistheTKNchangeafteraerobic whereQ istheinletwaterflow(m3/d),TN istheTN
+in in by
+the
+treatment(mg/L);Q istheaerobictankinfluent concentrationoftheinfluent(mg/L),Q isthewater
+in,as out applicable
+flowrate(m3/d);Q isthesecondaryclarifiereffluent flow(m3/d),TN istheTNconcentrationofthe
+e out
+flowrate(m3/d);Q isthewasteactivatedsludgeflow effluent(mg/L),Q isthesludgeflow(m3/d),TN is Creative
+w was was
+rate(m3/d);TKN istheinfluentTKNofactive theTNconcentrationofthesludge(g/kg),44/28isthe
+in,as Commons
+License
+702
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 5 ---
+21523878,
+2023,
+EstimatingNitrousOxideEmissionsBasedonTNDischarge
+5,
+Downloaded
+from
+Table1. GeneralsituationofXiamenwastewatertreatmentplant. https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+WWTPs Processoftreatment Designscale(m3/d) Effluentquality Tailwaterdirection
+JiMei Oxidationditch+Coagulation+Denitrificationfilter 90,000 ClassIVsurface TonganBay
+XingLin A2O+Coagulation+Denitrificationfilter 60,000 ClassIVsurface Westseatidalflat
+YunDang Biologicalfilter(BIOFOR) 300,000 GradeA Westseatidalflat
+QianPu A2O+Chemicalphosphorusremoval 200,000 GradeA Easternsea
+HaiCang A2O 100,000 GradeA Westseatidalflat
+TongAn Oxidationditch+Coagulation+Denitrificationfilter 100,000 ClassIVsurface DaitouStream
+XiangAn Oxidationditch+Coagulation+Denitrificationfilter 50,000 ClassIVsurface YuanStream
+by
+Northwest
+ratioofN O/N molecularweight,andfistheN O newalgorithmthatcanaccuratelyestimatenitrous
+2 2 2
+emissionfactor. oxideemissionsandapplyittolocalWWTPs,which
+University,
+Thisquantitativeemissionfactormethod,takesthe canmakesomeeffortstosaveenergyandreduce
+temperatureoftheWWTPandthebiological emissions.InordertoaccuratelyquantifytheN 2 O Wiley
+denitrificationprocessasthepercentageofTNremoval emissionofWWTPsandselecttheappropriate Online
+andtakestheaerobicunitasthebalancesystem. secondarywastewatertreatmentprocesstoreducethe
+Library
+nitrousoxideemissioninwastewatertreatment
+on
+Case study process. [22/04/2026].
+Atpresent,Xiamenhaseightlargeandmedium-sized
+TheresearcherCzepiel
+centralizedsewagetreatmentplantswithatreatment
+See
+studiedawiderangeofN 2Oemissionsin8WWTPs scale≥50,000m3/d,withatotaldesignedtreatment the
+operatingatdifferenttemperatures,configurations, scaleof900,000m3/d.Anoverviewofthetreatment Terms
+andinfluentKjeldahlnitrogen(TKN)loads.When and
+plantisshowninTable1.Thereisatotalofeight
+Conditions
+standardizingtheinfluentTKNload,theTKNcanbe
+WWTPsinXiamen,namely,Aotou,Yundang,
+usedasaquantitativeindicatorofnitrogenpollutionto
+Haicang,Xinglin,Jimei,Qianpu,TonganandXiangan (https://onlinelibrary.wiley.com/terms-and-conditions)
+estimateN Oemissions.InChina,thereisnoprecise
+2 WWTPs.Accordingtothelocalinvestigation,Aotou,
+measurementoftheKjeldahlnitrogenconcentration
+Tongan,andHaicangWWTPsonlydisplayedthe
+inthepollutantindicatorsthatenteranddischarge
+majorprocessandinflowdataanddidnotpublishthe
+fromWWTPs.Therefore,thestudynotedabove
+detailedwastewatertreatmentprocessflowchart.The
+quantifiedN Obasedonthetotalnitrogen(TN)inthe
+2 wastewatertreatmentplantshavebeenoperating
+wastewater.
+steadilyformorethan2years.However,theAotou
+WWTPisanewlybuiltplant.Real-timemonitoring
+Research background
+wascarriedoutin2019,andtherewaslessthan1year
+Basic information about Xiamen ofreliabledataforthisplant.Thus,theplantisnot on
+Wiley
+XiamenCityislocatedinthesoutheastcoastofChina, includedinthepaper.TheremainingsevenWWTPs Online
+thesoutheastofFujianProvince,withTaiwanIsland havedifferentdesignscalesandsludgefinaltreatment
+Library
+andPenghuIslandsacrossthesea.Xiamenisafamous processes,resultingindifferentsludgemoisture
+touristcityinChinaandoneofthefirstfivespecial contents.Therefore,inthisstudy,thewatercontentof for rules
+economiczonesinChina.Withtherapideconomic sludgewassetat80%. of
+use;
+development,itsenergyconsumptionhasalso Inthispaper,therepresentativeYunDangwaste OA
+maintainedahighgrowthtrend.Inordertoachieve treatmentplantisselectedtoanalyzeandshowthecase articles
+greenandsustainabledevelopment,Xiamenhas calculation.Thebasictechnologicalprocessandmain are
+formulatedaseriesofenergyconservationand characteristicofprocessesshowinFig.2. governed
+emissionreductionpolicies.In2009,Xiamenwasone Thecalculationdatainthissectionarebasedon
+by
+ofthefirstpilotcitiestobecomeanationallow-carbon assessmentsoftheenvironmentalimpactsofWWTPs the
+applicable
+action.Therefore,basedonthestatisticalanalysisof andthereal-timemonitoringplatformofcrucial
+pollutionsourcesinFujianprovince20toensurethe
+nitrousoxideemissionsfromlargeandmedium-sized Creative
+WWTPsinoperationinXiamen,thisstudyproposesa reliabilityofthedata.
+Commons
+License
+703
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 6 ---
+21523878,
+2023,
+R.Baietal.
+5,
+Downloaded
+from
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+by
+Northwest
+University,
+Wiley
+Online
+Library
+on
+[22/04/2026].
+Figure2. WastewatertreatmentprocessofYundangWWTP.
+See
+Sludge flow and sludge composition of network,theamountofwastewatertreatment the
+Terms
+treatment plants continuestoincrease,theprojectscaleoftheYundang
+and
+ThedesignatedTNcontentofthedrysludge(water WWTPis300,000m3/d.Themainprocessof Conditions
+content80%)fromeachWWTPis29.6g/kg.21The wastewatertreatmentisthepredenitrification
+(BIOFOR)biologicalfilterprocessshowedinFig.2. (https://onlinelibrary.wiley.com/terms-and-conditions)
+actualsludgeproductionistheproductofthe
+TheeffluentqualityoftheYundangWWTPisthe
+operatingloadandthedesignproduction.
+GradeAstandardofthe“EmissionStandardsfor
+PollutantsinUrbanWWTPs”(GB18918).Atthis
+WWTPs influent water quality
+plant,sludgetreatmentinvolvesacentrifugal
+UrbanWWTPsgenerallyacceptwaterinaccordance
+dewateringprocess.Thewatercontentofthesludge
+withthethree-levellocalstandardinthepollutant
+afterdewateringis80%,andtheamountofsludge
+dischargestandardsofurbanWWTPs.However,due
+producedis41,389.71m3/a.22
+tothedifferentproportionsofindustrialwastewater
+anddomesticwastewaterreceivedbyeachWWTP,the on
+Results and discussion Wiley
+influentwaterqualityofeachWWTPisdifferent.
+Online
+Table2showsmoredetailsoftheYunDangWWTP Results analysis
+Library
+data.
+TheN OdischargedfromtheYundangWWTPwas
+2
+for
+calculated.AllresultsofN 2 Oemissionareshownin rules
+Quantification of N O at the YunDang
+2 Fig.3.TheN OemissionfactoroftheYundang of
+2 use;
+WWTPs
+WWTPis0.09%(g-N 2 O-N/g-TN-N).Theestimated OA
+Thesludgeisdehydratedbythecentrifugetothewater nitrousoxidevaluefortheYundangWWTP(q12018) articles
+contentratebelow80%,andthenabout40%ofthe was11.36kg. are
+sludgeistransportedtoTenglongSpecialResin TheYundangWWTPis300,000m3/d,anditstail governed
+(Xiamen)Co.,Ltd.forincinerationandharmless waterdischargemethodisdeepseadischarge.The
+by
+the
+treatment,andtheremaining60%ofthesludgeis dischargepointistheHouyudischargeoutlet,which
+applicable
+transportedtoHaicangFertilizerFactoryofXiamen belongstotheXiamenWestSeaarea.Theprocessof
+WaterBiotechnologyCo.,Ltd.forbiofertilizer.With wastewatertreatmentatthisWWTPisthrougha Creative
+theimprovementofthewastewatercollectionpipe BIOFORbiologicalfilter.ThisisshowninFig.3,
+Commons
+License
+704
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 7 ---
+21523878,
+2023,
+EstimatingNitrousOxideEmissionsBasedonTNDischarge
+5,
+Downloaded
+from
+Table2. QualityandflowofinfluentandeffluentwaterattheYundangwastewatertreatmentplant https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+(BIOFORprocess).
+InfluentTN EffluentTN Aeration Sludge Load Secondary Inflowflow∗ Actualsludge
+(mg/L) (mg/L) tankflow (moisture rate sludge(moisture (m3/d) volume(moisture
+(m3/d) content80%) content99%) content80%)a
+(m3/d) (m3/d) (m3/d)
+Quarter12018 35 7.6 290,000 130.9 0.96 2,513.28 292,513.28 125.66
+Quarter22018 35 9.86 270,000 130.9 0.9 2,356.20 272,356.20 117.81
+Quarter32018 35 9.68 270,000 130.9 0.9 2,356.20 272,356.20 117.81
+Quarter42018 35 4.79 270,000 130.9 0.9 2,356.20 272,356.20 117.81
+by
+Northwest
+Quarter12019 35 7.24 270,000 130.9 0.9 2,356.20 272,356.20 117.81
+Quarter22019 35 6.28 270,000 130.9 1 2,618.00 272,618.00 130.9
+University,
+Quarter32019 35 10.4 282,000 130.9 0.94 2,460.93 284,460.92 123.05
+Quarter42019 35 10.2 230,200 130.9 0.767 2,015.86 232,215.86 100.40 Wiley
+Note:∗Influentflow(m3/d)=Aerationtankflow(m3/d)+Secondarysludge(moisturecontent99%);Actualsludgevolume(moisturecontent Online
+80%)(m3/d)=Sludge(moisturecontent80%)(m3/d)xLoadrate. Library
+on
+[22/04/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Figure3. DischargeofnitrousoxidefromtheYundangwastewatertreatmentplant. Online
+Library
+accordingtoquarterlyestimates,theN Odischarged emissioninventoriesfromsewagetreatmentplants.
+2
+for
+fromtheYundangWWTPin2018was3881.29kg,and Themethodcalculatesthedirectdischargeand
+rules
+thetotalN 2 Oemissionsdischargedin2019were indirectdischargeinwastewaterfromadvanced of use;
+3642.97kg. treatmentplants.InMay2019,theIPCCpublishedan
+OA
+improvedversionofthe2006guidelines,whichtook articles
+intoaccountnewparameterssuchastotalnitrogen, are
+Comparison with IPCC offering methods treatmenttype,andnitrogeninsludge.15Thenew governed
+Theinternationallyreferencedandmostcommonly quantificationmethodproposedinthispaperwas
+by
+usedempiricalmethodforquantifyingN Oemissions calculatedandcomparedwiththeemissioncoefficient the
+2 applicable
+fromsewagetreatmentplantsisthatproposedbythe providedbyIPCCinanattempttoprovideanewidea
+IPCC,12whichisbyfarthemostcommonlyused forquantificationofnitrousoxideemissionsfrom Creative
+methodforcountriestoconductnationalN O municipalsewagetreatmentplants.
+2 Commons
+License
+705
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 8 ---
+21523878,
+2023,
+R.Baietal.
+5,
+Downloaded
+Xiamensince2018.26 Asaresult,thewastewater from
+Table3. Comparisonofpercapitarelease https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+coefficient. treatmentdischargestandardinXiamenhasbeen
+raisedfromGradeBtoGradeA(SurfaceTypeIV
+WaterStandard),resultinginalowerTNconcentration
+Year Xiamen Release N O Equivalent
+2
+intheeffluentandahigherTNremovalrateinthe
+resident coefficient emissions percapita
+population percapita (kg) release wastewatertreatmentprocess.
+(g/(a)) coefficient ConvertingtheN OemissionsfromWWTPsin
+2
+2018 4110,000 3.2 18,043.44 4.39 variouscitiesandtownsinXiamenfrom2018to2019
+intoN Oemissions/wastewatertreatmentvolumes
+2019 4290,000 3.2 19,664.30 4.58 2
+showedthattheN OEFsofseveralwastewater
+2
+treatmentprocessesgenerallyoccurinthefollowing
+SincetheamountofN 2OproducedbyaWWTPis sequence:A2/O>biologicalfilter>oxidationditch by
+Northwest
+closelyrelatedtothewastewatertreatmentprocessof (Table6).Thismaybedifferentfromtheactivated
+theplant,theworkingconditionload,theoperation sludgemethodofeachWWTP,resultingindifferences University,
+statusoftheplant,andtheamountsofN 2Oproduced inaerationmode,activatedsludgetemperature,
+byWWTPsvary.AsshowninTable3,theUSEPAuses microbialcommunitydistribution,hydraulicretention Wiley
+theIPCC23typicalWWTPN 2Opercapitarelease time,etc.,duringoperation,thusresultingindifferent Online
+coefficientof3.2tocalculatetheN 2Oemissionsduring N 2Oemissions.Inthefuture,whennewconstruction Library
+thewastewatertreatmentprocess. orupgradestourbanWWTPsarecarriedout,N O
+2 on
+Accordingtothe“StatisticalBulletinofXiamen’s andothergreenhousegasesgeneratedinthetreatment [22/04/2026].
+NationalEconomicandSocialDevelopment”,in2018, processcanbetakenintoconsideration,andthe
+Xiamen’spermanentpopulationwas4.11million,and appropriateactivatedsludgemethodcanbeselectedto See
+in2019,Xiamen’spermanentpopulationwas4.29 reducetheamountofgreenhousegasemissionsinthe the
+Terms
+million. wastewatertreatmentprocess.
+and
+AsshowninTable4,thepercapitareleasecoefficient Whenthesamesecondarytreatmentprocessisused Conditions
+oftheWWTPinXiamenisclosetotherelease inurbanWWTPs,theN Oemissionsinthe
+2
+coefficientreportedbytheIPCC.However,sincethe wastewatertreatmentprocessarepositivelycorrelated (https://onlinelibrary.wiley.com/terms-and-conditions)
+releasedatausedbytheIPCCcorrespondtoacertain withtheinfluentwaterqualityandtheeffluentwater
+year,thedatausedaremoreconservative.Currently, quality.TheincreaseinTNconcentrationinthe
+people’slivingstandardsandlifestylechangeshavea influentwaterandtheuseofthesameeffluentstandard
+greaterimpactonwastewaterwaterquality,sothe willresultintheremovalofTNinthewastewater
+releasecoefficientsof2018and2019arehigherthan treatmentprocessandthusanincreaseinN O
+2
+thosecalculatedbytheIPCCmethodshowninTable4. emissionsduringthewastewatertreatmentprocess.
+Therefore,whenanurbanWWTPacceptswaterinthe
+Compared with related domestic research
+future,itmayconsiderraisingtheinfluentstandard,
+on
+SincedomesticresearchonN 2 Oemissionsstartedlate reducingtheTNconcentrationoftheinfluent,and Wiley
+andfocusedonsmall-scalelaboratoryresearch,there thusreducingtheN 2 Oemissionsinthewastewater Online
+arefewstudiesonN Oemissionsfromlargeand treatmentprocess.
+2 Library
+mediumurbanWWTPs.
+for
+ThepercapitareleasecoefficientsofXiamen’s Discussion rules
+WWTPsaresimilartothosecalculatedbyWang of
+use;
+Jinhe24andLiHuijuan25fortheactualmonitoringof ComparingtheN 2 Oemissionsofvariousurban OA
+someurbanWWTPsinChinashowninTable5,but WWTPs,itwasfoundthattheHaicangWWTPwitha articles
+theyareslightlyhigherthanthem.Ontheonehand, designscaleof105m3/dusingtheA2/Oprocess are
+governed
+duetotheimprovementofpeople’slivingstandards, performsbetterthanthatwithadesignscaleof
+thewastewaterwaterqualityhaschanged;ontheother 300∗103,m3/dusingthebiologicalfilterprocessin
+by
+the
+hand,itmaybedifferentfromtheratioofindustrial Yundangwastewatertreatment.TheN Oemissionsof
+2 applicable
+wastewateranddomesticwastewaterreceivedbythe theplantarestillhigh;forthefirstandsecondphases
+WWTP,resultinginchangesintheinfluentwater oftheQianpu,Jimei,andXiang’anWWTPsthatuse Creative
+quality;ontheotherhand,itmayhavebeenwith oxidationditchesandA2/Oprocesses,theN O
+2 Commons
+License
+706
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 9 ---
+21523878,
+2023,
+EstimatingNitrousOxideEmissionsBasedonTNDischarge
+5,
+Downloaded
+from
+Table4. N 2 OemissionfactorinYundangwastewaterplant. https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+WWTprocess N Orelease Waterintakefrom N Oemissionfactor
+2 2
+rate(kg/d) WWTP(m3/d) ×10−5(kg/m3)
+2018Q1th Pretreatment 11.36 292,618 3.88
+denitrification
+2018Q2nd 9.72 272,618 3.57
+biofilterprocess
+2018Q3rd 9.79 272,618 3.59
+2018Q4th 11.66 272,618 4.28
+2019Q1th 10.73 272,618 3.94
+2019Q2nd 11.09 272,618 4.07
+by
+2019Q3rd 9.94 284,618 3.49 Northwest
+2019Q4th 8.20 232,818 3.44
+University,
+Table5. N Opercapitaemissioncoefficientsin Wiley
+2
+theprocessofplant-scalewastewatertreatment. Online
+Library
+N Opercapita wastewater Remarks
+2 on
+release treatment [22/04/2026].
+coefficient(g planttype
+person−1a−1)
+See
+2.34 A2/O 300∗103m3/d the
+Terms
+2.85 Oxidationditch 150∗103m3/d
+and
+3.57 A2/O 250∗103m3/d Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+Table6. The2018–2019mainoperating
+parametersofWWTPs. Figure4. 2018–2019N 2Oemissionsfromthemajorurban
+WWTPsinXiamen.
+Wastewater Secondary N O Designinfluent
+2
+emissionsoftheA2/Oprocessarethesameasthoseof
+treatment treatment emissions TNconcentration
+plant process (g/m3) (mg/L) theoxidationditchprocessat7.34times(equivalentto
+YunDang Biological 0.038 35 N 2Okg/104m3).ThetotalN 2Oemissionsofeach
+filter WWTPin2018–2019areshowninFigs4and5.
+on
+QianPu A2/O 0.125 45 Accordingtothecomparativeanalysisofthetotal Wiley
+Oxidation 0.017 45 N 2 OemissionsofthevariousurbanWWTPs,the Online
+ditch scalesofoperationoftheurbanWWTPshaveno
+Library
+HaiCang A2/O 0.108 40 significantimpactonN 2Oemissions,whilethe
+for
+JiMei A2/O 0.168 55 wastewatertreatmentprocesshasasignificantimpact rules
+onN Oemissions.Thisfindingfurtherillustratesthe of
+Oxidation 0.023 55 2 use;
+ditch importanceofchoosingappropriatewastewater OA
+treatmentprocessestoreduceN Oemissionsfrom articles
+TongAn Oxidation 0.017 45 2
+ditch urbanWWTPs. are
+governed
+Accordingtowastewatertreatmentprocesses,N O
+XiangAn Oxidation 0.012 35 2
+ditch emissionfactorsofWWTPswithdifferentprocesses by
+the
+arequitedifferent(showninTableA1),generallyinthe
+A2/O 0.088 35 applicable
+followingorder:A2/O>biofilter>oxidationditch.
+XingLin A2/O 0.111 40
+TherearetworeasonsforthedifferentN Oemissionof Creative
+2
+wastewaterbiologicaltreatmentprocess:first,the
+Commons
+License
+707
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230
+
+--- Page 10 ---
+21523878,
+2023,
+R.Baietal.
+5,
+Downloaded
+from
+outthataerationunitisthelargestreleaseunitofN O,
+2
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2230
+andthelowerDOconcentrationinaerobictank,the
+−
+higherNO concentration,themoreN Oreleased.
+2 2
+Effect of temperature
+Temperaturealsohasanimportantinfluenceonthe
+amountofN Oproducedintheprocessofbiological
+2
+denitrification,butdifferentresearchersfoundthatthe
+influenceoftemperatureisdifferent.WangJinheand
+otherresearchersfoundthatN Oreleaseincreasedin
+2
+by
+theWWTPwithA2/Oprocessatlowtemperaturein Northwest
+winter.ZhangTingtingfoundthatN Orelease
+2
+decreasedwiththeincreaseoftemperatureinSBRpilot University,
+study.However,theresultsofGuoNing’sstudyare
+Wiley
+Figure5. Ratioofthedischargevolumeofeachwastewater contrary,thatis,thehigherthetemperatureis,the
+treatmentplanttothedesignscale. greatertheN Oreleaseis,andthehighestN Orelease Online
+2 2
+isat35°C.Itcanbeseenfromtheaboveanalysisthat Library
+differentsettingmodesandprocessoperation themechanismoftemperatureeffectonN 2 Oreleaseis on
+[22/04/2026].
+complex,andfurtherresearchisneeded.
+parametersofbiologicaltreatmentstructures
+(anaerobictank,anoxictank,andaerobictank)leadto
+See
+differentefficiencyofwastewaterdenitrification the
+treatment,whichwillaffectthegenerationandrelease Impact of C/N Terms
+ofN Ogas,theintermediateproductofbiological C/NhasgreatinfluenceonN Oproductionin and
+2 2 Conditions
+denitrification;thesecondisthatthemicrobial denitrificationprocess.C/Ndeterminesthedegreeof
+populationstructureisdifferentindifferentbiological denitrificationprocess.ThehighertheC/Nratio,the
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+denitrificationsystems.Autotrophicnitrifierssuchas betterthedenitrificationeffect.Whenthecarbon
+Nitrosomonaseuropaea,Nitrobacterwinogradskyi sourceisinsufficient,thedenitrificationprocessis
+releaselessN O.Heterotrophicnitrifierssuchas inhibited.DenitrifyingbacteriaonlyreduceNO -and
+2 2
+AlcaligenesfaecalisreleasemoreN O. NO -toN OinsteadofthefinalproductN .Itwas
+2 3 2 2
+foundthattheabilityofNOStocompeteforelectrons
+Main influencing factors of N O release wasweakatlowC/N,andwasinhibitedatthesynthesis
+2
+TheN Oemissionfactorsarequitedifferentin stage,whichledtotheaccumulationandreleaseof
+2
+differentWWTPseveniftheprocessesusedarethe N 2O.WhentheC/Nratioislessthan3.5,20–30%of
+same,whichindicatesthatN Oreleaseisnotentirely thetotalnitrogenintheinfluentwillbeconvertedinto on
+2 Wiley
+determinedbytheprocessesused,andoperation N 2Ogasandreleased.
+Online
+conditionsandwaterqualityconditionsarealso
+Library
+importantfactors.Manystudieshaveshownthatthe
+mainfactorsaffectingN Oproductioninnitrification N O emission reduction approach for
+2 2 rules
+anddenitrificationareDOconcentration,temperature, ItcanbeseenfromtheinfluencingfactorsofN O of
+2 use;
+andC/Nratio. emissionfromWWTPthatN 2 Oemissionin OA
+wastewatertreatmentprocessismainlydeterminedby articles
+Impact of DO
+wastewatertreatmentprocess,operationconditions are
+governed
+DOconcentrationhasagreatinfluenceonN Orelease andwaterqualityconditions.AsforthebuiltWWTP,it
+2
+intheprocessofbiologicalnitrificationand isdifficulttochangethewastewatertreatmentprocess
+by
+the
+denitrification.Inthetypicaltreatmentprocess,the duetothelimitationofwaterquality,scale,and
+applicable
+mainreleasesourceofN Omostlycomesfromthe constructioncost;therefore,itismoreoperableto
+2
+aerationunitofeachprocess.WangJinheandother reducethereleaseofN Ofromtheoperation Creative
+2
+relevantresearchonN OreleaseinWWTPpointed conditionsandwaterqualitycontrol.
+2 Commons
+License
+708
+©2023SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.13:699–712(2023);DOI:10.1002/ghg.2230

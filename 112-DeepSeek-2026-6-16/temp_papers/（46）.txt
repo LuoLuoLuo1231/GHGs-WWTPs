@@ -1,0 +1,421 @@
+--- Page 1 ---
+©2023TheAuthors JournalofWaterandClimateChangeVol14No9,3313doi:10.2166/wcc.2023.312
+Experimental and statistical modeling of the effect of process modification and
+wastewater characterization on greenhouse gas emissions for a dairy industry
+wastewater treatment plant: A minimization approach
+Pelin Soyertaş Yapıcıoğ lu a,*, Hamza Yalçınb and Mehmet Iṙ fan Yeşilnacara
+aDepartmentofEnvironmentalEngineering,HarranUniversity–OsmanbeyCampus,Şanlıurfa,Turkey
+bDepartmentofZootechnics,HarranUniversity–OsmanbeyCampus,Şanlıurfa,Turkey
+*Correspondingauthor.E-mail:pyapicioglu@harran.edu.tr
+PSY,0000-0002-6354-8132
+ABSTRACT
+Thisstudyaimedtodeterminetheeffectofdesignconditionsandwastewatercharacterizationongreenhousegas(GHG)emissionsfroman
+industrial wastewatertreatment plant. Analysis of variance, correlation analyses, heat-mapping, and principal component analyses (PCA)
+were performed to determine the correspondence between GHG emissions and wastewater characterization. Then, a new empirical
+modelbasedonthecorrelationofwastewatercharacterizationhasbeendeveloped.Thisstudyhasconcentratedonusingprocessmodifi-
+cationtomitigateGHGemissions.Ifanaerationtankisoperatedat36hofhydraulicretentiontimeand20daysofsolidretentiontimeat
+designconditions,anaveragereductionof45.4,45.3,and45.2%incarbondioxide(CO ),methane(CH ),andnitrousoxide(N O)emissions,
+2 4 2
+respectively,havebeenensured.Accordingtocorrelationanalysis,amoderatelysignificantpositivecorrelationwasfoundbetweeneffluent
+chemicaloxygendemandvaluesandCO andCH values(r¼0.909,r¼0.937).N OemissionswerecloselyrelatedtoTotalKjeldahlNitrogen
+2 4 2
+input values (r¼0.876). GHG emissions have been calculated using this correlation, and the results overlapped with the monitoring
+values.TheestimatedresultsofGHGemissionsbasedonwastewatercharacterizationhaveconvergedtoinsitumonitoringresults,byan
+averageof82%.
+Keywords:designconditions,greenhousegas,industrialwastewatertreatment,processmodification,reduction
+HIGHLIGHTS
+(cid:129)
+ThemitigationofGHGemissionswasaimedatusingprocessmodificationintermsoftheEuropeanGreenDeal.
+(cid:129)
+Analysisofvariance,correlationanalyses,heat-mapping,andprincipalcomponentanalyses(PCA)wereperformedtodeterminethecor-
+respondencebetweenGHGemissionsandwastewatercharacterization.
+(cid:129)
+Anewempiricalmodelbasedonthecorrelationofwastewatercharacterizationhasbeendeveloped.
+This is an Open Access articledistributedunder the termsofthe Creative Commons AttributionLicence (CC BY-NC-ND4.0),whichpermitscopying and
+redistributionfornon-commercialpurposeswithnoderivatives,providedtheoriginalworkisproperlycited(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 2 ---
+JournalofWaterandClimateChangeVol14No9,3314
+GRAPHICALABSTRACT
+1. INTRODUCTION
+In recent years, corrective preventions and policies have been applied to develop system performance by mitigating green-
+house gas (GHG) emissions due to raising attention on the sustainable operation of wastewater treatment plants
+(WWTPs) (Yapıcıoğlu 2018). The management of WWTPs has concentrated on mitigating operating costs while obtaining
+effluent discharge limits and minimum GHG emissions (Metcalf & Eddy 2014). The effluent quality and GHG emissions
+ofWWTPshavebeenmainlyinfluencedbyoperatingconditions,whicharehydraulicretentiontime(HRT)andsolidreten-
+tion time (SRT) for WWTPs. This topic had significant attention worldwide in the last decades. GHG emission generator
+pointshavecriticalimportance indeterminingeconomicperformanceintermsofGHGemissions.According totheEuro-
+pean(EU)GreenDeal,GHGemissionsshouldbereducedinconsiderableamounts,andthisreductionofGHGemissions
+wouldleadtoeconomicwealthintheworld(EU2018).WWTPsshouldobtainincentivestoenhanceandcarryoutclimate-
+neutralprocessmanagementtoalignwiththeGreenDealobjectives.Especially,industrialWWTPsareanessentialelement
+oftheEUGreenDealandcirculareconomy(EU2018).AccordingtotheEUGreenDeal,therewillbea55%reductionin
+totalGHGemissionsby2030.WithinthescopeoftheGreenDeal,theEUenvisagesreducingtheGHGemissionvaluefrom
+water treatment by 30% in the next 10 years. From this perspective, GHG emissions should be taken under control and
+reduced for these types of plants (Adebayo et al. 2021; Moretti et al. 2021; Pahunang et al. 2021; Udemba et al. 2021;
+Vossetal. 2021).
+Industrial WWTPs can be regarded as one of the GHG emission resources due to high organic wastewater content and
+high energy consumption (Galve et al. 2021; Hashem et al. 2021; Kumar et al. 2021; Pata & Kumar 2021; Asmal et al.
+2022; Raji & Packialakshmi 2022). From this perspective, this study mainly aimed to mitigate GHG emissions from a
+dairy industry WWTP in terms of the EU Green Deal. There are several GHG emission mitigation techniques such as
+carbon capture systems, innovative wastewater treatment technologies (biochar, microbial fuel (MFC) cell, and microbial
+electric synthesis (MES) applications), microalgal technology, carbon-neutral processes, as well as process and operational
+conditions’ modification(Qambrani et al. 2017). Industrial WWTPs have high first investment and operating costs. Due to
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 3 ---
+JournalofWaterandClimateChangeVol14No9,3315
+thisreason,processmodificationoroptimizationforavailabletreatmentprocessesisthebestalternativeforreducingGHG
+emissions,ratherthancarboncapturesystemsorinnovativewastewatertreatmentprocesses,ifthedischargestandards are
+obtainedwiththeavailabletreatmentsystems.Inthiscontext,processmodificationhasbeenfulfilledinordertoobtainposs-
+ible reductions in GHG emissions of a dairy WWTP, in this study. Operational conditions (HRT and SRT) of the aeration
+tank havebeenmodifiedto design conditions with the aim ofreducing GHGemissions.
+ThispaperaimedtoinvestigatetheeffectofwastewatercharacterizationandprocessmodificationonGHGemissionsfrom
+anindustrialWWTPwithinthescopeofwater–energynexus.Thefocusofthestudyistouseprocessmodificationinorderto
+reduceGHGemissionsandtodetermineandvalidatethecorrespondencebetweenGHGemissionsandwastewaterquality.
+TheargumentofthisstudyisthatthemitigationofGHGemissionswasaimedatusingprocessmodificationintermsofthe
+EuropeanGreenDeal.ThemajorargumentofthispaperisthevalidationoftheminimizationofGHGemissionsbyapplying
+design conditions with in situ GHG monitoring. Statistical and experimental results have been theoretically discussed and
+modeled at the end of the study. Analysis of variance (ANOVA), correlation analyses, heat mapping, and principal com-
+ponent analyses (PCA) were performed to determine the correspondence between GHG emissions and wastewater
+characterization. From this point of view, a benchmarked assessment has been applied to define the correspondence of
+GHG emissions and operational conditions as well as influent and effluent quality. In this context, a newempirical model
+that depended on the correlation of wastewatercharacterization has been developed. From this point of view, GHG emis-
+sions have been figured out using this correspondence with wastewater characterization and the results have been
+compared with the in situ monitoring values. In this paper, chemical oxygen demand (COD), total suspended solid (TSS),
+fats, oil, and grease (FOG), and Total Kjeldahl Nitrogen (TKN) were considered as inputs, pollutant removal (effluent
+values) as desirable outputs, and GHG emissions were regarded as undesirable outputs. These key parameters have been
+selected for the dairy WWTP. Especially COD, FOG, TSS, and TKN are the main indicator pollutant parameters for dairy
+industrial plants (Metcalf &Eddy 2014).
+ThisstudyisuniqueandnovelinthattheeffectofdesignconditionsonGHGemissionsforanindustrialWWTPintermsof
+the EU Green Deal was investigated using various statistical approaches and in situ GHG emission monitoring. Also, the
+other originality of this work is that process modification was investigated as a GHG emission minimization technique.
+There is a gap in the literature on this topic. So, this study could be a guide for similar industrial WWTPs, which have
+highly organic content in terms of the reduction of GHG emissions using process modification. This study has dealt with
+theinvestigationoftheoptimaloperationofanindustrialWWTPinordertomitigateGHGemissions.Inthiscontext,process
+modificationcouldbeaGHGemissionminimizationtechnique(Sweetappleetal.2014;Barbuetal.2017).Fortheextended
+aeration(EA)process,processmodificationhasbeenfulfilled.First,processconditionsweremodifiedintermsofHRTand
+SRT,and then,CO , CH , and N O emissions weremonitoredinthis plant.
+2 4 2
+ForWWTPs,optimaloperatingconditionscouldbedefinedusingoptimizationmethodscoupledwithanestimativemath-
+ematicalmodeloftheWWTP(Kimetal.2015).Afewstudieshaveinvestigatedoptimizationsolutionsthatcarriedoutthe
+analysis or operational design of WWTPs. Several researchers have concentrated on model calibration, simulation, and
+energyefficiency in WWTPs (Kim et al. 2015; Kyung et al. 2015; Yapıcıoğlu & Demir 2021). Kim et al. (2015) studied the
+optimization of operating conditions interms ofGHG emissions.Another study isrelatedtoKyung et al.(2015),in which
+they used model optimization. Yapıcıoğlu & Demir (2021) investigated the reduction in GHG emissions, and the effects
+of design and operational conditions on GHG using Monte Carlo simulation. In this study, ANOVA, correlation analyses,
+heatmapping,andPCAweresimultaneouslyperformed todeterminethecorrespondencebetweenwastewatercharacteriz-
+ationandGHGemissions.Also,thisstudyisuniqueinthatinsituGHGemissionsweremeasuredunderdesignparameters
+and operational conditions forafull-scale industrial WWTP. The validation of the proposed model has beenensuredbyin
+situ monitoring of GHG emissions for design and operational conditions. Also, the effect of wastewater characterization
+was investigated on GHG emissions. Data interpretation has been done according to correlation analysis. GHG emissions
+have been also estimated based on this correlation resulting from statistical analysis, which defines the relationship of
+GHG emissions and wastewater characteristics. In this context, a specific new calculation model has been developed in
+this paper. Also, this study is original in that model validation has been ensuredwith in situ GHG emission monitoring in
+the plant. Zhou et al. (2022) have used a normalizing method for GHG emission and wastewater characterization in a
+municipalplant.ThisstudyconfirmsstatisticalanalysiswithinsitumonitoringofGHGemissionsusingtheclosedchamber
+method.Huangetal.(2023)haveusedthecorrespondencebetweenGHGemissionsandpollutantparametersinamunicipal
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 4 ---
+JournalofWaterandClimateChangeVol14No9,3316
+WWTP.TheyfocusedonpollutantremovaltodeterminethecorrespondencewithGHGemissions.Onthecontrary,statisti-
+calanalysesand insitu GHGemission monitoring havebeenapplied in thisstudy.
+2. MATERIAL AND METHODS
+Inthisstudy,aconceptualmodelhasbeendesigned(Figure1)todefinethestagesofresearch.Ascopehasbeendefinedfor
+GHG emission monitoring and estimation in this paper. First, GHG emissions have been monitored for both EA and dis-
+solved air flotation (DAF) processes, and CO , CH , and N O concentrations for the available operational conditions
+2 4 2
+were determined. DAF and extended aeration tanks have been defined as the GHG emissions resources in this plant.
+GHG emissions have been figured out using a simple equation based on the IPCC approach. In the second stage of the
+study, process modification has been carried out for the EA process to investigate the minimization of GHG emissions.
+The process conditions have been adjusted according to the design conditions, which are 36h of HRT and 20 days of
+SRT.Then,statisticalanalysesthatcontaincorrelationanalyses,heatmapping,andPCAhavebeenappliedinordertodeter-
+minethecorrespondencebetweentheGHGemissionandwastewatercharacterization.Inthisstage,anewGHGemission
+estimationtoolhasbeendevelopedbasedonthecorrelationintheresultofstatisticalanalysis.Themosteffectivewastewater
+parameterhasbeencorrespondedwithGHGemissions,consideringthehighestPearsoncorrelationcoefficientinthemodel.
+Finally,abenchmarkingevaluationhasbeenperformedtovalidatetheeffectofwastewatercharacterizationonGHGemis-
+sions, which has beenpresented atthe endofstatisticalanalyses.
+2.1. Process configuration andmodificationof theplant
+An EA-activated sludge system has been performed for the removal of organic and suspended materials. Direct GHG
+emissions could be originated from the biochemical treatment process. Also, the DAF tank is operated for oil and
+grease removal. From this perspective, EA and the DAF process were considered as the main GHG emission points,
+in this study. So, a limitation has been designed for GHG emission monitoring points due to the assumption that
+Figure1| Conceptualframeworkofthestudy.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 5 ---
+JournalofWaterandClimateChangeVol14No9,3317
+GHG emissions could be originated from organic material removal. This study has been focused on direct emission due
+to the treatment processto reveal the effectofprocess conditions, so thesemaintwo treatmentunits havebeen selected.
+Chemical and energy consumption of the plant has led to indirect GHG emissions. It is ignored because the focus is on
+the main treatment process. Figure 2 presents the industrial wastewater treatment process flow scheme in the plant.
+Table 1 shows the inputs and desirable outputs of the system for the current operating conditions. Figure 3 shows the
+schematic representation of an industrial WWTP to determine the correspondence between GHG emissions and waste-
+water characterization.
+Process modificationcould be a GHG emission mitigation technique(Rodríguez-Caballeroet al. 2014; Sweetappleet al.
+2014; Barbu et al. 2017). For the EA process, process modification was applied. First, process conditions were modified
+according to Table 2. The inputs and desirable outputs of the modified process condition for the aeration tank are given
+inTable1.ManyresearchersproposedtheoperationofWWTPsunderdesignconditionsforminimumenergyconsumption
+(Castellet-Vicianoetal.2018).Thedesignconditionsare36hofHRTand20daysofSRT.Fromthisperspective,theoperat-
+ingconditionshavebeenadjustedtothedesignconditions.AlimitationhasbeendefinedforHRTandSRTinthisspecific
+rangetodefineGHGemissionsnottodisrupttheeffluentqualityanddischargestandardsinthisindustrialWWTP.Aswell,a
+jar test has been performed before monitoring to detect the optimum operating conditions. GHG emissions have been
+measuredforbothdesignandoperationandmodifiedconditionsintheplant.Table1presentstheinputsanddesirableout-
+puts ofthe design conditions.
+Figure2| Wastewatertreatmentprocessconfiguration.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 6 ---
+JournalofWaterandClimateChangeVol14No9,3318
+Table1 | Inputsanddesirableoutputsoftheindustrialwastewatersystem
+DAFprocess
+June July August September October November December January February March April May
+Inputs(pollutantparameters)
+COD 5,293 5,875 5,410 4,789 4,443 3,789 3,650 4,878 4,424 4,310 4,985 5,000
+TSS(mg/L) 2,122 2,456 2,178 2,144 3,022 2,878 2,536 2,501 1,987 2,001 2,078 2,011
+TKN(mg/L) 1,245 1,255 1,500 1,478 1,225 1,350 1,001 1,045 989 925 1,013 1,113
+FOG(mg/L) 329 335 320 278 258 301 325 299 225 311 315 318
+Desirableoutput(pollutantremoval,effluentvalue)(mg/L)
+COD 1,310 1,425 1,500 1,022 1,009 1,000 1,003 1,025 1,020 1,019 1,121 1,125
+TSS(mg/L) 502 500 495 425 400 390 362 355 332 335 389 420
+TKN(mg/L) 26 27,5 28 25,5 25 27 24 23 22 20 22,5 24,5
+FOG(mg/L) 16 17 15 11 10 12 15,5 12,5 10 14 14,5 14,75
+EAprocess–availableoperationalconditions
+Inputs(pollutantparameters)
+COD 5,293 5,875 5,410 4,789 4,443 3,789 3,650 4,878 4,424 4,310 4,985 5,000
+TSS(mg/L) 2,122 2,456 2,178 2,144 3,022 2,878 2,536 2,501 1,987 2,001 2,078 2,011
+TKN(mg/L) 1,245 1,255 1,500 1,478 1,225 1,350 1,001 1,045 989 925 1,013 1,113
+FOG(mg/L) 329 335 320 278 258 301 325 299 225 311 315 318
+Desirableoutput(pollutantremoval,effluentvalue)(mg/L)
+COD 1,252 1,400 1,425 1,011 1,005 998 977 1,018 1,014 1,009 1,098 1,110
+TSS(mg/L) 487 495 490 400 395 387 358 350 325 328 385 410
+TKN(mg/L) 25 25 25 25 25 25 25 25 25 25 25 25
+FOG(mg/L) 10 10 10 10 10 10 10 10 10 10 10 10
+EAprocess–modifiedprocessconditions
+Inputs(pollutantparameters)
+COD 5,293 5,875 5,410 4,789 4,443 3,789 3,650 4,878 4,424 4,310 4,985 5,000
+TSS(mg/L) 2,122 2,456 2,178 2,144 3,022 2,878 2,536 2,501 1,987 2,001 2,078 2,011
+TKN(mg/L) 1,245 1,255 1,500 1,478 1,225 1,350 1,001 1,045 989 925 1,013 1,113
+FOG(mg/L) 329 335 320 278 258 301 325 299 225 311 315 318
+Desirableoutput(pollutantremoval,effluentvalue)(mg/L)
+COD 1,310 1,425 1,500 1,022 1,009 1,000 1,003 1,025 1,020 1,019 1,121 1,125
+TSS(mg/L) 502 500 495 425 400 390 362 355 332 335 389 420
+TKN(mg/L) 26 27,5 28 25,5 25 27 24 23 22 20 22,5 24,5
+FOG(mg/L) 16 17 15 11 10 12 15,5 12,5 10 14 14,5 14,75
+2.2. Monitoringanddeterminationof GHGemissions
+Forthe EA process and the DAFunit, GHGs werecollected in aflux chamberand analyzedwith gas chromatographyfor
+CO , CH , and N O emissions. Equation (1) presents the calculation of in situ GHG emissions. It has been derived based
+2 4 2
+on the IPCC approach (IPCC 2014). In Equation (1), global warming potentials of CO , CH , and N O are 1, 28, and
+2 4 2
+265, respectively (IPCC 2014):
+GHG¼(C (cid:2)GWP )(cid:2)1000 (1)
+GHG CH4,CO2,N2O
+where GHG isthe GHG emission (kg CO e/d) (GHG ,GHG ,GHG ), C is CO , CH , or N O concentration
+2 CO2 CH4 N2O GHG 2 4 2
+(mg/L d), andGWP isthe global warming potentialof CO ,CH ,or N O.
+CH4,CO2,N2O 2 4 2
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 7 ---
+JournalofWaterandClimateChangeVol14No9,3319
+Figure3| Schematicrepresentationofthemodel.
+2.3.Statisticalanalysisanddefinitionofcorrelation
+A sensitivity analysis has been done for all datasets and these parameters. An uncertainty analysis has been performed
+before statistical analysis. Mean values have been considered and selected in statistical analysis. ANOVA, correlation
+analyses, heat mapping, and PCA were performed to determine the correspondence between GHG emission and waste-
+water characterization. R ‘pheatmap’ (Kolde 2019; Iṡ mail et al. 2022), ‘Hmisc’ (Harrell 2021), ‘factoextra’ (Kassambara
+& Mundt 2020) and ‘FactoMineR’ (Le et al. 2008) packages and minitab for all analyses and charts package program
+(Minitab Inc. 2017) were used. The data were statistically analyzed using Levene’s test for variance equality assumption
+and the Shapiro–Wilk test was applied for normality assumption (p.0.05). For this purpose, two-way ANOVA in
+repeated measures and Tukey’s HSD multiple comparison test were used to determine the differences between the
+groups and analyzed to determine whether there was a difference between the groups. The Pearson correlation was
+used to determine the relationships between variables. In addition, multivariate PCA was performed to examine the
+dimensions of the data. The data are presented as n, mean, and standard deviation. All analyses were performed at
+p,0.05 significance level.
+In order to understand the effect of independent variables on the dependent variable, linear multiple regression analysis
+was applied. The outputs have been divided into GHG emissions and pollutant removal, and the relevantvariables for the
+EA process, DAF, and GHG emissions (GHG) are included in the analysis separately. In this way, it is thought that the
+causalpropertiesofthevariableswillbeexaminedinmoredetail.Inthispaper,COD,TSS,FOG,andTKNwereconsidered
+asinputs,pollutantremoval(effluentvalues)wasconsideredasthedesirableoutput,andGHGemissionswereregardedas
+undesirableoutputs.Amassbalancethatcontainscarbonandnitrogencontentandremovalhasbeenperformedbeforethe
+assays.
+PCA is a multivariate statistical method that is widely used for pattern identification and variable reduction (Şahin &
+Iṡ ļer 2021). The purpose of PCA is to minimize the dimensionality of the data while preserving the variation of the orig-
+inal dataset. PCA decomposes the highly correlated variables of a dataset into smaller unrelated variables known as
+principal components. They are linear combinations of weighted original variables. In general, the first few principal
+components are responsible for almost all the variability in the data, and the rest is explained by the later components.
+Thefirstprincipalcomponenttendstoaccountformostofthevariabilityofthedata.ThefirststepinusingPCAtoselect
+variables is to look for PCAs with eigenvalues greater than 1 that show PCs that explain the most variation in the
+dataset.
+2.4.Estimationprocedureof GHGemissions usingcorrelation withwastewatercharacterization
+Afterseriousanalyses,thecorrelationbetweenGHGemissionsandwastewatercharacteristicshasbeendetermined.Anew
+GHGemissionestimationtoolbasedonthecorrelationhasbeendeveloped.Thiscalculationhasbeendesignedspecifically
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 8 ---
+JournalofWaterandClimateChangeVol14No9,3320
+Table2 | GHGemissionmonitoringresults
+DAFprocess
+June July August September October November December January February March April May
+Undesirableoutput(GHG)CO ,CH ,N Oemission(mg/L)
+2 4 2
+CO emission 0 0 0 0 0 0 0 0 0 0 0 0
+2
+CH emission 525 540 538 521 510 500 425 526 508 515 517 522
+4
+N Oemission 1,010 1,100 1,150 1,145 1,000 1,140 985 990 975 950 985 998
+2
+EA–availableoperationalconditions
+Undesirableoutput(GHG)CO ,CH ,N Oemission(mg/L)
+2 4 2
+CO emission 375 410 395 360 357 355 350 378 357 356 362 368
+2
+CH emission 600 610,5 608 596 586 525 505 601 578 569,5 584 596
+4
+N Oemission 2,025 2,083 2,100 2,099 2,001 2,095 1,950 1,978 1,825 1,803 1,925 1988,5
+2
+Inputs(pollutantparameters)
+HRT(h) 32 36 30 28 25 24 20 19 19 20 23 26
+SRT(d) 18 20 19 18 15 13 12 10 11 14 16 17
+EA–modifiedprocessconditions
+Desirableoutput(pollutantremoval,effluentvalue)(mg/L)
+COD 1,310 1,425 1,500 1,022 1,009 1,000 1,003 1,025 1,020 1,019 1,121 1,125
+TSS(mg/L) 502 500 495 425 400 390 362 355 332 335 389 420
+TKN(mg/L) 26 27,5 28 25,5 25 27 24 23 22 20 22,5 24,5
+FOG(mg/L) 16 17 15 11 10 12 15,5 12,5 10 14 14,5 14,75
+Undesirableoutput(GHG)CO ,CH ,N Oemission(mg/L)
+2 4 2
+CO emission 410 415 400 374 363 358 352 380 360 359 363 370
+2
+CH emission 618 620 617 608 590 535 514 607 581 572 587 599
+4
+N Oemission 2,038 2,099 2,112 2,125 2,017 2,103 1,978 1,987 1,845 1,820 1,940 1,999
+2
+EA–designconditions
+Undesirableoutput(GHG)CO ,CH ,N Oemission(mg/L)
+2 4 2
+CO emission 300 400 390 350 345 340 335 303 344 340 351 354
+2
+CH emission 544 555 553 540 530 520 499 545 527 520 535 541
+4
+N Oemission 2,000 2,007 2,010 2,009 1,980 2,007 1,900 1,905 1,800 1,755 1,840 1,860
+2
+Inputs(pollutantparameters)
+HRT(h) 36 36 36 36 36 36 36 36 36 36 36 36
+SRT(days) 20 20 20 20 20 20 20 20 20 20 20 20
+forthisstudy.ThemosteffectivewastewaterparameterhasbeencorrespondedwithGHGemissionswiththehighestPearson
+correlationcoefficient.Also,anassumptionhasbeendefinedthatGHGemissionscouldbefiguredoutfromorganicmaterial
+removalfromwastewaterandwastewateramount:
+GHGI ¼Qr(WP )GWP (2)
+R
+whereGHGIistheestimatedGHGemissionsbasedonwastewatercharacterization(kgCO e/d),Qisthewastewaterflow
+2
+rate(m3/d),risthePearsoncorrelationcoefficient,WP istheremovalofCOD,TSS,TKNorFOG(kg/m3),andGWPisthe
+R
+global warming potential.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 9 ---
+JournalofWaterandClimateChangeVol14No9,3321
+3. RESULTS AND DISCUSSION
+3.1.Effect ofprocessmodificationonGHG emissions
+According to the analyses results, process modification has a serious impact on GHG emissions. CO emissions were the
+2
+lowestdirectGHGemissioninDecember.CO emissionwasnotobservedattheDAFtank.Table2showstheGHGemis-
+2
+sionmonitoringresultsandoperatingconditionsrelatedtotheavailableprocessconditions.ThehighestGHGemissionwas
+observedintheEAprocessinSeptemberasN Oemissions.Itcouldbeoriginatedfromwastewaternitrogencontentandthe
+2
+denitrification process. Caniani et al. (2015) similarly reported that N O emission had the highestvalue for the membrane
+2
+processesforaWWTP.Accordingtotheresults,GHGemissionswerecloselycorrelatedwithprocessconditionsandoper-
+ational parameters of the WWTP. Also, Rodríguez-Caballero et al. (2014) researched the process conditions on GHG
+emissions for municipal wastewater treatment. They similarly found that process conditions have a considerable impact
+on GHG emissions. Also, similar results have been obtained in terms of seasonal variations with this study. Theysimilarly
+reported the lowestGHGemissions in winterand thehighestGHGemissions in summer.
+ProcessmodificationhasbeenappliedtomitigateGHGemissionsfortheaerationtank.First,GHGemissionmonitoring
+was fulfilled on operating conditions for each month. Then, process modification has been applied as shown in Table 2.
+Finally, process modification has been adjusted to design conditions as 36h of HRT and 20 days of SRT. Figure 4 shows
+the variationof GHGemissions applyingprocess modification.
+Accordingtotheresults,lowerdirectGHGemissionsweremeasuredatdesignconditionsforalltypesofGHGemissions.
+Fromtheseresults,itcouldbesaidthatiftheplantisoperatedatdesignconditions,lowerGHGemissionswouldbereleased.
+Also,processmodificationhasaseriousimpactonGHGemissions.TheresultsrevealedthatN Oemissionshadthehighest
+2
+valueamongGHGemissionsduetoitsglobalwarmingpotential.ThehighestGHGemissionwasrelatedtoN Oemissions
+2
+inSeptemberatoperationalconditions(HRT¼26h,SRT¼15days).ThelowestGHGemissionisCO emissioninJunewith
+2
+avalueof300mg/Latdesignconditions(HRT¼36h,SRT¼20days).Fromthisperspective,itcouldbesaidthatiftheplant
+isoperatedatdesignconditions,lowerGHGemissionscouldbemonitored.Iftheaerationtankisoperatedat36hofHRT
+and20daysofSRTatdesignconditions,anaveragereductionof45.4,45.3,and45.2%inCO ,CH ,andN Oemissionshave
+2 4 2
+beenensured,respectively.Anaveragereductionofapproximately46%inoverallGHGemissionshasbeenreportedinthe
+study.AlimitationhasbeendesignedforGHGemissionmonitoringpointsbecausetheassumptioncontainsthatGHGemis-
+sionscould beoriginatedfromorganicmaterial removal.Ifchemicalandenergyconsumptionhasbeenconsidered,thena
+larger GHG emission has been calculated. Inorganic material removal has been applied in the screens and settling tanks.
+Theseunitsarenot monitoring points, so itcould be said thattheyhaveno effecton this correlation.
+Therearelimitedstudiesonthistopicintheliterature.Kimetal.(2015)studiedtheoptimizationofoperatingconditionsin
+termsofGHGemissions.Similarly,theyreporteda31%reduction,whilereducingtheoperatingcostsbynearly11%.They
+recommendedanintegratedperformanceindexincludingGHGemissions,operatingcosts,andeffluentquality.Thenovelty
+ofthispaperisthattheimpactofdesignconditionswithinthescopeofGHGemissionshasbeeninvestigatedandthepossible
+GHGemissionmitigationthatwascalculateddependedonGHGemissionmeasurement.Inthisstudy,approximately46%
+reductionhas beenachievedbyapplyingdesign conditionsintheplant. IfaWWTPisoperatedatdesignconditions, more
+reduction in GHG emissions has been obtained rather than the optimization of operating conditions. Also, Rodríguez-
+Caballeroetal.(2014)investigatedprocessconditionsonGHGemissionsformunicipalwastewatertreatment.Theyreported
+thatsimilarprocessconditionshaveaconsiderableimpactonCO ,CH ,andN Oemissions.Theyreportedthat,similarly,
+2 4 2
+variousGHGemissionsresultinvariousoperationalconditions.Molinos-Senanteetal.(2014)investigatedtheeconomicand
+environmental performances of WWTPs in terms of the reduction of GHG emissions. They estimated potential future
+reductions in GHG emissions using the economic approach in the scope of energy consumption. In this study, the focus
+has been on process modification. In the literature, some studies recommended energy efficiency and energy consumption
+reduction for carbon-neutral operations in WWTPs. Badeti et al. (2021) revealed that the simulation shows that 33% of
+energy could be saved, and N O and CO emissions could also be minimized by 98 and 25%, respectively, with energy
+2 2
+efficiency.
+3.2.Results ofstatistical analyses
+ANOVA, correlation analyses, heat mapping, and PCAwere performed to define the correspondence between GHG emis-
+sionsand wastewatercharacterization. Inthis section, all statistical analyses are shown indetail.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026
+
+--- Page 10 ---
+JournalofWaterandClimateChangeVol14No9,3322
+Figure4| GHGemissionvariationbasedonprocessmodification.
+3.2.1. ANOVAstatistics
+WhentheANOVAresultsforinputs(pollutantparameters)anddesirableoutputs(pollutantremovalandeffluentvalue)were
+examined,itwasfoundthat,statistically,theDAFprocesshadthehighestmeanandtheEAprocesshadthelowestmeanin
+termsofCOD,TSS,TKN,andFOGvariables(p,0.001).TableS1intheSupplementarymaterialshowstheresultsofthe
+ANOVAstatistics.Inaddition,sincetherewerenoGHGemissionvaluesforFOG,onlythedifferencebetweenEAandDAF
+processes was examined and it was observed that DAF was significantly higher than EA for this parameter. On the other
+hand, when undesirable output (GHG) CO , CH , N O emission (mg/L) parameters were examined, it was reported that
+2 4 2
+the EA process for CO was higher in terms of statistical averages; it was observed that the EA process had the highest
+2
+value.Inaddition,whiledataforDAFforHRTandSRTwerenotavailable,dataforGHGwerenotincludedintheanalysis
+becausetheywereobtained the samein all months.
+3.2.2. Regressionanalysis
+Regression analysis results overlapped with the results of ANOVA statistics. Table SM3 showsthe effects and ratios of
+independent variables on the dependent variables of CO , CH , and N O. The CO emission model was not
+2 4 2 2
+Downloaded from http://iwaponline.com/jwcc/article-pdf/14/9/3313/1301555/jwc0143313.pdf
+by guest
+on 22 April 2026

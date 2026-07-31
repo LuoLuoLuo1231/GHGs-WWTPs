@@ -1,0 +1,536 @@
+--- Page 1 ---
+JournalofCleanerProduction376(2022)134093
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Analyzing greenhouse gas emissions from municipal wastewater treatment
+：
+plants using pollutants parameter normalizing method a case study
+of Beijing
+Xingxuan Zhoua, Fang Yanga, Feng Yanga,b, Dongxia Fenga, Ting Pana, Haiqing Liaoa,*
+aState Key Laboratory of Environmental Criteria and Risk Assessment, Chinese Research Academy of Environmental Sciences, Beijing, 100012, China
+bSchool of Environment, Tsinghua University, Beijing, 100084, China
+A R T I C L E I N F O A B S T R A C T
+Handling Editor: Jian Zuo Wastewater treatment plants (WWTPs) contribute increasing amounts of greenhouse gases (GHGs), due to rapid
+development and increasingly stringent wastewater discharge limits in China. In this study, GHG emissions from
+Keywords: 38 WWTPs in Beijing were estimated using the pollutants parameter normalizing method (PPNM) and the effects
+N2O of various factors were analyzed. The result showed that, the total GHG emissions of Beijing WWTPs in 2017
+CH4
+were 1 045 661.5 t CO2-eq (tons of CO2-equivalent), the direct and indirect emissions were 186 366.0 and 859
+M Emu in si sc ii op na l aw lca ust le aw tioa nte r treatment plants 295.5 t CO2-eq, respectively. The average emission intensity was 0.603 kg CO2-eq/m3. Direct and indirect GHG
+c
+emissions were influenced by various factors, such as treatment process, influent parameters and treatment scale.
+Pollutants parameter normalizing method
+The anaerobic-anoxic-oxic (AAO) process demonstrated low emission intensities (0.092 kg CO2/m3), while
+biofilm processes (MBBR) obtained relatively high emission intensities (0.277 kg CO2/m3). Direct GHG emission
+has a positive correlation with the amount of pollutant removed and low influent pollutant concentrations
+(chemical oxygen demand [COD]<300 mg/L and total nitrogen [TN] <20 mg/L) can lead to high indirect GHG
+emission intensities. The low power utilization efficiency of small-scale WWTPs (<1 ×107 t/a; 6.60 kWh/kg
+COD; 30.54 kWh/kg TN) contributed to additional GHG emissions. Compared with the GHG emissions in
+Shanghai in 2016, higher influent pollutant concentrations and stricter discharge limits contributed to higher
+GHG emission intensity in Beijing for both direct (0.108 kg CO2/m3) and indirect (0.496 kg CO2/m3) emissions.
+The comparison results between cities indicated that the PPNM method achieved a more accurate account of
+GHG emissions, and the analysis results provided support for carbon emission reduction.
+1. Introduction Generally, CH4, N2O, and CO2 are emitted during municipal waste-
+water treatment processes (IPCC, 2013), and can be divided into direct
+Global warming caused by human induced greenhouse gas (GHG) and indirect emissions. To achieve carbon neutrality with respect to
+emissions released by human activity has become a popular research sewage treatment, it is important to accurately calculate the direct and
+topic. Wastewater treatment plants (WWTPs) are sources of greenhouse indirect carbon emissions of WWTPs. Direct emissions, including those
+gases and emit large amounts of nitrous oxide (N2O), methane (CH4), of CH4 and N2O, occur during the transport and biological treatment
+and carbon dioxide (CO2) both directly and indirectly (Campos et al., stages, and are emitted from WWTP structures, with global warming
+2016; Daelman et al., 2012). Greenhouse gases emitted from treating potentials (GWPs) of 28 and 265 times that of CO2 in 100 years,
+waste and wastewater account for 3–5% of total anthropogenic GHG respectively. CO2 produced by energy consumption during wastewater
+emissions (Eijo-Río et al., 2015; IPCC, 2007). Thus, there is an urgent treatment is considered an indirect emission. The CO2 emitted during
+need to control GHG emissions from WWTPs. Quantifying and analyzing wastewater treatment process are considered to be biogenic origin by
+the characteristics of GHGs produced during wastewater treatment are Intergovernmental Panel on Climate Change (IPCC) and is not included
+critical for devising strategies to control and reduce anthropogenic GHG in national emissions data (IPCC, 2006). Studies have reported the fossil
+emissions. organic carbon (e.g., petroleum-based household products) and
+* Corresponding author.
+E-mail address: liaohq@craes.org.cn (H. Liao).
+https://doi.org/10.1016/j.jclepro.2022.134093
+Received 28 April 2022; Received in revised form 1 September 2022; Accepted 10 September 2022
+Availableonline14September2022
+0959-6526/©2022PublishedbyElsevierLtd.
+
+--- Page 2 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+chemical uses in municipal wastewater converted to fossil origin CO2, development of the PPNM method is to promote the accuracy of the
+through chemical and biological reactions, which might lead to climate GHG emission estimation since we calculated and analyzed the esti-
+change (Law et al., 2013). However, the percentage of on-site fossil mations by using the per unit pollutant removed instead of per cubic
+origin CO2 from chemical uses by chemical reactions accounted for no wastewater treated. Secondly, the calculation of GHG emissions of
+more than 2% in the previous studies (Kyung et al., 2013). Besides, the Beijing municipal WWTPs filled the gap of regional GHG emission es-
+on-site fossil organic carbon based on biological reactions was studied timations. Furthermore, the influences of wastewater treatment pro-
+using isotopic tracer method and the content varied with the type of cesses and discharge limits on the calculation of GHG emissions were
+wastewater composition (Griffith et al., 2009; Law et al., 2013). The comparatively analyzed in Beijing and Shanghai. The finding of Beijing
+fossil origin CO2 calculation was not included in the present study and could provide a reference for cities or regions that require more accurate
+further investigation in local wastewater is required. GHG emission estimations.
+Direct CH4 and N2O emissions are derived from different wastewater
+treatment processes. CH4 can be produced during wastewater transport, 2. Materials and methods
+owing to the anoxic conditions in sewage pipelines, and is emitted after
+entering WWTPs via stripping in an aerated grit chamber or a primary 2.1. Study area
+settling tank (Guisasola et al., 2008). Studies have mainly focused on
+methane production of WWTPs, which is derived from anaerobic Beijing (39◦26′–41◦03′ N, 115◦52′–117◦30′ E) has a population of
+wastewater treatment and surplus sludge digestion (Daelman et al., 21.89 million people and is a political and cultural center in China. As
+2012; Wang et al., 2011). N2O is emitted during the biological nitrogen one of the largest cities in China, Beijing has constructed multiple
+removal (BNR) process through nitrification and denitrification. Factors municipal WWTPs to meet environmental protection needs. According
+such as operational conditions, choice of BNR processes, nitrogen to the Urban Construction Statistical Yearbook (2017), Beijing has 67
+loading rates, and dissolved oxygen (DO) can affect N2O emissions WWTPs, with an annual treatment capacity of 1.73 billion m3, and a
+(Foley et al., 2010). wastewater treatment rate of 96.6% (M.o.H.a.U.D.o.t.P.s.R.o.C., 2019).
+A variety of methods have been used to quantify GHG emissions from
+WWTPs, the most common of which is the IPCC method, which uses 2.2. Data sources
+emission factors (EFs) and activity parameters to estimate emissions.
+Studies were conducted to calculate GHG emissions from specific Operational data for 38 of the main WWTPs in Beijing were obtained
+municipal and industrial WWTPs with different treatment process or from the 2018 Urban Drainage Statistics Yearbook (CUWA, 2018). These
+WWTPs at a city scale using default EF values and per capita activity 38 WWTPs accounted for 76% of the total wastewater processed in
+¨
+parameters (Ozlem and Pelin, 2019; Ramírez-Melgarejo et al., 2020). Beijing. The data included processes, effluent standards, design capac-
+However, plant-specific data should be used when available, including ities, actual annual treatment capacities, and annual electricity
+specific EFs for prominent treatment systems or different processes that consumed, as well as the chemical oxygen demand (COD) and total ni-
+are based on field measurements and operational influent and effluent trogen (TN) of the influents and effluents. Basic information related to
+pollutant content data as suggested by the IPCC (IPCC, 2013). Methods the 38 WWTPs is listed in Table A.1. In addition, to estimate the total
+have also been developed based on the original EF method. On-site GHG emissions from all the WWTPs in Beijing, the total quantity of
+biogas measurement data were then used in a developed method wastewater treated was obtained from the Urban Construction Statisti-
+based on the IPCC method to calculate the GHG emissions of leachate cal Yearbook (2017) (M.o.H.a.U.D.o.t.P.s.R.o.C., 2019).
+treatment system and UASB reactor for water treatment (Hakki and The EFs for CH4 and N2O were obtained from monitoring data from
+Pelin, 2019, 2021). Xi et al. (2021) used the operational data integrated over 40 WWTPs that use different processes. These WWTPs were mostly
+method (ODIM) with pollutants data and EFs from onsite measurements located in China but were supplemented by WWTPs in foreign countries
+to obtain estimates of GHG emissions from 50 WWTPs in Shanghai. (Table A.2). Power EFs were obtained from China power emission factor
+However, the methods mentioned above are seldom paid attention to from emission reduction projects in 2019 (M.o.E.a.E.o.t.P.s.R.o.C.,
+analyze the CH4 and N2O emissions by ‘per unit pollutant removed’ 2020).
+which maybe more accurate for the calculation of the GHG emission
+¨
+(Ozlem and Pelin, 2019; Ramírez-Melgarejo et al., 2020). 2.3. Municipal wastewater treatment in Beijing
+As for the case studies on the calculation of the GHG estimation from
+wastewater treatment, more attentions were paid to calculating GHG The wastewater treatment scenario is shown in Fig. 1. In China, the
+estimation of specific plants (Yan et al., 2014; Kyung et al., 2015; following technologies are applied to the treatment processes: oxidation
+Yapıcıog˘lu, 2020). With the goal of carbon neutralization were recently ditch (OD) includes orbal, carousel oxidation ditch, triple channel
+proposed by countries based on the Paris Agreement, studies on the oxidation ditch (T-OD), dual channel oxidation ditch (DE-OD), and
+regional GHG emissions estimation are becoming the research hotspots. carousel with a pre-anaerobic zone (A+OD); anaerobic-anoxic-oxic
+Liao et al. (2020) reported the indirect emission of GHG for the Shenz- (AAO) includes conventional AAO, reverse AAO, AO, and AAO with a
+hen, a big city in south China. Comparison studies accounting for direct pre-anoxic zone (A-AAO); sequencing batch reactor (SBR) includes cy-
+or indirect emissions from wastewater treatment sector have been done clic activated sludge technology (CAST), cyclic activated sludge tech-
+in Shanghai (Xi et al., 2021) as well as in Barcelona and Mexico City nology system (CASS), demand aeration tank-intermitted aeration tank
+(Ramírez-Melgarejo et al., 2020). Shrestha et al. (2022) even studied the (DAT-IAT), unitank, and intermittent cyclic extended aeration system
+GHG emission estimation of whole country in Nepal. There are no (ICEAS); and biofilm processes (MBBR) includes other biofilm processes
+comparable studies for Beijing, one of the biggest cities in middle lati- and activated sludge/biofilm mixing systems (Qiu et al., 2010; Shi et al.,
+tudes of the north hemisphere with extremely dry conditions. It must be 2021). The 38 WWTPs analyzed herein used six mainstream wastewater
+interesting to study the GHG estimation from wastewater treatment in treatment processes. The most used process was AAO, with a total
+Beijing since there is much higher influent concentration of pollutants treatment of 503.47 million tons by eleven WWTPs in 2017, followed by
+for WWTPs are much higher than that in cities with greater precipita- CAS (385.95 million tons by five WWTPs), and MBR (184.75 million
+tion, as well as stricter discharge limits. tons by six WWTPs. Eight WWTPs used OD processes, and the low ca-
+In the present work, we used the operational data of Beijing to pacity of each WWTP contributed to a low total of 157.3 million tons.
+quantify the GHG emissions from municipal WWTPs using the pollutants The SBR processes were used by six WWTPs (61.59 million tons). The
+parameter normalizing method (PPNM). Firstly, the calculation method treatment processes used in Beijing were the same as the overall sewage
+of the PPNM was developed based on the IPCC method. The aim for the treatment processes used throughout China, i.e., OD, AAO, and SBR
+2
+
+--- Page 3 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+secondary settling tank.) and sludge dewatering facilities. The indirect
+GHG emission sources include electricity consumption of aeration, in-
+plant transportation and mixing etc. The schematic diagram of treat-
+ment scenario and GHG emission calculation boundary is shown in
+Fig. 2.
+2.4.2. Direct CH4 and N2O emissions
+The PPNM used to calculate direct GHG emissions was derived from
+the IPCC Guidelines, in which the GHG emissions are functions of the
+activity level and EFs (IPCC, 2006). The amounts of degradable organic
+material and TN in the wastewater are principal factors used to deter-
+mine the CH4 and N2O generation potentials. The key to the PPNM was
+using the pollutant equivalent to replace the volume equivalent of
+influent wastewater. Generally, when more pollutants are removed,
+more GHGs are emitted (Delre et al., 2017), which could be directly
+calculated by the parameters of pollutant in influent and effluent of
+WWTPs. For CH4 calculation, the IPCC method uses per capita
+biochemical oxygen demand (BOD5) and population to calculate the
+organic matter in the wastewater. For N2O calculation, the IPCC 2006
+method uses a population equivalent (3.2 g N2O per person/year) to
+calculate GHG emissions, while the IPCC, 2006 method uses annual per
+capita protein consumption and the protein nitrogen content (FNPR) to
+represent the TN of the influent wastewater. Therefore, the BOD and TN
+calculated using the IPCC method were determined by the population
+severed of WWTPs, which were in fact, volume equivalents. In the
+PPNM, pollutant removed was calculated by multiplying treatment
+quantities and differences between pollutant concentrations of influent
+and effluent, the GHG emissions were calculated by the pollutant
+equivalent. Chemical oxygen demand (COD) and TN were selected as
+the pollutant parameters, since they are the primary indicator of organic
+matters and nitrogen removal efficiency in wastewater.
+The CH4 emissions were calculated using Equation (1):
+CH 4discharge=Q⋅(COD IN(cid:0) COD EFF)⋅EF CH4 (1)
+where Q is the annual WWTP treatment quantity (104 t/a); CODIN and
+CODEFF are the average COD concentrations of the WWTP influent and
+effluent, respectively (mg/L); and EFCH4 is the EF for different treatment
+processes (kg CH4/kg COD).
+The N2O emissions were calculated using Equation (2):
+N 2O discharge=Q⋅(TN IN(cid:0) TN EFF)⋅EF N2O (2)
+Fig. 1. Wastewater treatment scenario. (a) Total annual wastewater treatment
+quantities and numbers of wastewater treatment plants (WWTPs) that use each where TNIN and TNEFF are the average TN concentrations of the influent
+process. (b) Treatment capacities of WWTPs using different processes.
+and effluent water, respectively (mg/L), and EFN2O is the EF of the
+treatment process (kg N2O/kg TN). The calculation of direct GHG
+were the main technologies used in China (Jin et al., 2014). The annual emissions is shown in Fig. 3.
+wastewater treatment capacities of the 38 WWTPs ranged from 0.51 to To further analyze the GHG emission characteristics, the CH4 and
+313.48 million tons. Three of the WWTPs treated more than 100 million N2O emissions were converted to carbon dioxide equivalent units (CO2-
+tons of wastewater and approximately 55% of the WWTPs treated eq) using Equations (3) and (4):
+10–100 million tons of wastewater annually. The WWTPs with large
+treatment scales (>50 million tons) all used AAO and CAS processes, CO 2(cid:0)eq(CH 4)=CH 4discharge⋅GWP(CH 4) (3)
+while OD, MBR, and SBR processes were generally used at WWTPs that
+treated 2–50 million tons annually. Treatment processes are selected CO 2(cid:0)eq(N 2O)=N 2O discharge⋅GWP(N 2O) (4)
+based on treatment efficiency, energy efficiency, cost, and land avail-
+where GWP (CH4) and GWP (N2O) are the global warming potentials
+ability. Large-scale WWTPs commonly use CAS and AAO processes, as
+with a 100-year horizon of CH4 and N2O, which are 28 and 265,
+the capital investment per unit of wastewater treated is reduced when
+respectively (IPCC, 2014).
+the scale exceeds a certain threshold. Small and medium-scale WWTPs
+use OD, MBR, and SBR processes, as there is no need to construct a
+2.4.3. Direct GHG emission factors
+primary settling or secondary sedimentation tank. These processes are
+The EF value used in the IPCC 2006 method was based on study of a
+also easy to manage, with low construction costs (Jin et al., 2014).
+WWTP without considering nitrogen removal (Czepiel et al., 1995),
+while the IPCC, 2006 method updated the EF values based on data from
+2.4. GHG emissions calculations method recent studies that made on-site measurements of GHG emissions in
+WWTPs using different treatment processes (Daelman et al., 2012;
+2.4.1. GHG calculation boundary Masuda et al., 2018). According to previous studies, long-term (>1 year)
+The direct GHG emission sources in this study includes sewage and continuous campaigns are thought to yield more accurate EFs, since
+treatment structures (e.g., primary settling tank, biological reactors,
+3
+
+--- Page 4 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+Fig. 2. The schematic diagram of treatment scenario and GHG emission calculation boundary.
+they capture the entire temperature range and eliminate any deviations flowsheets, site-specific operational characteristics, and control param-
+(Sun et al., 2013; Vasilaki et al., 2019). The previously published data eters, all of which contribute to different DO, nitrate, and nitrite con-
+used in this study mostly have durations of approximately one year (Bao ditions. As CH4 and N2O generation are influenced by these conditions,
+et al., 2016; Daelman et al., 2012; Hwang et al., 2016; Masuda et al., the quantities of GHG emissions from different processes differed
+2018; Yoshida et al., 2014). However, most on-site GHG emission widely. Generally, SBR and MBBR are two processes with high GHG
+studies use discontinuous monitoring studies, in which the gaseous GHG emission intensities, while AAO and OD have relatively low emission
+fluxes are collected using gas bags or closed chambers (Ren et al., 2013; intensities. Vasilaki et al. (2019) found that SBR is generally associated
+Sun et al., 2013; Wang et al., 2011). Since the statements differ when with higher N2O emissions compared to that of other process groups,
+calculating GHG emissions, we converted all of the EFs to a unit of kg while CAS, AAO, and OD have relatively low EFs. The EFs used in this
+GHGs per kg pollutant removed. The EFs obtained for CH4 and N2O are study were classified by treatment processes. Because temperature and
+shown in Fig. 4 and the detailed data are presented in Table A.2. influent wastewater can influence the GHG emission, EFs from on-site
+The EFs of different processes vary widely due to different treatment measurement of WWTPs in China were mainly used and cities with
+4
+
+--- Page 5 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+3. Results and discussion
+3.1. GHG emissions from WWTPs in Beijing
+The GHG emissions from the 38 researched WWTPs was 797 920.1 t
+CO2-eq, total indirect emission was 655 708.5 t CO2-eq, accounted for
+82% of the total emissions, and was 4.6 times of direct emissions (186
+366.0 t CO2-eq), which was in accordance with a previous study where
+the electricity consumption was the major GHG emission source during
+the wastewater treatment process (Yapıcıog˘lu, 2021). The average
+Fig. 3. Diagram of procedures used to calculate direct greenhouse gas emissions intensity of the 38 WWTPs was 0.603 kg CO2-eq/m3, which
+(GHG) emissions. was similar to the results obtained for the emission intensity of China
+(0.581 kg CO2-eq/m3; Wang et al., 2016), but was much higher than the
+emission intensities of Shanghai and Shenzhen (0.290 and 0.30 kg
+CO2-eq/m3, respectively; Liao et al., 2020; Xi et al., 2021). This may be
+caused by different EF values of direct and indirect emissions (0.9414 t
+CO2/MWh in Beijing, 0.7921 t CO2/MWh in Shanghai, and 0.8041 t
+CO2/MWh in Shenzhen; Liao et al., 2020; Xi et al., 2021). The 38
+WWTPs accounted for 76% treatment quantity of Beijing wastewater,
+total GHG emissions of Beijing WWTPs in 2017 were calculated to be 1
+045 661.5 t CO2-eq, the direct and indirect emissions were 186 366.0
+and 859 295.5 t CO2-eq, respectively.
+3.2. Direct GHG emissions
+The total direct CH4 and N2O emissions from the 38 WWTPs were
+2584.2 and 263.6 tons, respectively, with a total direct equivalent car-
+bon dioxide (CO2-eq) emission of 142 211.6 tons. The detailed GHG
+emissions by different processes are shown in Fig. 5. Generally, WWTPs
+produced more CH4 than N2O, which has been reported by previous
+studies (Asadi and McPhedran, 2021; Masuda et al., 2018; Ross et al.,
+2020). The CAS processes produced the largest direct CO2- eq (46 756.3
+tons), with the second largest processing quantity among the seven
+processes. The AAO processes contributed 46 341.9 tons CO2-eq, with
+the largest treatment quantity (503.4 million tons) at 11 of the 38
+Fig. 4. Emission factors (EFs) of different processes.
+WWTPs. It is notable that the SBR and MBBR processes had relatively
+high GHG emissions of 11 505.3 and 3932.7 tons respectively, with low
+similar climate and economic development were used as supplements.
+treatment capacities.
+According to the calculation method in Section 2.4.2, the GHG
+2.4.4. Indirect CO2 emissions
+emission of each unit of pollutant was determined by the EF. The GHG
+Indirect GHG emissions are caused by energy and chemical con-
+emission of each unit of pollutant varied with treatment processes and
+sumption, including flocculants and antiseptics. Since energy con-
+were shown in Fig. 4. For GHG emission of volume unit, MBBR processes
+sumption during chemical production is included in industrial had the highest per cubic meter GHG emissions of 0.277 kg CO2-eq/m3,
+production, we considered energy-related indirect CO2 emissions, which 0.0041 kg CH4/m3, and 0.00061 kg N2O/m3. As stated above, GHG
+can be calculated using Equation (5):
+emissions are related to the amount of pollutant removed. The pro-
+CO 2discharge=W⋅EF electricity (5) cessing load of the WWTPs that used MBBR processes was 412 mg COD/
+L and 73.7 mg TN/L, which contributed to the high emission intensities.
+where W is the annual electricity consumption of the WWTP and EF In addition, the low number of samples may have also led to the high
+electricity is the power grid boundary EF for Beijing (0.9414 t CO2/MWh in emission intensities. The second highest emission intensity was that of
+North China). SBR processes (0.187 kg CO2-eq/m3, 0.0037 kg CH4/m3, and 0.00024 kg
+N2O/m3). Bao et al. (2016) found that WWTPs that used SBR released
+2.4.5. Sensitivity analysis more N2O than WWTPs that used AAO processes. High emission in-
+Several uncertainties are associated with the calculations made in tensities were also obtained for SBR processes in previous studies of
+the case study of GHG calculation. These included (1) the calculation of Shanghai and Shenzhen, China (Liao et al., 2020; Xi et al., 2021). The
+EFs using data from previous studies; (2) using the average GHG emis- OD processes had the lowest emission intensity (0.075 kg CO2-eq/m3,
+sion intensities of 38 WWTPs to calculate GHG emission of Beijing 0.0011 kg CH4/m3, and 0.00016 kg N2O/m3); however, Xi et al. (2021)
+WWTPs. The direct emission was re-calculated by using the high value found that WWTPs using OD processes emitted more CH4 than those
+and low value of EFs of each process in case (1), then compared this to using AAO and AO processes out of 50 WWTPs in Shanghai. Except for
+the result calculated using the mean EFs values. The sampling error and MBBR, SBR, and OD processes, the total emissions intensity ranged from
+confidence intervals were calculated in case (2). 0.0092 to 0.00122 kg CO2-eq/m3. For total direct CO2-eq emissions,
+since N2O (GWP = 265) has a stronger GWP than CH4 (GWP = 28),
+processes that emit more N2O tended to yield higher total direct CO2-eq
+emission intensities.
+5
+
+--- Page 6 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+Fig. 5. Direct GHG emission and emission intensities of different processes. (a) Direct CH4 emissions, (b) direct N2O emissions, (c) total direct CO2-eq emissions, (d)
+total direct CO2-eq emission intensities, (e) direct GHG emission intensities (CO2-eq), and (f) direct GHG emission intensities (CH4 and N2O).
+3.3. Indirect GHG emissions treatment capacities, influent qualities, and water quality objectives (Li
+et al., 2017; H. Wang et al., 2016). The emission intensities of the
+3.3.1. Indirect emissions per cubic meter wastewater treated different treatment processes are shown in Fig. 6. The highest emission
+Wastewater treatment plants require large amounts of energy to intensity was observed for MBBR, owing to its high electricity con-
+process the influents, mostly in the form of electricity. The electricity sumption to ensure quality and efficiency, and meet the provincial
+consumed by different processes can be reflected using indirect GHG standard of discharge limit for Beijing. However, this result may not
+emissions and emission intensities. The electricity consumed by WWTPs entirely represent MBBR processes, as only one WWTP investigated in
+can be affected by different wastewater treatment technologies, this study used MBBR. The MBR process also had a high emission
+6
+
+--- Page 7 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+maintain an over-membrane pressure difference.
+The OD emission intensity (0.560 kg CO2-eq/m3) in Beijing was
+much higher than in Shanghai and Shenzhen (0.188 kg CO2-eq/m3 and
+0.3 kg GHG/m3 respectively), which may be due to regional differences,
+such as newly constructed advanced wastewater treatment plants and
+low water quality requirements for wastewater treatment in Shenzhen
+(Li et al., 2017). The AAO and CAS processes had relatively low emission
+intensities, as these processes have mature technologies and do not
+require large amounts of energy consumption other than for aeration.
+The SBR process had the lowest emission intensity, as the electricity
+consumed by SBR is mainly related to aeration and water lifting. SBR
+processes also have high treatment efficiencies, which shortens the hy-
+draulic residence time (HRT) of BNR. The complete mixing mode of the
+SBR process is also conducive for the mass transfer of oxygen.
+3.3.2. Indirect GHG emissions per unit pollutant removed
+The indirect GHG emissions per unit pollutant removed can be re-
+flected using direct emission factors. Electricity consumption of Beijing
+WWTPs ranged from 0.09 to 1.75 kWh/t. The COD index of the influent
+ranged from 46 to 920 mg/L, while the TN of the influent ranged from
+Fig. 6. Indirect CO2 emissions and emission intensities of different wastewater 12.8 to 84.6 mg/L. Indirect GHG emissions per unit pollutant removed
+treatment processes. varied widely with process, scale, and influent quality. As shown in
+Fig. 7, the electricity consumed by the different processes was not sub-
+intensity (0.624 kg CO2-eq/m3), which was observed in Shanghai, with stantially different when removing a unit of COD. The average elec-
+an MBR emission intensity of 0.738 kg CO2-eq/m3 (Xi et al., 2021). An tricity consumption ranged from 1.442 to 2.028 kWh/kg COD. In
+MBR WWTP in Shenzhen also had an emission intensity of 0.738 kg contrast, when removing a unit of TN, OD had the highest electricity
+CO2-eq/m3 (Liao et al., 2020). The high MBR emission intensity was consumption (18.748 kWh/kg TN), while SBR had a relatively low
+likely due to energy consumption for aeration, as well as the need to electricity consumption (11.945 kWh/kg TN). Small-scale WWTPs, less
+Fig. 7. Electricity consumption per unit pollutant removed for different factors. (a) Different wastewater treatment processes, (b) treatment scales, (c) influent
+oxygen demand (COD), and (d) influent total nitrogen (TN).
+7
+
+--- Page 8 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+than 5 ×106 t/a, had considerably high electricity consumption when
+removing pollutants (1.943 kWh/kg COD and 28.772 kWh/kg TN). The
+high electricity consumption at small-scale WWTPs was likely due to the
+fluctuations in influent loads, which were difficult to manage continu-
+ously. The electricity consumption decreased as the treatment scale
+increased. The electricity consumed by 5–10 ×106 t/a and 1–2 ×107 t/a
+scale WWTPs was 1.895 kWh/kg COD and 14.457 kWh/kg TN, and
+1.528 kWh/kg COD and 10.323 kWh/kg TN, respectively. The elec-
+tricity consumption increased (1.733 kWh/kg COD and 16.242 kWh/kg
+TN) at a treatment scale of 2–5 ×107 t/a, then decreased (1.263 kWh/kg
+COD and 12.312 kWh/kg TN) when the treatment scale was above 5 ×
+107 t/a. Xi et al. (2021) analyzed the GHG emissions in Shanghai and
+reported the same treatment scale-influenced emission trend. It is worth
+noting that electricity consumption is affected by the influent quality.
+Fig. 7(c) and (d) show the electricity consumption for different influent
+qualities. Wastewater with an influent COD <300 mg/L and a TN <30
+mg/L had a higher electricity consumption per kg COD and per kg TN
+removal. This phenomenon indicates that a large portion of indirect
+emissions occurs when treating influent with low pollutant concentra-
+tions, which may be caused by over-aeration in the aeration tank under
+low influent concentrations (Bao et al., 2016).
+3.4. Emission differences between cities
+The municipal wastewater treatment in Beijing in 2017 was 173.287
+million tons, which contributed 1045 661.5 t CO2-eq with an emission
+intensity of 0.603 kg CO2-eq/m3. Xi et al. (2021) determined that the
+total GHG emissions from all municipal WWTPs in Shanghai was 755
+171 t CO2-eq, with an emission intensity of 0.290 kg CO2-eq/m3. The
+GHG emission parameters of Beijing and Shanghai are listed in Table 1.
+The direct GHG emissions from Beijing (186 366.0 t CO2-eq) were lower
+than those from Shanghai (243 320 t CO2-eq), as were the direct GHG
+emissions per capita. Discrepancies may exist, as the IPCC method uses
+annual per capita protein supply and country-specific per capita BOD to
+estimate city-scale GHG emissions. For treatment efficiency, direct
+emission per unit pollutant of Beijing was 0.0003 t CO2-eq/kg COD and
+0.003 tCO2-eq/kg NH3–N, while in Shanghai it was 0.0001 t CO2-eq/kg
+COD and 0.001 t CO2-eq/kg NH3–N. The results indicated the possible
+errors may cause, that the IPCC’s accounting based on per unit of
+pollutant emissions, when applied to different regions. As shown in
+Fig. 8(a and b), the influent COD in Beijing (>300 mg/L) was higher
+than that in Shanghai, where the influent CODs of 63% WWTPs were
+200–300 mg/L. In addition, Beijing follows stricter discharge limits
+according to their provincial standard. The effluent COD concentrations
+Fig. 8. Percentages of WWTPs in (a) Beijing and (b) Shanghai that use various
+at 88% of the WWTPs in Beijing were <20 mg/L, while the effluent COD processes (by treatment scale), treatment scales, influent COD, influent TN,
+concentrations in Shanghai WWTPs were >20 mg/L, which contributed effluent COD, and effluent TN. (a: MBBR accounted for 1%, others (1%); scale
+<0.5 ×107t accounted for 1%; effluent COD <20 mg/L accounted for 4%; b:
+Table 1 MBBR accounted for 0.28%, MBR (1%), SBR (2%); scale <0.5 ×107t accounted
+GHG emission data for Beijing and Shanghai. for 1%, 0.5–1 ×107t (2%); effluent COD <20 mg/L accounted for 1%). (The
+influent and effluent TN of Shanghai is neglected since it was replaced by
+Beijing Shanghai NH3–N in the study by Xi et al. (2021).
+Total wastewater treatment (10 000 m3) 173 287 260 877
+Residential population (10 000) 2170.7 2418.3
+to higher direct GHG emission intensities.
+Discharge limit provincial national
+Previous studies have found that temperature influences GHG
+standard standard
+Average influent COD (mg/L) 332.6 292.8 emissions (Y. Wang et al., 2016). Climate in different cities in China
+Average influent TN (mg/L) 47.4 21.9 varies according to their geographic locations. Studies of local GHG EFs
+EFelectricity (tCO2/MWh) 0.9419 0.7921 are required to determine more accurate city-scale GHG emission esti-
+Unit electricity consumption (kWh/t) 0.564 0.352
+mates. The indirect GHG emission intensity of Beijing was higher than
+Total GHGs emission (tCO2-eq) 1 045 661 755 171
+Direct GHGs emission (tCO2-eq) 186 366 243 320 that of Shanghai, which contributed great part to total GHG emission.
+Indirect GHGs emission (tCO2-eq) 859 295 511 851 The total emission per unit pollutant in Beijing was 2–3 times higher
+To mta 3l G HGs emission intensity (kgCO2-eq/ 0.603 0.290 than that in Shanghai. The emission per kg COD were 0.0014 kgCO2-eq
+)
+Di mre 3c )t GHGs emission intensity (kgCO2-eq/ 0.108 0.093 a Nn Hd –0 N.0 0 re0 s3 ek cg vC eO ly2 - fe oq r, B0 e.0 ij1 in4 k ag C O S2 h- ae nq a hn ad 0 T. h0 e0 4 ak lg sC oO f2 W-eq p Te Pr k ing
+3 p ti g n d g i. sc e W s
+Indirect GHGs emission intensity (kgCO2- 0.496 0.197 Beijing and Shanghai are shown in Fig. 8(a and b). The WWTPs with
+eq/m3) annual wastewater treatment amounts >50 million tons treated over
+8
+
+--- Page 9 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+74% of the wastewater in Shanghai, while those in Beijing treated only Appendix A. Supplementary data
+59%. Beijing WWTPs removed more pollutants per cubic meter of
+wastewater, which contributed to high electricity consumption. In Supplementary data to this article can be found online at https://doi.
+addition, Beijing had a higher power grid boundary EF than Shanghai, org/10.1016/j.jclepro.2022.134093.
+which is affected by the economic level and electricity production mode.
+References
+3.5. Sensitivity analysis
+Asadi, M., McPhedran, K., 2021. Estimation of greenhouse gas and odour emissions from
+a cold region municipal biological nutrient removal wastewater treatment plant.
+By using the high value and low value of EFs, direct emissions of
+J. Environ. Manag. 281, 111864 https://doi.org/10.1016/j.jenvman.2020.111864.
+different process were re-calculated, the deviations caused by EFs to the Bao, Z.Y., Sun, S.C., Sun, D.Z., 2016. Assessment of greenhouse gas emission from A/O
+GHG emission calculation result were within 5% (Table A.7). This sug- and SBR wastewater treatment plants in Beijing, China. Int. Biodeterior. Biodegrad.
+108, 108–114. https://doi.org/10.1016/j.ibiod.2015.11.028.
+gests that the calculation method of EFs is acceptable. This is because the
+Campos, J.L., Valenzuela-Heredia, D., Pedrouso, A., Val del Río, A., Belmonte, M.,
+EFs were classified by treatment processes, the EFs were close in term of Mosquera-Corral, A., 2016. Greenhouse gases emissions from wastewater treatment
+the same process. plants: minimization, treatment, and prevention. J. Chem., 3796352 https://doi.
+org/10.1155/2016/3796352, 2016.
+By calculating the sampling error and confidence intervals, the
+CUWA, 2018. Urban Drainage Statistics Yearbook, 2018.
+sensitivity of using 38 WWTPs in Beijing as samples were analyzed. The Czepiel, P., Crill, P., Harriss, R., 1995. Nitrous oxide emissions from municipal
+sample error was 0.27. At 95% confidence, the confidence interval is wastewater treatment. Environ. Sci. Technol. 29, 2352–2356. https://doi.org/
+[5.37–0.88, 5.37 + 0.88]. Therefore, samples were sufficiently repre- 10.1021/es00009a030.
+Daelman, M., van Voorthuizen, E., van Dongen, U., Volcke, E., van Loodsdrecht, M.,
+sentative to estimate the population level. 2012. Methane emission during municipal wastewater treatment. Water Res. 46
+In summary, the uncertainty analysis results showed that the GHG (11), 3657–3670. https://doi.org/10.1016/j.watres.2012.04.024.
+emission result obtained in this study was insensitive to the assumptions Delre, A., Mønster, J., Scheutz, C., 2017. Greenhouse gas emission quantification from
+wastewater treatment plants, using a tracer gas dispersion method. Sci. Total
+made in Section 2.4.5 and this methodology is reliable. Environ. 605–606, 258–268. https://doi.org/10.1016/j.scitotenv.2017.06.177.
+Eijo-Río, E., Petit-Boix, A., Villalba, G., Su´arez-Ojeda, M.E., Marin, D., Amores, M.J.,
+4. Conclusions Aldea, X., Rieradevall, J., Gabarrell, X., 2015. Municipal sewer networks as sources
+of nitrous oxide, methane and hydrogen sulphide emissions: a review and case
+studies. J. Environ. Chem. Eng. 3, 2084–2094. https://doi.org/10.1016/j.
+◆ The GHG emissions from all municipal WWTPs in Beijing were jece.2015.07.006.
+estimated to be 1 045 611.5 t CO2-eq, with an average emission Foley, J., de Hass, D., Yuan, Z., Lant, P., 2010. Nitrous oxide generation in full-scale
+intensity of 0.603 kg CO2-eq/m3. Indirect emissions (859 295.5 t b 8i 3o 1l –o 8g 4ic 4a .l hn tu tptr si :e /n /t ore i.m oro gv /a 1l w .1a 0s 1te 6w /ja .wte ar tt rr ee sa .2tm 00e 9n .t p 0l .a 0n 3t 3s .. Water Res. 44 (3),
+d 0 1
+CO2-eq) accounted for 82% of the GHG emission, which was 4.6 Griffith, D.R., Barnes, R.T., Raymond, P.A., 2009. Inputs of fossil carbon from wastewater
+times that of direct emissions (186 366.0 t CO2-eq). treatment plants to U.S. rivers and oceans. Environ. Sci. Technol. 43, 5647–5651.
+◆ The AAO and OD processes had low direct GHG emission in- https://doi.org/10.1021/es9004043.
+Guisasola, A., de Hass, D., Keller, J., Yuan, Z., 2008. Methane formation in sewer
+tensities, while MBBR and SBR processes had high direct GHG systems. Water Res. 42 (6–7), 1421–1430. https://doi.org/10.1016/j.
+emission intensities. Different operational conditions contribute watres.2007.10.014.
+to different GHG emission and process differences must be Hakki, Güls¸en, Pelin, Yapıcıog˘lu, 2019. Greenhouse gas emission estimation for a UASB
+reactor in a dairy wastewater treatment plant. Int. J. Glob. Warming 17 (4),
+considered when calculating GHG emissions. 373–388. https://doi.org/10.1504/IJGW.2019.099802, 2019.
+◆ Different of treatment processes, treatment scales, wastewater Hakki, Güls¸en, Pelin, Yapıcıog˘lu, 2021. Minimizing greenhouse gas emissions from
+influent qualities, and wastewater discharge limits lead to leachate treatment by using zeolite column. Carbon Manag. 12 (1), 51–68. https://
+doi.org/10.1080/17583004.2021.1873693.
+different GHG emissions among cities and regional refinement
+Hwang, K., Bang, C., Zoh, K., 2016. Characteristics of methane and nitrous oxide
+must be conducted based on the IPCC method when calculating emissions from the wastewater treatment plant. Bioresour. Technol. 214, 881–884.
+GHG emissions. https://doi.org/10.1016/j.biortech.2016.05.047.
+◆ Stringent discharge limits lead to increasing GHG emissions, and IPCC, 2006. 2006 IPCC Guidelines for National Greenhouse Gas Inventories. In:
+Intergovernmental Panel on Climate Change, vol. 5. Japan. https://www.ipcc-nggip.
+climate and water environmental impacts must both be consid- iges.or.jp/public/2006gl/vol5.html.
+ered when standards are created. IPCC, 2007. In: Solomon, S., Qin, D., Manning, M., Chen, Z., Marquis, M., Averyt, K.B.,
+Tignor, M., Miller, H.L. (Eds.), Climate Change 2007: The Physical Science Basis.
+Contribution of Working Group I to the Fourth Assessment Report of the
+CRediT authorship contribution statement Intergovernmental Panel on Climate Change. Cambridge University Press,
+Cambridge, United Kingdom and New York, NY, USA, p. 996.
+Xingxuan Zhou: Data curation, Writing – original draft, Writing – IPCC, 2013. Climate Change 2013: the Physical Science Basis: Working Group I
+Contribution to the Fifth Assessment Report of the Intergovernmental Panel on
+review & editing, Visualization. Fang Yang: Writing – review & editing. Climate Change. Intergovernmental Panel on Climate Change, Cambridge, United
+Feng Yang: Writing – review & editing. Dongxia Feng: Visualization. Kingdom and New York, p. 731. https://doi.org/10.1017/CBO9781107415324.004.
+Ting Pan: Validation. Haiqing Liao: Supervision, Writing – review & IPCC, 2014. Climate Change 2014: Mitigation of Climate Change. Contribution of
+Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on
+editing, Visualization. Climate Change. Cambridge University Press, Cambridge, United Kingdom and New
+York, NY, USA.
+Declaration of competing interest Jin, L., Zhang, G., Tian, H., 2014. Current state of sewage treatment in China. Water Res.
+66, 85–98. https://doi.org/10.1016/j.watres.2014.08.014.
+Kyung, D., Kim, D., Park, N., Lee, W., 2013. Estimation of CO2 emission from water
+The authors declare that they have no known competing financial treatment plant—model development and application. J. Environ. Manag. 131,
+interests or personal relationships that could have appeared to influence 74–81. https://doi.org/10.1016/j.jenvman.2013.09.019, 2013.
+Kyung, D., Kim, M., Chang, J., Lee, W., 2015. Estimation of greenhouse gas emissions
+the work reported in this paper. from a hybrid wastewater treatment plant. J. Clean. Prod. 95, 117–123. https://doi.
+org/10.1016/j.jclepro.2015.02.032.
+Data availability Law, Y., Jacobsen, G.E., Smity, A.M., Yuan, Z., Lant, P., 2013. Fossil organic carbon in
+wastewater and its fate in treatment plants. Water Res. 47, 5270–5281. https://doi.
+org/10.1016/j.watres.2013.06.002.
+The data that has been used is confidential. Li, W., Li, L., Qiu, G., 2017. Energy consumption and economic cost of typical
+wastewater treatment systems in Shenzhen, China. J. Clean. Prod. 163, S374–S378.
+https://doi.org/10.1016/j.jclepro.2015.12.109.
+Acknowledgements Liao, X., Tian, Y., Gan, Y., Ji, J., 2020. Quantifying urban wastewater treatment sector’s
+greenhouse gas emissions using a hybrid life cycle analysis method – an application
+This work was jointly supported by the National Key Research and on Shenzhen city in China. Sci. Total Environ. 745, 141176 https://doi.org/
+10.1016/j.scitotenv.2020.141176.
+Development Plan of China (Grant number: 2019YFC0409205).
+9
+
+--- Page 10 ---
+X. Zhou et al. J o u r n a l o f C le a n e r P r o d u c t i o n 376(2022)134093
+Masuda, S., Sano, I., Hojo, T., Li, Y., Nishimura, O., 2018. The comparison of greenhouse batch reactor. Int. Biodeterior. Biodegrad. 85, 539–544. https://doi.org/10.1016/j.
+gas emissions in sewage treatment plants with different treatment processes. ibiod.2013.04.007.
+Chemosphere 193, 581–590. https://doi.org/10.1016/j.chemosphere.2017.11.018. M.o.H.a.U.D.o.t.P.s.R.o.C, 2019. China Urban-Rural Construction Statistical Yearbook
+M.o.E.a.E.o.t.P.s.R.o.C, 2020. China Power Grid Baseline Emission Factor of Emission (2017). China Statistics Press, Beijing. https://data.cnki.net/Yearbook/Single/N2
+Reduction Projects, 2020. https://www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/2020 019060083.
+12/t20201229_815386.shtml. Vasilaki, V., Massara, T.M., Stanche, P., Fatone, F., Katsou, E., 2019. A decade of nitrous
+O¨ zlem, Demir, Pelin, Yapıcıog˘lu, 2019. Investigation of GHG emission sources and oxide (N2O) monitoring in full-scale wastewater treatment processes: a critical
+reducing GHG emissions in a municipal wastewater treatment plant. Greenhouse Gas review. Water Res. 161, 392–412. https://doi.org/10.1016/j.watres.2019.04.022.
+Sci. Technol. 9, 948–964. https://doi.org/10.1002/ghg.1912, 2019. Wang, J., Zhang, J., Xie, H., Qi, P., Ren, Y., Hu, Z., 2011. Methane emissions from a full-
+Qiu, Y., Shi, H.C., He, M., 2010. Nitrogen and phosphorous removal in municipal scale A/A/O wastewater treatment plant. Bioresour. Technol. 102 (9), 5479–5485.
+wastewater treatment plants in China: a review. Int. J. Chem. Eng. 2010, 914159 https://doi.org/10.1016/j.biortech.2010.10.090.
+https://doi.org/10.1155/2010/914159. Wang, H., Yang, Y., Keller, A., Li, X., Feng, S., Dong, Y., Li, F., 2016. Comparative
+Ramírez-Melgarejo, M., Reyes-Figueroa, A.D., Gasso´-Domingo, S., Güereca, L., 2020. analysis of energy intensity and carbon emissions in wastewater treatment in USA,
+Analysis of empirical methods for the quantification of N2O emissions in wastewater Germany, China and South Africa. Appl. Energy 184, 873–881. https://doi.org/
+treatment plants: Comparison of emission results obtained from the IPCC Tier 1 10.1016/j.apenergy.2016.07.061.
+methodology and the methodologies that integrate operational data 747, 141288. Wang, Y., Fang, H., Zhou, D., Han, H., Chen, J., 2016. Characterization of nitrous oxide
+https://doi.org/10.1016/j.scitotenv.2020.141288. and nitric oxide emissions from a full- scale biological aerated filter for secondary
+Ren, Y.G., Wang, J.H., Li, H.F., Zhang, J., Qi, P.Y., Hu, Z., 2013. Nitrous oxide and nitrification 299, 304–313. https://doi.org/10.1016/j.cej.2016.04.050.
+methane emissions from different treatment processes in full-scale municipal Xi, J., Gong, H., Zhang, Y., Dai, X., Chen, L., 2021. The evaluation of GHG emissions from
+wastewater treatment plants. Environ. Technol. 34 (21), 2917–2927. https://doi. Shanghai municipal wastewater treatment plants based on IPCC and operational
+org/10.1080/09593330.2012.696717. data integrated methods (ODIM). Sci. Total Environ. 797, 148967 https://doi.org/
+Ross, B., Lancellotti, B., Brannon, E., Loomis, G., Amador, J., 2020. Greenhouse gas 10.1016/j.scitotenv.2021.148967.
+emissions from advanced nitrogen-removal onsite wastewater treatment systems. Yan, X., Li, Lin, Liu, J., 2014. Characteristics of greenhouse gas emission in three full-
+Sci. Total Environ. 737, 140399 https://doi.org/10.1016/j.scitotenv.2020.140399. scale wastewater treatment processes. J. Environ. Sci. 26, 256–263. https://doi.org/
+Shi, C., Tian, Y., Huang, H., Wang, S., Jiao, B., Xie, X., 2021. Summary of researches on 10.1016/S1001-0742(13)60429-5.
+accounting methods of carbon emissions from urban sewage treatment. Construct. Yapıcıog˘lu, P &Demir O¨ zlem, 2020. Environmental performances of the wastewater
+Sci. Technol. 431, 39–43. https://doi.org/10.16116/j.cnki.jskj.2021.11.008. treatment plants: green Index. (2020). Int. J. Glob. Warming 21 (1), 1–19. https://
+Shrestha, A., Bhattarai, T.N., Ghimire, S., Mainali, B., Treichel, H., Paudel, S.R., 2022. doi.org/10.1504/IJGW.2020.107864.
+Estimation of greenhouse gases emission from domestic wastewater in Nepal: a Yapıcıog˘lu, P., 2021. Minimization of greenhouse gas emissions from extended aeration
+scenario-based analysis applicable for developing countries. Chemosphere 300, activated sludge process. Water Pract. Technol. 16 (1), 96–107.
+134501. https://doi.org/10.1016/j.chemosphere.2022.134501. Yoshida, H., Mønster, J., Scheutz, C., 2014. Plant-integrated measurement of greenhouse
+Sun, S., Cheng, X., Liu, Y., Sun, D., 2013. Influence of operational modes and aeration gas emissions from a municipal wastewater treatment plant. Water Res. 61,
+rates on N2O emission from urban sewage treatment using a pilot-scale sequencing 108–118. https://doi.org/10.1016/j.watres.2014.05.014.
+10

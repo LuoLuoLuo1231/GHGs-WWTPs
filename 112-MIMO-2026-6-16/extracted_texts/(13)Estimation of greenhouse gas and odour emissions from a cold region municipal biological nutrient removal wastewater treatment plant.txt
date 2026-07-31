@@ -1,0 +1,676 @@
+--- Page 1 ---
+JournalofEnvironmentalManagement281(2021)111864
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: http://www.elsevier.com/locate/jenvman
+Research article
+Estimation of greenhouse gas and odour emissions from a cold region
+municipal biological nutrient removal wastewater treatment plant
+Mohsen Asadia, Kerry McPhedranb,*
+aPh.D. Candidate, Department of Civil, Geological & Environmental Engineering, University of Saskatchewan, Saskatoon, Saskatchewan, Canada
+bAssociate Professor, Department of Civil, Geological & Environmental Engineering, University of Saskatchewan, Saskatoon, Saskatchewan, Canada
+A R T I C L E I N F O A B S T R A C T
+Keywords: Seasonal temperature variations in cold regions worldwide lead to variable gas emissions from municipal
+Municipal wastewater wastewater treatment plants (MWTPs) due to changing wastewater temperatures in open-to-air treatment pro-
+Biological nutrient removal (BNR) system cesses. The objective of this study was to determine the greenhouse gas (including carbon dioxide, CO2; methane,
+Greenhouse gas (GHG) and odour emission rate
+CH4; and nitrous oxide, N2O) and odour (including ammonia, NH3; and hydrogen sulphide, H2S) emission rate
+estimates (EREs)
+estimates (EREs) from the open-to-air processes of a biological nutrient removal (BNR) type MWTP in Saskatoon,
+SK, Canada. This MWTP experiences seasonal temperatures from (cid:0) 40 ◦C to 30 ◦C with the resultant wastewater
+temperatures considered herein of 13 ◦C and 17 ◦C being chosen based on monitoring data for winter and
+summer, respectively. Laboratory-scale reactors simulating anaerobic, anoxic, aerobic, and settling treatment
+processes were used to monitor gas EREs using wastewater samples taken from the analogous MWTP processes
+during the winter and summer seasons. Results indicated that the overall winter EREs for CO2, CH4, and N2O
+were 45,129 kg CO2/d, 21.9 kg CH4/d, and 3.20 kg N2O/d, respectively, while the H2S EREs were insignificant.
+The higher temperature for the summer samples resulted in increased EREs for CH4, N2O, and H2S EREs of 33.0
+kg CH4/d, 3.87 kg N2O/d, and 2.29 kg H2S/d, respectively. However, the CO2 EREs were reduced to 37,794 kg
+CO2/d. Overall, the aerobic reactor was the dominant source of the GHG emissions for both seasons. In addition,
+studied changes in the aerobic reactor aeration rates (in reactor) and BNR treatment configurations (from site)
+further impacted the EREs.
+1. Introduction methane, CH4; and nitrous oxide, N2O) and odourous gases (e.g.,
+ammonia, NH3; and hydrogen sulphide, H2S). In particular, greenhouse
+Human population growth, coupled with increasing urbanisation, gases (GHGs) have become of increasing interest over the past decade
+has led to ever-increasing demands for potable water with subsequent for policymakers, environmental authorities, and decision-makers due
+increases in municipal wastewaters resulting in significant challenges to their negative environmental impacts (Agus et al., 2012; Hofman
+for wastewater collection, treatment, and management (Hofman et al., et al., 2011; Wang et al., 2011b). For example, the Canadian govern-
+2011). Municipal wastewater treatment plants (MWTPs) use combina- ment’s commitment to the Paris Agreement has resulted in the offering
+tions of treatment processes to produce environmentally safe effluents of carbon pricing incentives encouraging industries, such as the MWTPs,
+that meet regulatory limits before discharging to receiving environ- to capture GHGs (Environment and Climate Change Canada, 2017).
+ments. The Biological Nutrient Removal (BNR) type MWTP is becoming While MWTPs are typically efficient at meeting wastewater treatment
+more popular due to its ability to remove nitrogen (N), phosphorous (P), guidelines/regulations, GHG and odour emissions are not generally
+and dissolved organic matter from wastewaters using combinations of considered in the MWTP design process and are not currently subjected
+anaerobic, anoxic, and aerobic processes with each allowing for favor- to emissions regulations.
+able conditions for the growth of a large variety of microorganisms The assessment of GHG and odour emissions from MWTPs is needed
+(Tchobanoglous et al., 2003; USEPA, 2007). However, as with all to identify the fugitive gas emissions, especially from the open-to-air
+MWTPs, the microorganism activity in the BNR process results in the processes, and to determine if suitable mitigation measures need to be
+generation and emission of greenhouse gases (e.g., carbon dioxide, CO2; implemented. In particular for BNR systems, the nitrogen removal
+* Corresponding author. RM 1A13, Engineering Building, University of Saskatchewan, 57 Campus Dr, Saskatoon, SK S7N 5A9, Canada.
+E-mail address: Kerry.mcphedran@usask.ca (K. McPhedran).
+https://doi.org/10.1016/j.jenvman.2020.111864
+Received 30 August 2020; Received in revised form 14 November 2020; Accepted 16 December 2020
+Availableonline29December2020
+0301-4797/©2020ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+process results in N2O emissions that are of concern given their treatment process configurations. This laboratory-based research fol-
+approximate greenhouse effect being 265 times higher than that of CO2 lows upon our previous SWTP modeling study in which biogas pro-
+(Law et al., 2012; Massara et al., 2017b). In 2006, the Intergovernmental duction rates were estimated for the SWTP anaerobic digesters using
+Panel on Climate Change (IPCC) highlighted GHG emissions from data-driven approaches (Asadi et al., 2020).
+wastewater treatment as a potential air quality issue and proposed a
+recommendation for approximating an N2O emission rate estimate 2. Materials and methods
+(ERE) of 0.035% (by mass) of the influent total Kjeldahl nitrogen (TKN)
+(Garg et al., 2006). However, several studies have been conducted to Fig. 1 shows a schematic flowchart of the study methodology for
+assess the accuracy of this recommendation and reported large dis- determination of GHG and odour EREs from the open-to-air treatment
+crepancies between the IPCC’s emission factors and their study findings. processes at the SWTP (shown in Fig. 2a) given variable wastewater
+For instance, Lim and Kim (2014) developed a sealed batch-reactor temperatures, DO concentrations, and BNR configurations. The
+set-up simulating a BNR system and reported an N2O ERE of 0.8% of following sections will include an overview of the SWTP (Section 2.1),
+the influent TKN which is more than an order of magnitude higher than the BNR configurations (Section 2.2), and the experimental design
+the IPCC ERE (Lim and Kim, 2014). Interestingly, Rodríguez-Caballero (Section 2.3).
+et al. (2014) employed field monitoring to evaluate the impact of MWTP
+operating parameters on GHG emissions from an activated sludge-type 2.1. Saskatoon Wastewater Treatment Plant (SWTP) overview
+MWTP and found a high correlation between N2O ERE and both the
+activated sludge aeration rate and influent nitrogen load (Rodrí- The SWTP is a BNR-type plant located in Saskatoon, SK, Canada that
+guez-Caballero et al., 2014). Clearly, a single estimate for the N2O ERE is serves the entire city of approximately 273,000 people and has a
+not suitable for approximations for all MWTP facilities and parameters maximum treatment capacity of 300,000 m3/d. The SWTP is subjected
+other than influent TKN may be useful in determining more accurate to a wide range of seasonal temperatures with highs above 30 ◦C in
+EREs. summer months and lows below (cid:0) 40 ◦C in winter months. Although
+Variables impacting the efficiency of wastewater treatment, in wastewater flows to the SWTP below ground, once at the plant much of
+addition to the resultant GHG and odour EREs, throughout the MWTP the wastewater flow is outdoors resulting in average monitored tem-
+process may include the MWTP operating parameters (e.g., aeration peratures of 13 ◦C and 17 ◦C in winter and summer, respectively. The
+rates), temperature variability (e.g., local seasonal climate), and the SWTP treatment process train includes an extensive variety of treatment
+combination of treatment processes (e.g., BNR reactor configuration). processes, such as a grit and screen facility, clarifiers, fermenters, dis-
+Typical important operating parameters considered in GHG and odour solved air flotation (DAF) thickener, BNR systems (Fig. 2b and c), ul-
+EREs studies for MWTPs include temperature (T), hydraulic retention traviolet disinfection system, nutrient recovery facility, and anaerobic
+time (HRT), dissolved oxygen (DO), chemical oxygen demand (COD) or digesters (City of Saskatoon, 2018). An average of 93,000 m3/d raw
+biological oxygen demand (BOD), and TKN or total nitrogen (TN) con- wastewater enters the SWTP flowing through the covered grit and screen
+centrations (Asadi et al., 2020; Law et al., 2011; Massara et al., 2017a; chambers into the primary clarifiers for removal of solid particulates and
+Mikosz, 2016; Ren et al., 2015; Wang et al., 2011a). Some of the oper- floating scum. The primary effluent is then directed to the BNR bio-
+ating parameters are readily adjusted by the MWTP operators such as reactors that were initially designed to be duplicate, parallel treatment
+DO via aeration rates. Alternatively, MWTPs located in areas with large processes (Fig. 1b). The bioreactors are supplied with 93,000 m3/d re-
+seasonal temperature variations will also show variability in wastewater turn activated sludge (RAS) and 3,000 m3/d fermenter supernatant (FS)
+(cid:0)
+temperatures throughout the year which cannot be easily adjusted, to provide volatile fatty acids (VFAs), volatile solids (VS), nitrite (NO2),
+(cid:0)
+while also potentially having a high impact on EREs (Han et al., 2018). and nitrate (NO3), and microorganisms. Following the bioreactors,
+Lastly, the variability in MWTP design also influences both the efficiency about 189,000 m3/d of biologically-treated wastewater travels to the
+of the wastewater treatment and the EREs (Massara et al., 2017b). For secondary clarifiers with resulting secondary effluents with the flow rate
+example, the BNR treatment process can be conducted with varying of 89,700 m3/d being discharged to the ultraviolet disinfection building
+process configurations, and resultant efficiencies, such as the two con- prior to release to the South Saskatchewan River (SSR). Fig. 2a indicates
+figurations considered in the current study. the approximate sampling locations at SWTP’s open-to-air treatment
+Overall, the accuracy of the GHG and odour EREs from MWTPs has facilities that were anticipated to be emission sources for GHGs and
+not been adequately assessed in the literature, especially in consider- odour compounds including the two BNR systems (bioreactors), primary
+ation of impacts of dissolved oxygen and seasonal temperature varia- clarifiers, and secondary clarifiers.
+tions for cold region MWTPs worldwide such as those located in the
+Canadian prairie provinces. In addition, to our knowledge there has 2.2. Biological nutrient removal (BNR) configurations
+been no simultaneous study of GHG and odour EREs from a cold region
+MWTP with various BNR designs to assess the relationship between The two BNR treatment process streams provide about 9 h of
+wastewater quality parameters and EREs. Thus, the main objective of wastewater retention time accomplishing biological treatment via
+this study was to advance the knowledge of GHG (CO2, CH4, and N2O) anaerobic, anoxic, and aerobic processes. Fig. 2b indicates the original
+and odour (H2S and NH3) emissions from the open-to-air treatment BNR configuration used at the SWTP for both streams utilizing an
+processes at the Saskatoon Wastewater Treatment Plant (SWTP). The anaerobic-anoxic-aerobic reactor arrangement. The anaerobic reactor is
+SWTP is a state-of-the-art MWTP and a Class IV treatment facility in an oxygen-free environment receiving primary effluents, an internal
+Canada which was selected as a case study given its highly variable recycle from the anoxic reactor, and FS. In the anaerobic process,
+seasonal temperatures from (cid:0) 40 ◦C to 30 ◦C. This research included complex compounds such as polyphosphate molecules are broken down
+laboratory reactor assessments of sampled wastewaters for GHG and into phosphorous and leading to the production of energy. Phosphate-
+odour emissions, in conjunction with monitoring operating parameters Accumulation Organisms (PAOs) use this energy to convert VFAs to
+of each treatment process, to: (1) determine GHG, NH3, and H2S EREs poly-hydroxyalkanoates (PHAs). The anoxic reactor receives the
+from the open-to-air treatment processes including aerobic, anoxic, and anaerobic reactor discharge, RAS, and internal recycle from the aerobic
+anaerobic reactors, and primary and secondary clarifiers; (2) evaluate reactor for completing the denitrification process. Oxygen in the anoxic
+the seasonal operating temperature (using 13 ◦C for winter and 17 ◦C for reactor is available through the degradation of chemical compounds
+(cid:0) (cid:0)
+summer based on SWTP recorded water temperatures) impacts on the such as NO2 and NO3. The denitrification process is conducted by het-
+(cid:0)
+EREs; (3) assess the impacts of variable DO concentrations on the EREs; erotrophic and autotrophic bacteria to biologically reduce NO3 to nitric
+and (4) compare two parallel BNR treatment processes having different oxide (NO), N2O, and then, nitrogen gas (N2). The anoxic reactor
+2
+
+--- Page 3 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+Fig. 1. Schematic flow chart of the study methodology for the determination of greenhouse gas (GHG) and odour estimated emission rates (EREs) from the open-to-
+air treatment facilities at the Saskatoon Wastewater Treatment Plant (SWTP) given the variability of dissolved oxygen (DO) concentrations, temperature, and
+biological nutrient removal (BNR) configuration design. Note: TPOP =treatment process operating parameters.
+Fig. 2. (A) Saskatoon Wastewater Treatment Plant
+(SWTP) facility layout. Bioreactors include anoxic
+(AX), anaerobic (AN) and aerobic (AE) processes in
+different basins. The orange squares represent the
+approximate sampling locations used for acquiring
+samples used in study experiments; Two biological
+nutrient removal (BNR) treatment process configura-
+tions were in use at the SWTP including: (B) an
+anaerobic-anoxic-aerobic process; and (C) an anoxic-
+anaerobic-anoxic-aerobic process. Note: WASSTRIP
+= Waste Activated Sludge Stripping to Recover In-
+ternal Phosphate; RAS =return activated sludge; FS
+=fermenter sludge. (For interpretation of the refer-
+ences to colour in this figure legend, the reader is
+referred to the Web version of this article.)
+(cid:0)
+effluent flows to the aerobic reactors where PAOs utilise PHAs and NO3 concentration in the anaerobic reactor by positioning an anoxic
+phosphorous complexes, and autotrophic bacteria complete the nitrifi- reactor as the first stage of biological treatment. In addition to this new
+(cid:0) (cid:0)
+cation process via oxidising NH3 to NO2 and, then NO3. The aerobic anoxic stage, the DO concentration in the aerobic reactor varied be-
+reactors are aerated to keep the DO concentration at 1.5 mg/L in winter tween 2.0 mg/L in the initial zones to 1.0 mg/L in the final last zone
+months and 2.0 mg/L in summer months based on treatment perfor- resulting in an average concentration of 1.5 mg/L for all seasons in this
+mance monitored by SWTP staff. configuration. These initial and updated BNR treatment process steams
+Recently, one of the SWTP’s BNR treatment process streams was were employed for the assessment of GHG and odour EREs.
+altered by SWTP staff to an anoxic-anaerobic-anoxic-aerobic arrange-
+ment in an effort to increase the nutrient removal efficiency (Fig. 2c).
+(cid:0) 2.3. Experimental setup for gas EREs from the open-to-air facilities
+The NO3 reduction process in the anoxic reactor and biological phos-
+phorus removal process by PAOs in the anaerobic reactor are dependent
+Fig. 3 shows the experimental setup of the batch-reactors designed to
+on the presence of VFAs for metabolism (Thomas et al., 2003). In this
+simulate the aerobic, anaerobic, anoxic reactors, and primary and sec-
+updated configuration, the operators were attempting to decrease the
+ondary clarifiers for use in generation and determination of GHG and
+3
+
+--- Page 4 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+USA).
+For aerobic reactors, an aerobic environment was created by mixing
+the wastewater via magnetic stirrers and pumping air into the reactor at
+various rates to keep the DO concentrations between 1.0 and 2.0 ppm
+which is the typical DO range in the aeration reactors of the SWTP. For
+anaerobic and anoxic reactors, the reactors’ wastewaters were mixed by
+a magnetic stirrer, and nitrogen gas (N2) was pumped into the reactor
+headspaces to carry the produced gases into the gas analyser. The
+clarifier reactors were left unstirred and subjected to N2 pumping of the
+reactor headspaces to facilitate the gas analysis. The GHGs and odourous
+gas samples were taken every 30 min for first 2 h, then every 2 h until the
+8th hour, and finally at the 24th hour of the experimental runs (n =9
+samples for each experimental run). The H2S and NH3 concentrations
+were analysed using a Gas Alert Micro 5 (Honeywell, USA) which was
+calibrated to measure 0–500 ppm with a resolution of 0.1 ppm. Gas
+samples for GHG analyses were taken by gas-tight syringes placed
+downstream of the reactor and transferred to pre-evacuated 12 mL
+Exetainer vials (LabCo Inc., High Wycombe, UK) to be analysed by gas
+chromatography (Scion 456-GC, Bruker Daltonics Inc., USA). The CO2,
+CH4, and N2O concentrations were measured using the GC coupled with
+a thermal conductivity detector (TCD), flame ionizer detector (FID), and
+an electron capture detector (ECD), respectively.
+The air and N2 pumping rates into the reactors were controlled by
+valves and continuously monitored by airflow meters positioned before
+and after each reactor. The EREs from each of the reactors were deter-
+mined using the monitored off-gas flowrate and measured GHG, H2S and
+NH3 concentrations. Thus, the total EREs for each process at the SWTP
+were computed using the reactor EREs as follows (Lim and Kim, 2014):
+/
+ERE=10(cid:0)6×ERE reactor×HRT×WFR V reactor (1)
+where, ERE =estimated emission rate from the actual SWTP treatment
+process (kg/d); EREreactor = monitored gas emission rate from the
+reactor (mg/min); HRT = hydraulic retention time of the treatment
+process (min); WFR = wastewater flow rate of the treatment process
+(m3/d); and Vreactor = working volume of the batch reactor (m3)
+(Table S1). Subsequently, the EREs from the actual SWTP treatment
+process in terms of influent wastewater flow rate (EREv) were calculated
+Fig. 3. Schematic experimental setup of batch reactors used to estimate via:
+greenhouse gas (GHG) and odour emissions for simulation of: (a) aerobic re- ERE v=ERE/WFRinflux (2)
+actors; (b) anaerobic and anoxic reactors; and (c) primary and second-
+ary clarifiers. where, WFRinflux =influent wastewater flow rate (m3/d).
+odour emissions. Overall, wastewater samples were collected on 22
+3. Results and discussion
+separate occasions from November 2018 through September 2019 from
+the various reactors at the SWTP (Fig. 2a) with further sample details
+3.1. SWTP operating parameters
+outlined in the Supporting Information (SI) including Figure S1. Samples
+were transported to the Environmental Engineering laboratories at the
+The SWTP monitored operating parameters of anaerobic, anoxic, and
+University of Saskatchewan and directly used in experimental runs
+aerobic reactors, and primary and secondary clarifiers for the winter
+without storage.
+(2018 and 2019) and summer (2019) seasons included pH, EC, COD,
+worT kh ine t h vr oe le m5 L ogl fa 3s .s r e La c seto ar ls dfo r nea dc mh ae ix np te ar ii nm eden at ta 1l 3ru ◦n w ae nr de 1fi 7ll ◦e Cd it no a dT eO tC er, mN iO ne2(cid:0) d, N wO it3(cid:0) h, N veH r4+ ag, eP O w43 a(cid:0) st, ea wn ad eS rO t42 e(cid:0) m( pT ea rab tl ue rS e2 ) o. fT 1h 3e ◦s Ce av na dlu 1e 7s w ◦Ce r ine
+g u e 0 , e , a C a
+a t s
+controlled temperature chamber to simulate the actual SWTP waste-
+the winter and summer, respectively, which were the temperatures used
+water temperatures for the winter and summer, respectively (see SI for
+for all laboratory experiments in the current study. Each of these pa-
+further details). The reactor’s wastewater was sampled (100 mL) by
+rameters are briefly discussed in the current section, while also being
+syringes placed in the reactor caps every 2 h from 0 to 8 h and at the 24th
+used for discussion in subsequent sections. These parameters and the
+hour of the experimental runs. Samples were analysed based on the
+remaining experimental results will be used in a future study for further
+Standard Methods for the Examination of Water and Wastewater
+development of data-driven models describing gas emissions from this
+(American Public Health Association (APHA) Water Environment
+cold region SWTP BNR (Asadi et al., 2020).
+Federation (WEF), 2005) including: temperature (T) and pH (Thermo
+Overall, the average pH values in the winter ranged from pH 7.3 to
+Scientific Orion Star A111, USA); electrical conductivity (EC) (HACH®,
+7.9 and in the summer from pH 7.2 to 7.3 (Table S2). The largest vari-
+USA); COD (HACH DR/4000U Spectrophotometer, USA); total organic
+ation in pH occurred for the primary and secondary clarifiers with
+carbon (TOC) (LOTIX Combustion Analyser, Canada); ammonium
+p(N hH at4+ e) (( PH OA 43(cid:0)C )H ND OR 2(cid:0)/4 0 a0 n0 dU S Op 3(cid:0)ec (btr yo p ioh no t co hm roe mter a) t; gsu ralp ph ha yt ,e ( hS eO r42 m(cid:0) o); Sp ch ieo ns- w loei wsn et ee rcr miv va cl lu oe s io lf p aiH i7 vre. i9 sa ln ed d7 i. n9 na tn ohd rs ewu dm cm eee drr av coa il du ie cs o of ap pH u7 .3 a gn etd 7 r. h2 -,
+r p t ie ry . T ah e cn tc ta e d ap H i t e i un t m n t h s m y ob e d u e no t ae
+; , N o T -
+b y g c m n d e
+tific, Dionex Integrion HPIC, San Jose, CA, USA); and DO (YSI 5100,
+tion, thus increased pH (He et al., 2012; Larson and Henley, 1955).
+4
+
+--- Page 5 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+Similarly, the EC range for winter was 1,234 to 1,421 μs/cm and for information for correlations between the measured wastewater param-
+summer was 1,313 to 1,583 μs/cm for all reactors and clarifiers. Pre- eters and gases are available in the SI including primary clarifiers
+viously it has been indicated that wastewater dissolved solids, repre- (Table S3); anaerobic reactors (Table S4); anoxic reactors (Table S5);
+sented herein by EC, could impact treatment processes with increased and aerobic reactors (Table S6). No significant correlations for the sec-
+EC resulting in increased GHG generations and emission (Tsuneda et al., ondary clarifier were found.
+2005). Thus, the increased EC for the summer months in the current
+study would indicate higher emissions during these months which aligns 3.2.1. CO2 emission
+well with the laboratory reactor results discussed in the following sec- Fig. 4a shows the total CO2 EREs for the open-to-air treatment pro-
+tions. In comparison, the COD and TOC concentrations showed greater cesses were 45,129 kg CO2/d (485 gCO2/m3) for the 13 ◦C experiments
+variability between the treatment processes with no clear trends be- and 37,794 kg CO2/d (406 gCO2/m3) for the 17 ◦C experiments. The
+tween the winter and summer data ranges. dominant CO2 emission source was the aerobic reactor with EREs of
+The majority of the nitrogen in all processes was found in the form of 30,593 kg CO2/d (329 gCO2/m3) in winter and 21,274 kg CO2/d (229
+NH4+ concentrations with typically higher values in the winter months at gCO2/m3) in summer. The higher EREs in the aerobic reactor would be
+21.1–35.1 mg/L versus the summer months at 1.61–31.0 mg/L expected given its increased aeration rate (and subsequent agitation),
+(cid:0) (cid:0)
+(Table S2). In contrast, the NO2 and NO3 concentrations were found to microbial respiration, and microbial decomposition of organic matter by
+be significantly lower with many samples being below detection limits. organisms such as nitrifiers and PAOs (Bao et al., 2016; Czepiel et al.,
+The higher concentrations in the winter months would indicate more 1993; Krasner et al., 2009; Ren et al., 2015; Yan et al., 2014). Similarly,
+limited creation of N2O and lower EREs which is in agreement with the previous researchers have been reported that the aerobic processes of
+PO43(cid:0) SO42(cid:0)
+EC results. Both the and concentrations in all treatment other MWTPs were also the primary CO2 emission sources (Table 1). For
+processes were higher in summer months with ranges of 7.50–97.5 mg/L example, Czepiel et al. (1993) studied the Durham MWTP activated
+and 224–382 mg/L, versus 2.5–92.8 mg/L and 124–201 mg/L, respec- sludge process having a treatment capacity of 4,000 m3/d with a re-
+tively. The PO43(cid:0) concentration increasing in the anaerobic and anoxic ported CO2 ERE of 335 g CO2/m3 which was attributed mainly to
+processes, and decreasing in the aerobic process, indicates the phos- emissions from the aerobic reactor. Furthermore, it was reported that
+phorous release and consumption by the active microorganisms in bio- the CO2 ERE from secondary treatment processes was not correlated
+logical phosphorous removal process (Tchobanoglous et al., 2003). In with wastewater temperature given lower influent wastewater flow
+SO42(cid:0)
+addition, is a well-established sulphur-based and rates and organic loads due to seasonal population fluctuations in the
+temperature-sensitive compound in wastewater (Talaiekhozani et al., area (lower in summer) (Czepiel et al., 1993). More recently, Bao et al.
+2016), and its higher summer months concentrations can be attributed (2016) monitored an anoxic-oxic process MWTP with a treatment ca-
+to increased sulphate reduction by sulphate-reducing bacteria in the pacity of 443,000 m3/d over 12 months and found that the CO2 ERE of
+anaerobic environments (USEPA, 1985). aerobic process varied between 86.0 and 347 g CO2/m3 (Bao et al.,
+2016).
+3.2. GHG and odour EREs Statistical analysis of the various monitored MWTP parameters for
+the aerobic reactor showed the HRT and DO concentration were highly
+Fig. 4 presents the results of the calculated average EREs for the correlated to CO2 emissions (p ≤0.01; Table S6) indicating that a longer
+primary clarifiers; anaerobic, anoxic, and aerobic reactors; and sec- hydraulic retention time and increased DO availability resulted in
+ondary clarifiers at the SWTP for gases of interest including CO2 higher CO2 EREs. The CO2 was also correlated to other measured gases
+(Fig. 4a), CH4 (Fig. 4b), N2O (Fig. 4c), and H2S (Fig. 4c) at the tem- including CH4 and N2O (p ≤0.01). In addition, and TOC and PO43(cid:0) were
+peratures of 13 ◦C (blue bars) and 17 ◦C (red bars). An overview of the also correlated (p ≤0.05) to higher CO2 EREs which would be expected
+current GHG EREs in comparison to available literature values for other for TOC given higher carbon availability would allow for higher CO2
+PO43(cid:0)
+MWTPs is shown in Table 1. Fig. 4 and Table 1 information will be used production. The increase with may be attributed to more favorable
+for the discussion in the following sub-sections. In addition, statistical bacterial conditions allowing for higher metabolism (Tchobanoglous
+Fig. 4. Average emission rate estimates (EREs) from
+the primary (PR) and secondary (SC) clarifiers, and
+aerobic (AE), anaerobic (AN) and anoxic (AX) reactors
+at the SWTP for gases including: (a) CO2; (b) CH4; (c)
+N2O; and (d) H2S. The blue and red bars indicate the
+EREs determined at temperatures of 13 ◦C and 17 ◦C,
+respectively. Note that error bars represent standard
+errors with clarifiers: n =9 (9 gas samples for a single
+experimental run); and bioreactor tanks: n =27 (9 gas
+samples for 3 separate experimental runs).. (For
+interpretation of the references to colour in this figure
+legend, the reader is referred to the Web version of
+this article.)
+5
+
+--- Page 6 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+Table 1 et al., 2003).
+An overview of the greenhouse gas (GHG) emission rate estimates (EREs) for The temperature increase from summer vs. winter experimental
+literature municipal wastewater treatment plants (MWTPs) in comparison to the conditions resulted in increased CO2 EREs from the primary clarifiers,
+current study results. anaerobic reactors, and anoxic reactors with average values of 1,341,
+References Treatment facilities Operating GHG EREs 4,729, and 5,597 kg CO2/d, respectively (Fig. 4a). In contrast, CO2 EREs
+parameters from the aerobic reactors and secondary clarifiers decreased to values of
+Current study BNR unit with Flow = Winter: 21,274 kg CO2/d and 4853 kg CO2/d, respectively. The CO2 generation
+anaerobic, anoxic, 93,000 m3/ 485 g CO2/m3 and emission from MWTPs typically originates from fossil and biogenic
+and aerobic reactors d pH =7.5 0.235 g CH4/m3 carbons (Garrido-Baserba et al., 2015; Pachauri et al., 2014; Schneider
+to biologically EC =1500 μs/ 0.034 g N2O/m3
+et al., 2015), and an increase in temperature would result in higher
+remove N and P cm Summer:
+COD =333 406 g CO2/m3 microbial activities (especially in the aerobic process) leading to a de-
+mg/L 0.354 g CH4/m3 mand for more accessible carbon sources, such as biogenic CO2, for
+TOC =45.2 0.042 g N2O/m3 metabolic processes (Caniani et al., 2015; LaPara et al., 2001; Zheng and
+m mHg g/ /4þL L thi, 2 i0 n0 cr9 e; aZ sh edo u ae rt a ol n., c2 o0 n1 s5 u) m. T ph tiu os n, ,t e am ndp e sr ua bt su er qe i en nc tr e ra es de us c eo du Cld l 2e a Ed Eto
+N =33.1
+e c b u c O R s
+L
+PO43¡=6.77 (Ren et al., 2015), from the current aerobic reactors and secondary
+mg/L clarifiers. In contrast, the increased metabolism may have resulted in
+SO42¡=253
+increased metabolic activities, with resultant increases in CO2 EREs, in
+mg/L
+Czepiel et al. Activated sludge T =20 ◦C 335 g CO2/m3 the remaining treatment processes which have reduced microbial con-
+(1993, 1995) process BOD =250 0.340 g CH4/m3 centrations in colder temperatures.
+mg/L 0.032 g N2O/m3
+Flow =3013 3.2.2. CH4 emission
+m3/d.
+Fig. 4b shows the average CH4 EREs from the open-to-air facilities
+Fo (l 2ey 1e 0t )a l. 7 ed si if gf ne ere dn ft M rW emTP os v, Not available N (i)2 O f ro er f oa vc ail li =ties: with a summed total of 21.9 kg CH4/d (0.235 g CH4/m3) at a winter
+0 d o r a l N m
+of N and P 0.6%–25.3% of temperature of 13 ◦C, and 33.0 kg CH4/d (0.35 g CH4/m3) at a summer
+Ninfluent temperature of 17 ◦C. As for the CO2, the main source of CH4 emissions
+( ri ei m) N a an d P in the winter was the aerobic reactor with an ERE of 11.4 kg CH4/d ac-
+ov l = 0 .18%
+counting for greater than 50% of the total emissions. In contrast, the
+of Ninfluent
+Daelman et al. Plug-flow activated T =11–21 ◦C 3.32 g CH4/m3 summer emissions were more evenly distributed between the processes
+(2013) sludge system for N DO ¼0–1.5 1.60 g N2O/m3 with a range of EREs from 6.02 to 9.88 kg CH4/d other than the sec-
+removal mg/L ondary clarifiers which had negligible EREs overall. The low CH4
+COD =339 emissions from the secondary clarifiers was expected given their low
+mg/L
+TKN =41 mg/ turbulence environments and their receiving the aerobic effluents hav-
+L ing limited residual dissolved CH4 (Bao et al., 2016; Ren et al., 2013).
+P =6 mg/L Overall, the aerobic reactor had the highest EREs given the stripping of
+Yo (s 2h 0i 1d 4a )e t al. A sen mo ix -i bc a tcn hd ra ee ar co tb oi rc T = 1 m.7 3–31.9 g CH4/ dissolved CH4 contained in the aerobic influent due to both its elevated
+a s 11 .3–14.9 ◦C 3
+temperature and mechanical aeration/agitation (Daelman et al., 2012;
+DO =1–2 mg/ 0.128–3.63 g N2O/
+L m3 Heffernan et al., 2012; Rodríguez-Caballero et al., 2014). However, the
+Flow = temperature increase for the summer experiments would be expected to
+69,315 m3/d result in greater microbial activities, and subsequent CH4 generation and
+Bao et al. (2016) Primary clarifier, T =19 ◦C pH 87.0–348 g CO2/ emission, from the other processes including the primary clarifiers,
+anoxic and oxic =7.6 m3 0.137–917 g
+reactors, and COD =365 CH4/m3 anaerobic reactors, and anoxic reactors.
+secondary clarifier. mg/L 0.132–1.71 g N2O/ Statistical analysis for all four of the relevant processes for CH4
+NH4þ=37.9 m3 emissions indicated that CH4 was correlated with CO2 emissions and
+mg/L HRT (p >0.01; Tables S3, S4, S5, S6). In addition, CH4 was correlated
+T N =49.5 mg/ PO43(cid:0)
+with other parameters including N2O, TOC, and for the anaerobic,
+L
+Wang et al. BNR facility Ambient T = 0.010–1.032 g anoxic, and aerobic reactors (p > 0.01: Tables S4, S5, and S6). The
+(2016) including anaerobic, 13–34 ◦C N2O/m3 physical environment characterised by the temperature and pH were
+anoxic, and aerobic Flow = significantly correlated to CH4 EREs for the anaerobic and anoxic re-
+reactors to 48,000 m3/d actors (p ≤ 0.01; Table S4, S5) indicating that a warmer and more
+b Ni o al no dg i Pca lly remove H 7 D. OR 7–T =1 = 0 0.3 h n ree au ct tr oa rl e tn hv ei r ro en sm ule tsn t h( op wH ̴ a7 h) il ge hd ct oo rla er lag te ir nC H be4 twER eeE ns. NF Hor 4+ th ane da n So Ox 42i (cid:0)c
+.6 – 6.0 , s r o
+mg/L concentrations with CH4 ERE (p ≤0.01; Table S5). Previous studies have
+COD = indicated that high free NH4+ might lead to NO2(cid:0) accumulation and
+100–300 mg/L
+N mH g/4þ =10–30 2su 0b 0s 9e ;q Wue an nt gly e i tn ah li .b , i 2te 0d 1 1C aH );4 ap nr do d thu ec t Sio On 42 (cid:0)an cd o ne cm enis ts ri ao tn io ( nG iu nt ci re er are siz n e gt inal . a,
+L
+TP =5–7 mg/ limited range could positively affect methanogenesis and result in
+L, higher CH4 production and emission (Sinbuathong et al., 2007). For the
+Ri eb te r aa l.- G (2u 0a 1rd 9i )a P il ou lg mob- gfl cico w a P(n )no x afi nc da nd F ml go /D8w =1= 1 m.1 5 0– –2 0. .1 00 7g gC NH 24 O/ a ie r no tb oi 4c r 0me .a 2ic 6st o dor en, msth o(e D tO a en dd aS O wa42 e(cid:0) kc o rn ec lae tn it oor nwa t bio en twrs w ehe ner e Oh oi 42g (cid:0)eh ll way ic ho r Cr ce Hola .t e fid
+a b che r eo ii c ab la s Ni )s o r 4 C 2 O , L0 m 413 1/d .6 m 3 3 5 / t co C H e s i p s≤ ra0 t. 0 1 ; T b ale S 6 ) , h e v e , et Sc r r t to n 4e f -
+a l ( e f n i
+removal. TKN =44.0 Despite the uniqueness of MWTPs, the aerobic process has previously
+m mOg g43/ /¡L Cbe ze en ir ee p eo r at le d a 9s t 3h )e om ua nin aC H CH4 4e m ERis Es i oo fn s .o 3u 4r gc e H(T 4a /b mle f1 r) o. mFo tr ein as eta ron bce ic,
+P p= H5 =.20 p l t . (1 9 f d 0 C 3 h
+L 7 .7
+reactors of an activated sludge process and wastewater temperature
+increase did not significantly affect this ERE given wastewater influent
+6
+
+--- Page 7 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+rates decreasing by half in the summer as compared to rest of the year. facility, have reported lower N2O EREs due to the consistent nitrification
+(Czepiel et al., 1993). Bao et al. (2016) reported CH4 EREs of 0.13–0.86 g throughout the aerobic reactors (Table 1). For example, Foley et al.
+CH4/m3 from an oxic-anoxic type MWTP with 67% attributed to the (2010) showed that N2O EREs for BNR facilities designed primarily for
+aerobic reactor (Bao et al., 2016). Additionally, MWTPs with dynamic nitrogen removal varied between 2.7% and 25.3% of Ninfluent, while N2O
+DO concentrations have reported higher CH4 EREs. For example, Dael- emission from facilities designed for both nitrogen and phosphorus re-
+man et al. (2013) monitored CH4 emissions from an activated sludge movals had average EREs of 0.18% of Ninfluent (Foley et al., 2010) which
+process-type MWTP over 16 months with DO of 0–2.0 mg/L and tem- is similar to the current results of 0.078% and 0.095%. In addition,
+peratures ranging from 11 ◦C to 21 ◦C. They found a maximum CH4 ERE Wang et al. (2016) monitored N2O emission from a BNR-type MWTP
+of 3.32 g CH4/m3 at the highest temperature, however, did not report a over one year reporting N2O EREs in the range of 0.01–1.03 g N2O/m3
+significant correlation between CH4 emission and wastewater temper- (Wang et al., 2016). More recently, Ribera-Guardia et al. (2019) studied
+ature given a longer sludge residence time in winter to compensate the plug-flow bioreactors with an anoxic-aerobic process to biologically and
+negative impact of low temperatures on microorganism activities. chemically remove nitrogen and phosphorous finding a maximum
+(Daelman et al., 2013). Similarly, Yoshida et al. (2014) of studied a measured N2O ERE of 0.057 g N2O/m3 (Ribera-Guardia et al., 2019).
+MWTP consisting two reactors with alternating anoxic and aerobic zones
+having DO ranging from 1.0 mg/L to 2.0 mg/L and temperature range of 3.2.4. NH3 emissions
+11.3 ◦C–14.9 ◦C. They found EREs increased with both DO and tem- Overall, the experimental results for both summer and winter tem-
+perature ranging from 0.0173 to 0.319 g CH4/m3 (Yoshida et al., 2014). peratures determined that NH3 emissions from all treatment processes
+More recently, Ribera-Guardia et al. (2019) monitored GHG emissions were negligible. Similarly, Osada et al. (2017) investigated five acti-
+from the aeration portion of a MWTP’s plug-flow bioreactors finding the vated sludge-type MWTPs across Japan between August 2014 and
+CH4 EREs varied between 1.15 and 2.10 g CH4/m3 (Ribera-Guardia January 2015 finding that the NH3 emissions were negligible. The NH3
+et al., 2019). is typically a unionised compound and can react with water molecules to
++
+form the ionised NH4 compound. This chemical equilibrium is depen-
+3.2.3. N2O emission dent on the water pH and temperature with acidic conditions and
+Fig. 4c presents the results of N2O EREs from each open-to-air facility warmer temperatures favouring NH3 release into the atmosphere.
+at temperatures of 13 ◦C–17 ◦C from the SWTP. The aggregate EREs Therefore, insignificant NH3 EREs from routine operation of MWTPs at
+were 3.20 kg N2O/d (0.034 g N2O/m3) in winter months and increased pH of 7–8 would be expected (Lee and Dollard, 1994). For example,
+marginally to 3.87 kg N2O/d (0.042 g N2O/m3) in summer months. Allen et al. (1988) reported the average concentration of 4.12 ppb (3.09
+Based on an average influent total nitrogen of 44.0 mg/L, these resulted μg/m3) for NH3 at a MWTP in the UK. Currently, at a typical SWTP
+in values of 0.78 g N2O/kg Ninfluent (0.078% of influent nitrogen) and wastewater pH of 7.5 only 0.74% (13 ◦C) and 0.99% (17 ◦C) of the ni-
+0.95 g N2O/kg Ninfluent (0.095% of influent nitrogen), respectively. In trogen would be available as the unionised NH3 (Emerson et al., 1975).
++
+the winter, the aerobic reactors were the main source of N2O emissions Given the maximum reported NH4 influent concentration at the SWTP
+with an ERE of 2.46 kg N2O/d. For the summer, the increased temper- was around 40 mg/L, only 0.4 mg/L (0.53 ppm) of NH3 would be ex-
+ature led to higher aerobe and nitrifier microbial activities creating N2O pected to be freely available for volatilization from any of the treatment
+generation in the aerobic reactor leading to a marked increase to an ERE processes. Thus, any NH3 emissions would be negligible and the EREs
+of 2.80 kg N2O/d (Aboobakar et al., 2013; Flores-Alsina et al., 2012; would be expected to be below the detection limit of the gas analyser
+Massara et al., 2017; Poh et al., 2015; Reino et al., 2017). Similar to used in the current study.
+winter, the aerobic reactors were the dominant N2O emissions source of
+all the processes. 3.2.5. H2S emissions
+The statistical analysis for the aerobic reactor shows that the tem- Fig. 4d shows the results of H2S EREs from each open-to-air facility
+(cid:0)
+perature, DO concentration, nitrogen concentrations (both NO3 and for the winter and summer temperature experiments. Overall, the winter
+NH4+ ), PO43(cid:0) concentration, and SO42(cid:0) were highly correlated to the N2O H2S emissions were negligible due to the neutral pH =7.5 and average
+emission (p ≤0.01). The N2O was also correlated to both CO2 and CH4 wastewater temperature of 13 ◦C. The H2S formation and subsequent
+gases. The results show that the nitrification process in the aerobic release from the wastewater is more prominent with acidic conditions
+reactor was the dominant source of N2O emission from the bioreactors (pH <7) and warmer wastewater temperatures (Catalan et al., 2009;
+such that 25% of its total ERE was from clarifiers and anaerobic and Nielsen et al., 2008; Yongsiri et al., 2004), since: (1) 1 ◦C temperature
+anoxic reactors, that aggregately reached to 0.740 kg N2O/d in winter increase can enhance sulphate-reducing bacteria activity by 7% leading
+given denitrification processing, and biological nutrient decomposition to higher H2S formation (Sengupta, 2014), (2) the solubility of H2S is
+(Ren et al., 2013; Schreiber et al., 2012; Tallec et al., 2006; Wang et al., inversely correlated to temperature resulting in a marked decrease from
+2011b); and increased to 1.07 kg N2O/d in summer given the disruption 5.2 g/kg to 4.1 g/kg water for 13 ◦C and 17 ◦C, respectively (Talaie-
+(cid:0) (cid:0) (cid:0)
+of N2O reduction to NO3 and NO2 by H2S presence due to larger mi- khozani et al., 2016), and (3) the H2S dissociates into bisulfide (HS ),
+(S2(cid:0)
+crobial activities and subsequent carbon source consumption (Ahn et al., and sulphide ) in acidic environments (USEPA, 1985). Therefore,
+2010; Kampschreur et al., 2009; Ma et al., 2006; Pan et al., 2013; Poh available sulphur as H2S markedly increased in summer such that for the
+et al., 2015; Talaiekhozani et al., 2016). primary clarifiers would be 10% H2S for winter pH of 7.9 and increased
+Overall, the total N2O ERE range determined in the current study was to 35% H2S for summer pH of 7.3. In addition, anaerobic and anoxic
+0.034–0.042 g N2O/m3 and was lower than in some previous studies reactors would contain 25% H2S for winter pH of 7.5, and 35% H2S for
+(Table 1). For example, Daelman et al. (2013) reported an N2O ERE of summer pH of 7.3. Unlike the CO2, CH4, and N2O EREs, the H2S emis-
+1.60 g N2O/m3 from a plug-flow activated sludge treatment facility. sions from the aerobic process in summer were negligible. The highest
+(Daelman et al., 2013). Yoshida et al. (2014) demonstrated that the N2O H2S EREs were from the primary clarifiers, followed by the anaerobic
+ERE from an anoxic-aerobic process-type MWTP fluctuated between reactors and anoxic reactors with average EREs of 1.17, 0.870, and
+0.128 and 3.63 g N2O/m3, while Bao et al. (2016) reported a similar 0.264 kg H2S/d, respectively. Similarly, Jeon et al. (2009) studied
+range of 0.13–1.69 g N2O/m3. However, the current values are similar to summer and winter H2S EREs from an activated sludge type MWTP in
+the IPCC’s guideline for GHG emissions of advanced MWTPs at 0.032 g South Korea with capacity of 130,000 m3/d, and found average EREs of
+N2O/m3 which was obtained from study of an activated sludge 0.622 kg H2S/d for winter with wastewater temperature of 12 ◦C, and
+process-type MWTP (Czepiel et al., 1995; Garg et al., 2006). It should be 18.5 kg H2S/d for summer with wastewater temperature of 24 ◦C (Jeon
+noted that MWTPs designed for the removal of phosphorous and nitro- et al., 2009).
+gen with uniform spatial DO profiles, such as the currently studied Although some statistical correlations were significant for the
+7
+
+--- Page 8 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+primary clarifiers (Table S3), anoxic reactors (Table S4), anoxic reactors emissions for the SWTP. Thus, further understanding of the role DO
+(Table S5) there were no consistent trends in these parameters between concentrations may have on the EREs was examined only for the aerobic
+the various processes. In addition, the only correlation with the other reactors. Fig. 5 shows the results of average CO2 (Fig. 5a), CH4 (Fig. 5b),
+determined gases was CO2 for the anoxic reactors. Thus, more research and N2O (Fig. 5c) EREs from the aerobic reactors under varying DO
+would be needed to better assess H2S EREs. concentrations and temperatures of 13 ◦C and 17 ◦C. Note that the H2S
+The H2S EREs from the SWTP open-to-air treatment processes were emissions from the aerobic reactor were negligible, thus this figure has
+markedly lower in comparison with other MWTPs with similar capacity been excluded from these results. Overall, all three gases had increasing
+which highlights the potentially large variability of EREs between EREs with increasing DO concentrations for both winter and summer
+MWTPs in different regions. For example, Llavador Colomer (2012) temperatures. However, both the CO2 and CH4 had significantly lower
+studied H2S emission rates from three MWTPs in Spain with capacity EREs in summer temperatures vs. winter temperatures for all DO con-
+ranges of 38,962–61,821 m3/d and reported that the average EREs centrations. In contrast, N2O EREs were similar for the 1.0 and 1.2 mg/L
+varied between 7.78 and 213 kg H2S/d, equivalent to 8–10% of the DO concentrations while showing significantly increased EREs for
+influent sulphur to the plants (Llavador Colomer et al., 2012). Thus, the summer temperatures for the 1.5 and 2.0 mg/L DO concentrations.
+treatment of high-sulphur wastewater and the variability of operational The CO2 and CH4 winter EREs increased for DO concentrations of 1.0
+and environmental conditions may result in larger H2S production and mg/L to 2.0 mg/L from 15,111 kg CO2/d to 52,890 kg CO2/d, and 3.65
+subsequent EREs. kg CH4/d to 19.7 3.65 kg CH4/d, respectively (Fig. 5a and b). The in-
+crease in DO aeration rates leads to higher wastewater agitation
+3.2.6. Overall resulting in the increased gas released from wastewaters, particularly at
+The average EREs for CO2, CH4, N2O, and H2S from the open-to-air DO concentrations higher than 1.5 mg/L (Bao et al., 2016; Christy et al.,
+treatment facilities over the year (assuming 6 months each for winter 2014; Czepiel et al., 1993; Krasner et al., 2009). There was a reduction in
+and summer) were 41,461 kg CO2/d, 27.5 kg CH4/d, 3.53 kg N2O/d, and both the summer CO2 and CH4 EREs at all DO concentrations as
+1.15 kg H2S/d respectively. Typically, the aerobic reactors were the compared to the winter EREs; however, there was a similar increasing
+dominant source of EREs for all processes other than being negligible for trend with values for DO concentrations of 1.0 mg/L and 2.0 mg/L
+H2S. In addition, the CO2, CH4, and N2O were generally correlated with increasing from 10,331 kg CO2/d to 28,795 kg CO2/d, and 2.75 kg
+each other as discussed in the previous sections. Using an estimation of CH4/d to 11.8 kg CH4/d, respectively. The increasing substrate demand
+the greenhouse effects of CH4 and N2O being 25 and 265 times higher for the aerobic reactor’s biological activity with increasing temperature
+than CO2, respectively (Hofman et al., 2011), the total potential GHG can lead to higher CH4 and CO2 utilisation, and subsequently decreased
+ERE given the SWTP’s inflow rate of 93,000 m3/d would be 43,083 kg availability of dissolved CO2 and CH4 and related emissions (Ren et al.,
+CO2(eq)/d which is equivalent to 463 g CO2(eq)/m3. Based on these re- 2015; Sun et al., 2013).
+sults, the SWTP could potentially benefit from carbon tax incentives The N2O emissions at the DO concentrations of 1.0 mg/L and 1.2 mg/
+given the facility is easily meeting the threshold value of 137,000 kg CO2 L were not markedly affected by wastewater temperature with EREs of
+(eq)/d (50,000 tonnes CO2(eq)/year). However, the current Canadian 0.721 kg N2O/d and 0.747 kg N2O/d in winter, and 1.846 kg N2O/d and
+carbon tax pricing system is not applicable for MWTPs in its current 1.883 kg N2O/d in summer, respectively. However, summer N2O EREs
+form, thus, any incentives would only be beneficial if changes to this at the DO concentrations 1.5 mg/L and 2.0 mg/L of 2.63 kg N2O/d and
+applicability arise in the future (Government of Canada, 2019). 3.88 kg N2O/d were significantly higher than the winter EREs of 2.09 kg
+N2O/d and 3.02 kg N2O/d, respectively (Fig. 5c). These results differed
+from the CO2 and CH4 results, however, are in agreement with previous
+3.3. Impacts of DO concentration on aerobic reactor GHG EREs studies. For instance, Ahn et al. (2010) monitored N2O emission from
+different BNR type MWTPs with variable wastewater temperatures
+Based on Section 3.1, the aerobic reactors were the main source of
+Fig. 5. Average aerobic reactor emission rate esti-
+mates (EREs) under varying dissolved oxygen (DO)
+concentrations and temperatures of 13 ◦C (blue bars)
+and 17 ◦C (red bars) for gases including: (a) CO2; (b)
+CH4; and (c) N2O. Note that the H2S EREs from the
+aerobic reactor were insignificant, thus this figure was
+excluded here. Error bars represent standard errors
+with n =9. . (For interpretation of the references to
+colour in this figure legend, the reader is referred to
+the Web version of this article.)
+8
+
+--- Page 9 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+between 11 ◦C and 34 ◦C and statistically showed that its emission from could indicate a higher efficiency of the denitrification process in the
+the aerobic process was positively correlated to the logarithmic values of updated BNR configuration given decreasing H2S and N2O emissions
++ (cid:0) (cid:0) (cid:0)
+DO, NH4, and NO2 concentrations and had a mixed trend with tem- due to less hindrance of the N2O reduction to NO3 and NO2 by the H2S
+perature (Ahn et al., 2010). Additionally, Reino et al. (2017) showed presence (Ma et al., 2006; Talaiekhozani et al., 2016).
+that an increase in temperature resulted in higher N2O emissions from Overall, the current results are in an agreement with previous studies
+an MWTP at the DO concentration of 1.60 mg/L (Reino et al., 2017). indicating that the GHG emissions from similar BNR-type MWTPs are
+impacted by both the wastewater DO concentrations and BNR process
+3.4. GHG and odour EREs: impacts of BNR design configurations. For instance, Wang et al. (2011, 2011b) studied CH4 and
+N2O emissions from a BNR-type MWTP with an
+The SWTP provides for a unique MWTP given its implementation of anoxic-anaerobic-anoxic-aerobic arrangement finding EREs of 46.5 kg
+two parallel BNR processes using two configurations while sharing both CH4/d and 7.11–9.03 kg N2O/d, respectively. Similarly, Ren et al.
+upstream and downstream treatment processes. Fig. 6 shows the results (2013) monitored N2O and CH4 EREs from three different BNR processes
+of the average GHG and odour EREs from the original BNR configuration including a pre-anaerobic oxidation ditch (A+OD), a
+with an anaerobic-anoxic-aerobic arrangement and the updated BNR pre-anoxic-anaerobic-anoxic-oxic (A-A/A/O) configuration, and a
+configuration with an anoxic-anaerobic-anoxic-aerobic arrangement at reverse anaerobic-anoxic-oxic (r-A/A/O) process. The r-A/A/O process
+a temperature of 17 ◦C for gases including CO2 (Fig. 6a), CH4 (Fig. 6b), with a similar configuration to the current study’s SWTP BNR process
+N2O (Fig. 6c), and H2S (Fig. 6d). Overall, the operation of the updated was shown to emit the minimum CH4 and N2O with EREs of 27.4–65.1
+BNR process resulted in higher CO2, CH4, and N2O emissions with EREs kg CH4/d, and 5.90–6.70 kg N2O/d, respectively (Ren et al., 2013).
+of 37,546 kg CO2/d, 24.5 kg CH4/d, and 4.64 kg N2O/d, respectively, Recently, Vieira et al. (2019) studied N2O emissions from three MWTPs
+and markedly lower H2S emissions with an ERE of 0.12 kg H2S/d in including two BNRs with an A/A/O configuration (DO concentrations of
+comparison with the original BNR configuration. 0.7–1.1 mg/L) and a Modified Ludzack Ettinger (MLE) configuration
+Similar to the results shown in Fig. 4, the aerobic reactor was (DO concentration of 1.8 mg/L), and one activated sludge type MWTP
+responsible for the majority of the CO2 and N2O EREs, while all reactors (DO concentrations of 0.8–1.2 mg/L). The BNR type N2O EREs maxi-
+contributed to the CH4 EREs. The updated BNR configuration aerobic mums were 0.0510 kg N2O/d, and 0.0236 kg N2O/d, which were
+reactor EREs for all three GHG EREs were significantly higher than the markedly lower than the activated sludge MWTP range of 0.0373–0.937
+original BNR configurations. Interestingly, there was a reverse trend for kg N2O/d (Vieira et al., 2019).
+the anaerobic reactors with the original BNR configuration having
+significantly higher EREs than the updated BNR. Finally, the anoxic 4. Conclusions
+reactor EREs were similar for both BNR configurations. Again, following
+Fig. 4d results, the anaerobic reactor (0.87 kg H2S/d) followed by the The accurate quantification of GHG and odour compound EREs is
+anoxic reactor (0.26 kg H2S/d) were the main sources for H2S EREs with necessary to inform the appropriate MWTP design and operation for
+the aerobic reactor having negligible H2S emissions. These findings mitigating gas emissions from open-to-air treatment processes. This
+Fig. 6. Average emission rate estimates (EREs) from the two biological nutrient removal (BNR) configurations including the original anaerobic-anoxic-aerobic
+arrangement (orange) and an updated anoxic-anaerobic-anoxic-aerobic arrangement (yellow) at a temperature of 17 ◦C for: (a) CO2; (b) CH4; (c) N2O; and (d)
+H2S. Note that error bars represent standard errors with n =27. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web
+version of this article.)
+9
+
+--- Page 10 ---
+M. Asadi and K. McPhedran J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 2 81(2021)111864
+study included laboratory-scale reactors to allow for the determination Ahn, J.H., Kim, S., Park, H., Rahm, B., Pagilla, K., Chandran, K., 2010. N2O emissions
+of CO2, CH4, N2O, H2S, and NH3 EREs from a cold weather region BNR- f sr uo rm ya c it niv ta ht ee d s nl iu td edg e p tar to ec se s Ese ns v, r2 o0 n0 .8 S(cid:0) ci.2 0 T0 ec9 h: nre os l.u l 4t 4s ,o 4f 5a n 5a –t 4i 5o 1n 1al monitoring
+ve U S . i 0 .
+type MWTP. The SWTP MWTP is operated through a range of seasonal Allen, A.G., Harrison, R.M., Wake, M.T., 1988. A meso-scale study of the behaviour of
+operating temperatures, has variable aeration rates, and is unique in atmospheric ammonia and ammonium. Atmos. Environ. 22, 1347–1353.
+using two parallel bioreactor configurations. Overall, the average CO2, American Public Health Association (APHA) Water Environment Federation (WEF),
+2005. Standard Methods for the Examination of Water and Wastewater. American
+CH4, and N2O EREs in winter months from the uncovered treatment
+Public Health Association, Washington, DC.
+facilities were determined to be 45,129 kg CO2/d, 21.9 kg CH4/d, and Asadi, M., Guo, H., McPhedran, K.N., 2020. Biogas production estimation using data-
+3.20 kg N2O/d, respectively. Interestingly, the winter H2S and total NH3 driven approaches for cold region municipal wastewater anaerobic digestion.
+J. Environ. Manage. 253, 109708.
+emissions were found to be negligible. The increased temperature in the
+Bao, Z., Sun, S., Sun, D., 2016. Assessment of greenhouse gas emission from A/O and SBR
+summer months resulted in a marked decrease for the CO2 EREs to wastewater treatment plants in Beijing, China. Int. Biodeterior. Biodegrad. 108,
+37,794 kg CO2/d, while the summer EREs for CH4, N2O, and H2S all had 108–114.
+Caniani, D., Esposito, G., Gori, R., Mannina, G., 2015. Towards a new decision support
+marked increases at 33.0 kg CH4/d, 3.87 kgN2O/d, and 2.29 kg H2S/d,
+system for design, management and operation of wastewater treatment plants for the
+respectively. This study investigated a DO concentration range of reduction of greenhouse gases emission. Water 7, 5599–5616.
+1.0–2.0 mg/L which was within the typical range found at the SWTP. As Catalan, L., Liang, V., Johnson, A., Jia, C., O’Connor, B., Walton, C., 2009. Emissions of
+reduced sulphur compounds from the surface of primary and secondary wastewater
+would be expected, the GHG EREs were directly dependent on the
+clarifiers at a Kraft Mill. Environ. Monit. Assess. 156, 37.
+aeration rate with significant increases in GHG emissions found for DO Christy, P.M., Gopinath, L.R., Divya, D., 2014. A review on anaerobic decomposition and
+concentrations above 1.5 mg/L. Finally, the BNR configuration had an enhancement of biogas production through enzymes and microorganisms. Renew.
+impact on the gas EREs with both configurations showing variability in Sustain. Energy Rev. 34, 167–173.
+City of Saskatoon, 2018. Life in Saskatoon [WWW Document]. URL. https://www.saska
+the EREs for all gases and for both winter and summer temperatures. In toon.ca/new-saskatoon/life-saskatoon.
+general, although this was focused on the GHG and odour EREs from a Czepiel, P., Crill, P., Harriss, R., 1995. Nitrous oxide emissions from municipal
+cold-weather BNR-type MWTP subjected to highly variable seasonal wastewater treatment. Environ. Sci. Technol. 29, 2352–2356.
+Czepiel, P.M., Crill, P.M., Harriss, R.C., 1993. Methane emissions from municipal
+temperatures, the results can be useful in providing a better under- wastewater treatment processes. Environ. Sci. Technol. 27, 2472–2477.
+standing of the relationship between GHG and odour EREs for all Daelman, M.R.J., van Voorthuizen, E.M., Van Dongen, L., Volcke, E.I.P., Van
+MWTPs. In addition, the current study provides a methodology that can Loosdrecht, M.C.M., 2013. Methane and nitrous oxide emissions from municipal
+wastewater treatment–results from a long-term study. Water Sci. Technol. 67,
+be used to accurately estimate the GHG and odour EREs from other 2350–2355.
+MWTPs in Canada and worldwide. Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van
+Loosdrecht, M.C.M., 2012. Methane emission during municipal wastewater
+treatment. Water Res. 46, 3657–3670.
+Author contribution
+Emerson, K., Russo, R.C., Lund, R.E., Thurston, R.V., 1975. Aqueous ammonia
+equilibrium calculations: effect of pH and temperature. J. Fish. Board Canada 32,
+Mohsen Asadi (PhD Student): Intellectual contribution to research, 2379–2383.
+Environment, Climate Change Canada, 2017. Pan-Canadian framework on clean growth
+experimental work, first draft of manuscript including figures and ta-
+and climate change [WWW Document]. URL https://www.canada.ca/content/da
+bles, and manuscript revisions. Kerry McPhedran (PI): Intellectual m/themes/environment/weather/climatechange/PCF-FirstSynthesis_ENG.pdf. .
+contribution to research, informed experimental work, revision and Flores-Alsina, X., Arnell, M., Amerlinck, Y., Corominas, L., Gernaey, K.V., Guo, L.,
+submission of manuscript, manuscript revisions, and funding of all Lindblom, E., Nopens, I., Porro, J., Shaw, A., 2012. A dynamic modelling approach
+to evaluate GHG emissions from wastewater treatment plants. In: IWA World
+research and student stipend Congress on Water. Climate and Energy, Dublin, Ireland.
+Foley, J., De Haas, D., Yuan, Z., Lant, P., 2010. Nitrous oxide generation in full-scale
+Declaration of competing interest biological nutrient removal wastewater treatment plants. Water Res. 44, 831–844.
+Garg, A., Kazunari, K., Pulles, T., 2006. IPCC guidelines for national greenhouse gas
+inventories. Intergov. Panel Clim. Chang.
+The authors declare that they have no known competing financial Garrido-Baserba, M., Molinos-Senante, M., Abelleira-Pereira, J.M., Fdez-Güelfo, L.A.,
+interests or personal relationships that could have appeared to influence Poch, M., Hern´andez-Sancho, F., 2015. Selecting sewage sludge treatment
+alternatives in modern wastewater treatment plants using environmental decision
+the work reported in this paper. support systems. J. Clean. Prod. 107, 410–419.
+Government of Canada, 2019. Carbon Pricing: Regulatory Framework for the Output-
+Acknowledgements Based Pricing System [WWW Document]. Canada. Environ. Clim. Chang. Canada.
+URL. https://www.canada.ca/en/services/environment/weather/climatechange/cli
+mate-action/pricing-carbon-pollution/output-based-pricing-system.html.
+We would like to thank Mike Sadowski, Michael Beal, and Amanda Gutierrez, O., Park, D., Sharma, K.R., Yuan, Z., 2009. Effects of long-term pH elevation
+Conway at the Saskatoon Wastewater Treatment Plant for their assis- on the sulfate-reducing and methanogenic activities of anaerobic sewer biofilms.
+Water Res. 43, 2549–2557.
+tance in the fulfilment of this study. We would also like to extend our
+Han, Z., Sun, D., Wang, H., Li, R., Bao, Z., Qi, F., 2018. Effects of ambient temperature
+thanks to Helen Yin and Rlee Prokopishyn for their assistance in the and aeration frequency on emissions of ammonia and greenhouse gases from a
+implementing of the experimental set-up, and Nathan Bettman, Hayley sewage sludge aerobic composting plant. Bioresour. Technol. 270, 457–466.
+Popick, Ali Motalebi, and Mojtaba Abdolahnezhad for their assistance in He, Y., Tao, W., Wang, Z., Shayya, W., 2012. Effects of pH and seasonal temperature
+variation on simultaneous partial nitrification and anammox in free-water surface
+the wastewater sampling. This research was financially supported by an wetlands. J. Environ. Manag. 110, 103–109.
+NSERC Discovery Grant (K. McPhedran). Heffernan, B., Blanc, J., Spanjers, H., 2012. Evaluation of greenhouse gas emissions from
+municipal UASB sewage treatment plants. J. Integr. Environ. Sci. 9, 127–137.
+Hofman, J., Hofman-Caris, R., Nederlof, M., Frijns, J., Van Loosdrecht, M., 2011. Water
+Appendix A. Supplementary data
+and energy as inseparable twins for sustainable solutions. Water Sci. Technol. 63,
+88–92.
+Supplementary data to this article can be found online at https://doi. Jeon, E.-C., Son, H.-K., Sa, J.-H., 2009. Emission characteristics and factors of selected
+odorous compounds at a wastewater treatment plant. Sensors 9, 311–326.
+org/10.1016/j.jenvman.2020.111864.
+Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S.M., van Loosdrecht, M.C.
+M., 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43,
+References 4093–4103.
+Krasner, S.W., Westerhoff, P., Chen, B., Rittmann, B.E., Nam, S.-N., Amy, G., 2009.
+Impact of wastewater treatment processes on organic carbon, organic nitrogen, and
+Aboobakar, A., Cartmell, E., Stephenson, T., Jones, M., Vale, P., Dotro, G., 2013. Nitrous DBP precursors in effluent organic matter. Environ. Sci. Technol. 43, 2911–2918.
+oxide emissions and dissolved oxygen profiling in a full-scale nitrifying activated
+LaPara, T.M., Nakatsu, C.H., Pantea, L.M., Alleman, J.E., 2001. Aerobic biological
+sludge treatment plant. Water Res. 47, 524–534.
+treatment of a pharmaceutical wastewater:: effect of temperature on COD removal
+Agus, E., Zhang, L., Sedlak, D.L., 2012. A framework for identifying characteristic odor and bacterial community development. Water Res. 35, 4417–4425.
+compounds in municipal wastewater effluent. Water Res. 46, 5970–5980.
+Larson, T.E., Henley, L., 1955. Determination of low alkalinity or acidity in water. Anal.
+Chem. 27, 851–852.
+10

@@ -1,0 +1,516 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment905(2023)167327
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Modelling greenhouse gas emissions from biological wastewater treatment
+by GPS-X: The full-scale case study of Corleone (Italy)
+Hazal Gulhana,b, Alida Cosenzaa,*, Giorgio Manninaa
+aEngineering Department, Palermo University, Viale delle Scienze, Build. 8, 90128 Palermo, Italy
+bEnvironmental Engineering Department, Civil Engineering Faculty, Istanbul Technical University, Ayazaga Campus, Maslak, 34469 Istanbul, Turkey
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•A new ASM1 + N2O mathematical
+model was proposed and applied to a
+full-scale WWTP.
+•Mathematical model was calibrated and
+validated by using extensive data.
+•The model application was performed to
+optimise plant operation.
+•Scenario analysis on dissolved oxygen
+and sludge recirculation (RAS) ratio
+done.
+•Best operation scenario observed at a
+DO of 1.5 mg/L and RAS ratio of 0.5.
+A R T I C L E I N F O A B S T R A C T
+Editor: Pavlos Kassomenos Greenhouse gas (GHG) emissions from wastewater treatment plants (WWTPs) can affect climate change and must
+be measured and reduced. Mathematical modelling is an attractive solution to get a tool for GHG mitigation.
+Keywords: However, although many efforts have been made to create reliable tools that can simulate “sustainable” full-scale
+Activated sludge modelling WWTP operation, these studies are not considered complete enough to include GHG emissions and energy
+Carbon footprint
+consumption of biological processes under long-term dynamic conditions. In this study, activated sludge model
+N Pli atr no t-u ws io dx ei d me ( dN e2 llO in) no. 1 (ASM1) was modified to model nitrous oxide (N2O) emissions with a plant-wide modelling approach. The
+o g
+Water-energy‑carbon coupling index (WECCI) model is novel compared to the state of the art since it includes three steps denitrification, all N2O production
+pathways and its stripping in an ASM1. The model has been calibrated and validated through long-term water
+quality and short-term N2O emissions data collected from Corleone (Italy) WWTP. Different dissolved oxygen
+(DO) concentrations and return sludge (RAS) ratios were tested with dynamic simulations to optimise the full-
+scale WWTP. The scenarios have been compared synergistically with effluent quality, direct GHG emissions,
+and energy footprint by the water-energy‑carbon coupling index (WECCI). This modelling study is novel as it
+fully covers long-term calibration/validation of the model with N2O measurements and tests the dynamic
+optimisation. Decision-makers and operators can use this new model to optimise GHG emissions and treatment
+costs.
+* Corresponding author.
+E-mail address: alida.cosenza@unipa.it (A. Cosenza).
+https://doi.org/10.1016/j.scitotenv.2023.167327
+Received 19 May 2023; Received in revised form 6 September 2023; Accepted 22 September 2023
+Availableonline23September2023
+0048-9697/©2023TheAuthors.PublishedbyElsevierB.V.ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+
+--- Page 2 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+1. Introduction and return sludge ratio are the most critical operation parameters
+affecting N2O emissions (Thakur and Medhi, 2019). Indeed, the effect
+Greenhouse gas (GHG) emissions from wastewater treatment plants and optimisation of these operational parameters to reduce N2O accu-
+(WWTPs) (i.e., nitrous oxide (N2O), methane (CH4), and carbon dioxide mulation have been tested by N2O production models (Blomberg et al.,
+(CO2)) can contribute to climate change increase (Mannina et al., 2016). 2018; Massara et al., 2018; Mannina et al., 2019; Zaborowska et al.,
+GHG emissions are classified as direct (related to biological processes) 2019; Abulimiti et al., 2022). Blomberg et al. (2018) added N2O pro-
+and indirect emissions (related to fossil fuel and electricity consump- duction by AOBs to activated sludge model no. 3 (ASM3) and calibrated/
+tion) (Daelman et al., 2013). Direct CO2 emissions from biogenic pro- validated their model with 17 days of dynamic data of a full-scale
+cesses are not counted in emitted GHG from WWTPS, only CO2 gas WWTP. They pointed out the importance of N2O stripping models on
+emissions associated with fossil fuel and electricity consumption count emission estimations. Massara et al. (2018) proposed activated sludge
+as indirect GHG emissions (IPCC, 2022). CH4 is released in headworks in model no. 2d (ASM2d) modification to estimate N2O emissions from
+WWTPs and anaerobic sludge treatment units (GWRC, 2011). N2O has biological nitrogen and phosphorus removing WWTPs. Although Mas-
++
+the highest global warming potential with 273 times CO2 among other sara and co-workers showed the effect of variations of influent NH4 and
+GHGs from WWTPs (IPCC, 2022). Therefore, special attention has been changing DO concentration on N2O emissions, they did not confirm the
+given to mitigating N2O emissions from WWTPs (Lee et al., 2022). N2O emissions by measured data. Mannina et al. (2019) used plant-wide
+production pathways in biological nutrient removal systems are asso- steady-state modelling to test the SRT, IR, and oxygen transfer effi-
+ciated with biological nitrogen removal. Although N2O gas is a ciency (OTE) effect on the direct and indirect emissions from a full-scale
+mandatory intermediate in the denitrification process, it may not have WWTP. However, they did not validate the proposed model. Zabor-
+been stripped from the liquid to gas phase directly in anoxic reactors due owska et al. (2019) calibrated and validated a ASM2d + N2O model
+to the relatively high solubility of N2O gas (GWRC, 2011). N2O gas is an dynamically with full-scale including N2O measurements from a full-
+intermediate product in the nitrification reaction of autotrophic nitri- scale WWTP. They also tested different DO concentrations and IR ra-
+fying bacteria, especially ammonia-oxidising bacteria (AOB). In addi- tios to mitigate N2O emissions. However, Zaborowska et al. (2019)
+tion, denitrification of AOBs involved in nitrification in activated sludge tested the model for 96 h of full-scale WWTP data. They analysed DO
+has a significant impact on N2O production (Kim et al., 2010; Law et al., concentration and IR ratio effect on the carbon footprint (CF) of bio-
+2011; Kampschreur et al., 2009; Wunderlin et al., 2012). Although N2O reactors under steady-state simulations, thus overlooking the impact of
+production increases with low dissolved oxygen (DO) during nitrifica- the dynamicity of WWTPs on N2O production. Abulimiti et al. (2022)
+tion, aerobic conditions contribute to higher N2O emissions due to showed the importance of aeration control for balancing N2O emissions
+stripping (Massara et al., 2017). Aeration is also the largest energy- and energy savings of WWTPs. They modified the Sumo4N model with
+consuming unit in WWTPs (Rosso et al., 2008), related to indirect N2O production and tested their model with long-term data (1 year)
+emissions from WWTPs. Low carbon‑nitrogen (C/N) ratios during het- collected from a full-scale WWTP (without N2O measurements) and
+(cid:0)
+erotrophic denitrification and high nitrite (NO2) during both nitrifica- conducted sensitivity analysis before model calibration. Maktabifard
+tion and denitrification are two other factors increasing N2O emissions et al. (2022) assessed the ASM3 +N2O model, developed initially by
+from WWTPs (Mannina et al., 2017a, b). Additionally, the dynamicity of Blomberg et al. (2018), and the ASM2d + N2O model, originally
+WWTPs, such as changes in anoxic/aerobic zones and influent charac- developed by Zaborowska et al. (2019), on a distinct full-scale WWTP
++
+terisation (NH4 concentration), increases N2O production (Vasilaki (12-days of calibration and 5-days of validation data) not previously
+et al., 2019). used for validation by the original authors. They demonstrated that the
+N2O emission from WWTPs can be modelled by empirical models, AOB denitrification contribution to N2O emissions is negligible. Solís
+simplistic mass balance models, and dynamic mechanistic models et al. (2022) made alterations to the ASM2d-N2O model initially pro-
+(Mannina et al., 2019; Ni and Yuan, 2015). Dynamic mechanistic models posed by Massara et al. (2018), taking into account the hydraulic con-
+that consider operational parameters effect on N2O production predict ditions of the reactor. They used 3-day data from a full-scale WWTP to
+emissions with higher accuracy. Therefore, dynamic mechanistic models calibrate their modified model.
+are more helpful in developing emission mitigation strategies (Massara From the literature discussion presented above, one can observe that
+et al., 2017). Ni et al. (2013) developed a mathematical model for N2O despite several efforts that have been made so far in view of setting-up
+production by AOB and four-step heterotrophic denitrification. They reliable modelling tools able to support the “sustainable” full-scale
+calibrated and validated the model using two months of data from two WWTPs operation, as far as authors are aware, none of the existing
+WWTPs, measuring N2O emissions from bioreactor surfaces. include the GHG emissions, energy consumption and biological pro-
+DO concentration in the aerobic zone, sludge retention time (SRT), cesses description under long-term dynamic conditions to ultimately
+Fig. 1. Corleone WWTP layout in GPS-X.
+2
+
+--- Page 3 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Table 1
+Sampling campaigns.
+Sampling campaign Duration Data collection frequency Influent Effluent Aeration reactor
+Long term campaign 60 days 2 per week TSS TSS TSS
+Hourly sampling campaign(cid:0) 1 One day for each sampling campaign 10:00–16:00, hourly COD COD TSS
+Hourly sampling campaign-2 BOD5 BOD5 N2O liquid
+Hourly sampling campaign-3 TN TN N2O gas
+NH4-N NH4-N
+NO3-N
+NO2-N
+Table 2
+ASM1 +N2O model comparison with previous modelling studies.
+Hiatt and Grady (2008) Lu et al. (2018) Mannina et al. (2017a, b) Mannina et al. (2018) Zaborowska et al. (2019) ASM1 +N2O
+(This study)
+Base model
+ASM1 ✓ ✓ ✓ ✓
+ASM2d ✓ ✓
+Denitrification model
+4-step ✓ ✓
+SNO3→SNO2→SNO→SN2O→SN2
+3-step ✓ ✓ ✓
+SNO3→SNO2→SN2O→SN2
+N2O production pathways
+Heterotrophic denitrification ✓ ✓ ✓ ✓ ✓ ✓
+AOB denitritation ✓ ✓ ✓ ✓
+Ammonium oxidation by AOB ✓ ✓ ✓ ✓ ✓
+N2O stripping model ✓ ✓ ✓ ✓
+highlight the trade-off between effluent quality, energy consumption, 2.2. Model development
+and GHG emissions in a full-scale WWTP.
+In this study, activated sludge model no. 1 (ASM1) was modified to 2.2.1. Sampling campaigns
+model GHG (N2O) emissions with a plant-wide modelling approach. The Long and short (24-h sampling) term sampling campaigns have been
+model aims to estimate the effluent quality and direct and indirect conducted in Corleone WWTP (Table 1) (Cosenza et al., 2023). The long-
+emissions of a full-scale WWTP. The model was calibrated and validated term monitoring campaign lasted for 64 days by collecting samples two
+via long-term water quality and short-term N2O emission data from times per week. Samples were collected from the influent of the aeration
+Corleone's WWTP (Mannina et al., 2021a, b). Optimisation scenarios tank at 8 am and from the effluent at 4 pm (after one HRT has passed).
+with different DO concentrations and return sludge ratios were tested Mixed liquor-suspended solid (MLSS) samples from the aeration tank
+with dynamic simulations to optimise full-scale WWTP. Optimisation were collected at 12 am. The flowrates of influent and return sludge
+scenarios were compared, seeking a trade-off between effluent quality, were collected from flowmeters measured every minute in the Corleone
+energy consumption, and GHG emissions defined as the water-ener- WWTP. The influent flowrate and wastewater characterisation are given
+gy‑carbon nexus (Ni et al., 2023). This new model can be used as a tool in Table 6. Auto samplers have collected samples from influent and
+by decision-makers for designing new water reuse projects and operators effluent of Corleone WWTP for three different hourly sampling cam-
+for optimising treatment costs. paigns. The hourly sampling campaign collected N2O samples from
+liquid and gas phases. Gas samples were collected using a hood (cross
+2. Material and methods sectional area: 1.0 m ×0.9 m) placed on the surface of the aeration tank
+according to the method given in the literature (Caniani et al., 2019). An
+2.1. Characteristics of Corleone WWTP anemometer measured The gas flow rate every 30 s for the first 5 min
+and every minute for the last 5 min (Extech, USA). Then, gas samples
+The Corleone (Italy) WWTP has a typical Conventional Activated were collected in Tedlar (Sensidyne, USA) gas bags using an air pump.
+Sludge (CAS) process with a pre-treatment stage (sieving and degritting) The gas flow rate and the N2O concentration measured in gas samples
+and an average flow rate of 140 m3/h (Mannina et al., 2022) (Fig. 1). were multiplied to calculate nitrous oxide flux (Mannina et al., 2017a,
+The wastewater is fed to the aeration tank from equalisation with b). N2O concentration in the liquid was also measured by a micro-sensor
+pumps. The aeration tank has fine bubble diffusers at the bottom. (Unisense Environment A/S, Denmark). Liquid and gas samples were
+Concentrated sludge at the bottom of the settler is recirculated to the collected every hour for 6 h.
+aeration tank. Waste sludge collected from the bottom of settlers is
+stabilised in an aerobic digester before discharge. The aerobic digester is 2.2.2. Biological model
+aerated mechanically for 6 h a day. The effluent from settlers is dis- N2O emissions from biological treatment were added to ASM1
+infected by chlorine before discharge. The plant's hydraulic retention (Henze et al., 2000) by modifying N2O emissions models provided by
+time (HRT) is 6–7 h. Flow rates of the influent wastewater, flow from the Hiatt and Grady (2008), Lu et al. (2018), and Zaborowska et al. (2019).
+equalisation tank to the aeration tank, and return sludge from settlers to The comparison of the ASM1 +N2O model provided in this study with
+the aeration tank are measured by flowmeters. previous modelling studies is given in Table 2. Compared with previous
+literature, the model proposed here has the novelty of including all the
+3
+
+--- Page 4 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Table 3 Table 3 (continued)
+ASM1 +N2O state variables, stoichiometric and kinetic model parameters.
+Symbol Definition Unit
+Symbol Definition Unit bAOB AOB decay rate 1/d
+State variables SI Soluble undegradable organic g COD/ μ NOB NOB maximum specific growth rate 1/d
+m3 KNO2NOB Nitrite half saturation coefficient g N/m3
+SS Soluble degradable organic g COD/ for NOB
+m3 K ONOB Oxygen half-saturation coefficient g O 2/m3
+XI Particulate undegradable organic g COD/ for NOB growth
+from the influent m3 bNOB NOB decay rate 1/d
+XS Particulate degradable organic g COD/ ka Ammonification rate m3/g
+m3 COD/d
+XH Heterotrophic bacteria g COD/ kH Maximum specific hydrolysis rate 1/d
+m3 K OHYD Oxygen half saturation coefficient g O 2/m3
+XAOB Ammonia oxidising bacteria (AOB) g 3C OD/ f Ao nr h xy icd r ho yly ds ri os
+m η h o l ysis factor –
+XNOB Nitrite oxidising bacteria (NOB) g COD/ KNO3HYD Nitrate half saturation coefficient g N/m3
+for hydrolysis
+m3
+XP Particulate undegradable g COD/ KNO2HYD Nitrite half saturation coefficient g N/m3
+for hydrolysis
+endogenous products m3
+KN2OHYD N coi etr fo fiu cs o nx ti fd oe h ha yl df rs oa lt yu sr ia st ion g N/m3
+SO Dissolved oxygen g COD/
+ie r
+SNO3 Nitrate m g 3 N /m3 η ST S aetr ri op bp ii cn g ta r ne kd uction factor for –
+SNO2 Nitrite g N/m3
+SN2O Nitrous oxide gas (dissolved) g N/m3
+CN2O Nitrous oxide gas (stripped) g N/m3 pathways producing N2O, the N2O stripping model and the 3-step
+SNH Ammonia g N/m3 denitrification in an ASM1 model. The existing ASM1 models able to
+XND Particulate organic nitrogen g N/m3
+describe the N2O processes production do not include the stripping
+SND Soluble organic nitrogen g N/m3
+SN2 Nitrogen gas g N/m3 model Lu et al. (2018) and consider a simplified (2-step) denitrification
+SALK Alkalinity mol process (Mannina et al., 2017a, b). The existing models providing a
+HCO3(cid:0)/m3 detailed description of the denitrification process and including all N2O
+Stoichiometry YH Heterotrophic yield g COD/ pathways (including the stripping model) are ASM2d based (Mannina
+gCOD et al., 2018; Zaborowska et al., 2019).
+YAOB AOB yield g COD/
+State variables, stoichiometric and kinetic model parameters are
+gCOD
+YNOB NOB yield g COD/ given in Table 3. The new model ASM1 + N2O consists of 18 state
+gCOD variables and 19 processes.
+iXB N content of active biomass g N/g ASM1 processes of ammonification of soluble organic nitrogen,
+COD
+aerobic hydrolysis, and hydrolysis of organic nitrogen remained un-
+iSS N content of SS g N/g
+changed. Ammonia switching function was added to the aerobic growth
+COD
+iXS N content of XS g N/g of heterotrophs as in ASM no 3 (Henze et al., 2000). Furthermore, since
+COD ammonia oxidising bacteria (AOB) are attributed to N2O production,
+iXP N content of endogenous/inert g N/g autotrophic biomass in ASM1 has been divided into: (i) AOB and (ii)
+mass COD
+fP Fraction of biomass leading to g COD/g nitrite-oxidising bacteria (NOB) (Hiatt and Grady, 2008). So, the new
+particulate products COD ASM1 +N2O model consists of heterotrophic, ammonia-oxidising, and
+Kinetic model μ H Heterotrophic maximum specific 1/d nitrite-oxidising biomass.
+parameters growth rate Fig. 2 summarises the growth and decay processes of biomass
+KS R hae la fd si aly b ri ao td ioe ng r ca od ea fb fil ce es nu tb strate g 3C OD/ included in the ASM1 +N2O model. Heterotrophic growth under anoxic
+tu i m
+KOH O fox ry gg re on h tha lf saturation coefficient g O 2/m3 c (Po rn od ci eti so sn 2s (( Pd 2en ))i t fr ri ofi mca t nio itn w tea (s m NOo 3d e tl ole nd ti rn e3 - (s Ste Np Os )( L (u re ot ea sl s., 32 0 (P1 38 )) ):
+w ra S ) i it 2 , P c
+KNHH Ammonia half saturation g N/m3 from SNO2 to nitrous oxide (SN2O), and (Process 4 (P4)) from SN2O to
+coefficient for heterotrophic nitrogen gas (SN2). The 3-step double-pathway N2O model by AOB was
+growth
+implemented to ASM1 according to Lu et al. (2018): (Process 5 (P5))
+η Kg N1 A Nn ito rax tic g hr ao lfw st ah ufa rac tt io or ( P co2 e) – ammonium (SNH) oxidation to SN2O (hydroxylamine oxidation), (Process
+O 3 e t n fficient g N/m3
+for growth 6 (P6)) SNH oxidation to SNO2 (nitritation), and (Process 11 (P11)) SNO2
+η g2 Anoxic growth factor (P3) – reduction to SN2O (AOB denitrification) (SNH is the electron donor).
+KNO2 Nitrite half saturation coefficient g N/m3 Anoxic hydrolysis is also divided into three processes each has a
+for growth different electron (e(cid:0) ) acceptor (P14, P15, and P16). The transition from
+η Kg N3 A Nn ito roxi uc g or xo iw deth f aa lc t so ar u(P ra4 t) – dissolved N2O gas to the was modelled by the N2O stripping model given
+2 O s h f t i on g N/m3
+by Schulthess and Gujer (1996) for both anoxic and aerobic conditions.
+coefficient for growth
+bH Heterotrophic decay rate 1/d However, a stripping reduction factor was defined for aerobic stripping
+μ AOB AOB maximum specific growth rate 1/d (η ST) to reflect the non-ideality of the stripping model (Massara et al.,
+η 1AOB Ammonium oxidation pathway – 2018). Alkalinity (S ALK) was added as a component to check the conti-
+factor
+nuity of the model and was verified as proposed by Hauduc et al. (2010).
+K OAOB Oxygen half saturation coefficient g O 2/m3
+for AOB growth The model matrix is given in Table 5.
+K NHAOB Ammonia half saturation g N/m3
+coefficient for AOB growth 2.2.3. Model application and calibration
+η 2AOB AOB denitrification pathway factor – Model application and calibration steps are given in Fig. 3. Corleone
+KNO2AOB Nitrite half saturation coefficient g N/m3
+WWTP layout (Fig. 1) was implemented in GPS-X simulation software
+for AOB
+7.0 (Hydromantis). The model has been constructed by using the Model
+4
+
+--- Page 5 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Fig. 2. Growth, decay, and N2O producing processes: P1: Aerobic growth of heterotrophs; P2: Anoxic growth of heterotrophs (SNO3➔SNO2); P3: Anoxic growth of
+heterotrophs (SNO2➔SN2O); P4: Anoxic growth of heterotrophs (SN2O➔SN2); P5: Ammonium oxidation; P6: Aerobic growth of AOBs (Nitritation); P7: Aerobic growth
+of NOBs; P8: Decay of heterotrophs; P9: Decay of AOBs; P10: Decay of NOBs; P11: AOB Denitrification.
+Developer tool in GPS-X. The carbon‑nitrogen-industrial (cnip) library √̅ ∑̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+was selected including XAOB, XNOB, SNO3, SNO2, SN2O, and CN2O state n i=1(yo(cid:0)ys)2
+variables. The representative model outputs and calibration sequence NRMSE= n (2)
+y
+were defined, then the range of model parameters was determined ac- o,mean
+cording to the literature. Model calibration was done using Corleone
+WWTP's dynamic 30-day data and validated different 30-day data of 2.2.4. WWTP influent model
+Corleone WWTP. Calibration was done by Optimizer Tool in GPS-X by Influent concentrations measured in hourly and long-term sampling
+selecting maximum likelihood as an objective function (Mannina and campaigns were used to create minutely dynamic wastewater charac-
+Cosenza, 2015). N2O concentration in the liquid and gas phases was terisation in Fourier series according to the literature (Mannina et al.,
+calibrated according to the hourly sampling campaign. Direct GHG 2011). More precisely, the parameters of a truncated Fourier series were
+emissions were calculated by multiplying gas N2O concentration and air first calibrated starting from discrete hourly measured data. Then, the
+flow rates measured during the hourly sampling campaign. The energy long-term measured data were adopted to generate the dynamic influent
+consumption of pumps and blower were defined in GPS-X. series for 64 days simulations. Specifically, each long-term discrete data
+The model's goodness-of-fit was expressed in the normalised mean of was adopted to generate the daily average trend by using a linear rela-
+absolute errors (NMAE) (Eq. (1)) and normalised root of mean squared tionship to avoid discontinuities according to (Mannina et al., 2011).
+errors (NRMSE) (Eq. (2)). Where yo and ys are observed and simulated Then, knowing the average daily patter for each state variable and the
+model outputs, respectively. yo,mean the mean value of the observed long-term data the calibrated Fourier series was extended to the 64 days.
+model outputs (Table 4). The average daily flowrate and characterisation of the influent waste-
+∑ water monitored for the long term is given in Table 6.
+1 n |y (cid:0) y|
+NMAE=n i=1 o s (1)
+y
+o,mean 2.2.5. Optimisation scenarios
+Operational parameters of DO concentration in the aeration tank and
+the return sludge flowrate to influent wastewater flowrate (RAS) ratio
+were tested in nine different operation scenarios. Scenarios were run
+5
+
+--- Page 6 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Fig. 3. Model application and calibration steps.
+with 60 days of data collected in a long-term sampling period. The number of compounds, wi is the weight factor of the compound, Si(t) is
+baseline scenario (S0) reflects the existing situation of the Corleone the instantaneous concentration of the compound. The selected com-
+WWTP (DO =2 mg/L and RAS =66 % of influent flow rate). Table 7 pounds for EQI (kg pollutant/day) estimation are TSS, COD, BOD5, and
+summarises nine operational scenarios tested with the dynamic simu- TN and the weight factors are 2, 1, 2, and 20, respectively.
+lation of the calibrated ASM1 +N2O model. ∑n
+Operation scenarios were compared using an index considering EQI=Q(t) w i•S i(t) (3)
+water (effluent quality), N2O emissions, and energy consumption. Ni i=1
+et al. (2023) provided the water-energy‑carbon coupling index (WECCI)
+Only direct GHG emissions from WWTP have been counted for CF
+as a tool that combines different dimensional measures into one index
+because for a WWTP that only purchases electricity and does not pro-
+for multi-objective trade-offs. In WECCI, water quality is measured by
+duce it internally from biogas, the ENF and scope 2 of CF represent the
+grey water footprint (GWF), defined as freshwater required to absorb
+electricity consumption of the WWTP and are thus counted twice in the
+pollutant loads according to receiving water body standards (Arjen
+WECCI. To prevent this, electricity consumption was taken into account
+et al., 2012). Energy footprint (ENF) is estimated by the overall energy in ENF, while direct emissions were counted in CF. ENF (kWh/m3) was
+consumption of WWTPs. Finally, CF is estimated according to the
+calculated by dividing energy consumption (kWh/d) by influent flow-
+Greenhouse Gas Protocol, which calculates direct emissions (scope 1), rate (m3/d) Ni et al. (2023). CF was calculated by dividing N2O emission
+indirect emissions from the purchase of electricity (scope 2), and indi- (g/d) by influent wastewater flowrate (m3/d). N2O emission (g/d) was
+rect emissions from chemical consumption (scope 2) (World Resource calculated by multiplying N2O concentration (g/m3) in the gas form and
+Institute, 2014). In this paper, the WECCI calculation given by Ni et al. airflow to the aeration tank (m3/d). Afterward, EQI, CF, and ENF were
+(2023) has been modified:
+subjected to normalisation using Eq. (4) (Ni et al., 2023), so the range is
+between 0 and 1. A' is the normalised EQI, CF, or ENF. Max(A) and Min
+• Water quality is measured by the effluent quality index (EQI) instead
+(A) are the maximum and minimum values of the EQI, CF, or ENF. The
+of GWF.
+WECCI was then computed by summing up the normalised EQI, CF, and
+• Only direct GHG emissions from wastewater treatment have been
+ENF values.
+counted for CF.
+• Calibrated ASM1 + N2O model of the WWTP estimated direct A′= max(A)(cid:0) A
+(4)
+max(A)(cid:0) min(A)
+emissions (N2O emissions).
+• ENF was calculated based on the electricity consumption of the
+WWTP. 3. Results and discussion
+The EQI is a simple tool used in benchmark studies to compare the 3.1. WWTP influent model
+treatment performance of WWTPs based on pollutant load in the effluent
+(Copp, 2002). On the other hand, GWF calculations are based on the Corleone WWTP's measured influent characterisation data during
+discharge limit and the pollutant absorption capacity of the receiving hourly sampling campaigns were used to estimate the Fourier series
+water body, thus requiring information about the receiving body and the parameters. The parameters were adjusted to minimise the sum of
+standards that WWTP must comply with. GPS-X calculates EQI by Eq. (3) squared errors. The generated long-term input time series are given in
+given in Copp (2002). Q is the instantaneous flowrate (m3/d), n is the Fig. 4.
+6
+
+--- Page 7 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Table 4
+ASM1 +N2O processes and rate equations.
+Code Process Rate equation
+( ) ( ) ( )
+P1 Aerobic growth of heterotrophs μ H• KSS (S • )KOHS (+O • )KNH(HSN +H •XH
++ SS SO SNH
+) ( )
+P2 Anoxic growth of heterotrophs (SNO3➔SNO2) μ H•η g1• (KSS +S SS)• (KOK HO +H SO)• (KNOS 3N +O3 SNO3)• (KNHHSN +H SNH)•XH
+P3 Anoxic growth of heterotrophs (SNO2➔SN2O) μ H•η g2• (KSS +S SS)• (KOK HO +H SO)• (KNOS 2N +O2 SNO2)• (KNHHSN +H SNH)•XH
+P4 Anoxic growth of heterotrophs (SN2O➔SN2) μ H•η g3• KSS (+S • KOK H)O +H • KN2OSN +2O • KNHHSN +H •XH
+SS (SO )SN2O SNH
+P5 Ammonium oxidation μ AOB•η (1AOB• OA)OS BO • NHAS O)BNH •XAOB
+K + (SO K +SNH
+P6 Aerobic growth of AOBs (Nitritation) μ AOB• OAOS BO • N(HAOS BNH )•XAOB
+(K +SO )K +SNH
+P7 Aerobic growth of NOBs μ NOB• KNO2NS ON BO +2 • ONOS BO •XNOB
+SNO2 K +SO
+P8 Decay of heterotrophs bH•XH
+P9 Decay of AOBs bAOB•XAOB
+P10 Decay of NOBs bNOB•XNOB ( ) ( ) ( )
+P11 AOB Denitrification μ AOB•η 2AOB• OK AOO BAO +B • NHAS OBNH • KNO2AS ON BO +2 •XAOB
+K SO K +SNH SNO2
+P12 Ammonification of soluble organic nitrogen ka•S ⎛ND•XH ⎞
+P13 Aerobic hydrolysis XS ( )
+kH•⎜ ⎜ ⎝ ⎛X +H XX HS⎟ ⎟ ⎠• ⎞K OHYS DO +SO •XH
+KX
+P14 Anoxic hydrolysis (SNO3 is the e(cid:0) acceptor) ⎛KXXX +HS ⎞•( SO) •( SNO3)
+kH•η h•⎜ ⎜ ⎝ XX HS⎟ ⎟ ⎠ K OK HYO DHY +D KNO3HS YN DO +3 •XH
+P15 Anoxic hydrolysis (SNO2 is the e(cid:0) acceptor) ⎛KXXX +HS ⎞•( SO) •( SNO2)
+kH•η h•⎜ ⎜ ⎝ XX HS⎟ ⎟ ⎠ K OK HYO DHY +D KNO2HS YN DO +2 •XH
+P16 Anoxic hydrolysis (SN2O is the e(cid:0) acceptor) KXXX ⎞S ⎠•( SO) •( SN2O)
+kH• ⎛η h•⎜ ⎜ ⎝ +H XX HS⎟ ⎟ K OK HYO DHY +D KN2OHS YN D2 +O •XH
+P17 Hydrolysis of organic nitrogen XS ( ) ( )
+kH•⎜ ⎜ ⎝ KXX (H XX HS⎟ ⎟ ⎠• (K OHYS DO )+ )SO •XH• X XN SD
++
+P18 Anoxic SN2O stripping KlaN2OAN* SN2O(cid:0) c HN (2 NO 2A OIR
+)
+P19 Aerobic SN2O stripping HN2O•SN2O•( e(cid:0) K Hla NN 22 OO× QV ) •( Q VA)
+1(cid:0) A •η ST
+3.2. Model calibration growth rate (μ AOB) and oxygen half saturation coefficient for growth
+(K OAOB) as 0.55 1/d and 0.9 g O 2/m3, respectively. The average NO2-N
+MLSS and COD, NH4-N, NO2-N, and NO3-N in the effluent were and NO3-N concentrations were 0.1 ±0.09 mg/L and 8.3 ±4.4 mg/L,
+selected as representative model outputs and calibrated in this order. For suggesting that NO2-N was not accumulated but converted to NO3-N by
+MLSS calibration, WAS flow rates were arranged, then heterotrophic NOBs. Therefore, NOBs' maximum growth rate (μ NOB) was increased to
+yield (YH) was optimised. Heterotrophic maximum specific growth rate 1.32 1/d. N2O stripping from liquid to air had to be decreased so the
+(μ H) biomass kinetic coefficients were optimised for effluent COD con- stripping reduction factor for the aerobic tank (η ST) was arranged as 0.2.
+centration. For effluent NH4-N, DO concentration in the aeration tank Fig. 5 shows calibration and validation simulation results in com-
+was arranged. Then AOB's maximum specific growth rate (μ AOB) and parison to measured data in the effluent of Corleone WWTP. It can be
+ammonia half saturation coefficient for AOB growth (K NHAOB) were seen that the model correctly describes the trend of COD in the effluent.
+optimised according to effluent NH4-N concentration. For NO3-N, NOB's NH4-N concentrations in the effluent are given in Fig. 5 (b) and (f) for
+maximum specific growth rate (μ NOB), oxygen half saturation coefficient calibration and validation period, respectively. It was assumed that high
+for NOB and heterotrophic growth (K ONOB and KOH, respectively), and NH4-N concentrations in the effluent indicated the low dissolved oxygen
+anoxic growth factors of heterotrophs (η g1, η g2, and η g3) were optimised. concentrations in the aeration tank that limits nitrification. When DO
+For N2O concentrations in liquid and in the gas phase in the aerobic concentration is low, heterotrophic denitrification activity increases.
+reactor, the ammonium oxidation pathway factor (η 1AOB) and AOB For instance, between 0 and 8 days, the influent NH4-N concentration
+denitrification pathway factor (η 2AOB) were optimised. was 16 ±3.9 mg/L in average, in the effluent, NH4-N concentrations
+Table 8 shows calibrated ASM1 +N2O kinetic parameters to fit COD, were over 4 mg/L and NO3-N concentrations were below 6 mg/L. This
+NH4-N, NO3-N, and NO2-N concentrations in the effluent of Corleone indicates heterotrophic denitrification. So, especially when DO con-
+WWTP. Heterotrophic biomass activity had to be lowered to the effluent centration was below 1 mg/L, heterotrophic activity affected NO2-N and
+COD concentration with the measured data by increasing the decay rate NO3-N concentrations in the effluent due to heterotrophic denitrifica-
+(bH). The average NH4-N concentration in the effluent was 3.9 ± 2.4 tion. Therefore, kinetic parameters were arranged to fit the trade-off
+mg/L, indicating that nitrification was not completed most of the time. between effluent COD and oxidised nitrogen concentrations.
+Thus, AOBs activity was reduced by arranging the maximum specific During the calibration period, the NMAE for COD, NH4-N, NO2-N,
+7
+
+--- Page 8 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Table 5
+ASM1 +N2O model stoichiometric matrix.
+Table 6 Table 8
+Influent characterisation. Calibrated model parameters.
+Daily flowrate COD BOD5 TN NH4-N Symbol Unit ASM1 Hiatt and Lu et al. Zaborowska This
+(m3/d) (mg/L) (mg/L) (mg/L) (mg/L) Grady (2018) et al. (2019) study
+(2008)
+Average 2674 219 85 26.4 24.1
+Standard 484 76 49 4.9 4.7 YH g COD/gCOD 0.67 0.6 0.6 0.63 0.706
+deviation YAOB g COD/gCOD – 0.18 0.18 0.15 0.15
+Minimum 1589 109 18 18.2 16.0 YNOB g COD/gCOD – 0.06 0.06 0.06 0.06
+Maximum 3271 383 184 33.0 30.3 iXB g N/g COD 0.086 0.086 0.07 0.04 0.086
+Number of 64 17 17 17 17 iSS g N/g COD – – – – 0.03
+data iXS g N/g COD – – – – 0.04
+iXP g N/g COD 0.06 0.06 0.06 0.02 0.06
+fP g COD/g COD 0.08 0.08 0.08 0.1 0.08
+μ H 1/d 6 6.25 6.25 3 2.906
+Table 7 KS g COD/m3 20 20 20 – 20
+Operation scenarios. KOH g O 2/m3 0.2 0.1 0.1 0.3 0.375
+KNHH g N/m3 – – 0.05 0.02 0.02
+T toh e 0 .R 5A S ratio is set T toh e 0 .R 75A S ratio is set T seh te t oR A 1 S ratio is η g1 – 0.8 0.8 0.03 0.8 0.561
+KNO3 g N/m3 0.5 0.2 0.2 0.5 0.2
+DO is set to 1 S1 S2 S3 η g2 – – 0.28 0.16 0.6 0.16
+mg/L KNO2 g N/m3 – 0.2 0.2 0.5 0.2
+DO is set to 1.5 S4 S5 S6 η g3 – – – 0.35 0.25 0.173
+mg/L KN2O g N/m3 – 0.05 0.05 0.035 0.05
+DO is set to 2 S7 S8 S9
+μbH 1 1/ /d 0 .62 0 0. .4 70 88 0 0. .4 70 88 0 1. .4 0 0. .8
+mg/L
+A OB d – 1 5 61
+η 1AOB – – – 0.8 0.2 0.4
+and NO3-N were 0.25, 0.28, 0.71, and 0.38, respectively. In the vali- K KO NHAO AOB g O N2 // mm 3 – 0 0. .6 0 1. 6 0 1. .5 0 1. .9
+B g 3 – 1 2 2 12
+dation period, the NMAE values for the same parameters were 0.21, η 2AOB – – – 0.074 0.07 0.07
+0.39, 0.39, and 0.54, respectively. In the calibration period, the NRMSE KNO2AOB g N/m3 – – 8 8 8
+values for COD, NH4-N, NO2-N, and NO3-N were 0.26, 0.34, 0.87, and bAOB 1/d – 0.096 0.096 0.15 0.15
+0.51, respectively. In the subsequent validation period, these NRMSE μ NOB 1/d – 0.78 0.78 1 1.32
+values for the same model outputs were 0.22, 0.49, 0.53, and 0.67. KNO2NOB g N/m3 – – 0.5 0.5 0.5
+KONOB g O 2/m3 – 1.2 0.68 0.68 0.666
+Lower NMAE and NRMSE values indicate better model performance and
+bNOB 1/d – 0.096 0.096 0.06 0.06
+a closer fit between simulated and observed data. The model exhibited ka m3/g COD/d 0.08 0.1608 0.08 – 0.08
+the highest accuracy when predicting effluent COD concentration and kH 1/d 3 2.208 3 2.5 3
+the worst performance when estimating effluent NO2-N concentration KOHYD g O 2/m3 0.2 0.1 – 0.2 0.2
+(Fig. 6). η h – 0.4 – 0.4 0.4 0.4
+KNO3HYD g N/m3 0.5 – – 0.5 0.5
+KNO2HYD g N/m3 – – – 0.5 0.5
+KN2OHYD g N/m3 – – – 0.5 0.5
+η ST – – – – – 0.2
+8
+
+--- Page 9 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Table 9
+EQI, CF, and ENF values per m3 of wastewater for each scenario.
+EQI (kg/m3) CF (mg/m3) ENF (kWh/m3)
+RAS ratio RAS ratio RAS ratio
+0.5 0.75 1 0.5 0.75 1 0.5 0.75 1
+DO 1 mg/L 0.193 0.199 0.203 0.546 0.556 0.557 0.137 0.142 0.147
+1.5 mg/L 0.151 0.152 0.153 0.571 0.587 0.593 0.145 0.150 0.156
+2 mg/L 0.139 0.138 0.139 0.622 0.640 0.646 0.151 0.157 0.163
+3.3. Scenarios concentration is very effective on EQI. Indeed, the lowest normalised
+EQI was observed when the DO concentration was 1 mg/L and increased
+The average EQI of Corleone WWTP was 471 kg/day. The specific with increasing DO concentration. Because increase in DO concentration
+EQI, ENF, and CF were 0.176 kg/m3, 0.147 kWh/m3, and 0.814 mg/m3, increases the oxidation of organics and nitrification, thus better quality
+respectively. The direct GHG emissions from Corleone WWTP were is observed in the effluent. It is worth noting that the RAS ratio is more
+calculated as 0.58 kg CO2 eq/d while indirect GHG emissions were 0.27 effective on the EQI at lower DO concentrations. When DO was 1 mg/L,
+kg CO2 eq/d. Direct emissions were responsible for 68 % of the total the increase in RAS ratio from 0.5 to 1 decreased normalised EQI from
+GHG emissions from Corleone WWTP. For a nutrient removing activated 0.15 to 0. On the other hand, the same increase in RAS ratio decreased
+sludge system (such as A2O), Zaborowska et al. (2019) found this ratio as normalised EQI from 1 to 0.99 when DO concentration was 2 mg/L.
+between 51 and 80 %. Therefore, the best operation scenario for the highest normalised EQI is
+The specific EQI, ENF, and CF per m3 of wastewater for each scenario a DO concentration of 2 mg/L and an RAS ratio of 0.75.
+are given in Table 9. The minimum EQI of 0.138 kg/m3 was achieved Fig. 7 (b) shows how normalised CF is affected by changes in DO
+when DO was 2 mg/L and RAS was 0.75. Compared to the baseline concentration and RAS ratio. The best scenario for the highest normal-
+scenario (DO of 2 mg/L and RAS ratio of 0.66), a 21 % of decrease was ised CF was observed at a DO concentration of 1 mg/L and RAS ratio of
+achieved in EQI. This is because in the scenario run in the model the DO 0.5. Since CF is related to N2O emissions from the aeration tank, the
+concentration was kept at 2 mg/L with 0.5 mg/L of off-set value, but in scenario with the lowest aeration gave the best result since it has the
+the baseline scenario (actual situation in the WWTP) the DO concen- least stripping N2O from the liquid. Therefore, DO concentration is more
+tration was manually regulated by the operator through adjustments to effective on the CF than the RAS ratio. Under the RAS ratio of 0.75, an
+the aeration rate in the reactor. As a result, it appears that the automatic increase in DO concentration from 1 mg/L to 2 mg/L caused a decrease
+DO control led to an improvement in effluent quality. Compared to the in normalised CF from 0.9 to 0.06. On the other hand, at a DO con-
+baseline scenario, the CF was decreased to 0.546 mg/m3 (33%) when centration of 1.5 mg/L, the increase in RAS ratio from 0.5 to 1 decreased
+DO was 1 mg/L and RAS ratio was 0.5. Because both direct and indirect normalised CF from 0.75 to 0.53. Zaborowska et al. (2019) also tested
+N2O emissions were decreased (32 % and 7 %, respectively) with DO concentration and RAS ratio effect on CF from bioreactors and found
+decreased DO concentration and RAS ratio. Similarly, the lowest ENF the optimum condition as 1.3 g/L of DO concentration and 0.73 of RAS
+(0.137 kWh/m3) was observed when DO was 1 mg/L and RAS ratio was ratio considering N2O emissions and energy consumption from activated
+0.5. This 7 % decrease in ENF was contributed to the energy savings due sludge system with pre-denitrification (A2O). Fig. 7 (c) shows the nor-
+to lowered aeration and pumping energy consumptions compared to the malised ENF change with changing DO concentration and RAS ratio.
+baseline scenario. Since DO concentration and RAS ratio are related to energy consumption
+Different DO concentration and RAS ratios were simulated to of the plant, both operational conditions were effective on ENF. Indeed,
+compare their effects on WECCI, including EQI, CF, and ENF. Fig. 7 the best normalised ENF was observed when DO concentration and RAS
+summarises nine scenarios. From Fig. 7 (a), it can be seen that DO ratio were the lowest, 1 mg/L and 0.5, respectively.
+Fig. 4. Measured and generated according to Fourier series influent characterisation of Corleone WWTP: (a) COD, (b) BOD5, (c) TN, (d) NH4-N.
+9
+
+--- Page 10 ---
+H. Gulhan et al. S c ie n c e o f t h e T o t a l E n v i r o n m e n t 905(2023)167327
+Fig. 5. Results of calibration (a-d) and validation (e-h) of the model.
+10

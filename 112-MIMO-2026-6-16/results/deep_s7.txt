@@ -1,0 +1,55 @@
+（33）Quantification of greenhouse gas emission from wastewater treatment plants
+研究方法：
+a. [排放量化模型] - GHG排放三类别量化方法：基于IPCC指南框架，将WWTP温室气体排放分为能源与化学品消耗、生物固体最终处置、处理过程直接排放三类，分别计算CO2、CH4和N2O排放量
+b. [化学计量平衡法] - COD/TOC比值推导与COD平衡：通过基质氧化化学方程式（C10H19O3N + 25O2 → 20CO2 + 16H2O + 2NH3）推导化学计量关系，计算曝气池和厌氧消化中的COD变化量，用于CO2和CH4排放估算
+c. [氮平衡法] - TKN平衡与N2O排放计算：基于总凯氏氮（TKN）进出水平衡，结合文献中不同工艺的N2O排放因子（% of N-load），估算活性污泥系统N2O排放量
+d. [气体组分计算法] - 厌氧消化沼气组成估算：通过厌氧消化进出料COD平衡计算VSS去除量，假定沼气由2/3 CH4和1/3 CO2组成，分别计算CH4和CO2排放
+e. [案例验证法] - 加拿大Guelph污水处理厂实例分析：将所建立的量化模型应用于Guelph市南侧WWTP，使用该厂实际运行数据（流量、COD、TN等）验证模型准确性
+
+（34）Analyzing greenhouse gas emissions from municipal wastewater treatment plants using pollutants parameter normalizing method: a case study of Beijing
+研究方法：
+a. [排放因子法改进] - 污染物参数归一化方法（PPNM）：基于IPCC方法改进，以单位污染物去除量（COD和TN）替代单位处理水量作为活动水平，CH4排放=Q×(COD_IN-COD_EFF)×EF_CH4，N2O排放=Q×(TN_IN-TN_EFF)×EF_N2O
+b. [排放因子分类] - 分工艺排放因子确定：针对AAO、OD、SBR、MBBR、CAS、MBR等不同处理工艺，从40余座WWTP现场监测数据中获取分类排放因子（kg CH4/kg COD removed, kg N2O/kg TN removed）
+c. [间接排放计算] - 电力消耗间接CO2排放计算：使用区域电网基准排放因子（华北电网0.9414 t CO2/MWh），CO2排放=年用电量×电力排放因子
+d. [敏感性分析] - 排放因子与样本代表性敏感性分析：通过EF高低值重新计算直接排放评估EF不确定性（偏差<5%），计算抽样误差和95%置信区间评估38座WWTP样本代表性
+e. [城市对比法] - 北京与上海GHG排放对比分析：对比两城市处理工艺、进出水水质、排放限值、电力排放因子等差异，分析排放强度差异的驱动因素
+
+（35）Insight into Greenhouse Gases Emissions and Energy Consumption of Different Full-Scale Wastewater Treatment Plants via ECAM Tool
+研究方法：
+a. [评估工具法] - ECAM（能源绩效与碳排放评估监测）工具：基于IPCC和IWA系统评估框架，输入人口、水量、能耗估算和处理工艺类型等原始数据，计算各处理阶段GHG排放和能源消耗值
+b. [多城市对比] - 四城市（朔州、西安、德阳、昆明）分层对比：按人口规模将城市分为三个等级（>50万、30-50万、10-30万），在相同A2/O工艺条件下比较不同城市规模对碳排放和能耗的影响
+c. [工艺对比分析] - 改良A2/O氧化沟工艺评估：比较昆明三座WWTP采用不同工艺（改良A2/O氧化沟、厌氧工艺、ICEAS工艺）的GHG排放和能耗，分析好氧-厌氧-缺氧混合工艺对CH4、CO2、N2O排放的影响
+d. [国际案例对比] - 中外低碳WWTP对比：将中国WWTP与奥地利Strass WWTP（碳中和先驱）进行对比，评估沼气回收-热电联产工艺对能源自给和碳减排的贡献
+e. [现场调查法] - 多次实地走访与数据采集：研究人员实地记录WWTP电气设备运行数据和不同实际运行条件下的能源估算数据
+
+（36）Minimizing greenhouse gases emissions and energy consumption from wastewater treatment plants via rational design and engineering strategies: A case study in Mashhad, Iran
+研究方法：
+a. [情景分析法] - 四种工艺情景对比：设计情景A（MLE+好氧消化，现有工艺）、情景B（MLE+厌氧消化）、情景C（延时曝气活性污泥+好氧消化）、情景D（延时曝气，无污泥稳定化），比较能耗和GHG排放
+b. [IPCC排放因子法] - N2O和CH4排放估算：基于IPCC指南，N2O排放=Q×N_total×0.005×0.365，CH4排放=Q_gas×(CH4/total gas)×0.657×365，分别估算生物脱氮和厌氧消化过程的GHG排放
+c. [能量平衡计算] - 需氧量与能耗计算：根据进水BOD5、COD、TSS、TN等参数计算各情景液相和泥相需氧量，确定鼓风机数量和电耗，E_e=(P×T)/Q
+d. [经济评估法] - NPV与投资回收期分析：对厌氧消化+CHP系统进行净现值分析（折现率10%，25年周期），考虑电力销售收益、CDM碳信用收益和碳价（18美元/吨CO2），评估经济可行性
+e. [基准对比法] - 与全球能效自给WWTP对比：将Mashhad WWTP能耗（kWh/m3和kWh/PE）与欧洲、美国、中国等国家WWTP能耗基准进行比较，评估优化潜力
+
+（38）Methane and nitrous oxide emissions from municipal wastewater treatment plants in China: A plant-level and technology-specific study
+研究方法：
+a. [自下而上清单法] - 设施级排放清单构建：整合MEE污水处理设施名录、国家市政污水处理设施名单、全国城镇污水处理厂目录三个数据源，建立覆盖8703座MWWTP的设施级数据库，包含地址、处理能力、工艺类型和运营年份
+b. [工艺分类排放因子] - 19类工艺技术排放因子：将MWWTP按生物处理工艺分为19类（AAO、SBR、OD、AO、MBR等），每类工艺赋予基于48篇同行评审文献综述的设施级平均排放因子
+c. [活动水平估算] - 省级活动数据降尺度：E_i,s = A_i,s × EF_j,s，假设各厂污染物去除量与处理能力成比例，利用省级统计年鉴数据将全国活动水平分配至各厂
+d. [蒙特卡洛不确定性分析] - 95%置信区间评估：活动数据假设正态分布（COD去除CV=70%，TN去除CV=100%），排放因子假设三角分布，运行100000次蒙特卡洛模拟估计不确定性范围
+e. [IPCC方法对比] - 与2006 IPCC指南和2019修订版对比：分别使用IPCC 2006和IPCC 2019方法独立估算中国MWWTP排放，分析活动水平和排放因子差异对估算结果的影响
+
+（39）Revisiting China's domestic greenhouse gas emission from wastewater treatment: A quantitative process life-cycle assessment
+研究方法：
+a. [过程生命周期评估] - 改进型过程LCA方法：考虑废水处理、废水排放和污泥处置三个阶段，系统边界覆盖5282座WWTP的现场和非现场GHG排放，E_p = AD × EF
+b. [多工艺排放因子] - 六类生物处理工艺差异化EF：针对AAO、OD、SBR、AO、MBR和生物膜工艺使用不同N2O和CH4排放因子（如AAO: 0.0043 kg N2O-N/kg TN, 0.0034 kg CH4/kg COD）
+c. [污泥处置三路线计算] - 填埋/焚烧/堆肥分别计算：对三种污泥处置方式分别计算GHG排放（厌氧消化CH4、电力消耗CO2、柴油消耗、煤消耗等），按各城市三种处置比例加权汇总
+d. [主成分分析] - 社会经济因素与GHG排放关系分析：选取人口密度、GDP、用水量、管道密度等12个因素进行PCA分析，探究影响WST行业GHG排放的主要社会经济驱动因素
+e. [不确定性分析] - 基于数据源的不确定性评估：按数据来源质量（官方统计、发表文献、网络信息）赋予不同标准偏差因子（0.05-0.33），通过误差传播公式计算各阶段不确定性
+
+（3）Estimation of greenhouse gas emissions from an underground wastewater treatment plant
+研究方法：
+a. [过程生命周期评估] - 地下式WWTP全生命周期LCA：以韩国处理能力122000 m3/d的地下式MBR污水处理厂为案例，系统边界包括建设阶段和运行阶段（生命周期45年），量化全生命周期GHG排放
+b. [排放因子法] - 建材与化学品排放因子：建设阶段使用MOE、国家LCI DB和Eco-invent数据库的建材排放因子（水泥0.944、碎石11.3 kgCO2 eq/m3等）；运行阶段使用KPX电力排放因子（0.4958 kgCO2 eq/kWh）和现场运行数据（CH4: 0.0071 kgCH4/kgBOD, N2O: 0.0012 kgN2O/kgTN）
+c. [分过程能耗核算] - 八个运行单元过程GHG核算：将运行阶段分为沉淀池、流量控制池、生物反应器与鼓风、化学投加、再生水处理、污泥处理、除臭、通风八个单元，分别核算各单元设备电耗和GHG贡献
+d. [蒙特卡洛敏感性分析] - Crystal Ball软件敏感性分析：假设数据服从正态分布（标准偏差取均值10%），使用蒙特卡洛模拟确定影响GHG排放的最关键因素（膜曝气鼓风机和好氧鼓风机电耗影响最大）
+e. [基准对比法] - 与其他地面式WWTP对比：将地下式WWTP排放强度（0.87 kgCO2 eq/m3）与Park & Hwang（0.21）、Zhang等（0.0075）等研究中的地面式WWTP进行比较，分析地下式建设导致排放偏高的原因

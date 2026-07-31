@@ -1,0 +1,358 @@
+--- Page 1 ---
+JournalofEnvironmentalManagement360(2024)121206
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: www.elsevier.com/locate/jenvman
+Research article
+Complete long-term monitoring of greenhouse gas emissions from a
+full-scale industrial wastewater treatment plant with different
+cover configurations
+Qinyi Wanga,b,1, Yangyue Shenga,b,1, Yili Zhanga, Xinrun Zhongb, Hui Liua,
+Zhengfeng Huangb, Dan Lia, Hao Wub, Yuanzhi Nia, Junqi Zhangb, Weiqing Lina,
+Kaipei Qiub,c,d,**, Xiaoyong Qiana,*
+aShanghai Academy of Environmental Sciences, Shanghai, 200233, China
+bState Environmental Protection Key Laboratory of Environmental Risk Assessment and Control on Chemical Process, School of Resources and Environmental
+Engineering, East China University of Science and Technology, Shanghai, 200237, China
+cShanghai Environmental Protection Key Laboratory for Environmental Standard and Risk Management of Chemical Pollutants, Shanghai, 200237, China
+dShanghai Institute of Pollution Control and Ecological Security, Shanghai, 200292, China
+A R T I C L E I N F O A B S T R A C T
+Handling editor: Lixiao Zhang The greenhouse gas (GHG) emissions from wastewater treatment plants (WWTPs), consisting mainly of methane
+(CH4) and nitrous oxide (N2O), have been constantly increasing and become a non-negligible contributor to-
+Keywords: wards carbon neutrality. The precise evaluation of plant-specific GHG emissions, however, remains challenging.
+Greenhouse gas monitoring The current assessment approach is based on the product of influent load and emission factor (EF), of which the
+Industrial wastewater treatment plant
+latter is quite often a single value with huge uncertainty. In particular, the latest default Tier 1 value of N2O EF,
+C Emom isp sil oet ne fl ao cn tog- rt erm sampling 0.016 ±0.012 kgN2O– N kgT(cid:0) N1, is estimated based on the measurement of 30 municipal WWTPs only, without
+involving any industrial wastewater. Therefore, to resolve the pattern of GHG emissions from industrial WWTPs,
+Anoxic/oxic process
+Cover configuration this work conducted a 14-month monitoring campaign covering all the process units at a full-scale industrial
+WWTP in Shanghai, China. The total CH4 and N2O emissions from the whole plant were, on average, 447.7 ±
+224.5 kgCO2-eq d(cid:0)1 and 1605.3 ±2491.0 kgCO2-eq d(cid:0)1, respectively, exhibiting a 5.2- or 3.9-times more signifi-
+cant deviation than the influent loads of chemical oxygen demand (COD) or total nitrogen (TN). The resulting
+EFs, 0.00072 kgCH4 kgC(cid:0) O1 Dand 0.00211 kgN2O– N kgT(cid:0) N1, were just 0.36% of the IPCC recommended value for CH4,
+and 13.2% for N2O. Besides, the parallel anoxic-oxic (A/O) lines of this industrial WWTP were covered in two
+configurations, allowing the comparison of GHG emissions from different odor control setup. Unit-specific
+analysis showed that the replacement of enclosed A/open O with enclosed A/O reduced the CH4 EF by three
+times, from 0.00159 to 0.00051 kgCH4 kgC(cid:0) O1 D, and dramatically decreased the N2O EF by an order of magnitude,
+from 0.00376 to 0.00032 kgN2O– N kgT(cid:0) N1, which was among the lowest of all full-scale WWTPs.
+1. Introduction 2022). The uncertainty of the emission factors (EFs) for WWTPs, how-
+ever, is among the highest in all sectors, according to the Intergovern-
+Wastewater treatment plants (WWTPs) generate over 2% of the mental Panel on Climate Change (Bartram et al., 2019). In fact, the
+anthropogenic greenhouse gas (GHG) emissions annually (IPCC, 2022), default Tier 1 EF (using a default factor, which is derived from limited
+from which the direct emissions are mainly composed of methane (CH4) data to calculate emissions) for WWTP N2O emissions has dramatically
+and nitrous oxide (N2O), ranking the fifth largest sector for the global changed in the last two decades, from 1% in 1997, to 0.5% in 2006,
+non-CO2 GHG emissions (Li et al., 2024; Song et al., 2023; Yao et al., further down to 0.035% in 2014, and finally back to 1.6% in 2019 (IPCC,
+* Corresponding author.
+** Corresponding author.
+E-mail addresses: qiukaipei@ecust.edu.cn (K. Qiu), qianxy@saes.sh.cn (X. Qian).
+1 These authors contributed equally to this work.
+https://doi.org/10.1016/j.jenvman.2024.121206
+Received 29 February 2024; Received in revised form 13 May 2024; Accepted 18 May 2024
+Availableonline21May2024
+0301-4797/©2024ElsevierLtd.Allrightsarereserved,includingthosefortextanddatamining,AItraining,andsimilartechnologies.
+
+--- Page 2 ---
+Q. Wang et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206
+1997; Doorn et al., 2006; IPCC, 2014; Bartram et al., 2019; Pamukçu five enclosed ducts and 115 for twelve aeration tanks, five secondary
+et al., 2023). The practical difficult to launch (long-term) on-site GHG sedimentation tanks, four dissolved air flotation tanks, one V-form filter
+monitoring campaigns in full-scale WWTPs impedes the possibility of and one biochemical filter (a total of 23 open process units). Gas samples
+covering a wide range of wastewater characteristics with various types were then analyzed for CH4 and N2O concentrations by gas chroma-
+of treatment techniques (Khalil et al., 2023). In particular, the number of tography (Agilent 7890B) equipped with flame ionization detector and
+studies on industrial wastewater is limited, e.g., the latest IPCC N2O EF electron capture detector.
+is derived from the results of 30 municipal WWTPs (Bartram et al., Water samples were extracted from a depth of 30 cm beneath the
+2019). As far as the authors are aware, within the total of 120 publi- surface using portable water samples. Each sample was 250 mL, and
+cations on GHG measurements at full-scale WWTPs, only three of them carefully stored in a sterilized serum bottle. To suppress microbial ac-
+(two in Netherlands and one in Turkey) treat explicitly the industrial tivity in the wastewater, 2 mL H2SO4 (2 mol L(cid:0) 1) was immediately
+wastewater (Castro-Barros et al., 2015; Desloover et al., 2011; Yapı- added to each sample. Daily average concentrations of chemical oxygen
+cıog˘lu, 2021). Hence, it is of great significance to establish demand (COD) and total nitrogen (TN) were taken for the following
+country-specific and even plant-specific GHG EFs for industrial WWTPs. calculation of CH4 and N2O emission factors. COD was determined
+One of the key challenges towards the precise determination of GHG through a fast digestion-spectrophotometric method, while TN was
+emissions from WWTPs is the dynamic, heterogeneous production/ measured by the alkaline potassium persulfate digestion and UV spec-
+consumption and emission/absorption of CH4 or N2O in large-scale fa- trophotometric method.
+cilities (Wang et al., 2023). Long-term monitoring (last for at least one
+year) is able to capture the whole temperature range or seasonal pattern, 2.2. Determination of CH4 and N2O emissions
+thus producing more reliable EFs estimates for CH4 and N2O (Gruber
+et al., 2020; Valk et al., 2022), which is crucial for the development of For enclosed ducts, the CH4 or N2O emissions were calculated based
+process simulation and mitigation strategies (Duan et al., 2020; Li et al., on Eq. (1):
+2022). Nevertheless, since these two gases account for a small fraction of
+Eenclosed=C×M×Q/22.4 (1)
+total carbon and nitrogen balance, even two parallel treatment lines of
+the same WWTP may exhibit distinct emission patterns (Chen et al., where Eenclosed was the emission flux of CH4 or N2O (mg h(cid:0) 1), C was the
+2019; Daelman et al., 2015). It is therefore essential to monitor all of the
+actual measured concentration of CH4 or N2O (ppm), M was the molar
+process units, not just the reactors, in order to realize a reliable quan- mass of CH4 or N2O (g mol(cid:0) 1), and Q was the gas flow rate (m3 h(cid:0) 1).
+tification of plant-wide GHG emissions, or to identify the process units
+For open process units, the emission flux of CH4 or N2O was
+with the highest emissions or EFs. So far, less than a quarter of the
+measured using the closed chamber and were calculated using Eq. (2):
+previous monitoring campaigns for full-scale WWTPs have managed to ( ) /
+p sir do ev si ,d ie t ish e as le i n wfo or rm tha nti oo tn ( gS u thn e t a nl . i, 2 cr0 e1 a7 s; nT go y no ud ma e et a ol f. , 2 la0 n1 t1 ) h. aB ve e- Eopen=M× d dc ×V ART×Ar×1000 (2)
+t so in a t a n i b r p s t
+covered their major process units or are built underground for odor
+control, facilitating the direct sampling of off-gas through ventilation where Eopen was the CH4 or N2O emission flux (mg h(cid:0) 1), M was the molar
+ducts (Kosonen et al., 2016; Vasilaki et al., 2018, 2020). Nevertheless, mass of CH4 or N2O (g mol(cid:0) 1), dc/dt was the rate of change of the initial
+the influence of reduced headspace on the effective mass transfer co- concentration of CH4 or N2O in the closed chamber (mL m(cid:0) 3 h(cid:0) 1), V was
+efficients and the supersaturation of dissolved CH4 and N2O in waste- the volume of the closed chamber (m3), A was the contact area between
+water has seldom been discussed, which let alone the impact of the chamber and the water surface (m2), R was the ideal gas constant
+geomembrane cover on the GHG emissions. (8.314 J K(cid:0) 1 mol(cid:0) 1), T was the air temperature (K), and AT was the area
+This study presented the first systematic assessment of the GHG of the emission source.
+emissions from an industrial WWTP. A monthly monitoring campaign
+was conducted at all the emission units in this plant for more than a year, 2.3. Calculation of CH4 and N2O emission factors
+and coupled to the daily measured water quality, leading to the estab-
+lishment of unit-specific EF profiles. Meanwhile, the five parallel anoxic- In order to compare the emission performance of different process
+oxic (A/O) lines in the selected industrial WWTP were covered in two units, as well as with other studies, the absolute GHG emissions were
+different configurations, either the enclosed A/open O or the enclosed converted into emission factors. The emission factor of the full-scale
+A/O, enabling the analysis of the changes in GHG emissions caused by plant was defined as the percentage ratio of emitted GHG against the
+the addition of odor control cover. pollutant load, and was calculated as Eq. (3):
+E
+EFfull(cid:0)scale= TMin×100% (3)
+2. Methodology
+2.1. Sample collection and instrumental analysis where EFfull-scale was the CH4 or N2O emission factor (%), E was the CH4
+or N2O flux (kg d(cid:0) 1), TMin was the pollutant concentration of the
+From Oct 2022 to Nov 2023, gas and water samples from all the influent water, i.e., the TN of influent for N2O EFs, and COD for CH4 (kg
+available process units were collected on a monthly basis. Off-gas from d(cid:0) 1).
+enclosed ducts were extracted directly, with three parallel samples taken The emission factor of each process unit, on the other hand, was
+from each duct. These gases were preserved in 200 mL aluminum foil defined as the percentage ratio of emitted GHG against the pollutant
+airbags for the subsequent analysis. With regard to open process struc- removal, and was calculated as Eq. (4):
+tures, a customized closed chamber approach was utilized. These
+E
+c 5h 0a cm mb e inrs h, ec iy gl hin td r ei nc ca ol min f ao sr sm in, h aa d od ti am e vn os luio mn es o of 4 a0 pc rm i in d ai ta em lye t 6e 2r 8an 0d EFunit= TMremoval×100% (4)
+, p g t l f p ox m , 0
+cm3. Each chamber was equipped with an internal scale to estimate the
+where EFunit was the CH4 or N2O emission factor (%), E was the CH4 or
+effective volume, and an electronic thermometer to record the real-time N2O flux (kg d(cid:0) 1), TMremoval was the pollutant removal by each process
+temperature within the chamber. From each open process structure, five unit, i.e., the TN removal for N2O EFs, and COD for CH4 (kg d(cid:0) 1).
+gas samples were collected at intervals of 0, 5, 10, 15, and 20 min, and
+each sample was stored in a 200 mL aluminum foil airbag. For each
+monitoring event, 130 gaseous samples were collected including 15 for
+2
+
+--- Page 3 ---
+Q. Wang et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206
+3. Results and discussion of loads for a given month divided by the sum of flow rates, and the total
+average was the arithmetic mean of 14-month results. The influents of
+3.1. Plant description Lines A and C were almost identical, with a correlation coefficient of
+0.987 ±0.004 for flow rates and COD/TN concentrations, accounting
+The target full-scale industrial WWTP was located in Shanghai, for 21–21.2%, 19.2–19.6%, and 17.6–18% of the total daily influent,
+China, with a designed daily influent capacity of 40,000 m3 d(cid:0) 1, using a COD and TN. Line B received a smaller amount of the total influent
+typical A/O treatment process. It was responsible for the treatment of (16.8%), with a much lower but highly varying COD level of 355.7 ±
+wastewater from a wide variety of companies in an industrial park, as 104.7 mg L(cid:0) 1 and a closer-to-average TN of 39.6 ±13.5 mg L(cid:0) 1. Line D
+well as a negligible amount of domestic wastewater produced in the park received the greatest portion of the total influent (25.1%) with median
+(Fig. 1). The received industrial wastewater was divided into five par- COD/TN concentrations. Line E was responsible for treating the in-
+allel process lines, denoted as Lines A to E, each being equipped with its fluents with significantly higher COD (1282.5 ±450.9 mg L(cid:0) 1) and TN
+own equalization, anoxic, aeration and secondary sedimentation tank. (87.9 ± 44.3 mg L(cid:0) 1), although the daily amount of flow was the
+The effluent from secondary sedimentation tank was then compiled into smallest (15.9%). A temporary closure occurred in Line E from 30th May
+four dissolved air flotation tanks, and further treated by a V-form filter, to July 18, 2023, which partially explained the large variations observed
+an ozone-contact tank and a biofilter consecutively, before discharge for influent parameters. The COD and TN concentrations of the WWTP
+into the sea. As shown in Fig. 1, the equalization and anoxic tanks of effluents were 41.5 ± 4.1 and 6.9 ± 0.9 mg L(cid:0) 1, with the average
+Lines A to C were covered together as Duct 1, the whole secondary removal rates of 94.3 ±0.4 and 86.5 ±2.6%, respectively.
+treatments of Line D plus the aeration tank of Line C were covered by Feature of the monthly CH4 and N2O emissions from this industrial
+Duct 2, while the secondary treatments of Line E itself were covered in WWTP was given in Fig. 2b. The average CH4 and N2O emissions of the
+Duct 3. Such different configurations of exhaust gas collection system whole plant (excluding Ducts 4 and 5 for domestic influent and sludge)
+allowed the comparison of GHG emissions from partially or fully were 447.7 ± 224.5 kgCO2-eq d(cid:0) 1 and 1605.3 ± 2491.0 kgCO2-eq d(cid:0) 1,
+covered A/O tanks. In addition, the primary treatments of the domestic respectively, with a 5.2- or 3.9-times higher CV than the influent COD or
+wastewater were covered in Duct 4, and the sludge storage and dew- TN loads, indicating the dynamic nature of GHG generation and emis-
+atering in Duct 5. The rest of the facilities were open to air. The GHG sion during the wastewater treatment. The resulting EFs were 0.072 ±
+emissions of all the units in this plant were monitored monthly from Oct 0.039% kgCH4 kgC(cid:0) O1 Dand 0.211 ±0.309% kgN2O– N kgT(cid:0) N1, only 0.36% of
+2022 to Nov 2023 (except for Aug to Sep 2023, in which only one the IPCC default Tier 1 EF for CH4 and 13.2% for N2O. Seasonal patterns
+measurement was taken due to the extremely hot weather). The daily were unclear for this plant in either the total emissions or EFs. The
+averages of the water quality were recorded, including the COD and TN contributions of all treatment units to the total plant-wide CH4 and N2O
+concentrations for the influents of equalization tanks, and the effluents emissions were presented in Fig. 2c–d. All units were sampled, analyzed,
+of secondary settlement tanks, V-filter and biofilter, as well as the COD and compiled into nine categories, including Ducts 1–3, aeration tanks A
+of the anoxic tank effluents. (Ox-A) and B (Ox-B), secondary settlement tanks (SST), dissolved air
+flotation tanks (DAF), V-filter (VF) and biofilter (BF). The ranking of CH4
+3.2. Plant-wide patterns of COD/TN removal and CH4/N2O emission emitters followed the order: Duct 1 (30.8 ± 15.7%) > Ox-A (22.7 ±
+7.9%) >Duct 3 (18.7 ±16.1%) >Ox-B (13.1 ±17.2%) >Duct 2 (11.8
+The influent flow rate and pollutant concentrations of this industrial ±6.5%), while the contributions from the other units were less than 2%.
+WWTP were reasonably stable during the monitoring period (Fig. 2a), As for N2O, the emissions of Duct 1 (58.9 ±30.4%) and Duct 3 (22.8 ±
+with total average values of 32,192 ±1768 m3 d(cid:0) 1, 729.2 ±79.8 mgCOD 30.3%) were predominant, while the impacts of Duct 2 (4.2 ±5.2%), BF
+L(cid:0) 1, and 52.8 ±12.6 mgTN L(cid:0) 1, corresponding to coefficients of varia- (4.1 ±3.4%), Ox-A (3.6 ±3.9%), SST (3.0 ±2.3%), and Ox-B (2.2 ±
+tion (CV) of 5.5, 10.9, and 23.8%, respectively. Details of the monthly 2.6%) were small but unneglectable. Despite the considerable deviation,
+influent parameters for each line were summarized in Tables S1–S3. The the A/O units contributed 97.1 ±5.5% and 91.6 ±5.6% of the total CH4
+monthly COD and TN values were calculated as the quotients of the sum and N2O emissions from the mainstream of this industrial WWTP. On the
+Fig. 1. Layout of the industrial WWTP investigated in this work. A negligible amount of domestic wastewater was evenly divided into fine lines of industrial waters,
+which was treated using a typical anoxic-oxic (A/O) process. Some of the process units were covered (highlighted in pale gold), while the others were open to air. All
+the possible emission units were sampled and analyzed. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version
+of this article.)
+3
+
+--- Page 4 ---
+Q. Wang et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206
+Fig. 2. Summary of the monthly GHG monitoring results and influent quality from Oct 2022 to Nov 2023. (a) The total influent flow rates and COD/TN concen-
+d(cid:0)1)
+trations of the whole plant, as well as the COD/TN removal rates. (b) The total daily CH4 and N2O emissions of the whole plant (expressed in the form of kgCO2-eq
+and the corresponding emission factors. The contribution of various process units to the overall (c) CH4 and (d) N2O emissions.
+other hand, it should also be noted that Duct 4 contributed another 40.5 the CH4 EFs of Duct 1, Duct 2 plus SST-C/-D, Duct 3 plus SST-E, Ox-A,
+±17.2% of CH4 emissions (Figs. S1 and S2), as well as 17.2 ±8.2% of Ox-B, and the sum of DAF, VF and BF were quantified (Fig. 3a). The
+N2O emissions, which was probably owing to the dissolved GHGs in the highest CH4 EF of 1.584 ±3.068% was obtained for Ox-B, with tiny COD
+sewer system and must be included in the precise quantification of total removal of 174 ±72 kg d(cid:0) 1 (0.7% of the total load), suggesting that the
+GHG emissions from this plant. In contrast, the CH4 and N2O emissions observed emission was probably originated from the remaining dis-
+from Duct 5 were small (1.1 ±1.1% and 2.5 ±2.5%). solved CH4 in the effluent of anoxic tank. The lower CH4 EF of 0.676 ±
+0.484% for Ox-A, as well as a higher COD removal of 598 ±162 kg d(cid:0) 1,
+might be due to the replacement of surface aeration with the bottom
+3.3. Unit-specific CH4 and N2O EFs for different cover configurations one. The COD removal by anoxic Duct 1 was 7783 ± 1391 kg d(cid:0) 1
+(71.4% of the total load for Lines A to C), leading to a CH4 EF of 0.057 ±
+To further evaluate the GHG emissions from this WWTP, the CH4 and
+N2O–N EFs of the major treatment units were determined and plotted s0 o.0 n2 0 t% ( C2 O0. D8 % l mow ove ar th ofa n 6th 7e p ±lan 1t 1- 8w 7i d ke C dH (cid:0)4 E bF yr em Do uv ca tl) . In lc uo m Sp Sa Tr -i E-
+, he re l 7 3 g 1 3 p s
+against the respective COD or TN removals (Fig. 3). Rather than calcu-
+(93.8% of the load for Line E) exhibited a reduced CH4 EF of 0.051 ±
+lating an individual value for the whole campaign period, a set of
+0.055%. Furthermore, the Duct 2 plus SST-C/D showed an even lower
+monthly EFs were clustered, which could better represent the perfor-
+CH4 EF of 0.039 ±0.029% with a smaller COD removal of 5461 ±926
+mance of each unit. Given that the available COD values were limited,
+Fig. 3. Comparison of the monthly (a) CH4 and (b) N2O EFs for various (combinations of) process units and the whole plant.
+4
+
+--- Page 5 ---
+Q. Wang et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206
+kg d(cid:0) 1. The above phenomenon implied that the enclosed A/O config-
+uration (i.e., the simultaneous covering of both anoxic and oxic tanks)
+could decrease the overall CH4 emission while the enclosed A/open O (i.
+e. covering of anoxic tanks only) might enhance the emission. To vali-
+date this argument, the CH4 EF of Duct 1 plus Ox- and SST-A/B/C was
+estimated (assuming the imaginary open Ox-C possessed the same CH4
+EF as Ox-A), which was more than double of the plant-wide CH4 EFre-
+moval (0.159 ±0.089%) with only 83.6% of the COD removal for Lines A-
+C. One possible explanation was that, the shortened headspace of the
+enclosed anoxic tank induced an excess of CH4 formation, which could
+be emitted or consumed in the following oxic tank depending on the
+aeration and covering states. Apart from that, the CH4 EFs of DAF plus
+VF and BF were negligible (0.004 ± 0.002%) for the majority of the
+period.
+Similar pattern (although much more discrete) was found for the
+Fig. 4. Comparison of the N2O EFs obtained in this work with the previously
+N2O emission as well (Fig. 3b). Duct 3 plus SST-E, which was in an
+published values in IPCC, 2014 and from other covered WWTPs.
+enclosed A/O configuration, exhibited an overall N2O EF of 0.464 ±
+1.136% with a TN removal of 528 ±214 kg d(cid:0) 1 (91.8% of the total load
+found that the average CH4 and N2O emissions of the whole plant were
+wf oo p ir te hL n i an O ne ) i E de) ex, n hw ti ibh cii atl e le d T t Nh ae r m eD muu cc oht v 1 ah l i p ogl fhu e 5s r 2O 8ox v- ± ea r 1n a 6d ll 0 S N kS 2 gT O - dA (cid:0)E/ 1FB a/ o tC f a ( 0 mi .. 7e u. 1, c 5 he n ± lc ol wo 1s e.4e rd 3 r 2 aA % t/ e 4 t 0i4 .v 27 e 1l. y7 1, ±± co 02 r .2 r 3e4 0s. p 95 o k n g d kC i gO n N2 g 2- e Otq –o d t (cid:0) h k1 ge a T(cid:0) E Nn 1F ,d s 1 o h6 f i0 c05 h.. 03 w7 ± e2 e2 ± 4 ju9 0 s1 . t0 . 00 3 9 3k % 6g %C O k 2 g o- C req H 4d (cid:0) k .21 g %, C(cid:0) r O1 e Ds fp a te n hc d e-
+% N w r . 1 3 o
+(65.4% of the load for Lines A to C). It was considered that, the abnor-
+IPCC default Tier 1 values for CH4 or N2O. Unit-specific analysis showed
+mally high N2O emissions for either the whole plant or each individual
+that, 97% of CH4 emissions and 91% of N2O came from the secondary
+line from Aug to Oct 2023 was caused by the temporary closure of Line E
+biological treatment stage, including equalization, anoxic, oxic, and
+in June and July, the performance of the above two configurations were
+secondary settlement. Remarkably, the CH4 and N2O EFs of an enclosed
+further compared for Oct 2022 to May 2023. It was shown that, the N2O
+A/O configuration were only 32% or 8.5% of the values for enclosed A/
+EF of Duct 3 plus SST-E significantly dropped to 0.032%, less than half of
+open O. The resulting extremely low N2O EF of Line E (0.032% kgN2O– N
+the plant-wide N2O EFremoval in the same period, with an improved TN kgT(cid:0) N1) was among the best of all full-scale WWTPs. Long-term online
+removal rate of 93.1%. As for Duct 1 plus Ox-/SST-A/B/C, the N2O EF
+monitoring should be critical to validate these findings and would be
+went down to 0.376% with a comparable TN removal rate of 64.8%. It
+included in future study. The methods and findings of this work urged
+was clear through the aforementioned analysis that, N2O emissions were
+the demand for further evaluation of GHG emissions from industrial
+affected by not only the operational conditions but also the TN removal
+WWTPs.
+rates. Within the first 8 months of the monitoring campaign, Line B
+possessed a remarkably lower TN removal of 32.3% than Lines A/C
+CRediT authorship contribution statement
+(73.8/76.6%) and D/E (82.6/91.1%) for the combination of Eq/A/O/
+SST units, which could largely explain the elevated N2O emissions from
+Qinyi Wang: Writing – original draft, Investigation, Data curation.
+Duct 1 plus Ox- and SST-A/B/C. Besides, the N2O EF of DAF plus VF and
+Yangyue Sheng: Writing – original draft, Investigation, Data curation.
+BF was substantial (0.159 ±0.144%) due to the usage of ozone contact Yili Zhang: Writing – review & editing, Project administration. Xinrun
+in spite of the small TN removal (4% of the total load). Additionally, Zhong: Investigation. Hui Liu: Writing – review & editing. Zhengfeng
+unit-specific analysis is justified due to clustering analysis (Fig. S3) as
+Huang: Investigation. Dan Li: Investigation. Hao Wu: Investigation.
+well as a comparison of their median, mean and SSE values (Fig. S4), all Yuanzhi Ni: Writing – review & editing. Junqi Zhang: Investigation.
+of which indicated significant differences in emission characteristics Weiqing Lin: Supervision. Kaipei Qiu: Writing – review & editing,
+among the units.
+Conceptualization. Xiaoyong Qian: Validation, Methodology, Funding
+acquisition, Conceptualization.
+3.4. Comparison of N2O EFs with IPCC and other covered WWTPs
+Declaration of competing interest
+Finally, the N2O EFs obtained in this work were compared to the
+previously reported values in the IPCC, 2014 refinement or from other
+The authors declare that they have no known competing financial
+covered WWTPs (Fig. 4). It was seen that, the N2O EFs from IPCC, 2014
+interests or personal relationships that could have appeared to influence
+remained low, with a weighted average value of 0.532%, till the TN load
+reached 1000 kg d(cid:0) 1, then dramatically increased to 1.691%. The trend the work reported in this paper.
+2of N 32 %O wE hF es nf o thr ec o Tv Ne r le od dW wW asT P sw a ts ad nis 1ti 0n 0c 0t, kw gi t dh (cid:0) 1a ,n oin lli ot wia el din bc yre aa s de ot po Data availability
+.3 a le s h f r
+to 1.266%. As a result, the weighted average of N2O EFs for 27 covered
+Data will be made available on request.
+WWTPs was 1.33%, 18% lower than the values in the IPCC, 2014
+refinement (1.62%). This observation partially justified the superiorly
+Acknowledgements
+low N2O EF of this industrial WWTP (0.22% at a TN load of 1675 kg
+d(cid:0) 1). A proper choice of cover configuration could further bring down This study was supported by the National Key R&D Program of China
+the N2O EF to 0.032% (i.e., the first 8 month of Line E), which was
+(2023YFC3008803, 2022YFE0137100), the National Natural Science
+among the best of all full-scale WWTPs (Table S4).
+Foundation of China (21972041, 22006037), the Natural Science
+Foundation of Shanghai Municipality (23ZR1416300), and the Tech-
+4. Conclusions
+nical Standard Program of Science and Technology Commission of
+Shanghai Municipality (22DZ2200100).
+This work presented the first set of long-term systematic GHG
+monitoring results for the full-scale industrial WWTP. All of process
+units in this plant were sampled and analyzed for 14 months. It was
+5
+
+--- Page 6 ---
+Q. Wang et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206
+Appendix A. Supplementary data Khalil, M., AlSayed, A., Liu, Y., Vanrolleghem, P.A., 2023. Machine learning for modeling
+N2O emissions from wastewater treatment plants: aligning model performance,
+complexity, and interpretability. Water Res. 245, 120667 https://doi.org/10.1016/j.
+Supplementary data to this article can be found online at https://doi. watres.2023.120667.
+org/10.1016/j.jenvman.2024.121206. Kosonen, H., Heinonen, M., Mikola, A., Haimi, H., Mulas, M., Corona, F., Vahala, R.,
+2016. Nitrous oxide production at a fully covered wastewater treatment plant:
+results of a long-term online monitoring campaign. Environ. Sci. Technol. 50,
+References 5547–5554. https://doi.org/10.1021/acs.est.5b04466.
+Li, H., You, L., Du, H., Yu, B., Lu, L., Zheng, B., Zhang, Q., He, K., Ren, N., 2024. Methane
+Bartram, D., Short, M.D., Ebie, Y., Farkas, J., 2019. 2019 Refinement to the 2006 IPCC and nitrous oxide emissions from municipal wastewater treatment plants in China: a
+Guidelines for National Greenhouse Gas Inventories, vol. 5. Waste (Chapter 6): plant-level and technology-specific study. Environ. Sci. Ecotech. 20, 100345 https://
+Wastewater treatment and discharge. https://www.ipcc-nggip.iges.or.jp/public/ doi.org/10.1016/j.ese.2023.100345.
+2019rf/pdf/5_Volume5/19R_V5_6_Ch06_Wastewater.pdf. Li, K., Duan, H., Liu, L., Qiu, R., van den Akker, B., Ni, B.-J., Chen, T., Yin, H., Yuan, Z.,
+Castro-Barros, C.M., Daelman, M.R.J., Mampaey, K.E., van Loosdrecht, M.C.M., Ye, L., 2022. An integrated first principal and deep learning approach for modeling
+Volcke, E.I.P., 2015. Effect of aeration regime on N2O emission from partial nitrous oxide emissions from wastewater treatment plants. Environ. Sci. Technol. 56,
+nitritation-anammox in a full-scale granular sludge reactor. Water Res. 68, 793–803. 2816–2826. https://doi.org/10.1021/acs.est.1c05020.
+https://doi.org/10.1016/j.watres.2011.02.028. Pamukçu, H., Yapıcıog˘lu, P.S., Yes¸ilnacar, M.I., 2023. Investigating the mitigation of
+Chen, X., Mielczarek, A.T., Habicht, K., Andersen, M.H., Thornberg, D., Sin, G., 2019. greenhouse gas emissions from municipal solid waste management using ant colony
+Assessment of full-scale N2O emission characteristics and testing of control concepts algorithm, Monte Carlo simulation and LCA approach in terms of EU Green Deal.
+in an activated sludge wastewater treatment plant with alternating aerobic and Waste Manage. Bull. 1, 6–14. https://doi.org/10.1016/j.wmb.2023.05.001.
+anoxic phases. Environ. Sci. Technol. 53, 12485–12494. https://doi.org/10.1021/ Song, C., Zhu, J.-J., Willis, J.L., Moore, D.P., Zondlo, M.A., Ren, Z.J., 2023. Methane
+acs.est.9b04889. emissions from municipal wastewater collection and treatment systems. Environ.
+Daelman, M.R., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van Sci. Technol. 57, 2248–2261. https://doi.org/10.1021/acs.est.2c04388.
+Loosdrecht, M.C.M., 2015. Seasonal and diurnal variability of N2O emissions from a Sun, S., Bao, Z., Li, R., Sun, D., Geng, H., Huang, X., Lin, J., Zhang, P., Ma, R., Fang, L.,
+full-scale municipal wastewater treatment plant. Sci. Total Environ. 536, 1–11. Zhang, X., Zhao, X., 2017. Reduction and prediction of N2O emission from an
+https://doi.org/10.1016/j.scitotenv.2015.06.122. Anoxic/Oxic wastewater treatment plant upon DO control and model simulation.
+Desloover, J., De Clippeleir, H., Boeckx, P., Du Laing, G., Colsen, J., Verstraete, W., Bioresour. Technol. 244, 800–809. https://doi.org/10.1016/j.biortech.2017.08.054.
+Vlaeminck, S.E., 2011. Floc-based sequential partial nitritation and anammox at full Toyoda, S., Suzuki, Y., Hattori, S., Yamada, K., Fujii, A., Yoshida, N., Kouno, R.,
+scale with contrasting N2O emissions. Water Res. 45, 2811–2821. https://doi.org/ Murayama, K., Shiomi, H., 2011. Isotopomer analysis of production and
+10.1016/j.watres.2014.10.056. consumption mechanisms of N2O and CH4 in an advanced wastewater treatment
+Doorn, M.R.J., Towprayoon, S., Vieira, S.M.M., Irving, W., Palmer, C., Pipatti, R., system. Environ. Sci. Technol. 45, 917–922. https://doi.org/10.1021/es102985u.
+Wang, C., 2006. 2006 IPCC Guidelines for National Greenhouse Gas Inventories, vol. Valk, L.C., Peces, M., Singleton, C.M., Laursen, M.D., Andersen, M.H., Mielczarek, A.T.,
+5. Waste (Chapter 6): Wastewater treatment and discharge. https://www.ipcc-nggip. Nielsen, P.H., 2022. Exploring the microbial influence on seasonal nitrous oxide
+iges.or.jp/public/2006gl/pdf/5_Volume5/V5_6_Ch6_Wastewater.pdf. concentration in a full-scale wastewater treatment plant using metagenome
+Duan, H., van den Akker, B., Thwaites, B.J., Peng, L., Herman, C., Pan, Y., Ni, B.-J., assembled genomes. Water Res. 219, 118563 https://doi.org/10.1016/j.
+Watt, S., Yuan, Z., Ye, L., 2020. Mitigating nitrous oxide emissions at a full-scale watres.2022.118563.
+wastewater treatment plant. Water Res. 185, 116196 https://doi.org/10.1016/j. Vasilaki, V., Volcke, E.I.P., Nandi, A.K., Van Loosdrecht, M.C.M., Katsou, E., 2018.
+watres.2020.116196. Relating N2O emissions during biological nitrogen removal with operating
+Gruber, W., Villez, K., Kipf, M., Wunderlin, P., Siegrist, H., Vogt, L., Joss, A., 2020. N2O conditions using multivariate statistical techniques. Water Res. 140, 387–402.
+emission in full-scale wastewater treatment: proposing a refined monitoring strategy. https://doi.org/10.1016/j.watres.2018.04.052.
+Sci. Total Environ. 699, 134157 https://doi.org/10.1016/j.scitotenv.2019.134157. Vasilaki, V., Conca, V., Frison, N., Eusebi, A.L., Fatone, F., Katsou, E., 2020. A knowledge
+IPCC, 1997. Revised 1996 IPCC guidelines for national greenhouse gas inventories. discovery framework to predict the N2O emissions in the wastewater sector. Water
+Workbook. Module 6: Waste. Volume 2, 6.23. https://www.ipcc-nggip.iges.or.jp/p Res. 178, 115799 https://doi.org/10.1016/j.watres.2020.115799.
+ublic/gl/guidelin/ch6wb2.pdf. Wang, Q., Sheng, Y., Song, N., Zhang, J., Zeng, S., Qian, X., Qiu, K., Liu, Q., 2023.
+IPCC, 2014. Climate Change 2014: Mitigation of Climate Change. Contribution of Progress of CH4 and N2O monitoring in full-scale wastewater treatment process.
+Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Environ. Eng. 41, 51–60. https://doi.org/10.13205/j.hjgc.202310008.
+Climate Change. Cambridge University Press, Cambridge, United Kingdom and New Yao, H., Gao, X., Guo, J., Wang, H., Zhang, L., Fan, L., Jia, F., Guo, J., Peng, Y., 2022.
+York, NY, USA. https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5 Contribution of nitrous oxide to the carbon footprint of full-scale wastewater
+_full.pdf. treatment plants and mitigation strategies - a critical review. Environ. Pollut. 314,
+IPCC, 2022. Climate Change 2022: Mitigation of Climate Change. Contribution of 120295 https://doi.org/10.1016/j.envpol.2022.120295.
+Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Yapıcıog˘lu, P., 2021. Minimization of greenhouse gas emissions from extended aeration
+Climate Change. Cambridge University Press, Cambridge, UK and New York, NY, activated sludge process. Water Practi. Technol. 16, 96–107. https://doi.org/
+USA. https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_W 10.2166/wpt.2020.100.
+GIII_FullReport.pdf.
+6

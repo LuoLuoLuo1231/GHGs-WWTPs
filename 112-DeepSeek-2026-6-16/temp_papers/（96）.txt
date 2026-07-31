@@ -1,0 +1,400 @@
+--- Page 1 ---
+Next Energy 7 (2025) 100289
+Contents lists available at ScienceDirect
+Next Energy
+journal homepage: www.sciencedirect.com/journal/next-energy
+Research article
+Reduction of energy consumption and greenhouse gas emissions in
+]]
+]]
+wastewater treatment plant: A case study of utilizing anaerobic sludge ]]]]]]
+digestion
+Man-Mei Huanga,c, Ming-Ho Panb, Feng-Yuan Changc, Chin-Chao Chend, Chiu-Yue Lina,d,⁎
+a Department of Environmental Engineering and Science, Feng Chia University, Taichung, Taiwan
+b Department of Electrical Engineering, National Chung Hsing University, Taichung, Taiwan
+c NingSiang Technology Co, Ltd, Taichung, Taiwan
+d Green Energy and Biotechnology Industry Research Center, Feng Chia University, Taichung, Taiwan
+A R T I C L E I N F O A B S T R A C T
+Keywords: The energy consumption of a wastewater treatment plant (WWTP) is influenced by many factors, such as the
+Anaerobic digestion wastewater flow rate, organic strength, and the treatment process for the liquid and sludge. In this study, a
+Biohydrogen complete inventory of energy consumption and greenhouse gas (GHG) emissions in the WWTP of Qingsui
+Energy consumption Highway Rest Station was carried out. In this plant, the aeration blowers were used in some units, including the
+Greenhouse gases emission
+aerobic sludge digestion tank, and they accounted for about 50% of the total power consumption. Four plant
+Methane
+operation scenarios, including the existing case of aerobic sludge digestion and its replaced cases of using
+Sludge digestion
+anaerobic sludge digestion with/without biogas power generators, were applied. The comparison results indicate
+Wastewater treatment plants
+that for these scenarios inducing anaerobic sludge digestion, the energy consumption and GHG emissions would
+be reduced by 5.8–13.5% and 13.4–19.0%, respectively. This case study provides a comparison of some feasible
+engineering strategies for reducing energy consumption and GHG emissions in an existing domestic WWTP that
+uses aerobic sludge digestion.
+1. Introduction and CH4 emissions, with 72% of CH4 emissions associated with sludge
+treatment processes [13,14]. This is primarily due to anaerobic reac-
+In operating wastewater treatment plants (WWTPs), focus has been tions in sludge thickeners or anaerobic digesters. Anaerobic reactions
+on how to improve the treatment efficiency to achieve good effluent result in liquid (short-chain fatty acids and alcohols) and gaseous pro-
+quality [1–3] and to enhance anaerobic digestion (AD) of sludge [4–6]. ducts (methane and carbon dioxide). Approximately 1% of the input
+However, reducing energy consumption and greenhouse gas (GHG) chemical oxygen demand (COD) in WWTPs is released as CH4 into the
+emissions from WWTPs is considered as one of the strategies for environment [15]. For indirect GHG emissions, it is from electricity
+reaching net-zero emissions [7,8]. The sources of GHG emissions from consumption for wastewater conveyance (pumping), treatment pro-
+WWTPs include electricity use, chemical consumption, and GHGs (such cesses (aeration), sludge dewatering, and process control. Therefore,
+as methane and nitrous oxide) emitted from various biological treat- using anaerobic sludge digestion would be a useful strategy for redu-
+ment units. Studies have shown that WWTPs consume more than 1% of cing energy consumption or even increasing energy sources [16].
+global energy consumption. Typical WWTPs have energy consumption Methane is the main component of biogas produced in AD of or-
+ranges of 0.3–0.8 kWh/m3 [9]. This energy consumption accounts for ganics such as wastewater sludges and agricultural wastes [17]. Using
+47–50% of the total power consumption in WWTPs [10]. These facts such biogas to generate electricity on-site via a combined heat and
+indicate the significance of reducing energy consumption and GHG power (CHP) system is very popular [18]. On the other hand, biohy-
+emissions in operating WWTPs. Newly constructed low-carbon emission drogen produced from various biomasses via anaerobically biological
+WWTPs have proven effective in reducing GHG emissions [10–12]. methods is attracting attention for 2 decades [17–19]. Moreover, 2-
+GHG emissions from WWTPs have 2 types: direct and indirect ways. stage AD systems having hydrogenic and methanogenic reactors have
+For direct emissions, biological treatment units at WWTPs produce N2O been used to promote digestion efficiency and higher energy recovery
+⁎ Corresponding author at: Department of Environmental Engineering and Science, Feng Chia University, Taichung, Taiwan.
+E-mail address: cylin@fcu.edu.tw (C.-Y. Lin).
+https://doi.org/10.1016/j.nxener.2025.100289
+Received 6 April 2025; Accepted 8 April 2025
+2949-821X/© 2025 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+M.-M. Huang, M.-H. Pan, F.-Y. Chang et al. Next Energy 7 (2025) 100289
+Fig. 1. Wastewater treatment process and greenhouse gas emission units in the wastewater treatment plant at Qingsui Highway Rest Area, Taichung, Taiwan. MBR
+= membrane bioreactor.
+[20,21]. Therefore, scenarios of using biogases (biohydrogen and bio-
+Table 1
+methane) for electricity generation were proposed in the present study.
+Four scenarios assumed for the Qingsui WWTP.
+Based on the significant influences of wastewater treatment pro-
+cesses on energy consumption and GHG emissions, this study aimed to Scenarios Type of sludge Combined heat and
+digester power (CHP) system
+obtain a process that could easily reach the purpose of reducing these 2
+issues. Firstly, a WWTP was selected and its present energy consump- A (Existing case) Aerobic digester No
+tion and GHG emissions were evaluated as the baseline values (Scenario B (Assumed case) Methane fermentation No
+A). Secondly, 3 operational scenarios of utilizing anaerobically-gener- C (Assumed case) Methane fermentation Yes
+D (Assumed case) Hydrogen/Methane Yes
+ated methane and hydrogen in CHP systems are hypothesized
+fermentation
+(Scenarios B-D), and the values of energy consumption and GHG
+emissions were calculated. Then these values are compared with those
+of the existing system (Scenario A) to confirm the most potential op- 2.2. Assumptions of utilizing anaerobically-generated biohydrogen and
+eration mode. biomethane
+The novelty of this work is showing how to introduce a fermentative
+biohydrogen production technology into existing domestic WWTPs that Table 1 summarizes the 4 scenarios (a baseline system A and 3 al-
+want to replace aerobic sludge digestion for effectively reducing energy ternative Scenarios B-D). These scenarios were evaluated in terms of
+consumption and GHG emissions. calculating energy consumption and GHG emissions, from which the
+most reducing potential was obtained.
+Scenario A: The existing wastewater treatment process utilized a
+2. Materials and methods
+combination of activated sludge and MBR systems to remove ammonia
+nitrogen and organic pollutants. Sludge was treated using aerobic diges-
+The WWTP in Qingsui Highway Service Area, Taichung, Taiwan was
+tion; the aerobic sludge digester volume, sludge concentration, waste
+investigated. Four scenarios of not utilizing or utilizing anaerobically- sludge, and sludge residence time were 100 m3 (5*5*4), total solids
+generated hydrogen and methane were hypothesized to explore the 8600 ± 465 mg/L, 12.9 m3/d, and 186 h, respectively. The wastewater
+potential in reducing energy consumption and GHG emissions.
+was mainly from restaurants and domestic sources, therefore, having high
+concentrations of grease and ammonia nitrogen that were treated using
+2.1. The WWTP studied activated sludge and MBR systems. Aerobic digestion was used to treat the
+sludge to reduce sludge volume and minimize odor generation. The power
+The Qingsui Highway Service Area was constructed in 2003 and was primarily consumed in pumping and aeration.
+receives approximately 32,000 population equivalents (PEs) daily, with Scenario B: The wastewater treatment systems were similar to those
+a maximum capacity of 51,000 PE. The plant treated approximately of Scenario A. But, in sludge treatment, the aerobic digestion was re-
+800 tons of wastewater daily, with about 50% of the effluent being placed by AD, which has the advantages of not requiring aeration and
+recycled for toilet flushing. Fig. 1 plots the wastewater treatment pro- producing less sludge.
+cess, including primary treatment units (coarse and fine screens), Scenario C: The wastewater and sludge treatment systems were si-
+physical treatment units (equalization and primary sedimentation), milar to those of Scenario B. However, the biogas (mainly methane)
+nitrification and denitrification units (anoxic/aeration/membrane produced from the anaerobic digester was converted into electricity via
+bioreactor [MBR]), and reuse units (sand filtration, disinfection, and a biogas generator to obtain renewable energy. Compared with the
+water reuse). In the wastewater treatment process, primary and waste existing process, this scenario reduced aeration power consumption and
+sludge were pumped into thickeners. Thickened sludge was pumped generated bioenergy, albeit at higher costs.
+into an aerobic digester for stabilization and then transferred to a belt Scenario D: The wastewater and sludge treatment systems were si-
+filter for dewatering. Fig. 1 also shows the producing units of GHG N2O, milar to that of Scenario B. However, in sludge treatment, a 2-stage AD
+CO2, and CH4. It is noted that Fig. 1 is plotted to show the treatment including hydrogenesis and methanogenesis was used to produce hy-
+units that might emit GHGs. However, for simplicity, the water quality drogen and methane, respectively for being converted into electricity
+variation between influent and effluent was used to calculate the plant via generators to obtain renewable energy. Hydrogen as a fuel has high
+emissions. combustion efficiency.
+2
+
+--- Page 3 ---
+M.-M. Huang, M.-H. Pan, F.-Y. Chang et al. Next Energy 7 (2025) 100289
+Table 2 2.3.2. N2O emissions from nitrification-denitrification
+Characteristics of the influent and effluent in the Qingsui WWTP. GHG emissions from WWTPs include direct and indirect emissions
+of carbon dioxide, methane, and nitrous oxide. The global warming
+Parameters Influent Effluent
+potentials (GWPs) of CH₄ and N2O are 27 and 273 times that of CO₂
+Population equivalent 32,000 - equivalent (CO₂e), respectively (IPPC Guidelines 2024 [22]). Carbon
+F pl Ho w rate (m3/d) 8 70 .60 - dioxide is from organic matter biodegradation, NO2 from biological
+± 0.5 7 .6±0.3
+denitrification reactions, and methane from anaerobic reactions.
+Chemical oxygen demand (COD, mg/L) 757.7±425.8 24.0±7.1
+Biochemical oxygen demand (BOD, mg/L) 281.4±169.3 8.3±2.6 The nitrification and denitrification in wastewater treatment would
+Total suspended solid (TSS, mg/L) 230.3±133.8 12.9±4.6 release some N2O gas. The emissions of N2O and their CO₂e were es-
+Total nitrogen (TN, mg/L) 270.2±64.5 3.4±2.6 timated using Eqs. 3 and 4 [23,24]. IPCC reported that approximately
+Total phosphorus (TP, mg/L) 12.3±8.7 2.3±1.8 0.5% of total influent nitrogen entering WWTPs is converted to N2O
+Note: Sampling number was 58 during January 2019 to October 2023. [22]:
+N2O emission = Q *Ntotal *0.005*365 (3)
+N2Oemission: Total nitrogen oxide emissions (kg/y)
+The operation parameters of the existing treatment system and la- Q: Average influent flow rate (m3/d)
+boratory-developed sludge digestion parameters were used to evaluate Ntotal: Total nitrogen concentration in influent (kg N/m3).
+the system.
+2.3.3. Greenhouse gas production in anaerobic digestion
+2.3. Energy consumption and greenhouse gas emissions analyses
+CO2,eq = N2Oemission*GWPN2O = N2Oemission*273 (4)
+To assess the energy consumption and GHG emissions of the WWTP,
+operational data from the plant over a 4-year period were collected and GWPN2O: Global warming potential for N2O.
+analyzed. Based on these data, GHG emissions were estimated con-
+sidering the characteristics of influent and effluent. Qgas = 0.9 m3/kg VSS destroyed * (VSSin-VSSout) (5)
+The collected wastewater characteristics data included BOD, COD, Qgas: Total gas production (m3/d)
+TSS, and TN. These data were used to calculate GHG emissions based on
+VSSin: Volatile suspended solids in influent sludge to digester (kg/d)
+the differences of water quality between influent and effluent. The ef-
+VSSout: Volatile suspended solids in digester sludge (kg/d).
+fluent not only met the discharge standards specified by Taiwan reg-
+ulations but also achieved a 50% water recycling rate. Table 2 sum-
+Methane emission is calculated using Eq. (6):
+marizes the characteristics of influent and effluent of the treatment
+CH4
+plant. CH =Q production* *0.644*365
+4emission gas total gas (6)
+2.3.1. Energy consumption analysis
+esT sh ee tc ia al lc fu ol ra eti so tn o af tC inO g2 e Hm Gis s ei mon iss r ioes nu sl ati sn sg cfr iao tm e wne itr hg y nco ern gs yu m inp pt uio tsn CC HH4 4/em tois ts aio ln g: aM s e =th a 0n .7e . emission (kg/y)
+is n im G s o ed e .
+The carbon dioxide equivalent for methane emissions is calculated
+A key indicator of CO2 emissions from energy consumption is the en-
+using Eq. 7:
+ergy intensity within the WWTP (energy consumption per cubic meter
+of wastewater treated). The carbon emission factor of electricity is CO2eq = CH4emission*GWPCO2 = CH4emission*27 (7)
+0.494 kg CO2e/Kwh in Taiwan, which is calculated as
+GWPCO2: Global warming potential for CH4.
+Carbon emission The baseline GWP for carbon dioxide is 1. Carbon dioxide emissions
+= Carbon emission of electricity carbon emission of line lose are calculated using Eq. 8:
+Total electricity sales by the electricity industry (1) CO2
+CO =Q production* *1.77*365
+The daily and monthly electricity consumption was measured via 2emission gas total gas (8)
+electricity meters. To gain a comprehensive understanding of energy
+CO2emission: Carbon dioxide emission (kg/y)
+consumption at the WWTP, various mechanical design parameters were
+CO2/total gas = 0.3.
+collected, including screens, chemical dosing equipment, pumps, sludge
+dewatering units, blowers, and lighting fixtures. It is noted that the
+most accurate methods are to measure the power consumption of all 3. Results and discussion
+equipment via their electricity meters, but it is difficult for many aux-
+iliary equipment, such as lighting equipment, air conditioning equip- 3.1. Energy consumption of the Qingsui WWTP
+ment, sewage pumps, etc. to be installed with meters in the field.
+Therefore, a more practical approach was used here, where daily and Due to geographic limitations, this Qingsui WWTP used many
+monthly electricity consumption was measured by meters as the total pumps to transport wastewater to each treatment unit: two 7 HP
+electricity consumption of the whole plant, and other equipment was pumps, six 5 HP pumps, and two 3 HP pumps. The power used was on
+calculated by power and operating time. average 409 kWh/day and 3400–3800 kWh/month. The energy con-
+The electrical energy consumption is calculated using Eq. 2: sumption calculated by Eq. 2 was 1.18–1.37 kWh/m3. This value is
+much higher than 0.3–0.48 kWh/m3, which is used in the activated
+Ee = Ptotal/Q = (P1*T1+P2*T2+P3*T3…….+PN*TN)/Q (2)
+sludge process for treating wastewater and AD process for treating
+Ee: Electrical energy (kWh/m3) sludge [9,25]. This fact indicates the necessity of reducing the energy
+consumption of the plant. Table 3 summarizes total and separate energy
+Ptotal: Total electrical power (kWh/d)
+consumption values in the Qingsui WWTP of the 4 scenarios and the
+PN: Electrical power (kW)
+literature. As shown in Table 4, the Qingsui WWTP used aerobic sludge
+QTN : O vp ere ara gt ei o inn t uim ene ( flh o/ wd)
+: A fl t r a te (m3/d). digestion, and its energy consumption was 0.589 kWh/m3
+(171,897 kWh/y), and this is much lower than the reported value of
+3
+
+--- Page 4 ---
+M.-M. Huang, M.-H. Pan, F.-Y. Chang et al. Next Energy 7 (2025) 100289
+Table 3
+Total and separate energy consumptions in the Qingsui WWTP and the literature.
+Type of Process Energy consumption Distribution of energy consumption (%) References
+(kWh/m3) Aeration Sludge Other units
+Activated sludge with anaerobic digester 0.48 48 14 38 Hao et al. [9]
+Activated sludge with anaerobic digester 0.3 75 7 18 Maktabifard et al. [12]
+Activated sludge with aerobic digester 1.37 47 12 43 This study (Scenario A)
+Activated sludge with aerobic digester 1.29 50 4 46 This study (Scenario B)
+Activated sludge with anaerobic digester 1.18 50 5 45 This study (Scenario C)
+Activated sludge with 2-stage anaerobic digester 1.19 50 5 45 This study (Scenario D)
+1.02 kWh/m3 [25]. If the value of 3400–3800 kWh/month was calcu- stage acidogenesis-methanogenesis AD system [29] are applied;
+lated based on PE [25], then a value of 5.36 kWh/PE per year was 1252 kWh/month (594 and 658 kWh/month from hydrogen and me-
+obtained. thane, respectively) of power was obtained for this WWTP. Here, the
+Blowers are the main power-consuming facilities in WWTPs. In calculation conditions were similar to those of Scenario C, and 700 L of
+Qingsui WWTP, mixing in equalization tank, aeration tanks, MBR, and hydrogen was assumed to be converted into 1 kWh of electricity.
+aerobic sludge digester were the blower-used units. The energy con- Higher methane yield rates would increase energy recovery in AD
+sumption in Scenarios A-D (Table 3) accounted for 47–50% of the total systems. To reach this purpose, there are many approaches could be
+power consumption in the plant. This value agrees with a report value used, such as pretreating sludge by using acid [30], wet oxidation and
+[10]. Moreover, in handling aerobic or anaerobic sludge digestion, steam explosion [31], and activity-improved enzymes [32].
+pumping and mixing are the main energy-consumption units and,
+therefore, to understand the sludge rheological behavior is important 3.3. GHG emissions for each scenario
+because this could minimize the operation costs [26,27].
+Direct and indirect GHG emissions were discussed in this work.
+3.2. Energy consumption for each scenario Direct GHG emissions were the emissions during wastewater treatment,
+including CH4, CO2, and N2O, and they were calculated using Eqs. 2–7.
+Scenario A was the present treatment process, and its energy con- Table 4 summarizes the emission values. In Scenario A, the present
+sumption had been mentioned in the last section. The power required operation case, the main emission was N2O with a value of 2945 kg/y
+was calculated to be 2022 kWh/month. This power demand was the (= 803,911 kg/y CO2,eq). In Scenario B, N2O was reduced by
+equipment required for sewage treatment, including pumping motors, 160,783 kg/y CO2,eq (20% of Scenario A), but methane and carbon
+blowers, monitoring equipment, filtration equipment, and related dioxide were produced (65,738 kg/y CO2,eq) and resulted in a total
+lighting equipment, etc. Blowers were the most energy-consuming parts emission of 708,866 kg/y CO2,eq. In Scenario C, biogas methane was
+(59%). Motors and other units accounted for 12% and 20%, respec- converted into electricity, and the total emission was 647,042 kg/y
+tively, of the total power consumption. In Scenario B, the same process CO2,eq. In Scenario D, biogas hydrogen and methane were converted
+as Scenario A is used for wastewater treatment, but AD is used to treat into electricity and the total emission was 646,575 kg/y CO2,eq. These
+sludge. Due to no aeration and less sludge production, therefore, the results show that both Scenarios C and D had least emission for the 4
+energy consumption decreased to 4% (from 12%, Scenario A). scenarios (Table 4). Moreover, Table 4 shows that hydrogen brought a
+In Scenario C, the same process of Scenario A is used for wastewater lower emission of 467 kg/y CO2,eq, indicating the benefit of using hy-
+treatment, but AD is used to treat sludge, and its biogas methane is drogen. On the other hand, a 2-stage AD would need more energy
+converted into green electricity. A methane yield rate of 416 mL/g (Table 5) because of the acidogenesis operation, and this would cause
+volatile solid (VS) [28], daily waste sludge volume 12.9 m3/d, sludge an emission and then reduce the emission reduction effectiveness.
+concentration 8600 ± 430 mg/L, and the actual operation data of There is a measure to express a GHG emission via a PE basis [33]. For
+methane 800 L being converted into 1 kwh of electricity were applied, the present work, the values were 27.78 and 22.51 CO2e kg/PE-y for
+and 1222 kWh/month of power was obtained for this WWTP. Com- aerobic and anaerobic sludge digestion, respectively; the reduction ef-
+pared to the existing scenario, the energy consumption was reduced by ficiency was 19% and is close to a report of 22.9% [33].
+800 kWh/month. Scenario C has the advantage of lowering energy To reduce the GHGs emission for each scenario studied, some
+consumption for aeration and obtaining renewable bioenergy from compensatory measures discussed by Ranieri et al. [16,33] would be
+methane-electricity generation. In Scenario D, the same process as useful: amelioration of CH4 production and capture in the anaerobic
+Scenario A is used for wastewater treatment, but a 2-stage AD is used to step, recirculation of thickened sludge, reduction of biogas systems
+treat sludge, and its biogases, biohydrogen, and biomethane are con- leakage, and aerobic digester and thickener coverage. Using artificial
+verted into green electricity via internal combustion engines. The hy- intelligence-based control for upgrading AD processes to reduce the
+drogen and methane yields of 177 and 224 mL/gVS, respectively, in a 2- GHGs emission is also reported [34].
+Table 4
+Annual emissions of N2O, CH4, and CO2 from different scenarios.
+Scenario N2O (kg/y) CH4 (kg/y) CO2 (kg/y) Total emission CO2eq
+N2Oemission CO2,eq CH4emission CO2,eq CO2emission CO2,eq
+A 2945 803,911 0 0 0 0 803,911
+B 2355 643,128 2333 62,990 2748 2748 708,866
+C 2355 643,128 0 0 3914 3914 647,042
+D 2355 643,128 0 0 3447 3447 646,575
+4
+
+--- Page 5 ---
+M.-M. Huang, M.-H. Pan, F.-Y. Chang et al. Next Energy 7 (2025) 100289
+Table 5
+Annual energy consumptions and GHG emissions from different scenarios.
+Scenario Energy consumption (kWh/y) Carbon emission CO2e (kg/y)
+Indirect Direct Total
+A 171,897 (-)a 84,917 803,911 888,828 (-)a
+B 161,878 (5.8%)a 79,967 708,866 788,833 (11.3%)a
+C 148,738 (13.5%)a 73,477 647,042 720,519 (18.9%)a
+D 149,290 (13.2%)a 73,750 646,575 720,325 (19.0%)a
+Note: 1 kWh = 0.494 kg CO2,eq in Taiwan.
+a Reduction rate compared with Scenario A (baseline).
+3.4. Significances of the obtained results In the Qingsui WWTP, the energy consumption accounted for 47–50%
+of the total power consumption, but its value was much more higher
+3.4.1. Effectiveness of using AD for sludge treatment than the literature value with reaching 1.18–1.37 kWh/m3. This plant
+Table 5 summarizes the total energy consumption and GHG emis- had energy consumption and GHG emissions values of 172,000 kWh/y
+sion values of the 4 scenarios. An observation on Table 5, based on the and 962,400 CO2e kg/y. An application of AD both decreases power
+values obtained, it is known that Scenarios C and D were at the same consumption and GHG emissions. Utilization of AD technology and its
+level of energy consumption and GHG emissions. On the other hand, biogas for generating green electricity effectively reduces energy con-
+based on the values of Scenario A (the baseline), the reduction rates in sumption and GHG emissions to values of 149,000 kWh/y and 779,300
+energy consumption and GHG emissions for Scenarios B, C, and D were CO2e kg/y. Moreover, when compared with the existing operation
+5.8%, 13.5%, and 13.2% and 11.3%, 18.9%, and 19.0%, respectively. mode, utilizations of both single stage and 2-stage AD processes and
+These facts indicate that, for the Qingsui WWTP, if the existing aerobic their biogas-based electricity would result in same reduction levels of
+sludge digestion was replaced with an anaerobic sludge digestion pro- power consumption and GHG emissions with values of 13% and 19%,
+cess, the reductions of energy consumption and GHG emissions would respectively, but the later process has other benefit of giving more
+reach 5.8–13.5% and 13.4–19.0%, respectively. The benefits of using energy recovery and lower pollutant-emission.
+AD for sludge treatment were shown as both could reduce energy
+consumption and GHG emissions. CRediT authorship contribution statement
+3.4.2. Importance of using biogas for power generation Man-Mei Huang: Conceptualization, Methodology, Formal ana-
+AD systems are well used in WWTPs for producing biogas and biogas- lysis, Investigation, Writing - original draft. Ming-Ho Pan:
+based power [5,35]. In Scenario B, the same process as Scenario A was Methodology, Formal analysis, Investigation. Feng-Yuan Chang:
+used for wastewater treatment, and only aerobic digestion was replaced Conceptualization, Methodology, Validation, Formal analysis,
+with AD to treat sludge, but its biogas was not converted into electricity for Investigation, Visualization. Chin-Chao Chen: Methodology.
+domestic usage. In this case, though the total GHG emission was less than Validation, Formal analysis. Chiu-Yue Lin: Conceptualization,
+that of Scenario A (the existing operation mode) (Table 5), note that the Methodology, Validation, Formal analysis, Investigation, Writing - re-
+GHG effect of methane is 27 times of carbon dioxide. To reduce GHG view & editing, Supervision, Funding acquisition.
+emissions, therefore, AD and biogas power generation must be applied
+simultaneously. The importance of introducing biogas power generation Declaration of Competing Interest
+also could be shown from the results given in Table 5.
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influ-
+3.4.3. Comparison of using 1-stage and 2-stage AD
+ence the work reported in this paper.
+Conventional 1-stage AD systems are well used in WWTPs. Higher
+biogas production would generate more electricity for self-sufficiency in
+Acknowledgments
+WWTPs [5]. Their biogas production could be effectively increased by
+process optimization, codigestion, or sludge pretreatments [4,6,28,32]. On
+The authors gratefully acknowledge the financial supports by the
+the other hand, 2-stage AD systems have been reported as having the
+National Council of Science and Technology, Taiwan (NSTC 113-2218-
+advantages of increasing biogas production and energy recovery (with an
+E-035-002).
+increment of 8–41%) [20,21]. However, in the present work, a comparison
+of the results of Scenarios C and D shows that 1-stage and 2-stage AD
+References
+resulted in no marked differences in energy-saving and GHG emissions-
+reducing (Table 5). Nevertheless, it has been reported that 2-stage AD
+[1] W. Luo, F.I. Hai, W.E. Price, W. Guo, H.H. Ngo, K. Yamamoto, et al., High retention
+systems could produce hythane (a gas mixture of hydrogen and methane), membrane bioreactors: challenges and opportunities, Bioresour. Technol. 167
+which has higher combustion efficiency and lower pollutant emissions (2014) 539–546, https://doi.org/10.1016/j.biortech.2014.06.016.
+[2] S. Mardani, V. Aghabalaei, M. Tabeshnia, M. Baghdadi, Modification of conven-
+(with a reduction of 30%) [36,37] using commercial internal combustion
+tional coagulation flocculation process with graphene oxide and magnetite nano-
+engines. Therefore, a further study on using a 2-stage AD system to pro- particles for turbidity removal from surface water, Desalin. Water Treat. 229 (2021)
+duce hythane for electricity generation would be interesting in under- 206–216, https://doi.org/10.5004/dwt.2021.27393.
+[3] L. Zanetti, N. Frison, E. Nota, M. Tomizioli, D. Bolzonella, F. Fatone, Progress in
+standing its potential in reducing energy consumption and GHG emissions.
+real-time control applied to biological nitrogen removal from wastewater. A short-
+review, Desalination 286 (2012) 1–7, https://doi.org/10.1016/j.desal.2011.11.
+4. Conclusion 056.
+[4] V. Corbellini, A. Catenacci, F. Malpei, Hydrogenotrophic biogas upgrading in-
+tegrated into WWTPs: enrichment strategy, Water Sci. Technol. 79 (4) (2019)
+Based on the recent 4-year data of wastewater characteristics, flow 759–770, https://doi.org/10.2166/wst.2019.096.
+rates, and power consumptions, a WWTP in the present operation case [5] D. Lima, G. Appleby, L. Li, A scoping review of options for increasing biogas pro-
+duction from sewage sludge: challenges and opportunities for enhancing energy
+and 3 scenarios of utilizing AD technology to treat sludge were in-
+Self-sufficiency in wastewater treatment plants, Energies 16 (2023) 2369, https://
+vestigated to evaluate their energy consumptions and GHG emissions. doi.org/10.3390/en16052369.
+5
+
+--- Page 6 ---
+M.-M. Huang, M.-H. Pan, F.-Y. Chang et al. Next Energy 7 (2025) 100289
+6] M.B. Miranzadeh, M. Jafarsalehi, J. Akram, M. Ebrahimi, A. Mazaheri, systems, Bioresour. Technol. 360 (2022) 127633, https://doi.org/10.1016/j.
+M. Mashayekh, Boosting biogas production in the wastewater treatment plants: a biortech.2022.127633.
+narrative review on co-digestion of sewage sludge with internal and external organic [22] IPCC 2024. Sixth Assessment Report. 〈https://www.ipcc.ch/assessment-report/ar6〉.
+waste, Bioresour. Technol. Rep. 26 (2024) 101856. [23] H. Nayeb, M. Mirabi, H. Motiee, A. Alighardashi, A. Khoshgard, Estimating
+[7] S. Cheng, J. Long, B. Evans, Z. Zhan, T. Li, C. Chen, et al., Non-negligible green- greenhouse gas emissions from Iran’s domestic wastewater sector and modeling the
+house gas emissions from non-sewered sanitation systems: a meta-analysis, Environ. emission scenarios by 2030, J. Clean. Prod. 236 (2019) 117673.
+Res. 212 (2022) 113468, https://doi.org/10.1016/j.envres.2022.113468. [24] L.J.P. Snip, Quantifying the greenhouse gas emissions of wastewater treatment
+[8] V. Parravicini, P.H. Nielsen, D. Thornberg, A. Pistocchi, Evaluation of greenhouse plants, Environ. Sci. Neth. (2010) 8–13.
+gas emissions from the European urban wastewater sector, and options for their [25] E. Ranieri, S. Giuliano, A.C. Ranieri, Energy consumption in anaerobic and aerobic
+reduction, Sci. Total Environ. 838 (2022) 156322, https://doi.org/10.1016/j. based wastewater treatment plants in Italy, Water Pract. Technol. 16 (3) (2021)
+scitotenv.2022.156322. 851–863, https://doi.org/10.2166/wpt.2021.045.
+[9] X. Hao, R. Liu, X. Huang, Evaluation of the potential for operating carbon neutral [26] M.C. Collivignarelli, M. Carnevale Miino, S. Bellazzi, F.M. Caccamo, A. Durante,
+WWTPs in China, Water Res. 87 (2015) 424–431. A. Abbà, Review of rheological behaviour of sewage sludge and its importance in
+[10] Y. Chen, H. Zhang, Y. Yin, F. Zeng, Z. Cui, Smart energy savings for aeration control the management of wastewater treatment plants, Water Pract. Technol. 17 (1)
+in wastewater treatment, Energy Rep. 8 (2022) 1711–1721, https://doi.org/10. (2022) 483–491, https://doi.org/10.2166/wpt.2021.098.
+1016/j.egyr.2022.02.038. [27] X. Cao, Z. Jiang, W. Cui, Y. Wang, P. Yang, Rheological properties of municipal
+[11] M. Gandiglio, A. Lanzini, A. Soto, P. Leone, M. Santarelli, Enhancing the energy sewage sludge: dependency on solid concentration and temperature, Procedia
+efficiency of wastewater treatment plants through co-digestion and fuel cell sys- Environ. Sci. 31 (2016) 113–121, https://doi.org/10.1016/j.proenv.2016.02.016.
+tems, Front. Environ. Sci. 5 (2017) 70, https://doi.org/10.3389/fenvs.2017.00070. [28] M.S. Siti, S. Roslinda, The performance evaluation on co-digestion of domestic
+[12] M. Maktabifard, E. Zaborowska, J. Makinia, Achieving energy neutrality in was- sewage sludge and food waste for methane yield and kinetics analysis, Int. J. Integr.
+tewater treatment plants through energy savings and enhancing renewable energy Eng. 13 (3) (2021) 28–36, https://doi.org/10.30880/ijie.2021.13.03.004.
+production, Rev. Environ. Sci. Biotechnol. 17 (4) (2018) 655–689, https://doi.org/ [29] F.M.S. Silva, C.F. Mahler, L.B. Oliveira, J.P. Bassin, Hydrogen and methane pro-
+10.1007/s11157-018-9478-X. duction in a two-stage anaerobic digestion system by co-digestion of food waste,
+[13] K. Oshita, T. Okumura, M. Takaoka, T. Fujimori, L. Appels, R. Dewil, Methane and sewage sludge and glycerol, Waste Manag. 76 (2018) 339–349, https://doi.org/10.
+nitrous oxide emissions following anaerobic digestion of sludge in Japanese sewage 1016/j.wasman.2018.02.039.
+treatment facilities, Bioresour. Technol. 171 (2014) 175–181. [30] T.M. Anacleto, B. Kozlowsky-Suzuki, A. Björn, S.S. Yekta, L.S.M. Masuda,
+[14] C.E.Y. Kwok, D. Müller, C. Caldow, B. Lebègue, J.G. Mønster, C.W. Rella, et al., V.P.D. Oliveira, et al., Methane yield response to pretreatment is dependent on
+Methane emission estimates using chamber and tracer release experiments for a substrate chemical composition: a meta-analysis on anaerobic digestion systems,
+municipal waste water treatment plant, Atmos. Meas. Tech. 8 (7) (2015) Sci. Rep. 14 (2024) 1240, https://doi.org/10.1038/s41598-024-51603-9.
+2853–2867. [31] N. Dutta, R. Garrison, M. Usman, B.K. Ahring, Enhancing methane production of
+[15] M.R.J. Daelman, E.M. van Voorthuizen, U.G.J.M. van Dongen, E.I.P. Volcke, anaerobic digested sewage sludge by advanced wet oxidation & steam explosion
+M.C.M. van Loosdrecht, Methane emission during municipal wastewater treatment, pretreatment, Environ. Technol. Innov. (2022) 102923, https://doi.org/10.1016/j.
+Water Res. 46 (11) (2012) 3657–3670. eti.2022.102923.
+[16] E. Ranieri, G. D'Onghia, L. Lopopolo, P. Gikas, F. Ranieri, E. Gika, V. Spagnolo, [32] Y. Li, Y. Chen, Y. Wu, Enhancement of methane production in anaerobic digestion
+A.C. Ranieri, Evaluation of greenhouse gas emissions from aerobic and anaerobic process: a review, Appl. Energy 240 (2019) 120–137, https://doi.org/10.1016/j.
+wastewater treatment plants in Southeast of Italy, J. Environ. Manag. 337 (2023) apenergy.2019.01.243.
+1177672. [33] Z. Ranieri, G. D'Onghia, F. Ranieri, L. Lopopolo, S. Gregorio, A.C. Ranieri,
+[17] S. O-Thong, C. Mamimin, P. Kongjan, A. Reungsang, Chapter Six - Two-stage fer- Compensatory measures to reduce GHGs in wastewater treatment plants in
+mentation process for bioenergy and biochemicals production from industrial and Southern Italy, J. Water Proc. Eng. 60 (2024) 105128.
+agricultural wastewater, Adv. Bioenergy 5 (2020) 249–308, https://doi.org/10. [34] M. Khan, W. Chuenchart, K.C. Surendra, S.K. Khanal, Applications of artificial in-
+1016/bs.aibe.2020.04.007. telligence in anaerobic co-digestion: recent advances and prospects, Bioresour.
+[18] M.J.B. Kabeyi, O.A. Olanrewaju, Technologies for biogas to electricity conversion, Technol. 370 (2023) 128501, https://doi.org/10.1016/j.biortech.2022.128501.
+Energy Rep. 8 (2022) 774–786, https://doi.org/10.1016/j.egyr.2022.11.007. [35] N. Bachmann, Sustainable biogas production in municipal wastewater treatment
+[19] EBA, 2023, Biohydrogen: affordable, green and yet overlooked. European Biogas plants, IEA Bioenergy, 2015, pp. 8–11 ISBN 978-1-910154-22-9. (eBook electronic
+Association. 〈https://www.europeanbiogas.eu/biohydrogen-affordable-green-and- edition).
+yet-overlooked/〉 (Accessed April 6, 2025). [36] D. Bolzonella, F. Battista, C. Cavinato, M. Gottardo, F. Micolucci, G. Lyberatos,
+[20] A. Schievano, A. Tenca, S. Lonati, E. Manzini, F. Adani, et al., Can two-stage instead et al., Recent developments in biohythane production from household food wastes:
+of one-stage anaerobic digestion really increase energy recovery from biomass? a review, Bioresour. Technol. 257 (2018) 311–319, https://doi.org/10.1016/j.
+Appl. Energy 124 (2014) 335–342, https://doi.org/10.1016/j.apenergy.2014.03. biortech.2018.02.092.
+024. [37] M. Hans, S. Kumar, Biohythane production in two-stage anaerobic digestion system,
+[21] E. Holl, J. Steinbrenner, W. Merkle, J. Krümpel, S. Lansing, U. Baier, et al., Two- Int. J. Hydrogen Energy 44 (32) (2019) 17363–17380, https://doi.org/10.1016/j.
+stage anaerobic digestion: state of technology and perspective roles in future energy ijhydene.2018.10.022.
+6

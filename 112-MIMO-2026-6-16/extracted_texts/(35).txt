@@ -1,0 +1,635 @@
+--- Page 1 ---
+International Journal of
+Environmental Research
+and Public Health
+Article
+Insight into Greenhouse Gases Emissions and Energy
+Consumption of Different Full-Scale Wastewater Treatment
+Plants via ECAM Tool
+YuheTian1,2,ShuangLiu1,ZhengGuo1,3,NanWu4,JiaqiLiang4,RuihuaZhao1,LinlinHao1,*
+andMingZeng1,*
+1 CollegeofMarineandEnvironmentalSciences,TianjinUniversityofScience&Technology,
+Tianjin300457,China
+2 KeyLaboratoryofGreenProcessandEngineering,InstituteofProcessEngineering,
+ChineseAcademyofSciences,Beijing100190,China
+3 SchoolofEnvironmentalScienceandEngineering,ShandongUniversity,Qingdao266237,China
+4 CollegeofEngineeringandTechnology,TianjinAgriculturalUniversity,Tianjin300384,China
+* Correspondence:xilan.2009@tust.edu.cn(L.H.);ming.zeng@tust.edu.cn(M.Z.)
+Abstract:Greenhousegas(GHG)productionisoneoftheurgentproblemstobesolvedinthewastew-
+atertreatmentindustryinthecontextof“carbonneutrality”.Inthisstudy,thecarbonemissionsand
+energyconsumptionoftypicalwastewatertreatmentprocessesinChinawereevaluated,starting
+fromdifferentcitiesandwatertreatmentplants.ToolofEnergyPerformanceandCarbonEmission
+AssessmentandMonitoring(ECAM)wasused.BycomparingtheinfluentBOD ,itwasfoundthat
+5
+theenergyconsumptionforwastewatertreatmentwaspositivelycorrelatedwiththeinfluentorganic
+load. TheannualCH emissionofXi’anWWTPcanreach19,215tCO eq. Moreover,GHGsare
+4 2
+closelyrelatedtothewastewatertreatmentprocesschosen. WWTPBofKunmingusedonlyan
+Citation:Tian,Y.;Liu,S.;Guo,Z.; anaerobicprocesswithoutcontinuousaeration,withanaveragemonthlyenergyconsumptionof
+Wu,N.;Liang,J.;Zhao,R.;Hao,L.; 8.63×105kW·h. Theproportionofrecoverablebiogaswasabout90%intheGHGdischargedby
+Zeng,M.InsightintoGreenhouse thetraditionalprocess.However,theanaerobicdigestion-thermoelectriccogenerationprocesscan
+GasesEmissionsandEnergy
+maketherecoveryofthebiogasutilizationratioreach100%.ComparedtotheShuozhouWWTPand
+ConsumptionofDifferentFull-Scale
+WWTPAofKunming,theStrassWWTPservedthesmallestpopulationandhadthelargesttreatment
+WastewaterTreatmentPlantsvia
+capacity,reachingthelowestenergyconsumption,consumingonly23,670kW·hpermonth. The
+ECAMTool.Int.J.Environ.Res.
+evaluationandanalysisofECAMprovidedatasupportandresearchfoundationforthewastewater
+PublicHealth2022,19,13387. https://
+treatmentplantstoimproveenergyutilizationandreducegreenhousegasemissions.
+doi.org/10.3390/ijerph192013387
+AcademicEditor:PaulB.Tchounwou Keywords:greenhousegasemission;wastewatertreatment;carbon;energyrecovery;ECAM
+Received:14September2022
+Accepted:14October2022
+Published:17October2022
+1. Introduction
+Publisher’sNote:MDPIstaysneutral
+Sewageisthecarrierofresourcesandenergy,whichcontainsalargeamountofor-
+withregardtojurisdictionalclaimsin
+ganic matter [1]. Organic matter is an energetic substance, and sewage also contains a
+publishedmapsandinstitutionalaffil-
+largenumberofplantnutrients, whichcontainsgreatchemicalenergyandthermalen-
+iations.
+ergy. However,traditionalwastewatertreatmentusuallyseparates,degradesandconverts
+pollutantsinwaterthroughvariouscomplexartificialtechnicalmeans,regardlessofthe
+consumptionofresourcesandenergy,whichisaprocessof“energyconsumption”and
+Copyright: © 2022 by the authors. “pollution transfer” [2,3]. At the same time, biosorption is being developed as an alter-
+Licensee MDPI, Basel, Switzerland. nativetreatmentmethodtoreplacetraditionalremediationmethods[4,5]. Accordingto
+This article is an open access article statistics,Chinesecarbonemissionsrankedtheforefrontoftheworld. In2014,Chinese
+distributed under the terms and urbansewageproductionwas5.546millionm3,wastewatertreatmentenergyconsump-
+conditionsoftheCreativeCommons tionaccountedfor0.73%ofthetotalelectricityconsumption,andgreenhousegas(GHG)
+Attribution(CCBY)license(https:// emissionsreached91milliontons. Citiesarethemostimportantunitsforcarbonandlocal
+creativecommons.org/licenses/by/
+airpollutantsemissionaccounting,statisticsandmanagement[6]. Studieshaveshownthat
+4.0/).
+Int.J.Environ.Res.PublicHealth2022,19,13387.https://doi.org/10.3390/ijerph192013387 https://www.mdpi.com/journal/ijerph
+
+--- Page 2 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 2of14
+wastewatertreatmentvolumesareashighas200millioncubicmetersperdayandthat
+carbonemissionsfromwastewatertreatmentsystemsaccountfor1%to2%oftotalcarbon
+emissions,morethan25%ofglobalcarbonemissions,withagrowingtrend[7–10]. The
+municipalwastewatertreatmentindustryisamajorenergysourceinChina,occupying
+alargeamountofenergyandproducingalargenumberofgreenhousegases. Underthe
+currentsituationofdoubleimprovementofsewagecollectionandpollutantremovalratio,
+theenergyconsumptionproblemofwastewatertreatmentplant(WWTP)isbecomingmore
+andmoreprominentandserious[11].
+Underthebackgroundofcarbonneutralization,thecarbonneutralizationoperationof
+low-carbonurbandomesticsewageplantsisundoubtedlythefuturedevelopmentdirection
+ofthewastewatertreatmentindustry. Thetotalamountofcarbondioxidedirectlyorindi-
+rectlyemittedbyWWTPsinacertainperiodoftimeisoffsetbyself-producedcleanenergy,
+adoptinglow-energytreatmentprocess,andimplementingenergy-savingtransformation
+ofequipment,soastorealizethenet“zeroemission”ofGHGsinWWTPs,whichhasthe
+advantagesoflowenergyconsumption,lowemission,andsustainability[12,13]. Thelatest
+researchprogressofcarbonneutralizationtechnologyinWWTPswasinvestigated,andthe
+energyconsumptionvaluewasanalyzed,inordertoprovidereferencefortherealization
+ofcarbonneutralizationoperationofurbanWWTPsinChina.
+Some studies show that the influent COD concentration of municipal wastewater
+is about 250–950 mg/L. Depending on the COD load consumed, different calculations
+have different results. But in general, its potential energy value is 1.66–1.93 kW·h/m3
+(COD=430–500mg/L) or as high as 3.09–3.86 kW·h/m3 (COD = 800–1000 mg/L) [14].
+Thetypicalenergyconsumptionofactivatedsludgeprocess(CAS)containingnitrification
+process is 0.35–0.80 kW·h/m3, which has broad research prospects for the recovery of
+residualenergyintherealizationoflowcarbonWWTP[15].
+Theso-calledlow-carbonwastewatertreatmentistherealizationofcarbonneutral-
+izationbywastewatertreatment. Itreferstothetotalamountofcarbondioxidedirectly
+orindirectlyemittedbyWWTPsinacertainperiodoftime, whichiscompletelyoffset
+bytheproductionofcleanenergy,theuseoflow-energytreatmenttechnology,andthe
+implementation of the energy-saving transformation of equipment, so as to realize the
+net “zero emission” of GHGs in WWTPs. In recent years, the research shows that the
+practicalwaysofcarbonneutralizationinWWTPsmainlyincludetheutilizationofsewage
+temperatureheatenergy,sludgecogeneration,carbonsourcecaptureofrawwater,solar
+photovoltaicpowergeneration,applicationoflow-energywastewatertreatmentprocess,
+and energy saving transformation of high-energy equipment [16,17]. For the vision of
+futurewaterrecyclingplants,Suezcompanyanalyzedits30sewageplantsoperatingin
+Franceandsummarizedfivedirections: energyefficiencyoptimization,nutrientrecovery,
+sludgereductionandreuse,bio-gasrecycling,andproductionofnewsubstances[18].
+Exploring the sustainability of WWTPs in terms of energy recyclability and envi-
+ronmentalimpactisnowthenovelchallenge. Byevaluatingtheservicepopulationand
+treatment efficiency of different WWTPs, it is possible to compare their performance
+anddeterminetheoptimaloperation,therebyreducingcarbonemissionsandachieving
+carbonneutrality.
+Thepurposeofthisstudyisto: (1)Exploretheimpactofcitysizeoncarbonemissions
+and energy consumption; (2) evaluate the energy consumption and GHG emission of
+differentbiologicaltreatmentprocessesbasedonmodifiedA2/Ooxidationditchprocess;
+(3) compare the domestic plants in China with foreign treatment plants that combine
+anaerobicdigestion.
+2. MaterialsandMethods
+2.1. StudyArea
+In this study, four cities of Shuozhou, Xi’an, Deyang and Kunming from north to
+southChinawereselected. Figure1ashowsthegeographicalrelationshipofcitiesinfour
+provinces. Becausetheterrainandlocationoftheselectedcitiesweredifferent,theycanbe
+
+--- Page 3 ---
+Int. J. Environ. Res. Public Health 2022, 19, x FOR PEER REVIEW 3 of 15
+2. Materials and Methods
+2.1. Study Area
+In this study, four cities of Shuozhou, Xi’an, Deyang and Kunming from north to
+south China were selected. Figure 1a shows the geographical relationship of cities in four
+provinces. Because the terrain and location of the selected cities were different, they can
+be compared. When comparing and analyzing the energy consumption and carbon emis-
+sions of wastewater treatment processes in Shuozhou, Xi’an and Deyang, it was possible
+to evaluate which scale and region of the city were more suitable for a particular
+wastewater treatment process.
+Shuozhou is located in the north of Shanxi Province, surrounded by mountains on
+Int.J.Environ.Res.PublicHealth2022,th19r,e1e3 3s8i7des with high terrain, and the total area of 106,000 km2 and resident populatio3nof o14f
+1,593,444. Xi’an is located in the core position of Shaanxi Province, with a total area of
+10,800 km2 and a permanent population of 13,163,000. Because there are great differences
+icno mtoppaorgerda.pWhyh ebnetcwomeepna reiansgt aanndd awneaslyt zainndg tchoemepnleerxg ytecroranisnu, mDpetyioannga nisd cchaorbseonn wemhiiscshi olnos-
+coaftewsa isnt ethwea ptelarintr weaittmh aen tottparl oacreesas oefs 6i0n,0S0h0u soqzuhaoreu ,kiXloi’manetaenrsd aDnde yaa pnegr,mitanweanst ppoopssuilbalteiotno
+oevf a3l,u45a6te,1w61h. iKchusncmalienagn ids trheeg icointyo wftihthe tchitey lwowereestm moride-sluatiittaubdlee fionr tahep asretlieccutleadr wcitays,t ewwitahte ar
+ttoretaalt mareenat opfr 2o1c,e0s0s0. km2 and a permanent population of 8,460,088.
+FFiigguurree 11.. UUrrbbaann llooccaattiioonn ooff wwaasstteewwaatteerr ttrreeaattmmeenntt pprroocceessss ((aa)) aanndd tthhee mmaaiinn iinnppuutt aanndd oouuttppuutt ddaattaa ooff
+EECCAAMM ttooooll ((bb))..
+2.2. TShhe uEoCzAhMou Tiosollo catedinthenorthofShanxiProvince,surroundedbymountainson
+threesideswithhighterrain,andthetotalareaof106,000km2 andresidentpopulation
+The Energy Performance and Carbon Emission Assessment and Monitoring (ECAM)
+of1,593,444. Xi’anislocatedinthecorepositionofShaanxiProvince,withatotalareaof
+tool was used to evaluate the GHG emissions in different stages of wastewater treatment.
+10,800km2andapermanentpopulationof13,163,000. Becausetherearegreatdifferences
+Through several field visits and investigations, researchers recorded the operation of elec-
+intopographybetweeneastandwestandcomplexterrain,Deyangischosenwhichlocates
+trical equipment in WWTPs and the data of energy estimation under different actual op-
+intheplainwithatotalareaof60,000squarekilometersandapermanentpopulationof
+eration conditions, analyzed different stages of the wastewater treatment system [19].
+3,456,161. Kunmingisthecitywiththelowestmid-latitudeintheselectedcity,withatotal
+areaof21,000km2andapermanentpopulationof8,460,088.
+2.2. TheECAMTool
+TheEnergyPerformanceandCarbonEmissionAssessmentandMonitoring(ECAM)
+toolwasusedtoevaluatetheGHGemissionsindifferentstagesofwastewatertreatment.
+Through several field visits and investigations, researchers recorded the operation of
+electricalequipmentinWWTPsandthedataofenergyestimationunderdifferentactual
+operationconditions,analyzeddifferentstagesofthewastewatertreatmentsystem[19].
+AccordingtotheretrievalofISIknowledgenetwork,theconstructiondataofECAMmodel
+camefromfivepublishedpiecesofliterature[19–23].
+The ECAM tool allows water utilities and users to assess performance in terms of
+greenhousegasemissionsandrelativeweightatvariousstagesandtoidentifypotential
+areasforimprovement,particularlyintermsofenergysavings. Thesummaryoftheinput
+
+--- Page 4 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 4of14
+andoutputdataofECAMisshowninFigure1b. AccordingtotheIntergovernmentalPanel
+onClimateChange(IPCC)andInternationalWaterAssociation(IWA)systemevaluation,
+byinputtingtheoriginaldatasuchaspopulation,waterquantity,energyestimationand
+wastewatertreatmenttype,theGHGandenergyestimationvaluesofthewatertreatment
+processwerecalculated[24].
+Theassessmenttoolcanhelpthewaterdepartmenttoconductself-helppreliminary
+analysisofpotentialprojectinvestment. TheECAMtoolsetthebaselineforenergyesti-
+mates,identifiedkeyareasforreducingGHGemissions,highlightedcost-savingpoints
+andprovidedaglobalcarbonreductionmapforwateragencies[25]. Itcanmodifysome
+basicparametersbyitself,andmakethebenchmarkanalysisofgreenhousegasemissions
+accordingtotheactualsituationofitsownregionorproject. However,thistoolalsohad
+manylimitations. Forexample,thedetailedcalculationoftheenergyconsumptionandcar-
+bonemissionsofaparticularstructureofthewatertreatmentprocessisyettoberesolved,
+andthecarbonemissionsofthesludgetreatmentprocessareoneofthetechnologiesthat
+needtobeimprovedinthefuture[26].
+3. ResultsandDiscussions
+Inthisstudy,threeschemeswerecomparedtoevaluatetheenergyestimationand
+carbon emissions of wastewater treatment process in different cities and processes, to
+exploretheirlawofenergyestimationandcarbonemissions. Thecomparisonresultsofthe
+threeschemeswerelistedinTable1.
+Table1.Comparisonresultsofthethreeschemes.
+Scheme Different Results
+Carbonemissionswerepositivelycorrelatedwith
+Scheme1 Impactofcityscale
+servicepopulationlevel
+TheGHGemissionsofaerobiccombinedwithanaerobic
+andanoxicmixedprocesswerethemost,followedby
+Scheme2 Impactsofdifferentbiologicaltreatmentprocesses
+theanaerobicprocess,andtheGHGemissionsofaerobic
+processweretheleast.
+ComparisonofChineseWWTPwithinternational ThestudiednationalWWTPsproducemoregreenhouse
+Scheme3
+low-carbonWWTP gasesthanStrassWWTP
+3.1. Scheme1: ImpactofCityScaleonCarbonEmissionsandEnergyConsumption—Energy
+EstimationandGHGEmissioninDifferentCities
+TheservicepopulationofWWTPswaspositivelycorrelatedwiththeurbanpopulation,
+whichhelpedtoanalyzethedifferencesinenergyconsumptionandGHGemissionswhen
+the same process was applied to different cities. Scheme 1 focused on the traditional
+processandwidelyusedA2/Oprocess. Inordertomaketheanalysisrepresentative,the
+domesticcitiesweredividedintothreelevelsaccordingtothepopulation. Thepopulation
+ofthefirst-levelcitywasmorethan500,000people, takinganexampleofXi’anWWTP
+servingpopulationof500,000. Thesecond-levelcitywas300,000–500,000people,taking
+the example of Deyang WWTP serving population of 340,000. The third-level city was
+100,000–300,000 people, taking an example of Shuozhou WWTP serving population of
+200,000. TheWWTPofthesecitiesownsthetraditionalA2/Oprocess.
+3.1.1. DataInputofECAM
+The detailed data of water inflow, water quality, and energy consumption of the
+threemunicipalWWTPsareshowninTable2. Throughtheinputoftheoriginaldata,the
+powerconsumptionofWWTPsinXi’an, Deyang, andShuozhouwas4.94 × 105 kW·h,
+5.02×106kW·h,and3.35×106 kW·h,respectively. Underthesameprocessconditions,
+theinfluentqualityofeachWWTPwasdifferent. TheinfluentBOD ofXi’anWWTPwith
+5
+the largest service population can reach 35,200 kg per year, while the influent BOD of
+5
+ShuozhouWWTPwiththesmallestservicepopulationwas1800kgperyear. Itcanbeseen
+
+--- Page 5 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 5of14
+thattheenergyconsumptionofwastewatertreatmentwaspositivelycorrelatedwiththe
+influentorganicload. Whensufficientorganicmatterwasprovided,thewatertreatment
+reactioncanbefullycarriedoutwithoutprovidingadditionalenergy. Thus,iftheWWTP
+wastoachievethegoalofenergyconservationandemissionreduction,itwasnecessaryto
+ensuresufficientorganicsupplyintheinfluenttoreduceenergyconsumption.
+Table2.TheinitialGHGevaluationstageisinputintotheECAMtool.
+Description Xi’an Deyang Shuozhou Unit
+Residentpopulation 500,000 340,000 200,000 People
+Populationconnectedtosewers 500,000 340,000 200,000 People
+Servicedpopulation 500,000 340,000 200,000 People
+Treatedwastewaterdailyflow 160,000 50,000 12,000 m3/day
+Volumeoftreatedwastewater 58,400,000 18,025,000 4,380,000 m3
+InfluentBOD load 35,200 6500 1800 kg
+5
+EffluentBOD load 1600 500 110.16 kg
+5
+TotalNitrogenloadintheinfluent 6400 1250 510 kg
+TotalNitrogenloadintheeffluent 2400 250 51.24 kg
+CH emissionfactor(treatment) 0.12 0.12 0.12 kgCH /kgBOD
+4 4
+N Oemissionfactor(treatment) 0.0045 0.0045 0.0045 kgN O-N/kgN
+2 2
+CH emissionfactor(discharge) 0.021 0.021 0.021 kgCH /kgBOD
+4 4
+N Oemissionfactor(discharge) 0.005 0.005 0.005 kgN O-N/kgN
+2 2
+Energyconsumedfromthegrid 494,674.56 5,018,750 3,346,617.6 kW·h
+Emissionfactorforgridelectricity 0.097 0.097 0.097 kgCO eq/(kW·h)
+2
+Sludgeremovedfromwastewatertreatment 5,931,250 3,547,800 2,372,500 dryweight/kg
+BOD removedassludge 4,745,000 3,547,800 1,898,000 kg
+5
+Energyconsumedfromthegridpermonth 41,222.88 418,229.17 278,884.8 kW·h/month
+3.1.2. OutputsoftheCalculatedGHGbyECAM
+TheECAMtoolevaluatedthecarbonemissionsbasedonthedetailedinformationof
+eachWWTP.Figure2ashowsthattheamountofwastewatertreatmentincreasedwiththe
+growthofthepopulation. Xi’anthefirst-levelcitywiththelargestpermanentpopulation
+hadthelargestannualtreatmentcapacity,reaching58.4millionm3. Inaddition,thesecond-
+levelcityofDeyangandthethird-levelcityofShuozhouhadannualtreatmentcapacities
+of18.02and4.38millionm3,respectively.
+TherelationshipbetweenpopulationandpercapitaGHGinthemunicipalwastewater
+treatment process was demonstrated in Figure 2b. According to the analysis of carbon
+dioxide (CO ) emission per person per year in the evaluation data, the annual GHG
+2
+emissionpercapitaintheserviceareaofaWWTPinDeyangwasthehighestinthreecities
+andtheannualGHGemissionperpersonwasestimatedtobe58.16kgCO . However,
+2
+Xi’anWWTPandShuozhouWWTPtheannualGHGemissionsperpersonwereestimated
+tobe38.29kgCO and37.05kgCO ,respectively. Thecomparisondisplayedtheannual
+2 2
+inflowBOD of6500kginDeyangWWTP,whichwashigherthanthatofShuozhouwith
+5
+BOD of1800kgwhenthetreatmentprocessandservicepopulationweresimilar. Itcanbe
+5
+concludedthattheemissionofgreenhousegaseswasrelatedtotheinfluentquality. The
+highertheorganicloadintheinfluentquality,thehigherthecarbonemissionswerelikely
+tobe.
+Intheprocessofwastewatertreatment,theGHGswhichleadtotheincreaseincarbon
+emissionsweremainlycomposedofmethane(CH ),CO ,andnitrousoxide(N O).From
+4 2 2
+theGHGcompositionanalysisofthreeurbanWWTPsinFigure2c,CH wasthedominant
+4
+one,andtheannualCH emissionofaWWTPinXi’ancanreach19,215tCO eq. TheN O
+4 2 2
+emissionsfromWWTPsinthreelevelsofcitiesweretheleastGHGscanreach777tCO eq.
+2
+ShuozhouWWTPhadtheleastservicepopulationandthesmallestinfluentBOD load.
+5
+TheproportionofCH emissionwasrelativelysmall,whiletheproportionofCO emission
+4 2
+increased,thevalueofGHGemissionswas325tCO /year. Asanewenergy,CH had
+2 4
+greatrecyclingvalue,whichhadapotentialroleinpromotingtherealizationofenergy
+
+--- Page 6 ---
+Int. J. Environ. Res. Public Health 2022, 19, x FOR PEER REVIEW 6 of 15
+influent quality. The higher the organic load in the influent quality, the higher the carbon
+emissions were likely to be.
+In the process of wastewater treatment, the GHGs which lead to the increase in car-
+bon emissions were mainly composed of methane (CH4), CO2, and nitrous oxide (N2O).
+From the GHG composition analysis of three urban WWTPs in Figure 2c, CH4 was the
+dominant one, and the annual CH4 emission of a WWTP in Xi’an can reach 19,215 t CO2eq.
+The N2O emissions from WWTPs in three levels of cities were the least GHGs can reach
+777 t CO2eq. Shuozhou WWTP had the least service population and the smallest influent
+Int.J.Environ.Res.PublicHealth2022B,O19D,1 53 3l8o7ad. The proportion of CH4 emission was relatively small, while the proportio6no fo1f4
+CO2 emission increased, the value of GHG emissions was 325 t CO2/year. As a new energy,
+CH4 had great recycling value, which had a potential role in promoting the realization of
+ecnoenrsgeyr vcoatnisoenrvaantdioenm ainsdsi eomnirsesdiounc trieodnutcatrigoent sta.rIgtectasn. Ibt ecasne ebne tsheaent athlaart gae lanrugme nbeurmobfeCr Hof
+4
+CeHm 4i tetmeditcteadn cbaenf ubell yfurlelyco rveecroevde.reHdo. wHotowr teoa lriezaelitzhee trheec orevceorvyeoryf CofH C4Han adncdo ncotrnotlrovla vriaorui-s
+4
+otuysp etyspoefsg oref egnrheeonuhseougsaes egsawseass wcaloss celloysreelyla rteedlatteodt htoe wthaet ewrattreera ttrmeaentmtpenrot cpersoscuesses du.sed.
+Figure2.Relationshipbetweenpopulationandwater,energyconsumptionandGHGemissionsin
+Figure 2. Relationship between population and water, energy consumption and GHG emissions in
+mmuunnicicipipaal lwwaasstetewwaateterr trtreeaatmtmeennt tpprroocceesssseess ((aa)), ,tthhee rreellaattioionnsshhipip bbeettwweeeenn ppooppuulalatitoionn aanndd ppeerr ccaappititaa
+GGHHGG iinn mmuunniicciippaall wwaasstteewwaatteerr ttrreeaattmmeenntt pprroocceessss( b(b),),a annddp proroppoortritoinono foGf GHHGGem emittietdtedfr ofrmomm umnuicniipca-l
+iwpaals wteawsatetewrattreera ttmreaentmtpenrot cpersosceess(sce)s. (c).
+TThhee aammoouunntt ooff GGHHGGss eemmiitttteedd bbyy tthhee tthhrreeee WWWWTTPPss iinn eeaacchh ssttaaggee ooff tthhee wwaasstteewwaatteerr
+ttrreeaattmmeennt tpprroocceessss hhaass bbeeeenn eevvaalluuaatteedd inin TTaabbllee 33.. WWaasstteewwaatteerr ttrreeaattmmeenntt pprroocceessss, ,sslluuddggee
+ttrreeaattmmeenntt pprroocceessss,, sseewwaaggee ddiisscchhaarrggee pprroocceessss,, aanndd ppoowweerr ccoonnssuummppttiioonnp prroocceessssw wilillle emmitita
+ac ecretratianina mamouonutnot foGf HGGHsG. Ts.h Teheev aelvuaaltuioantiorens ureltssuslhtso wshothwa ttthhaet atmheo aumntooufngtr eoef nghroeuensehoguassees
+emittedbythewastewatertreatmentprocesswasthelargest. Thiswasbecausetheselected
+A2/Oprocessinthereactionprocesswasanaerobic,anoxic,aerobicalternativeoperation.
+Table3.DetailedgreenhousegasassessmentdataofECAMinwastewatertreatmentstageofXi’an,
+DeyangandShuozhou.
+Description Xi’an Deyang Shuozhou Unit
+Electricity(indirect) 47,983 486,819 324,622 kgCO eq/year
+2
+Treatmentprocess −19,202,497.37 −14,445,869.89 −7,735,421.28 kgCO eq/year
+2
+Dischargedwater 6762 942.4 198.6 kgCO eq/year
+2
+TotalGHGwastewatertreatment −19,147,752.11 −13,958,108.78 −7,410,600.75 kgCO eq/year
+2
+
+--- Page 7 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 7of14
+3.2. Scheme2: FeasibilityEvaluationofDifferentBiologicalTreatmentProcesses—Energy
+ConsumptionEstimationandGHGEmissionofModifiedA2/OOxidationDitchProcess
+AlthoughtheA2/Ooxidationditchprocesscanachievehighstandardeffluent,itwill
+consumealotofenergy. Therefore,inordertotakefulladvantageofthisprocess,itwas
+necessarytoestimateandanalyzetheemissions. Fullconsiderationneededtobegiven
+totherecoveryanduseofenergyandtoassessingthevalueofrecoveredenergy. Under
+theconditionofcontrollingtherelevantfactorsanalyzedinthisstudy,itwasnecessaryto
+improvetheexistingprocesstofurthersaveenergyandreducecarbonemissions. Henceon
+thebasisoftraditionalA2/Oprocess,Scheme2ofthisstudyanalyzedtheenergyestimation
+andGHGemissionoftheimprovedAI 2n /t. OJ. E on xv iir do an. iR oe ns. P du ib tcli hc H pe ra olth e2 s0 s2 .2, 19, x FOR PEER REVIEW 8 of 15
+t c
+Int. J. Environ. Res. Public Health 2022, 19, x FOR PEER REVIEW 8 of 15
+Int. J. 3E .n 2v .i 1ro .n I. Re ps. P ou vb il nic H te hal eth S2 e02 le2 c, 1 ti9 o, nx F oO fR P2E /E OR R PE rV oI cE eW 8 of 15
+m r g A ss es
+Soastojudgewhethertheimprovedprocesshadoutstandingadvantages,WWTP CO2、CH4
+with different processes in a certain area of Kunming was seleCOc2t、eCdaH）.4 The independent
+variableofcontrollinag）thequalityofinletandoutletwaterwastheCsOaIn 2mf 、lu Ce eHn ,t 4andPdSifferⒶ enC tOD AT OD AST SS Effluent
+processeswerechangedInf .lu ae A）nt tthePsSameⒶ timCO eD sioncoeAffiSTcientalsochaSnSged.Effluent COD
+,theATGHGemOiDs
+TheenergyestimationdifferIn efl nue cn et andPGSHGⒶ emCO iD dA2/OAoSTxidationditchSSC ,©OD CE Off Dluent
+ssionATofimproOvDe
+CO2、CH4
+Gas
+anaerobic,andaerobicprocesseswereana©lyzed. ECAMonlineassessmentCtoO2o、lCCwHO 4Dasused
+Gas Process
+toevaluatethecompositionofGHCOGD emissions©andtoanalyzetheproportionofrCeOc 2y、cClHa 4ble ProA ceT ssGas DT Sludge
+gases,whichaffordedamethodtodetCeOrDminewhATetheraprocessDhTadthevalueofrecycling
+SludgeProcess
+energy. If it was confirmed that the new energy gaAsTes such as biogDTas produced by this Sludge PS=Primary Sedimentation
+CO2、CH4 A OT D= =A oxn ia de ar to ib oi nc dT ia tcn hk
+process had reached a certain level and had the value of energy recovery, the biPoS=gParimsⒷary Sedimentation
+producedbyanaerobicdigestion,gascolleⒷctionandcogenerationCO c2 a、 nCH b4 erecovered. IA OnT D= t=A hoxn eia dPe ar S to i=b oPi nc r diT m ia tcan hrk y Sedimentation AST=Activated Sludge Tank
+eraofadvocatingcarbonneutralization,itwasuⒷndoubtedlythepreferC rO e2 d、C wH4 aytogettAwSTi=cAecA OtiT v Da= =tA e od xn ia S de l aur to d ib ogi nec dTT iaa tn cn hkk ICEAS S CS D= =S Ce ec non trd ifa ur gy S e Dd eim we an tet ra it nio gn
+a l
+there As sul st h. owninFigure3a,thedCiDrectcarbonemissionprIC oE cA eS sI sCE iA nS theA2/OprocC eD sswS C D ICS D T E= ==S ADCe Seec =gno A S Cr In tr a nSd i DS d tfa = eT u a =r rS tgy = mCiea o AS ec il n noe c tD eTn td t ri ne di av im w ftnaa ur Cke t a gyen t d et S clra S i le Dt n ei dlo gu ein md wg e ae n tT ra ia t nin o gk n D I EC xT E te= A nD dSe e=g dr I a n Ad t eea rrt amio tiin ott neT na tn Ck ycle
+a s a t ya te
+4usuallyhadthehighestyieldinExttenhdeedD CAT Ee=r AaDt Sieo =gnr Ia nd tea rt mio in eT na tn Ck
+biodegradationprocess. StudieshadsChDownthatCH CO2
+I tt ycle
+anaerobicstage,whichwasbecausetheanaerobictankprovidedaCsOt2rb i） ctanaerobicgrowthExtended Aeration
+environmentformethb） anogenicbacteria,andthedegradationoforganCInOifcl 2uemntatterPrSeleasCeOsD MT COD AB COD SS Effluent
+CH and CO into theIenfnlub ve）nitronm Pe Snt [2C7O]D. Under Ma TnoxiCcODconditionAsB, aCOmCDOmDonia nitSrSogenEffluent COD
+4 2
+inwaterwasoxidizedtCoODnitIrnifltueenatndnPiStrate,COaDndCO w MTasreClOeDased. N 2AOB waCsODproducedSSCOD Effluent
+2
+by nitrification in the anaerCoObDic tank and anoxic tank dissolved in water and released COD
+COD COD
+underaerationagitationintheaerobiczone. N 2Oproductionincreasedwhentheoxygen COD
+COD COD
+supplywasinsufficient[28]. N 2OproductionofthreeWWTPswaCsODtheleastinGHG,which CHP CO2 Biogas
+showedthattheaerationissufficient.CO MD ostcountriescoCHnPsiderCaOn2aeCrOoDbicaBsioagalsesscostlC yOD CH4
+a dn itd chef pfi rc oi ce en st sw ina ty ot Ao 2r /e Ocyc al de oC pH d[ t2 h9 e]. imA pW roW veT dP Ain 2/K Oun om xii dn ag tiCg oHa nPvC deH i4 tt ch hiC CsO pi 42d roe ca e, st sh .eo CBx Dio igdasation
+te4 AD
+H
+CD AD
+ForthepurposeofanalyzingtheoutstandingcharacteristicsoftheimprovedA2/O
+CD Gas AD Process
+oxidationditchprocess,duetothesameservicearea,itwasassumedthattheinletandoutlet
+Gas Process Energy Sludge
+waterqualityofeachWWTPwasthesame,theprocessflowwaschanged,andtheenergy
+emisE sn ie org nyG oa fs variouSl sud pge roPr coc ee sss
+consumption and GHG ses were compFaigreudre. 3T. Ehneeirmgyp frloowve adnd gas emissio n diagram of improved A2/O oxidation ditch process, process
+EsnweragsyE n fe slr oeg wy TeS mPlud iAsg se
+A2/OoxidationditcFhigpurorec e3.s u d ainndW gWas iaosn sdhiaogwranmin ofF iimfgloupwrroe (va3e)ad: ( ⒶA2 )/.OWW oWxWTidPTa PtAio Bonf d Kitucnhm pirnogce, sⒷs, pWroWc eTssP B of Kunming and Ⓒ WWTP C of Kunming, pro-
+adoptedananaerobifclopwr o(Faci)ge: usⒶsrea 3sW. sEWhnoTewrPg nyA f iolnof wFKi uagnnudmr egina3gsa ,e (mⒷi) sWsainoWnd TdWPia WBg roaTfm PcKe osCusfn iufmmlsoipewndrg,o evaanenndedar AgcⒸyt2i/ vOflWao otwWex didaTnaPdt iC og noa sdf Kietmcuhni spmsriiooncnge ,sd psi,ar pogr-roamce sosf Strass wastewater treatment plant in Austria
+sludge intermittentcceyscsl efflloeowxwt, e(enan)de: reⒶgdy aWfleorWwatT aiPon ndA (goIaCfs K EeuAmnSims)siipnogrno, dcⒷeias gsWraaWms TsohPf( o bBSw)t .ro anfs Ksi nuwnFamisgtienuwgr eaatne3dra (trⒸea) t.WmWenTt Pp lCan otf iKn uAnumstirniga, pro-
+The improved A2/O(bo).x idceastsi oflnowd,i tecnherpgryo fcloewss apnrdo vgiads eedmliossniogne rdihaygdrarmau olfi cStrreatsesn wtiaosntetwimateer, treatment plant in Austria
+improvedammonianitrog(ben). oxidationefficiencyandhigherreductaseactiFvoirty thofe apmumrpoonsiea -of analyzing the outstanding characteristics of the improved A2/O
+oxidizing bacteria and niFtorirt et-hoex piduirzpinogseb oafc taenriaalyizninagct itvhaet eodutssltuanddgoiexni[gd3 a0ct]hi.oanAra mdctimetcrhuis ntpiicrtsioo conef,s tsh, ed uime ptoro tvheed s aAm2/eO s ervice area, it was assumed that the inlet and
+nitrification,anddenoxitirdifiatciaotnio Fdnoirtr cethha cept ripoouncrespswos,s eedr euoefm atoonr atehlytehz soinargmo utehg sehe ,orwvuithcoseituc aahtnlredcetaai wnn, giaft t ucewhlrlaa yqrsuac aocastnlesivturyiems rottiefc des atochfha t tWh tehW eim TinpPlr ewotv aaesnd tdh A e 2s/aOm e, the process flow was changed, and the
+carboninorganicmaotutetlreoitn xwtiodaaCtetHiro qnu fdoariltiftcyuh r otphfr eeoraccrehescs Wy, cdWluineTg Pt.o w thase tshaem sea mseener,ev trihgceey pacrroeonacs,e usitms wfploatiwso na ws asaunsmd c heGdaHn tgGhea dte ,mt ahinesd sii nothlnee t o afn vda rious processes were compared. The im-
+4
+energoyu tcloetn wsuamtepr tqiouna laitnyd o Gf eHacGh eWmWissTiPon w oafs vthaperri sooauvmse dep, rAtoh2ce/eO pss roeoxsc iewdsaset rfieolo ncw od mwitpcahas rcpehdrao.n cTgehsesed ,wi maans-d u tsheed in WWTP A as shown in Figure 3a(Ⓐ).
+proveedne Arg2y/O c oonxsiduamtipotnio dni tacnhd p GroHceGss e wmaisss iuosne d Wo fi Wnv aW Tr PiWo BuT s aP dp oAro ca tees ds ss e ahs no ww anne ar i een c oFo bim ig cu p pra rer e3 cda e.( Ⓐ sT h a) s.e si hm o-
+p r o s wn in Figure 3a(Ⓑ) and WWTP C used an
+proved A2/O oxidation ditch process was used in WWTP A as shown in Figure 3a(Ⓐ).
+WWTP B adopted an anaerobic process as showacnt iivna Fteidgu srlue d3gae(Ⓑ in)t earnmd iWtteWntT cPy cCle u esxetde nadne d aeration (ICEAS) process as shown in Figure
+activWateWd TslPu dBg aed ionpteterdm aitnte annt aceyrcoleb iecx pternodceesds aaesr3 saaht(iⒸoown) .n( IT Ci hnEe FA ii mgSu)p pr rero o3 vca ee( dsⒷs A )a 2sa / Onshd oo WwxidWn aiT tniP oF niCg d uu irs tece hd pa rn o cess provided longer hydraulic retention
+3a(Ⓒa)c. tTivhaet eimd pslruodvgeed i nAt2e/rOm oitxtiednatt cioyncl ed ietxcthe npdroe tdcime asees, r pa imrtioo pvn ri od( vIeC eddE l AoanS mg) meprr o ohncyie ads srna iauts rl oiscgh eorenwt eonnx itinido F anti ig ou nr e e fficiency and higher reductase activity of
+time,3 iam(Ⓒpr)o. vTehde aimmpmroovneiad nAit2r/oOg eonx iodxaitdioanti odnit cehaffm ipcmrieooncnecsyias - aponxrdoid vhiizidgienhdge rlb oranecgdteeurrci taha ysaden rdaa cuntiliivtcri itrtyee t-oeofnx tidioinzi ng bacteria in activated sludge [30]. Am-
+ammtoimniea,- oimxipdrizoivnegd b aamctmeroian iaan ndi tnriotgrieten- ooxxiiddiaztiminognu nbeiaftficiotcenier, innac ityinr i afainccdatit vihoaingte,h dae nrs dlru edddeguneci tt[ar3is0fei]c .aa Actitmoivn-i trye aocft ions were more thorough, which can fully
+muniatmiomn, onnitirai-foicxaidtiioznin, gan bda dcteenriiatr iafnicda tnioitnr irteea-octxciioodnnizsv iewnrgte rcbeaa rmcbtooenrrei ai nt hi noo rragocautnigvihca, t mewdah tsitceluhr d icngateno [ fC3u0Hll]y. 4 Afomr f-urther recycling.
+convmerut cnaitriboonn, ninit roirfgicaantiioc nm, aanttder d ienntoit rCifHic 4a ftoiorn f urertahcetiro rnesc ywcelirneg m. ore thorough, which can fully
+convert carbon in organic matter into CH4 3f.o2r. 2f.u Drtahtear Irnepcuyct loinf gE.C AM
+3.2.2. Data Input of ECAM
+Table 4 were the basic data of three WWTPs that input ECAM. Among the three
+3.2.2. Data Input of ECAM
+Table 4 were the basic data of three WWWTPWs TthPas,t WinpWuTt PE CAA hMad. Athme olenags tt hsee rtvhicreeed population, only 310,000 people. In addition,
+WWTPs, WTaWbleT P4 Aw ehraed t hthee b laesaisct dseartav iocef dt hproepe WuWlaWWtiToTPnP, B so anthnlyadt 3Wi1n0Wp,0uT0tP 0E CpCe hAoapMdle .s .iA mInmi laoadnr dgse ittrihvoeinc ,et h proeep ulations, 550,000 and 560,000 respectively.
+WWTWPW B TaPnsd, WWWWTTPP CA h haadd s itmheil aler assetr vseicrev ipcoepdTu phlaoetprieou nlwast,a i5os 5na0, ,r0oo0nu0lgy ah n3ld1y0 5p,06o00s0,i0 t0ipv0ee or epcsolper.re ecIlntai vtaieodlnyd .i btieotnw, een the wastewater treatment capacity of
+ThereW wWaTs Pa Br oaungdh WlyW poTsPit Civ eh acdo rsriemlailtaior ns ebrevtiwcete hpeeno p tthuhrleea etw ipoalnsastne, tw5s5 aa0tn,e0dr0 0tthr aeena stdem r5ve6ni0ct,e 0c 0pa0op rpaecusilptayet icootfinv .e Flyro. m Figure 4a, it can be clearly seen that the
+the thTrheeer pe lwanatss aa nrdo uthgeh lsye rpvoicseit ipvoep cuolrarteiolant.i oFnro bsmeew tFwaigegueenr ve to h4laue, m wite ac swatneil wbl eaa ltcselore aitnrrlecyar etsmaeseeenn wtt hictaahtp ttahhceei t iyn corfe ase in the service population.
+sewatghee vtholrueme pel wanitlsl aalnsdo itnhcer seearsvei cwei tpho tphuel ainticorne.a Fsero imn t Fhieg suerrev 4icae, ipt ocpanu lbaeti oclne.a rly seen that the
+sewage volume will also increase with the increase in the service population.
+
+--- Page 8 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 8of14
+InItnI.In tnJ.t. t .JE ..J J.En .E vnEinvrnviovrinoirr.no oRn.n .Re .sR eR.s ePe.s s.Pu .P buPlubiuclbib lcHli icHce H aHelaetelhatal hl2tth 02h 220 22020,22 212, 29,1 ,,19 1x9, 9 ,xF ,x OFx F ORFOOR PR RPE P EEPEEREER ERR RRE R EVREVIEEVIVEWIIEWE WW 8 8o8 8f o ofo1 f5f 1 1515 5
+COC2OC、O 2、C2、HC4HCH 44
+a）a）a）
+InIfnlIufnleufnleutnetnt PSPSPS ⒶⒶⒶ COCDOCODD ATAATT ODOO DD ASATASTST SSSSSS EfEflfEuffleufnleutnetnt
+COCDOCODD
+©©© COC2OC、O 2、C2、HC4HCH 44 GaGsGasas
+COCDOCODD
+PrPorPcoercosescsesss
+ATAATT DTDDTT
+SlSuldSuglduegdege
+PSP=SPP=SrPi=mrPiamrirmyar aSyr eySd eSimdeideminmetanettniaottaniot ino n
+ⒷⒷⒷ COC2OC、O 2、C2、HC4HCH 44 A OT DA O=TA O=DA oT= D=xnA= o=iaA dxn oe aiar xn dtoe ia iar db oe to ai nircb oto i di nbT oc i i na tdcT cn i dha tTk cn ia thk cn hk
+ASATAS=TSAT=cA=tiAcvtcaivttieavdtae tSde ldSu dlSugldueg dTega eTn aTknaknk
+ICIECAIECSAEASS SSS=SSS=SeS=ceoScneodcnoadrnyadr aSyr eySd eSimdeideminmetanettniaottaniotinon
+CDC=CDCD=eC=nCetrneitfnruitfgruiafglu agDla eDlw Deawetewartaientreginrigng
+DTD=DTDT=eD=gDergaedrgaardtaiadotaniot iTnoa nTn aTknaknk
+CDCDCD
+ICIECIACESEA=ASI=nSIt=enIrtnmetreimtrtmietntiettt neCtn yCtc Cylecy lcel e
+ExEtexEntxedtneeddne dAde edAr Aaetreiaortaniotinon
+COC2OCO 22
+b）b）b）
+InIfnlIufnleufnleutnetnt PSPSPS COCDOCODD MMTMTT COCDOCODD ABAABB COCDOCODD SSSSSS EfEflfEuffleufnleutnetnt
+COCDOCODD COCDOCODD
+COCDOCODD COCDOCODD
+COCDOCODD
+CHCPHCHPP COC2OCO 22 BiBoigBoaigosagsas
+CHC4HCH 44
+CDC DCD ADAADD
+GaGsGasas PrPorPcoercosescsesss
+EnEenErengreygrygy SlSuldSuglduegdege
+FFigFiFFguiiigugrgueuru err3re ee.3 3E .33 .En.. E neEEnrenngereegyrrrgy ggfy lyyfo lf flowfllowoo waww na a ndaannd ngdd dga g sagg asaea ssmes e meeimmsmissiiiisssosisssoniiioon odnn ndi ad didgaiiiaagraaggrgmarrraama mmom of o ofiom ffif mi ipimmmprpporpovrrrooveovvdeveed eAdd dA 2AA /A2O/22O2// /OoOO ox o ixoodxixxdaiiditaddiatoaaitonttiioin oodn nndi td idcdtihciitttch ccph hhpr p orppocrrroecoosceccsesee,ss ssp,ss s,pr,, p orppocrrroecoosceccsesee ssss sss
+flfolfflowfllowoo ww(w a( )a ((:(a)a a:)Ⓐ) )::: Ⓐ Ⓐ Ⓐ W W WWWWWWWTWTPTTPT PAP PA A AoA of o ofKof fKfK u KKunuunmunnmnmimnmiingining,ng g,gⒷ, ,, Ⓑ Ⓑ Ⓑ W W W WWWWWWTWTTPPTPT BPB PB o Bo Bof f ofKoK fKf uu KKunnunmumnmniminmningiging naga gna n andadnd ndⒸ d Ⓒ Ⓒ Ⓒ WW W WWWWWTWTWPTPTPT CCP PCo CoCf of K ofKo fuKf u KnKunmunmunminnimnmigngi,ing,np gp,g r,pro, porcpo-rero-so-s-
+cecsceflc sese ssfs sls ,fowf lel owo w r,ne, enee ynren gerfle gyror g ly faowf lnl owo dwaw andaa n d gsag asia ss eime oimsm nissiii ssdos isis oniai o n did mgaii agra agorg marfr amSa motm ofSo fstSf StwS artst arar sassa sstws ses ww saatasa ettses wetrt ewe awtw rtaeeata t etrte rrr teat ernr teae mtata mptet mm lneaentne ntn tpt plp nalAl anta nutn ntsit iAri n AA us(ubtsu rts)is r.tat r aii a
+o w fo l n,w e,e g gy wfy fo l nag nds gd ega m es mes on gdn rdi aa rof a s r w wa raet m t er pt il na i n t n iA au ir a
+(b).
+(b(b)(.b) .) .
+3.2.2. DataInputofECAM
+FFoFToF ro aro tr bhr t lhteet h eh pe 4e p u pwup rupruerporrpop seoesots eshoe e of e o fo a bff an a anaasnalniyacla yzll ydziy nziaz ngiti nagn gt g hot hteft h ehtoe ehou oruo teustuetstat stsWantt anda nWdn idnidTngii nPgn gc sg hc chtachharh aaara artcr atcaiectnc rettpiere sriur tsiiitstcs itst cEii cscCos s of A ofo t fMhf t htet.h eh ieA me i m imi mpm proporpnrovrgovo evdevtehd e dAe d A 2At/Ah2O/2r2 O// eOO e
+ooxoWxio dxix diWai dd atiatTa oitt oPnii ono snd, n d iW dtid ctihWi ctt ch c hpT h p rP porp rocAr oeco csechesse ,sas s s,dds ,d, u dtud ehu euete e ot l o tet to ao ht s htetth eh sse e aes samrs avma meimc esee e es d sres verpe rvirocviv ecpii c ecuae e alr a aeratareriea,oe a,ina t,i, ,t iw i tot w naww aslya sa as s3as ass1a uss0s sum,s u0mu0mem0deed epdt d het htaot hathp ata tl thet t h.tet h ehIien ne i n liai nelndtel l etdae tt ani tandainodn dn d ,
+oouoWuo tultu eWltt tell etweT twt Pa ww atBeata retta ere qnr r qu d quq auWu aliala tilyWtl ii yt t oy Ty of P ofo e faefC eace ahcha ch caWh hdW WWWsWiWmTW TPiTT Pl awPP rw awwsasea sarts hvs t h teit hc eh see e as p sams aoma mepm ,eu e,te hl,t, ah tetth ehipoe e pr n porpsroc,r oeco5csec5esse0 ssfs,s l0s fo l 0ff owl0l owo waww nw a wdw asa 5sa cs 6s hc 0 chac,hanh0an0ga n0gn egdegredee , dsd ,a p,an, aenda ncdn ttd dihtv h teteh ehley e .
+eneenTee nrenhgereergyrrgyg eyc ywoc concaono ssnusn suams umurmpom ptupitp ogitt onihi ono lnay n an apnda nodn dGsd Gi HtGGiHvGHHeG GG ec meo emre mirm seissili issas osits oniii oono non n o f o bfo v fef v at vwarv aira oerir ouiei ouonsu su pts shp r peorp rocrwoeco cseac essesessts ssees e swe ws s w a ewwtreeeerer rer cet eroc ecomcaomotmpmmpapap reaerna drerted.e cd.d Ta .T. ph ThT eah ehcie ie mti myii m-mo--f-
+pprpot rph rovr oe vo evdetvh ed e dr Ad e A 2e A/A 2O/p 22O//l OaO o n o x ot xios dxix diaai dad tn iata od itot niit ono h nd ne d i dts id cte ihci trt ch vc hp hi p c r poe rp rocrp oecoo csec ep sse ssus ws sl w a awwt asi a soa us ns u s . uesuF sdes er d eo di d nm i n ii nW nF W Wi WWg Wu WTWr TPe TPT 4 PA Pa A A, aA i as t a sca ss as hs n shos howhb owoe nww nc nil n ne i n a ii nFr n Fl iy gFiF guisi gug re uee ru ernr 3e e 3a t 3h a(3Ⓐaa (aⒶ(t(Ⓐ)Ⓐt .)h .) e) ..
+WWWs WWe WWw TPa g Pe aBv o ol du popm tpetpe ew i al al na al naas naeno areai oeren orbrc obior cbibe cipa ps pe rocw csei ct esseh t h se i shon wc owor nwe a s e i Fn gt uiih rue ers e r 3a(3v Ⓑa(ai Ⓑ(c (Ⓑ)Ⓑe p o np dWu l Wa WWt Wi WTo Tn P.
+TW TT P BP B B ad ada od o dett ed da d an n an an i c c r orp r oeco ssas s s as a sa s hs s s hoh w n in n ni n ii Fn n i g FiF gug eru r 3e e 3a )a )an) anda dn d W W PTT CP P C CuC us uesu sdes ed e ad d an an a n n
+ByanalyzingtheenergyconsumptionWWTPA,B,andCofKunming,itwasfound
+activated sludge intermittent cycle extended aeration (ICEAS) process as shown in Figure
+aacatcti hctvit avai tvateattdehted esd lse uslnuldu edgd rge gg eyie ni nti cne otret nmersrmuimtimttiettneptent tn itc o tyc ncycylcoecl eflee xep ext lex atnet nend tnde Bddeed wad ae aaresaerrat siatioit goni non (n i I fi( CI( cCIE aCEnAEAtS lA yS) S)p l )por porwroco eecc rseesst sshas as a a snss hs s tho hhow aowtnwn oin n fi n i pFn Fi l gF aignuigutru sere r Ae
+33a3aa(3Ⓒa(naⒸ(( dⒸ)Ⓒ .) C.)T ) ..T. h TTT hehhh eie ee mi miai mpm vprepop rrrovr aovo egvdev eede dmAd A 2AoA /2On/22 O/t/ OhO o lox y oxio dxeix diani dd ateiata oritgt onii oyno nd n cd i odtd icntihi ctst ch c uhp h mp r pop rprocr oteco icseoc esse n sss ps os p r fporp provr ovlo iadviv ndiei dtdd eedB e dld owl o nll oano gnsgn egre8g er.e h6r r h y3 hyh d×ydy rdard 1arur 0aua l5uilu cikl cl iri Wc c er trer·eethe nett ,ente wnitn oithot nii onio ln n e
+titmittt mihi meme,e e,ie am,i, v mii mpem prrpaorpgrovr oevo evdevmede dad oam n amatmmmhmlmomyonono ieaninna iiena a nr i gtnin rtyioi rtt rogrcogo eognegnen esno nuox moxio dxixpdiai dtad tiiatoa oitnt onii ono one nffe fefepiffcf iflif caiei cinc neii etnce nycAn cy c ya yaan nanda nddn dh dCh i ghihwghii ghg eahrehs ere rr 9r er 4 drer8edue,dud1cu0tcu ac1tc ast.t a5esa s8 es ae 3e ac atcka ictvWc itvt iii tv·iv yhtii yt t yo ay of n o fod ff
+aamam9a mm.m3m6mom on×ono ianin1a-ii oa0-a o-5 x- oxiokdxixWdiii dzid zi·inihziz ngi,i ngnr gbe g bsa bpacb atcea ectcc rettt ieire avirr a iei aa alan y an.da ndTn dn dhn ii tnsin rtiiriwttt irer tiaei -tt ose-e o-xd- oxioudxix deiii dzidtziioni ziz ngiti nhgn gbe g ba fbacbaatcacecttc rett ietre ahrir a iai ia a nti n ipi na nlac a atcna ictvctitst vaii vatAv eata detat ed endsd dls u sls uCldl udu grdd geeg egq[e eu3[ 30[i[r30]3e.0] 0 .]Aa ] .A. mlAAamrm-mg-e--
+mmmuam unmunu iotnin ituioi itt onnii onto , nn,on ,nfi, tninartiieri tft ririr fiaci ifatf ciii catoc iata onitt oniitono ,o na,n m,an, andaandni ddnd dte dad neienine tnin rttiii rhtft riirefici ifaf caii catec iatra oitot oniibono irn ncer areer eacne atcavictociitrt onioi ono snn sn wms s w e wew reneeret re,r me ewm momhoroierol reer te he tp h totlhoah roonro routr ouo gBugu hoghg , nhw,h l,w,y h ww haichidh hcioi ch c chp h ac t canec and a fn n ufa u flnf ullu yallyle ll yr y-
+cocconoc onobvnvniecvrev tepre rtcrr taoct carcc abrea rbosr bsonb ono win n nii n iti onh n or o ogrougrartgang acniaocnin cnimi c tc m i manm atutata eottt retut ere isr nr i na tii noetn o trt Coa o C Ht CiC Ho 4HH n 4f 4o,f4 o wfrf o ro fh rur f iu frcf utruhhrtr htert hereh edre r reur r crecr eycee cycdc ylcy iclenc ilnnl igi negn . rg.gg .. y consumption. However,
+thelackofaerobicenvironmentwaseasytoleadtoincompletenitrificationandincom-
+33.23p.3 2..2l. 2.2e2.. .t2.D2e .D. a DdD ataeata a ctIt ao a nI mn IpI npn uppup tou tu os tot fi to fo Ei foEf C EnE CACC AoMAfA MM oM r g anic matter. As a consequence, the anaerobic process alone
+wassTuaitbalbe le4 fworersem tahlel WbaWsiTc Pdsawtai tohf ltohwreeef flWuWenTtPqsu athliatyt irnepquuti rEemCAenMts.. AWmWoTnPg Athese trhvreede
+TTaTabablebl el4e 4 4w w ewreeer rete ht hteh ebe b abasaiscsi cidc d adataata tao o fo ft fht htrhereree eWe W WWWWTTPTPsP sts ht htahat ati tni npinpuputu tE tE CECACAMAMM. .A .A mAmmoonongng gt ht hteh ete ht htrherereee e
+sWigWniTfiPcasn, tWlyWmToPre Ap ehoapdl eththea lneaWstW seTrPviBceadn pdoWpuWlaTtiPonC,; ohnolwy e3v1e0r,,0e0n0e prgeyopcolen. sIunm aedddiftrioomn,
+WWWWWWTTPTPsP,s s,W ,W WWWWTTPTP PA A Ah h ahadad dt ht hteh ele el aeleasats sts tes sreverrvicviecicdeed dp p opopopupulualatliatoitonion, n,o ,o nonlynly ly3 31 31010,00,00,00000 p0 p epoeeopoplpel.el e.I .nI nI na ad addddidtiitioitonion, n, ,
+tWheWgTriPd Bp earndm WonWthTwPa Cs thhaedh siigmhielsatr assersveiecne ipnoTpaubllaeti4o.ns, 550,000 and 560,000 respectively.
+WWWWWWTTPTP BP B aB an andnd Wd W WWWWTTPTP CP C Ch ha hadad sd is msimimilialiarla rsr es sreverrvicviecic epe po popopupulualatliatoitonionsn,s s5, ,55 55050,00,00,00000 a0 an andnd 5d 56 56060,00,00,00000 r0 er sreepsspepceetcictvitveivleyely.l y. .
+There was a roughly positive correlation between the wastewater treatment capacity of
+TThThehreeer rewe w awasa sas a ra or rouougughghlyhly lyp p oposoistsiitivitveiv ece oc cororrerrlreaelatliatoitonion nb b ebtewetwteweeeneen nt ht hteh ewe w awasatsestwetewawateatret ert rrt ertareeatmatmtmeneentn tc tac capapapacaictciytiy tyo of of f
+the three plants and the service population. From Figure 4a, it can be clearly seen that the
+ththteh ete ht htrhereree epe pl palanlantnst stas an andnd td ht hteh ese es srevervricviecic epe po popopupulualatliatoitonion. n.F .Fr Forromom mF Fi gFiguiguruer re4e 4a 4a, a,i t,i tci tac canan bn be b ece lc eclaelearalryrly lsy es seeeneen tn ht htahat att tht htehe e
+sewage volume will also increase with the increase in the service population.
+sessweewawagageg eve vo voluolulmumme ewe w iwlill ilal lal saloslso io ni ncinrcecrareeasaess ewe w iwtihtiht th ht hteh eie ni nicnrcecrareeasaess eie ni n itn ht hteh ese es sreverrvicviecic epe po popopupulualatliatoitonion. n. .
+
+--- Page 9 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 9of14
+Table4.DigitaldatatotherapidassessmentstageoftheECAMtool—WWTPinKunming.
+Description WWTPA WWTPB WWTPC Unit
+Residentpopulation 310,000 560,000 550,000 People
+Populationconnectedtosewers 310,000 560,000 560,000 People
+Servicedpopulation 310,000 560,000 560,000 People
+Treatedwastewaterdailyflow 40,000 100,000 150,000 m3/day
+Volumeoftreatedwastewater 14,600,000 36,500,000 54,750,000 m3
+InfluentBOD load 30,000 30,000 30,000 kg
+5
+EffluentBOD load 4500 4500 4500 kg
+5
+TotalNitrogenloadintheinfluent 4500 4500 4500 kg
+TotalNitrogenloadintheeffluent 2700 2700 2700 kg
+CH emissionfactor(treatment) 0.12 0.48 0.018 kgCH /kgBOD
+4 4
+N Oemissionfactor(treatment) 0 0 0.016 kgN O-N/kgN
+2 2
+CH emissionfactor(discharge) 0.021 0.021 0.021 kgCH /kgBOD
+4 4
+N Oemissionfactor(discharge) 0.005 0.005 0.005 kgN O-N/kgN
+2 2
+Energyconsumedfromthegrid 11,377,219 10,358,000 11,227,590 kW·h
+Emissionfactorforgridelectricity 0.997 0.997 0.997 kgCO eq/kWh
+2
+Sludgeremovedfromwastewatertreatment 3,677,375 5,110,000 8,531,875 dryweight/kg
+BOD removedassludge 3,677,375 4,088,000 6,825,500 kg
+5
+EnerIngty. Jc. Eonnvsiruomn. eRdes.f Proubmlic tHheealgthr 2id022p, e1r9,m x FoOnRth PEER RE9V4IE8W,10 1.583 863,166.667 935,632.5 kW·h/m9 oofn t1h5
+Monthlyenergycosts 63,206.78 57,544.44 62,375.5 USD/month
+FigFuirgeu4re. R4.e Rlaetlaiotinosnhshipipb beettwweeeenn sseerrvviiccee ppooppulualtaiotino, ntr,etarteeadt ewdatwera qteuranqtuitayn, taintyd, eannedrgeyn ceorngsyumcopntsiounm ption
+intihnr ethereKeu KnumnminigngW WWWTTPPss ((aa)),, rreellaattiioonnsshhipip bebtewtweeene GnHGGH eGmeismsioisns iaonnd atrnedatmtreenatt mweantetr wina ttherreien three
+KunKmuninmginWg WWWTPTsP(sb (b),)a, annddG GHHGG eemmiissssiioonn ccoommpopsoitsiiotnio annadn pdropproorptioornt ioofn Ao WfAWWTPW (cT). P(c).
+3.2.T3a.bOleu 4t. pDuigtistaol fdathtae toC tahlec rualpaitde adssGesHsmGenbt ystaEgCe Aof Mthea EnCdAEMn teorogl—yWRWecTyPc liinn KguAnmnianlgy. sis
+Description TheanalysisinWSWecTtiPo nA 3.2.1shWoWwTsPth Ba tGHGemWisWsiToPn sCw erepositiveUlynicto rrelatedwith
+Resident popuplaotpiounl ationindiffer3e1n0t,0l0e0v elsofcit5i6e0s,,0b00u tGHGemi5s5s0i,o0n00s wereobviouPseloyplneo tcorrelated
+Population connected to sewers 310,000 560,000 560,000 People
+Serviced population 310,000 560,000 560,000 People
+Treated wastewater daily flow 40,000 100,000 150,000 m3/day
+Volume of treated wastewater 14,600,000 36,500,000 54,750,000 m3
+Influent BOD5 load 30,000 30,000 30,000 kg
+Effluent BOD5 load 4500 4500 4500 kg
+Total Nitrogen load in the influent 4500 4500 4500 kg
+Total Nitrogen load in the effluent 2700 2700 2700 kg
+CH4 emission factor (treatment) 0.12 0.48 0.018 kg CH4/kg BOD
+N2O emission factor (treatment) 0 0 0.016 kg N2O-N/kg N
+CH4 emission factor (discharge) 0.021 0.021 0.021 kg CH4/kg BOD
+N2O emission factor (discharge) 0.005 0.005 0.005 kg N2O-N/kg N
+Energy consumed from the grid 11,377,219 10,358,000 11,227,590 kW·h
+Emission factor for grid electricity 0.997 0.997 0.997 kg CO2eq/kWh
+Sludge removed from wastewater treatment 3,677,375 5,110,000 8,531,875 dry weight/kg
+BOD5 removed as sludge 3,677,375 4,088,000 6,825,500 kg
+
+--- Page 10 ---
+Int.J.Environ.Res.PublicHealth2022,19,13387 10of14
+with the population for different WWTPs in the same city. The service population of
+Kunming Plant A was the smallest, but it can be seen from Figure 4a that the carbon
+emissionofPlantAwasthehighest. SpecificvalueswerecollatedinTable5. TheGHG
+emissionwas1.41×108kgCO eqperyearonaverage. Thecarbonemissionofthewater
+2
+treatmentprocessaccountedforthemajority,whichwas1.52×108kgCO eq. TheGHG
+2
+emissionofenergyconsumptionprocessaccountedforthesecond,whichwas1.13×107
+kgCO eq. Itwasvisiblethatinthesamearea,GHGemissionsarecloselycorrelatedwith
+2
+theselectedwastewatertreatmentprocess. Amongthem,theGHGemissionsofaerobic
+processweretheleast,followedbytheanaerobicprocess,andtheGHGemissionsofaerobic
+combinedwithanaerobicandanoxicmixedprocesswerethemost.
+Table5.DetailedgreenhousegasassessmentdataofECAMinwastewatertreatmentstage—WWTP
+AofKunming.
+Description CurrentValue Unit
+Electricity(indirect) 11,343,087 kgCO eq/year
+2
+Treatmentprocess −152,222,760 kgCO eq/year
+2
+Sludgemanagement(kgCO eq/year) 0 kgCO eq/year
+2 2
+Dischargedwater(kgCO eq/year) 9535 kgCO eq/year
+2 2
+TotalGHGwastewatertreatment −140,870,137.80 kgCO eq/year
+2
+ForWWTPAofKunmingwiththelargestGHGemission,theGHGcompositionwas
+mainlycomposedofCH ,CO ,andN O,whichisshowninFigure4c. Thelargestgas
+4 2 2
+emissionwasCH . Invariousprocessesofwastewatertreatment,theCH emissionfrom
+4 4
+KunmingWWTPofAwas1.52×108kgCO . CO emissionsfollowedby1.13×107kg
+2 2
+CO andtheleastemissionwasN O,only6322kgCO . Asanewenergygas,CH hadthe
+2 2 2 4
+valueofrecycling. Atpresent,theWWTPsgenerallybegintoadoptthecombinedprocess
+ofanaerobicdigestionandcogenerationanduseCH togenerateheatenergyorconvertit
+4
+intokineticenergy,whichisprovidedtootherprocesspartsoftheWWTP.
+QingdaoWWTPusedtheprocesstoconverttheenergygeneratedbybiogasintoheat
+sourcesandgassourcesforsludgetanksandpumps. AftertherenovationoftheWWTPin
+2018,thewatertreatmentprocesscollected6.11×106Nm3·a−1CH [31],whichisequiva-
+4
+lentto4.38×106tCH . AccordingtotheIPCCGuidelinesforNationalGreenhouseGas
+4
+Inventories,1tCH =21tCO eqwasusedtocalculatetheCO equivalentofGHGs. The
+4 2 2
+collectedCH wasequivalentto2.08×108tCO ,andthepowergenerationwas1.02×108,
+4 2
+providingmorethan60%ofthepowerconsumptionofthewholeplant. TheKakolanmäki
+WWTPinFinlandusedtheheatexchangeofeffluentandtheenergygeneratedbymethane
+asthemainenergysourcesoftheWWTP.TheannualenergyconsumptionoftheWWTP
+was12,755MW·h,andtheenergyrecoveredfrombiogascanreach21,935MW·h,achieving
+100%recoveryandutilizationofenergy[32].
+3.3. Scheme3: AComparisonofDomesticandInternationalLow-CarbonWastewaterTreatment
+Processes—EnergyAnalysisandCarbonEmissionAssessmentofLow-CarbonWastewater
+TreatmentProcessesConsideringEnergyRecovery
+AstherewerefewcasesofrecyclingbiogasandgeneratingenergyinChina,scheme
+3selectedtheStrassWWTPinAustria,thepioneerofcarbonneutralization,astherepre-
+sentativeofbiogasrecycling. TheplantwasaWWTPwherethedominantmethodwas
+the“AB”methodandthesideflowprocesswaslowcarbon,lowconsumptionanaerobic
+ammoniaoxidationprocess. Itwasanearlypioneerinthewatertreatmentindustryin
+termsofcarbonneutrality.ThemainprocessflowandenergyflowwereshowninFigure3b.
+BycomparingwiththeShuozhouWWTPwiththebestenergyutilizationratioinscheme1
+andtheKunmingAwastewatertreatmentstationwiththeimprovedprocessinscheme2,
+the energy estimation direction was analyzed. The energy estimation value and GHG
+emissionvalueevaluatedbyECAMtoolwereusedtoevaluatethecontributionvalueof
+recyclingnewenergygastoenergyconservationandemissionreductionandlowcarbon
+wastewatertreatmentprocessconstruction.

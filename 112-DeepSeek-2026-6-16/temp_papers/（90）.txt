@@ -1,0 +1,603 @@
+--- Page 1 ---
+Journal of Environmental Chemical Engineering 13 (2025) 119135
+Contents lists available at ScienceDirect
+Journal of Environmental Chemical Engineering
+journal homepage: www.elsevier.com/locate/jece
+Revealing greenhouse gas emissions variability in industrial wastewater
+treatment: A plant-level study of CH and N O emission factors
+4 2
+Duyen Phuc-Hanh Trana,c , Da-Wei Tsaib,c, Tien-Chin Changb,d, Ya-Fen Wangb,e,
+Sheng-Jie Youb,c,*
+aDepartment of Civil Engineering, Chung Yuan Christian University, Taoyuan 32023, Taiwan
+bDepartment of Environmental Engineering, Chung Yuan Christian University, Taoyuan 32023, Taiwan
+cCenter for Environmental Risk Management, Chung Yuan Christian University, Taoyuan 32023, Taiwan
+dResearch Center for Carbon Neutrality and Zero Emission, Chung Yuan Christian University, Taoyuan 32023, Taiwan
+eSustainable Environmental Education Center, Chung Yuan Christian University, Taoyuan 32023, Taiwan
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater treatment in Taiwan contributes significantly to greenhouse gas (GHG) emissions, accounting for
+Methane (CH4) 38.82 % of waste sector emissions. These emissions pose a significant challenge to global sustainable develop-
+Nitrous oxide (N2O) ment goals, requiring urgent mitigation efforts. In this study, field monitoring was conducted to examine
+Wastewater treatment plants (WWTPs)
+methane (CH4) and nitrous oxide (N2O) emissions from wastewater treatment plants (WWTPs) of the paper and
+Pulp and paper industry
+food industries. Results from field monitoring indicated that the pulp and paper sector generated the highest
+Food industry
+emissions, with annual CH4 and N2O emisions of up to 5489 kg and 5.4 kg, respectively. Furthermore, hydraulic
+Emission factors
+retention time (HRT), dissolved oxygen (DO), and temperature were identified as important factors that
+significantly influenced the variation in emissions. The sector-specific emission factors were determined to be
+1.94 × 10(cid:0)4 kgCH4/kgCODremoved and 6.80 × 10(cid:0)6 kgN2O/kgTNremoved for the paper and pulp industry, while
+×10(cid:0)4 ×10(cid:0)5
+higher emission factors were observed in the food industry, at 7.39 kgCH4/kgCODremoved 1.88
+kgN2O/kgTNremoved. These results highlight the need for plant-specific GHG inventories to better capture real-
+world emissions and to design targeted mitigation strategies. Such approaches are critical for advancing sus-
+tainable, low-carbon wastewater treatment systems.
+1. Introduction sector greenhouse gas emissions in 2022 [8]. Among waste sources,
+emissions from waste burning (34.87 %), solid waste (24.56 %), and
+In recent years, the emissions of greenhouse gas (GHG) from biological waste disposal (1.75 %) were secondary to those from
+wastewater treatment plants (WWTPs) have emerged as a significant wastewater, with methane comprising the majority (61.26 %) of total
+environmental concern in achieving the 2050 net-zero carbon goal. emissions from the waste sector [8]. Moreover, projections indicate that
+Methane (CH4) and nitrous oxide (N2O) are two major GHGs with sig- industrial wastewater emissions are set to become even more dominant
+nificant 100-year global warming potentials (GWPs) [1], produced since eoconomic growth, forecasted to surpass 57 % by 2050 in the
+during anaerobic digestion and nitrification- denitrification in WWTPs waste sector. Within the industrial sector, the paper and food industries
+[2–4]. It is estimated that more than 650 Gg CO2-eq is emitted directly are the largest sources of GHGs, jointly contributing over 80 % of in-
+from global WWTPs annually, of which CH4 and N2O account for 77 % dustrial wastewater emissions in Taiwan. Their high-strength organic
+and 13 %, respectively [5]. Globally, WWTPs are responsible for nearly wastewater and frequent use of biological treatment processes present
+5 % of anthropogenic GHG emissions and are expected to increase by major hotspots for CH4 and N2O generation but also potential for miti-
+22 % by 2030 [6,7]. Hence, it is important to minimize GHG emissions gation through improved monitoring and process optimization [9,10].
+from WWTPs in achieving carbon neutrality by the end of the decades. Direct emissions of CH4, N2O, and CO2 from industrial WWTPs using
+Taiwan’s industrial wastewater treatment sector is the largest biological nutrient removal processes (e.g., A/O, A²/O) represent a
+contributor within the waste sector, responsible for 38.82 % of all waste- substantial portion of total emissions and must be accurately
+* Corresponding author at: Department of Environmental Engineering, Chung Yuan Christian University, Taoyuan 32023, Taiwan.
+E-mail address: sjyou@cycu.edu.tw(S.-J. You).
+https://doi.org/10.1016/j.jece.2025.119135
+Received 13 July 2025; Received in revised form 2 September 2025; Accepted 4 September 2025
+Available online 5 September 2025
+2213-3437/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+characterized [11]. The reliance on Tier 1 default emission factors (EFs)
+provided by the Intergovernmental Panel on Climate Change (IPCC) 3241±
+may lead to overestimation or underestimation of actual GHG emissions 31PTWW21PTWW11PTWW01PTWW9PTWW8PTWW7PTWW6PTWW5PTWW4PTWW3PTWW2PTWW1PTWW ciboreanA ciboreA+ciboreA+ciboreA+RBS+ciboreA+ 3.8± 7.0± 152± 4.0± 1.0± 6.4± 1.0± 6.1±
+from WWTPs, as these factors do not account for variations in influent 62339112311239179130053256,4142958886000800180529038,62 17916.46± 5.621.06± 4.892.4± 927401± 9.04.1± 8.991.0± 3.532.41± 5.49.0± 1.782.4±
+characteristics, treatment configurations, and operational conditions
+[12–14].
+Recent studies have attempted to reduce the uncertainty associated
+ciboreanA
+with GHG EFs by integrating operational data with modeling ap-
+proaches. For example, Xi and co-workers used operational data inte- 3911101± 0818.5± 1.583.0± 044882± 1.79.0± 4.891.0± 1.761.2± 4.714.0± 6.379.0±
+gration (ODIM) with pollutant data and EF from in situ measurements to
+estimate greenhouse gas emissions from 50 WWTPs in Shanghai,
+providing a more accurate representation of field emissions compared to ciboreanA
+default EFs [15]. Furthermore, Moore and co-workers applied Bayesian
+inference with Monte Carlo-based approach to scale measured EFs from 2601313± 7.427.0± 7.791.0± 8478.63± 4.27.0± 7.991.0± 1.037.0± 8.91.0± 3.761.0±
+63 WWTPs in the United States, revealing significant variability in
+emissions across facilities [14]. However, most available EFs are derived
+from laboratory-scale studies or municipal WWTPs, which often fail to ciboreanA
+reflect the real-world variability and complexity of industrial treatment 3093562± 5.144.6± 9.894.0± 4742431± 5.214.1± 5.994.0± 5.591.4± 9.984.0±
+processes [16–18]. This underscores the pressing need for field-based, 6.95.1±
+country-specific EFs, particularly for industrial WWTPs where influent
+loads, configurations, and environmental conditions differ substantially
+ciboreanA
+from municipal contexts.
+To address this gap, this study applied a closed-chamber gas sam- 3313324± 5.979.61± 3.794.0± 6271145± 1.798.0± 4.8616.94± 1.934.3± 9.674.21±
+152.31±
+pling method to conduct direct field measurements from 13 full scale
+industrial WWTPs (7 from paper industry and 6 from food industry). The yrtsudni
+objectives of this study are (1) to analyze the characteristics of CH4 and
+ciboreanAciboreAciboreA ciboreA+ciboreA+ssecorp
+N2O emissions across various wastewater treatment units, (2) to inves- RBM+
+tigate the influence of wastewater characteristics and operational pa- dooFyrtsudni 5312255± 1.894.1± 7201658± 9.899.0± 9.891.2± 6.414.5± 2.289.6±
+244.51± 514.4±
+rameters (e.g. HRT, DO, COD, TN, etc.) on emission, and (3) to establish
+plant-specific and sectoral CH4 and N2O EFs for Taiwan’s industrial
+WWTPs. As far as our knowledge, this is the first paper to establish
+country-specific CH4 and N2O EFs for paper and food industry WWTPs in 25816.09± 1.533.71± 9.798.0± 7111701± 9.414.2± 4.891.0± 5.281.3± 2.116.7± 3.686.8±
+Taiwan. By leveraging field sampling methods and Pearson’s correlation
+analysis, we aim to provide experimental evidence for correlations be-
+tween key variables and emissions data, thereby enhancing the accuracy
+and reliability of our findings. Ultimately, our study contributes to a
+8602055± 7.621.21± 7.891.0± 63617511± 6.991.0± 9.489.81± 9.987.81±
+comprehensive understanding of GHG emissions from industrial 8.63.01± 7.83.11±
+wastewater treatment in Taiwan and informs targeted mitigation stra-
+tegies aligned with global sustainability objectives.
+ciboreanAciboreAciboreAciboreAciboreA
+2. Methodology 386,31603±
+5.863.2± 5.991.1± 1794813± 7.016.0± 8.991.1± 1016.3± 5.833.2± 1.060.3±
+2.1. WWTP selection
+Seven WWTPs from the paper industry and six WWTPs from the food
+industry were selected, with the average COD treatment capacity ac- 2.7654.55±
+467633± 4.624.1± 3.693.0± 6.017.3± 8.792.0± 8.156.0± 7.91.2± 4.184.2±
+counting for 84.5 % of the paper industry and 37.4 % of the food in-
+dustry. In general, these WWTPs include the typical steps of a
+wastewater treatment process, from primary treatment (e.g. Equaliza-
+tion tank, Coagulation-Flocculation, Flotation, Primary clarifier), sec-
+ondary treatment (e.g. Facultative tank, Contact aerator, Anaerobic 6432491± 1.896.0± 57419.6± 4.229.8± 5.896.0± 1.492.4± 8.210.2± 4.688.2±
+448.61±
+tank, Aeration tank, Sequencing batch reactor (SBR), Membrane biore-
+actor (MBR), Final clarifier), tertiary treatment (e.g. Fenton process), to
+sludge treatment (e.g. Sludge digestion and storage). The treatment
+flowchart of each WWTPs were depicted in Figure S1-S2. Water quality 1522784± 9.633.37± 4.899.2± 8241715± 7.615.0± 9.891.0± 9.981.21± 7.219.0± 8.589.0±
+during the monitoring period was monitored on-site and analyzed from plup
+each treatment unit, including pH, DO, conductivity, temperature, COD,
+BOD, NH4+ _N, TKN, NO2-_N, NO3-_N, MLSS, MLVSS. Detailed information dna
+.sPTWW
+about WWTPs and water quality were described in Table 1. repaPsretemaraP 9823 441 4.59 2532 7.01 5.99 121 6.91 8.38
+2.2. Sampling and analysis fo
+scitsiretcarahC lavomeR_DOC lavomeR_5DOB
+lavomeR_NT
+2.2.1. Sampling method tnemtaerT
+yticapaC )DMC( fnI_DOC )L/gm( ffE_DOC )L/gm( fnI_5DOB )L/gm( ffE_5DOB )L/gm( )L/gm( )L/gm(
+CH4 and N2O fluxes were estimated from each treatment unit of the 1 )%( )%( fnI-NT ffE_NT )%(
+elbaT
+WWTPs using closed floating chamber sampling (non-steady state, no-
+through flow chamber) methods, as recommended by UNESCO and
+2
+
+--- Page 3 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+the International Hydropower Association (IHA) [19]. The floating flux
+c hh iga hm b mer dis d oe fs i pg on le yd rw oi pth la en ein wne itr s p aa nc oe po ef n5 0 ocm i mn ,d aia m cloe ste inr ga n vd l2 v4 c om EFN2O =(cid:0) F TN N2O Eff)× A (4)
+TNInf (cid:0) × 1000×Q
+, a e p y n h b tto a e n
+t (o Fp ig, an 1d a Ts ha em p cl hin ag p bo er rt c co ren an te ec st e ad t go a tp igo hly et eh ny vle irn oe msa em np lin wg thtu ob ue Where Pa is the total CH4/N2O flux (kg d(cid:0) 1); A is the cross-sectional area
+. ). m a s- t n t i t
+of gas collection tank (m2); EF is the emission factor of CH4 (kgCH4/
+through-flow, preventing external air exchange during deployment.
+Water samples were collected at the inlet and outlet of each treat- (k mgC 3O dD (cid:0)re 1m )oved) and N2O (kgN2O/kgTNremoved); Q is the treatment capacity
+ment unit, while gas samples were obtained from one to two represen-
+The relationships between process parameters and CH4 and N2O
+tative locations per unit, depending on accessibility, surface conditions,
+emissions were analyzed using Pearson correlation coefficients and
+and operational layout, as shown in Figure S1–S2. The sampling dura-
+regression analysis. Statistical analyses were performed using Origin
+tion for each chamber deployment was 30min. Gas samples were
+2022 software, with the significance threshold (α) set at 0.05 to assess
+withdrawn at 0min (background) and 30min (accumulated concen-
+statistical significance.
+tration), and the difference was used to calculate gas flux. The sampling
+campaign was conducted over a period of three years, targeting the
+summer (July–August) and autumn (November) seasons, when biolog- 3. Results and discussion
+ical activity and temperature-driven GHG emissions are typically
+3.1. Characteristics of CH4 and N2O emissions in the paper and food
+elevated. In each season, each treatment units (e.g., flotation, aeration,
+industries
+clarifier, sludge tanks, etc.) were selected from 13 WWTPs across the
+food and paper sectors. Triplicate samples were collected per unit using
+The variation of CH4 and N2O fluxes across primary, secondary,
+closed floating flux chambers, resulting in a total of 18 discrete flux
+tertiary and sludge treatment units in different WWTPs in the food and
+measurements. This targeted, seasonal approach aimed to capture peak
+paper industry is depicted in Fig. 2. CH4 formation is found in areas with
+emission scenarios and facilitate unit-specific comparisons. The
+high COD and low DO concentrations and is accumulated along the
+collected gas samples are subsequently sent to the laboratory for analysis
+wastewater stream [18]. Obviously, the highest CH4 fluxes are found in
+using gas chromatography - flame ionization detector (GC-FID) (Shi-
+anaerobic treatment processes such as anaerobic tank (3221 – 45,
+madzu, Japan) and gas chromatography - electron capture detector (GC- 257mgm(cid:0) 2 d(cid:0) 1) and sludge treatment unit (267 – 14,812mgm(cid:0) 2 d(cid:0) 1),
+ECD) (Shimadzu, Japan).
+in both food and paper industry WWTPs. This may be attributed to
+active methanogenesis, particularly in food industry WWTPs, where
+2.2.2. Emission factors calculation and statistical analysis
+wastewater contains high concentrations of biodegradable organic
+The mass fluxes of CH4/N2O emission in different treatment pro-
+compounds such as carbohydrates, proteins, and lipids. These substrates
+cesses were calculated by using the equation below (Eq. 1):
+( ) ( ) ( ) promote the activity of methanogenic archaea (e.g. Methanosaeta,
+Fa= V × Δ ΔC × RP ×× (2F 71 3.15× F2 (1) M une dth ea n ao ns aa erc roin ba i, e ct oc n.) iw tioh nic sh 2a 0r ,e 1k ]e .y contributors to CH4 production
+A t + T) r c d [ 2
+Where Fa refers to the CH4/N2O flux (mg m(cid:0) 2 d(cid:0) 1); V is the volume of but C aH ls4 o e om ci cs us rio in ns pa rr ie m n ao rt y o an nly d d fie nte ac l t ce ld a rin ifi a en ra s e ir no b Wic W d Tig Pe ss . t Ii to n is p rr eo pc oe rs ts ee ds
+gas collection chamber (m3); A is the cross-sectional area of gas collec- that low turbulence and solids separation in these tanks facilitate partial
+tion chamber (m2); ΔC is the difference in CH4/N2O concentration at decomposition of organic matter in the anaerobic zones of the sludge
+t ga= m0 om lein ua ln ad wt= eig3 h0 m (Ci Hn; :P i 6s t gh me a ot l(cid:0)m 1o s Np 2h Oe :r i 4c p gre mss ou lr (cid:0)e )( ;k FP 2a ) i; F th1 i s it mhe b tie md e, sr e losu wl eti rn tg ain C aH na4 r re ol be ia cs e i[ g2 e2 st] i. A nl t ph ro ou ceg sh ee sm ti hss ei yo n tr ia llt e cs na tr re b4 t– 4 t8
+s c r t 4 1 ; 4 1 s e t e h n e d o s , s o i u e o
+mco on lv (cid:0)e 1r )s i Ton f ta ec mto pr r( a1 t4 u4 re0 (m ◦Cin d(cid:0) 1); R is gas constant (8.3144JK(cid:0) 1 t foo rta ml eC dH in4 te hm ei ess qi uo an ls i. aS tu iorp nr tis ai nn kg .l y It, mre al yat biv ee aly rh ibig uh eC dH to4 dfl iu sx soe ls w ede r Ce a 4l s ino
+; i s e ) z tt t v H
+In addition, the CH4/N2O (mass/mass) emission factor was also oxygen-limited wastewater transported through pipelines, which is
+calculated based on the daily COD and TN removed to compare emis- emitted upon entry into WWTPs [13,23].
+sions from this study with other previous studies and propose country- In contrast, N2O emissions were mainly associated with biological
+specific emission factors as follows (Eqs. 2–4): nitrogen removal processes involving nitrification and denitrification
+Pa =Fa×A (2) [ in2 c4 l] u. E im ngi ssion l ie nv els du er qin ug lp izr ae tl ii om ni nary t (r 0ea .0tm 6–e 2n .t s 1ta mg ges re (cid:0)m ained l (cid:0)o 1w ),,
+d a 4 m 2 d
+EFCH4 = (cid:0) CODInf (cid:0)FC CH O4 DE× ff) ×A 1000×Q (3) (c 0o .a 0g 6u –l 0a .t 5io 0n m-fl goc mcu (cid:0) l 2a dti (cid:0)o 1n ) , a( n0 d. 1 p– r0 im.1 a2 rym cg lam ri(cid:0) fe2 r (0d .(cid:0) 01 4) –, 2.3p 6H mgad mju (cid:0)s 2t m d(cid:0)e 1n )t .
+These stages are not designed for nitrogen removal, and the limited
+organic matter degradation and absence of significant nitrification or
+Fig. 1. (a) Schematic diagram of floating chamber design, (b) Digital image of GHGs float sampling equipment.
+3
+
+--- Page 4 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+Fig. 2. N2O and CH4 fluxes in each treatment units from (a) Paper and pulp; and (b) Food processing industry wastewater.
+denitrification processes resulted in detectable but low N2O emissions. systems, where intermittent hypoxic zones can form despite overall
+Besides, the flotation units exhibited slightly elevated N2O emissions aerobic operation, potentially explaining the observed N2O fluxes.
+(0.39–3.91mgm(cid:0) 2 d(cid:0) 1), possibly due to surface turbulence or residual At low oxygen concentrations (DO < 1mg/L), denitrification be-
+nitrogen compounds. comes the dominant pathway for N2O emissions. The presence of deni-
+The highest N2O emissions were observed during secondary treat- trifying bacteria in anaerobic or hypoxic zones, coupled with the
+ment, particularly in aerobic tanks, SBRs, and MBRs, with values availability of organic carbon and nitrogen compounds, can lead to the
+ranging from 6.04 – 7.86mgm(cid:0) 2 d(cid:0) 1. This is consistent with the activity production of N2O as a byproduct of incomplete denitrification [2]. In
+of ammonia-oxidizing bacteria (AOB) and nitrite-oxidizing bacteria addition, N2O emissions in facultative tanks may occur intermittently
+(NOB), which mediate nitrification. Under suboptimal DO conditions, due to anaerobic zones within the sludge layer. Final clarifiers may
+AOB can produce N2O through nitrifier denitrification or hydroxyl- contribute to residual N2O emissions due to the presence of nitrogen
+amine oxidation, especially when oxygen is limited or fluctuates [25]. compounds and residual denitrification. For sludge treatment unit, N2O
+Additionally, heterotrophic denitrifiers may contribute to N2O produc- is not considered to be dominant due to the activity of anaerobic
+tion during incomplete denitrification when organic carbon is insuffi- methanogens.
+cient or when transitions between oxic and anoxic conditions are Annual CH4 and N2O emissions (kg yr(cid:0) 1) for each treatment unit are
+frequent [26,27]. These conditions may occur in contact aeration presented in Table 2. Differences in total emissions were largely
+Table 2
+Total annual CH4 and N2O flux range from each processing unit.
+WWTP Processing unit CH4 flux N2O flux
+mg m¡2 d¡1 kg yr¡1 mg m¡2 d¡1 kg yr¡1
+Paper and pulp Equalization 176 – 4637 9.61 – 1890 0.06 – 2.41 0 – 0.51
+Coagulation/Flocculation 206 – 293 3.09 – 4.39 0.10 – 0.12 0
+Flotation 106 – 470 12.7 – 56.6 0.39 – 3.91 0.01 – 0.47
+Primary clarifier 290 – 3922 14.1 – 647 0.04 – 2.36 0 – 0.40
+Facultative 742 – 1205 19.5 – 31.7 0.74 – 0.78 0.01 – 0.02
+Contact aerator 174 – 1247 27.2 – 196 1.24 – 1.39 0.19 – 0.22
+Aeration 132 – 1912 26.8 – 665 0.83 – 6.51 0.02 – 0.75
+Final clarifier 66.5 – 5068 20.8 – 1410 0.30 – 4.13 0.06 – 2.58
+Fenton process 126 – 152 3.98 – 4.78 2.46 – 2.51 0.08
+Sludge treatment 1964 – 8857 2.87 – 584 0.04 – 2.44 0 – 0.37
+​ Total ​ 140.65 – 5489 ​ 0.29 – 5.4
+Food processing Equalization 102 – 6416 5.29 – 374 0.10 – 2.23 0.01 – 0.15
+Flotation 119 – 2328 0.31 – 60.3 0.39 – 1.59 0 – 0.04
+pH adjustment 2586 – 7143 16.3 – 223 0.06 – 0.50 0 – 0.01
+Anaerobic 3221 – 45,257 74.9 – 2194 0.14 – 5.78 0 – 0.13
+Aeration 197 – 2339 6.85 – 86.7 1.84 – 7.64 0.05 – 0.61
+SBR 44.5 – 366 3.40 – 16.2 0.32 – 6.04 0 – 0.41
+MBR 103 – 1875 0.2 – 126 0.32 – 7.86 0 – 0.69
+Final clarifier 186 – 9535 0.2 – 130 0.93 – 4.36 0 – 0.14
+Sludge treatment 267 – 14,812 1.22 – 140 0.04 – 4.95 0 – 0.06
+​ Total ​ 108.67 – 3350 ​ 0.06 – 2.24
+4
+
+--- Page 5 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+influenced by the water surface area of each unit. Equalization tanks, size and N2O flux. Larger units may induce surface turbulence and form
+anaerobic tanks, and final clarifiers contributed the most to annual CH4 oxygen concentration gradients, as oxygen typically decreases with
+fluxes, while aerobic tanks and final clarifiers dominated N2O emissions. depth before reaching equilibrium [28]. These suboxic zones can pro-
+Although sludge tanks had the highest CH4 flux per unit area, their total mote partial nitrification or incomplete denitrification, especially under
+contribution was lower due to short retention times. These results high organic loads, leading to nitrite accumulation and elevated N2O
+highlight the importance of both treatment conditions and underlying emissions. While further validation is needed, the results suggest that
+microbial communities in shaping GHG emissions across WWTP units, flotation units may indirectly contribute to N2O formation through
+even though microbial abundance and composition were not directly localized redox imbalances.
+measured in this study. Moreover, variability in microbial processes,
+differences in operational parameters and water quality indicators can 3.2.2. Effect of wastewater characteristics
+result in distinct GHG production pathways even within the same The influent COD/N ratio plays a crucial role in regulating organic
+treatment plant. To further understand these trends, the following sec- degradation, nitrification, and denitrification activities, which in turn
+tion investigates the statistical correlations between operational pa- affect CH4 and N2O emissions [29–31]. The values were aligned with
+rameters and CH4/N2O fluxes across sampled WWTPs. unit-specific influent characteristics to reflect actual emission condi-
+tions. During preliminary treatment, a carbon-rich environment with a
+COD/N ratio exceeding 20 promoted elevated CH4 emissions in both
+3.2. Factors influencing CH4/N2O emissions and their variability
+types of wastewate (Fig. 4). At a COD/N ratio between 10 and 20, the
+primary clarifier observed high CH4 flux (3922mgm(cid:0) 2 d(cid:0) 1), which
+CH4 and N2O emissions across various treatment units in WWTPs are
+gradually decreased thereafter. The statistically significant negative
+influenced by different factors, including treatment capacity, influent correlation with inflow TN concentration (r=-0.66, p<0.05) may be
+wastewater characteristics (COD, BOD and TN concentration), treat-
+the reason for this phenomenon. Part of the organic matter has been
+ment efficiency, and operation conditions, such as temperature, DO, and
+removed and the availability of high TN concentrations, which may
+HRT. Pearson correlation coefficients were calculated to determine the
+favor denitrifying bacteria. Guo and co-workers revealed that carbon
+relationship between these variables and the emission fluxes within each
+source reduction contributes to increaseing N2O emissions due to
+treatment unit (Fig. 3). This discussion further examines the sector-
+competition for electrons between different enzymes and incomplete
+specific influences of these factors on emissions, focusing on waste-
+denitrification [32,33]. This aligns with the observed N2O flux trends.
+water from the paper and food industries.
+The emission trends of N2O at different COD/N ratios were found to
+be highest in the main treatment processes of the system (i.e. aerobic,
+3.2.1. Effect of WWTPs capacity
+flotation and MBR), while CH4 exhibited peak emissions in the anaer-
+The capacity of WWTPs significantly affects CH4 and N2O emissions
+obic and final clarifier tank, especially in paper industry (Fig. 4). The
+due to variations in operating conditions and process configuration.
+result demonstrates that the COD/N ratio significantly influences
+Large-scale facilities (>10,000 CMD) typically contain large anaerobic
+nutrient removal efficiency, thereby affecting N2O emissions. For both
+digestion units capable of processing significant amounts of organic
+paper and food wastewater, elevated N2O emissions were observed at
+matter, resulting in high CH4 production. Pearson correlation analysis
+COD/N ratios below 20 and above 30, indicating that the optimal COD/
+revealed a statistically significant relationship between anaerobic
+digestion and CH4 emissions (r=0.71, p<0.05) (Fig. 3). This high- tN era fn og oe t o m duin si tm ryi ,z e N e2 NO p Or o fld uu xc t aio n i s b Oe Dtw /Te Nen r2 a0 oa n ed 3 ce0 e. dH ino gw e 3v 0e r w, ain
+h d in th 2 t a C ti x s
+lights the scale-dependent nature of methane emissions, as larger
+inconsistent, highlighting the need for further investigation to confirm
+anaerobic units facilitate longer retention times and increased microbial
+this trend across different types of wastewater and conditions. Thakur
+activity, both of which increase CH4 production.
+and co-workers suggested that low COD/N ratios result in ineffective
+Interestingly, a positive correlation was found between flotation unit
+Fig. 3. Pearson’s correlation coefficient between CH4/N2O fluxes in each process and influencing factors.
+5
+
+--- Page 6 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+Fig. 4. The effects of C/N ratios on CH4 and N2O fluxes in (a) paper and (b) food wastewater.
+denitrification, while high ratios lead to NO2 accumulation, leading to CH4 emissions from the equalization tank (r=0.7, p<0.05), while a
+additional N2O emisison [32]. Although it is not possible to infer a negative correlation was found for N2O emissions from the flotation
+specific contribution of nitrite accumulation to N2O production in our (r=-0.91, p<0.05) and aerobic tanks (r=-0.64, p<0.05). In the
+data set, efforts from previous studies have specifically identified it equalization tank, a notable positive correlation was identified; longer
+[34–36]. HRT in the equalization tank was associated with increased CH4 emis-
+Maintaining an optimal COD/N ratio is considered important to sions. Specifically, when HRT was short (<2h), CH4 flux was detected
+promote efficient microbial activity in anaerobic reactors. In nitrogen- on average 193.8±25.7mgm(cid:0) 2 d(cid:0) 1, while at longer HRT, CH4 flux
+rich environments (COD/N<10), methanogens can dominate anaer- was detected to increase linearly and reach the highest value with HRT
+obic digestion, leading to increased CH4 production and reduced N2O >10h (4637mgm(cid:0) 2 d(cid:0) 1) (Fig. 5). It has been reported that the pro-
+emissions. Conversely, higher COD/N ratios (>30) indicate abundant longed HRT leads to the higher CH4 emissions since long retention times
+carbon substrates, facilitating for both methanogenesis and denitrifica- can cause more anaerobic conditions which favoring the growth of
+tion processes that utilize polyhydroxybutyrate (PHB) as a carbon methanogens [13]. This finding highlights the need for careful consid-
+source. Ge and co-workers revealed an increase in PHB accumulation eration of HRT in designing and operating the equalization tank to
+during the anaerobic phase along with increased COD/N ratio promoted manage CH4 emissions effectively. However, the trade-off between
+N2O emission [29]. retention time and methane production must be carefully evaluated, as
+Furthermore, final clarifier tanks was also found to be a source of reducing HRT to curb CH4 emissions could compromise other treatment
+CH4 and N2O emissions due to the significant removal of carbon and efficiencies.
+nutrients in the process. The highest CH4 flux (5068mgm(cid:0) 2 d(cid:0) 1) with In contrast, a significant negative correlation was detected between
+COD/N ranges from 20 to 30. The poor correlation observed in this unit HRT and N2O emisison. Under aerobic treatment, N2O is mainly pro-
+(r=0.44) suggests that the COD/N ratio is not an important factor duced from nitrification process. Lower HRT reduces ammonia meta-
+affecting the CH4 emissions. High CH4 fluxes in final clarifiers are mainly bolism and inhibits AOB and NOB activity by increasing free ammonia
+due to the design and operating conditions such as large air-water ex- concentration, leading to NO2- accumulation and N2O production [39]. It
+change surface area and low DO [13,37,38]. However, the results could be seen that the N2O flux was highest when the HRT was shorter
+showed the negligible amount of CH4 from the final clarifier tank in the than 2 (6.5mgm(cid:0) 2 d(cid:0) 1) and decreased significantly when the HRT was
+food wastewater treatment WWTPs as demonstrated in Fig. 4. It can be prolonged. In addition, DO is also a notable concern affecting N2O
+attributed to the low turbulence environment in the unit along with the production in this process since large amounts of oxygen are required to
+majority of carbon and nitrogen being removed in the previous pro- participate in organic matter and nitrogen metabolism under short HRT
+cesses. This finding emphasizes the role of optimizing operating condi- [40,41].
+tions and selecting appropriate treatment technologies in minimizing Indeed, a strong correlation between DO and GHGs emission has
+CH4/N2O emissions. been well-documented in the literature [40–43]. Under aerobic condi-
+tions, maintaining high DO levels is recommended to suppress meth-
+3.2.3. Effect of operational parameters anogenesis effectively, however, high aeration rates can promote the
+Operational parameters such as HRT, DO and temperature have a dissolved CH4 stripped into the atmosphere [13,22]. Notably, the in-
+significant impact on CH4 and N2O emissions in different treatment crease in DO aeration rates makes the stronger wastewater agitation
+units. The Pearson correlation analysis results portraying the impact resulting in the increased the release of dissolved gas, particularly at DO
+between these factors on emissions has been clearly described in Fig. 3. concentrations higher than 1.5mg/L. In particular, CH4 flux was highly
+Based on Pearson correlation, HRT was positively correlated with detected in flotation devices and strongly correlated with DO (r=0.98,
+6
+
+--- Page 7 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+Fig. 5. N2O and CH4 fluxes of WWTPs with various HRT, DO, and temperatures.
+p<0.05). CH4 is characterized by its low solubility in water 4585mgm(cid:0) 2 d(cid:0) 1), while aerobic tank GHGs are the main source for
+(20.3gm(cid:0) 3) and is released as bubbles that rise directly with the solids. N2O emissions (summer: 6.5mgm(cid:0) 2 d(cid:0) 1, fall: 5.3mgm(cid:0) 2 d(cid:0) 1). It has
+The flotation process provided large amounts of DO which together with been reported that GHGs emissions are highest in summer and lowest in
+the high influent organic load may have contributed to the release of lower temperature [45,46]. There was no obvious change in seasonal
+large amounts of CH4 into the atmosphere. In terms of N2O emission and temperature changes affecting CH4 emissions in this study. In particular,
+DO, although the correlation was not strong in this study, incomplete higher summer N2O levels may be linked to enhanced ammonium
+nitrification under fluctuating oxygen concentration conditions is the oxidation by AOB, which outcompetes NOB, causing nitrite accumula-
+main contributor to N2O release in some processes [16,44]. tion and increased N2O production [44].
+Temperature plays a significant role in influencing GHG emissions
+from WWTPs, particularly in regions with seasonal variations. In this
+study, semi-seasonal monitoring during summer (average: ~34.5 ± 3.3. Evaluation country-specific emission factors
+1.77 ◦C) and autumn (average: ~31.6 ± 2.49 ◦C) was conducted to
+examine the potential effects of temperature on CH4 and N2O dynamics. The emission factors (EFs) estimated in this study are generally
+Overall, the role of temperature was not clearly demonstrated in this consistent with values reported in the literature and by the IPCC for
+study and needs further investigation. However, it can be observed that various industrial sectors (Fig. 6). According to the IPCC guidelines,
+autumn where temperatures are lower tends to produce lower amounts aerobic treatment plants are ideally expected to yield negligible CH4
+of CH4 and N2O in most treatment units (Fig. 5). The highest CH4 fluxes emissions, with an emission factor of 0kgCH4/kgCOD [12]. However, our
+occur mostly in clarifier tanks (summer: 5068mgm(cid:0) 2 d(cid:0) 1, fall: findings reveals that while the majority of sampled treatment units in
+the paper industry primarily utilize aerobic processes, certain localized
+Fig. 6. CH4 and N2O emission factors.
+7
+
+--- Page 8 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+conditions, such as within equalization and clarifier tanks, foster represent substantial climate burdens [50]. CH4 emission factor in the
+anaerobic environments, resulting in discernible CH4 emissions. This paper industry of 1.94×10(cid:0) 4 kgCH4/kgCODremoved could produce
+observation aligns with prior findings in the literatures [13,18,22,47]. approximately 5.4 kgCO2-eq per tons of treated wastewater (assuming
+Due to variation in influent composition and treatment configura- 1000kg COD removal per tons). Similarly, for the food industry, N2O
+tions across plants, emission intensities differ markedly even within the emissions, with an emission factor of 1.88×10(cid:0) 5 kgN2O/kgTNremoved,
+same industry. As shown in Table 3, CH4 EFs in paper industry WWTPs correspond to approximately 4.98 kgCO2-eq per tons of treated
+ranged from 8.65×10(cid:0) 5 to 8.35×10(cid:0) 4 kgCH4/kgCODremoved, while food wastewater.
+industry WWTPs exhibited wider variation, from 2.94×10(cid:0) 4 to Key factors such as temperature, DO, and HRT influenced GHG
+1.62×10(cid:0) 3 kgCH4/kgCODremoved. These differences reflect factors such emissions differently across treatment units. For instance, flotation tanks
+as the presence or absence of anaerobic tanks, influent organic loading, in aerobic zones exhibited high CH4 fluxes due to DO-induced stripping
+and operational conditions. Similarly, N2O EFs in the paper sector varied of dissolved CH4, while short HRT and low DO led to N2O formation
+from 3.98×10(cid:0) 6 to 1.18×10(cid:0) 5 kgN2O/kgTNremoved, whereas the food from incomplete nitrification. These results underscore the need for
+industry showed a broader range between 6.38×10(cid:0) 6 and 1.23×10(cid:0) 4 targeted mitigation strategies, such as optimizing aeration to balance
+kgN2O/kgTNremoved. oxygen supply without promoting CH4 stripping, and extending HRT in
+A plant-specific approach is necessary when establishing emission high-load units to reduce N2O emissions. In large-scale WWTPs, even
+coefficients, treating each WWTP as a unique system influenced by its marginal reductions in emission factors can yield substantial GHG
+specific conditions. In this study, CH4 emission factors from the paper mitigation, advancing more sustainable wastewater management.
+and food industries are calculated to be 1.94×10(cid:0) 4 and 7.39×10(cid:0) 4 The EFs estimated in this study offer essential country-specific data
+kgCH4/kgCODremoved, respectively. Notably, these values are lower than for Taiwan’s industrial WWTPs, addressing a notable gap in empirical
+those reported for similar industries in Germany and Japan, where GHG measurements in the region. These findings support policymakers
+emission factors for the paper industry are approximately 13 and 30 and regulators in developing more accurate national inventories and
+times higher, respectively [48,49]. While Germany does not provide setting informed emission reduction targets. This study shows the vari-
+specific EFs for the food industry, comparable data from similar ation in emission factors among different industries and treatment units.
+manufacturing industries (e.g., sugar, tea, and coffee processing) were Although the EFs identified here are lower than those reported for
+considered. The significant differences in CH4 EFs indicate potential Germany and Japan, this highlights the need for region-specific emission
+differences in treatment technologies, operating conditions and influent coefficients rather than reliance on generalized default values. Under-
+characteristics. Methodological variations in sampling and emission standing this, policy makers can develop strategies to optimize treat-
+quantification, as well as stricter regulatory frameworks and monitoring ment operations, adopt advanced technologies, and prioritize
+in Japan and Germany, may also contribute to their higher reported EFs. interventions in high-emission processes. Importantly, this research
+This highlights the importance of developing tailored EFs through direct represents the first investigation into country-specific CH4 and N2O
+measurement, rather than relying on generalized Tier 1 estimates. emission factors in industrial WWTPs, offering a groundbreaking
+Furthermore, the IPCC stipulates that the N2O emission factor of contribution to the field. By providing a robust foundation for future
+1.60×10(cid:0) 2 kgN2O/kgTNremoved for aerobic treatment plants. This value studies and informing evidence-based policy development, this work
+is substantially higher than the emission factors determined in this and plays a pivotal role in advancing sustainable wastewater management
+other studies, underscoring a potential overestimation in the IPCC and supporting global GHG reduction goals.
+guidelines for certain real-world conditions. In this study, N2O emission While this study contributes valuable insights, it is important to
+factors were estimated at 6.80×10(cid:0) 6 and 1.88×10(cid:0) 5 kgN2O/kgTNre- acknowledge certain limitations. First, the sampling was limited to 18
+moved for the paper and food industries, respectively. These lower values discrete CH4 and N2O flux measurements over three years, focusing only
+may reflect the specific treatment configurations employed, such as on summer and autumn seasons. Although this targeted strategy
+efficient denitrification processes or lower nitrogen loads, which reduce captured peak emission periods, it may not reflect full seasonal or daily
+the formation of N2O. Additionally, differences in sampling frequency, emission dynamics. Second, the study focused on 13 WWTPs from the
+analysis precision, and environmental variables like temperature and paper and food industries, which may not fully represent the operational
+DO could contribute to these discrepancies. diversity of industrial WWTPs in Taiwan. As such, the findings may not
+be generalizable to all regions or industries. Future research should
+expand sampling efforts to include additional sectors such as chemical
+3.4. Implications and limitations
+manufacturing, textiles, and metal processing, as well as a broader range
+of geographic and climatic conditions, to establish a more comprehen-
+This study provides critical insights into the quantification and
+sive emission profile and enhance the robustness of country-specific
+mitigation of CH4 and N2O emissions from industrial WWTPs. CH4 and
+emission factors.
+N2O, with 100-year GWPs of 28 and 265 times that of CO2, respectively,
+Table 3
+Plant-specific GHG emission factors.
+Industry type WWTP Total CH4 emissions (kg/day) Total N2O emissions (kg/day) CH4 EF N2O EF
+(kgCH4/kgCODremoved) (kgN2O/kgTNremoved)
+Paper and pulp WWTP 1 19.8620 0.0383 1.18×10(cid:0)4 7.07×10(cid:0)6
+WWTP 2 6.0170 0.0088 1.51×10(cid:0)4 6.26×10(cid:0)6
+WWTP 3 2.9492 0.0062 1.27×10(cid:0)4 4.74×10(cid:0)6
+WWTP 4 2.9840 0.0079 2.53×10(cid:0)4 1.18×10(cid:0)5
+WWTP 5 6.1495 0.0056 8.65×10(cid:0)5 7.56×10(cid:0)6
+WWTP 6 17.4338 0.0035 8.35×10(cid:0)4 3.98×10(cid:0)6
+WWTP 7 12.9194 0.0113 8.20×10(cid:0)4 7.18×10(cid:0)6
+Food WWTP 8 5.8943 0.0046 7.49×10(cid:0)4 3.03×10(cid:0)5
+WWTP 9 2.3653 0.0023 2.94×10(cid:0)4 8.09×10(cid:0)6
+WWTP 10 9.0364 0.0013 1.00×10(cid:0)3 6.38×10(cid:0)6
+WWTP 11 1.4400 0.0023 1.62×10(cid:0)3 1.23×10(cid:0)4
+WWTP 12 1.8963 0.0017 1.02×10(cid:0)3 4.54×10(cid:0)5
+WWTP 13 0.0604 0.0011 1.76×10(cid:0)4 9.26×10(cid:0)5
+8
+
+--- Page 9 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+Finally, this study represents the first field-based GHG inventory of production with discoveries of unexpected sources, Environ. Res. 204 (2022)
+Taiwan’s industrial WWTPs, contributing novel emission factors and 111978, https://doi.org/10.1016/j.envres.2021.111978.
+[5] X. He, Z. Li, C. Xing, Y. Li, M. Liu, X. Gao, Y. Ding, L. Lu, C. Liu, C. Li, D. Wang,
+highlighting specific treatment units as emission hotspots. These find- Carbon footprint of a conventional wastewater treatment plant: an analysis of
+ings provide a practical foundation for targeted interventions and water-energy nexus from life cycle perspective for emission reduction, J. Clean.
+informed policymaking that support sustainable industrial wastewater Prod. 429 (2023) 139562, https://doi.org/10.1016/j.jclepro.2023.139562.
+[6] Z. Jason Ren, J.L. Schnoor, K.R. Pagilla, Toward a net zero circular water economy,
+treatment and climate mitigation goals.
+Pathw. Water Sect. Decarbonization Carbon Capture Util. 0 (2022), https://doi.
+org/10.2166/9781789061796_0001.
+4. Conclusions [7] M. Maktabifard, H.E. Al-Hazmi, P. Szulc, M. Mousavizadegan, X. Xu,
+E. Zaborowska, X. Li, J. Mąkinia, Net-zero carbon condition in wastewater
+treatment plants: a systematic review of mitigation strategies and challenges,
+This study provides quantitative assessment of CH4 and N2O emis- Renew. Sustain. Energy Rev. 185 (2023) 113638, https://doi.org/10.1016/j.
+sions across various treatment processes in WWTPs serving the paper rser.2023.113638.
+[8] MOE, Republic of China - National Greenhouse Gas Inventory Report 2024, 2024.
+and food industries. CH4 emissions were predominantly associated with [9] P. Faubert, S. Barnab´e, S. Bouchard, R. Coˆt´e, C. Villeneuve, Pulp and paper mill
+anaerobic zones, particularly sludge treatment units, ranging from 267 sludge management practices: what are the challenges to assess the impacts on
+to 45,257mgm(cid:0) 2 d(cid:0) 1, while N2O emissions were primarily linked to greenhouse gas emissions? Resour. Conserv. Recycl 108 (2016) 107–133, https://
+aerobic treatment stages, ranging from 0.32 to 7.86mgm(cid:0) 2 d(cid:0) 1. Tem- doi.org/10.1016/j.resconrec.2016.01.007.
+[10] O. Ashrafi, L. Yerushalmi, F. Haghighat, Wastewater treatment in the pulp-and-
+perature, DO and HRT were found to have a substantial impact these paper industry: a review of treatment processes and the associated greenhouse gas
+emissions. The study also highlights significant variability in EFs across emission, J. Environ. Manag. 158 (2015) 146–157, https://doi.org/10.1016/j.
+jenvman.2015.05.010.
+i 1n .9d 4us ×tri 1e 0s (cid:0)a n ad dt r 7ea .3tm 9e ×n 1t 0u (cid:0)n it ks g, CHw 4i /th CC OH D4 mE oF ves w foe rr e ac pa el rc u al na dte d oa dt [11] X gr. eF ea nn h, G u. eN giu a, eR s. (L Gi Hu, J s. Q emin i, X si. Y ni s, fJ r. T mu a, nX o. xL ii c, M ox. iH (u Aa /n Og, E pf rf oe cc eti sv se e v rea glu ea nt ei ro an eo df
+4 n 4 kg re d p fo o s s G ) s o o / c ) o f t
+industries, respectively. Similarly, N2O EFs were determined to be papermaking wastewater treatment through hybrid deep learning techniques:
+6.80×10(cid:0) 6 and 1.88×10(cid:0) 5 kgN2O/kgTNremoved for these industries. l (e 2v 0e 2r 5a )g i 1n 2g t 0h 9e c r hit ti tc pa sl /r /o dle io .of w g/a 1te 0r q 0u 1a 6l /it jy ei nn vd mica at no .r 2s 0, 2J 5. .E 1n 2v 5i 0r 9o 4n .. Manag. 380
+5 4 , : o r .1 .j
+The findings emphasize the need for unit-specific and industry-specific [12] IPCC, Chapter 5.6 wastewater treatment and discharge. 2019 Refinement to the
+mitigation strategies to reduce GHGs emissions from WWTPs. These 2006 IPCC Guidelines for National Greenhouse gas Inventories, 2019.
+insights provide a foundation for improving national GHG inventories [13] C. Song, J.-J. Zhu, J.L. Willis, D.P. Moore, M.A. Zondlo, Z.J. Ren, Methane
+emissions from municipal wastewater collection and treatment systems, Environ.
+and advancing sustainable wastewater treatment and climate mitigation Sci. Technol. 57 (2023) 2248–2261, https://doi.org/10.1021/acs.est.2c04388.
+efforts. [14] D.P. Moore, N.P. Li, L.P. Wendt, S.R. Castan˜eda, M.M. Falinski, J.-J. Zhu, C. Song,
+Z.J. Ren, M.A. Zondlo, Underestimation of Sector-Wide methane emissions from
+United States wastewater treatment, Environ. Sci. Technol. 57 (2023) 4082–4090,
+CRediT authorship contribution statement https://doi.org/10.1021/acs.est.2c05373.
+[15] J. Xi, H. Gong, R. Guo, L. Chen, X. Dai, Characteristics of greenhouse gases
+Da-Wei Tsai: Writing – original draft, Visualization, Validation, emission from wastewater treatment plants operation in China (2009–2016): a case
+study using operational data integrated method (ODIM), J. Clean. Prod. 402 (2023)
+Software, Formal analysis. Duyen Phuc-Hanh Tran: Writing – original 136829, https://doi.org/10.1016/j.jclepro.2023.136829.
+draft, Visualization, Software, Methodology, Formal analysis, Data [16] H. Wang, Y. Sun, L. Li, G. Wu, Enhanced nitrogen removal and minimization of
+curation, Conceptualization. Sheng-Jie You: Writing – review & edit- N2O emission in a constant-flow multiple anoxic and aerobic process, J. Water
+Process Eng. 26 (2018) 336–341, https://doi.org/10.1016/j.jwpe.2018.11.006.
+ing, Validation, Supervision, Resources, Project administration, Meth- [17] Y. Lim, D.-J. Kim, Quantification method of N2O emission from full-scale
+odology, Funding acquisition. Ya-Fen Wang: Writing – review & biological nutrient removal wastewater treatment plant by laboratory batch
+editing, Validation, Supervision, Resources, Methodology. Tien-Chin reactor analysis, Bioresour. Technol. 165 (2014) 111–115, https://doi.org/
+Chang: Writing – review & editing, Validation, Supervision, Resources, 10.1016/j.biortech.2014.03.021.
+[18] W.-H. Chen, J.-H. Yang, C.-S. Yuan, Y.-H. Yang, Toward better understanding and
+Methodology. feasibility of controlling greenhouse gas emissions from treatment of industrial
+wastewater with activated sludge, Environ. Sci. Pollut. Res. 23 (2016)
+20449–20461, https://doi.org/10.1007/s11356-016-7183-2.
+Declaration of Competing Interest [19] IHA, GHG Meas. Guidel. Freshw. Reserv. (2010).
+[20] M.B. Kurade, S. Saha, E.-S. Salama, S.M. Patil, S.P. Govindwar, B.-H. Jeon,
+Acetoclastic methanogenesis led by methanosarcina in anaerobic co-digestion of
+The authors declare that they have no known competing financial fats, oil and grease for enhanced production of methane, Bioresour. Technol. 272
+interests or personal relationships that could have appeared to influence (2019) 351–359, https://doi.org/10.1016/j.biortech.2018.10.047.
+[21] B. Guo, Y. Zhang, L. Zhang, Y. Zhou, Y. Liu, RNA-based spatial community analysis
+the work reported in this paper.
+revealed intra-reactor variation and expanded collection of direct interspecies
+electron transfer microorganisms in anaerobic digestion, Bioresour. Technol. 298
+Appendix A. Supporting information (2020) 122534, https://doi.org/10.1016/j.biortech.2019.122534.
+[22] M. Asadi, K. McPhedran, Estimation of greenhouse gas and odour emissions from a
+cold region municipal biological nutrient removal wastewater treatment plant,
+Supplementary data associated with this article can be found in the J. Environ. Manag. 281 (2021) 111864, https://doi.org/10.1016/j.
+online version at doi:10.1016/j.jece.2025.119135. jenvman.2020.111864.
+[23] W.-B. Yang, C.-S. Yuan, W.-H. Chen, Y.-H. Yang, C.-H. Hung, Diurnal variation of
+greenhouse gas emission from petrochemical wastewater treatment processes using
+Data availability In-situ continuous monitoring system and the associated effect on emission factor
+estimation, Aerosol Air Qual. Res. 17 (2017) 2608–2623, https://doi.org/10.4209/
+Data will be made available on request. aaqr.2017.08.0276.
+[24] R. Bhattacharya, S.B.K. Kanchinadham, Recovery and reuse of nitrous oxide from
+wastewater treatment plants – a step towards carbon neutrality, J. Environ. Chem.
+References Eng. 12 (2024) 112130, https://doi.org/10.1016/j.jece.2024.112130.
+[25] L. Peng, B.-J. Ni, L. Ye, Z. Yuan, N2O production by ammonia oxidizing bacteria in
+an enriched nitrifying sludge linearly depends on inorganic carbon concentration,
+[1] IPCC, Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution Water Res 74 (2015) 58–66, https://doi.org/10.1016/j.watres.2015.02.003.
+of Working Group II to the Sixth Assessment Report of the Intergovernmental Panel
+on Climate Change, 2022. 〈https://www.ipcc.ch/report/ar6/wg2/〉. [26] H. Duan, B. van den Akker, B.J. Thwaites, L. Peng, C. Herman, Y. Pan, B.-J. Ni,
+S. Watt, Z. Yuan, L. Ye, Mitigating nitrous oxide emissions at a full-scale
+[2] V. Vasilaki, T.M. Massara, P. Stanchev, F. Fatone, E. Katsou, A decade of nitrous
+wastewater treatment plant, Water Res 185 (2020) 116196, https://doi.org/
+o rex vid iee ( ,N W2O a) em o Rn ei st o 1r 6in 1g 2in 1fu 9l )l - 3sc 9a 2l –e w 12a ,s t he tw tpa st :e /r dtr oe ia .otm rge /n 1t p .1r 0o 1ce 6s /s je s: a critical
+10.1016/j.watres.2020.116196.
+w t r ( 0 4 / 0 .
+[27] J.-M. Blum, M.M. Jensen, B.F. Smets, Nitrous oxide production in intermittently
+watres.2019.04.022.
+aerated partial Nitritation-Anammox reactor: oxic N2O production dominates and
+[3] D hy. bK ry idu n wg a, sM te. w K aim te, r J tr. eC ah ta mn eg n, tW pl. aL ne te , , J E . s Ct li em aa nt .i o Pn ro o df . g 9r 5e e (n 20h 1ou 5)s e 1 g 1a 7s – 1em 23is , s hio ttn ps s :f /r /o dm o ia . relates with ammonia removal rate, Chem. Eng. J. 335 (2018) 458–466, https://
+doi.org/10.1016/j.cej.2017.10.146.
+org/10.1016/j.jclepro.2015.02.032.
+[4] M. Gålfalk, S.N. Påledal, R. Sehl´en, D. Bastviken, Ground-based remote sensing of
+CH4 and N2O fluxes from a wastewater treatment plant and nearby biogas
+9
+
+--- Page 10 ---
+D.P.-H. Tran et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g i n e e r i n g 13 (2025) 119135
+[28] C.D. DeMoyer, E.L. Schierholz, J.S. Gulliver, S.C. Wilhelms, Impact of bubble and [39] C. Yu, Q. Tu, X. Huangfu, Y. Zhu, L. Fan, H. Ai, M. Chen, Q. He, Effects of hydraulic
+free surface oxygen transfer on diffused aeration systems, Water Res 37 (2003) retention time on nitrous oxide production rates during nitrification in a
+1890–1904, https://doi.org/10.1016/S0043-1354(02)00566-3. laboratory-scale biological aerated filter reactor, Environ. Technol. Innov. 21
+[29] G. Ge, J. Zhao, X. Li, X. Ding, A. Chen, Y. Chen, B. Hu, S. Wang, Effects of influent (2021) 101342, https://doi.org/10.1016/j.eti.2020.101342.
+COD/N ratios on nitrous oxide emission in a sequencing biofilm batch reactor for [40] B. Peng, H. Liang, S. Wang, D. Gao, Effects of DO on N2O emission during
+simultaneous nitrogen and phosphorus removal, Sci. Rep. 7 (2017) 7417, https:// biological nitrogen removal using aerobic granular sludge via shortcut
+doi.org/10.1038/s41598-017-06943-0. simultaneous nitrification and denitrification, Environ. Technol. 41 (2020)
+[30] Y. Xie, C. Jiang, B. Kuai, S. Xu, X. Zhuang, N2O emission reduction in the biological 251–259, https://doi.org/10.1080/09593330.2018.1494757.
+nitrogen removal process for wastewater with low C/N ratios: mechanisms and [41] J. Ren, W. Cheng, T. Wan, M. Wang, M. Jiao, Effect of aeration rates on hydraulic
+strategies, Front. Bioeng. Biotechnol. 11 (2023), https://doi.org/10.3389/ characteristics and pollutant removal in an up-flow biological aerated filter,
+fbioe.2023.1247711. Environ. Sci. Water Res. Technol. 4 (2018) 2041–2050, https://doi.org/10.1039/
+[31] Y. Ren, J. Wang, L. Xu, C. Liu, R. Zong, J. Yu, S. Liang, Direct emissions of N2O, C8EW00231B.
+CO2, and CH4 from A/A/O bioreactor systems: impact of influent C/N ratio, [42] T. Cao, Y. Zhang, Y. Zheng, D. Guo, S. Wang, Z. Zhu, Y. Chen, Y. Wang, H. Dong,
+Environ. Sci. Pollut. Res. 22 (2015) 8163–8173, https://doi.org/10.1007/s11356- Mitigating greenhouse gases and ammonia emission from the storage of digested
+015-4408-8. pig slurry: adaption of dissolved oxygen, J. Environ. Chem. Eng. 13 (2025) 115830,
+[32] I.S. Thakur, K. Medhi, Nitrification and denitrification processes for mitigation of https://doi.org/10.1016/j.jece.2025.115830.
+nitrous oxide from waste water treatment plants for biovalorization: challenges [43] A. Rodriguez-Caballero, I. Aymerich, M. Poch, M. Pijuan, Evaluation of process
+and opportunities, Bioresour. Technol. 282 (2019) 502–513, https://doi.org/ conditions triggering emissions of Green-house gases from a biological wastewater
+10.1016/j.biortech.2019.03.069. treatment system, Sci. Total Environ. 493 (2014) 384–391, https://doi.org/
+[33] G. Guo, Y. Wang, T. Hao, D. Wu, G.-H. Chen, Enzymatic nitrous oxide emissions 10.1016/j.scitotenv.2014.06.015.
+from wastewater treatment, Front. Environ. Sci. Eng. 12 (2017) 10, https://doi. [44] A.C. Brotto, D.C. Kligerman, S.A. Andrade, R.P. Ribeiro, J.L.M. Oliveira,
+org/10.1007/s11783-018-1021-3. K. Chandran, W.Z. de Mello, Factors controlling nitrous oxide emissions from a full-
+[34] W. Gruber, L. von Ka¨nel, L. Vogt, M. Luck, L. Biolley, K. Feller, A. Moosmann, scale activated sludge system in the tropics, Environ. Sci. Pollut. Res. 22 (2015)
+N. Kra¨henbühl, M. Kipf, R. Loosli, M. Vogel, E. Morgenroth, D. Braun, A. Joss, 11840–11849, https://doi.org/10.1007/s11356-015-4467-x.
+Estimation of countrywide N2O emissions from wastewater treatment in [45] W.Bin Bae, Y. Park, K. Chandran, J. Shin, S.B. Kang, J. Wang, Y.M. Kim, Temporal
+Switzerland using long-term monitoring data, Water Res. X 13 (2021) 100122, triggers of N2O emissions during cyclical and seasonal variations of a full-scale
+https://doi.org/10.1016/j.wroa.2021.100122. sequencing batch reactor treating municipal wastewater, Sci. Total Environ. 797
+[35] X. Chen, Z. Yuan, B.-J. Ni, Nitrite accumulation inside sludge flocs significantly (2021) 149093, https://doi.org/10.1016/j.scitotenv.2021.149093.
+influencing nitrous oxide production by ammonium-oxidizing bacteria, Water Res [46] A. Abulimiti, X. Wang, J. Kang, L. Li, D. Wu, Z. Li, Y. Piao, N. Ren, The trade-off
+143 (2018) 99–108, https://doi.org/10.1016/j.watres.2018.06.025. between N2O emission and energy saving through aeration control based on
+[36] A. Vieira, C.F. Galinha, A. Oehmen, G. Carvalho, The link between nitrous oxide dynamic simulation of full-scale WWTP, Water Res 223 (2022) 118961, https://
+emissions, microbial community profile and function from three full-scale WWTPs, doi.org/10.1016/j.watres.2022.118961.
+Sci. Total Environ. 651 (2019) 2460–2472, https://doi.org/10.1016/j. [47] K.-L. Hwang, C.-H. Bang, K.-D. Zoh, Characteristics of methane and nitrous oxide
+scitotenv.2018.10.132. emissions from the wastewater treatment plant, Bioresour. Technol. 214 (2016)
+[37] A.G. Schneider, A. Townsend-Small, D. Rosso, Impact of direct greenhouse gas 881–884, https://doi.org/10.1016/j.biortech.2016.05.047.
+emissions on the carbon footprint of water reclamation processes employing [48] Greenhouse Gas Inventory Office of Japan and Ministry of the Environment,
+nitrification–denitrification, Sci. Total Environ. 505 (2015) 1166–1173, https:// National Greenhouse Gas Inventory Report of JAPAN. Center for Global
+doi.org/10.1016/j.scitotenv.2014.10.060. Environmental Research, National Institute for Environmental Studies, Japan,
+[38] Y.G. Ren, J.H. Wang, H.F. Li, J. Zhang, P.Y. Qi, Z. Hu, Nitrous oxide and methane 2020.
+emissions from different treatment processes in full-scale municipal wastewater [49] German Environment Agency, National Inventory Report for the German
+treatment plants, Environ. Technol. 34 (2013) 2917–2927, https://doi.org/ Greenhouse Gas Inventory 1990 – 2018, 2019.
+10.1080/09593330.2012.696717. [50] US.EPA, Understanding Global Warming Potentials, n.d. per〈https://www.epa.
+gov/ghgemissions/understanding-global-warming-potentials〉.
+10

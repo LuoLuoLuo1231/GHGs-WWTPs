@@ -1,0 +1,63 @@
+（1）Calculation of greenhouse gas emissions in Canary Islands wastewater treatment plants
+研究方法：
+a. [GHG排放核算] - [IPCC协议法]：IPCC 2006国家温室气体清单指南、专家评估排放因子，加那利群岛142座WWTP运行数据，量化WWTP直接与间接GHG排放
+b. [方法论比较筛选] - [自上而下方法论]：对比LGO、USEPA、NERI、IPCC四种方法论的优缺点，选择IPCC协议作为最佳方案，确定加那利群岛区域适用性
+c. [间接排放计算] - [能源消耗碳排放法]：西班牙能源多样化与节约研究所（IDAE）碳排放因子、电力转换系数，各WWTP电力消耗数据，计算电力消耗和污泥运输产生的间接CO2排放
+d. [直接排放计算] - [CH4排放公式法]：IPCC推荐的CH4排放方程（基于可降解有机物含量TOW、甲烷校正因子MCF、最大CH4生产能力B0），各处理厂运行参数，估算厌氧条件下CH4排放量
+e. [直接排放计算] - [N2O排放公式法]：IPCC推荐的N2O排放方程（基于出水氮含量NEFLUENT、排放因子EFEFLUENT），出水水质数据，估算脱氮过程中N2O排放
+f. [污泥排放计算] - [污泥生物降解法]：IPCC协议中污泥生物可降解有机碳含量（干物质45%）、化学计量比氧化反应，各厂污泥产量数据，估算污泥处置的CH4和N2O排放
+g. [全球变暖潜势转换] - [GWP因子法]：CO2-eq转换，CH4（GWP=25）和N2O（GWP=298）转换因子，统一各类GHG排放为CO2当量进行比较分析
+
+（19）Greenhouse gas emissions associated with urban water infrastructure: What we have learnt from China's practice
+研究方法：
+a. [文献综述] - [系统性综述法]：系统检索与批判性评述，中国城市水基础设施GHG排放特征化研究文献及国际案例，梳理研究现状与差距
+b. [排放分类框架] - [GHG Protocol Scope分类法]：WRI和WBCSD温室气体核算体系（Scope 1/2/3），ISO 14064标准，构建城市水系统全生命周期GHG排放源分类框架
+c. [生命周期评估] - [LCA方法]：生命周期评估方法（LCA），城市水系统五个阶段（净水、配水、用水、污水收集、污水处理），评估各阶段直接与间接环境影响
+d. [环境扩展投入产出分析] - [EEIO模型]：中国2007年投入产出表（135个工业部门），环境扩展投入产出模型，估算Scope 3间接碳排放（水泥、钢铁、塑料等上游隐含碳）
+e. [能源强度对比分析] - [国际比较法]：多国/地区/城市供水GHG排放数据对比（人均、单位水量、总量、排放因子），识别中国与发达国家在能源结构和排放强度上的差异
+f. [海水淡化排放核算] - [技术路线对比法]：反渗透（RO）与低温多效蒸馏（LT-MED）能耗对比，山东省与河北省海水淡化案例数据，评估不同淡化技术的碳排放差异
+
+（20）Minimization of greenhouse gas emissions from extended aeration activated sludge process
+研究方法：
+a. [GHG排放估算] - [IPCC改进模型法]：基于IPCC方法开发的现场/场外排放估算新模型，屠宰加工废水处理厂运行数据，分别量化现场和场外GHG排放
+b. [现场排放计算] - [有机物去除关联法]：BOD去除→CO2排放公式（Equation 1，含MLVSS微生物呼吸项）、COD去除→CH4排放公式（Equation 2，含MLSSd微生物死亡项），GWP(CO2)=1、GWP(CH4)=28，内源呼吸率kd=0.40
+c. [场外排放计算] - [排放因子法]：电力消耗排放（ECtotal x EFelectricity，土耳其排放因子0.497 kgCO2e/kWh，IEA 2016）、甲醇脱氮化学消耗排放（Lmethanol x EFmethanol，1.54 kgCO2e/kg）、石灰污泥稳定化排放（Lsludge x Llime x EFlime，0.43971 kgCO2e/kg lime）
+d. [GHG减排优化] - [运行参数修改法]：调整水力停留时间HRT（24h→18h）和固体停留时间SRT（22d→20d），在不损害出水水质前提下减少电力消耗、甲醇用量和剩余污泥量，实现总GHG排放最小化17.1%
+e. [水质分析] - [标准方法法]：APHA 1998标准方法，测定进出水COD、BOD、TSS、FOG、pH等参数，表征废水特性
+
+（21）Assessment of energy performance and GHG emissions for the urban water cycle toward sustainability
+研究方法：
+a. [GHG排放评估] - [ECAM工具法]：ECAM（能源性能和碳排放评估与监测）Web工具，IPCC温室气体清单方法论一致性，IWA性能指标体系，安塔利亚市城市水循环全阶段GHG和能源评估
+b. [排放范围分类] - [Scope 1/2/3框架法]：Scope 1（直接CO2、CH4、N2O排放，含现场化石燃料燃烧和生物处理）、Scope 2（电网间接排放，含能源平衡计算）、Scope 3（未处理废水排放、运输排放、污泥管理排放）
+c. [场景分析法] - [基线-改善对比法]：基线场景（2020年现状）vs改善供水场景（NRW降至25%、物理漏损降至15%、余压发电）vs改善卫生场景（下水道覆盖率100%、能效提升10%、沼气增产5%、再生水回用5%），量化各场景GHG减排和节能效果
+d. [能源回收评估] - [余压水力发电法]：Termessos和Gurkavak输水管线余压发电设计（0.98MW和1.5MW），年发电量16,714,120kWh，计算能源回收带来的GHG减排量
+e. [排放因子应用] - [IPCC GWP法]：CH4（GWP=34）和N2O（GWP=298），IPCC第5次评估报告，土耳其电网排放因子0.36 kgCO2eq/kWh（EIB 2020），沼气利用排放因子0.36 kgCO2e/kWh
+f. [避免排放计算] - [抵消量估算法]：沼气发电替代电网电力、营养物（TN/TP）回用替代合成肥料、再生水回用避免排放至水体，分别计算各环节的GHG避免排放量
+
+（22）Energy performance and carbon footprint of a centralized sewage system in northeastern Brazil
+研究方法：
+a. [生命周期评估] - [LCA标准化方法]：基于NBR ISO 14040和NBR ISO 14044标准，功能单元为1m3收集处理的生活污水，系统边界涵盖收集、处理、出水处置和污泥管理的O&M阶段
+b. [能源性能评估] - [累积能源需求法]：CED（Cumulative Energy Demand）v1.11方法，SimaPro 9.0软件，ecoinvent 3.5数据库，计算全系统能源需求（MJ/m3），分解为电力、柴油、材料生产运输等贡献
+c. [碳足迹评估] - [IPCC GWP 100年法]：IPCC GWP v1.03方法，计算CO2-eq排放（kg/m3），区分生物源和化石源CO2（化石源占降解COT的2%），直接CH4和N2O排放为主要贡献
+d. [直接排放估算] - [IPCC排放因子方程]：CH4排放用IPCC 2019方程（基于TOW、MCF、B0，区分UASB/LA/LP/LAP各工艺MCF值），N2O排放用Buendia方程（基于NT和FE），管渠内CH4生成用Foley方程（基于水力停留时间和生物膜面积）
+e. [UASB甲烷排放估算] - [ProBio软件模拟法]：ProBio 1.0软件，基于巴西气候条件的COD质量平衡，估算UASB反应器甲烷排放因子（与IPCC默认值对比验证）
+f. [灵敏度分析] - [多情景参数法]：7种分析情景（ProBio-CH4-UASB、IPCC-CH4-UASB、IPCC-CH4-LAP、IPCC-CH4-LA+LP、IPCC-N2O-LAP、IPCC联合、DQO联合），变动排放因子和进水COD浓度，评估参数不确定性对碳足迹的影响
+
+（23）Whole-system analysis reveals high greenhouse-gas emissions from citywide sanitation in Kampala, Uganda
+研究方法：
+a. [全系统端到端分析] - [卫生服务链GHG核算框架]：涵盖储存、清掏运输、处理全链条的直接排放、运营排放和嵌入碳三类排放，坎帕拉市225万人口的排泄物流量图（SFD）数据
+b. [CH4排放计算] - [IPCC COD法]：CH4 = Σ(P × COD × PRCOD × EFC)，排放因子EFC = B0 × MCF，B0=0.25 kgCH4/kgCOD，基于Nakagiri等人现场数据更新各类厕所MCF值（非衬砌/衬砌坑厕、化粪池等）
+c. [N2O排放计算] - [IPCC氮排放法]：N2O = Σ(P × NI × EF × 44/28)，氮排放量NI=4.672 kgN/cap/yr（粪便+尿液），基于现场观测数据的各类卫生设施排放因子
+d. [现场MCF测定] - [污泥物理特性分析法]：Nakagiri等人在坎帕拉坑厕污泥岩心取样数据，测定不同深度好氧/厌氧条件，结合DO水平和ORP值，确定各类型储存设施的甲烷校正因子
+e. [运营排放计算] - [能源消耗法]：卡车运输柴油消耗排放（Eq.5，基于运输次数、距离和车辆排放因子），泵站和处理厂电力/柴油消耗排放（Eq.6和Eq.7）
+f. [嵌入碳计算] - [建材分析估算法]：标准设计规范的材料用量估算（厕所、管网、处理厂），基础设施设计寿命，标准碳排放因子，年化嵌入碳排放量
+g. [灵敏度分析] - [参数变动法]：变动MCF（+10%、+25%）、N2O排放因子（+10%、+25%）、COD产量（+20%）、卡车效率（+200%），评估各假设对总排放估算的影响
+
+（24）Estimation of methane emission from an urban wastewater treatment plant applying inverse Gaussian model
+研究方法：
+a. [大气采样] - [注射器-三通旋塞采样法]：20ml/25ml聚碳酸酯注射器配三通旋塞阀，纯氮气预清洗，两次冲洗后采样，1.50m采样高度，采样时间10-12时，WWTP内67个采样点+周边60个点+城市区域16个点
+b. [浓度分析] - [气相色谱-FID法]：气相色谱仪（火焰离子化检测器FID，1.8m Porapak Q柱，80/100目），氮气载气（30mL/min），H2（30mL/min）和O2（400mL/min），检测限1-3%（0.01-0.03 mg/m3），测定大气CH4浓度
+c. [空间分布分析] - [IDW插值法]：反距离加权（Inverse Distance Weighting）插值方法，ArcGIS Spatial Analyst工具，将离散采样点CH4浓度生成连续曲面，可视化甲烷扩散羽流方向和范围
+d. [排放率估算] - [逆高斯扩散模型]：高斯扩散方程（Eq.1），基于风速(u)、大气稳定性（Turner分类，A-F级，根据太阳辐射和风速确定）、σy和σz扩散参数（Martin 1976经验公式），将简化后的方程（Eq.2，y=0, z=1.50m）反推CH4排放率Q（μg/s）
+e. [气象数据记录] - [自动气象站法]：Lacrosse WS 2815U-IT气象站，每10分钟记录气温、气压、相对湿度、风向、平均风速、阵风强度，NASA POWER项目获取平均小时辐射数据
+f. [统计分析] - [ANOVA+Fisher's LSD法]：方差分析（ANOVA）和Fisher最小显著差异检验（p<0.05），比较WWTP内部与周边、WWTP与城市区域、不同风向扇区之间的CH4浓度差异，验证WWTP排放对大气CH4浓度的影响

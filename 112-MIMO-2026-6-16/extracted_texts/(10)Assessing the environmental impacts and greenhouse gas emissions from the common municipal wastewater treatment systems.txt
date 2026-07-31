@@ -1,0 +1,460 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment801(2021)149676
+ContentslistsavailableatScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Assessing the environmental impacts and greenhouse gas emissions
+from the common municipal wastewater treatment systems
+ThiKieuLoanNguyena,HuuHaoNgoa,b,⁎ ,WenshanGuoa,LongDucNghiema,GuangrenQianc,QiangLiuc,
+JianyongLiuc,ZhuoChend,XuanThanhBuie,BanditaMainalif
+aSchoolofCivilandEnvironmentalEngineering,UniversityofTechnologySydney,Sydney,NWS2007,Australia
+bNTTInstituteofHi-Technology,NguyenTatThanhUniversity,HoChiMinhCity,VietNam
+cSchoolofEnvironmentalandChemicalEngineering,ShanghaiUniversity,No.99ShangdaRoad,Shanghai200444,PRChina
+dSchoolofEnvironment,TsinghuaUniversity,Beijing100084,PRChina
+eFacultyofEnvironmentandNaturalResources,HoChiMinhCityUniversityofTechnology(HCMUT),HoChiMinhCity700000,VietNam
+fSchoolofEngineeringandMathematicalSciences,LaTrobeUniversity,Victoria3086,Australia
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+• Theconstructionphase'scontributionto
+small-sizedWWTPissignificant.
+• Highratealgalpondismoreenviron-
+mentally friendly than a constructed
+wetland.
+• Conventional WWTP consumesmore
+resourcesthannature-basedplants.
+• Nature-based plants produce fewer
+emissionsthanconventionalWWTP.
+• Factorsat theendpointlevelpresent
+more relevant environmental
+information.
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Thisstudymeasuredtheenvironmentalimpactsfromthreesame-sizewastewatertreatmentsystems,spe-
+Received17May2021 cificallyactivatedsludge,aconstructedwetland,andahighratealgalpond.Detaileddatainventorieswere
+Receivedinrevisedform11August2021 employedusingSimaPro9softwaretocalculatetheentireconsequencesbyReCiPe2016andGreenhouse
+Accepted11August2021
+GasProtocolmethod.Theenvironmentaloutcomescausedbysubstanceemissionsandresourceextraction
+Availableonline14August2021
+arepresentedinseveralimpactcategoriesattheendpointlevel.Forabettercomparison,thesinglescore
+toolwasappliedtoaggregateallfactorsintothreeareasofprotection:humanhealth,ecosystem,andre-
+Editor:DamiaBarcelo
+sourceshortage.Resultsshowedthatconcreteandsteelarethemaincontributorstotheconstruction
+phase,whileelectricityisresponsiblefortheoperationstage.Thesinglescorecalculationindicatesthat
+Keywords: theproportionofconstructionactivitiescouldbeequaltoorevenhigherthantheoperationstagefora
+Activatedsludge smallcapacityplant.Thetotalenvironmentalimpactoftheconventionalsystemwas2.3-foldand3-fold
+Constructedwetland higherthanthatofconstructedwetlandandhighratealgalpond,respectively.Highratealgalpondhas
+Abbreviations:AS,activatedsludge;BOD,biochemicaloxygendemand;BNR,biologicalnutrientremoval;CH4,methane;CO2,carbondioxide;CO2eq,carbondioxideequivalent;CW,
+constructedwetland;D,day;DALYs,disabilityadjustedlifeyears;E,egalitarian;GHG,greenhousegas;GWP,globalwarmingpotentials;H,hierarchist;HH,humanhealth;HFCW,
+horizontal flow constructed wetland; HRAP, high rate algal pond; I, individualist; IPCC, Intergovernmental Panel on Climate Change; ISO, International Organization for
+Standardization;LCA,lifecycleassessment;LCI,lifecycleimpact;LCIA,lifecycleimpactassessment;N2O,nitrousoxide;m3,cubicmeter;mg,milligram;PE,populationequivalent;
+PM,particularmatter;Pt,ecopoint;t,ton;VFCW,verticalflowconstructedwetland;WWTP,wastewatertreatmentplant;WWTS,wastewatertreatmentsystem;yr,year.
+⁎ Correspondingauthorat:SchoolofCivilandEnvironmentalEngineering,UniversityofTechnologySydney,Sydney,NWS2007,Australia.
+E-mailaddress:ngohuuhao121@gmail.com(H.H.Ngo).
+https://doi.org/10.1016/j.scitotenv.2021.149676
+0048-9697/©2021ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+Highratealgalpond thebestenvironmentalperformancewhengeneratingtheleastburdensandgreenhousegasemissionsof
+Conventionalwastewatertreatmentplant 0.72kgCO equivalentperm3.Constructedwetlandproduces5.69kgCO higherthananalgalpondbut
+2 2,
+Nature-basedwastewatersystem muchlowerthanactivatedsludgeplant,emitting11.42kgCO perm3.
+2
+Environmentalimpact
+©2021ElsevierB.V.Allrightsreserved.
+Lifecycleassessment
+1.Introduction the uncertainty at the midpoint is adequately low (PRe'', 2020). A
+widerangeofassessmentindicatorsleadstodifficultiesinfinalising
+Dischargingunsatisfactorilytreatedsewageisonecommonsource theoutcome.Duetothedifferencesinmeasurementunitstheresults
+ofpollution,whichaffectshumanhealthandecosystems.Thewastewa- couldnotbesummarizedaccurately,especiallywhenthetotaleffects
+tertreatmentsystem(WWTS)playsavitalroleinensuringaquatic areonlyapproximate.
+environmentquality.However,duetoitsenergyandchemicalrequire- Inthisstudy,anumberofsame-sizeWWTSintermofdailyinfluent
+mentsforconstruction,operation,anddemolitionactivities,aWWTS rateandpopulationserved,includingnaturalandAS-basedtechnolo-
+alsohasanegativeimpactontheenvironment(Nguyenetal.,2020a). gies,willbeevaluated.Theenvironmentalimpactsarequantifiedat
+TheWWTSconsumptionofresourcesdependsonthesizeandtreat- theendpointindicesinthesamecontext.Alltheresultsrefertodamage
+ment method (Kohlheb et al., 2020). Consequently, the effects of levelswhicharebetterformakingafinalcomparison.Moreover,the
+WWTSsontheenvironmentarevariedduetodifferencesintechnology, problemsoriginatingfromconstructionandoperationphasesareinves-
+capability,andsewagetypes. tigatedindetailtobettercomprehendanddevelopeffectiveGHGemis-
+Theactivatedsludge(AS)processisoneofthemostwidelyusedsec- sions management strategies. LCA is conducted to calculate the
+ondarywastewatertreatmentmethods,whichcanbeappliedinsmall influence of different WWTSs to confirm the most environment-
+to large regions. AS is the conventional bacteria-based technology friendlystructureandwhatconstructionandoperationactivitiescon-
+wherethesystemconsistsofasewerandcentralizedwastewatertreat- tributetothefinaloutcomes.
+mentplant(WWTP)(Garfíetal.,2017).Duetomultipleprocesscompo-
+nents and additional resources for treatment activities, AS-based 2.Materialsandmethods
+WWTPsrequirerelativelyhighconstruction,operation,andmainte-
+nancecosts.Meanwhile,naturalwastewatertreatmentisasuitable 2.1.Casestudydescription
+andeconomicalmethod,preferredforsmalltomedium-sizedWWTPs
+(Garfíetal.,2017;Tunçsiper,2019).Anaturaltreatmentsystemisde- TheselectedcasestudyisahybridCWconsistingofathree-chamber
+finedasreasonableinvestment,simpleoperation,andlessexternalen- septictank,twoverticalflowCW(VFCWs),andahorizontalflowCW
+ergyconsumptionduetonaturalself-treatmentproceduresandbasic (HFCW).ThetwoVFCWsareworkingalternately(Garfíetal.,2017).
+technology(Garfíetal.,2017). TheVFCWisusedforhighorganicmatterremovalwhileP.australisis
+Numerousstudieshavebeenconductedtodeterminethebesttype putintotheHFCWfordisinfectionpurposes(Ávilaetal.,2013).The
+ofWWTP.However,theresultsarenotveryconvincedduetodiffer- othercharacteristicsaredescribedinTable1.
+encesinsizeandtreatmenttechnique,andactualtargetinvestigations. TheHRAPsysteminthiscasestudyconsistsofathree-chambersep-
+Theotherinfluencesarethedataavailability,localeffluentqualitystan- tictank,twoparallelHRAP,asettler,andadisinfectionunit(Garfíetal.,
+dards,andevaluationmethods.Lifecycleassessment(LCA)isauseful 2017).OtherrelevantinformationconcerningtheHRAPisdocumented
+toolthatcanidentifywhichsystemisbestfortheenvironment,and inTable1.ThechosenWWTPtocomparewithnaturalsystemsisacon-
+overcomingtheirlimitationsforimprovement(Nguyenetal.,2020b). ventionalASplantwhichusesanactivatedsludgereactorwithex-
+LCAcanexploretheproblemsofasingleproductorasystembyanalyz- tendedaerationtotreatwastewater.Thecasestudieshaveaninfluent
+ingtheinfluencesfromallrelevantprocesses,whichhelpstoavoid rateofapproximate300m3/dayandapopulationof1500PE.
+shiftingproblemsfromplacetoplace(Nguyenetal.,2020b).
+LCAassessedbothactivatedsludgeandnature-basedWWTPsinsce- 2.2.Lifecycleassessment
+narios of conventionalor advanced types (Brockmann et al.,2021;
+Resendeetal.,2019).However,onlyfewstudieshavecomparedtheen- TheassessmentfollowsfourphasesthatarestipulatedinISO14040:
+vironmentalimpactsbetweenLCAs'activatedsludgeandnaturaltreat- goalandscopedefinition,inventoryanalysis,impactassessment,and
+mentmethods(Floresetal.,2020;Garfíetal.,2017;Kohlhebetal., interpretation(ISO,2006).
+2020;Panetal.,2011).Multipleimpactindicatorsweremeasuredin
+thesestudies,includinggreenhousegas(GHG)emissions,electricity 2.2.1.Goalandscope
+consumption,globalwarmingpotential(GWP),resourcedepletion, Thestudy'sgoalistoemployLCAtocomparetheenvironmentalim-
+andeutrophication. pactsofthreeWWTSsandfinalizethecontributionofasinglephasein
+Analyzingtwosmall-scaleof15populationequivalent(PE)systems, thesesystems.ThechosenWWTPscompriseaCW,aHRAP,andanAS,
+thefindingspresentedthatnature-basedsolutionshavemorebenefits
+thanAS-basedsystemsin93%ofcases(DeFeoandFerrara,2017).It
+emergedthat,dependingontheimpactcategory,aconventionalAS Table1
+WWTPisresponsiblefor2–5timesmoreproblemsthanahybridcon- Casestudysystemsdescription.
+structedwetland(CW)orahighratealgalpond(HRAP)(Garfíetal., System Unit Constructed Highrate Activated
+2017).MeanwhileanAScontributes1.2to3timesmorethanaHRAP characteristics wetland algal sludge
+intermsofeutrophicationpotential(EP)andglobalwarmingpotential pond
+(GWP)(Kohlhebetal.,2020).Consideringaboutlanduse,theresults TSS mg/l 280 280 280
+showthatCWproduceslessGHGemissionsandismoreland-useeffi- BOD5removal % 90 90 98
+efficiency
+cientthanAS(Fanetal.,2021;Panetal.,2011).TheCWandHRPAac-
+TSSremovalefficiency % 95 88 98
+countforasimilarlevelofimpact(Garfíetal.,2017). Surfacearea m2 5350 9000 900
+Thelimitationofmostpreviousresearchisthecomparisononmid- Populationserve PE 1500 1500 1500
+pointenvironmentalburdenscategories.Resultsbasedonsolelyone Flowrate m3/d 292.5 292.5 292.5
+impactindexcouldnotberepresentativeoftotalecologicalissues,and Wastewatertype domestic domestic domestic
+2
+
+--- Page 3 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+whicharedescribedabove.Thelifespanoftheassessmentsystemsis20 andthecountry-specificemissionsfactors(IPCC,2019).Theemissions
+years.Thesedesignsareusedtotreatthesameinfluentflowrate.The fromASplantsare0.003kgCH /m3and0.00136kgN O/m3oftreated
+4 2
+functionalunitis1m3oftreatedwater. wastewater.
+Theboundariesincludetheconstructionandoperationprocessesof GHGemissionsfromCWandHRAPwereobtainedfromsystems
+theseWWTPs.Alltheresourcestoproducematerialsforconstruction withsimilarconfigurations.EmissionsratesforCWare0.992kgCO /
+2
+andchemicalfortheoperationwereconsideredastheinputforassess- m3, 0.011 kg CH /m3, and 0.017 g N O/m3 (Garfí et al., 2017).
+4 2
+ment.GHGemissionsandpossiblewastewereincludedasthesystems' Meanwhile,thelevelofN OemittedfromHRAPwas0.00017kgN O/
+2 2
+output.Materialsandwastes transportation areexcludedfrom the m3(Kohlhebetal.,2020).
+studyduetothelocalavailabilityconditions.Neitherdemolitionactivity
+norrecoveryprocessisconsideredintheresearchregardingthecom- 2.2.3.Lifecycleimpactassessment(LCIA)
+plexityorcharacterofdifferentscenarios.Thisresearchfocusesonthe Alloftheenvironmentalimpactsgeneratedbythesystemswerean-
+waterline,withtheexceptionofthesludgeline. alyzedbyvarioussubsetindicatorsinReCiPe2016andGHGProtocol
+V1.02.ReCePiistheglobalassessmentmethodthatcancombinethe
+2.2.2.Lifecycleinventory(LCI)analysis ‘problem-orientedapproach’and‘damage-orientedapproach’(PRe'',
+Thedatainventoriesincludealltheprimarymaterials,chemicals, 2020).ReCiPe2016hasthewidesttimehorizonandsufficientGHG
+andenergyforconstruction andoperation phases.Obtaininginput emissionsinformation.GlobalelementsinReCePi2016replacedthe
+databasedoneachplant'sprojectdesignsisthemostaccuratemethod, localfactorsinReCiPe2008.Theendpointimpactcategorieswerecon-
+whilethesecondarydatacanbeobtainedfrompublishedliterature ductedintheegalitarian(E)perspective,whichisconsideredthelon-
+(Moreraetal.,2017).Ofthemosttrusteddatabase,thelifecycleinven- gest time frame (Nguyen et al., 2021). Using the endpoint factors
+toriesofmunicipalWWTPswerecreatedbyDoka(2003),whichgener- couldsolvethelimitationofthemidpointmethodwheretheimpacts
+atedinformationfor967plants. arepresentedinmultiplecharacterizationcategories.Alltheeffects
+Primaryinputdataforthisresearchweretakenfromtheengineer- arenormalized,weighted,andaggregatedintoendpointvalues,which
+ing design (Garfí et al., 2017), while unavailable information was isconvenientforsummaryandcomparison.
+sourcedfromDoka(2003),asshowninTable2.Allthesourcesofinfor- Fig.1showstheproceduretoconvertmidpointtoendpointvalues
+mationforinventorieshavetheirequivalentvalueswhichcanbeob- (PRe'',2020)andhowmultipleimpactscategoriesareintegratedinto
+tainedfromtheEcoinvent3.5(Weidemaetal.,2013). single value. The requirements of raw materials and land use, and
+Theoutputincludesthewasteanddirectemissionsfromeachsys- GHGemissionsledtoproblemsinseveralaspects.Theproblemsarean-
+tem.TheamountofwastewasassumedbasedonTable2,whilethe alyzedandpresentedthrough14environmentalmidpointindicators.
+emissionsweremeasuredasfollows.EmissionsfromASplantwerees- Thoseindicatorswillbemultipliedwithmatchingdamagefactorstode-
+timatedbasedontheIPCCguidelines(IPCC,2019).AccordingtoIPCC, finetheimpactsonthreeendpointareas,includingdamagetohuman
+2019, equations were employed to calculate methane (CH ) and health,destroytoecosystems,andruintoresourceavailability.These
+4
+nitrousoxide(N O)emissionsfromWWTP.GHGemissionsdepend endpointvaluesarefurtherintegratedintotheformofoneindicator,
+2
+ontheorganiccompoundinwastewater(kgBOD/yearorkgN/year) knownasthesinglescore,whereoverallenvironmentalperformance
+iscountedineco-point(Pt).
+GHGProtocolisamethodthatcanmeasureentireGHGemissions
+Table2 foraproductinventoryandconvertnon-CO gasestoCO equivalent
+DataforlifecycleinventoryanalysisofeachcasestudyinSimaPro. 2 2
+(Nguyenetal.,2021).Accordingtothismethod,fossilandbiogenic
+Materials per Activated Constructed Highrate flowsaredescribedseparately(PRe'',2020).Theresearchemployed
+m3 sludge wetland algal SimaPro9.1softwareforassessment.Allthedatainventorieswere
+WWTP system pond
+presentedintheirequivalentinEcoivent3.5.
+Input
+Construction
+2.2.4.Lifecycleinterpretation
+Excavation m3 2.08E-03 2.08E-03 2.08E-03
+Electricity kWh 2.27E-05 2.27E-05 2.27E-05 Inventoryanalysisandimpactassessmentresultswereconsidered
+Concrete m3 3.11E-02 1.13E-04 3.49E-04 andcombinedtointerpretinthediscussionandconclusionsections.
+Reinforcingsteel kg 9.72E-03 2.43E-02 3.57E-02 Theinterpretationreflectsthepotentialenvironmentalimpactsfrom
+Tapwater kg 7.30E-02 7.30E-02 7.30E-02 relevantactivitiesandexplainsthelimitationofthestudy.Thisphase
+Aluminium kg 5.20E-04 5.20E-04 5.20E-04
+isaffectedbytheavailabilityandqualityoftheinputdata.Findingsof
+Chromiumsteel kg 3.73E-03 3.73E-03 3.73E-03
+Glassfibre kg 0.00E+00 0.00E+00 1.37E-04 thelifecycleinterpretationstagedescribetheresultsoftheassessment
+Copper kg 5.52E-04 5.52E-04 5.52E-04 indicators(ISO,2006).Ingeneral,thisphaseisusedformakingdeci-
+Syntheticrubber kg 5.29E-04 5.29E-04 5.29E-04 sionsabouttheimpactsontheenvironment.
+Bitument kg 9.12E-02 4.73E-03 3.00E-04
+Polyethylen kg 8.30E-04 2.80E-03 8.12E-05
+3.Resultsanddiscussions
+Limestone kg 1.28E-02 1.28E-02 1.28E-02
+Rockwoolmat kg 5.23E-04 5.23E-04 5.23E-04
+Chemicalsorganic kg 2.43E-03 2.43E-03 2.43E-03 3.1.Contributionofconstructionandoperationphasestoenvironmental
+Chemicals kg 2.98E-04 2.98E-04 2.98E-04 problems
+inorganic
+Gravel kg 7.19E-02 7.82E-01 0.00E+00
+Brick kg 0.00E+00 1.66E-02 0.00E+00 Fig.2presentstheresultsofLCAfortheAS,CW,andHRAP,respec-
+tively,basedonReCiPe2016midpointimpactcategories.Theinfluences
+Operation
+ofvariouselementsontheconstructionphaseareshowninthesedepic-
+Ironchloride kg 1.30E-02 1.30E-02 1.30E-02
+Sodiumaluminate kg 4.20E-02 1.53E-06 1.53E-06 tions.Thelistofmaterialcomponentsforthethreesystemsisquitesim-
+Electricity kWh 1.26E+00 2.20E-01 2.50E-01 ilar. However, their impacts on the environment are significantly
+different.Theprimarycontributorstoenvironmentalproblemsarecon-
+Output
+Sludge kg 1.35E-01 3.45E-01 3.45E-01 crete,steel,andelectricity.ItcanbeseenfromFig.2(A),withreference
+CO2 kg 9.92E-01 totheASplant,thatconcreteandelectricityplaynotablerolesinmostof
+CH4 kg 3.00E-03 1.10E-02 theindicators.Electricityaccountsforthehighestimpactonionizingra-
+N2O kg 1.36E-04 1.70E-02 1.70E-04
+diationandfreshwatereutrophication.Thegreatestpercentageofwater
+3
+
+--- Page 4 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+Fig.1.Theconnectionbetweendatainventories,midpoint,andendpointindicators.
+consumptioniscausedbychromiumsteel.Inaddition,concretedomi- Fig.2(A),(B)and(C)depictthecharacterizationcalculationsatend-
+natestheremainderoftheimpactelements,whichrangefrom20%to pointgradeintheegalitarianscenariowhichisknownasthesafestper-
+88%.Theothercomponentsthatcontributetoenvironmentalchallenges spective(Nguyenetal.,2021).Theenvironmentalimpactscoresare
+aresodiumaluminate,sludgeandcopper. presentedatmidpointorendpointcharacterizationfactorsthatcontain
+IntheHRAPsystem(Fig.2(C)),afterelectricity,sludgeandrein- uncertainties.Theresultsshowastrongrelationshipwiththeenviron-
+forcingsteel,chromiumsteel,copperandsludgeplaysimilarroles mentalflowatthemidpointlevel,whiletheendpointcharacterizations
+whenassessingwhattheconsequencesare.Concrete,inthiscase, deliver sufficient information regarding environmental relevance
+istheleastcriticalsubstancecomparedwithAS,butithasagreater (Huijbregts et al., 2016). However, the consequences are defined
+effectthanthatinCW(Fig.2(B)).Itisworthmentioningthatthe undermultiplecategories.Tobetterunderstandthecontributionof
+quantityofconcreteforHRAPisthreetimeshigherthanCW.Steel eachphasetotheentirefootprint,asinglescorecalculationmethod
+isdominantinCWandHRAP,whileitsperformanceinASisnegligi- wasconductedandpresentedinFig.3.
+ble.Thereasonisduetothevariationsinthevolumeofsteelcon- Fig.3showsthattheconstructionandoperationphaseinfluenceson
+sumedinthesesystems. thetotalimpactsaredifferentamongAS,CW,andHRAP.Theconstruc-
+Incomparisontoothercases,ASconsumestheleastamountofsteel tionstagewasbelievedtomakeaminorcontributiontotheenviron-
+butthehighestvolumeofconcrete.Resultsdemonstratetherelation- ment compared with the operation stage. However, this research
+shipbetweenthequantityofmaterialanditsenvironmentalimpacts, showsthatconstructionaccountsforapproximately78%oftheeffect
+andconcreteproductionbringsasignificantburdentosteelmanufac- inASWWTP.IntheCWandHRAPsystems,theconsequencesofthe
+ture.Thesefindingshavealsobeenindicatedinarecentstudywhere constructionphasearequitesmall.Significantimpactsarerecorded
+theproductionofconcreteresultsinhigherGWPthansteeldueto onhumanhealthforbothoperationandconstructionphases.Incon-
+greaterenergyrequirements(Nguyenetal.,2020a). trast,theirinfluencesonresourcesarenegligible.
+4
+
+--- Page 5 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+(a)
+(b)
+Fig.2.(A)Lifecycleimpactanalysisforactivatedsludgewastewatertreatmentplant;2(B)Lifecycleimpactanalysisforconstructedwetlandsystem;2(C)Lifecycleimpactanalysisfor
+highratealgalpond.
+5
+
+--- Page 6 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+(c)
+Fig.2 (continued).
+Incomparisontotheliteraturereview,thecontributionofthecon- requirement (Table 3). Concrete, the primary substance with the
+struction phase to the total impact in the natural based system is greatest quantity, also contributes the most to the final outcomes
+15–50%(Floresetal.,2019;Fuchsetal.,2011).Resultsdocumentedin (Fig.2A).ItshouldbenotedthattheASWWTPhasacapabilityof
+thisstudyareconsistentwithwhatotherresearchreportedforHRAP. 1500PE,whichistypicalofthesmallestsizeWWTP(Doka,2003).
+AlthoughlowerimpactisfoundforCW,ithasthesimilartrendingen- Hence,inequivalentperfunctionalunit(m3),theenergyandchemicals
+eral.However,accordingtotheirfindings,constructiondominatesafew consumptionarerelativelylowerthanconcreteusage.Subsequently,
+assessmentindicatorssuchasmetaldepletion,GWP,andphotochemi- theoperationstagewieldslessimpactthanconstructionactivities.Al-
+caloxidation(Arashiroetal.,2018;Garfíetal.,2017).Theendpointcal- thoughthespecificsiteinformationdoesdifferinsomerespectsbe-
+culation in this study shows that construction could be the major tweenthispaperandothers,theresultscanbeusedasareference
+contributortovariousfactorsduetoinfrastructurematerials(concrete, whenmeasuringaWWTPfootprint.
+steel)ontheenvironment.
+Aremarkabledifferenceofthisstudytoothersistheshareoftheop- 3.2.EnvironmentalimpactsandGHGassessmentforconventionaland
+erationandconstructiontotheentireburdensoftheASWWTP.Many nature-basedWWTPs
+papersconcludethattheproportionofthebuildingisunder5%andneg-
+ligible(Corominasetal.,2020),whileothersreportitsinfluencesiscon- Table3revealsthepotentialenvironmentaleffectsrelatedtoeach
+siderable,especiallyintermsofmetaldepletion(Moreraetal.,2017; WWTS.TheASplanthasmuchmoreofanenvironmentalimpactthan
+Nguyenetal.,2020a).Inthisstudy,constructionhasa3.5-foldhigher CWandHRAPsystemsinallevaluationcharacterizations.Similarfind-
+impactthantheoperationstage.Thereasonforthisisthemassivevol- ingshavebeennotedinotherstudieswhencomparingactivatedsludge
+umeofbuildingmaterialscomparedtolifetimeenergyandchemicals andnature-basedsystems(Garfíetal.,2017;Kohlhebetal.,2020).The
+Fig.3.Proportionofproblemscausedbyconstructionandoperation.
+6
+
+--- Page 7 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+Table3
+Damageassessmentatendpointlevelofthecasestudies.
+Impactcategory Unit Activatedsludge Constructedwetland Highratealgalpond
+Globalwarming,humanhealth DALY 1.37E-04 7.42E-05 6.58E-06
+Globalwarming,terrestrialecosystems species.yr 2.74E-07 1.48E-07 1.32E-08
+Globalwarming,freshwaterecosystems species.yr 7.49E-12 4.05E-12 3.59E-13
+Stratosphericozonedepletion DALY 4.80E-09 2.64E-10 3.02E-10
+Ionizingradiation DALY 9.31E-09 6.11E-10 6.81E-10
+Ozoneformation,humanhealth DALY 2.63E-08 7.49E-10 9.40E-10
+Fineparticulatematterformation DALY 7.40E-06 5.43E-07 6.18E-07
+Ozoneformation,terrestrialecosystems species.yr 3.77E-09 1.09E-10 1.36E-10
+Terrestrialacidification species.yr 5.69E-09 3.90E-10 4.36E-10
+Freshwatereutrophication species.yr 1.25E-09 9.55E-11 1.12E-10
+Marineeutrophication species.yr 3.29E-13 1.59E-13 1.68E-13
+Terrestrialecotoxicity species.yr 4.61E-10 5.62E-11 5.91E-11
+Freshwaterecotoxicity species.yr 2.25E-10 6.52E-11 6.76E-11
+Marineecotoxicity species.yr 2.32E-07 1.05E-07 1.07E-07
+Humancarcinogenictoxicity DALY 6.52E-05 8.73E-06 1.11E-05
+Humannon-carcinogenictoxicity DALY 4.24E-04 1.94E-04 1.98E-04
+Landuse species.yr 1.32E-08 5.26E-10 6.52E-10
+Mineralresourcescarcity USD2013 2.67E-02 2.32E-03 2.64E-03
+Fossilresourcescarcity USD2013 5.61E-01 2.18E-02 2.26E-02
+Waterconsumption,humanhealth DALY 1.10E-06 9.38E-07 9.39E-07
+Waterconsumption,terrestrialecosystem species.yr 6.74E-09 5.71E-09 5.71E-09
+Waterconsumption,aquaticecosystems species.yr 3.22E-13 2.57E-13 2.58E-13
+reasonforthisduetoASrequiringahugeamountofresourcescom- thatCWemitsmoredirectGHGsthanHRAP.TheresultsfromFig.5sup-
+paredtothetwonature-basedconfigurations.CWandHRAP,which portthisassumption.
+areknownaslow-energynetworks,consumefivetimeslesselectricity TotalGHGemissionsfromfossilsources,landtransformation,
+thanAS.Moreover,thequantityofconcreteusedfortheASframework biogenic component, and CO uptake potential are presented in
+2
+isexceptionallylargerthantheothertwoplants.Itshouldberecalled
+thatconcretecouldproducemoreenvironmentaldamagethanother
+constructionmaterials(Nguyenetal.,2020a).
+Theassessmentresultsaremeasuredandexhibitedinthreeunits,
+namelydisabilityadjustedlifeyears(DALYs),species.yr,andUSD2013.
+TheendpointcharacterizationfactorswhichappearwithDALYunit
+haveconsequencesforhumanhealthdamagesuchasyearsoflifelost
+oryearsspentbeingdisabledinsomeway.Fortheenvironment,it
+meansthevanishingofspeciesinaspecificlocationduringaperiodof
+time.Thepotentialfornothavingenoughresourcesisexpressedin
+termsoffutureresourcemanufacturers'excesscost(PRe'',2020).CW
+haslesseffectonclimatechangethanHRAP,whichinturnismorepro-
+nouncedthanCW.
+AsshowninFig.4,allcharacterizationfactorsarecombinedand
+weightedtoexplainhowimpactpathwaysdestroytheenvironment
+andthreevariablesofprotection:humanhealth,ecosystems,andre-
+sources.ThetotaleffectofCWandHRAPareapproximateandsimilar
+toresultsintheliteraturereview(Garfíetal.,2017).Theimportant
+thingisthatCWisresponsibleforaslightlyhigherburdenthanHRAP
+andconsumesfewermaterials(Table2).Theexplanationforthisis Fig.5.GHGemissionsevaluationusingtheGHGProtocolmethod.
+Fig.4.Indicatorscorrespondingtothethreeareasofprotection.
+7
+
+--- Page 8 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+Table4
+Uncertaintyanalysisforconstructedwetlandandhighratealgalpondsystems.
+Impactcategory CW≥HRAP Mean Median SD CV 2.5% 97.5% SEM
+Particulatematter 0 −1.19E-04 −1.18E-04 1.35E-05 -1.14E+01 −1.48E-04 −9.41E-05 4.28E-07
+Fossilresourcescarcity 0 −8.50E-03 −8.41E-03 1.81E-03 −2.13E+01 −1.23E-02 −5.33E-03 5.72E-05
+Freshwaterecotoxicity 0 −3.48E-03 −3.32E-03 9.28E-04 −2.67E+01 −5.59E-03 −2.23E-03 2.94E-05
+Freshwatereutrophication 0 −2.54E-05 −2.27E-05 1.18E-05 −4.65E+01 −5.68E-05 −1.17E-05 3.74E-07
+Globalwarming 100 5.41E+00 5.41E+00 1.35E-02 2.49E-01 5.38E+00 5.43E+00 4.26E-04
+Humancancertoxicity 0 −7.24E-01 −6.56E-01 5.93E-01 −8.19E+01 −1.42E+00 −3.42E-01 1.88E-02
+Humannon-cancertoxicity 0 −1.54E+01 −1.38E+01 6.55E+00 −4.26E+01 −3.29E+01 −8.39E+00 2.07E-01
+Ionizingradiation 0 −4.92E-03 −3.74E-03 4.47E-03 −9.10E+01 −1.47E-02 −1.92E-03 1.41E-04
+Landuse 0 −1.41E-02 −1.35E-02 3.59E-03 −2.55E+01 −2.24E-02 −8.66E-03 1.14E-04
+Marineecotoxicity 0 −1.87E+01 −1.68E+01 7.87E+00 −4.21E+01 −3.91E+01 −1.03E+01 2.49E-01
+Marineeutrophication 0 −5.49E-06 −5.48E-06 3.72E-07 −6.77E+00 −6.28E-06 −4.81E-06 1.18E-08
+Mineralresourcescarcity 0 −1.35E-03 −1.30E-03 3.05E-04 −2.27E+01 −2.06E-03 −8.42E-04 9.65E-06
+Ozoneformation,HH 0 −2.09E-04 −2.05E-04 3.55E-05 −1.70E+01 −2.90E-04 −1.50E-04 1.12E-06
+Ozoneformation,TE 0 −2.13E-04 −2.09E-04 3.61E-05 −1.70E+01 −2.95E-04 −1.53E-04 1.14E-06
+Ozonedepletion 0 −2.87E-08 −2.84E-08 3.90E-09 −1.36E+01 −3.73E-08 −2.18E-08 1.23E-10
+Terrestrialacidification 0 −2.16E-04 −2.13E-04 2.86E-05 −1.33E+01 −2.75E-04 −1.64E-04 9.05E-07
+Terrestrialecotoxicity 0 −2.52E-01 −2.45E-01 7.68E-02 −3.05E+01 −4.25E-01 −1.24E-01 2.43E-03
+Waterconsumption 44.6 −1.29E-03 −3.71E-03 3.00E-02 −2.33E+03 −5.40E-02 6.77E-02 9.49E-04
+Fig. 5. Carbon dioxide and non-CO gases are measured and CRediTauthorshipcontributionstatement
+2
+converted to CO equivalent. The AS WWTP accounts for the
+2
+largest emissions. Although AS has the highest quantity of CO ThiKieuLoanNguyen:Investigation,Writing–originaldraft,Meth-
+2
+uptake,theCO beneficialamountisnegligiblecomparedtofossil odology,Formalanalysis,Datacuration.HuuHaoNgo:Supervision,In-
+2
+release weight. CW emits more fossil gas and has poorer CO vestigation,Projectadministration,Conceptualization,Writing–review
+2
+compensationabilitythanHRAP.Ofthethreesystems,HRAPgener- &editing.WenshanGuo:Supervision,Investigation,Writing–review&
+atestheleastGHGemissions. editing.LongDucNghiem:Methodology,Resources,Writing–review
+Anuncertaintyanalysishasbeenconductedtoexplorethebenefitto &editing.GuangrenQian:Methodology,Formalanalysis,Writing–re-
+environmentbetweenCWandHRAPsystems.Table4showsthatCWis view&editing.QiangLiu:Investigation,Conceptualization,Writing–
+responsibleforhigherimpacttoglobalwarmingandwaterconsump- review&editing.JianyongLiu:Methodology,Datacuration,Resources.
+tion.ThiscalculationsupportsforthefindingsfromFig.4. ZhuoChen:Methodology,Resources,Writing–review&editing.Xuan
+RegardingtotalenvironmentalconsequencesandGHGemissions Thanh Bui: Methodology, Resources, Writing – review & editing.
+attheendpointlevel,HRAPisthemostenvironmentallyfriendlysys- Bandita Mainali: Methodology, Data curation, Writing – review &
+tem,whileASWWTPperformstheworst.Thesinglescoreestima- editing.
+tion method is increasingly popular for making a comparative
+assessment(Kalbaretal.,2017).Althoughafteraggregation,when
+Declarationofcompetinginterest
+thesinglescoressupplylessdetailedinformationabouttheenviron-
+mentalmechanism,thisproblemcouldbesolvedbyprovidingchar- Theauthorsdeclarethattheyhavenoknowncompetingfinancial
+acterizedand/ornormalizedcalculations(ISO,2006).Theendpoint interestsorpersonalrelationshipsthatcouldhaveappearedtoinflu-
+resultsinthisstudywereconcludedafteranalyzingbothcharacter-
+encetheworkreportedinthispaper.
+izedandsinglescoresfactors.However,thefindingsarerestricted
+bythespecificinformationconcerningthecasestudies.Theresults
+Acknowledgement
+could be applied for the same size WWTS having identical
+configurations.
+ThisresearchwassupportedbyUniversityofTechnologySydney,
+Australia(UTS,RIANGOand2021SRSNGO)andtheKoreaInstitute
+4.Conclusions
+ofEnergyTechnologyEvaluationandPlanning(KETEP)andtheMinis-
+try of Trade, Industry and Energy (MOTIE), Republic of Korea (No.
+Thisstudycalculatedandcomparedthepotentialcontributiontoen-
+20183020141270andNo.20194110300040).
+vironmentalproblemsgeneratedfromthreeWWTSs.Theassessment
+coverstheconstructionandoperationphasesbyobtainingtheparticu-
+References
+larinputdatafromtheplantandEcoinventdatabase.Thechosenfunc-
+tionalunitis1m3oftreatedwastewater.SimaPro9.1wasconductedfor Arashiro,L.T.,Montero,N.,Ferrer,I.,Acién,F.G.,Gómez,C.,Garfí,M.,2018.Lifecycleas-
+theanalysis.Thekeyfindingsareasfollows: sessmentofhighratealgalpondsforwastewatertreatmentandresourcerecovery.
+Sci.TotalEnviron.622–623,1118–1130.
+• Thecontributionoftheconstructionphasevariesanddependsonthe Ávila,C.,Garfí,M.,García,J.,2013.Three-stagehybridconstructedwetlandsystemfor
+wastewatertreatmentandreuseinwarmclimateregions.Ecol.Eng.61,43–49.
+quantityofmaterialsconsumed.Theproportioncouldbeequalor
+Brockmann,D.,Gérand,Y.,Park,C.,Milferstedt,K.,Hélias,A.,Hamelin,J.,2021.Wastewa-
+evenhigherthantheoperationphaseinsomeparticularcases;
+tertreatmentusingoxygenicphotogranule-basedprocesshaslowerenvironmental
+• AlltheenvironmentalimpactsoftheWWTParegovernedbythecon- impactthanconventionalactivatedsludgeprocess.Bioresour.Technol.319,124204.
+figuration,andtreatmentmethod; Corominas,L.,Byrne,D.M.,Guest,J.S.,Hospido,A.,Roux,P.,Shaw,A.,Short,M.D.,2020.
+• Incomparisontonature-basedsystems,conventionalWWTPgener- Theapplicationoflifecycleassessment(LCA)towastewatertreatment:abestprac-
+ticeguideandcriticalreview.WaterRes.184,116058.
+ates2to3timesmoreconsequencesand2to15timeshigherGHG
+DeFeo,G.,Ferrara,C.,2017.Aprocedureforevaluatingthemostenvironmentallysound
+emissions; alternativebetweentwoon-sitesmall-scalewastewatertreatmentsystems.J.Clean.
+• HRAPemits8.8timeslessGHGemissionswhilstleadingto1.3times Prod.164,124–136.
+lessproblemsthanCW; Doka,G.,2003.LifeCycleInventoriesofWasteTreatmentServices.SwisseCentreforLife
+CycleInventories.
+• ThesinglescoreLCAmethodismoreconvenientforcomparisonwhen
+Fan,Y.,Wu,X.,Shao,L.,Han,M.,Chen,B.,Meng,J.,Wang,P.,Chen,G.,2021.Cancon-
+sufficientnormalizationcalculationsareprovided. structedwetlandsbemorelandefficientthancentralizedwastewatertreatment
+8
+
+--- Page 9 ---
+T.K.L.Nguyen,H.H.Ngo,W.Guoetal. ScienceoftheTotalEnvironment801(2021)149676
+systems?Acasestudybasedondirectandindirectlanduse.Sci.TotalEnviron.770, Morera,S.,Corominas,L.,Rigola,M.,Poch,M.,Comas,J.,2017.Usingadetailedinventory
+144841. ofalargewastewatertreatmentplanttoestimatetherelativeimportanceofcon-
+Flores,L.,García,J.,Pena,R.,Garfí,M.,2019.Constructedwetlandsforwinerywastewater structiontotheoverallenvironmentalimpacts.WaterRes.122,614–623.
+treatment:acomparativelifecycleassessment.Sci.TotalEnviron.659,1567–1576. Nguyen,T.K.L.,Ngo,H.H.,Guo,W.,Chang,S.,Nguyen,D.D.,Nguyen,T.V.,Nghiem,D.L.,
+Flores,L.,García,J.,Pena,R.,Garfí,M.,2020.Carbonfootprintofconstructedwetlandsfor 2020a.Contributionoftheconstructionphasetoenvironmentalimpactsofthe
+winerywastewatertreatment.Ecol.Eng.156,105959. wastewatertreatmentplant.Sci.TotalEnviron.743,140658.
+Fuchs,V.J.,Mihelcic,J.R.,Gierke,J.S.,2011.Lifecycleassessmentofverticalandhorizontal Nguyen,T.K.L.,Ngo,H.H.,Guo,W.S.,Chang,S.W.,Nguyen,D.D.,Nghiem,L.D.,Nguyen,T.V.,
+flowconstructedwetlandsforwastewatertreatmentconsideringnitrogenandcar- 2020b.Acriticalreviewonlifecycleassessmentandplant-widemodelstowards
+bongreenhousegasemissions.WaterRes.45(5),2073–2081. emissioncontrolstrategiesforgreenhousegasfromwastewatertreatmentplants.
+Garfí,M.,Flores,L.,Ferrer,I.,2017.Lifecycleassessmentofwastewatertreatmentsystems J.Environ.Manag.264,110440.
+forsmallcommunities:activatedsludge,constructedwetlandsandhighratealgal Nguyen,T.K.L.,Ngo,H.H.,Guo,W.,Nguyen,T.L.H.,Chang,S.W.,Nguyen,D.D.,Varjani,S.,
+ponds.J.Clean.Prod.161,211–219. Lei,Z.,Deng,L.,2021.Environmentalimpactsandgreenhousegasemissionsassess-
+Huijbregts,M.A.J.,Steinmann,Z.J.N.,Elshout,P.M.F.G.S.,Verones,F.,Vieira,M.D.M., mentforenergyrecoveryandmaterialrecycleofthewastewatertreatmentplant.
+Hollander,A.,Zijp,M.,Zelm,R.,2016.ReCiPe2016.Ahamornizedlifecycleimpactas- Sci.TotalEnviron.784,147135.
+sessmentmethodatmidpointandenpointlevel.ReportI:Characterization.National Pan,T.,Zhu,X.,Ye,Y.,2011.Estimateoflife-cyclegreenhousegasemissionsfromaverti-
+calsubsurfaceflowconstructedwetlandandconventionalwastewatertreatment
+InstituteforPublicHealthandtheEnvironment.
+IPCC,2019.2019Refinementtothe2006IPCCGuidelinesforNationalGreenhouseGasIn- plants:acasestudyinChina.Ecol.Eng.37(2),248–254.
+ventories. 5.InstituteforGlobalEnvironmentalStrategies. PRe',2020.SimaProdatabasemanual.Methodslibrary.SeriesSimaProDatabaseManual.
+4.15.MethodsLibraryPRe'Sustainability.
+ISO,2006.ISO14014:2006-EnvironmentalManagement-LifeCycleAssessment-Re-
+Resende,J.D.,Nolasco,M.A.,Pacca,S.A.,2019.Lifecycleassessmentandcostingofwaste-
+quirementsandGuidelines.InternationalOrganizationforStandardizationGeneva,
+watertreatmentsystemscoupledtoconstructedwetlands.Resour.Conserv.Recycl.
+Switzerland.
+148,170–177.
+Kalbar,P.P.,Birkved,M.,Nygaard,S.E.,Hauschild,M.,2017.Weightingandaggregationin
+Tunçsiper,B.,2019.Combinednaturalwastewatertreatmentsystemsforremovalofor-
+lifecycleassessment:dopresentaggregatedsinglescoresprovidecorrectdecision
+ganicmatterandphosphorusfrompollutedstreams.J.Clean.Prod.228,1368–1376.
+support?J.Ind.Ecol.21(6),1591–1600.
+Weidema,B.P.,Bauer,C.,Hischier,R.,Mutel,C.,Nemecek,T.,Reinhard,J.,Vadenbo,C.O.,
+Kohlheb,N.,vanAfferden,M.,Lara,E.,Arbib,Z.,Conthe,M.,Poitzsch,C.,Marquardt,T.,
+Wernet,G.,2013.Overviewandmethodology.DataQuality Guidelineforthe
+Becker,M.-Y.,2020.Assessingthelife-cyclesustainabilityofalgaeandbacteria-
+EcoinventDatabaseVersion3,Vol.EcoinventReport1(v3).
+basedwastewatertreatmentsystems:high-ratealgaepondandsequencingbatchre-
+actor.J.Environ.Manag.264,110459.
+9

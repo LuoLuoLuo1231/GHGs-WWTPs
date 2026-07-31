@@ -1,0 +1,523 @@
+--- Page 1 ---
+Process Safety and Environmental Protection 211 (2026) 108748
+Contents lists available at ScienceDirect
+Process Safety and Environmental Protection
+journal homepage: www.journals.elsevier.com/process-safety-and-environmental-protection
+A comprehensive environmental impact evaluation of underground
+wastewater treatment plant: Integrating greenhouse gas emissions,
+environment footprint, and economic assessments
+Hanxiang Lia,b,c, Longwei Gaoa,b, Lailai Huanga,b, Yong Lia,b,*
+aSchool of Environmental Science and Engineering, Suzhou University of Science and Technology, Suzhou 215009, PR China
+bJiangsu Provincial Key Laboratory of Environmental Science and Engineering, Suzhou University of Science and Technology, Suzhou 215009, PR China
+cSchool of Environmental Science and Engineering, Nanjing University of Information Science and Technology, Nanjing 210044, PR China
+A R T I C L E I N F O A B S T R A C T
+Keywords: The carbon element balance method and emission factor method were used to systematically quantify the
+Underground wastewater treatment plants greenhouse gas (GHG) emission characteristics of each treatment stage in an underground wastewater treatment
+(WWTPs) plant (WWTP). The environmental impact and economic viability of different treatment stages within the WWTP
+Greenhouse gas (GHG)
+were analyzed employing life cycle assessment, a simple cost assessment tool based on input and output, and data
+Environmental impact
+envelopment analysis models, with proposed emission reduction pathways. Results indicate that the under-
+Economic viability
+Emission reduction pathways ground wastewater treatment plant in Suzhou generated GHG emissions of 72,793.8 kg CO2-eq per treated
+10,000 m3 wastewater between March 2023 and February 2024. Direct and indirect GHG emissions accounted
+for 74.55% and 25.45% respectively. Reclaimed water used achieved a 5.21% reduction in GHG emissions. The
+biological treatment stage accounts for the highest total GHG emissions, primarily attributable to the operation of
+high-power blowers. This stage also constitutes the principal source of CO₂, N2O and CH₄ emissions. Life cycle
+assessment analysis indicates that the operation of this underground WWTP may have implications for water
+eutrophication and atmospheric acidification. Advanced treatment exerts the greatest environmental impact,
+primarily manifested in atmospheric acidification potential, owing to the substantial chemical reagents employed
+in this process. A simple cost assessment tool based on input and output indicates that this WWTP generates a net
+benefit of 1256.24 Euro per 10,000 m³ of treated wastewater. The data envelopment analysis model was used to
+evaluate the scale efficiency of the WWTP for the whole year, and it was found that only August and October
+2023 achieved the optimal scale efficiency, while the rest of the months were required optimization of input-
+output matching. The adoption of water source heat pump systems and optimization of chemical dosing effi-
+ciency in advanced treatment equipment can promote future emissions reduction. This study contributes to
+advancing the goal of achieving ‘green and low-carbon operation’ in WWTP.
+1. Introduction the generation of CO₂, CH₄, and N₂O, whilst indirect GHG emissions stem
+mainly from energy and material consumption during operational pro-
+Wastewater treatment plants (WWTPs) are significant participants in cesses (Li et al., 2022).
+the global carbon cycle, playing a crucial role through the collection and Underground WWTPs are increasingly becoming a trend in future
+treatment of municipal wastewater. Research indicates that by 2010, wastewater treatment plant construction due to their advantages of
+greenhouse gas (GHG) emissions from wastewater treatment processes conserving land, utilizing space efficiently, and significantly reducing
+accounted for 1.57% of global emissions, and non-CO₂ emissions environmental disturbance (Huh et al., 2020; Chen et al., 2025; Yang
+continuing to rise (Edenhofer., 2014). Therefore, its low-carbon devel- et al., 2021). According to incomplete statistics, the total treatment
+opment is of paramount importance (He et al., 2025; Yang et al., 2023). capacity of operational underground WWTPs in China has reached 431,
+GHG emissions from wastewater treatment plants comprise both direct 000 m³ /day (Chen et al., 2025). However, it should be noted that un-
+and indirect emissions. Direct GHG emissions primarily originate from derground WWTPs not only entail high investment costs and complex
+* Corresponding author at: School of Environmental Science and Engineering, Suzhou University of Science and Technology, Suzhou 215009, PR China.
+E-mail address: yongli69@mail.usts.edu.cn(Y. Li).
+https://doi.org/10.1016/j.psep.2026.108748
+Received 16 January 2026; Received in revised form 4 March 2026; Accepted 16 March 2026
+Available online 17 March 2026
+0957-5820/© 2026 Published by Elsevier Ltd on behalf of Institution of Chemical Engineers.
+
+--- Page 2 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+construction during the development phase, but also consume signifi- within the activated sludge in the mixed liquor. Carbon element gas
+cant amounts of energy and present numerous risk factors during emissions from wastewater treatment plants can be expressed using Eq.
+operation (Feng et al., 2023; Liu., 2024; Yang., 2024; Zhang et al., (1):
+f2 r0 ie2 n2 da l) y. aW ndh le ot whe -r aru bn od ne r thgr ao nu tn rd iW tioW nT alP as oa vre -gm roo ur ne e Wn Wvir To Pn sm ree mnt aa il nly CESpre=Qin×TCin×10(cid:0) 3-Qout×TCout×10(cid:0) 3-Qs×TCs×10(cid:0) 3 (1)
+c ad b e d s
+unclear. In the formula, CESpre for Carbon element gas emissions from the
+Current research on underground WWTPs primarily focuses on pretreatment stage, kg CO2-eq⋅(104 m3)-1; Qin and Qout for flow rate for
+analyzing overall GHG emissions, the impact of plant operations on the pretreatment stage, 104 m3⋅d-1; TCin and TCout for total carbon in
+surrounding residents, and landscape design within the plant premises influent and effluent of the pretreatment stage, mg⋅L-1; Qs for Sedi-
+(Wang., 2025). Scholars have assessed the GHG emissions and envi- mentation tank, m3⋅(104 m3)-1; TCs for total carbon in sediment, mg⋅L-1.
+ronmental impacts of WWTPs (Iqbal et al., 2022; Wu et al., 2022). It The emissions of N₂O generated from biological denitrification in
+should be noted that there exists a coupling relationship between WWTP wastewater treatment, along with indirect emissions arising from energy
+GHG emissions, economic costs, environmental impacts, and treatment consumption, chemical reagents, and transportation, are calculated
+efficiency (Wang., 2019). Enhancements in treatment efficiency corre- using the emission factor method. The calculation formula is referenced
+spondingly increase resource and energy consumption, thereby ampli- from China Urban Water Association (2022), as follows:
+fying economic costs and environmental impacts. Economic analysis
+facilitates the efficient utilization of WWTPs resources and the sustain- CESN2O=TNin×EFN2O ×22/14×103 ×273 (2)
+ability of operations. Consequently, assessing WWTPs GHG emissions CESd=(Ed×EFd)/Q (3)
+and environmental impacts necessitates a comprehensive analysis /
+incorporating economic considerations. Most studies have only analyzed CEScl=Σn i=1(Mcl,i×EFcl,i) Q (4)
+the total GHG emissions from wastewater treatment plants /
+(Gallego-Schmid and Tarpani, 2019; Iqbal et al., 2022), while opti- CESys=Σn i=1(Mys,i×Lys,i×EFys) Q (5)
+mizing different treatment stages within wastewater treatment plants
+may have varying impacts on GHG emissions, economic feasibility, and In the formula, CESN2O, CESd, CEScl, CESys denote the carbon emis-
+environmental impact (Iqbal et al., 2022; Zhou et al., 2022), which sion intensity from wastewater treatment N₂O, purchased electricity,
+limits the implementation of targeted emission reduction strategies. chemical materials, and transport respectively, kg CO2-eq⋅(104 m3)-1;
+In response to the shortcomings of single perspective evaluation and TNin denotes the average total nitrogen concentration of influent at
+lack of economic evaluation in previous studies, this study focuses on an wastewater treatment plants, mg⋅L-1; EFN2O is the emission factor for
+underground wastewater treatment plant in Suzhou, China. The carbon N₂O (expressed as N) in biological wastewater treatment processes,
+element balance method and emission factor method were used to sys- kg⋅kg-1; 22/14 represents the mass ratio of N₂O to N; 273 denotes the
+tematically quantify the GHG emission characteristics of each treatment global warming potential (expressed as CO₂ equivalents for N₂O). Con-
+stage. Employing life cycle assessment, a simple cost assessment tool stant, kg⋅kg-1; Ed for monthly electricity consumption, kW⋅h⋅month-1;
+based on input and output, and data envelopment analysis models, the EFd denotes the electricity emission factor for this region, kg CO2-eq⋅
+environmental impact and economic viability of this underground (kW⋅h)-1; Q for treated water volume, 104 m3⋅month-1; Mcl,i denotes the
+WWTP are evaluated, while exploring emission reduction pathways cumulative consumption of the nth chemical agent within the month,
+tailored to the characteristics of underground WWTP. The findings kg⋅month-1; EFcl,i emission factor for the i-th chemical, kg CO2-eq⋅kg-1;
+provide scientific grounds for low-carbon operation of underground Mys,i total volume of the i-th shipment within the month, t⋅month-1; Lys,i
+WWTPs, simultaneously advancing the transformation of wastewater denotes the i-th transport distance within the month, km. The average
+treatment plants into green factories that synergistically enhance distance for transporting chemical materials, sludge, screenings and grit
+pollution reduction and carbon mitigation. at this wastewater treatment plant is 10km; EFys for transport mode
+emission factors, kg CO2-eq⋅(t⋅km)-1.
+2. Materials and methods Average 2.4×10⁴ m³⋅d⁻¹of reclaimed water from the wastewater
+treatment plant have reused to replace tap water for irrigation.
+2.1. Research objectives and scope Compared to the indirect GHG emissions generated during the
+abstraction of tap water, it could reduce GHG emissions by a certain
+This study examines the GHG emissions, environmental impacts, and amount. Consequently, the GHG emission reduction can be calculated
+economic viability of an underground WWTP in Suzhou during its using the formula for GHG emissions from the tap water production
+operational phase from March 2023 to February 2024. The scope en- process, which covers the stages of water abstraction, water production,
+compasses the entire process from influent to effluent, including pre- and water distribution (China Urban Water Association, 2022), as
+treatment stage, biological treatment stage, advanced treatment stage, follows:
+sludge treatment stage, and other components. Sampling point locations
+We=(g×he×Q)/(3.6×106×φ) (6)
+are detailed in the supplementary materials. Each functional unit for
+evaluation represents the impacts generated per 10,000 m³ of waste-
+water treated. Operating at a capacity of 8 ×10⁴ m³ /day, the facility Wp=Ep×Q (7)
+adheres to special emission control standards of Suzhou. CESer=Ct=(We+Wp)×Ed/Q (8)
+2.2. GHG emissions accounting methodology In the equation, ρ denotes the density of water, taken as 1×10³
+kg⋅m⁻³; W extraction and W preparation constitute the energy
+This study employs the carbon element balance method to calculate consumed in the water preparation process, kW⋅h; g is the acceleration
+CO₂ and CH₄ emissions. This approach is based on the principle of ma- due to gravity, taken as 9.8m⋅s⁻²; he is the average elevation of the
+terial balance, wherein emissions are determined by subtracting the extraction water, taken as 5m; φ denotes the efficiency of the pumping
+carbon content of output materials from that of input materials to derive station, 75%; Ep is energy intensity during the preparation and consti-
+emission equivalents. Specifically, in wastewater treatment processes, tution of water processes, According to the ‘2022 Suzhou Statistical
+fugitive carbon element gases are calculated by subtracting the carbon Yearbook’, the energy consumption intensity of water preparation in
+content of effluent and sludge discharge from that of influent, then Suzhou City is 1.11kW⋅h⋅m⁻³; The emissions during the preparation
+adding the carbon reduction attributable to endogenous respiration process of tap water, kg⋅(10⁴ m³)⁻¹(expressed as CO₂ equivalent); CES
+2
+
+--- Page 3 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+emissions reduction equates to GHG emissions reduction (expressed as Table 1
+CO₂ equivalent), kg⋅(10⁴ m³)⁻¹. Classification of environmental impact indicators.
+Environmental Main Schedule Standardized
+Impact Type Indicator Substances Reference Values
+2.3. Life cycle assessment methodology
+Global warming potential CO₂, CH₄, and N₂O, etc. 1.33E +13
+(GWP)
+This study employs the life cycle assessment methodology to eval-
+Abiotic resource depletion Iron, manganese, and 2.68E +10
+uate the environmental impacts arising from the operational phase of
+potential (ADP) copper, etc.
+wastewater treatment plants (Gallego-Schmid and Tarpani, 2019). In Acidification potential (AP) SO₂, NOx, and NH₃, 3.70E +09
+accordance with ‘Environmental management systems-General guide- etc.
+lines on implementation’ (ISO 14040), life cycle assessment primarily Eutrophication potential (EP) NH₃, NH₄-N, and COD, 3.05E +14
+etc.
+comprises the following four components: definition of objectives and Ozone depletion potential CCl₄, C₂H₃Cl₃, and 3.46E +06
+scope, inventory analysis, impact assessment, and interpretation of re- (ODP) CH₃Br, etc.
+sults, as illustrated in Fig. 1. Photochemical ozone formation C₂H₆, C₂H₄, etc. 3.15E +10
+potential (POFP)
+Ecotoxicity (ET) HF, Hg²⁺, and Be, etc. 5.59E +12
+2.3.1. Inventory analysis
+Human Toxicity (HT) Cu, Hg, Cd, and Zn, 4.03E +12
+The data inventory for the life cycle assessment encompasses inputs
+etc.
+and outputs during the operational phase of wastewater treatment
+plants. The aforementioned data forms the basis for evaluating envi-
+ronmental impacts (Chen et al., 2023). Data is collected, verified, allo- coefficients employ the coefficient set constructed by Miao et al. (2021)
+cated and converted into functional units, ultimately compiling a data using a distance-target weighted method.
+∑
+tin hv ee en nt to ir ry . T tuo a yc sh ci oe pv ee mgr ue sa tt e br a gc ac tu hr ea rc ey d, i In np pu ut a dn ad o iu nt cp lu ut ed sa t ea eco rgv ye r ai nn dg EB= n i=1mi×PFi (9)
+e s d e . t ta d n
+material consumption, while output data encompasses emissions of In the formula, EB denotes the environmental load per environ-
+gaseous pollutants, water pollutants and solid pollutants. Input data mental impact item; i represents the number of different emission sub-
+primarily originates from on-site measurements, wastewater treatment stances contained within the environmental impact; n denotes the total
+plant design standards, project reports, and environmental reports. number of emission substances; mi denotes the mass of the i-th substance
+Background data on energy consumption and materials is largely in the inventory analysis; PFi denotes the characteristic factor for the
+sourced from life cycle assessment databases such as the Gabi database impact of the i-th substance on a specific environmental category.
+and the Eco-invent database.
+2.3.2. Impact assessment 2.4. Economic evaluation model
+This paper employs a standardized calculation method based on
+environmental impact assessment indicators to derive environmental This study employs a simple cost assessment tool based on input and
+impact outcomes. Taking a case study of an underground wastewater output to evaluate the economic viability of wastewater treatment
+treatment plant in Suzhou as an example, the classification of environ- plants. The net benefit of a wastewater treatment plant equals the in-
+mental impact indicators is presented in Table 1. Characteristic values come from benefits minus the total costs. Income derives from waste-
+reflect the potential impact of a product or process across different water charges levied by the government, while costs encompass all
+environmental impact categories, such as Global warming potential expenses incurred during operation, such as energy costs, personnel
+(GWP), Acidification Potential (AP), and Ecotoxicity (ET). Each impact remuneration, and material expenses. The model formula is as follows:
+category is calculated according to its unique environmental impact C=S-(Ce+Cw+Cp+Cm+Cr+Ci+Csd+Css) (10)
+mechanism and characteristic factors, as shown in Formula (9). The
+IPCC report establishes greenhouse gas GWP equivalents, providing In the formula, C represents the net benefit obtained from treating
+characteristic factors for major GHG across different temporal scales; 10,000m³of wastewater, Euro⋅(10⁴ m³)⁻¹; S represents the revenue
+whereas AP characteristic values are calculated based on contributions generated from treating wastewater, Euro⋅(10⁴ m³)⁻¹; Ce for the elec-
+to acid rain formation. Characteristic values for different environmental tricity charges incurred, Euro⋅(10⁴ m³)⁻¹; Cw represents the water
+impact categories are typically expressed in independent units, such as charges incurred, Euro⋅(10⁴ m³)⁻¹; Cp represents the remuneration for
+carbon dioxide equivalents and sulfur dioxide equivalents. Standardized personnel undertaking the work, Euro⋅(10⁴ m³)⁻¹; Cm for maintenance
+Fig. 1. Key stages of LCA application in wastewater treatment.
+3
+
+--- Page 4 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+costs incurred, Euro⋅(10⁴ m³)⁻¹; Cr for the cost of chemical reagents, Table 2
+Euro⋅(10⁴ m3)-1 ; Ci for the inspection fees borne, Euro⋅(10⁴ m³)⁻¹; Csd for GHG emission factors for wastewater treatment plants.
+the sludge disposal fees incurred, Euro⋅(10⁴ m³)⁻¹; Css hall bear the Category Emission Factor Source
+sludge transportation costs, Euro⋅(10⁴ m³)⁻¹. Value
+Furthermore, this study employs a data envelopment analysis model
+EFcl,reinforcing steel 2.34 (China Urban Water
+to evaluate the scale efficiency of wastewater treatment plants. Scale (expressed as CO₂, kg⋅kg-1) Association, 2022)
+efficiency refers to the impact of scale factors on production efficiency, EFcl, cement 0.735 (China Urban Water
+such as the treatment capacity and pollutant removal rate of wastewater (expressed as CO₂, kg⋅kg-1) Association, 2022)
+treatment plant. Typically, when the scale efficiency equals 1, it in- EFcl, sand 2.51 (China Urban Water
+(expressed as CO₂, kg⋅kg-1) Association, 2022)
+dicates that the scale efficiency of wastewater treatment plant is effec- EFcl, steel pipe 3.15 (China Urban Water
+tive and has reached an optimal state. If the scale coefficient is <1, this (expressed as CO₂, kg⋅kg-1) Association, 2022)
+indicates that the service scale is too small and needs to be expanded to EFcl, concrete 186 (China Urban Water
+enhance efficiency; if the scale coefficient is >1, this indicates that the (expressed as CO₂, kg⋅m-3) Association, 2022)
+service scale is too large, presenting a risk of excessive expansion. By this EF (c el, x c pru resh se sd e dst o an se CO₂, kg⋅t-1) 2.18 ( ACh ssi on ca i aU tr iob na ,n 2 W 02a 2te )r
+approach, the relative technical effectiveness of wastewater treatment EFN2O 0.0046 (Vieira et al., 2019)
+plants can be evaluated in terms of both economic benefits and technical (expressed as N2O-N/Nin,
+kg⋅kg(cid:0)1)
+efficiency, thereby determining whether their input-output structure is
+EFd 0.7921 (China Urban Water
+rational. To this end, it is necessary to first estimate the pollutant
+(expressed as CO₂, kg⋅ Association, 2022)
+reduction achieved by the wastewater treatment plant between March (kW⋅h)(cid:0)1)
+2023 and February 2024. Subsequently, relevant data should be EFcl, CH₃COONa 0.623 (China Urban Water
+collected and collated, using energy costs, material costs, water charges, (expressed as CO₂, kg⋅kg-1) Association, 2022)
+and staff remuneration as input indicators, alongside monthly treated EFcl, NaOCl 0.92 (China Urban Water
+(expressed as CO₂, kg⋅kg-1) Association, 2022)
+water volume and pollutant reduction values as output indicators. Based
+EFcl, FeCl3 2.71 (Wang et al., 2019)
+on this data, analyze changes in the scale efficiency of wastewater (expressed as CO₂, kg⋅kg-1)
+treatment plant during the period to identify any instances of redun- EFcl,Polyacrylamide 1.5 (Wang et al., 2019)
+dancy or insufficiency between inputs and outputs. (expressed as CO₂, kg⋅kg-1)
+EFys 0.129 (China Urban Water
+(expressed as CO₂, kg⋅ Association, 2022)
+2.5. Data sources (t⋅km)-1)
+2.5.1. GHG emissions data for WWTP
+At the beginning of each month, collect water samples and sludge 3. Results
+from each treatment unit at the WWTP. Measure the total carbon (TC)
+concentration in the influent and effluent, the MLVSS and TC of the 3.1. GHG emissions
+sludge. Sampling points are established at the influent inlet, pretreat-
+ment effluent outlet, secondary sedimentation tank effluent outlet, The underground wastewater treatment plant in Suzhou generated
+surplus sludge outlet, effluent of wastewater treatment plant outlet, and GHG emissions of 72,793.8kg CO2-eq per treated 10,000m3 waste-
+dewatered sludge outlet. To ensure sampling accuracy, sampling should water between March 2023 and February 2024. The GHG emissions per
+be avoided within three days following rainfall, and at least three par- 10,000 m³of treated wastewater for the WWTP across each month are
+allel samples must be taken from each point. The layout plan of the illustrated in Fig. 2a. Direct and indirect GHG emissions accounted for
+wastewater treatment plant and detailed sampling points are provided 74.55% and 25.45%, respectively, with the study indicating that indi-
+in the supplementary materials. rect GHG emissions from underground WWTP were 2.93 times higher
+Emission factors for building materials, direct N₂O emissions, and than direct emissions. The GHG emissions of wastewater treatment plant
+indirect GHG emission sources are presented in Table 2. The N₂O primarily stem from indirect emissions generated by electricity con-
+emission factor was selected from measured data results for urban sumption and chemical reagent usage. Compared to CO₂ emissions, N₂O
+WWTPs in China obtained from other studies, with the calculated and CH4 emissions of wastewater treatment plant are significantly
+average serving as the emission factor for this research. higher.
+The water-carbon nexus denotes the interdependence between water
+2.5.2. Basic operational data for WWTPs resource utilization and carbon emissions within urban systems, mani-
+The operational and maintenance technical data for wastewater festing primarily in processes such as water supply, wastewater treat-
+treatment plants is derived directly from the plants' monthly operational ment, and energy generation. WTTPs as pivotal nodes in this coupling
+analysis reports from March 2023 to February 2024. This includes daily relationship, represent significant sources of energy consumption and
+treated water volume, sludge discharge volume, screenings and grit GHG emissions while simultaneously fulfilling functions of water
+volume, pollutant concentrations in influent and effluent, electricity resource recovery and reuse. The underground WTTP in this study uti-
+consumption, chemical dosage, water consumption, and operational lized reclaimed water for irrigation instead of tap water, thereby
+costs. reducing indirect GHG emissions associated with the abstraction,
+treatment and conveyance of tap water. By calculating the volume of tap
+2.6. Testing method water that would otherwise have been used, the study found that this
+plant achieved equivalent GHG emission reductions of 5.21%.
+TC in sludge was measured by CNHS elemental analyzer model Flash The GHG emissions from different treatment processes at wastewater
+2000 (Thermo Fisher Scientific, Waltham, EUA) following the manu- treatment plants are shown in Fig. 2b. GHG emissions generated during
+facturer recommendations. TC in wastewater and the MLVSS of sludge the pretreatment stage primarily stem from indirect emissions resulting
+were determined using the method specified in (AWWA, 2005). from electricity consumption. This is because the influent pumps in
+underground wastewater treatment plants are high-power equipment.
+To ensure safety, control water flow direction and velocity, and
+accommodate internal water management requirements within the
+wastewater treatment plant. This underground wastewater treatment
+4
+
+--- Page 5 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+Fig. 2. Monthly GHG emissions of underground WWTP (a); GHG emissions percentage from different treatment units in underground WWTP from March 2023 to
+February 2024 (b).
+plant positions the influent pumps at ground level to regulate inflow. in Fig. 4. Key inputs comprise electricity and chemical reagents. Elec-
+Consequently, wastewater must be pumped from underground to the tricity primarily powers equipment such as blowers, pumps, and disin-
+surface via pipelines before being conveyed to coarse and fine screens fection systems. Outputs chiefly include direct GHG emissions generated
+for pretreatment, further consuming substantial electrical energy. The during pretreatment, biological treatment, and sludge treatment stages;
+biological treatment stage of wastewater treatment plants accounts for screenings and grit; dewatered sludge; and the reclaimed water utilized
+the highest total GHG emissions, serving as the primary source of CO₂, daily by the WWTP for use.
+N₂O and CH₄. As shown in Fig. 3, CO₂ emissions exhibit a positive cor-
+relation with influent TC. Consequently, variations in influent TC con- 3.2.2. Environmental impact findings
+tent significantly impact CO₂ emissions. GHG emissions from electricity Calculations based on the weights in Table 2 indicate that the
+consumption during biological treatment substantially exceed those of comprehensive environmental impact index for the underground system
+other stages, primarily attributable to the operation of high-power during the operational phase is 2.3669E-12 per 10,000m³of treated
+blowers. GHG emissions from advanced treatment processes stem wastewater. The standardized environmental impact values for the un-
+mainly from electricity consumption and chemical usage. The GHG derground WWTP during the operational phase are presented in Table 3.
+emissions from electricity consumption amount to 563.09kg CO2-eq⋅ Research indicates that the operational phase of underground WWTP
+(10⁴ m³)-¹. The wastewater treatment plant requires a certain quantity primarily impacts EP and AP. The elevated EP is largely attributable to
+of polymeric aluminum ferric sulfate and sodium hypochlorite monthly, residual nitrogen and phosphorus content in effluent. Higher AP stems
+with GHG emissions from chemical consumption estimated at approxi- from chemical inputs such as disinfectants and flocculants. Whilst these
+mately 681.39kg CO2-eq⋅(10⁴ m³)-¹. The GHG emissions from the chemicals are indispensable in water treatment, their application re-
+sludge treatment stage primarily stem from polyacrylamide usage, leases sulfur dioxide, thereby increasing atmospheric acidity loads and
+averaging 9.6kg per 10⁴ m³monthly. exacerbating acidification. Consequently, wastewater treatment plants
+must also address the contribution of chemical usage to atmospheric
+acidification.
+3.2. Environmental impact assessment Fig. 5 displays the standardized results for each wastewater treat-
+ment stage. The impact values for different treatment stages at the
+3.2.1. Data inventory subsurface WWTP are, in descending order: advanced treatment, bio-
+The detailed inventory of input and output materials for a certain logical treatment, sludge treatment, others, and pretreatment. The study
+underground WWTP in Suzhou during its operational phase is presented
+5
+
+--- Page 6 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+Fig. 3. Correlation analysis of GHG emissions factors in biological treatment stage. 1. GHG emissions from biological treatment units; 2. CO₂; 3. CH₄; 4. N₂O
+emissions; 5. Electricity consumption; 6. Chemical consumption; 7. Transportation; 8. Treatment capacity; 9. Total carbon input (TCin); 10. Total nitrogen input
+(TNin); 11. Pollutant removal efficiency; 12. MLVSS in bioreactor; 13. Carbon-to-nitrogen ratio; 14. Dissolved oxygen (DO); 15. Sludge retention time (SRT); 16.
+Hydraulic retention time (HRT).
+Fig. 4. Substance list of input and output of WWTP per 10,000m3 of wastewater treated.
+found that advanced treatment exerts the greatest environmental treatment stage principally affects EP and GWP. Microbial metabolism
+impact, primarily reflected in AP. This is because the advanced treat- produces CO₂, NO₂ and CH₄, while nitrogen and phosphorus in waste-
+ment process utilizes substantial quantities of chemical agents. The water treatment plant effluent respectively impact the GWP and EP.
+underground WWTP pretreatment primarily impacts GWP and AP. This Sludge treatment primarily influence ET. As dewatered sludge consti-
+is because electricity generation inevitably involves GHG emissions and tutes a by-product of wastewater treatment, it contains diverse organic
+other pollutant discharges (such as SO₂ and NOx), which exert a direct and inorganic compounds, heavy metals, pathogens and potential
+influence on climate change and acid rain phenomena. The biological chemical contaminants, all of which pose potential toxicity to
+6
+
+--- Page 7 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+Table 3 within the sludge treatment stage, in particular, PAFS iron and PAM. In
+Standardized results of environmental impacts during the operational phase of this study, the wastewater treatment plant receives a wastewater
+underground WWTP. treatment fee of 0.24 Euro per cubic meter of wastewater treated. Cal-
+Environmental Impact Type Indicators Standardized Value culations using Formula (9) indicate that the net benefit generated by
+treating 10,000m3 of the wastewater treatment plant amounts to
+Global warming potential (GWP) 7.19549E-14
+Abiotic resource depletion potential (ADP) 7.14754E-21 approximately 1256.24 Euro.
+Acidification potential (AP) 1.40299E-13 The scale efficiency of the wastewater treatment plant over 12
+Eutrophication potential (EP) 9.56757E-13 months was assessed using a data envelopment analysis model. As
+Ozone depletion potential (ODP) 1.84393E-15 shown in Table 5, the wastewater treatment plant achieved scale effi-
+Photochemical ozone formation potential (POFP) 1.03175E-14
+ciency of 1 (optimal) only in August and October 2023, with values
+Ecotoxicity (ET) 2.38095E-14
+Human Toxicity (HT) 9.12226E-19 below 1 in all other months. This indicates that in most mouths, the
+wastewater load of wastewater treatment plant is less than the equip-
+ment capacity, so it is necessary to adjust technical parameters and
+upgrade equipment and processes to improve the scale efficiency.
+Overall, the wastewater treatment plant demonstrated a pattern of
+‘high efficiency in summer, low efficiency in winter’. During summer,
+the wastewater load aligns well with the equipment capacity of waste-
+water treatment plant. However, lower temperatures in winter neces-
+sitate additional expenditure on electricity and chemicals, increasing
+fixed energy consumption and consequently reducing efficiency.
+4. Discussion
+This study employed the carbon element balance method and
+emission factor approach to evaluate greenhouse gas emissions and
+comprehensive benefits during the operational phase of an underground
+WWTP. Results indicate that emissions from the underground WWTP
+follow a seasonal pattern, with winter, autumn, spring, and summer
+being the largest emitting seasons respectively. This is attributable to
+higher rainfall during summer compared to winter, which reduces
+pollutant concentrations. Consequently, emissions from direct GHG,
+electricity consumption, and chemical reagent usage all decrease during
+the summer months. Furthermore, the underground WWTP in this study
+Fig. 5. Environmental impact values for each treatment stage.
+discharges in the following order of wastewater treatment stages: bio-
+logical treatment, advanced treatment, others, sludge treatment, and
+ecosystems.
+pretreatment. This sequence arises because within the biological treat-
+ment, microorganisms not only produce CO₂, CH₄, and N₂O through
+3.3. Economic evaluation metabolic activity but also require dissolved oxygen maintained by
+high-power aeration equipment to sustain their metabolism. This pro-
+The costs incurred by the wastewater treatment plant in this study cess is typically associated with substantial electricity consumption,
+comprise expenditures across the pretreatment, biological treatment, resulting in significant overall GHG emissions.
+advanced treatment, and sludge treatment stages, as detailed in Table 4 Huang et al. (2025)calculated the GHG emissions during the oper-
+below. Electricity charges constitute the primary expense across the ational phase of a wastewater treatment plant in Suzhou. It was found
+pretreatment, biological treatment, and advanced treatment stages, ac- that the total GHG emissions generated per 10,000 m³of treated
+counting for 35.15% of total costs. This is attributable to the extensive wastewater during the period from March 2023 to February 2024
+array of equipment and substantial energy consumption in wastewater amounted to 81,519.487kg CO₂ equivalent. The underground WWTP in
+treatment plant. Chemical reagent costs represent the principal expense this study generated total GHG emissions of 72,793.8kg CO2-eq per
+treated 10,000m3 wastewater during the operational phase over the
+Table 4 same period, representing a reduction of 10.7% compared to the
+Costs at various stages for the WWTP/104 Euro⋅(104 m3)-1. research was reported by Huang et al. (2025). This is because indirect
+GHG emissions from chemical consumption in the above-ground WWTP
+Category Pretreatment Biological Advanced Sludge
+Treatment Treatment Treatment
+Electricity 50.88 145.61 52.61 30.75 Table 5
+charges Scale efficiency of the underground WWTP.
+Water charges 0.99 0 0 0
+Months Scale Efficiency Coefficient
+Personnel 21.74 21.86 21.86 21.86
+expenses 2023.03 0.48
+Maintenance cost 11.73 11.73 11.73 11.73 2023.04 0.60
+Chemical reagent 0 1.48 58.91 30.75 2023.05 0.67
+costs 2023.06 0.58
+Testing fees 0 0 0 0 2023.07 0.90
+Sludge 2 0 0 15.68 2023.08 1.00
+transportation 2023.09 0.54
+fees 2023.10 1.00
+Sludge disposal 0 0 0 370.62 2023.11 0.52
+fees 2023.12 0.49
+Management fees 10.58 10.62 10.62 10.62 2024.01 0.52
+Total 97.92 191.31 155.73 492.01 2024.02 0.43
+7
+
+--- Page 8 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+were 220% higher than those in the underground WWTP. It should be
+noted that underground WWTP generate 38.22% more GHG emissions
+from electricity consumption than above-ground WWTP (Fig. 6). Two
+types of WWTPs have different environment impacts during operation.
+The comprehensive environmental impact of above-ground WWTPs
+exceeds that of underground WWTPs by 41.83%, primarily due to the
+extensive use of chemical agents, which increases both global warming
+potential and eutrophication potential. Hao et al. (2021)conducted a
+comprehensive impact assessment of two WWTPs with identical foot-
+prints but differing process configurations using a life-cycle assessment
+Fig. 6. Average monthly GHG emissions from two different forms of WWTPs.
+methodology. Findings revealed that the total life-cycle carbon emis-
+sions of the underground WWTP amounted to approximately 871,000
+particular attention required to the potential for atmospheric acidifica-
+tonnes of CO2-eq, representing a 36.5% increase compared to the
+tion arising from chemical usage during the advanced treatment process.
+aboveground WWTP. Across three key dimensions-environmental
+Although the wastewater treatment plant generates a net benefit of
+impact, economic viability, and technical feasibility-the overall nega-
+1256.24 Euro per 10,000 m³of treated wastewater, the optimal scale
+tive impact of the underground WWTP exceeded that of the above-
+efficiency is only achieved in August and October 2023. The adoption of
+ground WWTP by 20% (Hao et al., 2021). Current research on the
+water source heat pump systems and optimization of chemical dosing
+environmental sustainability of underground wastewater treatment
+efficiency in advanced treatment equipment can promote future emis-
+plants has yet to reach a definitive conclusion. However, it is established
+sions reduction.
+that, owing to the subterranean location of such facilities, additional
+electricity is required to support deodorization and lighting systems,
+CRediT authorship contribution statement
+thereby increasing indirect GHG emissions.
+Addressing the high energy consumption and carbon emissions
+Hanxiang Li: Writing – original draft, Methodology, Conceptuali-
+associated with WWTPs, this study employed an engineering economic
+zation. Yong Li: Writing – review & editing, Supervision. Lailai Huang:
+model to calculate the emission reduction effectiveness of water-source
+Writing – original draft, Software, Investigation. Longwei Gao: Visu-
+heat pump systems, anaerobic digestion cogeneration systems for
+alization, Formal analysis.
+sludge, and microbial electrolysis carbon capture systems. The detailed
+calculation methodology and results are presented in the supplementary
+material Research indicates that underground wastewater treatment
+Declaration of competing interest
+plants employing water-source heat pump systems achieve monthly
+GHG emission reductions of 1762.86 tonnes of CO2-equivalent (Song
+The authors declare that they have no known competing financial
+et al., 2023), the implementation of a sludge anaerobic digestion com-
+interests or personal relationships that could have appeared to influence
+bined heat and power system achieves monthly GHG emissions re-
+the work reported in this paper.
+ductions of 856.08 tonnes of CO2-equivalent (Zhang et al., 2022b), the
+microbial electrolysis carbon capture system achieves monthly GHG
+Acknowledgement
+emission reductions of 214.58 tonnes of CO2-equivalent (Lu et al.,
+2018). In conclusion, all three emission reduction systems are viable.
+The present study was supported by the Jiangsu Provincial Key
+Combining the initial investment, annual total revenue, and emission
+Laboratory of Environmental Science and Engineering (No. JSHJZDSYS-
+reduction effectiveness for the three emission reduction measures (see
+202203).
+supplementary materials), water-source heat pump systems are a rela-
+tively affordable option. Furthermore, AI-assisted carbon reduction in
+Appendix A. Supporting information
+wastewater treatment plants is a future trend. Lancioni et al. (2024)
+combined a mechanical model (ASM2d) and a multi-layer perceptron
+Supplementary data associated with this article can be found in the
+with global sensitivity analysis (GSA) and an early warning system
+online version at doi:10.1016/j.psep.2026.108748.
+(EWS), enabling the modified Ludzak-Ettinger (MLE) process to achieve
+a 21% reduction in greenhouse gas emissions. Li et al. (2025)employing
+a weighted average ensemble strategy and integrating multiple base References
+models can reduce carbon source addition by 47.25%.
+AWWA, (2005) Standard methods for the examination of water and wastewater,
+American Water Works Association.
+5. Conclusions Chen, W., Gao, M., Huang, Y., Lu, X., Wu, X., Zan, F., 2025. Underground wastewater
+treatment plants in China: current status and further development. China Water
+Wastewater 41 (14), 35–43.
+The underground wastewater treatment plant in Suzhou generated
+Chen, W., Zhang, Q., Hu, L., Geng, Liu, Y., C, 2023. Understanding the greenhouse gas
+GHG emissions of 72,793.8kg CO2-eq per treated 10,000m3 waste- emissions from China’s wastewater treatment plants: based on life cycle assessment
+water between March 2023 and February 2024. Direct and indirect GHG coupled with statistical data. Ecotoxicol. Environ. Saf. 259.
+China Urban Water Association, 2022. Guidelines for carbon accounting and Emission
+emissions accounted for 74.55% and 25.45%, respectively, with the
+Reduction in the Urban Water Sector’ the press conference proceeded smoothlyCity
+study indicating that indirect GHG emissions from underground WWTP and Town Water Supply7.
+were 2.93 times higher than direct emissions. This demonstrates that Edenhofer, O.Climate Change, 2014. Mitigation of Climate Change, 3. Cambridge
+University Press, p. 2015.
+GHG emissions from underground wastewater treatment plants cannot
+Feng, L., Lü, Q., He, X., Jian, L., 2023. Technical and economic analysis of underground
+be overlooked. There are significant differences in the composition of sewage treatment plant: taking the xinwei river underground sewage treatment plant
+GHG emissions and environment impact among different processing as an Example. Value Eng. 42 (16), 1–3.
+stages. It should be noted that the biological treatment stage not only Gallego-Schmid, A., Tarpani, R.R.Z., 2019. Life cycle assessment of wastewater treatment
+in developing countries: a review. Water Res. 153, 63–79.
+directly generates CO₂, N2O and CH₄ but also produces substantial in- Hao, X., Yu, W., Wang, X., Yuan, T., Loosdrecht, Mv, 2021. Life cycle comprehensive
+direct GHG emissions due to the electricity consumption of high-power efficiency assessment on underground wastewater treatment plant. China Water
+blowers, making it the primary GHG emission source within the WWTP. Wastewater 37 (07), 1–10.
+He, X., Li, H., Chen, J., Wang, H., Lu, L., 2025. Quantifying greenhouse gas emissions
+The operation of this underground WWTP may have potential implica-
+from wastewater treatment plants: a critical review. Environ. Sci. Ecotechnology 27,
+tions for water eutrophication and atmospheric acidification, with 100606.
+8
+
+--- Page 9 ---
+H. Li et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t io n 211 (2026) 108748
+Huang, L., Gao, L., Li, H., Li, Y., Li, Y., 2025. Comprehensive analysis and emission Vieira, A., Galinha, C.F., Oehmen, A., Carvalho, G., 2019. The link between nitrous oxide
+reduction pathway of ghg emissions at a wastewater treatment plant in Suzhou. emissions, microbial community profile and function from three full-scale WWTPs.
+Environ. Sci. 46 (01), 118–128. Sci. Total Environ. 651, 2460–2472.
+Huh, S.-Y., Shin, J., Ryu, J., 2020. Expand, relocate, or underground? Social acceptance Wang, X., 2019. Study on calculating carbon footprint and assessing the total
+of upgrading wastewater treatment plants. Environ. Sci. Pollut. Res. 27 (36), environmental impact of wastewater treatment. Beijing Univ. Civ. Eng. Archit.
+45618–45628. Wang, M., 2025. Discussion on the integration of supporting facilities above ground and
+Iqbal, A., Zan, F., Siddiqui, M.A., Nizamuddin, S., Chen, G., 2022. Integrated treatment of landscape of fully underground sewage treatment plant. Constr. Des. Proj. (12), 4–6.
+food waste with wastewater and sewage sludge: Energy and carbon footprint Wu, Z., Duan, H., Li, K., Ye, L., 2022. A comprehensive carbon footprint analysis of
+analysis with economic implications. Sci. Total Environ. 825, 154052. different wastewater treatment plant configurations. Environ. Res. 214, 113818.
+Lancioni, N., Szelag, B., Sgroi, M., Barbusin´ski, K., Fatone, F., Eusebi, A.L., 2024. Novel Yang, W., 2024. Technical and economic analysis of civil engineering for large-scale
+extended hybrid tool for real time control and practically support decisions to reduce underground wastewater treatment plant. Urban Roads Bridges Flood Control 07,
+GHG emissions in full scale wastewater treatment plants. J. Environ. Manag. 365, 316–318.
+121502. Yang, Y., Du, J., Zhang, X., 2021. Development status and key technology analysis of
+Li, B., Liu, L., Xu, Z., Li, K., 2025. Optimizing carbon source addition to control surplus underground wastewater treatment plants (UWWTPs) at home. Water Purification
+sludge yield via machine learning-based interpretable ensemble model. Environ. Res. Technol. 40 (10), 101–106.
+267, 120653. Yang, M., Peng, M., Wu, D., Feng, H., Wang, Y., Lv, Y., Sun, F., Sharma, S., Che, Y.,
+Li, L., Wang, X., Miao, J., Abulimiti, A., Jing, X., Ren, N., 2022. Carbon neutrality of Yang, K., 2023. Greenhouse gas emissions from wastewater treatment plants in
+wastewater treatment - a systematic concept beyond the plant boundary. Environ. China: historical emissions and future mitigation potentials. Resour. Conserv.
+Sci. Ecotechnology 11, 100180. Recycl. 190, 106794.
+Liu, L., 2024. Synergistic pollution reduction and carbon mitigation in wastewater Zhang, Q., Yang, Y., Zhang, X., Liu, F., Wang, G., 2022a. Carbon neutral and techno-
+treatment (Part 3): avoid blindly following trends in building underground treatment economic analysis for sewage treatment plants. Environ. Technol. Innov. 26,
+plants. Environ. Econ. 07, 64–67. 102302.
+Lu, L., Guest, J.S., Peters, C.A., Zhu, X., Rau, G.H., Ren, Z.J., 2018. Wastewater treatment Zhang, Q., Zhu, Y.F., Gu, H.W., 2022b. Analysis of design difficulties of whole buried
+for carbon capture and utilization. Nat. Sustain. 1 (12), 750–758. sewage treatment plant. Ind. Water Wastewater 53 (03), 39–42.
+Miao, J., Wang, X., H, B., 2021. Distance-to-target weighting factor sets in LCA for China Zhou, X., Yang, F., Yang, F., Feng, D., Pan, T., Liao, H., 2022. Analyzing greenhouse gas
+under 2030 vision. J. Clean. Prod. 314, 128010. emissions from municipal wastewater treatment plants using pollutants parameter
+Song, C., Wang, L., Chen, F., Cao, Q., 2023. Application of sewage source heat pump normalizing method: a case study of Beijing. J. Clean. Prod. 376, 134093.
+system in Yangtze River Delta. Energy Energy Conserv. 05, 177–180.
+9

@@ -1,0 +1,581 @@
+--- Page 1 ---
+Water Research 300 (2026) 125950
+Contents lists available at ScienceDirect
+Water Research
+journal homepage: www.elsevier.com/locate/watres
+Multi-scale UAV, flux-chamber, and point-source measurement framework
+for facility-wide greenhouse gas and air pollutant emissions assessment
+from wastewater treatment operations
+Derek C. Manheima,* , Sajjad Karimib,c , Madjid Delkashd, Paul Imhoffe, Ramin Yazdanif
+aCivil and Environmental Engineering Department, California Polytechnic State University, San Luis Obispo, CA, 93407, USA
+bAir Quality Research Center, University of California at Davis, One Shields Avenue, Davis, CA, 95616, USA
+cPresent address: School of Civil Engineering, Iran University of Science and Technology, Narmak, Tehran 16846-13114, Iran
+dCollege of Art & Sciences, Department of Natural Sciences, Texas A&M University, San Antonio, TX 78224 USA
+eCivil & Environmental Engineering, University of Delaware, 344A DuPont Hall Newark, DE 19716 USA
+fAir Quality Research Center, University of California at Davis, One Shields Avenue, Davis, CA 95616 USA
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•UAV, flux chamber, and point source
+measurements of facility-wide CH4
+emissions.
+•UAV-derived CH4 emissions were lower
+than chamber and point source based
+totals.
+•Flare and biosolids drying accounted for
+86 % and 14 % of total CH4 emissions.
+•Emission variability governed by unit
+process followed by season and time of
+day.
+•Operational recommendations are pro-
+vided to mitigate gas generation and
+emissions.
+A R T I C L E I N F O A B S T R A C T
+Keywords: This study presents a facility-wide assessment of greenhouse gas (CH₄, N₂O, CO₂) and air-pollutant (NH₃, H₂S,
+Wastewater treatment plant NMVOC) emissions from a tertiary municipal wastewater treatment plant in northern California. Emissions were
+Greenhouse gas emissions quantified using complementary unmanned-aerial-vehicle (UAV) flux-curtain, dynamic flux-chamber, and
+Methane source-testing approaches across four campaigns. The UAV method provided spatially integrated, top-down CH₄
+Nitrous oxide
+fluxes, while chambers and source tests captured spatiotemporal variability of multiple gases from individual
+Volatile organic compounds
+processes. The highest UAV flux (26.4 ±6.3 kg CH₄ h⁻¹) in the first campaign coincided with a fugitive digester
+Dynamic flux chambers
+UAV-based flux curtain leak detected and later repaired, demonstrating UAV sensitivity to large, transient CH₄ releases. Across the
+Sustainability remaining campaigns, mean UAV-derived facility-wide emissions were 1.44 kg CH₄ h⁻¹, approximately 90 %
+lower than the ~13.3 kg CH₄ h⁻¹ mean facility-wide emissions estimated from summed flux chamber and point-
+source measurements. Total operational-carbon emissions, integrating direct and indirect forcing contributions,
+were 12,000 ±500 Mg CO₂-eq yr⁻¹ (1.80 ±0.07 kg CO₂-eq m⁻³ wastewater). The candlestick flare and biosolids
+drying operations accounted for 86 % and 14 % of total CH₄ emissions, while secondary treatment dominated
+* Corresponding author.
+E-mail address: dmanheim@calpoly.edu(D.C. Manheim).
+https://doi.org/10.1016/j.watres.2026.125950
+Received 2 December 2025; Received in revised form 13 April 2026; Accepted 14 April 2026
+Available online 15 April 2026
+0043-1354/© 2026 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).
+
+--- Page 2 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+CO₂, NH₃, and N₂O generation. Emission variability was governed primarily by unit process, followed by time of
+year (e.g., wet or dry season) and time of day, with higher fluxes during dry-season daytime conditions. The
+integrated UAV, chamber, and source testing framework established herein provides a novel, multi-scale
+approach for quantifying and mitigating facility-wide GHG and air-pollutant emissions. The methodology and
+mechanistic insights are transferable to wastewater utilities globally, supporting data-driven, low-carbon treat-
+ment design and operation.
+1. Introduction time, temperature, and process controls (Yerushalmi et al., 2013; Ashrafi
+et al., 2013). Facilities employing predominantly anaerobic over aerobic
+Municipal wastewater treatment plants (WWTPs) play a crucial role processes achieve substantially lower carbon intensities due to reduced
+in protecting public health and the environment by stabilizing organic parasitic energy demand and enhanced biogas recovery (Keller and
+carbon, removing nutrients, and sequestering micropollutants to ensure Hartley, 2003). In parallel, emerging resource-recovery and
+effluent quality suitable for discharge or reuse. Conventional WWTPs circular-economy strategies—such as energy-positive treatment,
+integrate a series of physical, chemical, and biological unit proc- nutrient recovery, and conversion of biosolids into fertilizers or bio-
+esses—typically organized into primary, secondary, and tertiary stage- char—can further reduce net GHG emissions and enhance sustainability
+s—to achieve these goals (Tchobanoglous et al., 2014). Solids separated (Fine and Hadas, 2012; Li et al., 2022)
+in these stages undergo various treatment processes such as thickening,
+digestion, and dewatering to facilitate beneficial use or disposal.
+1.3. Knowledge gaps and objectives
+While these processes are vital for water quality, they are also
+recognized sources of greenhouse gases (GHGs)—notably methane
+(CH₄), nitrous oxide (N₂O), and carbon dioxide (CO₂)—as well as other Despite extensive modeling and inventory work, few studies have
+air pollutants such as ammonia (NH₃), hydrogen sulfide (H₂S), and non- comprehensively measured facility-wide emissions across all major unit
+processes under diurnal and seasonal variability. Field-based, spatio-
+methane volatile organic compounds (NMVOCs) (Bani Shahabadi et al.,
+2010; Jeli´c et al., 2018). Gas emissions from wastewater systems temporally resolved emission data are urgently needed to: (i) validate
+inventory estimates, (ii) identify dominant emission drivers, and (iii)
+contribute directly to climate forcing and indirectly to air-quality
+evaluate mitigation effectiveness of biogas recovery systems.
+degradation through secondary reactions leading to photochemical
+Therefore, the objectives of this study were to:
+smog and secondary organic aerosols (Atasoy et al., 2004). Under-
+standing the sources and magnitudes of these emissions is essential for
+a) Quantify diurnal and seasonal (e.g., wet vs. dry) CH₄, N₂O, CO₂, NH₃,
+developing mitigation, energy-optimization, and resource recovery
+H₂S, and NMVOC emissions from a full-scale tertiary WWTP with
+strategies, as part of sustainable facility design and operation.
+anaerobic digestion and on-site biogas utilization using dynamic
+flux-chambers.
+1.1. Greenhouse gas emissions from wastewater treatment b) Measure facility-wide CH₄ emissions using an unmanned aerial
+vehicle (UAV)–based flux-curtain approach and compare these top-
+The global wastewater sector accounts for approximately 1.3 % of down estimates with bottom-up, ground-based chamber and source
+total anthropogenic GHG emissions and 5–8 % of global CH₄ emissions testing measurements to evaluate method consistency and total CH₄
+(Ritchie et al., 2020; Ocko et al., 2021). CH₄, with a global warming flux coverage.
+potential 28–82 times higher than CO₂ over 20–100 years, is particularly c) Integrate field and laboratory results with operational data to
+important. Recent evidence indicates that conventional inventories may develop annual facility-wide emission factors, a climate impacts
+underestimate CH₄ emissions from wastewater systems (Song et al., assessment, and a net-energy balance, thereby identifying strategies
+2023; Moore et al., 2023). For instance, Song et al. (2023)found U.S. that maximize energy recovery and minimize total GHG emissions.
+municipal WWTP CH₄ emissions to be roughly double previous 2019
+IPCC estimates, exhibiting large spatial and temporal variability This is the first known study to integrate UAV flux-curtain mea-
+(0.01–110 g CH₄ m⁻³ wastewater treated). High emissions were surements with dynamic flux chamber and source-testing data across all
+commonly associated with anaerobic digesters equipped with methane major treatment processes to establish a full, facility-wide operational
+recovery and waste-stabilization ponds, emphasizing the need for carbon footprint. The results advance current understanding of process-
+improved measurement and process-specific emission factors. specific emission dynamics, inform development of more accurate
+Beyond CH₄, N₂O emissions from biological nitrogen removal and emission inventories, and provide practical guidance for achieving low-
+CO₂ emissions associated with energy use also contribute substantially carbon and energy-efficient wastewater treatment consistent with mid-
+to the total climate footprint of WWTPs. Consequently, the wastewater century climate related goals.
+sector has become a central focus in national and global decarbonization
+and net-zero roadmaps, highlighting the need for robust, field-based
+2. Materials and methods
+quantification and mechanistic understanding of emissions linked to
+treatment performance (Yao et al., 2022; Rani et al., 2022; Song et al.,
+2.1. Overview of the tertiary-level wastewater treatment plant
+2024).
+This study was conducted at a tertiary-level municipal WWTP in
+1.2. Mitigation and resource-recovery opportunities northern California serving approximately 67,000 residents within a 27
+km² service area. The facility, permitted for 28,400 m³ d⁻¹ (7.5 MGD,
+Wastewater treatment facilities that integrate biogas recovery and million gallons per day) and operating at 22,700 m³ d⁻¹ (6 MGD) average
+utilization can offset a significant portion of facility-wide GHG emissions dry-weather flow, is considered mid-sized among California plants. The
+by substituting fossil-based electricity and heat (Bani Shahabadi et al., influent wastewater is classified as high-strength (Tchobanoglous et al.,
+2010; Alengebawy et al., 2022). Modeling and full-scale assessments 2014) with elevated chemical oxygen demand (COD) (~670 mg/L),
+indicate that optimized anaerobic digestion can reduce net GHG emis- biochemical oxygen demand (BOD₅) (~270 mg/L), ammonia-nitrogen
+sions in WWTPs—through increased CH₄ capture and energy sub- (NH₃–N) (~47 mg/L), and an alkaline pH (~7.6). The facility com-
+stitution—typically by 10 % to over 50 %, depending on solids retention plies with tertiary-effluent limits, consistent with California’s Title 22
+2
+
+--- Page 3 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+water-recycling standards. The WWTP is >3 km from major roads and emission assessments are typically grouped across wet and dry seasons,
+0.8 km east of an adjacent landfill. Winds during all UAV emission which span from 10/15 to 5/31 and 6/1 to 10/14, respectively (e.g.,
+measurements were from the south or west to ensure measurements Hanson et al., 2020). This seasonal distinction was maintained in this
+were unaffected by landfill emissions. study, given observed differences in climate (Table S24) and wastewater
+The treatment train (Fig. 1) includes preliminary screening and grit properties (Table S47), influencing biological treatment performance
+removal, primary clarification, anoxic and aerobic activated sludge and subsequent fugitive emission rates. This seasonal distinction was
+treatment, tertiary cloth filtration, and chlorination/de-chlorination. also important for attributing differences in emissions to wastewater
+Primary and secondary solids are stabilized in mesophilic anaerobic loadings (due to transient University student populations) and on-site
+digesters (35 ◦C); the produced biogas fuels on-site boilers (heating the biosolids management practices. Dynamic flux chambers (Figs. S7–8)
+digesters) and is flared when excess remains. Dewatered biosolids are were deployed over the primary clarifiers, anoxic and aerobic basins,
+dried and sent to a local landfill for cover material. Liquid effluent is and biosolids. Flux measurement locations for the wastewater unit
+discharged to either a designated drainage or wetland system. processes and biosolids locations were selected after careful consultation
+with the site operational staff to ensure uniformity and repeatability of
+2.2. Gas emissions measurements gas emissions testing. Three replicate chambers were operated per
+location in each measurement campaign following U.S. EPA (1986)
+2.2.1. Flux chamber gas sampling and testing protocols (Section S1, Supporting Information); the monitoring schedule
+Four field campaigns (Aug 2021–Dec 2022) were conducted to is listed in Table S23. Briefly, gas fluxes were quantified using an
+evaluate diurnal and seasonal variability in gas emissions across unit automated, high-frequency sampling system connected to a mobile
+processes. In the temperate climate zones of northern California, GHG monitoring laboratory. Ambient air, used as a sweep gas, was introduced
+Fig. 1. Overall process flow diagram for the WWTP. Blue, brown, green, and red lines indicate main pathways for wastewater, solids, biogas, and recovered energy
+flow. Dashed lines refer to return solids flow. PS = primary solids; RAS = return activated sludge; IMLR = internal mixed liquor return; WAS = waste acti-
+vated sludge.
+3
+
+--- Page 4 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+into the dynamic flux chamber at a constant rate. The mixture of (Aivazian et al., 2022). Two synchronized UAVs conducted vertical
+ambient sweep gas and dynamic flux chamber gases was sampled and flight transects: one carrying an open-path laser spectrometer, the other
+analyzed to ascertain the net flux of CH4, CO2, NH3, N2O, H2S, and a retro-reflector and anemometer. The system provided
+NMVOCs. Sampling from each dynamic flux chamber and the ambient altitude-resolved CH₄ concentration and wind-speed profiles up to the
+air blank was conducted every 15 s for 20 min at 80-min intervals, plume top, enabling calculation of emissions at facility-scales. During
+totaling 18 measurement cycles within a 24-hour measurement time- each measurement campaign at the WWTP, multiple vertical flights
+frame. Given the temperate, Mediterranean climate (and potential low were used at the upwind and downwind flux curtains to quantify
+intra-season emissions variability), measurements were conducted over emissions (e.g., 8 upwind and 24 downwind in July 2022). Emissions
+single day periods that were deemed representative of average dry or from the WWTP were the difference in the mean fluxes from these two
+wet season operations and climate conditions within the region planes (see Section S6). To establish measurement reliability, three
+(Table S24). Air samples for NMVOC speciation were collected period- single-blind controlled CH₄ release tests were conducted, and
+ically from the flux chambers in 6 L SUMMA® stainless-steel canisters UAV-determined fluxes were always in error by ≤11 % (see Section S7).
+and analyzed by Atmospheric Analysis & Consulting Inc. (Ventura, CA)
+for C₂–C₁₂ hydrocarbons following EPA TO-12M/PAMS protocols (Sec- 2.6. Liquid and solid sampling and analysis
+tion S2). The TO-12M/PAMS protocol quantified the concentrations of
+56 individual NMVOCs (Table S3). The NMVOCs were grouped into the Field parameters—pH, electrical conductivity (EC), total dissolved
+following chemical families on the basis of similar physical-chemical solids (TDS), and oxidation–reduction potential (ORP)—were measured
+properties and molecular structures: alkane, alkene, alkyne, aromatic, onsite (Ultrameter™ II) across the various unit processes. Grab samples
+terpene, or cyclic aliphatic compounds. (250 mL) were collected from the primary clarifier, anoxic, and aerobic
+During the wet season (Campaigns 2 and 4), biosolids were stored in tanks and were shipped overnight on ice to Pace Laboratory (Bakers-
+a covered drying bed (91 m long × 24 m wide) containing multiple field, CA) for analysis of total solids, COD, VS, TKN, NH₃-N, NO₃-N, NO₂-
+biosolid piles of varying ages. During the dry season, biosolids were not N, and alkalinity. Frozen aliquots were sent to North Carolina State
+stored in the covered drying beds but were temporarily placed in dump University (NCSU) for total volatile fatty acids (TVFAs) testing.
+truck trailers prior to off-site transport, representing typical dry-season Biosolids samples (15 cm depth composites) were collected from the
+operations. Gas fluxes were measured from biosolids stored for 0.5, 2, surface beneath the flux chambers. Subsamples were stored frozen and
+and 4 months in Campaign 2 (wet season), and from fresh biosolids only sent to NCSU for analysis of pH, VS, lignin, cellulose, hemicellulose,
+during the other three campaigns. As will be shown below, the highest moisture content, and biochemical methane potential (BMP). Additional
+fluxes were predominantly observed from fresh biosolids. solids characterization was conducted by Soil Control Laboratory
+(Watsonville, CA) to ascertain total carbon and nitrogen content (Sec-
+2.3. Boiler and flare emissions testing tion S8).
+The facility operates two 2216 MJ h⁻¹ Hurst Firetube boilers and a 2.7. Flux rate, annual emission, and emission factor calculations
+single 630 m³ h⁻¹ Varec #244 W candlestick flare for on-site biogas
+utilization and management. Boiler stack testing was performed on 9 Flux rates (FR) for each compound were calculated based on the
+Sep 2021 and 19 Jul 2022 following EPA Methods 1, 18, and TO-15 time-averaged concentration change in the dynamic flux chamber
+(Blue Sky Environmental, Section S3). Flare emission testing was con- headspace and known chamber volume and surface area:
+ducted on 19 Oct 2021 and 22 Jul 2022 using a novel source testing ( )
+approach, integrating similar EPA Methods used for the boiler (Blue Sky Q × ΔC × 60
+1000
+Environmental, Section S4). In summary, boiler and flare stack testing FR = (1)
+A
+consisted of evaluating influent/exhaust flow characteristics and col-
+lecting flue gas samples at EPA-approved traverse points to ensure Where FR is flux rate (mg m⁻² h⁻¹), Q is flow rate of sweep air (L min⁻¹),
+representative measurement of emissions during operation. Pollutants ΔC is the difference between chamber outlet and ambient concentrations
+were sampled, with flue gas withdrawn through probes at controlled (mg m⁻³), and A is the chamber surface area (m2). To effectively scale up
+rates and analyzed via laboratory analysis of collected samples, along-
+flux rates to yearly emissions, facility operations were discretized into
+side continuous measurement of temperature, velocity, moisture, oxy-
+four quarters of equal duration (consistent with seasonal timeframes).
+gen, and carbon dioxide (and windspeed/direction for flare testing).
+Annual emission factors (EFs) of each pollutant from liquid unit pro-
+Measured gas concentrations were then combined with stack flow data
+cesses (AnnualEmissionl) were equal to the summation of the products
+and corrected to reference conditions to calculate pollutant emission
+of the campaign averaged flux rates (FRi,j), the total quarterly volumes of
+rates.
+wastewater treated (WWTi,j), and the average quarterly depths of each
+process (Depthi,j) across the i campaigns and j unit processes considered:
+2.4. Stationary and non-stationary equipment emissions
+( )
+AnnualEmissionl(kg)=∑ j=3 ∑ i=4 1FRi,j m2k ×g ×W DeW ptT hi, ij ,j( (m m3 )) × phh
+Fuel-combustion emissions from non-stationary equipment (trucks, h ase
+1
+loaders, forklifts, pumps) were calculated from operating hours, fuel-use
+(2)
+logs, and U.S. EPA (2023) emission factors (Table S15 and S16).
+Electricity-related emissions from stationary equipment (pumps, Total volumes of wastewater treated and unit process depths as a
+blowers, digesters, tertiary filtration, etc.) were estimated using 2022 function of quarter were obtained from facility records. The total
+utility data and California-specific grid factors (U.S. EPA, 2025), duration of each treatment phase (i.e., hydraulic retention time, h/
+factoring in renewable offsets from the photovoltaic array. Detailed phase) is summarized in Table S25, assuming continuous operations.
+calculations are presented in SI Section S5 for reference. A novel inventory-based extrapolation approach was applied to es-
+timate annual emissions of all gases from biosolids management ac-
+2.5. UAV flux curtain to measure CH4 emissions counting for spatiotemporal variations in gas fluxes (Section S9, Eq. (3)).
+Briefly, for wet season operations, the drying bed area was discretized
+Aerial CH₄ fluxes were measured by Bridger Photonics Inc. with a into 10 individual cells (with defined pile surface area/volume), oper-
+flux curtain: path-integrated CH₄ concentrations were measured along ating sequentially over an 8-month drying cycle. A total of six distinct
+the vertical height of a plane coupled with wind measurements phases were modeled per cycle, reflecting mechanistic changes in
+4
+
+--- Page 5 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+biosolids drying and gas transfer/volatilization. Average flux rates production rates and geometry of the truck bed). To determine the total
+determined from field measurements across various time intervals annual emissions from biosolids management, daily emissions estimated
+(fresh, 0.5 months, 2 months, 4 months) were extrapolated across over the dry season were summed and added to the annual emissions
+different operational drying phases to estimate FRBi,j values (Table S20). observed across the wet season.
+The pile surface areas were treated dynamically, in that they directly Total annual fugitive emissions (i.e., kg/yr) were obtained by sum-
+reflected the stage of filling or hauling during the start and end of wet ming the annual emissions from liquid unit processes, biosolids man-
+season operations. Annual emission factors (EFs) of each pollutant from agement, and on-site combustion (i.e., flare/boiler). Final EFs were
+biosolids management over the wet season were calculated by summing estimated by normalizing emission estimates by the total annual pro-
+the products of the averaged flux rates (FRBi,j), dynamic surface areas cessed wastewater (in m3). A sample calculation and further details on
+(SurfaceAreai,j), and durations (Durationi,j) across the i drying phases emissions quantification are also included in Section S10, for reference.
+and j operational cells considered: Total annual facility-wide emissions (i.e., kg CO2-eq./yr) were
+( ) determined by summing total annual fugitive emissions with total
+AnnualEmissionb,w(kg)=∑ j1 =0 ∑ i=6 (cid:0)2k ×g a tin on nu s.a l c Hon 4,t r Cib Ou 2ti o Nns Ofr o em s ista sit oio nn ar wy e/ rn eo n c- os nta vt eio rtn ea dr y oe q cu aip rbm oe nn t o iop xe ir da e-
+1FRBi,j
+1 m )d C , 2 m s t d
+×SurfaceAreai,j m2 ×Durationi,j(d) (3) equivalent (CO2-eq) values using 100-year global warming potentials
+(GWPs) of 28 for CH4, 1 for CO2, and 273 for N2O (IPCC, 2021).
+A similar extrapolation approach was applied for the dry season
+annual emissions of all gases from biosolids operations. As determined 3. Results and discussion
+from site operators, biosolids are loaded into a single 16.2 m3 truck over
+a two day loading period and hauled to the landfill ~3 days per week. 3.1. Annual emission factors and unit process contributions
+Total emissions over this loading period were assumed representative of
+typical dry season operations and were calculated as the product of daily Facility-wide and process-specific EFs for CH₄, CO₂, NH₃, N₂O, H₂S,
+average fresh biosolids fluxes (kg m(cid:0) 2 d(cid:0) 1) multiplied by the dynamic and NMVOCs are summarized in Fig. 2a and Tables S26-S28 from
+surface area of the truck (m2, adjusted based on dry season biosolid combined flux chamber and source test measurements only (i.e.,
+Fig. 2. (a) Emissions factors for CH4, CO2, NH3, N2O, H2S and NMVOCs documented from the wastewater treatment facility (g/m3 influent wastewater) (mean±SE)
+and (b) contribution of each unit process to total annual emissions of CH4, CO2, NH3, N2O, H2S, and total NMVOCs (mean±SE). This data is based on integrated
+dynamic flux chamber and source testing measurements, excluding UAV derived facility-wide estimates.
+5
+
+--- Page 6 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+excluding UAV estimates), which inform the majority of figures, tabu- wastewater. This value includes both direct and indirect GHG emis-
+lated data, and analysis conducted herein. Total annual emissions were sions—biogenic CO₂, CH₄, and N₂O—as well as electricity and fuel use,
+normalized to the 2022 influent wastewater volume (6.71 ×10⁶ m³), adapted from the Greenhouse Gas Protocol (WRI, 2004; Section S11).
+average total nitrogen load (4.48 ×105 kg), and average total COD load Direct (Scope 1) emissions from the flare, primary clarifier, biolog-
+(4.52 × 106 kg). Emission factors on a wastewater normalized basis ical reactors, and biosolids drying accounted for most of the total,
+spanned nearly seven orders of magnitude, with CO₂ ≫ CH₄ ≫ NMVOCs whereas indirect (Scope 2) emissions from electricity and mobile
+≫ N₂O ≫ NH₃ ≫ H₂S. The dominance of CO₂ reflects microbial oxidation equipment contributed ~ 2 %. Scope 3 sources (e.g., process consum-
+of organic carbon during aeration, typical of tertiary wastewater treat- ables) were excluded for comparability with prior studies. Among gases,
+ment (Tchobanoglous et al., 2014). For context, facility wide CH4, N2O, CO₂ (72 %), CH₄ (24 %), and N2O (~ 3 %) dominated, while NH₃ and
+and NH3 emission factors determined herein (1.5 ×101, 2.2 ×10–1,6.7 NMVOCs contributed < 0.1 %. Fig. S9 confirms that process specific
+×10–3 g pollutant/m3 influent wastewater) are all close to the average methane emissions from the primary tank, biosolids drying, and flare
+facility-wide emission factors of nine (A2O) treatment facilities with operations contribute to a significant fraction of facility-wide climate
+anaerobic digesters (1.8 ×101, 2.3 ×100, 2.0 ×10–2 g pollutant/m3 forcing emissions. Indirect climate forcing from NH₃ and
+influent wastewater), as measured in a comprehensive mobile plume NMVOCs—estimated using published reactivity and aerosol-formation
+monitoring survey study (Moore et al., 2025). Facility-wide emission factors (Carter, 2010; Unger, 2014)—contributed negligibly to total
+factors on a total nitrogen (TN) or COD (influent) normalized basis GWP.
+varied from 1.0 ×10–1 to 3.3 ×10◦g pollutant/kg influent TN (for NH3 To benchmark these results, a conventional IPCC (2019)
+and N2O) and 3.3 ×100 to 8.5 ×102 g pollutant/kg influent COD (for inventory-style analysis was conducted, which includes only CH₄ and
+CH4, CO2, NMVOCs), respectively. These facility-wide TN and COD N₂O emissions (CO2 is not required for inclusion). This analysis yielded a
+normalized ranges are also comparable to those reported in Moore et al. facility-wide emissions estimate of 3,300 ±170 Mg CO₂-eq yr⁻¹ (0.50 ±
+(2025). 0.03 kg CO₂-eq/m⁻³ influent wastewater), confirming that complete
+Among all unit processes, emissions were greatest from the candle- operational accounting increases total GWP by more than threefold.
+stick flare, followed by the aeration basin, boiler, biosolids drying area, The normalized operational carbon footprint (0.720 ±0.03 kg CO₂-
+anoxic tank, and primary clarifier. Elevated CH₄ and NMVOC emissions eq m⁻³ influent wastewater, excluding indirect species and accounting
+from the flare arise from incomplete combustion associated with low- for fossil carbon, Section S11) agrees closely with the U.S. national
+heating-value biogas, cross-wind dilution, and short residence time median (0.8 ±0.5 kg CO₂-eq m⁻³ influent wastewater) reported by El
+(Johnson and Kostiuk, 2002; U.S. EPA, 2003). Similar elevated emission Abbadi et al. (2024) and exceeds the Chinese average (0.5 ± 0.4 kg
+contributions from incomplete flaring of biogas were reported in Gålfalk CO₂-eq m⁻³ influent wastewater; Wang et al., 2022). The higher CH₄
+et al. (2022), where episodic, short duration release events resulted in share here (60 % vs 40 % nationally) highlights the strong contributions
+measured emissions of at least 30 kg/min. If the release events occurred of on-site biosolids/biogas management, such as sludge storage/drying
+at least 2 days per year, incomplete biogas flaring was projected to and episodic emissions from digester leaks/piping/flaring, on total
+double the facility-wide emissions footprint, demonstrating the magni- facility-wide GHG emissions (Fig. S9b). Similar results, as reported in
+tude of such emission contributions at other facilities (Gålfalk et al., Song et al. (2023); Gålfalk et al. (2022); and Gålfalk and Bastviken
+2022). (2025), highlight the importance of leak monitoring, detection and
+Overall, CO₂ and CH₄ dominated by mass, whereas NH₃, N₂O, H₂S, repair, as well as various practices to enhance carbon/nutrient conver-
+and NMVOCs occurred at lower concentrations but remain environ- sion efficiencies across all biological unit processes (including diges-
+mentally relevant due to their toxicity, indirect air pollution impacts, or tion), and geometric arrangement of biosolids during drying, to mitigate
+high GWP. Fig. 2b and Table S29 (integrating chamber and source facility-wide climate forcing emissions.
+testing data only) show that 86 % of total CH₄ originated from flare Overall, this analysis demonstrates that full operational carbon
+operations and 14 % from biosolids management. Aeration and flare accounting—encompassing biogenic and fossil CO₂ as well as indirect
+processes together accounted for > 90 % of CO₂ emissions. NH₃ was energy use—is essential for realistic evaluation of WWTP climate im-
+mainly linked to biosolids drying (~ 85 %), N₂O to aeration (~ 71 %) pacts and for designing effective mitigation strategies.
+and biosolids management (~ 29 %), H₂S to primary clarification (~ 82
+%), and NMVOCs to flare combustion (~ 97 %). In addition to NH3 3.3. Gas emissions from primary, anoxic, and aerobic tanks
+releases, biosolids storage significantly contributed to CH4 and N2O
+emissions, comparable to results documented in Gålfalk and Bastviken 3.3.1. Spatiotemporal variability in CH4 emissions
+(2025). These findings identify biogas utilization and biosolids stabili- CH₄ fluxes obtained using the dynamic chamber method were
+zation as the primary targets for mitigating facility-wide GHG emissions. analyzed by diurnal period (day/night), unit process (primary, anoxic,
+The relatively narrow error bars in Fig. 2a–b arise from pooling all aerobic), and season (wet/dry) using boxplots (Fig. 3); statistical details
+replicate chamber fluxes by campaign and reporting measurement are given in the Supplementary Information (Tables S30–S41, Section
+variability as standard error. Given the large number of flux measure- S12). Non-detect fluxes were set to 0 when effluent concentrations were
+ments per campaign (~ 54 for each gas), this approach reduces the below ambient, reflecting the chamber detection limits.
+apparent variability. While pooling measurements by location would CH₄ fluxes were governed primarily by unit process, followed by
+capture greater spatial heterogeneity, the study design was intentionally season and time of day. Mean fluxes were highest for the aeration basin
+focused on quantifying measurement error through replication, rather (210 ±40 mg m⁻² h⁻¹), followed by the primary clarifier (21 ±3 mg m⁻²
+than spatial variability. This statistical treatment of data ensured an h⁻¹), and anoxic tank (8 ±1 mg m⁻² h⁻¹) (Table S30). The aeration basin
+objective and consistent basis for comparing chamber- and UAV-derived showed the largest variability (CV ~ 280 %), ranging from non-detects
+facility-wide gas emissions estimates. to >900 mg m⁻² h⁻¹. Seasonally, fluxes decreased in the order Fall >
+Spring >Summer >Winter and were generally higher during daytime.
+3.2. Climate impacts assessment Integrated CH₄ emissions from primary and secondary treatment
+with dynamic flux chambers were 0.130 ±0.008 g CH₄ m⁻³, one order of
+Facility-wide emissions (determined via dynamic chamber and magnitude lower than ranges reported for U.S. plants (0.8–1.1 g m⁻³;
+source test data) were applied to quantify the WWTP’s total climate Song et al., 2023). Differences likely reflect methodological (chamber vs
+impact. When all unit processes and stationary/non-stationary equip- UAV/tracer) and operational factors, as well as seasonal and diurnal
+ment were included, the operational carbon footprint was 12,000 ±500 variability.
+Mg CO₂-eq yr⁻¹, equivalent to 1.80 ± 0.07 kg CO₂-eq m⁻³ of treated Observed emissions represent combined effects of CH₄ generation
+6
+
+--- Page 7 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+Fig. 3. Boxplot summary of overall CH4 dynamic chamber fluxes grouped by day/nighttime (diurnal), unit process, and season (e.g., wet or dry) for wastewater
+treatment operations. The x-axis is presented on a log-scale. Boxes and whiskers indicate the inter-quartile ranges (IQR) and 1.25*IQR of the flux distributions. The
+black lines, diamonds, and red plus symbols refer to the median, mean, and outlier fluxes, respectively.
+and stripping. CH₄ sources include residual dissolved CH₄ from the sulfidogenesis, and/or methanogenesis under anoxic to fully anaerobic
+collection system, in-basin methanogenesis within anoxic microzones, conditions, as promoted in the anoxic tank and primary clarifier (Section
+and recycled side streams from sludge processing. Elevated aeration S13). For the air pollutants (e.g., NH3, H2S, NMVOCs), mean fluxes were
+fluxes likely result from physical stripping rather than in-situ meth- generally highest either from the primary clarifier or aeration tank, and
+anogenesis. Primary clarifiers exhibited lower fluxes due to shorter hy- lowest from the anoxic tank (Table 1). These trends reflect the relative
+draulic retention times (~115 min vs 204 min in aeration) and quiescent dominance of physico-chemical transport pathways, such as air strip-
+settling conditions. Future work should quantify dissolved CH₄ loadings ping, on the facility-wide emission rates of volatile pollutants (Section
+and mass-transfer dynamics under varying aeration intensity and tem- S13).
+perature to decouple biogenic generation from physical release mech- Regarding temporal variability, GHG and air pollutants emissions
+anisms, such as air stripping and/or volatilization. were highest during the dry seasons (Fall, Summer) and daytime hours
+(Table 1). Warmer average surface temperatures during the dry season
+3.3.2. Spatiotemporal variability in CO2, NH3, N2O, H2S, and NMVOC led to enhanced biological activity and water-air mass transfer, thereby
+emissions facilitating gas generation and/or physicochemical air stripping. Day-
+Similar to the CH4 emission results, overall chamber-based CO₂, NH3, time hours are associated with increased solar radiation and wind-
+N2O, H2S, and NMVOC fluxes varied predominantly by unit process, induced turbulence, which further enhance microbial kinetics and
+followed by season and diurnal testing period (Figs. S10-S14). When flux mass transfer rates, thereby contributing to elevated surface emissions.
+distributions are examined individually by unit process, seasonal effects Lastly, spatial variability in GHG and air pollutant emissions was
+were predominant, followed by spatial and diurnal impacts (Figs. S21- greatest from the anoxic tank, where mixing and redox gradients tend to
+S25). For the GHGs (e.g., CO2, N2O), mean fluxes were generally highest promote intermittent volatilization.
+from the aeration tank, followed either by the anoxic, and/or primary
+clarifiers (Table 1). These patterns reflect the relative dominance of 3.4. Gas emissions from biosolids
+biological mineralization/transformation pathways: aerobic respiration
+and nitrification in the aeration tank, and fermentation, denitrification, Biosolids management represented a major source of GHG and
+pollutant emissions at the facility. Seasonal handling practices strongly
+influenced emissions: during the dry season (June–October), dewatered
+Table 1 biosolids were directly hauled to a nearby landfill, resulting in relatively
+– Overview of GHG and pollutant emission trends according to unit process, low on-site emissions, whereas during the wet season (October–May)
+season (e.g., wet or dry), and diurnal conditions (as informed from dynamic flux they were stored in covered drying beds, leading to elevated gaseous
+chamber data). fluxes.
+GHG/ Operational Unit Process (mg m(cid:0)2 h(cid:0)1) Seasonal Diurnal Fig. 4summarizes chamber-based CH₄ flux distributions by drying
+Pollutant Trend* Trend phase, diurnal period, and season (with corresponding data for other
+Primary Anoxic Aerobic
+gases in Figs. S15–S19). CH₄ fluxes were controlled mainly by biosolids
+CC OH 24 2 71 6 0± ±3 40 8 3 0 0± 0 00 01 ± 2 1 41 . .1 50 × ×± 1 14 0 00 6 ± D D > >W W D D > >N N a dg ee cr, ef ao sll eo dw se yd tb ey s ae ta ics ao ln a wnd hti m age —of fd rea sy h. :M 1e 0a ,2n C 0H ±₄ fl 4u 0x 0e >s ( 0m .5g mm o⁻² 7h 7⁻¹ 0)
+3 4 s m ly it e 0 :
+NH3 1.44 ± 0.10 ± 0.15 ±0.08 D >W D >N ± 60 > 2 mo: 270 ± 30 > 4 mo: 160 ± 12 (Table S8)—and were
+0.11 0.03 generally higher during dry season and nighttime conditions. CO₂, NH₃,
+N2O 0.51 ± 0.47 ± 160 ±30 D >W N >D N₂O, H₂S, and NMVOC emissions exhibited similar trends but tended to
+0.07 0.06
+H2S 0.18 ± 0.02 ± 0.03 ± D >W D >N peak during the daytime.
+0.02 0.004 0.005 Cumulative (chamber-based) emissions (Table 2) indicated that gas
+NMVOCs 1.50 ± 0.30 ± 12.0 ±1.3 D >W D >N generation and volatilization rates were greatest within the first 14 days
+0.05 0.03 of storage and stabilized after ~60 days, consistent with decreasing
+*D=Dry; W=Wet; D =Day; N =Night; *Total NMVOCs were not monitored moisture, volatile solids, and biochemical methane potential (BMP)
+during Campaign 3 (Spring). (Table S42). These results confirm continued methanogenesis and
+7
+
+--- Page 8 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+Fig. 4. Boxplot summary of overall chamber-based CH4 fluxes grouped by day/nighttime (diurnal), drying phase, and season (e.g., wet or dry) for biosolids
+management. The x-axis is presented on a log-scale. Boxes and whiskers indicate the inter-quartile ranges (IQR) and 1.25*IQR of the flux distributions. The black
+lines, diamonds, and red plus symbols refer to the median, mean, and outlier fluxes, respectively.
+Table 2
+Cumulative (chamber-based) annual emissions of CH4, CO2, NH3, N2O, H2S, and NMVOCs estimated from biosolids at the WWTP (mean±SE).
+Age (days) CH4 Emissions (Mg-CH4) CO2 Emissions (Mg-CO2) NH3 Emissions (Mg-NH3) N2O Emissions (Mg- N2O) H2S Emissions (Mg- H2S) NMVOC Emissions (Mg-NMVOC)
+0 2.5 ×10–3 ±9.8 ×10–5 2.8 ×10–2 ±1.3 ×10–3 6.7 ×10⁻⁶ ±4.7 ×10⁻⁷ 3.7 ×10⁻⁵ ±1.0 ×10⁻⁶ 1.0 ×10⁻⁸ ±7.3 ×10⁻¹⁰ 4.7 ×10⁻⁵ ±7.0 ×10⁻⁷
+7 6.7 ×10–2 ±1.6 ×10–3 7.6 ×10–1 ±2.2 ×10–2 1.8 ×10⁻⁴ ±7.8 ×10⁻⁶ 1.0 ×10⁻³ ±1.7 ×10⁻⁵ 2.7 ×10⁻⁷ ±1.2 ×10⁻⁸ 1.3 ×10⁻³ ±1.2 ×10⁻⁵
+14 1.9 ×10–1 ±4.1 ×10–3 2.2 ×10◦±5.4 ×10–2 5.2 ×10⁻⁴ ±2.0 ×10⁻⁵ 2.9 ×10⁻³ ±4.2 ×10⁻⁵ 7.8 ×10⁻⁷ ±3.0 ×10⁻⁸ 3.6 ×10⁻³ ±2.9 ×10⁻⁵
+60 2.8 ×10◦±1.7 ×10–2 3.3 ×101 ±2.3 ×10–1 7.5 ×10⁻³ ±8.6 ×10⁻⁵ 4.9 ×10⁻² ±2.1 ×10⁻⁴ 1.3 ×10⁻⁵ ±1.4 ×10⁻⁷ 5.4 ×10⁻² ±1.8 ×10⁻⁴
+120 4.0 ×10◦±2.0 ×10–2 5.6 ×101 ±2.3 ×10–1 1.1 ×10⁻² ±1.0 ×10⁻⁴ 1.1 ×10⁻¹ ±3.3 ×10⁻⁴ 2.0 ×10⁻⁵ ±1.7 ×10⁻⁷ 8.6 ×10⁻² ±2.3 ×10⁻⁴
+240 6.9 ×10◦±2.4 ×10–2 1.1 ×102 ±3.5 ×10–1 1.9 ×10⁻² ±1.3 ×10⁻⁴ 2.6 ×10⁻¹ ±5.3 ×10⁻⁴ 3.4 ×10⁻⁵ ±2.1 ×10⁻⁷ 1.7 ×10⁻¹ ±3.1 ×10⁻⁴
+organic stabilization within the drying piles. average biogas flow rates of 1.61–2.07 ×10³ m³ d⁻¹, methane concen-
+Flux variability across piles was governed first by dry/wet season, trations of 55–58 % (v/v), and measured destruction efficiencies of
+then by spatial location, and lastly by diurnal period (Figs. S20–S25). 67–69 %. CO₂ emissions were based on documented dry-stack flow rates
+Comparable moisture contents across seasons suggest a weak direct and CO₂ concentrations, while NMVOC emissions were determined as
+moisture control under covered storage, whereas pile geometry (surface the difference between total hydrocarbons (as CH₄ equivalent) and
+area, depth, and porosity) exerted a stronger influence. Shallower, wider directly measured CH₄. The same approach was applied to the boiler
+piles favored aerobic processes (higher CO₂, N₂O; lower CH₄), while using its respective operational and stack parameters.
+deeper piles enhanced methanogenesis (Majumdar et al., 2015). As indicated in Table 3, flare emissions of CH₄ =90 ±10 Mg yr⁻¹ and
+Overall, biosolids emissions were driven by ongoing biological ac- CO₂ = 4.0 ×10³ ± 500 Mg yr⁻¹ were substantially higher than those
+tivity modulated by operational configuration. Adjusting pile geometry from the boiler (CH₄ =0.01 Mg yr⁻¹, CO₂ =625 Mg yr⁻¹). This disparity
+and turnover frequency, or enhancing digester stabilization before reflects the lower combustion efficiency of the open flare, where at-
+storage, could significantly reduce CH₄ and odor-related emissions. mospheric entrainment and short residence time limit oxidation
+completeness. Crosswinds, variable gas composition, and moisture
+content further reduce flare performance (Johnson and Kostiuk, 2002;
+3.5. Combustion emissions from flare and boiler U.S. EPA, 2003). In contrast, the enclosed boiler achieves near-complete
+combustion under controlled air–fuel conditions.
+Combustion processes at the facility—primarily the candlestick flare Elevated NMVOC emissions from the flare also result from incom-
+and boiler—were major contributors to CO₂ and CH₄ emissions. Table 3 plete oxidation of oxygenated hydrocarbons and aromatics, whose
+summarizes annualized GHG and total NMVOC emissions derived from reactivity and combustion efficiency vary with seasonal gas
+measured biogas flow, composition, and combustion performance from composition.
+source testing data. Overall, these findings highlight the need to improve biogas com-
+For the flare, CH₄ emissions were estimated using 2021–2022 bustion infrastructure—specifically by replacing open candlestick flares
+with enclosed or catalytic units—to minimize unburned CH₄ and
+Table 3 NMVOC emissions and enhance overall carbon efficiency of wastewater
+Annual emissions of CH4, CO2 and NMVOCs estimated from the flare and boiler treatment operations.
+at the WWTP (mean±SE) using source test data. SE values are indeterminate for
+boiler emission measurements, given near identical replicate measurements
+obtained. 3.6. Direct and indirect emissions from stationary and non-stationary
+equipment
+Unit Process CH₄ (Mg CH₄) CO₂ (Mg CO₂) NMVOC (Mg NMVOC)
+Flare 90 ±10 4000 ±500 10 ±10 Facility-wide energy use contributed measurably to indirect
+Boiler 0.01 625 0.01
+greenhouse-gas (GHG) emissions. Non-stationary sources included
+8
+
+--- Page 9 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+diesel and gasoline combustion from light- and heavy-duty trucks, postulate that a bias in facility-wide emission measurements from the
+loaders, forklifts, backhoes, and portable pumps. Annual fuel con- flare or biosolids was possible, due to two critical factors.
+sumption was highest for sludge-hauling dump trucks (~1.7 ×10³ L yr⁻¹ First, flare methane slip may have been overstated due to reliance on
+diesel), corresponding to an energy use of ~217 GJ yr⁻¹ (~ 60 MWh oxygen-corrected methane concentrations, which are highly sensitive to
+yr⁻¹). plume mixing and dilution. Methane concentrations were normalized to
+Stationary sources comprised electricity demand for influent and a 15 % O₂ reference, but elevated oxygen levels at the sampling loca-
+stormwater pumping, primary, secondary, and tertiary treatment, solids tion—resulting from dilution and non-uniform mixing—can inflate
+handling, anaerobic digestion, and ancillary systems. Total electricity corrected methane concentrations and bias destruction and removal
+consumption was 2.42 ×10³ MWh yr⁻¹, with secondary treatment (26 efficiency (DRE) low. For example, in July 2022, a measured methane
+%), anaerobic digestion (16 %), and primary treatment (12 %) as concentration of 868 ppm was corrected to 13,629 ppm, yielding a DRE
+dominant users. of 54.99 %, despite indications of high oxygen and variable plume
+Normalized GWP-weighted emission factors derived from fuel and conditions. These conditions, including plume heterogeneity, variable
+power consumption are summarized in Table 4. Stationary equipment winds, and reduced operational load of the flare (1.83 vs. 2.21 MMBTU/
+was the largest contributor, with CO₂ dominating overall emissions, hr), likely resulted in overly lean combustion (very high air-to-fuel ra-
+followed by CH₄ and N₂O. Renewable-energy offsets from the facility’s tios), increasing the potential for flame cooling, instability, and poor
+0.8 MW photovoltaic system supply roughly 50 % of annual electricity mixing, all of which contribute to uncertainty and potential underesti-
+demand, reducing indirect emissions proportionally. mation of DRE (Turns, 1996; Johnson and Kostiuk, 2002).
+Under typical conditions, about 72 % of biogas produced is flared Second, biosolids emissions may have been overestimated due to
+and 28 % is used in the boiler to maintain digester temperature. This measurement and scaling limitations. Moist biosolids are associated
+allocation shifts seasonally (wet: 45/55 %; dry: 15/85 %) due to lower with reduced gas permeability, promoting localized methane hotspots
+ambient temperatures (e.g., Table S25) and increased sludge generation that can bias chamber measurements high relative to facility-scale
+in the wet season. emissions (Karimi et al., 2026). Warmer average surface temperatures
+The boilers recover 0.514 MW thermal (≈1.32 ×10³ MWh yr⁻¹) of may also contribute to enhanced gas generation, volatilization, and
+renewable heat, offsetting ~375 Mg CO₂-eq yr⁻¹ (~ 2.8 % of total facility diffusion rates within biosolids piles, in particular, near the surface
+emissions). This represents the avoided carbon from propane otherwise (Majumder et al., 2015). Due to limitations with field data availability,
+required for mesophilic digestion heating, assuming a cradle-to-gate flux measurements were integrated across dry/wet seasons, likely
+carbon intensity of 79 g CO₂-eq MJ⁻¹ (Backes et al., 2022). contributing to over-estimation of emissions from wet season-specific
+drying operations. Additional uncertainty arises from scaling ap-
+proaches applied herein that discretize biosolids into fixed (often
+3.7. CH4 emissions measurements via UAV flux curtain generalized) operational drying cells and phases (or ages), which may
+not fully capture spatial and temporal variability in storage practices,
+Facility-wide CH₄ emissions were quantified using complementary particularly under wet storage conditions. The scaling approaches
+top-down and bottom-up approaches: the UAV-based flux curtain developed herein likely over-simplify the geometrical arrangement of
+(Bridger Photonics, Inc.), and emission measurements from flux cham- piles in practice (i.e., assuming rectangular prisms), which has been
+ber + point sources, respectively. This study represents the first field demonstrated to strongly influence emission patterns (Majumder et al.,
+comparison of these approaches at a wastewater treatment facility. 2015). In addition, the basis for temporal discretization assumed con-
+The flux chamber CH₄ emission measurements from wastewater and stant flux rates within each drying phase, thereby contributing to
+biosolids and the point source emissions from flare and boiler are pre- elevated emission estimates.
+sented in Fig. 5. For the first monitoring campaign, the sum of flux UAV surveys capture spatially integrated emissions from all facility
+chamber +point sources was 12.7 kg CH₄ h⁻¹, while the UAV-based CH₄ components. Results from three controlled-release tests conducted on
+flux was 26.4 kg CH₄ h⁻¹. In campaign 1, though, a digester leak was different dates, at different locations, or using different methods for CH₄
+identified by UAV flights over the site and later confirmed by field release indicate that the UAV flux-curtain estimates were within ±11 %
+reconnaissance. Thus, the higher UAV-based flux was likely due to a CH₄ of actual emissions (see Section S7), confirming that the measurements
+leak that was not captured by flux chamber + point source can be reliable. The limit of detection (LOD) for the UAV method was
+measurements. estimated to be approximately 3 kg/h (see Section S7). The LOD depends
+For the other monitoring campaigns, UAV-based flux-curtain emis- on facility size and is specific to the Davis WWTP.
+sions were consistently smaller and more variable than the sum of flux In contrast, flux chambers + point source measurements provide
+chamber + point source measurements (Fig. 5). Mean UAV-derived high-sensitivity, process-specific data but are limited by spatial coverage
+emissions for the site across campaigns 2–4 were 1.44 kg CH₄ h⁻¹, and upscaling uncertainty. The highest chamber-based CH₄ emission
+compared with 12.0 kg CH₄ h⁻¹ for the flare, 2.00 ×10–4 kg CH₄ h⁻¹ for rates (and associated variability) were observed from biosolids man-
+the boiler, 1.40 ×10–2 kg CH₄ h⁻¹ from chambers measuring wastewater agement operations, consistent with observations during UAV testing
+sources, and 1.9 kg CH₄ h⁻¹ from chambers measuring biosolid sources, and may have contributed to increased uncertainty in UAV-based fa-
+which sum to approximately 13.3 kg CH₄ h⁻¹. Mean UAV-determined cility-wide emission estimates (see Section S6). The estimated sensitivity
+emissions for campaigns 2–4 were approximately 90 % less than the of the dynamic flux chamber is 5.05 ×10–10 kg/hr, which is approxi-
+mean facility-wide emissions determined from summing flux chamber + mately 10 orders of magnitude more resolved than the UAV-based sys-
+point sources. While the reason for this difference is uncertain, we tem, further justifying the high spatial resolution of this measurement
+approach (see Section S1). It is important to note that the improved
+Table 4 spatial resolution (and associated reduction in measurement error
+Normalized emissions factors for CO2, CH4, and N2O originating from stationary compared to UAV) does not indicate an improved overall emissions
+and non-stationary energy use. quantification certainty, since spatiotemporal variability and un-
+Gas Stationary (g CO2-eq./ Non-Stationary (g CO2- Total (g CO2-eq./m3 certainties associated with extrapolating discrete estimates to facility-
+m3 influent eq./m3 influent influent wastewater) wide emissions are not well characterized or captured.
+wastewater) wastewater)
+CO2 3.4 ×101 2.4 ×100 3.7 ×101
+CH4 1.9 ×10–3 3.6 ×10–5 2.0 ×10–3
+N2O 2.3 ×10–4 4.7 ×10–5 2.8 ×10–4
+9
+
+--- Page 10 ---
+D.C. Manheim et al. W a t e r R e s e a r c h 300 (2026) 125950
+Fig. 5. Facility-wide CH4 emission measurements from UAV flux curtain, flare/boiler source testing, and surface flux chamber methods (total wastewater/biosolids
+emission rates) for the wastewater treatment facility. Error bars indicate ±SE. “EST” indicates that flare and boiler emissions for Campaigns 2/4 were estimated from
+Campaigns 1/3 source testing results, respectively. “LOD” indicates that UAV emissions for Campaigns 2/3 were below limit of detection (3 kg/hr).
+3.8. Operational performance of the WWTP facility and associated gas performance directly reduces fugitive emissions. Optimization of aera-
+emissions tion intensity, solids retention, and nutrient balance can collectively
+minimize CH₄, NH₃, and N₂O generation while maintaining high treat-
+The tertiary wastewater treatment facility studied here is designed ment efficiency.
+for carbon stabilization, nutrient removal, and pathogen destruction
+through integrated primary, secondary, and tertiary processes. Biolog-
+3.9. Operational recommendations to mitigate gas generation and
+ical treatment units—including the anoxic–aerobic basins and anaerobic
+emissions
+digesters—govern the mineralization of organic carbon and trans-
+formation of inorganic nitrogen species. When microbial community
+The findings from this study indicate that targeted operational and
+composition or operational control is suboptimal, gaseous by-products design improvements can substantially reduce the facility’s overall GHG
+such as CH₄, N₂O, and NH₃ can increase substantially.
+footprint. Three main strategies are recommended.
+3.8.1. Carbon management and CH₄ emissions
+1) Improve biogas combustion efficiency- Replacing the open
+The performance of the coupled anoxic–aerobic basins and water- candlestick flare with an enclosed flare would greatly enhance CH₄
+quality parameters provides insight into carbon transformation path-
+DRE and minimize crosswind-induced flame instability. Applying
+ways. Statistically significant correlations between CH₄ flux and total
+average reported methane DREs for enclosed candlestick flares
+solids (TS), volatile solids (VS), and chemical oxygen demand (COD) (98–99.9 %) from the literature (Willis et al., 2013, in place of the
+(Fig. S26, Table S43) revealed negative relationships, indicating that
+field documented average of 68 %) results in a GHG emission savings
+h oxig idh ae tr ob nio om oa rs gs ad ne icn s ci at ry oa nn d no dr g ga ren aic rlo Ca Hdi ₄n cg np sr uo mm po tt ie nm Gor ive c no tm hep ll oet we of 2,330–2,480 Mg CO2-eq./yr or 19–21 % of the operational carbon
+i f b a te o o . e
+emissions. Upgrading the boiler to a combined heat and power (CHP)
+food-to-microorganism ratios (0.2–0.5) and long solids retention times
+system using a low-emission linear generator can further recover
+(6–10 d) typical of conventional activated sludge systems, VS and TS
+energy and reduce emissions. Based on performance data for the
+largely represent active biomass and cell debris. Methanotrophic bac-
+Mainspring MSE-3 digester-gas linear generator (Johnson Matthey
+teria, although typically <1 % of the community, can oxidize CH₄
+MC6T-6F-2 oxidation catalyst), operating at 83 % load on biogas
+through methane monooxygenase (MMO), reducing fugitive methane containing ~60 % CH₄, approximately 190 kW of electricity (~ 1.66
+losses (Daelman et al., 2014). The observed decrease in CH₄ flux with GWh yr⁻¹) can be produced, offsetting ~331 Mg CO₂-eq yr⁻¹ from
+increasing COD thus reflects enhanced heterotrophic oxidation and
+displaced grid electricity. Scenario analysis showed potential re-
+methanotrophic co-metabolism. ductions in process-specific CH₄ and CO₂ emissions of 95 % and 57 %,
+respectively, under average operational conditions (Section S15).
+3.8.2. Nitrogen management and NH₃/N₂O emissions
+CH4 and CO2 reductions ranged from 100 % and 42 % (low biogas
+Correlations between TKN, NO₃–N, and alkalinity versus NH₃/N₂O
+generation) to 58 % and 18 % (high generation), depending on
+fluxes (Fig. S27, Table S43) demonstrate that nitrogenous gas emissions
+seasonal flare use and propane supplementation. These reductions in
+are tightly coupled to microbial nitrification and denitrification. NH₃ CH₄ and CO₂ process emissions correspond to 16–42 % of the esti-
+fluxes decreased with TKN concentration, indicating effective nitrifica-
+mated facility-wide operational carbon emissions.
+tion by ammonia-oxidizing bacteria (AOB). Concurrently, significant
+2) Enhance biogas quality and yield- Co-digestion of sewage sludge
+correlations between NO₃–N and N₂O flux suggest partial denitrification
+with food waste or other organic substrates can stabilize methane
+or nitrifier denitrification as dominant N₂O pathways under oxygen-
+concentration and increase biogas yield, while sludge thickening (e.
+limited conditions. Elevated COD and alkalinity further supported
+g., via gravity thickener or dissolved-air-flotation) can raise solids
+active AOB processes through provision of labile organic carbon and by
+content and volatile-solids destruction. These practices improve
+stabilizing pH during proton-generating nitrification reactions.
+digester performance and reduce residual volatile solids, thereby
+Overall, the relationships between operational parameters, microbial mitigating CH₄ emissions during biosolids drying (Gu et al., 2020;
+activity, and gas fluxes reveal that enhancing biological treatment
+Azarmanesh et al., 2020). Depending on existing facility-specific
+10

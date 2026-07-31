@@ -1,0 +1,42 @@
+{
+  "last_updated": "2026-06-24T18:20:20.158479",
+  "papers_analyzed": 117,
+  "version": "v2_strict",
+  "description": "仅统计论文中实际使用的方法，排除仅提到的方法",
+  "methods_frequency": {
+    "statistical_tests": {
+      "ANOVA": 3,
+      "Shapiro-Wilk": 2,
+      "Levene test": 2
+    },
+    "regression_methods": {
+      "linear regression": 10,
+      "multiple regression": 3
+    },
+    "machine_learning": {
+      "neural network": 28,
+      "random forest": 7,
+      "PCA": 4,
+      "deep learning": 3,
+      "clustering": 1,
+      "SVM": 1
+    },
+    "uncertainty_methods": {
+      "sensitivity analysis": 5,
+      "Monte Carlo": 3,
+      "confidence interval": 1
+    },
+    "emission_accounting": {
+      "IPCC method": 51,
+      "operational data": 9,
+      "LCA": 13,
+      "carbon footprint": 9,
+      "mass balance": 2
+    },
+    "data_processing": {
+      "normalization": 4,
+      "missing data imputation": 1,
+      "outlier detection": 2
+    }
+  }
+}

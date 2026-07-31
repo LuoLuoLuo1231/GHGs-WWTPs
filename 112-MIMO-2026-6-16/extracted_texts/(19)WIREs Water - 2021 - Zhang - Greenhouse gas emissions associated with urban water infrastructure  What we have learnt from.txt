@@ -1,0 +1,753 @@
+--- Page 1 ---
+Revised:31March2021 Accepted:1April2021
+DOI:10.1002/wat2.1529
+ADVANCED REVIEW
+Greenhouse gas emissions associated with urban water
+infrastructure: What we have learnt from China's practice
+Qian Zhang1 | Kate Smith2 | Xu Zhao3 | Xinkai Jin4 | Shuya Wang5 |
+Junjie Shen6 | Zhiyong Jason Ren7
+1TheRobertM.BuchanDepartmentof
+Abstract
+Mining,Queen'sUniversity,Kingston,
+Ontario,Canada Municipal water and wastewater services have complicated sources of greenhouse
+2Aurecon,NeutralBay,NewSouthWales, gas(GHG)emissions,andquantifyingtheirrolesiscriticalfortacklingglobalenvi-
+Australia
+ronmentalchallenges.Inthisstudyweprovideasystematicreviewofthestate-of-
+3InstituteofBlueandGreen
+the-art on GHG emission characterizations of China's urban water infrastructure
+Development,ShandongUniversity,
+Weihai,Shandong,China withtheaimofsheddinglightonglobalimplicationsforsustainabledevelopment.
+4SchoolofEnvironmentandSociety, WestartedbysynthesizingaframeworkonGHGemissionsassociatedwithwater
+TokyoInstituteofTechnology,Tokyo, and wastewater infrastructure. Then we analyzed the different sources of GHG
+Japan
+emissions in drinking water and wastewatertreatment systems. In drinking water
+5SchooloftheEnvironment,Yale
+services,electricityconsumptionisthelargestsourceofGHGemissions.Aparticu-
+University,NewHaven,Connecticut
+6DepartmentofChemicalEngineering, larconcerninChinaisthecommonuseofsecondarypumpingforhigh-risebuild-
+UniversityofBath,Bath,UK ings.Optimizedpressuremanagementwithanefficientpumpingsystemshouldbe
+7DepartmentofCivilandEnvironmental
+prioritized.Inwastewaterservices,non-CO emissionssuchasmethane(CH )and
+2 4
+EngineeringandAndlingerCenterfor
+nitrous oxide (N O) emissions are substantial, but vary greatly depending on
+EnergyandtheEnvironment,Princeton 2
+University,Princeton,NewJersey regional and technological differences. Further research directions may include
+GHGinventorydevelopmentforurbanwatersystemsattheplantlevel,quantifica-
+Correspondence
+tions of GHG emissions from sewer systems, emission reduction measures via
+QianZhang,TheRobertM.Buchan
+DepartmentofMining,Queen's water reclamation, renewable energy recovery, energy efficiency improvement,
+University,Kingston,K7L3N6,Canada. cost–benefitanalyses,andcharacterizationsofScope3emissions.
+Email:qian.zhang@queensu.ca
+AND
+Thisarticleiscategorizedunder:
+EngineeringWater>SustainableEngineeringofWater
+XuZhao,InstituteofBlueandGreen
+Development,ShandongUniversity, ScienceofWater>WaterandEnvironmentalChange
+Weihai,264209,China.
+EngineeringWater>PlanningWater
+Email:xuzhao@sdu.edu.cn
+Editedby:StuartN.Lane,Editor-in- KEYWORDS
+Chief greenhousegasaccounting,life-cyclethinking,non-CO emissions,urbanwatersystems,water–
+2
+energynexus
+1 | INTRODUCTION
+In the past few decades, China has made unprecedented progress in economic development. Along with this growth,
+the country has also dramatically improved its water infrastructure, expanded its clean water service and wastewater
+treatment,andimprovedprotectionofthewaterenvironment.Thepopulationabletoaccesstapwaterfrommunicipal
+watertreatmentplantsincreasedfrom303millionin2004to503millionin2018(+4.7%/year),andthetotalcapacityof
+WIREsWater.2021;8:e1529. wires.wiley.com/water ©2021WileyPeriodicalsLLC. 1of24
+https://doi.org/10.1002/wat2.1529
+
+--- Page 2 ---
+20491948,
+2of24 ZHANGETAL.
+2021,
+wastewatertreatmentincreasedfrom74millionm3/dayin2004to181millionm3/dayin2018(+10%/year;NBS,2018).
+4,
+Downloaded
+Such a trend will continue as China's urbanization continues; another approximately 10% of the total population is
+expectedtomovetourbanareasby2030(UnitedNations,2017).IntheUnitedNations'SustainableDevelopmentGoals
+from
+(SDGs),SDG6isdedicatedtothewater,sanitation,andhygiene(WASH)sector(UnitedNations,2015),whichaimsto
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+achieve universalandequitableaccesstosafeandaffordabledrinking waterandsanitation forall,especiallyfordevel-
+oping countries. In this regard, China has established a good model and will continue to play an exemplary role in
+achievingtheglobalSDGs(Xuetal.,2020).
+Municipal water and wastewater services have complicated sources of greenhouse gas (GHG) emissions. Although
+the WASH sector's contributions to national GHG inventories are usually between 1 and 3% (Hillman &
+Ramaswami,2010;Zhangetal.,2015),theabsolutemagnitudefromabigcountrylikeChinaisnoticeable.Thereisalso
+high uncertainty around GHG inventories from wastewater and sludge treatment (Hall, West, Sherman, Lane, & de
+Haas, 2011; Sweetapple, Fu, & Butler, 2013). Recent studies show there are both synergies and trade-offs between
+achieving SDG 6 on clean water and sanitation and SDG 13 on climate actions (Zhang et al., 2019; Zhou, Leng, &
+Huang,2018).UnderstandingthecompletepictureofGHGemissionsassociatedwiththeWASHsectorremainsachal-
+by
+Northwest
+lengingbutfundamentalrequirementforpolicymakersandpractitionerswantingtorespondtothegrandchallengesin
+water,energy,andclimatechange.
+University,
+Inthis study,we provided a systematic reviewofthe state-of-the-art on GHG emission characterizations associated
+withChina'surbanwaterinfrastructureandhopetoshedlightonglobalimplicationsforsustainabledevelopment.We
+Wiley
+conducted a comprehensive literature search and critically reviewed relevant resources on other countries' cases to
+Online
+comparewithresultsfoundinChina.
+Library
+Following this introduction, we present a systems perspective to source GHG emissions accompanying the urban
+watercycleinSection2.RecentstudiesonGHGemissionsassociatedwithdrinkingwatersystemsinChinaarereviewed on
+[25/11/2025].
+in Section 3. In Section 4, we critically evaluate current estimations of GHG emissions related to wastewater treatment
+systems in China. A brief summary of review highlights is provided in Section 5. GHG reduction opportunities for the
+See
+watersectorareillustratedinSection6.ConclusionsandtheoutlookforfutureresearchareprovidedinSection7.
+the
+Terms
+and
+2 | A SYSTEMS PERSPECTIVE OF GHGS ASSOCIATED WITH URBAN Conditions
+WATER INFRASTRUCTURE
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+Inthis review,urban water infrastructureincludes municipal drinkingwater infrastructure and wastewaterinfrastruc-
+ture.Thetermurbanwatersystems (sometimes anurbanwater system)refers toanintegrated system including water
+and wastewater infrastructure (Arora, Malano, Davidson, Nelson, & George, 2015; Hering, Waite, Luthy, Drewes, &
+Sedlak,2013;Loubet,Roux,Loiseau,&Bellon-Maurel,2014;Lundin&Morrison,2002)andlinkstoassetmanagement
+(Alegre et al., 2013; Leit~ao et al., 2016; Liu & Jensen, 2018). Industrial water treatment facilities, as well as large infra-
+structure for water conservation and long-distance transport like the South–North water transfer project in China, are
+notincludedduetodifferentjurisdictionsandscopes.TheGHGemissionsandotherenvironmentalimpactsassociated
+witheverystageofanurbanwatersystemcanbeanalyzedusingalifecycleassessment(LCA;Lemos,Dias,Gabarrell,& on
+Wiley
+Arroja,2013).
+Figure 1 illustrates the potential GHG emission sources associated with urban water systems with a focus on Online
+system-level life-cycle thinking (Zhang, Nakatani, Wang, Chai, & Moriguchi, 2017). In the urban water system, five Library
+main sections include water purification, water distribution, water end-use, wastewater collection, and wastewater
+for
+treatment (including sludge treatment and disposal). The operations and maintenance (O&M) stage of urban water rules
+of
+infrastructure is the primary source of both direct and indirect GHG emissions. For example, Scope 1 and 2 emissions use;
+(seeBox1)includeemissionsfromonsitefossilfuelconsumptionandpurchasedelectricityconsumption,andmethane OA
+articles
+(CH ) and nitrous oxide (N O) emissions from wastewater and sludge management. Some studies also consider Scope
+4 2
+are
+3 GHG emissions from the energy consumption embodied in chemical inputs to water and wastewater treatment pro-
+governed
+cesses. Besides the O&M stage, the emissions associated with the construction stage and end-of-life stage are theoreti-
+callywithinthisaccountingframeworkaspartofScope3emissions. by
+the
+HistoricalstudiesonChina'scity-levelGHGinventoriesdonotoftenfocusonurbanwatersystems.However,some applicable
+studies in other countries shine light on this subject. Mahgoub, Van der Steen, Abu-Zeid, and Vairavamoorthy (2010)
+Creative
+conduct alife-cycleassessment oftheurbanwatersystem inone cityin Egyptand indicate that adecentralized waste-
+watertreatmentsystemcanhelpreducethetotalenergyconsumption. Asystematicevaluationofenergyconsumption Commons
+License
+
+--- Page 3 ---
+20491948,
+ZHANGETAL. 3of24
+2021,
+4,
+Downloaded
+from
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+by
+Northwest
+University,
+Wiley
+Online
+Library
+on
+[25/11/2025].
+See
+FIGURE 1 AsystematicillustrationofGHGsourcesassociatedwithurbanwaterinfrastructure.GHGs(E)representenergy-related
+the
+GHGemissions.GHGs(NE)representnon-energy-relatedGHGemissions(mainlyCH andN Oemissionsfromwastewatersystems) Terms
+4 2
+and
+Conditions
+BOX1 S1GHGinventorycompilationandreportingmethods (https://onlinelibrary.wiley.com/terms-and-conditions)
+Anthropogenic greenhouse gas (GHG) emissions have been one of the principal reasons for global warming
+since the mid-20th century (IPCC, 2014). The 2006 IPCC Guidelines for National Greenhouse Gas Inventories
+provideinternationallyagreedmethodologiestoestimatenationalGHGemissions(IPCC,2006).Todevelopan
+inventory of GHG emissions, one should carefully consider types of greenhouse gases, emission sectors
+(orremovalsinks),territoryboundary, inventory year,and accountingmethods tokeep theconstructedinven-
+tories comparable between countries with a satisfactory quality regarding transparency, completeness, and
+consistency.
+The GHGProtocol Corporate Accounting andReportingStandard initiatedbythe World ResourcesInstitute
+on
+(WRI) and the World Business Council for Sustainable Development (WBCSD) provides guidance on GHG Wiley
+accounting for companies or other organizations (WRI & WBCSD, 2004). It introduces the concept of the Online
+“scope”ofGHGemissionsininventorycompilation,requiringbothdirectandindirectemissionstobereported
+Library
+in the GHG inventory using this standard. Scope 1 emissions refer to direct GHG emissions occurring from
+for
+owned or controlled sources by the entity. Scope 2 emissions refer to indirect GHG emissions from purchased rules
+or otherwise acquired electricity and heat power consumed by the entity. Scope 3 emissions refer to all other of
+use;
+indirectGHGemissionsasaconsequenceoftheentity'sactivitiesbutoccurringfromsourcesnotownedorcon- OA
+articles
+trolled by the entity. This concept of indirect emissions has been adopted in ISO standards (ISO 14064-1/2/3;
+Bastianoni,Marchi,Caro,Casprini,&Pulselli,2014)andispresentedintheIPCC'sfifthassessmentreport. are
+governed
+by
+the
+applicable
+duringtheurbanwatercycleanditsenvironmentalimpactsinNorwayrevealscriticalprocesses,forexample,pumping,
+Creative
+aeration, anaerobic digestion, and pipelines rehabilitation, and so on (Venkatesh & Brattebø, 2011). Other evidence
+indicatesthatenergyconsumptionfromwaterend-users(e.g.,household)canbemoresignificantthanwatersupplyor Commons
+License
+
+--- Page 4 ---
+20491948,
+4of24 ZHANGETAL.
+2021,
+wastewatertreatment processes (Rothausen & Conway, 2011). Frijns (2012) proposes astandardframework ofthe car- 4,
+Downloaded
+bonfootprintforthewatersector,mentioningthattheaccountingboundaryshouldincludeCO fromenergyconsump-
+2
+tion,directCH andN Oemissionsinprocesses,andindirectCO emissionsfromproductionofthechemicalsusedin
+4 2 2
+from
+treatmentprocesses.HisworkshowsthatGHGemissionsinthewastewatersubsystemaremuchmoresignificantthan
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+in the water supply subsystem in the case of the Netherlands, mainly due to CH and N O emissions from wastewater
+4 2
+treatment.However,itfailstoincludeindirectCO emissionsfrommaterialsusedinconstructionbecauseofitslimited
+2
+contributionoverthewholelife-cycle.AcomprehensiveLCAoftheurbanwastewatersysteminFrancereportssignifi-
+cant environmental impacts from the construction of sewer infrastructure (Risch, Gutierrez, Roux, Boutin, &
+Corominas,2015).OtherLCAstudiesshowconsiderableGHGemissionsfromthedevelopmentofwaterinfrastructure
+(pipelinesortreatmentfacilities;Petit-Boixetal.,2014;Piratla,Ariaratnam,&Cohen,2011;Venkatesh,Hammervold,&
+Brattebø, 2009). In recent years, studies on China have reported energy use in water supply (Smith et al., 2016; Smith,
+Liu, & Chang, 2016), CH emissions from wastewater treatment (Wang et al., 2011; Zhao et al., 2019), emissions from
+4
+sludge treatment (Liu, Wei, Zhang, & Bi, 2013; Xu, Chen, & Hong, 2014) and LCA case studies for a municipal water
+treatment plant (WTP) or a municipal wastewater treatment plant (WWTP; Li, Luo, Huang, Wang, & Zhang, 2013;
+by
+Northwest
+Zhang, Wang, Xiong, Chen, & Cao, 2010). However, there is no comprehensive study that provides a system-level
+understandingoftheGHGemissionsassociatedwithChina'swaterinfrastructure.
+University,
+Thereisanemergingneedtoestimatenon-CO GHGemissionsfromtheurbanwatercycle,mainlyfromwastewa-
+2
+ter treatment. There are several recent publications on measurement and technology-based estimations of CH emis-
+4 Wiley
+sions (Cakir & Stenstrom, 2005; Foley, Yuan, & Lant, 2009; Guisasola, de Haas, Keller, & Yuan, 2008; Shahabadi,
+Online
+Yerushalmi, & Haghighat, 2009; Wang et al., 2011) and N O emissions in the wastewater treatment processes (Foley,
+2
+Library
+DeHaas,Yuan,&Lant,2010;Law,Ye,Pan,&Yuan,2012).TheyestimatethepotentialgenerationofCH inthewaste-
+4
+watercollectionsystem,whichisignoredundersomeGHGaccountingprotocols,andconcludethatthedissolvedCH on
+4 [25/11/2025].
+in a rising main is significant (Foley et al., 2009; Guisasola, Sharma, Keller, & Yuan, 2009). Treatment plants that
+achievehighlevelsofnitrogenremovalarefoundtoemitlessN O,indicatingthatnocompromiseisrequiredbetween
+2
+See
+high water quality and lower N O emissions (Law et al., 2012). However, another study suggests a trade-off between
+2 the
+nutrient removal and GHG emissions in WWTPs (Soda et al., 2013). An extreme case is that N O emissions accounted Terms
+2
+for three quarters of a plant's carbon footprint in one WWTP in the Netherlands, according to 16months of measure- and
+Conditions
+ment(Daelman,vanVoorthuizen,VanDongen,Volcke,&VanLoosdrecht,2013).Thesestudiesdemonstratethatnon-
+CO emissionsfromthewastewatersystemaresubstantial,butthereisconsiderableuncertaintyandvarietydepending
+2 (https://onlinelibrary.wiley.com/terms-and-conditions)
+ontheregionalcontextandtechnologiesused(Manninaetal.,2016).
+China'surbanizationhasbeendrivenbydecadesofrural-to-urbanmigration(Zhang&Song,2003).Waterresources
+have become one of the controlling factors in urbanization due to water scarcity and pollution (Bao & Fang, 2012).
+China's “new-normal” urbanization plan makes it harder for residents to settle down in larger cities and is cautious
+whenprovidingnewlandforurbanexpansioninmega-cities(Wang,Hui,Choguill,&Jia,2015).Theurbanizationlevel
+in China is estimated to reach approximately 70% in 2030 (Shi et al., 2012). More construction of urban water infra-
+structureandassociatedwaterservicesprovisionareexpectedduringthecontinuingprocessofurbanizationinChina.
+UrbanizationsignificantlyenhancesGHGemissionsassociatedwiththewatercycle(Wangetal.,2018).Thesponge
+city initiative has greatly improved the city's capability of dealing with stormwater and water body pollution. A recent on
+Wiley
+study for Shanghai showed that the life-cycle (30-year) GHG emissions of sponge city projects can be offset by those
+enhancedcarbonsinksafter19years(Linetal.,2018).However,China'sgrowthisdisproportionate.Intheurbanwater Online
+market,thereisinequalityamongdifferenttypesofcities(Tongetal.,2016).Generallyspeaking,smallerandlessafflu- Library
+ent cities have lower levelsof wastewater treatment and water supply coverage. Water utilitiesin small townsperform
+for
+poorly in critical variables,including water supply reliability, water quality, and financialperformance, aswell ashav- rules
+of
+inginadequatewastewatertreatment(Browderetal.,2007;Jiang,2015;Zhangetal.,2016). use;
+OA
+articles
+3 | DRINKING WATER SYSTEMS are
+governed
+The process of supplying water typically involves four steps: (a) extracting water from the source, (b) treating water to by
+the
+the desired quality, (c) transferring water through an underground water distribution system, and (d) lifting water applicable
+withinauser'sbuilding.Scope1emissionswithinwatersupplyincludedieseluseduringsludgetruckinganddieseluse
+Creative
+for backup generators, Scope 2 emissions result from grid electricity use, and Scope 3 emissions occur during the
+Commons
+License
+
+--- Page 5 ---
+20491948,
+ZHANGETAL. 5of24
+2021,
+construction and manufacturing of infrastructure, equipment, and chemicals required during watersupply and during 4,
+Downloaded
+theuseoftreatedwaterafteritarrivesattheuser.
+Greenhouse gas emissions for water supply in China and a number of other countries, regions and cities are pres-
+from
+entedin Table1forcomparison. Keyfactors determiningthe emissions intensity ofwater supplyare(a) electricity use
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+TABLE 1 Total(GHG ),percapita(GHG ),andperunit(GHG )GHGemissionsforurbanwatersupply,GHGemissions
+water percap perunit
+forurbanwatersupplyasapercentageoftotalnationalGHGemissionsforelectricity/heat(GHG ),andemissionfactor(EF)forcountries,
+%
+regions,andcitiesrepresentedintheliterature
+GHG GHG GHG EF(kgCO -eq/
+percap perunit water 2
+Regionauthoranddate (kgCO -eq/cap/yr) (kgCO -eq/m3) (MtCO -eq) GHG (%) kWh)
+2 2 2 %
+China 24.5 0.213 7.63 0.18a 0.737
+Smith,Liu,andChang(2016)
+India 3–16%16cities by
+Milleretal.(2013) <3%for23citiesb Northwest
+Australia 92.1c 0.721c 1.11c 0.46d 0.908e
+University,
+Kenwayetal.(2008)
+UK 0.34f 2g 0.82h Wiley
+DEFRA(2008)
+Online
+WaterUK(2010)
+Library
+USAi 76.9j 0.311j 18.6j 0.69k 0.608l
+Hutson(2004) on
+[25/11/2025].
+EPRI(2002)
+Selectedareasm 7.32n 0.0596n 0.209o
+See
+NewZealand
+the
+Kneppersetal.(2009) Terms
+California 1.093p and
+StokesandHorvath(2009) Conditions
+Toronto,Canada 23.5q 0.117 0.173r
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+Racoviceanu,Karney,Kennedy,
+andColombo(2007)
+Oslo,Norway 0.07–0.08
+VenkateshandBrattebø(2011)
+Durban,SouthAfrica 0.481s
+Friedrichetal.(2009)
+aUsingChina's2011CO emissionsforelectricity/heatfromWRI(2014).
+2
+bIncludeswastewaterandisgivenas%ofcity-wideemissions.
+cCalculatedbasedontotalemissions,energyforwatersupplyandpopulationservedfor2006/2007table1p.6Kenwayetal.(2008).
+on
+dCalculatedusingKenwayetal.(2008)andaverageCO P 2 emissionsforelectricity/heatforAustraliabetween2006/2007fromWRI(2014). P Wiley
+e GHGemissionsforenergy-relatedsourcesacross6cities/ totalenergydemandsfromtable1p.6Kenwayetal.(2008).
+Online
+fSourcedfromWaterUK(2010).
+gForyr2005–2006.Readfromfigure12p.68DEFRA(2008;get,treat,distributewater+leakage). Library
+hCalculatedusingDEFRA(2008)andaverageCO emissionsforelectricity/heatfortheUKbetween2005/2006fromWRI(2014).
+2 for
+iEIAGHGemissionsdataareonlyavailableintermsofCO 2 notCO-eq. 2 rules
+jCalculatedusingestimatedwaterwithdrawalforandpopulationservedby“publicwatersupply”in2000[table5p.14Hutson(2004)],totalelectricityfor
+of
+“publicwatersupply”in2000(table1.2p1.5EPRI[2002])andemissionsfactor0.608kgCO-eq/kWh.“Publicsupply”referstowaterwithdrawnbypublic use;
+2
+OA
+andprivatewatersuppliersthatfurnishwatertoatleast25peopleorhaveaminimumof15connections[Hutson(2004,p.13)].
+articles
+kCalculatedusing18.6Mtandtotal2000CO emissionsforelectricity/heatfromWRI(2014).
+2
+lCalculatedusingelectricitygeneration[3.8×1012kWh:EIA(2013)]andCO 2 emissions[2.3×109t:EIA(2012)]fromtheUSelectricpowersector. are
+mKneppersetal.(2009)reviewsfourwatersystemswithdifferentcharacteristicsrepresentingjustover8%ofthenationalpopulation. governed
+nCalculationbasedontable7p.20Kneppersetal.(2009).
+P P
+o GHGemissions/ totalenergyfromtable7p.20Kneppersetal.(2009). by
+the
+pPrediction:AssumesCaliforniaimportsallwater. applicable
+q136kWh/cap×0.173kgCO-eq/kWhfromRacoviceanuetal.(2007).
+2
+rUnitsconvertedfrom48.1tCO-eq/TJforelectricitygeneratedforOntarioin1997fromRacoviceanuetal.(2007).
+2 Creative
+sFullLCAmostlikelyused,includingdamemissions.
+Source:Smith,Liu,andChang(2016)©2015byYaleUniversity. Commons
+License
+
+--- Page 6 ---
+20491948,
+6of24 ZHANGETAL.
+2021,
+and (b) the energy mix used to generate electricity (Smith & Liu, 2019). The emissions intensity of water supply in 4,
+Downloaded
+China is higher than three areas listed in Table 1—Oslo, Toronto, and New Zealand—which is mainly due to China's
+high emission factor for electricity generation compared with Norway, Canada, and New Zealand (Smith & Liu, 2019;
+from
+Smith,Liu,&Chang,2016).Thesethreecountriesrelygreatlyonhydropower,windpower,ornuclearpower,whereas
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+Chinareliesmostlyoncoal(Smith&Liu,2019;Smith,Liu,&Chang,2016).
+Shifting from emissions-intensive electricity sources is crucial to reducing emissions in China's water supply sector
+(Smith, Liu, & Chang, 2016) and China is in the process of becoming less coal-dependent (Yuan, Behrens, Tukker, &
+Rodrigues,2018).Thepercentageofnon-fossilfuelenergyinprimaryenergyconsumptionincreasedfrom3.4%in1978
+to14.3%in2018.Thepercentageofcoalconsumptiondecreasedfrom70.7%in1978to59.0%in2018,inparticulardue
+totheincreaseintheshareofrenewablesoverthelast10years(Zhengetal.,2020).
+3.1 | Scope 1 and 2 GHG emissions
+by
+Northwest
+ThissectionfocusesprimarilyonScope2emissionsfromgridelectricityuse,whicharethemaintypeofemissionsasso-
+ciatedwithwatersupplyinChinaandforwhichdataaremoreaccessible.Drinkingwatertreatmentplantsdoproduce
+University,
+someScope1fugitiveemissionsduetosludgefromsedimentationtanksanduseofozonationfordisinfection,butthis
+isdifficultto quantify and low compared with wastewater treatment plants.Most GHGemissionsfrom drinking water
+Wiley
+treatment plants are from the use of grid electricity (Smith, Liu, & Chang, 2016). Continuing reliance on coal for elec-
+Online
+tricity generationinChina means Scope 2emissionsremainimportant, though theenergy mix inChina isexpected to
+Library
+begreenerovertime(Liu,Lei,Xu,&Yuan,2018).
+on
+[25/11/2025].
+3.1.1 | Emissions from sourcing water
+See
+the
+Water sourcing is not the leading emitter for most urban water supply systems. Surface water accounts for more than Terms
+80%offreshwaterwithdrawalsinChina(FoodandAgricultureOrganization,2019),andsurfacewaterextractiontends and
+Conditions
+not tobe emissions-intensiveunlessitis long-distance (Wakeel,Chen,Hayat, Alsaedi, &Ahmad, 2016). Long-distance
+transfer and agricultural water use are not within the scope of this study. One major southern city, Changzhou, is an
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+example of the contribution sourcing surface water can make to overall energy use for water supply when water users
+arelocatednearthesource.Only3%ofenergyforwatersupplyinChangzhouisusedforlocallysourcingwater(Zhou,
+Zhang,Wang,&Bi,2013). Li,Liu,Zheng, Han,andHoff(2016)estimatethe energyintensityofwaterliftingfromriv-
+ers and lakes to be 0.20kWh/m3 based on a summary of the literature from China. Emissions are generally higher for
+sourcinggroundwater(Rothausen&Conway,2011).Energyusevariesgreatlybasedonthedepth fromwhichground-
+watermustbesourced(Smith&Liu,2019),buttheaverageenergyintensityacrossprovincesofChina(includingrural
+areas)isestimatedtobe0.37Wh/m3(Li,Liu,etal.,2016).
+EmissionsassociatedwithsourcingwateraremainlyforpumpingandfallintoScope1ifpumpsarerunusingdie-
+sel or Scope 2 if pumps are run using grid electricity. Diesel pumps are used for around 25% of groundwater wells in on
+Wiley
+ruralareasofChina(Wangetal.,2012)andarerarerinurbanareas,althoughtheymaybeusedincaseswhereprivate
+boresfallwithincityboundaries.Thedifferencebetweendieselandelectricpumpsislargelydueto(a)pumpefficiency Online
+and (b) emission factor, with both higher for electric pumps. In China, the efficiency of diesel pumps ((cid:1)15%) is esti- Library
+mated to be much lower than that of electric pumps (40%, less 15% due to transmission and distribution of electricity;
+for
+Wangetal.,2012). Theemissionfactor ofdieselwasaroundone-thirdoftheemissionfactor ofelectricity generated in rules
+of
+Chinaatthattime. use;
+China'smovetowardtheSpongeCityconcepthasincreasedthefocusonthecollectionandmanagementofrainwa- OA
+articles
+ter as an opportunity to supplement other water sources (Wang, Mei, Liu, & Shao, 2018). Research in other countries
+are
+suggests that energy use for rainwater harvesting in buildings tends to be higher than for centralized water supply
+governed
+because rainwater is often stored in basement-level tanks and pumped up to users (Vieira, Beal, Ghisi, &
+Stewart,2014). Acomprehensivereviewofenergyintensitydata forrainwater harvestingsystemsaroundtheworldby by
+the
+Vieira et al. (2014) finds these systems use three times more energy than a centralized water supply system. However, applicable
+for people living in high-rise buildings that already need onsite pumping (just under 10% of China's population), rain-
+Creative
+waterharvestingmaynotincreaseemissionsassociated withwatersupply(Smith&Liu,2019). Thiscouldbeaninter-
+estingareaforcomparativeresearchinthefuture. Commons
+License
+
+--- Page 7 ---
+20491948,
+ZHANGETAL. 7of24
+2021,
+3.1.2 | Emissions from water treatment
+4,
+Downloaded
+Conventionaltreatment ofgroundwaterandlocallysourced ortransferredsurface waterisnot amajorsource ofemis-
+from
+sions. In China, treatment generally involves coagulation, sedimentation, filtration, and disinfection, which are pro-
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+cesses that do not require much energy (Can et al., 2013; Zhang et al., 2016). For example, Changzhou uses 1% of the
+total energy for centralized water supply on water treatment (Zhou et al., 2013). Energy use for conventional water
+treatmentprocessesinChinacanbefoundinSmith,Liu,Liu,andGuo(2018).Theprimarysourceofemissionsisfiltra-
+tionduetoelectricityuseforfilterscouringandbackwashing.Disinfectioncanalsobeahighenergyuser,butchlorine
+disinfectionismostcommonlyusedinChinaand isalow-energyprocess(Ye,Wang,Yang,Wei,&Xueli,2009).Some
+bigcitieshaveimplementedmoreadvancedpre-treatmentorpost-treatmentprocesses,suchasozonation,activatedcar-
+bonfiltration,etc.Theseprocesseswillincreaseoverallenergyconsumption,butlimiteddatapointsareavailablesofar
+fromChina.AccordingtoareferencefromtheUnitedStates,waterchlorination/de-chlorinationconsumes2×10−5to
+5×10−4 kWh/m3,while energy use for ozonation is between 0.03 and 0.15kWh/m3 (Plappally & Lienhard, 2012). We
+donotfindanyfirst-handinformationintherefereedliteratureaboutelectricityintensity orcarbonintensity ofdrink-
+by
+Northwest
+ingwatertreatmentfromChina'soperatingwatertreatmentplants.AllthecurrentstudiesinChinaarebasedonaggre-
+gated energy use data from statistics. The global median values of energy use for surface water and ground water
+University,
+treatment are found to be 0.22 and 0.25kWh/m3, respectively (Liu et al., 2016). China's aggregated energy intensity of
+watertreatmentisbetweentheglobalmedianandthe75thpercentile.
+Wiley
+Seawater desalination for water supply emits more GHGs than conventional drinking water treatment. The two
+Online
+main forms of desalination in China are reverse osmosis (RO) and multieffect distillation (MED), the former of which
+Library
+accounts for around 70% of the total desalination capacity (State Oceanic Administration, 2018). Other technologies
+suchasmultistageflash(MSF)andelectrodialysis(ED)arelesscommoninChina.EmissionsforROareduetotheuse on
+[25/11/2025].
+ofelectricitytocreatehighpressure,withtheexactamountdependingonthesaltconcentrationofthefeed.Asshown
+inTable2,electricityuseforROisinfluencedbytheageandsizeoftheplantandcanrangebetween3.3and5.2kWh/
+m3 in China (Smith, Liu, Liu, & Guo, 2018). MED involves heating seawater to form water vapor, which condenses to See
+the
+form pure water. Energy use is independent of salt concentration, but MED is more energy-intensive than RO Terms
+(6–7 kWh/m3 vs. 4.5 kWh/m3; Chen, Wang, Yang, & Zheng, 2011; Smith, Liu, Liu, & Guo, 2018). Furthermore, this and
+Conditions
+technology uses both electricity and thermal energy. GHG emissions are high because thermal energy from burning
+coal is the main energy source; most low-temperature MED plants in China are co-located with coal-fired power sta-
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+tionstoutilizewasteheatforoperation.Bycomparison,ROonlyusesgridelectricity,whichisgeneratedusingacombi-
+nation of fossil fuels and renewable sources (e.g., hydro) in China. In 2016, Shandong Province had roughly 1.6 times
+larger seawater desalination capacity than Hebei Province, but its GHG emissions from seawater desalination are only
+47.4% of GHG emissions from Hebei's desalination plants. This difference is because Shandong Province only uses RO
+TABLE 2 Electricityusebyseawaterreverseosmosis(SWRO)andlow-temperaturemultieffectdistillation(LT-MED)plantsinChina
+on
+Direct Electricalequivalent Totalequivalent Wiley
+Capacity electricity Steamuse forthermalenergy energyuse Online
+Plantname Technique (m3/day) use(kWh/m3) (kJ/m3) (kWh/m3)d (kWh/m3)
+Library
+HebeiCaofeidiana,b LT-MED 5.0×104 2.11 2.69×105 5.85 7.96
+for
+TianjinBeijianga LT-MED 1.0×105 1.45 2.51×105 5.46 6.91 rules
+of
+QingdaoBaifaa SWRO 1.0×105 4.40 n/a n/a 4.40 use;
+OA
+ShandongChangdao SWRO 1,000 4.5 n/a n/a 4.5
+articles
+Countyc
+are
+aLi,Xiong,Zhang,Wang,andWang(2016). governed
+bValuesforthisplantincludetransfertoBeijing(270km),whichincreasesenergyuse.
+cZhang,Xie,Chen,andGao(2005). by
+the
+dElectricalequivalentistheelectricalenergythatcannotbeproducedinaturbinebecausethegivenquantityofsteamwasextracted(Encyclopediaof applicable
+DesalinationandWaterResources,2017).WeusetheconversionprovidedbyEncyclopediaofDesalinationandWaterResources(2017),whichestimates
+46,000kJofsteamproduces1kWhofelectricity,andassumesthatpressureinthecondenserofalargecommercialsteamturbineiskeptat0.1bara,seawater Creative
+temperatureis35(cid:3)Candsteamextractionpressureis0.5bara(lossis258kJ/kgsteam).
+Source:Smith,Liu,Liu,&Guo,2018©2018ElsevierLtd. Commons
+License
+
+--- Page 8 ---
+20491948,
+8of24 ZHANGETAL.
+2021,
+plants, whereas Hebei Province depends largely on MED plants (65% of its total desalination capacity; Jia, Klemeš, 4,
+Downloaded
+Varbanov,&WanAlwi,2019).
+China has a common practice of wastewater reclamation (Chen, Wu, Wu, & Hu, 2016) but uses a comparatively
+from
+smallamountofdesalinatedseawater, althoughtheuseofbothtypesofwaterhasincreasedsignificantly overthepast
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+twodecades.Tianjinisoneofthemainproducersofdesalinatedwater,butdesalinationonlyaccountsfor1.2%ofwater
+supplied to Tianjin; by comparison, reclaimed wastewater accounts for between 5 and 20% or more in major northern
+Chinese cities (Li, Xiong, et al., 2016). Note that reclaimed wastewater is not yet for potable use in China's cities, but
+mainlyforlandscapeandindustrialuse(Zhu&Dou,2018).
+3.1.3 | Emissions for water distribution
+Water distribution is often the main source of emissions in the water supply process, particularly if the distribution of
+water in high-rise buildings is considered (Smith, Liu, Liu, & Guo, 2018). The topography of a city and the percentage
+by
+Northwest
+ofpeoplelivinginhigh-risebuildingsaretwoofthemainfactorsdeterminingenergyuseforwaterdistribution(Zhang
+etal.,2019).
+University,
+There are only a few city-level studies in China that show the importance of water distribution in energy-related
+emissions. In Beijing, water distribution accounts for 63% of total emissions of centralized water supply (Smith, Liu,
+Wiley
+Liu,Liu,&Wu,2017).AnotherstudybyHeetal.(2019)estimatestheenergyuseforwaterdistributioninBeijingtobe
+Online
+0.44kWh/m3,whichis54%ofthetotalenergyuseforsourcing,treatmentandcentralizeddistribution.InChangzhou,
+Library
+centralizedwaterdistributionaccountsfor96%(Zhouetal.,2013),anditaccountsfor44%,accordingtoonecasestudy
+inTaipei(Cheng,2002). on
+[25/11/2025].
+Pressuremanagementisacountermeasureagainstwaterleakageduringdistribution,whichhasclearco-benefitsof
+energysavingsandGHGreductions(Xu,Chen,Ma,Blanckaert,&Wan,2014;Zhouetal.,2013).Energyisusedduring
+See
+distribution to meet water quality objectives, to provide sufficient pressure to satisfy consumers, and ensure fire
+the
+hydrants are functional. Many countries recommend a minimum pressure be used in the distribution system for these Terms
+reasons, and a selection of these regulations and guidelines is shown in Figure 2. For example, the minimum rec- and
+Conditions
+ommended pressure is 28m in China, which delivers to the sixth story and under. Other examples are 15m for
+Australiaand10mforSpain.
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+Onsitepumpingforhouseholdsnotservicedbytheminimumpressurecanbeasignificantcontributortoemissions
+forwatersupply,butthiscanbereducedbyusinganefficientpumpingsystem.Asanexample,energyuseforhigh-rise
+pumping is estimated to account for 43% of total electricity use for water supply in a major Chinese city where 9% of
+thepopulationliveontheseventhstoryorabove(Smithetal.,2017).Themostcommonhigh-risepumpingsystemsin
+China are the booster pump and break tank system and the entirely pressurized booster system. Both have basement
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+FIGURE 2 Examplesofminimumpressureguidelinesforcountriesaroundtheworld.
+Source:SmithandLiu(2021) Commons
+License
+
+--- Page 9 ---
+20491948,
+ZHANGETAL. 9of24
+2021,
+tanks to store water, and variable speed pumps to lift water to upper levels, but the tanks are different—one is a large 4,
+Downloaded
+breaktankthatholdswateratatmosphericpressure,andtheotherisasmallpressurizedtank.Theformersystemuses
+0.019kWhtolift1m3ofwater1m,andthelatterarrangementuseslessenergy—0.010kWh/m3(cid:4)m—becausepressure
+from
+providedinthewaterdistributionsystemisretained(Smithetal.,2017).
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+3.2 | Scope 3 GHG emissions
+Scope3emissionsdataforChina'swatersupplyarechallengingtoobtainanddonotcontributesignificantlytooverall
+emissionsaccordingtobothbottom-upandtop-downestimations.
+3.2.1 | Evidence from bottom-up estimations
+by
+Northwest
+Wefoundtheonlycity-levelstudyinChinathatincludedScope3greenhousegasemissionsassociatedwithwatersupplywas
+astudycomparingthecarbonfootprintofdifferentwatersupplyinfrastructureoptionsinNingbo(Wu,Mao,&Zeng,2015).
+University,
+Thestudyinvestigatesfourpotentialsitesforawatertreatmentfacility.Allfoursiteswoulduseferrouschemicalsforcoagula-
+tion, and polymer chemicals for sludge dewatering. Three sites would use chlorine disinfection, and the fourth would use
+Wiley
+ozonedisinfection.Scope3emissionsincludedinWuetal.(2015)werethoseassociatedwithchemicalsandfuels.Although
+Online
+Wuetal.(2015)showedthattheincorporationoffuel-relatedScope3emissionsisusefulforassessingtheimpactofaplant's
+Library
+location on overall emissions, other factors were more influential in deciding plant location (e.g., elevation with respect to
+source and consumers). Scope 2 emissions from electricity consumption and Scope 1 emissions from ozone disinfection on
+[25/11/2025].
+(inthecasewherethiswasused)werethemaincontributorstothecarbonfootprintofwatersupplyinfrastructureoptions.
+From a life-cycle perspective, manufacturing and transporting chemicals used in drinking water treatment are
+See
+responsibleforsome greenhouse gas emissions. Itisdifficult tofind empirical data onthis topicinChina inthe litera-
+the
+ture, so a brief review of literature for other countries is provided here. A study by Racoviceanu et al. (2007) on total Terms
+energy use and GHG emissions for a conventional water treatment plant in Toronto found that chemical manufactur- and
+Conditions
+ingandtransportationcontributed8%tototalgreenhouseemissions.Similarly,emissionsrelatedtochemicaluseinthe
+Dutchwatersector(includingbothdrinkingwaterandwastewaterutilities)accountedforlessthan8%ofthetotalcar-
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+bonfootprint(Frijns,2012). However,those studiesdidnot includethechemicalsand othermaterials usedinpipeline
+constructionandmaintenance.StudiesinNorwaysuggestedthatusingpolyurethanetoreplaceepoxyresinasthemate-
+rial used for pipeline rehabilitation can significantly reduce GHG emissions and other environmental impacts
+(Venkatesh&Brattebø,2012;Venkatesh,Brattebø,Sægrov,Behzadian,&Kapelan,2017).
+Another study by Stokes and Horvath (2011) on a conventional water treatment plant estimates 36% of GHG emissions
+canbeattributedtomaterials,ofwhich73%isduetochemicalproduction.Chemicalsusedwereammonia,polymer,caustic
+soda,hydrofluosilicicacid,sodiumhypochlorite,polyaluminumchloride,sodiumbisulfite,andalum.Theycomparedthisplant
+toresultsfromtwootherplants,alsoinCalifornia,forwhichenergyusecontributedamuchgreaterpercenttoGHGemissions
+andconcludedthatthelargecontributionofmaterialproductiontooverallGHGemissions(17%higherthanoneoftheother on
+Wiley
+case study plants) was due to (a) lower energy use by the plant in absolute terms and (b) more comprehensive inclusion of
+costs associated with constructing and maintaining the system. The same authors found in a previous study (Stokes & Online
+Horvath,2009)onalternativewatersources—importedwater,desalination,andrecycledwater—thatchemicalsaccountedfor Library
+4–18%oftotalenergyconsumption,andthecontributiontoGHGemissionswassimilar.Sodiumhydroxideandsodiumhypo-
+for
+chloritewerethebiggestcontributorstoenergyconsumption.Transportofchemicalsaccountedfor1%orless. rules
+of
+Thecontributionofchemicalsandmaterialstolife-cycleGHGemissionsforthewatersectordependsontechnology use;
+andtreatmentrequirements,studyscope,andgeographicandsocialfactors(Venkatesh,Chan,&Brattebø,2014).Based OA
+articles
+on current evidence, we conclude that Scope 2 emissions from electricity use account for the majority of GHG emis-
+are
+sionsfromChina'sdrinkingwatersystem.
+governed
+by
+the
+3.2.2 | Evidence from top-down estimations applicable
+Creative
+Top-down estimations of Scope 3 GHG emissions associated with the urban water supply system can be significant.
+Some upstream activities outside direct suppliers of water utilities are difficult to capture through a bottom-up Commons
+License
+
+--- Page 10 ---
+20491948,
+10of24 ZHANGETAL.
+2021,
+approach.Usingenvironmentallyextendedinput–outputmodels,Zhangetal.(2017)revealthatScope3emissionscon-
+4,
+Downloaded
+tribute up to 17% of total carbon dioxide emissions associated with the operation and maintenance of water utilities,
+mainly from upstream electricity and heat generation (21%), water management (9%), manufacture of metal products
+from
+(15%) and plastics (6%), and other chemical inputs (4%). Emissions from cement and lime production (27%) and steel
+https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1529
+rolling (22%) are the primary sources of Scope 3 emissions for the construction of urban water infrastructure ( Zhang
+et al., 2017). The dataset they used was the Chinese 2007 Input–Output Table with 135 industrial sectors, which pro-
+vided China's most detailed sector information at that time. Similar insights can be found in a series of studies on the
+water–energy nexus at the city level (Fang & Chen, 2017; Gao et al., 2019; Li et al., 2019). For example, Beijing's con-
+structionsectorwasfoundtobeahigh-intensivenodeforembodiedwaterandcarbon(Mengetal.,2019).Mining,min-
+eral processes, and chemical manufacturing are the key sectors for the water–energy nexus in China (Fan, Kong,
+Zhang,&Wang,2019).
+4 | WASTEWATER TREATMENT SYSTEMS
+by
+Northwest
+Wastewater treatment is one of the major sectors of GHG emissions under the Intergovernmental Panel on Climate
+University,
+Change (IPCC) guideline (Kampschreur, Temmink, Kleerebezem, Jetten, & van Loosdrecht, 2009; Mannina
+et al., 2018). Increasing concerns have been raised about the generation ofGHGs from the rapid expansion of WWTPs
+Wiley
+in China (Zhao et al., 2019), where the volume of treated municipal wastewater increased 10 times between 2001 and
+Online
+2014 (China Urban Water Association, 2015). Three main GHGs can be generated due to wastewater treatment.These
+Library
+include CH and N O released in the sewer systems, generated in wastewater treatment plants, and discharged into
+4 2
+receivingwaterbodies(Scope1emissions),andCO andotherGHGemissionsgeneratedthroughenergyandmaterials on
+2 [25/11/2025].
+consumption(Scope2and3emissions).
+See
+the
+4.1 | Scope 1 GHG emissions from wastewater treatment systems Terms
+and
+Conditions
+This section presents various sources of direct CH and N O emissions from wastewater treatment systems, including
+4 2
+sewersystems,urbanWWTPs,sludgetreatment/disposal,andreceivingwaterbodies.
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+4.1.1 | Nitrous oxide emissions from WWTPs
+Nitrousoxide(N O)isproducedinWWTPsduringnitrogenremovalprocesses,includingbothnitrificationanddenitri-
+2
+fication reactions. In wastewater treatment processes, N O is emitted predominantly in aerated zones (Kampschreur
+2
+et al., 2009). Globally, N O emissions from wastewater treatment were estimated to increase by 13% during the period
+2
+2005–2020 (Law et al., 2012). In China, the latest national GHG report showed that N O emissions from wastewater
+2
+treatment were 110 gigagrams (Gg)in2014,amounting to5.6% ofnational N 2 Oemissions(National Developmentand on
+Wiley
+ReformCommission,2018).MeasuringonsiteN Oemissionsfromfull-scaleWWTPsiscomplicatedandlacksstandard-
+2
+izedmethods(Lawetal.,2012).Forexample,real-timeN Oemissionsatfull-scaletreatmentplantshavebeenfoundto Online
+2
+varybetween0and14%ofincomingN(Kampschreuretal.,2009). Library
+Several case studies reported onsite monitoring of N O emissions in WWTPs. A case study in Beijing's WWTPs
+2 for
+found that N O was the largest source of GHG among all GHG emissions (CH , N O, and indirect emissions of CO ), rules
+2 4 2 2
+of
+accounting for 43.5 and 55.6% of total GHG emissions in anoxic/oxic (A/O) and sequencing batch reactor (SBR) use;
+WWTPs, respectively (Bao, Sun, & Sun, 2016). Table 3 shows several monitoring results of N O emission factors from OA
+2 articles
+onsite measurement for the most popular treatment processes in China. In this table, SBR shows the highest emission
+are
+factor,followedbyoxidationditch,anoxic/anaerobic/oxic(A O),andA/O.Wefoundthattheemissionfactorsfallinto
+2 governed
+a similar order of magnitude when compared with the results derived from several other countries. These studies pro-
+videdvaluableinformationonN OemissionsfromWWTPsbutwerebasedonlimitedsamplesizes.Morelab-scaleand by
+2 the
+full-scale investigations are needed to increase understanding of N O emissions and reduction potential for different applicable
+2
+treatmentprocesses.
+Creative
+Lowdissolvedoxygen(DO)concentration,increasednitriteconcentrationsduringbothnitrificationanddenitrifica-
+tion stages, a low COD/N ratio in the denitrification stage, as well as low pH levels were found to be the main factors Commons
+License

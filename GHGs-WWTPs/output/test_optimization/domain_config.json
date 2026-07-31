@@ -1,0 +1,499 @@
+{
+  "name": "高分辨率质谱非靶向筛查",
+  "description": "HRMS-NTS技术在环境分析中的应用研究",
+  "keywords": [
+    "high resolution mass spectrometry",
+    "HRMS",
+    "non-target screening",
+    "NTS",
+    "suspect screening",
+    "target analysis",
+    "Orbitrap",
+    "QTOF",
+    "TOF",
+    "FT-ICR",
+    "LC-HRMS",
+    "GC-HRMS",
+    "emerging contaminants",
+    "new pollutants",
+    "unknown compounds",
+    "compound identification",
+    "mass spectrometry",
+    "environmental analysis",
+    "water analysis",
+    "wastewater",
+    "surface water",
+    "groundwater",
+    "drinking water",
+    "soil",
+    "sediment",
+    "PFAS",
+    "pharmaceuticals",
+    "personal care products",
+    "pesticides",
+    "endocrine disruptors",
+    "flame retardants",
+    "industrial chemicals",
+    "Schymanski",
+    "confidence level",
+    "mass spectrometry database",
+    "Compound Discoverer",
+    "MS-DIAL",
+    "MZmine",
+    "XCMS",
+    "MassBank",
+    "mzCloud",
+    "NORMAN SusDat",
+    "EPA CompTox",
+    "PubChem"
+  ],
+  "method_categories": {
+    "screening_strategy": {
+      "name": "筛查策略",
+      "methods": {
+        "target analysis": {
+          "keywords": [
+            "target analysis",
+            "targeted analysis",
+            "target screening",
+            "targeted screening"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|employed).*?(?:target analysis|targeted analysis|target screening|targeted screening)",
+            "(?:target|targeted)\\s+(?:analysis|screening|method|approach)"
+          ]
+        },
+        "suspect screening": {
+          "keywords": [
+            "suspect screening",
+            "suspect analysis",
+            "suspected screening",
+            "suspect list"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|employed).*?(?:suspect screening|suspect analysis|suspected screening)",
+            "(?:suspect|suspected)\\s+(?:screening|analysis|list|approach)"
+          ]
+        },
+        "non-target screening": {
+          "keywords": [
+            "non-target screening",
+            "non-targeted screening",
+            "non-target analysis",
+            "non-targeted analysis",
+            "NTS",
+            "untargeted screening",
+            "untargeted analysis"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|employed).*?(?:non-target|non-targeted|untargeted)\\s+(?:screening|analysis)",
+            "(?:non-target|non-targeted|untargeted)\\s+(?:screening|analysis|approach|method)"
+          ]
+        },
+        "combined strategy": {
+          "keywords": [
+            "combined strategy",
+            "multi-strategy",
+            "integrated approach",
+            "comprehensive screening"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|employed).*?(?:combined|multi|integrated|comprehensive)\\s+(?:strategy|approach|screening)"
+          ]
+        }
+      }
+    },
+    "analysis_platform": {
+      "name": "分析平台",
+      "methods": {
+        "Orbitrap": {
+          "keywords": [
+            "Orbitrap",
+            "Q Exactive",
+            "Exploris",
+            "Velos"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|equipped with|based on|employed).*?(?:Orbitrap|Q Exactive|Exploris|Velos)",
+            "(?:Orbitrap|Q Exactive|Exploris|Velos).*?(?:mass spectrometer|HRMS|MS)"
+          ]
+        },
+        "QTOF": {
+          "keywords": [
+            "QTOF",
+            "quadrupole time-of-flight",
+            "Q-TOF",
+            "TripleTOF",
+            "maXis",
+            "Impact"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|equipped with|based on|employed).*?(?:QTOF|Q-TOF|quadrupole time-of-flight|TripleTOF|maXis|Impact)",
+            "(?:QTOF|Q-TOF|TripleTOF|maXis|Impact).*?(?:mass spectrometer|HRMS|MS)"
+          ]
+        },
+        "TOF": {
+          "keywords": [
+            "time-of-flight",
+            "TOF",
+            "TOFMS"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|equipped with|based on|employed).*?(?:time-of-flight|TOF|TOFMS)",
+            "(?:time-of-flight|TOF|TOFMS).*?(?:mass spectrometer|HRMS|MS)"
+          ]
+        },
+        "FT-ICR": {
+          "keywords": [
+            "FT-ICR",
+            "Fourier transform ion cyclotron resonance",
+            "FTMS"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|equipped with|based on|employed).*?(?:FT-ICR|Fourier transform ion cyclotron resonance|FTMS)",
+            "(?:FT-ICR|Fourier transform ion cyclotron resonance|FTMS).*?(?:mass spectrometer|HRMS|MS)"
+          ]
+        },
+        "LC-HRMS": {
+          "keywords": [
+            "LC-HRMS",
+            "LC/HRMS",
+            "LC-MS",
+            "liquid chromatography",
+            "UPLC",
+            "HPLC"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|coupled with|interfaced with|combined with).*?(?:LC-HRMS|LC/HRMS|LC-MS|liquid chromatography|UPLC|HPLC)",
+            "(?:LC-HRMS|LC/HRMS|LC-MS|UPLC|HPLC).*?(?:mass spectrometry|HRMS|MS)"
+          ]
+        },
+        "GC-HRMS": {
+          "keywords": [
+            "GC-HRMS",
+            "GC/HRMS",
+            "GC-MS",
+            "gas chromatography"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|coupled with|interfaced with|combined with).*?(?:GC-HRMS|GC/HRMS|GC-MS|gas chromatography)",
+            "(?:GC-HRMS|GC/HRMS|GC-MS|gas chromatography).*?(?:mass spectrometry|HRMS|MS)"
+          ]
+        }
+      }
+    },
+    "sample_type": {
+      "name": "样品类型",
+      "methods": {
+        "surface water": {
+          "keywords": [
+            "surface water",
+            "river water",
+            "lake water",
+            "reservoir water"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:surface water|river water|lake water|reservoir water)",
+            "(?:surface water|river water|lake water|reservoir water).*?(?:samples?|analysis|monitoring)"
+          ]
+        },
+        "groundwater": {
+          "keywords": [
+            "groundwater",
+            "well water",
+            "aquifer"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:groundwater|well water|aquifer)",
+            "(?:groundwater|well water|aquifer).*?(?:samples?|analysis|monitoring)"
+          ]
+        },
+        "drinking water": {
+          "keywords": [
+            "drinking water",
+            "tap water",
+            "potable water"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:drinking water|tap water|potable water)",
+            "(?:drinking water|tap water|potable water).*?(?:samples?|analysis|monitoring)"
+          ]
+        },
+        "wastewater": {
+          "keywords": [
+            "wastewater",
+            "sewage",
+            "effluent",
+            "influent",
+            "WWTP"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:wastewater|sewage|effluent|influent|WWTP)",
+            "(?:wastewater|sewage|effluent|influent|WWTP).*?(?:samples?|analysis|monitoring|treatment)"
+          ]
+        },
+        "soil": {
+          "keywords": [
+            "soil",
+            "sediment",
+            "soil sample"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:soil|sediment)",
+            "(?:soil|sediment).*?(?:samples?|analysis|monitoring)"
+          ]
+        },
+        "biota": {
+          "keywords": [
+            "biota",
+            "biological sample",
+            "fish",
+            "tissue",
+            "organism"
+          ],
+          "usage_patterns": [
+            "(?:was|were|collected|sampled|obtained|analyzed).*?(?:biota|biological sample|fish|tissue|organism)",
+            "(?:biota|biological sample|fish|tissue|organism).*?(?:samples?|analysis|monitoring)"
+          ]
+        }
+      }
+    },
+    "data_processing": {
+      "name": "数据处理",
+      "methods": {
+        "Compound Discoverer": {
+          "keywords": [
+            "Compound Discoverer",
+            "CD"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|processed with|analyzed with|processed by).*?(?:Compound Discoverer|CD)",
+            "(?:Compound Discoverer|CD).*?(?:software|processing|analysis)"
+          ]
+        },
+        "MS-DIAL": {
+          "keywords": [
+            "MS-DIAL",
+            "MSDIAL"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|processed with|analyzed with|processed by).*?(?:MS-DIAL|MSDIAL)",
+            "(?:MS-DIAL|MSDIAL).*?(?:software|processing|analysis)"
+          ]
+        },
+        "MZmine": {
+          "keywords": [
+            "MZmine",
+            "MZmine2",
+            "MZmine3"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|processed with|analyzed with|processed by).*?(?:MZmine|MZmine2|MZmine3)",
+            "(?:MZmine|MZmine2|MZmine3).*?(?:software|processing|analysis)"
+          ]
+        },
+        "XCMS": {
+          "keywords": [
+            "XCMS",
+            "XCMS Online",
+            "xcms"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|processed with|analyzed with|processed by).*?(?:XCMS|XCMS Online)",
+            "(?:XCMS|XCMS Online).*?(?:software|processing|analysis)"
+          ]
+        },
+        "MassBank": {
+          "keywords": [
+            "MassBank",
+            "MassBank of North America",
+            "MoNA"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|searched|queried|matched).*?(?:MassBank|MassBank of North America|MoNA)",
+            "(?:MassBank|MassBank of North America|MoNA).*?(?:database|library|spectral)"
+          ]
+        },
+        "mzCloud": {
+          "keywords": [
+            "mzCloud"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|searched|queried|matched).*?mzCloud",
+            "mzCloud.*?(?:database|library|spectral)"
+          ]
+        },
+        "NORMAN SusDat": {
+          "keywords": [
+            "NORMAN SusDat",
+            "NORMAN",
+            "SusDat"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|searched|queried|matched).*?(?:NORMAN SusDat|NORMAN|SusDat)",
+            "(?:NORMAN SusDat|NORMAN|SusDat).*?(?:database|list|suspect)"
+          ]
+        },
+        "EPA CompTox": {
+          "keywords": [
+            "EPA CompTox",
+            "CompTox",
+            "Chemistry Dashboard"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|searched|queried|matched).*?(?:EPA CompTox|CompTox|Chemistry Dashboard)",
+            "(?:EPA CompTox|CompTox|Chemistry Dashboard).*?(?:database|dashboard)"
+          ]
+        },
+        "PubChem": {
+          "keywords": [
+            "PubChem"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|searched|queried|matched).*?PubChem",
+            "PubChem.*?(?:database|library)"
+          ]
+        }
+      }
+    },
+    "pollutant_type": {
+      "name": "污染物类型",
+      "methods": {
+        "PFAS": {
+          "keywords": [
+            "PFAS",
+            "per- and polyfluoroalkyl",
+            "perfluoroalkyl",
+            "polyfluoroalkyl",
+            "PFOA",
+            "PFOS"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:PFAS|per- and polyfluoroalkyl|perfluoroalkyl|polyfluoroalkyl)",
+            "(?:PFAS|per- and polyfluoroalkyl|perfluoroalkyl|polyfluoroalkyl).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        },
+        "pharmaceuticals": {
+          "keywords": [
+            "pharmaceutical",
+            "drug",
+            "medication",
+            "pharmaceuticals",
+            "PPCPs",
+            "personal care products"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:pharmaceutical|drug|medication|PPCPs|personal care product)",
+            "(?:pharmaceutical|drug|medication|PPCPs|personal care product).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        },
+        "pesticides": {
+          "keywords": [
+            "pesticide",
+            "herbicide",
+            "insecticide",
+            "fungicide"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:pesticide|herbicide|insecticide|fungicide)",
+            "(?:pesticide|herbicide|insecticide|fungicide).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        },
+        "endocrine disruptors": {
+          "keywords": [
+            "endocrine disruptor",
+            "EDC",
+            "endocrine disrupting"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:endocrine disruptor|EDC|endocrine disrupting)",
+            "(?:endocrine disruptor|EDC|endocrine disrupting).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        },
+        "flame retardants": {
+          "keywords": [
+            "flame retardant",
+            "brominated flame retardant",
+            "BFR",
+            "organophosphate flame retardant",
+            "OPFR"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:flame retardant|brominated flame retardant|BFR|organophosphate flame retardant|OPFR)",
+            "(?:flame retardant|brominated flame retardant|BFR|organophosphate flame retardant|OPFR).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        },
+        "industrial chemicals": {
+          "keywords": [
+            "industrial chemical",
+            "industrial additive",
+            "plasticizer",
+            "surfactant"
+          ],
+          "usage_patterns": [
+            "(?:was|were|identified|detected|found|screened).*?(?:industrial chemical|industrial additive|plasticizer|surfactant)",
+            "(?:industrial chemical|industrial additive|plasticizer|surfactant).*?(?:compounds|substances|chemicals|contaminants)"
+          ]
+        }
+      }
+    },
+    "identification_level": {
+      "name": "鉴定等级",
+      "methods": {
+        "Schymanski Level 1": {
+          "keywords": [
+            "Level 1",
+            "confirmed structure",
+            "reference standard"
+          ],
+          "usage_patterns": [
+            "(?:Level|level)\\s*1.*?(?:confirmed|reference standard|MS/MS)",
+            "(?:confirmed|reference standard).*?(?:Level|level)\\s*1"
+          ]
+        },
+        "Schymanski Level 2": {
+          "keywords": [
+            "Level 2",
+            "probable structure",
+            "library match"
+          ],
+          "usage_patterns": [
+            "(?:Level|level)\\s*2.*?(?:probable|library match|spectral match)",
+            "(?:probable|library match|spectral match).*?(?:Level|level)\\s*2"
+          ]
+        },
+        "Schymanski Level 3": {
+          "keywords": [
+            "Level 3",
+            "tentative candidate",
+            "class level"
+          ],
+          "usage_patterns": [
+            "(?:Level|level)\\s*3.*?(?:tentative|class level|compound class)",
+            "(?:tentative|class level|compound class).*?(?:Level|level)\\s*3"
+          ]
+        },
+        "Schymanski Level 4": {
+          "keywords": [
+            "Level 4",
+            "unequivocal molecular formula"
+          ],
+          "usage_patterns": [
+            "(?:Level|level)\\s*4.*?(?:unequivocal|molecular formula)",
+            "(?:unequivocal|molecular formula).*?(?:Level|level)\\s*4"
+          ]
+        },
+        "Schymanski Level 5": {
+          "keywords": [
+            "Level 5",
+            "exact mass"
+          ],
+          "usage_patterns": [
+            "(?:Level|level)\\s*5.*?(?:exact mass|mass only)",
+            "(?:exact mass|mass only).*?(?:Level|level)\\s*5"
+          ]
+        }
+      }
+    }
+  }
+}

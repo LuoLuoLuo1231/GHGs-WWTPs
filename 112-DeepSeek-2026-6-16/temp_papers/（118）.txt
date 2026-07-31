@@ -1,0 +1,506 @@
+--- Page 1 ---
+Environmental Research 292 (2026) 123663
+Contents lists available at ScienceDirect
+Environmental Research
+journal homepage: www.elsevier.com/locate/envres
+Quantifying the spatiotemporal characteristics and driving mechanisms of
+greenhouse gas emissions from the wastewater treatment sectors in
+Chinese cities
+Xiaona Wanga, Yueming Gaoa,b,c,* , Nana Zhaod,**
+aSchool of Energy and Environmental Engineering, University of Science and Technology Beijing, Beijing, 100083, China
+bState Environmental Protection Key Laboratory of Environmental Planning and Policy Simulation, Chinese Academy of Environmental Planning, Beijing, 100041, China
+cCenter for Rural Environmental Protection, Chinese Academy of Environmental Planning, Beijing, 100041, China
+dSolids Waste and Chemicals Management Center, Ministry of Ecology and Environment, Beijing, 100029, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: The urban wastewater treatment sector in China is a significant source of greenhouse gas (GHG) emissions, yet
+Wastewater treatment sectors city-level differentiated emission reduction pathways are still lacking. We quantified GHG emissions of the
+Greenhouse gas emissions municipal wastewater treatment sector in 347 Chinese cities from 2010 to 2019 based on plant-level activity
+Decoupling index
+data, and applied Tapio decoupling analysis and LMDI decomposition to identify the key drivers and spatio-
+Driving factors
+temporal patterns. Results indicated a total emission increase of 89 %, reaching 23.8 Mt CO2e, with electricity-
+Urban heterogeneity
+related indirect emissions rising from 46 % to 53 %. While the national average emission intensity decreased by
+14 %, inter-city differences were as high as an order of magnitude. Only 5 % of cities achieved true decoupling,
+while over 90 % experienced negative decoupling, primarily due to a 27 % increase in per capita wastewater
+volume. Reducing electricity intensity and per capita wastewater volume are essential strategies, although
+population growth had offset 64 % of emission reductions. Megacities should prioritize renewable energy and
+energy recovery, while northern cities with high emission intensity should optimize influent concentration.
+Water conservation and demand management are crucial for cities facing strong negative decoupling. The
+research framework can be extended to the study of differentiated emission reduction paths in other infra-
+structure fields.
+1. Introduction nitrification-denitrification; and carbon dioxide (CO2) is indirectly
+emitted through electricity consumption (Paritosh et al., 2025). In light
+The wastewater treatment sector in China contributes significantly to of China's “dual carbon” goals and the initiative for a beautiful China,
+greenhouse gas (GHG) emissions (Guo et al., 2024; Ma et al., 2023), quantifying GHG emissions and understanding their spatiotemporal
+accounting for approximately 1.6 % of the national total (He et al., 2023; distribution and driving mechanisms in the municipal wastewater
+Paritosh et al., 2025). As urbanization has intensified, its role in water treatment sector is crucial for developing effective low-carbon transition
+environment protection and pollution control has become increasingly pathways and differentiated urban policies (Cai et al., 2021).
+vital. Statistics indicate that the volume of wastewater discharged in Previous studies on GHG emissions in wastewater treatment have
+China has more than doubled, increasing from 31.2 billion cubic meters yielded significant findings regarding emission factors, inventories, and
+in 2010 to 65.2 billion cubic meters in 2023. While effectively reducing process optimization (Hua et al., 2022a; Huang et al., 2023; Wang et al.,
+pollutants like chemical oxygen demand (COD) and total nitrogen (TN), 2022). For example, Du et al. reported a 2.43-fold increase in waste-
+wastewater treatment processes also emit substantial amounts of GHGs water treatment volume from 2009 to 2019, accompanied by a 17.2 %
+(Yu et al., 2024a). Methane (CH4) is produced under anaerobic or anoxic rise in GHG emission intensity, with indirect emissions from electricity
+conditions; nitrous oxide (N2O) is generated during consumption constituting 81.5 % of this increase (Du et al., 2023). GHG
+* Corresponding author. State Environmental Protection Key Laboratory of Environmental Planning and Policy Simulation, Chinese Academy of Environmental
+Planning, Beijing, 100041, China
+** Corresponding author. Solids Waste and Chemicals Management Center, Ministry of Ecology and Environment, Beijing, 100029, China
+E-mail addresses: gaoym@caep.org.cn(Y. Gao), zhaonana@meescc.cn(N. Zhao).
+https://doi.org/10.1016/j.envres.2025.123663
+Received 16 October 2025; Received in revised form 28 December 2025; Accepted 30 December 2025
+Available online 30 December 2025
+0013-9351/© 2026 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+emission intensity in coastal provinces in this period ranged from 320.5 2. Models and data sources
+to 676.6 g/m3, correlating positively with urbanization, exhibiting an
+annual average growth rate of approximately 12.3 g/m3 (Yu et al., 2.1. Emission accounting
+2024a). Moreover, the Gini coefficient for emissions rose from 0.20 in
+2009 to 0.29 in 2019, signaling a growing disparity in the distribution of This study employs a bottom-up approach based on IPCC guidelines
+emissions (Huang et al., 2023). Additionally, the advocacy for a (IPCC, 2021) and National Technical Guidelines (Ministry of Ecology
+multi-level emission factor system (MEF) based on data from 3107 and Environment of the People’s Republic of China, 2024) to estimate
+wastewater treatment plants (WWTPs) has led to the establishment of a GHG emissions from China's municipal wastewater treatment sector,
+framework for regional and technological GHG emission factors (Hua encompassing both direct and indirect emissions (Lundquist, 2021).
+et al., 2022a). Additionally, some studies have also identified pathways Direct emissions consist of CH4 and N2O released during wastewater
+for emission reductions through improved efficiency in electricity and treatment, discharge, and sludge disposal. Indirect emissions primarily
+chemical usage (Chen et al., 2025; Liao et al., 2020). stem from CO2 generated through electricity consumption (Yang et al.,
+The relationship between population changes and GHG emissions is 2023; Yu et al., 2024a). Fig. 1illustrates the GHG emission processes in
+a key indicator of environmental sustainability (Gudipudi et al., 2016). the wastewater treatment sector, and the specific calculation formulas
+The Tapio decoupling model, which assesses the interplay between are as follows:
+economic, population, and environmental pressures, has been applied
+C=Cdirect+Cindirect=CProecss+CEffluent+CSludge+CElectricity (1)
+extensively in energy consumption and air pollution studies (Liu et al.,
+2022; Wu et al., 2023; Yang et al., 2022; Zheng et al., 2024), yet its
+where C represents the GHG emissions from the wastewater treatment
+application to GHG emissions in wastewater treatment remains limited.
+sector, Cdirect and Cindirect denote the direct and indirect emissions, CPro-
+Given that wastewater discharge correlates with population size,
+cess, CEffluent, Csludge, and CElectricity are the emissions from the process,
+changes in population not only influence wastewater generation but also
+effluent, sludge, and electricity stages.
+affect the scale of treatment, operational loads, and energy consump- (cid:0) )
+tion, thus impacting GHG emissions (Yu et al., 2024a). A systematic Cdirect= ECH4+FCH4+SCH4 ×GWPCH4+(EN2O+FN2O+SN2O)×GWPN2O
+analysis of the coupling between GHG emissions in municipal waste- (2)
+water treatment and population changes can reveal pathways for
+low-carbon transitions. where ECH4, FCH4, and SCH4 represent CH4 emissions from the process,
+Despite extensive research in emission accounting and driving force effluent, and sludge, respectively. EN2O, FN2O, and SN2O represent N2O
+analysis, significant gaps remain (Xiao et al., 2024). First, most studies emissions from the process, effluent, and sludge, respectively. GWP is
+have concentrated on national totals or select cities, which has limited the global warming potential of CH4 and N2O, with values of 28 and 265,
+comprehensive and comparable city-level analyses and obscured respectively.
+regional and urban heterogeneity (Xi et al., 2021; Yan et al., 2014). Process-related CH4 and N2O emissions are calculated as:
+S sye sc to en md a, tw ich ail se ee sm smis es nio tn s a n thd t r re ea latm tioe nn st e if pfi bci ee tn wc ey nh a ev me ib sse ie on se x aa nm i pn oe pd -, ECH4,i=(CODremoved(cid:0) Sm)×EFi(cid:0) R (3)
+s s o f e h e n d
+u thla et pio rn s ii cz te o nr u r eb ma in sd ioe nv e tl ro ep nm dse wnt ti hn pd oic pa uto lar ts oa nr e rs oc war tc he ., c ho im rdp l dic ra ivt ii nn gg Sm=SG×M×ρ (4)
+ed io o f s i i g T , s
+f ao dr dc re sa sn ta hly es ie ns l ia vc idk a lc cla os ns ti rfi ibca ut ti io on ss t or fa t ee mg iy s; ie ox nis ft ain cg rs stu wdi ie ths op ur ti m dia ffr eil ry EN2O,i=(TNremoved(cid:0) Sn)×EFi (5)
+e d u a n s to -
+entiated analysis, hindering the formulation of targeted emission where ECH4,i and EN2O,i denote CH4 and N2O emissions from treatment
+reduction policies for cities. process i; CODremoved and TNremoved represent the amounts of COD and
+To address these gaps, this study develops a comprehensive analyt- TN removed; Sm denotes the organic matter removed in sludge
+ical framework to examine the spatiotemporal characteristics, popula- (expressed as COD); SG is the mass of dry sludge generated; M is the
+tion coupling relationships, and driving mechanisms of GHG emissions fraction of organic matter in dry sludge; ρ s is the conversion factor be-
+in municipal wastewater treatment sector. We first construct a city-level tween sludge organic matter and COD, taken as 1.42 t COD per t dry
+GHG emission inventory based on operational data from municipal sludge according to the Technical Specification for Low-Carbon Operation
+wastewater treatment plants nationwide, covering total emissions, Evaluation of Wastewater Treatment Plants; Sn represents the nitrogen
+emission intensity, and per capita emissions. This analysis uncovers removed via sludge, with a recommended default value of 0; EFi is the
+emission disparities and spatiotemporal evolution trends across cities of CH4 or N2O emission factor associated with process type i; and R denotes
+varying sizes and regions. Next, we employ the Tapio decoupling model the recovered CH4. Detailed values are listed in Table S1 of the Sup-
+to assess the relationship between GHG emissions and population porting Information.
+changes in different cities. This identifies city types exhibiting positive, Effluent-related CH4 and N2O emissions are computed as:
+weak, and negative decoupling at various developmental stages, along
+with their characteristic variations. Finally, we utilize the logarithmic FCH4,j=CODout×EFout,j (6)
+mean Divisia index (LMDI) decomposition method to analyze emission
+FN2O,j=TNout×EFout,j (7)
+changes and decoupling index variations, focusing on factors such as
+emission structure, emission intensity, per capita wastewater treatment
+where FCH4,j and FN2O,j represent emissions corresponding to receiving
+volume, and population size. This approach highlights key drivers and
+water body type j; CODout and TNout are the discharged COD and TN
+constraints for emission reduction across city types and informs targeted
+loads; and EFout,j denotes the CH4 or N2O emission factor for receiving
+regional emission reduction policy recommendations. The findings
+water type j (Table S2).
+enhance the low-carbon transition of China's wastewater treatment
+Sludge-related CH4 and N2O emissions are estimated as:
+sector in line with nationally determined contribution goals and provide
+a methodological framework for studying GHG emissions and popula- SCH4,k=Ms×EFs,k (8)
+tion relationships in other infrastructure sectors.
+SN2O,k=Ms×EFs,k (9)
+where SCH4,k and SN2O,k denote emissions associated with sludge treat-
+ment pathway k; Ms is the mass of dry sludge; and EFs,k represents the
+2
+
+--- Page 3 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+Fig. 1. Classification of decoupled states after merging.
+CH4 or N2O emission factor for sludge treatment type k (Table S3). ΔC/ (cid:0) C0)/
+C0 Ct(cid:0) C0
+estiI mn ad ti ere dc at sC O2 emissions associated with electricity consumption are DITapio= ΔP/ P0=(cid:0) P0)/ (11)
+: Pt(cid:0) P0
+Cindirect=EC× EFelectricity (10) where DITanio is the decoupling index, and ΔC and ΔP are the GHG
+emissions and population changes from the base year 0 to the target year
+where EC denotes the electricity consumption of each wastewater
+t, respectively.
+treatment plant, and EFelectricity is the regional CO2 emission factor for
+This study defines 2010 as the base year and 2019 as the target year
+electricity generation (Table S4). Due to the lack of data on chemical
+to mitigate the impact of changing the environmental statistics defini-
+usage and other auxiliary inputs, indirect emissions considered in this
+tions and the pandemic on the results. An elasticity value between 0.8
+study include only electricity-related CO2 emissions, which are widely
+and 1.2 is interpreted as approximately proportional coupling between
+recognized as the dominant contributor to indirect emissions in waste-
+emissions and population, allowing for typical fluctuations observed in
+water treatment facilities.
+socioeconomic datasets. Using the decoupling index and population
+changes, cities are classified into five categories: strong decoupling,
+2.2. Decoupling model weak decoupling, coupling, weak negative decoupling, and strong
+negative decoupling, as depicted in Fig. 1.
+The decoupling model, initially proposed by the OECD, has been
+widely utilized but faces limitations such as sensitivity to base year se-
+lection, unstable results, and imprecise decoupling state descriptions. To 2.3. Decomposition analysis
+overcome these issues, Tapio introduced the Tapio decoupling model,
+which employs an elasticity coefficient to categorize the decoupling Decomposition analysis (DA) quantifies the contributions of socio-
+states into eight distinct categories based on the rates of change along economic factors to changes in environmental pressures (Xing et al.,
+the horizontal and vertical axes, as well as the elasticity coefficient's 2020). The primary methods are index decomposition analysis (IDA)
+magnitude (Tapio, 2005). This approach mitigates the influence of the and structural decomposition analysis (SDA) (Hang et al., 2019). IDA is
+base year selection, enhancing the model's applicability in assessing the preferable for data with extensive time-series and categorical detail and
+interaction between economic (population) and environmental factors. can be applied at various aggregation levels (Ang et al., 2015; Mohm-
+To investigate the decoupling relationship between GHG emissions med et al., 2019). LMDI is particularly favored due to its robust theo-
+and population size in China's municipal wastewater treatment sector, retical foundation, adaptability, and absence of residuals (Guan et al.,
+following the Tapio decoupling method, the decoupling index is defined 2018; Jeong and Kim, 2013). Four types of driving factors are used to
+as the ratio of the emissions growth rate to the population growth rate. explain changes: emission structure (including process, effluent, sludge,
+The decoupling index is calculated as follows: and electricity components), emission intensity (E), per capita
+3
+
+--- Page 4 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+wastewater treatment (I), and population (P). It is worth noting that the and population, respectively.
+population factor in the LMDI model represents a driver explaining Based on Equation (13), the ΔC is decomposed into seven driving
+changes in emissions, whereas in the Tapio decoupling index it reflects factors. These seven driving factors are then incorporated into Equation
+the socioeconomic pressure against which emission elasticity is evalu- (11), which defines the decoupling index. This substitution allows the
+ated. Because the two methods serve different purposes, using popula- decoupling index to be decomposed into the same set of driving factors.
+tion in both does not lead to double-counting. Additionally, while In this way, the Tapio decoupling framework and the LMDI decompo-
+influent and effluent water quality can directly affect GHG emission sition are linked to form a decoupling-driven decomposition analysis.
+accounting through their influence on pollutant removal, they are not The combined approach identifies the overall decoupling relationship
+introduced as independent decomposition factors in this study. This is and attributes it to specific driving mechanisms.
+b ne oc loa gu yse ow pa et re ar iq ou na al li t cy nin dd iti ic oa nto s,r s na dre ec nl eo rs ge yly ul sin e,k e ad dt o ht ure sa atm ree n nt tt e sc th a- DITapio=DIProecss+DIEffluent+ /DISludge+DIElect/ricity+DIE+DII+DIP
+, t o a n t o -
+=(cid:0)ΔCProecss)/C0 +(cid:0)ΔCEffluen)t/C0
+tistically independent drivers in the LMDI framework. Instead, (14)
+Pt(cid:0) P0/ P0 Pt(cid:0) P0 /P0
+improvements in treatment performance are functionally reflected
++(cid:0)ΔCSludge)/C0 +Δ (cid:0)CElectricit)y/C0
+through changes in emission intensity and emission structure, which
+capture variations in pollutant removal–related emissions and shifts in /Pt(cid:0) P0 P0 / Pt(cid:0) P0 P0 /
+treatment technologies at the city scale. +(cid:0) ΔCE C )/0 +(cid:0) ΔCI C )/0 +(cid:0) ΔCP C )/0
+Improvements in wastewater treatment performance are embedded Pt(cid:0) P0 P0 Pt(cid:0) P0 P0 Pt(cid:0) P0 P0
+in the LMDI framework through the emission intensity and emission
+structure factors. As COD and TN removal efficiencies increase, the
+amount of pollutants removed per unit of treated wastewater changes, 2.4. Data sources
+thereby affecting process-related CH4 and N2O emissions and being
+captured by the emission intensity factor. Upgrading to more advanced The activity-level data used in this study were obtained from the
+treatment technologies also alters the distribution of process types, China Environmental Statistical Database, which provides detailed infor-
+which is reflected in the emission structure factor. In this study, the GHG mation on WWTPs and environmental pollutant emissions. The original
+emissions of municipal wastewater treatment sector are calculated as dataset includes more than 9000 WWTPs in 2019, covering key in-
+follows: dicators such as influent volume, treatment processes, sludge produc-
+∑∑ ∑∑ tion, and electricity consumption.
+Ci,j×C ×M Ci,j×E×I×P
+C= ×P= (12) To ensure data quality and reproducibility, we applied a structured
+C M P C
+i j i j screening process. A total of 7448 WWTPs were retained based on two
+criteria. First, plants were required to provide complete annual opera-
+where C represents the GHG emissions of China's wastewater treatment
+tional data, including influent volume, influent COD and TN concen-
+sector, and Ci,j denotes the cumulative GHG emissions (in CO2 equiva-
+trations, effluent COD and TN concentrations, sludge production, and
+lents) of link i and GHG species j; Step i =1, 2, 3, 4 represents process,
+electricity consumption; records with missing values were excluded.
+effluent, sludge, and electricity; GHG species j =1, 2, and 3 represent
+Second, facilities showing abnormal operational patterns were removed
+CH4, N2O, and CO2, respectively; M is the wastewater treatment ca-
+to prevent unrealistic emission estimates. Such abnormalities include an
+pacity; P is the population size. This study groups the emission stages i
+annual average loading rate below 20 % of design capacity, zero sludge
+into four categories, resulting in a total of 7 driving factors. The specific
+discharge, and inconsistent electricity-use records. The number of
+calculation is as follows:
+WWTPs retained after data screening is reported in Supplementary
+( ) ( )
+∑3 (cid:0) ) Nt ∑3 (cid:0) ) Nt
+ΔC= L wt,w0 ln 1j + L wt,w0 ln 2j
+4 4 N0 4 4 N0
+j ( )1j j ( )2j
++∑3 L(cid:0) wt,w0) Nt +∑3 L(cid:0) wt,w0) Nt
+ln 3j ln 4j (13)
+4 4 N0 4 4 N0
+∑4 ∑3 ( ) j( Et) ∑4 ∑3 3 (j j ) ( It) ∑4 ∑4j 3 ( ) ( Pt)
++ L wt i,j,w0 i,j ln E0 + L wt i,j,w0 i,j ln I0 + L wt i,j,w0 i,j ln P0
+i j i j i j
+=ΔCProecss+ΔCEffluent+ΔCSludge+ΔCElectricity+ΔCE+ΔCI+ΔCP
+( ) ( ) ( ( ) ( )) Table S5.
+where L wt i,j,w0 i,j = Ct i,j(cid:0) C0 i,j / ln Ct i,j (cid:0) ln C0 i,j is a logarithmic The final WWTP dataset was aggregated into 347 cities for spatio-
+temporal, decoupling, and decomposition analyses, supporting the
+average weighting factor; ΔC denotes the change in GHG emissions be-
+development of low-carbon transition policies for the wastewater
+tween two years; Step i =1, 2, 3, 4 represents process, effluent, sludge,
+treatment sector. Population data were obtained from the China City
+and electricity; GHG species j =1, 2, and 3 represent CH4, N2O, and CO2,
+Statistical Yearbook.
+respectively; N0 and Nt represent the shares of emissions attributable to
+each stage in the base year and target year, respectively; E0 and Et denote
+3. Results
+emission intensity in the base and target years; I0 and It represent the per
+capita wastewater treatment volume in the base and target years; and P0
+3.1. GHG emission
+and Pt denote population size in the base and target years. ΔCProcess,
+ΔCEffluent, ΔCSludge, ΔCElectricity, ΔCE, ΔCI, and ΔCP represent the changes
+As shown in Fig. 2a, in 2019, China's WWTPs emitted 23.8 Mt CO2e,
+in GHG emissions attributable to variations in process, effluent, sludge,
+an 89.2 % increase since 2010. Per capita emissions rose from 9.3 kg
+electricity, emission intensity, per capita wastewater treatment volume,
+CO2e in 2010 to 16.9 kg CO2e in 2019, a roughly 80 % increase. The
+4
+
+--- Page 5 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+Fig. 2. GHG emission characteristics of China's wastewater treatment sector from 2010 to 2019. (a) Emission trends; (b) emission structure.
+volume of treated wastewater doubled from 3.0 Gt in 2010 to 6.5 Gt in emissions stabilized around 25 %, indicating persistent challenges in
+2019, driven by rapid urbanization and enhanced wastewater collection controlling the denitrification byproducts. Overall, the Chinese waste-
+systems. The annual growth rate for the treatment volume was 9.1 %, water treatment sector is transitioning to a more efficient, low-carbon
+outpacing GHG emissions growth at 7.3 % and per capita emissions structure as it scales up, with electricity-related emissions emerging as
+growth at 6.7 %. Despite rising emissions, the emission intensity of the primary source of GHG emissions (Paritosh et al., 2025).
+WWTPs decreased by 13.6 % to 0.37 kg CO2e/m3 in 2019. Additionally, GHG emissions across cities showed significant heterogeneity
+the slowing population growth contributed to a lower annual increase in (Fig. 4a–c), influenced by wastewater treatment scale, population size,
+per capita emissions compared to total GHG emissions, indicating some and urban development. In 2019, the top 10 % of cities by population
+effectiveness in emission control. represented 29.6 % of the national population, 43.8 % of wastewater
+In the emission structure (Fig. 2b), indirect emissions from electricity treatment volume, and 44.0 % of GHG emissions. Conversely, the bot-
+consumption were the largest source of GHG emissions, increasing from tom 10 % accounted for only 2.0 % of the population, 1.6 % of treatment
+46.5 % in 2010 to 52.6 % in 2019. Emissions from the WWTP treatment volume, and 1.9 % of emissions. Over the years, the share of cities
+process remained stable at approximately 35 %. CH4 contributed 15.0 emitting over 300 kt CO2e has risen from 0.3 % in 2010 to 2.2 % in 2015
+%–16.6 %, slightly below the 19.0 %–20.4 % for N2O. Emission intensity and 4.5 % in 2019. In 2019, the emissions from Beijing and Shanghai
+from the discharge process decreased from 0.03 kg CO2e/m3 in 2010 to each surpassed 900 kt CO2e and were approximately three times those
+0.02 in 2019, and that from the sludge process from 0.05 to 0.03 kg from Changsha, the tenth-ranked city, and significantly higher than
+CO2e/m3, indicating a shift towards non-anaerobic aquatic environ- those of numerous western cities.
+ments for wastewater discharge. Landfill disposal of sludge decreased To further illustrate the spatial heterogeneity underlying the emis-
+with increased utilization for land application, construction materials, sions patterns, we produced a map of city-level wastewater treatment
+or incineration. CO2 emissions displayed the highest intensity, all volumes from 2010 to 2019 (Fig. S1). The spatial distribution shows
+resulting from indirect emissions due to electricity use. In 2019, the CH4 substantial differences in wastewater service demand across China, with
+and N2O emission intensities were 0.08 kg CO2e/m3 and 0.09 kg CO2e/ significantly higher treatment volumes in major coastal and metropol-
+m3, representing decreases of 28.6 % and 18.2 %, respectively, since itan regions. Many inland cities also experienced rapid increases in
+2010. The N2O emission intensity per unit of wastewater surpassed that treated volumes during the study period. This spatial variation in
+of CH4 and was the primary non-CO2 GHG source in wastewater treat- treatment scale provides a critical foundation for explaining the
+ment. CO2 emission intensity per unit of wastewater decreased by only observed differences in total emissions and emission intensity across
+2.3 %, likely due to limited adoption of smart aeration and energy- cities. In terms of emission intensity (Fig. 4d–f), the proportion of cities
+saving measures in WWTPs, contributing to relatively high CO2 emis- with low emission intensity (≤0.4 kg CO2e/ton of wastewater) increased
+sions from electricity consumption. from 43.3 % in 2010 to 50.6 % in 2015, reaching 59.6 % in 2019.
+Fig. 3 shows a notable shift in China's wastewater treatment pro- Concurrently, GHG emissions from these cities accounted for 33.4 % in
+cesses. The AAO process increased from 30.1 % in 2010 to 55.0 % in 2010, 37.2 % in 2015, and 36.9 % in 2019, indicating a growing focus on
+2019, becoming the dominant method due to its advantages in nitrogen low-carbon wastewater treatment. However, significant disparities in
+and phosphorus removal, as well as energy efficiency. Conversely, the emission intensity persist among cities. High emission intensity (≥0.6 kg
+AO process declined from 16.5 % to 5.9 %, and similar reductions were CO2e/ton of wastewater) was predominantly observed in regions like
+observed in the OD and SBR processes, indicating their phase-out due to Inner Mongolia and Xinjiang, with the northern cities displaying lower
+higher energy consumption and lower performance. In terms of emis- emission intensities than their southern counterparts. This discrepancy
+sions, CO2 emissions related to electricity consumption rose from 46.5 % is likely due to the lower precipitation in northern cities, leading to
+in 2010 to 52.6 % in 2019, reflecting increased energy demands from higher influent concentrations at treatment facilities and increased uti-
+aeration and pumping. Meanwhile, emissions from sludge and effluent lization of anaerobic processes.
+decreased, with their shares falling from 11.9 % to 7.0 %–7.0 % and 5.9 Regarding the per capita emissions (Fig. 4g–i), the per capita emis-
+%, respectively, highlighting improved sludge treatment and advanced sions in China rose consistently between 2010 and 2019. Karamay
+processes. CH4 emissions decreased from 27.1 % to 22.4 %, suggesting recorded the highest per capita emissions, exceeding 70 kg CO2e. It is
+that enhanced management practices reduced leakage, while N2O primarily explained by the combined effects of a very small permanent
+5
+
+--- Page 6 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+Fig. 3. GHG emission characteristics of wastewater treatment plants with different processes.
+population, which amplifies the per capita indicator, and the city's treatment sector.
+exceptionally high level of economic development. The percentage of
+cities with high per capita emissions (greater than 20 kg CO2e) increased
+3.2. Decoupling characteristics of urban population and GHG emissions
+from 8 % in 2010 to 16 % in 2015, reaching 26 % in 2019. These cities
+are mainly located in economically developed areas and are equipped
+At the national level, GHG emissions and population change in China
+with advanced wastewater treatment infrastructure, which contributes
+demonstrate weak negative decoupling, with a DI of 13.5 from 2010 to
+to higher wastewater collection rates. A more accurate interpretation is
+2019. This trend is intensifying, as the DI was 10.1 from 2010 to 2015
+that cities with high per capita emissions generally also exhibit high
+and 13.9 from 2015 to 2019. This intensification is attributed to a
+levels of economic development, rather than being limited to the eastern population growth of only 2.5 % and 6.2 % during 2010–2015 and
+coastal region. This pattern also applies to Karamay in northwestern 2015–2019, respectively, while emissions increased significantly from
+China, which ranked among the highest nationwide in per capita GDP
+25.3 % to 86.8 %. At the city level, analysis of the decoupling between
+throughout the study period. Additionally, the per capita water con-
+GHG emissions and population in the wastewater treatment sector is
+sumption rose steadily, from an average of 193 L/d in 2010 to 217 L/d in
+underdeveloped, yet critical for effective emission reduction strategies.
+2015 and 225 L/d in 2019. Consequently, water conservation measures
+In this study, the DI was calculated for each city from 2010 to 2019
+have become essential in mitigating GHG emissions from the wastewater
+(Fig. 5).
+6
+
+--- Page 7 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+Fig. 4. Spatial Distribution of GHG Emissions from Municipal Wastewater Treatment Sectors in Chinese Cities. (a–c) Total GHG Emissions. (d–f) Emission Intensity.
+(g–i) Per Capita Emissions. Due to data limitations, the dataset covers 312 cities in 2010, 332 cities in 2015, and 347 cities in 2019.
+Fig. 5. Decoupling index of population change and emissions.
+7
+
+--- Page 8 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+As shown in Fig. 5a, from 2010 to 2019, over 90 % of cities experi- wastewater treatment plants through a multidimensional perspective.
+enced negative decoupling between population change and emissions,
+with 48.7 % showing weak negative decoupling and 44.6 % demon-
+3.3. Emission Driving factors and decoupling index decomposition
+strating strong negative decoupling. Only 5.24 % of cities achieved
+analysis
+effective decoupling, highlighting the urgent need for a transition to a
+low-carbon wastewater treatment sector in Chinese cities. Considering
+the periods 2010–2015 (Figs. 5b) and 2015–2019 (Fig. 5c), it is To further explain the relationship between the population of a city
+and emissions, the LMDI model was applied to analyze the factors
+encouraging to note that the number of cities achieving decoupling
+driving emissions in cities (Xiao et al., 2024), which were categorized
+between population growth and emissions doubled from 9.0 % during
+2010–2015 to 18.6 % during 2015–2019. Only about 2 % of cities into four elements: emission structure, emission intensity, per capita
+wastewater treatment volume, and population. The emission structure
+maintained a strong correlation between population and emissions. The
+was further divided into four components related to GHG emissions in
+decoupling pattern in cities shifted from weak negative to strong nega-
+wastewater treatment: process%, emission%, sludge%, and electricity%.
+tive, with the latter becoming the dominant type. The proportion of
+Next, the decoupling index was disaggregated into its driving factors
+cities with weak negative decoupling decreased from 73.7 % in
+2010–2015 to 30.4 % in 2015–2019, while those with strong negative based on emission drivers. The contribution effects of emission drivers
+(Figs. 6 and 7) and decoupling drivers (Fig. 7) for five types of cities were
+decoupling rose from 15.7 % to 48.1 %. Therefore, promoting the low-
+quantified. Overall, emission intensity and per capita wastewater
+carbon transformation of the wastewater treatment sector at the city
+treatment volume were the main drivers of emission reduction. In
+level is essential.
+contrast, emissions and the decoupling index increased significantly as
+A comparison of the decoupling types in the two periods of
+2010–2015 (Figs. 3b) and 2015–2019 (Fig. 3c) shows that 17.3 % and the population increased.
+In cities with significant decoupling, the primary factors driving
+2.6 % of cities, respectively, transitioned from negative decoupling to
+emission reductions were per capita wastewater treatment volume and
+decoupling or coupling in their wastewater treatment practices, sug-
+emission intensity, contributing (cid:0) 109 % and (cid:0) 54.6 % to the total
+gesting progress in low-carbon transformation. Conversely, 35.3 % of
+change in emissions, respectively. In contrast, emissions increased due
+cities showed no change, and 9.6 % experienced reverse decoupling. For
+to population growth (64.4 % contribution) and the electricity per-
+instance, Beijing's emission intensity increased from 0.56 kg CO2e per
+centage link (58.4 %). However, these cities mitigated emission pres-
+ton of wastewater in 2010 to 0.53 kg in 2015 and then rose to 0.64 kg in
+sures from population growth and electricity consumption by enhancing
+2019. This trend in per capita emissions mirrors the overall trajectory
+wastewater treatment efficiency and reducing emission intensity,
+and is attributed to ongoing enhancements in Beijing's wastewater
+resulting in a 19 % reduction in total emissions. This was achieved
+infrastructure. By 2019, the city's wastewater treatment rate reached 94
+through strategies like wastewater reduction, reuse, and leakage con-
+%, with approximately 2000 km of pipelines built or renovated from
+trol, which decreased the treatment scale and lowered carbon emissions
+2016 to 2019. In addition, emissions increase at a faster rate than
+at the source. Additionally, reductions in emission intensity indicate
+population because population growth is extremely limited, whereas
+advancements in process optimization, energy-efficient equipment, and
+influent pollutant loads and treatment demand remain relatively high.
+clean energy substitution. Thus, both source reduction in per capita
+For instance, Karamay shows a pattern of weak negative decoupling
+during 2015–2019, further illustrating this divergence. This result is wastewater treatment volume and improvements in process and energy
+efficiency were crucial for achieving strong decoupling.
+consistent with the population-dilution effect identified in the per capita
+In contrast, cities with weak decoupling displayed distinct structural
+emission analysis. It also underscores the need to account for population
+differences in their emission reduction dynamics. These cities primarily
+dynamics more explicitly and to strengthen the low-carbon transition of
+relied on a decrease in emission intensity to control carbon emissions,
+Fig. 6. Contribution of Emission Driving Factors for Different Urban Clusters. (a) Strong decoupling cities, (b) Weak decoupling cities, (c) Coupling cities, (d) Weak
+negative decoupling cities, (e) Strong negative decoupling cities.
+8
+
+--- Page 9 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+Fig. 7. Decomposition of Emission Driving and Decoupling Index Driving Factors. (a) Strong decoupling cities, (b) Weak decoupling cities, (c) Coupling cities, (d)
+Weak negative decoupling cities, (e) Strong negative decoupling cities.
+with a contribution rate of (cid:0) 623 %, resulting in a decoupling index by 1.51). This rise is linked to increased wastewater production,
+decrease of 2.13. Their main emission reduction strategies included centralized treatment, and stricter water quality standards. Addition-
+energy saving, process optimization, and energy substitution. In contrast ally, population growth remained a significant factor driving emission
+to cities with strong decoupling, per capita wastewater treatment vol- increases (281 %, decoupling index increased by 0.96), reflecting the
+ume emerged as the key factor driving emission increase in weakly continued demand for wastewater treatment driven by urbanization and
+decoupled cities (contribution rate of 442 %, decoupling index increased increased economic activity. Regarding emission structure, the primary
+9
+
+--- Page 10 ---
+X. Wang et al. E n v i r o n m e n t a l R e s e a r c h 292 (2026) 123663
+emission reduction factor shifted from the electricity sector to sludge system boundaries, emission factors, and methodologies, emission in-
+treatment ((cid:0) 117 %, decoupling index decreased by 0.40). This shift tensity and per-capita emissions remain consistent, reinforcing the
+highlights the growing importance of advancements in sludge disposal reliability of our estimates within the empirically observed range for
+technology, resource utilization, and anaerobic digestion for emission China's wastewater treatment sector.
+reduction. However, the overall reliance on intensity reduction under- Enhancements in treatment quality, including higher pollutant
+mined resilience in decoupling efforts. removal efficiencies driven by stricter discharge standards, are incor-
+In coupled urban clusters, the decrease in emission intensity porated in the decomposition framework. These improvements influ-
+accounted for 39.1 % of total emission change, yet rapid population ence the emission intensity factor through changes in pollutant removal-
+growth (49.8 % increase from 2010 to 2019) and rising per capita related emissions and affect the emission structure factor through shifts
+wastewater treatment volume (27.9 % increase) resulted in a 59.4 % in treatment technologies. As a result, the LMDI analysis reflects both
+total increase in emissions. Improvements in process optimization and the expansion of treatment volume and the functional improvement of
+energy efficiency were inadequate to counter this rise. Notably, the first treatment services. Our results align closely with existing evidence
+five years saw total emission change contributions reaching 82.7 %, showing that emission intensity and per capita wastewater volume are
+indicating that rapid urbanization and enhanced water treatment stan- the dominant drivers of wastewater-related GHG emissions. In China,
+dards primarily drove the changes in the decoupling index. treatment technology is the primary determinant of emission intensity,
+Analysis of weak and strong negative decoupling cities reveals that with anaerobic processes exhibiting substantially higher values, and
+emission growth is primarily driven by increased per capita wastewater low-temperature, low-precipitation northern regions showing higher
+treatment volume, resulting in emission increases of 7.77 Mt CO2e and intensities than southern regions (Chen et al., 2025). From 2006 to
+3.85 Mt CO2e, respectively. This trend is attributed to expanded 2015, urban wastewater emissions rose by 176 %, largely due to a 543 %
+wastewater collection, stricter emission standards, and enhanced increase in WWTPs and a 308 % rise in treated wastewater, while
+centralized treatment levels, all contributing to higher treatment de- population grew by only ~6 %, underscoring the strong influence of per
+mand. Notably, in strong negative decoupling cities, total emissions capita wastewater volume; during this period, emission intensity
+increased despite an 8.4 % population decline over ten years, indicating declined by 61 % (Chen et al., 2023). International evidence further
+that rising per capita treatment volumes overshadowed any reductions supports these patterns: U.S. nutrient removal facilities show high in-
+from decreased population. This highlights the necessity of effective tensity (1.8 kg CO2e/m3) due to aeration energy, with direct CH4/N2O
+water demand management and wastewater reduction measures; dominating, whereas in China indirect electricity emissions prevail (El
+without these, process optimization alone will not reverse the emission Abbadi et al., 2025). Overall, although these two factors are universally
+growth trend. Thus, controlling per capita wastewater treatment volume recognized as key drivers, their relative contributions vary with regional
+and advancing low-carbon wastewater treatment should be prioritized climate, technology profiles, and stages of urbanization. Moreover,
+to achieve decoupling in these cities. cross-regional evidence indicates that the dominant drivers of
+wastewater-related GHG emissions may vary under different climatic,
+4. Discussion regulatory, and technological contexts. For example, recent observa-
+tions from Beijing show that stricter discharge standards can increase
+This study systematically discusses the GHG emission characteristics emission intensity by 36–73 %, while seasonal temperature variations
+of China's wastewater treatment sector from 2010 to 2019. Results show can induce approximately 15 % changes at the process level, under-
+that the emission reduction path of China's wastewater treatment sector scoring the strong sensitivity of emission intensity to local conditions (Ji
+exhibits significant heterogeneity among different cities. The findings of et al., 2024). These findings suggest that although factors such as
+this study are crucial for advancing the low-carbon transformation of emission intensity and per capita wastewater generation consistently
+China's wastewater treatment sector. First, the combined analysis of emerge as key drivers across studies, their relative influence can differ
+decoupling and driving factors provides a quantitative foundation for substantially among regions due to variations in treatment processes,
+identifying key emission control areas in cities. By comparing the management practices, and environmental settings.
+driving mechanisms across city types, policymakers can pinpoint inter- However, this study still has some limitations, such as emission es-
+vention strategies, such as emphasizing water-saving policies in cities timates are based on existing activity data and emission factors, making
+with significant wastewater treatment expansion or promoting clean it challenging to accurately represent the operational conditions of
+energy alternatives in cities with high electricity consumption. Second, wastewater treatment plants and variations among cities. Despite
+the methodological framework is scalable and applicable for analyzing incorporating process and regional characteristic factors, uncertainties
+GHG emissions and population dynamics in other infrastructure sectors, persist, particularly regarding CH4, N2O, and electricity emission fac-
+such as solid waste management and water supply, offering valuable tors, which vary seasonally or over time. Additionally, the analysis does
+insights for cross-sector low-carbon strategies. Lastly, the study high- not account for seasonal fluctuations in influent water quality and
+lights regional disparities, scale effects, and energy structure challenges, quantity, which can influence pollutant removal and GHG emissions.
+underscoring the need for national emission reduction policies to ac- Moreover, environmental statistics are limited to data up to 2019 and
+count for regional characteristics and urban differences, thereby exclude GHG emissions from chemical use in wastewater networks and
+avoiding a one-size-fits-all approach and enhancing environmental and treatment processes.
+economic synergy.
+Our estimated total emissions for 2019 are 23.8 Mt CO2e, and the 5. Conclusion
+national-average emission intensity is 367.9 g CO2e per ton of waste-
+water, with a 95 % confidence interval of 218.0–760.3 g CO2e per ton of Overall, this study identifies significant spatial heterogeneity and
+wastewater. As summarized in Table S6, these results are consistent with divergent decoupling states in GHG emissions from China's wastewater
+major national studies based on the corresponding data years. For treatment sector between 2010 and 2019. A small number of large cities
+instance, Du et al. reported 53.0 Mt CO2e and 770 g CO2e per ton of contributed disproportionately to national emissions, with regional
+wastewater for 2019 (Du et al., 2023), whereas Hua et al. obtained an variations in emission intensity linked to operational practices and cli-
+emission-intensity range of 190.5–600.3 g CO2e per ton of wastewater matic conditions. Over 90 % of cities exhibited negative decoupling,
+for 2014 (Hua et al., 2022a). City-level per-capita emissions (4.7–32.4 indicating that emission growth outpaced population increases, pri-
+kg CO2e per capita) also align with the 10.2–29.4 kg CO2e per capita marily due to expanded wastewater treatment capacity, stricter effluent
+range reported by Tong et al. for 2020 (Tong et al., 2024). Although our standards, and rising per capita wastewater volumes. Decomposition
+estimated national GHG totals differ from some previous studies due to analysis reveals that reducing emission intensity and controlling per
+10

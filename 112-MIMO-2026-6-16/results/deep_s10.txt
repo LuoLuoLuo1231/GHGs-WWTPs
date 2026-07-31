@@ -1,0 +1,66 @@
+（55）A novel carbon emission evaluation model for anaerobic-anoxic-oxic urban sewage treatment
+研究方法：
+a. [碳排放核算] - 碳排放因子法：IPCC排放因子（EF），基于人均蛋白质消耗量和人口数据，用于计算污水处理厂直接和间接碳排放
+b. [生命周期评价] - 生命周期评估（LCA）：ISO 14040:1997标准，评估污水处理全流程碳排放（从管网到出水）
+c. [数学建模] - AAO工艺碳排放模型：将碳排放分为CO2排放（间接+直接）、非CO2排放（CH4+N2O）和碳减排三部分，分别建立计算公式，用于典型AAO工艺污水处理厂碳排放核算
+d. [实验监测] - 长期运行数据采集：365天连续监测（2020年1月-12月），包括进出水COD、TN、NH4+-N、SS等指标，以及沼气产量、电力消耗等运行参数
+e. [质量平衡] - 物料平衡分析：基于COD去除和氮转化的质量平衡，计算有机物降解过程中CO2、CH4、N2O的产生量
+f. [季节变化分析] - 季节性排放差异分析：比较春、夏、秋、冬四季曝气能耗、药剂消耗和外部碳源的碳排放差异
+
+（56）Performance of wastewater treatment plants in emission of greenhouse gases
+研究方法：
+a. [质量平衡] - COD和氮质量平衡：基于各处理单元COD和N去除率，计算生物CO2、CH4和N2O排放量，用于183座意大利南部污水处理厂
+b. [排放因子法] - 温室气体排放因子（IPCC 2019）：以COD去除量和N去除量为基准，计算各处理单元的CH4、N2O和生物CO2排放因子
+c. [统计分析] - 广义极值分布检验（Generalized Extreme Value Distribution）：使用Past 4.13软件识别异常值并剔除，确保分析稳健性
+d. [统计检验] - Mann-Whitney U检验：比较多级好氧消化和厌氧消化污水处理厂之间温室气体排放的显著性差异（p<0.05）
+e. [排放量化] - 全球变暖潜势（GWP）换算：CH4乘以30、N2O乘以300转换为CO2当量，用于比较不同温室气体的气候影响
+f. [长期数据] - 五年运行数据分析（2018-2022年）：基于183座污水处理厂的平均日处理量、能耗、进出水水质等运行数据
+
+（57）Novel extended hybrid tool for real time control and practically support decisions to reduce GHG emissions in full scale wastewater treatment plants
+研究方法：
+a. [机理建模] - ASM2D活性污泥模型：采用Modified Ludzack-Ettinger（MLE）工艺配置，好氧区4800m3、缺氧区2400m3，用于模拟生物反应器性能和出水水质
+b. [机器学习] - 多层感知器（MLP）神经网络：三层结构（输入、隐藏、输出），8个隐藏神经元，逻辑激活函数，用于预测N2O、CH4、CO2排放
+c. [敏感性分析] - 动态全局敏感性分析（dGSA）：蒙特卡洛模拟1000个样本，结合多元多项式回归（MPR）模型，识别影响出水水质的关键动力学参数
+d. [预警系统] - 早期预警系统（EWS）：采用层次聚类分析（HCA）和k-means聚类方法，评估GHG预测误差的可靠性
+e. [相关性分析] - Spearman相关系数分析：评估GHG排放与操作参数（Qair、DO、SS、redox等）和出水水质之间的非线性关系
+f. [情景分析] - 减排情景模拟：变化进水COD/TN比（4-8）、DO控制（0.8-1.5 mg/L）、SRT（15-40天）、RAS回流比（0.8-1.5），评估GHG减排潜力（最高21%）
+g. [气体监测] - 浮动腔+气体分析仪：MIR 9000-CLD型分析仪（ENVEA），红外吸收法（UNICHIM方法和ISTISAN 91/41报告），15分钟分辨率连续监测9天
+
+（58）More applicable quantification of non-CO2 greenhouse gas emissions from wastewater treatment plants by on-site plant-integrated measurements
+研究方法：
+a. [单元测量] - 通量箱法（Flux Chamber）：智能通量箱系统（直径0.5m，高0.61m），连接LI-7810（CH4）和LI-7820（N2O）痕量气体分析仪，基于光学反馈腔增强吸收光谱（OF-CEAS）技术，用于各处理单元的GHG排放通量测量
+b. [全厂测量] - 排气管道集成测量法：通过地下污水处理厂的封闭式废气收集管道，测量CH4和N2O浓度及流速（Testo 480多功能测量仪器），用于全厂总排放量核算
+c. [对比分析] - 两种方法的排放因子对比：分别计算单元测量和全厂测量的CH4排放因子（kg CH4/kg CODremoved）和N2O排放因子（kg N2O/kg TNremoved），比较差异（3-9倍）
+d. [连续监测] - 24小时连续监测：每小时采样进出水水质（COD、NH3-N、TN、TP），连续监测排放速率的日变化规律
+e. [文献对比] - 排放因子文献比较：将本研究结果与已发表的排放因子进行对比，评估不同测量方法的适用性
+f. [案例研究] - 地下式污水处理厂案例：广州某地下市政污水厂（AAO+AO工艺），日处理量1.9×10^4 m3/d
+
+（59）Source of Methanogens and Characteristics of Methane Emission in Two Wastewater Treatment Plants in Xi'an
+研究方法：
+a. [产甲烷活性] - 特定产甲烷活性（SMA）测试：在200mL血清瓶中，35±1°C厌氧条件下，以乙酸、丙酸和丁酸为底物，每2小时测量CH4产量，计算最大产甲烷活性（mgCOD/(gVSS·d)）
+b. [酶学分析] - 辅酶F420浓度测定：基于F420在酸性和碱性条件下的摩尔消光系数差异，采用分光光度法在420nm处测定，用于指示产甲烷菌活性
+c. [分子生物学] - 荧光原位杂交（FISH）：使用rRNA靶向寡核苷酸探针（EUB338、ARC915、Nso1225等），结合激光扫描共聚焦显微镜（Leica TCS SP8），定量分析产甲烷菌、氨氧化菌（AOB）、亚硝酸盐氧化菌（NOB）和聚磷菌（PAOs）的丰度
+d. [气体分析] - 气相色谱法（GC）：Agilent 6890 N，配备TCD检测器和TDX-01不锈钢填充柱，载气为纯Ar（99.999%），流速50mL/min，用于CH4浓度分析
+e. [气体采样] - 表面排放隔离通量箱（SEIFC）：手工制作，圆形截面积180cm2，浸没于水面下，收集气体2-3天后用采样袋采集，用于计算CH4排放通量
+f. [数学建模] - 复合活性污泥模型：将ADM1/ADM2（厌氧消化模型）与ASM1（碳氧化和脱氮）和ASM2D（除磷）结合，模拟产甲烷菌在污水处理厂中的生长和CH4排放
+g. [对比研究] - 两种工艺对比：Orbal氧化沟（1.0×10^5 m3/d）与A/A/O工艺（2.5×10^5 m3/d），比较CH4排放特征差异
+
+（5）Releasing characteristics and influencing factors analysis of nitrogen-containing gaseous pollutants in wastewater treatment plants with sequencing batch reactor process
+研究方法：
+a. [气体采样] - 通量箱法（美国EPA推荐）：半球形有机玻璃装置，半径190mm，收集面积1256cm2，泡沫支撑浮于水面，连接电子流量计和气体收集袋，分别用于曝气区和非曝气区的气体采集
+b. [气体检测] - 离子色谱法（NH3和DMA）：Metrohm 940离子色谱仪，Metro-C4-250阳离子柱（内径4mm，长250mm），吡啶二甲酸淋洗液（1.7mmol/L HNO3+1.7mmol/L 2,6-吡啶二甲酸），柱温30°C，流速1.0mL/min
+c. [气体检测] - 气相色谱法（N2O）：Agilent 7890a GC，HP Plot/分子筛毛细管柱（30M×0.53M×25um），ECD检测器（300°C），N2载气，用于气态N2O测定
+d. [溶解气体] - 顶空法测定溶解态N2O：10mL厌氧顶空瓶，34°C恒温振荡1小时（220r/min），测量顶空N2O浓度，用于计算水中溶解态N2O
+e. [实验设计] - 响应面法（RSM）：Design Expert 8.0.6软件，Box-Behnken中心组合设计，17个实验点（12个因子点+5个零点），以曝气强度、污泥浓度和进水COD浓度为自变量，NH3释放因子为响应值
+f. [中试实验] - SBR中试反应器：20L体积有机玻璃SBR，实际污水（北京工业大学西区化粪池），接种污泥（AAO工艺二沉池回流污泥），MLSS 4000-5000mg/L，运行3个周期/条件
+g. [单因素实验] - 操作条件优化：分别考察曝气强度（1.5-6.0 L/min）、曝气时长（0-240min）和污泥浓度（3000-7000 mg/L）对NH3和C2H6NH释放的影响
+h. [碳排放估算] - N2O碳排放计算：基于N2O的100年全球增温潜势（CO2的310倍），将N2O排放转换为CO2当量（kg CO2eq/m3），用于评估SBR工艺的碳足迹
+
+（60）Analysis of empirical methods for the quantification of N2O emissions in wastewater treatment plants: Comparison of emission results obtained from the IPCC Tier 1 methodology and the methodologies that integrate operational data
+研究方法：
+a. [方法比较] - 六种N2O排放量化方法比较：IPCC Tier 1（2006）、IPCC（2019）、Doorn-Liles、Snip、Chandran和Das方法，基于不同活动数据（人均蛋白质消耗、BOD5、TN、TKN），用于巴塞罗那大都会区（7座WWTP）和墨西哥城（25座WWTP）
+b. [概率模拟] - 蒙特卡洛模拟：使用Python v2.7程序，从Weibull分布Weib(0.764, 1.44162)中生成100万个随机样本，模拟排放因子的不确定性传播
+c. [敏感性分析] - 排放因子敏感性分析：收集文献中报道的排放因子（0.0001-0.66 kgN2O-N/kgN），与IPCC推荐值（0.0005-0.25 kgN2O-N/kgN）进行累积概率对比
+d. [统计建模] - 累积概率分布分析：将蒙特卡洛模拟结果绘制为累积概率曲线，评估各方法的排放估计置信水平
+e. [运行数据] - 实际运行数据分析：使用2015-2016年各污水处理厂的进水流量、BOD5、TN、TKN等运行数据，而非统计平均值
+f. [不确定性评估] - 方法不确定性评估：分析各方法的排放因子变异系数，发现IPCC（2006）排放因子仅覆盖模拟结果的1.3%

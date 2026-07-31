@@ -1,0 +1,782 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment800(2021)149508
+ContentslistsavailableatScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Greenhouse gas emission estimationfrommunicipal wastewaterusing a
+hybrid approach of generative adversarial network and
+data-driven modelling
+⁎
+MohsenAsadi,KerryNeilMcPhedran
+DepartmentofCivil,Geological&EnvironmentalEngineering,UniversityofSaskatchewan,Saskatoon,Saskatchewan,Canada
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+• Greenhousegasemissionratesarepre-
+dictedusingwastewatersamples.
+• Statisticalanalysiscandeterminepa-
+rametersneededformodelling.
+• Regression models can estimate gas
+emissions.
+• Generative adversarial networks can
+createvirtualdatasets.
+• Geneticalgorithmdeterminesparame-
+tersneededforoptimization.
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Greenhousegas(GHG)emissionsincludingcarbondioxide(CO),methane(CH),andnitrousoxide(NO)cre-
+2 4 2
+Received6June2021 atedviawastewatertreatmentprocessesarenoteasilymodeledgiventhenon-linearityandcomplexityofbio-
+Receivedinrevisedform29July2021 logicalprocesses.Thesefactorsarealsoimpactedbylimiteddataavailabilitymakingthedevelopmentofartificial
+Accepted3August2021
+datagenerationalgorithms,suchasagenerativeadversarialnetwork(GAN),usefulfordeterminationofGHG
+Availableonline5August2021
+emissionrateestimates(EREs).Themainobjectiveofthisstudywastodevelopahybridapproachofusing
+GANandregressionmodellingtodetermineGHGEREsfromacold-regionbiologicalnutrientremoval(BNR)mu-
+Editor:QilinWang
+nicipalwastewatertreatmentplant(MWTP)inwhichtheaerobicreactorhaspreviouslybeenestablishedasthe
+mainGHGemissionsource.Toourknowledge,thisisthefirstapplicationofGANusedforMWTPmodellingpur-
+Keywords: poses.TheEREsweregeneratedfromlaboratory-scalereactorsusedinconjunctionwithfacility-monitoredop-
+Municipalwastewater erating parameters to develop the GAN and regression models. Results showed that regression models
+Biologicalnutrientremoval(BNR)system providedreasonableEREsusingparametersincludinghydraulicretentiontime(HRT),temperature,totalorganic
+Greenhousegas(GHG)emissionrateestimates carbon,anddissolvedoxygen(DO)concentrationsforCO EREs;HRT,temperature,DOandphosphate(PO3−)
+2 4
+(EREs) concentrationsforCH EREs;andtemperature,DO,andnitrogen(nitrite,nitrate,andammonium)concentrations
+Generativeadversarialnetwork(GAN) 4
+forNOEREs.Additionally,theadditionof100GAN-createdvirtualdatapointsimprovedregressionmodelmet-
+Regressionmodelling 2
+ricsincludingincreasedcorrelationcoefficientandindexagreementvalues,anddecreasedrootmeansquare
+Geneticalgorithm(GA)
+errorvalues.Clearly,virtualdataaugmentationusingGANisavaluableresourceinsupplementationoflimited
+dataforimprovedmodellingoutcomes.Geneticalgorithmoptimizationwasalsousedtodetermineoperatingpa-
+rametermodificationsresultinginpotentialforminimization(ormaximization)ofGHGemissions.
+©2021ElsevierB.V.Allrightsreserved.
+⁎ Correspondingauthorat:RM1A13,EngineeringBuilding,UniversityofSaskatchewan,57CampusDr.,Saskatoon,SKS7N5A9,Canada.
+E-mailaddress:Kerry.mcphedran@usask.ca(K.N.McPhedran).
+https://doi.org/10.1016/j.scitotenv.2021.149508
+0048-9697/©2021ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+1.Introduction mitigationstrategiesforGHGemissions.Typically,thesemodelshave
+beendevelopedusingdataavailablefromMWTPoperatingparameters
+Ever-risinghumanpopulations,coupledwithurbanization,haveled suchaswastewatertemperature,pH,electricalconductivity(EC),hy-
+toincreasingpotablewaterdemandsworldwide.Thesewatersleadto draulic retention time (HRT), dissolved oxygen (DO), phosphate
+thecreationofmunicipalwastewatersthatneedtobeefficientlycol- (PO3−),carbonandnitrogen(N)concentrations(Asadietal.,2020;
+4
+lected and treated in municipal wastewater treatment plants AsadiandMcPhedran,2021a;Lawetal.,2011;Massaraetal.,2017b;
+(MWTPs). However, these MWTPs use energy-intensive processes Renetal.,2015;Wangetal.,2011).
+thatresultingreenhousegas(GHG)generationsandemissionsdirectly Previousstudieshavedevelopedmathematicalmodelsbasedonthe
+fromtreatmentprocesses,andindirectlyfromelectricityandprocess- theoreticalknowledgeofmicroorganismmetabolisms.Forinstance,Ni
+basedchemicalcompoundconsumptions.Methane(CH ),carbondiox- etal.(2013)estimatedMWTPN Oproductionusingaprocess-based
+4 2
+ide(CO ),andnitrousoxide(N O)aretheprimaryGHGswithgreen- modeldefinedbymetabolicpathwaysincludingammoniaoxidation
+2 2
+houseimpactsofCH andN Obeing25-36and265-298timeshigher bacteria(AOB)andheterotrophicdenitrifiers.Themodelwascalibrated
+4 2
+than CO , respectively (IPCC, 2007; USEPA, 2021). Although direct and validated using ammonium (NH+), nitrite (NO−), and nitrate
+2 4 2
+MWTPGHGemissionsmaybelimitedascomparedtoindirectemis- (NO−),dissolvedN O,andDOconcentrations(Nietal.,2013).How-
+3 2
+sions(Liaoetal.,2020;Shahabadietal.,2010),markeddiscrepancies ever,theaccuracyofthemicroorganismmetabolismsusedissuspect
+betweenrecommendeddirectGHGemissionfactorsandpreviousre- giventheimperfectknowledgeofGHGproduction,temporal-spatial
+searchfindingshighlighttheneedformoreaccuratequantificationof variability of kinetics, and range of MWTP operating parameters
+directGHGemissions.Forinstance,bothIntergovernmentalPanelon (Manninaetal.,2016;Nietal.,2013;Sperandioetal.,2016).Thus,
+Climate Change (IPCC) and U.S. Environmental Protection Agency data-driven models have been developed to overcome the non-
+(USEPA)havenotconsideredbiogenicCO emissionfortheassessment linearityandcomplexityofbiologicalprocesses(Asadietal.,2020;
+2
+ofMWTPcarbonfootprint(Doornetal.,2006;USEPA,2012).However, Hanetal.,2019;Nairetal.,2016;Vasilakietal.,2020b).Overall,non-
+studieshaveshownthatmunicipalwastewaterfossilcarbon-based linearregressionmodellinghasbeenfavoredgivenshortprocessing
+compounds(suchasdetergents,pharmaceuticals,andoil-basedprod- timesandreasonableaccuracywithlimiteddatasets.Forinstance,
+ucts) may lead to long lifespan-type CO generation and emission Yetilmezsoy and Sakar (2008) and Akkaya et al. (2015) developed
+2
+(Griffithetal.,2009;Lawetal.,2013). non-linearregressionmodelsestimatingCH andbiogasproduction
+4
+InadditiontoCO ,largevariabilitiesofreportedMWTPN Oemis- forup-flowanaerobicsludgeblanketreactorstreatingpoultrymanure
+2 2
+sionfactors,coupledwithitsincreasingreleasefrom3%ofthetotal wastewaterandlandfillleachate,respectively(Akkayaetal.,2015;
+MWTPGHGemissionsin2005to13%in2020,makeN Oofprimary YetilmezsoyandSakar,2008).However,robustandsufficientdatacol-
+2
+concernforMWTPsgivenitshigherpotentialimpact(Doornetal., lectionforbiologicalprocessescanbecostlyandtime-consuming(Xu
+2006; Kampschreur et al., 2009; Law et al., 2012b; Massara et al., etal.,2020).Thus,thereisaneedforartificialdatagenerationalgo-
+2017a;USEPA,2012,2008,2006;Yoshidaetal.,2014).Interestingly, rithmstohelptoaddressdatashortages(Hanetal.,2019).Recently,
+thecurrentstudy'sbiologicalnutrientremoval(BNR)typeMWTPfo- generativeadversarialnetworks(GANs)havebeenshowntobeprom-
+cusesonnitrogenremovalfromwastewater(tomeeteffluentguide- isingandpowerfuldata-augmentationtechniquesinimageandsignal
+lines)leadingtomarkedN Oemissionsfrombioreactors(Daelman analysisandprocessing(Goodfellowetal.,2014;Shaoetal.,2019).
+2
+etal.,2013;Lawetal.,2012a,2012b;Massaraetal.,2017;Nietal., TheGANshavebeenusedtoimitatehighlycomplexsystems,suchasbi-
+2013).TheBNRMWTPsincludebothclosedandopen-to-airprocesses ologicalprocesses,forvirtualdatageneration(DouzasandBacao,2018;
+withapotentialgoalofincreasinggasproductioninclosedprocesses Shaoetal.,2019;WanandJones,2020;Wangetal.,2020;Yuetal.,
+(i.e.,foranaerobicdigestors)whichcanbevaluableforincreasedenergy 2020)makingthemapromisingmethodologyforsupplementationof
+production; however, from a local air quality perspective, the goal limiteddataintheareaofMWTPmodelling.
+wouldbetodecreasegasgenerationfortheopen-to-airprocesses. Overall,data-drivenmodelsfordeterminationofMWTPGHGsin-
+TheBNRtypeMWTPopen-to-airprocessesincludeanaerobic,an- cludingCO ,CH ,andN OEREshavenotbeenwell-developed.Addi-
+2 4 2
+oxic,andaerobicbioreactorsthatcanbeassessedandmodeledforesti- tionally, to our knowledge, this is the first study to apply GAN for
+mated rates of emission (ERE) of GHGs via field monitoring and generationofvirtualdataforuseinMWTPGHGmodelling.Thus,the
+laboratory-scale reactorexperiments(Asadietal.,2020;Asadiand mainobjectiveofthisstudywastodetermineGHGEREsfromtheaero-
+McPhedran,2021a;Czepieletal.,1995,1993;Daelmanetal.,2013; bic reactor of a BNR-type MWTP using both measured and GAN-
+Manninaetal.,2018;Sunetal.,2017).Previously,ithasbeenindicated generateddataforsupplementationofoperatingparameterdataused
+thattheaerobicprocessesofMWTPsaretheprimaryGHGemission fornon-linearregressionmodelling.ThefacilityconsideredwastheSas-
+sources(AsadiandMcPhedran,2021a;Baoetal.,2016;Flores-Alsina katoonWastewaterTreatmentPlant(SWTP)whichisacoldregionfa-
+etal.,2011;Heffernanetal.,2012;Pohetal.,2015;Reinoetal.,2017; cilityhavinghighlyvariableseasonaltemperaturesfrom−40°Cto30
+Rodríguez-Caballeroetal.,2014a).However,samplingmethoduncer- °C. This study follows our previous study (Asadi and McPhedran,
+tainties,largetreatmentreactorsurfaceareas,operatingparametervar- 2021a)assessingSWTPGHGandodourEREsusinglaboratory-basedre-
+iabilities,andvariableplantgeographicallocationsmakethesewell- actorsandSWTPoperatingparameterswithconsiderationofsummer
+establishedmethodsuncertain,time-intensive,andcostlytoimplement wastewatertemperatures(13°Cto17°C),DOconcentrations,and
+(Canianietal.,2015;Kimetal.,2015;Vasilakietal.,2019).Additionally, BNR configuration (see Supporting information (SI), Fig. S1, and
+thetypicallyshort-termmonitoringcampaignsconsideredcannotcap- TableS1forfurtherdetailsoftheexperimentalsetup).Previousresults
+tureseasonalwastewaterquality/quantityparametersandGHGemis- fromthisstudyareusedhereinforthedevelopmentoftheoptimized
+siondynamics.Forinstance,Kampschreuretal.(2009)andMampaey GANandnon-linearregressionmodels.TheEREswerefurtheropti-
+et al. (2016) studied N O emissions from a treatment facility for mizedviageneticalgorithm(GA)fordeterminationofoperatingpa-
+2
+nitrogen-rich wastewater under similar operational conditions. rameters leading to the minimization (and maximization for
+Kampschreuretal.(2009)conducteda75-hourN Omeasurement comparativepurposes)ofbiogasproductionaspresentedpreviously
+2
+campaignandreportedanEREof1.7%ofthenitrogenload.However, forSWTPanaerobicdigestors(AsadiandMcPhedran,2021b).Interest-
+Mampaeyetal.(2016)laterextendedthemonitoringdurationto21 ingly,inthispreviousstudytheanaerobicdigestorbiogasproduction
+daysandsurprisinglyfoundamuchhigherN OEREof3.8%ofthenitro- wasoptimizedforincreasedgenerationsincethebiogaswasusedfor
+2
+genload(Kampschreuretal.,2009;Mampaeyetal.,2016).Giventhese powergeneration.Incontrast,thecurrentstudygoalistodecreaseaer-
+shortcomings,mathematicalmodellinghasbeenshowntobehelpful obicreactorbiogasgenerationgiventhatthesegasesarereleasedinthis
+foraccuratelydeterminingEREswhichcanbeusedtoinformsuitable open-to-airtreatmentprocess.Therefore,thisresearchisaimedto:
+2
+
+--- Page 3 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+(1)usenon-linearregressionmodelstodescribeGHGEREsfromSWTP andtheiroperatingparametersindicatedthattheaerobicreactorwas
+usingoperatingparameters;(2)integrateGANwithnon-linearregres- theprincipalsourceofGHGemissions(AsadiandMcPhedran,2021a).
+sionmodelstoimprovemodelaccuraciesandperformance;and(3)op- Forinstance,theaerobicwinterandsummerCO EREsweredeter-
+2
+timizetheGHGEREsviaadjustmentofSWTPoperatingparameters mined to be 30,593 kg CO /d (68% of winter CO emissions), and
+2 2
+withinmeasuredinsituranges. 21,274kgCO /d(57%ofsummerCO emissions),respectively.Simi-
+2 2
+larly,thewinteraerobicreactorCH EREsweremarkedlyhigherthan
+4
+2.Materialsandmethods otherprocessesat11.4kgCH /d(52%ofwinterCH emissions),and
+4 4
+summervalueswere7.99kgCH /d(24%ofsummerCH emissions).
+4 4
+Fig.1showsaschematicflowchartofthestudymethodologyforde- Additionally,totalaerobicN OEREswere2.46kgN O/dinwinterand
+2 2
+termination of greenhouse gas (GHG) estimated rate of emissions 2.80kgN O/dinsummerwhichwasabout72%ofthetotalN Oemis-
+2 2
+(EREs)fromtheSaskatoonWastewaterTreatmentPlant(SWTP)using sions(AsadiandMcPhedran,2021a).Thus,theaerobicreactorwascur-
+the development of a hybrid approach of the GAN and regression rently considered for the development of GAN and non-linear
+modelsandtheiroptimizationusing(GA)forthedeterminationofthe regressionmodelling.However,itshouldbenotedthatananalogous
+variousoperatingparameter'simpactsontheGHGEREs.Thismethod- processcouldalsobeconsideredfortheotherBNRprocessesandclari-
+ologyincludesanoverviewofSWTPGHGEREs(Section2.1),GANappli- fiers,inadditiontobeingusefulforotherMWTPapplications.
+cation for the virtual data generation (Section 2.2), non-linear TableS2presentsasummaryofthecurrentlyconsideredSWTPop-
+regression modelling (Section 2.3), and GA model optimization eratingparametersincludingHRT,wastewatertemperature(°C),pH,
+(Section2.4). EC,DO,chemicaloxygendemand(COD),totalorganiccarbon(TOC),
+NO−,NO−,NH+,PO3−,sulphate(SO2−)concentrations.Theexperi-
+2 3 4 4 4
+2.1. Saskatoon Wastewater Treatment Plant (SWTP) GHG emissions mentalstudyGHGsarepresentedinTable2alongwithGAN-created
+overview data(seefollowingsection);inaddition,correlationsbetweenoperat-
+ingparametersandGHGEREsareshowninTableS3.Overall,66data
+TheSWTPwithatreatmentcapacityof120millionlitresperday pointsrepresentingtheGHGEREsandoperatingparameterswerecol-
+(MLD)treatsmunicipalwastewateroftheCityofSaskatoontocreate lectedfromlaboratory-scalereactorrunssimulatingaerobicreactors
+environmentallysafeeffluentbeforedischargingintotheSouthSas- (seeSupportinginformation(SI),andTables2andS2forfurtherde-
+katchewanRiver.ItisanadvancedclassIVfacilitywithavarietyoftech- tails).Thesedatasetsweresubjectedtoacross-validationtechniqueto
+nologiesandprocessesincludingagritandscreenchamber,clarifiers, randomlysplitdataintofoursubsetssuchthat75%ofdatawasused
+fermenters,dissolvedairflotation(DAF)thickener,BNRusinganaero- todeveloptheGANandtrainregressionmodelsandtheremaining
+bic,anoxic,andaerobicprocesses,ultravioletdisinfectionsystem,nutri- 25%wasconsideredfortheregressionmodeltesting.Eachmodelling
+entrecoveryfacility,anaerobicdigesters,andbiosolidsfacility(Fig.S2). runwasrepeatedfourtimesuntileachsubsetofthefour-subsetswas
+Seasonalambienttemperaturestypicallyvarybetween30°Cand−40 usedforthetesting.
+°Candimpactwastewatertemperatureswithaveragesofabout17°C
+insummerand13°Cinwinter. 2.2.Generativeadversarialnetwork(GAN)
+TheBNRprocessesandclarifiersareopen-to-airtreatmentprocesses
+andsourcesofGHGandothergasemissionsintotheatmosphere.The GANisaniterativeandnumericalsemi-supervisedandunsuper-
+studyofSWTPGHGemissionsfromclarifiersandbioreactorprocesses visedlearningtechniqueandcomposedoftwoneuralnetworktype
+Fig.1.SchematicflowchartofthestudymethodologyforthemodellingofSWTPGHGEREsusingahybridapproachofdata-drivenmodelling(nonlinearregressionmodels),virtualdata
+augmentation(generativeadversarialnetwork:GAN),andoptimization(geneticalgorithm:GA).TheGANwasusedtosynthesizeartificialdatausingexistingdatathatwascollectedfrom
+theexperimentalstudyofthelaboratoryreactorsimulatingbioreactorsandclarifiersgivenvariabletemperature,DOconcentrationsandBNRdesigns.Note:TPOP=treatmentprocess
+operatingparameters,Z=randomdata,G=generator,X=existingdata,G(Z)=datagenerationfunction,andD=discriminator.
+3
+
+--- Page 4 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+sub-modelsincludinggenerator(G)anddiscriminator(D)tomimicac- frommunicipalwastewateranaerobicdigestionandup-flowanaerobic
+tualdatasetsforvirtualdatagenerationwiththesamestatisticalcharac- sludge blanket (UASB) reactors (Akkaya et al., 2015; Asadi and
+teristicsoforiginaldatagivenminimaxgamebetweenGandD(Fig.1). McPhedran,2021b;YetilmezsoyandSakar,2008),specificallyascom-
+AdetaileddescriptionofGANcanbefoundinotherstudies(Creswell paredtootherdata-drivenmodelssuchasartificialneuralnetwork,
+etal.,2018;Goodfellowetal.,2014)withabriefoverviewincluded and adaptive network-based fuzzy inference system (Asadi and
+herein.Typically,Gusesrandomnoise(z)withprobabilitydistribution McPhedran,2021b).Thus,currentlyaquadraticequationwasdefined
+of(p)tolearnthedistribution(p)overoriginaldata(x)usinginterac- fordevelopingnon-linearregressionmodellingofaerobicGHGEREs
+z g
+tionwithDandcreatedartificialdataset(G(z)).Disasinglescalarout- fortheSWTP.Eq.(4)depictsatypicalquadraticfunctionintwovari-
+putfunctionvaryingbetween0(forfakedata)to(forrealdata)1that ablesx andx,andregressioncoefficientβ toβ .
+i j 1 6
+determinestheprobabilitythatxisfromp ratherthanp .Awell-
+d g
+trainedD(x)canaccuratelydiscriminateoriginaldatafromgenerated
+data,andconcurrently,awell-trainedG(x)cancreatevirtualdataand y¼β 1x i2þβ 2x j2þβ 3x ix jþβ 4x iþβ 5x jþβ 6 ð4Þ
+deceiveD(Goodfellowetal.,2014).TheEq.(1)presentsamathematical
+descriptionoftheGANvaluefunction,representedbyV(D,G):
+ThenlinfitfunctionfoundinMATLAB2018platformshapesanon-
+min G max DVðD;GÞ¼E x(cid:2)pdðxÞ½logDðxÞ(cid:3)þE z(cid:2)pzðzÞ½logð1−DðGðzÞÞÞ(cid:3) ð1Þ linearregressionmodelviaminimisingthesumofsquaresofobserva-
+tionsandpredictions.Eq.(5)depictsthenlifitlmfunction(TheMath
+ThisequationshowsthatforafixedG,theDistrainedtomaximizeits Works,2018).
+abilityforaccuratedistinguishingoftheoriginaldatafromartificialdata.
+WhiletheGistrainedtocreatemorerealisticdatasamples(p =p )
+tominimise1–D(G(z))makingitimpossiblefortheDtodistg inguisd β¼nlinfitðx,y,modelfun,β 0Þ ð5Þ
+h
+originalandartificialdatasets.Therefore,theoptimalDcannotdifferen-
+⁎
+tiatebetweenp andp ,anditsvalue(D(x))reachto0.5giventhe
+g d wheremodelfunisnon-linearregressionmodelfunctionthathereinas-
+following(Eq.(2)):
+sumedaquadraticfunction;andβ isinitialcoefficientvaluesthatcan
+0
+D(cid:4)ðxÞ¼ p dðxÞ ð2Þ bedeterminedbytrialanderrorduetotheresultoflinearregression
+p ðxÞþp ðxÞ modelling.
+d g
+ThisstudyusedtheKeraslibraryandtheTensorFlowframeworkto 2.4.OptimizationofSWTPaerobicreactoroperationusinggeneticalgo-
+implementtheGANconfiguration,andrescaledinputvectorsintoa rithm(GA)
+rangeof[−1,1](Radfordetal.,2015)(Eq.(3)).
+Thedeterminationoftheoptimizedoperatingparametersforthe
+x−x
+x r¼2(cid:5) −m xin −1 ð3Þ minimization/maximizationofGHGEREsisanoptimizationproblem.
+x
+max min Data-drivenmodelscanprovidesuitablefitnessfunctionstobesolved
+byoptimizationtechniques,suchasGA.AdetaileddescriptionofGA
+wherex istherescaledinputvectors,xistheinputvector,x andx
+r min max
+canbefoundinotherstudies(Koza,1992;Piuleacetal.,2013);how-
+areminimumandmaximumvaluesofinputvectors,respectively.The
+ever,GAisbrieflydescribedherein.GAisarandomsearchalgorithm
+GANmodelwasimplementedwithvariousnumbersofhiddenlayers
+and derivative-free optimization technique applicable for a broad
+andneuronsandencodedinPython.Highnumbersofhiddenlayers
+rangeofdiscreteandcontinuousfitnessfunctionsviafindingthebest
+andneuronscanenhancetheGANparameterscontrollingtrainingpro-
+cessesbutcanleadtodifficultandmarkedcomputationalcosts(Xu solutionfromalargenumberofpossiblesolutions.AGAcreatesanini-
+etal.,2020),andinsufficienthiddenlayersandneuronscanresultinin- tialrandompopulationofchromosomesthatarecharacterisedbygenes
+representingtheoperatingparameters(e.g.,DOandnitrogenconcen-
+effectivemodeltrainingtoextractinformationfromthetrainingdata
+trations).Eachchromosome(GHGEREs)representsapotentialsolu-
+(Schmidhuber,2015).Thus,theoptimalnumberofhiddenlayersand
+tion.Thebestsolutions(parents)areevaluatedusingtheassumed
+neuronscanbeattainedbytrialanderror.AdamOptimizerisawell-
+fitnessfunctionandthenbeingselectedandundergocrossover,and
+establishedadaptivelearningmethodwithalearningrateof0.0002
+mutationtocreateanewpopulation(offspring).Crossoveristypically
+(KingmaandBa,2014;Radfordetal.,2015)tohastenlearningforeach
+appliedtoparentsandtransferstheirstrengthstooffspringinorderto
+parameter.ThehiddenlayersactivationfunctionforbothGandDwere
+facilitateGAconvergence.Toavoidstagnationatpossiblelocaloptima,
+LeakyReLUwithaBatchnormalisationlayertotransformdatabetween
+andtoensurereachingaglobaloptimum,themutationisappliedtoa
+layerswithafastconvergence(Creswelletal.,2018).Whiletheiroutput
+limitednumberofoffspringbychangingallorafewgenes.Aftermulti-
+layers'activationfunctionswereselectedtanhandsigmoid,respectively
+pleiterations,theGAconvergencebecomessteadyandindicatesanop-
+(Radfordetal.,2015),thatledtochoosingbinarycross-entropyasthe
+timal solution has been reached. The algorithm processing time is
+lostfunctiontoevaluatetheconvergencebetweenoriginalandgener-
+dependentonthecomplexityofitsstructure,initialpopulationsize,
+ateddata(Lin,2017).
+crossoverandmutationcoefficients,andindifferentiablefitnessfunc-
+tionsmayleadtohighercomputationtime.
+2.3.Non-linearregressionmodelling
+Non-linearregressionmodellingcanovercomethelimitationsofrel- 3.Resultsanddiscussion
+ativelysmalldatasetsusingcontinuousfunctionswithnon-linearand
+fixedparameterstodescribetherelationshipbetweendependentand Thissectionincludesthreesub-sectionsforresultsanddiscussion
+independentvariablesviaminimisationofsumofsquarederrorsbe- coveringSWTPaerobicoperatingparametersandtheirimpactsonthe
+tweenobservationsandpredictions(ParsonsandGates,2013).This GHGEREsgivenstatisticalanalysisandpreviousstudies(Section3.1:in-
+fittingdataisaniterativeprocessandrequiresassumedstartingvalues cludingTableS3);thedevelopmentofnon-linearregressionmodelsde-
+forunknowncoefficients.Clearly,appropriatestartingvaluescanguar- scribingGHGEREsandtheirintegrationwithGAN-generatedvirtual
+anteelessmodelprocessingtime.Previousresearchershaveshownthat data(Section3.2:Figs.2to4,Tables1and2,andincludingFig.S3);
+quadraticfunctions(polynomialsofdegree2)couldbebest-fitmodels andGAoptimizationfortheassessmentofmaximumandminimum
+fornon-linearregressionmodellingofbiogasproductionestimation GHGEREsgivenfacilityoperatingparameters(Section3.3:Fig.5).
+4
+
+--- Page 5 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+(a)CO Emission (b) CH Emission
+2 4
+)d/gk(401
+)d/gk(
+etam(cid:2)sE
+×
+etam(cid:2)sE
+ledoM
+ledoM)d/gk(etamitsEledoM
+Target × 104 (kg/d) Target (kg/d)
+R = 0.94, RMSE = 4,129, IA = 0.97 R = 0.96, RMSE = 1.76, IA = 0.97
+(c) N O emission
+2
+Target (kg/d)
+R= 0.85, RMSE = 0.76, IA = 0.91
+Fig.2.TheresultsofthenonlinearregressionmodelsdevelopedviaoriginaldataforthedeterminationofGHGEREsfromtheaerobicreactorfor(a)CO2;(b)CH4;and(c)N2O.Theblueline
+representsthedataregressionlinewithR,RMSE,andIAvaluesincludedineachpanel.Thedashedlineindicatesa1:1correlationwhichwouldindicateaperfectmodelanddatafit.
+3.1.Determinationofaerobicoperatingparametersimpactingemissions availabilityleadstolessconsumptionofbiogenicCO andCH resulting
+2 4
+intheirhigherstrippingfromthewastewatergivenmechanicalaera-
+TableS3presentsthecorrelationtestresultsfortheSWTPaerobic tionandagitation.IncontrasttoTOC,CODconcentrationwasweakly
+CO ,CH ,andN OEREsinconjunctionwithmonitoredoperatingpa- correlatedtoN OERE(R=0.25,p<0.05)indicatingthatCODwas
+2 4 2 2
+rametersgeneratedfromlaboratory-scalereactorstodeterminewhich notakeyoperatingparameterinvolvedinaerobicN Oformationand
+2
+oftheseparametersimpactedtheindividualGHGEREs(seeAsadiand emission(Foleyetal.,2011).Additionally,therewerenocorrelations
+McPhedran,2021aandSupportinginformation(SI)forfurtherdetails). ofbothCO andCH EREswithCODconcentrationgiventhat:(1)CH
+2 4 4
+Overall,allEREswerehighlypositivelycorrelatedtoeachotherandDO emissionfromaerobicreactorsisattributedtomechanicalaeration/ag-
+concentrations(p≤0.01)indicatingthathigherDOavailabilityresulted itationandtemperaturechanges(Daelmanetal.,2012;Heffernanetal.,
+inafavourableenvironmentallowingforhigherbacterialmetabolism 2012;Rodríguez-Caballeroetal.,2014a);(2)andwastewaterorganic
+leadingtoincreasedGHGproduction(Tchobanoglousetal.,2003).Ad- carboncontenttypicallycontributestoCO productionandemission
+2
+ditionally,theresultsshowthatN Oemissionwasnotcorrelatedto (Flores-Alsinaetal.,2011),whileCODrepresentsbothorganicandinor-
+2
+HRT(p>0.05)whichwassomewhatexpectedasMWTPN Oemissions ganiccarbons.
+2
+havebeenreportedtobemarkedlyaffectedbyshortsludgeretention Temperatureincreasestypicallystimulatemicroorganismmetabo-
+time (SRT), rather than HRT (Foley et al., 2011; Nuansawan et al., lismresultinginelevatedbiogeniccarbonsource(suchasCO ,and
+2
+2016;Zhouetal.,2019).However,HRTwasnegativelycorrelatedto CH ) needs that could affect aerobic GHG production (Asadi et al.,
+4
+CO andCH EREs(p≤0.01)indicatingthatalongerHRTlikelyledto 2020;Canianietal.,2015;ZhengandLi,2009;Zhouetal.,2015).How-
+2 4
+highermicroorganismdiversitiesandabundances,andsubsequentin- ever,thetemperaturehereinwashighlycorrelatedtoincreasedN O
+2
+creasedneedformorecarbonsourcesthatresultedinreductionin emission(p≤0.01)anddidnotsignificantlyimpactCO andCH EREs.
+2 4
+CH andCO emissions(Nuansawanetal.,2016).Inaddition,theTOC ThismaybeattributedtothelongeroperationalSRTduringwinter
+4 2
+waspositivelycorrelated(p≤0.05)toboththeCH andCO EREs,and beingusedinthisBNRMWTPthatwouldtoatrade-offbetweentem-
+4 2
+notcorrelatedtotheN OEREs.Low-oxygenconditionsdecreasesauto- perature impacts on carbon source consumption (Daelman et al.,
+2
+trophic bacteria activities leading to less aerobic N O production 2013).Similarly,ECandpHwerenotmeaningfullycorrelatedtothe
+2
+(Kampschreuretal.,2009),andtheincreasedaerobicinfluentTOC GHGEREsgiventheirrelatively stable averagevaluesthatreached
+5
+
+--- Page 6 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+(a) CO Emission
+2 3.2. Modelling and generative adversarial network (GAN) data
+5 supplementation
+4
+3.2.1.Non-linearregressionmodellingofGHGEREs
+³01×ESMRESMRESMR
+3 Fig.2showstheresultsofdevelopednon-linearregressionmodels
+usingonlytheoriginaldatasetsforestimationofGHGemissions.Over-
+2
+all,quadraticequationswerefoundtobereasonableforeachmodelde-
+1 velopmentwith:(1)CO 2ERE:correlationcoefficient(R)=0.94±0.11,
+root-mean-squareerror(RMSE)=4129±617,indexofagreement
+0 (IA)=0.97±0.01(Fig.2A);(2)CH ERE:R=0.96±0.12,RMSE=
+4
+0 50 70 100 150 200
+1.76±0.15,IA=0.97±0.01(Fig.2B);and(3)N OERER=0.85±
+2
+Augmented Data Number
+0.17,RMSE=0.76±0.09,IA=0.91±0.01(Fig.2C).Overall,theresul-
+(b) CH Emission tanthighRandIAvalues(maximumof1.0foreach)indicateeach
+4
+model'scapabilitytoexplainGHGEREdynamics,andlowRMSEvalues
+2.0
+(closetozero,andlessthanhalfofthemeasuredEREstandarddevia-
+tions)indicatebettermodelfittoobservations(Singhetal.,2004).Ac-
+1.5
+cordingly, and given the half standard deviation (SD) of measured
+GHGEREsof5984kgCO /d,2.80kgCH /d,and0.72kgN O/d,thereis
+1.0 2 4 2
+areasonableaccuracyforeachmodel,exceptforN O.Thislimitation
+2
+forN Ocanbeattributedtothecomplexandnon-linearrelationshipbe-
+0.5 2
+tweenitsemissionratesandoperatingparameters,andmutualinterac-
+tions(Vasilakietal.,2020a).Overall,thereisaneedtoimprovemodel
+0.0
+accuracies through supplementation of training data for improved
+0 50 70 100 150 200
+modellingoutcomeswhichcanbebeneficialforallEREsandresultin
+Augmented Data Number
+improvedmodelperformances.
+(c) N 2O Emission Overall,non-linearregressionmodelswithsimplerstructureand
+shortermodelprocessingtimescanreasonablydefinetherelationships
+0.9
+betweenMWTPGHGemissionsandoperatingparametersrelativeto
+morecomplexdata-drivenmodels,suchasartificialneuralnetworks,
+0.6 which were evaluated by previously (Table 1). To better interpret
+modelaccuraciesfordifferentGHGEREscales(BoumanandVanLaar,
+2006),normalizedRMSEvalues(theratioofRMSEvaluetoaverage
+0.3
+ERE)canbeuseful.Currently,thesevaluesusingonlyoriginaldataare
+17%forCO ,19%forCH ,and28%forN Ogiventheaverageaerobic
+2 4 2
+0.0 GHGEREsof24,028kgCO 2/d,9.23kgCH 4/d,and2.71kgN 2O/d,respec-
+0 50 70 100 150 200 tively(Table2).Forexample,Nairetal.(2016)quantifiedCH andbio-
+4
+Augmented Data Number gasproductionratefromalaboratory-scaleanaerobicreactorusingthe
+developmentofaneuralnetworkwithonehiddenlayerandfourinput
+Fig.3.TheRMSEresultsofthemeasuredaerobicprocessoperatingparameterexpansion variables,includingpH,moisturecontent,volatilefattyacids(VFAs),
+viathevarioussizesofGAN-createdvirtualdataforthedevelopmentofnon-linear andtotalvolatilesolids(TVS).TheaverageCH EREof2.38×10−3kg/
+4
+regressionmodelsforEREsof(a)CO2,(b)CH4,and(c)N2O.Notethaterrorbars
+day (2.38 L/day) and model RMSE of 0.51 results in a ratio of 21%
+representstandarddeviationvaluesof5modelruns.
+(Nair et al., 2016). More recently, Sun et al. (2017) determined
+anoxic-oxictypeMWTPN OEREsusingthedevelopmentofaneural
+2
+1313μs/cmand7.3insummer,and1237μs/cmand7.3inwinter,re- networkwithtwohiddenlayersandfourinputvariables,consistingof
+spectively(TableS2).Theavailabilityofanions(includingPO3−,SO2−, influentNH+,influentCODtoNratio,wastewatertemperatureandef-
+4 4 4
+NO−,andNO−)hadavarietyofimpactsontheGHGEREs.Forexample, fluent total nitrogen. Reported ERE of 35.3–269 kg N O/d equal to
+2 3 2
+PO3−washighlypositivelycorrelatedtoCH andN OEREs(p<0.01) 0.21–1.60%ofinfluentnitrogenandanRMSEof0.13leadstoaratioof
+4 4 2
+andlesscorrelatedtoCO ERE(p>0.01)indicatingthatincreasedphos- 16%(Sunetal.,2017).
+2
+phorousaccessibilityleadstofavourablebacterialconditionsallowing Non-linearregressionmodellingisconsideredtobeanefficient
+fortheGHG production increase (Tchobanoglous et al., 2003).The techniquefordeterminationofMWTPGHGEREsgivenitseasyimple-
+SO2−isatemperature-sensitivecompoundandaproductofhydrogen mentationwithprocessoperatingparameters,specificallyincompari-
+4
+sulphideandelementalsulphuroxidation(Talaiekhozanietal.,2016). sonwithotherprocess-basedmodelsthattypically rely onamore
+Itwaspositivelycorrelatedtotemperature,DOavailability,andCH extensivenumberofinputparametersandcoefficients.Forinstance,
+4
+andN OEREs(p≤0.01).Increasedhydrogensulphideandelemental Blomberg et al. (2018) developed the Activated Sludge Model3
+2
+sulphurcontainedintheaerobicinfluentisassociatedwithmoreoxy- (ASM3)usingawiderangeofvariablesandparameterstostudyN O
+2
+genutilizationthatcannegativelyaffecttheDOavailabilityandtypical productionandemissionfromacoveredactivatedsludgetypeMWTP
+aerobeactivities.Furthermore,N OEREwashighlypositivelycorrelated withvariableDOconcentrationsbetween1.5and3.8mg/L.Theoff-
+2
+tonitrogenconcentrations(bothNO−andNH+)giventheirpivotal gasN OoriginatedfromdissolvedN Ointhewastewaterandwasre-
+2 4 2 2
+rolesinnitrogenremovalprocesses. portedintherangeof1.25–2.90ppm(2.42–5.62mg/m3).Theaverage
+Overall,basedonthisdiscussionandtheresultsofcorrelationstatis- dissolvedN Oconcentrationintheaerobicreactorwasestimatedbe-
+2
+ticalanalysesofaerobicGHGEREsandoperatingparameters(Vasilaki tween0.035mg/Land0.10mg/LwithanRMSEof0.03resultingina
+etal.,2019),thefollowinginputvariableswereconsideredforthecur- normalizedRMSEof44%,thus,indicatingtheinaccuracyofASM3emis-
+rentstudyincluding:(1)CO EREmodelling:HRT,temperature,TOC sionestimates(Blombergetal.,2018).Similarly,Manninaetal.(2018)
+2
+andDO;(2)CH EREmodelling:HRT,temperature,DO,andPO3−; developedASMwithatleast133variablesandparameters,suchasTSS,
+4 4
+(3)N OEREmodelling:temperature,DOandnitrogenspeciesinclud- temperature,DO,COD,NH+,PO3−concentrations,tomodelbiological
+2 4 4
+ingNO−,NO−,andNH+. N O production through denitrification and ammonia-oxidising
+2 3 4 2
+6
+
+--- Page 7 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+(a)CO Emission (b) CH Emission
+2 4
+)d/gk(401×etamitsEledoM)d/gk(etamitsEledoM
+)d/gk(
+etam(cid:2)sE
+ledoM
+Target × 104 (kg/d) Target (kg/d)
+R = 0.95, RMSE = 3,219, IA = 0.97 R = 0.96, RMSE = 1.35, IA = 0.97
+(c) N O emission
+2
+Target (kg/d)
+R = 0.92, RMSE = 0.58, IA = 0.96
+Fig.4.Theresultsofthenonlinearregressionmodelsdevelopedviaamixoforiginaland100virtualGAN-generateddataforthedeterminationof(a)CO2;(b)CH4;and(c)N2OEREsfrom
+theaerobicreactor.ThebluelinerepresentsthedataregressionlinewithR,RMSE,andIAvaluesincludedineachpanel.Thedashedlineindicatesa1:1correlationwhichwouldindicatea
+perfectmodelanddatafit.
+bacteria(AOB)pathwaysfromamembrane-typeMWTPincludingaer- describingaerobicGHGEREsgivenanintegrationoftheoriginal(0aug-
+obicandanoxicbioreactors.Themodelestimatesvaryingbetween0.03 menteddatanumber)andvirtualdatasetsinthesizesof50,70,100,
+and0.09mgN O/Lwithanaveragevalueof0.05mgN O/Lwerelarger 150,and200.Overall,theGAN-createdvirtualdataaugmentationled
+2 2
+thanmeasuredoff-gasN Oconcentrationsfluctuatingbetween0.01 tomoreaccurateaerobicGHGEREmodelsforeverynewlycreated
+2
+and0.04mgN O/Lwithanaveragevalueof0.02mgN O/Lexcept dataset.FortheCO EREmodelling,theRMSEvalueat100augmented
+2 2 2
+oneoccasionthatitsestimateandobservationwerearound0.35and datawaslowestat3219followedby200(RMSE=3583),50(RMSE
+0.37,respectively.ThemodelRMSEvaluewasreported0.013resulting =3640),150(RMSE=3682),and70(RMSE=3775).Theminimum
+in a normalized RMSE of 0.54% when the ‘outlier’ values were CH EREmodellingRMSEvalueof1.35wasalsofoundforthe100aug-
+4
+overlooked(Manninaetal.,2018).Althoughbothstudies'modelnor- mentedvirtualdataset.Incontrast,theminimumN OEREmodelling
+2
+malizedRMSEvalueswereconsiderable,andsimilartothecurrent RMSEvalueof0.533wasfoundat200augmentedvirtualdata;how-
+study,theseprocess-basedmodelswereabletoreasonablycapture ever,thiswascloselyfollowedbyavalueof0.588forthe100aug-
+thedynamicsofN OemissiongivenDOvariabilities(Blombergetal., mented virtual dataset. Overall, the GAN-virtual dataset using 100
+2
+2018;Manninaetal.,2018). augmented data points was considered to be best for the current
+studyand,therefore,thisdatasetwasusedfortheGAoptimization
+3.2.2.GAN-regressionmodellingofGHGEREs (seefollowingsection).These100augmenteddataresultedinamarked
+Table2showsthesummaryoftheaerobicGHGEREsgeneratedby improvementofatleast22%formodelRMSEvaluesbeinglessthanthe
+theexperimentalstudy(AsadiandMcPhedran,2021a)andtheGAN- halfSDofmeasuredGHGEREsthatleadtothenormalizedRMSEof13%
+generatedvirtualdataincludingavarietyofdatasizesfrom50to200. forCO (17%previously),14%forCH (19%),and22%forN O(28%).
+2 4 2
+Overall,twohiddenlayerswith26and6neurons,respectively,were Similartothecurrentstudy,previousstudieshavereportedthatvir-
+foundtobesuitableforgenerator(G)anddiscriminator(D)network tualdataaugmentationsizecouldimprovemodelestimations,how-
+configurationstoextractandlearnfromtheavailablemonitoreddata ever, there is typically an optimum size where the model's RMSE
+(9variablesand50samples).Thisresultedinthecreationofvirtual reachesaminimumvalue.Forinstance,Heetal.(2018)developedan
+datapointsinthevarioussizesfollowedbyuseofnon-linearregression extrememachinelearningmodelestimatingpetrochemicalethylene
+modelling.Fig.3presentstheRMSEvaluesforthedevelopedmodels productionrateusingfiveinputvariables(measuredat50occasions)
+7
+
+--- Page 8 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+Table1
+AnoverviewoftheapplicationandperformanceefficiencyofvariousmathematicalmodelsforthedeterminationofMWTPGHGEREsfromtheliteratureascomparedtothecurrentstudy
+results.
+References Inputandoutput Methodologyandresults Performanceefficiency
+Currentstudy Input:Temperature,HRT,DO,TOC,PO43−, Methodology:Regression/Generativeadversarialnetwork CO2ERE:R=0.94/0.95,RMSE=
+NO2−,NO3−,NH4+concentrations. (GAN)-Regression 4129/3219,andIA=0.97/0.97
+CH4ERE:R=0.96/0.96,RMSE=
+Output:CO2,CH4,andN2OEREsfromBNR 1.76/1.35,andIA=0.97/0.97
+SWTP N2OERE:R=0.85/0.92,RMSE=
+Results:CO2ERE=3957–54,717kgCO2/d,CH4ERE=0.523–24.6kg 0.76/0.58,andIA=0.91/0.96
+CH4/d,andN2OERE=0–4.18kgN2O/d
+Blombergetal.(2018) Input:Kineticsandstoichiometric Methodology:ExtendedActivatedSludgeModel#3(ASM3) RMSE=0.03
+parametersandstatevariables.
+Results:AveragedissolvedN2O=0.035–0.10mg/L
+Output:DissolvedandstrippedN2O
+concentrationsatanactivated-sludgetype
+MWTP
+Manninaetal.(2018) Input:Stoichiometric,kinetic,fractionation Methodology:Process-basedmodellingofN2Oproductionthrough RMSE=0.013
+andphysicalparametersandstatevariables. heterotrophicdenitrification,ammoniaoxidisingbacteria(AOB)
+pathways
+Output:N2Oemissionfrommembrane
+bioreactortypeMWTP Results:N2O~0.01–0.35mg/L
+Sunetal.(2017) Input:Temperature,influentCOD/N,NH4+ Methodology:Artificialneuralnetworkwithtwohiddenlayers. R=0.94
+andeffluentnitrogenconcentrations. RMSE=0.13
+Results:N2OERE=0.21–1.60%ofinfluentnitrogen(35.3–269kgN2O/d)
+Output:N2Oemissionfromanoxic-oxictype
+MWTP
+Nairetal.(2016) Input:pH,moisturecontent,VFA Methodology:ahybridapproachofprincipalcomponentanalysisand R=0.85
+concentration,TVS. artificialneuralnetworkwithonehiddenlayer RMSE=0.51
+Output:CH4yieldofbiogasfroman Results:AverageCH4ERE=2.38L/d
+anaerobiclaboratoryscalebioreactor
+and10to60virtualdatasynthesizedbythenon-linearinterpolation (Fig.4A);(2)CH ERE:R=0.96±0.01,RMSE=1.35±0.10,IA=
+4
+virtualsamplegenerationtechnique.Itwasreportedthatvirtualdata 0.97±0.01(Fig.4B);and(3)N OERER=0.92±0.02,RMSE=
+2
+augmentationresultedinbettermodelaccuracythatwasmorenotice- 0.58±0.03,IA=0.96±0.01(Fig.4C).Theseresultswereexpected
+ablefor40to60virtualdataindicatingthatexcessiveartificialdatagen- asthevirtualdatagenerationbyGANhasbeenreportedtobesuitable
+eration would be unreasonable given its ineffective impact on the fortrainingdataexpansionofvariousdata-drivenmodelsdescribingbi-
+model error reduction (He et al., 2018). More recently, Xu et al. ologicalprocesses.Forinstance,Hanetal.(2019)developedadeepneu-
+(2020)developeddeepneuralnetworksdescribinganaerobicfermen- ralnetworkusingtheoriginalandGANvirtualdatasetstoassessprotein
+tationVFAconcentrationgivenfourinputvariables,includingPO3− solubilityinbiocatalysts.Itwasreportedthatahybridapproachofthe
+4
+concentration,iron(III)reduction,fermentationtime,andthefood GANanddeepneuralnetworkresultedinRvaluebeingmarginallyin-
+wastedosageadditiontowasteactivatedsludge(measuredat72occa- creased from 0.66 to 0.67 (Han et al., 2019). Similarly, Tian et al.
+sions)andsynthesized400to28,000virtualdatabasedonthevariable (2019)developedvariousdata-driventechniquesusinganeuralnet-
+meanandstandarddeviationvaluesinarandommanner.Theyre- work,extrememachinelearningandsupportvectorregressiondescrib-
+portedthatthedevelopedmodelsusingamixoforiginalandvirtual ing building energy consumption and reported that training data
+dataresultedinmoreaccurateVFAconcentrationestimates,specifically expansion via virtual data led to better model performances (Tian
+for20,000virtualdatathatthemodelerrorreacheditsminimumvalue etal.,2019).
+(Xuetal.,2020).
+Fig.4showstheresultsofthenon-linearregressionmodelsusing 3.3.OptimizationofGHGEREsusingGA
+the original operating parameters and GAN-generated 100 virtual
+data.ForeachGHG,thesenewmodelsnotonlyledtolowertraining Thedevelopeddata-drivenmodelsviaoriginalandGAN-generated
+andtestingRMSEvalues,butalsohadbetterperformancebasedongen- 100virtualdatasetswereusedtocreatefitnessfunctionstobesolved
+erally higher (or equivalent) training and testing R and IA values byGAfortheminimizationandmaximizationofGHGEREsgivenopti-
+(Fig.S3).Overall,themodelperformanceresultsincluded:(1)CO mizedoperatingparameters(Fig.5).Overall,theGAconfigurations
+2
+ERE: R = 0.95 ± 0.02, RMSE = 3219 ± 251, IA = 0.97 ± 0.01 werebasedonthepopulationsizesof50to200,iterationnumberof
+Table2
+SummaryoftheexperimentalstudyandGAN-augmentedvirtualaerobicGHGEREsandoperatingparametersincludingvirtualdatasizesof50to200(averagevalues±standard
+deviation).
+Parameters Experimentalstudy 50virtualdata 70virtualdata 100virtualdata 150virtualdata 200virtualdata
+CO2(kg/d) 24,028±11,968 21,614±9260 18,090±5847 23,484±7233 18,766±2196 22,054±2153
+CH4(kg/d) 9.23±5.60 8.86±6.23 9.18±3.39 8.40±3.18 9.51±1.72 11.14±3.28
+N2O(kg/d) 2.71±1.44 1.18±0.22 2.21±0.81 3.32±1.50 2.05±0.98 2.19±0.45
+Time(min) 184±161 219±153 323±113 134±87 189±169 191.68±79
+Temp.(°C) 15.7±1.9 15.5±1.4 16.2±1.6 16.0±1.7 16.1±1.6 16.0±1.7
+DO(mg/L) 1.45±0.31 1.42±0.24 1.43±0.21 1.45±0.20 1.37±0.13 1.52±0.31
+TOC(mg/L) 13.2±2.3 12.4±0.8 13.3±1.5 12.9±0.8 13.8±1.8 14.3±2.9
+TN(mg/L) 10.5±10.9 13.8±12.4 9.58±10.7 10.5±12.7 9.37±10.1 9.01±10.6
+PO43−(mg/L) 6.40±5.56 4.26±3.61 7.14±1.04 4.88±2.32 6.57±2.59 7.28±5.09
+8
+
+--- Page 9 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+(a) Minimum CO2Emission (b) Minimum CH4Emission (c) Minimum N2O Emission
+1.2 0.9 4
+)d/gk(
+)d/gk( 0.88 )d/gk( 3
+0.8
+⁴01× 0.86
+ERE 2
+ERE₄HC)d/gk(
+ERE₂OC)d/gk( 0.4 0.84 O₂N)d/gk( 1
+0.82
+0
+0 0.8
+0 20 40 60
+0 10 20 30 40 50 0 50 100
+Genera(cid:4)on
+Genera(cid:4)on Genera(cid:4)on
+(d) Maximum CO2Emission (e) Maximum CH4Emission (f) Maximum N2O Emission
+6 35 5
+5 30
+4
+⁴01× 25
+4 ERE₄HC ERE
+ERE₂OC 20
+3 O₂N 3
+15
+2 10 2
+0 50 100 0 10 20 30 40 50 0 10 20 30 40 50
+Genera(cid:4)on Genera(cid:4)on Genera(cid:4)on
+Fig.5.Theresultsofoptimizationofthedevelopednon-linearregressionmodelsusinggeneticalgorithm(GA)forthedeterminationofminimumandmaximumGHGEREs.Theorange
+linesindicateminimumEREsfor(a)CO2,(b)CH4,and(c)N2O;andthebluelinesindicatethemaximumEREsfor(d)CO2,(e)CH4,and(f)N2O.Note:GAisintrinsicallyaminimisation
+solver(i.e.,willresultinthelowestvalue),andformaximization,thenegativeformofthefitnessfunctions(i.e.,resultswereallmultipliedby−1)wereanalysedinthisfiguregiventhe
+goalistoobtainthehighestvalueforbiogasflow.
+1000,mutationprobabilityof0.01,andcrossovermutationof0.8(Yang, optimizationresultsshowedthatmodificationofoperatingparameters
+2014).Theconvergencecriteriaweredeterminedwhenthealgorithm havealargeimpactontheGHGEREsoverall.TheminimizationofGHG
+stoppedimprovingafter300iterations(HauptandHaupt,2004).As EREswouldbebeneficialatthecurrentSWTPgiventheaerobicreactor
+mentionedpreviously,unlikeclosed-systemanaerobicdigestionpro- isanopen-to-airprocessand,thus,GHGemissionswillimpactnearby
+cesseswherebiogasmaximizationcouldbebeneficialforenergygener- residentialneighbourhoods.However,ifthisreactorwastobecovered,
+ation,thecurrentgoalwouldbetodeterminetheoperatingparameters andthebiogascollected,themaximizationresultedinabouta40-fold
+inwhichthegasgenerationwouldbeminimized.TheminimumCO increaseinCH emissionswhicharethebiogasnecessaryforuseinelec-
+2 4
+EREwas5758kgCO /dafter10generationsatoptimizedparameters tricityorotherenergygeneration.Captureofthesegasescouldbeapo-
+2
+ofwastewatertemperature17°C,DO=1.0mg/L,andTOC=10.6 tentially valuable process, however, costs for enclosing the BNR
+mg/L(Fig.5A).TheminimumCH EREtook75generationsreaching processes,anddeterminedoptimumoperatingparametersdiscrepan-
+4
+0.842kgCH /datawastewatertemperature17°C,DO=1.0mg/L, cieswiththeSWTPaerobicwastewaterquality(e.g.,averagerecorded
+4
+andPO3−=6.3mg/L(Fig.5B).Lastly,theN OEREminimumoccurred Nof18.4mg/LandPO3−of1.17mg/L)wouldhavetobeconsidered
+4 2 4
+at0.496kgN O/dafter17generationswithparametersofwastewater todetermineifthiscaptureiscost-effective.Therefore,futureresearch
+2
+temperature13°C,DO=1.0mg/L,andN=25mg/L(Fig.5C).Similarly, canbedirectedtowardthedevelopmentofmulti-objectiveoptimiza-
+themaximumEREswerefoundat56,820kgCO /dforCO (Fig.5D;90 tionofGHGEREs,dischargingeffluentqualityintowaterbodies,andop-
+2 2
+generationsatwastewatertemperature13°C,DO=2.0mg/L,and erational costs to discover trade-offs between these components,
+TOC=25.4mg/L);at31.8kgCH /dforCH (Fig.5E;15generationsat specifically given that this study developed accurate data-driven
+4 4
+wastewatertemperature13°C,DO=2.0mg/L,andPO3−=0.10mg/L); modelsdescribingMWTPGHGemissions.
+4
+and 4.26 kg N O/d for N O (Fig. 5F; 30 generations at wastewater
+2 2
+temperature17°C,DO=1.9mg/L,andN=4.86mg/L). 4.Conclusions
+Theseoptimizationresultswereingoodagreementwithbothex-
+perimentalresultsandtheliteraturewhichindicatethatwarmertem- WastewatertreatmentprocessesleadtoGHGemissionsthathave
+peraturespotentiallyresultinahigherdemandformoreaccessible becomeofincreasinginterestoverthepastdecadeforpolicymakers,en-
+carbonsources,suchasorganiccarbon,CO ,andCH ,givenincreased vironmentalauthorities,anddecision-makersgiventheirnegativeenvi-
+2 4
+microorganismmetabolisms(AsadiandMcPhedran,2021a;Caniani ronmentalimpacts.Thus,thereisaneedforaccuratedeterminationof
+etal.,2015;Tchobanoglousetal.,2003;ZhengandLi,2009).Thisin- GHGEREsfromMWTPstoassesswhethersuitablemitigationmeasure
+creaseddemandwouldresultintheminimizationofCO andCH strip- maybenecessary.ThisstudycompletesourpreviousSWTPstudyin
+2 4
+pingfromthewastewaterintheaerobicreactorsoccurringat17°C whichGHGandodouremissionswereexperimentallyinvestigatedfor
+versus13°C.Typically,anincreasedaerationrateleadstohigherwaste- alltheBNRMWTPclarifiersandbioreactors.Theaerobicprocesswas
+wateragitationresultinginelevatedgasreleasedfromwastewaters, consideredhereingivenitisresponsibleforthemajorityofGHGemis-
+particularly at DO concentrations above 1.5 mg/L (Asadi and sionsfortheopen-to-airprocesses.Theresultsofthestatisticalanalysis
+McPhedran,2021a;Baoetal.,2016;Czepieletal.,1993).Thus,themax- ofaerobicGHGEREsandoperatingparametersresultedintheselection
+imizationofallthreeGHGEREsatDOvaluesof1.9and2.0mg/Lwasan ofvariousmodelinputvariablesincludingHRT,temperature,TOCand
+expectedoutcome.Further,higheranaerobicPO3−availabilityandits DO, PO3−, NO−, NO−, and NH+. Overall, quadratic equation-based
+4 4 2 3 4
+utilizationleadtohigherCH production(Alphenaaretal.,1993)that non-linearregressionmodelscouldreasonablydetermineGHGEREs,
+4
+canresultinincreasedstrippingofdissolvedCH containedintheaero- whileinclusionof100GAN-generatedvirtualdatatoaugmenttheex-
+4
+bicinfluentduetomechanicalaerationandagitation(Daelmanetal., perimentaldataresultedinimprovedmodelaccuraciesandperfor-
+2012;Heffernanetal.,2012;Rodríguez-Caballeroetal.,2014b).The mances for all GHGs. The optimization of models using GA found
+9
+
+--- Page 10 ---
+M.AsadiandK.N.McPhedran ScienceoftheTotalEnvironment800(2021)149508
+minimum/maximumEREsof5758/56,830kgCO /d,0.842/31.8kgCH / Daelman,M.R.J.,vanVoorthuizen,E.M.,VanDongen,L.,Volcke,E.I.P.,VanLoosdrecht,
+2 4
+M.C.M.,2013.Methaneandnitrousoxideemissionsfrommunicipalwastewater
+d,and0.496/4.26kgN 2O/d.Generally,thisstudyindicatesthesuitability treatment–resultsfromalong-termstudy.WaterSci.Technol.67,2350–2355.
+oftheGANtosynthesizevirtualdatawhichisvaluableinthesupple- Doorn,M.R.J.,Towprayoon,S.,Maria,S.,Vieira,M.,Irving,W.,Palmer,C.,Pipatti,R.,Wang,
+mentationoflimitedactualdataavailability.Thiscanbevaluableasit C.,2006.Wastewatertreatmentanddischarge.2006IPCCGuidel.Natl.Greenh.gas
+willleadtoreducetimeandeffort,aswellasrelatedcostsavings,for Invent. 5,pp.1–6.
+Douzas,G.,Bacao,F.,2018.Effectivedatagenerationforimbalancedlearningusingcondi-
+theassessmentofMWTPGHGEREs.Furthermore,resultscanbeuseful tionalgenerativeadversarialnetworks.ExpertSyst.Appl.91,464–471.
+forinformingmoreefficientMWTPdesignandoperationthatcanlead
+Flores-Alsina,X.,Corominas,L.,Snip,L.,Vanrolleghem,P.A.,2011.Includinggreenhouse
+toeithertheminimizationormaximizationofGHGemissionsfrom gasemissionsduringbenchmarkingofwastewatertreatmentplantcontrolstrate-
+gies.WaterRes.45,4700–4710.
+wastewatertreatmentprocesses.
+Foley,J.,Yuan,Z.,Keller,J.,Senante,E.,Chandran,K.,Willis,J.,Shah,A.,vanLoosdrecht,M.,
+vanVoorthuizen,E.,2011.N2OandCH4EmissionFromWastewaterCollectionand
+CRediTauthorshipcontributionstatement TreatmentSystems:TechnicalReport.
+Goodfellow,I.,Pouget-Abadie,J.,Mirza,M.,Xu,B.,Warde-Farley,D.,Ozair,S.,Courville,A.,
+Bengio, Y., 2014. Generative adversarial nets. Adv. Neural Inf. Proces. Syst.
+MohsenAsadi(PhDStudent):Intellectualcontributiontoresearch, 2672–2680.
+experimentalwork,firstdraftofmanuscriptincludingfiguresandta- Griffith,D.R.,Barnes,R.T.,Raymond,P.A.,2009.Inputsoffossilcarbonfromwastewater
+bles,andmanuscriptrevisions. treatmentplantstoUSriversandoceans.Environ.Sci.Technol.43,5647–5651.
+Kerry McPhedran (PI): Intellectual contribution to research, in- Han,X.,Zhang,L.,Zhou,K.,Wang,X.,2019.ProGAN:proteinsolubilitygenerativeadver-
+sarialnetsfordataaugmentationinDNNframework.Comput.Chem.Eng.131,
+formedexperimentalwork,revisionandsubmissionofmanuscript,
+106533.
+manuscriptrevisions,andfundingofallresearchandstudentstipend. Haupt,R.L.,Haupt,S.E.,2004.PracticalGeneticAlgorithms.Second.ed.JohnWiley&Sons,
+Hoboken,NewJersey.
+He,Y.-L.,Wang,P.-J.,Zhang,M.-Q.,Zhu,Q.-X.,Xu,Y.,2018.Anovelandeffectivenonlinear
+Declarationofcompetinginterest
+interpolationvirtualsamplegenerationmethodforenhancingenergypredictionand
+analysisonsmalldataproblem:acasestudyofethyleneindustry.Energy147,
+Theauthorsdeclarethattheyhavenoknowncompetingfinancial 418–427.
+interestsorpersonalrelationshipsthatcouldhaveappearedtoinflu- Heffernan,B.,Blanc,J.,Spanjers,H.,2012.Evaluationofgreenhousegasemissionsfrom
+municipalUASBsewagetreatmentplants.J.Integr.Environ.Sci.9,127–137.
+encetheworkreportedinthispaper.
+IPCC,2007.AR4ClimateChange2007:ThePhysicalScienceBasis.
+Kampschreur,M.J.,Temmink,H.,Kleerebezem,R.,Jetten,M.S.M.,vanLoosdrecht,M.C.M.,
+Acknowledgements 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43,
+4093–4103.
+Kim,D.,Bowen,J.D.,Ozelkan,E.C.,2015.Optimizationofwastewatertreatmentplantop-
+WewouldliketothankMikeSadowski,MichaelBeal,andAmanda erationforgreenhousegasmitigation.J.Environ.Manag.163,39–48.
+ConwayattheSaskatoonWastewaterTreatmentPlantfortheirassis- Kingma,D.P.,Ba,J.,2014.Adam:AMethodforStochasticOptimizationarXivPrepr.
+tanceinthefulfilmentofthisstudy.Thisresearchwasfinanciallysup- arXiv1412.6980.
+portedbyanNSERCDiscoveryGrant(K.McPhedran). Koza,J.R.,1992.OntheProgrammingofComputersbyMeansofNaturalSelection.
+Law,Y.,Lant,P.,Yuan,Z.,2011.TheeffectofpHonN2Oproductionunderaerobiccondi-
+tionsinapartialnitritationsystem.WaterRes.45,5934–5944.
+AppendixA.Supplementarydata Law,Y.,Ni,B.-J.,Lant,P.,Yuan,Z.,2012a.N2Oproductionrateofanenrichedammonia-
+oxidisingbacteriacultureexponentiallycorrelatestoitsammoniaoxidationrate.
+WaterRes.46,3409–3419.
+Supplementarydatatothisarticlecanbefoundonlineathttps://doi.
+Law,Y.,Ye,L.,Pan,Y.,Yuan,Z.,2012b.Nitrousoxideemissionsfromwastewatertreat-
+org/10.1016/j.scitotenv.2021.149508. mentprocesses.Philos.Trans.R.Soc.BBiol.Sci.367,1265–1277.
+Law,Y.,Jacobsen,G.E.,Smith,A.M.,Yuan,Z.,Lant,P.,2013.Fossilorganiccarboninwaste-
+wateranditsfateintreatmentplants.WaterRes.47,5270–5281.
+References
+Liao,X.,Tian,Y.,Gan,Y.,Ji,J.,2020.Quantifyingurbanwastewatertreatmentsector’s
+greenhousegasemissionsusingahybridlifecycleanalysismethod–anapplication
+Akkaya,E.,Demir,A.,Varank,G.,2015.EstimationofbiogasgenerationfromaUASBreac-
+torviamultipleregressionmodel.Int.J.GreenEnergy12,185–189. onShenzhencityinChina.Sci.TotalEnviron.745,141176.
+Lin,M.,2017.SoftmaxganarXivPrepr.arXiv1704.06191.
+Alphenaar,P.A.,Sleyster,R.,DeReuver,P.,Ligthart,G.-J.,Lettinga,G.,1993.Phosphorusre-
+quirementinhigh-rateanaerobicwastewatertreatment.WaterRes.27,749–756. Mampaey,K.E.,DeKreuk,M.K.,vanDongen,U.G.J.M.,vanLoosdrecht,M.C.M.,Volcke,
+E.I.P.,2016.IdentifyingN2Oformationandemissionsfromafull-scalepartial
+Asadi,M.,McPhedran,K.,2021a.Estimationofgreenhousegasandodouremissionsfrom nitritationreactor.WaterRes.88,575–585.
+acoldregionmunicipalbiologicalnutrientremovalwastewatertreatmentplant.
+Mannina,G.,Ekama,G.,Caniani,D.,Cosenza,A.,Esposito,G.,Gori,R.,Garrido-Baserba,M.,
+J.Environ.Manag.281,111864.
+Rosso,D.,Olsson,G.,2016.Greenhousegasesfromwastewatertreatment—areview
+Asadi,M.,McPhedran,K.,2021b.Biogasmaximizationusingdata-drivenmodellingwith ofmodellingtools.Sci.TotalEnviron.551,254–270.
+uncertaintyanalysisandgeneticalgorithmformunicipalwastewateranaerobicdi-
+Mannina,G.,Cosenza,A.,Ekama,G.,2018.Mathematicalmodellingofgreenhousegas
+gestion.J.Environ.Manag.293,112875.
+emissionsfrommembranebioreactors:acomprehensivecomparisonoftwomathe-
+Asadi,M.,Guo,H.,McPhedran,K.,2020.Biogasproductionestimationusingdata-driven maticalmodels.Bioresour.Technol.268,107–115.
+approachesforcoldregionmunicipalwastewateranaerobicdigestion.J.Environ.
+Massara,T.,Katsou,E.,Guisasola,A.,Rodriguez-Caballero,A.,Pijuan,M.,Baeza,J.A.,2017a.
+Manag.253,109708.
+ModelingofN2Oemissionsinafull-scaleactivatedsludgesequencingbatchreactor.
+Bao,Z.,Sun,S.,Sun,D.,2016.AssessmentofgreenhousegasemissionfromA/OandSBR Frontiers International Conference on Wastewater Treatment and Modelling.
+wastewatertreatmentplantsinBeijing,China.Int.Biodeterior.Biodegrad.108, Springer,pp.98–104.
+108–114.
+Massara,T.,Malamis,S.,Guisasola,A.,Baeza,J.A.,Noutsopoulos,C.,Katsou,E.,2017b.Are-
+Blomberg,K.,Kosse,P.,Mikola,A.,Kuokkanen,A.,Fred,T.,Heinonen,M.,Mulas,M., viewonnitrousoxide(N2O)emissionsduringbiologicalnutrientremovalfrommu-
+Lübken,M.,Wichern,M.,Vahala,R.,2018.DevelopmentofanextendedASM3 nicipalwastewaterandsludgerejectwater.Sci.TotalEnviron.596,106–123.
+modelforpredictingthenitrousoxideemissionsinafull-scalewastewatertreatment Nair,V.V.,Dhar,H.,Kumar,S.,Thalla,A.K.,Mukherjee,S.,Wong,J.W.C.,2016.Artificial
+plant.Environ.Sci.Technol.52,5803–5811.
+neuralnetworkbasedmodelingtoevaluatemethaneyieldfrombiogasinalabora-
+Bouman,B.A.M.,VanLaar,H.H.,2006.Descriptionandevaluationofthericegrowth tory-scaleanaerobicbioreactor.Bioresour.Technol.217,90–99.
+modelORYZA2000undernitrogen-limitedconditions.Agric.Syst.87,249–273.
+Ni,B.-J.,Ye,L.,Law,Y.,Byers,C.,Yuan,Z.,2013.Mathematicalmodelingofnitrousoxide
+Caniani,D.,Esposito,G.,Gori,R.,Mannina,G.,2015.Towardsanewdecisionsupportsys- (N2O)emissionsfromfull-scalewastewatertreatmentplants.Environ.Sci.Technol.
+temfordesign,managementandoperationofwastewatertreatmentplantsforthe 47,7795–7803.
+reductionofgreenhousegasesemission.Water7,5599–5616.
+Nuansawan,N.,Boonnorat,J.,Chiemchaisri,W.,Chiemchaisri,C.,2016.Effectofhydraulic
+Creswell,A.,White,T.,Dumoulin,V.,Arulkumaran,K.,Sengupta,B.,Bharath,A.A.,2018. retentiontimeandsludgerecirculationongreenhousegasemissionandrelatedmi-
+Generativeadversarialnetworks:anoverview.IEEESignalProcess.Mag.35,53–65. crobialcommunitiesintwo-stagemembranebioreactortreatingsolidwasteleach-
+Czepiel,P.M.,Crill,P.M.,Harriss,R.C.,1993.Methaneemissionsfrommunicipalwastewa- ate.Bioresour.Technol.210,35–42.
+tertreatmentprocesses.Environ.Sci.Technol.27,2472–2477. Parsons,Z.D.,Gates,K.S.,2013.Redoxregulationofproteintyrosinephosphatases:
+Czepiel,P.,Crill,P.,Harriss,R.,1995.Nitrousoxideemissionsfrommunicipalwastewater methodsforkineticanalysisofcovalentenzymeinactivation.MethodsinEnzymol-
+treatment.Environ.Sci.Technol.29,2352–2356. ogy.Elsevier,pp.129–154.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van Piuleac,C.G.,Curteanu,S.,Rodrigo,M.A.,Sáez,C.,Fernández,F.J.,2013.Optimization
+Loosdrecht,M.C.M.,2012.Methaneemissionduringmunicipalwastewatertreat- methodologybasedonneuralnetworksandgeneticalgorithmsappliedtoelectro-
+ment.WaterRes.46,3657–3670. coagulationprocesses.Cent.Eur.J.Chem.11,1213–1224.
+10

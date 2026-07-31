@@ -1,0 +1,489 @@
+--- Page 1 ---
+JournalofCleanerProduction402(2023)136829
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Characteristics of greenhouse gases emission from wastewater treatment
+plants operation in China (2009–2016): A case study using operational data
+integrated method (ODIM)
+Jiarui Xi, Hui Gong*, Ru Guo, Ling Chen, Xiaohu Dai
+State Key Laboratory of Pollution Control and Resources Reuse, Institute of Carbon Neutrality, College of Environmental Science and Engineering, Tongji University,
+Shanghai, 200092, China
+A R T I C L E I N F O A B S T R A C T
+Handling Editor: Mingzhou Jin The reduction of greenhouse gas (GHG) and achieving carbon neutrality in wastewater treatment plants
+(WWTPs) has gained significant research attention due to China’s dual carbon goals. However, the temporal and
+Keywords: spatial characteristics of GHG emissions and the reduction potential regarding GHG emissions from WWTPs in
+Greenhouse gas emissions China remain significant uncertainties. This study aims to evaluate GHG emissions characteristics over the years
+Wastewater treatment plants
+using a set of computational methods, and assess the reduction potential from WWTPs based on operational
+Data envelopment analysis
+parameters and economic considerations. This study evaluated GHG emissions of more than 1000 WWTPs in
+Nitrous oxide
+China from 2009 to 2016 using operational data integrated methods (ODIM) and emission factors method to
+Methane
+Electricity consumption estimate direct N2O, direct CH4 emissions and indirect electricity-induced GHG emissions. GHG emissions were
+analyzed from temporal, spatial and operational parameters aspects. Besides, data envelopment analysis (DEA)
+was used to analyze WWTPs’ efficiency in 2017. The results show that GHG emissions increased from 8163 Gg in
+2009 to 14,008 Gg in 2016, with emission intensity maintained in the range of 0.266 kgCO2-eq/m3 to 0.298
+kgCO2-eq/m3. Indirect GHG emissions from electricity consumption were the main source, which accounted for
+72%–80% of the total emissions. Remarkable differences in GHG emissions were observed among six different
+regions and 31 provinces. WWTPs with AAO process, large treatment capacity, high loading, low influent COD
+concentration and high effluent NH3–N concentration contributed to lower GHG emission intensity. Further-
+more, the treatment process was correlated significantly with GHG emission intensity, whereas influent COD
+concentration had the least influence from regression analysis results. DEA evaluation indicated that the average
+efficiency score in 2016 was only up to 0.240 with 27 WWTPs reaching a full efficiency score (efficiency score
+above 1.000). Electricity consumption and ammonia nitrogen reduction were the most prioritized indicators
+which could be changed by (cid:0) 53.55% and 592.60%, respectively, to achieve a full efficiency score. The study
+provides a valuable reference for policymakers and stakeholders to reduce GHG emissions and achieve carbon
+neutrality in WWTPs, thus contributing to the larger goal of reducing GHG and mitigating climate change.
+1. Introduction of global warming (Wang et al., 2019). As for WWTPs in China which
+hold the world’s largest capacity of wastewater treatment (Lu et al.,
+As a kind of important infrastructure, wastewater treatment plants 2019), plenty of nitrogen-containing organic compounds and other
+(WWTPs) have developed rapidly in the last decade. As a result, the pollutants are needed to be reduced to meet the increasingly stringent
+increasing number of greenhouse gas (GHG) emissions follow. By 2019, wastewater discharge standards and the increasing percentage of
+4140 WWTPs have been constructed and operated, with a total treat- wastewater disposed of. As a result, more and more GHG emissions may
+ment capacity of 5.26 ×108 m3/d (MOHURD, 2019). A paradigm shift be produced. With China’s 2060 carbon neutrality target, GHG emis-
+was underway in WWTPs as the industry heads toward 3% of global sions from WWTPs are of growing concern to achieve this goal and
+electricity consumption and contributes similarly to 1.6% of GHG further mitigate global warming, which requires accurate quantification
+emissions (Lu, L. et al., 2018) and were regarded as the significant cause and analysis as a fundamental part to conduct effective mitigation plans.
+* Corresponding author. 1239 Siping Road, Shanghai, 200092, PR China.
+E-mail address: gonghui001@tongji.edu.cn (H. Gong).
+https://doi.org/10.1016/j.jclepro.2023.136829
+Received 20 September 2022; Received in revised form 1 March 2023; Accepted 15 March 2023
+Availableonline16March2023
+0959-6526/©2023ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+GHG emissions are produced in different stages of WWTPs, including different technical, economic and environmental impacts included
+construction stage, operational and demolition stage, among which the GHG emissions.
+operational stage is thought to boast the main source of GHG (Chai et al.,
+2015). Normally, GHG emissions from WWTPs could be divided into two 2. Methods
+kinds, direct and indirect GHG emissions (Lu et al., 2018; Zeng et al.,
+2017; Zhou et al., 2012). Direct GHG emissions originate from waste- 2.1. Data resources
+water and sludge management in WWTPs, including NO2 and CH4.
+Although the direct CO2 released from the degradation of wastewater 2.1.1. Data about WWTP
+organics is primarily regarded as a carbon-neutral process in GHG ac- Data on WWTPs from 2009 to 2016 in China have been collected
+counting (despite evidence of some carbon being of fossil origin) (IPCC, from Urban Drainage Statistical Yearbook, including total nitrogen (TN),
+2019). Indirect GHGs emissions are produced from the production and Chemical Oxygen Demand (COD) removed by WWTPs, treatment pro-
+transportation of chemicals and electricity consumption (Zeng et al., cess type, treatment capacity, loading rate, electricity consumption, and
+2017). It is estimated that non-CO2 GHG emissions (NO2 and CH4) from so forth. Data collected cover 27 provinces, not including Hong Kong,
+WWTPs are equivalent to roughly 4.6–5.2% of the global total non-CO2 Taiwan, Macao, and others which are not shown in this yearbook for the
+GHG emissions between 2005 and 2030 (USEPA, 2012). And non-CO2 massive unavailability of data. The data from this yearbook contains
+GHG emissions, NO2 and CH4, are of significant concern as they are 265 more than one thousand WWTPs, covering almost 80% total population
+and 28 times stronger respectively (100-year time horizon) in green- of China. To make up missing data for GHG emission calculation each
+house effect than CO2 (IPCC, 2019). year, the amount of wastewater treated by each province each year is
+Great changes in GHG emission characteristics among different collected from China Urban-Rural Construction Statistical Yearbook
+technical and local conditions have been evaluated in previous studies (2010–2017), including 31 provinces (including 27 provinces and four
+(Vieira et al., 2019; Zeng et al., 2017; Zhou et al., 2012). But a few municipalities, and does not cover Hong Kong, Macao, and Taiwan), and
+studies were evaluated from the national level and then considered the the amount of wastewater treated in each province is shown in
+regional differences (Du et al., 2018; Hua et al., 2022; Nayeb et al., 2019; Table A.1.
+Yang and Fan, 2019; Zhao et al., 2019). The existing estimations of GHG
+emissions from WWTPs in China varied greatly, ranging from 20.5 to 2.1.2. Data about emissions factors
+1395.8 Gg/y for CH4, and from 0.9 to 32.4 Gg for N2O(Guo et al., 2019; EFs of GHGs in WWTPs include direct N2O and CH4 emission factors
+Yan et al., 2019). Since most studies applied emission factors (EFs) and grid EFs which were collected by previous study (Xi et al., 2021). In
+published by Intergovernmental Panel on Climate Change (IPCC), detail, EFs of N2O and CH4 were obtained from literature including 54
+however the limitation the calculation were much rough, and estimating real WWTPs around the world, of which 17 WWTPs are from China,
+parameters were mainly from developed countries which are not suit- covering AAO, OD, SBR, AO, and Biofilm and MBR, ranging from 0.0002
+able for WWTPs in China which had different technical characteristics kgN2O–N/kgTN (OD) to 0.1200 kgN2O–N/kgTN (AO). Details are seen
+(Xi et al., 2021). Some studies also provided estimates using the EFs in Table A.2. The median values were used to calculate GHG emissions.
+collected from field measurements and some considered the GHG The district division and grid EFs were from the Department for the
+emissions for different technologies (Yan et al., 2019) (Cai et al., 2015; Climate Change of the National Development and Reform Commission
+Lu, 2019; Ramirez-Melgarejo et al., 2020). However, merely simple (DECCNDRC) and the Ministry of Ecology and Environment of the
+treatment process classification (two types of process: aerobic and People’s Republic of China (MEEPRC), and specific values are shown in
+anaerobic) (Cai et al., 2015) or a few EFs were collected (Yan et al., Table A.3.
+2019). In this study, Operational data integrated methods (ODIM)
+established by previous research which is based on EF of 6 types of
+2.2. GHG emissions calculation of WWTPs
+treatment processes from 54 WWTPs was chosen to calculate the GHG
+emissions (Xi et al., 2021).
+Temporal and spatial distribution characteristics of GHG emissions
+At present, Data envelopment analysis (DEA) has been widely used in
+at WWTPs will be evaluated in this article. Temporal distribution anal-
+the efficiency assessment of WWTPs, but the current input and output
+ysis is from 2009 to 2016. The research region contains six geological
+indicators of DEA analysis to WWTPS are still mainly focused on the
+districts and 31 provinces (including 27 provinces and four municipal-
+pollutant treatment effect and economic control effect (Huang et al.,
+ities, and does not cover Hong Kong, Macao, and Taiwan). According to
+2021; Liu et al., 2021; Yang and Chen, 2021), and a small number of
+the DECCNDRC and the MEEPRC, regions are divided into 6 categories
+studies concern electricity consumption that is in connection with GHG
+according to grid EFs, as mentioned before in Table A.3.
+emissions (Ananda, 2019; Gemar et al., 2018; Huang et al., 2021; Liu
+et al., 2021; Yang and Chen, 2021). Among them, Wang et al. evaluated
+2.2.1. Total GHG emissions calculation
+carbon emission efficiency of four WWTPs from different countries and
+The GHG emissions exist in different stages of WWTPs, including the
+analyzed whether carbon self-sufficiency was achieved (Wang, H.T.
+construction stage, operational and demolition stage. Because the first
+et al., 2016) and others have not concerned the GHG emission. Thus, the
+and third stages are less in GHG emission, GHG emissions from the
+efficiency evaluation related to GHG emissions are needed to balance
+operation of a WWTPs are the main stage of GHG emissions generation
+the ecological impact and technology input.
+throughout its life cycle as mentioned before. Also, owing to the lack of
+Here, based on the ODIM and data from a collected detailed data-
+data for construction stage, the GHG emission accounting boundary
+base covering more than one thousand WWTPs in China, GHG emis-
+involved is the direct and indirect emissions generated during the
+sions characteristics and efficiency in China were analyzed, including
+operation of the WWTP.
+three indicators GHG emission, GHG emission intensity and GHG
+According to the boundary of WWTPs in this article referred above,
+emission efficiency of WWTPs for evaluation, with the aim to (i)
+total GHG emissions from WWTPs are the sum of direct and indirect
+analyze GHG emissions and intensity (GHG emissions per unit waste-
+emissions, as shown in the equation below.
+water treatment amount) in terms of temporal and spatial facets,
+including national, regional and provincial levels during 2009–2016; GHGs total=GHGs direct+GHGs indirect (2.1)
+(ii) analyze GHG emissions intensity from various operational param-
+eters in WWTPs, including treatment process type, treatment capacity, 2.2.1.1. Direct GHGs emissions calculation including N2O and CH4. The
+loading rate, influent COD, influent NH3–N concentration, and direct GHG emissions from WWTPs include N2O and CH4 produced
+discharge limits; (iii) evaluate the efficiency of WWTPs considering directly from the treatment process. ODIM based on the specific
+2
+
+--- Page 3 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+treatment process and practical operational data were used for direct 2.3. Multiple regression analysis for emission-related factors investigation
+GHG emissions evaluation. Emissions calculations are according to
+equations (2.2) and (2.3) below and then converted to the corresponding GHG emission intensity were analyzed for different treatment pro-
+CO2 emission equivalents according to equations (2.4) and (2.5), and cess type, treatment capacity, loading rate, influent quality and
+direct GHG emission is the sum of CO2- (N2O) and CO2- (CH4) as seen in discharge limits in China in 2016 using multiple regression to analyze
+equation (2.6). the correlation that exists between each influencing factor and total
+carbon intensity. Ordinary Least Square (OLS) method was used to find
+N 2O discharge=EF(N 2O)•TN removed (2.2)
+the best functional formula for the data by minimizing the squared error.
+CH 4discharge=EF(CH 4)•COD removed (2.3) Furthermore, direct, indirect and total emission intensity for those
+influencing factors were also analyzed.
+CO 2(cid:0)eq(N 2O)=N 2O discharge•GWP(N 2O) (2.4)
+2.4. Data envelopment analysis (DEA) for WWTPs efficiency evaluation
+CO 2(cid:0)eq(CH 4)=CH 4discharge•GWP(CH 4) (2.5)
+DEA has been widely used in the efficiency assessment of wastewater
+GHGs direct=CO 2(cid:0)eq(N 2O)+CO 2(cid:0)eq(CH 4) (2.6) treatment plants (Huang et al., 2021; Liu et al., 2021; Yang and Chen,
+2021). Considering the limitation of SBM model that the maximum
+where TN removed is the TN removed at WWTPs per year, t/y, while COD calculated efficiency value was 1 with multiple DMUs (Decision making
+removed is the COD removed at WWTPs per year, t/y.v (N2O, kgN2O/ units) which could not distinguish WWTPs with efficiency higher than 1,
+kgTN)) and EF (CH4, KgCH4/kgCOD) are from medium values in SBM super-efficiency model was selected to evaluate GHG emission ef-
+Table A.2. GWP is global warming potential, GWP (N2O) is 265 and ficiency of WWTPs in China in 2016. The detailed information about
+GWP (CH4) is 28. calculation process with equations could be found in supporting mate-
+rials (EQ. (A.1)).
+2.2.1.2. Indirect GHG emissions calculation based on energy consumption. In this paper, to ensure comparisons between different-sized waste-
+Indirect GHG emissions from WWTPs normally include carbon dioxide water treatment plants, it was assumed that the payoff to scale is vari-
+emissions caused by electricity consumption and chemical consumption. able with Variable Return to Scale (VRS) model. Depending on the
+For that a great number of missing data and a small proportion of objectives and scope of the study, input indicators include electricity
+chemical consumption (Liao et al., 2020), it was not considered in this consumption (kWh), unit operating costs (yuan) and staffing levels
+paper. Electricity consumption is the main cause of indirect emissions, (number of person) at each WWTP in 2016, with data from Chinese
+which primarily comes from facilities such as aeration equipment, Urban Drainage Statistical Yearbook in 2017 version. Output indicators
+blowers, pumps and mixing motors and the primary part for indirect include desirable output indicators consisting of COD reduction (t) and
+GHG emissions thus was considered. Indirect emissions resulting from ammonia nitrogen reduction (t), and undesirable output indicator is
+electricity consumption during the operation process are accounted for GHG emissions of each WWTP in 2016. MaxDEA 8 Ultra was used to
+using the emission factor method, and the emission assessment equation evaluate GHG emission efficiency in this part.
+of this part is seen below.
+3. Results and discussion
+GHGs indirect=EF grid,y•W (2.7)
+3.1. Temporal characteristics of GHG emissions from WWTPs during
+where EFgrid,y (kgCO2/kWh) is the region-dependent grid emission fac-
+2009–2016
+tor, describing different grid emission intensities of six regions in China
+during 2009–2016, shown in Table A.3. W is the electricity consumption
+The calculated GHG emission amount and intensity from WWTPs in
+of each wastewater treatment plant from 2009 to 2016, kWh/year, data
+China during 2009–2016 were shown in Fig. 1. The GHG emission
+obtained from the Chinese Urban Drainage Statistical Yearbook
+amount gradually increased while the emission intensity fluctuated. An
+(2010–2017).
+increasing trend was observed for total GHG emission from 8163 Gg in
+2009 to 14,008 Gg in 2016, rising by almost 50%, which was related
+2.2.2. Specific GHG emission intensity for per ton of treated wastewater
+with the increasing amount of treated wastewater in China during
+GHG emission intensity is the amount of GHG emitted per ton of
+2009–2016 (Fig A.1). In contrast, the emission intensity was maintained
+treated wastewater, the calculation is shown in equation (2.8). in the range of 0.266–0.298 kgCO2-eq/m3. Although discharge limit
+CO 2(cid:0) emissionintensity=CO 2(X)÷V (2.8) became stricter and stricter with more theoretical energy consumption,
+the actual GHGs emission intensity did not demonstrate increasing,
+where X represents different types of GHG emission, X represents N2O, suggesting improved energy management within WWTPs. In detail, the
+CH4, direct emission, indirect GHG emission, or total GHG emission, Gg indirect emission contributed more than direct emission to increased
+CO2/y. V is the amount of wastewater treated by each WWTP, million total GHG emission amounts as shown in Fig. 1(c). The proportion of
+m3/y.
+indirect emissions in all years varied moderately from 72% to 80%.
+Since the newly constructed and torn-down WWTPs have existed and Meantime, the percentages of direct emission from CH4 and N2O were
+to ensure the comparability of WWTPs in each province each year, two 12–14% and 3–11%, respectively. Similarly, the average intensity of
+ways to calculate GHG emission intensity are chosen in this study. The indirect emission (0.214 kgCO2-eq/m3) during 2009–2016 was higher
+first one is to calculate the emission intensity by directly removing the than direct intensity including CH4 (0.028 kgCO2-eq/m3in average) and
+WWTPs with missing data from 2010 to 2017 for each province, which is N2O (0.040 kgCO2-eq/m3 in average) emission. This result was similar
+called raw method; the second one not only removed the WWTPs with to previous report of Hu et al. who calculated the centralized wastewater
+missing data, but also left out the newly constructed and torn-down treatment plants in Chinese industrial parks and found that indirect
+WWTPs, which called revised method. The number of WWTPs in orig- emission attributed more than N2O and CH4 emission (Hu et al., 2019).
+inal method and revised method are shown in Table A.4 and Table A.5, Considering there were certain amount of WWTPs which were newly
+respectively. constructed or torn-down during the 8-year, both raw data and revised
+data (which covered only those continuously existing WWTPs) were
+used to calculate GHG emission intensity. As shown in Fig. 1(c) and (d),
+the GHG emissions result during 2009–2016 of the revised data was
+3
+
+--- Page 4 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Fig. 1. GHG emission and emission intensity for WWTPs in China during 2009–2016 ((a) and (c) were based on raw data; (b) and (d) based on revised data).
+higher by and large. The average intensity was 0.315 kgCO2-eq/m3, et al., 2019; Yan et al., 2019). In details, the highest and the lowest
+which was considerably higher than 0.286 kgCO2-eq/m3 of raw data. emission intensity was attained by Northeast China and East China, with
+Specifically, this difference was mainly decided by indirect emissions, average of 0.350 kgCO2-eq/m3 and 0.239 kgCO2-eq/m3 respectively.
+with 0.243 kgCO2-eq/m3 for raw data and 0.214 kgCO2-eq/m3 for The highest intensity of Northeast was mainly contributed by its high
+revised data. indirect emission intensity of 0.246 kgCO2-eq/m3, while the indirect
+intensity of East China was only 0.170 kgCO2-eq/m3. High indirect
+emission intensity represented high electricity consumption, which was
+3.2. Spatial distribution characteristics of GHG emissions from WWTPs probably caused by local conditions such as inappropriate operational
+management and low temperature in winter (Guo et al., 2019). It should
+3.2.1. Region-level GHG emissions distribution of WWTPs be noted that Northeast was the only region that demonstrated contin-
+Spatial distribution of GHG emissions from WWTPs was analyzed in uous increase during 2009–2016, increasing from 0.304 kgCO2-eq/m3 in
+regional and provincial level, respectively. Six regions including North 2009 to 0.395 kgCO2-eq/m3 in 2016. The N2O intensity in Northeast
+China, Northeast China, East China, Central China, Northwest China and increased by 0.067 kgCO2-eq/m3, mainly caused by its increasing
+South China were used for regional evaluation while 31 provinces were influent ammonia nitrogen concentration with average value of 22.2
+investigated. mg/L during 2009–2012 and 30.0 mg/L during 2012–2016.
+The total GHG emissions of each region showed an increasing trend
+during 2009–2016 (Fig. 2), however, with distinct local conditions 3.2.2. Province-level GHG emissions distribution of WWTPs
+including different increased GHG amounts, increased percentages and The spatial distributions of GHG emissions in province-level were
+average amounts varying from region to region. The increase of GHG also investigated, detailed data as shown in Table A.7. In general, the
+emission from 2009 to 2016 was 169 Gg for North China, 138 Gg for total GHG emissions of each province increased over the years, but the
+South China, 134 Gg for Northeast China, 93 Gg for East China, 74 Gg for increased percentages and average amounts were quite distinct for each
+Central China and 37 Gg for Northwest China, relating chiefly with their province (Table A.8). For increased GHG emission percentage from 2009
+growing regional wastewater treatment capacities. South China and to 2016, the highest growth was obtained by Tianjin and Qinghai, with
+North China obtained the two largest wastewater treatment capacity 202% and 156% respectively. As for yearly average emission amounts
+increase, reaching 4241 and 2927 million cubic meters from 2009 to from 2009 to 2016, Guangdong, Jiangsu, Shandong, and Zhejiang were
+2016, while Northwest China had the smallest increased wastewater the top four provinces with yearly emission of 1286 Gg, 930 Gg and 758
+treatment capacities, 926 million cubic meters from 2009 to 2016 Gg and 623 Gg respectively, accounting for 34% national emissions in
+(Table A.6). This result was corresponding to previous research, where total. In contrast, the lowest emission was observed at Hainan, Qinghai,
+revealed provinces with total GHG emissions above the national average and Tibet with 50 Gg, 27 Gg, and 6 Gg, accounting for only 0.69% of
+level were mainly located in the North China, whereas Northwest China national emission. Low GHG emissions were related with their low
+indicated relatively low per-capital GHG emissions (Yan et al., 2019). As population, local geographical and economic conditions in those prov-
+for the increased percentage for GHG emissions from 2009 to 2016, inces (Du et al., 2018; Yang and Fan, 2019). Regional GDP of Tibet and
+Northeast China was observed to be the highest percentage of 18%, Qinghai was lower than that of developed province such as Guangdong
+while the Central China had the lowest of 4%. The proportion of direct and Jiangsu with higher emissions.
+and indirect GHG emissions for each region were similar with the na- Emission intensity of each province was shown in Fig. 4, indicating
+tional proportion, with the indirect percentage ranging from 64% to different local emission levels and yearly variations. Provinces with high
+89%, and the emission of N2O was higher than that of CH4. emission amount did not necessarily indicate high emission intensity.
+Intensity of GHG emissions also demonstrated regional variation, but The top five provinces with high intensity were Tianjin (North China),
+without consistent continuous increasing trend, which was different Heilongjiang (Northeast China), Yunnan (South China), Beijing (North
+from that of total emission amounts (Fig. 3). The fluctuated WWTPs China) and Jilin (Northeast China). In contrast, the lowest intensity was
+GHG emission intensity were also reported in other literatures (Guo
+4
+
+--- Page 5 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Fig. 2. GHG emission of WWTPs in various regions during 2009–2016 ( , , , , and represent total GHG emissions,
+represents N2O emission, represents CH4 emission and represents indirect emission.
+5
+
+--- Page 6 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Fig. 3. GHG emission intensity of each district in China (a, Total GHG emission; b, Indirect emission; c, N2O emission; d, CH4 emission).
+Fig. 4. The emission intensity of each province (a, Total GHG emission; b, Indirect emission; c, CH4 emission; d, N2O emission).
+6
+
+--- Page 7 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+observed for Shanghai (East China), Guizhou (South), Guangdong influent COD concentration increasing, emission intensity also
+(South), Anhui (East) and Hainan (South). The highest intensity in 2016 increased. The least GHG emission intensity was observed when influent
+was reported in Tianjin with 0.526 kgCO2-eq/m3, while Shanghai ac- COD was less than 150 mg/L. On the other hand, effluent NH3–N rep-
+quired the lowest intensity of 0.202 kgCO2-eq/m3 as a result of better resented discharge limit. GHG emission intensity increased with low
+management and widely used AAO process (Hua et al., 2022). Relatively effluent NH3–N and stricter discharge limits.
+stable emission intensity was demonstrated by most provinces while
+remarkable change occurred for Tianjin and Yunnan with opposite 3.3.2. Regression analysis of emission intensity with WWTP operational
+conditions. For Tianjin, emission intensity increased from 0.349 parameters
+kgCO2-eq/m3 in 2009 by 0.162 kgCO2-eq/m3 in 2016. For Yunnan, in- The scatter diagram of GHG emission intensity and various factors
+tensity reduced from 0.426 kgCO2-eq/m3 in 2009 by 0.135 was shown in Fig. 6. Influent COD and influent NH3–N has caused
+kgCO2-eq/m3 in 2016. similar effects on the GHG emission intensity, indicating a strong cor-
+relation with the theoretical oxygen consumption. According to the
+3.3. GHG emissions characteristics decided by WWTP operational result of Pearson correlation test, it was observed a moderately corre-
+parameters lation (0.3<|r|≤0.8) between influent COD and influent NH3–N con-
+centration with r =0.61. Influent COD and NH3–N concentration were
+3.3.1. Statistical description of GHG emissions for classified WWTPs positively correlated with GHG emission intensity and obtained the
+GHG emissions were influenced by various WWTP operational pa- similar highest slope regression line with r =0.47 and 0.45, respectively,
+rameters including treatment process type, treatment capacity, loading while loading rate were negatively correlated with GHG emission in-
+rate, influent COD, influent NH3–N concentration, and discharge limits tensity with r =(cid:0) 0.32. Meanwhile, inconspicuous changes were shown
+(effluent NH3–N and COD concentration). The emission intensity of by emission intensity as scale and effluent NH3–N change.
+classified WWTPs based on above operational parameters was shown in To reveal the functional relationship between the explanatory vari-
+Fig. 5. The difference resulted from treatment process type being ranked ables (WWTP operational parameters) and variable being explained
+in the descending order: MBR (0.587 kgCO2-eq/m3) >AO (0.464 kgCO2- (GHG emission intensity), the multiple regression was used. For the
+eq/m3) >SBR (0.418 kgCO2-eq/m3) >others (0.391 kgCO2-eq/m3) > choice of influence factors, the influent NN3–N concentration in multiple
+Biofilm (0.348 kgCO2-eq/m3) >OD (0.277 kgCO2-eq/m3) >AAO (0.249 regression was removed since its close link with influent COD concen-
+kgCO2-eq/m3). Lower total GHG emission intensity was indicated by tration will lead to the multicollinearity. Also, t-test in the significance
+AAO process, while MBR was the highest with their electricity con- test results showed the p-value of effluent COD concentration>0.05,
+sumption of 0.489 kWh/m3 for MBR and 0.323 kWh/m3 for AAO. Lower indicating that this regression coefficient was inaccurate, so the data of
+emission intensity was acquired by large treatment capacity and high- influent COD concentration was eliminated from the final regression
+load WWTPs. The lowest emission intensity was observed for WWTPs analysis due to the presence of multicollinearity. The selected explana-
+with loading rate greater than 100% and treatment capacity over tory variables were treatment process (dummy variable), loading rate,
+100,000 m3/d, both for direct and indirect intensity. Better techno- treatment capacity, influent COD, and effluent NH3–N concentration.
+economic performance was usually observed in large treatment capac- The regression result was shown in equation (3.1).
+ity and high-loading rate for their optimized management and stable
+wastewater feeds (Lorenzo-Toja et al., 2015; Nourali et al., 2014). As
+Fig. 5. Boxplots of different factors and GHG emission intensity ((a) treatment process, (b) treatment capacity, (c) load rate, (d) influent COD, (e) effluent NH3–N).
+7
+
+--- Page 8 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Fig. 6. The scatter diagram of GHG emission intensity and various factors (‘in’ represents the influent concentration, and ‘ou’ represents the effluent concentration,
+‘total-_in’ represents the total GHG emission intensity; ordinate of the pictures in the diagonal is different from the pictures not in diagonal; nuclear density map at the
+bottom left has the different point size with the top right of the picture).
+⎛ ⎞⎛ ⎞
+0 0 0 0 0 0 0 x 0 where y was total GHG emission intensity, kgCO2 -eq/m3; 0.322 was the
+⎜ ⎜ ⎜0 0.166 0 0 0 0 0 ⎟ ⎟ ⎟⎜ ⎜ ⎜x 1⎟ ⎟ intercept of the regression equation; Xi was the explanatory variable, i =
+⎟
+⎜ ⎜0 0 0.248 0 0 0 0 ⎟ ⎟⎜ ⎜x 2⎟ ⎟ 1, 2 …. … and 10, where X0 represented AAO process, X1 represented
+y=0.3222+⎜ ⎟ ⎟⎜ ⎟ AO process, X2 represented MBR process, X3 represented SBR process, X4
+⎜0 0 0 0.137 bu0 0 0 ⎜x ⎟
+⎜ ⎜ ⎜ ⎜0 0 0 0 0.085 0 0 ⎟ ⎟ ⎟ ⎟⎜ ⎜ ⎜ ⎜x3 4⎟ ⎟ ⎟ r re ep pr re es se en nt te ed b oio thfi el rm pp rr oo cc ee ss ss e, sX 5 Xr 7e p rr ee pse rn este ed to ex di d ta rt ei ao tn d ei ntc h p ar po ac ce is tys, X o6
+⎟ d , n m t c f
+⎝0 0 0 0 0 0.022 0 ⎠⎝x ⎠
+5 WWTPs, X8 represented loading rate, X9 represented influent COD
+0 0 0 0 0 0 0.102 x 6 concentration, X10 represented effluent NH3 -N concentration.
+(cid:0) 0.004x 7(cid:0) 0.002x 8+0.001x 9(cid:0) 0.008x 10 As indicated in regression equation (3.1), the correlation degrees of
+(3.1) variables were different. Loading rate, treatment capacity, effluent
+NH3–N concentration were negatively relevant to emission intensity.
+8
+
+--- Page 9 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Specifically, WWTPs with large treatment capacity (larger coefficients between these two indicators should be considered when making mea-
+indicate a greater impact on variable being explained) emitted less GHG sure to better management of WWTPs. Moreover, there was no signifi-
+than relative small treatment capacity WWTPs because of their less cant difference in GHG emission, 0.370 kg/m3 and 0.360 kg/m3 for all
+electricity consumed (Huang et al., 2021; Zeng et al., 2017). In contrast, WWTPs and efficient WWTPs.
+the influent COD concentration was demonstrated a positive relation- What’s more, by reducing input and undesirable output excesses, as
+ship with GHG emission intensity while shown the smallest coefficient in well as making up for desirable output shortfalls, efficiency score of
+the regression equation. Moreover, in respect of treatment process, WWTPs could be improved. As shown in Table 1, the improvement
+WWTPs with AO and MBR process were indicated higher GHG emission potentials of each WWTP for each indicator of those efficient WWTPs
+intensity than AAO. were much lower than all analyzed WWTPs, especially ammonia nitro-
+gen reduction shortage and electricity consumption. In other words, the
+improvement room for electricity consumption and ammonia nitrogen
+3.4. GHG reduction potential based on WWTPs efficiency evaluation by
+reduction were (cid:0) 53.55% and 592.60% of all analyzed WWTPs, a dif-
+DEA
+ference of 40% and 579% for efficient WWTPs, which also indicated
+these two indicators were the most prioritized ones to improve the
+DEA was used to evaluate the efficiency of WWTP. The distribution
+whole efficiency. Also, comparing the improvement potential for inputs
+of GHG emission efficiency of WWTPs was shown in Fig. 7. Carbon
+and outputs, the improvement space of input indicators is larger than
+emission efficiency was shown a skewed distribution. The majority of
+that of output indicators. Through a further and more detailed analysis,
+WWTPs were observed to have limited efficiency distribution between
+it could be determined which items should be focused to improve effi-
+0.1 and 0.3, with an average efficiency of 0.240. Only 27 WWTPs
+ciency for each WWTP.
+reached a full efficiency score, revealing much room for improvement is
+needed for further efficiency improvement. Moreover, discrepancies for
+efficiency were observed in various provinces (details see in Table A.8). 3.5. The limitation and uncertainty analysis of GHG evaluation
+The top three provinces with large average WWTPs efficiency were
+Anhui, Tianjin and Guangdong. What’s more, the top three provinces Notably, this research of GHG evaluation focused on emissions
+based on percentage of full-efficiency-score WWTPs were Anhui, Zhe- during operational wastewater treatment instead of those in life-cycle
+jiang and Guangdong. Among all provinces, Anhui were demonstrated evaluation, which might demonstrate different results. For example,
+to possess advantages in efficiency. Also, Anhui as one of the five lower emission intensity during operation has been shown in large
+provinces with least intensity in China with 0.231 kgCO2-eq/m3 has treatment capacity and high-load WWTPs in this research. However,
+been revealed in section 3.2.2. from life-cycle perspective, large treatment capacity WWTPs usually
+The contrast information concerning efficiency of all analyzed required large pipe network for wastewater transportation with more
+WWTPs and efficient WWTPs that achieved full efficiency score were GHG emission for their construction and high-loading rate usually
+shown in Table 1. It was found that the average values of inputs and the caused difficulties for equipment maintenance (Liao et al., 2020;
+undesirable output of efficient plants were evidently lower than those of Nguyen et al., 2020). The life-cycle GHG emission of WWTPs could be
+all analyzed plants, indicating that the WWTPs need to reduce the inputs further investigated based on operational emission research.
+and undesirable output to improve the whole efficiency especially for The direct GHG emission evaluation results were dramatically
+costs, average electricity consumption and removed NH3–N amount. For decided by the selected values of emission factor (EF). EF for indirect
+instance, the costs and average electricity consumption were 1.450 emission about electricity is usually well acceptable while the values for
+yuan/m3 and 0.317 kWh/m3, much higher than efficient WWTPs which direct GHG emission are sometimes controversial, especially for N2O,
+consumed 0.76 yuan/m3 and 0.160 kWh/m3. The difference of removed which would lead to quite different evaluation results. The emission
+NH3–N amount between WWTPs and full efficiency WWTPs also sug- factors used in this paper are acquired from various literatures investi-
+gested that NH3–N amount should be increased (the stricter emission gating WWTPs with different treatment processes (see in Table A.2 in
+limits for effluent NH3–N) to achieve the efficiency of WWTPs. At the the supplementary materials). The evaluated total GHG emission of
+meanwhile, the increased NH3–N amount will lead to higher GHG WWTPs in China in 2016 was 12,536 Gg, while this number dramati-
+emission intensity according to the results of 3.3.1. So the balance cally increased to 31,400 Gg according to Guo et al. (2019), in whose
+research the proportion of nitrous oxide emission accounted for more
+than half of total emission. The EF for nitrous oxide emission evaluation
+used in his study was 0.035 kgN2O–N/kgTN derived from an field
+WWTP investigation (Dong et al., 2017), much higher than the EF used
+in this paper ranging from 0.0016 to 0.0260 kgN2O–N/kgTN for various
+treatment process. In comparison, nitrous oxide emission in this study
+only accounted for less than 11% and indirect emissions accounted for
+more than 50%. According to database of The United Nations Frame-
+work Convention on Climate Change (UNFCCC) (UNFCCC, 2015), the
+reported total GHG emission from WWTPs in China in 2012 was 90,802
+Gg, almost 10 times higher than this study (11,605 Gg). The differences
+were mainly caused by emission evaluation process and EF value se-
+lection. The values of 0.01 kg N2O/per person/year for N2O and 0.025
+kgCH4/kgCOD for CH4 were used by (IPCC, 2006) based on an investi-
+gation for WWTP in 1995 (Czepiel et al., 1995), with assumption that all
+people contributed the same amounts of emissions. Actually, the N2O
+emission from WWTP did not necessarily be related with population
+with equally emission quota. Its emission was mainly caused by the
+incomplete nitrification and denitrification process during biological
+nitrogen removal (Wang, Y.Y. et al., 2016), which was dependent on the
+specific process as discussed in this research. The EF (0.025
+kgCH4/kgCOD) for CH4 in IPCC is overtaking the EF of our study, which
+Fig. 7. The distribution of carbon emission efficiency of WWTPs in China. ranges from 0.0009 kgCH4/kgCOD (AAO process) to 0.0129
+9
+
+--- Page 10 ---
+J. Xi et al. J o u r n a l o f C l e a n e r P r o d u c t i o n402(2023)136829
+Table 1
+Data description and DEA efficiency value of WWTPs.
+Variables Input indicators Output indicators
+Electricity consumption Staff (person/ Costs Removed COD Removed NH3–N GHG emission
+(kWh/m3) 104 m3) (yuan/m3) (t/m3) (t/m3) (kg/m3)
+Average All WWTPs 0.317 12 1.450 2.157 0.226 0.370
+WWTPs achieved DEA 0.160 10 0.76 3.526 0.407 0.363
+efficiency
+Recommended All WWTPs (cid:0) 53.55 (cid:0) 36.81 (cid:0) 49.62 57.94 592.60 (cid:0) 38.30
+improvement (%) WWTPs achieved DEA (cid:0) 10.78 (cid:0) 6.62 (cid:0) 9.58 21.80 13.96 (cid:0) 3.54
+efficiency
+Note: For where recommended level of improvement, negative values represent the recommended percentage reduction and positive values represent the recom-
+mended percentage improvement.
+kgCH4/kgCOD (other process) (Delre et al., 2017). In fact, emission of the total, respectively.
+factors based on empirical statistics are widely used in estimation, and Remarkable differences among different regional and provinces were
+the EFs of different processes differ greatly in varying magnitude as witnessed during 2009–2016, ranging from 37 Gg for Northwest China
+shown in Table A.2. In short, the evaluation of direct GHG emission to 169 Gg for North China, from 6 Gg for Tibet to 1286 Gg for Guang-
+including N2O and CH4 is influenced by EF values selection, indicating dong. However, GHG emission intensity analysis obtained a different
+more research are required for more accurate EF estimation. result that the highest region and province were Tianjin and Northeast
+The indirect GHG emission is faced with uncertainty of future energy China, with average value 0.350 kgCO2-eq/m3 and 0.526 kgCO2-eq/m3,
+carbon footprint. As the China’s carbon emission reduction plan, elec- while the lowest intensity was 0.239 kgCO2-eq/m3 and 0.202 kgCO2-eq/
+tricity emission factors tend to be decreased based on increasing m3 for East China and Shanghai respectively.
+renewable energy application with regional characteristics. Nowadays, GHG emissions were influenced by different operational parameters
+coal and oil consumption accounted for about three quarters of the total to various degrees. WWTPs with AAO process, large treatment capacity,
+energy structure (Zhao et al., 2022). China Southern Power Grid planed high loading, low influent COD concentration and high effluent NH3–N
+additional 100 million KW capacity generated by renewable resources concentration indicated a lower GHG emission intensity. What’s more,
+(wind and solar) in its key five southern provinces, reflecting growth treatment process related considerably to GHG emission intensity, while
+that increased from the current 50 million KW to 250 million KW in influent COD concentration contributed the least showed by regression
+2030. What’s more, the implementation plan on Promoting high-quality analysis which could be considered when reducing GHG emissions from
+development of new energy in the new Era issued by National Develop- operational process. Average efficiency of China in 2016 was only up to
+ment and Reform Commission (NDRC) and National Energy Adminis- 0.240, with 27 WWTPs reaching a full efficiency score which needed to
+tration (NEA) promote the rooftop solar coverage of new-built buildings be paid more attention to in the following years. Besides, the improve-
+in public institution reaching 50%. ment potentials of WWTPs were predicted with (cid:0) 53.55% and 592.60%
+The operating performance of the WWTPs was directly reflected in for electricity consumption and ammonia nitrogen reduction which
+the DEA efficiency scores, and additional measures could be taken to indicated the most prioritized indicators to improve the whole efficiency
+increase WWTP eco-efficiency. It should be noted the eco-efficiency of of WWTPs.
+WWTPs may also be influenced by some other implicit factors For This paper presents an extensive analysis of GHG emissions analysis
+example, the limited inputs and outputs included in the model may not from thousands WWTPs for 8 years in China by ODIM. The analysis of
+concluded all the relevant inputs and outputs, such as the load rate, emission related factors and efficiency evaluation provides valuable
+design scale and sludge yield and so forth. The results may be different insights into how to reduce carbon emissions and improve the efficiency
+based on various indicators. Yang et al. (Yang and Chen, 2021) esti- of WWTP, and thus contributing to the achievement of low carbon
+mated the energy efficiency of WWTPs in China, adopting six inputs and WWTPs and the dual carbon goals for China. However, it is important to
+six outputs. By contrast, just three inputs and outputs indicators are note that due to the lack of valuable data in the following years and
+adopted in DEA efficiency evaluation by this article and previous limited space, this study only analyzes GHG emissions from WWTPs
+research (Huang et al., 2021; Jiang et al., 2020; Liu et al., 2021). The between 2009 and 2016, and the efficiency evaluation is only conducted
+result shows relative efficiencies of 14 plants are at 1.0, with an average for 2016. To better understand the characteristics of GHG emissions
+electricity consumption of 0.091 kWh/m3, much lower than the result of from WWTPs in recent years, further analysis is required. Moreover,
+this paper (0.160 kWh/m3) (Yang and Chen, 2021). Jiang et al. (2020) future study should explore WWTP efficiency to identify potential areas
+also chose three inputs and outputs, the results showed 170 samples of for improvement, which help to develop more effective strategies to
+861 WWTPs in total were efficient, different to our results maybe reduce GHG emissions, ultimately contributing to the global goal of
+because of the kinds of the output indicators including chemical oxygen mitigating climate change.
+demand (COD) removal rate, ammonia nitrogen (NH3–N) removal rate
+and reclaimed water yield. Notably, DEA can effectively assess the CRediT authorship contribution statement
+relative efficiency, but cannot reflect the absolute efficiency. Therefore,
+the assumptions adopted in the study need to be carefully understanded Jiarui Xi: Writing – original draft, Methodology, Formal analysis.
+by the policymakers and necessary modifications should be made while Hui Gong: Writing – original draft, Conceptualization, Supervision,
+applying the results to decision-making processes. Writing – review & editing. Ru Guo: Conceptualization, Methodology.
+Ling Chen: Conceptualization, Methodology, Data curation. Xiaohu
+4. Conclusions Dai: Conceptualization, Methodology.
+Total estimated GHG emissions emitted from WWTPs varied from Declaration of competing interest
+8163 Gg in 2009 to 14,008 Gg in 2016 with increasing trend year by
+year. At meanwhile, the emission intensity was maintained in the range The authors declare the following financial interests/personal re-
+of 0.266 kgCO2-eq/m3 to 0.298 kgCO2-eq/m3, with indirect GHG lationships which may be considered as potential competing interests:
+emissions being 72%–80%, direct N2O and CH4 for 12–14% and 3–11% Gong Hui reports financial support, article publishing charges, statistical
+10

@@ -1,0 +1,576 @@
+--- Page 1 ---
+WaterResearchX13(2021)100122
+Contents lists available at ScienceDirect
+Water Research X
+journal homepage: www.sciencedirect.com/journal/water-research-x
+Estimation of countrywide N O emissions from wastewater treatment in
+2
+Switzerland using long-term monitoring data
+Wenzel Grubera,b,*, Luzia von Ka¨ nelb, Liliane Vogta,b, Manuel Lucka,b, Lucien Biolleyb,
+Kilian Fellera, Andrin Moosmanna, Nikita Kra¨ henbühla, Marco Kipfa, Reto Looslib,
+Michael Vogelb, Eberhard Morgenrotha,b, Daniel Braunb, Adriano Jossa
+aEawag, Swiss Federal Institute for Aquatic Science and Technology, 8600 Duebendorf, Switzerland
+bInstitute of Environmental Engineering, ETH Zürich, 8093 Zürich, Switzerland
+A B S T R A C T
+Nitrous oxides (N2O) emissions contribute to climate change and stratospheric ozone depletion. Wastewater treatment is an important, yet likely underestimated,
+source of N2O emissions, as recent, long-term monitoring campaigns have demonstrated. However, the available data are insufficient to representatively estimate
+countrywide emission due to the brevity of most monitoring campaigns. This study showed that the emission estimates can be significantly improved using an
+advanced approach based on multiple continuous, long-term monitoring campaigns. In monitoring studies on 14 full-scale wastewater treatment plants (WWTPs), we
+found a strong variability in the yearly emission factors (EFs) (0.1 to 8% of the incoming nitrogen load) which exhibited a good correlation with effluent nitrite. But
+countrywide data on nitrite effluent concentrations is very limited and unavailable for emission estimation in many countries. Hence, we propose a countrywide
+emission factor calculated from the weighted EFs of three WWTP categories (carbon removal, EF: 0.1–8%, nitrification only: 1.8%, and full nitrogen removal: 0.9%).
+However, EF of carbon removal WWTPs are still highly uncertain given the expected variability in performance.
+The newly developed approach allows representative, country-specific estimations of the N2O emissions from WWTP. Applied to Switzerland, the estimations
+result in an average EF of 0.9 to 3.6% and total emissions of 410 to 1690 tN2O-N/year, which corresponds to 0.3–1.4% of the total greenhouse gas emissions in
+Switzerland. Our results demonstrate that better data availability and an improved understanding of long-term monitoring campaigns is crucial to improve current
+emission estimations. Finally, our results confirm several measures to mitigate N2O emissions from wastewater treatment; year-round denitrification, limiting nitrite
+accumulation, and stringent control of sludge age in carbon removal plants.
+Introduction the side-stream treatment for reject water from the sludge lines (Joss
+et al., 2009; Kampschreur et al., 2008b). Emissions of N2O produced on
+Nitrous oxide (N2O) emissions contribute substantially to climate WWTPs can occur either on site or in receiving waters if dissolved N2O is
+change (IPCC 2014) and stratospheric ozone depletion (Ravishankara discharged (Mikola et al., 2014; Marescaux et al., 2018). However,
+et al., 2009). The atmospheric N2O concentration is expected to rise roughly 80% of the N2O emissions from WWTPs are released in the
+until the middle of the 21st century (Tian et al., 2020). Wastewater aerated zone of biological treatment (Baeten et al., 2020; Chen et al.,
+treatment plants (WWTPs) and their N2O production are currently often 2019).
+underestimated emission processes in national greenhouse gas (GHG) Quantifying representative EFs at the biological stage of WWTPs
+inventories. Estimations of countrywide N2O emissions are based on requires continuous long-term monitoring campaigns due to the sub-
+assumed emission factors (EFs). EFs in the standard reporting guidelines stantial daily variation and seasonality of emissions (Daelman et al.,
+are much lower (0.03% to 0.14%; Daelman et al., 2015, IPCC 2006) than 2013). A strong seasonal emission pattern with high emission in spring
+reported long-term full-scale measurements. With the refinement of the and low emissions in autumn was previously shown in several long-term
+IPCC methodology in 2019, increased EFs of 0.01% to 2.9% appeared in monitoring campaigns (Gujer, 2020). However, only six continuous
+the reporting guidelines (IPCC 2019). monitoring campaigns of at least one year’s duration have been reported
+In wastewater treatment, N2O formation is primarily caused by to our knowledge (Chen et al., 2019; Daelman et al., 2015, Gruber et al.
+biological nitrogen removal through nitrification and denitrification 2020, Kosonen et al., 2016). Five of these studies were conducted in
+(Kampschreur et al., 2009). The main production processes are the temperate climates, with a monthly mean temperature of over 10 ◦C
+biological stage in the water lines of WWTPs (Kosonen et al., 2016) and during 4–7 months (Belda et al. 2014). The EF assessed (0.8–2.9% of the
+* Corresponding author.
+https://doi.org/10.1016/j.wroa.2021.100122
+Received 9 April 2021; Received in revised form 24 September 2021; Accepted 24 September 2021
+Availableonline30September2021
+2589-9147/©2021TheAuthors.PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+total nitrogen loads) were shown to be substantially higher than those Central monitoring station
+found by many short-term campaigns (Chen et al., 2019; Daelman et al.,
+3-way valves
+2015, Gruber et al. 2020, Kosonen et al., 2016, Vasilaki et al., 2019). The
+causes of the wide range of EFs assessed are still unknown (Vasilaki
+Pre-treatment
+et al., 2019). Hence, we conclude that additional online long-term
+and protection Analyzer
+monitoring campaigns are much needed to better characterize the
+variability from N2O emissions in full-scale WWTPs. Ultimately, a broad PLC
+data basis is crucial for countrywide assessment of the N2O EFs from
+wastewater treatment. Purging pump
+Various approaches have been suggested for the extrapolation of N2O
+emissions from WWTPs at countrywide level (Ramirez-Melgarejo et al.,
+2020). The standard approach is described by the IPCC guidelines (IPCC
+2006), which are designed to be calculated with generally accessible
+variables. Consequently, the approach leads to high uncertainties of the
+total emission estimates for two reasons. Firstly, in a top-down
+approach, the nitrogen load to WWTPs is estimated from a country’s
+protein consumption, resulting in substantial differences compared to a
+bottom-up approach, using measured nitrogen influent loads to WWTPs
+(Ramirez-Melgarejo et al., 2020). Secondly, the IPCC guidelines suggest Biological treatment
+a uniform EF independent of the type of WWTP (IPCC 2006). The
+assumption of a uniform EF leads to high uncertainties, due to the wide
+Fig. 1. Schematic overview of the monitoring setups applied. Blue, dotted line
+range of EFs reported for different types of WWTPs (Cadwallader and indicates all elements within central monitoring station. PLC: programmable
+Van Briesen 2017) and poorly described key factors characterizing N2O logical controller.
+EFs (Vasilaki et al., 2019). Several methods have been suggested to
+overcome these shortcomings arising from short-term monitoring cam- cooling to 4 ◦C (JCP SL, JCT, Wiener Neustadt, AUT or TC-Standard
+paigns (Ahn et al., 2010; Valkova et al., 2020). However, the integration
+(PKE 521), Bühler, Ratingen, GER). To monitor the entire biological
+of continuous long-term monitoring campaigns on different process
+treatment at multiple sampling points and on various lanes, up to 14
+types is needed to obtain the most accurate estimates for countrywide
+floating hoods can be connected to our system over three-way valves
+N2O EFs.
+(Parker Lucifer type 7131KBG2JV00, Cleveland, USA). While one of the
+Here, we propose a refined approach to estimating N2O emissions
+valves is open to the measurement line, the other channels are purged
+from WWTPs based on the EFs of a dozen long-term monitoring cam-
+with a pump (ME 2 NT, Vaccubrand, Wertheim, GER) to ensure a con-
+paigns on full-scale WWTPs in Switzerland. To acquire a broad data
+stant flow through all the tubes. The constant flow is considered
+basis, we conducted seven monitoring campaigns of at least one year’s
+important for two reasons: (i) to reduce system response time and thus
+duration on full-scale WWTPs using an adaptation of the flux chamber
+allow fast switching between valves (1 min per measurement) and ii) to
+method (Gruber et al. 2020). Additionally, we extracted the same results
+avoid freezing of sampling tubes due to humidity in tubing and cold
+from seven long-term monitoring campaigns reported in literature
+temperatures.
+(Daelman et al., 2015; Kosonen et al., 2016, Gruber et al., 2020). We
+The system is controlled with a programmable logical controller
+used Spearman’s correlation analysis to characterize key variables of a (PLC type WAGO 750–881) which provides two key functions: (i)
+WWTP to predict N2O EFs. We use our results to link the variables to switching between the valves, and (ii) analogue–digital signal conver-
+patterns detected in our monitoring campaigns to provide experimental
+sion and data storage. Key control variables of the system are a flow-
+evidence for the correlations found, and we conducted full-scale tests on meter (MEMS flow sensor D6F-10A6–000, Omron, Kyoto, JP) in the
+one WWTP to prove concepts from the correlation analysis. Finally, we
+sample gas duct, a paramagnetic oxygen sensor in the gas analyser (X-
+propose a method for calculating N2O emissions for Switzerland and
+stream, Emerson, St. Louis MO, USA), and a humidity sensor (KW1, JCT,
+compare it with the methods described in the IPCC guidelines (IPCC
+Wiener Neustadt, AUT) after the pre-treatment. The flowmeter allows
+2006, 2019) regarding total emissions and corresponding uncertainties.
+detection of malfunctioning across the whole system or in specific
+channels when the measured flow drops below a set threshold. The
+Material & methods oxygen sensor signals substantial leaks in the channel when oxygen
+concentration is close to atmospheric concentrations and does not show
+Monitoring approach variation. Finally, the humidity sensor is used as a binary sensor. In case
+of humidity after the pre-treatment, the measurement is switched off to
+N2O emissions were assessed using an adapted version of the flux- prevent the analyser malfunctioning. As a second barrier against water
+chamber method as described in Gruber et al. 2020 (Fig. 1). In total, entering the analyser, a protection filter is installed directly after the
+five different setups based on the same general concept were applied to pre-treatment. A field computer is used to parametrize the PLC. Addi-
+monitor the emission on seven WWTPs (see diagrams in the Supporting tionally, the field computer establishes data transmission to a data
+Information: SI). In short, all discontinuously fed reactors were equipped server via the Secure File Transfer Protocol (SFTP) and a 3 G modem
+with a flux chamber. On WWTPs with continuously fed lanes, one or (IMON-U300, Insys Icom, Regensburg, GER). On the data server, the
+more lanes were monitored, each with three or more flux chambers per monitoring data is processed and synchronized with the operational
+lane placed on the aerated compartments. data of the WWTPs and visualized on demand. The operators of the
+In contrast to the standard method (Chandran et al., 2016), a WWTPs assessed lab data on concentrations of total nitrogen, nitrogen
+chamber (surface: 1 m2) with an open outlet was used, and therefore species, and COD sampled from influent, effluent primary clarifier,
+sample gas was not recirculated to the flux chamber after measurement. effluent biological treatment, and effluent WWTP at various intervals.
+A sample of the gas flowing through the chamber was diverted at the Operational data on influent flow, air supply, wastewater temperature,
+outlet through a tube with a length of up to a few hundred meters to the dissolved oxygen concentrations was acquired over the WWTP’s su-
+central monitoring station, where the off-gas was measured in a pervisory control and data acquisition (SCADA) system. A detailed
+non-dispersive infrared analyser (X-stream, Emerson, St. Louis MO, description of the monitoring setup can be found in the SI.
+USA). Prior to the measurement, the off-gas was dehumidified by
+2
+
+--- Page 3 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+WWTP selection and monitoring campaigns specification provided by the plant operators, ii) by measurement of the
+total air flow provided to a treatment lane, or iii) by measurement of the
+The seven WWTPs monitored were selected to represent the range of air flow provided to a compartment of the treatment lane. The airflow
+nutrient removal goals set and common types of processes installed in was recorded at intervals of 1 min, and emissions were calculated in 1
+WWTPs in Switzerland (Table 1). Common removal goals are i) carbon min intervals only for the aerated phases. Emissions from the whole
+removal ii) nitrification and iii) denitrification. Common processes treatment plant were extrapolated according to suggestions made in
+include various types of activated sludge (AS) systems, such as plug-flow Gruber et al. (2020): when wastewater loadings were expected to differ
+(conventional activated sludge (CAS), anoxic-aerobic (AO), anaerobic- or operation strategies to change, all lanes were monitored, but lanes
+anoxic-aerobic (A2O)), alternatingly fed intermittently aerated (A/I) with comparable process performance and operation were assumed to
+and, sequencing batch reactors (SBR)) and biofilm systems (hybrid fixed emit comparable quantities of N2O.
+bed and activated sludge (IFAS), fixed bed (FB)). We sought to represent N2O EFs were calculated with Eq. (1) for the whole duration of the
+various types of WWTP size classes (Table 1). Monitoring campaigns monitoring campaigns (Gruber et al. 2020; Aboobakar et al., 2013). For
+were conducted over at least 1 year. Flux chambers were placed on lanes the monitoring campaigns that were substantially longer than 1 year (+
+in accordance with the monitoring strategy proposed in Gruber et al. 3 months), we evaluated the EFs for all possible data sets of 1 year and
+(2020) (see section 2.1 and SI). The monitoring campaigns reported in calculated their average and standard deviation. In the newly conducted
+Gruber et al. (2020) were included in the selection. Additionally, data monitoring campaigns of more than 15 months, the yearly average EFs
+from three long-term monitoring campaigns of previous studies was did not exhibit substantial variation. EFs always refer to the yearly
+included for the statistical analysis of the data (Chen et al., 2019; average influent nitrogen load of the WWTPs calculated based on
+Daelman et al., 2015; Kosonen et al., 2016). These studies include data 24-hour composite samples. The samples were taken and analysed by
+on one AO process and two carrousel (CARR) activated sludge processes. the operators of the WWTPs every 5 to 14 days. Where nitrogen influent
+Detailed information on the WWTPs monitored and the results of the measurements were not available, we estimated the influent nitrogen
+newly conducted monitoring campaigns can be found in the SI. load by evaluating a nitrogen mass balance over the primary clarifier
+based on typical values for mass flow coefficients from standard text-
+books (Gujer 2007; Tchobanoglous et al., 2014), because at least effluent
+N2O emission and EF calculation loads of the primary clarifier were available in every case (Figure S3, SI).
+All monitoring data and the values for the nitrogen loads can be found in
+The net N2O flux for a specific lane was computed with the approach the SI.
+presented by Aboobakar et al. (2013) from the airflow supplied to each ∑ ∑ (cid:0) )
+reactor section equipped with a flux chamber and the respective N2O EF N2O = 3 d6 =5 1 31 m 64 =4 510 ⋅C NN l2 oO a,m d,d ⋅Qair m,d (1)
+concentration. When gaps between two consecutive data points did not daily
+le ox nc ge ee rd t3 h0 nm 3in 0, mN2 iO wco en rece en xt cr la ut dio en ds (w see er e l ain be lea r Sl 1y i in nt te hr ep o Sl Ia )t .e Td h; ed a at ia g fla op ws
+where EFN2O is the N2O EF [kg N2O–N/kgN], CN2O,m,d is the measured
+a n T r
+N2O concentration in the off-gas during minute m at day d [kg N2O–N/
+supplied to the reactor was estimated with three different methods
+m3], Qair,m,d is airflow supplied by the blower of the aeration system of
+depending on the WWTP: i) from the blower speed and the blower
+the WWTP to reactor surface area representative for a sampling point
+during minute m at day d [m3/d], and Nloaddaily is the yearly average
+Table 1
+nitrogen load per day (kgN/d).
+Characteristics of monitored WWTPs and origin of monitoring campaigns used
+in this study. Countries: CH, Switzerland; DK, Denmark; NL, the Netherlands; FI,
+Finland. Processes: A/I, alternatingly fed and intermittently aerated activated Meta data and correlation analysis
+sludge treatment; A2O, anaerobic, anoxic and aerobic cascaded activated sludge
+treatment; AO, anoxic and oxic cascaded activated sludge treatment; CARR, The correlation analysis included key figures and performance in-
+carrousel activated sludge treatment; CAS, conventional activated sludge; FB, dicators that were collected for each WWTP. Spearman rank correlation
+fixed bed biofilm reactor; IFAS, integrated fixed film activated sludge; SBR, was used to study the relationships between variables. The following
+sequencing batch reactor.
+variables on the design and operation of the WWTPs were included:
+WWTP Design size in Process Removal goal Origin design load, process for biological treatment, type of biomass, biological
+(country) person reactor volume, aerated volume in biological treatment, non-aerated
+equivalent’s (PE)
+volume in biological treatment, volume of secondary clarifier (if pre-
+Altenrhein 80,000 CAS Nitrification (Gruber sent), nutrient removal goal, aerobic solids retention time (aerobic SRT),
+(CH) et al. 2020)
+total solids retention time (SRT) and information on post, side-stream
+Altenrhein 40,000 FB Nitrification (Gruber
+and sludge treatment (fast sand filtration, supernatant treatment type,
+(CH) et al. 2020)
+Avedore (DK) 350,000 CARR Denitrification (Chen et al., co-digestion). The corresponding data for all WWTPs is available in
+2019) Table S1, SI. If possible, we collected and calculated values for the total
+Bazenheid 50,000 IFAS Denitrification this study nitrogen and COD loads at the influent and the effluent of the biological
+(CH)
+treatment and of the WWTPs. Additionally, we collected values on ni-
+Birs (CH) 150,000 SBR Denitrification this study (cid:0)
+Giubiasco (CH) 100,000 CAS Carbon this study trite (NO2 ) concentration in the effluent of the biological treatment.
+removal The input variables for the correlation analysis are summarized in
+Hofen (CH) 50,000 AO Denitrification this study Table S2, SI. All statistical calculations were performed using Python
+Kralingseveer 360,000 CARR Denitrification (Daelman
+programming language (version 3.8.3) (Van Rossum and Drake 2009)
+(NL) et al., 2015)
+and the Pandas (McKinney 2010), Numpy (Harris et al., 2020), and
+Luzern (CH) 280,000 A/I Denitrification (Gruber
+et al. 2020) Scipy packages (Virtanen et al., 2020).
+Moossee (CH) 50,000 AO Denitrification this study
+Scho¨nau (CH) 180,000 A2O Denitrification this study
+Full scale tests at the Hofen WWTP
+Uster (CH) 50,000 SBR Nitrification (Gruber
+et al. 2020)
+Vikinma¨kki 840,000 CAS Denitrification (Kosonen We conducted full-scale experiments to compare the effects on N2O
+(FI) et al., 2016) emissions of a pre-denitrification zone with those of a fully oxic process
+Zurich (CH) 670,000 A/I Denitrification this study
+at the Hofen WWTP (see SI for further details). The plant has an AO
+3
+
+--- Page 4 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+activated sludge process consisting of six lanes where two lanes use the Table 3
+same clarifier and sludge recycle (SI). Every lane consists of three zones Selected values for the estimation of the nitrogen load in Switzerland based on
+with an equal size, of which the first zone is typically anoxic. Four of the the IPCC methods (IPCC 2006, 2019).
+six lanes were monitored: lane 1–1, lane 2–1, lane 2–2, and lane 3–2. Variable 2006 IPCC guidelines 2019 refinement of the
+Whereas lane 2–1 and lane 2–2 share the same secondary clarifier, lane coefficients for IPCC guidelines for
+1–1 and lane 3–2 are independent of each other. Between February and Switzerland Switzerland
+April 2020, the first of three zones on two lanes (lanes 2–1 and 3–2) were P: Swiss protein consumption 306,000 306,000
+fully aerated. The exact dates and durations for each experiment are (t/year)
+given in Table 2. FNPR: Nitrogen conten of protein 0.16 0.16
+(default value)
+(kgN/kg protein)
+TPLANT: Connection rate to 97% 97%
+Extrapolation to the whole of Switzerland and uncertainty estimation WWTP
+(%)
+Countrywide N2O emissions were estimated by multiplying the total FIND-COM: Factor for industrial 1.25 1.25
+and commercial protein
+nitrogen load to the WWTP and different estimates of the EFs from
+(default value)
+WWTPs for Switzerland. We used four approaches for the estimation of (-)
+EFs: a) the 2006 IPCC guidelines (IPCC 2006), b) the 2019 refinement of FNON–COM: Factor for nitrogen – 1.09
+the IPCC guidelines (IPCC 2019), c) the average EF of all monitoring in non-consumed protein
+disposed in sewer system
+campaigns analysed in this study with a bottom-up approach for activity
+(default value)
+data estimation, based on extrapolation from data on 70% of the Swiss
+(-)
+wastewater load treated in WWTPs (Str¨ahl et al., 2013), and d) a method NHH: Additional nitrogen from – 1.08
+developed in this study that used the same nitrogen loads as in c). household products added to
+Emissions outside of the biological treatment of a WWTPs were not the wastewater (default value)
+(-)
+considered. All equations refer to the standard IPCC terminology.
+Calculated total nitrogen load to 60,000 70,000
+Approach a WWTP
+The 2006 version of the IPCC guidelines (IPCC 2006), the current (t N/year)
+standard method, was applied according to Eq. (2) of this study. The
+values for the estimates were chosen according to the Swiss imple-
+consumption (kg protein/year), TPLANT is the connection rate to WWTPs
+mentation of the 2006 IPCC guidelines. The EF applied was 0.032%, as
+(-), FNPR is the fraction of nitrogen in protein (-), NHH is the additional
+suggested by the guidelines. A standard deviation could not be calcu-
+nitrogen from household products added to the wastewater (-),
+lated for the resulting countrywide emission, because the 2006 EF is
+FNON–COM is the factor for nitrogen in non-consumed protein in the
+based on a single monitoring campaign. Numerical values for other
+sewer system (-), FIND-COM is the factor for industrial and commercial
+variables are given in Table 3. protein (-), and EFPLANTS is the EF for N2O from WWTPs (kg N2O–N / kg
+N 2O PLANTS=Protein⋅F NPR⋅T PLANTS⋅F IND(cid:0)COM⋅EF PLANTS (2) N).
+where N2OPLANTS is the total, direct N2O emissions from WWTPs in Approaches c and d
+Switzerland per year (kgN2O–N/year), Protein is Swiss protein con- For the bottom-up approach, we used the data set described in
+sumption (kg protein/year), FNPR is the fraction of nitrogen in protein (Stra¨hl et al., 2013) to estimate the nitrogen load in the wastewater
+(-), TPLANTS is the connection rate to WWTPs (-), FIND-COM is the factor for treated of all Swiss WWTPs. This dataset contains information on
+industrial and commercial protein (-), and EFPLANTS is the EF for N2O influent loads, treatment type and treatment performance for WWTPs
+from WWTPs (kg N2O–N / kg N). covering ~70% of the wastewater treated in CH in 2011 (Stra¨hl et al.,
+2013). We assumed the same fractions of WWTP types and extrapolated
+Approach b the nitrogen loads found in the dataset to the WWTPs treating the
+The 2019 refinement of the 2006 IPCC guidelines (IPCC 2019) was remaining ~30% of the wastewater in Switzerland. An overview of the
+applied according to Eq. (3) of this study. The values for the estimates data set is provided in section S6, SI. Countrywide emissions in ap-
+were chosen from the Swiss implementation of the 2006 IPCC guide- proaches c and d were calculated according to Eq. (4). Approach (d) was
+lines, and if not available, according to the default values in the 2019 calculated for two scenarios: d1 incorporates a high emission factor for
+refinement. The EF applied was 1.6 ±0.5%, which was calculated as the the carbon removal category and d2 a low emission factor.
+mean and the standard error of the monitoring campaigns used for the
+N 2O PLANTS=EF PLANTS⋅N PLANTS (4)
+guideline (Table S5, SI) (IPCC 2019). Numerical values of other vari-
+ables are given in Table 3.
+where N2OPLANTS is the total, direct N2O emissions from WWTPs in
+N 2O PLANTS=Protein⋅F NPR⋅T PLANTS⋅N HH⋅F NON(cid:0)COM⋅F IND(cid:0)COM⋅EF PLANTS (3) Switzerland per year (kgN2O–N/year), EFPLANTS is the estimated
+average EF of Switzerland (kg N2O–N / kg N) and NPLANTS is the total
+where N2OPLANTS are the total, direct N2O emissions from WWTPs in nitrogen load treated in wastewater treatment plant (kgN/year).
+Switzerland per year (kgN2O–N/year), Protein is Swiss protein The average EF was assessed by calculating the arithmetic mean of
+all monitoring campaigns reported in this study (approach c) or a
+Table 2 weighted sum of emission factors estimated separately for the three
+Start date, end date, duration, and experimental lanes during experimental categories of WWTPs (carbon removal, nitrification only, and nitrogen
+phases with one lane fully aerated at the Hofen WWTP. removal) in Switzerland (approaches d1 and d2) (Eq. (5)).
+Start date End date Days Lane fully aerated ∑3
+4.2.2020 14.4.2020 70 2–1 EF PLANTS= f i⋅EF i (5)
+14.4.2020 27.4.2020 13 3–2 i=1
+17.6.2020 24.6.2020 8 2–1
+9.9.2020 23.9.2020 13 2–1 where EFPLANTS is the estimated average EF of Switzerland in scenarios
+4
+
+--- Page 5 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+(d1) and (d2) of approach (d) (kg N2O–N / kg N), fi is the fraction of value of 1.6% for all studies is comparable to the value proposed in the
+nitrogen loading in Switzerland treated in WWTPs belonging to category updated IPCC guidelines (IPCC 2019). However, the high standard de-
+i, and EFi is the estimated EF for category i. viation of the average EF (2% equivalent to 125% of the mean value)
+shows clearly that using average EFs for countrywide extrapolations
+Estimation of uncertainties leads to very high uncertainties, which is in line with previous research
+We estimated the uncertainties (standard deviation) of the estimated (Valkova et al., 2020). Characterizing the N2O EF of a WWTP depending
+average EFs (EFPLANTS) using linear error propagation. The standard from key indicators is therefore essential for the robust calculation of
+error (SE) of the countrywide EF estimates for approaches (b), (c), (d1) countrywide EFs.
+and (d2) were calculated by: None of the explanatory factors displayed in Fig. 2 exhibits a strong
+√̅ ∑̅ i=̅ m̅̅ 1̅̅̅ f̅̅ i̅̅ (̅̅̅̅ √̅̅ σ̅̅ ni̅ ̅̅ i̅̅̅ )̅̅̅̅ 2̅ mre ela nt ti o san ew di it oh it sgh ne fiN 2 caO tE ecF lo. rW h aai tl e ln i wt (r io t=g he Nn 20r Oe .5m E1o v (a r=l =e 0ffi (cid:0).0c 06ie 0n 0c 2y d p3i s =p l ta 0ry 9s ta
+SD EF= 2 ̅ ̅ (6) w e a k in d n s n i tc on tr ee l t i ao n r (cid:0) F, p ., F i g . ) , .e a -
+z e o r r a l , 9 ,
+Fig. 3). The low relevance of the reactor configuration and the treatment
+where SDEF is the standard deviation of the estimated average EF, m is process can be only discussed qualitatively due to the low number of
+the number of categories of WWTPs (b,c: 1, d1, d2: 3), ni is the number of monitoring campaigns for different processes: Firstly, flow through
+samples in category i, fi is the fraction of nitrogen loading in Switzerland activated sludge systems exhibited a wide range of EFs (0.08%(cid:0) 8%; n =
+treated in WWTPs belonging to category i, and σ i is the standard devi- 6). The systems monitored with our setup with an anoxic zone during
+ation of the EFs in category i. The fraction √σ̅i̅̅ represents the standard the whole year (processes: AO and A2O, n =3) did not exceed an EF of
+ni
+deviation of EFi. 0.3%. The very low EFs are not in line with the value (1.9%) for the
+Approach (a) is based on a single fixed EF, so uncertainty cannot be Viikinma¨ki WWTP, which uses with an AO process. This dissimilarity
+quantified. may be explained by the difference between its influent conditions:
+Viikinma¨ki is served by a separated sewer system and the climate in
+Results and discussion Finland differs from that of central Europe (Kosonen et al., 2016).
+Moreover, the nitrogen removal efficiency of the biological treatment is
+N2O emission factors from long-term monitoring campaigns 60%: quite low compared to the other AO and A2O systems (Fig. 2).
+Secondly, the EFs of two activated sludge plants with SBR configuration
+The monitoring campaigns studied showed a yearly N2O EF ranging differed substantially (0.3% vs. 2.3%) as their nutrient removal goal
+from 0.1% to 8% of the total influent nitrogen load (Fig. 2). The range of differed: nitrification vs. denitrification. Previously, SBR systems were
+EF is significantly wider than has been reported from previous long-term reported to cause generally higher N2O emissions (Vasilaki et al., 2019),
+monitoring campaigns (1.1 to 2.9%), mainly due to the high EF of the but our results indicate that low EFs can be reached in SBR systems too.
+Giubiasco WWTP, whose treatment goal is carbon removal. The average Thirdly, the two A/I activated sludge systems varied substantially (0.2%
+Fig. 2. N2O EF calculated for all available monitoring campaigns as a function of the yearly average nitrogen removal efficiency. Colors describe nutrient removal
+goal. Small letters highlight campaigns assessed with a monitoring method other than the flux chamber method (a: (Daelman et al., 2015), b: (Kosonen et al., 2016),
+c: (Chen et al., 2019)). Size of data points describes the size class of the WWTPs (1: 〈50,000 PE, 2: 50,000 – 200,000 PE, 3: 200,000 – 500,000 PE, 4: 〉500,000 PE).
+Shape of data points indicates treatment process.
+5
+
+--- Page 6 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+Fig. 3. Correlation coefficients (spearman’s rank, r) and significance levels (p) of selected variables with N2O EFs. Abbreviations: C:N =ratio in the influent; N_in =
+nitrogen inflow; r =correlation coefficient; Spec. =specific; SRT =sludge retention time.
+vs 0.8%) even though they shared the same removal goal, denitrifica- Unlike the flux chamber approach, emissions from unaerated zones
+tion. Finally, both biofilm systems monitored had a high EF (1.4%), in the biological treatment and secondary clarification can be assessed
+which is closely in line with previously reported values (Bollon et al., using approaches i) and ii). However, the relative contribution of these
+2016). The systems monitored by Daelman et al. (2015) at Kralingseveer emissions has been found to be of minor importance (Chen et al., 2019;
+WWTP and Chen et al. (2019) at Avedøre WWTP have carrousel reactors Mikola et al., 2014). Three main sources of uncertainty arise when using
+for the biological treatment and exhibited high EFs (1.1% and 2.9% the flux chamber method for monitoring N2O emissions from the aerated
+respectively). zone in the biological treatment. Firstly, inhomogeneous air supply
+The EFs assessed by other research groups are higher on average. within the biological treatment due to preferential flows of air and aging
+This might be linked to the monitoring approach. In contrast to our flux of the membrane aerators can locally affect airflow rates and calculated
+chamber based monitoring approach, the other monitoring campaigns emissions substantially. To reduce those uncertainties, we used a
+were conducted using i) measurement of dissolved N2O in the biological multi-flux-chamber-approach with at least three flux chambers per lane
+treatment combined with a stripping model and ii) the measurement of to cover the full range of off-gas concentrations within a treatment lane.
+the collected off-gas of covered WWTP. The study by Chen et al. (2019) Secondly, inhomogeneity in nutrient and sewage loading of parallel
+used approach i) and resulted in an EF similar to that found in this study. lanes in a WWTP may contribute to variation in the emissions between
+The studies by Daelman et al. (2015) and Kosonen et al. (2016) used lanes, which remains unobserved if not all lanes are monitored (Gruber
+approach ii) and reported very high EFs despite high nitrogen removal in et al. 2020). Thirdly, the quality of air flow and blower data differs
+the biological treatment. highly between plants, ranging from blower frequency data of single
+6
+
+--- Page 7 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+blowers supplying several lanes to air flow meters installed in each zone conditions, which has been demonstrated in lab- and full-scale WWTP
+of a treatment lane. To quantify the relevance of the uncertainties and studies (Conthe et al., 2018; Rodriguez-Caballero et al., 2015). However,
+compare the off-gas monitoring approaches, a study comparing all a few WWTPs (Lucerne, Avedøre and, most strikingly, Kralingseveer)
+monitoring approaches applied on one WWTP is needed. had a high EF factor (≥1%) despite high nitrogen removal efficiency,
+most likely due to nitrite accumulation. Excluding the Kralingseveer
+WWTP data from the correlation analysis results in a strong and sub-
+Variables relevant for yearly N2O EF stantial relation between the EF and nitrogen removal efficiencies (r =
+0.73, p =0.005).
+Fig. 3 shows that the EF displays the highest and only statistically
+(cid:0) Other variables that could potentially be linked to N2O did not show
+significant correlation with the effluent NO2 load expressed as a frac-
+significant correlation: nitrogen loading, specific reactor volume, C to N
+tion of the incoming nitrogen load. Similarly, concentration peaks
+ratio at inflow, aerobic SRT, and WWTP utilization (average/design
+coin (cid:0)cided with N2O emissions peaks at WWTP with high EF, where
+load). However, yearly average values are only partly useful for such
+NO2 effluent conc (cid:0)entrations were measured (Giubiasco, Lucerne,
+correlation analysis, because seasonal peak phases are not well-
+Kralingseveer). NO2 accumulation has previously been linked to high
+represented (Vasilaki et al., 2018). Nevertheless, we conclude from
+N2O emissions in nitritation-denitrification systems (Kampschreur et al.,
+the relations found that countrywide estimations can be improved by
+2008a; Peng et al., 2015). A negative correlation with nitrogen removal
+considering three factors governing the N2O EF of a WWTP: i) seasonal
+efficiency was expected, because denitrifying communities have a high (cid:0)
+emission pattern and NO2 accumulation, ii) all-year denitrification,
+capacity to scavenge N2O produced during both anoxic and aerobic
+Fig. 4. Monthly average N2O emission as a fraction of the monthly maximum emission for all monitoring campaigns analysed (a-c). The monitoring campaigns are
+grouped by the presence and shape of a seasonal emission pattern (G1: peak month in Feb/March, G2: peak months Apr/May-Jun/Jul, G3: no clear emission peak
+phase). EFs displayed above panels represent average EFs and standard deviation for each group. Boxplots (d) displaying the EFs in different groups (G1–3). First
+quartiles, medians (red line), and third quartiles are displayed in the box. Triangles indicate mean values and circles represent outliers. Significance levels (Mann-
+Whitney-Wilcoxon) indicates whether groups (G1 or G2) are significantly higher than pairing groups (G2 or G3) (not signficant (ns) >0.05, * <0.05, ** <0.01, ***
+<0.001).
+7
+
+--- Page 8 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+and iii) unstable nitrification. These factors are discussed in the Hofen WWTP. Some WWTPs in Switzerland are operated for nitrogen
+following sections. removal year-round whereas other treatment plants are fully aerated in
+winter, and thus only perform denitrification in summer. The responses
+(cid:0)
+Seasonal emission pattern and NO2 accumulation of N2O emissions to switching aeration on or off in the first compartment
+of the biological treatment train are shown in Fig. 5. The N2O emissions
+A strong and reproducible emission pattern has been found in our were substantially increased on the fully aerated lanes (lanes 2–1 and
+own N2O emission monitoring campaign and in all previous studies 3–2). Amongst the monitored lanes sharing the same secondary clarifier,
+except for the Viikinma¨ki study (Fig. 4). Emissions typically peaked in the one with an anoxic zone (2–2) had lower emissions than the fully
+March, April or May and dropped over several months to a minimum in aerated one (2–1) but still had higher emissions than the lane with
+September or October. Hence, we analysed the seasonal emission anoxic zones on both lanes sharing the same secondary clarifier (lane
+pattern of the long-term monitoring campaigns for all biological nutrient 3–2). When the conditions were swapped and lane 3–2 was fully aerated,
+removal (BNR) activated sludge processes in temperate climates, since the emission pattern reacted immediately and switched completely. The
+this category represents the majority (n =10) of the WWTPs monitored. anoxic zone, however, does not always have such a substantial impact
+The analysis of seasonality is considered representative, because for on the emissions. During the first phase of the first experiment (begin-
+some WWTPs more than 1 year of data were available (Uster, Lucerne, ning of February to mid-March), emissions on lanes 2–1 and 2–2 only
+Altenrhein) and the observations represent independent measurements slightly increased. Additionally, the emissions rose to a lower level in
+of comparable processes during different years. June and only marginally in September. The importance of denitrifica-
+The seasonal emission pattern with a high emission peak in March or tion to reaching low emissions highlights the need to consider nitrogen
+April was only apparent in five of the monitoring campaigns (Fig. 4, removal rates in countrywide estimations of N2O emissions.
+group G1, panel a). Two WWTPs exhibited a shifted pattern with The varying impact of an anoxic zone underpin our conclusion that
+extended peaks between April and July (group G2, panel b), and three the emission peaks in spring are caused by imbalanced nitrification and
+(cid:0) (cid:0)
+WWTPs featured a rather uniform pattern with only occasional peaks NO2 accumulation. An anoxic zone prevents NO2 and N2O accumu-
+(group G3, panel c). The average EF was significantly higher for the lation probably via the return sludge, since both intermediates can be
+WWTPs exhibiting the seasonal EF than those without (Mann-Whitney- reduced by denitrification as long as sufficient organic substrate is
+Wilcoxon: U =3095, p =6 ×10(cid:0) 4; Fig. 4, panel d). Only one of the available (Pan et al., 2013). The seasonal dependence of denitrification
+WWTPs with an emission peak in March or April had an EF clearly below on the emissions might be linked to the yearly variation of the microbial
+1% (Moossee WWTP). WWTPs with a seasonal emission pattern emitted community and nitrifiers in a WWTP and relates to the previous dis-
+mostly between February and May. The high contribution of the emis- cussion about yearly NOB variation (Griffin and Wells 2017; Gruber
+sion peak phase to the total emissions highlights the strong need to et al., 2021; Ju et al., 2014). Experimental support for the relevance of
+better understand the causes of the seasonal emission pattern (Chen seasonal nitrifier variation can be found in the monitoring campaign at
+et al., 2019). Additionally, it signifies that emission reduction strategies the Giubiasco WWTP, which represents an extreme case of unstable
+should be based and tested on long-term monitoring campaigns covering nitrification and highlights its impact on N2O emissions.
+at least 1 year (Duan et al., 2020). The reproducibility of the emission
+pattern on WWTPs with high EF (panel a, b) and between different lanes Unstable nitrification and N2O emission pattern
+in a WWTP suggests that monitoring N2O emissions over 1 year is
+sufficient. To characterize the risk of high N2O emissions in a process with
+On several WWTPs (Lucerne, Uster, Kralingseveer), the pattern could unstable nitrification, we analysed the Giubiasco WWTP in more detail.
+(cid:0)
+be partly linked to NO2 accumulation in biological treatment during The Giubiasco WWTP is a CAS system with carbon removal as a treat-
+(cid:0)
+the spring season. We hypothesize that reduced NO2 oxidizing bacteria ment goal. The N2O emission pattern exhibited a strong seasonal vari-
+(cid:0)
+(NOB) performance could be the cause of seasonal NO2 accumulation ation (Fig. 6a). As a consequence of higher temperatures, nitrifiers can
+(Gruber et al., 2021; Vieira et al., 2018) and lead to N2O peak emissions actually proliferate during the summer months and a seasonal occur-
+induced by enhanced nitrifier denitrification or incomplete heterotro- rence of nitrification is the result at Giubiasco WWTP (Fig. 6b). The
+phic denitrification. The emission pattern and the emission peaks in yearly emission pattern exhibits two emission peak phases (January –
+spring help to prioritize efforts to mitigate N2O emissions, but the high March & June - July): these coincide with a dramatic change in nitrifi-
+impact on the yearly EF is problematic for a countrywide extrapolation cation performance. Nitrification did not occur during winter, at low
+based on only a few monitoring campaigns, since the frequency of temperatures. Therefore, the ammonium effluent concertation of the
+(cid:0)
+WWTPs with seasonal peaks is unknown. Additionally, NO2 effluent WWTP exhibits a pattern that is opposite of the wastewater temperature
+(cid:0)
+concentrations do not fully represent the NO2 concentrations in the curve. During the transition from a nitrifying to a non-nitrifying process,
+(cid:0) (cid:0)
+reactors, because NO2 can accumulate locally in a WWTP or even the NO2 concentrations in the WWTP effluent increased and massive
+within sludge flocs (Chen et al., 2018). As a consequence, monitoring of amounts of N2O were emitted.
+N2O emission patterns at WWTPs with plug-flow characteristics or The high EF (8%) for a non-BNR system contrasts strongly with
+multiple biological treatment steps, such as the Kralingseveer WWTP, previous studies and the IPCC guidelines, which suggests that a high EF
+may be less accurate if effluent concentrations are used or if concen- is linked to uncontrolled and incomplete nitrification. In most previous
+trations are sampled only at one location. For such cases, extensive studies, non-BNR systems were found to have low emissions (Vasilaki
+monitoring of nitrogen species at a range of locations may be advanta- et al., 2019). Our study demonstrates that long-term monitoring is
+(cid:0)
+geous. In order to avoid NO2 accumulation, all-year denitrification required to assess EFs from non-BNR systems, unless nitrification can be
+appears to be an efficient strategy. WWTPs without seasonal emission excluded all year. Most of the previously reported monitoring campaigns
+patterns (Birs, Zurich and Hofen) or with low EFs (Moossee) had a very were conducted over short periods, but a few discontinuous long-term
+(cid:0)
+low proportion of NO2 in the effluent of the biological treatment monitoring campaigns have been conducted for non-BNR system. A
+(0.2–0.5% relative to the yearly nitrogen influent load). All of these study on a Brazil WWTP over 1 year resulted in a very low EF of 0.12%
+WWTPs practise all-year denitrification. (Brotto et al., 2015). The nitrogen removal efficiency and nitrification
+(cid:0)
+exhibited a strong seasonal variation, but NO2 was comparatively low
+Year-round denitrification and N2O reduction (0–0.8 mg NO2(cid:0) -N/L) in all effluent samples. A possible explanation for
+the differences from the Giubiasco WWTP is the tropical climate, which
+To test the seasonally varying influence of an anoxic zone and led to very high wastewater temperature (24 ◦C at minimum). High
+denitrification on N2O emissions, full-scale tests were performed at the emissions for WWTPs with variable nitrogen removal efficiencies were
+8
+
+--- Page 9 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+Fig. 5. N2O emission at Hofen WWTP between January and October 2020. Arrows indicate the lanes where all three compartments were fully aerated.
++ (cid:0)
+Fig. 6. Monthly average N2O emissions measured for both lanes at the Giubiasco WWTP (panel a) and wastewater temperature, monthly average NH4 -N, and NO2 -
+N effluent concentrations (panel b). Error bars indicate standard deviation of daily averaged values.
+reported from three monitoring campaigns using a discontinuous patterns were very similar to the WWTPs monitored in our study.
+monitoring approach over a year (Yan et al., 2014). In that study, a Further continuous, long-term monitoring campaigns on carbon
+WWTP with similarly low nitrogen removal efficiencies as the Giubiasco removal WWTPs are essential to provide better estimates of EF vari-
+WWTP had a very high average EF of 3.6%. The yearly temperature ability. We expect negligible EFs from carbon removal systems that
+9
+
+--- Page 10 ---
+W. Gruber et al. W a t e r R e s e a r c h X13(2021)100122
+completely avoid BNR, partly explaining the low EF of previous studies. Table 4
+For emission mitigation, limiting the SRT to prevent nitrifier growth Estimation of direct N2O emissions from wastewater treatment plants in
+could be a feasible strategy for carbon removing plants. However, the Switzerland using five calculation methods.
+strategy leads to impaired removal of organic compounds in the bio- Estimation Activity data EFPLANTS N2OPLANTS (Total
+logical treatment (Falas et al., 2016) and, thus, to a trade-off decision approach (nitrogen load) (Estimated emissions and
+between effluent quality and the carbon footprint of a WWTP. (tN/year) average EF) (%) uncertainties)
+(tN2O–N/year)
+a (2006 60,000 0.032 19
+Countrywide extrapolation of N2O emissions and uncertainties guidelines)
+b (2019 70,000 1.6 ±0.4 1120±280
+The dependencies of the N2O EF discussed above and the corre- refinement)
+sponding understanding of the mechanistic processes derived from the c (Swiss specific 47,000 1.6 ±0.5 744±230
+activity data,
+14 long-term monitoring campaigns on eight types of WWTP processes
+average EF)
+led us to propose a refined approach to estimating on-site N2O emissions d1 (Swiss specific 47,000 3.6 ±0.2 1690±90
+of WWTPs in Switzerland. We suggest calculating an EF for the three activity data,
+nutrient removal categories of carbon removal, nitrification only, and weighted EF,
+Carbon
+year-round nitrogen removal with the overall assumption that a lower
+removal: high
+nitrogen removal results in higher emissions and a higher probability of EF)
+(cid:0)
+NO2 accumulation unless nitrification can be excluded completely. We
+calculated an average EF for Switzerland by multiplying the average EF d2 (Swiss specific 47,000 0.9 ±0.2 410±90
+for each category (Fig. 7a) with the share of nitrogen load treated by activity data,
+weighted EF,
+each category (Fig. 7b), (Table 4). The total emissions were calculated
+Carbon
+for two scenarios with our approach (d1 and d2), because data avail- removal: low
+ability for carbon removal plant was not sufficient and emissions were EF)
+expected to differ substantially between such WWTPs. We did not pro-
+pose a linear regression model for EF extrapolation, since data on
+effluent NO2(cid:0) , the best predictor for EFs (Fig. 3), was limited on a e os ti tm hea t Wio Wns d Po an fo tet ri n dc il su cd he rN g2 eO oe m this es i eo nn vs io rori ng min ea nt ti n ag f dr o tm t h toe e af lfl Gu Hen Gt
+f T a t n he t
+countrywide level in Switzerland, and is in most other countries.
+emission in Switzerland in 2011 were around 10% higher than in 2018.
+The results of the new methods (approaches d1 and d2) are
+Accordingly, we expect an increasing importance of N2O emissions from
+compared with the current IPCC approaches (approaches a and b) and
+WWTPs to the total Swiss GHG emissions, especially assuming the pro-
+an average EF of all 14 EFs (approach c) discussed in this study (Table 4).
+jected, continued decline of total GHG emissions.
+The estimated total nitrogen load to WWTP based on our bottom-up
+The discrepancies between the activity data from the IPCC ap-
+approach (c, d) is lower than that calculated with the IPCC ap-
+proaches and our data confirm that a country-specific bottom-up
+proaches (a, b). Nevertheless, the emission estimates calculated with the
+approach should be prioritized for estimation if sufficient data is avail-
+2006 guidelines are drastically lower than the other estimates due to the
+able (Ramirez-Melgarejo et al., 2020). The low emission estimates
+very low EF applied (Table 4). N2O emissions calculated with our ap-
+yielded from the 2006 guidelines highlight that an update of the esti-
+proaches (c, d1, d2) vary substantially and depend primarily on the
+mation methods was clearly required for more accurate representation
+estimated EF for carbon removal plants (Fig. 7c). The 2019 refinements
+of wastewater treatment in GHG inventories. However, our results show
+are in the range of the total emissions estimated with our approaches
+that the 2019 refinement is not optimal for calculating country specific
+and data. In summary, all the estimates show that direct N2O emissions
+EFs for two reasons: (i) The selection of monitoring campaigns in the
+from WWTPs are important and sum up to 0.3–1.4% of total Swiss GHG
+guidelines used to calculate the average EF is arbitrary and not
+emissions (~50 MtCO2,eq/year in 2011) (FOEN 2020). Notably, these
+Fig. 7. Estimation of the countrywide EF for Switzerland (CH). N =plants with an anoxic zone for year-round denitrification; NH4 =nitrifying plants denitrifying
+only during the warm season; C =plants not required to nitrify. C (d1) and (d2) denote EFs for the two scenarios tested. Error bars indicate the standard errors. (a)
+Estimated EFs per nutrient removal category. (b) Treated nitrogen load per nutrient removal categories in CH in 2011. (c) Estimate emissions for each category
+assuming activity data in Table 4.
+10

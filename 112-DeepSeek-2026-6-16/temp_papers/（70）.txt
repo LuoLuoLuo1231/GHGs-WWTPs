@@ -1,0 +1,548 @@
+--- Page 1 ---
+Ecotoxicology and Environmental Safety 283 (2024) 116820
+Contents lists available at ScienceDirect
+Ecotoxicology and Environmental Safety
+journal homepage: www.elsevier.com/locate/ecoenv
+Assessment and optimization of wastewater treatment plant in terms of
+effluent quality, energy footprint, and greenhouse gas emissions: An
+integrated modeling approach
+Seojun Leea, Jaeyoung Choia, Hyeonsoo Choia, Heekyong Oha,*, Sangyoup Leeb
+aDepartment of Environmental Engineering, The University of Seoul, 163 Seoulsiripdae-ro, Dongdaemun-gu, Seoul 02504, the Republic of Korea
+bInstitute of Convergence Science, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841, the Republic of Korea
+A R T I C L E I N F O A B S T R A C T
+Edited by G. Liu Wastewater treatment plants (WWTPs) can benefit from utilizing digital technologies to reduce greenhouse gas
+(GHG) emissions and to comply with effluent quality standards. In this study, the GHG emissions and electricity
+Keywords: consumption of a WWTP were evaluated via computer simulation by varying the dissolved oxygen (DO), mixed
+Activated sludge modeling liquor recirculation (MLR), and return activated sludge (RAS) parameters. Three different measures, namely,
+Dissolved oxygen effluent water quality, GHG emissions, and energy consumption, were combined as water–energy–carbon
+Mixed liquor recirculation
+coupling index (WECCI) to compare the effects of the parameters on WWTPs, and the optimal operating con-
+Nitrous oxide (N2O)
+dition was determined. The initial conditions of the A2O process were set to 4.0 mg/L of DO, 100 % MLR, and
+Return activated sludge
+Water-energy-carbon coupling index (WECCI) 90.7 % RAS. Eighty scenarios with various DO, MLR, and RAS were simulated under steady-state condition to
+optimize the biological treatment process. The optimal operating conditions were found to be 1.5 mg/L of DO,
+190 % MLR, and 90.9 % RAS, which had the highest WECCI of 2.40 when compared to the WECCI of the initial
+condition (1.07). This optimal condition simultaneously reduced GHG emissions by 1348 kg CO2-eq/d and en-
+ergy consumption by 11.64 MWh/d. This implies that controlling DO, MLR, and RAS through sensors, valves, and
+pumps offers a promising approach to operating WWTPs with reduced electricity consumption and GHG emis-
+sions while attaining effluent quality standards. Additionally, the nitrous oxide stripping rate exhibited linear
+relationships with the effluent total ammonia and nitrite concentrations in the aerobic reactor, suggesting that
+monitoring dissolved nitrogen compounds in the effluent and reactor could be a viable strategy to control MLR
+and DO in the biological reactor. The digital-based assessment and optimization tools developed in this study are
+expected to hold promise for application in broader environmental management efforts.
+1. Introduction requires developing a plan for reducing carbon footprint. South Korea
+also developed a “2050 carbon neutrality strategy” by proposing an
+In 2015, the Paris Agreement, which urges both developed and expansion of renewable energy sources and an improvement in energy
+developing countries to maintain the rise in global temperature below efficiency, sustainable transportation, carbon capture storage, etc. This
+1.5 ◦C, was signed in an effort to solve the problem of global warming is because reducing energy consumption and GHG emissions has become
+(Rogelj et al., 2015). Unlike the Kyoto Protocol, the Paris Agreement an issue.
+requires each country to set its own nationally decided commitment to There is a global interest in reducing GHG emissions from waste-
+minimize greenhouse gas (GHG) emissions. In line with the agreement, water treatment plants (WWTPs) owing to the growing climate crisis
+countries worldwide are making carbon neutrality commitments and (Vasilaki et al., 2019). Over the past few years, WWTPs have increas-
+implementing several steps to achieve these goals. International Water ingly focused on developing control methods to reduce GHG emissions
+Association (2016) recommended four levels of action for water-wise (Lu et al., 2023). In 2020, South Korea’s wastewater treatment sector
+cities. Level 1 encompasses minimizing the amount of energy used to emitted 1.6 Mt CO2-eq/yr of GHGs (KME, 2022). Reducing GHG emis-
+treat water, which is the basic step that must be implemented. Level 2 sions from the wastewater sector is essential for achieving carbon
+* Corresponding author.
+E-mail address: heekyong.oh@uos.ac.kr (H. Oh).
+https://doi.org/10.1016/j.ecoenv.2024.116820
+Received 8 May 2024; Received in revised form 25 July 2024; Accepted 28 July 2024
+Available online 1 August 2024
+0147-6513/© 2024 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-
+nc/4.0/ ).
+
+--- Page 2 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+neutrality nationwide. GHGs from WWTPs are emitted as indirect Table 1
+emissions of carbon dioxide (CO2) due to electricity consumption and as Monthly influent water qualities of the WWTP in 2020.
+direct emissions of nitrous oxide (N2O) and methane (CH4) from bio- Concentrations Minimum Mean Maximum In April
+logical treatment processes. In particular, N2O has a relatively high Parameters
+impact on global warming and also depletes ozone. As Ravishankara
+BOD (mg O2/L) 76.9 140.7 175.6 169.9
+et al. (2009) revealed, N2O was expected to be the ozone-depleting TN (mg N/L) 18.8 33.5 40.7 35.1
+substance with the largest emission of this century. These negative ef- TP (mg P/L) 1.9 3.7 4.9 4.9
+fects on the environment have effectuated the necessity of reducing SS (mg TSS/L) 68.1 100.6 139.3 139.3
+direct N2O emissions. In addition, Shrestha et al. (2022) emphasized
+that even a small amount of N2O must be reduced as it has a potent
+impact. Kumar et al. (2021)highlighted that greenhouse gas mitigation Table 2
+strategies for wastewater treatment plant can be derived from changing Fraction of influent contaminant components.
+operating conditions, and further research work is needed. Symbol Definition Unit Values
+Generally, the emission factor (EF) of each GHG is used to estimate
+frVSS,TSS Fraction of VSS/TSS % 90.00
+gas production in WWTPs. However, Wang et al. (2022)mentioned that frSCCOD, Fraction of filtered COD in the total COD % 40.00
+EFs are inaccurate because they vary depending on the biological
+TCOD
+technology type and operating conditions. Therefore, it is necessary to frSCOD, Fraction of flocculated filtered COD in the total % 28.00
+increase the accuracy of estimating GHG emissions. A possible solution TCOD COD
+frVFA, Fraction of VFA in filtered COD % 14.70
+to this inaccuracy issue is to monitor each WWTP based on its unique
+SCCOD
+operating conditions. frSU,SCCOD Fraction of soluble nonbiodegradable organics in % 14.70
+Wastewater treatment requires much energy, and research has filtered COD
+revealed that WWTPs account for 7 % of global electricity consumption frSNHx,TKN Fraction of NHx in total Kjeldahl nitrogen % 68.30
+(Gu et al., 2023). As raising rainfall intensity increases energy usage, frSPO4, TP Fraction of PO43(cid:0) in TP % 60.00
+electricity consumption can be lager due to climate change (Ranieri
+et al., 2024). Thus, it is important to operate WWTPs using hydraulic retention time (HRT) were based on the target WWTP. The test
+energy-efficient strategies by employing digital technologies such as bed had a capacity of 121,845 m3/d, a DO concentration of 4 mg/L, an
+algorithms, sensors, and Internet of Things (IoT). Deterioration in MLR rate of 100 % of the capacity, and a RAS rate of 90.7 % of the
+treatment performance is caused by elevated influent contaminant capacity. Table 1 shows a summary of the monthly influent water
+concentrations induced by climate change (Li et al., 2023). Accordingly, qualities of the target plant in 2020, according to Pubic data portal
+the prediction of GHG emissions and energy consumption through the (2024). According to the data collected in April, a BOD of 169.9 mg
+simulation of WWTPs has become necessary for handling fluctuations in O2/L, a TN content of 35.1 mg N/L, a total phosphorus (TP) content of
+influent water quality. 4.9 mg P/L, SS of 139.3 mg TSS/L, and pH of 4.16 flowed into the plant.
+Currently, WWTPs are attempting to incorporate simulation, artifi- This study used the data in April, since most of parameters were
+cial intelligence, and algorithms to improve treatment efficiency. In generally high compared to other months.
+particular, numerous studies have demonstrated that simulation can
+successfully evaluate the operating parameters in WWTPs, including
+effluent water quality, GHG emissions, and cost (Awad et al., 2024; Chen 2.2. Model description
+et al., 2021; Gabrielli et al., 2023; He et al., 2023). Consequently,
+simulation research is being actively conducted to reduce N2O produc- SUMO v.21 (Dynamita, France) was adopted for the simulation to
+tion in WWTPs. Massara et al. (2018) estimated N2O emissions by evaluate the efficiency of a WWTP under various scenarios with
+developing a model using 3-pathway model for N2O production. Abu- different DO, MLR, and RAS levels. The influent was based on the
+limiti et al. (2022) investigated the trade-off between energy con- fractions of contaminant components, as shown in Table 2. The layout of
+sumption and N2O production in WWTPs through model simulations. the test bed is shown in Fig. 1. The values specified in Table 2are the set
+Additionally, Shen et al. (2023) studied an algorithm for controlling values, which were optimized for the simulation according to informa-
+chemical oxygen demand (COD) in sewage treatment processes. tion on the influents. The simulation platform provided the contaminant
+Therefore, this study aimed to minimize energy consumption and concentration in the unit process, energy consumption, effluent quality,
+direct GHG emissions using computer simulations. The impacts of dis- and GHG emissions from the reactors.
+solved oxygen (DO), mixed liquor recirculation (MLR), and return Sumo4N was used for the simulations since it calculates the N2O
+activated sludge (RAS) on effluent water quality, energy consumption, stripping rate based on a four-step nitrification process. The model uses
+and GHG emissions were evaluated. The correlation between effluent the Monod equation to describe microorganism growth and the Arrhe-
+total nitrogen (TN) and RAS was discussed based on the specific deni- nius equation to evaluate temperature sensitivity. Additionally, Sumo4N
+trification rate (SDNR) trend. Moreover, the electricity consumption considers the two-pathway (2-P) model of AOB for N2O production. The
+patterns and the correlation between energy consumption and DO were first pathway of the 2-P model is the nitrifier denitrification (ND)
+(cid:0)
+reviewed. Furthermore, the N2O and CH4 stripping rates were evaluated pathway, where N2O is the terminal product of nitrite (NO2) reduction.
+by varying the DO, MLR, and RAS levels. Accordingly, this study pro- Nitrification by ammonia-oxidizing bacteria (AOB) is the main process
+poses an optimal scenario for reducing energy consumption and GHG that produces N2O during nitrification. The second pathway is the
+emissions while achieving effluent water quality standards. incomplete hydroxylamine (NH2OH) oxidation (NN) pathway, where
+N2O is the side-product from incomplete oxidation of NH2OH (Pocquet
+2. Materials and methods et al., 2016). There is also a heterotrophic denitrification pathway for
+N2O production in Sumo4N, where N2O is produced in nitric oxide (NO)
+2.1. Test bed building reduction (Shang et al., 2024). In the ND pathway, a copper-containing
+(cid:0) (cid:0) (cid:0)
+NO2 reductase (Nirk) enzyme catalyzes the reduction of NO2 to NO ,
+The test bed simulated in this study was based on the anaero- and then a nitric oxide reductase (Nor) enzyme catalyzes the reduction
+bic–anoxic–oxic (A2O) treatment process employed in a WWTP located of NO(cid:0) to N2O (Kim et al., 2010). In the NN pathway, an NH2OH
+(cid:0)
+in Seoul, Republic of Korea. The treatment parameters of test bed such as oxidoreductase (HAO) enzyme catalyzes the reaction to generate NO ,
+(cid:0)
+mixed liquor suspended solids (MLSS), sludge retention time (SRT), and and then the Nor enzyme reduces NO to N2O (B. Ni et al., 2011). In
+2
+
+--- Page 3 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 1. System boundary of the WWTP and A2O test bed modeling.
+Table 3 Table 4
+Key stoichiometric and kinetic model parameters. Kinetic rate expressions of AOB 2-P model.
+Symbol Definition Unit Values Process Kinetic rate expression
+Kinetic model µ AOB Maximum specific d(cid:0)1 0.9 NO reduction µ AOB,T/YAOB∗ƞ AOB,NO,N2O∗XAOB∗SNH2OH/(KNH2OH,AOB+
+parameters growth rate of AOB by AOB SNH2OH)∗SNO/(KHNO2,AOB+SNO)
+θµ,AOB Arrhenius coefficient - 1.072 (NN
+for AOB growth pathway)
+ƞ AOB,NO, Reduction factor for - 0.0015 HNO2 µ AOB,T/YAOB∗ƞ AOB,NO2,N2O∗XAOB∗SNH2OH/(KNH2OH,AOB+
+N2O the reduction of NO to reduction by SNH2OH)∗SHNO2/(KHNO2,AOB+SHNO2)∗KiO2,AOB/(KiO2,AOB+SO2)
+N2O AOB
+by AOB (NN pathway) (ND
+ƞ AOB,NO2, Reduction factor for - 0.2500 pathway)
+N2O the reduction of HNO2
+S: Substrate concentration; X: Biomass concentration
+to N2O by AOB (ND
+pathway)
+KNO,N2O, NO-to-N2O half- mg N/ 0.0080 2.3. Scenarios and evaluation criteria
+AOB,AS saturation constant for L
+AOB (AS)
+Generally, three major factors—DO, RAS, and MLR—influence TN
+KNH2OH, NH2OH half-saturation mg N/ 0.9000
+AOB,AS constant for AOB (AS) L removal and biological unit operations in WWTPs (Cao et al., 2021).
+KHNO2, HNO2 half-saturation mg N/ 0.0040 Therefore, DO, RAS, and MLR were selected as variables to evaluate the
+AOB,AS constant for AOB (AS) L process efficiency and GHG emissions from the test bed. As shown in
+KiO2,AOB, O2 half-inhibition mg O2/ 0.8
+Fig. 2, 80 scenarios were simulated under steady-state condition using
+AS constant for N2O L
+production the following parameters: DO concentrations of 1.5, 2.0, 3.0, and
+by AOB (AS) 4.0mg/L; MLR rates of 100%, 130%, 160%, and 190%; and RAS rates
+µ OHO Maximum specific d(cid:0)1 4.0 of 90.5%, 90.6%, 90.7%, 90.8%, and 90.9%. The green box in Fig. 2
+growth rate of OHOs
+indicates the initial operating condition of the target plant. As Vasilaki
+θµ,OHO A for rr h Oe Hn Oiu s rc oo wef tfi hcient - 1.040
+et al. (2020) revealed, dissolved N2O rapidly increased when DO is
+g
+μ CASTO Maximum specific d(cid:0)1 1.00 <1mg/L. Thus, low DO concentrations were not considered when
+growth rate of CASTOs. deriving a less-GHG-producing operation. The effluent water quality,
+θµ,CASTO Arrhenius coefficient - 1.040 GHG emissions, and energy consumption for each scenario were
+for CASTO growth
+compared to assess the GHG emission reduction and energy-saving
+Stoichiometry YAOB Yield of AOB on NHx g XAOB. 0.15
+g SN(cid:0) H1 x strategies.
+YCASTO Yield of CASTOs g 0.52–0.639 This study aimed to develop a strategy that simultaneously mini-
+COD/g mizes GHG emissions and electricity consumption. To optimize the
+COD process operation, a water–energy–carbon coupling index (WECCI) was
+YOHO Yield of OHOs g VSS/ 0.10–0.67
+considered. The WECCI can be expressed as the sum of the normalized
+g COD
+values of the effluent quality index (EQI), energy footprint (ENF), and
+carbon footprint. (CF), and since a high value indicates enhanced per-
+heterotrophic denitrification pathway, nitric oxide reductase (Nor) formance, the case with the highest value was selected as the optimal
+(cid:0)
+enzyme catalyzes the reduces NO to N2O in anaerobic condition (Shang condition (Gulhan et al., 2023; X. Ni et al., 2023). The EQI can be
+et al., 2024). The stoichiometric and kinetic model parameters listed in calculated using Eq. (1). TSS, COD, BOD5, and TN were considered as the
+Table 3 are the key variables presented in the Sumo4N model of pollutants, and their weights were 2, 1, 2, and 20, respectively (Gulhan
+Dynamita. Table 4expresses the main kinetics of N2O production in AOB et al., 2023; Copp, 2002). The ENF is the value of daily electricity con-
+2-P model. sumption divided by the daily treatment scale of the WWTP, and it is
+3
+
+--- Page 4 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 2. Scenario variables of DO, RAS, and MLR.
+calculated as Eq. (2).
+Table 5
+∑n
+Variation of RAS, SRT and MLSS in the A2O bioreactor.
+EQI=Q(t) wi∗Si(t) (1)
+i=1 RAS (%) SRT (d) MLSS (mg/L)
+90.5 20.1 2595.9–2651.6
+where Q is the effluent flow rate (m3/d), n is the number of pollutants, w 90.6 21.7 2757.8–2817.0
+is the weight of each pollutant, and S is the effluent concentration of 90.7 23.5 2944.2–3007.3
+each pollutant (mg/L). 90.8 25.7 3161.4–3228.8
+90.9 28.4 3418.0–3490.7
+ENF=E/Q (2)
+where Q is the daily treatment scale of WWTP (m3/d), E is daily energy
+Table 6
+consumption (kWh/d)
+Effluent qualities of the test bed.
+The direct emissions of N2O and CH4 and the indirect emissions
+caused by electricity consumption were considered to evaluate the total Parameters Values Effluent standards
+GHG emissions from the WWTP. To calculate the total GHG emissions in BOD5 (mg O2/L) 1.49–1.66 10
+CO2 equivalent (CO2-eq), the global warming potential 100 (GWP-100) S TS C(m (g T gS CS // LL )) 3 5. .3 64 5– –4 5. .4 99 1 20
+O m 9 5
+and carbon intensity of electricity production in Korea were applied. The
+TN (mg N/L) 7.95–10.46 20
+GWP-100 of N2O is 273, while that of CH4 is 27 (Forster et al., 2021). In TP (mg P/L) 0.40–0.50 0.5
+this study, a carbon intensity of 0.471kg CO2-eq/kWh was employed
+(Park et al., 2013). The GWP-100 values of N2O and CH4 were multiplied
+by their gas stripping rates, and the carbon intensity was multiplied by 3. Results and discussion
+electricity consumption. Thereafter, the values were summed. Only the
+direct emissions of N2O and CH4 were considered when calculating the 3.1. SRT, MLSS, and effluent quality
+CF, as Eq. (3), because no chemicals were considered in the simulation
+and the energy consumption would have been double counted with the As demonstrated in Table 5, the SRT and MLSS were mainly influ-
+ENF if considered (Gulhan et al., 2023). The EQI, ENF, and CF values enced by the RAS. Every 0.1% increase in RAS resulted in an SRT
+were normalized using Eq. (4)in order to calculate the WECCI (Ni et al., extension of about 2 days and 200mg/L incline in MLSS. The effects of
+2023). DO and MLR on the SRT were negligible. The effluent quality of all the
+scenarios met the Korean effluent quality standards since the values
+CF=SRN2O∗(44/28)∗GWPN2O+SRCH4∗(16/64)∗GWPCH4 (3) were sufficiently low (Table 6). The changes in MLR, RAS, or DO did not
+significantly affect all the quality parameters except TN. Thus, all the
+where SRN2O is the stripping rate of N2O (kg-N/d), SRCH4 is the stripping
+scenarios were adequate for treating wastewater, and energy could be
+rate of CH4 (kg-O2/d), GWPN2O is the GWP-100 value of the N2O, and
+saved by reducing the DO.
+GWPCH4 is the GWP-100 value of the CH4. (NO3(cid:0)
+Fig. 3shows the trend of effluent TN and sum of nitrate ) and
+Aʹ={max(A)(cid:0) A}/{max(A)(cid:0) min(A)} (4) NO2(cid:0) concentrations in various scenarios where MLR and RAS (that is
+corresponding to SRT) varied. Effluent TN varied according to the sce-
+where A′ is the normalized value of A. narios, as shown in Fig. 3, and it was mainly affected by MLR. Although
+the RAS and SRT did not reduce the TN, every 30% increase in MLR
+caused about 6% decrease in TN. The tendency of the TN was similar to
+(cid:0) (cid:0)
+that of NO3 and NO2, implying that denitrification is the main process
+that controls TN.
+The increase in MLR resulted in a high SDNR and an improvement in
+4
+
+--- Page 5 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 3. Nitrogen concentration profile of the effluent based on changes in MLR.
+Fig. 4. Comparison of the energy consumption at different DO concentrations. (a) 1.5mg O2/L; (b) 2.0mg O2/L; (c) 3.0mg O2/L; (d) 4.0mg O2/L.
+(cid:0)
+denitrification efficiency, which consequently reduced the NO3 and 3.2. Energy consumption
+(cid:0)
+NO2 concentrations, thereby TN. High RAS levels slightly reduced the
+SDNR, but MLR did not affect the specific nitrification rate (SNR). The As shown in Fig. 4, the average electricity consumption of all the
+increase in RAS caused a decrease in the SNR because the change in scenarios involving DO concentrations of 1.5, 2, 3, and 4mg/L were
+mixed liquor volatile suspended solids was more significant than the calculated. The electricity consumption of the WWTP was 20.8–33.7
+change in the ammonia removal amount. Since high MLR rates result in MWh/d as the DO value changed, with aeration, mixing, and pumping
+enhanced nitrogen removal, the best EQI value was obtained under the accounting for 94–96% of the total consumption (Fig. 4). The electricity
+conditions of 1.5mg/L of DO, 190% MLR, and 90.5% RAS. This con- consumed via mixing was 4.08 MWh/d in all the scenarios. The elec-
+dition had a higher MLR rate and lower DO concentration than the tricity consumed through aeration was 14.4–28.9 MWh/d, which was
+initial condition. This result indicates that the WWTP was operated in much larger than the amount of electricity consumed through pumping
+overabundance aeration, and the initial condition could not yield (0.2–0.6 MWh/d).
+enhanced effluent qualities since it had a normalized EQI of 0.06. Aeration accounted for the majority of the electricity consumed by
+5
+
+--- Page 6 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 5. GHG emissions and stripping rates of the test bed according to the RAS and MLR ratio at different DO concentrations. (a) 1.5mg O2/L; (b) 2.0mg O2/L; (c)
+3.0mg O2/L; (d) 4.0mg O2/L.
+the WWTP. The aeration electricity consumption increased from 72% to impact on the total emission, as increased consumption was observed. As
+83% of the total, as the DO concentration increase. This is consistent illustrated in Fig. 5, DO had more impact on N2O stripping than on CH4
+with the findings of Aghabalaei et al. (2023), which revealed that stripping. Scenarios with a DO concentration of 4.0mg/L had N2O
+aeration consumed 78% of the energy used in a wastewater treatment stripping rates of 44–53kg N2O/d and CH4 stripping rates of 8.3–8.7kg
+process with an SRT of 20 days. CH4/d. At a DO concentration of 1.5mg/L, the N2O stripping rates were
+All scenarios with DO concentrations of <4.0mg/L were expected to 63–86kg N2O/d, an increase of over 19kg N2O/d when compared to the
+have less electricity requirements than the initial condition. The initial rates in the reaction with a DO concentration of 4.0mg/L; however, the
+scenario had a daily energy consumption of 33.0 MWh/d, and the op- CH4 stripping rate was 9.8–9.9kg CH4/d, an increase of over 1.2kg
+erations with low DO concentrations could save more than 3.9 MWh/d. CH4/d when compared to that of the other condition. RAS had more
+The highest normalized ENF value was observed under the condition impact on N2O stripping than on CH4 stripping, while MLR did not
+with the lowest DO, MLR, and RAS values. In terms of the ENF, the significantly affect GHG stripping. Every 0.1% increase in RAS resulted
+optimal conditions were 1.5mg/L of DO, 100% MLR, and 90.5% RAS. in a 4–7% decrease in the N2O stripping rate. As the RAS rate increased,
+Although this optimal condition could save 13.2 MWh/d of energy when the percentage of N2O emissions decreased, while indirect emissions
+compared to the initial scenario, it was expected to have the highest of increased. This tendency was same with the DO increase in that the
+direct emissions. indirect emissions were 28–37% and 54–56% at DO concentration of
+1.5 and 4.0mg/L, respectively.
+Consistent with the simulation results of Shahid and Choi (2023),
+3.3. GHG emissions and stripping rate
+direct N2O emissions played a substantial role in the overall GHG
+emission from the A2O process employed in this study, accounting for at
+N2O emission occurred during the stripping process induced by
+least 31%. Additionally, similar to the findings of Abulimiti et al.
+active aeration (Law et al., 2012), with most of the direct emissions
+(2022), GHG emissions were significantly affected by DO concentration,
+originating from the aerobic reactor, as the airflow caused by the
+with at least a 9% increase in direct GHG emissions in CO2 equivalent
+aeration stripped the dissolved gases. Similar to the findings of Parra-
+occurring when the DO concentration decreased by 1mg/L.
+vicini et al. (2022), the total emission was contributed by direct N2O
+Fig. 6shows the effects of DO, RAS, and MLR on EF of each GHG.
+emission, followed by electricity consumption and direct CH4 emission
+in most cases where the DO concentration was <4.0mg/L. However, Controlling DO at high concentrations and increasing the RAS rate were
+effective strategies for reducing N2O emission, as increasing the DO
+high DO concentrations caused electricity consumption to have more
+6
+
+--- Page 7 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 6. Effects of the operating parameters of the bioreactor on N2O and CH4 stripping. (a) Effect of DO and RAS on N2O stripping; (b) effect of DO and RAS on N2O
+emission factor; (c) effect of DO and MLR on CH4 emission factor.
+concentration by 1.0mg/L decreased the N2O stripping rate by 5–8kg/
+d, while increasing the RAS by 0.1% decreased the rate by 3–4kg/d.
+This is similar to the finding of Gulhan et al. (2023), which revealed that
+DO has more effect on the direct emission than RAS. Moreover, DO and
+MLR affected CH4 stripping. DO exerted increased effects on CH4
+stripping at high MLR rates. Increasing the DO concentration by
+1.0mg/L decreased the CH4 stripping rate by 1–2kg/d, while increasing
+the MLR rate by 30% decreased it by <1kg/d. Under changing oper-
+ating conditions, EF varied in the range of 0.0065–0.0128kg N2O-N/kg
+N for nitrous oxide and 0.399–0.480g CH4/kg BOD for methane. Ac-
+cording to IPCC guideline 2019 refinement (Bartram et al., 2019), the
+N2O emission factor for A2O plant was 0.013kg N2O-N/kg N. Some of
+evaluated N2O EF was approximately half of the guided value, since the
+IPCC value cannot cover all the different conditions WWTPs having. It’s
+Fig. 7. Linear relationships between the N2O stripping rate and nitrogen in the
+showing that reduction of the GHG can be resulted from optimizing
+effluent and aerobic reactor.
+operations.
+Since high DO and RAS levels resulted in low direct emissions, the
+highest normalized CF was observed at a 4.0mg/L DO concentration, 3.4. Linear relationships with the N2O stripping rate
+130% MLR, and 90.9% RAS. This operating condition could reduce the
+direct emissions by 97.8kg CO2-eq/d, but it requires high energy As shown in Fig. 7, the N2O stripping rate exhibited linear re-
+consumption. lationships with the effluent total ammonia (NHx) concentration and
+(cid:0)
+NO2 concentration in the aerobic reactor. The N2O stripping rate varied
+7
+
+--- Page 8 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+Fig. 8. Variation in the WECCI with changes in RAS, MLR, and DO.
+from 27.8kg/d to 54.8kg/d at NHx concentrations of 0.4–1.1mg/L and 4. Conclusions
+NO2(cid:0) concentrations of 0.13–0.21mg/L. The relationship between the
+N2O stripping rate and NHx had an R2 value of 0.97, while the rela- In this study, changes in the effluent quality, GHG emissions, and
+tionship with the rate and NO2(cid:0) had an R2 value of 0.87. This concept is energy consumption of a WWTP were evaluated via simulation by
+supported by the findings of Ramírez-Melgarejo et al. (2020), which adjusting DO, MLR, and RAS, which are key factors that affect TN
+revealed that N2O emission is related to the amount of N removed, removal and N2O emissions. An increase in MLR produced a high SDNR,
+(cid:0)
+including total Kjeldahl nitrogen (TKN). Since high NHx concentrations which improved the denitrification efficiency and decreased the NO3
+(cid:0)
+imply less TKN removal, further research is required to identify the and NO2 concentrations in the effluent. The NHx concentrations in the
+(cid:0)
+mechanism. effluent and the NO2 concentrations in the aerobic reactor exhibited a
+N2O generation depends on the accumulation of NO2(cid:0) in reactor linear relationship with the N2O stripping rate, with corresponding R2
+(Massara et al., 2017, Masuda et al., 2018, Cavanaugh et al., 2022). Zou values of 0.97 and 0.87, respectively. The N2O stripping rate decreased
+et al. (2022)indicated that N2O emission during the aerobic phase in- by 4–7% when the RAS rate increased by 0.1%, but it increased by 9%
+(cid:0)
+creases as the NO2 concentration increases, similar to the linearity when the DO concentration decreased by 1mg/L. High DO and RAS
+exhibited in Fig. 7. Additionally, Peng et al. (2015)revealed a positive rates are recommended for reducing N2O stripping, and increased DO
+(cid:0)
+correlation between NO2and N2O production, demonstrating that at the and MLR rates are recommended for reducing CH4 stripping. Aeration
+same NO2(cid:0) concentration, low DO concentrations (0.35–1.5mg/L) pro- energy consumption was more than 72% of the total, indicating that DO
+duce more N2O than high DO concentrations. This tendency is similar to control had the highest effect on the WWTP’s electricity consumption.
+that shown in Fig. 5, which demonstrates that increased N2O emissions The initial operating condition of the WWTP was unfavorable
+occurred at a low DO concentration of 1.5mg/L. because it had a WECCI of 1.07, which was slightly higher than the
+lowest WECCI (1.04). CF had the highest impact on the WECCI when the
+3.5. Evaluation of the WECCI and optimized operating condition DO and RAS were controlled. The optimal operating conditions (a
+1.5mg/L DO concentration, 190% MLR rate, and 90.9% RAS rate)
+Fig. 8shows the changes in the WECCI for each scenario. As the DO saved 11.64 MWh/d of energy, decreased 1348kg CO2-eq/d of the total
+concentration increased, the fraction of ENF′ in the WECCI decreased, GHG emission, and displayed a WECCI of 2.40.
+while the fraction of CF′ increased. An increase in the RAS yielded high
+CF′ values, and an increase in MLR yielded high EQI′ values. As the RAS CRediT authorship contribution statement
+increased, the CF′ value increased, but the values of the other two factors
+decreased. The increasing trend of the WECCI with a prolonged SRT Sangyoup Lee: Writing – review & editing, Formal analysis.
+indicates that CF′ had much impact on the value when RAS was Hyeonsoo Choi: Validation, Methodology, Investigation, Conceptuali-
+controlled, particularly at DO concentrations of <3.0mg/L. Considering zation. Jaeyoung Choi: Writing – original draft, Software, Formal
+the effluent quality, energy consumption, and GHG emissions, the sce- analysis, Data curation. Seojun Lee: Writing – original draft, Software,
+nario with a 1.5mg/L DO concentration, 190% MLR rate, and 90.9% Methodology. Heekyong Oh: Writing – review & editing, Supervision,
+RAS rate was selected as the optimal operating condition. In this sce- Project administration.
+nario, the WECCI was 2.40, which was the highest value. The initial
+operating condition of a 4.0mg/L DO concentration, 100% MLR rate,
+and 90.7% RAS rate was estimated to emit 28,921kg CO2-eq/d of total Declaration of Competing Interest
+GHG and consume 33.0 MWh/d of energy. Additionally, it was rated as
+the nearly worst condition since its WECCI was 1.07, while the lowest The authors declare that they have no known competing financial
+value across all the scenarios was 1.04. Adopting the optimal operating interests or personal relationships that could have appeared to influence
+condition could lead to significant reductions in energy consumption of the work reported in this paper.
+11.64 MWh/d when compared to the initial condition. Regarding GHG
+emissions, the best scenario could reduce the total GHG emission by Data Availability
+1348kg CO2-eq/d when compared to the initial condition, but it yielded
+4131kg CO2-eq/d more direct emissions. In summary, the optimized Data will be made available on request.
+operating condition was simulated to produce 27,572 CO2-eq/d of total
+GHG emissions while consuming 21.7 MWh/d of energy.
+Acknowledgement
+This work was supported by the 2024 Research Fund of the Uni-
+versity of Seoul.
+8
+
+--- Page 9 ---
+S. Lee et al. E c o t o x i c o l o g y a n d E n v i r o n m e n t a l S a f e t y 283 (2024) 116820
+References Massara, T.M., Malamis, S., Guisasola, A., Baeza, J.A., Noutsopoulos, C., Katsou, E.,
+2017. A review on nitrous oxide (N2O) emissions during biological nutrient removal
+from municipal wastewater and sludge reject water. Sci. Total Environ. 596–597,
+Abulimiti, A., Wang, X., Kang, J., Li, L., Wu, D., Li, Z., Piao, Y., Ren, N., 2022. The trade-
+106–123. https://doi.org/10.1016/j.scitotenv.2017.03.191.
+off between N2O emission and energy saving through aeration control based on
+Massara, T.M., Solís, B., Guisasola, A., Katsou, E., Baeza, J.A., 2018. Development of an
+dynamic simulation of full-scale WWTP. Water Res 223, 118961. https://doi.org/
+ASM2d-N2O model to describe nitrous oxide emissions in municipal WWTPs under
+10.1016/j.watres.2022.118961.
+dynamic conditions. J. Chem. Eng. 335, 185–196. https://doi.org/10.1016/j.
+Aghabalaei, V., Nayeb, H., Mardani, S., Tabeshnia, M., Baghdadi, M., 2023. Minimizing
+cej.2017.10.119.
+greenhouse gases emissions and energy consumption from wastewater treatment
+Masuda, S., Otomo, S., Maruo, S., Nishimura, O., 2018. Contribution of dissolved N2O in
+plants via rational design and engineering strategies: a case study in Mashhad, Iran.
+Energy Rep. 9, 2310–2320. https://doi.org/10.1016/j.egyr.2023.01.017. total N2O emission from sewage treatment plant. Chemosphere 212, 821–827.
+https://doi.org/10.1016/j.chemosphere.2018.08.089.
+Awad, H., Mossad, M., Mahanna, H., Foad, M., Alalm, M.G., 2024. Comparative Ni, B.-J., Ruscalleda, M., Pellicer-Na`cher, C., Smets, B.F., 2011. Modeling nitrous oxide
+assessment of different scenarios for upgrading activated sludge wastewater
+production during biological nitrogen removal via nitrification and denitrification:
+treatment plants in developing countries. Sci. Total Environ. 907, 168022 https://
+extensions to the general ASM models. Environ. Sci. Technol. 45, 7768–7776.
+doi.org/10.1016/j.scitotenv.2023.168022.
+Bartram, D., Short, M.D., Ebie, Y., Farkaˇs, J., Gueguen, C., Peters, G.M., Zanzottera, N.M., https://doi.org/10.1021/es201489n.
+Ni, X., Huang, X., Guo, R., Wang, J., Peng, K., Zhang, W., Zhu, Y., Yang, W., Wang, L.,
+Karthik, M., 2019. 2019 Refinement to the 2006 IPCC Guidelines for National
+Cai, C., Liu, J., Liu, E., 2023. Water–energy–carbon synergies and trade-offs: a daily
+Greenhouse Gas Inventories: Chapter 6. Wastewater Treat. Disch. 62.
+nexus analysis for wastewater treatment plants. Resour. Conserv. Recycl. 188,
+Cao, J., Yang, E., Xu, C., Zhang, T., Xu, R., Fu, B., Feng, Q., Fang, F., Luo, J., 2021. Model-
+106712 https://doi.org/10.1016/j.resconrec.2022.106712.
+based strategy for nitrogen removal enhancement in full-scale wastewater treatment
+Park, N.-B., Yun, S.-J., Jeon, E.-C., 2013. An analysis of long-term scenarios for the
+plants by GPS-X integrated with response surface methodology. Sci. Total Environ.
+transition to renewable energy in the Korean electricity sector. Energy Policy 52,
+769, 144851 https://doi.org/10.1016/j.scitotenv.2020.144851.
+288–296. https://doi.org/10.1016/j.enpol.2012.09.021.
+Cavanaugh, S.K., Quoc, B.N., Jacobson, E., Bucher, R., Sukapanpotharam, P., Winkler, M.
+Parravicini, V., Nielsen, P.H., Thornberg, D., Pistocchi, A., 2022. Evaluation of
+H., 2022. Impact of nitrite and oxygen on nitrous oxide emissions from a granular
+greenhouse gas emissions from the European urban wastewater sector, and options
+sludge sequencing batch reactor. Chemosphere 308 (2), 136378. https://doi.org/
+for their reduction. Sci. Total Environ. 838, 156322 https://doi.org/10.1016/j.
+10.1016/j.chemosphere.2022.136378.
+Chen, K., Wang, H., Valverde-P´erez, B., Zhai, S., Vezzaro, L., Wang, A., 2021. Optimal scitotenv.2022.156322.
+Peng, L., Ni, B.-J., Ye, L., Yuan, Z., 2015. The combined effect of dissolved oxygen and
+control towards sustainable wastewater treatment plants based on multi-agent
+nitrite on N2O production by ammonia oxidizing bacteria in an enriched nitrifying
+reinforcement learning. Chemosphere 279, 130498. https://doi.org/10.1016/j.
+sludge. Water Res 73, 29–36. https://doi.org/10.1016/j.watres.2015.01.021.
+chemosphere.2021.130498. Pocquet, M., Wu, Z., Queinnec, I., Sp´erandio, M., 2016. A two pathway model for N2O
+Copp, J.B. (Ed.), 2002. The COST Simulation Benchmark - Description and Simulator
+emissions by ammonium oxidizing bacteria supported by the NO/N2O variation.
+Manual. Office for Official Publications of the European Communities, Luxembourg,
+pp. 9–10. Water Res. 88, 948–959. https://doi.org/10.1016/j.watres.2015.11.029.
+Pubic data portal, Water quality status of Seoul water regeneration center. https://www.
+Forster, P., Storelvmo, T., Armour, K., Collins, W., Dufresne, J.-L., Frame, D., Lunt, D.J.,
+Mauritsen, T., Palmer, M.D., Watanabe, M., Wild, M., Zhang, H., 2021. The earth’s Ramd íra et za -. Mgo e. lk gr a/ re en jo/ ,d a Mta .,/ R15 ey0 e4 s9 -3 F5 ig9 u/ efi rl oe aD a Ata .D.d .,o , 2 a0 ss2 o´4 -.
+, G Domingo, S., Güereca, L.P., 2020.
+energy budget, climate feedbacks, and climate Sensitivity. in: Climate Change 2021 -
+Analysis of empirical methods for the quantification of N2O emissions in wastewater
+The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment
+treatment plants: comparison of emission results obtained from the IPCC Tier 1
+Report of the Intergovernmental Panel on Climate Change. Cambridge University
+methodology and the methodologies that integrate operational data. Sci. Total
+Press, Cambridge and New York, p. 1017. https://doi.org/10.1017/
+Environ. 747, 141288 https://doi.org/10.1016/j.scitotenv.2020.141288.
+9781009157896.009.
+Ranieri, E., D’Onghia, G., Lopopolo, L., Gikas, P., Ranieri, F., Gika, E., Spagnolo, V.,
+Gabrielli, M., Compagni, R.D., Gusmaroli, L., Malpei, F., Polesel, F., Buttiglieri, G.,
+Herrera, J.A., Ranieri, A.C., 2024. Influence of climate change on wastewater
+Antonelli, M., Turolla, A., 2023. Modelling and prediction of the effect of operational
+treatment plants performances and energy costs in Apulia, south Italy. Chemosphere
+parameters on the fate of contaminants of emerging concern in WWTPs. Sci. Total
+350, 141087. https://doi.org/10.1016/j.chemosphere.2023.141087.
+Environ. 856, 159200 https://doi.org/10.1016/j.scitotenv.2022.159200.
+Ravishankara, A.R., Daniel, J.S., Portmann, R.W., 2009. Nitrous oxide (N2O): the
+Gu, Y., Li, Y., Yuan, F., Yang, Q., 2023. Optimization and control strategies of aeration in
+dominant ozone-depleting substance emitted in the 21st century. Science 326,
+WWTPs: a review. J. Clean. Prod. 418, 138008 https://doi.org/10.1016/j.
+123–125. https://doi.org/10.1126/science.1176985.
+jclepro.2023.138008.
+Rogelj, J., Luderer, G., Pietzcker, R.C., Kriegler, E., Schaeffer, M., Krey, V., Riahi, K.,
+Gulhan, H., Cosenza, A., Mannina, G., 2023. Modelling greenhouse gas emissions from
+2015. Energy system transformations for limiting end-of-century warming to below
+biological wastewater treatment by GPS-X: the full-scale case study of Corleone 1.5 ◦C. Nat. Clim. Change 5, 519–527. https://doi.org/10.1038/nclimate2572.
+(Italy). Sci. Total Environ. 905, 167327 https://doi.org/10.1016/j.
+Shahid, M.K., Choi, Y., 2023. Comprehensive analysis of greenhouse gas emissions and
+scitotenv.2023.167327.
+emission factors in a Korean domestic wastewater treatment plant: insights into
+He, S., Zhou, J., Zhou, L., Yang, N., Gao, J., Zhu, J., Chen, J., Chen, J., 2023. Assessment
+mechanisms and pathways for climate change mitigation. J. Water Process. Eng. 56,
+and modeling of effluent quality, economic benefits, and greenhouse gas reduction
+104476 https://doi.org/10.1016/j.jwpe.2023.104476.
+for receiving brewery wastewater on A2O by GPS-X. Sci. Total Environ. 883, 163671
+Shang, Z., Cai, C., Guo, Y., Huang, X., Peng, K., Guo, R., Wei, Z., Wu, C., Cheng, S.,
+https://doi.org/10.1016/j.scitotenv.2023.163671.
+Liao, Y., Hung, C.Y., Liu, J., 2024. Direct and indirect monitoring methods for
+IWA, 2016. The IWA Principles for Water Wise Cities. International Water Association.
+nitrous oxide emissions in full-scale wastewater treatment plants: a critical review.
+England.
+J. Environ. Manag. 358, 120842 https://doi.org/10.1016/j.jenvman.2024.120842.
+Kim, S.-W., Miyahara, M., Fushinobu, S., Wakagi, T., Shoun, H., 2010. Nitrous oxide
+Shen, B., Li, D., Qian, F., Jiang, J., 2023. Optimal design and simulation for the
+emission from nitrifying activated sludge dependent on denitrification by ammonia-
+oxidizing bacteria. Bioresour. Technol. 101, 3958–3963. https://doi.org/10.1016/j. intelligent control of sewage treatment based on multi-objective particle swarm
+optimization. Appl. Sci. 13, 735. https://doi.org/10.3390/app13020735.
+biortech.2010.01.030.
+Shrestha, A., Bhattarai, T.N., Ghimire, S., Mainali, B., Treichel, H., Paudel, S.R., 2022.
+KME, 2022. National Greenhouse Gas Inventory Report of Korea. Ministry of
+Estimation of greenhouse gases emission from domestic wastewater in Nepal: A
+Environment, Korea.
+scenario-based analysis applicable for developing countries. Chemosphere 300,
+Kumar, A., Thanki, A., Padhiyar, H., Singh, N.K., Pandey, S., Yadav, M., Yu, Z.G., 2021.
+134501. https://doi.org/10.1016/j.scitotenv.2022.156322.
+Greenhouse gases emission control in WWTS via potential operational strategies: a
+Vasilaki, V., Massara, T.M., Stanchev, P., Fatone, F., Katsou, E., 2019. A decade of nitrous
+critical review. Chemosphere 273, 129694. https://doi.org/10.1016/j.
+oxide (N2O) monitoring in full-scale wastewater treatment processes: a critical
+chemosphere.2021.129694.
+review. Water Res. 161, 392–412. https://doi.org/10.1016/j.watres.2019.04.022.
+Law, Y., Ye, L., Pan, Y., Yuan, Z., 2012. Nitrous oxide emissions from wastewater
+treatment processes. Philos. Trans. R. Soc. B 367, 1265–1277. https://doi.org/ Vasilaki, V., Conca, V., Frison, N., Eusebi, A.L., Fatone, F., Katsou, E., 2020. A knowledge
+discovery framework to predict the N2O emissions in the wastewater sector. Water
+10.1098/rstb.2011.0317.
+Res 178, 115799. https://doi.org/10.1016/j.watres.2020.115799.
+Li, J., Li, X., Liu, H., Gao, L., Wang, W., Wang, Z., Zhou, T., Wang, Q., 2023. Climate
+Wang, D., Ye, W., Wu, G., Li, R., Guan, Y., Zhang, W., Wang, J., Shan, Y., Hubacek, K.,
+change impacts on wastewater infrastructure: a systematic review and typological
+2022. Greenhouse gas emissions from municipal wastewater treatment facilities in
+adaptation strategy. Water Res 242, 120282. https://doi.org/10.1016/j.
+China from 2006 to 2019. Sci. Data 9, 317. https://doi.org/10.1038/s41597-022-
+watres.2023.120282.
+01439-7.
+Lu, H., Wang, H., Wu, Q., Luo, H., Zhao, Q., Liu, B., Si, Q., Zheng, S., Guo, W., Ren, N.,
+Zou, X., Zhou, Y., Gao, M., Yang, S., Mohammed, A., Liu, Y., 2022. Effective N2O
+2023. Automatic control and optimal operation for greenhouse gas mitigation in
+emission control during the nitritation/denitritation treatment of ammonia rich
+sustainable wastewater treatment plants: a review. Sci. Total Environ. 855, 158849
+wastewater. J. Environ. Chem. Eng. 10, 107234 https://doi.org/10.1016/j.
+https://doi.org/10.1016/j.scitotenv.2022.158849.
+jece.2022.107234.
+9

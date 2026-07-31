@@ -1,0 +1,561 @@
+--- Page 1 ---
+Journal of Water Process Engineering 77 (2025) 108439
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Synergy reduction of contaminants discharge and GHGs emission of liquor
+wastewater treatment plants: Benefits assessment and
+reconstruction strategies
+Yujin Gana,b, Chenyu Wanga,b, Keke Zhaoa,b, Xiao Guanc, Chen Lia,b,*, Zhenbei Wanga,b,
+Yatao Liua,b, Fan Lia,b, Fei Qia,b,*, Amir Ikhlaqd, Oksana Ismailovae,f, Zuhra Kadirovae
+aBeijing Key Lab for Source Control Technology of Water Pollution, College of Environmental Science and Engineering, Beijing Forestry University, Beijing 100083, China
+bHebei Province Key Laboratory for Emerging Contaminant Remediation and Risk Prevention and Elimination, Beijing Forestry University, Xiong’an New Area, Hebei
+072350, China
+cState Environmental Protection Key Laboratory of Regional Eco-process and Function Assessment, Chinese Research Academy of Environmental Sciences, Beijing
+100012, China
+dInstitute of Environment Engineering and Research, University of Engineering and Technology, GT Road, 54890 Lahore, Punjab, Pakistan
+eUzbekistan-Japan Innovation Center of Youth, Tashkent, Uzbekistan
+fTurin Polytechnic University, Tashkent, Uzbekistan
+A R T I C L E I N F O A B S T R A C T
+Editor: Rong Chen With the rapid development of liquor industry in Zunyi City, the discharge amount of liquor wastewater had
+increased significantly, leading to severe challenge in wastewater treatment. Meanwhile, greenhouse gases
+Keywords: (GHGs) emissions associated with wastewater treatment processes had gained increasing attention. In this study,
+Benefits evaluation eight indicators related to operating costs and emission reduction benefits were weighted by entropy weight
+Contaminant reduction
+method (EWM), and two comprehensive indexes were obtained by weighting to replace them, thus reducing the
+Greenhouse gases emission reduction
+number of assessment indicators and making the assessment results of data envelopment analysis (DEA) more
+Sauce-flavor liquor wastewater
+accurate and objective. By coupling EWM and DEA, a novel assessment method including GHGs emissions was
+Wastewater treatment plant
+established to comprehensively assess the synergy benefits of contaminants and GHGs emission reduction of
+liquor wastewater treatment plants (LWTPs). The assessment results indicated that half of the eight LWTPs
+needed to be improved in terms of operating costs, sludge production, total investment, and GHGs emissions.
+Further analysis revealed that the excessive use of chemical reagents such as sodium hydroxide, sulfuric acid, and
+hydrogen peroxide had led to inefficient LWTPs higher costs and GHGs emissions. Additionally, by analyzing the
+factors outside the assessment method, it was found that the current wastewater treatment technology was fully
+capable of coping with the increase of influent TN or TP concentration, but could not cope with the increase of
+water volume load rate or influent NH3-N concentration. Based on these findings, this study proposed some
+targeted reconstruction suggestions, aiming to provide theoretical basis and practical references for the green
+and low-carbon reconstruction of LWTPs.
+(continued)
+Abbreviations
+EWM Entropy weight method
+NH3-N Ammonia nitrogen FeSO4 Ferrous sulfate
+ASSR Anaerobic side-stream reactor GHGs Greenhouse gases
+COD Chemical oxygen demand H2O2 Hydrogen peroxide
+DEA Data envelopment analysis LCA Life cycle assessment
+DMUs Decision-making units LWTPs Liquor wastewater treatment plants
+(continued on next column) (continued on next page)
+* Corresponding authors at: Beijing Key Lab for Source Control Technology of Water Pollution, College of Environmental Science and Engineering, Beijing Forestry
+University, Beijing 100083, PR China.
+E-mail addresses: li_c21@bjfu.edu.cn(C. Li), qifei@bjfu.edu.cn(F. Qi).
+https://doi.org/10.1016/j.jwpe.2025.108439
+Received 16 June 2025; Received in revised form 21 July 2025; Accepted 29 July 2025
+Available online 5 August 2025
+2214-7144/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+(continued) used to assess the relative benefit of various decision-making units
+PAC Polyaluminum chloride (DMUs), considering multiple inputs and outputs [14]. Because of its
+(cid:0)
+PAM Polyacrylamide anion small data demand, strong objectivity and simple operation, DEA had
++
+PAM Polyacrylamide cation been widely used in the assessment of wastewater treatment [15]. For
+PTE Pure technical efficiency
+example, Chen et al. [16] used employees number and operating costs as
+super-SBM Super-efficiency slack-based measure
+SE Scale efficiency input indicators, reduction amount of BOD5 and NH3-N, and GHGs
+NaOH Sodium hydroxide emissions as output indicators, assessing the carbon emission benefits of
+NaClO Sodium hypochlorite wastewater treatment plants (WWTPs) in China by DEA method.
+H2SO4 Sulfuric acid Herna´ndez-Sancho et al. [17] used the operating cost as input indicator,
+SS Suspended solid
+suspended solid (SS) and COD reduction amount as output indicators,
+TN Total nitrogen
+TP Total phosphorus and the energy benefits of WWTPs in Spain was assessed using the DEA
+WWTPs Wastewater treatment plants method. Mocholi-Arce et al. [15] assessed the eco-efficiency of WWTPs
+in Spain with the operating costs as input indicator, the reduction
+amount of SS and COD, and indirect CO2 emissions as output indicators
+using improved DEA method. Although the DEA method had shown
+1. Introduction many advantages in WWTPs assessment, the assessment results of DEA
+were often not comparable when there were more assessment indicators
+With the intensification of global climate change issues, the re- and fewer study samples.
+quirements of environmental governance were becoming increasingly Therefore, in order to assess the synergy benefit of contaminants and
+strict [1]. Improving the synergy benefits of contaminants and GHGs GHGs reduction in Zunyi City’s LWTPs, this study had innovated the
+reduction would help promote the sustainable development of earth. assessment method, which not only took into account GHGs emissions,
+The sauce-flavored liquor industry, as a pillar sector in Zunyi City, but also combined the EWM with DEA model. By using EWM, the in-
+Guizhou Province, produced substantial amounts of high-concentration dicators related to operating costs and emission reduction benefits were
+organic wastewater during its manufacturing processes (e.g., high weighted, and two comprehensive indexes were obtained to replace
+chemical oxygen demand (COD), high NH3-N, and high salinity) [2,3]. them. So that the obtained assessment results were objective and accu-
+This kind of wastewater directly discharged into the water environment rate, even though there were more assessment indicators and less sam-
+would cause serious pollution [4]. In this regard, Zunyi City had built ples. Finally, according to the assessment results, relevant suggestions
+eight LWTPs to solve the problem of water environment pollution for reconstruction were put forward.
+caused by liquor wastewater.
+However, the water quality and quantity of liquor wastewater were 2. Materials and methods
+affected by the liquor brewing stage, which usually changes greatly,
+resulting in higher operating pressure of LWTPs [5]. Meanwhile, the 2.1. Basic characteristics of study samples
+energy consumption and GHGs emissions associated with the waste-
+water treatment process had become increasingly prominent, which This study took eight LWTPs in Zunyi City, Guizhou Province, as
+hindered the realization of China ‘s carbon peak and carbon neutrality study samples. To simplify, eight LWTPs were denoted by letters A to H.
+goal. Therefore, how to enhance the synergy benefits of contaminants Their design scale ranges from 600 to 8000 t/d (t denoted ton, the
+and GHGs reduction in LWTPs had become one of the major challenges volume of wastewater treated), as detailed in Table S1. The influent
+of water pollution control in Zunyi City. In the web of science database, contaminants concentrations of all LWTPs shown in Fig. S1. The effluent
+no research related to the assessment of LWTPs was retrieved, and there was discharged into the nearby natural water bodies after reaching the
+was no article on the assessment of contaminant and GHGs emission relevant requirements (as shown in Table S2) in “Discharge Standard of
+reduction benefits. Previous studies focused on the assessment of water Water Pollutants for Fermentation Alcohol and Distilled Spirits Industry
+purification performance of liquor wastewater treatment technology. (GB 27631-2011)”, in China. Due to the high concentration of contam-
+For example, Liu et al. [6] studied the purification performance of inants in liquor wastewater, LWTPs most used multi-stage anaerobic
+anaerobic baffled and anaerobic/aerobic membrane bioreactor on reactors and anaerobic oxic processes as secondary treatment and Fen-
+brewery wastewater. Shao et al. [7] evaluated the feasibility of anaer- ton process as advanced treatment. The detailed treatment process of
+obic sequencing batch reactor for the treatment of brewery wastewater. each LWTP was shown in Table S1.
+These studies provided technical support for the reconstruction of
+LWTPs. However, the existing studies lacked an overall assessment of 2.2. Selection of assessment model
+the operation status of LWTPs, especially the synergistic benefits of
+contaminant and GHGs emission reduction, which made decision- Given the multiple inputs and outputs characteristic of LWTPs, this
+makers helpless in the face of the reconstruction of LWTPs. study selected the DEA method, which was well-suited for assessing the
+Assessing the benefits of the wastewater treatment process and benefit of DMUs with multiple inputs and outputs. In DEA, traditional
+analyzing the factors influencing its performance were helpful to tech- models constrained benefit to between 0 and 1, whereas the super-
+nological improvements and energy management in LWTPs. The pre- efficiency slack-based measure (super-SBM) model allowed benefit to
+vious benefits assessment mostly selected operating costs, energy input exceed 1 [18], so that the DMUs could be ranked and identified the best
+and performance as indicators, but ignoring GHGs emissions. And most ones [19]. Therefore, this study used the super-SBM for assessment, and
+of the previous studies used life cycle assessment (LCA) [8], fuzzy the mathematical expression of super-SBM was shown in Eq. (1).
+comprehensive assessment [9] or DEA to assess [10]. LCA as a
+comprehensive assessment method considered the environmental
+impact of the entire life cycle of a LWTP from construction and operation
+to final shutdown [11]. However, it ignored the impact of economic
+factors on efficiency and requiring a large amount of data to support the
+analysis [12]. The fuzzy comprehensive assessment method had strong
+subjectivity because the weight of the assessment indicator was artifi-
+cially determined [13].
+The DEA method was a well-established non-parametric method
+2
+
+--- Page 3 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+1 ∑m s(cid:0) 2.3. Selection of assessment indicators
+1+ i
+minρ= (mi=1xik )
+1(cid:0) q1+1 r∑q =1 1ys+ r rk+ w∑q =2 1zs w(cid:0) w ageT nth i cs os st tu sd y ts ae ffle c ct oe sd ,t o at nal in ov the est rm ce on st t, e (l se lc ut dri gc eit y ic so ps ot ss a, lc h ee qm ui ic pa ml er ne t-
+, s ts d s d ,
+q2 k
+⎧ maintenance, and replacement) as input indicators when assessing the
+⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨j= ∑∑ 1n b ile en Me ufi dvt ipo of vL ceW i,cT eP ces t. vT ah nse pr e id eu dc iit bi eo n a eim o iu sn t o nhsf C nO eD , iaN HH hG3 i- sN s, oT mN a tn htd eT P i, Ha un ond
+n,j=∕kx yrij jλ λj j(cid:0) +s s(cid:0) i ≤ ≥x yi rk k, ,i r= =1 1, ,2 2, ,. .. .. ., ,m s nu cd lg ee nrr go d du t i lro n giw e r e ts nue ddl e rc t ce td lra ms yo su eot p u t )i rd ei lc at so er ds .
+o r e hr p e eo u s os e s r ca e ml tc on i d ne gr e d G s fe m i ds ys i o n s . lG qi v Ge
+(1)
+t (h s e e a l n s y a c sa , n t t u , h G s
++ q1 r d i e r e r
+r
+s.t. ⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩λj j= ,1 sn, ,j (cid:0)= =∕ ,k ew ea as st ee inw nea nlmt stee gpir rt nor ee ra ast ym e nan dt ip tr ho ec e cmes oas bw uose mtr e mu igs oiae nd oa s suo emcu cht tip riau cmt s e. tS eattp me c ii nfi c ta mnl cl y s, ed i Cr iaoe ac 2st
+=∑ c tra r idb to s s i do n s e.m bi n l y cr te cf r t soo th poe ss ie os s s ym ce rh gra yen afe oa d n i mwt r cOgu
+sz +w ,jλ s(cid:0)j(cid:0) ≥s(cid:0) w 0≤zwk,w=1,2,...,q2 o mx i or e a s e b dt Ih e d ee c o np ni i tn so f r g a n c a e dh e e
+1 j ∕ k sm e c e s r r e fn a in l r ht h e
+e t y o e l n n e l
+i r w reagents in the sewage treatment process [22].
+In summary, this study selected five input and six output indicators,
+Where ρ is the benefit; m, q1 and q2 are the number of indicators of while the study samples consisted of only eight LWTPs. It was well
+input, desired output and undesired output, respectively; x, y and z are known that, relative to the number of study samples, too much input and
+input vector, desired output vector and undesired output vector, output may reduce the resolution of the DEA model [23]. Therefore, it
+(cid:0) + (cid:0)
+respectively; si, sr and swrepresent the improvement potential of in- was necessary to classify the indicators to determine the indicators of the
+puts, desired outputs and undesired outputs, respectively; λ is the weight final input super-SBM. Since electricity costs, chemical reagent costs,
+vector. staff costs, and other costs collectively constituted operating costs, and
+The benefit obtained by the super-SBM could be decomposed into the reduction amount of COD, NH3-N, TN and TP together reflected the
+pure technical efficiency (PTE) and scale efficiency (SE), where benefit removal effect of contaminants. They were defined as secondary-level
+=PTE ×SE [20]. PTE reflected the efficiency of DMUs in utilizing and indicators and assigned weights separately to synthesize cost compre-
+managing inputs at a certain technical level [20], while SE reflected the hensive index and emission reduction comprehensive index.
+gap between the current production scale of DMUs and the optimal In summary, the total investment and cost comprehensive index of
+production scale [21]. the first-level indicators were used as inputs, the emission reduction
+Fig. 1. Technical framework.
+3
+
+--- Page 4 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+comprehensive index was used as the desired output, and the sludge wastewater actually treated by LWTPs was usually lower. The water
+production and GHGs emissions as undesired outputs were assessed. The volume load rate of LWTPs was between 45 % and 75 %, and the total
+details were shown in Fig. 1. amount of wastewater treatment of eight LWTPs in 2022 was 4.4256
+million tons. Due to the influence of land area, some LWTPs chose
+2.4. Data collection membrane biological reactor instead of secondary sedimentation tank.
+The concentration of nitrogen and phosphorus in the secondary effluent
+All original data were derived from the operating records of LWTPs of most LWTPs can meet the emission standards, but the COD was
+in 2022, such as total investment, operating costs, influent and effluent usually between 50 mg/L–250 mg/L, so the advanced treatment was
+water quality, treated water volume, and sludge production. The cost mainly aimed at the refractory organics in liquor wastewater. However,
+comprehensive index and emission reduction comprehensive index were the secondary effluent of LWTP C and D needed to further reduce the
+calculated by EWM using the original data of the secondary-level in- concentration of nitrogen, so the advanced treatment increased the
+dicators. The detailed calculation process could be found in Text S1. The denitrification filter. Additionally, dewatered the sludge generated from
+GHGs emissions were calculated based on the methodology provided in the secondary sedimentation tank and the iron-rich sludge produced by
+the “2019 Refinement to the 2006 IPCC Guidelines for National the Fenton reactor, were subsequently transported the mixture to either
+Greenhouse Gas Inventories”, combined with data obtained from the a power plant or a cement plant for disposal.
+operating records, including influent and effluent water quality,
+wastewater treatment volume, electricity and chemical reagent con- 3.2. Characteristics of indicators
+sumption. The detailed calculation process and the carbon emission
+factors used were shown in Text S2 and Table S3, respectively. The DEA model requires that there was no strong linear correlation
+between input and output indicators. Therefore, Pearson correlation
+analysis on the selected 11 indicators were finished in this study. Herein,
+2.5. Indicators sensitivity analysis method
+the cost comprehensive index and the emission reduction comprehen-
+sive index were obtained by weighting the secondary indicators; and it
+In order to identify the impact of inputs and outputs indicator values
+was only necessary to analyze the correlation between the secondary
+on the benefit, a sensitivity analysis was conducted to determine the
+indicators and other indicators. Therefore, the cost comprehensive index
+priority order of improvements for each indicator. However, unlike
+and the emission reduction comprehensive index were not selected to
+conventional sensitivity analysis, when testing the sensitivity of a
+join in the Pearson correlation analysis. The results were shown in
+certain indicator to the benefits, this indicator was removed and the
+Fig. S2 and Text S4.
+corresponding benefits results of each studied LWTPs would be obtained
+The influent concentrations of COD, NH3-N, TN and TP of LWTPs
+from the same super-SBM model [24]. After that, the original benefits
+were 5000 mg/L – 45,000 mg/L, 50 mg/L – 350 mg/L, 100 mg/L – 600
+were used as independent variable and the benefits recalculated after
+mg/L and 30 mg/L – 650 mg/L (Fig. S1), respectively. This indicates that
+removing an indicator were used as dependent variable. A linear func-
+tion could be obtained from the above data, with the coefficient (R2), there was a significant fluctuation in the influent water quality of
+slope and p-value. When the slope was significant different from 1, R2 LWTPs. For example, the influent COD concentration of LWTP B could
+reach up to 39,064 mg/L, and the lowest was only 9245 mg/L. Varia-
+was small and the p-value was large, there was a strong sensitivity be-
+tions in water quality significantly impact emission reduction efficiency
+tween the removed indicator and the benefits [25]. For example, the
+and operating costs. Because the cost comprehensive index and emission
+slope of the curve obtained after removing the total investment was 0.77
+and the R2 was 0.64, indicating that there was a significant impact on the reduction comprehensive index in the first-level indicators were calcu-
+lated by the secondary-level indicators, the secondary-level indicators
+benefits of LWTPs in this indicator.
+were discussed first. The descriptive statistical results of the first-level
+and secondary-level indicators were shown in Table 1. The average
+2.6. The factors outside the assessment method affecting benefits of
+reduction amounts of COD, NH3-N, TN, and TP were 14.62 kg/t, 0.18
+LWTPs
+kg/t, 0.30 kg/t, and 0.18 kg/t, respectively. At the same time, their
+standard deviations were 8.48, 0.05, 0.11 and 0.12 respectively.
+Since the assessment results were theoretically in the range from 0 to
+The average of electricity costs, chemical reagent costs, staff costs
+infinity, and the Tobit model was adept at handling the correlation is-
+and other costs for all LWTPs were 5.27 yuan/t, 7.34 yuan/t, 1.55 yuan/
+sues of dependent variables that were constrained within a certain
+t, and 27.48 yuan/t, respectively. Due to the significant fluctuations in
+range. This method could explain the difference between truncated data
+the water quality of liquor wastewater, the treatment equipment
+and non-truncated data, overcoming the limitations of conventional
+required frequent maintenance or replacement, resulting in other costs
+regression method [26]. So, this study used the Tobit model to analyze
+becoming the largest expenditure. Notably, the standard deviation of
+the factors outside the assessment method affecting benefits of LWTPs.
+chemical reagent costs was 4.19, indicating significant difference in
+The mathematical expression of the Tobit model was as follows:
+chemical reagent inputs of LWTPs.
+{
+α y+ i<βT 0xi+ε iyi≥0 U ins din icg tt oh re E reW laM dto oa s os pig en w tine gig ch ots tsto thse ec won ed iga hry ts- l oe fv e el ei cn td rii cc ia tt yo cr os. tI sn
+yi= 0i (2)
+the a s te t ra s , l s ,
+chemical reagent costs, staff costs, and other costs were 0.2521, 0.2511,
+Where yi is the benefit of the i th LWTPs; α i is a constant term; βT is 0.2509, and 0.2459, respectively, indicating that the electricity cost had
+coefficient vector; xi is the i th factor affecting the benefit; ε i ~ N (0, σ2) the greatest impact on the operating cost. In the indicators related to
+random error term. emission reduction benefits, the weights of reduction amounts of COD,
+The selection of factors that affect the benefit outside the assessment NH3-N, TN, and TP were 0.2492, 0.2510, 0.2494 and 0.2504, respec-
+method was shown in Text S3. tively, indicating that the reduction amounts of NH3-N had the greatest
+impact on the emission reduction benefits.
+3. Results and discussion The descriptive statistical results of the first-level indicators were
+shown in Table 1. The average total investment of all LWTPs was 325.95
+3.1. Basic characteristics of the study subjects yuan/t, and the standard deviation was 122.87, indicating that there
+was a big difference in the total investment of each LWTP. The average
+Table S1 showed the design scale of LWTPs, but due to the high cost comprehensive index of all LWTPs was 0.13, and the standard de-
+concentration of contaminants in liquor wastewater, the amount of viation was 0.02, indicating that the cost comprehensive index of each
+4
+
+--- Page 5 ---
+934801 ,31.0 -sime egduls hcihw gib sGHG ruof -neb ,8.0–7.0 fo 68.0 C deveihca -risednu rieht ,tnellecxe stfieneb dna oT stnemevorpmi stnanimatnoc sa -imatnoc yeht stuptuo eht sGHG rewol .slevel yeht sPTWL taht F derised ygrenys -ni -cuder )snoissime ,D ot )ni( tsoc ,31.0 -ni -feni saw .]82[ ot ,detavacxe -erroc -erpmoc eht -noc tA tem
+77 gn i r e e n i g n E s s e c o r P r e t a W f o l a n r u o J )5202( .tnereffid hcum ton saw PTWL saw xedni evisneherpmoc noitcuder noissime fo egareva ehT llarevo eht taht tnaem sihT .30.0 saw noitaived dradnats eht dna fo egareva ehT .ralimis saw sPTWL fo tfieneb noitcuder nois 32.8 saw noitaived dradnats eht dna ,t/gk 54.81 saw noitcudorp a saw ereht taht gnitacidni ,t/gk 14.6 eulav muminim eht dedeecxe fo egareva ehT .PTWL hcae fo noitcudorp egduls eht ni ecnereffid ,t/2OC gk 02.61 saw snoissime .47.4 saw noitaived dradnats eht dna sPTWL fo stluser tnemssessa stfieneB.3.3 erew erehT .2 .giF ni nwohs erew stluser tnemssessa stfieneb ehT eht dna ,sPTWL thgie eht fo % 05 rof gnitnuocca ,sPTWL tneicfife ,9.0–8.0 neewteb detubirtsid erew sPTWL ruof rehto eht fo stfie ,5.0–4.0 6.0–5.0 gniknar stfieneb ehT .)a2 .giF( ylevitcepser dna fo egareva na htiw ,H ot A morf desaerced yllaudarg sPTWL ,B ,A sPTWL fo stluser tnemssessa stfieneb eht ,meht gnomA .)b2 .giF( ,1≥ sPTWL tneicfife esehT .tneicfife-AED gniveihca D dna gnipeek elihw ,stsoc tupni rewol htiw tuptuo elbarised rehgih taht detacidni sihT .]72[ egnar elbatpecca na nihtiw tuptuo elba erew noitcuder sGHG dna stnanimatnoc fo stfieneb ygrenys eht ,revewoH .stnalp retaw kramhcneb sa elbatius meht gnikam 75.0 ,57.0 ,08.0 erew H dna G ,F ,E sPTWL fo stluser tnemssessa .tneicfifeni-AED lla erew yeht taht gnitacidni ,ylevitcepser ,44.0 gnidnopserroc ekam ot deen yeht ,tneicfife-AED eveihca fo stfieneb ygrenys eht ecnahne ot stuptuo dna stupni .noitcuder sGHG dna ,ES dna ETP otni desopmoced erew stluser tnemssessa stfieneb ehT fo stfieneb ygrenys retteb htiw sPTWL ehT .c2 .giF ni nwohs taht gnitacidni ,ETP rehgih detibihxe noitcuder sGHG dna stnan derised eht eveihca ot stupni ezilitu ylevitceffe ot elba erew gnomA .slevel tnemeganam dna ygolonhcet tnerruc rieht rednu dna stnanimatnoc fo stfieneb ygrenys roop ylevitaler htiw sPTWL ,1≥ rieht taht gnitacidni ETP detibihxe F dna E sPTWL ,noitcuder tnemeganam ro ygolonhcet ot elbatubirtta ton saw tfieneb ,1< taht gnitacidni saw H dna G sPTWL fo ETP eht ,revewoH .tnemeganam dna ygolonhcet evorpmi ot dedeen ylno htiw ,ES rewol detibihxe sPTWL tsom ,ETP ot tsartnoc nI gnitacidni ,elacs noitcudorp lamitpo eht ta gniveihca H dna ,G dna E sPTWL fo ES ehT .decnalab-llew erew stuptuo dna stupni rieht tneicfifusni ro stupni evissecxe rehtie gnitacidni ,tsewol saw sPTWL fo tnemevorpmi eht detimil yltnacfiingis sihT .stuptuo latot( stupni riehT .noitcuder sGHG dna stnanimatnoc fo stfieneb noissime( stuptuo dna )xedni evisneherpmoc tsoc dna tnemtsev sGHG dna ,noitcudorp egduls ,xedni evisneherpmoc noit dna ,C ,A sPTWL rof ,revewoH .tnemtsujda fo deen tnegru ni erew ,1> ,1< meht edam siht saw ETP rieht saw ES rieht hguohtla .noitcuder sGHG dna stnanimatnoc fo ygrenys gniveihca srotacidni tuptuo/tupni fo laitnetop tnemevorpmI.4.3 fo eulav srotacidni tuptuo/tupni fo ecnereffid dewohs d2 .giF dna tnemtsevni latot eht ,srotacidni tupni sA .sPTWL tneicfife dna t/nauy 70.324 erew sPTWL tneicfifeni fo xedni evisneherpmoc gnidnopserroc eht naht rehgih erew hcihw fo htob ,ylevitcepser fo tnemtsevni latot eht ,ralucitrap nI .sPTWL tneicfife fo srotacid sihT .sPTWL tneicfife naht rehgih t/nauy 52.491 saw sPTWL tneicfi sllih erom htiw ,mrofdnal tsraK eht ot sgnoleb ytiC iynuZ esuaceb redro nI .niatnuom eht fo toof eht ta detacol erew sPTWL eht fo flaH eb ot dedeen niatnuom eht ,dnal noitcurtsnoc hguone dah eht dna ytlucfifid noitcurtsnoc sPTWL eht desaercni hcihw noitcuder noissime eht ,srotacidni tuptuo sA .tsoc gnidnops naht rehgih ylthgils saw sPTWL tneicfifeni fo xedni evisneh tneuflni eht esuaceb ,sPTWL tneicfife fo srotacidni gnidnopserroc .)1S .giF( rehgih saw sPTWL tneicfifeni fo noitartnecnoc stnanimat sPTWL lla fo snoitartnecnoc tnanimatnoc tneuflfe eht ,emit emas eht
+ni ,B
+5
+noitaived
+21.0 11.0 50.0 48.8 34.01 04.0 91.4 56.1 47.4 32.8 30.0 20.0 78.221 dradnatS
+81.0 03.0 81.0 26.41 84.72 55.1 43.7 72.5 02.61 54.81 31.0 31.0 59.523 naeM
+64.0 45.0 82.0 18.53 13.54 60.2 69.51 16.8 06.52 26.33 81.0 61.0 08.764 .xaM
+80.0 81.0 21.0 05.7 22.71 28.0 17.1 37.2 89.11 14.6 01.0 01.0 44.541 .niM
+)t/gk( stnuoma )t/nauy( )t/nauy( )t/2OC )t/gk( xedni )t/nauy(
+)t/gk( stnuoma )t/gk( stnuoma noitcuder )t/gk( stnuoma stsoc )t/nauy( tsoc tnegaer )t/nauy( tsoc gk( snoissime noitcudorp xedni evisneherpmoc evisneherpmoc tnemtsevni
+noitcuder PT noitcuder NT N-3HN noitcuder DOC rehtO stsoc ffatS lacimehC yticirtcelE sGHG egdulS noitcuder noissimE tsoC latoT
+srotacidnI tuptuO srotacidnI tupnI srotacidnI tuptuO srotacidnI tupnI
+srotacidnI level-yradnoceS srotacidnI level-tsriF metI
+.srotacidni level-yradnoces dna level-tsrfi fo stluser lacitsitats evitpircsed ehT
+1 elbaT
+.la
+te
+naG
+.Y
+
+--- Page 6 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+Fig. 2. Assessment results for LWTPs: benefits distributions (a), [0.4, 0.5) denoted 0.4 ≤benefits <0.5, and the other benefits were similar to it as well. Benefits for
+LWTPs (b). Pure technical efficiency (PTE) and scale efficiency (SE) (c), difference of input/output indicators value of (in)efficient LWTPs (d), and the overall
+improvement potentials of each indicator (e).
+the same emission standards, indicating that the contaminants removal emissions, the improvement potential of LWTP E was the largest, fol-
+ability of inefficient LWTPs were stronger. Sludge production and GHGs lowed by LWTP H, G and F respectively, and LWTP E was 2.91 kg CO2/t
+emissions of inefficient LWTPs were 22.95 kg/t and 18.36 kg CO₂/t, higher than that of the second-ranked LWTP H. Therefore, it was very
+respectively, which were respectively 8.99 kg/t and 6.48 kg CO₂/t necessary for LWTP E to take some emission reduction measures to
+higher than the efficient LWTPs. In summary, inefficient LWTPs needed reduce GHGs emissions.
+to be improved in terms of total investment, cost comprehensive index, In order to propose targeted reconstruction strategies, the improve-
+sludge production and GHGs emissions. ment potential of each LWTPs input and output indicators were
+The super-SBM model provided specific improvement potential for analyzed (as shown in Fig. 3a). Regarding input indicators, efficient
+input and output indicators of LWTPs. In order to understand the LWTPs showed no potential for improvement in total investment,
+improvement potential of each indicator, the average improvement whereas inefficient LWTPs demonstrated significant potential for
+potential of eight LWTPs input and output indicators was calculated (as improvement in this regard. LWTPs E, F, G, and H showed improvement
+shown in Fig. 2e). There were high improvement potentials for input potential of 84.64 yuan/t, 171.35 yuan/t, 213.08 yuan/t, and 319.94
+indicators of LWTPs, especially for total investment. To achieve the ideal yuan/t, respectively. The improvement potential of total investment was
+value, there was the potential for the total investment and cost largely attributable to the challenging construction conditions in the
+comprehensive index to be reduced by 98.6 yuan/t and 0.005, respec- Karst landscape of the Zunyi area [28]. Inefficient LWTPs E, F, G, and H
+tively. Among the input indicators, total investment exhibited the were all constructed at the foot of mountains, requiring higher con-
+greatest potential for improvement. Except for the emission reduction struction costs compared to efficient LWTPs. Additionally, the influent
+comprehensive index, there was also significant improvement potential contaminants concentration in these inefficient LWTPs were not only
+for other output indicators in the LWTPs. The sludge production and relatively high but also exhibited significant fluctuations (Fig. S1). This
+GHGs emissions could still be reduced 0.269 kg/t and 0.331 kg CO2/t, increased the frequency and total investment of upgrades and recon-
+respectively. struction for these LWTPs.
+The improvement potential ranking of indicators of inefficient Regarding the cost comprehensive index, it was found that most
+LWTPs was shown in Table S4. There was no potential for improvement LWTPs showed no potential for improvement. Only LWTP H needed to
+in emission reduction comprehensive index in all inefficient LWTPs. reduce 0.04 of this indicator. As introduced in Section 2.3, the cost
+LWTP H needed to improve cost comprehensive index, there was no comprehensive index was calculated based on secondary-level in-
+potential for improvement in other LWTPs. For total investment, the dicators, including electricity costs, chemical reagent costs, staff costs,
+improvement potential of LWTP E – H was gradually increasing one by and other costs. From the perspective of secondary-level indicators, it
+one, especially LWTP H was needed to reduce 319.94 yuan/t. Therefore, was observed that electricity costs and other costs was largest of the cost
+LWTP H needed to reduce the cost of later upgrades and reconstruction. comprehensive index for LWTP H, with values of 0.0440 and 0.0448,
+For sludge production, the improvement potential rankings of LWTP E – respectively (Fig. 3b). This may be attributed to the unreasonable se-
+H were 3, 4, 1 and 2, respectively. Among them, the improvement po- lection of pumps and aeration blowers, leading to increased electricity
+tential of LWTP G as ranking 1st was 16.33 kg/t, which was much larger consumption. Alternatively, the poor operating condition of electrical
+than LWTP H as ranking 2nd (with 4.53 kg/t). Therefore, LWTP G equipment leads to frequent maintenance or replacement, thereby
+needed to pay special attention to sludge production. For GHGs increasing other costs. Therefore, LWTP H needed to strengthen the
+6
+
+--- Page 7 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+Fig. 3. Improvement potentials of indicators: first-level (a), secondary-level (b) and (c).
+management of electric energy and reduce the cost of sludge disposal, cannot make timely adjustments based on changes in water quality and
+equipment maintenance or replacement. For other LWTPs, the largest quantity.
+proportion in the cost comprehensive index of LWTPs A, B, C, D, E, F and In order to further clarify the improvement potential of inefficient
+G were staff cost, electricity cost, staff cost, staff cost, other cost, LWTPs in chemical reagents, this study had screened out 8 kinds of
+chemical reagents cost and chemical reagents cost, respectively. chemical reagents used in all LWTPs, polyaluminum chloride (PAC),
+(cid:0) +
+Therefore, these LWTPs can give priority to these corresponding aspects polyacrylamide anion (PAM ), polyacrylamide cation (PAM ), sodium
+if they want to reduce operating costs. hydroxide (NaOH), sulfuric acid (H2SO4), FeSO4, H2O2 and sodium
+Regarding output indicators, it was evident that all LWTPs showed hypochlorite (NaClO). Subsequently, this study compared the differ-
+no potential for improvement in the emission reduction comprehensive ences in chemical reagents input between efficient and inefficient
+index. Because their effluent quality precisely achieved the discharge LWTPs in terms of cost and GHGs emissions, as shown in Fig. 4a – 4d.
+standards. However, from the perspective of secondary-level indicators, In terms of chemical reagent costs, inefficient LWTPs E, F, G, and H
+it was found that the largest proportion of the emission reduction showed excessively high costs in NaOH, H2SO4 and H2O2. Compared
+comprehensive index of LWTPs E and F was COD reduction amount, with the average value of efficient LWTPs, the maximum difference
+LWTPs D and G were NH3-N reduction amount, LWTPs A, B and H were could reach up to 5.13 yuan/t for NaOH, 0.71 yuan/t for H2SO4, and
+TN reduction amount, LWTPs C was TP reduction amount. Therefore, if 5.34 yuan/t for H2O2. In addition, LWTPs E, F and G also showed higher
+the emission reduction benefit in these LWTPs wanted to be improved, cost in NaClO. In particular, the cost of NaClO in LWTP E was 0.59 yuan/
+these corresponding aspects could be considered firstly. t higher than the average value of efficient LWTPs. The cost of PAC in
+For sludge production, it was found that efficient LWTPs and F LWTP H was 0.15 yuan/t higher than the average value of efficient
+showed no potential for improvement. LWTPs E, G and H needed to LWTPs. GHGs emissions follow a trend similar to chemical reagent costs.
+reduce 0.62 kg/t, 16.33 kg/t and 4.53 kg/t, respectively. From the Compared to the average value of efficient LWTPs, LWTPs E, F, G, and H
+treatment process of LWTPs, it could be found that the main structures showed maximum differences in GHGs emissions from the use of NaOH,
+for generating sludge were secondary sedimentation tanks and Fenton H2SO4 and H2O2, reaching 4.49 kg CO2/t, 0.43 kg CO2/t, and 6.00 kg
+tanks. Therefore, in LWTPs E, G and H, the unreasonable setting of CO2/t, respectively. In summary, inefficient LWTPs E, F, G, and H ur-
+sludge concentration and sludge reflux ratio, resulted in high excess gently needed to improve the efficiency of chemical reagent usage (e.g.,
+sludge production [29]. Or too much hydrogen peroxide (H2O2) and NaOH, H₂SO₄, and H₂O₂) and reduce their inputs to decrease both
+ferrous sulfate (FeSO4) dosage, resulted in that Fenton tanks produce too chemical costs and GHG emissions.
+much iron sludge.
+For GHGs emissions, it was evident that all efficient LWTPs showed
+no potential for improvement. Inefficient LWTPs E, F, G and H had the 3.5. Identify the priority of key indicator improvement
+potential to reduce emissions by 9.62 kg CO2/t, 2.10 kg CO2/t, 5.01 kg
+CO2/t and 6.71 kg CO2/t, respectively. The proportion of GHGs emis- Sensitivity analysis provided decision-makers with valuable insights
+sions in each LWTP was shown in Fig. S3. It was apparent that the pri- into the prioritization of indicator improvement [30]. By removing a
+mary sources of GHGs emissions were the consumption of electrical certain indicator, the super-SBM model was re-run to obtain new ben-
+energy and chemical reagents, which together accounted for nearly 80 efits. After that, the original benefits were taken as the independent
+% of the total emissions. Therefore, in inefficient LWTPs E, F, G and H, variable, and the benefits recalculated after eliminating an indicator was
+there was unreasonable electricity consumption or excessive chemical taken as the dependent variable for linear fitting. The influence degree
+reagent inputs, which was related to electrical equipment and chemicals of the eliminated index on the benefit was judged by R2, slope and p-
+value. If the slope was significant different from 1, and R2 was small and
+7
+
+--- Page 8 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+Fig. 4. The cost of chemical reagents used per unit of wastewater treated and the amount of greenhouse gas emissions in LWTPs: average value of efficient LWTPs
+versus LWTPs E (a), F (b), G (c) and H (d). And sensitivity of indicators: total investment (e), cost comprehensive index (f), sludge production (g), and GHGs
+emissions (h).
+the p-value was large, it showed that there was a great influence on the indicated that the sensitivity decreased in the following order: cost
+benefit with removed indicator, and the indicator should be given pri- comprehensive index, sludge production, total investment, and GHGs
+ority in the improvement of LWTPs. It was worth noting that since the emissions. The input indicators ranked first and third, while the output
+emission reduction comprehensive index was the only expected output indicators ranked second and fourth, indicating that inputs were more
+indicator, the super-SBM model could not run without it, so the sensi- sensitive than outputs. Therefore, LWTPs should first pay attention to
+tivity of this indicator was not considered. energy conservation, emission reduction and operating costs, followed
+The sensitivity analysis results were shown in Fig. 4e – 4h. It was by sludge production and total investment. GHGs emissions showed the
+8
+
+--- Page 9 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+weakest sensitivity, which may be due to the lack of consideration for efficiency and energy saving equipment such as lift pumps and aeration
+GHGs emissions during the construction and operation of LWTPs. blowers with appropriate specifications, where the application variable
+However, as climate change becomes increasingly severe, the sensitivity frequency control equipment was preferred. This allowed the aeration
+to GHGs emissions will gradually increase. intensity to be adjusted in real time according to changes in water
+quality and quantity. Secondly, with the help of an automatic dosing
+3.6. The effect of factors outside the assessment method on benefits of system, the dosage of the chemical reagent was automatically adjusted
+LWTPs according to the water quality data, and intelligent algorithms (such as
+fuzzy control, neural network) were used to optimize the dosing strat-
+The benefits of LWTPs were influenced by other factors besides input egy. For example, Xu et al. [32] predicted the amount of neutralizing
+and output indicators. For example, Jiang et al. [27] found that water reagent in the wastewater treatment process by machine learning, thus
+volume load rate and influent COD concentration had a significant effect avoiding excessive input of neutralizing reagent. Thirdly, regularly
+on sustainability benefits of WWTPs. Therefore, this study analyzed the checked the operation status of the equipment to ensure that the
+influence of water volume load rate, the influent concentration of COD, equipment was operating within the rated parameter range, avoid
+NH3-N, TN and TP on the benefit. Fig. S4 was the distribution of these overload or low load operation, thereby prolonging the working life of
+five factors in each LWTP. The water volume load rate of the eight the equipment and reducing the cost of equipment maintenance or
+LWTPs was between 45 % and 75 %, and the LWTP C was the highest. replacement.
+For the influent contaminants’ concentration, the four kinds of con- For sludge production, it was suggested that the sludge concentration
+taminants concentration of LWTP B and E were relatively high, the and sludge age of the biological tank were optimized to reduce the
+LWTP A and D were the lowest, and the LWTP C, F, G and H were not discharge of excess sludge, firstly. And then, the production of iron
+much different. sludge could be reduced by optimizing the dosing method of Fenton
+From the perspective of benefits, there was little difference in water reagents, such as two-step dosing or three-step dosing instead of the
+volume load rate between inefficient and efficient LWTPs. For example, current one-time dosing of Fenton reagents [33]. Thirdly, or the excess
+the minimum value of inefficient LWTP was 45 %, while efficient LWTP sludge and iron sludge were collected separately to recover the iron ions
+was only 48 %. For influent contaminants concentration, LWTP B was in the iron sludge, thereby reducing the discharge of iron sludge. If
+efficient, but its influent contaminants’ concentration was higher than necessary, advanced sludge reduction processes such as anaerobic side-
+inefficient LWTP F, G and H. Therefore, it was difficult to determine the stream reactor (ASSR), anaerobic ammonia oxidation and catalytic
+extent of the influence of these five factors on the benefits through linear ozonation process were introduced to reduce the generation of sludge
+relationships, so this study analyzed the influence of these five factors on from the source [34,35].
+the benefits through the Tobit model. For GHGs emissions, in addition to the control of electricity con-
+The affecting factors analysis results by Tobit model were shown in sumption and chemical reagents consumption, LWTP could carry out
+Table S5. Firstly, the p-value of the likelihood ratio test was <0.05, photovoltaic projects, which could use solar power generation to reduce
+indicating that the results of this test were credible and had statistical the dependence of LWTP on external energy. For example, Chen and
+significance. Thus, water volume load rate, the influent concentration of Zhou [36] assessed the potential of the WWTPs photovoltaic power
+NH3-N, TN and TP had a significant effect on the benefits (their p-value generation project in China and found that the project could reduce the
+<0.05), while the influent COD concentration had no significant effect GHGs emissions of WWTPs by 10 % – 40 %. In addition, the organic
+as evidenced by p-values >0.05. On the one hand, the biodegradability matter in liquor wastewater could be used to produce methane through
+of liquor wastewater was good, and the organic matter could be well anaerobic fermentation for power generation, which achieved carbon
+degraded by multi-stage biological treatment. On the other hand, LWTPs compensation.
+had the problem of excessive dosage of Fenton reagents. So, the change In addition, liquor wastewater was rich in organic matter and nu-
+of influent COD concentration had no obvious correlation with benefits. trients that could be recycled. Firstly, medium-chain carboxylic acids
+Through analyzing coefficient value (β), it was seen that the water could be produced by using nutrients such as lactic acid and ethanol in
+volume load rate and the influent NH3-N concentration were negatively liquor wastewater, and medium-chain carboxylic acids could be further
+correlated with benefits (β <0), suggesting that the current water vol- processed into antibacterial agents and food additives. For example,
+ume load rate or influent NH3-N concentration of LWTPs had already Xiang et al. [37] constructed a simplified microbial consortia and suc-
+reached the treatment limit and could not increase further, otherwise it cessfully achieved high production of caproic acid using lactic acid and
+would lead to a decline in benefits. However, the influent concentration ethanol in liquor wastewater. Secondly, the organic matter in liquor
+of TN and TP was positively correlated with benefits (β >0), suggesting wastewater was biodegradable, and liquor wastewater was used as a
+that the current wastewater treatment technology was fully capable of carbon source to reduce the dependence of WWTPs on chemical re-
+coping with the increase of influent TN or TP concentration. To improve agents. Luo et al. [38] studied the nitrification and denitrification
+the removal ability of contaminants, the growth and reproduction of characteristics of aerobic granular sludge under different cultivation
+microorganisms, it was suggested to maintain a BOD5/TN (C/N) ratio of conditions using liquor wastewater as the sole carbon source, and found
+4 to 6 or a BOD5/TP (C/P) ratio greater than 20 [31]. that the highest nitrogen removal rate could reach an astonishing 95 %.
+In addition, the phosphorus resources in liquor wastewater can be
+3.7. Reconstruction strategies recovered to produce struvite or kyanite, so as to realize the reuse of
+mineral resources.
+Based on the benefits assessment results, this study provided some
+practical suggestions for the decision-makers of LWTPs, as shown in 4. Conclusions
+Fig. S5. For the total investment, it was suggested that try to build LWTP
+in a flat area to reduce the difficulty of construction. At the same time, In response to the challenges of difficult liquor wastewater treatment
+the wastewater could be transported to the LWTP by gravity to reduce and high GHGs emissions in Zunyi City. In this study, the synergy ben-
+the dependence on the water pump. Furthermore, the water quality and efits of contaminants and GHGs reduction of eight typical sauce-flavor
+quantity of liquor wastewater should be comprehensively considered in LWTPs in Zunyi City were assessed, and corresponding reconstruction
+the construction process of LWTP combined with the brewing stage of strategies were suggested. The main conclusions of this study were as
+liquor, so as to design a reasonable process route and reduce the fre- follows.
+quency of upgrading and reconstruction in the later stage.
+For operational costs, firstly, it was recommended to select high
+9
+
+--- Page 10 ---
+Y. Gan et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i ng 77 (2025) 108439
+(1) A novel assessment method considering the emission of GHGs [3] J. Zhan, Z. Wu, Effects of liquor production wastewater discharge on water quality
+had been proposed by integrating the two objective assessment and health risks in the Chishui River basin, Southwest China, J. Clean Prod. 418
+(2023) 138136, https://doi.org/10.1016/j.jclepro.2023.138136.
+methods, EWM and DEA. This method could realize the assess- [4] W. Nie, Y. Lin, X. Wu, S. Wu, X. Li, J.J. Cheng, C. Yang, Chitosan-Fe3O4 composites
+ment of contaminants and GHGs emission reduction benefits of enhance anaerobic digestion of liquor wastewater under acidic stress, Bioresour.
+LWTPs, and accurately identify the key links that LWTPs need to Technol. 377 (2023) 128927, https://doi.org/10.1016/j.biortech.2023.128927.
+[5] Q. Luo, J. Li, Z. Zhang, G. Liu, J. Chen, Y. Chen, Z. Zhao, Formation and adaptation
+be optimized. of algal–bacterial granular sludge in real Chinese liquor brewing wastewater
+(2) The assessment result showed that the four LWTPs achieved the treatment, J. Environ. Chem. Eng. 12 (2024) 112288, https://doi.org/10.1016/j.
+synergy benefits of contaminants and GHGs emission reduction, jece.2024.112288.
+[6] J. Liu, C. Tian, X. Jia, J. Xiong, S. Dong, L. Wang, L. Bo, The brewery wastewater
+and the average benefits of all LWTPs was 0.86. Besides, the
+treatment and membrane fouling mitigation strategies in anaerobic baffled
+result showed that total investment and GHGs emissions were the anaerobic/aerobic membrane bioreactor, Biochem. Eng. J. 127 (2017) 53–59,
+input and output indicators with the greatest potential for https://doi.org/10.1016/j.bej.2017.07.009.
+[7] X. Shao, D. Peng, Z. Teng, X. Ju, Treatment of brewery wastewater using anaerobic
+improvement, with 98.6 yuan/t and 3.31 kg CO2/t, respectively.
+sequencing batch reactor (ASBR), Bioresour. Technol. 99 (2008) 3182–3186,
+However, sludge production was the most critical factor affecting https://doi.org/10.1016/j.biortech.2007.05.050.
+benefits and should be prioritized for improvement. [8] M. Serreli, L. Petti, A. Raggi, A. Simboli, G. Iuliano, Social life cycle assessment of
+an innovative industrial wastewater treatment plant, the, Int. J. Life Cycle Assess.
+(3) Targeted suggestions had been proposed of total investment,
+26 (2021) 1878–1899, https://doi.org/10.1007/s11367-021-01942-w.
+operating costs, sludge production and GHGs emissions, which [9] R.X. Hao, F. Liu, H.Q. Ren, S.Y. Cheng, Study on a comprehensive evaluation
+will contribute to the development of the local liquor wastewater method for the assessment of the operational efficiency of wastewater treatment
+treatment industry. plants, Stoch. Env. Res. Risk A,27 (2013) 747–756, https://doi.org/10.1007/
+s00477-012-0637-2.
+[10] M. Molinos-Senante, R. Sala-Garrido, Evaluation of energy performance of drinking
+CRediT authorship contribution statement water treatment plants: use of energy intensity and energy efficiency metrics, Appl.
+Energy 229 (2018) 1095–1102, https://doi.org/10.1016/j.apenergy.2018.08.102.
+[11] L. Corominas, J. Foley, J.S. Guest, A. Hospido, H.F. Larsen, S. Morera, A. Shaw, Life
+Yujin Gan: Writing – original draft, Methodology, Formal analysis, cycle assessment applied to wastewater treatment: state of the art, Water Res. 47
+Data curation, Conceptualization. Chenyu Wang: Methodology, Formal (2013) 5480–5492, https://doi.org/10.1016/j.watres.2013.06.049.
+analysis, Data curation, Conceptualization. Keke Zhao: Formal analysis, [12] Y. Lorenzo-Toja, I. V´azquez-Rowe, D. Marín-Navarro, R.M. Crujeiras, M.T. Moreira,
+G. Feijoo, Dynamic environmental efficiency assessment for wastewater treatment
+Data curation, Conceptualization. Xiao Guan: Resources, Project plants,, Int. J. Life Cycle Assess. 23 (2018) 357–367, https://doi.org/10.1007/
+administration. Chen Li: Writing – review & editing, Supervision, Re- s11367-017-1316-9.
+sources, Project administration. Zhenbei Wang: Supervision, Project [13] G. Wang, C.L. Xiao, Z.W. Qi, F.A. Meng, X.J. Liang, Development tendency analysis
+for the water resource carrying capacity based on system dynamics model and the
+administration. Yatao Liu: Supervision, Project administration. Fan Li:
+improved fuzzy comprehensive evaluation method in the Changchun city, China,
+Supervision, Project administration. Fei Qi: Writing – review & editing, Ecol. Indic. 122 (2021) 107232, https://doi.org/10.1016/j.ecolind.2020.107232.
+Resources, Project administration. Amir Ikhlaq: Supervision. Oksana [14] V. Herna´ndez-Chover, A. Bellver-Domingo, F. Herna´ndez-Sancho, Efficiency of
+wastewater treatment facilities: the influence of scale economies, J. Environ.
+Ismailova: Supervision. Zuhra Kadirova: Supervision. Manag. 228 (2018) 77–84, https://doi.org/10.1016/j.jenvman.2018.09.014.
+[15] M. Mocholi-Arce, T. Go´mez, M. Molinos-Senante, R. Sala-Garrido, R. Caballero,
+Evaluating the eco-efficiency of wastewater treatment plants: comparison of
+Declaration of competing interest optimistic and pessimistic approaches, Sustainability 12 (2020) 10580, https://doi.
+org/10.3390/su122410580.
+[16] H.X. Chen, Y.N. Zheng, K. Zhou, R. Cheng, X. Zheng, Z. Ma, L. Shi, Carbon emission
+The authors declare that they have no known competing financial
+efficiency evaluation of wastewater treatment plants: evidence from China,
+interests or personal relationships that could have appeared to influence Environ. Sci. & Pollut. Res. 30 (2023) 76606–76616, https://doi.org/10.1007/
+the work reported in this paper. s11356-023-27685-9.
+[17] F. Herna´ndez-Sancho, M. Molinos-Senante, R. Sala-Garrido, Energy efficiency in
+Spanish wastewater treatment plants: a non-radial DEA approach, Sci. Total
+Acknowledgments Environ. 409 (2011) 2693–2699, https://doi.org/10.1016/j.
+scitotenv.2011.04.018.
+[18] R.Y. Huang, Z.H. Shen, H.T. Wang, J. Xu, Z.S. Ai, H.Y. Zheng, R.X. Liu, Evaluating
+This work was supported by National Key Research and Develop-
+the energy efficiency of wastewater treatment plants in the Yangtze River Delta:
+ment Program of China (2023YFC3205600), the Yangtze River Joint perspectives on regional discrepancies, Appl. Energy 297 (2021) 117087, https://
+Research Phase II Program (2022-LHYJ-02-0510-02), China-CEEC doi.org/10.1016/j.apenergy.2021.117087.
+[19] K. Tone, M. Toloo, M. Izadikhah, A modified slacks-based measure of efficiency in
+Higher Education Institutions Joint Educational Program (No.
+data envelopment analysis, Eur. J. Oper. Res. 287 (2020) 560–571, https://doi.
+2023279), the Belt and Road Innovative Talent Exchange Foreign Expert org/10.1016/j.ejor.2020.04.019.
+Project (No. DL2023109001L) and the Beijing Forestry University [20] D. Pan, W. Hong, F.B. Kong, Efficiency evaluation of urban wastewater treatment:
+Outstanding Young Talent Cultivation Project (No. 2019JQ03008). evidence from 113 cities in the Yangtze River Economic Belt of China, J. Environ.
+Manag. 270 (2020) 110940, https://doi.org/10.1016/j.jenvman.2020.110940.
+[21] R.D. Banker, A. Charnes, W.W. Cooper, Some models for estimating technical and
+Appendix A. Supplementary data scale inefficiencies in data envelopment analysis, Manag. Sci. 30 (1984)
+1078–1092, https://doi.org/10.1287/mnsc.30.9.1078.
+[22] M. Maktabifard, A. Awaitey, E. Merta, H. Haimi, E. Zaborowska, A. Mikola,
+Supplementary data to this article can be found online at https://doi. J. Makinia, Comprehensive evaluation of the carbon footprint components of
+org/10.1016/j.jwpe.2025.108439. wastewater treatment plants located in the Baltic Sea region, Sci. Total Environ.
+806 (2022) 150436, https://doi.org/10.1016/j.scitotenv.2021.150436.
+[23] B. Golany, Y. Roll, An application procedure for DEA, Omega 17 (1989) 237–250,
+Data availability https://doi.org/10.1016/0305-0483(89)90029-7.
+[24] Y. Guo, W. Liu, J. Tian, R. He, L. Chen, Eco-efficiency assessment of coal-fired
+Data will be made available on request. combined heat and power plants in Chinese eco-industrial parks, J. Clean. Prod.
+168 (2017) 963–972, https://doi.org/10.1016/j.jclepro.2017.09.059.
+[25] W. Hu, Y. Guo, J. Tian, L. Chen, Eco-efficiency of centralized wastewater treatment
+References plants in industrial parks: a slack-based data envelopment analysis, Resour.
+Conserv. Recycl. 141 (2019) 176–186, https://doi.org/10.1016/j.
+resconrec.2018.10.020.
+[1] P. Misila, P. Winyuchakrit, P. Chunark, B. Limmeechokchai, GHG mitigation
+p 1o 3t 8e n (2ti 0a 1ls )o f T 1h 3–a 9il 1a 8n ,d ’ hs te pn se :/rg /dy op i.o ol ric gi /e 1s t .o 0a 1c 6h /ie j.v ee yIN prD oC t 0a 1r 7g .e 1t 0, .E 1n 3e 9r .gy Procedia [26] D ba.D se. dZ oh nan ag , J P.Q SI. S -Sh Ben M, -F T. oH b. tS u mn o, E ev l,a Klu Sa Cti Eo n o Cf iw v.a Ete nr e n 2v 4i r (o 2n 0m 20e )n t p 6e 4r 1f –o 1rm 65a 4n ,c e
+D R i d J . g . 1
+7 9 t 0 1 g .2
+https://doi.org/10.1007/s12205-020-2370-6.
+[2] J. Luo, J. Wu, Q. Zhang, Q. Feng, L. Wu, J. Cao, C. Li, F. Fang, Efficient production
+[27] H. Jiang, M. Hua, J. Zhang, P.P. Cheng, Z. Ye, M. Huang, Q. Jin, Sustainability
+of short-chain fatty acids from anaerobic fermentation of liquor wastewater and
+efficiency assessment of wastewater treatment plants in China: a data envelopment
+waste activated sludge by breaking the restrictions of low bioavailable substrates
+and microbial activity, Bioresour Technol. 268 (2018) 549–557, https://doi.org/ analysis based on cluster benchmarking, J. Clean. Prod. 244 (2020) 118729,
+https://doi.org/10.1016/j.jclepro.2019.118729.
+10.1016/j.biortech.2018.08.039.
+10

@@ -1,0 +1,500 @@
+--- Page 1 ---
+JournalofWaterProcessEngineering61(2024)105254
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Carbon footprint analysis of advanced biological wastewater
+treatment plant
+Ays¸enur Karakasa, Seda Tozum-Akgulb,*, Okan Tarık Komeslia, Sehnaz Sule Kaplan-Bekarogluc
+aDepartment of Environmental Engineering, Atatürk University, Erzurum 25240, Türkiye
+bYalvaç Technical Sciences Vocational School, Isparta University of Applied Sciences, Isparta 32400, Türkiye
+cDepartment of Environmental Engineering, Süleyman Demirel University, Isparta 32260, Türkiye
+A R T I C L E I N F O A B S T R A C T
+Editor: Soroush Abolfathi This study presents the carbon footprint assessment of an advanced biological wastewater treatment plant. The
+greenhouse gas (GHG) emission sources of the plant have been identified and the processes from which these
+Keywords: emissions originate have been determined. In the carbon footprint assessment, direct and indirect emissions were
+Carbon footprint considered by utilizing the United Nations Framework on Climate (UNFCC), Intergovernmental Panel on Climate
+N2O emissions
+Change (IPCC) methodology and National Greenhouse Accounts Factors. The total GHG emission amount of the
+C AH dv4 e nm ceis ds i won as plant is estimated as 10,389 and 53,529 tCO2eq for 2018 and 2019, respectively. In 2019, the carbon footprint
+a s tewater treatment
+increased by approximately 5 times compared to 2018 due to poor operation of the plant. The largest share in
+total GHG emissions belongs to direct emissions. On the other hand, the main source of direct emissions is
+methane emissions from anaerobic stabilization ponds. Emissions from the electricity consumption were iden-
+tified as the main source of indirect emissions. The present study is a preliminary study for taking measures to
+reduce GHG emissions by evaluating the carbon footprint by determining the source and amount of GHG
+emissions of the plant. Operating conditions of each processes is crucial in analyzing the carbon footprint of
+different treatment configurations. GHG emissions of the plant can be reduced by operational improvements such
+as increasing the amount and efficiency of biogas and reducing the consumption of chemicals. In addition, the
+use of clean energy sources such as wind, solar and biomass energy can increase energy efficiency and reduce
+GHG emissions of the plant.
+1. Introduction order to operate at net-zero emissions, water/wastewater utilities are
+pioneering in reducing greenhouse gas emissions. The “net zero emis-
+As a result of the increase in the world population, urbanization, high sions” target set by 2053 in the Paris Climate Agreement, to which
+production and consumption, improved quality of life and developing Turkey became a party in 2021, also requires taking measures to reduce
+industrialization, greenhouse gas emissions into the atmosphere have carbon emissions. In addition, climate change also poses a threat to
+also increased. The increase in greenhouse gas emissions (GHG) in the WWTPs. Climate factors such as increase in global temperature, extreme
+atmosphere is shown as the main cause of global warming and climate temperatures, flooding, heavy rainfall, and sea level rise can directly
+change [1]. affect the performance of WWTPs [2,5,6]. In order to operate at net-zero
+Wastewater treatment plants (WWTPs) play an important role in emissions, water/wastewater utilities are pioneering in reducing
+reducing environmental pollution caused by wastewater. However, greenhouse gas emissions. Therefore, WWTPs are both climate change
+WWTP is one of the main sources of greenhouse gas emissions, such as drivers and climate change influencers with the energy they consume
+carbon dioxide (CO2), methane (CH4) and nitrous oxide (N2O). As is well and the greenhouse gases they emit. The United Nations estimates that
+known, excess greenhouse gases alter the energy balance on earth, the water treatment industries’ global carbon emissions, which include
+causing extreme weather events such as short periods of heavy rainfall wastewater treatment, make up around 2 % of all carbon emissions [7].
+and prolonged droughts [2]. Therefore, the wastewater treatment sector Several studies showed that wastewater treatment technologies and
+is one of major concern for today’s global warming problem [3,4]. In treatment parameters significantly influenced GHG emissions in WWTPs
+* Corresponding author.
+E-mail addresses: sedatozum@gmail.com (S. Tozum-Akgul), okan.komesli@atauni.edu.tr (O.T. Komesli), sulebekaroglu@sdu.edu.tr (S.S. Kaplan-Bekaroglu).
+https://doi.org/10.1016/j.jwpe.2024.105254
+Received 22 January 2024; Received in revised form 24 March 2024; Accepted 1 April 2024
+Availableonline19April2024
+2214-7144/©2024ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+[8]. However, the carbon footprint of various treatment technologies footprint of advanced wastewater treatment processes in Türkiye. For
+and its contribution among different units within each treatment this reason, in the present study, the carbon footprint of an advanced
+configuration in WWTPs is still uncertain [9]. biological treatment plant was calculated and the sources of greenhouse
+GHG emissions from WWTPs are classified as direct and indirect gas emissions from the wastewater treatment plant were investigated. In
+emissions. Direct GHG emissions are emissions from treatment pro- addition, solutions for the minimization of greenhouse gas emissions of
+cesses, emissions from the sewage collection system and emissions from the plant are presented.
+the receiving water environment where treated water is discharged.
+Indirect GHG emissions arise from electricity consumption, chemical 2. Material method
+consumption, fossil fuel use for transportation and sludge disposal
+[8,10]. 2.1. Erzurum Advanced Biological Treatment Plant
+Carbon footprint analysis is an important tool used to assess the
+impact of WWTPs on climate change [11] and is useful both in identi- Erzurum Advanced Biological Treatment Plant with a treatment ca-
+fying strategies to reduce the GHG emissions of the plant and in deter- pacity of 13,000 m3/day designed to treat the pollution loads given in
+mining the success of these strategies [12]. CO2, CH4 and N2O are the Table 1. The plant flowchart is given in Fig. 1. The aerobic tanks of the
+main greenhouse gases considered in the carbon footprint of WWTPs. plant are designed to remove nitrogen, phosphorus and other pollutants
+However, direct CO2 emissions from WWTPs are not included in the that cannot be removed by biological treatment and are therefore
+calculation of GHG emissions as they are considered part of the natural defined as advanced biological treatment plant. The wastewater coming
+carbon cycle (biogenic origin) [13]. Therefore, the sources of CO2 from the sewerage system first passes through coarse and fine screens.
+emission in WWTPs are mainly related to energy consumption. In The wastewater from the screening unit is conveyed to the grit -grease
+WWTPs, high energy consuming units such as biological treatment chamber, pre-settling tank and aeration basin respectively. Aeration
+(aeration), pumping stations and sludge equipment are the sources of tank is an activated sludge process consisting of anoxic and oxic ponds
+CO2 emissions from electricity consumption. N2O and CH4 emissions are and based on carbon and nitrogen removal. Nitrogen, carbon, phos-
+related to nitrogen and carbon cycles in biological transformation pro- phorus, and other pollutants in the wastewater are removed by ensuring
+cesses [2]. The effects of GHG such as CH4 and N2O generated in that nitrification-denitrification events take place in the aeration basins.
+treatment plants can be compared to their global warming potential by Aeration effluent is conveyed to the final settling tank. The legal and
+converting them into carbon dioxide equivalents (CO2eq). In the litera- technical principles required for the protection of groundwater and
+ture, it was reported that N2O and CH4 emissions from wastewater surface water resources and prevention of water pollution in Turkey are
+treatment and discharge contributed 2.6 % and 3.6 % to total carbon specified in the “Water Pollution and Control Regulation”. According to
+dioxide emissions in industrialized countries in 2018, respectively [14]. this regulation, the water from the final settling pond of the wastewater
+Consequently, issues such as energy consumption and greenhouse treatment plant is discharged to Karasu river according to the criteria
+gas emissions, carbon footprint and minimization of energy footprint given in Table 1 [24]. The settled sludge is sent to the sludge building.
+have gained importance to ensure the environmental sustainability of The solid matter content of the sludge is increased in thickening tanks. In
+WWTPs. There are many studies in the literature that use models, life addition, biogas is produced by digesting the sludge in anaerobic di-
+cycle analysis and various guidelines and programs to assess the carbon gesters in the plant and heat and electricity are also generated from the
+footprint of wastewater treatment plants. Paredes et al. [15], deter- biogas by the combined heat and power (CHP) system.
+mined methane emissions from stabilization ponds in a domestic
+wastewater treatment plant in Mexico. Boiocchi et al. [1], analyzed the 2.2. Carbon footprint calculation limits and methods
+carbon footprint of a large wastewater treatment plant consisting of a
+conventional activated sludge system combined with an anaerobic This study is based on primary data from an advanced biological
+digester providing partial energy to the plant. Wu et al. [9], evaluated wastewater treatment plant in Türkiye. Data such as wastewater quality
+the carbon footprint impacts of different process designs in wastewater parameters such as BOD, TN, flow rate, electricity and chemical con-
+treatment plants and reported that anaerobic wastewater and sludge sumption, biogas production, which are considered in carbon footprint
+treatment technologies have a lower carbon footprint compared to calculation, were obtained from the plant’s operational records. In the
+aerobic technologies. Kyung et al. [16] investigated off-site emissions assessment of the carbon footprint of the plant, direct and indirect
+from electricity consumption and chemical use for a five-stage Barden- emissions caused by wastewater treatment are considered. The calcu-
+pho process. Li et al. [17] performed carbon accounting and analysis of lation comprises emissions from wastewater treatment (including
+the A2O process in a municipal wastewater treatment plant, from the anaerobic stabilization, biological treatment, and advanced treatment)
+municipal pipe network to final disposal and transportation off-site the and emissions from the amount of electricity and chemicals used during
+plant. the operation of the plant. Fig. 1 shows the system boundaries consid-
+In Türkiye, there are limited studies on the assessment of greenhouse ered in the calculation of the carbon footprint of the treatment plant.
+gas emissions of wastewater treatment plants [18–21]. In the existing Direct emissions from the sewer network and emissions from sludge
+studies, carbon footprint assessments were made using various pro- treatment were not included in the carbon footprint calculations. CO2
+grams, modeling, and guidelines. [21] investigated the carbon footprint emissions from biological treatment are not included because of their
+of Mugla biological wastewater treatment plant using CCALC2 program
+and IPCC [13] and NGA [22] guidelines, [18] investigated the carbon
+Table 1
+footprint of Bingo¨l wastewater treatment plant using GPS-X and CCALC2
+Advanced biological wastewater treatment plant design criteria and effluent
+programs. [23] estimated the on-site and off-site greenhouse gas emis- standards (1: Criteria taken into account in the design of the wastewater treat-
+sions of a long aeration activated sludge system in an industrial waste- ment plant2;: Effluent values that the plant should provide according to the
+water treatment plant with an approach based on the Intergovernmental Water Pollution and Control Regulation).
+Panel on Climate Change (IPCC) method. Parameters Unit Design criteria1 Effluent standard2
+It is seen that studies on greenhouse gas emissions caused by
+COD mg/L 631 90
+wastewater treatment plants generally focus on the classical activated
+BOD mg/L 321 25
+sludge process. GHG emissions studies in literature have been focus on TSS mg/L 343 35
+part of the wastewater treatment configurations whereas not on the TN mg/L 54 10
+whole configurations [9]. Also, there is a lack of studies on the deter- TP mg/L 13
+pH mg/L 6–9.5 6–9.5
+mination of greenhouse gas emissions and calculation of carbon
+2
+
+--- Page 3 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+Fig. 1. Flow diagram of the advanced biological wastewater treatment plant and system boundaries for carbon footprint accounting (Boundaries: Blue dashed line).
+(For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+biogenic origin [13]. The calculated methane and nitrous oxide emis-
+Table 2
+sions were converted to carbon dioxide equivalents based on their global
+Direct greenhouse gas emissions of Erzurum Advanced Biological WWTP.
+warming potential, i.e., 21 for CH4 and 310 for N2O. Fig. 2 illustrates the
+steps of the methodological approach used to calculate the carbon Direct emission sources Unit Method
+footprint of an advanced biological wastewater treatment plant. Details Carbon Emissions from Anaerobic Stabilization tCO₂eq UNFCCC
+about the calculations are given in the following sections. Carbon Emissions from Biological Treatment tCO₂eq IPCC
+Carbon Emissions from Advanced Treatment tCO₂eq IPCC
+2.2.1. Direct emissions
+Direct emissions at the wastewater treatment plant are from anaer- configurations and optimizing operational parameters for a wastewater
+obic stabilization pond, biological treatment, and advanced treatment. treatment plant, enabling the plant to reduce its carbon footprint.
+Direct emission sources and calculation methods are presented in The methodology published by IPCC and developed by UNFCCC
+Table 2. The IPPC 2006 Guidelines for National Greenhouse Gas In- (United Nations Framework Convention on Climate Change) was used to
+ventories is one of the most common emission factor methods used to calculate emissions from anaerobic stabilization ponds. The methodol-
+estimate GHG emissions. In many studies, it has been used to analyze the ogy used is ACM0014 (large-scale) Wastewater Treatment Methodology
+carbon footprint of different wastewater treatment plant configurations published by UNFCCC (Version 8.0).
+due to its ease and simple applicability [23,25–27]. The IPCC method- CH4 from wastewater treatment accounts for 5 % of global methane
+ology uses emission factors based on assumptions and ignores differ- sources and contributes 3.6 % of total CO2eq emissions [28,29]. CH4
+ences in treatment process [26]. However, it can provide preliminary emission sources in the plant investigated in this study are anaerobic
+information about carbon footprint for determining process stabilization, biological treatment, and advanced treatment.
+Fig. 2. Steps to calculate WWTP’s carbon footprint.
+3
+
+--- Page 4 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+The greenhouse gas from anaerobic stabilization ponds was calcu- 2.2.2. Indirect emissions
+lated as CH4 emission only and the methodology developed by the In the calculation of indirect emissions of the plant, emissions from
+United Nations Framework Convention on Climate Change (UNFCCC) electricity and chemical consumption and emissions from the combus-
+was used. The formula used in the calculation is given below [30]. tion of biogas were taken into consideration. The methods used in the
+calculation of these emissions are shown in Table 3. The National
+BE CH4 =GWP CH4•MCF•B 0•BOD (1)
+Greenhouse Accounts (NGA) Factors report emission factors to facilitate
+BECH₄ =Methane emissions from anaerobic stabilization ponds for the companies and individuals to estimate their greenhouse gas emissions.
+commitment period (tCO₂e/yıl), GWPCH₄ =Global warming potential of Within the scope of this study, this document was utilized in the
+methane (tCO₂ eq/tCH₄), Bₒ =Maximum CH4 producing capacity, 0.6 kg acceptance of emission factors for the chemicals consumed in the
+CH4/kg BOD (tCH₄/tBOI) [31], MCF =Methane conversion factor:0.8 treatment plant.
+[31] BOD =Quantity of biological oxygen demand that would be treated In the calculation of carbon emissions from the electricity con-
+sumption of the plant, the total electricity consumption of the plant and
+in anaerobic stabilization ponds for the commitment period (tBOD/
+the electricity generation emission factor for Türkiye were taken into
+year).
+consideration. The equation based on the IPCC method and used in the
+Both CH4 and N2O emissions occur in biological treatment. In the
+calculation is as follows:
+calculation of CH4 emissions from treatment processes, [13] Guidelines
+for National Greenhouse Gas Inventories were utilized. The equation GHG electricity=EC•EF e (6)
+used to calculate CH4 emissions is as follows.
+CH 4emission=[(cid:0) U i•T i,j•EF j)] (TOW(cid:0) S)(cid:0) R (2) (w tCh Oer 2e e, /G yH eaG );e le Ect Cric ity to: tC ala r eb lo en re icm iti yss i co on ns ufr mo pm ioe nle c ot fr i wci aty ec won as tu erm tp rt ei ao tn
+q r : ct s t st -
+ment plant (kWh/year); EFe: Country emission factor for electricity
+EF j=B 0•MCF j (3) generation (0.497 ×10(cid:0) 3 t CO2/kWh) [23].
+where: CH4-emission =Methane emission in the inventory year, kg CH₄/ Addition of cationic polyelectrolyte to increase the solids concen-
+year; Ui =Fraction of population (Default:1); Ti,j =Degree of utilization tration in the sludge thickening process in the plant causes indirect
+of treatment plant (Default:1); TOW =BOD concentration in wastewater emissions. The indirect emission caused using chemicals is calculated
+in the inventory year, kg BOD/year; S =Organic component removed by with the following equation considering the annual cationic poly-
+electrolyte usage amount.
+sludge in the inventory year, kg BOD/year (Default: 0 kg BOD/year); EFj
+=Emission factor; R =Amount of CH₄ recovered in the inventory year, GHG chemical=C•EF chemical (7)
+kg CH4/year (No methane recovery:0 kg CH4/year); B0 = Maximum
+methane producing capacity, kg CH4/kg BOD (Default 0.6 kg CH₄/kg where; GHGchemical: Carbon emissions from chemical consumption
+BOD); MCFj =Methane correction factor, (Default 0.3) [13]. (tCO2e/year); C: total chemical consumption of wastewater treatment
+Incomplete nitrification and denitrification processes during bio- plant ton/year); EFchemical: Emission factor of the chemical. The emis-
+logical treatment lead to nitrous oxide emissions [26]. N2O emissions sion factor of cationic polyelectrolyte is 1.182 kgCO2e/kg [21,22].
+from nitrification and denitrification processes in the wastewater In the plant, sludge from mechanical thickeners is digested in
+treatment plant were calculated using the following equation [13]: anaerobic digesters and biogas is obtained. Some of the biogas obtained
+is burned in the boiler to obtain hot water and some of it is used to meet
+N 2O plants=P•T plant•F ind(cid:0)com•EF plant (4) the energy of the plant. The emission resulting from the combustion of
+vw th le zr oe ar: iN n2 eO tP rrl e,a an tts N= nON /2 pO ae nrm i (Ps Ds :i eo fn us lf tr o %nm 0oth )e lt Fr te inia dt -nm me Tn =t ap ftl a a=n ct idi on gt rh oee i in nof- b “ oL ii lo o g ewa qes ur ii vn c aa t llh eo ne ri tfip vl ca vn luat elw u ea [ss o 2c fa .l e c nu el ra gte yd s ob uy r cc eo sn v ae nr ds i co on n a vc ec rso ir od ni n cg o eto ffi t ch ie e nt ta sb tl oe
+ue in it ty oy a k mg e2 y le t; h au m a 1p 0p u a o c; p l n e fe a ” 3 ]
+t a ; o r t n -
+dustrial and commercial discharged protein (Default:1.25); EFplant =
+2.2.3. Avoided emissions
+emission factor (Default:3.2 N2O/person/year).
+CH4 gas produced as a by-product in anaerobic digesters in treatment
+In the calculation of methane gas emissions from advanced treat-
+plants can be collected and used as an energy source, reducing the
+ment, it is assumed that the system is a well-operated plant and very
+carbon and energy footprint of the plant [33]. Singh et al. [34] stated
+little methane gas emissions will occur. The equation used in the
+calculation is as shown in Eqs. (1) and (2). In Eq. (1), Ui =1; Ti,j=:1; S = that the total energy footprint can be reduced by 10 % by utilizing and
+0 and R =0, and in Eq. (2), B0 =0.6 kg CH₄/kg BOD and MCF is assumed recovering biogas energy. In this study, the biogas obtained from
+anaerobic digestion of the sludge generated in the plant is collected and
+to be 0.05 [13].
+burned for electricity generation. The electrical energy generated is
+In advanced wastewater treatment plants, both direct N2O emissions
+automatically operated by the transformer system of the plant and is
+from nitrogen content in wastewater and indirect N2O emissions from
+used when the plant needs it. Therefore, the electrical energy supplied
+wastewater discharge into the receiving environment occur. The equa-
+from the grid and emissions from electricity use are reduced. The
+tion used to calculate direct/indirect N2O emissions from influent or
+amount of emissions prevented as a result of the electrical energy pro-
+effluent is as follows:
+duced was calculated by converting according to the conversion co-
+N 2O influent/effluent=N influent/effluent•EF effluent•4 24 (5) efficients table of energy resources to lower thermal and oil equivalent
+8
+(5) where: N2Oinfluent/effluent = N2O emissions from influent or Table 3
+effluent in inventory year, kg N2O/year; Neffluent = Nitrogen in the Indirect greenhouse gas emissions of Erzurum Advanced Biological WWTP.
+effluent discharged to aquatic environments, kg N/year, EFeffluent =
+Indirect emission sources Unit Method
+emission factor, kg N2O-N/kg N (Default value: 0.005 kg N2O-N/kg N).
+menE tq . . T ( h2 e) aw ssa us m u ps te id o nt so m c aa dlc eu ala rt ee a C s H fo4 l le om wi ss : s Uio i=ns : 1f ;r o Tm i,j= a :d S v =an 0c e kd g Btr Oe Dat /- E C Tl hhe eec mt cr oii cc mait bly s c c so o tin n os s nu u m m ofp p bt ti i io o on n t t tC C CO O O₂ ₂ ₂e e eq q I N LP oGC wAC r( T Ci ae lr 1 ri)
+u ga s q e o fi c Values and
+year; EFj =Emission factor; R =0 kg CH4/year; B0 =0.6 kg CH₄/kg BOD; Conversion Coefficient
+MCFj =0.05 [13]. Avoided emissions
+Emissions avoided because of tCO₂eq Lower Calorific Values and
+electricity produced from biogas Conversion Coefficient
+4
+
+--- Page 5 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+values published by the Ministry of Energy and Natural Resources. 2018, anaerobic stabilization ponds cause 5956 tCO2eq of CH4 emissions
+while advanced treatment causes 372 tCO2eq of CH4 emissions (Fig. 3).
+3. Results and discussion [38] reported that the activated sludge process has lower direct GHG
+emissions than anaerobic lagoons.
+3.1. Direct emissions
+Fig. 3 shows the direct CH4 and N2O emissions from the treatment 3.2. Indirect emissions
+plant. N2O emissions from the wastewater treatment plant are mainly
+from the biological treatment and advanced treatment processes, while The calculation of indirect emissions included electricity consump-
+CH4 emissions are from the anaerobic pond, biological treatment, and tion, chemical consumption, and emissions from biogas combustion.
+advanced treatment processes. Total CH4 emissions from the plant for Electricity consumed by aeration equipment, blowers, mixing motors
+2018 and 2019 are 8548 and 45,061 tCO2eq and N2O emissions are 3401 and other equipment in wastewater treatment plants is known to
+and 4562 tCO2eq, respectively. In addition, it can be said that total CH4 contribute to a large portion of the indirect emissions of the plant [39].
+emissions are higher than total N2O emissions for both years. In their In the calculation of emissions from electricity consumption, the annual
+s ct ou nd sy c tuo tn ed muc ot se td i fn t2 h0 e1 d9 i, R ecib e er ma- iG ssu ioa nrd s.i a e ot a 2l. s 1t 8at e tod ath a dt rC eH ct4 e em mi is ss si io on ns e (0le .4ct 9r 7ic i ×ty c 0o (cid:0)n 3s u m COpt 2i /o kn o hf ft oh re Tp üla rkn it ea )n d eth ree tc ao ku en nt r iny oe m acis cs oio un fa [2ct 3o ]r
+ti o r t F r 0 t l i s 1 t W y w t n t .
+were calculated as 11,949 tCO2eq. Similarly, Li et al. [17], who calcu- The total electricity consumption of the plant for 2018 and 2019 is
+lated the carbon emissions of the A2O process, an advanced treatment 3,622,076 kWh and 7,742,624 kWh (Table 4), while the specific elec-
+process, calculated direct emissions as 12,539 tCO2eq/y. In 2019, total tricity consumption is 0.124 kWh/m3 and 0.287 kWh/m3. Electricity
+direct emissions were 49,623 tCO2eq, which is an increase compared to consumption of WWTPs varies depending on the location, operating
+2018. Since the growth of bacteria in sludge is slow in cold weather capacity, age and population served, treatment methods and discharge
+conditions, there are some difficulties in the operation of the Erzurum standards [40].
+Wastewater Treatment Plant due to the harsh and long winter conditions Accordingly, the emissions from electricity consumption of the plant
+[35]. Since the Erzurum Biological Wastewater treatment plant is were calculated as 1800 tCO2eq and 3848 tCO2eq for 2018 and 2019,
+located in a different location both in terms of altitude and climate, the respectively. [40] found the emissions from electricity consumption of a
+study conducted shows that the standards cannot be met in the con-
+centrations of WWTP effluent in high altitude and long winter condi- Table 4
+tions. It took a long time to solve the operating problems that occurred in Indirect emissions from electricity and chemical consumption.
+winter in 2019. For this reason, since the data requested for 2019 could Emissions from electricity consumption
+not be obtained from the plant managers, the calculations for 2019 were
+Electricity consumption Emission factor Emissions
+made based on the assumptions stated in Metcalf and Eddy [36]. The
+kWh kg CO₂-eq/kWh tCO2eq
+assumptions are as follows: effluent BOD:132 mg/L; effluent TN:15 mg/
+L. As a result, the amount of emissions produced in 2019 increased 2018 3,622,076 0.497 1800
+compared to 2018. Therefore, the increase in emission amounts from 2019 7,742,624 0.497 3448
+2018 to 2019 can be explained by the increase in biological oxygen
+demand (BOD) and nitrogen concentrations in the wastewater influent.
+This increase is expected considering that BOD in wastewater is the main Emissions from chemical consumption
+determinant of methane formation and nitrogen component is the main Chemical consumption Emission coefficient kg Emissions
+determinant of NO2 formation [37]. For both years, CH4 emissions from (kg/year) CO₂-eq/kg tCO2eq
+anaerobic stabilization ponds have the largest share, while the lowest 2018 53,957 1.182 64
+share of CH4 emissions belongs to advanced treatment. For example, in 2019 48,658 1.182 58
+Fig. 3. Direct greenhouse gas emissions of Advanced Biological WWTP for 2018 and 2019 (Abbreviations: ASP: Anaerobic Stabilization Ponds; BT: Biological
+Treatment; AT: Advanced Treatment).
+5
+
+--- Page 6 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+wastewater treatment plant with a capacity of 4500 m3/day and long bioreactor technology, the contribution of emissions from electricity
+aeration activated sludge to be 483 tCO2eq. In other studies, emissions consumption and chemical use to total GHG emissions was 79.94 % and
+caused by electricity consumption; it was stated as 2863 tCO2eq for an 17.13 %, respectively [42].
+SBR-based wastewater treatment plant by Gupta and Singh (2012), and
+as 10,928 tCO2eq for the A2O process by Li et al. [17].
+3.3. Avoided emissions
+In the calculation of indirect emissions from chemical consumption,
+the amount of cationic polyelectrolyte used annually in the plant and the
+Studies to date have shown that a significant portion of the treatment
+cationic polyelectrolyte emission factor specified by [21] were taken plant’s energy needs can be met through biogas recovery processes.
+into consideration. The amount of cationic polyelectrolyte used by the
+[43], reported that 2900 kWh/day of electricity can be generated from a
+plant in 2018 and 2019 is 53,957 kg and 48,658 kg, respectively WWTP with a biogas production rate of 1150 m3/day from anaerobic
+(Table 4). According to these data, the emission amounts of the plant
+digesters. In an advanced treatment plant in Turkey, it was determined
+due to chemical consumption are calculated as 64 tCO2eq and 58 tCO2eq
+that 30 % of the total daily energy requirement of the plant (42,300
+for 2018 and 2019, respectively. [41] found that electricity and chem-
+kWh) can be met by combusting the methane in the system [44].
+ical consumption are important factors affecting the carbon footprint of
+According to 2018 operating data, biogas production in the digesters
+treatment plants. is 4558 m3/day. The energy produced in cogeneration is 3374 MWh/
+Emissions from the combustion of biogas obtained from anaerobic
+year on average. As mentioned in the section above, the inability to
+digestion of primary sludge and biological sludge at the facility were
+provide effective treatment due to operational problems in the facility in
+calculated according to the table “Lower calorific values of energy
+2019 due to cold weather conditions also affected the biogas yield ob-
+sources and conversion coefficients to oil equivalent value”. In 2018,
+tained from the anaerobic digester. For this reason, the emission pre-
+4558 m3/day biogas was produced at the facility. The emission from the
+vented by the electrical energy produced from biogas in 2019 is
+combustion of biogas was calculated as 4494 tCO2eq. The difficulties
+accepted as 0. According to this data, the amount of avoided emission
+experienced by the facility in operation in 2019 also affected biogas
+was calculated by converting according to the conversion coefficients
+production. Therefore, due to the unreliability of biogas data in 2019,
+table of energy resources to lower thermal and oil equivalent values
+emissions resulting from biogas combustion were evaluated as 0 for
+published by the Ministry of Energy and Natural Resources [21]. Ac-
+2019.
+cording to the calculations, the amount of emissions prevented as a
+Fig. 4 shows the indirect emissions from the wastewater treatment result of electrical energy produced from biogas is 4494 tCO₂-eq in 2018.
+plant. The amounts of indirect emissions from the plant for 2018 and
+Emissions from different units of the advanced biological wastewater
+2019 are 2935 tCO2eq and 3906 tCO2eq, respectively. As can be seen
+treatment plant were analyzed and summarized in Table 5. The total
+from Fig. 4, the largest share in indirect emissions for 2018 is the
+carbon footprint of the advanced biological wastewater treatment plant
+emissions from electricity consumption (1800 tCO2eq). Emissions from
+was estimated as 10,389 and 53,527 tCO2eq for 2018 and 2019,
+electricity consumption are followed by biogas combustion emissions
+from and emissions from chemical consumption. For 2018, the contri-
+Table 5
+bution of electricity consumption, chemical consumption, and emissions
+Results of the carbon footprint analysis for advanced biological WWTP.
+from biogas combustion to total emissions is 61 %, 2 % and 36 %,
+respectively. Emission shares in 2019 showed a similar trend to 2018. Unit 2018 2019
+However, it should be noted that due to operational problems in 2019, Wastewater treatment tCO2eq 11,949 49,623
+emissions from burning biogas were accepted as 0. However, opera- Energy use tCO2eq 1800 3848
+tional problems were reflected in the electricity consumption of the Chemicals tCO2eq 64 58
+plant, and emissions resulting from electricity consumption increased EB li eo cg ta rs ic c ito ym pb ru os dt uio cn ti on of biogas t tC CO O2 2e eq q (cid:0) 41 40 97 41 00
+compared to 2018. Total 10,389 53,529
+In a small-scale wastewater treatment plant using membrane
+Fig. 4. Indirect greenhouse gas emissions of Advanced Biological WWTP for 2018 and 2019
+6
+
+--- Page 7 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+respectively. For 2018 and 2019, the largest share of total emissions is Data availability
+due to direct emissions, accounting for 69 % and 92 %, respectively.
+Similarly, in the study by [45,46], direct emissions (CH4 and N2O Data will be made available on request.
+emissions) represent 60 % of total emissions.
+The carbon footprint was reduced by generating electricity from Appendix A. Supplementary data
+biogas generated from anaerobic digestion of sludge in 2018 (4494
+tCO2eq). Treatment plants can reduce their carbon footprint if properly Supplementary data to this article can be found online at https://doi.
+designed and well operated [10]. Due to the operational problems the org/10.1016/j.jwpe.2024.105254.
+facility experienced in 2019, its carbon footprint increased almost 5-fold
+due to the increase in greenhouse gas emissions and the inability to References
+provide effective energy recovery. In conclusion, this study shows that
+WWTP process configurations and operation are very important in [1] R. Boiocchi, P. Viotti, D. Lancione, N. Stracqualursi, V. Torretta, M. Ragazzi,
+reducing carbon footprint. It is possible to reduce the carbon footprint G. Ionescu, E.C. Rada, A study on the carbon footprint contributions from a large
+wastewater treatment plant, Energy Rep. 9 (2023) 274–286, https://doi.org/
+through sustainable plant design and optimization of operational
+10.1016/j.egyr.2023.06.002.
+parameters. [2] J.P. Bassin, F.D. Castro, R.R. Val´erio, E.P. Santiago, F.R. Lemos, I.D. Bassin, The
+impact of wastewater treatment plants on global climate change, in: B. Thokchom,
+P. Qiu, P. Singh, P. Iyer (Eds.), Water Conservation in the Era of Global Climate
+4. Conclusions Change, Elsevier, Amsterdam, The Netherlands, 2021, pp. 367–410.
+[3] S. Borzooei, G.H. Miranda, S. Abolfathi, G. Scibilia, L. Meucci, M.C. Zanetti,
+In this study, the greenhouse gas-causing processes of an advanced Application of unsupervised learning and process simulation for energy
+optimization of a WWTP under various weather conditions, Water Sci. Technol. 81
+biological treatment plant and the carbon footprint of the plant were
+(8) (2020) 1541–1551, https://doi.org/10.2166/wst.2020.220.
+evaluated. Direct and indirect emissions are included in the carbon [4] S. Borzooei, Y. Amerlinck, D. Panepinto, S. Abolfathi, I. Nopens, G. Scibilia,
+footprint assessment. As a result of the calculation of direct greenhouse L. Meucci, M.C. Zanetti, Energy optimization of a wastewater treatment plant
+gas emission; it was determined that the process emitting the highest based on energy audit data: small investment with high return, Environ. Sci. Pollut.
+Res. Int. 27 (15) (2020) 17972–17985, https://doi.org/10.1007/s11356-020-
+amount of greenhouse gases was anaerobic stabilization pond and the 08277-3.
+process emitting the least amount of greenhouse gases was advanced [5] S. Borzooei, R. Teegavarapu, S. Abolfathi, Y. Amerlinck, I. Nopens, M.C. Zanetti,
+treatment. Indirect emissions mostly come from electricity Impact evaluation of wet-weather events on influent flow and loadings of a water
+resource recovery facility, in: New Trends in Urban Drainage Modelling, Springer
+consumption. International Publishing, 2019, pp. 706–711, https://doi.org/10.1007/978-3-319-
+For 2018 and 2019, the total greenhouse gas emissions of the plant 99867-1_122.
+are 10,389 and 53,529 tCO2e, respectively. In the resulting calculation, [6] S. Borzooei, R. Teegavarapu, S. Abolfathi, Y. Amerlinck, I. Nopens, M.C. Zanetti,
+Data mining application in assessment of weather-based influent scenarios for a
+the increase in the carbon footprint of 2019 compared to 2018 is due to
+WWTP: getting the most out of plant historical data, Water Air Soil Pollut. 230
+the increase in the amount of BOD and total nitrogen due to the oper- (2019) 5, https://doi.org/10.1007/s11270-018-4053-1.
+ating problems experienced. In addition, in 2018, biogas obtained from [7] H.M.K. Delanka-Pedige, S.P. Munasinghe-Arachchige, I.S.A. Abeysiriwardana-
+Arachchige, N. Nirmalakhandan, Wastewater infrastructure for sustainable cities:
+anaerobic digesters was used in electricity generation, and it was
+assessment based on UN sustainable development goals (SDGs), Int. J. Sustain. Dev.
+determined that the carbon footprint of the plant was reduced with the World Ecol. 28 (3) (2021) 203–209, https://doi.org/10.1080/
+net data obtained. However, due to the lack of effective and stable 13504509.2020.1795006.
+[8] L. Huang, L. Hanxiang, L. Yong, Greenhouse gas accounting methodologies for
+biogas production in 2019, the negative carbon footprint resulting from
+wastewater treatment plants: a review, J. Clean. Prod. (2024) 141424, https://doi.
+electricity production is considered zero. org/10.1016/j.jclepro.2024.141424.
+The study shows that operational parameters have a significant [9] Z. Wu, H. Duan, K. Li, L. Ye, A comprehensive carbon footprint analysis of different
+impact on the carbon footprint of the facility. Stated differently, facility wastewater treatment plant configurations, Environ. Res. 214 (2022) 113818,
+https://doi.org/10.1016/j.envres.2022.113818.
+operational problems have the potential to result in multiple increases in [10] V. Parravicini, K. Swardal, J. Krampe, Greenhouse gas emissions from wastewater
+emissions. Both domestic and industrial wastewater treatment plants treatments, Enrgy. Proced. 97 (2016) 246–253, https://doi.org/10.1016/j.
+can switch to a different process configuration and optimize the pa- egypro.2016.10.067.
+[11] M. Maktabifard, E. Zaborowska, J. Makinia, Energy neutrality versus carbon
+rameters by realizing that operational conditions are extremely effective footprint minimization in municipal wastewater treatment plants, Bioresour.
+in emissions. By optimizing operational parameters and controlling the Technol. 300 (2020) 122647.
+CHP unit, emissions caused can be reduced by providing effective biogas [12] E. Szatyłowicz, I. Skoczko, P. Puzowski, A. Rodero Serrano, Method of estimating
+the carbon footprint of wastewater treatment plants, Environ. Sci. Proc. 9 (2021)
+recovery. In addition, it is also possible to reduce greenhouse gas
+30, https://doi.org/10.3390/ENVIRONSCIPROC2021009030.
+emissions by using renewable energy sources such as wind, solar, [13] IPCC, IPCC Guidelines for National Greenhouse Gas Emissions Inventories,
+biomass energy while providing wastewater in compliance with Institute for Global Environmental Strategies, Japonya, 2006, p. 2006.
+[14] E. Ranieri, G. D’Onghia, L. Lopopolo, P. Gikas, F. Ranieri, E. Gika, V. Spagnolo, A.
+discharge standards without incurring additional operating costs in the
+C. Ranieri, Evaluation of greenhouse gas emissions from aerobic and anaerobic
+wastewater treatment plant. wastewater treatment plants in Southeast of Italy, J. Environ. Manag. 337 (2023),
+https://doi.org/10.1016/j.jenvman.2023.117767. Article 117767.
+[15] M.G. Paredes, L.P. Güereca, L.T. Molina, A. Noyola, Methane emissions from
+CRediT authorship contribution statement
+stabilizations ponds for municipal wastewater treatment in Mexico, J. Integr.
+Environ. Sci. 12 (2015) 139–153, https://doi.org/10.1080/
+Ays¸enur Karakas¸: Data curation, Investigation, Methodology. Seda 1943815X.2015.1110185.
+To¨züm-Akgül: Writing – review & editing, Methodology, Writing – [16] D. Kyung, M. Kim, J. Chang, W. Lee, Estimation of greenhouse gas emissions from a
+hybrid wastewater treatment plant, J. Clean. Prod. 95 (2015) 117–123, https://
+original draft. Okan Tarık Komesli: Methodology, Investigation, Data doi.org/10.1016/j.jclepro.2015.02.032.
+curation. Sehnaz Sule Kaplan Bekaroglu: Methodology, Investigation, [17] Y. Li, H. Gu, G. Zhao, H. Li, M. Zhang, X. Yang, H.L. Sang, Carbon accounting of
+Data Curation. A2O process based on carbon footprint in a full-scale municipal wastewater
+treatment plant, J. Water Process Eng. 55 (2023) 104162, https://doi.org/
+10.1016/j.jwpe.2023.104162.
+Declaration of competing interest [18] F. Ates¸, Evaluation of Bingo¨l Wastewater Treatment Plant Carbon Footprint
+According to CCALC2 and GPS-X Methods, Fırat University, Graduate School of
+Natural and Applied Sciences, 2021. Master’s Thesis, Bingo¨l. 84 pp.
+The authors declare that they have no known competing financial
+[19] H. Gülhan, Estimation of Greenhouse Gas Emissions from Domestic Wastewater
+interests or personal relationships that could have appeared to influence Treatment Plants, Istanbul Technical University, Science Engineering and
+the work reported in this paper. Technology Institute, Istanbul, 2017. Master’s Thesis. 183 pp.
+[20] M. Erdog˘an, Greenhouse Gases Calculations Environmental Facilities, Istanbul
+Technical University, Science Engineering and Technology Institute, Istanbul,
+2015. Master’s Thesis. 127 pp.
+7
+
+--- Page 8 ---
+A. Karakas et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g61(2024)105254
+[21] S. Güller, Determination of Mugla Wastewater Treatment Plant Carbon Footprint, [34] P. Singh, A. Kansal, C. Carliell-Marquet, Energy and carbon footprints of sewage
+Mugla Sıtkı Kocman University, Graduate School of Natural and Applied Sciences, treatment methods, J. Environ. Manag. 165 (2016) 22–30, https://doi.org/
+Mugla, 2018. Master’s Thesis. 105 pp. 10.1016/j.jenvman.2015.09.017.
+[22] NGA, National Greenhouse Accounts Factors, Department of Environment [35] S. Balli, Performance Forecasting of Biological Wastewater Treatment Plant Using
+Australian Government, Commonwealth, 81pp, (2014). Deep Recurrent Neural Network Methods, Atatürk University, Graduate School of
+[23] P. Yapıcıog˘lu, Minimization of greenhouse gas emissions from extended aeration Natural and Applied Sciences, 2022, 105pp.
+activated sludge process, Water Pract Technol. 16 (1) (2021), https://doi.org/ [36] Metcalf and Eddy, Wastewater Engineering Treatment-Disposal-Reuse, Third
+10.2166/wpt.2020.100. edition, McGraw - Hill Inc, USA, 1991.
+[24] WPCR Water Pollution Control Regulation, The Republic of Turkey Official Gazette [37] T.K.L. Nguyen, H.H. Ngo, W. Guo, S.W. Chang, D.D. Nguyen, L.D. Nghiem, Y. Liu,
+No. 26786, Ankara, Turkey, 2008. B. Ni, F.I. Hai, Insight into greenhouse gases emissions from the two popular
+[25] I. Sharawat, R. Dahiya, R.P. Dahiya, Analysis of a wastewater treatment plant for treatment technologies in municipal wastewater treatment processes, Sci. Total
+energy consumption and greenhouse gas emissions, Int. J. Environ. Sci. Technol. 18 Environ. 671 (2019) 1302–1313, https://doi.org/10.1016/j.
+(2021) 871–884, https://doi.org/10.1007/s13762-020-02893-9. scitotenv.2019.03.386.
+[26] J. Xi, H. Gong, Y. Zhang, X. Dai, L. Chen, The evaluation of GHG emissions from [38] J. Foley, D. de Haas, K. Hartley, P. Lant, Comprehensive life cycle inventories of
+Shanghai municipal wastewater treatment plants based on IPCC and operational alternative wastewater treatment systems, Water Res. 44 (2010) 1654–1666,
+data integrated methods (ODIM), Sci. Total Environ. 797 (2021) 148967, https:// https://doi.org/10.1016/j.watres.2009.11.031.
+doi.org/10.1016/j.scitotenv.2021.148967. [39] S.Y. Zeng, X. Chen, X. Dong, Y. Liu, Efficiency assessment of urban wastewater
+[27] M. Ramírez-Melgarejo, A.D. Reyes-Figueroa, S. Gasso´-Domingo, L.P. Güereca, treatment plants in China: considering greenhouse gas emissions, Resour. Conserv.
+Analysis of empirical methods for the quantification of N2O emissions in Recycl. 120 (2017) 157–165, https://doi.org/10.1016/j.resconrec.2016.12.005.
+wastewater treatment plants: comparison of emission results obtained from the [40] S. To¨züm Akgül, Assessment of the role of photovoltaic systems in reducing the
+IPCC Tier 1 methodology and the methodologies that integrate operational data, carbon footprint of wastewater treatment plants, Global NEST J. 25 (8) (2023)
+Sci. Total Environ. 747 (2020) 141288, https://doi.org/10.1016/j. 139–145, https://doi.org/10.30955/gnj.005234.
+scitotenv.2020.141288. [41] D.J.I. Gustavsson, S. Tumlin, Carbon footprints of Scandinavian wastewater
+[28] M. El-Fadel, M. Massoud, Methane emissions from wastewater management, treatment plants, Water Sci. Technol. 68 (4) (2013) 887–893, https://doi.org/
+Environ. Pollut. 114 (2) (2001) 177–185, https://doi.org/10.1016/s0269-7491 10.2166/wst.2013.318.
+(00)00222-0. [42] Y. Chen, Estimation of greenhouse gas emissions from a wastewater treatment
+[29] UNFCCC, United Nations Framework Convention on Climate Change: Climate plant using membrane bioreactor technology, Water Environ. Res. 91 (2019)
+Change Annual Report, 2018. 111–118, https://doi.org/10.1002/wer.1004.
+[30] UNFCCC (United Nations Framework Convention on Climate), ACM 0014 Large- [43] H. David, K. Palanisamy, S. Normanbhay, Pre-treatment of sewage sludge to
+Scale Consolidated Methodlogy, Version 08.0 Treatment of Wastewater, 2019. enhance biogas production to generate green energy for reduction of carbon
+[31] IPCC, Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas footprint in sewage treatment plant (STP), in: International Conference and Utility
+Inventories, IPCC, Switzerland, 2019 pp 6.1–6.72, 2019. Exhibition 2014 on Green Energy for Sustainable Development, Thailand, 19-21
+[32] MENR (Ministry of Energy and Natural Resources), In the Utilisation of Energy March, 2014.
+Resources and Energy Regulation on Increasing Productivity Regulation, Sub- [44] O. O¨ zkan, M. Og˘uz, O¨ . O¨ zdemir, Characterization and assessment of a large-scale
+values of Energy Resources and Conversion Coefficients to Oil Equivalent Annex-2, domestic advanced wastewater treatment plant in Turkey, Environ. Monit. Assess.
+Available from: https://enerji.gov.tr, 2017. 184 (2012) 5275–5281, https://doi.org/10.1007/s10661-011-2338-6.
+[33] K. Oshita, T. Okumura, M. Takaoka, T. Fujimori, L. Appels, R. Dewil, Methane and [45] A. Ribera-Guardia, L. Bosch, L. Corominas, M. Pijuan, Nitrous oxide and methane
+nitrous oxide emissions following anaerobic digestion of sludge in Japanese sewage emissions from a plug-flow full-scale bioreactor and assessment of its carbon
+treatment facilities, Bioresour. Technol. 171 (2014) 175–181, https://doi.org/ footprint, J. Clean. Prod. 212 (2019) 162–172, https://doi.org/10.1016/j.
+10.1016/j. biortech.2014.08.0812014. jclepro.2018.11.286.
+[46] D. Gupta, S.K. Singh, S. Greenhouse gas emissions from wastewater treatment
+plants: a case study of Noida. Journal of Water Sustainability, 2(2), 131-139.
+8

@@ -1,0 +1,524 @@
+--- Page 1 ---
+1392 ©2021TheAuthors JournalofWaterandClimateChange| 12.5 |2021
+Conventional and zero liquid discharge treatment plants
+for textile wastewater through the lens of carbon
+footprint analysis
+S. Mohan , Ninad Oke and D. Gokul
+ABSTRACT
+Effluenttreatmentplantsactasthelastlineofdefenseagainstthedischargeofpollutantsfrom S.Mohan (correspondingauthor)
+NinadOke
+industrialeffluents.Thehigherresourceconsumption,varietyofdyes,andauxiliarychemicalsused
+D.Gokul
+EnvironmentalandWaterResourcesEngineering
+fortextilemanufacturingclassifyitasahighlypollutingindustry.Standardsforcolor,organics,and
+Division,DepartmentofCivilEngineering,
+dissolvedsolidsarebecomingmorestringentwithtime,andlocalregulatorsareforcedtoinsiston IndianInstituteofTechnologyMadras,
+Chennai,TamilNadu600036,
+theestablishmentofzeroliquiddischarge(ZLD)units.However,theapplicationoftheZLDconcept India
+E-mail:smohan@iitm.ac.in
+hasthemajorlimitationofhighenergyconsumptionwhencomparedwiththeconventional
+wastewatertreatmentplant.Theapplicationofcarbonfootprintanalysistobothunitswouldprovide
+acomprehensivesolutiontothecarbonfootprintcomputationandbringouttheadvantagesofthe
+ZLD.ThecarbonfootprintofatypicalZLDtreatmentfacilityinsouthIndiawasfoundtobe
+10,598tonsofcarbondioxideequivalentperyear(tCO eq/year),whichisonlyone-thirdmorethan
+2
+thatofaconventionaltreatmentplant.ThecarbonfootprintofagivenZLDtreatmentfacilitycan
+effectivelybeusedasaperformanceindicatortolimittheoverallenergyconsumption.
+Keywords | carbonfootprint,greenhousegasemission,sustainability,zeroliquiddischarge
+HIGHLIGHTS
+(cid:129)
+Comparativeevaluationofthecarbonfootprintbetweenconventionalandzeroliquiddischarge
+(ZLD)treatmentplantsfortextilewastewateristhefirstofitskind.
+(cid:129)
+Comprehensivecarbonemissionquantificationbytheinclusionofcarbonfootprintduetothe
+dischargeoftreatedeffluentintowaterbodies/landandgroundwaterextractionwithinthe
+systemboundaries.
+(cid:129)
+CarbonfootprintoftheZLDtreatmentplantwasfoundtobenearly35%higherthanthecarbon
+footprintoftheconventionaltreatmentplantwithacapacityof4.4millionlitersperday.
+(cid:129)
+Theapplicationofcarbonfootprintanalysisisanovelperformanceanalysistoolforcomparing
+thedifferentindustrialwastewatertreatmentplantsincludingtheZLDsystem.
+INTRODUCTION
+Theconcentrationofgreenhousegases(GHGs)intheearth’s due to various anthropogenic activities (Althor et al. ).
+atmospherehasincreasedatanalarmingrateinrecentyears The concentration of GHGs above the carrying capacity of
+the earth’s atmosphere directly leads to global temperature
+ThisisanOpenAccessarticledistributedunderthetermsoftheCreative rise,whichinturncausessea-levelrise,flooding,andextreme
+CommonsAttributionLicence(CCBY-NC-ND4.0),whichpermitscopying weatherphenomena(Pandeyetal.).
+and redistribution for non-commercial purposes with no derivatives,
+In the year 2010, global greenhouse emissions were
+provided the original work is properly cited (http://creativecommons.org/
+licenses/by-nc-nd/4.0/). reportedas48,629metrictCO 2eq,ofwhichnearly3%ofthe
+doi:10.2166/wcc.2020.100
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 2 ---
+1393 S.Mohanetal. | Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange | 12.5| 2021
+global emissions were contributed by thewaste management content is a major concern for the natural receiving water
+sector (Singh & Maurya ). In India, the contribution bodies. Therefore, regulatory bodies made it mandatory for
+from the waste management sector was 3.34%, which is all the textile industries with effluent discharge of more
+found to be above the global average (Singh et al. ). It than25m3/daytosetupaZLDfacility.
+underlines the immediate need for a well-developed method- ZLD refers to the installation of facilities and systems
+ology to quantify GHG emissions from this sector to whichwillenableanindustrialeffluentforabsoluterecycling
+implementemissionmitigationpracticesfurther. ofpermeateandconvertingsolute(dissolvedorganicandinor-
+Thewastewatertreatmentplantshaveapositivecontri- ganic compounds/salts) into residue in the solid form by
+bution towards environmental impact mitigation through adoptingamethodofconcentrationandthermalevaporation
+the wastewater treatment, but their energy consumption (CPCB ). Conventionally, the secondary treated textile
+must also be considered to understand the overall environ- effluentfromtheeffluenttreatmentplant(ETP)wasbeingdis-
+mental impact. Recent developments in the concept of chargedatvariousplaces,whichwouldultimatelyfinditsway
+zero liquid discharge (ZLD) facilities are important for the into the receiving natural water bodies. The ETP treatment
+resource recovery approach. High energy consumption by scheme was not designed to remove the dissolved solid con-
+the reject management system in ZLD facilities demands a tent and heavy metals in the textile effluent. Salt content
+well-developed methodology to quantify the environmental beyond the specified levels in thewater can have an adverse
+impactof thewastewatertreatment plants. impactonthereceivingagriculturallands.Thetextileeffluent
+Thewastewatertreatmentaspectsbecomeamajorcon- containstoxicheavymetalslikechromium,anditsreleaseto
+cerninthecaseofindustrialeffluentdischargetothenatural natural water bodies can lead to possible bioaccumulation
+receiving bodies. The textile industry has a major contri- andbiomagnificationconcerns(Paz´dzioretal.).
+bution to the economic development of India as it is the IntheZLDeffluenttreatmentfacility,reverseosmosisis
+second-highestexporteroftextilesafterChina.Textileindus- providedasthetertiarytreatment.Thepermeatestreamcan
+tries simultaneously lead to massive production of textile be reused as the process water by textile industries. The
+manufacturing effluents containing various dyesand auxili- reject stream is further fed to a multiple effect evaporator
+ary chemicals(Pattnaik &Dangayach). to enhance water recovery. The reject from a multiple
+CoimbatorecityisalsoknownastheManchesterofIndia effect evaporator is sent to the Agitated Thin Film Dryer
+asthetextilemanufacturinghasthrivedinsouthernparts of (ATFD). The water recovered from the ATFD unit is
+the country (Manikandan et al. ). Enough availability of reusedastheboilerfeed,andcoloredpowderisconsidered
+raw materials and cheap labor further enhance the socio- ashazardoussolidwaste.Thewastewaterfromtextileman-
+economic growth associated with textile manufacturing ufacturing activities can effectively be reused by the
+activities. With the ever-increasing textile manufacturing implementation of the concept of ZLD(Vishnu et al. ;
+practices in southern India, the adverse environmental Lu et al. ; Tong & Elimelech ; Chavan ). The
+impactbecomesamajorconcernforregulatoryauthorities. uniform water quality parameters of the reused water are
+Thepracticeofsettingupthecommoneffluenttreatment advantageous to the industries, as they can get a constant
+plant (CETP) for textile manufacturing industry clusters has source of high-quality process water. As the conventional
+been implemented by the regulatory bodies in India. In the treatment plants are not designed to remove heavy metals
+textile dyeing process, salts like NaCl and Na SO are and complex xenobiotic organics, implementation of ZLD
+2 4
+added to enhance dye fixation on the cellulose fiber treatment facilities would eliminate the discharge of these
+(Holkaretal.).Thecombinedeffluentfromtextileman- emerging pollutants through industrial effluents (Yaqub &
+ufacturing processes is highly colored, having high organic Lee ). Figure 1 presents a general schematic flow dia-
+loadand extremely high total dissolvedsolids. As the CETP gram of theZLD wastewater treatmentplant for the textile
+generally provides treatment only up to the secondary level, industry. After the secondary treatment, effluent is passed
+thetotaldissolvedsolidcontentwasnotcompletelyremoved through multiple stages of the reverse osmosis process to
+from the discharged treated textile effluent. The higher salt remove the dissolved solids efficiently. There are two
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 3 ---
+1394 S.Mohanetal. |Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange |12.5 | 2021
+different studies. Therefore, the application of the concept
+of carbon footprint is required as it provides a platform to
+compare the GHG emissions from various considered
+sources reported globally. The use of the term carbon foot-
+print was first started as a subset of ‘ecological footprint’
+proposed by Wackernagel & Rees (). Ecological foot-
+print refers to the biologically productive land and sea
+arearequiredtosustainagivenhumanpopulationexpressed
+asglobalhectares.Insimilarlines,thecarbonfootprintcan
+be interpreted as the land area required to assimilate the
+entireCO produced by humankindduring its lifetime.
+2
+AspertheIntergovernmentalPanelonClimateChange
+(IPCC),thecarbonfootprintcanbedefinedasameasureof
+Figure1|Schematicflowdiagramofazeroliquiddischargeeffluenttreatmentfacility. the total amount of GHG emissions of a defined person,
+organization, or region associated with certain activities,
+primarysourcesofhazardoussolidwasteintheZLDfacility. production processes, and life cycle of a product as a
+Firstly, the sludge generated from primary and secondary whole.Thespecifictimehorizonconsideredforcarbonfoot-
+settling tanks, and second the residual salt obtained from a print calculation isgenerally 100years(IPCC ).
+multiple effect evaporator (De Benedetto & Klemes ). There are various globally accepted methodologies for
+An effective hazardous solid waste management system is the calculation of carbon footprint. Some major publi-
+required at such facilities. It is important to quantify the cations in the above context include PAS 2050, ISO
+direct emissions from the secondary treatment stage asthey standards, and IPCC guidelines. The publiclyavailable spe-
+can be effectively mitigated by process modifications (de cifications-2050 (PAS 2050) of the British Standard
+Haas et al. ). By avoiding the formation of anaerobic Institution (BSI) is used for the assessment of the life cycle
+zones in the aeration tank of biological treatment, direct GHG emissions associated with the goods and services
+CH and N O emissions can be effectively controlled (BSI 2011). ISO 14064 (parts 1 and 2) is an international
+4 2
+(Ramírez-Melgarejoetal.).AZLDwastewatertreatment standard for the determination of boundaries, the quantifi-
+facility effectively reduces the pollution load on land and cation of GHG emissions, and removal. The standards for
+natural water bodies. In the case of the ZLD wastewater designing GHG mitigation projects are also provided (ISO
+treatmentfacility,effluentdischargeistotallyavoided,ensur- a,b).TheISO14067documentspecifiestheguide-
+ingwaterresourcerecoveryfromtheindustrialeffluent(Yan linesforquantificationandreportingofthecarbonfootprint
+etal.).Consideringtheaddedadvantageoftheuniform ofaproduct.TheGHGemissionquantificationmethodology
+quality of the reused water over available groundwater with specified by the IPCC  guidelines for National Green-
+variable quality, textile manufacturers are supporting the house gas inventories was found to be most robust and
+establishment of ZLD treatment facilities. Hence, critical applicable for wider scenarios, considering data availability
+analysis of energy required, environmental impact, and pol- constraints. The methodology follows the ‘top-down’ or
+lution potential are to be evaluated based on scientific input–output analysis approach, which is most suitable for
+analysistocomparativelyevaluatetheseaspects. thecomplexsystemslikewastewatertreatmentplants.
+The quantification of GHG emissions due to certain ThescopeoneemissionincludestheGHGemissiondue
+human activity is important as only aftera proper quantifi- to on-site fossil fuel use within the system boundary. The
+cation is proper monitoring possible. This quantification indirect emissions accounted under scope two and scope
+process, in case of a product manufacturing step, product three are caused due to activities of the facility, but not
+disposaloption,orforatreatmentplant,cannotbeasubjec- directlyemittedatthesite.Themajoremissionswidelycon-
+tive analysis as it will hinder the comparativeness of sidered under scope two are the emissions due to the
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 4 ---
+1395 S.Mohanetal. | Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange | 12.5| 2021
+generation of purchased electricity (IPCC ). The emis- andaconventionaltreatmentfacilitydischargingthesecond-
+sions due to associated transportation of employees, arytreatedeffluenttothereceivingnaturalwaterbodieswas
+chemicals, and waste material disposal are accounted for performed.The overall treatmentcapacityofthe considered
+underthescopethreecategory.Thecarbonfootprintanalysis plant in Tirupur district, Tamil Nadu, India, was 4.4 million
+wasusedbyvariousresearcherstoquantifytheGHGemis- liters per day, of which 2.2 million liters per day was oper-
+sions from domestic wastewater treatment plants (Pagilla ational capacity at the time of data collection. Out of the
+et al. ; Mo & Zhang ; Parraviciniak et al. ). treatment capacity of 2.2 million liters per day, 78% of the
+There exists a clear lack of quick and reliable tools for effluentwasrecycledbackbytheZLDfacility.
+carbonfootprintcalculation,consideringthedatalimitations IntheidentificationofsignificantGHGsources,system
+inthecaseofdevelopingcountries.Theunderstandingofthe boundaryplaysanimportantrole.Onlythedirectandindir-
+concept of carbon footprint and its appropriate field-scale ect GHG emission sources considered in the system
+application is important for the reporting of anthropogenic boundary will be considered for the calculation of carbon
+greenhouseemissionsfromtheETPs. footprint. The definition of the boundary condition should
+The objective of the present study was to study the include both the special and temporal scales. The system
+environmentalimpactassociatedwiththetreatmentofindus- boundaries for the present studyareshown inFigure2.
+trialtextileeffluent.Thetwopossiblescenariosconsideredin The data for the present comparative study were col-
+thepresentstudyincludedaconventionaltreatmentsystem lected in the year 2016. On the temporal scale, we are
+andaZLDtreatmentsystem.Carbonfootprintwasusedas considering an annual operational period for both types of
+the parameter to comparatively analyze the environmental treatment systems. Considering the lack of data on embo-
+impactofconsideredscenarios.Carbonfootprintcalculation died emissions for different types of construction materials
+methodologywasdevelopedfortheapplicationtothewaste- being used, the analysis was limited to the operation phase
+watertreatmentsectorindevelopingcountries.Actualfield- ofthe consideredwastewater treatmentplants.
+scaledatawerecollected throughextensiveindustrial visits The treatment capacity of the wastewater treatment
+forthecarbonfootprintanalysis.Theexpectedresearchout- plant is a key parameter to determine possible GHG emis-
+come included significant inputs for the decision-making sions from the treatment process. To avoid the misleading
+authorities towards the establishment of either the conven- results due to different treatment plant capacity values, the
+tionalorZLDeffluenttreatmentsystem. treatment plant activities up to secondary treatment were
+Thefollowingsectiononmethodsandtechniquesincludes consideredthe sameinthepresentstudyforboththescen-
+thedetailsoftheproposedcarbonfootprintcalculationmeth- arios.GHGemissionsassociatedwiththetertiarytreatment
+odology.Variousstepsofcarbonfootprintanalysisappliedto and reject management were considered only for the ZLD
+conventional and ZLD treatment systems are presented in facility. Transportation of settled sludge and residual solids
+thissection.Itisfollowedbytheresultsanddiscussiononthe to the Transport, Storage, and Disposal Facility (TSDF)
+finding of comparative carbon footprint analysis. Lastly, the was included in the carbon footprint calculations. In the
+conclusion section presents the collective findings of present caseoftheconventionaltreatmentplant,methaneemissions
+researchalongwiththekeyinputstotextilemanufacturerson associated with the discharge of secondary treated effluent
+theselectionofappropriatetextileeffluenttreatmentsystem. wereconsidered.Basedonplantdataofpercentageeffluent
+recycled, an equivalent amount of groundwater extraction
+andassociatedGHGemissionswereconsideredforthecon-
+METHODS AND TECHNIQUES ventional treatment plant scenario.
+Studyarea Carbon footprintcalculationmethodology
+In the present research work, a comparative analysis of The methodology of the calculation of carbon footprint for
+carbon footprint for a ZLD textile effluent treatment facility the wastewater treatment plants can be divided into three
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 5 ---
+1396 S.Mohanetal. |Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange |12.5 | 2021
+Figure2|Schematicrepresentationsofsystemboundariesforthecomparativecarbonfootprintanalysisstudy.
+steps.Thefirststepincludestheidentificationofkeysources powergeneratorson-site.TheEFusedforwoodinthepro-
+ofdirectandindirectGHGemissions.Thesecondstepcan posed methodology is 1.644tCO eq per ton of wood used.
+2
+be termed as the quantification step in which one attempts In the case of the diesel use on-site as a generator feed,
+to quantify the emissions from the identified source. The the EF of 0.00255tCO eq per liter of diesel can be used
+2
+final step involves the use of appropriate emission factors (Sridhar ). GHG emissions due to vehicular transport
+(EFs) to report the data in terms of carbon dioxide equiva- depend on the type of vehicle. The EFs for different types
+lents calculated overatimehorizonof 100years. ofvehiclesused in Indiaaregivenin Table 1.
+The three major GHGs widely considered for the The methane emissions from the biological treatment
+carbon footprint analysis of wastewater treatment plants stage are determined by considering operating conditions
+include carbon dioxide, methane, and nitrous oxide of the aeration basin. The nitrous oxide emissions are only
+(Wiedmann & Minx ). The individual emission rate of from nitrification and denitrification stages (Pagilla et al.
+other GHGs is considered much lower when compared ). In the case of developing countries like India, these
+with that of these three GHGs together (UK POST ). nitrous oxide emissions need not be included in the
+The capacity to trap the energy in the atmosphere is differ- carbon footprint calculations as they are lesser when com-
+ent for different GHGs. It is quantified in terms of ‘global pared with other GHG emissions (Ramírez-Melgarejo
+warming potential’ which is based on the radioactive etal.).Thelimiteddataavailabilitylimitspracticability
+effect of 1kg of the gas over 100 years, compared with the oftheinclusionofnitrousoxideemissionsatthefieldscale.
+effectof1kgofCO ,anditisexpressedasCO equivalents. For the quantification of the methane emissions from
+2 2
+As per the IPCC fifth assessment report published in 2014,
+theglobalwarmingpotentialvaluesformethaneandnitrous Table1| EFsfordifferenttypesofvehicleused(Ramachandraetal.2014)
+oxide are28and 265,respectively.
+The EF associated with electricity consumption to be CO2EF CH4EF N2OEF
+Typeofvehicle (g/km) (g/km) (g/km)
+used for Indian conditions is 573.88kg CO -eq per MW of
+2
+Motorcyclesandmopeds 27.79 0.18 0.002
+electricity consumed (Singh & Maurya ). This factor
+Carsandjeeps 164.22 0.17 0.005
+depends on the electricity generation profile used in the
+Buses 567.03 0.09 0.03
+country and associated emissions. Direct emissions on the
+Trucksandlorries 799.95 0.09 0.03
+wastewater treatment plant site include the wood used as
+Tractorsandtrailers 515.2 0.09 0.03
+a boiler feed material and the use of diesel for backup
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 6 ---
+1397 S.Mohanetal. | Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange | 12.5| 2021
+biological treatment, the determination of the annual aver- using the followingequation:
+age methane conversion factor is required. The annual
+average methane conversion factor varies from 0 to 0.4. In ΔCOD
+OR ¼ a,i (3)
+the case of a properly operated aeration basin, the lowest i COD
+in,a,i
+value can be used, and the highest value is to be used for
+heavily overloaded plant operations. The annual average
+where,
+methane conversion factor range of 0.4–1.0 represents
+COD istheCODattheinletoftheaerationtankforthe
+in,a,i
+anaerobictreatmentunits.Theequationsusedinthepresent
+ithdayoftheyeary(tCOD).
+study were obtained from chapter 6 of 2019 refinement to
+the 2006 IPCC guidelines for National Greenhouse Gas In aconventional wastewatertreatment plant, itisgen-
+Inventories. Following Equations (1) and (2), it can be eral practice to discharge the secondary treated effluent to
+used effectively for the calculation of methane emissions the natural receiving water body. The GHG emissions
+associatedwiththetreatedeffluentdischargecanbequanti-
+from the biologicaltreatmentunit.
+fied, as discussedbelow.
+Themethaneemissionsduetothedischargeofeffluent
+X365
+E ¼ ΔCOD (cid:2)Q (cid:2)B (cid:2)GWP (cid:2)MCF containing degradable organic carbon into receiving water
+CH4,wwt,a,y a,i a,i ww CH4 ww
+i¼1 bodiescanbecalculatedasgiveninthefollowingequation:
+ifOR <0:8 (1)
+i
+X12
+E ¼0ifOR i>0:8 (2) E CH4,wwt,eff,y ¼B ww (cid:2)GWP CH4 (cid:2)MCF ww,eff,y (cid:2)
+CH4,wwt,a,y m¼1
+COD (cid:2)Q (4)
+eff,m eff,m
+where,
+E are the methane emissions from a biological where,
+CH4,wwt,a,y
+treatment unit in the year y due to improper operation E arethe methane emissions due to the presence
+CH4,wwt,eff,y
+oroverloading (tCO 2eq/year); of degradable organic carbon in the effluent in the year
+ΔCOD a,i is the quantity of the chemical oxygen demand y (tCO 2eq/year);
+(COD) removed by the biological treatment unit in the MCF istheaveragemethaneconversionfactorinthe
+ww,eff,y
+ithdayoftheyear y(t/m3); year y, representing the fraction of organic load in the
+Q a,iisthequantityoftheinfluentwastewaterintheithday effluent thatis degraded to CH 4in theyear y;
+of theyear y(m³); COD effl,misthequantityofchemicaloxygendemandinthe
+B isthe possible, maximum methane-producing capacity effluentofthewastewatertreatmentplantinthemonthm
+ww
+of wastewater treated in the year y, and the maximum of theyear y(tCOD/m3);
+quantity of methane that can be produced from a given Q effl,m is the quantity of effluent containing the degradable
+quantity of COD is considered 0.25kg CH 4/kg COD as organic carbon that is discharged into the receiving
+per IPCC ; body inthe monthm oftheyeary (m³).
+GWP is the global warming potential of methane
+CH4
+Theannualaveragemethaneconversionfactoriscalcu-
+(tCO eq/tCH );
+2 4
+latedusingEquation(5).Thefactorf accountsforthedepth
+MCF istheannualaveragemethaneconversionfactorfor d
+ww
+of the natural receiving body, and the factor f is used to
+the year y, representing the fraction of organic load that T
+incorporatethetemperaturedependenceofmethanegener-
+would bedegradedto methane;
+ation.
+OR is the oxidization ratio that represents the fraction of
+i
+total organics removed in the biological treatment stage
+in the ith day of the year y. The OR i can be calculated MCF ww¼f d(cid:2)f T (5)
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 7 ---
+1398 S.Mohanetal. |Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange |12.5 | 2021
+The default value for f varies with depth as 0.7 if the
+d
+depth of the water body is more than 5m, 0.5 if the depth
+is in a range of 1–5m, and 0 if the depth is less than 1m.
+India, being a tropical country, comparatively higher temp-
+eratures are observed in the receiving water bodies
+throughout the year. Therefore, the value of f can be con-
+T
+sideredas oneforequatorial countries.
+The emissions associated with groundwater extraction
+include two major parts as the emissions associated with
+the electricity consumption for pumping and emissions
+from the transportation of groundwater from the pumping
+site to the textile manufacturing facility. The groundwater
+requirement was estimated based on the actual quantity of
+water required and from where the groundwater has been
+extracted and transported. The worked-out figures were in
+line with published data by Shah et al. (); Subburaj
+(); and Grönwall & Jonsson (). These data were
+also corroborated with industry experts. During our inter-
+action with the textile manufacturers, they have clearly
+mentioned that they prefer to use the reclaimed water for
+the textile processing than the groundwater as the quality
+of the groundwater varies considerably according to the
+pumping site. The water is transported in lorries from the
+pumping site to textile facilities, and currently, around 172
+such lorries are operating in Tirupur district, with 15km
+as average distance traveled per trip. The proposed carbon
+footprint calculation methodology can be summarized as
+shown inFigure3.
+Figure3|Summaryofthecarbonfootprintcalculationmethodology.
+RESULTS AND DISCUSSION both dewatered settled sludge and residual salts was
+considered.
+Thefollowingsectionpresentstheresultsobtainedfromthe The GHG emissions for the quantified sources are cal-
+comparativeanalysisofcarbonfootprintforaZLDeffluent culated by multiplying with respective EFs, as discussed in
+treatment facility and a conventional effluent treatment the Methods and Technique section. Table 3 represents a
+facility.Fromthefieldvisitsanddataprovidedbyplantoper- modelcalculationofthecarbonfootprintforaconventional
+ators, the major carbon emission sources were identified. treatment plant asper the proposed methodology.
+Direct and indirect GHG emissions were calculated as per TheresultsofthecalculatedcarbonfootprintforaZLD
+the IPCC guidelines. treatment facility and a conventional treatment facility are
+Table2presentsthedataonthequantificationofGHG presented in Table 4. The total carbon footprint was
+emissionsourcesusedinboththescenarioscomparedinthe observedto be10,598.31tCO eq/yearforaZLDtreatment
+2
+present analysis. Sludge transportation requirements for a facility, the same the conventional treatment facility was
+ZLD treatment facility were found to be more than that found to be 7,761.22tCO eq/year. The total transportation
+2
+for the conventional treatment plant, as the transport of presented in row three of Table 4 included the
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 8 ---
+1399 S.Mohanetal. | Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange | 12.5| 2021
+Table2| Sourcequantificationforcarbonfootprintcalculation 3,028tCO 2eq/year. The reported GHG emissions were
+lesswhencomparedwiththepresentstudyfindingsbecause
+Conventional ZLDtreatment
+theemissionsassociatedwiththedischargeoftreatedwaste-
+GHGemissionsource treatmentfacility facility
+waterwerenotconsideredwithinthesystemboundariesby
+Fueluseon-site 2,190t/yearwood 4,380t/yearwood
+used used Gupta & Singh (). In the case of the domestic waste-
+Electricityconsumption 1,753,731kWh/ 4,661,367kWh/ water treatment plant at Patna, India, the GHG emissions
+year year were quantified as nearly 6,584 tCO eq/year by Singh &
+2
+Transportation 157,000kmby 198,000kmby Maurya (). The on-site sludge digestion unit was con-
+truck truck
+sidered by Singh & Maurya (), leading to higher on-
+CH emissionfrom 1,606tCOD/yeartreatedatslightly
+4 site methane emissions. In both the mentioned studies, the
+biologicaltreatment loadedcondition
+unit system boundary was limited to the wastewater treatment
+CH emissiondueto EffluentCODof Notapplicable plant premises boundary. From Table 4, it can be observed
+4
+treatedeffluent 25mg/L that for the fuel use on-site and electricity consumption,
+discharge
+the emissions from the ZLD treatment facility are higher
+Groundwaterpumping 762,105kWh/year Notapplicable
+than those from the conventional treatment facility based
+Groundwatertransport 941,700kmby Notapplicable
+on the positive value of percentage difference of carbon
+waterlorries
+emissions with respect to the conventional treatment facil-
+ity, calculated as the (Emissions from the ZLD treatment
+transportation associated with sludge disposal and ground- facility(cid:3)Emissions from the conventional treatment facil-
+water transport in the case of a conventional treatment ity)/Emissions from the conventional treatment facility.
+facility. Percentage individual emission contribution from con-
+As per the findings by Gupta & Singh (), the sidered GHG emission sources is presented in Figure 4(a)
+GHG emission from a domestic wastewater treatment and 4(b) for the ZLD treatment facility and conventional
+plant in New Delhi, India, was found to be nearly treatment facility, respectively. In the case of a ZLD
+Table3| Modelcalculationforcarbonfootprintofconventionaltreatmentplant
+Quantificationofsource QuantificationofGHGemission(emission Carbonfootprint(GWP×b)
+Emissionsource activity(a) factor×a¼b) (tCO2eq/year)
+Fueluseon-site 2,190t/yearwoodused 1.644tCO eqpertonofwood(i) 3,600.36
+2
+Electricityconsumption 1,753,731kWh/year 573.88kgCO -eqperMW(ii) 1,006.43
+2
+Transportation 157,000kmbytruck CO (g/km) CH (g/km) N O(g/km) 127.23
+2 4 2
+799.95 0.09 0.03
+CH emissionfrombiological Treating1,606tCOD/year 0.05(iii)×0.25(tCH /tCOD)×1,606 562.10
+4 4
+treatmentunit (tCOD/year)
+CH emissionduetotreatedeffluent EffluentCODof25mg/L 0.00025(tCOD/m3)×803,000 1,264.72
+4
+discharge (m3/year)×1(iv)×0.9(v)×0.25
+(tCH /tCOD)
+4
+Groundwaterpumping 762,105kWh/year 573.88kgCO -eqperMW 437.35
+2
+Groundwatertransport 941,700kmbywater CO (g/km) CH (g/km) N O(g/km) 763.16
+2 4 2
+lorries 799.95 0.09 0.03
+(i)Basedonthetypeoffuel.
+(ii)Country-specificfactor.
+(iii)Basedontheorganicloadonbiologicaltreatmentstage.
+(iv)Basedonthetemperaturevariationinreceivingnaturalwaterbody.
+(v)Basedonthemixingdepthofreceivingnaturalwaterbody.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 9 ---
+1400 S.Mohanetal. |Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange |12.5 | 2021
+Table4| Summaryofthecomparativecarbonfootprintanalysis
+Conventionaltreatmentfacility ZLDtreatmentfacility Percentagedifferencewithrespectto
+GHGemissionsource (tCO2eq/year) (tCO2eq/year) conventionaltreatmentfacility
+Fueluseon-site 3,600.36 7,200.70 þ100
+Electricityconsumption 1,006.3 2,675.06 þ165.83
+Totaltransportation 890.39 160.45 (cid:3)81.98
+CH emissionfrombiological 562.10 562.10 0
+4
+treatmentunit
+CH emissionduetotreatedeffluent 1,264.72 0 (cid:3)100
+4
+discharge
+Groundwaterpumping 437.35 0 (cid:3)100
+Total 7,761.22 10,598.31
+treatment facility, fuel use on-site and electricity consump- systems. This can lead to a reduction in the total operation
+tion can be identified as the GHG emission hotspots. In time of reject management units, resulting in reduced
+thecaseofaconventionaltreatmentfacility,methaneemis- energy consumption. The use of renewable energy sources
+sions due to treated effluent discharge contribute the should be encouraged along with the establishment of
+second-highest percentage of GHG emissions underlining ZLD wastewater treatment plants, which can ensure a
+the importance of water recycling by establishing a ZLD reduced carbon footprint by the reduction of scope two
+treatmentfacility.Thecomplexorganiccompoundspresent carbon emissions. The carbon footprint of a given ZLD
+inthetextileeffluentareconsideredasapotentialthreatto treatment facility can be used effectively as a performance
+human health and aquatic organisms (Makene et al. ). indicator to further limitthe energyconsumption on site.
+Therefore, it is important to develop strategies that would
+minimize the carbon footprint of the designed ZLD waste-
+water treatment plants for industrial effluents, which in
+CONCLUSION
+turn would minimizetheoverall environmental impact.
+The availability of freshwater resources for any indus-
+The textile manufacturing facilities in southern India are
+trial production is particularly important. Considering the
+thriving with the rising demand, and associated environ-
+scarcity of natural freshwater resources, wastewater reuse
+mental impact is a major concern for regulators. The
+potential has become an important factor for sustainable
+production (Cetinkaya & Bilgili ). The establishment concept of ZLDtreatment plants has been well established
+forsuchpollutingindustriesbutneedsfurthercriticalanaly-
+of ZLD ETPs results in a reliable continuous process
+sis in terms of associated climate change impact due to
+water source for the textile manufacturing industries. Also,
+higher energy consumption. Any well-quantified efforts
+the uniformity in water quality parameters of reused water
+towardsthereductionofthecarbonfootprintofZLDtreat-
+further provesadvantageous.
+mentfacilitiescanfurtherreducetheoverallenvironmental
+Based on the results of the present work, it was found
+impact of textile manufacturing activities. The conclusions
+that it is important to minimize the energy requirements
+ofthepresentresearchworkcanbesummarizedasfollows:
+forZLDwastewatertreatmentplants.Theenergyconsump-
+tionbyrejectmanagementunitscanbesignificantlyreduced 1. Carbonfootprintanalysiscanbeusedasaneffectivetool
+bysourcesegregationoftheeffluentstreams.Onlytheefflu- to quantify carbon emissions from the ETPs, which sup-
+ent streams containing a high concentration of dissolved ports further understanding of the pollution hotspots at
+solids can be treatedseparatelyand supplied to the tertiary the ETPs.
+treatment units. The source segregation leads to a reduced 2. Thetotalcarbonfootprintwasestimatedas10,598tCO
+2-
+volumeofrejectstreamtobehandledbyrejectmanagement eq/year for a ZLD treatment facility, whereas for the
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025
+
+--- Page 10 ---
+1401 S.Mohanetal. | Comparativestudyofconventionalandzeroliquiddischargetreatmentplants JournalofWaterandClimateChange | 12.5| 2021
+Figure4| PercentageemissioncontributionfromvariousGHGemissionsourcesfor(a)conventionaltreatmentfacilityand(b)ZLDtreatmentfacility.
+conventionaltreatmentfacility,itwasfoundtobe7,761 case of a conventional treatment plant, indicating the
+tCO eq/year. importance ofeffluentrecycling.
+2
+3. Second-andthird-highestGHGemissioncontributionin 4. TheperformanceofvariousZLDtreatmentplantscanbe
+termsof percentagewasfound to beassociatedwith the compared using carbon footprint as a performance indi-
+groundwaterextraction and treated effluent discharge in cator to comparethe energyefficiencyof various units.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/12/5/1392/923510/jwc0121392.pdf
+by guest
+on 25 November 2025

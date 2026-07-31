@@ -1,0 +1,388 @@
+--- Page 1 ---
+Journal of Cleaner Production 524 (2025) 146487
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Greenhouse gas emission reduction strategies for petrochemical wastewater
+treatment: Life cycle assessment of retrofitting scenarios
+Xin Baoa,1, Song Gaob,1, Hong Yaoa, Xiaoping Fub, Xinyu Gaoa, Hui Wangb,*,
+Wei Xinga,c,**
+aSchool of Environment, Beijing Jiaotong University, Beijing, 100044, China
+bSINOPEC Research Institute of Petroleum Processing Co., Ltd., Beijing, 100083, China
+cBeijing Key Laboratory of Novel Materials Genetic Engineering and Application for Rail Transit, Beijing Jiaotong University, Beijing, 100044, China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•GHG emissions & synergy analysis
+evaluate petrochemical wastewater
+treatment plant.
+•Three retrofit options reduce GHG by
+30.5 %, 28.9 %, and 10.9 %.
+•Life cycle assessment confirms environ-
+mental impact mitigation.
+•Offers actionable insights for sustain-
+able, energy-efficient wastewater
+systems.
+A R T I C L E I N F O A B S T R A C T
+Keywords: Greenhouse gas (GHG) emission reduction from petrochemical wastewater treatment is imperative to alleviate
+Petrochemical wastewater treatment industrial pollution problems. The aim of this study is to assess the GHG emissions and environmental impacts of
+Greenhouse gas emissions a petrochemical wastewater treatment plant in eastern China and to give effective optimization recommenda-
+Carbon neutrality
+tions. A comprehensive assessment of the carbon emissions of the baseline scenario was firstly carried out,
+Life cycle assessment
+followed by a synergy analysis of the synergies between water, energy and carbon. The three retrofit scenarios
+Energy recovery
+demonstrated varying levels of GHG reduction relative to the baseline: 30.5 % for S1 (energy recovery), 28.9 %
+for S2 (advanced technologies), and 10.9 % for S3 (water reuse). The final retrofit scenario achieves near-net-
+zero emissions while enabling significant energy recovery. These findings underscore the importance of inte-
+grating advanced technologies and energy-efficient processes in order to transform wastewater treatment sys-
+tems into sustainable, carbon-neutral operations.
+* Corresponding author.
+** Corresponding author. School of Environment, Beijing Jiaotong University, Beijing, 100044, China.
+E-mail addresses: wangh.ripp@sinopec.com(H. Wang), weix@bjtu.edu.cn(W. Xing).
+1 These authors contributed equally to this work.
+https://doi.org/10.1016/j.jclepro.2025.146487
+Received 31 March 2025; Received in revised form 27 July 2025; Accepted 24 August 2025
+Available online 28 August 2025
+0959-6526/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+1. Introduction to assist in judging the environmental impacts other than climate change
+(Naushad, 2018), and explores the GHG emission characteristics and
+Since the advent of industrialization, the global average temperature water-energy-carbon synergies of the PWWTP. Based on the progress of
+has increased by approximately 1.1 ◦C, with greenhouse gas (GHG) existing research, three groups of retrofit scenarios are preset, and the
+emissions representing the primary driver of climate change (Gillett GHG emission reductions contributed by these scenarios are assessed, as
+et al., 2021; IPCC, 2023). At the general debate of the 75th session of the well as their environmental impacts, and the impacts of energy structure
+United Nations General Assembly, China made a commitment to and chemicals on overall GHG emissions are judged through sensitivity
+endeavor to have carbon dioxide emissions peak before 2030 and ach- analyses. The significance of this study is to assess the GHG emissions of
+ieve carbon neutrality before 2060. This objective now serves as a existing typical PWWTP and to predict the emission reductions that can
+central guiding principle in China’s climate policy (Chen et al., 2021; be contributed by different retrofitting technologies, aiming to raise
+NDRC, 2021; Zhou et al., 2019). It is imperative that all industries take public awareness and attention to refinery wastewater, and striving to
+action in order to meet the established GHG reduction targets. Studies find a set of wastewater treatment modes that can achieve carbon
+have demonstrated that 3 % of global electricity (Chen et al., 2021) neutrality goals, and to make effective recommendations for the man-
+consumption and 1.6 % of GHG emissions can be attributed to the agement of existing petrochemical wastewater.
+wastewater industry, which also consumes mechanical energy and
+chemicals (Lu et al., 2018; Sharawat and Dahiya, 2020), and the issue of 2. Materials and methods
+GHG emissions from industrial wastewater treatment is becoming
+increasingly problematic against the backdrop of accelerating industri- This study focuses on a PWWTP in eastern China, which treats pro-
+alization (W. Hu et al., 2019). duction and domestic wastewater from petrochemical plants, with a
+The expansion of the oil refining sector has resulted in a significant treatment capacity of 300,000 tons per day.
+surge in the demand for water in industrial processes (Sun et al., 2018). The GHG emissions of the PWWTP were analyzed under various
+The concomitant issues of energy consumption and GHG emissions have projection scenario, which accounts for on-site and off-site emissions,
+emerged as pivotal concerns that necessitate urgent attention (Narayan including those from electricity consumption, chemical usage, and
+Thorat and Kumar Sonwani, 2022). It is estimated that the generation of waste disposal. Additionally, a full life cycle assessment (LCA) was
+wastewater associated with the production of one ton of petrochemicals conducted to evaluate the environmental impacts of the PWWTP under
+is in the range of 0.4–1.5 tons (Jafarinejad and Jiang, 2019). Refinery different scenarios.
+effluents have a complex composition, consisting mainly of organic
+compounds such as hydrocarbons, phenol, oils and fats, and sulfides, 2.1. System boundary
+with long treatment processes and high energy and chemical con-
+sumption (Rueda-Ma´rquez et al., 2016; Singh and Shikha, 2019; Varjani The entire life cycle of a petrochemical wastewater treatment system
+et al., 2020). In China, the typical location for refineries is within includes wastewater reception, treatment in Area A, treatment in Area B
+designated industrial parks, where wastewater is collected and treated and sludge disposal. The upstream environment includes the petro-
+in a centralized manner (Zhang et al., 2008).The treatment methods chemical plant that discharges wastewater to the treatment plant and
+commonly employed in such facilities encompass a range of technolo- provides electricity and heat (through a captive cogeneration plant), the
+gies, including physical and chemical processes (flocculation, vapour chemical producer that provides the treatment chemicals, and the na-
+stripping, adsorption, air flotation) as well as biological methods (aer- tional grid that provides the electricity. The downstream environment
+obic activated sludge, anaerobic biological methods, membrane treat- includes natural waters that receive treated discharges and sludge
+ment)(Guo et al., 2024). treatment companies that treat the remaining sludge.
+The existing literature has devoted relatively little attention to the Area A is the site of the treatment of highly concentrated organic
+topic of GHG emissions from petrochemical wastewater treatment plant wastewater, including that derived from the production of BDO and
+(PWWTP). This is despite the fact that PWWTP have a number of PTA. The treatment process in Area A comprises pre-treatment, anaer-
+characteristics that can lead to increased GHG emissions, including high obic bio-filters and tertiary air flotation. The residual sludge is then
+aeration, high residual sludge volumes, and high chemical consumption subjected to deep drying and subsequent transportation to an off-site
+(Muhaba et al., 2024). Moreover, previous studies have predominantly sanitary treatment plant. Area B is responsible for the treatment of
+concentrated on GHG emissions from wastewater treatment processes, low concentration production and domestic wastewater from the
+predominantly focusing on methane (CH4) and nitrous oxide (N2O), petrochemical plant, in addition to treated wastewater from Area A. The
+while categorizing carbon dioxide (CO2) as organic matter from bio- principal process is A/A/O biological treatment, with the residual sludge
+logical sources (IPCC, 2019). subsequently undergoing dewatering and delivered off-site for sludge
+However, the GHG emission dynamics of petrochemical wastewater disposal.
+treatment systems differ fundamentally from those of conventional In Fig. 1, GHG emissions sources—including electricity and heat
+municipal systems. Municipal wastewater contains predominantly consumption (Scope 2), biological decomposition of organics (Scope 1),
+biogenic organic matter, and the resulting CO2 emissions from biological and upstream/downstream emissions (Scope 3)—are fully represented
+treatment are typically considered biogenic and excluded from Scope 1 within the model framework, even if not explicitly labeled in the dia-
+reporting under IPCC guidelines (IPCC, 2019). In contrast, petrochem- grams. Similarly, emissions savings from methane recovery, energy
+ical wastewater is rich in fossil-derived organics—such as intermediates reuse, and water reuse are accounted for in the life cycle analysis and
+from BDO or PTA production—leading to CO2 emissions that are fossil in explained in the corresponding scenario descriptions.
+origin. These fossil-based emissions should be accounted for as Scope 1 The water quality of influent and effluent in Area A and B is pre-
+fossil CO2, but are often overlooked in life cycle and carbon inventory sented in Table 1.
+studies. This study explicitly addresses this methodological gap by
+treating CO2 emissions from petrochemical wastewater as 2.2. Methods of accounting
+fossil-sourced, thereby providing a more accurate and sector-specific
+assessment of GHG impacts. 2.2.1. GHG accounting methodologies
+This study constructs a systematic approach to assess and account for GHG emissions from the PWWTP are classified into three principal
+the GHG emissions of the PWWTP with more complete system bound- categories: Scope 1, Scope 2, and Scope 3 (Wintergreen and Delaney,
+aries, considers the GHG emissions of Scope 1, Scope 2, and Scope 3 2007). Scope1 encompasses direct GHG emissions from the wastewater
+(Wintergreen and Delaney, 2007), introduces a life cycle assessment tool treatment process, while Scope2 represents indirect GHG emissions
+2
+
+--- Page 3 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+resulting from purchased energy sources. Finally, Scope3 encompasses 0.12 kg CO2 eq/MJ.
+upstream and downstream indirect GHG emissions associated with The Scope 3 category encompasses GHG emissions resulting from the
+wastewater treatment activities: utilization of chemicals and those originating from downstream sludge
+treatment.
+GHGTotal=GHGScope1+GHGScope2+GHGScope3(cid:0) GHGRecovery (1)
+GHGScope3=EChemicals+Esludge (4)
+Scope 1 includes three types of GHG: CO2, CH4 and N2O. According
+to the guidelines developed by the Intergovernmental Panel on Climate GHGRecovery includes GHG emission reductions from recovered re-
+Change (IPCC) in 2006, carbon dioxide (CO2) emissions from biological sources and energy and is calculated according to the following Eq. (5).
+wastewater treatment are generally considered to be emissions from
+GHGRecovery=Ei,Recovery×EFi,Recovery (5)
+biogenic sources, and are therefore not included in climate change
+impact calculations. However, in petrochemical wastewater treatment,
+2.2.2. Calculation of the Water-Energy-Carbon Coupling Index (WECCI)
+especially in BDO and PTA production, organic matter is mainly derived
+GWP, EF, and CF were selected to evaluate the performance of the
+from fossil hydrocarbons. Therefore, the CO2 released during microbial
+wastewater treatment system in terms of effluent quality, energy con-
+degradation is of fossil origin and should be included in Scope 1 fossil
+sumption, and carbon emissions, respectively.
+CO2 emissions. This adjustment is in line with the recommendations of
+GWF was calculated according to Water Footprint Assessment
+ISO 14067 and the 2019 Revision of the IPCC Guidelines, which
+Manual (Aldaya et al., 2012):
+emphasise source attribution based on carbon sources rather than
+treatment pathways. This study provides a more accurate carbon foot- GWF=max[L/(Cmax(i)(cid:0) Cnat(i))] (6)
+print for petrochemical wastewater treatment systems by explicitly
+calculating fossil source CO2 emissions, with detailed equations pro- Where:
+vided in the Supplementary Note: L — the total pollutant load, kg;
+GHGScope1=ECO2+ECH4+EN2O+Efc (2) watC erm ,a mx(i g) /— the maximum discharge concentration of pollutant in
+L;
+Scope 2 GHG emissions in this study include those associated with Cnat(i) — the natural concentration of pollutant, mg/L.
+externally supplied electricity and heat, encompassing energy consumed EF was calculated as follows:
+in processes such as aeration, membrane operation, and sludge
+EF=E/Q (7)
+dewatering.
+GHGScope2=CEi,energy×EFi,energy (3) Where:
+E (cid:0) The total daily energy consumption, kWh/d;
+Where: Q — The daily treatment scale, m3/d.
+CEi,energy — Consumption of purchased energy, kWh(GJ); CF was calculated as follows:
+kWhE (F Mi,e Jn )e .r gy h— T dh ee e im ledis s cio an ufa lact to ior o f tp eu pr sc h fa os re d e el e ec lt er cic trit icy i, k yg C mO i2 e ioq n/ CF=GHGTotal/Q (8)
+T e ta lc n s th t e ss
+factors are shown in Table S1; The emission factor for heat is taken as Normalized GWF, EF, and CF were calculated as follows:
+Fig. 1. Schematic of the wastewater treatment process, highlighting areas A and B, including major inputs and output (BDOWW: Butane-1,4-diol production
+wastewater; PTAWW: Pureterephthalic acid production wastewater; DWW: Domestic wastewater; PWW: Production wastewater).
+3
+
+--- Page 4 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+Aʹ=(Amax(cid:0) A)/(Amax(cid:0) Amin) (9) Table 2
+Summary of key parameters and engineering rationale for retrofit scenarios in
+Where: PWWTP.
+Amax&Amin — The maximum and minimum values of the footprint, Type of Baseline S1 Energy S2 Advanced S3 Water
+respectively. The higher the value of AN, the better the performance of parameter recovery technology recovery
+the WWTP. Waste water A/O + Baseline + AF +A/A/O → S2 +heat
+The current study employed the four-quadrant clustering (FQC) treatment AF Biogas AnMBR +MABR recovery +
+method, which involves plotting GWF’ as horizontal coordinates and EF’ process Recovery + UF/RO
+as vertical coordinates and the color-coded circle functional nodes CF’ in Sludge system
+Incineration
+response to color differences in data points to assess the operating per-
+Residual sludge 0.0023 Same as 0.0017 (Rong Same as S2
+formance of the WWTP and suggest strategies for enhancing the system’s production Baseline et al., 2023; Yao
+efficiency. The method categorizes the daily operational data into four (kg sludge/ et al., 2023)
+regions I – IV based on average GWF’ and EF’ values, with the different m3)
+Biogas recovery / 0.306 0.356 (Kong Same as S2
+intervals representing distinct types of synergies and trade-offs (Ni et al.,
+(kg CH4/m3) et al., 2021)
+2023). Membrane area / / 17,000–18,500 ( Same as S2
+(m3) L. Hu et al.,
+2024)
+2.3. Transformation scenario forecast analysis
+Energy 2.26 Same as 1.50 (Y. Hu et al., Same as S2
+consumption Baseline 2022)
+Three technical modification pathways were identified and formu- of biological
+lated to optimize the retrofitting strategy of the existing PWWTP. These treatment unit
+in Area A
+scenarios represent a combination of practical retrofitting measures that
+(kWh/m3)
+have already been partially adopted by the enterprise and forward-
+Energy 0.57 Same as 0.34 (Veleva Same as S2
+looking configurations derived from a synthesis of existing academic consumption Baseline et al., 2022)
+research and industrial reports. The selection of each scenario was based of biological
+on its potential to reduce greenhouse gas emissions, enhance resource treatment unit
+in Area B
+recovery efficiency, and maintain operational stability under petro- (kWh/m3)
+chemical wastewater conditions. The scenarios reflect a progressive HRT of Area A 24 Same as 16 (L. Hu et al., Same as S2
+enhancement in system complexity and integration level, ranging from (h) Baseline 2024)
+energy recovery retrofits to advanced membrane bioreactor upgrades HRT of Area B 24 Same as 12 (Yao et al., Same as S2
+and water reuse systems. A detailed breakdown of the process configu- (h) Baseline 2023)
+Increase in / Small Reduced Additional
+ration and key operational parameters for each scenario is presented in
+chemical type amounts of consumption of addition of
+Table 2. PAM&PAC PAM&PAC HCl and
+Baseline (Fig. 2, a): The A/O +AF biological treatment process is NaClO
+the primary method employed for the remediation of petrochemical Type of Baseline S1 Energy S2 Advanced S3 Water
+parameter recovery technology recovery
+wastewater. The methane produced is not recovered, and the sludge
+dewatered and transported for off-site disposal. The treated wastewater
+is subsequently discharged into a natural water source, provided that it S3 Water recovery (Fig. 2, d): Recovering the potential thermal
+meets the requisite standards. energy in the drainage water, through a water source heat pump. Add
+S1 Energy recovery (Fig. 2, b): On a baseline basis, biogas (mainly the external drainage water reuse device, using UF + RO process to
+CH4) generated from the anaerobic treatment session in Area A is recover the external drainage water and reuse it to the production hall of
+recovered through a biogas compression unit and sent to the plant’s in- the plant as recycled water, reducing the use of fresh water. This sce-
+house thermal media furnace for incineration. The residual sludge nario further upgrades the PWWTP to a net-zero discharge plant,
+generated in Area B is centrifugally dewatered to 80 % and sent to the reducing the burden on the downstream environment and maximizing
+plant’s Cogeneration Center to be adsorbed into the coal for incinera- the recovery of all the energy in the effluent.
+tion. This scenario effectively recovers the chemical energy in the dis-
+charged material in order to slow down the use of electrical energy.
+S2 Advanced technology (Fig. 2, c): Based on S1, the AF process in 2.4. LCA data inventory
+Area A was replaced by Anaerobic Membrane Bio-reactor (AnMBR)
+technology to recover more biogas and reduce energy consumption, and For the baseline, the full life cycle inventory was constructed using
+the traditional A/A/O process in Area B was replaced by Membrane on-site sampling and testing to determine influent and effluent quality
+Aeration Bio-reactor (MABR) technology. This technology not only has indicators. Data on electricity, heat, chemical consumption, and residual
+significant advantages in terms of energy saving, but also effectively sludge were collected from equipment instrumentation and recorded in
+reduces the amount of residual sludge and the use of pharmaceuticals. the enterprise’s statistical ledger. GHG emissions from the biochemical
+The choice of advanced wastewater treatment technology as a retrofit stage of wastewater treatment were calculated using process-specific
+option can further reduce the consumption of electricity and chemicals formulas and pollutant load data. The life cycle inventories for S1, S2,
+and improve energy recovery. and S3 were derived from literature data and expert estimates. Detailed
+Table 1
+Water quality indicators for regions A and B.
+Area Q (m3/d) Type Influent and effluent quality (mg/L)
+CODin CODout TNin TNout TPin TPout
+Area A 7430 Mean 9188.5 98.2 75.8 71.0 2.0 1.2
+SD 1938.2 15.5 16.3 12.1 0.9 0.5
+Area B 29914 Mean 1768.7 30.0 26.2 7.8 2.5 0.2
+SD 484.8 5.2 9.4 3.3 1.1 0.1
+4
+
+--- Page 5 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+Fig. 2. Process flow for PWWTP’s retrofit scenario
+(a) Baseline, (b) S1 Energy recovery, (c) S2 Advanced technology, (d) S3 Water recovery.
+5
+
+--- Page 6 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+LCA inventory data are presented in Table S4. This development was undertaken by PWWTP in order to meet the
+further environmental requirements of the local government, with the
+2.5. Environmental impact assessment: LCA result that higher energy consumption and elevated GHG emissions were
+produced. In the year 2021, the total life cycle GHG emissions of the
+This study adhered to the four LCA iteration steps outlined in ISO PWWTP were 51686.8 tons of carbon dioxide equivalent (t CO2eq), with
+14040 and 14044. The assessment utilized Simapro v. 8.0.5.13 in an average of 4307.2 t CO2eq per month (Fig. 3(b)). The direct GHG
+conjunction with the Ecoinvent 3 database. The LCA was conducted emissions result from the microbial decomposition of pollutants in the
+utilising the ReCiPe 2016 Midpoint (H) method (Huijbregts et al., 2017), biochemical treatment stage and from sludge disposal. As shown in
+which was implemented in SimaPro. The selection of this method is Fig. 3(b), direct GHG emissions from the biochemical treatment stage
+attributable to two key factors: its pertinence to environmental emis- accounted for 12.5 % of total GHG emissions, including emissions from
+sions from wastewater systems, and its alignment with prevailing LCA fossil sources CO2. While previous studies have typically categorized
+practices. Six primary environmental impact categories were assessed: carbon dioxide produced during biological treatment as a biogenic
+terrestrial ecotoxicity (kg 1,4-DB eq), marine ecotoxicity (kg 1,4-DB eq), source and assumed that its natural cycle has no impact on the climate,
+fossil resource scarcity (kg oil eq), Ozone formation, Terrestrial eco- this study adopted a different approach. Residual sludge from petro-
+systems (kg NOx eq), mineral resource scarcity (kg Cu eq). The results chemical wastewater transported off-site for disposal under baseline
+were used to quantify the relative contributions of each treatment unit to conditions However, anaerobic conditions also lead to methane emis-
+the overall environmental impact. Specific parameters were selected as sions with a global warming potential (GWP) 28 times that of carbon
+detailed in Table S6. dioxide, and despite partial methane recovery, methane accounts for
+31.7 % of the direct GHG emissions in this stage, despite partial
+3. Results and discussion recovery.
+Electricity consumption is a significant source of GHG emissions
+3.1. Quantification of GHG emissions from wastewater treatment plants, accounting for 38.9 % of total
+emissions. Of this, about 50 % is used for aeration in the biochemical
+3.1.1. GHG emissions and distribution treatment stage and 36 % for effluent transfer.
+As demonstrated in Fig. 3(a), the PWWTP’s GHG emissions exhibit In addition, 16 % of GHG emissions come from the use of chemicals,
+fluctuations between 2017 and 2020, with a substantial increase which are mainly used to regulate the physico-chemical parameters of
+observed in 2021. A detailed investigation into the available data and wastewater to meet the conditions of biochemical treatment, and to
+relevant background research has identified the reason for this change as adsorb and settle sludge and oils. The chemicals employed encompass
+the addition of a sludge drying unit and a VOCs treatment unit in 2021. ammonia, sodium hydroxide, flocculants, and so forth. It is imperative
+Fig. 3. Contribution of GHG emissions from various sources to GHG emissions from PWWTP
+(a) Total PWWTP GHG emissions over five years (b) Share of emissions of each type of GHG in 2021 (c) GHG emissions by month in 2021.
+6
+
+--- Page 7 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+to incorporate the GHG emissions generated by these chemicals in the wastewater treatment system.
+upstream production process into the calculation. According to the calculation results, the FQC method mentioned
+As shown in Fig. 3(c), GHG emissions from WWTPs decrease during above is used to study the water-energy-carbon operation of the plant,
+the winter months (January to November and December) in 2021, and the four different quadrants represent different water-energy-
+mainly in the form of reduced GHG emissions from sludge treatment due carbon synergies. In short, in the coordinate system, the data on the
+to reduced microbial activity in winter, which slows down the degra- right has lower carbon emissions than the data on the left, and the data
+dation of organic matter in the effluent and reduces the amount of on the top has lower energy consumption than the data on the bottom.
+sludge produced. In addition, other types of GHGs show less variation Fig. 6shows the distribution of water-energy-carbon samples in the
+from season to season and the overall situation is stable. wastewater treatment system of a chemical fiber enterprise in different
+months. As can be seen from Fig. 6(a), the vast majority of samples in
+3.1.2. GHG emissions intensity 2017–2018 were distributed in BS (optimal water-energy-carbon syn-
+The GHG emission intensity per ton of wastewater treated by the ergy Area), indicating that the wastewater treatment system of a
+PWWTP is 4.01–5.65 kg CO2eq/m3 (Fig. 4 (a)), which is significantly chemical fiber enterprise showed high quality water-energy-carbon
+higher than that of municipal wastewater (0.58–1.14 kg CO2eq/m3)(Du synergy in daily operation. A small part of the samples is distributed
+et al., 2023). Moreover, the requirement of 1.50–2.05 kg CO2eq per ton in LS (low coordination Area), which belong to winter months, indi-
+of COD treated is comparable to the results of extant industry studies cating that the carbon emission of the wastewater treatment system
+(Muhaba et al., 2024). fluctuates in winter, and it is suggested to carry out targeted optimiza-
+Area A is responsible for the production of 9.08 kg CO2eq of GHG tion of energy conservation and emission reduction. From Fig. 6(b), it
+emissions per ton of wastewater treated, while Area B is responsible for can be seen that from 2019 to 2021, the increase in sludge drying, BDO
+the production of 2.57 kg CO2eq of GHG emissions per ton of wastewater pre-treatment and other installations significantly increases the overall
+treated (Fig. 4(b)). Furthermore, Area A is responsible for the production energy consumption level of the wastewater treatment system, leading
+of 1.08 kg CO2eq of GHG emissions per ton of COD removed, and Area A to a shift in the distribution of sample points towards the LCT (Low
+is responsible for the production of 4.54 kg CO2eq of GHG emissions per Carbon Trade-Off area), suggesting that there is a typical process of
+ton of COD removed (Fig. 4(b)). In comparison to Area A, Area B is exchanging energy consumption for water quality as the load of the
+responsible for the production of 71.7 % fewer GHG emissions per tonne wastewater treatment system increases and the treatment requirements
+of wastewater treated and 320.2 % more GHG emissions per tonne of improve. While enforcing higher wastewater discharge standards,
+COD treated (Fig. 4 (b)). This discrepancy can be attributed to the fact PWWTP should reduce the overall energy consumption level and follow
+that the BDO and PTA wastewater treated in Area A is characterised by a an overall low-carbon operation strategy through targeted energy-
+high COD organic wastewater, which is treated more efficiently and saving retrofits, such as renewable energy utilization and energy
+consequently generates fewer GHG emissions per tonne of pollutant recovery.
+treated. Conversely, Area B produces more GHG emissions per tonne of
+water treated.
+3.3. Environmental impacts of different scenarios
+3.2. Wecci 3.3.1. GHG emissions
+All three scenarios, as shown in Fig. 7(a), show quantifiable re-
+As shown in Fig. 5, the GWF’ (normalized gray water footprint) of the ductions in GHG emissions.S1 is an engineered retrofit of the plant that
+petrochemical wastewater treatment system basically remained stable has already been implemented in recent years, and after the retrofit S1’s
+from 2017 to 2021, with a slight upward trend, indicating stable GHG emissions decreased by 30.5 % from the baseline. In this case, the
+pollutant removal efficiency by the PWWTP over the assessed period. inclusion of a biogas recovery unit resulted in a slight increase of 0.5 %
+Through consulting the procedure documents, it is analyzed that the in GHG emissions from electricity. However, this increase is offset by the
+reason may be the addition of sludge drying device in 2020, the addition energy recovered from methane recovery from biogas, equivalent to a
+of odor phase 4 facilities in the water line, the addition of acid extraction reduction of 20,363.43 t CO2eq in 2021. In addition, any modification
+tank, neutralization tank and pump tank in 2021, and the BDO pre- from initial off-site sludge disposal to incineration of residual sludge
+treatment device. These installations and ancillary equipment create after drying requires additional energy input, resulting in an increase in
+additional energy consumption and associated carbon emissions, GHG emissions from the PWWTP of 12,931.58 t CO2eq in 2021.How-
+thereby reducing the energy ENF ’and CF’ performance of the ever, this modification also reduces the methane gas emitted directly
+Fig. 4. PWWTP GHG Emission Intensity. (a) per ton water (b) per ton COD.
+7
+
+--- Page 8 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+Fig. 5. Annual changes in (a)GWF, (b)ENF, and (c)CF for the normalization of wastewater treatment system in The chemical fiber enterprise.
+from the off-site disposal of sludge and recovers some of the heat energy emissions from this unit. Collectively, S2 reduces GHG emissions from
+during the incineration process. the PWWTP by 28.9 % compared to the pre-retrofit period.
+The second option (S2) required modifications to the biological The addition of a water recirculation unit to S3 increased the amount
+treatment processes in Areas A and B, which included the MABR and of water recirculated by 0.3 m3/m3. The treated water can be reused in
+AnMBR processes. Both of these new technologies have proven to be the petrochemical plant as boiler water or recycled cooling water, thus
+effective in reducing GHG emissions. The MABR process requires less replacing the natural water source and offsetting 6694 t CO2eq GHG
+aeration than the A/A/O system, resulting in a 36 % reduction in elec- emissions. However, the installation increases energy consumption
+tricity consumption. In addition, less sludge is produced, resulting in a (1.031 kWh/m3 of reuse water) and requires additional chemicals,
+25 % reduction in GHG emissions from sludge treatment. Since the resulting in increased GHG emissions from this component. In addition,
+MABR process reduces the amount of sludge, the use of flocculants S3 employs a wastewater source heat pump that recovers heat from the
+(PAM, PAC) can be reduced. In total, the MABR technology can reduce discharged wastewater in the spring, fall, and winter months, thereby
+GHG emissions equivalent to 21.2 % of the original process. The AnMBR offsetting GHG emissions of 11,666.27 t CO2eq. Overall, GHG emissions
+process requires less energy to operate and produces more methane from of S3 were reduced by 10.9 % compared to the pre-retrofit period.
+the biogas than the AF process, resulting in a 14.8 % reduction in GHG
+8
+
+--- Page 9 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+Fig. 6. Distribution of water-energy-carbon Samples in the chemical fiber enterprise Wastewater Treatment System: (a) 2017–2018, (b) 2019–2021.
+3.3.2. Terrestrial ecotoxicity the most substantial reduction observed in S2 ((cid:0) 40.1 %)(Fig. 7(c)). The
+The primary source of terrestrial ecotoxicity (TE) impacts is the most significant contributors to ME impacts were methane recovery (S1:
+utilization of electrical energy. As shown in Fig. 7(b), the implementa- 30.1 %, S2: 6.8 %) and the reduced use of chemicals (S2: 29.2 %).
+tion of S1 significantly mitigates these effects with a reduction of (cid:0) 50.6 Although the increase in electricity consumption in S3 resulted in a
+%. Conversely, the sludge drying and incineration process has been negative impact on ME, the initiative to recover thermal energy fully
+found to result in a slight negative impact, with a value of 0.4 %. The offset this effect, resulting in a modest overall mitigation of environ-
+implementation of S2 has the effect of reducing electrical energy con- mental impacts ((cid:0) 3.2 %).
+sumption and increasing methane recycling, both of which contribute to
+a reduction in fossil energy consumption. This has the consequence of 3.3.4. Fossil resource scarcity
+exerting a positive impact on TE, with a reduction of (cid:0) 32.3 %. In The negative impact of Fossil resource scarcity (FRS) increased by
+comparison to S2, S3 results in an increase in electrical energy con- 9.2 % after the implementation of S1. This is mainly due to a 28 % in-
+sumption, which consequently leads to an increase in TE impacts. crease in thermal energy use from coal-fired thermal power plants
+However, the overall reduction in impacts compared to the baseline is (Fig. 7(d)). However, methane gas recovery contributes to the reduction
+significant, at (cid:0) 59.3 %. of fossil energy use, thus mitigating FRS ((cid:0) 20.1 %), although this does
+not fully offset the negative impacts. The implementation of S2 reduces
+3.3.3. Marine ecotoxicity fossil energy use, mainly due to a reduction in electricity consumption
+In all scenarios, ME is mitigated in comparison to the baseline, with ((cid:0) 19.1 %) and an increase in methane recovery ((cid:0) 3.3 %). In addition,
+9
+
+--- Page 10 ---
+X. Bao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 524 (2025) 146487
+Fig. 7. LCA impact scores and the contribution of individual factors to the overall impact of the six LCA categories selected.
+the reduction in sludge had the added benefit of reducing heat use and 3.3.5. Ozone formation, terrestrial ecosystems
+chemical consumption in the sludge treatment process, which in turn The main impact of Ozone formation, Terrestrial ecosystems (OF,
+had a positive impact on the scarcity of fossil resources. In S3, the TE) comes from fossil energy use. In S1, the impact of OF, TE decreases
+environmental impact of FRS due to increased electricity use is offset by ((cid:0) 13.6 %), mainly due to methane recovery reducing the use of fossil
+heat recovery, reducing the impact of FRS by 7.3 % compared to S2. fuels ((cid:0) 23.1 %)(Fig. 7(e)). Although there are some negative impacts
+10

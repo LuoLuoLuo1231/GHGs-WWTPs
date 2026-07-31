@@ -1,0 +1,468 @@
+--- Page 1 ---
+Environmental Technology & Innovation 38 (2025) 104134
+Contents lists available at ScienceDirect
+&
+Environmental Technology Innovation
+journal homepage: www.elsevier.com/locate/eti
+Resolving the facility-specific increase of local greenhouse gas
+concentrations by an industrial wastewater treatment plant
+Md Mizanur Rahman Manua, Qinyi Wanga,b, Dan Lib, Yangyue Shenga,b,
+Yili Zhangb, Xinrun Zhonga, Hao Wua, Zhengfeng Huanga, Chao Zhanga,
+Xiaoyong Qianb,*, Kaipei Qiua,c,d,**
+aState Environmental Protection Key Laboratory of Environmental Risk Assessment and Control on Chemical Process, School of Resources and
+Environmental Engineering, East China University of Science and Technology, Shanghai 200237, China
+bShanghai Academy of Environmental Sciences, Shanghai 200233, China
+cState Key Laboratory of Coal Liquification, Gasification and Utilization with High Efficiency and Low Carbon Technology, Shanghai 200237, China
+dShanghai Institute of Pollution Control and Ecological Security, Shanghai 200292, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater treatment plants (WWTPs) have been the fourth largest sector for global methane
+Industrial WWTP emissions and fifth for nitrous oxide, generating 2.2 % of the annual anthropogenic greenhouse
+Direct GHG emission gas (GHG) emissions. However, few studies have systematically examined the impact of an in-
+AERMOD modelling
+dividual WWTP on the atmospheric GHG levels in surrounding areas, and in particular, the
+Predicted atmospheric GHG concentration
+comprehensive analysis of facility-specific contribution is lacking. To address the research gap,
+this work performed AERMOD simulation with a 12-month GHG monitoring campaign at a full-
+scale industrial WWTP, covering all the 18 emission units in it. For the five populated towns in a
+20 ×20 km area nearby, the increase of GHG concentration ranged from 13.0 to 83.2 ppbCO2-eq
+yr(cid:0)1,
+which was 1.45 % of the global growth rate on average. A more detailed evaluation was
+conducted on Duct 1–5 and Ox A/B. It was found that these seven facilities produced 95.4 % of
+the total GHG emissions, but caused only 86.9 % of the concentration changes. Regardless of the
+type of GHGs, the ratios of concentration to emission were consistently lower than one for points
+sources, while higher than one for area sources. The model reliability was further validated
+through two additional months of continuous monitoring. These findings underscored the
+importance of incorporating facility-specific contributions on local GHG concentrations into the
+development of mitigation strategies for WWTP in future.
+1. Introduction
+Wastewater treatment plants (WWTPs) are not only crucial for pollution control, but also play an increasingly significant role in
+achieving carbon neutrality (Li et al., 2024; Wang et al., 2023). They have produced 12.1 % global anthropogenic methane (CH4)
+emissions and 4.35 % nitrous oxide (N2O) in 2022 (Crippa et al., 2023). The current estimation methods for the greenhouse gas (GHG)
+* Corresponding author.
+** Corresponding author at: State Environmental Protection Key Laboratory of Environmental Risk Assessment and Control on Chemical Process,
+School of Resources and Environmental Engineering, East China University of Science and Technology, Shanghai 200237, China.
+E-mail addresses: qianxy@saes.sh.cn(X. Qian), qiukaipei@ecust.edu.cn(K. Qiu).
+https://doi.org/10.1016/j.eti.2025.104134
+Received 26 July 2024; Received in revised form 21 January 2025; Accepted 4 March 2025
+Available online 5 March 2025
+2352-1864/© 2025 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license
+(h ttp://creativecommons.org/licenses/by/4.0/ ).
+
+--- Page 2 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+emissions of WWTPs rely on the uniform emission factors (EFs) proposed by the Intergovernmental Panel on Climate Change (Bartram
+et al., 2019). The uncertainty of the EFs for WWTPs, however, is among the highest in all sectors, e.g., over 90 % for N2O (Song et al.,
+2024). Sources of wastewater, treatment process and operation, discharge standards, as well as seasonal and diurnal variations may all
+affect the actual GHG emissions at specific plants (Yin et al., 2024). Therefore, the default IPCC EFs could hardly explain the dynamic
+spatial-temporal pattern of GHG emissions (Song et al., 2023). For reliable quantification of plant-wide emissions, it is essential to
+perform long-term monitoring on all process units, rather than just biological reactors. Nevertheless, only a quarter of the previous
+monitoring campaigns have managed to provide this information (Wang et al., 2024).
+Moreover, few studies have systematically examined the impact of WWTPs on the atmospheric GHG concentrations in the sur-
+roundings, and particularly, comprehensive assessment of the facility-specific contribution is lacking. It is hypothesized that higher
+GHG emission rates do not necessarily lead to a greater increase of the GHG levels nearby, as meteorological conditions can also be
+crucial. Based on the same rationale, the influence of each facility needs to be clarified as well to re-identify the key GHG-emitting units
+of WWTPs for mitigation. Mobile based remoting sensing of downwind atmospheric concentrations has been recently explored as a
+complementary method to on-site GHG measurements (Gålfalk et al., 2022; Moore et al., 2023; Samuelsson et al., 2018). With this
+approach, it is found that the CH4 emissions of WWTPs in the United States are 1.9 times greater than expected. But till now, the
+accuracy of top-down facility-integrated evaluation remains low.
+To address the identified research gap, this work applied AERMOD modelling to quantify the effect of all 18 emission units in an
+industrial WWTP on the spatial distribution of atmospheric CH4, N2O, and CO2 over a 20 ×20 km area adjacent to the plant. AERMOD
+is one of the well-established dispersion models to simulate steady-state near-field (up to 50 km) Gaussian plume concentrations
+(Cimorelli et al., 2005; Perry et al., 2025). A wide range of air pollutants have been studied, such as particulate matter (Jahne et al.,
+2015; Tartakovsky et al., 2016), sulfur dioxide (Al-Fadhli et al., 2019; Mendoza-Lara et al., 2023), nitrogen oxide (Ekmekçiog˘lu et al.,
+2020; Lee et al., 2021), carbon monoxide (Zhang et al., 2016), ammonia (Tadano et al., 2014), volatile organic compounds
+(Zavala-Araiza et al., 2014), and odor (Huang and Guo, 2019). It has also been proven effective for either point or area sources
+(Thiruvenkatachari et al., 2020; Zhou et al., 2021). With regard to GHGs modelling, it has been applied to characterize the release of
+CO2 from refinery sites (Karimi et al., 2023; Kose et al., 2021) or port areas (Mousavi et al., 2021), the leakage of CH4 from oil or gas
+facilities (Khalaj and Sattler, 2019; Lan et al., 2015), and the dispersion of CH4/CO2 (Elmi et al., 2021; Talaiekhozani et al., 2018) and
+N2O (Yaman et al., 2019) from municipal solid waste landfills as well as collection and transport activities. As for the emissions from
+WWTPs, most of the studies focus on odorous sulfur-containing substances (Baawain et al., 2017; Dinçer et al., 2020; Li et al., 2021;
+Luckert et al., 2023) or volatile organic compounds (Behnami et al., 2019; Wimolrattanasil et al., 2018; Zoroufchi Benis et al., 2016).
+So far, to the best of the authors’ knowledge, there has been no report on the modelling of GHG concentration change caused by
+WWTPs.
+To facilitate the first systematic evaluation of WWTP’s contribution on local GHG distribution, a one-year GHG monitoring
+campaign, from October 2022 to September 2023, was conducted at a typical industrial WWTP in Shanghai. The collected emission
+data, combined with meteorological conditions and terrain information, were fed in AERMOD to generate monthly distribution of GHG
+concentrations. A particular emphasis was placed on the five most populated towns in proximity to the plant. More detailed analysis
+was performed on the major process units to identify discrepancies between atmospheric concentrations and emissions. Besides, two
+extra months of online monitoring data were utilized to validate the reliability of our modelling results.
+Fig. 1. Site of study and the configurations of emission units in the plant (insert). The WWTP (yellow pin) was located at the center of this
+20×20km map, and the positions of five most populated towns, i.e., Caojing (CJ), Huqiao (HQ), Zhelin (ZL), Xinsi (XS), and Fengxin (FX), were
+highlighted by red drops. A total of 18 facilities were monitored in this study, including five ventilation ducts (Duct 1–5), two aeration tanks (Ox A/
+B), five secondary settlement tanks (SST A-E), four dissolved air flotation tanks (DAF A-D), one V-form filter (VF) and one biofilter (BF).
+2
+
+--- Page 3 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+2. Methodology
+2.1. Field site description
+The industrial WWTP of interest is located in the southern rural area of Shanghai, close to the Hangzhou Bay. The five most
+populated towns within a 20 ×20 km region adjacent to the plant are Caojing (CJ), Huqiao (HQ), Zhelin (ZL), Xinsi (XS), and Fengxin
+(FX). Five parallel anoxic/oxic (A/O) process lines, denoted as Lines A to E, are designed to treat industrial wastewater of 34,000 m3
+d(cid:0) 1, as well as a negligible amount of domestic wastewater produced at the industrial park. There is a total of 18 emissions units in it,
+including 5 points sources (Duct 1–5) for covered facilities and 13 area sources for opened units. More specifically, Duct 1 collects the
+exhaust gas from the primary treatment process of domestic wastewater, Duct 2 covers the equalization and anoxic tanks of Lines A to
+C, Duct 3 covers the sludge storage and dewatering, Duct 4 covers for the whole secondary treatments of Line D plus the aeration tank
+of Line C, and Duct 5 covers the secondary treatments of Line E. The open facilities are composed of two aeration tanks for Lines A and
+B (Ox A/B), five secondary settlement tanks for Lines A to E (SST A-E), four dissolved air flotation tanks for Lines A to D (DAF A-D), one
+V-form filter (VF) and one biofilter (BF). Detailed position of each emission unit in the WWTP is highlighted in Fig. 1and S1.
+2.2. GHG monitoring
+A monthly GHG monitoring campaign, spanning from October 2022 to September 2023, was conducted at the total 18 emission
+units of the industrial WWTP. For point sources, the off gas was collected directly from ventilation ducts and stored in 200ml
+aluminum foil bags. For area sources, a flux chamber method was applied, in which gas samples were collected every 5minutes and
+stored in 200ml bags as well. Collected gas samples were analyzed within 48hours by gas chromatography with flame ionization
+detector for CH4 / CO2 and electron capture detector for N2O (Agilent 7890B, United States). In addition, two more months of
+continuous GHG monitoring was performed from 18th October to 8th November on Duct 5, and from 22nd November to 13th
+December on Duct 2 (both in 2023), by high-resolution cavity ring-down spectroscopy analyzer (Picarro G2308, United States).
+2.3. Meteorological and terrain data
+Ground-level meteorological conditions close to the WWTP were collected on an hourly basis, including temperature, wind di-
+rection and speed, pressure, humidity and cloud cover. The AERMET preprocessor was used to compute the boundary layer charac-
+teristics for dispersion modeling, such as mixing height and surface heat flux. Terrain information was also incorporated and treated in
+the AERMAP preprocessor to take into account the influence of barriers and elevation patterns on wind flow or pollution dispersion.
+The spatial resolution of the map was set as 1km in this study, and so a total of 441 points (20×20km) were simulated each time.
+2.4. AERMOD simulation
+The AERMOD model was initialized with either the constant monthly or time-varying hourly emission rates. The constant monthly
+emission profile was composed of all the 18 process units for 12 months, while the time-varying hourly one covered only Duct 2 or 5.
+Specifications of different sources were precisely defined, including the inner diameter, base elevation, release height, and exit velocity
+for point sources, or X- and Y-dimensions of area sources. A flat, rural site was adopted for AERMOD architecture, and a two-meter
+flagpole height was used for receptors. Landscape features were delineated using digital elevation models to take into account the
+local variations in elevation and barriers that could affect airflow and pollutant dispersion. This was further refined by a variable grid
+resolution, with greater resolution for higher-emission areas around sources. Corrections on the atmospheric stability classes and
+pollutant-specific decay rates were also included to enhance model accuracy, as well as the dispersion behavior of changeable at-
+mospheric turbulence or in-air chemical reactions. The above approaches ensured that both spatial and temporal variations in
+emissions were correctly represented, allowing the better prediction of GHG concentration pattern for a wide range of scenarios.
+2.5. Data analysis
+The global warming potentials used in the conversion of N2O and CH4 to CO2 equivalent were 273 and 27, respectively, for both
+emission rates and atmospheric concentrations. The total emission rates of the WWTP (in kgCO2-eq d(cid:0) 1) were the sum of all 18 point and
+area sources. For point sources, the emission rates were basically calculated as the difference between the concentrations of exhaust gas
+and background (in ppm), multiplying the flow rates of exhaust gas (in m3 h(cid:0) 1). For area sources, the emission rates were calculated as
+the slope of concentration change in flux chamber (in mg m(cid:0) 3 h(cid:0) 1), multiplying the volume of the chamber (in m3), and the area ratio
+of the chamber and emission sources. As for meteorological data, the hourly values of temperature, pressure, humidity and cloud cover
+were reorganized to quantify their seasonal or diurnal patterns. The distribution of wind speed and direction was plotted as wind rose.
+With regard to the prediction of atmospheric GHG concentrations, their monthly distributions over the 20×20km area were first
+exported as the baseline, i.e., 441 points per month for one GHG. The average values of the 441 points for the concentration distri-
+butions of a particular month were defined as the monthly overall concentrations by the WWTP. The annual distributions of GHG were
+calculated as the average values of the 12-month concentrations on each point, rather than the direct annual simulation via AERMOD.
+To evaluate the monthly increase of GHG at those five populated towns, their values were calculated as the weighted averages of the
+four closest points. The Pearson correlation coefficients were calculated between the monthly overall concentrations by WWTP, the
+3
+
+--- Page 4 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+monthly concentrations at five populated towns, and the monthly overall ratios of concentrations to emissions, against the monthly
+overall emission rates of the WWTP and meteorological conditions.
+To assess the contribution of specific process units, the monthly concentration distributions by Duct 1–5 and Ox A/B were re-
+modelled. Similarly, their monthly overall contributions were defined as the average concentrations of the 441 points for a partic-
+ular month. Their monthly overall ratios of GHG concentration to emission (C/E ratios) were calculated as the quotients of monthly
+overall concentrations by monthly emission rates of a particular process unit. The total C/E ratios for point or area sources, and the
+total emission units as well, were the sum of monthly overall concentrations against the monthly emission rates. The Pearson cor-
+relation coefficients were also calculated for the monthly overall concentrations by point or area sources, against emission rates and
+meteorological conditions.
+As for the validation by continuous monitoring on Duct 2 and 5, the time-varying simulations of hourly GHG concentrations were
+performed in October, November, and December 2023. For the periods without continuous monitoring, the emission rates were filled
+with constant monthly values. The average values of the 441 points in 20×20km were calculated for the hourly and daily overall
+concentrations of Duct 2 or 5. The resulting concentrations were compared with the hourly and daily simulations with constant
+monthly emission rates through normalized root-mean-square deviations. Besides, the monthly distributions of GHG were calculated
+as the average values of concentrations on each point, rather than the direct monthly simulations via AERMOD. The distributions of
+GHG concentrations (441 points in 20× 20km) by time-varying and constant simulations were compared using coefficient of
+determination.
+3. Results and discussion
+3.1. Pattern of GHG emissions and meteorological conditions
+A monthly GHG monitoring campaign was conducted from October 2022 to September 2023, except only one measurement taken
+in August and September 2023 due to the extreme heat, Fig. 2a. The obtained N2O, CH4 and CO2 emission rates were converted to CO2
+equivalent, and compiled to five categories according to their functions, i.e., Duct 1–5, Ox A/B, SST A-E, DAF A-D, and VF+BF. Note
+that the wastewater treated in this plant was mainly of fossil fuel nature, the CO2 emission was thus taken into account (Wang et al.,
+2024). In fact, the daily CO2 emission rate of the whole WWTP (11837.2±4279.2kgCO2-eq d(cid:0) 1) was over an order of magnitude
+greater than N2O (774.8±889.9kgCO2-eq d(cid:0) 1) or CH4 (728.9±285.6kgCO2-eq d(cid:0) 1). No apparent seasonal GHG emission pattern was
+observed, as influent flow rates and pollutant concentrations played a more significant role than temperature. It was shown that point
+sources (Duct 1–5) contributed 88.0±6.5% N2O, 75.9±13.7% CH4, and 43.3±7.3% CO2 in the total GHG emissions of this
+WWTP, while the biggest area sources were Ox A/B (4.8±4.0% of N2O, 21.6±12.2% CH4, and 41.8±10.6% CO2), Fig. S2. The
+other facilities produced less than 10% of the emission in total for all three GHGs.
+Features of the meteorological conditions required for AERMOD modelling, i.e., temperature, pressure, humidity, wind speed/
+direction, and cloud cover, were presented in Figs. 2b-2e and S3-S4. A clear seasonal pattern was seen in temperature (Fig. 2b), with a
+maximum value of 28.5±2.6◦C in July and a minimum value of 6.9±5.0◦C in January. Similar characteristics were observed in
+specific humidity, reaching the top of 19.7±1.5g kga(cid:0) 1 in July and the bottom of 3.5±1.8g kga(cid:0) 1 in December (Fig. 2d), as the
+specific humidity of saturated air increased with its temperature. On the other hand, atmospheric pressure exhibited distinct seasonal
+variations, with a peak in December at 102.8±0.4 kPa and a valley in August at 100.4±0.3 kPa (Fig. 2c). It was probably because
+warm air was less dense than the cold one, and tended to rise in summer or sink in winter. Meanwhile, the distributions of annual or
+Fig. 2. Inputs for monthly and annual simulations, including the (a) monthly emission rates of N2O, CH4 and CO2 (all values were converted into
+d(cid:0)1)
+kgCO2-eq from various types of facilities, and the meteorological conditions such as the monthly patterns of (b) temperature, (c) pressure, (d)
+specific humidity, and (e) the annual pattern of wind rose.
+4
+
+--- Page 5 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+monthly wind speed and direction were shown as wind rose (Fig. 2e and S2). Majority of the wind came from north-northwest to south-
+southwest, with a resultant vector of 261◦and mean velocity of 3.4ms(cid:0) 1. The diurnal patterns of temperature, pressure and humidity
+were also analyzed (Fig. S4a-S4c), which were distinguishable but much smaller than the seasonal variations. Besides, no clear feature,
+either seasonal or diurnal, was seen in cloud cover (Fig. S4d-S4e).
+3.2. GHG Concentrations at Populated Towns
+The modelled annual distributions of the atmospheric concentrations of N2O, CH4, and CO2 in a 20×20km region were shown in
+Fig. 3a-3c, with the position of WWTP at the center. The annual distribution was calculated as the average values of 12 monthly
+dispersions of GHG concentrations (Fig. S5-S7), and was converted into a logarithmic ppb or ppm scale. Annual simulation was a more
+suitable approach to evaluate the impact of GHG concentrations, than the daily or hourly ones, since the seasonal variations in
+meteorological conditions were significant. The red dashed curves on the maps pointed out the areas where the increase of atmospheric
+GHG concentrations was greater than 10% of the global annual growth rates. They were defined as the average values since 2001,
+which were 0.092, 0.664 or 222 ppb yr(cid:0) 1 for N2O, CH4 or CO2 (Lan et al., 2025a, 2025b), and the respective affected areas were 0.37,
+8.95 or 4.97km2. The larger size of areas affected by CH4 was in accordance with the greater contribution of WWTPs in global
+emissions rates. Fortunately, none of the five populated towns was located in those highly affected regions, indicating that the overall
+impact of this WWTP was moderate on GHG levels in the surroundings. The Pearson correlation coefficients between the monthly
+emission rates and the overall concentrations were 0.988 for N2O, 0.943 for CH4, and 0.931 for CO2, respectively, in support of their
+predominant roles (Fig. S8). In the meantime, the Pearson correlation coefficients of wind speeds and pressures were generally be-
+tween (cid:0) 0.4 to (cid:0) 0.7 (moderate negative), while the values of temperature and humidity were between 0.4 and 0.7 (moderate positive).
+Monthly increases of the GHG concentrations at those five populated towns were shown in Fig. 3d and S9-S11. It was found that the
+magnitude of GHG concentration changes at those towns were distinct from the order of their distances to the WWTP. The latter, from
+small to large, was ZL (3.41km), CJ (5.70km), HQ (6.36km), FX (6.86km), and XS (7.57km), respectively. In contrast, orders of the
+average atmospheric N2O, CH4, and CO2 concentrations, from high to low, were CJ (0.0240, 0.3788 and 66.43 ppb), HQ (0.0139,
+0.2084 and 37.19 ppb), ZL (0.0069, 0.1298 and 29.82 ppb), FX (0.0034, 0.0591 and 11.27 ppb), and XS (0.0031, 0.0560 and 10.67
+ppb). Such a deviation could be partially explained by the distance normalized concentrations, which was reflective of the annual wind
+direction. Furthermore, it was noted that the ratios of annual concentrations of CH4 or CO2 to N2O followed another sequence of HQ
+(15.02 or 2680) <CJ (15.82 or 2774) <FX (17.60 or 3354) <XS (18.02 or 3430) <ZL (18.71 or 4300). At the same time, seasonal
+trends of the monthly GHG concentrations were comparable for five towns (Fig. S9), so as the ratios of CH4/N2O and CO2/N2O
+(Fig. S10), suggesting that the aforementioned deviation was owing to the distinct emission profiles of various sources. Apart from all
+Fig. 3. Annual distribution of the (a) N2O, (b) CH4 and (c) CO2 concentrations over a 20×20km area adjacent to the WWTP, and (d) the monthly
+atmospheric concentrations of three GHGs at those five target towns. All the values in (a-c) were averaged from the 12-month simulations, and were
+converted into a ppb or ppm scale. The superimposed red dashed curves highlighted the areas in which the GHG concentrations were higher than
+10% of the annual global growth rates. The locations of five target towns were also highlighted by red drops.
+5
+
+--- Page 6 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+the above, Pearson correlation coefficient of emission rates against GHG concentrations at the five towns (0.67) was much lower than
+the overall one (0.95), Fig. S11. The value of wind speed was also reduced from 0.64 to 0.45, the values of humidity and temperature
+remained unchanged (0.49–0.51), and the value of pressure even slightly increased from 0.42 to 0.53. All these phenomena confirmed
+the discrepancy between the pattern of GHG distribution and the emission of WWTP, emphasizing the necessity of combining both
+emission rates and meteorological conditions into the interpretation of resulting atmospheric GHG concentrations.
+3.3. Contributions of specific facilities
+The monthly increases of atmospheric GHG concentrations by Duct 1–5 and Ox A/B were re-modelled individually to clarify the
+Fig. 4. Individual contribution of Duct 1–5 and Ox-A/B to the atmospheric concentrations of (a) N2O, (b) CH4 and (c) CO2, compared to the whole
+plant, and (d) the ratios of concentrations to emissions. (e) The magnitude of C/E ratios for three GHGs by point and area sources against their
+contributions to GHG emissions. (f) The correlation between the concentrations of GHGs by point or area sources and their emission rates or
+meteorological conditions.
+6
+
+--- Page 7 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+specific contribution of each emission unit (Fig. 4a-4c). It was found that these seven facilities produced 95.4% of the total GHG
+emissions (e.g., 93.3±4.3% N2O, 97.2±4.6% CH4, and 85.9±8.9% CO2), but caused only 86.9% of the GHG concentration
+changes (e.g., 87.0±8.9% N2O, 94.5±8.8% CH4, and 77.5±13.9% CO2), Fig. S12. Consistently smaller ratios of concentration to
+emission (C/E ratios) were seen for the sum of these seven facilities, throughout the whole 12 months for all three GHGs, i.e., 0.93
+±0.06 for N2O, 0.97±0.05 for CH4, and 0.90±0.08 for CO2. This observation suggested that the remaining 11 area sources could
+have contributed 60–100% higher to the concentrations than emissions. The monthly C/E ratios of Duct 1–5 and Ox A/B were thus
+examined further, Fig. 4d and S14. It was striking that, regardless of their exact emissions, the monthly C/E ratios of all point sources
+(Duct 1–5) were almost identical and consistently smaller than one, i.e., 0.87±0.11 for N2O, 0.73±0.15 for CH4 and 0.54±0.11 for
+CO2, on average. The values of area sources (Ox A/B) were, however, always greater than one, i.e., 2.12±0.59 for N2O, 1.80±0.50
+for CH4 and 1.28±0.14 for CO2, respectively.
+The trends of C/E ratios were found to be associated with the respective emission contributions by point or area sources, Fig. 4e.
+Higher percentages of point source emissions correspond to larger values of C/E ratios in most cases, but area sources exhibited a
+completely opposite trend. Linear regression was used to fit the C/E ratios of point or area sources, showing reasonably good R2 values
+of 0.97–0.98. This finding implied that, for a given amount of emission, the resulting atmospheric concentrations might vary from
+96.4% to 101.1%, depending on the ratio of point to area emissions. The lowest increase of GHG concentrations was reached under a
+half-point-half-area combination. Possible reasons for the contrasting patterns of C/E ratios of point and area sources might be height
+differences, which led to a more diluted near-ground GHG concentration for the former. Besides, it was shown that the majority of
+meteorological conditions (e.g., humidity, temperature, pressure, and cloud cover) had a stronger correlation with the C/E ratios than
+with the emission rates, especially for area sources (0.71–0.79 against 0.48), Fig. 4f. Hence, further analysis was required to under-
+stand the small but non-negligible deviation among various process units.
+3.4. Validation by continuous monitoring
+To evaluate the accuracy of the GHG simulation results in this work, two additional months of continuous monitoring were
+conducted on Duct 5 and 2 from October 18th to December 13th, 2023. The resulting hourly averaged emission profile allowed the use
+of time-varying input for AERMOD simulations. These two ducts accounted for 65.8% of the total N2O emissions, 29.5% of CH4, and
+25.0% of CO2, as well as distinct CH4/CO2 ratios due to the absence or presence of aeration tanks. Hence, they could represent the
+main feature of the GHG emissions from this WWTP. The facility-specific emission rates obtained during this monitoring period were
+used to simulate the atmospheric GHG concentration changes for Duct 5 in October and November, and for Duct 2 in November and
+December. For periods without monitoring data, constant monthly emission rates were employed as a supplementary model input.
+Concurrently, simulations using the constant whole-month emission rates were conducted for comparison.
+The hourly and daily output of the time-varying and constant simulations were presented in Fig. 5and S15. The total concentration
+of each GHG over the 20×20km area was added up for comparison. It was noticed that the concentrations in “constant” (non-
+monitoring) periods were always identical for constant and time-varying simulations, no matter whether the emission input was in a
+“constant / time-varying” or “time-varying / constant” configuration. As for the monitoring period, the patterns of reference simu-
+lations with a constant emission input were similar among various GHGs or ducts, which was supposed to be determined by meteo-
+rological conditions only. The deviation of the time-varying simulations from the constant ones was most evident for N2O, and was
+comparable between two ducts. The normalized root-mean-square deviations (NRMSD) of the hourly concentration prediction of N2O,
+CH4 and CO2 were 1.67, 0.21 and 0.18 for Duct 2, and were 2.16, 0.31, and 0.57 for Duct 5, respectively. The magnitude of NRMSD was
+mostly affected by the coefficient of variation (CV) of emission series (Fig. S16), and the corresponding values of Ducts 2 and 5 were
+1.97/1.84 for N2O, 0.32/0.61 for CH4, and 0.16/0.22 for CO2. The NRMSD of the daily concentration prediction decreased by
+30–50%, but followed the same trend as the hourly results. Despite the short-term fluctuations, the overall distribution of GHG
+concentrations by time-varying simulations matched well with the constant ones (Figs. 5c, 5f and 5i), with R2 values over 0.99 for CH4
+and CO2, and 0.86 for N2O. These findings confirmed the validity of using constant monthly emission rates of as the input for AERMOD
+modeling, particularly when the variations of influent flow rate/quality and emissions were not high, which could ease the labor
+burden of long-term GHG monitoring campaigns.
+3.5. Future perspectives
+The AERMOD simulation results in this work confirmed that the increase of local GHG levels caused by WWTPs could be
+remarkably different from their emission profiles, especially for certain areas of interest. Likewise, the exact contribution of a process
+unit on the atmospheric concentration must be taken into consideration for the determination of key GHG-emitting units in WWTPs.
+For example, the EFs of CH4 and N2O for the industrial WWTP in this study were 1.17×10(cid:0) 3 kgCH4 kgC(cid:0) O1 Dand 1.07×10(cid:0) 3 kgN2O-N
+kgT(cid:0) N1, respectively, which was 0.59% and 6.67% of the default EFs recommended by IPCC. However, the increases of GHG con-
+centrations at the five populated towns ranged from 3.1–24 ppt for N2O and 56–378.8 ppt for CH4, corresponding to 1.11% and 2.51%
+of global growth rates. More importantly, the C/E ratios of Ox A/B (the area sources of greatest GHG emissions in this study) could be
+as high as 2.081–2.167 for N2O and 1.731–1.864 for CH4. As known previously, the hydroxylamine oxidation and nitrifier denitri-
+fication pathways in oxidation tank may produce N2O (Song et al., 2024), and the aeration process may promote the release of dis-
+solved CH4 to air (Song et al., 2024). Hence, enclosing the open Ox A/B could not only reduce their EFs (Wang et al., 2024), but also
+lower down the actual increase of GHG concentrations (turning area sources to point sources). To further verify the observations in this
+study, mobile based remoting sensing of GHG around the WWTP would be taken, together with the (isotope) tracer release
+7
+
+--- Page 8 ---
+M.M.R.
+Manu
+et
+al.
+8
+E
+n
+v i r o
+n
+m
+e n
+t a
+l
+T
+e c h
+n
+o
+l o
+g y
+&
+I n
+n
+o
+v a
+Fig. 5. Comparison of the modeled atmospheric concentrations using constant or time-varying emission rate as the input for (a-c) N2O, (d-f) CH4, and (g-i) CO2 at Duct 5 and 2. t i o
+n
+3
+8
+(2025)
+104134
+
+--- Page 9 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+measurements at the sources.
+4. Conclusions
+In short, this work has applied for the first time AERMOD modelling to quantify the effect of all the 18 emission units in an in-
+dustrial WWTP on the spatial distribution of atmospheric CH4, N2O, and CO2 concentrations over a 20×20km area adjacent to the
+plant. A 12-month GHG monitoring campaign revealed that the overall emission rates of the plant were 774.8±889.9, 728.9±285.6,
+and 11837.2±4279.2kgCO2-eq d(cid:0) 1 for N2O, CH4, and CO2. The respective affected areas were 0.37, 8.95 and 4.97km2. The increases
+of GHG concentration at the five most populated towns nearby ranged from 13.0 to 83.2 ppbCO2-eq yr(cid:0) 1, which was 1.45% of the global
+annual growth rate. Detailed analysis of Duct 1–5 and Ox A/B (contributing a total of 92.8% N2O, 97.5% CH4, and 95.1% CO2
+emissions) showed that C/E ratios were consistently smaller than one for point sources, while greater than one for area sources,
+regardless of the exact emission. These findings could be used as guidance for the development of GHG mitigation strategies for WWTP
+in future.
+CRediT authorship contribution statement
+Zhang Yili: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal
+analysis, Data curation, Conceptualization. Sheng Yangyue: Writing – review & editing, Writing – original draft, Visualization,
+Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Li Dan: Writing – review & editing,
+Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization.
+Wang Qinyi: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal
+analysis, Data curation, Conceptualization. Manu Md Mizanur Rahaman: Writing – review & editing, Writing – original draft,
+Visualization, Validation, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Qiu Kaipei:
+Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project adminis-
+tration, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization. Qian Xiaoyong: Writing – review &
+editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology,
+Investigation, Funding acquisition, Formal analysis, Conceptualization. Zhang Chao: Writing – review & editing, Writing – original
+draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Huang Zhengfeng:
+Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Formal analysis, Data
+curation, Conceptualization. Wu Hao: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology,
+Investigation, Formal analysis, Data curation, Conceptualization. Zhong Xinrun: Writing – review & editing, Writing – original draft,
+Visualization, Validation, Methodology, Investigation, Formal analysis, Data curation, Conceptualization.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+Acknowledgements
+This study was supported by the National Key R&D Program of China (2023YFC3008803, 2022YFE0137100), the National Natural
+Science Foundation of China (21972041, 22006037), the Natural Science Foundation of Shanghai Municipality (23ZR1416300), and
+the Technical Standard Program of Science and Technology Commission of Shanghai Municipality (22DZ2200100).
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the online version at doi:10.1016/j.eti.2025.104134.
+Data availability
+Data will be made available on request.
+References
+Al-Fadhli, F.M., Alhajeri, N.S., Aly, A.Z., Allen, D.T., 2019. The impact of power plant emission variability and fuel switching on the air quality of Kuwait. Sci. Total
+Environ. 672, 593–603. https://doi.org/10.1016/j.scitotenv.2019.03.441.
+Baawain, M., Al-Mamun, A., Omidvarborna, H., Al-Jabri, A., 2017. Assessment of hydrogen sulfide emission from a sewage treatment plant using AERMOD. Environ.
+Monit. Assess. 189, 1–11. https://doi.org/10.1007/s10661-017-5983-6.
+Bartram, D., Short, M.D., Ebie, Y., Farkas, J., 2019. Refinement to the 2006 IPCC guidelines for national greenhouse gas inventories. Volume 5: Waste. Chapter 6:
+Wastewater Treatment and Discharge. 〈https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/5_Volume5/19R_V5_6_Ch06_Wastewater.pdf〉.
+9
+
+--- Page 10 ---
+M.M.R. Manu et al. E n v i r o n m e n t a l T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134
+Behnami, A., Zoroufchi Benis, K., Shakerkhatibi, M., Derafshi, S., Chavoshbashi, M.M., 2019. A systematic approach for selecting an optimal strategy for controlling
+VOCs emissions in a petrochemical wastewater treatment plant. Stoch. Environ. Res. Risk Assess. 33, 13–29. https://doi.org/10.1007/s00477-018-1623-0.
+Cimorelli, A.J., Perry, S.G., Venkatram, A., Weil, J.C., Paine, R.J., Wilson, R.B., Lee, R.F., Peters, W.D., Brode, R.W., 2005. AERMOD: a dispersion model for industrial
+source applications. Part I: general model formulation and boundary layer characterization. J. Appl. Meteorol. Climatol. 44, 682–693. https://doi.org/10.1175/
+JAM2227.1.
+Crippa, M., Guizzardi, D., Pagani, F., Banja, M., Muntean, M., Schaaf, E., Becker, W., Monforti-Ferrario, F., Quadrelli, R., Risquez Martin, A., Taghavi-Moharamli, P.,
+Ko¨ykka¨, J., Grassi, G., Rossi, S., Brandao De Melo, J., Oom, D., Branco, A., San-Miguel, J., Vignati, E., 2023. GHG emissions of all world countries. Publications
+Office of the European Union. Luxembourg. https://doi.org/10.2760/953322.
+¨ ¨
+Dinçer, F., Dinçer, F.K., Sarı, D., Ceylan, O., Ercan, O., 2020. Dispersion modeling and air quality measurements to evaluate the odor impact of a wastewater treatment
+plant in I˙ zmir. Atmos. Pollut. Res. 11, 2119–2125. https://doi.org/10.1016/j.apr.2020.05.018.
+Ekmekçiog˘lu, A., Kuzu, S.L., Ünlügençog˘lu, K., Çelebi, U.B., 2020. Assessment of shipping emission factors through monitoring and modelling studies. Sci. Total
+Environ. 743, 140742. https://doi.org/10.1016/j.scitotenv.2020.140742.
+Elmi, A., Al-Harbi, M., Yassin, M.F., Al-Awadhi, M.M., 2021. Modeling gaseous emissions and dispersion of two major greenhouse gases from landfill sites in arid hot
+environment. Environ. Sci. Pollut. Res. 28, 15424–15434. https://doi.org/10.1007/s11356-020-11760-6.
+Gålfalk, M., Påledal, S.N., Sehl´en, R., Bastviken, D., 2022. Ground-based remote sensing of CH4 and N2O fluxes from a wastewater treatment plant and nearby biogas
+production with discoveries of unexpected sources. Environ. Res. 204, 111978. https://doi.org/10.1016/j.envres.2021.111978.
+Huang, D., Guo, H., 2019. Dispersion modeling of odour, gases, and respirable dust using AERMOD for poultry and dairy barns in the Canadian Prairies. Sci. Total
+Environ. 690, 620–628. https://doi.org/10.1016/j.scitotenv.2019.07.010.
+Jahne, M.A., Rogers, S.W., Holsen, T.M., Grimberg, S.J., Ramler, I.P., 2015. Emission and dispersion of bioaerosols from dairy manure application sites: Human health
+risk assessment. Environ. Sci. Technol. 49, 9842–9849. https://doi.org/10.1021/acs.est.5b01981.
+Karimi, S., Asghari, M., Rabie, R., Niri, M.E., 2023. Machine learning-based white-box prediction and correlation analysis of air pollutants in proximity to industrial
+zones. Process Saf. Environ. Prot. 178, 1009–1025. https://doi.org/10.1016/j.psep.2023.08.096.
+Khalaj, F., Sattler, M., 2019. Modeling of VOCs and criteria pollutants from multiple natural gas well pads in close proximity, for different terrain conditions: a Barnett
+Shale case study. Atmos. Pollut. Res. 10, 1239–1249. https://doi.org/10.1016/j.apr.2019.02.007.
+Kose, S., Sekban, D.M., Ozkok, M., 2021. Determination of port-induced exhaust gas emission amounts and investigation of environmental impact by creating
+emission maps: Sample of Trabzon port. Int. J. Sustain. Transp. 16, 258–268. https://doi.org/10.1080/15568318.2020.1871130.
+Lan, X., Talbot, R., Laine, P., Torres, A., 2015. Characterizing fugitive methane emissions in the Barnett Shale area using a mobile laboratory. Environ. Sci. Technol.
+49, 8139–8146. https://doi.org/10.1021/es5063055.
+Lan, X., Tans, P., Thoning, K.W., 2025a. Trends in globally-averaged CO2 determined from NOAA Global Monitoring Laboratory measurements. https://doi.org/10.
+15138/9N0H-ZH07.
+Lan, X., Thoning, K.W., Dlugokencky, E.J., 2025b. Trends in globally-averaged CH4, N2O, and SF6 determined from NOAA Global Monitoring Laboratory
+measurements. https://doi.org/10.15138/P8XG-AA10.
+Lee, E.K., Romeiko, X.X., Zhang, W., Feingold, B.J., Khwaja, H.A., Zhang, X., Lin, S., 2021. Residential proximity to biorefinery sources of air pollution and respiratory
+diseases in New York state. Environ. Sci. Technol. 55, 10035–10045. https://doi.org/10.1021/acs.est.1c00698.
+Li, R., Han, Z., Shen, H., Qi, F., Sun, D., 2021. Volatile sulfur compound emissions and health risk assessment from an A2/O wastewater treatment plant. Sci. Total
+Environ. 794, 148741. https://doi.org/10.1016/j.scitotenv.2021.148741.
+Li, H., You, L., Du, H., Yu, B., Lu, L., Zheng, B., Zhang, Q., He, K., Ren, N., 2024. Methane and nitrous oxide emissions from municipal wastewater treatment plants in
+China: a plant-level and technology-specific study. Environ. Sci. Ecotechnol. 20, 100345. https://doi.org/10.1016/j.ese.2023.100345.
+Luckert, A., Aguado, D., García-Bartual, R., Lafita, C., Montoya, T., Frank, N., 2023. Odour mapping and air quality analysis of a wastewater treatment plant at a
+seaside tourist area. Environ. Monit. Assess. 195, 1013. https://doi.org/10.1007/s10661-023-11598-8.
+Mendoza-Lara, O.O., Ortega-Montoya, C.Y., Hinojosa, A.I.P., Lo´pez-P´erez, A.O., Baldasano, J.M., 2023. An empirical and modelling approach to the evaluation of
+cruise ships’ influence on air quality: the case of La Paz, Mexico. Sci. Total Environ. 886, 163855. https://doi.org/10.1016/j.scitotenv.2023.163855.
+Moore, D.P., Li, N.P., Wendt, L.P., Castan˜eda, S.R., Falinski, M.M., Zhu, J.J., Song, C., Ren, Z.J., Zondlo, M.A., 2023. Underestimation of sector-wide methane
+emissions from United States wastewater treatment. Environ. Sci. Technol. 57, 4082–4090. https://doi.org/10.1021/acs.est.2c05373.
+Mousavi, S.S., Goudarzi, G., Sabzalipour, S., Rouzbahani, M.M., Mobarak Hassan, E., 2021. An evaluation of CO, CO2, and SO2 emissions during continuous and non-
+continuous operation in a gas refinery using the AERMOD. Environ. Sci. Pollut. Res. 28, 56996–57008. https://doi.org/10.1007/s11356-021-14493-2.
+Perry, S.G., Cimorelli, A.J., Paine, R.J., Brode, R.W., Weil, J.C., Venkatram, A., Wilson, R.B., Lee, R.F., Peters, W.D., 2025. AERMOD: a dispersion model for industrial
+source applications. Part II: model performance against 17 field study databases. J. Appl. Meteorol. Climatol. 44, 694–708. https://doi.org/10.1175/JAM2228.1.
+Samuelsson, J., Delre, A., Tumlin, S., Hadi, S., Offerle, B., Scheutz, C., 2018. Optical technologies applied alongside on-site and remote approaches for climate gas
+emission quantification at a wastewater treatment plant. Water Res 131, 299–309. https://doi.org/10.1016/j.watres.2017.12.018.
+Song, C., Zhu, J.J., Willis, J.L., Moore, D.P., Zondlo, M.A., Ren, Z.J., 2023. Methane emissions from municipal wastewater collection and treatment systems. Environ.
+Sci. Technol. 57, 2248–2261. https://doi.org/10.1021/acs.est.2c04388.
+Song, C., Zhu, J.J., Willis, J.L., Moore, D.P., Zondlo, M.A., Ren, Z.J., 2024. Oversimplification and misestimation of nitrous oxide emissions from wastewater treatment
+plants. Nat. Sustain. 7, 1348–1358. https://doi.org/10.1038/s41893-024-01420-9.
+Tadano, Y.S., Borillo, G.C., Godoi, A.F.L., Cichon, A., Silva, T.O., Valebona, F.B., Errera, M.R., Penteado Neto, R.A., Rempel, D., Martin, L., Yamamoto, C.I., Godoi, R.
+H., 2014. Gaseous emissions from a heavy-duty engine equipped with SCR aftertreatment system and fuelled with diesel and biodiesel: assessment of pollutant
+dispersion and health risk. Sci. Total Environ. 500, 64–71. https://doi.org/10.1016/j.scitotenv.2014.08.100.
+Talaiekhozani, A., Nematzadeh, S., Eskandari, Z., Dehkordi, A.A., Rezania, S., 2018. Gaseous emissions of landfill and modeling of their dispersion in the atmosphere
+of Shahrekord, Iran. Urban Clim. 24, 852–862. https://doi.org/10.1016/j.uclim.2017.10.005.
+Tartakovsky, D., Stern, E., Broday, D.M., 2016. Dispersion of TSP and PM10 emissions from quarries in complex terrain. Sci. Total Environ. 542, 946–954. https://doi.
+org/10.1016/j.scitotenv.2015.10.133.
+Thiruvenkatachari, R.R., Carranza, V., Ahangar, F., Marklein, A., Hopkins, F.M., Venkatram, A., 2020. Uncertainty in using dispersion models to estimate methane
+emissions from manure lagoons in Dairies. Agric. For. Meteorol. 290, 108011. https://doi.org/10.1016/j.agrformet.2020.108011.
+Wang, Q., Sheng, Y., Song, N., Zhang, J., Zeng, S., Qian, X., Qiu, K., Liu, Q., 2023. Progress of CH4 and N2O monitoring in full-scale wastewater treatment process.
+Environ. Eng. 41, 51–60. https://doi.org/10.13205/j.hjgc.202310008.
+Wang, Q., Sheng, Y., Zhang, Y., Zhong, X., Liu, H., Huang, Z., Li, D., Wu, H., Ni, Y., Zhang, J., Lin, W., Qiu, K., Qian, X., 2024. Complete long-term monitoring of
+greenhouse gas emissions from a full-scale industrial wastewater treatment plant with different cover configurations. J. Env. Manag. 360, 121206. https://doi.
+org/10.1016/j.jenvman.2024.121206.
+Wimolrattanasil, T., Thepanondh, S., Sattler, M.L., Laowagul, W., 2018. Quantitative evaluation of cleaner production and environmental policy toward the co-benefit
+of greenhouse gas and odor reduction: case study of Tapioca starch industry. Clean. Technol. Environ. Policy 20, 2333–2343. https://doi.org/10.1007/s10098-
+018-1609-0.
+Yaman, C., Anil, I., Jaunich, M.K., Blaisi, N.I., Alagha, O., Yaman, A.B., Gunday, S.T., 2019. Investigation and modelling of greenhouse gas emissions resulting from
+waste collection and transport activities. Waste Manag. Res. 37, 1282–1290. https://doi.org/10.1177/0734242X19882482.
+Yin, Y., Qi, X., Gao, L., Lu, X., Yang, X., Xiao, K., Liu, Y., Qiu, Y., Huang, X., Liang, P., 2024. Quantifying methane influx from sewer into wastewater treatment
+processes. Environ. Sci. Technol. 58, 9582–9590. https://doi.org/10.1021/acs.est.4c00820.
+Zavala-Araiza, D., Sullivan, D.W., Allen, D.T., 2014. Atmospheric hydrocarbon emissions and concentrations in the Barnett shale natural gas production region.
+Environ. Sci. Technol. 48, 5314–5321. https://doi.org/10.1021/es405770h.
+10

@@ -1,0 +1,826 @@
+--- Page 1 ---
+nature water
+Article https://doi.org/10.1038/s44221-025-00490-z
+Comprehensive assessment of the
+contribution of wastewater treatment
+to urban greenhouse gas and
+ammonia emissions
+Received: 7 February 2024 Daniel P. Moore 1,5, Nathan P. Li 1, Cuihong Song 1,2,6, Jun-Jie Zhu 1,2,
+Hongming Yi 1, Lei Tao1,7, James McSpiritt1, Vladislav I. Sevostianov 1,3,
+Accepted: 31 July 2025
+Lars P. Wendt1, Nidia E. Rojas-Robles 4,8, Francesca M. Hopkins 4,
+Published online: 8 October 2025 Zhiyong Jason Ren 1,2 & Mark A. Zondlo 1,3
+Check for updates
+Population growth and urbanization are driving the demand for centralized
+wastewater treatment, a primary source of NO and CH emissions. We have
+2 4
+conducted the first comprehensive assessment of CH , N O and NH emissions
+4 2 3
+across diurnal, day-to-day and seasonal scales at 96 US water resource recovery
+facilities (WRRFs) that collectively treat 9% of US centralized wastewater.
+Facility-level emissions were scaled to the national level using a probabilistic
+approach. Here we show that the measured emissions were 1.9 times higher
+for N O (95% confidence interval (CI): 1.3–2.6) and 2.4 times higher for CH
+2 4
+(CI: 1.9–2.9) than current US inventories. Considering the cumulative climate
+impacts of CH and N O, the top 10% of emitters contributed 74% of the
+4 2
+carbon footprint, with the top half contributing 98%, highlighting priorities
+for mitigation. Although detected at only a small fraction of facilities,
+measurements of NH emissions (86 kt yr−1 in the USA) suggest WRRFs are
+3
+an overlooked source of urban NH. Finally, the contribution of centralized
+3
+wastewater treatment to global greenhouse gas emissions will increase 2- to
+17-fold by 2100 under future scenarios. Overall, greater consideration of
+wastewater treatment emissions is needed to reach sustainability targets.
+Wastewater treatment uses biological processes to remove con- NO emitted into the atmosphere will remain there, on average, for
+2
+taminants and produce clean water, but current processes also emit 116 years3, posing long-lasting impacts on climate and stratospheric
+methane (CH) and nitrous oxide (NO), the two most important anthro- ozone depletion. Wastewater treatment is a primary urban source of
+4 2
+pogenic greenhouse gases (GHGs) after carbon dioxide (CO). With NO and CH. In addition, wastewater often contains high concentra-
+2 2 4
+100-year global warming potentials (GWP ) of 28 and 265, respectively, tions of ammonia (NH) and ammonium (NH+), which can volatilize
+100 3 4
+CH and NO are collectively responsible for 22% of the warming since directly and/or be produced during the treatment of extracted solids4.
+4 2
+18501. While CH mitigation has been a target of recent environmental Gaseous NH is the primary base in the atmosphere and reacts quickly
+4 3
+legislation to fight climate change due to its short lifetime (~9 years)2, with acidic compounds (for example, sulfuric acid and nitric acid) to
+1Department of Civil and Environmental Engineering, Princeton University, Princeton, NJ, USA. 2Andlinger Center for Energy and the Environment,
+Princeton University, Princeton, NJ, USA. 3Princeton Materials Institute, Princeton University, Princeton, NJ, USA. 4Department of Environmental Sciences,
+University of California Riverside, Riverside, CA, USA. 5Present address: WattTime, Oakland, CA, USA. 6Present address: Department of Civil and
+Environmental Engineering, University of New Hampshire, Durham, NH, USA. 7Present address: LI-COR, Lincoln, NE, USA. 8Present address: School of
+Sustainable Engineering and the Built Environment, Arizona State University, Tempe, AZ, USA. e-mail: mzondlo@princeton.edu
+Nature Water | Volume 3 | October 2025 | 1114–1124 1114
+
+--- Page 2 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+create fine particles, degrading air quality and negatively impacting Facility measurements
+human health5 and ecosystems6,7. We measured atmospheric mole fractions of the target species down-
+Current national estimates of wastewater-derived emissions of wind of a total of 109 WRRFs, with treatment capacities ranging from
+CH in the USA are underestimated by about a factor of two8,9, while less than 3 × 102 m3 d−1 to more than 2 × 106 m3 d−1 (<0.1 to >100 million
+4
+those of NH and NO emissions are highly uncertain10. These estimates gallons per day (MGD)), across eight states in the USA, primarily in the
+3 2
+are largely based on the guidelines of the Intergovernmental Panel on Northeast (n = 85) and California (n = 18), with several in the Midwest
+Climate Change (IPCC), which recommend the use of emission factors (n = 6; Supplementary Information, section 1). In total, the sampled
+(EFs), conventionally defined as emissions normalized by influent 5-day WRRFs treat, on average, around 1.1 × 107 m3 d−1, or about 8.8% of the
+biochemical oxygen demand (BOD) loading for CH and influent total total flow to US centralized domestic WRRFs (1.3 × 108 m3 d−1 according
+5 4
+nitrogen (TN) loading for NO and NH (refs. 4,11,12). For all species, the to the US Environmental Protection Agency (EPA))24. A total of 3,307
+2 3
+measurements contributing to these recommended EFs are limited cross-plume transects passed quality control across the 109 facilities.
+to a few water resource recovery facilities (WRRFs) that may not be We conducted quarterly analyses at a subset of 37 facilities and one
+representative of those in the USA or the world, more generally. For diurnal study (roughly every 2 hours for 24 hours) to quantify seasonal
+example, the IPCC-recommended NO EF for centralized aerobic treat- and diurnal variabilities, respectively. This sampling strategy of incor-
+2
+ment, the most common treatment type in the USA, varies over three porating many facilities over varying time spans was used to capture
+orders of magnitude13,14. Indeed, this variability manifests itself in the the well-established variability of GHG emissions, particularly those
+uncertainty of national emissions estimates. For example, the current of NO, and biases associated with short-term measurements given
+2
+US inventory of NO emissions from WRRFs reported a 95% confidence this variability23,25,26. After all of the quality control measures needed
+2
+interval ranging from 9.9 to 47.1 MtCO-equivalent (MtCOe), with an for successful quantification of facility-level emissions were applied
+2 2
+upper bound nearly three times the inventory value10. Nation- and individually for each gas, we quantified the emissions of at least one
+city-wide net-zero and sustainability plans must, therefore, consider gas from 96 WRRFs. This dataset comprises measured emissions data
+the impact of wastewater treatment as the world seeks enhanced living from the largest number of facilities incorporated into a single study
+standards and economic growth amidst a growing urban population. so far, and greater than the number of facilities used to inform the
+Many previous emission measurement efforts have generally current guidelines of the IPCC (14 and 30 facilities for CH and NO,
+4 2
+targeted individual processes at single WRRFs, offering insight into respectively)27. Moreover, the number of facilities sampled is greater
+process-level variations, such as temperature, pH, dissolved oxygen than the number considered in two recent review papers on CH (ref. 9)
+4
+concentrations, biochemical reactions, flow variability, and their and NO (ref. 23), which explored literature data on 101 and 51 facilities,
+2
+relationship with gaseous emissions15–18, as well as highlighting the respectively. Finally, only two previous studies4,28 have investigated
+importance of seasonal and diurnal variabilities in quantifying a facil- facility-integrated emissions of NH, and therefore this work markedly
+3
+ity’s footprint18,19. Such targeted sampling, however, often neglects expands the available dataset. In summary, this study provides the most
+unknown and/or fugitive emissions throughout the plant, leading to comprehensive dataset so far in terms of the number of facilities and
+potential biases in facility-integrated emissions estimates20,21. There- temporal scales spanned.
+fore, more recent studies used tracer-release methods20,22, for instance,
+to capture these facility-integrated emissions. These methods, how- Quantifying emissions and emission factors
+ever, require many human hours and on-site access, making its scal- The measured emission rates (ERs) from the 96 successfully sampled
+ability unfeasible. WRRFs exhibited high variability and skewness, ranging over several
+Given the impact of environmental factors and operational orders of magnitude independent of the gas that was considered (Fig. 1).
+conditions on the formation and emission of these gases during the For instance, facility-averaged CH ERs ranged from 0.02 to 224 gCH s−1
+4 4
+wastewater treatment process9,23, we have developed a mobile-based (1.7 × 10−3 to 19.4 tCH d−1), while NO emissions spanned from 0.002 to
+4 2
+measurement platform to capture a representative sample of CH, 28 gNO s−1 (1.7 × 10−4 to 2.4 tNO d−1) and NH emissions varied from
+4 2 2 3
+NO and NH emissions from WRRFs. When used in combination with 0.002 to 33 gNH s−1 (1.7 × 10−4 to 2.9 tNH d−1). Large site-to-site variabil-
+2 3 3 3
+inverse Gaussian plume dispersion methods and Bayesian inference, ity with respect to influent flow rate, influent nutrient concentration,
+this method can efficiently quantify facility-integrated emissions and treatment type and so on, contributes to these orders of magnitude
+their associated uncertainties8. Compared with other monitoring tech- ranges for each gas.
+niques, such as off-gas and chamber measurements, this mobile-based Facility-averaged ERs tended to scale with the respective influent
+approach incorporates, indiscriminately, emissions from all sources in nutrient loading (BOD for CH and TN for NO and NH), suggesting
+5 4 2 3
+a facility. Furthermore, the efficiency and adaptability of this method that the current normalization of emissions by the respective loading
+allowed us to examine a wide range of WRRFs that differ in size, geo- data is valid. However, for a given loading, the measured emissions still
+graphic location and treatment process across various diurnal and varied by more than two orders of magnitude in some cases, highlight-
+seasonal timescales. ing the degree of site-to-site variability. The WRRFs were categorized
+Although these measurements are, individually, a snapshot of according to their secondary treatment type (Supplementary Informa-
+emissions in time, statistics across a large sample converge on the tion, section 2). However, due to the small sample size for each type,
+population mean. As such, this method has allowed us to build sta- as well as the uncertainty of what treatment was actually occurring at
+tistically robust estimates of CH, NO and NH emissions from the each facility, we cannot conclude any significant relationship between
+4 2 3
+US wastewater treatment sector for the first time. While wastewater treatment process and measured emissions.
+treatment is an important source of CO, mainly through indirect To translate measured ERs into EFs, we developed a database
+2
+emissions from energy consumption, direct emissions of CO were not of influent characteristics for each sampled facility using a tiered
+2
+quantified in this study due to contamination from on-road sources. approach in which the relevant data were obtained sequentially from
+While traditional WRRFs have focused on removing carbon, nitrogen discharge monitoring reports, open records requests, custom survey
+and other contaminants from wastewater, many are in the process of responses, facility websites, state databases and the US EPA Clean
+transformation to also recover energy and resources with the goal of Water Needs Surveys (CWNS) (Supplementary Information, section 2).
+achieving a net-zero emission, circular water economy. Therefore, Through this approach, we obtained site-specific BOD and TN data
+5
+more robust inventories of GHG and NH emissions could be used for 76 and 22 of the 96 successfully quantified WRRFs, respectively,
+3
+to help develop effective mitigation policies towards realizing these for each observational period. To quantify the EFs from the remain-
+sustainability goals. ing sites (that is, those without known loading data), where only
+Nature Water | Volume 3 | October 2025 | 1114–1124 1115
+
+--- Page 3 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+a Secondary treatment b
+A2O OD Step feed
+101 A CA AS S O RBth Cer/unknown T Ur Sic Gkling filter 100
+MBR SBR
+)1−d No AD )1−d
+AD
+HCt( 43 100 O2 10–1
+Nt(
+etar etar
+noissimE)1−d 10–1 noissimEseitilicaf 10–2
+Flow (MGD)
+10–2 0.1 10–3
+1
+10
+100
+10–1 100 101 102 10–2 10–1 100 101
+Influent BOD 5 (t d−1) Influent TN (t d−1)
+c d n = 47
+No AD
+100 AD
+40
+HNt( 10–1 30
+etar fo
+n = 22
+rebmuN
+noissimE 10–2 20
+n = 10
+10 n = 8 n = 9
+10–3 n = 6 n = 6
+n = 4 n = 4 n = 4
+n = 2
+n = 1 n = 1 n = 1
+0
+10–2 10 In–1 d1 −0 1)0 101 A 2 O A A S C A S M B R O D R B C S B StR e p rf ie ce kld in g filter U S G U nkn o w n
+fluent TN (t T
+Fig. 1 | Facility-averaged measured emissions. a–c, ERs of CH (n = 94; a), NO that treats solids using AD. A2O, anaerobic/anoxic/oxic; AAS, advanced activated
+4 2
+(n = 86; b) and NH (n = 80; c) as functions of influent BOD loading for for CH sludge; CAS, conventional activated sludge; MBR, membrane bioreactor; OD,
+3 5 4
+and TN loading for NO and NH. d, The number of successfully sampled facilities oxidation ditch; RBC, rotating biological contactor; SBR, sequencing batch
+2 3
+(n = 96) categorized by secondary treatment type, along with the subset of each reactor; USG, unspecified suspended growth.
+BOD data were available, a ratio-based approach was used, and Such variability was also observed in previous studies in which
+5
+where neither BOD nor TN data were available, default values of several facilities were measured. For instance, Ahn et al.17 observed NO
+5 2
+200 mgBOD l−1 and 35 mgTN l−1 were assumed. No sites with only TN EFs ranging from 1 × 10−4 to 1.8 × 10−2 gNO g−1 total Kjeldahl nitrogen
+5 2
+data were sampled. across 12 US WRRFs, whereas Delre et al.30 measured EFs from <1 × 10−3
+Compared with previous measurement studies, this is the largest to 5.2 × 10−2 gNO gTN−1 and 1.6 × 10−4 to 9.1 × 10−2 gCH g−1 chemical
+2 4
+single dataset (n = 96) of measured EFs from WRRFs. The mean (mini- oxygen demand from five Scandinavian WRRFs. This largely unexplain-
+mum, 25th, 50th, 75th percentiles, maximum) facility-averaged EFs able range of EFs creates a major challenge in generalizing measured
+were 0.067 (0.0005, 0.012, 0.034, 0.089, 0.54) gCH gBOD−1 (n = 94), emissions to larger-scale applications, such as inventory generation.
+4 5
+0.052 (0.0001, 0.003, 0.009, 0.036, 1.8) gNO gTN−1 (n = 86) and 0.021 Finally, the measured NH EFs were in general agreement with
+2 3
+(0.0001, 0.001, 0.003, 0.007, 0.69) gNH gTN−1 (n = 80). The mean those reported in the two only other known studies of full-scale WRRF
+3
+EFs of CH and NO are 3.7 and 2.1 times greater than the default IPCC measurements (9 × 10−4 gNH gTN−1 (ref. 4), 3 × 10−3 gNH gTN−1 (ref. 28),
+4 2 3 3
+EFs of 0.018 gCH gBOD−1 (centralized aerobic, excluding anaerobic assuming 4,750 gTN PE−1 yr−1). Samuelsson et al.4 found that the primary
+4 5
+digestion and discharge) and 0.025 gNO gTN−1 (centralized aerobic source of NH emissions at the single measured facility was from sludge
+2 3
+treatment, excluding discharge), respectively27. As has been observed treatment, a process that can vary widely between facilities, from dewa-
+in previous studies9,18,29, anaerobic digestion (AD) can lead to drastically tering and off-site disposal to on-site composting and/or digestion. The
+increased CH emissions at a given facility, so comparison with this relationship between solids treatment and NH emissions may partially
+4 3
+default IPCC value must be taken in that context. The resulting EFs were explain the wide range of measured NH EFs reported here.
+3
+highly variable for each of the three gases and their respective distribu- Previous work has shown that facilities with AD are responsible for
+tions exhibited high skewness, each with a few facilities that exhibited around 72% of US sector-wide CH emissions, despite treating only 55%
+4
+large emissions relative to the nutrients treated. For instance, the mean of US wastewater9. As has been noted in previous studies, significant
+NO EF (0.052 gNO gTN−1) was fivefold greater than the median NO EF CH emissions come from leaks in digesters and incomplete biogas
+2 2 2 4
+(0.009 gNO gTN−1). Among this high variability, no definitive relation- burning29,31. To understand the extent of CH emissions from WRRFs
+2 4
+ship could be established between EFs and secondary treatment type with and without AD, we investigated facilities that exclusively use
+(Supplementary Information, section 3), in large part due to the small conventional activated sludge (CAS) as their secondary biological treat-
+sample size and uncertainty in facility treatment processes. ment process to minimize the influence of other treatment differences
+Nature Water | Volume 3 | October 2025 | 1114–1124 1116
+
+--- Page 4 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+a b
+0.06
+2022 EPA inventory
+Measurement-informed 0.06
+2022 inventory
+0.05
+0.05
+0.04
+ytilibaborP)2–01×(ytilibaborP ytilibaborPytilibaborP 0.04
+0.03
+0.03
+0.02
+0.02
+0.01 0.01
+0 0
+0 10 20 30 40 0 10 20 30 40 50 60 70
+US domestic wastewater US domestic wastewater
+treatment emissions of CH (MtCOe yr−1 ) treatment emissions of NO (MtCOe yr−1 )
+4 2 2 2
+c d
+2.5 0.020
+2.0
+0.015
+1.5
+0.010
+1.0
+0.005
+0.5
+0 0
+0 50 100 150 200 250 0 20 40 60 80
+US domestic wastewater US domestic wastewater treatment
+treatment emissions of NH (ktNH yr−1 ) direct emissions of GHGs (MtCOe yr−1 )
+3 3 2
+Fig. 2 | Updated inventory of US wastewater emissions. a–c, Probability density means and 95% CIs from the US EPA inventory for 202210, respectively, and the
+functions (PDFs) of US sector-wide domestic wastewater treatment emissions orange lines and shaded regions depict the means of the updated, measurement-
+of CH (a), NO (b) and NH (c). d, PDF of combined direct GHG emissions of CH informed inventory and associated 95% CIs, respectively.
+4 2 3 4
+and NO. The dashed black lines and grey shaded regions in a, b and d depict the
+2
+on the observed variability of CH. Facilities using only CAS were chosen 305 observational periods). Compared with the previous estimate, our
+4
+as a case study because they are the most abundant both in our study results exhibit a greater skewness due to the incorporation of several
+(Fig. 1d) and across the USA. In total, we successfully quantified CH large (>10 MGD) facilities with high EFs, which increased the overall
+4
+EFs from 47 CAS facilities, 37 of which we could assign to a specific sector-wide total.
+solids treatment process (Supplementary Information, section 2). Of Similarly, sector-wide emissions of N O (Fig. 2b) are
+2
+these, we found that facilities with AD (n = 22) had a mean CH EF of 31.5 MtCOe yr−1 (95% CI: 20.3–41.7 MtCOe yr−1), 1.9 times greater than
+4 2 2
+0.071 gCH gBOD−1, while facilities with other known solids treatment the US EPA inventory of domestic wastewater emissions, excluding
+4 5
+(n = 15) had a mean EF of 0.028 gCH gBOD−1 (Supplementary Fig. 5). effluent emissions (16.2 MtCOe yr−1), although within the 95% CI of
+4 5 2
+Thus, facilities with AD emit 2.5 times more CH relative to waste treated 9.9–47.2 MtCOe yr−1. By contrast, Song et al.26 found NO emissions to
+4 2 2
+than those without AD (two-tailed Mann–Whitney U test, p = 0.03). be 11.6 MtCOe yr−1 (or 75% of the current US EPA value) using a data min-
+2
+ing and statistical upscaling technique. In addition, the results of Song
+Updated US emissions inventory et al.26 did not include emissions from side-stream treatment, which
+We scaled our measurements to the sector using a statistical may contribute significantly to the emissions measured at individual
+approach to incorporate uncertainty from all variables (Fig. 2). The facilities. The present study provides the largest and most compre-
+measurement-informed CH emissions inventory (Fig. 2a) for the US hensive dataset of measured emissions from wastewater facilities,
+4
+domestic wastewater sector is 17.9 MtCOe yr−1 (95% confidence interval highlighting the high site-to-site variability in EFs that lead to a heavily
+2
+(CI): 14.2–21.9 MtCOe yr−1), which is around 2.4 times greater than the skewed probability distribution, yet more emissions data are needed
+2
+US EPA inventory for domestic wastewater emissions, excluding septic to precisely quantify sector-wide emissions in the USA. Finally, the
+systems (7.6 MtCO yr−1)10. The EPA inventory was created following combined climate effect of CH and NO lead to direct GHG emissions
+2 4 2
+IPCC guidelines, which were developed primarily from non-US WRRFs of 49.8 MtCOe yr−1 (95% CI: 36.3–65.5 MtCOe yr−1; Fig. 2d), dominated
+2 2
+and thus may not be representative of US facilities. In addition, the by NO emissions, similar to the findings of Parravicini et al.32.
+2
+updated inventory reported here is 64% greater than that of Song et al.9 NH emissions from the US domestic wastewater sector (Fig. 2c)
+3
+and 38% greater than that of Moore et al.8 (after correcting for the use are 86 ktNH yr−1 (95% CI: 28–143 ktNH yr−1). Because only 12 of the 80
+3 3
+of different GWP ), which analysed only a subset (63 facilities and 95 successfully measured WRRFs exhibited detectable NH emissions, a
+100 3
+observational periods) of the dataset presented here (94 facilities and statistical approach was used to assess values below the detection limit,
+Nature Water | Volume 3 | October 2025 | 1114–1124 1117
+
+--- Page 5 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+Carbon footprint (COe) = 28 × Q + 265 Q
+a b 2 CH4 N2O
+1.0
+101
+Secondary treatment Top 10% emitter
+A2O OD Step feed
+AAS Other/unknown Trickling filter
+CAS RBC USG dna 0.8
+100 MBR SBR The top 9 (11%) of emitters are responsible for 74%
+wolf
+No AD of the total footprint
+)1–NTg AD tnirptoof
+evitalumuc
+10–1 0.6
+The top 9 (11%) of facilities, by flow, are responsible
+ONg( for 62% of the measured flow
+22 nobrac
+FE 10–2 fo 0.4
+ON noitcarF
+Flow (MGD)
+10–3 0.1 0.2
+1
+Flow
+10
+Carbon footprint
+10–4 100 0
+10–4 10–3 10–2 10–1 100 0 0.2 0.4 0.6 0.8 1.0
+CH EF (gCH gBOD–1) Percentile of plants
+4 4 5
+Fig. 3 | Outsized contribution of top emitters. a, Comparison of the EFs b, Cumulative distribution of the carbon footprint and flow across the measured
+(n = 84) of NO and CH, as normalized by influent TN and BOD, respectively. The sites. The vertical dashed black line depicts the top 9 (10.7%) plants, and the
+2 4 5
+secondary treatment process and average flow rate of each facility are depicted, horizontal blue and orange dashed lines represent the cumulative fraction of
+as well as those with and without AD. The top 10% of emitters (n = 9) are denoted flow and carbon footprint contributed by the top 9 (10.7%) plants, respectively.
+by ×. The horizontal and vertical dashed lines represent the 75th percentiles of The carbon footprint is defined as the GWP of each gas (28 for CH and 265 for
+4
+the N 2O (0.036 gN 2O gTN−1) and CH (0.089 gCH gBOD 5−1) EFs, respectively. N 2O) multiplied by the ER of that gas (QCH4 and QN2O).
+4 4
+defined for each transect using the measured mole fraction variability influent nutrient content, the wide range of EFs for each of the sam-
+(see Methods). A sensitivity study (Supplementary Information, sec- pled treatment categories suggest that there are other driving factors
+tion 4) showed that, by instead assuming that all emissions below the (Supplementary Figs. 2–4).
+detection limit were precisely 0 gNH s−1, sector-wide NH emissions The top 50% of facilities are responsible for more than 98% of the
+3 3
+were only marginally different (73 ktNH yr−1, 95% CI: 28–137 ktNH yr−1). measured carbon footprint. Therefore, because of the general correla-
+3 3
+The skewed distribution of EFs drives the uncertainty of the estimate. tion between emissions and treatment capacity, mitigation efforts are
+Although very few measurements of NH emissions have been con- best focused on larger facilities, which should also have more resources
+3
+ducted at the plant scale, our estimate is more than two orders of for such practices. For example, the nine largest facilities, which col-
+magnitude greater than current EPA estimates (<1 ktNH yr−1) and the lectively treat 175 ktBOD yr−1 and 31 ktTN yr−1, together average EFs of
+3 5
+same order of magnitude as on-road non-diesel light-duty vehicle 0.17 gCH gBOD−1 and 0.30 gNO gTN−1. If the EFs from these facilities
+4 5 2
+emissions (77 ktNH yr−1)33. Thus, wastewater treatment may be an were mitigated to equal the median EFs (that is, 0.034 gCH gBOD−1 and
+3 4 5
+underestimated and overlooked NH source in urban regions, where 0.009 gNO gTN−1), the apparent emissions avoided would equate to
+3 2
+reactions with co-located sulfur oxides and nitrogen oxides create 23.8 ktCH yr−1and 9 ktNO yr−1 (3.1 MtCOe yr−1 combined). Nonethe-
+4 2 2
+particulates and degrade air quality. less, by ignoring the top nine emitters and scaling the emissions of
+In all three cases, the measurement-derived emissions are greater the remaining facilities to the national sector-wide total as above, the
+than the current inventories. In part, this is due to the plant-integrated results from a sensitivity study maintain that current inventories are
+measurement approach, which captures all emissions regardless of still underestimated for all three gases (Supplementary Information,
+knowledge of source location. For example, while aeration tanks should section 5).
+not produce CH, poor aeration may create anaerobic conditions that Finally, we identified super-emitter facilities, here defined as
+4
+lead to CH production and emission. The extent to which unintended those that emit more than the 75th percentile in both CH per influ-
+4 4
+or unrecognized emissions contribute to our greater measured emis- ent BOD (0.089 gCH gBOD−1) and NO emissions per TN treated
+5 4 5 2
+sions compared with the inventories is unclear. (0.036 gNO gTN−1; Supplementary Information, section 5). These
+2
+We investigated the notion of super-emitters by calculating the facilities contribute a large and disproportionate amount to the sec-
+carbon footprint of each facility using the measured CH and NO emis- tor’s carbon footprint, especially when such high EFs are associated
+4 2
+sions (n = 84). The carbon footprint is defined as the GWP -weighted with large volumes of treated waste, and are therefore high priority
+100
+summation of CH and NO emissions in CO equivalents. When com- with regards to the mitigation of sector-wide emissions. It is likely that
+4 2 2
+paring the facility-level EFs of both gases, facilities with greater CH high-throughput facilities, owing to their greater resources, may use
+4
+EFs tended to exhibit greater NO EFs (Fig. 3a). Because CH and NO certain treatment processes that contribute to greater nutrient removal
+2 4 2
+follow different formation pathways, this suggests that inefficiencies and possibly greater associated emissions.
+at individual facilities are generally not isolated to individual processes.
+The cumulative distribution of the carbon footprint across the Discussion and conclusions
+measured sites (Fig. 3b) reveals that the top 11% of facilities (n = 9) As global populations grow and become more urbanized, demand
+contribute to 74% of the total measured carbon footprint. This is for centralized wastewater treatment will increase. The removal of
+more skewed than the distribution of facilities by flow, which shows organics and nitrogen from the wastewater stream is necessary to meet
+that the top 11% of facilities treat only 62% of the measured flow. Each water quality standards and improve living standards throughout the
+of these nine facilities used AD and the secondary treatments were world. However, CH, NO and NH are formed and/or released during
+4 2 3
+CAS, anaerobic/anoxic/oxic and step feed. While the treatment pro- the wastewater treatment process in varying amounts, depending on
+cess used may contribute to these increased emissions relative to a myriad of factors that remain unclear. In other words, environmental
+Nature Water | Volume 3 | October 2025 | 1114–1124 1118
+
+--- Page 6 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+Table 1 | Contribution of domestic wastewater treatment a
+emissions to national US emissions 700
+SSP
+1
+Gas Total EPA-estimated EPA-estimated This study This study 600 2
+domestic domestic domestic domestic domestic
+)1−ry 3
+emissions WRRF WRRF WRRF WRRF FRRW
+(kt) emissions emissions emissions emissions e2 500 4
+(kt) (%) (kt) (%)e OCtM( 5
+launna
+CH 25,084a 270a 1.1 639 2.5 400
+4 snoissimestegrat
+NO 1,471a 61a,c 4.1 119 8.1 labolGsnoissime
+2 300
+NH 5,482b <1d <0.1d 87 1.6
+3
+aObtained from ref. 10. bObtained from US EPA National Emissions Inventory (NEI; accessed 26 200
+July 2023 at https://www.epa.gov/air-emissions-inventories/2020-nei-supporting-data-and-
+summaries). cExcludes emissions from wastewater effluent and septic systems. dCentralized
+wastewater is not reported as a separate category in the NEI database, so we used an EF of 100
+0.169 lbNH3 per million gallons, taken from the NEI documentation33 in table II-5 of ref. 50,
+2020 2030 2040 2050 2060 2070 2080 2090 2100
+assuming 34,000 MGD (1.24 × 1013 gallons yr−1)24. eAssuming that the national emission estimate
+Year
+is correct and that the sector allocation is incorrect.
+b
+efforts are currently focused on local effects, largely neglecting the
+6
+emissions of long-lived gases (CH and NO) that contribute to detri-
+4 2
+mental global effects. If our results are representative, domestic WRRFs
+5
+alone are responsible for 2.5%, 8.1% and 1.6% of total CH, NO and NH
+4 2 3
+emissions in the USA, respectively (currently reported as 1.1%, 4.1% dna
+4
+and <1%; Table 1). fo segdelp
+Our US NO emissions estimates are greater than those of the egatnecreP
+2 3
+US EPA, in the opposite direction of the findings of Song et al.26, who
+categorized and analysed measurements from existing literature. In rednu 2
+addition to the inclusion here of all processes within the footprint
+of each sampled facility, a potential explanation for this may be that 1
+most measurement studies examine select components at facilities
+and probably do not capture unintended or unexpected sources from
+inefficient operational components elsewhere. For example, Yver Kwok 2030 2065 2100
+Year
+et al.20 measured component-level CH emissions totalling only around
+4
+8% of the total emissions measured using off-site methods; a similar Fig. 4 | Increasing contribution of wastewater to global emissions. a,
+aggregation of component-level emissions studies has been shown to Projections of direct CH 4 and N 2O emissions from global centralized wastewater
+underestimate emissions from the oil and gas sector34. There may also treatment under the five shared SSPs as defined by the IPCC. The lines represent
+expected values and the shaded areas denote 95% CIs. b, Proportion of projected
+be reasons for the optimal operation of the examined components
+global emissions direct from centralized wastewater treatment under the
+during the time of measurement as they are the focus of a monitoring
+five SSPs, considering a scenario of future pledges and international targets
+study, and studies requiring on-site permission may be biased towards
+(Supplementary Information, section 7). The bars span the 95% CIs of a Monte
+those facilities with better operations and management. Similar opera-
+Carlo simulation and the colours correspondto the legend in a (Supplementary
+tional biases have been observed in measured emissions from oil and
+Information, section 7).
+gas operations35.
+NO emissions from wastewater treatment are increasing both in
+2
+the USA (15% per decade)10 and globally (9% per decade)36, especially (Supplementary Information, section 7). This contrasts with current
+in the context of increasing implementation of biological nitrogen global efforts (for example, the European Union Urban Wastewater
+removal by more facilities, while CH emission trends are more com- Treatment Directive and China’s 14th Five-Year Plan) to decarbonize
+4
+plicated, in part due to the transition from decentralized to centralized the wastewater treatment sector. While we caution that only US WRRFs
+treatments. When coupled with increases in renewable energies, direct were considered in this global analysis and future work is needed to
+GHG emissions from the wastewater sector will become even more examine the representativeness of these results in the context of WRRFs
+important in the net-zero plans of cities. For instance, we estimate globally, we acknowledge that the IPCC-based methodologies are par-
+that the relative contribution of wastewater treatment to New York ticularly suspect, given their extrapolation of data from only 14 and 30
+City’s overall emissions will increase fivefold by 2050 (1.3% to 7%) using facilities for CH and NO, respectively.
+4 2
+reported projections of population and GHG emissions and recalculat- The information available at the facility level is insufficient to
+ing WRRF contributions based on our measurements (Supplementary explain the observed site-to-site and day-to-day variability in emis-
+Information, section 6). sions from the sampled WRRFs. Therefore, we stress the need for more
+According to recent estimates, 48% of wastewater produced glob- frequent and widespread monitoring efforts, similar to the ongoing
+ally is released into the environment untreated37. In addition to calls work in the oil and gas sector in the USA40, including intensive chemi-
+to decrease the amount of untreated wastewater to mitigate GHG cal analyses, that can lead to widespread reporting of facility-level
+emissions38,39, significant population growth is likely, especially in cit- emissions and overall transparency. Furthermore, information on the
+ies, leading to more centralized wastewater treatment. If our results studied WRRFs at the process level comes, in large part, from the CWNS
+are representative of global facilities and future treatment, we project 2004 and is only partially updated up to 2012 (Supplementary Infor-
+that the expansion of wastewater treatment and the resulting CH and mation, section 2). To make sense of the measured emissions and to
+4
+NO emissions will increase its relative contribution to global GHG recommend treatment processes, it is critical that expanded and more
+2
+emissions 2- to 17-fold by 2100 (Fig. 4), depending on the shared socio- detailed reporting be done on, for instance, specific water and solids
+economic pathway (SSP) and global emissions reduction scenarios treatment processes, the type of waste treated and nutrient removal.
+Nature Water | Volume 3 | October 2025 | 1114–1124 1119
+
+--- Page 7 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+Finally, the emissions measured in this study originate almost 4. Upon modelling the plume with the associated mete-
+exclusively within the footprint of the facility and do not include emis- orological parameters (see below), measurements
+sions associated with effluent downstream in receiving waters (for extended cross-wind-wise beyond 10% of the maximum
+example, from biogeochemical processes and outgassing of dissolved modelled enhancement on both sides of the plume centre
+gases, off-site sludge processing). Therefore, while greater nutrient (Supplementary Fig. 20).
+removal may lead to increased emissions at individual WRRFs, lon-
+gitudinal and life cycle analyses are needed to fully investigate the In addition to these quality control steps, due to instrument avail-
+differences in overall emissions relative to input nutrients. It is crucial ability or failure, not all gases were measured during each observational
+to investigate the relationship between wastewater nutrient removal period. Overall, we sampled 109 sites, with 96 sites passing quality
+and air emissions to determine environmentally sustainable treatment control measures, deeming them ‘successfully sampled’ as we were
+processes that are mutually beneficial for both air and water. able to quantify their emissions. Out of the 96 successfully sampled
+sites, we quantified emissions of CH, NO and NH from 94, 86 and 80
+4 2 3
+Methods WRRFs, respectively, after quality control was applied.
+Mobile measurements Measured enhancements (that is, mole fractions above the fifth
+The mobile laboratory used in this study consisted of high-frequency percentile background), in addition to in situ measurements and
+and high-sensitivity sensors to measure the mole fractions of various meteorological reanalysis data from each observational period, were
+trace gases in the atmosphere, mounted about 2 m above ground level used to quantify emissions and their associated uncertainties using
+on top of an electric vehicle to prevent self-sampling of any possible a plume-integrated inverse Gaussian plume technique with Bayesian
+emissions from the vehicle itself (for example, tyres, fluids or occupant source rate inference8,48,49. Specifically, the Gaussian plume dispersion
+breath). Accompanying meteorological measurements were captured model was used to predict mole fractions along the measurement path:
+at a height of about 3 m. Under normal operation, the mobile laboratory
+consisted of the following instruments and the associated measure- Q y2 (z−h)2 (z+h)2
+C(x,y,z)= exp(− )×[exp(− )+exp(− )]
+ments were collected: 2πσyσzū 2σy2 2σz2 2σz2
+• Airmar WX200: air temperature, wind speed and direction, and
+where the concentration, C, at a point in space, (x, y, z), is a function of
+ambient pressure, 1 Hz
+• LI-COR LI7700: CH mole fraction41, 10 Hz the ER, Q, the mean wind speed, ū, at a height of 2 m, stability param-
+4 eters in the horizontal and vertical directions, σ and σ, respectively,
+• LI-COR LI7500: CO and water vapour mole fractions, 10 Hz y z
+• Custom open-path 2 quantum cascade laser (QCL) based sensor42: and the source height, h, taken to be equal to 2 m.
+Both the measured and modelled concentrations were integrated
+NO and carbon monoxide (CO) mole fractions, 10 Hz
+• Cu2 stom open-path QCL-based sensor43: NH mole fraction, 10 Hz along the path to minimize the impact of atmospheric dispersion
+3 variability in the horizontal direction. The measured and modelled
+For the two custom open-path QCL-based sensors, spectroscopic concentrations across a wide range of possible ERs were used as inputs
+effects related to fluctuations in air temperature were corrected dur- to a Bayesian framework, following Bayes’ theorem:
+ing pre-processing following Pan et al.44. For the LI7700 device, these
+p(C|Q,m′)p0(Q|m′)
+effects were corrected in real-time by the instrument, as detailed in p(Q|C,m′)=
+p(C|m′)
+Burba et al.45.
+where p(Q|C,m′) is the posterior PDF for the ER, Q, based on the infor-
+Emissions quantification mation contained in the measured concentrations, C, given other
+A complete discussion of the method used to quantify facility-integrated model parameters, m′. p(C|Q,m′) is the likelihood function, p0(Q|m′)
+emissions from high-frequency mobile-based measurements can be is the prior distribution of model parameters and the denominator,
+found in ref. 8, a summary of which is provided here. This method has p(C|m′), is the evidence function and simply ensures that the posterior
+been validated over multiple controlled release experiments8 and PDF, p(Q|C,m′), integrates to unity.
+is similar to the plume-integrated approach used by Caulton et al.46, We used an adapted Gaussian form of the likelihood function that
+which was validated using a large eddy simulation47. includes consideration of the detection limit:
+Following Moore et al.8 (section 2.1 and supplementary infor-
+exp[−αc∗y(Q)], cy<cy
+mation section 1 of ref. 8), sampling paths were chosen based on the
+⎧ j j th,j
+⎪
+a suva ci hla tb hi ali tt y c oo mf p pu lb etli ec pro lua mds e a ts r aw ve el rl sa as l f wor ae sc ea nst s uan red d a . c Tt hu ea l b lo acc ka gl w roin ud ns d, p(C|Q,m′) j= ⎨ ⎪1−exp[−αc∗ jy(Q)] exp{−1 [cy j−c∗ jy(Q) ]2 },else
+concentrations of the observational periods are defined as the fifth ⎩ √2πσe 2 σe
+percentile of the measured mole fractions.
+The following quality control steps were taken to ensure that indi- This takes an exponential form if the measured integrated con-
+vidual transects were adequate for source rate inference for a given gas: centration for the jth transect, cy, is less than the threshold concentra-
+j
+tion, cy , calculated as integrated noise equal to three times the
+th,j
+1. Transects passed a visual inspection for signals from sources background variability in the measured mole fraction, and the Gaussian
+that were not the focus of the current study, such as roadside form otherwise. In other words, where cy<cy , the likelihood function
+j th,j
+or underground natural gas leaks, but that might cause narrow takes the exponential form with a high probability of a low, but non-zero
+but high-magnitude spikes in CH (supplementary information ER. c∗y(Q) is the cross-wind integration of the modelled mole fraction
+4
+j
+section 3 in ref. 8). assuming a given value of Q. σ is the noise power and is discussed below.
+e
+2. Transects had plume widths of at least 1 s of consecutive meas- Here, α encompasses the probability of detection (POD) and is given
+urements (that is, 10 data points at 10 Hz) above background by the equation:
+levels, as defined by the fifth percentile mole fraction during the
+1
+given observational period. αj= cy ln(β)
+3. Transects consisted of <20% of ‘not a number’ (NaN) values, th,j
+assigned during the screening process (supplementary where β is the inverse of the POD. The primary difference between the
+information section 3 in ref. 8). emission calculation presented here and that used by Moore et al.8 is
+Nature Water | Volume 3 | October 2025 | 1114–1124 1120
+
+--- Page 8 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+Table 2 | Contribution of WRRF size categories as a proportion of the whole of the US sector
+WRRF size Percentage of US Percentage of US facilities Percentage of sector CH Percentage of sector NO Percentage of sector NH
+4 2 3
+wastewater treateda by numbera emissions emissions emissions
+Small (<1 MGD) 11 80 17 15 27
+Medium 27 17 23 23 21
+(1–10 MGD)
+Large (>10 MGD) 63 3 60 63 52
+Note that percentages may not sum to 100, based on rounding. aObtained from the US EPA (https://www.epa.gov/emergency-response-research/water-security; accessed 15 November 2023).
+that previously, a POD of 50% (that is, β = 2) was used for the estimated measurable emissions of CH and NH, and 8 had measurable emissions
+4 3
+detection limit for each observational period (supplementary informa- of all 3 gases. In addition, the median duration of all observational
+tion section 6 in ref. 8). For this study, we adopted a 25% POD (that is, periods was 38 min, including time spent measuring wind. The mean
+β = 4) at the estimated detection limit, Q , defined as: (standard deviation) duration was 46 (29) min, with a maximum dura-
+th,j
+tion of 251 min.
+Qth,j=Q{argmin[c ty h,j−cj∗y(Q)]}
+Facility-level data acquisition
+which selects the candidate ER, Q, with the integrated model con- Publicly available data for influent flows and organic/nitrogen loading
+centration closest to the threshold concentration. for individual facilities are limited. These data are critical to accurately
+The adoption of a 25% POD results in slightly decreased estimated report EFs and further contextualize measured emissions. Therefore,
+ERs for measurements at or below the detection limit. Specifically, a we took a tiered approach to quantify facility flow rates and nutrient
+sensitivity analysis of CH emissions revealed that the average relative loading specific to the sampling date, through which we obtained the
+4
+difference for facilities emitting less than 0.1 gCH s−1 was around 40% relevant data sequentially through discharge monitoring reports, open
+4
+(50% POD greater than 25% POD), and the effect quickly dropped off records requests and surveys, facility websites, state databases and
+with increasing emissions, with facilities emitting less than 10 gCH s−1 the US EPA CWNS. Similarly, even basic information on the treatment
+4
+exhibiting a relative difference of 10% and those emitting more than processes used by WRRFs is seldom available to the public. Thus, a
+10 gCH s−1 exhibiting a 7% difference. Although the overall results of similar tiered approach was used to categorize the secondary waste-
+4
+this study were not significantly different using a 50% POD, our data water treatment and solids treatment for each sampled WRRF. These
+are better represented using a 25% POD as it yields ER estimations two approaches are described in detail in Supplementary Information,
+equal to or less than the detection limit (that is, when the exponential section 2.
+distribution is selected as the likelihood function).
+We assumed no knowledge of emissions before sampling and, as Facility-level to national-level scaling
+a result, took the initial prior PDF to be uniform. After the first transect, We used a novel probabilistic technique to scale the emissions of each
+the posterior PDF, p(Q|C,m′), from the previous transect was used as gas from the more than 3,000 individual transects to the entire US
+the prior in what is referred to as the updated prior method49: domestic wastewater treatment sector, treating each sampled faci-
+lity with equal weight. Note that this does not include the effects of
+p0(Q|m′) j={p p0 (Q(Q |C|m ,m′) ′U ), ,i ef lj se=1 d hi ou wrn ea vl o rr s ae sa pso ren sa el v na tr ei dab ii nli t Sy ( pSu pp lep mle em ne tn at ra yr y In fofo rr mm aa tt ii oo nn ,, s se ec ct ti io on 8 9);
+e , u In n ,
+j−1 accounting for these effects introduced greater uncertainty and altered
+our results by 1% and 6% for CH and NO, respectively. Figure 2a–c
+4 2
+where: shows the probability distributions of sector-wide emissions of CH,
+4
+NO and NH in the USA. For reference, in this figure, the CH and NO
+2 3 4 2
+={Qmax−1 Qmin,Q∈[Qmin,Qmax] e dm asi hss ei do n lis f eo sr w20 it2 h2 f hro m t %he U IsS E nP dA in av tee dn t bo yr y g1 r0 a yr e p hr ae ds ie nn gt .e Td a es b el a ac rek
+p0(Q|m′)U
+n t e 95 C i ic e s h s
+0, else
+compared with the mean scaled value for each gas along with the 95%
+CI from bootstrapping, presented as orange solid lines and orange
+The final posterior PDF was then used to calculate the ER and shaded regions, respectively. These distributions are positively skewed,
+uncertainty for that sampling period. Following Moore et al.8, we incor- which is unsurprising given the similar distributions of both the size of
+porated uncertainty related to (1) the choice of dispersion model, (2) US WRRFs and their respective EFs.
+atmospheric variability and (3) model assumptions into our analysis We scaled the measured ERs from individual observational periods
+via the noise power, σ (supplementary information section 5 in ref. 8). to a national-scale sector-wide emissions estimate as follows:
+e
+Where the average location of plume centres on left- and right-bound
+transects (relative to the source, looking downwind) were greater than 1. Beginning with the ER posterior PDFs resulting from the mobile
+10 m difference downwind of the source, σ was calculated individually measurement method discussed above and in ref. 8 to quantify
+e
+for ‘near’ and ‘far’ transects. Individual transects could exhibit high individual facility emissions for any given observational period,
+uncertainty, but with more data (that is, transects) used to inform the we produced EF PDFs for each observational period by using
+results, uncertainty was minimized. Thus, a target of ten transects was Monte Carlo sampling. The probability distributions for flow
+used as it was found, through a combination of measurements and rates and influent nutrient (BOD and TN) concentrations were
+5
+large eddy simulations, to be optimal in maximizing the efficiency of assumed to be of the Gaussian form with mean and standard
+the approach while minimizing uncertainty47. deviation, as specified in Supplementary Information, section
+Measurable emissions (that is, greater than the detection limit) of 2. For each observational period, we took 10,000 random sam-
+at least one species were detected from 82% of successfully sampled ples, with replacement, from these three PDFs to develop a PDF
+WRRFs (79 out of 96). Specifically, 31 WRRFs emitted only detect- of EFs for each observational period. Negative emissions were
+able CH, 38 had measurable emissions of both CH and NO, 2 had not considered, so all sampled values below zero were removed.
+4 4 2
+Nature Water | Volume 3 | October 2025 | 1114–1124 1121
+
+--- Page 9 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+2. We then developed facility EF PDFs by taking the average of Code availability
+all PDFs for each facility, weighting each observational period All software used for the current study are available from the corre-
+equally. sponding author upon reasonable request.
+3. Each facility was then categorized as small (<1 MGD), medium
+(1–10 MGD) or large (>10 MGD), as specified by the US EPA, and References
+10,000 random samples from the facility EF PDFs, with equal 1. Forster, P. et al. in Climate Change 2021: The Physical Science Basis
+weighting, were taken to produce a PDF representative of that (eds Masson-Delmotte, V. et al.) Ch. 7 (IPCC, Cambridge Univ.
+size category. Press, 2021).
+4. These size category EF PDFs were then multiplied by the 2. Prather, M. J., Holmes, C. D. & Hsu, J. Reactive greenhouse gas
+amount of wastewater treated by that category, according to scenarios: systematic exploration of uncertainties and the role of
+the US EPA. Specifically, small, medium and large facilities treat atmospheric chemistry. Geophys. Res. Lett. 39, 6–10 (2012).
+11%, 27% and 62% of the centralized domestic wastewater in 3. Prather, M. J. et al. Measuring and modeling the lifetime of
+the USA, respectively. By applying this binning approach, we nitrous oxide including its variability. J. Geophys. Res. Atmos. 120,
+are, in essence, weighting observed EFs by facility size to limit 5693–5705 (2015).
+the influence of high EF variability for smaller facilities given 4. Samuelsson, J. et al. Optical technologies applied alongside
+the outsized contribution of large facilities to the total waste on-site and remote approaches for climate gas emission
+treated. Furthermore, while Song et al.9 applied a similar scal- quantification at a wastewater treatment plant. Water Res. 131,
+ing approach, binning by treatment process and using Monte 299–309 (2018).
+Carlo sampling, insufficient data on sampled facility treatment 5. Gu, B. et al. Abating ammonia Is more cost-effective than nitrogen
+processes and the nature of facility-integrated emissions pre- oxides for mitigating PM air pollution. Science 374, 758–762
+2.5
+vented the use of that method. These percentages were multi- (2021).
+plied by the total organics (10,216 ktBOD yr−1) and nitrogen 6. Holtgrieve, G. W. et al. A coherent signature of anthropogenic
+5
+(2,560 ktTN yr−1) treated by centralized domestic WRRFs (84%). nitrogen deposition to remote watersheds of the Northern
+These values of BOD and TN were calculated from the data in Hemisphere. Science 334, 1545–1548 (2011).
+5
+tables 7–12 and equations 7–35 of ref. 10. The assumption of 7. Phoenix, G. K. et al. Impacts of atmospheric nitrogen deposition:
+84% of domestic wastewater treated centrally also comes from responses of multiple plant and soil parameters across
+chapter 7 of the same source. The resulting PDFs were taken to contrasting ecosystems in long-term field experiments. Glob.
+be the total annual emissions for each size category. Change Biol. 18, 1197–1215 (2012).
+5. Finally, these PDFs were summed to a PDF of total, sector-wide 8. Moore, D. P. et al. Underestimation of sector-wide methane
+emissions for each respective gas, as shown in Fig. 2. emissions from United States wastewater treatment. Environ. Sci.
+Technol. 57, 4082–4090 (2023).
+The sector-wide emissions reported in the main text were calcu- 9. Song, C. et al. Methane emissions from municipal wastewater
+lated as the mean of the total annual emissions calculated above. Finally, collection and treatment systems. Environ. Sci. Technol. 57,
+the 95% CIs reported in the main text were calculated using a bootstrap- 2248–2261 (2023).
+ping technique, recreating the sampling above, with replacement, and 10. US EPA. Inventory of US Greenhouse Gas Emissions and Sinks
+determining the spread of the computed means across 200 iterations 1990–2022 (2024).
+and reporting the 2.5 to 97.5 percentiles. Table 2 summarizes the fraction 11. Hwang, K. L., Bang, C. H. & Zoh, K. D. Characteristics of methane
+of US facilities and total wastewater flow by size category, as well as their and nitrous oxide emissions from the wastewater treatment plant.
+relative contribution to the sector-wide emissions of CH, NO and NH. Bioresour. Technol. 214, 881–884 (2016).
+4 2 3
+12. El-Fadel, M. & Massoud, M. Methane emissions from wastewater
+Statistics management. Environ. Pollut. 114, 177–185 (2001).
+The two-tailed Mann–Whitney U test was used throughout this study 13. Foley, J., de Haas, D., Yuan, Z. & Lant, P. Nitrous oxide generation
+to test for a significant difference between central tendencies of in full-scale biological nutrient removal wastewater treatment
+two distributions of independent samples. We used this test as it is plants. Water Res. 44, 831–844 (2010).
+non-parametric and is meant to handle non-normal (for example, 14. Masuda, S., Sano, I., Hojo, T., Li, Y. Y. & Nishimura, O. The
+heavily skewed), although similar distributions that exist throughout comparison of greenhouse gas emissions in sewage treatment
+the data. We used the scipy.stats mannwhitneyu function and reported plants with different treatment processes. Chemosphere 193,
+the resulting p values wherever noted in the manuscript. 581–590 (2018).
+15. Czepiel, P., Crill, P. & Harriss, R. Nitrous oxide emissions from
+Data availability municipal wastewater treatment. Environ. Sci. Technol. 29,
+Raw mobile measurements are not provided to maintain the anonymity 2352–2356 (1995).
+of individual sampled facilities. For each observational period, discrete 16. Czepiel, P. M., Crill, P. M. & Harriss, R. C. Methane emissions from
+probabilities across a range of emission rates, from which measured municipal wastewater treatment processes. Environ. Sci. Technol.
+emissions and uncertainties were inferred, are anonymized and avail- 27, 2472–2477 (1993).
+able at https://doi.org/10.34770/xjeq-c385. The average measured 17. Ahn, J. H. et al. NO emissions from activated sludge processes,
+2
+meteorological conditions and ERA5 reanalysis data necessary for the 2008–2009: results of a national monitoring survey in the United
+determination of atmospheric stability class and Gaussian plume dis- States. Environ. Sci. Technol. 44, 4505–4511 (2010).
+persion modelling are available at https://doi.org/10.34770/xjeq-c385. 18. Daelman, M. R. J., van Voorthuizen, E. M., van Dongen, U. G. J. M.,
+Facility discharge monitoring reports are available at https://echo.epa. Volcke, E. I. P. & van Loosdrecht, M. C. M. Methane emission
+gov/, ERA5 data are available at https://doi.org/10.24381/cds.adbb2d47, during municipal wastewater treatment. Water Res. 46,
+US EPA Clean Water Needs Survey data are available at https://www. 3657–3670 (2012).
+epa.gov/cwns, projected global GHG emissions are available at https:// 19. Daelman, M. R. J., van Voorthuizen, E. M., van Dongen, U. G. J. M.,
+climateactiontracker.org/global/temperatures/ and projected global Volcke, E. I. P. & van Loosdrecht, M. C. M. Seasonal and diurnal
+wastewater treatment data are available at https://doi.org/10.1016/j. variability of NO emissions from a full-scale municipal
+2
+jenvman.2023.118921. Source data are provided with this paper. wastewater treatment plant. Sci. Total Environ. 536, 1–11 (2015).
+Nature Water | Volume 3 | October 2025 | 1114–1124 1122
+
+--- Page 10 ---
+Article https://doi.org/10.1038/s44221-025-00490-z
+20. Yver Kwok, C. E. et al. Methane emission estimates using 38. Höglund-Isaksson, L., Gómez-Sanabria, A., Klimont, Z., Rafaj, P. &
+chamber and tracer release experiments for a municipal waste Schöpp, W. Technical potentials and costs for reducing global
+water treatment plant. Atmos. Meas. Tech. 8, 2853–2867 anthropogenic methane emissions in the 2050 timeframe—
+(2015). results from the gains model. Environ. Res. Commun. 2, 025004
+21. Gålfalk, M., Påledal, S. N., Sehlén, R. & Bastviken, D. Ground-based (2020).
+remote sensing of CH and NO fluxes from a wastewater 39. de Foy, B., Schauer, J. J., Lorente, A. & Borsdorff, T. Investigating
+4 2
+treatment plant and nearby biogas production with discoveries of high methane emissions from urban areas detected by TROPOMI
+unexpected sources. Environ. Res. 204, 111978 (2021). and their association with untreated wastewater. Environ. Res.
+22. Delre, A., Mønster, J., Samuelsson, J., Fredenslund, A. M. & Lett. 18, 044004 (2023).
+Scheutz, C. Emission quantification using the tracer gas 40. US EPA. Biden-Harris administration announces availability
+dispersion method: the influence of instrument, tracer gas of $350 million in grants to states to cut methane emissions
+species and source simulation. Sci. Total Environ. 634, 59–66 from oil and gas sector; https://www.epa.gov/newsreleases/
+(2018). biden-harris-administration-announces-availability-
+23. Vasilaki, V., Massara, T. M., Stanchev, P., Fatone, F. & Katsou, E. A 350-million-grants-states-cut (30 August 2023).
+decade of nitrous oxide (NO) monitoring in full-scale wastewater 41. McDermitt, D. et al. A new low-power, open-path instrument for
+2
+treatment processes: a critical review. Water Res. 161, 392–412 measuring methane flux by eddy covariance. Appl. Phys. B 102,
+(2019). 391–405 (2011).
+24. US EPA. Sources and Solutions: Wastewater; https://www.epa.gov/ 42. Tao, L., Sun, K., Miller, D. J., Khan, M. A. & Zondlo, M. A. Current
+nutrientpollution/sources-and-solutions-wastewater (accessed 12 and frequency modulation characteristics for continuous-wave
+November 2023). quantum cascade lasers at 906 μm. Opt. Lett. 37, 1358
+25. Daelman, M. R. J., De Baets, B., van Loosdrecht, M. C. M. & Volcke, (2012).
+E. I. P. Influence of sampling strategies on the estimated nitrous 43. Miller, D. J., Sun, K., Tao, L., Khan, M. A. & Zondlo, M. A. Open-path,
+oxide emission from wastewater treatment plants. Water Res. 47, quantum cascade-laser-based sensor for high-resolution
+3120–3130 (2013). atmospheric ammonia measurements. Atmos. Meas. Tech. 7,
+26. Song, C. et al. Oversimplification and misestimation of nitrous 81–93 (2014).
+oxide emissions from wastewater treatment plants. Nat. Sustain. 44. Pan, D. et al. A new open-path eddy covariance method for
+7, 1348–1358 (2024). nitrous oxide and other trace gases that minimizes temperature
+27. Doorn, M. et al. 2019 refinement to the 2006 IPCC Guidelines corrections. Glob. Change Biol. 28, 1446–1457 (2022).
+for National Greenhouse Gas Inventories Chapter 6 Wastewater 45. Burba, G., Anderson, T. & Komissarov, A. Accounting for
+Treatment and Discharge. Wastewater Treatment and Discharge 5, spectroscopic effects in laser-based open-path eddy
+7–65 (2019). covariance flux measurements. Glob. Change Biol. 25, 2189–2202
+28. Valach, A. C., Häni, C., Bühler, M., Mohn, J. & Schrade, S. Ammonia (2019).
+emissions from a dairy housing and a wastewater treatment plant 46. Caulton, D. R. et al. Importance of superemitter natural gas well
+1 quantified with an inverse dispersion method accounting for pads in the Marcellus shale. Environ. Sci. Technol. 53, 4747–4754
+deposition loss ammonia emissions; inverse dispersion method. (2019).
+J. Air Waste Manage. 73, 930–950 (2023). 47. Caulton, D. R. et al. Quantifying uncertainties from
+29. Yoshida, H., Mønster, J. & Scheutz, C. Plant-integrated mobile-laboratory-derived emissions of well pads using inverse
+measurement of greenhouse gas emissions from a municipal Gaussian methods. Atmos. Chem. Phys. 18, 15145–15168 (2018).
+wastewater treatment plant. Water Res. 61, 108–118 (2014). 48. Zhou, X. et al. Estimation of methane emissions from the US
+30. Delre, A., Mønster, J. & Scheutz, C. Greenhouse gas emission ammonia fertilizer industry using a mobile sensing approach.
+quantification from wastewater treatment plants, using a tracer Elementa 7, 19 (2019).
+gas dispersion method. Sci. Total Environ. 605–606, 258–268 49. Albertson, J. D. et al. A mobile sensing approach for regional
+(2017). surveillance of fugitive methane emissions in oil and gas
+31. Tauber, J., Parravicini, V., Svardal, K. & Krampe, J. Quantifying production. Environ. Sci. Technol. 50, 2487–2497 (2016).
+methane emissions from anaerobic digesters. Water Sci. Technol. 50. Roe, S. M. et al. Estimating Ammonia Emissions from
+80, 1654–1661 (2019). Anthropogenic Nonagricultural Sources (Emission Inventory
+32. Parravicini, V., Nielsen, P. H., Thornberg, D. & Pistocchi, A. Improvement Program, 2004).
+Evaluation of greenhouse gas emissions from the European urban
+wastewater sector, and options for their reduction. Sci. Total Acknowledgements
+Environ. 838, 156322 (2022). We gratefully acknowledge support from the Alfred P. Sloan
+33. US EPA. 2020 National Emissions Inventory; https://www.epa.gov/ Foundation’s Energy and Environment programme (G-2020-12453,
+air-emissions-inventories/2020-national-emissions-inventory- to M.A.Z., Z.J.R. and F.M.H.) and NASA’s Future Investigators in NASA
+nei-data (accessed 21 August 2021). Earth and Space Science and Technology (FINESST) programme
+34. Zavala-Araiza, D. et al. Super-emitters in natural gas infrastructure (80NSSC21K1632, to D.P.M. and M.A.Z.). We thank C. Beale, R. Wang
+are caused by abnormal process conditions. Nat. Commun. 8, and X. Guo for their helpful discussions and assistance with field
+14012 (2017). logistics and data acquisition.
+35. Alvarez, R. A. et al. Assessment of methane emissions from the US
+oil and gas supply chain. Science 361, 186–188 (2018). Author contributions
+36. Law, Y., Ye, L., Pan, Y. & Yuan, Z. Nitrous oxide emissions from D.P.M. led sampling strategy development, data acquisition, data
+wastewater treatment processes. Philos. Trans. R. Soc. B 367, analysis and the writing of the manuscript. N.P.L. contributed equally
+1265–1277 (2012). to data acquisition and led sensor maintenance, assisted in data
+37. Jones, E. R., Van Vliet, M. T. H., Qadir, M. & Bierkens, M. F. P. analysis and overall guidance. C.S. and J.-J.Z. provided domain
+Country-level and gridded estimates of wastewater production, guidance. H.Y. and L.T. led sensor development. J.M., V.I.S. and L.P.W.
+collection, treatment and reuse. Earth Syst. Sci. Data 13, 237–254 assisted in data acquisition. N.E.R.-R. and F.M.H. provided guidance on
+(2021). data acquisition and project development. Z.J.R. provided project and
+Nature Water | Volume 3 | October 2025 | 1114–1124 1123

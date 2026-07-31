@@ -1,0 +1,70 @@
+================================================================================
+第六批论文研究方法提取结果
+================================================================================
+
+（25）Economic performance index assessment of an industrial wastewater treatment plant in terms of the European Green Deal: effect of greenhouse gas emissions
+研究方法：
+a. [气体采集与分析] - 通量箱法结合气相色谱分析：通量箱(Flux Chamber)，气相色谱仪(Agilent 6890N GC)配FID和ECD检测器，用于采集和分析曝气池及DAF单元的CO2、CH4、N2O直接排放浓度
+b. [温室气体核算] - IPCC排放因子法：基于IPCC(2014)全球增温潜势(GWP)系数，利用能耗、化学品用量、污泥处理量与对应排放因子的乘积计算间接GHG排放
+c. [实验设计] - Box-Behnken响应面设计：以操作流量Q、CO2、CH4、N2O排放量为自变量，构建经验设计矩阵，通过方差分析(ANOVA)确定显著性
+d. [统计建模] - 多元线性回归：利用MATLAB进行多元线性回归，建立二次多项式回归模型，R2=0.99，标准差0.0058
+e. [效率评价] - 数据包络分析(DEA)：采用BCC模型(可变规模报酬)，以能耗、GWP、处理水量、间接GHG为输入，最优能耗为输出，评价污水处理厂能源效率
+f. [优化模拟] - 蒙特卡洛模拟：用于确定最小GHG排放下的最优能耗，与DEA模型结果进行对比验证
+g. [经济评估] - 经济绩效指数(EPI)模型：基于敏感性分析建立EPI与GHG排放及性能指标X的指数关系模型，用于评估不同设计和运行条件下的经济绩效
+
+（26）Energy Consumption and Carbon Footprint of Greek Wastewater Treatment Plants
+研究方法：
+a. [数据采集] - 运行数据调查法：收集希腊31座污水处理厂(处理能力250-3,650,000 PE)3年期的运行数据，包括能耗、处理工艺、设备特性等
+b. [分类分析] - 按规模分类比较法：将31座WWTP按处理能力分为小型(<10,000 PE)、中型(10,000-100,000 PE)、大型(>100,000 PE)三类，分别统计能耗和GHG排放
+c. [温室气体核算] - 综合GHG排放计算模型：基于Bridle et al.的方法，区分生物源与非生物源排放，计算处理过程直接排放(CH4、N2O)和间接排放(电力、化学品、运输)
+d. [能源分析] - 能源组合排放因子法：使用希腊2019年能源结构数据(煤18%、核6%、石油8%、天然气32%、其他化石燃料10%、可再生能源26%)计算电力间接排放
+e. [回归建模] - 幂函数回归分析：建立能耗与服务人口的幂函数关系 y=2.2287*x^(-0.268) 和GHG排放与服务人口的幂函数关系 y=1.8757*x^(-0.16)，用于设定不同规模WWTP的能耗和排放目标值
+f. [逐阶段分析] - 各处理阶段能耗分解法：对21座WWTP的曝气、初级处理、二级处理、污泥处理等各阶段能耗进行详细分解和对比分析
+
+（28）Multipoint characterization of the emission of odour, volatile organic compounds and greenhouse gases from a full-scale membrane-based municipal WWTP
+研究方法：
+a. [气体采样] - USEPA通量箱法：使用Scentroid半球形不锈钢通量箱(底面积0.154 m2)，以纯N2为载气(4.5 L/min)，采集各处理单元面源排放气体，用Nalophan袋收集样品
+b. [恶臭分析] - 便携式嗅觉测定法：使用Scentroid SM-100便携式野外嗅觉仪，基于EN 13725标准进行动态稀释嗅觉分析，测定臭气浓度(ou/m3)
+c. [污染物检测] - 便携式多气体分析仪：NH3和H2S用iBrid MX6多气体监测仪(电化学传感器)检测，总VOCs用MiniRAE 3000 PID光离子化检测器检测
+d. [温室气体分析] - 气相色谱法(GC)：使用Agilent 6890N GC配FID检测器分析CH4(HP-PLOT Q柱，60°C等温)，ECD检测器分析N2O
+e. [VOCs表征] - 热脱附-气相色谱/质谱联用(TD-GC/MS)：使用UNITY-2热脱附仪脱附Tenax TA和Carbograph 1TD吸附管中的VOCs，Agilent 7820 GC/5975 MS分析，Wiley275谱库比对鉴定，涵盖35种标准物的7级校准
+f. [排放因子计算] - 特定排放率归一化法：基于通量箱测量浓度计算特定排放率(SER)，利用Prandtl边界层理论将SER归一化至实际风速条件，再除以日均进水量得到排放因子(EF)
+g. [气体处理评价] - 生物处理系统效率评估：评估生物滴滤池(BTF)+生物滤池(BF)两级气体处理系统对H2S(去除率99.6%)和tVOCs(去除率98.7%)的去除效率
+
+（29）A comprehensive carbon footprint analysis of different wastewater treatment plant configurations
+研究方法：
+a. [情景设计] - 全组合工艺配置分析：设计3种污水处理工艺(MLE、Bardenpho、UASB+MLE)×2种污泥稳定化(AeD、AD)×2种污泥干燥(LTD、STS)×3种污泥处置(堆肥+农用、填埋、焚烧)=36种组合情景，另加9种无污泥稳定化情景
+b. [碳足迹核算] - 三范围排放框架：范围1(直接排放：CH4和N2O)、范围2(间接排放：能耗)、范围3(价值链排放：污泥外运处置)，基于IPCC方法计算各范围GHG排放
+c. [模型计算] - 统计模型法：建立基于排放因子(EF)的数学模型，计算污水处理各环节(CH4溶解逸散、N2O生物脱氮产生)和污泥处理各环节(AeD产N2O、AD产CH4、LTD和STS产CH4)的GHG排放
+d. [不确定性分析] - 蒙特卡洛模拟：在MS Excel中对排放因子、COD和营养物负荷、处理效率等关键参数进行蒙特卡洛分析，评估范围1、2、3排放的不确定性
+e. [碳中和评估] - 碳中和与能源中和指标计算：定义碳中和=(能源回收CO2当量)/(直接排放+间接排放)和能源中和=能源回收/能源消耗，比较不同配置的碳中和和能源中和水平
+f. [污泥产量建模] - 基于ASM的污泥产量估算：利用异养菌和自养菌生物量增长方程及惰性固体生成方程，计算不同污水处理工艺的污泥产量，用于下游污泥处理的GHG排放关联分析
+
+（2）Estimation of greenhouse gas emissions from solid waste management and wastewater treatment in the Nizam Zachman Fishery Port, Jakarta, Indonesia
+研究方法：
+a. [温室气体核算] - IPCC Tier 1排放因子法：使用IPCC推荐的默认排放因子(EF)，采用公式E=A×EF估算固体废物和废水处理的GHG排放
+b. [固废排放计算] - 分活动排放因子法：分别计算露天堆放(使用印度类似废物条件的EF：CO2 2.25 kg/kg，CH4 0.016 kg/kg)、运输(柴油EF 2.2 kg CO2/L)和回收(负排放因子-0.490吨CO2eq/吨废物)的GHG排放
+c. [废水排放计算] - IPCC CH4和N2O公式法：CH4排放基于TOW(总有机物)=P×W×COD，乘以EF(B0×MCF)；N2O排放基于出水中氮含量乘以EF再乘以44/28转换系数；分别计算WWTP、化粪池和排水沟三种来源
+d. [情景分析] - 减排情景设计法：设计三种改善情景——(1)增加回收+堆肥(75%有机废物堆肥)、(2)WWTP甲烷捕获利用(100%CH4氧化为CO2)、(3)综合方案，评估各情景的减排效果
+e. [改进方案评估] - 堆肥排放计算：使用IPCC公式GHG=(Mi×EFi)×10^3-R计算堆肥过程的GHG排放，评估替代露天堆放后的减排量
+
+（30）Using the inverse dispersion method to determine methane emissions from biogas plants and wastewater treatment plants with complex source configurations
+研究方法：
+a. [浓度测量] - 开路可调谐二极管激光吸收光谱法：使用GasFinder3-OP(Boreal Laser)开路激光CH4浓度分析仪，配合角立方体反射器(7或12个)，以0.3-1 Hz频率测量，取30分钟均值
+b. [湍流测量] - 超声风速仪法：使用Gill Windmaster超声风速仪记录10 Hz三维风速和湍流数据，进行双轴坐标旋转校正，用于微气象参数计算
+c. [反向拉格朗日随机模型(bLS)] - 逆扩散法(IDM)：将开路浓度测量与bLS扩散模型(Flesch et al., 2004)结合，每个排放间隔计算50,000-250,000条后向轨迹，使用R包bLSmodelR模拟扩散因子D
+d. [多源组合] - 三种加权方法比较：(i)ESP(单一包络多边形)、(ii)EHD(均匀排放密度)、(iii)EWS(基于文献的加权排放)，比较不同方法对总排放估算的差异(最高达43%)
+e. [外源校正] - 外部CH4源扣除法：对养殖场等邻近外部CH4源的贡献进行bLS模拟计算，从下风向浓度中扣除外部源的影响，假设外部源排放不确定性为20%
+f. [质量控制] - 多参数数据筛选：对摩擦速度u*、标准化风速标准差、Kolmogorov常数C0、Obukhov长度L、粗糙度长度z0、分散因子D、浓度差ΔC等参数设置过滤阈值
+g. [不确定性评估] - 综合不确定性分析：基于Bühler et al.(2021)的函数评估随机不确定性(14-21%)，结合bLS模型、外部源和EWS方法的系统不确定性，估算总不确定性(25-36%)
+
+（32）Greenhouse gas emissions from wastewater treatment plants in China: Historical emissions and future mitigation potentials
+研究方法：
+a. [温室气体核算] - IPCC当量人口法(省级清单)：基于IPCC(2006, 2019)指南，采用Hua et al.(2022)提供的省级排放因子，建立2005-2020年中国WWTPs省级GHG排放清单，区分范围1(直接排放)和范围2(间接排放)
+b. [CH4排放计算] - 有机物平衡法：CH4排放=(TOW-SOC)×EF1-R，其中TOW=P×BOD×α×0.001×365，SOC=污泥量×0.25，EF1采用省级特定排放因子
+c. [N2O排放计算] - 含氮物质质量平衡法：N2O排放=TN_DOM×EF2，TN_DOM基于人均蛋白质消费量、氮在蛋白质中的比例(0.16)及多个校正系数计算
+d. [电力排放计算] - 省级电力排放因子法：CO2-电力=电量×f_电力，电量=废水量×电力消耗强度(ECI)，f_电力采用各省特定电网排放因子
+e. [蒙特卡洛模拟] - 不确定性表征：对活动数据和排放因子假设正态分布或三角分布，进行10,000次蒙特卡洛模拟，以90%置信区间(5-95百分位)表示不确定性
+f. [情景分析] - 多减排情景预测法：设计BAU基准情景和5种减排情景(S1节能30%、S2运行优化减排20%、S3化学能回收增30%、S4太阳能利用增30%、S5热能回收增20%)以及综合情景S6，预测至2035年的排放趋势和减排潜力
+g. [敏感性分析] - 参数敏感性评估：将5种减排措施的目标设定值各变化±10%，评估对总减排潜力的影响，识别最关键的减排措施
+h. [空间分析] - 省级空间异质性分析：分析各省排放总量、排放结构(CH4/N2O/电力占比)和排放强度的空间分布差异，识别排放热点和减排优先区域

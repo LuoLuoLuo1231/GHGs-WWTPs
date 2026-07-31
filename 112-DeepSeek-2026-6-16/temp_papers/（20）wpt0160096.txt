@@ -1,0 +1,530 @@
+--- Page 1 ---
+©IWAPublishing2021 WaterPractice&TechnologyVol16No1
+96 doi:10.2166/wpt.2020.100
+Minimization of greenhouse gas emissions from extended aeration
+activated sludge process
+Yapıcıoğ
+Pelin lu
+EngineeringFaculty,EnvironmentalEngineeringDepartment,HarranUniversity,Sanliurfa,Turkey. E-mail:pyapicioglu@harran.
+edu.tr
+Abstract
+One of the greenhouse gas (GHG) emission resources is industrial wastewater treatment plants. In this study,
+on-site and off-site greenhouse gas emissions of an extended aeration activated sludge process in a meat
+processing wastewater treatment plant were estimated using a new developed approach based on the IPCC
+method. On-site emissions were regarded as the emissions related to the biochemical treatment process and
+microbial activity in the wastewater. On-site emissions were estimated from organic materials removal from
+wastewater and microbial mass activity. Biological oxygen demand (BOD) and chemical oxygen demand (COD)
+removalwereconsideredaspollutantresourcesofcarbondioxide(CO )andmethane(CH ),respectively.Off-site
+2 4
+emission was estimated from electricity consumption, chemical use and the sludge stabilization process. This
+paper aimed to determine and reduce on-site and off-site emissions for the extended aeration process in an
+industrial wastewater treatment plant. Modification of operating conditions was applied to reduce GHG emis-
+sions. The results revealed that electricity consumption was the major source of the greenhouse gas
+emissionsforthisprocesswithavalueof6,002.77kgCO e/d.TheminimizationoftotalGHGemissionsreached
+2
+up to17.1%bymodifying the treatment process conditions.
+Keywords:greenhousegasemission,industrialwastewatertreatment,minimization,off-siteemission,on-site
+emission
+Highlights
+(cid:129)
+Theoriginalityofthispaperisthattheon-siteandoff-siteemissionswereinvestigatedfortheextendedaera-
+tionprocessofahighlyorganicindustrialwastewaterplantusinganewdevelopedGHGestimationmodel.A
+newcalculation term was adapted to the IPCC method foron-site and off-site emissions. The noveltyof the
+study,processmodification wasappliedtoreduceGHGemissions fromthe extended aeration process.
+INTRODUCTION
+Greenhouse gas (GHG) emissions have been increasing in the atmosphere due to industrial, agricul-
+tural and anthropogenic activities in recent years (Kyung et al. 2015). Wastewater treatment plants
+(WWTPs) have been considered as one of the greenhouse gas emissions resources in recent years
+Yapıcıoğ
+(Yerushalmi et al. 2009; Corominas et al. 2012; Kyung et al. 2015; lu 2018a). According to
+the Intergovernmental Panel on Climate Change (IPCC) reports, greenhouse gas emission from the
+waste sector corresponds to approximately 3% of the anthropogenic emissions on a global scale,
+and wastewater treatment constitutes approximately 20% of the waste sector (IPCC 2014). Carbon
+dioxide (CO ), methane (CH ) and nitrous oxide (N O) are the main greenhouse gases which are
+2 4 2
+emitted from wastewater treatment plants to the atmosphere due to the applied treatment process,
+sludge dewatering and disposal process, chemical use, energy consumption and maintenance and
+Yapıcoğ
+transport (Metcalf & Eddy 2014; Kyung et al. 2015; lu 2018a).
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 2 ---
+WaterPractice&TechnologyVol16No1
+97 doi:10.2166/wpt.2020.100
+Greenhousegasemissions can beclassified ason-site emissions and off-site emissions (Paraviccini
+Yapıcıoğ
+et al. 2016; lu 2018a). The on-site emissions in the plants are emitted emissions at the
+wastewater collection system, treatment units and discharge point of the treated water. The off-site
+GHG emissions come from the electricity consumption, air consumption, transportation, chemical
+Yapıcıoğ
+use and sludge stabilization and disposal processes (Paraviccini et al. 2016; lu 2018a).
+Especially, industrial wastewater plants emit huge amounts of greenhouse gas emissions due to
+highly organic wastewater content and treatment processes. The meat processing industry is one
+of them.
+Themeatprocessingindustrydischargeslargevolumesofwastewaterinmanycountriesandneeds
+(Yapıcıoğ
+considerable treatment if its release to the environment is to be sustainable lu 2018b). The
+organicmaterialsandtotalsuspendedsolidsconcentrationsareveryhighandithasahighlycontami-
+natingeffect(Lecompte&Mehrvar2014;Yapıcıoğ
+lu2018b).Thereareseveralmethodstotreatmeat
+processing wastewater, with most focusing on biological processes such as activated sludge, stabiliz-
+ation ponds and aerobic reactors (Davarnejad & Nasiri 2017). The widespread treatment method is
+the extended aeration activated sludge process for meat processing wastewater. In this process,
+carbon and nitrogen removal can be ensured (Metcalf & Eddy 2014). Extended aeration activated
+sludge process consists of an aeration tank and a sedimentation tank. In the aeration tank, organic
+materials in the wastewater are stabilized by the living microbial mass. Blowers are used to pump
+the air to the tank. Air pumps leads to high energy consumption (Metcalf & Eddy 2014). The other
+energy consumption resource is sludge pumps which are used for the return of activated sludge
+intotheaerationtank.Also,denitrificationisappliedtoremovenitrogenfromwastewaterinthispro-
+cess. Methanol is used as an additional carbon resource in the denitrification process (Metcalf &
+Eddy2014).Electricityconsumptionandchemicaluseintheaerationtankleadtooff-sitegreenhouse
+gas emissions (Kyung et al. 2015). Some of the activated sludge was returned to the aeration tank to
+maintain a living microbial mass at certain concentrations (Metcalf & Eddy 2014). Waste activated
+sludge is an environmental challenge that leads to high costs of handling and dewatering processes
+andgreenhousegasemissions.Theothersourceofoff-siteGHGemissionsisthesludgehandlingpro-
+cess.On-siteemissionshavebeenregardedasGHGemissionsduetowastewatertreatmentprocesses
+intheWWTPs(Paraviccinietal.2016).Intheresultoftheextendedaerationprocess,CO andCH
+2 4
+emissions have been released from the treatment units due to organic materials stabilization process
+by living microorganisms in the wastewater. From this point of view, biological oxygen demand
+(BOD) and chemical oxygen demand (COD) removal were regarded as pollutant sources of CO
+2
+and CH , respectively.
+4
+There are several studies in the literature related to this topic. Kyung et al. (2015) investigated off-
+site emissions resulting from electricity consumption and chemical use for a five-staged Bardenpho
+process. Also, they estimated on-site emissions from a hybrid process. Bani Shahabadi et al. (2009)
+performed a study estimating off-site greenhouse gas emissions for a combined anaerobic treatment
+and AO process. Masuda et al. (2015) investigated off-site emission from energy consumption for a
+classicalactivatedsludgeprocess.Barbuetal.(2017)observedgreenhousegasemissionsfromaclas-
+sical activated sludge process in another study. The other study corresponded to Santín et al. (2018)
+which GHG emission was investigated for a classical activated sludge process. There are several
+GHG emissions reduction methods applied for industrial WWTPs. Innovative treatment techniques
+couldbeperformedinordertoreducegreenhousegasemissions(Yapıcıoğ
+lu2018a).Microalgaltreat-
+mentisregardedasoneoftheoldestGHGemissionsreductionprocesses.CO assimilationisapplied
+2
+duetophotosynthesisofmicroalgaeinthistechnology.Also,thenitrite-dependentanaerobicmethane
+oxidation (n-damo) process is considered as one of the biological GHG emission minimization
+methods. Recently, biochar adsorption for wastewater treatment has become one of the GHG emis-
+(Yapıcıoğ
+sion minimization technologies due to the CO and N O adsorption capacity lu 2018a).
+2 2
+Modification of operating conditions and wastewater treatment processes is another GHG emission
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 3 ---
+WaterPractice&TechnologyVol16No1
+98 doi:10.2166/wpt.2020.100
+minimizationtechnique(Yapıcıoğ lu2018a).Inthisstudy,treatmentprocessmodificationwasapplied
+toreduceGHGemissions.Operationalconditionsincludinghydraulicretentiontime(HRT)andsolid
+retention time (SRT)) were modified to decrease GHG emissions.
+The originality of this paper is that on-site and off-site emissions were investigated for extended
+aeration process of a highly organic industrial wastewater plant using a newly developed GHG esti-
+mationmodel.AnewcalculationtermwasdevelopedbasedontheIPCCmethodforon-site andoff-
+siteemissions.ThenoveltyofthisstudyisthatprocessmodificationwasappliedtoreduceGHGemis-
+sions from an extended aeration activated sludge system. The operating conditions were varied to
+estimate GHG emissions formation.
+MATERIAL AND METHODS
+In this study, on-site and off-site greenhouse gas emissions of an aeration tank for extended aeration
+activatedsludgeprocessappliedinameatprocessingwastewatertreatmentplantwereestimated.Off-
+site emission was estimated from chemical (methanol for denitrification) consumption, the sludge
+stabilization process and electricity consumption using the IPCC approach. On-site emissions were
+determined using the approach of organic materials removal from wastewater. It was considered
+that CO is formed resulting from BOD removal and microbial respiration in the wastewater. It
+2
+was assumed that CH is released when COD is removed from wastewater and microbial mass is
+4
+dead during the endogen phase. CH could be generated in the anaerobic sections of the aeration
+4
+tank. Under aerobic conditions, CH can also be partially biologically oxidized (Paraviccini et al.
+4
+2016). These sections could be formed as the result of inadequate or partial aeration at the aeration
+tank. At these units, methanogens have been grown. CH is formed as the result of anaerobic stabil-
+4
+ization of the organic substances in the wastewater. And COD is an indicator parameter of the
+wastewater pollution. Organic materials stabilization amount (organic materials removal efficiency)
+is defined with COD removal theoretically. So, they were correlated with each other. The main
+aim of this study was to minimize on-site and off-site emissions for an extended aeration tank in a
+meat processing industry wastewater treatment plant.
+Description oftheindustrial WWTPandtreatment process
+ThemeatindustryislocatedatanorganizedindustrialzoneinTurkey.Theorganizedindustrialzone
+isinthewestofTurkey.Thewastewatertreatmentcapacityofthisindustrialparkisnearly20,000m³/d.
+After pretreatment of meat processing wastewater in the plant, the wastewater is discharged to the
+organized industrial zone sewage collection system. The main wastewater generating points of the
+meat processing industry are the slaughterhouse, rendering unit, and intestinal washing process.
+The wastewater characterization of this plant is given in Table 1. The wastewater analysis results
+were performed using Standard Methods (APHA 1998).
+Table1 | Wastewatercharacterizationofthemeatindustry
+Parameter Influenta Effluenta
+COD(mg/L) 5,293 1,547
+BOD(mg/L) 2,554 221
+TSS(mg/L) 2,122 487
+FOG(mg/L) 329 10
+pH 7.29 6.9
+aInfluentandeffluentvaluescorrespondedtotheextendedaerationprocess.
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 4 ---
+WaterPractice&TechnologyVol16No1
+99 doi:10.2166/wpt.2020.100
+Figure1demonstratestheexistingwastewatertreatmentprocessintheplant.Anextendedaeration
+activated sludge system is carried out in order to remove organic and suspended materials from the
+wastewater.Theextendedaerationactivatedsludgesystemisusedasthebiologicaltreatmenttechnol-
+ogy and requires air in order to keep the microorganisms alive that are responsible for wastewater
+stabilization. A blower is used to generate air to operate the treatment system. Air is pumped into
+the aeration tank for the respiration of the microbial mass in the activated sludge process. This
+system,combinedwithblowerandairpumps,leadstothehighenergyconsumptionintheplant.Fur-
+thermore, a sedimentation tank is operated to remove the waste activated sludge. Some of the
+activated sludge was returned to the aeration tank to ensure living microorganisms at a determined
+biomass concentration. Sludge pumps, which consume a huge amount of electricity, are used for
+the return sludge process. Also, denitrification and nitrification processes are applied for removal
+ofnitrogenfromwastewater.Methanol isusedasanaddedcarbonsourceforthedenitrificationpro-
+cess.Energyconsumptionresultingfromoperatingtheblowerandsludgepumpsandchemicaluse,as
+methanol addition to sustain the process and lime addition for the sludge stabilization process, have
+led to off-site greenhouse gases emissions in the plant.
+Figure1| Wastewatertreatmentprocessflowschemeofthemeatindustry.
+The extended aeration activated sludge process is a type of biological treatment. It consists of an
+aeration tank and sedimentation tank. Hydraulic retention time (HRT) is in the range of 18–36
+hours. Organic material is removed with the help of microorganisms in the aeration tank. Air is
+pumped into the aeration tank for the respiration of the microbial mass (Metcalf & Eddy 2014).
+Inthisstudy,theHRTintheaerationtankisapproximately24hours.Solidsretentiontime(SRT)is
+22 days. Both carbon and nitrogen removal can be ensured as a result of the extended aeration pro-
+cess. For the denitrification process, methanol is added to the aeration tank as a carbon source.
+Table 2 presents the data used to estimate greenhouse gas emissions corresponding to the aeration
+tank, which emits GHG emissions as the major unit in the WWTP. Methanol dose is the meaning
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 5 ---
+WaterPractice&TechnologyVol16No1
+100 doi:10.2166/wpt.2020.100
+Table2 | Datasetfortheestimationofon-siteGHGemission
+Parameter Value
+Q(m3/d) 2,800
+BODremoved(B)(kg/m3) 2.333
+CODremoved(C)(kg/m3) 3.746
+MLVSS(kg/m3) 2.4
+MLSS (kg/m3) 1.6
+d
+k 0.40
+d
+of the amount of methanol required for the denitrification process. Electricity consumption comprises
+theelectricityusedbytheblower,airandsludgepumps.Limeisusedforthesludgestabilizationprocess.
+Determinationof on-siteGHGemissions
+On-site emission is regarded as the GHG emissions due to the biochemical treatment process of the
+extended aeration activated sludge system. It was considered that CO is the GHG resulting from
+2
+BOD removal in the wastewater. It is assumed that CH occurs when COD is removed from waste-
+4
+water and microbial mass is dead during the endogen phase. From this point of view, an estimation
+toolwasdevelopedbasedontheIPCCapproach.On-siteCO emission(GHGEon-site,CO )isfigured
+2 2
+out by multiplying BOD removal (B) (kg/m3) and wastewater flow (Q) (m3/d) and global warming
+potential (GWP) of carbon dioxide (GWPCO ), whose value is ‘1’. Also, it is considered that CO
+2 2
+is formed as the result of microbial mass respiration. Partial CO emission was figured out by multi-
+2
+plying MLVSS (living microbial mass), flow rate (Q) and GWP of CO . Similarly, on-site CH
+2 4
+emission (GHGEon-site,CH ) is estimated by multiplying COD removal (C) and wastewater flow
+4
+(Q) and global warming potential of CH (GWPCH ). The other resource of CH emission is the
+4 4 4
+microbial death (MLSS ). It is figured out from MLSS and wastewater flow rate and the GWP of
+d d
+CH . The GWPof methane is 28 (IPCC 2014). The calculation terms of on-site emissions developed
+4
+in this study are given in Equations (1) and (2). The data used for estimation of on-site emission are
+givenin Table2.On-site GHG emission isthe sum of CO and CH emissions (Equation(3)). When
+2 4
+thesecalculationswereapplied,theendogenousrespirationrate(k )wasconsidered.Itwasassumed
+d
+as 0.40 (Metcalf & Eddy 2014). k means the endogenous respiration indicator constant, which
+d
+describes the self-destruction of the cells in the microbial culture. 40% of k corresponded to 40%
+d
+of microbial mass under the endogenous phase (Metcalf & Eddy 2014). While COD and BOD
+have been removed from wastewater, some removed materials transformed into waste sludge and
+GHG emissions in the wastewater systems. Also, the gases, apart from CO and CH , were ignored
+2 4
+in the result of the treatment process from COD and BOD removal.
+GHGE on(cid:1)site,CO2 ¼[(B(cid:3)Q(cid:3)GWPCO 2)(1(cid:1)k d)]þ(MLVSS(cid:3)Q(cid:3)GWP CO2) (1)
+GHGE on(cid:1)site,CH4 ¼[(C(cid:3)Q(cid:3)GWP CH4)(1(cid:1)k d)]þ(MLSS d(cid:3)Q(cid:3)GWP CH4) (2)
+GHGE on(cid:1)site ¼GHGE on(cid:1)site,CO2 þGHGE on(cid:1)site,CH4 (3)
+Total GHG emission (GHGE) is the sum of the on-site and off-site emissions.
+Estimationof off-site GHGemissions
+There are three constituents of off-site greenhouse gas emissions were considered in this study. Elec-
+tricity consumption for the operation of extended aeration process in the plant was used to estimate
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 6 ---
+WaterPractice&TechnologyVol16No1
+101 doi:10.2166/wpt.2020.100
+theoff-siteemissions.Thesecondconstituentistheoff-siteemissionfrommethanol(chemical)usefor
+denitrification for the removal of nitrogen in the extended aeration process. The otherconstituent of
+off-site emission is the sludge stabilization process. An adaptive model was developed in this study.
+Theoff-siteemissionrelatedtotheelectricityconsumptionwasfiguredoutbymultiplyingtheelec-
+tricityconsumption (EC )(kWh)oftheextendedaerationprocessandthespecificemissionfactor
+total
+(EF )oftheelectricityconsumptionrelatedtoTurkey(kgCO e/kWh).Electricityconsumption
+electricity 2
+of the extended aeration process was obtained from the electricity bills and the electricity meters in
+the treatment plant. Electricity consumption of the plant contains the energy demand of the blower
+and air pumps (EC for the aeration process and the energy depletion of the sludge
+blower&air pumps)
+pumps (EC . EF is 0.497kg CO e/kWh (IEA 2016). The estimation model based
+sludge pumps) electricity 2
+on the IPCC method is given in Equation (4) for total off-site emissions from electricity (Kyung
+et al. 2015).
+GHGE ¼EC (cid:3)EF (4)
+electricity total electricity
+Methanoladditionasanaddedcarbonsourcefordenitrificationtoachievenitrogenremovalleads
+to the other off-site emission in the aeration tank. It can be estimated by means of multiplying daily
+methanol consumption (L ) (kg/d) and the emission factor of methanol (EF ) (Kyung
+methanol methanol
+et al. 2015). The emission factor of methanol is 1.54kgCO e/kg methanol (Yerushalmi et al. 2009;
+2
+Ashrafi 2012; Kyung et al. 2015). The off-site emission of the chemical use could be estimated
+using the equation below (Equation (5)) (Kyung et al. 2015).
+GHGE ¼L (cid:3)EF (5)
+chemical methanol methanol
+The other resource of off-site GHG emissions is the sludge stabilization process. Lime is used for
+the stabilization of waste activated sludge. It can be figured out by means of multiplying daily lime
+consumption (L ) (kg/d) and the emission factor of lime (EF ) (IPCC 2006). The emission
+sludge lime
+factor of lime is 0.43971kgCO e/kg lime. CaCO is used as the chemical. A new calculation tool
+2 3
+developed to estimate the GHG emission from sludge stabilization is given in Equation (6).
+GHGE ¼L (cid:3)L (cid:3)EF (6)
+sludge sludge lime lime
+The data used for the estimation of off-site GHG emissions are given in Table 3. The off-site emis-
+sion is the total of the emissions from electricity and chemical consumption and sludge stabilization
+Table3 | Datasetfortheestimationofoff-siteGHGemission
+Parameter Value
+L (methanoldosefordenitrification)(kg/d) 65.5
+methanol
+Totalelectricityconsumption(EC ,kWh) 12,078
+total
+EC (kWh) 9,467
+blower&airpumps
+EC (kWh) 2,611
+sludgepumps
+L (limeforstabilizationofsludge)(CaCO dose)(kglime/kgsludge) 1.31
+lime 3
+L (kgsludge/d) 6,808.48
+sludge
+EF (kgCO /kgmethanol) 1.54
+methanol 2
+EF (kgCO /kglime) 0.43971
+lime 2
+EF (kgCO e/kWh) 0.497
+electricity 2
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 7 ---
+WaterPractice&TechnologyVol16No1
+102 doi:10.2166/wpt.2020.100
+process. It is shown in Equation (7).
+GHGE off(cid:1)site ¼GHGE electricityþGHGE chemicalþGHGE sludge (7)
+Minimization ofGHG emissions
+ThereareseveraltechniquesforthereductionofGHGemissionreleasingfromWWTPs.Oneofthem
+is modifications to treatment processes and configurations. In this study, treatment process modifi-
+cation was carried out to reduce the GHG emission. Operational conditions (hydraulic retention
+time (HRT) and solid retention time (SRT)) were modified to decrease the GHG emissions. HRT
+means the wastewater retention time in the aeration tank and SRT means the duration of retention
+timeofmicrobialmassintheaerationtank.Alteringthedurationsoftheoperation,on-siteemissions
+were figured out. HRT and SRT were minimized to 18 hours and 20 days, respectively. The values
+were considered without deterioration of the effluent quality. The GHG emissions minimization
+was figured out by benchmarking the previous emission at an HRT of 24h and an SRT of 22 days
+and the last emission at an HRT of 18 hours and SRT of 20 days. The same estimation tools were
+used for both operational conditions.
+RESULTS AND DISCUSSION
+On-site GHGemissions
+On-site emissions were considered as the emissions as a result of BOD and COD removal and
+microbial activity. The results revealed that on-site CH emission was higher than CO emission.
+4 2
+The values of CH and CO emissions were 3,016.5 and 1,063.9kg CO e/d, respectively. Total on-
+4 2 2
+site GHG emission is 4,080.4kg CO e/d. Table 4 shows the comparison of on-site GHG emissions.
+2
+Kyungetal.(2015)calculatedthaton-sitegreenhousegasemissionforamunicipalwastewater(influ-
+entBOD¼200mg/L)thatwastreatedwithafive-stageBardenphoprocessas3,701+269kgCO e/d
+2
+They reported lower emissions than this study. It can be said that the Bardenpho process emits GHG
+emission lower than the extended aeration activated sludge process due to better influent characteriz-
+ation.Masuda etal.(2015)similarlyreported that theaerationtanks released methaneemissions.The
+otherstudyisrelatedtoRodriguez-Caballeroetal.(2014).TheyreportedthatthehighestGHGemission
+wasobservedintheaerationtank.Ifwecomparethevaluesofemissions,off-siteGHGemissionswere
+higher than on-site greenhouse gas emissions. Qiao et al. (2020) investigated greenhouse gas emission
+from thewastewater treatment processby integratingactivated sludgeand microalgaeprocesses.They
+Table4 | Total,off-siteandon-siteGHGemissions
+Emission Value(kgCO2e/d)
+GHGE 3,016.5
+on-site,CH4
+GHGE 1,063.9
+on-site,CO2
+GHGE 4,080.4
+on-site
+GHGE 6,002.77
+electricity
+GHGE 100.87
+chemical
+GHGE 3,921.82
+sludge
+GHGE 10,025.46
+off-site
+GHGE 14,105.86
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 8 ---
+WaterPractice&TechnologyVol16No1
+103 doi:10.2166/wpt.2020.100
+þ
+reported COD, NH , and total phosphorus removals above 95%. No CH emissions during the oper-
+4 4
+ation of the study. Emitted CO only accounted for a small proportion of the total GHG in the
+2
+influent. Nayeb et al. (2019) reported wastewater collection systems, wastewater treatment plants and
+discharging wastewater to the environment led to direct greenhouse gas (carbon dioxide, nitrous
+oxide, and methane) emission from biological processes (activated sludge process) and indirect emis-
+sions due to energy consumption, similarly. They used a similar method for estimation of on-site
+emissions. They similarly estimated CH emissions from degradable organic materials. Sweetapple
+4
+etal.(2014) investigated the potential of control strategyoptimization for thereductionof operational
+greenhousegasemissionsfromwastewatertreatmentforwhichtheactivatedsludgeprocesswascarried
+out. They reported that multi-objective optimization of WWTP operational parameters and controller
+tuning parameters enables a significant reduction in GHG emissions. They estimated similar to this
+study and optimized GHG emissions using the BSM2G model in terms of COD and BOD removal.
+Flores-Alsina et al. (2011) investigated greenhouse gas emissions during benchmarking of wastewater
+treatment plant control strategies and modelling of the activated sludge process. They used the
+BSM2G method considering the dissolved oxygen, the solids retention time (SRT) and the organic
+carbon/nitrogen ratio (COD/N) as promoters of GHG emissions similar to this study.
+Off-siteGHG emissions
+Inthisstudy,off-siteGHGemissionsresultedfromelectricityconsumption,methanoladditionasthe
+chemicaluseandthesludgestabilizationprocess.Theresultsrevealedthattheemissionfromelectri-
+cityconsumptionwasthemajorsourceofGHGemissions intheWWTPwithavalue of6,002.77kg
+CO e/d. The distribution of the emission from electricity consumption is given in Figure 2. It can be
+2
+said that the electricity consumption of the blower and air pumps led to the highest emission. GHG
+emission from the sludge stabilization process with lime led to off-site emission to the value of
+3,921.82kgCO e/d. Theminorsourceofoff-siteGHGemissionismethanoladdition fordenitrifica-
+2
+tion. The value of GHG emission from chemical consumption was 100.87kg CO e/d. Total off-site
+2
+GHG emission was 10,025.46kg CO e/d. Figure 2 also shows the distribution of off-site GHG
+2
+emissions.
+Kyung et al. (2015) carried out a similar studyfora municipal plant. On the contrary,Kyung et al.
+(2015) reported that chemical use is the major source of off-site emissions in the hybrid plant
+(2.698+336kg CO e/d), and that this amounts to 58.8% of total off-site emissions (4,591+
+2
+576kgCO e/d).Inthisstudy,off-siteGHGemissionfromchemicalusewas39%oftotalGHGemis-
+2
+sions. The major off-site emission source was GHG from electricity consumption with the value of
+60% in this study. In another study, Bani Shahabadi et al. (2009) achieved similar results with the
+value for the aerobic system of 1,313kg CO e/d. Chemical use was the main source of their study.
+2
+Masuda et al. (2015) reported that off-site GHG emission from electricity consumption was 43.4%
+of the total emissions. In this study, GHG emission resulting from electricity consumption was
+60% of total off-site GHG emissions. In a study by Nayeb et al. (2019), they reported that off-site
+CO emissionattributedtoenergyconsumptioninwastewatertreatmentplantsdependsonthepopu-
+2
+lation covered by wastewater treatment plants and energy efficiency. Flores-Alsina et al. (2011)
+reported similarly that increasing the carbon source addition increases the GHG emissions due to
+increased sludge production, which results in increased endogenous respiration, sludge treatment
+and disposal and both chemicals and energy use.
+Total GHGemissions
+Totalgreenhousegas(GHGE)emissionsrefertothesumoftheon-siteemissionsfromthetreatment
+process and the off-site greenhouse gas emissions from electricity and chemical consumption and
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 9 ---
+WaterPractice&TechnologyVol16No1
+104 doi:10.2166/wpt.2020.100
+Figure2| Off-siteGHGemissions.
+sludgestabilizationprocess.Figure3demonstratesthedistributionoftotalgreenhousegasemissions,
+in a detailed form. In Table 4, the values of off-site and on-site were presented.
+Theresultsshowthatoff-siteemissionishigherthanon-siteemission.Electricityconsumptionwas
+the major source of GHG emission. Total GHG emission was 14,105.86kg CO e/d. Compared to
+2
+other studies in the literature, Kyung et al. (2015) reported the total greenhouse gas emission value
+as 12.855kg CO e/d. Bani Shahabadi et al. (2009) achieved similar results to this study. In their
+2
+study for a hybrid system, they reported that most of the total greenhouse gas emissions were
+caused by off-site emissions. Barbu et al. (2017) reported the GHG emission from the activated
+sludge process at the value of 17.961kg CO e/d. In the studyof Santín et al. (2018), the GHG emis-
+2
+sion from the classical activated sludge process was 17.851kg CO e/d. It could be said that the
+2
+extended aeration process is a more environmentally friendly process than the classical activated
+sludge process considering GHG emission and effluent water quality. It could originate from CH
+4
+emissions. For activated sludge systems, air consumption is lower so some unaerated zones could
+be formed, and these conditions lead to CH emissions.
+4
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025
+
+--- Page 10 ---
+WaterPractice&TechnologyVol16No1
+105 doi:10.2166/wpt.2020.100
+Figure3| GHGemissionfromtheindustrialWWTP.
+GHGemission minimization results
+Operational conditions (hydraulic retention time (HRT) and solids retention time (SRT)) were modi-
+fied to decrease the GHG emissions. For the result of an HRT of 18 hours and SRT of 20 days, it is
+possible todecreasetheGHGemissionsdeterioratingtheeffluentquality.WithdecreasingHRTand
+SRT, it was observed that the electricity consumption, methanol use and waste activated sludge
+amount were reduced, in parallel. Hence, the GHG emission was minimized as the result of this
+reduction. Also, it was obvious that on-site CO and CH emission reduced at these operating con-
+2 4
+ditions. BOD and COD removal were decreased as the result of shortening the operating
+parameters. So, on-site GHG emissions were lower due to low BOD and COD removal. If HRT
+and SRT are long, GHG emission is higher. The results and comparison of the GHG emission mini-
+mization are given in Table 5.
+AsseenfromTable5,asignificantreductionofGHGemissionwasachievedwithasimpleprocess
+modification technique. At 18h of HRT and 20d of SRT for extended aeration activated sludge
+Table5 | GHGemissionminimizationresults
+Parameter HRT(24h)þSRT(22d) HRT(18h)þSRT(20d) GHGemissionminimizationresult(%)
+B(kg/m3) 2.333 2.267
+C(kg/m3) 3.746 3.406
+L (kg/d) 65.5 60.5
+methanol
+EC ,(kWh) 12,078 8,078
+total
+EC (kWh) 9,467 5,989
+blower&airpumps
+EC (kWh) 2,611 2,089
+sludgepumps
+L (kglime/kgsludge) 1.31 1.31
+lime
+L (kgsludge/d) 6,808.48 6,353.76
+sludge
+GHGE 4,080.4 3,928.2 3
+on-site
+GHGE 3,016.5 2,875.4 4
+on-site,CH4
+GHGE 1,063.9 1,052.8 1
+on-site,CO2
+GHGE 10,025.46 7,767.83 22
+off-site
+GHGE 14,105.86 11,696.03 17.1
+Downloaded from http://iwaponline.com/wpt/article-pdf/16/1/96/835855/wpt0160096.pdf
+by guest
+on 25 November 2025

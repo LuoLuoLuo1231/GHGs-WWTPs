@@ -1,0 +1,681 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment699(2020)134157
+ContentslistsavailableatScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+N O emission in full-scale wastewater treatment: Proposing a refined
+2
+monitoring strategy
+Wenzel Grubera,b,⇑ , Kris Villeza, Marco Kipfa, Pascal Wunderlina, Hansruedi Siegrista, Liliane Vogta,b,
+Adriano Jossa
+aEawag:SwissFederalInstituteofAquaticscienceandTechnology,CH-8600Dübendorf,Switzerland
+bInstituteofEnvironmentalEngineering,ETHZürich,CH-8093Zürich,Switzerland
+h i g h l i g h t s g r a p h i c a l a b s t r a c t
+(cid:1)Long-termN Oemissiondatasetof
+2
+threedifferentactivatedsludge
+systems.
+(cid:1)Significantspatialandtemporal
+emissionvariationonallthree
+treatmentplants.
+(cid:1)Guidingprinciplesformonitoringon
+wastewatertreatmentplantswith
+opentanks.
+(cid:1)Separaterejectwatertreatmentcan
+reduceoverallN Oemissions.
+2
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Nitrous oxide (N O) emissions from wastewater treatment contribute significantly to greenhouse gas
+2
+Received5July2019 emissions.Theyhavebeenshowntoexhibitastrongseasonalanddailyprofileinpreviouslyconducted
+Receivedinrevisedform22August2019 monitoringcampaigns.However,onlytwoyear-longonlinemonitoringcampaignshavebeenpublished
+Accepted27August2019
+todate.Basedonthreemonitoringcampaignsonthreefull-scalewastewatertreatmentplants(WWTPs)
+Availableonline27August2019
+with different activated sludge configurations, each of which lasted at least one year, we propose a
+refined monitoring strategy for long-term emission monitoring with multiple flux chambers on open
+Editor:JayGan
+tanks. Our monitoring campaigns confirm that the N O emissions exhibited a strong seasonal profile
+2
+andweresubstantialonallthreeplants(1–2.4%ofthetotalnitrogenload).Theseresultsconfirmthat
+Keywords:
+N Oisthemostimportantgreenhousegasemissionfromwastewatertreatment.Thetemporalvariation
+Activatedsludge 2
+Biologicalnitrogenremoval wasmoredistinct thanthespatialvariationwithinaeration tanks.Nevertheless,multiple monitoring
+Greenhousegases spotsalongasinglelanearecrucialtoassessrepresentativeemissionfactorsinflow-throughsystems.
+Nitrousoxide Sequencingbatchreactorsystemswereshowntoexhibitcomparableemissionswithinonereactorbut
+Wastewatertreatment significantvariationbetweenparallelreactors.Theresultsindicatethatconsiderableemissiondifferences
+between lanes are to be expected in cases of inhomogeneous loading and discontinuous feeding. For
+example,N Oemissioncouldbeshowntodependontheamountoftreatedrejectwater:laneswithout
+2
+emitted<1%oftheinfluentload,whileparallellanesemittedaround3%.Incaseofinhomogeneousload-
+ing,monitoringofmultiplelanesisrequired.Ourstudyenablesrobustplanningofmonitoringcampaigns
+onWWTPswithopentanks.Extensivefull-scaleemissionmonitoringcampaignsareimportantasabasis
+⇑
+Correspondingauthorat:InstituteofEnvironmentalEngineering,ETHZürich,CH-8093Zürich,Switzerland.
+E-mailaddress:wenzel.gruber@eawag.ch(W.Gruber).
+https://doi.org/10.1016/j.scitotenv.2019.134157
+0048-9697/(cid:1)2019ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+2 W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157
+forreliabledecisionsaboutreducingtheclimateimpactofwastewatertreatment.Morespecifically,such
+datasetshelpustodefinegeneralemissionfactorsforwastewatertreatmentplantsandtoconstructand
+criticallyevaluateN Oemissionmodels.
+2
+(cid:1)2019ElsevierB.V.Allrightsreserved.
+1.Introduction long-term monitoring on open tanks are not yet available. Since
+manyWWTPsinindustrializedcountriesareequippedwithopen
+Nitrous oxide (N O) emissions have a strong impact on the tanks, long-term online monitoring campaigns on uncovered
+2
+environment. N O has a global warming potential 300 times WWTPsarecrucialtoestablisharepresentativeN Oemissionfac-
+2 2
+greater than that of carbon dioxide and is emitted in significant torforgreenhousegasreporting(Panetal.,2016).
+quantities across the globe (Stocker et al., 2013). Additionally, it N Oemissionsfromopentanksaretypicallycollectedwithflux
+2
+is considered the most important ozone-depleting substance of chambers (Chandran et al., 2016). Another possible approach to
+anthropogenic origin (Ravishankara et al., 2009). Wastewater monitor the emissions are the application of a measurement for
+treatment (WWT), in particular biological nitrogen removal, has dissolvedN2O via i)Clark-Typeelectrodes (Marques etal., 2014)
+been shown to produce N O (Hanaki et al., 1992). Even if only or ii) stripping of N2O from a sludge sample (Mampaey et al.,
+2
+small amounts of the influent nitrogen load are emitted as N O, 2015) combined with an air stripping model (Marques et al.,
+2
+it can represent the dominant greenhouse gas emission of a 2014). Due to the potentially high spatial heterogeneity of N O
+2
+wastewater treatment plant (WWTP): Two year-long monitoring emissions within a treatment process, measurements at various
+campaigns, at Kralingseveer in the Netherlands (Daelman et al., spotsonaWWTParerequiredtoarriveatarepresentativemea-
+2015)andViikinmäkiinFinland(Kosonenetal.,2016),foundthat surement of the N O emission factor for an entire WWTP
+2
+N O constituted the majority (78% and 86%) of the total green- (Aboobakaretal.,2013;Panetal.,2016).Forthispurpose,aflux
+2
+house gas emissions of the WWTP (Daelman et al., 2013b; chamber based monitoring approach is more appropriate than a
+Kosonenetal.,2016).Inthesestudies,2–3%oftheinfluentnitro- dissolved N O measurement based monitoring, due to i) signifi-
+2
+genloadwasemittedasN O. cantlyhighercostsforadditionalpointmeasurementsandii)that
+2
+The IPCC guidelines, which were updated in 2019, suggest an quantifying stripping efficiency with sufficient accuracy is not a
+emissionfactorof1.6%ofthetotalnitrogenload.Thevalueisan simpletaskatfull-scale.N Oemissionsfromactivatedsludgelanes
+2
+average of current short-term and long-term monitoring cam- with open reactors operated in parallel have not yet been com-
+paigns(IPCC,2019).Basedonthenewvalueitcanbeexpectedthat pared,althoughthisisanimportantstepin assessingplant-wide
+N O from wastewater contributes significantly more to the total emissionfactors.
+2
+N O emissions than previously assumed 3.1% for Europe in 2017 ThepresentstudyproposesarefinedstrategytoquantifyN O
+2 2
+(EEA,2017).Foralmostallofthecountries,thecalculationswere emissionfactors for biological treatmentin open tanks, based on
+based on the previously used, significantly lower emission factor long-termhigh-resolutionmonitoringcampaignsonthreemunic-
+of0.035%(Czepieletal.,1995;EEA,2017). ipal WWTPs in Switzerland with three different activated sludge
+No quantitative model currently explains both long-term and configurations. At each plant, multiple spots were monitored at
+short-termN Oemissiondynamics.Althoughlong-termmonitor- highresolution(10–15min)over morethanone year. A decision
+2
+ingstudiesconfirmsignificantemissionvariationonayearlyscale, tree is proposed for planning the number of sampling points
+no modelling study covering more than a few months has been required by the type of treatment plant and operational choices
+published (Ni and Yuan, 2015). Without significant advances in (e.g. feeding regimes). All monitoring data and operational data
+long-term emissions modelling, monitoring campaigns remain seriesaremadeavailableathighresolutioninthesupplementary
+necessarytodetermineemissionfactors andprovideasolid data data.
+basis for validating the current emission models (Vasilaki et al.,
+2019).
+Emissionfactorshavebeenreportedrangingfrom0.01%to25% 2.Method
+oftheincomingnitrogenload(Ahnetal.,2010;Kampschreuretal.,
+2009). Although emissions vary significantly between treatment 2.1.Fieldsites
+plantsandprocesses,thewiderangeofemissionfactorsassessed
+canatleastpartlybeattributedtodifferencesinmonitoringstrate- N O emissions were monitored in three Swiss municipal
+2
+giesandmethods(Kosonenetal.,2016).Aconsensusonagener- WWTPsoperatedwithdifferentactivatedsludgeprocessconfigu-
+ally accepted emission factor has yet to be reached. Because rations:aconventionalactivatedsludgeprocess(CAS),analternat-
+emissions have been found to vary greatly over the year as well inglyfedandintermittentlyaeratedactivatedsludgeprocess(A/I),
+as over single days, a representative quantification of N O emis- andasequencingbatchreactoractivatedsludgeprocess(SBR).Key
+2
+sions requires long-termonline measurement,whichis currently numbersandgeneralinformationontheWWTPsaresummarized
+rarely applied (Kosonen et al., 2016). Preferably, measurement inTable1.
+campaigns should cover the complete annual temperature range CAS plant: The nitrogen load of 125,000 PE exceeds the COD
+of the incoming wastewater at a time resolution of <30min load, since the WWTP treats the sludge containing reject water
+(Daelmanetal.,2013a). of other plants in the region. After pretreatment, most of the
+In both published long-termmonitoringcampaigns, fully cov- wastewateristreatedwithaconventionalactivatedsludgeprocess
+eredWWTPsweremonitoredby measuringtheN O off-gascon- onthreelanes.Duringthewinterseason,theanoxiczoneisaerated
+2
+centration in the centrally collected off-gas (Daelman et al., completely, and denitrification is reduced. Additionally, eight
+2015; Kosonen et al., 2016). The application of this monitoring fixed-bed biofilm reactors (Biostyr(cid:3)) are operated in parallel to
+approachisonlypossibleonfullycoveredWWTP.Todate,nostud- treattherestofthewastewater.Theseareequippedwithalower
+ies have been published of monitoring campaigns over a year or anoxic zone and an aerobic zone above this. During low influent
+longer on WWTPs with open tanks. Hence, guiding principles for flow, only two regularly switched fixed biofilm reactors are
+
+--- Page 3 ---
+W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157 3
+Table1
+FeaturesandkeynumbersofthemonitoredWWTP.A/I:alternating/intermittingfeedplant;CAS:conventionalactivatedsludge;CH:Switzerland;SBR:sequencingbatch
+reactor.PE:Personequivalent.
+Process CAS A/I SBR
+Location Altenrhein(CH) Lucerne(CH) Uster(CH)
+Wastewaterdesignload(m3/d) 30,000 90,000 15,000
+Biologicaltreatmentdesignload(PE) 70,000 250,000 40,000
+Pretreatment ScreeningGritPrimarysettler ScreeningGritPrimarysettler ScreeningGritPrimarysettler
+Laneswithsegratedsludges 3 6 6
+(dividedinto2sublanes) (dividedinto2sublanes)
+Aerobicsludgeage(days) Winter:12Summer:10 Winter:14Summer:10 Winter:12Summer:8
+Dissolvedoxygenconcentration(mgO2/l) 2 2 2
+Nitrogenremovalrate(%) 65 75 40
+Nitrificationdischargelimit(mgNH4+-N/l) 2 2 2
+operated. On average, the fixed-bed system treats 30% of the inganareaof1m2(SectionA2intheSI).Incontrasttothestan-
+wastewater. dardmethod,anopenoutlettube,withadiameterof50mmand
+Rejectwaterwasbypassedaroundoneactivatedsludgelaneat length of 500mm, was installed on top of the flux chambers as
+Altenrhein WWTP over a period of two months (March 2016 to an off-gas pipe (Chandran et al., 2016). A small share of the off-
+May 2016).Theexperimentwas then repeatedoneyearlater for gas (1l/min) was diverted through a tube with a diameter of
+threemonths(December2016toMarch2017).Intheexperiments, 5mm from the off-gas pipe’s base to the central measuring unit.
+rejectwaterwasdosedaftertheprimaryclarifierinsteadofbefore Thegaswasdehumidifiedbycooling(JCPSL,JCT,WienerNeustadt,
+it. The surplus reject water was shared in a ratio of two to one AUT). The N O concentrations were measured with a non-
+2
+between the remaining activated sludge lanes and the fixed-bed dispersive infra-red sensor (X-stream, Emerson, St. Louis MO,
+reactor.Therejectwatersupplytothefixed-bedandtheactivated US). The device measures at a controlled, constant temperature
+sludge process was controlled and monitored separately by flow of60(cid:4)C.Measurementswerespatiallyresolvedwithanautomated
+measurement(Endress+Hauser,PromagP).Emissionsweremoni- valve system preceding the dehumidifier and the analyzer. This
+toredonbothlaneswithandwithoutrejectwater,withthreefloat- enablesthemeasurementoftheoff-gascompositionsequentially
+inggashoodsperlane. atseveralspotswithintheWWTP,asintheprocedurepresented
+AIplant:Thebiologicaltreatmentcomprisessixlaneseachcon- by Pan et al. (2016). The off-gas sampling location was changed
+sistingoftworeactorsof5500m3.Oneofthereactorsineachlane every 4 to 6min.The first 2min after switching were ignored to
+isalwaysfilling.Inthemiddleofacycle,theinfluentisdirectedto accountforpurgingoftheconnectionhose,whichhadamaximum
+the other reactor. During the filling, the reactors are operated in dead volume of 1.2l. The N O measuring range spanned from
+2
+plug-flowmode,startingwithananoxicphasefollowedbyanaer- 0ppm to 1000ppm. The detection limit was 1ppm. The devices
+obictreatment(main-aeration).Afterfilling,thereactorsareoper- were serviced and calibrated according to the manufacturer’s
+atedinbatchmode.However,thereactorscannotbeassumedto instructions.
+befullymixed,sincelongitudinalmixingislimitedduetotherect- The Altenrhein WWTP was monitored with six to seven flux
+angular shape of the reactors. The cycle time is at least 1.5h in chambers: two activated sludge lanes, with three flux chambers
+summerand2hinwinterandincludesa1hfillingtimeandavari- each according to the scheme in Fig. A2 (SI) and one to three on
+able aeration time, depending on the NH+ concentration. Subse- biofilm fixed-bed reactors. Each hood was monitored for 5min,
+4
+quently, one post-aeration reactor per lane (6(cid:3)1600m3) allows resulting in a measurement at each spot every 30min. The off-
+thenitrificationdischargelimitof2mgNH+-N/Ltobesafelymet. gaswasmonitoredfor16months(fromDecember2015toMarch
+4
+Anoxiccyclesareshortenedorcanceledatlowtemperaturesdur- 2017).Dailyinfluentnitrogenloadswereobtainedwithflowpro-
+ing the winter season to enable sufficient nitrification. During portional composite samples for nitrogen (Hach, LCK338) mea-
+anoxicperiods,theactivatedsludgeismixedatintervalsbypulses suredbytheplantoperatorstwiceaweek.
+ofcoarsebubbleaeration,andfinebubbleaerationisusedtoaerate The N O emissions of two out of six A/I-reactors were moni-
+2
+themixedliquor. toredat LucerneWWTPfor 19monthsbetweenMarch2014and
+SBR plant: A sequencing batch reactor system with activated September 2015. Four flux chambers were installed according to
+sludgewas monitored atUster WWTP (Uster, Switzerland). Most theschemeinFig.S1(SI):threeononelaneandoneonaseparate
+SBR cycles last about 6h and exhibit a fixed sequence of opera- lane. Each hood was monitored for 5min, leading to a sample at
+tionalphases:30minto1hoffeeding,about3hofreactionphase each spot every 15min. Daily influent nitrogen loads were
+(anoxic, aerobic), 1.5h settling phase, and 0.5h decanting. The obtained with flow proportional composite samples for nitrogen
+reaction phase ends as soon as the target NH+ concentration is (Hach,LCK338)measuredbytheplantoperatorstwiceaweek.
+4
+reached. During the winter season, an anoxic phase is skipped AttheUsterWWTP,theemissionsofallsixSBRreactorswere
+completely,anddenitrificationisreduced.Inthesummerseason, monitored betweenMarch 2018 and April 2019. On each reactor
+the anoxic phase is set to a maximum of 25min. Depending on afluxchamberwasinstalled.Ononereactor(SBR3),threecham-
+theinfluentload,theanoxicphasecanbeskippedalsoinsummer. berswereinstalledtoresolvethespatialvariationoftheemissions.
+For each plant, the plant layout is shown in the supporting Eachhoodwasmonitoredfor3min,resultinginameasurementat
+information(SI)inFigs.S1,S2,andS3. each spot every 20min. Daily influent nitrogen loads were
+obtained with flow proportional composite samples for nitrogen
+2.2.N Omeasurementandmonitoring (Hach,LCK338)measuredbytheplantoperatorstwiceaweek.
+2
+The positioning of the hoods on the reactors are visualized in
+An adapted version of the flux chamber method was used for Figs.1-3.Foreachplant,adatasetwiththemonitoringdata,oper-
+the assessment of the gaseous emissions from the open tanks ationaldataandstandardwastewaterindicesisprovidedinSI.The
+(Chandran et al., 2016). Gas emissions were collected with four respectiveresolutionwaschosenaccordingtothefrequencyofthe
+toninefluxfloatingchamberspersamplingcampaign,eachcover- gasmeasurement.
+
+--- Page 4 ---
+4 W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157
+Gas hood Gas hood
+3
+1 2
+Lane 2 Lane 1
+Main aeration Post aeration
+4
+Anoxic/Aerobic zone
+5 6 4
+Aerobic zone
+Lane 2
+Fig.2. MonitoringsetupoftheLucerneWWTPmonitoringcampaign.
+Gas hood
+Lane 1 2 1
+SBR 2 SBR 1
+1
+Anoxic/Aerobic zone
+6 3 4
+2 3 5
+Aerobic zone SBR 4 SBR 3
+Fig.1. MonitoringsetupoftheAltenrheinWWTPmonitoringcampaign.
+SBR 6 SBR 5
+2.3.CalculationofN Oemissions
+2
+8 7
+The air flow supplied to the reactor was estimated via the
+blowerspeedrecordedatintervalsof1min.Emissionswerecalcu-
+lated in 1min intervals for the aerated phases only by linearly
+interpolatingthemeasuredN Oconcentrations.TheN Onetflux Fig.3. MonitoringsetupoftheUsterWWTPmonitoringcampaign.
+2 2
+was calculated according to the formula provided by Aboobakar
+whereFisthenetN Oflux[kgN O-N/min],CisthemeasuredN O
+etal.(2013):theairflowsuppliedtoeachreactorsectionequipped concentrationinthe2 off-gas[kgN2 O-N/m3],Qairisairflowsuppli2
+ed
+withafluxchamberandtherespectiveN 2Oconcentrationwascal- bytheblower[m3/min],AHisthe2
+numberofairblowersattributed
+culated according to Eq. 1 (Aboobakar et al., 2013). Monthly and to a specific flux chamber [(cid:6)], and AT is the total number of air
+yearlyaveragevaluesofthenitrogenload,measuredin24hcom- blowersinthereactor[(cid:6)].
+positesamples,wereusedtocalculatetheN Oemissionsrelative
+2
+totheinfluentnitrogenload.Forlaneswithinhomogeneousinflu-
+ent distribution among lanes (Altenrhein WWTP, Uster WWTP), 3.Resultsanddiscussion
+assumptionsontherespectiveloadsweremadeaccordingtocom-
+positesamplestakenbytheoperators. 3.1.Significantemissionvariationonayearlyscale
+(cid:1) (cid:3)
+AH
+F¼C(cid:4)Qair(cid:5) ð1Þ The measured N 2O emissions from the monitored activated
+AT
+sludgeconfigurationsallexhibitasimilarstrongseasonalpattern
+
+--- Page 5 ---
+W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157 5
+when plotted as a function of time (Fig. 4). Emissions occurred notaspronouncedasintheotherstudies,whichcouldbelinked
+mainly in one half-year (December–May), and they were very to the higher wastewater temperatures (20–40(cid:4)C) (Kosonen
+low in the other half-year (June–November). Daelman et al. et al., 2016). Additionally, the wastewater temperatures at Viik-
+(2015) also reported a seasonal emission pattern with similarly inmäki WWTP do not exhibit the seasonal profile typical of
+highdifferencesonayear(Daelmanetal.,2015).EmissionsatKral- WWTPs connected to combined sewer systems in the temperate
+ingseveer showed a very similar temperature variation, but their climatezone.Theemissionvariationmonitoredinthisstudycon-
+yearlypeakshiftedtowardsthetemperaturerisebetweenMarch firms the necessity of long-term ((cid:7)1year) monitoring for the
+and June. Overall, the period of the emission peaks in this study assessmentofemissionfactors(Daelmanetal.,2013a).
+weremoredistinctandshorterduringthecampaignsinthisstudy Apotentialcauseforthehighemissionvariationcouldbefail-
+thanattheKralingseveer WWTP.Theseasonalemissionpatterns ureofnitrification.IntheLucerneandtheUstercampaign,nitrite
+assessed by Kosonen et al. (2016) at the Viikinmäki WWTP were concentrations peaked with N O emissions, which could be
+2
+a)
+Conventional activated sludge (Altenrhein WWTP)
+6 25
+5
+20
+4
+15
+Lane 1
+3 Lane 2
+Temperature 10
+2 Mitigation test
+AN AN
+5
+1 :2 :2
+enaL enaL)C°(
+0 0
+15 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17
+Dec Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar
+b)
+A/I acitvated sludge (Lucerne WWTP)
+14 25
+)d/Ngk(snoissime
+12
+20
+10 erutarepmet
+15
+8
+6
+ON Lane 1 10
+2 Temperature retaW
+4
+egarevA
+5
+2
+0 0
+14 14 14 14 14 14 14 14 14 14 15 15 15 15 15 15 15 15 15
+Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr May Jun Jul Aug Sep
+c)
+SBR activated sludge (Uster WWTP)
+20 25
+20
+15
+SBR 1 15
+10 SBR 2
+SBR 3
+10
+SBR 4
+SBR 5
+5 SBR 6
+5
+Temperature
+0 0
+18 18 18 18 18 18 18 18 18 18 18 19 19 19 19
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan Feb Mar Apr
+Fig.4. a)MonthlymeanN2Oemissionsoftheactivatedsludgelane1andthefixed-bedreactor,andwastewatertemperaturesatAltenrheinWWTP.Greybackground
+indicatestimeswhenrejectwaterwasomittedfromthefeedtolane.Theactivatedsludgelanes2and3andthefixedbedreactorstreatedalltherejectwaterduringthis
+period.InDec15,Jan16lane2wasnotmonitoredb)MonthlymeanN2OemissionsandwastewatertemperaturesatLucerneWWTPc)MonthlymeanN2Oemissionsand
+wastewatertemperaturesatLucerneWWTP.
+
+--- Page 6 ---
+6 W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157
+Table2 studiespublished,whereN Oemissionfactorsof2.8%werefound
+2
+Yearly average emissions and standard deviations assessed in the monitoring by Daelman et al. (2015) (Kralingseveer WWTP) and 1.9% by
+campaigns;L:lanenumber.CAS:conventionalactivatedsludgeplantofAltenrhein;
+Kosonenetal.(2016)(ViikinmäkiWWTP).
+A/I:alternating/intermittingplantofLucerne;SBR:sequencingbatchreactorofUster,
+Consideringallpublishedlong-termmonitoringcampaigns,the
+allsixlanesmonitoredseparately.
+averageemissionfactoris1.9%,whichisinthesamerangeasthe
+WWTP Yearlyaverageemissions Standard
+value suggested by the IPCC guidelines (1.6%). However, more
+deviation
+long-termcampaignsarerequiredgiventhesite-specificvariation
+kgN2O-N/ %oftotalnitrogen kgN2O-N/year
+ofobservedemissionfactorsaswellasthecurrentlackofunder-
+year load
+standing differences among plant types (IPCC, 2019). Assuming
+CAS,L1 537 1.62.0 701
+thelong-termmonitoringcampaign’semissionfactor,thecontri-
+CAS,L2 749 795
+butionofwastewatertreatmenttothetotalN Oemissionswould
+A/I,L1 1204 1.0 1737 2
+SBR,L1toL6SBR, 447–1172 2.4 824–1059 increasefrom4%to19%forSwitzerland(SI).
+average 805 976 Theemissionfactorsmonitoredinthisstudyconfirmtherele-
+vanceofN OtothegreenhousegasbalanceofWWTP:itisquan-
+2
+titatively more important than the indirect emissions caused by
+expected according to literature (Colliver and Stephenson, 2000). WWTPs’ electricity consumption. An N O emission factor of 2%
+2
+However,intheLucernecampaignnitritepeakedalsoinsummer causes 40% higher emissions than a WWTP powered exclusively
+whileemissionswerelow.Anotherpotentialcauseisthereduced by coal (Larsen, 2015; Wunderlin et al., 2013). Hence, the N O
+2
+denitrificationcapacityoftheWWTPatcoldtemperatures(Conthe emissionfactorsassessedinourstudyconfirmthatN Oisthemost
+2
+etal.,2018).IntheUstercampaign,thedramaticemissionvaria- importantGHGsourcefromWWTP.
+tion among the reactors clearly speaks against this. Linear and
+non-linearregression models showthat the seasonal variationof 3.2.Lowspatialemissionvariation
+theAltenrheinandtheLucernecampaigncannotbeexplainedwith
+theavailableoperationaldata (SI).Weconcludethatat leastone Atallplants,abruptchangesfromlowemissionstohighemis-
+important driver governing the high emission variation in the sions were observed to occur over a few days. For example, at
+yearlycoursehasnotyetbeenidentified.Thenecessaryinforma- Lucerne WWTP, a 7month low emission period was terminated
+tion to solve this challenges may be extracted from newer data byanemissionrisefrom<0.2%to4%within4daysattheendof
+types,suchasmicrobiologicaldata(Stein,2018),inorganiccarbon December2014(Fig.5a).Similarly,dramaticchangesinN Oemis-
+2
+measurements (Peng et al., 2016), and concentration of iso- sionswereobservedonadailybasisatUsterWWTP,asshownin
+topomers(OstromandOstrom,2017).Forexample,themeasure- Fig. 5b. Therapid dynamichighlightsconfirmthe previouslydis-
+ment of microbial diversity and gene, protein, and metabolites cussedimportanceofonlinemonitoringapproacheswithsufficient
+expression has been applied successfully to explain variations in temporal resolution (Daelman et al., 2013a). Typical daily N O
+2
+lab-scalemeasurementsofN 2Oemissions(Geetal.,2018;Perez- emissionprofilesareshownintheSI(A3Dailyvariation).
+Garciaetal.,2014). Inthesameperiods,thespatialemissiondistributionremained
+TheyearlyaverageN 2Oemissionfactorfromthereactorsmon- relatively stable. In the monitoring campaigns of this study, the
+itoredatthethreeWWTPsaresummarizedinTable2.TheSBRsys- spatial emission variation was generally not as pronounced as
+temattheUsterWWTPexhibitedthehighestemissionswith2.4%. the temporalvariation within one lane. However, systematic dif-
+The emission values of each reactor are shown in the SI (section ferenceswerealsoseeninthisstudyintheA/IandtheCASreactors
+A4).TheA/IsystematLucerneWWTPwasshowntohavethelow- at Lucerne (Fig. 5a) and Altenrhein WWTP. In contrast, all three
+estemissionswith1%.Theaverageemissionfactorassessedinthis samplingpointsinoneSBRreactoratUsterWWTPexhibitedcom-
+studyis1.7%ofthetotalincomingnitrogenload.Thehighstandard parableN Oconcentrations(Fig.5b).
+2
+deviationsoftheemissionsreflectthestrongemissionvariability Aboobakaretal.(2013)foundhighspatialvariation(0.01–0.1%)
+(Table 2). In general, the emissions are in the same order of inaCASprocess;however,thiswaspairedwithalowoverallemis-
+magnitude as the values assessed in the other two long-term sion factor of 0.1% and a short-term emission period (Aboobakar
+a) b)
+8 8
+First part aeration SBR 3 Hood 1
+7 Second part aeration 7 SBR 3 Hood 2
+)d/Ngk( Post aeration SBR 3 Hood 3
+6 6
+egareva
+5 5
+noissime
+4 4
+yliaD 3 3
+ON 2 2
+2
+1 1
+0 0
+14 21 28 04 11 18 25 01 08 15 22 29 05 12 19
+Dec Dec Dec Jan Jan Jan Jan Mar Mar Mar Mar Mar Apr Apr Apr
+2014 2015 2019
+Fig.5. SpatialdistributionofN2Oemissionswithinonelaneasdailyaverageata)CASplant(LucerneWWTP)andb)SBRplant(UsterWWTP).
+
+--- Page 7 ---
+W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157 7
+et al., 2013). For a two-step activated sludge process, the spatial parallel-fedSBRreactorsalsoexhibitparallelN Oemissions.Itstill
+2
+distributionwasshowntobesubstantial(0.6–3.5%),withsignifi- needstobeconfirmedthatmonitoringarestrictednumberofreac-
+cantlyhigheremissionsinthesecondstep(Panetal.,2016).This torsissufficientlyrepresentativeinthiscase.
+is to be expected, since nitrification occurs predominantly in the
+second step. It is hypothesized that multiple measuring points
+3.4.Refinedmonitoringstrategy
+arerequiredifsubstrategradientsordifferentaerationstrategies
+areappliedalongalane.Thisistypicallythecaseforlanesfeatur-
+The monitoring campaigns described above allow a refined
+ingplug-flowcharacteristics.Multiplemeasurementpointsarenot
+monitoringstrategytobederivedforassessingN Oemissionfac-
+requiredinasingleSBRreactor. 2
+tors and for generating data for identification and validation of
+full-scaleGHGemissionmodels.
+Bothemissionfactorsandmodelsshouldbebasedondataser-
+3.3.Howmanylanestomonitor?
+iesof at least a 1year duration, sinceseasonal emissionpatterns
+can be very conspicuous (Fig. 4; (Daelman et al., 2015; Kosonen
+Theemissionsfromparallellanesinbothplantswithcontinu-
+etal.,2016).Giventheshort-termvariability,asamplingfrequency
+ous feeding (CAS, A/I) exhibited strong variations from day to
+higherorequaltotwiceperhourforeachpointofmeasurementis
+day, but these were reproducible across lanes even though these
+required(Daelmanetal.,2013a).Foraflux-chamber-basedmoni-
+were operated with completely separated activated sludges
+toring study of open reactors, the choice of the number and the
+(Fig. 6a). In cases of uneven substrate load distribution between
+positioningoffluxchambersiscrucialtoassessingarepresentative
+lanes,emissionscanbesignificantlydifferent.Twomitigationtest
+emissionfactor.Adecisiontreeforsucharepresentativemonitor-
+phasesbetweenMarch16andApril16andbetweenNovember16
+ingcampaignisprovidedinFig.7.
+andMarch17atAltenrheinWWTPprovideanextremeexample:
+Todesignasamplingcampaign,thefollowingcriteriaarecon-
+Duringthese phases,lane 2 treated partof thereject waterfrom
+sideredcrucial:
+thesludgetreatment,butlane1didnot.Duringthesecondperiod,
+N Oemissionsfromlane2increaseddramaticallytovaluesaround
+2
+a) Homogenous influent and continuous feeding of all lanes:
+6kgN O-N/d.Emissionsfromlane1remainedlowatroughly1kg
+2
+All lanes fed simultaneously and performing comparably
+N O-N/d.Theresultingemissionsrelativetothe influentload for
+2
+(i.e.suppliedwithcomparableamountsofairandexhibiting
+lane1andlane2were0.7%and2.7%duringthefirstexperiment
+similar soluble O concentration and effluent concentra-
+and0.5%and3.1%duringthesecondexperiment.Theincreasein 2
+tions)canbeassumedtoexhibitcomparableN Oemission
+N Oemissionsof80%wasclearlyhigherthantheincreaseinnitro- 2
+2
+dynamics(Fig.6a).Inhomogeneousinfluentmayresultfrom
+genloadof30%.
+WWTP-internal recycles (e.g. supernatant from digesters;
+Itisexpectedthatinhomogeneousinfluentloadcanbecaused
+Fig. 6b) or from incomplete mixing of the influent sewage.
+not only by WWTP-internal recycles but also other factors, such
+At most full-scale sites, it is easier to identify feed hetero-
+asincompletemixinginthesewersystemorunevenpreferential
+geneity by comparing key performance indicators among
+flows in the influent distribution. Key performance indicators of
+lanesthanbysamplingtheinfluentofdifferentlanessepa-
+the WWTP, such as oxygen requirement and effluent concentra-
+rately. Also, in cases of intermittent feeding not occurring
+tion, are expected to be indicative of inhomogeneous influent
+simultaneously for different lanes, separate monitoring is
+loads.
+required due to variations in the distribution of the daily
+Emissionfromdiscontinuouslyfedreactorsmayexhibitdiffer-
+incomingload.
+ent emission profiles, as was seen in the monitored SBR system
+b) Mixingconditions:reactorsthatarecompletelystirreddur-
+(Fig. 4c). The monthly average emissions of all reactors differed
+ing aeration do not require multiple off-gas measuring
+substantially during the whole monitoring campaign. Based on
+points(Fig.5b);thisismostlythecaseforSBRreactors.
+the finding from parallel CAS lanes (Fig. 6a), it is expected that
+a) b)
+Lane 1 Lane 2 Mitigation test No measurement
+2 9
+8
+)d/Ngk( 1.5 7
+6
+egareva
+snoissime 5
+1
+4
+yliaD
+3
+ON2 0.5
+2
+1
+0
+0
+Jul Aug Sep Oct Dec Jan Feb Mar
+2016 2016 2017
+Fig.6. N2OemissionsoftwoparallelactivatedsludgelanesoperatedwithseparatedsludgelanesatAltenrheinWWTPduringa)thesameinfluentcompositionandb)
+differentinfluentcomposition:activatedsludgelane1wasoperatedwithoutrejectwatersinthefeed;activatedsludgelane2wasfedwithwastewatercontainingreject
+water.
+
+--- Page 8 ---
+8 W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157
+CSTR
+No or batch
+Yes Plug flow
+No No
+Yes Yes
+Fig.7. Decisiontreefortheselectionofthenumberoffluxchambersandtheplacementonaparticularlane.H=totalnumberoffluxchambers,L=numberoflanestobe
+monitored,S=numberoffluxchamberspermonitoredlane.
+c) Cascadedlanes:Lanesfeaturingspatialconcentrationgradi- heinWWTP,about80%oftheemissionscouldbereduced,sothe
+entsrequireanadequatenumberofmeasuringpoints.This emission increase during winter could be avoided almost com-
+isalsothecaseifthedensityofaerationunitsvariesalong pletely.Thefactthatthisresultedfromreducingtheinfluentnitro-
+a lane:each section requiresone measuringpoint.A mini- genloadbyonly30%showsthatquantitativemodellingcannotbe
+mumofthreemeasuringpoints(e.g.after1/6ofthereactor basedonsimplelinearcorrelationwithstandardparameters.This
+length, in the middle and at 5/6) is suitable when a lane promisingresultalsoconfirmsthepracticalvalueofabetterquan-
+exhibitsnosubdivisionintocascadesandaeratorsareevenly titative understanding of these emissions, since solutionsfor sig-
+distributed(Fig.5a). nificantlyreducingthemarefeasibleinatleastsomecases.
+4.Conclusions
+3.5.Outlook
+(cid:1) ThisstudyconfirmsthehighN Oemissionfactorssuggestedin
+Givena)thatshortandlong-termN Oemissionvariationsare 2
+2 recent literature for three different activated sludge process
+conspicuous, and b) that no model is available that can describe
+configurations: N O is the most important GHG caused by
+and quantifyall sourcesof N2O emissions,it is advisable to plan 2
+wastewatertreatment.
+monitoringcampaignswithsomeredundancy,suchasinthenum-
+(cid:1) The temporal emission variation (short- and long-term) was
+ber of measuring points. Nevertheless, it must be acknowledged
+shown to be significant for all process configurations, while
+thattheuncertaintyofamonitoringcampaignisnotonlydepen-
+thespatialemissionsvariationalongasinglelaneisonlysignif-
+dent onthenumberand positioningofthe measuringpointsbut
+icant in flow through systems with plug-flow characteristics.
+alsoonsuchotherfactorsasthelong-termaccuracyofthemeasur-
+Here,multiplemonitoringspotsarerequiredperlane.
+ingdeviceandemissionchangesfromyeartoyear(Fig.4b).
+(cid:1) On WWTPs with inhomogeneous loading or discontinuous
+Reliable monitoring strategies applicable to a range of treat-
+feedingofdifferentlanes,monitoringofalloratleastrepresen-
+ment schemes are deemed of great importance to improving
+tativelanesisrequiredtocalculateemissionfactorsreliably.
+understanding of the mechanisms relevant to N O emissions in
+2 (cid:1) A separate reject water treatment is a promising strategy to
+WWTPs (Vasilaki et al., 2019). Since the majority of WWTPs are
+mitigateN Oemissionsfrombiologicaltreatment.
+composed of open reactors, a flux-chamber-based measurement 2
+approach is required. The present paper therefore contributes to
+acriticalevaluationofthisoff-gassamplingmethod.Asignificant DeclarationofCompetingInterest
+simplification of the required monitoring effort is expected only
+oncealltheimportantparametersinfluencingN Oemissionhave Theauthorsdeclarenoconflictsofinterest.
+2
+been identified and a reliable model is available. At present, we
+consider the number of publicly available data sets describing Acknowledgements
+long-term variations in GHG emissions too low to achieve this.
+Untilthen,modelidentificationandvalidationareexpectedtobe This study was financially supported by the EU Horizon 2020
+feasibleonlywithreliableandrepresentativelong-termmonitor- Powerstep project (GA 641661) and Eawag Discretionary Funds
+ing data. Consequently, further long-term monitoring campaigns (DF14/N2Oanalysis),theSwissFederalOfficefortheEnvironment
+are necessary to establish a broadly supported emission factor (FOEN),theCantonofBern(AWA),theCantonofBasel-Landschaft
+forN Ofromwastewatertreatment(Vasilakietal.,2019). (AIB), the Canton of Zurich (AWEL), TBF + Partner AG Consulting
+2
+Theseparatetreatmentofrejectwaterwasshowntobeaneffi- Engineers,HolingerAG,Hunziker-BetatechAG,AlphaWassertech-
+cientmeasureforreducingN Oemissions(Fig.6b).IntheAltenr- nikAG,WWTPregionBern,WWTPregionBellinzona,WWTPPro-
+2
+
+--- Page 9 ---
+W.Gruberetal./ScienceoftheTotalEnvironment699(2020)134157 9
+Rheno, WWTP REAL Luzern, WWTP Zurich-Werdhölzli, WWTP Ge,J.,Huang,G.,Li,J.,Sun,X.,Han,L.,2018.Multivariateandmultiscaleapproaches
+Worblental,AbwasserverbandAltenrhein,AbwasserverbandMor- forinterpretingthemechanismsofnitrousoxideemissionduringpigmanure-
+wheatstrawaerobiccomposting.Environ.Sci.Technol.52,8408–8418.
+gental,EntsorgungSt.Gallen.WeareextremelygratefultoAlexan-
+Hanaki, K., Hong, Z., Matsuo, T., 1992. Production of nitrous oxide gas during
+derKleiner,ChristophEgli,JörgRingwald,MarkusHürlimann,Arne denitrificationofwastewater.WaterSci.Technol.26,1027–1036.
+Zumbach,andUeliAlderformakingtheirplantsavailableformon- IPCC,2019.Chapter5.6wastewatertreatmentanddischarge.In:Bartram,D.,Short,
+M.D.,Ebie,Y.,Farkaš,J.,Gueguen,C.,Peters,G.M.,etal.(Eds.),2019Refinement
+itoring campaigns. Special thanks go to Eberhard Morgenroth,
+tothe2006IPCCGuidelinesforNationalGreenhousegasInventories.IPCC.
+Luzia von Känel and Daniel Braun for very helpful discussions, Kampschreur,M.J.,Temmink,H.,Kleerebezem,R.,Jetten,M.S.,vanLoosdrecht,M.C.,
+andtoSimonMilliganforlanguagerevisionsduringtheprepara- 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43,
+4093–4103.
+tionofthemanuscript.Furthermore,wewanttothankKarinRot-
+Kosonen,H.,Heinonen,M.,Mikola,A.,Haimi,H.,Mulas,M.,Corona,F.,etal.,2016.
+termannandSylviaRichterfortheirhelpwiththephysicochemical Nitrousoxideproductionatafullycoveredwastewatertreatmentplant:results
+analyses of all samples and Luzia von Känel for the data ofalong-termonlinemonitoringcampaign.Environ.Sci.Technol.50,5547–
+5554.
+management.
+Larsen,T.A., 2015.CO2-neutral wastewatertreatment plantsorrobust, climate-
+friendlywastewatermanagement?Asystemsperspective.WaterRes.87,513–
+AppendixA.Supplementarydata 521.
+Mampaey,K.E.,vanDongen,U.G.,vanLoosdrecht,M.C.,Volcke,E.I.,2015.Novel
+methodforonlinemonitoringofdissolvedN2Oconcentrationsthroughagas
+Supplementary data to this article can be found online at strippingdevice.Environ.Technol.36,1680–1690.
+https://doi.org/10.25678/0003H2 and https://doi.org/10.1016/j. Marques, R., Oehmen, A., Pijuan, M., 2014. Novel microelectrode-based online
+system for monitoring N2O gas emissions during wastewater treatment.
+scitotenv.2019.134157.
+Environ.Sci.Technol.48,12816–12823.
+Ni,B.J.,Yuan,Z.,2015.Recentadvancesinmathematicalmodelingofnitrousoxides
+References emissionsfromwastewatertreatmentprocesses.WaterRes.87,336–346.
+Ostrom,N.E.,Ostrom,P.H.,2017.Miningtheisotopiccomplexityofnitrousoxide:a
+reviewofchallengesandopportunities.Biogeochemistry132,359–372.
+Aboobakar, A., Cartmell, E., Stephenson, T., Jones, M., Vale, P., Dotro, G., 2013.
+Pan,Y.,vandenAkker,B.,Ye,L.,Ni,B.J.,Watts,S.,Reid,K.,etal.,2016.Unravelling
+Nitrousoxideemissionsanddissolvedoxygenprofilinginafull-scalenitrifying
+thespatialvariationofnitrousoxideemissionsfromastep-feedplug-flowfull
+activatedsludgetreatmentplant.WaterRes.47,524–534.
+scalewastewatertreatmentplant.Sci.Rep.6,20792.
+Ahn,J.H.,Kim,S.W.,Park,H.,Rahm,B.,Pagilla,K.,Chandran,K.,2010.N2Oemissions
+Peng,L.,Ni,B.-J.,Law,Y.,Yuan,Z.,2016.ModelingN2Oproductionbyammonia
+fromactivatedsludgeprocesses,2008-2009:resultsofanationalmonitoring
+oxidizingbacteriaatvaryinginorganiccarbonconcentrationsbycouplingthe
+surveyintheUnitedStates.Environ.Sci.Technol.44,4505–4511.
+catabolicandanabolicprocesses.Chem.Eng.Sci.144,386–394.
+Chandran,K.,Volcke,E.I.,VanLoosdrecht,M.C.M.,2016.Off-gasemissiontest.In:
+Perez-Garcia,O.,Villas-Boas,S.G.,Swift,S.,Chandran,K.,Singhal,N.,2014.Clarifying
+MCM,VanLoosdrecht,Nielen,P.H.,LópezVázquez,C.M.,Brdjanovic,D.(Eds.),
+theregulationofNO/N2OproductioninNitrosomonaseuropaeaduringanoxic-
+ExperimentalMethodsinWastewaterTreatment.IWA,London.
+oxictransitionviafluxbalanceanalysisofametabolicnetworkmodel.Water
+Colliver,B.B., Stephenson,T., 2000.Productionofnitrogen oxide anddinitrogen
+Res.60,267–277.
+oxidebyautotrophicnitrifiers.Biotechnol.Adv.18,219–232.
+Ravishankara, A.R., Daniel, J.S., Portmann, R.W., 2009. Nitrous oxide (N2O): the
+Conthe,M.,Lycus,P.,Arntzen,M.O.,RamosdaSilva,A.,Frostegard,A.,Bakken,L.R.,
+dominantozone-depletingsubstanceemittedinthe21stcentury.Science326,
+etal.,2018.DenitrificationasanN2Osink.WaterRes.151,381–387.
+123–125.
+Czepiel, P., Crill, P., Harriss, R., 1995. Nitrous oxide emissions from municipal
+Stein, L.Y., 2018. Insights into the physiology of ammonia-oxidizing
+wastewatertreatment.Environ.Sci.Technol.,2352–2356
+microorganisms.Curr.Opin.Chem.Biol.49,9–15.
+Daelman,M.R.,DeBaets,B.,vanLoosdrecht,M.C.,Volcke,E.I.,2013a.Influenceof
+Stocker,T.F.,Qin,D.,Plattner,G.K.,Tignor,M.M.B.,Allen,S.K.,Boschung,J.,etal.,
+samplingstrategiesontheestimatednitrousoxideemissionfromwastewater
+2013. Climate Change 2013 the Physical Science Basis: Working Group I
+treatmentplants.WaterRes.47,3120–3130.
+ContributiontotheFifthAssessmentReportoftheIntergovernmentalPanelon
+Daelman,M.R.,vanVoorthuizen,E.M.,vanDongen,L.G.,Volcke,E.I.,vanLoosdrecht,
+ClimateChange.
+M.C.,2013b.Methaneandnitrousoxideemissionsfrommunicipalwastewater
+Vasilaki,V.,Massara,T.M.,Stanchev,P.,Fatone,F.,Katsou,E.,2019.Adecadeof
+treatment-resultsfromalong-termstudy.WaterSci.Technol.67,2350–2355.
+nitrousoxide(N2O)monitoringinfull-scalewastewatertreatmentprocesses:a
+Daelman,M.R.,vanVoorthuizen,E.M.,vanDongen,U.G.,Volcke,E.I.,vanLoosdrecht,
+criticalreview.WaterRes.161,392–412.
+M.C.,2015.SeasonalanddiurnalvariabilityofN2Oemissionsfromafull-scale
+Wunderlin, P., Siegrist, H., Joss, A., 2013. Online N2O measurement: the next
+municipalwastewatertreatmentplant.Sci.TotalEnviron.536,1–11.
+standardforcontrollingbiologicalammoniaoxidation?Environ.Sci.Technol.
+EEA, 2017. Annual European Union Greenhouse Gas Inventory 1990–2015 and
+47,9567–9568.
+Inventory Report 2017. Technical Report no 6/2017. European Environment
+Agency,Copenhagen,Denmark.

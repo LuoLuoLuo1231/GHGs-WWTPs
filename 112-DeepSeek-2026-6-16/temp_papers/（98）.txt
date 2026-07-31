@@ -1,0 +1,599 @@
+--- Page 1 ---
+Atmos.Chem.Phys.,25,4571–4585,2025 Researcharticle
+https://doi.org/10.5194/acp-25-4571-2025
+©Author(s)2025.Thisworkisdistributedunder
+theCreativeCommonsAttribution4.0License.
+Locating and quantifying CH sources within
+4
+a wastewater treatment plant based on
+mobile measurements
+JunyueYang1,ZhengningXu1,ZhengXia4,5,XiangyuPei1,YunyeYang1,BotianQiu2,3,
+ShuangZhao2,3,YuzhongZhang2,3,andZhibinWang1,6
+1ZhejiangProvincialKeyLaboratoryofOrganicPollutionProcessandControl,MinistryofEducationKey
+LaboratoryofEnvironmentRemediationandEcologicalHealth,CollegeofEnvironmentalandResource
+Sciences,ZhejiangUniversity,Hangzhou310058,China
+2KeyLaboratoryofCoastalEnvironmentandResourcesofZhejiangProvince,SchoolofEngineering,
+WestlakeUniversity,Hangzhou310030,China
+3InstituteofAdvancedTechnology,WestlakeInstituteforAdvancedStudy,Hangzhou310024,China
+4EcologicalandEnvironmentalMonitoringCenterofZhejiangProvince,Hangzhou310012,China
+5ZhejiangKeyLaboratoryofModernEcologicalandEnvironmentalMonitoring,Hangzhou310012,China
+6ZJU-HangzhouGlobalScientificandTechnologicalInnovationCenter,
+ZhejiangUniversity,Hangzhou311200,China
+Correspondence:YuzhongZhang(zhangyuzhong@westlake.edu.cn)andZhibinWang
+(wangzhibin@zju.edu.cn)
+Received:9August2024–Discussionstarted:30September2024
+Revised:8January2025–Accepted:18February2025–Published:25April2025
+Abstract. Wastewatertreatmentplants(WWTPs)aresubstantialcontributorsofgreenhousegas(GHG)emis-
+sions because of the high production of methane (CH ) and nitrous oxide (N O). A typical WWTP complex
+4 2
+contains multiple functional areas that are potential sources of GHG emissions. Accurately quantifying GHG
+emissions from these sources is challenging due to the inaccuracy of activity data, the ambiguity of emission
+sources, and the absence of monitoring standards. Locating and quantifying WWTP emission sources using a
+measurement-based GHG emission quantification method is crucial for evaluating and improving traditional
+emissioninventories.Inthisstudy,CH mobilemeasurementswereconductedwithinaWWTPcomplexinthe
+4
+summerandwinterof2023.Weutilizedamulti-sourceGaussianplumemodelcombinedwithageneticalgo-
+rithm inversion framework, designed to locate major sources within the plant and quantify the corresponding
+CH emissionfluxes.Weidentified13mainsourcesintheplantandestimatedplant-scaleCH emissionfluxes
+4 4
+of68.78±17.40kgh−1(603.33±152.66ta−1)forthesummerand47.76±21.39kgh−1(418.95±187.59ta−1)
+for the winter. The predominant sources of CH emissions were the screen and primary clarifier, contributing
+4
+55%and67%tothetotalemissionsinsummerandwinter,respectively.Thecomparisonrevealedthatsummer
+CH emissionswere2.8timeshigherthaninventoryestimates,whilewinteremissionsweretwicetheinventory
+4
+values.Thisstudydemonstratedthatmobilemeasurements,combinedwiththemulti-sourceGaussianplumein-
+versionframework,areapowerfultooltolocateandquantifyGHGsourcesatacomplexsite,withthepotential
+forfurtherrefinementtoaccommodatedifferenttypesoffactoriesandgasspecies.
+PublishedbyCopernicusPublicationsonbehalfoftheEuropeanGeosciencesUnion.
+
+--- Page 2 ---
+4572 J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements
+4
+1 Introduction ing,uncrewedaerialvehicle(UAV)monitoring,andvehicle-
+based mobile monitoring techniques to measure CH emis-
+4
+Methane (CH ) is the second-largest contributor to cli- sions (Sun et al., 2023). However, satellite spatiotemporal
+4
+mate change, with a global warming potential 27.9 times resolution is limited and UAVs have short endurance, mak-
+that of carbon dioxide (CO ). Thus, reducing CH emis- ingvehicle-basedmobilemonitoringabetterchoiceformea-
+2 4
+sionsisessentialformitigatingclimatechangeandprogres- suringCH emissions.Vehicle-basedmobilemonitoringcan
+4
+sively achieving the global target of limiting warming to perform the continuous real-time monitoring and precise
+1.5°C (IPCC, 2023). The World Meteorological Organiza- identification of emission sources and, hence, has been ap-
+tion Global Atmospheric Watch network indicated that the pliedfortheurban(vonFischeretal.,2017;Defratykaetal.,
+global annual average concentration of CH in 2022 was 2021) and plant-scale (Zhao et al., 2021; Jin et al., 2010)
+4
+1923±2ppb, representing a 264% increase from preindus- monitoringofGHGconcentrationsandemissionfluxes.Vo-
+triallevels(WMO,2023).TheInternationalEnergyAgency geletal.(2024)usedhigh-precision,fast-responseGHGana-
+(IEA)“GlobalMethaneTracker2024”reportsuggestedthat lyzerstoinvestigateCH leaksin12citiesacrosseightcoun-
+4
+globalCH emissionsreached580Mtin2023,withanthro- tries.Chenetal.(2020)utilizedthemultiple-Gaussian-plume
+4
+pogenicCH emissionsaccountingfor60%ofthisamount. modelformobilemeasurementsofCH emissionsduringthe
+4 4
+ThecomplexityofCH emissionprocesses,thelackofmon- MunichOktoberfest.Shietal.(2023)conductedmobilemea-
+4
+itoring systems, and the limitations of emission estimation surementswithavehicle-basedmonitoringsystematchemi-
+modelspresentchallengeswithrespecttoaccuratelyestimat- cal,coalwashing,andwasteincinerationplantsintwocities
+inganthropogenicCH emissions. andoneindustrialparkinChina.
+4
+The quantification of CH emission fluxes is typically As a significant source of GHG emissions, wastewater
+4
+achieved through a bottom-up inventory method. However, treatment plants (WWTPs) generate substantial amounts of
+due to the difficulties in obtaining activity data used for ac- CH ,N O,andCO duringthecollection,treatment,anddis-
+4 2 2
+tualemissionfactorsandthepaucityofspecificinformation chargeofsewageandsludge,contributing3%oftheglobal
+on different emission sources, there is considerable uncer- total GHG emissions (Bai et al., 2022). The estimation of
+tainty in assessments using the emission inventory method CH emissionfluxesfromWWTPshasincreasinglyattracted
+4
+(Lin et al., 2021). In contrast, a top-down method that es- widespreadattention.Lietal.(2024)developedaplant-level
+timates CH emissions by monitoring the atmospheric con- andtechnology-basedCH emissioninventoryformunicipal
+4 4
+centrationhasbeenincreasinglyappliedinrecentyears(Sun WWTPs in China, estimating the CH emissions for 2020
+4
+etal.,2019;Cusworthetal.,2024;Hanetal.,2024;Maaza- to be 150.6Gg. Delre et al. (2017) measured the CH con-
+4
+llahietal.,2023;Riddicketal.,2017).Themonitoringtech- centrations downwind of five WWTPs in Scandinavia us-
+nology mainly includes satellite (Zhang et al., 2021; Liang ingtracergasdispersion,obtainingarangeofCH emission
+4
+et al., 2023; Jacob et al., 2022) and airborne (Allen et al., fluxesfrom1.1±0.1to18.1±6.3kgh−1.Mooreetal.(2023)
+2019; Abeywickrama et al., 2023; Cui et al., 2017) remote employedCH mobilemeasurementsfrom63WWTPsinthe
+4
+sensingaswellasground-basedmonitoring,suchasvehicle- USA, pointing to a significant underestimation in the CH
+4
+based mobile monitoring (Albertson et al., 2016; Al-Shalan emission inventories. However, most studies lack compar-
+et al., 2022; Caulton et al., 2018), station monitoring (Di- isons between measured and simulated concentrations, re-
+etrich et al., 2021; Hase et al., 2015; Heerah et al.,2021), sultinginsignificantuncertaintyintheresults.Wepresenta
+and tower monitoring (Richardson et al., 2017; Balashov mobilemeasurementinvestigationofaWWTPinHangzhou
+et al., 2020). Emission flux inversion methods also include in2023.Toanalyzethemobiledata,weconstructedamulti-
+the isotope tracer method (Jackson et al., 2014; Zimnoch sourceGaussianplumemodelcombinedwithageneticalgo-
+et al., 2018), the cross-sectional flux method (Luther et al., rithminversionframework,whichassistedusinlocatingand
+2019;Makarovaetal.,2021),andtheatmosphericdiffusion quantifying CH emission sources, based on the concentra-
+4
+modelinversionmethod(Kumaretal.,2021;Yacovitchetal., tion distribution measured within the WWTP. Additionally,
+2015). Atmospheric transport models with varied degrees we compared CH emission fluxes from the measurements
+4
+ofcomplexity,includingGaussiandiffusionmodels(Stadler withthebottom-upestimatesofemissioninventories.Asen-
+etal.,2021),Lagrangianmodels(McKainetal.,2015),and sitivityanalysiswasperformedtoelucidatethediscrepancies
+Eulerian models (Bergamaschi et al., 2018), are used in the arisingfromvariationsinemissionsourcelocations.Ourre-
+inversion to relate greenhouse gas (GHG) concentrations to sults provide insight into the formulation and evaluation of
+emissions. Optimization methods, such as Bayesian opti- emissionreductionmeasuresforWWTPs.
+mization (Karion et al., 2019) and linear regression models
+(Kumar et al., 2021), are applied to achieve accurate inver-
+sion results. Furthermore, some studies have incorporated
+carbon isotope observations to better attribute the contribu-
+tion of different CH emission sources (Maazallahi et al.,
+4
+2020). Numerous studies have used satellite remote sens-
+Atmos.Chem.Phys.,25,4571–4585,2025 https://doi.org/10.5194/acp-25-4571-2025
+
+--- Page 3 ---
+J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements 4573
+4
+2 Instrumentsandmethods 2.3 Inventoryaccountingmethod
+We used the methods suggested by the Intergovernmental
+2.1 Siteselection
+PanelonClimateChange(IPCC,2006)tocalculatetheCH
+4
+Withrespecttothemonitoringsite,aWWTPinHangzhou,a emissions from wastewater. The formula for calculating the
+megacityinEastChina,waschosen.ThisWWTPisalarge- CH emissionsfromwastewaterisdescribedasfollows:
+4
+scaleplant,processingupto1.5×106tofdomesticwastewa-
+terdaily.ThechosenWWTPprocessesencompassmechani- E CH4 =(TOW−S·a)·EF CH4−R CH4, (1)
+caltreatment,biologicaltreatment,sedimentation,advanced
+treatment, disinfection, and sludge treatment. As illustrated where E CH4 denotes the direct CH 4 emissions from the
+inFig.1,wedividetheWWTPinto14functionalareasac- wastewater treatment plant (tCH 4a−1), total organic waste
+cording to treatment processes. Areas associated with pri- (TOW) is defined as the total organic pollutant load in the
+mary treatment were labeled as coarse screens and primary influent wastewater (tCODa−1 – chemical oxygen demand
+sedimentationtanks,whereasthoselinkedtosecondarytreat- peryear),Sreferstotheannualproductiontotalofdrysludge
+(ta−1),theparameterasignifiestheorganicmattercontentin
+ment were indicated as aeration tanks and secondary sedi-
+mentation tanks. We performed one monitoring experiment thedrysludge(tCODt−1),EF CH4 istheCH 4emissionfactor
+perday,witheachexperimententailingonetotworoundsof (tCH 4tCOD−1),andR CH4 quantifiestheannualrecoveryof
+mobile measurements along external roads and along inter- CH 4fromanaerobictreatmentprocesses(ta−1).
+nalroadsaroundthefunctionalareas.Additionally,wecon- Operational data for the WWTP examined in this study
+ducted repeated mobile measurements and fixed measure- were derived from the “Urban Drainage Statistical Year-
+mentsonroadswithhighconcentrationstocalculateaverage book”, an annual publication of the urban water supply and
+concentration data. Over 10d of experiments from June to drainagesystemsinChina.Thisdatasetincludesdetailssuch
+December2023,weobtain8dofcompletemonitoringdata, as the water treatment volume, sludge production, and the
+including3dinsummerand5dinwinter.Ontheother2ex- concentrations of six pollutants (COD Cr, biochemical oxy-
+perimental days, internal facility maintenance restricted ac- gendemand(BOD),suspendedsolid(SS),NH 3–N,totalni-
+cesstocertainroads,resultinginincompletemonitoringdata. trogen(TN),andtotalphosphorus(TP))inbothinfluentand
+effluent.TOWiscalculatedusingtheamountoftreatedwa-
+ter and the COD influent concentration of the WWTP pro-
+2.2 Instrumentation
+vided in the yearbook, while the annual sludge production
+The monitoring instruments consisted of a vehicle-mounted (S)isextracteddirectlyfromtheyearbook.Theorganicmat-
+cavity ring-down spectrometer (CRDS) monitoring system ter content in dry sludge is estimated at an empirical 40%,
+(Zhaoetal.,2024)andaportablemeteorologicalstation.The assuming a sludge moisture content of 75%, leading to a
+vehicle-mountedCRDSsystemwasanchoredbytheCRDS value of 0.1 (Guo et al., 2019). EF is selected based on
+CH4
+analyzer (Picarro G2201-i, Picarro 2010), accompanied by therecommendedvalueof0.0046forZhejiangProvince(Cai
+GPS and meteorological instruments. The volume fraction etal.,2015).Giventheinfrequencyofanaerobictreatmentin
+of CH is measured with an accuracy of 5ppb±0.05%. wastewater,R issettozero.
+4 CH4
+CRDS measurements have the advantages of strong inter-
+ference resistance and high sensitivity and accuracy, mak-
+2.4 Inversionmethod
+ingthemwidelyemployedinresearchfocusedonmonitoring
+GHGemissions(Rellaetal.,2015;Lopezetal.,2017). We developed an inversion framework for emission fluxes
+In this study, the CRDS analyzer was placed inside the designed for plant-level applications. The framework used
+monitoring vehicle to measure CH concentrations in the mobilemeasurementdata,thelocationsofemissionsources,
+4
+WWTP.Thesamplingprobewasplacedneartheroofalong andinitialemissionestimates,alongsidewindspeedanddi-
+thewindowofthecartoavoidinterferencefromvehicleex- rectiondata,asinputstothemulti-sourceGaussiandiffusion
+haustduetothelowposition.Themobilemeteorologicalin- models.Thepreliminarylocalizationoftheemissionsources
+strumentwasplacedontheroofofthevehicletogatherme- was chiefly contingent upon the concentration distribution
+teorologicaldata.Inaddition,theGPSunitwasintegratedto along the roads within the internal functional areas. Mean-
+record the location of sampling points during the measure- while, the initial emission estimates for each source were
+ment period. Two portable meteorological stations (SWS- determinedbyintegratingtheconcentrationdatafromthese
+500, Hangzhou Pengpu Technology), capable of measuring areas with an improved empirical equation (Weller et al.,
+meteorological parameters (wind speed, direction, tempera- 2019).Basedonthecomparisonofmeasurementsandmodel
+ture, humidity, and atmospheric pressure), were positioned simulation results (Fig. S1 in the Supplement), it is deter-
+adjacent to the main entrance and atop the filter tank at the minedthattheplantexhibitsmultiplepointsourcesandline
+WWTP. source diffusion patterns. Figure S1 illustrates that the CH 4
+concentration curve presents distinct peak distributions in
+point source diffusion patterns, while the CH concentra-
+4
+https://doi.org/10.5194/acp-25-4571-2025 Atmos.Chem.Phys.,25,4571–4585,2025
+
+--- Page 4 ---
+4574 J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements
+4
+Figure1.DistributionoftheWWTPfunctionalareas.Theyellowmarkrepresentsthesimulatedlocationofthelinesource.Solidlinesshow
+theroadsmeasuredbythemobilevehicle.MapdataarefromEsri.
+tiondistributioninlinesourcediffusionpatternsconsistently 2.4.2 Multiple-point-sourceGaussianplumemodel
+maintains higher levels. We then used a genetic algorithm
+We developed a multiple-point-source Gaussian plume
+toiterativelyoptimizesourceemissionfluxesandtheirloca-
+modeltorelatetheCH concentrationenhancementtoCH
+tions.Theinversionframeworksimulationdictatedtheplace- 4 4
+emissions. This method approximates the atmospheric dis-
+mentof12mainpointsourcesthroughouttheWWTP,specif-
+persion of CH from an individual source as a Gaussian
+icallywithinAerationTank(cid:13)1 ,(cid:13)2 ,(cid:13)3 ,(cid:13)4 ,and(cid:13)5 ;Primary 4
+plume under uniform and stable wind conditions (Nassar
+Clarifier (cid:13)3 , (cid:13)4 , and (cid:13)5 ; Screen (cid:13)1 ; Secondary Clarifier (cid:13)1
+et al., 2017), which is usually good for describing average
+and(cid:13)2 ;andSludgeTreatment(cid:13)2 (Fig.1).Withinthisstudy,
+atmospherictransporttenstohundredsofmetersdownwind
+auniformlinesourcewasestablished,withtheassumedloca-
+of the source, making the Gaussian plume model a useful
+tionalongtheroadbetweenScreen(cid:13)1 andPrimaryClarifier
+tooltostudyemissionsfromindustrialandtrafficsources.
+(cid:13)1 (yellow mark in Fig. 1). This assumption was grounded
+The mass concentration enhancement (C, mgm−3) is
+in the CH concentration distribution observed within this
+4
+computedasasuperpositionofGaussianplumesfrommul-
+road segment and was substantiated through model valida-
+tiplepointsources.
+tion. The remaining emission flux inversion processes fol-
+lowed the same procedure as the point source simulation. (cid:32) (cid:33)
+C(x,y,z)=(cid:88)n Q i −(y−y i)2
+Adjustments to the source locations within the model nar- exp
+rowthegapbetweensimulatedandmeasuredconcentrations, i=12πuσ i,yσ i,z 2σ i2 ,y
+thusenhancingtheaccuracyofinversion.Thissectiondelin- (cid:40) (cid:34) )2(cid:35) (cid:34) )2(cid:35)(cid:41)
+−(z−z −(z+z
+eateseachmodelincorporatedintotheinversionframework. · exp i +exp i (3)
+2σ2 2σ2
+i,Z i,Z
+2.4.1 Empiricalequationforestimatinginitialemissions Here,thevariablesx,y,andzdenotethedownwinddistance
+(m),crosswinddistance(m),andtheheightabovetheground
+Weusedtheimprovedempiricalequationtoestimatetheini- (m)fromthesource,respectively;Q signifiestheemission
+i
+tialemissionsofemissionsources(vonFischeretal.,2017; rate from the ith point source (mgs−1), for i=1,2,3...N,
+Weller et al.,2019). This method has primarily been uti- whereN representsthetotalcountofpointsources;theav-
+lizedforurbanCH 4leakagesourceemissionestimation(De- erage wind speed is indicated by u (ms−1); x i, y i, and z
+i
+fratyka et al., 2021; Maazallahi et al., 2020). The empirical arerepresentedasthespatialpositionoftheithpointsource
+equationisasfollows: (m);andσ andσ arethehorizontalandverticaldisper-
+i,y i,Z
+sion parameters of the ith point source, respectively, which
+ln(M CH4)=−0.988+0.817×ln(CH 4emissionrate). (2) aregivenbytheformulabelow:
+Here,M isthemaximumenhancementvalueoftheCH σ =γ 1·(x−x i)α1 , when x>x i; (4)
+CH4 4 i,y
+c Co Hnce en mtr ia st si io on n( flp up xm () La mn id n−C 1H ).4 emission rate represents the σ i,z=γ 2·(x−x i)α2 , when x>x i. (5)
+4
+Atmos.Chem.Phys.,25,4571–4585,2025 https://doi.org/10.5194/acp-25-4571-2025
+
+--- Page 5 ---
+J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements 4575
+4
+The power functions, known as the Pasquill’s curves, are withbinary-encodedgenesequencesrandomlyassignedtoa
+associatedwiththedownwinddistancex andtheprevailing set number of individuals within the predefined range of a
+atmospheric stability (Briggs, 1973). Atmospheric stability prioriemissionfluxes.Subsequently,theformulationofafit-
+is determined based on the Pasquill stability classes recom- nessfunctionisbasedonthedefinedoptimizationgoalsand
+mended in the “Technical Principles and Methods for For- constraints.Thisfunctionservesasacriticaltoolforassess-
+mulatingLocalAirPollutantEmissionStandards”(GB3840- ingtherelativemeritsofeachindividualwithinthepopula-
+83). During the observation, the CH concentrations were tion. In this study, the objective of the optimization is cen-
+4
+obtainedviathevehicle-mountedCRDSmonitoringsystem. tered on minimizing the aggregate absolute discrepancy be-
+Theportablemeteorologicalstationscollecteddataonwind tweenthevaluespredictedbythemodelandthoseobtained
+speed and direction, while GPS tracked the mobile paths to from measurements. Ultimately, the population is subjected
+pinpointemissionsourcelocations. to the processes of selection, crossover, and mutation. Indi-
+viduals with elevated fitness values, as determined by the
+2.4.3 GeneralFiniteLineSourceModel fitness function, are chosen for the generation of new indi-
+viduals. Through an iterative process, the optimal solution
+Our analysis of measurements at WWTPs indicates that a
+is refined, representing the emission fluxes for each source.
+multiple-point-source Gaussian plume model is insufficient
+Geneticalgorithmsaredistinguishedbytheparallelcompu-
+tocapturetheobservedCH concentrations.Theentireroad
+4 tation capabilities, the propensity for identifying global op-
+betweentheScreen(cid:13)1 andthePrimaryClarifier(cid:13)1 showsa
+tima,andthecommendablestabilityandreliability(Harada
+highdistributionofCH concentrations.Thecontributionof
+4 andAlba,2020).
+alinesourcetotheCH concentrationisgivenbytheGeneral
+4
+Finite Line Source Model (GFLSM; Luhar and Patil, 1989;
+2.4.5 Uncertaintyanalysis
+VenkatramandHorst,2006),whichrepresentsthelinesource
+asanensembleofpointsources:
+Toquantifytheuncertaintyintheinversionresults,wehave
+Q (cid:26) (cid:20)−(z−H)2(cid:21) (cid:20)−(z+H)2(cid:21)(cid:27) consideredtheuncertaintiesassociatedwiththeinputparam-
+C= exp +exp
+2πuσ σ 2σ2 2σ2 etersoftheinversionmodel,includingwindspeed,winddi-
+y z z z
+(cid:34) (cid:32) sinθ(cid:0)L−y(cid:1)−xcosθ(cid:33) rection,andinstrumentmeasurements.Theuncertaintyinthe
+· erf 2 √ CH 4 emissionfluxes(ε t)isderivedusingtheerrorpropaga-
+2σ tionformulaasfollows:
+y
+(cid:32) sinθ(cid:0)L+y(cid:1)+xcosθ(cid:33)(cid:35)
+(cid:113)
++erf 2 √ , (6) ε t = ε s2+ε d2+ε m2, (7)
+2σ
+y
+where ε and ε denote the uncertainties in the respective
+wherex,y,andzcorrespondtothedownwinddistance(m), s d
+windspeedanddirection,whicharedeterminedbythestan-
+crosswinddistance(m),andthealtitudeabovegroundlevel
+darddeviationofthewindspeedanddirectionmeasurements
+(m) from the source; Q is the emission fluxes of the unit
+i
+source (mgs−1); u is the average wind speed (ms−1); H from two fixed meteorological stations during the observa-
+i
+tionperiod,andε representstheuncertaintyininstrumen-
+is the effective emission height of the line source, with the m
+talmeasurements.Thislatteruncertaintyisderivedfromdata
+length of the line source represented by L (m); the angle
+providedbythemanufacturer(Picarro)andindicatesacon-
+between the line source and the wind direction is given by
+centration measurement uncertainty of approximately 1ppb
+θ; and the horizontal and vertical dispersion parameters are
+fora10sintegrationtime(Picarro,2010).
+characterizedbyσ andσ ,respectively.
+y z
+2.4.4 Geneticalgorithm 3 Resultsanddiscussion
+Geneticalgorithms,whichmimictheevolutionaryprocessof
+3.1 Concentrationmapping
+biologicalsystems,serveasoptimizationsearchalgorithms.
+The algorithms encode practical problems into binary ge- The closed-path mobile measurements were conducted by
+netic coding. Through the simulation of natural selection, a vehicle-mounted CRDS monitoring system along the ex-
+crossover, and mutation processes, these algorithms are in ternal roads encircling the WWTP, with further monitoring
+a constant state of evolution and iteration, all in the pursuit conductedalongtheinternalroads.Thisstrategydepictsthe
+of the optimal solution (Katoch et al., 2021). We deployed distribution of CH concentrations within a WWTP, allow-
+4
+geneticalgorithmsto enhancethesourceemission fluxout- ing for the identification of specific CH emission sources.
+4
+comesmodeledbytheGaussianplumemodel. Basedon8dofCH experimentalmonitoringdata,theCH
+4 4
+Theprocessofinvertingmulti-sourceCH emissionfluxes concentration range on the overall roads was determined to
+4
+utilizing genetic algorithms involves a series of steps. Ini- be 1.98–17.13ppm. The CH concentration distribution in-
+4
+tially, the emission flux of each source is treated as a gene, dicatedhigherlevelsdownwind,withthehighestconcentra-
+https://doi.org/10.5194/acp-25-4571-2025 Atmos.Chem.Phys.,25,4571–4585,2025
+
+--- Page 6 ---
+4576 J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements
+4
+tionsconsistentlyrecordedatScreen(cid:13)1 throughoutthemo- ditions, complex organic compounds are converted to CH
+4
+bileexperiments. byfacultativeandanaerobicbacteriathroughbiologicalpro-
+Duetotheconsistencyoftheconcentrationmeasurement cesses(Yoshidaetal.,2014).Incontrast,Kupperetal.(2018)
+methods,wechose29Juneand13Decemberastypicalex- identifiedsludgestoragetanksastheprimarysourceofCH
+4
+amples.Figure2illustratesthemeasuredCH concentration emissionsinSwissWWTPs,accountingfor70%ormoreof
+4
+enhancementdistributionson29June(summer)and13De- thetotalemissions.Stadleretal.(2022)monitoredCH con-
+4
+cember(winter)2023(otherdaysareshowninFigs.S3–S8). centrationsinsideandaroundwastewatertreatmentfacilities
+The CH concentration enhancements depicted were calcu- thatrangedfrom2.04to32.78ppm,withelevatedCH lev-
+4 4
+latedbysubtractingthebackgroundconcentrationsfromthe elspredominantlymeasurednearasludgetreatmenttank,the
+measured values, with the background determined as the digesters,andsecondaryclarifiers.TheCH emissionsfrom
+4
+mean of the bottom 10% of the concentration data. Specif- various WWTPs are affected by a range of factors, includ-
+ically, the background concentrations register at 1.98ppm ingspecificprocesses,pipelinedesign,andequipmentaging,
+on 29 June and at a slightly elevated 2.11ppm on 13 De- andmobilemonitoringcanbetterreflecttheactualemission
+cember. The analysis indicates that the shallower bound- distribution.
+ary layer in winter causes CH to accumulate near the sur-
+4
+face,resultinginahigherbackgroundconcentration.More-
+3.2 Emissionquantification
+over, increased concentrations are detected in the regions
+surrounding Screen (cid:13)1 , Primary Clarifier (cid:13)4 , and Aeration The CH concentrations measured via mobile monitoring
+4
+Tank(cid:13)3 duringthese2d.Thecompleteconcentrationmaps, wereemployedincombinationwiththeinversionframework
+which include the internal roads, reveal that the experiment toachievethequantificationofCH emissionsandlocaliza-
+4
+on29JuneexhibitsheightenedconcentrationsatScreen(cid:13)1 , tion of the emission sources within the WWTP. Figures 3
+Secondary Clarifier (cid:13)2 , and Primary Clarifier (cid:13)2 and (cid:13)4 . and4showthelocationsofidentifiedpointsourcesandthe
+Screen (cid:13)1 exhibits the highest CH concentration, with an comparisonbetweenthemeasuredandsimulatedconcentra-
+4
+enhancementof14.83ppm.On13December,theconcentra- tiondistribution.Theexperimentconductedon29Junefinds
+tionenhancementsarenotedinproximitytoSecondaryClar- Screen(cid:13)1 tobethemostsignificantcontributortoCH 4point
+ifier (cid:13)1 and Primary Clarifier (cid:13)2 , with Primary Clarifier (cid:13)2 source emissions at 18.26kgh−1, whereas Secondary Clar-
+showingthehighestCH 4concentrationat4.79ppm. ifier (cid:13)2 is classified as the least significant at 1.23kgh−1.
+The CH concentrations in summer surpass those ob- The correlation coefficient R2 for the measured and sim-
+4
+servedinwinter,consistentwithapreviousstudyonWWTPs ulated concentrations is 0.63, with a root-mean-square er-
+(Masuda et al., 2015). The screen, primary clarifier, and ror (RMSE) of 0.70mgm−3. On 13 December, Aeration
+aeration tank are identified as sources with notably higher Tank (cid:13)5 is the largest point source of CH emissions at
+4
+concentrations. Analysis of concentration distributions re- 3.93kgh−1, whereas Primary Clarifier (cid:13)5 is the smallest
+veals that Screen (cid:13)1 shows a peak concentration reaching source at 0.55kgh−1, with a correlation coefficient R2 of
+14.83ppm, which is 7.5 times the background concentra- 0.70 and an RMSE of 0.28mgm−3. The enhanced correla-
+tion. The four primary clarifiers record high concentrations tionbetweenthewintermeasurementandsimulationdata,as
+ofbetween4.79and10.88ppm.Thehighvalueof4.60ppm well as the improved fitof the measurement and simulation
+measured around the aeration tanks is mainly detected at valuecurves,isattributedtotheshortermonitoringcycleand
+Aeration Tank (cid:13)3 . The screen in this study includes coarse morestablemeteorologicalconditions.
+andfinescreensandagritchamber,constitutingpreliminary In addition, when employing the multi-source Gaussian
+wastewatertreatmenttocapturelargersuspendedsolidsand diffusion model combined with a genetic algorithm frame-
+particulates. The anaerobic environment of the sewer net- workforiterativeoptimizationtopinpointpointsources,we
+work promotes the production of CH from organic com- were able to locate external sources. As shown in Fig. S2a
+4
+pounds in municipal wastewater. As this wastewater en- andc,externalsourcesareprimarilylocatedalongthemain
+ters the WWTP, the influent contains dissolved CH that roadwaytothesouthoftheWWTP.Moreover,theestimated
+4
+originated in the sewer network. During primary treatment, emissionsvaryacrossdifferentdays,whichindicatesthatex-
+wastewater is elevated through riser mains, facilitating the ternalsourceemissionsareinfluencedbyvehicletraffic.Fig-
+release of CH into the atmosphere (Guisasola et al., 2008; ure S2b and d compare measured and simulated CH con-
+4 4
+Bao et al., 2016). The flow velocity, hydraulic design, and centrationsbeforeandafteraccountingforexternalsources,
+detention times in these facilities may affect CH produc- demonstratingthatsimulationsaresignificantlyclosertothe
+4
+tion and release (Alshboul et al., 2016; Yin et al., 2024). measurementswhenexternalsourcesareincluded.
+The primary clarifier physically removes suspended solids Table1displaystheCH emissionfluxes(Q),windspeed
+4
+fromwastewaterthroughsedimentation,whileorganicmat- anddirectiondata(W andW ,respectively),thehorizontal
+s d
+ter undergoes anaerobic microbial degradation, resulting in diffusion coefficient (γ , α ), and the vertical diffusion co-
+1 1
+the substantial production of CH (Masuda et al., 2017). In efficient(γ ,α )fromthe8dmonitoringexperiment.Wind
+4 2 2
+theaerationtank,operatedunderanaerobicandanoxiccon- speedanddirectiondataaretheaveragewindspeedanddi-
+Atmos.Chem.Phys.,25,4571–4585,2025 https://doi.org/10.5194/acp-25-4571-2025
+
+--- Page 7 ---
+J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements 4577
+4
+Figure2.CH4concentrationmapsintheWWTP.Theconcentrationmapsfortheexternalroadsfor29June(a)and13December(c).The
+correspondingcompleteconcentrationmapsthatincludetheinternalroadsfor29June(b)and13December(d).MapdataarefromEsri.
+Figure3.Theemissiondistributionforthesourcelocations(a)andthecomparisonbetweenmeasuredandsimulatedCH4concentrations(b)
+attheWWTPon29June.MapdataarefromEsri.
+rection during the monitoring time, and the CH emission ageCH emissionflux(47.76±21.39kgh−1).Thisseasonal
+4 4
+fluxesareobtainedbytheinversionoftheaverageconcentra- disparity in emissions is primarily attributed to the aeration
+tionandwindspeedanddirectiondataasinputtotheinver- tank,followedbythescreenandprimaryclarifier.Theacti-
+sion framework. The emission flux values of CH emission vatedsludgeintheaerationtankcontainsahigherpopulation
+4
+sources (12 point sources and 1 line source) for all exper- of methanogens, whose CH production capability intensi-
+4
+imental days are detailed in Tables S1 and S2 in the Sup- fies with rising temperatures (Víteˇz et al., 2020). Notably,
+plement. It is observed that the summer average CH emis- the seasonal variance in the aeration tank is predominantly
+4
+sion flux (68.78±17.40kgh−1) surpasses the winter aver- drivenbytheperformanceofAerationTank(cid:13)4 .However,the
+https://doi.org/10.5194/acp-25-4571-2025 Atmos.Chem.Phys.,25,4571–4585,2025
+
+--- Page 8 ---
+4578 J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements
+4
+Figure 4. The emission distribution for the source locations (a) and the comparison between measured and simulated CH4 concentra-
+tions(b)attheWWTPon13December.MapdataarefromEsri.
+substantialvariationintheemissionsfromthethreesummer releasing tracer gases like nitrous oxide and acetylene near
+experimentsofAerationTank(cid:13)4 suggestsadegreeofemis- the source and measuring their concentrations along with
+sion instability. Conversely, the uniformity in the low emis- CH downwind using a mobile platform. The similar dif-
+4
+sions from the five winter experiments might be associated fusion patterns of CH and the tracer gases result in a sta-
+4
+withthemeteorologicalconditionsandtheactualoperational ble concentration ratio after atmospheric mixing, enabling
+statusoftheplantonthosedays.Atlowerwindspeeds,the thecalculationofCH emissionrateswithabetteraccuracy
+4
+CH emissionsshowonlyslightdifferenceswhencompared (Mønsteretal.,2014).
+4
+toemissionsondayswithhigherwindspeeds.Thissuggests Moreover, TDM was employed to validate and compare
+that the inversion results are less influenced by wind speed othermodelinversionmethods.Mooreetal.(2023)proposed
+andareprimarilyassociatedwithseasonalvariations. thatGaussiandispersionmodelingdemandslessexperimen-
+Thescreenandprimaryclarifierarethepredominantemis- talequipment,siteaccess,andpersonnelthanTDM,thereby
+sion sources at the WWTP. Specifically, these sources emit allowing for swifter data gathering. Yacovitch et al. (2015)
+37.50kgh−1 in the summer and 31.92kgh−1 in the winter, utilizeda5ddatasetoftracergasreleaseintheBarnettShale
+accountingfor55%and67%ofthetotalemissions.Pipeline region to evaluate the Gaussian dispersion flux quantifica-
+leaksnearthescreenandprimaryclarifierledtotheCH re- tion method. The results indicated a 95% confidence inter-
+4
+lease.Previousresearchhassimilarlyexaminedmajoremis- val,withalower-boundfactorof0.334andanupper-bound
+sionsourcesatWWTPs.Yinetal.(2024)conductedoffline factorof3.34.TheworkofvonFischeretal.(2017)presented
+monitoring of WWTPs in Beijing and Guiyang, identifying three controlled release experiments to validate the reliabil-
+theprimarytreatmentzoneastheprimarysourceofCH ,ac- ityofaleakratealgorithminFortCollins,CO,whichindi-
+4
+countingfor60.1%and35.8%oftherespectivetotalemis- cated a very significant correlation between known and es-
+sions. Masuda et al. (2017) analyzed CH emissions from timated leak rates (p<0.0001, r2=0.43). Compared with
+4
+different processes at three WWTPs in Japan, concluding the method employed in the study, TDM offers advantages
+that primary clarifiers are one of the major sources of CH such as simpler formula calculations. Nonetheless, it also
+4
+emissions.Heetal.(2023)compiledCH emissionpropor- presents several drawbacks, including complex experimen-
+4
+tions for different processes in WWTPs based on reported talproceduresandsafetyhazardsassociatedwiththerelease
+data, finding percentages of 7%–12% for the grit chamber, oftracergases,whichrequiresaccesspermitsfromindustrial
+8.2%–68.1% for the primary clarifier, and 18.3%–86.4% facilities.
+fortheaerationtank.
+Analternativetop-downapproach,knownasthetracergas
+3.3 ComparisonwiththeIPCCmethod
+dispersionmethod(TDM),hasbeenappliedtoestimateCH
+4
+emissionsfromcitystreets(vonFischeretal.,2017;Weller The CH emissions were also calculated using the IPCC
+4
+et al., 2018), WWTPs (Yoshida et al., 2014; Delre et al., method, with data sourced from the Urban Drainage Sta-
+2017, 2018), biogas plants (Reinelt et al., 2017; Scheutz tistical Yearbook of 2017. The emission flux of 213.95±
+and Kjeldsen, 2019; Fredenslund et al., 2023), and landfills 128.37ta−1wasdetermined,withtheuncertainty(60%)de-
+(Rees-Whiteetal.,2019;Kissasetal.,2022).TDMinvolves rived from the data summarized in the research (Lin et al.,
+Atmos.Chem.Phys.,25,4571–4585,2025 https://doi.org/10.5194/acp-25-4571-2025
+
+--- Page 9 ---
+J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements 4579
+4
+Table1.CH4 emissionfluxes(Q),windspeedanddirectiondata(Ws andW d,respectively),thehorizontaldiffusioncoefficient(γ 1,α 1),
+andtheverticaldiffusioncoefficient(γ 2,α 2)fromthe8dmonitoringexperiment.
+Date Q Ws W d γ 1 α 1 γ 2 α 2
+(kgh−1) (ms−1)
+(MMDD) (°)
+0601 61.85±20.41 2.3 248.5 0.28 0.91 0.13 0.94
+0629 74.92±35.21 1.9 238.3 0.28 0.91 0.13 0.94
+0711 69.58±32.70 0.9 225.8 0.28 0.91 0.13 0.94
+1213 49.19±21.15 1.6 175.7 0.28 0.91 0.13 0.94
+1214 43.29±27.28 1.2 209.9 0.28 0.91 0.13 0.94
+1220 49.99±25.00 3.8 342.3 0.18 0.92 0.11 0.92
+1221 48.17±17.34 2.7 342.6 0.43 1.10 0.08 1.12
+1222 48.15±21.67 3.0 342.5 0.43 1.10 0.08 1.12
+ues 46.71% higher than those calculated using the IPCC
+method. Moore et al. (2023) employed mobile monitoring
+to evaluate CH emissions at 63 WWTPs across the USA.
+4
+Specifically,CH emissionsfromcentrallytreateddomestic
+4
+wastewaterintheUSAamountto4.64×105ta−1,whichis
+1.9timesgreaterthantheEnvironmentalProtectionAgency
+inventory. Song et al. (2023) investigated CH emissions
+4
+from municipal wastewater treatment in the USA and re-
+ported a value of (4.36±2.8)×105ta−1. This value was
+approximately twice the estimates provided by the IPCC.
+Ourestimatedresultsaregenerallyconsistentwithprevious
+Figure5.ComparisonofCH4emissionfluxesfromthemonitoring
+studies. The lower estimated results provided by the IPCC
+experimentandemissioninventoryintheWWTP.
+method can be attributed to the neglect of certain potential
+emission sources from the emission inventories, including
+emissionsfromequipmentinsludgetreatmentfacilitiesand
+2021). Figure 5 shows the contrast between the emission leaksfrompressurereliefvalves.
+inversion results from the monitoring experiment and the
+emission inventory. The uncertainty in the inversion results
+3.4 Sensitivityanalysis
+was determined by accounting for the uncertainties in wind
+speed,winddirection,andinstrumentmeasurements,follow- In this section, we evaluate the stability of the inversion
+ingthemethodpresentedinSect.2.4.5.Theuncertaintiesin framework through sensitivity analysis and explore the im-
+theemissionfluxinversionrangedfrom33%to63%onin- pact of different point source locations on the inversion of
+dividualdays.Notably,theuncertaintyassociatedwithwind emission concentrations. The precise identification of emis-
+speed contributes approximately 44%–94% of the uncer- sion sources can enhance the accuracy of emission flux in-
+tainty range. The summer average inversion emission flux version,makingasensitivityanalysisofthesourcelocation
+(603.33±152.66ta−1)wascalculatedtobe2.8timesthatof essential. We applied the method of controlling variables to
+theinventory,andthewinteraverage(418.95±187.59ta−1) performasensitivityanalysisonthelocationofasinglepoint
+was twice as much. It is posited that the discrepancy may source.Thecentralpositionoftheplantwastakenastheref-
+stem from significant uncertainties in the emission factors erenceorigin,andthepositionsof12emissionsourceswere
+associated with the WWTPs or the lack of updated activity determined to analyze the variation in error between mea-
+level data, as the statistical yearbook provided data only up sured and simulated concentrations within a 200m×200m
+to2017;therefore,theemissioninventorymighthaveunder- range around each emission source. We sequentially modi-
+estimatedtheactualemissions. fiedthesourcepositionparametersinthemodelinputtoan-
+Furthermore,otherstudieshavealsoinvestigatedthecom- alyze the congruence between the simulated concentrations
+parisonbetweenCH emissionsobtainedfromdifferentmea- andtheobservedmeasurements,quantifyingthefitusingthe
+4
+surement methods at WWTPs and the IPCC inventory esti- RMSE.Thechangeinconcentrationerrorservesasanindi-
+mates. The majority of these studies have indicated that the catoroftheaccuracyoftheemissionsourcelocalization.
+measured values exceed the inventory values. Wang et al. Figures6and7describetheerrorvariationbetweenmon-
+(2021) conducted a measurement-based assessment of CH itored and simulated concentrations when the point source
+4
+emissions(46.58ta−1)inWuhuCity,revealingemissionval- location is subject to change within a 200m×200m range
+https://doi.org/10.5194/acp-25-4571-2025 Atmos.Chem.Phys.,25,4571–4585,2025
+
+--- Page 10 ---
+4580 J.Yangetal.:LocatingandquantifyingCH sourceswithinaWWTPbasedonmobilemeasurements
+4
+Figure6.Theroot-mean-squareerror(RMSE)ofthesimulatedconcentrationchangeswiththelocationoftheWWTPsourceon29June.
+ThexandyaxesdenotetherespectivehorizontalandverticaldistancesofthesimulatedpointsourcefromthecentralpointoftheWWTP.
+The variation in color signifies the alteration in the RMSE between the actual monitored and simulated concentrations, with the red star
+symbolizingthesimulatedpointsourcelocation.
+fromthemonitoringexperimenton29Juneand13Decem- 4 Conclusionsandoutlook
+ber.Theerrorvariationintheremainingdayscanbeseenin
+Figs.S9–S14.Thepointsourcelocationssimulatedbasedon
+ThisstudycarriedoutmobilemeasurementsataWWTPin
+theinversionframeworkaremostlyinareaswithminorrel-
+Hangzhou across the summer and winter seasons of 2023.
+ative concentration errors, which can be considered to have
+By employing a multi-source Gaussian plume model com-
+a high reliability in simulating point source locations. The
+binedwithageneticalgorithminversionframework,thein-
+emission source location errors for the two experiments are
+version of CH emission fluxes and their source locations
+withintherangesof0.7–1.3and0.2–0.3mgm−3.Thewinter 4
+wasachieved.Theresultsshowedthat12distinctCH emis-
+4
+emissionsourcelocationsexhibitgreaterstabilityandaccu-
+sion sources were pinpointed. The average CH emission
+4
+racyintheinversionresultsthanthesummerones. fluxduringthesummerwas68.78±17.40kgh−1 (603.33±
+Atmos.Chem.Phys.,25,4571–4585,2025 https://doi.org/10.5194/acp-25-4571-2025

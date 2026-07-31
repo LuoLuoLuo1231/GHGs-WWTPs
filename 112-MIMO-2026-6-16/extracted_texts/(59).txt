@@ -1,0 +1,664 @@
+--- Page 1 ---
+water
+Article
+Source of Methanogens and Characteristics of Methane Emission
+in Two Wastewater Treatment Plants in Xi’an
+DianaoZhang1,HuijuanLi1,2,*,XiaLi1,DongAo1andNaWang3
+1 SchoolofEnvironmentalandChemicalEngineering,Xi’anPolytechnicUniversity,Xi’an710048,China;
+230611054@stu.xpu.edu.cn(D.Z.);220611040@stu.xpu.edu.cn(X.L.);aodong@xpu.edu.cn(D.A.)
+2 EngineeringResearchCenterofBiologicalResourcesDevelopmentandPollutionControlUniversitiesof
+ShaanxiProvince,Xi’anPolytechnicUniversity,Xi’an710048,China
+3 Xi’anCapitalWaterCo.,Ltd.,Xi’an710086,China;anna1250727895@163.com
+* Correspondence:hjli@xpu.edu.cn;Tel.:+86-138-9199-5434
+Abstract:Methane(CH )isoneofthepotentgreenhousegasesemittedfrommunicipalwastewater
+4
+treatmentplants. Thecharacteristicsofmethaneemissionfrommunicipalwastewatertreatment
+plants(WWTPs)haveattractedlotsofconcernfromrelatedresearchers.Thepresentworkinvestigated
+thesourceofmethanogensandmethaneemissionpropertiesfromtwoWWTPsinXi’an,andone
+isemployedinanOrbaloxidationditch, andtheotherisanaerobic/anoxic/oxic(A/A/O).The
+measurementofspecificmethanogenicactivity(SMA)andcoenzymeF concentration,together
+420
+with Fluorescence in situ hybridization (FISH), was used to determine the amount and activity
+ofmethanogensintwoWWTPs. Additionally,acombinedactivatedsludgemodelwasbuiltand
+predicted the growth of methanogens and other key microorganisms in the sludge. The results
+showedthattheaverageCH emissionfluxfromtheOrbaloxidationditch(22.74gCH /(m2·d))
+4 4
+wasmuchhigherthanthatfromA/A/O(9.57gCH /(m2·d)). Themethaneemissionfactorsin
+4
+theOrbaloxidationditchandA/A/Oprocesseswere1.18and0.21gCH /(m3INF),respectively.
+4
+ThesedistinctmethaneemissioncharacteristicsbetweentwoWWTPsaremainlyattributedtothe
+higher activity and content of methanogens, as well as the discontinuous aeration in the Orbal
+oxidationditch.Additionally,dissolvedoxygenconcentration,watertemperature,andthepresence
+ofnitrate/nitritewerealsoimportantfactorsthatinfluencedmethaneemission.TheFISHanalysis
+showed that Methanococcus was the dominant methanogen in both WWTPs. In addition, the
+Citation:Zhang,D.;Li,H.;Li,X.;Ao,
+combinedmodelsuccessfullysimulatedthegrowthofmethanogensinWWTPs. Methanogensin
+D.;Wang,N.SourceofMethanogens
+WWTPsweremainlyderivedfromthesewersystem,andthecumulativeeffectledtoanincreasein
+andCharacteristicsofMethane
+theabundanceofmethanogensinactivatedsludge.Theoutcomesofthisstudyprovidenewinsights
+EmissioninTwoWastewater
+inthepredictionandmanagementofGHGemissionfromWWTPs.
+TreatmentPlantsinXi’an.Water2024,
+16,2101. https://doi.org/10.3390/
+w16152101 Keywords: methane(CH 4);Orbaloxidationditch;anaerobic/anoxic/oxic(A/A/O);wastewater
+treatmentplant;greenhousegases(GHGs)
+AcademicEditor:CarmenTeodosiu
+Received:20June2024
+Revised:19July2024
+Accepted:23July2024 1. Introduction
+Published:25July2024
+Greenhousegases(GHGs)causeglobalwarming,whichthreatenshumansurvival.
+GHGs, including carbon dioxide (CO ), methane (CH ), and nitrous oxide (N O), are
+2 4 2
+mainlyreleasedfromhumanactivitiessuchastheproductionandconsumptionoffossil
+fuelsandagriculturalandindustrialactivities[1,2]. AmongthecommonlyreportedGHGs,
+Copyright: © 2024 by the authors.
+CH attractsmoreattentiongloballyduetoits25timeshigherglobalwarmingpotential
+Licensee MDPI, Basel, Switzerland. 4
+thanCO [3].
+Thisarticleisanopenaccessarticle 2
+Inrecentyears,researchersreportedthatwastewatertreatmentplants(WWTPs)are
+distributed under the terms and
+animportantGHGsource. TheGHGemissionsfromWWTPshavebeenreportedglobally.
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// Goliopoulosetal. surveyed31WWTPsofvarioussizesinGreece[4]. Theannualaverage
+creativecommons.org/licenses/by/ GHGemission,includingemergingconsumption,reached207kgCO 2e/PE,144kgCO 2e/PE,
+4.0/). and89kgCO 2e/PEfromsmall,medium,andlargeWWTPs,respectively. Aghabalaeietal.
+Water2024,16,2101.https://doi.org/10.3390/w16152101 https://www.mdpi.com/journal/water
+
+--- Page 2 ---
+Water2024,16,2101 2of19
+investigated the Mashhad wastewater treatment plant [5]. The GHG emissions were
+0.63kgCO /m3. Güls¸enetal. alsoinvestigatedasewagetreatmentplantinTurkey[6].
+2e
+InChina,thetotalGHGemissionswereequalto53.0MtCO in2019[7]. Basedonthe
+2e
+Intergovernmental Panel on Climate Change (IPCC) protocol, the CO emission from
+2
+WWTPs is not considered as net GHG emission and thus should be excluded from the
+GHGinventory[8]. Asaresult,CH andN OhavebecomethekeytoGHGemissions
+4 2
+fromWWTPs.
+Unlike N O generated during nitrification and denitrification under both anaero-
+2
+bic and oxic conditions, CH is mainly produced by methanogens with low dissolved
+4
+oxygenconcentrationandnitrite/nitrateconcentrationduringanaerobicand/oranoxic
+processes[9–12]. Therefore,CH emissionsfromWWTPspreviouslyfocusedonanaerobic
+4
+digesterslike up-flowanaerobic sludgebeds(UASBs) [6,13]. Recently, researchersalso
+foundCH emissionfromotherunitsinWWTPsevenunderoxicconditions[14–16]. These
+4
+resultsindicatedthattherearedifferentmethanogensinactivatedsludgeresponsiblefor
+CH generationandemission[17]. Previousstudiesshowedthatmethanogensinactivated
+4
+sludge possibly originated from the sewer system [18]. However, limited studies have
+reportedonCH emissionandmicrobialmechanisms,especiallytheamountandactivity
+4
+ofmethanogensinsludgeindifferentWWTPunits.
+The carbon neutrality aims and increasingly stringent effluent standards in China
+requireafurtherinvestigationofGHGemissions,especiallyCH emissionsfromdifferent
+4
+WWTPs,toprovidescientificdataandtechnicalguidelinesforWWTPupgrades. InChina,
+oxidation ditch and anaerobic/anoxic/oxic (A/A/O) processes are the most popular
+wastewatertreatmentprocessesandareusedtotreatnearly50%ofwastewaterinChina.
+Therefore,itisveryimportanttoobtainthecharacteristicsofmethaneemissioninthese
+twobiologicalnutrientremoval(BNR)processes.
+SomeresearchersemployedamathematicalmodeltoestimateGHGemissionsduring
+the design, operation, and optimization of WWTPs [19,20]. Gulhan et al. proposed a
+modifiedmodelbasedonactivatedsludgemodelNo. 1(ASM1). Thismodelwassuccess-
+fullyusedtopredictN Oemissionfromafull-scaleWWTPinItaly[21]. Shahabadietal.
+2
+developedamodelwhichcansimulateGHGgenerationintheA/A/Oprocess[22]. Un-
+fortunately,inspiteoftheseresearchefforts,studiesthatfocusonthesourceandrelease
+mechanismofmethaneemissionfromWWTPsarestilllimited.
+The main objective of this paper is to survey CH emission from two typical BNR
+4
+processes(OrbaloxidationditchandA/A/O)andinvestigatethefactorswhichinfluence
+CH emission.Tothisend,amathematicalmodelwasdevelopedtoestimatetheabundance
+4
+ofmethanogensintwoBNRprocessesandelucidatethereleasemechanismofmethane
+emissionfromWWTPs.
+2. MaterialsandMethods
+2.1. FieldSite
+TwoplantsformunicipalwastewatertreatmentinXi’an,China,namely,theOrbal
+oxidationditchprocessandA/A/Oprocess,wereselected. Detailedinformationofthese
+plantsislistedinTable1,andaschematicofthetreatmentprocessesisshowninFigure1.
+Table1.Theoperationparametersofthetwoplants(mg/L).
+WastewaterTreatmentPlants(WWTPs)
+Characteristics
+andParameters WWTP1 WWTP2
+Process Orbaloxidationditch Anaerobic/Anoxic/Oxic(A/A/O)
+Treatment
+1.0×105 2.5×105
+capacity(m3/d)
+
+--- Page 3 ---
+Water 2024, 16, x FOR PEER REVIEW 2 of 19
+kgCO /PE, and 89 kgCO /PE from small, medium, and large WWTPs, respectively.
+2e 2e
+Aghabalaei et al. investigated the Mashhad wastewater treatment plant [5]. The GHG
+emissions were 0.63 kg CO 2e/m3. Gülşen et al. also investigated a sewage treatment plant
+in Turkey [6]. In China, the total GHG emissions were equal to 53.0 MtCO in 2019 [7].
+2e
+Based on the Intergovernmental Panel on Climate Change (IPCC) protocol, the CO
+2
+emission from WWTPs is not considered as net GHG emission and thus should be ex-
+cluded from the GHG inventory [8]. As a result, CH and N O have become the key to
+4 2
+GHG emissions from WWTPs.
+Unlike N O generated during nitrification and denitrification under both anaerobic
+2
+and oxic conditions, CH is mainly produced by methanogens with low dissolved oxy-
+4
+gen concentration and nitrite/nitrate concentration during anaerobic and/or anoxic pro-
+cesses [9–12]. Therefore, CH emissions from WWTPs previously focused on anaerobic
+4
+digesters like up-flow anaerobic sludge beds (UASBs) [6,13]. Recently, researchers also
+found CH emission from other units in WWTPs even under oxic conditions [14–16].
+4
+These results indicated that there are different methanogens in activated sludge respon-
+sible for CH generation and emission [17]. Previous studies showed that methanogens
+4
+in activated sludge possibly originated from the sewer system [18]. However, limited
+studies have reported on CH emission and microbial mechanisms, especially the
+4
+amount and activity of methanogens in sludge in different WWTP units.
+The carbon neutrality aims and increasingly stringent effluent standards in China
+require a further investigation of GHG emissions, especially CH emissions from differ-
+4
+ent WWTPs, to provide scientific data and technical guidelines for WWTP upgrades. In
+Water2024,16,2101 3of19
+China, oxidation ditch and anaerobic/anoxic/oxic (A/A/O) processes are the most popu-
+lar wastewater treatment processes and are used to treat nearly 50% of wastewater in
+ChTainblae. 1T.Choenrte.fore, it is very important to obtain the characteristics of methane emission
+in these two biological nutrient removal (BNR) processes.
+WastewaterTreatmentPlants(WWTPs)
+CShoarmacete rriesstiecasrchers employed a mathematical model to estimate GHG emissions dur-
+andParameters WWTP1 WWTP2
+ing the design, operation, and optimization of WWTPs [19,20]. Gulhan et al. proposed a
+moAdeirfaietidon mmoetdhoedl based on aScutrifvaaceteader astliuondge model No. 1 F(AineS-Mbu1b)b.l eTaherisa timonodel was suc-
+cessfully used to predict N O emission from a full-scAalneo xWicWzonTeP in It2a0l.3y ×[2510]×. S6hahabadi
+Size(L×B×H) Anaerobic2 zone 27×9.8×4.95
+Anaerobiczone 19.3×50×6
+et al. dev(mel)oped a m Oo xd ide al iw onh di ic tch can1 0s8im.2×ul5a0te× G4.H95G generation in the A/A/O process [22].
+t h
+Oxiczone 78.7×50×6
+Unfortunately, in spite of these research efforts, studies that focus on the source and re-
+Influentparameters
+lease mechanism of methane emission from WWTPs are still limited.
+Thep mHain objective of this7 .p0a± p0e.8r is to survey CH emissio7.n0 ± fro0.m8 two typical BNR
+4
+COD(mg/L) 390 380
+processes (Orbal oxidation ditch and A/A/O) and investigate the factors which influence
+BOD (mg/L) 200 190
+5
+CHN4 Hem 4+-iNss(imong/. LT)o this end, a mat2h0ematical model was developed3 4to estimate the abun-
+danceT Pof(m mg/eLth) anogens in two BN4R processes and elucidate the4 .r2elease mechanism of
+methane emission from WWTPs. Effluentparameters*
+pH 7.0±0.8 7.0±0.8
+2. MCatOeDri(amlsg /aLn)d Methods ≤50 ≤50
+BOD (mg/L) ≤10 ≤10
+5
+2.1. F Hiel+d Si (t me
+N -N g/L) ≤5 ≤5
+4
+TTwPo(m pgl/aLn)ts for municipal wa≤ s0te.5water treatment in Xi’an, Chin≤ a0, .n5amely, the Orbal ox-
+Note:*BecausethemonitoringoftwoWWTPeffluentsonlyprovidedqualifiedorunqualifiedfinalresults,we
+idation ditch process and A/A/O process, were selected. Detailed information of these
+canonlyusethevaluesofChina’snationalstandardofmunicipalwastewatertreatmentplants(GB18918-2002,
+plCalnastssI i-As )li[2s3t]eads tihne Tefaflbuelnet 1p,a raanmdet ear sstcohpeermfoarmtica coofn stehreva ttriveeaitnmveestnigta tpiorno.cesses is shown in Figure 1.
+Water 2024, 16, x FOR PEER REVIEW 3 of 19
+Figure1. AsimplifiedwastewatertreatmentprocessdiagramofthetwoWWTPs. (A)WWTP1:
+Figure 1. A simplified wastewater treatment process diagram of the two WWTPs. (A) WWTP 1:
+Orbaloxidationditchprocess;(B)WWTP2:A/A/Oprocess.
+Orbal oxidation ditch process; (B) WWTP 2: A/A/O process.
+2.2. TheSamplingandAnalysisofMethaneEmissionfromtheTwoBNRProcesses
+Table 1. The operation parameters of the two plants (mg/L).
+2.2.1. SelectingSamplingPoint
+CharAacsteerriiesstiocfss amplingpointswWereassetleewctaedtetro Tinrevaetsmtigeantet CPHla4netsm (iWssiWonTfrPosm) different
+wastewatertreatmentunitsinthetwoWWTPs. FoursamplepointswereusedintheOrbal
+and Parameters WWTP 1 WWTP 2
+oxidationditchprocess: onesamplepointwassetinananaerobictank,andtheotherthree
+Process Orbal oxidation ditch Anaerobic/Anoxic/Oxic (A/A/O)
+samplepointsweresetinthreechannelsoftheoxidationditch. IntermsoftheA/A/O
+Tpreraotcmeses,notn ceaspaamc-plepointwassetinanaerobicandanoxiczones,andthreesamplepoints
+1.0 × 105 2.5 × 105
+weirteys (emta3l/odn)g withthewaterstreamintheoxiczone.
+AeratiAolnl tmheetshaomdp le points wSuerrefasceele aceterdatciolons e to the monitoringFipnoei-nbtusbobflteh eaeWraWtioTnP s.
+Ononehand,thesepointswererepresentativepointsofeachwastewatertreatment. On
+Anoxic zone 20.3 × 50 × 6
+Size (L × B × H) Anaerobic zone 27 × 9.8 × 4.95
+Anaerobic zone 19.3 × 50 × 6
+(m) Oxidation ditch 108.2 × 50 × 4.95
+Oxic zone 78.7 × 50 × 6
+Influent parameters
+pH 7.0 ± 0.8 7.0 ± 0.8
+COD (mg/L) 390 380
+BOD (mg/L) 200 190
+5
+NH 4+-N (mg/L) 20 34
+TP (mg/L) 4 4.2
+Effluent parameters *
+pH 7.0 ± 0.8 7.0 ± 0.8
+COD (mg/L) ≤50 ≤50
+BOD (mg/L) ≤10 ≤10
+5
+NH 4+-N (mg/L) ≤5 ≤5
+TP (mg/L) ≤0.5 ≤0.5
+Note: * Because the monitoring of two WWTP effluents only provided qualified or unqualified fi-
+nal results, we can only use the values of China’s national standard of municipal wastewater
+treatment plants (GB 18918-2002, Class I-A) [23] as the effluent parameters to perform a conserva-
+tive investigation.
+2.2. The Sampling and Analysis of Methane Emission from the Two BNR Processes
+2.2.1. Selecting Sampling Point
+A series of sampling points were selected to investigate CH emission from different
+4
+wastewater treatment units in the two WWTPs. Four sample points were used in the
+Orbal oxidation ditch process: one sample point was set in an anaerobic tank, and the
+other three sample points were set in three channels of the oxidation ditch. In terms of
+the A/A/O process, one sample point was set in anaerobic and anoxic zones, and three
+sample points were set along with the water stream in the oxic zone.
+All the sample points were selected close to the monitoring points of the WWTPs.
+On one hand, these points were representative points of each wastewater treatment. On
+the other hand, other parameters, such as temperature and dissolved oxygen, could be
+obtained at these points during sampling processes.
+In pre-experiments, the spatial variability in methane fluxes from each processing
+unit was examined. The results showed that CH flux gradually changed with dissolved
+4
+
+--- Page 4 ---
+Water2024,16,2101 4of19
+theotherhand, otherparameters, suchastemperatureanddissolvedoxygen, couldbe
+obtainedatthesepointsduringsamplingprocesses.
+Inpre-experiments,thespatialvariabilityinmethanefluxesfromeachprocessingunit
+wasexamined. TheresultsshowedthatCH fluxgraduallychangedwithdissolvedoxygen
+4
+along the wastewater flow in each wastewater processing unit. In the BNR processing
+unitswithlargespatialvariability,gassampleswerecollectedfrommultiplepoints,and
+themeanvalueofCH fluxeswasobtained. BasedondataprovidedbytheWWTPsand
+4
+pre-experiment,thesamplepointscanbeusedtorepresentdifferentzonesoftheWWTPs.
+2.2.2. SampleCollection
+Gassampleswerecollectedbyahand-craftedsurfaceemissionisolationfluxchamber
+(SEIFC)withacircularcross-sectionalareaof180cm2. TheSEIFCwasfilledwithlocal
+wastewaterandwascompletelyimmersedbeneaththesurfaceofthewater. Gasemittedby
+thereactorwaslefttofloatonthewater’ssurface. After2to3days,gaswascollectedwith
+asamplingbag. Intheaerobiczone,aerationfacilitatedthedirectandimmediatecollection
+ofthegassamples. Duringtheexperiment,gaswascollectedeveryweekofeachmonth,at
+approximatelythesametimeeachsamplingday.
+CH emissionflux(E )wascalculatedbasedonapreviouslyreportedprotocolwith
+4 CH4
+somemodification[24].ThegasfluxoftheaerationtankwascalculatedbyEquation(1);the
+gasfluxofthenon-aerationtankwascalculatedbyEquation(2). TheCH emissionfactors
+4
+(ω )werecalculatedbynormalizingthetotalCH massfluxoftheBNRprocesstothe
+CH4 4
+treatmentcapacity(m3d−1)andservicepopulationoftheWWTP(Equations(3)and(4)).
+E = c ×Q (1)
+CH4 CH4
+c ×V
+E = CH4 gas (2)
+CH4 ∆t×A
+SEIFC
+where E is the CH emission flux (g CH /(m2·d)), c is the CH concentration in
+CH4 4 4 CH4 4
+thesample(g/m3),Qisthetotaldiffuseairflow(m3/d),V isthetotalvolumeofthe
+gas
+gas sample we collected (m3), ∆t is the time of samplecollection (d), and A is the
+SEIFC
+cross-sectionalareaoftheSEIFC(0.018m2).
+1
+ω = E ×A × (3)
+CH4,INF CH4 BNR
+Q
+INF
+E
+ω =365×A × CH4 (4)
+CH4,person BNR
+Q
+person
+whereω istheemissionfactorcalculatedbytreatmentcapacity(gCH /(m3INF)),
+CH4,INF 4
+A isthesurfaceoftreatmentunits(m2),Q isthetreatmentcapacityoftheWWTP(m3/d),
+BNR INF
+ω istheemissionfactorcalculatedbythepopulationserved(gCH /(person·year)),
+CH4,person 4
+andQ istheservicepopulationoftheWWTP.
+person
+2.2.3. AnalyticalMethods
+The CH concentration of the gas samples was analyzed by gas chromatography
+4
+(Agilent 6890 N) equipped with a Thermal Conductivity Detector (TCD) and stainless
+steelpackedcolumnsofTDX-01. Thetemperatureoftheinjectionport,detector,andland
+columnovenwas100°C,160°C,and100°C,respectively. PureAr(99.999%)wassupplied
+asthecarriergasataflowrateof50mL/min.
+Thedissolvedoxygen(DO)concentration,pH,andwatertemperatureoftheactivated
+sludgemixedliquorweremeasuredon-site. Solublechemicaloxygendemand(sCOD),
+ammonium(NH +-N),nitrate(NO −-N),nitrite(NO −-N),mixedliquorsuspendedsolids
+4 3 2
+(MLSSs), and volatile suspended solids (VSSs) were measured using APHA Standard
+Methodsfortheexaminationofwaterandwastewater[25].
+
+--- Page 5 ---
+Water2024,16,2101 5of19
+2.3. SpecificMethanogenicActivityandCoenzymeF Tests
+420
+Thespecificmethanogenicactivity(SMA)testisanefficientmethodusedtodetermine
+themethanogenicactivityofanaerobicsludge. F ,awidelypresentcoenzymedistributed
+420
+inmethanogens,isinvolvedinCH formation[26]. BothSMAandF couldbeusedas
+4 420
+indicatorsinmonitoringtheactivityofmethanogens. Allbatchtestswereperformedin
+triplicate. TheSMAtestsofacetate,propionate,andbutyratewereconductedin200mL
+serum bottles at 35 ± 1 ◦C under anaerobic conditions. Prior to addition into the test
+bottles,thesubstratesolutionwasadjustedtoapproximatelypH7.0,andthebottleswere
+flushedwithAr/CO (80%/20%). Theconcentrationofmethaneintheheadspacewell
+2
+andthevolumeofbiogasproducedweremeasuredeverytwohoursbecauseofthelow
+gasproductionofthesludge. Thevolumeofbiogasaccumulatedinthebottleheadspace
+wasmeasuredusinggaschromatography. Attheendofthetests, precisebiomasswas
+quantifiedthroughgravimetricanalysis[25]. Finally,SMAwascalculatedaccordingtothe
+followingequation:
+µ =4× dc CH4 ×V CH4 × 1 (5)
+maxCH4
+dt X
+whereµ isthemaximumSMA[mgCOD/(gVSS·d)],4istheconversioncoefficient
+maxCH4
+dcCH4×VCH4
+ofCH tooxygen, istheCH productionrate(mg-CH /d),andXisthetotal
+4 dt 4 4
+biomasspresentintheserumbottle(gVSS).
+BasedondifferencesbetweenthemolarextinctioncoefficientofF underacidicand
+420
+alkalineconditions,theconcentrationofF wasmeasuredthroughspectrophotometry
+420
+at420nm. TheconcentrationofcoenzymeF wasdeterminedaccordingtothemethod
+420
+proposed by Wu et al. [27]. Finally, F concentration was calculated according to the
+420
+followingequation:
+Af
+C = (6)
+F420
+εLx
+where C is the concentration of coenzyme F in the sludge, A is the absorbance of
+F420 420
+the sample at pH 13.5 at 420 nm by comparison with the sample at a pH less than 3,
+f is the dilution multiple, ε is the absorbance coefficient of coenzyme F at pH 13.5
+420
+(54.3/(cm·mM)),Listhethicknessofthecuvette,andxisthebiomassofthesludge(g/L).
+2.4. FluorescenceInSituHybridization
+Fluorescenceinsituhybridization(FISH)wasusedtoinvestigatetheconcentration
+of methanogens, ammonia-oxidizing bacteria (AOB), nitrite-oxidizing bacteria (NOB),
+and polyphosphate-accumulating organisms (PAOs) in the two WWTPs. The rRNA-
+targetedoligonucleotideprobesusedintheexperimentarepresentedinTable2. During
+theexperiments,themixtureofliquidsandsludgewassampled. Then,thesludgesamples
+wereobtainedaftercentrifugation. Thesludgesampleswerepretreatedaccordingtothe
+protocol described previously by Amann et al. [28]. FISH was performed according to
+standardprotocols[25]. Inbrief,thehybridizationbuffer(Table2)andfluorescentprobe
+weremixedgently. Then,hybridizationwasperformedinanequilibratedchamber. After
+washinginthewashingbuffer,rinsingwithdistilledwater,andairdrying,theslidewas
+mountedwithadropofCitiflour(Sigma,NewYork,NY,USA).FISHimageswerecollected
+andrecordedbyalaserscanningconfocalmicroscope(LeicaTCSSP8,Wetzlar,Germany).
+
+--- Page 6 ---
+Water2024,16,2101 6of19
+Table2.rRNA-targetedoligonucleotideprobesusedinthisresearch.
+ProbeName Target Sequence(5′-3′) Formamide Reference
+%
+EUB338 Eubacteria GCTGCCTCCCGTAGGAGT 35
+Tobeusedincombinationwith
+EUB338II GCAGCCACCCGTAGGTGT 35
+probeEUB338 [29]
+Tobeusedincombinationwith
+EUB338III GCTGCCACCCGTAGGTGT 35
+probeEUB338
+ARC915 Archaebacteria GTGCTCCCCCGCCAATTCCT 35 [30]
+Betaproteobacterial
+Nso1225 CGCCATTGTATTACGTGTGA 35 [31]
+ammonia-oxidizingbacteria
+NEU Mosthalophilicandhalotolerant CCCCTCTGCTGCACTCTA 40* [32]
+NmV Nitrosococcusmobilis TCCTCAGAGACTACGCGG 35 [33]
+Cluster6a192 Nitrosomonasoligotrophalineage CTTTCGATCCCCTACTTTCC 35 [34]
+Ntspa662 GenusNitrospira GGAATTCCGCGCTCCTCT 35 [34]
+Nit3 GenusNitrobacter CCTGTGCTCCATGCTCCG 40 [35]
+Nsm156 Nitrosomonas TATTAGCACATCTTTCGAT 5 [31]
+Nsv443 Nitroso-spira,-lobus,-vibrio CCGTGACCGTTTCGTTCCG 30 [31]
+PAO462 MostAccumulibacter CCGTCATCTACWCAGGGTATTAAC 35
+PAO651 MostAccumulibacter CCCTCTGCCAAACTCCAG 35 [36]
+PAO846 MostAccumulibacter GTTAGCTACGGCACTAAAAGG 35
+Note:*NEUcanalsobeusedwith35%FA.
+2.5. ModelFormation
+Inordertosimulatethegrowthofmethanogensaccurately,aseriesofmodelswas
+employed. Firstofall,anaerobicdigestionmodelsNo. 1and2(ADM1andADM2)were
+usedtosimulatethemethanogenesiswithamendments. Theanaerobicdigestionmodel
+(ADM)[37]iscommonlyusedtosimulateanaerobicdigestion,namelymethanogenesis.
+SinceourobjectiveistopredicttheCH emissionfromprocesses,theADMisnecessary.
+4
+Basedontheresults,nitrate/nitritecouldalsoaffectCH generationandemission. The
+4
+modeltosimulatenitrification,activatedsludgemodelNo. 1(ASM1)[38],wasused. In
+theWWTPs,phosphorus-accumulatingorganisms(PAOs)cancauseorganiccompounds
+tocompetewithmethanogens,alsoaffectingCH formation. Therefore,activatedsludge
+4
+modelNo. 2D(ASM2D)forphosphorusremovalwasmergedintoASM1. Asaresult,our
+modelwasestablishedbycombiningADMwithASM1andASM2toobtainmoreaccurate
+predictionsforthegrowthofmethanogensandCH emission.
+4
+ThekeyprocessessimulatedinthemodelareshowninFigure2. Theamendments
+ofmodelADM2[39]areasfollows: (1)theequationoftheaceticacidutilizationprocess
+remained unchanged, the stoichiometric coefficient corresponding to methanogens in
+theprocesswassetto1,andotherstoichiometriccoefficientswereadjustedaccordingly;
+(2)phosphoruswhichwasrequiredbymethanogengrowthwasconsidered;(3)thesameas
+thedecayofautotrophicorheterotrophicbacteriaandPAOs,X (particulatebiodegradable
+S
+organic matter), X (microbial decay of a particle state product), and X (particulate
+P PD
+biodegradableorganicphosphorus)frommethanogendecaywereconsidered;and(4)in
+theanoxicandaerobictank,sludgefloccanformananaerobicenvironmentinsidethefloc
+formethanogengrowth,becausebacteriaoutsidetheflocconsumedissolvedoxygenand
+nitrate. Therefore,tomakethemodelsimulatethegrowthofmethanebacteriainanoxic
+andaerobictanks,adoubleswitchfunctionwasaddedtothemethanogengrowthkinetics
+equation. Intheanaerobictank,thedissolvedoxygenandnitrateconcentrationwasalmost
+0;then,theswitchingfunctionvaluewas1. Intheaerobicandanoxictank,thelargerthe
+dissolvedoxygenandnitrateconcentration,thesmallertheswitchingfunctionvalue.
+
+--- Page 7 ---
+Water 2024, 16, x FOR PEER REVIEW 7 of 19
+nitrate concentration was almost 0; then, the switching function value was 1. In the aero-
+bic and anoxic tank, the larger the dissolved oxygen and nitrate concentration, the
+smaller the switching function value.
+ASM 1 used in our model was also modified and combined with the ADM to simu-
+late the growth and decay of methanogens with acetic acid in WWTPs. Meanwhile, the
+modified ASM 1 can also simulate carbon oxidation and nitrogen removal (i.e., nitrifica-
+tion and denitrification). Part of the phosphorus removal of activated sludge model No.
+2D (ASM2D) was combined with ASM1 [40]. In order to make the decay of phosphorus-
+accumulating organisms (PAOs) correspond with the decay of autotrophic and hetero-
+trophic bacteria in ASM1, a new component X (particulate biodegradable organic
+PD
+phosphorus) and a stoichiometric coefficient V (phosphorus content of Attenuation
+P
+product) were introduced into the modified model. To make the hydrolysis of XPD cor-
+respond with the hydrolysis of X and X , the hydrolysis of entrapped organophos-
+ND S
+phate was also introduced. Consequently, the ADM-modified ASM1 model can simulate
+Water2024,16,2101 methanogen growth and decay, as well as carbon oxidation and nitrogen a 7n od f 1p 9hospho-
+rus removal, at the same time. The composite model matrix is shown in Table 3.
+S growth S
+O NH
+autotrophs
+S
+bulk X NO
+BA
+decay
+X
+P
+decay growth
+X X
+P me
+methanogens
+decay
+X
+S
+hydrolysis
+growth
+X X X S heterotrophs X
+P PAO PHA S BH
+decay
+growth
+S
+O
+phosphorus-accumulating
+organisms S
+NO
+Figure2.Theconversionpathwaysofcarbon,nitrogen,andphosphorusinthemodel.
+Figure 2. The conversion pathways of carbon, nitrogen, and phosphorus in the model.
+ASM1usedinourmodelwasalsomodifiedandcombinedwiththeADMtosimulate
+thegrowthanddecayofmethanogenswithaceticacidinWWTPs. Meanwhile,themodi-
+fiedASM1canalsosimulatecarbonoxidationandnitrogenremoval(i.e.,nitrificationand
+denitrification).PartofthephosphorusremovalofactivatedsludgemodelNo.2D(ASM2D)
+wascombinedwithASM1[40]. Inordertomakethedecayofphosphorus-accumulating
+organisms(PAOs)correspondwiththedecayofautotrophicandheterotrophicbacteria
+inASM1,anewcomponentX (particulatebiodegradableorganicphosphorus)anda
+PD
+stoichiometriccoefficientV (phosphoruscontentofAttenuationproduct)wereintroduced
+P
+intothemodifiedmodel. TomakethehydrolysisofXPDcorrespondwiththehydrolysis
+ofX andX ,thehydrolysisofentrappedorganophosphatewasalsointroduced. Con-
+ND S
+sequently,theADM-modifiedASM1modelcansimulatemethanogengrowthanddecay,
+aswellascarbonoxidationandnitrogenandphosphorusremoval,atthesametime. The
+compositemodelmatrixisshowninTable3.
+S K K
+S OHme NOme
+µ X (7)
+m,me K +S K +S K +S me
+S S OHme O NOme NO
+KOHme KNOme
+where is the double switch function; K and K are the in-
+KOHme+SO KNOme+SNO OHme NOme
+hibitioncoefficientsoftheoxygenandnitrateoftheanaerobiczoneswitchingfunction
+coefficientinsideofthesludgefloc,respectively.
+The total conversion rate of methanogens (X ) is r = ∑19 υ ρ , where ρ is
+me 19 j=18 19j j j
+the kinetic equation of the j process; υ represents the corresponding stoichiometric
+19j
+coefficientsoftheX componentintheprocessj.
+me
+
+--- Page 8 ---
+Water2024,16,2101 8of19
+Table3.Processkineticsandstoichiometryforcarbonoxidation,nitrogen,andphosphorusremovalaswellasthemethanogens’growth.
+Component i 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+ProcessRateρj(ML−3T−1)
+Processj↓ SI SS XI XS XBH XBA XP SO SNO SNH SND XND SALK SPO4 XPHA XPP XPAO XPD Xme
+1 ofA he er to eb roic trg or po hw sth Y− H1 1 −(cid:18)1− YHYH(cid:19) −iXB −iX 14B −iPBM µH(cid:18) KSS +S SS(cid:19)(cid:18) KOHSO +SO(cid:19) XBH
+2 ofA hn eo tex ri oc tg roro pw hsth Y− H1 1 − 21 .− 86Y YH −iXB 14×1− 2 iX.Y 8 B6H YH− −iPBM µH(cid:18) KSS +S SS(cid:19)(cid:18) KOK HO +H SO(cid:19)(cid:18) KNOsN +O SNO(cid:19) ηgXBH
+H
+14
+3 g ofrA o awe ur tto ohb tric ophs 1 −(cid:18)4.57 Y− AYA(cid:19) −iX 14B− 7Y1 A −i YX 1 AB− −i 7X 1 Y14B A− −iPBM µA(cid:18) KNHSN +H SNH(cid:19)(cid:18) KOAsO +SO(cid:19) XBA
+4 heD tee rc oa ty roo pf 1−fP −1 fP fPiX ·iB X- i fP PB ·vM p- bH·XBH
+hs P
+5 auD toe tc ra oy po hf 1−fP −1 fP fPiX ·iB X- i fP PB ·vM p- bA·XBA
+s P
+6
+Ammonification
+ofsoluble 1 −1 11 4 Ka·SND·XBH
+organic
+nitrogen
+7 e on rH gtr ay a nd p ir cpo sely dsisof 1 −1 Kh KX+X (cid:18)S X(cid:14) X S(cid:14)B XH BH(cid:19)(cid:20)(cid:18) KOHSO +SO(cid:19) +ηh(cid:18) KOK HO +H SO(cid:19)(cid:18) KNOSN +O SNO(cid:19)(cid:21) XBH
+8 rH ay nd ir cpo nly its ri os go ef ρ7(cid:18)XND(cid:14) XS(cid:19)
+e on gtr a p e d 1 −1
+n
+X9 PS Hto Arageof −1 YPO4 1 -YPO4 qPHA.KSSS +S SS. KPPX +PP X(cid:14) PX PP (cid:14)A XO PAO.XPAO
+1 st0 oA rae gr eob oi fc -YPHA −1 -YPHA 1 qPP.KO2SO K+ I2 S PO P2 +. KAK MXPS −S AP + XXO S −4 P XO PX4 PP. (cid:14)AK XOP PH AX OAP + .H XXA PP A(cid:14) HX OP AA (cid:14) XO PAO.
+XPP
+K M P P (cid:14)
+
+--- Page 9 ---
+Water2024,16,2101 9of19
+Table3.Cont.
+Component i 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+ProcessRateρj(ML−3T−1)
+Processj↓ SI SS XI XS XBH XBA XP SO SNO SNH SND XND SALK SPO4 XPHA XPP XPAO XPD Xme
+11Anoxic
+s ot fo Xra Pg Pe − 2.1 86YPAO −1 -YPHA 1 ρ10.ηNO3.K SOO 22.KNOS 3N +O S3
+NO3
+1 g2 roA we tr hob oi fc XPAO −(cid:18)1− YPY APA OO(cid:19) −iXB −iPBM Y− PA1 O 1 µPAO.KO2SO +2 SO2.KNHS 4N +H S4 NH4.KPS +P SO P4 O4. KPHX AP +H XA P(cid:14) HXP AA (cid:14) XO PAO.XPAO
+1 g o3 fro XA w Pn Ato h Oxic −(cid:18) 21 .− 86Y YP PA AO O(cid:19) −iXB −iPBM YP− A1 1 ρ12·ηNO3·K SOO 22 · KNOS 3N +O S3
+O NO3
+14LysisofXPHA 1 −1 bPHA·XPHA
+15LysisofXPP 1 −1 bPP·XPP
+16LysisofXPAO 1−fP fP fPiX ·iB X- −1 i fP PB ·vM p- bPAO·XPAO
+P
+17Hydrolysisof
+e on rgtr aa np icped 1 −1 ρ7(cid:0)XPD/XS(cid:1)
+phosphorus
+1 m8 eG thr ao nw ot gh eo nf s Y− m1 e −iPBM 1 µm,meKSS +S SS KOK HO mH em +e SO KNOKN mO e+m Se NOXme
+1 m9 eD the ac na oy go ef 1−fP fP fPiX ·iB X- i fP PB ·vM p- −1 bme·Xme
+ns P
+Observed
+(c mon Lv −e 3rs Tio −n 1)rates ri=∑ jvijρj
+
+--- Page 10 ---
+Water 2024, 16, x FOR PEER REVIEW 10 of 19
+Water2024,16,2101 10of19
+(cid:1845) (cid:1837) (cid:1837)
+(cid:3020) (cid:3016)(cid:3009)(cid:3040)(cid:3032) (cid:3015)(cid:3016)(cid:3040)(cid:3032)
+(cid:2020) (cid:1850) (7)
+(cid:3040),(cid:3040)(cid:3032)(cid:1837) +(cid:1845) (cid:1837) +(cid:1845) (cid:1837) +(cid:1845) (cid:3040)(cid:3032)
+3. Results (cid:3020) (cid:3020) (cid:3016)(cid:3009)(cid:3040)(cid:3032) (cid:3016) (cid:3015)(cid:3016)(cid:3040)(cid:3032) (cid:3015)(cid:3016)
+3w.1h.eMree th(cid:3012) a(cid:3264)n(cid:3257)e(cid:3288)F(cid:3280)luxes(cid:3012) f(cid:3263)r(cid:3264)o(cid:3288)m(cid:3280)th eisT wthoeB dNoRubPlreo csewssietsch function; KOHme and KNOme are the inhibi-
+(cid:3012)(cid:3264)(cid:3257)(cid:3288)(cid:3280)(cid:2878)(cid:3020)(cid:3264)(cid:3012)(cid:3263)(cid:3264)(cid:3288)(cid:3280)(cid:2878)(cid:3020)(cid:3263)(cid:3264)
+tion cMoeetfhfiacnieenitss foofr mtheed oixnytgheens eawnde rnsiytrsatetem oaf sthwee allnaaseirnobainca zeoronbei cswanitdchainnogx ifcupnrcoticoenss ceoseifn-
+WficWienTtP isndsiudee toof ltohwe sdliusdsoglev efldoco,x ryegspenecctoivnecleyn. tration[41]. Duetolowwatersolubility[42],
+methTahnee tcootualld cobnevrearpsiidonly reamte itotfe dmfertohmanwogaesntes w(Xat me e)r .isT (cid:1870)h (cid:2869)e =me∑a(cid:2869) (cid:3037)s (cid:2880)(cid:2877)u (cid:2869)r (cid:2876)e(cid:2029)d (cid:2869)(cid:2877)d (cid:3037)(cid:2025)a (cid:3037)i,l ywmheerteh a(cid:2025)n eisfl tuhxe
+(cid:2877) (cid:3037)
+rkainnegteisc efrqoumatieoanc hofu tnhiet jo pfrtohceestsw; (cid:2029)o B NreRprpersoecnetss stehse dcuorrirnesgptohnedienxgp esrtoimicehniotamleptreirci ocdoeaffrie-
+(cid:2869)(cid:2877)(cid:3037)
+presentedinTable4. Figure3showsthemonthlymethanefluxfromthetwoBNRplants.
+cients of the Xme component in the process j.
+Duringtheperiodofinvestigation,theaverageCH fluxesfromtheOrbaloxidationditch
+4
+andA/A/Oprocesseswere22.74and9.57gCH /(m2·d),respectively,indicatingthatthe
+3. Results 4
+CH fluxfromtheOrbaloxidationditchprocesswasmorethantwotimeshigherthanthat
+3.1.4 Methane Fluxes from the Two BNR Processes
+fromtheA/A/Oprocess. Figure3showsthattheOrbaloxidationditchsystememitteda
+signifiMceatnhtalyneh iigsh feorrmamedo uinn tthoef mseewthearn seysthteamn tahse wAe/llA a/sO ins yanstaeemro.bTihc iasnrdes aunltoixnidc ipcarotecsetshseast
+pinr oWceWssTcPosn dfiugue rtaot iloonwa dffiescstoeldvemd eotxhyagneene mcoinscsieonntr.aTtwioon m[4a1i]n. Dfauceto tros lpoows swibaltyerin sflouluebniclietdy
+m[42e]th, amneetheamnies scioounl.d Fbiers rtlayp,itdhley aeemraitttieodn fsryosmte mwapsltaeyweadtear. kTehye rmoleeaisnuraefdfe cdtainilgy mmeetthhaannee
+eflmuxis rsaionng.eCs ofrnotmin ueaocuhs umniictr oopf othree atweroa tBioNnRi nprtohceeAss/eAs d/uOripnrgo ctheses ewxpaesrmimoerenteaflfi pcieerniotdth aarne
+tphreesienntetermd iitnte nTtasbuler fa4c. eFaigeruartei o3n isnhothwesO trhbea lmooxnidthatlyio nmdeitthcahnper oflcuexs s,frroemsu ltthineg tiwnoh iBghNeRr
+dpilsasnotlsv. eDduorxinygg etnhec opnecreiondtr aotfi oinnvienstthigeaftoiormn, etrhoen aev.eSriangcee CalHlm4 feltuhxaenso fgreonms wtheer eOsrtbraiclt olyxiadnad-
+otibolnig datiotcrhy aannade rAo/bAic/,Oh ipgrhodceissssoelsv ewdeorex y2g2e.7n4c oanncde n9t.5ra7t igo nCcHo4u/(ldmi2n·dh)i,b ritesmpeetchtaivneelyfo, rimndaitciaotn-
+dinigre cthtlayt [t4h3e] .CSHec4o fnludxly f,rtohme atbhsee Oncrebaolf oaxpidriamtiaorny dsiettcthli npgrotcaensks cwoausl dmaollroew thmane tthwaon otgimeness
+thoigdhierre ctthlyanfl tohwat ifnrotomt htheeO Ar/bAa/lOo xpirdoacteiossn. Fdiigtcuhrew 3i tshhoinwflsu tehnatt athned Othrbearel boyxiidnactrieoans editthche
+asybsutnedma necmeiottfemd eat hsaignnoigfiecnasntinlyt hheigOherbr aalmoxoiudnatt ioofn mdiettchhasnyes ttehman. the A/A/O system. This
+result indicates that process configuration affected methane emission. Two main factors
+Tpaobslseib4l.yM ientfhlauneenflcuedx rmanegtehaannde aevmeriasgseioinn.e Facirhsptlryo, ctehsesi nageruantiito.n system played a key role in
+affecting methane emission. Continuous micropore aeration in the A/A/O process was
+MethaneFlux(gCH /(m2·d))
+more efficient than the intermittent surface aeration in the Orbal oxidati4on ditch process,
+WWTP ProcessingUnit
+resulting in higher dissolved oxygen concentration inR atnhgee former one. SincAev aelrla gmeethano-
+gens were strictly and obliAgnaatoerroyb iacntaaenrkobic, high 1d0i.s8s2o~l2v4e.9d2 oxygen concen1t8ra.1t3ion could
+Orbaloxidationditch
+inhibit methane formationO dxiirdeacttiolyn [d4i3tc]h. Secondly, t2h.e79 a~b7s.4e5nce of a primary 4s.e6t1tling tank
+could allow methanogens Atona deriorebcictltya nfklow into the4. 5O5~rb11a.l3 4oxidation ditch w7.i5t7h influent
+A/A/O Anoxictank 0.39~0.89 0.65
+and thereby increase the abundance of methanogens in the Orbal oxidation ditch sys-
+Oxictank 0.77~2.19 1.35
+tem.
+FFiigguurree 33.. EEmmiissssiioonn fflluuxxeess ooff mmeetthhaannee ffoorr ttwwoo BBNNRR pprroocceesssseess.. ((AA)) OOrrbbaall ooxxiiddaattiioonn ddiittcchh pprroocceessss;;
+((BB)) AA//AA//OO pprorocecsess.s .
+TTaabbllee 44 sshhoowwss tthhaatt tthhee mmeetthhaannee flfluuxxeess ddeeccrreeaasseedd ffrroomm aannaaeerroobbiicc ttaannkkss ttoo ooxxiiddaattiioonn
+ddiittcchheess iinn tthhee OOrrbbaallo oxxididaatitoionnd diticthchp prorcoecsess,si,m implpyliynigntgh tahtatth ethien cinrecarseeasine idni sdsoislsvoeldveodx yogxeyn-
+ignenb uinlk bwulakt ewractaenr scuanb sstuabnstitaalnlytiadlelyc rdeeacsreemaseet hmaentheapnreo dpurocdtiuonct.ioInn.t Ihne tAhe/ AA//AO/Op rporcoecsess,sa,
+sai msiimlairlatrr etnrednwd awsaosb soebrsveerdveind ainna aenroabeirco/boicx/ioc/xiacn/aonxoicxitca ntkans.kHs. oHwoewveerv,edru, edutoe tthoe tchoen tcionnu--
+otiunsuomuesc hmaencihcaanliacearla atieornatsiotrnip sptriinpgpoinfgd iosfs odlivsseodlvmedet hmaentehafrnoem frwomat ewraitnert hine othxeic otxainck t,atnhke,
+methaneemissionintheoxictankwasabithigherthanthatintheanoxictank. Because
+oftherelativelyhigheroxidation/reductionpotential(notconducivetotheproductionof

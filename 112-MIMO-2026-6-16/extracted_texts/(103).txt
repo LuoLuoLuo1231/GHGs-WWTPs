@@ -1,0 +1,598 @@
+--- Page 1 ---
+JournalofEnvironmentalChemicalEngineering13(2025)116004
+Contents lists available at ScienceDirect
+Journal of Environmental Chemical Engineering
+journal homepage: www.elsevier.com/locate/jece
+Assessing GHG emissions and carbon neutral strategies in dyeing and
+printing wastewater treatment and reuse
+Hua Yina,b, Caiyun Yanga,b, Zhihua Tanga,b,*
+aKey Laboratory of Renewable Energy, Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, No. 2 Nengyuan Road, Wushan, Tianhe District,
+Guangzhou 510640, China
+bGuangdong Key Laboratory of New and Renewable Energy Research and Development, No. 2 Nengyuan Road, Wushan, Tianhe District, Guangzhou 510640, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: As the world’s largest producer and exporter of textiles and apparel, China generates a significant amount of
+Printing and dyeing wastewater treatment and dyeing and printing wastewater (DPWW). To achieve carbon neutrality, there is an urgent need to reduce
+reuse greenhouse gas (GHG) emissions from dyeing and printing wastewater treatment and reuse (DPWWTR). This
+Greenhouse gas emissions
+study introduced a standardized and systematic Life Cycle Assessment (LCA) method to evaluate GHG emissions
+Life Cycle Assessment
+throughout the life cycle of DPWWTR. Furthermore, it proposed potential low-carbon pathways aimed at
+Low-carbon pathways
+Carbon neutrality ta hc eh ie rev si un lg sc a rr eb vo en ln edeu tt hra al ti t ty h. eB a Gs Hed o in t th ene a itc it eu sa l fo p se tara nt dio arn da il d edat a f ar so tm a tc ee rn t wra el ri eze 3d 6tr 6e a ktm gCe Ont ep ql .a mnt (cid:0) f 3o r nD dP W 4.W 01,
+t a G n s o z w ew a . 2 a
+kgCO2eq.kgCOD(cid:0)1, kgCO2eq.m(cid:0)3.
+while the GHG emission intensity of reclaimed water was found to be 5.70 The
+main contributor to GHG emissions was electricity consumption, which accounted for 49 % of total emissions.
+The energy structure, with sensitivities of 0.35 and 0.52 for standardized wastewater and reclaimed water,
+respectively, had the most significant impact on GHG emission intensity. This study also investigated the po-
+tential for emission reductions under different scenarios and found that heat pumps and anaerobic membrane
+bioreactors (AnMBR) offered the most significant opportunities for GHG emission reductions. The achievable
+kgCO2eq.m(cid:0)3
+emission reductions for standardized wastewater and reclaimed water were 1.42 and 1.63
+kgCO2eq.m(cid:0)3, kgCO2eq.m(cid:0)3 kgCO2eq.m(cid:0)3,
+and 0.74 and 0.90 respectively. According to the forecast, standard
+wastewater is expected to achieve carbon neutrality by 2035, while reclaimed water is expected to achieve
+carbon neutrality by 2045.
+1. Introduction PDWW is characterized by a large volume of water, high levels of
+organic pollutants, high toxicity, high chrominance, high salt content,
+Since the Chinese government announced its goal of "carbon peaking and difficult to biodegrade. It contains a large number of toxic and
+and carbon neutrality" in September 2020, the entire industry has harmful substances such as solvents, salts, organic dyes and dyeing
+accelerated its efforts to explore energy conservation, emission reduc- auxiliaries, making it one of the most challenging industrial wastewaters
+tion, and low-carbon operations [1]. The textile industry is a significant to treat [7]. Currently, the pretreatment and treatment methods for
+contributor to global pollution and greenhouse gas (GHG) emissions [2], PDWW are divided into three categories: physical, chemical, and bio-
+accounting for approximately 10 % of global GHG emissions [3]. As the logical methods. Physical methods such as coagulation, adsorption, and
+world’s largest producer and exporter [4], China generates an estimated membrane filtration [8]can effectively remove dye molecules and other
+2–3 billion tons of textile wastewater annually (with printing and dyeing harmful substances from the wastewater. Chemical methods include
+wastewater (PDWW) constituting 80 % of the total textile wastewater) electrochemical oxidation [9], Fenton oxidation [10], ozone oxidation
+[5], representing about 11 % of the country’s total wastewater discharge [11], and catalytic oxidation [12]. These methods have shown better
+[6]. As an energy-intensive industry, upgrading PDWW treatment plays treatment effects on wastewater because they can almost completely
+a crucial role in reducing GHG emissions. degrade or remove dyes or toxic substances with relative ease of
+* Corresponding author at: Key Laboratory of Renewable Energy, Guangzhou Institute of Energy Conversion, Chinese Academy of Sciences, No. 2 Nengyuan Road,
+Wushan, Tianhe District, Guangzhou 510640, China.
+E-mail address: tangzh@ms.giec.ac.cn(Z. Tang).
+https://doi.org/10.1016/j.jece.2025.116004
+Received 11 October 2024; Received in revised form 16 February 2025; Accepted 26 February 2025
+Availableonline4March2025
+2213-3437/©2025ElsevierLtd.Allrightsarereserved,includingthosefortextanddatamining,AItraining,andsimilartechnologies.
+
+--- Page 2 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+operation. Biological methods mainly consist of anaerobic and aerobic conventional activated sludge (CAS) system, membrane bioreactor
+processes [13], both of which are economical, safe, and environmentally (MBR), and moving bed biofilm reactor (MBBR) in terms of technology,
+friendly options for treating PDWW. economy and environment. Their findings indicated that the MBBR
+Currently, research primarily focuses on the removal of pollutants process significantly mitigated environmental impacts across various
+from PDWW. There is relatively limited research on GHG emissions from categories when compared to both CAS and MBR systems.
+the treatment and reuse system of PDWW. However, due to the Although numerous studies have been conducted to assess the
+complexity of the treatment process and its significant energy and environmental and economic sustainability of the PDWWTR using LCA
+chemical consumption, it is imperative to consider the GHG emissions of and LCC, the GHG emission data published in these studies were mostly
+PDWWTR systems. In today’s increasingly scarce water resources, the based on literature, previous reports, and references to overseas envi-
+development of economically effective advanced treatment technologies ronmental databases. Even if the actual project was only a small
+for PDWW is inevitable. The secondary treatment of PDWW for further wastewater treatment plant attached to a printing and dyeing factory,
+treatment until reuse is becoming a prominent trend in the industry. In the water reuse rate was very low and the treatment process was rela-
+order to meet high reclaimed water standards, membrane technology is tively simple. In addition, few studies have considered the environ-
+commonly adopted [8]; however, its high energy consumption and short mental benefits of low-carbon wastewater treatment technologies,
+service life pose challenges to the reuse of PDWW. In addition, improper different sludge disposal technologies, and different levels of reclaimed
+treatment or disposal of high-organic sludge can result in significant water reuse (i.e., different reclaimed water reuse rates) for PDWWTRs.
+GHG emissions. Conversely, a resource-based approach to disposal can Therefore, this study used actual operational data from a centralized
+result in significant carbon sinks. Unfortunately, it remains uncertain PDWWTR plant to investigate life-cycle GHG emissions using the LCA
+whether these approaches are economically viable or environmentally method, as well as to propose potential low-carbon pathways to achieve
+sustainable. carbon neutrality. The innovation of this current study resided in its
+The Life Cycle Assessment (LCA) method has been widely utilized to holistic analysis of physical, chemical, and biological treatment methods
+evaluate the environmental sustainability of the entire life cycle of a throughout the WWTP from a life-cycle perspective. Key objectives for
+product, process, or service. This is achieved by determining the total DPWW include:
+resources consumed, as well as all emissions and wastes released into the
+environment. LCA can be employed to compare the consumption and (1) Utilization of First-Hand Operational Data: Employed actual
+emission intensities of different technology-scenario-processes in terms operational data from a centralized PDWWTR facility, addressing
+of energy and environmental perspectives. In the long run, LCA plays an the limitations of previous studies that relied heavily on sec-
+essential role in assisting decision-makers in choosing a comprehensive ondary data. Provided a more accurate and realistic assessment of
+approach to PDWWTR[14]. Several LCA studies have been conducted to GHG emissions during the operational phase.
+assess different approaches for PDWWTR. Grisales et al. [15]conducted (2) Comprehensive LCA: Conducted a holistic LCA of the entire
+an evaluation of the environmental footprint associated with synthetic PDWWTR system, encompassing physical, chemical, and bio-
+dye wastewater treated by the Fenton process throughout its life cycle. logical treatment processes. Offered a detailed understanding of
+They highlighted that electricity consumption constituted 60 % of the the environmental impacts associated with the entire treatment
+carbon footprint attributed to the Fenton process. Furthermore, the in- and reuse process, filling the gap left by prior studies that focused
+clusion of chemical auxiliaries resulted in a 178 % increase in the overall only on isolated subsystems.
+cost of the treatment process. Nakhate et al. [16]utilized LCA to assess (3) Quantification of Key Factors: Quantified the impact of various
+the environmental hotspots during the operational phase of a regional- factors—such as energy structure, direct emission factors, energy
+ized wastewater treatment plant in the textile industry. They pointed out utilization efficiency, water recycling rates, and wastewater
+that electricity consumption was a significant contributor to environ- quality—on GHG emissions within the PDWWTR system. Iden-
+mental impact, followed by chemical usage and transportation. The tified viable leverage points for GHG emissions reduction,
+ozonation process was identified as having a substantial environmental providing actionable insights for improving the system’s envi-
+impact, whereas the activated carbon filtration process exhibited the ronmental performance.
+lowest environmental impact. Ahangarnokolaei et al. [17]conducted a (4) Exploration of Low-Carbon Pathways: Explored innovative
+comprehensive analysis of the environmental impacts associated with pathways to achieving carbon neutrality in PDWWTR systems by
+simultaneous (-) and sequential (→) combinations of electrocoagulation integrating advanced technologies (e.g., advanced catalytic
+and ozonation, comparing these methods to the individual processes of oxidation, negative pressure drying, waste heat recovery, and
+electrocoagulation and ozonation alone. Their findings revealed that AnMBR) with systemic factors like energy grid evolution.
+electrocoagulation utilizing aluminum (Al) exhibited superior environ- (5) Scenario Analysis and Future Projections: Presented a detailed
+mental performance compared to that employing iron (Fe). Further- scenario analysis, forecasting the potential for achieving carbon
+more, ozone (O3) was identified as having the most significant neutrality in standardized wastewater and reclaimed water. This
+environmental impact across all evaluated categories. Salazar-Sogamoso projection was based on the optimization of energy structures,
+et al. [18] conducted a study on the sustainability of raw textile adoption of low-carbon technologies, and implementation of
+wastewater treatment utilizing two sequential processes based on LCA waste heat recovery systems, offering a roadmap for the textile
+approach. They emphasized that the highest CO2 emissions were asso- industry’s transition to a sustainable and carbon-neutral future.
+ciated with the primary wastewater treatment method, specifically
+coagulation-flocculation. Furthermore, they found that Electro-Fenton 2. Materials and methods
+neutralization exhibited a lower carbon footprint compared to Fenton
+neutralization. Rogerio et al. [19]conducted LCA study on the degra- 2.1. System boundary and data sources
+dation of dyes using the Photo-Fenton process. They found that the use
+of H2O2 was identified as a significant contributor to environmental 2.1.1. System boundary
+impact. Est´evez et al. [20]focused on a comparative LCA and Life Cycle In this study, a LCA was conducted to quantify the GHG emissions of
+Costing (LCC) of two reactors for different reaction environments. They a PDWWTR system. Due to challenges in obtaining data for the con-
+discovered that the two-phase partitioning bioreactor exhibited superior struction and demolition phases, the focus was only on the operation
+performance in terms of ecotoxicity. The adverse effects associated with phase, which spanned from January to December 2022. The service life
+lower pH levels and the utilization of blowers were mitigated by of UF and RO membranes typically ranges from 3 to 5 years. To
+enhanced dye removal efficiency. Yang et al. [21] compared the streamline the analysis and focus on the primary sources of GHG
+2
+
+--- Page 3 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+emissions and develop more targeted mitigation strategies, this study 2.1.2. Data sources
+did not consider the impact of GHG emissions associated with the pro- To obtain real-world data, we studied a centralized PDWW treatment
+duction and replacement of UF and RO membranes. plant in an industrial park in Foshan, China. The primary data was
+The flow of the PDWWTR system is illustrated in Fig. 1. After floc- collected from the plant’s test records, its centralized data monitoring
+culation and precipitation, 2996.37 × 104 m3.a(cid:0) 1 of PDWW was center, and interviews with managers and chief engineers. Data from the
+directed to anaerobic-aerobic (AO) reactors for biochemical treatment. treatment plant’s own research reports were also collected as auxiliary
+Following this, 749.09 ×104 m3.a(cid:0) 1 of the effluent underwent advanced information. The detailed information includes: (1) characteristics of
+ozone oxidation reaction for further decolorization. After ozonation, the raw wastewater (including quality parameters and flow quantities); (2)
+treated water was transported to the oxidation ponds and constructed wastewater treatment processes, effluent standards of treated waste-
+wetlands for intensive treatment. The remaining 2247.28 ×104 m3.a(cid:0) 1 water; (3) reclaimed water treatment processes, production metrics and
+of wastewater was transferred to the ozone-oxidizing tanks of the water quality specifications of reclaimed water; (4) energy consumption
+reuse system for further decolorization. It then proceeded to the primary metrics; (5) chemical types and dosage; (6) sludge production, treatment
+UF and RO system, with 1507.50 ×104 m3.a(cid:0) 1 of purified water from and disposal pathways. The pollutant levels in the influent and effluent
+the primary RO being reused either in the thermal power plants or of a textile wastewater treatment plant are shown in Table 1.
+returned to the printing and dyeing facilities. The concentrated water
+from this stage underwent secondary UF and RO treatment, with
+445.50 ×104 m3.a(cid:0) 1 of purified water from the secondary RO also being 2.2. Accounting for life-cycle GHG emissions
+reused. Finally, the 294.28 ×104 m3.a(cid:0) 1 of concentrated water from the
+secondary RO was then returned to the biochemical treatment system. 2.2.1. GHG emission intensity accounting
+The sludge produced by the flocculation-sedimentation system, the The LCA method was used to evaluate the life-cycle GHG emissions
+biochemical treatment system, and the ozone oxidation system was first of the PDWTR system. The total GHG emissions were determined by
+mechanically dewatered and hot-dried, and then sent to the thermal using the following equation.
+power plant for incineration. ∑ ∑
+E= Ei= (ADi,j×EFi,j×GWP) (1)
+Emissions during the operational phase are classified into three
+distinct scopes in accordance with the GHG Protocol framework. Scope 1
+Where E represents the total GHG emissions; Ei denotes the GHG emis-
+encompasses direct GHG emissions, while Scope 2 pertains to indirect
+sions at each stage, ADi,j indicates the actual consumption of energy or
+GHG emissions resulting from purchased electricity consumed within
+material data, and EFi,j is the corresponding emission factor. Addition-
+company-owned or controlled facilities. Scope 3 addresses other indirect
+ally, GWP refers to the global warming potential of different types of
+GHG emissions, including those arising from the production of pur-
+GHGs. Specifically, the GWP values for CH4 and N2O are 28 and 265,
+chased materials. Consequently, our analysis focuses on five sources of
+respectively [22].
+GHG emissions:
+GHG emission intensities for standardized wastewater were calcu-
+lated per cubic meter of water discharged and per kilogram of COD
+(1) Direct GHG emissions from methane (CH4) and nitrous oxide
+removed.
+(N2O) during wastewater treatment.
+(2) Indirect GHG emissions from energy consumption during waste- E=EWTT+ESTD+EWRU (2a)
+water treatment, including wastewater transportation, filtration,
+m ene em rgb yr -a inn te c nl se ia vn i an cg t, vo iz to ien se production, sludge drying, and other Edis(cid:0)water=(EWTT+ESTD)×Qdis Q(cid:0)water
+(2b)
+e e i .
+(3) Indirect GHG emissions from chemicals used in wastewater
+t Gr Hea Gtm emen it s, ii on ncl su fd roin mg wco aa sg teu wla an tt es r, ra ec ci od vs, a ryn ,d o it th he sr a ed cd iai lt i av te ts e. edis(cid:0)water= QEd di is s(cid:0) (cid:0)w wa at te er (2c)
+(4) s e w p ntion r
+to energy consumption.
+(5) GHG emissions from sludge treatment and resource utilization. eCODrem,dis(cid:0)water = COE Dd ri es m(cid:0) ,w dia st (cid:0)er (2d)
+water
+Where EWTT, ESTD and EWRU represent the GHG emissions associated
+Fig. 1. System boundary of GHG emissions accounting for PDWWTR (black denotes sludge, while blue signifies wastewater and reclaimed water).
+3
+
+--- Page 4 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+Table 1
+Pollutant levels in the influent and effluent of a textile wastewater treatment plant.
+Parameter Unit Influent Mean value of Biological treatment Biological treatment Mean value of Mean value of reclaimed
+influent influent effluent effluent water
+pH - 8.96–12.50 11 9.4 7.8 7.9 7.9
+CODcr mg⋅L(cid:0)1 400–1000 932 543 71 21 0.44
+BOD5 mg⋅L(cid:0)1 200–450 377 158 18 6 -
+Color times 400–2000 1421 292 149 22 0.32
+NH3-N mg⋅L(cid:0)1 4–21 18 27 3.9 0.67 0.06
+TP mg⋅L(cid:0)1 1–20 6 2.2 1.1 0.32 0.08
+TN mg⋅L(cid:0)1 7–46 47 38 7.9 5.0 1.57
+SS mg⋅L(cid:0)1 50–250 136 48 22 4 0.5
+Note: CODcr: chemical oxygen consumption; BOD5: biochemical oxygen demand; TP: total phosphorus; TN: total nitrogen; SS: suspended solid.
+with the wastewater treatment, sludge treatment and wastewater re- sludge produced by sewage treatment plants, kg; Pv is the organic
+covery stages, respectively, kg; Q is the volume of total PDWW treated, fraction of the dry sludge, 41.05%;ρ indicates the conversion coeffi-
+s
+m kg3 ;; QE dd ii ss (cid:0)(cid:0) ww aa tt ee rr rd ee pn ro et se es t th e hG eH aG e om unis ts i oo fn ts o ef t th ae dst aa rn dd iza er dd i wze ad tw ewas at te ew r,a mte 3r, c thie en et mof so sr ig oa nn fi ac cm toa rt t oe fr Can Hd ,C kO gD Hin .s klu gCdg Oe D, (cid:0)1 1.4 ；2 Rk g is.k tg h(cid:0) e1 C[2 H2 4] ； yiE elF dC ,H 4 gis
+n s t m h s n s ; i 4 C 4 k ;
+wed ais(cid:0) stw ea wter a ti en rd , i kca gt Ce Os 2eth qe .m G (cid:0) H 3; G e Ce Om Drei ms ,ds isi (cid:0)o wan rdi en nte on tesi st y t ho e f Gt Hhe G s et man isd sa iord ni z ie nd - BO, C TH h4 e= di0 re.2 c5 t ek mgC isH si4 o. nk g oC f O ND 2O(cid:0) 1 o c[ c2 u6 r] s， mM aiC nF lyCH i4 n = th0 e . b1 i4 o0 lo [ g2 ic7 a] l. treatment,
+te
+tensity per kg of COD removed for the standardized wastewater, and the equivalent value of N2O was calculated as follows:
+rk eg mCO ov2 ee dq . fk og rC tO hD e (cid:0) st1 a; ndC aO rdD ir ze em d,d i ws(cid:0) aw sat te eri wn ad ti ec ra ,t e ks g COth De . amount of COD EN2O,WTT=Q×(WTNin(cid:0) 10W 0T 0Nout)×EFN2O×CN2O/N2×265 (5)
+The GHG emission intensity for reclaimed wastewater was calculated
+in terms of per cubic meter of reclaimed water. Where EN2O,WTT represents the equivalent value of N2O，kgCO2eq;
+( )
+Ere(cid:0)water=(EWTT+ESTD)× 1(cid:0) Qdis Q(cid:0)water +EWRU (3a) lW do ig cT aN ici tn a l sa tn r td e a eW t m eTN e mo nu it t sa i inr oe fl u t eh fn ae t a ta ov n re d r a oeg ff e fl NuT 2eN On t ,, m r 0a e .s 0ss p ec 6co tn i kvc gee Nln y 2t , Or a m -t Ni go .. kn L gs (cid:0) T1o ; f E (cid:0)t F 1h N e 2 O 2b 2ii no ]- -
+e h s n c 1 N [ ;
+CN2O/N2=44/28.
+ere(cid:0)water= QEr re e(cid:0) (cid:0)w wa at te er (3b)
+r
+(2) Direct GHG emissions for sludge incineration
+Where Ere(cid:0)waterdenotes the GHG emissions of the reclaimed water,
+kg；ere(cid:0)water indicates the GHG emission intensity of the reclaimed The potential GHG emissions from sludge incineration include CO2
+water, kgCO2eq.m(cid:0) 3；Qre(cid:0)waterrepresents the amount of the reclaimed and N2O. According to the Intergovernmental Panel on Climate Change
+water, m3. (IPCC), sludge is classified as a biomass material with a mineral carbon
+content of 0. The GHGs produced by incineration are classified as
+2.2.2. Method of accounting for direct GHG emissions biogenic carbon and are not included in the emissions. However, the
+mineral carbon content of sludge is not negligible and GHG emissions
+(1) Direct GHG emissions in biochemical treatment must be considered [28,29].
+/
+ECO2,inc=mSTD×CCW×FCF×OF×44 12 (6)
+Direct emissions in biochemical treatment include CH4 emissions
+f sr ioo nm m fre ot mha n do enge itn ri ic b ina gc te br ai ca ein aa n ia ne r fo ab cuic te an tiv vi ero en nm ve irn ot ns man ed tN s.2 O e nm sii ds- Where ECO2,inc indicates the GHG emissions of sludge incineration,
+s fy t ri l n Co -
+k thg iC O pa2e pq e; ;C FC CW ii ss tt hh ee fc ra ar cb to ion c oo fn st le un dt r ea t mio no ef rs al lu cd ag re b, ow nh i wch ii cs 1 i9 s. 11 23% i in
+ering the biogenic processes involved in CO2 production and their
+s r F n g i , h h % n
+potential equilibrium with plant photosynthesis, the Intergovernmental
+this paper; OF refers to the oxidation factor, which is 100% in this study.
+fP ra on me l won sC tel wim aa tete C trh ea an tmge nh ta s ny te ot t io in Gc Hor Gp o ir na vt ee d toir re yc .t l My oe rm eoit vte ed C tO he2 N2O emissions were calculated using IPCC recommended emission
+a r e i ts n r,
+factors.
+methodology for accounting fossil fuel-derived CO₂ emissions remains
+u exn id se tir gd e Gv He Glo p inm ve en nt oa ryn d ch coas nn tio nt b fre ae mn ef wor om rka l [l 2y –in 2t 5e ]g r Ta hte ed efin orto t th he EN2O,inc= 1m 0S 0TD 0×EFN2O,inc×265 (7)
+n t a u g 3 . r e, e
+direct carbon emissions discussed in this paper do not include CO2
+Where EN2O,inc is the equivalent value of N2O for sludge incineration,
+emissions from microorganisms in aerobic environments.
+The direct emission of CH4 occurs mainly during the anaerobic k erg aC tO io2 ne ,q 0;E .9F 9N2 kO g,in .tc (cid:0)r 1e f [e 2r 9s ]t .o the emission factor of N2O for sludge incin-
+process in the initial sedimentation tank and biological treatment unit.
+The equivalent value of CH4 was calculated as follows:
+{[ (cid:0) ) ] } 2.2.3. Indirect GHG emission accounting method
+ECH4,WTT= Q× WCO 1D 0in 0(cid:0) 0WCODout (cid:0) mSTD×PV×ρ ×EFCH4(cid:0) R cheI mn id ci are c at G enH G oe nm suis msi po tn is nw e ar ne c a slu us de gd b ty t ah tme ee nn te r ag ny c io nn cs iu nm erp att ii oo nn .,
+s l g t c o , d e re d
+×28 The GHG emissions were determined by multiplying the annual con-
+sumption by the corresponding GHG emission factor (Table 2). The
+(4a)
+factory was located in southern China, with an emission factor for
+EFCH4 =BO, CH4×MCFCH4 (4b) electricity of 0.6379 kgCO2eq.kWh(cid:0) 1 [30]. Ozone was generated by
+oxygen generators and ozone machines, both of which relied exclusively
+Where ECH4,WTT is the CO2 equivalent value of CH4, kgCO2eq；WCODin on electricity for operation.
+a con nd eW nC trO aD to iut nr se ,p rr ee ss pe en ct it vh ee ya ，nn mu ga .l (cid:0)a 1v ；er mag Se i rn efl feu re sn tt a tn hd ae mffl ou ue nn tt C dO rD
+c o t l L TD o e o f y
+4
+
+--- Page 5 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+Table 2
+Electricity and pharmaceutical consumption and corresponding carbon emission factors in 2023 [22,31].
+Wastewater treatment Water reuse Sludge treatment
+Item Data Emission Item Data Emission Item Data Emission
+factor factor factor
+Primary Secondary
+system system
+FeSO4 (t) 33,225 0.26 NaHSO3 (t) 16.2 18 1.6 Quicklime (t) 2520 0.68
+PAM (t) 183.33 1.5 Organic phosphonic 16.2 18 1.6 PAM (t) 158.7 1.5
+acid (t)
+QAP (t) 491.07 1.6 Isothiazolinone 2.0 2.0 1.4 Electricity for 153.72 0.6379
+derivatives (t) dewatering (104kWh)
+Pumps and fans 3245.23 0.6379 Pump (104kWh) 1808.64 641.52 0.6379 Steam for drying (t) 68,400 0.26
+(104 kWh)
+Ozone production 458.94 0.6379 Ozone production 2430.00 1051.38 0.6379 Electricity for drying 828.00 0.6379
+(104 kWh) (104kWh) (104kWh)
+Note: PAM is polyacrylamide; QAP is a polymeric ammonium compound. Power consumption encompassed the power for membrane and equipment cleaning.
+2.2.4. GHG offsets accounting method AnMBR, kgCO2eq; YAnM represents the methane production, 0.2m3CH4.
+The GHG offsets from sludge utilization for power generation were kgCODrem-1 [36]; CODrem,An represents the amount of COD removed in
+calculated as follows: AnMBR, kg; ρ is the density of CH4, kg.m(cid:0) 3.
+CH4
+RCO2,inc=m 0S .T 7D×H 3.a 6ve×ω th(cid:0)e×EFele (8)
+2.3. Sensitivity analysis of key factors
+Where RCO2,inc represents the GHG offsets from sludge utilization,
+The sensitivities of the key factors were calculated as follows:
+kgCO2eq; Have denotes the calorific value of sludge at 30% moisture
+c fio cn iet nen cyt, w wh hi ic ch i is 82 0.2 G J in.t (cid:0) th1 sin ath pi es ;p Ea Fp ee ler ; nω dth i(cid:0) caei ts st h te ec o emge in sse ir oa nti o fan te of r- yi,sensitivity= ΔΔ FG acH toG ri i/ /G FaH cG toi (13)
+, h s % i p r i e h c r
+for electricity, kgCO2eq.kWh(cid:0) 1.
+The reclaimed water was reused for corporate production, and its WhereΔGHGi/GHGi represents the rate of change of GHG emissions due
+GHG offsets were calculated as follows: to the variation in factor i;ΔFactori/Factor denotes the relative variation
+of factor i; a higher sensitivity value indicates proportionally greater
+Rre(cid:0)water=Qre(cid:0)water×EFre(cid:0)water (9)
+influence of the factor on life-cycle GHG emissions.
+Where Rre(cid:0)water refers to the GHG offsets for reclaimed water,
+tCO2eq；EFre(cid:0)water is the emission factor for reclaimed water, 3. Results and analysis
+0.000213t.t(cid:0) 1 [32].
+3.1. Distribution of GHG emissions
+The main components of the ash after sludge incineration are SiO2,
+Al2O3 and Fe2O3, etc., which are similar to those of Portland cement.
+As illustrated in Table 3, the largest GHG emissions were generated
+With the addition of a certain amount of lime, the ash can be calcined to
+from the wastewater treatment stage with 66,074.02 tCO2eq.a(cid:0) 1, ac-
+produce Portland cement. Assuming the direct use of sludge ash in
+counting for 47.62% of total emissions. This was followed by the
+clinker production, the GHG offsets from the use of ash for building
+wastewater recovery stage (at 27,092.92 tCO2eq.a(cid:0) 1 for primary recla-
+materials were calculated as follows:
+mation and 10,859.41 tCO2eq.a(cid:0) 1 for secondary reclamation) and the
+Rbuil(cid:0)mate=m×φ×EFcement (10) sludge treatment and disposal stage (34,719.83 tCO2eq.a(cid:0) 1), collec-
+tively accounting for 27.36% and 25.02% of total emissions,
+Where Rbuil(cid:0)mate represents the GHG offsets, kgCO2eq；EFcement is the
+respectively.
+emission factor of cement clinker production, 0.97kg.kg(cid:0) 1 [33]；φ
+During the wastewater treatment stage, the largest GHG emissions
+indicates the average ash content, 17.5% [34].
+were attributed to direct emissions of CH4 and N2O, accounting for
+GHG offsets of CH4 recovery in the anaerobic reactor were calculated 49.56% (32,745.89 tCO2eq.a(cid:0) 1) of the total emissions in this stage. The
+as follows [5]:
+second largest GHG emissions were associated with the operation of
+ECH4(cid:0)recovery,an=Yan×CO MD Cr Hem 4,an×1000×0.222×γ CH4×EFele (11) f (a 2n 0s ,7, 0p 1u .3m 3p ts C, Oa 2n ed .ao (cid:0)th 1)e .r heq u ti hp im rde n lat r, gew sh i Gch Ga c ec mou isn st ioed f wor re3 1 a. s3 s3 oc%
+q T e t H n s e i-
+ated with chemical use, which accounted for 14.68% (9699.21 tCO2eq.
+W kgh Ce Ore qE ;C H Y4(cid:0) anre co isv ery t, han i Cn Hd 4ic a pt re os duth ce oG n,H G 1o 2f 5f se kt gs CHof .kC gH C4 Dre ec mo v [e 5ry ];, ta e(cid:0) d1 ) i. T th he lp or wod eu stc Gti Hon o ef o iz so sin oe a s,t at ch ce w una ts it ne gw fa ot re r ntr le ya 4tm .4e 3n %t s ota g the er e tosu tal-
+2e e ti 0. 4 O r(cid:0) 1 n e G m n o o f l
+r 1C the 6O a eD c et .r o nmem r eo, , ra gn k (cid:0)r yg 1e ; ;p rM 1r ae nmCs H se f4n lt rrs e eff ft e fih r He s i4t ea o nem cqt yho eu n fm t o eo el nef c tuC aol nO a erD 2w 32r 3ee 2im %g kho t [v 3hoe 5d f m .i 5n e t ;h t γh a Cne e 4, a in w na dhe iir cco ahb ei ic s e w 2m 2na 4dsis 7t ees .i w 2wo 4n a ets ×e ti r n at 0drt 4eh a ai ms t nm 3cs .t e aa n (cid:0)g t 1e s. t nT oa tg nh ee ei rs , dow na til hds y d t7 wiu 4 oe an9 .t t0o ee9 wat ×w to e1 r0f a 4 rsc e,mt co o3r v. hs a e. (cid:0) rlF y1i r sos tft , w d erau s mr Iti nen wg dat it dnh e ige r
+g l o o C u i ov a ml tt 0 ,. W [ 3 ] t s u r n v e d o ez o x a r c at i o n w i e t h ae e a i an
+H
+t e c h ] 1 e e s g . -
+The GHG offsets of CH4 recovery in AnMBR were calculated as fol- tion, the quality of the discharged water was lower than that of the
+lows [5]: reclaimed water, resulting in lower ozone consumption (only 51 gO3.
+m(cid:0) 3 wastewater [37]). Based on the analysis above, the key measures to
+ECH4(cid:0)recovery,AnM=YAnM×CO MD Cr Hem 4,An×1000×0.222×γ CH4×ρ CH4×EFele r de ed cu rec ae inG gH dG ree cm i ess mio isn ss onin sw uca hs te aw a Ct Her wtr hea ilt em ie mn pt rop vr io nc ge s ts he es el nie rgin
+s i t i s s 4 e y
+(12) efficiency of conveyance equipment such as pumps and fans. To address
+these issues, CH4 recovery and utilization can be implemented to miti-
+WhereECH4(cid:0)recovery,AnMindicates the GHG offsets of CH4 recovery in
+gate direct GHG emissions, and variable frequency drive technology can
+5
+
+--- Page 6 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+Table 3
+GHG emissions from each stage of the DPWWTR system.
+Item Wastewater treatment Primary wastewater Secondary wastewater Sludge treatment Total emissions
+recovery recovery
+Quantity (t) Ratio Quantity (t) Ratio Quantity (t) Ratio Quantity (t) Ratio Quantity (t) Ratio (%)
+(%) (%) (%) (%)
+Emissions from chemical use 9699.21 14.68 54.60 0.20 60.40 0.56 1951.65 5.62 11,765.86 8.48
+Emissions from ozone production 2927.58 4.43 15,500.97 57.21 6706.75 61.76 – – 25,135.30 18.12
+Emissions from other electricity 20,701.33 31.33 11,537.31 42.58 4092.26 37.68 6262.39 18.04 42,593.29 30.70
+use
+Emissions from heat consumption – – – – – – 17,784.01 51.22 17,784.01 12.82
+Direct emissions 32,745.89 49.56 – – – – – – 32,745.89 23.60
+Emissions from sludge – – – – – – 8721.79 25.12 8721.79 6.29
+incineration
+Carbon offsets – – (cid:0) 3210.98 (cid:0) 11.85 (cid:0) 948.92 (cid:0) 8.74 (cid:0) (cid:0) 53.02 (cid:0) 22,569.21 (cid:0) 16.27
+18,409.31
+Total emissions after GHG offsets 66,074.01 47.62 23,881.90 17.21 9910.49 7.14 16,310.53 11.76 116,176.93 83.73
+Total emissions 66,074.01 47.62 27,092.88 19.53 10,859.41 7.83 34,719.84 25.02 138,746.14 100.00
+be adopted to enhance the energy efficiency of pumps and fans. Addi- DPWWTR system.
+tionally, it is recommended to establish an automated monitoring sys-
+tem to track and optimize chemical consumption during wastewater 3.2. GHG emission intensity
+treatment processes, thereby reducing chemical usage and associated
+GHG emissions from chemical applications. The GHG emission intensity of the standardized wastewater was 3.66
+During the wastewater recovery stage, nine ozone generators, each kgCO2eq.m(cid:0) 3 and 4.01 kgCO2eq.kgCOD(cid:0) 1 (Fig. 2). The GHG emission
+with a capacity of 400kW, operated simultaneously, while UF and RO intensity of the standardized wastewater in this study was 0.17
+processes required high pressure to effectively pump wastewater kgCO2eq.m(cid:0) 3 higher than that of the 3.49 kgCO2eq.m(cid:0) 3 reported in the
+through the membranes. Consequently, GHG emissions primarily orig- literature [5]. If GHG emissions from sludge incineration were excluded,
+inated from ozone generation and the electricity consumption associ- the GHG emission intensity of the standardized wastewater would be
+a inte pd w imit ah yp u am np o sp ee cr oa nt dio an rys. G reH cyG le im ngis s wio en res c 1a 5u ,s 5e 0d b .9y o z tCon Oe ep qr .o ad (cid:0)u 1c t ai no dn ore d tu hc ee sd t no 3 a. r3 d7 zk eg dC wO2 ae sq te.m wa(cid:0) t3 e. rF du ir st ch ue sr sm edo r ie n, tt hh ie G paH pG re m wais ss i so ign i in fit ce an nsi tt ly
+r r d c 0 7 2 f ta d i s e n y
+6706.75 tCO2eq.a(cid:0) 1, accounting for 57.21% and 61.75%, respectively. higher than that of urban sewage, which ranged from 0.58 to 1.14
+The GHG emission rates caused by the operation of pumps for primary kgCO2eq.m(cid:0) 3 [36]. This disparity arises from the complex composition
+and secondary reclamation were 42.58% and 37.68%, respectively. of PDWW, extended treatment duration, intricate processes, and
+These findings highlight that the key to mitigating GHG emissions in heightened consumption of pharmaceuticals and energy. The GHG
+wastewater recovery stage lies in three critical optimization strategies: emission intensity per kilogram of COD in this paper was significantly
+enhancing ozone generation efficiency while improving its pollutant higher than that reported in the literature [5](1.58 kgCO2eq.kgCOD(cid:0) 1).
+degradation capacity (particularly for color removal and COD reduc- The possible reason for this phenomenon can be explained as follows:
+tion), optimizing pump transmission performance, and implementing Prior to entering the centralized treatment plant, the wastewater
+energy recovery mechanisms within RO systems. Furthermore, carbon received basic pretreatment, which resulted in an average COD of only
+offsets of 11.85% and 8.74% were achieved through the utilization of 932mg.L(cid:0) 1. The lower COD content required more energy and chem-
+reclaimed water. icals for each kilogram of COD removal.
+During the sludge treatment stage, the highest GHG emissions orig- As depicted in Fig. 2, the main source of GHG emissions from stan-
+inated from steam consumption (17,784.01 tCO2eq.a(cid:0) 1), accounting for dardized wastewater was sludge treatment and disposal, accounting for
+5 co1 n.2 s2 um% o tif t no ta rl ae nm ki es ds ion ss cin nt dh ,i s s cta og ne tr. iG buH tG e gm is 6s 2io 6n 2s f 9ro m Ce Ole 2c et qri .c ai (cid:0)ty 3 d1 is. c6 h9 a% (8 fo6 l7 lo9 w.9 e6 tC coO n2 te rq ib.a u(cid:0) ti1 n) g. E 2l 9e .c 5t 8ri %cit y nc do n 2s 9u .m 88pt %io n ea sn pd td ivir ee lyct
+p o e o in .3 t 1 rg e d , a , r ec .
+(18.04%). Therefore, it is advisable to optimize the conditioner during Within the electricity consumption category, ozone production
+the mechanical dewatering stage to effectively reduce the moisture accounted for 10.69% of total emissions, while the operation of pumps,
+content of the sludge. Reducing sludge moisture content through this fans and other equipment contributed 18.89%. The use of chemicals
+approach could lower thermal energy demand and associated GHG resulted in the lowest proportion of GHG emissions, accounting for
+emissions in subsequent drying processes. Notably, sludge incineration approximately 8.85%. When combined with Figs. 1 and 3, it was
+represented 25.12% of total emissions, despite being the second-largest observed that the GHG emissions resulting from ozone consumption in
+source. However, sludge-to-energy conversion and ash valorization in wastewater treatment amount to 390 gCO2eq.m(cid:0) 3, significantly lower
+construction materials offset 53.02% of emissions in this stage, than those in isolated ozone oxidation [17] (813.9 gCO2eq.m(cid:0) 3).
+demonstrating significant mitigation potential. Furthermore, energy recovery from sludge and the utilization of ash in
+Table 3 also illustrates that power consumption accounted for building materials achieved a 16.80% reduction in GHG emissions.
+48.82% of the total emissions in this stage. Specifically, GHG emissions Consequently, GHG emissions associated with standardized wastewater
+from ozone production amounted to 25,135.31 tCO2eq.a(cid:0) 1 (18.12%), were reduced to as low as 3.04 kgCO2eq.m(cid:0) 3.
+while the operation of pumps, fans, sludge dryers, and other equipment The GHG emission intensity of the reclaimed water was 5.70
+rc eo sn ut lr ti eb du t ie nd at o t4 a2 ,5 o9 3 3. 22 ,9 4t 5C .8O 92 e tq C.a O(cid:0) 21 q( .a3 (cid:0)0 1.7 (0 2% 3.) 6. D %i )r .e c Tt ee m this es ri mon as rk eg pC oO rt2 ee dq .m in(cid:0) t3 ( eF i lg i. e3 r) a. tT uh ri es v [1a 6lu ]e w wa hs c0 h.2 8 k dg icC aO te2 deq a.m G(cid:0) H3 l Go w ee mr it sh sia on t h inat
+to l f 7 e 0 h l h t , i in n -
+c 1o 7n ,7s 8u 4m .0p 1ti o tn Oof eth qe s (cid:0)lu d (g 1e d .8r 2yi %ng ,p r wo hc ie ls es cre hs eu mlt ie cd li n gG eH nG e am ni dss i so lun ds go ef t te hn es ri ety lo aif 7 e.1 d7 w× at1 e0 3 Fk ig gC O 3)2 ,e tq efo Gr Han e ef mflu ise sn iot v ro alu tim e fo tf 1 e2 w0 a0 sm te3 w. aF to er
+C 2 .a 1 2 ) a a ts c m r ( . h G n o o h r
+incineration contributed 8.48% and 6.29%, respectively (11,765.90 treatment stage was the highest, accounting for 42.53%, followed by
+tCO2eq.a(cid:0) 1 and 8721.79 tCO2eq.a(cid:0) 1). Additionally, reclaimed water the wastewater recovery stage, accounting for 34.08%. In addition, the
+utilization, sludge-to-energy conversion, and ash valorization in con- GHG emission intensity during the recovery stage was measured at 1.94
+struction materials collectively offset 16.27% of total emissions in the kgCO2eq.m(cid:0) 3, significantly lower than the 4.09 kgCO2eq.m(cid:0) 3 derived
+6
+
+--- Page 7 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+Fig. 2. GHG emissions and contribution of GHG sources for standardized wastewater.
+Fig. 3. Carbon footprint of reclaimed water production.
+from literature [16]. This discrepancy may arise from two factors: 1) the kgCO2eq.m(cid:0) 3 higher than that of two-stage recycling. This outcome can
+wastewater color in literature [16] was higher than in this study; 2) be ascribed to the observation that 65.92% of reclaimed water emis-
+literature [16]utilized aerobic-activated carbon processes rather than sions stemmed from the stages of wastewater treatment and sludge
+anaerobic-aerobic processes, leading to lower pollutant removal effi- management. In contrast, secondary-stage wastewater recycling
+ciency. Additionally, sludge treatment and disposal contributed 23.39% exhibited an emission intensity of 2.44 kgCO2eq.m(cid:0) 3, 1.22 kgCO2eq.
+to total GHG emissions in this study, a component excluded in literature m(cid:0) 3 lower than standardized wastewater. Therefore, two-stage recy-
+[16]. Consequently, when excluding sludge-related emissions, the GHG cling demonstrates superior emission reduction efficiency compared to
+emission intensity of reclaimed water reported herein was substantially single-stage approaches.
+lower than that documented in literature [16], approximately As depicted in Fig. 4, GHG emissions of reclaimed water were pri-
+measuring at 1.61 kgCO2eq.m(cid:0) 3. marily attributed to the operation of fans, pumps, and other equipment
+During the wastewater treatment stage, GHG emissions were pri- (27.98%). Sludge treatment (23.39%) and direct emissions (22.06%)
+marily attributed to direct CH4 and N2O, accounting for 51.86%. ranked second and third, followed by ozone production (19.94%) and
+Electricity consumption by pumps, fans, and other equipment ranked chemical agent usage (6.64%). In addition, when cross-referencing
+second, contributing 32.78% of emissions. In the sludge treatment and Figs. 1 and 4, the data indicate that GHG emissions from ozone con-
+disposal stage, the dominant emission source was sludge dewatering and sumption in wastewater treatment and reuse amount to 0.99 kgCO2eq.
+drying, responsible for 74.88% of emissions in this stage. Notably, GHG m(cid:0) 3, 15.5% lower than the average value in the literature [16](1.29
+emissions resulting from steam consumption represented the largest kgCO2eq.m(cid:0) 3). Furthermore, energy recovery from sludge, ash utiliza-
+share, constituting 51.22% of the overall emissions in this phase. tion in building materials, and water reuse collectively achieved a
+During the wastewater recovery stage, the primary GHG emission 16.14% reduction in GHG emissions. Consequently, emissions associ-
+source was ozone production, contributing 58.52% of emissions in this ated with reclaimed water were reduced to 4.78 kgCO2eq.m(cid:0) 3,
+stage. Notably, this study employed two-stage recycling for wastewater demonstrating significant environmental benefits.
+reclamation, whereas most projects use single-stage recycling. There-
+fore, the GHG emission intensity of one-stage recycling was also calcu- 3.3. Key factors to the GHG emissions
+lated in this paper. For comparison, the GHG emission intensity of
+single-stage recycling was calculated at 6.67 kgCO2eq.m(cid:0) 3, 0.97 As shown in Fig. 5, the energy structure had the most significant
+7
+
+--- Page 8 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+3.4. GHG emissions under different strategies
+Considering the characteristics of PDWW and sensitivity analysis
+results, eight scenarios (S0–S7) were established: S0 represented the
+baseline scenario shown in Fig. 1; S1 involved recovering methane
+emitted from the anaerobic process and achieving combined heat and
+power generation based on S0; S2 adopted ozone +MnO2/zeolite to
+replace the stand-alone ozone oxidation based on S1; S3 involved
+recovering ozone tail gas based on S2; S4 replaced the belt dewatering
++belt drying technology with low-temperature vacuum dewatering and
+drying technology based on S3; S5 involved recovery of residual heat of
+DPWW by heat pumps based on S4; S6 replaced the AO reactors +ozone
+oxidation for standardized wastewater with AnMBR +downflow
+hanging sponge reactor (DHS) based on S5; S7 replaced UF+RO with
+microfiltration (MF) +flow-electrode capacitive deionization (FCDI)
+based on S6. The results are shown in Fig. 7and Fig. 8.
+Fig. 4. GHG emissions and contribution of GHG sources for reclaimed water. S1: After CH4 recovery, the GHG emission intensity of standardized
+wastewater was 3.29 kgCO2eq.m(cid:0) 3, and the GHG emission intensity of
+impact on the GHG emissions of the standardized wastewater (sensi- reclaimed water was 5.28 kgCO2eq.m(cid:0) 3. This represented reduction
+tivity = 0.35). This was followed by the COD content of the influent rates of 9.90% and 7.31%, respectively, in comparison to S0. When
+(0.25), the COD difference between influent and effluent (0.24), and accounting for GHG offsets, the GHG emission intensity of standardized
+CH4 emission factor (0.24). Additionally, factors such as power con- wastewater decreased to 2.68 kgCO2eq.m(cid:0) 3, and that of reclaimed water
+sumption of pumps and fans (0.19), steam consumption of sludge drying reduced to 4.42 kgCO2eq.m(cid:0) 3.
+(0.16), power consumption of ozone production (0.11), and color of S2: The ozone-catalyzed reaction can increase the efficiency by about
+biochemical effluent (0.097) also played a role in the GHG emissions of 15–30% compared with ozone oxidation alone [38,39](in this paper
+the standardized wastewater. 20% was used), and the catalyst dosage was about 2075 tons (of which
+As indicated in Fig. 6, the energy structure also had a significant zeolite accounted for 80% and MnO2 accounted for 20%). Zeolite
+impact on the GHG emissions of reclaimed water (0.52). This was fol- produces a GHG emission of 529.77 kgCO2eq.t(cid:0) 1, and MnO2 takes a
+lowed by the power consumption of pumps and fans (0.28) and the GHG emission of 2640 kgCO2eq.t(cid:0) 1 [40]. After oxidation of wastewater
+power consumption of ozone production (0.19). Finally, factors such as using ozone +MnO2/zeolite instead of ozone alone, the GHG emission
+COD content in influent (0.18), COD difference between influent and intensity of standardized wastewater was 3.27 kgCO2eq.m(cid:0) 3 and the
+effluent (0.18), CH4 emission factor (0.18), color of biochemical effluent GHG emission intensity of reclaimed water was 5.20 kgCO2eq.m(cid:0) 3. This
+(0.17), and steam consumption of sludge drying (0.12) also contributed represented reduction rates of 0.77% and 1.65%, respectively, in
+to the GHG emissions of reclaimed water. comparison to S1. When accounting for GHG offsets, the GHG emission
+Fig. 5. Sensitivity analysis of standardized wastewater.
+Fig. 6. Sensitivity analysis of reclaimed water.
+8
+
+--- Page 9 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+Fig. 7. The GHG emission intensity of standardized wastewater under different
+scenarios: (a) not taking into account GHG offsets and (b) taking into account
+GHG offsets.
+i an nt de n ts hi aty oo ff rs et ca ln ad imar ed di z wed tew ra rs ete dw uca et der od e 4c .r 3e 3a s ke gd t Oo e2 q.6 .m6 (cid:0)k 3g .CO2eq.m(cid:0) 3,
+F ni ag r. o8 s:. (T ah e oG tH tG ke inm gi s is nio ton ain ccte on us nit ty o Hf Gr e oc fl fa si em tse d nw da (te br u tan kd ie nr d inif tf oer e an cct os uc ne t-
+t a t C 2 i ) n a G a ) g
+S3: After ozone reaction, tail gas contains 75–80% oxygen content GHG offsets.
+[41]. According to the actual technical experience, pure oxygen recov-
+ery from tail gas reduces electricity demand for oxygen production by
+40–60%, lowering energy consumption to 10 kWh per kg of ozone S st3 a. nW dah re dn iz ea dcc wou an stt ein wg a tf eo rr dG eH crG e ao sf ef dse tt os, 2t .h 0e 5 G kH gCG O e 2m eqi .s msi (cid:0)on 3, i an nt den ts hit ay t o of f
+g ste an ne dr aa rt ded iz. A df wte ar st th ee o az teo rn de t ca ri el ag sa es r te oc 3ov .2e 2ry k, G CH OG e qm .mis (cid:0)s 3i o (n .i 5n 9te %ns li oty eo rf recl Sa 5i :m e Bd sw eda te or r e ad cu tuce ad t mo e3 a. s5 u4 ek mgC eO nt2 se q t.m he(cid:0) 3 a.
+e w e d g 2e 1 w
+a n l r , verage temperature of
+5th .0a 4n kS g2) C, Oa 2n ed .G mH (cid:0)G (e 3m .0is 7si %on oin wt ee rn s ti hty o f 2r )e .c Wlai hm ened w cca ot ue nr td ine gc r fe oa rs e Gd t Go P coD oW leW da oft wer fl to oc 3cu 8l ◦a Ct io fon a sn ud ss ee qd uim ene tn bta ioti lo on ii cs 4 5 t◦ reC a, tw mh ei nc th n Ee lee cd ts it co lb lye
+q 3 l an S a H
+d n r b g a l . r a
+o 4f 1f cs 8re t kas g, Cdt Oh 2e q2G m6H (cid:0)G .gCem O2is es qio .mn (cid:0) 3i ,n ate nn ds tit hy o of res cta lan id ma er dd i wze ad erw rea dst ue cw ea dt e tor d 0ri –v 4oe 5n Ch ,e a bct sp eu dCm op nPs p moro d ru i.c c4i a3n g n9 g0 i◦ nuC edh reo inrt gw dea aat te r e Inx h tci hb ii t pea pc eo re ,rf afi c Ci re Oen Pt o of
+d .e e s e t o .. 0 3k a t f t p 4e r f rm a n ae ( O ) f i2 l– e2 .8 en h t s o u r e t am p e at u s o f
+e ◦ e p a . s f
+S4: Based on actual engineering experience, the use of low- 2.5 was assumed for 90◦C hot water production. The use of heat pumps
+temperature vacuum dewatering and drying technology to reduce the
+to recover waste heat from PDWW could significantly reduce GHG
+sludge moisture content to 30% requires electricity consumption of
+a hb eo atu at t5 85 5.6 9k 0W ℃h. t o(cid:0) 1 ( bb oa us te d 2o 0n 98 20 4% Jm .to (cid:0)i 1s t iu nr te c to aln t Aen ftt o f hw ee t s pl tu imdg ie za) ta in ond e t Som )1 ,i s .s 2 wi 5o n ik ls eg. CS rOt ea c2n e lad q ia . mmrd e(cid:0)i dz 3 e ( wd a w r te ea d rs t ue ic nw t tia eot nne r io tG f H 1 r.G e4 2e m hk egi ds Cs Oio 22n .e q 7in . mt ke (cid:0) gn 3 Cs i Octy o m ed qe p .c mar re (cid:0)ea 3ds e t (d o
+– f a 3 , k o . e r t o
+4 h a s y a c 7 2 a
+o kgf Ct sh Ote ws el qu .d mg e 3d ar (y i sn ig em difie uct ch to od nl, t h ore dG 0H .5eG e fm gis Csi o 2n i q2n t mken (cid:0)gs 3i )Ot ,y o reqf p.s rta e(cid:0)n se3d na tor id n2i gz 6ed r toe ed Sru 4ec t Wio hn no f c1 c. o6 u3 tk ig C goO o52e q G2.m H1(cid:0) G%3 ac fo sdm t3p s,7a tr he 8d Gto GS 4 ep) m. iT sh ie oes nle r ce ed nu sc it tai yo en ods
+w a e a t e r (cid:0) w s g n a in t y e u c 5d kro m 3 . e2 C 2 e m t . 7 r p .s e n te d d e c r e a s e s f r3 . fn . 0 % H, r e s e c st iv y i, to m p r
+2 a r f O . a e a n n f o e e n f
+17.06% decrease compared to S3. When compared to sludge treatment standardized wastewater decreased to 0.63 kgCO2eq.m(cid:0) 3, and that of
+v emia i sa sin oa ne r io nb teic n sd iti yg e os ft i so tn a ndco am rdb izin eded w w asi tt eh w ala tn erd wa ap sp 0li .c 1a 9ti o kn g, C Oth 2e e qG .mH (cid:0)G 3 ir ce ac ll a ti om he id hw lia gt her r thed atu c we hd lt eo h1 e.9 a1 pk ug mCO p-2 be aq s. em d(cid:0) w3. aA std ed i ht eio an a rl ely co, vit ris c sr yi st --
+g t i t t e y
+lower. This is based on the reported GHG emission intensity of 99.41
+kgCO2eq.t(cid:0) 1 for dry sludge treated by anaerobic digestion +land t oe fm res c oa vn rs eu db s ht oa tn wtia al tl ey m fai ct eig sa ct he G llH enG e em dis us eio tn os e, nth ere p yr la oc st si ec sa l a up rp inli gc a loti no gn
+c e r a g s g d -
+application [29], which translates to a standardized wastewater GHG
+e s mim o ani rs s i ii n no t gn e ani sn 1it 2te y .n os 3i ft %y r e o rc ef l da2 uim. c8 t6 e id k ng w (C 0aO t .6e2 r 3e q kw. gm a Cs(cid:0) 3 r 2e. edF quu .c mr et (cid:0)h d 3e tr dom co 4 rr . e4e a, 1 t eh k )ge cC oG O mH 2 peG aq r.e emm d(cid:0) i ts 3 o- , d l po li c ast a n Sa l t 6in sz :.c ee d t i ur ma dn p ies lp se mo [r e 4ta n 2t t –i ao 4tn i 5o. nT o io fa wd icd a asr te t ees s h tt heh a ai t ts rl e Mim c Boi Rvta e t ri iyo n sy a, s t th pei m rs ss t wu isd i ity nh gip n r o htep yxo bts rie il des
+k 5 o O e s
+S t ] n d s o m
+9
+
+--- Page 10 ---
+H. Yin et al. J o u r n a l o f E n v i r o n m e n t a l C h e m i c a l E n g in e e r i n g13(2025)116004
+technology for treating PDWW to produce high-quality textile effluent In addition, although this paper systematically analyzed the GHG
+for agricultural and industrial reuse. Aerobic MBR systems achieve COD emissions of the PDWWTR system, several aspects require further
+removal rates exceeding 80% and dye removal rates over 70% [44]. refinement in future studies. (1) Direct emission factors and CH4 re-
+AnMBR exhibits enhanced performance in COD and dye removal covery were derived from literatures and IPCC recommended values,
+compared to aerobic MBR, but its TN and TP removal efficiencies are without accounting for variations across industrial wastewater types or
+comparatively limited [46]. To address this, a hybrid system combining treatment processes. In reality, direct emissions and CH4 recovery
+AnMBR with DHS reactors—a technology noted for its high TN/TP exhibit significant variability, necessitating long-term, multi-site field
+removal efficiency and low energy consumption (0.14 kWh⋅m(cid:0) 3) [47] measurements to investigate their underlying mechanisms and recovery
+—was implemented to replace AO reactors and ozone oxidation. Aerobic efficiency. (2) GHG emissions caused by membrane replacement were
+MBR systems require 2.72 kWh⋅m(cid:0) 3 of energy and produce not considered in this paper, which may lead to an underestimation of
+0.023kg⋅m(cid:0) 3 of sludge [48], whereas AnMBR reduces energy con- total GHG emissions. (3) The study focused solely on AnMBR and FCDI.
+sumption by 40–50% (1.22 kWh⋅m(cid:0) 3 in this study). After optimization, However, alternative technologies such as photocatalytic membrane
+the GHG emission intensity of the standardized wastewater reduced to reactor (PMR), microbial fuel cells, and sludge anaerobic power gener-
+0.50 kgCO2eq.m(cid:0) 3 (a 59.62% reduction from S5 and 86.21% from S0), ation could further reduce GHG emissions in PDWWTR systems. (4)
+primarily due to AnMBR’s minimal sludge production. Reclaimed water Conducting LCC analysis for advanced low-carbon technologies is
+GHG intensity also dropped to 1.87 kgCO2eq⋅m(cid:0) 3 (32.40% reduction necessary to improve their economic benefits.
+from S5). With GHG offsets, emissions further decreased to 0.49
+kgCO2eq⋅m(cid:0) 3 (standardized wastewater) and 1.64 kgCO₂eq⋅m⁻³(re- 4. Conclusion
+claimed water).
+S7: FCDI, a relatively recent advancement in capacitive deionization This study presented a comprehensive and transformative assess-
+(CDI) architecture, offers the potential to overcome some of the limi- ment of GHG emissions in the DPWWTR system, employing LCA
+tations associated with fixed-electrode CDI. By continuously replenish- approach to identify key emission sources and propose actionable low-
+ing the electrode chamber with regenerated carbon slurry via short- carbon pathways. The findings revealed that the wastewater treatment
+circuited closed-loop operation, FCDI demonstrates high deionization stage was the largest contributor to GHG emissions, primarily driven by
+efficiency and enables continuous operation. The utilization of inte- direct emissions of CH4 and N2O, as well as significant electricity con-
+grated FCDI/MF for DPWWTR is capable of meeting the water reuse sumption. Additionally, the sludge treatment and wastewater recovery
+requirements in the textile industry [49], while consuming only 0.5 stages also contributed substantially to emissions, with sludge drying
+kWh.m(cid:0) 3 of energy [50,51]. CDI technology is capable of delivering and ozone production identified as major sources. Furthermore, a
+water at customizable quality and quantity levels. Notably, the ther- notable finding was that the GHG emission intensity of standardized
+modynamic energy demand for desalination via capacitive electrodes wastewater and reclaimed water was significantly higher than that of
+remains substantially lower than actual operational energy re- urban wastewater, reflecting the complexity and energy intensity of
+quirements, suggesting opportunities for future efficiency enhancements DPWW treatment. The study identified two-stage recycling as a more
+[52]. After optimization, the GHG emission intensity of reclaimed water efficient method for wastewater reuse, offering a practical solution for
+decreased to 1.56 kgCO2eq.m(cid:0) 3—a 16.67% reduction compared to S6 reducing emissions while maintaining high water reuse standards. To
+(0.31 kgCO2eq.m(cid:0) 3 decrease) and 72.61% lower than S0. When incor- address these challenges, the study proposed several actionable strate-
+porating GHG offsets, this intensity further declined to 1.33kgCO2eq. gies. Transitioning to renewable energy sources and improving energy
+m(cid:0) 3. efficiency in pumps, fans, and ozone production systems are critical
+steps toward reducing emissions. Implementing methane recovery sys-
+3.5. Future perspectives tems in anaerobic processes can significantly reduce direct GHG emis-
+sions while providing a potential energy source. Adopting energy-
+Driven by energy structure transformation, the emission factor for efficient sludge drying technologies can reduce steam consumption
+electricity is projected to decrease at an average annual compound rate and associated emissions. Utilizing heat pumps to recover waste heat
+of 1.3% [53]. As shown in Fig. 7, the GHG emission intensity of stan- from wastewater can lead to substantial emission reductions and pro-
+dardized wastewater under the S0 scenario decreased from 3.66 vide a sustainable source of thermal energy. The study also suggests
+kgCO2eq.m(cid:0) 3 in 2022 to 3.32kgCO2eq.m(cid:0) 3 in 2045. When incorpo- replacing AO reactors with AnMBR combined with DHS as a low-energy,
+rating GHG offsets, this intensity further decreased from 3.04 kgCO2eq. high-efficiency alternative for treating complex wastewater. Further-
+m(cid:0) 3 in 2022 to 2.71kgCO2eq.m(cid:0) 3 in 2045. Similarly, for the S7 sce- more, integrating FCDI with MF for wastewater reuse can further reduce
+nario, the GHG emission intensity dropped from 0.50 kgCO2eq.m(cid:0) 3 in GHG emissions, offering a promising solution for continuous and
+2022 to (cid:0) 0.62 kgCO2eq.m(cid:0) 3 in 2045. With GHG offsets applied, it energy-efficient desalination. The study forecasted that standardized
+exhibited an additional reduction from 0.49 kgCO2eq.m(cid:0) 3 in 2022 to (cid:0) wastewater treatment can achieve carbon neutrality by 2035, while
+0.64 kgCO2eq.m(cid:0) 3 in 2045. reclaimed water treatment can reach this goal by 2045.
+As shown in Fig. 8, the GHG emission intensity of reclaimed water
+under the S0 scenario declined from 5.70 kgCO2eq.m(cid:0) 3 in 2022 to Synopsis
+4.92kgCO2eq.m(cid:0) 3 in 2045. When incorporating GHG offsets, this in-
+tensity further decreased from 4.78 kgCO2eq.m(cid:0) 3 in We presented a LCA methodology to assess the lifecycle GHG emis-
+2022–4.01kgCO2eq.m(cid:0) 3 in 2045. Similarly, for the S7 scenario, the sions of the DPWWTR, and proposed potential low-carbon pathways to
+GHG emission intensity dropped from 1.56 kgCO2eq.m(cid:0) 3 in 2022 to achieve carbon neutrality.
+0.05kgCO2eq.m(cid:0) 3 in 2045, and with GHG offsets applied, it exhibited
+an additional reduction from 1.33 kgCO2eq.m(cid:0) 3 in 2022 to (cid:0) 0.18 Funding sources
+kgCO2eq.m(cid:0) 3 in 2045.
+Figs. 7 and 8 demonstrate that wastewater treatment can achieve This research did not receive any specific grant from funding
+carbon neutrality by 2035, while wastewater reuse is projected to reach agencies in the public, commercial, or not-for-profit sectors.
+carbon neutrality by 2045. This indicates that through the imple-
+mentation of low-carbon technologies and waste heat recovery methods, Abbreviations
+the treatment and reuse of PDWW can not only achieve carbon
+neutrality, but also gradually achieve carbon neutrality. DPWW dyeing and printing wastewater
+10

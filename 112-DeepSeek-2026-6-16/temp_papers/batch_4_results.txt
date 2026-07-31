@@ -1,0 +1,30 @@
+污水处理厂温室气体排放论文研究方法提取结果（Batch 4，共14篇）
+
+================================================================================
+（33）Quantification of greenhouse gas emission from WWTPs | 模型法 | 物料平衡法+排放因子法结合的定量模型：基于COD物料平衡推导COD/TOC比值，通过TKN物料平衡估算N2O排放，利用化学计量关系（基质氧化方程式C10H19O3N等）计算CO2排放，结合BOD去除量估算CH4排放；排放因子来源于文献数据（如N2O排放因子0.2-1% of N-load）；应用于加拿大Guelph市污水处理厂的曝气池/活性污泥系统、厌氧消化和最终处置三个阶段的温室气体定量估算。
+
+（34）Analyzing greenhouse gas emissions from municipal WWTPs using PPNM | 排放因子法 | 污染物参数归一化方法（PPNM）：基于IPCC指南改进，以单位污染物去除量（而非单位处理水量）计算排放，选用COD和TN作为污染物参数；CH4排放因子来源于40+座不同工艺WWTP的实测数据（按工艺分类），N2O排放因子同理；电力排放因子采用华北电网基准排放因子0.9414 tCO2/MWh；对北京38座WWTP进行温室气体排放估算及敏感性分析。
+
+（35）Insight into GHG Emissions and Energy Consumption via ECAM Tool | 模型法 | 使用ECAM（Energy Performance and Carbon Emission Assessment and Monitoring）评估工具：基于IPCC和IWA系统评估方法，输入人口、水量、能耗估算和污水处理类型等原始数据，计算各处理阶段的温室气体和能耗估算值；通过实地考察记录WWTP电气设备运行数据；对中国不同城市（朔州、西安、德阳、昆明）及奥地利Strass污水处理厂进行多方案对比分析。
+
+（36）Minimizing GHG emissions and energy consumption from WWTPs - Mashhad, Iran | 排放因子法+情景分析法 | 基于IPCC 2006指南的排放因子法：N2O排放按总氮负荷的0.5%转化计算（IPCC估算），CH4排放基于厌氧消化VSS去除量计算（0.9 m3/kg VSS destroyed），间接CO2排放基于能耗强度和天然气CO2排放因子（2.11吨CO2/千立方米天然气）计算；设定四种情景（好氧/厌氧消化、有无CHP）进行对比分析，并进行经济评估（NPV和投资回收期）。
+
+（38）Methane and nitrous oxide emissions from MWWTPs in China - plant-level study | 排放因子法 | 基于自下而上（bottom-up）方法建立中国8703座MWWTP的逐厂级、技术特异性排放清单：将污水处理厂分为19种工艺类别，每类工艺赋予基于现场集成测量的排放因子（来源于48篇同行评审文献的系统综述）；活动数据（COD去除量和TN去除量）基于逐厂数据库和省级统计数据推导；采用蒙特卡洛模拟进行不确定性分析（10000次试验），并对比IPCC 2006指南和IPCC 2019修正版方法。
+
+（39）Revisiting China's domestic GHG emission from wastewater treatment - PLCA | 模型法 | 基于过程的生命周期评价（Process-based LCA）方法：系统边界涵盖污水处理、废水排放和污泥处置三个阶段；对5282座WWTP和660个城市收集运营数据（水量、水质、电耗、PAM消耗等）；采用六种生物处理工艺（AAO、OD、SBR、AO、MBR和其他）的差异化排放因子；结合主成分分析（PCA）探究社会经济因素与排放的关系；进行不确定性分析（基于数据来源的标准偏差方法）。
+
+（3）Estimation of GHG emissions from an underground WWTP | 模型法 | 基于过程的生命周期评价（Process-based LCA）：以韩国某地下MBR污水处理厂（122,000 m3/d）为案例，系统边界包括建设阶段和运营阶段（生命周期45年）；建设阶段排放因子来源于韩国环境部（MOE）国家生命周期清单数据库（LCI DB）和Eco-invent数据库；运营阶段排放因子来源于韩国电力交易所（KPX）和国家LCI DB，现场CH4和N2O排放因子来自实际运行数据；采用Crystal Ball软件（Ver. 11.1）进行蒙特卡洛模拟敏感性分析。
+
+（40）Estimating N2O emissions based on TN discharge - Xiamen, China | 排放因子法（自定义算法） | 基于总氮（TN）排放的新算法：以TN替代TKN作为定量指标，结合活性污泥系统的TKN物料平衡推导N2O排放公式；排放因子来源于本地污水处理厂实际监测数据和文献数据（如Czepiel方法、IPCC方法）；应用于厦门市7座大型集中式污水处理厂（总设计规模90万m3/d），按季度估算2018-2019年N2O排放量，并与IPCC方法和国内研究进行对比验证。
+
+（41）Understanding GHG emissions from China's WWTPs - hybrid LCA | 模型法 | 自下而上的混合生命周期评价（Hybrid LCA）方法：整合17座WWTP的现场数据和统计数据（城市排水统计年鉴等），采用中国生态环境部技术指南计算直接排放（CH4和N2O），使用ReCiPe Midpoint (H)方法和SimaPro 9.2软件计算间接排放（电力和化学品）；以每立方米处理废水为功能单位；采用蒙特卡洛模拟（1000次试验）进行不确定性分析，并进行N2O排放因子和能源类型的敏感性分析。
+
+（42）Modelling GHG emissions from biological WWTP by GPS-X | 模型法（机理模型） | 修改的ASM1+N2O数学模型：在ASM1中纳入三种N2O产生途径（羟胺氧化、AOB反硝化、异养反硝化）和N2O吹脱模型，包含18个状态变量和19个过程；在GPS-X 7.0模拟软件中实现；使用意大利Corleone WWTP的长期水质数据（64天）和短期N2O排放数据（逐小时采样）进行校准和验证；N2O气体通过罩箱法采集并用气相色谱分析；采用傅里叶级数生成动态进水模型；通过WECCI指数（水质-能源-碳耦合指数）评估不同DO浓度和回流比情景。
+
+（43）GHG emissions from WWTP in vulnerable water areas of China | 排放因子法 | 基于IPCC 2006指南和2019修正版的排放因子法：直接排放以COD和TN去除量为活动数据，CH4排放因子0.018 kgCH4/kgCOD（IPCC 2019），N2O排放因子0.016 kgN2O-N/kgTN（IPCC 2019），扣除污泥中有机物对应的COD；间接排放包括电力（华东电网排放因子0.7035 kgCO2/kWh）和化学品（PAM 1.5、次氯酸钠1.4、聚合氯化铝铁1.6、乙酸钠1.6 kgCO2/kg）；基于太湖流域某WWTP的1325条日运行数据（2019-2022年），使用R软件进行Wilcoxon检验和Chow检验分析排放标准提升的影响。
+
+（44）Effect of Food Waste Disposers on WWTP and GHG Emission | 排放因子法 | IPCC 2006 Tier 1方法：CH4排放基于BOD物料平衡（进水BOD-出水BOD-污泥BOD）×排放因子（0.48 kgCH4/kgBOD）计算，N2O排放基于TN物料平衡×排放因子（0.005 kgN2O-N/kgTN）×转换因子1.571计算；结合韩国679座WWTP（≥500 m3/d）的运行数据和食物垃圾产生量数据进行情景分析；通过实验分析食物垃圾处理器（FWD）出水特性（TS、TOC、pH）；假设所有污泥进行焚烧处理。
+
+（45）Comprehensive analysis of GHG emissions in a Korean WWTP | 综合法（排放因子法+模型法） | 双工具对比方法：(a) 使用Svenskt Vatten开发的Excel碳足迹计算工具（基于IPCC方法，包含电力、化学品、运输、污泥管理等间接排放）；(b) 使用MassFlow3模拟程序（基于IWA ASM No.2d和ADM No.1模型）；直接排放基于BOD和TN去除负荷×排放因子（来源于韩国环境公团2021年数据）计算；间接排放基于KEPCO电力排放因子0.5432 kgCO2e/kWh；对韩国大田市某90万吨/日A2O工艺WWTP进行全面GHG清单编制和减排策略分析。
+
+（46）Effect of process modification on GHG emissions - dairy WWTP | 综合法（实测法+统计模型） | (a) 实测法：使用密闭通量箱（flux chamber）采集气体，气相色谱法（GC）分析CO2、CH4和N2O浓度，基于IPCC方法计算GHG排放；对扩展曝气（EA）和溶气气浮（DAF）工艺进行逐月监测；(b) 统计模型法：进行方差分析（ANOVA）、Pearson相关分析、热图（heat mapping）和主成分分析（PCA），使用R软件的pheatmap、Hmisc、factoextra和FactoMineR包；基于相关性开发新的GHG排放估算经验模型（GHGI = Q × r × WP_R × GWP）；通过工艺改造（HRT 36h、SRT 20d的设计条件）验证减排效果，实现约46%的平均GHG减排。

@@ -1,0 +1,527 @@
+--- Page 1 ---
+International Journal of Environmental Science and Technology (2025) 22:10415–10432
+https://doi.org/10.1007/s13762-025-06338-z
+ORIGINAL PAPER
+Analysis of greenhouse gas production at the El Prat del Llobregat
+wastewater treatment plant, Spain: the decarbonization challenge
+M. A. Urrea Vivas1 · L. Seguí‑Amórtegui2 · H. Guerrero‑García‑Rojas3
+Received: 24 October 2024 / Revised: 25 November 2024 / Accepted: 31 December 2024 / Published online: 9 January 2025
+© The Author(s) 2025
+Abstract
+The process of decarbonization of Wastewater Treatment Plants (WWTPs) has become a global priority. WWTP consume
+large amounts of energy and emit Greenhouse Gases (GHG) to remove pollutants. Therefore, this article quantitatively
+analyzes the greenhouse gas emissions produced during the wastewater treatment of one of the largest and most modern
+wastewater treatment plants in Europe, the El Prat del Llobregat Wastewater Plant. The assessment focused on evaluating the
+mass and energy balance of the entire process. Identifying the organic load present was essential for determining the impact
+on the generation of (GHG) during the wastewater treatment and regeneration process. According to the characteristics of the
+system, the inventory of total emissions is established, identifying the direct emissions produced by each of the stages (carbon
+dioxide and methane emissions) and the indirect emissions produced by the use of electricity and chemicals, respectively.
+The results revealed that the highest direct greenhouse gas emission was observed in the biological reactor with the value
+of 2.5 k gCO eq/kg COD, 0.08 kg N O/kgN and 0.0062 k gCH /kgCOD. The annual GHG emissions from CH , N O
+2 2 removed 4 4 2
+and C O emissions from the water and sludge line are equivalent to 3432 tCO eq, apart from the emission caused by flaring
+2 2
+biogas, which represents 578.39 t CO eq. The largest contribution comes from indirect emissions, where energy consumption
+2
+generates 3,459,105 tCO /eq. The largest energy consumer in the entire WWTP were the biological reactor with secondary
+2
+settling and the tertiary treatment, which accounts for 45.20% and 14.8% of the total energy needs respectively.
+Keywords Wastewater treatment plant · Greenhouse gas emissions · Mass balance · Energy balance · Carbon emissions
+accounting · CO emission reduction and decarbonization
+2
+Introduction
+discharge of pollutants to the environment, in addition to
+protecting water sources, ecosystems and public health,
+Wastewater Treatment Plants (WWTP) have become a fun- while also recovering used water into a new source of
+damental pillar for the strategic development of a society materials (Li et al. 2021). Today, the aspiration to achieve
+in constant growth. The main objective of WWTP is to a green future with zero emissions is critical to mitigating
+be able to simulate the natural cycle (Jodar-Abellan et al. climate change. WWTPs are one of the sectors with high
+2019), purifying and regenerating wastewater to reduce the energy consumption and greenhouse gas (GHG) emissions
+(Delre et al. 2019; Wang et al. 2016), it is estimated that they
+consume 3% of global energy (Dickin et al. 2020). WWTP
+Editorial responsibility: S. Mirkia. have begun to develop strategies that have more sustain-
+able approaches, with the aim of achieving decarbonization
+*
+M. A. Urrea Vivas
+through the "water-energy" nexus. The increase in popula-
+michelle.atala.urrea@upc.edu
+tion density in large cities and the trend towards urbaniza-
+1 Department of Civil and Environmental Engineering, tion requires higher levels of treatment, due to the standards
+Universitat Politècnica de Catalunya (UPC), Carrer de Jordi imposed for the discharge of wastewater (Mo and Zhang
+Girona, 1, 08034 Barcelona, Spain
+2012), leading to an increase in treatment capacities and
+2 Faculty of Business and Communication, Universidad therefore energy consumption.
+Internacional de la Rioja (UNIR), Logroño, La Rioja, Spain
+The energy consumption and the type and amount of
+3 Department of Economics, Universidad Michoacana de San GHG production in WWTPs are varied due to different
+Nicolás de Hidalgo (UMSNH), Morelia, Michoacán, Mexico
+Vol.:(0123456789)
+
+--- Page 2 ---
+1 0416 International Journal of Environmental Science and Technology (2025) 22:10415–10432
+circumstances, such as its size, technologies, purification plants’ energy consumption account for 40% of total
+and regeneration processes, the load of pollutants in the emissions: C O emissions from wastewater treatment
+2
+wastewater to be treated and the regulations stipulated in plants due to energy consumption are 0.391 kgCO /
+2
+each country to obtain an effluent outlet with specific water kWh, and 0.08 kg CO /kg COD from aerobic wastewater
+2
+qualities (Longo et al. 2016). treatment processes (Campos et al. 2016; Lin 2020).
+Most plants worldwide have an established 4-stage The process of decarbonizing the WWTPs is mainly
+treatment for the water line and sludge process. In the water performed in order to comply with legislation to reduce
+line, the pretreatment has an energy demand ranging from the environmental impact, but it is extremely important
+2 to 8% of the energy consumption (Longo et al. 2016), in terms of economic viability, since the operating costs
+which would represent 0.009–0.018 kWh/m3 treated. attributed to energy consumption are between 30 and
+The primary treatment has an energy demand of 2–3% 40% of the total cost of operations and maintenance of the
+(Nakkasunchi et al. 2021), so it is generally considered to water line. In terms of treatment and disposal of the sludge
+be the process that consumes the least energy. For example, produced, this often accounts for up to 50–60% of the total
+Canada has an electricity consumption in its pretreatment operating costs of the plants (Gude 2015; Panepinto et al.
+and primary treatment of 0.002–0.1 kWh/m3, Hungary 2016; Wei et al. 2003) and is expected to grow due to the
+has 0.04–0.19 kWh/m3 and Australia 0.1–0.37 kWh/ observed increase in the costs of sludge disposal (Ginestet
+m3 (Kneppers et al. 2009; Pitas et al. 2010). Secondary 2006). Therefore, if energy consumption is reduced, it
+treatment is characterized by its high energy consumption would reduce not only greenhouse gas emissions but also
+in the aeration process, with demand ranging from 50 to operating costs and the management and reuse of sludge.
+74% (Longo et al. 2016; Mamais et al. 2015), represented by The estimation and quantification of GHG emissions
+0.15–0.77 kWh/m3 at a general level. Australia, for example, in WWTPs has become a major problem that urgently
+requires 0.46 kWh/m3 and the United States 0.33–0.60 kWh/ needs to be solved, mainly because wastewater and
+m3 (Gu et al. 2017a, b). Tertiary treatment can have a greater sludge management is responsible for 257 million tonnes
+fluctuation in energy demand due to the processes applied of carbon dioxide equivalent globally, of which almost
+for the removal of nutrients and pathogens, therefore it half are energy-related emissions (Lutkin et al. 2022). In
+accounts for between 8 and 13% of electricity consumption addition, 267 million tonnes of carbon dioxide equivalent
+(Longo et al. 2016). Analysis of the energy consumption come from on-site remediation, nitrous oxide is also
+of different WWTPs showed that these processes require estimated to be responsible for 32% of global emissions from
+between 0.39 and 3.74 kWh/m3 in Japan, while in New wastewater treatment (Lutkin et al. 2022). The degradation
+Zealand, Taiwan, Hungary and the United States it ranges of organic matter during wastewater treatment contributes
+between 0.41 and 0.75 kWh/m3 (Bodík and Kubaská, 2013; approximately 1.57% of global GHG emissions and 3.49–5%
+Pitas et al. 2010; Plappally and Lienhard 2012). As for the of global non-carbon dioxide GHG emissions (Chen et al.
+treatment of the sludge obtained during the different stages 2020; Dickin et al. 2020).
+in the wastewater line, energy consumption ranges between The total set of GHG emissions of sewage treatment
+15 and 25% (Mamais et al. 2015). The energy consumption plants are divided into two parts (Parravicini et al. 2016):
+of sludge treatment depends on whether or not the sludge one is the direct emission of greenhouse gases such as C O ,
+2
+is incinerated, if using a CAS (Conventional activated C H and N O in the process of sewage treatment; the other
+4 2
+sludge) method with incineration for sludge treatment it is is the indirect emission caused by the energy and materials
+0.38–1.49 kWh/m3, but if the CAS method is implemented consumed in operation, indirect GHG emissions are
+without incineration, it is 0.39–3.74 kWh/m3 (Mizuta and originated from water–energy nexus (Yapıcıoğlu & Demir
+Shimada 2010). 2021). Wastewater treatment plants (WWTP) are a typical
+The process of decarbonizing wastewater treatment plants case of water–energy interactions.
+has been a challenge, not only to mitigate emissions but also Currently, the measures to reduce carbon emission from
+to generate self-reliance on their own energy generation that wastewater treatment plants mainly focus on the suitable
+will contribute to sustainable behavior. treatment process, low-carbon emissions technologies
+As the pursuit of “Decarbonization” gains momentum, and precise management methods (You et al. 2022). The
+the emphasis on low-carbon solutions, emphasizing effectively assessing GHG emissions from wastewater
+energy conservation and resource reuse, has introduced treatment plants and establishing dynamic changes of carbon
+new challenges to conventional wastewater treatment emissions from each unit in the wastewater treatment process
+approaches. Greenhouse gas emissions from a wastewater is of the utmost scientific importance for proposing measures
+treatment plant are highly dependent on bioreactors and towards a decarbonized model. Energy consumption
+electricity input from the grid (Maktabifard et al. 2018). and greenhouse gas emissions are important elements in
+The estimated CO emissions from wastewater treatment determining the efficiency and obtain possible reductions in
+2
+
+--- Page 3 ---
+International Journal of Environmental Science and Technology (2025) 22:10415–10432 10417
+cost of wastewater treatment in relation to the environmental economic development and increasing urbanization of Spain
+effect (Yapicioğlu et al. 2023). has led to an expansion in the scale of wastewater treatment,
+Also, wastewater treatment and distribution processes bringing great challenges for the development of WWTP’s
+emit GHG emissions considering water–energy nexus. In with low carbon emissions and energy efficiency.
+fact, energy consumption of the WWTPs should be a crucial The study, with the integral calculation model being
+consideration of the water–energy nexus (Yapıcıoğlu and applied to determine the emission sources of each process
+Demir 2021). unit and then to assess the energy conservation and reduction
+Most of the current researches in Spain show the lack of of carbon emissions caused by the energy recovery of biogas
+a detailed analysis of the wastewater treatment model. Some from the anaerobic digestion of sludge. Precisely evaluating
+have focused only on the analysis of the decarbonization of and calculating carbon emissions in wastewater treatment
+the WWTP economy through the generation of biogas as a plants, and establishing carbon–neutral operating models
+renewable biofuel, as is the case of Gonzalez et al. (2022), has become a pivotal concern in the future of wastewater
+which identifies and analyzes the main sources of odor and treatment and is the basis for formulating regional carbon
+greenhouse gas emissions, determining the appropriate reduction plans. This analysis covers the calculation of the
+performance of each unit in avoiding emissions. Blanco direct and indirect emissions of three GHGs (CO , N O
+2 2
+et al. (2016) show how an Anaerobic digestion is being and C H ) generated by the biological treatment process and
+4
+established as a standard technology to recover some of electricity consumption (IPCC 2014). The main innovative
+the energy contained in the sludge in wastewater treatment aspect of this study was the use of mass and energy balances
+plants as biogas. Rodríguez-Villanueva and Sauri (2021) for preliminary evaluation of the operation and approaches
+show an exploration of relations between water treatments, for wastewater and sewage sludge treatment with focus on
+water reuse, and governance. Colmenarejo et al. (2006) potential for sludge minimization, impact on other unit
+focus on the comparison between different technologies. operations, energy requirement, energy self-sufficiency and
+Lorenzo-Toja et al. (2016) basically concentrated on analysis emission inventories. Our goal is to offer valuable insights
+of conventional water quality parameters, direct GHG and support for the practical implementation of wastewater
+emissions and pharmaceuticals and personal care products environment management within the framework of carbon
+(PPCPs) in water and sludge lines. neutrality and facilitate comprehensive GHG accounting,
+Spain is one of the countries in the European Union that recognizes direct and indirect carbon emission sources in the
+has made great progress in the wastewater treatment sector. wastewater treatment process. The article shows the need for
+However, it is still in the process of identifying strategies future research where these data can be use used to evaluate
+that allow it to reduce WWTPs energy demand and GHG modification and for developing strategies that tend towards
+emissions in order to establish a decarbonization process. the implementation of objectives that achieve controlled and
+It was estimated that urban water supply in Spain in 2021 adaptive decarbonization in WWTPs.
+reached 3700 h m3/year and that wastewater treatment
+exceeded 4000 hm3/year, requiring a large amount of energy
+consumption (about 4000 GWh/year), which represents 1.5%
+Materials and methods
+of the total national energy demand and 0.5% of the total
+greenhouse gas emissions in Spain (Ministry for Ecological
+Transition and the Demographic Challenge 2022). This section presents and clarifies the steps taken for the
+The sewerage, purification and wastewater reuse sector application of a methodology that focuses on determining
+have an advantage, in that it not only consumes energy, but and analyzing the decarbonization process of the wastewater
+is also capable of producing it. The national production of treatment system of the El Prat del Llobregat WWTP. To
+energy in Spain is approximately 600 GWh/year, all of which analyse the impacts of WWTPs by reviewing the quantity
+comes from renewable sources such as biogas, which is the of GHG emissions, the paper is structured as follows: Mass
+main source of energy for the self-sustainability of the plant and Energy Balance Analysis, overview of GHG emissions
+(AEAS-AGA 2022). However, Spain continues to have a (line water and sludge) and a current economic analysis for
+serious problem in terms of energy dependence from abroad. decarbonization. In order to achieve this goal, a conceptual
+For example, in 2017, 73.9% of the fuel needed to generate model is proposed that allows demonstrating each step to be
+energy was obtained from countries such as Algeria, Saudi developed, as shown in Fig. 1.
+Arabia and Nigeria, among others (European Union 2019). The sources of information were the Barcelona
+The decarbonization process in Spain’s WWTPs has made Metropolitan Agency (AMB) and the Catalan Water
+significant progress in relation to the European energy Agency (ACA). The database and statistical analysis of the
+transition strategy. The generation of renewable energy by International Energy Agency (IEA), which contains reports
+WWTPs is around 787 GWh/year (AEAS-AGA 2022). The on energy consumption and its percentages of emissions,
+
+--- Page 4 ---
+1 0418 International Journal of Environmental Science and Technology (2025) 22:10415–10432
+Fig. 1 Conceptual framework of the study
+was also used and provides clear guidelines for the transition and fine solid waste, in which it is possible to remove pieces
+to clean energy. of paper, plastics, rags, rubber, metals, vegetable or fruit
+waste. After this, the wastewater is conducted to a chamber
+First step: analysis of the current situation
+that removes the sand, fats, ashes and gravel, giving way to
+a homogenization of the incoming flow to avoid harming
+First, an in-depth reconnaissance and analysis of the El the subsequent processes (Asano et al. 2007).The secondary
+Prat del Llobregat WWTP was carried out. This facility is process with biological reactor and nutrient removal ensures
+located in Barcelona, Spain; it is responsible for treating a reduction in the concentration of phosphorus and nitrogen,
+approximately 36% of the total water in the Barcelona through the process of nitrification and denitrification.
+Metropolitan Area (AMB), including Cornellà de Llobregat, In turn, this process uses biological action to transform
+El Prat del Llobregat, Esplugues de Llobregat, Hospitalet de biodegradable organic matter into stable matter, so that a
+Llobregat, Sant Joan Despí, Sant Boi de Llobregat, Santa large percentage of suspended solids and organic compounds
+Coloma de Cervelló and Sant Just Desvern (partially), are eliminated.
+corresponding to a treatment capacity equivalent to The tertiary process allows the removal of the remaining
+2,000,000 inhabitants. Catalonia has been experiencing a contaminants, in colloidal or suspended state, and reduces
+period of drought, starting in the autumn of 2020, which the contaminant load of the wastewater. The techniques are
+is considered historic due to its duration and intensity; in UV disinfection, ultrafiltration and reverse osmosis, one of
+the spring of 2021, the drought was consolidated, and in the techniques most used by WWTPs (Arzate et al. 2019;
+the years 2022 and 2023 it has intensified. Barcelona has Rossi et al. 2021).
+been able to cope with this situation because its El Prat Sludge is an important by-product of wastewater treat-
+del Llobregat WWTP is a treatment plant that includes ment systems, consisting of the majority of the solids sepa-
+one of the largest water regeneration stations in the world, rated in each phase of the water line. The main objective of
+generating a release of 50 million liters per year of water treating sludge is to reduce its volume by partially elimi-
+resources for the region. Currently, part of the released flow nating the water content. This is done by means of gravity
+is pushed upstream of the Llobregat River to a point, located thickening and centrifugation thickening for the biological
+in Molins de Rei, where it is added to the river’s flow in pre- sludge, then it is subjected to anaerobic digestion and the
+potable water condition. process ends with dehydration-conditioning and thermal
+The facility purifies two types of wastewaters, domestic drying. Figure 2 shows the process currently being per-
+and assimilable wastewater (water used in homes, offices, formed on site.
+businesses, schools and any other space where no special According to data provided by the Barcelona Metropolitan
+pollutants are discharged), and pre-treated industrial water Agency (AMB), this plant can treat up to 420,000 m3/d of
+(water used in industrial facilities, after being treated by the wastewater and its average energy consumption for 2022 was
+industry itself to extract the specific pollutants). This facility 155,683.40 kWh/day.
+begins with a pre-treatment process that eliminates all coarse
+
+--- Page 5 ---
+International Journal of Environmental Science and Technology (2025) 22:10415–10432 10419
+Fig. 2 Wastewater Treatment Systems ‘El Prat del Llobregat’
+Step two: mass and energy balance analysis modeled under annual average operational considerations
+(excluding daily or seasonal variations) and a temperature of
+The mass and energy balances in the WWTP are necessary 15 °C represented the average climatic conditions in Spain
+in order to know and evaluate in detail the inflow and (AEMET 2023).
+output of the wastewater to be treated and the respective The description of the relevant data is given in Table 1,
+material and energy consumption. Mass and energy within the analysis of existing data provided by the
+balances are proposed in this research as an important tool Barcelona Metropolitan Agency, as well as the use of
+in the optimization of the plant’s operating system. This theoretical data.
+analysis allows us to focus on the potential for minimizing The energy audit included the collection of data on
+sludge and identifying energy-intensive processes, energy flows across the different stages of the treatment
+reducing the impact of unit operations and increasing process, with the aim of assessing the energy performance
+energy efficiency. and proposing improvements to achieve self-sustainability.
+Several studies have demonstrated the benefits of energy First, all energy-consuming equipment was identified for
+benchmarking for identifying the cost reduction potential direct measurement, establishing its nominal power and
+and evaluating the operational performance of WWTP, as operating hours. Energy consumption was measured using
+well as the decarbonization process (Krampe 2013; Svardal network analyzers for electrical energy and heat flow meters
+and Kroiss 2011). for thermal processes. Data were collected throughout the
+The calculations made in the mass balance were carried year 2022, enabling the analysis of monthly variations.
+out under the iterative calculation procedure, managing to Based on the collected data, an energy balance was
+evaluate the water and sludge treatment lines, as well as prepared, taking into account the following aspects:
+the recirculation of secondary sludge streams. The mass (i) Energy consumed: Electrical energy used for equipment
+balance evaluated the suspended solids of the wastewater operation and thermal energy for digestion processes.
+of the tributary and the biological solids generated in the (ii) Energy generated: Potential energy from the produced
+process that are distributed among the operations and unit biogas and its utilization for cogeneration. (iii) System
+processes that make up the process flow diagram. Iteration efficiency: Ratio of generated energy to consumed energy.
+was proposed for flow rate (Q), total suspended solids (TSS), The total electrical energy consumption of the El Prat de
+and biological oxygen demand ( BOD ). The total system was Llobregat WWTP was an average of 47,327,754 kWh/year
+5
+
+--- Page 6 ---
+1 0420 International Journal of Environmental Science and Technology (2025) 22:10415–10432
+Table 1 Data relating to the
+Tributary characteristics
+operation of the wastewater
+line (water treatment and Waste water flow 198 630 m3/d
+regeneration) BOD 470 mg/L
+5
+Total suspended solids 529 mg/L
+Total suspended solids after desanding Metcalf and Eddy (2018) (residuals 489 mg/L)
+Primary sedimentation
+BOD eliminated 63% of the plant inlet, non-primary inlet
+5
+generally includes drains 33%
+Secondary process
+Suspended Solids in slurry mixture 3.872 mg/L
+Volatile Fraction of Suspended Solids in slurry mixture 73% SSVLM
+Y (carbonaceous bacteria, cell waste and non- 0.53
+obs
+biodegradable SSVs in the tributary)
+Tertiary process
+Suspended Solids in slurry mixture 12.83 mg/L
+Volatile Fraction of Suspended Solids in slurry mixture 95% SSVLM
+BOD 4.67 mg/L
+5
+Characteristics of effluent
+BOD 6 mgO/L
+5 2
+Suspended Solids 14 mg/L
+in 2022, distributed in water lines: pre-treatment 16.35%, electricity consumption and by the emissions caused in the
+primary treatment 5.18%, secondary treatment 45.23% and system. The three main GHGs that are analyzed in a waste-
+tertiary treatment 14.88%. In the sludge line, energy con- water treatment plant are:
+sumption is distributed as follows: thickening and dewater- Carbon Dioxide (CO ): This is attributed to two main
+2
+ing 6.84%, anaerobic digestion 2.51% and thermal drying factors, the treatment process itself and energy consumption.
+1.31%. Self-consumption is represented by 12,224,746 kWh/ Methane (CH ): is produced from the biological
+4
+year, approximately 28.2%, and a surplus energy sale of degradation of organic matter under anaerobic conditions
+36,591 kWh/day. Most of the energy used within the process from water or sludge blowdown. The level of methane
+is supplied through the Spanish national grid. production will depend on the amount of organic matter
+degraded in the process and the absence of dissolved oxygen.
+Step three: greenhouse gas emissions analysis Nitrous Oxide (N O): is generated as a by-product during
+2
+nitrification and denitrification by the process of nutrient
+The modelling used to estimate the amount of the GHGs removal, where it is transformed and emitted as nitrogen gas
+produced by the El Prat del Llobregat WWTP was carried N as a direct emission, or as an indirect emission when the
+2
+out by means of empirical emission factors, based on effluent is discharged into a receiving medium.
+the volume of treated water, effluent concentrations and This analysis covers the calculation of direct and indirect
+mass of wastewater components removed. This emissions emissions of three GHGs: CO , N O and CH (electricity
+2 2 4
+assessment was carried out using the integral calculation consumption and chemicals). It is important to highlight that
+model and the IPCC guidelines (IPCC 2006, 2019) to the formation of N O in wastewater treatment, specifically in
+2
+determine the emission sources of each process unit in the nitrification and denitrification stage, is very low due to
+order to subsequently assess its energy consumption and the the highly efficient rates of nitrogen removal. The El Prat del
+reduction of emissions with the use of biogas. Llobregat WWTP has an efficiency rate of 83.82%, which
+Based on the data obtained in the mass and energy bal- indicates that the higher the level of nitrogen removal, the
+ance of the operating system, the scope of impact gener- lower the amount of N O emitted. Therefore, the conversion
+2
+ated by the treatment of both the water line and sludge was rate of N O is transformed and emitted into N as a nitrogen
+2 2
+included. In this third step, the emissions produced from gas, so it is not taken into account in the calculation of GHG
+the pre-treatment to the end of the treatment process are emissions. The carbon emission sources of the units are
+quantified. The detail of this analysis is the assessment of summarized in Fig. 3 and Table 2.
+the reduction of emissions by the recovery of biogas energy The GHG emissions associated with the use of the pur-
+from the anaerobic digestion of sludge. Figure 3 shows chased energy are evaluated with the peninsular mix, as
+the configuration of the specific sources of emissions by they can be affected by the mix of electricity generation.
+
+--- Page 7 ---
+International Journal of Environmental Science and Technology (2025) 22:10415–10432 10421
+Fig. 3 GHG emission source analysis of sewage plant operation
+Table 2 Carbon emission analysis
+Process Units Carbon emission reduction Indirect carbon emission Direct carbon emission
+Electric energy Chemical CH CO NO
+4 2 2
+Wastewater Pretreatment X
+treatment and Primary clarifier X X
+reuse
+Biological treatment— X X X X
+Secondary sedimentation tank
+Tertiary clarifier X X
+Disinfection X X
+Ultrafiltration and osmosis X
+Effluent submarine outfall X X
+Reuse X X
+Sludge treatment Sludge thickening X X
+Anaerobic mesophilic digestion X X
+Dewatering X X
+Sludge reuse Agriculture X X
+Composting X X
+Σ Carbon emission reduction Indirect carbon emission Direct carbon
+emission
+The emission factor of electricity is 0.259 kg CO₂-eq/kWh TotalCO =CH 4Emissions×28
+2−eq
+according to the National Commission of Markets and Com-
++N OEmissions×265 (1)
+petition (CNMC). 2
++CO
+2Electricity
+Calculation of direct and indirect GHG emissions
+where:
+from WWTPs
+TotalCO 2−eq = are the total CO 2−eq emissions of the
+WWTP (kg CO 2−eq).
+The analysis of the carbon emission pathway of the plant’s
+CH Emissions(kgCH )
+4 4
+operations focused on the amounts of degradable organic
+,N 2OEmissions(kgN 2O)andCO 2(kgCO 2−eq) emissions
+matter, BOD and Total Nitrogen in the wastewater to deter-
+5
+from electricity consumption in each process. The values
+mine the potential for greenhouse gas generation. WWTP’s
+total annual GHG emissions are given by:
+
+--- Page 8 ---
+1 0422 International Journal of Environmental Science and Technology (2025) 22:10415–10432
+for CH 4 global warming potential are 28 and 256 for N 2O QDOM = refers to the domestic wastewater amount
+(IPCC 2019). treated in WWTPs (m3);
+System GHG calculation limits: Kmass = refers to the coefficient of sludge production.
+Direct sources of GHG emission in this study include
+the wastewater treatment structure (e.g., primary Calculation of N 2O emissions The equation for calculating
+sedimentation tank, biological reactors, secondary the total N O emitted by the nitrification and denitrifica-
+2
+sedimentation tank, tertiary treatment tanks) and sludge tion process is estimated as: (IPCC 2006, 2019).
+thickening and dewatering facilities (thermal drying is not
+44
+N 2OEmission=N ×EF ×
+currently operating). EFFLUENT EFFLUENT 28 (6)
+Indirect sources of GHG emissions include the
+consumption of electricity, the consumption of chemicals where;
+within the wastewater treatment process and the N 2O Emission = N 2O emissions in inventory year, kg
+sludge process. Similarly, in the biological process the N O/yr;
+2
+degradation of organic matter and reduction of nutrients N EFFLUENT = Nitrogen in the effluent discharge to
+generates a release of CO of fossil origin, produced aquatic environments, kg N/yr;
+2
+directly by aerobic decomposition. However, they are not EF EFFLUENT =emission factor for N 2O emissions from
+controlled and there is no rough estimate. discharged to wastewater, kgN O-N/kg N; conversion of
+44 2
+kg N into kg N O.
+282O-N 2
+Calculation of C H 4 emissions Following IPCC guidelines,
+C H 4 emissions (IPCC 2006, 2019) are estimated as: Calculation of C O 2 emissions The C O 2 emissions emit-
+ted in the biological treatment of the El Prat de Llobregat
+CH =Emissions=(TOW Plant−S OC)×EF 1−R
+4 (2)
+WWTP are given by:
+where: CO =EF ×COD
+2,bio bio,CO2 removed (7)
+TOW Plant = is the organics in wastewater of WWTP (kg
+BOD); where:
+SOC = is the organic component in the sludge of CO 2,bio = emissions (g CO 2eq/year) from biological
+WWTPs (kg BOD); treatment processes;
+EF 1 = is the CH 4 emission factor for WWTP kg CH 4/ EF bio,CO2 = (g CO 2/kg COD removed) are three GHG
+kg BOD); emission factors of the process.
+R = is the amount of CH 4 recovered (kg CH 4). COD removed = is the annually removed COD (kg COD
+Degradable organic compounds in wastewater are removed/year) in the WWTP.
+calculated as:
+Calculation of C O emissions from electricity consumption
+TOW =P×BOD×0,001×I×356 2
+Plant (3) (E e)
+The consumption of electrical energy for wastewater
+treatment is calculated using annual energy consumption
+where:
+P = is the urban population (person); and specific emission factors:
+BOD = is per capita BOD (g BOD/person/day); E =D×EF ×10−3
+e D (8)
+I = is the correction factor for additional industrial BOD
+discharged into sewers (for collected the default is 1.25, where:
+for uncollected the default is 1.00). E e = is the indirect emission of carbon from the
+The organic component in the sludge is given by: consumption of electrical energy (tCO /day);
+2
+S =S ×K D = is the total electricity from wastewater treatment
+OC mass OC (4)
+(kWh/day);
+EF D = is the carbon emission factor for electric power
+S =Q ×K
+mass DOM mass (5) generation and the value is 0.259 kg CO₂-eq/kWh in
+Spain’s electricity grid.
+where:
+Smass is the amount of sludge produced in WWTPs
+Carbon emission from chemicals 𝐄 𝐜 Indirect carbon emis-
+(kg sludge);
+KOC = is the organic composition factor in sludge, set sions from the use of chemicals are limited (Zhang et al.
+2020); however, the IPCC emissions accounting frame-
+as 0.25 (kg BOD/kg sludge) (Hao et al. 2020);
+work recommends including emissions caused during the
+production process of the chemical (Foley et al. 2010).
+
+--- Page 9 ---
+International Journal of Environmental Science and Technology (2025) 22:10415–10432 10423
+The calculation of emissions of the chemicals was shows the input and output values for treated volumes, total
+calculated as: suspended solids, BOD and total nitrogen.
+As can be seen in Fig. 4, for the treated flow 198,630
+E =M ×EF +M ×EF +M ×EF
+c c c d d W W (9) m3/d, the influent characteristics of COD = 904.55 mg/L,
+where: BOD = 470 mg/L, SST = 528.91 mg/L and
+E c (tCO 2/day) = carbon emissions in chemical production. NT = 77.15 mg/L. In the primary treatment, an approxi-
+Mc, Md and M w (tCO 2/day) = is the amount of additional mate BOD removal of 58,814.34 kg/d (62.52%), a total
+carbon source, chemical agents or reactants, and substances suspended solids removal of 72,847.55 kg/d, including
+for sludge dewatering, respectively (data provided for El Prat part of the initial drainage process equivalent to 75%, and
+de Llobregat WWTP). an organic matter elimination of 35% is achieved. The bio-
+EFc, EF d and EF w (kgCO 2/kg) = are the carbon emission logical reactor and secondary decanter are highly efficient
+factors for additional carbon sources, disinfection agents in nutrient removal, nitrogen is reduced to 12.48 mg/L,
+and sludge dewatering agents, respectively. Greenhouse gas representing 83.82% elimination. This stage of the pro-
+emission factors during the production process were obtained cess is important because it removes more than 95% of the
+from related literature (Li et al. 2020; Niu et al. 2013; Zhou suspended solids and organic matter, with characteristics
+et al. 2022) and from data provided in the IPCC guide (IPCC BOD = 1,191.78 kg/d, SST = 2,780.8 kg/d and a final flow
+2006). of 183,795.35 m 3/d, of which 134,784 m3/d is sent for
+regeneration and 70,896 m3/d is sent for discharge into
+Results and discussion the medium. Finally, the advanced regeneration process
+achieves effluent quality with optimal parameters. The
+Mass balance released flow is pushed upstream of the Llobregat River,
+where it is added to the river flow in pre-potable water
+The calculation and analysis of the mass balance of the El condition and in turn is used in agricultural and garden
+Prat del Llobregat wastewater treatment plant made it possible irrigation, for industrial purposes and for the maintenance
+to highlight the hotspots in which an improvement in the of the flow of the Llobregat River.
+efficiency of the process is required, along with the recovery As a result of the sludge treatment, a final production
+of energy and resources. This deterministic and analytical of dewatered sludge equivalent to 2,168,000 kg MF/day
+model showed clearly that primary treatment eliminates much was calculated, with 52,208 tMF/year, almost 90% of the
+of the slow and non-biodegradable fraction of COD from the sludge, being allocated to direct agriculture and 5902 tMF/
+tributary. year (equivalent to 10%) to composting.
+The presence of primary sedimentation results in increased Biogas is composed of a mixture of Methane (CH 4),
+sludge production as a first result. 1.3% of the sludge is related Carbon Dioxide (CO 2), Nitrogen (N 2), Hydrogen Sulfide
+to the same non-reactive behavior of the primary settling, ( H 2S) and some trace amounts of Hydrogen (H 2). The
+which indicates that the sludge obtained in the primary set- calorific value of CH 4 shows the useful potential of the
+tling is not subject to biological processes, as is the case with energy produced in the anaerobic digestion treatment. For
+the secondary sludge. In the primary settling process, much of every kilogram of volatile solids, approximately 1.7 kg of
+the slow and non-biodegradable COD fraction of the influent COD is removed, and for every kilogram of COD removed,
+is removed and the effluent that is sent to secondary treatment 0.35 N m3 of CH 4 methane is generated, and the biogas
+(secondary settling and biological process) contains a higher generation rate (GR) is 1,12 m3 biogas/tVS.
+fraction of biodegradable substrates. In the biological process, Currently, the amount of CH 4 in the biogas stream
+biological tanks are designed to withstand lower volumetric is 62.76%. The amount of volatile solids (VS) that are
+loads (VLRs). This allows for a higher observed yield ( Y ) removed in the flow is 35%, thus obtaining biogas
+obs
+of 0.45 where carbonaceous bacteria, cellular waste and non- production of 20,146 Nm3/day and electricity production
+biodegradable SSV are eliminated in the tributary. Table 3 of 13,205,657 kWh/year.
+The analysis of the mass balance shows that the biologi-
+cal reactor and the secondary decanter managed a COD
+Table 3 Quality of incoming
+Treated water SS [mg/L] COD [mg/L] BOD [mg/L] NT [mg/L]
+and outgoing water of the El volume (m3/d)
+Prat del Llobregat WWTP
+Influent water quality 198,690 528.91 904.55 470 77.15
+Effluent water quality 134,784 13.75 37.67 5.92 11.23
+
+--- Page 10 ---
+1 0424 International Journal of Environmental Science and Technology (2025) 22:10415–10432
+Fig. 4 Plant-wide mass and energy for reference plant “Prat del Llobregat”
+removal rate of 91.85% due to the high capacity of the to multiply the potential values (P) by the operating time of
+plant; however, this implies that the biological degrada- each device in the water and sludge line. The intensity of
+tion of the COD of the effluent has been released as carbon energy consumption per cubic meter of wastewater treatment
+dioxide into the air. could decrease due to the size of the plant and the effects
+of economies of scale; this indicates that unit treatment
+Energy balance
+costs would be lower, increasing the profit margin with the
+reduction of energy purchases.
+The energy requirements of the wastewater treatment The energy demand of the preliminary treatment is
+plant have been calculated with reference to the energy around 0.11 kWh/m3, which represents 16.35% of the total
+consumption parameter per unit of volume treated. This energy demand of the treatment process. In the primary
+parameter is preferred because it allows showing a posteriori treatment, 70% of the total suspended solids (TSS) and
+the relationship with the pollutant load that occurs in the 53.15% of the biological oxygen demand (BOD) were
+treatment process of the water and sludge line. removed. In the secondary treatment with a biological
+The El Prat del Llobregat WWTP consumed an amount process, consumption of 0.30 kWh/m3 is observed, being
+of electricity equivalent to 47,327,754 kWh per total annual the process that consumes the largest amount of energy. The
+activity, representing a consumption of 155,683 kWh/ energy requirement demanded by this secondary process is
+day. This requirement is met by the supply of electricity mainly linked to the necessary energy used by the aerators,
+purchased from the national grid (around 70%), along with its consuming 45.23% of the total energy needed by the WWTP.
+own self-consumption by cogeneration of 13,752,588 kWh/ The final flow sent by marine outfall is 71,261 m3/d. The
+year, obtaining 1,140,8340 kWh/year of thermal energy from flow rate sent for tertiary treatment is 134,784 m3/d, with
+motors and 3,332,770 kWh/year energy provided by boilers. energy consumption of 14.88%, as shown in Table 4.
+This process allows for self-consumption of approximately A higher quality of the effluent results in higher energy
+29.45% of the plant’s electrical energy. To estimate the total consumption (Svardal and Kroiss 2011), so when primary
+electrical energy consumption of the plant, it was necessary sedimentation is available it contributes to a decrease in

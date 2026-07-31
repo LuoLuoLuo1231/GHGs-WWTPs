@@ -1,0 +1,695 @@
+--- Page 1 ---
+Article
+Optimization of Greenhouse Gas Accounting Methods for
+Wastewater Treatment Plants in East Chinese Regions:
+A Comparative Analysis of IPCC and Group Standards Based on
+49 Plants in Shandong Province
+HaoyuWang1,2,LipinLi1,*,ZhengdaLin1 ,AliyaAbulimiti1,MingGuan1,TianruiZhao1andYuTian1
+1 StateKeyLaboratoryofUrbanWaterResourceandEnvironment(SKLUWRE),SchoolofEnvironment,
+HarbinInstituteofTechnology,Harbin150090,China;wanghaoyu@bewg.net.cn(H.W.);
+linzhengda@hit.edu.cn(Z.L.);13206647656@163.com(A.A.);guanminghit@163.com(M.G.);
+hitbassamarea@163.com(T.Z.);hit_tianyu@163.com(Y.T.)
+2 BeijingEnterprisesWaterGroupLimited(BEWG),Beijing100102,China
+* Correspondence:lipinlee@hit.edu.cn;Tel.:+86-189-4606-1798
+Abstract: In order to achieve China’s carbon neutrality target by 2060, accurate carbon
+accounting for wastewater treatment plants (WWTPs) is imperative. This study takes
+ShandongProvinceastheresearchobject,throughlarge-scaleempiricalanalysis,research
+method differences, and the annual operation data of 49 sewage treatment plants, for
+thefirsttimetorealizethesystematiccomparisonofmultiplemethodsontheprovincial
+scale. Themainfindingsshowa19.7%reductionincalculatedemissionsfromStandard
+forCarbonEmissionReductionAssessmentofUrbanWWTPs(T/CUWA50055-2023,GS
+2023)comparedtoIntergovernmentalPanelonClimateChange(IPCC2019),thankstoits
+inclusionofCO fromfossilsources(5.0%oftotalemissions)andoptimizedCH /N O
+2 4 2
+emissionfactors. Indirectemissionsaccountedfor56.8%oftotalemissions,withelectricity
+consumption(43.3%)andchemicaluse(13.5%)beingthemaincontributors.Carbonsources
+(27.6%)andphosphorusremovalagents(15.2%)werethemostimportantchemical-related
+AcademicEditor:DibyenduSarkar
+emissions. The scale effect of indirect emissions is significant. It was found that there
+Received:24March2025
+wasalargedifferenceinemissionfactors(suchasa236.9%differenceincarbonsource
+Revised:8May2025
+factors), and optimization strategies were proposed: preferentially using low-emission
+Accepted:12May2025
+Published:30May2025 carbonsources(methanolreducedemissionsby77.6%comparedwithsodiumacetate)and
+developingalternativecarbonsources.
+Citation: Wang,H.;Li,L.;Lin,Z.;
+Abulimiti,A.;Guan,M.;Zhao,T.;Tian,
+Y.OptimizationofGreenhouseGas Keywords:WWTPs;greenhousegases;carbonemissionaccountingmethodology;chemical-
+AccountingMethodsforWastewater inducedcarbonemissions;IPCC
+TreatmentPlantsinEastChinese
+Regions:AComparativeAnalysisof
+IPCCandGroupStandardsBasedon
+49PlantsinShandongProvince.Appl. 1. Introduction
+Sci.2025,15,6175.
+Global warming, exacerbated by the rising concentrations of greenhouse gases
+https://doi.org/10.3390/app15116175
+(GHG)[1],hasseverelyimpactednaturalecosystemsandthehumanlivingenvironment,
+becomingasignificantchallengecurrentlyfacedbyallofhumanity. TheParisAgreement,
+Copyright:©2025bytheauthors.
+aninternationalclimateagreementadoptedatthe21stUnitedNationsClimateChange
+LicenseeMDPI,Basel,Switzerland.
+Thisarticleisanopenaccessarticle Conference in December 2015, aims to control greenhouse gas emissions and address
+distributedunderthetermsand climatechangethroughglobalcooperationtokeeptheglobalaveragetemperatureincrease
+conditionsoftheCreativeCommons within2◦Cabovethepre-industriallevelandstrivetolimittheincreasetowithin1.5◦C.
+Attribution(CCBY)license
+Weaimtopeakglobalgreenhousegasemissionsassoonaspossibleandachievecarbon
+(https://creativecommons.org/
+neutralityinthesecondhalfofthiscentury. Wastewatertreatmentplants(WWTPs)can
+licenses/by/4.0/).
+Appl.Sci.2025,15,6175 https://doi.org/10.3390/app15116175
+
+--- Page 2 ---
+Appl.Sci.2025,15,6175 2of16
+reducetheconcentrationofwaterpollutants,improvewaterquality,andimprovewater
+ecosystems[2–6]. ThepresidentoftheInternationalWaterAssociationemphasizedthatthe
+carbonfootprintoriginatingfromurbanwatersupplysystemsandwastewatertreatment
+facilities constitutes 3% to 8% of the world’s total carbon emissions [7]. China, as the
+economywiththehighesttotalglobalcarbonemissionsoverthepastdecade(contributing
+28.8%ofglobalcarbonemissionsfrom2005to2020)[8,9],hasseenexplosivegrowthinits
+wastewatertreatmentindustry,withanaverageannualgrowthrateintreatmentcapacity
+of6.3%anda217%increaseinthenumberofWWTPs[10,11]. WWTPshavebecomea
+significantsourceofcarbonemissions[12–19],withChina’sWWTPscontributing1–3%
+to the nation’s total carbon emissions [20–22]. Therefore, comprehensive collection of
+relevantbasicdataandprecisequantificationofcarbonemissionsandcarbonemission
+intensityfromWWTPsareessentialforformulatingpollutionreductionandcarbonemis-
+sionreductionpoliciesunderthe“dualcarbon”goals. Thisstudyaimstoconstructan
+optimizedaccountingframeworksuitablefortheregionalcharacteristicsofChinabycom-
+paringtheIntergovernmentalPanelonClimateChange(IPCC)guidelineswithdomestic
+groupstandards.
+2. MaterialsandMethods
+2.1. ShandongProvince’sWWTPs
+TargetingShandongProvinceastheresearchsubject,thisstudyselectedthecomplete
+operationaldataof49wastewatertreatmentplants(WWTPs)in15prefecture-levelcitiesfor
+theyear2022. Thetotalcapacityoftheseplantsis2.214millionm3/d,accountingfor14.8%
+oftheprovince’stotalwastewatertreatmentcapacity. Thesample’srepresentativenesswas
+confirmedusingtheKolmogorov–Smirnovtest(p-valuegreaterthan0.05,indicatingthat
+thesampleconformstotheoveralldistributionoftheprovince). Basicinformationofthe
+sampleWWTPs(suchasprocesstype,designcapacity,etc.) isdetailedinTableS1. Influent
+andeffluentwaterqualityindicators,electricityconsumptionpertonofwater,andsludge
+productionarepresentedinTableS2,whilechemicaldosinginformationisprovidedin
+TableS3.
+2.2. DataSources
+Thedatacomesfrom49sewagetreatmentplantsin15prefecture-levelcitiesinShan-
+dongprovinceupto2022.Thesedatacoverarangeofkeyparameters,includingthedesign
+capacityoftheWWTPs,coretreatmentprocesses,numberofoperationaldaysperyear,
+averagedailytreatedwatervolume,influentandeffluentchemicaloxygendemand(COD),
+biochemicaloxygendemand(BOD),totalnitrogen,electricityconsumptionforproduction,
+andthedosageandeffectivecontentofvariouschemicals(includingcoagulants,flocculants,
+disinfectants,andcarbonsources). Inaddition,parameterssuchastheorganiccontentin
+sludge,wetsludgeproduction,andthewatercontentofsludgewerealsocollected.
+2.3. AccountingMethod
+Greenhousegasemissionsfromwastewatertreatmentplants(WWTPs)canbedivided
+intotwocategories: directandindirect. Directemissionsincludedinitrogenmonoxide
+(N O),methane(CH ),andcarbondioxide(CO )producedduringthetreatmentprocess,
+2 4 2
+whereas indirect emissions arise from the carbon footprint linked to electricity usage,
+heating,andchemicalconsumption[23,24].
+For the aforementioned emission sources, the main methods for the accounting of
+greenhouse gas emissions currently include the measurement method, the modeling
+method, the carbon footprint method, and the emission factor method, each with its
+applicablescopeandlimitations[25].
+
+--- Page 3 ---
+Appl.Sci.2025,15,6175 3of16
+(1) Measurement Method: This method obtains direct emission data through on-site
+airsamplingandcontinuousmonitoring,whichoffershighprecision. However,it
+islimitedbyinstrumentsensitivityandmaintenancecosts,makingitunsuitableto
+applyonalargescale.
+(2) ModelingMethod: Basedonbiodynamicmodelsthatsimulatemicrobialmetabolic
+processes, this method can quantify the generation of GHG in specific processes.
+Nevertheless,themodelparameters(suchasnitrification/denitrificationrates)require
+calibrationwithlocalizeddata,andtheuniversalityofthismethodisrelativelypoor.
+(3) Carbon Footprint Method: Using a life cycle assessment framework, this method
+accountsforbothemissionsthroughouttheentireprocessofWWTPconstruction,
+operation, and demolition. Although it can provide a basis for systemic emission
+reduction,itfacesdataavailabilityissuesduringtheconstructionphase,limitingits
+applicationscope.
+(4) EmissionFactorMethod: Thismethodestimatescarbonemissionsbycombiningthe
+activitylevel(suchaselectricityconsumption)withthecorrespondingemissionfactor
+(suchasCH /kgCOD).Ithastheadvantagesofbeingeasytooperateandapplicable
+4
+toregionalassessmentsandiswidelyusedforprovincial-scaleevaluations. How-
+ever,theregionalheterogeneityofemissionfactors(suchasdifferencesinprocesses
+andmanagementlevels)mayleadtocalculationdeviations,necessitatingdynamic
+correctionswithlocaldata.
+Currently,thegreenhousegasaccountingsystembasedontheemissionfactormethod
+mainlyincludesthefollowingthreeguidingdocuments:
+(1) IPCC2019RevisedEdition: Thisisapplicablefornational-levelcarbonemissionac-
+counting. TheaccountingtargetsfocusonthedirectemissionsofCO ,CH ,andN O.
+2 4 2
+(2) TechnicalSpecificationforLow-CarbonOperationEvaluationofWWTPs(T/CAEPI
+49-2022 [26]): This document is targeted at the operation stage of WWTPs. It can
+directlycalculatetheemissionsofCH andN O,alongwithindirectemissionslike
+4 2
+those from electricity and chemical consumption (calculated in CO equivalents),
+2
+providingaquantitativebasisforlow-carbonoperation.
+(3) StandardforCarbonEmissionReductionAssessmentofUrbanWWTPs(T/CUWA
+50055-2023) [27]: This document is based on a life cycle perspective, covering all
+stagesfromconstructiontooperationanddecommissioning. Inadditiontoaccount-
+ing for the emissions of fossil-derived CO , CH , and N O during the operation
+2 4 2
+stage, it also integrates calculation methods for the emission reduction thanks to
+low-carbontechnologiessuchasheatpumps,photovoltaicapplications,andsludge
+anaerobicfermentation.
+Provincialcarbonemissionmanagementisacruciallinkinmitigatingglobalclimate
+change. However,existingstudieshaverarelysystematicallycomparedtheapplicabilityof
+differentaccountingmethods,especiallyempiricalanalysesbasedontheactualoperational
+dataofmultipleplantsoverthepastthreeyears,whicharestillablankarea. Asthethird-
+largesteconomyinChina(withaGDPof921billionyuanin2023),ShandongProvincehas
+asewagetreatmentscaleof14.931millionm3/d,anditscarbonemissioncharacteristics
+holdsignificantreferencevaluefortheentirecountry. Nevertheless,mostexistingliterature
+focusesontheoreticalmodelsorsingle-casestudies,lackingaprovincial-scalesystematic
+assessmentbasedonactualproductiondata. Thisresearch,basedonthecompleteopera-
+tionaldataof49WWTPsinShandongProvincefortheyear2022,constructsamulti-method
+comparisonframeworkusingtheIPCC2019,GS2022,andGS2023methods. Itanalyzes
+thedifferencesinaccountingandidentifieskeyinfluencingfactors(suchasprocesstype
+andscaleeffects),ultimatelyproposinganoptimizedcarbonaccountingpaththatmatches
+
+--- Page 4 ---
+Appl.Sci.2025,15,6175 4of16
+regionalcharacteristicstofillthedualgapinmethodologyandempiricalresearch. The
+detailsoftheaccountingsystemforthisstudycanbefoundintheSupplementaryMaterials.
+Theboundariesofthisstudy’saccountingareconfinedtotheinternaloperationsofthe
+wastewatertreatmentplant,coveringprocessessuchaspreliminarytreatment,biological
+treatment, advanced treatment, disinfection, and in-plant sludge dewatering. Off-site
+pipelinenetworksandthefinaldisposalofsludgeareexcludedfromtheaccountingscope.
+For specific details on the accounting boundary division, refer to Table 1. During the
+wastewatertreatmentprocess,CO emissionsaremainlygeneratedfromtheoxidationand
+2
+decompositionoforganicmatter. Basedontheirsources,CO emissionscanbeclassified
+2
+intobiogenicandfossil-derivedcategories. SincebiogenicCO hasanegligibleimpacton
+2
+globalwarming[28],thisstudyonlyincludesfossil-derivedCO intheaccounting,and
+2
+biogenicCO isnotcounted.
+2
+Table1.Accountingboundariesandapplicabilityofdifferentaccountingstandards.
+AccountingItems IPCC2019 GS2022 GS2023
+√ √ √
+Pretreatment
+√ √ √
+BiologicalTreatment
+√ √ √
+In-PlantSludgeDewatering
+Off-SitePipelineNetworks × × ×
+√ √
+ChemicalConsumption ×(refertoGS2023)
+BiogenicCO × × ×
+2 √
+Fossil-DerivedCO × ×
+2
+Off-SiteSludgeDisposal × × ×
+Applicability Internationallyapplicable Operationphase Fulllifecycle
+√
+Note:“ ”indicatesthatthispartoftheaccountingmethodisincludedinthemethod,while“×”indicatesthat
+thispartoftheaccountingmethodisnotincludedinthemethod.
+InChina,thereiscurrentlynounifiednationalstandardforcarbonemissionaccount-
+ing in the sewage treatment industry. At present, relevant work is mainly guided by
+industrygroupstandards. Thisstudyadoptsthefollowingstandardsandguidelinesfor
+theaccountingofgreenhousegasemissionsfromWWTPs: the“TechnicalSpecification
+forLow-CarbonOperationEvaluationofSewageTreatmentPlant”(GS2022)releasedby
+theChinaEnvironmentalProtectionIndustryAssociationon6June2022andthe“Carbon
+EmissionReductionAssessmentStandardforMunicipalWastewaterTreatmentPlants”
+(T/CUWA50055-2023)(GS2023)releasedbytheChinaUrbanWaterAssociationon21
+December2023. Leveragingthethreeaforementionedmethods,thisresearchcomputed
+andcontrastedthegreenhousegasemissionsof49WWTPslocatedinShandongProvince.
+TheseemissionsconsistofthedirectreleasesofCH ,N O,andCO ,alongwiththeindirect
+4 2 2
+emissionsstemmingfromelectricityutilizationandchemicalconsumption. Thespecific
+accountingresultsareshowninTablesS4,S5,andS6,respectively.
+Toensuretheconsistencyoftheaccountingscopeandresults,thisstudyhasstandard-
+izedtheparametersforthecalculationofindirectemissionsasfollows:
+(1) Electricity Consumption: All three accounting methods use the latest 2021 China
+electricitycarbondioxideemissionfactorpublishedtocalculatetheindirectemissions
+relatedtoelectricityconsumption,ensuringconsistencyintheaccountingofindirect
+emissionsfromelectricityuse.
+(2) ChemicalConsumption:T/CAEPI49-2022andT/CUWA50055-2023usethechemical
+emissionfactorsprovidedintheirrespectiveappendicesforcalculation. Specifically,
+T/CAEPI49-2022usesTableS9,andT/CUWA50055-2023usesTableS4inSupplemen-
+taryMaterials. SinceIPCC2019doesnotprovideaccountingparametersrelatedto
+
+--- Page 5 ---
+Appl. Sci. 2025, 15, x FOR PEER REVIEW 5 of 16
+related to electricity consumption, ensuring consistency in the accounting of indirect
+emissions from electricity use.
+(2) Chemical Consumption: T/CAEPI 49-2022 and T/CUWA 50055-2023 use the chemical
+emission factors provided in their respective appendices for calculation. Specifically,
+T/CAEPI 49-2022 uses Tables S9 and S10, and T/CUWA 50055-2023 uses Table S4 in
+Supplementary Materials. Since IPCC 2019 does not provide accounting parameters
+related to chemicals, the method for calculating indirect emissions from chemical
+consumption uniformly adopts the chemical emission factor method from T/CUWA
+50055-2023.
+3. Results and Discussion
+3.1. Direct Carbon Emissions Assessed by Three Different Methods
+3.1.1. Comparison of N O Emission Calculations
+2
+The annual direct N O emissions from 49 WWTPs in 2022 calculated using the IPCC
+2
+2019, T/CAEPI 49-2022, and T/CUWA 50055-2023 methods were 601,287.0 kg, 468,870.9
+kg, and 293,044.3 kg, respectively (Figure 1a). Among them, the N O emission calculated
+2
+using the IPCC 2019 method was the highest, while that calculated using the T/CUWA
+App5l.0Sc0i.52502-52,1052,631 7m5 ethod was the lowest. 5of16
+N O emissions from wastewater treatment plants (WWTPs) primarily stem from in-
+2
+complete nitrification and denitrification during the biological removal of nitrogen [1].
+chemicals,themethodforcalculatingindirectemissionsfromchemicalconsumption
+This occurrence is closely ulinnifkoremdl ytoa dtohpet sctohneccehenmtriacatlioemn iossfi otnotfaaclt onrimtreotghoedn firnom thTe/ CefflUWuAen50t.0 5T5h-2e0 23.
+IPCC 2019 method only considers TN in the influent and does not take into account the
+3. ResultsandDiscussion
+amount of total nitrogen (TN) removed, resulting in an overestimated value. In contrast,
+3.1. DirectCarbonEmissionsAssessedbyThreeDifferentMethods
+T/CAEPI 49-2022 and T/CUWA 50055-2023 consider the TN removal, yielding more accu-
+3.1.1. ComparisonofN OEmissionCalculations
+2
+rate results. The N O emission factors in T/CAEPI 49-2022 and T/CUWA 50055-2023 dis-
+2 TheannualdirectN Oemissionsfrom49WWTPsin2022calculatedusingtheIPCC
+2
+play a substantial dis2p01a9r,iTty/C. ATEhPeI 4f9o-r2m022e,ra nids T0/.0C1U6W kAg5N005O5--2N02/3kmgeNth,o dwshwielree 6t0h1e,2 8la7.tt0ekrg ,i4s6 80,8.0701. 9kg,
+2
+and293,044.3kg,respectively(Figure1a). Amongthem,theN Oemissioncalculatedusing
+kgN O-N/kgN, causing the results of T/CUWA 50055-2023 to be signi2ficantly lower than
+2
+theIPCC2019methodwasthehighest,whilethatcalculatedusingtheT/CUWA50055-2023
+those of T/CAEPI 49-2022.
+methodwasthelowest.
+Figure1.N Oemissionsandemissionintensity.(a)ComparisonofN Oemissionsamongthethree
+2 2
+Figure 1. N 2O emissionss taanndda redms(iIsPsCioCn2 0i1n9tvesn.sTi/tyC.A (EaP)I C49o-2m02p2a/r2i0s2o3)n. (obf) NN 22OOe memissiisosnioinntesn asimtyopnergu tnhitem tahsrseoef total
+nitrogenremovedcalculatedusingIPCCfordifferenttreatmentprocesses.
+standards (IPCC 2019 vs. T/CAEPI 49-2022/2023). (b) N O emission intensity per unit mass of total
+2
+nitrogen removed calculatedN uOsinegm IiPssCioCn sfofrro dmiffwearestnetw tarteeartmtreeantmt pernotcpelsasnetss. (WWTPs) primarily stem from
+2
+incompletenitrificationanddenitrificationduringthebiologicalremovalofnitrogen[1].
+Further calculatiTohniss ooccf uNrreOnc eeimscilossseiolynlisn kpeedrt outnhietc monacesnst roatfi otnootaflt ontailtrnoitgroegnen rienmthoeveeffldu ebnyt. The
+2
+IPCC2019methodonlyconsidersTNintheinfluentanddoesnottakeintoaccountthe
+different treatment processes using the IPCC 2019 method are shown in Figure 1b. The
+amountoftotalnitrogen(TN)removed,resultinginanoverestimatedvalue. Incontrast,
+results indicate that the UCT process has the highest N O emissions per unit of total ni-
+T/CAEPI 49-2022 and T/CUWA 50055-20223 consider the TN removal, yielding more
+trogen removed, whilaec ctuhrea taenreaseurltosb. Tich-eaNnoOxiecm-oisxsiiocn (fAacAtoOrs)i,n aTn/aCeArEoPbIi4c9--o2x02ic2 a(AndOT)/,C aUnWdA ox50i0d5a5--2023
+2
+tion ditch process (ODdi)s pplaryocaessusbessta nhtaiavled irseplaarittiyv.eTlhye lfoorwmeerr iesm0.0i1s6sikognNs2.O T-Nh/isk gsNu,gwgheisletst htehlaattt ethries 0.01
+kgN O-N/kgN,causingtheresultsofT/CUWA50055-2023tobesignificantlylowerthan
+choice of nitrogen remov2al process is crucial for controlling N O emissions. Although the
+2
+thoseofT/CAEPI49-2022.
+Further calculations of N O emissions per unit mass of total nitrogen removed by
+2
+differenttreatmentprocessesusingtheIPCC2019methodareshowninFigure1b. The
+resultsindicatethattheUCTprocesshasthehighestN Oemissionsperunitoftotalnitro-
+2
+genremoved,whiletheanaerobic-anoxic-oxic(AAO),anaerobic-oxic(AO),andoxidation
+ditchprocess(OD)processeshaverelativelyloweremissions. Thissuggeststhatthechoice
+ofnitrogenremovalprocessiscrucialforcontrollingN Oemissions. AlthoughtheIPCC
+2
+2019methodcanreflectthedifferencesinemissionsamongdifferentprocesses,itsoverall
+tendencytooverestimateN Oemissionsneedstobenoted.
+2
+
+--- Page 6 ---
+Appl. Sci. 2025, 15, x FOR PEER REVIEW 6 of 16
+IPCC 2019 method can reflect the differences in emissions among different processes, its
+overall tendency to overestimate N O emissions needs to be noted.
+2
+3.1.2. Comparison of CH Emission Calculations Using Different Methods
+4
+The annual CH emissions from 49 WWTPs in Shandong Province in 2022 were cal-
+4
+culated using three methods, with the results being 1,082,451.6 kg, 113,716.9 kg, and
+1,050,117.8 kg, respectively (Figure 2a). It can be seen that the results of the IPCC 2019 and
+T/CUWA 50055-2023 methods are very close, and both are nearly 10 times the result of
+the T/CAEPI 49-2022 method.
+The differences in the CH emission factor and correction factor values are the main
+4
+reasons for the deviation of the results. In the IPCC method, the CH emission factor is
+4
+0.6, and the correction factor is 0.03; in T/CAEPI 49-2022, the CH correction factor is 0.003,
+4
+and the CH emission factor for the anaerobic process degrading unit COD is 0.25
+4
+Appl.Skcig.2C02H5,1 45/,k6g17C5OD. Its low correction factor results in a low CH 4 emission. In contrast, the 6of16
+CH correction factors in the IPCC 2019 method and T/CUWA 50055-2023 are higher.
+4
+T/CUWA 50055-2023 recommends a CH emission factor of 0.004 to 0.0075 kgCH /kgCOD,
+3.1.2. ComparisonofCH4 EmissionCalculationsUsingDifferentMetho4ds
+4
+and in this study, the value is taken as 0.00575 kgCH /kgCOD. It also considers the CH
+The annual CH emissions from 449 WWTPs in Shandong Province in 20242 were
+4
+emissions from the pcualmcupla tsetdatuiosinn gatnhdre seamnedth soedttsl,iwngith tathnekr,e wsuhltiscbhe iinmgp1r,0o8v2e,4s5 1th.6ek agc,c1u13r,a7c1y6. 9okf g,and
+the calculation. Ther1e,f0o50r,e1,1 t7h.8ek rge,sreuslpte octfi vTe/lCy(UFiWguAre 25a0)0.5It5c-a2n0b2e3s iese ncltohsatet htoe rtehsautlt soof fItPhCeCIP C2C01290 19and
+T/CUWA50055-2023methodsareveryclose,andbotharenearly10timestheresultofthe
+but slightly lower.
+T/CAEPI49-2022method.
+Figure2.CH emissionsandemissionintensity.(a)ComparisonofCH emissionsamongthethree
+Figure 2. CH4 emissions and emis4sion intensity. (a) Comparison of CH4 emissions4 among the three
+standards(IPCC2019vs.T/CAEPI49-2022/2023),(b)CH emissionsperunitmassofCODremoved
+4
+standards (IPCC 2019 v cs a. l cT u/ lC atA edE uP sI in 4 g9 I- P2 C02 C2 2/ 02 10 923 fo) r, ( db if) f eC reH nt4 te rm eai tmss eio ntn ps r p oce er s su en s,it ( cm )Ca Hss o ef m C isO sioD n sre pm ero uv ne itd m assof
+4
+calculated using IPCC C2O0D19r efmoor vdediffcearlceunlatt etdreuastimngeTn/t CpArEoPcIe4s9s-e2s0,2 2(cf)o rCdHiff4e reemntitsrseiaotmnsen pteprro ucenssite sm. ass of
+COD removed calculated using T/CAEPI 49-2022 for different treatment processes.
+ThedifferencesintheCH emissionfactorandcorrectionfactorvaluesarethemain
+4
+reasons for the deviation of the results. In the IPCC method, the CH emission factor
+4
+There are flaws in the IPCC 2019 method for calculating methane emissions. The cal-
+is 0.6, and the correction factor is 0.03; in T/CAEPI 49-2022, the CH correction factor
+4
+culation method of iitss 0m.00e3th, aannde tehme CisHsioenm fiasscitoonrf arectloiersf oornth reeasntraiecrtoebdic lpitreorcaetsusrdee gdraatdain. gItu fnaiitlsC OD is
+4
+to comprehensively t0a.2k5ek ignCtHo 4a/ckcgoCuOnDt .tIhtse loBwOcDo 5r rreecmtioonvfeacdto irnr ethsuel tfsoirnma loowf sCluHd4geem. iAsssio an .cIonnc-ontrast,
+theCH correctionfactorsintheIPCC2019methodandT/CUWA50055-2023arehigher.
+sequence, there is a lack of 4consistency between the CH emission factor and the emission
+4
+T/CUWA50055-2023recommendsaCH emissionfactorof0.004to0.0075kgCH /kgCOD,
+4 4
+calculation formula.
+andinthisstudy,thevalueistakenas0.00575kgCH /kgCOD.ItalsoconsiderstheCH
+4 4
+emissionsfromthepumpstationandsandsettlingtank,whichimprovestheaccuracyof
+3.1.3. Calculation of Fossil-Derived CO Emissions Using T/CUWA 50055-2023
+thecalculation. Theref2ore,theresultofT/CUWA50055-2023isclosetothatofIPCC2019
+butslightlylower.
+In 2022, the fossil-derived CO emissions of 49 WWTPs in Shandong Province were
+2
+There are flaws in the IPCC 2019 method for calculating methane emissions. The
+computed in accordance with the guidelines of T/CUWA 50055-2023. These emissions
+calculationmethodofitsmethaneemissionfactorreliesonrestrictedliteraturedata. It
+were composed of two primary components: carbon emissions from fossil-derived min-
+failstocomprehensivelytakeintoaccounttheBOD removedintheformofsludge. As
+5
+eralization and fossial-dcoenrsievqeude nCceO,2t hsetreemismailnacgk forfocmon tshisete mnciynbeertawliezeantitohen CoHf 4eexmteirsnsiaoln cfaacrtboornan d the
+sources. The carbon eemmisissisoinocnaslc ufrloatmion fofosrsmilu-dlae.rived mineralization attained 7046.44 tCO ,
+2
+with an emission intensity of 0.0114 kgCO /m3. The mineralization of external carbon
+3.1.3. CalculationofFossil-De2rivedCO EmissionsUsingT/CUWA50055-2023
+2
+sources resulted in carbon emissions of 6967.18 tCO , with an emission intensity of 0.0112
+In2022,thefossil-derivedCO em2 issionsof49WWTPsinShandongProvincewere
+2
+kgCO -eq per cubic meter. Overall, fossil-derived CO emissions totaled 14,013.62 tCO ,
+2 computedinaccordancewiththeguide2linesofT/CUWA50055-2023. Theseem2issions
+with an emission intweenrseitcyo mopf o0s.e0d2o2f6t wkgoCprOim2-aerqy cpoemr pcounbenict sm: ceartbeor.n Aemltihssoiuongshf rfoomssfiols-sdile-rdievreivde dmin-
+CO accounted for oenrlayli z5a.0ti%on oanf dthfoes stoil-tdael rcivaerdboCnO 2esmteimssmioinngs ffrroommth WemWinTePrasli,z iattsi oinncolfuesxitoernn ainlc arbon
+2
+sources. Thecarbonemissionsfromfossil-derivedmineralizationattained7046.44tCO ,
+2
+with an emission intensity of 0.0114 kgCO /m3. The mineralization of external car-
+2
+bon sources resulted in carbon emissions of 6967.18 tCO , with an emission inten-
+2
+sity of 0.0112kgCO -eqpercubicmeter. Overall, fossil-derived CO emissions totaled
+2 2
+14,013.62tCO ,withanemissionintensityof0.0226kgCO -eqpercubicmeter. Although
+2 2
+fossil-derivedCO accountedforonly5.0%ofthetotalcarbonemissionsfromWWTPs,its
+2
+inclusionincarbonemissionassessmentsiscrucial. Therefore,itshouldbeincorporated
+
+--- Page 7 ---
+Appl.Sci.2025,15,6175 7of16
+intotheaccountingframework. Researchhasindicatedthattheshareoffossil-derivedCO
+2
+emissionsinItalianWWTPsvariesbetween16%and26%[29].
+Currently,theIPCCguidelinesandT/CAEPI49-2022donotincludefossil-derived
+CO intheiraccounting. Ontheonehand,thisisbecausetheboundarybetweenbiogenic
+2
+carbonandfossilcarbonisblurred,andthereisuncertaintyindistinguishingbetweenthem
+duringaccounting. Ontheotherhand,theexistingaccountingstandardsdonotdefinitely
+stipulatewhethertoincludefossil-derivedCO ,whichmayresultinanunderestimationof
+2
+thecarbonfootprintofWWTPsandweakenthereferencevalueoftheaccountingresults
+forpolicy-makingandtheoptimizationofemissionreductionmeasures.
+Inaddition,theloweremissionfactorsinT/CUWA50055-2023aremoreinlinewith
+theactualemissionlevelsofN OandCH ,anditalsotakesintoaccounttheemissions
+2 4
+of fossil-derivedCO . Although fixedemission factors cannot reflect thedifferencesin
+2
+emissionsbetweendifferentprocesses,theprecisionandapplicabilityoftheaccounting
+can be improved by updating and refining the process emission factors. In addition,
+incorporatingfossil-derivedCO enablesamoreall-encompassingevaluationoftheTC
+2
+emissionsinWWTPs. Itfurnishesascientificfoundationforformulatingcarbonemission
+reduction policies and optimizing management strategies. As a result, this approach
+becomesthefavoredchoiceforcurrentdirectcarbonemissionaccounting.
+3.2. IndirectCarbonEmissionsAssessedUsingThreeDifferentMethods
+3.2.1. ComparisonofChemicalCarbonEmissionCalculationResultsUsingT/CAEPI
+49-2022andT/CUWA50055-2023
+Theadditionofchemicalagentsincreasesindirectcarbonemissions[30–32]. Inthe
+processofwastewatertreatment,phosphorus-removingagentsneedtobeaddedfordeep
+phosphorusremoval,flocculantsarerequiredforsludgedewatering,disinfectantsmust
+be added before the treated water is discharged, and when the influent carbon source
+does not meet the denitrification requirements, carbon sources also need to be added.
+Thecarbonemissionsgeneratedduringtheproductionanduseofchemicalsareusually
+estimated by emission factors. However, due to the different emission factors used in
+differentaccountingsystems,theresultsshownotablediscrepancies.
+ThechemicalcarbonemissionscalculatedusingT/CAEPI49-2022were42,651.58tCO -eq,
+2
+with a carbon emission intensity of 0.0688 kgCO -eq/m3, accounting for 15.32% of the
+2
+total greenhouse gas emissions. In contrast, the chemical carbon emissions calculated
+usingT/CUWA50055-2023were37,862.65tCO -eq,withacarbonemissionintensityof
+2
+0.0611kgCO -eq/m3,accountingfor13.51%ofthetotalgreenhousegasemissions. There
+2
+isacertaindifferencebetweentheresultsobtainedfromthesetwosetsofstandards. The
+mainreasonisthatT/CUWA50055-2023remodeledthechemicalsbasedontheecoinvent
+database according to the literature tracing of the wrong chemicals, reconstructed the
+chemicalemissionfactors,andtherecommendedvaluesaremoreinlinewiththeactual
+situation,resultinginlowercalculationresults.
+Uponfurtheranalysis,itwasdiscoveredthatthecarbon-emissioncontributionsof
+diversechemicaltypesvarysignificantly. Thedosagesandcarbon-emissioncontributions
+ofchemicalsin49wastewatertreatmentplantswerecategorizedandtallied(Fordetails,
+seeFigure3). Thefindingsindicatedthatthechemicalwiththemostsubstantialcarbon-
+emissioncontributionwasthecarbonsource,whichaccountedfor27.6%. Nextwasthe
+phosphorus-removingagent,representing15.2%oftheTCemissioncontribution.Thethree
+chemicalswiththehighestcarbonemissionswereglucose,PAC,andsodiumhypochlorite,
+amongwhichthecarbonemissionsofglucosewerenearlytwicethatofPAC.Duetothe
+widespreadproblemsofaging,damage,andmisconnectioninChina’ssewagecollection
+network,seriousrainwaterandsewageoverflowpollution,andlowsewagecollectionrate,
+theinfluentcarbon/nitrogenratioisgenerallyinsufficient,whichsignificantlyincreasesthe
+
+--- Page 8 ---
+Appl. Sci. 2025, 15, x FOR PEER REVIEW 8 of 16
+collection rate, the influent carbon/nitrogen ratio is generally insufficient, which signifi-
+cantly increases the dosage of carbon sources. Chenxi Pang [33] and others found in their
+study that the annual carbon emissions generated by the addition of sodium acetate in
+Gaobeidian WWTPs in Beijing accounted for 2.63% of the TC emissions of the plant.
+Among various carbon sources, the emission factor of sodium acetate is the highest (2.90),
+while that of methanol is the lowest (0.65), indicating significant differences in the impact
+of different carbon sources on carbon emissions. Therefore, it is recommended to priori-
+Appl.Sci.2025,15,6175 8of16
+tize the usage of carbon sources with lower emission factors (such as methanol or glucose),
+reduce the use of sodium acetate, or develop alternative carbon sources (such as high BOD
+dosageofcarbonsources. ChenxiPang[33]andothersfoundintheirstudythattheannual
+wacasrtbeonweamtiessrio, nksigtecnhereatned wbyatshteeawddaittioenr,o festocd.i)u.m Aac eptaltaeuinsGibaolebe iadilatnerWnWaTtiPvse is the use of wastewater.
+inBeijingaccountedfor2.63%oftheTCemissionsoftheplant. Amongvariouscarbon
+Feng Hongbo [34] used tofu wastewater as a carbon source for a sewage plant with a scale
+sources,theemissionfactorofsodiumacetateisthehighest(2.90),whilethatofmethanolis
+of th2e0lo,0w0es0t (0m.65 3)/,din daicnatdin gfsoiguninficdan tthdiaffetr etnhcees icnathrebimopna-cstuofbdisffteirteunttciaorbno nesffouerccets was significant. It reduced
+oncarbonemissions. Therefore,itisrecommendedtoprioritizetheusageofcarbonsources
+337.9 tCO -eq, accounting for about 15.8% of the total emissions of the sewage plant, and
+with lower2emission factors (such as methanol or glucose), reduce the use of sodium
+acetate, or develop alternative carbon sources (such as high BOD wastewater, kitchen
+saved 7–10% of the total operating costs. The carbon emissions of chemical phosphorus-
+wastewater,etc.). Aplausiblealternativeistheuseofwastewater. FengHongbo[34]used
+rem tofuo wv ai sn teg aa teg re asn at cs rs bh ono su oul rd n foo rat b ewe gi eg pn lao nr twed ith. aO scp alt ei om f2i 0z ,0i 0n 0mg3 /th de b dfi oo ul no dgical phosphorus-removing
+w a ce s a an
+thatthecarbon-substitutioneffectwassignificant. Itreduced337.9tCO -eq,accounting
+process is an available way to reduce the dosage o2f PAC. For example, by controlling the
+forabout15.8%ofthetotalemissionsofthesewageplant,andsaved7–10%ofthetotal
+dissolved oxygen in the anaerobic section to create good phosphorus-releasing conditions
+operatingcosts. Thecarbonemissionsofchemicalphosphorus-removingagentsshould
+notbeignored. Optimizingthebiologicalphosphorus-removingprocessisanavailable
+for polyphosphate-accumulating organisms, the biological phosphorus-removing effect
+waytoreducethedosageofPAC.Forexample, bycontrollingthedissolvedoxygenin
+can be maximized, and the usage of chemical phosphorus-removing agents can be re-
+theanaerobicsectiontocreategoodphosphorus-releasingconditionsforpolyphosphate-
+accumulatingorganisms,thebiologicalphosphorus-removingeffectcanbemaximized,
+duced.
+andtheusageofchemicalphosphorus-removingagentscanbereduced.
+Figure3.Proportionofcarbonemissionsfromdifferenttypesofchemicals.
+Figure 3. Proportion of carbon emissions from different types of chemicals.
+Theadditionofchemicalshasanimportantimpactontheindirectcarbonemissionsof
+WWTPsandisanindispensablepartofgreenhousegasaccounting. Althoughtheexisting
+The addition of chemicals has an important impact on the indirect carbon emissions
+standardsprovidesomereferencevaluesfortheemissionfactorsofchemicals,thereisa
+of laWckWofuTnPifiesd arengdul aitiso nasnat tihnedgliosbpaleonrnsaatbiolneal plevaerl,tr eosuf ltginrgeiennahlacokuofsceo ngsiastse nacyccounting. Although the ex-
+intheresultsofdifferentregionsandaccountingmethods. Thisuncertaintyisparticularly
+isting standards provide some reference values for the emission factors of chemicals, there
+prominentinthecarbonemissionaccountingofWWTPs,especiallybecausetherearemany
+is tayp leasocfkc hoemf icualnsiafindecdom rpelegxuprloadtuicotinonsp arotc etshsees. Sgelleoctbioanlo foerm inssaiotniofanctaorls llaervgeelyl, resulting in a lack of con-
+depends on data availability and local conditions. Although T/CUWA 50055-2023 has
+sistency in the results of different regions and accounting methods. This uncertainty is
+updatedthechemicalemissionfactors,itstilldoesnotcoveralltypesofchemicals,suchas
+sodiumbisulfate,whichrankedfourthinchemicalcarbonemissionsinthisstudy,liquid
+particularly prominent in the carbon emission accounting of WWTPs, especially because
+oxygen,acommondisinfectantrawmaterial,andferroussulfate,acommonphosphorus-
+there are many types of chemicals and complex production processes. Selection of emis-
+removingagent. Atpresent,theaccountingofchemicalcarbonemissionsstillrelieson
+limiteddatasetsandlacksdetaileddatatosupporttheproductionprocessanduselinks
+sion factors largely depends on data availability and local conditions. Although T/CUWA
+ofchemicals. Inthefuture,itisparticularlyimportanttoformulateaunifiedstandardfor
+50055-2023 has updated the chemical emission factors, it still does not cover all types of
+chemicalemissionfactors,especiallyforchemicalswithhightotalcarbonemissions,such
+ascarbonsourcesandphosphorus-removingagents. Furtherrefiningtheemissionfactors
+chemicals, such as sodium bisulfate, which ranked fourth in chemical carbon emissions in
+willhelpimprovetheaccuracyandconsistencyoftheresults.
+this study, liquid oxygen, a common disinfectant raw material, and ferrous sulfate, a com-
+mon phosphorus-removing agent. At present, the accounting of chemical carbon emis-
+sions still relies on limited data sets and lacks detailed data to support the production
+process and use links of chemicals. In the future, it is particularly important to formulate
+a unified standard for chemical emission factors, especially for chemicals with high total
+carbon emissions, such as carbon sources and phosphorus-removing agents. Further re-
+fining the emission factors will help improve the accuracy and consistency of the results.
+3.2.2. Carbon Emissions from the Energy Consumption of the 49 WWTPs
+
+--- Page 9 ---
+Appl.Sci.2025,15,6175 9of16
+Appl. Sci. 2025, 15, x FOR PEER REVIEW 9 of 16
+3.2.2. CarbonEmissionsfromtheEnergyConsumptionofthe49WWTPs
+The annual carbon emissions from the electricity consumption of the 49 WWTPs
+The annual carbon emissions from the electricity consumption of the 49 WWTPs
+am ao mun ot nto t1 o21 1, 23 17 ,1 3. 77 12 7t 2CO tC2O-eq -/ ea q, /a ac ,co au ccn ot uin ng info gr fo41 r.6 4% %(T/ (C TA /E CP AI 4 P9 I-2 40 92 -22 0) 2a 2n )d n4 d3.3 4%
+u t . t 1.6 E a 3.3 %
+2
+(T/CUWA 50055-2023) of the TC emissions. The electricity-related carbon emission inten-
+(T/CUWA50055-2023)oftheTCemissions.Theelectricity-relatedcarbonemissionintensity
+sity is 0 .1.1 99 66 k gg CC OO2-- ee qq //m m3 3. R Re ed du uc cin ing th the eel ee lc et cr ti rc ii cty yco cn os nu sm umpt pio tin nof W fWW WTP Ts is a d air dec irt a cn td
+is 0 k . g it o o P s is e a nd
+2
+effective measure to decrease carbon emissions [35].
+effectivemeasuretodecreasecarbonemissions[35].
+3.3.3 T.3h.eT IhmepIamcpt aocft VoafrVioauriso EumsEismsiiosnsi IonnteInntseitniseist ioens othne tTheotTaol tEalmEismsiiossni oInntIenntseintysi ty
+TheT hSePSSSP SsoSfstwofatwrea vre23v 2w3aws uasseuds etod ctooncdouncdtu ac tKaWK Wtestte, satn,da nad siagsniigfinciafinccaen dceiffdeirfefenrceen ce
+anaalnyasliys soisf coafrcbaorbno enmeimssiisosnio inntinentesnitsyit wywasa pseprefrofromrmede donon ththe eNN2OO, C,CHH4, c,hcehmemiciaclasl,s e,leelcetcrtircic-ity,
+2 4
+ity,a annddt htheeto ttoatlagl rgereenehnohuosuesgea gsa(sT a(bTlaebSle7 )S.7T)h. eThcaer bcaornbeomn iesmsioisnsiionnte innstietynsoiftyW oWf WTPWsiTsPms aisin ly
+maainffleyc taeffdebcytetdh ebyin tdhiere icntdciarrebcot ncaermboisns ioemniinssteionns itinyt(ern=si0ty.9 7(r2 4=) ,0w.9i7t2h4a), vweriythh aig vhecroyr rheilgahti on
+corwreiltahtitohne welietcht rtihceit yelceacrtrbiocintye mcairsbsoionn eimntiesnsisoitny i(nrte=n0s.i9ty1 1(8r )=a 0n.d91a18re) laantidv eal yrelloawtivceolryr elolawti on
+corwreiltahtitohne wdiirtehc tthcea rdbiornecetm caisrsbioonn einmteisnssiiotyn. iRnetednusciitnyg. Reeledcutrciicnitgy ecloenctsruicmitpyt icoonnsisuamkpetyiown aisy to
+a kceoyn wtraoyl ctaor cboonntreoml icsasriboonns. emissions.
+As Ashsoswhonw inn FinigFuirgeu 4re, f4u,rftuhretrh setratsitsattiicsst iocns othnet hacetuacatlu eallecetlreicctirtiyc ictoyncsounmsupmtiopnti odnistdriis-tri-
+butbiounti oonf tohfet h49e W49WWTWPsT iPns 2in02220 s2h2oswhoewd ethdatth tahtet heleecetlreicctirtiyc ictoyncsounmsupmtiopnti oonf tohfet hbeiobloiogliocgali cal
+treatrtemaetmnte nptropcreoscse sasccaoccuonutendte dfofro trhteh ehihgihgehsets tpproroppoortritoionn, ,6655.8.8%%, ,ffoolllloowweedd bbyy tthhee iinnflfluueenntt lift
+liftp puummpps syysstetemma att1 188.8.8%%,t, htheea davdavnacnecdedtr teraetamtmenetnsty ssytesmtem(s u(scuhcahs afisl tfielrtebre dbes,dhs,i ghhig-ehffi-ecffiie-ncy
+ciensecdyi mseednimtaetinotnattiaonnk sta,netkcs.), eattc9.). 5a%t 9,.a5n%d, tahneds ltuhdeg seluddegwea dteerwinagtearnindgd aisnindf decistiionnfescytisotenm sy(ssu-ch
+tema s(sUuVch, oazso UneV), hoazdonthee) hloawd etshtee lloewctreiscti teyleccotrniscuitmy pcotinosnu.mTphtiisoinn. dTihcaiste isndthicaatttehse thelaetc tthriec ity
+elecctornicsiutym cpotinosnuomfpWtiWonT oPfs WisWconTcPesn itsr actoendcienntthraetbeido cihne tmheic baliotrcehaetmmiecnatl atnredaltimftepnut manpds ylisftte m,
+pumwhpi cshysateremt,h wehcoicrhe saoreu rtchees coofree lseocturricceitsy o-rfe elaletecdtriccaitryb-orneleamtedis sciaornboinnt eenmsiitsys.ion intensity.
+Figure4.ElectricityconsumptionofdifferenttreatmentunitsinWWTPs.
+Figure 4. Electricity consumption of different treatment units in WWTPs.
+ToreducetheelectricityconsumptionofWWTPsandlowertheindirectcarbonemis-
+To reduce the electricity consumption of WWTPs and lower the indirect carbon emis-
+sionintensity,theoperationandmanagementcanbeoptimizedinthefollowingaspects:
+sion intensity, the operation and management can be optimized in the following aspects:
+improvingtheoperationalefficiencyofinfluentliftpumps,optimizingequipmentselec-
+improving the operational efficiency of influent lift pumps, optimizing equipment selec-
+tionandoperatingparameters;optimizingtheaerationsystemofthebiologicaltreatment
+tion and operating parameters; optimizing the aeration system of the biological treatment
+process, suchasusing intelligent aerationorintermittentaeration; replacinginefficient
+process, such as using intelligent aeration or intermittent aeration; replacing inefficient
+equipment,suchasreplacinglow-efficiencyblowerswithhigh-efficiencymagneticlevita-
+equipment, such as replacing low-efficiency blowers with high-efficiency magnetic levita-
+tionblowers;and,forwastewatertreatmentplantswithalowloadrate,installingfrequency
+tion blowers; and, for wastewater treatment plants with a low load rate, installing fre-
+convertersonmixersandpushers.
+quency converters on mixers and pushers.
+3.4. TheImpactofDifferentInfluencingFactorsonCarbonEmissionsinWastewaterTreatment
+3.4. The Impact of Different Influencing Factors on Carbon Emissions in Wastewater Treatment
+Comparingthethreecarbonaccountingmethods,T/CUWA50055-2023hasamore
+Comparing the three carbon accounting methods, T/CUWA 50055-2023 has a more
+comprehensive calculation scope, considers more factors, and has a richer variety of
+comprehensive calculation scope, considers more factors, and has a richer variety of chem-
+chemical carbon emission factors, making it more suitable for the carbon emission ac-
+ical carbon emission factors, making it more suitable for the carbon emission accounting
+countingofChineseWWTPs. Thesubsequentanalysisadoptsthecalculationresultsof
+of Chinese WWTPs. The subsequent analysis adopts the calculation results of T/CUWA
+T/CUWA50055-2023.
+50055-2023.
+According to the calculation of T/CUWA 50055-2023, the total carbon emissions of 49
+WWTPs in Shandong Province in 2022 were 280,308.040 tCO2-eq/a, of which the direct
+
+--- Page 10 ---
+Appl. Sci. 2025, 15, x FOR PEER REVIEW 10 of 16
+emissions were 121,073.7 tCO -eq/a, accounting for 43.2%. The indirect emissions were
+2
+159,234.4 tCO -eq/a, accounting for 56.8%, with an emission intensity of 0.452 kgCO -
+2 2
+eq/m3. This intensity is higher than that of Shenzhen [36] (0.30 kgCO -eq/m3) and Shanghai
+2
+Appl.Sci.2025,15,6175 10of16
+[21] (0.29 kgCO -eq/m3), indicating that there is still room for optimization in terms of
+2
+process level, energy consumption, and management of WWTPs in Shandong Province.
+AccordingtothecalculationofT/CUWA50055-2023,thetotalcarbonemissionsof
+The differences in the accounting results are also related to some factors, including the
+49WWTPsinShandongProvincein2022were280,308.040tCO -eq/a,ofwhichthedirect
+2
+level of regional economic development, the scale of WWTPs, and the quality of influent
+emissionswere121,073.7tCO -eq/a,accountingfor43.2%. Theindirectemissionswere
+2
+water [37]. 159,234.4 tCO 2-eq/a, accounting for 56.8%, with an emission intensity of 0.452 kgCO 2-
+eq/m3. ThisintensityishigherthanthatofShenzhen[36](0.30kgCO -eq/m3)andShang-
+Due to the differences in production conditions, technical levels, an2d process flows
+hai[21](0.29kgCO -eq/m3),indicatingthatthereisstillroomforoptimizationintermsof
+2
+of WWTPs, the selection of emission factors may lead to uncertainties in the estimation
+processlevel,energyconsumption,andmanagementofWWTPsinShandongProvince.
+results. WWTPs can Tohbetdaiifnfe rmenocersei nacthceuarcactoeu nCtiHng raesnudlt sNareOa lseomreilsastieodnto fsaocmtoerfsa ctthorrso, iungclhud aincgtuthael
+4 2
+levelofregionaleconomicdevelopment,thescaleofWWTPs,andthequalityofinfluent
+measurement or model simulation to improve the accuracy of the accounting.
+water[37].
+Duetothedifferencesinproductionconditions,technicallevels,andprocessflows
+3.4.1. The Impact of Treatment Processes on Carbon Emissions
+ofWWTPs,theselectionofemissionfactorsmayleadtouncertaintiesintheestimation
+results. WWTPscanobtainmoreaccurateCH andN Oemissionfactorsthroughactual
+A depiction was conducted on the total carbon em4issions2 and emission intensity of
+measurementormodelsimulationtoimprovetheaccuracyoftheaccounting.
+different processes in 49 wastewater treatment plants in Shandong Province in 2022 (Fig-
+3.4.1. TheImpactofTreatmentProcessesonCarbonEmissions
+ure 5). The AAO process contributes the most to carbon emissions. Among the 49
+A depiction was conducted on the total carbon emissions and emission intensity
+wastewater treatment plants, 36 adopted the AAO process, but the average emission in-
+of different processes in 49 wastewater treatment plants in Shandong Province in 2022
+tensity of the AAO process was 0.425 kgCO -eq/m3, which was lower than that of other
+(Figure 5). The AAO process2contributes the most to carbon emissions. Among the
+processes. The emiss4i9own aisntetwenatseirttyre oatfm tehnet polxanidtsa, 3ti6oand odpittecdht hperAoAceOssp rwocaesss ,thbuet hthieghaveesrta,g beoemasistsiinogn
+intensity of the AAO process was 0.425 kgCO -eq/m3, which was lower than that of
+an average value of 0.697 kgCO -eq/m3. This figure was m2arkedly greater than that of the
+2
+other processes. The emission intensity of the oxidation ditch process was the highest,
+AAO process and nearly approached the 0.79 kgCO -eq/m3 value reported for the MBR
+boastinganaveragevalueof0.697kgCO -2eq/m3. Thisfigurewasmarkedlygreaterthan
+2
+process in Shenzhen’tsh aWt oWf thTePAsA [3O6p].r oTcehses ahnidghneearr lcyaarpbpornoa echmedistshieo0n.7s9 fkrogCmO t-heeq/ omx3idvaaltuieonre pdoirttcehd
+2
+process are attributedfo troth tehMe BlaRcpkr oocfe ass cinleSahre bnzohuenn’dsaWrWy TbPestw[36e]e.nTh tehhei gaheerrocbaribco annedm aisnsioonxsicfr zomontehes
+oxidationditchprocessareattributedtothelackofaclearboundarybetweentheaerobic
+within the oxidation ditch and the fact that the oxidation ditch operates in a completely
+andanoxiczoneswithintheoxidationditchandthefactthattheoxidationditchoperates
+mixed flow pattern. iTnhaec oamnpolxetiecly cmonixdeditflioonwsp raettqeruni.rTehde faonro xdicecnointrdiifitiocnastiroeqnu iarerde fnorodt esnuitffirificciaetinotn,
+leading to incompletaer edneontisturfifificcieantti,olena dainngdt othinec opmropdleutecdteionintr iofifc amtioonraen Ndt 2hOe.p Aroddudcittioionnoaflmlyo,r epNo2oOr.
+Additionally,poorcontrolofanaerobicconditionsmayaffectthephosphorus-releasing
+control of anaerobic conditions may affect the phosphorus-releasing effect of polyphos-
+effectofpolyphosphate-accumulatingorganisms,increasingthedosageofphosphorus-
+phate-accumulating organisms, increasing the dosage of phosphorus-removing agents.
+removingagents.
+Figure5.Carbonemissionsandcarbonemissionintensityofdifferenttreatmentprocesses.
+Figure 5. Carbon emissions and carbon emission intensity of different treatment processes.
+3.4.2. The Influence of Scale upon Carbon Emissions
+Figure 6 presents the carbon emission intensity of wastewater treatment plants at
+various scales. Among wastewater treatment plants of different scales, no substantial dif-
+ference was observed in direct emission intensity. In contrast, the indirect emission inten-
+sity steadily declined as the scale increased, which was in line with the research findings
+of Cardoso et al. [38–40]. The results showed that the emission intensity of small-scale
+WWTPs with a scale of ≤20 km3/d was the highest, at 0.467 kgCO -eq/m3. The main reason
+2

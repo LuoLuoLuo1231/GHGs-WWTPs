@@ -1,0 +1,178 @@
+污水处理厂温室气体排放论文研究方法提取结果（第二批：113-118、11-18）
+=======================================================================
+
+（113）Improving the accuracy of GHG accounting for WWTPs: seasonal differences
+研究方法大类：综合法（实测+排放因子+统计分析）
+具体方法细节：
+a. 实测法 - 浮力室法（floatation chamber method）收集气体样品，使用预真空铝箔采样袋采集，厌氧/缺氧段每3分钟连续采样，好氧段用流量计测量气体逸出速率后10分钟收集
+b. 实测法 - 气相色谱分析（Agilent 7890A GC），Porapak Q填充柱分离，氢火焰离子化检测器（FID）和电子捕获检测器（ECD）分别检测CH4和N2O，使用标准气体校准
+c. 排放因子法 - 基于IPCC推荐值计算直接排放因子（EF-CH4: gCH4/kgCOD, EF-N2O: gN2O/kgTN），间接排放采用电力排放因子和化学品排放因子
+d. 统计分析 - IBM SPSS Statistics 26.0进行单因素方差分析（One-way ANOVA）、Pearson相关分析、Mantel检验；SmartPLS 3.2.9构建结构方程模型（SEM）量化环境因素对排放因子的影响路径
+e. 不确定性分析 - 使用误差传播公式量化EF的不确定性
+应用目的：揭示京冀地区AAO工艺污水处理厂GHG排放的季节性差异，校准IPCC排放因子，为准确核算提供依据
+
+---
+
+（114）Multi-scale UAV, flux-chamber, and point-source measurement framework
+研究方法大类：综合法（多尺度实测）
+具体方法细节：
+a. 实测法 - 动态通量室法（dynamic flux chamber），基于U.S. EPA (1986)协议，每15秒采样一次持续20分钟，80分钟间隔，24小时内18个测量周期，每个位置3个重复室
+b. 实测法 - 无人机通量帘幕法（UAV flux-curtain），由Bridger Photonics Inc.执行，使用开放路径激光光谱仪和回反射器，进行垂直飞行横断面测量，三次受控释放测试验证准确性（误差≤11%）
+c. 实测法 - 锅炉和火炬烟气测试，按EPA Methods 1、18和TO-15进行堆栈测试，评估燃烧效率和排放
+d. 实测法 - NMVOC采样分析，使用SUMMA不锈钢罐收集，按EPA TO-12M/PAMS协议分析56种NMVOC
+e. 模型法 - 基于温室气体协议（GHG Protocol）的运营碳足迹计算，采用IPCC第五次评估报告GWP值（CH4=28, N2O=273, CO2=1）
+f. 模型法 - 年度排放因子外推法，将通量数据离散化到四个季节季度进行年化估算
+应用目的：建立设施层面全方位GHG和空气污染物排放评估框架，比较自上而下（UAV）和自下而上（通量室+点源）方法的一致性
+
+---
+
+（115）Methane emissions monitoring at WWTPs in Europe and Australia
+研究方法大类：综合法（多种实测技术对比+排放因子法）
+具体方法细节：
+a. 实测法 - 可调谐二极管激光吸收光谱（TDLAS），包括无人机搭载TDLAS传感器（DJI U10）和开路TDLAS
+b. 实测法 - 光学气体成像（OGI），使用FLIR GF77手持式OGI相机用于泄漏检测与修复（LDAR）
+c. 实测法 - 量子气体LiDAR（QLM Technology），结合TDLAS、差分吸收LiDAR（DIAL）和时间相关单光子计数（TCSPC）
+d. 实测法 - 示踪气体分散法（Tracer gas dispersion method），使用乙炔（C2H2）作为示踪气体
+e. 实测法 - 涡度相关法（Eddy covariance）
+f. 实测法 - 通量室法（flux chamber），包括封闭式和开放式
+g. 实测法 - 反向分散建模（Inverse Dispersion Modelling, IDMM），基于地面金属氧化物传感器连续监测
+h. 实测法 - 气体嗅探器/高流量采样器
+i. 实测法 - 开路FTIR光谱（OP-FTIR）
+j. 排放因子法 - 各国排放报告标准（丹麦CH4产量法、澳大利亚NGER方案、英国CAW方法学）
+k. 排放因子法 - IPCC排放因子用于基准比较
+应用目的：评估各种CH4监测技术的有效性和适用性，为水务公司选择最合适的监测和量化方法提供实用框架
+
+---
+
+（116）Spatially explicit process-resolved fluxes and microbial drivers
+研究方法大类：综合法（实测+分子生物学）
+具体方法细节：
+a. 实测法 - 静态通量室法（static chamber sampling technique），自建浮动静态PVC通量室系统（含浮力框架、不透明PVC室、电控箱），每15分钟间隔采样1小时，每次≥100mL气样
+b. 实测法 - 顶空平衡技术（headspace equilibrium technique）测定溶解GHG浓度，使用250mL气密血清瓶，加氯化汞终止生物活性，高纯N2置换顶空，35°C摇床平衡1小时，基于亨利定律计算
+c. 实测法 - 气相色谱分析（Shimadzu GC-2014），双检测系统：ECD检测N2O，FID检测CH4和CO2，Hayasep D色谱柱
+d. 分子生物学法 - 高通量16S rRNA基因测序（Illumina NovaSeq PE250），使用商用土壤和水DNA试剂盒提取基因组DNA，QIIME 2处理数据，DADA2去噪推断ASV，Naive Bayes分类器在SILVA 138.1数据库上进行分类学注释
+e. 模型法 - GHG排放和碳足迹计算模型，将瞬时通量与反应器宏观尺寸和水力负荷耦合，使用IPCC GWP值（N2O=273, CH4=27, CO2=1），区分化石和生物源CO2
+应用目的：建立工业废水处理厂工艺级GHG排放清单，将宏观排放与微生物群落动态演替建立机制联系
+
+---
+
+（117）A comprehensive environmental impact evaluation of underground WWTP
+研究方法大类：综合法（排放因子+LCA+经济评价）
+具体方法细节：
+a. 排放因子法 - 碳元素平衡法（carbon element balance method），基于物料平衡原则，用进水碳含量减去出水和污泥碳含量计算CO2和CH4排放
+b. 排放因子法 - N2O排放因子法（EFN2O=0.0046 kgN2O-N/kgN），电力排放因子（0.7921 kgCO2/kWh），化学品排放因子（来自中国城镇供水排水协会2022指南）
+c. 模型法 - 生命周期评价（LCA），依据ISO 14040标准，使用Gabi和Eco-invent数据库背景数据，评估全球变暖潜势（GWP）、酸化潜势（AP）、富营养化潜势（EP）等7项环境影响指标，采用距离目标加权法
+d. 模型法 - 简单成本评估工具（基于投入产出），计算处理每万m³废水的净收益
+e. 模型法 - 数据包络分析（DEA）模型评估污水处理厂规模效率
+f. 实测法 - CNHS元素分析仪（Flash 2000, Thermo Fisher）测定污泥中TC，标准方法测定废水TC和MLVSS
+应用目的：系统量化地下污水处理厂各处理阶段GHG排放特征，分析环境影响和经济可行性，提出减排路径
+
+---
+
+（118）Quantifying the spatiotemporal characteristics and driving mechanisms of GHG emissions
+研究方法大类：综合法（排放因子法+统计模型+分解分析）
+具体方法细节：
+a. 排放因子法 - 基于IPCC指南（IPCC, 2021）和国家技术指南的自下而上方法，覆盖直接排放（工艺过程CH4/N2O、出水排放、污泥处置）和间接排放（电力消耗CO2），使用区域电网排放因子
+b. 统计模型 - Tapio脱钩模型，计算排放增长与人口增长的弹性系数，将城市分为5类脱钩状态（强脱钩、弱脱钩、耦合、弱负脱钩、强负脱钩）
+c. 分解分析 - 对数平均迪氏指数（LMDI）分解法，将排放变化分解为7个驱动因素（排放结构4个+排放强度+人均污水处理量+人口），无残差
+d. 数据来源 - 中国环境统计数据库，覆盖347个城市7448座污水处理厂的活动水平数据，经结构化筛选
+应用目的：揭示中国城市污水处理部门GHG排放的时空特征和驱动机制，为差异化城市减排政策提供定量依据
+
+---
+
+（11）Estimation of countrywide N2O emissions from wastewater treatment in Switzerland
+研究方法大类：综合法（长期实测+排放因子法+全规模试验）
+具体方法细节：
+a. 实测法 - 改进的通量室法（adapted flux chamber method），1m²开放出口通量室，非分散红外分析仪（X-stream, Emerson）测量N2O浓度，通过三通阀连接最多14个浮罩，可编程逻辑控制器（PLC, WAGO 750-881）自动切换，配套流量计、顺磁氧传感器和湿度传感器
+b. 实测法 - 长期连续监测，对14座全规模污水处理厂进行至少1年的监测（共7项自行监测+7项文献数据），涵盖CAS、A2O、AO、A/I、SBR、IFAS、FB等多种工艺
+c. 排放因子法 - 比较5种排放因子估算方法：(a) IPCC 2006指南（EF=0.032%）、(b) IPCC 2019修订版（EF=1.6±0.5%）、(c) 瑞士特定活动数据+平均EF、(d1/d2) 按三类污水处理厂（碳去除、仅硝化、完全脱氮）加权EF
+d. 统计分析 - Spearman秩相关分析（Python 3.8.3, Pandas, Numpy, Scipy），识别与N2O EF显著相关的变量（出水亚硝酸盐负荷与EF相关性最强）
+e. 全规模试验 - 在Hofen WWTP进行缺氧/好氧切换全规模测试，比较预缺氧区与完全好氧工艺对N2O排放的影响
+应用目的：提出基于长期监测数据的国家级N2O排放估算方法，改进IPCC默认排放因子的不确定性
+
+---
+
+（12）Ground-based remote sensing of CH4 and N2O fluxes from a WWTP
+研究方法大类：实测法（地基遥感）
+具体方法细节：
+a. 实测法 - 中红外高光谱相机（Telops HyperCam Methane），灵敏波段覆盖CH4的7.7μm吸收带和N2O的双波段（7.57-8.07μm），光谱分辨率1cm⁻¹，探测器320×256像素，每个场景16个以上数据立方体
+b. 实测法 - 自定义LiDAR（DST Control AB）同步测量场景距离，与相机同一视场
+c. 模型法 - 光谱建模（spectroscopic modeling），基于Matlab大型查找表（每个物种1024条预计算透射曲线），逐像素迭代拟合CH4、N2O和H2O的柱浓度图
+d. 模型法 - 空气运动建模，通过干涉图校正生成IR视频，特征跟踪计算气体速度和方向
+e. 模型法 - 质量平衡计算，结合柱浓度图、空气运动和距离图，通过垂直/水平表面积分计算排放通量
+f. 辅助设备 - Vaisala WXT520便携气象站提供风速风向数据
+应用目的：首次使用地基遥感技术全面评估污水处理厂所有处理步骤的CH4和N2O排放，发现未知排放源（如沼气厂泄漏、火炬不完全燃烧）
+
+---
+
+（13）Estimation of greenhouse gas and odour emissions from a cold region municipal BNR WWTP
+研究方法大类：综合法（实验室模拟实测+统计分析）
+具体方法细节：
+a. 实测法 - 实验室规模批次反应器模拟法，使用5L玻璃反应器模拟好氧、厌氧、缺氧反应器及初沉池和二沉池，分别在13°C（冬季）和17°C（夏季）温控室中运行，每30分钟至24小时共9个时间点采样
+b. 实测法 - 气相色谱分析（Scion 456-GC, Bruker Daltonics），TCD检测CO2、FID检测CH4、ECD检测N2O，配合气体密注射器和预真空Exetainer小瓶
+c. 实测法 - H2S和NH3浓度分析使用Gas Alert Micro 5（Honeywell），量程0-500ppm，分辨率0.1ppm
+d. 实测法 - 水质参数分析，包括COD（HACH DR/4000U分光光度计）、TOC（LOTIX燃烧分析仪）、NH4+（离子色谱Dionex Integrion HPIC）、DO（YSI 5100）等
+e. 统计分析 - Pearson相关分析，评估操作参数（DO、温度、HRT、COD、TN等）与GHG排放的相关性（p≤0.01和p≤0.05）
+应用目的：确定寒冷地区BNR型市政污水处理厂开放处理过程的GHG和臭气排放速率，评估温度、DO浓度和BNR配置对排放的影响
+
+---
+
+（14）Bioelimination of low methane concentrations emitted from WWTPs: a review
+研究方法大类：综述法（文献综述）
+具体方法细节：
+a. 综述法 - 系统文献综述，主要基于2005-2020年间发表的文献，涵盖WWTP和污水管网的CH4排放源、低浓度CH4（<5% v/v, <33g/m³）的生物消除技术
+b. 综述内容分类：
+   - 生物过滤器（Biofilters, BFs）：有机填料（堆肥、泥炭、土壤）和无机填料，研究入口负荷、空床停留时间、温度、pH、营养液等影响因素
+   - 生物滴滤器（Biotrickling filters, BTFs）：惰性填料连续喷淋营养液
+   - 生物洗涤器（Bioscrubbers, BSCs）：悬浮生长生物反应器+传统洗涤器组合
+   - 双液相生物反应器（Two-liquid phase bioreactors）：使用硅油或十六烷作为第二液相（SLP）增强CH4传质
+   - 混合系统（Hybrid systems）：两种或多种生物反应器串联
+应用目的：综述污水处理厂低浓度CH4排放的来源和生物消除技术，评估不同生物反应器配置的性能，识别知识空白
+
+---
+
+（15）Conventional and zero liquid discharge treatment plants for textile wastewater
+研究方法大类：综合法（碳足迹分析+排放因子法+蒙特卡洛模拟）
+具体方法细节：
+a. 排放因子法 - 基于IPCC 2006指南的CH4排放计算，生物处理单元甲烷转化因子（MCF），考虑有机负荷比（OR）和最大产甲烷能力（B₀=0.25kgCH4/kgCOD）
+b. 排放因子法 - 出水排放CH4计算，考虑接收水体深度因子（fd）和温度因子（fT），GWP值采用IPCC第五次评估报告（CH4=28, N2O=265）
+c. 排放因子法 - 电力排放因子（印度：573.88kgCO2-eq/MW），燃料排放因子（木材：1.644tCO2-eq/t，柴油：0.00255tCO2-eq/L），交通排放因子按车型分类
+d. 模型法 - 蒙特卡洛模拟（Monte Carlo Simulation），使用@RISK软件，5000次迭代1次模拟，对数正态分布，定义操作参数（COD和流量）与GHG排放的相关性，模拟设计条件下可能的GHG排放
+应用目的：对比常规处理和零液体排放（ZLD）纺织废水处理设施的碳足迹，为决策部门提供科学依据
+
+---
+
+（16）Minimizing GHG emissions of an industrial WWTP in terms of water-energy nexus
+研究方法大类：综合法（密闭室实测+蒙特卡洛模拟优化）
+具体方法细节：
+a. 实测法 - 自设计密闭室法（closed chamber method），镀锌钢板制作的排放隔离通量室（直径31cm，高31cm，体积1.56×10⁻²m³），置于浮动拖曳器上，最佳气体停留时间30分钟
+b. 实测法 - Drager X-Am 5000气体分析仪实时监测CO2和CH4浓度百分比
+c. 排放因子法 - 间接排放计算，采用土耳其区域电力排放因子（0.497kgCO2/kWh, 2017年IEA数据）
+d. 模型法 - 蒙特卡洛模拟（@RISK软件），5000次迭代1次模拟，对数正态分布，定义操作参数（COD和流量）与直接GHG排放的相关性，模拟设计条件（COD=10000mg/L，流量=6000m³/d）下的GHG排放
+e. 水-能源关系分析 - 评估设计条件运行对能源消耗和GHG排放的降低效果
+应用目的：开发基于排放监测室的GHG排放估算工具，通过蒙特卡洛模拟在水-能源关系框架下最小化GHG排放
+
+---
+
+（17）The evaluation of GHG emissions from Shanghai municipal WWTPs based on IPCC and ODIM
+研究方法大类：综合法（排放因子法比较+运营数据集成）
+具体方法细节：
+a. 排放因子法 - IPCC 2006方法，N2O基于人口当量和默认EF（0.032%），CH4基于TOW和MCF（0.05）
+b. 排放因子法 - IPCC 2019修订版，N2O基于TN_DOM和更新EF（0.00016-0.045kgN2O-N/kgN），CH4基于TOW和MCF（0.03）
+c. 排放因子法 - 优化IPCC方法（2006-a/b/c, 2019-a），替换∑Ui·Tij值和TOW/TN数据源
+d. 排放因子法 - 运营数据集成法（ODIM），基于40座全球真实WWTP的文献EF值，区分不同处理工艺（AAO、OD、SBR、AO、Biofilm、MBR），使用实际TN去除量和COD去除量
+e. 统计分析 - Kruskal-Wallis单因素方差分析（SPSS），分析处理工艺、规模、负荷率、理论需氧量、进水水质和排放标准对GHG排放强度的影响
+应用目的：比较IPCC 2006、IPCC 2019和ODIM三种方法的准确性，为上海市50座WWTP提供更精确的GHG排放评估
+
+---
+
+（18）Validation of an evidence-based methodology to support regional carbon footprint assessment
+研究方法大类：综合法（标准化方法+现场实测验证）
+具体方法细节：
+a. 标准化方法 - 基于ISO 14064-1:2019标准的WWEECarb方法论，覆盖直接排放（生物气体燃烧、好氧处理单元、污泥线逸散排放）和间接排放（能源消耗、化学品消耗、运输、污泥处置、出水溶解GHG），区分化石源和生物源CO2
+b. 实测法 - 连续监测，使用气体分析仪（MIR 9000-CLD, ENVEA），红外吸收法测量CH4、CO2、N2O（UNICHIM方法和ISTISAN 91/41报告），膜式空气干燥器（Mgf Sky 30/7 M），每5分钟一个数据，每3小时用标准气校准
+c. 实测法 - 间歇监测，使用蠕动泵和气体采样袋（5L）采集气样，光声光谱仪（Brüel & Kjaer Multi-gas Monitor Type 1302）分析GHG浓度
+d. 实测法 - 溶解GHG测量，超声波脱气（SONOREX, 20°C）后光声光谱分析，复合液样每周采集两次
+e. 实测法 - 浮动通量室法（310L高密度聚乙烯，底面积1m²），参照Spinelli et al. (2018)等指南设计
+f. 排放因子法 - 活动数据乘以排放因子乘以GWP（IPCC AR5），EF来源包括现场实测和国际数据库（如ISPRA、SINANET、EFDB等）
+应用目的：提出并验证区域污水处理服务碳足迹评估的标准化方法论，为意大利北部区域（52个市镇，411,484 PE）提供决策支持系统和系统性减排策略

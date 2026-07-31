@@ -1,0 +1,60 @@
+（40）Estimating nitrous oxide emissions based on TN discharge from municipal wastewater treatment plants: A case study for the city of Xiamen, China
+研究方法：
+a. [排放因子法] - 基于TN的定量排放因子法：基于总氮（TN）排放量开发新型N2O排放估算算法，以好氧单元为平衡系统，结合温度和生物脱氮过程作为TN去除百分比，用于估算厦门市污水处理厂N2O排放量
+b. [排放因子法] - IPCC排放因子法：参考IPCC 2006指南（2019修订版），计算先进处理厂废水中直接和间接N2O排放，用于与新算法进行对比验证
+c. [排放因子法] - EPA人均排放系数法：采用美国EPA推荐的IPCC典型WWTP N2O人均释放系数（3.2 g/(人·a)），基于服务人口计算N2O排放，用于方法对比
+d. [物料平衡法] - TKN平衡法：通过凯氏总氮（TKN）物料平衡计算活性污泥中N2O排放，考虑进水/出水/剩余污泥的TKN变化，用于分析N2O生成机理
+e. [实地调查法] - 案例研究法：选取厦门市7座大型污水处理厂（处理规模≥50,000 m3/d），收集运行数据和环境影响评估数据，用于验证算法的实用性
+f. [参数分析法] - 影响因素分析：分析COD/N比、溶解氧（DO）浓度、pH值、污泥停留时间（SRT）等操作参数对N2O排放的影响，用于确定减排策略
+
+（41）Understanding the greenhouse gas emissions from China's wastewater treatment plants: Based on life cycle assessment coupled with statistical data
+研究方法：
+a. [生命周期评价法] - 过程生命周期评价（Process-based LCA）：采用"门到门"（gate to gate）系统边界，以处理1 m3废水为功能单位，整合运营阶段的四类GHG排放源（直接排放、电力间接排放、原材料间接排放、运输间接排放），使用SimaPro 9.2软件和ReCiPe Midpoint (H)方法评估GHG排放
+b. [统计分析法] - 底部向上混合LCA法：结合中国17座样本WWTPs的现场数据与2769座WWTPs的统计年鉴数据（《城市排水统计年鉴》），采用底部向上方法估算国家级和区域级GHG排放清单
+c. [不确定性分析法] - 蒙特卡洛模拟：使用SimaPro 9.2进行1000次试验的蒙特卡洛模拟，结合半定量数据质量评分矩阵（数据可靠性、完整性、时间相关性、地理相关性、技术相关性），提供95%置信区间的结果
+d. [排放计算法] - 直接排放计算：依据中国生态环境部（MEE, 2018）指南计算CH4和N2O直接排放，采用GWP值（CH4=34, N2O=298），考虑COD去除量、干污泥量、TN去除量等参数
+e. [敏感性分析法] - N2O排放因子敏感性分析：测试不同N2O排放因子（0.0035~0.016 N2O-N/t TN）对全国GHG排放总量的影响，评估排放因子变异对结果的敏感性
+f. [情景分析法] - 电力类型情景分析：测试不同类型电力（核电7.52×10-3 kgCO2eq/kWh、硬煤电力1.26 kgCO2eq/kWh、生产组合0.95 kgCO2eq/kWh）对WWTPs GHG排放的影响
+
+（42）Modelling greenhouse gas emissions from biological wastewater treatment by GPS-X: The full-scale case study of Corleone (Italy)
+研究方法：
+a. [数学模型法] - ASM1+N2O模型：在ASM1基础上修改，引入AOB反硝化三步脱氮路径（NO3→NO2→N2O→N2）、AOB N2O产生路径（羟胺氧化、亚硝化、AOB反硝化）和N2O吹脱模型，共18个状态变量和19个过程，用于模拟全规模WWTP的GHG排放
+b. [模拟软件法] - GPS-X 7.0模拟：在GPS-X 7.0（Hydromantis）中实现Corleone WWTP布局，使用Model Developer工具和cnip库构建模型，使用Optimizer工具以最大似然为目标函数进行自动校准
+c. [实地监测法] - 多时段采样监测：进行64天长期监测（每周2次）和3次24小时短期采样，使用集气罩（1.0 m×0.9 m）、Tedlar气袋、风速计和Unisense微传感器分别采集气相和液相N2O样品，每小时采集一次持续6小时
+d. [模型校验法] - NMAE和NRMSE评估：使用归一化平均绝对误差（NMAE）和归一化均方根误差（NRMSE）评估模型拟合优度，校准期和验证期各30天数据
+e. [进水建模法] - 傅里叶级数动态进水：基于离散小时采样数据建立傅里叶级数参数，生成64天分钟级动态进水特征时间序列，用于长期模拟
+f. [优化情景法] - 多目标运行优化：测试9种运行情景（DO 1/1.5/2 mg/L × RAS比 0.5/0.75/1），使用水-能-碳耦合指数（WECCI）综合评估出水质量指数（EQI）、碳足迹（CF）和能源足迹（ENF），通过归一化处理实现多目标权衡比较
+
+（43）Insights into greenhouse gas emissions from a wastewater treatment plant in vulnerable water areas of China
+研究方法：
+a. [排放计算法] - IPCC指南排放计算：依据IPCC 2006指南和2019修订版，以COD和TN去除量为活动数据，计算CH4（EF=0.018 kgCH4/kgCOD）和N2O（EF=0.016 kgN2O-N/kgTN）直接排放，以及电力（EF=0.7035 kgCO2/kWh，华东电网）和化学品间接排放
+b. [案例分析法] - 太湖流域案例研究：选取太湖流域某WWTP（改良AAO工艺，设计规模150,000 m3/d），收集2019-2022年1325条日运行数据，分析两种排放标准（Class I A与DB32）下GHG排放差异
+c. [统计检验法] - Wilcoxon检验和Chow检验：使用R 4.2.1软件，通过Wilcoxon检验比较两种排放标准下GHG排放强度的中位数差异显著性，通过Chow检验比较回归系数差异显著性（排放标准提升对规模效应的影响）
+d. [回归分析法] - 线性回归分析：以进水量为自变量、GHG排放强度为因变量进行线性回归，分析直接和间接GHG排放的规模效应，比较两种排放标准下的回归系数变化
+e. [相关性分析法] - Spearman相关分析：分析进水COD和TN浓度与直接/间接GHG排放强度的相关性，使用R2评估解释程度，识别关键驱动因素
+
+（44）Comprehensive analysis of greenhouse gas emissions and emission factors in a Korean domestic wastewater treatment plant: Insights into mechanisms and pathways for climate change mitigation
+研究方法：
+a. [碳足迹计算工具法] - Excel工作表碳足迹计算工具：使用瑞典水务协会（Svenskt Vatten）开发的开源Excel碳足迹计算工具，基于KEPCO 2022年电力统计数据的排放因子（0.5432 kgCO2e/kWh），估算大田市" D"WWTP的总GHG排放（78,555 tonCO2e/year）
+b. [模拟软件法] - MassFlow3模拟器：基于IWA的ASM No.2d（活性污泥模型）和ADM No.1（厌氧消化模型），模拟各处理单元的GHG排放，包括生物处理、厌氧消化、消毒、过滤等单元过程，总排放69,301.8 tonCO2e/year
+c. [排放因子法] - IPCC Tier 1方法：依据IPCC 2006手册，使用GWP值（CO2=1, CH4=28, N2O=298），基于BOD和TN去除负荷计算各处理阶段的CO2、CH4和N2O直接排放
+d. [实地采样法] - 现场样品采集分析：采集进水、初沉、二沉、消化池进出水、出水的水质数据（BOD、CODcr、TN、T-P、TSS、VSS），作为模型输入和验证数据
+e. [系统边界法] - 全生命周期清单分析：建立涵盖运行阶段（生物处理、化学品使用、能源消耗、沼气利用）和污泥管理阶段（浓缩、脱水、焚烧、运输）的系统边界，排除建设阶段（约占总排放5%）
+f. [对比分析法] - 国际对比分析：将"D"WWTP的人均GHG排放强度（47.9-56.4 kgCO2/year/PE）与奥地利WWTP进行对比，评估33-57%的排放差距
+
+（45）Analysis of the Effect of the Use of Food Waste Disposers on Wastewater Treatment Plant and Greenhouse Gas Emission Characteristics
+研究方法：
+a. [实验分析法] - 食物垃圾处理器废水特性分析：分析三种FWD类型（洗涤脱水型WD、研磨型GR、微生物液态发酵型MLF）的废水特性，测量TS、VS、TOC和pH，使用韩国国家废弃物统计调查第5版的组成比例配制500 g样品，以3 L/40 s注水，连续16天监测MLF型
+b. [负荷分析法] - 污水处理厂运行影响分析：基于韩国679座WWTP（处理能力≥500 m3/day）的运行数据，应用BOD负荷基准（140 g/L，取韩国研究平均值）和T-N（4665 mg/L），计算FWD引入后BOD负荷增加率（51.2%）和运行率变化
+c. [物料平衡法] - BOD物料平衡分析：建立WWTP标准工艺的BOD物料流程图，初沉池BOD去除率35%，生物反应池中60%氧化（占总输入BOD 39%），40%转移至二沉池，厌氧消化池BOD去除率约80%，用于追踪FW中有机物在WWTP中的转化路径
+d. [排放因子法] - IPCC Tier 1 GHG计算：依据IPCC 2006指南Category 6D方法，CH4排放因子0.48 kgCH4/kgBOD，N2O排放因子1.571 kgN2O-N/kgT-N，计算废水处理和污泥处置的GHG排放
+e. [综合评估法] - 全流程GHG评估：综合计算废水处理（CH4和N2O直接排放）、电力消耗（0.454 kgCO2eq/kW）和污泥焚烧处置的GHG排放，评估FWD引入前后净GHG排放变化（增加58%，每吨FW净排放206.1 kgCO2eq）
+
+（46）Experimental and statistical modeling of the effect of process modification and wastewater characterization on greenhouse gas emissions for a dairy industry wastewater treatment plant: A minimization approach
+研究方法：
+a. [实验监测法] - 通量箱法GHG现场监测：使用通量箱（flux chamber）采集EA（延时曝气）和DAF（溶气气浮）处理单元的GHG样品，通过气相色谱分析CO2、CH4和N2O浓度，基于IPCC 2014方法（GWP: CO2=1, CH4=28, N2O=265）计算GHG排放
+b. [工艺改造法] - 运行条件优化：将曝气池运行条件调整至设计工况（HRT=36h，SRT=20天），对比现有运行条件（HRT 19-36h，SRT 10-20天）和改造后条件下的GHG排放，实现平均约46%的GHG减排（CO2 45.4%，CH4 45.3%，N2O 45.2%）
+c. [统计分析法] - 多元统计分析：进行方差分析（ANOVA）、Pearson相关分析、热图（heatmap）和主成分分析（PCA），使用R软件的pheatmap、Hmisc、factoextra和FactoMineR包，以及Minitab软件，分析GHG排放与废水特性（COD、TSS、FOG、TKN）之间的对应关系
+d. [回归分析法] - 多元线性回归：以COD、TSS、FOG、TKN为自变量，GHG排放为因变量，进行多元线性回归分析，确定最有效的废水参数与GHG排放的对应关系（出水COD与CO2/CH4的r=0.909/0.937，TKN与N2O的r=0.876）
+e. [模型开发法] - 新经验模型开发：基于相关性分析结果开发GHG排放估算新模型（GHGI = Q×r×WP_R×GWP），其中Q为废水流量，r为Pearson相关系数，WP_R为污染物去除量，GWP为全球变暖潜势，通过现场监测验证模型精度（平均收敛度82%）
+f. [质量控制法] - 不确定性和敏感性分析：在统计分析前进行不确定性和敏感性分析，使用Levene方差齐性检验和Shapiro-Wilk正态性检验，采用Tukey HSD多重比较检验确定组间差异

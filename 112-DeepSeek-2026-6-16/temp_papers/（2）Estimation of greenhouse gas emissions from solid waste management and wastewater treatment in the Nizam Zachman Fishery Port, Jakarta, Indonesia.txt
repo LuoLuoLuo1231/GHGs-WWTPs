@@ -1,0 +1,362 @@
+--- Page 1 ---
+IOP Conference Series:
+Earth and
+Environmental Science
+PAPER • OPEN ACCESS You may also like
+Estimation of greenhouse gas emissions from -Interplay between amorphous and
+crystalline domains in semicrystalline
+polymers by simultaneous SAXS, WAXS
+solid waste management and wastewater
+and Dielectric Spectroscopy
+A Sanz, Tiberio A Ezquerra and A Nogales
+treatment in the Nizam Zachman Fishery Port,
+-Student Data Management Information
+System Using the Zachman Framework
+Jakarta, Indonesia
+Muhammad Yasin Nasrulloh and Yefry
+Handoko Putra
+-Procedure for catches data collection and
+To cite this article: G A Kristanto et al 2020 IOP Conf. Ser.: Earth Environ. Sci. 423 012039
+its implementation: a case study of fishing
+ports in Jakarta
+Darmawan, Nina D Andayani and
+Mustaruddin
+View the article online for updates and enhancements.
+This content was downloaded from IP address 123.139.10.33 on 21/11/2025 at 13:20
+
+--- Page 2 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+Estimation of greenhouse gas emissions from solid waste
+management and wastewater treatment in the Nizam
+Zachman Fishery Port, Jakarta, Indonesia
+G A Kristanto*, M A Pratama, and D F Rahmawati
+Civil Engineering Department, Universitas Indonesia, Jl. Margonda Raya, Depok,
+16424, Indonesia
+*Corresponding author: andari@eng.ui.ac.id
+Abstract. Nizam Zachman is a modern fishery port located in Muara Baru, Jakarta, Indonesia.
+Some of its facilities include a temporary collection of solid waste and wastewater treatment
+plants, emitting greenhouse gases that lead us to climate change by warming up the global
+temperature. In this study, greenhouse gas emissions are estimated from these two facilities by
+using the IPCC Tier 1 method and emission factor calculation. By estimating greenhouse gas in
+this area, it will give knowledge and convicing to make greenport as a consideration of the
+strategy to reduce greenhouse gas emission, starting from waste and wastewater management.
+Solid waste treatment comprises open dumping, recycling, and transportation of wastes to the
+temporary landfill in this area. With a total waste of 5,411.4 tons/year, greenhouse gas emissions
+from open dumping and transportation are estimated to be 14,340.2 and 22.3 tons CO2eq/year,
+respectively. Meanwhile, recycling activities contribute to 143 tons CO eq/year of greenhouse
+2
+gas emissions. In addition, the estimated greenhouse gas emissions include emissions from
+wastewater treatment, discharge of industrial wastewater to waterways via the drainage
+system, and domestic wastewater treatment by using a septic tank. In addition, greenhouse
+gas emissions from wastewater treatment, drainage system, and septic tanks are estimated to
+be 2,830; 108.7; and 3.2 tons CO eq/year, respectively. Based on the estimation, solid waste
+2
+treatment generates 83% of the total greenhouse gas emissions, while wastewater treatment
+generates only 17% of the total emissions. Herein, composting, increase of recycling, and
+utilization of methane are recommended to reduce the greenhouse gas emissions from waste
+management.
+1. Introduction
+Green port or Eco-port is a term used for ports in which management and operations focus on social,
+economic, and environmental aspects [1].Criteria that must be satisfied to achieve green port include
+energy and waste treatment, water pollution, air pollution, and domestic waste management, as well as
+B3 (Bahan Berbahaya dan Beracun/ Hazardous and Toxic Substances) waste control [2]. Green port has
+been implemented in several ports worldwide, including the Netherlands, USA, and Germany. In
+Indonesia, the green port was first implemented in June 2016, with the port of Krakatau Bandar Samudra
+(KBS) Cilegon as the first project [3].Thus far, KBS Cilegon has signed a Cooperation Agreement with
+Sucofindo [4].
+Greenhouse gas (GHG) is a gas that traps heat in the atmosphere, leading to global warming [5].
+Global warming leads to rising sea levels, weather changes and extreme weather, disruption of food and
+water supply, increased danger to politics and safety, and threat to human health, all of which impact the
+ContentfromthisworkmaybeusedunderthetermsoftheCreativeCommonsAttribution3.0licence.Anyfurtherdistribution
+ofthisworkmustmaintainattributiontotheauthor(s)andthetitleofthework,journalcitationandDOI.
+PublishedunderlicencebyIOPPublishingLtd 1
+
+--- Page 3 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+current ecosystems [6]. Emission sources listed in the GHG inventory include the procurement and
+energy utilization sector, industrial processes and product use, agriculture, forestry and other land uses,
+and waste [7]. At the Conference of Parties in 2009, Indonesia has committed to reduce GHG emissions
+by 26% by its own effort and by 41% with international assistance in 2020. Indonesia’s commitment is
+strengthened by the first Nationally Determined Contribution document in November 2016, with an
+unconditional target of 29% and a conditional target of 41% compared to the business-as-usual scenario
+in 2030 [8].
+The solid waste and wastewater sector contributes 2.8% of GHG emissions to the atmosphere from
+anthropogenic sources [9]. The GHG report program (GHGRP) states that GHG from the waste sector
+is produced by a number of sources, including municipal solid waste, landfill, industrial waste landfill,
+wastewater treatment systems, and incinerators for non-hazardous solid waste [10]. The waste sector
+significantly contributes to 5% of the global GHG emissions [11]. The urban waste management process
+generates GHG, which is dominated by carbon dioxide (CO ) and methane (CH ) [12]. The wastewater
+2 4
+treatment sector generates direct and indirect GHG emissions, such as CO , CH , and N O. Direct
+2 4 2
+emissions originate from sewer systems, wastewater treatment plants (WWTP), and water disposal into
+water bodies, while indirect GHG emissions originate from electronic supply, transportation, use of
+chemicals and additives, and disposal/reuse of residues [13]. Globally, the wastewater sector is the fifth
+largest anthropogenic source of methane, which is estimated to increase by 20% from 2005 to 2020.
+While at the same time it is also the sixth largest source of nitrogen oxides, which is estimated to increase
+to 13% from 2005 to 2020 [14].
+In this study, GHG emissions in the Nizam Zachman port area, Muara Baru, North Jakarta, Indonesia
+are estimated. This estimation can be used as learning in identification source of GHG emissions and a
+reference as the amount of GHGs emissions generated by solid waste and wastewater management
+activities in the port. In addition, by doing this calculation a GHG emission reduction strategy can be
+developed, which is one of the commitments of the Indonesian government in tackling climate change,
+and considering to develop green port as one of the strategy. A number of fishing industries, a fish
+market, and management offices are present in the Nizam Zachman port area. In 2017, the total fish
+production was 152,030.33 tons [15].The processing of fish products, i.e., the production and
+management of waste, demonstrates the potential for global warming via the direct production of CO ,
+2
+CH , N O, and HFC and indirect production of CO and NO . Hence, 1 kg of fish products contributes as
+4 2 x
+much as 0.56 g CO eq of GHG emissions [16].
+2
+2. Study methods
+2.1. Scope of this study
+Figure 1. Scope of this study
+2
+
+--- Page 4 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+The scope of this study involves the treatment of solid waste and wastewater in the area of the Muara
+Baru fishing industry, which is located at the Nizam Zachman Port (North Jakarta) from every activity
+in that area as we can see on Figure 1. In their solid waste treatment, GHG emissions from all waste
+treatment systems, i.e., open dumping, recycling, and waste recycling, are estimated. In their wastewater
+treatment, GHG emissions from the industrial (WWTP) and domestic (septic tank and drainage)
+wastewater treatment are estimated.
+2.2. Calculation methods
+GHG emissions are calculated by the IPCC Tier 1 method with the emission factor (EF). EF is a factor
+that estimates the amount of pollutants emitted from certain activities [17].
+𝐸 = 𝐴×𝐸𝐹 (1)
+The default emission factors for Tier 1 can be found in the IPCC Guidelines for each greenhouse gas
+emitted from the three emission sources, i.e., energy systems, processes, and wastes, respectively, the
+values of which represent an average value from studies reported in various countries [18].
+2.2.1. GHG emissions from solid waste treatment. In solid waste treatment, GHG emissions originating
+from three activities within the area, i.e., open dumping, transportation, and recycling, are calculated.
+In this area, 5411.39 tons/year of waste is generated. The calculated GHG emissions originating from
+recycling are a credit emission; hence, in the calculation, the EF is negative (0.490 tons CO2eq/ton
+of waste) [19]. GHG emissions originating from open dumping use EFs from India that have similar
+waste conditions, i.e., 70% organic and 30% organic. The used EFs are 2.25 kg/kg for CO2 and
+0.016 kg/kg CH4 [20].
+𝑡𝑜𝑛 𝑡𝑜𝑛
+𝐶𝑂 𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 = 𝑊𝑎𝑠𝑡𝑒 𝑡𝑟𝑒𝑎𝑡𝑒𝑑 𝑉𝑜𝑙𝑢𝑚𝑒( )×𝐸𝑚𝑖𝑠𝑠𝑖𝑜𝑛 𝐹𝑎𝑐𝑡𝑜𝑟( ) (2)
+2
+𝑡𝑎ℎ𝑢𝑛 𝑡𝑎ℎ𝑢𝑛
+The amount of fuel needed for waste transport is 17,232 L/year. For the calculation of GHG
+emissions from transportation, EF from the National Development Planning Agency (BAPPENAS)
+is utilized, which is 2.2 kg CO /L of fuel for diesel [12].
+2
+2.2.2. Estimation of GHG emissions from wastewater treatment. In wastewater management, GHG
+emissions originating from three sources, i.e., wastewater treatment plant, septic tank, and drainage,
+are calculated. CH4 and N2O emissions from these three sources are calculated by using the IPCC
+formula. CH4 is emitted from a treatment process in which organic matter in wastewater is degraded.
+N2O emissions possibly originate from wastewater treatment, especially when the effluent of
+wastewater enters the aquatic environment [21]. The organic matter content of domestic wastewater is
+denoted by BOD, while that of industrial wastewater is denoted by COD.
+CH emissions from industrial wastewater treatment in WWTP for biological treatment are
+4
+calculated by using IPCC formula as follows [21]:
+𝐸𝑚𝑖𝑠𝑖 𝐶𝐻 =∑[(𝑇𝑂𝑊 −𝑆 )𝐸𝐹 −𝑅 ] (3)
+4 𝑖 𝑖 𝑖 𝑖
+𝐸𝐹 = 𝐵 ×𝑀𝐶𝐹 (4)
+𝑖 𝑜 𝑖
+𝑇𝑂𝑊 = 𝑃 ×𝑊 ×𝐶𝑂𝐷 (5)
+𝑖 𝑖 𝑖 𝑖
+𝐸𝑚𝑖𝑠𝑖 𝑁 𝑂 = 𝑁 ×𝐸𝐹 ×44⁄28 (6)
+2 𝑒𝑓𝑓𝑙𝑢𝑒𝑛𝑡 𝑒𝑓𝑓𝑙𝑢𝑒𝑛𝑡
+𝑁 = (𝑃×𝑃𝑟𝑜𝑡𝑒𝑖𝑛×𝐹 ×𝐹 ×𝐹 )−𝑁 (7)
+𝑒𝑓𝑓𝑙𝑢𝑒𝑛𝑡 𝑁𝑃𝑅 𝑁𝑂𝑁−𝐶𝑂𝑀 𝐼𝑁𝐷−𝐶𝑂𝑀 𝑆𝐿𝑈𝐷𝐺𝐸
+CH emissions are obtained from the subtraction of the total organically material in wastewater
+4
+(TOW) from the total organic component (S) which is set aside as sludge and then multiplied by
+the EF and subtracted by the amount of the recovered CH (R). Total organic is represented by COD,
+4
+while S and R are assumed to be absent.
+i i
+3
+
+--- Page 5 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+CH emissions from the septic tank and drainage are calculated by using the IPCC formula as follows
+4
+[21]:
+𝐸𝑚𝑖𝑠𝑖 𝐶𝐻 =∑[(𝑈 −𝑇)𝐸𝐹](𝑇𝑂𝑊−𝑆)−𝑅 (8)
+4 𝑖 𝑖 𝐼
+𝑇𝑂𝑊 = 𝑃 ×𝐵𝑂𝐷 ×0,001×𝐼×365 (9)
+𝑖 𝑖 𝑖
+𝐸𝐹 = 𝐵 ×𝑀𝐶𝐹 (10)
+𝑖 𝑜 𝐼
+CH emissions are obtained by the subtraction of the fraction population (Ui) from the degree of
+4
+utilization (Ti), which is multiplied by the EF. The result is multiplied by the TOW, represented by
+BOD. For S and R, it is assumed to be absent. N O emissions are calculated by using the same formula,
+2
+where nitrogen in the effluent discharge is first multiplied by EF and then multiplied by 44/28, which
+is a conversion factor for N O-N to kg N O.
+2 2
+3. Results and Discussion
+3.1. GHG Emissions from Solid Waste Treatment
+Total GHG emissions from solid waste treatment amount to 14,219.38 tons CO eq/year or 82.86% of
+2
+the total GHG emissions. Owing to the absence of other waste treatment options, from Figure 2, open
+dumping activities contribute to the highest GHG emissions from all of the solid waste treatment in the
+region, amounting to 14,340.183 tons CO eq/year. In addition, the most dominant composition of waste
+2
+is organics, which are easily degraded. The organic matter contained in this waste material, produces
+about 60% methane and 40% carbon dioxide during anaerobic decomposition [20].
+Figure 2. GHG emissions from solid waste treatment
+3.2. GHG emissions from wastewater treatment
+The GHG emissions from wastewater treatment are estimated to be 2,941.896 tons CO eq/year,
+2
+originating from treatment at the WWTP, septic tank, and drainage. The WWTP contributes to the
+highest GHG emissions 2829.960 tons CO eq/year (Figure 3), which is 96% of the total GHG emissions
+2
+from wastewater treatment. This is related to the higher capacity of the WWTP than those of the septic
+tank and drainage. In addition, the industrial wastewater from the fishing industry that enters the WWTP
+contains a considerably high amount of organic materials, which can be observed from the COD input
+of 2272.4 mg/L. COD itself is one of the common parameters that used to measure the organic
+component of wastewater, the higher COD concentrations, the more CH emitted to the air [21].
+4
+4
+
+--- Page 6 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+Figure 3. GHG emissions from wastewater treatment
+3.3. Total GHG emissions
+It is shown on figure 4 that GHG emissions from solid waste are 5 times greater with 82.86%, than those
+from wastewater treatment. This is happened because there is no available treatment to reduce waste
+landfill in temporary collection of solid waste and recycling is only carried out by scavengers.
+Meanwhile, there are a few treatments for wastewater, such as WWTP and septic tank that process
+most of the wastewater that produces from all sources in Nizam Zachman port.
+Figure 4. GHG emission percentage of solid and wastewater treatment
+3.4. Improvement scenario
+After identifying the source of GHG emissions, an improvement scenario can be designed for the purpose
+of reducing GHG emissions from solid waste and wastewater treatment activities in the Muara Baru Area.
+Three improvement scenarios are prepared: increasing solid waste treatment, wastewater treatment, and a
+combination of both.
+Muara Baru Area, which is a part of the Nizam Zachman Fishery Port, is still lack of waste treatment.
+Two alternatives are available to reduce the GHG emissions from solid waste treatment, which are
+increasing recycling activities and adding biological treatment for organic waste in the form of
+composting. The biological process is selected because of the pile-up of a large amount of waste, which
+is dominated by organic waste. Besides, composting is a simple biological treatment compared to the
+other treatment methods such as an anaerobic digester. In addition, composting produces GHG
+emissions, but the amount of the produced CH is relatively low due to the use of aerobic processes. The
+4
+emissions from composting are calculated using the IPCC formula. [22]
+GHG Emissions = (M x EF) 103 R (11)
+i i
+Composting can reduce ~30.28% of the GHG emissions that originate from waste treatment. This
+number is assumed if 75% of organic waste, which is the highest composition of waste landfill, is
+composted. The GHG emissions produced by composting are calculated by the greenhouse gas
+5
+
+--- Page 7 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+inventory method, namely IPCC Tier 1 with EFs. By this method, with this alternative, 9913.361 tons
+CO eq/year of GHG emissions are generated by solid waste treatment, thereby decreasing the current
+2
+GHG emissions to 4306.015 tons CO eq/year. The second alternative involves the recycling of 100%
+2
+plastic waste generated in the landfill. The combination of recycling and composting can reduce GHG
+emissions by 33.74% from solid waste treatment; hence, the emissions amount to 9420.972 tons
+CO eq/year. Overall, this scenario reduce 27.96% of GHG emissions or 4,798.4 ton CO eq/year (Table
+2 2
+1).
+In wastewater treatment including GHG emissions from the WWTP, drainage, and septic tanks, the
+highest GHG emissions originate from the WWTP, which is 96.2% of the total GHG emissions
+produced from all wastewater treatment. Then, 3.7% originates from drainage, and 0.1% originates from
+septic tanks. In this scenario, efforts to reduce GHG emissions are only carried out on GHG emissions
+from the WWTP. As the result, this scenario reduce 14.68% from total GHG emission, so total GHG
+emission if this scenario is applied 14,642.357 tons CO eq/years.
+2
+The reduction of GHG emissions is based on the study [23] via the capture of CH into a gas-
+4
+fixed combustion turbine, which converts CH to CO and produces steam that can be used as an
+4 2
+electricity source. In this reduction, 100% of CH is assumed to be oxidized and converted to CO with
+4 2
+a mass unit of 2.75 kg CO /kg CH4 by the following equation:
+2
+𝐶𝐻 +2𝑂 →𝐶𝑂 +2𝐻 (12)
+4 2 2 2
+Among the three scenarios, the most significant GHG emission reduction is observed in scenario
+3. It is shown on the figure 5, the fourth bar of the graph shows the lowest number of GHG emission
+which is as a representative of scenario 3. The first bar is the baseline, the second is first scenario
+and the third is second scenario. Therefore, scenario 3 is selected because of the significant reduction
+of GHG emissions, which is 42.64% or equivalent to 7,317 tons CO eq/year; hence, the total GHG
+2
+emissions amount to 9,844 tons CO eq/yea. In addition in scenario 3, GHG emission reductions are
+2
+carried out in solid and wastewater treatment.
+Table 1. Percentage reduction by the improvement scenario
+Reduction of GHG Percentage of
+Emissions (ton
+Reduction (%)
+CO eq/year)
+2
+Scenario 1 4,798 27.96
+Scenario 2 2,518 14.68
+Scenario 3 7,317 42.64
+Figure 5. Comparison of Total GHG in Each Scenarios After Improvement Is Treated
+4. Conclusions
+GHG emission is one of the causes of Global Warming, which is part of aspect Climate Change.
+Therefore, the release of GHG emissions must be considered to monitoring Climate Change. Solid waste
+6
+
+--- Page 8 ---
+The 4th International Conference on Climate Change 2019 (The 4th ICCC 2019) IOP Publishing
+IOP Conf. Series: Earth and Environmental Science423 (2020) 012039 doi:10.1088/1755-1315/423/1/012039
+and wastewater treatment directly generates GHG emissions. Two activities of the solid waste treatment
+in the Muara fishery industry can generate GHG emissions: open dumping and waste transportation.
+Meanwhile, recycling activities can reduce GHG emissions or emission credits. Three activities at the
+wastewater treatment in the area are identified to produce GHG emissions: Septic tanks for wastewater
+treatment, the WWTP for industrial wastewater treatment, and direct disposal to water bodies through
+drainage.
+The current GHG emissions from solid and wastewater management in the Muara Baru fishery
+industry that located in Nizam Zachman Port are estimated using the developed IPCC method and
+emission factor.
+Solid waste treatment activities generate higher GHG emissions 5 times greater compared to
+wastewater treatment activities.
+To reduce GHG emissions in the Muara Baru fishery industry, it is recommended that solid waste
+and wastewater treatment must be improved. Therefore, by trying to implement greenport in this area it
+will help a lot.
+References
+[1] Ahmadi N, Kusumastanto T and Siahaan E I 2018 Strategi Pengembangan Studi Kasus Pelabuhan
+Hijau: Pelabuhan Cigading-Indonesia Warta Penelitian Perhubungan 28 9-26
+[2] Sucofindo 2019 Sucofindo hadirkan konsep Greenport [online] available:
+https://www.sucofindo.co.id/id/read/2019/03/2990/sucofindo-hadirkan-konsep-green-port
+[3] BUMN 2019 Sucofindo hadirkan konsep green port konsep [online] available:
+http://bumn.go.id/sucofindo/berita/1-Sucofindo-Hadirkan-Konsep-Green-Port-Konsep
+[4] Anwar A 2019 Sucofindo dan Krakatau Bandar Samudera Jalin Sinergi Wujudkan Green Port
+[online] available: https://ekonomi.bisnis.com/read/20190629/9/1118789/sucofindo-dan-
+krakatau-bandar-samudera-jalin-sinergi-wujudkan-green-port
+[5] EPA 2019 Greenhouse Gas (GHG) Emissions: Overview of Greenhouse Gases [online] available
+https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+[6] Henderson R M, Reinert S A, Dekhtyar P and Migdal A 2017 Climate Change in 2017:
+Implications for Business (Boston: Harvard Business School Publishing) 9-317-032
+[7] Martono 2015 Fenomena gas rumah kaca Swara Patra 5
+[8] Ministry of Environment and Forestry 2017 Laporan Inventarisasi GRK dan Monitoring,
+Pelaporan dan Verifikasi 2017 (Jakarta: Ministry of Environment and Forestry)
+[9] IPCC 2007 Climate Change 2007: Impacts, Adaptation and Vulnerability. Contribution of
+Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate
+Change ed M L Parry, O F Canziani, J P Palutikof, P J van der Linden and C E Hanson
+(Cambridge, UK: Cambridge University Press)
+[10] EPA 2019 Greenhouse Gas Reporting Program (GHGRP): GHGRP Waste [online] available:
+https://www.epa.gov/ghgreporting/ghgrp-waste
+[11] Mahmoudkhani R, Valizadeh B and Khastoo H 2014 Greenhouse Gases Life Cycle
+Assessment (GHGLCA) as a decision support tool for Municipal Solid waste management in
+Iran J. Environ. Heal. Sci. Eng. 12 1–7
+[12] Ministry of National Deveploment Planning 2014 Pedoman Teknis Perhitungan Dasar Emisi
+Gas Rumah Kaca di Sektor Pengelolaan Limbah (Jakarta: Ministry of National Development
+Planning)
+[13] Parravicini V, Svardal K and Krampe J 2016 Greenhouse Gas Emissions from Wastewater
+Treatment Plants Energy Procedia 97 246–53
+Acknowledgments
+This work was funded through the Grant PITTA B 2019 (contract number: NKB-
+0755/UN2.R3.1/HKP.05.00/2019) from the Directorate of Research and Community Service University
+of Indonesia.
+7

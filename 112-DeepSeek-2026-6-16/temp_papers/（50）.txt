@@ -1,0 +1,532 @@
+--- Page 1 ---
+JournalofCleanerProduction429(2023)139562
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Carbon footprint of a conventional wastewater treatment plant: An analysis
+of water-energy nexus from life cycle perspective for emission reduction
+Xinxia Hea,b, Zhe Lia,b,*, Chongyang Xinga,b, Yuchen Lia,b, Mengmeng Liud,e, Xu Gaoc,
+Yunsong Dinga,c, Lunhui Lua,b, Chen Liua,b, Chong Lid,e, Dianchang Wangd,e
+aChongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, 400714, China
+bChongqing School, University of Chinese Academy of Sciences, Chongqing, 400714, China
+cChongqing Water Group Co., Ltd., Chongqing, 400015, China
+dYangtze Eco-Environment Engineering Research Center, China Three Gorges Corporation, Beijing, 100038, China
+eNational Engineering Research Center of Eco-Environment Protection for Yangtze River Economic Belt, Beijing, 100038, China
+A R T I C L E I N F O A B S T R A C T
+Handling Editor: Mingzhou Jin Reducing greenhouse gas (GHG) emissions is of far-reaching implications for the sustainable development of a
+conventional domestic wastewater treatment plant (WWTP). GHG emissions of the WWTP in different working
+Keywords: loads were monitored to quantify the influence of critical processes on GHG emissions and shed light on the
+Greenhouse gas emissions relations between direct and indirect GHG emissions with the water-energy nexus. The life cycle carbon footprint
+Working load
+of the WWTP was assessed to find the most critical impact factor. A conceptual model of direct and indirect GHG
+Water-energy nexus
+emissions was established based on the water-energy nexus and life cycle assessment (LCA). Results showed that
+Field observations
+direct GHG emissions were highest in medium working load in May. While high indirect GHG emissions were in
+Life cycle assessment
+February, with the highest working load. Methane (CH4) emission rates, from 44.39 ±42.49 to 4.94 ±2.29 kg
+CO2e⋅d(cid:0)1,
+decreased along the treatment processes due to oxidation. Dissolved CH4 in wastewater mainly came
+from the influent that was 0.08 ±0.04 kg CH4⋅d(cid:0)1. The increase of nitrous oxide (N2O) emissions and dissolved
+N2O occurred in the secondary treatment stage and was affected by the C/N ratio. The operation and mainte-
+nance phase had the most significant carbon footprint due to 86.4% of indirect GHG emissions from electricity
+usage through LCA. Electricity usage and glucose dosing were significantly correlated with N2O emissions but
+had no contribution to CH4 emissions. The conceptual model qualitatively demonstrated that direct and indirect
+GHG emissions reduced as electricity usage decreased based on the water-energy nexus. This study provided new
+insight into the analysis of GHG emissions from WWTPs.
+1. Introduction nitrous oxide (N2O), are created and emitted from the wastewater
+treatment process, including the degradation of carbonaceous organic
+Wastewater treatment plants (WWTPs) are essential urban water matter, and the processing of biological nutrients removals through a
+infrastructures, removing human wastes to protect water resources by series of anaerobic, anoxic or aerobic conditions (Garrido-Baserba et al.,
+using energy and chemicals through a set of processing units. Although 2015; Kumar et al., 2021). Non-CO2 emissions, i.e., CH4 and N2O for
+it has been experiencing transitions from a paradigm of pollutant their more potent global warming contributions than CO2, are accoun-
+removal to one that includes resource recovery and the pursuit of cir- ted as the direct excessive GHG emissions due to the incomplete
+cular economies (Garrido-Baserba et al., 2015; Kumar et al., 2021), decomposition of organic wastes or ineffective operation of the treat-
+there are still more than 300 km3 of wastewater produced each year ment plant (Reid et al., 2014; Pedros et al., 2016). Energy consumption
+globally, and about 60% of this wastewater is treated by conventional and chemical dosing were regarded as the measures of anthropogenic
+treatment processes, e.g., the activated sludge, before discharge into the activities that cause indirect GHG emissions during wastewater treat-
+environment (Wu et al., 2019). ment (Zhou et al., 2022; Su et al., 2023). Most recent estimates showed
+Greenhouse gases (GHGs), carbon dioxide (CO2), methane (CH4) and that global WWTPs directly emitted about 650 Gg CO2e annually, of
+* Corresponding author. Chongqing Institute of Green and Intelligent Technology, Chinese Academy of Sciences, Chongqing, 400714, China.
+E-mail address: lizhe@cigit.ac.cn (Z. Li).
+https://doi.org/10.1016/j.jclepro.2023.139562
+Received 10 May 2023; Received in revised form 28 September 2023; Accepted 28 October 2023
+Availableonline30October2023
+0959-6526/©2023ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+which CH4 and N2O were 500 and 150 Gg CO2e, respectively, and in- approaches or operation strategies for emissions reduction in WWTPs.
+direct GHG emission of energy consumption was about 780 Gg CO2e
+(IEA, 2020; WRI, 2020). 2. Materials and methods
+The water-energy-carbon nexus in WWTPs has been extensively
+discussed over the past decades. All the direct emission rates of CH4 and 2.1. Experimental design and sampling campaigns
+N2O in WWTPs are heavily regulated by inflow water quality, different
+processing technologies and operational strategies, e.g., electricity usage The selected WWTP is located in the northeast of Chongqing city in
+and chemical dosing (Bock et al., 2018; Boonnorat et al., 2021; Du et al., China. Under a subtropical monsoon climate, it serves an area of 24.5
+2023). In particular, operational parameters in the biological treatment km2 for approximately 190,000 local citizens. Started in operation in
+unit, e.g., dissolved oxygen (DO), the ratio of influent chemical oxygen 2019, the WWTP has an operational capacity of 60,000 m3 d(cid:0) 1 using
+demand (COD) and total nitrogen (TN), nitrite (NO2–N), pH and elec- activated sludge with biological nutrient removal processes (Supporting
+tricity usage, etc., were the impact factors of direct GHG emissions (Zhao Information Text S1 and Fig. S1). The activated sludge process includes
+et al., 2010; Christy et al., 2014; Yang et al., 2021). Yapicioglu and the typical and widely used denitrification-anaerobic-anoxic-oxic (D-A/
+Demir simulated the GHG emissions of a WWTP and found that the A/O) processing units (Fig. S2). The effluent standard follows China’s
+wastewater treatment process can reduce direct GHG emissions by 30% national discharge standard for pollutants for municipal wastewater
+under the designed COD conditions (Yapicioglu and Demir, 2021). treatment plants (GB 18918–2002, level A grade One, Table S1). The
+Wastewater treatment processes require a large consumption of energy effluent water discharges into the Hanfeng Lake, which was built to
+and chemicals. Singh and Kansal discussed the trade-off between energy solve the problem of the local hydro-fluctuation belt and is also known
+efficiency and GHG emissions in WWTPs, addressing that the greater the as the antecedent reservoir of the Three Gorges Reservoir. Hence, it can
+energy consumption, the more direct GHG emissions (Singh and Kansal, be used as an important and representative conventional WWTP.
+2018). Xi et al. evaluated GHG emissions of more than 1000 WWTPs in Four sampling campaigns, i.e., February, May, August and
+China from 2009 to 2016 to estimate that the direct GHG emission in- November, were carried out from 2021 to 2022. Sampling campaigns
+tensity of WWTPs ranged from 0.266 to 0.298 kg CO2e⋅m(cid:0) 3, and indirect were designated after an interannual variation and frequency analysis of
+GHG emissions accounted for 72–80% of the total emissions. The influent water quality parameters based on a two-year daily historical
+WWTPs using the A2O process have a high working load, but it is dataset (Fig. S3). Five influent water quality parameters (Table 1), i.e.,
+beneficial to reduce the GHG emission intensity by water-energy nexus COD, five-day biochemical oxygen demand (BOD5), TN, total phos-
+(Xi et al., 2023). Du et al. suggested that a net-zero emission by the entire phorus (TP) and ammonia (NH3–N), were selected to characterize the
+sector may be achieved as early as 2044 with continually increasing inflow of the WWTP. By analyzing the quartiles of the five dimensions
+decarbonized energy and a progressive shift to resource-oriented oper- (Fig. S4), we categorized three working loads: low working load in
+ations, compared with just a 23.7% decrease by 2050 (Du et al., 2023). August (less than the first quartile, Q1), medium working load in May
+Negi and Chandel showed that the indirect GHG emissions intensity and November (around the second quartile, Q2) and high working load
+from the electricity usage during the operation of the WWTPs was 0.23 in February (more significant than the third quartile, Q3) (Fig. 1a).
+± 0.05 kWh⋅m(cid:0) 3, and chemical dosing contributed about 19% of the Each sampling campaign was carried out continuously for ten days to
+indirect GHG emissions, and the total GHG emissions were related to the track the daily variations, providing abundant datasets to reduce po-
+working loads (Negi and Chandel, 2021). Ni et al. combined this nexus tential uncertainties. The sampling campaigns were mainly focused on
+analysis with a four-quadrant clustering method of the synergy and the wastewater treatment process. Therefore, sampling sites were
+tradeoff mechanism to comprehensively evaluate the overall perfor- located in the middle of the nine processing units and the four by-pass
+mance of WWTPs in a quantitative approach (Ni et al., 2023). structures (water intake, distribution wells, reflux-pump pool and
+Most of the current researches focused on the evaluation and water discharge) (Fig. 1b). Increased samples were collected at the inlet,
+development of operational reduction strategies of GHG emissions in middle and outlet of some processing units with solid turbulence, e.g.,
+WWTPs. However, direct and indirect GHG emissions were frequently aerated grit tank, aerobic tank and cloth media filter. The method of
+analyzed as separate parts in WWTPs or in different treatment units. Few water sample collection was discussed in Supporting Information Text
+have been focusing on the quantitative relationship between direct and S2.
+indirect GHG emissions in full-scale WWTPs under different operational Air-water fluxes were measured on-site using a floating chamber on
+loads. Thus, there is still a need to develop synergies or trade-offs in the the free surface of each sampling site that was consistent with water
+water-energy nexus of WWTPs, providing new insights for the devel- samples. The chamber has a total volume of 0.02 m3 and a surface area
+opment GHG emission reduction strategies of existed conventional of 0.12 m2 equipped with a thermo-detector (relative standard deviation
+WWTPs. (RSD) <3.4%) and stirring fan (Bao et al., 2015; Zhang et al., 2022). Six
+Life cycle assessment (LCA) of a WWTP seemed to be a promising gas samples with 100 mL were collected by syringe at 2-min intervals
+approach to evaluate the trade-offs or synergies between the direct GHG from the chamber. The sampling method for dissolved gases was
+emissions and indirect GHG emissions in WWTPs. Carbon footprint is described in Supporting Information Text S3.
+defined as the sum of GHG emissions and removals in a product system,
+expressed as CO2 equivalents (CO2e) using the single impact category of
+2.2. On-site measurement and laboratory analysis
+climate change (ISO, 2018). Loannou-Ttofa achieved up to 95% reduc-
+tion of the total GHG emissions by using an environmentally friendly pH, water temperature (WT, ◦C) and DO were directly measured on
+energy mix in the membrane bioreactor through LCA (Ioannou-Ttofa
+et al., 2016). Venkatesh et al. combined LCA and water-energy-carbon
+Table 1
+nexus to analyze GHG emission changes in the wastewater treatment
+Influent water quality in four sampling campaigns.
+process in an attempt to use it as a decision-support tool. (Venkatesh
+et al., 2014). Parameter Influent water quality (mg⋅L(cid:0)1)
+Here, we explored the GHG emissions in the water-energy nexus of a May August November February
+conventional WWTP from field observations and the LCA. The aims of COD 146.4 ±68.6 84.3 ±47.7 143.1 ±27.5 234.0 ±47.5
+this study are: (1) to analyze the link between direct and indirect GHG BOD5 93.9 ±22.9 84.0 ±11.2 94.3 ±22.8 154.7 ±32.0
+emissions from the WWTP, (2) to assess life cycle carbon footprint of the TN 35.29 ±3.92 31.67 ±3.64 35.95 ±3.73 45.80 ±6.59
+WWTP, (3) to explain GHG emissions of the WWTP based on water- TP 3.58 ±1.08 2.88 ±0.42 3.23 ±0.52 4.55 ±0.94
+NH3–N 25.54 ±3.56 22.76 ±3.11 24.53 ±3.14 35.27 ±7.12
+energy nexus. From a life cycle perspective, we expect to find possible
+2
+
+--- Page 3 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+Fig. 1. Operation and sampling of the WWTP. a. The four sampling campaigns covered three categories of working loads, b. Overview of the WWTP and 13 sampling
+sites shown in numbers with a red triangle.
+L_Aug.: low working load in August, M_May. and M_Nov.: medium working loads in May and November, H_Feb.: high working load in February. (For interpretation of
+the references to color in this figure legend, the reader is referred to the Web version of this article.)
+site using YSI EXO2 sonde (YSI® Incorporated, USA). Water quality using the ReCiPe 2016 Midpoint (I) methodology (Huijbregts et al.,
+parameters, i.e., COD, BOD5, TN, TP, NH3–N, suspended solids (SS), 2020; PR´e, 2022). The impact category chosen was Global Warming to
+NO2–N and nitrate (NO3–N) were analyzed within 48 h after sampling analyze GHG emissions of the WWTP. The life cycle of the WWTP was 30
+following the Standard Methods for the Examination of Water and years based on its design operating years, including the three phases: a)
+Wastewater (APHA, 2012). Total organic carbon (TOC) was analyzed construction, b) operation and maintenance and c) decommission
+using a Shimadzu® TOC-V analyzer (Shimadzu®, Japan). The specific (Fig. 2). The detail assessment process, evaluation parameters at each
+detection methods can be found in Table S2. phase and uncertainty analysis of carbon footprint were shown in Sup-
+Gas samples were analyzed by gas chromatography (Agilent 8860 GC porting Information Text S4, Fig. S5 and Table S4. More detail param-
+system, Agilent Technologies Incorporated, USA) equipped with a flame eters information from the project budget documents in construction
+ionization detector and an election capture detector. The air-water phase showed in Table S3. The carbon footprint of operation and
+fluxes and emissions in the WWTP were estimated according to the maintenance phase did not include sludge disposal because the focus of
+following equations (Abril et al., 2005; Guerin and Abril, 2007). this study was on the wastewater treatment process. Besides, most of the
+⎡ Slope×F ×F ×V current sludge disposal processes of WWTP were realized outside the
+Flux= 1 2 plant and were out of the system boundary. The GHG emissions from
+⎢ S
+⎢ electricity usage and chemical dosing were regarded as indirect GHG
+⎢ ⎢ ⎢C = C G’ as×M×P emissions. Emission factors of electricity usage were 0.7921–1.0826
+⎢ ⎢ Gas 8.3144×(273.13K+T) (Central China Region: 0.8587) kg CO2e⋅kWh(cid:0) 1 (MEP, 2020). The GHG
+⎢
+⎢ ⎢ ⎢ ⎢ WWTP=∑ j=3 1∑ i1 =3 1Flux 1i× 06A×GWP j e w 2m 0e 1ris e 0s )i 1 o a.n 5 ns – 2c a . 05u s 7ke –gd b .C 1y O t k2h e g⋅e k Ci gn d fl 2u o es ⋅c kt cr guia l gl a lp n ur t cso o(cid:0)d s1u c ( (cid:0)t C 1io a (rn Tr ,o if 2 fl 0 oo p0c o7c u; u lS ola h sn at ehs ta a b an a ld .d ig 2l eu 0tc 1o a 3s l ).e ,,
+⎢ ⎢E d . 1 O e s r ,
+⎢ ⎢ respectively. The carbon footprint for decommissioning phase was not
+⎣E =C ×EF
+c c c available because the WWTP was not removed. Hertwich et al. showed
+E =C ×EF that the primary carbon footprint of the decommissioning phase origi-
+e e e
+nated from the energy, and the energy demand in the decommissioning
+Where Flux is the air-water flux, mg⋅m(cid:0) 2⋅d(cid:0) 1; Slope is the slope of phase was 10% of the energy demand in the construction phase (Hert-
+time-concentrations, ppm⋅s(cid:0) 1; F1 is a conversion factor from ppm to wich et al., 2015). In addition, for scenario analysis, the emission factors
+mg⋅m(cid:0) 3 for standard temperature and pressure for gas in air; F2 is a of electricity usage were set as 0.45 (half of the actual), 0.05 (IEA, 2020)
+conversion factor of seconds into days; V is air volume in the floating and 0 (self-sufficiency state) kg CO2e⋅kWh(cid:0) 1.
+chamber, m3; S is the water surface area covered by the floating section,
+m2; CGas is a concentrate of gas, mg⋅m(cid:0) 3; C’ Gas is a concentrate of gas,
+ppm; M is gas molar mass, g⋅mole(cid:0) 1; P is on-site atmospheric pressure, 2.4. Complication of datasets and statistics analysis
+kPa; T is the temperature inside the box during monitoring, ◦C; EWWTP is
+GHG emissions, kg CO2e⋅d(cid:0) 1; A is water surface area of sampling site, Daily operational parameters of the WWTPs, e.g., inflow (m3⋅d(cid:0) 1),
+m2; i is sampling site, j is a type of GHG. The GWP is the 100-year global electricity usage (MWh⋅d(cid:0) 1), chemical dosing (kg⋅d(cid:0) 1), mixed liquid
+warming potential (27.2 for CH4 and 273 for N2O). Ec is GHG emissions suspended solids (MLSS, mg⋅L(cid:0) 1⋅d(cid:0) 1) and mixed liquor volatile sus-
+of chemical dosing, kg CO2e⋅d(cid:0) 1; Cc is one of the chemicals, kg⋅d(cid:0) 1; EFc is pended solids (MLVSS, mg⋅L(cid:0) 1⋅d(cid:0) 1), etc., were collected from daily re-
+the emission factors of chemical, kg CO2e⋅kg chemicals(cid:0) 1; Ee is GHG ports of the WWTP shown in Table S5. A regression model between COD
+emissions of electricity usage, kg CO2e⋅d(cid:0) 1; Ce is the electricity usage, and TOC was established to convert from influent COD to influent TOC
+kWh⋅d(cid:0) 1; EFe is the emission factors of electricity, kg CO2e⋅kWh(cid:0) 1. (Fig. S6). Additional parameters and their calculation of the WWTP are
+shown in Table S6.
+2.3. Life cycle assessment A structural equation model (SEM) revealed the relationship be-
+tween GHG, water quality parameters, electricity usage and chemical
+Life cycle GHG emissions were performed by SimaPro® (v.9.3.0.3) dosing. The stepwise multiple linear regression (MLR) models were then
+3
+
+--- Page 4 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+Fig. 2. Three phases and system boundary of the life cycle assessment.
+used to show the influence of numerous operational parameters on GHG N2O in the secondary treatment stage were the highest. In this stage, the
+emissions. The F-test was performed after the introduction of each in- N2O emission rate accounted for 73.1 ±5.6%, and the N2O concentra-
+dependent variable, and the t-test was performed on each of the inde- tion change rate was 0.08 ±0.06 kg N2O⋅d(cid:0) 1 (Fig. 3b). On the contrary,
+pendent variables that have been selected. All statistical analyses were the CH4 emissions showed a general decrease along with the treatment
+conducted in R 4.1.3 (Development Core Team, Vienna, Austria). CO2 processing. The CH4 carried by the influent was higher than that of the
+emissions were not included in the carbon footprint of the WWTP, CH4 concentration in wastewater from the treatment stages (Fig. 3b).
+because CO2 emission was excluded in accounting for direct GHG More CH4 will be emitted at the aerated grid tank.
+emissions of the WWTP according to the Intergovernmental Panel on The secondary treatment accounted for 62.5% of the full electricity
+Climate Change (IPCC). Despite this, we still keep CO2 as a part of GHG usage of the WWTP, and the electricity usage in tertiary treatment was
+emissions in the results section to elaborate on our field observations. 23.7%. Electricity usage in other treatment parts was less than 10% of
+the full electricity usage of the WWTP (Fig. S9a). The “hot zone” of in-
+3. Results direct GHG emissions due to electricity usage was in high working load
+in February (Fig. 3c and S9b).
+3.1. GHG emissions of the WWTP Chemical dosing in the WWTP included glucose addition at the dis-
+tribution well to provide an additional carbon source for denitrification
+CO2 and N2O emission rates were the highest in medium working and flocculant addition after the secondary sedimentation tank for the
+load in May (Fig. 3a). The lowest N2O emissions showed a low working following tertiary treatment stage. Historical datasets indicated that the
+load in August. The highest level of CH4 emission rates was in May as use of glucose was usually higher in spring and winter than in summer
+well, while the lowest CH4 emission was found in medium working load and fall, and flocculant dosing was more stable throughout the year
+in November. An estimate of the total emissions of the three biogenic (Fig. S10). Therefore, the indirect GHG emission by the use of glucose
+GHGs in our four sampling campaigns was 1,027.52 ± 486.85 kg was higher than that of flocculant application, which was 2,980 ±849
+CO2 Te h⋅d e(cid:0) s1 e. Ckg C 2eO ⋅d2 (cid:0)e⋅ 1d i(cid:0) n1 hin m e wd oiu rkm w o lr ok ai dn g l o Fa ed rin aN ryo ,v re em spb ee cr a ivn ed y2 , (4 F0 ig2 ± 3d7 )9 2 kg
+condary treatment stage had the highest share of GHG emis- O ig h in g in b u t l . .
+sions (62.7 ± 10.2%), where the aerobic tank was the “hot zone” for The direct and indirect GHG emissions per m3 existed in a phe-
+both CO2 and N2O (Figs. S7 and S8). The emission and concentration of nomenon consistent with the direct and indirect emission rates, which
+4
+
+--- Page 5 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+Fig. 3. GHG emissions of the WWTP. a. Direct CO2, CH4 and N2O emissions. CO2 emission rates in the four sampling campaigns were 1,408.9 ±416.1, 467.4 ±
+270.6, 870.7 ±353.1 and 340.3 ±144.4 kg CO2e⋅d(cid:0)1, respectively. CH4 emission rates were 287.3 ±92.0, 227.4 ±214.9, 96.2 ±42.9 and 102.0 ±98.8 kg
+CO2e⋅d(cid:0)1, respectively. N2O emission rates were 128.2 ±62.2, 19.1 ±13.3, 40.5 ±27.3 and 122.1 ±93.3 kg CO2e⋅d(cid:0)1. b. CH4 and N2O emission rates proportion as
+well as CH4 and N2O concentration change rates in wastewater from influent to effluent. Orange and green columns represented CH4 and N2O, respectively. c.
+Indirect GHG emissions from electricity usage during different working loads in different treatment stages. d. Indirect GHG emissions due to chemical dosing. (For
+interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+can be seen in Table S7. (denoted as Nrs_N in Figs. S13c and S13d and Table S8).
+Chemical dosing and electricity usage were indirect GHG emission
+3.2. Parameters affecting direct GHG emissions contributors. Glucose, dosage in the secondary treatment stage, showed
+a significantly negative correlation with CO2 emissions (r =-0.43, p <
+CO2 emissions significantly negatively correlated with sludge 0.01) (Fig. 4, S14a and S14c) and N2O emissions (r =-0.32, p <0.05)
+removal loading for BOD5 (marked as Nrs_C in Fig. 4, S11b and S12a; r = (Fig. 4, S14a and S14d). The addition of flocculant in the tertiary
+-0.35, p < 0.01). CH4 emissions were negatively correlated with treatment stage did not show an evident statistical relationship with
+removed NO3–N (marked as ΔNO3-N in Fig. 4, S11b and S12b; r =-0.48, GHG emissions (Fig. 4 and S14b). Electricity usage was significantly
+p <0.01). Specifically, in the secondary treatment stage, the mole ratio correlated with CO2 emissions (r =-0.51, p <0.01) and N2O emissions
+between removed TOC and TN (marked as ΔTOC/ΔTN in Figs. S11b and (r =0.38, p <0.05) (Fig. 4 and S15). It appeared that chemical dosing
+S12d; r = -0.33, p < 0.05) seemed to be a better predictor of CH4 and electricity usage did not contribute evidently to the CH4 emissions
+emissions. On the contrary, CH4 emissions in the aerated grit tank in the in the WWTP in our datasets (Figs. S14a, S14b and S15).
+primary treatment stage were positively correlated with the mole ratio For direct GHG emissions, the difference in CH4 emissions at three
+between influent TOC and TP (marked as TOC_i/TP_i in Figs. S11b and working loads was mainly related to the removed NO3–N, and the dif-
+S12c; r =0.38, p <0.05). ference in N2O emissions at three working loads was influenced by the
+N2O emissions were indirectly influenced by both nitrogen removal combination of the mole ratio between influent TOC and TN, nitrogen
+efficiency (marked as NRE) and mole ratio between influent TOC and TN removal efficiency, glucose dosing and electricity usage.
+(marked as TOC_i/TN_i) (Fig. S13a). We found that both nitrogen
+removal efficiency (marked as NRE; r =0.50, p <0.05) and mole ratio
+between influent TOC and TN (marked as TOC_i/TN_i; r = 0.78, p <
+0.01) were importantly significant by sludge removal loading for TN
+5
+
+--- Page 6 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+Fig. 4. A structural equation model of GHG emissions in the WWTP. The number was the standardized path coefficient. The arrow width indicated the strength of the
+relationship. Red arrows were a positive correlation, and blue arrows were a negative correlation. The solid arrows represented a significant path coefficient and the
+dotted arrows represented an insignificant path coefficient.
+Nrs_C: sludge removal loading for BOD5. ΔNO3-N: removed NO3–N. TOC_i/TN_i: the mole ratio between influent TOC and TN. NRE: nitrogen removal efficiency. (For
+interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)
+3.3. Regression models of GHG emissions in the WWTP relationship between non-CO2 emissions and the other five predictors
+(R2 =0.5203, p <0.01, n =40).
+3.3.1. Direct GHG emissions
+Direct GHG emissions could be predicted by organic carbon removal, 3.3.2. Indirect GHG emissions
+nutrient removal, chemical dosing and electricity usage. It was found Direct emission per unit of wastewater had a power function rela-
+that the sludge removal loading for BOD5, glucose dosing and electricity tionship with indirect GHG emissions per unit of wastewater (electricity
+usage were better predictors of CO2 emissions (R2 =0.4702, p <0.001, usage: R2 =0.3050, p <0.01; glucose dosing: R2 =0.1452, p <0.05).
+n =40). The removed NO3–N was the predictor of CH4 emissions (R2 = This reflected the strong power-law distribution that the change of in-
+0.3391, p <0.01, n =40). The sludge removal loading for TN, glucose direct GHG emissions will cause the direct GHG emissions to change in a
+and electricity were better predictors of N2O emissions (R2 =0.2097, p power-law proportion, indicating that the direct GHG emissions were
+< 0.05, n = 40). There is also a significant multivariate linear very high when the glucose dosing and electricity usage are low (small
+Fig. 5. Direct and indirect GHG emissions per unit of wastewater. a. Direct GHG emissions per unit of wastewater and glucose dosing per unit of wastewater. b.
+Direct GHG emissions per unit of wastewater and electricity usage per unit of wastewater. In these figures, L_Aug. indicated the low working load in August, M_May.
+and M_Nov. were medium working loads in May and November, H_Feb. was a high working load in February. The black thick curve was the power function curve.
+The black fine curve represented the confidence interval.
+6
+
+--- Page 7 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+probability events) (Fig. 5). This is because sufficient glucose dosing and 3.4. Life cycle carbon footprint of the WWTP
+electricity usage provided a good external environment to promote a
+more complete biological treatment reaction and reduce by-product The life cycle carbon footprint of the WWTP in operation for 30 years
+formation (Zhou et al., 2022). There is a logarithmic function relation- included the construction (11.8%), operation and maintenance (87.0%)
+ship between indirect GHG emissions per unit of COD removal and and decommissioning phases (1.2%) (Fig. 6a). The carbon footprint in
+direct GHG emissions per unit of COD removal (Fig. S16). the operation and maintenance phase was highest due to direct GHG
+emissions (0.6%) from treatment processes engineering and indirect
+GHG emissions (86.4%) from chemicals and energy engineering.
+Particularly, variations of indirect GHG emissions in the operation
+Fig. 6. Life cycle carbon footprint of the WWTP in operation for 30 years. a. Distribution of carbon footprint. b. Different scenarios by changing the emission factor of
+electricity. The straight line represented the mean value of GHG emissions and the color-filled area expressed the uncertainty of GHG emissions. (For interpretation of
+the references to color in this figure legend, the reader is referred to the Web version of this article.)
+7
+
+--- Page 8 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+and maintenance phase explained a 98.6% variance of life cycle GHG units did not show higher than in the aerobic tank (Fig. S7). Variations in
+emissions, supporting the inference that electricity in our case was the electricity usage and chemical dosing were not strongly associated with
+most significant part of life cycle GHG emissions of the WWTP (Fig. S5). CH4 emission in the selected WWTP (Fig. 4, S14 and S15). Along with
+Several technologies and methods have been proposed to reduce GHG wastewater processing, the emission rate of CH4 at low and medium
+emissions from electricity usage, such as improving the performance of working loads appeared to be gradually reduced, possibly due to bio-
+biogas recovery systems, changing the speed operation of pump systems logical oxidation (Jawaharraj et al., 2020; Chen et al., 2022). The mass
+and controlling aeration systems to reduce oxygen consumption, etc. budget showed that approximately 6.5 ±3.0 kg CH4⋅d(cid:0) 1 emissions of
+(Kaewmai et al., 2013; Maktabifard et al., 2018; Smith et al., 2018). In the WWTP, and the proportion of CH4 emission rates in the primary,
+fact, the essence of these technologies and methods was to reduce the secondary and tertiary treatment stages were 49.8 ± 25.3%, 38.1 ±
+emission factor of electricity. Thus, the emission factor of electricity was 19.1% and 9.9 ±6.6%, respectively (Fig. 3b). CH4 carried by influent,
+essential for indirect emission of electricity usage, we proposed three 0.08 ±0.04 kg CH4⋅d(cid:0) 1, was higher than CH4 concentration change rate
+different scenarios of the electricity emission factor for further com- in secondary treatment stage, 0.05 ± 0.02 kg CH4⋅d(cid:0) 1 (Fig. 3b). It is
+parison. The emission factor of electricity in scenario one was 0.45 kg assumed that the difference of CH4 concentration from influent to
+CO2e⋅kWh(cid:0) 1 with half of the actual. The emission factor of electricity in effluent represented the CH4 removal in the WWTP, during the four
+scenario two was selected from International Energy Agency, that is, sampling campaigns, then CH4 removal of wastewater from the sewage
+0.05 kg CO2e⋅kWh(cid:0) 1. In scenario three, we assumed a zero-emission ranged from 0.0173 to 0.0460 t d(cid:0) 1. And total CH4 emissions along the
+factor of electricity usage. Reducing the emission factor of electricity wastewater treatment processes were 0.0012–0.0053 t d(cid:0) 1, accounting
+had progressively better carbon footprint reduction, up to 3.3 times, in for 7–19% of CH4 removal of wastewater. Therefore, the WWTP has a
+the life cycle GHG emissions of the WWTP (Fig. 6b). reduction effect on CH4 entering from the sewage. Such apparent
+“physical-control” of CH4 emission rates in the WWTPs supported our
+4. Discussion conclusion that the WWTP exhibited a “net reduction” of CH4 emission.
+N2O emissions in the WWTP are widely accepted due to incomplete
+The past decade witnessed historically high global annual anthro- denitrification and nitrification. The lack of carbon source was the most
+pogenic emissions of CO2, CH4 and N2O. Only if the global anthropo- likely reason for N2O production and emission in the biological treat-
+genic GHG emissions are reduced to net zero by the mid-21st century ment system (Yan et al., 2014; Zou et al., 2016; Li et al., 2017). Insuf-
+could limit global warming well below 2 ◦C, preferably to 1.5 ◦C (IPCC, ficient glucose dosing caused incomplete denitrification, resulting in
+2018). Moving towards climate neutrality by the mid-21st century re- lower denitrification efficiency and more N2O emissions (Table 2). Thus,
+quires substantial socio-economic transformation towards green and concerning the mass budget, the WWTP exhibited as a net source of N2O
+low-carbon sustainable development in international countries. compared to the inflow of sewage (Fig. 3b). The net increase of N2O
+The wastewater treatment sector emits approximately 3% of global emission appeared in the secondary treatment stage was 0.043 ±0.038
+GHG emissions (Xu, 2013), most of which are believed to be indirect kg N2O⋅d(cid:0) 1, accounting for 73.1 ±5.6% of the WWTP. Particularly, the
+GHG emissions caused by electricity usage (Simms et al., 2017). A net increase of N2O in wastewater was in the secondary treatment stage,
+commonly accepted view is that reducing electricity usage plays a sig- with 0.082 ± 0.057 kg N2O⋅d(cid:0) 1. To meet the effluent standard, the
+nificant role in GHG emission reduction in the wastewater treatment application of glucose as a carbon source was higher in August,
+sector (Gray et al., 2022; Rani et al., 2022). However, direct CH4 and November and February than in May (Fig. 3d). The N2O emission rate
+N2O emissions, coupled with the use of electricity, are regulated by the was significantly higher in May when glucose dosage was not sufficient.
+operation of the WWTP. Whether there are trade-offs or synergies be- Within the current operation strategy, CH4 emission, mostly from
+tween the biological treatment of wastewater and energy consumption sewage influent, seemed independent of electricity usage and chemical
+needs to be better addressed. Our first-hand datasets under different dosing. Chemical dosing of glucose could partially alleviate the shortage
+working loads in a conventional mid-scale WWTP could provide insights of OC in denitrification, potentially reducing N2O production and
+to explore the water-energy nexus for GHG emission reduction. emission in the secondary treatment stage. Denitrification of the WWTP
+has about a 40% probability for a relatively complete denitrification
+4.1. Net reduction of CH4 and net increase of N2O in the WWTP reaction in our case with the C/N ratios greater than 3 (Zou et al., 2016).
+Considering the technical feasibility, finding optimal operational
+Generally, the biological treatment units in the secondary treatment parameters to synchronously reduce direct CH4 and N2O emissions in
+stage are frequently the “hot zone” of direct GHG emissions. The the current daily operation pattern remained challenging. However,
+anaerobic treatment tank was the dominant unit that created CH4, but
+the emission rate of CH4 was among the highest in the aerobic unit due
+Table 2
+to aeration (Yan et al., 2014; Thi Kieu Loan et al., 2019). An aerated grid Multiple linear regression between direct GHG emissions and water-energy
+tank in the primary treatment stage was also reported to have high nexus.
+emission rates of CH4 (Kumar et al., 2021). The ammonia oxidation
+GHG operational Multivariate linear R2 p
+process was the prime source of N2O in aerobic zones, while hetero-
+emissions parameters function
+trophic denitrification dominated N2O production in anoxic zones (Todt
+water electricity
+and Dorsch, 2016; Kraft et al., 2022).
+CH4 and N2O are all sources of direct GHG emissions in our case. Yet, CO2 Nrs_C electricity C =2779-3553Nrs_C 0.4702 0.0004
+glucose (W1)-0.11glucose (G)-
+our observations revealed their different fate and regulating mecha-
+0.08electricity (E)
+nisms. A large amount of dissolved CH4 in the sewage system enters the CH4 ΔNO3- – C = 0.3391 0.0017
+WWTP with influent (Kumar et al., 2021). Our findings, particularly at N -187.84–18.65ΔNO3-N
+high working load, supported the inference that inflow-dissolved CH4 (W2)
+could be easily stripped out due to ebullition or turbulence mixing N2O Nrs_N electricity C =58.18 +76.79 0.2097 0.0353
+(Fig. S7d). The highest CH4 emissions were also reported in the aerated glucose N 0.r 0s_ 2N ( +W 03 .0)-
+G 1 E
+grid tank in the primary treatment stage and the aerobic tank in the CH4+N2O All electricity C =0.01–0.06W1- 0.5203 0.0007
+secondary treatment stage (Yan et al., 2014; Thi Kieu Loan et al., 2019). 0.21W2-0.001W3-
+0.03G+0.02E
+Although the selected WWTP has anaerobic and anoxic tanks for bio-
+logical nutrients removal, which were believed to support bulk anaer- Nrs_C: sludge removal loading for BOD5. ΔNO3-N: removed NO3–N. Nrs_N: sludge
+obic CH4 production, emission rates of CH4 in these anaerobic or anoxic removal loading for TN.
+8
+
+--- Page 9 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+bulk application of glucose, without considering economic cost, could In our case, we obtained the optimal point for direct and indirect
+theoretically reduce N2O emission. GHG emissions by calculating the minimum enclosure area. Conse-
+quently, the appropriate direct GHG emission, glucose dosing and
+electricity usage were 0.0095 kg CO2e⋅m(cid:0) 3, 0.0039 kg m(cid:0) 3 and 0.1081
+4.2. Synergies of direct and indirect GHG emissions kWh⋅m(cid:0) 3, respectively.
+However, it should be noted that meeting the net-zero emission in a
+The operation and maintenance phase in a WWTP’s life cycle is one conventional wastewater treatment would be challenging, or even
+of the hotspots of GHG emissions, where electricity usage accounts for impossible. We anticipated a “baseline” curve for each WWTP showing
+38–94% of the carbon footprint (Cornejo et al., 2016; Simms et al., the synergies between direct and indirect GHG emissions. Up to now, we
+2017). In our results, indirect GHG emissions due to electricity usage still lack information to find the “baseline” curve, thus, it was difficult
+were 86.4% of GHG emissions in the operation and maintenance phase for us to reach the optimal electricity usage and chemical dosing to
+(Fig. 6a). A simple way to reduce the life cycle carbon footprint was to minimize direct GHG emissions from a life cycle perspective. Either a
+reduce the emission factor of electricity usage by switching to mechanistic or data-driven model was promising for further study to
+low-carbon electricity, particularly, renewable energy forms with zero develop dynamic models. In addition, GHG emissions from WWTPs were
+emissions (Maktabifard et al., 2018; Smith et al., 2018). Such an effort closely related to microbial activities, and the combined analysis of
+could support a direct reduction of the carbon footprint of 69.7 % if the microorganisms was not included in this paper. Future work should
+emission factor of electricity was assumed to be zero (Fig. 6b). further investigate the changes of activated sludge microbial community
+Simply reducing the emission factor of electricity in the life cycle with GHG under different working loads, so as to more clearly illustrate
+could not be satisfied for the reduction of GHG emissions in the life the mechanism of GHG emissions.
+cycle. In our case, direct GHG emissions with electricity usage and
+glucose dosing, both showed power or logarithmic functions (Fig. 5 and 5. Conclusion
+S16) which were all with statistical significance. By using per unit of
+wastewater or COD removal as the denominator of indirect GHG emis- The CH4 emission rates were significantly reduced along the treat-
+sions, we proposed a conceptual model of the water-energy nexus to ment processes and the dissolved CH4 in wastewater mainly originated
+explore the possible reduction approach of direct and indirect GHG from the sewage. The N2O emission rates and the change rate of dis-
+emissions and reflect the trade-off between direct and indirect GHG solved N2O concentration in wastewater were higher in the biological
+emissions. Hypothetically, if the power-function-shaped curve could treatment. Due to significant oxidation and inadequate glucose dosing,
+describe the relationship between direct and indirect emissions, an the WWTP exhibited a net reduction of CH4 but a net source of N2O.
+optimal point would be found on each curve to minimize the area Indirect GHG emissions from electricity usage in the operation and
+enclosed, that is, the range of the optimum of the product of direct and maintenance phase, accounting for 86.4% of GHG emissions in the
+indirect GHG emissions (Fig. 7a). In addition, there would be a set of phase, shared the largest carbon footprint in the life cycle of the WWTP.
+power-function shaped curves in parallel with the ideal one with The most optimal direct GHG emission, glucose dosing and electricity
+changing electricity usage (Fig. 7b). This conceptual model represented usage obtained by the conceptual model of the water-energy nexus were
+the synergies in direct and indirect GHG emissions as well as the 0.0095 kg CO2e⋅m(cid:0) 3, 0.0039 kg m(cid:0) 3 and 0.1081 kWh⋅m(cid:0) 3, respectively.
+reduction potential of GHG emission and energy consumption. From the This study provided a new insight to explore GHG emission reduction in
+life cycle perspective, reducing the emission factor of electricity would the WWTP based on the water-energy nexus from the life cycle.
+help to guide the power-function-shaped curve approaching the origin,
+indicating the reduction of life cycle GHG emissions. The minimum area CRediT authorship contribution statement
+difference between the curve closest to the source and the other curves
+was the lowest carbon and consumption reduction space under ideal Xinxia He: Methodology, Visualization, Writing-original draft. Zhe
+conditions (Fig. 7b). Under specific emission factors of electricity, Li: Conceptualization, Supervision, Validation, Writing-original draft.
+reaching the optimal point was the possible way to find solutions for Chongyang Xing: Data curation, Funding acquisition. Yuchen Li:
+emission reduction.
+Fig. 7. Conceptualization of direct and indirect GHG emissions. a. Actual relationship curves and range of optimum for direct and indirect GHG emissions per unit of
+wastewater, b. Schematic diagram of the range of optimum under the change of electricity usage. The curve was a power function. The dot represented the point on
+the curve that minimizes the area enclosed. The shaded area indicated the range of the optimum of the product of glucose dosing per unit of wastewater and direct
+GHG emissions per unit of wastewater. The change from a red to purple curve indicated decreasing electricity usage per unit of wastewater. (For interpretation of the
+references to color in this figure legend, the reader is referred to the Web version of this article.)
+9
+
+--- Page 10 ---
+X. He et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 429(2023)139562
+Software. Mengmeng Liu, Xu Gao, Yunsong Ding, Lunhui Lu, Chen Liu, Ioannou-Ttofa, L., Foteinis, S., Chatzisymeon, E., et al., 2016. The environmental
+Chong Li and Dianchang Wang: Formal analysis. footprint of a membrane bioreactor treatment process through life Cycle Analysis.
+Sci. Total Environ. 568, 306–318.
+IPCC, 2018. The intergovernmental Panel on climate change. In: Special Report: Global
+Warming of 1.5◦C.
+Declaration of competing interest ISO, 2018. International Organization for Standardization. Greenhouse Gases—Carbon
+Footprint of Products—Requirements and Guidelines for Quantification.
+Jawaharraj, K., Shrestha, N., Chilkoor, G., et al., 2020. Valorization of methane from
+The authors declare that they have no known competing financial
+environmental engineering applications: a critical review. Water Res. 187.
+interests or personal relationships that could have appeared to influence Kaewmai, R., H-Kittikun, A., Suksaroj, C., et al., 2013. Alternative technologies for the
+the work reported in this paper. reduction of greenhouse gas emissions from palm oil mills in Thailand. Environ. Sci.
+Technol. 47 (21), 12417–12425.
+Kraft, B., Jehmlich, N., Larsen, M., et al., 2022. Oxygen and nitrogen production by an
+Data availability ammonia-oxidizing archaeon. Science 375 (6576), 97–+.
+Kumar, A., Thanki, A., Padhiyar, H., et al., 2021. Greenhouse gases emission control in
+WWTS via potential operational strategies: a critical review. Chemosphere. 273.
+Data will be made available on request.
+Li, M., Wu, H.M., Zhang, J., et al., 2017. Nitrogen removal and nitrous oxide emission in
+surface flow constructed wetlands for treating sewage treatment plant effluent: effect
+Acknowledgments of C/N ratios. Bioresour. Technol. 240, 157–164.
+Maktabifard, M., Zaborowska, E., Makinia, J., 2018. Achieving energy neutrality in
+wastewater treatment plants through energy savings and enhancing renewable
+The National Key Research and Development Program energy production. Rev. Environ. Sci. Biotechnol. 17 (4), 655–689.
+(2022YFC3203504) and the National Natural Science Foundation of MEP, 2020. Ministry of ecology and environment of the People’s Republic of China. In:
+2019 Annual Emission Reduction Project China Regional Grid Baseline Emission
+China (Project No. 51861125204) primarily supported this work. The
+Factor.
+Interdisciplinary Team Project under auspices of “Light of West” Pro- Negi, R., Chandel, M.K., 2021. Analysing water-energy-GHG nexus in a wastewater
+gram from Chinese Academy of Sciences partially supported this work. treatment plant of Mumbai Metropolitan Region, India. Environ. Res. 196.
+Ni, X., Huang, X., Guo, R., et al., 2023. Water-energy-carbon synergies and trade-offs: a
+Dr. Zhe Li is also supported by Chongqing Natural Science Funds for
+daily nexus analysis for wastewater treatment plants. Resour. Conserv. Recycl. 188.
+Distinguished Young Scientists (Project No. cstc2020jcyj-jqX0010). We Pedros, P.B., Askari, O., Metghalchi, H., 2016. Reduction of nitrous oxide emissions from
+also thank the authorization of Chongqing Water Group Co., LTD for biological nutrient removal processes by thermal decomposition. Water Res. 106,
+304–311.
+sampling and data collection in the selected wastewater treatment plant. PR´e, 2022. SimaPro Database Manual-Methods Library.
+Rani, A., Snyder, S.W., Kim, H., et al., 2022. Pathways to a net-zero-carbon water sector
+Appendix A. Supplementary data through energy-extracting wastewater technologies. npj Clean Water. 5 (1).
+Reid, M.C., Guan, K., Wagner, F., et al., 2014. Global methane emissions from pit
+latrines. Environ. Sci. Technol. 48 (15), 8727–8734.
+Supplementary data to this article can be found online at https://doi. Shahabadi, M.B., Yerushalmi, L., Haghighat, F., 2010. Estimation of greenhouse gas
+org/10.1016/j.jclepro.2023.139562. generation in wastewater treatment plants - model development and application.
+Chemosphere. 78 (9), 1085–1092.
+Simms, A., Hamilton, S., Biswas, W.K., 2017. Carbon footprint assessment of Western
+References Australian groundwater recycling scheme. Environ. Manag. 59 (4), 557–570.
+Singh, P., Kansal, A., 2018. Energy and GHG accounting for wastewater infrastructure.
+Resour. Conserv. Recycl. 128, 499–507.
+Abril, G., Guerin, F., Richard, S., et al., 2005. Carbon dioxide and methane emissions and
+Smith, Kate, Liu, Shuming, et al., 2018. Can China reduce energy for water? A review of
+the carbon budget of a 10-year old tropical reservoir (Petit Saut, French Guiana).
+energy for urban water supply and wastewater treatment and suggestions for
+Global Biogeochem. Cycles 19 (4). change. Renew. Sustain. Energy Rev. 91, 41–58.
+APHA, 2012. Standard Methods for the Examination of Water and Wastewater. American
+Su, Q., Dai, H., Xie, S., et al., 2023. Water-energy-carbon nexus: greenhouse gas
+Public Health Association(APHA), Washington, DC, USA.
+emissions from integrated urban drainage systems in China. Environ. Sci. Technol.
+Bao, Z a., tS eu wn a, tS e. r, tS ru en at, mD e., 2 0 p1 la5 n. tC s.h Dar ea sc at le inri as tt ii oc ns o Wf ad ti er re c Tt rC eaO t2 5e 4m (i 4ss –i 5o )n ,s i 0n f 0o –u 1r f 7u 9ll .- scale 57 (5), 2093–2104.
+w s n t . 1 7 0
+Thi Kieu Loan, N., Huu Hao, N., Guo, W., et al., 2019. Insight into greenhouse gases
+Bock, E.M., Coleman, B.S.L., Easton, Z.M., 2018. Performance of an under-loaded
+denitrifying bioreactor with biochar amendment. J. Environ. Manag. 217, 447–455. e trm eais ts mio en ns f pr ro om t sh see t w So .p Top ou tal la r ntr ve ia rt om n.e n 6t 1te c 1h 3n 0o 2lo –g 1i 3e 1s 3i .n municipal wastewater
+t ce s . ci E 7 ,
+Boonnorat, J., Honda, R., Panichnumsin, P., et al., 2021. Treatment efficiency and
+Todt, D., Dorsch, P., 2016. Mechanism leading to N2O production in wastewater treating
+greenhouse gas emissions of non-floating and floating bed activated sludge system biofilm systems. Rev. Environ. Sci. Biotechnol. 15 (3), 355–378.
+with acclimatized sludge treating landfill leachate. Bioresour. Technol. 330.
+Tsiropoulos, I., Cok, B., Patel, M.K., 2013. Energy and greenhouse gas assessment of
+Carr, M., 2007. Reducing Greenhouse Gas Emissions Industrial Biotechnology and
+European glucose production from corn - a multiple allocation approach for a key
+Biorefining. Biotechnology Industry Organization, US. ingredient of the bio-based economy. J. Clean. Prod. 43, 182–190.
+Chen, X., Li, F., Huo, P., et al., 2022. Influences of longitudinal gradients on methane-
+Venkatesh, G., Saegrov, S., Brattebo, H., 2014. Dynamic metabolism modelling of urban
+driven membrane biofilm reactor for complete nitrogen removal: a model-based
+water services - demonstrating effectiveness as a decision-support tool for Oslo,
+investigation. Water Res. 220. Norway. Water Res. 61, 19–33.
+Christy, P.M., Gopinath, L.R., Divya, D., 2014. A review on anaerobic decomposition and
+WRI, 2020. World Resources Institute. World Greenhouse Gas Emissions:2019.
+enhancement of biogas production through enzymes and microorganisms.
+Renewable Sustainable Energy Rev. 34, 167–173. Wu, cL o. m, N min ug n, tD ie. s, Z inh a wn ag s, eB w., ae tt ra l t. r, e2 a0 tm19 e. G l po lb aa nl sd i Nve ar ts .i t My ia cn rod b ioio l.g 4e o (g 7r )a p 1h 1y 3o –f 1b 1a 9ct 5e .r ial
+i t e n t t . b , 8
+Cornejo, P.K., Zhang, Q., Mihelcic, J.R., 2016. How does scale of implementation impact
+Xi, J., Gong, H., Guo, R., et al., 2023. Characteristics of greenhouse gases emission from
+the environmental sustainability of wastewater treatment integrated with resource
+recovery? Environ. Sci. Technol. 50 (13), 6680–6689. wastewater treatment plants operation in China (2009-2016): a case study using
+operational data integrated method (ODIM). J. Clean. Prod. 402.
+Du, W., Lu, J., Hu, Y., et al., 2023. Spatiotemporal pattern of greenhouse gas emissions in
+China’s wastewater sector and pathways towards carbon neutrality. Nat. Water. 1, Xu, X., 2013. The Carbon Footprint Analysis of Wastewater Treatment Plants and Nitrous
+166–175. Oxide Emissions from Full-Scale Biological Nitrogen Removal Process in Spain. MIT,
+Cambridge, US.
+Garrido-Baserba, M., Molinos-Senante, M., Abelleira-Pereira, J.M., et al., 2015. Selecting
+Yan, X., Li, L., Liu, J., 2014. Characteristics of greenhouse gas emission in three full-scale
+s ee nw via rg oe mslu end tg ae t dr ee ca it sm ioe nn t ua plt pe or rn ta sti yv se tes min .m Jo d Ce lern nw a Ps rt oe dw a 1t 0er ,t r 4e 1a 0tm –4e 1n 9t plants using wastewater treatment processes. J. Environ. Sci. 26 (2), 256–263.
+n l s s . a . . 7 .
+Gray, N., O’Shea, R., Smyth, B., et al., 2022. What is the energy balance of electrofuels Yang, S.S., Yu, X.L., Ding, M.Q., et al., 2021. Simulating a combined lysis-cryptic and
+biological nitrogen removal system treating domestic wastewater at low C/N ratios
+produced through power-to-fuel integration with biogas facilities? Renewable
+using artificial neural network. Water Res. 189.
+Sustainable Energy Rev. 155.
+Yapicioglu, P., Demir, O., 2021. Minimizing greenhouse gas emissions of an industrial
+Guerin, F., Abril, G., 2007. Significance of pelagic aerobic methane oxidation in the
+wastewater treatment plant in terms of water-energy nexus. Appl. Water Sci. 11 (12).
+methane and carbon budget of a tropical reservoir. J. Geophys. Res. Biogeosci. 112
+Zhang, Y., Su, Y., Li, Z., et al., 2022. Terrigenous organic carbon drives methane
+(G3).
+dynamics in cascade reservoirs in the upper Yangtze China. Water Res. 219.
+Hertwich, E.G., Gibon, T., Bouman, E.A., et al., 2015. Integrated life-cycle assessment of
+electricity-supply scenarios confirms global environmental benefit of low-carbon
+technologies. Proc. Natl. Acad. Sci. U.S.A. 112 (20), 6277–6282.
+Huijbregts, M.A.J., Steinmann, Z.J.N., Elshout, P.M.F., et al., 2020. ReCiPe2016: a
+harmonised life cycle impact assessment method at midpoint and endpoint level (vol
+22, pg 138, 2017). Int. J. Life Cycle Assess. 25 (8), 1635, 1635.
+IEA, 2020. International Energy Agency. Greenhouse Gas Emissions from Energy Data
+Explorer.
+10

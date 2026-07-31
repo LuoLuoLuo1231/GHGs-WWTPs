@@ -1,0 +1,2369 @@
+{
+  "meta": {
+    "category": "review_rules",
+    "description": "审稿规则（AI检测/禁用词/时态）",
+    "version": 187,
+    "created": "2026-05-23T10:00:06.169206+00:00",
+    "updated": "2026-06-11T04:48:35.479372+00:00",
+    "source": "initial"
+  },
+  "entries": {
+    "ai_pattern_en_0": {
+      "value": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.850114+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_1": {
+      "value": "at the (?:forefront|intersection) of",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.857629+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_2": {
+      "value": "(?:delve|dive) into",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.868375+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_3": {
+      "value": "(?:tapestry|myriad|plethora|cornucopia)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.875001+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_4": {
+      "value": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.881419+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_5": {
+      "value": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.888324+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_6": {
+      "value": "it'?s worth noting that",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.896559+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_7": {
+      "value": "(?:not only).+?(?:but also)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.918885+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_8": {
+      "value": "to (?:the best of|our knowledge)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.932165+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_9": {
+      "value": "in the realm of",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.969370+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_10": {
+      "value": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.974888+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_11": {
+      "value": "plays a (?:crucial|pivotal|vital|key) role",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.983528+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_12": {
+      "value": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:33.992785+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_13": {
+      "value": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.006315+00:00",
+      "version": 26
+    },
+    "ai_pattern_en_14": {
+      "value": "(?:shed light|cast light) on",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.013475+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_0": {
+      "value": "值得[注关]意的是",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.020701+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_1": {
+      "value": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.026751+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_2": {
+      "value": "(?:填补|弥补)(?:了?)(?:研究)?空白",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.033267+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_3": {
+      "value": "(?:深入|进[一壹]步)探讨",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.039780+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_4": {
+      "value": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.047308+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_5": {
+      "value": "综上所述.{0,10}(?:本文|本研究)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.053327+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_6": {
+      "value": "(?:具有|有着)(?:重大|深远|重要)(?:理论|实践)(?:意义|价值)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.060748+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_7": {
+      "value": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.066749+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_8": {
+      "value": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.073271+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_9": {
+      "value": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.079764+00:00",
+      "version": 26
+    },
+    "ai_pattern_zh_10": {
+      "value": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.087078+00:00",
+      "version": 26
+    },
+    "forbidden_en_prove": {
+      "value": {
+        "word": "prove",
+        "suggestion": "demonstrate / suggest / indicate"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.095019+00:00",
+      "version": 26
+    },
+    "forbidden_en_very": {
+      "value": {
+        "word": "very",
+        "suggestion": "删除，用具体数据替代"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.101042+00:00",
+      "version": 26
+    },
+    "forbidden_en_a lot of": {
+      "value": {
+        "word": "a lot of",
+        "suggestion": "substantial / considerable"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.107044+00:00",
+      "version": 26
+    },
+    "forbidden_en_get": {
+      "value": {
+        "word": "get",
+        "suggestion": "obtain / acquire / derive"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.114562+00:00",
+      "version": 26
+    },
+    "forbidden_en_big": {
+      "value": {
+        "word": "big",
+        "suggestion": "significant / substantial / considerable"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.120682+00:00",
+      "version": 26
+    },
+    "forbidden_en_good": {
+      "value": {
+        "word": "good",
+        "suggestion": "favorable / effective / satisfactory"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.128918+00:00",
+      "version": 26
+    },
+    "forbidden_en_bad": {
+      "value": {
+        "word": "bad",
+        "suggestion": "poor / unfavorable / inadequate"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.134925+00:00",
+      "version": 26
+    },
+    "forbidden_en_nice": {
+      "value": {
+        "word": "nice",
+        "suggestion": "favorable / acceptable"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.141455+00:00",
+      "version": 26
+    },
+    "forbidden_en_thing": {
+      "value": {
+        "word": "thing",
+        "suggestion": "factor / aspect / element"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.148384+00:00",
+      "version": 26
+    },
+    "forbidden_en_stuff": {
+      "value": {
+        "word": "stuff",
+        "suggestion": "material / substance"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.154898+00:00",
+      "version": 26
+    },
+    "forbidden_en_lots of": {
+      "value": {
+        "word": "lots of",
+        "suggestion": "numerous / considerable"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.161644+00:00",
+      "version": 26
+    },
+    "forbidden_en_pretty": {
+      "value": {
+        "word": "pretty",
+        "suggestion": "相当 → moderately / relatively"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.168641+00:00",
+      "version": 26
+    },
+    "forbidden_zh_很多": {
+      "value": {
+        "word": "很多",
+        "suggestion": "显著 / 大量 / 较高"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.177152+00:00",
+      "version": 26
+    },
+    "forbidden_zh_差不多": {
+      "value": {
+        "word": "差不多",
+        "suggestion": "近似 / 约 / 大约"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.184668+00:00",
+      "version": 26
+    },
+    "forbidden_zh_好": {
+      "value": {
+        "word": "好",
+        "suggestion": "良好 / 优良 / 较好"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.194694+00:00",
+      "version": 26
+    },
+    "forbidden_zh_坏": {
+      "value": {
+        "word": "坏",
+        "suggestion": "较差 / 偏低 / 不足"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.206091+00:00",
+      "version": 26
+    },
+    "forbidden_zh_搞清楚": {
+      "value": {
+        "word": "搞清楚",
+        "suggestion": "阐明 / 揭示 / 探究"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.213602+00:00",
+      "version": 26
+    },
+    "forbidden_zh_用了": {
+      "value": {
+        "word": "用了",
+        "suggestion": "采用 / 运用 / 利用"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.221998+00:00",
+      "version": 26
+    },
+    "forbidden_zh_一般来说": {
+      "value": {
+        "word": "一般来说",
+        "suggestion": "通常 / 一般而言 / 总体而言"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.228515+00:00",
+      "version": 26
+    },
+    "forbidden_zh_跟": {
+      "value": {
+        "word": "跟",
+        "suggestion": "与...呈显著相关"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.235002+00:00",
+      "version": 26
+    },
+    "forbidden_zh_比较大的": {
+      "value": {
+        "word": "比较大的",
+        "suggestion": "显著的 / 较大的"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.241867+00:00",
+      "version": 26
+    },
+    "forbidden_zh_比较小的": {
+      "value": {
+        "word": "比较小的",
+        "suggestion": "较小的 / 微弱的"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.250410+00:00",
+      "version": 26
+    },
+    "forbidden_zh_还行": {
+      "value": {
+        "word": "还行",
+        "suggestion": "尚可 / 较为理想"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.258340+00:00",
+      "version": 26
+    },
+    "forbidden_zh_感觉": {
+      "value": {
+        "word": "感觉",
+        "suggestion": "认为 / 推测"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.266424+00:00",
+      "version": 26
+    },
+    "forbidden_zh_看起来": {
+      "value": {
+        "word": "看起来",
+        "suggestion": "表明 / 显示"
+      },
+      "confidence": 0.95,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.276628+00:00",
+      "version": 26
+    },
+    "hollow_en_0": {
+      "value": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.403412+00:00",
+      "version": 26
+    },
+    "hollow_en_1": {
+      "value": "(?:provides|offers|serves as) (?:a |an )?(?:valuable|useful|important) (?:reference|insight|foundation)",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.409730+00:00",
+      "version": 26
+    },
+    "hollow_en_2": {
+      "value": "(?:play[s]?|played) a (?:crucial|pivotal|vital|key|significant) role",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.420504+00:00",
+      "version": 26
+    },
+    "hollow_en_3": {
+      "value": "(?:shed[s]? light|cast[s]? light) on",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.428574+00:00",
+      "version": 26
+    },
+    "hollow_zh_0": {
+      "value": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.438673+00:00",
+      "version": 26
+    },
+    "hollow_zh_1": {
+      "value": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.450618+00:00",
+      "version": 26
+    },
+    "hollow_zh_2": {
+      "value": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.460439+00:00",
+      "version": 26
+    },
+    "hollow_zh_3": {
+      "value": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.468936+00:00",
+      "version": 26
+    },
+    "hollow_zh_4": {
+      "value": "(?:研究|分析)(?:了?).+(?:的?.{0,5}(?:规律|特征|特点))",
+      "confidence": 0.85,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.478470+00:00",
+      "version": 26
+    },
+    "overclaim_en_prove": {
+      "value": "prove",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.341598+00:00",
+      "version": 22
+    },
+    "overclaim_en_confirm": {
+      "value": "confirm",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.322557+00:00",
+      "version": 22
+    },
+    "overclaim_en_definitive": {
+      "value": "definitive",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.292075+00:00",
+      "version": 22
+    },
+    "overclaim_en_unprecedented": {
+      "value": "unprecedented",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.316528+00:00",
+      "version": 22
+    },
+    "overclaim_en_groundbreaking": {
+      "value": "groundbreaking",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.329548+00:00",
+      "version": 22
+    },
+    "overclaim_en_revolutionary": {
+      "value": "revolutionary",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.336214+00:00",
+      "version": 22
+    },
+    "overclaim_en_first ever": {
+      "value": "first ever",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.300688+00:00",
+      "version": 22
+    },
+    "overclaim_en_novel discovery": {
+      "value": "novel discovery",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.307693+00:00",
+      "version": 22
+    },
+    "overclaim_en_breakthrough": {
+      "value": "breakthrough",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.286187+00:00",
+      "version": 22
+    },
+    "overclaim_zh_首次发现": {
+      "value": "首次发现",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.391296+00:00",
+      "version": 22
+    },
+    "overclaim_zh_证实": {
+      "value": "证实",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.384768+00:00",
+      "version": 22
+    },
+    "overclaim_zh_确证": {
+      "value": "确证",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.355343+00:00",
+      "version": 22
+    },
+    "overclaim_zh_重大突破": {
+      "value": "重大突破",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.349339+00:00",
+      "version": 22
+    },
+    "overclaim_zh_开创性": {
+      "value": "开创性",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.368376+00:00",
+      "version": 22
+    },
+    "overclaim_zh_革命性": {
+      "value": "革命性",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.398296+00:00",
+      "version": 22
+    },
+    "overclaim_zh_前所未有": {
+      "value": "前所未有",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.361863+00:00",
+      "version": 22
+    },
+    "overclaim_zh_根本性": {
+      "value": "根本性",
+      "confidence": 0.9,
+      "source": "ReviewKB",
+      "updated": "2026-06-11T04:48:34.375389+00:00",
+      "version": 22
+    },
+    "sci_rules_一_核心原则": {
+      "value": {
+        "title": "一、核心原则",
+        "content": "### SCI论文的本质\n- **目标：** 向同行传递新知识\n- **标准：** 可重复性（reproducibility）+ 可信性（credibility）\n- **语言：** 简洁、准确、客观\n\n### 写作三不原则\n1. **不夸大：** 用 suggest/indicate/demonstrate，不用 prove/confirm\n2. **不模糊：** 具体数据 > 形容词（significant > very large）\n3. **不冗余：** 每句话必须有信息量\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.154613+00:00",
+      "version": 3
+    },
+    "sci_rules_二_时态规则": {
+      "value": {
+        "title": "二、时态规则",
+        "content": "这是SCI写作中最容易出错的部分。\n\n### 各部分时态速查表\n\n| 部分 | 主要时态 | 例外 |\n|------|---------|------|\n| Abstract - Background | **现在时** | 已完成的具体研究用过去时 |\n| Abstract - Methods | **过去时** | - |\n| Abstract - Results | **过去时** | - |\n| Abstract - Conclusions | **现在时** | - |\n| Introduction | **现在时** | 具体文献报道用过去时 |\n| Materials & Methods | **过去时** | 引用标准/通用方法可用现在时 |\n| Results | **过去时** | - |\n| Discussion - 本研究发现 | **过去时** | - |\n| Discussion - 文献对比 | **现在时** | 具体研究结果用过去时 |\n| Discussion - 机制解释 | **现在时** | - |\n| Conclusions | **现在时** | - |\n\n### 时态例句\n\n**Introduction - 现在时（通用知识/当前状态）：**\n```\nCarbon pollutants in sewage systems pose significant environmental challenges.\nPrevious studies have focused primarily on liquid-phase carbon.\nHowever, the multi-phase distribution of carbon remains poorly understood.\n```\n\n**Introduction - 过去时（具体文献）：**\n```\nZhang et al. (2023) reported that TOC concentrations ranged from 10 to 200 mg/L.\nLi and Wang (2022) investigated carbon cycling in urban drainage systems.\n```\n\n**Methods - 过去时：**\n```\nSamples were collected at 12 sampling sites during winter and spring.\nTOC was determined using a total organic carbon analyzer.\nData were analyzed using SPSS 26.0.\n```\n\n**Results - 过去时：**\n```\nTOC concentrations ranged from 12.3 to 156.8 mg/L.\nThe difference between winter and spring was significant (p = 0.002).\nPCA revealed two principal components explaining 71.0% of the total variance.\n```\n\n**Discussion - 混合时态：**\n```\n本研究发现（过去时）：\nWe found that TOC in winter was significantly higher than in spring.\n\n文献对比（现在时）：\nThis finding is consistent with the results of Smith et al. (2022).\n\n机制解释（现在时）：\nLow temperatures reduce microbial decomposition rates, leading to carbon accumulation.\n```\n\n**Conclusions - 现在时：**\n```\nThis study provides new insights into carbon pollutant distribution.\nThe results indicate that functional zone type is the dominant factor.\n```\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.161669+00:00",
+      "version": 3
+    },
+    "sci_rules_三_语态规则": {
+      "value": {
+        "title": "三、语态规则",
+        "content": "### 被动语态（Methods中的默认语态）\n\n**为什么用被动：** 强调动作和对象，而非执行者\n\n**常用结构：**\n```\nSamples were collected/analyzed/determined using...\nData were processed/analyzed by...\nStatistical analyses were performed using...\n```\n\n**注意：** 不要写 \"We collected samples\" 而要写 \"Samples were collected\"\n\n### 主动语态（在某些部分可接受）\n\n**可接受场景：**\n- Discussion中表达观点：\"We suggest that...\"\n- Conclusion中总结：\"This study demonstrates that...\"\n- 但被动仍然更常见\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.172238+00:00",
+      "version": 3
+    },
+    "sci_rules_四_各部分写作规范": {
+      "value": {
+        "title": "四、各部分写作规范",
+        "content": "### Title（标题）\n\n**规则：**\n- 10-15个实词（不含a/the/of/in等虚词）\n- 避免缩写（除非如TOC、COD、PCA等公认缩写）\n- 不用问句\n- 不用\"Study on...\"或\"Investigation of...\"开头（老套）\n- 包含关键变量和研究范围\n\n**好标题 vs 差标题：**\n```\n差：A Study on Carbon Pollutants in Sewage Systems\n好：Multi-Phase Distribution of Carbon Pollutants in Campus Sewage Networks\n\n差：The Analysis of TOC in Different Areas\n好：Spatial and Seasonal Variations of TOC in Urban Drainage Systems\n\n差：Carbon Balance\n好：Carbon Balance in Solid-Liquid-Gas Phases in Campus Sewage Networks\n```\n\n**标题结构模板：**\n```\n[关键特征/方法] of [研究对象] in [研究范围]\n```\n\n**本课题标题建议：**\n```\nDistribution and Balance of Carbon Pollutants across\nSolid-Liquid-Gas Phases in Campus Sewage Networks\n```\n\n---\n\n### Abstract（摘要）\n\n**结构：Background(1) + Objective(1) + Methods(1-2) + Results(2-3) + Conclusions(1)**\n**字数：** 200-300 words（期刊要求不同）\n**时态：** Background/Conclusions 现在时；Methods/Results 过去时\n\n**模板：**\n```\n[Background] Carbon pollutant distribution in multi-phase sewage systems\nis critical for accurate carbon accounting, yet remains poorly understood\nin campus sewage networks.\n\n[Objective] This study investigated the occurrence and distribution of\ncarbon pollutants in solid, liquid, and gas phases in a campus sewage\nnetwork, and conducted a carbon balance analysis.\n\n[Methods] Samples were collected from [n] sampling sites during winter\nand spring. Solid-phase, liquid-phase, and gas-phase carbon indicators\nwere determined using [methods]. Multivariate statistical analyses\nincluding PCA and HCA were employed.\n\n[Results] TOC concentrations ranged from [X] to [Y] mg/L, with\nsignificantly higher values in winter than in spring (p < 0.05).\nPCA identified [n] principal components explaining [X]% of the total\nvariance. The carbon balance revealed that [finding].\n\n[Conclusions] This study provides new insights into multi-phase carbon\ndynamics in campus sewage networks, with implications for urban carbon\nmanagement.\n```\n\n**常见错误：**\n- Abstract中出现图表引用（\"as shown in Figure 1\"）\n- 方法描述过于详细\n- 结果缺乏具体数据\n- 使用缩写未定义\n\n---\n\n### Introduction（引言）\n\n**结构：漏斗模型（4段式）**\n\n**Paragraph 1 - 大背景（3-5句）：**\n```\n[大背景句] [领域重要性] [具体问题的引出]\n```\n- 从全球/国家层面切入\n- 逐步聚焦到具体领域\n- 引出核心问题\n\n**Paragraph 2 - 文献综述（5-8句）：**\n```\n[前人做了什么] [主要发现] [使用的典型方法]\n```\n- 按时间/主题组织\n- 不是简单罗列，要有批判性\n- 突出研究趋势\n\n**Paragraph 3 - 研究空白（3-5句）：**\n```\nDespite these efforts, [空白1] remains unclear.\nMoreover, [空白2] has received limited attention.\nIn particular, [空白3] needs further investigation.\n```\n- 用\"However/Despite/Although\"引出空白\n- 空白要具体，不要说\"很少有人研究\"\n- 空白要与本研究直接相关\n\n**Paragraph 4 - 本研究（3-5句）：**\n```\nTherefore, this study aims to [目标].\nSpecifically, [具体目标1]; [具体目标2]; [具体目标3].\nTo achieve these objectives, [简述方法].\nThe results will provide [预期贡献].\n```\n\n**Introduction常用信号词：**\n- 引出背景：Recently, In recent decades, With the increasing...\n- 引出文献：Several studies have shown that..., Previous research has demonstrated...\n- 引出空白：However, ..., remains unclear/limited/poorly understood\n- 引出目的：Therefore, the aims of this study were to...\n\n---\n\n### Materials and Methods（材料与方法）\n\n**时态：** 全部过去时\n**语态：**",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.180747+00:00",
+      "version": 3
+    },
+    "sci_rules_五_语言规范": {
+      "value": {
+        "title": "五、语言规范",
+        "content": "### 禁用词/表达\n\n| 禁用 | 替代 | 原因 |\n|------|------|------|\n| prove | demonstrate/suggest/indicate | 科学研究不能\"证明\" |\n| very | extremely/remarkably 或直接删掉 | 空洞的程度副词 |\n| a lot of | considerable/substantial | 不够正式 |\n| get | obtain/achieve | 口语化 |\n| big/large | significant/substantial | 不够精确 |\n| show | reveal/demonstrate/indicate | 更精确 |\n| find out | discover/reveal | 更正式 |\n| think | suggest/believe/consider | 更学术 |\n| good | favorable/appropriate/positive | 模糊 |\n| bad | unfavorable/adverse/negative | 模糊 |\n\n### 推荐学术动词\n\n**描述发现：**\n- reveal, demonstrate, indicate, suggest, show\n- confirm, support, validate\n- observe, detect, identify, determine\n\n**表达差异：**\n- differ, vary, range\n- exceed, surpass\n- approach, approximate\n\n**表达关系：**\n- correlate, associate, relate\n- contribute, attribute\n- derive, originate\n\n**表达变化：**\n- increase, decrease, fluctuate\n- enhance, reduce, diminish\n- peak, decline, stabilize\n\n### 缩写规则\n- 首次使用写全称，括号内注明缩写：total organic carbon (TOC)\n- 之后统一使用缩写\n- 标题和摘要中首次出现也需要定义\n- 公认缩写可直接使用：DNA, pH, km, etc.\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.186841+00:00",
+      "version": 3
+    },
+    "sci_rules_六_各期刊风格差异": {
+      "value": {
+        "title": "六、各期刊风格差异",
+        "content": "### 环境科学领域主要期刊\n\n| 期刊 | 影响因子 | 特点 | 投稿偏好 |\n|------|---------|------|---------|\n| Environmental Science & Technology | ~11 | 领域顶刊 | 创新性+应用性 |\n| Water Research | ~12 | 水领域顶刊 | 系统性+深度 |\n| Science of the Total Environment | ~9 | 综合性环境 | 广度+数据量 |\n| Environmental Pollution | ~8 | 污染方向 | 新颖性 |\n| Chemosphere | ~8 | 化学+环境 | 机理研究 |\n| Journal of Environmental Sciences | ~6 | 国际化 | 研究完整性 |\n\n### 不同类型论文的要求\n\n**研究型论文（Research Article）：**\n- 标准IMRaD结构\n- 3000-6000 words\n- 5-8个图/表\n\n**短通讯（Short Communication）：**\n- 紧凑结构\n- 2000-3000 words\n- 2-4个图/表\n\n**综述（Review）：**\n- 全面的文献覆盖\n- 6000-10000 words\n- 需要系统的文献搜索策略\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.194358+00:00",
+      "version": 3
+    },
+    "sci_rules_七_sci投稿前检查清单": {
+      "value": {
+        "title": "七、SCI投稿前检查清单",
+        "content": "### 格式检查\n- [ ] 符合目标期刊的Author Guidelines\n- [ ] 字数在规定范围内\n- [ ] 图/表数量符合要求\n- [ ] 参考文献格式正确\n- [ ] 补充材料完整\n\n### 内容检查\n- [ ] Title简洁且包含关键信息\n- [ ] Abstract包含背景、方法、结果、结论\n- [ ] Introduction逻辑清晰（背景→文献→空白→目的）\n- [ ] Methods详细到可重复\n- [ ] Results客观描述，无推断\n- [ ] Discussion解释了\"为什么\"，不仅重复\"是什么\"\n- [ ] Conclusions与Results对应\n\n### 语言检查\n- [ ] 各部分时态正确\n- [ ] 被动语态在Methods中使用\n- [ ] 无语法错误\n- [ ] 无拼写错误\n- [ ] 术语使用一致\n- [ ] 缩写首次使用已定义\n\n### 图表检查\n- [ ] 分辨率 ≥ 300 dpi\n- [ ] 字体大小可读（≥ 8pt）\n- [ ] 颜色可区分（考虑色盲读者）\n- [ ] 图表标题完整\n- [ ] 图表在正文中已引用\n\n### 伦理检查\n- [ ] 所有作者同意投稿\n- [ ] 无一稿多投\n- [ ] 数据真实可靠\n- [ ] 致谢已获同意\n- [ ] 利益冲突声明\n\n### 投稿材料检查\n- [ ] Cover Letter\n- [ ] Title Page（含作者信息、通讯作者、ORCID）\n- [ ] Main Manuscript（双倍行距/符合格式）\n- [ ] Figures（单独文件或嵌入）\n- [ ] Tables（单独文件或嵌入）\n- [ ] Supplementary Materials\n- [ ] Highlights（3-5条，每条85字符以内）\n- [ ] Graphical Abstract（如需要）\n- [ ] Credit Author Statement\n- [ ] Declaration of Interest\n\n---",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.199906+00:00",
+      "version": 3
+    },
+    "sci_rules_八_环境科学领域高频表达": {
+      "value": {
+        "title": "八、环境科学领域高频表达",
+        "content": "### 开头句式\n```\nCarbon cycling in [systems] plays a crucial role in [context].\nSewage networks serve as important pathways for [process].\nMulti-phase distribution of [pollutants] has attracted increasing attention.\n```\n\n### 数据描述\n```\nConcentrations of [X] ranged from [min] to [max] [units].\nA significant [positive/negative] correlation was observed between [A] and [B] (r = [value], p < [value]).\n[Parameter] exhibited a [increasing/decreasing] trend from [A] to [B].\n```\n\n### 对比文献\n```\nOur findings are in good agreement with [Author] ([year]), who reported [finding].\nIn contrast to [Author] ([year]), we observed [different finding].\nThe values obtained in this study were [higher/lower/comparable] to those reported in [reference].\n```\n\n### 机制解释\n```\nThis can be attributed to [mechanism].\nThe underlying mechanism involves [process].\n[Factor] may account for the observed [pattern].\n```\n\n### 环境意义\n```\nThese findings have important implications for [application].\nThe results provide a scientific basis for [management/policy].\nUnderstanding [process] is essential for [environmental goal].\n```",
+        "source_file": "01-sci-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.208670+00:00",
+      "version": 3
+    },
+    "chinese_rules_一_中文核心论文格式规范": {
+      "value": {
+        "title": "一、中文核心论文格式规范",
+        "content": "### 1.1 与SCI论文的关键区别\n\n| 维度 | 中文核心 | SCI英文 |\n|------|---------|---------|\n| 语言 | 中文为主，术语附英文 | 英文 |\n| 摘要 | 结构化（目的/方法/结果/结论），300-500字 | 结构化，250词 |\n| 关键词 | 3-8个，中英文对照 | 3-6个，英文 |\n| 参考文献 | GB/T 7714格式 | APA/期刊自定义 |\n| 图表标题 | 中文标题+英文标题 | 英文标题 |\n| 字数 | 正文8000-15000字 | 4000-8000词 |\n| 单位 | 国际单位制，中文叙述 | SI单位 |\n\n### 1.2 GB/T 7714参考文献格式\n\n**期刊论文：**\n```\n[序号] 作者. 题名[J]. 刊名, 年, 卷(期): 起止页码.\n```\n示例：\n```\n[1] 张三, 李四, 王五. 城市污水管网碳污染物分布特征研究[J]. 环境科学, 2023, 44(3): 1234-1242.\n```\n\n**英文期刊：**\n```\n[序号] AUTHOR A, AUTHOR B. Title[J]. Journal, Year, Vol(No): Pages.\n```\n示例：\n```\n[2] GUISOSONA A, EASTER C, GUTIERREZ O. Estimation of wastewater intr residence time in sewers[J]. Water Science and Technology, 2008, 57(10): 1601-1606.\n```\n\n**学位论文：**\n```\n[序号] 作者. 题名[D]. 保存地: 保存单位, 年份.\n```\n\n**专著：**\n```\n[序号] 作者. 书名[M]. 出版地: 出版社, 年份: 页码.\n```\n\n### 1.3 稿件排版要求\n\n```\n标题：二号黑体，居中\n作者：四号楷体，居中\n单位：小五号宋体，居中\n摘要：小五号宋体，\"摘要\"二字用小五号黑体\n关键词：小五号宋体，\"关键词\"三字用小五号黑体\n正文：五号宋体\n一级标题：四号黑体\n二级标题：五号黑体\n三级标题：五号楷体\n图表标题：小五号黑体\n参考文献：小五号宋体\n```\n\n---",
+        "source_file": "02-chinese-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.218468+00:00",
+      "version": 3
+    },
+    "chinese_rules_二_中文学术语言特点": {
+      "value": {
+        "title": "二、中文学术语言特点",
+        "content": "### 2.1 用词规范\n\n**避免口语化：**\n| 口语 | 学术用语 |\n|------|---------|\n| 很多 | 显著/大量/较高 |\n| 差不多 | 近似/约/大约 |\n| 好 | 优良/良好/较好 |\n| 坏 | 较差/偏低/不足 |\n| 搞清楚 | 阐明/揭示/探究 |\n| 用了 | 采用/运用/利用 |\n| 一般来说 | 通常/一般而言/总体而言 |\n| 跟...有关 | 与...呈显著相关/密切相关 |\n\n**连接词使用：**\n```\n递进：此外、进一步、同时、与此同时\n转折：然而、但、不过、尽管如此\n因果：因此、因而、由此、鉴于此\n总结：综上所述、总体而言、由此可见\n对比：相比之下、不同于、与...相比\n```\n\n### 2.2 标点规范\n\n- **中文标点**：全角（，。；：\"\"）\n- **数字和英文**：半角，前后不加空格\n- **括号**：中文叙述用全角（），公式/代码/文献编号用半角()\n- **百分号**：数字与%之间不留空格，如\"85.3%\"\n- **单位**：数字与单位之间留一个半角空格，如\"10 mg/L\"\n\n### 2.3 数字与单位\n\n- **正文叙述**：一般用阿拉伯数字\n- **概数**：用中文数字，如\"约百分之八十\"\n- **单位格式**：`数值 + 空格 + 单位`，如 `25.3 ± 1.2 mg/L`\n- **万/亿**：中文论文可使用万、亿，如\"3.5万m³/d\"\n\n---",
+        "source_file": "02-chinese-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.226477+00:00",
+      "version": 3
+    },
+    "chinese_rules_三_各章节写作要点": {
+      "value": {
+        "title": "三、各章节写作要点",
+        "content": "### 3.1 摘要\n\n**结构：**\n```\n[目的] 为了解决...问题，本文...\n[方法] 采用...方法，对...进行了研究。\n[结果] 结果表明：(1)...；(2)...；(3)...。\n[结论] 研究表明...，为...提供了科学依据。\n```\n\n**字数要求：** 300-500字（中文核心通常300字左右）\n\n**示例（本课题）：**\n```\n[目的] 为揭示校园污水管网中碳污染物在固-液-气三相中的赋存特征\n及碳平衡规律，本研究以某高校校园污水管网为对象。[方法] 通过布设\n监测点采集不同功能区、不同季节的污水、沉积物和气体样品，测定总\n有机碳(TOC)、化学需氧量(COD)、甲烷(CH4)、二氧化碳(CO2)等指标，\n结合主成分分析(PCA)和层次聚类分析(HCA)探讨碳污染物的空间分异\n特征。[结果] 结果表明：(1)餐饮区TOC浓度显著高于教学区和生活区\n(p<0.05)；(2)管网末端CH4浓度较管口升高了2-3倍；(3)冬季CH4浓度\n与DO呈显著负相关(r=-0.82, p<0.01)。[结论] 研究表明，管网功能区\n类型和沿程厌氧程度是影响碳污染物多相态分布的关键因素，本研究为\n校园污水管网碳排放核算提供了基础数据。\n```\n\n### 3.2 引言\n\n**逻辑链：**\n```\n宏观背景 → 领域现状 → 具体问题 → 文献综述 → 研究空白 → 研究目标\n```\n\n**中文引言的\"倒金字塔\"：**\n1. **第一段（100-150字）：** 宏观背景\n   - \"随着城市化进程加快，...\"\n   - \"碳达峰碳中和目标下，...\"\n2. **第二段（150-200字）：** 领域现状\n   - \"目前，国内外学者对...开展了大量研究\"\n   - \"XXX等[1-3]研究发现...\"\n3. **第三段（100-150字）：** 研究空白\n   - \"然而，现有研究存在以下不足：(1)...；(2)...；(3)...\"\n4. **第四段（50-100字）：** 研究目标\n   - \"基于此，本研究以...为对象，采用...方法，...\"\n\n### 3.3 材料与方法\n\n**结构：**\n```\n2.1 研究区域概况\n2.2 样品采集与分析方法\n2.3 数据处理与统计分析\n```\n\n**要点：**\n- 明确采样时间、地点、频率\n- 注明分析方法的国标编号（HJ/GB）\n- 统计软件和方法需要交代版本\n\n**示例（本课题）：**\n```\n2.2.1 水样采集\n采用有机玻璃采水器在各监测点采集表层水样，采集后立即用0.45μm\n滤膜过滤，滤液用于溶解性有机碳(DOC)测定，未过滤水样用于总有机\n碳(TOC)测定。水样保存于4°C棕色玻璃瓶中，24h内完成分析。\n```\n\n### 3.4 结果\n\n**组织原则：** 先整体后局部，先一般后特殊\n\n**结构建议：**\n```\n3.1 碳污染物浓度总体特征（描述统计）\n3.2 空间分布特征（不同功能区对比）\n3.3 季节变化特征（冬季vs春季）\n3.4 相关性分析结果\n3.5 主成分分析结果\n```\n\n**数据→文字的核心句式：**\n```\n\"[地点/条件]的[指标]为[X±Y] mg/L，[高于/低于][对比对象]\"\n\"[指标A]与[指标B]呈[显著/极显著][正/负]相关(r=X, p<0.05)\"\n\"PCA结果表明，前[N]个主成分解释了[X]%的方差\"\n```\n\n### 3.5 讨论\n\n**中文Discussion的核心要求：**\n1. **不是重复结果**，而是解释结果\n2. **每个发现都要有机制解释**\n3. **要与文献对比**\n4. **要指出创新点**\n\n**结构模板：**\n```\n4.1 [主要发现1]的机制解释\n    → 本研究发现...\n    → 从微生物代谢角度解释...\n    → 文献对比：与XX等[ref]的研究一致/不同\n\n4.2 [主要发现2]的机制解释\n    → 同上逻辑\n\n4.3 [主要发现3]的机制解释\n    → 同上逻辑\n\n4.4 研究意义与应用价值\n\n4.5 研究局限性\n```\n\n### 3.6 结论\n\n**要求：**\n- 3-5条，每条1-2句\n- 不引用文献\n- 不用\"本文\"开头\n- 要有明确的研究贡献\n\n**模板：**\n```\n(1) [发现]...，[意义]...\n(2) [发现]...，[意义]...\n(3) [发现]...，[意义]...\n```\n\n---",
+        "source_file": "02-chinese-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.233345+00:00",
+      "version": 3
+    },
+    "chinese_rules_四_中文论文常见格式问题": {
+      "value": {
+        "title": "四、中文论文常见格式问题",
+        "content": "### 4.1 摘要问题\n- 摘要中出现参考文献编号 `[X]`\n- 摘要中使用\"本文\"\"本论文\"\n- 结论部分没有定量结果\n\n### 4.2 引言问题\n- 引言过短（<500字），缺乏文献支撑\n- 没有明确的研究空白陈述\n- 引用文献过旧（>10年）\n\n### 4.3 方法问题\n- 未注明方法来源（国标/文献编号）\n- 统计方法描述不完整\n- 缺少质控措施说明\n\n### 4.4 结果问题\n- 图表重复展示同一数据\n- 结果与讨论混在一起\n- 缺少统计检验的p值\n\n### 4.5 讨论问题\n- Discussion变成\"结果的复述\"\n- 缺少机制解释（最常见问题）\n- 文献对比只说\"一致\"不说原因\n\n### 4.6 结论问题\n- 结论重复摘要内容\n- 结论中出现参考文献\n- 过度夸大研究意义\n\n---",
+        "source_file": "02-chinese-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.238278+00:00",
+      "version": 3
+    },
+    "chinese_rules_五_本课题写作示例": {
+      "value": {
+        "title": "五、本课题写作示例",
+        "content": "### 示例：Discussion段落（机制解释+文献对比）\n\n```\n4.1 管网碳污染物空间分异机制\n\n本研究发现，餐饮区TOC浓度(185.6±42.3 mg/L)显著高于教学区\n(98.4±28.7 mg/L)和生活区(112.5±31.2 mg/L)(p<0.05)。这一现象\n可以从有机物来源角度解释：餐饮区排放的废水含有大量油脂和食物残渣，\n其有机负荷远高于教学区实验室废水和生活区生活污水[1-3]。Guisasola\n等[4]研究表明，餐饮废水的BOD/COD比值通常在0.5-0.7之间，表明其\n有机物可生化性较强，有利于微生物快速利用。\n\n沿程方向上，管网末端DO浓度(0.3±0.2 mg/L)显著低于管口\n(2.8±0.6 mg/L)(p<0.01)，同时CH4浓度由管口的0.8±0.3 mg/L升高\n至末端的3.2±1.1 mg/L。这一沿程变化规律与Sun等[5]的观测结果一致。\n从微生物代谢角度来看，沿程有机物的好氧降解逐步消耗水体中的溶解氧，\n当DO降至0.5 mg/L以下时，厌氧产甲烷菌活性显著增强[6]，从而导致\nCH4浓度的累积性升高。\n```\n\n### 示例：引言首段\n\n```\n随着\"碳达峰、碳中和\"战略目标的提出，城市碳排放核算与减排成为\n环境科学研究的热点领域。城市污水管网作为连接居民生活与污水处理厂\n的重要基础设施，不仅是污染物输运的通道，更是碳污染物发生物理、\n化学和生物转化的重要场所[1-3]。研究表明，污水管网系统每年产生的\n甲烷(CH4)排放量约占全球人为CH4排放总量的5%-10%[4]，其碳排放\n贡献不容忽视。\n```",
+        "source_file": "02-chinese-rules.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.244743+00:00",
+      "version": 3
+    },
+    "common_mistakes_一_标题_title_常见错误": {
+      "value": {
+        "title": "一、标题（Title）常见错误",
+        "content": "| 错误类型 | 错误示例 | 正确写法 |\n|---------|---------|---------|\n| 太宽泛 | \"碳污染物研究\" | \"校园污水管网固-液-气多相态碳污染物赋存特征\" |\n| 缩写未展开 | \"TOC分布特征\" | \"总有机碳(TOC)分布特征\" |\n| 包含结论 | \"CH4显著升高\" | \"CH4沿程变化特征\" |\n| 中英文混用 | \"基于PCA的碳污染物analysis\" | \"基于主成分分析的碳污染物分布特征研究\" |\n| 太长 | >25字（中文）/>15词（英文） | 精简到核心要素 |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.410705+00:00",
+      "version": 3
+    },
+    "common_mistakes_二_摘要_abstract_常见错误": {
+      "value": {
+        "title": "二、摘要（Abstract）常见错误",
+        "content": "### 中文摘要\n\n| 错误 | 说明 | 修正 |\n|------|------|------|\n| 包含参考文献编号 | \"研究表明[1]...\" | 删除引用 |\n| 包含图表引用 | \"如图1所示\" | 直接描述数据 |\n| 使用\"本文\" | \"本文研究了...\" | \"研究了...\" |\n| 缺少定量结果 | \"浓度较高\" | \"浓度为185.6±42.3 mg/L\" |\n| 结论空洞 | \"为相关研究提供了参考\" | \"为管网碳排放核算提供了基础数据\" |\n\n### 英文摘要\n\n| 错误 | 说明 |\n|------|------|\n| 中式英语 | \"The result showed that...\" → \"The results indicate that...\" |\n| 时态混乱 | Methods用现在时（应为过去时） |\n| 主谓不一致 | \"The data shows\" → \"The data show\" |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.417703+00:00",
+      "version": 3
+    },
+    "common_mistakes_三_引言_introduction_常见错误": {
+      "value": {
+        "title": "三、引言（Introduction）常见错误",
+        "content": "### 3.1 逻辑问题\n\n```\n错误：直接切入技术细节，没有背景铺垫\n正确：宏观背景 → 领域现状 → 具体问题 → 文献 → 空白 → 目标\n\n错误：文献综述变成罗列\n正确：\"张三[1]和李四[2]发现...，但王五[3]的研究表明...\" \n\n错误：没有明确的研究空白\n正确：\"然而，现有研究存在以下不足：(1)...(2)...(3)...\"\n```\n\n### 3.2 引用问题\n\n| 错误 | 说明 |\n|------|------|\n| 引用过旧 | 引用文献>50%为10年前的 |\n| 自引过多 | 自引文献>总引用的30% |\n| 引用不准确 | 引用内容与原文不符 |\n| 引用范围窄 | 只引中文或只引英文 |\n| 二手引用 | 引用A论文中提到的B结论（应找原文B） |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.425316+00:00",
+      "version": 3
+    },
+    "common_mistakes_四_材料与方法_methods_常见错误": {
+      "value": {
+        "title": "四、材料与方法（Methods）常见错误",
+        "content": "| 错误 | 说明 | 修正 |\n|------|------|------|\n| 方法来源不明 | \"采用分光光度法测定COD\" | \"采用重铬酸钾法(HJ 828-2017)测定COD\" |\n| 缺少质控 | 无质控说明 | \"每批样品设置3个平行样，加标回收率85%-115%\" |\n| 统计方法不清 | \"进行统计分析\" | \"采用SPSS 26.0，Mann-Whitney U检验（非正态数据）\" |\n| 参数不完整 | \"采用PCA分析\" | \"采用主成分分析(PCA)，以特征值>1为提取标准\" |\n| 缺少采样信息 | \"采集了水样\" | \"2024年1-4月，在9个监测点每月采集1次\" |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.432442+00:00",
+      "version": 3
+    },
+    "common_mistakes_五_结果_results_常见错误": {
+      "value": {
+        "title": "五、结果（Results）常见错误",
+        "content": "| 错误 | 说明 |\n|------|------|\n| 结果与讨论混杂 | 结果段落中插入解释和文献对比 |\n| 图表重复 | 同一数据既画图又列表 |\n| 缺少统计检验 | \"A比B高\"没有p值 |\n| 数字不一致 | 正文数字与表格数字不匹配 |\n| 有效数字不当 | \"98.4321 mg/L\"过度精确 |\n| 忽略负结果 | 只报告显著的，不报告不显著的 |\n\n### 数字一致性检查\n\n```\n检查项：\n1. 正文中每个数字是否与表格对应\n2. 百分比加起来是否等于100%\n3. 均值±SD的SD是否合理（不应大于均值）\n4. 小数位数是否统一\n5. 单位是否统一\n```\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.438993+00:00",
+      "version": 3
+    },
+    "common_mistakes_六_讨论_discussion_常见错误": {
+      "value": {
+        "title": "六、讨论（Discussion）常见错误",
+        "content": "### 6.1 最致命的错误：没有机制解释\n\n```\n错误写法（空洞）：\n\"本研究发现餐饮区TOC浓度显著高于教学区。这一结果与张三[1]\n的研究一致。\"\n\n正确写法（有机制）：\n\"本研究发现餐饮区TOC浓度(185.6±42.3 mg/L)显著高于教学区\n(98.4±28.7 mg/L)(p<0.05)。这一差异可以从有机物来源角度解释：\n餐饮区排放废水含有大量油脂和食物残渣，其有机负荷远高于教学区\n实验室废水[1]。Guisasola等[2]研究表明，餐饮废水的BOD/COD比值\n通常在0.5-0.7之间，可生化性较强，有利于微生物快速利用。\"\n```\n\n### 6.2 Discussion结构问题\n\n| 错误 | 说明 |\n|------|------|\n| 复述结果 | \"结果表明A为X，B为Y\" → 应解释为什么 |\n| 缺少文献对比 | 没有与前人研究的比较 |\n| 缺少局限性 | 没有坦诚指出研究局限 |\n| 过度推测 | 证据不足就下结论 |\n| 与引言重复 | 重复引言中已说的背景 |\n\n### 6.3 常见逻辑漏洞\n\n```\n错误：相关性=因果性\n\"DO降低导致CH4升高\" → \"DO降低与CH4升高显著相关，可能是\n因为...\"\n\n错误：以偏概全\n\"本研究结果表明所有污水管网都...\" → \"本研究结果表明该校园\n污水管网...\"\n\n错误：忽视替代解释\n只给一种解释，不考虑其他可能原因\n```\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.446001+00:00",
+      "version": 3
+    },
+    "common_mistakes_七_结论_conclusion_常见错误": {
+      "value": {
+        "title": "七、结论（Conclusion）常见错误",
+        "content": "| 错误 | 说明 |\n|------|------|\n| 重复摘要 | 结论与摘要内容相同 |\n| 过度夸大 | \"首次发现\" \"重大突破\" |\n| 包含新信息 | 结论中出现了前文未提到的内容 |\n| 包含参考文献 | 结论中有\"[X]\" |\n| 缺少定量 | \"浓度较高\" → \"浓度为X mg/L\" |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.452462+00:00",
+      "version": 3
+    },
+    "common_mistakes_八_图表常见错误": {
+      "value": {
+        "title": "八、图表常见错误",
+        "content": "| 错误 | 说明 |\n|------|------|\n| 坐标轴缺单位 | \"TOC\" → \"TOC (mg/L)\" |\n| 分辨率不足 | 截图直接粘贴 |\n| 颜色不友好 | 红绿对比（色盲不可辨） |\n| 图例遮挡数据 | 图例位置不当 |\n| 三维图 | 二维数据用三维图（不推荐） |\n| 缺少子图标号 | 无(a)(b)(c)标注 |\n| 表格格式错 | 三线表有多余线条 |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.460754+00:00",
+      "version": 3
+    },
+    "common_mistakes_九_参考文献常见错误": {
+      "value": {
+        "title": "九、参考文献常见错误",
+        "content": "| 错误 | 说明 |\n|------|------|\n| 格式不统一 | 同一篇论文混用不同格式 |\n| 期刊名缩写不一致 | 有的全称有的缩写 |\n| 缺少页码 | 无起止页码 |\n| 作者格式错 | 姓在前名在后混淆 |\n| 自动编号出错 | 编号与正文引用不对应 |\n| 包含未引用的文献 | 参考文献列表中有正文未引用的 |\n\n---",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.470270+00:00",
+      "version": 3
+    },
+    "common_mistakes_十_投稿前检查清单": {
+      "value": {
+        "title": "十、投稿前检查清单",
+        "content": "### 10.1 内容检查\n\n```\n□ 标题准确反映研究内容，无缩写\n□ 摘要包含目的/方法/结果/结论四要素\n□ 摘要中无参考文献编号\n□ 关键词覆盖核心概念\n□ 引言逻辑链完整（背景→问题→空白→目标）\n□ 方法部分有国家标准/文献来源\n□ 方法部分有质控措施\n□ 结果有统计检验支撑（p值）\n□ 结果中数字与表格一致\n□ Discussion每个发现有机制解释\n□ Discussion有文献对比\n□ Discussion有局限性讨论\n□ 结论不重复摘要\n□ 结论无参考文献\n□ 所有图表都有标题和注释\n□ 坐标轴都有单位\n□ 参考文献格式统一\n□ 正文引用与参考文献列表对应\n```\n\n### 10.2 格式检查\n\n```\n□ 字体字号符合期刊/学位论文要求\n□ 行距符合要求\n□ 页边距符合要求\n□ 页眉页脚正确\n□ 页码连续\n□ 图片分辨率≥300 dpi\n□ 表格为三线表\n□ 参考文献格式统一（GB/T 7714或期刊格式）\n□ 中英文摘要/关键词对照\n□ 作者信息完整\n```\n\n### 10.3 语言检查\n\n```\n□ 无错别字\n□ 标点使用规范（中文全角，英文半角）\n□ 单位格式正确（数值+空格+单位）\n□ 数字格式统一\n□ 无口语化表达\n□ 无过度使用\"了\"\"的\"\n□ 英文摘要无语法错误\n□ 术语使用统一\n```",
+        "source_file": "08-common-mistakes.md"
+      },
+      "confidence": 0.9,
+      "source": "academic-writing-md",
+      "updated": "2026-06-11T04:48:35.479372+00:00",
+      "version": 3
+    }
+  },
+  "changelog": [
+    {
+      "action": "create",
+      "key": "ai_pattern_en_0",
+      "old": null,
+      "new": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.173193+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_1",
+      "old": null,
+      "new": "(?:delve|dive) into",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.173193+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_2",
+      "old": null,
+      "new": "in the realm of",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.174194+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_3",
+      "old": null,
+      "new": "it'?s worth noting that",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.174194+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_4",
+      "old": null,
+      "new": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.174194+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_5",
+      "old": null,
+      "new": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.175190+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_6",
+      "old": null,
+      "new": "plays a (?:crucial|pivotal|vital|key) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.175190+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_7",
+      "old": null,
+      "new": "(?:shed light|cast light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.175190+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_8",
+      "old": null,
+      "new": "at the (?:forefront|intersection) of",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.176185+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_9",
+      "old": null,
+      "new": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.176185+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_10",
+      "old": null,
+      "new": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.177182+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_11",
+      "old": null,
+      "new": "(?:tapestry|myriad|plethora|cornucopia)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.178180+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_12",
+      "old": null,
+      "new": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.178180+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_13",
+      "old": null,
+      "new": "(?:not only).+?(?:but also)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.178180+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_en_14",
+      "old": null,
+      "new": "to (?:the best of|our knowledge)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.179178+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_0",
+      "old": null,
+      "new": "值得[注关]意的是",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.180004+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_1",
+      "old": null,
+      "new": "(?:深入|进[一壹]步)探讨",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.180004+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_2",
+      "old": null,
+      "new": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.181003+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_3",
+      "old": null,
+      "new": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.182000+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_4",
+      "old": null,
+      "new": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.182000+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_5",
+      "old": null,
+      "new": "(?:填补|弥补)(?:了?)(?:研究)?空白",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.182997+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_6",
+      "old": null,
+      "new": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.182997+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_7",
+      "old": null,
+      "new": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.184018+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_8",
+      "old": null,
+      "new": "综上所述.{0,10}(?:本文|本研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.185734+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_9",
+      "old": null,
+      "new": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "ai_pattern_zh_10",
+      "old": null,
+      "new": "(?:具有|有着)(?:重大|深远|重要)(?:理论|实践)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_prove",
+      "old": null,
+      "new": "{'word': 'prove', 'suggestion': 'demonstrate / suggest / indicate'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_very",
+      "old": null,
+      "new": "{'word': 'very', 'suggestion': '删除，用具体数据替代'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_a lot of",
+      "old": null,
+      "new": "{'word': 'a lot of', 'suggestion': 'substantial / considerable'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_get",
+      "old": null,
+      "new": "{'word': 'get', 'suggestion': 'obtain / acquire / derive'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_big",
+      "old": null,
+      "new": "{'word': 'big', 'suggestion': 'significant / substantial / considerable'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.186120+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_good",
+      "old": null,
+      "new": "{'word': 'good', 'suggestion': 'favorable / effective / satisfactory'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.191118+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_bad",
+      "old": null,
+      "new": "{'word': 'bad', 'suggestion': 'poor / unfavorable / inadequate'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.191118+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_nice",
+      "old": null,
+      "new": "{'word': 'nice', 'suggestion': 'favorable / acceptable'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.191118+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_thing",
+      "old": null,
+      "new": "{'word': 'thing', 'suggestion': 'factor / aspect / element'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.191118+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_stuff",
+      "old": null,
+      "new": "{'word': 'stuff', 'suggestion': 'material / substance'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.191118+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_lots of",
+      "old": null,
+      "new": "{'word': 'lots of', 'suggestion': 'numerous / considerable'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.196115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_en_pretty",
+      "old": null,
+      "new": "{'word': 'pretty', 'suggestion': '相当 → moderately / relatively'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.196115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_很多",
+      "old": null,
+      "new": "{'word': '很多', 'suggestion': '显著 / 大量 / 较高'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.196115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_差不多",
+      "old": null,
+      "new": "{'word': '差不多', 'suggestion': '近似 / 约 / 大约'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.196115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_好",
+      "old": null,
+      "new": "{'word': '好', 'suggestion': '良好 / 优良 / 较好'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.196115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_坏",
+      "old": null,
+      "new": "{'word': '坏', 'suggestion': '较差 / 偏低 / 不足'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.201115+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_搞清楚",
+      "old": null,
+      "new": "{'word': '搞清楚', 'suggestion': '阐明 / 揭示 / 探究'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.202408+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_用了",
+      "old": null,
+      "new": "{'word': '用了', 'suggestion': '采用 / 运用 / 利用'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.203406+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_一般来说",
+      "old": null,
+      "new": "{'word': '一般来说', 'suggestion': '通常 / 一般而言 / 总体而言'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.204403+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_跟",
+      "old": null,
+      "new": "{'word': '跟', 'suggestion': '与...呈显著相关'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.205400+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_比较大的",
+      "old": null,
+      "new": "{'word': '比较大的', 'suggestion': '显著的 / 较大的'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.207396+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_比较小的",
+      "old": null,
+      "new": "{'word': '比较小的', 'suggestion': '较小的 / 微弱的'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.208393+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_还行",
+      "old": null,
+      "new": "{'word': '还行', 'suggestion': '尚可 / 较为理想'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.209390+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_感觉",
+      "old": null,
+      "new": "{'word': '感觉', 'suggestion': '认为 / 推测'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.210387+00:00"
+    },
+    {
+      "action": "create",
+      "key": "forbidden_zh_看起来",
+      "old": null,
+      "new": "{'word': '看起来', 'suggestion': '表明 / 显示'}",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.211384+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_en_0",
+      "old": null,
+      "new": "(?:provides|offers|serves as) (?:a |an )?(?:valuable|useful|important) (?:reference|insight|foundation)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.213379+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_en_1",
+      "old": null,
+      "new": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.214376+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_en_2",
+      "old": null,
+      "new": "(?:shed[s]? light|cast[s]? light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.215373+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_en_3",
+      "old": null,
+      "new": "(?:play[s]?|played) a (?:crucial|pivotal|vital|key|significant) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.217368+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_zh_0",
+      "old": null,
+      "new": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.219556+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_zh_1",
+      "old": null,
+      "new": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.220553+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_zh_2",
+      "old": null,
+      "new": "(?:研究|分析)(?:了?).+(?:的?.{0,5}(?:规律|特征|特点))",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.222549+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_zh_3",
+      "old": null,
+      "new": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.223547+00:00"
+    },
+    {
+      "action": "create",
+      "key": "hollow_zh_4",
+      "old": null,
+      "new": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-23T10:00:06.225542+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_prove",
+      "old": null,
+      "new": "prove",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.206328+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_confirm",
+      "old": null,
+      "new": "confirm",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.207327+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_definitive",
+      "old": null,
+      "new": "definitive",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.209292+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_unprecedented",
+      "old": null,
+      "new": "unprecedented",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.210317+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_groundbreaking",
+      "old": null,
+      "new": "groundbreaking",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.212311+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_revolutionary",
+      "old": null,
+      "new": "revolutionary",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.213308+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_first ever",
+      "old": null,
+      "new": "first ever",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.215306+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_novel discovery",
+      "old": null,
+      "new": "novel discovery",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.216301+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_en_breakthrough",
+      "old": null,
+      "new": "breakthrough",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.218296+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_首次发现",
+      "old": null,
+      "new": "首次发现",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.219293+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_证实",
+      "old": null,
+      "new": "证实",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.221285+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_确证",
+      "old": null,
+      "new": "确证",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.222257+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_重大突破",
+      "old": null,
+      "new": "重大突破",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.224272+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_开创性",
+      "old": null,
+      "new": "开创性",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.226495+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_革命性",
+      "old": null,
+      "new": "革命性",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.228001+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_前所未有",
+      "old": null,
+      "new": "前所未有",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.230213+00:00"
+    },
+    {
+      "action": "create",
+      "key": "overclaim_zh_根本性",
+      "old": null,
+      "new": "根本性",
+      "source": "ReviewKB",
+      "timestamp": "2026-05-30T02:28:36.230714+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_0",
+      "old": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "new": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.327480+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_1",
+      "old": "(?:delve|dive) into",
+      "new": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.333279+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_2",
+      "old": "in the realm of",
+      "new": "(?:tapestry|myriad|plethora|cornucopia)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.345279+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_3",
+      "old": "it'?s worth noting that",
+      "new": "(?:not only).+?(?:but also)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.350785+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_4",
+      "old": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "new": "plays a (?:crucial|pivotal|vital|key) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.367395+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_5",
+      "old": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "new": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.372420+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_6",
+      "old": "plays a (?:crucial|pivotal|vital|key) role",
+      "new": "(?:shed light|cast light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.377557+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_7",
+      "old": "(?:shed light|cast light) on",
+      "new": "it'?s worth noting that",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.382715+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_8",
+      "old": "at the (?:forefront|intersection) of",
+      "new": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.387744+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_9",
+      "old": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "new": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.392523+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_10",
+      "old": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "new": "(?:delve|dive) into",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.396538+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_11",
+      "old": "(?:tapestry|myriad|plethora|cornucopia)",
+      "new": "to (?:the best of|our knowledge)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.397543+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_12",
+      "old": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "new": "in the realm of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.402633+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_13",
+      "old": "(?:not only).+?(?:but also)",
+      "new": "at the (?:forefront|intersection) of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.406650+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_14",
+      "old": "to (?:the best of|our knowledge)",
+      "new": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.411587+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_0",
+      "old": "值得[注关]意的是",
+      "new": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.415664+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_1",
+      "old": "(?:深入|进[一壹]步)探讨",
+      "new": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.417674+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_3",
+      "old": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "new": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.431879+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_4",
+      "old": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "new": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.434894+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_6",
+      "old": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "new": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.445291+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_7",
+      "old": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "new": "值得[注关]意的是",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.450468+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_8",
+      "old": "综上所述.{0,10}(?:本文|本研究)",
+      "new": "(?:深入|进[一壹]步)探讨",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.454486+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_9",
+      "old": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "new": "综上所述.{0,10}(?:本文|本研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.458585+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_0",
+      "old": "(?:provides|offers|serves as) (?:a |an )?(?:valuable|useful|important) (?:reference|insight|foundation)",
+      "new": "(?:shed[s]? light|cast[s]? light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.649467+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_1",
+      "old": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "new": "(?:provides|offers|serves as) (?:a |an )?(?:valuable|useful|important) (?:reference|insight|foundation)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.649467+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_2",
+      "old": "(?:shed[s]? light|cast[s]? light) on",
+      "new": "(?:play[s]?|played) a (?:crucial|pivotal|vital|key|significant) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.654884+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_3",
+      "old": "(?:play[s]?|played) a (?:crucial|pivotal|vital|key|significant) role",
+      "new": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.654884+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_0",
+      "old": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "new": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.663185+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_1",
+      "old": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "new": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.664195+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_2",
+      "old": "(?:研究|分析)(?:了?).+(?:的?.{0,5}(?:规律|特征|特点))",
+      "new": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.669622+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_3",
+      "old": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "new": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.669622+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_4",
+      "old": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "new": "(?:研究|分析)(?:了?).+(?:的?.{0,5}(?:规律|特征|特点))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-10T12:55:24.674779+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_一_核心原则",
+      "old": null,
+      "new": "{'title': '一、核心原则', 'content': '### SCI论文的本质\\n- **目标：** 向同行传递新知识\\n- **标准：** 可重复性（reproducibility）+ 可信性（credibility）\\n- **语言：** 简洁、准确、客观\\n\\n### 写作三不原则\\n1. **不夸大：** 用 suggest/indicate/demonstrate，不用 pro",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.070445+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_二_时态规则",
+      "old": null,
+      "new": "{'title': '二、时态规则', 'content': '这是SCI写作中最容易出错的部分。\\n\\n### 各部分时态速查表\\n\\n| 部分 | 主要时态 | 例外 |\\n|------|---------|------|\\n| Abstract - Background | **现在时** | 已完成的具体研究用过去时 |\\n| Abstract - Methods | **过去时** |",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.073960+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_三_语态规则",
+      "old": null,
+      "new": "{'title': '三、语态规则', 'content': '### 被动语态（Methods中的默认语态）\\n\\n**为什么用被动：** 强调动作和对象，而非执行者\\n\\n**常用结构：**\\n```\\nSamples were collected/analyzed/determined using...\\nData were processed/analyzed by...\\nStatist",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.075966+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_四_各部分写作规范",
+      "old": null,
+      "new": "{'title': '四、各部分写作规范', 'content': '### Title（标题）\\n\\n**规则：**\\n- 10-15个实词（不含a/the/of/in等虚词）\\n- 避免缩写（除非如TOC、COD、PCA等公认缩写）\\n- 不用问句\\n- 不用\"Study on...\"或\"Investigation of...\"开头（老套）\\n- 包含关键变量和研究范围\\n\\n**好标题 vs",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.079877+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_五_语言规范",
+      "old": null,
+      "new": "{'title': '五、语言规范', 'content': '### 禁用词/表达\\n\\n| 禁用 | 替代 | 原因 |\\n|------|------|------|\\n| prove | demonstrate/suggest/indicate | 科学研究不能\"证明\" |\\n| very | extremely/remarkably 或直接删掉 | 空洞的程度副词 |\\n| a lot ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.079877+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_六_各期刊风格差异",
+      "old": null,
+      "new": "{'title': '六、各期刊风格差异', 'content': '### 环境科学领域主要期刊\\n\\n| 期刊 | 影响因子 | 特点 | 投稿偏好 |\\n|------|---------|------|---------|\\n| Environmental Science & Technology | ~11 | 领域顶刊 | 创新性+应用性 |\\n| Water Research | ~",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.088521+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_七_sci投稿前检查清单",
+      "old": null,
+      "new": "{'title': '七、SCI投稿前检查清单', 'content': '### 格式检查\\n- [ ] 符合目标期刊的Author Guidelines\\n- [ ] 字数在规定范围内\\n- [ ] 图/表数量符合要求\\n- [ ] 参考文献格式正确\\n- [ ] 补充材料完整\\n\\n### 内容检查\\n- [ ] Title简洁且包含关键信息\\n- [ ] Abstract包含背景、方法、结",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.090259+00:00"
+    },
+    {
+      "action": "create",
+      "key": "sci_rules_八_环境科学领域高频表达",
+      "old": null,
+      "new": "{'title': '八、环境科学领域高频表达', 'content': '### 开头句式\\n```\\nCarbon cycling in [systems] plays a crucial role in [context].\\nSewage networks serve as important pathways for [process].\\nMulti-phase distributio",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.095647+00:00"
+    },
+    {
+      "action": "create",
+      "key": "chinese_rules_一_中文核心论文格式规范",
+      "old": null,
+      "new": "{'title': '一、中文核心论文格式规范', 'content': '### 1.1 与SCI论文的关键区别\\n\\n| 维度 | 中文核心 | SCI英文 |\\n|------|---------|---------|\\n| 语言 | 中文为主，术语附英文 | 英文 |\\n| 摘要 | 结构化（目的/方法/结果/结论），300-500字 | 结构化，250词 |\\n| 关键词 | 3-8个，",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.096622+00:00"
+    },
+    {
+      "action": "create",
+      "key": "chinese_rules_二_中文学术语言特点",
+      "old": null,
+      "new": "{'title': '二、中文学术语言特点', 'content': '### 2.1 用词规范\\n\\n**避免口语化：**\\n| 口语 | 学术用语 |\\n|------|---------|\\n| 很多 | 显著/大量/较高 |\\n| 差不多 | 近似/约/大约 |\\n| 好 | 优良/良好/较好 |\\n| 坏 | 较差/偏低/不足 |\\n| 搞清楚 | 阐明/揭示/探究 |\\n| 用了 | ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.104069+00:00"
+    },
+    {
+      "action": "create",
+      "key": "chinese_rules_三_各章节写作要点",
+      "old": null,
+      "new": "{'title': '三、各章节写作要点', 'content': '### 3.1 摘要\\n\\n**结构：**\\n```\\n[目的] 为了解决...问题，本文...\\n[方法] 采用...方法，对...进行了研究。\\n[结果] 结果表明：(1)...；(2)...；(3)...。\\n[结论] 研究表明...，为...提供了科学依据。\\n```\\n\\n**字数要求：** 300-500字（中文核心",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.106076+00:00"
+    },
+    {
+      "action": "create",
+      "key": "chinese_rules_四_中文论文常见格式问题",
+      "old": null,
+      "new": "{'title': '四、中文论文常见格式问题', 'content': '### 4.1 摘要问题\\n- 摘要中出现参考文献编号 `[X]`\\n- 摘要中使用\"本文\"\"本论文\"\\n- 结论部分没有定量结果\\n\\n### 4.2 引言问题\\n- 引言过短（<500字），缺乏文献支撑\\n- 没有明确的研究空白陈述\\n- 引用文献过旧（>10年）\\n\\n### 4.3 方法问题\\n- 未注明方法来源（",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.109587+00:00"
+    },
+    {
+      "action": "create",
+      "key": "chinese_rules_五_本课题写作示例",
+      "old": null,
+      "new": "{'title': '五、本课题写作示例', 'content': '### 示例：Discussion段落（机制解释+文献对比）\\n\\n```\\n4.1 管网碳污染物空间分异机制\\n\\n本研究发现，餐饮区TOC浓度(185.6±42.3 mg/L)显著高于教学区\\n(98.4±28.7 mg/L)和生活区(112.5±31.2 mg/L)(p<0.05)。这一现象\\n可以从有机物来源角度解释：餐",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.113241+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_一_标题_title_常见错误",
+      "old": null,
+      "new": "{'title': '一、标题（Title）常见错误', 'content': '| 错误类型 | 错误示例 | 正确写法 |\\n|---------|---------|---------|\\n| 太宽泛 | \"碳污染物研究\" | \"校园污水管网固-液-气多相态碳污染物赋存特征\" |\\n| 缩写未展开 | \"TOC分布特征\" | \"总有机碳(TOC)分布特征\" |\\n| 包含结论 | \"CH4显",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.185171+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_二_摘要_abstract_常见错误",
+      "old": null,
+      "new": "{'title': '二、摘要（Abstract）常见错误', 'content': '### 中文摘要\\n\\n| 错误 | 说明 | 修正 |\\n|------|------|------|\\n| 包含参考文献编号 | \"研究表明[1]...\" | 删除引用 |\\n| 包含图表引用 | \"如图1所示\" | 直接描述数据 |\\n| 使用\"本文\" | \"本文研究了...\" | \"研究了...\" |\\",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.190313+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_三_引言_introduction_常见错误",
+      "old": null,
+      "new": "{'title': '三、引言（Introduction）常见错误', 'content': '### 3.1 逻辑问题\\n\\n```\\n错误：直接切入技术细节，没有背景铺垫\\n正确：宏观背景 → 领域现状 → 具体问题 → 文献 → 空白 → 目标\\n\\n错误：文献综述变成罗列\\n正确：\"张三[1]和李四[2]发现...，但王五[3]的研究表明...\" \\n\\n错误：没有明确的研究空白\\n正确：",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.190313+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_四_材料与方法_methods_常见错误",
+      "old": null,
+      "new": "{'title': '四、材料与方法（Methods）常见错误', 'content': '| 错误 | 说明 | 修正 |\\n|------|------|------|\\n| 方法来源不明 | \"采用分光光度法测定COD\" | \"采用重铬酸钾法(HJ 828-2017)测定COD\" |\\n| 缺少质控 | 无质控说明 | \"每批样品设置3个平行样，加标回收率85%-115%\" |\\n| 统计方",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.197877+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_五_结果_results_常见错误",
+      "old": null,
+      "new": "{'title': '五、结果（Results）常见错误', 'content': '| 错误 | 说明 |\\n|------|------|\\n| 结果与讨论混杂 | 结果段落中插入解释和文献对比 |\\n| 图表重复 | 同一数据既画图又列表 |\\n| 缺少统计检验 | \"A比B高\"没有p值 |\\n| 数字不一致 | 正文数字与表格数字不匹配 |\\n| 有效数字不当 | \"98.4321 mg/",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.197877+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_六_讨论_discussion_常见错误",
+      "old": null,
+      "new": "{'title': '六、讨论（Discussion）常见错误', 'content': '### 6.1 最致命的错误：没有机制解释\\n\\n```\\n错误写法（空洞）：\\n\"本研究发现餐饮区TOC浓度显著高于教学区。这一结果与张三[1]\\n的研究一致。\"\\n\\n正确写法（有机制）：\\n\"本研究发现餐饮区TOC浓度(185.6±42.3 mg/L)显著高于教学区\\n(98.4±28.7 mg/L)",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.203315+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_七_结论_conclusion_常见错误",
+      "old": null,
+      "new": "{'title': '七、结论（Conclusion）常见错误', 'content': '| 错误 | 说明 |\\n|------|------|\\n| 重复摘要 | 结论与摘要内容相同 |\\n| 过度夸大 | \"首次发现\" \"重大突破\" |\\n| 包含新信息 | 结论中出现了前文未提到的内容 |\\n| 包含参考文献 | 结论中有\"[X]\" |\\n| 缺少定量 | \"浓度较高\" → \"浓度为X ",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.208426+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_八_图表常见错误",
+      "old": null,
+      "new": "{'title': '八、图表常见错误', 'content': '| 错误 | 说明 |\\n|------|------|\\n| 坐标轴缺单位 | \"TOC\" → \"TOC (mg/L)\" |\\n| 分辨率不足 | 截图直接粘贴 |\\n| 颜色不友好 | 红绿对比（色盲不可辨） |\\n| 图例遮挡数据 | 图例位置不当 |\\n| 三维图 | 二维数据用三维图（不推荐） |\\n| 缺少子图标号 |",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.213317+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_九_参考文献常见错误",
+      "old": null,
+      "new": "{'title': '九、参考文献常见错误', 'content': '| 错误 | 说明 |\\n|------|------|\\n| 格式不统一 | 同一篇论文混用不同格式 |\\n| 期刊名缩写不一致 | 有的全称有的缩写 |\\n| 缺少页码 | 无起止页码 |\\n| 作者格式错 | 姓在前名在后混淆 |\\n| 自动编号出错 | 编号与正文引用不对应 |\\n| 包含未引用的文献 | 参考文献列表",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.213317+00:00"
+    },
+    {
+      "action": "create",
+      "key": "common_mistakes_十_投稿前检查清单",
+      "old": null,
+      "new": "{'title': '十、投稿前检查清单', 'content': '### 10.1 内容检查\\n\\n```\\n□ 标题准确反映研究内容，无缩写\\n□ 摘要包含目的/方法/结果/结论四要素\\n□ 摘要中无参考文献编号\\n□ 关键词覆盖核心概念\\n□ 引言逻辑链完整（背景→问题→空白→目标）\\n□ 方法部分有国家标准/文献来源\\n□ 方法部分有质控措施\\n□ 结果有统计检验支撑（p值）\\n□ 结果",
+      "source": "academic-writing-md",
+      "timestamp": "2026-06-10T12:55:25.218829+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_0",
+      "old": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "new": "to (?:the best of|our knowledge)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.878205+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_1",
+      "old": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "new": "it'?s worth noting that",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.882125+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_2",
+      "old": "(?:tapestry|myriad|plethora|cornucopia)",
+      "new": "in the realm of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.886130+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_3",
+      "old": "(?:not only).+?(?:but also)",
+      "new": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.889205+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_4",
+      "old": "plays a (?:crucial|pivotal|vital|key) role",
+      "new": "at the (?:forefront|intersection) of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.894216+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_5",
+      "old": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "new": "(?:tapestry|myriad|plethora|cornucopia)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.897215+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_6",
+      "old": "(?:shed light|cast light) on",
+      "new": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.900953+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_7",
+      "old": "it'?s worth noting that",
+      "new": "(?:not only).+?(?:but also)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.906873+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_8",
+      "old": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "new": "plays a (?:crucial|pivotal|vital|key) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.910867+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_9",
+      "old": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "new": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.915044+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_10",
+      "old": "(?:delve|dive) into",
+      "new": "in conclusion,? (?:this study|our (?:findings|results|study))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.918737+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_11",
+      "old": "to (?:the best of|our knowledge)",
+      "new": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.921728+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_12",
+      "old": "in the realm of",
+      "new": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.925736+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_13",
+      "old": "at the (?:forefront|intersection) of",
+      "new": "(?:delve|dive) into",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.929740+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_14",
+      "old": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "new": "(?:shed light|cast light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.933346+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_0",
+      "old": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "new": "综上所述.{0,10}(?:本文|本研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.937367+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_1",
+      "old": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "new": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.941268+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_2",
+      "old": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "new": "(?:填补|弥补)(?:了?)(?:研究)?空白",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.945269+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_3",
+      "old": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "new": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.948783+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_5",
+      "old": "(?:填补|弥补)(?:了?)(?:研究)?空白",
+      "new": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.959011+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_6",
+      "old": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "new": "(?:具有|有着)(?:重大|深远|重要)(?:理论|实践)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.962349+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_8",
+      "old": "(?:深入|进[一壹]步)探讨",
+      "new": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.971967+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_9",
+      "old": "综上所述.{0,10}(?:本文|本研究)",
+      "new": "(?:深入|进[一壹]步)探讨",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.971967+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_10",
+      "old": "(?:具有|有着)(?:重大|深远|重要)(?:理论|实践)(?:意义|价值)",
+      "new": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:09.977407+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_0",
+      "old": "(?:shed[s]? light|cast[s]? light) on",
+      "new": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.163118+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_en_3",
+      "old": "(?:further|additional|more) (?:research|study|investigation) (?:is |was )?(?:needed|required|warranted|necessary)",
+      "new": "(?:shed[s]? light|cast[s]? light) on",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.174021+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_0",
+      "old": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "new": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.178439+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_1",
+      "old": "有待(?:进[一壹]步|深入)(?:研究|探讨|分析)",
+      "new": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.179452+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_2",
+      "old": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "new": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.184777+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_3",
+      "old": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "new": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T01:53:10.184777+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_0",
+      "old": "to (?:the best of|our knowledge)",
+      "new": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.850114+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_1",
+      "old": "it'?s worth noting that",
+      "new": "at the (?:forefront|intersection) of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.857629+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_2",
+      "old": "in the realm of",
+      "new": "(?:delve|dive) into",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.868375+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_3",
+      "old": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "new": "(?:tapestry|myriad|plethora|cornucopia)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.875001+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_4",
+      "old": "at the (?:forefront|intersection) of",
+      "new": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.881419+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_5",
+      "old": "(?:tapestry|myriad|plethora|cornucopia)",
+      "new": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.888324+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_6",
+      "old": "the (?:multifaceted|nuanced|intricate) (?:nature|interplay|landscape)",
+      "new": "it'?s worth noting that",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.896559+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_8",
+      "old": "plays a (?:crucial|pivotal|vital|key) role",
+      "new": "to (?:the best of|our knowledge)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.932165+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_9",
+      "old": "(?:leveraging|harnessing|utilizing) (?:the|a) (?:power|potential)",
+      "new": "in the realm of",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.969370+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_11",
+      "old": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "new": "plays a (?:crucial|pivotal|vital|key) role",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.983528+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_12",
+      "old": "(?:holistic|comprehensive|robust) (?:approach|framework|understanding)",
+      "new": "(?:further|more) research (?:is (?:needed|required|warranted))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:33.992785+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_en_13",
+      "old": "(?:delve|dive) into",
+      "new": "It is (?:important|crucial|essential|worth noting) to (?:note|mention|emphasize)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.006315+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_0",
+      "old": "综上所述.{0,10}(?:本文|本研究)",
+      "new": "值得[注关]意的是",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.020701+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_1",
+      "old": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "new": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.026751+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_3",
+      "old": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "new": "(?:深入|进[一壹]步)探讨",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.039780+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_4",
+      "old": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "new": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.047308+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_5",
+      "old": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "new": "综上所述.{0,10}(?:本文|本研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.053327+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_7",
+      "old": "值得[注关]意的是",
+      "new": "(?:尽管|虽然).+(?:但是|然而).+(?:局限|不足)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.066749+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_8",
+      "old": "(?:首次|开创性|创新性地)(?:发现|提出|证明)",
+      "new": "(?:这[一壹]|该)(?:发现|结果)(?:具有|具有着?)(?:重要|深远)(?:意义|价值)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.073271+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_9",
+      "old": "(?:深入|进[一壹]步)探讨",
+      "new": "(?:为).+(?:提供.{0,5}(?:理论|科学|数据)(?:支撑|依据|参考))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.079764+00:00"
+    },
+    {
+      "action": "update",
+      "key": "ai_pattern_zh_10",
+      "old": "(?:揭示|阐明|展现了?).+(?:深刻|重要)(?:认识|理解|洞察)",
+      "new": "(?:扮演|起着)(?:关键|重要|核心)(?:角色|作用)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.087078+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_1",
+      "old": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "new": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.450618+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_2",
+      "old": "(?:为?).+(?:提供.{0,5}(?:参考|借鉴|依据))",
+      "new": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.460439+00:00"
+    },
+    {
+      "action": "update",
+      "key": "hollow_zh_3",
+      "old": "(?:对?).+(?:具有.{0,5}(?:指导|参考)(?:意义|价值))",
+      "new": "(?:丰富|完善)(?:了?)(?:相关|该领域的?)(?:理论|研究)",
+      "source": "ReviewKB",
+      "timestamp": "2026-06-11T04:48:34.468936+00:00"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment876(2023)162597
+ContentslistsavailableatScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Revisiting China's domestic greenhouse gas emission from wastewater
+treatment: A quantitative process life-cycle assessment
+⁎
+DengtingGuoa,b,BingLia, ,WeiYub,Jing-ChengHanc,YangZhouc,ZhilongYed,XiaofengWua,
+BrentYoungb,YuefeiHuanga,e
+aWaterResearchCenter,TsinghuaShenzhenInternationalGraduateSchool,Tsinghua,Shenzhen518055,China
+bDepartmentofChemical&MaterialsEngineering,UniversityofAuckland,0926,NewZealand
+cWaterScienceandEnvironmentalEngineeringResearchCenter,CollegeofChemicalandEnvironmentalEngineering,ShenzhenUniversity,Shenzhen518060,China
+dKeyLaboratoryofUrbanPollutantConversion,InstituteofUrbanEnvironment,ChineseAcademyofSciences,Xiamen361021,China
+eStateKeyLaboratoryofPlateauEcologyandAgriculture,QinghaiUniversity,Xining,Qinghai810016,China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+• GHGemissionsfromChina'sWSTindustry
+in2017were67.07MtCO-eq.
+2
+• CarbonfootprintsoftheWSTindustryin
+660Chinesecitieswerecompared.
+• Sevenlargecitiescontributedtonearly
+20%oftotalGHGemissions.
+• Effectsofsocial-economicindicatorson
+GHGemissionswereinvestigated.
+A R T I C L E I N F O A B S T R A C T
+Editor:KuishuangFeng Thewastewatertreatmentindustrycouldalleviatewaterpollutionbutconsumealargeamountofenergyandre-
+sources.Chinahasover5000centralizeddomesticwastewatertreatmentplantsandproducesanunignorableamount
+Keywords: ofgreenhousegases(GHG).Byconsideringthewastewatertreatment,wastewaterdischarge,andsludgedisposalpro-
+Greenhousegasemission cesses,andemployingthemodifiedprocess-basedquantificationmethod,thisstudyquantifieswastewatertreatment's
+Wastewatertreatment
+on-siteandoff-siteGHGemissionsacrossChina.ResultsshowedthatthetotalGHGemissionwas67.07MtCO-eqin
+Sludgemanagement 2
+2017,withapproximately57%ofon-siteemissions.Thetopsevencosmopolisandmetropolis(top1%)emittednearly
+Processlife-cycleassessment
+20%ofthetotalGHGemission,whiletheiremissionintensitywasrelativelylowduetothehugepopulation.This
+meansthatahighurbanizationratemaybeafeasiblewaytomitigateGHGemissionsinthewastewatertreatmentin-
+dustryinthefuture.Furthermore,GHGreductionstrategiescanalsofocusonprocessoptimizationandimprovement
+atWWTPsaswellasthenationwidepromotionofonsitethermalconversiontechnologiesforsludgemanagement.
+Abbreviations:WST,Wastewaterandsludgetreatment;WWTPs,Wastewatertreatmentplants;IPCC,IntergovernmentalPanelonClimateChange;LCA,Lifecycleanalysis;COD,Chemical
+oxygendemand;ODIM,Operationaldataintegratedmethods;MBR,Membranebio-reactor;GDP,Grossdomesticproduct;HRT,Hydraulicretentiontime;PCA,Principalcomponentanalysis;
+ANAMMOX,Anaerobicammoniumoxidation;GHG,Greenhousegas;EF,Emissionfactor;PAC,Polyaluminiumchloride;AO,Anoxic-oxic;AAO,Anaerobic-anoxic-oxic;SBR,Sequencingbatchre-
+actors;OD,Oxidationditch;TN,Totalnitrogen;DO,DissolvedOxygen;SRT,Sludgeretentiontime;AD,Anaerobicdigestion;PAM,Polyacrylamide;WO,Wetoxidation;BMA,Bridlemodelling
+approach.
+⁎
+Correspondingauthor.
+E-mailaddress:li.bing@sz.tsinghua.edu.cn(B.Li).
+http://dx.doi.org/10.1016/j.scitotenv.2023.162597
+Received29September2022;Receivedinrevisedform24January2023;Accepted27February2023
+Availableonline5March2023
+0048-9697/©2023ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+1.Introduction N OandCH emissions.Similarly,Huaetal.(2021)developedamulti-
+2 4
+levelGHGEFsframeworkandfoundthatthesevaluesindifferentprovinces
+Asoneofthemostenergy-intensiveindustries,greenhousegas(GHG) werelowerthanpublisheddata.Thisindicatedthattheconsiderationofthe
+emissionmitigationfromthewastewatertreatmentindustryhasbeenof differenceinvariouswastewatertreatmenttechnologiestoobtainamore
+greatconcerninrecentyears(Shresthaetal.,2022).Itwasreportedthat accurateresultisessential.Besides,ithasbeennoticedthatnoexisting
+thewastewatertreatmentindustryconsumes3-5%oftheglobalelectricity studyhasbeenfocusingondevelopingdifferentscenarios(fromWWTPs
+(Zhangetal.,2017a,2017b),andproduces1-5%ofacountry'stotalGHG tosludgedisposals)inthewholewastewatertreatmentsector.
+emissions(Zhangetal.,2021).Todevelopeffectivestrategiesforsucha ThisstudyaimstoquantifytheGHGemissionfromthedomestic
+largeamountofGHGemissions,itisimperativetoassesstheGHGemis- wastewatertreatmentindustryinChina,byconsideringwastewater
+sionsacrossthewastewatertreatmentsector.However,suchinformation treatment,wastewaterdischarge,andsludgedisposal.Datawerecol-
+wasonlyregularlyreportedbysomedevelopedcountries,butnotavailable lectedfromatotalof5282municipalWWTPsin660citiestoestimate
+formanyotherdevelopingcountries,whichismainlyattributedtoundis- bothon-siteandoff-siteGHGemissionsatthenationalscaleduring
+closeddataandtheuncertaintyofGHGinventories(Zhangetal.,2021). WSTbyusingtheprocess-basedIPCCmethod.Theon-siteGHGemis-
+Sometimes, GHG emission estimation is frequently overestimated or sionsarecalculatedfrombiologicalprocessesduringwastewatertreat-
+underestimatedduetoinconsistentdefinitionsofmitigationgoalsandun- mentandsludgedisposals,aswellaschemicaloxygendemand(COD)
+boundedsystemboundaries.Someimportantstages,suchassludgetreat- andtotalnitrogen(TN)discharge,whileoff-siteGHGemissionsare
+ment,watersupply,andwastewatercollectionaregenerallynotincluded fromtheconsumptionofelectricity,chemicalandfuelconsumption.
+(Shresthaetal.,2022).Itwasreportedthatsewagesludgemanagementoc- Withtheconsiderationofdifferentbiologicalwastewatertreatment
+curringoutsidewastewatertreatmentplants(WWTPs)mayalsoaccountfor processes,amoreaccurateresultwillbeobtainedcomparedwiththe
+anadditional40%ofGHGemissionsexceptfortheregularwastewater traditionalIPCCmethod.Moreover,thedataqualitywillbeverified
+treatmentprocess(Liuetal.,2013).Thus,itisimportanttoredefinethesys- byuncertaintyanalysisandsanitycheck.Thein-depthanalysisofdom-
+temboundarytoenableabetterunderstandingoftheemissionbaselineat inantsourcesindifferentscenariosinthewastewaterindustrycanfillin
+thenationalleveltosetupappropriateGHGreductionstrategies. agapinChina'sGHGsinventoryreportandsuggestfuturedevelopment
+GHGemissions(CO ,CH andN O)fromthewastewatertreatment policiesforGHGemissioncontrol.Additionally,theeffectsofregional
+2 4, 2
+processescouldbedividedintoon-site/directandoff-site/indirectemis- developmentcharacteristics,theWWTPscale,andoperationaltechnol-
+sions.On-siteGHGemissionisgeneratedfrombiologicalactivities,such ogyonGHGemissionswillbeanalyzed.
+asnitrification-denitrification,andaerobicandanaerobicdigestion(AD),
+whileoff-siteGHGemissionisproducedbytheconsumptionofelectricity 2.Methodology
+andchemicals,aswellasexternalactivitiesoutsideWWTPs,including
+thesludgetransportationanddisposals(Koutsouetal.,2018).Theon-site 2.1.Systemboundaryanddatasources
+GHGemissionatWWTPscanbemonitoredbyequipmentorestimatedby
+modelling,whileoff-siteGHGsarecalculatedbytheemissionfactor(EF) 2.1.1.Systemboundary
+ofenergyconsumption.Mostpreviousresearchhasestimatedbothon-site Initially,thisstudyplannedtocalculatetheGHGemissionfromthelife-
+andoff-siteGHGemissionsofasinglewastewater/sludgetreatmentplant cycledwastewatertreatmentindustryfromwastewatercollectionfromthe
+atthelaboratoryorfullscale(Quetal.,2019).Forexample,Xietal. sewersystem.However,duetodatalackingandasmallpercentageoftotal
+(2021) reported that the direct and indirect GHG emission from 50 emission(assumedtobenegligible)(IPCC,2021),theWSTindustryconsid-
+WWTPsinShanghaiwas0.24and0.51MtCO -eqin2016,withtheemis- eredinthisstudyincludesthreestages:wastewatertreatment,wastewater
+2
+sionintensityvaryingfrom0.268to0.738kgCO -eq/m3ofwastewater.At discharge,andsewagesludgedisposal,asdepictedinFig.1.Moreover,
+2
+largespatialscales,Zhaoetal.(2019)estimatedthatChina'surbanmeth- energyconsumptionembodiedinchemicalinputstowaterandwaste-
+aneemissionsfromatotalof2019WWTPswere29.2MtCO -eqin2014. watertreatmentprocesses(Scope3emissions)wasnotconsidereddue
+2
+Guoetal.(2019)alsoreportedthatthenationalGHGemissionfromthe tothelackofdata.Theotherreasonisthatthechemicalinputstageis
+wastewatertreatmentindustrywas31.40MtCO -eqin2016,and68%of upstreamofthewastewatertreatmentindustry,whilethescopeinthis
+2
+emissionscamefromdirectN OandCH .However,thesestudieswere studystartedfromwastewatertreatmenttosludgedisposal.Thesystem
+2 4
+notabletoprovideacomprehensiveunderstandingofspatialscalevaria- boundarybeginswithmunicipalwastewatertreatedattreatedWWTPs.
+tionofGHGemissionsforregulatingsuitablemitigationpoliciesatana- AtWWTPs,wastewaterfirstflowsthroughthegrid,gritchamber,pri-
+tionalscale. marysedimentationtank,andotherprimarytreatmentstructures,but
+WhenestimatingGHGemissionsatthenationallevel,Intergovernmen- organiccarbonintheseprocesseshasnotbeentransformed.Thisindi-
+talPanelonClimateChange(IPCC)standardisthemostpopularused catesthattheseprocessesdonotcontributetodirectGHGemissions,
+methodinthewastewatertreatmentsector.Koutsouetal.(2018)reported but electricity consumption will emit indirect CO emissions. After
+2
+thatthetotalGHGemissionfromdomesticWWTPsinGreecewas0.89Mt entering the biological treatment tank, the organic matter is first
+CO -eqperyear,with68.8%ofon-siteemissionsfromsludgelandfills adsorbedbymicroorganismsandthendecomposedintoinorganicsub-
+2
+(mostly CH ), and nitrification/denitrification (mostly N O). Shrestha stances,suchasCO ,CH ,H O,andNH throughmicrobialcatabolism
+4 2 2 4 2 3
+et al. (2022) estimated that the GHG emission from Nepal's WWTPs andanabolismatthesecondarysedimentationtank.Duringbiological
+wouldincreasefrom3.83MtCO -eqin2020to4.52MtCO -eqin2040, treatment,therearesixcommonlyusedbiologicalprocesses,suchas
+2 2
+and found that hybrid-constructed wetlands would reduce 69.20% of anaerobic-anoxic-oxic(AAO),anoxic/oxic(AO),oxidationditch(OD),
+GHGemission.Weietal.(2020)reportedthatalmost10.82MtCO -eq sequencingbatchreactors(SBR),membranebioreactor(MBR),andbio-
+2
+was generated from sludge management in China, with 45.11%, and film,whichemitdifferentconcentrationsofdirectGHGemission.
+23.05%comingfromincinerationandlandfill,respectively.However,the Atthesametime,anotherportionoforganicmatteristransferredtoex-
+IPCCmethodhasahighdegreeofuncertaintyduetovarieddifferencesin cess sludge through physical sedimentation, then is concentrated and
+countries, resulting in oversimplified results. As a result, the process- dehydrated,whichalsoproduceGHGemissioncausedbyelectricityand
+basedestimationmethodwithconsiderationoftechnologydifferences chemicalconsumption.ItshouldbenoticedthatCH emittedfromsludge
+4
+wasproposed(Liaoetal.,2020).Forexample,Xietal.(2021)compared ADisnotcalculatedinthisstudyduetoitssmallapplicationatWWTPs
+differentmethods,includingIPCCandoperationaldataintegratedmethods inChina(Guoetal.,2019).Finally,treatedwastewaterisdischargedto
+(ODIM)toquantifytheGHGemissioninatotalof50WWTPsinShanghai. thereceivingenvironment,andsludgewillbetransportedtoitsdestination,
+ResultsshowedthatIPCC2006methodunderestimated87%oftotalGHG suchaslandfillsitesandincinerationplants,etc.Duetothelackofaccessi-
+emissionsthanODIM,whichmainlyattributedtotheestimationofdirect bledata,sludgedisposalinChinawasclassifiedaslandfills,incineration,
+2
+
+--- Page 3 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Fig.1.ThesystemboundaryofaWSTindustry.
+andcomposting,whichisreferredtoassolidwastetreatment(SYUC, andsludgedisposal,isconductedbyaprocess-basedlifecycleassessment
+2017).Thegeologicalboundariesarethe31provincialadministrative method(PLCA),aspresentedinEq.(1):
+districtsinmainlandChina.Accordingtothedivisionofregionaleco-
+nomiczones,therearesixregionsinChinainthisstudy:thenorthernre- Ep¼AD(cid:2)EF (1)
+gion(Beijing,Tianjin,Hebei,Shanxi,InnerMongolia,andShandong),
+thenortheasternregion(Liaoning,Jilin,andHeilongjiang),theeastern whereEPisthetotalGHGemissions;ADreferstotheactivityamount,suchas
+region(Shanghai,Jiangsu,Zhejiang,Anhui,andFujian),thecentralre- theamountoftreatedwastewater(m3);EFistheemissionfactorofdifferent
+gion (Jiangxi, Henan, Hubei, Hunan, Chongqing, and Sichuan), the processes.
+southernregion(Guangdong,Guangxi,Hainan,Guizhou,andYunnan), Fig.2presentstheconceptualframeworkofGHGemissionqualification
+andthenorthwesternregion(Tibet,Shaanxi,Gansu,Qinghai,Ningxia, methodsinthisstudy.Theon-siteGHGemissionsaregeneratedfromdirect
+Xinjiang). sources,suchasbiologicalwastewatertreatmentprocessesatWWTPs,COD
+andTNdischarge,aswellassludgedisposals.However,directCO gener-
+2
+2.1.2.Datasources ated from biological decomposition is classified as biogenic carbon,
+Thebaseyearof2017wasusedforGHGemissionquantificationfrom which will be absorbed as plants grow with little influence on global
+theWSTindustryinthisstudy.Theoperationaldata,suchaswastewater warming(Shresthaetal.,2022).So,thisbiogeneticCO isnotincluded
+2
+TN,COD,electricityandpolyacrylamide(PAM)consumption,andselected inthecalculationandbalanceofcarbonemissions.Theuseofenergy,
+biologicaltreatmenttechnologyin5282WWTPswereobtainedfromthe chemicals, and fuel during wastewater treatment procedures, sludge
+StatisticalYearbookofUrbanDrainage(SYUD,2018)andListofUrbanOp-
+erationalWWTPs(LUOW,n.d.).Thesedataareusedforthecalculationof
+GHGemissionsfrom5282WWTPsandwastewaterdischargetoreceiving
+waterin660cities.Itshouldbenotedthatowingtoalackofdata,certain
+valuesatWWTPs(e.g.electricityconsumption)werecalculatedastheaver-
+agewastewatertreatmentcapacityorlocalwastewaterdischargestandard.
+Urbanpopulation,populationdensity,grossdomesticproduct(GDP),daily
+waterconsumption,fixedinvestment,thedensityofsewers,sludgeproduc-
+tion,andtheproportionofsludgedisposalmethods,etc.of660Chinese
+cities was gotten from the Statistical Yearbook of Urban Construction
+(SYUC,2017).ThesedatawereusedforthecalculationofGHGemissions
+fromwastewatertreatmentandsludgedisposals.Besides,theregional
+powergridbaselineemissionfactorofsixregionsin31provinceshas
+beencollectedbytheMinistryofEcologicalEnvironment(MEE,2017).
+Moredetailedinformationcouldbefoundintheappendix.
+2.2.GHGemissioncalculation
+ThequantificationoftotalGHGemissionfromtheWSTindustrythatcon-
+sidersthreestages,includingwastewatertreatment,wastewaterdischarge, Fig.2.TheconceptualframeworkofGHGemissionqualificationmethods.
+3
+
+--- Page 4 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+transportation,anddisposalsarethesourcesofoff-siteGHGemissions.It incineration(R2),andcomposting+landapplication(R3),arepresented
+shouldbenoticedthattheon-siteN OandCH emissionsfromWWTPs inEq.(4):
+2 4
+arecalculatedbyPLCAwiththeconsiderationofvariabilityinoperating
+conditionsandchangesintheinfluentload(Xietal.,2021).OtherGHG X660
+GHG SD¼ GHG R1(cid:2)K1;iþGHG R2(cid:2)K2;iþGHG R3(cid:2)K3;i ð4Þ
+emissionsfromdischargearereferreddifferentEFsfromexistingworks
+i
+and IPCC, which are further described in Sections 2.2.1 to 2.2.3. The
+GHGemissionsofN 2OandCH 4arepresentedbythevalueofCO 2equiva- Where,GHG R1,GHG R2,andGHG R3arethetotalCO 2-eqgeneratedfrom
+lent(CO 2-eq),andtheglobalwarmingpotential(GWP)ofCO 2,CH 4,and landfill,incineration,andlandapplication.K 1,K 2,andK 3arethepercent-
+N 2Ois1,25,and298,respectively(Kumaretal.,2021a). agesofthreesludgedisposalsin660cities(SYUC,2017).Specificcalcula-
+tionformulasforthreesludgetreatmentwaysareshowninEqs.(5)–(7):
+2.2.1.GHGemissionfromWWTPs
+Themajoron-siteGHGemissionatWWTPsisgeneratedfrombiological R1:GHG landfill¼GHGtþCO2−electricityþGHG dieselþGHG l−CH4
+wastewatertreatment,whileoff-siteGHGemissionisfromtheconsump- þCO2−biogentic ð5Þ
+tionofelectricityandPAM.However,duetothelackofdata,GHGemission
+fromPAMconsumptionispresentedatthemunicipallevel,whilethatof R2:GHG incineration¼GHG tþCO2−electricityþGHG coalþGHG i−CH4
+theotherthreesourcesisemployedatfull-scaleWWTPs(totalof5282). þGHG i−N2O ð6Þ
+TopreserveconsistencywithPAM,theresultsofGHGemissionsgenerated
+fromdirectN 2O,CH 4,andelectricityconsumptionarealsopresentedwith R3:GHG landapplication¼GHG tþCO2‐eq1þCO2‐electricityþGHG
+coal
+thedataatthecitylevel.ThetotalGHGemissionsateachWWTPinclude þCO2−avoid ð7Þ
+directN O(askgN O/y)andCH (askgCH /y),andindirectGHGfrom
+2 2 4 4
+electricity(askWh/y)andPAM(askg/y),asshowninEq.(2): where,GHG istheCO -eqproducedduringanaerobicdigestionduring
+l-CH4 2
+landfill,60.6kg/tdrysludge(DS)(Yinetal.,2010).CO isthebio-
+2-biogenetic
+5X;282 genicCO emittedfromlandfills,17.2kg/tDS(Hongetal.,2009).GHG
+GHGWT¼ TN removal;i(cid:2)EFw1;i(cid:2)GWPðN2OÞ(cid:2)44=28 andGHG2 Oemissi i- oC nH4
+aretheequivalentCO emissionsofCH andN s
+i¼1 i-N2O 2 4 2
+5X;282 5X;282 X660 fromsludgeincineration,0.049and0.99kgCO -eq/tDS(IPCC,2007).
+2
+þ COD removal;i(cid:2)EFw2;i(cid:2)GWPðCH4Þþ Wi(cid:2)EFw3;iþ Cp;i(cid:2)EFw4 CO 2-eq1istheequivalentCO 2emittedduringthesludgeaerobiccompost,
+i¼1 i¼1 i 210kgCO -eq/tDS(Weietal.,2020).CO istheCO -eqfromthe
+ð2Þ 2 2-avoided 2
+subsequentsludgelandutilizationintheformofreplacementchemicalfer-
+tilizer,66.8kgCO -eq/tDS(Liuetal.,2014).GHG istheCO -eqfrom
+where,TN andCOD aretheremovalamountofTN(TN - 2 t 2
+removal removal inlet sludgetransportation,whichispresentedasfollowed:
+TN effluent)andCOD(COD inlet-COD effluent)ateachWWTP.EF w1andEF
+w2
+aretheEFsofdirectN 2OandCH 4emissionsfromeachWWTPwithsix GHG ¼ðf1þf2(cid:2)25þf3(cid:2)298Þ(cid:2)Dt ð8Þ
+t
+kinds of biological treatment technologies. EFs of N O emission from
+2
+AAO,OD,SBR,AO,MBR,andothersare0.0043,0.0029,0.0279,0.035, whereD isthetransportationdistancefromWWTPstoeachsiteofthree
+t
+0.005,0.0038,and0.0082kgN 2O-N/kgTN,EFsofCH 4emissionfrom methods,whichisassumedas30km,70km,and30kmforlandfill,incin-
+AAO,OD,SBR,AOandothersare0.0034,0.0111,0.0043,0.0039,and eration,andlandapplication(Liuetal.,2013).Thedistanceofincineration
+0.0136kgCH 4/kgCOD,respectively(Xietal.,2021).44/28istheconver- islongerthanthatofsludgelandfillsbecauseincinerationashwillbe
+sionfactorofN 2O-NintoN 2O.W iistheelectricityconsumptionofeach transportedtolandfills.f 1,f 2,andf 3aretheeffectiveEFsofaverageGHGs
+WWTPperyear,kWh.EF w3istheregionalpowergridbaselineemission foraheavy-dutydieseltruckwitha20-tonloadunderChineseemission
+factorinChina(MEE,MinistryofEcologicalEnvironment,2017),which standardIV,whichwas2.6kgCO ,1.4×10-4kgCH ,and1.4×10−4kg
+2 4
+are0.968intheNorthregion,1.1082intheNortheastregion,0.8046in N Oforeachliterofdieselconsumption,0.2L/km(Liuetal.,2013).
+2
+theEastregion,0.9014intheCentralregion,0.8367intheSouthregion, GHG istheCO-eqofdieselusefromaerobiccompostandincinera-
+diesel 2
+0.9155inNorthwestregion,kgCO 2-eq/kWh.C Pistheconsumptionof tion,asshowninthefollowing:
+PAMatWWTPsforoneyear,kg.EF istheEFforPAMconsumption,
+w4
+1.5kgCO 2-eq/kg(Liuetal.,2013). GHG−diesel¼T1(cid:2)ðf4þf5(cid:2)25þf6(cid:2)298Þ ð9Þ
+2.2.2.GHGemissionfromwastewaterdischarge whereT 1isthedieselconsumptionfromthesludgelandfill,3.1Ldiesel/ton
+ThemainGHGsemittedfromreceivingwaterareN 2OandCH 4.N 2O (ChenandKuo,2016).f 4,f 5,andf 6aretheeffectiveEFofGHGsfromdiesel
+emissions(askgN 2O/y)andCH 4emission(askgCH 4/y)fromtreated consumption, which was 7.4 × 10−2 kg CO 2, 2.5×10-5 kg CH 4, and
+wastewaterdisposalintowaterways,lakes,andsea,aswellastherelevant 4.5×10-4kgN 2Oforeachliterofdieselconsumption(IPCC,2006).
+CO 2-eq(askg/y),werecalculatedbyEq.(3): CO 2-electricityistheCO 2-eqofelectricityconsumptionfromsludgeland-
+fill,incineration,andaerobiccompost,whichiscalculatedinEq.(10):
+5X;282
+GHG WD¼ TN effluent;i(cid:2)EF r1(cid:2)GWPðN2OÞ(cid:2)44=28 CO2−electricity¼ f7(cid:2)T2 ð10Þ
+i¼1 ð3Þ
+5X;282
+þ COD effluent;i(cid:2)EF r2(cid:2)GWPðCH4Þ wheref 7istheEFofelectricity,whichwas0.785kgCO 2/kWh(Weietal.,
+i¼1 2020).T 2istheelectricityconsumptionfromsludgelandfill,incineration,
+andaerobiccompost,whichwas219kWh/tDS,70kWh/tDS,and730
+where,TN effluentandCOD effluentaretheamountsofTNandCODintheefflu- kWh/tDS,respectively(Weietal.,2020).
+entsdischargedtotheaquaticenvironmentateachWWTP,kg/year.44/28 GHG istheCO -eqofcoalusedfromaerobiccompostandincinera-
+coal 2
+istheconversionfactorofkgN 2O-NintokgN 2O.EF r1andEF r2aretheEFs tion,asshowninthefollowing:
+ofN OandCH emissionsfromdischargedwastewater,0.005kgN O/kgN
+2 4 2
+discharged,0.25kgCH 4/kgCODdischarged(IPCC,2006). GHG coal¼T3(cid:2)ðf8þf9(cid:2)25þf10(cid:2)298Þ ð11Þ
+2.2.3.GHGemissionfromsludgedisposal whereT istheamountofcoalusedfromaerobiccompost(65MJ/tDS)
+3
+TheGHGemissionfromthreetechnicalrouteswithdifferentpropor- (Murrayetal.,2008)andincineration(8049MJ/tDM)(Liuetal.,2013).
+tionsofsludgedisposalineachcity(SYUC,2017),includinglandfill(R1), f ,f ,andf istheeffectiveemissionfactorofCO ,CH andN Oofcoal,
+8 9 10 2 4, 2
+4
+
+--- Page 5 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+which are assumed to be 0.098 kg/MJ, 0.25×10−4 kg/MJ, and uncertainties were based on the data sources (Hedbrant and Soeme,
+0.45×10−3kg/MJ,respectively(Weietal.,2020). 2001),whiletheuncertaintyofunknownswasdeterminedbyhowuncer-
+tainty spread across the system. The justified method is shown in
+2.3.Principalcomponentanalysis Eq.(13),andasimilarmethodologyhasbeenusedandvalidatedbyour
+previousresearch(Lietal.,2015).
+Datastandardizationisrequiredsincetheassessmentindicatorsaffect-
+ingthetotalGHGemissionfromtheWSTindustryarenotcomparablein 3.Resultsanddiscussion
+measurement.Principalcomponentanalysis(PCA)canretainthemostin-
+formationbyreducingthedimensionofvariablestoanewsubspacethat 3.1.WastewatertreatmentindustryinChina
+containsalargeamountofinterrelateddata.Thedirectionofthenewcoor-
+dinateaxisisdeterminedbythemaximumvariancecalculatedfromthe In2017,atotalof5282WWTPswereoperatedinChina,withatotal
+originalcoordinate(Lietal.,2019).Toinvestigatetherelationshipsbe- wastewatertreatmentcapacityof187Mt/d,serving0.77billionpeople
+tweensocial-economicfactorsandWST-relatedtraitsandtotalGHGemis- incitiesandtowns.Thetotalamountofwastewatertreatmentwasapprox-
+sions, twelve factors were chosen as input parameters, including imately58.62billiontons,producing10.53Mtdrysludge.Fig.3showsthe
+populationdensity,constructionland,fixedinvestment,GDP,dailywater amountofannualwastewatertreatmentcapacityandthedistributionof
+consumption and sewer pipeline density, treated wastewater volume, different biological wastewater treatment methods in 31 provinces
+treatedsludgevolume,aswellastheinfluentanddischargequalityofthe (SYUD,2018;LUOW,n.d.).Thedatafrom660citiesarepresentedatapro-
+pollutants(CODandTN). vinciallevelonthemapforbetterinspection.Insum,atotalof3358
+WWTPswereoperationalintheBeijing-Tianjin-Hebeiarea,YangtzeRiver
+2.4.Uncertaintyanalysis Delta, and Pearl River Delta, which togetheraccounted for 75.6 % of
+China's44.31billiontonsofannualwastewatertreatmentcapacity.This
+EFsusedinthisstudywerefromIPCC,governmentalreports,andre- maybebecausetheseurbanagglomerationsaretheareaswiththemostdy-
+portedpapers,whichbringsdataandsystemuncertaintiesduringcalcula- namiceconomy,thehighestdegreeofopenness,thestrongestinnovation
+tion. Thus,amethodanalyzingstandarddeviationsfromvariousdata ability,andthelargestnumberofmigrantworkersinChina.
+sourcestoapplyuncertaintylevelsbasedontheinformationsourceisse- CentralChinaoperated1145WWTPs,followedby444and335WWTPs
+lectedforuncertaintyestimation(Lietal.,2015).Table1showsthestan- inNorthwestandNortheastChina,respectively.However,thewastewater
+darddeviationsoftheestimatedvaluesthatdemonstratethedataquality. treatmentcapacityinNortheastChinawashigherthanthatinNorthwest
+Accordingtotheinformationsource(HedbrantandSoeme,2001),multi- China(15.58vs.11.02Mt/day).ThisisbecauseNortheastChinaisnational
+plyingtheaverageflowbytheappropriatefactorcanobtainthestandard heavyequipment,equipmentmanufacturing,andspecializedagricultural
+deviation of each stage during WST. For instance, if the number of productproductionbase,whileNortheastChinaistheleastunderdevel-
+WWTPswas1000,thestandarddeviationfactorofthedatasourceis0.1, opedareaeconomically,withlesspopulation.ODandAAOwerethetwo
+andthestandarddeviationwas100. wastewatertreatmentmethodsthatweremostoftenutilizedinChina,ac-
+TocalculatetheuncertaintiesofthedifferentEFs(calculatedvalue),itis countingfor23%and22%ofallWWTPs,respectively.Thisisbecause
+assumedthatallwastewaterorsludgetreatmentprocessesareindependent AAOandODhavetheadvantagesofrelativelystableoperation,craft,capa-
+andfollowanormaldistribution.Thecalculatedvalues,Q,havealinearre- bility,andeasymanagement(Liaoetal.,2020).AAOwasmoreprevalentin
+lationshipwiththeknowninputvalues,x ,x …x asshowninEq.(12): fiveprovinces,withtheorder:Jiangsu(42.9%)>Shanxi(36.2%)>Shan-
+1 2 n,
+dong(36.3%)>Guangdong(30.6%)>Liaoning(30.0%).
+Xn
+Q¼ βx ð12Þ Incontrast,only4.8%ofWWTPsatGuizhouusedAAO,while43.1%
+i¼1 i i and 18.6% chose OD and AAO to treat wastewater. Besides Guizhou,
+WWTPsinJiangxi,Henan,andAnhuialsopreferredOD,with68.4%,
+where,β isthecoefficientofeachinput.Thestandarddeviation(σ2 )ofan 54.7%,and48.9%ofthetotalnumbers,respectively.Theproportionof
+i Q
+unknownQcanbecalculatedbythesquarerootofthesummationofthe SBRandAOwassimilar,with6%and7%oftotalWWTPs,butLiaoning
+variancesoftheinputvaluesinEq.(13): wastheprovinceinfavourofAO(20.7%)andnearly29.8%ofWWTPsin
+YunnanselectedSBR.BiofilmandMBRonlyrepresented1–2%ofalltech-
+Xn
+σ2Q¼ β2σ2 ð13Þ nologies,withthehighestproportionof11.1%forMBRand8.9%forbio-
+i¼1 i i film in Beijing. Other technologies, such as activated sludge systems,
+secondarybiochemistry,cyclicactivatedsystemtechnology(CAST),and
+where,σ isthestandarddeviationforeachknowninput,x.SincemostEFs cyclicactivatedsludgesystem(CASS)accountedfor39%.Unexpectedly,
+i i
+werecollectedfromIPCC,governmentalreportslikeIPCCandMECC,are WWTPsinTibetallchoseothertechnologies,andsomeprovincesinNorth-
+themostwidelyuseddataincurrentlypublishedpapers.However,EFsof westChina(e.g.Ningxia,Xinjiang,andGansu)hadahighrateofother
+differentwastewatertreatmenttechnologieswerefromdifferentmonitored technologies,whichmaybeattributedtolesswastewaterproductionand
+datawithrelativelylargeuncertainty.So,inthispaper,theauthorchecked relativelydispersedhouseholdsintheseregions.
+the data quality through two methods: i) more monitored EFs were Sludgeproductiontrendsindifferentprovincesmatchedthoseofwaste-
+collectedtocalculatetheaveragevalueofdifferentwastewatertreatment watertreatmentcapacity.However,infrastructureandmanagementaffect
+technologies,whichcanbefoundinsupportinginformation;ii)results theprocessselection,resultingindifferentsewagesludgeproductivity
+werevalidatedthroughconsistencycheckinsupportinginformationby (Wangetal.,2016).Forexample,AAOandODproducemoresewage
+comparing with the published paper if possible known process sludgethanSBRandMBRprocesses.Thisalsocanbeonereasonformore
+Table1
+Uncertaintyfactorsfordifferentdatasources(Lietal.,2015).
+Level Factor Informationsource Example
+1 0.05 Officialstatisticsreports IPCC
+2 0.1 Publishedpaperwiththecalculationmethod EFsofdifferentwastewatertreatmentprocesses
+3 0.2 Officialstatisticsscaleduptoacountryscale EFsofelectricityconsumption
+4 0.33 Webinformationwithoutcalculationmethod /
+5
+
+--- Page 6 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Fig.3.ThedistributionofWWTPsandtheproportionofdifferentwastewatertreatmentprocessesin31provinces(SYUD,2018,LUOW,n.d.).
+sludgeproductioninEastChinathaninNorthwestChina.Thetotaldry alllocatedinNorthChina.Themainreasonmightbepolicyrestrictions,
+sludgeproductioninChinain2017was10.53Mt,with9.51Mt,beingfur- safety,landresource,cost,etc.(Weietal.,2020).
+thertreated.Nearly10.7%ofsludgewasdirectlydischargedwithoutany
+propertreatment,butthepercentagewaslowerthanthatreportedby 3.2.QuantificationofGHGemission
+Zhangetal.(2016).Thisindicatesthatthegovernmentshavefocused
+moreonsludgetreatmentinrecentyears,notemphasizingthequalityof 3.2.1.National-levelanalysis
+dischargedwastewateraftertreatment.Itwasamazingthatonly46.6%of GHGemissionfromChina'sWSTindustrywas67.07MtCO -eqin
+2
+sludgewastreatedinNortheastChina,whilethesludgetreatmentrate 2017.Nearly57%ofGHGemissions(37.83MtCO -eq)werefromdirect
+2
+was>90%intherestfiveregions. sources,whilemostoftheindirectemissionswereduetotheconsumption
+Fig.4illustratestheamountoftreatedsludgeandpercentagesofthree ofelectricity,PAM,coal,anddiesel.TheproportionofvariousGHGtypesat
+sludgedisposalmethodsin31provinces(SYUC,2017).Guangdong,Bei- thethreeWSTstagesisshowninFig.5.ThelargestsourceofGHGemis-
+jing,andZhejiangtreatedthemostsludge,accountingforapproximately sions (46.94%) was fromWWTPs, which generated 31.48 Mt CO -eq.
+2
+40% of total sludge production. 56.5% of sludge was still landfilled, Due to complicated sources of GHG emission at WWTPs, 64.03% and
+whichwassimilartothevalue(50%)reportedbyZhangetal.(2016).Be- 23.52%ofGHGemissionswerefromelectricityconsumptionanddirect
+sides,nearly40%ofsludgewastreatedbyincineration,whileonly3.5% N O,followedby12.02%generatedfromdirectCH ,whilePAMonlyac-
+2 4
+bycomposting.CitieswithhighGDPandlargesludgeproductionvolume countedfor0.43%.ThefindingsaresimilartotheworkstudiedbyChai
+tendtochooseincinerationbecausethistechnologycouldeffectivelyre- etal.(2015),whoreportedthatthelargestGHGemissionswerefrombio-
+ducesludgevolume,butrequiresmorecostforfueluseandequipment. logicaltreatmentandelectricityatWWTPs,whileindirectemissionsfrom
+Somecitiesevenhavea100%incinerationrate,suchasJiangyin,Wuxi, chemicalsonlyaccountedfor0.18%oftheoverallemission.
+Shihezi,Dali,etc.ProvincesinEastChinaexhibitedthehigherincineration GHGemissionfromsludgetreatmentandreceivingwaterwasquite
+rate,whichwasintheorder:Jiangsu(74.2%)>Fujian(62.3%)>Zhejiang similar,accountingfor27.28%and25.78%oftotalemissions,respectively.
+(56.7%)>Anhui(54.7%)>Shanghai(48.6%). Atthewastewaterdischargestage,almost86.31%ofemissionsoriginated
+Interestingly,theincinerationrateofHainanandYunanwasrelatively from CH , which is attributed to higher EF (0.25 kg CH /kg COD
+4 4
+high,with68.9%and55.2%,respectively.Incontrast,therestprovinces discharged)thanN O(0.005kgN O/kgNdischarged).Comparedwith
+2 2
+hadlessthana50%incinerationrate,butmorethana50%landfillrate. thewastewaterdischargestage,sourcesfromsludgetreatmentanddisposal
+Inparticular,>60%ofsludgewastreatedbylandfillinallprovinceslocated arequitecomplicated.Sludgedisposalcontributesequallytoon-siteand
+inNorthwestChina,with100%and98.1%landfillratesinShaanxiand off-siteGHGemissions,withrespectivesharesof51.14%and48.86%of
+Qinghai,respectively.Thisismainlybecauseofthehugelandresourcein thetotalemissions.DirectCH constituted43.70%oftotalemissionsat
+4
+NorthwestChinaandthecostoflandfillsisrelativelythecheapestway. thisstage,whichismainlygeneratedfromanaerobicreactionsduringthe
+Theproportionofsludgecompostingwasrelativelylower,rangingfrom0 landfill.48.75%ofGHGemissionfromsludgedisposalwasproducedbyin-
+to17.3%.Thetopthreeprovinceswiththehighestcompostingratewere directN OandCO duetotheconsumptionofcoal,andelectricity.Among
+2 2
+Beijing(17.3%),Heilongjiang(12.6%),andLiaoning(8.2%),whichare the three disposal ways, the largest GHG emissions among the three
+6
+
+--- Page 7 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Fig.4.Treatedsludgevolumein31provinces(SYUC,2017).
+disposalmethodswerefromincineration(9.43MtCO -eq),followedby only0.43MtCO -eqwasproduced,with65.06%and23.84%fromelectric-
+2 2
+landfills(8.44MtCO -eq),andcomposting(0.43MtCO -eq).Coalac- ityconsumptionandtheactionofaerobicmicroorganisms.Inaddition,
+2 2
+countedforthemajorityoftheincineration(77.80%),whichmaybebe- thetransportationofsludgeonlycontributed1.29%oftheoverallGHG
+causesludgehasarelativelylowcaloriccontent,whichincreasestheuse emissions.
+ofexternalfuel(coal),thusraisingGHGemissions.Thereasonforrelatively Basedontheaboveanalysis,thekeycontributorstoGHGemissionsare
+highGHGemissionscausedbylandfillsismainlyattributedtoitshighest electricityconsumptionatWWTPs,coaluseatincinerationplants,CH gen-
+4
+proportion(46.16%)amongthreeways.Moreover,CH fromtheanaerobic eratedfromlandfills,andCH fromreceivingwater.Thismeansthatthe
+4 4
+reactionwasthepredominantsource,accountingfor94.55%ofthetotal most efficient stages for GHG mitigation are the electricity-saving at
+emissionfromlandfill.Only3.5%ofthesludgewascomposted,hence WWTPs,therenewableenergyusedduringincineration,andtheCODde-
+creaseindischargedwastewater.Furthermore,apotentialwaytoreduce
+off-siteenergyuseduringWSTisthroughtheuseofCH fromlandfills
+4
+andAD.LiandFeng(2018)claimedthatusingbiogascanmakeup50%
+ofenergyconsumptioninChineseWWTPs.However,thebiogasgenerated
+fromADneedsextrapurification,whichmightresultinmoreindirectGHG
+emission.
+GHGemissionsfromtheWSTindustryaccountedfornearly0.69%of
+totalemissionsin2017,whichwassmallerthanthatinotherdeveloped
+countries.Thereasonmightbeattributedtothehighproportionofdifferent
+industries:steel,cementandpapermill,etc.(Guoetal.,2019).Uptonow,
+fewstudieshavereportedthenationalGHGemissionfromthewastewater
+treatmentindustry,asshowninTable2.Insummary,thelongersystem
+boundaryistoblameforthesubstantiallygreaterprojectedvalueofGHG
+emissionsfromtheWSTindustryinChinacomparedtopreviousresearch.
+However,whenonlyconsideringGHGemissionsfromWWTPs,theresult
+wasquitesimilartothatinGuoetal.'swork(31.48vs.31.40MtCO -eq).
+2
+WhencomparingtheaverageGHGemissionproductionpercapitaand
+dayofdifferentcountries,resultsrangedsignificantlyfrom0.11to0.46.
+Theaverage GHGemissionintensityperpersonperdayinChinawas
+0.13kg,whichwasquitesimilartotheresultsreportedbyZhouetal.
+(2012)andGuoetal.(2019)whichcalculatedGHGemissionfromwaste-
+watertreatment.Inparticular,Koutsouetal.(2018)andNoyolaetal.
+Fig.5.ThedistributionofdifferentGHGemissionsduringthreeWSTstages. (2016)estimatedtheannualaverageGHGemissionwas0.21and0.29
+7
+
+--- Page 8 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Table2
+ComparisonofstudiesforestimatednationalGHGemissionsfromthewastewatertreatmentindustryindifferentcountries/regions.
+Country/region TotalGHG(Mt CO2 CH4 N2O Method Averageproduction Base WWTP Scale Ref.
+CO2-eq) (Mt) (Mt) (Mt) (kg/person/day) year number
+China 67.07 25.54 1.29 0.051 PLCA 0.13 2017 5282 Threestages Thisstudy
+China 53.26 0 1.06 0.1 IPCC 0.15 2009 2192 WWTPs Zhouetal.(2012)
+China 31.4 10.05 0.075 0.027 IPCC 0.11 2016 4298 WWTPs Guoetal.(2019)
+Greece 0.76 0.62 0.0035 0.00019 BMA 0.21 2016 220 Threestages (Koutsouetal.,2018)
+Iran 4.40 0.90 0.14 0.0015 IPCC 0.15 2017 195 WWTPs (Nayebetal.,2019)
+Nepal 3.83 0 0.12 0.0013 IPCC 0.36 2020 / WWTPs (Shresthaetal.,2022)
+Mexico 12.24 1.25 0.44 0 IPCC 0.29 2010 2186 WWTPs (Noyolaetal.,2016)
+Queensland 9.9 / / / IPCC 0.46 2008 35 Watersupplyandwastewaterservices (Halletal.,2011)
+India 7.3 / / / IPCC / 2013 101 Waterandwastewaterservices (Singhetal.,2017)
+BMA:bridlemodellingapproach.
+percapitaanddayinGreeceandMexico,respectively,whichwaspretty 57.02% of total GHG emissions, with the order: Guangdong (7.95
+higherthanthatinChinainthisstudy.ThisvalueinGreecewasrelatively Mt)>Shandong(6.32Mt)>Jiangsu(5.42Mt)>Zhejiang(5.09Mt)>Bei-
+higherthanthatinChinamaybebecausetheBridlemodellingapproach jing(4.08Mt)>Hebei(3.53Mt)>Henan(2.99Mt)>Sichuan(2.87Mt).
+(BMA)wasusedintheGreekestimationwhileotherstudiesallusethe The GHG emission of other provinces varied from 0.031 Mt CO -eq
+2
+IPCCapproach.Contrarily,despitesolelyaccountingforGHGemissions (Tibet)to2.58MtCO -eq(Liaoning).
+2
+fromWWTPs,Mexico'syearlyaverageproductionGHGemissionintensity GuangdonghadthemostGHGemissionsfromwastewaterdischarge,
+isgreaterthanChina's,whichismostlyattributabletovariationsintheEF andsludgedisposal(15.61%,and14.98%),whereasShandong,hadthe
+employed. highestemissionsfromWWTPs(10.86%).Themainreasonmightbeattrib-
+utedtotherelativelylargerwastewaterquantityandhigherEFofelectricity
+3.2.2.Province-levelanalysis usageinShandong.Shandong,Guangdong,Jiangsu,Zhejiang,andHebei
+Fig.6presentsthetotalGHGemissionduringthethreestagesofthe contributedto40.54%,43.36%,and43.96%ofthetotalGHGemissions
+WSTindustrydistributedineachprovince.TheprovincialGHGemission fromtheWSTindustry,respectively.Thismightbecausedbythefact
+volume(Mt/y)isshownbyacolourchangefromlighttodarkgreen,and thattherelativelyhugepopulationandhigherurbanizationproducetre-
+the pie charts represent the percentage of each WST stage. Overall, mendouswastewaterandsludge.Sincedevelopedprovincesusuallyhave
+numeroussignificantmetropolitanagglomerations,includingtheBeijing- higherGDP,thosefundsmightbeinvestedinthecreationofcutting-edge
+Tianjin-Hebeiarea,YangtzeRiverDelta,andPearlRiverDelta,account technologyforthewastewatertreatmentsectortoreduceGHGemissions.
+forthemajorityoftheGHGemissions(59.74%).Thespatialdistribution Atthesametime,someenergyproductionandresourcesrecoverytechnol-
+wasbasicallyinlinewiththedevelopmentprocessofurbanwastewater ogiesatWWTPscouldgreatlysupplementtheexternalelectricityusageand
+treatmentfacilitiesinChina.Tobespecific,eightprovincesemittedalmost sourcessupplement,whichmayrealizecarbonneutralityinthefuture(Qu
+Fig.6.TotalGHGemissionsdistributedineachprovince(MtCO-eq).
+2
+8
+
+--- Page 9 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Fig.7.GHGemissionintensitydistributedineachprovince(kgCO-eq/person/day).
+2
+etal.,2022).Somethermalsludgetreatmentmethods,suchascarboniza- significantly,accountingfor25.94–61.49%and8.49–47.00%oftotalemis-
+tion,gasification,andpyrolysis,wereproposedtobeabletonotonly sions,respectively.AlthoughTianjinemittedcomparativelyfewerGHG
+significantlyreducesludgevolumebutalsoachievenetGHGemission emissionsthanotherprovinces,itproducedthegreatestproportionof
+(Nakakuboetal.,2017;Marazzaetal.,2019). N O emissions (47.00%), while its proportion in other provinces was
+2
+ThedistributionofGHGemissionintensityineachprovinceisshownin smallerthan35%.Inmostprovinces,themaincontributortoGHGemis-
+Fig.7.ThisindicatedasignificantdifferencebetweentheSouthernand sions is CH . Moreover, most provinces located in Northern regions
+4
+NorthernregionsinChina,rangingfrom0.52kg/person/dayinBeijingto accountedforahigherproportionofCH andCO emission,whichmay
+4 2
+0.025kg/person/dayinTibet.Therewere12provinceswithhigherinten- be explained by higher EF and relatively low discharge standards
+grid
+sitythantheaveragevalue(0.13),andmostofthemarelocatedinNorthern (lower COD effluent). Tibet emitted the fewest GHG emission (0.035 Mt
+andNorthwesternChina.TheNorthernregionhadhigherGHGemissionin- CO -eq),with61.50%fromCH emission.However,theN Oemission
+2 4 2
+tensitythantheSouthernregion,whichmightbeattributedtothehigher showedanoppositetrend,withahigherproportioninNorthregionsthan
+concentrationofinfluentpollutantsatWWTPsandhigherindirectGHG thatinSouthregions.Therefore,particularactivitiestowardsdifferent
+emissionintensityfrompowerconsumption.Tobespecific,theNorthern reasonscausingGHGs,suchasCODdischargestandards,sludgedisposal
+region'sdrainagesystemcannotdilutethewastewaterduetolessexternal methods,energytypes,etc.,shouldbeconsideredtomitigateGHGemis-
+water,suchasrainwaterandgroundwater,resultinginmoreon-siteand sionsduetothevaryingemissionlevelsandfeaturesindifferentregions
+off-siteGHGemissionsfromtheremovalofthehighcontentoforganics inChina.
+inwastewater.Additionally,duetorelativelylowertemperaturesinwinter
+intheNorthernregion,someactions,suchasincreasedaeration,andther- 3.2.3.City-levelanalysis
+malinsulation,areconductedtoensuremicrobialefficiency,whichin- ThefrequencycountsandaccumulativeplotoftotalGHGemissionand
+creasestheindirectGHGemissionfromelectricityconsumption. emissionintensityfor660citiesarepresentedinFig.9.Frequencyresults
+Fig.8showsthecompositionoftheCO -eqfromthreedifferentGHGsin showthattheaveragetotalGHGemissionoftheWSTindustrywas0.11
+2
+31provinces.TheannualemissionsofCO ,CH andN Oemissionfrom MtCO -eq,ofwhich78.37%ofthecityemissionsrangedfrom0.0001to
+2 4, 2 2
+theWSTindustrywere25.12,26.72,and15.22MtCO -eq,respectively. 0.10MtCO -eq.Itshouldbenoticedthatsevencities(top1%)withthe
+2 2
+Shandong,Guangdong,Jiangsu,andZhejiangwerethetopfourbiggest highestGHGemissionarenotincludedinFig.9(a),duetolargervalue
+emittersofCO ,CH andN Oemissions,accountingfor36.73%(9.23 andsmallsamplesize.Fig.10(a)showsthespatialdistributionoftotal
+2 4, 2
+MtCO -eq),36.18%(9.67MtCO -eq),and38.61%(5.88MtCO -eq)of GHGemissionsinnearly350prefecturecities.Nearly20%ofallemissions
+2 2 2
+totalemission,respectively.Incontrast,TibetgeneratedtheleastGHG camefromthetop1%ofcosmopolisandmetropoliscities,withtheorder:
+emission,with0.0094MtCO -eq,0.19MtCO -eq,and0.0027MtCO-eq Beijing(4.08MtCO -eq)>Shenzhen(2.76MtCO -eq)>Tianjin(1.47Mt
+2 2 2 2 2
+ofCO ,CH andN Oemissions,respectively.TheCO andN Oemissions CO -eq) > Shanghai (1.42 Mt CO -eq) > Chengdu (1.37 Mt CO -
+2 4, 2 2 2 2 2 2
+ofotherprovincesvariedfrom0.070and0.020MtCO -eq(Qinghai)to eq)>Guangzhou(1.24MtCO -eq)>Chongqing(1.14MtCO -eq).Partic-
+2 2 2
+1.64and0.94MtCO -eq(Beijing),whileCH emissionswere0.073–1.50 ularly,Beijingwasthebiggestemitter,accountingfor6.09%oftotalGHG
+2 4
+MtCO -eq. emissions.AllthesecitiesaremunicipalitiesdirectlyundertheCentralGov-
+2
+TheratiosofthethreemajorGHGkindsineachprovincevarysignifi- ernment,oreconomicallydevelopedcoastalcities,withthelargerpopula-
+cantly.ThepercentageofCO emissionwasrelativelyconcentratedfrom tion, higher GDP, and more developed industries which means these
+2
+24.82% to 45.77%, while that of CH and N O emissions varied citiesproducewastewaterproduction,resultinginhigherGHGemissions.
+4 2
+9
+
+--- Page 10 ---
+D.Guoetal. ScienceoftheTotalEnvironment876(2023)162597
+Fig.8.TotalCO (a),CH (b),andNO(c)emissionsin31provinces.
+2 4 2
+Moreover,167cities(top1.1%to20%)generated51.34MtCO -eq,con- In2017,theaverageemissionintensityofthewastewatertreatmentin-
+2
+tributingto76.54%ofthetotalemission. dustrywas0.13kgCO -eq/person/day.Theemissionintensityof90.77%
+2
+MostcitiesaresituatedinEasternChina,whileafewcitiesarelocatedin ofcitieswassmallerthan0.50kgCO -eq/person/day,asshowninFig.9
+2
+WesternChina,includingAltay,Urumqi,Kunming,Honghe,Yinchuan, (b).ThepercapitaCO -eqemissionofChinesecitiesmainlyshowsanin-
+2
+Lanzhou,Xining,Deyang,Mianyang,Nanchong,andLeshan.Incontrast, creasingtrendfromsouthwesttonortheast,butseveralcitieslocatedin
+the rest 529 cities only emitted nearly 14% of GHG emissions from northwesternChinahadrelativelyhigheremissionintensity.Itisinterest-
+China'sWSTindustry.Thesecitiesaremainlyunderdeveloped,andrela- ingthatalthoughcosmopolis(e.g.Beijing,Shenzhen,Guangzhou,Shang-
+tivelylowurbanizationlevelcitieslocatedintheNorthwesternandSouth- hai) and metropolis (e.g. Chengdu, Chongqing, Hangzhou, Suzhou)
+easternregions.Thisindicatesthatdevelopedcitieswithgreateroverall emittedhighertotalGHGemissions,theemissionintensitywasrelatively
+emissionsshouldbetheinitialtargetsforGHGemissionreduction.The low(0.41–0.63kgCO -eq/person/day).Therationalemightbethatthese
+2
+mainstrategycanbeconductedbyWWTPsupgradingbyenergyrecovery citieshavehigherpopulationdensity,highertechnologicallevels,more
+technologiestoreduceoff-siteGHGemissions,whichmayfullyoffsetthe reasonableeconomicstructure,andenergystructure,aswellasacertain
+energyconsumptiondemandforitsoperation(Sanchoetal.,2019).Then, degreeofscaleeffect(Wangetal.,2020).Moreover,hightotalGHGemis-
+duetotremendoussludgeproductioninlarger-scalecities,thesludgether- sionbylowemissionintensityincosmopolicitiesalsorevealsthatpopula-
+malconversiontechnologiesrealizingbothsludgevolumereductionand tionagglomerationmaydecelerateclimatechange,whichhasbeenproven
+GHGmitigationmightbeagoodchoiceinthesedevelopedcities.Forexam- byChengetal.(2022).Asacorefeaturetopromoteboththequantityand
+ple,acarbonizationco-digestionsludgesystemcouldachievenet219GJ qualityofsocio-economicdevelopmentinChina,urbanizationispromoted,
+energyandreduce25%GHGemission,withzeroN Oemissionbyutilizing butqualityratherthanrateisarealconcernneededtoobtainmoreefficient
+2
+biochar(Nakakuboetal.,2017). andenvironmental-friendlycities.Besides,itisinterestingthatAltayhas
+Theintegratedpyrolysissystemcouldalsoachievenetenergyoutput, thehighestvalueof2.67kgCO -eq/person/day(10timeshigherthan
+2
+whenvolatilesolidsintotalsolids(VS/TS)>63%(LiandFeng,2018). the average value) in 2017, followed by 1.54, 1.53, 1.13, 1.27, and
+However,thesetechnologiesarestudiedatalabscale,whichneedsmore 1.03 kg CO -eq/person/day in Jiaxing, Erdos, Shaoxing, Jinhua, and
+2
+attemptsforlarge-scaleapplication.Besides,equipmentinvestmentand HulunBuir,respectively.Altay,Erdos,andHulunBuirarepastoralareas
+operationalcostsforthesenoveltechnologiesareexpensive,whichisan- wheremorebeefandmuttonareconsumedandthushashighGHGemis-
+otherchallengeforitsexpansioninmiddle-scalecitieswithouttoomany sion,whichmightbecausedbytheirhighCOD,nitrogen,andphosphorus
+funds. intheslaughterhousewastewater(Adouetal.,2022).Moreover,thereason
+10

@@ -1,0 +1,568 @@
+--- Page 1 ---
+Applied Water Science (2021) 11:180
+https://doi.org/10.1007/s13201-021-01484-4
+ORIGINAL ARTICLE
+Minimizing greenhouse gas emissions of an industrial wastewater
+treatment plant in terms of water–energy nexus
+Pelin Yapıcıoğlu1 · Özlem Demir1
+Received: 7 May 2021 / Accepted: 23 August 2021 / Published online: 5 November 2021
+© The Author(s) 2021
+Abstract
+In this paper, (CO ) and methane (CH ) emissions of an industrial wastewater treatment plant were monitored. GHG emis-
+2 4
+sions originated from treatment processes were considered as the direct emissions and determined using closed chamber
+method. GHG emission due to energy consumption was regarded as the indirect emissions. In the second stage of the study, it
+was aimed to reduce GHG emissions in terms of water–energy nexus. If the plant is operated under design conditions, energy
+consumption would be lower according to water–energy nexus. Also, the effect of design conditions on GHG emissions was
+investigated. Firstly, the correlation was defined between GHG emissions and operational parameters in terms of chemical
+oxygen demand (COD) and wastewater flow rate using Monte Carlo simulation. Then, design COD and wastewater flow rate
+were simulated to determine the possible GHG emission for each month. The simulation results show that minimization of
+GHG emissions might be possible if wastewater plant is operated under design conditions. The minimum greenhouse gas
+emission in the result of the simulation study is 8.25 kg CO -eq/d if the plant is operated under design COD and flow rate.
+2
+Total reduction in GHG emissions is approximately 30% if the plant is operated under design conditions.
+Keywords Industrial wastewater treatment · Greenhouse gas emissions · Reduction · Design conditions · Water–energy
+nexus
+Introduction
+quality. Especially, electricity consumption mainly generates
+GHG emissions in the WWTPs. Greenhouse gas emissions
+Greenhouse gas (GHG) emissions from wastewater treat- could be grouped under two main headings as the direct
+ment plants have become a current focus and are consid- and indirect emissions (Parravicini et al. 2016). The direct
+ered as one of the main environmental challenges, in the GHG emissions for wastewater treatment plants mean to the
+last decade. According to Intergovernmental Panel on Cli- emissions generated in the sewage collection and discharg-
+mate Change (IPCC) Directive, GHG emissions are mainly ing points. The other direct emission resource is wastewater
+resulted from anthropogenic activities (IPCC 2014). Waste- treatment units. The indirect GHG emissions are caused by
+water treatment plants (WWTPs) are one of these anthropo- electricity consumption, chemical use and transfer, sludge
+genic resources (Kumar et al. 2021). The main greenhouse handling and stabilization processes. Total greenhouse
+gas generation points of WWTPs are treatment processes, gas emission is the sum of these emissions (Masuda et al.
+energy consumption, chemical use, sludge stabilization pro- 2015; Parravicini et al. 2016). In this study, the emissions
+cesses, planned maintenance operations and transportation due to wastewater treatment processes are considered as
+in the plant (IPCC 2014). The major emissions resources the direct emissions. Indirect emissions of the plant are the
+of WWTPs are energy consumption and biological, chemi- emissions resulted from electricity consumption. Indirect
+cal and biochemical treatment processes to obtain effluent GHG emissions are originated from water–energy nexus.
+The water–energy nexus evaluation tool is a kind of sys-
+tematic approach that underlines the relationship between
+*
+Özlem Demir
+water and energy (Landa-Cansigno et al. 2020; Yapıcıoğlu
+odemir@harran.edu.tr
+and Yeşilnacar 2020). It is clear that energy is a need for
+1 Engineering Faculty, Department of Environmental water treatment and distribution. Besides, energy is not
+Engineering, Harran University, Osmanbey Campus, only directly utilized for water production, distribution and
+Şanlıurfa, Turkey
+Vol.:(0112 33456789)
+
+--- Page 2 ---
+180 Page 2 of 14 Applied Water Science (2021) 11:180
+treatment, but also is depleted for cooling, pumping and strategic policies to minimize GHG emissions (Kumar
+heating. However, several researchers disregard wastewater et al. 2021). Many approaches contain greenhouse gas
+treatment technologies as insignificant for the water–energy modeling, empirical models based on emission factors
+nexus, focused on more on water consumption in the energy (IPCC, 2014; Kumar et al. 2021), elementary and compar-
+sector. Freshwater bodies are regarded as important sources ative models depending on the process and dynamic and
+of greenhouse gas to the atmosphere (Kumar et al. 2019a). steady-state models (Guo and Vanrolleghem 2014; Mannina
+Also, water, wastewater treatment and distribution processes et al. 2016; Pata and Kumar 2021; Kumar et al. 2019b).
+emit GHG emissions considering water–energy nexus. In Mathematical modeling of GHG emissions is based on two
+fact, energy consumption of the WWTPs should be a cru- main approaches. These approaches are the dynamic com-
+cial consideration of the water–energy nexus. The energy parative models and steady-state process models (Mannina
+consumption of a wastewater treatment plant is identified et al. 2016). These models include emission factors, plant
+by both operational and design parameters containing the characterization such as influent and effluent values, waste-
+technique carried out in the treatment process, the size of water flow, allowable discharging standards. The numerical
+the plant, effluent water standards, influent wastewater char- methods are supported by a software or GHGs emissions
+acterization, the volume of wastewater treated and the pol- monitoring. The other method for GHG estimation is gas
+lutant load of the inlet wastewater (Castellet-Viciano et al. monitoring and using simple equilibrium model with moni-
+2018, Metcalf and Eddy 2014). Among them, energy need toring gas concentrations. Also, experimental studies have
+of a plant majorly depends on operational parameters that been carried out using gas chromatography and micro-gas
+are the volume of wastewater treated (flow rate) and organic sensors. Masuda et al. (2015) observed the seasonal varia-
+load (biological oxygen demand (BOD), chemical oxygen tion of greenhouse gas emissions in a wastewater treatment
+demand (COD), total suspended solid (TSS), fats, oil and plant using gas sampling and monitoring method (Masuda
+grease (FOG), etc.) (Metcalf and Eddy 2014; Yapıcıoğlu and et al. 2015). The other study based on GHG monitoring was
+Yeşilnacar 2020). In order to reduce greenhouse gas emis- carried out by Rodriguez-Caballero et al. (2014). Using
+sions, energy consumption should be limited considering commercial software is a widespread method to determine
+these parameters. It is considered that energy consumption the GHG emissions. The main commercial software sup-
+would be lower if the plant is operated under design condi- ported with GHG modeling is Gams, Steady, West and Bio-
+tions (Castellet-Viciano et al. 2018). From this point of view, win, Monte Carlo simulation and DEA models. Molinos-
+this paper aimed to reduce GHG emissions which contain Senantea et al. (2014) have studied on environmental and
+carbon dioxide CO and methane CH emissions in terms economical performances of WWTPs and possible mini-
+2 4
+of water–energy nexus considering design and operational mization of GHG emissions (Molinos-Senante et al. 2014).
+parameters. Kyung et al. (2015) have developed a model for the determi-
+CO and CH have been considered as the main green- nation of the GHG emissions from WWTPs. They estimated
+2 4
+house gases of WWTPs (IPCC 2014; Kumar et al. 2021, the possible variation of GHG emissions from the WWTPs
+2019a). C H has been released directly in every units of (Kyung et al. 2015).
+4
+wastewater treatment plant and should be assessed. IPCC The studies in the literature show that the amount and
+assumes that CH is generated at the anaerobic conditions distribution of the greenhouse gases produced depend on
+4
+(IPCC 2014). C H is generated in the result of anaerobic the input wastewater characteristics, leaving water standards,
+4
+digestion of organic materials. According to IPCC Directive, wastewater and sludge treatment processes used and oper-
+C H especially releases from grit chambers and aeration ating conditions. Accordingly, it is necessary to pay close
+4
+tanks at WWTPs (IPCC 2014). Aeration tanks are regarded attention to plant design and operation to minimize green-
+as the main CH resources due to biochemical treatment pro- house gas production. In this study, a new model was devel-
+4
+cess and the possibility of anaerobic conditions in the result oped depending on C O and C H emissions monitoring. The
+2 4
+of inadequate aeration. Meanwhile, the presence of meth- emission monitoring chamber was designed by the authors,
+anogens in waste sludge shows that methane is produced and GHG estimation tool was developed based on this
+in a wastewater treatment plant. CO has been released in monitoring chamber. This study aimed to develop an actual
+2
+the result of biodegradation of organic materials such as and extensive methodology for the determination of GHG
+microbial respiration of the microorganisms. If any living emissions from WWTPs. In the second stage of the study,
+organism is present at the treatment area, CO is emitted it was aimed to decrease the GHG emissions in terms of
+2
+from WWTPs. These emissions are generated in the result of water–energy nexus considering the operational and design
+treatment processes and energy consumption in the WWTPs. parameters. From this point of view, the effects of design and
+There are several studies in the literature related to this operational conditions on GHG emissions were examined
+topic. In recent years, various modeling, design and oper- using Monte Carlo simulation. The novelty of this study is
+ational tools have been defined at global scale to make that a new GHG emission estimation tool was developed
+1 3
+
+--- Page 3 ---
+Applied Water Science (2021) 11:180 Page 3 of 14 180
+based on designed emission isolation flux chamber. The the convenience of transportation. Also, this plant has high
+other originality of this paper is that Monte Carlo Simulation industrial pollution load. The plant which is established in a
+was carried out to minimize the GHG emissions considering closed area of 10.000 m 2 is operated continuously and has a
+design and operational parameters. Various mitigations and wastewater treatment capacity of 6000 m3/d.
+control strategies such as process modifications, innovative Coagulation and flocculation processes and activated
+technologies (microalgal treatment, CANDO process, etc.) sludge process are carried out together in this plant. The
+energy control policies focusing on operational strategies plant is a biochemical wastewater treatment plant. In the
+for wastewater treatment plants associated GHG emissions coarse and fine screens, the solids are retained. In the equal-
+have been recommended by several researchers (Kumar et al. ization tank, the wastewater flow is balanced. The points
+2021). This study has differed from the previous studies that where the processes take place are aerated grit chamber
+the operational conditions were corresponded with the GHG (inorganic matters, total suspended solids (TSS) and partial
+emissions. GHG emissions values related to design condi- chemical oxygen demand (COD) removal), primary settling
+tions were estimated according to this correspondence using tank (TSS and partial COD removal), coagulation and floc-
+Monte Carlo simulation in terms of water–energy nexus. culation tanks (fats, oil and grease (FOG), TSS and COD
+removal), aeration tanks (organic matters, TSS and COD
+removal) and the secondary settling tank (TSS and COD
+Materials and methods
+removal). Figure 2 demonstrated the treatment process flow
+scheme.
+Description of the study area
+Greenhouse gas emissions monitoring
+An organized industrial zone central wastewater plant was
+selected as a pilot plant in the province of Sanliurfa. Fig- In this paper, CO and CH emissions were observed using
+2 4
+ure 1 shows the study area. The reason of selecting this plant a new developed monitoring method. It is a type of closed
+is that its location is within the provincial boundaries and chamber (CC) method. The closed chamber method in
+Fig1 The map of study area
+1 3
+
+--- Page 4 ---
+180 Page 4 of 14 Applied Water Science (2021) 11:180
+Fig2 Wastewater treatment process flow scheme and GHG emissions monitoring point
+this study contains an emission isolation flux chamber percentage ratios (%). CO and CH emissions monitoring
+2 4
+and Drager X–Am 5000 gas analyzer. The gas analyzer have been performed 12 times per a year.
+is put in a pump slot, and the gas sampling is carried out. Figure 2 demonstrates the direct GHG emissions moni-
+The gas has been retained in the emission isolation flux toring points in this industrial WWTP. Figure 3 shows the
+chamber for a quite duration. The emission isolation flux methodology of the study is given in line-diagram. Green-
+chamber was designed by the authors. The emission iso- house gas monitoring points are aerated grit chamber, pri-
+lation flux chamber whose material is galvanized sheet mary settling tank, aeration tanks, coagulation and floccula-
+chamber is the gas collector as the closed chamber method. tion tank and secondary settling tank where biochemical and
+It is in a spherical form and is put on the floating hauler physicochemical reactions form. GHG emissions have been
+equipment on the wastewater. The sub-section of the monitored in these units because the closed chamber method
+emission isolation flux chamber is surfaced with a filter. could be used for the open-top units.
+The emission isolation flux chamber is 31 cm in diameter
+Determination of direct greenhouse gas emissions
+and height. The total volume of the emission chamber is
+1.56 × 10–2 m3. The gas was retained in 25 min, 30 min,
+45 min and 60 min, and the ratios of gas were monitored. A basic mathematical model was developed to figure out the
+The optimum gas retention time is 30 min (0.5 h) due to GHG emissions in the wastewater treatment units where the
+the fact that monitored gas amounts were fixed in the end closed chamber method was carried out. A new estimation tool
+of 30 min of duration. The GHG flow could be regarded was developed, in this paper (Eq. 1). Based on kinetic theory,
+as the volume of the flux chamber. It was assumed that the volume of gas collected within the emission flux chamber
+1.56 × 10–2 m3 of gas as the volume of emission isola- is the volume of the emission flux chamber as the total gas
+tion flux chamber is retained for 0.5 h on the open-top volume (CH , CO , N O, H S, etc.). From this point of view,
+4 2 2 2
+treatment units. So, the GHGs flow is 3.12 × 10–2 m3/h. 1.56 × 10 −2 m3 of gas was captured for 30 min as the optimum
+This corresponds to nearly 30 kg/h of gas flow (Accord- retention time. The gas flow is nearly 30 kg per hour. It was
+ing to the volume–weight conversions, 1 kg corresponds also assumed that gases did not react with each other. The
+to 0.001041 m3). The calculation of this value is based on gas amount was figured out by monitoring the ratios of C O
+2
+the volume of the flux chamber and the retention time. CO and CH gases in the total gas volume on the Drager X-Am
+2 4
+and C H emission were figured out by observing the gas 5000 model gas analyzer. The greenhouse gas content in kg
+4
+1 3
+
+--- Page 5 ---
+Applied Water Science (2021) 11:180 Page 5 of 14 180
+Fig. 3 Methodology used in the
+study
+Minimiza(cid:31)on of GHG
+Indirect GHG Emission
+Direct GHG Monitoring emissions using Monte
+Calcula(cid:31)on
+Carlo Simula(cid:31)on
+Determina(cid:31)on of the
+effect of design
+Assessment in water-
+condi(cid:31)onson GHG
+energy nexus
+emissions using Monte
+Carlo Simula(cid:31)on
+CO eq/d was figured out by multiplying with global warming GHG =GHG + GHG
+2- total direct indirect (3)
+potentials (GWP) of CO and CH . GWP values of CO and
+2 4 2
+CH are 1 and 28, respectively (IPCC 2014).
+4
+GHG = (F GHG× R CH4,CO2)∕100×GWP Minimization of GHG emissions using Monte Carlo
+direct CH4,CO2 (1)
+simulation
+where G HG : Direct GHG Emission (kg CO -eq/d),
+direct 2
+F : The flow of GHG emission (kg/h), R : The
+GHG CH4,CO2 Several methods have been applied for GHG emissions
+ratios of CH or CO (%), GWP : Global Warming
+4 2 CH4,CO2 minimization from wastewater treatment plants. Innovative
+Potential of CO or CH .
+2 4 treatment technologies could be carried out to decrease the
+greenhouse gas emissions. Microalgal technology is known
+Determination of indirect greenhouse gas emissions
+as one of the oldest GHG emissions minimization processes.
+CO assimilation is carried out due to the photosynthesis of
+2
+The indirect emission is the greenhouse gas emission result-
+microalgae in these systems (Maity et al. 2014). In recent
+ing from electricity consumption, in this study in terms of
+years, biochar application is one of the GHG emission reduc-
+water–energy nexus. The wastewater sludge is not stabilized
+tion technologies due to CO and N O adsorption capacity
+2 2
+in this plant which will be disposed by the municipality, so
+(Qambrani et al. 2017). Modification of operating conditions
+sludge treatment is negligible, in this study. Only, electricity
+and wastewater characterization is another GHG emission
+consumption was considered as the indirect emission.
+reduction technique (Yapıcıoğlu and Demir 2017). The final
+Indirect GHG emission could be figured out using electric-
+stage of the study comprised of the reduction in monitoring
+ity consumption and emission factor related to regional emis-
+GHG emissions due to the treatment process using closed
+sion factor of the country. Regional emission factor (Ef) was
+chamber method with the help of Monte Carlo simulation
+assumed as 0.497 kg C O /kWh in 2017 (International Energy
+2 in terms of water–energy nexus. It is considered that energy
+Agency (IEA) 2016). The amount of the electricity consump-
+consumption could be lower if the WWTPs operate under
+tion in the plant has been obtained from the electricity bills.
+design conditions. So, the possible GHG emission was esti-
+The indirect C O emission is figured out by means of the equa-
+2 mated related to design conditions using GHG emissions
+tion given below (Eq. 2) (Kyung et al. 2015).
+corresponded to operational parameters. For the possible
+GHG = EC× Ef reduction in GHG emissions, the effects of design and opera-
+indirect (2)
+tional conditions on GHG emissions were examined using
+where G HG : Indirect emission (kg CO -eq/d), EC: Monte Carlo simulation.
+indirect 2
+Electricity consumption of the plant (kWh), Ef: Emission Monte Carlo assays have been performed depending on
+factor of Turkey (kg CO /kWh). computational algorithms that rely on repeated random
+2
+sampling to achieve numerical results. This method is
+Estimation of total GHG emissions
+often carried out in physical and mathematical problem.
+Monte Carlo technique is mostly applied for problem
+Total greenhouse gas (GHG ) emission is considered as categories which are optimization, numerical integra-
+total
+sum of the direct and indirect emissions, in the WWTP. The tion, and generating draws from a probability distribu-
+calculation of total GHG emission is given in Eq. 3. tion (Kroese et al. 2014). Monte Carlo Simulation is a
+1 3
+
+--- Page 6 ---
+180 Page 6 of 14 Applied Water Science (2021) 11:180
+numerical technique that produces random variables for Direct GHG emissions
+modeling the risk or uncertainty of a system or optimizing
+the variables. Monte Carlo Simulation uses the probabil- The direct greenhouse gas emissions are sum of CO and
+2
+ity distribution for modeling a random variable. Monte C H emissions observed in the aerated grit chamber, pri-
+4
+Carlo Simulation was performed for only direct emissions mary settling tank, aeration tanks, coagulation and floccu-
+resulting from wastewater treatment processes. This con- lation tank and secondary sedimentation tank. Total direct,
+sideration is based on that operational parameters lead to CO and CH emissions in this industrial WWTP are given
+2 4
+the greenhouse gas emissions resulting from the treatment in Tables (1, 2 and 3).
+process. @RISK software was used to perform the simu- Monthly variations of the direct GHG emission on pro-
+lation. 5000 iterations and 1 simulation were performed cess basis are shown in Figs. 4 and 5. Coagulation–floccula-
+for this study. Lognormal distribution was selected as the tion tank was the main treatment unit which large amounts
+probability distribution. of direct GHG emissions were released. It could be consid-
+Firstly, the correlation between operational condition ered that major physiochemical processes were carried out
+which were influent flow rate and COD and direct GHG at coagulation–flocculation tank. Aeration tanks and aerated
+emission related to each month were defined using 5000 girt chamber were the other GHG emissions resources. No
+iterations and 1 simulation on a monthly basis. The model GHG emissions were monitored at primary and second-
+is given in Eq. 4. As uncertain inputs, operational COD ary settling tanks. In summer, GHG emissions were in the
+(mg/L) and operating flow rate (m3/d) were entered. As highest values. It could be resulted from climatic conditions
+outputs, the total direct GHG emissions from the process and evaporation. In winter, the lowest GHG emissions were
+were considered. observed in this plant. It could be considered that seasonal
+variations have a strong effect on GHG emissions originated
+C= RiskOutput(Lognormal)+RiskLognorm(O 1;O 2) (4)
+from treatment processes (Tables 4 and 5).
+The results showed that the highest direct GHG emis-
+C = Correlation related to operational COD and flowrate,
+sions were observed in August (977.76 kg CO -eq/d). The
+O = Operational COD and Flow rate values, O = Direct 2
+1 2
+lowest direct greenhouse gas emission was observed in Jan-
+greenhouse gas emission values (kg CO -eq/d).
+2
+uary (12.456 kg CO -eq/d). As the temperature increases,
+After defining correlation, 5000 iterations and 1 sim- 2
+there could be an increase in the greenhouse gas emission
+ulation were performed to estimate the GHG emission
+resulting from the process. CH emissions were observed in
+related to design COD and flow rate using defined cor- 4
+May, June, July and August. The highest CH emission was
+relation. Design COD and flow rate were 10 000 mg/L 4
+and 6000 m3/d, respectively, for all months. In the result measured in August. It could be said that increasing tem-
+perature triggered C H formation in the treatment units. Aer-
+of lognormal distribution, GHG emission values related 4
+ated grit chamber and coagulation–flocculation tank were
+to design conditions for each month were generated. The
+the resources of CH emissions. It could be said that CH
+model for the simulation of GHG emission is given in 4 4
+was released in the summer due to anaerobic stratification
+Eq. 5. Then, the reduction in GHG emission was calcu-
+in the coagulation–flocculation tank. At aerated grit cham-
+lated. COD was analyzed using standard methods (APHA
+ber, it could be concluded that CH emission was emitted
+2005). Wastewater flow is measured with an automatic 4
+due to anaerobic conditions in compartments that were not
+flow meter.
+adequately aerated.
+G= RiskOutput(Lognormal)+RiskLognorm(D ;C
+) (5) Aeration tanks were the main resources of CO 2 emissions.
+Here, it could be said that C O emission was released due to
+2
+G = GHG emission related to design conditions (kg the respiration of the living microbial mass. The highest C O
+2
+C O -eq/d), D = Design COD and Flow rate values, emission was measured with the value of 32.4 kg CO -eq/d
+2 2
+C = Direct greenhouse gas emission values. in May. Another resource of CO emission was aerated grit
+2
+chamber. From this monitoring result, CO emission could
+2
+be released due to cell breathing as a result of microbial
+mass reproduction at aerated grit chamber. The vital activi-
+Results and discussion
+ties of the microbial mass growth could be shown as the
+reason for the formation of CO emission at the aerated grit
+2
+The monitoring results of GHG emissions as direct, indi- chamber.
+rect and total were given in following sections. In the Considering the process conditions, the highest CH
+4
+final stage, the minimization results of GHG emissions emission was monitored at the lowest COD and flow rate. If
+after Monte Carlo Simulation were shown. the results were compared with the previous studies, similar
+findings could be obtained. Masuda et al. (2015) reported
+1 3
+
+--- Page 7 ---
+Applied
+Water
+Table 1 Total GHG emissions monitoring results Science
+direct
+GHG emission (CO + CH Emission) (kg CO-eq/d)
+direct 2 4 2 (2021)
+Monitoring point August September October November December January February March April May June July
+11:180
+Aerated grit chamber 465.264 3.888 2.304 1.8 0 0 0 1.944 3.888 105.048 77.112 255.672
+Coagulation-flocculation tank 504 0 0 0 0 0 0 0 0 0 38.304 381.024
+Primary settling tank 0 0 0 0 0 0 0 0 0 0 0 0
+Aeration tank-I 6.192 10.8 7.128 7.056 7.2 7.776 7.92 8.28 12.888 14.256 10.656 7.92
+Aeration tank-II 2.304 1.08 6.192 6.552 5.4 4.68 4.968 5.472 8.568 11.88 9 6.84
+Secondary settling tank 0 0 0 0 0 0 0 0 0 0 0 0
+Monthly total gas amount 977.76 15.768 15.624 15.408 12.6 12.456 12.888 15.696 25.344 131.184 135.07 651.456
+Table 2 Direct CO emission monitoring results
+2
+Direct CO emission (kg CO-eq/d)
+2 2
+Monitoring point August September October November December January February March April May June July
+Aerated grit chamber 1.584 3.888 2.304 1.8 0 0 0 1.944 3.888 6.264 6.552 3.672
+Coagulation-flocculation tank 0 0 0 0 0 0 0 0 0 0 0 0
+Primary settling tank 0 0 0 0 0 7.776 0 0 0 0 0 0
+Aeration tank-I 6.192 10.8 7.128 7.056 7.2 4.68 7.92 8.28 12.888 14.256 10.656 7.92
+Aeration tank-II 2.304 1.08 6.192 6.552 5.4 0 4.968 5.472 8.568 11.88 9 6.84
+Secondary settling tank 0 0 0 0 0 12.456 0 0 0 0 0 0
+Monthly total gas amount 10.08 15.768 15.624 15.408 12.6 12.888 15.696 25.344 32.4 26.208 18.432 Page
+7
+1 of
+3 14
+180
+
+--- Page 8 ---
+180 Page 8 of 14 Applied Water Science (2021) 11:180
+420.183403.83000000000405knat 420.336468.801487.890000000086.769tnuoma similarly with this study that the highest GHG emission
+yluJenuJyaMlirpAhcraMyraurbeFyraunaJrebmeceDrebmevoNrebotcOrebmetpeStsuguAtniop 25265.07487.890000000086.364rebmahc was in summer and the lowest was in winter (Masuda et al.
+000000000000knat 000000000000I-knat 000000000000II-knat 000000000000knat 2015). They observed the highest C H emission at the aera-
+4
+tion tank; on the contrary, it was observed in the coagula-
+tion–flocculation tank in this study. Rodriguez-Caballero
+et al. (2014) monitored GHG emissions for aerated and
+non-aerated areas for an urban wastewater treatment plant
+during July and October (Rodriguez- Caballero et al. 2014).
+It was observed that the highest emission monitored at the
+aeration tank. They similarly monitored the lowest GHG
+emissions in winter. Kyung et al. (2015) monitored the GHG
+emissions in a wastewater treatment plant where 5-staged
+Bardenpho process was carried out (Kyung et al. 2015).
+The highest CO emission was similarly measured at the
+2
+aeration tank. The other major resource of CO emission
+2
+was the primary settling tank. In this study, no greenhouse
+gases were released at primary settling tank. Kyung et al.
+(2015) reported the direct GHG emission in the value of
+3701 ± 269 kg CO -eq/d. They monitored higher emissions
+2
+than this study. It could be said that 5-staged Bardenpho
+process emitted more GHG emissions than chemical treat-
+ment combined with activated sludge process (Kyung et al.
+2015) Qiao et al. (2020) investigated on GHG emission from
+wastewater treatment process of combined activated sludge
+and microalgae processes. No C H emissions were observed
+4
+during the operation of the study. CO only released for
+2
+small proportion of the total GHG (Qiao et al. 2020). Nayeb
+et al. (2019) reported wastewater collection, treatment and
+discharging systems led to direct greenhouse gas emission
+at activated sludge process and energy consumption led to
+indirect emissions, similarly (Nayeb et al. 2019).
+Indirect GHG emissions
+The indirect GHG emission was regarded as the emis-
+sions from electricity consumption for this study. There is
+no sludge stabilization and disposal process in this plant.
+Therefore, the indirect emission from sludge treatment was
+ignored, in this study. The amount of the indirect greenhouse
+gas emissions due to electricity consumption of the plant is
+stluser
+given in Table 6. Figure 6 shows monthly variation of the
+indirect GHG emissions.
+gnirotinom
+The variation of the indirect GHG emissions was directly
+)d/qe-OC related to the electricity consumption. The amount of
+GHG emissions increased as the electricity consumption
+noissime 24
+increased. The highest indirect greenhouse gas emission
+gk( noitaluccofl-noitalugaoC was reported formed in May (1241.79 kg CO -eq/d) due
+2
+HC 4 noissime gnilttes to the highest electricity consumption (74,957.680 kWh).
+sag
+gnilttes The lowest indirect GHG emission was recorded in August
+tceriD
+HC gnirotinoM tirg yradnoceS latot (769.94 kg C O 2 -eq/d) due to the lowest value in electricity
+3 elbaT tceriD detareA yramirP noitareA noitareA ylhtnoM consumption Kyung et al. (46,475.64 (2015) performed kWh). a similar study (Kyung
+et al. 2015). They estimated the indirect GHG emission from
+1 3
+
+--- Page 9 ---
+Applied Water Science (2021) 11:180 Page 9 of 14 180
+Fig. 4 GHG emission variation on process basis
+direct
+Fig5 Monthly change of G HG emissions
+direct
+electricity consumption and chemical use using a similar could not be made based on the process, and only the assess-
+method. They reported similarly that the indirect greenhouse ment was carried out monthly in this study. It could be esti-
+gas emission was found to be 1893 ± 240 kg CO -eq/d. It mated that the blowers used as the air supplier consumed the
+2
+was reported that the highest indirect emission was emit- highest electricity in the aeration tanks in this study. Another
+ted from the aerobic unit. As the electricity consumption study was related to Shahabadi et al. (2009). They achieved
+is observed using the counter connected to the main trans- similar results with this study (Shahabadi et al. 2009). The
+former, the indirect greenhouse gas emission assessment indirect emission value of the aerobic system was 1313 kg
+1 3
+
+--- Page 10 ---
+180 Page 10 of 14 Applied Water Science (2021) 11:180
+Table 4 GHG emission CO -eq/d. They also considered the use of chemicals at the
+indirect 2
+calculation of the indirect emission and found that the high-
+Months EC (kWh) Ef (kg CO-eq/ GHG (kg
+2 indirect
+kWh) CO-eq/d) est amount of the indirect emissions was due to chemical
+2
+use. Masuda et al. (2015) reported that the indirect emission
+August 46,475.64 0.497 769.94
+arising from electricity consumption was 43.4% of the total
+September 52,301.655 0.497 866.46
+emission(Masuda et al. 2015). Oppositely, it was reported
+October 63,066.69 0.497 1044.80
+that electricity consumption constituted higher ratio in total
+November 72,453.105 0.497 1200.30
+GHG emissions, in this study. In a study by Nayeb et al.
+December 74,333.700 0.497 1231.46
+(2019), they reported that indirect CO emission is asso-
+2
+January 74,747.700 0.497 1238.32
+ciated with the energy consumption in WWTPs based on
+February 62,457.075 0.497 1034.70
+the population covered and energy efficiency (Nayeb et al.
+March 70,110.250 0.497 1161.49
+2019).
+April 72,027.700 0.497 1193.25
+May 74,957.680 0.497 1241.79 Total GHG emissions
+June 59,115 0.497 979.34
+July 54,110 0.497 896.42
+Total greenhouse gas emission is given in Table 7. Figure 7
+demonstrated monthly variation of total greenhouse gas
+emissions.
+Table 5 GHG emission It was observed that total greenhouse gas emission was
+total
+closely related to the variation of indirect GHG emission.
+Months GHG (kg GHG (kg GHGto-
+direct indirect
+CO-eq/d) CO-eq/d) tal (kg Except for August (direct emission was higher than indirect
+2 2
+CO-eq/d) emission), the indirect greenhouse gas emissions constituted
+2
+the biggest share of total GHG emissions. Direct greenhouse
+August 977.76 769.94 1747.70
+gas emissions from the process were relatively lower than
+September 15.768 866.46 882.23
+indirect greenhouse gas emissions. As seen from Fig. 5, the
+October 15.624 1044.80 1060.42
+trend in indirect greenhouse gas emissions was similar and
+November 15.408 1200.30 1215.71
+coincides with total greenhouse gas emissions. Based on
+December 12.6 1231.46 1244.06
+this consideration, it could be concluded that direct green-
+January 12.456 1238.32 1250.77
+house gas emissions are the key indicator in the formation
+February 12.888 1034.70 1047.59
+of total greenhouse gas emissions. The indirect greenhouse
+March 15.696 1161.49 1177.18
+gas emissions constituted a large part of total greenhouse gas
+April 25.344 1193.25 1218.60
+emissions. The highest total greenhouse gas emission value
+May 131.184 1241.79 1372.98
+was observed in August (1747.70 kg CO -eq/d). It could
+June 135.072 979.34 1114.41 2
+be originated from the highest direct CH emission was
+July 651.456 896.42 1547.88 4
+observed in August. From this point of view, it could be said
+that CH was determiner GHG for total GHG emissions. The
+4
+lowest total greenhouse gas emission was observed in Sep-
+Table 6 Benchmarking of monitoring results with the previous stud- tember (882.23 kg CO -eq/d). When the process conditions
+2
+ies were evaluated, it was observed the highest total greenhouse
+References GHGto- Existing treatment process gas emission at the lowest flow rate and COD concentrations
+tal (kg (August). It was due to the direct CH emission generation.
+4
+CO 2-eq/d) Kyung et al. (2015) found the total greenhouse gas emis-
+sion as 12.855 kg CO -eq/d. The high value was due to
+This study 1747.70 Chemical Treatment + Activated 2
+Sludge Process C H 4 emission in the aeration tank. In this study, since CH 4
+Shahabadi et al. 6617 Anaerobic Treatment + AO emission was only monitored in August, May, June and Jul,
+(2009) Process the total greenhouse gas emission was lower compared to
+Kyung et al. (2015) 12.855 5-staged Bardenpho Process their study (1747.70 kg CO -eq/d)(Kyung et al. 2015). It
+2
+Barbu et al. (2017) 17.961 Activated Sludge Process showed that industrial wastewater treatment systems emitted
+Santin et al. (2018) 17.851 Activated Sludge Process less greenhouse gas emissions than municipal ones. Sha-
+habadi et al. (2009) achieved similar results with this study.
+In their study, they found that highest amount of the total
+greenhouse gas emissions was caused by indirect emissions
+for the hybrid system (Shahabadi et al. 2009). The value
+1 3

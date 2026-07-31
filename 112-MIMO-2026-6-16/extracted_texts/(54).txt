@@ -1,0 +1,721 @@
+--- Page 1 ---
+pubs.acs.org/est Article
+Water−Energy−Carbon Nexus: Greenhouse Gas Emissions from
+Integrated Urban Drainage Systems in China
+Qiong Su,* Hancheng Dai,* Shuyan Xie, Xiangying Yu, Yun Lin, Vijay P. Singh,
+and Raghupathy Karthikeyan
+CiteThis:Environ.Sci.Technol.2023,57,2093−2104 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+.selcitra
+ABSTRACT: Greenhouse gas (GHG) emissions from integrated
+dehsilbup urban drainage systems (IUDSs), including sewer, wastewater
+.)CTU( treatmentplants(WWTPs),andreceivingwatersystems,havenot
+yet been integrated due to the lack of modeling tools. Here, we
+erahs updated the computable general equilibrium-based System
+83:14:70
+Dynamics and Water Environmental Model (CGE-SyDWEM), a
+yletamitigel recently developed model simulating the water−energy−carbon
+ta nexus at the watershed level, to calculate the direct and indirect
+6202 (electricity use and external) GHG emissions from IUDSs
+considering carbon mitigation strategies and water engineering
+,32 ot
+woh practices. The updated CGE-SyDWEM was applied to an estuary
+lirpA
+watershed in Shenzhen, the fourth largest city in China. With
+no
+increasingsocio-economicdevelopmentandwaterinfrastructuresystemsupgrading,GHGemissionsareprojectedtoincreasefrom
+no snoitpo
+VINU 129.2 (95% CI: 95.9−162.5) kt in 2007 to 190.7 (144.8−236.6) kt in 2025, with 89% from WWTPs (direct: 17%; electricity use:
+65%; and external: 7%), 10% from the sewer (direct: 1% and electricity use: 9%) and 1% from receiving waters (direct). Carbon
+TSEWHTRON rof mitigation can reduce GHG emissions by 7% and emission intensity by 6% by 2025, with 63% contributed by external emission
+senilediuggnirahs/gro.sca.sbup//:sptth reduction from chemical uses. The integrated model can aid water, energy, and carbon decision-makers in finding cost-effective
+solutions for water and energy security in the future.
+KEYWORDS: energy-water nexus, greenhouse gas emission, CGE model, wastewater treatment plants, China
+aiv
+dedaolnwoD
+1. INTRODUCTION GHGemissionsfromwastewatertreatment.Suchincreasesare
+likely to affect China’s Nationally Determined Contributions
+Wastewatertreatment plants (WWTPs)have been recognized
+(NDCs) targets, i.e., reducing the CO emission intensity
+as one of the largest energy consumers and greenhouse gas 2
+(GHG) emitters in urban systems.1,2 The treatment of (CO 2emissionsperunitofGrossDomesticProduct,GDP)by
+60 to 65% by 2030 based on the 2005 level10 as well as the
+domesticwastewateraloneaccountsfor3%ofglobalelectricity
+long-termclimategoalofcarbon-neutralityby2060.Therefore,
+eeS use GHG and emissions.2−4 2% of global WWTPs carbon dioxide are also equivalent major non-CO2 (CO -equiv) GHG understanding the energy use and GHG emissions from
+2 wastewater treatment and their dynamic interactions with
+emitters, e.g., methane (CH ) and nitrous oxide (N O),
+4 2 socio-economic and water environmental systems in a long-
+accounting for 4.6−5.2% of global non-CO GHG emissions
+2 term urbanization process can assist decision-makers in
+from2005to2030.5ThesharesofglobalenergyuseandGHG
+meeting water quality improvement and carbon mitigation
+emissionsfromWWTPsareexpectedtoincreaseinthefuture
+targets more efficiently.
+due to rapid urbanization and stricter water quality standards
+Until now, water−energy−carbon nexus studies in waste-
+enforced in developing countries.4,5 For instance, the rapid
+water treatment have focused on assessing GHG emissions
+urbanization in China has resulted in high water use and
+fromanindividualcomponentoftheintegratedurbandrainage
+wastewater discharge, causing risks to local water environ-
+systems (IUDSs), e.g., sewer systems, WWTPs, or receiving
+mental safety.6,7 From 2000 to 2017, wastewater discharge in
+China increased from 110 to 192 million m3/day, with
+treatment capacity increased from 27 to 157 million m3/day. Received: November15,2022
+At the same time, energy use from the wastewater treatment Revised: December27,2022
+industry grew by 6% annually (2008−2016).8 To reduce Accepted: December28,2022
+pollutant discharge and improve water quality, the Chinese Published: January25,2023
+government has planned to upgrade WWTP treatment
+technologies,9 which will further increase energy use and
+©2023AmericanChemicalSociety https://doi.org/10.1021/acs.est.2c08583
+2093 Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 2 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 1. Conceptual integration of the computable general equilibrium (CGE) and the System Dynamics and Water Environmental Model
+(SyDWEM).
+water bodies.11 Field studies have been conducted to evaluate simulations of the influent/effluent quantity and quality are
+directGHGemissionsfromsewersystems,e.g.,CH 12−15and importantsincetheysignificantlyaffectdirect8,42andindirect29
+4
+CO 215 emissions during the anaerobic and aerobic biological GHG emission and highly depend on population growth and
+processes,WWTPs,e.g.,CO 2,16−18CH 4,18−22andN 2O18,23−25 socio-economic development.6,7
+emissions during the pre-treatment, biological treatment, and
+Despite the significant progress that has been made to
+disinfection, as well as sludge processing and disposal
+improve the understanding of GHG emissions in individual
+processes, and receiving water bodies, e.g., N O26,27 and
+CH 26 emissions during aquatic biological process2 es. Indirect subsystems, the relative contributions of individual compo-
+4
+nents in IUDSs, particularly under the impact of socio-
+GHG emissions from electricity use are considered the most
+energy-intensive process,28 which depends on electricity economic development and carbon mitigation strategies, are
+intensity (defined as the electricity use per unit of treated still poorly understood and quantified.11 An integrated
+wastewater, kWh/m3) and carbon intensity of electricity platform that can capture the cross-sector interactions and
+generation (defined as the CO emissions per electricity use, feedback among socio-economic, sewer, WWTPs, and
+2
+kg CO 2-equiv/kWh). Typical electricity intensity varies from receiving water systems will enable a better understanding of
+0.06 to 1.5 kWh/m3 and sometimes can be as high as 3.18
+theroleofthewastewatersectorinGHGemissions.Ourstudy
+kWh/m3,29−31 depending on differences in treatment technol-
+selectedShenzhen,thefourthlargestcityinChina,asthestudy
+ogy, WWTPs capacity, and influent/effluent water quality.29
+area. As the first Special Economic Zone, it represents the
+Life-cycle assessment (LCA) has been widely used to
+quantify the direct32,33 and indirect GHG emissions, e.g., China’s rapid urbanization process. The population in
+electricityuse.34−36LCAcanevaluatetheindividualprocessof Shenzhen increased from 0.33 to 17.63 million (1.2% of the
+WWTPs and different treatment technologies,37−40 but it populationinChina)from1978to2020.Itdischarged3.3%of
+cannotsimulatesupplychaincomponentsduetothenarrowly China’s wastewater treatment in 2020 (Table S1) and is
+defined system boundaries.40 Accordingly, indirect external challengedinfulfillingthenational waterqualityimprovement
+GHG emissions, i.e., embodied emissions in all materials and targets due to limited environmental capacity.43,44 Shenzhen
+resources(chemical,repair,andmaintenance)usedoutsidethe was chosen as a pilot city to perform China’s NDC in 2015,
+WWTPs boundary, are excluded in LCA studies. A recent the first carbon mitigation practice in developing countries.45
+study40 used a hybrid LCA integrated with environmental
+Here, we aim therefore to (1) quantify the relative
+input−outputtosimulatetheindirectexternalGHGemissions.
+contributions of GHG emissions from the sewer, WWTPs,
+However, constant carbon intensities for electricity generation
+and chemical uses are applied,40 which neglect their feedback andreceivingwatersystemsduring1990−2025and(2)assess
+with socio-economic systems and therefore cannot be used to both the impacts of China’s NDC and upgraded wastewater
+evaluate the potential of carbon mitigation for reducing GHG treatment and engineering practices on energy use, GHG
+emissions from wastewater treatment.41 In addition, dynamic emissions, and water quality from IUDSs.
+2094 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 3 ---
+Environmental Science & Technology pubs.acs.org/est Article
+2. MATERIALS AND METHODS quantity and quality changes affect direct and indirect GHG
+emissions from the sewer and WWTPs systems, as well as
+2.1. Integrated CGE-SyDWEM Model. Figure 1 illus-
+water quality in the receiving water; and (5) the
+trates the conceptual integration of the CGE and SyDWEM
+implementation of wastewater treatment and engineering
+models. The IMED|CGE (Integrated Model of Energy,
+practices might increase energy use and GHG emissions.
+Environment and Economy for Sustainable Development |
+The SyDWEM model was calibrated (1990−2001) and
+Computable General Equilibrium) model is used to simulate
+validated (2002−2009) using historical data and two field
+city-level socio-economic and energy system changes under
+campaigns (dry season in 2004 and wet season in 2005) at
+carbon mitigation strategies, which has been widely applied in eight stations in the previous studies,43,44 as detailed in the
+theanalysisoflong-termeconomicandenvironmentalimpacts
+SupportingInformation.Here,CGE-SyDWEMwasrevalidated
+of China’s carbon mitigation strategies at different lev-
+for the period of 2007−2020 (Figure S2). The integrated
+els.43,46−48 The CGE model is a single-region, recursive
+model was updated to calculate the direct and indirect GHG
+dynamicmodelforShenzhenwith25economicsectors(Table
+emissions from IUDSs, as detailed in Section 2.2.
+S2). It includes a production block; a market block with
+2.2. GHG Emissions Calculation. GHG emissions
+domestic,government,andhouseholdincomeandexpenditure
+considered included (1) direct emissions from the sewer
+blocks;andinternationaltransactions,whicharesimilartothe
+(CO and CH ), WWTPs (CO , CH , and NO ), and
+one-region version.49 The 2007 input and output table and 2 4 2 4 2
+receivingwater(NO )systems;(2)indirectinternalemissions
+2
+energy balance table were used for the base year calibration.
+from electricity use during the collection and four wastewater
+Major inputs include energy and material commodities, labor,
+treatment stages, i.e., pre-treatment, biological treatment,
+capital, and resources. The output for each sector follows a
+disinfection, and sludge treatment; and (3) indirect external
+nested constant elasticity of substitution production function,
+emissions from use of chemicals, repair and maintenance of
+as detailed in the Supporting Information. The System
+WWTPs’ machinery, and administration. Energy use from
+Dynamics and Water Environmental Model (SyDWEM) is wastewater effluent conveyance and discharge is neglected
+used to simulate socio-economic subsystems, water infra- since the treated wastewater here is usually discharged into
+structures, and receiving water systems at the sub-watershed nearby water bodies. The emission factors (EFs) for WWTPs
+level (1990−2025).6,50 It includes five modules: (1) emissions considered the differences in wastewater treatment
+population/GRP (gross regional product, i.e., GDP for technologies,includingthefourmostwidelyusedtechnologies
+regional analysis) module; (2) water demand/pollutant in China, i.e., anaerobic−anoxic−oxic(A2O), oxidation ditch
+generation module; (3) water supply module; (4) sewer and (OD),anaerobic−oxic(AO),andsequencingbatchreactors.51
+WWTPs module; and (5) receiving water module. More 2.2.1.DirectGHGEmissionsfromSewerSystem.CO and
+2
+details of each module are included in the Supporting CH emissionsfromsewersedimentdepositionwereestimated
+4
+Information. by using the sediment deposition rate and the length of sewer
+The CGE model can simulate GHG emissions from energy pipe, as shown in eq 1.
+use, macroeconomic impacts (e.g., GDP, government
+expenditure, welfare, import, and export), detailed industrial E tD iS = i × L t × EF iDS (1)
+outputs, and carbon intensity for each sector under carbon where t is the time (year); α is the 100-year global warming
+mitigation strategies (2007−2030). Once the industrial i
+potential (GWP) coefficients used to convert to CO -equiv
+2
+outputs for each sector were known from CGE simulation, GHGemissions,i.e.,CO =1,N O=298,andCH =25;16L
+2 2 4 t
+the SyDWEM model downscaled these changes into sub- isthelengthofthesewerpipeinyeart;EDSistheithtypedirect
+ti
+watershedlevels,sincetheysharedthesameindustrialsectors, CO -equiv GHG emissions from sewer sediment (kg CO -
+2 2
+includingagriculture,22industrialsectors(e.g.,manufacturing, equiv/year); and EFDS is the ith type sewer sediment emission
+i
+chemical,machinery, and powergeneration), and twoservices factor (kg CH /year/km length of sewer system). Here, EFDS
+4 i
+sectors (Figure 1 and Table S2). The relative change in for CH and CO were adapted from a field study in Xi’an,
+4 2
+industrial structure was used to unify the database of the two China.15 The averaged EFs for CH and CO with sub-main
+4 2
+models. With this setting, industrial structure changes at the and main sewer lengths higher than 1 km were used (Table
+city level affected the sub-watershed level labor force S3). The emissions from wastewater decomposition were
+migration, water demand, and wastewater generation from neglected since wastewaterretention timein thesewer system
+domesticandindustrialactivities,whichweresimulatedbythe was usually very short.
+SyDWEM model. In addition, the spatial and temporal 2.2.2. Direct GHG Emissions from WWTPs System. Once
+variation of water quality (e.g., biochemical oxygen demand, the pollutant loads removed by WWTPs under different
+BOD and ammonia nitrogen, NH -N) in the receiving water scenarios were gained from CGE-SyDWEM simulations, the
+5 3
+under different carbon mitigation strategies and wastewater direct CO , N O, and CH emissions and total CO -equiv
+2 2 4 2
+treatment and engineering practices were simulated by the GHG emissions from individual WWTP were estimated by
+receiving water module in SyDWEM. using eqs 2 and 3.
+The system boundary of CGE-SyDWEM is the Shenzhen
+EDO = EFDO
+River Estuary watershed (Figure S1). Major interactions and t i ti
+feedbacks among different systems include (1) carbon i (2)
+m ini tt ei nga sit tio ien s s it nrate dg iffie es rea nff tect set ch te ori sn ;du (s 2t )rial ouo tu pt up tu sts oa fnd dic ffa er rb eo nn t EF tD iO = P ti × EF iDO (3)
+industrial sectors influence sub-watershed GDP/GRP change whereP andEFDOarethepollutantload(kg)removedinyear
+ti i
+and labor force migration; (3) sub-watershed level socio- t and emission factors (GHG emissions per unit of pollutant
+economic change affects water demand and wastewater treated) of the three types GHGs, respectively. In the
+generationfromdomesticandindustrialactivities;(4)influent calculation, 10% of the direct CO emission was considered
+2
+2095 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 4 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Table 1. Configurations of Scenarios
+scenarios GDPgrowthrate populationgrowthrate emissionconstraints engineeringmeasures
+BaU 9.1%over2007−2020;7.9% 0.57%over2007−2020; noconstraints upgradedengineeringmeasurestosatisfy
+over2007−2030 0.42%over2007−2030 waterqualitystandardsin2025
+NDC sameasBaU sameasBaU emissionintensityreducedby40%in sameasBaU
+2020and65%in2030
+from fuel origin.18 The EFDOof CO and CH are in the units decreasing rate of 1% was used to calculate the future EFG of
+ti 2 4
+of kg CO /kg COD and kg CH /kg COD , the imported electricity, based on electricity fuel structure
+2 Cr_removed 4 Cr_removed
+respectively (Tables S4 and S5). Here, COD is chemical change inChinaduring2020−2030.41 Inaddition,theEFGof
+Cr
+oxygen demand, which can be converted to BOD by theimportedelectricitywasassumednottobeaffectedbythe
+5
+multiplying a factor of 2.059 obtained from field observa- implementation of local carbon mitigation strategies.
+tions.44 The N O emission factor (kg N O/kg TN ) was Toreducetheuncertaintyofvariousdatasources,themean
+2 2 removed
+obtained from recent field studies in China (Tables S4 and electricity intensity of existing WWTPs of Shenzhen City was
+S5). used, including A2O (n = 14), OD (n = 2), BF (n = 2), and
+2.2.3. Direct GHG Emissions from Receiving Water AAO-MBR(n=2)(TableS6).Accordingtothelocalsewage
+Systems. Musenze et al.26 quantified CH and N O emissions and WWTPs planning,56 there are currently 44 pumping
+4 2
+in a sub-tropical estuary in Australia and found that N O was stations in the study area with an average serving area of 8.8
+2
+the dominant emission and positively correlated with NO km2. The mean value for pumping 1 m3 of wastewater is
+x
+(oxidizednitrogen,e.g.,NO −)concentration.Therefore,only 0.0384 kWh.56
+3
+N O emission was considered. The ratios of N O emission to 2.2.5. Indirect External GHG Emissions. Once the CO
+2 2 2
+NO −inputsarereportedtorangefrom0.1to1%.52,53Here,a emission intensity of different industrial sectors and the
+3
+globalmeanvalueof0.9%oftheN O/NO −ratiowasused.27 amount of wastewater treated by WWTPs under different
+2 3
+The annual NO − loads in the receiving water bodies were scenarios were gained from CGE-SyDWEM simulations, the
+3
+simulatedbythewaterqualitymoduleintheCGE-SyDWEM, indirect external GHG emissions from the final demand of
+including sources from the effluent of WWTPs, direct WWTPs materials’ use were calculated using eq 6.
+discharge of untreated wastewater, and nonpoint source
+pollutionduetoagriculturalpractices.Thenonpointpollution E tIE = E tI kE n = D tI kE n × CI tI nE
+inducedbynaturalrunoffprocesseswasnotincludedsincethis k n k n (6)
+study focuses only on human-induced GHG emissions from
+whereEIE andDIE representthelifecycleGHGemissions(kg
+wastewater treatment. tkn tkn
+CO ) and final demand of WWTPs (RMB, China’s currency)
+2.2.4. Indirect Internal GHG Emissions Caused by 2
+fromthenthsectorusingthekthtypeoftreatmenttechnologies
+Electricity Consumption. Electricity consumption (ELII) and
+t in year t; CIIE is the CO emissions intensity from the nth
+associated GHG emissions (EII) from wastewater collection tn 2
+t sector in year t (kg CO /103 RMB) simulated by the CGE
+(pumping), and four treatment stages were calculated using 2
+model. The use of chemicals, repair, and maintenance of
+eqs 4 and 5 as:
+WWTPs’ machinery, andadministration referto thechemical,
+ELII = ELII = WW × ELG machinery,andservicesectors,respectively,intheCGEmodel.
+t tjk tk jk DIE was calculated using eq 7.
+j k j k (4) tkn
+D tI kE mn = WW tk × Cost nIE k (7)
+EII = EII = ELII × EFG
+t tkj tjk t
+where CostIE is the input cost to treat per unit of wastewater
+j k j k (5) nk
+fromthenthsectorusingthekthtypeoftreatmenttechnologies
+whereELII andEII representtheelectricityuseandassociated (RMB/103 m3) (Table S7).
+tjk tjk
+CO emissions during the jth stage, including pumping, pre- 2.3. Scenarios. Here, two scenarios were evaluated,
+2
+treatment, biological treatment, disinfection, and sludge including Business as Usual (BaU) and NDCs scenarios
+treatment,andthekthtypeoftreatmenttechnologies,including (Table 1). The BaU scenario is a reference scenario that
+A2O, OD, biological filter (BF), and anaerobic−anoxic−oxic- simulates socio-economic, energy, GHG emissions, and water
+membrane bio-reactor (AAO-MBR); WW is the wastewater system change without implementing explicit carbon miti-
+tk
+collected and treated using the kth type of treatment gationstrategies.ThefutureGDPandpopulationgrowthrates
+technologies in year t (m3); ELG is the electricity intensity of arebasedonourpreviousstudy50andthe13thFive-YearPlan
+jk
+thejthstage andthekth typeof treatmenttechnologies(kWh/ for economic and social development of Shenzhen,57 as
+m3);andEFGisthecarbonintensityofelectricitygenerationin detailed in Table 1. There was no CO emission intensity
+t 2
+year t (kg CO /kWh). Local sources contribute 30% of total constraint in the BaU scenario. The water infrastructure
+2
+Shenzhen City’s electricity needs, while the rest comes from systems were updated to ensure that water quality in the
+theSouthernPowerGridofChina.EFGofthelocalelectricity receiving water bodies satisfied the local water quality
+t
+sectorwassimulatedbyCGE-SyDWEM,obtainedbydividing improvement target (Table S8). There are eight WWTPs in
+the total CO emissions from the power generation sector by the study area with a total design capacity of 2.9 million m3/
+2
+the local electricity generated. Historical change of EFG was day,includingA2O(n=5),OD(n=1),andBF(n=2).More
+t
+calculated based on the overall change rate of China. EFG of detailsofIUDSsareintheSupportingInformation.TheNDC
+the imported electricity was from Southern Power Grid54 and scenario simulated the impacts of carbon mitigation on local
+time-evolving EFG values were used, considering the historical GHG emissions from IUDSs. This scenario differs from the
+t
+electric power sector’s fuel mix change in China.55 An annual BaUscenariointhatitincludesaconstraintonCO emissions
+2
+2096 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 5 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure2.Annualvariationsof(a)directCO-equivGHGemissionsindifferentsystemsandrelativedirectGHGemissionintensity,(b)direct
+2
+GHGemissionsbytypesandtotalwastewatertreated,(c)COD treated,(d)TNtreated,(e)COD discharge,and(f)TNdischargeunderBaU
+Cr Cr
+andNDC scenarios.
+intensity, i.e., the emission intensity needs to be reduced by reduces total treated wastewater by 1% (0.3 million m3/day)
+40% by 2020 and 65% by 2030 to fulfill China’s NDC and total COD and TN generation, i.e., treated and
+Cr
+commitment. discharged,by4.2%(21.1t/d)and4.4%(3.4t/d),respectively
+(Figure 2c−f). Carbon mitigation involving a carbon price
+3. RESULTS accelerates local industrial structure upgrades by restricting
+carbon- and energy-intensive industries (Table S9). To fulfill
+3.1.DirectGHGEmissions.DirectGHGemissionsunder
+the carbon mitigation target, carbon- and energy-intensive
+the BaU scenario are projected to grow continuously between
+industries rely on reducing production and would suffer
+2007 and 2025, increasing from 21 to 36 kt per year (Figure
+economic loss. Since many of these industries are also labor-
+2a). However, the direct GHG emission intensity (kg CO -
+equiv/m3 wastewater) will reduce by 15% by 2025 compare2 d andwater-intensive,carbonmitigationisbeneficialforslowing
+down labor force migration with improved labor productivity
+tothe2007level(Figure2a),duetotheprojecteddecreasein
+and reducing industrial-related wastewater generation and
+WWTPs influent pollutant concentrations (COD and TN)
+Cr
+waterborne pollutant discharge with improved water use
+withsocio-economicdevelopment(FigureS3).UndertheBaU
+scenario, water use and wastewater generation from sectors efficiency and reduced pollutants load per GDP (Table S10).
+with lower pollutant intensity, e.g., service and residential WWTPs contributed the largest direct GHG emissions
+sectors, are projected to have an increasing proportion. (78%), followed by receiving water (15%) and sewer (7%)
+Accordingly, the total wastewater treated in 2025 (2.9 million systems in 2007 (Figure 2a). The proportions of direct GHG
+m3/day)willbetwicethanthatin2007(1.4millionm3/day), emissions from receiving water will decrease to 7% by 2025
+but COD and TN treated only increased by 50% and 36%, underbothBaUandNDCscenariosduetoreduced pollutant
+Cr
+respectively (Figure 2b−d). discharges with upgraded water infrastructure (Figure 2e,f).
+CarbonmitigationcanreducedirectGHGemissionsby4% Among all three types of GHGs, N O accounted for 53−58%
+2
+(1.5 kt per year) and emissions intensity by 3% by 2025 via of total direct CO -equiv GHG emissions, followed by CH
+2 4
+decreasing wastewater generation and waterborne pollutant (40−44%) and CO (2−3%) during 2007−2025 under both
+2
+discharge.ComparedwiththeBaUscenario,carbonmitigation scenarios.
+2097 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 6 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure3.Annualvariationsof(a)electricityconsumptionandelectricityintensityand(b)electricity-relatedindirectGHGemissionsandrelative
+GHGintensityunder BaUand NDC scenariosduring2007−2025.
+3.2. Electricity-Related GHG Emissions. On average, Unlike these sectors, the carbon intensity of the electric
+0.33kWh of electricity isrequired totreat 1 m3 ofwastewater powersectorshowsalimiteddecrease(1%)by2025underthe
+(2007−2025) (Figure 3a). Among all wastewater collection NDC scenario. The reason is that the local electricity sector
+and treatment processes, biological treatment consumes the has a high autonomous carbon intensity reduction rate by
+largest amount of electricity, accounting for 49% of the total using renewable energy resources and efficient technologies
+electricity use, followed by pre-treatment (21%), pumping even without implementing carbon mitigation strategies.58 In
+2007,thecarbonintensityfromthelocalelectricitysectorwas
+(12%),sludgetreatment(10%),anddisinfection(8%)in2025.
+0.50 kg/kWh, much lower than the imported electricity (0.66
+Under the BaU scenario, the total electricity use will increase
+kg/kWh) and the national average (0.84 kg/kWh). Since the
+from 170 MWh in 2007 to 349 MWh by 2025 (by 105%), in
+importedelectricityfromSouthPowerGridaccountsforabout
+alignment with the increasing trend of total wastewater
+70% of the total electricity use, a further decrease in GHG
+treatment. The projected indirect GHG emissions stemming
+emission intensity would be expected if carbon mitigation
+from electricity use show a relatively stable growth rate (1.7%
+strategies were applied in other regions in China, especially in
+annually)undertheBaUscenario(Figure3a),increasingfrom
+the South Power Grid.
+104 kt in 2007 to 141 kt by 2025, which is much slower than
+3.3. Indirect External GHG Emissions. Carbon miti-
+the total wastewater treated increase rate (4.0% annually). As
+gation substantially reduces the indirect external GHG
+shown in Figure 3b, its GHG emission intensity will decrease
+emissions, i.e., by 72% (9.8 kt) by 2025 (Figure 4). Chemical
+by 33% by 2025 relative to the 2007 level under the BaU
+scenario.
+Carbon mitigation can slightly reduce electricity-related
+GHG emissions by 1% (1.4 kt per year) by 2025 due to (1)
+reduced electricity use with wastewater influent quantity/
+quality changes, as explained in Section 3.1, and (2) carbon
+intensityreductioninthelocalelectricpowersector.Underthe
+NDCscenario,carbonemissionintensity frommostindustrial
+sectors will decrease by 20−83% by 2025 compared with the
+BaU scenario. When the carbon intensity constraint is
+imposed, carbon abatement cost is generated endogenously,
+which is the equilibrium price to balance the supply and
+demand of the carbon emission allowance. The carbon
+abatement cost is evenly distributed in all industrial sectors
+and is projected to increase from 56 to 274 USD/t CO from
+2
+2020 through 2030 due to higher carbon constraints and
+adverse endogenous factors, such as increased clean energy Figure 4. Annual variations of indirect external GHG emissions and
+prices and less availability of low carbon technologies in relativeGHGemissionintensityfromchemicaluse,maintenance,and
+Shenzhen. The carbon emission supply is implied by future administration of WWTPs under BaU and NDC scenarios during
+2007−2025.
+GDP and carbon emission intensity target, and the demand is
+determined by the emissions from different industrial sectors
+and households. The carbon abatement cost will increase the
+usecontributesthelargestportionoftotalreductions,i.e.,82%
+production prices of all sectors, depending on their carbon (8.0 kt), followed by administrative (14%) and maintenance
+emission intensities. On the demand side, in response to the (4%). Under the BaU scenario, chemical use in WWTPs will
+pricechange,consumerswilladjusttheiractivitiestolowerthe increase from 2.9 kt in2007 to 9.1 kt by 2025, accounting for
+demandforenergy-andcarbon-intensiveproducts.Asaresult, 61−67% of indirect external GHG emissions. The reason is
+carbonemissionsfromenergy-andcarbon-intensiveindustries thattheemissionintensityfromthechemicalsectorcontinues
+sectors will be greatly reduced. to increase throughout the period under the BaU scenario.
+2098 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 7 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 5. (a) Wastewater flow and GHG emissions in individual systems under the BaU scenario; (b) comparison of direct and indirect GHG
+emissionsunder BaUscenario; and(c) differencein GHGemissionsbetweenNDC and BaUin2025.
+Hence, chemical use from WWTPs plays an important role in (36%),pre-treatment(15%),pumping(9%),sludgetreatment
+reducing indirect external GHG emissions from wastewater (8%), and disinfection (6%).
+treatment. Note that the chemical sector is an energy- and Carbon mitigation can reduce the total GHG emissions by
+carbon-intensive sector, with a carbon intensity of 3.5 and 8.4 6.6% (12.6 kt per year) by 2025 (Figure 5b,c), with 77%
+times than that in the machinery (maintenance) and service contributed by external GHG emissions (chemical use: 63%;
+(administrative) sectors in 2007, respectively (Table S11). To administrative: 11%; and maintenance: 3%), 12% by direct
+meetthecarbonmitigationtarget,thechemicalsectorrelieson GHG emissions, and 11% by indirect GHG emissions from
+electricityuse.GHGemissionintensityisalsoreducedby5.8%
+minimizing its production, and therefore, it suffers economic
+in 2025.
+losses and contributes the most significant reductions.
+TheannualvariationsoftotalGHGemissionsandemission
+On the contrary, carbon mitigation is beneficial to the
+intensity under the two scenarios during 1990−2025 are
+machinery sector, since it can reduce its carbon intensity by
+further detailed in Figure S4. The trend of GHG emissions
+adopting low-carbon technology, as represented in the CGE
+under the BaU scenario is in alignment with socio-economic
+modelbythesubstitutionofenergybycapital.Accordingly,the
+development and wastewater treatment capacity increase,
+machinery sector improves production efficiency with low
+showing a significant increase from 5.1 (95% CI: 4.8−5.5) kt
+carbon transformation, and therefore, it is affected the least
+in 1990 to 129.2 (95% CI: 95.9−162.5) kt in 2007 to 190.7
+under carbon mitigation. Under the NDC scenario, the
+(95% CI: 144.8−236.6) kt in 2025, equivalent to an annual
+maintenance of WWTPs will contribute more than half of
+growth rate of 12.2% and 2.0% for the periods of 1990−2006
+theindirectexternalGHGemissions(57%)by2025,whilethe
+and 2007−2025, respectively. CO -equiv emissions from
+2
+share of the chemical sector will reduce to 29%. treating 1 m3 wastewater were estimated to be 0.30 (95%
+3.4. Integrated Urban Drainage System GHG Emis-
+CI: 0.22−0.38) kg in 1990, which would decrease to 0.25
+sions. Figure 5a illustrates the wastewater flow and GHG (95% CI: 0.18−0.32) kg in 2007 and 0.16 (95% CI: 0.11−
+emissions in individual systems under the BaU scenario in 0.21) kg by 2025. The value was lower than studies in
+2025.GHGemissionsfromtheIUDSsare89%fromWWTPs Shenzhen (0.3 kg CO -equiv/m3 in 2015)41 and metropolitan
+2
+(direct emissions: 17%; electricity use: 65%; and indirect regions in India (0.22−0.29 kg CO -equiv/m3),59,60 despite
+2
+external: 7%), 10% from sewer systems (direct emissions: 1% their relatively lower electricity intensity (0.23−0.30 kWh/
+and pumping: 9%), and 1% from receiving water (direct m3)40,59,60thanourstudy(0.33kWh/m3).Itisalsonotedthat
+emission). Electricity-related GHG emissions contribute 74% similar indirect external GHG emissions (0.01−0.03 kg CO -
+2
+of total emissions, including biological treatment process equiv/m3)40,59,60 were estimated. However, constant national
+2099 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 8 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure 6. Variations of (a) total GHG emissions and (b) GHG emission intensity from the integrated urban drainage systems under different
+scenarios during 1990−2025, spatial distribution of (c) BOD and (d) NH-N concentration during the ebb slack in 2025 (En_low and NDC
+5 3
+scenariosaretakenasexamples),and(e)BOD and(f)NH-NconcentrationduringthedryperiodatstationS01underdifferentscenariosin
+5 3
+2025.Shadingindicates the 95% confidentialinterval.Boxplotsshow the 25th, 50th,and 75thpercentiles,and extremes.
+average carbon intensity of electricity generation (0.82−0.86 withtheworstwaterquality)decreasedby0−30%,whileGHG
+kg/kWh)wasusedinthesestudies,muchlargerthanthetime- emissions increased by 0−10.4% with little change in GHG
+evolving emission intensity (0.61 kg/kWh in 2007 and 0.40 emissions intensity. Increasing the pollutant removal rate of
+kg/kWh in 2025 under BaU) in this study. WWTPs can slightly increase GHG emissions assuming that
+thesametreatmenttechnologiesareused.Forinstance,witha
+4. DISCUSSION 0−10% increase in COD and TN removal rate of the
+Cr
+WWTPs, GHG emissions increased only by 0−0.9% and 0−
+4.1. Sensitivity Analysis. Sensitivities of imported
+0.7%, respectively. In addition, technologies aimed at
+electricity fuel structure transformation on GHG emissions
+increasing treatment efficiency improve water quality, as
+and emission intensity were also analyzed since 70% of the
+illustrated in the previous simulation.6,43 For example, with a
+electricity use is purchased from other regions (Figure S5).
+The imported electricity fuel structure transformation can 0−10% increase in COD Cr removal rate, the average BOD 5
+concentrationatS01decreasedby0−23%.Inordertoimprove
+significantly reduce GHG emissions from the IUDSs and
+improveGHGemissionintensity.Forexample,witha0−10% the treatment efficiency of current WWTPs, AAO-MBR is
+GHG intensity reduction in imported electricity, the total usually suggested.61 In fact, two newly built WWTPs in
+GHG emissions and emission intensity would decrease by Shenzhen have already been equipped with AAO-MBR, and
+29%. The sensitivities of GHG emissions, emission intensity, the operational data of these two WWTPs were used for
+and water quality to each engineering technology are further scenario analysis to evaluate the impact of upgraded WWTPs
+examined in Figure S5 in the Supporting Information. technology on GHG emissions from wastewater treatment.
+Improving the efficiency of wastewater infrastructure systems Given that considerable uncertainties may exist in the long-
+can significantly improve water quality while resulting in term projections, several additional scenarios were examined.
+negative effects on GHG emissions. For example, with a 0− Themajoruncertaintieswerefrom(1)theassumptionsofthe
+10% increase in volumetric wastewater treatment rate, the socio-economic system in the CGE model; (2) the
+average BOD concentration at station S01 (the cross-section assumptionsoffutureengineeringmeasures,and(3)variations
+5
+2100 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 9 ---
+Environmental Science & Technology pubs.acs.org/est Article
+intheimportedelectricity’sfuelmix.Thefirstuncertaintywas water-environment change, and design more effective policies
+assessedbyexaminingtwoadditionalscenariosofGDPgrowth to ensure energy and water security in future.
+rates in the CGE model, i.e., a higher (10.4%) and a lower Carbon mitigation has cobenefits on direct and indirect
+annualaveragerate(7.7%)over2007−2025,correspondingto GHG emissions reduction from WWTPs and local water
+a22%higheror18%lowerGDPin2025thanthatintheBaU quality improvement. To promote the water−energy−carbon
+scenario. As shown in Figure 6, GHG emissions were more cobenefits,carbonintensityoftheelectricitygenerationshould
+sensitivetoGDPgrowthratechangesthanwaterqualityinthe befurtherreducedsinceitismostsensitivetoGHGemissions
+river. Compared with the NDC scenario in 2025, the total from wastewater treatment. However, local carbon mitigation
+GHG emissions would increase by 15% (GDP_high) or strategies have limited impacts on reducing the carbon
+decrease by 12% (GDP_low), but BOD 5 and NH 3 intensity of electricity generation. Incentive measures, such as
+concentration at S01 only increased by 2−4% (GDP_high) allowances for low-carbon technology, should be promoted to
+or decreased by 3−5% (GDP_low). Regarding the secondary improve energy efficiency in the power generation sector.
+uncertainty, two additional scenarios of engineering practices Wastewater treatment and engineering practices have
+were analyzed; En_low and En_high. En_low represents the tradeoffs on energy use and GHG emissions. Despite the
+capacity and technology of the water infrastructure system at high energy use and GHG emission of AAO/MBR, it is an
+the 2009 level with no upgrade during the period of 2010− attractive technology to water engineering planners because it
+2025. The GHG emissions under the En_low scenario has high pollutant removal efficiency and is the proven
+decreased slightly compared with the NDC scenario, but the technology that can satisfy the water quality improvement
+projected water quality change in the receiving water cannot
+targets. In addition, China’s policies to strengthen environ-
+meet the water quality improvement target of the study area
+mental regulation and improve water quality are the main
+(Figure 6c,d), i.e., the average BOD 5 and NH 3-N concen- driving forces of using AAO/MBR.40 To mitigate this water−
+trations were suggested to be lower than 10 and 6 mg/L,
+energy−carbon conflict, emerging carbon capture and storage
+respectively.44 The En_high scenario evaluated the effect of
+technologies, such as microbial electrolytic carbon capture,
+usingAAO-MBRtechnologyontotalGHGemissionswiththe
+microbialelectrosynthesis,andmicroalgaecultivation,couldbe
+assumption that all WWTPs in the watershed are equipped
+integratedwithwastewatertreatment.Thesetechnologieshave
+with AAO-MBR between 1990 and 2025. With the upgraded
+the potential to minimize emissions with added benefits to
+treatment technology, the average BOD (5.9 mg/L at S01)
+5 water environment protection.
+and NH -N (4.2 mg/L at S01) concentrations can meet the
+3 4.3. Advantages and Limitations. The CGE-SyDWEM
+water quality improvement targets (Figure 6e,f). However,
+modelimprovestheunderstandingofwastewatertreatment in
+AAO-MBR is an energy- and carbon-intensive technology,
+response to socio-economic development and provides a
+consuming a large amount of energy (0.81 kWh/m3 waste-
+comprehensive evaluation of both direct and indirect GHG
+water)andhasahighGHGemissionintensity(0.37,95%CI:
+emissionsfromIUDSswithconsiderationofcarbonmitigation
+0.32−0.42 kg CO2-equiv/m3), 2.2 times that in the NDC
+strategies and water engineering measures. The advantages of
+scenario by 2025. It was found that the projected GHG
+using CGE-SyDWEM are as follows: (1) dynamic simulations
+emission under the En_high scenario was as high as 413.5 kt
+of wastewater influent/effluent quantity and quality based on
+(95% CI: 354.9−472.1) by 2025, which increased by 132%
+population growth and socio-economic development; (2)
+compared with the NDC scenario. The third uncertainty was
+improving GHG emission quantification by including indirect
+evaluated by setting a scenario (NDC_all), assuming that
+externalemissions,i.e.,embodiedemissionsinallmaterialsand
+carbon mitigation strategies were implemented in other
+resources used outside the WWTPs boundary and direct
+regions of China with a 10% reduction of the imported
+emissions from receiving water bodies; and (3) evaluating the
+electricity’s carbon intensity (2014−2025). Under the
+potential of carbon mitigation strategies on GHG emission
+NDC_allscenario,GHGemissionsfromwastewatertreatment
+reached peak emissions (145.4, 95% CI: 106.7−145.4 kt) by reduction from wastewater treatment. The impacts on
+2015andwouldgraduallydecreaseto126.3kt(95%CI:94.1− wastewater generation and waterborne pollutant discharge,
+carbonintensityofelectricitygeneration,andembodiedGHG
+158.5) in 2025. Furthermore, the aggregated effects of
+emissions in all materials and resources used outside the
+En_highandNDC_allscenarios(i.e.,En_NDC_all)indicated
+that electricity fuel structure transformation would offset the WWTPs boundary were quantified for the first time.
+increased GHGemissionsinduced bytheimprovedtreatment Thereareseverallimitationsinthisstudy,including(1)the
+technology, i.e., AAO-MBR. topography of wastewater collection is not considered when
+4.2. Policy Implications. The water−energy−carbon calculatingtheindirectGHGemissionsfromthesewersystem.
+nexus has not received much attention in water and energy Pan et al.62 reported that the electricity use for wastewater
+management in China.43,48,58 The current goal of the pumping in Changzhou, China, was about 0.03 and 0.1 kWh/
+m3formediumandlargeWWTPs,respectively,andtheshares
+wastewater industry is mainly to remove nutrients and
+contaminants to improve the water environment. Considering ofelectricityuseforwastewaterpumpingcanbeashighas20%
+the projected increasing trend of wastewater generation under of the total electricity use. The constant value (0.0384 kWh/
+thetwoscenarios,thepotentialcontributionofthewastewater m3) used in this study may overestimate or underestimate the
+industry to meet the goals of China’s NDC commitment is electricity use from pumping; (2) a constant electricity
+significant. The integrated model can help decision-makers intensity is used for the same WWTPs technology due to
+from energy, carbon, and water sectors understand the datalimitation.StudiesshowthatWWTPscapacityalsoaffects
+complicated synergistic effects of proposed carbon mitigation the electricity intensity, with relatively higher electricity
+strategies and wastewater treatment and engineering practices intensity in large-scale WWTPs.63 These limitations can be
+on local/regional energy consumption, GHG emissions, and reduced with field data available.
+2101 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104
+
+--- Page 10 ---
+Environmental Science & Technology pubs.acs.org/est Article
+■
+ASSOCIATED CONTENT Engineering, Texas A&M University, College Station, Texas
+* sı Supporting Information 77843, United States; National Water and Energy Center,
+UAE University, Al Ain 15551, UAE
+The Supporting Information is available free of charge at
+Raghupathy Karthikeyan − Department of Agricultural
+https://pubs.acs.org/doi/10.1021/acs.est.2c08583.
+Sciences, Clemson University, Clemson, South Carolina
+SelectedindicatorsofShenzhenandtheirpercentagesin 29634, United States
+China in 2020; sector classification of the CGE model;
+Complete contact information is available at:
+methane and CO emissions from sub-main and main
+2 https://pubs.acs.org/10.1021/acs.est.2c08583
+sewersystems;GHGemissionfactorsusedinthisstudy;
+GHG emission factors from recent field studies in
+Notes
+China;electricityintensityoffourtreatmentstagesusing
+The authors declare no competing financial interest.
+different treatment technologies in WWTPs; chemical
+■
+cost, maintenance cost, and administrative cost per unit
+ACKNOWLEDGMENTS
+ofwastewatertreatedusingdifferenttechnologies;water
+engineering measures; industrial structure of different TheauthorswouldliketothankDr.Lei,Liu(Professoratthe
+administrative areas in 2025; labor productivity, water SchoolofPublicAdministrationofSichuanUniversity,China)
+use efficiency, and pollutant load per GRP in 2010 and forhisassistanceincollectingtheInputandoutputTableand
+2025 (in 1990 Price); CO emissions intensity from Energy Balance Table of Shenzhen. This research was
+2
+chemicals, machinery, and service industrial sectors supported by the National Natural Science Foundation of
+under BaU and NDC scenarios; input parameter values China (71810107001, 72222001, 72234002, and 72073003)
+of SyDWEM; technologies used in Wastewater Treat- and the National Social Science Foundation of China
+ment Plants (WWTPs) and their design capacities (21AZD060).
+(2020); estimated parameter values for GDP/GRP ■
+growth model; calibrated values of water quality model REFERENCES
+parameters; locations of Shenzhen River Estuary water-
+(1) IPCC. Climate change 2021: The physical science basis.
+shed and current/future water infrastructure; compar-
+Contribution of working group I to the sixth assessment report of the
+ison of simulated and measured GRP, population, and intergovernmentalpanelonclimatechange;CambridgeUniversityPress.
+water consumption from 2007 to 2020; relative change I, 2021.
+of mean WWTPs influent concentrations; annual (2)IPCC.Climatechange2014:Mitigationofclimatechange:Working
+variations of (a) total GHG emissions and (b) GHG group iii contribution to the IPCC fifth assessment report; Cambridge
+emission intensity from the integrated urban drainage University Press, 2015.
+systems;sensitivitiesofdifferentmeasuresontotalGHG (3)McCarty,P.L.;Bae,J.;Kim,J.Domesticwastewatertreatment
+as a net energy producer-can this be achieved? Environ. Sci. Technol.
+emissions and GHG emission intensity under the NDC
+2011, 45, 7100−7106.
+scenarioin 2025; equations and parameters inthe CGE
+(4) Li, W. W.; Yu, H. Q.; Rittmann, B. E. Chemistry: Reuse water
+model;productiontreeofbasicsectors;productiontree
+pollutants. Nature2015, 528,29−31.
+of energy transformation sectors; SyDEWM model, (5) USEPA. Global non-CO2 GHG emissions: 1990−2030; U.S.
+simulatedandmeasuredoutputsinwaterqualitymodule Environmental Protection Agency: Washington, DC, 2012. https://
+(model calibration, wet season), and CGE-SyDWEM www.epa.gov/global-mitigation-non-co2-greenhouse-gases/global-
+model(PDF) non-co2-ghg-emissions-1990-2030 (accessedApril 10,2022).
+(6) Qin, H. P.; Su, Q.; Khu, S. T. Assessment of environmental
+■
+improvementmeasuresusinganovelintegratedmodel:Acasestudy
+AUTHOR INFORMATION
+oftheShenzhenrivercatchment,china.J.Environ.Manage.2013,114,
+Corresponding Authors 486−495.
+Qiong Su − Department of Agricultural Sciences, Clemson (7)Qin,H.P.;Su,Q.;Khu,S.T.;Tang,N.Waterqualitychanges
+during rapid urbanization in the Shenzhen river catchment: An
+University, Clemson, South Carolina 29634, United States;
+integrated view of socio-economic and infrastructure development.
+orcid.org/0000-0003-2420-5898; Email: qsu@
+Sustainability 2014,6, 7433−7451.
+clemson.edu
+(8) Niu, K.; Wu, J.; Qi, L.; Niu, Q. Energy intensity of wastewater
+Hancheng Dai − College of Environmental Sciences and
+treatment plants and influencing factors inChina. Sci. Total Environ.
+Engineering and Institute for Global Health and 2019, 670,961−970.
+Development, Peking University, Beijing 100871, China; (9)NPC.Nationalpeople’scongress(NPC).13thfive-yearplanfor
+orcid.org/0000-0003-4251-4707;Email:dai.hancheng@ economic and social development; 2016. https://policy.
+pku.edu.cn asiapacificenergy.org/node/2509#:%7E:text=
+Formulated%20on%20the%20basis%20of,and%20defines%20its%20
+Authors major%20objectives%2C (accessedApril 10, 2022).
+Shuyan Xie − China National Environmental Monitoring (10) UNFCCC. Adoption of the Paris agreement. Proposal by the
+Center, Beijing 100012, China president. 2015; 01/25; United Nations Framework Convention on
+Xiangying Yu − Guangdong Provincial Academy of Climate Change (UNFCCC), 2015. https://unfccc.int/documents/
+9064(accessed April10, 2022).
+Environmental Science, Guangzhou 510045, China
+(11)Mannina,G.;Butler,D.;Benedetti,L.;Deletic,A.;Fowdar,H.;
+Yun Lin − Joint Institute for Regional Earth System Science
+Fu,G.T.;Kleidorfer,M.;McCarthy,D.;Mikkelsen,P.S.;Rauch,W.;
+and Engineering and Department of Atmospheric and
+Sweetapple,C.;Vezzaro,L.;Yuan,Z.G.;Willems,P.Greenhousegas
+Oceanic Sciences, University of California, Los Angeles,
+emissions from integrated urban drainage systems: Where do we
+California 90095, United States stand?J. Hydrol. 2018, 559,307−314.
+Vijay P. Singh − Department of Biological and Agricultural (12) Guisasola, A.; de Haas, D.; Keller, J.; Yuan, Z. Methane
+Engineering&ZachryDepartmentofCivil&Environmental formation insewer systems. Water Res.2008, 42,1421−1430.
+2102 https://doi.org/10.1021/acs.est.2c08583
+Environ.Sci.Technol.2023,57,2093−2104

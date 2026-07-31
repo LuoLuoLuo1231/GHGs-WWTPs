@@ -1,0 +1,652 @@
+--- Page 1 ---
+Resources,Conservation&Recycling210(2024)107831
+ContentslistsavailableatScienceDirect
+&
+Resources, Conservation Recycling
+journalhomepage:www.sciencedirect.com/journal/resources-conservation-and-recycling
+Full length article
+Tracking China’s methane emissions from wastewater: Inventories, driving
+forces, and mitigation potential
+Weijie Liua, Nan Lia, Peng Gaoa, Xiaojing Dia, Liying Liua,b,*, Gang Kevin Lic,*
+aStateEnvironmentalProtectionKeyLaboratoryofEco-Industry,NortheasternUniversity,Shenyang,100819,China
+bFoshanGraduateSchoolofInnovation,NortheasternUniversityFoshan528311,China
+cDepartmentofChemicalEngineering,TheUniversityofMelbourne,VIC3010,Australia
+A R T I C L E I N F O A B S T R A C T
+Keywords: China’srapidurbanizationandburgeoningeconomydrovesignificantgrowthinsewagedischarge,necessitating
+Wastewater anexaminationoffactorsinfluencingwastewatermethaneemissionsandmitigationmeasures.Thisstudypre-
+Methaneemissioninventory sentedacomprehensiveinventoryofmethaneemissionsin31provincesofChinaoverasignificantperiod.We
+Drivingforces
+developedalogarithmicmeandivisorindex(LMDI)modeltorevealthedrivingforcesbehindemissionchanges.
+Scenarioanalysis
+Methaneemissionssurgedfromapproximately1.4Tgin2000toabout2.7Tgin2020,withtreateddomestic
+sewagebeingthefastest-growingsource(49Ggto810Gg).In2020,theeastern,central,andsouthernregions
+contributed 61.7 % to total emissions. The increase in emissions was primarily driven by economic output,
+urbanizationandpopulationgrowth.Thisstudyforecastedfutureemissionreductionpotential,highlightingthat
+reducing emission intensity (52.7 %) offered the most significant mitigation opportunities, followed by
+enhancing methane recovery (35.2 %). We recommended strengthening sewage discharge supervision and
+promotingbiogasproduction.
+1. Introduction comparedto2020(ECandUSA,2021).Furthermore,Chinahasformu-
+lated new Methane Emission Control Action Plan in 2023 (MEEPRC,
+Mitigating the global temperature increase to 1.5◦C above pre- 2023),whichforthefirsttimeclarifiesmethaneemissioncontroltargets
+industrial levels stands as a critical imperative demanding prompt inkeyareasby2030(Nisbet,2023).Duetoeconomicandsocialfactors
+interventionfrommajoreconomies.Methane(CH4),oneofthesixpri- such as the level of economic development and population density,
+mary greenhouse gases, has contributed 0.5◦C to global warming, significantregionaldifferencesexistinsewagedischargeacrossChina.
+ranking second only to carbon dioxide (CO2) (Curry, 2021; Anderson Developed areas with larger populations typically achieve higher
+etal.,2016;Deanetal.,2018).TheatmosphericconcentrationofCH4 organic matter removal rates from wastewater because of more
+hasrisenfrom722ppbin1750tonearly1900ppbin2020,representing advancedtreatmentfacilitiesandstricteremissionstandards.However,
+a150%increase(Curry,2021;IPCC,2014).TheGlobalWarmingPo- theseregionsalsofacethechallengeofhighergreenhousegasemissions
+tential(GWP)ofCH4surpassesthatofCO2,being80.5–82.5timesmore due to the need for enhanced treatment processes. Therefore, under-
+potentover20yearsand27.2–29.8timesmorepotentover100years standing emission patterns across various regions and quantitatively
+(IPCC, 2023). CH4, as a short-term climate pollutant persisting in the exploring the factors driving emissions are necessary for developing
+atmosphereforaboutadecade(Pratheretal.,2012),exhibitstraitssuch targetedmitigationstrategies.
+aslowemissionreductioncost,rapidresponsiveness,andevidentsyn- Since 1978 (China’s reform and opening up), due to the vigorous
+ergisticbenefits.Consequently,thereductionofCH4emissionsconsti- economic development and rapid urbanization process, China has
+tutesacrucialcomponentintheendeavorstomitigateglobalwarming becomebyfarthelargestcontributortosewagedischargeintheworld
+(UNEP,2021). andhasexperiencedthefastestgrowthrateintheworld(Zhangetal.,
+During the 26th UN Climate Change Conference of the Parties 2016). The annual sewage discharge in China increased sharply from
+(COP26), 150 countries endorsed the Global Methane Pledge (GMP), 1.494 million m3 in 1978 to 5.546 million m3 in 2019 (NBS,
+committing to a 30 % reduction in methane emissions by 2030 2000-2020a).Methaneisinevitablyproducedwhenorganicmatterin
+* Correspondingauthors.
+E-mailaddresses:liuly@smm.neu.edu.cn(L.Liu),li.g@unimelb.edu.au(G.K.Li).
+https://doi.org/10.1016/j.resconrec.2024.107831
+Received7April2024;Receivedinrevisedform20June2024;Accepted18July2024
+Availableonline2August2024
+0921-3449/©2024TheAuthors.PublishedbyElsevierB.V.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+wastewateristreatedunderanaerobicconditions(Croneetal.,2016). size,urbanizationlevel,economicoutput,generationintensity,waste-
+Theanaerobicprocessesintheinitialsedimentationtankandthebio- water treatment structure, emission intensity to changes in methane
+logical treatment section of sewage treatment plants can promote emissions inChina. Thisstudy alsoevaluatedthe long-term effectsof
+methane production.Ifnotmanagedproperly,moremethaneisoften different policy regulations and technological interventions through
+discharged(Chernicharoetal.,2015).Wastedisposalisthethirdlargest scenario analysis, providing a reference for decision-makers to set
+contributor to methane emissions in China, accounting for approxi- realisticgoalsandimplementeffectivesolutions.
+mately12%.Amongthem,methaneemissionsfromsewagetreatment
+account for 42 %, making it the second largest source of emissions 2. Methodologyanddata
+(NDRC, 2013). According to two official greenhouse gas emission in-
+ventories submitted by China to the United Nations Framework 2.1. Emissioncalculationmethod
+ConventiononClimateChange(UNFCCC),China’swastewatermethane
+emissionshaveincreasedfrom1620ktin2005to2908ktin2018(the WecalculatedthemethaneemissionsfromwastewaterinChinafrom
+latest)(NDRC,2013,2023).Ingeneral,wastewaterisarapidlygrowing 2000to2020basedonthemethodssuggestedbytheIPCC(IPCC,2006,
+sourceofmethaneemissionswithgreatpotentialforemissionreduction 2019) and Nation Development and Reform Commission (NDRC)
+(Ho¨glund-Isaksson,2012;Ho¨glund-Isakssonetal.,2020;Saunoisetal., (NDRC, 2011, 2023). The calculation formula for emissions from
+2020;Kirschkeetal.,2013). wastewater is defined as the amount of degradable organic matter in
+The Intergovernmental Panel on Climate Change (IPCC) has pro- wastewatermultipliedbythecorrespondingCH4emissionfactor(EF).
+vided a mass balance based accounting method (IPCC, 2006, 2019),
+E=EI+ED=EIt+EId+EDt+EDd (1)
+where,thecalculationformulaforemissionsfromwastewaterisdefined
+astheamountofdegradableorganicmatterinwastewatermultipliedby EIt=CODIt×EF(cid:0) R (2)
+thecorrespondingCH4emissionfactor(EF)(IPCC,2006).Thismethod
+has been applied in many countries and regions to report national EId=CODId×EF(cid:0) R (3)
+greenhouse gas inventories. Compared to the normalized greenhouse
+gasinventorypreparationmechanismsofdevelopedcountriessuchas EDt=BODDt×EF(cid:0) R (4)
+the UnitedStatesandCanada(Gaoet al.,2019; HockstadandHanel,
+2018;USEPA,1995,1999),China’sgreenhousegasinventoryprepara- EDd=BODDd×EF(cid:0) R (5)
+tion lacks continuity and has not been updated for a long time.
+Currently, the official greenhouse gas inventory is only available in EF=B0×MCF (6)
+1994,2005,2010,2012,2014,and2018,respectively,fromthreena-
+Erepresents methane emissions from wastewater, including EI
+tional information communications and three biennial update reports
+(methane emissions from industrial wastewater) and ED (methane
+(NDRC, 2004, 2013, 2016; NDRC, 2018a, 2018b, 2023). Therefore,
+emissionsfromdomesticwastewater).EIincludesEIt(methaneemissions
+developing a comprehensive and continuous wastewater methane
+fromindustrialwastewatertreatedbysewagetreatmentplants)andEId
+emissioninventoryisofgreatsignificanceforevaluatingtheeffective-
+(methane emissions from industrial wastewater treated by sewage
+ness of mitigation measures and guiding CH4 emission reduction
+treatment plants). EDincludesEDt(methane emissions from domestic
+activities.
+sewage treatment plants) andEDd(methane emissions from domestic
+Specifically,fromtheperspectiveofresearchersonmethaneemis-
+sewagetreatmentplants),allofwhicharemeasuredinkgCH4/a.COD
+sions from wastewater, most of the existing studies have focused on
+represents total chemical oxygen demand and is commonly used to
+specificwastewatertreatmentplants,investigatingtheeffectsoffactors
+characterizetheorganicmattercontentinindustrialwastewater,kg/a.
+suchasdissolvedoxygentemperatureandwastewatertemperatureon
+BODrepresentsthetotalbiochemicaloxygendemandandiscommonly
+methane emissions (Cai et al., 2019; Daelman et al., 2012; Gutierrez
+usedtocharacterizetheorganicmattercontentindomesticwastewater,
+etal.,2009;Wangetal.,2011).However,duetothetreatmentcondi- kg/a.DuetothelackofreportingonBODdatainChina’scurrentsta-
+tionsandprocessesofsewagetreatmentplantsvaryingfromregionto
+tistical data, existing research mostly calculates the average value of
+region, the research results are not universal. For emission trends of
+BOD/CODbasedonmeasureddatafromsewagetreatmentplants,and
+wastewaterinChina,existingstudieshavecoveredregionalemissionsat
+usesthiscoefficienttoconvertCODintoBOD(Songetal.,2011).The
+thenational,provincial,andurbanlevels(Dingetal.,2017;Duetal.,
+BOD/CODratioofthesevenmajoradministrativeregionsinChinaused
+2018;Pengetal.,2016;Zhaoetal.,2019).Unfortunately,mostexisting
+in this study are sourced from provincial greenhouse gas inventory
+researchonlyqualitativelyanalyzestheinfluencingfactorsfromasingle
+guidelinesandotherrelevantliterature(Maetal.,2015a).EFrepresents
+staticperspective(Maetal.,2015b;ZhangandChen,2014).Although
+emissionfactor,kgCH4/kgCODforEqs.(2)and(3),kgCH4/kgBODfor
+industrialwastewateranddomesticsewagearecloselyaffectedbyso-
+Eqs.(4)and(5).
+cioeconomicandurbanizationlevels(Duetal.,2018;Yanetal.,2019),
+B0 represents maximum CH4 production capacity, with a default
+fewstudieshaveconductedquantitativeresearchonthedrivingforceof
+value of 0.25 kgCH4/kgCOD or 0.6 kgCH4/kgBOD (NDRC, 2018a,
+methane emission in wastewater. Understanding and quantifying the
+2023), andMCFis methane correction factor used to correct methane
+factors that drive emissions are essential for identifying key emission
+emissionsfromsewagetreatmentplantsunderdifferenttreatmentpro-
+sources and developing targeted mitigation strategies. Scenario-based
+cesses and management levels. MCF is a dimensionless constant that
+predictions are crucial for assessing the potential impact of various
+representsthemaximummethaneproductioncapacityB0achievedby
+policy measures and technological interventions on future emissions.
+differenttreatmentandemissionpathwaysorsystems,andalsoreflects
+Thesepredictionsaidinplanningandimplementingeffectiveemission
+theanaerobicdegreeofthesystem.Fordomesticandindustrialwaste-
+reduction strategies, thereby contributing to China’s overall climate
+water treated by sewage treatment plants, the values are 0.165 and
+goals.
+0.458,respectively(NDRC,2018a,2023;ZhangandChen,2014).For
+In this contribution, byinvestigating themethane emissions of in-
+directlydischargedwastewater,thevalueis0.1(IPCC,2006;Pengetal.,
+dustrialanddomesticwastewaterin34provincesinChinaforpast20
+2016).Rrepresentsmethanerecoveryamount.Currently,thereisstill
+years,weupdatedtheinventoryofChina’swastewatermethaneemis-
+notalarge-scalemethanerecoveryindustryinChina,sothisstudyas-
+sions inlast 20years.Ourstudy determinedthewastewater methane
+sumesthatthemethanerecoveryamountis0.
+emissiondifferencesamongallregionsandprovinceandtheirchanges
+overtime.Wealsoperformedmulti-drivingforceanalysisofmethane
+emissionsfromwastewater,quantifyingthecontributionsofpopulation
+2
+
+--- Page 3 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+2.2. Logarithmicmeandivisiaindex 4. Thegenerationintensityeffect(GI):Theratiooftotalorganicmatter
+(BODorCOD)inwastewatertoGDP,characterizingtheemissionof
+Indexdecompositionanalysis(IDA)isawidelyusedmodeltostudy organicmatterinwastewatercausedbythecreationofunitGDP.
+the change of carbon emission and its mechanism, but this method 5. The wastewater treatment structure effect (TS): The treatment
+produces unexplained residuals in the process of variable decomposi- structure reflects the proportion of organic matter/directly dis-
+tion.Inordertosolvethisproblem,avarietyofimprovementmethods chargedorganicmattertreatedbythesewagetreatmentplanttothe
+emerged,includingLogarithmicMeanDivisiaIndex(LMDI),Laspeyres totalorganicmatterinthewastewater,andthisindicatorreflectsthe
+index,PaascheIndexandsoon(Angetal.,1998;AngandZhang,2000). sewagetreatmentstructure.
+Given the characteristics of perfect decomposition, consistency of ag- 6. The emission intensity effect (EI): The CH4 emission factor of
+gregation,abilitytodealwithzerovalueandgoodadaptability(Angand wastewater is largely determined by the treatment process of the
+Liu,2007),LMDIhasbecomethemainstreammethodofcarbonemis- sewagetreatmentplant;Therefore,thenewaerobicprocessexhibits
+siondrivingforceanalysissinceitwasproposed.Yangetal.analyzedthe higherefficiencythantheoldanaerobicprocess.Duringtheresearch
+influencingfactorsofcarbondioxideemissionsinChinafrom1996to period,mainstreamanaerobictechnologiesweregraduallyreplaced
+2016usingtheLMDImethod.Theirresearchfoundthateconomicac- by more efficient aerobic processes, thereby changing the CH4
+tivityisthegreatestdrivingforceforpromotingcarbonemissions,while emissionfactor.
+energyintensityisthegreatestinhibitoryfactor(Yangetal.,2020).Isik
+etal.usedtheLMDImethodtoevaluateandrevealthefactorsaffecting In accordance with the LMDI method (Ang, 2005), the magnitude
+carbon dioxide emissions in the transportation industry from 2000 to changesinCH4emissions(ΔEt)canbeexpressedinadditiveform(Eq.
+2017. The results indicate that carbon dioxide emissions from the (8)):
+transportationsectoraremainlydrivenbyeconomicgrowth,followed
+ΔE=Et(cid:0) E0=ΔPS+ΔUL+ΔEO+ΔGI+ΔTS+ΔEI (8)
+by population and emission intensity. The overall impact of trans-
+portation intensity shows significant potential for emission reduction whereΔEdenotethemagnitudechangesinCH4emissionsfrombaseline
+(Isiketal.,2020).
+year0toyeart.Et,E0denotetheCH4emissionsinyeartandyear0,
+Previousresearchonthedrivingforcesofgreenhousegasemissions respectively.ΔPS,ΔUL,ΔEO,ΔGI,ΔTS,ΔEIdenotetheeffectsofpopula-
+hasmainlyfocusedonCO2,analyzingindetailthedrivingforcesofCO2
+tion size, urbanization level, economic output, generation intensity,
+emissionsfromdifferentscalesandsectors(Duetal.,2020;Jiangetal.,
+wastewater treatment structure, emission intensity, respectively. The
+2020;Sunetal.,2011;Zhangetal.,2020).Onthisbasis,therehavebeen
+effectsofthedecompositionfactorsontheright-handsideofEq.(8)are
+relativelycomprehensivestudiesonfuturetrendsinCO2emissionsand
+quantifiedaccordingtoEq.(9)-(14):
+theformulationofmitigationpolicies(Lietal.,2017).Incontrast,there
+arerelativelyfewstudiesonmethaneemissions,andonlyafewstudies ΔPS=∑ Et(cid:0) E0 ×lnPSt
+(9)
+have been conducted in sectors such as agriculture and solid waste lnEt(cid:0) lnE0 PS0
+( eD dgu ea ,n le itt tla el., re2 s0 e2 a3 rc; hKa hn ag se rt eva el. a, l2 ed02 t2 h; eX dia ro ive et rsal o., f2 w0 a2 s1 t) e. wT ao teo ru mrk en tho aw nl e- ΔUL=∑ Et(cid:0) E0 ×lnULt
+(10)
+lnEt(cid:0) lnE0 UL0
+emissions. Therefore, this study applies the LMDI method to the
+d a wre aec so tedm wep c ao o ts m ei rt pio to rn s ee ao d tf mm i en ne tot th sa s tn i rx ue ce f ta um c ri t es os r (i so T,n Ss )n ,afr Cmo Om e Dlyw , ga ees nmt ee i rw s asa ti iot oe n nr. i iT n nh t te ee n ne s sim it ty yiss ((i GEo I In ) )s , ΔEO=∑ lnEEt t(cid:0) (cid:0) E ln0 E0×ln EE OO 0t (11)
+,
+economicoutput(EO),urbanizationlevel(UL)andpopulationsize(PS). ΔGI=∑ Et(cid:0) E0 ×lnGIt
+(12)
+ECH4 =EIt+EId+EDt+EDd lnEt(cid:0) lnE0 GI0
+=PS×UP ×GDP ×CODI×CODIt× EIt ΔTS=∑ Et(cid:0) E0 ×lnTSt
+(13)
+PS UP GDP CODI CODIt lnEt(cid:0) lnE0 TS0
++PS×U PSP ×G UD PP ×C GO DD PI×C CO OD DI Id× COEI Dd Id ΔEI=∑ lnEEt t(cid:0) (cid:0) E ln0 E0×ln EE II 0t (14)
++PS×UP ×GDP ×BODD×BODDt× EDt (7)
+PS UP GDP BODD BODDt where PSt, and PS0 denote the population size in year t and year 0,
++PS×U PSP ×G UD PP ×B GO DD PD×B BO OD DD Dd× BOED Dd r ye es ap re 0c .ti Ev Oe tl ,y a. nU dL Et, Oa 0n dd enU oL t0 ed the eno ecte onth ome iu crb ouan tpiz ua tt ii non yel ae rv te al nin dyy ee aa rr 0t .a Gn Id
+t,
+Dd
+andGI0denotethegenerationintensityinyeartandyear0.TSt,andTS0
+=∑4
+denotethewastewatertreatmentstructureinyeartandyear0.EIt,and
+PS×UL×EO×GI×TS×EI
+EI0denotetheemissionintensityinyeartandyear0.
+i=1
+2.3. Descriptionofscenarios
+1. Thepopulationeffect(PS):thepopulationsize(PS).
+2. Theurbanizationleveleffect(UL):theratiobetweenurbanpopula-
+Scenario analysis is a commonlyusedmethod for studying energy
+tionandtotalpopulation.Theurbanizationfractionincreasedfrom
+37.6 % to 63.9 % during the 2004–2020 period, and its annual andenvironmentalforecasting,mainlyaimedatquantifyingtheimpact
+andeffectsofvariouspoliciesandtechnologiesundertheassumptionof
+growthratewashigherthan1.6%(UP/PS).
+sustainedtrendsorspecificinterventions(Yangetal.,2017).Scenario
+3. Theeconomicoutputeffect(EO):Thecharacteristicsofrapidgrowth
+analysis, which combines qualitative and quantitative, has strong
+intheurbanpopulationandover-completionofGDPplansinChina
+practicabilityandapplicability,andhasbeenwidelyusedinemission
+leadustoincludetheabovetwoparametersintotheresearchfactors,
+forecasting,especiallyinthecontextofthedualcarbontargetproposal
+whichisrepresentedastheeconomicoutputinthisresearch(GDP/
+(Duanetal.,2021).Thisstudyisbasedonsixdrivingforcesolutionsand
+UP).
+setsupsevenscenariostosimulatethepotentialofmethaneemission
+reductioninwastewater.
+The BAU scenario aims to simulate existing development trends
+3
+
+--- Page 4 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+without considering any additional policies and measures to reduce Table1
+wastewatermethaneemissions.Themainpurposeofthiscounterfactual Descriptionsofsimulatedscenarios.
+baselinescenarioistoserveasareferenceforspecificpolicymeasures Scenarios Drivingforces Solutions Assumptions
+thatmayachieveemissionreduction,andcanbeconsideredaseithera
+Businessas – Simulatingthe Eachvariablebehavesas
+nopolicyscenarioorareferencescenario(UNDESA,2022).
+Usual currentsituationas usual(UNDESA,2022).
+Scenario1aimstoalleviatethemethaneemissionintensityeffectof (BaU) thebaseline
+wastewater.Thespecificsolutionistopromotetheuseofhigh-efficiency Scenario1 Emission Utilizationof CH4utilizationratiowas
+methane production technology of high-concentration organic indus- intensityeffect biogas 0%in2020,20%in
+2040withannual
+trialwastewaterandtoprovidehigh-efficiencyrecoveryequipmentto
+increaserateof1%,and
+improvetherecoveryandutilizationrateofmethane.Theutilizationof 35%in2050withannual
+methane not only has the climate benefit of reducing greenhouse gas increaserateof1.5%.
+emissions, but also has the economic benefit of biogas resource Scenario2 Treatment Improvementof Theindustrial
+utilization. structureeffect sewagetreatment wastewatertreatment
+rate ratewas97%in2020,
+Scenario2aimstooptimizethewastewatertreatmentstructure,and
+100%in2035,andwill
+thespecificsolutionistoimprovethetreatmentrateofurbandomestic remainunchangeduntil
+sewageandsteadilyimprovetheharmlessresourcetreatmentlevelof 2050;Thedomestic
+sludgeasfertilizer.Inthepastfewdecades,withtheimprovementofthe wastewatertreatment
+ratewas66%in2020,90
+treatmentefficiencyofurbansewagetreatmentplants,theurbansewage
+%in2050withannual
+treatment mode has shifted from direct discharge to post-treatment increaserateof0.8%(
+discharge (Qu et al., 2022). Therefore, scenario 2 assumes that by MEEPRC,2023).
+2035,thedomesticsewagetreatmentratewillincreaseto100%,and Scenario3 Generation Reductionof generationpercapita
+thedirectdischargeratiowilldecreaseto0.Thisassumptionisconsis- intensityeffect organicmatter wouldbe95%compared
+generationper withtheamountofBaU
+tentwithmethaneemissioncontrolactionplan(MEEPRC,2023).
+capita scenarioin2021decrease
+Scenario3aimstosimulatetheeffectofreducingCODgeneration 1%peryearuntil65%in
+intensity.AccordingtothecurrenttechnologicallevelinChina,themost 2050.
+widelyusedmethodfortreatingCODinwastewateristhetraditional Scenario4 Economic Slowdownin From2020to2050,the
+outputeffect economic annualGDPgrowthrate
+activatedsludgemethod(Jinetal.,2014).Thismethodhashighorganic
+development willbe2.5%.
+matter removal efficiency, but there is a large contradiction between
+Scenario5 Urbanization Slowdownin Theurbanizationrate
+oxygensupplyanddemand,whichcaneasilycauseinsufficientoxygen leveleffect urbanization was64%in2020,72%
+inthefrontsectionoftheaerationtankandexcessoxygenintheback, in2050withannual
+resultinginthesideeffectofmethaneemissions(Wangetal.,2017).For growthrateof0.26%.
+Scenario6 Population Limitationof Thetotalpopulationwas
+industrial enterprises, COD emissions can be reduced by improving
+effect populationgrowth 1.41billionin2020and
+processlevelandstrengtheningequipmentmaintenance.Fordomestic 1.17billionin2050.
+sewage,pre-treatmentmethodssuchaskitchenwasteclassificationand
+recycling,andbuildingnewbiogasdigesterscanbepromotedtoreduce
+and provincial GDP and population data for the LMDI analysis were
+CODproduction.
+derivedfromtheChinaUrbanStatisticalYearbook(NBS,2000–2020b).
+Scenario4aimstopredictthemethanemitigationconsequencesof
+economicslowdown.WiththevigorousdevelopmentofChina’secon- Methaneemissionfactorsarederivedfromthe2006IPCCGuidelinesfor
+National Greenhouse Gas Inventories (IPCC, 2006), Guidelines for the
+omy and the improvement of consumption level, the production of
+compilationofprovincialgreenhousegasinventories(Trial)(NDRC,2011)
+wastewater in China has surged in the past two decades, which un-
+and Literature (Cai et al. 2015). The sources of data are shown in
+doubtedly poses a dual challenge to the environment and climate.
+Therefore,Scenario4assumestheimpactofaslowdownineconomic
+development.
+Table2
+Scenario5simulatesmethaneemissionprojectionsforslowingur-
+Datasources.
+banization.Inthepast20years,thelevelofurbanizationinChinahas
+DataType Source Description
+increasedfrom35.9%to61.4%(Guanetal.,2018).However,inview
+of the restrictions of China’s rural land system and urban household CODdischargedin ChinaStatisticalYearbook( AnnualdataofCOD
+registrationsystem,thestickinessofChina’sruralpopulationishigher industrial NBS,2000–2020a),China directdischargedatthe
+wastewater/ EnvironmentalYearbook( provinciallevel
+than that of developed countries with free land circulation and no domesticsewage NBS,2000–2020c)
+householdregistrationsystemrestrictions.Thus,thisscenariosimulates CODremovedin ChinaEnvironmental AnnualdataonCOD
+theeffectsofaslowdowninurbanization. industrial Yearbook(NBS,2000-2020c), removalattheprovincial
+Scenario 6 is designed to simulate the scale effects of population wastewater/ ChinaEnvironmental level
+domesticsewage StatisticalAnnualReport(
+reduction.Therefore,differentpopulationgrowthratesaresimulatedin
+MEP,2000-2020)
+thisscenarioThespecificdescriptionsofsimulatedscenariosisshownin BOD/CODratio Literature(Maetal.2015a), BODandCOD
+Table1. Guidelinesforthe concentrationdatafrom
+compilationofprovincial urbansewagetreatment
+greenhousegasinventories plants
+2.4. Datasources
+(Trial)(NDRC,2011)
+GDPData ChinaUrbanStatistical Annualnationaland
+Thedatausedinthisstudywascollectedfromvarioussources.The Yearbook(NBS,2000-2020b) provincialGDPdata
+amountofCODremovalanddirectemissionsattheprovinciallevelare PopulationData ChinaUrbanStatistical Annualnationaland
+derived from China Statistical Yearbook (NBS, 2000–2020a), China Yearbook(NBS,2000-2020b) provincialpopulation
+data
+EnvironmentalStatisticalAnnualReport(MEP,2000–2020)andChina
+MethaneEmission Literature(Caietal.2015), Emissionfactorsfor
+EnvironmentalYearbook(NBS,2000–2020c).TheBOD/CODratioused
+Factors Guidelinesforthe methaneemissionsfrom
+inthecalculationofdomesticsewageisderivedfromthestudyofthe compilationofprovincial wastewater
+influent BOD and influent COD concentration data of urban sewage greenhousegasinventories
+(Trial)(NDRC,2011)
+treatmentplantsinChina(Maetal.,2015a;NDRC,2011).Thenational
+4
+
+--- Page 5 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+Table2. In2004,duetoeconomicdevelopmentimbalances,methaneemis-
+sionsexhibitedaspatialpattern,characterizedbyhighlevelsintheeast
+3. Resultsandanalysis andsouthandlowlevelsinthewestandnorth(Fig.2a).Over70%of
+emissionswereconcentratedincentral,eastern,andsouthernChina.By
+3.1. Thespatiotemporalcharacteristicsofmethaneemissionsfrom 2020,withthegovernment’sfocusoneconomicdevelopmentandurban
+wastewater constructionininlandareas,otherregionsinChinagainedprominence
+inwastewatermethaneemissions,increasingfrom493Ggin2000to
+Inthisstudy,thetotalannualmethaneemissionsfromwastewaterin 1015Gg.TheeasternandcentralChinaremainedrelativelystable,with
+Chinafor2020amountedtoabout2.7Tg(2681Ggcalculated).Emis- emission-intensiveareasshiftingwestwardandnorthward(Fig.2b-d).
+sionsfromEItandEDtconstitutedtheprimarysources,contributing59.8 In2020,regionswithhighmethaneemissionsfromwastewaterincluded
+% and 30.2 %, respectively. The central region exhibited the highest Shandong(226Gg),Guangxi(204Gg),Zhejiang(187Gg),Fujian(179
+emissions, totaling 566 Gg (Fig. 1a). Temporally, methane emissions Gg), and Guangdong (178 Gg) (Supplementary Table S4). These five
+fromChinese wastewaterdisplayedanupwardfluctuatingtrendfrom provincesarerepresentativeofbothindustrialdevelopmentanddense
+2010to2011,risingfrom1.4Tg(1368Ggcalculated)to3.4Tg(3445 population.Subsequently,wewilldelveintotheanalysisofthedriving
+Gg calculated). Subsequently, between 2011 and 2020, a slight but forcesbehindemissionsatbothnationalandprovinciallevels.
+stable decrease occurred, lowering emissions to 2.7 Tg (2681 Gg
+calculated)(Fig.1b).Regardingwastewatertypes,thedischargetrendof
+3.2. Drivingforcesanalysisatthenationalandprovinciallevels
+EIcorrelatedwiththeoverallmethanedischarge,whileEDsurgedfrom
+253Ggto1064Gg.Duetoimbalancedgrowthrates,thegapbetweenEI
+Methane emissions changes in China due to wastewater treatment
+andEDgraduallynarrowed.Consideringwastewatertreatmentmethods,
+during the accounting period are influenced by methane emission in-
+theproportionoftreatedemissionsincreasedfrom72.2%in2000to90
+tensity, wastewater treatment structure, COD emission intensity, eco-
+%duetostricterdischargestandardsandimprovedsewagetreatment
+nomic output, urbanization level, and population size effect (Fig. 3).
+plant capacity (Fig. 1c). Notably, rapid urbanization led to explosive
+Overthisperiod,economicoutputistheprimaryfactordrivingemis-
+growthinEDtduringthesurveyperiod,withtotalmethaneemissions
+sions increase, followed by urbanization level and population size.
+fromEDtescalating16.5times,from49Ggto810Gg.
+While the impact of methane emission intensity on emissions is
+Fig.1. Spatial-temporalchangesinmethaneemissionsfromwastewaterinChina.a,Compositionofmethaneemissionsfromwastewaterin2020.b,Methane
+emissionsfromwastewaterfrom2000to2020.c,Theproportionofmethaneemissionsfromvarioustypesofwastewaterfrom2000to2020.Originaldataare
+availableinSupplementaryTableS1-S2.
+5
+
+--- Page 6 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+Fig.2. TheSpatialdistributionofmethaneemissionsfromwastewaterinChina.a,thespatialdistributionofregionalemissionsfrom2004-2020.b-d,thespatial
+distributionofmethaneemissionsin2020fromtotalwastewater(b)industrialwastewater(c)domesticwastewater(d).Spatialdistributionofmethaneemissions
+fromdomesticwastewater.Whiteareasindicatingdataunavailability.ThegeographicinformationdatainthisfigurearefromtheNationalGeomaticsCenterof
+China(NGCC,2021).OriginaldataareavailableinSupplementaryTableS3-S4.
+generallypositive,itscontributionisrelativelysmallcomparedtothe From2004to2020,wequantifiedandrankedthecontributionofsix
+aforementionedfactors.Inthepasttwodecades,theproportionofCOD driving factors to changes in methane emissions from wastewater
+emitted from domestic wastewater with smaller emission factors has treatmentin31provincesbasedonemissionchanges(Fig.4).Duringthe
+increased,highlightingthebeneficialroleofthewastewatertreatment surveyperiod,Fujian,Guangxi,Hubei,Shaanxi,Guangdong,Liaoning,
+structureinmitigatingmethaneemissions.Assewagetreatmentplant Shanxi, and Hebei experienced the largest increase in wastewater
+efficiency improves, COD emission intensity decreases, resulting in methane emissions (over 50 Gg). Despite the overall increase, the
+alleviatedemissions.Thedrivingforceanalysisresultsofthisstudyalign structureofwastewatertreatmentandtheintensityofCODemissions
+withpreviousresearchonthesolidwasteindustry,confirmingtheac- resultedinemissionreductionfortheseeightprovinces.Theeffectsof
+curacy of our study. The research suggests that achieving sustained emission reduction are observed in most provinces, aligning with the
+methaneemissionsreductionrequireseffortstoenhancesewagetreat- trend ofincreasingtheproportion ofdomestic sewageandimproving
+mentplantefficiency,furtherreduceCODemissionintensity,andpro- theefficiencyofsewagetreatmentplants.Intheseeightprovinces,all
+motetherecyclingandutilizationofbiogas. other driving forces contributed to the methane emission increase,
+6
+
+--- Page 7 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+methane emissions. To mitigate these issues, conducting on-site in-
+vestigations,implementinglong-termcontinuousmonitoringofwaste-
+water treatment plants, and regularly updating discharge coefficients
+areessential.
+Regardingorganicmatterdatainwastewater,Chinacurrentlyonly
+releasedstatisticaldataontotalCODatprovincialandnationallevels.
+The BOD data required for estimating CH4 emissions from domestic
+sewage was derived from the correlation between BOD/COD in pro-
+vincial greenhouse gas inventory guidelines. Obtaining detailed BOD
+dataforeachprovince,region,andcityinfutureresearchwouldprovide
+amoreaccuratereflectionoftheactualsituation,asitrepresentsfirst-
+handinformation.
+Finally, this study calculated emissions based on overall sewage
+treatmentprocessemissionfactorswithoutdistinguishingbetweenCH4
+carried by the drainage network and CH4 generated during sewage
+treatment.ThisresultedinunclearboundariesforCH4emissionsinthe
+sewagetreatmentprocess.Asinterestinthistopicgrows,futureresearch
+needstomonitormethaneemissionsfromsewernetworksofdifferent
+Fig. 3. Driving forces of methane emissions from wastewater in China from
+scales to avoid underestimating emissions and to improve result
+2000to2020.
+accuracy.
+SpecificdatacanbefoundinSupplementaryTableS5.
+4. Conclusionsandimplications
+particularly in terms of economic output and urbanization levels.
+Amongthe31provincessurveyed,onlyAnhui,Shandong,Hainan,and
+This study compiled an inventory of methane emissions from
+Hunanshowedadecreaseinwastewatermethaneemissions.
+wastewater spanning2000 to2020, revealinganincreasefrom about
+1.4 Tg (1368 Gg calculated) to about 2.7 Tg (2681 Gg calculated),
+3.3. ProjectionofChina’swastewateremission signifyinganotablesurgeof96%overthepasttwodecades.EItcon-
+stitutes the largest proportion of emissions, while EDt emerges as the
+ForecastingChina’smethaneemissionsfromwastewater:Employing
+fastest-growingsource.Ouranalysisidentifieseconomicoutputeffects
+LogarithmicMeanDivisiaIndex(LMDI)analysisresults,weconducted astheprimarydrivingforceforemissionsgrowth,followedbyurbani-
+scenario analysis to predict methane emissions from wastewater until zation levels and population size. Utilizing LMDI analysis results, we
+2050(Fig.5).Ourfindingsrevealthat,intheBusiness-As-Usual(BAU) establishedsevenscenariostopredicttheemissionreductionpotential
+scenario, methane emissions from wastewater are projected to reach ofwastewatermethaneby2050.Thefindingsindicatethat,compared
+3473Ggin2050.InScenario3,involvingCODreduction,theannual withtheBAUscenario,thegreatestemissionreductionpotentialarises
+methanereductionby2050isprojectedtobe1830Gg,makingitthe from reducing COD emission intensity (Scenario 3) at 52.7 %, while
+most promising contributor. Scenario 1, encouraging eligible waste- strengthening methane recovery and utilization (Scenario 1) also ex-
+watertreatmentprojectstoadoptmeasuressuchasanaerobicdigestion hibits significant potential at 35.2 %. Considering the anticipated
+ofsludgeforbiogasgenerationandenhancingrecoveryandutilization, slowdowninChina’seconomyandpopulationgrowth,theinfluenceof
+couldachieveareductionof1220Ggby2050.Subsequentscenarios, these two factors on methane emissions is expected to be more sec-
+namelyScenarios4,6,and2,indicatemethanereductionamountsof ondary,withthemethaneemissionreductionpotentialresultingfroma
+510Gg,490Gg,and370Gg,respectively,relativetotheBAUscenario. slowdowninurbanizationbeingthelowestat4.9%.Theoutcomesof
+Scenario5showsamodestreductionofonly170Ggcomparedtothe thisindependentstudyprovidevaluablereferencesformethaneemis-
+BAUscenario,asChina’surbanizationprocessisnotyetcomplete,and
+sionpolicyformulationandofferinsightsforclimatescientistsinother
+methane emissions are expected to rise with the growth of urban do- developingcountries.
+mesticwastewater.Duetothelackofconsiderationforimprovementsin Methane reduction should be systematically promoted based on
+treatmentmethods,Scenarios4,6,2,and5exhibitvaryingdegreesof China’s society, economy, and technology. Reducing COD emissions
+increaseinemissionscomparedtothe2020levels.Theintegratedsce- from the source can effectively reduce methane emissions. In future
+nario, combining multiple measures, will demonstrate the greatest applications, industrial enterprises can diminish COD emissions by
+emissionreductionpotential,emphasizingtheneedforcomprehensive enhancingprocessefficiencyandprioritizingequipmentmaintenance.
+actions, including strengthened coordination between pollutants and For domestic sewage, promoting pre-treatment methods, such as the
+methanecontrol,reducedCODemissions,andtheadoptionofanaerobic classification and recycling of kitchen waste and constructing new
+methodsforbiogasproductionwithenhancedrecoveryandutilization. biogas digesters, can curtail COD production. Regarding end-of-pipe
+treatment,advocatingtheutilizationofhighconcentrationorganicin-
+3.4. Uncertaintiesandlimitations dustrialwastewaterefficientmethaneproductiontechnology,equipped
+with efficient recovery equipment, enables the effective recovery of
+Wemustacknowledgeseveralfactorsthatledtotheuncertaintyof methane for combustion or power generation. The utilization of
+this study, including but not limited to methane emission factors, methane offers not only climate benefits for reducing greenhouse gas
+wastewaterorganicmatterdata,andoftenoverlookedsewermethane emissions,butalsoeconomicadvantagesthroughbiogasresourceuti-
+emissions. Regarding CH4 emission factors, China’s diverse sewage lization. Furthermore, endorsing the synergisticreduction ofmethane
+treatment processes lead to significant variability in CH4 emissions and odors from sewage treatment plants and landfills, including
+among different treatment plants. Variations in the efficiency and hydrogensulfide,yieldsenvironmentalbenefitsforbothlocalresidents
+operationoftheseplantscouldresultinCH4leaksandpressureaccu- and global society. This approach facilitates the acceptance of these
+mulation,forinstance,whenanaerobicdigestiontanksoperateineffi- mitigationpoliciesbypolicymakersatalllevels.
+ciently. Furthermore, emission factors may change over time due to
+technologicaladvances,operationalpractices,andevolvingpoliciesand
+regulations.Thesefactorscollectivelycontributedtotheuncertaintyin
+7
+
+--- Page 8 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+Fig.4. Thetemporaldriversformethaneemissionsfromwastewaterin31provincesfrom2004to2020.Thevaluesintherightparenthesesrepresentthechangesin
+methaneemissionsfromwastewaterineachprovince,Gg.SpecificdatacanbefoundinSupplementaryTableS6.Thelabelsatthetopofthefigurerepresentthesix
+drivingforcesdefinedinEq.(8),(emissionintensity(EI),wastewatertreatmentstructure(TS),CODgenerationintensity(GI),economicoutput(EO),urbanization
+level(UL)andpopulationsize(PS))andthecolorsrepresenttheindividualcontributionsofthedrivingforcestoCH4emissionsinwastewaterfrom30provincesin
+China,asshowninthelegendbars.Positivevaluesrepresentthedrivingforcepromotesemissiongrowth,whilenegativevaluesrepresentthedrivingforcepromotes
+emissionreduction.
+CRediTauthorshipcontributionstatement Methodology, Investigation, Data curation. Peng Gao: Investigation,
+Formalanalysis.XiaojingDi:Methodology,Datacuration.LiyingLiu:
+Weijie Liu: Writing – original draft, Visualization, Methodology, Writing – review & editing, Validation, Supervision, Funding acquisi-
+Investigation,Datacuration,Conceptualization.NanLi:Visualization, tion.GangKevinLi:Writing–review&editing,Methodology.
+8
+
+--- Page 9 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+Crone,B.C.,Garland,J.L.,Sorial,G.A.,Vane,L.M.,2016.Significanceofdissolved
+methaneineffluentsofanaerobicallytreatedlowstrengthwastewaterandpotential
+forrecoveryasanenergyproduct:areview.WaterRes.104,520–531.https://doi.
+org/10.1016/j.watres.2016.08.019.
+Curry,A.,2021.Controlmethanetoslowglobalwarming—fast.Nature596,461.
+https://doi.org/10.1038/d41586-021-02287-y.
+Daelman,M.R.,vanVoorthuizen,E.M.,vanDongen,U.G.,Volcke,E.I.,van
+Loosdrecht,M.C.,2012.Methaneemissionduringmunicipalwastewatertreatment.
+WaterRes.46(11),3657–3670.https://doi.org/10.1016/j.watres.2012.04.024.
+Dean,J.F.,Middelburg,J.J.,Ro¨ckmann,T.,Aerts,R.,Blauw,L.G.,Egger,M.,etal.,2018.
+Methanefeedbackstotheglobalclimatesysteminawarmerworld.Rev.Geophys.
+56(1),207–250.https://doi.org/10.1002/2017rg000559.
+Ding,T.,Ning,Y.,Zhang,Y.,2017.EstimationofgreenhousegasemissionsinChina
+1990–2013.GreenhouseGasSciTechnol7(6),1097–1115.https://doi.org/
+10.1002/ghg.1718.
+Du,M.,Zhu,Q.,Wang,X.,Li,P.,Yang,B.,Chen,H.,etal.,2018.Estimatesand
+predictionsofmethaneemissionsfromwastewaterinChinafrom2000to2020.
+Earth’sFuture6(2),252–263.https://doi.org/10.1002/2017ef000673.
+Du,T.,Wang,J.,Wang,H.,Tian,X.,Yue,Q.,Tanikawa,H.,2020.CO2emissionsfrom
+theChinesecementsector:analysisfromboththesupplyanddemandsides.J.Ind.
+Ecol.24(4),923–934.https://doi.org/10.1111/jiec.12986.
+Duan,L.,Hu,W.,Deng,D.,Fang,W.,Xiong,M.,Lu,P.,etal.,2021.Impactsofreducing
+airpollutantsandCO2emissionsinurbanroadtransportthrough2035in
+Chongqing.China.Env.Sci.Ecotechnol.8,100125https://doi.org/10.1016/j.
+ese.2021.100125.
+Fig. 5. Annual CH4 emissions from different treatment method under seven Duan,Y.,Gao,Y.,Zhao,J.,Xue,Y.,Zhang,W.,Wu,W.,etal.,2023.Agricultural
+scenariosduring2000–2050.Basedonsixdrivingforcesolutions,sevensce- methaneemissionsinchina:inventories,drivingforcesandmitigationstrategies.
+nariosweresetuptosimulatethepotentialforCH4emissionreduction.The Environ.Sci.Technol.57(36),13292–13303.https://doi.org/10.1021/acs.
+BAU(businessasusual)scenarioissettosimulateexistingdevelopmenttrends est.3c04209.
+EuropeanCommission&UnitedStatesofAmerica,EC&USA,2021.Globalmethane
+withoutconsideringothermeasures.
+pledge.www.ccacoalition.org/en/resources/global-methane-pledge.
+Gao,G.,Chen,M.,Wang,J.,Yang,K.,Xian,Y.,Shi,X.,etal.,2019.Sufficientor
+Declarationofcompetinginterest insufficient:assessmentoftheintendednationallydeterminedcontributions(INDCs)
+oftheworld’smajorgreenhousegasemitters.Front.Eng.Manag.6(1),19–37.
+https://doi.org/10.1007/s42524-019-0007-6.
+Theauthorsdeclarethattheyhavenoknowncompetingforfinancial Guan,X.,Wei,H.,Lu,S.,Dai,Q.,Su,H.,2018.Assessmentontheurbanizationstrategy
+inChina:achievements,challengesandreflections.HabitatInt71,97–109.https://
+interestsorpersonalrelationshipsthatcouldhaveappearedtoinfluence
+doi.org/10.1016/j.habitatint.2017.11.009.
+theworkreportedinthispaper.
+Gutierrez,O.,Park,D.,Sharma,K.R.,Yuan,Z.,2009.Effectsoflong-termpHelevation
+onthesulfate-reducingandmethanogenicactivitiesofanaerobicsewerbiofilms.
+Dataavailability WaterRes.43(9),2549–2557.https://doi.org/10.1016/j.watres.2009.03.008.
+Hockstad,L.,Hanel,L.,2018.InventoryofUSgreenhousegasemissionsandsinks.
+Ho¨glund-Isaksson,L.,2012.Globalanthropogenicmethaneemissions2005-2030:
+Datawillbemadeavailableonrequest. technicalmitigationpotentialsandcosts.Atmos.Chem.Phys.12(19),9079–9096.
+https://doi.org/10.5194/acp-12-9079-2012.
+Ho¨glund-Isaksson,L.,Go´mez-Sanabria,A.,Klimont,Z.,Rafaj,P.,Scho¨pp,W.,2020.
+Technicalpotentialsandcostsforreducingglobalanthropogenicmethaneemissions
+Acknowledgements inthe2050timeframe–resultsfromtheGAINSmodel.Environ.Res.Commun.2(2),
+025004https://doi.org/10.1088/2515-7620/ab7457.
+IntergovernmentalPanelonClimateChange,IPCC,2006.2006IPCCGuidelinesfor
+ThisworkwassupportedbytheNationalNaturalScienceFoundation NationalGreenhouseGasInventories.https://www.ipcc.ch/report/2006-ipcc-gu
+ofChina(GrantNo.22078054),andtheGuangDongBasicandApplied idelines-for-national-greenhouse-gas-inventories/.
+BasicResearchFoundation(GrantNo.2022A1515140087). IntergovernmentalPanelonClimateChange,IPCC,2014.AR5SynthesisReport:climate
+Change2-014.https://www.ipcc.ch/report/ar5/syr/.
+IntergovernmentalPanelonClimateChange,IPCC,2019.2019Refinementtothe2006
+Supplementarymaterials IPCCGuidelinesforNationalGreenhouseGasInventories.https://www.ipcc.ch/re
+port/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inve
+ntories/.
+Supplementarymaterialassociatedwiththisarticlecanbefound,in IntergovernmentalPanelonClimateChange,IPCC,2023.AR6SynthesisReport:climate
+theonlineversion,atdoi:10.1016/j.resconrec.2024.107831. Change2023.https://www.ipcc.ch/report/sixth-assessment-report-cycle/.
+Isik,M.,Sarica,K.,Ari,I.,2020.DrivingforcesofTurkey’stransportationsectorCO2
+emissions:anLMDIapproach.TranspPolicy(Oxf)97,210–219.https://doi.org/
+References 10.1016/j.tranpol.2020.07.006.
+Jiang,S.,Zhu,Y.,He,G.,Wang,Q.,Lu,Y.,2020.FactorsinfluencingChina’snon-
+residentialpowerconsumption:estimationusingtheKaya–LMDImethods.Energy
+Ande wr aso rmn, inT g.R :. f, roH maw thk ein ps, ioE n., eeJ ro in ne gs, wP o. rD k., o2 f0 a1 rr6 h. eC nO iu2 s,t ah ne dg cr ae le len nh do au rse toef tf oe dc at ya ’n sd eag rl to hbal 201,117719.https://doi.org/10.1016/j.energy.2020.117719.
+systemmodels.Endeavour40(3),178–187.https://doi.org/10.1016/j. Jin, 6L. 6, ,Z 8h 5a –n 9g 8, .G h., ttT pi sa :n //, dH o. i, .2 or0 g1 /4 1. 0C .1u 0rr 1e 6n /t j.s wta at te reo sf .2se 0w 14ag .0e 8t .r 0e 1a 4tm entinChina.WaterRes.
+.
+endeavour.2016.07.002. Kang,Y.,Yang,Q.,Wang,L.,Chen,Y.,Lin,G.,Huang,J.,etal.,2022.China’schanging
+Ang,B.,Zhang,F.,Choi,K.,1998.Factorizingchangesinenergyandenvironmental
+city-levelgreenhousegasemissionsfrommunicipalsolidwastetreatmentand
+indicatorsthroughdecomposition.Energy23(6),489–495.https://doi.org/
+drivingfactors.Resour.Conserv.Recycl.180,106168https://doi.org/10.1016/j.
+10.1016/s0360-5442(98)00016-4.
+resconrec.2022.106168.
+Ang,B.W.,Liu,N.,2007.HandlingzerovaluesinthelogarithmicmeanDivisiaindex
+decompositionapproach.EnergyPolicy35(1),238–246.https://doi.org/10.1016/j. Kirschke,S.,Bousquet,P.,Ciais,P.,Saunois,M.,Canadell,J.G.,Dlugokencky,E.J.,etal.,
+2013.Threedecadesofglobalmethanesourcesandsinks.Nat.Geosci.6(10),
+enpol.2005.11.001. 813–823.https://doi.org/10.1038/ngeo1955.
+Ang,B.W.,Zhang,F.Q.,2000.Asurveyofindexdecompositionanalysisinenergyand
+environmentalstudies.Energy25(12),1149–1176.https://doi.org/10.1016/ Li,H.,Zhao,Y.,Qiao,X.,Liu,Y.,Cao,Y.,Li,Y.,etal.,2017.Identifyingthedrivingforces
+S0360-5442(00)00039-6. o df ecn oa mti pon osa il tia on nd ar ne ag li yo sn isa mlC oO de2 lse .m Ei nss ei ro gn ys Ei cn oC nh 6i 8n ,a 5: 2b 2a –se 5d 38o .n ht te tpm s:p /o /r da ol ia .on rd g/s 1p 0a .t 1ia 0l
+16/
+Cai,B.,Cui,C.,Zhang,D.,Cao,L.,Wu,P.,Pang,L.,etal.,2019.Chinacity-level
+j.eneco.2017.10.024.
+greenhousegasemissionsinventoryin2015anduncertaintyanalysis.Appl.Energy
+Ma,Z.,Feng,P.,Gao,Q.,Lu,Y.,Liu,J.,Li,W.,2015a.Analysisofmethaneemission
+253,113579.https://doi.org/10.1016/j.apenergy.2019.113579.
+characteristicsandemissionreductionpotentialinwastewatertreatmentinChina.
+Cai,B.,Gao,Q.,Li,Z.,Wu,J.,Cao,D.,Liu,L.,2015.Researchonmethaneemission
+Adv.Clim.Chang.Res.11(5),10.
+factorsofurbansewagetreatmentplantsinChina.Chinapopulation.Resour.
+Environ.25(4),7.https://doi.org/10.3969/j.issn.1002-2104.2015.04.015. Ma, pZ o., teF ne tn iag l, iP n., wG aa so te, wQ a., teL ru t, rY ea., tmLi eu n, tJ i., nL Ci, hW ina., .2 A0 d1 v5 .b C. lC imH .4 Ce hm ai ns gsi .o Rn es sa .n 6d (r 3e –d 4u )c ,tion
+Chernicharo,C.A.L.,vanLier,J.B.,Noyola,A.,BressaniRibeiro,T.,2015.Anaerobic 216–224.https://doi.org/10.1016/j.accre.2015.11.006.
+sewagetreatment:stateoftheart,constraintsandchallenges.Rev.Environ.Sci.Bio/
+Technol.14(4),649–679.https://doi.org/10.1007/s11157-015-9377-3.
+9
+
+--- Page 10 ---
+W.Liuetal. Resources,Conservation&Recycling210(2024)107831
+MinistryofEcologyandEnvironmentofthePeople’sRepublicofChina,MEEPRC,2023. Song,L.,Luo,Y.,Gao,Q.,Ma,Z.,2011.Regionaldifferenceanalysisofthecorrelation
+MethaneEmissionControlActionPlan.https://www.mee.gov.cn/xxgk2018/xx Bod5andCODcrindomesticwastewater.Res.Environ.Sci.24(010),1154–1160.
+gk/xxgk03/202311/W020231107750707766959.pdf. Sun,W.,Cai,J.,Yu,H.,Dai,L.,2011.Decompositionanalysisofenergy-relatedcarbon
+MinistryofEnvironmentalProtection,MEP,20002020.ChinaEnvironmentalStatistics dioxideemissionsintheironandsteelindustryinChina.Front.Env.Sci.Eng.6(2),
+AnnualReport. 265–270.https://doi.org/10.1007/s11783-011-0284-8.
+NationalBureauofStatistics,NBS,2020a.ChinaStatisticalYearbook. UnitedNations,DepartmentofEconomicandSocialAffairs,PopulationDivision,2022.
+NationalBureauofStatistics,NBS,2020b.ChinaUrbanStatisticalYearbook. WorldPopulationProspects2022:methodologyoftheUnitedNationspopulation
+NationalBureauofStatistics,NBS,2020c.ChinaEnvironmentalYearbook. estimatesandprojectionsandSummaryofResults.
+NationalDevelopmentandReformCommission,NDRC,2004.ThePeople’sRepublicof UnitedNationsEnvironmentProgramme,UNEP,2021.EmissionsGapReport2021:the
+ChinaIniti-AlNationalCommunicationOnClimateChange.https://www.ccchina. HeatIsOn.https://www.unep.org/emissions-gap-report-2021.
+org.cn/file/source/ga/ga2005011001.pdf. UnitedStatesEnvironmentalProtectionAgency,USEPA,1995.InventoryofU.S.
+NationalDevelopmentandReformCommission,NDRC,2011.GuidelinesForthe GreenhouseGasEmissionsandSinks:1990–1994.
+CompilationofProvincialGreenhouseGasInventories(Trial). UnitedStatesEnvironmentalProtectionAgency,USEPA,1999.InventoryofUS
+NationalDevelopmentandReformCommission,NDRC,2013.ThePeople’sRepublicof GreenhouseGasEmissionsandSinks:1990–1997.
+ChinaSec-OndNationalCommunicationOnClimateChange.http://big5.mee.gov. Wang,J.,Zhang,J.,Xie,H.,Qi,P.,Ren,Y.,Hu,Z.,2011.Methaneemissionsfromafull-
+cn/gate/big5/www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/201904/P0201904195247 scaleA/A/Owastewatertreatmentplant.Bioresour.Technol.102(9),5479–5485.
+38708928.pdf. https://doi.org/10.1016/j.biortech.2010.10.090.
+NationalDevelopmentandReformCommission,NDRC,2016.ThePeople’sRepublicof Wang,Q.,Wei,W.,Gong,Y.,Yu,Q.,Li,Q.,Sun,J.,etal.,2017.Technologiesfor
+ChinaFirstBienni-alUpdateReportonClimateChange.https://www.mee.gov. reducingsludgeproductioninwastewatertreatmentplants:stateoftheart.Sci.
+cn/ywgz/ydqhbh/wsqtkz/201904/P020190419522735276116.pdf. TotalEnviron.587,510–521.https://doi.org/10.1016/j.scitotenv.2017.02.203.
+NationalDevelopmentandReformCommission,NDRC,2018a.ThePeople’sRepublicof Xiao,S.,Dong,H.,Geng,Y.,Fujii,M.,Pan,H.,2021.Greenhousegasemissionmitigation
+ChinaSe-CondBi-ennialUpdateReportonClimateChange.http://big5.mee.gov. potentialfrommunicipalsolidwastetreatment:acombinedSD-LMDImodel.Waste
+cn/gate/big5/www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/201907/P0201907017659 Manage.120,725–733.https://doi.org/10.1016/j.wasman.2020.10.040.
+71866571.pdf. Yan,X.,Qiu,D.,Zheng,S.,Cheng,K.,Han,Y.,Sun,J.,etal.,2019.Spatialandtemporal
+NationalDevelopmentandReformCommission,NDRC,2018b.ThePeople’sRepublicof distributionofgreenhousegasemissionsfrommunicipalwastewatertreatment
+ChinaTh-IrdNati-onalCommunicationOnClimateChange.http://big5.mee.gov. plantsinChinaFrom2005to2014.Earth’sFuture7(4),340–350.https://doi.org/
+cn/gate/big5/www.mee.gov.cn/ywgz/ydqhbh/wsqtkz/201907/P02019070 10.1029/2018ef001058.
+1762678052438.pdf. Yang,J.,Cai,W.,Ma,M.,Li,L.,Liu,C.,Ma,X.,Li,L.,Chen,X.,2020.Drivingforcesof
+NationalDevelopmentandReformCommission,NDRC,2023.ThePeople’sRepublicof China’sCO2emissionsfromenergyconsumptionbasedonKaya-LMDImethods.Sci.
+ChinaThi-RdBienn-ialUpdateReportonClimateChange.https://www.gov.cn/g TotalEnviron.711,134569https://doi.org/10.1016/j.scitotenv.2019.134569.
+ovweb/lianbo/bumen/202312/P020231230296808873994.pdf. Yang,T.,Pan,Y.,Yang,Y.,Lin,M.,Qin,B.,Xu,P.,etal.,2017.CO2emissionsinChina’s
+NationalGeomaticsCenterofChina,NGCC,2021.1:1MillionNationalBasicGeographic buildingsectorthrough2050:ascenarioanalysisbasedonabottom-upmodel.
+Databases.http://www.ngcc.cn/ngcc/. Energy128,208–223.https://doi.org/10.1016/j.energy.2017.03.098.
+Nisbet,E.G.,2023.Newhopeformethanereduction.Science382(6675),1093.https:// Zhang,B.,Chen,G.Q.,2014.MethaneemissionsinChina2007.Renew.Sust.Energ.Rev.
+doi.org/10.1126/science.adn0134,1093. 30,886–902.https://doi.org/10.1016/j.rser.2013.11.033.
+Peng,S.,Piao,S.,Bousquet,P.,Ciais,P.,Li,B.,Lin,X.,etal.,2016.Inventoryof Zhang,P.,Cai,W.,Yao,M.,Wang,Z.,Yang,L.,Wei,W.,2020.Urbancarbonemissions
+anthropogenicmethaneemissionsinmainlandChinafrom1980to2010.Atmos. associatedwithelectricityconsumptioninBeijingandthedrivingfactors.Appl.
+Chem.Phys.16(22),14545–14562.https://doi.org/10.5194/acp-16-14545-2016. Energy275,115425.https://doi.org/10.1016/j.apenergy.2020.115425.
+Prather,M.J.,Holmes,C.D.,Hsu,J.,2012.Reactivegreenhousegasscenarios:systematic Zhang,Q.H.,Yang,W.N.,Ngo,H.H.,Guo,W.S.,Jin,P.K.,Dzakpasu,M.,etal.,2016.
+explorationofuncertaintiesandtheroleofatmosphericchemistry.Geophys.Res. Currentsta-tusofurbanwastewatertreatmentplantsinChina.Environ.Int.92,
+Lett.39(9)https://doi.org/10.1029/2012gl051440. 11–22.https://doi.org/10.1016/j.envint.2016.03.024.
+Qu,J.,Dai,X.,Hu,H.-Y.,Huang,X.,Chen,Z.,Li,T.,etal.,2022.EmergingTrendsand Zhao,X.,Jin,X.K.,Guo,W.,Zhang,C.,Shan,Y.L.,Du,M.X.,etal.,2019.China’surban
+ProspectsforMunicipalWastewaterManagementinChina.ACSES&TEng2(3), metha-neemissionsfrommunicipalwastewatertreatmentplant.Earth’sFuture7
+323–336.https://doi.org/10.1021/acsestengg.1c00345. (4),480–490.https://doi.org/10.1029/2018ef001113.
+Saunois,M.,Stavert,A.R.,Poulter,B.,Bousquet,P.,Canadell,J.G.,Jackson,R.B.,etal.,
+2020.TheGlobalMethaneBudget2000–2017.EarthSyst.Sci.Data12(3),
+1561–1623.https://doi.org/10.5194/essd-12-1561-2020.
+10

@@ -1,0 +1,551 @@
+--- Page 1 ---
+Article
+Energy Consumption and Greenhouse Gas (GHG) Emissions in
+Urban Wastewater Treatment Facilities: A Case Study of Seoul
+Metropolitan City (SMC)
+LiLi1,GyuminLee2andDoosunKang2,*
+1 GlobalEngineeringInstituteforUltimateSociety(GENIUS),SungkyunkwanUniversity,2066,Seobu-ro,
+Jangan-gu,Suwon-si16419,Gyeonggi-do,RepublicofKorea;lili0809@skku.edu
+2 DepartmentofCivilEngineering,CollegeofEngineering,KyungHeeUniversity,1732,Deogyeong-daero,
+Giheung-gu,Yongin-si17104,Gyeonggi-do,RepublicofKorea;greenbeing@khu.ac.kr
+* Correspondence:doosunkang@khu.ac.kr
+Abstract: Substantialgreenhousegas(GHG)emissionsfromwastewatertreatmentplants
+(WWTPs)increasetheglobalwarmingpotential,underscoringtheimportanceofaddressing
+theirroleinGHGmitigation. Thisstudyproposesastrategydevelopmentapproachthat
+analyzesunit-process-basedenergyconsumption,directandindirectGHGemissions,and
+scenarioimpactstocreateintegratedwater–energy–GHGsolutions. Theanalysisoffour
+WWTPsinSeoulMetropolitanCity(SMC)identifiedaerationasthemostenergy-intensive
+process,consumingover40%ofthetotalenergy. Inaddition,substantialGHGemissions
+wereobserved,withtotalindirectemissionssurpassingdirectemissions. Toaddressthese
+challenges,fivefuturescenariostargeting2050weredevelopedandanalyzed: (1)replacing
+aeration diffusers, (2) reducing wastewater production, (3) adjusting treatment levels,
+(4)increasingrenewableenergyproduction,and(5)integratingallmeasures. Scenario1
+provedmosteffectiveinreducingenergyandGHGemissionintensity,Scenario4achieved
+highenergyself-sufficiency,andScenario5enabledsomeplantstoachievenet-zeroenergy
+andcarbonconditions. Theapproachproposedinthisstudyprovidesactionableinsights
+tosupportcarbonneutralitythroughtargetedwater–energy–GHGstrategies.
+Keywords: carbonneutrality;wastewatertreatmentplants(WWTPs);energyconsumption;
+greenhousegas(GHG)
+AcademicEditor:CarmenTeodosiu
+Received:31December2024
+Revised:4February2025
+Accepted:5February2025
+1. Introduction
+Published:7February2025
+Citation: Li,L.;Lee,G.;Kang,D. Fordecades,wastewatertreatmentfacilitieshaveprimarilyconcentratedonachieving
+EnergyConsumptionandGreenhouse efficientpollutantremovalandtheprotectionofhumanhealthandaquaticenvironments.
+Gas(GHG)EmissionsinUrban Recently, however, other aspects, including the efficient use and recovery of resources
+WastewaterTreatmentFacilities:A
+and energy and reduction in climate change and environmental impacts, have become
+CaseStudyofSeoulMetropolitanCity
+important[1,2].
+(SMC).Water2025,17,464. https://
+Energyisanimportantresourceforwastewatertreatmentprocesses. Wastewatertreat-
+doi.org/10.3390/w17040464
+mentrequirestheuseofadvancedtreatmenttechnologies,includingbiologicalnutrient
+Copyright:©2025bytheauthors.
+removal(BNR),whichrequireintensiveenergytoprocesswastewaterinfluentandsatisfy
+LicenseeMDPI,Basel,Switzerland.
+effluent standards designed to protect the receiving water body. Furthermore, energy
+Thisarticleisanopenaccessarticle
+distributedunderthetermsand consumptionforwastewatertreatmentisincreasing,owingtotheneedforupgradedtreat-
+conditionsoftheCreativeCommons mentstomeetstrictereffluentstandards.InGermany,forexample,theenergyconsumption
+Attribution(CCBY)license ofwastewatertreatmentplants(WWTPs)wasestimatedtoaccountforapproximately20%
+(https://creativecommons.org/
+ofthetotalmunicipalenergyconsumption[3].InEuropeancountries,electricenergy,which
+licenses/by/4.0/).
+Water2025,17,464 https://doi.org/10.3390/w17040464
+
+--- Page 2 ---
+Water2025,17,464 2of19
+constitutesapproximately90%ofthetotalenergyconsumptioninWWTPs[4],represents
+1%ofthetotalnationalelectricityconsumption[5]. Consequently,significantenergyusein
+WWTPsisamajorsourceofgreenhousegas(GHG)emissions,makingenergyconsumption
+reductioninWWTPsimperative[3]. EvaluatingenergyuseandGHGemissionsisessential
+fordevelopingclimatechangemitigationstrategiesinurbanwatersystems[6].
+InadditiontothesubstantialamountofenergyusedinWWTPs,wastewatertreatment
+processes,systemmaintenance,sludgedigestion,andtheproductionandtransportationof
+fuelsandchemicalssignificantlycontributetoGHGemissions(i.e.,nitrousoxide(N O),
+2
+methane (CH ), and carbon dioxide (CO )) [7,8]. Nguyen et al. [9] noted an increasing
+4 2
+trendinglobalGHGemissionsfromWWTPs. Theseemissionsincreasetheglobalwarming
+potential,raisingconcernsaboutsustainabledevelopment[10]. Therefore,GHGemissions
+havebeenproposedasakeyindicatorforassessingthesustainabilityofWWTPs, with
+carbonneutralityasatoppriorityforsustainablewastewatertreatmentworldwide[10,11].
+Manycountriesaremovingtowardlow-carbonoperationsanddecarbonizingmunicipal
+watermanagement[12]. InlinewiththegoalsoftheParisAgreement,net-zeroobjectives
+havebeenincorporatedintonear-termplansandpolicies[13],withcountriesaimingto
+achievetheseobjectivesby2050.
+UnderstandingthedirectandindirectGHGemissionsgeneratedbyWWTPsiscrucial
+forachievingcarbonneutrality[3].GHGemissionsfromWWTPscanbedividedintoScope
+I,II,andIIIemissions[14],correspondingtodirectemissions,indirectinternalemissions,
+andindirectexternalemissions,respectively[15].Directemissionsaregeneratedviabiologi-
+calprocesses,suchasnitrification,denitrification,andanaerobicdigestion. Indirectinternal
+emissionsresultfromtheuseofimportedthermalandelectricalenergy,whereasindirect
+externalemissionsareassociatedwithactivitiesnotdirectlycontrolledbytheWWTP,such
+astheproductionofchemicals,third-partybiosolidhauling,andtransportation[16,17].
+Kumaretal.[10]reviewedGHGemissionsinWWTPsandfoundthat25%oftheprevious
+studies focused on direct GHG emissions, 20% focused on indirect emissions, and 55%
+focusedonboth. Czepieletal.[18,19]measuredanddeterminedtheamountofdirectCH
+4
+andN OemissionsfromaWWTPinNewHampshire. Ahnetal.[20]investigatedN O
+2 2
+emissionsfromWWTPsthroughouttheUnitedStates,andDaelmanetal.[21]measured
+CH emissionsfromwastewatertreatmentinEurope. Schneideretal.[17]estimatedthe
+4
+GHGemissionsfromawaterreclamationplantinSouthernCalifornia,whereamodified
+Ludzack–Ettinger(MLE)activatedsludgesystemwasemployedtoreclaimwater. Campos
+et al. [22] focused on direct and indirect GHG emissions from WWTPs and discussed
+andanalyzedthreepotentialstrategiesforreducingGHGemissions. Koutsouetal.[23]
+estimatedGHGemissions,includingon-andoff-siteemissions,fromWWTPsatanational
+levelusingacomprehensivesteady-statemodel. Nayebetal.[24]calculatedindirectGHG
+emissionsfromenergyconsumptionanddirectemissionsfrombiologicalprocessesfor
+Iran’sdomesticwastewatersector. Heetal.[25]analyzedtherelationshipbetweendirect
+andindirectGHGemissionsandexploredtheGHGemissionsofaconventionalWWTP
+fromalife-cycleperspective,focusingonthewater–energynexus.
+The GHG emissions of WWTPs remain underexplored, highlighting the need for
+systematicinvestigation[26]. Thisstudycontributestotheliteraturebydevelopingaversa-
+tilemethodologicalapproachtodesigntailoredstrategiesformitigatingGHGemissions.
+Theapproachanalyzesunit-process-basedenergyconsumptionanddirectandindirect
+GHG emissions and conducts scenario analyses within WWTPs, providing actionable
+insights to achieve carbon neutrality through integrated water–energy–GHG solutions.
+Unlike most previous studies, which estimate indirect GHG emissions based solely on
+totalelectricityconsumption(e.g.,[23,24,26]),thisstudyemphasizesunit-process-based
+energyconsumption,whichiscriticalforidentifyingenergy-intensiveprocessesandde-
+
+--- Page 3 ---
+Water 2025, 17, x FOR PEER REVIEW 3 of 20
+Unlike most previous studies, which estimate indirect GHG emissions based solely on
+total electricity consumption (e.g., [23,24,26]), this study emphasizes unit-process-based
+Water2025,17,464 3of19
+energy consumption, which is critical for identifying energy-intensive processes and de-
+vising effective mitigation strategies. The proposed approach is universally applicable to
+vWisWinTgPesf,f ercetgivaredmleistsi goaft itohne stetrcahtnegolioesg.ieTs heempprloopyoesde,d anadp pcraona cehvaisluuantei vtehres aimllypaacptp olifc ianbtlee-
+tgoraWtiWngT nPesw,r teegcahrndolleosgsioesf othr esttreacthegnioelso igniteos eexmisptilnogy esyds,taenmds.c Tanhies vstauludayt eaitmhes tiom (p1)a icdteonftiinfy-
+teengerragtiyn-gintneenwsivtee cuhnniot plorgoiceesssoers sintr wataesgtieewsaintetro treexaistmtinegnts syysstteemmss. afTtehri sessttiumdaytinaigm thset oun(i1t)-
+ipdreoncteisfys-benaseerdgy e-innetregnys ivceonusnuimtpprtoiocnes; se(2s) incawlcausltaetwe attheer tdreiraetcmt eGntHsGysst epmrosdauftceerde sdtuimriantg-
+iwngasttheewuanteirt- tprreoactemses-nbta asnedd fernoemrg eyfflcounensut mdipsctihoanr;g(e2 )ancadl counl-astietet hfueedl ibreucrtnGinHg Gass wpreolld ausc eind-
+dduirreinctg GwHaGst eewmaitsesriotnresa ftrmomen telaencdtrifcriotmy ceofnflsuuemntpdtiioscnh; aarngde (a3n) ddeovne-sloitpe afunedl abnuarnlyizneg faesaswibellel
+assceinnadriiroesc tfoGr H20G50e mtoi sesxipolnosref rtohmeire ilmecptraicctisty onco mnsituigmaptitniogn G; HanGd e(m3)isdseiovnelso. pThaen denaenrgayly izne-
+fteeanssiibtileess ocef ninadriiovsidfoural2 u05n0it tporeoxcpesloseres wtheerier ismoupraccetds ofrnomm iCtighaot i[n2g7],G wHhGicehm pirsosvioidnes.s Teshtei-
+emnaertegsy iinn t2e0n1s2it ifeosr othfein fdoiuvrid WuaWluTnPist ipnr oScMesCse, sanwde rferosmou Rrceeedkfireo emt aCl.h [o28[2],7 a], rwephiocrht pdreotaviildinesg
+eesntiemrgayte isnitnen2s0i1ty2 vfoarluthees ffoour rcoWmWmToPns winasStMewCa,taenrd trferoatmmReneet kuineiet tparlo.c[2es8s],eas irne pthoert UdSeAta.i lTinhge
+eGnHerGgy eminitsesniosintys wvaelruee essftoimrcaotemdm uosinnwg tahsete mweattheordtroelaotgmye onuttulinnietdp irno ctehses IenstienrgthoeveUrnSAm.eTnhtael
+GPaHnGele omni sCsiloimnsawtee Creheasntgime a(tIePdCuCs)i nGgutihdeelmineetsh ofodro lNogaytioonuatlli nGerdeeinnhthoeusIne teGragso vInervnemnteonrtiaels
+P[2a9n]e. lTohnisC sltiumdayt edCidh nanotg aec(cIoPuCnCt) fGoru tihdee lGinHesGf oermNisastiioonnsa flrGomre ecnhheomuiscealG masanInuvfaencttuorriinesg [a2n9d].
+Ttrhainsssptuodrtyatdioidn.n Not2Oac caonudn CtHfo4r ethmeisGsHioGn reamteiss swioenrse fcroonmvechrteemd iicnatlom CaOn2u efaqcutuivrainlegnatsn dactcroarnds--
+pinogrt taoti othne. INPCOC apnrdotCoHcol etom ciasslciounlartea ttehsew toetrael cGoHnvGe retmedisisnitoonsC aOnde qfauciivliataleten tcsoamccpoarrdisionng.
+2 4 2
+tTohteh efiInPdCinCgps rooft othcoisl tsotucdaylc ucalant eetnhheatnoctea ltGheH uGnedmerisstsainodnisnagn doff aecnielirtgayte ccoonmsupmarpistoionn. Tahned
+fiGnHdGin gemsoisfstihoinsss itnu dWyWcaTnPse nahnadn ccoentthriebuunted teor simtanpdroinvgemoefnetnse irng yenceorngsyu umsep teiffionciaenndcyG, sHuGs-
+etaminisasbiolen swianteWr WmaTnPasgaenmdecnotn, tarnibdu ctleimtoaitme cphroavnegme emnittsiginateionne.r gyuseefficiency,sustainable
+watermanagement,andclimatechangemitigation.
+2. Data Source
+2. DataSource
+Currently, four WWTPs are operated in Seoul Metropolitan City (SMC), serving
+100%C oufr rtehnet lcyi,tfyo’us rtoWtaWl pToPpsualraetioopne. rAatse dofi n20S2e4o,u tlhMe eptoroppuolalittiaonn Coift ySM(SCM Cis) ,9s,6e3rv5i,4n4g51 [0300%],
+owfitthhe ac iptyro’sjetcotteadl pdoecpluinlae ttioon 7.,9A2s0,o0f020 0b2y4 ,2t0h5e0p [o3p1]u. lHatoiowneovferS,M pCer icsa9p,6it3a5 w,4a4s5te[3w0a],tewr ipthroa-
+pdruocjeticotend hdaesc slihnoewton7 a,9n2 0in,0c0r0eabsyin2g0 5tr0e[n3d1 ]o.vHeorw theve epr,apste rsecvapenit ayweaarsst,e awsa stehropwrno dinu cFtiiognurhea s1
+s[h32o–w3n8]a. nincreasingtrendoverthepastsevenyears,asshowninFigure1[32–38].
+FFiigguurree 11.. WWaasstteewwaatteerr pprroodduuccttiioonnp peerrc caappiittaao offS SMMCC..
+FFiigguurree 22 sshhoowwss ththee lolocactaitoinosn sofo tfheth feoufor uWrWWTWPsT Pins SiMnCSM. InC .20In212, 0th2e1 ,avtheeraagvee draagiley
+dwaailsytewwaasteter winaflteurenint flfluoewn trafltoesw wreartee srewpoerretedre apso 5rt8e4d,9a8s2,5 18,245,928,129,11,, 275520,,109515,, a7n5d0, 015,655,3a,4n6d5
+1m,635/d3,a4y6 5fomr t3 h/ed Nayanfjoi,r JuthnegrNanangj,i T, aJunnchgeraonng, a,nTdan Scehoenoanm, apnladnStse,o rnesapmecptilvaenltys., Dreastpa ercetliavteinlyg.
+Dtoa tthaerseel aWtinWgTtPos twheesree cWolWlecTtPeds wfroerme rceoplloercttse bdyf rthome Mreinpiostrrtys bofy EtnhveirMoninmisetnryt [o3f2–E3n8v].i rTohne-
+mcoelnletc[t3e2d– d3a8]ta. Tinhcelucdoellde citnefdordmaatatioinnc olund eeldecitnrifcoirtym aantido notohnere fluecetlr cicointysuamndptoiothne, rrefnueewlcaobnle-
+sumption,renewableenergyproduction,flowrateoftreatedwastewater,sludgedisposal
+volumes, andinfluentandeffluentwaterqualitymetrics, includingtotalnitrogen(TN)
+andbiochemicaloxygendemand(BOD )loadings. Table1liststheparametersandcon-
+5
+stantsusedinthisstudy,basedontheliteratureandinformationprovidedbytheSeoul
+
+--- Page 4 ---
+Water 2025, 17, x FOR PEER REVIEW 4 of 20
+energy production, flow rate of treated wastewater, sludge disposal volumes, and influent
+Water2025,17,464 and effluent water quality metrics, including total nitrogen (TN) and biochemical ox4yogfe19n
+demand (BOD5) loadings. Table 1 lists the parameters and constants used in this study,
+based on the literature and information provided by the Seoul Metropolitan Government
+M(SeMtrGop).o Alitlal nfoGuor vWerWnmTePnst a(dSMopGt )b.iAollolgfoicuarl WwWasTtePwsaatdeor ptrtebaitomloegnict,a alnw aesffteecwtiavtee rptrroeacetmsse fnotr,
+arnemefofvecintigv enuptrroiecnestss afnord roermgaonviicn mganttuetrr ifeonrt wsaantedr roerugsaen aicnmd datistecrhaforgrew. Tahteer trreeuatsmeeanntd tedcihs--
+cnhoalroggei.eTs hinevtorelvatemd,e nutntiet cphrnoocleosgsieess, iannvdo lfvueedl ,ruesnoituprcreosc eussseeds, iann tdhfeu WelWreTsoPusr cweesrues pedroivnidtheed
+WbyW thTeP sSMweGr.e providedbytheSMG.
+FFiigguurree 22.. LLooccaattiioonnss ooff WWWWTTPPss iinn SSMMCC..
+Table1.Coefficientsandparametersusedinthisstudy.
+Table 1. Coefficients and parameters used in this study.
+CoefficieCnot/ePfafircaimenett/ePrarameter Value Value ReferRenecfeerence
+Electricity(kWEhl)ectricity (kWh) 2290kcal 2290 kcal [39] [39]
+Diesel(liter) Diesel (liter) 8740kcal 8740 kcal [39] [39]
+Gasoline(liter)Gasoline (liter) 7750kcal 7750 kcal [39] [39]
+Totalheatingvalue Propane(kg) 12,000kcal [39]
+Total heating value Propane (kg) 12,000 kcal [39]
+Liquefiednaturalgas(LNG)(Nm3) 10,190kcal [39]
+Liquefied natural gas (LNG) (Nm3) 10,190 kcal [39]
+Biogas(Nm3) 5200kcal [40]
+Biogas (Nm3) 5200 kcal [40]
+Driedsludge(kg) 3328kcal [40]
+Dried sludge (kg) 3328 kcal [40]
+Electricity 0.4781tCO eq/MWh [41]
+Electricity 2 0.4781 t CO2eq/MWh [41]
+Diesel 20.090tC/TJ [41]
+Diesel 20.090 tC/TJ [41]
+CO emissionfactor Gasoline 19.731tC/TJ [41]
+2
+CO2 emission factor Gasoline 19.731 tC/TJ [41]
+Propane 17.630tC/TJ [41]
+LNG Propane 15.236tC/TJ 17.630 tC/TJ [41] [41]
+LNG 15.236 tC/TJ [41]
+CH correctionfactor(MCF) Aerobic 0.03 [29]
+4
+CH4 correction factor (MCF) Aerobic 0.03 [29]
+MaximumCH producing
+Maxim cu am C ciH ty4 4 (p Bro )ducing capacity (BM0) unicipalwasMteuwnaitceirpal wastewate0r. 625kgCH 4/0k.6g2B5O kDg CH4/kg BOD [42] [42]
+pa
+0
+CH4 emission factor Discharge (Tier 2) 0.021 kg CH4/kg BOD [43]
+CH emissionfactor Discharge(Tier2) 0.021kgCH /kgBOD [43]
+4 Anaerobic-Anoxic-Oxic (AAO) 4 0.013 kg N2O/kg TN [29]
+Anaerobic-AnoBxiiocl-oOgxicical( AAAerOat)ed Filter (B0A.0F13) kgN 2O/0k.0g1T6 Nkg N2O/kg TN [29] [43]
+BiologicalAeratedFilter(BAF) 0.016kgN O/kgTN [43]
+Modified Ludzack–Ettinger (MLE) 2 0.0007 kg N2O/kg TN [29]
+N 2OemN i2 sO si e om ni fs as ci to on r factor M Ao cd ti ifi ve ad teL du sd luz da Ac gk ec– t piE v rt oati t cn e eg d se sr (l Au(M d Sg PL e )E p) rocess (0 0A. .0 0S0 1P0 6)7 kk gg NN 2 OO // 0 k.k 0 gg 1 T6T NkN g N2O/kg TN [[ 42 39 ]] [43]
+s
+2
+4-stageBNR 4-stage BNR 0.0036kgN 2O0/.0k0g3T6 Nkg N2O/kg TN [29] [29]
+Discharge(TierD1is)charge (Tier 1) 0.005kgN 2O/0k.0g0T5 Nkg N2O/kg TN [43] [43]
+Tables S1–S4 detail the unit processes comprising the layouts of the four WWTPs.
+TheNanjiandTancheonplantsconsistoftwosub-plantseach, whiletheJungrangand
+
+--- Page 5 ---
+Water2025,17,464 5of19
+Seonamplantscomprisefourandthreesub-plants,respectively.Wastewaterinflowdatafor
+eachsub-plantwereprovidedbytheSMGuponrequest. Theinfluentandeffluentquality
+amongsub-plantswithinthesameWWTPwasassumedtobeconsistent. Thetreatment
+techniquesadoptedbyindividualsub-plants,asprovidedbytheSMG,aresummarizedin
+Table2.
+Giventhecharacteristicsandinformationrelatedtothefourplantlayouts,unitpro-
+cesseswithcorrespondingenergyintensityvalueswereselectedfromReekieetal.[28],
+exceptfortheenergyintensityofodorcontrol,toaccuratelyrepresenttheoperationsof
+thesefourplants. TheenergyintensityofodorcontrolestimatedbyCho[27]wasusedin
+thisstudy. TheenergyintensityvaluesforodorcontrolprovidedbyReekieetal.[28]were
+notusedinthisstudyowingtotheirlargedifferenceswiththoseprovidedbyCho[27].
+Table2.Adoptedtreatmenttechniquesbyindividualsub-plantsofthefourWWTPs.
+Sub-Plants
+WWTPs
+Plant1 Plant2 Plant3 Plant4
+Nanji AAO AAO - -
+Jungrang BAF AAO MLE ASP
+Tancheon MLE MLE - -
+Seonam MLE MLE 4-stageBNR -
+3. Methodology
+This study performed a three-step procedure to develop customized strategies for
+mitigatingGHGemissions(Figure3). First,unit-process-basedenergyconsumptionwas
+quantitativelyestimatedbyanalyzingallunitprocesseswithineachWWTP.Second,direct
+GHGemissionsfromtreatmentprocesses,effluentdischarge,andon-sitefuelburningas
+wellasindirectemissionsfromelectricityusewerecalculated. Finally,feasiblescenarios
+forGHGmitigationwereanalyzedtoidentifyeffectivemeasuresandtheirimpacts.
+3.1. ComputationofUnit-Process-BasedEnergyConsumption
+Measurementdatarequiredforestimatingenergyconsumedbytheunitprocesses
+of the WWTPs were unavailable. Consequently, appropriate unit processes with their
+intensities were selected from Reekie et al. [28] based on the plant-related information
+provided by the SMG to describe the detailed layouts shown in Section 2. The unique
+set of unit processes for individual WWTPs enables the characterization of all relevant
+processes in a WWTP. Based on the energy intensity ranges of unit processes provided
+byReekieetal.[28]andthedailyinfluentratesofWWTPs, theenergyconsumptionof
+mostunitprocessesinindividualplantswasdetermined. Theenergyuseforodorcontrol
+wasestimatedusingtheenergyintensityvaluesrecommendedbyCho[27]. Theenergy
+intensityvaluesusedforodorcontrolwere0.0079,0.0075,0.0090,and0.0073kWh/m3for
+theNanji,Jungrang,Tancheon,andSeonamplants,respectively. Thisunit-process-based
+methodenablesstraightforwardapplicationtodifferentWWTPsbyincludingvariousunit
+processes.Inaddition,thismethodisalsoappropriateforcomparingdifferentcombinations
+oftreatmentprocessesortechnologies.
+Thetotalenergyconsumptionwascalculatedbysummingtheenergyuseofindividual
+unitprocesses. Subsequently,theenergyintensityofeachWWTPwasdeterminedbydivid-
+ingthetotalenergyconsumptionbythetotalvolumeoftreatedwastewater. Inaddition,
+thenetenergyconsumptionandnetenergyintensitywerealsoestimated,consideringthe
+self-producedenergyfromtheWWTPs.
+
+--- Page 6 ---
+WWaatetrer2 2002255,,1 177,,4 x6 4FOR PEER REVIEW 66 ooff 1290
+Figure3.Flowchartofthisstudy.
+Figure 3. Flowchart of this study.
+3.2. ComputationofGHGEmissions
+3.1. Computation of Unit-Process-Based Energy Consumption
+WWTPsproducedirectandindirectGHGemissionsasaresultofmicrobialactivity
+Measurement data required for estimating energy consumed by the unit processes of
+and energy consumption [9]. Energy consumption in WWTPs includes electricity and
+vtahrei oWuWsfTuPelss w,reerseu ultninagvainilainbldei.r Cecotnasnedqudeinretlcyt,G apHpGroepmriiastsei ounnsi,t rpersopceecstsivese lwy.itIhn tthheiisr sitnutdeny,-
+GsiHtiGes ewmeirses isoenlescwteedr efreosmti mReaetekdieb eyt aapl. p[2ly8i]n bgatsheed foonr mthuel aptliaonnts-rdeelastcerdib iendfoinrmthaetiIoPnC pCrogvuiiddeed-
+lbinye sth[e2 9S]M. G to describe the detailed layouts shown in Section 2. The unique set of unit
+processes for individual WWTPs enables the characterization of all relevant processes in
+3a. 2W.1W. DTiPre. cBtaGseHdG onE mthies seinonersgy intensity ranges of unit processes provided by Reekie et al.
+[28] Tahnids tshtue ddyaqiluy ainntflifiueedntd riaretecst GofH WGWemTPisss, iothnes efrnoemrgyw acostneswuamteprtitornea otmf menots,td uisnciht aprgroe-
+ocfetsrseeast eind einfflduiveindtus,aal npdlaonnt-ss iwteafsu delebteurrmniinnegd..D Tirheec teenmerisgsyi ounssef rfoomr ondoonr- CcoOntrsoolu wrcaess (eis.et.i,-
+2
+CmHateadn dusNingO t)hseh oeunledrgbye ignitveennsimtyo vrealautteesn rteiocnomasmtheensdeegda bseys Crehpor e[2se7n].t Tahseig enniefircgayn tinptoerntisoitny
+4 2
+ovfatlouteasl uGsHedG foerm oidssoiro ncosnftrrooml wWerWe T0.P0s0.7K9,o 0s.o0n07e5n, e0t.0a0l9.0[4, 4a]nrde v0.e0a0l7e3d ktWhaht/Nm3O focro tnhset iNtuatnejsi,
+2
+Jungrang, Tancheon, and Seonam plants, respectively. This unit-process-based method
+
+--- Page 7 ---
+Water2025,17,464 7of19
+86%,CH constitutes14%,andfossilCO constituteslessthan1%oftotalon-siteGHG
+4 2
+emissions, based on long-term online monitoring of WWTPs. BOD removal and total
+5
+nitrogen(TN)removalwereusedasindicatorsforCH andN Oemissions,respectively.
+4 2
+TheBOD andTNloadsoftheinfluentandeffluentwastewaterandtheassociatedemission
+5
+factorsarenecessaryforcalculatingthedirectGHGemissionsofaplant. Theemission
+factor, a key determinant of total emissions, represents the quantity of GHGs released
+intotheatmosphereowingtopollutant-generatingactivities[45]. Owingtothelackof
+local emission factors, most of the emission factors utilized in this study were sourced
+fromtheIPCC[29](Table1). InaccordancewiththeIPCCguideline[29],CO emissions
+2
+frombiologicaldegradationprocesseswerenotconsideredinthisstudy;however,those
+fromon-sitefuelburningwereincludedasdirectGHGemissions. Fuelconsumptionwas
+quantifiedusingtheunitoftonneofoilequivalent(TOE).
+ThefourWWTPsinSMCemploysecondarybiologicalprocesses,oftenfacingchal-
+lenges,suchasexcesssludgeproduction,highenergyconsumption,andsubstantialGHG
+emissions[3,10]. TheamountofdirectGHGemissionsfromthesesecondarytreatment
+processesdependsonthetypeandoperationalconditionsofthebiologicalwastewater
+treatmentprocess[46]. PopularBNRtechniquesincludeanaerobic-anoxic-oxic(AAO)and
+MLE.Table1liststheemissionfactorsrelatedtotheseBNRtechniquesforthefourWWTPs.
+DirectGHGemissionsfromwastewatertreatmentandeffluentdischargewerecal-
+culatedbyaddingtheconvertedCO -equivalentemissionsobtainedbymultiplyingthe
+2
+globalwarmingpotentials(GWPs)bytheamountofCH andN Oemissions,asshownin
+4 2
+thefollowingequations[29]:
+(cid:18) (cid:19)
+∑ 44
+P =CH ∗GWP +N O∗GWP + F ∗EF ∗ (1)
+directGHG 4 CH4 2 N2O i i
+12
+where
+P =totaldirectGHGemissions,kgCO eq/year;
+directGHG 2
+GWP =34(-);
+CH4
+GWP =298(-);
+N2O
+CH =totalCH emissions,kgCH /year;
+4 4 4
+N O=totalN Oemissions,kgN O/year;
+2 2 2
+F =consumptionoffueli,TOE/year;
+i
+EF =emissionfactorforfueli,tC/TJ;
+i
+44/12=conversionfromCtoCO .
+2
+CH Emissions
+4
+TheCH emissionfactorforwastewatertreatmentwasdeterminedusingtwoparame-
+4
+ters,B andMCF,asshowninEquation(2)[29]:
+0
+EF = B ∗MCF (2)
+CH4_tre 0
+where
+B =maximumCH producingcapacity,kgCH /kgBOD;
+0 4 4
+MCF=CH correctionfactor(-);
+4
+EF =CH emissionsfactorforwastewatertreatment,kgCH /kgBOD.
+CH4_tre 4 4
+TheCH emissionsfromwastewatertreatmentwerecomputedusingEquation(3)[29].
+4
+CH recoverywasexcludedinthisstudy,owingtothelackofrelatedinformation.
+4
+(cid:16) (cid:17)
+CH = TOW −S ∗EF −R (3)
+4WWTP infl CH4_tre
+where
+
+--- Page 8 ---
+Water2025,17,464 8of19
+CH =CH emissionsfromawastewatertreatmentprocess,kgCH /year;
+4WWTP 4 4
+TOW =totalorganicloadininfluentwastewater,measuredasBOD ,kgBOD/year;
+infl 5
+S=BOD removedassludge,kgBOD/year;
+5
+R=massofCH recoveredorflared,kgCH /year.
+4 4
+CH emissionscanresultfromtheremainingorganicmatterinthewastewatereffluent
+4
+andcanbecomputedasfollows[29]:
+CH = TOW ∗EF (4)
+4disc effl CH4_disc
+where
+CH =CH emissionsfromtreatedwastewaterdischarge,kgCH /year;
+4disc 4 4
+TOW =totalorganicloadindischargedeffluent,kgBOD/year;
+effl
+EF =CH emissionfactorfordischarge,kgCH /kgBOD.
+CH4_disc 4 4
+In Equation (4), the emission factor was selected based on the discharge type and
+availableinformationlevel[43].
+N OEmissions
+2
+AccordingtotheIPCCguidelines[29],totalN Oemissionsfromwastewatertreatment
+2
+processeswerecomputedusingthefollowingequations:
+44
+N O = TN ∗EF ∗ (5)
+2 WWTP infl N2O_tre
+28
+where
+N O =N Oemissionsfromwastewatertreatment,kgN O/year;
+2 WWTP 2 2
+TN =totalnitrogenininfluent,kgN/year;
+infl
+EF = N O emission factor for the wastewater treatment system, kg N O-
+N2O_tre 2 2
+N/kgN;
+44/28=conversionfromN O-NtoN O.
+2 2
+N O emissions from the discharge of treated wastewater were computed using
+2
+Equation(6)[29]:
+44
+N O = TN ∗EF ∗ (6)
+2 disc effl N2O_disc
+28
+where
+N O =N Oemissionsfromwastewaterdischarge,kgN O/year;
+2 disc 2 2
+TN =totalnitrogenintheeffluentreleasedintotheenvironment,kgN/year;
+effl
+EF =N Oemissionfactorforwastewaterdischarge,kgN O-N/kgN.
+N2O_disc 2 2
+3.2.2. IndirectGHGEmissions
+Energy, mostly electricity, is necessary for all major wastewater treatment proce-
+dures[47]. Plantsizeandlocation,plantage,typeofaerationsystemandtreatmentprocess,
+influentandeffluentquality,andoperatorknowledgeinfluencetheenergyrequirementsof
+aWWTP[48]. IndirectGHGemissions,derivedfromtheelectricityconsumptionusedto
+operateunitprocesses,werecalculatedusingEquation(7)[29]:
+P = E∗EF (7)
+indirectGHG electricity
+where
+P = total indirect GHG emissions from electricity consumption, kg
+indirectGHG
+CO eq/year;
+2
+E=electricitydemands,kWh/year;
+EF =emissionfactorforelectricitygeneration,tCO eq/kWh.
+electricity 2
+
+--- Page 9 ---
+Water2025,17,464 9of19
+3.3. ScenarioDescription
+Carbon neutrality in WWTPs can be achieved by reducing direct emissions from
+wastewatertreatmentprocesses,reducingenergyconsumption(e.g.,improvingenergy
+efficiency),andincreasingenergyharvestingfromwastewater(e.g.,energyrecovery)and
+renewable energy use (e.g., solar energy) [49]. This study analyzed five future scenar-
+ios for the year 2050 to evaluate the potential GHG mitigation of WWTPs. The effects
+of these scenarios on energy consumption and GHG emissions were compared with a
+baselinescenario.
+ThepercapitaproductionofwastewaterinSMCincreasedfrom2015to2021(Figure1).
+Thistrendwasassumedtocontinueuntil2050inthisstudy. Therefore,thetotalvolume
+of treated wastewater for WWTPs in 2050 was estimated by multiplying the projected
+populationservedbyWWTPsbypercapitawastewaterproduction.
+3.3.1. Scenario0: BaselineScenario
+ThebaselinescenariopresumesthattheinvolvedunitprocessesoftheWWTPsand
+their energy intensities observed in 2021 remain unchanged until 2050. In addition, it
+assumesthattheinfluentandeffluentqualityremainsconsistentwiththatobservedin
+2021. TheonlyvariablesexpectedtochangearethepopulationservedbytheWWTPsand
+wastewaterproductionpercapita. Table3presentstheestimatedamountsofwastewater
+treatedbythefourWWTPsinthisscenario.
+Table3.VolumeofwastewatertreatedbythefourWWTPsin2050.
+Nanji Jungrang Tancheon Seonam Total
+Treatedwastewater
+231,827,860 524,654,425 312,925,456 664,993,058 1,734,400,800
+(m3/year)
+3.3.2. Scenario1: ImprovingEnergyEfficiencybySubstitutingAerationTypes
+Dissolvedoxygen(DO)concentrationisasignificantfactorinfluencingGHGemissions
+fromWWTPs. Nguyenetal.[9]notedthatcontrollingtheDOandoxygenlevelsthrough
+aerationcaneffectivelyreduceGHGemissions. StudiesontheeffectsofaerationonGHG
+emissions have reported that poor DO levels result in reduced indirect carbon dioxide
+emissions but could lead to substantial amounts of nitrous oxide, owing to incomplete
+nitrification. In addition, a few studies have shown that higher GHG volumes can be
+released, owing to strong aeration [9]. Therefore, determining optimal DO levels and
+aeration rates is significant for controlling GHG emissions. In addition to the optimal
+operationofaeration,Kyungetal.[7]emphasizedtheefficiencyenhancementofoperating
+equipmentinaerationsystems. Thiscansignificantlyimprovetheoverallenergyefficiency
+of WWTPs and ultimately affect GHG emissions. Wang et al. [3] also mentioned that
+high-efficiency aeration is key to achieving carbon neutrality, owing to its effect on the
+energyconsumptionofWWTPs. Aeration-relatedenergyconsumptionmayaccountfor
+over50%ofthetotalenergyconsumptionofWWTPs[50]. Thisindicatesthataerationis
+anenergy-intensiveprocess,anditsefficiencycansignificantlyinfluencethetotalenergy
+consumptionofWWTPs.
+InScenario1,theexistingaerationsystemsinthefourWWTPs,whichareassumedto
+beusedinthebaselinescenario,arereplacedwithfinebubblediffuserswithDOcontrol.
+Thismethodisconsideredthemostenergy-efficientalternative[28]. Table4summarizes
+theaerationsystemsandtheirelectricityconsumptionusedinScenarios0and1. Thisstudy
+used the energy efficiencies of various aeration methods provided by Reekie et al. [28]
+toestimatetheeffectofchangesintheaerationtype. OnlyareductioninindirectGHG
+emissionsowingtoimprovedenergyefficiencywasestimatedinthisscenario.
+
+--- Page 10 ---
+Water2025,17,464 10of19
+Table4.AerationmethodsadoptedinthebaselinescenarioandScenario1.
+BaselineScenario Scenario1
+WWTPs
+AerationMethods ElectricityUse(kWh/day) AerationMethods ElectricityUse(kWh/day)
+Nanji Fineporebubblediffuser 156,009 131,009
+Fineporebubble
+Jungrang Coarseporebubblediffuser 304,734 251,286
+diffuserwithDO
+Tancheon Fineporebubblediffuser 208,834 178,834
+control
+Seonam Fineporebubblediffuser 438,165 378,165
+3.3.3. Scenario2: EnergyConservationbyReducingWastewaterProductionby10%
+AlthoughnumeroustechnologiescanimprovetheoperationalefficiencyofWWTPs,
+proactiveactionsbyend-userstoreducewastewaterproductioncansignificantlyaffect
+WWTPenergysavings. Wastewaterproductioncanbereducedthroughwaterreuse,water
+leakageprevention,andwaterdemandmanagement. Thisscenarioexaminestheeffectof
+reducingwastewaterproductionby10%comparedwiththebaselinescenario. Theenergy
+intensityofthewastewatertreatmentprocessisassumedtoremainthesameasthatinthe
+baselinescenario. Thisisbecausethereducedvolumeofdailytreatedwastewaterstillfalls
+withinthesameinterpolationrangesofenergyintensitiesprovidedbyReekieetal.[28].
+3.3.4. Scenario3: EnergyConservationbyPreventingOvertreatmentofEffluent
+BalancingeffluentqualityandGHGemissionscouldbeaviableoptionforachieving
+moresustainableWWTPoperations. Table5showstheaverageBOD loadsintheinfluent
+5
+andeffluentofthefourWWTPsin2021aswellasthetreatmentgoals(i.e.,effluentdischarge
+permit limitations). This indicates that the four WWTPs overtreated the wastewater in
+termsofBOD removal. Thetreatmentlevelrequiredtomeetthewaterqualityobjective
+5
+andinfluentconcentrationaffecttheenergyconsumptionofWWTPs. Ahigherlevelof
+treatmentrequiresmoreenergy,giventhesameinfluentconcentration. InScenario3,the
+effluentqualityiscontrolledtojustmeetthestandardBOD limittoreducetheenergyused
+5
+forwastewatertreatment. AnindicatorrepresentingenergyconsumptionperunitofBOD
+5
+(i.e., kWh/kgBOD)wasusedinthisscenario, assumedtobethesameforthebaseline
+scenarioandScenario3.ItshouldbenotedthatthedirectGHGemissionsincreasedslightly,
+owingtotheincreasedBOD concentrationoftheeffluentdischarge.Thisincreasedamount
+5
+ofGHGemissionswasalsoconsideredinthisscenario.
+Table5.Actualinfluentandeffluentwaterqualityin2021andstandardlimitsoneffluent.
+InfluentBOD Load EffluentBOD Load StandardLimitofEffluent
+WWTPs 5 5
+(mg/L) (mg/L) BOD Load(mg/L)
+5
+Nanji 135.5 2.7 7.0
+Jungrang 108.1 5.2 6.5
+Tancheon 171.4 4.5 7.0
+Seonam 131.3 2.0 7.0
+3.3.5. Scenario4: IncreasingRenewableEnergyProduction
+TheInternationalEnergyAgency(IEA)statesthatadvancingandimplementingclean
+energytechnologiesarevitalforreachingnet-zerocarbonemissions[51]. Potentialenergy
+sourcesrecoveredfromWWTPs,suchasbiogasandthermalenergy,canproducemore
+energythanisrequiredbyWWTPs[52]. Anaerobicdigestionofsewagesludgeisacrucial
+processforextractingenergyfromwastewater[53]. TheenergyrequirementsofWWTPs
+werereducedby44%inGermanyand76%inTunisiaafterconvertingaerobictoanaerobic
+sludgestabilization,recoveringsignificantamountsofenergyfromthesludge[54]. There-
+fore,anaerobicdigestionplaysacrucialroleinreducingtheoverallenergyuseinWWTPs

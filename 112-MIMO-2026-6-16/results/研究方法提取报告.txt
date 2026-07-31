@@ -1,0 +1,1336 @@
+================================================================================
+112篇污水处理厂温室气体排放论文 — 研究方法详细提取报告
+================================================================================
+提取日期: 2026-06-16
+论文总数: 112
+================================================================================
+
+（100）Carbon Emission Characteristics and Low-Carbon Operation
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: ldatafrom50WWTPsinShanghai,including treatmentvolume,influentquality,andenergyconsumption,andappliedIPCC2006and 2019guidelinesalongsideanoperation-spe
+    → 上下文: tion on 21 December 2023, was adopted as the primary methodological basisforthisstudy. ComparedtotheIPCC2019guidelines,theChinesestandardoffers a more
+    → 上下文: ssuedbytheChinaUrbanWaterSupplyand DrainageAssociation(21December2023); 2. The 2021 power sector CO emission factors published jointly by the Ministry
+  实测法: 在线监测
+    → 上下文: sion factor (kg N O/kg N). Priority should be given to values N2O 2 2 derivedfrommechanisticmodelsorcontinuousmonitoring. Whenneitherisfeasible,the de
+  模型法: LCA生命周期评价
+    → 上下文: engting Guo et al. [13] employed data from the Urban Drainage Statistical Yearbook and an optimized life cycle assessment methodology integrated with 
+  其他方法: 碳足迹分析
+
+（101）Assessing Greenhouse Gas Emission Factors in
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2014, 排放因子法
+    → 上下文: iologicaltreatmentthroughnitrificationanddenitrificationprocesses[18,23–26]. Furthermore,accordingtoIPCCguidelinesof2006,CO producedfrombiochemical 2 
+    → 上下文: wastewaterdischargestandards,theemissionsofCH and 4 N Oaregraduallyincreasing[16,17]. AccordingtotheIPCC2014report,CH hasaGlobal 2 4 WarmingPotential(
+    → 上下文: Article Assessing Greenhouse Gas Emission Factors in Wastewater Treatment HaiyanYang,ZheWang* ,XuerongZhangandHaoruoLu BeijingClimateChangeResearchand
+  模型法: 回归分析
+    → 上下文: iablessuch asCODandTNremovalonCH andN Oemissions. Futureresearchcouldconsiderusing 4 2 methodssuchasregressionanalysisorgeneralizedadditivemodels(GAMs
+  统计分析: Pearson相关分析
+
+（102）Journal of Cleaner Production 532 (2025) 146894
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: tendable system boundary encompassing different treatment biogenic CO2 is counted as GHG emissions (IPCC, 2006). According to processes tailored to th
+    → 上下文: a protein consumption and the percentage of nitrogen in protein as primary source of N2O emissions (IPCC, 2006, 2019). How- In 2017, the length of sew
+    → 上下文: as local requirements. For instance, authorities in Apulia Italy accounting for 52 %. In addition, emission factors in electricity, elec- considered t
+  实测法: 在线监测
+    → 上下文: der, S.W., Kim, H., Lei, Z., Pan, S.-Y., 2022. Pathways to a net-zero-carbon results of a long-term online monitoring campaign. Environ. Sci. Technol.
+  模型法: LCA生命周期评价, 物料平衡, 敏感性分析, 不确定性分析
+    → 上下文: entories Programme. Eggleston H.S., Liu, X., Iqbal, A., Huang, H., Zan, F., Chen, G., Wu, D., 2021. Life cycle assessment of Miwa K., Srivastava N. an
+    → 上下文: comprehensive GHG evaluation approach, integrating the carbon footprint accounting, Climate change mass balance modeling, and IPCC-recommended first-o
+    → 上下文: megacity level; 3) to perform a tively. Wastewater treatment sector accounts for around 3 % of the sensitivity analysis to pinpoint the substantial va
+    → 上下文: 2eq/m3 (Xi et al., 2021), which is almost similar to our findings. In 2.8. Sensitivity analysis and uncertainty analysis addition, emission intensitie
+  其他方法: 文献综述, 碳足迹分析
+
+（103）JournalofEnvironmentalChemicalEngineering13(2025)116004
+  年份: 2025
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: Conceptualization. Guidelines for National Greenhouse Gas Inventories Volume 5 Waste, 〈https:// www.ipcc-nggip.iges.or.jp/public/2019rf/vol5.html〉, 20
+    → 上下文: ental hotspots during the operational phase of a regional- factors—such as energy structure, direct emission factors, energy ized wastewater treatment
+  模型法: LCA生命周期评价, 情景分析, 敏感性分析
+    → 上下文: nt and reuse (DPWWTR). This Greenhouse gas emissions study introduced a standardized and systematic Life Cycle Assessment (LCA) method to evaluate GHG
+    → 上下文: e energy grid evolution. electrocoagulation utilizing aluminum (Al) exhibited superior environ- (5) Scenario Analysis and Future Projections: Presente
+    → 上下文: is the density of CH4, kg.m(cid:0) 3. CH4 RCO2,inc=m 0S .T 7D×H 3.a 6ve×ω th(cid:0)e×EFele (8) 2.3. Sensitivity analysis of key factors Where RCO2,inc
+  其他方法: 碳足迹分析
+
+（104）Journal of Cleaner Production 524 (2025) 146487
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: vernmental Panel on Climate GHGRecovery includes GHG emission reductions from recovered re- Change (IPCC) in 2006, carbon dioxide (CO2) emissions from
+    → 上下文: rom bio- principal process is A/A/O biological treatment, with the residual sludge logical sources (IPCC, 2019). subsequently undergoing dewatering an
+    → 上下文: lt er cic trit icy i, k yg C mO i2 e ioq n/ CF=GHGTotal/Q (8) T e ta lc n s th t e ss factors are shown in Table S1; The emission factor for heat is t
+    → 上下文: k yg C mO i2 e ioq n/ CF=GHGTotal/Q (8) T e ta lc n s th t e ss factors are shown in Table S1; The emission factor for heat is taken as Normalized GWF
+  模型法: LCA生命周期评价, SimaPro, 蒙特卡洛模拟, 情景分析, 敏感性分析, 不确定性分析
+    → 上下文: locate/jclepro Greenhouse gas emission reduction strategies for petrochemical wastewater treatment: Life cycle assessment of retrofitting scenarios Xi
+    → 上下文: 51686.8 tons of carbon dioxide equivalent (t CO2eq), with 14040 and 14044. The assessment utilized Simapro v. 8.0.5.13 in an average of 4307.2 t CO2eq
+    → 上下文: rate that the results of the they contribute to alleviating the scarcity of MRS by implementing en- Monte Carlo simulation are consistent, with minima
+    → 上下文: 1) 2023). Membrane area / / 17,000–18,500 ( Same as S2 (m3) L. Hu et al., 2024) 2.3. Transformation scenario forecast analysis Energy 2.26 Same as 1.5
+    → 上下文: ectricity (+1.2 %), Table 4 they are not sufficient to offset the favourable impacts of methane re- Sensitivity analysis of chemicals consumption. cov
+    → 上下文: y, thereby rein- forcing the reliability of the comparative results for the different retrofit 3.4. Uncertainty analysis and sensitivity analysis scen
+  其他方法: 碳足迹分析
+
+（105）Process Safety and Environmental Protection 204 (2025) 108045
+  年份: 2025
+  排放因子法: 排放因子法
+    → 上下文: GWP values of CH4 and N2O in this study are 27 and 273, after each treatment unit, providing direct emission factors. Indirect respectively (IPCC, 202
+  模型法: LCA生命周期评价
+    → 上下文: portant contributors to greenhouse gas (GHG) Swine farm emissions in the agricultural sector. While life cycle assessment (LCA) is a well-established 
+  统计分析: ANOVA方差分析
+  其他方法: 文献综述, 碳足迹分析
+
+（106）Journal of Cleaner Production 509 (2025) 145592
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 排放因子法
+    → 上下文: need to conduct integrative research on the synergy effect and to based on emission factors (EFs) (IPCC, 2006), which has become the develop multi-obj
+    → 上下文: ed following the suggestions from (MEE, 2023). However, within the wastewater system, the potential IPCC (IPCC, 2019). Information for sewers in 328 c
+    → 上下文: treated effluents; (4) sludge disposal, based on bottom-up analysis with firm-level active data and localized emission factor. We demonstrated that me
+    → 上下文: fluents; (4) sludge disposal, based on bottom-up analysis with firm-level active data and localized emission factor. We demonstrated that methane emis
+  模型法: 敏感性分析, 不确定性分析
+    → 上下文: and emissions is 2778.4 Mg, the standard deviation reaches 3280.2 Mg, process, One-At-a-Time (OAT) sensitivity analysis method were applied exhibiting
+    → 上下文: oth sensitivity system is 911 Gg. Fig. 2A displays the distribution characteristics of analysis and uncertainty analysis were employed. Specifically, 
+  统计分析: Pearson相关分析
+
+（107）Journal of Environmental Chemical Engineering 13 (2025) 117770
+  年份: 2025
+  排放因子法: 排放因子法
+    → 上下文: ons of greenhouse gases were Sludge-management alternatives [36] South Korea. economy quantified by emission factors and the restrictive could provide
+  模型法: LCA生命周期评价, GaBi, 机器学习, 物料平衡, 敏感性分析
+    → 上下文: ental pollution and economic impact in wastewater treat- Process optimization ment process, typical life cycle assessment (LCA) is still insufficient 
+    → 上下文: c anoxic oxic (A2O)). CML 2001-Aug.2016 databases were selected for LCA in Comprehensive assessment GaBi software. The LCA results illustrate that the
+    → 上下文: Manag. 8 (4) (2024) 480–486. [63] Y. Pan, T.W. Hua, R.Z. Sun, Y.Y. Fu, Z.C. Xiao, J. Wang, H.Q. Yu, Machine learning- [35] H. Awad, M. Gar Alalm, H.K.
+    → 上下文: situ sludge wastewater treatment plant configurations, Environ. Res. 214 (2022) 113818. reduction: Mass balance and environmental and economic analyse
+    → 上下文: ion and carbon reduction is overlooked. 8 A demo-scale LCA Environment Based on the LCA results and sensitivity analysis, Energy and nutrients recover
+  其他方法: Meta分析, 碳足迹分析
+
+（108）Applied Energy 398 (2025) 126441
+  年份: 2025
+  排放因子法: 排放因子法
+    → 上下文: technologies [16,17], increasing chemical usage Water Sector. The calculations applied the relevant emission factor, as [18], and improving electricit
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, DEA数据包络分析, 情景分析
+    → 上下文: iu C. Understanding the greenhouse gas emissions from China’s wastewater treatment plants: based on life cycle assessment Consequently, it is challeng
+    → 上下文: nties to the results. We conduct an uncertainty anal- efficiency. These improvements ysis using the Monte Carlo method; see Supplementary Note 3 for a
+    → 上下文: he [9] Yang J, Chen B. Energy efficiency evaluation of wastewater treatment plants (WWTPs) based on data envelopment analysis. Appl Energy 2021;289:11
+    → 上下文: . wastewater generation is 2 %. The wastewater collection and treatment rates are projected to 2.3. Scenario analysis increase steadily. By 2035, the 
+
+（109）Study on the Construction and Application of a Prediction
+  年份: 2025
+  排放因子法: 自定义排放因子
+    → 上下文: tallation or downloading. The detailed code can be found in the Supplementary requireinstallationordownloading. ThedetailedcodecanbefoundintheSuppleme
+  模型法: 化学计量模型
+    → 上下文: watertreatmentprocessesandtheclassificationofcarbonemission sources within the system. By utilizing stoichiometric relationships, a carbon emission ac
+
+（10）ScienceoftheTotalEnvironment801(2021)149676
+  年份: 2021
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 自定义排放因子
+    → 上下文: flowconstructedwetlandandconventionalwastewatertreatment InstituteforPublicHealthandtheEnvironment. IPCC,2019.2019Refinementtothe2006IPCCGuidelinesfor
+    → 上下文: whicharedescribedabove.Thelifespanoftheassessmentsystemsis20 andthecountry-specificemissionsfactors(IPCC,2019).Theemissions years.Thesedesignsareusedt
+    → 上下文: . TheHRAPsysteminthiscasestudyconsistsofathree-chambersep- Theotherinfluencesarethedataavailability,localeffluentqualitystan- tictank,twoparallelHRAP,
+    → 上下文: sultsfromFig.5sup- paredtothetwonature-basedconfigurations.CWandHRAP,which portthisassumption. areknownaslow-energynetworks,consumefivetimeslesselectr
+  模型法: SimaPro
+    → 上下文: nd,andahighratealgalpond.Detaileddatainventorieswere Receivedinrevisedform11August2021 employedusingSimaPro9softwaretocalculatetheentireconsequencesby
+
+（110）Comprehensive assessment of the
+  年份: 2024
+  排放因子法: IPCC默认排放因子, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: generally. For diurnal study (roughly every 2 hours for 24 hours) to quantify seasonal example, the IPCC-recommended NO EF for centralized aerobic tre
+    → 上下文: ate Year is correct and that the sector allocation is incorrect. b efforts are currently focused on local effects, largely neglecting the 6 emissions 
+    → 上下文: me 3 | October 2025 | 1114–1124 1121 Article https://doi.org/10.1038/s44221-025-00490-z 2. We then developed facility EF PDFs by taking the average of
+    → 上下文: California (n = 18), with several in the Midwest Climate Change (IPCC), which recommend the use of emission factors (n = 6; Supplementary Information,
+  实测法: 开路法, 涡度相关法, 移动测量, 遥感, 激光分析, Off-gas法
+    → 上下文: ons, σ and σ, respectively, • LI-COR LI7500: CO and water vapour mole fractions, 10 Hz y z • Custom open-path 2 quantum cascade laser (QCL) based sens
+    → 上下文: ent for 2 treatment processes: a critical review. Water Res. 161, 392–412 measuring methane flux by eddy covariance. Appl. Phys. B 102, (2019). 391–40
+    → 上下文: NO and NH from 94, 86 and 80 4 2 3 Methods WRRFs, respectively, after quality control was applied. Mobile measurements Measured enhancements (that is,
+    → 上下文: Commun. 2, 025004 21. Gålfalk, M., Påledal, S. N., Sehlén, R. & Bastviken, D. Ground-based (2020). remote sensing of CH and NO fluxes from a wastewate
+    → 上下文: • LI-COR LI7500: CO and water vapour mole fractions, 10 Hz y z • Custom open-path 2 quantum cascade laser (QCL) based sensor42: and the source height,
+    → 上下文: ssociated uncertainties8. Compared with other monitoring tech- ranges for each gas. niques, such as off-gas and chamber measurements, this mobile-base
+  模型法: 蒙特卡洛模拟, 高斯扩散模型, 敏感性分析
+    → 上下文: servational period by using results, uncertainty was minimized. Thus, a target of ten transects was Monte Carlo sampling. The probability distribution
+    → 上下文: with 0.002 to 33 gNH s−1 (1.7 × 10−4 to 2.9 tNH d−1). Large site-to-site variabil- 2 3 3 3 inverse Gaussian plume dispersion methods and Bayesian infe
+    → 上下文: ction limit. Specifically, a we took a tiered approach to quantify facility flow rates and nutrient sensitivity analysis of CH emissions revealed that
+  统计分析: Mann-Whitney U检验
+  其他方法: 碳足迹分析
+
+（111）Quantification of CH and N O Fluxes from Piggery Wastewater
+  年份: 
+  排放因子法: 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: nsitivity[17–20]. 4 2 However,theirapplicationinpiggerywastewatertreatmentsystemsremainslimited,and localizedemissionfactorsreflectingdiurnalandseason
+    → 上下文: roundstoragetank(Stage1) andthenmovestotheanaerobictreatmentstage(Stage2),wheremicroorganismsbreak downorganicmatterunderoxygen-deficientconditions,re
+    → 上下文: Article Quantification of CH and N O Fluxes from Piggery Wastewater 4 2 Treatment System for Emission Factor Development AnthonyKintuKibwika ,Il-HwanS
+  实测法: 密闭室法/通量室法, 激光分析
+    → 上下文: arytreatment (anaerobicandaerobicstages). 2.2. EquipmentandGHGsCollection 2.2.1. Equipment A custom floating PVC air-pool chamber was installed at Sta
+    → 上下文: -scaletreatmentfacility 4 2 todevelopstage-,seasonal-,anddiurnal-specificemissionfactors. Continuouslaser-based monitoringusingaPVCair-poolchamberwasa
+  统计分析: Tukey事后检验
+
+（112）Chemical Engineering Journal 537 (2026) 176290
+  年份: 2026
+  排放因子法: IPCC 2019, 本地化排放因子, 排放因子法
+    → 上下文: Saltelli, M. Ratto, T. Andres, F. Campolongo, J. Cariboni, D. Gatelli, M. Saisana, Gas Inventories, IPCC Switzerland, 2019. S. Tarantola, Global Sensi
+    → 上下文: scribed below. sludge models [34]. Tables S4 and S5 summarise the changes applied to the global and local default parameters, respectively. 2.4.1. Inf
+    → 上下文: were identified, while potential sources such as sewers, fermenters, and clarifiers were evaluated. Emission factors (EFs) were consistent with full-s
+  实测法: Off-gas法
+    → 上下文: ons of H2 were parameter adopted by the IPCC and is more routinely monitored across measured in the off-gas of properly functioning systems. Dissolved
+  模型法: LCA生命周期评价, ASM活性污泥模型, SUMO, ADM厌氧消化模型, 蒙特卡洛模拟, 机器学习, 物料平衡, 情景分析, 敏感性分析, 不确定性分析
+    → 上下文: ombining plant-wide process models National Sciences and Engineering Research Council of Canada and life cycle assessment, J. Water Clim. Change 8 (4)
+    → 上下文: G. Langergraber, T. Ohtsuki, A. Shaw, I. Tak’cs, S. Winkler, Data availability Guidelines for Using Activated Sludge Models, IWA Publishing, 2012, htt
+    → 上下文: CA, 94596, United States of America hUSP Technologies, 3020 Gore Road, London, ON, N5V 4T7, Canada iDynamita SARL, 2015 route d'Aiglun, 06910, Sigale,
+    → 上下文: ng (i) the adoption of headworks, primary clarifiers, selectors, and plug flow reactors the default Anaerobic Digestion Model No. 1 (ADM1) hydrolysis 
+    → 上下文: d 33% lower than that of the Intergovernmental Panel on Climate Change (IPCC; 0.018 kg CH4/kg BOD). Monte Carlo sim- ulations revealed uncertainties r
+    → 上下文: up II Contribution to the Sixth Assessment Report of the Intergovernmental [42] A. G´eron, Hands-on Machine Learning With Scikit-Learn, Keras, and Ten
+    → 上下文: e quality CRediT authorship contribution statement and frequency of the data used for hydraulic and mass balance calcu- lations, calibration, and vali
+    → 上下文: t plant model for carbon and energy footprint: model application and Appendix A. Supplementary data scenario analysis, J. Clean. Prod. 217 (2019) 244–
+    → 上下文: sions. Plant-wide monitoring campaigns remain resource-intensive and often fail to capture temporal Sensitivity analysis variability, whereas plant-wi
+    → 上下文: temperatures, with wastewater treatment plants (WWTPs) contributing nearly 5% of global non-CO2 GHG Uncertainty analysis emissions. Plant-wide monitor
+  其他方法: 文献综述
+
+（113）Water Research 294 (2026) 125512
+  年份: 2026
+  排放因子法: IPCC默认排放因子, 排放因子法
+    → 上下文: ssion average value of the existing EF in the literature is 6.27 gN2O/kgTN, which is lower than the IPCC default value of 16 gN2O/kgTN. Therefore, 4.1
+    → 上下文: I G H L I G H T S G R A P H I C A L A B S T R A C T •Systematically reveal seasonal dynamics of GHG emission factors of WWTPs. •Calibrate IPCC EFs :Th
+  实测法: 遥感, 在线监测
+    → 上下文: nned Daelman, M.R., van Voorthuizen, E.M., van Dongen, U.G., Volcke, E.I., van Aerial Vehicle (UAV) remote sensing and LiDAR technology should be Loos
+    → 上下文: plementary Material Figure S5). Therefore, the emission intensity was trations were measured by the online monitoring system of the WWTPs, used for a 
+  模型法: 机器学习, 随机森林RF, 结构方程模型SEM, 不确定性分析
+    → 上下文: sonal differences in GHG emissions from WWTPs have been shown in Wang et al., 2022). On this basis, machine learning technology is used to many articl
+    → 上下文: -time intelligent control for wastewater treatment plants: data- machine learning algorithms (e.g., Random Forest, Long Short-Term driven modeling for
+    → 上下文: ions. 3.1.1. Direct emissions CH4 and N2O emissions SmartPLS 3.2.9 software was used to construct a structural equation Taking WWTP 1 as an example, t
+    → 上下文: tment and sludge dewatering GHG emissions account for 0.6 %. Among them, 85.4 % of 2.6. Measurement uncertainty analysis methane was emitted from the 
+  统计分析: Pearson相关分析, ANOVA方差分析, Kruskal-Wallis检验
+
+（114）Water Research 300 (2026) 125950
+  年份: 2026
+  排放因子法: IPCC 2019, 工艺特定排放因子, 排放因子法
+    → 上下文: 1.0 ×10–1 to 3.3 ×10◦g pollutant/kg influent TN (for NH3 To benchmark these results, a conventional IPCC (2019) and N2O) and 3.3 ×100 to 8.5 ×102 g po
+    → 上下文: or carbon footprint. The results advance current understanding of process- improved measurement and process-specific emission factors. specific emissi
+    → 上下文: important. Recent evidence indicates that conventional inventories may develop annual facility-wide emission factors, a climate impacts underestimate 
+  实测法: 开路法, 遥感, 激光分析
+    → 上下文: ambient sweep gas and dynamic flux chamber gases was sampled and flight transects: one carrying an open-path laser spectrometer, the other analyzed to
+    → 上下文: arison from United States wastewater treatment. Environ. Sci. Technol. 57 (10), Between Gas Mapping LiDAR and Tracer Correlation Methods for Landfill 
+    → 上下文: weep gas and dynamic flux chamber gases was sampled and flight transects: one carrying an open-path laser spectrometer, the other analyzed to ascertai
+  模型法: LCA生命周期评价, 情景分析
+    → 上下文: y Mauzerall, D.L., Xu, Y., Hamburg, S.P., 2021. Acting rapidly to deploy readily production through life cycle assessment: an action towards reducing 
+    → 上下文: from increasing COD thus reflects enhanced heterotrophic oxidation and displaced grid electricity. Scenario analysis showed potential re- methanotroph
+  其他方法: 文献综述, 碳足迹分析
+
+（115）Water Research X 30 (2026) 100480
+  年份: 2026
+  排放因子法: IPCC默认排放因子, 排放因子法
+    → 上下文: hane emissions measurement and mitigation, balancing cost, complexity, and environ- consistent with IPCC default emission factor. Water Res. X 19, 100
+    → 上下文: vider, and exercise proper caution and common sense when 3. Results of emissions reporting based on emission factors handling CH4. 2 P. de Jong et al.
+  实测法: 密闭室法/通量室法, 开路法, 涡度相关法, 遥感, FTIR, Picarro, 激光分析, Off-gas法, 在线监测
+    → 上下文: Single MW concentration in dissolved CH4 sources only techniques sources measurements liquid phase Closed surface flux Hoods have built in sensors Dif
+    → 上下文: modelling atmosphere diffuse sources) topography and with interfering CH4 sources Radial plume Uses open-path tuneable Asset wide, but Good in flat te
+    → 上下文: (OGI), quantum Despite its critical importance, methane (CH₄) emissions from gas LiDAR, tracer gas, Eddy Covariance, flux chamber, inverse disper- was
+    → 上下文: .org/licenses/by- nc-nd/4.0/) . P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480 and remote sensing techniques such as the tracer gas di
+    → 上下文: ly good for leak Non- Concentration ≈5 ppm N/A Handheld AAV, Sampler detection intrusive MW OP-FTIR Fourier transform infrared Individual area Can mea
+    → 上下文: alyser tanks with multiple hood the method is time and deployment labour intensive Mobile surveying Cavity ring-down or Asset wide Vehicle based Very 
+    → 上下文: d sludge model to predict the growth of Water (MW), and Severn Trent (ST), including tuneable diode laser methanogens in the sludge. absorption spectr
+    → 上下文: sludge drying facilities. In addition, fugitive Switzerland using flux chamber measurements, total off-gas collection, * Corresponding author. E-mail 
+    → 上下文: wide emissions concentrations (ppm, mg/l etc.). Whilst still providing a activities. By integrating continuous monitoring systems with targeted valuab
+  模型法: LCA生命周期评价, ASM活性污泥模型, 物料平衡
+    → 上下文: in complex and underscore the need for compre- dominantly from vented sludge storage tanks. hensive life cycle assessments to compare the carbon, econ
+    → 上下文: ogenic ac- most of which have been trialled by Aarhus Vand (AAV), Melbourne tivity and developed an activated sludge model to predict the growth of Wa
+    → 上下文: and anaerobic digestion efficiency. Combined with biogas CH4 produc- 5 the highest: tion data, COD mass balances can provide insight into CH4 capture 
+  其他方法: 文献综述
+
+（116）Journal of Water Process Engineering 87 (2026) 110044
+  年份: 2026
+  排放因子法: IPCC 2006, IPCC默认排放因子, 排放因子法
+    → 上下文: ssion potential of tropical coastal anaerobic sludge digesters in mexico: on-site determination vs. IPCC Tier 1 sediments in densely urbanized area in
+    → 上下文: onsite monitoring of a sewage sludge drying pan finds methane emissions References consistent with IPCC default emission factor, Water Res. X 19 (2023
+    → 上下文: stered in the aqueous phase rather than being discharged. Subse- Eq. (4) based on the 2023 baseline emission factors for the regional quent transfer t
+  实测法: 密闭室法/通量室法, 顶空平衡法, 在线监测
+    → 上下文: ial community process. The comprehensive data collection and analysis approach integrated real-time static chamber flux Static chamber sampling techni
+    → 上下文: ter were determined scientifically grounded basis for carbon-reduction strategies in indus- using a headspace equilibrium technique [23]. Water sample
+    → 上下文: ure reduction compared to methanogenesis, effectively modulate the carbon research will incorporate continuous monitoring to evaluate the diurnal, flo
+  模型法: LCA生命周期评价
+    → 上下文: Sichuan Science and Technology Program emissions from China’s wastewater treatment plants: based on life cycle assessment (2025ZNSFSC1255), and China 
+  其他方法: 碳足迹分析
+
+（117）Process Safety and Environmental Protection 211 (2026) 108748
+  年份: 2026
+  排放因子法: 排放因子法
+    → 上下文: 044, PR China A R T I C L E I N F O A B S T R A C T Keywords: The carbon element balance method and emission factor method were used to systematically
+  模型法: LCA生命周期评价, GaBi, 机器学习, DEA数据包络分析, 敏感性分析
+    → 上下文: iability of different treatment stages within the WWTP Greenhouse gas (GHG) were analyzed employing life cycle assessment, a simple cost assessment to
+    → 上下文: denotes the characteristic factor for the sourced from life cycle assessment databases such as the Gabi database impact of the i-th substance on a spe
+    → 上下文: rplus underground wastewater treatment plants (UWWTPs) at home. Water Purification sludge yield via machine learning-based interpretable ensemble mode
+    → 上下文: tes that this WWTP generates a net benefit of 1256.24 Euro per 10,000 m³ of treated wastewater. The data envelopment analysis model was used to evalua
+    → 上下文: ti-layer perceptron Supplementary data associated with this article can be found in the with global sensitivity analysis (GSA) and an early warning sy
+  其他方法: 碳足迹分析
+
+（118）Environmental Research 292 (2026) 123663
+  年份: 2026
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: r treatment sector is sumption rose steadily, from an average of 193 L/d in 2010 to 217 L/d in underdeveloped, yet critical for effective emission red
+    → 上下文: more than doubled, increasing from 31.2 billion cubic meters yielded significant findings regarding emission factors, inventories, and in 2010 to 65.2
+
+（11）WaterResearchX13(2021)100122
+  年份: 2021
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 自定义排放因子, 排放因子法
+    → 上下文: and seasonality of emissions (Daelman et al., are much lower (0.03% to 0.14%; Daelman et al., 2015, IPCC 2006) than 2013). A strong seasonal emission 
+    → 上下文: s. With the refinement of the and low emissions in autumn was previously shown in several long-term IPCC methodology in 2019, increased EFs of 0.01% t
+    → 上下文: tially to climate WWTPs can occur either on site or in receiving waters if dissolved N2O is change (IPCC 2014) and stratospheric ozone depletion (Ravi
+    → 上下文: ures. Therefore, the ammonium effluent concertation of the (cid:0) WWTPs with seasonal peaks is unknown. Additionally, NO2 effluent WWTP exhibits a pa
+    → 上下文: s on 14 full-scale wastewater treatment plants (WWTPs), we found a strong variability in the yearly emission factors (EFs) (0.1 to 8% of the incoming 
+  实测法: Off-gas法, 在线监测
+    → 上下文: solved oxygen concentrations was acquired over the WWTP’s su- central monitoring station, where the off-gas was measured in a pervisory control and da
+    → 上下文: t the emission estimates can be significantly improved using an advanced approach based on multiple continuous, long-term monitoring campaigns. In mon
+  模型法: 物料平衡
+    → 上下文: nitrogen newly conducted monitoring campaigns can be found in the SI. load by evaluating a nitrogen mass balance over the primary clarifier based on t
+  统计分析: Spearman相关分析, Mann-Whitney U检验, Wilcoxon检验
+  其他方法: 碳足迹分析
+
+（12）EnvironmentalResearch204(2022)111978
+  年份: 2022
+  实测法: 遥感, Off-gas法
+    → 上下文: ScienceDirect Environmental Research journal homepage: www.elsevier.com/locate/envres Ground-based remote sensing of CH and N O fluxes from a wastewat
+    → 上下文: emissions calculations at a Swedish wastewater treatment plant based on water concentrations versus off-gas concentrations. Adv. Clim. Change Res. 7 (
+  模型法: 蒙特卡洛模拟, 物料平衡
+    → 上下文: dge piles) of each month. The total un- WWTP. certainty in CH4 emission was then calculated using a Monte Carlo simulation based on 1000 distributions
+    → 上下文: izontal area is used for case there was low temperature contrast in the remote sensing data and the mass balance calculation. Averaged emissions can b
+
+（13）JournalofEnvironmentalManagement281(2021)111864
+  年份: 2021
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: rder of magnitude higher than the BNR configurations (Section 2.2), and the experimental design the IPCC ERE (Lim and Kim, 2014). Interestingly, Rodrí
+    → 上下文: s- determination of GHG and odour EREs from the open-to-air treatment crepancies between the IPCC’s emission factors and their study findings. process
+  实测法: Off-gas法, 在线监测
+    → 上下文: re and after each reactor. The EREs from each of the reactors were deter- mined using the monitored off-gas flowrate and measured GHG, H2S and NH3 con
+    → 上下文: r (ECD), respectively. The air and N2 pumping rates into the reactors were controlled by valves and continuously monitored by airflow meters positione
+  其他方法: 碳足迹分析
+
+（14）Critical Reviews in Biotechnology
+  年份: 2021
+  研究方法: 未识别
+
+（15）1392 ©2021TheAuthors JournalofWaterandClimateChange| 12.5 |2021
+  年份: 2021
+  排放因子法: IPCC 2006, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: - ManagementinNationalGreenhouseGasInventories. ventionaltreatmentplant.However,effortsshouldbemade IPCCRefinementtothe2006IPCCGuidelinesforNation
+    → 上下文: anics,and Division,DepartmentofCivilEngineering, dissolvedsolidsarebecomingmorestringentwithtime,andlocalregulatorsareforcedtoinsiston IndianInstitute
+    → 上下文: e (Singh et al. ). It than25m3/daytosetupaZLDfacility. underlines the immediate need for a well-developed method- ZLD refers to the installation o
+    → 上下文: he EF of 0.00255tCO eq per liter of diesel can be used 2 final step involves the use of appropriate emission factors (Sridhar ). GHG emissions due
+  其他方法: 碳足迹分析
+
+（16）Applied Water Science (2021) 11:180
+  年份: 2021
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: ng points. The other direct emission resource is wastewater resulted from anthropogenic activities (IPCC 2014). Waste- treatment units. The indirect G
+    → 上下文: as treatment technologies as insignificant for the water–energy modeling, empirical models based on emission factors nexus, focused on more on water c
+  实测法: 密闭室法/通量室法
+    → 上下文: ns originated from treatment processes were considered as the direct emissions and determined using closed chamber method. GHG emission due to energy 
+  模型法: 蒙特卡洛模拟, 不确定性分析
+    → 上下文: and operational parameters in terms of chemical oxygen demand (COD) and wastewater flow rate using Monte Carlo simulation. Then, design COD and wastew
+    → 上下文: ystal Ball, Ver. 11.1. Oracle software. The water–energy nexus. The minimum greenhouse gas emission uncertainty analysis was applied, and the possible
+  应用目的: aimed to reduce GHG emissions in terms of water–energy nexus. If the plant is operated under design conditions, energy
+consumption would be lower according to water–energy nexus. Also, the effect of d
+
+（17）ScienceoftheTotalEnvironment797(2021)148967
+  年份: 2021
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: d511,851tCO-eqin2016. 2 • Average GHGs emission intensity for ShanghaiWWTPswas0.290kgCO-eq/ 2 m3. • IPCC2006underestimatedbothdirect NOandCH emissions
+    → 上下文: gcity-levelWWTPs,is Accepted6July2021 scientificallyandpragmaticallycalledfor.Inthispaper,wecomparedIPCC(IPCC2006andIPCC2019),optimized Availableonlin
+    → 上下文: ultvalueisbasedonexpertjudg- alsoaccountedfor70%ofthetotalGHG emissionsin WWTPs.One ment instead of local situation. In contrast, default MCF value of
+    → 上下文: hefirst reversiblelossofthemostfragileecosystemsandvulnerablesocieties cityinChinathathasproposeditsowncarbonpeakingscheduleforthe (IPCC,2018).Greenho
+    → 上下文: soon.Amongthesemethods,themostwidely tionsinChina.Shanghaiwasoneoftheeconomiccentersandcompre- used emission factor method for estimating GHGs emissio
+  实测法: 在线监测
+    → 上下文: ninfluentloading(Lee Fig.5,WWTPswiththeoreticaloxygenconsumptionrangeof0–0.2 et al., 2008) and lack continuous monitoring (Lorenzo-Toja et al., kgO /t
+  模型法: 情景分析
+    → 上下文: ecial fund of State Key Joint tertreatmentplantmodelforcarbonandenergyfootprint:modelapplication andscenarioanalysis.J.Clean.Prod.217,244–256.https://
+  统计分析: Kruskal-Wallis检验
+  其他方法: 同位素示踪
+
+（18）WaterResearch207(2021)117831
+  年份: 2021
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: t, some referenced databases dardization of the methodology for carbon footprint assessment in were developed to collect and update the EFs, mainly at
+    → 上下文: se gas service located in the northern Italy and serving 411,484 PE was assessed. The most accurate emission factor Wastewater identification is prese
+  实测法: 密闭室法/通量室法, 在线监测
+    → 上下文: on GWh International energy (MWh/y), other databases ( sampling as a zero reference. In addition, a floating chamber was used to consumption fuel comb
+    → 上下文: (cid:0)7 kg of CO2 CO2/kgTS) 6, yielded the EFs for (1.3 ×10(cid:0)3 kg higher than measured with a continuous monitoring campaign for CH4/kgCODin kgC
+  模型法: ASM活性污泥模型, 情景分析
+    → 上下文: ture GHG greenhouse gas GWP global warming potential AD activity data IA intermittent aeration ASMN activated sludge models for nitrogen K potassium B
+    → 上下文: plication of apenergy.2016.07.043. processed organic municipal solid waste on agricultural land - A scenario analysis. Longo, S., Mauricio-Iglesias, M
+  其他方法: 碳足迹分析
+
+（19）Revised:31March2021 Accepted:1April2021
+  年份: 2021
+  排放因子法: IPCC 2006, IPCC 2014, 排放因子法
+    → 上下文: HG) emissions have been one of the principal reasons for global warming since the mid-20th century (IPCC, 2014). The 2006 IPCC Guidelines for National
+    → 上下文: HG) emissions have been one of the principal reasons for global warming since the mid-20th century (IPCC, 2014). The 2006 IPCC Guidelines for National
+    → 上下文: an three areas listed in Table 1—Oslo, Toronto, and New Zealand—which is mainly due to China's high emission factor for electricity generation compare
+  模型法: 物料平衡
+    → 上下文: nd in CH 4 emission studies inChina. Studies ataregional level 4, Downloaded are usually based on a mass balance approach derived from the 2006 IPCC G
+  其他方法: 文献综述, 碳足迹分析
+
+（1）Desalination and Water Treatment 197 (2020) 101–111
+  年份: 2020
+  排放因子法: 本地化排放因子, 排放因子法
+    → 上下文: ractice guidance NERIc Free access and easy to use It does not provide a default operating database Country-specific data on the emission factor for d
+    → 上下文: anel on Climate Change protocol was selected due to the great diversity of operational data and the emission factors proposed by experts when the data
+  模型法: LCA生命周期评价, 化学计量模型
+    → 上下文: d Li [63] for consumption by the plant itself) and to contribute to published a study in 2020 using life cycle assessments of each enhancing the circu
+    → 上下文: 3]. Using the data available and the and its quantification is a function of the degradable organic stoichiometric ratio in the oxidation reaction, th
+  其他方法: 文献综述, 碳足迹分析
+
+（20）©IWAPublishing2021 WaterPractice&TechnologyVol16No1
+  年份: 2021
+  排放因子法: IPCC 2006, IPCC 2014, 排放因子法
+    → 上下文: t by means of multiplying daily lime consumption (L ) (kg/d) and the emission factor of lime (EF ) (IPCC 2006). The emission sludge lime factor of lim
+    → 上下文: ions on a global scale, and wastewater treatment constitutes approximately 20% of the waste sector (IPCC 2014). Carbon dioxide (CO ), methane (CH ) an
+    → 上下文: on tank. It can be estimated by means of multiplying daily methanol consumption (L ) (kg/d) and the emission factor of methanol (EF ) (Kyung methanol 
+  应用目的: aimed to determine and reduce on-site and off-site emissions for the extended aeration process in an
+industrial wastewater treatment plant. Modification of operating conditions was applied to reduce G
+
+（21）AssessmentofenergyperformanceandGHGemissionsfortheurbanwatercycletoward
+  年份: 2023
+  排放因子法: 排放因子法
+    → 上下文: equiv:avoided(kgCO e)¼wwt nrg biog(cid:2)emissionfactor(kgCO e=kWh) (1) 2 2 2 In this equation, the emission factor wasdefined as0.36kgCO e/kWh for Tu
+  统计分析: t检验
+
+（22）Desempenho energético e pegada de carbono
+  年份: 2020
+  排放因子法: IPCC 2019
+    → 上下文: on, euro4 {RoW} Disposição do esgoto tratado Methane, biogenic 1,40 Emissões diretas no rio CH e NO IPCC (2019a) 4 2 Dinitrogen monoxide 1,40 GLO: glo
+  模型法: LCA生命周期评价, SimaPro, SUMO
+    → 上下文: LARSEN H.F.; MORERA construído de fluxo vertical para o tratamento de esgoto doméstico. S.; SHAW A. Life cycle assessment applied to wastewater treatm
+    → 上下文: de impacto do ciclo de vida e interpretação N2O j 2 (kg NO−N·(kg N)−1); e Foi utilizado o software SimaPro® versão 9.0 para se obter a demanda energé-
+    → 上下文: system in northeastern Brazil Monique Cerqueira Araujo1* , Diego Lima Medeiros2 , Eduardo Cohim1 RESUMO ABSTRACT O objetivo do trabalho foi avaliar a 
+  其他方法: 碳足迹分析
+
+（23）Whole-system analysis reveals high greenhouse-
+  年份: 2022
+  排放因子法: IPCC 2006
+    → 上下文: IPCCguidelines wastewaterdailyoutofthe32,000m3designcapacity35. fornationalgreenhousegasinventories(IPCC,2006). Theremainingthreewastewatertreatmentpl
+  模型法: 敏感性分析
+    → 上下文: ges and wastewater. A summary of shows that there are significant avoidable emissions occurring the sensitivity analysis is in Supplementary Table 18.
+
+（24）Environ Monit Assess (2022) 194: 27
+  年份: 2022
+  排放因子法: 本地化排放因子, 排放因子法
+    → 上下文: e sample points were located along the central emission line, and The IDW interpolation method is a local deter- therefore y = 0. Taking into account 
+    → 上下文: e Gases (GHG) cal aeration (Wang et al., 2010; Yoshida et al., 2014). emission rate or to calculate emission factors from dif- Daelman et al. (2012) r
+  实测法: 密闭室法/通量室法
+    → 上下文: , and the bag technique and open 4 2 2 4 contribute to ozone formation, thus mitigation strate- and closed floating chambers to calculate the gas flow
+  模型法: 高斯扩散模型
+    → 上下文: 21-09660-4 Estimation of methane emission from an urban wastewater treatment plant applying inverse Gaussian model Carla Stadler · Victoria S. Fusé · 
+  应用目的: objective of this work is to apply a simple and inexpen- the mean CH emission rate from this source was
+4
+sive methodology to collect air samples in urban areas 2.08E + 04 μg s−
+
+（25）Economicperformanceindexassessmentofanindustrialwastewatertreatmentplantin
+  年份: 2022
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: evedforthewastesectorby2030.Especially,WWTPshave beenconsideredasthemainGHGproducerinthewastesector(IPCC2014).TheWWTPsshouldobtainincentivesto enhance
+    → 上下文: dwasteactivatedsludge.Itcouldbecalculatedbymeansofmultiplyingsludgeload(L ) sludge (kg/day) and the emission factor of lime (EF ) (IPCC 2014). The cal
+  模型法: 蒙特卡洛模拟, 回归分析
+    → 上下文: omic performance of the WWTPs. Also, in this work apart from the previous studies the DEA model and Monte Carlo simulation have been simultaneously pe
+    → 上下文: e experimental nexus of optimal parameters and independent variables were obtained using a multiple regression analysis Figure2| Normalprobabilityplot
+  统计分析: ANOVA方差分析
+  应用目的: aimstodeterminetheeffectofgreenhousegas(GHG)emissionsoneconomicperformanceintermsofenergycostsforanindus-
+trialwastewatertreatmentplant.Also,themitigationofGHGemissionsaimedatusingprocessmodificationt
+
+（26）Energy Consumption and Carbon Footprint of Greek
+  年份: 
+  排放因子法: 自定义排放因子
+    → 上下文: TtePrsmtsh aotf iGsHatGta ienmabislesiwonitsh o(gurteaenny saydmdbitoilosn ianl mFiogduirfiec 8a)t iownesrefo irdeemntiisfsiieodn sacrceodrudcitniogn 
+  其他方法: 碳足迹分析
+  应用目的: objectiveofthisworkistoassesstheenergyandcarbonfootprintofGreekWWTPsand
+toproposemethodstoimproveenergyefficiencyandreduceGHGemissions.Datawerecollected
+from31GreekWWTPswithanaveragetreatmentcapacityb
+
+（28）JournalofEnvironmentalManagement313(2022)115002
+  年份: 2022
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: d by checking the removal efficiency of the treatment one of CO2 in the same 100-year time horizon (IPCC, 2014). train and by characterizing the curre
+    → 上下文: ty. In this study, a multipoint characterization of the gaseous emissions generated in a full-scale Emission factors municipal WWTP located in Barcelo
+  实测法: GC-MS, Off-gas法, 在线监测
+    → 上下文: orption wastewater treatment plants. J. Separ. Sci. https://doi.org/10.1002/ and thermal desorption-gas chromatography-mass spectrometry. Int. J. Envi
+    → 上下文: ystem consisting of a biotrickling filter followed by a conventional biofilter to treat part of the off-gases produced during the wastewater treatment
+    → 上下文: ng human noses to reveal the actual gaseous emissions generated during the wastewater and enhancing continuous field monitoring (Brattoli et al., 2011
+  模型法: 情景分析
+    → 上下文: model application and Environ. Pollut. 220, 963–970. https://doi.org/10.1016/j.envpol.2016.10.082. scenario analysis. J. Clean. Prod. 217, 244–256. ht
+  其他方法: 碳足迹分析
+
+（29）EnvironmentalResearch214(2022)113818
+  年份: 2022
+  排放因子法: IPCC 2019, 自定义排放因子
+    → 上下文: eline identified the majority of the GHG footprint. emissions from sludge disposal are N2O and CH4 (IPCC et al., 2019). Lastly, landfills should be av
+    → 上下文: ., Pyrozhenko, Y., Shermanau, P., Federici, S. (Eds.), 2019 The authors declare that they have no known competing financial Refinement to the 2006 IPC
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, 不确定性分析
+    → 上下文: A., Vane, L.M., 2016. Significance of dissolved Piao, W., Kim, Y., Kim, H., Kim, M., Kim, C., 2016. Life cycle assessment and economic methane in effl
+    → 上下文: OAeD is the N2O emissions from aerobic sludge digester [kg designed scenarios was conducted through Monte Carlo analysis in MS N2O]; EFAeD is N2O emis
+    → 上下文: s ​produced (8) were used to conduct the Monte Carlo analysis. The summary of design parameters for uncertainty analysis are listed in SI Table S3. wh
+  其他方法: 碳足迹分析, 同位素示踪
+
+（2）IOP Conference Series:
+  年份: 2020
+  排放因子法: IPCC 2006, 自定义排放因子, 排放因子法
+    → 上下文: ature. In this study, greenhouse gas emissions are estimated from these two facilities by using the IPCC Tier 1 method and emission factor calculation
+    → 上下文: At the Conference of Parties in 2009, Indonesia has committed to reduce GHG emissions by 26% by its own effort and by 41% with international assistanc
+    → 上下文: reenhouse gas emissions are estimated from these two facilities by using the IPCC Tier 1 method and emission factor calculation. By estimating greenho
+
+（30）ATMOSPHERICENVIRONMENT:X13(2022)100161
+  年份: 2022
+  实测法: 开路法, 激光分析
+    → 上下文: agricultural BGPs in Switzerland using the GasFinder inverse dispersion method (IDM). This involved open-path concentration measurements up- and downw
+    → 上下文: sion method (IDM). This involved open-path concentration measurements up- and downwind of Open-path tunable diode laser the plant in combination with 
+  模型法: 敏感性分析, 不确定性分析
+    → 上下文: s larger during the night than during the day mation 1, section 1. (Fig. 3). For the WWTPs a simple sensitivity analysis of the EWS approach As the am
+    → 上下文: gend, the reader is referred to the Web version of this article.) Bühler et al. (2021) conducted an uncertainty analysis of a mea- surement campaign w
+  其他方法: 文献综述
+
+（32）Resources,Conservation&Recycling190(2023)106794
+  年份: 2023
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, IPCC默认排放因子, 本地化排放因子, 排放因子法
+    → 上下文: O emissions Nayeb et al., 2019). N2O emissions are mainly caused by biological ni- According to the IPCC (2006, 2019), the N2O emissions from WWTPs tr
+    → 上下文: O emissions Nayeb et al., 2019). N2O emissions are mainly caused by biological ni- According to the IPCC (2006, 2019), the N2O emissions from WWTPs tr
+    → 上下文: 6/202 Intergovernmental Panel on Climate Change, Japan. 10616_250477.html. (Accessed May 19, 2022). IPCC, 2015. Climate Change 2014: Mitigation of Cli
+    → 上下文: , previous studies used the scope 1 emissions (direct emissions, e.g., CH4 and N2O arising from on- IPCC-recommended default values or national unifie
+    → 上下文: e least effect. compared with the more detailed field measured data. So, obtaining higher-precision local on-site emission factors can further reduce 
+    → 上下文: 2005 to 30.95 Mt CO2-eq in China 2020. Due to the differences in electricity consumption intensity, emission factors, and economic development level, 
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, 情景分析, 敏感性分析
+    → 上下文: u, J., 2021. Optimizing the recovery pathway of Scandinavian wastewater treatment plants, using the life cycle assessment approach. a net-zero energy 
+    → 上下文: Yunnan and Guizhou in southern China have the largest emissions share from N2O, with more We adopt Monte Carlo simulation to characterize the uncertai
+    → 上下文: significant spatial heterogeneity in the amount, structure, and intensity of emissions by province. Scenario analysis reveals that energy-saving impro
+    → 上下文: e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794 Table 1 We perform a sensitivity analysis to identify the impact of diff
+  其他方法: 碳足迹分析
+
+（33）Original Research Article
+  年份: 1924
+  模型法: 化学计量模型
+    → 上下文: 26]. chemicalequationofoxidationofthesubstrate,the 1. TotalKjeldahlnitrogen(TKN)balanceforsubstrate stoichiometricrelationshipbetweenoxygenandcarbon (
+
+（34）JournalofCleanerProduction376(2022)134093
+  年份: 2022
+  排放因子法: IPCC 2006, IPCC 2014, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: ritical for devising strategies to control and reduce anthropogenic GHG in national emissions data (IPCC, 2006). Studies have reported the fossil emis
+    → 上下文: are 28 and 265, the capital investment per unit of wastewater treated is reduced when respectively (IPCC, 2014). the scale exceeds a certain threshold
+    → 上下文: ina Average influent TN (mg/L) 47.4 21.9 varies according to their geographic locations. Studies of local GHG EFs EFelectricity (tCO2/MWh) 0.9419 0.79
+    → 上下文: 13). Methods the 38 WWTPs is listed in Table A.1. In addition, to estimate the total have also been developed based on the original EF method. On-site
+    → 上下文: GHG emissions from WWTPs, the most common of which is the IPCC method, which uses 2.2. Data sources emission factors (EFs) and activity parameters to 
+  实测法: 密闭室法/通量室法, 在线监测
+    → 上下文: n intensities, while AAO and OD have relatively low emission fluxes are collected using gas bags or closed chambers (Ren et al., 2013; intensities. Va
+    → 上下文: on-site GHG emission widely. Generally, SBR and MBBR are two processes with high GHG studies use discontinuous monitoring studies, in which the gaseou
+  模型法: 情景分析, 敏感性分析, 不确定性分析
+    → 上下文: in Nepal: a Yapıcıog˘lu, P., 2021. Minimization of greenhouse gas emissions from extended aeration scenario-based analysis applicable for developing c
+    → 上下文: kg CH4/m3, and 0.00024 kg N2O/m3). Bao et al. (2016) found that WWTPs that used SBR released 2.4.5. Sensitivity analysis more N2O than WWTPs that used
+    → 上下文: level. 2012. Methane emission during municipal wastewater treatment. Water Res. 46 In summary, the uncertainty analysis results showed that the GHG (1
+  其他方法: 同位素示踪
+
+（35）International Journal of
+  年份: 2009
+  排放因子法: 排放因子法
+    → 上下文: en load in the influent 4500 4500 4500 kg Total Nitrogen load in the effluent 2700 2700 2700 kg CH4 emission factor (treatment) 0.12 0.48 0.018 kg CH4
+
+（36）EnergyReports9(2023)2310–2320
+  年份: 2023
+  排放因子法: IPCC 2006
+    → 上下文: H is oxidized to CO 2 4 2 ThecurrentstatusofGHGemissionsandenergyconsumption duringtheburningbiogas(IPCC,2006).Also,CO isproducedby 2 from the Mashhad
+  模型法: LCA生命周期评价
+    → 上下文: , 2022; Sharawat et al., 2021). as the quantity and quality of influent wastewater and the type The life cycle assessments (LCA) have been applied to 
+  其他方法: Meta分析
+
+（38）EnvironmentalScienceandEcotechnology20(2024)100345
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 工艺特定排放因子, 自定义排放因子, 排放因子法
+    → 上下文: themethodology tobeproportionaltotheamountoftreatedmunicipalwastewater differences,wealsousedthe2006IPCCGuidelines(IPCC2006)and (Wm Thun eic iip na pl
+    → 上下文: ingpartswithpreviousestimates,wealsousethe2006 compriselessthan2.3%ofthenumberofMWWTPsbutaccountfor IPCCGuidelinesandthe2019refinementtoestimateemissi
+    → 上下文: plant measurement. Distinct from the IPCC derstandingofMWWTPemissions. methods, our study collects technology-specific emission factors, whicharederiv
+    → 上下文: resolutionemissionaccounting,our analysis reveals unprecedented emission features and details not shownbefore.However,thelargediscrepanciesinthecompar
+    → 上下文: ions (e.g., country and province) where MWWTPs,weestimatedannualon-siteemissionsofCH4andN2O default emission factors have been universally applied. Ho
+  模型法: 蒙特卡洛模拟
+    → 上下文: ivity data and emission factors that can be described as a probability density function and built a Monte Carlo framework. Emissionfactors(EFj,s)arede
+
+（39）ScienceoftheTotalEnvironment876(2023)162597
+  年份: 2023
+  排放因子法: IPCC 2006, 自定义排放因子
+    → 上下文: TPsinShanghai. thereceivingenvironment,andsludgewillbetransportedtoitsdestination, ResultsshowedthatIPCC2006methodunderestimated87%oftotalGHG suchasla
+    → 上下文: iccompostandincinera- diesel 2 0.9155inNorthwestregion,kgCO 2-eq/kWh.C Pistheconsumptionof tion,asshowninthefollowing: PAMatWWTPsforoneyear,kg.EF isth
+  实测法: 在线监测
+    → 上下文: ,000m3/demittedhigherGHGemissionsbecauseofhighindi- studies. rectemissions.Thismaybebecausethelackofcontinuousmonitoringand fluctuationsininfluentload
+
+（3）Membrane and Water Treatment, Vol. 11, No. 3 (2020) 173-177
+  年份: 2020
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: should be accurately estimated and need to be reduced by Life Cycle Assessment (LCA) is a widely known effective management plans. technique that asse
+    → 上下文: CH 4, as gravel, rebar, cast iron, steel tool special (STS) and steel TN removal was for N 2O. The emission factors of on-site piping (SPP) used in th
+  模型法: LCA生命周期评价, 敏感性分析
+    → 上下文: o set up effective management plans for a WWTP built underground. First, we apply the process-based life cycle assessment (LCA) with an inventory data
+    → 上下文: case study. Then, we identify significant factors affecting GHG emissions during service life using sensitivity analysis and suggest the proper tactic
+
+（40）Original Research Article
+  年份: 2018
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: reducetheamountofgreenhousegasemissionsinthe the Terms million. wastewatertreatmentprocess. and AsshowninTable4,thepercapitareleasecoefficient Whenthe
+    → 上下文: ocal wastewater treatment plants. According to the results, the nitrous oxide emission flux and the emission factors (EFs) are discussed. The results 
+  其他方法: 碳足迹分析
+
+（41）EcotoxicologyandEnvironmentalSafety259(2023)115007
+  年份: 2023
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: 009; Xi et al., 2021). Specifically, P-9 (MUNITANK) ported for full-scale WWTPs (Chen et al., 2019; IPCC, 2019; Gruber led to the highest GHG emission
+    → 上下文: ficant variation of nitrous improvement could be explored. Moreover, uncertainty analysis and oxide emission factor contributes to the variation of GH
+  模型法: LCA生命周期评价, SimaPro, 蒙特卡洛模拟, 情景分析, 敏感性分析, 不确定性分析
+    → 上下文: coenv Understanding the greenhouse gas emissions from China’s wastewater treatment plants: Based on life cycle assessment coupled with statistical dat
+    → 上下文: ary of the present study. Additionally, the electricity having dominant contribution. Specifically, SimaPro 9.2 transport (lorry) of raw materials (e.
+    → 上下文: ed from 17 WWTPs of various regions in China. Un- Life cycle assessment certainty analysis based on Monte Carlo was also performed, so as to provide m
+    → 上下文: g et al., 2021) also reported that electricity consump- CO2 eq/kWh for hard coal-based electricity. Scenario analysis of various tion, as well as the 
+    → 上下文: eover, uncertainty analysis and oxide emission factor contributes to the variation of GHG emissions sensitivity analysis were conducted in order to pr
+    → 上下文: studies. In addition, the significant variation of nitrous improvement could be explored. Moreover, uncertainty analysis and oxide emission factor con
+  其他方法: 碳足迹分析
+
+（42）ScienceoftheTotalEnvironment905(2023)167327
+  年份: 2023
+  实测法: 微电极
+    → 上下文: also measured by a micro-sensor pumps. The aeration tank has fine bubble diffusers at the bottom. (Unisense Environment A/S, Denmark). Liquid and gas 
+  模型法: ASM活性污泥模型, GPS-X, SUMO, 物料平衡, 化学计量模型, 情景分析, 敏感性分析
+    → 上下文: ugh many efforts have been made to create reliable tools that can simulate “sustainable” full-scale Activated sludge modelling WWTP operation, these s
+    → 上下文: ier.com/locate/scitotenv Modelling greenhouse gas emissions from biological wastewater treatment by GPS-X: The full-scale case study of Corleone (Ital
+    → 上下文: et al., 2017). Aeration is also the largest energy- and energy savings of WWTPs. They modified the Sumo4N model with consuming unit in WWTPs (Rosso et
+    → 上下文: empirical models, AOB denitrification contribution to N2O emissions is negligible. Solís simplistic mass balance models, and dynamic mechanistic model
+    → 上下文: t a l E n v i r o n m e n t 905(2023)167327 Table 3 Table 3 (continued) ASM1 +N2O state variables, stoichiometric and kinetic model parameters. Symbol
+    → 上下文: lidated by using extensive data. •The model application was performed to optimise plant operation. •Scenario analysis on dissolved oxygen and sludge r
+    → 上下文: nts) and (cid:0) erotrophic denitrification and high nitrite (NO2) during both nitrifica- conducted sensitivity analysis before model calibration. Mak
+  其他方法: 碳足迹分析
+
+（43）ScienceoftheTotalEnvironment902(2023)166017
+  年份: 2023
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: ional Here, we provided the quantitative assessment and investigate key Greenhouse Gas Inventories (IPCC, 2006), 2019 Refinement to the 2006 drivers o
+    → 上下文: ional Here, we provided the quantitative assessment and investigate key Greenhouse Gas Inventories (IPCC, 2006), 2019 Refinement to the 2006 drivers o
+    → 上下文: cid:0)3×EF N2O× 28 (3) d⋅m3); and 1 is the global warming potential with a 100-year horizon of CO2 (IPCC, 2014). where GHGN2O is the daily N2O emissio
+    → 上下文: assess- ments of GHG emissions from WWTPs in typical regions but also lead to The activity data and emission factors (EFs) were utilized to calculate 
+  模型法: ASM活性污泥模型
+    → 上下文: 019.01.204. Procedia; City, pp. 259–264. Taka´cs, I., Vanrolleghem, P., 2006. Elemental Balances in Activated Sludge Modelling. Yerushalmi, L., Ashraf
+  统计分析: Spearman相关分析, Wilcoxon检验
+  其他方法: 碳足迹分析
+
+（44）Analysis of the Effect of the Use of Food Waste Disposers on
+  年份: 2023
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: generated in the water and sludge treatment processes. In the water treatmentprocess,accordingtotheIPCCguidelines(2006,Tier1)[33],CO emittedfrom 2 was
+    → 上下文: 5) (mg-BOD/L) Qin Volume of influent (m3) Qout Volume of effluent (m3) Qsl Volume of sludge (m3) EF Emission factor (kg CH4/kg-BOD) 0.48 R Methane rec
+
+（45）JournalofWaterProcessEngineering56(2023)104476
+  年份: 2023
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: research project was undertaken to develop a data-driven China [22] which is currently based on the IPCC 2006 guidelines (revised in 2019) approach ai
+    → 上下文: research project was undertaken to develop a data-driven China [22] which is currently based on the IPCC 2006 guidelines (revised in 2019) approach ai
+    → 上下文: y affect the ac- Percentage of renewable 18.7 % curacy of the inventory. energy used in electricity Local emission factor for 0.5432 kg CO2e/ power ge
+    → 上下文: tory software, have been contribute indirectly to the carbon footprints of the plants [9,10]. These developed [17–19]. Inconsistent definitions of mit
+    → 上下文: urnal homepage: www.elsevier.com/locate/jwpe Comprehensive analysis of greenhouse gas emissions and emission factors in a Korean domestic wastewater t
+  实测法: Off-gas法
+    → 上下文: to estimate the direct GHG emissions from the “D” WWTP. This method involves on-site collection of off-gas for 2.4.2. GHG indirect (GHGIND) emission f
+  模型法: LCA生命周期评价, SimaPro, ASM活性污泥模型, GPS-X, ADM厌氧消化模型, 情景分析
+    → 上下文: wing change. The primary objective was to gain insights into the mechanisms the procedural rules of life cycle assessment (LCA). The GHG emissions fro
+    → 上下文: ons, several software programs such Additionally, energy consumption and chemical usage in WWTPs as SimaPro, BioWin, Gabi, and IPCC inventory software
+    → 上下文: m designed specifically for sewage treatment Total HRT 10.74 h treatment, based on IWA's ASM No.2d (Activated Sludge Model No.2d) MLSS 2467 mg/L Total
+    → 上下文: commercial sewage Anaerobic Influent 3971 m3/d treatment process simulation programs like MassFlow, GPS-X, and Bio- digestion VS loading 2.42 kg/m3/d 
+    → 上下文: sed on IWA's ASM No.2d (Activated Sludge Model No.2d) MLSS 2467 mg/L Total SRT 11.9 d and ADM No.1 (Anaerobic Digestion Model No.1) [36,37]. ASM No. 2
+    → 上下文: K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476 scenario-based analysis applicable for developing 
+  其他方法: 文献综述, 碳足迹分析
+
+（46）Experimental and statistical modeling of the effect of process modification and
+  年份: 2023
+  排放因子法: IPCC 2014
+    → 上下文: ation (1) presents the calculation of in situ GHG emissions. It has been derived based 2 4 2 on the IPCC approach (IPCC 2014). In Equation (1), global
+  实测法: 密闭室法/通量室法
+    → 上下文: n in a municipalplant.ThisstudyconfirmsstatisticalanalysiswithinsitumonitoringofGHGemissionsusingtheclosedchamber method.Huangetal.(2023)haveusedtheco
+  模型法: 蒙特卡洛模拟, 敏感性分析, 不确定性分析, 回归分析
+    → 上下文: d the reduction in GHG emissions, and the effects of design and operational conditions on GHG using Monte Carlo simulation. In this study, ANOVA, corr
+    → 上下文: 319 Figure3| Schematicrepresentationofthemodel. 2.3.Statisticalanalysisanddefinitionofcorrelation A sensitivity analysis has been done for all dataset
+    → 上下文: initionofcorrelation A sensitivity analysis has been done for all datasets and these parameters. An uncertainty analysis has been performed before sta
+    → 上下文: order to understand the effect of independent variables on the dependent variable, linear multiple regression analysis was applied. The outputs have b
+  统计分析: Pearson相关分析, ANOVA方差分析, Shapiro-Wilk检验, Tukey事后检验, 主成分分析PCA, 聚类分析
+  应用目的: aimedtodeterminetheeffectofdesignconditionsandwastewatercharacterizationongreenhousegas(GHG)emissionsfroman
+industrial wastewatertreatment plant. Analysis of variance, correlation analyses, heat-mappi
+
+（48）International Journal of
+  年份: 
+  排放因子法: 排放因子法
+    → 上下文: (t/y), land W is the amount of dry sludge in land application (t/y), 0.604 t CO /MWh is the land 2 emission factor of electricity consumption of the B
+  其他方法: 碳足迹分析
+
+（49）Evaluating the Operation of a Full-Scale Sequencing Batch
+  年份: 2045
+  排放因子法: 排放因子法
+    → 上下文: measured the emissions of N O and 2 CH in three full-scale LTPs in China and estimated a total N O emission factor equal to 4emissions arising from th
+  其他方法: 碳足迹分析
+
+（4）Estimation of greenhouse gas (GHG) emissions from natural
+  年份: 2020
+  排放因子法: IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: on coefficient (MCF) The factor for non-consumed protein disposed in used will be 0.8 (according to IPCC 2019 wastewater (F ) will be 1.06. NON-COM gu
+    → 上下文: ure of the water becomes inadequate for the living microorganisms, the photosynthesis cycle breaks down, therefore less oxygen, the reduction becomes 
+    → 上下文: wastewater is 0.6 Kg CH /Kg 4 4 screen, an electromagnetic flow meter, and a venturi BOD. channel; Emission factor of CH will be: 4 Two flow distribut
+  应用目的: This study was able to identify and estimate the amount of methane
+
+（50）JournalofCleanerProduction429(2023)139562
+  年份: 2023
+  排放因子法: 排放因子法
+    → 上下文: electricity usage and chemical dosing were regarded as indirect GHG ⎢ ⎢ ⎢C = C G’ as×M×P emissions. Emission factors of electricity usage were 0.7921–
+  实测法: 密闭室法/通量室法
+    → 上下文: ions in full-scale WWTPs under different operational Air-water fluxes were measured on-site using a floating chamber on loads. Thus, there is still a 
+  模型法: LCA生命周期评价, SimaPro, 人工神经网络ANN, 结构方程模型SEM, 情景分析, 不确定性分析
+    → 上下文: t and indirect GHG Water-energy nexus emissions was established based on the water-energy nexus and life cycle assessment (LCA). Results showed that F
+    → 上下文: water quality parameters, electricity usage and chemical Life cycle GHG emissions were performed by SimaPro® (v.9.3.0.3) dosing. The stepwise multiple
+    → 上下文: t low C/N ratios produced through power-to-fuel integration with biogas facilities? Renewable using artificial neural network. Water Res. 189. Sustain
+    → 上下文: al parameters and their calculation of the WWTP are shown in Table S6. 2.3. Life cycle assessment A structural equation model (SEM) revealed the relat
+    → 上下文: rations, ppm⋅s(cid:0) 1; F1 is a conversion factor from ppm to wich et al., 2015). In addition, for scenario analysis, the emission factors mg⋅m(cid:0
+    → 上下文: ssment process, evaluation parameters at each detection methods can be found in Table S2. phase and uncertainty analysis of carbon footprint were show
+  统计分析: t检验
+  其他方法: 碳足迹分析
+
+（51）pubs.acs.org/est Article
+  年份: 2023
+  排放因子法: IPCC 2006, IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: sinMexico:On- Atmospheric Chemistry and Physics : From Air Pollution to Climate SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019, Change; Joh
+    → 上下文: sinMexico:On- Atmospheric Chemistry and Physics : From Air Pollution to Climate SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019, Change; Joh
+    → 上下文: ts were greater than the upper limit of IPCC- thecurrentUSEPAinventory(verticaldottedblackline)areshown. recommended EFs for the dominant US treatment
+    → 上下文: rindifferentcountries. (∼15%) of global non-CO GHG emissions, behind only the 2 Previously measured emission factors (EFs), which are often agricultur
+  实测法: 开路法, 移动测量, 遥感, 激光分析
+    → 上下文: ustioninterference Most early quantification efforts of WWTP emissions were measured using a custom open-path, quantum cascade utilized bottom-up gas 
+    → 上下文: reated,nationally.We employedBayesianinferenceto quantifyfacility- 6202 integratedemissionrateswithamobilelaboratoryapproach(1165cross- plume transect
+    → 上下文: l. (21) Gal̊falk, M.; Pal̊edal, S. N.; Sehlén, R.; Bastviken, D. Ground- 2016, 50, 2487−2497. Based Remote Sensing of CH4 and N2O Fluxes from a Wastew
+    → 上下文: using a custom open-path, quantum cascade utilized bottom-up gas and water sampling.8,10 Bottom-up, laser-based sensor operating at 10 Hz.33,34 The us
+  模型法: 蒙特卡洛模拟, 高斯扩散模型, 回归分析
+    → 上下文: no VINU snoitpo BOD 5 )−1; 10th/90th percentiles; mean 5 5.7 × 10−2 g CH 4 (g BOD 5 )−1]. 4 Using a Monte Carlo-based scaling of measured emission fac
+    → 上下文: h emissions are needed. KEYWORDS: methane, wastewater treatment plant, mobile measurements, inverse Gaussian dispersion model, wastewater treatment em
+    → 上下文: ons(currently1.8%).Analternative 4 emissions into a combined sector-wide emission. approach using a regression analysis between measured and Figure 3 
+  统计分析: Mann-Whitney U检验
+  其他方法: 同位素示踪
+
+（52）JournalofWaterProcessEngineering54(2023)103935
+  年份: 2023
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: el for European research (almost 4:1 compared to 1.23:1). This can be partially countries [28]. The developed model could serve as an efficient tool i
+    → 上下文: ludge reactors Symbols bCOD biodegradable COD Abbreviations eD energy demand AE Aeration Energy EFe emission factor of N2O from the treated wastewater
+  模型法: ASM活性污泥模型, 机器学习, 人工神经网络ANN
+    → 上下文: rchi- tecture were considered. In case of NHL ANN hyperparameter, only An analytical model based on Activated Sludge Model No. 1 was models with 1 or 
+    → 上下文: urces recovery [4]. These plants consume considerable amounts of setpoint. Qambar & al Khalidy used machine learning methods to energy, estimated to b
+    → 上下文: ste water treatment plant by effluent quality, energy and greenhouse gas emissions optimization via artificial neural networks models ´ ´ Norbert-Boto
+  统计分析: 主成分分析PCA
+
+（54）pubs.acs.org/est Article
+  年份: 2023
+  排放因子法: IPCC 2006, IPCC 2014, 排放因子法
+    → 上下文: e: Hayama, Japan, 2006. water treatmentsystems. J. Infrastruct. Syst. 2007,13, 261−270. https://www.ipcc-nggip.iges.or.jp/public/2006gl/(accessedApril
+    → 上下文: mption from 2007 to 2020; relative change I, 2021. of mean WWTPs influent concentrations; annual (2)IPCC.Climatechange2014:Mitigationofclimatechange:W
+    → 上下文: scharged into structures, and receiving water systems at the sub-watershed nearby water bodies. The emission factors (EFs) for WWTPs level (1990−2025)
+  模型法: 系统动力学, CGE模型, 情景分析, 敏感性分析
+    → 上下文: rg/est Article Figure 1. Conceptual integration of the computable general equilibrium (CGE) and the System Dynamics and Water Environmental Model (SyD
+    → 上下文: ersystems,havenot yet been integrated due to the lack of modeling tools. Here, we erahs updated the computable general equilibrium-based System 83:14:
+    → 上下文: data of these two WWTPs were used for and water quality to each engineering technology are further scenario analysis to evaluate the impact of upgrade
+    → 上下文: ease in COD and TN removal rate of the Cr WWTPs, GHG emissions increased only by 0−0.9% and 0− 4.1. Sensitivity Analysis. Sensitivities of imported 0.
+
+（55）JournalofEnvironmentalManagement350(2024)119640
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: d basic data of emission sources, the lack of STPs. The emission factor (EF) method proposed by the IPCC (IPCC, 2006, such data for actual STPs in Chi
+    → 上下文: enhouse Gas Inventories. Switzerland. https://www https://doi.org/10.1016/j.scitotenv.2021.149676. .ipcc-nggip.iges.or.jp/public/2019rf/index.html. (A
+    → 上下文: CO2 emissions of based on the field-measured basic data of emission sources, the lack of STPs. The emission factor (EF) method proposed by the IPCC (I
+  模型法: LCA生命周期评价, 碳平衡, 情景分析
+    → 上下文: bon footprint method is recovery plants. However, existing accounting methods for sewage based on a life cycle assessment (LCA) approach, which evalua
+    → 上下文: n processes are crucial for achieving carbon neutralization during the operation of the sewage 4.1. Carbon balance analysis of sewage treatment plant 
+    → 上下文: footprint: model application and Manag. 169, 46–57. https://doi.org/10.1016/j.jenvman.2015.12.006. scenario analysis. J. Clean. Prod. 217, 244–256. ht
+  其他方法: 碳足迹分析
+
+（56）BioresourceTechnology404(2024)130897
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: ssil CO2 emission, in the biological treatments is due to secondary activated sludge treatment. The IPCC Guidelines (2006) re- the electricity consump
+    → 上下文: f GHG emis- Wang et al., 2022). The strength of wastewater and the degree of organic sion factors. (IPCC, 2019). Meanwhile, the possibility to make wa
+    → 上下文: ed to the production of the energy required for the WWTP treatment processes. Many authors use IPCC emission factors which are operation, in the biolo
+  实测法: Off-gas法
+    → 上下文: d perspectives of aerobic based wastewater treatment plants in Italy. Water Pract. Technol. 16 (3), off-gas testing in wastewater treatment: From aera
+  模型法: 物料平衡, 情景分析
+    → 上下文: nt work has estimated greenhouse gas emissions in aerobic and anaerobic Wastewater Treatment Plants Mass balance in Southern Italy. Greenhouse gases e
+    → 上下文: and energy footprint: model application and Environ. Res 82 (4), 351–356. https://doi.org/10.2175/ scenario analysis. J. Clean. Prod. 217, 244–256. 10
+  统计分析: Mann-Whitney U检验
+  其他方法: 文献综述, 碳足迹分析
+
+（57）ScienceoftheTotalEnvironment929(2024)172598
+  年份: 2024
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: ore their emission factors were estimated for approximately 10.9 MMT CO2-eq/year, which doubled the IPCC 2019 these two accounting methods. The differ
+    → 上下文: es the largest in total CH4 and N2O emissions, with an average fraction of over 80 % and over 90 %, Emission factor respectively. This can be attribut
+  实测法: 遥感, Off-gas法, 在线监测
+    → 上下文: for more accurate emission accounting of WWTPs. 1. Introduction rates by combining the ground-based remote sensing approach with a controlled release 
+    → 上下文: nhouse gases integrated measurements, where emissions from the whole plant are measured through the off-gas pipelines Wastewater treatment of the encl
+    → 上下文: solids (SS), pH, water 3. Results and discussion flow and water temperature were monitored via the online monitoring system positioned at the influent
+  统计分析: t检验
+  其他方法: 碳足迹分析
+
+（58）JournalofEnvironmentalManagement365(2024)121502
+  年份: 2024
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: in for bioreactor control. For this purpose, the cluster analysis method was Section S2. The model developed to control WWTP is defined in a gen- used
+    → 上下文: there have been attempts to extend activated sludge reactors were initially determined based on the emission factors (EF), models (ASMs) to predict li
+  实测法: 密闭室法/通量室法, 在线监测
+    → 上下文: iple outputs. The developed approach ensures high continuous way and with a resolution of 15 min. A floating chamber and operational reliability of th
+    → 上下文: made it possible to eliminate the above problems. The ML tools logical reactor) were acquired from continuous monitoring at the WWTP developed ignored
+  模型法: ASM活性污泥模型, 蒙特卡洛模拟, 机器学习, 人工神经网络ANN, LSTM, GAN生成对抗网络, 化学计量模型, 敏感性分析
+    → 上下文: anistic model for WWTP (step 2) Ludzak-Ettinger wastewater treatment system, which is often used in Activated Sludge Model No. 2d was used for the dev
+    → 上下文: WWTP’s biological waste- water treatment stage. The model was calibrated and validated based on (a) Monte Carlo predictions of kinetic parameters (100
+    → 上下文: lity in several full-scale case studies. A mechanistic model (MCM) Wastewater treatment plant and a machine learning (ML) model are combined to real t
+    → 上下文: wangbo et al. (2021) using a tions were determined. For this purpose, the 50% percentiles were Deep Neural Network method developed a model for N2O pr
+    → 上下文: sed on the effluent quality and pH to daily values. A weekly period was used to combination ASM and Long Short-Term Memory (LSTM) model, where predict
+    → 上下文: (Nourani et al., 2021), and were usually positively correlated with the organic loading (Rij =0.62 Generative Adversarial Network (Asadi and McPhedran
+    → 上下文: edure was performed for sliding time windows reduction processes of nitrogen compounds described by stoichiometric (Δt) (Fig. 1) involving period t, i
+    → 上下文: population equivalent (PE) of 125,000, was studied for the validation of the hybrid model. A global sensitivity analysis (GSA) of the MCM and a ML mod
+  统计分析: Spearman相关分析, 聚类分析
+  其他方法: 碳足迹分析
+
+（59）Source of Methanogens and Characteristics of Methane Emission
+  年份: 2061
+  实测法: 激光分析
+    → 上下文: theslidewas mountedwithadropofCitiflour(Sigma,NewYork,NY,USA).FISHimageswerecollected andrecordedbyalaserscanningconfocalmicroscope(LeicaTCSSP8,Wetzla
+  模型法: ASM活性污泥模型, 化学计量模型
+    → 上下文: and nitrogen removal (i.e., nitrifica- tion and denitrification). Part of the phosphorus removal of activated sludge model No. 2D (ASM2D) was combined
+    → 上下文: fmodelADM2[39]areasfollows: (1)theequationoftheaceticacidutilizationprocess remained unchanged, the stoichiometric coefficient corresponding to methan
+  其他方法: FISH荧光原位杂交
+
+（5）ScienceoftheTotalEnvironment747(2020)141288
+  年份: 2020
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: of N O emissions in 2 wastewater treatment plants: Comparison of emission results obtained from the IPCC Tier 1 methodology and the methodologies that
+    → 上下文: eIPCC(2006)(Tier1)with 2 inwastewatertreatmentplants(WWTP)(Eijo-Ríoetal.,2015).N O thenewupdateoftheIPCC(2019)andfourotherempiricalmethodol- 2 emissio
+    → 上下文: ith an approximate reduction of thatthemainunderestimateoftheN Oemissionisduetotheproposed 2 30–40%(IPCC,2019;MetcalfandEddyetal.,2014).Anothercauseof
+    → 上下文: 020;Kosonen butionoftheemissionfactorswithrespecttothecurvesobtainedwith et al., 2016). The highest emission factors used in this study theSnip,Chandr
+  实测法: Off-gas法, 在线监测
+    → 上下文: tropolitan emissionscalculationsataSwedishwastewatertreatmentplantbasedonwatercon- centrationsversusoff-gasconcentrations.Adv.Clim.Chang.Res.,185–191h
+    → 上下文: -termstudies.Long-termstudiesare TheuseoftheseemissionfactorsresultsinanunderestimationofN O basedoncontinuousmonitoringcampaignsoftheconcentrations 2
+
+（60）Journal of Environmental Chemical Engineering 12 (2024) 114666
+  年份: 2024
+  排放因子法: IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: ollut.231(2017)845–853. municipalwastewaterandsludgerejectwater,Sci.TotalEnviron.596-597(2017) [13] IPCC2019Wastewatertreatmentanddischarge.In:2019Ref
+    → 上下文: reactor, Chromatographic conditions: inlet temperature 110℃, furnace tem- withthespecificstructureshownintheFig.S4.Themainbodyofthe perature180℃,ECDde
+    → 上下文: nd employment [12]. Therefore, the emission reduction of medium-sized WWTPs were discussed, and the emission factor of nitrogen-containingodorousgases
+  模型法: 回归分析
+    → 上下文: nExpert8.0.6wasusedtoconduct lationshipswhichmaybeconsideredaspotentialcompetinginterests: multiple regression analysis on the data [30] in Table S1, 
+  其他方法: 碳足迹分析
+
+（61）CH4 and CO2 emissions rate of Iranian municipal wastewater
+  年份: 2024
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: National Greenhouse Gas Inventories 2006 After estimating CH and CO emissions rates using IPCC 4 2 (IPCC2006) and the United States Environmental 2006
+    → 上下文: wastewater treatment (kg BOD/year), EF is the 1294.03 Gg (16). Therefore, the determination of GHGs emission factor (kg (CH, CO)/kg BOD), and R is the
+
+（62）A Comparative Study of Carbon Emissions from Industrial and
+  年份: 1900
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: a,whichwere based on the 2006 IPCC Guidelines for National Greenhouse Gas Inventories (https:// www.ipcc-nggip.iges.or.jp/public/2006gl/index.html;acc
+    → 上下文: nddomestic)andtreatmentprocesses[4,7],whichwouldbemeaningfulto guidesustainableGHGcontrolstrategies(IPCC2019). TheIntergovernmentalPanelonClimateChang
+    → 上下文: shows the CH4 emission factor for BOD (Biochemical Oxygen De- C C mand) as 0.086 kg (CH4)/kg (BOD) (IPCC 2014); i,BOD and e,BOD indicate the influent 
+    → 上下文: ion coefficient of the CH4 emissions, taking the value of 28 (IPCC E 2014 ) [21]; BOD shows the CH4 emission factor for BOD (Biochemical Oxygen De- C 
+  统计分析: t检验
+
+（63）EcologicalInformatics81(2024)102571
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 排放因子法
+    → 上下文: work to quantify GHG emissions from UDWTTS (GHGdwts), robust country-specific GHG emission factors (IPCC, 2006). In addition, comprising the multitude
+    → 上下文: at of CO2 for a 100-year largest carbon emitter, China accounted for 31.1% of global GHG timescale (IPCC, 2019). Facing the multifaceted challenges as
+    → 上下文: d encouraged studies to establish framework to quantify GHG emissions from UDWTTS (GHGdwts), robust country-specific GHG emission factors (IPCC, 2006)
+    → 上下文: to establish framework to quantify GHG emissions from UDWTTS (GHGdwts), robust country-specific GHG emission factors (IPCC, 2006). In addition, compri
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, 人工神经网络ANN, 支持向量机SVR, 情景分析
+    → 上下文: t: perspectives from water-energy-carbon nexus. Sustain. Gallego-Schmid, A., Tarpani, R.R.Z., 2019. Life cycle assessment of wastewater treatment in d
+    → 上下文: egions. For this reason, we the pollution load of the natural environment, and thus indirectly used Monte Carlo analysis to examine the robustness of 
+    → 上下文: Tdi Gsch Dar Pged×T PG oD pP ×Pop (1) T Ga Hb Gle 2 dw ts estimates in China by the year 2025 using artificial neural networks (ANN), multiple regress
+    → 上下文: ifferent treatment processes. Chemosphere 193, 581–590. gas emissions in Turkey with deep learning, support vector machine and artificial McCarty, P.L
+    → 上下文: s emissions in China’s Estimation of greenhouse gases emission from domestic wastewater in Nepal: a scenario-based analysis applicable for developing 
+
+（64）Journal of Environmental Management 370 (2024) 122550
+  年份: 2024
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: cantly lowers the organic strength (Qu et al., 2019). electricity and materials (Hao and Liu, 2024; IPCC, 2019). Additionally, Note that the average i
+    → 上下文: a n a g e m e n t 370 (2024) 122550 mCO2-N2O—— Direct N2O emissions of the WWTP, kg CO2-eq; (t⋅km); Emission factors for medium diesel truck (10t load
+  实测法: 在线监测
+    → 上下文: sing water. The results dissolved substances from the beans, with longer soaking times resulting of continuous monitoring for a period have shown that
+  模型法: ASM活性污泥模型
+    → 上下文: opment of the People’s Republic of China Henze, M., Gujer, W., Mino, T., van Loosedrecht, M., 2006. Activated Sludge Models (MHURD), 2015. Wastewater 
+  统计分析: t检验
+  其他方法: 碳足迹分析
+
+（65）EnvironmentalScienceandEcotechnology20(2024)100341
+  年份: 2024
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: ment and change,Renew.Sustain.EnergyRev.91(2018)41e58. disposalinChina,Science72(6)(2020)30e34. [7] IPCC, AR5 Climate Change 2014: Mitigation of Clima
+    → 上下文: daframeworkto the total GHG emissions inwastewater treatments [33]. A three- obtain multi-level GHG emission factors of WWTPs. They found step procedu
+  统计分析: Tukey事后检验
+  其他方法: 同位素示踪
+
+（66）JournalofWaterProcessEngineering60(2024)105128
+  年份: 2024
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: Res. 81 (7) (2009) 715–727. Germany, China and South Africa, Appl. Energy 184 (2016) 873–881. [53] IPCC, Refinement to the 2006 IPCC Guidelines for Na
+    → 上下文: emission to the atmosphere contributes to air pollution. In addition, N2O modelling that relies on emission factors specific to treatment units [27], 
+  实测法: Off-gas法
+    → 上下文: tewater treatment [56] R. Gori, G. Bellandi, C. Caretti, Experience, progresses and perspectives of off-gas plants in the United States: a case study 
+  模型法: ASM活性污泥模型, 物料平衡, 情景分析
+    → 上下文: imation for [63] Z. Bao, S. Sun, D. Sun, Characteristics of direct CO2 emissions in four full-scale activated sludge models with the help of mass bala
+    → 上下文: d for each treatment unit. removed, measured in kilograms of GHG per kilogram of COD or N COD and N mass balance have been elaborated based on experi-
+    → 上下文: l application and Critical review of technologies for the on-site treatment of hospital wastewater: scenario analysis, J. Clean. Prod. 217 (2019) 244–
+  其他方法: 文献综述, 碳足迹分析
+
+（67）JournalofWaterProcessEngineering64(2024)105665
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: Total Environ. (2024) Acknowledgment 170325, https://doi.org/10.1016/j.scitotenv.2024.170325. [20] IPCC, 2019 Refinement to the 2006 IPCC Guidelines f
+    → 上下文: Total Environ. (2024) Acknowledgment 170325, https://doi.org/10.1016/j.scitotenv.2024.170325. [20] IPCC, 2019 Refinement to the 2006 IPCC Guidelines f
+    → 上下文: China Joint Fund for Regional Innovation and Development Panel on Climate Change, Japan, 2019. [21] IPCC, Climate Change 2014: Mitigation of Climate C
+    → 上下文: p kt gio Nn 2, Ow fh oi rc h ea a cr he l i7 te.4 r o× f diesel consumption [25]. 2.1.2. Direct GHG emission factors (EFs) The EFCH4 and EFN2O of the 
+  模型法: LCA生命周期评价
+    → 上下文: ipal wastewater treatment plants using pollutants parameter [33] H. Yang, Y. Guo, N. Fang, B. Dong, Life cycle assessment of greenhouse gas normalizin
+  其他方法: 碳足迹分析
+
+（68）JournalofEnvironmentalManagement360(2024)121206
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, IPCC默认排放因子, 本地化排放因子, 排放因子法
+    → 上下文: Change (Bartram et al., 2019). In fact, the anthropogenic greenhouse gas (GHG) emissions annually (IPCC, 2022), default Tier 1 EF (using a default fac
+    → 上下文: r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206 1997; Doorn et al., 2006; IPCC, 2014; Bartram et al., 2019; Pamukçu five enc
+    → 上下文: r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 360(2024)121206 1997; Doorn et al., 2006; IPCC, 2014; Bartram et al., 2019; Pamukçu five enc
+    → 上下文: Change (Bartram et al., 2019). In fact, the anthropogenic greenhouse gas (GHG) emissions annually (IPCC, 2022), default Tier 1 EF (using a default fac
+    → 上下文: f great significance to establish demand (COD) and total nitrogen (TN) were taken for the following country-specific and even plant-specific GHG EFs f
+    → 上下文: enhouse gas monitoring The current assessment approach is based on the product of influent load and emission factor (EF), of which the Industrial wast
+  实测法: 密闭室法/通量室法, Off-gas法, 在线监测
+    → 上下文: llel treatment lines of the same WWTP may exhibit distinct emission patterns (Chen et al., where Eenclosed was the emission flux of CH4 or N2O (mg h(c
+    → 上下文: major process units or are built underground for odor control, facilitating the direct sampling of off-gas through ventilation where Eopen was the CH4
+    → 上下文: 016. Nitrous oxide production at a fully covered wastewater treatment plant: results of a long-term online monitoring campaign. Environ. Sci. Technol.
+  模型法: 蒙特卡洛模拟, 机器学习
+    → 上下文: ny Assessment of full-scale N2O emission characteristics and testing of control concepts algorithm, Monte Carlo simulation and LCA approach in terms o
+    → 上下文: 4)121206 Appendix A. Supplementary data Khalil, M., AlSayed, A., Liu, Y., Vanrolleghem, P.A., 2023. Machine learning for modeling N2O emissions from w
+  其他方法: 碳足迹分析
+
+（69）ScienceoftheTotalEnvironment924(2024)171637
+  年份: 2024
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: in data from its online distributed control system equipped in WWTP were national total emissions (IPCC, 2019). Practically, the sources of organic ch
+    → 上下文: ons is assessed. Firstly, based on the mass balance analysis and the GHG emission source recognized emission factors, a GHG emission calculation model
+  实测法: 密闭室法/通量室法
+    → 上下文: irectly capture the for power generation and are recognized as a process of sustainable GHGs with a floating chamber and analyze the total on-site GHG
+  模型法: ASM活性污泥模型, 物料平衡, 化学计量模型
+    → 上下文: get of limiting it to 1.5 ◦C. Due to the increasingly strict national extended the ASM model to the Activated Sludge Model for Nitrogen environmental 
+    → 上下文: king wastewater bution of each source to the total GHG emissions is assessed. Firstly, based on the mass balance analysis and the GHG emission source 
+    → 上下文: 987). ASM1 pro- 2.1. Anoxic/oxic process of papermaking WWTP vides essential kinetic parameters and stoichiometric coefficients rele- vant to the micr
+
+（6）International Journal of Environmental Science and Technology
+  年份: 2020
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: y 1526 mW h/year 0.82 tCO/mW h (CEA 2014) 1251.32 2 Generator (diesel) 25,550 L/year 0.00255 tCO/L (IPCC 2006) 65.15 2 1: ACCUMULATION 2: Accumulation
+    → 上下文: r National Greenhouse walls, monitoring of the centrifuge unit for clogging, main- Gas Inventories (IPCC 2019). Direct and indirect GHG emis- taining 
+    → 上下文: d in kg BOD/year, j represents each system m[ ΔH product− ΔH reactant] or treatment pathway, EFj is emission factor, and R j is the C e = Q ×0.000278,
+  模型法: 系统动力学
+    → 上下文: have a holistic view for the sustainable development. Keywords Batch reactor · Effluent · Methane · System dynamics · Electrical energy · Human energy
+
+（70）Ecotoxicology and Environmental Safety 283 (2024) 116820
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: Group I to the Sixth Assessment treatment plants: comparison of emission results obtained from the IPCC Tier 1 Report of the Intergovernmental Panel o
+    → 上下文: .0065–0.0128kg N2O-N/kg N for nitrous oxide and 0.399–0.480g CH4/kg BOD for methane. Ac- cording to IPCC guideline 2019 refinement (Bartram et al., 20
+    → 上下文: ating conditions, and further research work is needed. Symbol Definition Unit Values Generally, the emission factor (EF) of each GHG is used to estima
+  模型法: ASM活性污泥模型, GPS-X, SUMO, 化学计量模型, 情景分析
+    → 上下文: mption of a WWTP were evaluated via computer simulation by varying the dissolved oxygen (DO), mixed Activated sludge modeling liquor recirculation (ML
+    → 上下文: nt Park, N.-B., Yun, S.-J., Jeon, E.-C., 2013. An analysis of long-term scenarios for the plants by GPS-X integrated with response surface methodology
+    → 上下文: et al., 2023). Consequently, simulation research is being actively conducted to reduce N2O produc- SUMO v.21 (Dynamita, France) was adopted for the si
+    → 上下文: 83 (2024) 116820 Fig. 1. System boundary of the WWTP and A2O test bed modeling. Table 3 Table 4 Key stoichiometric and kinetic model parameters. Kinet
+    → 上下文: of Estimation of greenhouse gases emission from domestic wastewater in Nepal: A Environment, Korea. scenario-based analysis applicable for developing 
+  其他方法: 文献综述, 碳足迹分析
+
+（71）ScienceoftheTotalEnvironment927(2024)172301
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: Chem. Lett. 16, 239–250. https://doi.org/10.1007/s10311-017-0669-4. org/10.1038/s43016-023-00795-w. IPCC, 2019. Refinement to the 2006 IPCC Guidelines
+    → 上下文: ot included in et al., 2017). In line with the policy emphasis on resource recovery, GHG emissions (IPCC, 2019, 2022). sludge was assumed to undergo i
+    → 上下文: n nario (Fig. 6). AnMBR and DHS process would reduce emissions by 0.54 between the two remained unknown. Therefore, direct CO2 emissions kgCO2eq/m3, w
+    → 上下文: was listed separately, alterations in the treatment process primarily PDWTRS. influenced the direct emission factors. And changes in the type of GHG e
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, 情景分析, 敏感性分析, 不确定性分析
+    → 上下文: wastewater treatment and reuse system (PDWTRS) and proposed possible low-carbon pathways to achieve Life cycle assessment carbon neutrality. Utilizing
+    → 上下文: f coupled with Corresponding Treatment and Reclamation (SSCTR). The the PDWTRS. Also, we introduced Monte Carlo analysis to mitigate the UTRCW system 
+    → 上下文: d from the biological treatment, where organic pollutants are converted to CH4 and CO2 through 2.4. Scenario analysis anaerobic and aerobic processes.
+    → 上下文: vided a partial list of technologies, and the indicators covered pollutant removal efficiency, 2.3. Sensitivity analysis direct CH4 and N2O emissions,
+    → 上下文: to the high pollutant concentration in the effluent of treated PDWW. While the proportion of 2.4.3. Uncertainty analysis direct emissions may be small
+  其他方法: 碳足迹分析
+
+（72）ScienceoftheTotalEnvironment924(2024)171420
+  年份: 2024
+  排放因子法: IPCC 2014, 排放因子法
+    → 上下文: bal warming potential laboratory scale OSA configuration (sequencing-batch reactor - SBR) than CO2 (IPCC, 2014). While efforts to reduce indirect emis
+    → 上下文: tor (ECD) obic and anaerobic tanks (OSA-IA configuration). Gas samples were (Agilent 8860). The N2O emission factor (EFN2O) was determined using colle
+  实测法: 微电极
+    → 上下文: U trS aA t) a nc sc wor ed ri en mg eto sC ura en dia bn yi EF (1) l . In h li io a a micro-sensor (Unisense Environment A/S, Denmark) per minute wher
+  模型法: 物料平衡, 化学计量模型
+    → 上下文: terotrophic to Boiocchi et al., 2023) and mVSS is the mass of VSS evaluated based on CAS OSA-IA the mass balance. Y Di ee cl ad Y bHH [ [g 1V /dS ]S /
+    → 上下文: OSA-IA. Table 2 CO 2,Endog=FC End•mvss [kgCO 2/d] (5) Summary of the main heterotrophic kinetic and stoichiometric parameters as the average values (±
+  其他方法: 碳足迹分析, 呼吸测量OUR
+
+（73）JournalofCleanerProduction443(2024)141134
+  年份: 2024
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: the domestic water consumption per capita in represent the GWPs of CO2, CH4 and N2O, respectively (IPCC, 2019). Shanghai will change in the future wit
+    → 上下文: G emissions (Dai et al., 2021). In this study, carbon offsets WWTPs (MWh); EFElectricity is the CO2 emission factor for electricity for sludge resourc
+  模型法: LCA生命周期评价, 蒙特卡洛模拟, 情景分析, 不确定性分析
+    → 上下文: 2023. Understanding the greenhouse gas emissions from China’s wastewater treatment plants: based on life cycle assessment While our analysis provides 
+    → 上下文: a GHG emission reduction of 0.43 Mt CO2- therefore have unavoidable uncertainties. Our study used a Monte Carlo eq can be achieved in the scenario S2,
+    → 上下文: em for the municipal WWTPs employing Shanghai as a case study. Based GHG emission reduction pathway Scenario analysis on field surveys of typical WWTP
+    → 上下文: on potential in the future. We select scenario S2 and scenario S5 with the same level of water 3.3. Uncertainty analysis conservation to explore the G
+  其他方法: 碳足迹分析
+
+（74）Multi-Objective Optimization Based on Simulation Integrated
+  年份: 
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: on time (HRT) of 17.33 h and solid retention time (SRT) of 10.94 d. The influent water quality is shown in Table S1, and the design effluent is requir
+    → 上下文: - 2 measurementmethodisnotapplicableinthesimulationandcalculationscenarios. This study combines the emission factor method with the mass balance metho
+  模型法: GPS-X, 物料平衡, 化学计量模型, 情景分析
+    → 上下文: oride(PAC),internalrefluxratio(IRR),externalrefluxratio(ERR),andsludgedischarge(SD)) weresimulatedbyGPS-Xsoftware(Hydromantics8.0.1). ItwasshownthatEC
+    → 上下文: ableinthesimulationandcalculationscenarios. This study combines the emission factor method with the mass balance method to slice the Water2024,16,995 
+    → 上下文: uality data in 2022 is collected for model calibration of the baseline scenario. Then, the relevant stoichiometric and dynamic parameters in the struc
+    → 上下文: The research framework of the multi-objective optimization. 2.2. Technological Process Modeling and Scenario Analysis Water2024,16,995 4of16 2.2.1. Co
+  应用目的: aimstoconductamulti-objectiveoptimizationofaWWTP,consideringGHGemissions,
+EQI,andOCI.Theanaerobic-anoxic-oxicintegratedmembranebioreactor(AAO-MBR)processin
+anactualWWTPwasselectedasatypicalcase,tensof
+
+（75）pubs.acs.org/est Article
+  年份: 2024
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: house Gas Inventories 2019 https:// (25)Du,W.-J.;Lu,J.-Y.;Hu,Y.-R.;Xiao,J.;Yang,C.;Wu,J.;Huang, www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/5_Volume5/
+    → 上下文: to 4 no no neighborhoodwaterconsumptionandastrongcorrelationtoinfluentCOD snoitpo VINU inputs. CH 4 emission factors monitored in six WWTPs range from
+  实测法: 密闭室法/通量室法, 开路法, Off-gas法, 在线监测
+    → 上下文: ,14 The flux generation and release, particularly in distinguishing between chambermethod,alsocalledfloatingchambermethod,iseasily the sewer system an
+    → 上下文: ontrast,themobileplatform theodorcontrolsystemaseachtreatmentstageishousedina method, also known as open-path method, enables the completely enclosed 
+    → 上下文: measured CH thoroughly assess their CH emissions to implement effective 4 4 concentrations in both off-gas and water in a WWTP. Their control strategi
+    → 上下文: ,11 ot woh Guiyang WWTP, where most CH 4 from the sewer was released at the inlet yaM well, a 24 h online monitoring revealed CH fluctuations linked t
+  统计分析: Spearman相关分析, t检验
+  应用目的: This study quantified CH 4
+
+（76）EnvironmentalResearch259(2024)119398
+  年份: 2024
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: trophic or hypoxic, the values would be 0.048 kg CH4/kg COD and 0.019 (0.0041–0.091) kg N2O–N/kg N (IPCC, 2019), respectively. wastewater treatment, s
+    → 上下文: ter (kWh/t wastewater). Electricity usage per ton of wastewater inflow and effluent wastewater, GHG emission factors during waste- was collected from 
+  模型法: LMDI分解, 回归分析
+    → 上下文: mission from city waste- for an average of 60.5%. Sludge treatment ranked second with 33.6%, water, Logarithmic Mean Divisia Index (LMDI) model was em
+    → 上下文: n/col/col1201962/index.html). A CO2 emissions of sludge are calculated. GHG emissions from the pro- regression analysis of this data indicated that th
+  其他方法: Meta分析, 碳足迹分析
+
+（77）JournalofWaterProcessEngineering61(2024)105254
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: ained from the [40] S. To¨züm Akgül, Assessment of the role of photovoltaic systems in reducing the IPCC Tier 1 methodology and the methodologies that
+    → 上下文: as footprint in sewage treatment plant (STP), in: International Conference and Utility Inventories, IPCC, Switzerland, 2019 pp 6.1–6.72, 2019. Exhibit
+    → 上下文: ted Nations Framework Convention on Climate Change) was used to ventories is one of the most common emission factor methods used to calculate emission
+  模型法: GPS-X, 人工神经网络ANN
+    → 上下文: delines, [18] investigated the carbon Table 1 footprint of Bingo¨l wastewater treatment plant using GPS-X and CCALC2 Advanced biological wastewater tr
+    → 上下文: Wastewater Treatment Plant Using Australian Government, Commonwealth, 81pp, (2014). Deep Recurrent Neural Network Methods, Atatürk University, Graduat
+  其他方法: 碳足迹分析
+
+（78）Journal of Water Process Engineering 67 (2024) 106102
+  年份: 2024
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: N2O or It can be observed that during the day (indicated by the sun sym- gas emissions (data not shown). Therefore, the effective control of bols), N2
+    → 上下文: of 17.97 ±%5.38. Analysis of N2O emissions averaged 0.012 ±0.003 mgN-N2O/m3 in this plant, and the emission factor was estimated at 3.2 % ±0.5. To the
+  实测法: Off-gas法, 微电极, 在线监测
+    → 上下文: Process Engineering journal homepage: www.elsevier.com/locate/jwpe Development and validation of an off-gas tool for oxygen transfer efficiency and N 
+    → 上下文: A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102 (Unisense, Denmark) for both liquid and gas phases 
+    → 上下文: rgy costs associated with this process [16,38]. Additionally, the off-gas tool’s ability to provide continuous monitoring data allows for better maint
+  模型法: ASM活性污泥模型, 人工神经网络ANN
+    → 上下文: H. Spanjers, B. Petersen, P. Ginestet, I. Takacs, Estimating watres.2016.04.052. (combinations of) activated sludge model no. 1 parameters and compone
+    → 上下文: . Shi, Dissolved oxygen control in activated 10.1016/j.biortech.2022.127747. sludge process using a neural network-based adaptive PID algorithm, Appli
+  统计分析: Pearson相关分析
+  其他方法: 碳足迹分析, 呼吸测量OUR
+
+（7）Int. J. Global Warming, Vol. 21, No. 1, 2020 1
+  年份: 2020
+  实测法: 密闭室法/通量室法
+    → 上下文: he indicators in order to determine the environmental performances of the WWTPs. In this study, the closed chamber (CC) method and GHG emission measur
+  应用目的: aim of this
+study is to reveal the environmental performances of the wastewater treatment
+plants. An industrial and a municipal wastewater treatment plant in Turkey
+have been compared in terms of the 
+
+（80）ScienceoftheTotalEnvironment931(2024)172821
+  年份: 2024
+  排放因子法: 自定义排放因子, 排放因子法
+    → 上下文: ical unit Physical and chemical parameters of each tank of the leachate and the entire system are shown in Fig. 3. The N2O EF of the entire treatment 
+    → 上下文: atment, intensive N2O emissions of 253.4–1270.5 kg N⋅d(cid:0)1 were measured. The corresponding N2O emission factor (EF) ranged from 8.86 to 49.6 %, m
+  实测法: 密闭室法/通量室法, 在线监测
+    → 上下文: s were adopted which is critical to mitigate N2O emissions. for emission flux determination. One is floating static chamber, which In this study, long
+    → 上下文: Xiamen city. Leachate treatment is an important anthropogenic N2O emission source that needs to be continuously monitored in densely References popula
+  统计分析: Spearman相关分析, t检验, 主成分分析PCA, 冗余分析RDA
+
+（81）Resources,Conservation&Recycling210(2024)107831
+  年份: 2024
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 自定义排放因子, 排放因子法
+    → 上下文: est)(NDRC,2013,2023).Ingeneral,wastewaterisarapidlygrowing 2000to2020basedonthemethodssuggestedbytheIPCC(IPCC,2006, sourceofmethaneemissionswithgreatp
+    → 上下文: termultipliedbythecorrespondingCH4emissionfactor(EF). vided a mass balance based accounting method (IPCC, 2006, 2019), E=EI+ED=EIt+EId+EDt+EDd (1) whe
+    → 上下文: resenting advancedtreatmentfacilitiesandstricteremissionstandards.However, a150%increase(Curry,2021;IPCC,2014).TheGlobalWarmingPo- theseregionsalsofac
+    → 上下文: reenhouse gas inventories. Compared to the normalized greenhouse gasinventorypreparationmechanismsofdevelopedcountriessuchas EDt=BODDt×EF(cid:0) R (4)
+    → 上下文: ristics of perfect decomposition, consistency of ag- 6. The emission intensity effect (EI): The CH4 emission factor of gregation,abilitytodealwithzero
+  实测法: 在线监测
+    → 上下文: thane emissions. To mitigate these issues, conducting on-site in- vestigations,implementinglong-termcontinuousmonitoringofwaste- water treatment plant
+  模型法: 物料平衡, 情景分析
+    → 上下文: Climate Change (IPCC) has pro- wastewatermultipliedbythecorrespondingCH4emissionfactor(EF). vided a mass balance based accounting method (IPCC, 2006, 
+    → 上下文: rces developedalogarithmicmeandivisorindex(LMDI)modeltorevealthedrivingforcesbehindemissionchanges. Scenarioanalysis Methaneemissionssurgedfromapproxi
+
+（82）Journal of Water Process Engineering 77 (2025) 108439
+  年份: 2025
+  排放因子法: 自定义排放因子
+    → 上下文: n control in Zunyi City. In the web of science database, contaminants concentrations of all LWTPs shown in Fig. S1. The effluent no research related t
+  模型法: LCA生命周期评价, 机器学习, 人工神经网络ANN, 系统动力学, DEA数据包络分析, 敏感性分析
+    → 上下文: reenhouse gases COD Chemical oxygen demand H2O2 Hydrogen peroxide DEA Data envelopment analysis LCA Life cycle assessment DMUs Decision-making units L
+    → 上下文: ors. For example, Jiang et al. [27] found that water reagent in the wastewater treatment process by machine learning, thus volume load rate and influe
+    → 上下文: usted LWTPs according to the water quality data, and intelligent algorithms (such as fuzzy control, neural network) were used to optimize the dosing s
+    → 上下文: . Meng, X.J. Liang, Development tendency analysis for the water resource carrying capacity based on system dynamics model and the administration. Yata
+    → 上下文: house gases emission reduction number of assessment indicators and making the assessment results of data envelopment analysis (DEA) more Sauce-flavor 
+    → 上下文: elation analysis on the selected 11 indicators were finished in this study. Herein, 2.5. Indicators sensitivity analysis method the cost comprehensive
+  统计分析: Pearson相关分析
+  其他方法: 碳足迹分析
+
+（83）Greenhouse Gas Emissions from a Full-Scale Vermifilter for
+  年份: 2040
+  实测法: 密闭室法/通量室法
+    → 上下文: tion. Thestudymonitoredtheinfluentand effluentofaVFinaruralarea. Emissionsfluxesweremeasuredusingthestaticchamber methodinfall–winterandspring–summer.
+  模型法: 物料平衡
+    → 上下文: unds,orlow 2 oxygenconcentrations[56]. 3.2. VermifilterPerformanceandMassBalance Figure 2 shows the mass balance of TOC. In the effluent, TOC is reduc
+  统计分析: Kruskal-Wallis检验, Shapiro-Wilk检验
+  应用目的: objectiveofthisstudy
+wastoevaluatetheGHGemissionsofafull-scaleVFusedforsewagetreatment,aswellas
+theeffectsofseasonalityandoperationalcondition. Thestudymonitoredtheinfluentand
+effluentofaVFinaruralare
+
+（84）Optimization of Greenhouse Gas Accounting Methods for
+  年份: 2066
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: tionAssessmentofUrbanWWTPs(T/CUWA50055-2023,GS 2023)comparedtoIntergovernmentalPanelonClimateChange(IPCC2019),thankstoits inclusionofCO fromfossilsour
+    → 上下文: currently include the measurement method, the modeling method, the carbon footprint method, and the emission factor method, each with its applicablesc
+  实测法: 在线监测
+    → 上下文: of16 (1) Measurement Method: This method obtains direct emission data through on-site airsamplingandcontinuousmonitoring,whichoffershighprecision. How
+  模型法: LCA生命周期评价
+    → 上下文: hlocalizeddata,andtheuniversalityofthismethodisrelativelypoor. (3) Carbon Footprint Method: Using a life cycle assessment framework, this method accou
+  其他方法: 碳足迹分析
+
+（85）Cite this article Research Article
+  年份: 2024
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: and operational practices, providing a real-world context for studying tem based on a review of the IPCC (2006)guidelines and guide- emissions associa
+    → 上下文: d based on the actual scenario of a specific city, which four quantification methods, including the emission factor (EF)- employs particular treatment
+  模型法: 物料平衡, 化学计量模型, 回归分析
+    → 上下文: tor (EF)- employs particular treatment types suited to its unique wastewater man- based method, the mass balance method, the predictive emissions agem
+    → 上下文: 4/g VSS calculation emissions from treatment of industrial wastewater with activated from anaerobic stoichiometric relationship. The details of the ca
+    → 上下文: ) meth- 2 2 ane emissions than Plant A (0.024 and 0.011kg of equivalent CO per m3, respectively). A regression analysis showed 2 that temperature, SRT
+
+（86）Research on Carbon Emission Accounting of Municipal
+  年份: 1987
+  排放因子法: IPCC 2006, IPCC 2019, 排放因子法
+    → 上下文: lemoreaccuratecarbon assessment[5–7].Currently,manycarbonaccountingmethodsintheliteraturearebasedon IPCC2006orIPCC2019guidelines,butsomescholarshaveid
+    → 上下文: lemoreaccuratecarbon assessment[5–7].Currently,manycarbonaccountingmethodsintheliteraturearebasedon IPCC2006orIPCC2019guidelines,butsomescholarshaveid
+    → 上下文: p1,i disinfectionunitsondayikgCO eq. m : Disinfectantconsumptionondayi,kg. EF : 2 N,i NaClO Carbon emission factor of sodium hypochlorite, 0.92 kg CO 
+  统计分析: t检验
+  其他方法: 碳足迹分析
+
+（87）Energy Consumption and Greenhouse Gas (GHG) Emissions in
+  年份: 2066
+  排放因子法: 本地化排放因子, 排放因子法
+    → 上下文: ntity of GHGs released intotheatmosphereowingtopollutant-generatingactivities[45]. Owingtothelackof local emission factors, most of the emission facto
+    → 上下文: Diesel 20.090tC/TJ [41] Diesel 20.090 tC/TJ [41] CO emissionfactor Gasoline 19.731tC/TJ [41] 2 CO2 emission factor Gasoline 19.731 tC/TJ [41] Propane 
+  实测法: 在线监测
+    → 上下文: constitutes14%,andfossilCO constituteslessthan1%oftotalon-siteGHG 4 2 emissions, based on long-term online monitoring of WWTPs. BOD removal and total 
+  统计分析: t检验
+
+（88）Archives of Environmental Protection PL ISSN 2083-4772
+  年份: 2083
+  排放因子法: IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: Kłosińska, Ewa Zaborowska, Jacek Mąkinia, Zbysław Dymaczewski Figure 1. Study framework. standards (IPCC 2019), aligning with EU requirements (EU Fugi
+    → 上下文: e other to site-specific conditions and evolving regulations, ensuring 2 tools exclude it, based on IPCC (2019) guidelines. CFCT v2014 that emissions 
+    → 上下文: calculation tools for estimating carbon footprint of wastewater treatment plants: methodologies and emission factors Paulina Szulc-Kłosińska1*, Ewa Za
+  实测法: Off-gas法
+    → 上下文: tricity, with energy demand supplemented by the data collection, sampling, laboratory analyses, and off-gas electrical grid and gas boilers. Figure 4 
+  模型法: 机器学习, 情景分析
+    → 上下文: s the potential for adaptive CF highly sensitive to EF assumptions (De Haas and Andrews tools using machine learning to calibrate EFs in real time bas
+    → 上下文: otential (GWP) values, even in advanced development of standardized calculators. The findings offer scenario analysis. valuable guidance for utility m
+  其他方法: 碳足迹分析
+
+（89）This article is licensed under CC-BY 4.0
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, 本地化排放因子, 排放因子法
+    → 上下文: tersinMexico:On- in Egypt: The Current Status and Future Prospective. Renewable SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019, Sustainable
+    → 上下文: tersinMexico:On- in Egypt: The Current Status and Future Prospective. Renewable SiteDeterminationvs.IPCCTier1Method.Sci.TotalEnviron.2019, Sustainable
+    → 上下文: nger (2024). Migrating to July29,andAugust6and24,2021.Thesedateswereselected TIER 2, which involves country-specific emission factors, and to capture 
+    → 上下文: process,oxidizing91−98%oftheCH transportedfromtheprimarysettler.Additionally,acarbondioxide 4 (CO ) emission factor of 97.4 ± 34.4 g CO m−3 was measur
+  实测法: 密闭室法/通量室法, 开路法, 遥感, 顶空平衡法
+    → 上下文: ,CH andCO emissions 4 2 and Turkey, are transitioning to higher-tier methodolo- were measured using floating chambers, and the wastewater gies.16,22,4
+    → 上下文: uming steady-state conditions, where the concentration flow of nitrogen connected to the UGGA in an open circuit. does not change over time, and mass 
+    → 上下文: l̊edal, S. N.; Sehlén, R.; Bastviken, D. Ground- Uganda. Commun.Earth Environ.2022, 3 (1),80. Based Remote Sensing of CH and NO Fluxes from a Wastewat
+    → 上下文: n the water phase of unit i, Q 0,i and Q e,i are the influent and triplicateoneachdateusingadiscreteheadspaceequilibration effluent flow rates (m3 h−1
+  模型法: LCA生命周期评价, 物料平衡, 化学计量模型, 情景分析
+    → 上下文: S, primary settler; OR, aerobic/oxic 2355. reactor; WWTP, wastewater treatment plant (19) Mölsä, K. Life Cycle Assessment of a Wastewater Treatment ■ 
+    → 上下文: ial (ORP), and water temperature. desired location on the water surface, where the gas emitted 2.5. Mass Balance. The CH and CO mass balance over 4 2 
+    → 上下文: associated with exclusively those reported for the activated sludge process, respiratory processes, stoichiometrically balanced with COD i.e. excludin
+    → 上下文: ses Emission from AerobicMethaneOxidationinMunicipalWWTPs.WaterRes.2014, DomesticWastewaterinNepal:AScenario-BasedAnalysisApplicable 66, 308−319. forD
+  统计分析: Tukey事后检验
+
+（8）ScienceoftheTotalEnvironment699(2020)134157
+  年份: 2020
+  排放因子法: IPCC 2019, 自定义排放因子, 排放因子法
+    → 上下文: and long-term monitoring cam- with open reactors operated in parallel have not yet been com- paigns(IPCC,2019).Basedonthenewvalueitcanbeexpectedthat p
+    → 上下文: ), the Canton of Zurich (AWEL), TBF + Partner AG Consulting 2 Theseparatetreatmentofrejectwaterwasshowntobeaneffi- Engineers,HolingerAG,Hunziker-Betat
+    → 上下文: eatarepresentativemea- 2015)andViikinmäkiinFinland(Kosonenetal.,2016),foundthat surement of the N O emission factor for an entire WWTP 2 N O constitut
+  实测法: 密闭室法/通量室法, Off-gas法, 微电极, 在线监测
+    → 上下文: ssions were collected with four respectiveresolutionwaschosenaccordingtothefrequencyofthe toninefluxfloatingchamberspersamplingcampaign,eachcover- gas
+    → 上下文: wastewateristreatedwithaconventionalactivatedsludgeprocess eredWWTPsweremonitoredby measuringtheN O off-gascon- onthreelanes.Duringthewinterseason,the
+    → 上下文: org/10.25678/0003H2 and https://doi.org/10.1016/j. Marques, R., Oehmen, A., Pijuan, M., 2014. Novel microelectrode-based online system for monitoring 
+    → 上下文: inpreviouslyconducted Receivedinrevisedform22August2019 monitoringcampaigns.However,onlytwoyear-longonlinemonitoringcampaignshavebeenpublished Accepte
+  其他方法: 同位素示踪
+
+（90）Journal of Environmental Chemical Engineering 13 (2025) 119135
+  年份: 2025
+  排放因子法: 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: 0± 5.591.4± 9.984.0± processes [16–18]. This underscores the pressing need for field-based, 6.95.1± country-specific EFs, particularly for industrial 
+    → 上下文: n the emissions, with an emission factor of 1.88×10(cid:0) 5 kgN2O/kgTNremoved, same industry. As shown in Table 3, CH4 EFs in paper industry WWTPs co
+    → 上下文: use gas emissions variability in industrial wastewater treatment: A plant-level study of CH and N O emission factors 4 2 Duyen Phuc-Hanh Trana,c , Da-
+  实测法: 密闭室法/通量室法, 遥感, GC-FID, GC-ECD, 在线监测
+    → 上下文: s differ substantially ciboreanA from municipal contexts. To address this gap, this study applied a closed-chamber gas sam- 3313324± 5.979.61± 3.794.0
+    → 上下文: 10.1016/j.jclepro.2015.02.032. [4] M. Gålfalk, S.N. Påledal, R. Sehl´en, D. Bastviken, Ground-based remote sensing of CH4 and N2O fluxes from a wastew
+    → 上下文: aboratory for analysis wastewater stream [18]. Obviously, the highest CH4 fluxes are found in using gas chromatography - flame ionization detector (GC
+    → 上下文: r (GC-FID) (Shi- anaerobic treatment processes such as anaerobic tank (3221 – 45, madzu, Japan) and gas chromatography - electron capture detector (GC
+    → 上下文: ouse gas emission from petrochemical wastewater treatment processes using Data availability In-situ continuous monitoring system and the associated ef
+  模型法: 蒙特卡洛模拟, 回归分析
+    → 上下文: ed to ciboreanA default EFs [15]. Furthermore, Moore and co-workers applied Bayesian inference with Monte Carlo-based approach to scale measured EFs f
+    → 上下文: n correlation coefficients and and operational layout, as shown in Figure S1–S2. The sampling dura- regression analysis. Statistical analyses were per
+  统计分析: Pearson相关分析
+  其他方法: 文献综述, 碳足迹分析
+
+（91）Environmental Research 270 (2025) 121052
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, IPCC默认排放因子, 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: al. analyzed the calculation techniques (cid:0) AnoT Anoxic Tank NO2-N Nitrite Nitrogen utilized in IPCC 2006 and IPCC 2019, as well as operational da
+    → 上下文: al. analyzed the calculation techniques (cid:0) AnoT Anoxic Tank NO2-N Nitrite Nitrogen utilized in IPCC 2006 and IPCC 2019, as well as operational da
+    → 上下文: s. The study also includes a scenario analysis to pro- warming potential 265 times higher than CO2 (IPCC et al., 2014), is a pose a GHG reduction stra
+    → 上下文: ns sumption of chemicals contribute to a smaller proportion of indirect in actual calculations. The IPCC-recommended EFCH4 stands at 0.0075 emissions,
+    → 上下文: his leads to a high percentage of CO2 production in WWTPs. In addition to power 3.6. Development of localized EFs consumption, chemicals, such as meth
+    → 上下文: on strategies of WWTPs. To accurately assess GHG emis- a tment sions, this study firstly introduced customized emission factors (EFs) to precisely eva
+    → 上下文: with China ranks among the leading emitters. In the context of China’s "dual-carbon" journey, pre- Emission factors cision quantification and predicti
+  实测法: 密闭室法/通量室法, 在线监测
+    → 上下文: thods and analytical methods The Pearson correlation coefficient (PCC) was utilized to assess the A static chamber sampling method was used to collect
+    → 上下文: These treatment. The influent and effluent concentrations of chemical oxygen + methods entail both online and offline monitoring (Wang et al., 2011a; 
+  模型法: 机器学习, 人工神经网络ANN, 随机森林RF, LSTM, 支持向量机SVR, 情景分析
+    → 上下文: he overestimation of emissions when using the IPCC’s standard EFs. Additionally, the study proposed machine learning (ML) techniques to predict GHG fl
+    → 上下文: , 2019). The 28th United Nations Climate Change Conference short-term memory (LSTM), random forest, artificial neural networks (UNCCC) in Dubai, Unite
+    → 上下文: xes based on routine wastewater quality parameters. Specifically, Long Short-Term Memory (LSTM) and Random Forest (RF) models showed the strong perfor
+    → 上下文: (ML) techniques to predict GHG fluxes based on routine wastewater quality parameters. Specifically, Long Short-Term Memory (LSTM) and Random Forest (R
+    → 上下文: ple linear regression (MLR), (Bao et al., 2016). Gas samples from the aeration zones were collected support vector regression (SVR), random forest (RF
+    → 上下文: (Wang et al., 2011a). On the other hand, N2O, with a precise predictions. The study also includes a scenario analysis to pro- warming potential 265 ti
+  统计分析: Pearson相关分析
+  其他方法: 碳足迹分析
+
+（92）Environmental Technology & Innovation 38 (2025) 104134
+  年份: 2025
+  排放因子法: IPCC 2019, 排放因子法
+    → 上下文: house gas inventories. Volume 5: Waste. Chapter 6: Wastewater Treatment and Discharge. 〈https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/5_Volume5/
+    → 上下文: T e c h n o l o g y & I n n o v a t i o n 3 8 (2025) 104134 emissions of WWTPs rely on the uniform emission factors (EFs) proposed by the Intergovernm
+  实测法: 移动测量, 遥感, GC-FID, Picarro, Off-gas法, 在线监测
+    → 上下文: , P., Torres, A., 2015. Characterizing fugitive methane emissions in the Barnett Shale area using a mobile laboratory. Environ. Sci. Technol. 49, 8139
+    → 上下文: 1007/s11356-020-11760-6. Gålfalk, M., Påledal, S.N., Sehl´en, R., Bastviken, D., 2022. Ground-based remote sensing of CH4 and N2O fluxes from a wastew
+    → 上下文: ry 5minutes and stored in 200ml bags as well. Collected gas samples were analyzed within 48hours by gas chromatography with flame ionization detector 
+    → 上下文: ber on Duct 5, and from 22nd November to 13th December on Duct 2 (both in 2023), by high-resolution cavity ring-down spectroscopy analyzer (Picarro G2
+    → 上下文: r 2023, was conducted at the total 18 emission units of the industrial WWTP. For point sources, the off gas was collected directly from ventilation du
+    → 上下文: one for area sources. The model reliability was further validated through two additional months of continuous monitoring. These findings underscored t
+  模型法: 机器学习, 高斯扩散模型
+    → 上下文: 849. https://doi.org/10.1021/acs.est.5b01981. Karimi, S., Asghari, M., Rabie, R., Niri, M.E., 2023. Machine learning-based white-box prediction and co
+    → 上下文: is one of the well-established dispersion models to simulate steady-state near-field (up to 50 km) Gaussian plume concentrations (Cimorelli et al., 20
+  统计分析: Pearson相关分析
+  其他方法: 同位素示踪
+
+（93）Minimising greenhouse gas emissions from small and medium-sized wastewater
+  年份: 2009
+  排放因子法: IPCC 2006, IPCC 2019
+    → 上下文: t 300 and as an indicator of disturbance of biological nitrification and denitrification processes (IPCC, 2006; Domingo-Felez et al., 2019). The amoun
+    → 上下文: t 300 and as an indicator of disturbance of biological nitrification and denitrification processes (IPCC, 2006; Domingo-Felez et al., 2019). The amoun
+  模型法: GPS-X, 敏感性分析
+    → 上下文: ewater treatment plant The study was carried out using computer simulation methods with the program GPS-X v.7.01. The subject of the study was a model
+    → 上下文: udge stabilization (Layout 2). In subsequent stages of the study, these systems were subjected to a sensitivity analysis with respect to the most impo
+
+（94）International Journal of Environmental Science and Technology (2025) 22:10415–10432
+  年份: 2025
+  排放因子法: IPCC 2006, IPCC 2019, IPCC 2014, 排放因子法
+    → 上下文: he integral calculation consumption and chemicals). It is important to highlight that model and the IPCC guidelines (IPCC 2006, 2019) to the formation
+    → 上下文: he integral calculation consumption and chemicals). It is important to highlight that model and the IPCC guidelines (IPCC 2006, 2019) to the formation
+    → 上下文: ment process and 4 established as a standard technology to recover some of electricity consumption (IPCC 2014). The main innovative the energy contain
+    → 上下文: was carried N as a direct emission, or as an indirect emission when the 2 out by means of empirical emission factors, based on effluent is discharged 
+  模型法: 物料平衡
+    → 上下文: e total energy needs respectively. Keywords Wastewater treatment plant · Greenhouse gas emissions · Mass balance · Energy balance · Carbon emissions a
+
+（95）pubs.acs.org/est Article
+  年份: 2025
+  排放因子法: IPCC 2019, 本地化排放因子, 自定义排放因子
+    → 上下文: from the GHG emissions inventory as proposed by benefitfrombothenergyrecoveryandVFAproduction. the IPCC 2019 approach.30 While fossil carbon exists in
+    → 上下文: ance under varying conditions. Furthermore, future influent characteristics vary significantly with local industrial refinements of the ACSR strategy 
+    → 上下文: wasdirectedtoacombinedheatandpower(CHP)unit(39% the aeration tank to calculate the mean value. As shown in electrical,45%thermalefficiency)forenergyre
+  实测法: FTIR
+    → 上下文: N Oweremeasuredeverydaybya 4 2 quality and emissions. Subsequently, the study utilized the portable Fourier transform infrared (FTIR) gas analyzer 951
+  模型法: LCA生命周期评价, SUMO, 物料平衡, 化学计量模型, 情景分析, 敏感性分析
+    → 上下文: y Shenzhen, Shenzhen 518055, China; HRT hydraulic retention time orcid.org/0000-0002-6555-1722; LCA life cycle assessment Email: wanghongcheng@hit.edu
+    → 上下文: ided in Table S32 of the g,hood hood eq 1 Supporting Information. 2.4.2.ModelCalibration.ThemodifiedSumo4Nmodelhas Q × C g,hood g,hood 384 dynamic par
+    → 上下文: ciliation framework was databasesfromfull-scaleWWTPs,particularlyconcerningCH implemented to verify mass balances across all sampling 4 and N O emissi
+    → 上下文: ation. 2.4.2.ModelCalibration.ThemodifiedSumo4Nmodelhas Q × C g,hood g,hood 384 dynamic parameters, stoichiometric parameters, and 15 M = g,hood A wat
+    → 上下文: roaches enable formance, combined with superior economic returns (NPV: + real-time optimization and scenario analysis. These techno- €34.9 M relative 
+    → 上下文: ,includingprocessmatrices,rate While direct measurements using the FTIR gas analyzer equations, and sensitivity analysis results, is provided in the w
+  统计分析: ANOVA方差分析, t检验
+
+（96）Next Energy 7 (2025) 100289
+  年份: 2025
+  排放因子法: 排放因子法
+    → 上下文: gy intensity within the WWTP (energy consumption per cubic meter of wastewater treated). The carbon emission factor of electricity is CO2eq = CH4emiss
+  其他方法: Meta分析
+
+（97）Journal of Water Process Engineering 76 (2025) 108277
+  年份: 2025
+  排放因子法: 排放因子法
+    → 上下文: s from different treatment units in the AAO process will be analyzed. The release flux, amount, and emission factors of greenhouse In this experiment,
+  实测法: GC-ECD, Off-gas法, 在线监测
+    → 上下文: ization detector (FID) (Agilent 6890 N, USA) and k is the dimensional conversion coefficient. and a gas chromatograph equipped with an electron captur
+    → 上下文: l be analyzed. The release flux, amount, and emission factors of greenhouse In this experiment, the OFF-GAS [26–28] method was used to collect gases w
+    → 上下文: search in wastewater treatment relies mainly on theoretical modeling and lab simulations, but lacks continuous full-scale field monitoring data. Exist
+  模型法: LCA生命周期评价, GPS-X, 结构方程模型SEM, 回归分析
+    → 上下文: stewater treatment plant transformation of energy sources, and increased sludge incineration [2–4]. Life Cycle Assessment (LCA) shows that the overall
+    → 上下文: , et al., Seasonal and diurnal variability of N2O emissions from biological wastewater treatment by GPS-X: the full-scale case study emissions from a 
+    → 上下文: 9 mg/m2/d, while dissolved CH₄ concentrations peaked at 0.28 mg/L in anaerobic zones. Further using structural equation modeling (SEM) and multiple li
+    → 上下文: 5 l l le ). the availability of COD [6]. Conversely, in the primary sedimentation Perform stepwise regression analysis using SPSS 26.0 to screen for s
+  统计分析: Pearson相关分析, t检验, 主成分分析PCA
+  其他方法: 碳足迹分析
+
+（98）Atmos.Chem.Phys.,25,4571–4585,2025 Researcharticle
+  年份: 2025
+  排放因子法: IPCC 2006, 排放因子法
+    → 上下文: ethod We used the methods suggested by the Intergovernmental 2.1 Siteselection PanelonClimateChange(IPCC,2006)tocalculatetheCH 4 Withrespecttothemonit
+    → 上下文: may source.Thecentralpositionoftheplantwastakenastheref- stem from significant uncertainties in the emission factors erenceorigin,andthepositionsof12e
+  实测法: 移动测量, Picarro, 在线监测
+    → 上下文: ution4.0License. Locating and quantifying CH sources within 4 a wastewater treatment plant based on mobile measurements JunyueYang1,ZhengningXu1,Zheng
+    → 上下文: ing instruments consisted of a vehicle-mounted (S)isextracteddirectlyfromtheyearbook.Theorganicmat- cavity ring-down spectrometer (CRDS) monitoring sy
+    → 上下文: le-basedmobilemonitoringcan 4 sively achieving the global target of limiting warming to perform the continuous real-time monitoring and precise 1.5°C 
+  模型法: 高斯扩散模型, 敏感性分析
+    → 上下文: bilemeasurementswereconductedwithinaWWTPcomplexinthe 4 summerandwinterof2023.Weutilizedamulti-sourceGaussianplumemodelcombinedwithageneticalgo- rithm 
+    → 上下文: e stability of the inversion ingthemethodpresentedinSect.2.4.5.Theuncertaintiesin framework through sensitivity analysis and explore the im- theemissi
+  其他方法: 同位素示踪
+
+（99）Eco-Environment&Health4(2025)100155
+  年份: 2025
+  排放因子法: 本地化排放因子, 自定义排放因子, 排放因子法
+    → 上下文: WWTPs,particularlyiniden- Synergyreduction tifyingupgradeneeds,optimizingperformance,andassessingthelocalbenchmarkplantsasreferences.Thisstudy Tiereda
+    → 上下文: tionrises,directCH4emis- sions also increase under the same effluent standards [30]. Therefore, AsshowninTableS12,theaveragetotalscorefornationalWWTPs
+    → 上下文: alculation NationalstudiesaboutGHGemissionsfromChina'sWWTPshighlight significant variability in GHG emission factors (EFs) across treatment Theformula
+  统计分析: Kruskal-Wallis检验
+
+（9）ScienceoftheTotalEnvironment800(2021)149508
+  年份: 2021
+  排放因子法: 自定义排放因子
+    → 上下文: ent800(2021)149508 1.Introduction mitigationstrategiesforGHGemissions.Typically,thesemodelshave beendevelopedusingdataavailablefromMWTPoperatingparame
+  实测法: Off-gas法
+    → 上下文: of0.05mgN O/Lwerelarger 150,and200.Overall,theGAN-createdvirtualdataaugmentationled 2 2 thanmeasuredoff-gasN Oconcentrationsfluctuatingbetween0.01 tom
+  模型法: ASM活性污泥模型, GAN生成对抗网络, 化学计量模型
+    → 上下文: ce, 4 andN OEREs(p≤0.01).Increasedhydrogensulphideandelemental Blomberg et al. (2018) developed the Activated Sludge Model3 2 sulphurcontainedintheaer
+    → 上下文: cate/scitotenv Greenhouse gas emission estimationfrommunicipal wastewaterusing a hybrid approach of generative adversarial network and data-driven mod
+    → 上下文: 24.6kg 0.76/0.58,andIA=0.91/0.96 CH4/d,andN2OERE=0–4.18kgN2O/d Blombergetal.(2018) Input:Kineticsandstoichiometric Methodology:ExtendedActivatedSludge
+

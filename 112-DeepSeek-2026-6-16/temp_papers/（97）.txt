@@ -1,0 +1,531 @@
+--- Page 1 ---
+Journal of Water Process Engineering 76 (2025) 108277
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+System assessment and multivariate analysis of greenhouse gas emission
+dynamics in Anaerobic-Anoxic-Oxic wastewater treatment systems
+Gang Zhaoa,1, E Zhengyanga,c,1, Feiyu Zhanga,c, Xinyu Wanb,*, Xi Lud,e, Yiwen Jine,
+Lei Lue, Qian Yonge, Ting Zhangd
+aHuanghuai Laboratory, Zhengzhou 450046, China
+bNational Engineering Research Center of Eco-Environment in the Yangtze River Economic Belt, China Three Gorges Corporation, Wuhan 430000, China
+cZhengzhou University, Zhengzhou 450001, China
+dShanghai Investigation, Design & Research Institute Co., Shanghai 200335, China
+eThree Gorges Smart Water Technology Co., Ltd., Shanghai 200335, China
+A R T I C L E I N F O A B S T R A C T
+Editor: Luca Fortunato Current greenhouse gas (GHG) emission research in wastewater treatment relies mainly on theoretical modeling
+and lab simulations, but lacks continuous full-scale field monitoring data. Existing methods are often overly
+Keywords: simplified and fail to consider the complex interactions governing emissions. Therefore, this study focused on a
+Wastewater-treatment plant typical wastewater treatment plant in the eastern region and used on-site monitoring combined with multivariate
+Greenhouse gas emissions
+statistical analysis methods to conduct in-depth research on the direct emissions of methane (CH4) and nitrous
+On-site monitoring
+oxide (N2O) from the Anaerobic-Anoxic-Oxic (AAO) process in different seasons. Through continuous monitoring
+Multivariable statistics
+from summer to winter, the seasonal variation characteristics of greenhouse gas emissions were described in
+Reduction of pollution and carbon emissions
+detail, and it was found that the emission fluxes of N2O and CH4 reached their peak in the aerobic tank and
+primary sedimentation tank. Aerobic tanks dominated GHG emissions (76 % of total direct carbon emissions),
+with peak N₂O flux reaching 877.9 mg/m2/d, while dissolved CH₄ concentrations peaked at 0.28 mg/L in
+anaerobic zones. Further using structural equation modeling (SEM) and multiple linear regression (MLR) anal-
+ysis, the correlation and impact pathways between multiple factors such as inlet and outlet water quality,
+temperature, and treatment effectiveness and N2O and CH4 emissions were systematically explored. The result
+revealed the direct and indirect effects of these factors on greenhouse gas emissions, achieving high accuracy
+(Adj.R2 =0.91–0.94) for CH4/N2O flux. This work establishes a transferable method to advance optimization
+strategies for balancing effluent quality and carbon footprint in municipal wastewater treatment plants.
+1. Introduction According to EPA statistics, the carbon emissions from the wastewater
+treatment industry can account for 1 % to 2 % of the total societal
+In recent years, global warming has had profound impacts across emissions [4]. In the context of dual carbon, in-depth exploration of the
+multiple dimensions, attracting extensive attention from various sectors. greenhouse gas (GHG) emission characteristics of wastewater treatment
+With the rapid development of urbanization, urban wastewater treat- plants, reducing environmental effects through collaborative sustain-
+ment systems face significant environmental pressures, such as the need able development of pollution reduction and carbon reduction. It is of
+to protect and improve water bodies and reduce pollutant emissions. great significance for collaborative sustainable development of pollution
+These systems are also closely related to the low-carbon development of reduction and carbon reduction [1].
+cities. Wastewater treatment consumes a large amount of energy and Nowadays, many studies have explored key findings and techno-
+materials, resulting in indirect CO2 emissions associated with power logical trends in GHG emissions during wastewater treatment processes.
+generation and fuel combustion [5]. Moreover, the wastewater treat- From the perspective of systems engineering, researchers comprehen-
+ment process directly emits a large amount of methane (CH4) and sively evaluated the strategies for reducing greenhouse gas emissions in
+nitrous oxide (N2O), which are potent greenhouse gases [32,33]. the wastewater treatment industry, emphasizing the importance of a
+* Corresponding author.
+1 These authors contributed equally to this work and should be considered co-first authors.
+https://doi.org/10.1016/j.jwpe.2025.108277
+Received 9 May 2025; Received in revised form 24 June 2025; Accepted 3 July 2025
+Available online 10 July 2025
+2214-7144/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+comprehensive assessment of wastewater treatment plants and sludge 2. Materials and methods
+management. They also proposed a range of control measures, including
+on-site N2O emission control, enhancement of operational efficiency, 2.1. Overview of the wastewater treatment plant
+transformation of energy sources, and increased sludge incineration
+[2–4]. Life Cycle Assessment (LCA) shows that the overall model ex- This study conducted on-site monitoring of greenhouse gas emissions
+hibits the best GHG emission control performance during the opera- from various treatment units in a wastewater treatment plant in eastern
+tional phase, with technologies for recovering energy from wastewater China from July to January of the following year. The studied WWTP has
+and sludge significantly reducing GHG emissions by 25–100 % under a design capacity of 1.6 million m3/d. During the monitoring period
+site-specific conditions [5]. These reductions are highly dependent on (July to January), the average daily flow rate was approximately 1.2
+plant scale, technology configuration, and regional factors (e.g., energy million m3/d. The water treatment process flow chart is displayed in
+mix, sludge composition), and outcomes may vary in systems with Fig. 1a, and the wastewater treatment plant uses the AAO process. The
+differing operational constraints. In addition, studies have compared the basic water quality indicators of the inlet and outlet water are shown in
+greenhouse gas emission characteristics of industrial and domestic Fig. 1b. After preliminary treatment including coarse screens, a vortex-
+wastewater treatment plants under different weather conditions, as well type grit chamber, and primary sedimentation (with an HRT of
+as the carbon emissions of sludge treatment and disposal chains through approximately 0.6 h), wastewater enters the biological stage. The bio-
+case analysis, and proposed GHG control options for sludge with logical stage consists of 8 identical tanks, each containing dedicated
+different moisture contents [4]. These studies not only provide a deep zones: a selector zone (total volume 2800 m3, HRT ~ 0.3 h), an anaer-
+understanding of the greenhouse gas emission characteristics of waste- obic zone (total volume 11,200 m3, HRT ~ 1.3 h), an anoxic zone (total
+water treatment plants, but also provide practical technologies and volume 18,800 m3, HRT ~ 2.4 h), a switch zone (total volume 11,200
+management strategies for achieving net zero carbon emissions. m3, HRT ~ 1.3 h), and an aerobic zone (total volume 56,000 m3, HRT ~
+Focusing on the actual operation on site, this study simulates the 6.7 h) equipped with fine bubble diffusers for aeration. Mixed liquor is
+process through experimental devices and monitors experimental data recycled from the end of the aerobic zone to the front ends of the
+under different working conditions [6]. There are also many other anaerobic and anoxic zones at a ratio of 50–150 %, and return activated
+studies that use on-site monitoring data from wastewater treatment sludge is pumped from the secondary clarifiers to the head of the anoxic
+plants for case analysis, such as analyzing the diurnal and seasonal zone at a ratio of 50–100 %. The secondary clarifiers provide solid-liquid
+changes in emissions [7–9], the impact of changing working conditions separation. Final effluent is disinfected using UV disinfection before
+on greenhouse gas emissions [10,11], and the greenhouse gas emissions discharge. Primary sludge from the primary sedimentation tanks and
+of different wastewater treatment processes and treatment units waste activated sludge from the secondary clarifiers are combined and
+[12–17]. The wastewater treatment plants examined by these research thickened. The thickened sludge is then stabilized in anaerobic di-
+institutes exhibit significant variations in terms of operational practices, gesters. Biogas produced from digestion is captured and utilized. The
+scale, influent water quality, and local climate conditions, among other digested sludge is dewatered and thermally dried. The dewatered and
+factors. Additionally, experimental results have demonstrated that dried sludge is ultimately incinerated.
+various operating conditions, processes, and other factors can signifi- Direct emissions, indirect emissions resulting from energy con-
+cantly influence greenhouse gas emissions [11,18–25]. Therefore, it is sumption, and indirect emissions associated with material trans-
+crucial to have a systematic and characteristic understanding of GHG portation are all significant contributors to the overall carbon footprint.
+emissions from typical wastewater treatment, as well as to identify key According to the GHG Protocol Corporate Accounting and Reporting
+impacts and driving factors. To address these limitations, this study Standard (WRI/WBCSD, 2004) [34] and ISO 14064 [35], greenhouse
+employed a distinct methodology combining continuous, full-scale, on- gas emissions are categorized into three scopes: Scope 1 (Direct emis-
+site monitoring across seasonal variations with advanced multivariate sions): Emissions from sources owned or controlled by the facility,
+statistical analysis (Structural Equation Modeling - SEM and Multiple including on-site CH4 and N2O releases from biological processes. Scope
+Linear Regression - MLR). This integrated approach offers significant 2 (Indirect energy emissions): Emissions from purchased electricity/
+advantages over previous studies: (1) it provides empirical, real-world steam consumption. Scope 3 (Other indirect emissions): Emissions from
+data reflecting actual plant dynamics under varying operational condi- upstream/downstream activities (e.g., chemical production, sludge
+tions, filling the critical gap in long-term field data; (2) it captures the transportation). This study defines its accounting boundary as Scope 1
+complex interplay of multiple environmental and operational factors (e. emissions from the AAO wastewater treatment process, including pre-
+g., water quality, temperature, removal efficiency) simultaneously; and treatment unit, biological treatment unit, and secondary sedimentation
+(3) it enables the quantification of direct and indirect pathways (via tank unit. Biogenic CO2 from microbial respiration is excluded per IPCC
+SEM) and the development of highly predictive models (via MLR) for guidelines. Thus, only CH4 and N2O are analyzed. For the CO2 produced
+GHG fluxes, moving beyond simplistic correlations or theoretical as- by respiration during the biological treatment stage, this study is
+sumptions. We contend that this methodology provides a more consistent with the United Nations Intergovernmental Panel on Climate
+comprehensive, accurate, and practically applicable understanding of Change (IPCC) and most other systems, treating it as biogenic CO2 and
+GHG emission dynamics in full-scale AAO systems than previously therefore not included in carbon emissions. Therefore, the greenhouse
+available approaches. gases generated by the wastewater treatment process discussed in this
+This study will investigate a wastewater treatment plant located in study are CH4 and N2O.
+eastern China that adopts the AAO process. Through on-site monitoring
+data, the spatial and temporal distribution and variation differences of 2.2. Monitoring methods
+GHG emissions from different treatment units in the AAO process will be
+analyzed. The release flux, amount, and emission factors of greenhouse In this experiment, the OFF-GAS [26–28] method was used to collect
+gases will be comprehensively considered, and a correlation pathway greenhouse gases escaping from the open water surface of the sewage
+with key influencing factors will be established. This will provide more plant. The specific size of the device used was a cylinder with a diameter
+reference data and a scientific basis for carbon emission accounting and of 70 cm and a height of 30 cm. When the foam floating plate with a
+carbon reduction strategy implementation of similar wastewater treat- bottom of 1 m2 was put into use, the floating body plunged into the
+ment cases in the future. water for about 1 cm and remained sealed with the water body.
+The representative sampling points selected in advance for the
+experiment are located at the rear end of the following treatment
+structures: primary sedimentation tank, biological treatment anaerobic
+2
+
+--- Page 3 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 1. (a) Process flow chart of a wastewater treatment plant in eastern China, (b) Influent and effluent water quality conditions of studies plant.
+zone, anoxic zone, aerobic zone, and secondary sedimentation tank. In the formula, F is the release flux of greenhouse gases (μg/m2/h(cid:0) 1),
+Sampling is carried out every 5 min, with a gas sample of approximately V is the volume of the sampling chamber (m3), ρ is the density of
+200 mL collected from the chamber inside the box each time, for a total greenhouse gases (g/L), dc/dtis the concentration change rate of
+of five times. The collected samples were analyzed for greenhouse gas greenhouse gases in the flux chamber (μ L/L/min(cid:0) 1), T0is the temper-
+concentration using gas chromatography in the laboratory within 12 h at ature under standard conditions (◦C), T is the temperature inside the
+room temperature. The instruments used for analyzing CH4 and N2O float chamber (◦C), P is the atmospheric pressure at the time of sampling
+concentrations in this experiment were a gas chromatograph equipped (hPa), P0 is the atmospheric pressure under standard conditions (hPa),
+with a hydrogen flame ionization detector (FID) (Agilent 6890 N, USA) and k is the dimensional conversion coefficient.
+and a gas chromatograph equipped with an electron capture detector
+(ECD) (Agilent HP Chemistation 5890, USA). 2.3.3. Release quantity
+The calculation formula for greenhouse gas emissions is:
+M=F⋅A⋅10(cid:0)6
+2.3. Calculation method (3)
+In the formula, M is the total amount of CH4 or N2O released from the
+2.3.1. Dissolved concentration
+water surface of the wastewater treatment structure (kg/d), F is the gas
+For dissolved greenhouse gases, water samples (50 mL) were
+release flux of CH4 or N2O from the water surface of the wastewater
+collected directly from different process units using a syringe and treatment structure (mg/m2/d), and A is the water surface area of the
+immediately injected into pre-evacuated 125 mL glass serum bottles pre- wastewater treatment structure (m2).
+filled with 100 % argon gas to minimize atmospheric contamination and
+preserve sample integrity [13]. Subsequently, 1 mL of 20 mM HgCl2
+2.3.4. Carbon emission factor
+solution was added as a microbial inhibitor to halt biological activity
+and prevent further production or consumption of CH₄ and N2O during prodT uh ce d de pfi en ri t kio iln go rf c mar b oo n e flm ui es ns tio Cn f Dac /t To Nr i s rth re mm oa vss d(g p) eo rf kC iH lo4 o rar mN2 oO
+e o a f in O o e e g f
+sample handling and storage [33]. Samples were vigorously shaken on a
+COD/TN, and its calculation formula is as follows:
+mechanical shaker for 10 min to facilitate the transfer of dissolved gases
+i rn ot oo t h tee h pe ea rd as tup ra ec e to, f ao cl hlo iew ve ed ab sy lia u3 i0 d- m eqi un iu lit be ie uq mui l Tib hr ea t hio ean p spe ari co ed aa st EFCH4,load= Q⋅M COCH D4 (4)
+m m g - q r . d g inf
+was then analyzed for CH4 and N2O volume fractions using gas chro-
+m dia sst oo lg vr ea dp h gy [ e2 n3 h] o. uF so el l go aw si en sg e as st a cb al li cs uh le ad ep dr o ut so inco gl s H, eth ne c 'so n lac wen at cra coti ro dn no gf EFCH4,removal= Q⋅(cid:0) CODM infC (cid:0)H4 CODeff) (5)
+re w t ry i
+to Eq. (1)[29].
+GHG Ind is th= ( fo[% rmG uH lG a,] g Gas H/ G1 d0 is0 i) ⋅ t[ hd eV⋅V cg oas n+ ce( nP tT ra(cid:0) tiP onV) o⋅K H d⋅ iV sL so] greenhou(1 se) E EF FN N2 2O O, ,l ro ea md ov= al=QM ⋅ QTN N ⋅2 (cid:0)O i Tnf (( 76 ))
+L NM infN (cid:0)2O TNeff)
+e s f lved
+gases (mg/L), d is the density of greenhouse gases at 25 degrees Celsius
+and 1 atm, Vgasis the headspace volume of the small bottle (mL), PTis In the formula, EFCH4,load and EFCH4,removalare g CH4/kg influent COD
+the local atmospheric pressure, takes 1 atm, PV is the saturated vapor and g CH4/kg COD removal, EFN2O,load and EFN2O,removal are g N2O/kg
+pressure of water, takes 0.032 atm, KH is the Henry's coefficient of influent TN and g N2O/kg TN removal, CODinf and CODeff are inlet and
+greenhouse gases, and VL is the volume of liquid in the small bottle (mL). outlet COD (mg/L), TNinf and TNeff are inlet and outlet total nitrogen
+(mg/L), MCH4 and MN2Oare CH4 and N2O release amounts (g/d),
+2.3.2. Release flux respectively.
+The calculation formula for greenhouse gas release flux is:
+Vdc T P
+F=k ⋅ ⋅ρ⋅ ⋅ (2)
+Adt T0+TP0
+3
+
+--- Page 4 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+2.4. Multivariable statistics (%).
+FN2O=7188.026+3.52⋅x1+2.21⋅x2+2.15⋅x3(cid:0) 0.59⋅x4(cid:0) 10.73⋅x5
+2.4.1. Structural equation modeling
+(cid:0) 31.58⋅x6(cid:0) 0.9⋅x7(cid:0) 2.17⋅x8(cid:0) 75.65⋅x9
+To systematically analyze the complex impact pathways of inlet and
+outlet water quality, temperature, and treatment effectiveness on (9)
+g eqre ue an tih oo nu s me og da es i( nC gH (4 Ea Mnd N T2 hO e) mem odis es li o cn os n, st th ruis ts it ou nd y u bse as es dt ru oc nt u tr ha el Among them, FN2O is the N2O release flux (μg/m2/h), and the
+l S ) . c i s s
+meanings of the other independent variables are consistent withFCH4.
+following steps:
++
+The observed variables include TN, NH4- N, COD, temperature, TN
+3. Results and discussion
+removal efficiency, and COD removal efficiency in the influent and
+effluent. The latent variables are “influent water quality” (including
+influent TN, COD, NH4+ - N), “effluent water quality” (including effluent 3.1. The spatiotemporal distribution characteristics of N2O and CH4
+rT eN m, oC vO alD e, fiN cH ie4+ n- yN ),) , n“ do p “e er na vt ii rn og mef efi nc ti ae ln fc ay c” o( ri sn ”c (lu ted min pg rT atN ra en ).d COD
+3.1.1. Dissolved N2O and release flux
+f c a n t e u
+Fig. 2shows the release flux of N2O and the average dissolved N2O
+Build a path diagram using AMOS 26.0 software and estimate pa-
+content in different AAO processing units between July and January of
+rameters using maximum likelihood method. Evaluate the fitting effect
+the following year. It can be clearly seen that the N2O release flux of each
+through model fit tests, including chi square test (x2/df <3), approxi-
+treatment unit in this wastewater treatment plant has almost consistent
+mate root mean square error (RMSEA <0.08), and comparative fit index distribution characteristics in different months, namely: aerobic tank >
+(CFI >0.90). The significance test (p <0.05) is used to screen for critical primary sedimentation tank > anoxic tank > anaerobic tank > sec-
+paths, and the model is optimized after removing no significant paths.
+ondary sedimentation tank. The concentration order of dissolved N2O in
+Output standardized path coefficients to quantify the direct/indirect different structures is: anaerobic tank >anoxic tank >aerobic tank >
+effects between variables (e.g. the direct effect coefficient of tempera- primary sedimentation tank >secondary sedimentation tank.
+ture on GHG emissions is 0.58, p <0.001). Linearity between variables,
+multivariate normality of residuals, and sufficient sample size (n =120 procT eh se r ue nle ita ss ,e fl eau cx o inf gN 2 uO i tn t ah be a ue tr o 8b 7i 7c 9ta mnk /is m 2/u dc .h Bh aig seh de r t nh a thn o pth re or
+s r h p o o . g m o e -
+observations). Path coefficients assume unidirectional causality. cess principles and the release mechanism of N₂O, it can be inferred that
+two primary mechanisms dominate in aerobic zones. On the one hand,
+2.4.2. Multiple linear regression
+there is nitrifier denitrification by ammonia-oxidizing bacteria (AOB).
+The multiple linear regression algorithm model (MLR) has been (cid:0)
+Under conditions of limited oxygen or elevated NO2 levels, AOB can
+widely used in predicting and optimizing process conditions in waste- (cid:0)
+reduce NO2 to N2O via nitric oxide (NO) as an intermediate [14,17].
+water treatment. Here, MLR was used to construct the greenhouse gas
+COD、NH4+ T twh eis nis ic no fln us eis nt te n Nt w 4+it ah do u Nr 2d Oa t ea m, w issh ii oc nh .s h Ho iw a rp ao msi mtiv oe ic ao r lore al da it nio gn b roe-
+N2O and CH4 release fluxes and influent TN , the relationship
+e H n s gh e n p -
+between temperature, effluent TN, and COD removal efficiency. Deter-
++ motes AOB activity. On the other hand, there is hydroxylamine
+mine the independent variables as TN, COD, NH4- N, temperature, TN
+(NH2OH) oxidation. Under high dissolved oxygen (DO) or transient
+removal efficiency, and COD removal efficiency for both influent and
+conditions, incomplete oxidation of NH2OH by AOB can directly release
+e (μffl g⋅u men (cid:0)t 2. hT (cid:0)h 1e Dde ap tae n sd tae nn dt av rda ir zia ab til oe ns ea lr ime iC nH at4 sa dn id eN n2 sO nr ae ll e da is fe rfl eu nx cee ss N₂O [30]. The intense aeration in our aerobic tank (DO >2 mg/L) likely
+). e m io fe
+exacerbated this pathway by enhancing NH2OH turnover. The signifi-
+and excludes multicollinearity through the variance inflation factor test. cant decrease in dissolved N₂O concentration from anaerobic to anoxic
+Linear relationships between predictors and GHG fluxes (validated by
+r 1e .8si 2d –u 1a .l 4p )l ,o at ns) d, ai bn sd ee np ce en od fe n mc ue tio cf le lir nr eo ars it( yD (u Vr Ib Fi n <-W a ft os ro an s vt aa rt ii ast bic s= z No 2n . e Ts h ( iF s ig is. s2 u) p s pu og rg te es dt s b t yh a tht eh e at ne oro xt ir co ep nh vic ir d onen mit er nifi t c (a Dt Oio n < r 0ed .2u c me gd / N L)2 O an t do
+9 l o r 5 l l le ).
+the availability of COD [6]. Conversely, in the primary sedimentation
+Perform stepwise regression analysis using SPSS 26.0 to screen for sig-
+tank, physical release of influent-derived N2O dominated due to turbu-
+nificant variables (p < 0.1). The MLR models were constructed using
+lence. This explains its high flux despite low biological activity.
+synchronized instantaneous measurements collected during the moni-
+However, there was no significant release of N2O in the anaerobic
+toring campaign. For each GHG sampling event (conducted every 5 min
+and anoxic tanks of this wastewater treatment plant. In previous related
+over a 25-minute period per site visit), concurrent water quality pa-
+NH₄+ studies, some papers have proposed that incomplete denitrification re-
+rameters (TN, COD, -N), temperature, and removal efficiencies
+actions can easily occur under low dissolved oxygen concentration
+were recorded. A total of n =120 discrete data points were obtained
+conditions, resulting in the production of a large amount of intermediate
+across all treatment units and sampling dates from July to January. The
+product N2O [7,16,30]. Even experiments have shown that the amount
+sample size (n = 120) reflects the number of synchronized measure-
+of N2O produced in anaerobic tanks under different operating conditions
+ments: 5 treatment units ×4 seasonal months ×6 sampling events per
+is higher than that in other treatment units [6]. The large production of
+month = 120 data points. This approach ensures temporal alignment
+N2O may be the reason for the rapid increase in dissolved N2O con-
+between predictor variables and GHG fluxes, capturing real-time process
+centration in the anaerobic tank after sewage enters this study, but the
+dynamics without averaging. Independent variables (e.g., influent TN,
+lack of aeration did not release it in gaseous form from the water. After
+temperature) and dependent variables (N₂O/CH₄ flux) were measured
+entering the anoxic tank, the release flux did not show a significant in-
+concurrently during each sampling interval, ensuring direct linkage
+crease compared to the anaerobic tank, but the concentration of dis-
+between operational conditions and emissions. The final model form is:
+solved N2O decreased significantly. This trend of change is consistent
+FCH4 = +(cid:0) 25 95 38 .58 ⋅3 x. 57 +5(cid:0) 241 20 .6 1. 53 ⋅1 x⋅ 6x (cid:0)1(cid:0) 161 .7 7. 14 ⋅1 x⋅ 7x +2(cid:0) 941 .. 07 9⋅x ⋅x3 8(cid:0) +1 55 4.3 53 .4⋅x 74 w dii st sh ls vo em de p 2r Oev ti oo u Ns s it nu d ai ne os xa in cd ais kb se l [i 6ev ,3e 0d t .o be due to the reduction of
+⋅x9 (8) o N 2 t n ]
+In the primary sedimentation tank, which is a non-biological treat-
+Among them, FCH4represents CH4 release flux (μg/m2/h), ment unit, the release flux of N2O is significantly higher than that in
+x1represents influent TN (mg/L), x2 represents influent COD (mg/L), x3 anaerobic and anoxic tanks. The main reason may be closely related to
+represents temperature (◦C), x4 represents influent ammonia nitrogen the concentration of N2O in the influent. After the sewage is stirred in
+(mg/L), x5 represents effluent TN (mg/L), x6 represents effluent COD the cyclone sedimentation tank during the pretreatment stage, it enters
+(mg/L), x7 represents effluent ammonia nitrogen (mg/L), x8 represents the initial sedimentation tank with a relatively open water surface, and
+TN removal efficiency (%), and x9 represents COD removal efficiency more N2O can be quickly released. Conversely, after significant release
+4
+
+--- Page 5 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 2. N₂O release flux and dissolved concentration in different treatment units.
+from the aerobic tank, no excess N2O remains in the secondary sedi- each treatment unit in the wastewater treatment plant. The seasonal
+mentation tank. Additionally, the low agitator speed results in minimal decline in N2O flux from summer to winter (Fig. S1) may result from
+disturbance and smooth water flow. Therefore, the release flux of N2O reduced microbial activity at lower temperatures (10–15 ◦C), slowing
+reaches its lowest at this point, and the concentration of dissolved N2O AOB metabolism and nitrification rates. Although some studies report
+(cid:0)
+also decreases to its lowest. winter N2O increases due to NO2 accumulation, this was not observed
+Fig. S1 further illustrates the percentage of monthly N2O release flux here. We attribute this discrepancy to operational differences: our plant
+to the total monitored N2O release flux in different processing units, maintained stable DO (>2 mg/L) and sludge retention time (SRT =15
+(cid:0)
+indicating its variation over time. It should be noted that, as previously d), minimizing NO2 buildup. Thus, temperature-driven suppression of
+(cid:0)
+mentioned, the overall release flux from anaerobic tanks, anoxic tanks, AOB activity overrode potential NO2-mediated N2O production, high-
+and secondary sedimentation tanks is very low. Although their per- lighting how pathway dominance is context-dependent. Therefore, more
+centage values may fluctuate significantly, these fluctuations have relevant monitoring data is needed to comprehensively analyze and
+minimal impact on the overall process. The primary sedimentation tank determine the specific reasons for different results.
+and aerobic tank are the main N2O release treatment units. It can be
+clearly observed from Fig. S1 that the N2O release flux in most pro- 3.1.2. Dissolved CH4 and release flux
+cessing units generally shows a decreasing trend from summer to winter. Fig. 3 shows the distribution of CH4 release flux and median dis-
++
+Specifically, although the TN and NH4 levels in the inflow were rela- solved CH4 content in different treatment units between July and
+tively high after November, the main release units of N2O, namely the January of the following year. Among them, the release flux of CH4 is
+primary sedimentation tank and aerobic tank, began to show a signifi- highest in the primary sedimentation tank, then decreases to the anoxic
+cant decrease in their release flux. In December and January, almost all tank, and slightly increases after entering the aerobic tank, while there is
+N2O release processing units showed a significant decrease in N2O almost no release of CH4 in the secondary sedimentation tank. The
+release flux. In previous studies, this change was attributed to the concentration of dissolved CH4 in the primary sedimentation tank is
+weakening of microbial reactions caused by the decrease in water significantly higher than that of dissolved N2O, reaching its peak in the
+temperature and the increase in N2O solubility [9]. anaerobic tank, and gradually decreasing after entering the anoxic tank
+However, the release of N2O in winter in the AAO system was much and subsequent units.
+higher than that in summer in the experimental results of Huang's work Previous studies have suggested that the main sources of CH4 pro-
+[30]. They believed that winter would promote the production of more duction are the incoming sewage pipelines and sludge treatment pro-
+(cid:0)
+N2O due to the accumulation of NO2, and inferred from monitoring data cesses [10,31]. However, CH4 dissolved in the incoming water will be
+that there was a certain positive correlation between the accumulation released due to disturbance after entering the wastewater treatment
+(cid:0)
+of NO2 and dissolved oxygen concentration [30]. Masuda et al. [8] also plant. For example, Wang et al. [15] found that the CH4 release flux in
+(cid:0)
+found that the production of N2O increases during winter when NO2 the aeration sedimentation tank was the highest in the AAO process
+accumulates. However, most studies agree that the specific reactions wastewater treatment plant. However, the wastewater treatment plant
+that occur and the release of N2O will undergo significant changes with was covered in both the inlet pump room and the cyclone sedimentation
+specific debugging operations and water quality conditions within the tank in this study, so the released CH4 did not escape until it reached the
+system [9–11,31], and an increase in the total production of N2O does primary sedimentation tank. At the same time, there is also a tendency
+not necessarily lead to an increase in the direct release flux of N2O from for anaerobic decomposition of COD in the primary sedimentation tank
+5
+
+--- Page 6 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 3. CH₄ release flux and dissolved concentration in different treatment units.
+to produce CH4, which further increases the release flux of CH4. These 3.1.3. Release amounts and emission factors of N2O and CH4
+factors also contribute to the high concentration of dissolved CH4 in the This study takes the flux data from the second phase monitoring of a
+primary sedimentation tank. In the anaerobic tank, organic matter in the wastewater treatment plant expansion in eastern China as a represen-
+sewage continues to undergo anaerobic decomposition, resulting in the tative, and calculates the daily direct release of N2O and CH4 from the
+release of a large amount of CH4. Therefore, the CH4 release intensity in sewage liquid level in each treatment unit structure of the wastewater
+the anaerobic tank is higher than that in the other two biological treatment plant. As shown in Table S1, CH4 and N2O are concentrated in
+treatment units. In this study, the dissolved CH4 concentration in the the aerobic pool emissions, accounting for approximately 76 % of the
+anaerobic tank also reached the highest value. In the subsequent pro- total direct carbon emissions. The release amount of CH4 in the primary
+cessing unit, the higher DO content in the anoxic tank and aerobic tank is sedimentation tank is also relatively large, which is significantly
+not conducive to the production of CH4, but the aeration effect in the different from other treatment units, and the release amount is the least
+aerobic tank will significantly promote the release of CH4 [9,14]. in the secondary sedimentation tank. The release of N2O is not signifi-
+Therefore, the release of CH4 in the aerobic tank is more significant than cant in all units except the aerobic tank, and the release is the lowest in
+in the anoxic tank, and the concentration of dissolved CH4 is further the anaerobic tank.
+reduced [1]. The high CH4 release flux of anaerobic tanks is consistent It is generally believed that the emissions of CH4 and N2O come from
+with some previous research results [14,15]. However, Yan et al. [17] the conversion of C and N elements in wastewater. Fig. 4shows the daily
+agreed with the theory that CH4 is produced under anaerobic conditions, release data of two greenhouse gases and their corresponding TN and
+they found that the CH4 release flux in the aerobic tank was higher in the COD removal rates within the monitoring time range. Similar to the
+case they studied, which may be related to the design of different water trend of changes in release flux, the release of two greenhouse gases
+plant structures or different operating conditions. However, the water shows an overall decreasing trend with temperature during winter. The
+flow in the secondary sedimentation tank is less agitated and the con- removal effect of TN is significantly weakened in winter, and the release
+centration of dissolved CH4 is low, with no significant release of CH4. of N2O also decreases accordingly. However, the removal rate of COD
+Fig. S2 specifically analyzes the variation of CH4 release flux over remained very stable during the monitoring period, while the release of
+time in different processing units. It should also be noted that the CH4 CH4 showed significant fluctuations.
+release flux in the secondary sedimentation tank is extremely low, so its Fig. 5shows the results of monitoring the emission factors of CH4 and
+significant fluctuations will hardly affect the overall trend. It can be N2O over time. It can be seen that the four different emission factors
+clearly seen from the graph that the release flux of CH4 from July to have maintained an overall downward trend from summer to winter. At
+August accounted for a relatively large proportion, and the release flux the same time, the relationship factors between CH4 and N2O and
+in October generally decreased significantly. Subsequently, there were influent COD and TN were smaller than those between CH4 and COD
+slight fluctuations in the CH4 release flux within each processing unit, and TN removal within the monitoring time range, and the difference
+but it remained lower than the release flux in July and August. This between the two gradually narrowed after entering winter. This change
+consistent change indicates the overall impact of temperature on the may also be caused by a decrease in removal rate during winter.
+uniformity of each processing unit in the process flow. In previous
+studies, it has also been suggested that there is a significant correlation
+between CH4 release and water temperature, leading to seasonal vari- 3.2. Analysis of factors influencing greenhouse gas emissions
+ations similar to the results of this study [9,10,13,15].
+3.2.1. Correlation analysis
+As shown in Fig. 6, the Pearson correlation analysis plot illustrates
+6
+
+--- Page 7 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 4. Variation of greenhouse gas release and pollutant removal rate over time.
+Fig. 5. Temporal dynamics of GHG emission factors and pollutant concentrations in influent and effluent streams.
+7
+
+--- Page 8 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 6. Correlation map of water quality, temperature, operational efficiency indicators and characteristics of GHG emissions in AAO process.
++ +
+the correlation between N2O and CH4 emissions and various charac- and the inflow of NH4. This indicates that higher influent NH4 con-
+teristic influencing factors. The correlation matrix uses color depth and centrations increase N2O emissions, higher effluent TN concentrations
+circle size to represent the degree of correlation between variables, with also suggest N2O generation, while higher temperatures may inhibit
+red indicating positive correlation and blue indicating negative corre- N2O generation. The release of CH4 is positively correlated with influent
+lation. The darker the color, the stronger the correlation. It can be seen TN and influent COD, especially with influent COD. This indicates that
+that the release of N2O is significantly negatively correlated with the concentration of organic matter (expressed as COD) in the influent is
+effluent TN (close to 1), and negatively correlated with temperature. one of the important factors affecting the generation of CH4. In addition,
+There is also a certain positive correlation between the release of N2O there is a certain degree of negative correlation between the release of
+Fig. 7. Interaction path of the relationship between influent water quality, temperature, operational efficiency and GHG emissions in the wastewater treat-
+ment process.
+8
+
+--- Page 9 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+CH4 and the effluent NH4+ , which may suggest that the nitrogen removal effluent TN and N₂O (β =(cid:0) 0.32, p <0.05) indicates efficient denitri-
+process affects the generation of CH4 to some extent. The emissions of fication reduces N₂O precursors (NO₂(cid:0) /NO₃(cid:0) ). This mechanistic align-
+N2O and CH4 are influenced by multiple factors, including TN, COD, and ment confirms that statistical models capture underlying microbial
+temperature in the inflow and outflow, which are important factors processes. Overall, the results of this study emphasize the importance of
+affecting greenhouse gas emissions. temperature and operational efficiency in regulating greenhouse gas
+emissions during wastewater treatment processes. By optimizing process
+3.2.2. Structural equation modeling analysis parameters, such as improving TN removal efficiency and controlling
+This study further investigated the effects of seven factors, including reaction temperature, greenhouse gas emissions can be effectively
+TN content, COD content, temperature, and ammonia nitrogen in the reduced. Future research can further explore the dynamic changes in
+inlet and outlet water, on the release of CH4 and N2O using SEM struc- greenhouse gas emissions under different wastewater treatment condi-
+tural equation modeling. The influencing factors and correlation anal- tions, and how to minimize greenhouse gas emissions through process
+ysis results are shown in Fig. 7. The main influencing factor on the optimization.
+release of N2O and CH4 is temperature, and the total nitrogen and
+ammonia nitrogen concentrations in the effluent also reflect the changes 3.2.3. Multiple linear regression
+in the release of the two greenhouse gases. The SEM analysis, uniquely From the regression equation, it can be seen that each influencing
+enabled by our comprehensive dataset and statistical framework, factor has different effects on the dependent variable. Regarding the
+revealed intricate pathways governing GHG emissions that would be release flux of N2O, the three factors of influent TN, influent COD, and
+difficult to discern through conventional correlation analysis alone. For temperature all exert a positive influence on it. Specifically, it may
+instance, the identification of strong direct effects of temperature and provide more nitrogen sources for microorganisms as the TN content in
+effluent TN, alongside the mediating role of operational efficiency, the influent increases, thereby promoting microbial metabolic activities
+provides a mechanistic depth and holistic perspective largely missing related to N2O generation to a certain extent, leading to an increase in
+from previous field studies focused primarily on descriptive statistics or N2O release flux. A high influent COD may indicate an increase in
+isolated factors. However, the concentration of total nitrogen and organic matter that can be utilized by microorganisms in the waste-
+ammonia nitrogen in the influent has little effect on their release. In this water, which may affect the structure and function of the microbial
+study, we used SEM to investigate the effects of influent water quality community and indirectly promote an increase in N2O release. An in-
+(including total nitrogen, ammonia nitrogen, and COD), effluent water crease in temperature typically accelerates the rates of chemical re-
+quality (including total nitrogen, ammonia nitrogen, and COD), opera- actions and microbial metabolic activities, which may enhance the
+tional efficiency (including COD and TN removal rates), and tempera- likelihood of reactions associated with N2O production, thereby leading
+ture on GHG emissions (including CH4 and N2O emissions). The SEM to an increase in N2O release flux. The effluent TN, effluent COD, and
++
+analysis results revealed multiple significant pathway relationships, effluent NH4 have a negative impact on N2O release flux. A higher TN
+providing new insights into the mechanisms of greenhouse gas emissions content in the effluent may indicate that more nitrogen is removed
+in wastewater treatment processes. Firstly, there is a significant negative during the treatment process, reducing the intermediate products that
+correlation (p <0.05) between effluent TN and GHG emissions, indi- may lead to N2O generation and thus inhibiting N2O release. The
+cating that improving TN removal efficiency may help reduce green- decrease in effluent COD indicates that a large amount of organic matter
+house gas emissions. In addition, the impact of temperature on GHG is removed during the treatment process, which may alter the living
+emissions is extremely significant (p <0.001), which is consistent with environment of microorganisms and reduce the production of N2O. The
++
+previous research findings that temperature is a key environmental reduction of NH4 in effluent may also inhibit the pathway of N2O gen-
++
+factor affecting microbial metabolism and greenhouse gas production. eration associated with NH4.
+In terms of operational efficiency, there is a significant positive For CH4 release flux, influent TN, influent COD, temperature, and
+correlation (p <0.001) between COD removal rate and GHG emissions, influent NH4+ have a negative impact. A high TN content in the influent
+which may reflect the improvement of COD removal efficiency and the may enable microorganisms to utilize nitrogen more during metabolic
+enhancement of microbial activity, thereby promoting the production of processes, reducing metabolic pathways related to CH4 generation. High
+greenhouse gases. Meanwhile, the positive impact of temperature on influent COD may cause microorganisms to preferentially utilize organic
+GHG emissions (p <0.001) further emphasizes the role of temperature matter for other metabolic activities rather than producing CH4.
+in regulating greenhouse gas emissions in wastewater treatment pro- Although an increase in temperature may accelerate microbial meta-
+cesses. It is worth noting that the non-significant relationship between bolism, certain reactions that inhibit CH4 production may dominate in
+influent COD and GHG emissions (p =0.5301) suggests that the COD this system. High levels of ammonia nitrogen in the influent may alter
+level in the influent may not be the main factor affecting greenhouse gas the microbial community structure and inhibit the growth of microor-
+emissions. However, there is a highly significant positive correlation (p ganisms related to CH4 production. The effluent TN, effluent COD, and
+< 0.001) between influent COD and effluent TN, which may indicate effluent NH4+ have a positive effect on the CH4 release flux. A higher
+that organic matter in the influent has a direct impact on the concen- effluent TN may indicate that certain microbial activities related to CH4
+tration of TN in the effluent. There is a significant positive correlation (p generation have been promoted during the treatment process. High
+< 0.01) between CH4 emissions and GHG emissions among the com- effluent COD may provide more substrate for microorganisms producing
+ponents of greenhouse gas emissions, while there is no significant cor- CH4. The increase in effluent ammonia nitrogen may alter the metabolic
+relation between N2O and CH4 emissions. This indicates that under the direction of microorganisms and promote the generation of CH4.
++
+conditions of this study, CH4 emissions may be the main component of It is worth noting that, except for NH4 in the inlet and outlet water,
+greenhouse gas emissions. the correction determination coefficients Adj.R2 of various indicators
+As shown in Fig. 7, The SEM model of this study also revealed the reflect the accuracy of the regression model. From the comparison be-
+intrinsic relationship between variables, with a highly significant posi- tween the predicted and actual values in Fig. 8, the determination co-
+tive correlation (p <0.001) between influent TN and influent COD, as efficients are 0.91 and 0.94, respectively, indicating that the model has
+well as a significant positive correlation (p <0.001) between effluent high prediction accuracy. The high predictive accuracy achieved by the
++
+NH4and effluent TN. These findings provide potential targets for further MLR models underscores the capability of our multivariate statistical
+optimizing wastewater treatment processes. The SEM results further approach to capture the dominant drivers of CH₄ and N₂O fluxes in this
+validate these pathways: the strong positive effect of temperature on complex system. This level of predictability, derived directly from full-
+N₂O emissions (β = 0.58, p < 0.001) reflects its control over AOB scale operational data, is a significant advancement over estimations
+enzymatic activity. Meanwhile, the negative correlation between based solely on theoretical models or limited lab-scale simulations,
+9
+
+--- Page 10 ---
+G. Zhao et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 76 (2025) 108277
+Fig. 8. Comparison of predicted and actual values of regression equation for (a) N2O release flux and (b) CH4 release flux.
+offering a robust tool for plant managers to anticipate and potentially CRediT authorship contribution statement
+mitigate emissions. Meanwhile, through the analysis of various influ-
+encing factors and the evaluation of prediction accuracy, it can be Gang Zhao: Supervision, Methodology, Funding acquisition, Data
+considered that the regression model can reliably reflect the relationship curation. E Zhengyang: Writing – original draft, Formal analysis. Feiyu
+between various parameters and greenhouse gas emissions in the Zhang: Writing – review & editing, Writing – original draft, Method-
+wastewater treatment process to a certain extent, providing a basis for ology, Data curation. Xinyu Wan: Resources. Xi Lu: Visualization, Su-
+further research and optimization of carbon reduction pathways. pervision. Yiwen Jin: Supervision. Lei Lu: Data curation. Qian Yong:
+Supervision. Ting Zhang: Supervision.
+4. Conclusion
+Declaration of competing interest
+In terms of direct carbon emission release flux from AAO wastewater
+treatment, the aeration tank is the main release unit for CH4 and N2O,
+The authors declare that they have no known competing financial
+while the dissolved CH4 and N2O in water are higher in the anaerobic
+interests or personal relationships that could have appeared to influence
+stage, with higher release amounts in July and August of summer. In
+the work reported in this paper.
+terms of CO2 release equivalents, the release of CH4 is higher than that of
+N2O. The direct carbon emission CH4 emission factor of the wastewater
+Acknowledgments
+treatment plant in this study is 0.877 g CH4/kg COD removal, which is
+much lower than the emission factor of 0.25 kg CH4/kg COD removal of
+Research project of YANGTZE Eco-Environment Engineering
+IPCC/LGOP; The emission factor of N2O is 1.72 g N2O/kg N, which is
+Research Center, China Three Gorges Corporation (NBWL202200482);
+lower than the emission factor of IPCC/LGOP of 5 g N2O/kg N. For
+Huanghuai Lab Sci-Tech Innovation Project (240700001); Huanghuai
+specific wastewater treatment plants, it is advisable to use actual
+Lab Sci-Tech Innovation Project (240700002).
+discharge factors for accounting.
+Based on Pearson correlation coefficient regression analysis and SEM
+results, it was found that factors such as influent TN, influent COD, Appendix A. Supplementary data
+temperature, effluent TN, effluent COD, effluent ammonia nitrogen, TN
+removal rate, and COD removal rate have a significant impact on the Supplementary data to this article can be found online at https://doi.
+release of N2O and CH4. These parameters directly or indirectly affect org/10.1016/j.jwpe.2025.108277.
+the metabolic activities of microorganisms in the wastewater treatment
+process, thereby affecting greenhouse gas emissions. However, it should Data availability
+be noted that monitoring was conducted at a single full-scale AAO plant
+in eastern China. While representative of regional conditions, site- Data will be made available on request.
+specific factors (e.g., influent composition, operational protocols) may
+limit direct extrapolation to plants in vastly different climates or References
+configurations.
+[1] Pelin Yapıcıog˘lu, Minimization of greenhouse gas emissions from extended
+The established multiple linear regression model has high prediction
+aeration activated sludge process, Water Pract. Technol. 16 (1) (2021) 96–107,
+accuracy for N2O and CH4 release fluxes, with a correction determina- https://doi.org/10.2166/wpt.2020.100.
+tion coefficient Adj.R2 value close to 1. The model can fit the data well [2] Dengting Guo, Bing Li, Yu Wei, et al., A system engineering perspective for net zero
+and has high reliability. This provides a powerful tool for predicting and carbon emission in wastewater and sludge treatment industry: a review,
+Microelectron. J. 46 (2024) 369–381, https://doi.org/10.1016/j.spc.2024.02.033.
+controlling greenhouse gas emissions in AAO processes. These models [3] Ezio Ranieri, Gianfranco D’Onghia, Francesca Ranieri, et al., Performance of
+can be applied to optimize the process parameters of actual wastewater wastewater treatment plants in emission of greenhouse gases, Bioresour. Technol.
+treatment processes, thereby reducing greenhouse gas emissions and 404 (2024) 130897, https://doi.org/10.1016/j.biortech.2024.130897.
+[4] Haoran Wu, Chen Cai, Yu Lian, et al., Technology-driven carbon-neutral pathway
+improving the energy efficiency and environmental benefits of waste-
+analysis for urban wastewater treatment plants, J. Clean. Prod. 475 (2024) 143696,
+water treatment. https://doi.org/10.1016/j.jclepro.2024.143696.
+10

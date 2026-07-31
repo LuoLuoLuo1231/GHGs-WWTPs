@@ -1,0 +1,673 @@
+--- Page 1 ---
+EnvironmentalResearch214(2022)113818
+Contents lists available at ScienceDirect
+Environmental Research
+journal homepage: www.elsevier.com/locate/envres
+A comprehensive carbon footprint analysis of different wastewater
+treatment plant configurations
+Ziping Wua, Haoran Duana,b,*, Kaili Lia, Liu Yea,**
+aSchool of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia
+bAustralian Centre for Water and Environmental Biotechnology (ACWEB, Formerly AWMC), The University of Queensland, St. Lucia, QLD, 4072, Australia
+A R T I C L E I N F O A B S T R A C T
+Keywords: With the growing concern of global warming, many water utilities are pioneering in mitigating greenhouse gas
+Wastewater treatment process (GHG) emissions, with some water utilities aiming to achieve net-zero emissions operation in the next decade.
+Carbon footprint However, for wastewater treatment plants (WWTPs), the carbon footprint of different treatment technologies and
+Greenhouse gas emissions
+its contribution among various units within each treatment configuration is still unclear. This study evaluates the
+Sludge management
+impacts of process design on the carbon footprint of WWTPs through the analysis of scope 1 (direct emission),
+Carbon neutrality
+scope 2 (indirect emission), and scope 3 (value chain emission) emissions. The comprehensive configuration
+design in this work considered three nutrient removal processes including typical aerobic and anaerobic
+wastewater treatment technologies. Emissions from the sludge management processes are also calculated,
+including aerobic and anaerobic sludge stabilization processes, short-term and long-term sludge storage, and
+three sludge disposal options. In total, 45 processes were analysed and the results were compared. The results
+showed the carbon footprints are highly dependent on the treatment configurations of WWTPs. Analysis sug-
+gested scope 2 & 3 emissions can be reduced by selecting suitable processes. In general, anaerobic wastewater
+and sludge stabilization technologies are more suitable than aerobic technologies to reduce scope 2 & 3 emis-
+sions, leading to a lower overall carbon footprint. In comparison, configuration design offers limited opportu-
+nities to reduce scope 1 emissions, which may be the future challenge for WWTP to achieve carbon neutrality.
+anaerobic conditions occur such as anaerobic wastewater and sludge
+treatment (Daelman et al., 2012). The N2O and CH4 have a global
+1. Introduction
+warming potential (GWP) of 265 and 28 CO2-eq, respectively (IPCC,
+2013). Even a small amount of N2O and CH4 emissions still contribute
+The main driver of climate change is the increased greenhouse gas
+significantly to the carbon footprint of a WWTP. De Haas and Hartley
+(GHG) in the atmosphere (IPCC, 2022). With the growing concern of
+(2004) estimated that 1% of nitrogen loading converted to N2O could
+global warming, many countries are committed to achieving carbon
+increase the total carbon footprint of WWTP by 30%. Scope 2 emissions
+neutrality by 2050. Wastewater treatment plant (WWTP) is one of the
+are the indirect GHG emissions from energy consumption, e.g., mixing,
+largest GHG emitters (Pan et al., 2016b; Zhao et al., 2019). Many water
+aerating, pumping, dewatering, and transporting of wastewater and
+utilities are pioneering in mitigating GHG emissions, with some aiming
+sludge (Sotos, 2015). Scope 3 emissions are the GHG emissions from the
+to achieve net-zero emissions operation in the next decades. The carbon
+assets not owned or controlled by the reporting organization, e.g., GHG
+footprint of WWTP can be categorized into three components: scope 1
+emissions from off-site sludge disposal (Bhatia et al., 2011).
+emissions (direct emissions), scope 2 emissions (indirect emissions), and
+The wastewater treatment process mainly involves biological
+scope 3 emissions (value chain emissions). Scope 1 emissions refer to
+nutrient removal from wastewater and the by-product sludge treatment.
+direct GHG emissions from wastewater treatment-related activities.
+The biological nutrient removal can be achieved by anaerobic or aerobic
+Specifically, it is N2O and CH4 produced during wastewater and sludge
+treatment technologies. Typical aerobic technologies including Modi-
+treatment. N2O is mainly emitted from biological nitrogen removal
+fied Ludzak-Ettinger (MLE), Anoxic/Aerobic (A/O) and membrane
+(BNR) processes during wastewater treatment. Unlike N2O, CH4 is
+bioreactor (MBR) can remove carbon and nitrogen from wastewater
+usually formed in the sewer system and parts of the WWTP where
+* Corresponding author. School of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia.
+** Corresponding author.
+E-mail addresses: h.duan@uq.edu.au (H. Duan), l.ye@uq.edu.au (L. Ye).
+https://doi.org/10.1016/j.envres.2022.113818
+Received 26 January 2022; Received in revised form 30 May 2022; Accepted 30 June 2022
+Availableonline14July2022
+0013-9351/CrownCopyright©2022PublishedbyElsevierInc.Allrightsreserved.
+
+--- Page 2 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+carbon footprint of different wastewater treatment configurations.
+Nomenclature Firstly, many potentially important sources of GHG emissions, particu-
+larly in sludge handling processes, were not considered in previous an-
+GHG Greenhouse gas alyses. For examples, in sludge stabilization, most analyses only
+WWTPs Wastewater treatment plants considered anaerobic stabilization, while the GHG emissions from aer-
+BNR Biological nitrogen removal obic stabilization have been largely ignored (Daelman et al., 2012; Piao
+GWP Global warming potential et al., 2016; Rodriguez-Garcia et al., 2014). However, experiments
+A2/O Anaerobic/Anoxic/Aerobic suggested AeD could be a significant source of GHG emissions in WWTPs
+MLE Modified Ludzak-Ettinger (Duan et al., 2019; Pan et al., 2016c). Similarly, sludge storage pro-
+UASB Upflow anaerobic sludge blanket cesses, including sludge drying and short-term storage (STS) were not
+AD Anaerobic digestion included in previous carbon footprint analyses, while both were shown
+AeD Aerobic digestion with significant potential for CH4 emissions (Daelman et al., 2012; Pan
+LTD Long-term drying et al., 2016a). Despite suggested by experiments with significant GHG
+STS Short-term storage emission potentials, their emission contributions and importance to
+DM Dry matter overall WWTP carbon footprint remain unclear. Secondly, Piao et al.
+A/O Anoxic/Aerobic (2016) showed that when AD is applied for sludge treatment, GHG
+MBR Membrane bioreactor emissions from sludge treatment process increase with the increase of
+EGSB Expanded granular sludge blanket sludge quantity. A 59% increase in sludge production from wastewater
+EBPR Enhanced biological phosphorus removal treatment could increase the direct GHG emissions from sludge treat-
+ment processes by 30%. Various wastewater treatment technologies
+could lead to different amounts of sludge production (e.g., aerobic
+technologies produce 3–4 times of sludge than anaerobic counterpart)
+(Metcalf and Eddy, 2013). Anaerobic treatment technologies such as (McCarty et al., 2011), which may significantly impact the GHG emis-
+upflow anaerobic sludge blanket (UASB) and expanded granular sludge sions from the downstream sludge treatment processes. These un-
+blanket (EGSB) remove carbon, and can be coupled with post aerobic certainties underpin the importance of analysing the carbon footprint of
+treatment to achieve carbon and nitrogen removal (Chernicharo, 2006). wastewater treatment configurations as a whole.
+The phosphate removal for these above technologies requires additional This study systematically evaluates the impacts of different WWTP
+chemical dosing, such as ferric iron, ferrous iron, aluminium, and cal- configurations, including various technologies/units used in wastewater
+cium (Metcalf and Eddy, 2013). Alternatively, Bardenpho, enhanced treatment, sludge handling and sludge disposal, on the total and specific
+biological phosphorus removal (EBPR), etc. Could be applied for the carbon footprint of WWTPs. It aims to fill the knowledge gap in un-
+biological phosphate and nitrogen removal in WWTP (Metcalf and Eddy, derstanding the carbon footprint of different WWTP configurations and
+2013). Wastewater treatment generates a large amount of sludge. Sludge the contributions from specific processes. The carbon footprint of
+management at WWTP includes sludge thickening, stabilization, dew- different wastewater treatment configurations was analysed via a sta-
+atering, drying, and disposal. Sludge stabilization is practiced in most tistical model with a comprehensive scenario design based on the
+WWTP to reduce pathogens and unpleasant odours as well as inhibit, literature values and reasonable assumptions. The design involves a
+reduce, or eliminate the potential for putrefaction. Anaerobic digestion total combination of 45 processes, comprising 3 different processes on
+(AD) and aerobic digestion (AeD) are commonly applied stabilization wastewater treatment, 2 on sludge stabilization, 2 on sludge drying, and
+technologies (Duan et al., 2019; Metcalf and Eddy, 2013; Shammas and 3 on sludge proposal. The importance and sources of scope 1, 2, and 3
+Wang, 2007). AD reduces sludge volume, provides stabilization, and emissions in overall carbon footprint were also analysed.
+generates methane for energy recovery. It has been widely adopted in
+large WWTPs. In comparison, AeD is more applied in small WWTPs due 2. Methodology
+to its low capital cost, suitability for small amounts of less degradable
+sludge, and simple operation (Duan et al., 2019). Stabilized sludge will 2.1. System boundary
+be stored in WWTPs before final disposal. Depending on the size of
+WWTPs, the storage period is normally between 1 and 5 days (Daelman In this work, the system boundary for GHG emissions calculation is
+et al., 2012). In some WWTPs, long-term sludge drying (LTD) is used for illustrated in Fig. 1. Direct GHG emissions (scope 1) including the dis-
+further drying (by solar and wind) and digestion before final disposal solved methane in raw wastewater, generation from the wastewater
+(Pan et al., 2016c). Sludge disposal is commonly achieved by com- treatment, and on-side sludge treatment (e.g., stabilization, drying, and
+posting, landfills, agriculture/land reuse, incineration, and other pro- storage) was indicated in boxes with red line. Indirect GHG emissions by
+cesses (e.g., ponds, industrial reuse) (Metcalf and Eddy, 2013). energy consumption (e.g., chemical dosing, pumping, aeration system)
+Studies have been conducted to analyse the GHG emissions from and energy production by generated biogas from the anaerobic treat-
+different wastewater/sludge treatment technologies with various focus ment system to offset energy consumption, were also within the
+on part of the wastewater treatment configurations whereas not on the boundary (indicated in boxes with blue line). Scope 3 GHG emissions (in
+whole configurations (Ab Hamid et al., 2020; Liao et al., 2020; Lopes green boxes), including off-site sludge disposal processes (Landfill,
+et al., 2020; Paulu et al., 2021). Previous studies have suggested that incineration, composting and agriculture usage) were considered as
+different wastewater treatment technologies could result in different well. In addition, it was assumed that all the electricity was generated
+levels of direct GHG emissions and various extent of energy consumption with coal, with the GHG intensity of 843–1171 g CO2-eq/kWh-el (Lenzen,
+and sludge production (Cakir and Stenstrom, 2005; Foley et al., 2010; 2008).
+Piao et al., 2016; Rahman et al., 2016; Vidal et al., 2002; Yoshida et al., All the other sources of GHG emissions (e.g. GHG emissions from
+2014). For example, Piao et al. (2016) reported that the carbon footprint receiving water body and sewer collection, biogenic CO2 emissions) and
+of wastewater treatment processes would increase by 20% by adopted energy consumption or generation (e.g. energy production from sludge
+MLE, compared to the WWTP with A2/O. Moreover, the direct GHG disposal, energy consumption for sludge transportation) were out of
+emissions could increase 105% by adopting aerobic wastewater treat- scope (illustrated in blocks in dash line in Fig. 1).
+ment, compared to anaerobic wastewater treatment (Cakir and Sten-
+strom, 2005).
+However, there are still uncertainties for WWTPs to understand the
+2
+
+--- Page 3 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+Fig. 1. Analytical system boundary for GHG emissions from WWTPs.
+2.2. Scenario design investigate the GHG emissions from different wastewater and sludge
+treatment configurations (Fig. 2). Three different nutrient removal
+A comprehensive process design was performed in this study to wastewater treatment configurations were selected for wastewater
+Fig. 2. Illustration of designed wastewater treatment system configurations. *Some configurations were designed for comparison and sludge treatment processes
+after thickening were skipped.
+3
+
+--- Page 4 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+treatment. Primary treatment, followed by MLE was selected as the (cid:0)
+typical aerobic wastewater treatment configuration for this study. Note CH 4 ww1=CH 4​dis,​in ​∗​ 1(cid:0) r ox） (2)
+that ferric chloride dosing was required for chemical phosphorus
+where: CH4ww1 is the methane emissions from wastewater treatment
+removal from the MLE system. 5-stage bardenpho was also included in
+processes by active stripping of dissolved methane in the influent
+this study. Bardenpho is a commonly used wastewater treatment tech-
+wastewater. Note that the dissolved methane is assumed to consist of 1%
+nology for biological phosphorus and nitrogen removal. Another
+wastewater treatment configuration option adopted was UASB +MLE. of the total chemical oxygen demand (COD) loading in the influent [kg
+CH4] (Daelman et al., 2012); CH4dis,in is the dissolved CH4 in the influent
+Recently study shows the UASB system has remarkable potential to treat
+wastewater [kg CH4]; rox is the percentage of the amount of CH4
+domestic wastewater at ambient temperature (Crone et al., 2016; Daud
+oxidized in post-aerobic wastewater treatment. The default oxidation
+et al., 2018). The following MLE process aims to achieve nitrogen
+percentage in this study is assumed to be 80% (Daelman et al., 2012).
+removal from UASB effluent.
+(cid:0)
+The sludge treatment in this study included the whole process of CH 4 ww2=CH 4​dis, anaerobic ​∗​ 1(cid:0) r ox） (3)
+thickening, stabilization, dewatering and STS/LTD (Fig. 2). The gener-
+ated sludge after the thickening unit will be transported into the sludge where: CH4ww2 is the methane emissions from the anaerobic wastewater
+stabilization configuration. Two commonly used sludge stabilization treatment processes [kg CH4]; CH4dis, anaerobic is the dissolved CH4 in the
+configurations, AeD or AD were designed to stabilize sludge. The effluent of anaerobic wastewater treatment [kg CH4]; rox is the per-
+digested sludge will then be transported for dewatering. After dew- centage of the amount of CH4 oxidized in post-aerobic wastewater
+atering, two options were designed for sludge storage. The dewatered treatment. The default oxidation percentage in this study is assumed to
+sludge can be stored in an LTD or STS configuration, before being be 80% (Daelman et al., 2012).
+transported out for sludge disposal. The sludge disposal in this study The sludge production from the wastewater treatment is calculated
+included the most common sludge disposal methods, namely, com- by Eqs. (4)–(6) below:
+posting +agriculture, landfills and incineration (Grobelak et al., 2019).
+Q​∗​Y ​∗​(S (cid:0) S )
+Each configuration was composed of one of the three wastewater X HB= 1H ​∗CO ​SDi Rn COD (4)
++b T
+treatment processes (MLE, Bardenpho, or UASB +MLE), one of the two H
+sludge stabilization units (AeD or AD), one of the two sludge storage
+where: XHB is the heterotrophs biomass generated per day [kg COD/d];
+methods (LTD or STS), and one of the three sludge disposal ways
+Q is the flow rate of the influent wastewater [L/d]; YH is the yield rate of
+(composting +agriculture, landfills or incineration). A total of 36 sce-
+the heterotrophs [kg COD formed cells/kg COD consumed]; SCODin is the
+narios were studied.
+concentration of the COD in the influent [kg COD/l]; SCOD is the con-
+To investigate the impacts of sludge stabilization on the WWTP
+centration of the COD in the bioreactor [kg COD/L]; bH is the decay rate
+carbon footprint, additional scenarios were studied. Namely, the sludge of heterotrophs [d(cid:0) 1]; SRT is the solid retention time of the bioreactor
+generated from the wastewater treatment processes was sent to disposal
+[d].
+without digestion and drying. These scenarios will enable direct com- (cid:0) )
+p coa nri fiso gn raw ti it oh t wh ae s cc oe mna pr oio ses dw oi ft h ns elu od fg e t er e that rm eee n wt a. sS tep wec ai tfi ec ra tl rl ey a, tt mh ee nse X A=Q​∗​Y 1A +​∗ A​ ​S ∗NH ​S3i Rn T(cid:0) S NH3 (5)
+u n s o th t b
+processes (MLE, Bardenpho, or UASB +MLE) and one of the three sludge
+disposal options (composting +agriculture, landfills or incineration). A where: XA is the autotrophs biomass generated per day [kg COD/d]; YA
+total of 9 scenarios were studied. is the yield rate of the autotrophs [kg COD formed cells/kg NH3–N
+consumed]; SNH3in is the concentration of the NH3–N in the influent [kg-
+N/L]; SNH3 is the concentration of the NH3–N in the bioreactor [kg-N/L];
+2.3. GHG emissions calculation bA is the decay rate of autotrophs [d(cid:0) 1].
+X inert=SRT​∗​(b A ​∗​X A+b H ​∗​X H)​∗​f p (6)
+A statistic model was built to calculate the GHG emissions from the
+overall WWTPs within the boundary of this study. The designed raw
+where: Xinert is the inert solids generated in the bioreactor [kg COD/d];
+wastewater characteristics are listed in SI Table S1. The design param-
+fp is the fraction of the bio-inactive solids.
+eters for different configurations of the WWTPs are mainly based on the The GHG emissions from sludge treatment are described in Eqs. (7)–
+literature values and reasonable assumptions (SI Table S2). The esti-
+(10) below:
+mation of GHG emissions for different WWTPs is based on the emission
+pfa ac rt ao mr e(E teF r) s f vro am ry t bh ee t wlit ee er na t du ir fe fe ( rS eI n T t a sb tule d S ie2 s) . a G ndiv ae sn s uth ma pt tt ih oe n v s,a l tu he es u o nf c t eh re - N 2O ​AeD=EF AeD ​∗​TN loading,sludge ​∗​ 4 24 8 (7)
+tainty analysis for scope 1, scope 2, and scope 3 emissions from different
+where: N2OAeD is the N2O emissions from aerobic sludge digester [kg
+designed scenarios was conducted through Monte Carlo analysis in MS
+N2O]; EFAeD is N2O emissions factor from AeD [kg N2O–N/kg-N];
+Excel. For example, the N2O EF (wastewater treatment processes, aer-
+obic digestion, and sludge disposal options), the COD and nutrients TNloading, sludge is the total nitrogen loading in raw sludge [kg-N].
+loading in raw wastewater and the performance of treatment efficiency CH 4​AD=CH 4​dis, AD+EF AD,i ​∗​biogas ​produced (8)
+were used to conduct the Monte Carlo analysis. The summary of design
+parameters for uncertainty analysis are listed in SI Table S3. where: CH4AD is the methane emissions from anaerobic sludge digester
+For wastewater treatment, the emitted mass of N2O and CH4 were [kg CH4]; biogasproduced is the total generated biogas from the anaerobic
+calculated based on Eqs. (1)–(3) below: digester [m3]; EFAD,i is the CH4 emissions factor of the anaerobic
+44 digester, such as methane emissions from the pressure relief valve,
+N 2O ​ww=EF i ​∗​TN loading ​∗​ 28 (1) methane emission through gas bubbles entrained in digested sludge, etc
+[m3 CH4/m3 ].
+where: N2Oww is the N2O emissions from wastewater treatment pro- CH 4​LTD=COD Anaerobic ​∗​COD Biodegradable (9)
+cesses [kg N2O]; EFi is the N2O emissions factor from treatment
+configuration i [kg N2O–N/kg-N]; TNloading is the total nitrogen loading
+where: CH4LTD is the methane emissions from LTD configuration [kg
+in influent wastewater [kg-N]; 44/28 is used to convert [kg N2O–N] to
+CH4]; CODAnaerobic is the ratio of the COD consumed for CH4 generation
+[kg N2O].
+4
+
+--- Page 5 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+(Pan et al., 2016c); CODBiodegradble is the biodegradable COD loading of based on the Eqs. (17) and (18) (Li et al., 2022):
+the raw sludge [kg COD]. ∑
+Energy​recovery
+Carbon​Neutrality=∑ ∑ (cid:0)eq,i
+CH 4​STS=EF STS ​∗​CH 4produced (10) Direct​emissions(cid:0)eq,i+ Indirect​emissions(cid:0)eq,i
+(17)
+where: CH4STS is the methane emissions from STS configuration [kg
+∑
+gC eH n4 e] r; a tE eF dS T CS Hi 4s ];t h Ce H m 4pe rot dh ua cn ede ise m thi ess i mon ets h f aa nc et o gr e no ef rath tee d S fT roS m [ m th3 eC H an4/ am er3 - Energy​Neutrality=∑ InE dn ie rr eg cy t​​ er mec io sv sie or ny s(cid:0) (cid:0)eq e, qi (18)
+,i
+obic digester [m3 CH4].
+∑
+The GHG emissions from sludge disposal are determined by the IPCC where: Direct emissions_eq,i is s∑um of the direct emissions equivalent
+method, as indicated by Eq. (11) to (15) to CO2 from WWTP [kgCO2-eq]; Indirect emissions_eq,i is su∑m of the
+( )
+CH 4incineration​ = IW i ​∗​EF Incineration CH4 ∗​10(cid:0)6 (11) e ren ce or vg ey r c yo _en qs ,iu m is p st uio mn e oq f u ti hv ea le en nt e rto g yC O re2 c o of v eW ryW eT qP u [ ivk ag lC eO nt2 -e tq o] ; COE 2 n fe rr og my
+WWTP [kgCO2-eq].
+where: CH4incineration is the methane emissions from incineration [Gg
+CH4/yr]; IWi is the amount of solids waste incinerated [Gg/yr]; EFInci-
+3. Results and discussion
+neration_CH4 is the aggregate CH4 emissions factor [kg CH4/Gg waste].
+( )
+N 2O incineration= IW i ​∗​EF Incineration N2O ∗​10(cid:0)6 (12) 3.1. Carbon footprints of WWTPs with different configurations
+The carbon footprints of WWTPs with different configurations are
+where: N2Oincineration is the methane emissions from incineration [Gg
+calculated and presented by the type of emissions source (scope 1, scope
+N2O/yr]; EFIncineration_N2O is the aggregate N2O emissions factor [kg
+2, scope 3 emissions) in Fig. 3. It can be seen clearly that the carbon
+N2O/Gg of waste].
+footprints are highly dependent on the treatment configurations of
+( )
+N 2O composting= M i ​∗​EF Composting N2O ∗​10(cid:0)3 (13) W froW mT 4P 1s. T th oe 7to 7t 5a l G H CG 2e -em q/is Msi Lo -n ws /o df d wif if te hr e thn et hsc ie gn ha er si to Gs Hv Gar y mg ir se sa iotl ny s,
+1 1 k g O w , e
+approximately 4 times higher than that of the lowest GHG emissions.
+where: N2Ocompsoting is the methane emissions from composting [Gg The top three high emissions (1649–1775 kgCO2-eq/ML-ww/d) configu-
+N2O]; Mi is the mass of organic waste treated by composting [Gg];
+rations are dominated by the combination of aerobic nutrient removal
+EFCompsoting_N2O is the N2O emissions factor for composting [g N2O/kg
+(MLE wastewater treatment), AeD and LTD. The sludge disposal in
+waste treated].
+WWTP only played a minor role in the total carbon footprint profile. In
+( )
+CH 4composting= M i ​∗​EF Composting CH4 ∗​10(cid:0)3(cid:0) R (14) f aa dc ot p, tt eh de et ro op i3 wc ao sn tfi ewgu ar ta et ri o trn es tw mi et nh ,t ah ee oh bi ig ch se lust gG eH sG be ilm izi as ts ii oo nn ,s anal dl
+a b c a t r d ta
+LTD. The 3 lowest GHG emissions configurations are the combinations
+where: N2Ocompsoting is the methane emissions from composting [Gg
+employing anaerobic wastewater treatment (UASB), AD and STS, with
+CH4]; EFComposting_CH4 is the CH4 emissions factor for composting [g total GHG emissions of 411–520 kgCO2-eq/ML-ww/d. The large variation
+CH4/kg waste]; R is the total amount of CH4 recovered (0 for this study)
+of the overall carbon footprint suggests that there are opportunities to
+[Gg CH4].
+reduce carbon footprint by choosing different configurations or pro-
+[( )
+16 cesses at the design stage of a WWTP or during the plant upgrading.
+CH = MSW ​∗​MSW ​∗​MCF​∗​DOC​∗​DOC ​∗​F​∗​
+4Landfill T F F 12
+]
+(cid:0) )
+(cid:0) R ∗ 1(cid:0) r ox,​Landfill 3.2. Scope 1 emissions
+(15) The amount of scope 1 emissions and its contribution to the overall
+GHG emissions is undoubtedly significant (as shown in Fig. 3). The scope
+where: CH4Landfill is the CH4 emissions from landfill [kg CH4/yr]; MSWT 1 emissions account for 23–83% of the total carbon footprint under
+is the total municipal solids waste generated [Gg/yr]; MSWF is the different configuration scenarios. Scope 1 emission could be the major
+faction of municipal solids wastes disposed at the Landfill; MCF is the contributor to carbon footprint for configurations with anaerobic pro-
+methane correction factor; DOC is the degradable organic carbon [Gg/ cesses. This is because anaerobic treatment technologies could signifi-
+Gg municipal solids waste]; DOCF is the fraction of the degradable cantly reduce scope 2 and scope 3 emissions due to energy recovery and
+organic carbon; F is the fraction by volume of CH4 in landfills gas; R is less sludge production. For example, in the configuration where the
+recovered CH4 [Gg/yr]; rox, Landfill is the oxidation factor of methane. wastewater is treated by UASB +MLE and sludge is stabilized by AD, the
+In this study, the N2O emissions from agriculture only considered the scope 1 emissions could contribute to 63%–83% of total GHG emissions
+synthetic fertilizer N applied to the managed soils. The N2O emission from WWTP. Scope 1 emissions become less significant in configurations
+from agriculture is described by the Eq. (16): with aerobic technologies. For example, when the wastewater is treated
+(cid:0) ) (cid:0) )
+N 2O(cid:0) N input= F SN ​∗​EF Agriculture + F SN ​∗​EF AgricultureFR (16) b dy M L thE o sr B oa pr ed 1en ep mho is, s iolu nd sg oe ni ls s t aa cb ci oli uz ne td fb oy A 2e 3D –a 3n 0d th oe fL tT hD i os a ev ro ai l-
+ed , e c s y r % % e v l
+where: N2O-Ninput is the annual direct N2O–N emissions from N inputs to carbon footprint of WWTP.
+managed soils [kg N2O–N/yr]; FSN is the annual amount of synthetic For comparison, the sources of scope 1 emissions from the waste-
+water treatment processes and the sludge treatment processes were
+fertilizer N applied to soils [kg N/yr]; EFAgriculture is the emissions factor
+for N2O emissions from N inputs [kg N2O–N/kg N input]; EFAgriculture_FR plotted respectively as shown in Fig. 4. In Fig. 4a, the scope 1 emissions
+i [s gth Ne 2e Om –i Nss /i ko gn s f a inct po ur ]fo r N2O emissions from N inputs to flooded rice f Mro Lm ww /a ds ,t e cw oa nt te rir t ure tia nt gm e ton t 1p 2ro %c –e 7ss 5e %s v oar ie td ef ro tom 2 1 G8 Hto 3 5 em4 k isg sC ioO n2 s- eq in/
+k N t . -w b f h ta l G
+wastewater treatment processes, both CH4 and N2O emissions
+contribute to scope 1 emissions of WWTPs. Compared with Bardenpho
+2.4. Carbon and energy neutrality or MLE process, the UASB +MLE process (anaerobic treatment with post
+aerobic treatment) produced higher scope 1 emissions than aerobic
+The carbon and energy neutrality targets of this study were defined technologies. In the sealed UASB reactor, organics are converted to
+5
+
+--- Page 6 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+Fig. 3. Carbon footprints of WWTPs with different treatment configurations. The error bar represents the uncertainties (Monte Carlo analysis).
+methane-rich biogas and the supersaturated dissolved methane is also
+formed normally in the range of 19–29 mg CH4/L (Bandara et al., 2012;
+Matsuura et al., 2015; Souza et al., 2012). In the following aerobic
+treatment for nitrogen removal, about 20% of the dissolved methane
+would be stripped out by aeration (Daelman et al., 2012), which
+contributed to 36% more direct GHG than aerobic technology only.
+While methane emissions from wastewater treatment processes can be
+reduced by choosing aerobic treatment technologies, the N2O is an
+inevitable by-product generated in the biological nitrogen removal
+process (Duan et al., 2017; Kampschreur et al., 2008). In this study, N2O
+is always the dominant GHG when aerobic treatment processes are used,
+accounting for up to 96% of the scope 1 emissions. Moreover, the
+anaerobic technologies for nutrient removal also produce N2O in the
+following nutrients removal process. The N2O emissions from UASB +
+Fig. 4. Scope 1 emissions from WWTPs with different treatment configurations
+(a) scope 1 emissions from carbon and nutrients removal wastewater treatment MLE processes contributed 61.1% of the direct emissions.
+processes; (b) scope 1 emissions from sludge treatment. The error bar represents Sludge treatment could also be a significant source of scope 1
+the uncertainties (Monte Carlo analysis). emissions (Fig. 4b). The direct GHG emissions from sludge treatment
+6
+
+--- Page 7 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+Table 1
+Analyses of carbon neutrality and energy neutrality for different configurations.
+Configurations Direct emission, Indirect emission, Energy recovery, Energy neutrality Carbon neutrality
+kgCO2-eq/ML-ww/d kg CO2-eq/ML-ww/d kgCO2-eq/ML-ww/d
+UASB +MLE +AeD +LTD 579 577 419 73% 36%
+UASB +MLE +AeD +STS 399 577 419 73% 43%
+UASB +MLE +AD +LTD 508 599 570 95% 51%
+UASB +MLE +AD +STS 369 599 570 95% 59%
+MLE +AeD +LTD 933 655 0 0% 0%
+MLE +AeD +STS 316 655 0 0% 0%
+MLE +AD +LTD 793 637 403 63% 28%
+MLE +AD +STS 279 637 403 63% 44%
+Bardenpho +AeD +LTD 569 620 0 0% 0%
+Bardenpho +AeD +STS 265 620 0 0% 0%
+Bardenpho +AD +LTD 517 612 176 29% 16%
+Bardenpho +AD +STS 249 612 176 29% 20%
+varied greatly, from 27 to 716 kgCO2-eq/ML-ww/d, accounting for 4%– 3.3. Scope 2 emissions
+58% of the total GHG emissions from WWTP. Unlike the wastewater
+treatment process, CH4 emissions contribute to the majority of the scope Scope 2 emissions in this study include energy consumption for both
+1 emissions from sludge treatment. The direct CH4 emissions from wastewater and sludge treatment processes. The scope 2 emissions could
+sludge are 16–617 kgCO2-eq/ML-ww/d, while the direct N2O emissions contribute 14–68% of total carbon footprint of WWTP. However, it was
+from sludge are only 43.1 to 98.4 kgCO2-eq/ML-ww/d. When the LTD was observed that most configurations with relatively low GHG emissions
+adopted in WWTP, the overall scope 1 emissions could increase signif- involve energy recovery, which offsets the scope 2 emissions. Scope 2
+icantly by 26%–46%. This is because a significant portion of the stabi- emissions could be minimized by reducing the energy consumption, as
+lized sludge is still biodegradable. A long-term sludge drying lagoon well as by enhancing the energy recovery (scope 2 offset). Effectively,
+study showed that 43% of COD was biodegradable (Pan et al., 2016c). the scope 2 emissions from WWTP could be minimized by choosing
+The biodegradable portion of the sludge will be slowly digested during configurations with high energy efficiency and energy recovery.
+the drying stage under the anaerobic condition to generate CH4. The Anaerobic treatment technologies represent a promising solution to
+long-term sludge drying facility is often an open system. Therefore, minimize scope 2 emissions due to their low energy consumption and
+methane generated is emitted into the atmosphere. potential for energy recovery via methane-rich biogas capture. UASB
+Moreover, the scope 1 emissions from sludge treatment are also enables energy recovery from produced biogas leading to offset GHG
+highly dependent on the amount of the waste sludge to be treated. For emissions. During anaerobic wastewater treatment, most of the COD
+example, the amount of waste sludge generated from MLE, Bardenpho, would be converted to biogas. Roughly 60–70% of loading COD can be
+and the UASB + MLE processes are 24,208 kg dry matter (DM)/d, converted to methane, and approximately 80% of generated methane
+10,614 kgDM/d, and 11,412 kgDM/d, respectively (Table 2). The scope could be used for energy recovery (Bandara et al., 2011, 2012; Matsuura
+1 emission from sludge treatment after the MLE process are the highest et al., 2015; Souza et al., 2012). For example, when the UASB is adopted
+(716 kgCO2-eq/ML-ww/d) and the WWTP with UASB +MLE process has in WWTPs, the carbon footprint of WWTPs could be significantly
+the lowest scope 1 emissions from its following sludge treatment pro- reduced compared to the MLE and Bardenpho. The carbon footprint of
+cesses (16–225 kgCO2-eq/ML-ww/d). WWTPs with UASB are 411–816 kgCO2-eq/ML-ww/d. In comparison,
+Clearly, scope 1 emissions from sludge treatment can be feasibly total GHG emissions from WWTPs with aerobic wastewater treatment
+minimized by avoiding LTD and by adopting the wastewater treatment processes such as MLE and Bardenpho are 599–1773 kgCO2-eq/ML-ww/d
+process with less sludge production. However, reducing scope 1 emis- and 635–1221 kgCO2-eq/ML-ww/d, respectively.
+sions from wastewater treatment is still challenging since all the The direct GHG emissions, indirect GHG emissions, and offset GHG
+wastewater treatment processes with nutrient removal inevitably led to emissions of all investigated configurations are summarised in Table 1.
+N2O emissions (Kampschreur et al., 2009; Vasilaki et al., 2019). Exten- The results showed that the complete aerobic wastewater and sludge
+sive studies have attempted to mitigate N2O emissions from biological treatment has the highest energy consumption. For example, the energy
+nitrogen removal processes (Duan et al., 2021), which could further consumption for MEL +AeD and Bardenpho +AeD are 655 kgCO2-eq/
+reduce the carbon footprint of WWTPs in the future. ML-ww/d and 622 kgCO2-eq/ML-ww/d, respectively. When UASB and AeD
+were adopted in WWTP, the energy consumption was 577 kgCO2-eq/ML-
+ww/d as the anaerobic treatment has the potential for energy recovery.
+Table 2
+Summary of sludge production, sludge for disposal, biogas production, and energy generation.
+Configurations Sludge production, kg DM/d Sludge for disposal, kg DM/d biogas production, m3/d Energy generation, kg CO2-eq/d
+UASB +MLE +AeD +LTD 11412a 5225 5582 20972
+UASB +MLE +AeD +STS 11412a 9078 5582 20972
+UASB +MLE +AD +LTD 11412a 5077 6709 28513
+UASB +MLE +AD +STS 11412a 8604 6709 28513
+MLE +AeD +LTD 24208a 7329 0 0
+MLE +AeD +STS 24208a 16150 0 0
+MLE +AD +LTD 24208a 7027 3504 20181
+MLE +AD +STS 24208a 15174 3504 20181
+Bardenpho +AeD +LTD 10614 2687 0 0
+Bardenpho +AeD +STS 10614 4679 0 0
+Bardenpho +AD +LTD 10614 2603 1534 8841
+Bardenpho +AD +STS 10614 6374 1534 8841
+a The generated sludge contained 3647 kg inorganic solid (nonnitrogen content) due to chemical dosing.
+7
+
+--- Page 8 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+Therefore, the highest energy recovery option is the complete anaerobic emissions. Air-stripping is a commonly applied technology to enhance
+wastewater and sludge treatment which could recover 570 kgCO2-eq/ the liquid to gas transfer efficiency. It has been applied to remove the
+ML-ww/d of energy. Overall, in terms of the scope 2 emissions, the ammonia and methane from landfill leachate (Ferraz et al., 2013).
+optimal configurations for minimizing scope 2 emissions are the UASB However, applying air-stripping has the issue with dilution of the
++AD with only 29 kgCO2-eq/ML-ww/d of scope 2 emissions. methane in the biogas and prohibits the beneficial use of biogas. Another
+Lastly, the calculation shows that achieving energy neutrality is still technology is membrane-based technology which uses the non-porous or
+far from achieving carbon neutrality (Table 1). Scope 1 and scope 2 microporous membrane to recover the methane for subsequent reuse
+emissions were considered in carbon neutrality calculation, and both (Bandara et al., 2011). The microporous membrane can be used for the
+electrical and heat energy were considered for the scope 2 emissions and high substrate concentration liquid, such as AnMBR, and the non-porous
+energy recovery calculations. In this analysis, energy neutrality could membrane is more suitable for the less solid content effluent like UASB.
+achieve 35–95%, while carbon neutrality could achieve 17–59%. When However, the use of membrane technology required sweeping gas to
+the UASB and AD were adopted in WWTP, the energy neutrality could create a methane gradient between the outside and inside of the mem-
+achieve 73–95%, and the carbon neutrality could reach 36–59%. When brane to increase the mass transfer efficiency, which could reduce the
+MLE and Bardenpho were used for wastewater treatment and AD was purity of methane in the biogas (Cookney et al., 2012).
+used for sludge stabilization, the energy and carbon neutrality could The effective removal or recovery of the dissolved methane from
+increase by 29–63% and 16–44%, respectively. anaerobic treatment technology could reduce GHG emissions. However,
+the feasibility of the currently developed post-treatment technologies
+3.4. Scope 3 emissions has not yet been fully evaluated by the economic viability and practi-
+cability. In addition, while applied anaerobic technology has the above
+The contributions of scope 3 emissions to overall emissions are benefits compared to aerobic technology, the benefits of using anaerobic
+shown in Fig. 3. It should be noted that in this study scope 3 refers technology may be less significant in the future. With the ongoing
+specifically to the GHG emissions from sludge disposal configurations. adoption of renewable energy, the scope 2 emissions may no longer be
+Compared to scope 1 and scope 2 emissions, scope 3 emissions play a an issue for WWTP. Thus, the benefits of using the CH4 generated from
+minor role in overall GHG emissions in most WWTP configurations, anaerobic technology to offset scope 2 will reduce accordingly.
+contributing only 1–13% to the overall carbon footprint. However, when
+the landfill is applied for sludge disposal, the scope 3 emissions could 3.6. Sludge stabilization: source or sink?
+contribute to 21%–41% of the total GHG emissions. Landfill generates
+significantly higher GHG than those from composting, agriculture, and AD and AeD are commonly applied in WWTP for sludge stabilization.
+incineration. In addition, the amount of scope 3 emissions highly relies Similar to anaerobic wastewater treatment processes, sludge stabiliza-
+on the amount of sludge for disposal. Table 2 presents the amount of tion processes could result in higher scope 1 emissions in WWTP while at
+sludge production and sludge disposal. For example, the wasted sludge the same time may reduce scope 2 and/or scope 3 emissions. To answer
+for disposal was 5225–9078 kg of dry matter per day when UASB was whether sludge stabilization may lead to a higher or lower carbon
+adopted. The scope 3 emission from WWTP with UASB was 8–138 footprint, the scenarios without sludge stabilization were analysed to
+kgCO2-eq/ML-ww/d (Fig. 3). As discussed in Section 3.2, the UASB pro- compare with the same configurations that equip with sludge treatment
+duces less sludge compared to the Bardenpho and MLE, thus resulting in (Fig. 5).
+less scope 3 emissions from sludge disposal. When the MLE was applied Fugitive GHG will be directly emitted into the atmosphere during the
+in WWTP, the generated sludge for disposal was 7329–16150 kg dry sludge stabilization. Compared to the scenario without sludge treat-
+matter/d, and the scope 3 emissions were 18–389 kgCO2-eq/ML ML-ww/ ment, the GHG emissions from sludge stabilization processes could in-
+d. crease the scope 1 emissions to different extents. AD slightly increases
+the scope 1 emissions by 4–16 kgCO2-eq/ML-ww/d, representing 1.2%–
+3.5. Role of anaerobic wastewater treatment processes 7% higher emission than configurations without sludge stabilization
+(Fig. 4a and b). Methane leakage often occurs due to poor maintenance
+The role of the anaerobic wastewater treatment process is seemingly of anaerobic digesters which contributes to the direct GHG emissions
+contradictory in terms of GHG emissions. On the one hand, anaerobic (Daelman et al., 2012; Reinelt et al., 2016; Schaum et al., 2015, 2016;
+technologies have higher energy efficiency and enable energy recovery Tauber et al., 2019). In an anaerobic digester, the gasholder prevents gas
+(scope 2 emissions). On the other hand, it leads to higher scope 1 leakage and stores generated biogas. However, the gasholder and valves
+emissions than aerobic technologies due to CH4 emissions. Nevertheless, could result in leakage if poorly maintained. Tauber et al. (2019) re-
+this study shows that despite higher scope 1 emissions, anaerobic ported that methane leakage from AD maintenance holes contributed to
+technologies lead to an overall small carbon footprint due to much lower 0.4% of the total generated methane due to poor maintenance. The
+scope 2 and scope 3 emissions. For example, when comparing the UASB methane loss from pressure-relief valves reportedly contributes to
++MLE +AD +STS +Landfill with MLE +AD +STS +Landfill for scope 0.06–1.7% of the total methane generated in AD (Reinelt et al., 2016).
+1 emissions, the former process was 369 kgCO2-eq/ML_ww/d, which was In comparison, AeD results in significantly higher scope 1 emissions,
+higher than the latter MLE only process (279 kgCO2-eq/ML_ww/d). mainly due to N2O emissions. Scope 1 emissions of WWTPs could be
+However, for scope 2 and scope 3 emissions, the UASB +MLE process increased by 14%–45% due to the adoption of AeD. In AeD, the available
+was much lower than that of MLE only process. In comparison, the scope substrates in feeding sludge are limited so that the microorganisms
+2 and scope 3 emissions for the UASB +MLE process were 29 and 122 consume their protoplasm, which the ammonia could be released, to
+kgCO2-eq/ML_ww/d respectively, while the MLE process had an emission generate energy for cell reaction maintenance (Metcalf and Eddy, 2013).
+of 122 and 355 kgCO2-eq/ML_ww/d for scope 2 and scope 3 emissions. In Then nitrification and denitrification can happen in the aerobic digester
+terms of the overall carbon footprint, the wastewater treated by anaer- (Duan et al., 2019; Kim and Novak, 2017). Consequently, N2O will be
+obic configuration emitted 520 kgCO2-eq/ML-ww/d, while the WWTP generated from BNR processes within the aerobic digestor, and the
+with aerobic wastewater treatment emitted 868 kgCO2-eq/ML-ww/d. aerobic digester usually is not covered. Therefore, the stripped-out N2O
+It should be noted that CH4 emission has been regarded as the major could be directly emitted to the atmosphere, thus causing the increase of
+obstacle to the application of anaerobic technologies. The dissolved CH4 scope 1 emissions from AeD.
+in the anaerobic treatment effluent could be largely released into the When it comes to scope 2 emissions, AD and AeDs have distinct
+atmosphere when the proper post-treatment was not applied. Some of consequences. AD could significantly reduce scope 2 emissions. In this
+the post-treatment technologies have been developed to mitigate CH4 study, when the AD was used for sludge stabilization, the scope 2
+8
+
+--- Page 9 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+Fig. 5. Overall emissions from WWTPs with different wastewater treatment configurations but without sludge stabilization process. The error bar represents the
+uncertainties (Monte Carlo analysis).
+emissions could be significantly reduced by 20.6%–73.2% compared to demonstrated that the UASB has the promising potential to minimize
+the WWTP without AD. AD can convert the biogenic carbon contained in GHG emissions compared to aerobic wastewater technologies through
+the sludge to biogas to generate bioenergy (Calderon et al., 2021; IPCC significantly reduced scope 2 and 3 emissions but increased scope 1
+et al., 2019; Metcalf and Eddy, 2013). The generated biogas can be emissions. Where it is feasible, the anaerobic process should be imple-
+converted to electrical energy to cover 60% of the overall electricity mented to enhance energy efficiency and enable energy recovery.
+consumption (Daelman et al., 2012). Thus, it reduces the use of energy Nevertheless, the anaerobic process would increase scope 1 emissions
+generated from fossil fuel sources. Therefore, the AD process is regarded due to the remaining dissolved methane in the effluent, which is a major
+as a carbon sink (UNEP, 2017). In contrast, sludge stabilization by AeD challenge for anaerobic processes. Besides, it should be noted that as
+increases the scope 2 emissions. Unlike AD, AeD requires oxygen to renewable energy is becoming widely available, the role of anaerobic
+achieve organic matter removal and the aeration results in significant technology in reducing GHG emissions (by reducing scope 2 emissions)
+electricity consumption. The oxygen requirements of AeD are typically from WWTP may be less significant.
+1.6–1.9 kg O2/kg VSS destroyed (Metcalf and Eddy, 2013). The scope 2 For sludge handling, while sludge drying could significantly reduce
+emissions from WWTP with aerobic digester could increase by 13%– the volume of the treated sludge and the operating cost, the uncaptured
+31% compared to that from WWTP without sludge stabilization. Note CH4 results in significant scope 1 emissions (Pan et al., 2016c),
+that AeD results in significantly higher scope 2 emissions than AD as AeD contributing to 22–59% of the total GHG emissions from WWTP. It
+produces 30%–82% higher scope 2 emissions than AD. should therefore be avoided to reduce WWTP carbon footprint.
+Both AD and AeD reduce scope 3 emissions due to reduced organic Furthermore, when AD is adopted, the GHG emissions could be reduced
+matters after sludge stabilization. Usually, AD and AeD can achieve by 12%–38% compared to the WWTP without sludge stabilization. The
+30%–40% organic matter destruction of the sludge, while the digestion potential for GHG emissions reduction from AD is significant. In com-
+efficiency highly depends on the SRT and temperature (Kim et al., 2010; parison, while aerobic sludge digestion could also reduce scope 3
+Li et al., 2013; Metcalf and Eddy, 2013). Composting, agriculture reuse, emissions due to reducing organic matter for sludge disposal, it increases
+landfills, and incineration were considered sludge disposal options in both scope 1 and scope 2 emissions, leading to an overall higher carbon
+this study. The IPCC guideline identified the majority of the GHG footprint.
+emissions from sludge disposal are N2O and CH4 (IPCC et al., 2019). Lastly, landfills should be avoided for sludge disposal. Compared to
+With the carbon loading rate reduced for sludge disposal, the CH4 other sludge disposal methods, the scope 3 emissions from landfills ac-
+emissions decreased. In this study, when sludge stabilization was count for 10%–43% of the total carbon footprint. However, the scope 3
+adopted in WWTP, the scope 3 emissions could be reduced by 40%– emissions from incineration, composting, and agriculture only
+47.5% regardless of AD or AeD. contribute 1%–14% of the total GHG emissions.
+Taking scope 1, 2 and 3 emissions into consideration, AD and AeD
+can play distinct roles in WWTP carbon footprints. While AD could 5. Conclusion and perspectives
+slightly increase scope 1 emissions, it significantly reduces scope 2 and 3
+emissions, collectively leading to lower carbon footprints of WWTP by This study systematically evaluated the impacts of different WWTP
+2–38%. In comparison, compared with WWTPs without sludge stabili- configurations. The outcome of this study informs WWTP configuration
+zation, AeD leads to higher scope 1 and scope 2 emissions while design, demonstrating that the carbon footprint of WWTP is highly
+reducing scope 3 emissions. Consequently, the overall GHG emissions dependent on the treatment configurations, with the highest GHG
+significantly increased by 2%–29% compared with the scenarios emissions approximately 4 times higher than that with the lowest GHG
+without AeD. emissions.
+The analysis showed scope 2 & 3 emissions may be reduced by
+4. Implications to wastewater treatment design selecting suitable processes. Specifically, applying anaerobic waste-
+water treatment technologies can significantly reduce the total WWTP
+This study shows that various wastewater treatment plant configu- carbon footprint due to its high energy efficiency and energy recovery
+rations could have vast different carbon footprints and some processes (scope 2 emissions offset), despite the increased scope 1 emissions due to
+are better suited than the others to reduce the carbon footprints of dissolved CH4 stripping. Sludge stabilization via AD could also reduce
+WWTPs. the scope 2 & 3 emissions while aerobic sludge digestion may increase
+For wastewater treatment, many studies have shown the possibility the overall carbon footprint. Sludge disposal via landfill could result in
+of using anaerobic wastewater treatment technology with post aerobic high scope 3 emissions and should be avoided.
+treatment, especially UASB, to treat municipal wastewater at ambient or Compared with Scope 2 & 3 emissions, there are less opportunities to
+low temperatures, in the past decade (Chernicharo, 2006; Kayranli and reduce Scope 1 emissions by configuration design. Long-term sludge
+Ugurlu, 2011; Latif et al., 2011; Lew et al., 2011). This study drying should be avoided as it contributes significantly to the carbon
+9
+
+--- Page 10 ---
+Z. Wu et al. E n v i r o n m e n t a l R e s e a r c h 214(2022)113818
+footprint due to CH4 emissions. The biological nitrogen removal process Foley, J., de Haas, D., Hartley, K., Lant, P., 2010. Comprehensive life cycle inventories of
+inevitably leads to N2O emissions and may not be significantly reduced Groba el lt ae krn a At .i ,v e zw ea rwst ie n´w ska ate r t .r e Mat um rte an ´st s Ay .s ,t e 2m 01s 9. .W Ina dte ur tR re ias l. a4 n4 ( 5 M), 1 n6 ic5 ip4 a– l1 6 Sl6 u6 d.
+, C , K , , s d u ge.
+by configuration selection. Direct N2O emissions will likely be the future Elsevier, pp. 135–153.
+challenge for WWTPs to achieve carbon neutrality. IPCC, 2013. Climate Change 2013: the Physical Science Basis. Contribution of Working
+Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate
+Change. Cambridge University Press, Cambridge, United Kingdom and New York,
+NY, USA.
+Declaration of competing interest IPCC, 2019. In: Calvo Buendia, E., Tanabe, K., Kranjc, A., Baasansuren, J., Fukuda, M.,
+Ngarize, S., Osako, A., Pyrozhenko, Y., Shermanau, P., Federici, S. (Eds.), 2019
+The authors declare that they have no known competing financial Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories.
+IPCC, Switzerland.
+interests or personal relationships that could have appeared to influence IPCC, 2022. Climate Change 2022: Mitigation of Climate Change.
+the work reported in this paper. Kampschreur, M.J., Tan, N.C., Kleerebezem, R., Picioreanu, C., Jetten, M.S.,
+Loosdrecht, M.C.v., 2008. Effect of dynamic process conditions on nitrogen oxides
+emission from a nitrifying culture. Environ. Sci. Technol. 42 (2), 429–435.
+Acknowledgment Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S., van Loosdrecht, M.C.,
+2009. Nitrous oxide emission during wastewater treatment. Water Res. 43 (17),
+4093–4103.
+This study was funded by the Australian Research Council (ARC)
+Kayranli, B., Ugurlu, A., 2011. Effects of temperature and biomass concentration on the
+through project DP180103369 and by Water Research Australia performance of anaerobic sequencing batch reactor treating low strength
+Research Programs (2059-20). H. D. is a recipient of the UQ Research wastewater. Desalination 278 (1–3), 77–83.
+Kim, D.-H., Jeong, E., Oh, S.-E., Shin, H.-S., 2010. Combined (alkaline+ultrasonic)
+Stimulus Fellowship. K.L. acknowledges the scholarship support from
+pretreatment effect on sewage sludge disintegration. Water Res. 44 (10), 3093–3100.
+the University of Queensland (UQ), Water Research Australia and Icon Kim, J., Novak, J.T., 2017. Nitrogen removal in a staged anaerobic-aerobic sludge
+Water. L.Y. is a recipient of the UQ Foundation Research Excellence digestion system. Water Environ. Res. 89 (1), 17–23.
+Awards. Latif, M.A., Ghufran, R., Wahid, Z.A., Ahmad, A., 2011. Integrated application of upflow
+anaerobic sludge blanket reactor for the treatment of wastewaters. Water Res. 45
+(16), 4683–4699.
+Appendix A. Supplementary data Lenzen, M., 2008. Life cycle energy and greenhouse gas emissions of nuclear energy: a
+review. Energy Convers. Manag. 49 (8), 2178–2199.
+Lew, B., Lustig, I., Beliavski, M., Tarre, S., Green, M., 2011. An integrated UASB-sludge
+Supplementary data to this article can be found online at https://doi. digester system for raw domestic wastewater treatment in temperate climates.
+org/10.1016/j.envres.2022.113818. Bioresour. Technol. 102 (7), 4921–4924.
+Li, H., Zou, S., Li, C., Jin, Y., 2013. Alkaline post-treatment for improved sludge
+anaerobic digestion. Bioresour. Technol. 140, 187–191.
+References Li, L., Wang, X., Miao, J., Abulimiti, A., Jing, X., Ren, N., 2022. Carbon neutrality of
+wastewater treatment-A systematic concept beyond the plant boundary. Environ.
+Sci. Ecotechnol., 100180
+Ab Hamid, N.H., Smart, S., Wang, D.K., Koh, K.W.J., Ng, K.J.C., Ye, L., 2020. Economic, Liao, X., Tian, Y., Gan, Y., Ji, J., 2020. Quantifying urban wastewater treatment sector’s
+energy and carbon footprint assessment of integrated forward osmosis membrane
+greenhouse gas emissions using a hybrid life cycle analysis method - an application
+bioreactor (FOMBR) process in urban wastewater treatment. Environ. Sci. J. Integr.
+Environ. Res.: Water Res. Technol. 6 (1), 153–165. on Shenzhen city in China. Sci. Total Environ. 745, 141176.
+Lopes, T.A., Queiroz, L.M., Torres, E.A., Kiperstok, A., 2020. Low complexity wastewater
+Bandara, W.M., Kindaichi, T., Satoh, H., Sasakawa, M., Nakahara, Y., Takahashi, M.,
+treatment process in developing countries: a LCA approach to evaluate
+Okabe, S., 2012. Anaerobic treatment of municipal wastewater at ambient
+environmental gains. Sci. Total Environ. 720, 137593.
+temperature: analysis of archaeal community structure and recovery of dissolved
+methane. Water Res. 46 (17), 5756–5764. Matsuura, N., Hatamoto, M., Sumino, H., Syutsubo, K., Yamaguchi, T., Ohashi, A., 2015.
+Recovery and biological oxidation of dissolved methane in effluent from UASB
+Bandara, W.M., Satoh, H., Sasakawa, M., Nakahara, Y., Takahashi, M., Okabe, S., 2011.
+treatment of municipal sewage using a two-stage closed downflow hanging sponge
+Removal of residual dissolved methane gas in an upflow anaerobic sludge blanket system. J. Environ. Manag. 151, 200–209.
+reactor treating low-strength wastewater at low temperature with degassing
+membrane. Water Res. 45 (11), 3533–3540. McC Pa rr oty d, P c. eL r. –, CB aa ne , J h. i, K Bim , J c. h, i2 ev0 e1 d1 ?. D Ao Cm e Ps uti bc iW caa tis ote nw s.a ter Treatment as a Net Energy
+u T s e A S l
+Bhatia, P., Cummis, C., Rich, D., Draucker, L., Lahd, H., Brown, A., 2011. Greenhouse Gas
+Metcalf, Amp, Eddy, I., 2013. Wastewater Engineering : Treatment and Resource
+Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard.
+Recovery. McGraw-Hill Higher Education, NY.
+Cakir, F., Stenstrom, M., 2005. Greenhouse gas production: a comparison between
+Pan, Y., Van Den Akker, B., Ye, L., Ni, B.-J., Watts, S., Reid, K., Yuan, Z., 2016a.
+aerobic and anaerobic wastewater treatment technology. Water Res. 39 (17),
+4197–4203. U flon wra v fue ll ll in scg lt eh e s ap sa teti wal tv ea rr i ta reti ao tn o ef tn i pt lr ao nu ts o Scx ii .d e ee pm i 6ss (io 1n ),s 1f –ro 1m a step-feed plug-
+a w a m n . R . 0.
+Calderon, A.G., Duan, H., Chen, X., Wu, Z., Yu, W., Silva, C.E., Li, Y., Shrestha, S.,
+Pan, Y., van den Akker, B., Ye, L., Ni, B.J., Watts, S., Reid, K., Yuan, Z., 2016b.
+Wang, Z., Keller, J., 2021. Enhancing anaerobic digestion using free nitrous acid:
+Unravelling the spatial variation of nitrous oxide emissions from a step-feed plug-
+identifying the optimal pre-treatment condition in continuous operation. Water Res.
+flow full scale wastewater treatment plant. Sci. Rep. 6, 20792.
+205, 117694.
+Pan, Y., Ye, L., van den Akker, B., Ganigue Pages, R., Musenze, R.S., Yuan, Z., 2016c.
+Chernicharo, C.d., 2006. Post-treatment options for the anaerobic treatment of domestic
+wastewater. Rev. Environ. Sci. Biotechnol. 5 (1), 73–92. S trl eu ad tg me e-d nr ty pin lag l ta sg o Eo nn vs i: oa p o St ce in t Tia el hsi ng on li .fi 5c 0a n (t )m e 1t 3h 6a 8n –e s 3o 7u 5r .c e in wastewater
+n . r n . . c 3 , 1
+Cookney, J., Cartmell, E., Jefferson, B., McAdam, E., 2012. Recovery of methane from Paulu, A., Barta´ˇcek, J., Sˇ ereˇsova´, M., Koˇcí, V., 2021. Combining process modelling and
+anaerobic process effluent using poly-di-methyl-siloxane membrane contactors.
+Water Sci. Technol. 65 (4), 604–610. lca to assess the environmental impacts of wastewater treatment innovations. Water
+13 (9), 1246.
+Crone, B.C., Garland, J.L., Sorial, G.A., Vane, L.M., 2016. Significance of dissolved
+Piao, W., Kim, Y., Kim, H., Kim, M., Kim, C., 2016. Life cycle assessment and economic
+methane in effluents of anaerobically treated low strength wastewater and potential
+for recovery as an energy product: a review. Water Res. 104, 520–531. e J.f fi Cc li ee an nc .y a rn oa dl .y 1si 1s o f i 2n 5te –g 3r 3a 7t .e d management of wastewater treatment plants.
+P 3 , 3
+Daelman, M.R., van Voorthuizen, E.M., van Dongen, U.G., Volcke, E.I., van
+Rahman, S.M., Eckelman, M.J., Onnis-Hayden, A., Gu, A.Z., 2016. Life-cycle assessment
+Loosdrecht, M.C., 2012. Methane emission during municipal wastewater treatment.
+Water Res. 46 (11), 3657–3670. o Tf ca hd nv oa ln c 5e 0d (n 6u )t r 3ie 0n 2t r –e 3m 0o 3v 0a l technologies for wastewater treatment. Environ. Sci.
+e . , 0 .
+Daud, M., Rizvi, H., Akram, M.F., Ali, S., Rizwan, M., Nafees, M., Jin, Z.S., 2018. Review
+Reinelt, T., Liebetrau, J., Nelles, M., 2016. Analysis of operational methane emissions
+of upflow anaerobic sludge blanket reactor technology: effect of different parameters
+from pressure relief valves from biogas storages of biogas plants. Bioresour. Technol.
+and developments for domestic wastewater treatment. J. Chem. 2018, 1596319. 217, 257–264.
+De Haas, D., Hartley, K., 2004. Greenhouse Gas Emission from BNR Plants: Do We Have
+the Right Focus, pp. 5–7. Rodriguez-Garcia, G., Frison, N., Vazquez-Padin, J.R., Hospido, A., Garrido, J.M.,
+Fatone, F., Bolzonella, D., Moreira, M.T., Feijoo, G., 2014. Life cycle assessment of
+Duan, H., Ye, L., Erler, D., Ni, B.J., Yuan, Z., 2017. Quantifying nitrous oxide production
+nutrient removal technologies for the treatment of anaerobic digestion supernatant
+pathways in wastewater treatment systems using isotope technology - a critical
+review. Water Res. 122, 96–113. a 8n 7d –i 8ts 9in tegration in a wastewater treatment plant. Sci. Total Environ. 490,
+1 7 .
+Duan, H., Ye, L., Lu, X., Batstone, D.J., Yuan, Z., 2019. Self-sustained nitrite
+Schaum, C., Fundneider, T., Cornel, P., 2016. Analysis of methane emissions from
+a rec mcu om vau ll a it ni o an ra ot l io cw lup dH eg r de ia gt ely te ion nh .a En nce vs v oo nl .a Sti cl ie s To el cid hs od le s 5tr 3u c (3ti )o n 2an 2d –n 1i 2tr 3o 4g .e n digested sludge. Water Sci. Technol. 73 (7), 1599–1607.
+e b s g s ir . n . , 1 5
+Schaum, C., Lensch, D., Bolle, P.-Y., Cornel, P., 2015. Sewage sludge treatment:
+Duan, H., Zhao, Y., Koch, K., Wells, G.F., Zheng, M., Yuan, Z., Ye, L., 2021. Insights into
+evaluation of the energy potential and methane emissions with COD balancing.
+nitrous oxide mitigation strategies in wastewater treatment and challenges for wider J. Water Reuse Desalin. 5 (4), 437–445.
+implementation. Environ. Sci. Technol.
+Shammas, N., Wang, L., 2007. Biosolids Treatment Processes (Handbook of
+Ferraz, F.M., Povinelli, J., Vieira, E.M., 2013. Ammonia removal from landfill leachate by
+air stripping and absorption. Environ. Technol. 34 (15), 2317–2326. Environmental Engineering, vol. 6.
+10

@@ -1,0 +1,26 @@
+{
+  "last_updated": "2026-07-07T16:27:02.714439",
+  "papers_analyzed": 35,
+  "domain": "环境反应工程",
+  "methods_frequency": {
+    "advanced_oxidation": {
+      "Fenton": 4,
+      "persulfate": 4,
+      "photocatalysis": 6,
+      "electrochemical": 18
+    },
+    "catalysis": {
+      "nanocatalysis": 1
+    },
+    "treatment_technology": {
+      "membrane": 13,
+      "biological_treatment": 4,
+      "adsorption": 5
+    },
+    "analysis_methods": {
+      "mechanism_study": 6,
+      "characterization": 11,
+      "kinetics": 4
+    }
+  }
+}

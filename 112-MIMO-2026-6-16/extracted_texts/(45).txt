@@ -1,0 +1,651 @@
+--- Page 1 ---
+JournalofWaterProcessEngineering56(2023)104476
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Comprehensive analysis of greenhouse gas emissions and emission factors
+in a Korean domestic wastewater treatment plant: Insights into mechanisms
+and pathways for climate change mitigation
+Muhammad Kashif Shahida, Younggyun Choib,*
+aResearch Institute of Environment & Biosystem, Chungnam National University, Yuseonggu, Daejeon 34134, Republic of Korea
+bDepartment of Environmental and IT Engineering, Chungnam National University, Yuseonggu, Daejeon 34134, Republic of Korea
+A R T I C L E I N F O A B S T R A C T
+Keywords: This study aimed to estimate greenhouse gas (GHG) emissions from the Daejeon wastewater treatment plant
+Climate change (WWTP) in South Korea and identify strategies for reducing its carbon footprint. Both the worksheet-based
+GHG emissions estimation Carbon Footprint Calculation Tool and the Massflow3 simulator were used to calculate the total GHG emis-
+MassFlow3 simulator sions from the “D” WWTP and identify the main sources of emissions. The results revealed that electricity
+P Suro stc ae is ns m blo ed wel ain stg consumption contributed to 45 (cid:0) 48 % of emissions, while direct emissions from N2O accounted for 35–38 % of
+a e water treatment
+the total emissions. Furthermore, it was discovered that the WWTP's GHG emissions were 33–57 % higher
+compared to European sewage treatment plants that had established GHG reduction programs. To decrease the
+plant's carbon footprint, recommendations include optimizing nitrogen removal rates while minimizing
+incomplete nitrification and controlling the air flow rate in the aeration tank. Additionally, there is an emphasize
+on the importance of establishing a strategy to reduce indirect GHG emissions resulting from power consump-
+tion. These findings have important implications for the policy and management of WWTPs, highlighting the
+potential environmental and economic benefits of GHG emissions reduction.
+1. Introduction prioritize sustainable development approaches to mitigate GHG emis-
+sions [13,14]. International cooperation is necessary to address climate
+The industrial revolution and subsequent technological advance- change and its effects. In the 2015 Paris Agreement, 196 countries
+ments have resulted in increased energy consumption, which has had agreed to contribute to managing climate change and reducing GHG
+negative impacts on the environment and natural resources [1,2]. emissions [12].
+Although wastewater treatment is a crucial aspect of development, the To minimize GHG emissions and optimize process efficiency, it is
+environmental impact of wastewater treatment plants (WWTPs) cannot important for facilities to analyze big data to identify inefficiencies and
+be overlooked [3–5]. During organic matter degradation via anaerobic areas for improvement. Various mathematical modeling, design, and
+digestion or aerobic oxidation, as well as during nitrogen removal pro- operational techniques have been proposed at the national, regional,
+cesses such as nitrification and denitrification, greenhouse gases (GHGs) and global levels for strategic planning to mitigate GHG emissions
+such as methane, nitrous oxide, and carbon dioxide are produced [6–8]. [15,16]. To aid in managing emissions, several software programs such
+Additionally, energy consumption and chemical usage in WWTPs as SimaPro, BioWin, Gabi, and IPCC inventory software, have been
+contribute indirectly to the carbon footprints of the plants [9,10]. These developed [17–19]. Inconsistent definitions of mitigation goals and
+emissions have significant impacts on the global environment, contrib- unclear system boundaries often lead to inaccurate estimation of GHG
+uting to climate change, which in turn causes sea level rise, Arctic and emissions, resulting in overestimation or underestimation of emissions.
+Antarctic ice loss, glacier retreat, and more frequent and intense flood Moreover, significant stages such as sludge treatment, water supply, and
+and drought events [11]. The excessive consumption of fossil fuels has wastewater collection are often overlooked in the estimation process.
+already increased the Earth's temperature by 1.9 ◦C, resulting in severe According to a report, sewage sludge management that occurs outside of
+impacts on biodiversity and human life [12]. Therefore, policymakers WWTPs could contribute up to 40 % of additional GHG emissions, in
+* Corresponding author.
+E-mail address: youngchoi@cnu.ac.kr (Y. Choi).
+https://doi.org/10.1016/j.jwpe.2023.104476
+Received 21 August 2023; Received in revised form 26 September 2023; Accepted 24 October 2023
+Availableonline27October2023
+2214-7144/©2023ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Table 1 addition to emissions from the regular wastewater treatment process
+Summary of some worldwide studies on monitoring and control of GHGs [20]. Recent studies on monitoring and controlling GHG emissions in
+emission in WWTPs. WWTPs worldwide are summarized in Table 1.
+Description of studies reported on GHG estimation Region Ref. Despite significant advances in wastewater treatment technologies in
+South Korea over the past three decades, including the adoption of
+The analysis of GHGs emissions from a natural wastewater Morocco [21]
+treatment system showed that a straightforward modeling advanced treatment methods, GHG emissions from WWTPs have not
+approach, applied to both direct and indirect estimation, shown any noticeable reduction, as demonstrated in Figs. 1 and S1
+yielded more precise results for each treatment plant unit than (supporting information). This lack of reduction may be attributed to the
+the methods recommended by the IPCC guidelines. underdeveloped GHG emissions estimation system for WWTPs in Korea,
+A research project was undertaken to develop a data-driven China [22]
+which is currently based on the IPCC 2006 guidelines (revised in 2019)
+approach aimed at optimizing the operation of WWTPs, with
+the objective of reducing both energy consumption and GHG Tier 1, a framework that may not provide accurate estimations. There-
+emissions. fore, there is an urgent need for the systematic establishment of a GHG
+Researchers utilized data from a pulp and paper mill industry to China [23] emission inventory for public sewage treatment facilities with a daily
+develop a sustainable economic production quantity (EPQ) treatment capacity of 500 m3/day or more in Korea. The accurate esti-
+model. This model is designed to determine the optimal
+production quantity while simultaneously minimizing both mation of GHG emissions from established WWTPs and the development
+GHG and wastewater emissions. of new emission factors will enable a precise assessment of the contri-
+The GHG emissions from domestic wastewater treatment Iran [24] bution of WWTPs to global GHG emissions and identification of poten-
+systems were analyzed and modeled, following Section 6 of tial avenues for reducing these emissions. These efforts will prove
+the IPCC guidelines and utilizing available information. The
+valuable for environmental engineers, water professionals, policy-
+results showed that the per capita CO2e emission from
+domestic wastewater for each individual in Iran was makers, and sustainable development initiatives.
+approximately 54.85 kg/year in the base year of 2017. This study conducted an analysis of GHG emissions from each pro-
+The life cycle greenhouse gas emissions from constructed China [25] cess within a typical large scale (treatment capacity >500,000 m3/d)
+wetlands and other conventional treatment units were
+domestic WWTP in Korea to evaluate its influence on global climate
+estimated using the ISO 14040 standard framework, following
+change. The primary objective was to gain insights into the mechanisms
+the procedural rules of life cycle assessment (LCA).
+The GHG emissions from a WWTP utilizing anaerobic digestion Austria [26] and pathways of GHG emissions from WWTPs, including both direct and
+were analyzed, and the carbon footprint analysis indicated a indirect emissions, along with associated emission factors. To accom-
+total emission of approximately 36 kg CO2e/PE/a. plish this, a GHG inventory was developed, covering operational activ-
+The GHG emissions from a WWTP employing simultaneous Austria [26]
+ities, chemical usage, transportation, energy consumption, and sludge
+aerobic sludge stabilization were analyzed, indicating a total
+emission of approximately 24 kg CO2e/PE/a. management. The estimation of GHG emissions was performed using the
+The benchmarking of GHG emissions was employed as a control Canada [27] Carbon Footprint Calculation Tool and the Simulation Program Mass-
+strategy for wastewater treatment systems. To assess plant flow3. The accuracy and effectiveness of these tools were assessed,
+performance, a modified version of the IWA Benchmark
+leading to the identification of the primary sources of GHG emissions
+Simulation Model No2 (BSM2G), which included GHG
+and their respective contributions to the overall emissions. Based on the
+emissions, was utilized.
+To develop a control strategy for reducing GHG emissions from UK [28] results, a series of potential strategies for reducing GHG emissions were
+WWTPs, the processes are simulated using BSM2–e, a proposed. This study's findings offer valuable insights for environmental
+modified version of the BSM2 model designed for dynamic engineers, water professionals, and policymakers, enabling informed
+modeling of GHG emissions.
+decisions-making and actions to mitigate the impact of domestic WWTPs
+on climate change.
+Fig. 1. GHG emissions from the waste fields (landfill, incineration, and wastewater treatment) in Korea during last three decades (1990–2020). The year wise data is
+presented in supplementary data (Fig. S1).
+2
+
+--- Page 3 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Fig. 2. The operational scheme of the “D” WWTP.
+Fig. 3. Establishment of system boundaries for GHG emission and reduction inventory. Red and blue borders indicate GHG emission points and GHG reduction point,
+respectively. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+2. Materials and methods containing liquid is then circulated back to the anoxic tank. Activated
+sludge and microorganisms that have absorbed phosphorus in the aer-
+2.1. The operation of “D” WWTP obic tank settle in the final settling tank, and clarified water is prepared
+for discharge. Some of the settled activated sludge is returned to the
+Fig. 2 illustrates the operational process of the Daejeon (“D”) WWTP, reaction tank, while waste sludge is thickened and dehydrated for
+and Table S1 in the supporting information provides details about the disposal.
+facilities and functions involved in the water treatment process. Upon To create a GHG inventory for the sewage treatment plant located in
+arrival at the plant, wastewater undergoes initial screening to remove the metropolitan city of Daejeon, two tools were employed: an open-
+large floating objects, followed by passage through a grit chamber where source Microsoft Excel-based worksheet program provided by Svenskt
+cinders, sand, and small stones settle out. The remaining suspended Vatten [30] and MassFlow3, a simulation program that estimates
+solids, along with organic and inorganic matter, are removed through sewage treatment performance and associated GHG emissions. The
+sedimentation in a tank, resulting in sludge formation as solids settle to system boundaries were established using operational data from the “D”
+the bottom due to reduced flow speed. In the secondary stage of the “D” WWTP, which has a large treatment capacity of 900,000 tons of sewage
+WWTP, the A2O (Anaerobic-Anoxic-Oxic) method is employed to per day and consists of four treatment plants. In Fig. 2, the operational
+remove nitrogen and phosphorus from the wastewater. This process scheme of the “D” WWTP is depicted, illustrating effluents discharged
+comprises three tanks arranged in sequence: the anaerobic tank, anoxic into a nearby river, with sludge undergoing digestion, concentration,
+tank, and aerobic tank [29]. In the anaerobic tank, phosphorus is and dehydration. The A2O process is the primary water treatment
+released by microorganisms and activated sludge due to the absence of method used by the “D” WWTP, involving the use of chemicals, chlorine
+air and oxygen. Wastewater then moves to the anoxic tank, where de- disinfection, and filtration. Notably, chemical input and filtration pro-
+nitrifiers decompose nitrate ions and release nitrogen into the air. In the cesses are essential components of the total phosphorus treatment fa-
+aerobic tank, aeration and oxygen addition enable nitrifying bacteria to cility, essential to meet the required effluent water quality standards.
+convert ammoniacal nitrogen (NH3(cid:0) N) to nitrate ions. The nitrate-
+3
+
+--- Page 4 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Table 2 final disposal of sludge were estimated. The system boundaries cover
+The operational data of the “D” WWTP used for estimation of GHG emissions. various elements, including biogas generation during plant operation
+Process Parameter (input variables) Results Unit and sludge incineration, sand and contaminants, GHG emissions from
+the effluent system, and the sludge management stage. The inventory
+Sewage influent & Flow 26,966 m3/h
+also takes into account power consumption, heat energy consumption,
+return liquor BOD 35,995 ton/year
+N 9616 ton/year and fuel consumption, such as gasoline. Additionally, the inventory in-
+P 940 ton/year cludes thermal energy from alternative sources such as solar power or
+Return liquor flowrate 11.86 m3/h combined heat and power (CHP). It also considers the utilization of
+Effluent Effluent BOD 298 ton/year
+sludge as fertilizer or for energy production using biogas generated
+Effluent TN 2112 ton/year
+Effluent TP 30 ton/year through sludge digestion during final disposal to reduce GHG emissions.
+Chemicals PAC 6354 ton/year Notably, GHG emissions from concrete use during plant construction
+consumption Polymer coagulant 942 ton/year were omitted due to information challenges, given their relatively small
+Transport distance from 150 km contribution (only about 5 % of total emissions during plant operation).
+supplier to WWTP
+Overall, the established GHG emission inventory provides a compre-
+Number of deliveries per 255 No/year
+year hensive understanding of the emissions associated with the “D” WWTP,
+Energy Total electricity use 70,861.45 MWh/ encompassing both direct and indirect sources. The exclusion of emis-
+consumption year sions from the construction stage does not significantly affect the ac-
+Percentage of renewable 18.7 %
+curacy of the inventory.
+energy used in electricity
+Local emission factor for 0.5432 kg CO2e/
+power generation kWh
+Biogas use Produced biogas 8,136,187 Nm3/ 2.3. Sources of GHG emissions
+year
+Methane content in biogas 62 %
+Biogas incineration 1,148,002 Nm3/ According to the IPCC approach, GHG emissions from WWTPs are
+year categorized as direct and indirect emissions. Direct emissions occur
+Direct emission of biogas to 87,475 Nm3/ within the plant boundaries and result from activities releasing GHGs (e.
+atmosphere year g., CO2, CH4, and N2O) into the atmosphere. In this study, direct emis-
+Biogas utilization in boilers 6,988,185 Nm3/ sions primarily originated from the A2O process and other treatment
+year
+units. Indirect emissions result from activities within the plant bound-
+Transports Sludge transport distance 300 Km/No
+Means of transport (number 1096 No/year aries but occur outside of it. In this study, the primary sources of indirect
+of transports) emissions were electricity and chemical consumption, as well as the
+Contaminant/sand/ash 12 Km/No disposal of dewatered sludge. Analyzing both direct and indirect GHG
+transport distance
+emissions from WWTPs is essential for identifying opportunities to
+Other transport means 2662 No/year
+(number of transports) reduce emissions and mitigate the environmental impact of wastewater
+Sludge Digester residence time 29 days treatment processes. By understanding the sources and extent of these
+management Amount of dewatered 36,500 ton/year emissions, WWTPs can develop strategies to minimize their carbon
+sludge footprint and contribute to a more sustainable future.
+TS content of influent 4.5 %
+Although obtaining precise data is challenging due to various factors
+sludge of digester
+VS content of influent 73.3 % of TS like site conditions and influent load variations, CH4 and N2O emissions
+sludge of digester can be analyzed directly or indirectly by examining BOD, organic mat-
+Waste management Amount of impurities 1253.6 ton/year ter, and nitrogen concentrations in sewage. In this study, direct GHG
+TS-contents of impurities 64.2 %
+emission factors for CH4 and N2O from sewage treatment facilities and
+Incineration rate among TS 50 %
+effluent systems were calculated based on BOD and total nitrogen (TN)
+of impurities
+concentrations before and after secondary treatment. Additionally, in-
+direct GHG emission factors for sewage treatment facilities were iden-
+2.2. System boundary and descriptions tified and categorized based on power consumption, sludge treatment
+and utilization, biogas utilization, chemical use, and transportation.
+The first important step in preparing a GHG emission inventory for a Waste management and treatment processes significantly contribute
+sewage treatment plant is the establishment of clear system boundaries. to GHG emissions. WWTPs' GHG emissions are categorized as direct and
+These boundaries are essential for identifying all relevant facilities, indirect. Direct emissions refer to GHGs discharged from the water
+chemical inputs, sludge management processes, final disposal methods, surface into the atmosphere, while indirect emissions result from the
+energy production and consumption, and other key aspects necessary for carbon footprint associated with WWTP operations, including chemicals
+preparing the inventory and assessing changes in GHG emissions over and energy use. Energy is required for air blowers, pumps, lighting, and
+time. In this study, the system boundaries for the “D” WWTP were heating, while chemicals are used for various processes [31,32]. The
+defined according to Fig. 3, with GHG emissions calculated based on the primary GHG emissions from WWTPs include CO2, CH4, and N2O,
+current operational status, excluding the construction stage. Addition- generated during biochemical reactions for organic matter and N2
+ally, indirect GHG emissions associated with chemical usage and the removal from wastewater. To control their release, it is essential to
+Table 3
+Results obtained from on-site sample collection at “D” WWTP.
+Parameters BOD (mg/L) CODcr (mg/L) TN (mgN/L) T-P (mgP/L) TSS (TS) (mg/L) VSS (VS) (mg/L)
+Influent 152.38 289.51 40.71 3.98 156.52 97.19
+Primary sedimentation 118.93 225.80 36.78 3.64 107.07 66.69
+Secondary sedimentation 2.23 4.52 9.93 0.58 2.53 2.09
+Digester influent – – 1337 5.01 (34,029) (26,193)
+Digester effluent – – 1156 193.42 (23,692) (17,685)
+Effluent 1.26 2.59 8.94 0.13 1.77 –
+4
+
+--- Page 5 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Fig. 4. The process layout of “D” WWTP, along with the control and simulating tools of MassFlow3.
+identify their emission pathways. and is released into the atmosphere [35]. Therefore, direct emissions
+were estimated by calculating 5 % of the biogas recovery amount from
+the “D” WWTP. For emission factors related to external carbon sources
+2.4. Emission factors
+added to enhance denitrification rates, a literature review was con-
+ducted, and the results are summarized in Table S3 in the Supplemen-
+2.4.1. GHG direct (GHGD) emission factors
+tary data.
+The GHGD method is used to estimate the direct GHG emissions from
+the “D” WWTP. This method involves on-site collection of off-gas for
+2.4.2. GHG indirect (GHGIND) emission factors
+each unit process, followed by analyzing CO2, CH4, and N2O compo-
+GHGIND refers to GHGs indirectly discharged from WWTPs. These
+nents. The Global Warming Potential (GWP) of each gas is calculated
+emissions primarily originate from the electricity and sludge treatment
+using the IPCC 2006 manual standard, with values of 1, 28, and 298 for
+processes, represented by Eqs. (5)–(6). GHGIND also covers emissions
+CO2, CH4, and N2O, respectively [33]. To estimate the GHG emissions
+from the “D” WWTP, experimental data on the removal loads of organic from chemical use, including chemical production and transport, as well
+as sludge transportation. The content is adjusted based on data related to
+matter (BOD) and total nitrogen were used. The emission calculation
+was conducted according to Eqs. (1)–(4). chemical consumption, transport distance, and the final sludge disposal
+∑(cid:0) ) methods employed by the “D” WWTP.
+GWP D= CO 2,j+N 2O j*GWP N2O+CH 4,j*GWP CH4 (1) GHG IND=GHG E+GHG S (5)
+CO 2,j=L BOD,j*EF CO2,j (2) GHG E=C E*EF E (6)
+N 2O j=L TN,j*EF N2Oj (3) Here, GHGE and GHGS represent indirect GHG emissions from power
+consumption and sludge treatment, respectively, and are measured in
+CH 4,j=L BOD,j*EF CH4,j (4) kgCO2,e/d. CE measures the power consumption of the sewage treatment
+plant in kWh/d, while EFE indicates the fuel-equivalent CO2 generation
+CH4H ee mre ii tn te, dC O fr2 o,j m, N t2 hO ej , j ta h n sd ta C gH e 4 o,j f r pe rp or ce es se sn . t T t hh ee a IPm Co Cu n mt ao nf u C aO l 2 d, e N fi2 nO e, s a tn hd e con Tsu om ce ad ufo lar tp eo Gw He Gr Ig Ne Dn e er ma it sio sin nin fk rg oC mO e2, le e/ ck tW rich it.
+lc o s y use at sewage treat-
+warming potential of N2O [GWP(N2O)] and CH4 [GWP(CH4)] as stated
+ment plants, it is necessary to determine power consumption for each
+above. LBOD,j and LTN,j express the removal load of BOD (kgBOD/d) and
+unit process. However, many WWTPs in Korea only manage total power
+TN (kgTN/d) from the jth stage of process. The variables EF(CO2,i), EF
+consumption, so emissions are estimated based on KEPCO's power
+(N2Oj), and EF(CH4,j) all represent the emission factors for CO2 (kgCO2/
+generation composition ratio.
+kgBOD), N2O (kgN2O/kgTN), and CH4 (kgCH4/kgBOD), respectively, ∑(cid:0) )
+for the jth unit process. GHG E= E j*EF E (7)
+andT Nab 2Ole S in2 tin et h ae S vu ap np cele dm be in ot la or gy cd aa lt a p eare tmse en nts e pm roi css ei so sn bfa ac st eo dr s f no r C eH a4 Here, Ej denotes the amount of power consumed in the jth unit pro-
+h d i tr t , o m -
+cess of the sewage treatment plant, measured in kWh. During GHGE
+surements from a treatment plant in Korea [34]. However, these factors
+estimation, a conversion factor of 0.5432 kgCO2/kWh is applied to ac-
+do not account for significant seasonal variations in the unit process. To
+count for GHG emissions from electricity generation, based on KEPCO's
+address this limitation, the 2021 emission factors for CH4 and N2O
+power generation ratio as of 2022.
+provided by the Korea Environment Corporation were used. This study
+considered GHG emissions from both biological and sludge treatment
+processes. However, limited data were available on GHG measurements
+during sludge treatment and management in Korea. A previous study
+suggested that approximately 5 % of the total biogas generated during
+sludge thickening, dehydration, and anaerobic digestion is not captured
+5
+
+--- Page 6 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Table 4 3. Results and discussion
+A detailed overview of each unit process using Massflow3.
+Unit process Parameters Value Unit 3.1. The wastewater treatment process of the target “D” WWTP
+Influent Influent flowrate 647,189 m3/d
+wastewater pH 7.00 – In this study, the open-source worksheet-based program “Tool for
+Temperature 20 ◦C calculating the carbon footprints for WWTPs,” developed by Svenskt
+CODmn 165.76 mg CODmn/ Vatten (Swedish Water and Sewerage Association), was employed to
+L calculate GHG emissions from the “D” WWTP. To ensure accuracy and
+TBOD 152.40 mg BOD/L
+reliability, MassFlow3, a simulation program designed specifically for
+TSS 180 mg SS/L
+TN 40.70 mg N/L sewage treatment, was utilized. Input data windows in Figs. S2–4
+TP 3.97 mg P/L (Supplementary data) were used to incorporate essential operational
+Grit and screenings Influent flowrate 710,877 m3/d data obtained from the “D” WWTP, including information on energy
+Generation of grit & 106.63 m3/d consumption, transportation, sludge and waste management, chemical
+screenings
+Primary clarifier Influent flowrate 710,877 m3/d consumption, and biological treatment processes. Accurate input data
+HRT 3.34 h was obtained through interviews conducted with the responsible
+Total surface area 25,354 m2 personnel at the “D” WWTP, where information on chemical consump-
+Depth 3.90 m tion and various transportation methods was gathered. Furthermore,
+Effective volume 98,880 m3
+details on the final disposal and reuse of sludge were included in Table 2
+Surface loading 28.04 m3/m2/d
+Removal efficiency for ease of reference. Table 2 presents the operational data for the “D”
+BOD 33.38 % WWTP for the year 2021, whereas Table 3 summarizes the average
+TSS 36.90 % values of analysis results obtained from on-site sample collection.
+Biological Influent flowrate 705,685 m3/d MassFlow3 is a simulation program designed specifically for sewage
+treatment Total HRT 10.74 h
+treatment, based on IWA's ASM No.2d (Activated Sludge Model No.2d)
+MLSS 2467 mg/L
+Total SRT 11.9 d and ADM No.1 (Anaerobic Digestion Model No.1) [36,37]. ASM No. 2d
+Aerobic SRT 6.8 d provides a framework capable of describe key sewage treatment pro-
+MLVSS 2067 mg/L cesses, including carbon oxidation, nitrification-denitrification, and
+DO 1.80 mg/L
+biological phosphorus removal through enhanced biological processes.
+Solid loading 103 kgSS/m2/d
+RAS 352,842 m3/d ADM No.1 provides a structured model that includes various steps
+Removal efficiency accurately representing biochemical and physicochemical processes in
+BOD 93.25 % sewage treatment. In Fig. 4, the layout composition of the “D” WWTP
+COD 84.42 % using MassFlow3 is depicted, and Table 4 provides a comprehensive
+TSS 87.79 %
+overview of each unit process.
+TN 77.02 %
+TP 76.26 % A model was developed to estimate the CO2 equivalent of GHG
+Disinfection Influent flowrate 700,794 m3/d emissions generated by biochemical reactions occurring on-site, as well
+Surface area 600 m2 as off-site emissions resulting from electricity consumption, chemical
+Effective volume 2700 m3
+production, and transportation under various operating conditions. The
+Chlorine dosage 35.68 mg/L
+total GHG emissions from the “D” sewage treatment plant were subse-
+Contact time 5.55 min
+Disk filtration Influent flowrate 700,794 m3/d quently compared with the findings of other studies conducted in Eu-
+Surface area 3000 m2 ropean countries.
+Hydraulic loading rate 234 m3/m2/h
+Removal efficiency
+3.2. GHG emissions from “D” WWTP
+BOD 94.06 %
+TSS 100 %
+Centrifuge Influent flowrate 10,151 m3/d Fig. 5 illustrates the results of GHG emission estimation for the “D”
+Total dewatering capacity 400 m3/h WWTP using the “Tool for calculating the carbon footprints for
+Polymer 1544 kg/d WWTPs”. One significant advantage of this program lies in its capacity
+Operation time 24 h
+Water content 95 % to incorporate a wide range of data on indirect emissions, a challenge
+Solid capture 90 % often encountered when estimating emissions in commercial sewage
+Anaerobic Influent 3971 m3/d treatment process simulation programs like MassFlow, GPS-X, and Bio-
+digestion VS loading 2.42 kg/m3/d Win. The total GHG emissions from the “D” WWTP were estimated at
+VS removal 34.20 %
+CH4/VS removal 0.50 m3/kg/d 78,555 tonCO2,e/year, with power consumption contributing the largest
+Biogas production 30,809 m3/d share, accounting for 41,473 tonCO2,e/year or 52.8 % of the total
+CH4/Biogas 65 % emissions. Notably, this percentage exceeds the reported 40 % contri-
+Temperature 35 C bution of energy consumption to total emissions in WWTPs [38].
+SRT 22.3 d
+Dewatering Influent flowrate 32,003 m3/d Moreover, GHG emissions (CH4 and N2O) directly emitted from the
+Operational time 10 h/d/set biological treatment process constituted 44.5 % of the total emissions,
+Polymer dosage 1293 kg/d totaling 34,918 tonCO2,e/year. A comprehensive overview of the unit
+processes is presented in Fig. S5 (Supplementary data).
+COD: chemical oxygen demand; TBOD: total biological oxygen demand; TSS:
+The analysis shows that substituting electricity with renewable en-
+total suspended solids; TN: total nitrogen; TP: total phosphorous; HRT: hydraulic
+retention time; SRT: sludge retention time; MLSS: mixed liquor suspended solids; ergy like biogas and solar energy resulted in emissions of only 4226
+MLVSS: mixed liquor volatile suspended solids; DO: dissolved oxygen; RAS: tonCO2,e/yr. This indicates the immediate requirement for broader
+return activated sludge rate. adoption of new and renewable energy sources. Priority should be given
+to increasing biogas production and utilization rather than focusing on
+non-sewage treatment factors like sunlight. Anaerobic co-digestion
+stands out as a promising method with the potential to substantially
+reduce GHG emissions, particularly if enhancements are made to biogas
+production and methane yield [39]. In the United States, co-anaerobic
+6
+
+--- Page 7 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Fig. 5. The GHG emissions from the “D” WWTP during one-year operation. Results obtained using worksheet-based tool for estimation of carbon footprints
+for WWTPs.
+Table 5
+GHG emissions by unit process of “D” WWTP calculated by MassFlow3.
+Unit process CO2,e emission, tonCO2,e/year %
+CH4 N2O Chemical Energy Total
+Total 12,394.6 11,865.4 13,767.1 31,274.7 69,301.8 100
+Screens 0 0 0 5286.8 5286.8 7.63
+Primary clarifier 3435.3 0 832 47.57 4314.9 6.23
+A2O 5143.3 11,381.7 12,935.0 22,147.6 51,607.6 74.5
+Surface filter 331.3 0 0 93.79 425.1 0.61
+Recipient (Effluent) 1924.9 483.7 0 0 2408.6 3.48
+Anaerobic digestion 1559.8 0 0 3580.0 5139.9 7.42
+Building etc. 0 0 0 119.0 119. 0.17 %
+Process, % 17.9 % 17.1 % 19.9 % 45.1 % 100 % –
+data for individual unit processes are unavailable, hindering process
+Table 6 optimization efforts. Therefore, the foremost objective should be to
+CH4 and N2O emissions by unit process of “D” WWTP calculated by MassFlow3. reduce energy consumption at the “D” WWTP by improving the tech-
+Unit process CH4 emission (ton/year) N2O emission (ton/year) nical and economic aspects of wastewater and sewage sludge treatment
+operations. It is important to recognize that energy utilization is intri-
+Total 590.2 38.28
+Screens 0 0 cately linked with operational costs [42]. After thoroughly exploring all
+Primary clarifier 163.6 0 possible avenues for energy optimization, it becomes essential to
+A2O 244.9 36.72 consider alternative sources of energy. The primary focus should remain
+Surface filter 15.78 0
+on prioritizing energy consumption reduction to minimize the carbon
+Recipient (Eff.) 91.66 1.56
+Anaerobic Digestion 74.28 0 footprint of “D” WWTP and mitigate its environmental impact. This goal
+Building etc. 0 0 can be accomplished through the implementation of energy-efficient
+Process (%) 100 100 technologies and the utilization of renewable energy sources such as
+solar and biogas. One effective solution to reduce energy consumption is
+through air flow control, a measure successfully implemented in the
+digestion has already seen successful implementation for nearly a
+“Better Buildings, Better Plants” program in the United States [43,44].
+decade, leading to improvements in digestion efficiency, methane yield,
+Led by the Department of Energy (DOE), this program has been
+and the advancement of energy independence for sewage treatment
+improving energy efficiency in public facilities, including sewage
+facilities [40,41].
+treatment plants, since the early 2010s. Among the public treatment
+While the main sewage treatment process produces a substantial
+facilities that participated in the program, the aeration facility has been
+amount of GHG emissions, a significant portion is also attributable to
+recognized for achieving the highest energy savings. Several studies
+electricity consumption. Unfortunately, specific power consumption
+7
+
+--- Page 8 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+Table 7 phosphorus removal, and optimizing the utilization of sustainable al-
+GHG emissions calculated using the worksheet-based tool, MassFlow3, and the ternatives in wastewater treatment. Negligible GHG emissions were
+sewage statistics of the Ministry of Environment (Korea) as of 2021. associated with transportation, effluent systems, and GHG discharge
+Classification Worksheet-based MassFlow3 Sewage statistics through pretreatment.
+tool (tonCO2,e/ (tonCO2,e/year) (tonCO2,e/year) The GHG emissions resulting from the simulation of the “D” WWTP
+year) using MassFlow3 are summarized in Table 5, totaling 69,301.8 tonCO2,
+Wastewater 34,918 – 33,544 e/year, slightly lower than the result obtained from the worksheet-based
+treatment tool for calculating the CF for WWTP. MassFlow3 calculates emissions
+Screen & primary 77 4598 – based on the power consumption of various mechanical devices,
+A2c Ola &rifi fie nr a l (included in WWT) 29,461 – including A2O blowers, using operation status data for each unit process.
+clarifier This approach differs from the traditional method of measuring elec-
+Electricity 41,473 31,275 39,577 tricity consumption through actual meters. Consequently, the total
+consumption amount of electricity used at the “D” WWTP, based on field survey data,
+Chemical 3300 (included in –
+differed somewhat from the investigation results based on actual meter
+consumption A2O)
+Sludge use 1151 – – readings. Notably, the GHG emissions resulting from electricity use in
+(compost etc.) MassFlow3 were approximately 10,225 tonCO2,e/year lower than the
+Recipient 1451 2409 – emissions calculated through actual electricity meters. This disparity
+Transportation 411 – – represents the most prominent difference between the two programs.
+Biogas use –4226 – –
+Notably, both programs utilized the same basic unit of 0.5432kgCO2,e/
+(electricity
+prod.) kWh, derived from data in the KEPCO 2022 electricity statistics port-
+Surplus biogas (included in biogas 1560 – folio, to measure electricity usage.
+combustion usage) The MassFlow3 program proves to be a valuable tool for monitoring
+Total 78,555 69,303 73,121
+GHG equivalent emissions and forecasting power consumption for each
+sewage treatment process. However, it is essential to recognize that the
+have reported the significant contribution of the aeration unit to the net data obtained from MassFlow3 may vary from actual field measure-
+GHG emissions of WWTP owing to its high energy consumption [45,46]. ments, highlighting the significance of conducting thorough investiga-
+Improving the air flow rate in aeration tanks can lead to a significant tion and analysis to ensure precise data in specific domains.
+reduction in electricity consumption in WWTPs [47]. However, main- Additionally, it is crucial to note that achieving the targeted TN removal
+taining high levels of dissolved oxygen can pose challenges in denitri- efficiency level (TN 78–79 % removal rate) requires the injection of an
+fication zones that require anoxic conditions, potentially leading to external carbon source, which may differ from the operational condi-
+excessive energy consumption [48]. Operators can fine-tune the air flow tions at the site. This highlights the need for comprehensive field data
+rate by monitoring changes in dissolved oxygen concentration within collection to obtain precise results. Therefore, while MassFlow3 proves
+the tank. This optimization approach enhances operational efficiency, to be a valuable tool, detailed field data collection and analysis remain
+reduces power consumption, and contributes to carbon neutrality efforts necessary for accurate assessments of power and chemical consumption
+by minimizing N2O emissions [49]. To effectively implement these in sewage treatment facilities.
+optimization strategies, specialized equipment, such as control units The study found that power consumption was the largest contributor
+that manage and process data obtained from sensors, plays a critical to GHG emissions, accounting for 45.1 % of the total emissions,
+role. These units enable accurate interpretation and analysis of the consistent with the findings of the worksheet-based tool. Additionally,
+collected data, empowering operators to make informed decisions and the study revealed that CH4 and N2O generated throughout the entire
+optimize the air flow rate more effectively. treatment process contributed to 35 % of the total emissions. CH4 was
+The study found that the consumption of coagulants for phosphorus mainly produced in the A2O and primary sedimentation tanks, while
+removal had the highest GHG ratio, with GHG emissions generated from N2O was predominately generated in the A2O process (Table 6). It is
+the use of chemicals for organic matter removal during the primary worth mentioning that simply optimizing power consumption is inade-
+treatment process ranking as the next most significant contributors to quate for mitigating overall GHG emissions. Concurrently, enhancing
+GHG emissions. Therefore, efforts aimed at reducing GHG emissions nitrogen removal efficiency in the A2O process is also essential.
+should prioritize minimizing the use of chemicals, particularly for Table 7 presents a summary of the GHG emissions calculated using
+Fig. 6. The comparison of GHG emission results of “D” WWTP with Austrian WWTP.
+8
+
+--- Page 9 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+three different methods: the worksheet-based tool, MassFlow3, and data significant variations among sectors, with power and chemical usage
+from sewage statistics of the Ministry of Environment as of 2021. The emerging as the primary contributors to GHG emissions. The study
+table shows that the basic unit of GHG emissions generated in the demonstrated that optimizing daily power consumption represented the
+sewage treatment process of the “D” sewage treatment plant is 0.142 most effective strategy for reducing GHG emissions at the “D” WWTP.
+kgCO2,e/m3, with a total power consumption of 72,859 MWh/year. Furthermore, N2O generated in the aeration tank was identified as the
+These values closely align with the estimates obtained using the primary source of GHG emissions, highlighting the importance of
+worksheet-based tool and MassFlow3. While it may be premature to developing nitrogen-related control technology. To mitigate N2O gen-
+directly compare the three methods for accuracy, there is an expectation eration, the study recommends optimizing DO concentration in the
+that combining the two GHG calculation methods used in this study can aeration tank through the use of various sensors. Additionally, the uti-
+prove to be an effective approach for estimating GHG emissions from lization of biogas produced from the anaerobic digestion tank was
+domestic WWTPs. proposed as a promising means to significantly reduce GHG emissions.
+Moreover, these findings highlight a substantial difference, with “D”
+3.3. Comparison of GHG emission rates of “D” WWTP with reported WWTP's emissions being 33–57 % higher than European sewage treat-
+Studies ment plants engaged in GHG reduction initiatives. The findings of this
+study have the potential to significantly influence policy decisions aimed
+The GHG emissions rates reported in previous studies for A2O, acti- at mitigating GHG emissions from WWTPs, which hold a pivotal role in
+vated sludge systems, or other anaerobic/aerobic hybrid processes have addressing climate change.
+exhibited variations when compared to the values obtained in the cur-
+rent study. Many of these earlier studies overlooked nutrient removal
+Declaration of competing interest
+and focused solely on the removal of carbonaceous biochemical oxygen
+demand in municipal wastewaters, often neglecting the effect of off-site
+The authors declare that they have no known competing financial
+GHG emissions. For example, a previous study reported a GHG pro-
+interests or personal relationships that could have appeared to influence
+duction rate of 1.04 kgCO2,e/kgCOD removed for an anaerobic/aerobic
+the work reported in this paper.
+treatment plant [50]. According to IPCC guidelines, municipal waste-
+waters typically have a COD 2.4 times greater than the ultimate BOD,
+Data availability
+resulting in a GHG production rate of 2.5 kgCO2,e/kg BOD. Based on the
+identified EF and operational data, the GHG emissions calculated for the
+“D” WWTP amounted to 78,555 tonCO2,e/year. When this value was Data will be made available on request.
+divided by the annual treated water volume of the “D” WWTP
+(236,223,980 m3/year), it yielded approximately 0.293–0.333 kgCO2/ Acknowledgement
+m3, consistent with some prior studies [38,51]. However, advanced
+WWTPs employing chemical treatments showed significantly higher This work is supported by Daejeon Green Environment Center under
+GHG emissions, approximately 2.69 kgCO2,e/m3 [35]. The disparities in the Research Development Program (2022) and Brain Pool Program
+GHG production rates reported in previous studies underscore the sub- through the National Research Foundation of Korea (NRF) funded by the
+stantial impact of various factors on the total GHG emissions in WWTPs, Ministry of Science and ICT (Grant No.: 2019H1D3A1A02071191).
+including wastewater type and off-site GHG emissions. Therefore, it
+remains crucial to account for these factors when estimating GHG Appendix A. Supplementary data
+emissions from WWTPs.
+Based on data indicating that Daejeon Metropolitan City in South Supplementary data to this article can be found online at https://doi.
+Korea serves approximately 1,440,103 people with public sewage org/10.1016/j.jwpe.2023.104476.
+treatment, accounting for 99 % of the total population (as of 2021), the
+annual GHG emission intensity per person in sewage treatment was References
+calculated and compared to the European case (Fig. 6). The results
+indicated that the GHG emission intensity from the “D” WWTP was 47.9 [1] Y. Cheng, U. Awan, S. Ahmad, Z. Tan, How do technological innovation and fiscal
+kgCO2/year/PE (MassFlow3) and 56.4 kgCO2/year/PE (Worksheet- decentralization affect the environment? A story of the fourth industrial revolution
+and sustainable growth, Technol. Forecast. Soc. Change. 162 (2021), 120398,
+based tool), representing a 33 % and 56.7 % increase, respectively,
+https://doi.org/10.1016/j.techfore.2020.120398.
+compared to an Austrian sewage treatment plant known for its efficient [2] M.K. Shahid, A. Batool, A. Kashif, M.H. Nawaz, M. Aslam, N. Iqbal, Y. Choi,
+power management [26]. In a nutshell, this study emphasizes the need Biofuels and biorefineries: development, application and future perspectives
+emphasizing the environmental and economic aspects, J. Environ. Manage. 297
+to consider various factors in estimating GHG emissions from WWTPs.
+(2021), 113268, https://doi.org/10.1016/j.jenvman.2021.113268.
+The observed variations in emissions rates across previous studies [3] V. Guti´errez, G. Go´mez, D.C. Rodríguez, G. Vidal, Critical analysis of wastewater
+highlight the impact of factors like wastewater type and off-site emis- treatment using vermifilters: operating parameters, wastewater quality, and
+greenhouse gas emissions, J. Environ. Chem. Eng. (2023), 109683, https://doi.org/
+sions. The findings highlight the importance of prioritizing power con-
+10.1016/j.jece.2023.109683.
+sumption optimization at Daejeon Metropolitan City's WWTP to reduce [4] V. Aghabalaei, H. Nayeb, S. Mardani, M. Tabeshnia, M. Baghdadi, Minimizing
+emissions and offer valuable insights for sustainable wastewater treat- greenhouse gases emissions and energy consumption from wastewater treatment
+plants via rational design and engineering strategies: a case study in Mashhad, Iran,
+ment planning.
+Energy Reports. 9 (2023) 2310–2320, https://doi.org/10.1016/j.
+egyr.2023.01.017.
+4. Conclusions [5] M.K. Shahid, A. Kashif, P. Pathak, Y. Choi, P.R. Rout, Water reclamation, recycle,
+and reuse, in: Clean Energy Resour. Recover, Elsevier Inc., 2021, pp. 39–49,
+https://doi.org/10.1016/B978-0-323-90178-9.00028-7.
+This study aimed to assess GHG emissions from a WWTP situated in [6] T. Niu, H. Zhu, B. Shutes, J. Yu, C. He, S. Hou, H. Cui, B. Yan, Wastewater
+the Daejeon Metropolitan City, South Korea. The GHG emissions from treatment performance and gaseous emissions in MFC-CWs affected by influent C/
+the “D” WWTP were found to vary between 69,301 and 78,555 tonCO2, N jr .a 2t 0io 2s 3, 1C 4h 1e 8m 7. E ng. J. 461 (2023), 141876, https://doi.org/10.1016/j.
+ce . 6 .
+e/year, as determined by MassFlow3 simulator and Excel-based CF [7] M.K. Shahid, A. Kashif, P.R. Rout, M. Aslam, A. Fuwad, Y. Choi, R.B. Ja, J.H. Park,
+calculation tool, respectively. Notably, electricity usage constituted a G. Kumar, A brief review of anaerobic membrane bioreactors emphasizing recent
+significant portion (45–48 %) of emissions, while direct N2O emissions advancements , fouling issues and future perspectives, J. Environ. Manage. 270
+(2020), 110909, https://doi.org/10.1016/j.jenvman.2020.110909.
+contributed significantly (35–38 %), highlighting the importance of
+[8] A. Shrestha, T.N. Bhattarai, S. Ghimire, B. Mainali, H. Treichel, S.R. Paudel,
+targeted reduction strategies. The GHG emission inventory revealed Estimation of greenhouse gases emission from domestic wastewater in Nepal: a
+9
+
+--- Page 10 ---
+M.K. Shahid and Y. Choi J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g56(2023)104476
+scenario-based analysis applicable for developing countries, Chemosphere 300 [30] Svensktvatten, Tool for calculating the carbon footprint for wastewater treatment
+(2022), 134501, https://doi.org/10.1016/j.chemosphere.2022.134501. plants. https://www.svensktvatten.se/, 2014 (accessed August 12, 2022).
+[9] M.K. Shahid, B. Mainali, P.R. Rout, J.W. Lim, M. Aslam, A.E. Al-Rawajfeh, Y. Choi, [31] P.R. Rout, M.K. Shahid, R.R. Dash, P. Bhunia, D. Liu, S. Varjani, T.C. Zhang, R.
+A review of membrane-based desalination systems powered by renewable energy Y. Surampalli, Nutrient removal from domestic wastewater: a comprehensive
+sources, Water 15 (2023) 534, https://doi.org/10.3390/w15030534. review on conventional and advanced technologies, J. Environ. Manage. 296
+[10] Q. Su, H. Dai, S. Xie, X. Yu, Y. Lin, V.P. Singh, R. Karthikeyan, (2021), 113246, https://doi.org/10.1016/j.jenvman.2021.113246.
+Water–energy–carbon Nexus: greenhouse gas emissions from integrated urban [32] M. Maktabifard, H.E. Al-Hazmi, P. Szulc, M. Mousavizadegan, X. Xu,
+drainage systems in China, Environ. Sci. Technol. 57 (2023) 2093–2104, https:// E. Zaborowska, X. Li, J. Mąkinia, Net-zero carbon condition in wastewater
+doi.org/10.1021/acs.est.2c08583. treatment plants: a systematic review of mitigation strategies and challenges,
+[11] N. Chausali, J. Saxena, R. Prasad, Nanotechnology as a sustainable approach for Renew. Sustain. Energy Rev. 185 (2023), 113638, https://doi.org/10.1016/j.
+combating the environmental effects of climate change, J. Agric. Food Res. 12 rser.2023.113638.
+(2023), 100541, https://doi.org/10.1016/j.jafr.2023.100541. [33] Y. Zhan, Z. Yao, P.M. Groffman, J. Xie, Y. Wang, G. Li, X. Zheng, K. Butterbach-
+[12] M. Umar, X. Ji, D. Kirikkaleli, Q. Xu, COP21 roadmap: do innovation, financial Bahl, Urbanization can accelerate climate change by increasing soil N2O emission
+development, and transportation infrastructure matter for environmental while reducing CH4 uptake, Glob. Chang. Biol. (2023) 1–14, https://doi.org/
+sustainability in China? J. Environ. Manage. 271 (2020), 111026 https://doi.org/ 10.1111/gcb.16652.
+10.1016/j.jenvman.2020.111026. [34] D. Kyung, M. Kim, J. Chang, W. Lee, Estimation of greenhouse gas emissions from a
+[13] N. Amin, M. Aslam, M. Yasin, S. Hossain, M.K. Shahid, A. Inayat, A. Samir, hybrid wastewater treatment plant, J. Clean. Prod. 95 (2015) 117–123, https://
+R. Ahmad, M.N. Murshed, M.S. Khurram, Municipal solid waste treatment for doi.org/10.1016/j.jclepro.2015.02.032.
+bioenergy and resource production: potential technologies, techno-economic- [35] M. Bani Shahabadi, L. Yerushalmi, F. Haghighat, Impact of process design on
+environmental aspects and implications of membrane-based recovery, greenhouse gas (GHG) generation by wastewater treatment plants, Water Res. 43
+Chemosphere 323 (2023), 138196, https://doi.org/10.1016/j. (2009) 2679–2687, https://doi.org/10.1016/j.watres.2009.02.040.
+chemosphere.2023.138196. [36] R. Carrette, D. Bixio, C. Thoeye, P. Ockier, Full-scale application of the IAWQ ASM
+[14] F.M. Ardo, J.W. Lim, A. Ramli, M.K. Lam, W. Kiatkittipong, E.A. Abdelfattah, M. No. 2d model, Water Sci. Technol. 44 (2001) 17–24, https://doi.org/10.2166/
+K. Shahid, A. Usman, S. Wongsakulphasatch, N.T. Sahrin, A review in redressing wst.2001.0748.
+challenges to produce sustainable hydrogen from microalgae for aviation industry, [37] D.J. Batstone, J. Keller, I. Angelidaki, S.V. Kalyuzhnyi, S.G. Pavlostathis, A. Rozzi,
+Fuel 330 (2022), 125646, https://doi.org/10.1016/j.fuel.2022.125646. W.T.M. Sanders, H. Siegrist, V.A. Vavilin, The IWA anaerobic digestion model no 1
+[15] A. Kumar, A. Thanki, H. Padhiyar, N.K. Singh, S. Pandey, M. Yadav, Z.-G. Yu, (ADM1), Water Sci. Technol. 45 (2002) 65–73, https://doi.org/10.2166/
+Greenhouse gases emission control in WWTS via potential operational strategies: a wst.2002.0292.
+critical review, Chemosphere 273 (2021), 129694, https://doi.org/10.1016/j. [38] L. Lin, Carbon emission assessment of wastewater treatment plant based on
+chemosphere.2021.129694. accounting perspective, in: E3S Web Conf., EDP Sciences, 2020, p. 4049, https://
+[16] G. Mannina, A. Cosenza, T.F. Rebouças, A plant-wide modelling comparison doi.org/10.1051/e3sconf/202019404049.
+between membrane bioreactors and conventional activated sludge, Bioresour. [39] K. Hagos, J. Zong, D. Li, C. Liu, X. Lu, Anaerobic co-digestion process for biogas
+Technol. 297 (2020), 122401, https://doi.org/10.1016/j.biortech.2019.122401. production: progress, challenges and perspectives, Renew. Sustain. Energy Rev. 76
+[17] S. Kar, R. Singh, P.L. Gurian, A. Hendricks, P. Kohl, S. McKelvey, S. Spatari, Life (2017) 1485–1496, https://doi.org/10.1016/j.rser.2016.11.184.
+cycle assessment and techno-economic analysis of nitrogen recovery by ammonia [40] S.A. Neshat, M. Mohammadi, G.D. Najafpour, P. Lahijani, Anaerobic co-digestion
+air-stripping from wastewater treatment, Sci. Total Environ. 857 (2023), 159499, of animal manures and lignocellulosic residues as a potent approach for sustainable
+https://doi.org/10.1016/j.scitotenv.2022.159499. biogas production, Renew. Sustain. Energy Rev. 79 (2017) 308–322, https://doi.
+[18] S.S. Rashid, S.N. Harun, M.M. Hanafiah, K.K. Razman, Y.-Q. Liu, D.A. Tholibon, org/10.1016/j.rser.2017.05.137.
+Life cycle assessment and its application in wastewater treatment: a brief overview, [41] E.-S. Salama, S. Saha, M.B. Kurade, S. Dev, S.W. Chang, B.-H. Jeon, Recent trends
+Processes 11 (2023) 208, https://doi.org/10.3390/pr11010208. in anaerobic co-digestion: fat, oil, and grease (FOG) for enhanced biomethanation,
+[19] D. Guo, B. Li, W. Yu, J.-C. Han, Y. Zhou, Z. Ye, X. Wu, B. Young, Y. Huang, Prog. Energy Combust. Sci. 70 (2019) 22–42, https://doi.org/10.1016/j.
+Revisiting China’s domestic greenhouse gas emission from wastewater treatment: a pecs.2018.08.002.
+quantitative process life-cycle assessment, Sci. Total Environ. 876 (2023), 162597, [42] M. Ibrahim, M.H. Nawaz, P.R. Rout, J. Lim, B. Mainali, M.K. Shahid, Advances in
+https://doi.org/10.1016/j.scitotenv.2023.162597. produced water treatment technologies: an in-depth exploration with an emphasis
+[20] B. Liu, Q. Wei, B. Zhang, J. Bi, Life cycle GHG emissions of sewage sludge treatment on membrane-based systems and future perspectives, Water 15 (2023) 2980,
+and disposal options in tai Lake watershed, China, Sci. Total Environ. 447 (2013) https://doi.org/10.3390/w15162980.
+361–369, https://doi.org/10.1016/j.scitotenv.2013.01.019. [43] C.R. Price, S.U. Nimbalkar, T.J. Wenning, Energy Intensity Baselining & Tracking
+[21] Y. Bahi, A. Akhssas, M. Khamar, L. Bahi, H. Souidi, Estimation of greenhouse gas Summary Guide: Better Buildings, Better Plants, Oak Ridge National Lab.(ORNL),
+(GHG) emissions from natural lagoon wastewater treatment plant: Case of Ain Oak Ridge, TN (United States), 2020, https://doi.org/10.2172/1649122.
+Taoujdate-Morocco, in: E3S Web Conf., EDP Sciences, 2020, p. 1012. [44] P. Appleby, Building a better, more efficient plant: variable frequency drives
+[22] G. Campo, A. Miggiano, D. Panepinto, M. Zanetti, Enhancing the energy efficiency (VFDs), which can significantly impact energy efficiency goals by optimizing
+of wastewater treatment plants through the optimization of the aeration systems, performance and reducing energy consumption by up to 50%, are among options
+Energies 16 (2023) 2819, https://doi.org/10.3390/en16062819. in the US Department of Energy Bett, Control. Eng. 60 (2013) M1.
+[23] Y.M. Yee, L. Sy, K. Lomibao, J.D. German, H.-M. Wee, Sustainable economic [45] T. Jiang, G. Li, Q. Tang, X. Ma, G. Wang, F. Schuchardt, Effects of aeration method
+production quantity model considering greenhouse gas and wastewater emissions, and aeration rate on greenhouse gas emissions during composting of pig feces in
+Sustainability 15 (2023) 3436, https://doi.org/10.3390/su15043436. pilot scale, J. Environ. Sci. 31 (2015) 124–132, https://doi.org/10.1016/j.
+[24] H. Nayeb, M. Mirabi, H. Motiee, A. Alighardashi, A. Khoshgard, Estimating jes.2014.12.005.
+greenhouse gas emissions from Iran’s domestic wastewater sector and modeling [46] E. Płuciennik-Koropczuk, S. Myszograj, M. Mąkowski, Reducing CO2 emissions
+the emission scenarios by 2030, J. Clean. Prod. 236 (2019), 117673, https://doi. from wastewater treatment plants by utilirsing renewable energy sources&mdash;
+org/10.1016/j.jclepro.2019.117673. case study, Energies 15 (2022) 8446, https://doi.org/10.3390/en15228446.
+[25] T. Pan, X.-D. Zhu, Y.-P. Ye, Estimate of life-cycle greenhouse gas emissions from a [47] B. Okan, T.H. Erguder, A. Aksoy, Plant-wide modeling of a metropolitan
+vertical subsurface flow constructed wetland and conventional wastewater wastewater treatment plant to reduce energy consumption and carbon footprint,
+treatment plants: a case study in China, Ecol. Eng. 37 (2011) 248–254, https://doi. Environ. Sci. Pollut. Res. 30 (2023) 16068–16080, https://doi.org/10.1007/
+org/10.1016/j.ecoleng.2010.11.014. s11356-022-23054-0.
+[26] V. Parravicini, K. Svardal, J. Krampe, Greenhouse gas emissions from wastewater [48] S.-Y. Leu, D. Rosso, L.E. Larson, M.K. Stenstrom, Real-time aeration efficiency
+treatment plants, Energy Procedia 97 (2016) 246–253, https://doi.org/10.1016/j. monitoring in the activated sludge process and methods to reduce energy
+egypro.2016.10.067. consumption and operating costs, Water Environ. Res. 81 (2009) 2471–2481,
+[27] X. Flores-Alsina, L. Corominas, L. Snip, P.A. Vanrolleghem, Including greenhouse https://doi.org/10.2175/106143009X425906.
+gas emissions during benchmarking of wastewater treatment plant control [49] F. Yang, C. Sun, H. Wang, X. Hu, S. Wang, M. Zhang, L. Zhang, J. Zhong, Significant
+strategies, Water Res. 45 (2011) 4700–4710, https://doi.org/10.1016/j. spatiotemporal variability of nitrous oxide emissions from a temperate reservoir
+watres.2011.04.040. experiencing intensive aquaculture disturbance, Agric. Ecosyst. Environ. 348
+[28] C. Sweetapple, G. Fu, D. Butler, Identifying key sources of uncertainty in the (2023), 108427, https://doi.org/10.1016/j.agee.2023.108427.
+modelling of greenhouse gas emissions from wastewater treatment, Water Res. 47 [50] J. Keller, K. Hartley, Greenhouse gas production in wastewater treatment: process
+(2013) 4652–4665, https://doi.org/10.1016/j.watres.2013.05.021. selection is the major factor, Water Sci. Technol. 47 (2003) 43–48, https://doi.org/
+[29] S. Sun, X. Cheng, S. Li, F. Qi, Y. Liu, D. Sun, N2O emission from full-scale urban 10.2166/wst.2003.0626.
+wastewater treatment plants: a comparison between A2O and SBR, Water Sci. [51] H.D. Monteith, H.R. Sahely, H.L. MacLean, D.M. Bagley, A rational procedure for
+Technol. 67 (2013) 1887–1893, https://doi.org/10.2166/wst.2013.066. estimation of greenhouse-gas emissions from municipal wastewater treatment
+plants, Water Environ. Res. 77 (2005) 390–403.
+10

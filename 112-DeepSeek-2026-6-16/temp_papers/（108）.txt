@@ -1,0 +1,580 @@
+--- Page 1 ---
+Applied Energy 398 (2025) 126441
+Contents lists available at ScienceDirect
+Applied Energy
+journal homepage: www.elsevier.com/locate/apenergy
+Synergistic pathways of water quality improvement and GHG emission
+☆
+reduction in wastewater sector on the Qinghai-Tibet Plateau
+Yao Huanga,b, Bin Chena,b,*, Delin Fangc
+aState Key Laboratory of Regional Environment and Sustainability, School of Environment, Beijing Normal University, Beijing 100875, PR China
+bSchool of Ecology and Environment, Tibet University, Lhasa, 850000, China
+cFaculty of Geographical Science, Beijing Normal University, Beijing 100875, PR China
+H I G H L I G H T S
+•Wastewater GHG emissions trends in Qinghai-Tibet Plateau are analyzed.
+•Effluent quality improves while GHG emissions decline under projected scenarios.
+•Advanced treatment can raise Class 1A effluent compliance at WWTPs by 57 %.
+•GHG emissions drop to 48 % of BAU by 2035 with advanced treatment and sludge use.
+A R T I C L E I N F O A B S T R A C T
+Keywords: Greenhouse gas (GHG) emissions from the wastewater sector in the Qinghai-Tibet Plateau (QTP) have been
+Wastewater treatment increasing, while improving of water quality in wastewater treatment plants (WWTPs) remains urgent, making
+Greenhouse gas emissions coordinated development a crucial objective. In this paper, we conducted an inventory analysis of GHG emissions
+Water quality improvement
+in the QTP wastewater sector from 2014 to 2018. Additionally, we evaluated changes in water quality and GHG
+Qinghai-Tibet Plateau
+emissions under optimized scenarios involving advanced wastewater treatment technologies and enhanced
+sludge resource utilization by 2035. The results show that total wastewater GHG emissions in the QTP increased
+from 0.25 Mt. CO2e to 0.45 Mt. CO2e between 2014 and 2018. However, with an extensive and integrated
+application of technologies tailored to plateau conditions in wastewater treatment and sludge disposal, the
+synergistic development of improving water quality and slowing GHG emissions growth is achievable. By 2035,
+under the scenario of optimizing wastewater treatment processes, the proportion of WWTPs meeting China’s
+Class 1A discharge standard is projected to increase by 57 %, while GHG emissions could be reduced by 35 %,
+relative to the business-as-usual (BAU) scenario. Furthermore, under the scenario of integrating advanced
+treatment processes and sludge resource utilization, GHG emissions is expected to be 48 % of that in the BAU
+scenario by 2035. This study provides insight for the wastewater sector in plateau regions to improve water
+quality and reduce GHG emissions.
+emissions from wastewater purification on the QTP warrant serious
+attention.
+1. Introduction
+Known as the “Towering Asian Spring” [6], the QTP’s water envi-
+ronment is susceptible to human activities [7]. Enhancing the opera-
+Despite playing a crucial role in reducing pollutants [1], wastewater
+tional efficiency of WWTPs and improving effluent quality are crucial for
+utilities contribute 1–2 % of global greenhouse gas (GHG) emissions [2].
+safeguarding the water ecosystem, both locally and in downstream river
+The Qinghai-Tibet Plateau (QTP) has a fragile water ecosystem [3],
+reaches. Notably, the wastewater purification process entails energy
+where wastewater treatment plants (WWTPs) are critical for mitigating
+demand, with energy consumption serving as a major source of carbon
+pollutant loads. By 2022, the number of WWTPs in Qinghai and Tibet emissions, thereby establishing a tightly coupled water-energy‑carbon
+provinces had increased to 2.5 times that of 2013 [4,5]. The rising GHG
+☆ This article is part of a Special issue entitled: ‘Nexus of EEE’ published in Applied Energy.
+* Corresponding author at: No. 19, Xinjiekouwai St., Beijing 100875, PR China.
+E-mail address: chenb@bnu.edu.cn(B. Chen).
+https://doi.org/10.1016/j.apenergy.2025.126441
+Received 1 January 2025; Received in revised form 6 July 2025; Accepted 7 July 2025
+Available online 12 July 2025
+0306-2619/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+quality while mitigating GHG emissions under these scenarios by 2035
+Nomenclature were evaluated. A synergy index (SI) was developed to quantitatively
+assess the co-benefits between pollutant removal and GHG mitigation.
+Abbreviations The findings provides a reference for wastewater sector in plateau re-
+BAU Business-as-usual gions to develop management strategies and technologies innovations
+COD Chemical oxygen demand for improving water quality and reducing GHG emissions.
+CO2e CO2 equivalent
+CPD Comprehensive pollutant discharge 2. Materials and methods
+GHG Greenhouse gas
+QTP Qinghai-Tibet Plateau 2.1. Data sources
+SI Synergy index
+SRU Sludge resource utilization Annual operational data for 175 WWTPs in the QTP were collected
+SS Suspended solids from the National Urban Wastewater Management Information System.
+TN Total nitrogen These data include wastewater volume, average influent and effluent
+TP Total phosphorus pollutant concentrations, treatment process type, sludge generation and
+TWD Treated wastewater discharge electricity consumption, covering the period from 2014 to 2018. Energy
+WC Wastewater collection production data for Qinghai province were obtained from the Qinghai
+WT Wastewater treatment Province Statistical Yearbook.
+WTPI Wastewater treatment processes improvement
+WWTP Wastewater treatment plant 2.2. GHG emissions accounting approach
+GHG emissions are generated during wastewater collection, treat-
+ment, discharge, and sludge disposal. This study quantified GHG emis-
+nexus [8–10]. As demonstrated in previous research, the water-ener-
+sions from six stages, as outlined below:
+gy‑carbon nexus critically influences sustainable urban development
+strategies. Chen et al. [11] elucidated the interplay between urban en-
+a. Direct emissions of fossil CO2, CH4, and N2O during wastewater
+ergy consumption and water resource utilization, while Zhou et al. [12]
+collection (WC).
+highlighted reduced resource and energy consumption as a crucial
+b. Direct emissions of fossil CO2, CH4, and N2O during wastewater
+enabler of low-carbon industrial transitions. However, as the central
+treatment (WT).
+purification component of urban water systems, the wastewater sector
+c. Direct emissions of CH4, and N2O from treated wastewater discharge
+needs to achieve synergistic optimization of water quality improvement,
+(TWD).
+and GHG mitigation - an equally critical imperative for the sustainable
+d. Direct emissions during the sludge disposal.
+development of cities on the QTP.
+e. Indirect emissions associated with electricity consumption in the
+Current studies on the water-energy-carbon nexus in WWTPs have
+wastewater treatment and sludge disposal.
+revealed a tension between water quality improvement and GHG miti-
+f. Indirect emissions from chemicals use, including chemicals for car-
+gation. Specifically, the operational efficiency and effluent quality are
+bon sources and sludge dehydration.
+influenced by factors such as treatment capacity, electricity and chem-
+ical consumption, sludge yield, pollutant load, and pollutant removal
+The GHG emissions inventories were constructed using the IPCC
+rates [9,13,14]. Common approaches to enhance water purification in
+2019 Guidelines for National Greenhouse Gas Inventories and the
+WWTPs include expanding wastewater treatment capacity [15],
+Guidelines for Carbon Accounting and Emission Reduction in the Urban
+adopting advanced technologies [16,17], increasing chemical usage
+Water Sector. The calculations applied the relevant emission factor, as
+[18], and improving electricity consumption [19]. However, these
+shown in Eq. (1). Direct GHG emissions from sludge disposal were
+measures often lead to increased GHG emissions [10,20]. More impor-
+estimated based on the proportions of sludge managed by various
+tantly, the low temperatures and low oxygen partial pressure at high
+disposal methods [27,28] and the corresponding direct emission factors
+altitudes in the QTP present significant challenges for WWTP operations.
+[29]. Detailed formulas (Eq. S1–S7) and parameters (Tables S1–S3) are
+These harsh environmental conditions inhibit microbial enzyme activity
+provided in the Supplementary Information.
+[21], contribute to sludge bulking [22,23], and impair oxygen delivery /
+by aeration systems equipment [24]. As a result, the pollutant removal Ei,j=y i,j×EFi,j×GWPj V (1)
+performance of WWTPs deteriorates, often leading to effluent concen-
+trations that exceed regulatory limits. At present, most WWTPs in the
+where Ei,j denotes the emission intensity of type j GHG (CH4, N2O, fossil
+QTP adhere to the comparatively less stringent Class 1B discharge CO2 or CO2 equivalent (CO2e)) in stage i (kg CO2e/m3); yi,j represents
+standards. However, with anticipated stricter regulations in the future
+the activity amount; EFi,j indicates the type j GHG emission factor of
+[25], energy consumption and chemical demand are expected to rise
+stage i (kg CO2e/(unit yi,j)); GWPj denotes the global warming potential,
+significantly [26]. This transition presents a significant challenge, as the
+25 and 298 are the GWPs of CH4 and N2O; V is the volume of wastewater
+associated rise in GHG emissions is expected to become more pro-
+treated (m3).
+nounced in the QTP. Although existing studies have primarily examined
+This study assumed that the electricity used by wastewater infra-
+the increase in GHG emissions associated with improved water quality
+structure was obtained from power generation facilities within the QTP,
+in WWTPs, few have explored the trade-offs between water quality
+including contributions from clean energy sources. The electricity
+improvement and GHG mitigation from a systemic perspective.
+emission factor was calculated using energy production data [30] from
+Addressing this trade-off is critical for the sustainable development of
+the Qinghai Province Statistical Yearbook and applied to the calculation
+WWTPs in the QTP.
+of GHG emissions across the entire QTP. The electricity emission factor
+This study conducted an inventory analysis of GHG emissions from
+EFelec was calculated by Eq. (2).
+the wastewater sector in the QTP during 2014 to 2018. Three scenarios
+∑
+w fae cr ile te ies sta b al dis vh ae nd et mha et i tn c il nu d te red t th me nex p pa rn os ci eo sn eo sf w ana dst e thw ea t ue tr lt izre aa tit om ne n ot EFelec= k(CFk×Wk/Wtotal) (2)
+i , c n s a e t s , i f
+sludge resource recovery. The potential benefits of enhancing water where EFelec is the emission factor of electricity consumption (kg CO2e/
+2
+
+--- Page 3 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+kWh); CFk represents the emission coefficient of electricity generation Table 1
+technology k (kg CO2e/kWh), with source including coal, oil, natural Description of three scenarios in different conditions.
+gas, solar, wind power, and hydropower [30] (Table S5 shows the de- Name Scenarios Description
+tails); Wk is the electricity generation of technology k (kWh); Wtotal is the
+The annual growth rate of
+total electricity generation of all technologies (kWh).
+wastewater generation is 2 %.
+The wastewater collection and
+treatment rates are projected to
+2.3. Scenario analysis
+increase steadily. By 2035, the
+drainage pipe networks are
+A feasible approach to improving water quality and reducing GHG expected to be fully established,
+emissions in the wastewater sector includes enhancing technological and the volume of wastewater
+innovation, reducing electricity intensity and sludge yield, and treated will increase, with the
+BAU Business-as-usual collection rate reaching 95 % and
+improving pollutants removal rates [30,31]. This study considered
+the treatment rate reaching 99 %.
+scenarios involving improvement in wastewater treatment processes Clean energy development in the
+[32,33] and enhanced sludge resource utilization [34,35] in the QTP QTP aims to double the installed
+wastewater sector. The conditions in 2018 served as the baseline, with clean energy capacity by the end of
+2025, with continued growth at
+2035 selected as the target year to align with the objectives outlined in
+the same rate thereafter. The
+the “14th Five-Year Plan for Urban Wastewater Treatment and Resource
+electricity consumption emission
+Utilization Development Plan” [36] and the “Action Plan for Acceler- factor will adjust in accordance
+ating the Development of the QTP into a National and International with the evolving energy structure.
+Ecological Civilization High Ground” [37]. A summary of the scenarios Based on the BAU scenario, this
+scenario assumes that WWTPs will
+is provided in Table 1, with detailed descriptions available in Supple-
+adopt advanced treatment
+mentary Note 2. The assumed parameters in the scenario analysis may processes to improve operational
+introduce uncertainties to the results. We conduct an uncertainty anal- efficiency. These improvements
+ysis using the Monte Carlo method; see Supplementary Note 3 for are expected to increase the
+removal rates of COD, TN, TP, and
+details.
+Wastewater treatment SS to 88 %, 83 %, 97 %, and 95 %,
+WTPI
+processes improvement respectively. Additionally,
+2.4. Synergistic effects of water quality improvement and GHG emission electricity intensity is projected to
+decrease by 17 %, sludge yield is
+reduction
+expected to decline by 30 %, and
+the GHG emission factor of the
+In terms of synergistic quantification, a synergy index (SI) was wastewater treatment process will
+developed to assess the combined reduction of comprehensive pollutant be adjusted according to the new
+processes.
+discharge and GHG emissions. This method is similar to the cross-
+Based on the WTPI scenario, this
+elasticity synergy evaluation model for pollution and GHG emissions
+scenario assumes the introduction
+[38,39]. Effluent quality was measured using the comprehensive of sludge resource utilization
+pollutant discharge (CPD) index, which describes the discharges of technology. Leveraging the rapid
+multiple pollutants from WWTPs through the application of weighted evaporation facilitated by the
+QTP’s low atmospheric pressure
+values [40,41]. The SI indicates whether the optimization measures in
+and low humidity, technologies
+the scenario analysis effectively control pollutant discharge and GHG WTPI+SRU W pra os ct ee sw sea st e imr t pr re oa vtm emen ent t + such as bio-drying or aerobic
+emissions in a synergistic manner, as well as the degree of synergy. The composting will be employed for
+sludge resource utilization
+specific formulas are as follows: sludge disposal, in conjunction
+with land utilization techniques to
+(CPDo(cid:0) CPDm)/CPDo enhance sludge resource recovery.
+SI= (3)
+(GHGo(cid:0) GHGm)/GHGo The electricity intensity, GHG
+emission factors, and carbon offset
+CPD=∑ Mn×∑w wn (4) i dn e pth ee n ds il nu gd g oe n d this ep o ds isa pl ow sail ll mva er ty h od.
+n
+wn= S1 (5) r Ce od nu vc ei rn sg lyp o 0l lu <ta Sn t d 1i s (c ih .ea .r ,Cge Dt mh <a Cn PDin am ndit i Gg Hat Gin mg G GH HG o)e m ini ds is cio an tes s.
+n e , I < P o < G
+that the measures are more effective in reducing GHG emissions than in
+where SI represents the synergy index of pollutant and GHG emission
+reducing pollutant discharge.
+reduction; CPD is the comprehensive pollutant discharge (kg); CPDo and
+CPDm represent the comprehensive pollutant discharge before and after
+3. Results
+the implementation of optimization measures, respectively (kg); GHGo
+and GHGm represent the GHG emissions before and after the imple-
+3.1. Spatiotemporal evolution of GHG emissions from the QTP
+mentation of optimization measures, respectively (kg CO2e); Mn denotes
+wastewater sector
+the removal amount of pollutant n (kg), including COD, TN, TP, and SS;
+∑wn
+represents the weight of pollutant n (dimensionless); Sn indicates
+wn From 2014 to 2018, the volume of wastewater in the QTP increased
+the control concentration of the corresponding pollutant in the Class 1 A from 407.96 million m3 to 802.29 million m3. During this period, total
+discharge standard (mg/L), (details are provided in Table S6). GHG emissions rose by 78.9 %, from 0.25 to 0.45 million metric tons of
+Under the parameter settings of this study, SI >0 (i.e.,CPDm<CPDo CO2 equivalent (Mt CO2e). Notably, the most significant increase in
+and GHGm<GHGo) indicates that the optimization measures exhibit direct fugitive GHG emissions occurred at the wastewater treatment and
+synergistic effects in reducing both the pollutant discharge and GHG sludge disposal stages, which reached 0.089 and 0.056 Mt. CO2e,
+emissions. Conversely, SI ≤ 0 signifies the absence of any synergistic respectively (Fig. 1a). In 2018, direct emissions from the wastewater
+reduction effect on pollutant discharge or GHG emissions. If SI >1 (i. treatment stage accounted for the largest proportion (38.3 %), followed
+e.,CPDm<CPDo and GHGm<GHGo), the measures are more effective in by emissions from the sludge disposal (24.3 %) and indirect emissions
+3
+
+--- Page 4 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+Fig. 1. Change in trends and spatial distribution of GHG emissions from wastewater sectors on QTP. (a) Annual changes in GHG emissions in different
+wastewater management stages and the volume of wastewater from 2014 to 2018. (b) Proportion of GHG emissions by management stage and emission type in 2018.
+(c) Spatial distribution of total GHG emissions from wastewater sectors and GHG emission intensity of WWTPs in cities from 2014 to 2018. (d) Wastewater volume
+and total GHG emissions from the wastewater sectors in different cities in 2018. (e) GHG emission intensity across different stages of wastewater sectors in cities
+in 2018.
+from electricity consumption (14.3 %) (Fig. 1b). Among direct fugitive expansion of WWTPs. GHG emissions from the wastewater sector
+GHG emissions, N2O emissions represented the largest share (22.0 %), exhibited significant regional variation. The GHG emission intensity of
+followed by CH4 emissions (12.2 %). WWTPs and total GHG emissions in the eastern fringe region exceeded
+Fig. 1c illustrates the spatiotemporal evolution of total GHG emis- those in the southwestern interior. This disparity is primarily attributed
+sions from the wastewater sector and the GHG emission intensity of to the higher altitude, lower population density, and less developed
+WWTPs across cities. With the exception of Bayingolin Mongolian infrastructure for WWTPs in the southwestern interior.
+Autonomous Prefecture in Xinjiang, most cities experienced a year-on- In 2018, the annual GHG emissions from the wastewater sectors of
+year increase in wastewater GHG emissions, likely due to the Mianyang, Xining, Kashgar, Linxia, and Jiuquan exceeded those of other
+4
+
+--- Page 5 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+cities, each surpassing 0.03 Mt. CO2e. The wastewater volumes of stringent Class 1B standard (Standard B), with only 35.1 % meeting the
+Mianyang, Xining, and Kashgar were substantially higher than those of requirements of Standard A (Fig. S5). Fig. 2shows that the concentra-
+other cities, accounting for 18.3 %, 11.5 %, and 8.8 % of the total tions of COD, TN, TP, and SS in the effluent of WWTPs in plateau cities of
+wastewater volume, respectively. This disparity was likely the primary Gansu and Xinjiang provinces were generally higher than those in other
+contributor to the elevated GHG emissions (Fig. 1d). The GHG emission provinces. This discrepancy may be attributed to variations in influent
+intensity in most cities of plateau in Gansu province exceeded that of quality (Fig. S3). When evaluated against the current Standard B,
+other provinces (Fig. 1e), contributing to the relatively high overall GHG plateau cities in Gansu and Xinjiang exhibited a significantly higher
+emissions in the province. The analysis of pollutant removal concen- number of WWTPs with TP concentrations exceeding the standard.
+tration data indicated that the removal amounts of COD, TN, and TP per As the source of numerous rivers in China, the river water quality of
+unit of wastewater volume in cities of plateau in Gansu province the QTP directly impacts the safety of downstream water quality.
+generally exceeded that in other provinces, leading to in higher GHG Standard A sets stricter limits on the concentration of pollutants in
+emission intensity (Supplementary Fig. S4). Combining Fig. 1e and WWTP effluent, thereby controlling the pollutant load discharged into
+Fig. S4, Mianyang exhibited relatively high pollutant removal concen- receiving water bodies. In 2018, the proportions of WWTPs in the QTP
+trations, but GHG emission intensity remained low. This indicated that with effluent COD, TN, TP, and SS concentrations exceeding Standard A
+GHG emissions were effectively controlled in the city’s wastewater were 1.7 %, 14.9 %, 41.9 %, and 44.8 %, respectively. The concentra-
+treatment process. Additionally, the pollutant removal concentrations in tions of TP and SS notably exceeded the standard. The plateau’s low
+Linxia, Huangnan, and Hainan were moderate, but chemical usage temperature environment reduces the activity of key enzymes involved
+during operations was relatively high. This resulted in significantly in microbial nitrogen and phosphorus removal [43]. This may
+greater indirect emission intensity from chemical consumption contribute to the elevated concentrations of TN and TP in the effluent.
+compared to other cities, thereby increasing the total GHG emission COD in WWTP influent is the primary organic carbon source for
+intensity. WWTPs in these three cities can mitigate GHG emission in- microorganisms. In plateau regions, when the COD/TN ratio in waste-
+tensity through the implementation of scientific dosing methods. water exceeds 7, microbial communities are abundant, which enhances
+nitrogen and phosphorus removal efficiency [44]. The high-protein diet
+and unique lifestyle of residents in the QTP [45] may contribute to 63.2
+3.2. Pollutant emission characteristics and operation status of WWTPs in
+% of WWTP influent COD/TN ratios falling below 7 (Fig. 2e).
+QTP
+Between 2014 and 2018, the inflow COD concentration gradually
+decreased, accompanied by a reduction in the COD/TN ratio (Fig. S6).
+The concentrations of COD, TN, TP, and other pollutants in the
+This trend may be attributed to leakage in the QTP’s drainage network
+effluent treated by WWTPs serve as the primary indicators of wastewater
+and the dilution of rainwater. Insufficient organic carbon sources can
+treatment effectiveness. In low-altitude areas of eastern China, WWTP
+adversely affect the efficiency of microbial nitrogen and phosphorus
+effluents typically meet the stringent Class 1 A standard (Standard A, see
+Table S6) outlined in the “Discharge Standard of Pollutants for Munic- removal. This may lead to increase electricity intensity and the demand
+ipal Wastewater Treatment Plant” (GB 18918–2002) to maintain water for chemicals for pollutant removal [46].
+This likely contributes to the elevated TN and TP concentrations in
+quality [42]. In contrast, most WWTPs on the QTP adhere to the less
+Fig. 2. Pollutant emission characteristics and operation status of WWTPs in QTP in 2018. Concentrations of COD (a), TN (b), TP (c) and SS (d) in WWTP
+effluent from plateau cities in different provinces. (e) COD/TN ratio of WWTP influent in plateau cities from various provinces. (f) Electricity consumption per unit of
+COD removal by WWTPs in plateau cities from different provinces.
+5
+
+--- Page 6 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+WWTP effluent, exceeding Standard A. Furthermore, in certain WWTPs 3.3. Coordinated development of GHG emissions and water quality
+across the provinces of the QTP, the SS concentration in effluent improvement in the wastewater sector of the QTP under future scenarios
+exceeded Standard A. The high altitude and low influent COD/TN ratios
+contribute to wastewater treatment processes that are prone to sludge The development of drainage pipe networks in the QTP increases the
+bulking [23]. This impedes the settling of SS in wastewater, leading to wastewater collection rate, leading to a rise in the volume of wastewater
+higher SS concentrations in effluent. treated. Under various scenarios, GHG emissions from the wastewater
+The electricity consumption per unit of wastewater treated in sector are projected to increase by 2035. However, as clean energy
+WWTPs on the QTP generally ranged from 0.1 to 1.0 kWh (Fig. 2f). development in the QTP advances, the emission factor for electricity
+Approximately 58.1 % of WWTPs exhibited electricity intensities consumption in WWTP operations is expected to decline progressively.
+exceeding the national average for China (0.38 kWh/m3) [9]. Notably, In all three scenarios, GHG emission intensity is projected to decrease
+7.5 % of WWTPs consumed more than 1.0 kWh/m3. In low oxygen gradually (Fig. 3a, S1). In the BAU scenario, the treatment technologies
+environment, wastewater treatment processes require increased aera- in the QTP’s WWTPs remain unchanged. Total GHG emissions from the
+tion, which may explain the high electricity intensity. In the northern wastewater sector are projected to reach approximately 1.06 Mt. CO2e
+QTP, the average electricity consumption for wastewater treatment was (0.71–1.23 Mt. CO2e, 95 % confidence interval; Fig. S1) by 2035, which
+higher in Qinghai (0.65 kWh/m3), Gansu (0.53 kWh/m3), and Xinjiang is 2.4 times that of 2018. From 2018 to 2035, GHG emission intensity is
+(0.51 kWh/m3) than in other provinces. The average altitude of Qinghai expected to decline slightly, from 0.57 kg CO2e/m3 (0.43–0.70 kg CO2e/
+province is higher than that of the bordering provinces on the QTP, and m3) to 0.54 kg CO2e/m3 (0.41–0.67 kg CO2e/m3; Fig. S2). This indicates
+the natural environment presents more challenging. However, limited a gradual reduction in GHG emission intensity. As wastewater treatment
+data from WWTPs in Tibet, which shares a similarly high-altitude demand grows, GHG emissions are anticipated to increase steadily.
+characteristics, did not reflect this trend. The high electricity con- Several advanced wastewater treatment processes have been
+sumption in most cities of plateau in Gansu and Xinjiang may be related demonstrated to be effective for treating low COD/TN wastewater in
+to the relatively high concentration of influent pollutants (Fig. 2a–c). high-altitude areas [47,48], with low requirements for dissolved oxygen
+and organic carbon sources [49] (e.g., the simultaneous nitrification and
+denitrification phosphorus removal (SNDPR) process). In response to
+operational challenges encountered by QTP’s WWTPs (as illustrated in
+Fig. 3. GHG emissions from QTP’s wastewater sector under future wastewater management scenarios. (a) Changes in GHG emissions and emission intensity
+under three scenarios from 2019 to 2035. (b) GHG emissions in different treatment stages under three scenarios. Compared with the BAU scenario, the GHG emission
+reduction effects of different cities’ wastewater under the WTPI scenario(c) and the WTPI+SRU scenario (d) by 2035.
+6
+
+--- Page 7 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+Fig. 2), advanced technologies are implemented to optimize treatment (0.56–0.77 Mt. CO2e; Fig. S1) by 2035. GHG emission reduction effects
+processes in the WTPI scenario. This improvement will enhance vary across different urban wastewater sectors. In Wuwei, Kashgar,
+pollutant removal, increasing the proportion of WWTPs meeting Stan- Diqing, Hotan, Jinchang, and Tianshui, reductions exceed 40 %.
+dard A for effluent quality from 40 % to 97 %. However, the remaining 3 Advanced treatment technologies have the most significant impact on
+% of WWTPs are projected to fail to meet the standard due to excessively plateau cities in Gansu, Xinjiang, and Qinghai provinces, which show
+high influent TN concentrations (Fig. S7). high overall potential for GHG emission reductions (Fig. 3c).
+The WTPI scenario reduces sludge yield, chemical dosing, and elec- The unique low pressure and low humidity conditions in the QTP
+tricity consumption by optimizing wastewater treatment processes. This enhance the effectiveness of sludge dewatering, facilitating the imple-
+leads to reductions in GHG emissions at each stage of wastewater mentation of sludge resource utilization technologies such as bio-drying
+treatment, sludge disposal, chemical dosing, and electricity consump- and aerobic composting. In the WTPI+SRU scenario, advanced waste-
+tion (Fig. 3b). Compared to the BAU scenario, GHG emissions from these water treatment technologies are applied, and improvements in sludge
+four stages are projected to decrease by approximately 52 %, 30 %, 18 disposal methods are made to achieve resource utilization. These
+%, and 26 %, by 2035. From 2019 to 2035, the GHG emission intensity is methods further reduce GHG emissions during the sludge disposal stage.
+expected to decrease from 0.38 kg CO2e/m3 (0.36–0.44 kg CO2e/m3, 95 For instance, sludge can be rendered harmless and its volume reduced
+% confidence interval; Fig. S2) to 0.35 kg CO2e/m3 (0.34–0.41 kg CO2e/ through aerobic composting or bio-drying. The treated sludge is then
+m3). The reduction in GHG emissions (the difference between emissions applied to land as a substitute for chemical fertilizers, improving both
+in the WTPI scenario and the BAU scenario) will gradually increase. the physical and chemical properties of the soil, as well as its nutrient
+However, with the anticipated rise in wastewater volume, GHG emis- content. This process effectively facilitates the resource utilization of
+sions from the wastewater sector are projected to reach 0.69 Mt. CO2e sludge. Compared to the WTPI scenario, the adoption of sludge resource
+Fig. 4. Coordinated development of GHG emission reduction and water quality improvement in the wastewater sector under future wastewater man-
+agement scenarios. (a) Changes in the SI of wastewater sectors in different cities under the WTPI scenario and the WTPI +SRU scenario. (b) Reduction rates of CPD
+and GHG emissions in different cities’ wastewater sectors under the WTPI scenario in 2035.
+7
+
+--- Page 8 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+utilization technologies is projected to reduce GHG emissions from technologies, the pollutant discharge reduction rates in the QTP cities
+sludge disposal by 89 % by 2035. This demonstrates that replacing high remain similar to those in the WTPI scenario (Fig. 4b). However, the
+GHG-emitting incineration technology with sludge resource recycling rates of GHG emission reductions generally increase, resulting in a
+technologies can significantly lower GHG emissions (Fig. 3b). The heavy decrease in SI (Fig. 4a). Overall, the optimization measures in the
+metal content in sludge from the QTP is significantly lower than Chinese WTPI+SRU scenario have a more significant impact on reducing GHG
+standards [50]. However, where harmful substances, such as heavy emissions than on further reducing pollutant discharge in the waste-
+metals, are present in the sludge and are difficult to remove, incineration water sector of most cities in the QTP.
+remains the preferred method. Under the WTPI+SRU scenario, from
+2019 to 2035, the GHG emission intensity is projected to decrease from 4. Discussion
+0.28 kg CO2e/m3 (0.26–0.33 kg CO2e/m3, 95 % confidence interval;
+Fig. S2) to 0.26 kg CO2e/m3 (0.24–0.31 kg CO2e/m3), while total GHG The findings of this study indicate a notable increase in GHG emis-
+emissions are expected to increase from 0.25 Mt. CO2e (0.21–0.31 Mt. sions from the wastewater sector in the QTP, with emissions rising from
+CO2e; Fig. S1) to 0.51 Mt. CO2e (0.40–0.56 Mt. CO2e). The disparity in 0.25 Mt. CO2e to 0.45 Mt. CO2e between 2014 and 2018. The expansion
+GHG emissions between the WTPI+SRU scenario and the BAU scenario of infrastructure such as drainage pipe networks and WWTPs in the QTP
+will gradually widen (Fig. 3a). In previous years, cities in the plateau resulted in higher wastewater volume, which contributed to increased
+region of Gansu province generated higher sludge outputs than other GHG emissions. As infrastructure continues to expand, GHG emissions
+provinces, leading to relatively high GHG emission intensities during are projected to increase across all scenarios through 2035.
+sludge disposal. However, by utilizing sludge resources, these cities In the high-altitude regions of the QTP, low temperature and low
+demonstrate significant potential for reducing GHG emissions. oxygen partial pressure inhibit the activity of key enzymes required for
+Compared to the BAU scenario, GHG emission reductions in urban microbial nitrogen and phosphorus removal, while also limiting oxygen
+wastewater sectors such as Wuwei, Jinchang, Tianshui, and Jiuquan supply from aeration equipment. These conditions lead to excessive TN
+exceed 60 %, while reductions in most other cities approach 45 % and TP concentrations in the effluent of WWTPs. The influent COD
+(Fig. 3d). serves as the primary organic carbon source for microorganisms.
+The synergy index (SI) quantified the combined impact of optimi- Notably, in 2018, 63.2 % of WWTPs exhibited a COD/TN ratio below 7,
+zation measures in the WTPI scenario and the WTPI+SRU scenario on which hindered microbial degradation processes. These conditions
+water quality improvement and GHG emission reductions in the QTP contributed to sludge bulking, leading to increased SS concentrations in
+wastewater sector. The results are presented in Fig. 4a. The WTPI sce- the effluent. The reduction in influent COD concentration and COD/TN
+nario and the WTPI+SRU scenario improve wastewater treatment pro- ratio may adversely affect the operational efficiency of WWTPs. This
+cesses and sludge resource utilization technologies, improving pollutant may result in increased sludge yield, higher electricity consumption, and
+removal and reducing GHG emissions across multiple treatment stages greater chemical usage [46].
+(Fig. 3b). As a result, the SI is projected to be positive for all cities in the In the developed regions of eastern China, WWTPs improve water
+future scenarios, indicating reduced pollutant discharges and GHG purification by increasing carbon source addition, and raising energy
+emissions following the implementation of these optimization measures. consumption. These measures typically lead to higher GHG emissions, a
+In the WTPI+SRU scenario, the introduction of sludge resource recy- widely acknowledged concern. In contrast, wastewater treatment tech-
+cling technologies leads to a more substantial reduction in GHG emis- nologies and management practices in the QTP remain relatively un-
+sions compared to the WTPI scenario. Consequently, the SI for cities is derdeveloped, with WWTPs in this region facing unique operational
+generally lower in the WTPI+SRU scenario than in the WTPI scenario. challenges. According to the WTPI scenario analysis, the implementa-
+Over time, the SI is expected to decrease annually, suggesting that the tion of improved treatment processes could increase the proportion of
+GHG emission reduction effect in various cities will strengthen WWTPs meeting Class 1 A standards to 97 %. Furthermore, by 2035, the
+progressively. GHG emission intensity is projected to reach 0.35 kg CO2e/m3
+The coordinated development of water quality improvement and (0.34–0.41 kg CO2e/m3, 95 % confidence interval), representing 63 %–
+GHG emission reduction in the wastewater sectors across various cities 75 % of the BAU scenario. These advancements not only enhance
+in the QTP exhibits significant variability, resulting in an uneven dis- pollutant removal in QTP WWTPs but also reduce GHG emission in-
+tribution of SI. In the WTPI scenario, the SI of Shigatse in Tibet province, tensity, offering a new perspective on the issue.
+as well as Kashgar and Hotan cities in Xinjiang province, all exceed 1.4. A significant proportion of sludge in QTP was disposed of through
+The reduction rate of wastewater pollutants is considerably higher than landfilling and incineration, both of which contribute to substantial
+that of GHG emissions, indicating that the optimization measures are GHG emissions. Sludge resource utilization offers an effective approach
+more effective in improving water quality than in reducing GHG emis- for reducing GHG emissions from sludge disposal. The QTP’s unique
+sions in these cities. However, the SI reflects only the relative impacts of low-pressure and low-humidity conditions enhance sludge dewatering
+pollutant discharge reduction and GHG emission reduction, not their [34,35], enabling the adoption of sludge resource utilization technolo-
+absolute levels. As illustrated in Fig. 4b, the SI of Kashgar and Hotan are gies such as bio-drying and aerobic composting. With advancements in
+notably greater than 1, suggesting that wastewater pollutant reductions wastewater treatment processes and the integration of sludge resource
+in these cities are more pronounced than in other cities. The imple- utilization techniques, GHG emissions will progressively decrease. By
+mentation of optimization measures plays a key role in enhancing the 2035, under the WTPI+SRU scenario, GHG emissions in most cities are
+water quality of local WWTPs. However, the GHG emission reduction projected to be 45 % lower than in the BAU scenario. These technologies
+rate of Shigatse’s wastewater sector is relatively low compared to other are crucial for the wastewater sector in the QTP, promoting the coor-
+regions, and the SI is much greater than 1. Therefore, the city needs to dinated development of water quality improvement and GHG emission
+further optimize GHG emission reduction technologies. reduction.
+In the WTPI scenario, the SI values of cities like Yaan, Liangshan,
+Diqing, Shannan, Jinchang, Longnan, Linxia, Xinning, Haidong, Yushu, 5. Conclusion
+and Kizilsu Kyrgyz are below 0.5, with pollutant discharge reduction
+rates significantly lower than those of other cities (Fig. 4b). In these his study presents an inventory analysis of GHG emissions from the
+cities, the effluent quality of WWTPs was already high prior to the QTP wastewater sector during 2014–2018, and evaluates synergistic
+optimization measures, leaving little room for further improvement in pathways for concurrent water quality improvement and carbon miti-
+pollutant discharge reduction under the WTPI scenario. In the gation. With the expansion of drainage pipe networks and WWTPs on
+WTPI+SRU scenario, which incorporates sludge resource utilization the QTP, wastewater volume is expected to increase. Consequently, GHG
+8
+
+--- Page 9 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+emissions from the wastewater sector are projected to continue rising [7] Chen H, Zhu Q, Peng C, Wu N, Wang Y, Fang X, et al. The impacts of climate
+under all three scenarios through 2035. Improving operational effi- change and human activities on biogeochemical cycles on the Qinghai-Tibetan
+plateau. Glob Chang Biol 2013;19(10):2940–55.
+ciency to reduce electricity intensity and sludge yield, while enhancing [8] Yan G, Kenway SJ, Lam KL, Lant PA. Water-energy trajectories for urban water and
+pollutant removal rates, is a feasible approach to improving water wastewater reveal the impact of city strategies. Appl Energy 2024;366:123292.
+quality and mitigating GHG emissions in the QTP wastewater sector. The [9] Yang J, Chen B. Energy efficiency evaluation of wastewater treatment plants
+(WWTPs) based on data envelopment analysis. Appl Energy 2021;289:116680.
+WTPI scenario proposes the introduction of appropriate treatment
+[10] Yang X, Duan C, Chen B, Wang S. Does stricter sewage treatment targets policy
+technologies and improvements to the wastewater treatment process to exacerbate the contradiction between effluent water quality improvement and
+enhance operational efficiency. Scenario analysis indicates that, by carbon emissions mitigation? An evidence from China. Glob Environ Chang 2024;
+87:102881.
+2035, the proportion of WWTPs meeting the Class 1A discharge standard [11] Chen S, Chen B. Urban energy–water nexus: a network perspective. Appl Energy
+could increase by 57 %, while GHG emissions is projected to decrease by 2016;184:905–14.
+30 %–37 %, relative to the BAU scenario. This approach is critical for [12] Zhou Y, Mo Y, Zheng H, Zhou Y, Wang Z, Liang S. Reshaping regional carbon
+productivity in the Pearl River Delta megaregion: input-output-based multi-
+achieving the coordinated development of water quality improvement
+objective optimization to explore low-carbon industrial transitions. J Clean Prod
+and GHG emission reduction. Furthermore, by leveraging the natural 2025;506:145436.
+advantages of the plateau environment, such as low pressure and low [13] Go´mez T, G´emar G, Molinos-Senante M, Sala-Garrido R, Caballero R. Assessing the
+efficiency of wastewater treatment plants: a double-bootstrap approach. J Clean
+humidity, the resource utilization of sludge can be enhanced through
+Prod 2017;164:315–24.
+bio-drying and aerobic composting technologies, further reducing GHG [14] Zhu W, Duan C, Chen B. Energy efficiency assessment of wastewater treatment
+emissions. plants in China based on multiregional input–output analysis and data
+The limitations of this study’s findings are related to the data. The envelopment analysis. Appl Energy 2024;356:122462.
+[15] Qu J, Wang H, Wang K, Yu G, Ke B, Yu H-Q, et al. Municipal wastewater treatment
+data from WWTPs employed in the study are annual variation data, in China: development history and future perspectives. Front Environ Sci Eng
+which lacks the monthly variation data reflecting water temperature, 2019;13(6):88.
+dissolved oxygen levels and corresponding WWTP control parameters. [16] Chen W, Zhang Q, Hu L, Geng Y, Liu C. Understanding the greenhouse gas
+emissions from China’s wastewater treatment plants: based on life cycle assessment
+Consequently, it is challenging to perform a more nuanced analysis of
+coupled with statistical data. Ecotoxicol Environ Saf 2023;259:115007.
+the fluctuations in water quality and GHG emissions. [17] Molinos-Senante M, Maziotis A. Evaluation of energy efficiency of wastewater
+treatment plants: the influence of the technology and aging factors. Appl Energy
+2022;310:118535.
+CRediT authorship contribution statement
+[18] Xu A, Wu Y-H, Chen Z, Wu G, Wu Q, Ling F, et al. Towards the new era of
+wastewater treatment of China: development history, current status, and future
+Yao Huang: Writing – original draft, Visualization, Conceptualiza- directions. Water Cycle 2020;1:80–7.
+tion. Bin Chen: Writing – review & editing, Validation, Supervision, [19] S anm di t eh K er, gG yu fo oS t, pZ rh inu Q o, D Co hn ing X ’s, sL ti ru S te. rA wn ae sv ta el wu aa tt eio n to af t dh ae de sn :v ci aro nn bm ee nn et fia tl bb ee nefit
+n o t f a ic r s n r
+Methodology, Funding acquisition. Delin Fang: Writing – review & increased? J Clean Prod 2019;219:723–33.
+editing, Formal analysis, Conceptualization. [20] Zhu L, Liu B, Wang F, Bi J. Raising discharge standards leads to environmental
+problem shifting in China. Water Sci Technol 2013;68(12):2605–12.
+[21] Kaiyue H, Lishuai Z, Yongchen Z, Qiang H, Mingzhe G. The relationship analysis
+Declaration of competing interest and reaction mechanism of carbon, nitrogen, and phosphorus metabolism in
+sewage treatment in plateau habitat. Environ Monit Assess 2022;194(7):520.
+[22] Han Z, Zhu G, Lu Y, Li S, Chen Y. Research status and development demands of
+The authors declare that they have no known competing financial
+urban wastewater treatment in the Qinghai-Tibet plateau region. Water Purif
+interests or personal relationships that could have appeared to influence Technol 2022;41(11):76–84.
+the work reported in this paper. [23] Kang X-H, Tian Y-q, Leng Y, Wang H, Li S-W. Structural and functional changes in
+bacterial communities during sludge foaming in the sub-plateau MSTPs. J Water
+Process Eng 2021;41:102047.
+Acknowledgments [24] Baquero-Rodríguez GA, Martínez S, Acun˜a J, Nolasco D, Rosso D. How elevation
+dictates technology selection in biological wastewater treatment. J Environ Manag
+This work was supported by the National Key R&D Program of China 2022;307:114588.
+[25] Feng Z, Liu X, Wang L, Wang Y, Yang J, Wang Y, et al. Comprehensive efficiency
+(2024YFF1307000), National Natural Science Foundation of China evaluation of wastewater treatment plants in northeast Qinghai–Tibet Plateau
+(72091511), Science and Technology Innovation Program of Hunan using slack–based data envelopment analysis. Environ Pollut 2022;311:120008.
+Province (2023RC4008), and the Second Tibetan Plateau Scientific [26] Ji J, Ni J, Ohtsu A, Isozumi N, Hu Y, Du R, et al. Important effects of temperature
+on treating real municipal wastewater by a submerged anaerobic membrane
+Expedition and Research Program (STEP, No. 2019QZKK1005). bioreactor: removal efficiency, biogas, and microbial community. Bioresour
+Technol 2021;336:125306.
+Appendix A. Supplementary data [27] Wang L, Jiang X. Research on the utilization and price policy of reclaimed water in
+Chinese cities. Water Wastewater Eng 2021;57(07). 48–53+59.
+[28] Zhang S. Effects of action plan for prevention and control of water pollution on
+Supplementary data to this article can be found online at https://doi. greenhouse gas emissions. Diss: Tianjin University; 2017.
+org/10.1016/j.apenergy.2025.126441. [29] Wei L, Zhu F, Li Q, Xue C, Xia X, Yu H, et al. Development, current state and future
+trends of sludge management in China: based on exploratory data and CO2-
+equivaient emissions analysis. Environ Int 2020;144:106093.
+Data availability [30] Huang Y, Meng F, Liu S, Sun S, Smith K. China’s enhanced urban wastewater
+treatment increases greenhouse gas emissions and regional inequality. Water Res
+2023;230:119536.
+Data will be made available on request.
+[31] Xiao Y, Liu Y, Cai W. Spatial and temporal evolution and drivers of GHG emissions
+from urban domestic wastewater treatment in China: a review at the provincial
+References level. Environ Sci Pollut Res 2024;31(14):21028–43.
+[32] Chen Y. Process optimization and nutrient removal characteristics of simultaneous
+` nitrification and denitrification and denitrifying phosphorus removal system at
+[1] Gaona A, Solís B, Guerrero J, Guisasola A, Baeza JA. Nitrite pathway in A2/O
+high altitude area. Diss: Southeast University; 2020.
+WWTPs: modelling organic matter reduction, operational cost and N2O emissions.
+[33] Li X. Research on upgrading technology of wastewater treatment plant in AAO
+J Clean Prod 2023;414:137453.
+oxidation ditch process in plateau area. Harbin Institute of Technology: Diss; 2019.
+[2] Lu L, Guest JS, Peters CA, Zhu X, Rau GH, Ren ZJ. Wastewater treatment for carbon
+capture and utilization. Nat Sustain 2018;1(12):750–8. [34] Chen H. The process and characteristics of sludge bio-drying in high-altitude and
+[3] Wu Y, Wang S, Ni Z, Li H, May L, Pu J. Emerging water pollution in the world’s s Ye av ne r Be ,- c Co hl ed Yre g Wio an n. D Xis s Z: hK au nn gm Yi ,n Lg U Jn i Dv ae nrs Zit ,y o f S l.c Sie en wc ae a en sd T de gc eh –n ho iglo hg lay n; d2 0 b2 a3 rl.
+[35] , g , i , e t a g lu ey
+least disturbed lakes on Qinghai-Tibetan plateau. Environ Pollut 2021;272:116032.
+straw composting in the Tibetan plateau: an experimental and simulative study.
+[4] MOHURD. China urban and rural construction statistical yearbook. Beijing: China Biomass Convers Biorefinery 2024;14(4):4777–90.
+Statistics Press; 2022. p. 62–3.
+[36] NDRC. The 14th Five-Year Plan for urban sewage treatment and resource
+[5] MOHURD. China urban and rural construction statistical yearbook. Beijing: China
+Statistics Press; 2013. p. 56–7. utilization development plan. 2021.
+[6] Tian F, Nan Y, Ni G, Yang L, Tang Q, Grey D. Is the Tibetan plateau really a water
+tower? Hydrol Process 2024;38(3):e15103.
+9
+
+--- Page 10 ---
+Y. Huang et al. A p p l i e d E n e r g y 398 (2025) 126441
+[37] Province TPsGoQ. Action plan for accelerating the development of the Qinghai- [44] Xu J, Wang P, Li Y, Niu L, Xing Z. Shifts in the microbial Community of Activated
+Tibet plateau into a national and international ecological civilization high ground. Sludge with different COD/N ratios or dissolved oxygen levels in Tibet, China.
+2021. Sustainability 2019:11.
+[38] Liu K, Ren G, Dong S, Xue Y. The synergy between pollution reduction and carbon [45] Wang F, Liu S, Liu Y, Sun Y, Yu L, Wang Q, et al. Long-term dynamics of nitrogen
+reduction in Chinese cities and its influencing factors. Sustain Cities Soc 2024;106: flow in a typical agricultural and pastoral region on the Qinghai-Tibet Plateau and
+105348. its optimization strategy. Environ Pollut 2021;288:117684.
+[39] Mao X, Xing Y, Gao Y, He F, Zeng A, Kuai P, et al. Study on GHGs and air pollutants [46] Komorowska-Kaufman M, Majcherek H, Klaczyn´ski E. Factors affecting the
+co-control: assessment and planning. China Environ Sci 2021;41(07):3390–8. biological nitrogen removal from wastewater. Process Biochem 2006;41(5):
+[40] Tavangari Jamshidzadeh Z, Barzi M. Wastewater quality index (WWQI) as an 1015–21.
+assessment tool of treated wastewater quality for agriculture: a case of north [47] Hu K, Li W, Wang Y, Wang B, Mu H, Ren S, et al. Novel biological nitrogen removal
+wastewater treatment plant effluent of Isfahan. Environ Sci Pollut Res 2020;27(7): process for the treatment of wastewater with low carbon to nitrogen ratio: a
+7366–78. review. J Water Process Eng 2023;53:103673.
+[41] Khudhair B, Makki A, Jbbar R. Effluent quality assessment of Al-Diwaniyah sewage [48] Wu J, Zhang L, Zhang M, Lu Y, Zhao Y, Li S, et al. Analysis and optimization of
+treatment plant based on wastewater quality index. Int J Civ Eng Technol 2018;9: simultaneous nitrification, denitrification, and phosphorus removal in sequencing
+22–31. batch reactors for sewage treatment at high-altitude areas. J Environ Eng 2022;148
+[42] Zhang Y, Cui J, Xu C, Yang J, Liu M, Ren M, et al. The formation of discharge (11):04022067.
+standards of pollutants for municipal wastewater treatment plants needs adapt to [49] Wang X, Wang S, Xue T, Li B, Dai X, Peng Y. Treating low carbon/nitrogen (C/N)
+local conditions in China. Environ Sci Pollut Res 2023;30(20):57207–11. wastewater in simultaneous nitrification-endogenous denitrification and
+[43] Morales N, Val del Río A´ , V´azquez-Padín JR, M´endez R, Campos JL, Mosquera- phosphorous removal (SNDPR) systems by strengthening anaerobic intracellular
+Corral A. The granular biomass properties and the acclimation period affect the carbon storage. Water Res 2015;77:191–200.
+partial nitritation/anammox process stability at a low temperature and ammonium [50] Xu J, Wang W. Amelioration effect of Lhasa sewage sludge on local desertification
+concentration. Process Biochem 2016;51(12):2134–42. soil. Chinese J Environ Eng 2018;12(6):1743–8.
+10

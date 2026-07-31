@@ -1,0 +1,11 @@
+2026-06-28 12:07:24,240 - INFO - 领域配置: 高分辨率质谱非靶向筛查
+2026-06-28 12:07:24,315 - INFO - ======================================================================
+2026-06-28 12:07:24,315 - INFO - 通用文献批量阅读系统启动
+2026-06-28 12:07:24,315 - INFO - 文献目录: D:\下载\现代环境分析技术
+2026-06-28 12:07:24,315 - INFO - 领域: 高分辨率质谱非靶向筛查
+2026-06-28 12:07:24,315 - INFO - ======================================================================
+2026-06-28 12:07:24,316 - INFO - 发现 3 篇PDF文献
+2026-06-28 12:07:47,328 - INFO - [1/3] 成功: 1-s2.0-S0021967325002924-main.pdf (17128 词, 方法: suspect screening, wastewater, NORMAN SusDat, EPA CompTox, PubChem)
+2026-06-28 12:07:52,791 - INFO - [2/3] 成功: 1-s2.0-S0039914020305853-main.pdf (2158 词, 方法: target analysis, non-target screening, Orbitrap, QTOF, TOF)
+2026-06-28 12:08:27,551 - INFO - [3/3] 成功: 1-s2.0-S0043135420307442-main.pdf (6037 词, 方法: target analysis, suspect screening, non-target screening, QTOF, TOF)
+2026-06-28 12:08:27,553 - INFO - 原始数据已保存: d:\VScode\firstcc\GHGs-WWTPs\output\test_optimization\all_papers_analysis.json

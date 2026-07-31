@@ -1,0 +1,595 @@
+--- Page 1 ---
+International Journal of Environmental Science and Technology
+https://doi.org/10.1007/s13762-020-02893-9
+ORIGINAL PAPER
+Analysis of a wastewater treatment plant for energy consumption
+and greenhouse gas emissions
+I. Sharawat1 · R. Dahiya2 · R. P. Dahiya1
+Received: 29 February 2020 / Revised: 27 June 2020 / Accepted: 9 August 2020
+© Islamic Azad University (IAU) 2020
+Abstract
+This article presents an environmental and energy analysis of a wastewater treatment plant operating on sequential batch
+reactor technology. The analysis of energy consumption shows that the electrical, mechanical, chemical, and human energy
+consumption works out to 0.26 kW h/m3 of the treated wastewater. The overall share of electrical energy consumption is
+84%, and 15% share is of mechanical energy. Nearly 78% of the electrical energy is consumed in the aeration process. The
+biological oxygen demand, chemical oxygen demand, total suspended solids, total nitrogen, and total phosphorous are meas-
+ured for the influent and effluent of the treatment plant. A reduction of 76–97% occurs in these parameters due to wastewater
+treatment. The greenhouse gas emissions arising directly from the treatment processes and indirectly from the electricity and
+diesel usage are estimated. The direct and indirect emissions from the wastewater treatment plant amount to 105 tCO e/year
+2
+and 1316 tCO e/year, respectively. A projection of methane accumulation in the atmosphere from this plant till the year 2041
+2
+is also made. The contribution of this plant to the atmospheric accumulation of CH is projected to reach 8679 kg in 2029.
+4
+The projection for 2030 and thereafter is 9468 kg. Analysis of the energy, environment, and wastewater treatment nexus is
+of significance to have a holistic view for the sustainable development.
+Keywords Batch reactor · Effluent · Methane · System dynamics · Electrical energy · Human energy
+Introduction
+rural and urban India (Sahasranaman and Ganguly 2018;
+Shah 2016).
+The world is expected to add nearly 2 billion people in the The freshwater resources are depleting at an alarming
+next 30 years raising, the global population to 9.7 billion rate due to the increase in water consumption, and accord-
+by the year 2050 (UN 2019). As urbanization is rising at a ingly, the volume of wastewater discharge is rising substan-
+rapid pace, 68% of the population will live in urban areas. In tially. The freshwater scarcity together with the wastewater
+India also, this trend has an impact on the population distri- treatment is among the prominent environmental challenges
+bution, and according to a projection for the next 30 years, of this century (MoEF 2010). India ranked 13 among the
+nearly 416 million people will add to the urban areas (UN world’s 17 “extremely water-stressed” counties (WRI 2019).
+2018). Around 2027, India will overtake China to become The water crisis is not only the problem of India but also of
+the most populous country (UN 2019). Growing population, other developing countries (Sharawat et al. 2019). Reuse of
+unplanned urbanization, and fluctuating economic growth treated wastewater could help to mitigate the water stress
+pose unprecedented challenges for water management in (Gulati and Banerjee 2018). Because of the water scarcity
+in India, new stringent standards were implemented in 2019.
+These standards have prescribed norms to achieve non-pota-
+Editorial responsibility: Q. Aguilar-Virgen.
+ble reuse of the wastewater treated effluent (NGT 2019). Ear-
+* lier nutrient removal was not mandatory in India, but now
+I. Sharawat
+ishasharawat2@gmail.com stringent limits are also prescribed for nitrogen and phospho-
+rous removal. To achieve this, the electricity consumption
+1 Centre for Energy Studies, Indian Institute of Technology required at the wastewater treatment plants will increase.
+Delhi, New Delhi 110016, India
+A sizeable gap exists between the wastewater discharge
+2 Maharaja Surajmal Institute, Janakpuri, New Delhi 110058, and its treatment in our country. The estimated volume of
+India
+Vol.:(0112 33456789)
+
+--- Page 2 ---
+International Journal of Environmental Science and Technology
+the wastewater generation in urban areas is 62,000 mil- The objective of the present study is to carry out the envi-
+lion litres per day (MLD), while the treatment capacity is ronmental and energy analysis of an SBR-based wastewater
+23,277 MLD. In practice, 18,883 MLD of the wastewater treatment technology. The sequential batch reactor technol-
+was actually treated in the year 2015 (CBCP 2015). This ogy is selected because this technology is gaining immense
+was because out of total 816 treatment plant, only 522 popularity in the recent years and no such study is available
+were operational. It means 70% of the wastewater gener- for this technology in the literature. In the past, most of the
+ated in urban India was not treated and simply discharged studies for the wastewater treatment plants have considered
+into the rivers causing contamination of the freshwater merely electrical energy consumption. A comprehensive
+bodies. Therefore, a massive infrastructure related to analysis of different forms of energy usage at the treatment
+the wastewater treatment is expected to be administered plants is required for assessing the options for energy sub-
+to combat the environmental degradation caused by the stitution and enhancing the energy efficiency. Such an analy-
+untreated wastewater discharge (Chakraborti et al. 2019). sis is carried out in this paper by including the concept of
+So far, the decision making of such projects is based on energy intensity and by taking into the account electrical
+factors like capital costs, operating costs, and adaptabil- energy, human energy, mechanical energy, and chemical
+ity of technology under local conditions (Mahgoub et al. energy used at an SBR-based wastewater treatment plant.
+2010). However, to develop sustainable wastewater treat- Studies on GHG accumulation in atmosphere due to the
+ment, it is required to view the treatment systems using a wastewater treatment plants are not available in the litera-
+holistic approach (Jenssen et al. 2007). Therefore, besides ture. An effort has also, therefore, been made to investigate
+the factors mentioned above, energy and environmental the GHG emissions due to the wastewater treatment plant
+aspects are also essential to consider when deciding a and thereby the GHG accumulation in the atmosphere.
+treatment system. Reproduction of similar studies and production of data
+A wastewater treatment plant primarily uses electrical, in this area will suggest directions for decision making on
+mechanical, manual, and chemical energy. Most of the stud- the selection of treatment technology from the considera-
+ies on the energy estimation of a treatment plant have taken tions of climate change mitigation and energy usage. It will
+into account only the electrical energy (Vera et al. 2013; also help in improving the sustainability of the wastewater
+Merlin and Lissolo 2010; Mizuta and Shimada 2010; Devi treatment systems.
+et al. 2007; Jonasson 2007). There are limited data available
+in the literature about the breakup of total energy consump-
+Description of study site
+tion in the wastewater treatment plants. Tao and Chengwen
+(2011) indicated that the electrical energy share is only 50%
+of the total energy consumption, and the human energy also The wastewater treatment plant selected for the present
+presented a significant share (32%). Singh et al. (2012) also investigation is located at Pandit Bhagwat Dayal Sharma
+pointed out that 50% share is of electrical energy in the Post Graduate Institute of Medical Sciences (PGIMS),
+total energy consumed at the wastewater treatment plant. Rohtak, Haryana, India. Figure 1 shows the flow diagram of
+However, Belloir et al. (2014) have done a benchmarking SBR-based wastewater treatment plant. Capacity of the treat-
+exercise of two wastewater treatment plants based on oxida- ment plant is 19 MLD. The plant is based on the sequential
+tion ditch and concluded that 90% of the energy utilized in batch reactor technology. It uses the physico-chemical and
+both wastewater treatment plants is electrical energy, and the biological treatment methods. Primary treatment includes
+other forms of energy represent a smaller proportion of the screening and grit removal. The secondary treatment is
+total energy consumption. Aeration process in the oxidation based on SBR in which the whole process takes place in
+ditches consumed the maximum energy. one reactor, within which all the biological treatment steps
+The conventional treatment systems are facing severe take place sequentially. The plant completes six cycles a day.
+challenges to comply with the new environmental regula- One cycle is of 244 min and comprises fill and aeration for
+tions. The sequential batch reactor (SBR)-based treatment 123 min, settling for 44 min, and decanting for 77 min. The
+plants can achieve the standards due to their operational flex- effluent from the SBR flows to the chlorine contact tank and
+ibility and excellent process control possibilities (Dutta and then to the drainage, which ultimately flows through a public
+Sarkar 2015). An SBR plant has small footprints because the drain to Yamuna river. The sludge from the SBR basin is
+flow equalization, biological treatment, and secondary clari- collected in a sludge sump and then transferred to the cen-
+fication occur in a single tank (Showkat and Najar 2019). In trifuge unit for dewatering. The sludge is not reused and the
+India, the total installed capacity of the SBR technology is treated water is discharged from the plant. The sludge after
+2175.1 MLD at 57 treatment plants, which is nearly 12% of treatment is disposed of to a designated place (outside the
+the total installed capacity. Most of the treatment plants were compound of the treatment plant). Most of it is collected by
+commissioned in 2013–2014 (CPCB 2015). the local farmers to be used as fertilizer in the agriculture
+1 3
+
+--- Page 3 ---
+International Journal of Environmental Science and Technology
+Fig. 1 Flow diagram of SBR-based wastewater treatment plant
+1 3
+
+--- Page 4 ---
+International Journal of Environmental Science and Technology
+farms. Unit-wise description of the SBR-based wastewater environmental impact of the wastewater treatment plant, the
+treatment plant is described below: effluent quality, the GHG emissions, and their accumulation
+in the atmosphere are taken into account. A system dynam-
+• Inlet chamber One reinforced cement concrete (RCC) ics model is developed to give temporal projection of the
+chamber of 3.0 × 2.5 × 2 m3. Raw water flows in this methane accumulation in the atmosphere.
+chamber.
+• Screen chamber One chamber of size of 6.0 × 1.1 × 0.5 m3
+Total energy consumption
+with mechanically operated screens and one standby
+chamber of size 6.0 × 1.5 × 0.5 m3 with manually oper-
+ated screens. For the operation of a wastewater treatment plant, the energy
+• Grit chamber One working and one standby mechanical in various forms, i.e. electrical, mechanical, chemical, and
+grit chambers each having size of 6.7 × 6.7 × 1.0 m3 are human energy is used. Bulk of it is the electrical energy,
+provided after the fine screen. Reciprocating rake mech- human energy is considered as renewable energy, chemical
+anism is used to remove the grit. Bypass arrangement energy is an indirect form of energy and the mechanical
+with sluice gates is provided to bypass either of the grit energy as non-renewable energy. The electrical energy is
+chambers for maintenance. also considered non-renewable because the treatment plant
+• SBR reactor An RCC channel conveys sewage from grit uses the electricity, which comes from a coal-based ther-
+the chambers into two SBR reactors with dimensions of mal power station. The amount of energy utilized per cubic
+38.5 m dia × 5.5 m. Oxygen required in the reactor is sup- metre of the treated wastewater is analysed. Primary data,
+plied through diffused aeration system with auto-control like type and total number of equipment used, working units
+of oxygen level in the tank. and their rated power, total hours of working, quantity of the
+• Chlorine contact tank The decanted treated water from chemicals, and diesel used, that were required to calculate
+the SBR process is taken to a chlorine mixing tank the total energy consumption are collected by making visits
+through RCC channel. From the mixing tank, the treated to the site and monitoring the data. For evaluating the human
+water is passed on to the chlorine contact tank of size energy required at the treatment plant, the number of peo-
+18.6 × 18.6 × 2 m3. Baffles are also provided in the tank ple engaged as labour force and the time taken by them for
+to achieve proper mixing and disinfection. various activities were discussed with the plant operators
+• Sludge thickener The excess sludge from the SBR reac- and labours. Records of the material consumptions, various
+tors is pumped by SAS pumps into the sludge thickener transactions, and logbooks were also referred to the data
+having dimensions of 13.75 m dia × 3.0 m. validation. The equations used in calculating the total energy
+• Sludge sump From the thickener, the sludge comes to consumption are given below:
+the sump which is equipped with coarse bubble air grid The methodology followed for evaluating the amount of
+made from stainless steel pipes to facilitate mixing of energy consumption in various forms at the wastewater treat-
+the contents of sludge sump. Dimensions of sump are ment plant is described below:
+8.0 × 2.5 × 1.5 m3. The electrical energy consumed for pumping the waste-
+• Centrifuge The sludge from the sump is pumped to a water is obtained using the equation given by
+solid bowl centrifuge for dewatering of sludge. The
+P ×T
+sludge in the form of wet cake from the centrifuges is E e = r Q , (1)
+collected on a sludge platform. Dimensions of the cen-
+trifuge building are 8.0 × 8.0 m2. where E is the electrical energy in kW h/m3, P is the rated
+• Filtrate sump Filtrate from the centrifuge units is power ofe the pump/motor in kW, T in hours (h)r is time the
+passed into the filtrate sump and then recycled back to pump operates in a day and Q in m3/day is the daily flow of
+the SBR reactors. Dimensions of the filtrate sump are
+wastewater.
+3.75 × 3.75 × 1.5 m3.
+Regular cuts of the electrical power supplied by the utility
+grid are usual in the region where the wastewater treatment
+plant being analysed, in the present investigations, is located.
+Materials and methods
+In the event of electrical power cuts, a standby diesel-pow-
+ered electrical generator is operated to run the plant. For the
+A wastewater treatment plant based on the SBR technol-
+present analysis, this is considered as mechanical energy
+ogy is investigated for its total energy consumption and
+since the diesel engine produces mechanical power to run
+the resulting impact on the environment. The energy
+the generator. The mechanical energy or the fuel energy rep-
+usage at the plant in the form of electrical, mechanical,
+resents the total amount of oil or diesel used in the treatment
+human, and chemical energy is analysed. For analysing the
+1 3
+
+--- Page 5 ---
+International Journal of Environmental Science and Technology
+plant daily for running the generator in the case of power The effluent quality
+supply failure. It is estimated using Eq. 2.
+10×D The wastewater samples were collected from the treatment
+M = ,
+e Q (2) plant, and laboratory tests were performed to check the influ-
+ent and effluent water quality. The water quality parameters
+where M is the mechanical energy in kW h/m3, D is the selected for the tests are biological oxidation demand (BOD),
+e
+diesel consumption in L/day and 10 is the unit power density chemical oxidation demand (COD), total suspended solids
+value of diesel in kW h/L and shows the amount of power (TSS), pH, total phosphorous (TP), and total nitrogen. Stand-
+stored in 1 L of diesel (Ginley and Cahen 2010; Belloir ard methods (APHA 2012) were used for testing the samples.
+et al. 2014). The diesel consumed in the wastewater treat-
+Estimation of GHG emissions
+ment was found to be approximately 70 L/day for running
+the generators.
+Human energy is required for various activities on the The methodology followed for calculating GHG emissions
+field, like collection and transportation of sludge cakes from from the wastewater treatment plant is based on 2019 Refine-
+the sludge handling unit to the endpoint, cleaning of tank ment to the 2006 IPCC Guidelines for National Greenhouse
+walls, monitoring of the centrifuge unit for clogging, main- Gas Inventories (IPCC 2019). Direct and indirect GHG emis-
+taining logbook, and monitoring the panel control room. sions are calculated. In direct emissions, CH 4 (methane) and
+Human energy consumption is based on the gender of the N 2O (nitrous oxide) emissions are estimated for the treatment
+worker and the type of activity, as shown in Table 1. Human plant, and emissions due to the utility grid electrical power
+activities are classified as heavy, medium, and low, based consumption and those because of the diesel generator are
+on manual input. On the basis on these considerations, the estimated as indirect emissions. Direct CO 2 emission from
+human energy is estimated. In the wastewater treatment plant the treatment system is not considered in the IPCC guidelines
+studied, there was no female employee engaged. Hence, the because of their biogenic origin. It means carbon present in the
+male power equivalent was used given in Table 1. wastewater is derived from modern (biogenic) organic matter
+in human excreta or food waste, and they do not represent
+i=n j=mE N T
+i=0 j=0 ij ij ij a transfer of carbon from the lithosphere to the atmosphere.
+H = , (3)
+e Q Therefore, it should not be included in the total national emis-
+∑ ∑
+sions (IPCC 2019). The equations used in calculating GHG
+where H is the human energy in kW h/m3, n is the number emissions (CH and N O) are given below:
+e 4 2
+of type of activities characterized as heavy, moderate, and
+CH Emissions = TOW −S ×EF −R ,
+light (Table 1), m is the gender number (female, male), N is 4 j j j j j (5)
+pth oe w n eu r m eqb ue ir v o af le p ne to ip nl ke Woc c au np di Ted i si n th a en t a imct eiv oi fty a, cE ti vis i tt yh e in h hu /m daa yn . where CH 4 Emissio[(ns j is metha) ne emission] s from a treat-
+ment pathway or system, j, in kg/CH 4/year, T OWj is total
+Chemical energy is evaluated from the change of standard
+ΔH degradable organics in domestic wastewater of a treatment
+enthalpy ( ) during a reaction. The chemical energy in
+kW h/m3 is, therefore, estimated using Eq. 4. pathway or system, j, in kg BOD/year, S j is organic com-
+ponent removed in kg BOD/year, j represents each system
+m[ ΔH product− ΔH reactant] or treatment pathway, EFj is emission factor, and R j is the
+C e = Q ×0.000278, (4) amount of methane recovered. Methane is not recovered
+∑ ∑
+from the respective treatment plant (value of R j is 0).
+where C is the chemical energy kW h/m3, m is the num-
+e EF =B ×MCF,
+ber of moles used/day, ΔH product is the heat of evolution of j 0 j (6)
+ΔH
+product (kJ/mol) and reactant is the heat of evolution of
+where E Fj is the emission factor in kg CH 4/kg BOD, MCFj
+reactant (kJ/mol).
+is methane correction factor, j represents each discharge
+Table 1 Human power
+Work load Female Male Activities in the sewage treatment plant
+equivalent (kW). Source: WHO
+(1985) and Singh et al. (2012) Heavy 0.44 0.54 Collection of sludge into gunny bags, preparation of chemical solution
+for dosing, filling of a chemical solution into tank, and cleaning of
+the tank
+Moderate 0.11 0.14 Opening or closing of valves, operating valves for backwashing
+Light 0.10 0.13 Maintaining logbook, switch on/off pumps, monitoring control rooms
+1 3
+
+--- Page 6 ---
+International Journal of Environmental Science and Technology
+pathway/treatment, and B 0 is maximum methane producing consumption of protein in kg protein/person/year, F npr is
+capacity, k gCH /kg BOD. According to IPCC guidelines, the nitrogen fraction in protein, 0.16 kg N/kg protein is the
+4
+M CFj value of aerobic treatment plants is within the range default value, F is the factor for non-consumption of
+non-con
+of 0.003–0.09 (average value is 0.03). The respective treat- protein disposed in sewer system, kg N/kg N, F is the
+ind-com
+ment plant has MCFj value of 0.035. Default value for B 0 is factor for commercial and industrial co-discharged protein
+0.6 kg C H /kg BOD. into the sewer system in kg N/kg N, 1.25 is the default value
+4
+and N is the additional nitrogen from household products
+TOW=P×BOD×0.001×365, hh
+(7)
+added to the wastewater. Country-specific data are provided
+where TOW is the total degradable organics in domestic for F non-con and N hh. For India, the value for F non-con and N hh
+wastewater, kg BOD/year, P is the population served by is 1.02 and 1.13, respectively.
+treatment pathway, BOD is area specific per capita BOD in Protein=Protein ×FPC,
+supply (11)
+grams/day/person, country-specific data are provided in the
+guidelines, for India it is within the range of 21–41 g/person/ where Protein supply is the annual per capita protein supply, kg
+day (average value is 34 g/person/day), but the regional data protein/person/year and protein supply in India is 0.06533 kg
+were also available at the respective treatment plant and the per person day (FAO 2017), or FPC = fraction of protein
+value taken is 38 g/person/day, and 0.001 is the conversion consumed. Country-specific data are given for FPC (value
+factor for grams to kilograms. for India is 0.96).
+TOW = [TOW×U ×T ×I],
+j i ij j (8) Estimation of CH 4 accumulation in the atmosphere
+i
+∑
+where T OWj is the total organics in wastewater, kg BOD/ System dynamics (SD) is a policy-based methodology that
+year, for income group i and treatment pathway, j. U i is the evaluates the effect of policy changes on a system (Sharawat
+fraction of population in i income group, T i,j is the degree et al. 2014). A SD model is used to calculate the CH 4 accu-
+of utilization of system or treatment pathway, j, for each mulation in the atmosphere. The main building blocks for
+fraction of income group i, and I is the correction factor for the SD model are stocks, flows, converter, and connectors.
+BOD discharged into sewer by industries (1.25 for collected In Fig. 2, the stock variable is shown as rectangle repre-
+or 1.00 for uncollected). For U i and T i,j , country-specific data sent accumulations—physical and non-physical. They start
+are provided. For India, the values of U i for each income with some initial value and thereafter are changed only by
+group, rural, urban high, and urban low, are 0.71, 0.06, and flows into and out of them. A flow is the rate of change in
+0.23, respectively. The T i,j, values for rural, urban high, and a stock which is represented by a double-lined arrow with
+urban low are 0.10, 0.07, and 0.03, respectively. valves. Converters are represented by circles and they serve
+utilitarian role in the model. They define external inputs
+44
+N OPlants = (U ×T ×EF) ×TN × , to the model, hold values for constants, and act as reposi-
+2 dom i ij j dom 28 (9)
+[ i.j ] tory for graphical functions. The job of the connector is to
+∑
+connect model elements, represented by red lines in Fig. 2.
+where N 2OPlants dom is N 2O emissions from domestic The modelling is done using STELLA 9.0.1 software. The
+treatment plants, kg N O/year, T N is the total nitrogen modelling is done using STELLA 9.0.1 software. Figure 2
+2 dom
+in domestic wastewater, kg N/year, U i is the fraction of shows the system dynamic stock and flow diagram of CH 4
+population in income group i, T ij is degree of utilization of
+treatment pathway j, for each income group fraction i, E Fj
+is the emission factor for treatment pathway or system j, ACCUMULATION
+kg N 2O–N/kg N. In guidelines, it is given that EFj value
+for aerobic treatment plants is 0.016 kg N O–N/kg N and
+2
+44
+28 = conversion of kg N 2O–N into kg N 2O. Accumulation rate Decay rate
+TN = P ×Protein×F ×N ×F ×F ,
+dom_j j npr hh non-con ind-com
+(10)
+( )
+where TN dom_j is the total amount of nitrogen in domestic CH4 Delay time
+wastewater for treatment pathway j, kgN/year, P j is popula-
+tion served by treatment pathway j, protein is the per capita
+Fig. 2 System dynamic model stock and flow diagram for C H accu-
+4
+mulation
+1 3
+
+--- Page 7 ---
+International Journal of Environmental Science and Technology
+accumulation in the atmosphere from the wastewater treat- in the atmosphere. The CH emission from the wastewater
+4
+ment plant. Equations used in the system dynamic model treatment plant is taken as a CH accumulation rate. The
+4
+are as follows: initial concentration of CH in the atmosphere is taken
+4
+Accumulation(t)=Accumulation(t−dt)+(Accumulationrate−Decayrate)∗drt
+(12)
+InitialAccumulation=0
+as 0. Thus, the 12 years back generation rate of CH was
+4
+Inflows: equal to its decay rate. The delay function is based on the
+following equation (Kumari et al. 2016).
+Accumulationrate=CH
+4 (13)
+A =A + k −k ×d,k =delay[ k , T , E ],
+t t−dt a d d a 0
+CH = methane released from the wastewater treatment
+4
+plant (the value calculated from Eq. 5) where A t = CH� 4 accum� ulation in time t ⟨, k a⟩ =⟨ CH⟩4⟨ acc⟩umula-
+Outflows: tion rate, k d = CH 4 decay rate, T = delay time (12 years) and
+Decayrate=Delay CH ,Delaytime,0 ;Delaytime=12years. E 0 = initial concentration of CH 4 in the atmosphere.
+4
+(14)
+( )
+A dynamic balance exists between the inflow and out- Results and discussion
+flow rate of the CH concentration. Whatever quantity
+4
+of C H 4 enters into the atmosphere, the same amount is Total energy consumption
+removed or decays but with a delay period of 12 years
+because the life span of CH in the atmosphere is 12 years.
+4 The electrical energy consumption evaluated for different
+In the present study, a “delay function” in the system
+sections of the SBR-based wastewater treatment plant is
+dynamic model is used for estimating CH accumulation
+4 given in Table 2. The sum total of all the sections works
+Table 2 Estimation of electrical energy consumption
+Treatment unit Type of equipment Total no. of No. of working Power (kW) Time (h/day) E (kW h/m3)
+e
+units units
+Screen chamber Mechanical screen 1 1 1.50 24 0.0019
+Conveyer belt 1 1 1.50 24 0.0019
+Grit chamber Scrapper driver 1 1 1.50 24 0.0019
+Screw pump 1 1 1.50 24 0.0019
+Organic return pump 1 1 0.75 24 0.0009
+SBR reactor Air blower 3 2 132 12.3 0.171
+RAS pump 2 2 9.50 6.0 0.006
+SAS pump 2 2 9.50 2.7 0.0027
+Motorized gate 2 2 0.75 0.2 0.00002
+Decanter assembly 2 2 0.75 7.7 0.0006
+Motorized valve 6 6 0.75 0.6 0.00014
+C C tank Chlorine dosing pump 2 1 3.75 8.0 0.0016
+Sludge thickener Scrapper driver 1 1 1.50 24 0.0019
+Thickener feed pump 2 1 3.75 9.0 0.0018
+Sludge sump Air blower 2 1 3.75 10 0.002
+Centrifuge unit Centrifuge feed pump 2 1 3.75 10 0.002
+Polyelectrolyte agitator 2 1 0.75 10 0.0004
+Polyelectrolyte dosing pump 2 1 0.75 10 0.0004
+Centrifuge 2 1 18.50 10 0.01
+Decanter 2 1 18.50 10 0.01
+Filtrate sump Pump 1 1 2.0 10 0.001
+Total 0.22 kW h/m3
+1 3
+
+--- Page 8 ---
+International Journal of Environmental Science and Technology
+out to 0.22 kW h/m3. Figure 3 shows the share of different picture of the electrical energy used in different treatment
+forms of energy utilized at the treatment plant. Obviously, units and processes is shown in Fig. 3b, c.
+as evident from Fig. 3a, the maximum share is of electrical The share of mechanical energy in the total energy con-
+energy and it is 84% of the total energy consumed. The elec- sumption works out to 15% (0.04 kW h/m3). Daily 70 L die-
+trical energy consumption in the SBR-based technology is sel was consumed at the wastewater treatment plant site for
+less than that in other treatment technologies. The values for running the standby generator. Table 3 gives the detailed
+other technologies range from 0.24 to 2.32 kW h/m3 (Belloir aspects for the human energy spent for the different opera-
+et al. 2014; Pan et al. 2011; Venkatesh and Brattebo 2011; tions at the plant. The human energy works out to merely 1%
+Mizuta and Shimada 2010). Among the treatment processes, of the total energy consumption. This is low because most
+primary and secondary treatment in the SBR reactor comes of the manual activities, like opening and closing of valves
+out to be the most energy-demanding processes. They con- or gates, handling of chemicals, etc., are automated. It was
+sume 82% of the electrical energy. Out of this, the air blow- found that 34% of the human energy was spent for scrub-
+ers used for the aeration process consume 78% followed by bing off the sludge from the walls in the reactor zone of the
+return activated sludge (RAS) pump that consumes 2.7% of SBR reactor. Figure 4 shows the process-wise distribution
+the electrical energy. The sludge handling unit consisting of of human energy. Obviously, the bulk of it (82%) is used in
+sludge thickener, sludge sump, and centrifuge unit accounts the primary and secondary processes followed by the sludge
+for 13% of the electrical energy consumption. The complete handling (13%).
+Fig. 3 Percentage of energy Manual
+(a)
+consumption: a total energy; b 1%
+electrical energy; c each treat- .Chemical
+ment processes 0.07%
+Mechanical
+15%
+Electrical
+84%
+(b)
+Filtrate sump
+0.4%
+C C tank
+0.7%
+Sludge sump
+0.9% Air blower
+Sludge thickener 78%
+SBR reactor
+2%
+Screen chamber 82%
+2%
+Grit chamber Motorized valve
+2% 0.06%
+RAS pump
+Centrifuge unit Motorized gate 2.7%
+10% 0.01% SAS pump
+1%
+Decanter assembly
+0.23%
+(c)
+Primary &
+Secondary
+treatment
+82%
+Sludge
+handling
+13%
+Tertary
+Preliminary
+treatment
+treatment
+1%
+4%
+1 3
+
+--- Page 9 ---
+International Journal of Environmental Science and Technology
+Table 3 Human power (H e) Treatment unit Type of activity Time No. of labour engaged H (kW h/m3)
+used at the wastewater treatment e
+(h/day)
+plant
+Screen chamber Heavy 1.0 1 0.00003
+Medium – – –
+Light – – –
+Grit chamber Heavy 4.0 1 0.0001
+Medium – – –
+Light – – –
+SBR reactor Heavy 2.5 4 0.0003
+Medium 1.0 2 0.00002
+Light – – –
+Centrifuge Heavy – – –
+Medium 10 2 0.00012
+Light – – –
+Sludge platform Heavy 2.0 2 0.0002
+Medium – – –
+Light – – –
+Panel control room Heavy – – –
+Medium – – –
+Light 24 1 0.0002
+Total 0.001 kW h/m3
+Tertary m3 for rotating biological contractor (Belloir et al. 2014;
+Sludge handling
+treatment 25% Singh et al. 2012).
+0%
+Others As mentioned earlier, a comprehensive assessment of
+23%
+different forms of energy utilized during the wastewater
+treatment is important to analyse opportunities for energy
+substitution. Though the share of human energy in the
+Primary & Preliminary wastewater treatment process was quite low, it is impor-
+Secondary
+treatment treatment tant in energy analysis studies. It provides an opportunity
+15%
+37% to look for alternatives at various stages of the treatment
+processes, e.g. the cleaning of preliminary treatment units
+(screening and grit removal) and chemical dosing. These
+processes can be done mechanically or manually (human).
+Fig. 4 Human energy consumption in each treatment process The manual process is worth considering where the labour
+charges are low, and the electrical energy is scarce. How-
+ever, the health hazard and human safety are vital for uti-
+Chlorine gas utilized in the disinfection tank accounts lizing the labour force while handling the wastewater flow
+for the chemical energy. The study made for the SBR-based in the treatment units. The investigations of the breakup
+wastewater treatment plant showed that this energy compo- of energy consumption can thus be helpful in choosing
+nent was just 0.07% (0.0002 kW h/m3) of the total energy the energy resource and the extent of automation at the
+consumption. The overall energy consumption at the treat- wastewater treatment plants.
+ment plant worked out to 0.2612 kW h/m3 by talking into It could be observed that the wastewater treatment
+account all the energy aspects. However, the literature does plants are energy intensive and the energy required at the
+not have the sufficient data to compare values with the same treatment plants is expected to rise considerably because
+technology treatment plant. Few studies on other treatment of more stringent limits for water quality parameters and
+technologies have reported values which differ significantly inclusion of nutrient removal parameters in the prescribed
+due to dissimilarity in scale, automation, and selection of standards of effluent discharge. As mentioned earlier, a few
+treatment technology. Total energy consumption ranges from studies are available in the literature on the total energy
+2.07 to 2.32 kW h/m3 for oxidation ditches and 1.07 kW h/ assessment for the wastewater treatment plants and no
+1 3
+
+--- Page 10 ---
+International Journal of Environmental Science and Technology
+such study was available for the SBR-based technology. guidelines, Eqs. (5) to (11) were used to evaluate the quan-
+To meet the new standards, the existing wastewater treat- tity of CH and N O emissions from the treatment plant.
+4 2
+ment plants will require retrofitting. For these and new The data collected from the treatment plant, emission fac-
+plants fulfilling the requirements of updated standards, tors used for the evaluation, and GHG emissions are given
+the overall energy analysis will be beneficial to evolve in Tables 5 and 6. As given in Table 5, the annual emis-
+techno-economic energy-efficient strategies. Such types sions of CH and N O from the plant are estimated to be
+4 2
+of generalizations are needed for different categories of 19 t CO e/year and 86 tCO e/year, respectively. Therefore,
+2 2
+the wastewater treatment plants in order to have a holistic annually in total 105 tCO e/year of GHGs are emitted from
+2
+view on energy and wastewater treatment nexus. It will the wastewater treatment plant. The plant is also responsible
+also help in deciding the size of treatment plant, level of for indirect emissions of GHGs due to the electricity used
+automation, and choice of the treatment technology based from the utility grid and the captive power produced by the
+on the available resources. standby generator at the plant site. Total emissions of these
+so-called indirectly emitted GHGs because of the electri-
+Investigation of effluent quality
+cal power used by the treatment plant work out to 1316.47
+tCO e/year. Out of this, the emissions due to the electrical
+2
+Samples of influent and effluent collected from the waste- power drawn from the utility grid amount to 1251.32 tCO e/
+2
+water treatment plant under investigations were analysed year and from the standby power generator at the plant site
+to determine six water quality parameters, i.e. BOD, TSS, are 65.15 tCO e/year. The details are given in Table 6. Tak-
+2
+COD, pH, TN, and TP. The test results along with the new ing both the direct and indirect emissions arising due to the
+(prescribed in the year 2019) and old standards for the SBR-based wastewater treatment plant with the treatment
+wastewater effluent discharge are given in Table 4. Earlier capacity of 19 MLD, the overall GHG emissions work out
+removal of nutrients was not mandatory in India to meet the to 1421.47 tCO e/year.
+2
+quality standards for the effluent discharge in rivers. But in In India, according to an estimate, nearly 62,000 MLD
+the year 2019, stringent limits are added to the newly pre- wastewater was generated 5 years ago from urban areas,
+scribed standards for the discharge of TN and TP. From the while the treatment capacity was only 23,277 MLD (CPCB
+results, it is clear that the effluent quality discharged from 2015). It means nearly 62% of wastewater was discharged
+the treatment plant, comply with the new standards of all untreated, causing pollution of water bodies. With the
+the six parameters. The percentage reduction in the values increasing population and growth of GDP the water usage
+of BOD, COD, TSS, TN, and TP is 97%, 87%, 97%, 78%, and, as a consequence, wastewater discharge also increases.
+and 76%, respectively. The treated effluent quality of the Substantial enhancement in the capacity of wastewater treat-
+SBR-based treatment plant satisfies the EPA guidelines to be ment and reuse of the treated water is required to circumvent
+reused for non-potable purposes, like landscaping, horticul- the continuously growing water scarcity and the problem of
+ture, gardening, toilet flushing, etc. (EPA 2012). Therefore, water pollution. According to the present analysis, if all the
+SBR technology is an efficient technology in terms of treated untreated wastewater is treated using the SBR technology,
+wastewater quality. 2,897,031 tCO e/year of GHGs will emit from such sites.
+2
+However, for a holistic view, such studies on different types
+Estimation of GHG emissions
+of treatment processes in various parts of the world would
+be required.
+The greenhouse gases (CH and N O) emitted from the
+4 2
+Estimation of CH accumulation in the atmosphere
+wastewater depends on its biodegradable organic matter and 4
+the wastewater treatment technology. Following the IPCC
+The system dynamics approach described in methodology is
+adopted to estimate the C H accumulation in the atmosphere
+4
+Table 4 Characteristics of influent and effluent of the treatment plant with projection till the year 2041 starting from 2018. The
+N O accumulations are not considered since the N O life
+Parameter Unit Influent Effluent New stand- Old standard 2 2
+ard (2019) span in atmosphere is quite long, i.e. 110 years. The CH 4
+emitted from the treatment plant is neither recovered nor
+pH – 7.8 7.1 5.5–9.0 6.5–9.0
+reused for any purpose; it simply goes to the atmosphere.
+TSS mg/L 305 09 < 20 < 100
+Figure 5 (generated from SD model) shows the accumulation
+BOD mg/L 260 08 < 10 < 30
+of C H in the atmosphere over the years due to its emission
+4
+COD mg/L 370 46 < 50 < 250
+from the wastewater treatment plant under investigation.
+TN mg/L 38.5 8.4 < 10 –
+The initial concentration of CH is taken as 0 in the base
+4
+TP mg/L 3.8 0.9 < 1 –
+year 2018. From the year 2018 to 2029, the concentration
+1 3

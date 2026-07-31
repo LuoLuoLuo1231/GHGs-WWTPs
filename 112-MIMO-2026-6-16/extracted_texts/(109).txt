@@ -1,0 +1,599 @@
+--- Page 1 ---
+Article
+Study on the Construction and Application of a Prediction
+Model for Carbon Emissions in Wastewater Biological
+Treatment Processes
+XueYang1,2 ,HuiliLi1,2,*andYuetingYang3
+1 SchoolofCivilEngineering,KashiUniversity,Kashi844000,China;yangxue@stu.shzu.edu.cn
+2 WaterResourcesandWaterEnvironmentEngineeringTechnologyCenter,XinjiangKeyLaboratoryof
+EngineeringMaterialsandStructuralSafety,SchoolofCivilEngineering,KashiUniversity,
+Kashi844000,China
+3 ShaanxiConstructionSeventhEngineeringGroupCo.,Ltd.,Xi’an710038,China;yangyueting2025@163.com
+* Correspondence:lhl2024@ksu.edu.cn
+Abstract: Carbonemissionsaccountingofwastewatertreatmentsystemsisessentialfor
+understanding their energy efficiency and greenhouse gas emissions. To overcome the
+inefficiencies and high uncertainty of traditional carbon emission accounting methods
+inwastewatertreatment,carbonemissionpredictionsoftwareforbiologicalwastewater
+treatmentsystemswasdeveloped. Thissystemisbasedonbiochemicalreactionsthatoccur
+duringbiologicalwastewatertreatmentprocessesandtheclassificationofcarbonemission
+sources within the system. By utilizing stoichiometric relationships, a carbon emission
+accountingplatformforwastewatertreatmentprocesseswascreatedusingprogramming
+languages,suchasPython. Theplatformwasusedtocalculatethecarbonemissionsoftwo
+typicalurbanwastewatertreatmentplantsinXi’an. Theresultsindicatedthatoxidation
+ditches in conventional urban wastewater treatment processes demonstrated superior
+performance,withlowerenergyconsumptionandtotalcarbonemissions. Carbonemission
+calculations also revealed that septic tanks, which are critical components of building
+drainage systems, are frequently underestimated and overlooked as significant carbon
+emissionsources.
+AcademicEditor:MariaJoseMartin
+Keywords: carbonemissions;biologicalwastewatertreatment;carbonemissionevaluation;
+deVidales
+predictionmodel;stoichiometricrelationship
+Received:17February2025
+Revised:18March2025
+Accepted:21March2025
+Published:27March2025
+1. Introduction
+Citation: Yang,X.;Li,H.;Yang,Y.
+Inrecentyears, environmentalissues, particularlyglobalwarming, havegarnered
+StudyontheConstructionand
+ApplicationofaPredictionModelfor significantattentionfromthepublicandacademiccommunitiesworldwide. InSeptember
+CarbonEmissionsinWastewater 2019,theUnitedNationsFrameworkConventiononClimateChange(UNFCCC)stated
+BiologicalTreatmentProcesses. thatmanycountrieshadpledgedtoachievenetzerocarbonemissionsby2050[1]. Car-
+Processes2025,13,999. https://
+bonemissionsprimarilyrefertogreenhousegasesdominatedbycarbondioxide(CO ),
+2
+doi.org/10.3390/pr13040999
+includingnitrousoxide(N O),methane(CH ),ozone(O ),andchlorofluorocarbons(CFCs,
+2 4 3
+Copyright:©2025bytheauthors. freons). Existingresearchdataindicatethatprolongedandextensivecarbonemissions
+LicenseeMDPI,Basel,Switzerland.
+contributetoglobalwarming,risingtemperatures,andchangesinecosystems,whichin
+Thisarticleisanopenaccessarticle
+turnaffectagriculturalproductionandthegrowthoffloraandfauna[2–5]. Additionally,
+distributedunderthetermsand
+carbon emissions lead to the melting of glaciers and permafrost, rising sea levels, and
+conditionsoftheCreativeCommons
+Attribution(CCBY)license widespreadflooding,exacerbatingdroughtsandcausingwaterresourceshortages,ulti-
+(https://creativecommons.org/ matelyaffectingtheenvironment. Thereductionofgreenhousegasemissionsandresponse
+licenses/by/4.0/).
+Processes2025,13,999 https://doi.org/10.3390/pr13040999
+
+--- Page 2 ---
+Processes2025,13,999 2of19
+toclimatechangehavebecomeaglobalconsensuswithintheinternationalcommunity.
+Mostindustries(e.g.,thepowersector,chemicalindustry,agriculture,andconstruction
+industry)arerequiredtoconductcarbonemissionassessmentsandformulatestrategiesfor
+carbonreduction[6–10].
+Asafocalpointlinkingenvironmentalpollution,fossilfuelconsumption,andglobal
+warming,carbonemissionsplayapivotalroleinshapingChina’slong-termenvironmental
+strategies. AccordingtostatisticsfromtheWorldResourcesInstitute,themajorsourcesof
+carbonemissionsinChinaaretheconstructionandrenewableenergyindustries,aswellas
+theindustrialandagriculturalsectors[11]. China’smaincontributorstocarbonemissions
+areenergy,industry,transportation,andbuildingmaterials. In2021,China’sindustrial
+sectorenergyconsumption(including41industrialcategories)accountedforabout65.29%
+ofthecountry’stotalenergyconsumption,ofwhichcoalconsumptionaccountedfor54.98%.
+The industrial sector contributes nearly 76.30% of sulfur dioxide emissions and 67.25%
+ofcarbondioxideemissionstothecountry’stotalemissions[12]. Sincetransportationis
+aprimaryandessentialsectorforsocialdevelopmentandthenationaleconomy,carbon
+emissionsfromChina’stransportationsectoraccountfor9.17%ofthetotal[13]. In2020,
+thetotalenergyconsumptionoftheentirelifecycleofChina’sbuildingsreached2.27billion
+tonnesofcoalequivalent(tce),accountingfor45.5%ofChina’stotalenergyconsumption.
+Specifically,theenergyconsumptionduringthebuildingmaterialsproductionstagewas
+1.11billiontce,representing22.3%ofthecountry’stotalenergyconsumption;theenergy
+consumptionduringtheconstructionstagewas0.09billiontce,accountingfor1.9%;and
+theenergyconsumptionduringthebuildingoperationstagewas1.06billiontce,making
+up21.3%. Inthesameyear,thetotalcarbonemissionsfromtheentirelifecycleofChina’s
+buildings amounted to 5.08 billion tonnes of CO , representing 50.9% of the country’s
+2
+totalcarbonemissions. Amongthese,thecarbonemissionsfromthebuildingmaterials
+productionstagewere2.82billiontonnesofCO , accountingfor28.2%ofthetotal; the
+2
+carbonemissionsfromtheconstructionstagewere0.1billiontonnesofCO ,representing
+2
+1.0%;andthecarbonemissionsfromthebuildingoperationstagewere2.16billiontonnes
+ofCO ,accountingfor21.7%[14]. Studieshaveshownthatunderlow-carbonandcarbon-
+2
+neutralscenarios,measurestoimprovetheefficiencyofthebuildingmaterialsvaluechain
+havethegreatestpotentialforCO emissionsreductionbefore2030andremainsignificant
+2
+through2060[15]. Insummary,carbonemissionshaveemergedasacrucialdeterminantin
+shapingChina’slong-termenvironmentalpolicies. Thisissueiscentralnotonlytopolitical
+andinternationaldialoguesbutalsotoinitiativesaimedatecologicalrestoration,fossilfuel
+conservation,andmitigatingglobalwarming. Projectionsindicatethatcarbonemissions
+fromthewastewatersectorareexpectedtoincreaseby27%between2005and2030[16–19].
+It is worth noting that during the social water cycle, a significant portion of water
+isconvertedintodomesticsewageandindustrialwastewater. Thesetwosourcesarethe
+primarycontributorstowaterpollutionandcriticalchallengeshinderingtheharmonious
+development of socio-economic progress and environmental protection [20–23]. Tradi-
+tionalwastewatertreatmentreliesonadditionalenergyandchemicalstosustainthehigh
+pollutantremovalefficiencyofmicroorganismsinbiologicalreactiontanks. Thesemicroor-
+ganismsbreakdownpolymericorganicmatterintoCO ,H O,andenergy[24]. However,
+2 2
+thewatertreatmentindustry,asapersistentsourceofgreenhousegasemissions,hasgone
+largelyunnoticed. Thiswasmainlyattributedtothehiddenandunpredictablenatureof
+greenhousegasemissionswithinthesector. Biologicalwastewaterandsludgetreatment
+processesinvolveawidevarietyofmicroorganismsandcomplexbiochemicalreactions,
+resultingingreenhousegasemissionsthatvarysignificantlydependingonenvironmental
+conditions.Thisprocessinvolvesbothdirectcarbonemissionsfrombiologicalactivitiesand
+indirectcarbonemissionsfromtheoperationofequipmentandfacilities[25,26]. Moreover,
+
+--- Page 3 ---
+Processes2025,13,999 3of19
+theseemissionsarecontinuousandlong-term. In2021,the“InnovationandDevelopment
+ofCarbonReductionTechnologiesundertheCarbonNeutralityContext”forumwasheldin
+Beijing,whereresearchersproposednewdirectionsandpathwaysforlow-carbondevelop-
+mentofChina’swastewatertreatmentindustry[4,5]. In2021,thecentralizedcollectionrate
+ofurbandomesticsewageinChinareached68.6%,representinganincreaseof3.8percent-
+agepointscomparedwiththepreviousyear[27]. By2025,thewastewatertreatmentsector
+isprojectedtomakesubstantialprogressinachievingsynergisticoutcomesforpollution
+reductionandcarbonmitigationalongsidecontinuousadvancementsinenergyefficiency
+andcarbonreductioncapabilities.Inaddition,water-scarcecitiesattheprefectureleveland
+aboveinChinaareexpectedtoachievereclaimedwaterutilizationratesexceeding25%[28].
+In recent years, China will design and construct 100 wastewater treatment plants with
+efficientenergyutilizationandresourcerecoverysystems,primarilybasedonlow-carbon
+emissionwatertreatmenttechnologies[29]. Thecountryaimstoincreasethisrateto70%
+by2025,withaprimaryfocusonmitigatinggreenhouse-gasemissions. Existingresearch
+hasfocusedonareassuchascarbonemissionaccounting[30–32],carbonemissionmea-
+surement[23,33,34]carbonemissionstructure[35,36]carbonfootprintanalysis[37–41],and
+carbonemissionevaluation[42]. However,studiesutilizingexistingwastewatertreatment
+engineeringdataforsimulationandpredictionremainrelativelyscarce.
+Foreignexpertshavelongfocusedontheissueofcarbonemissionsduringthewastew-
+atertreatmentprocessandhaveconductedprofessionalresearchonthistopic. Bridle[43]
+developedaprogramthatcanbeusedforwastewatertreatmentplantdata. Thisprogram
+evaluateddatafrom16wastewatertreatmentfacilitiesinCanada,calculatingtheemissions
+fromprimarytreatment,conventionalactivatedsludge,extendedaeration,andanaerobic
+digestionofresidualsludge. JenniferR.Stokesetal.[44]developedtheWastewaterEnergy
+SustainabilityTool(WWEST),whichisusedtoconductahybridlifecycleassessmentof
+wastewatercollection,treatment,anddischargeinfrastructureintheUnitedStates. Chris-
+tineSweetapple[45]revisedtheactivatedsludgemodelanddevelopedBSM2-e(Benchmark
+SimulationModelNo.2-e),whichisusedtostudythesourcesofuncertaintyingreenhouse
+gasemissionmodelingduringthewastewatertreatmentprocess. HirokoYoshida[46]ap-
+pliedtracerdispersionmethodstoquantifytheintegrated,real-timeemissionsofmethane
+andnitrousoxidefromawastewatertreatmentplant. ShuheiMasuda[47]andothersinves-
+tigatedtheseasonalvariationsofgreenhousegasemissionsandthemainemissionsources
+at a specific wastewater treatment plant. Celia Somlai et al. [48] used a multi-chamber
+automatedsoilgasfluxsystemwithhighspatialandtemporalresolutiontomeasureCO
+2
+andCH fluxesfor81daysinseptictanksinthenorthernmaritimeclimateofIreland. They
+4
+studiedthespatiotemporalvariationsofCO andCH emissionsfromseptictankleachate
+2 4
+andfoundthatCO fluxesexhibitedstrongdiurnalvariationsdrivenbysoiltemperature,
+2
+whileCH fluxeswerelessinfluencedbyenvironmentalfactors. Thesestudiesandreports
+4
+focusonaccountingforthewatertreatmentfacilitiesandevaluatingspecificprocessesor
+products,buttherehasbeenlimitedresearchoncarbonemissionassessmentmodelsfor
+theentirewastewatertreatmentprocess. Consequently,thereisnosystematicmethodfor
+evaluatingthecarbonemissionsofwatertreatmentprocessesandtheenergy-savingeffects
+oftheprocesses. Inaddition,inrecentyears,therehasbeenwidespreadattentioninthe
+industryregardingcarbonemissionsmeasurementandmodelingmethodsinwastewater
+treatment,suchasMulti-ObjectiveParticleSwarmOptimization(MPSO),Non-dominated
+SortingGeneticAlgorithm-II(NSGA-II)[49],andMixed-IntegerProgrammingmodels[50].
+This study explores the generation mechanisms and transformation pathways of
+greenhousegasesduringthebiochemicalprocessesofbiologicalwastewatertreatment.
+Bydevelopingacarbonemissionpredictionmodelbasedonbiochemicalreactionequa-
+tions,thisstudyquantifiedthecarbonemissionsthroughoutthetreatmentprocess. The
+
+--- Page 4 ---
+Processes2025,13,999 4of19
+paperalsoprovidespreliminarycarbonemissionsimulationcalculationsintheprocess
+designofnewlyconstructedwastewatertreatmentplantstoassesstheenergyconsump-
+tionandenvironmentalimpactofthedesign,andtooptimizethewastewatertreatment
+processesandoperationalmodes. Theresultsprovidevaluableguidanceforpromoting
+energyefficiency,reducingemissions,andoptimizingprocessesinbiologicalwastewater
+treatmentsystems,offeringascientificbasisforsustainableupgradesandinnovationsin
+treatmenttechnologies.
+2. MaterialsandMethods
+Carbonemissionsfromwastewatertreatmentsystemscanbecategorizedintotwo
+maintypes: directandindirectemissions[23,38]. Directcarbonemissionsaregeneratedby
+biochemicalreactionsinvolvingmicroorganismsinwastewatertreatmentsystems. Indirect
+carbon emissions, on the other hand, arise from energy consumption associated with
+the operation of infrastructure, such as lifting pumps, aeration equipment, and sludge
+thickeningdevices,aswellasmaterialconsumptionfromtheadditionofchemicalssuch
+asmethanol,flocculants,andcoagulantaids. Priortobiologicaltreatment,apretreatment
+processshouldbeimplemented,whichincludesprocessessuchasscreening,gritchambers,
+and primary sedimentation tanks. Typically, the pollutant removal rate of the primary
+sedimentationtankis20–30%. Thewastewaterenteringthemaintreatmentprocessshould
+meetthewaterqualityrangespecifiedinTable1. Thesourcesofcarbonemissionsfromthe
+sewageandsludgetreatmentprocessesareshowninTable2.
+Table1.Applicablewaterqualityparameterranges.
+WaterQuality InflowConcentration Outflow
+Unit
+Parameter Range Concentration
+COD 250~1000 50 mgL−1
+BOD 100~400 10 mgL−1
+TN 20~85 15 mgL−1
+TP 4~15 0.5 mgL−1
+SS 100~350 10 mgL−1
+NH +-N 10~50 5 mgL−1
+4
+Table2.Carbonemissionsourcesinsewageandsludgetreatmentprocesses.
+Sludge Sludge Sludge
+TreatmentProcess Aerobic Anoxic Anaerobic Composting
+Incineration Landfill Digestion
+√ √ √ √ √ √
+CO
+Emission 2 √ √
+N O
+GasType 2 √ √ √
+CH
+4
+2.1. CarbonEmissionsinBiologicalWastewaterTreatmentProcesses
+Direct carbon emissions from water treatment systems are closely influenced by
+factorssuchasrawwaterquality[51–53], theselectedtreatmentprocesses[54–56], and
+the specific requirements for discharge or reuse [57]. Organic wastewater suitable for
+biologicaltreatmenttypicallyundergoessecondaryortertiarytreatmenttomeetdischarge
+standards or advanced treatment to achieve reuse goals. Primary treatment methods,
+such as screening, filtration, sedimentation, flotation, and aeration, produce minimal
+direct carbon emissions, with the majority being indirect emissions caused by energy
+consumption. Therefore,carbonemissionsfromprimarytreatmentcanbecalculatedbased
+on the energy consumption per cubic meter of water treated at local water treatment
+plants[58,59]. Secondarywatertreatmentmethodsusedinsecondarytreatmentdependon
+
+--- Page 5 ---
+Processes2025,13,999 5of19
+theconcentrationofpollutants:Forlowconcentrationsoforganiccarbon,aerobicbiological
+treatmentmethods,includingactivatedsludge,oxidationditches,andsequencingbatch
+reactors (SBR), are commonly employed [60,61]. These processes primarily emit CO
+2
+alongwithsmallamountsofH O.Conversely,forhighconcentrationsoforganiccarbon,
+2
+anaerobicbiologicaltreatmentmethodssuchasseptictanks,anaerobicsludgedigesters,
+andupflowanaerobicsludgeblanket(UASB)reactorsareoftenutilized. Theseprocesses
+predominantlygeneraterecoverableCH accompaniedbysmallerquantitiesofCO and
+4 2
+H O. It is important to note that methane has a global warming potential 20–25 times
+2
+greaterthanthatofcarbondioxide. Tertiarytreatmentmethodsarecloselyrelatedtothe
+typeofpollutantandgreenhousegasemissions. Amongthem,N O,whichhasaglobal
+2
+warmingpotentialthatisapproximately298timesthatofCO , isasignificantconcern.
+2
+Therefore,nitrogentreatmentprocessesmustbestrictlymonitoredwhileaccountingfor
+carbonemissions.
+Carbonemissionsfromorganicnitrogentransformation: Theprocessesofammonifi-
+cationandnitrificationgenerateCO andH O,andN Oemissionshavebeenobservedin
+2 2 2
+almostallbiologicaldenitrificationprocesses: (1)Duringnitrification,aerobicnitrifying
+bacteria can undergo denitrification under low dissolved oxygen (DO) conditions, pro-
+ducingN O.HeterotrophicnitrifyingbacteriacanalsogenerateN Oduringnitrification.
+2 2
+WhentheDOconcentrationwaslessthan1.5–2.5mg/L,theN Oreleaseratedecreasedby
+2
+60%. N Oemissionsarerareinpracticalwastewaternitrificationprocesses[62]. (2)During
+2
+denitrification,N Oisanintermediateproductofthereductionofnitrates.Itsproductionis
+2
+influencedbyfactorssuchasthemicrobialspecies,pH,C/Nratio,externalcarbonsources,
+DO,sludgeretentiontime(SRT),andtemperature[63]. (3)Simultaneousnitrificationand
+denitrificationachievenitrogenremovalefficiencycomparabletothatofsequentialnitrifica-
+tionanddenitrification,butwithsignificantlyreducedN Oemissions. Onanengineering
+2
+scale, 0–14.6% of nitrogen is converted to N O during wastewater denitrification, with
+2
+N Oemissionsdependingonthedenitrificationmethod. Carbonemissionsfromorganic
+2
+phosphorustransformationAccordingtotheprinciplesofbiologicalphosphorusremoval,
+the transformation of organic phosphorus does not produce gaseous carbon emissions.
+However,inprocessesthatcombinenitrogenandphosphorusremoval,thepresenceofni-
+trateintheanaerobiczonemayresultinminorcarbonemissions. Theseemissionsdepend
+onnitrateconcentrationandmicrobialspeciesintheanaerobiczone. Advancedtreatment
+methodsforreusetypicallyinvolvechemicalorphysicochemicalprocesses. Theresulting
+carbonemissionsprimarilystemfrommaterialconsumption,whichisrelatedtothequality
+ofthereusedwater.
+Indirect carbon emissions mainly refer to emissions resulting from electricity con-
+sumption and material consumption of chemicals during the operation of wastewater
+treatmentplants. Electricityconsumptioninwastewatertreatmentplantsisprimarilyused
+forpumpingwastewaterandsludge,supplyingoxygenduringbiologicaltreatment,and
+recirculation systems. Electricity accounts for 60–90% of the total energy consumption,
+whichalsoincludesfuelsandchemicals. Inroughestimates,thetotalenergyconsumption
+canbeapproximatedas1.2–1.7timestheelectricityconsumption. Theelectricityconsump-
+tiondependsonthetreatmentscale,processes,andrequirements. Thepollutantdischarge
+standards for municipal wastewater treatment plants (GB18918 [64]) provide regional
+electricityconsumptionlimitsbasedontreatmentscale,whichcanserveasareferencefor
+estimation. InChina,electricityconsumptionforwastewatertreatmentisapproximately
+0.2–0.3kWhm−3. Moreover,carbonemissionscorrespondingtomaterialconsumption
+shouldnotbeoverlooked. Materialconsumptionincludeschemicalsaddedduringwater
+treatment,suchasmethanol,flocculants,andcoagulantaids,whichdependonthecon-
+centrationofsuspendedsolidsinthewater. Differentchemicalsandwaterqualitiesresult
+
+--- Page 6 ---
+Processes2025,13,999 6of19
+indifferentdosages,whichcanbedeterminedthroughcoagulationexperiments. Notably,
+thecoagulationprocessreducestheCOD,whichmustbeaccountedforinthesubsequent
+processefficiencycalculations. Ifanexternalcarbonsourceisrequiredindenitrification
+processes,theassociatedmaterialconsumptionshouldalsobeincluded. Methanoldosage
+canbedeterminedexperimentallyorbasedonempiricalformulas,withdeviationstypically
+within10%[65,66].
+=1.215×(cid:0) 2.47×∆NO−+0.87×DO(cid:1)
+C , (1)
+m 3
+C : Methanoldosage.
+m
+∆NO− : AmountofNO − removedfromthedenitrificationtank.
+3 3
+DO: Dissolvedoxygenconcentrationinthedenitrificationtankinfluent.
+Thecommonlyusedchemicalsforphosphorusremovalincludealuminumsalts,iron
+salts, andlime. Whenusingaluminumsaltsorironsaltsascoagulants, theirdosageis
+typically1.5–3timesthemolarratioofthetotalphosphoruscontentinthewater. When
+using lime for phosphorus removal, the reaction forms Ca (PO ) OH precipitate. The
+5 4 3
+requiredlimedosagedependsonthealkalinityofthewastewaterratherthanitsphosphorus
+content. However,limeislessfrequentlyusedforphosphorusremovalbecauseofthelarge
+amountofsludgethatisproduced.
+2.2. ConstructionoftheCarbonEmissionPredictionModelforBiologicalWastewater
+TreatmentProcesses
+Based on the sources of carbon emissions in the wastewater treatment process de-
+scribedearlier,amodelwasdevelopedtocalculatethetotalcarbonemissions,including
+both direct and indirect emissions, at each stage and for each treatment method. The
+carbonemissionmeasurementboundariesforsewagetreatmentareshowninFigure1. For
+biologicaltreatmentprocesses,calculationsarebasedonbiochemicalreactionequations,
+withthefollowingassumptions:
+The biological conversion of organic carbon occurs via assimilation and dissimila-
+tion,withnointermediatecarbonproductsformed;thefinalproductsoforganiccarbon
+conversionareonlyCO andCH .
+2 4
+1. The dissolved oxygen required for aerobic nitrification is sufficient, and there are
+no heterotrophic nitrifying bacteria in the system; N O is produced only during
+2
+denitrification. ThefinalproductoforganicnitrogenisN .
+2
+2. The anaerobic zone for biological phosphorus removal does not consider denitri-
+fication processes. Anaerobic biological treatment processes are only related to
+changesinorganiccarbonanddonotconsiderthetransformationoforganicnitrogen
+orphosphorus.
+3. Thesolubilityofvariousgasesinwaterisnotaccountedfor.
+4. The environmental conditions for the biological reactions are: room temperature
+(20◦C),onestandardatmosphericpressure,andapHvalueof7.0.
+5. Thetransformationprocessesandproductsofelementssuchassulfur(S)andiron
+(Fe)areneglectedinthechemicalreactions.
+Thecarbonemissionmeasurementboundariesforsewagetreatmentareshownin
+Figure1. Forbiologicaltreatmentprocesses,calculationsarebasedonbiochemicalreaction
+equations,withthefollowingassumptions: thebiologicalconversionoforganiccarbon
+occursviaassimilationanddissimilation,withnointermediatecarbonproductsformed;the
+finalproductsoforganiccarbonconversionareonlyCO andCH . Thedissolvedoxygen
+2 4
+requiredforaerobicnitrificationwassufficient,andtherewerenoheterotrophicnitrifying
+bacteriainthesystem;N Owasproducedonlyduringdenitrification. Theanaerobiczone
+2
+
+--- Page 7 ---
+Processes2025,13,999 7of19
+forbiologicalphosphorusremovaldoesnotconsiderdenitrificationprocesses. Anaerobic
+Processes 2025, 13, x FOR PEER REVbIEioWlo gicaltreatmentprocessesareonlyrelatedtochangesinorganiccarbonand7d oof n19o t
+considerthetransformationoforganicnitrogenorphosphorus.
+FiFgiugruere1 .1.S Schcheemmaatitcicd diaiaggrraamm ooff tthhee ccaarrbboonn eemmiissssiioonn mmeeaassuurreemmeenntt bboouunnddaarrieiess fofor ruurbrbaann seswewagaeg e
+tretraetamtmenetn.t.
+CThheem cicaarbloEnq ueamtiiossniofonr mOeragsaunriecmCeanrtb obnouTnrdanarsifeosr mfoar tsioenwuagned etrreAatemroebnitc aCreo nshdoitwionn si:n
+Figure 1. For biological treatment processes, calculations are based on biochemical reac-
+(cid:16) y z(cid:17) y
+tion equations, with tChxeH foylOlozw+ ingx a+ ssum− ptionOs:2 t→ he bxiCoOlo2g+ ical cHo2nOversion of organic car(-2)
+4 2 2
+bon occurs via assimilation and dissimilation, with no intermediate carbon products
+(cid:16) y z (cid:17) n
+fonrCm xHed yO; t zh+e finNnaHl 3p+ronduxc+ts o 4f− or 2g−an5ic Oca 2r→bon(C c 5oHn 7vNeOrs 2i)o nn+ arne( xo−nly5) CCOO 22 +an 2d( CyH−44. )THh 2eO dis(-3)
+solved oxygen required for aerobic nitrification was sufficient, and there were no hetero-
+ChemicalEquationforOrganicCarbonTransformationunderAnaerobicConditions:
+trophic nitrifying bacteria in the system; N2O was produced only during denitrification.
+The anaerobic z(cid:16)one fyor bizol(cid:17)ogical pho(cid:18) s1phoru1s rem1ov(cid:19) al does n(cid:18) ot1 consi1der de1ni(cid:19) trification
+C H O + n− − H O→ x− y+ z CO + x+ y− z CH (4)
+procexsseys. Aznaerobic 4biolo2gica2l treatme2nt pro8cesses4 are onl2y relat2ed to 8chang4es in org4anic
+carbon and do not consider the transformation of organic nitrogen or phosphorus.
+ChemicalEquationforOrganicNitrogenTransformationDuringDenitrification:
+Chemical Equation for Organic Carbon Transformation under Aerobic Conditions:
+y z y
+NO−+0.67CH OH+0C.53HHOCO+(→x+0.04−C )HON→OxC+O0.+48N H+O1 .23H O+HCO− , (2()5 )
+2 3 x y 2 z 3 4 25 72 2 2 2 22 2 3
+nN CO H3−+ O1. +08 nC NH H3O +H n+ (x0. +24yH −2Cz −O 35)→ O0. →05 (6 CC 5HH 7NN OO 2)+ +0 n.4 (7 xN −25+ )C1 O.68 +Hn2 O (y+ −HCO 3− (6)
+x y z 3 4 2 2 5 7 2 n 2 2 (3)
+4)HCOh e micalEquationforOrganicPhosphorusTransformation(UsingAcetateasaCar-
+2
+bonSource):
+Chemical Equation for Organic Carbon Transformation under Anaerobic Conditions:
+UnderAerobicConditions:
+y z 1 1 1 1 1 1
+C H O +(n− − )H O→( x− y+ z)CO +( x+ y− z)CH (4)
+Hx Oy +z 0.16NH4++2 1.22 +02 .2PO83− →4 0.162 H2 NO8 +1.4 4
+C O C 2CO
+Chemi2 cal 4 Eq2 uation for O4 rganic N2 itrogen Tr4 ansformatio5 n D7 urin2 g Denitrifi2 cation: (7)
++0.2(HPO )(Polyphosphate)+0.44OH−+1.44H O
+3 2
+NO−+0.67CH OH+0.53H CO →0.04C H NO +0.48N +1.23H O+HCO−, (5)
+2 3 2 3 5 7 2 2 2 3
+UnderAnoxicConditions:
+NO−+1.08CH OH+0.24H CO →0.056C H NO +0.47N +1.68H O+HCO− (6)
+C3 +03 .16NH++02 .96N3 O−+0.25 PO73− →2 2 +2 +3
+H O 0.16C H NO 1.2CO
+2 4 2 4 3 4 5 7 2 2 (8)
+Chemical E .2q(u Ha Pti Oon )f(o Pr oO lyrg pa hn oi sc P hh ao tesp)h+or 1u .4s T Hra−ns+fo 0r .m 96a Htion (+Us 0i .n 4g NAcetate as a Car-
+0 p O O 8
+3 2 2
+bon Source):
+Under Aerobic Conditions:
+C H O +0.16NH++1.2O +0.2PO3− →0.16C H NO +1.2CO +
+2 4 2 4 2 4 5 7 2 2 (7)
+0.2(HPO )(Polyphosphate)+0.44OH−+1.44H O
+3 2
+Under Anoxic Conditions:
+
+--- Page 8 ---
+Processes 2025, 13, x FOR PEER REVIEW 8 of 19
+C H O +0.16NH++0.96NO−+0.2PO3− →0.16C H NO +1.2CO +
+Processes2025,13,999 2 4 2 4 3 4 5 7 2 2 8of(189)
+0.2(HPO )(Polyphosphate)+1.4OH−+0.96H O+0.48N
+3 2 2
+Under Anaerobic Conditions:
+UnderAnaerobicConditions:
+C H O +(HPO )(Polyphosphate)+H O→
+2 4 2 3 2 (9)
+C( 2CH 2H 4O 4O22+) 2( (HSPtoOre3d)( OProglyanpihco Mspahttaetre))++PHO243O−+→3H+
+(9)
+(C H O ) (StoredOrganicMatter)+PO3−+3H+
+Based on the abo2ve4 bio2ch2emical conversion equations fo4r organic matter, it is evident
+that carbon emissions from biological conversion processes are related to the concentra-
+Basedontheabovebiochemicalconversionequationsfororganicmatter,itisevident
+tions of organic carbon, organic nitrogen, and organic phosphorus. These emissions are
+thatcarbonemissionsfrombiologicalconversionprocessesarerelatedtotheconcentrations
+also influenced by discharge standards and the treatment efficiency of biological pro-
+oforganiccarbon, organicnitrogen, andorganicphosphorus. Theseemissionsarealso
+cesses.
+influencedbydischargestandardsandthetreatmentefficiencyofbiologicalprocesses.
+The water quality parameters for the carbon emissions accounting platform of the
+Thewaterqualityparametersforthecarbonemissionsaccountingplatformofthe
+wastewater treatment system used in this study are listed in Table 2. Based on the logical
+wastewatertreatmentsystemusedinthisstudyarelistedinTable2. Basedonthelogical
+sequence of the wastewater treatment process, a carbon emission accounting platform for
+sequenceofthewastewatertreatmentprocess,acarbonemissionaccountingplatformfor
+wastewater treatment processes was developed using Python (3.9.13) as the programming
+wastewatertreatmentprocesseswasdevelopedusingPython(3.9.13)astheprogramming
+llaanngguuaaggee,,D Djajannggoo( (33.2.2.1.122))a asst thheew weebbf frraammeewwoorrkk,,a annddM MyySSQQLL( 8(8.0.0.3.311))a asst htheed daatatabbaassee..
+The platform’s core functionalities include data input, analysis, and output. It calcu-
+The platform’s core functionalitiesinclude data input, analysis, andoutput. It cal-
+clualtaetse tshteh ecacrabrobno nememisissisoinons sfofor reeaacchh ttrreeaattmmeenntt uunniitt ooff tthhee wwaasstteewwaatteerr ttrreeaattmmeenntt pprroocceessss
+aannddr reeccoommmmeennddssl looww--ccaarrbboonnt trreeaatmtmeennttp prroocceesssseesss suuitiatabblelef foorra as sppeecciifificcw waatteerr qquuaalliittyy..T Thhee
+ooppeerraattiinnggc coonnddiittioionnssa arreep prreesseennteteddi ninT Taabblele3 3..
+TTaabblele3 3..C Caarbrboonne emmisissisoionna accccoouunntitninggp plalatftoformrmt etechchnniciacalle nenvvirioronnmmenent.t.
+EnEvnirvoinromnemnet nNtaNmaem e ApApplipclaitciaotnio LnaLnagnugaugaeg e
+Operating System Linux + Django + uwsgi + Nginx
+OperatingSystem Linux+Django+uwsgi+Nginx
+Server Tencent Virtual Server 2 cores 4 GB
+Server TencentVirtualServer2cores4GB
+FroFnrotenntedn d JavJaavSacrSicprti,p Ht,THMTLM, Lla,ylauyi ui
+BaBckaecknedn d PyPthyothno (n3.(93.1.93.)1,3 D),jaDnjagnog (o3.(23.1.22.)1 2)
+DaDtaabtaabsea se MyMSyQSLQ (L8.(08.3.01.)3 1)
+The wastewater treatment process carbon emission accounting platform does not re-
+The wastewater treatment process carbon emission accounting platform does not
+quire installation or downloading. The detailed code can be found in the Supplementary
+requireinstallationordownloading. ThedetailedcodecanbefoundintheSupplementary
+Materials. Simply copy and paste the following link into a browser:
+Materials. Simplycopyandpastethefollowinglinkintoabrowser: http://81.69.38.227:
+http://81.69.38.227:2022/userLogin (accessed on 20 October 2022), register, log in, and click
+2022/userLogin (accessed on 20 October 2022), register, log in, and click to operate. In
+to operate. In Figure 2, (a) displays the registration and login interface of the wastewater
+Figure 2, (a) displays the registration and login interface of the wastewater treatment
+treatment process carbon emission calculation platform, (b) shows the system introduc-
+processcarbonemissioncalculationplatform,(b)showsthesystemintroductioninterface
+tion interface of the wastewater treatment process carbon emission calculation platform,
+ofthewastewatertreatmentprocesscarbonemissioncalculationplatform,(c)presentsthe
+(c) presents the process selection interface of the wastewater treatment process carbon
+processselectioninterfaceofthewastewatertreatmentprocesscarbonemissioncalculation
+emission calculation platform, and (d) illustrates the on-site display interface required for
+platform, and (d) illustrates the on-site display interface required for the total carbon
+the total carbon emission calculation data.
+emissioncalculationdata.
+(a) (b)
+Figure2.Cont.
+
+--- Page 9 ---
+PP rorocecsessesses2 2002255,,1 133,,9 x9 9FOR PEER REVIEW 9 oo ff 11 99
+9
+(c) (d)
+FFiigguurree2 2..U Urbrbaanns eswewagageet rteraetamtmenetncto cmommmononp rporcoecssescsa rcbaorbnoenm eimssiisosnioanc caocucnotuinngtinpgla ptfloartmfo.rm(a). S(ae)w Saegwe-
+taregaet mtreenattmpreoncte pssroccaerbsso ncaermboisns ieomniascsciooun natcincogupnlatitnfogr mplartefgoirsmtr arteiognisatrnadtiolong iannidn tleorgfainc ei,n(tbe)rfSaecwe,a g(be)
+tSreeawtmageen ttrpearotmceesnstc parrboocensse mcairsbsioonn eamcciossuinonti nagccpoluantftoinrmg pslyasttfeomrmi nstyrsotdeumc tiinotnroidntuecrtfiaocne ,in(ct)erSfeawcea, g(ec)
+tSreeawtmageen ttrepartomceesnst pcarorbcoesns ecamrbisosnio enmaicscsoiounn aticncgoupnltaitnfgo rpmlatpforormce spsrosceelescs tsioelnecitniotenr finacteer,fa(dce), C(da)r bCoanr-
+emissiontotalcalculationdatarequiredfielddisplayinterface.
+bon emission total calculation data required field display interface.
+3. Results
+3. Results
+3.1. SimulationCalculationResults
+3.1. Simulation Calculation Results
+Thetypesofwatertreatmentprocessunitsarediverse,theirfunctionsarecomplex,
+The types of water treatment process units are diverse, their functions are complex,
+andtheprinciplesandstructuraldifferencesofdifferentwatertreatmenttechnologiesvary
+and the principles and structural differences of different water treatment technologies
+significantly,resultinginsignificantdifferencesincarbonemissionsacrossvariouswater
+vary significantly, resulting in significant differences in carbon emissions across various
+treatmentmethods. Thecarbonemissionprogramminglogicdiagramofthewastewater
+water treatment methods. The carbon emission programming logic diagram of the
+treatmentsystemisdrawnbasedonthewastewatertreatmentprocessofthetreatment
+wastewater treatment system is drawn based on the wastewater treatment process of the
+plantandthefunctionofeachstructure. Duringuse,sequentiallyclicktoselectthenames
+treatment plant and the function of each structure. During use, sequentially click to select
+ofthepretreatment,secondarytreatment,andsludgetreatmentprocesses,andinputthe
+the names of the pretreatment, secondary treatment, and sludge treatment processes, and
+correspondingoperatingparametersandinfluent/effluentwaterquality. Theprogram
+input the corresponding operating parameters and influent/effluent water quality. The
+willdisplaythecarbonemissionsofeachstructure. Attheendoftheprogram,thecarbon
+program will display the carbon emissions of each structure. At the end of the program,
+emissionsofeachstructurewillbesummeduptoobtainthetotalcarbonemissionsofthe
+the carbon emissions of each structure will be summed up to obtain the total carbon emis-
+selectedprocessflow. Thecalculationprocessforthecarbonemissionaccountingplatform
+sions of the selected process flow. The calculation process for the carbon emission account-
+for wastewater treatment processes is shown in Figure 3. Owing to the limitations of
+ing platform for wastewater treatment processes is shown in Figure 3. Owing to the limi-
+workloadanddatacollection,thissimulationandcalculationfocusedoncommonwater
+tations of workload and data collection, this simulation and calculation focused on com-
+treatmentprocesses.
+mon water treatment processes.
+3.1.1. OxidationDitch
+OxidationditchesarethemostwidelyusedurbansewagetreatmentprocessinChina.
+Itprimarilyremovesorganiccarbonfromsewageandispartoftheaerobicactivatedsludge
+treatment system. By controlling the operational parameters, this process can achieve
+nitrogenremoval. Othersimilaraerobicactivatedsludgeprocesscalculationscanusethe
+carbonemissionsmodeloftheoxidationditch.
+ThemethodforpredictingCO emissionsduringtheaerobicstageofmicrobialde-
+2
+compositionandmetabolismisasfollows.
+(cid:18) (cid:19)
+1
+M =1.1×Q×(BOD −BOD ) −1.42Y . (10)
+CO2 in out
+f
+Thebiomassofendogenousrespirationdegradedduringtheaerobicphaseis:
+M =Q×HRT×MLVSS×K ×10−3. (11)
+C5H7O2N d
+
+--- Page 10 ---
+PP rroocceesssseess 22002255,, 1133,, 9x9 F9OR PEER REVIEW 10 o 1f 1 o9
+0 f 19
+Figure3.Thecalculationprocessofthecarbonemissionaccountingplatformforwastewatertreatment
+Figure 3. The calculation process of the carbon emission accounting platform for wastewater treat-
+processesisshowninthediagram.
+ment processes is shown in the diagram.
+Accordingtotheliterature[67],thepredictionmethodforCO producedbyaerobic
+3.1.1. Oxidation Ditch 2
+endogenousrespirationis:
+Oxidation ditches are the most widely used urban sewage treatment process in
+China. It primMarily =re1m.9o4v7e×s oQrganic c×arHboRnT from s×ewMagLeV aSnSd is pa×rt Kof t×he1 0a3e.robic acti(-12)
+CO2 aerobic aerobic aerobic d
+vated sludge treatment system. By controlling the operational parameters, this process
+can acThhieevme onlietrcougleanr froermmouvlaal.o Oftmheicrr soiomriglaarn aisemrosbiinc athcteivaantoedxi sclupdrogcee pssroisceCss cHalcuOlatNio,nasn d
+10 19 3
+ctahne ustsoei cthheio cmarebtorinc eremlaistsioionnssh impoidneml oicfr tohbei aolxsidynattihoens idsitischa.s follows:
+The method for predicting CO2 emissions during the aerobic stage of microbial de-
+composition and Cm1e0Htab19oOli3sNm +is 1a0s NfoOll3ow→s.5 N 2+H 2O+10OH−+10CO 2. (13)
+1
+M =1.1×Q×(BOD −BOD )( −1.42Y). (10)
+BasedonthestoichCiOo2metricrelationshipin,weobtoauitn:
+f
+The biomass of endogenous respiration degraded during the aerobic phase is:
+M =2.19M , (14)
+CO2 C10H19O3N
+M =Q×HRT×MLVSS×K ×10−3. (11)
+C5H7O2N d
+where0.502representstheamountoforganicmatteroxidizedpergramofO (g).
+2
+According to the literature [67], the prediction method for CO2 produced by aerobic
+Thus,thecoefficientinEquation(9),afterrearrangementandconversion,iscalculated
+endogenous respiration is:
+as:
+M CO2 =1.947×Q aerobi0c.5×0H2R×T a2e.r1o9bi=c×1.M1LVSS aerobic×K d×103. (12()1 5)
+T Inhe hm eo fl oe rc mul ua lr :formula of microorganisms in the anoxic process is C10H19O3N, and
+t a
+the stoichiometric relationship in microbial synthesis is as follows:
+Q —Influentflowrate,m3d−1.
+aerobic
+HRT aerobic—hydrC a1u0lH ic19rO et3eN n t+ ion10 tiN mO e3,→ d. 5N 2 +H 2O +10OH− +10CO 2 . (13)
+MLVSS —volatilesuspendedsolidconcentration,mgL−1.
+Basaeedro obinc the stoichiometric relationship, we obtain:
+K —Sludgedecaycoefficient,generallyvaluedat0.05~0.1d−1.
+d
+M =2.19M , (14)
+Y—Sludgegrowthyield,f=BOD / CBOO2D. C10H19O3N
+5
+where 0.502 represents the amount of organic matter oxidized per gram of O2 (g).
+Thus, the coefficient in Equation (9), after rearrangement and conversion, is calcu-
+lated as:

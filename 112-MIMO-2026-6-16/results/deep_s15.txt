@@ -1,0 +1,53 @@
+（88）Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants: methodologies and emission factors
+研究方法：
+a. [碳足迹工具比较] - [CFCT和ECAM工具对比]：CFCT (瑞典VA-teknik Södra开发，v2014和v2024版本) 和 ECAM (德国WaCCliM开发，基于Web)，基于IPCC指南和GHG Protocol标准，用于比较不同碳足迹计算工具的估算差异
+b. [验证工具开发] - [自主开发验证算法Validation Tool]：使用现场特定的经验排放因子(EFs)和更新的GWP值(2007/2014/2021年IPCC报告)，基于波兰波兹南WWTP的运行数据，用于验证和校准CF工具的计算结果
+c. [温室气体现场测量] - [FTIR分析仪浮动罩法]：Gasmet DX 4000 FTIR分析仪，浮动罩覆盖面积1m²，每5分钟测量一次，在好氧区4个测量点进行为期一个月的测量活动，用于确定N2O和CH4的经验排放因子
+d. [常规运行数据收集] - [2021年年度运行数据]：水表、气表和电表记录的流量、燃料和沼气消耗、能源生产数据，以及双周采样的进出水COD、BOD、TN浓度，用于碳足迹计算的输入数据
+
+（89）Greenhouse Gas Mass-Balance in Conventional Activated Sludge Wastewater Treatment: A Case Study in Mexico for Developing Countries
+研究方法：
+a. [温室气体排放测量] - [浮动静态箱法和开放式通量箱法]：UGGA超便携式温室气体分析仪(Los Gatos Research, USA)，静态箱接触面积0.1385m²、顶空体积14L，用于测量初级沉淀池(PS)、好氧反应器(OR)和二级沉淀池(SS)的CH4和CO2排放
+b. [溶解气体浓度测定] - [离散顶空平衡法]：60mL塑料注射器，20mL水样与CH4-free和CO2-free氮气平衡，UGGA分析仪检测，用于测定各处理单元进出水中的溶解CH4和CO2浓度
+c. [水质参数分析] - [分光光度计和多参数探头]：Genesys 20分光光度计(Thermo Spectronic)测量COD(600nm)，HI9829多参数探头(Hanna Instruments)测量DO、pH、ORP和温度，用于表征废水处理过程中的水质变化
+d. [质量平衡计算] - [稳态质量守恒数学模型]：基于进出水流量、溶解浓度、排放通量和净生物生产率的质量平衡方程，用于建立CH4和CO2在整个处理流程中的完整质量平衡
+e. [统计分析] - [Tukey显著性检验和误差传播]：Origin(Pro) 2016软件，对偏态数据进行对数变换以满足ANOVA残差正态性，标准误差传播技术用于组合参数的不确定性估计
+
+（8）N2O emission in full-scale wastewater treatment: Proposing a refined monitoring strategy
+研究方法：
+a. [N2O长期监测] - [改进的通量箱法]：4-9个浮动静态通量箱，每个覆盖1m²面积，开放式出气管(直径50mm，长500mm)，1L/min采样流速，用于三个瑞士WWTPs(CAS、A/I、SBR三种工艺)超过一年的N2O排放监测
+b. [气体浓度分析] - [非分散红外传感器NDIR]：X-stream分析仪(Emerson, St. Louis MO, US)，测量范围0-1000ppm，检测限1ppm，恒温60°C运行，用于连续测量通量箱出口的N2O浓度
+c. [空间分辨采样系统] - [自动阀门顺序采样]：电动阀门系统控制多个采样点的顺序切换，每4-6分钟切换一次，前2分钟为管道吹扫时间，用于实现单个反应器内多个位置的高时间分辨率空间分辨测量
+d. [排放通量计算] - [基于Aboobakar公式的通量计算]：F=C×Qair×(AH/AT)，结合鼓风机速度(1分钟间隔记录)和线性插值的N2O浓度数据，用于计算曝气阶段每分钟的N2O净通量
+e. [监测策略优化] - [基于决策树的采样点选择方案]：考虑进料均匀性、混合条件和级联特征三个准则的决策树，用于指导不同类型WWTP的通量箱数量和布置位置选择
+
+（90）Revealing greenhouse gas emissions variability in industrial wastewater treatment: A plant-level study of CH4 and N2O emission factors
+研究方法：
+a. [封闭浮动箱采样] - [非稳态无流通箱法]：浮动箱尺寸50cm×50cm×24cm，聚乙烯密封防止外部空气交换，30分钟部署时间，0分钟和30分钟两次采样，按照UNESCO和IHA推荐方法，用于测量13个工业WWTPs(7个造纸厂、6个食品厂)各处理单元的CH4和N2O通量
+b. [气体色谱分析] - [GC-FID和GC-ECD]：Shimadzu气相色谱仪，GC-FID用于CH4和CO2检测，GC-ECD用于N2O检测，用于实验室定量分析采集的气体样品
+c. [排放因子计算] - [基于质量通量的EF计算方法]：结合每日COD去除量和TN去除量，计算单位质量污染物去除的CH4和N2O排放量，用于确定造纸和食品行业的行业特定排放因子
+d. [相关性与回归分析] - [Pearson相关系数和回归分析]：Origin 2022软件，显著性水平α=0.05，分析HRT、DO、温度、COD/N比等工艺参数与CH4/N2O排放的相关性，用于识别影响排放的关键因素
+
+（91）Comprehensive assessment, intelligent prediction, and precise mitigation strategies for greenhouse gas emissions in full-scale wastewater treatment plants
+研究方法：
+a. [GHG现场采样] - [静态箱法和气袋法]：75L不锈钢通量箱(覆盖面积0.13m²)用于PST、AnaT、DN、VF等非曝气单元，90L聚乙烯采样袋用于OT、CN等曝气单元，每10分钟采样一次共50分钟，用于测量北京某AAO工艺WWTP各处理单元的CH4和N2O排放
+b. [气体色谱分析] - [GC-FID和GC-ECD]：FID检测器用于CH4，ECD检测器用于N2O，检测限分别为200×10⁻⁹ L/L和30×10⁻⁹ L/L，用于定量分析气样中的GHG浓度
+c. [机器学习预测模型] - [LSTM和随机森林RF模型]：1044个样本，80%训练/20%测试划分，贝叶斯优化调参，输入变量包括COD、TN、NH4⁺-N、NO3⁻-N、NO2⁻-N、DO和pH，LSTM用于CH4预测(R²=0.9042)，RF用于N2O预测(R²=0.8607)
+d. [特征重要性分析] - [SHAP值分析]：基于博弈论的机器学习模型解释器，对LSTM和RF模型的输入特征进行重要性排序，用于识别影响CH4和N2O排放预测的关键水质参数
+e. [减排情景分析] - [BAU基准情景和6种减排情景]：基于2035年减排潜力评估，包括节能(减排23.41%)、热回收(减排10.15%)等策略，用于评估不同减排措施对WWTP温室气体排放的影响
+
+（92）Resolving the facility-specific increase of local greenhouse gas concentrations by an industrial wastewater treatment plant
+研究方法：
+a. [GHG长期监测] - [月度监测与连续验证监测]：铝箔袋采样(点源直接收集、面源通量箱法)，GC-FID/ECD (Agilent 7890B)分析CH4/CO2和N2O，Picarro G2308 CRDS分析仪用于连续验证监测，对上海某工业WWTP全部18个排放单元进行为期12个月的监测
+b. [大气扩散模拟] - [AERMOD模型]：AERMET预处理器计算边界层特征，AERMAP预处理器处理地形信息，1km空间分辨率(20×20km区域441个模拟点)，模拟WWTP对周边大气GHG浓度的空间分布影响
+c. [排放因子计算] - [点源和面源差异化计算]：点源基于排气浓度与背景浓度差乘以流速，面源基于通量箱浓度变化斜率乘以箱体体积和面积比，用于确定各处理单元的CH4、N2O和CO2排放率
+d. [模型验证] - [时变模拟与常量模拟对比]：使用连续监测的小时级排放数据作为时变输入，与常量月度排放输入的模拟结果进行归一化均方根偏差(NRMSD)和决定系数(R²)比较，用于验证AERMOD模型的可靠性
+e. [浓度-排放比分析] - [C/E比分析方法]：计算各设施的大气GHG浓度增量与排放量的比值，对比点源(C/E<1)和面源(C/E>1)的差异特征，用于识别排放贡献与浓度贡献不一致的关键设施
+
+（93）Minimising greenhouse gas emissions from small and medium-sized wastewater treatment plants
+研究方法：
+a. [计算机动态模拟] - [GPS-X v.7.01软件]：建立机械-生物WWTP的完整工艺模型，包括两段式活性污泥反应器(MLE工艺)、二沉池和好氧消化池，用于模拟中小型WWTP的GHG排放
+b. [数学模型集成] - [Mantis3综合模型]：整合Hiatt和Grady的异养反硝化4步过程模型与Ni等和Mampaey等的自养硝化模型，统一应用于所有工艺单元，用于描述N2O在生物脱氮过程中的产生和排放
+c. [排放清单核算] - [GHG Protocol三范围核算方法]：Scope 1(直接排放：N2O、CH4、CO2)、Scope 2(间接能源排放)、Scope 3(其他间接排放)，包含CO2作为无机碳源的负排放抵扣，用于全面评估WWTP的温室气体排放结构
+d. [工艺方案对比] - [独立式vs同步式好氧污泥消化]：Layout 1(独立式好氧消化，SRT=26.7天)和Layout 2(同步式好氧消化，SRT=25.6天)，比较两种方案的GHG排放量和结构差异
+e. [敏感性分析] - [关键工艺参数敏感性测试]：溶解氧浓度(0-2 g O₂/m³)、废水温度(6-26°C)、有机底物可用性(BOD/TKN比1.7-25)的系统变化，用于评估运行条件对GHG排放的影响并优化操作策略

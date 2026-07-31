@@ -1,0 +1,614 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment927(2024)172301
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Assessing greenhouse gas emissions from the printing and dyeing
+wastewater treatment and reuse system: Potential pathways towards
+carbon neutrality
+Jiaer Maoa, Haoyu Chena, Xiangyang Xua,c, Liang Zhua,b,c,*
+aCollege of Environmental and Resource Sciences, Zhejiang University, Hangzhou 310058, China
+bInnovation Center of Yangtze River Delta, Zhejiang University, Jiashan 314100. China
+cZhejiang Provincial Engineering Laboratory of Water Pollution Control, Hangzhou 310058, China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•A life-cycle GHG emission accounting
+method for PDWTRS was developed.
+•GHG intensity of the PDWTRS was 3.49
+kg CO2eq/m3 or 1.58 kg CO2eq/kg
+CODrem.
+•Wastewater treatment was pivotal dur-
+ing GHG accounting of the textile
+industry.
+•Anaerobic membrane bioreactor had the
+potential to achieve net-zero emission.
+•Potential pathways towards carbon
+neutrality for PDWTRS were proposed.
+A R T I C L E I N F O A B S T R A C T
+Editor: Yifeng Zhang The urgency of achieving carbon neutrality needs a reduction in greenhouse gas (GHG) emissions from the textile
+industry. Printing and dyeing wastewater (PDWW) plays a crucial role in the textile industry. The incomplete
+Keywords: assessment of GHG emissions from PDWW impedes the attainment of carbon neutrality. Here, we firstly intro-
+Greenhouse gas emission duced a more standardized and systematic life-cycle GHG emission accounting method for printing and dyeing
+Printing and dyeing wastewater
+wastewater treatment and reuse system (PDWTRS) and proposed possible low-carbon pathways to achieve
+Life cycle assessment
+carbon neutrality. Utilizing case-specific operational data over 12 months, the study revealed that the PDWTRS
+L No ew t-- zc ea rr ob o emn ip sa sit oh nw sa ys generated 3.49 kg CO2eq/m3 or 1.58 kg CO2eq/kg CODrem in 2022. This exceeded the GHG intensity of
+municipal wastewater treatment (ranged from 0.58 to 1.14 kg CO2eq/m3). The primary contributor to GHG
+emissions was energy consumption (33 %), with the energy mix (sensitivity =0.38) and consumption (sensi-
+tivity = 0.33) exerting the most significant impact on GHG emission intensity respectively. Employing pro-
+spective life cycle assessment (LCA), our study explored the potential of the anaerobic membrane bioreactor
+(AnMBR) to reduce emissions by 0.54 kg CO2eq/m3 and the solar-driven photocatalytic membrane reactor (PMR)
+to decrease by 0.20 kg CO2eq/m3 by 2050. Our projections suggested that the PDWTRS could achieve net-zero
+emissions before 2040 through an adoption of progressive transition to low-carbon management, with a GHG
+emission intensity of (cid:0) 0.10 kg CO2eq/m3 by 2050. Importantly, the study underscored the escalating signifi-
+cance of developing sustainable technologies for reclaimed water production amid water scarcity and climate
+* Corresponding author at: Department of Environmental Engineering, Zhejiang University, No. 866 Yuhangtang Road, Hangzhou 310058, China.
+E-mail address: felix79cn@zju.edu.cn (L. Zhu).
+https://doi.org/10.1016/j.scitotenv.2024.172301
+Received 27 January 2024; Received in revised form 1 April 2024; Accepted 5 April 2024
+Availableonline8April2024
+0048-9697/©2024ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+change. The study may serve as a reminder of the critical role of PDWW treatment in carbon reduction within the
+textile industry and provides a roadmap for potential pathways towards carbon neutrality for PDWTRS.
+1. Introduction However, their high energy consumption and relatively short membrane
+module life cycle present current challenges (Zheng et al., 2015).
+As the impacts of climate change intensify, global warming becomes Furthermore, sludge contains high levels of organic matter, and
+a growing concern for the international community. In 2015, the Paris improper treatment and disposal can result in significant GHG emis-
+Agreement was adopted, limiting the temperature increase to 1.5◦C sions. Conversely, resource-oriented disposal methods can create sub-
+above pre-industrial levels. According to the recent report from the stantial carbon sinks (Liu et al., 2013). Regrettably, the majority of
+United Nations Environment Programme (UNEP), GHG emission growth current research on GHG emissions from PDWTRS overlooks these
+rate has decelerated since the implementation of the Paris Agreement. considerations, concentrating exclusively on CH4 emissions. This
+However, global GHG emissions have once again reached a new record approach not only substantially underestimates the GHG emissions from
+of 57.4 GtCO2eq in 2022, accompanied by unprecedented temperature printing and dyeing wastewater but also impedes the exploration of
+highs in 2023 (UNEP, 2023). Achieving the goal of limiting warming to carbon reduction potential within the textile industry, consequently
+approximately 1.5 ◦C demands that global GHG emissions peak before obstructing the attainment of carbon neutrality.
+2025, decrease by 43 % by 2030, and reach net-zero emissions by 2050 Currently, the GHG emission assessment system for PDWTRS is
+(Davis et al., 2018; IPCC, 2022). Without immediate and profound incomplete, with a solely focus on direct CH4 emissions, which hampers
+transition to low-carbon development across all sectors, limiting global efforts towards carbon neutrality of PDWTRS and the broader textile
+warming to 1.5 ◦C is beyond reach. industry. To standardize and enhance the accuracy of GHG emission
+The textile industry significantly contributes to global pollution and accounting, this study introduced the life cycle theory, tracked primary
+GHG emissions (Roma´n-Collado et al., 2023). It is estimated to be GHG emission sources, and developed a systematic method for ac-
+responsible for approximate 10 % of global GHG emissions (EP, 2020). counting GHG emissions from PDWTRS. This method featured a more
+Textile wastewater poses challenges in degradation due to its substantial comprehensive system boundary and a standardized accounting process.
+volume, elevated pollutant concentration, and intense color. The In pursuit of authenticity, we utilized actual operational data from a
+printing and dyeing process is a crucial aspect of the textile industry, textile factory. To highlight the GHG emissions from PDWTRS, we
+with printing and dying wastewater (PDWW) constituting about 80 % of compared GHG emissions between PDWW and municipal wastewater as
+the entire textile industry’s wastewater and 20 % of the total global well as explored the importance of PDWTRS’s GHG emissions within the
+industrial wastewater (Liu et al., 2022; Yukseler et al., 2017). Presently, textile industry. In alignment with the objective of carbon neutrality, we
+there are two primary formats for printing and dyeing wastewater identified critical impact factors to GHG emissions and suggested po-
+treatment and reuse system (PDWTRS): Unified Treatment and Recla- tential pathways from the wastewater treatment perspective, aiming to
+mation of Comprehensive Wastewater (UTRCW) and Source Separation estimate reduction potential and encourage low-carbon management of
+coupled with Corresponding Treatment and Reclamation (SSCTR). The the PDWTRS. Also, we introduced Monte Carlo analysis to mitigate the
+UTRCW system treats and reclaims all process wastewater in a single uncertainties. To our knowledge, this study represented the initial sys-
+comprehensive facility, offering low capital investment costs and easy tematic evaluation and projection of GHG emissions originating from
+management. However, the expense of treating all wastewaters with PDWTRS. Our research endeavored to raise awareness regarding GHG
+varying concentrations in the same system, even with advanced or emissions associated with industrial wastewater, focusing particularly
+regenerative treatment, is relatively high. Considering the distinct on PDWW. Moreover, it aimed to offer insights and recommendations
+characteristics of various types of wastewaters, it is more cost-effective towards realizing carbon neutrality within PDWW management
+to treat high-concentration and low-concentration wastewater sepa- practices.
+rately. SSCTR reuses low-concentration wastewater after straightfor-
+ward physicochemical and biological treatments for desizing and rinsing 2. Materials and methods
+processes with lower water quality requirements. High-concentration
+wastewater undergoes additional purification through combined ultra- 2.1. System boundary and data sources
+filtration (UF) and reverse osmosis (RO) after biological treatment,
+resulting in the production of high-quality reclaimed water (Chen et al., 2.1.1. System boundary
+2021). Therefore, SSCTR is superior and more widely applicable. This This study employed a life cycle assessment (LCA) to quantify the
+study also uses the SSCTR system as the evaluation case. GHG emissions from the PDWTRS. GHG emissions were predominantly
+However, there is relatively limited attention given to GHG emis- generated during the operational phase (Lundie et al., 2004). Due to
+sions from PDWTRS. During the carbon footprint accounting for textile challenges in acquiring data for the construction and demolition phases,
+products or GHG accounting for the textile sector, the wastewater our focus was solely on the operational phase, spanning from January to
+treatment process is frequently overlooked, with consideration given December 2022. The study delineated four stages aligned with the
+only to direct methane (CH4) emissions from wastewater treatment (Liu treatment sequence: wastewater treatment (WWT), reclaimed water
+et al., 2023). Indeed, due to the complexity of the treatment process and production (RWP), sludge treatment and disposal (STD), and centralized
+its substantial consumption of energy and chemicals, GHG emissions wastewater treatment plant (c-WWTP) (Fig. 1). WWT encompassed pre-
+from PDWTRS cannot be casually dismissed. Methane and nitrous oxide treatment, bio-treatment and advanced treatment for both high and low-
+(N2O) emitted during the treatment process play a significant role in concentration wastewater. Low-concentration wastewater had under-
+global non-carbon dioxide GHG emissions. Reportedly, direct CH4 and gone simple treatment for reuse as washing water. Effluent of high-
+N2O emissions from municipal wastewater treatment plants (WWTPs) concentration wastewater from WWT was bifurcated, with part
+contribute to 12 % and 4 % of the global CH4 and N2O emissions, directed to c-WWTP and part to RWP. RWP involved UF and RO pro-
+respectively (Crippa et al., 2019). Moreover, the printing and dyeing cesses. Given the sustained concentration of pollutants in the treated
+process consumes a substantial amount of freshwater, posing a critical effluent from WWT, GHG emissions from c-WWTP was integral. Also,
+issue in regions with limited freshwater resources (Güyer et al., 2016). STD should not be disregarded from the life cycle perspective. We
+To enhance the water recycling rate, membrane technologies are expanded the system boundary to include downstream STD and c-
+commonly employed to meet the high requirement of reclaimed water. WWTP to provide a more comprehensive assessment of GHG emissions.
+2
+
+--- Page 3 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+This approach allowed for a more objective measurement of the from the feasibility report were also collected as a supplement. The
+contribution of GHG emissions from each segment. detailed information included (1) wastewater treatment process; (2)
+The GHG Protocol’s categorization was followed to classify emis- wastewater quality and quantity; (3) reclaimed water quantity; (4) en-
+sions from the operational phase of an organization into three scopes. ergy consumption; (5) chemical type and dosage; (6) sludge yield and
+Scope 1 comprised direct GHG emissions. Scope 2 incorporated indirect disposal approach. The data used in the study were specific to the year
+GHG emissions from the generation of purchased electricity that is 2022.
+consumed in its owned or controlled facilities or operations. Scope 3
+encompassed other indirect GHG emissions, such as those from the 2.2. Accounting for life-cycle GHG emissions
+production of purchased materials. Consequently, six GHG sources are
+considered in our analysis: We employed process LCA to evaluate the life-cycle GHG emissions
+of PDWTRS. Life cycle inventory of four stages has been established
+(1) Direct emissions from WWT, involving CH4 and N2O. align with the analysis of emission sources. The total GHG emissions
+(2) Indirect emissions from energy consumption during WWT. were determined by Eqs. (1) and (2).
+(3) Indirect emissions from chemical consumption during WWT,
+E=ΣE i (1)
+including coagulants, acids, etc.
+(cid:0) )
+(4) GHG emissions from RWP, with a specific focus on energy use. E i=Σ AD i,j×EF i,j×GWP (2)
+(5) GHG emissions from STD, primarily comprising direct emissions
+(Hu et al., 2019), with electricity consumption in the factory
+where E refers to the total GHG emissions of PDWTRS (kg CO2eq); Ei
+excluded.
+signifies GHG emissions from stage i (kg CO2eq); ADi,j indicates the ac-
+(6) GHG emissions from c-WWTP, covering both direct and indirect
+tivity data of inventory j in stage i; EFi,j is the life-cycle GHG emission
+emissions.
+factor corresponding to the activity of inventory j in stage i; GWP rep-
+resents the global warming potential of different GHG types, with values
+2.1.2. Data sources
+of 25 CO2eq for CH4 and 298 CO2eq for N2O over 100 years (IPCC,
+For obtaining realistic data, we conducted investigations in textile
+2022).
+factories located in the Keqiao Economic Development Zone (KEZ), the
+To enhance comparability and accurately represent the magnitude of
+largest textile industry cluster in China. We collected data from four
+GHG emissions, we computed emission intensities in terms of per cubic
+enterprises and conducted preliminary GHG emission assessment
+meter of PDWW treated and per kilogram of Chemical Oxygen Demand
+respectively. The specific case chosen for detailed analysis, representing
+(COD) removed. The GHG emission intensity was calculated by Eqs. (3)
+the group, was selected due to its more extensive data and longer
+and (4).
+observational timeframe. The printing and dyeing enterprise had a
+p sir to ed bu yc t Sio Sn Tca Rp a syc sit ty mof b3 e3 f, o5 r5 e0 bto ein ns p der y ce ha ar r. W eda s tt oe w tha et e Sr w aa os t inre ga t Wed so tn e-- e m3 = QE (3)
+C e g is g h x a
+water Treatment and Development Co., Ltd., with sludge exported for
+incineration. Primary data were sourced from the factory’s testing re- e CODrem = COE D (4)
+cords and interviews with the administrator and chief engineers. Data rem
+Fig. 1. System boundary of GHG accounting for PDWTRS.
+3
+
+--- Page 4 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+w (kh ge r Ce e 2m e3 r /e mfe 3r )s t eo Oth Dre G dH eG oe tm esi s ts hio en in Ht Gen esi mty sp se ior m i3 o tef nP sD itW W rtr e ka gt e od f a qa s uc s at o no cr ti is a t ya e s d ls eo dwc i ia tt ot he d cs oow rc ri i et ah sl w ob naa dcs kt ine gw gr oa aute dnr jd t sr t(e mTa a et bm nl tee n t 1 n)o . p ee C nr h ea rat gnio ygn es as, da inn d chi nf ea fl mc ut ieo cn ars t
+O q ; C em n G i n n y pe f t p u s i n l
+COD removed (kg CO2eq/kg CODrem); Q represents the quantity of total
+consumption, as well as sludge production. As electricity consumption
+PDWW treated; CODrem indicates the amount of COD removed in the
+was listed separately, alterations in the treatment process primarily
+PDWTRS.
+influenced the direct emission factors. And changes in the type of
+GHG emissions and intensity of reclaimed water were calculated by
+chemicals and the electricity mix correspondingly affected the emission
+Eqs. (5) and (6).
+factors.
+E re(cid:0)water=(E WWT+E STD)×Q re(cid:0) Qwater+E RWP (5) Sensitivity was calculated by Eq. (7) (Borgonovo and Plischke, 2016;
+Christopher Frey and Patil, 2002).
+e re(cid:0)water= QE r re e(cid:0) (cid:0)w wa at te er (6) Sensitivity i= ΔΔ FG acH toG ri i/ /G FaH cG toi r (7)
+r i
+where Ere(cid:0)water represents the GHG emissions of reclaimed water; ere(cid:0)water where ΔGHGi/GHGi is the rate of change in GHG emissions due to
+is the GHG emission intensity per m3 of reclaimed water produced; variations in factor i. ΔFactori/Factori denotes the rate of fluctuation of
+Qre(cid:0)water represents the quantity of reclaimed water produced; EWWT, factor i, here set as ±10 %. A higher sensitivity value indicated a greater
+ESTD and ERWP refer to the GHG emissions from WWT, STD and RWP influence of the factor on life-cycle GHG emissions, suggesting that
+stages, respectively. optimizing the factor could effectively reduce GHG emissions.
+Direct emissions primarily generated from the biological treatment,
+where organic pollutants are converted to CH4 and CO2 through
+2.4. Scenario analysis
+anaerobic and aerobic processes. In this case, we assumed no methane
+escaped as the anaerobic tank was sealed. The emission factor (EF) of
+2.4.1. Background setting
+CH4 was obtained from literature, specifically measuring EF suited for
+To project future GHG emissions from PDWTRS, assumptions were
+industry wastewater on the spot (Cai et al., 2015). The EF of CO2 was
+made regarding the development of background factors. According to
+investigated in full-scale wastewater treatment systems in China (Bao
+Zhejiang Province’s electricity planning targets, non-fossil energy
+et al., 2016). TN is partially converted into N2O due to incomplete
+sources are expected to constitute 40 % of electricity consumption by
+denitrification, and a default value in IPCC guide was applied for the EF
+2025 and 60 % by 2035. Electricity emission factors were calculated
+of N2O due to the high volatility of N2O emissions (IPCC, 2022). The
+based on the planned generation capacities, and annual changes in
+activity data for direct emission calculations included COD removal and
+emission factors were linearly scaled. Direct emissions, particularly N2O
+NH3-N removal. Particularly, the conversion of NH3-N to N2O required a
+emissions, were assumed to decrease by 2 % per year due to equipment
+multiplication coefficient of 44/28. Generally, CO2 emissions from
+updates and more precise operations (Abulimiti et al., 2022; Santín
+wastewater were considered to be biogenic and were not included in
+et al., 2017). In line with the policy emphasis on resource recovery,
+GHG emissions (IPCC, 2019, 2022).
+sludge was assumed to undergo incineration with energy recovery
+Energy consumption in this context is essentially equal to electricity
+starting in 2025. Additionally, reclaimed water production was antici-
+use. We collected electricity emission factors for different generation
+pated to experience a 2 % annual increase, starting at 20 % in 2025.
+technologies. The emission factor for electricity was calculated based on
+Furthermore, emission factors for c-WWTP in the future were obtained
+the 2022 generation capacity data of Zhejiang Province, sourced from
+from the literature (Du et al., 2023).
+the National Bureau of Statistics of China (Table S1). Chemical emission
+factors were predominantly sourced from Ecoinvent datasets (v3.9)
+2.4.2. Determination of low-carbon wastewater treatment technologies
+which provided comprehensive, standardized and transparent environ-
+Improvements in printing and dyeing production need further GHG
+mental data for a broad range of products and processes. Chemical
+emission assessments from the production phase. Changes in back-
+emission factors were specific to the Chinese region, using the IPCC
+ground factors were beyond the control of companies. Therefore, we
+GWP100 standard. Emission factors for sludge disposal and c-WWTP
+focused on the PDWW treatment to enhance low-carbon management.
+were obtained from literature research (Hu et al., 2019; Huang et al.,
+PDWW treatment technologies fall into categories such as physical,
+2023). GHG emissions of the conveyance stage, from WWT to c-WWTP,
+chemical, biological, and hybrid technologies. To achieve the goal of
+were not considered separately since the c-WWTP emission factor
+net-zero GHG emissions from PDWTRS, we have developed a set of in-
+already included the wastewater collection stage.
+dicators evaluating the treatment process. Table 2 provided a partial list
+of technologies, and the indicators covered pollutant removal efficiency,
+2.3. Sensitivity analysis direct CH4 and N2O emissions, electricity consumption, chemical use,
+resource recovery, and feasibility. Sludge yield was omitted as an indi-
+Sensitivity analysis was conducted to assess the impact of variations cator due to ongoing debates about the impact on achieving net-zero
+in each factor on overall GHG emissions (Abyar et al., 2022; Cullen and emissions.
+Frey, 1999). The identified impact factors were grouped into three Based on the principles, pollutant removal rates, power consump-
+categories: factors associated with printing and dyeing production, tion, merits and drawbacks of each printing and dyeing wastewater
+treatment technology as reported in literature, we formulated the
+Table 1 grading rules for each indicator. Technologies with pollutant removal
+Impact factors of GHG emissions. efficiency below 80 % or only effective for some dyes like ion exchange
+are considered “less efficient”, otherwise “efficient”. Technologies with
+Description Factors
+direct CH4 and N2O emissions are labeled “Y”, while those with little or
+Factors associated with printing Influent quantity and quality, reclaimed water no direct CH4 and N2O emissions are labeled “N”, including those
+and dyeing production quantity
+capturing and utilizing emissions. Electricity consumption above 1.0
+Factors associated with Treatment process, energy consumption,
+wastewater treatment chemical use, energy consumption of RWP, kWh/m3 is considered “high”, below 0.4 kWh/m3 is “low”, and con-
+operations sludge yield sumption between these values is “medium”. The assessment of chem-
+Factors associated with social Electricity mix, sludge disposal methods, ical use is subjective, with technologies requiring large quantities of
+background Upgrading of c-WWTPs, discharge standards chemicals or cleaning agents labeled “high”, those needing small
+4
+
+--- Page 5 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+Table 2
+Evaluation indicators of PDWW treatment technologies.
+Technologies Pollutant Direct CH4 and Electricity Chemical Resource Feasibility
+removal N2O emissions consumption use recovery
+Adsorption (Ewuzie et al., 2022) Efficient N Low Medium / Simple
+Physical treatment
+Ion exchange (Samsami et al., 2020) Less efficient N Low Medium / Medium
+technologies
+Membrane (Donkadokula et al., 2020) Efficient N High High Effective Simple
+Coagulation (Dotto et al., 2019) Less efficient N Medium High / Simple
+Chemical treatment Advanced oxidation (Donkadokula et al.,
+Efficient N High High / Medium
+technologies 2020)
+Electrochemical (Samsami et al., 2020) Less efficient N High Low Less effective Medium
+Biological treatment Activated sludge process (Samsami et al.,
+Efficient Y High High Less effective Simple
+technologies 2020)
+Membrane bioreactor (MBR) (Samsami
+Efficient Y Medium High / Simple
+et al., 2020)
+Anaerobic membrane bioreactor (AnMBR)
+Efficient N Low Low Effective Challenging
+Hybrid treatment (Choerudin et al., 2021)
+technologies Microbial fuel cell (MFC) (Ilamathi and
+Efficient N Low Low Effective Challenging
+Jayapriya, 2018)
+Solar-driven photocatalytic membrane
+Efficient N Low Low Effective Challenging
+reactors (PMR) (Zhang et al., 2022)
+quantities or allowing chemicals recycling are deemed “medium”, and “medium,” and those only applied on a lab or pilot scale as “chal-
+those requiring no additional chemical dosages as “low”. Technologies lenging”. Low-carbon technologies exhibit “efficient” pollutant removal,
+with a potent ability for resource recovery are considered “effective”, no direct CH4 and N2O emissions, “low” electricity consumption and
+while those falling short are “less effective”. Practical project applica- chemical use, and “effective” resource recovery.
+tions classify technologies as “simple,” those used on a small scale as On the basis of this indicator system and considering the role of each
+Fig. 2. Monthly contribution of the six GHG sources to GHG emissions and intensity of the PDWTRS in 2022: (a) excluding direct CO2 emissions; (b) including direct
+CO2 emissions.
+5
+
+--- Page 6 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+technology in the process, potential low-carbon pathways for future source for the case companies, primarily due to incineration, which led
+treatment of PDWW were developed, and GHG emission assessments to rapid pollutant decomposition but entailed significant direct GHG
+was conducted. Low-carbon reforms were implemented step-by-step emissions and energy consumption, often from coal. GHG emissions of c-
+along the existing technology pathway until the GHG emission assess- WWTP involved wastewater collection and treatment, discharged
+ment for PDWTRS yielded a negative value. The feasibility of the tech- treated wastewater, and sludge treatment and disposal (Huang et al.,
+nologies determines the timing of their implementation. 2023). C-WWTP released substantial GHG due to the high pollutant
+concentration in the effluent of treated PDWW. While the proportion of
+2.4.3. Uncertainty analysis direct emissions may be small, CH4 and N2O are significant non-CO2
+The analysis of future scenarios relied on a set of background as- GHGs with strong greenhouse effects. CH4 has a global warming po-
+sumptions, which introduced uncertainties into the system and the tential 86 times greater than CO2 over a 20-year scale, making it capable
+outcomes. To mitigate the uncertainties, we employed the Monte Carlo of rapidly influencing global climate change. Similarly, N2O possesses a
+uncertainty analysis method. The parameters were assumed to be in- global warming potential nearly 300 times greater than CO2 over both
+dependent and follow a normal distribution within these background 20-year and 100-year scales, exerting a more profound and long-lasting
+assumptions. The standard deviation of parameters was determined by impact on the climate (Scarborough et al., 2023). GHG emissions of RWP
+multiplying the average value by an empirical factor (Guo et al., 2023; mainly resulted from the consumption of electricity, and due to the
+Hedbrant and So¨rme, 2001). The empirical factors were shown in small-scale reclaimed water production in the case study, emissions
+Table S2. Random numbers were generated using Matlab software to from the RWP stage were relatively minor. Nevertheless, the impact of
+obtain a range of GHG emissions from PDWTRS under various scenarios, RWP cannot be overlooked, given its high GHG emission intensity
+adhering to the provided average value and standard deviation along- (Fig. S4). An increase in reclaimed water production can notably elevate
+side the GHG emission accounting system. The cycle count was set to GHG emissions from PDWTRS.
+1000. Future GHG emissions of PDWTRS were further analysis with a 90 The ongoing debate revolves around whether direct CO2 emissions
+% confidence interval (CI). should be included into the calculation of GHG emissions from waste-
+water treatment processes. It is crucial to acknowledge that biogenic
+3. Results and discussion CO2 is a component of the natural carbon cycle and does not contribute
+significantly to the greenhouse effect, unlike CO2 emissions originating
+3.1. Quantification of GHG emissions from fossil sources, which indeed augment GHGs in the atmosphere
+(Tseng et al., 2016; Law et al., 2013). While predominantly biogenic,
+3.1.1. GHG emissions and distribution certain studies have underscored the substantial magnitude of CO2
+In 2022, the PDWTRS generated 6019.8 t of CO2eq life-cycle GHG emissions, necessitating careful consideration (Xian et al., 2023; Kumar
+emissions, averaging 16.72 t CO2eq per day (Fig. 2). Among the four et al., 2021). In this study, GHG emissions, encompassing CO2, were
+stages, WWT contributed the most to GHG emissions (55 %) - encom- calculated to be 18.13 t CO2eq/d, with the emission intensity of 3.78 kg
+passing energy consumption (33 %), direct emissions (15 %) and CO2eq/m3 or 1.71 kg CO2eq/kg CODrem (Fig. 2(b)). Direct CO2 emis-
+chemical use (7 %). It was followed by STP (22 %), c-WWTP (18 %), and sions represented 7.79 % of the total emissions and 36.7 % of the direct
+RWP (4 %) (Fig. 3). Energy consumption was the primary contributor, emissions. However, there exists scant investigation into the share of
+constituting 64 % of emissions from WWT stage. Direct emissions fossil-CO2 emissions within the wastewater treatment process. Existing
+accounted for 25 % in the WWT stage, including CH4 (34 %) and N2O research primarily addresses domestic wastewater, estimating the pro-
+(66 %). GHG emissions caused by chemical use represented 12 % in the portion of fossil-CO2 to be approximately 10 % (Schneider et al., 2015;
+Fe2+
+WWT stage, mainly contributed by the use of (51 %). Law et al., 2013). Currently, the proportion of fossil-CO2 in industrial
+Electricity consumption during WWT constituted the major wastewater remains undisclosed, necessitating further research to
+contributor to GHG emissions, arising from activities such as pumping, ascertain its impact on climate change. Moreover, the impacts of CH4
+air flotation, aeration, and mixing. Inappropriate management and and N2O on climate are more profound and long-lasting, warranting
+operation of wastewater treatment can lead to higher electricity con- particular attention. Therefore, our study conducted further analysis
+sumption. Sludge disposal emerged as the second-largest GHG emission without direct CO2 emissions.
+Fig. 3. The average distribution of GHG emissions of the PDWTRS in 2022: (a) GHG emissions from six GHG sources; (b) contribution of the six GHG sources to
+GHG emissions.
+6
+
+--- Page 7 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+3.1.2. GHG emission intensity assessment wastewater treatment stage will substantially underestimate the total
+The GHG emission intensity of the PDWTRS was 3.49 kg CO2eq/m3 GHG emissions. In addition to climate change, the waste treatment stage
+or 1.58 kg CO2eq/kg CODrem. Limited research existed on GHG ac- can cause various environmental impacts, including human toxicity,
+counting for PDWW treatment. According to Hu et al. (2019), central- freshwater aquatic ecotoxicity, and terrestrial ecotoxicity, etc. (Abyar
+ized WWTPs in industrial parks produced 5.64 million tons (Mt) of and Nowrouzi, 2023a). Although not covered in this study, future
+CO2eq with a total treatment capacity of 4513.6 Mt. wastewater. The research should conduct a more comprehensive life cycle assessment to
+study’s GHG emission intensity might be underestimated due to the promote sustainable development in the textile industry.
+exclusion of GHG emissions from in-plant wastewater treatment which
+was the primary source of wastewater treatment (Lyu et al., 2021). Our 3.2. Critical factors to GHG emissions
+study had a higher GHG emission intensity because of the broader sys-
+tem boundary which included not only in-plant treatment but also c- The sensitivity of each factor was expressed in absolute values, as the
+WWTP. Additionally, in previous study, direct CH4 emissions from absolute values of positive and negative results were the same. The
+aerobic biological treatment and N2O emissions were often ignored due quantity of influent wastewater (sensitivity = 0.98) exerted the most
+to the complexity of the N2O generation and the assumption of sufficient substantial impact on GHG emissions of the PDWTRS, followed by the
+oxygen during aerobic biological treatment (Hu et al., 2019). Further- electricity mix (0.38), energy consumption (0.33), sludge yield and
+more, we applied actual data from a printing and dyeing enterprise. disposal methods (0.22), upgrading of c-WWTPs (0.18), and in-plant
+Improper management led to increased consumption of energy and wastewater treatment processes (0.15). The remaining factors had a
+chemicals. small effect on overall GHG emissions (sensitivity below 0.1) (Fig. 4).
+The GHG emission intensity of PDWTRS exceeded that of municipal While the quantity of influent wastewater strongly influenced total GHG
+wastewater treatment (ranged from 0.58 to 1.14 kg CO2eq/m3), with a emissions, its impact on the GHG emission intensity was found to be
+notable difference attributed to the fivefold higher COD of PDWW (Du negligible (sensitivity =0.02). Other factors had consistent effects on
+et al., 2023). Additionally, the composition of pollutants in PDWW was both GHG emissions and intensity.
+more complex, requiring a longer treatment process and more energy To reduce the amount of wastewater generated per unit of product,
+and chemical consumption per ton of wastewater. Furthermore, the the printing and dyeing production should adopt water-saving tech-
+production of reclaimed water also resulted in additional GHG emis- nologies, such as dyeing in supercritical CO2, dyeing using reactive dyes,
+sions. Although the emission intensity in this study was higher in terms and stepwise utilization of fresh water in the workshop (Gong et al.,
+of per m3 of wastewater treated, the emission intensity in terms of per kg 2021; Wang et al., 2018) . The key measures of the wastewater treat-
+of COD removed was not as high or even lower than the corresponding ment operation are to decrease energy consumption, minimize sludge
+value for municipal wastewater, which ranged from 1.65 to 6.34 kg yield, and enhance the wastewater treatment technologies. This can be
+CO2eq/kg CODrem in China (Huang et al., 2023). This could be attrib- achieved through measures such as equipment renewal and mainte-
+uted to the low COD content and low C/N ratios of municipal waste- nance, intelligent management to enhance energy efficiency, and the
+water, that requiring more inputs per ton of pollutant removed. adoption of low-carbon technologies like AnMBR, AnMBR has exhibited
+Previous studies often overlooked the GHG emissions generated from high pollutant removal efficiency and minimal energy demands, owing
+PDWW when assessing GHG emissions in the textile industry, focusing to its non-reliance on aeration (Robles et al., 2022; Choerudin et al.,
+solely on the production stage. The carbon footprint of textile products 2021; Jegatheesan et al., 2016; Yurtsever et al., 2015). Moreover,
+ranged from 8.7 to 21.7 kg CO2eq (Liu et al., 2023; Wang et al., 2015). AnMBR has the potential for significant bioenergy recovery through
+The amount of wastewater produced during the printing and dyeing biogas production (Moideen et al., 2023; Wang et al., 2023). The major
+process is substantial, with 85–575 m3 of wastewater generated per ton external factors were electricity mix, sludge disposal methods, and
+of product (Table S3). According to the accounting results, the GHG upgrading of c-WWTPs. In accordance with national policy, the focus is
+emissions from PDWW were not negligible and even accounted for a on cleaner power structures, resource-oriented sludge disposal methods,
+significant portion of GHG emissions in the textile industry. To conduct a and low-carbon c-WWTPs as the future development trend.
+life cycle environmental assessment of the textile industry, it is neces-
+sary to consider the entire industrial supply chain. Excluding the
+Fig. 4. The results of sensitivity analysis: (a)arrange from large to small; (b) arrange in groups.
+7
+
+--- Page 8 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+3.3. GHG emissions under different strategies
+3.3.1. Future wastewater GHG emissions under baseline scenario
+The baseline scenario (S0) referred to the in-plant treatment process
+remaining unchanged, with up-flow anaerobic sludge bed (UASB) and
+anoxic/oxic (A/O) process (Fig. 5). To clarify the future GHG emission
+intensity of the PDWTRS under the baseline scenario and to compare it
+with the low-carbon scenarios, we first assessed the GHG emissions of
+the baseline scenario. This was also helpful to identify the gap to net-
+zero GHG emissions.
+The expected trend showed a gradual decrease in the GHG emission
+intensity of the PDWTRS from 3.49 kg CO2eq/m3 in 2022 to 0.87 kg
+CO2eq/m3 (0.73–0.99 kg CO2eq/m3, 90%CI) in 2050, reflecting a
+reduction of 75.13 % (Fig. 6). This reduction may be mainly influenced
+by factors associated with social background. As the share of clean en-
+ergy increases, the emission factor of electricity use may decrease to
+0.1219 kg CO2eq/kWh (0.107–0.1385 kg CO2eq/kWh, 90%CI) by 2050
+(Fig. S1), leading to a reduction of 0.93 kg CO2eq/m3 in GHG emissions
+from energy consumption (Fig. S2). This reduction would contribute
+Fig. 6. Future GHG emissions and intensities of PDWTRS under potential
+35.53 % to the total reduction of GHG emissions. Specifically, sludge pathways. The data are presented at the 90 % confidence level; the solid lines in
+incineration with heat or electricity recovery could significantly reduce the error bands represent the mean value.
+GHG emissions as an offset by 0.91 kg CO2eq/m3, contributing 34.73 %
+to the overall GHG reduction. The calculation was shown in Supple-
+RWP has the potential to significantly reduce GHG emissions.
+mentary note 1. Similarly, the upgrading of c-WWTPs would reduce
+Although GHG emissions from reclaimed water are currently small in
+GHG emissions by 0.63 kg CO2eq/m3, contributing 24.03 % to the 2022, the GHG emission intensity is high (4.20 kg CO2eq/m3) (Fig. S3).
+overall GHG reduction. In contrast, GHG emissions from RWP increased
+By 2050, the GHG emission intensity of reclaimed water would reduce to
+slightly as the scale of reclaimed water increases. This suggests that the 0.95 kg CO2eq/m3. However, GHG emissions from the RWP stage would
+shift to cleaner electricity was not enough to offset the elevated GHG
+be more important than that in 2022. The proportion of GHG emissions
+emissions stemming from the expansion of reclaimed water production
+from the RWP stage is expected to rise from 4.5 % to 24.2 % (Fig. S2).
+capacity.
+Fig. 5. Potential pathways of PDWTRS.
+8
+
+--- Page 9 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+Although the UF and RO technologies used for reclaimed water pro- membrane reactor (PMR) in S3. PMR integrates solar-driven evapora-
+duction are highly efficient, they consume a significant amount of tion and photodegradation for efficient water purification while main-
+electricity, and the membrane modules require regular cleaning and taining excellent reclaimed water production capacity. Additionally, the
+replacement. Given the constraints on water resources, the current trend photocatalytic material slows down membrane fouling and reduces the
+is to increase the recycling rate of water resources. The essentiality and energy consumption of membrane filtration (Zhang et al., 2022). GHG
+urgency of reducing GHG emissions during reclaimed water production emissions of PMR were calculated by Eq. (S6). The results indicated that
+is increasingly apparent. developing sustainable technologies for RWP would finally decrease by
+While the baseline scenario has resulted in a great reduction in GHG 0.20–0.31 kgCO2eq/m3. And the PDWTRS has the potential to achieve
+emissions from PDWTRS, achieving carbon neutrality still requires sig- net-zero GHG emissions between 2035 and 2040, with a GHG emission
+nificant progress. Among them, direct CH4 and N2O emissions remain intensity of (cid:0) 0.10 kg CO2eq/m3 by 2050 (Fig. 6). This further demon-
+high, and there is a need to further reduce energy consumption and strates the crucial potential of reducing GHG emissions during the RWP
+chemical use. Additionally, the potential for resource recovery has not stage. Although the solar-driven PMR technology is still in the lab scale
+been fully developed, and reducing GHG emissions related to RWP is and has yet to be practically applied, it shows promise. Various tech-
+becoming increasingly important. Therefore, a low-carbon transition in nologies for producing reclaimed water have been proposed to address
+printing and dyeing wastewater management is necessary. the global challenge of freshwater scarcity. However, many of those are
+limited by their high energy consumption. The current water scarcity
+3.3.2. Future wastewater GHG emissions under low-carbon scenarios and climate change make it imperative to develop high-efficiency and
+This study envisioned three different low-carbon scenarios (S1, S2, low-consumption technologies for producing reclaimed water. The
+S3) that synthesized low-carbon technologies and the feasibility of solar-driven PMR may be a viable solution to this problem.
+application. Resource recovery technologies were also combined
+(Fig. 5). 3.3.3. Future perspectives on wastewater management
+S1 does not require extensive process modifications but only simple Achieving carbon neutrality in the PDWTRS requires a concerted
+adjustments from the baseline. PDWW typically has a high COD con- effort at all the four stages. The adoption of low-carbon wastewater
+centration and generates significant amounts of methane in anaerobic treatment technologies, resource- oriented sludge treatment and
+environments. Also, PDWW contains a considerable amount of thermal disposal technologies, and heat pumps can substantially mitigate GHG
+energy. The introduction of heat pumps (HPs) would enable efficient emissions, as evidenced by prior research on GHG emissions from
+heat recovery (Hao et al., 2019). Methane recovery and HPs could help municipal wastewater (Du et al., 2023). In particular, PDWTRS should
+offset GHG emissions, which were calculated by Eq. (S2) and (S3). Based pay attention to reclaimed water production. Technological enhance-
+on practical research, some enterprises have already utilized PDWW to ments in reclaimed water production may pose a constraint in achieving
+warm office buildings. Therefore, it is assumed that S1 will be imple- carbon neutrality in the PDWTRS, especially with rising demand for
+mented from 2025. By 2050, it is expected that the GHG emission in- water recycling. However, technology upgrades take time. Process such
+tensity of PDWTRS would be reduced to 0.61 kg CO2eq/m3 (0.51–0.72 as AnMBR and PMR currently faces technical and economic challenges,
+kg CO2eq/m3, 90%CI) (Fig. 6). Methane recovery and HPs would necessitating accelerated development and testing. Furthermore,
+contribute respectively 39 % and 29 % to this reduction. Compared to stakeholders must heighten their focus on mitigating GHG emissions
+the baseline scenario, there would be a 33 % decrease in GHG emission from PDWTRS. While PDWW is a byproduct of the textile industry, its
+intensity. However, further reduction is still necessary. importance cannot be underestimated. Given that low-carbon technol-
+The recovery efficiency of methane in a conventional anaerobic ogies tend to be costlier during their initial adoption phases, the gov-
+wastewater treatment reactor is relatively low. To address this issue, we ernment should explore implementing subsidy policies to bolster
+replaced the anaerobic reactor with anaerobic membrane bioreactor enterprise engagement.
+(AnMBR). AnMBR is a novel wastewater treatment technology that It is essential to highlight that this study exclusively introduces three
+combines anaerobic biotechnology with high-efficiency membrane potential low-carbon pathways. The AnMBR process has been deliber-
+separation, providing a high carbon recovery ratio and low sludge ately selected as a representative low-carbon technology for evaluation
+production. GHG emission offsets of methane recovery from AnMBR in S2 and S3. Although AnMBR shows promise as a pathway towards
+were calculated by Eq. (S4). Additionally, the original aerobic technol- carbon neutrality, it is crucial to recognize that it is not the exclusive
+ogy was replaced with a downflow hanging sponge (DHS) reactor, which option. The same principle is applicable to PMR technology. There are
+was used in conjunction with AnMBR to further remove pollutants from alternative technologies, such as microbial electrochemistry, which may
+the PDWW. The DHS system consumes about 75 % less energy than the also prove effective in reducing GHG emissions from PDWW treatment
+common activated sludge process (Choerudin et al., 2021). However, in the future. Additionally, we recommend further consideration of dye
+the AnMBR technology currently faces the problem of membrane recovery technologies to mitigate GHG emissions. Moreover, life cycle
+fouling, making it less practical and economical for the time being. It is cost analysis is needed between low-carbon technologies to enhance the
+assumed that S2 would commence operations in 2030. Furthermore, the economic efficiency (Nowrouzi et al., 2021, 2023).
+high-solid anaerobic digestion (HSAD) was introduced to generate There are still several aspects need further refinements in the future.
+electricity as an offset since the sludge is a valuable resource and it was Firstly, the direct emission factor relied on recommended values from
+calculated by Eq. (S5) (Schaubroeck et al., 2015). By 2050, the GHG literature and the IPCC, without considering variations among different
+emission intensity may decrease to 0.20 kg CO2eq/m3 (0.11–0.29 kg types of industrial wastewaters. Secondly, direct CO2 emissions included
+CO2eq/m3, 90%CI), which would be 76 % lower than the baseline sce- both biogenic CO2 and fossil CO2 (Tseng et al., 2016), yet the proportion
+nario (Fig. 6). AnMBR and DHS process would reduce emissions by 0.54 between the two remained unknown. Therefore, direct CO2 emissions
+kgCO2eq/m3, which contribute 82 % to the reduction. This demon- were not factored into the future scenario analysis in this study,
+strates that AnMBR has the potential to achieve carbon neutrality in potentially leading to underestimated results. Indeed, direct GHG
+PDWW treatment. In addition, biogas recovery from the anaerobic emissions exhibit high variability, necessitating further long-term and
+digestion not only reduced GHG emissions, but also decreased total cost multi-site field measurements for PDWW to explore the intrinsic
+of PDWTRS (Nowrouzi et al., 2021). mechanism of direct GHG emissions and clarify the proportion of fossil
+Although GHG emission intensity of S2 is already low, there is still CO2 emissions (Abyar and Nowrouzi, 2023b). Furthermore, the future
+space to achieve net-zero emissions. As previously mentioned, reducing scenario analysis relied on assumptions about background de-
+GHG emissions during the RWP stage is becoming increasingly impor- velopments. While policy objectives and literature served as references,
+tant. Therefore, we replaced UF and RO with solar-driven photocatalytic as well as uncertainty analysis was conducted, adjustments to future
+9
+
+--- Page 10 ---
+J. Mao et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t927(2024)172301
+projections may still be necessary following changes in social progress. Appendix A. Supplementary data
+4. Conclusion Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.scitotenv.2024.172301.
+The inappropriate GHG emission assessment for PDWTRS obstructs
+the attainment of carbon neutrality of textile industry. To addresses the References
+gap, the study represented the first systematic evaluation of life-cycle
+GHG emissions for PDWTRS, and proposed low-carbon pathways to Abulimiti, A., Wang, X., Kang, J., Li, L., Wu, D., Li, Z., Piao, Y., Ren, N., 2022. The trade-
+off between N2O emission and energy saving through aeration control based on
+achieve carbon neutrality. The findings indicated that PDWTRS pro-
+dynamic simulation of full-scale WWTP. Water Res. 118961 https://doi.org/
+duced 6019.8 tons of CO2eq in 2022, with an intensity of 3.49 kg CO2eq/ 10.1016/j.watres.2022.118961.
+m3 or 1.58 kg CO2eq/kg CODrem, which had a severer influence than Abyar, H., Nowrouzi, M., 2023a. Trickling filter systems for sustainable water supply: an
+evaluation of eco-environmental burdens and greenhouse gas emissions. Environ.
+municipal WWTPs on climate change. Primary contributors to GHG
+Res. 237, 117011 https://doi.org/10.1016/j.envres.2023.117011.
+emissions were energy consumption (33 %), followed by STP at 22 % Abyar, H., Nowrouzi, M., 2023b. A comprehensive framework for eco-environmental
+and c-WWTP at 18 %. Compared with GHG emissions from municipal impact evaluation of wastewater treatment plants: integrating carbon footprint,
+energy footprint, toxicity, and economic assessments. J. Environ. Manag. 348,
+wastewater as well as carbon footprint of textile products, we recom-
+119255 https://doi.org/10.1016/j.jenvman.2023.119255.
+mended that PDWW should be considered more carefully during GHG Abyar, H., Nowrouzi, M., Rostami, A., 2022. A comprehensive study of biological
+reduction of the textile industry. The sensitivity analysis revealed that phosphorus removal systems from economic and environmental perspectives based
+wastewater quantity had the greatest influence on GHG emissions, with on the optimization approach. Environ. Technol. Innov. 28, 102811 https://doi.org/
+10.1016/j.eti.2022.102811.
+electricity mix and consumption predominantly affecting GHG emission Bao, Z., Sun, S., Sun, D., 2016. Assessment of greenhouse gas emission from A/O and SBR
+intensity, which was similar with current research about WWTPs. wastewater treatment plants in Beijing, China. Int. Biodeterior. Biodegradation 108,
+Considering anticipated social progress, the GHG emission intensity may 108–114. https://doi.org/10.1016/j.ibiod.2015.11.028.
+decrease to 0.87 kg CO2eq/m3 in 2050 under the baseline scenario, Borg Jo .n Oo pvo er, .E R., P s.l i 2sc 4h 8k e 8, 6E 9. –, 82 80 71 .6 h. tS te pn ss :/it /i dv oit iy a rn ga /1ly 0s .i 1s: a 6r /e jv .eie jow .o 2f r 1e 5c .e 0n 6t 0a 3d 2v .a nces. Eur.
+e , .o 0 1 r 0 .
+representing a reduction of 75.13 %. Employing prospective LCA, our Cai, B., Gao, Q., Li, Z., Wu, J., Cao, D., Liu, C., 2015. Study on the Methane Emission
+s mtu d ay s dh o thw ee d t lh aa rt dth rie eA nn M PMBR c bo yu l 0d r 2e 0d u kc ge e Om 2eis qs /io mn 3s bb yy 0 2. 05 54 k g EC nO c2 oe uq r/ ChenF ,a Hc vt .io or Ys .o f nW a 2s ate w ,a Xt 8e .–r HT 2r e4e a Yt .m Ze hn at nP gla n Ct .s Xin eC h Gin .,a i( uin ZC .h Lin ae os ,e H). ,C Sh oi nn ga P Ho .l ,l Cut h. R ne s W.
+3 n so - v R . C 0 . - E n ,r n I .t ,. 5 n, g1 1 1 ,.
+u , X W , , , , u , L , , . , e , .,
+agingly, PDWTRS exhibited the potential to achieve net-zero emissions Qian, Y., Zhang, A., Li, X., 2021. Dyeing and finishing wastewater treatment in
+before 2040 through a gradual transition to low-carbon management, China: state of the art and perspective. J. Clean. Prod. 326, 129353 https://doi.org/
+with a GHG emission intensity of (cid:0) 0.10 kg CO2eq/m3 by 2050. Efforts Choe1 r0 u. d1 i0 n1 6 C/ .j ,. j Acl re rp ahro m.2 a0 h2 1 F. .1 I.2 9 D3 a5 n3 i.
+, , , e l, J.K., Watari, T., Yamaguchi, T., Setiadi, T., 2021.
+towards achieving carbon neutrality require collaborative actions across Evaluation of combined anaerobic membrane bioreactor and downflow hanging
+policy, economic, and technological domains. Firstly, there is a need for sponge reactor for treatment of synthetic textile wastewater. J. Environ. Chem. Eng.
+9, 105276 https://doi.org/10.1016/j.jece.2021.105276.
+broader promotion of clean energy and circular economy practices.
+Christopher Frey, H., Patil, S.R., 2002. Identification and review of sensitivity analysis
+Secondly, advancements in green water-saving technologies should be methods. Risk Anal. 22, 553–578. https://doi.org/10.1111/0272-4332.00039.
+prioritized within printing and dyeing production processes. Addition- Crippa, M., Oreggioni, G., Guizzardi, D., Muntean, M., Schaaf, E., Lo Vullo, E.,
+ally, persistent efforts are imperative for the development and imple- Solazzo, E., Monforti-Ferrario, F., Olivier, J.G., Vignati, E., 2019. Fossil CO2 and
+GHG Emissions of All World Countries (Other No. KJ-NA-29849-EN-N). Publications
+mentation of low-carbon wastewater treatment technologies such as Office of the European Union, Luxembourg. https://doi.org/10.2760/687800.
+AnMBR and HSAD. Moreover, addressing the challenges of freshwater Cullen, A.C., Frey, H.C., 1999. Probabilistic Techniques in Exposure Assessment: A
+scarcity and climate change necessitates high-efficiency and low- Handbook for Dealing With Variability and Uncertainty in Models and Inputs.
+Springer Science & Business.
+consumption technologies for reclaimed water production, such as
+Davis, S.J., Lewis, N.S., Shaner, M., Aggarwal, S., Arent, D., Azevedo, I.L., Benson, S.M.,
+solar-driven PMR. Different from municipal WWTPs, this may represent Bradley, T., Brouwer, J., Chiang, Y.-M., Clack, C.T.M., Cohen, A., Doig, S.,
+the ultimate step for PDWTRS to attain carbon neutrality. Edmonds, J., Fennell, P., Field, C.B., Hannegan, B., Hodge, B.-M., Hoffert, M.I.,
+Ingersoll, E., Jaramillo, P., Lackner, K.S., Mach, K.J., Mastrandrea, M., Ogden, J.,
+Peterson, P.F., Sanchez, D.L., Sperling, D., Stagner, J., Trancik, J.E., Yang, C.-J.,
+CRediT authorship contribution statement Caldeira, K., 2018. Net-zero emissions energy systems. Science 360, eaas9793.
+https://doi.org/10.1126/science.aas9793.
+Jiaer Mao: Writing – review & editing, Writing – original draft, Donkadokula, N.Y., Kola, A.K., Naz, I., Saroj, D., 2020. A review on advanced physico-
+chemical and biological textile dye wastewater treatment techniques. Rev. Environ.
+Methodology, Conceptualization. Haoyu Chen: Investigation, Data Sci. Biotechnol. 19, 543–560. https://doi.org/10.1007/s11157-020-09543-z.
+curation. Xiangyang Xu: Supervision, Conceptualization. Liang Zhu: Dotto, J., Fagundes-Klen, M.R., Veit, M.T., Pala´cio, S.M., Bergamasco, R., 2019.
+Writing – review & editing, Methodology, Funding acquisition, Performance of different coagulants in the coagulation/flocculation process of textile
+wastewater. J. Clean. Prod. 208, 656–665. https://doi.org/10.1016/j.
+Conceptualization. jclepro.2018.10.112.
+Du, W.-J., Lu, J.-Y., Hu, Y.-R., Xiao, J., Yang, C., Wu, J., Huang, B., Cui, S., Wang, Y.,
+Declaration of competing interest Li, W.-W., 2023. Spatiotemporal pattern of greenhouse gas emissions in China’s
+wastewater sector and pathways towards carbon neutrality. Nat. Water 1, 166–175.
+https://doi.org/10.1038/s44221-022-00021-0.
+The authors declare that they have no known competing financial EP, 2020. The Impact of Textile Production and Waste on the Environment
+interests or personal relationships that could have appeared to influence (Infographics). https://www.europarl.europa.eu/news/en/headlines/society/2020
+1208STO93327/the-impact-of-textile-production-and-waste-on-the-environment
+the work reported in this paper.
+-infographics. (Accessed 19 January 2024).
+Ewuzie, U., Saliu, O.D., Dulta, K., Ogunniyi, S., Bajeh, A.O., Iwuozor, K.O., Ighalo, J.O.,
+Data availability 2022. A review on treatment technologies for printing and dyeing wastewater
+(PDW). J. Water Process Eng. 50, 103273 https://doi.org/10.1016/j.
+jwpe.2022.103273.
+Data will be made available on request. Gong, D., Jing, X., Zhao, Y., 2021. One-step supercritical CO2 color matching of polyester
+with dye mixtures. J. CO2 Utiliz. 44, 101396 https://doi.org/10.1016/j.
+jcou.2020.101396.
+Acknowledgements
+Guo, D., Li, B., Yu, W., Han, J.-C., Zhou, Y., Ye, Z., Wu, X., Young, B., Huang, Y., 2023.
+Revisiting China’s domestic greenhouse gas emission from wastewater treatment: a
+This work was supported by the Major Scientific and Technological quantitative process life-cycle assessment. Sci. Total Environ. 876, 162597 https://
+doi.org/10.1016/j.scitotenv.2023.162597.
+Project of Zhejiang Province (2022C03028, 2023C03151), and National
+Güyer, G.T., Nadeem, K., Dizge, N., 2016. Recycling of pad-batch washing textile
+Natural Science Foundation of China (52370050). wastewater through advanced oxidation processes and its reusability assessment for
+Turkish textile industry. J. Clean. Prod. 139, 488–494. https://doi.org/10.1016/j.
+jclepro.2016.08.009.
+10

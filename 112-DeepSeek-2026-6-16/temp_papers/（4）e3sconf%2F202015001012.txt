@@ -1,0 +1,491 @@
+--- Page 1 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+Estimation of greenhouse gas (GHG) emissions from natural
+lagoon wastewater treatment plant: Case of AinTaoujdate-
+Morocco
+Yassine BAHIa, Ahmed AKHSSASa , Mohamed KHAMARb, Lahcen BAHIa , Hanane SOUIDIa
+a Laboratory of Applied Geophysics, Geotechnics, Engineering Geology and Environment (L3GIE);
+Mohammadia School of Engineering; Mohammed V University of Rabat
+b Civil Engineering and Environment Laboratory (LGCE); Materials, Water and Environment Team
+Higher School of Technology of Salé; Mohammed V University of Rabat
+Abstract. The process of removing organic components from wastewater as BOD through wastewater
+5
+treatment plants has been proven to be a significant source of greenhouse gas emissions, mainly methane CH ,
+4
+carbon dioxide CO and nitrous oxide N O. The reduction of these emissions has attracted more interest given
+2 2
+their major contribution to global warming. This study was able to identify and estimate the amount of methane
+and CO emissions on a monthly basis by a simple modeling approach and an empirical method (IPCC) for N O
+2 2
+emissions, in the case of Ain-Taoujdate wastewater treatment plant, throughout the years 2013, 2018 and 2019.
+The results showed that anaerobic ponds were the main source of on-site emissions with 66% of total contribution
+and 33% for facultative ponds, followed by the energy consumption of the pumping station as off-site GHG
+emissions.
+Keywords: Greenhouse gases, Wastewater treatment plant, methane, On-site emissions, Off-site emissions
+On-site emissions are source of different wastewater
+treatment procedures such as biological processes
+(CO emissions from aerobic microbiological
+2
+1. Introduction respiration, N O source of nitrification and
+2
+Greenhouse gas emissions from anthropogenic denitrification, CH 4 from anaerobic digestion).
+sources such as use and production of fossil fuel, Methane from wastewater was found to contribute
+industrial and agricultural activities,[1] have been 5% of the global methane emissions. [1]
+scientifically proven worldwide to be the main cause
+of global warming. The accumulation of GHGs in Off-site GhG emissions are from the energy
+consumption by different units of the station, in this
+the atmosphere has increased rapidly in recent
+case the power consumption of the WWTP and the
+decades and threatens not only humans but also the
+pumping station.
+entire planet's ecosystem. [2]
+Since the launch of the National Program of
+Wastewater treatment plants (WWTP) have been
+Sanitation and Wastewater treatment in 2006,
+recognized as a major source of greenhouse gases
+Morocco has seen the creation of 140 wastewater
+due to their on-site and off-site production of three
+treatment plants, which natural lagoon process is the
+main gases: carbon dioxide (CO ), methane (CH )
+2 4 most widely used at the national level, accounting
+and nitrous oxide (N O), with a global warming
+2 for more than 82% of the WWTP carried out and
+potential (GWP) of 1, 28 and 265 respectively (IPCC
+56% of the volume of treated wastewater. Aerated
+2014). [3] [4]
+lagoon accounts for 2% of WWTP, activated sludge
+© The Authors, published by EDP Sciences. This is an open access article distributed under the terms of the CreativeCommonsAttribution License 4.0
+(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+12%, bacterial beds 2% and the algal channel about reactions between the constituents of the
+2% of WWTP. atmosphere. Precipitation, on the other hand, is
+involved in the formation, transport and deposition
+The city of AinTaoujdate has a natural lagoon-type of aerosols. They also define the decomposition
+wastewater treatment plant. consisting of pre- process (methane emission) and affect the growth of
+treatment facilities (screen, sand trap), four vegetation that absorbs some GHG and produces
+anaerobic basins and two Facultative basins, drying allergens (pollens, spores). [6]
+beds and an operating building.
+The current situation of the WWTP shows that it is
+Lagoon treatment process was used in our study to located far from the city (5 km) and is surrounded in
+better estimate and quantify the sources of On-site
+the center by areas of very dense vegetation and
+emissions (Methane) based on the total BDO
+5 agricultural land that are governed by the changing
+removed (∆DBO) and Off-site (CO ) emissions from
+2 seasons during the year (Fig. 3).
+energy consumption [5] for the different scenarios
+2013,2018 and 2019, and given the lack of data on
+analyses of total nitrogen removal (∆TN),nitrous
+oxide will be estimated annually by an empirical
+method based on assumptions provided by the 2019
+IPCC guidelines.
+B
+2. Physical data on the study area:
+2.1 Location of the wastewater treatment
+plant
+The study area is located 5 km north of the city of
+Ain-Taoujdate (Fig1.B),and it’s located 20 km from
+the city of Fès and 40 km from the city of Meknès
+A
+(Fig 1.2d).
+The city of AinTaoujdate is characterized by a warm
+and temperate climate, the temperature varies Fig. 1. A) aerial view of the wastewater treatment plant. B)
+location of the treatment plant.
+between a maximum of 35°C in August and a
+minimum of 4°C in January. The rainfall regime is
+characterized by heavy rains in autumn and winter
+and almost no rain in summer. Indeed, the rainfall
+year is composed of two seasons: a wet season from
+October to May with a maximum of 295.56mm in
+March and another dry season from June to
+September (Fig. 4).
+Temperature and precipitation regime are two B
+factors that govern the purification performance of
+the anaerobic basins, the reduction of BOD by the
+5
+station is more efficient in a hot climate, since
+sunlight and adequate temperature play a very
+important role with a rate of 70% in the
+photosynthesis process.
+Fig.2: Digital Terrain Model of the AinTaoujdate region
+On the other hand, under a winter season, the
+ambient temperature of the water becomes
+inadequate for the living microorganisms, the
+photosynthesis cycle breaks down, therefore less
+oxygen, the reduction becomes less effective with a
+rate of 40%.
+Afterward, temperatures also influence the transport
+and dispersion of GHG; they affect chemical
+2
+
+--- Page 3 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+Step 2: Setting operational boundaries
+Scope 1: On-site emissions: Three gases (CO , CH ,
+2 4
+N O) will be considered and calculated. CO
+2 2
+emissions from the plant are not considered in the
+IPCC guidelines because Carbon dioxide, produced
+during biochemical treatment processes, is
+considered to be of "biogenic" origin, Therefore, its
+quantification should not be included in the
+estimation of national emissions. The IPCC suggests
+that biogenic CO emissions should not be included,
+2
+but some protocols encourage their quantification
+and inclusion in calculations [8].
+A simplified modeling approach was chosen for
+estimating the direct emissions of each unit of the
+wastewater treatment plant for the BOD [5] removal
+5
+process, which includes the four aerobic and two
+facultative basins. (Fig.6)
+Fig. 2. Land use of AinTaoujdate region
+Nitrous oxide emissions from the natural lagoon
+process are insignificant compared to methane
+emissions,[9] and will therefore be calculated using
+the empirical method proposed by the IPCC
+guidelines.
+Scope 2: Off-site emissions: Indirect GHG
+emissions from imported electricity consumption.
+(Fig.6)
+Step 3: Calculate and quantify monthly GHG
+emissions of the wastewater treatment plant for the
+years 2013,2018 and 2019. The year 2013 will be
+taken as a reference year since the station had a good
+performance in terms of its purification efficiency.
+Fig.3. Temperature and precipitation variations
+AinTaoujdate city in 2018 [7]
+3. Methodology and methodology
+The methodology of this study is based on the
+"Green House gas protocol" which was launched by
+the WBCSD (World Business Council for
+Sustainable Development) and the WRI (World
+Resources Institute), and serves as a knowledge and
+quantification tool for GHG emissions.
+The calculation of emissions will be done in three
+steps:
+Fig. 4 Organizational boundary of the WWTP
+Step 1: Setting organizational boundaries
+The organizational boundary shown in Figure 6
+the organizational boundary for this study includes includes the direct and indirect emissions of the
+the pumping station, the WWTP and the grid from wastewater treatment plant:
+which the energy is being imported. (Fig.6)
+Pumping station: 3 pumps including one backup
+Sludge drying beds were not included in the scope pump with a nominal power of 15 Kw, and a total
+due to the lack of reliable data on the quantity of flow rate of 59l/s;
+sludge extracted.
+3
+
+--- Page 4 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+Pre-treatment operations, including a stilling basin, The default maximum production capacity (B ) of
+0
+a decanting channel equipped with an inclined CH for domestic wastewater is 0.6 Kg CH /Kg
+4 4
+screen, an electromagnetic flow meter, and a venturi BOD.
+channel;
+Emission factor of CH will be:
+4
+Two flow distributors (FD1&FD2), circular in shape
+(Diameter = 4m), one for anaerobic basins and one 𝑬𝑭 𝐁𝐎𝐃,𝐢 = 0.8 x 0.6 = 0.48 kg CH 4/kg BOD
+for facultative basins; (not included in the inventory,
+works as gravitational flow)
+Step.3: Estimation of CH emissions from unit
+4
+Four anaerobic Ponds (AP1, AP2, AP3, AP4) with a process, i (Kg CH /d) :
+4
+useful volume of 2,300 m3 and a useful height of 3m;
+𝐂𝐇 𝐔𝐧𝐢𝐭 𝐩𝐫𝐨𝐜𝐞𝐬𝐬= 𝐌 ×𝐄𝐅
+Two facultative ponds (FP1&FP2) with a volume of 𝟒 𝐁𝐎𝐃,𝐢 𝐁𝐎𝐃,𝐢
+(3)
+16,500 m3 and a useful height of 1.5 m;
+The station is also equipped with a sludge drying bed
+of Four units with a total surface area of 960 m2, but 3.1.2 Nitrous oxide (N 2O): estimated from
+has been excluded from the boundary due to reactions associated with anoxic or
+insufficient data and will therefore not be included. anaerobic biological processes through
+nitrification and denitrification. [11]
+3.1 Scope1: Method of calculation of On-site Step.1: Calculation of total annual amount of
+GhG emissions from the WWTP: nitrogen in wastewater TN
+DOM :
+𝐓𝐍 = (𝐏 ×𝐏𝐫𝐨𝐭𝐞𝐢𝐧×𝐅 ×
+𝐃𝐎𝐌 𝐭𝐫𝐞𝐚𝐭𝐦𝐞𝐧𝐭 𝐍𝐏𝐑
+3.1.1 Methane (CH ): estimated from anaerobic
+4 𝐍 ×𝐅 ×𝐅 )
+degradation of organic matter [10] 𝐇𝐇 𝐧𝐨𝐧−𝐜𝐨𝐦 𝐈𝐍𝐃−𝐂𝐎𝐌
+(4)
+Step.1: Calculation of mass of BOD removed in
+Where:
+unit process, i (Kg/BOD) 𝑴 :
+𝑩𝑶𝑫,𝒊
+TN = total annual amount of nitrogen in
+DOM_j
+domestic wastewater for treatment pathway j, kg
+𝐌 = (∆𝐁𝐎𝐃 ×𝐐 )×𝟏𝟎−𝟑
+𝐁𝐎𝐃,𝐢 𝐢 𝐟𝐥𝐨𝐰 N/yr
+(1)
+P = human population who are served by the
+treatment_j
+Where: treatment pathway j, person/yr
+Protein = annual per capita protein consumption,
+∆𝑩𝑶𝑫 = removed BOD in unit process, i (mg/l)
+𝒊 kg protein/person/yr
+𝐐 = inflow wastewater (m3/d)
+𝐟𝐥𝐨𝐰 F = fraction of nitrogen in protein, default = 0.16
+NPR
+kg N/kg protein
+Step.2: Calculation of emission factor 𝐄𝐅 𝐁𝐎𝐃,𝐢j : F = factor for nitrogen in non-consumed
+NON-CON
+𝐄𝐅 = 𝐁 ×𝑴𝑪𝑭
+𝐁𝐎𝐃,𝐢 𝟎 protein disposed in sewer system, kg N/kg N.
+(2)
+F = factor for industrial and commercial co-
+Where:
+IND-COM
+discharged protein into the sewer system, kg N/kg N
+EF BOD,i = emission factor, kg CH 4/kg BOD N = additional nitrogen from household products
+i = each treatment/discharge pathway or system HH
+added to the wastewater, default is 1.1
+Bo= maximum CH producing capacity, kg CH /kg
+4 4
+BOD
+The annual protein consumption per capita in
+MCF = methane correction factor (fraction)
+Morocco is 0.9 Kg/person/year.
+The default methane correction coefficient (MCF)
+The factor for non-consumed protein disposed in
+used will be 0.8 (according to IPCC 2019
+wastewater (F ) will be 1.06.
+NON-COM
+guidelines).
+4
+
+--- Page 5 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+The factor for industrial and commercial co- 4. Results and discussions
+discharged protein into the sewer system (F )
+IND-COM 4.1 . On-site emissions from the wastewater
+will be 1.25 kg N/kg N (source: IPCC 2019
+treatment plant
+guidelines).
+Step.2: Calculation of the emission factor for
+nitrous oxide EF
+The default value that has been taken for the EF is
+0.001 kg N O-N/kg N (according to IPCC 2019
+2
+guidelines)
+Step.3: Calculate N O emissions
+2
+Fig.5.Estimation of methane emissions in 2013
+𝐍 𝐎 𝐏𝐥𝐚𝐧𝐭𝐬 = [∑(𝐔×𝐓×𝐄𝐅)]×
+𝟐 𝐃𝐎𝐌
+𝟒𝟒
+𝐓𝐍 ×
+𝐃𝐎𝐌
+𝟐𝟖
+(5)
+Where:
+N OPlants = N2O emissions from domestic
+2 DOM
+wastewater treatment plants in inventory year, kg
+N2O /yr
+TN =total nitrogen in domestic wastewater in
+DOM
+inventory year, kg N/yr.
+U= fraction of population in income group i in
+inventory year.
+T=degree of utilization treatment/discharge
+pathway or system
+Fig.6.Estimation of methane emissions in 2018
+EF=emission factor for treatment/discharge
+pathway or system j, kg N2O -N/kg N
+3.2 Scope 2: Off-site GhG emissions from
+the WWTP:
+Indirect GHG emissions have been included as the
+electrical grid from which energy is being imported
+to supply the WWTP (Sand trap, Screening bar and
+the Electromagnetic flow meter), and the pumping
+station.
+Fig.9.Estimation of methane emission in 2019*
+5
+
+--- Page 6 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+*The data received on the BOD analyses cover only the The current year recorded a maximum temperature
+5
+period of January and September of 32C, 35 C in June and July (Fig. 4) with a
+maximum methane emission of 733,82 and 629
+KgCO e, this increase in emissions can be explained
+2
+by the increase in drinking water consumption, due
+to the arrival of mass of people during summer
+holidays, therefore a high production of waste water.
+The facultative basins were the minor source of
+methane emissions with an average of 396,52
+KgCO e, meaning that at the exit of the WWTP the
+2
+Table.10. The amounts of on-site GHG emissions treated water becomes a small source of methane
+generated from each unit-process compared to the raw water.
+The variation in methane emissions is related to the
+BOD removal process, if we have a good efficiency
+5
+To be able to analyze the variations over the years from the plant, there will be more gas emissions and
+2013, 2018, and 2019, the on-site emissions of therefore treated water that meets discharge
+methane generated from reactions of organic matter standards, but if we have a low efficiency from the
+degradation and the off-site emissions of CO 2 from plant, fewer gas emissions will be emitted and
+energy consumption were converted to KgCO 2e therefore non-compliant treated water.
+(Fig. 7.8.9)
+Nitrous oxide (N O) emissions, estimates were
+2
+Off-site emissions from the wwtp will not be calculated annually by methods provided by the
+included in the analysis of variations since the IPCC during the same periods (Tab.11), as analyses
+consumption is the same for all years. for total nitrogen removed (TN) were not performed,
+knowing that natural lagoon process is considered a
+The results show that anaerobic basins are the major
+minor source of nitrous oxide. [12]
+source of methane with a total of
+7141,68KgCO 2e/year, 7920,05 KgCO 2e/year, The results showed an increase in N 2O emissions in
+4927,104 KgCO2e/year, for the years of 2013, 2018, wastewater with a total of 1417,83 KgCO e, 1662,36
+2
+2019 respectively against 3089,923 KgCO 2e/year, KgCO 2e and 1697,8 KgCO 2e for the periods
+4691.23KgCO 2e/year, 3566,9 KgCO 2e/year for the 2013,2018,2019 respectively, with a change rate of
+facultative basins (Tab.10). 2.11% for the period 2018-2019.
+It should be noted that the total emissions in 2019 are
+provisional and therefore lower than the previous
+years since the last months (October, November,
+December) are not included in the study.
+2018 is considered to be the year with the highest
+methane emissions with a total of 7920 KgCO e with
+2
+an average of 781,74 KgCO e compared to 851,76
+2
+KgCO e in 2013, and 840 KgCO e in 2019.Should
+2 2
+be noticed that the anaerobic basins were the major
+source of methane than facultative ones, except
+January and March with a total of 733,83 and 655,2
+KgCO e higher than anaerobic basins. It can be
+2
+explained by the purification process, which means
+that during these two months, the wwtp faced some
+issues such as high organic load flow or aerobic and
+anaerobic conditions in both basins were not
+adequate.
+Variations in methane emissions vary from year to
+Table.11. Estimation of Nitrous Oxide emissions from
+year depending on the climate, volume load and domestic wastewater
+water flow to be treated, emissions are high during
+June, July, August, and low during the rainy season * Source: [13]
+6
+
+--- Page 7 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+4.1 Off-site emissions from the wastewater The simple modelling approach for direct and
+treatment plant: indirect estimation has demonstrated accurate results
+The annual energy consumption, total of indirect on each unit of the treatment plant, better than the
+emissions generated by the wastewater treatment methods proposed by the IPCC guidelines.
+plant and pumping station and their percentage
+These results showed that anaerobic basins
+contributions are presented in the table (Tab.12)
+accounted for the majority of on-site emissions
+below:
+followed by facultative basins, and the third source
+was the pumping station.
+According to these estimation, the station is
+experiencing an exponential evolution of GhG
+emissions during the 2013-2019 period, and this
+evolution can be explained for several reasons: the
+increase of population connected to drinking water
+over the years, thus an increased production of
+wastewater, the increase of organic load received by
+the station, the long sludge cleaning period that takes
+place every 5-10 years, since the sludge retained at
+Table.12. Total Electricity consumption and off-site
+the bottom of the basins contribute as an important
+emissions of the plant and the pump station
+source of methane and CO .
+2
+To be able to reduce the GHG emissions emitted by
+*Source: [14]
+the WWTP, it is possible to opt for an aerated lagoon
+process using clean energies (e.g. Solar panels)
+Estimation of off-site emissions from the pumping which should increase the purification efficiency of
+station show that the pumping station is the major the plant with less sludge production and a short
+source (2865,13 KgCO 2e) contributing to 57.7% of cleaning period.
+total emissions (4958,77 KgCO e) followed by the
+2
+wastewater treatment plant with a contribution of 6. References
+42.2% or 2093.64 KgCO e.
+2
+By comparing the electricity consumption of our
+1. M. El-Fadel,M. Massoud, MEWM, EP 144, 177
+case natural lagoon-type station with the other types
+(2001)
+of stations, we can see that the electricity
+consumption for the bacterial bed-type process is 2. Corominas, L., Flores-Alsina, X., Snip, L.,
+estimated at 2,300 kWh/year for a capacity of 400 Vanrolleghem, P.A. CDMABEGHG, BBE 109
+IE(inhabitant equivalent) and at 6,400 kWh/year for 2854-2863, (2012)
+a capacity of 1000 IE, followed by aerated lagoon, 3. Yerushalmi, L., Ashrafi, O., Haghighat, F.,
+where aeration is the largest energy consuming Unit Reductions in greenhouse gas (GHG) generation
+with a specific energy consumption of about 1.1 to 2 and energy consumption in wastewater treatment
+kW/kg BOD 5 eliminated and from 100 to 370 plants Water Sci.Technol 67 (5), 1159-1164
+Wh/m3. [15]
+(2013)
+Eventually we find the activated sludge process 4. Bani Shahabadi, M., Yerushalmi, L., Haghighat,
+which has been adopted for steps of more than F., Estimation of greenhouse gas generation in
+100,000 inhabitants and which is the most widely wastewater treatment plants e model
+used in Morocco with an estimate of 280 to 780 development and application Chemosphere 78,
+Wh/m3 when moving from a high to a low activated 1085-1092 (2010)
+sludge load. Therefore, the electricity consumption 5. Daeseung Kyung, Minsun Kim, Jin Chang,
+at the level of natural lagoon process is estimated at Woojin Lee, Estimation of greenhouse gas
+10% of the wwtp consumption per activated sludge. emissions from a hybrid wastewater treatment
+[16] plant, Journal of Cleaner Production 95 118-
+119 (2015)
+5. Conclusion and recommendations
+6. Sottile M.F, The influence of climate change
+on air quality-Product, 12 (2011)
+7
+
+--- Page 8 ---
+E3S W eb of C onferences150,01012 (2020) https://doi.o rg/10.1051/e3sconf/202015001012
+EDE7-2019
+7. https://power.larc.nasa.gov/data-access-
+viewer/
+8. 2019 Refinement to the 2006 IPCC Guidelines
+for National Greenhouse Gas Inventories 5,
+chapter 6, 6.8
+9. 2019 Refinement to the 2006 IPCC Guidelines
+for National Greenhouse Gas Inventories 5
+,chapter 6, table 6.1a
+10. Diksha.G, Singh.S.K Greenhouse Gas Emissions
+from Wastewater Treatment Plants: A cas study
+of Noida. Journal of WS, 2 132 (2012)
+11. Kampschreur, M.J., Temmink, H., Kleerebezem,
+R., Jetten, M.S.M., van Loosdrecht, M.C.M.,
+Nitrous oxide emission during wastewater
+treatment Water Res. 43, 4093-4103 (2009)
+12. 2019 Refinement to the 2006 IPCC Guidelines
+for National Greenhouse Gas Inventories 5
+,chapter 6, table 6.10
+13. HCP, Population projections of prefectures,
+provinces and municipalities in the Fes-Meknes
+region 2014-2030 47 (2018)
+14. Matthew.B, Aman.S, Charlotte.W, Amy.H, and
+Jessica.L., Technical Paper Electricity-specific
+emission factors for grid electricity 6 (2011)
+15. Rachid C. G. Energy consumption in the
+sanitation sector 8-9 (2008)
+16. EL BADRAOUI.M.H.,BERDAI.M. Adaptation
+of the water-energy system to climate change:
+National study - Morocco 25 (2011)
+8

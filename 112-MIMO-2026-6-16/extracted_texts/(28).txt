@@ -1,0 +1,594 @@
+--- Page 1 ---
+JournalofEnvironmentalManagement313(2022)115002
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: www.elsevier.com/locate/jenvman
+Multipoint characterization of the emission of odour, volatile organic
+compounds and greenhouse gases from a full-scale membrane-based
+municipal WWTP
+Daniel Gonza´ leza,b, Joan Colo´ nc, Antoni S´ ancheza, David Gabrielb,*
+aComposting Research Group (GICOM) Dept. of Chemical, Biological and Environmental Engineering, Universitat Auto`noma de Barcelona, 08193, Bellaterra, Barcelona,
+Spain
+bGroup of Biological Treatment of Liquid and Gaseous Effluents (GENOCOV) Dept. of Chemical, Biological and Environmental Engineering, Universitat Aut`onoma de
+Barcelona, 08193, Bellaterra, Barcelona, Spain
+cBETA Technology Centre: “U Science Tech”, University of Vic-Central University of Catalonia, 08500, Vic, Barcelona, Spain
+A R T I C L E I N F O A B S T R A C T
+Keywords: Different environmental and social concerns can arise due to the generation of gaseous emissions during the
+Wastewater treatment plant (WWTP) treatment of urban wastewater. However, there is not an extensive knowledge about which are the main po-
+Gaseous emission tential odour and greenhouse gas (GHG) emission sources in a wastewater treatment plant (WWTP) and their
+Volatile organic compounds (VOC)
+variability. In this study, a multipoint characterization of the gaseous emissions generated in a full-scale
+Emission factors
+municipal WWTP located in Barcelona was conducted, aiming at identifying the main odour and GHG emis-
+sion sources. The WWTP under study treats an average inlet flow of 33,000 m3 d(cid:0)1 using a Ludzack-Ettinger
+system with Membrane BioReactor (MBR) technology, and it has installed a gas caption and treatment system
+consisting of a biotrickling filter followed by a conventional biofilter to treat part of the off-gases produced
+during the wastewater treatment. For this work, gaseous emissions characterization campaigns were conducted
+to assess the proper performance of the gas treatment unit and to estimate the emission factors referred to
+odorants and GHGs for the different emission sources and to assess the proper performance of the gas treatment
+system. Besides, a chemical characterization of the different volatile organic compounds (VOC) present in the
+gaseous emissions was performed through TD-GC/MS. The main potential odour sources were the reception tank,
+the barscreens building and the primary settler, where odour concentrations were in the range of 1300 and 2600
+ou⋅m(cid:0)3.
+Moreover, GHG emissions were found during the primary treatment and in the MBR units, ranging from
+CO2eq⋅m(cid:0)3.
+2.21 to 68,217.13 mg Different VOCs such as aromatic hydrocarbons, alkanes and ketones were
+found in the gaseous emissions with a high variability among all the emission sources. The results obtained are
+valuable indicators that can be used to develop odour and GHG mitigation strategies in WWTPs and to estimate
+the environmental impact of these facilities.
+1. Introduction plants (WWTPs) (Frechen, 1988). These gaseous emissions are charac-
+terised by the presence of a large number of volatile organic compounds
+The treatment of urban wastewater is well known and extended (VOCs) at trace level concentrations, together with volatile sulphur
+around European countries. Different technologies or strategies can be compounds (VSCs), hydrogen sulphide and ammonia, which are the
+used to treat urban wastewater, all with the inherent drawback of main responsible for odour nuisance (Gostelow et al., 2001; Lebrero
+generating solid and gaseous wastes in the course of the applied treat- et al., 2011).
+ments (Gostelow et al., 2001). Gaseous streams are the main responsible Odour emissions are one of the major concerns for local authorities
+for air pollution, mainly in the form of odour, which can have great due to the nuisance generated to the WWTP’s surrounding neighbour-
+impact over the population in the vicinity of wastewater treatment hoods. Responses to them are highly variable and although they are not
+* Corresponding author. Group of biological treatment of liquid and gaseous effluents (GENOCOV) Dept. of Chemical, Biological and Environmental Engineering,
+Universitat Auto`noma de Barcelona Bellaterra, 08193, Spain.
+E-mail address: david.gabriel@uab.cat (D. Gabriel).
+https://doi.org/10.1016/j.jenvman.2022.115002
+Received 26 November 2021; Received in revised form 2 March 2022; Accepted 29 March 2022
+Availableonline4April2022
+0301-4797/©2022TheAuthors.PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+a direct cause of human disease, long exposure to these odorants can the determination of emission rates and emissions factors of specific
+have adverse effects on people’s life quality, causing nausea, headaches, pollutants and odour are valuable information that can be further used
+insomnia and/or irrational behaviour (Lebrero et al., 2011; Zarra et al., to determine the environmental impact of a specific facility by applying
+2008). Main odour and odorants generation stages along the wastewater Life Cycle Analysis and dispersion modelling (Carrera-Chapela et al.,
+process have been identified as the wastewater collection, its transfer 2014). This information can be helpful in different scenarios such as to
+and its treatment (Carrera-Chapela et al., 2014). During this stages, understand the potential nuisance on the surroundings of an actual
+many different compounds can be formed and emitted due to diverse WWTP, to predict the effect on the surroundings of an operating WWTP
+reasons such as: i) the development of anoxic conditions in sewers by any process modification or even to estimate the potential impact on
+leading to hydrogen sulphide and sulphur-based organic compounds the surroundings of a new WWTP before its construction (Capelli et al.,
+formation and emission (Dincer and Muezzinoglu, 2007), ii) the turbu- 2009).
+lence generated at the reception tank of WWTP leading to the strip and Several works have reported emissions from different WWTP con-
+volatilization of compounds formed during the wastewater trans- figurations, focusing mainly on specific pollutants. For example, Dael-
+portation, iii) sludge treatment where anaerobic conditions can form man et al. (2013) and Masuda et al. (2015a) performed long-term
+new odorants or iv) sedimentation tanks where the calm flows and large studies to assess emissions of methane and nitrous oxide from two
+surfaces may promote the emission of compounds previously formed different full-scale WWTP with an activated sludge process, pointing out
+during the wastewater treatment. Different techniques have been the seasonal variability present on these emissions. On the other hand,
+applied in order to characterize and to assess odour impact from WWTP: the emission of volatile organic compounds has been studied by different
+high performance analytical techniques as gas chromatography coupled authors such as Li et al. (2021b, 2021a), who showed the evolution of
+to mass spectrometry (GC/MS) for the identification and quantification the emission of different volatile sulphur compounds along the waste-
+of odorants or sensorial techniques such as dynamic olfactometry water treatment in an A2/O process. However, there is a lack of studies
+(Comit´e Europ´een de Normalisation, 2003) or the use of portable de- that integrates global characterization of gaseous emissions from entire
+vices such as the Scentroid SM-100 olfactometer or the Nasal Ranger® WWTPs. In this sense, the present work provides a comprehensive
+(Kulig and Szyłak-Szydłowski, 2019), which are capable of quantifying analysis of gaseous emissions (GHG, VOCs, odorants and odour) in a
+odours in terms of intensity and/or concentration. This is better related WWTP with a particular configuration including membrane-based bio-
+to the sensation perceived by a human receptor (Capelli et al., 2013a; logical reactor. The aim of this work was to identify and characterize the
+Gonza´lez et al., 2019a). Moreover, new approaches have been devel- critical emission sources present in the studied WWTP before the
+oped in the direction of using multisensory arrays (often called eNoses) installation of a gas caption and treatment system and to verify the
+based on combination of specific and non-specific sensors to relate proper performance of this gas treatment system once installed. Subse-
+different odorants concentrations with odour concentration obtained quently, a characterization in terms of odour and odorants (mainly NH3,
+from sensorial analysis such as dynamic olfactometry, with the final aim H2S and total VOCs), specific VOCs and GHGs emission was conducted
+of obtaining an analytical device capable of substituting human noses to reveal the actual gaseous emissions generated during the wastewater
+and enhancing continuous field monitoring (Brattoli et al., 2011; Zarra treatment in this specific full-scale plant, which can be helpful infor-
+et al., 2014). mation for future environmental impact assessment studies.
+However, not only odorants can be found in the gaseous emissions
+generated during the wastewater treatment. Greenhouse gases (GHGs) 2. Materials and methods
+such as carbon dioxide, nitrous oxide or methane can be formed and
+emitted during the biological processes that take place during organic 2.1. Description of the wastewater treatment plant
+matter and nutrient removal (Massara et al., 2017). Normally, CO2 is
+produced during the wastewater treatment by the respiration of the The experimental site was an opened full-scale urban wastewater
+microorganisms that degrade organic matter, which concerns treatment plant located in Barcelona. The WWTP treats an average
+short-cycle CO2. As the CO2 generated is predominantly biogenic and wastewater inflow of 33,000 m3 d(cid:0) 1 with an average COD, TKN and P
+therefore climate neutral, it is not usually included in the CO2-balance inlet concentrations of 600 mg O2⋅L(cid:0) 1, 92 mg TKN⋅L(cid:0) 1 and 11 mg P⋅L(cid:0) 1,
+(Parravicini et al., 2016). On the other hand, N2O and CH4 are expected respectively. By using the Ludzack-Ettinger configuration with a mem-
+to be produced and emitted during the biological organic matter and brane bioreactor Technology (MBR), the WWTP accomplishes the spe-
+nutrient removal along the wastewater treatment, either through nitri- cific discharge legislation, reducing COD, TKN and P concentrations at
+fication and subsequent denitrification or in those parts of the WWTP the effluent in a percentage of 88%, 87.5% and 82%, respectively. The
+were anoxic/anaerobic conditions prevail, such as sewers or process study of the gaseous emissions was held between the years 2014 and
+units related to sewage sludge treatment (Daelman et al., 2012, 2013; 2018. Initially (2014), the WWTP did not counted with an off-gases
+Rodriguez-Caballero et al., 2014). Moreover, in terms of global warming caption and treatment system, which was installed and started up in
+potential (GWP), both nitrous oxide and methane represent much higher 2016. Before its installation, an identification and characterization of
+environmental impact than carbon dioxide. In the case of N2O, the last the most relevant emission sources of the WWTP was performed. Af-
+IPCC report fixed its GWP in 265 times the one of CO2 in a 100-year time terwards, the proper performance of the gas caption and treatment
+horizon, whereas in the case of CH4, its GWP was fixed as 28 times the system was verified by checking the removal efficiency of the treatment
+one of CO2 in the same 100-year time horizon (IPCC, 2014). train and by characterizing the current gaseous emissions of the WWTP
+In the direction of assessing the environmental impact of WWTPs, the in terms of odours, total and specific VOCs, NH3, H2S and GHGs.
+estimation of the emission factors for specific pollutants as well as for A scheme of the current WWTP is presented in Fig. 1, and all the
+odour is important, as it gives the first information about the quantity of treatment units under study are listed in Table 1. Briefly, the WWTP
+each of them that is being emitted during a treatment process. The consists of a wastewater primary treatment with a reception tank,
+emission factors were defined by the US Environmental Protection barscreens, a grit chamber and a primary settler, followed by a second
+Agency (USEPA) as the factors that relate the quantity of a pollutant step of biological removal of organic matter and nutrients using a
+released to the atmosphere to a specific activity related to the release of Ludzack-Ettinger process with an MBR. Finally, the sludge generated is
+that pollutant, such as the plant’s average wastewater inflow or the treated using two sludge thickeners before entering an anaerobic
+emitting surface amongst others (USEPA, 1995). Analogously, in the digester (AD). The digestate produced in the AD is further centrifuged in
+past years a similar methodology has been developed to assess the odour a dehydration building. On the other hand, in 2016, the gas treatment
+impact of different facilities by the use of the so-called odour emission system was designed and installed to treat 13,000 m3 h(cid:0) 1 of the off-gases
+factors (OEF) (Capelli et al., 2009; Sironi et al., 2005, 2006). Moreover, collected from the reception tank, the water screw, the barscreens
+2
+
+--- Page 3 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Fig. 1. Scheme of the wastewater treatment plant and the different sampling points defined (in blue lines: the wastewater line; in white lines: the gas line to the gas
+treatment system). (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)
+sources present in the WWTP before the installation of the gas treatment
+Table 1
+system, whereas four sampling campaigns were carried between April
+Treatment units monitored during the study (Y: monitored; N: not monitored).
+and August 2018 to verify the proper performance of this gas treatment
+Treatment unit Monitored 2013–2014 Monitored 2018 system once installed. During the sampling campaigns performed during
+Reception tank – Inlet Y Y 2013–2014, a gas sample was obtained from each of the units listed in
+Barscreens – Inlet Y N* Table 1 for total volatile organic compounds (tVOCs), NH3 and H2S
+Barscreens – Outlet Y Y emission determination as described in the following sections. On the
+Fat & sand removal (grit chamber) Y Y
+other hand, during the sampling campaigns carried out during 2018 a
+Primary settler Y Y
+MBR aerated N Y gas sample was obtained from each of the units under study (Table 1) for
+MBR non-aerated N Y the determination of tVOCs, NH3 and H2S emission, GHGs emission,
+Sludge thickener A Y N* odour emission and VOCs distribution as detailed in the subsequent
+Sludge thickener B Y N*
+sections.
+Sludge dehydration building A Y Y
+Biotrickling filter – Inlet A N Y All the emission sources registered in this study were defined as area
+Biotrickling filter – Inlet B N Y emission sources. As reported by different authors (Capelli et al., 2009;
+Biotrickling filter - Outlet N Y Laor et al., 2014), the determination of odour flow from area sources
+Biofilter - Outlet N Y requires the use of sampling hoods such as flux chambers or wind tun-
+*Covered with GRFP at that moment
+nels in order to simulate environmental conditions to which the emis-
+sion sources are normally subjected. In this case, the flux chamber (FC)
+building, the sludge thickeners, the primary settler overflow and the methodology, which is recommended by the USEPA (USEPA, 1986), was
+dehydration building. These treatment units were covered with fiber- used to obtain the different samples for further odour, methane and
+glass reinforced plastic (FRP) and different gas caption blowers were nitrous oxide concentration measure and VOCs characterization. The FC
+installed to drive the off-gases to the biological gas treatment system. used (Scentroid, IDES Canada Inc., Whitchurch-Stouffville, ON, Can-
+The gas treatment system consists of a biotrickling filter (BTF) followed ada), was a semi-spherical stainless-steel FC (0.443 m, 0.154 m2, 0.045
+by a biofilter (BF). The BTF has a total volume of 33 m3, using RVT m3 of base diameter, base area and volume, respectively) equipped with
+Bioflow 401 rings as packing material, targeting the biological removal stainless steel fittings and Teflon™ tubbing. Pure nitrogen was intro-
+of H2S of the gas stream (designed for a total load of 79 g H2S⋅m(cid:0) 3⋅h(cid:0) 1 duced inside the FC at a flow rate of 4.5 L min(cid:0) 1 during 25 min, which
+with an empty bed retention time of 4.5 s). A conventional biofilter (BF) represented about 3 FC residence times, to reach constant concentra-
+of 90 m3 with an empty bed retention time of 24.4 s and shredded poplar tions inside the FC before sampling. Eight litter Nalophan® bags, a
+wood as packing material targets the removal of any remaining H2S and hermetic sampling drum and a vacuum pump were used to obtain the
+basically the VOCs carried out in the gas stream. gaseous samples avoiding cross-contamination (Capelli et al., 2013a), as
+shown in Fig. 2.
+Adsorption stainless steel tubes packed with two different hydro-
+2.2. Gas sampling procedure phobic sorbents (Tenax® TA and Carbograph™ 1TD, Markes Interna-
+tional, Inc., Gold River, CA, USA) were used to obtain gaseous samples
+Six sampling campaigns were distributed between October 2013 and for VOCs characterization as detailed by the USEPA TO-17 method and
+September 2014 for the determination of the most relevant emissions
+3
+
+--- Page 4 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Fig. 2. Gas sampling from an area source using the USEPA flux chamber methodology.
+elsewhere (Gonza´lez et al., 2019b; Ramírez et al., 2011; USEPA, 1999). SM-100 ranges from 3.5 to 11,355 ou⋅m(cid:0) 3 and each sample was ana-
+A volume of 1 L of each specific gaseous sample retained in the Nalo- lysed the same sampling day two times by the same panellist in a
+phan® bags was pumped through an adsorption tube by means of an separated, closed and well-ventilated laboratory, taking 10 min between
+Easy-VOC manual sampling pump (Markes International, Inc., Gold analyses.
+River, CA, USA) to retain the different VOCs. According to the tubes’
+maker, the sorbents packed in the adsorption tubes are able to retain a 2.3.3. Greenhouse gases
+high range of VOCs, from polar to non-polar compounds such as aro- Methane and nitrous oxide analysis were performed by means of an
+matics compounds, ketones, aldehydes or alcohols. All the adsorption Agilent 6890N Gas Chromatograph (GC) (Agilent Technologies, Inc.,
+tubes used for retaining the different gaseous samples were sealed with Santa Clara, CA, USA). On one side, for methane analysis a flame ioni-
+Swagelock end caps fitted with PTFE ferrules and stored at 4 ◦C until the zation detector was used. A HP-PLOT Q semi-capillary column (30 m ×
+moment of analysis in the lab. 0.53 mm x 40.0 μm, Agilent Technologies, Inc.), with nitrogen as carrier
+gas at 2 psi pressure and a post-column particle trap (2 m, nº 5181-3352,
+Agilent Technologies, Inc.) were used. The injector temperature was
+2.3. Analytical methodology 240 ◦C, the detector temperature was 250 ◦C and the oven, which
+worked isothermally, was at 60 ◦C. The injection volume used for each
+2.3.1. Odorant compounds sample was 500 μL and the total time of analysis was 4 min. On the other
+The determination of ammonia, tVOCs and hydrogen sulphide con- hand, an electron capture detector was used for nitrous oxide analysis. A
+centration was obtained using different portable analysers. NH3 and H2S HP-PLOT Q semi-capillary column (30 m ×0.53 mm x 40.0 μm, Agilent
+concentration were measured by means of an iBrid™ MX6 multi-gas Technologies, Inc.), with nitrogen as carrier gas at 2 psi pressure and a
+monitor (Industrial Scientific Corporation, Pittsburgh, PA, USA), post-column particle trap (2 m, nº 5181-3352, Agilent Technologies,
+which had installed an electrochemical sensor for NH3 measurement Inc.) were used. The injector temperature was 120 ◦C, the detector
+with a detection range from 0 to 500 ppmv of NH3 and a resolution of 1 temperature was 345 ◦C and the oven, which worked isothermally, was
+ppmv, and an electrochemical sensor for H2S measurement with a at 60 ◦C. The injection volume used for each sample was 500 μL and the
+detection range from 0 to 500 ppmv of H2S and a resolution of 0.1 ppmv. total time of analysis was 6 min.
+For the calibration of each sensor, specific NH3 and H2S standard cali-
+bration gases of 25 ppm concentration were used (Calgaz™, TX, USA). 2.3.4. VOCs characterization
+tVOCs concentration was determined using a portable MiniRAE 3000 To perform the VOCs characterization and evaluate the presence of
+photoionization detector (PID) (RAE Systems, San Jos´e, CA, USA) with a different VOC families in the gaseous samples obtained, the methodol-
+detection range from 0 to 15,000 ppmveq isobutylene and a resolution of ogy proposed by (Gonz´alez et al., 2018, 2019a) was used. Briefly, a
+0.1 ppmveq isobutylene. For its calibration, a standard calibration gas of liquid VOCs custom mix solution was prepared with 35 standard com-
+100 ppm of isobutylene was used (Calgaz™, TX, USA). pounds in methanol, all obtained from Sigma-Aldrich Química SL
+(Madrid, Spain), considered as representative VOCs emitted through
+2.3.2. Odour analysis wastewater treatment processes (Godayol et al., 2013). From the VOCs
+Odour concentration analysis of the gaseous samples was performed custom mix solution, seven different dilutions were prepared for cali-
+using a Scentroid SM-100 portable field olfactometer (IDES Canada, bration, which was done by using a Calibration Solution Loading Rig
+Inc.) (Gonza´lez et al., 2019a). Briefly, the olfactometer, which is (Markes International, Inc.). A UNITY-2 thermal desorber (Markes In-
+factory-calibrated, works by diluting a fixed flow of clean non-odorous ternational, Inc.) was used to desorb the VOCs retained in the adsorption
+air with the odorous sample. This dilution is presented to the panel- tubes. Then, an Agilent 7820 GC coupled to an Agilent 5975 Mass
+list/s until a change in odour is detected. The calibration range of the
+4
+
+--- Page 5 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+spectrometer (MS) (Agilent Technologies, Inc.) was used to analyse and (Eq. (5)).
+characterize the different VOC present in each gaseous sample. Com- ∑
+pounds were identified by matching its mass spectra with the Wiley275 EF i,global= EF i (5)
+mass spectra library. All gaseous samples for VOC characterization were
+analysed before 7 days to preserve the stability of VOCs in the adsorp- 3. Results and discussion
+tion tubes (Ribes et al., 2007). A standard deviation of 5% was calcu-
+lated for all VOCs analysed. 3.1. Current odour and GHG emissions characterization
+3.1.1. Odorant and odour emissions
+2.4. Determination of the emission rates and the emission factors
+Fig. 3 presents the emission rates for the different odorant pollutants
+as well as for odour estimated during the sampling campaigns carried
+The methodology used for the determination of the emission factors
+out from April to August 2018. As it can be observed, the reception tank,
+was based on the measured pollutant, odour or GHGs concentration, the
+the outlet of the grit chamber and the primary settler were the main
+N2 flow introduced in the FC and normalized by a representative vari-
+emission sources found, being the last one the most significant. During
+able of the treatment process (Capelli et al., 2009). In this case, the daily
+these sampling campaigns, the higher concentrations measured for
+averaged wastewater inlet flow was used as the representative variable
+of the wastewater treatment process (m3⋅d(cid:0) 1). Since all the monitored tVOCs, NH3 and H2S were registered in different treatment units. Firstly,
+maximum tVOCs concentrations were measured in the reception tank
+emission sources were area sources without outward flow (passive area
+(1.9–2.3 ppmveq isobutylene). On the other hand, maximum NH3 con-
+sources), where the liquid surface is exposed to atmospheric perturba-
+centrations were registered in the barscreens outlet and the grit chamber
+tions, it is required the previous calculation of the so-called specific
+flem owis s ri ao tn r inat te ( dS uE cR e) d, iw nh toic th er e Fl Cat e as dth ie p so ul rl fu at ca en t rc eo an (c Ee qn .t r (a 1t )i )o .n T, hth e N rs2 i( n4 . t5 h– e7 p rp imm av N H se3 t) t. F ei rn sa ul rly fa, ct eh e 0h .i 6g –h 1e .r H p2 pS c vo n Hc 2e Sn )t r sa it mio in las w ae r ie o hb at sa bin eee nd
+p r y l ( 0 m , r s t
+e ro h n ts a e fi t
+reported before by other researchers (Dincer and Muezzinoglu, 2008;
+step was to obtain the emission rate of each specific pollutant at each
+Jeon et al., 2009). Besides, the greatest odour concentrations measured
+emission source (Eqs. (1) and (2)).
+were registered in the grit chamber and in the surface of the primary
+SER i=(C Ai F⋅ CF) (1) s he at vtl ee r r, pw oh ri tc eh w the ar te h2 e0 2 m5 a inn d d2 o5 r7 a8 to eu m⋅m is(cid:0) s3 io, nre ss op ue rc ct eiv se fl oy u. nM da dn uy is ntu gd ti he es
+e d t a o n r
+wastewater treatment correspond generally to the first steps of the
+where SERi is the specific emission rate of the pollutant i (mg⋅d(cid:0) 1⋅m(cid:0) 2 FC wastewater treatment such as the plant headworks or the primary set-
+or ou⋅d(cid:0) 1⋅m(cid:0) 2 FC); Ci is the measured concentration of the pollutant i tlers, and that these emissions decrease as the process goes forward
+(mg⋅m(cid:0) 3 or ou⋅m(cid:0) 3); F is the N2 flow introduced in the FC (m3⋅d(cid:0) 1); AFC (Carrera-Chapela et al., 2014). In fact, Capelli et al. (2009) studied the
+is the surface covered by the FC (m2). odour emissions from 17 Italian WWTP and reported that the major
+The specific emission rate is defined as a function of the velocity of odour emission sources were the pre-treatments and the primary set-
+the N2 stream introduced into the FC. Thus, in order to extrapolate the tlers, registering average odour concentrations from 1490 to 3840
+data obtained during sampling to real environmental conditions, the ou⋅m(cid:0) 3. This can be explained by the fact that primary settlers represent
+specific emission rate is normalized by the real wind velocity using Eq. a large emission source with a large surface area where wastewater re-
+(2), which is derived from the liquid-gas phase mass transfer phenomena mains calmed, and due to the high wastewater retention times and the
+described by the Prandlt boundary layer theory (Capelli et al., 2013b). settling of the organic/inorganic matter, anoxic/anaerobic conditions
+( v2) 1/2 can develop to promote formation of odorant compounds (Carrer-
+SER v2,i=SER v1,i⋅ (2) a-Chapela et al., 2014).
+v1
+Table 2 shows the average emission factors for tVOCs, NH3 and H2S,
+as well as the odour emission factor (OEF) obtained during the sampling
+where SERv2 is the normalized specific emission rate of the pollutant i
+for real environmental conditions (mg⋅d(cid:0) 1⋅m(cid:0) 2 FC or ou⋅d(cid:0) 1⋅m(cid:0) 2 FC); campaigns conducted in 2018. These are expressed in representative
+units to allow the comparison with the emission factors obtained from
+SERv1 is the specific emission rate of the pollutant i obtained from the FC
+measurement (mg⋅d(cid:0) 1⋅m(cid:0) 2 FC or ou⋅d(cid:0) 1⋅m(cid:0) 2 FC); v2 is the real wind ve- other WWTPs. The emission factors obtained were compared with the
+scarce literature found reporting full-scale WWTP emission factors. For
+locity over the emission surface, measured with a TSI 5725 anemometer
+(TSI Incorporated, Shoreview, MN, USA) (m⋅s(cid:0) 1); v1 is the N2 velocity example, Bell et al. (1988) performed a study on four different WWTP in
+bin es i cOd ae n ct ueh e at h tF eeC s b( pm ye c⋅ ms ifi(cid:0) u1 c l) te. pm lyis is ni go n r ea Ste Ris 2n ,o wrm ita hl i tz he ed , uth rfe ce em ois s ti ho en er mat ie sc ioa nn tO C r.⋅ en 1m at 5a t(cid:0) mr 3 0i io en .2, nf. to Z b cght a a pNi n an g ci n teg yt t oa (cid:0)V fl 3. O 1i(C .2 0e Ef1m +7 oi 0) ms 6s r i o e mpn o f ra dt le lc (cid:0)-dt 1o .r aas Flm uo m rf o h3 Wn e. r6 i Ta m0 PE oe - rm w0 e2 ,i s s Cht io oo ln o5 mm. f0 a ea0 c rxtE o i- emr0 ts2 o lg f
+lc l d i th E v i s a f s 0 – 9 a H i3 ⋅ m n 2f r a 3 fu s c e W t i t a u a m .
+source (Eq. (3)).
+(2012) reported average hydrogen sulphide emission factors of 2.50 and
+ER i=SER v2,i⋅A s (3) 1.90 g H2S⋅m(cid:0) 3 inf, for two different WWTP treating 61,821 and 38,962
+m3 d(cid:0) 1 of urban wastewater, respectively, which were obtained by
+where ERi is the emission rate of the pollutant i (mg⋅d(cid:0) 1 or ou⋅d(cid:0) 1); AS is merging experimental data with dispersion modelling. In contrast, Jeon
+the surface of the emitting source (m2). et al. (2009) found much lower emission factors for NH3 and H2S
+Once the emission rates of each specific pollutant are calculated, the (9.48E-04 g NH3⋅m(cid:0) 3 inf and 7.40E-05 g H2S⋅m(cid:0) 3 inf), what could be
+emission factor can be estimated by normalizing the emission rate by the influenced by the fact that the estimated emission rates were not
+average daily wastewater inlet flow, as shown by Eq. (4). normalized by the real environmental conditions. In terms of odour
+ER emission, Capelli et al. (2009) studied different Italian WWTP (with
+EF i= Ii (4) treatment capacities from 1000 to 800,000 m3 d(cid:0) 1) and reported
+average OEF from 2.20E+04 to 1.82E+05 ou⋅m(cid:0) 3 inf, highlighting the
+where EFi is the emission factor of the pollutant i (mg⋅m(cid:0) 3 influent or ou⋅ contribution to global OEF of the first stages of the WWTP.
+m(cid:0) 3 influent); I is the plant’s average daily wastewater influent
+(m3 influent⋅d(cid:0) 1). 3.1.2. GHGs emissions
+Finally, a global emission factor for each specific pollutant can be Fig. 4 shows the estimated emission rates for methane and nitrous
+estimated by adding each emission factor referred to each treatment unit oxide in the different treatment units during the sampling campaigns
+5
+
+--- Page 6 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Fig. 3. Emission rates obtained in the different monitoring points during the sampling campaigns for (a) total volatile organic compounds, (b) ammonia, (c)
+hydrogen sulphide and (d) odour.
+volatilization of the dissolved CH4 present in the influent. However, it
+Table 2
+has been reported that the main CH4 emission sources are related to
+Average emission factors for tVOCs, NH3, H2S and odour (OEF).
+sewage sludge line units (Campos et al., 2016) such as sewage sludge
+tVOCs g C⋅kg¡1 TOCinf g C⋅m¡3 inf anaerobic digestion, which was present in the actual WWTP. During
+1.84E-01 1.66E-02
+NH3 g NH3⋅kg¡1 TNinf g NH3⋅m¡3 inf anaerobic digestion, some of the CH4 formed by methanogens remains
+dissolved in the anaerobically digested sludge and pumped back to the
+1.84 1.70E-01
+H2S g H2S⋅m¡3 inf water line as reject water after the dehydration step. In the specific
+5.08E-02 WWTP under study, the reject water is recirculated to the barscreens
+Odour ou⋅m¡3 inf entrance. This fact, together with the high turbulence created by the
+9.90E+04
+blowers used in the grit chamber, can explain the significant emission of
+CH4 observed at this point of the WWTP. Moreover, the CH4 emission
+conducted from April to August 2018. As it can be observed, different observed in the primary settler can be explained by the fact that
+potential GHG emission sources were found for methane and nitrous anaerobic conditions were created there, as reported elsewhere (Dael-
+oxide. CH4 emissions were mainly observed at the inlet of the reception man et al., 2012). These findings contrast with what is reported by the
+tank, the outlet of the grit chamber and in the primary settler, registering IPCC (2014), which does not take into account ordinary units such as
+maximum CH4 concentrations from 12.8 to 171.0 ppmv. During waste- sedimentation tanks as methane emission sources. On the other hand,
+water transportation, it is known that anaerobic environment can be the MBR was the main emission source of N2O, measuring maximum
+formed in sewers and some methane as well as VOCs and other odorants concentrations up to 140.8 ppmv. As it has been reported by different
+and GHG can be formed and emitted (Guisasola et al., 2008). Part of this researchers, most of the N2O emitted from the wastewater treatment
+CH4 can be dissolved in the wastewater and reach the WWTP. Thus, the processes comes from aeration tanks during nitrification at low dis-
+emission of methane in the reception tank can be explained by the solved oxygen concentrations and subsequent denitrification (Daelman
+6
+
+--- Page 7 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Table 3
+Average CH4 and N2O emission factors.
+CH4 g CH4⋅kg¡1 TOCinf g CH4⋅m¡3 inf g CO2eq⋅m¡3 inf
+4.63 4.24E-01 11.86
+N2O g N2O⋅kg¡1 TNinf g N2O⋅m¡3 inf g CO2eq⋅m¡3 inf
+3.12 3.36E-01 89.10
+GHG g CO2eq⋅m¡3 inf
+100.96
+emissions generated in different WWTP due to the existing influence of
+operational conditions such as loading rate or temperature, some simi-
+larities have been found. For example, the results obtained in this work
+were significantly lower in terms of CH4 and CO2 equivalent compared
+to previous studies. Masuda et al. (2015b), reported total average
+emission factors of 1.15 g CH4⋅m(cid:0) 3 inf, 0.39 g N2O⋅m(cid:0) 3 inf and 146.10 g
+CO2eq⋅m(cid:0) 3 inf from a WWTP with conventional activated sludge process
+as biological reactor that treats and average inlet flow of 327,178 m3
+d(cid:0) 1. On the other hand, Daelman et al. (2013) reported higher average
+emission factors for both pollutants from a WWTP based on a conven-
+tional Ludzack-Ettinger that treats the domestic wastewater of 360,000
+population equivalents, being 3.32 g CH4⋅m(cid:0) 3 inf, 1.62 g N2O⋅m(cid:0) 3 inf and
+521.04 g CO2eq⋅m(cid:0) 3 inf. Thus, an MBR-based configuration for the
+removal of nitrogen and organic matter may result in lower emissions of
+GHG.
+In addition, Mannina et al. (2019) reported direct GHG emission
+factors of 140–940 g CO2eq⋅m(cid:0) 3 inf from different simulation scenarios of
+a real WWTP treating 60,000 m3 d(cid:0) 1 of real wastewater, what highlights
+the great influence of different operational parameters on the emission
+of both methane and nitrous oxide.
+3.1.3. VOCs characterization
+Fig. 5 shows the distribution of the VOC families that were found in
+the gaseous samples obtained from the different emission sources of the
+WWTP during the sampling campaign in August 2018. The VOCs char-
+acterization was made by comparing the VOCs identified in the seven
+different gaseous samples. More than 150 compounds were identified
+among the different samples, which presented at least 90% mass spectra
+matching with the Wiley275 mass spectra library consulted, and then
+classified into the following VOC categories: acetals, alcohols, alde-
+hydes, alkanes, alkenes, aromatic hydrocarbons, carboxylic acids, esters,
+ethers, halogenated hydrocarbons, ketones, nitrogenated compounds,
+phenols, siloxanes, sulphur compounds and terpenes. The compounds
+that did not reach this matching level were categorized as “others”.
+As it can be observed in Fig. 5, a high variability was observed in the
+distribution of the VOC families found in the different emission sources.
+From all of them, many different alkanes (mainly hexane, pentam-
+ethylheptane, nonane or dodecane), aromatic hydrocarbons (mainly
+BTEX) and esters were the most abundant (Wu et al., 2006), repre-
+senting from 25% to 70% of the VOC families found. Moreover, typical
+VOCs families found in the gaseous emissions generated in WWTPs were
+present in lower abundance (between 4% and 20%), such as ketones
+Fig. 4. Emission rates obtained in the different monitoring points during the
+(2-propanone and cyclopentanone) and organosulphur compounds
+sampling campaigns for (a) methane and (b) nitrous oxide.
+(DMS and DMDS). However, even though appearing in lower abun-
+dance, these last families are more likely to produce odour nuisance due
+et al., 2013; Rodriguez-Caballero et al., 2015), although other emission
+to their low odour detection thresholds (Dincer and Muezzinoglu, 2008;
+sources and processes inside the wastewater treatment can be associated
+Wu et al., 2006).
+(Kampschreur et al., 2009). For example, in the work reported herein,
+some N2O emissions were also found at the outlet of the grit chamber in
+low concentrations (0.6–1.1 ppmv). 3.2. Efficiency of the gas treatment system
+Table 3 presents the average CH4 and N2O emission factors obtained
+during the sampling campaigns conducted in 2018, expressed in From October 2013 to September 2014, different monitoring cam-
+different representative units to allow comparison with the emissions of paigns were conducted to assess the critical emission sources of the
+other WWTP. The emission factors for CH4 (0.42 g CH4⋅m(cid:0) 3 inf), N2O WWTP, to propose and implement the current gas treatment system.
+(0.34 g N2O m(cid:0) 3 inf) and global GHG (101 g CO2eq⋅m(cid:0) 3 inf) have been Fig. 6 shows the estimated emission rates of each specific pollutant for
+compared with other studies conducted in full-scale WWTPs. Even the different points of the WWTP under study during the previous
+though the high variability observed in the estimation of the GHG sampling campaigns. As it can be observed, the most important emission
+sources were found to be the inlet of the barscreens room, the surface of
+7
+
+--- Page 8 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Fig. 5. VOCs characterization from different emission sources performed during the sampling campaign of August 2018.
+the primary settler, the sludge thickeners and the dehydration building. obtain global elimination percentages of 99.6% and 98.7% for H2S and
+However, a clear variability was observed during the different sampling tVOCs, respectively.
+campaigns, depending on the operation of the WWTP and the season
+when the campaigns were performed. Fig. 6a shows the emission rates 4. Conclusions
+estimated for tVOCs on the different sampling points of the WWTP.
+Clearly, the inlet section of the barscreens building, the primary settler By performing the sampling campaigns during 2014, it was
+overflow, the sludge thickeners and the sludge dehydration building concluded that the potential emission sources of tVOCs, NH3 and H2S
+were the main tVOCs emission sources from the WWTP, where were the reception tank, the inlet of the barscreens building, the primary
+maximum concentrations from 0.4 to 5.8 ppmveq isobutylene were settler and the dehydration building. This information led to the
+registered. For NH3 and H2S (Fig. 6b and c) similar patterns were installation of a gas caption and treatment system to minimize these
+observed, where the main emission sources corresponded to the inlet gaseous emissions. Subsequently, the elimination efficiency of the gas
+section of the barscreens building and the primary settler overflow, with treatment system was assessed, obtaining H2S and tVOCs elimination
+the difference that H2S was also found in the sludge dehydration percentages of 99.6% and 98.7%, respectively. In a later stage, the
+building (Dincer and Muezzinoglu, 2008). Maximum NH3 and H2S emission factors of tVOCs, NH3, H2S, odour, CH4 and N2O were esti-
+concentrations measured varied from 1.0 to 7.0 ppmv NH3 and from 0.5 mated, observing that the main odour emission sources corresponded to
+to 9.1 ppmv H2S, respectively. It should be commented that there was a the first units of the wastewater treatment process, whereas the main
+high variability in the measurements performed during the different GHG emission sources are focused on the biological organic matter and
+sampling campaigns, where standard deviation of the data obtained for nutrient removal units. However, a high temporal variability of the
+each of the units studied were on the same order of magnitude of the gaseous emissions was observed.
+mean values for each specific compound measured (mean value and Besides, a chemical characterization of the VOCs present in the
+standard deviation of the emission rates for all the units monitored gaseous emissions was conducted, which showed the high variability of
+among all sampling campaigns were 53.76 g C⋅h(cid:0) 1 ±116.42 for tVOCs, VOCs that are found in the gaseous emissions generated during the
+69.17 g NH3⋅h(cid:0) 1 ±115.32 for ammonia and 137.10 g H2S⋅h(cid:0) 1 ±295.63 wastewater depuration cycle.
+for hydrogen sulphide, respectively). Finally, it is important to point out that despite the fact that the
+With the information gathered during the previous sampling cam- emission of diverse pollutants has been studied during the last years by
+paigns performed during 2014 and knowing which were the critical different researchers, their representative estimation is still hampered
+emission sources of the WWTP, a gas treatment system was designed and by the wide variability found in the different WWTPs due to the strong
+implemented to minimize the environmental impact of the wastewater influence of different operation conditions (loading rate, dissolved ox-
+treatment process. The efficiency of this gas treatment system was ygen or temperature) and the different WWTP configurations. In this
+evaluated by measuring the inlet and outlet flows and concentrations of case an MBR configuration indicated that GHG emissions may be lower
+both H2S and tVOCs. Table 4 presents the inlet and outlet measured than conventional aeration WWTPs. Moreover, extensive sampling
+concentration of both H2S and tVOCs (in ppmv) together with the campaigns should be specifically designed and conducted to obtain
+respective elimination efficiency for each treatment step and for the more robust data that could be lately used to steadily mitigate these
+global treatment, respectively. It was observed that during the BTF step, emissions and their related environmental impact.
+hydrogen sulphide was eliminated in more than 95%, whereas at least
+an 87.5% of the tVOCs were eliminated in the same operation. This
+CRediT author statement
+difference appeared due to the easy solubilisation of H2S in water in
+contrast to tVOCs, which are compounds characterised by their high Daniel Gonza´lez: Conceptualization, Methodology, Formal anal-
+volatility and low solubility in water (Pennerman et al., 2016). For this
+ysis, Investigation, Data Curation, Writing - Original Draft, Visualiza-
+reason, a conventional BF was installed after the BTF. It was observed tion. Joan Colo´n: Validation, Formal analysis, Investigation,
+that with the conventional BF, at least an 89% and a 90% of the Supervision. Antoni Sa´nchez: Validation, Formal analysis, Resources,
+remaining H2S and tVOCs, respectively, were eliminated to finally
+Writing - Review & Editing, Supervision, Funding acquisition. David
+8
+
+--- Page 9 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+Table 4
+Elimination efficiency of the gas treatment system for H2S and tVOCs.
+Average Worst scenario
+H2S (ppmv) tVOCs H2S tVOCs
+(ppmv) (ppmv) (ppmv)
+BTF inlet 1.80 ± 0.53 ±0.42 2.50 0.80
+0.92
+BTF outlet 0.00 ± 0.03 ±0.07 0.09 0.10
+0.00
+BF outlet 0.00 ± 0.00 ±0.00 0.01 0.01
+0.00
+Average Worst scenario
+H2S tVOCs H2S tVOCs
+% BTF elimination 100 95.3 96.4 87.5
+% BF elimination – 100 88.9 90.0
+% global 100 100 99.6 98.7
+elimination
+Gabriel: Conceptualization, Methodology, Resources, Writing - Review
+& Editing, Supervision, Project administration, Funding acquisition
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influence
+the work reported in this paper.
+Acknowledgements
+Joan Colo´n has received funding from the 2018 call for Ramo´n y
+Cajal grants from the Ministry of Science, Innovation and Universities
+(ref. RYC-2018-026231-I) co-financed by the State Research Agency and
+the European Social Fund.
+The authors would like to thank Grup Cassa, Adolfo Pino, Alex
+Rodero and all the wastewater treatment plant staff for their kindness
+and their interest on this work.
+Appendix A. Supplementary data
+Supplementary data to this article can be found online at https://doi.
+org/10.1016/j.jenvman.2022.115002.
+References
+Bell, J., Melcer, H., Monteith, H., Osinga, I., Steel, P., 1988. Stripping of volatile organic
+compounds at full-scale municipal wastewater treatment plants. Water Environ. Res.
+65, 708–716. https://doi.org/10.2175/WER.65.6.2.
+Brattoli, M., de Gennaro, G., de Pinto, V., Loiotile, A.D., Lovascio, S., Penza, M., 2011.
+Odour detection methods: olfactometry and chemical sensors. Sensors. https://doi.
+org/10.3390/s110505290.
+Campos, J.L., Valenzuela-Heredia, D., Pedrouso, A., Val Del Río, A., Belmonte, M.,
+Mosquera-Corral, A., 2016. Greenhouse gases emissions from wastewater treatment
+plants: minimization, treatment, and prevention. J. Chem. https://doi.org/10.1155/
+2016/3796352, 2016.
+Capelli, L., Sironi, S., del Rosso, R., C´entola, P., 2009. Predicting odour emissions from
+wastewater treatment plants by means of odour emission factors. Water Res. 43,
+1977–1985. https://doi.org/10.1016/j.watres.2009.01.022.
+Capelli, L., Sironi, S., del Rosso, R., 2013a. Odor sampling: techniques and strategies for
+the estimation of odor emission rates from different source types. Sensors 13,
+938–955. https://doi.org/10.3390/s130100938.
+Capelli, L., Sironi, S., del Rosso, R., 2013b. Odor sampling: techniques and strategies for
+the estimation of odor emission rates from different source types. Sensors 13,
+938–955. https://doi.org/10.3390/s130100938.
+Carrera-Chapela, F., Donoso-Bravo, A., Souto, J.A., Ruiz-Filippi, G., 2014. Modeling the
+Odor Generation in WWTP: an Integrated Approach Review. Water, Air, and Soil
+Fig. 6. Emission rates obtained in the different monitoring points during the
+Pollution. https://doi.org/10.1007/s11270-014-1932-y.
+sampling campaigns of 2014 (before the installation of the gas treatment sys- Colomer, F.L., Morato´, H.E., Iglesias, E.M., 2012. Estimation of hydrogen sulfide
+tem) for (a) total volatile organic compounds, (b) ammonia and (c) emission rates at several wastewater treatment plants through experimental
+hydrogen sulphide. concentration measurements and dispersion modeling. J. Air Waste Manag. Assoc.
+62, 758–766. https://doi.org/10.1080/10962247.2012.674008.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van
+Loosdrecht, M.C.M., 2012. Methane emission during municipal wastewater
+9
+
+--- Page 10 ---
+D. Gonza´lez et al. J o u r n a l o f E n v i r o n m e n t a l M a n a g e m e n t 313(2022)115002
+treatment. Water Res. 46, 3657–3670. https://doi.org/10.1016/j. Massara, T.M., Malamis, S., Guisasola, A., Baeza, J.A., Noutsopoulos, C., Katsou, E.,
+watres.2012.04.024. 2017. A review on nitrous oxide (N2O) emissions during biological nutrient removal
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, L.G.J.M., Volcke, E.I.P., van from municipal wastewater and sludge reject water. Sci. Total Environ. 596–597,
+Loosdrecht, M.C.M., 2013. Methane and nitrous oxide emissions from municipal 106–123. https://doi.org/10.1016/j.scitotenv.2017.03.191.
+wastewater treatment - results from a long-term study. Water Sci. Technol. 67, Masuda, S., Suzuki, S., Sano, I., Li, Y.Y., Nishimura, O., 2015a. The seasonal variation of
+2350–2355. https://doi.org/10.2166/wst.2013.109. emission of greenhouse gases from a full-scale sewage treatment plant. Chemosphere
+Dincer, F., Muezzinoglu, A., 2007. Odor determination at wastewater collection systems: 140, 167–173. https://doi.org/10.1016/j.chemosphere.2014.09.042.
+olfactometry versus H2S analyses. Clean. https://doi.org/10.1002/clen.200700057. Masuda, S., Suzuki, S., Sano, I., Li, Y.Y., Nishimura, O., 2015b. The seasonal variation of
+Dincer, F., Muezzinoglu, A., 2008. Odor-causing volatile organic compounds in emission of greenhouse gases from a full-scale sewage treatment plant. Chemosphere
+wastewater treatment plant units and sludge management areas. Journal of 140, 167–173. https://doi.org/10.1016/j.chemosphere.2014.09.042.
+Environmental Science and Health - Part A Toxic/Hazardous Substances and Parravicini, V., Svardal, K., Krampe, J., 2016. Greenhouse gas emissions from wastewater
+Environmental Engineering 43, 1569–1574. https://doi.org/10.1080/ treatment plants. Energy Proc. 97, 246–253. https://doi.org/10.1016/j.
+10934520802293776. egypro.2016.10.067.
+Comit´e Europ´een de Normalisation, 2003. EN 13725, 2003. Air Quality – Determination Pennerman, K.K., Al-Maliki, H.S., Lee, S., Bennet, J.W., 2016. Chapter 7: fungal volatile
+of Odour Concentration by Dynamic Olfactometry. organic compounds (VOCs) and the genus Aspergillus. In: New and Future
+Frechen, F.B., 1988. Odour emissions and odour control at wastewater treatment plants Developments in Microbial Biotechnology and Bioengineering, New and Future
+in west Germany. Water Sci. Technol. 20, 261–266. https://doi.org/10.2166/ Developments in Microbial Biotechnology and Bioengineering. Elsevier. https://doi.
+wst.1988.0175. org/10.1016/C2014-0-00092-5.
+Godayol, A., Marc´e, R.M., Borrull, F., Antico˜, E., Sanchez, J.M., 2013. Development of a Ramírez, N., Marc´e, R.M., Borrull, F., 2011. Determination of volatile organic
+method for the monitoring of odor-causing compounds in atmospheres surrounding compounds in industrial wastewater plant air emissions by multi-sorbent adsorption
+wastewater treatment plants. J. Separ. Sci. https://doi.org/10.1002/ and thermal desorption-gas chromatography-mass spectrometry. Int. J. Environ.
+jssc.201300046. Anal. Chem. 91, 911–928. https://doi.org/10.1080/03067310903584073.
+Gonza´lez, D., Colo´n, J., Sa´nchez, A., Gabriel, D., 2018. Evaluation of the odorous Ribes, A., Carrera, G., Gallego, E., Roca, X., Berenguer, M.J., Guardino, X., 2007.
+compounds emitted in a full-scale sewage sludge composting plant and its Development and validation of a method for air-quality and nuisance odors
+relationship with the biological stability. Chemical Engineering Transactions 68. monitoring of volatile organic compounds using multi-sorbent adsorption and gas
+https://doi.org/10.3303/CET1868030. chromatography/mass spectrometry thermal desorption system. J. Chromatogr. A
+Gonza´lez, D., Colo´n, J., Sa´nchez, A., Gabriel, D., 2019a. A systematic study on the VOCs 1140, 44–55. https://doi.org/10.1016/j.chroma.2006.11.062.
+characterization and odour emissions in a full-scale sewage sludge composting plant. Rodriguez-Caballero, A., Aymerich, I., Poch, M., Pijuan, M., 2014. Evaluation of process
+J. Hazard Mater. 373, 733–740. https://doi.org/10.1016/j.jhazmat.2019.03.131. conditions triggering emissions of green-house gases from a biological wastewater
+Gonza´lez, D., Guerra, N., Colo´n, J., Gabriel, D., Ponsa´, S., Sa´nchez, A., 2019b. Filling in treatment system. Sci. Total Environ. 493, 384–391. https://doi.org/10.1016/j.
+sewage sludge biodrying gaps: greenhouse gases, volatile organic compounds and scitotenv.2014.06.015.
+odour emissions. Bioresour. Technol. 291, 121857. https://doi.org/10.1016/j. Rodriguez-Caballero, A., Aymerich, I., Marques, R., Poch, M., Pijuan, M., 2015.
+biortech.2019.121857. Minimizing N2O emissions and carbon footprint on a full-scale activated sludge
+Gostelow, P., Parsons, S.A., Stuetz, R.M., 2001. Odour measurements for sewage sequencing batch reactor. Water Res. 71, 1–10. https://doi.org/10.1016/j.
+treatment works. Water Res. 35, 579–597. watres.2014.12.032.
+Guisasola, A., de Haas, D., Keller, J., Yuan, Z., 2008. Methane formation in sewer Sironi, S., Capelli, L., C´entola, P., Del Rosso, R., Il Grande, M., 2005. Odour emission
+systems. Water Res. 42, 1421–1430. https://doi.org/10.1016/j.watres.2007.10.014. factors for assessment and prediction of Italian MSW landfills odour impact. Atmos.
+IPCC, 2014. Climate Change 2014: Synthesis Report. Contribution of Working Groups I, Environ. 39, 5387–5394. https://doi.org/10.1016/j.atmosenv.2005.05.023.
+II and III to the Fifht Assessment Report of the Intergovernmental Panel on Climate Sironi, S., Capelli, L., C´entola, P., Del Rosso, R., Il Grande, M., 2006. Odour emission
+Change. IPCC, Geneva, Switzerland. factors for the prediction of odour emissions from plants for the mechanical and
+Jeon, E.C., Son, H.K., Sa, J.H., 2009. Emission characteristics and factors of selected biological treatment of MSW. Atmos. Environ. 40, 7632–7643. https://doi.org/
+odorous compounds at a wastewater treatment plant. Sensors 9, 311–329. https:// 10.1016/j.atmosenv.2006.06.052.
+doi.org/10.3390/s90100311. USEPA, 1986. Measurement of Gaseous Emission Rates from Land Surfaces Using an
+Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S.M., van Loosdrecht, M.C. Emission Isolation Flux Chamber. Radian Corporation, TX, USA. User’s guide.
+M., 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43, USEPA, 1995. Compilation of Air Pollutant Emission Factors, AP-42 In: Stationary point
+4093–4103. https://doi.org/10.1016/j.watres.2009.03.001. and area sources, fifth ed., vol. 1. Research Triangle Park, NC, USA.
+Kulig, A., Szyłak-Szydłowski, M., 2019. Assessment of the Effects of Wastewater USEPA, 1999. Compendium Method TO-17 - Determination of Volatile Organic
+Treatment Plant Modernization by Means of the Field Olfactometry Method. Water Compounds in Ambient Air Using Active Sampling onto Sorbent Tubes.
+(Switzerland) 11. https://doi.org/10.3390/w11112367. Compendium of Methods for the Determination of Toxic Organic Compounds in
+Laor, Y., Parker, D., Pag´e, T., 2014. Measurement, prediction, and monitoring of odors in Ambient Air, 2nd Edition. United States Environmental Protection Agency, OH, USA.
+the environment: a critical review. Rev. Chem. Eng. 30, 139–166. https://doi.org/ Wu, B.Z., Feng, T.Z., Sree, U., Chiu, K.H., Lo, J.G., 2006. Sampling and analysis of
+10.1515/revce-2013-0026. volatile organics emitted from wastewater treatment plant and drain system of an
+Lebrero, R., Bouchy, L., Stuetz, R., Muǹoz, R., 2011. Odor Assessment and Management industrial science park. Anal. Chim. Acta 576, 100–111. https://doi.org/10.1016/j.
+in Wastewater Treatment Plants: A Review. Critical Reviews in Environmental aca.2006.03.057.
+Science and Technology. https://doi.org/10.1080/10643380903300000. Zarra, T., Naddeo, V., Belgiorno, V., Reiser, M., Kranert, M., 2008. Odour monitoring of
+Li, R., Han, Z., Shen, H., Qi, F., Ding, M., Song, C., Sun, D., 2021a. Emission small wastewater treatment plant located in sensitive environment. Water Sci.
+characteristics of odorous volatile sulfur compound from a full-scale sequencing Technol. 58, 89–94. https://doi.org/10.2166/wst.2008.330.
+batch reactor wastewater treatment plant. Sci. Total Environ. 776 https://doi.org/ Zarra, T., Reiser, M., Naddeo, V., Belgiorno, V., Kranert, M., 2014. Odour emissions
+10.1016/j.scitotenv.2021.145991. characterization from wastewater treatment plants by different measurement
+Li, R., Han, Z., Shen, H., Qi, F., Sun, D., 2021b. Volatile sulfur compound emissions and methods. Chemical Engineering Transactions 40, 37–42. https://doi.org/10.3303/
+health risk assessment from an A2/O wastewater treatment plant. Sci. Total Environ. CET1440007.
+794 https://doi.org/10.1016/j.scitotenv.2021.148741. Zhang, C., Geng, X., Wang, H., Zhou, L., Wang, B., 2017. Emission factor for atmospheric
+Mannina, G., Rebouças, T.F., Cosenza, A., Chandran, K., 2019. A plant-wide wastewater ammonia from a typical municipal wastewater treatment plant in South China.
+treatment plant model for carbon and energy footprint: model application and Environ. Pollut. 220, 963–970. https://doi.org/10.1016/j.envpol.2016.10.082.
+scenario analysis. J. Clean. Prod. 217, 244–256. https://doi.org/10.1016/j.
+jclepro.2019.01.255.
+10

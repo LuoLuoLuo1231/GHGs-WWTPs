@@ -1,0 +1,627 @@
+--- Page 1 ---
+JournalofWaterProcessEngineering54(2023)103935
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Improvement of air flowrate distribution in the nitrification reactor of the
+waste water treatment plant by effluent quality, energy and greenhouse gas
+emissions optimization via artificial neural networks models
+´ ´
+Norbert-Botond Mihaly, Alexandra-Veronica Luca, Melinda Simon-Varhelyi,
+Vasile Mircea Cristea*
+Faculty of Chemistry and Chemical Engineering, Babes-Bolyai University of Cluj-Napoca, 11 Arany Ja´nos Street, 400028 Cluj-Napoca, Romania
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater Treatment Plants (WWTPs) optimal operation is vital for sustainable wastewater management.
+Air distribution control Nonlinear autoregressive networks with exogenous inputs and architectures optimized by genetic algorithms
+Dynamic artificial neural network (GA-NARX) were used to model energy consumption, effluent quality (EQ), and greenhouse gas (GHG) emissions.
+Genetic algorithms
+The GA-NARX were fed with 7 influent and operational variables, and were individually trained to predict 10
+Effluent quality
+effluent variables and the performance indices. The mean absolute percentage error at prediction varied between
+Greenhouse gas emissions
+1.136 % and 21.460 %. The developed models were employed in WWTP operation optimization by unevenly
+Spent energy optimization
+distributing airflow in the aerated bioreactor. Multi-objective optimization of energy demand, EQ, and GHG
+emissions was used to search for the best values of the air distribution factors. Two optimization cases were
+investigated, the first working with EQ predicted values, while in the second case effluent concentrations were
+also predicted to calculate EQ and reveal the pollution loading limits violation. Selected solutions decreased the
+performance indices. The largest improvements were 2.01 %, 0.28 %, and 1.14 % for energy demand, EQ, and
+GHG emissions. The NARX models succeeded to efficiently model the WWTP main variables, predict perfor-
+mance indices and provide valuable support for operation optimization, leading to diminished energy con-
+sumption, improved effluent quality and reduced greenhouse gas emissions.
+45–75 %, consequently being a major portion of the overall operational
+1. Introduction costs [7]. For example, in Greece WWTPs the share of aeration process
+from the total energy requirements was reported as 67.2 % on average
+Water and electricity systems are of paramount importance to the [8], demonstrating the importance of improving the operation of the
+modern society. Reliable water and power supply are crucial elements aerated process in terms of energy efficiency. Additionally, the aeration
+for national security and human sustainable development. By the year of unit-process accounts for the majority of on-site GHG emissions ac-
+2025 water supply might turn out to be one of the most serious national cording to [9].
+concerns based on reported predictions [1]. One of the typical cases for As a result, several studies aiming the improvement of WWTP
+water-energy interactions are the wastewater treatment plants operation focused on the aerobic digestion process, decreasing energy
+(WWTPs). At present, environmental and climatic changes are in the consumption for aeration being one of the main strategies with high
+focus of worldwide attention [2]. In recent years, focus has shifted from perspectives for achieving carbon neutral WWTPs [10]. The most
+improving effluent quality to addressing challenges concerning energy common approach is the performance enhancement of the dissolved
+management, greenhouse gas (GHG) emissions of WWTPs [3] and re- oxygen (DO) control system or optimization of its associated controller’s
+sources recovery [4]. These plants consume considerable amounts of setpoint. Qambar & al Khalidy used machine learning methods to
+energy, estimated to be responsible for 1 % to 3 % of the global energy dynamically optimize the DO setpoint concluding that energy savings of
+consumption [5]. The energy usage of the wastewater treatment process 23 % could be achieved by implementing the optimized DO setpoints in
+is also the main contributor to the of WWTP operation costs [6]. Of the a WWTP [11]. Piotrowski et al., optimized the DO controller parameters
+total energy consumption, the aeration process of WWTPs accounts for in case of a batch-type biological treatment plant using stochastic
+* Corresponding author.
+E-mail address: mircea.cristea@ubbcluj.ro (V.M. Cristea).
+https://doi.org/10.1016/j.jwpe.2023.103935
+Received 24 March 2023; Received in revised form 4 June 2023; Accepted 14 June 2023
+Availableonline17June2023
+2214-7144/©2023ElsevierLtd.Allrightsreserved.
+
+--- Page 2 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Nomenclature V volume of the aerated reactors
+x model output
+Subscripts y desired output
+i influent YH heterotrophic biomass yield
+e effluent η ASP removal of biodegradable COD in the activated sludge
+reactors
+Symbols
+bCOD biodegradable COD Abbreviations
+eD energy demand AE Aeration Energy
+EFe emission factor of N2O from the treated wastewater AI Artificial Intelligence
+EFN2O N2O emission factor ANN Artificial Neural Network
+KLa mass transfer coefficient in aerated bioreactor BOD5 Biological Oxygen Demand
+kPG GHG emission intensity of electricity generation BSM1 Benchmark Simulation Model No. 1
+GWPCH4 Global Warming Potential of CH4 relative to CO2 COD Chemical Oxygen Demand
+GWPN2O Global Warming Potential of N2O relative to CO2 DO Dissolved Oxygen
+Ndata number of data points EQ Effluent Quality
+Ne total mass of nitrogen in the WWTP effluent GA Genetic Algorithm
+PCO2,on(cid:0)site GHG emissions due to aerobic biological processes GHG GreenHouse Gas
+PCO2,off(cid:0)site GHG emissions due to net energy consumption GWP Global Warming Potential
+PN2O,on(cid:0)site GHG emissions due to N2O release in the aerobic logsig logistic sigmoid transfer function
+biological processes MAPE Mean Absolute Percentage Error
+PN2O,off(cid:0)site GHG emissions due to N2O produced in the downstream MCRT Mean Cell Residence Time
+of the WWTP NARX Nonlinear AutoRegressive network with eXogenous input
+PUBOD5 pollution due to effluent BOD5 NHeHL Number of Hidden neurons in each Hidden Layer
+PUCOD pollution due to effluent COD NHL Number of Hidden Layers
+PUNO pollution due to effluent NO NO nitrate and nitrite Nitrogen
+PUTKN pollution due to effluent TKN PE Pumping Energy
+PUTSS pollution due to effluent TSS PU Pollution Unit
+Qe effluent volumetric flowrate tansig tangent sigmoid transfer function
+Qi influent volumetric flowrate Te Temperature
+QNR volumetric flowrate of the nitrate recirculation TF Transfer Function
+QRAS volumetric flowrate of the return activated sludge TN Total Nitrogen
+Qwaste volumetric flowrate of waste from the secondary settler TKN Total Kjeldahl Nitrogen
+SOsat saturated oxygen concentration TSS Total Suspended Solids
+T period of observation WWTP Waste Water Treatment Plant
+u model input
+optimization algorithm. They obtained lower DO setpoints values than results for effluent quality prediction of COD and total nitrogen (TN)
+with the employment of a nonoptimized PID controller [12], meaning a levels [20]. Similar ANN models were found efficient for prediction of
+reduction in the energy consumption for the aeration process. In parallel WWTP performance indices such as aeration energy (AE), effluent
+with reducing energy consumption, GHG emissions should also be quality (EQ), and pumping energy (PE), which were further employed in
+evaluated. While energy savings for the aeration process can be achieved the optimization of setpoint values for the DO and nitrate and nitrite
+by lowering the DO controller’s setpoint, at a certain point it can result concentration (NO) control loops resulting in reduced energy con-
+(cid:0)
+in the incomplete nitrification [13]. This leads to the build-up of NO2 sumption and improved effluent quality [21]. Furthermore, prediction
++
+and NH4, ensuing in the increase of concentration for these undesired of gaseous emissions (H2S) in the influent chamber of WWTPs was
+chemical components [14]. At DO setpoint setting of lower value than 1 accomplished using multivariate NARX model [22]. A hybrid model
+mg/L the increase in N2O cannot be ignored [15], as in these circum- employing ANN was utilized in prediction of liquid N2O production in a
+stances the growth in greenhouse gas emissions can counterbalance the nitrifying sequencing batch reactor [23]. However, no studies focused
+GHGs emissions reduction associated to the 25 % saving in aeration on predicting GHG emissions of WWTPs with the support of such
+energy consumption [16]. As such, it is important to investigate alter- networks.
+native operation strategies of the aeration process leading to energy In other fields of study AI techniques were applied with success in
+savings without a severe increase in GHG emissions. One of the possi- development of data-driven models for GHG emission predictions.
+bilities is the uneven distribution of compressed air along the aerated Emissions for buildings construction were predicted using explainable
+bioreactor [17]. AI [24], while another data-driven model predicted GHG emissions of
+Several studies approached the operation optimization of WWTPs high-speed rail stations [25]. A neural network model was used to pre-
+using artificial intelligence (AI) methods and relying on the develop- dict the effects of climate change on emissions of GHG under climatic
+ment of data-driven models. Prediction of effluent parameters is a scenarios by modelling energy demand, forecasting an increase of GHG
+typical example of such applications in the study of WWTPs. Successful emissions [26]. ANNs were also employed in modelling and predicting
+implementations of steady-state artificial neural network (ANN) models GHG emissions in wheat production of Iran with the best topology
+were used for predictions of biological oxygen demand (BOD5) and total showing a coefficient of determination (R2) value of 0.998 for GHG
+suspended solids (TSS) [18], or suspended solids and chemical oxygen emissions [27]. GHG intensity and emissions in Europe were predicted
+demand (COD) [19]. Dynamic models such as nonlinear autoregressive using ANN models, with a mean absolute percentage error (MAPE) value
+networks with exogenous inputs (NARX) were also applied with good of 6.4 % in case of GHG emission predictions for EU Members [28]. D. Z.
+2
+
+--- Page 3 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Antanasijevi´c et al. coupled principal component analysis with ANN, local municipal WWTP with a 420,000 population equivalents (P.E.)
+resulting in a model forecasting GHG emissions at the national level with capacity, as detailed in [36]. The studied WWTP has an Anaerobic-
+a MAPE value of only 3.6 % [29]. The mentioned studies illustrate the Anoxic-Oxic layout, where the aerated bioreactor was divided in three
+possibility of developing accurate ANN models for GHG emission pre- smaller, equally dimensioned reactors, and features two control loops
+dictions, which is one of the aims of the current research, while responsible for the carbon removal and nitrogen removal. Nitrification
+approaching the case of municipal WWTPs and using NARX models. and denitrification are controlled by manipulating the aeration and ni-
+One of the challenges in ANN development and a determining factor trate recycling flowrates of the bioreactors. For each of the aerated re-
+for the ANN’s prediction performance is the selection of ANN optimal actors the air flowrate can be distributed unevenly using three gain
+hyperparameters for the investigated dataset [30], as such optimization factors (G1-G3), as can be seen in Fig. 1.
+is required to find the best fit for the given dataset [31]. As a result, In order to obtain a comprehensive dataset of 64 different scenarios,
+hybrid intelligent models were developed. They bring an improvement corresponding to differently designed air flowrates, the associated gain
+in both accuracy and generalization ability of the single intelligent combinations were chosen based on full factorial design, with each gain
+models [32], as the hybrid intelligent models demonstrate an advantage factor having 4 levels. For the first 10 days of the simulation a standard
+over single intelligent models [33]. In recent studies on performance of scenario for the air flowrate gains was employed, and data from these
+predictions for WWTPs by hybrid intelligent models, evolutionary al- days was excluded in the GA-NARX development process in order to
+gorithms, such as genetic algorithm (GA), were applied in a collabora- diminish the effect of initial conditions on the dataset to be further used
+tive fashion for optimizing the hyperparameters of different ANN for ANN training. Following these 10 days, each combination of gain
+models. Water quality prediction in drinking water treatment plants was factors was introduced and kept constant for the next 7 days interval. It
+achieved by a hybrid artificial neural network that used a genetic al- was succeeded by the next scenario of 7 days for new combination of the
+gorithm to optimize the ANN structure [34]. Similarly, a multi-layer gain factors, until the last scenario was reached. Consequently, a total of
+perceptron network, whose optimal topology was searched for by ge- 458 days of simulated data (without the 10 initialization days) was
+netic algorithm, was used in effluent quality prediction for a municipal collected with a temporal resolution of 30 min, i.e., a total of 21,984
+WWTP [32]. datapoints. This entire dataset was randomly divided into training,
+This study aims to find optimal aeration parameters (i.e., three gain validation, and testing datasets in a 70:15:15 ratio for the ANN model
+factors steering the air flowrate distribution) for an operation strategy of development. The input and output features used in the development of
+the aeration unit-process conducting to an optimized distribution of air the models are shown in Table 1. Additional information on the input
+flow to the aerated bioreactor, and to evaluate it in terms of energy and output features, such as variance or correlation between inputs and
+consumption, effluent quality, and GHG emissions. In the current study outputs, can be found in the Supplementary Material.
+GHG emissions were considered for the biological reactors and associ-
+ated settlers of the water line, as they represent the most important 2.2. GA-NARX model development
+source of GHGs. The computation of the optimal operation parameters
+for the proposed aeration strategy was relying on the predictions of the NARX networks represent the type of feed-forward neural network
+WWTP performance indices, effluent quality, and GHG emissions using that employ in their architecture a tapped delay line block between the
+dynamic hybrid intelligent models based on simulated data. These dy- ANN model time-series inputs and the first hidden layer. The line allows
+namic neural network NARX models, for which the optimal topology data from several past time moments of both input and target datasets to
+was searched for by means of GA will be further referred to as GA-NARX. be utilized in the prediction of the target variable value at the proximate
+To the authors’ knowledge, there are no studies associated with hybrid sampling moment of time. Due to this construction, NARX models are
+intelligent modelling based on GA optimized NARX models, aimed at suitable for applications requiring time-series prediction. These neural
+simulating the WWTP processes. Furthermore, the dynamic modelling of networks can be developed in two fashions: the “open” structure feeds
+GHG emissions in WWTPs by means of ANN models is also a novelty of from the original target dataset the ANN inputs standing for the past
+the present work. The main steps of the current paper were: (i) gener- values of the targets, while the “closed” structure utilizes the ANN self-
+ation of the representative dataset by using the calibrated analytical simulated past target values to compute the target value at the subse-
+model of the municipal WWTP considered as case study, and by taking quent moment of time.
+into account the specifically and multiple designed scenarios of opera- Finding the optimal architecture is crucial in the development of
+tional parameters; (ii) development of GA-NARX methodology for ANN models, influencing the model’s prediction accuracy, generaliza-
+searching the optimal ANN topology in terms of structure of NARX tion ability, and nonetheless the required computational time. This
+network at training, number of hidden layers (NHL), number of neurons challenging optimization task becomes unfeasible by classical optimi-
+in each hidden layer (NNeHL), and transfer functions (TFs); (iii) zation methods when considering the complex dependency between the
+employment of the ANN developed models in a multi-objective opti- training objective function and the ANN hyperparameters such as
+mization step for finding the optimal operational aeration parameters; NHeHL, NHL, and TF, considered as decision variables. Population-
+(iv) testing the optimal operational parameters on the analytical model based algorithms, such as GAs provide appropriate means for finding
+and comparison of energy consumption, effluent quality, and GHG the global optimum in the ANN architecture optimization [33]. Genetic
+emissions performance with the standard WWTP operation. algorithm is one of the most frequently used evolutionary algorithms,
+being a stochastic global search and optimization method based on a
+2. Methodology population set of searching points. Its incentives rely on not necessi-
+tating computation of objective function derivatives or having no need
+The GA-NARX model development and multi-objective optimization of considering restricting preconditions for the objective function, while
+processes were performed in MATLAB 2021a [35]. the performed global search approaches well or even reaches the global
+minimum.
+2.1. Data generation Several constraints on the decision variables for the NARX archi-
+tecture were considered. In case of NHL ANN hyperparameter, only
+An analytical model based on Activated Sludge Model No. 1 was models with 1 or 2 hidden layers were considered. NHeHL was bound
+utilized for the generation of the dataset required for the development of between 2 and 15 for each hidden layer. TF at each hidden layer was
+GA-NARX models. The dynamic simulator based on the Benchmark taken either as a logistic sigmoid (logsig) function or as a tangent sig-
+Simulation Model No. 1 (BSM1) was previously built (in Simulink soft- moid (tansig) function. The optimal structure of the NARX model was
+ware environment) and calibrated using dynamic data collected at the searched both for the open and closed structures. Training with vali-
+3
+
+--- Page 4 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Fig. 1. Schematic representation of the studied WWTP.
+GHG emissions, for effluent concentrations of total suspended solids,
+Table 1
+chemical oxygen demand, biological oxygen demand, total Kjeldahl
+GA-NARX model input and output features.
+nitrogen, nitrates and nitrites, and for effluent wastewater flowrate.
+Features Description Only models with a single output were considered as these were previ-
+Input Output ously found to offer superior accuracy and generalization ability
+CODi – Influent COD concentration compared to multiple output models [21]. Details of the WWTP influent
+Organic N – Influent organically bound nitrogen concentration and ranges for the air flow gain settings that were used as ANN model
+Qi – Influent flowrate inputs are presented in Table 2.
+Te – Influent temperature
+G1 – Aeration gain factor for the first aerated reactor
+G2 – Aeration gain factor for the second aerated reactor 2.3. Estimation of GHG emissions
+G3 – Aeration gain factor for the third aerated reactor
+– AE Energy consumption for aeration Evaluation of the GHG emissions was performed at the water line
+– BODe Effluent BOD concentration
+level of the WWTP due to the limitations of an BSM1 type model. On-site
+– CODe Effluent COD concentration
+– EQ Quality of treated wastewater (effluent) and off-site emissions of CO2 and N2O were considered. Other than CO2,
+– GHG Emissions of greenhouse gases the emissions of N2O gases had been included as their global warming
+– NOe Effluent nitrate and nitrite nitrogen concentration potential (GWP) is 265–298 times higher than CO2, considered for an
+– – – P T TE K SS N ee E E En f ffl fle u urg e ey n n t tc t to o on t ts a au l l m K sujp e st pli do ean nh df l eo n dr i p t sr ou o lm g idep sni n cc og o n n cc ee nn tt rr aa tt ii oo nn a cov ner sa tig te u tr ee hsi ad le f n oc re et vim ene mof o r1 e0 o0 f y te ha er s t o[ t4 a7 l ] G. HE Gm i es msio isn ss io d nu s e w t ho e nN 2 oO n -c sia tn e
+– Qe Effluent flowrate CO2 is not considered [38]. The contribution of on-site CH4 emission
+was not considered as the studied plant benefits of a biogas recovery and
+reuse system, in which case the on-site CH4 emissions reach a neglect-
+dation was employed in order to avoid overfitting. The training process
+able contribution to the total on-site emissions [9]. Furthermore, the use
+was performed with the Levenberg-Marquardt algorithm, as it is the
+of the biogas can reduce costs and GHG emissions by utilization to
+most frequently used optimization algorithm in WWTP applications
+generate electrical energy [39], or by biogas upgrade to transport fuel
+[37]. The tapped delay line horizons for the ANN input and output data
+[40]. In order to facilitate the comparison with other results and over a
+were taken with the time length of 12 sampling intervals, meaning that
+larger variety of WWTP dimensions, in the present study the GHG
+input and target data from the previous 6 h were employed in the
+emissions were related per cubic meter of processed wastewater (kg CO2
+computation of the output value at the next sampling moment. This is eq./m3 WW).
+described in a general form by Eq. (1):
+The assessment of the on-site CO2 emissions released due to the
+(cid:0) (cid:0) ) )
+x(t)=f x(t(cid:0) 1),x(t(cid:0) 2),…,x t(cid:0) n ,u(t(cid:0) 1),u(t(cid:0) 2),…,u(t(cid:0) n u) aerobic biological processes, calculated in (kg CO2/m3 WW), was based
+y
+on the relationship described in Eq. (3) [41].
+(1)
+( )
+P CO2,on(cid:0)site= 0.99⋅(1(cid:0) Y H)⋅η ASP⋅bCOD+1.03⋅Y H⋅η ASP⋅bCOD⋅ 1+k d k,H d,⋅ HM ⋅MC CRT
+where x is the output signal, u represents the input signal, while ny and RT
+nu are tapped delay line horizons for the two signals (both equal to 12).
+(3)
+The decision criteria for selecting the best GA-NARX model was the
+mean absolute percentage error (MAPE) between the target and output
+values of the testing dataset (Eq. (2)).
+Table 2
+MAPE=N∑ i=da 1ta|yi(cid:0) yixi| V dia sr ti ra ibti uo tn nra n ges of the WWTP influent data and gain factors for air flow
+io .
+⋅100 (2)
+N Parameter Min Max Average Standard Units
+data
+deviation
+Here, Ndata is the number of data points, yi is the desired output at data CODi 110 439 279 74.2 mg/
+point i, and xi is the ANN model simulated or predicted output at the L
+same data point i (yi and xi are non-scaled values). Organic N 12.2 46.8 26.2 6.83 mg/
+L
+The ANNs were developed using as exogenous inputs the following 7 Qi 83,700 17,500 116,000 18,400 m3/d
+input variables of the WWTP: influent COD, organic nitrogen concen- Te 15.6 17.7 16.6 0.480 ◦C
+tration, flowrate (Qi) and temperature (Te), supplemented with the G1 0.800 1.00 – – –
+three gain aeration factors (G1 to G3). GA-NARX models were developed G2 0.600 0.800 – – –
+G3 0.400 0.600 – – –
+for output variables: aeration energy, pumping energy, effluent quality,
+4
+
+--- Page 5 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Here, 0.99 (kg CO2 eq./kg COD) is the emission factor corresponding 2.4. Optimization of airflow distribution
+to organic compounds, YH is the heterotrophic biomass yield in (mass
+VSS/mass COD), η ASP refers to the removal of biodegradable COD The optimal values of the gain factors determining the distribution of
+(bCOD) in the activated sludge reactors, 1.03 (kg CO2 eq./kg COD) is an air in the three aerated bioreactors were searched for by taking into
+emission factor in relation to the activated sludge biomass, kd,H is the account a 7 days duration scenario. Several performance indices had to
+decay rate for heterotrophic biomass with a value of 0.3 (d(cid:0) 1) [42], and be considered in the optimization process. Although the focus was the
+MCRT is the mean cell retention time, taken as 15 days for the current reduction of energy consumption, other aspects such as GHG emissions
+municipal WWTP case. and effluent quality ought to be considered as well. The values for the
+The on-site N2O emissions (kg N2O/m3 WW) were estimated using considered performance indices were obtained by predictions made
+the following formula: with the specially designed and trained GA-NARX models.
+Effluent quality (EQ) was taken in consideration as a performance
+P N2O,on(cid:0)site=EF N2O⋅ΔTN (4)
+index describing the daily discharged mass of pollution, encompassing
+pollutions based on effluent components: total suspended solids (TSS),
+w 0.h 0e 0r 5e rE eF lN a2 tO di s ot h Ne Oe m pris os dio un if oa nc t bo ar s( ek dg N 2 iO nfl/ ukg N ) w loi ath inth ge 4v 3al ]u e no df COD, BOD5, total Kjeldahl nitrogen (TKN), nitrate and nitrite nitrogen
+, e t 2 ct o n en t N d [ , a
+ΔTN is the specific difference TN mass between WWTP influent and (NO), and effluent flowrate (Qe), as shown in Eq. (10).
+effluent (kg N/m3 WW). ∫T
+1
+In the off-site CO2 emissions (kg CO2/m3 WW) generation of the EQ= T⋅1000⋅ [PU TSS(t)+PU COD(t)+PU BOD(t)+PU TKN(t)
+electricity was taken into consideration related to the energy con-
+0
+sumption of the WWTP. The following relationship was used for the +PU NO(t)]⋅Q e(t)dt (10)
+estimation of these off-site CO2 emissions, based on [44]:
+(k ⋅e ) The daily discharged mass of pollution in units of kg pollution unit/
+P CO2,off(cid:0)site= P QG iD (5) d (kgPU/d) was calculated by converting the pollution from different
+sources to comprehensive pollution units, based on the weighting factors
+where kPG is the emission factor per unit of generated energy to be described in [48].
+consumed in the WWTP, its value was taken as 0.323 (kg CO2 eq./kWh) Combining directly the previously mentioned WWTP performance
+which is the reported GHG emission intensity of electricity generation indices (energy consumption, GHG emissions, and effluent quality) into
+for Romania in 2021 [45], eD (kWh/d) is the energy demand which was a single objective function was not plausible as their values are orders of
+calculated as the sum of the aeration and pumping energies, and Qi is the magnitude apart due to their units of measurements. Consequently,
+influent flowrate. The aeration energy (AE) and pumping energy (PE) arbitrarily chosen weighting factors would have to be applied to bring
+were computed based on the equations given in [42]. the mentioned performance indices to a similar importance in the single
+objective function. Accordingly, a multi-objective optimization method
+00⋅∫T
+AE= T⋅1S .8O ⋅s 1a 0t ∑3 V i⋅K La i(t)dt (6) w lua tis e nm cp alo lly ee dd hb ea s Pe ad eo tn G frA t th a It c to hm isp fu rote ns a as ce ht o pf in no n r- ed po rm esi en na tt se d s so o-
+o s t r o on . n t e o t a -
+i=1
+0 lution that fulfils the objectives as best as possible and no further
+∫T improvement could be made in one of the objectives without a simul-
+1 taneous deterioration of the other objectives [49].
+PE= T⋅ [0.004⋅Q NR(t)+0.08⋅Q RAS(t)+0.05⋅Q waste(t)]dt (7)
+The objective functions taking into account the energy consumption
+0 and GHG emissions were chosen as shown in Eqs. (11)–(12) and quantify
+the energy demand and the total GHG emissions of the plant.
+Here, T is the period of observation in days, SOsat is the saturated oxygen
+concentration, Vi is the volume of the aerated bioreactor i, KLai repre- f min,1=e D (11)
+sents the mass transfer coefficient in aerated bioreactor i, QNR is the
+flowrate of the nitrate recirculation, QRAS the flowrate of the return f min,2=GHG (12)
+activated sludge, and Qwaste the flowrate of waste from the secondary
+For the objective function concerning effluent quality two distinct
+settler.
+cases were considered. In Case 1 the third objective function was
+Off-site N2O emissions were considered due to the biological
+considered equal to the ANN predicted EQ:
+degradation in the downstream systems of the WWTP, resulting in
+additional N2O release. The following equation describes these f min,3=EQ (13)
+emissions:
+In this case a GA-NARX model was used to directly predict the
+P N2O,off(cid:0)site=N e⋅EF e (8) effluent quality index. However, in this manner concentrations of the
+individual chemical components (different pollution sources) remain
+where Ne is the load of N discharged into the receiving water body, and unrevealed and it is worthy to note that although unlikely, an optimal
+EFe is the emission factor of N2O from the wastewater discharged with a solution where the overall EQ is reduced could result in one of the
+value of 7.857•10(cid:0) 3 (kg N2O/kg N) [46]. pollutants exceeding its regulated loading limit and negatively affect the
+The total GHG emissions were calculated as CO2 equivalent emis- receiving water body. In Case 2 the EQ was computed based on Eq. (10),
+sions as such the N2O emissions were converted to CO2-equivalent meaning that 6 distinct GA-NARX models were developed to predict the
+emissions by multiplication with their GWP. These were then summed individual concentrations of the 5 different chemical indicators and the
+with the CO2 emissions (Eq. (9)). effluent flowrate. This approach allowed the investigation and consider
+(cid:0) )
+GHG=P CO2,on(cid:0)site+P CO2,off(cid:0)site+GWP N2O⋅ P N2O,on(cid:0)site+P N2O,off(cid:0)site (9) penalizations due to violations of the regulated loading limits. The third
+objective function in Case 2 was calculated as EQ if no loading limits
+were violated at any moment in time, while in the opposite situation a
+The value for GWPN2O was taken as 298 [47] for obtaining the GHG
+emissions in (kg CO2 eq./m3 WW) unit. penalty was applied by multiplying the EQ value with a factor between
+1.1 and 2. This factor was computed based on the fraction of timeframe
+any of the loading limits were breached during to the period of obser-
+vation (Eq. (14)).
+5
+
+--- Page 6 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+⎧
+f min,3=⎨ ⎩EQ•( 1.1EQ +0.9•t p) ifif CC OO DD >≤ 121 525 o& rT TN N≤ >1 10 0& oB rO BD OD≤ >25 p anre dv i Go 3u )s l py l up sr e ts he en t oe ud t p7 u i tn p feu at t ufe ra et u inre as ( rC eO cuD ri r, e O ntr g fa an shic i oN n, tQ oi , m T oe d, eG l 1 e, aG ch2
+25
+T targeted parameter.
+(14) For the GA settings a population size of 50 was considered, and the
+number of maximum generations was set to 50 as in most cases no
+Here, tp is the period of time any of the pollutant concentrations were
+significant improvement was observed at larger generation values,
+above the following limits: for COD 125 (g O2/m3), for TN 10 (g N/m3),
+similar to the findings in case of a more complex ANN hyperparameters
+and for BOD5 25 (g O2/m3). These limits were considered according to
+optimization tasks [32]. The models that showed the best accuracy for
+the national specific values for Romania (H.G. nr. 352/2005).
+the testing dataset were further evaluated and additionally tested by
+using the GA-NARX to predict a 7 days scenario with a previously unseen
+3. Results and discussion
+combination of aeration gain factors. In order to perform the pre-
+dictions, the models had to be used in the closed loop structure, using
+On-site GHG emissions due to biochemical reactions and off-site
+predictions from previous time steps as inputs for making the proximate
+GHG emissions generated by electricity consumption were estimated
+time step prediction. The optimal network hyperparameters and MAPE
+as CO2 equivalent. GA-NARX models were developed for a variety of
+prediction results for this new scenario are shown in Table 4.
+output features by the method developed in this study and their per-
+In most cases the optimal GA-NARX model for single output pre-
+formance was compared to results obtained in other studies. These
+diction was found to possesses two hidden layers, commonly with the
+neural network models were further used for the optimization of the
+tangent sigmoid TF for the first hidden layer. The number of neurons
+airflow distribution in the aerated bioreactors. The most promising
+was typically found to be situated in the upper region of the assumed
+values obtained from the airflow distribution optimization were tested
+bounded range of values for both the first and second hidden layers. This
+on the first principle model and compared to the results obtained in the
+confirms the non-linearity and complexity of the modelling tasks. The
+base case.
+MAPE values for the developed GA-NARX models were placed between
+1.14 % and 21.5 % when the ANNs were fed with previously unseen
+3.1. GHG emissions input data. The outstanding result when predicting the effluent flowrate
+can be attributed to the strong linear correlation to the influent flowrate
+The removal efficiencies for COD and TN in the studied system were despite the more or less regular daily cyclic behaviour. The GA-NARX
+92.5 % and 90.6 % respectively, based on the data obtained from sim- responsible for modelling the GHG emissions was one of the most ac-
+ulations with the calibrated BSM1 model. The amount of GHG emissions curate networks developed in the current study based on the novel
+produced on-site and off-site for the base case settings i.e., G1 to G3 approach.
+equal to 1, are shown in units of (kg CO2 eq./mm3 WW) in Table 3. The The GHG emissions model performed remarkably well when used for
+results showed that on-site emissions make up around 79 % of the total predictions. The similarity between targeted and predicted series can be
+GHG emissions, which is in line with previous findings that in case of observed in Fig. 3. The mentioned GA-NARX revealed a slightly lower
+WWTPs serving >100,000 population equivalents the on-site emissions MAPE value of 1.24 % compared to ANN based GHG models found in the
+contribute with >70 % to the total GHG emissions [43]. At the same literature e.g., an artificial neural network coupled with principle
+time, the aeration unit proved to be the major contributor from all units component analysis reached a MAPE value of 3.60 % when forecasting
+of the plant to the on-site GHG emissions. This is in line with reported GHG emissions at the national level [29], while in another study
+values of up to 86 % [9], and is revealing the need and importance of generalized regression neural network models were used for GHG in-
+optimizing the aeration process. The ratio of CO2 to N2O on-site emis- tensity and energy consumption predictions, but reaching MAPE of 6.40
+sions in the current study is larger than in the previously mentioned % for the GHG emission predictions at the national level for European
+research (almost 4:1 compared to 1.23:1). This can be partially countries [28]. The developed model could serve as an efficient tool in
+explained by the difference in the EFN2O values used, i.e., 0.005 (kg N2O/ evaluating plant operation strategies for reducing GHG emissions of
+kg N) in this study, while in the other research the value of 0.0754 (kg WWTPs.
+N2O/kg N) was obtained based on the provided data [9]. Significant
+variations can be observed in the literature in terms of values of specific 3.3. Implications
+GHG emissions. The results obtained in the current study are in the
+range of 0.02 to 0.29 (kg CO2 eq./ P.E. d), as reported by [50]. From the The models were developed with synthetic data based on a first-
+total GHG emissions 63.2 % come from biogenic emissions showing that principle model calibrated with real data and, as a result, the devel-
+not taking into account these types of emissions would lead to an un- oped GA-NARX can be considered to be pre-trained for utilization in the
+derestimation of the WWTP GHG emissions. real facility. However, based on measured of inferred data, an adapta-
+tion of the network weight and biases would be required when
+employing the models. At the same time, a data pre-processing step
+3.2. GA-NARX models
+should be added in order to filter the measured data fed to the model.
+The accuracy of the GA-NARX models was found to be comparable to
+A total of 10 multiple input single output GA-NARX models were
+the results reported in the literature for ANN models predicting WWTP
+developed to predict energy consumption, GHG emissions, and effluent
+effluent (Table 5). It should also be noted that the presented literature
+quality of the studied WWTP (Fig. 2). These networks used the
+results were obtained using real data. The least accurate predictions
+(MAPE =21.5 %) were obtained in case of EQ owing to the intricacy of
+Table 3
+the different factors that make up the studied index. The utilization as
+Amount of on-site and off-site GHG emissions from the WWTP.
+input data of only the variables that would be available by measure-
+On-site GHG Off-site GHG emissions (kg CO2 eq./ Total GHG ments and at a temporal resolution of at least 30 min at the municipal
+emissions (kg CO2 mm3 WW) emissions (kg CO2
+WWTP also increases the difficulty of describing this output, as the se-
+eq./mm3 WW) eq./mm3 WW)
+lection of input and output features also influences the model perfor-
+CO2 N2O CO2 release due to downstream mance [51]. Although it presents a larger MAPE value, the coefficient of
+release release on-site use of N2O release determination (R2) of the GA-NARX model in question is equal to 0.94,
+electricity
+similar to the BOD model developed by [52]. The proposed approach of
+0.199 0.0501 0.0578 0.00810 0.315
+using GA for the optimization of NARX hyperparameters facilitates the
+6
+
+--- Page 7 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Fig. 2. Schematic representation of the utilization of the developed GA-NARX models.
+development of such dynamic network models by offering an automatic
+Table 4
+process for the search of optimal network topology in comparison to
+GA-NARX model hyperparameters and prediction results.
+methods such as trial-and-error. At the same time, it also requires less
+Output Structure Architecture Transfer function(s) MAPEprediction (%)
+AE Open in-15-out logsig 1.23 Table 5
+BODe Open in-12-13-out tansig-tansig 1.14
+Accuracy of ANN models reported in the literature.
+CODe Closed in-11-11-out tansig-tansig 11.1
+EQ Closed in-13-11-out tansig-logsig 21.5 ANN type ANN output MAPE Reference
+GHG Open in-14-10-out tansig-logsig 1.24
+MLPa COD, SS, MLSSb 3.77 to 17.1 [53]
+NOe Closed in-14-11-out tansig-logsig 10.8
+MLP BOD 24.3 [52]
+PE Open in-15-15-out tansig-logsig 4.81
+MLP COD 10.8 [54]
+TKNe Open in-13-15-out tansig-tansig 6.27
+NARX COD, TN 6.40, 13.9 [20]
+TSSe Open in-15-12-out logsig-tansig 16.2
+Qe Closed in-6-13-out tansig-logsig 0.0457 a MLP =MultiLayer Perceptron.
+b MLSS =Mixed Liquor Suspended Solids.
+Fig. 3. GHG emissions targeted series and GA-NARX model predicted series.
+7
+
+--- Page 8 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+computational time then the trial of all possible combinations of the for Fig. 4 a)). In Fig. 4 a) it can be observed that both objectives i.e., GHG
+studied hyperparameters, and results in models with similar accuracy to emissions and energy consumption can be minimized at the same time,
+those reported in the literature. and that was expected due the off-site CO2 emissions estimation (Eq.
+The mentioned studies focused on the development of different ANN (5)). On the other hand, Fig. 4 b) shows that there is a conflicting situ-
+models to predict one or more process parameters and concluded on ation when trying to optimize both GHG emissions and effluent quality.
+their applicability based on the model’s performance. The current study This was also expected as the on-site GHG emissions depend on differ-
+took a step further and employed these models in multi-objective opti- ences between the WWTP influent and effluent concentrations of the
+mization of a proposed WWTP operation strategy, showing the possible relevant chemical components. As such, the slight increase of EQ due to
+benefits of using the GA-NARX models. larger values of the component concentration in effluent is associated to
+the reduction in GHG emissions. The concern in the first optimization
+case is that although the changes in EQ are not significant, the con-
+3.4. Airflow distribution optimization centrations of the individual chemical components are not revealed and
+they might exceed the regulated limitations.
+The optimization of the airflow to the aerated bioreactors was per- In the second optimization case for the aeration gain factors (G1-G3),
+formed for the two presented cases regarding the prediction of the EQ the possibility of the chemical indicators breaching the allowed con-
+index (Fig. 2). In the first case the EQ values were predicted by GA-NARX centrations is taken into account in the specially designed third objective
+model with EQ as its output variable, while in the second case the EQ function. The Pareto front results obtained in this case are presented in
+was calculated as described in Eq. (10) based on the predicted values of Table 7 and Fig. 5, similarly to the first optimization case. Based on the
+TSS, COD, BOD, TKN, NO and Qe, provided by the models that had these predicted results of this case, the trade-off solution between GHG
+WWTP effluent variables as ANN outputs (Table 4). In order to find the emissions and effluent quality is also needed, but this can be accom-
+optimal values for the three airflow gain factors (G1-G3) which best plished in more reliable way when comparison is made to Case 1. This is
+satisfy all three objectives a multi-objective optimization was performed due to the change of the Pareto front for the GHG emissions v.s. energy
+using GA. The population size for the GA was selected as 50, the consumption indices, while the front of GHG emissions v.s. energy de-
+maximum number of generations was set to 600, and the Pareto set mand remained similar to the first optimization case. The three most
+fraction value was chosen as 0.35. In this fashion the optimizations promising solutions, i.e., 2, 10, and 18 are located exactly in the
+resulted in Pareto fronts of 18 points. mentioned region where both GHG and EQ objectives are best satisfied.
+The results of the first optimization case are presented in Table 6. It can also be observed that there are no abrupt increases in the EQ
+They show the optimal settings for the gain factors G1 to G3 related to values, meaning that the optimal gain combinations do not lead to the
+the airflow distribution for each aerated reactor, as well as the obtained increase of any effluent chemical component above its limit.
+performance indices in terms of energy demand, GHG emissions, and The three most promising airflow distribution settings, obtained
+effluent quality. In order to select the most promising combination of from both optimization cases, were evaluated by implementing them in
+gain factors a scoring system was applied. In case of each of the three a 7 days long simulation scenario that utilized the WWTP first principle
+objectives scores were given in ascending order from 1 to 18 to every extensive model for assessing the plant performance. The obtained re-
+combination of gains. These scores were then be summed in order to sults were compared to the base case where the three gain factors were
+determine the final ranking between the 18 Pareto front points, and the set to 1, and the same 7 days scenario was used. The WWTP operation
+three combinations with the lowest scores were selected to be evaluated. performance values obtained for energy demand, GHG emissions, and
+The latter are highlighted in the tables below. The final decision on the effluent quality in these selected cases are presented in Table 8.
+values considered as the most favourable gain factors was taken by It can be observed that all combinations of gain factors (G1-G3)
+analysing the selected combinations. The scores for the points of both chosen with the proposed approach bring improvements for of all three
+Pareto fronts can be found in the Supplementary Material. For a better performance indices studied. At the same time, it is noticeable that the
+visualization of the interdependencies between the three objectives, the energy consumption and GHG emissions reductions are closely related
+Pareto front resulting from the first optimization case is presented in two (off-site CO2 emissions). Accompanied by the decrease in effluent
+2D graphics instead of a single 3D illustration, shown in Fig. 4. The quality values, the results signify that the reduction of energy con-
+location of the three best solutions, highlighted in Tables 6 and 7 were sumption related to aeration does not lead to the increase of effluent
+also pinpointed with arrows in the Pareto front (i.e., points 1, 3, and 16
+Table 6
+Pareto front results for the first optimization case. The three best solutions are presented with bold fonts.
+Nr G1 G2 G3 Energy consumption GHG emissions Effluent quality
+(kWh/d) (kg CO2 eq./mm3 WW) (kgPU/d)
+1 0.8000 0.6000 0.4000 1.828Eþ04 0.3068 1.718Eþ04
+2 1.0000 0.6000 0.4453 1.853E+04 0.3072 1.694E+04
+3 0.8000 0.6000 0.4304 1.830Eþ04 0.3067 1.716Eþ04
+4 0.8000 0.6000 0.4000 1.828E+04 0.3068 1.718E+04
+5 0.9569 0.6004 0.4319 1.846E+04 0.3071 1.699E+04
+6 0.9388 0.6007 0.4436 1.847E+04 0.3071 1.700E+04
+7 0.8708 0.6002 0.4131 1.836E+04 0.3069 1.709E+04
+8 0.9526 0.6002 0.4436 1.848E+04 0.3071 1.698E+04
+9 0.9996 0.6007 0.4493 1.854E+04 0.3072 1.695E+04
+10 0.9080 0.6002 0.4294 1.841E+04 0.3070 1.704E+04
+11 0.9288 0.6011 0.4277 1.843E+04 0.3071 1.702E+04
+12 0.8636 0.6002 0.4271 1.836E+04 0.3069 1.708E+04
+13 0.9967 0.6002 0.4292 1.849E+04 0.3073 1.697E+04
+14 0.9452 0.6006 0.4279 1.844E+04 0.3071 1.701E+04
+15 0.8732 0.6002 0.4308 1.838E+04 0.3069 1.707E+04
+16 0.8147 0.6003 0.4282 1.832Eþ04 0.3067 1.714Eþ04
+17 0.8325 0.6056 0.4325 1.835E+04 0.3068 1.712E+04
+18 0.9092 0.6086 0.4311 1.843E+04 0.3070 1.704E+04
+8
+
+--- Page 9 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Fig. 4. Pareto front in the first optimization case shown as: a) GHG emissions v.s. energy consumption indices, and b) GHG emissions v.s. effluent quality indices.
+Table 7
+Pareto front results for the second optimization case. The best three solutions are presented with bold fonts.
+Nr G1 G2 G3 Energy consumption GHG emissions Effluent quality
+(kWh/d) (kg CO2 eq./mm3 WW) (kgPU/d)
+1 0.8000 0.6000 0.4000 1.828E+04 0.3068 1.510E+04
+2 0.8000 0.6000 0.4299 1.830Eþ04 0.3067 1.508Eþ04
+3 0.9637 0.6001 0.4479 1.850E+04 0.3071 1.504E+04
+4 0.9658 0.6003 0.4446 1.849E+04 0.3071 1.504E+04
+5 0.8000 0.6005 0.4003 1.828E+04 0.3068 1.510E+04
+6 0.9615 0.6003 0.4529 1.851E+04 0.3071 1.504E+04
+7 0.8610 0.6000 0.4202 1.835E+04 0.3069 1.506E+04
+8 0.9345 0.6002 0.4389 1.845E+04 0.3071 1.504E+04
+9 0.8845 0.6002 0.4264 1.838E+04 0.3069 1.506E+04
+10 0.8142 0.6001 0.4286 1.831Eþ04 0.3067 1.507Eþ04
+11 0.8295 0.6001 0.4273 1.833E+04 0.3067 1.507E+04
+12 0.8356 0.6001 0.4315 1.834E+04 0.3068 1.507E+04
+13 0.8674 0.6001 0.4283 1.837E+04 0.3069 1.506E+04
+14 0.8028 0.6000 0.4041 1.828E+04 0.3067 1.509E+04
+15 0.8307 0.6000 0.4308 1.834E+04 0.3067 1.507E+04
+16 0.9114 0.6002 0.4334 1.842E+04 0.3070 1.505E+04
+17 0.8951 0.6003 0.4330 1.841E+04 0.3069 1.505E+04
+18 0.8000 0.6000 0.4105 1.828Eþ04 0.3067 1.508Eþ04
+concentrations which is also expected due to maintaining the setpoint of case. They are shown in Fig. 6.
+the control loop (i.e., original value of 2) responsible for the dissolved It can be observed that the highest change of the effluent quality
+oxygen level at the outlet of the last aerated bioreactor. index, when it is compared to the base case shown in Fig. 6 a), can be
+The most savings in terms of energy consumption were achieved in assigned to TKN. The decrease observed for this contributor can be
+optimization case 1 number 1, where the results show savings of attributed to the more abundant distribution of air at the beginning of
+approximatively 2 % relative to the base case, simultaneously leading to the aerated bioreactor and facilitating the nitrification process, which
+the lowest GHG emissions accounting for an improvement of 0.28 %, results in the increase of pollution due to NO. This is shown for both
+coupled with a decrease of almost 1 % in effluent quality. For the optimized cases, in Fig. 6 b) and c). At the same time, the increase in NO
+effluent quality the best result was obtained in optimization case 1 concentration positively affects the energy consumption by enabling the
+number 16, characterized by a decrease of 1.14 % in EQ, together with a achievement of the NO concentration setpoint in the anoxic bioreactor
+reduction of 1.85 % in energy requirements and 0.25 % less GHG (which is the goal of the denitrification control loop) with a lower
+emissions. The contributions of CO2 and N2O emissions to total GHG flowrate of the nitrate recycling stream. The decrease of this flowrate has
+emissions and of the different pollution sources to EQ during the studied an impact on reducing the pumping energy. The results for GHG emis-
+7 days scenario for these two optimized cases (optimization case 1 sions show that, although biogenic, the on-site CO2 emissions remain the
+number 1 and number 16) were investigated and compared to the base predominant contributor, and approaches such as carbon capture could
+9
+
+--- Page 10 ---
+N.-B. Miha´ly et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g54(2023)103935
+Fig. 5. Pareto front in the second optimization case shown as: a) GHG emissions v.s. energy consumption indices, and b) GHG emissions v.s. effluent quality indices.
+Table 8
+WWTP optimized operation performance results.
+Case Point number G1 G2 G3 Energy consumption GHG emissions Effluent quality
+(kWh/d) (kg CO2 eq./mm3 WW) (kgPU/d)
+Base case 1.000 1.000 1.000 2.025E+04 0.31437 1.479E+04
+Optimization Case 1 No. 1 0.8000 0.6000 0.4000 1.984E+04 0.31350 1.465E+04
+No. 3 0.8000 0.6000 0.4304 1.992E+04 0.31366 1.463E+04
+No. 16 0.9092 0.6086 0.4311 1.987E+04 0.31357 1.462E+04
+Optimization Case 2 No. 2 0.8000 0.6000 0.4299 1.992E+04 0.31366 1.463E+04
+No. 10 0.8142 0.6001 0.4286 1.991E+04 0.31364 1.463E+04
+No. 18 0.8000 0.6000 0.4105 1.987E+04 0.31355 1.464E+04
+be considered for the diminution of these emissions. The very slight mathematical model finished in 205 s on the same processing unit.
+increase in the on-site CO2 emissions can be explained by the improved Taking into consideration optimization case 2, the slower of the two, and
+removal of COD and BOD, which is also confirmed by the effluent assuming that the optimization on the mathematical model would
+quality results. require the same number of iterations to finalize (i.e., 18,950 iterations
+While the change of on-site and off-site N2O emissions balance each or 379 generations) results in a processing time of almost 45 days. Based
+other, the largest change and reduction in GHG emissions can be on these numbers, there is at least a four orders of magnitude difference
+attributed to the off-site CO2 emissions, revealing that the proposed in processing time of the multi-objective optimization task in favour of
+strategy results in a lower energy demand for pumping and aeration. the GA-NARX models. Consequently, these models could also be of in-
+Based on the presented results, the most advantageous combination terest for real-time optimization applications.
+of gain factors (G1-G3) for the proposed strategy of uneven air flowrate
+distribution (optimisation case 1 and point number 16), found through 4. Conclusions
+multi-objective optimization utilizing the developed GA-NARX models,
+led to improvements in all three investigated objectives when WWTP The development of a new GA-optimized NARX model was per-
+performance is compared to the classical operation (base case). The formed to describe the complex WWTP processes predicting the WWTP
+presented optimization method is suitable for searching for optimal water line effluents and performance indicators. The NARX architecture
+distribution factors in case of both longer and shorter timeframes, such optimization by GA enables automatizing the ANN design and training,
+as seasonal or short event-based strategies, according to the slow or while reducing the reliance on experts’ experience. The models devel-
+quick changes in weather conditions. oped succeeded to predict WWTP effluent concentrations with MAPE
+Another important aspect and advantage of employing the GA-NARX values between 1.136 % and 16.196 %, while prediction of WWTP
+models was the reduced computational requirements, as can be expected performance indices presented MAPE values of 1.226 % to 21.460 %.
+of the ANN models, compared to the first principal mathematical model. The prediction performance of the novel GA-NARX model for GHG
+The multi-objective optimization process was finalized in almost 250 s in emissions was the third best at forecasting amongst the ten developed
+the first case, while close to 1700 s were required in the second case. In models (MAPE =1.244 %). The GA-NARX models were further utilized
+comparison, a single run of the 7-day scenario on the first principle in a multi-objective optimization task of the proposed uneven aeration
+10

@@ -1,0 +1,555 @@
+--- Page 1 ---
+Article
+Carbon Emission Characteristics and Low-Carbon Operation
+Evaluation of Some Wastewater Treatment Plants in East China:
+An Empirical Study Based on Actual Production Data
+HaoyuWang1,2,XiupingZhang1,LipinLi1,*,ZhengdaLin1 andYuTian1
+1 StateKeyLaboratoryofUrbanWaterResourceandEnvironment,SchoolofEnvironment,
+HarbinInstituteofTechnology,Harbin150090,China;wanghaoyu@bewg.net.cn(H.W.);
+18010276601@163.com(X.Z.);linzhengda@hit.edu.cn(Z.L.);hit_tianyu@163.com(Y.T.)
+2 BeijingEnterprisesWaterGroupLimited(BEWG),Beijing100102,China
+* Correspondence:lipinlee@hit.edu.cn;Tel.:+86-18946061798
+Abstract: Against the backdrop of China’s “dual carbon” strategy, investigating the
+carbon emission characteristics and low-carbon operational status of wastewater treat-
+ment plants (WWTPs) across regions is pivotal for achieving synergistic pollution re-
+duction and carbon mitigation. Leveraging 2024 operational data from 98 WWTPs in
+eastern China—encompassing treatment volume, energy consumption, sludge produc-
+tion,andchemicaldosages—thisstudyrefinedtheAssessmentStandardforCarbonMit-
+igationinMunicipalWWTPsandTechnicalSpecificationforLow-CarbonOperationof
+WWTPs. Anovelcarbonaccountingframeworkandlow-carbonperformanceevaluation
+system were subsequently developed to analyze the impacts of treatment scale, tech-
+nological configuration, and load rate on carbon footprints. Key findings revealed an
+averagecarbonintensityof0.399kgCO -eq/m3fortheregion,withsmall-scalefacilities
+2
+(0.582kgCO -eq/m3)exhibitingsignificantlyhigheremissionscomparedtotheirlarge-
+2
+scalecounterparts(0.392kgCO -eq/m3). Indirectemissionsconstituted62.1%ofthetotal
+2
+footprint,whilechemicaldosingcontributed14.2%,primarilydrivenbycarbonsources
+andphosphorusremovalagents. Fossil-derivedCO accountedfor4.6%ofemissions.No-
+2
+AcademicEditor:MarcoCarnevale
+tably,theAAOprocessdemonstratedthelowestcarbonintensity(0.370kgCO -eq/m3),
+Miino 2
+whereasSBRsystemsregisteredthehighest(0.617kgCO -eq/m3). Furthermore,25%of
+2
+Received:28April2025
+theassessedfacilitieswereclassifiedashigh-emissionplants. Strategicrecommendations
+Revised:28May2025
+areproposed,includingprioritizingAAOprocessoptimization,implementingintelligent
+Accepted:30May2025
+Published:16June2025 chemicaldosingcontrol,utilizingfoodwastewaterasanalternativecarbonsource,anden-
+hancingoperationalloadrates,toadvancesynergisticenvironmentalandcarbonmitigation
+Citation: Wang,H.;Zhang,X.;Li,L.;
+Lin,Z.;Tian,Y.CarbonEmission goalsineasternChina’swastewatersector.
+CharacteristicsandLow-Carbon
+OperationEvaluationofSome Keywords: sewagetreatment;greenhousegas;EastChinaregion;carbonaccounting
+WastewaterTreatmentPlantsinEast
+China:AnEmpiricalStudyBasedon
+ActualProductionData.Appl.Sci.
+2025,15,6716. https://doi.org/
+1. Introduction
+10.3390/app15126716
+The issue of global warming induced by elevated greenhouse gas (GHG) concen-
+Copyright:©2025bytheauthors.
+trations has profoundly impacted natural ecosystems and human living environments,
+LicenseeMDPI,Basel,Switzerland.
+emergingasacriticalchallengeconfrontingtheglobalcommunity[1]. Wastewatertreat-
+Thisarticleisanopenaccessarticle
+distributedunderthetermsand mentplants(WWTPs)playapivotalroleinreducingaquaticpollutants,enhancingwater
+conditionsoftheCreativeCommons quality,andrestoringaquaticecosystems[2–6]. AccordingtotheInternationalWaterAs-
+Attribution(CCBY)license sociation(IWA)ExecutivePresident,carbonemissionsfromenergyconsumptionduring
+(https://creativecommons.org/
+urbanwastewaterandwatersupplytreatmentprocessesaccountfor3–8%oftotalglobal
+licenses/by/4.0/).
+Appl.Sci.2025,15,6716 https://doi.org/10.3390/app15126716
+
+--- Page 2 ---
+Appl.Sci.2025,15,6716 2of24
+GHG emissions [7]. As the world’s largest carbon emitter [8,9], China has witnessed a
+rapid expansion in both the number and treatment capacity of WWTPs over the past
+decade[10,11],withthecarbonfootprintofthewastewatertreatmentsectorcontributing
+1–3% of national emissions [12]. Against the backdrop of China’s “dual carbon” goals,
+conductingin-depthresearchintotheGHGemissioncharacteristicsandlow-carbonop-
+erationalstatusofdomesticWWTPs,alongsidesystematicallycollectingandanalyzing
+foundationaldata,representsaprerequisiteforformulatingintegratedpollutantreduction
+andcarbonmitigationpolicies.
+ExistingstudiespredominantlyfocusonindividualWWTPsormacro-statisticalanal-
+yses,withconspicuousgapsinsystematic,high-precisioncarbonemissionaccountingfor
+specificregions—particularlyconcerningchemicaldosingandsludgetreatmentprocesses.
+Dengting Guo et al. [13] employed data from the Urban Drainage Statistical Yearbook
+and an optimized life cycle assessment methodology integrated with IPCC guidelines
+toquantifythetotalgreenhousegas(GHG)emissionsofChina’swastewatertreatment
+sectorin2017. However,theiranalysisreliedon2017statisticaldata,whichmaynotreflect
+currentoperationalrealities,andcertainparameters—suchastransportationdistancesand
+sludgetreatmentenergyconsumption—werederivedfromassumptionsorliteratureaver-
+ages. JiaruiXietal.[14]collectedoperationaldatafrom50WWTPsinShanghai,including
+treatmentvolume,influentquality,andenergyconsumption,andappliedIPCC2006and
+2019guidelinesalongsideanoperation-specificdataintegrationmethod(ODIM)toevalu-
+atedirectandindirectGHGemissions. Theirstudyemphasizedindirectemissionsfrom
+electricityconsumptionbutexcludedcarbonemissionsassociatedwithchemicaldosing.
+YindongTongetal.[15]utilizeddatafromtheChinaEnvironmentalStatisticsDatabase
+andChinaUrbanConstructionYearbooktoestimatenationalwastewatertreatment-related
+GHGemissionsin2020. Despitetheseefforts,noneoftheaforementionedstudiesincorpo-
+ratedcomprehensive,plant-specificoperationaldata,leadingtouncertaintiesincarbon
+accounting. QibiaoYuetal.[2]leveragedtheChinaUrbanConstructionStatisticalYear-
+bookandMinistryofEcologyandEnvironmentreports,employingstatisticalmodeling
+to analyze spatiotemporal GHG emission patterns in coastal prefecture-level cities and
+identify drivers of wastewater treatment emissions. Meichen Ji et al. [16] investigated
+temporal–spatialGHGemissionvariationsacrosseightBeijingWWTPsbetween2007–2021,
+exploringseasonalimpacts,effluentstandardupgrades,operationalparameters,andclean
+energyadoption. However,theiranalysisomittedindirectemissionsfromchemicalusage
+andreliedonforeignemissionfactors(e.g.,ItaliandataforCO ),potentiallyintroducing
+2
+biases. Existingresearchpredominantlyreliesonstatisticalyearbooksratherthangranular,
+plant-leveloperationaldata,particularlyneglectingchemicaldosingdetails. Toaddress
+these gaps, this study aggregates full-scope 2024 operational data from 98 WWTPs in
+easternChina,encompassingwatertreatmentvolumes,energyconsumption,sludgepro-
+duction,andprecisechemicaldosingrecords(e.g.,agenttypes,dosages,concentrations).
+Thisdatasetensuresaccuracyandcomprehensivenessincarbonaccounting. Furthermore,
+thestudyadoptstheAssessmentStandardforCarbonMitigationinMunicipalWWTPs
+(2023)publishedbytheChinaUrbanWaterSupplyandDrainageAssociation,withmethod-
+ologicalrefinementsincludingChina-specificemissionfactorsforCH andN Otailoredto
+4 2
+regionaltreatmentprocesses. Theseenhancementsenableahigh-resolutionquantification
+ofactual2024carbonemissions,offeringcriticalinsightsfortargetedmitigationstrategies.
+Wen-Jie Du et al. [17] analyzed GHG emissions from 5155 municipal WWTPs in China
+between2009and2019usingdatafromtheMinistryofHousingandUrban-RuralDevel-
+opment’s“NationalUrbanWastewaterTreatmentManagementInformationSystem”and
+localgovernmentdisclosures. Theyproposedmitigationtechnologies—suchasheatpump
+
+--- Page 3 ---
+Appl.Sci.2025,15,6716 3of24
+energyrecovery,anaerobicdigestionforbiogasproduction,andhigh-solidsside-stream
+digestion—andevaluatedtheireconomicviability.
+East China, the most economically and culturally developed region in China, en-
+compasses Shanghai, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Shandong, and Taiwan
+provinces.Basedondailyoperationaldatafrom98WWTPsacrossEastChinain2024,this
+studyestablishedahigh-precisioncarbonemissionaccountingframeworktocomprehen-
+sivelyquantifyemissionsfromthesefacilities.Subsequentanalyseselucidatedregional
+emissionpatterns,low-carbonoperationalperformance,andinfluencingfactors. Alow-
+carbonoperationevaluationsystemwasfurtherdevelopedtoproposeactionablestrategies
+forsynergisticpollutantreductionandcarbonmitigation.
+2. BackgroundandMethods
+2.1. OverviewofSewageTreatmentPlantsinEastChina
+This study focused on 98 operational municipal WWTPs in the East China region
+(excludingTaiwanProvinceandShanghaiMunicipality).Thesefacilitiesarelocatedincities
+characterizedbysubtropicalmonsoonandtemperatemonsoonclimates,withannualmean
+temperaturesrangingfrom15to18◦C.ThegeographicdistributionoftheselectedWWTPs
+across this region is visualized in Figure 1, demonstrating their spatial concentration
+patternsrelativetourbanagglomerationsandhydrologicalsystems.
+Figure1.Geographicaldistributionof98sewagetreatmentplantsinEastChina.
+Accordingtothe2022NationalStatisticalYearbook,theEastChinaregioncontains844op-
+erationalmunicipalWWTPswithanaggregatetreatmentcapacityof7.24×107m3/d.The
+presentstudyinvestigated98WWTPsfeaturingatotaldesignedcapacityof4.48×106m3/d
+andanaveragedailythroughputof3.55×106m3/d.Thesefacilitiesexhibiteddesigncapaci-
+tiesrangingfrom0.2×104to20.0×104m3/d,with73plants(74.5%ofthecohort)having
+
+--- Page 4 ---
+Appl.Sci.2025,15,6716 4of24
+capacitiesbelow5.0×104m3/dcontributing43.4%ofthetotaltreatmentvolume(Table1).
+Processconfigurationsweredominatedbyanaerobic–anoxic–oxic(AAO),anoxic–oxic(AO)
+withmulti-stagevariants,andoxidationditchsystems,whichcollectivelyrepresented91.9%of
+thefacilities(Table2)and92.1%ofthetotaltreatmentcapacity.Influentcharacteristicsduring
+2024averagedCOD205.1mg/L,BOD76.6mg/L,TP3.34mg/L,TN32.5mg/L,andNH -N
+4+
+25.3mg/L.ThetopfivecitieswiththehighestinfluentCODlevelswereQingdao, Linyi,
+Suzhou,Huzhou,andTaicang,indicatinglocalizedindustrialormunicipaldischargepatterns
+that warrant targeted pretreatment optimization. Effluent quality compliance was evalu-
+atedagainstthreetiersoftheDischargeStandardforPollutantsfromMunicipalWastewater
+TreatmentPlants(GB18918-2002)[18]:Class1A,Class1B,andsuperiortoClass1Astandards.
+Table1.ScaledistributionofWWTPs.
+TotalDesign Proportionof TotalProcessing Proportionof
+DesignScale/ Number
+Quantity Scale/ Total Scale/ Total
+(104m3·d−1) Fraction
+(104m3·d−1) DesignScale (104m3·d−1) ProcessingScale
+0~1 11 11.2% 9.7 2.2% 6.9 1.9%
+1~5 62 63.3% 193.9 43.3% 147.5 41.5%
+5~10 19 19.4% 146 32.6% 123.1 34.7%
+10~20 6 6.1% 98.1 21.9% 77.5 21.8%
+Table2.ProcessdistributionofWWTPs.
+TotalDesign TotalProcessing
+Process Number Proportionof ProportionofTotal
+Quantity Scale/ Scale/
+Type Fraction TotalDesignScale ProcessingScale
+(104m3·d−1) (104m3·d−1)
+AAO 68 69.4% 323 72.1% 255.5 72.0%
+AO 13 13.3% 37.5 8.4% 29 8.2%
+SBR 4 4.1% 17 3.8% 14.2 4.0%
+MBR 2 2.0% 15.5 3.5% 12.1 3.4%
+OD 9 9.2% 52 11.6% 42.3 11.9%
+UCT 2 2.0% 2.7 0.6% 1.8 0.5%
+AAO:Anaerobic–anoxic–aerobicprocess;AO:Anaerobic–oxic;SBR:Sequencingbatchreactoractivatedsludge
+process;MBR:Membranebioreactor;OD:Oxidationditchprocess;UCT:UniversityofCapetown.
+2.2. CarbonEmissionAccountingBoundariesandMethodologies
+2.2.1. SystemBoundaryDefinition
+Theaccountingboundaryforthisstudywasdefinedastheintra-plantprocessesof
+WWTPs,encompassinginfluentreception,pretreatment,biologicaltreatment,advanced
+treatment,disinfection,andsludgedewatering. Excludedfromtheboundaryweresludge
+disposal operations and emissions occurring after wastewater discharge into receiving
+waters. Basedonorganiccarbonorigins,CO emissionswithinWWTPswereclassified
+2
+intotwocategories: biogenicandfossil-derived[19]. ThemajorityofCO emissionsorigi-
+2
+natedfrombiogeniccarbonpresentinwastewater,withonlyaminorfractionattributable
+tofossilfuelcombustion.ConsistentwithIPCCguidelines, biogenicCO —traceableto
+2
+organicmatterproducedthroughrecentplantphotosynthesis—wasexcludedfromthe
+accountingframework, asitrepresentsashort-termcarboncyclebetweenatmospheric
+andbiogenicpools. Conversely,fossil-derivedCO emissionswerefullyincorporatedinto
+2
+theassessment.
+Electricity-relatedcarbonemissionsincludedauxiliarypowerconsumptionforboth
+productionandadministrativeactivities.Whilethiscomponentdoesnotdirectlycontribute
+totreatmentprocesses,itwasincludedintheaccountingduetotwopracticalconsiderations:
+(1)lackofuniversalsub-meteringforofficeelectricityacrossallsurveyedplantsand(2)its
+
+--- Page 5 ---
+Appl.Sci.2025,15,6716 5of24
+relativelyminorcontribution(0.7–1.6%oftotalelectricityuse)totheoverallcarbonfootprint
+ofWWTPoperations[20].Thispragmaticinclusionensurescomprehensivesystem-level
+analysiswhilemaintainingmethodologicalconsistency.
+2.2.2. CarbonEmissionAccountingMethodologies
+Currently, Chinalacksaunifiednationalstandardforcarbonemissionaccounting
+in the wastewater treatment sector [21,22]. Existing practices are primarily guided by
+industrygroupstandards. TheAssessmentStandardforCarbonMitigationinMunicipal
+WastewaterTreatmentPlants(T/CUWA50055-2023)[23],publishedbytheChinaUrban
+Water Association on 21 December 2023, was adopted as the primary methodological
+basisforthisstudy. ComparedtotheIPCC2019guidelines,theChinesestandardoffers
+a more comprehensive accounting scope by explicitly incorporating carbon emissions
+fromchemicalconsumptionandfossil-derivedCO ,therebyenhancingitsapplicability
+2
+toindividualWWTPs. Incontrast,theIPCC2019frameworkisbettersuitedfornational-
+orcity-scaleemissionsinventorydevelopment. Furthermore,thedefaultCH andN O
+4 2
+emissionfactorsinIPCCguidelines—derivedpredominantlyfromEuropeanandNorth
+American WWTP operational data—exhibit limitations in reflecting China’s treatment
+processcharacteristics.AcomparativeanalysisofthethreeGHGaccountingmethodologies
+issummarizedinTable3.
+Table3.Comparisonofaccountingboundariesacrossdifferentmethodologies.
+AccountingCategory IPCC2019 T/CAEPI2022 T/CUWA2023
+√ √ √
+Pretreatment
+√ √ √
+BiologicalTreatment
+√ √ √
+On-siteSludgeDewatering
+Off-sitePipelineNetwork × × ×
+√ √
+ChemicalConsumption ×
+BiogenicCO Emissions × × ×
+2 √
+Fossil-derivedCO Emissions × ×
+2
+Off-siteSludgeDisposal × × ×
+√
+Notes:“ ”indicatesinclusionintheaccountingboundary;“×”indicatesexclusion.T/CAEPI2022:Technical
+SpecificationforLow-CarbonOperationEvaluationofWastewaterTreatmentPlants(T/CAEPI49-2022)[24].
+T/CUWA2023[24]: AssessmentStandardforCarbonMitigationinMunicipalWastewaterTreatmentPlants
+(T/CUWA50055-2023).
+TheT/CUWA2023standardexpandstheaccountingscopecomparedtoIPCC2019
+andT/CAEPI2022byexplicitlyincorporatingfossil-derivedCO emissionsandchemical
+2
+consumption-relatedcarbonemissions,therebyenhancingitsapplicabilitytoindividual
+WWTPsinChina.
+Thisstudydevelopedahigh-precisioncarbonemissionaccountingframeworkfor
+WWTPsbyintegratingthreekeymethodologicalcomponents:
+1. The“CarbonEmissionReductionAssessmentStandardforUrbanWastewaterTreat-
+mentPlants”(T/CUWA50055-2023)issuedbytheChinaUrbanWaterSupplyand
+DrainageAssociation(21December2023);
+2. The 2021 power sector CO emission factors published jointly by the Ministry of
+2
+EcologyandEnvironmentandtheNationalBureauofStatistics;
+3. Process-specificCH andN Oemissionfactorsfordifferenttreatmentconfigurations
+4 2
+(Table4),derivedasweightedaveragesfromliteraturevaluesinthe“TechnicalGuide
+forCarbonAccountingandEmissionReductionPathwaysinUrbanWaterSystems”.
+
+--- Page 6 ---
+Appl.Sci.2025,15,6716 6of24
+Table4.EmissionfactorsofCH andN OforWWTPswithdifferenttreatmentprocesses.
+4 2
+CH EmissionFactor N OEmissionFactor
+ProcessType 4 2
+/(kgCH ·kgCOD−1) /(kgN O·kgN−1)
+4 2
+AAO 0.0097 0.0045
+SBR 0.0042 0.0276
+OD 0.0092 0.0017
+AO 0.0027 0.0115
+UCT 0.0180 0.0005
+DirectCarbonEmissionQuantificationProtocols
+(1) BiochemicalProcessCH Emissions
+4
+The annual CH emission from wastewater treatment biochemical processes was
+4
+calculatedusingEquation(1):
+m = (cid:0) 1+F (cid:1) ×Q×(COD −COD )×EF ×10−3 (1)
+CH4 CH4 in eff CH4
+where:
+m : AnnualCH emission(kgCH /a).
+CH4 4 4
+F : Fugitiveemissionadjustmentfactor(%)forpumpingstationsandgritchambers
+CH4
+(range: 10.25–26.19%;20%adoptedhere).
+Q:Influentflowrate(m3/a).
+COD /COD : Influent/effluentchemicaloxygendemand(mg/L).
+in eff
+EF : Process-specificmethaneemissionfactor(kgCH /kgCOD).Measuredvalues
+CH4 4
+are preferred. When unavailable, recommended values range from 0.004 to 0.0075 kg
+CH /kgCOD,withhighervaluesapplicableforsludge-accumulatingunits. Themedian
+4
+valueof0.00575kgCH /kgCOD(fromAAOprocessguidelines)wasusedhere.
+4
+(2) N OEmissionsfromNitrogenTransformation
+2
+DirectN OemissionsduringwastewatertreatmentwerecalculatedusingEquation(2):
+2
+44
+m =Q×(TN −TN )×EF ×10−3× (2)
+N2O in eff N2O
+28
+where:
+m : AnnualdirectN Oemission(kgN O/a).
+N2O 2 2
+TN /TN : Influent/effluenttotalnitrogenconcentration(mg/L).
+in eff
+EF : N O emission factor (kg N O/kg N). Priority should be given to values
+N2O 2 2
+derivedfrommechanisticmodelsorcontinuousmonitoring. Whenneitherisfeasible,the
+defaultvalueof0.01kgN O/kgNmaybeapplied.
+2
+Carbon emissions from fossil carbon mineralization during wastewater treatment
+werequantifiedusingEquation(3),whilethosefromexternalcarbonsourcemineralization
+werecalculatedusingEquation(4):
+m =Q×(COD −COD )×EF ×FCF×10−3 (3)
+fCO2 in eff CO2
+where:
+m : Annualfossilcarbon-derivedCO -equivalentemission(kgCO -eq/a).
+fCO 2 2
+2
+EF : EmissionfactorforbiochemicalCO -equivalent. emissions(kgCO -eq/kg
+CO2 2 2
+COD).Recommendedrange: 0.366–0.560kgCO -eq/kgCOD;0.463kgCO -eq/kgCOD
+2 2
+usedhere.
+FCF:Fossilcarbonfractionininfluentorganicmatter(%),rangingfrom5%to20%
+(10%adoptedhere).
+m =EF ×M ×r (4)
+eCO2 CO2 e
+where:
+
+--- Page 7 ---
+Appl.Sci.2025,15,6716 7of24
+m : Annualexternalfossilcarbon-derivedCO emission(kgCO -eq/a).
+eCO2 2 2
+M : Annualexternalcarbonsourcedosage(kg/a).
+e
+r: Effectivecarboncontent(%).
+Assumingtwo-thirdsofexternalcarboniscatabolizedandone-thirdisanabolized,
+directCO emissionfactorsforcommoncarbonsources(glucose,sodiumacetate,acetic
+2
+acid,methanol)werecalculatedusingEquations(5)–(8):
+2 44
+EF = ×6× =0.98(kgCO /kgC H O ) (5)
+C6H12O6 2 6 12 6
+3 180
+2 44
+EF = ×2× =0.72(kgCO /kgCH COON ) (6)
+CH3COONa 2 3 a
+3 82
+2 44
+EF = ×2× =0.98(kgCO /kgCH COOH) (7)
+CH3COOH 2 3
+3 60
+2 44
+EF = ×1× =0.92(kgCO /kgCH OH) (8)
+CH3OH 2 3
+3 32
+TotalCO -equivalentemissionsfrombiochemicalreactions(M )werecalculated
+2 CO2
+usingEquation(9):
+M =m +m +m ×28 (9)
+CO2 fCO2 eCO2 CH4
+where:
+M /M : CH /N O-equivalentCO emissions(kgCO -eq/a).
+CH4 N2O 4 2 2 2
+CH andN OemissionswereconvertedtoCO -equivalentsusingIPCC-recommended
+4 2 2
+GWPsbyEquations(10)and(11):
+M =m ×GWP withGWP =28·kg·CO /kg·CH (10)
+CH4 CH4 CH4 CH4 2 4
+M =m ×GWP withGWP :265·kg·CO /kg·N O (11)
+N2O N2O N2O N2O 2 2
+Totaldirectgreenhousegasemissions(M )fromWWTPoperationswerecalculated
+d
+usingEquation(12):
+M =M +M +M (12)
+d CO2 N2O CH4
+IndirectCarbonEmissionAccountingMethodologiesforWastewaterTreatmentPlants
+Theindirectgreenhousegas(GHG)emissionsfromWWTPsprimarilyoriginatefrom
+electricityconsumptionandchemicalreagentusage,withelectricityconsumptionbeing
+thedominantfactor. DuringtheoperationofWWTPs,equipmentsuchasblowers,pumps,
+aerationdevices,andagitatorsconsumesignificantamountsofelectricity.TheindirectGHG
+emissionsfromelectricityconsumptioncanbecalculatedusingthefollowingFormula(13):
+m =E ×EF (13)
+e e e,p
+where:
+m representstheannualcarbonemissions(inkgCO -eq/a)fromelectricityconsump-
+e 2
+tionattheWWTP.
+EF denotestheaverageCO equivalentemissionfactorfortheregionalpowersector
+e,p 2
+(inkgCO /kW·h),adoptingthe2021powersectorCO emissionfactorpublishedbythe
+2 2
+MinistryofEcologyandEnvironmentandtheNationalBureauofStatisticsofChina. For
+instance,theaverageprovincialpowersectorCO emissionfactorforShandongProvince
+2
+in2021was0.6838kgCO /kW·h.
+2
+E signifiestheannualelectricityconsumptionoftheWWTP(inkW·h/a).
+e
+Additionally,variouschemicalssuchasflocculants,coagulants,carbonsources,and
+disinfectantsareaddedduringthewastewatertreatmentprocess. Theproductionofthese
+chemicalsalsoresultsinGHGemissions. TheCO emissionsfromchemicalconsumption
+2
+canbeaccountedforusingtheformula(14):
+
+--- Page 8 ---
+Appl.Sci.2025,15,6716 8of24
+∑(cid:0) (cid:1)
+m = M ×EF ×r (14)
+c c,j c,j c,j
+j=1
+where:
+m denotestheannualcarbonemissions(inkgCO -eq/a)fromchemicalconsumption
+c 2
+attheWWTP.
+M representstheannualdosageofthej-thchemical(inkg/a).
+c,j
+EF signifiestheCO equivalentemissionfactorofthej-thchemical(inkgCO -eq/kg).
+c,j 2 2
+ThespecificparametersaredetailedinTable5.
+Table5.Carbonemissionfactorsofdifferentchemicals.
+EmissionFactorEF EmissionFactorEF
+ChemicalReagent c ChemicalReagent c
+(kgCO ·kg−1) (kgCO ·kg−1)
+2 2
+Glucose 1.40 Polyacrylamide(PAM) 2.85
+SodiumAcetate 2.90 SodiumBicarbonate 1.17
+Methanol 0.65 SodiumHydroxide 0.46
+AceticAcid 1.92 CalciumHydroxide 1.11
+PolyaluminumChloride
+6.19 SodiumCarbonate 1.46
+(basedonAl3+mass)
+FerricChloride
+2.86 Quicklime(CalciumOxide) 1.18
+(basedonFe3+mass)
+FerrousChloride 0.22 HydrochloricAcid 1.20
+AluminumSulfate 0.30 CitricAcid 8.17
+IronSulfate
+0.23 SodiumHypochlorite 2.99
+(basedonFe3+mass)
+Magnet 0.0081 SodiumChlorate 5.11
+ActivatedCarbonPowder 7.96 OtherChemicalAgents 1.60
+r denotestheeffectivecontent(%)ofthej-thchemical.
+c,j
+The data presented in Table 5 are sourced from Supplementary Table A.0.4 of the
+AssessmentStandardforCarbonMitigationinMunicipalWastewaterTreatmentPlants
+(T/CUWA50055-2023).
+3. ResultsandDiscussion
+3.1. OverallEvaluationofCarbonEmissions
+In2024,thetotaltreatedwatervolumeof98sewagetreatmentplants(STPs)inEast
+Chinareached1.29×109m3,withatotalcarbonemissionof5.17×108tCO -eq. Among
+2
+theseemissions,directemissionsamountedto1.96×108kgCO -eq,whileindirectemis-
+2
+sionstotaled3.21×108 tCO -eq. ThecarbonemissionsofindividualSTPsrangedfrom
+2
+0.29×103to25.80×103tCO -eq,withanaverageof5.27×103tCO -eqandamedianof
+2 2
+3.43×103tCO -eq.
+2
+Theaveragecarbonemissionintensityofthe98STPswas0.399kgCO -eq/m3,varying
+2
+from0.160to1.749kgCO -eq/m3. ComparedtothecarbonemissionintensityofSTPsin
+2
+Chinareportedinotherliterature(0.360–1.439kgCO -eq/m3)[25–30], thecarbonemis-
+2
+sionintensityofSTPsinEastChinawaslower.Itwasalsolowerthantheaveragevalues
+reported for Poland, Finland [31], and several developing countries [32]. The average
+carbonemissionintensityofwastewatertreatmentplants(WWTPs)inPolandandFinland
+isreportedas31kgCO eq/PEand63kgCO eq/PE,respectively,whennormalizedto
+2 2
+populationequivalent(PE).Whenrecalculatedusingtreatedwatervolumeasthefunc-
+tionalunit,theaverageemissionintensityforbothcountriesconvergestoapproximately
+0.7kgCO eq/m3. In comparison, Guo et al. [33] estimated an average greenhouse gas
+2
+emissionintensityof0.45kgCO -eq/m3across5282ChineseWWTPs. Notably,thisvalue
+2
+
+--- Page 9 ---
+Appl.Sci.2025,15,6716 9of24
+exceedstheemissionintensityobservedineasternChina’sfacilities,whichisattributedto
+theinclusionofsludgedisposal-relatedemissionsinGuoetal.’snational-scaleassessment.
+Bycontrast,thepresentstudyfocusesondirectprocessemissionsandchemical-associated
+carbonoutputs,therebyprovidingarefinedbaselinefortargetedregionalmitigationstrate-
+gies. AsshowninFigure2,thedistributionofcarbonemissionintensityinEastChina’s
+STPs generally followed a normal distribution. Specifically, five STPs (5.1%) had a car-
+bon emission intensity of less than 0.2 kgCO -eq/m3, 82 STPs (83.1%) had an intensity
+2
+between0.2and0.6kgCO -eq/m3,andonlythreeSTPs(3.1%)hadanintensityhigherthan
+2
+1.0kgCO -eq/m3.
+2
+Figure2.CarbonemissionintensitydistributionofwastewatertreatmentplantsinEastChina.
+TheproportionofeachcarbonemissioncategoryinEastChina’sSTPsisillustrated
+in Figure 3. Indirect carbon emissions were the primary source of carbon emissions in
+STPs, with electricity consumption contributing the largest proportion, reaching 47.9%.
+This finding aligns with the research trends identified by Yang et al. [34,35] and other
+scholars. However,theproportionofcarbonemissionsfromelectricityconsumptionin
+EastChina(47.9%)wassignificantlylowerthanthevaluereportedintheirstudy(58.3%).
+ThisdiscrepancymaybeattributedtothehigherdegreeofgridcleanlinessinEastChina.
+Theproportionofcarbonemissionsfromchemicalconsumptionwas14.2%,indicating
+thattheimpactofchemical-relatedcarbonemissionsontheoverallcarbonfootprintofSTPs
+cannotbeoverlooked. Notably,fossil-derivedCO ,whichwasnotconsideredintheIPCC
+2
+accountingframework,accountedfor4.6%ofcarbonemissionsinthisstudy. Therefore,we
+recommendincorporatingfossil-derivedCO intothecarbonemissionaccountingsystem
+2
+ofSTPstoprovideamorecomprehensiveassessmentoftheirenvironmentalimpact.
+From the perspective of processing units, the biochemical system (64.2%) and the
+waterintakeandliftingsystem(22.4%)wereidentifiedasthemaincontributorstocarbon
+emissions in STPs. As shown in Figure 4, a positive correlation was observed between
+powerconsumptionpertonofwatertreatedandcarbonemissionintensityinSTPs.
+
+--- Page 10 ---
+Appl.Sci.2025,15,6716 10of24
+Figure3.Theproportionofcarbonemissionsfromdifferentsources(a)anddifferenttreatmentstages
+(b)ofsewagetreatmentplants.
+Figure4.Therelationshipbetweenpowerconsumptionpertonofwaterandcarbonemissionintensity.
+Directcarbonemissionsaccountedfor37.9%ofthetotalcarbonemissions,withCH
+4
+andN Oemissionscontributing16%and17.3%, respectively. Itisnoteworthythatthe
+2
+proportionofN OemissionsexceededthatofCH ,primarilyduetotwofactors: first,the
+2 4
+globalwarmingpotential(GWP)ofN OissignificantlyhigherthanthatofCH ;second,the
+2 4
+lowinfluentC/Nratioofthe98STPsincludedinthisstudy,withanaveragevalueof2.36,
+resultedinsuboptimalbiologicalnitrogenremovalefficiencyandincreasedproductionof
+N Oasanintermediatebyproduct[36–38]. Consequently,despitethedirectN Oemissions
+2 2
+(337.3 t) being far lower than CH emissions (2953.7 t), the contribution of N O to the
+4 2
+overallcarbonfootprintremainedsignificant.
+Asensitivityanalysiswasconductedwithinthisstudy’sGHGaccountingframework
+toevaluatetheinfluenceofcriticalparameters,includingCH andN Oemissionfactors,
+4 2
+andtheinfluentCOD/TNratio. Theanalysisrevealedthefollowing:
+(1) A1%variationinCH orN Oemissionfactorsresultedinaproportional1%change
+4 2
+inCH orN Oemissions,respectively.
+4 2

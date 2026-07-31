@@ -1,0 +1,627 @@
+--- Page 1 ---
+energies
+Article
+Evaluating the Operation of a Full-Scale Sequencing Batch
+Reactor–Reverse Osmosis–Evaporation System Used to Treat
+Landfill Leachates: Removal of Pollutants, Energy
+Consumption and Greenhouse Gas Emissions
+KonstantinosTsompanoglou1,2,OlgaP.Koutsou2andAthanasiosS.Stasinakis2,*
+1 RegionalAssociationofSolidWasteManagementAgenciesofCentralMacedonia,Fragon6-8,
+54626Thessaloniki,Greece;envm22045@env.aegean.gr
+2 DepartmentofEnvironment,UniversityoftheAegean,81100Mytilene,Greece;koutsou@env.aegean.gr
+* Correspondence:astas@env.aegean.gr;Tel.:+30-2251036257
+Abstract:Limitedinformationisavailableintheliteratureregardingtheenergyconsumptionand
+the greenhouse gases emitted during landfill leachates treatment. A full-scale landfill leachates
+treatmentsystemthatincludedprimarysedimentation,biologicaltreatmentinsequencingbatch
+reactors, reverse osmosisand mechanical vaporrecompression evaporationwas monitored and
+evaluatedfortheremovalofmajorpollutants,energyconsumptionandgreenhousegasemissions.
+Samplesweretakenduringaperiodoftwoyearsfromdifferentpointsofthesystem,whiletheactual
+powerconsumptionwascalculatedconsideringtheavailablemechanicalequipmentandthehoursof
+operation.Thequantitiesofgreenhousegasesemittedwereestimatedusingappropriateequations
+andbasedontheoperationalcharacteristicsofthesystem.Accordingtochemicalanalyses,biological
+treatmentresultedinpartialremovalofCODandtotalnitrogen,whiletheremovalofBOD and
+5
+NH -Nwassignificant,reaching90and98%,respectively. Useofreverseosmosisincreasedthe
+4
+Citation:Tsompanoglou,K.; removalofallpollutants,satisfyingtherequirementsofthelegislationonwastewaterdischargeinto
+Koutsou,O.P.;Stasinakis,A.S. theenvironment. Powerconsumptionwascalculatedtobe35.3KWhrperm3oftreatedleachate,
+EvaluatingtheOperationofa whilemechanicalvaporrecompressionevaporationwasresponsiblefor60.5%ofthetotalenergy
+Full-ScaleSequencingBatch required.Thecontributionofotherprocessestoenergyconsumptionwasasfollows,indecreasing
+Reactor–ReverseOsmosis–Evaporation order:sequencingbatchreactors>reverseosmosis>primarytreatment.Therootsblowervacuum
+SystemUsedtoTreatLandfill pumpusedformechanicalvaporrecompressionevaporation,andtheblowersprovidingairtothe
+Leachates:RemovalofPollutants,
+sequencingbatchreactors,werethemostenergy-intensivepiecesofapparatus,contributing44.2%and
+EnergyConsumptionand
+11.3%oftherequiredenergy,respectively.Thequantityofgreenhousegasesemittedwasestimated
+GreenhouseGasEmissions.Energies
+tobe27.7KgCO perm3 oftreatedleachates. Amongthedifferentprocessesused,biological
+2eq
+2023,16,6872. https://doi.org/
+treatmentandmechanicalvaporrecompressionevaporationcontributedto45.7%and44.1%ofthe
+10.3390/en16196872
+totalemissions,respectively. Thefindingsofthisstudyrevealthatanintegratedlandfillleachate
+AcademicEditor:GiorgioVilardi treatmentsystemthatcombinesbiologicaltreatmentandreverseosmosiscanassuretheprotection
+oftheaquaticenvironmentbyproducinghigh-qualityeffluent;however,furtherresearchshould
+Received:2August2023
+Revised:26September2023 beconductedregardingthesustainablemanagementofreverseosmosisconcentrate. Mechanical
+Accepted:27September2023 vaporrecompressionevaporationcontributessignificantlytotheenvironmentalfootprintofthe
+Published:28September2023 landfillleachatestreatmentsystemduetobothhighenergyconsumptionandelevatedemissionsof
+greenhousegases.
+Keywords:landfill;leachatetreatment;energyconsumption;GHGsemissions;reverseosmosis;SBR;
+Copyright: © 2023 by the authors.
+mechanicalvaporrecompressionevaporators
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditionsoftheCreativeCommons
+1. Introduction
+Attribution(CCBY)license(https://
+creativecommons.org/licenses/by/ Thetransferofmunicipalsolidwastetolandfillsrepresentsthemostcommonprac-
+4.0/). ticeforsolidwastemanagementinGreece[1]. In2020,over75%oftheproducedsolid
+Energies2023,16,6872.https://doi.org/10.3390/en16196872 https://www.mdpi.com/journal/energies
+
+--- Page 2 ---
+Energies2023,16,6872 2of10
+wastesweredisposedin82landfillsaroundthecountry[2]. Theirlandfillingproduceshigh
+amountsofleachates,mainlyduetotheinherentwatercontentofsolidwaste,rainwater
+percolationandthewaterproducedduringwastedecomposition[3]. Landfillleachateis
+characterizedasasalineandhighlycontaminatedwastewaterwithalowratioofbiochemi-
+caloxygendemand(BOD )tochemicaloxygendemand(COD),highlevelsofammonium
+5
+nitrogen(NH -N)andincreasedconcentrationsofvariousmicropollutantssuchasphar-
+4
+maceuticals,perfluorinatedsubstancesandpersonalcareproducts[4,5].
+Management of leachates is one of the most significant challenges to address dur-
+ing the design, construction and operation of a landfill site [6]. Conventional leachate
+treatmentoftenincludesrecirculationoftheproducedleachateintothelandfillbody[7,8],
+co-treatment of leachates with municipal sewage in centralized Wastewater Treatment
+Plants[9]andon-siteaerobicoranaerobicbiologicaltreatment[10,11]. Inthecaseofon-site
+treatment,chemicalor/andphysicaltreatmentprocessessuchascoagulation–flocculation,
+chemicaloxidation,hydrodynamiccavitation,carbonadsorptionanduseofmembranesare
+sometimescombinedwithbiologicalprocessestoachieveahigh-qualityeffluent[12–18].
+ThetreatmentsystemsthatarecommonlyusedinthelargerGreeklandfillscombinepri-
+marytreatment,aerobicbiologicaltreatmentinactivatedsludgebioreactorsandreverse
+osmosis(RO)inseries. Furthermore,inthelandfillsofthetwolargestGreekcities(Athens
+and Thessaloniki), MVR evaporators have also been installed for the treatment of RO
+concentrates. ThisprocessachievesimportantcondensationoftheROconcentratewhich,
+duetoitstoxicnature,istypicallyrecirculatedtothelandfill.
+Theenergyconsumptionofthedifferentprocessesshouldbeasignificantfactorin
+selection of the methods to be applied, as it significantly affects the operating costs of
+alandfillsite. Itiswidelyknownthatbiologicaltreatmentinactivatedsludgereactors
+isanenergy-intensiveprocesswhichrequiresamountsofenergyrangingbetween0.36
+and0.67KWh/m3formunicipalwastewater[19]. Amajorpartoftherequiredpoweris
+usedforaerationofthemixedliquorinaerobictanks[20]. AsregardsROtreatment,the
+predominantsourceofenergyconsumptionisthehigh-pressuremembraneprocess[21],
+whileoperationoftheevaporatorsrequiressignificantamountsofenergytoheatthetreated
+liquids [22]. Despite the importance of energy consumption in the operational costs of
+LeachateTreatmentPlants(LTPs),limitedrelevantinformationbasedonfull-scalesystems
+isavailableintheliterature. DiMariaetal.[23]studiedtheenergyconsumptionofafull-
+scaleLTPinItalyandestimatedthatforeachm3oftreatedleachate,theMVRevaporator
+consumed45.5kWhofelectricity. Thisamountcorrespondedto65%ofthetotalpower
+consumption. Zhangetal.[24]studiedtheuseofmembranebioreactors(MBRs)forlandfill
+leachatestreatmentinChinaandconcludedthattheenergyconsumptionrangedbetween
+20and30kWhperm3. Theselevelsofpowerconsumptionweremuchhigherthanthose
+observedduringmunicipalwastewatertreatment,andthiswasduetothemuchhigher
+concentrations of pollutants in leachates and the lower biodegradability of the organic
+matter.
+Inadditiontotheenergyrequirements,greenhousegas(GHG)emissionsarealsoan
+important matter in the treatment of heavily contaminated effluents, because they add
+totheenvironmentalfootprintoftheLTP.Previousstudieshavereportedthattreatment
+of landfill leachates is a major source of N O and CH [25,26]. However, most of the
+2 4
+relevantpublishedinformationoriginatesfromlab-scaleorpilot-scalestudies.Additionally,
+previousstudieshavetypicallyfocusedontheGHGsemittedbybiologicalprocesses,while
+theroleofadvancedtreatmentprocessesisusuallyignored[27]. Specifically,Nuansawan
+etal.[28]studiedN OandCH emissionsinalab-scaleMBRleachatetreatmentsystem
+2 4
+anddiscussedtheeffectofsludgerecirculationandhydraulicretentiontime(HRT)onthe
+emittedgases. Inotherlab-scalestudies,Boonnoratetal.[29]comparedemissionsofCO ,
+2
+N OandCH inlab-scaleactivatedsludgereactors,andWangetal.[30]comparedGHG
+2 4
+emissionsarisingfromthetreatmentofyoungandagedlandfillleachate. Chiemchaisri
+etal.[27]reportedinformationonN OandCH emissionsfromapilot-scaleLTPconsisting
+2 4
+ofananoxicandanaerobicMBR.Wangetal.[25]measuredtheemissionsofN OandCH
+2 4
+
+--- Page 3 ---
+Energies 2023, 16, 6872 3 of 11
+emissions arising from the treatment of young and aged landfill leachate. Chiemchaisri et
+Energies 2023, 16, 6872 3 of 11
+al. [27] reported information on N 2O and CH emissions from a pilot-scale LTP consisting
+4
+of an anoxic and an aerobic MBR. Wang et al. [25] measured the emissions of N O and
+2
+CH in three full-scale LTPs in China and estimated a total N O emission factor equal to
+4emissions arising from the treatment of young and aged landfill 2leachate. Chiemchaisri et
+Energies2023,16,6872 8.55 g N O-N per capita and year. Finally, Hua et al. [31], using IPCC guideline3so,f c10alcu-
+al. [272] reported information on N2O and CH4 emissions from a pilot-scale LTP consisting
+lated GHG emissions from the treatment of heavily contaminated leachates, comparing a
+of an anoxic and an aerobic MBR. Wang et al. [25] measured the emissions of N2O and
+systeCmH 4t hina tth croene sfiusltle-sdc aolfe aLnTaPesr ionb Cich liangao aonnds e asntidm aateerdo ba itco ptaol nNd 2sO w emithis sainono tfhaecrto wr ehqeurael atno up-
+inthreefull-scaleLTPsinChinaandestimatedatotalN Oemissionfactorequalto8.55g
+flow8 .a5n5a ge rNo 2bOic-N s lpuedrg cea pseitma ia-nfidx eydea fir.l tFeirn awllays, Hcouuap elte dal .w [3i2t1h], au sminegm IPbCraCn eg ubiidoerleinaecst,o cra. lcu-
+N O-Npercapitaandyear. Finally,Huaetal.[31],usingIPCCguidelines,calculatedGHG
+laBt2aedse GdH oGn tehmei assbioonvse ,f rtohme mthaei ntr eoabtmjecetnitv oefs hoefa tvhiilsy sctoundtaym winearete tdo laenacahlyatzees ,t hcoem ppearrfoinrgm aa nce
+emissionsfromthetreatmentofheavilycontaminatedleachates,comparingasystemthat
+of as fyustlel-msc tahlaet LcoTnPs icsotends oisft ainngae orof bpicr ilmagaoroyn st raenadt maeernobt,i cb pioolnodgsi cwailt htr aenaotmtheern wt, hReOre aann du pM- VR
+consistedofanaerobiclagoonsandaerobicpondswithanotherwhereanup-flowanaerobic
+evapfloorwa taionnae irno bsiecr sielusd, gaen dse mtoi -cfiaxlcedu lfialttee rt hwea sp ocowueprl ecdo wnsiuthm ap mtieomnb orfa neea cbhio trreeaacttomr.e nt process.
+sludgesemi-fixedfilterwascoupledwithamembranebioreactor.
+Based on the above, the main objectives of this study were to analyze the performance
+The on-sBiates eadnodn othffe-asbitoev Ge,HthGem eaminisosbiojenctsi voefs dofifftheirsesntut dtyrewatemreetnota nparloyczeestsheesp wereforerm aalnsoce esti-
+of a full-scale LTP consisting of primary treatment, biological treatment, RO and MVR
+mateodf aufsuinllg-s caapleprLoTpPricaotnes eisqtuinagtioofnps raimndar tyhetr ecaatrmboennt f,oboiotplorginicta olft rtehaetm syesntte,mRO waansd dMiscVuRssed.
+evaporation in series, and to calculate the power consumption of each treatment process.
+The eMvaapvorroartaiocnhii nSasenriiteasr,ya nLdantodficalllc suelravteinthge thpeo wTherescosanlsounmikpit imonetorfoepaoclhittarnea atmreean (tGprreoecceess) .was
+The on-site and off-site GHG emissions of different treatment processes were also esti-
+usedT haes oan c-saistee asntuddoyff,- saintedG wHaGs emmoisnsiitoonrseodf dfoifrf ear epnetrtiroeadt mofe ntwtpor oyceeasrsse.s werealsoestimated
+mated using appropriate equations and the carbon footprint of the system was discussed.
+usingappropriateequationsandthecarbonfootprintofthesystemwasdiscussed. The
+The Mavrorachi Sanitary Landfill serving the Thessaloniki metropolitan area (Greece) was
+MavrorachiSanitaryLandfillservingtheThessalonikimetropolitanarea(Greece)wasused
+2. Materials and Methods
+used as a case study, and was monitored for a period of two years.
+asacasestudy,andwasmonitoredforaperiodoftwoyears.
+2.1. Landfill Leachates Treatment Plant
+22.. MMaatteerriiaallss aanndd MMeetthhooddss
+Mavrorachi landfill is a sanitary landfill serving the metropolitan area of Thessalo-
+22..11.. LLaannddfifillll LLeeaacchhaatteess TTrreeaattmmeenntt PPllaanntt
+niki. It has been operational since 2008, receiving on average 1000–1200 tons of solid waste
+MMaavvrroorraacchhii llaannddfifilllli sisa as asannitiatrayryla lnadnfidlfillsle srevrivnigntgh tehme emtreotproopliotalintaanr eaareoaf Tohf eTshsaelsosnailkoi-.
+per day. For the period of the study, the average daily production of leachates was ap-
+Intikhia. sItb heaesn boepeenr aotpioenraatliosinnacle s2in0c0e8 ,2r0e0c8e, irveicnegivoinnga voenr aavgeer1a0g0e0 1–010200–01t2o0n0s toofnsso olfid sowliads wteapseter
+proximately 350 m3/d. The existing LTP (Figure 1) includes pretreatment (grit removal),
+dpeary .dFaoyr. tFhoer ptherei opderoiofdth oef stthued ys,tuthdey,a tvheer aagveerdaagiely dpariolyd upcrotidouncotifolne aocfh laetaecshwataess awpapsr oaxpi--
+primary treatment with no coagulant addition and biological treatment with nitrogen re-
+mpraotxeilmy3a5te0lym 33/50d .mT3h/de.e Txihseti negxiLsTtiPng(F LigTuPr e(F1i)giunrcelu 1d)e isnpclruetdreesa tpmreentrte(agtrmiternetm (ogvriatl )r,epmriomvaarl)y,
+moval in four sequencing batch reactors (SBRs). Effluent from the SBRs is transferred to a
+tprreiamtmareyn ttrweaittmhennot cwoiatghu nlaon ctoaadgduiltainotn aadndditbioionl oagnidc abliotrleoagtimcaeln ttrewatimthennitt rwogitehn nrietrmogoevna lrien-
+discfmhoauor vrg ase le qit nau n feonk uc ( rinF sgi eg qbu uar etecnh c2 ir) ne w gac bhtoaertr cse h( Ss reBett aRclsi t)n o.rgEs f o (flScuBceRunsrt)sf., r Eoa fflmnd ut eht neh teS f Brs oRu mspi e tshrtn er aa Snt BasRfnestr rif ser do trmtaon sath fdei rsirs ecta dhna trk og aeis in-
+trodtduainc se ckhd(a Frtigoge u t trh aee n2 k)R w(O Fhi geu urnereist e. 2 t)Tt lwhinheg eR roecO csu ecrttosl,in nac gne dn octthcra uet rse su, ipas ne rdcno tan htdaen e stn ufpsreoed rmn avtthi aains tMt afrnV okR mi s e tihvniatsr potaodnrukac teii sod in nto. - The
+sludttghroeed RfurOcoemudn titoth. eTth hpee rRiRmOOa ucroynn itct.re eTnahtrteam tReeOnist c,c ootnnhdceee ndntsirseacdthev aiirasg Mceo VntadRneeknvs aaepdno dvr aitathi oMen .VeTxRch eeesvssal upsdolugraedtgfioreon m.f rTothhmee the
+SBRpssl ruiismd tgaheri ycfrktoreemnate mtdhe ein npt ,arti hmselaudrdyisg ctehr eataartgnmeket.an nt,k tahne ddtihsceheaxrcgees stasnlukd agnedfr othme tehxeceSsBsR ssluisdtghei cfkreonme dthine
+aSBsRlusd igs ethtaicnkke.ned in a sludge tank.
+(a) (a) (b(b) ) (c) (c)
+FiguFFriiegg uu1.rr eeP 1h1. .o PtPoh hgo otroatogpgrha rpsa phohsf s otfho tefh tse ht esutdu stid ueidded i eL L daanLndadfinfi dllll fi LL lleeaaLccehhaa cat hteeasst T e TsrerTaertaemtame tmnetne P nt l taPPnlat la:n n(ta t:) :( ta(h a)e )t hf to heu e fro fp oua urr r apl plae arl ra aSllBlleeRll SBR
+reactSroe Bra Rsc,t ro(ebr as)c, tt( obhr)es t ,oh (ne b e)o-tnshetea-sgotaeng ere -es rvte aev gre esres r eeov so ems rm soeososisi ss m uu onn siitit s ww uiintth iht c wcaap ipta hacci ctiaytpy e a qecu iqta yula etlo q tu3oa5 l30 t 5m o0 3 3m/ 5d 0,3 /( mdc),3 t /(hcde), tt (hw c)eo t thewevaotp w eo ov-apo-
+rators with total capacity equal to 120 m3/d.
+ratoresv wapiothra ttoortsalw ciathpatoctiatylc eaqpuacailt ytoe q1u2a0l mto31/d20. m3/d.
+Figure2.FlowchartofthestudiedLandfillLeachateTreatmentPlant.
+
+--- Page 4 ---
+Energies2023,16,6872 4of10
+ThefinalconcentratefromtheevaporatorsandtheexcessamountsofROconcentrate
+arereinjectedintothelandfill(Figure2),whiletheROpermeateisdischargedtoanearby
+stream. FurtherinformationontheoperationoftheSBRs,theROandtheevaporatorsis
+providedbelow.
+For the period of the study, the four SBRs operated in parallel in an 8 h cycle and
+each reactor had a capacity of 2100 m3. The hydraulic retention time (HRT) had been
+setto17.5days, whilethesludgeresidencetime(SRT)waspracticallyinfinite, asthere
+wasnodischargeofexcesssludge. Thesuspendedsolidsconcentrationinthebioreactors
+wasapproximately4000–4500mg/L.Duringthe8hoperationalcycle,aerobicandanoxic
+periodsintheSBRswerealternatedtoachievenitrogenremovalthroughnitrificationand
+denitrification. Because of the limited presence of biodegradable organic matter in the
+landfillleachates,glycerol,aby-productofbiodieselproduction,wasaddedtotheinfluents
+toenhanceendogenousdenitrification.
+ConcerningtheRO,aone-stageROunitwasused. Itwasequippedwithdisc-tube
+modules that contained brackish water polyamide membranes. The secondary treated
+leachatewasinitiallyprefilteredthroughasandfilterandthenpassedthroughcartridge
+filters(nominalporesizeequalto10µm). ThecapacityoftheROunitwas15.5m3/h,the
+operationalpressurewasbetween30and40barsandtherecoveryratiorangedbetween
+60and70%. AsregardsMVRevaporation,twoevaporators(TC60000,LedItalia,Porde-
+none,Italy)wereused,withacapacityof120m3/dayofpre-concentratedleachate. The
+pre-concentratedliquidcouldreachaconcentrateofapproximately20%TS,whichisa
+pumpablefluid. Intheseunits,boilingtemperatureismaintainedusingthermalresistances,
+whilepressureismaintainedusingablowervacuumpump[23]. Thenominalconcentra-
+tionratiooftheevaporatorswas1:5.5,contributingtotheleachatestoragecapacityofthe
+landfill. ThepHoftheconcentratewasadjustedwithHClandanantifoamagentwasalso
+usedtopreventfoaming.
+2.2. MonitoringtheSystem
+TheLTPwasmonitoredforaperiodoftwoyears. Sampleswerecollectedonaweekly
+basisfromthefollowingpointsofthesystem: influent,primarytreatment,SBReffluent
+andROpermeate. ThecollectedsampleswereanalyzedforBOD ,COD,totalsuspended
+5
+solids(TSS),totalnitrogen(TN),NH4-Nandconductivity.
+Asregardsenergyconsumption,theactualpowerconsumptionwascalculatedtaking
+intoaccounttheelectricalinputpower,themotorefficiencyofallpower-consumingdevices
+in each treatment process and their hours of operation. The total power required by a
+three-phase motor consists of the real power and the reactive power (the non-working
+powercausedbythemagnetizingcurrent). AtthestudiedLTP,thepowerfactor(theratio
+betweenrealpowerandapparentpower)isenhancedbycapacitors. Duetothiscorrection
+technique,thepowerfactorhasbeenimprovedandtheamountofapparentpowerhas
+beenreduced[32]. Inthecurrentstudy,thevalueofthepowerfactorusedincalculations
+ofenergyconsumptionisconsideredtobe0.90.
+2.3. AnalyticalMethods
+Alltheanalysesofcollectedsampleswereperformedaccordingtostandardmeth-
+ods[33]. FortheanalysisofTSS,analiquotofthecollectedleachatesampleswasvacuum
+filteredthroughglassfiberfilters(GFTypeA/E,nominalporesize1.0µm,diameter47mm).
+OtheraliquotsofthesampleswereusedforCOD,BOD ,NH -N,TNandconductivity
+5 4
+measurements. DeterminationoftheBOD wasundertakenusingrespirometricmeasure-
+5
+ments(OxiTop®system,WTW,London,UK).TheCOD,TNandNH -Nweredetermined
+4
+withaHach-LangeDR3900Spectrophotometer(Hach-Lange,Düsseldorf,Germany). Con-
+ductivitywasmeasuredusingaHach-LangeHQ440dconductivitymeter(Hach-Lange,
+Düsseldorf,Germany).
+
+--- Page 5 ---
+Energies2023,16,6872 5of10
+2.4. EmpiricalModelforGHGEmissions
+Off-siteandon-siteGHGemissionsofthebiologicaltreatmentwereestimatedbasedon
+theBridlemodellingmethodologythathadbeenappliedinseveralpreviousstudies[20,34–36].
+ThedifferentprocessesthatwereconsideredforGHGemissionsestimationandtheequa-
+tionsusedarepresentedinTable1. Conversely,GHGemissionsstemmingfromthetertiary
+treatment (RO evaporators) were estimated using an empirical equation which is also
+presentedinTable1.
+Table1.TheprocessesusedforthecalculationofGHGemissionsinthestudiedLandfillLeachates
+TreatmentPlantandtherelevantequations.
+EquationsUsedforGHGEmissionEstimation
+Processes1
+(kgCO2eq/d)
+CO =X ×1.947
+ProductionofGHGsfrombiomassdecay 2,biomassdecay decay
+(X decay=Q×HRT×MLVSS×bH)
+ProductionofGHGsfromBODoxidationand CO 2,BODoxidation=RO2×1.1
+O en m-s ii ste siG onH sG productionofbiomass (RO2=[f− 1+bK He× ×Y SH RTtotal]×EH×Q×Fo)
+B tri eo al to mgi ec na tl ConsumptionofGHGsfromnitrification (Nnitro=N totaC lO −2 N= bi0 o.3 −08 (N× HN 4n -Nitro )out−Norgout)
+ProductionofGHGsfrom N2Oemission=N total×0.005
+nitrification–denitrification (CO2,eq=N2Oemission×GWPN2O=N2Oemission×296)
+Productiono cof nG sH umGs ptf ir oo nmnetpower CO 2,electricity=E required×Σ(Fi×EFi)
+Off-siteGHG
+emissions ProductionofGHGsfromtreatedleachates N2Oemission=N Effluent×EF Effluent×(44/28)
+dischargetotheaquaticenvironment (CO2,eq=N2Oemission×GWPN2O=N2Oemission×296)
+Emissions(CO2,CH4,N2O)=Electricalenergy
+Tertiary consumption×emissions(CO2,CH4,N2O)per
+OperationoftheROandevaporators
+treatment electricalenergyconsumption×Q
+(CO2,eq=CO2+(28×CH4)+(296×N2O)
+1ProcessesandequationsforthebiologicaltreatmentreceivedbyKoutsouetal.[36].
+Where:
+X : biomassdegradedperday(kgVSS/d);Q:averageinfluentflowrate(m3/d);
+decay
+HRT: hydraulic retention time (d); MLVSS: concentration of VSS in the mixed liquor
+(kg/m3); b : rate of endogenous decay (d−1); R : oxygen consumption in kg O d−1;
+H O2 2
+SRT : sludgeresidencetimeinthebiologicalgradient(d);K : BOD ofbiomass
+total e ultimate
+(equal to 1.4); E : BOD removal efficiency; F : primary effluent BOD concentration
+H o 5
+(mg/L);f:BOD /BOD ratio(equalto1.6);Y : yieldcoefficient;N : dailynitrified
+ultimate 5 H nitro
+mass of N (kg/d); N : total daily influent mass of N (kg/d); N : daily mass of N
+total bio
+taken up for biomass synthesis (kg/d) (assumed to be 15% of N ); NH -N : daily
+total 4 out
+effluent NH -N mass (kg/d); N : daily effluent organic N mass (kg/d); E :
+4 orgout required
+consumption of electricity in the LTP (KWh/d); F: the contribution (%) of fuel i to the
+i
+electricitythatisproducedinGreece;EF: theemissionfactorofGHGforfuelinelectricity
+i
+produced(grCO /KWh); N : massofeffluentNthatisreleasedintotheaquatic
+2e Effluent
+environment (kg N/d); EF : N O emission factor for the discharged wastewater
+Effluent 2
+(0.005kgN O-N/kgN);Emissions(CO ,CH ,N O):emittedamountsofCO ,CH ,N O
+2 2 4 2 2 4 2
+(kg/d); Electrical energy consumption: kWh/m3 of treated leachates; Emission (CO ,
+2
+CH ,N O)perelectricalenergyconsumptionforGreece: forCO ,CH ,N O,respectively,
+4 2 2 4 2
+inkg/kWh
+3. ResultsandDiscussion
+3.1. CharacteristicsofLandfillLeachatesandPerformanceoftheSystem
+The qualitative characteristics of the raw leachates as well as the effluents of the
+primarytreatment,SBRandROprocessesaredescribedinTable2. Therawleachateswere
+characterizedbyhighconductivity(23,015±2973µS/cm)andhighconcentrationsoftotal
+TN and NH -N. These characteristics are typical for raw leachates originating from an
+4
+activelandfillsitewithasmallaccumulationhistory[37].
+
+--- Page 6 ---
+Energies2023,16,6872 6of10
+Table2.CharacteristicsofthesamplescollectedfromdifferentpointsoftheLeachateTreatmentPlant
+(LTP).Thevaluesarereportedasmean±sd.Standarddeviationvaluesaregiveninparentheses.
+Typeof Conductivity TSS COD BOD TN NH -N
+pH 5 4
+Sample (µS/cm) (mg/L) (mg/L) (mg/L) (mg/L) (mg/L)
+23,015 7.5 166 3286 909 1360 941
+Rawleachate
+(2973) (0.2) (97) (1910) (1242) (300) (224)
+Primary 19,278 8.4 363 2953 1014 997 785
+treatment (1274) (0.1) (127) (950) (598) (266) (200)
+16,719 8.0 217 1302 90 747 22
+SBReffluent
+(2117) (0.3) (158) (418) (50) (210) (46)
+405 7.3 4 15 11 15
+ROpermeate <1
+(163) (0.5) (5) (8) (7) (9)
+The biological treatment of landfill leachates resulted in a significant decrease in
+organicloading,aswellasammoniumnitrogenconcentrations. Asaresult,anaverage
+Energies 2023, 16, 6872 7 of 11
+CODremovalof60%wascalculated,whiletheremovalofBOD 5andNH 4-Nwasequalto
+90%and98%,respectively(Figure3).
+120
+Biological Treatment Reverse osmosis
+100
+80
+)%(
+lavomerR 60
+40
+20
+0
+Cond. TSS COD BOD5 TN NH4-N
+-20
+-40
+Figure3. Removalefficiency(%)ofthemajorpollutantsafterbiologicaltreatmentinsequencing
+Figure 3. Removal efficiency (%) of the major pollutants after biological treatment in sequencing
+batchreactors(SBRs)andafterreverseosmosis(RO)inthestudiedLandfillLeachatesTreatment
+batch reactors (SBRs) and after reverse osmosis (RO) in the studied Landfill Leachates Treatment
+Plant.
+Plant.
+ThepartialremovalofCODrelativetothatofBOD istobeexpected,asasignificant
+5
+poT rth ioe npa or ft ti hal e r oe rm gao nv ia cl co of m C pO oD u nre dl sat div ete e t co te t dha int o laf nB dO fiD ll5l i es a t co h ab te e sex ap reec nt oed tb, a ios d a e s gi rg an di afi bc la en at nd
+portion of the organic compounds detected in landfill leachates are not biodegradable and
+cannotberemovedviabiologicaltreatment[38]. Ontheotherhand,concentrationsofTSS
+cannot be removed via biological treatment [38]. On the other hand, concentrations of TSS
+intheeffluentsofthebioreactorswerehigherthanthoseintheinfluents(217vs. 166mg/L),
+in the effluents of the bioreactors were higher than those in the influents (217 vs. 166 mg/L),
+indicatingpoorsettlingcapacityinthemixedliquorintheSBRs(Table2). TheuseofROas
+indaincaatdinvga npcoeodr tsreettatlminegn ctaspteapcirteys iunl ttehdei mnaixseidgn liifiqucaonrt idne tchree aSsBeRins t(hTeabcloen 2d)u. cTthivei tuysoef otfh ReOfin al
+as aenffl audevnatnsc(e4d05 tr±ea1tm63eµnSt /stcemp )r,ewsuhlitleedt hine ar esmigonvifiaclaonftC dOecDre,aBsOe Din ,thTeN coanndduNctHivi-tNy orfe athceh ed
+5 4
+fina9l9 e%ffl,u99e%nt,s 9(94%05 a±n 1d631 µ00S%/c,mre),s wpehcitleiv tehley r(eFmigouvrael 3o)f. CCOoDns, eBqOuDen5,t TlyN,t ahnedfi NnaHl4e-fNfl ureeancthoefdt he
+99%R,O 9w9%as, 9c9h%ar aacntedr i1z0e0d%b,y reloswpeccotinvceelny t(rFaitgiounrse o3f).a lClomnasjeoqrupeonlltulyta, nthtse (fiTnaballe e2ffl),useantits foyfi nthget he
+ROe nwvaisro cnhmareancttaelrirzeeqdu ibreym loewnt scoonfcEeUntDrairtieocntisv eof9 1a/ll2 m71ajcoorn pceorlnluintagntths e(Ttraebaltem 2e)n, tsaotfiseffyfliunegn ts
+thef oernvdiirsopnomsaelnintatlh reeqauqiuraetmiceenntsv iorfo EnUm eDnitr.ective 91/271 concerning the treatment of efflu-
+ents for disposal in the aquatic environment.
+3.2. EnergyConsumption
+3.2. EnerTghye Ctoontasulmenpetirogny consumption of the LTP was calculated to be 4,507,690 KWh per
+yeTahreo tro3ta5l. 3enKeWrgyh /comn3 suomf tprteiaotne dof ltehaec hLTatPe .waTsh cealccounltartiebdu ttoio bne o4f,5t0h7e,6d90if fKeWrenht pterre aytemare nt
+or 35.3 KWh/m3 of treated leachate. The contribution of the different treatment processes
+on the energy consumption of the LTP studied is shown in Figure 4. For the energy con-
+sumption calculation, 8000 operating hours per year were assumed. The energy consump-
+tion in the primary treatment unit represented 5.5% of the total LTP real power consump-
+tion, a value which was equal to 1.7 kWh/m3 of treated leachate (Figure 4).
+
+--- Page 7 ---
+Energies2023,16,6872 7of10
+Energies 2023, 16, 6872 8 of 11
+processes on the energy consumption of the LTP studied is shown in Figure 4. For the
+energyconsumptioncalculation,8000operatinghoursperyearwereassumed. Theenergy
+consumptionintheprimarytreatmentunitrepresented5.5%ofthetotalLTPrealpower
+consumption,avaluewhichwasequalto1.7kWh/m3oftreatedleachate(Figure4).
+0.7% 16.7%
+5.5%
+2.8%
+60.5% 13.8%
+Primary treatment SBR
+Discharge tank RO
+Evaporators Recirculation
+Figure4.Contributionsofthedifferentprocessestothetotalrealpowerconsumptioninthestudied
+Figure 4. Contributions of the different processes to the total real power consumption in the studied
+LandfillLeachatesTreatmentPlant.
+Landfill Leachates Treatment Plant.
+Regardingsecondarytreatment,operationoftheSBRsaccountedfor16.7%ofthetotal
+LRTePgarerdalinpgo wseecrocnodnasruym tpretiaotnm(e5n.1t,k oWpher/amtio3no fotfr etahtee dSBleRacsh aactceo).uTnhteedp rfionrc i1p6a.7l%co nosfu tmhee rsin
+total thLTePb iroelaolg picoawlterre actomnesunmtwpetiroent h(5e.1b lkoWwehr/sm(3r ooof ttsrleoabteed) ulesaecdhtaotea)e. rTahtee tphreinrecaipcatol rcso,nw-hich
+sumecrosn isnu mtheed bi4o4l3o,g4i7c5alK trWeaht/myeenatr w(1e1r.e3 %theo bfltohweetrost a(rloaomtso luonbte)o ufseende rtgoy aecroantseu tmhee dre).acO- per-
+tors, awtihoincho cfotnhseuRmOedu 4n4it3,a4c7c5o KunWtehd/yfeoarr 1(131.8.3%%o off tthhee ttoottaall armeaolupnotw oef rencoerngsyu mcopntsiuomn,enda).m ely
+Oper4a.2tioknW ohf /thme 3RoOf utrneiatt aecdcoleuanctheadt efo.rIn 13R.8O%, tohfe thmea tiontaslo rueracle poofweenre crognyscuomnpsutimonp, tnioanmwelays the
+4.2 khWighh/m-p3r eosfs utrreeatmede mlebarcahnaete,.i .Ien., RthOe, pthluen mgearinp usomuprcsea onfd etnheergbyo ocsotnesrummopdtuiolnes w,wash itchhe con-
+highs-purmesesdu4r3e 3m,6e2m0KbrWanhe/, yi.eea.,r t(h11e. 1p%luonfgtehre ptuotmalpasm aonudn tthoef benoeorsgteyrc monosduumleesd, )w. Thhicehm caojonr-part
+sumeodf t4h3e3,p6o2w0 KerWcohn/yseuamr (e1d1.w1%as odf utheet otoMtaVl aRmeovuanpto orfa teinoenrgoyf RcoOnscuomnceedn)t.r Tathieo nmsa.jSopr epcaifirtc ally,
+of thteh peoewvaepr ocorantsourms(etdw woausn ditus)e ctoon MtriVbRu teevda6p0o.r4a%tioonf tohf eRtOot caolnLcTePntrreaatliopnosw. Sepreccoinfiscualmlyp, tion.
+the eFvoarpeoarcahtomrs3 (otwfRo Ounciotsn)c econntrtartibeutrteeadt e6d0,.4t%he oefv tahpeo troattaolr sLTcoPn rseuaml pedow54e.r1 ckoWnshumofpetlieocntr. icity.
+For eTahceh hmig3 hoef sRtOco cnosnucmenertrdauter itnrgeaitnesdt,r uthmee envtaaploorpaetroartsio cnonwsausmthede r5o4o.1ts kbWlohw oefr evlaeccutruicmityp.u mp
+The h(1ig,7h3e4s,4t 8c0onKsWumh/ery deaurr;in44g. 2in%storuftmheentotatla olpameroautinotno wfaesn ethrge yrocootnss bulmoweder). vOacnutuhmeo pthuemrph and,
+(1,73t4h,4e8r0e cKirWcuhl/ayteioanr; o44f.t2h%e loefa tchhea ttoestailn atmotohuenlta onfd efinlelrcgoyn ctroinbsuutemdeodn).l yOn0. 8th%e oofthtoerta hlaLnTdP, real
+the rpecoiwrceurlacotinosnu omf pthtieo nle(a3c.h6aktWes hin/tmo 3 t)h.e landfill contributed only 0.8% of total LTP real
+power consumption (3.6 kWh/m3).
+3.3. GHGEmissions
+3.3. GHG TEhmeisGsiHonGs emittedfromtheprocessesofthestudiedLTP(expressedaskgCO 2eq/d)
+are presented in Table 3. Based on the results, the total amount of emitted CO from
+The GHG emitted from the processes of the studied LTP (expressed as kg CO2e2 qe/qd)
+thisLTPwasequalto9686.9KgCO perdayor27.7KgCO /m3oftreatedleachates.
+are presented in Table 3. Based on the res2ueqlts, the total amount of e2meqitted CO2eq from this
+Thebiologicaltreatmentcontributedto45.7%ofthetotalemissions(4422.7kgCO /d).
+LTP was equal to 9686.9 Kg CO2eq per day or 27.7 Kg CO2eq/m3 of treated leachates. Th2eeq
+On-site GHG emissions were responsible for 88.7% (3921.4 kg CO /day) of the total
+biological treatment contributed to 45.7% of the total emissions (4422.7 k2egq CO2eq/d). On-
+GHGsgeneratedbythebiologicaltreatment,whileoff-siteGHGemissionsmadeupthe
+site GHG emissions were responsible for 88.7% (3921.4 kg CO2eq/day) of the total GHGs
+remaining11.3%(501.3kgCO /day).Amongbiologicaltreatmentprocessesforleachates,
+generated by the biological treatm2eenqt, while off-site GHG emissions made up the remain-
+thehighestamountsofGHGswereemittedduetobiomassdecay(64.7%oftheGHGsin
+ing 11.3% (501.3 kg CO2eq/day). Among biological treatment processes for leachates, the
+secondarytreatment),whilethelowestwereduetothetreatedeffluentsdischargedtothe
+highest amounts of GHGs were emitted due to biomass decay (64.7% of the GHGs in sec-
+aquaticenvironment. Furthermore,thecontributionofotherprocessessuchasoxidationof
+ondary treatment), while the lowest were due to the treated effluents discharged to the
+BOD,biomassproduction,netpowerconsumptionandnitrification–denitrificationranged
+aquatic environment. Furthermore, the contribution of other processes such as oxidation
+between10.8%and15.9%.
+of BOD, biomass production, net power consumption and nitrification–denitrification
+ranged between 10.8% and 15.9%.
+
+--- Page 8 ---
+Energies2023,16,6872 8of10
+Table3.EstimatedGHGemissions(kgCO /d)inthestudiedLandfillLeachatesTreatmentPlant.
+2eq
+GHGEmission
+Processes
+(kgCO /d)
+2eq
+ProductionofGHGsfromthedecayofbiomass 2862.1
+ProductionofGHGsfromBODoxidationand
+477.2
+productionofbiomass
+On-siteGHGemissions
+ConsumptionofGHGfromnitrification −122.4
+Secondarytreatment ProductionofGHGsfrom
+704.5
+nitrification–denitrification
+ProductionofGHGsfromnetpower
+492.0
+consumption
+Off-siteGHGemissions
+ProductionofGHGfromtreatedleachates
+9.3
+dischargetotheaquaticenvironment
+GHGemissionsfromthebiologicaltreatment 4422.7
+GHGproductionfromRO 988.4
+Tertiarytreatment
+GHGproductionfromevaporators 4275.8
+GHGemissionsfromtheadvancedtreatment 5264.2
+TotalGHGemissions 9686.9
+Inapreviousstudy,Huaetal.[31]estimatedGHGemissionsfortwodifferentleachate
+treatmentsystems—asystemcombininganaerobiclagoonsandaerobicpondsandasystem
+couplinganup-flowanaerobicsludgesemi-fixedfilterwithamembranebioreactor—and
+reportedvaluesof209.4kgCO /m3 and61.3kgCO /m3, respectively. Thesevalues
+2e 2e
+aremuchhigherthanthe27.7KgCO /m3oftreatedleachatescalculatedinthisstudy.
+2eq
+Theobserveddifferenceismainlyduetothehighlevelsofcontaminationoftheleachates
+in the older study (mean concentrations of BOD, COD and TN equal to 35,000 mg/L,
+68,000 mg/L and 11,600 mg/L) and the different treatment processes applied. In the
+current study, calculation of GHG emissions per m3 of treated liquid showed that the
+emissionsfromsecondarytreatmentandROwere12.64and2.82kgCO /m3oftreated
+2eq
+leachate, respectively. The value calculated for RO is comparable to the RO emissions
+reportedbyAbHamidetal.[39]intheapplicationofaforwardosmosisaeratedmembrane
+bioreactor(FOAeMBR)connectedwithROinurbanwastewatertreatment. Ontheother
+hand,theevaporatorsemitted35.63kgCO /m3oftreatedROconcentrate.
+2eq
+4. Conclusions
+Duetothechemicalcharacteristicsoflandfillleachates,biologicalprocessesandad-
+vancedtreatmenttechnologiesareusuallyappliedinseriestoachieveefficientleachates
+treatment. Despitethewideuseofthesetechnologiesatfullscale,thereisasyetlimited
+informationavailableontheirenergyconsumptionandGHGsemitted. Aholisticapproach
+was applied in this study for the evaluation of a full-scale landfill leachates treatment
+system analyzing samples for the removal of major pollutants, measuring energy con-
+sumptionandestimatingGHGemissions. Accordingtotheresults,thecombinationof
+biological treatment and RO achieved sufficient treatment of landfill leachates to fulfil
+thelegislativerequirementsfortreatmentofleachatesfordischargeintheenvironment.
+However,questionshavearisenregardingthesustainablemanagementofROconcentrates,
+astheMVRevaporationappliedinthestudiedLTPwasresponsiblefortheconsumption
+ofmorethan60%ofthetotalenergy,whileitalsocontributedsignificantlytothecarbon
+footprintoftheplant,emittingmorethan44%oftheGHGs. TheoperationofSBRsand
+RO required 16.7% and 13.8% of the total energy, while SBRs contributed significantly
+to the total GHG emissions (45.6%) mainly due to on-site emissions and the process of
+biomassdecay. Futurestudiesshouldfocusontheapplicationofalternativetechnologies
+
+--- Page 9 ---
+Energies2023,16,6872 9of10
+and practices for the sustainable management of RO concentrates. As the volume and
+characteristicsofleachatesproducedvaryduringtheyear,theimpactofseasonalityon
+energyconsumptionandGHGemissionsshouldalsobestudied. Dataontheoverallcost
+ofthedifferentprocessesshouldalsobecollected.
+AuthorContributions: Conceptualization,K.T.andA.S.S.;methodology,K.T.;validation,O.P.K.;
+formalanalysis,O.P.K.;investigation,K.T.andO.P.K.;datacuration,K.T.;writing—originaldraft
+preparation,K.T.andO.P.K.;writing—reviewandediting,A.S.S.;visualization,K.T.;supervision,
+A.S.S.Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:Thisresearchreceivednoexternalfunding.
+DataAvailabilityStatement: Thedatapresentedinthisstudyareavailableonrequestfromthe
+correspondingauthor.Thedataarenotpubliclyavailableduetoprivacyrestrictions.
+Acknowledgments:TheauthorswouldliketothanktheChemicalLaboratoryofMavrorachiLandfill
+fortheircollaborationonleachatessamplingandanalysis.
+ConflictsofInterest:Theauthorsdeclarenoconflictofinterest.
+References
+1. Papachristou, E.; Hadjianghelou, H.; Darakas, E.; Alivanis, K.; Belou, A.; Ioannidou, D.; Paraskevopoulou, E.; Poulios, K.;
+Koukourikou,A.;Kosmidou,N.;etal.PerspectivesforintegratedmunicipalsolidwastemanagementinThessaloniki,Greece.
+WasteManag.2009,29,1158–1162.[CrossRef][PubMed]
+2. ESDA.NationalWasteManagementPlan2020–2030;GreekMinistryofEnvironmentandEnergy:Athens,Greece,2020.Available
+online:http://www.opengov.gr/minenv/wp-content/uploads/downloads/2020/08/%CE%95%CE%A3%CE%94%CE%91-%
+CE%94%CE%99%CE%91%CE%92%CE%9F%CE%A5%CE%9B%CE%95%CE%A5%CE%A3%CE%97-6-8-2020.pdf(accessedon27
+June2023).(InGreek)
+3. Podlasek,A.Modelingleachategeneration:PracticalscenariosformunicipalsolidwastelandfillsinPoland.Environ.Sci.Pollut.
+Res.2023,30,13256–13269.[CrossRef][PubMed]
+4. Luo,H.;Zeng,Y.;Cheng,Y.;He,D.;Pan,X.Recentadvancesinmunicipallandfillleachate:Areviewfocusingonitscharacteristics,
+treatment,andtoxicityassessment.Sci.TotalEnviron.2020,703,135468.[CrossRef]
+5. Nika,M.C.;Ntaiou,K.;Elytis,K.;Thomaidi,V.S.;Gatidou,G.;Kalantzi,O.I.;Thomaidis,N.S.;Stasinakis,A.S.Wide-scopetarget
+analysisofemergingcontaminantsinlandfillleachatesandriskassessmentusingRQmethodology.J.Hazard.Mater.2020,394,
+122493.[CrossRef][PubMed]
+6. Tchobanoglous,G.;Kreith,F.HandbookofSolidWasteManagement;McGrawHillProfessional:NewYork,NY,USA,2002.
+7. Beaven,R.P.;Knox,K.LeachateRecirculation,SolidWasteLandfilling;ElsevierInc.:Amsterdam,TheNetherlands,2018;pp.703–727.
+8. deAlmeida, R.; Porto, R.F.; Quintaes, B.R.; Bila, D.M.; Lavagnolo, M.C.; Campos, J.C.Areviewonmembraneconcentrate
+managementfromlandfillleachatetreatmentplants: Therelevanceofresourcerecoverytoclosetheleachatetreatmentloop.
+WasteManag.Res.2023,41,264–284.[CrossRef][PubMed]
+9. Brennan, R.B.; Clifford, E.; Devroedt, C.; Morrison, L.; Healy, M.G.Treatmentoflandfillleachateinmunicipalwastewater
+treatmentplantsandimpactsoneffluentammoniumconcentrations.J.Environ.Manag.2017,188,64–72.[CrossRef]
+10. Renou,S.;Givaudan,J.G.;Poulain,S.;Dirassouyan,F.;Moulin,P.Landfillleachatetreatment:Reviewandopportunity.J.Hazard.
+Mater.2008,150,468–493.[CrossRef]
+11. Abuabdou,S.;Ahmad,W.;Ng,C.;Bashir,M.Areviewofanaerobicmembranebioreactors(AnMBR)forthetreatmentofhighly
+contaminatedlandfillleachateandbiogasproduction:Effectiveness,limitationsandfutureperspectives.J.Clean.Prod.2020,255,
+120215.[CrossRef]
+12. Tatsi, A.A.; Zouboulis, A.I.; Matis, K.A.; Samaras, P. Coagulation–flocculation pretreatment of sanitary landfill leachates.
+Chemosphere2003,53,737–744.[CrossRef]
+13. Petruzzelli,D.;Boghetich,G.;Petrella,M.;Dell’Erba,A.;L’Abbate,P.;Sanarica,S.;Miraglia,M.Pre-treatmentofindustriallandfill
+leachatebyFenton’soxidation.Glob.NESTJ.2007,9,51–56.[CrossRef]
+14. Chen,W.;Gu,Z.;Ran,G.;Li,Q.ApplicationofmembraneseparationtechnologyinthetreatmentofleachateinChina:Areview.
+WasteManag.2021,121,127–140.[CrossRef][PubMed]
+15. Alfaia,R.G.S.M.;deAlmeida,R.;Nascimento,K.S.;Campos,J.C.Landfillleachatepretreatmenteffectsonnanofiltrationand
+reverseosmosismembraneperformance.ProcessSaf.Environ.Prot.2023,172,273–281.[CrossRef]
+16. Glarakis,J.;Remmas,N.;Azis,K.;Melidis,P.Retrofittingafull-scalemultistagelandfillleachatetreatmentplantbyintroducing
+coagulation/flocculation/sedimentationandultrafiltrationprocesssteps. Environ. Monit. Assess. 2023,195,326. [CrossRef]
+[PubMed]
+17. Gutiérrez-Mosquera, L.F.; Arias-Giraldo, S.; Zuluaga-Meza, A. Landfill leachate treatment using hydrodynamic cavitation:
+Exploratoryevaluation.Heliyon2022,8,e09019.[CrossRef]
+
+--- Page 10 ---
+Energies2023,16,6872 10of10
+18. Bis,M.;Montusiewicz,A.;Ozonek,J.;Pasieczna-Patkowska,S.Applicationofhydrodynamiccavitationtoimprovethebiodegrad-
+abilityofmaturelandfillleachate.Ultrason.Sonochemistry2015,26,378–387.[CrossRef]
+19. Hernandez-Sancho, F.; Molino-Senante, M.; Sala-Garrido, R. Energy efficiency in Spanish wastewater treatment plants: A
+non-radialDEAapproach.Sci.TotalEnviron.2011,409,2693–2699.[CrossRef]
+20. Mamais,D.;Noutsopoulos,C.;Dimopoulou,A.;Stasinakis,A.;Lekkas,T.D.Wastewatertreatmentprocessimpactonenergy
+savingsandgreenhousegasemissions.WaterSci.Technol.2015,71,303–308.[CrossRef]
+21. Topal,A.D.;Atasoy,A.D.Reverseosmosistreatmentsystemforlandfillleachate:Operationconditions,advantagesandchallenges.
+Environ.Res.Technol.2022,5,119–127.[CrossRef]
+22. Modi,R.;Kavaiya,A.R.;Vanzara,P.B.;Raval,H.D.Membranesinzero-liquid-dischargesystemsforefficientprocessestoward
+sustainableenvironment:Areview.J.Environ.Eng.2022,148,03122004.[CrossRef]
+23. DiMaria,F.;Sisani,F.;Contini,S.;Ghosh,S.K.Impactofdifferentschemesfortreatinglandfillleachate.WasteManag.2018,71,
+255–266.[CrossRef]
+24. Zhang,J.;Xiao,K.;Huang,X.Full-scaleMBRapplicationsforleachatetreatmentinChina:Practical,technical,andeconomic
+features.J.Hazard.Mater.2020,389,122138.[CrossRef][PubMed]
+25. Wang,X.;Jia,M.;Zhang,C.;Chen,S.;Cai,Z.LeachatetreatmentinlandfillsisasignificantN Osource.Sci.TotalEnviron.2017,
+2
+596–597,18–25.[CrossRef][PubMed]
+26. Nuraiti,T.;Izhar,T.;Xuan,L.P.Theestimationofgreenhousegasemissioninleachatetreatmentplantanditscarboncredit
+revenue.EarthEnviron.Sci.2021,646,012067.[CrossRef]
+27. Chiemchaisri,C.;Chiemchaisri,W.;Manochai,N.Methaneandnitrousoxideemissionsfromatwostagemembranebioreactor
+appliedinmunicipallandfillleachatetreatment.J.Mater.CyclesWasteManag.2020,22,365–374.[CrossRef]
+28. Nuansawan,N.;Boonnorat,J.;Chiemchaisri,W.;Chiemchaisri,C.Effectofhydraulicretentiontimeandsludgerecirculationon
+greenhousegasemissionandrelatedmicrobialcommunitiesintwo-stagemembranebioreactortreatingsolidwasteleachate.
+Bioresour.Technol.2016,210,35–42.[CrossRef]
+29. Boonnorat,J.;Honda,R.;Panichnumsin,P.;Boonapatcharoen,N.;Yenjam,N.;Krasaesueb,C.;Wachirawat,M.;Seemuang-on,S.;
+Jutakanoke,R.;Teeka,J.;etal. Treatmentefficiencyandgreenhousegasemissionsofnon-floatingandfloatingbedactivated
+sludgesystemwithacclimatizedsludgetreatinglandfillleachate.Bioresour.Technol.2021,330,124952.[CrossRef]
+30. Wang,X.;Jia,M.;Chen,X.;Xu,Y.;Lin,X.;Kao,C.M.;Chen,S.Greenhousegasemissionsfromlandfillleachatetreatmentplants:
+Acomparisonofyoungandagedlandfill.WasteManag.2014,34,1156–1164.[CrossRef]
+31. Hua,J.;Bai,S.Y.;Zhang,J.;Li,Z.Y.Greenhousegasemissionreductionandcarboncreditrevenueinawasteleachatetreatment
+plant.EarthEnviron.Sci.2018,191,012082.[CrossRef]
+32. Dhruvanth,S.S.;Reddy,K.S.;Sai,P.S.;Gatla,R.K.;Sridhar,P.;Babu,T.R.PowerFactorCorrection:ItsImportanceandImprove-
+ments.InProceedingsoftheInternationalConferenceonAugmentedIntelligenceandSustainableSystems,Trichy,India,23–25
+August2022;pp.1293–1297.
+33. APHA.StandardMethodsfortheExaminationofWaterandWastewater,21sted.;AmericanPublicHealthAssociation:Washington
+DC,USA,2005.
+34. Snip,L.QuantifyingtheGreenhouseGasEmissionsofWastewaterTreatmentPlants. Ph.D.Thesis,WageningenUniversity,
+Wageningen,TheNetherlands,2010;p.97.
+35. Corominas,L.;Flores-Alsina,X.;Snip,L.;Vanrolleghem,P.A.Comparisonofdifferentmodelingapproachestobetterevaluate
+greenhousegasemissionsfromwholewastewatertreatmentplants.Biotechnol.Bioeng.2012,109,2854–2863.[CrossRef]
+36. Koutsou,O.P.;Gatidou,G.;Stasinakis,A.S.DomesticwastewatermanagementinGreece:Greenhousegasemissionsestimation
+atcountryscale.J.Clean.Prod.2018,188,851–859.[CrossRef]
+37. Koumalas,A.; Barampouti,E.; Dounavis,A.; Mai,S.LeachatesfromLandfillSitesinThessaloniki,Greece: EffectofAging.
+Environ.Res.Eng.Manag.2019,75,30–39.[CrossRef]
+38. Tsilogeorgis, J.; Zouboulis, A.; Samaras, P.; Zamboulis, D.Applicationofamembranesequencingbatchreactorforlandfill
+leachatetreatment.Desalination2008,221,483–493.[CrossRef]
+39. AbHamid,N.H.;Smart,S.;Wang,D.K.;Koh,K.W.J.;Ng,K.J.C.;Ye,L.Economic,energyandcarbonfootprintassessmentof
+integratedforwardosmosismembranebioreactor(FOMBR)processinurbanwastewatertreatment. Environ. Sci. WaterRes.
+Technol.2020,6,153–165.[CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s)andcontributor(s)andnotofMDPIand/ortheeditor(s).MDPIand/ortheeditor(s)disclaimresponsibilityforanyinjuryto
+peopleorpropertyresultingfromanyideas,methods,instructionsorproductsreferredtointhecontent.

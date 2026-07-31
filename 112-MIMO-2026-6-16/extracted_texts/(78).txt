@@ -1,0 +1,682 @@
+--- Page 1 ---
+Journal of Water Process Engineering 67 (2024) 106102
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Development and validation of an off-gas tool for oxygen transfer efficiency
+and N O emission monitoring in wastewater treatment
+2
+Andr´ e Frechesa,b, Patrícia Freitasa,b, Ricardo Marquesa,b, Joana Costa Fradinhoa,b,
+Adrian Oehmenc, Maria Ascensa˜ o Reisa,b,*
+aAssociate Laboratory i4HB - Institute for Health and Bioeconomy, NOVA School of Science and Technology, NOVA University of Lisbon, 2829-516 Caparica, Portugal
+bUCIBIO - Applied Molecular Biosciences Unit, Department of Chemistry, NOVA School of Science and Technology, NOVA University Lisbon, 2829-516 Caparica,
+Portugal
+cSchool of Chemical Engineering, University of Queensland, Brisbane, QLD 4072, Australia
+A R T I C L E I N F O A B S T R A C T
+Editor: Guangming Jiang Aeration flow operational costs are the most important economic factor in the operation of a wastewater
+treatment plant and nitrous oxide emissions have been reported as an important source of greenhouse gas
+Keywords: emissions in wastewater treatment plant operations. The development of an off-gas analysis system capable of
+Wastewater treatment plant coupling the techniques for nitrous oxide measurements (N2O) and oxygen transfer efficiency (OTE) evaluation
+Oxygen transfer efficiency
+was investigated. The developed tool was successfully applied in field measurements in the oxidation ditch
+Nitrous oxide emissions ´
+wastewater treatment plant of Charneca de Obidos (Portugal). The obtained results for OTE using the off-gas
+Off-gas measurements
+method (15.04 % ±1.78) were validated by comparison with the OTE obtained using the in-situ oxygen up-
+Operation monitoring
+take rate method (14.27 % ±5.09). Several locations within the oxidation ditch were tested to study the vari-
+ability of measurements along the reactor regarding OTE and N2O, revealing a low level of variability between
+these locations. Thereafter, a central location with good mixing was studied for 30 days. On this characterization
+campaign, the results obtained for OTE ranged between a minimum value of 3.2 % and a maximum of 34.1 %,
+with an average value of 17.97 ±%5.38. Analysis of N2O emissions averaged 0.012 ±0.003 mgN-N2O/m3 in
+this plant, and the emission factor was estimated at 3.2 % ±0.5. To the best of the authors’ knowledge, this study
+represents the first report of simultaneous collection of oxygen transfer efficiency and N2O emissions under real-
+world conditions. This approach enhances understanding of wastewater treatment plant performance, facilitates
+operational improvements, and contributes to the body of knowledge in environmental engineering and
+sustainability.
+1. Introduction namely the type of treatment processes applied, which can be biological,
+chemical, or physical (used as stand-alone processes or in combination);
+Wastewater treatment efficiency is of paramount importance in the influent characteristics, such as the organic and inorganic contents;
+ensuring the protection of the environment, by preventing the discharge the operational parameters (temperature, pH, and hydraulic retention
+of harmful pollutants into natural water bodies, and the protection of time); and the available infrastructures and equipment, that need to be
+public health, by ensuring that waterborne diseases are not spread [1]. designed to maximize the efficiency of wastewater treatment [4–6].
+Moreover, efficient wastewater treatment contributes to resource con- Oxidation ditches are commonly used activated sludge systems for
+servation by recovering valuable resources such as water, nutrients, and nutrient and organic matter removal, where aeration is used for oxygen
+energy [1,2]. Therefore, efficient wastewater treatment plays a critical input by microorganisms to perform their metabolism [7]. However,
+role in removing contaminants, pathogens, and pollutants from waste- inefficient aeration systems can lead to low oxygen transfer efficiency
+water before it is released into natural water bodies or reutilized [1–3]. (OTE), resulting in an increase in operational costs due to a higher en-
+There are several factors affecting wastewater treatment efficiency, ergy demand to maintain effective oxygen levels in the biological tank
+* Corresponding author at: Associate Laboratory i4HB - Institute for Health and Bioeconomy, NOVA School of Science and Technology, NOVA University of Lisbon,
+2829-516 Caparica, Portugal.
+E-mail address: amr@fct.unl.pt(M.A. Reis).
+https://doi.org/10.1016/j.jwpe.2024.106102
+Received 2 June 2024; Received in revised form 6 August 2024; Accepted 31 August 2024
+Available online 6 September 2024
+2214-7144/© 2024 Published by Elsevier Ltd.
+
+--- Page 2 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+[8]. Neglecting the maintenance of aeration equipment leads to the process is a major energy consumer. By detecting inefficiencies and GHG
+accumulation of biomass or debris in the diffusers, causing a perfor- emissions simultaneously, operators can make informed decisions to
+mance drop over time [9]. Moreover, inadequate design and operation optimize aeration strategies and implement corrective actions more
+of aeration tanks and diffusers may also result in low oxygen dispersion promptly. The combination of OTE and GHG measurements is not just a
+and transfer [10,11]. step towards cost reduction; it’s a stride towards environmental
+Normally, the control of activated sludge biological processes in stewardship.
+wastewater treatment plants (WWTPs) is performed using dissolved Activated sludge processes are commonly applied for nutrient
+oxygen (DO) measurements [12–15] which, despite being an affordable removal, often dependent on nitrification/denitrification methods that
+and a user-friendly option, does not present the same efficiency as the can result in the production of nitrous oxide (N2O), a molecule with a
+control of WWTP processes using respirometry techniques [16–18]. global warming potential (GWP) 273 times higher than CO2 [29]. In
+Respirometry allows the study and control of biomass growth and sub- these methods, ammonia-oxidizing bacteria (AOB) biologically convert
+(cid:0) (cid:0) (cid:0)
+strate consumption by measuring the respiration rate (amount of oxygen NH3 to NO2 (oxidation) while denitrifying bacteria convert NO3/NO2
+required by the microorganisms per time and volume units) in activated to N2 (reduction) [30–32]. N2O is an intermediate in several steps and
+sludge [19]. In an activated sludge process, the respiration rate is several factors have been reported to contribute to the release of N2O in
+dependent on several factors, such as influent loading rate/composition, biological systems. In fact, N2O emissions can be attributed to incom-
+flow regime of the system, inclusion of non-aerated areas for nutrient plete denitrification or disturbances in the microbial community and be
+removal, heterotrophic and autotrophic organism growth rate, sludge influenced by pH and alkalinity levels in the treatment process, which
+recirculation rate and mixed liquor recycling, sludge retention time and affect the balance between different nitrogen species [33–35]. More-
+spatial distribution and efficiency of aeration devices [19–22]. Amongst over, dissolved oxygen plays a central role in N2O emissions because
+the respirometry techniques, off-gas technology, first described by both high and low DO concentrations can impact the nitrification and
+Redmon et al. (1983), uses inert gases (nitrogen, argon) as a tracer. The denitrification processes [36,37]. Therefore, competent monitoring of
+oxygen-mole ratio of dry air is known and can be compared to the ox- both OTE and N2O emissions in WWTP is of the utmost importance to
+ygen mole ratio present in the off-gas, which in the original approach design biological processes with the minimal environmental impact
+was experimentally determined by measuring the oxygen, carbon di- possible and a controlled aeration efficiency will lead to lower energy-
+oxide, and water vapor partial pressures [23]. The current standard demanding processes.
+approach consists in measuring the off-gas mole ratio using an oxygen- Developing off-gas tools for monitoring aeration efficiency and
+sensitive gas sensor and calculating the percentage of oxygen transferred greenhouse gas emissions in WWTPs enhances operational efficiency
+to the wastewater, which can be represented by OTE: the ratio of oxygen and environmental protection. Integrating OTE calculations with nitrous
+transferred to the oxygen fed to the activated sludge process [24]. oxide emission measurements provides a comprehensive approach to
+The utilization of off-gas techniques in real WWTPs for measuring optimize wastewater treatment. This allows for real-time adjustments in
+OTE is a recognized method. OTE measurement with off-gas methods in aeration strategies to meet biological demands effectively while mini-
+wastewater treatment offer direct and accurate assessments with mini- mizing N2O’s environmental impact. The application of off-gas tech-
+mal process disruption, enabling real-time monitoring and optimization niques across different aeration technologies promotes practicality and
+of aeration systems. These methods are flexible across various aeration adaptability, ensuring environmental compliance and reducing green-
+technologies, facilitate energy efficiency, and support environmental house gas emissions. Additionally, combining OTE and N2O data fosters
+compliance with minimal operational complexity. Such advantages research, enriching the understanding of wastewater treatment dy-
+make off-gas methods essential for both operational optimization and namics and its environmental effects. The importance of this combined
+research advancement in wastewater treatment processes [25]. Off-gas approach cannot be overstated, as it may lead to significant operational
+tests can be conducted in situ with hoods at the tank surface or ex situ cost savings but also contributes to the global effort to reduce green-
+by transferring activated sludge to aerated columns to determine oxygen house gas emissions. By providing a clearer understanding of the
+transfer parameters such as the α-factor, which is a correction factor interaction between aeration efficiency and N2O emissions, wastewater
+used to adjust the standard oxygen transfer efficiency to the actual treatment facilities can implement more sustainable practices. This ho-
+conditions in the WWTP. In situ off-gas methods, employing multiple listic perspective is crucial for developing strategies that balance treat-
+hoods over activated sludge tanks, offer a cost-effective alternative to ex ment efficiency with environmental stewardship, marking a significant
+situ columns, requiring fewer sensors and reduced maintenance. These step forward in the pursuit of sustainable wastewater management.
+methods facilitate convenient, long-term monitoring of aeration system
+performance and enable accurate determination of overall process effi- 2. Materials and methods
+ciency, particularly in complex tank configurations. However, they do
+´
+not allow for clear differentiation between variations caused by acti- 2.1. Sensor installation in WWTP (Charneca de Obidos)
+vated sludge characteristics or fouling [25,26]. Moreover, the off-gas
+method is essential for monitoring OTE over time, which is critical for To perform oxygen off-gas assessment and N2O measurements,
+´
+the correct planning of cleaning operations of diffusers and for reducing sensor installation was performed in Charneca de Obidos WWTP
+energy consumption in the aeration system of WWTPs [27,28]. (Fig. S1– supplementary material), operated by A´ guas do Tejo Atlˆantico.
+While off-gas methods for measuring OTE in WWTPs are proven for This WWTP is dimensioned to treat a population equivalent of 30,614,
+their accuracy and minimal disruption, their adoption is not as wide- which corresponds to an average daily flow of 6322 m3/day, serving the
+´
+spread as one might expect. A critical assessment of the challenges and municipalities of Bombarral, Cadaval, and Obidos, and discharging the
+´
+opportunities associated with these methods reveals several factors. One treated effluent in the Atlantic Ocean through the Obidos lagoon
+of the principal hurdles is the initial cost of implementation, which northern margin subsystem. The biological treatment of this WWTP uses
+might be perceived as prohibitively high for some WWTPs, especially an oxidation ditch operated with an on-off aeration configuration (15
+when considering the integration with greenhouse gas (GHG) mea- min on/20 min off), ensured by fine bubble diffusers distributed along
+surement tools. This paper seeks to address this gap by introducing a the aerobic/anoxic side with an aeration flow average value of 1235.5
+novel approach that couples OTE measurement with real-time GHG m3h(cid:0) 1, and dissolved oxygen (DO) averaging 1.647 ± 0.429 mg/L
+assessment, potentially offering a more comprehensive understanding of during aeration. The activated sludge is recirculated, maintaining an
+a WWTP’s environmental impact. This integrative method could prove average value of 3519.1 mg/L of volatile suspended solids (VSS) and a
+to be cost-effective in the long-term by streamlining operations and sludge retention time (SRT) of 20 days.
+reducing energy usage, which is particularly relevant as the aeration The N2O measurements were obtained using Clark-type sensors
+2
+
+--- Page 3 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+(Unisense, Denmark) for both liquid and gas phases connected to a 2.2. Wastewater parameters determination
+specific data storage system. Dissolved oxygen was measured with a DO
+meter (WTW, Germany), and O2 in the gas phase was followed using an 2.2.1. Sampling
+off-gas analyser (Mettler-Toledo, Switzerland), both connected to a During the campaign, samples were collected, at the same hour every
+computer using the BioCTR software as the database for results (Fig. 1). day for 21 days, in three different locations of the WWTP: the raw
+Sensors for gas phase analysis (Fig. 1a) were attached to a floating wastewater sample was collected in the entrance tank of the WWTP,
+commercial hood (AC’SCENT® Flux Hood, USA) with a compressor set where the untreated water arrives; the oxidation ditch sample was
+at 0.5 mL/min for N2O emission calculations during the anoxic phases. collected during aeration in a central and perfectly mixed liquor zone of
+The liquid phase sensors (Fig. 1b) were submerged at 1.5 m of depth, the oxidation ditch (location 1, Fig. 2); the final effluent was collected
+stated by Leu et al. (2009) as the minimal height difference between off- after the secondary decantation tank.
+gas and liquid sensors [38]. A well-mixed, central zone was selected for
+the installation point of the equipment to perform representative mea- 2.2.2. Nutrient determination
+surements and validation measurements. Initially, the equipment (4 After collection, samples were filtrated using 0.2 μm nylon filters
+sensors: 2 for liquid and 2 for gas) was placed over 5 days to allow (Whatman®) and stored in a refrigerated container for transportation.
+significant data collection to validate the methodology. After validation, Each sample was then processed for phosphate and ammonia de-
+the gas hood was installed in five distinct locations within the oxidation terminations by colorimetric methods implemented in a flow segmented
+ditch (Fig. 2) in the aerobic/anoxic side (locations 1–5) of the biological analyser (Skalar® 5100, Skalar Analytical, The Netherlands).
+reactor, while the liquid sensors remained installed in location 1. For
+measurements in the anaerobic side of the biological reactor, both the 2.2.3. Other parameters determination
+liquid sensors and the gas hood were installed in locations 6 and 7 The raw samples were transported in a refrigerated container from
+(Fig. 2). Finally, the off-gas analysis tool was installed in location 5 the Charneca de O´ bidos WWTP to the A´ guas do Tejo Atlaˆntico labora-
+(Fig. 2) during 30 days for OTE and N2O measurements, to study the tories, located in the Santa Cruz WWTP, for processing and determina-
+WWTP performance in terms of energy efficiency, greenhouse gas tion of several parameters. HACH Lange LCK555 kits were used to
+emissions and nutrient removal. determine biochemical oxygen demand (BOD5); HACH Lange LCK114
+kits for chemical oxygen demand (COD) determination; and HACH
+Laton LCK338 kits for estimation of total nitrogen (N-total). The total
+suspended solids (TSS), mixed liquor volatile suspended solids (MLVSS),
+and mixed liquor suspended solids (MLSS) were determined following
+Fig. 1. Real photography of the liquid sensors (a) and (b) off-gas hood analyser and representation of the tool installation in the WWTP (inverted triangles – blowers;
+circles – air bubbles).
+3
+
+--- Page 4 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+parameter that characterizes the oxygenation performance of the pro-
+cess and can be expressed as:
+OTE(%)=O2masstransferredtoliquid
+×100 (1)
+O2massininletair
+This formula can be simplified to be expressed as a function of the O2
+fractions in both inlet and outlet (off) gas from the reactor:
+OTEoff(cid:0)gas(%)=Yin Y(cid:0) inYout×100
+(2)
+where Yin and Yout are the molar fractions of oxygen in the inlet gas and
+the off gas, respectively. In this approach, CO2 and water are not
+accounted for. Since the molar fraction of oxygen in the supplied air is
+known (Yin =0.2095) [23], measuring the molar fraction of O2 present
+in the off-gas allows the determination of OTE.
+For validation of the off-gas approach, the in-situ oxygen uptake rate
+(OUR) method was used. Under conditions of constant dissolved oxygen
+concentration (after long periods of aeration), the OUR tends to equal
+OTR, therefore the rate of oxygen consumption after stopping the
+aeration can estimated, by the following general relationship:
+d[O2]
+= (cid:0) OUR (3)
+dt
+where [O2] is the oxygen concentration in g/L and t is time in hours.
+Considering that the system’s total oxygen demand over the aeration
+period is given by OUR, and knowing the total oxygen supplied, OTE can
+be estimated as follows:
+OTEOUR(%)=T To ota tal lO O2 2c so un ps pu lm iee dd ×100=|OU QR ×|× pV ×100 (4)
+where V is the oxidation ditch volume (6175 m3), Q (1235 m3/h) is the
+aeration flow and p (1.429 g/L) is the oxygen density.
+Pearson correlation analysis was conducted on the raw data to assess
+the linear relationship between the datasets. To ensure the appropri-
+ateness of the Pearson correlation, outliers were identified and removed
+using the standard deviation method with K =3, where K represents the
+number of standard deviations from the mean. A K value of 3 includes
+data within 3 standard deviations from the mean. Values outside this
+range were considered outliers and excluded from the analysis. This
+method was applied to correlate the off-gas method with the OUR
+method (Fig. 3).
+2.3.2. N2O measurements
+The N2O measurements were performed using Clark-type micro-
+electrodes [40] and the nitrous oxide concentration in the gas phase can
+be calculated by adjusting the equation resulting from calibration:
+Fig. 2. Locations (1–7) for off-gas hood measurements within the oxidation
+ditch (blue coloured arrows represent the inlet and outlet of water and unfilled
+arrows represent the wastewater flow within the oxidation ditch). (For inter-
+pretation of the references to colour in this figure legend, the reader is referred
+to the web version of this article.)
+standard methods (APHA, 1999).
+2.3. Calculations
+2.3.1. Off-gas
+The approach for the calculation of OTE was based on the work of Fig. 3. Dynamic view of OTE calculations for the two methods during two
+Redmon et al. (1983) and Capela et al. (2004) [23,39]. OTE is a operational days.
+4
+
+--- Page 5 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+SN2O(T,C)=a1×eb1T+a2×C×eb2T (5) Table 1
+Comparison between off-gas and OUR method for OTE calculations.
+where T is the liquid temperature (K) registered by the sensor, C is the OTE (%)
+sc io gn nc ae ln at nra dt aio i n (a o 1 f = N 52 .O 34 ( 5p ; p am 2 =v) 0 m .0e 5a 1s )u are nd d bin i (bth 1e = s 0en .0s 4o 6r, ; bS 2 i =s t 0h .e 0 3s 1e )n aso rer Off-gas (n =7295) OUR (n =398)
+the fitting parameters calculated after modeling the results to illustrate Range Average Range Average Difference from off-gas
+(%)
+the sensor dependency on temperature (Fig. S3). The gas emissions
+(during and after aeration) were calculated by applying the formulas 6.5–18.1 15.04 ± 4.5–25.2 14.27 ± 5.12
+1.78 5.08
+described by Marques et al. (2016) [41]:
+∑(cid:0) )
+EmittedN2O(aeration)= CN2O×Qgas(aeration)×Δt (6)
+a general agreement between the two methodologies, which validates
+the application of the off-gas tool [42–44]. Notably, OTE measurements
+w duh re inre e am eri att te iod N p2 eO ri( oae dr sa ;t io Cn N) 2( Om (g mN g- NN -2 NO 2) a /r me 3t )h ie g tha es ce om ri rs es ci to en ds co of N ce2 nO w mi et th oo df .f -g Ma os rew oe vr ee le ss ins cv ea r thia eb l Oe Ut Rh a mn eO thT oE c ia sl c au pl pa lt ie ed w onit lh t ah fe rO tU hR
+g n O s n -
+h r , d d y te e
+t 0r .a 0t 8io 2n 0 5o )(f a tN m2 O L mm oe l(cid:0)a 1su Kr (cid:0)e 1d ) ×in [ 2th 8e / To (Kff )- ]g )a ; s Q gs ae sn (as eo rar t io( n= ) (mpp 3hm (cid:0)v 1 ) N is2 tO h× e g(1 a/ s a de ur ra inti go n a erp ae tr ii oo nd ,s b, et ih ne g so uf if t- ag bas le m toe uth so e d in p dr io ffv uid see ds -ali iv r e s ym steo mni st ,o sr uin pg p lyd ia nt ga
+flow exiting the reactor in aerated zones; and Δt (h) is the time interval
+local values and capturing dynamic changes in oxygen transfer
+of operational periods.
+[∑(cid:0) )] ( ) efficiency.
+EmittedN2O(anoxic)= CN2O×Qgas(aeration)×Δt × AA hoT (7)
+od 3.2. Replicability assessment
+where emitted N2O(anoxic) (mgN-N2O) are the gas emissions of N2O
+To assess the replicability of the measured values for oxygen transfer
+t Ld r u a mr ti i on o lg n (cid:0) 1oa Kfn (cid:0)No 1x 2 )i O c × mp [e 2er 8ai s /o u Td r (s e K; d )C ]iN )n ;2 t QO h ie n( (m s ae ng onN xs ico- )N r ( 2 ( 0O = .5/ p m mp3 Lm) / v mi s N int 2h O =e × 7c ( .o 1 2r / r ×0e .c 10t 08e (cid:0)d 2 4 0 c 5 mo )n 3 ( hc a (cid:0)e tn m 1)- e l lo offi c ca ac t ti i ie o on n nc s sy o a f tn t ohd e N o (2 FxO ii gd .e a m t 2i )oi s n ts i d eo i n t lc os h, , gt h f io te ur do fi if v nf- e ag lda vs a ayt rso ao in nl cew eaa c os h i mln os ect a aa t sl i ul oe rnd e. i Fn ei r ns s te t slv y we ,r aia n sl
+1 3 h n i f m
+is the gas flow entering the sensor; Δt (h) is the time interval of una-
+evaluated (Table 2).
+erated periods; AT (1372 m2) is the area of the reaction tank; and Ahood
+The results exhibit a low longitudinal variability in the oxidation
+(0.13 m2) is the area of analysis hood.
+ditch, indicating effective mixing within the biological reactor. Conse-
+N2Oemissionfactor(%)= ToN ta2 lO Ne rm ei mtt oe vd ed×100 (8) q mu ae in nt tl ay i, et do if na c thil eit a ct ee tt rh ae zm ono en i oto r ti hn eg op xr idoc ae tis os n, t dh ite ho .f f T-g ha es ofh fo -go ad tw oa os
+n n l f c s l
+was later positioned in zones 4 and 5 (Fig. 2) to assess the transversal
+where N2O emitted (kg) are the total gas emissions of N2O during a variability of the measurements. Once again, low variability in OTE was
+period and Total N removed (kg) is the total nitrogen removed from the observed. This consistency can be linked to the influence of external
+wastewater during the same period. factors on the measurement parameters. Previous studies have estab-
+lished that OTE in wastewater treatment correlates positively with SRT
+and the design parameters of aeration systems, and inversely with the
+2.4. Sensor calibration
+airflow rate per diffuser [45–47]. Consistent with these findings, our
+observations of enhanced OTE could be attributed to the higher SRT
+Oxygen gas sensor calibration was performed using a precision gas
+applied during our study. This supports the assertion by Leu et al. (2012)
+mass flow controller (Alicat Scientific, USA) that created an oxygen
+that increased SRT not only enhances oxygen demand through more
+gradient between 0 and 20.99 % (v/v) (Fig. S2). The DO sensor was
+comprehensive removal of biodegradable organics but also significantly
+calibrated with two points: at zero-dissolved oxygen (using the sodium
+improves overall OTE [47]. This is especially beneficial in warmer cli-
+sulfite method – Na2SO3, 10 g/L) and at atmospheric O2.
+mates where the efficiency gains effectively compensate for the
+The calibration for gas and liquid N2O sensors (Fig. S3 and S4,
+heightened oxygen requirements. Furthermore, the critical role of SRT
+respectively) was performed according to Marques et al. (2016) [41].
+in removing anthropogenic compounds, such as pharmaceuticals, as
+MTh ee a sd uis rs eo dl v sie gd n N al2 (O m c Va )n = be 0 .d 2i 9re 3c 3t l ×y c [a Nl 2c Oul ]a (t med g u /Lsi )n +g t 1h 3e . 2li 5n 6e ,a fr r ore mg r Fe is gs .i o S4n discussed by Go¨bel et al. (2007) and Kasprzyk-Hordern (2009), is re-
+flected in our results showing stable OTE despite potential contaminant
+(supplementary material).
+presence [48,49]. Historically, the relationship between OTE and Mixed
+Liquor Suspended Solids (MLSS) concentrations was thought to be
+3. Results and discussion inversely proportional. However, contrasting studies by Krampe &
+Krauth (2003) and later nuanced observations by Rosso et al. (2005)
+3.1. Validation of the off-gas tool for OTE calculations
+indicate that higher MLSS may increase the apparent viscosity, leading
+to larger air bubbles which could reduce the specific surface area
+The first campaign for the validation of the off-gas tool was per-
+available for oxygen transfer, as explained by Campbell et al. (2019)
+formed for 5 days and the obtained data was treated to estimate several
+[45,50,51]. In our study, the minimal variability in OTE across different
+parameters, such as the oxygen transfer efficiency. An average of 15.04
+% ±1.78 for OTE was established, ranging between a minimal value of
+Table 2
+6.5 and a maximum of 18.1, in location 1 of Fig. 2. To validate this
+Results for off-gas analysis (locations 1–5).
+approach, Eqs. (3) and (4) were used to convert the OUR, estimated
+using dissolved oxygen measurements, into OTE values. Table 1shows OTE (%)
+the results obtained with both in situ off-gas and OUR techniques. The Location Range Average
+off-gas method was demonstrated as a suitable method for diffused air 1 4.5–20.5 15.86±3.28
+systems analysis due to the relative difference (5.05 %) existent between 2 3.8–20.1 14.83±3.12
+the estimated OTE for both off-gas and OUR methods. 3 4.1–19.9 15.73±3.01
+Fig. 3illustrates the OTE calculations, obtained with both methods, 4 3.6–20.7 16.52±3.16
+5 3.4–22.5 17.69±3.37
+between days 2 and 3 of reactor monitoring. As can be observed, there is
+5
+
+--- Page 6 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+zones, despite these theoretical considerations, suggests an optimized for 30 days, the off-gas analysis tool was installed in location 5 (Fig. 2)
+balance in our aeration system design, reflective of the stable opera- for OTE and N2O measurements. Moreover, samples were collected
+tional parameters such as temperature (18–21 ◦C), SRT (20 days), and every day to study the nutrient removal process for this WWTP. Table 3
+´
+MLSS concentrations. These factors collectively contribute to the presents off-gas measurements in Charneca de Obidos WWTP. An
+observed stability in OTE, underscoring the importance of design and average of 17.97 % ±5.38 for OTE was established, ranging between a
+operational parameters in achieving efficient wastewater treatment. minimum value of 3.2 % and a maximum of 34.1 %.
+This linkage between our observations and the broader literature em- As observed in Fig. 4, the peak of the distribution around the 15–20
+phasizes the practical implications of SRT, MLSS, and temperature % range suggests that this is the most commonly observed OTE, which
+control in optimizing aeration systems [8,24]. can be considered the typical efficiency range for this specific aeration
+system and activated sludge process. The spread of the data, with a tail
+3.3. N2O measurements extending towards higher OTE values, indicates variability in the effi-
+ciency of the oxygen transfer. This could be due to various factors such
+The off-gas tool also assessed N2O emissions in each location and no as different mixing levels, sludge characteristics, or equipment perfor-
+major variations in the average values (0.013 ±0.003 mgN-N2O/m3) mance. The skewness to the right suggests that there are instances where
+were registered. The fluctuations in emission levels over the period the OTE is significantly higher than the average, which could be due to
+depicted, in location 5 of Fig. 2, denoting only slight variability in periodic improvements in the oxygen transfer. Since the distribution is
+emission rates (Fig. S5). The pattern does not indicate a simple diurnal bell-shaped, but not perfectly symmetric, this implies that the data has a
+variation or any straightforward trend over the days, but rather a more normal-like, or Gaussian, distribution but with some deviations, which
+complex set of variations that could be influenced by multiple factors. could be due to real-world complexities in the process. To optimize the
+Fig. S5 illustrates the sensitivity of this analysis to specific conditions, activated sludge process, higher OTE is the objective, which means more
+such as temperature and biological activity, especially considering the oxygen being transferred per unit of energy consumed. Therefore, this
+drops in emissions during nightime (0.5, 1.5, 2.5, and 3.5 days). Inter- data might be used by the WWTP operators to adjust aeration strategies,
+estingly, it was observed that the dissolved N2O was always approxi- improving energy efficiency, while ensuring proper biological treatment
+mately zero, proving the absence of N2O accumulation in the liquid of the wastewater.
+phase. Another important observation is the absence of isolated peaks There are several OTE studies for oxidation ditch reactors with
+´
+for N2O emissions, which are very important in the global emission aeration strategies comparable to the Charneca de Obidos WWTP
+factor of the WWTP [52]. Indeed, the obtained results are in agreement (Table 3). As mentioned before, OTE is influenced by environmental
+with available literature that related the biological reactor conformation factors, such as temperature, barometric pressure, and saturation con-
+type (oxidation ditch) with low N2O emissions [31]. Firstly, oxidation centration of oxygen in water, but also by process conditions like the
+ditch WWTP have been shown to display lower N2O emisions as presence of surfactants, solids retention time (SRT), and mixed liquor
+compared to other widely used wastewater treatment technologies, such concentrations [58–60]. The case-specific conditions of all external
+as anaerobic/anoxic/oxic (A2O), sequencing batch reactors (SBRs), factors could explain the variability of reported results. Regardless of
+anoxic/oxic (A/O) [53]. Secondly, N2O emissions are influenced by low being slightly higher than the average values reported in the literature,
+or high DO values in the aeration tank [37] and the stable DO observed the obtained results are satisfactory and comparable for OTE estimations
+in the reactor correlates to the low N2O emissions during the campaign using the off-gas method. In fact, it can be argued that the real time and
+and the absence of N2O emission peaks. The alternation between short easy monitoring provided by the off-gas method can serve as a tool to
+phases of aeration and anoxic conditions has been demonstrated to study shifts in the wastewater treatment process. Liu et al. (2018) re-
+minimize N2O emissions due to the consumption of nitrous oxide pre- ported the important role of filamentous organisms presence in the
+(cid:0)
+cursors (NO and NO2), via heterotrophic denitrification, between the decrease of aeration efficiency and overall oxygen transfer in waste-
+aeration periods [52]. Kampschreur et al. (2009) assessed the N2O water treatment, and the off-gas tool can be used to quickly understand,
+emissions during wastewater treatment in nitrifying and denitrifying and prevent, changes on the bacterial population of the biological
+tanks, separately and reported that, during nitrification, low DO con- reactor, in WWTP that do not possess a pre-selector of biomass [57].The
+centrations (<1 mg/L) increase N2O emissions because the ammonia- most energy-demanding process on a WWTP is the aeration (in this case
+oxidizing bacteria use nitrite as the final electron acceptor, so oxygen with an average efficiency of approximately 18 %) and the direct
+can be availabe for the oxidation of ammonia to hydroxylamine. The emissions of N2O had an average value of 0.013 ±0.003 mgN-N2O/m3
+same study also reported that high oxygen concentrations, during the (n =14,370) along the 30 day campaign, as illustrated in Fig. 5. The
+denitrification process, were responsible for peaks in N2O emissions emission factor during this period was 3.2 % ± 0.5, which is within
+because N2O reductase from denitrifying bacteria is a very sensitive range of the available literature for complete nitrification/denitrifica-
+enzyme regarding O2 concentration [30]. When the sensor was installed tion systems [61].
+in locations 6 and 7 (Fig. 2), there was no detection of dissolved N2O or It can be observed that during the day (indicated by the sun sym-
+gas emissions (data not shown). Therefore, the effective control of bols), N2O emissions tend to increase, reaching a peak before they start
+aeration rates and the maintenace of stable dissolved oxygen concen- to drop again. This cycle repeats over each day and night. The peaks are
+trations was pivotal to prevent limiting oxygen conditions during
+nitrification and to prevent high oxygen concentrations in denitrifica-
+tion periods, leading to low levels of dissolved N2O and the absence of Table 3
+emission peaks in the gas phase. Results of OTE estimations using off-gas analysis and comparison with literature
+using the same methodology.
+3.4. Assessment of WWTP operation OTE (%)
+Range Average Calculation method Reference
+Since location 5 (Fig. 2) presented the highest value for OTE, it was
+decided to perform a data collection campaign to characterize the per- 3.2–34.1 17.97 ±5.38 Off-gas This study
+´ 8.0–16.7 11.85 Off-gas [23]
+formance of the Charneca de Obidos WWTP using this location. The 12.0–20.0 – Off-gas [54]
+extensive data collection was intended to provide a nuanced under- – 12.25 Off-gas [55]
+standing of the WWTP’s performance, focused on operational efficiency, – 14.57 Off-gas [55]
+regulatory compliance, and, ultimately, in environmental protection, 14.3–21.1 16.53 OUR [56]
+1.2–2.3 1.89 OUR [57]
+contributing to fuel the research and innovation in the field. Therefore,
+6
+
+--- Page 7 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+the total operational costs of a wastewater treatment facility [62–66].
+This highlights the need for wastewater treatment plants to seek opti-
+mization strategies to minimize the financial impact of this critical
+process. The implementation of the off-gas tool in the Charneca de
+´
+Obidos WWTP not only provided valuable data on OTE and N2O emis-
+sions but also highlighted potential cost savings. By optimizing aeration
+based on real-time OTE data, substantial energy savings can be ach-
+ieved, reducing around 20–30 % of the energy costs associated with this
+process [16,38]. Additionally, the off-gas tool’s ability to provide
+continuous monitoring data allows for better maintenance scheduling
+and operational flexibility. For example, by identifying periods of low
+OTE, maintenance can be planned to clean or replace diffusers, ensuring
+they operate at peak efficiency. This proactive maintenance approach
+can prevent costly breakdowns and extend the lifespan of equipment. To
+estimate the overall cost savings, the combined effects of energy savings,
+Fig. 4. Oxygen transfer efficiency frequency distribution – 30 days estimation
+improved nitrogen removal efficiency, and reduced maintenance costs
+with off-gas tool in location 5 of the oxidation ditch.
+must be considered [67,68]. An estimated 20–30 % reduction in energy
+costs, along with a 10–15 % reduction in maintenance and chemical
+costs, could result in annual savings between 25,000 and 38,000€/year
+´
+for a medium-sized WWTP like Charneca de Obidos [69,70]. Therefore,
+the utilization of a low cost off-gas tool (~15,000€) like the one devel-
+oped in this study, constituted by two gas sensors, two acquisition sys-
+tems and one integrated software, would be an investment in both the
+financial efficiency and environmental sustainability of wastewater
+treatment operations, especially considering that the commercial op-
+tions available could range from 30,000€ to 80,000€ for N2O and OTE
+off-gas analysis.
+4. Conclusion
+The primary objective of this work was to develop and apply an off-
+gas analysis system in wastewater treatment plants. This system aimed
+to measure nitrous oxide levels and evaluate oxygen transfer efficiency
+Fig. 5. Typical variation of N2O total emissions in location 5, during four
+in the treatment process. To achieve this objective, the off-gas system
+operational days of the 30-day campaign, divided into day and night times. ´
+was implemented at the Charneca de Obidos WWTP. This system was
+used to analyse and measure N2O levels and OTE at various locations
+likely linked to increased microbial activity that occur during the day-
+within the biological reactor of the plant. Results showed that the
+time, resulting from the higher loading of organic matter, that lead to
+measurements of OTE and N2O were consistent across different points in
+higher emissions of N2O. Conversely, the lower N2O levels at night could
+the biological reactor. These results were validated against the in-situ
+suggest a slowdown in microbial activities. In the context of wastewater
+OUR method and are in line with existing literature. The off-gas system
+treatment, especially in systems like oxidation ditches, maintaining high
+proved to be an effective and reliable tool, given its ability to simulta-
+dissolved oxygen levels is crucial for aerobic processes such as nitrifi-
+neously measure OTE and N2O levels, allowing for more precise ad-
+cation. However, during the night, when organic content is low and
+justments of operational parameters, which ensures efficiency and
+aeration systems continue to operate, the DO levels can become exces-
+environmental compliance. The implementation of this system brings
+sively high. This condition suggests that the aeration is providing more
+several advantages to the WWTP operation, including the reduction of
+oxygen than the microorganisms can use for the treatment processes,
+operational costs, by adjusting oxygen transfer efficiency without
+resulting in low oxygen transfer efficiency. In fact, DO levels during
+nighttime (Fig. S6) were high during aeration (>2 mg/L) and after exceeding recommended N2O emission limits. Additionally, the off-gas
+tool enhances operational flexibility by allowing daily adjustments in
+aeration (never below 0.9 mg/L), which represents a waste of energy
+aeration flow and sludge recirculation, which can contribute to an
+used to power the aeration systems. Moreover, the OTE was lower
+optimized performance of the WWTP. Therefore, the development of
+during the night (the lower range of values from Table 3were measured
+optimization tools like the off-gas system is crucial for enhancing the
+mostly during nighttime), which is a consequence of the aeration sys-
+tem’s efficiency dropping as the dissolved oxygen exceeds the biological efficiency of WWTPs, reducing operational costs, and minimizing envi-
+ronmental impact. The case study presented in this manuscript reflects
+oxygen demand (BOD) of the microorganisms. The energy used to
+the implementation of the off-gas tool under a specific set of operational
+introduce additional oxygen into the system does not result in a pro-
+conditions, reflective of real-world operations without specific DO
+portional increase in oxygen uptake by the bacteria, thus resulting in
+control adjustments. While the findings demonstrate the tool’s potential
+lower OTE. Addressing this issue typically involves optimizing the
+to study the aeration efficiency and accompanying N2O emissions, it is
+aeration strategy, such as by reducing aeration during periods of low
+essential to acknowledge that the validation was conducted under a
+BOD or implementing advanced process control systems that adjust
+single operational scenario. Therefore, future work should include tar-
+aeration rates in real-time based on the actual oxygen demand and other
+geting simultaneous monitoring of N2O emissions and DO control.
+relevant parameters. This optimization can lead to energy savings,
+reduced operational costs, and a decrease in greenhouse gas emissions.
+CRediT authorship contribution statement
+Aeration processes can vary widely in its energy consumption,
+potentially taking up between 50 % to 90 % of a plant’s electricity use,
+Andre´ Freches: Writing – original draft, Methodology, Conceptu-
+depending on the size of the operation and the technologies employed.
+The cost of the power used for aeration may constitute up to 15–49 % of alization. Patrícia Freitas: Investigation. Ricardo Marques: Visuali-
+zation, Supervision. Joana Costa Fradinho: Writing – review & editing.
+7
+
+--- Page 8 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+Adrian Oehmen: Writing – review & editing, Validation. Maria [13] S. Waqas, N.Y. Harun, N.S. Sambudi, K.J. Abioye, M.H. Zeeshan, A. Ali,
+Ascensa˜o Reis: Writing – review & editing, Validation, Supervision. A. Abdulrahman, L. Alkhattabi, A.S. Alsaadi, Effect of operating parameters on the
+performance of integrated fixed-film activated sludge for wastewater treatment,
+Membranes (Basel) 13 (2023), https://doi.org/10.3390/membranes13080704.
+Declaration of competing interest [14] Y. Cao, B.H. Kwok, M.C.M. Van Loosdrecht, G. Daigger, H.Y. Png, W.Y. Long, O.
+K. Eng, The influence of dissolved oxygen on partial nitritation/anammox
+performance and microbial community of the 200,000 m3/d activated sludge
+The authors declare that they have no known competing financial process at the Changi Water Reclamation Plant, Water Sci. Technol. 78 (2018)
+interests or personal relationships that could have appeared to influence 634–643, https://doi.org/10.2166/wst.2018.333.
+[15] H. Fan, L. Qi, G. Liu, Y. Zhang, Q. Fan, H. Wang, Aeration optimization through
+the work reported in this paper.
+operation at low dissolved oxygen concentrations: evaluation of oxygen mass
+transfer dynamics in different activated sludge systems, J. Environ. Sci. (China) 55
+Data availability (2017) 224–235, https://doi.org/10.1016/j.jes.2016.08.008.
+[16] Y. Gu, Y. Li, F. Yuan, Q. Yang, Optimization and control strategies of aeration in
+WWTPs: a review, J. Clean. Prod. 418 (2023), https://doi.org/10.1016/j.
+Data will be made available on request. jclepro.2023.138008.
+[17] M. Mainardis, M. Buttazzoni, M. Cottes, A. Moretti, D. Goi, Respirometry tests in
+wastewater treatment: why and how? A critical review, Sci. Total Environ. 793
+Acknowledgements
+(2021), https://doi.org/10.1016/j.scitotenv.2021.148607.
+[18] H. Spanjers, P. Vanrolleghem, G. Olsson, P. Dold, Respirometry in control of
+This work was supported by European funds from the Interreg Sudoe activated sludge process, Water Sci. Technol. 34 (1996) 117–126, https://doi.org/
+program during the implementation of the project “CircRural4.0” 10.1016/0273-1223(96)84211-9.
+(SOE2/P1/E0539) and by national funds from FCT - Fundaç˜ao para a [19] P tr. eA a. t mVa en nr to , l il ne :g Ph re om c, e eP dri in nc gi sp Il nes te o rnf are tis op nir ao l m We otr ry k si hn o pac oti nv a Rt ee cd e s nl tu d Dg ee v ew loa pst mew ena tt e inr
+Ciˆencia e a Tecnologia, I.P., in the scope of the project UIDP/04378/ Respirometry for Wastewater Treatment Plant Monitoring and Control, 2002.
+2020 and UIDB/04378/2020 of the Research Unit on Applied Molecular Taipei, Taiwan, October 22-23, 2002, p.2/1-20, http://hdl.handle.net/1854/
+LU-157898.
+Biosciences - UCIBIO and the project LA/P/0140/2020 of the Associate [20] A. S´anchez-Zurano, S. Rossi, J.M. Fern´andez-Sevilla, G. Aci´en-Ferna´ndez,
+Laboratory Institute for Health and Bioeconomy - i4HB. A. Freches also E. Molina-Grima, E. Ficara, Respirometric assessment of bacterial kinetics in algae-
+acknowledges the financial support of FCT - Fundaç˜ao para a Ciˆencia e a bacteria and activated sludge processes, Bioresour. Technol. 352 (2022), https://
+doi.org/10.1016/j.biortech.2022.127116.
+Tecnologia through the doctoral grant SFRH/BD/145555/2019 (doi:1
+[21] M. Arias-Navarro, M. Villen-Guzman, R. Perez-Recuerda, J.M. Rodriguez-Maroto,
+0.54499/SFRH/BD/145555/2019). The use of respirometry as a tool for the diagnosis of wastewater treatment plants:
+a real case study in southern Spain, Journal of Water Process Engineering 29
+(2019), https://doi.org/10.1016/j.jwpe.2019.100791.
+Appendix A. Supplementary data
+[22] H. Benaliouche, D. Abdessemed, G. Lesage, M. Heran, Characterization of active
+biomass and species by means of respirometric technique from activated sludge
+Supplementary data to this article can be found online at https://doi. models, Int J Environ Res 11 (2017) 489–500, https://doi.org/10.1007/s41742-
+017-0043-1.
+org/10.1016/j.jwpe.2024.106102.
+[23] D. Redmon, W.C. Boyle, L. Ewing, Oxygen transfer efficiency measurements in
+mixed liquor using off-gas techniques, J. Water Pollut. Control Fed. 55 (1983)
+References 1338–1347. http://www.jstor.org/stable/25042104.
+[24] M. Garrido-Baserba, D. Rosso, V. Odize, A. Rahman, T. Van Winckel, J.T. Novak,
+A. Al-Omari, S. Murthy, M.K. Stenstrom, H. De Clippeleir, Increasing oxygen
+[1] K.K. Kesari, R. Soni, Q.M.S. Jamal, P. Tripathi, J.A. Lal, N.K. Jha, M.H. Siddiqui,
+transfer efficiency through sorption enhancing strategies, Water Res. 183 (2020),
+P. Kumar, V. Tripathi, J. Ruokolainen, Wastewater treatment and reuse: a review of
+https://doi.org/10.1016/j.watres.2020.116086.
+its applications and health implications, Water Air Soil Pollut. 232 (2021), https://
+[25] M. Schwarz, J. Trippel, M. Engelhart, M. Wagner, Determination of alpha factors
+doi.org/10.1007/s11270-021-05154-8.
+for monitoring of aeration systems with the ex-situ off-gas method: experience
+[2] E.A. Aboagye, S.M. Burnham, J. Dailey, R. Zia, C. Tran, M. Desai, K.M. Yenkie,
+from practical application and estimation of measurement uncertainty, Environ.
+Systematic design optimization and sustainability assessment for generation of Sci. Pollut. Res. 29 (2022) 87950–87968, https://doi.org/10.1007/s11356-022-
+efficient wastewater treatment networks, Water (Switzerland) 13 (2021) 1326,
+21915-2.
+https://doi.org/10.3390/w13091326.
+[26] K.P. Groves, G.T. Daigger, T.J. Simpkin, D.T. Redmon, L. Ewing, Evaluation of
+[3] I. Clos, J. Krampe, J.P. Alvarez-Gaitan, C.P. Saint, M.D. Short, Energy
+oxygen transfer efficiency and alpha-factor on a variety of diffused aeration
+benchmarking as a tool for energy-efficient wastewater treatment: reviewing systems, Water Environ. Res. 64 (1992) 691–698, https://doi.org/10.2175/
+international applications, Water Conservation Science and Engineering 5 (2020)
+115–136, https://doi.org/10.1007/s41101-020-00086-6. WER.64.5.5.
+[27] R. Gori, A. Balducci, C. Caretti, C. Lubello, Monitoring the oxygen transfer
+[4] R.R. Srivastava, P.K. Singh, Selection of factors affecting integrated municipal
+efficiency of full-scale aeration systems: investigation method and experimental
+wastewater treatment and reuse network: an interpretive structural modelling results, Water Sci. Technol. 70 (2014) 8–14, https://doi.org/10.2166/
+(ISM) approach, Environ. Dev. Sustain. 25 (2023) 9137–9161, https://doi.org/
+wst.2014.165.
+10.1007/s10668-022-02428-x.
+[28] M. Schwarz, J. Behnisch, J. Trippel, M. Engelhart, M. Wagner, Oxygen transfer in
+[5] A. Trianni, M. Negri, E. Cagno, What factors affect the selection of industrial
+two-stage activated sludge wastewater treatment plants, Water (Switzerland) 13
+wastewater treatment configuration? J. Environ. Manag. 285 (2021) 112099
+(2021) 1964, https://doi.org/10.3390/w13141964.
+https://doi.org/10.1016/j.jenvman.2021.112099.
+[29] IPCC, Climate change 2023: synthesis report, in: Core Writing Team, H. Lee,
+[6] A. Saravanan, V.C. Deivayanai, P.S. Kumar, G. Rangasamy, R.V. Hemavathy,
+J. Romero (Eds.), Contribution of Working Groups I, II and III to the Sixth
+T. Harshana, N. Gayathri, K. Alagumalai, A detailed review on advanced oxidation
+Assessment Report of the Intergovernmental Panel on Climate Change, IPCC,
+process in treatment of wastewater: mechanism, challenges, and future outlook,
+Geneva, Switzerland, 2023, https://doi.org/10.59327/IPCC/AR6-
+Chemosphere 308 (2022), https://doi.org/10.1016/j.chemosphere.2022.136524.
+9789291691647, 184 pp.
+[7] D. Rosso, L.E. Larson, M.K. Stenstrom, Aeration of large-scale municipal
+[30] M.J. Kampschreur, H. Temmink, R. Kleerebezem, M.S.M. Jetten, M.C.M. van
+wastewater treatment plants: state of the art, Water Sci. Technol. 57 (2008)
+973–978, https://doi.org/10.2166/wst.2008.218. L (2o 0o 0sd 9r )e 4c 0h 9t, N –4it 1r 0ou 3s ho tx ti pd se e /m dois i.s oio rgn d 1u 0r .1in 0g 6w /a j.s wte aw tra et se .r 0tr 0e 9a .t 0m 3e .0n 0t, W ater Res. 43
+3 , :/ / 1 2 1 .
+[8] G.A. Baquero-Rodríguez, J.A. Lara-Borrero, D. Nolasco, D. Rosso, A critical review
+[31] Y. Law, L. Ye, Y. Pan, Z. Yuan, Nitrous oxide emissions from wastewater treatment
+o slf t dh ge f a Wct ao tr es a Eff ne vc it rin ong .m Ro ed s.e l 9in 0g 2o 0xy 1g 8e n t 3r 1a –n 4sf 4e 1r b hy tfi pn s:e /- /p do ore od ri gff /u 1s 0e .r 2s 1in 5a /c tivated processes, Philos. Trans. R. Soc. B 367 (2012) 1265–1277, https://doi.org/
+u e , r ( ) 4 , t i. 7
+10.1098/rstb.2011.0317.
+106143017x15131012152988.
+[32] W. Gruber, K. Villez, M. Kipf, P. Wunderlin, H. Siegrist, L. Vogt, A. Joss, N2O
+[9] G. Liu, J. Wang, K. Campbell, Formation of filamentous microorganisms impedes
+emission in full-scale wastewater treatment: proposing a refined monitoring
+oxygen transfer and decreases aeration efficiency for wastewater treatment,
+J. Clean. Prod. 189 (2018) 502–509, https://doi.org/10.1016/j. strategy, Sci. Total Environ. 699 (2020) 134157, https://doi.org/10.1016/j.
+scitotenv.2019.134157.
+jclepro.2018.04.125. [33] W. Gruber, L. von K¨anel, L. Vogt, M. Luck, L. Biolley, K. Feller, A. Moosmann,
+[10] R. Herrmann-Heber, S.F. Reinecke, U. Hampel, Dynamic aeration for improved N. Kr¨ahenbühl, M. Kipf, R. Loosli, M. Vogel, E. Morgenroth, D. Braun, A. Joss,
+oxygen mass transfer in the wastewater treatment process, Chem. Eng. J. 386
+Estimation of countrywide N2O emissions from wastewater treatment in
+(2020), https://doi.org/10.1016/j.cej.2019.122068.
+Switzerland using Long-term monitoring data, Water Res X 13 (2021) 100122,
+[11] L. Changqing, L. Shuai, Z. Feng, The oxygen transfer efficiency and economic cost
+https://doi.org/10.1016/j.wroa.2021.100122.
+analysis of aeration system in municipal wastewater treatment plant, Energy
+Procedia 5 (2011) 2437–2443, https://doi.org/10.1016/j.egypro.2011.03.419. [34] Y w. aJ s. tL ewee a, tB er. tle L ai tn m, eZ n. L –e ai, rN evit ir eo wu ,s Bo ix oi rd ee oe um r.i s Ts eio cn nm oi lt i 3g 6at 2i o (n 0f 2ro 2m hb ti to pl so :g /i /c da ol
+re t s h . 2 ), i.org/
+[12] X. Du, J. Wang, V. Jegatheesan, G. Shi, Dissolved oxygen control in activated
+10.1016/j.biortech.2022.127747.
+sludge process using a neural network-based adaptive PID algorithm, Applied
+Sciences (Switzerland) 8 (2018), https://doi.org/10.3390/app8020261.
+8
+
+--- Page 9 ---
+A. Freches et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 67 (2024) 106102
+[35] H. Duan, B. van den Akker, B.J. Thwaites, L. Peng, C. Herman, Y. Pan, B.J. Ni, [53] H. Li, L. You, H. Du, B. Yu, L. Lu, B. Zheng, Q. Zhang, K. He, N. Ren, Methane and
+S. Watt, Z. Yuan, L. Ye, Mitigating nitrous oxide emissions at a full-scale nitrous oxide emissions from municipal wastewater treatment plants in China: a
+wastewater treatment plant, Water Res. 185 (2020), https://doi.org/10.1016/j. plant-level and technology-specific study, Environmental Science and
+watres.2020.116196. Ecotechnology 20 (2024), https://doi.org/10.1016/j.ese.2023.100345.
+[36] A. Rodriguez-Caballero, I. Aymerich, M. Poch, M. Pijuan, Evaluation of process [54] J.A. Libra, A. Schuchardt, C. Sahlmann, J. Handschag, U. Wiesmann, R. Gnirss,
+conditions triggering emissions of green-house gases from a biological wastewater Comparison of the efficiency of large-scale ceramic and membrane aeration
+treatment system, Sci. Total Environ. 493 (2014) 384–391, https://doi.org/ systems with the dynamic off-gas method, Water Sci. Technol. 46 (2002) 317–324,
+10.1016/j.scitotenv.2014.06.015. https://doi.org/10.2166/wst.2002.0615.
+¨
+[37] A. Aboobakar, E. Cartmell, T. Stephenson, M. Jones, P. Vale, G. Dotro, Nitrous [55] R. Iranpour, A. Magallanes, M. Zermen, A.O.V. Varsh, A. Abrishamchi,
+oxide emissions and dissolved oxygen profiling in a full-scale nitrifying activated M. Stenstrom, Assessment of aeration basin performance efficiency: sampling
+sludge treatment plant, Water Res. 47 (2013) 524–534, https://doi.org/10.1016/j. methods and tank coverage, Water Res. 34 (2000) 3137–3152, https://doi.org/
+watres.2012.10.004. 10.1016/S0043-1354(00)00065-8.
+[38] S. Leu, D. Rosso, L.E. Larson, M.K. Stenstrom, Real-time aeration efficiency [56] A.A.T. Alkhalidi, H.B. Al Ba’ba’a, R.S. Amano, Wave generation in subsurface
+monitoring in the activated sludge process and methods to reduce energy aeration system: a new approach to enhance mixing in aeration tank in wastewater
+consumption and operating costs, Water Environ. Res. 81 (2009) 2471–2481, treatment, desalination, Desalin. Water Treat. 57 (2016) 27144–27151, https://
+https://doi.org/10.2175/106143009x425906. doi.org/10.1080/19443994.2016.1172263.
+[39] S. Capela, S. Gillot, A. H´eduit, Comparison of oxygen-transfer measurement [57] G. Liu, J. Wang, K. Campbell, Formation of filamentous microorganisms impedes
+methods under process conditions, Water Environ. Res. 76 (2004) 183–188. oxygen transfer and decreases aeration efficiency for wastewater treatment,
+http://about.jstor.org/terms. J. Clean. Prod. 189 (2018) 502–509, https://doi.org/10.1016/j.
+[40] R. Marques, A. Oehmen, M. Pijuan, Novel microelectrode-based online system for jclepro.2018.04.125.
+monitoring N2O gas emissions during wastewater treatment, Environ. Sci. Technol. [58] G.A. Baquero-Rodríguez, J.A. Lara-Borrero, D. Nolasco, D. Rosso, A critical review
+48 (2014) 12816–12823, https://doi.org/10.1021/es504061h. of the factors affecting modeling oxygen transfer by fine-pore diffusers in activated
+[41] R. Marques, A. Rodriguez-Caballero, A. Oehmen, M. Pijuan, Assessment of online sludge, Water Environ. Res. 90 (2018) 431–441, https://doi.org/10.2175/
+monitoring strategies for measuring N2O emissions from full-scale wastewater 106143017X15131012152988.
+treatment systems, Water Res. 99 (2016) 171–179, https://doi.org/10.1016/j. [59] P.A. Vanrolleghem, H. Spanjers, B. Petersen, P. Ginestet, I. Takacs, Estimating
+watres.2016.04.052. (combinations of) activated sludge model no. 1 parameters and components by
+[42] S.Y. Leu, J.A. Libra, M.K. Stenstrom, Monitoring off-gas O2/CO2 to predict respirometry, Water Sci. Technol. 39 (1999) 195–214, https://doi.org/10.1016/
+nitrification performance in activated sludge processes, Water Res. 44 (2010) S0273-1223(98)00786-0.
+3434–3444, https://doi.org/10.1016/j.watres.2010.03.022. [60] A. Schuchardt, J.A. Libra, C. Sahlmann, U. Wiesmann, R. Gnirss, Evaluation of
+[43] I. Lizarralde, T. Fern´andez-Ar´evalo, S. Beltr´an, E. Ayesa, P. Grau, Validation of a oxygen transfer efficiency under process conditions using the dynamic off-gas
+multi-phase plant-wide model for the description of the aeration process in a method, Environ. Technol. 28 (2007) 479–489, https://doi.org/10.1080/
+WWTP, Water Res. 129 (2018) 305–318, https://doi.org/10.1016/j. 09593332808618812.
+watres.2017.10.061. [61] S. Liu, F. Wu, M. Guo, M. Zeng, W. Liu, Z. Wang, N. Wu, J. Cao, A comprehensive
+[44] X. Zhou, Y. Wu, H. Shi, Y. Song, Evaluation of oxygen transfer parameters of fine- literature mining and analysis of nitrous oxide emissions from different innovative
+bubble aeration system in plug flow aeration tank of wastewater treatment plant, mainstream anammox-based biological nitrogen removal processes, Sci. Total
+J. Environ. Sci. (China) 25 (2013) 295–301, https://doi.org/10.1016/S1001-0742 Environ. 904 (2023), https://doi.org/10.1016/j.scitotenv.2023.166295.
+(12)60062-X. [62] N. Diaz-Elsayed, N. Rezaei, A. Ndiaye, Q. Zhang, Trends in the environmental and
+[45] D. Rosso, M.K. Stenstrom, Comparative economic analysis of the impacts of mean economic sustainability of wastewater-based resource recovery: a review, J. Clean.
+cell retention time and denitrification on aeration systems, Water Res. 39 (2005) Prod. 265 (2020) 121598, https://doi.org/10.1016/j.jclepro.2020.121598.
+3773–3780, https://doi.org/10.1016/j.watres.2005.07.002. [63] G. Yadav, A. Mishra, P. Ghosh, R. Sindhu, V. Vinayak, A. Pugazhendhi, Technical,
+[46] K. Campbell, J. Wang, New insights into the effect of surfactants on oxygen mass economic, and environmental feasibility of resource recovery technologies from
+transfer in activated sludge process, J. Environ. Chem. Eng. 8 (2020) 104409, wastewater, Sci. Total Environ. 796 (2021) 149022, https://doi.org/10.1016/j.
+https://doi.org/10.1016/j.jece.2020.104409. scitotenv.2021.149022.
+[47] S. Leu, L. Chan, M.K. Stenstrom, Toward Long solids retention time of activated [64] M. Farago`, A. Damgaard, J.A. Madsen, J.K. Andersen, D. Thornberg, M.
+sludge processes: benefits in energy saving, effluent quality, and stability, Water H. Andersen, M. Rygaard, From wastewater treatment to water resource recovery:
+Environ. Res. 84 (2012) 42–53, https://doi.org/10.2175/ environmental and economic impacts of full-scale implementation, Water Res. 204
+106143011x12989211841052. (2021), https://doi.org/10.1016/j.watres.2021.117554.
+[48] A. Go¨bel, C.S. McArdell, A. Joss, H. Siegrist, W. Giger, Fate of sulfonamides, [65] U. Ghimire, G. Sarpong, V.G. Gude, Transitioning wastewater treatment plants
+macrolides, and trimethoprim in different wastewater treatment technologies, Sci. toward circular economy and energy sustainability, ACS Omega 6 (2021)
+Total Environ. 372 (2007) 361–371, https://doi.org/10.1016/j. 11794–11803, https://doi.org/10.1021/acsomega.0c05827.
+scitotenv.2006.07.039. [66] J. Drewnowski, A. Remiszewska-Skwarek, S. Duda, G. Łago´d, Aeration process in
+[49] B. Kasprzyk-Hordern, R.M. Dinsdale, A.J. Guwy, The removal of pharmaceuticals, bioreactors as the Main energy consumer in a wastewater treatment plant, Review
+personal care products, endocrine disruptors, and illicit drugs during wastewater of Solutions and Methods of Process Optimization, Processes 7 (2019), https://doi.
+treatment and its impact on the quality of receiving waters, Water Res. 43 (2009) org/10.3390/pr7050311.
+363–380, https://doi.org/10.1016/j.watres.2008.10.047. [67] L. Po¨yry, P. Ukkonen, M. Mulas, A. Mikola, Modelling solution for estimating
+[50] J. Krampe, K. Krauth, Oxygen transfer into activated sludge with high MLSS aeration energy of wastewater treatment plants, Water Sci. Technol. 84 (2021)
+concentrations, Water Sci. Technol. 47 (2003) 297–303, https://doi.org/10.2166/ 3941–3951, https://doi.org/10.2166/wst.2021.481.
+wst.2003.0618. [68] H. Lu, H. Wang, Q. Wu, H. Luo, Q. Zhao, B. Liu, Q. Si, S. Zheng, W. Guo, N. Ren,
+[51] K. Campbell, J. Wang, G. Liu, G. Daigger, Activated sludge morphology Automatic control and optimal operation for greenhouse gas mitigation in
+significantly impacts oxygen transfer at the air–liquid boundary, Water Environ. sustainable wastewater treatment plants: a review, Sci. Total Environ. 855 (2023)
+Res. 91 (2019) 500–509, https://doi.org/10.1002/wer.1066. 158849, https://doi.org/10.1016/j.scitotenv.2022.158849.
+[52] A. Rodriguez-Caballero, I. Aymerich, R. Marques, M. Poch, M. Pijuan, Minimizing [69] A. Asadi, A. Verma, K. Yang, B. Mejabi, Wastewater treatment aeration process
+N2O emissions and carbon footprint on a full-scale activated sludge sequencing optimization: a data mining approach, J Envmtl Mngmt 203 (2017) 630–639,
+batch reactor, Water Res. 71 (2015) 1–10, https://doi.org/10.1016/j. https://doi.org/10.1016/j.jenvman.2016.07.047.
+watres.2014.12.032. [70] P. Balm´er, B. Mattson, Wastewater treatment plant operation costs, Water Sci.
+Technol. 30 (1994) 7–15, https://doi.org/10.2166/wst.1994.0147.
+9

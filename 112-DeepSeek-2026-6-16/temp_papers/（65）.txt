@@ -1,0 +1,584 @@
+--- Page 1 ---
+EnvironmentalScienceandEcotechnology20(2024)100341
+ContentslistsavailableatScienceDirect
+Environmental Science and Ecotechnology
+journal homepage: www.journals.elsevier.com/environmental-science-and-
+ecotechnology/
+Discussion
+Mitigating greenhouse gas emissions from municipal wastewater
+treatment in China
+Yindong Tong a,b,1, Xiawei Liao c,1, Yanying He b,1, Xiaomei Cui a, Marcus Wishart d,
+Feng Zhao b, Yulian Liao b, Yingxin Zhao b, Xuebin Lv b, Jiawen Xie b, Yiwen Liu b,* ,
+a,b,e,** b,***
+Guanyi Chen , Li'an Hou
+aSchoolofEcologyandEnvironment,TibetUniversity,Lhasa,850012,China
+bSchoolofEnvironmentalScience&Engineering,TianjinUniversity,Tianjin,300072,China
+cBayAreaInternationalBusinessSchool,BeijingNormalUniversity,Zhuhai,519087,China
+dTheWorldBank,WashingtonD.C.,20433,USA
+eSchoolofMechanicalEngineering,TianjinUniversityofCommerce,Tianjin,300134,China
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Municipalwastewatertreatmentplaysanindispensableroleinenhancingwaterqualitybyeliminating
+Received2March2023 contaminants.Whiletheprocessisvital,itsenvironmentalfootprint,especiallyintermsofgreenhouse
+Receivedinrevisedform gas (GHG) emissions, remains underexplored. Here we offer a comprehensive assessment of GHG
+7November2023
+emissionsfromwastewatertreatmentplants(WWTPs)acrossChina.Ouranalysesrevealanestimated
+Accepted8November2023 1.54(0.92e2.65)(cid:1)104GgreleaseofGHGs(CO2-eq)in2020,withadominantcontributionfromN2O
+emissionsandelectricityconsumption.Wecanforeseea60e65%reductionpotentialinGHGemissions
+Keywords:
+with promising advancements in wastewater treatment, such as cutting-edge biological techniques,
+Wastewatertreatment
+intelligentwastewaterstrategies,andashifttowardsrenewableenergysources.
+Greenhousegasemission
+©2023TheAuthors.PublishedbyElsevierB.V.onbehalfofChineseSocietyforEnvironmentalSciences,
+Pollutantremoval
+Advancedtechnology HarbinInstituteofTechnology,ChineseResearchAcademyofEnvironmentalSciences.Thisisanopen
+China accessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+1. Introduction Rapidurbanizationandincreasinglevelsofaffluencehaveledtoa
+largeincreaseinGHGemissionsfromurbanwatersectors.AsChina
+The urban water sector has been identified as a significant aimstoreachitscarbonpeakby2030andachievecarbonneutrality
+contributortogreenhousegas(GHG)emissions.Recentupdatesin by 2060, it is crucial to examine the contribution of urbanwater
+emissioninventoriesunderscorethepivotalroleofGHGemissions sectorstothenationalGHGemissionsbudget.
+stemmingfromurbanwatersuppliesandwastewatertreatmentsin UrbanwastewatersystemsareacomplexsourceofGHGemis-
+theglobalcarbonbudgets[1e6].Itisestimatedthatthedegrada- sions, characterized by intricate interactions between water and
+tion of organics in wastewater treatments contributed ~0.77 Gt energy [9e11]. Recognizing the urbanwater sector's role in GHG
+CO2-equivalent (CO2-eq) GHG emissions in 2010, equivalent to emissions is imperative for addressing the challenges posed by
+1.57% of the global GHG emission (i.e., 49 Gt CO2-eq) [7]. In globalwarming[6,12].GHGemissionsfromwastewatertreatments
+particular, non-CO2 GHG emissions (i.e., N2O and CH4) in waste- areprimarilyderivedfromdirectproductions(e.g.,N2OandCH4)
+water treatments and discharge doubled from 1970 to 2015, and indirect CO2 emissions from energy and chemical consump-
+occupying ~9.6% of global non-CO2 GHG emissions in 2015 [8]. tions[13].Whilemicrobialprocessesarecommonlyusedtoreduce
+nutrients and organic matter inwastewater treatments, theycan
+also produce GHGs such as CH4 and N2O [14]. On a global scale,
+wastewatertreatmentisestimatedtocontributearound2%tothe
+* Correspondingauthor. totalanthropogenicGHGemissions[2,15].Itisestimatedthatbe-
+** Correspondingauthor.SchoolofMechanicalEngineering,TianjinUniversityof
+tween 2005 and 2030, annual non-CO2 GHG emissions from
+Commerce,Tianjin,300134,China.
+*** Correspondingauthor. wastewatertreatmentprocessescouldrangefrom0.56to0.71Gtof
+E-mail addresses: yiwen.liu@tju.edu.cn (Y. Liu), chen@tju.edu.cn (G. Chen), CO2-eqperyear[16].Historically,directCO2emissionsfromdeg-
+houlian678@hotmail.com(L.Hou). radationsofwastewaterorganicswereconsideredacarbon-neutral
+1 Theseauthorscontributedequallytothiswork.
+https://doi.org/10.1016/j.ese.2023.100341
+2666-4984/©2023TheAuthors.PublishedbyElsevierB.V.onbehalfofChineseSocietyforEnvironmentalSciences,HarbinInstituteofTechnology,ChineseResearch
+AcademyofEnvironmentalSciences.ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+--- Page 2 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+process in GHG accounting [17,18]. On the other hand, non-CO2 2. Methodsandmaterials
+GHG emissions are increasingly recognized as significant due to
+their much higher global warming potentials than CO2. They are 2.1. Datasources
+25e298 times stronger (in a 100-year time horizon) in global
+warmingpotentialsthanCO2[2,19]. The investigation encompassed 3444 centralized WWTPs
+Chinahasundergoneoneofthelargestandmostrapidurban- distributedacross31provincesinChina,drawingdatafromChina's
+izationprocessesinhumanhistory,withover60%ofthepopula- Environmental Statistics Databases, China's Urban Construction
+tion,approximately900millionpeople,livinginurbanregionsin Yearbooks, and previously researched by the author [22,31,32].
+2020comparedtolessthan20%inthe1970s[20,21].Toimprove TheseinvestigatedWWTPsrepresentedapproximately70%ofthe
+waterqualityandsanitation,therehasbeensignificantinvestment total WWTPs in China and about 55% of the total volumes of
+in the construction of wastewater treatment plants (WWTPs) in wastewater treated in the country in 2020. The investigation of
+many countries. In the specific case of China, the percentage of each WWTP included the following information: (1) geographic
+treatedmunicipalwastewaterincreasedfromapproximately40%in locations(latitudesandlongitudes);(2)theconcentrationsforTN,
+2005toover90%in2017[20,22].Nowadays,Chinahastheworld's NH3eN,andCODintheinfluentandeffluent;(3)thevolumesof
+largest municipal wastewater treatment capacity (~60 billion m3 treated wastewater; (4) energy usages; and (5) employed treat-
+year(cid:3)1)
+and continues to make large investments in expanding ment techniques. Wastewater treatment technologies applied in
+wastewater treatment facilities. As such, the urban wastewater the investigated WWTPs were classified into eleven types,
+sectorhasthepotentialtomakesubstantialcontributionstoGHG including anaerobic-anoxic-oxic (A/A/O), anaerobic-oxic (A/O),
+emissions [23e27]. Our previous studies have demonstrated that improved activated sludge (IAS), conventional activated sludge
+WWTPconstructionshaveeffectivelyreducednutrientinputsinto (CAS), BIOLAK, oxidation ditch (OD), sequencing batch reactor
+watersandimprovedwaterquality[22,28,29].Forinstance,wefind (SBR),membranebioreactor(MBR),biologicalfilter(BF),ecological
+that improved treatments of both rural and urban domestic treatment (ET) and others. The average yearly wastewater treat-
+wastewater have resulted in large-scale declines in lake phos- ment volume for all investigated WWTPs was
+phorus(P)concentrationsinthemostpopulatedareaofChina[28]. (1183.7±1973.6)(cid:1)104m3(Fig.S3).Amongthem,27%hadapplied
+Insomeregions,duetothehigherremovalefficiencyofPcompared A/A/O,and31%hadappliedOD.Theestimatedoperatingcostfor
+with nitrogen (N), the N/P mass ratio in the total municipal treating1m3ofwastewaterbyeachdifferenttechniqueisprovided
+wastewaterdischargeshascontinuedtoincreasefromthemedian inFig.S1.
+of10.7in2008to17.7in2017[22].Thus,WWTPconstructionshave
+been successful in improving waterquality. However, GHG emis-
+sionsassociatedwiththeoperationoftheseplantshavereceived
+limited attention. Earlier studies have explored GHG emissions 2.2. EstimationofGHGemissionsfromWWTPs
+stemmingfromwastewatertreatmentprocesses.Forexample,Yan
+etal.appliedanemissionfactormethodtodeterminethespatial GHG emissions in wastewater treatments were classified into
+and temporal distribution characteristics of GHG emissions from directandindirectemissions[13].DirectGHGemissionsfromthe
+municipal WWTPs from 2005 to 2014. Their study included CH4 treatmentprocessincludedCH4andN2Oemissionsfrombiological
+and N2O emissions, disregarding the potentially substantial con- nutrient removal. However, direct CO2 emissions were typically
+tributionsofindirectCO2emissions[24].Huangetal.established regardedas100%biogenicandnotincludedintheGHGemission
+plant-level monthly operational emissions inventories of China's inventory for wastewater treatments [17,23]. Indirect GHG emis-
+WWTPsfrom2009to2019. Theyshowed thaturbanwastewater sionsemphasizedinthisstudywerethepartincurredfromenergy
+treatment has been enhanced, with 80% more chemical oxygen usage, while the contributions from chemical consumption were
+demand (COD) removed annually. They concluded that the not considered due to data scarcity. GHG contributions from
+enhanced urban wastewater treatment increases GHG emissions chemical consumption could account for between 5% and 15% of
+andregionalinequality[30].Huaetal.developedaframeworkto the total GHG emissions inwastewater treatments [33]. A three-
+obtain multi-level GHG emission factors of WWTPs. They found step procedure was performed to estimate GHG emissions from
+that GHG emission factors of different technologies may range WWTPs. First, a comprehensive examination encompassed pa-
+widelyfrom180.0to615.7gCO2-eqpertonwastewater[23]. rameters such as treated wastewater volume, treatment tech-
+In this study, we focus on quantifying GHG emissions in niques, nutrient concentrations in the influents and effluents of
+wastewatertreatmentprocessesinChina.Toachievethisgoal,we WWTPs,andenergyusage.Subsequently,estimateswerederived
+reviewedthedevelopmentofWWTPsinChinafrom2000to2020. forthemassesoforganicmaterialandnutrientremoval.Secondly,a
+Asystematicinvestigationwasconductedonpollutantconcentra- literaturereviewwasconductedtosourceGHGemissionfactorsfor
+tions,suchastotalnitrogen(TN),ammonianitrogen(NH3-N),and differenttreatmenttechniques.ThisstudyadoptedGHGemission
+chemicaloxygendemand,ininfluentsandeffluentsofWWTPsas factorsbydifferenttreatmenttechnologiesfromapreviousstudy
+wellasonelectricityconsumptions,wastewatertreatmentvolume, (TableS1)[23].CH4,N2O,andindirectCO2emissionsbytreating1
+treatment technologies, and location. These efforts aimed to m3wereprovidedinTableS1,andtheseGHGemissionscouldrange
+improvetheaccuracyofGHGemissionestimatesassociatedwith among different treatment technologies. The median and 95%
+WWTPoperations.Basedonthetechnique-specificGHGemission confidenceintervals(95%CI)wereprovidedinTableS1andwere
+factorsfortheWWTPs[23],directandindirectGHGemissionshave applied toestimate the ranges of GHG emissions in each WWTP.
+beenestimatedforWWTPsfor31provincesofChina.Subsequently, Thirdly,itisobservedthatthenumberofWWTPsincludedinsome
+we analyzed feasible strategies to mitigate GHG emissions stem- provincesinthisassessmentwaslowerthanthecountreportedin
+ming from WWTPs, considering their practical applicability. thenationalstatistics[32].Inordertocorrectthisbias,thisstudy
+Improving nutrient removal efficiency in wastewater treatment applied a correction factor to re-adjust the estimated GHG emis-
+processeswhilereducingGHGemissionsisanimportantgoalfor sions in the WWTPs when the volume of treated wastewater
+developingwastewatertreatmenttechnologiesinChinaandother derived from the investigation was less than 90% of the corre-
+nations. This target should be emphasized as a crucial part of sponding national statistics. CH4 and N2O emissions from the
+achievingcarbonneutrality. WWTPswereestimatedasfollows:
+2
+
+--- Page 3 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+X
+GHG D¼ V T(cid:1)EF CH4=N2O=CO2(cid:1)10(cid:3)5 (1)
+whereGHGDrepresentsdirectGHGemissionsintheformofCH4
+andN2OandtheindirectCO2emission(Gg);VTreferstothemasses
+ofwastewatertreatedbyeachWWTP(Gg);EFrepresentstheGHG
+emissions (i.e., direct CH4 and N2O emissions and indirect CO2
+emission)bytreatingone-tonwastewater.EFvariesdependingon
+applied treatment technologies (see details in Table S1) [23].
+NutrientremovalbyWWTPsineachprovincecouldbeestimated
+asfollows:
+X
+N ¼ ðC (cid:3)C Þ(cid:1)V (cid:1)10(cid:3)5 (2)
+R I E E
+whereNRrepresentspollutantremovalbyWWTPineachprovince
+(Gg);CErepresentsthepollutantconcentrations(i.e.,CODandTN)
+in the effluents of WWTPs (mg L(cid:3)1); CI refers to the pollutant
+concentrationintheinfluentsofWWTPs(mgL(cid:3)1).Thisinforma-
+tionwasderivedfromtheinvestigationdescribedinsection2.1.VE
+represents the volume of treated wastewater (104 m3) for each
+WWTP. Indirect GHG emissions from WWTPs were estimated
+based on electricity consumption in wastewater treatments as
+follows:
+X
+GHG¼ V (cid:1)EF (cid:1)10(cid:3)5 (3)
+I E El
+whereGHGIrepresentsindirectGHGemissionsbyelectricitycon-
+sumption(Gg);VWreferstothevolumeoftreatedwastewater(104
+m3); EFEI represents indirect GHG emissions by electricity con-
+sumption in treating one ton of wastewater. For some provinces,
+the number of WWTPs included in the investigation was lower
+thanthenumberofWWTPsinthenationalstatistics.Acorrection
+Fig.1. a,ChangesinWWTPsandvolumesoftreatedwastewaterduring2000e2020.b,
+factorfortheprovincewascalculatedasfollows:
+ChangesininvestmentinWWTPs'constructionandpercentageofwastewaterbeing
+treated(%)during2000e2020.
+V
+C ¼ N (4)
+R V
+E 34.3±18.2and26.1±15.6mgL(cid:3)1,respectively,andtheircorre-
+whereVNreferstothevolumeoftreatedwastewaterintheprov- sponding effluents showed a large reduction in concentration to
+incefromthenationalstatisticaldata(104m3);VErepresentsthe 9.8±5.3and2.3±4.3mgL(cid:3)1,respectively(seemoredetailsinText
+volumeoftreatedwastewaterestimatedintheinvestigation(104 S2).
+m3). GHGemissionsfromtheWWTPsinChinawereestimatedbased
+on treated wastewater volumes and GHG emission factors by
+2.3. Statisticalanalysis different treatment techniques. Nationally, around 1.54
+(0.92e2.65)(cid:1)104GgofGHGs(CO2-eq,includingbothdirectand
+This study analyzed the statistical differences in nutrient indirect CO2 emissions) had been conservatively estimated to be
+removal efficiencies by different treatment technologies or prov- released fromwastewater treatment in China (Table 1). The ma-
+incesusingaone-wayANOVA.Posthocmultiplecomparisonswere jorityofemissionscomefromN2Oandindirectcontributionsfrom
+conducted according to Tukey's least significant difference pro- electricityconsumption,whichaccountsforaround90%ofthetotal
+cedure. Statistical analyses were conducted using the SPSS 23.0 (N2O: 4917 [1254e12808] Gg CO2-eq; CH4: 1166 [485e2504] Gg
+statisticalpackageforpersonalcomputers(IBM,USA),withalevel CO2-eq, and indirect emission: 9268 [7470e11157 on a national
+ofsignificanceP<0.05foralltests. scale]). Due to large variations in the volume of the wastewater
+being treated, large differences in GHG emissions were observed
+amongdifferentprovinces(Table1).ThelargesttotalGHGemission
+3. Resultsanddiscussion
+fromWWTPswasobservedinGuangdongprovincewithavalueof
+2219.6(1313.6e3781.7)GgCO2-eq,andthelowestGHGemission
+3.1. EstimatingGHGemissionsfromWWTPsinChina
+was observed in Xizang Zizhiqu with a value of only 31.2
+(15.5e58.4)Gg.Notely,theestimationinthisstudywasprimarily
+Analysesofnational,regional,andlocalcensusdatarevealeda
+basedonthevolumeofwastewaterbeingtreated,emissionfactors
+substantial increase in municipal wastewater discharge in China
+from33billionm3in2000to57billionm3in2020(TextS1).This fromdifferenttechniques,andappliedtreatmenttechniques,while
+otherfactorslikelocalclimatesandWWTPmanagementlevelshad
+increase coincided with rapid developments of WWTPs in the
+not been considered [12]. These differences could also result in
+country,withthenumberofWWTPsincreasingfromonly506in
+variations in estimated GHG emissions from the wastewater
+2000 to 4326 in 2020 and the percentage of treated municipal
+treatment.
+wastewaterincreasingfrom36%in2000to95%in2020inurban
+areas (Fig. 1). In addition, the national average concentration of
+total nitrogen and ammonia-nitrogen in the influents were
+3
+
+--- Page 4 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+Table1
+GHGemissionsfromWWTPsin31provincesofChina.Taiwan,HongKong,andMacaoarenotdisplayedduetothelackofdata.
+Province N2Oemission(GgCO2-eq) CH4emission(GgCO2-eq) Indirectemission(GgCO2-eq) Totalemission(GgCO2-eq) PercapitaGHGemission(kgCO2-eq)
+Anhui 155.6(35.7e401.3) 61.0(29.1e98.3) 331.4(267.1e339.0) 548.0(331.9e898.6) 15.4(9.3e25.2)
+Beijing 147.5(48.6e490.6) 30.4(13.6e60.3) 451.8(364.1e543.8) 629.7(426.2e1094.7) 32.8(22.2e57.1)
+Fujian 121.4(30.9e318.8) 37.0(17.6e69.8) 231.5(186.6e278.7) 389.9(235.2e667.4) 13.6(8.2e23.3)
+Gansu 49.0(13.3e121.7) 10.1(4.9e22.5) 84.5(68.1e101.7) 143.6(86.3e245.9) 11.0(8.2e23.3)
+Guangdong 723.4(175.4e1827.8) 175.0(73.2e363.4) 1321.2(1064.9e1590.5) 2219.6(1313.6e3781.7) 23.7(14.0e40.4)
+Guangxi 153.6(42.2e391.8) 26.0(11.4e72.5) 229.8(185.2e276.6) 409.4(238.7e740.9) 15.0(8.7e27.2)
+Guizhou 94.3(26.0e239.6) 21.5(9.3e49.3) 159.9(128.8e192.4) 275.6(164.2e481.3) 13.4(8.0e23.5)
+Hainan 33.4(10.9e80.3) 7.3(2.4e17.3) 70.2(56.5e84.5) 110.8(69.9e182.1) 18.2(11.5e29.9)
+Hebei 153.9(42.8e413.7) 36.5(15.9e78.1) 318.9(257.0e383.9) 509.3(315.7e875.7) 11.4(7.0e19.5)
+Henan 147.3(28.9e384.4) 52.4(21.5e90.4) 292.2(235.6e351.8) 491.9(286.0e826.7) 8.9(5.2e15.0)
+Heilongjiang 134.6(35.5e336.9) 21.2(6.2e64.6) 188.4(151.8e226.8) 344.2(193.5e628.2) 16.5(9.3e30.2)
+Hubei 213.0(48.0e545.0) 52.2(20.2e64.6) 402.6(324.5e226.8) 667.9(392.7e628.2) 18.5(10.9e31.5)
+Hunan 191.6(49.1e496.7) 57.1(27.1e105.4) 395.5(318.8e476.1) 644.2(395.1e1078.3) 16.5(10.1e27.61)
+Jilin 147.5(29.5e355.1) 23.9(6.0e67.6) 173.1(139.5e208.4) 344.6(175.0e631.1) 22.9(11.6e42.0)
+Jiangsu 393.7(116.1e1030.1) 82.6(41.1e187.6) 778.2(627.2e936.8) 1254.5(784.4e2154.4) 20.2(12.6e34.6)
+Jiangxi 78.8(16.9e210.7) 31.3(14.0e50.5) 176.0(141.9e211.9) 286.1(172.8e473.1) 10.5(6.32e17.3)
+Liaoning 311.5(83e784.4) 53.8(15.3e149.2) 517.2(416.8e622.5) 882.5(515.1e1556.1) 28.8(16.8e50.7)
+NeiMongol 58.7(13.8e156.3) 11.8(3.9e28.8) 104.3(84.0e125.5) 174.7(101.7e310.6) 10.8(6.3e19.2)
+Ningxia 21.4(4.6e54.8) 7.7(3.5e13.0) 43.0(34.7e51.8) 72.2(42.8e119.6) 15.4(9.1e25.2)
+Qinghai 12.8(3.1e33.9) 3.7(1.6e6.2) 31.2(25.1e37.50 47.7(29.8e77.6) 13.4(8.4e21.8)
+Shandong 257.6(62.2e701.0) 65.7(26.0e132.8) 558.9(450.4e672.8) 882.2(538.6e1506.5) 13.8(8.4e23.5)
+Shanxi 74.6(21.7e206.4) 23.6(11.4e43.3) 176.1(141.9e212.0) 274.3(175.1e461.7) 12.6(8.0e21.2)
+Shaanxi 135.5(37.8e335.2) 28.3(14.0e64.8) 224.5(180.9e270.2) 388.3(232.8e670.2) 15.7(9.4e27.4)
+Shanghai 152.7(50.7e483.5) 43.1(24.0e90.8) 410.1(330.5e493.6) 605.9(401.5e1068.0) 27.3(18.1e48.1)
+Sichuan 244.1(62.5e596.8) 50.1(20.0e119.5) 389.3(313.7e468.6) 683.5(396.3e1184.9) 14.4(8.3e25.0)
+Tianjin 91.2(19.3e258.9) 20.5(4.6e51.0) 162.7(131.2e195.9) 274.4(155.0e505.8) 23.4(13.2e43.1)
+Xizang 15.8(3.8e35.5) 1.8(0.7e6.5) 13.6(11.0e16.4) 31.2(15.5e58.4) 23.9(11.8e44.7)
+Xinjiang 70.2(12.8e167.4) 13.1(2.9e29.9) 110.6(89.2e133.2) 193.9(104.9e330.5) 13.2(7.2e22.6)
+Yunnan 122.6(36.9e306.3) 20.6(11.0e53.6) 201.2(162.1e242.2) 344.4(210.0e602.1) 14.6(8.9e25.5)
+Zhejiang 297.2(74.3e769.1) 64.4(24.9e148.0) 533.3(429.9e224.8) 894.9(529.0e1559.1) 19.2(11.3e33.4)
+Chongqing 112.2(17.3e274.3) 32.4(10.6e60.5) 186.7(150.5e224.8) 331.3(178.5e559.6) 14.9(8.0e25.1)
+National 4916.5(1253.6e12808.2) 1166.3(484.5e2503.9) 9267.9(7469.7e11156.7) 15350.7(9207.8e26468.8) 17.1(10.2e29.4)
+3.2. DirectandindirectcontributionsofGHGemissionsinWWTPs 3.3. StrategiestoreduceGHGemissionsfromWWTPs
+Improving sanitationaccessandwastewatertreatmentsbene- WWTPsareincreasinglyrecognizedasanimportantsourceof
+fitspublichealthandenvironmentalprotections[28].However,the GHGemissions.Followingthisrecognition,severalpotentialstra-
+urbanwatersectorisahigh-energyconsumptionsector[6,12,23], tegies have been explored to reduce the GHG emissions from
+withthecontributionoftheurbanwatersectortoGHGemissionin WWTPs.OurestimationsindicatethatmostGHGemissionsfrom
+theUSArangingfrom1%to3%[34].InChina,theestimatedtotal WWTPs(Table1),areattributedtoN2OandindirectCO2emissions,
+GHG emissions from WWTPs were 15.4 (9.2e26.5) Tg CO2-eq aligning with prior research findings [40,41]. Therefore, the re-
+(Table1),andthepercentageinthenationalGHGemission(upto ductionsofdirectN2Oemissionsandindirectoff-siteCO2emissions
+~1.4 (cid:1) 104 Tg The USA) is lower than in the other high-income fromelectricityusageareneededforGHGemissionreductionfrom
+countriesprobablyduetothesubstantialcontributionbyenergy- WWTPs. Accordingly, technology optimization to reduce GHG
+intensive industry [35]. China's WWTPs were estimated to ac- emissions andenergy recoveryto offsetelectricity usagearetwo
+countforabout0.2%ofthe15billionkWhusedinChinaeveryyear dominantmitigationstrategiesattheWWTPs.Inthissection,we
+[36].Mostelectricityconsumedinconventionalwastewatertreat- reviewandidentifymitigationstrategiesthathavethepotentialto
+ments is used in pumping water and aeration. Total electricity contributetoGHGemissionreductioninChina'sWWTPs(Fig.2).
+consumption for advanced treatment technologies varies, sur-
+passing the energy demands of secondary treatment processes
+[23]. The average electricity usage in WWTPs applying different
+treatmenttechnologiesisprovidedinFig.S2.Formosttreatment
+techniques,0.3kWhofelectricitywillbeconsumedtotreat1m3of
+wastewater, while MBR requires around 0.5 kWh of electricity.
+Additionally, the primary and secondary stages of sewage treat-
+mentaredesignedtoperformvariousfunctionssuchasthickening,
+conditioning, and dewatering of sewage sludge. Among these
+processes, dewatering usually incurs the highest energy con-
+sumption [37]. It's worth noting that the total annual electricity
+consumption of individual WWTPs in China has significantly
+decreasedfrom3.1millionkWhin2006to2.0millionkWhin2015,
+owing to the development and applications of new low-energy
+techniques,suchasbiologicalfilterandmembrane biologicalflu-
+Fig. 2. Proposed strategies for the GHG mitigation from the WWTPs. WWSHP:
+idizedbed[38,39].
+Wastewatersourceheatpump;PV:Photovoltaicpowergeneration;CHP:Combined
+heatandpowertechnology.
+4
+
+--- Page 5 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+3.3.1. AdvancedbiologicaltechnologiestoreduceindirectGHG the sewage-lifting pumps or adopting an intelligent operational
+emissions modethatoptimizesenergyconsumptioncouldeffectivelyreduce
+DespitelargeGHGemissionsincurrentwastewatertreatment energyconsumption.Specifically,theuseoffrequencyconversion
+processes, emerging evidence shows that, if properly tailored, technology totransform old sewage lifting pumps and the direct
+biological techniques can provide low-cost and environmentally applicationofnewequipmentorfacilities(e.g.,digitalpumps)are
+friendlymeasurestoreduceGHGemissionsfromWWTPs.Aerobic twomajorpathwaystoreducetheenergyconsumptionneededfor
+granular sludge (AGS) has become a competitive alternative for the sewage lifting pumps [56]. Optimizing the operations and
+biological N removal (BNR) in WWTPs [42]. Compared to CAS, improving energy efficiency can also contribute to reductions in
+whichhasbeenwidelyadoptedinChina,AGShas2e3timesmore energyconsumption. The evolution of the Internetof Things and
+microbialenrichment,togetherwithahigherbiochemicalreaction mobileInternettechnologycanbeharnessedtocreatesmartsys-
+efficiency,bettereffluentquality,requiringfewerlandareas,lower tems and intelligent management platforms to support remote
+chemical dosage, and energy usages [43,44]. China's largest AGS control,centralizedmanagement,anddigitaloperationofsewage
+wastewatertreatmentproject(80000m3day(cid:3)1)couldsaveupto
+liftingpumpstoincreaseenergysavingsandreduceoverallenergy
+year(cid:3)1
+1.46 million kWh in electricity consumption and reduce consumption[57].
+carbonemissionsby882tonsyear(cid:3)1comparedtotheCASprocess
+Improving oxygen management throughout the wastewater
+[44].AWWTPinHenanprovince,China,adoptedAGStechnology treatmentprocesscanalsohelpreduceGHGemissions.Duringthe
+toupgradethescaleandexpandthetreatmentcapacitybymore aerobic stage of wastewater treatment, oxygen supply is an
+than three times, following which energy consumption and importantdeterminant.Insufficientoxygenlevelsresultinreduced
+chemical dosages were reduced by more than 20% [43]. In AGS, microbial growth rates and low reproduction rates of microor-
+therearebothaerobicandanoxicenvironmentswheretheanoxic ganisms, thereby leading to poor wastewater treatment perfor-
+denitrificationpossiblyservesasasinktoreduceN2Oproduction. mance. However, excessive oxygen supply wastes energy and
+However, a wide range of N2O emission factors (0.33e22%) had increases material consumption. The key to minimizing GHG
+been reported for AGS under different operation conditions, emissionsisbalancingbiologicaloxygenconsumptionandsupply.
+introducinguncertaintyregardingwhetherAGSyieldslowerN2O An intelligent system that controls the aeration quantity in
+emissioncomparedtoCAS[45]. biochemical pools with feedback controls and intelligent models
+Anaerobic ammonia oxidation (Anammox) is an autotrophic couldbedeployedtomaintainabalanceofaeration[58].Real-time
+BNRprocessinwhichAnammoxmicroorganismsapplythenitrite optimization and control of operational parameters can be per-
+astheelectronacceptorsandoxidizeammoniumtonitrogenunder formedbyonlineinstrumentstocontrolbiologicalprocessesinthe
+anaerobicconditions[46].Anammox-basedprocessisamorecost- reactiontanksandimproveoverallbiologicaltreatmentefficiency.
+effective and sustainable method to remove reactive N from Itisestimatedthatintelligentaerationtechnologycansaveenergy
+wastewater [47,48]. Compared to the CAS process, carbon emis- consumptionby20e40%[58].InadditiontoreducingindirectGHG
+sionsfromthewholeAnammoxprocesscanbereducedbymore emissions, intelligent aeration technology is important in N2O
+than50%duetoloweroxygenconsumption(reducedby63%)and mitigations. A significant reduction of N2O emission by 35e90%
+externalcarbonsource(reducedby100%),aswellastheoretically wasobtainedinlab-scaleandfull-scaleBNRsystemsbyapplying
+having zero N2O emission [49,50]. This will greatly support the various aeration control strategies, such as reducing the DO set
+“energy-neutral” and even “energy-positive” urban wastewater point,reducingtheaerationrate,andchangingtheaerationscheme
+treatment goal in the future [43]. The construction of Beijing's [59].
+Anammoxdenitrificationproject,whichboaststheworld'slargest Due to low C/N ratios, especially in south China, and high re-
+sludgedigestioncapacityat15900m3day(cid:3)1,anticipatesanannual
+quirements for nitrogen and phosphorus removal, many WWTPs
+reductionincarbonemissionsestimatedat10500tonCO2-eqper rely on substantial external carbon sources and chemical phos-
+year [43]. Nevertheless, due to the nitrite demand and oxygen- phorus removal agents to maintain nitrogen and phosphorus re-
+limited conditions, Anammox is usually applied for BNR in the movals, which is generally overdosage. Overdosing chemicals
+presenceofnitrifiersandheterotrophicdenitrifiers,whichwould inevitably increases operation costs, energy consumption, and
+produceN2OduringtheBNRprocess[51,52].Thepartialnitritation/ carbon emissions. Therefore, intelligent dosing technology is of
+anammoxsystemdidhaveahigherN2OemissionfactorthanCAS great significance for GHG mitigation. For instance, with imple-
+insomestudies[53].Inspiringly,itisstillpossibletosignificantly mentations of intelligent dosing systems assisted by biological
+reduceN2Oemissionwhenutilizinganammoxtechnologyforlow modelingtechnology,carbonsourceadditionatChangzhiWWTP
+N2Ogeneratingalternativesfornitrifiers(e.g.,ammonia-oxidizing was reduced by more than 50%. The amount of carbon source
+archaea). In summary, the advanced biological technologies (i.e., dosing and phosphorus removal agent dosing at the Linyi Qin-
+AGSandAnammox)proposedinthisstudymainlycontributetothe glonghe Water Purification Plant decreased by 13% and 27%,
+mitigation of indirect GHG emissions. Considering the remaining respectively[43].Moreimportantly,over60%ofN2Oproductions
+challenges of full-scale application in mainstream wastewater were determined to be reduced by the controlled supplies of
+treatment processes, approximately 7% and 16% of indirect GHG chemicalsinsomelaboratorystudies[59,60].Accordingtothein-
+emissionsatWWTPsinChinaareexpectedtobereducedbyAGS ternationalexperienceandsuccessfuldomesticcases,itwasesti-
+andAnammoxtechnologies,respectively(TableS4). mated that adopting intelligent management technologies can
+achieve a GHG emission reduction potential of 4% in the sewage
+3.3.2. SmartwastewatermanagementtoreducetheGHGemissions liftingsystem,18%intheaerationsystem,and13%inthechemical
+Indirect GHG emissions fromwastewater treatment processes feeding system, respectively [25]. In conclusion, enhancing the
+come mainly from energy and chemical consumption. Energy overall efficiency of sewage treatment via intelligent wastewater
+consumption that accounts for about 73.4% of total indirect GHG managementcanresultina60%reductionindirectGHGemissions,
+emissionsismostlyusedinthesewage-liftingpumpsandaeration with a 25% potential reduction in indirect GHG emissions
+systems [54], while indirect GHG emissions from the chemical (TableS4).
+consumptioncouldaccountfor4.8%[55].Improvingthemanage-
+ment of these contributing factors through smart systems could 3.3.3. RenewableenergyutilizationtooffsetGHGemissions
+helptoreduceoverallcontributionstoGHGemissions.Upgrading Low-carbon operational strategies for wastewater treatments
+5
+
+--- Page 6 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+are also largely dependent on energy sources. The developments Withtherapiddevelopmentofsludgepretreatmenttechnologies,
+andutilizationofrenewableenergysources,suchasheat,solar,and the biogas production efficiency will be further improved in the
+biogasenergy,throughoutthewastewaterprocess,playimportant future[72,73].Inaddition,sludgeanaerobicdigestionandmethane
+rolesinrealizingthelow-carbonoperationofWWTPs[61e63].One capturing could reduce the unorganized CH4 emission of sludge
+majorwaytouseheatenergyatWWTPsistoextractwasteheat landfills,thusreducingtheamountofCH4dischargeddirectlyinto
+energyusingwastewatersourceheatpump(WWSHP)technology. theatmosphere.Significantly,amodelanalysisindicatesthatdueto
+Numerous WWSHP systems have been constructed and imple- thelowinfluentorganicloadsinWWTPsinChina,itisdifficultto
+mented in China (Table S3). However, heat energy generated achieve the target of “carbon neutralization” even after imple-
+through wastewater treatments is relatively low-graded, and its menting biogas energy recovery (i.e., CH4), but it can completely
+reuseislimitedbygeographicaldistance,aseffectiveheattransfer makeupformorethanhalfoftheenergyconsumptionandreduce
+isrestrictedtoonly3e5km[64].Acasestudyindicatedthattheuse indirectCO2emissionsbyatleast50%[74].Eventually,forrenew-
+of WWSHP for winter heating in the surrounding regions of a ableenergyutilizationstrategy,theimplementationplanstopro-
+WWTPinShenyangprovinceledtosignificantreductionsincoal motesynergyonpollutionreductionsandcarbonmitigations[75]
+consumption,aswellassubstantialdecreasesof71000tonsinSO2 andtheOutlineofDevelopmentPlan2035forUrbanWaterSector
+emissions,727533tonsinsootemissions,and140000tonsinCO2 [76]bothencouragerenewableenergysuchasthermal,solar,and
+emissions [65]. CO2 has the largest reduction, measuring 111464 biogasenergyatWWTPs.However,itshouldbenotedthatthese
+d(cid:3)1
+and 287846 kg under refrigeration and heating, respectively. mitigation strategies are more likely to be applied at large-scale
+WWSHPhasalsobeenactivelyusedin17reclaimedwaterplantsin WWTPs[43].Overall,therenewableenergyutilizationstrategyis
+Beijing [66]. From 2016 to 2020, these reclaimed water plants expectedtoreducetheindirectGHGemissionsby10%,3%,and4%
+accumulatedaheatingcapacityofupto5.3millionGJ,saving160 through extracting the thermal, solar, and biogas energy, respec-
+millionm3ofnaturalgases.TheapplicationsofWWSHPtechnology tively,atWWTPsinChina(TableS4.
+could help WWTPs offset their CO2 emissions through energy Belowarecertainconstraintsthatrequireelucidation.First,the
+conservation or emission reductionwithin a certain period, real- investigationof3444centralizedWWTPslocatedin31provinces
+izingaproportionofcarbon-neutraloperationupto487.63%[67]. acrossChinawas conductedbycombining multiple primary data
+Photovoltaic power generation (PV), which harnesses the sources,andtheinvestigatedWWTPsaccountedforabout70%of
+photo-generating voltage effects at semiconductor interfaces to the total number of WWTPs in China and about 55% of the total
+convert solar energy into electricity, can potentially reduce GHG volumesofwastewaterstreatedinthecountryin2020.Inorderto
+emissionsfromWWTPs[68].However,duetothecharacteristicsof correctthisbias,thisstudyappliedacorrectionfactortore-adjust
+WWTPs, including the long spans of WWTP pools, many under- theestimatedGHGemissionsinWWTPs.Thismayinduceuncer-
+ground pipelines, frequent obstacles, difficult construction, and taintyinthecalculation.Second,weadoptedaGHGemissionfac-
+someotherfactors,the“sewageplantþPV”projectshavenotbeen tors data set established by Hua et al. In that study, the GHG
+implementedwidely[66].Thisnotwithstanding,severalattempts emissiondatasetwasestablishedthroughanextensivecollection
+havebeenmadetoinstallPVequipmentabovethereactionpools, ofpublishedon-siteGHGmonitoringdata,andtheyreportedthe
+suchasprimarysedimentationtanks,aerationtanks,andclarifiers, GHG emissionfactorsfromdifferent treatment technologies[23].
+toincreasecontributionstocleanpowergenerationandeffective However,GHGemissionfactorscouldalsodependonotherfactors,
+thermal insulation [66]. By the end of the 13th Five-Year Plan, such as climate conditions and wastewater management levels.
+several PV projects have been constructed in Xiaohongmen, Thisinformationhasnotbeenemphasizedinthisstudy.
+Qinghe,andJiuxianqiaoWWTPs,withatotalinstalledcapacityof
+18.7MW.Thetotalinstalledcapacityisexpectedtobeincreasedby 4. Conclusion
+another17MWby2025,withanannualpowergenerationreaching
+18millionkWh,contributingtoareductioninCO2emissionbyup Inthisstudy,wecomprehensivelyinvestigatedGHGemissions
+to 11000 tons per year [43]. Solar energy could be utilized to fromWWTPsinChina.Usinganextensivedatabaseencompassing
+improvetheenergyself-sufficiencyofWWTPs.BailongWWTPin WWTPsnationwide,weevaluatedpotentialcontributionstoGHG
+Shanghai plans to implement a PV system and is expected to emission from influent and effluent pollutant concentrations,
+replace 25% of the current total electricity consumption with wastewater volume, and electricity consumption. Our analysis
+renewableenergies[67]. revealedthatapproximately1.54(0.92e2.65)(cid:1)104GHGs(CO2-eq)
+Sludge is the main by-product of sewage treatment. Recently, were released annually from WWTPs in China. Most GHG emis-
+anaerobic digestion has been widely employed in sludge treat- sions are from N2O and indirect emissions from electricity con-
+ments for its ability to convert organic matter to methane gas, sumption, accounting for about 90% of emissions from China's
+which is then captured as a valuable product [69,70]. Methane WWTPs. Furthermore, we observed a significant upsurge in
+produced during the sludge digestion accounts for about 60% of municipalwastewaterdischargeinChina,escalatingfrom33billion
+biogas [71]. Coupling with the combined heat and power (CHP) m3in2000to57billionm3in2020, andthenumberofWWTPs
+technology, biogas can be utilized in biogas engines to generate increasedfrom506to4326duringthesameperiod.Thissurgein
+renewablepowerinelectricityandheat,poweringthesurrounding WWTPs,coupledwiththeburgeoningpaceofurbanizationandthe
+equipment or being exported to the national grids [66]. Such impositionofmorestringenteffluentdischargestandards,ispoised
+combinedtechnologyhasbeenappliedinmanyprojectsinChina toamplifythecontributionofWWTPtonationalGHGemissions.
+with superior carbon reduction capacity. For example, Beijing WeproposeseveralstrategiestomitigateGHGemissionsorig-
+Drainage Group's five sludge treatment centers are expected to inating from WWTPs. Firstly, we suggest the application of
+replace about 18%e20% of the total electric energy in the whole advanced biological technologies, such as Anammox and AGS, to
+treatment process of sewage and sludge. The energy self- reduceindirectGHGemissions.Secondly,werecommendadopting
+sufficiency rate of anaerobic digestion had reached 100% in Bai- smart wastewater management practices to optimize treatment
+longgang WWTP, Shanghai. By adopting the advanced sludge processes and increase energy efficiency, such as upgrading
+anaerobic digestionprocess, Xiaohongmenreclaimed water plant sewage-lifting pumps or adopting intelligent operation modes.
+hadrealizedanannualmethaneoutputof13e15millionm3,which Finally, we propose the integration of renewable energies into
+could replace around 30e33million kWh of electric energy [43]. WWTPoperations,suchasutilizingheatinwastewatertreatment,
+6
+
+--- Page 7 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+applying photovoltaic systems, and recovering biogas energy. scientometricandvisualizationanalysis,Sustain.Horizons3(2022)100022.
+Overall,thisstudyunderscoresthesignificantGHGemissionsfrom [11] Y.He,Y.Li,X.Li,Y.Liu,Y.Wang,H.Guo,etal.,Net-zerogreenhousegas
+emissionfrom wastewatertreatment:mechanisms, opportunitiesandper-
+WWTPs in China and the importance of effective strategies to
+spectives,Renew.Sustain.EnergyRev.184(2023)113547.
+mitigatetheseemissions.Byimplementingtheproposedstrategies, [12] Q.Zhang,K.Smith,X.Zhao,X.K.Jin,S.Y.Wang,J.J.Shen,etal.,Greenhousegas
+WWTPsinChinacanreducetheircontributiontoGHGemissions emissionsassociatedwithurbanwaterinfrastructure:whatwehavelearnt
+fromChina'spractice,WIREsWater8(4)(2021)e1529.
+by 64%, thereby promoting sustainable wastewater management
+[13] S.Guo,H.Huang,X.Dong,S.Zeng,Calculationofgreenhousegasemissionsof
+practices. municipalwastewatertreatmentanditstemporalandspatialtrendinChina,
+Water&WastewaterEng.45(4)(2019)56e62.
+[14] X.Yan,Y.Han,Q.Li,Z.Xue,C.Zhang,J.Sun,Greenhousegasemissionduring
+CRediTauthorshipcontributionstatement wastewatertreatmentprocesses,Environ.Chem.5(2015)853e862.
+[15] X.Bai,P.Shi,Y.LiuSociety,RealizingChina'surbandream,Nature509(2014)
+Yindong Tong: Conceptualization, Methodology, Writing - 158e160.
+[16] United States Environmental Protection Agency, Non-CO2 Greenhouse Gas
+Original Draft, Funding Acquisition. Xiawei Liao: Visualization,
+Emissions from Developed Countries: 1990-2010, 2011. https://www.epa.
+Formal Analysis. Yanying He: Investigation, Validation, Writing - gov/climate-change;.(Accessed17August2022).
+Original Draft. Xiaomei Cui: Investigation. Marcus Wishart: [17] IPCC,IPCCGuidelinesforNationalGreenhouseGasInventories,IGES,Japan,
+2006.
+FormalAnalysis.FengZhao:FormalAnalysis.YulianLiao:Visual-
+[18] D.Hu,L.Wang,Z.Zhou,Statusandprospectsofgreenhousegasemissionsin
+ization. Yingxin Zhao: Writing - Review & Editing. Xuebin Lv: wastewatertreatment,Environ.Sci.Technol.3(37)(2014)108e112.
+Writing - Review & Editing. Jiawen Xie: Software. Yiwen Liu: [19] Y.He,Y.Liu,X.Li,T.Zhu,Y.Liu,UnveilingtherolesofbiofilminreducingN2O
+Methodology, Writing - Review & Editing, Supervision, Funding emissioninanitrifyingintegratedfixed-filmactivatedsludge(IFAS)system,
+WaterRes.243(2023)120326.
+Acquisition.GuanyiChen:Writing-Review&Editing.Li'anHou:
+[20] M. Qi, Y. Yang, X. Zhang, X. Zhang, M. Wang, W. Zhang, et al., Pollution
+Writing-Review&Editing. reductionandoperatingcostanalysisofmunicipalwastewatertreatmentin
+Chinaandimplicationforfuturewastewatermanagement,J.Clean.Prod.253
+(2020)120003.
+Declarationofcompetinginterest [21] NationalBureauofStatisticsofChina,BulletinoftheSeventhNationalCensus,
+2021.No.1,http://www.gov.cn/guoqing/2021-05/13/content_5606149.htm;.
+The authors declare that they have no known competing (Accessed17August2022).
+[22] Y.Tong,M.Wang,J.Penuelas,X.Liu,H.W.Paerl,J.J.Elser,etal.,Improvement
+financial interests or personal relationships that could have
+inmunicipalwastewatertreatmentalterslakenitrogentophosphorusratios
+appearedtoinfluencetheworkreportedinthispaper. inpopulatedregions,P.Natl.Acad.Sci.USA117(21)(2020)11566e11572.
+[23] H.Hua,S.Jiang,Z.Yuan,X.Liu,Y.Zhang,Z.Cai,Advancinggreenhousegas
+emissionfactorsformunicipalwastewatertreatmentplantsinChina,Environ.
+Acknowledgements
+Pollut.295(2022)118648.
+[24] X.Yan,D.Qiu,S.Zheng,K.Cheng,Y.Han,J.Sun,etal.,Spatialandtemporal
+ThisstudyisfundedbytheNationalNaturalScienceFoundation, distributionofgreenhousegasemissionsfrommunicipalwastewatertreat-
+mentplantsinChinafrom2005to2014,Earth'sFuture7(4)(2019)340e350.
+China (No. 42122059 and No. 52000135), National Key Research
+[25] D.Yang,L.Xu,X.Gao,Q.Guo,N.Huang,Inventoriesandreductionscenariosof
+andDevelopmentProgramofChina(No.2018YFE0106400),Natural urbanwaste-relatedgreenhousegasemissionsformanagementpotential,Sci.
+ScienceFoundationofTianjin(20JCYBJC01080)andtheWorldBank TotalEnviron.626(2018)727e736.
+through the Global Water Security & Sanitation Partnership. The [26] H tr. eaW tman eng, tiC na dr ub so tn rye im ni Cs hsi io nn a,r Wed au tec rti &on Wp aa st th ewa an td erp Eo nt ge .n 4ti 3al (3o )f (2u 0rb 1a 7n )1s ee 3w ,a 7g 3e
+.
+findings, interpretations, and conclusionsexpressed in this paper [27] Y. Wang, X. Wang, D. Wang, T. Zhu, Y. Zhang, H. Horn, et al., Ferrate
+donotnecessarilyreflecttheviewsofTheWorldBank,itsboardof pretreatment-anaerobic fermentation enhances medium-chain fatty acids
+production from waste activated sludge: performance and mechanisms,
+executivedirectors,orthegovernmentstheyrepresent.
+WaterRes.229(2023)119457.
+[28] Y. Tong,W. Zhang,XuejunWang,R.-M. Couture,T.Larssen, Y.Zhao, etal.,
+AppendixA. Supplementarydata DeclineinChineselakephosphorusconcentrationaccompaniedbyshiftin
+sourcessince2006,Nat.Geosci.10(2017)2967.
+[29] Y.Tong,Z.Huang,A.B.G.Janssen,M.Wishart,W.He,X.Wang,etal.,Influence
+Supplementary data to this article can be found online at ofsocialandenvironmentaldriversonnutrientconcentrationsandratiosin
+https://doi.org/10.1016/j.ese.2023.100341. lakes: a comparison between China and Europe, Water Res. 227 (2022)
+119347.
+[30] Y.Huang,F.Meng,S.Liu,S.Sun,K.Smith,China'senhancedurbanwastewater
+References treatmentincreasesgreenhousegasemissionsandregionalinequality,Water
+Res.230(2023)119536.
+[1] T.DelSontro,J.J.Beaulieu,J.A.Downing,Greenhousegasemissionsfromlakes [31] NationalBureauofStatisticsofChina,ChinaUrbanConstructionStatistical
+andimpoundments:upscalinginthefaceofglobalchange,Limnol.Oceanogr. Yearbook,ChinaStatisticalPublishingHouse,BeiJing,2016.
+Lett.3(3)(2019)64e75. [32] NationalBureauofStatisticsofChina,ChinaUrbanConstructionStatistical
+[2] L.Lu,J.S.Guest,C.A.Peters,X.P.Zhu,G.H.Rau,Z.J.Ren,Wastewatertreatment Yearbook,ChinaStatisticalPublishingHouse,Beijing,2020.
+forcarboncaptureandutilization,Nat.Sustain.1(12)(2018)750e758. [33] X.Liao,Y.Tian,Y.Gan,J.Ji,Quantifyingurbanwastewatertreatmentsector's
+[3] J.A.Rosentreter,A.V.Borges,B.R.Deemer,M.A.Holgerson,S.Liu,C.Song,etal., greenhouse gas emissions using a hybrid life cycle analysis method - an
+Half of global methane emissions come from highly variable aquatic applicationonShenzhencityinChina,Sci.TotalEnviron.745(2020)141176.
+ecosystemsources,Nat.Geosci.14(4)(2021)225e230. [34] T.Hillman,A.Ramaswami,Greenhousegasemissionfootprintsandenergy
+[4] I.Santin,M.Barbu,C.Pedret,R.Vilanova,Controlstrategiesfornitrousoxide use benchmarks for eight U.S. cities, Environ. Sci. Technol. 44 (2010)
+emissionsreductiononwastewatertreatmentplantsoperation,WaterRes. 1902e1910.
+125(2017)466e477. [35] J. He, B. Liu, Analysis of carbon emission intensity as the main index for
+[5] L.Zhang, X.Xia,S.Liu,S. Zhang,S.Li, J.Wang,etal.,Significantmethane greenhouse gas emission mitigation commitments, J. Tsinghua Univ. (Sci.
+ebullitionfromalpinepermafrostriversontheEastQinghaieTibetPlateau, Technol.)44(6)(2004)740e743.
+Nat.Geosci.13(5)(2020)349e354. [36] NationalBureauofStatisticsofChina,ChinaStatisticalYearbook,2020.http://
+[6] K.Smith,S.Liu,Y.Liu,S.Guo,CanChinareduceenergyforwater?Areviewof www.stats.gov.cn/tjsj/ndsj/;.(Accessed17August2022).
+energyforurbanwatersupplyandwastewatertreatmentandsuggestionsfor [37] X. Dai, Present situation and development trend of sludge treatment and
+change,Renew.Sustain.EnergyRev.91(2018)41e58. disposalinChina,Science72(6)(2020)30e34.
+[7] IPCC, AR5 Climate Change 2014: Mitigation of Climate Change. New York, [38] H.Su,H.Yi,W.Gu,Q.Wang,B.Liu,B.Zhang,Costofraisingdischargestan-
+USA,2014. dards: a plant-by-plant assessment from wastewater sector in China,
+[8] EmissionsDatabaseforGlobalAtmosphericResearch,GreenhouseGasEmis- JEnvironManage308(2022)114642.
+sions(v5.0,2015.https://edgar.jrc.ec.europa.eu/;.(Accessed17August2022). [39] K.Niu,J.Wu,L.Qi,Q.Niu,Energyintensityofwastewatertreatmentplants
+[9] G. Mannina, D. Butler, L. Benedetti, A. Deletic, H. Fowdar, G. Fu, et al., andinfluencingfactorsinChina,Sci.TotalEnviron.670(2019)961e970.
+Greenhousegasemissionsfromintegratedurbandrainagesystems:wheredo [40] W.Gruber,P.M.Magyar,I.Mitrovic,K.Zeyer,M.Vogel,L.vonKanel,etal.,
+westand?J.Hydrol.559(2018)307e314. Tracing N2O formation in full-scale wastewater treatment with natural
+[10] X.-L.Yu,Z.-T.Zhao,H.-B.Zhao,S.-S.He,C.-H.Cui,H.-J.Sun,etal.,Mapping abundanceisotopesindicatescontrolbyorganicsubstrateandprocessset-
+research on carbon neutrality in WWTPs between 2001 and 2021: a tings,WaterRes.X15(2022)100130.
+7
+
+--- Page 8 ---
+Y.Tong,X.Liao,Y.Heetal. EnvironmentalScienceandEcotechnology20(2024)100341
+[41] C.Zhou,N.Huang,G.Yang,S.Ma,Assessingthesustainabilityofmunicipal Development,2013,pp.1445e1448.EESD2013.
+solidwastemanagementinChina1980-2019,Sustain.Horizons2(2022) [59] H.Duan,Y.Zhao,K.Koch,G.F.Wells,M.Zheng,Z.Yuan,etal.,Insightsinto
+100020. nitrousoxidemitigationstrategiesinwastewatertreatmentandchallenges
+[42] J. Czarnota, A. Maslon, M. Zdeb, Powdered keramsite as unconventional forwiderimplementation,Environ.Sci.Technol.55(11)(2021)7208e7224.
+methodofAGStechnologysupportinGSBRreactorwithminimum-optimum [60] H.Duan,Y.Zhao,K.Koch,G.F.Wells,M.Weißbach,Z.Yuan,etal.,Recoveryof
+OLR, in: 10th Conference on Interdisciplinary Problems in Environmental nitrousoxidefromwastewatertreatment:currentstatusandperspectives,
+ProtectionandEngineering(EKO-DOK),PolanicaZdroj,POLAND,2018. ACSES&TWater1(2)(2020)240e250.
+[43] J.Chang,Y.Jing,Y.Geng,X.Song,PromotetheLow-CarbonTransformationof [61] X.Song,J.Lin,J.Liu,X.Xu,J.Li,C.Li,etal.,Thecurrentsituationandengi-
+Municipal Sewage Treatment Industry and Facilitate the Realization of neeringpracticeofsewagetreatmenttechnologyfacingthefuture,ActaSci.
+EmissionPeakandCarbonNeutrality,ChinaEnvironmentProtectionIndustry, Circumstantiae41(1)(2021)39e53.
+2021,pp.9e17,06. [62] Z.Hu,T.Liu,Z.Wang,J.Meng,M.Zheng,Towardenergyneutrality:novel
+[44] SinaScienceandTechnology,UnderstandingtheSocialCostofCarbon:what wastewatertreatmentincorporatingacidophilicammoniaoxidation,Environ.
+IstheTrueCostofEmittingaTonneofCarbon?,2022.https://baijiahao.baidu. Sci.Technol.57(11)(2023)4522e4532.
+com/s?id¼1720991037618132942&wfr¼spider&for¼pc;. (Accessed 17 [63] A.P. Paulinetti, I.M.G. Augusto, L.P.P. Batista, A.G.B. Tavares, R. Albanez,
+August2022). S.M.Ratusznei,etal.,Anaerobicdigestionasacoreprocessforsustainable
+[45] E.J.H.vanDijk,M.C.M.vanLoosdrecht,M.Pronk,Nitrousoxideemissionfrom energy production in the soybean biorefinery: a techno-economic assess-
+full-scalemunicipalaerobicgranularsludge,WaterRes.198(2021)117159. ment,Sustain.Horizons3(2022)100024.
+[46] W.-M.Xie,B.-J.Ni,W.-W.Li,G.-P.Sheng,H.-Q.Yu,J.Song,Formationand [64] X.Hao,J.Ye,J.Li,H.Jiang,Statusandpotentialapplicationsofthermalenergy
+quantification of soluble microbial products and N2O production by fromwastewater,ChinaWater&Wastewater35(18)(2019)15e22.
+ammonia-oxidizingbacteria(AOB)-enrichedactivatedsludge,Chem.Eng.Sci. [65] J.Sun,Studyonheatenergyrecoveryandutilizationinurbansewage,Envi-
+71(2012)67e74. ron.ProtectionCircularEcon.29(6)(2009)46e49.
+[47] Y.Sun,Y.Guan,M.Pan,X.Zhan,Z.Hu,G.Wu,Enhancedbiologicalnitrogen [66] Q. Yang, Y. Wang, X. Cao, X. Liu, S. Zhang, Research progress of carbon
+removalandN2Oemissioncharacteristicsoftheintermittentaerationacti- neutralityoperationtechnologyinsewagetreatment,J.BeijingUniv.Technol.
+vatedsludgeprocess,Rev.Environ.Sci.Biotechnol.16(4)(2017)761e780. 48(3)(2022)292e305.
+[48] M.Zheng,H.Li,H.Duan,T.Liu,Z.Wang,J.Zhao,etal.,One-yearstablepilot- [67] C.Yin,F.Liu,Z.Wang,Q.Zhang,Analysisoftypicalenergy-savingtechnology
+scale operation demonstrates high flexibility of mainstream anammox insewagetreatmentplants,Build.Sci.32(12)(2016)107e113.
+application,WaterRes.X19(2023)100166. [68] J.Xu,Y.Li,H.Wang,J.Wu,X.Wang,F.Li,InExploringthefeasibilityofenergy
+[49] X.Lv,Y.Daoshen,Y.Shuiluo,Nitrogenremovalbysimultaneousnitrification self-sufficient wastewater treatmentplants: a case study in easternChina,
+and denitrification for control of N2O emission, J. Southeast Univ. 31 (1) EnergyProc.142(2017)3055e3061.
+(2001)95e99. [69] L.Tian,H.Guo,Y.Wang,X.Wang,T.Zhu,Y.Liu,Urinesourceseparation-based
+[50] B.Kartal,M.M.M.Kuypers,G.Lavik,J.Schalk,H.J.M.O.d.Camp,M.S.M.Jetten, pretreatment:asustainablestrategyforimprovingmethaneproductionfrom
+etal.,Anammoxbacteriadisguisedasdenitrifiers:nitratereductiontodini- anaerobic digestion of waste activated sludge, Sustain. Horizons 4 (2022)
+trogen gas via nitrite and ammonium, Environ. Microbiol. 9 (3) (2007) 100043.
+635e642. [70] Y. Wang, K. Zheng, H. Guo, L. Tian, Y. He, X. Wang, et al., Potassium
+[51] Y.He,Y.Liu,M.Yan,T.Zhao,Y.Liu,T.Zhu,etal.,InsightsintoN2Oturnovers permanganate-based advanced oxidation processes for wastewater decon-
+under polyethylene terephthalate microplastics stress in mainstream bio- taminationandsludgetreatment:areview,Chem.Eng.J.452(2023)139529.
+logicalnitrogenremovalprocess,WaterRes.224(2022)119037. [71] M. Maktabifard, E. Zaborowska, J. Makinia, Achieving energy neutrality in
+[52] D.Hausherr,R.Niederdorfer,H.Burgmann,M.F.Lehmann,P.Magyar,J.Mohn, wastewatertreatmentplantsthroughenergysavingsandenhancingrenew-
+et al., Successful year-round mainstream partial nitritation anammox: ableenergyproduction,Rev.Environ.Sci.Biotechnol.17(4)(2018)655e689.
+assessmentofeffluentquality,performanceandN2Oemissions,WaterRes.X [72] Y.Wang,P.Sun,H.Guo,D.Wang,T.Zhu,Y.Liu,Enhancingmethanepro-
+16(2022)100145. ductionfromanaerobicdigestionofwasteactivatedsludgethroughanovel
+[53] L.Li,Y.Ling,H.Wang,Z.Chu,G.Yan,Z.Li,etal.,N2Oemissioninpartial sodiumpercarbonate(SPC)pretreatment:reactionkineticsandmechanisms,
+nitritation-anammoxprocess,Chin.Chem.Lett.31(2020)28e38. ACSES&TEng.2(7)(2022)1326e1340.
+[54] X.Zheng,H.Zhong,Practiceanddiscussiononenergysavingandconsump- [73] Y.Wang,P.Sun,H.Guo,K.Zheng,T.Zhu,Y.Liu,Performanceandmechanism
+tionreductionmeasuresofwaterpump,ChemicalManagement8(2015)228. ofsodiumpercarbonate(SPC)enhancingshort-chainfattyacidsproduction
+[55] F.Xuan,Studyoncarbonemissionofurbansewagetreatmentsystem,Shang fromanaerobicwasteactivatedsludgefermentation,J.Environ.Manag.313
+Qing24(2014)265e270. (2022)115025.
+[56] J.Yuan,Briefanalysisonenergysavingandmanagementofpumpstation, [74] X. Hao, R. Liu, Y. Hu, Creation of evaluation methodof carbon neutral for
+FloodControlDroughtReliefChina24(2)(2014)68e71. WWTPsandanalysisofapracticalcase,ChinaWater&Wastewater30(2)
+[57] S.Zhang,Y.Wang,X.Li,Researchoninformationconstructionofintelligent (2014)1e7.
+pump station based on GIS and Internet of Things, Electromech. Technol. [75] MEE,TheImplementationPlantoPromotetheSynergyonPollutionReduc-
+HydropowerStation44(6)(2021)96e97. tionandCarbonMitigation,2022.www.mee.gov.cn/xxgk2018/xxgk/xxgk03/
+[58] X.Wang,R.Li,L.Li,L.Wang,B.Qin,Designandimplementationofintelligent 202206/t20220617_985879.html.(Accessed29April2023).
+controlsystemforindustrialsewagetreatmentaerationquantity,in:Envi- [76] CUWA, Outline of Development Plan 2035 for Urban Water Sector, China
+ronmentalEngineering,Part3:Selected,PeerReviewedPapersfromthe3rd Architecture&BuildingPress,Beijing,China,2021.
+International Conference on Energy, Environment and Sustainable
+8

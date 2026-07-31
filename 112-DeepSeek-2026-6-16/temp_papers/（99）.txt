@@ -1,0 +1,493 @@
+--- Page 1 ---
+Eco-Environment&Health4(2025)100155
+ContentslistsavailableatScienceDirect
+&
+Eco-Environment Health
+journalhomepage:www.journals.elsevier.com/eco-environment-and-health
+Original Research Article
+Synergistic strategies for pollution and carbon emission reduction in China's
+wastewater treatment: A comprehensive tiered assessment and
+benchmarking framework
+Xiaoshu Houa,1, Yuchen Dengb,d,1, Lu Qinb, Xin Xiec, Yilan Sunb, Gang Yana,*, Miao Lib,*
+aKeyLaboratoryofEnvironmentalPollutionandGreenhouseGasesCo-control,MinistryofEcologyandEnvironment,CenterofEnvironmentalPollutionandGreenhouse
+GasesCo-control,ChineseAcademyofEnvironmentalPlanning,Beijing100041,China
+bSchoolofEnvironment,TsinghuaUniversity,Beijing100084,China
+cChinaNationalEnvironmentalMonitoringCentre,Beijing100012,China
+dPowerChinaBeijingEngineeringCorporationLimited,Beijing100024,China
+A R T I C L E I N F O A B S T R A C T
+Keywords: China's dual-carbon goals challenges wastewater treatment plants (WWTPs), requiring integrated pollution
+WWTPs controlandcarbonemissionreduction.CriticalgapshinderChina'sstrategiesforWWTPs,particularlyiniden-
+Synergyreduction tifyingupgradeneeds,optimizingperformance,andassessingthelocalbenchmarkplantsasreferences.Thisstudy
+Tieredassessment
+addresses these gaps through greenhouse gas (GHG) emission accounting and impact factor analysis, using
+Benchmarkplants
+monthlydatafrom2232WWTPsacrossChina.Atieredassessmentmethodologywasdevelopedtoevaluatethe
+Policyimplications
+synergybetweenpollutionreductionandcarbonmitigation,includingindicators,methodologies,andassessment
+criteria.Resultsindicatethatindirectemissionsfromelectricityandchemicalconsumptionaccountedfor59.9%
+oftotalGHGemissions.Keyfactorsinfluencingtheseindirectemissionsincludedplantscale,treatmentprocesses,
+geographicarea,operationalload,electricityconsumption,andinfluentquality.Throughthetieredassessment,
+WWTPs were classified into three categories: priority control (861 plants), general control (730 plants), and
+maintenance (641 plants). Furthermore, 222 benchmark plants were identified as exhibiting optimal synergy
+betweenpollutioncontrolandcarbonreduction.For80%ofthebenchmarkplants,therangesforcarbonemission
+intensity, influent COD, influent C/N ratio, electricity consumption intensity, and operating load were
+0.258–0.482kgCO2e/t,175–338mg/L,6.13–10.9,0.149–0.260kWhpertonneofinfluent,and88.0%–110%,
+respectively.AchievingthesebenchmarkstandardsacrossallWWTPscouldleadtoa30%reductionintotalGHG
+emissions.Finally,thestudyproposestargetedpoliciestoenhancethesynergybetweenpollutioncontroland
+carbonreductionstrategiesinChina'surbanwastewatertreatmentsystems.
+1. Introduction morestringentenvironmentalregulations[5,6].Consequently,reducing
+carbonemissionsfromWWTPsandtransitioningtowardsalow-carbon
+Wastewater treatment plants (WWTPs) are essential in combating operational model are imperative. Such efforts are not only essential
+water pollution; however, they also contribute significantly to green- formitigatingenvironmentalimpactsbutalsocrucialforadvancingtwo
+housegas(GHG)emissionsduetotheirenergyconsumptionandchem- keySustainableDevelopmentGoals(SDGs):CleanWaterandSanitation
+icaluse[1].ThewastewaterindustryisevolvingasWWTPsnowaccount (SDG6)andClimateAction(SDG13)[7].
+forapproximately3%ofglobalelectricityconsumptionand2%oftotal Since China's State Council issued the “Water Pollution Prevention
+GHGemissions[2,3].Inrapidlyurbanizingnations,treatedwastewater and Control Action Plan” in 2015, which mandated comprehensive
+volumes are substantial and continue to grow [4]. This growth has pollutantdischargeregulation, therehasbeensignificantexpansionin
+intensified global concerns on the escalating GHG emissions from thecapacityandscaleofurbanwastewatertreatment.By2022,thedaily
+WWTPs,especiallyinthecontextofstricterwaterqualitystandardsand municipalwastewatertreatmentcapacityhadreached2.16(cid:1)108m3/
+* Correspondingauthors.
+E-mailaddresses:yangang@caep.org.cn(G.Yan),miaoli@mail.tsinghua.edu.cn(M.Li).
+1 Theauthorscontributedequallytothiswork.
+https://doi.org/10.1016/j.eehl.2025.100155
+Received27September2024;Receivedinrevisedform5April2025;Accepted2May2025
+Availableonline20May2025
+2772-9850/©2025TheAuthors.PublishedbyElsevierB.V.onbehalfofNanjingInstituteofEnvironmentalSciences,MinistryofEcologyandEnvironment(MEE)&
+NanjingUniversity.ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+--- Page 2 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+day, with a centralized domestic sewage collection rate of 70.1% [8]. 2.2. Systemboundary
+Additionally, 87.63% of WWTPs were required to meet Grade I-A
+discharge standard, which set effluent limits for chemical oxygen de- The GHG emissions accounting boundary encompasses both direct
+mand(COD)(cid:3)50mg/L,biochemicaloxygendemand(BOD)(cid:3)10mg/L, andindirectemissionsassociatedwithWWTPoperations.UrbanWWTPs
+suspendedsolids(SS)(cid:3)10mg/L,totalnitrogen(TN)(cid:3)15mg/L,and inChinacommonlyencounterashortageofcarbonsourcesrequiredfor
+ammonianitrogen(NH3–N)(cid:3)5mg/L((cid:3)8mg/Latwatertemperature nitrogenandphosphorusremoval,with41%ofplantsmeetingemission
+>12(cid:4)C),dependingontreatmentcapacity[9].Therapidexpansionof standardsthroughtheadditionofexternalcarbonsources.Theaverage
+WWTPshasbeenheavilyreliantonenergyandresources,particularly carbonadditionforGradeI-AandaboveandGradeI–Bemissionstan-
+electricity. As wastewater discharge regulations have become more dardsis30.3mg/Land22.2mg/L,respectively.Consequently,thisstudy
+stringent, chemical consumption has also surged [10]. However, once incorporates external carbon sources within the GHG emissions ac-
+WWTPs meet Grade I-A discharge standard, further upgrades yield counting framework. Direct emissions include CH4, N2O, and CO2
+diminishingenvironmentalbenefits,asthenegativeenvironmentalim- generated from the use of external carbon sources during wastewater
+pactsofhigherenergyandchemicalconsumptionoutweighthemarginal treatment.IndirectemissionsaccountforGHGemissionsfromelectricity
+improvementsineffluentquality[1].Therefore,itisimperativetoadopt consumptionduringWWTPoperations,aswellasfromtheproductionof
+effectivestrategiesthatbalancecarbonemissionreductionswithenvi- inorganicandorganicchemicals,andothermaterials.
+ronmentalprotection,ensuringthatChina'swastewatertreatmentsector
+contributeseffectivelytobothpollutioncontrolandsustainabilitygoals.
+2.3. GHGemissionscalculation
+NationalstudiesaboutGHGemissionsfromChina'sWWTPshighlight
+significant variability in GHG emission factors (EFs) across treatment
+TheformulaforaccountingfordirectcarbonemissionsfromWWTPs
+technologies, stressing the need for more localized, on-site data to
+isasfollows:
+improveaccuracy[4,10–12].Nearlytwo-thirdsofGHGemissionsstem
+fromenergyandmaterialconsumption,highlightingsubstantialoppor- M CO2·D¼M CH4þM N2OþM CO2·C (1)
+tunities for emission reductions in many WWTPs [10]. Energy-saving
+optimizationandon-siteoperationalmanagementarekeystrategiesfor whereM CO2·Disthedirectcarbonemissions(kgCO2e),M CH4 istheCH4
+emission cuts in China's WWTPs [13]. Although these studies provide emissionsfromWWTPs(kgCO2e),MN 2OistheN2Oemissions(kgCO2e),
+valuable insights into overall GHG emissions from WWTPs in China, M CO2·CistheCO2emissionsfromtheaddedcarbonsourceinWWTPs(kg
+therearestillnotableresearchgaps,particularlyregardingthesynergies CO2e).
+betweenGHGemissionsandpollutioncontrol.Furthermore,additional The formula for accounting for indirect carbon emissions from
+researchisnecessarytosupportnationalstrategies,includingidentifying WWTPsisasfollows:
+WWTPs that require urgent upgrades, pinpointing critical areas for
+optimization,andevaluatingthepotentialoflocalbenchmarkplantsas M CO2·I¼M CO2·EþM CO2·Y (2)
+references.
+where M CO2·I represents indirect carbon emissions (kg CO2e), M CO2·E
+Toaddresstheselimitations,weanalyzedmonthlydatafrom2232
+representsCO2emissionsfromelectricityconsumption(kgCO2e),M CO2·Y
+WWTPsacrossChinatoassessGHGemissioncharacteristicsatthena-
+representsCO2emissionsfromchemicalconsumption(kgCO2e).
+tional,regional,provincial,andsitelevels.Wealsoexaminedthefactors
+ThetotalGHGemissionsarecalculatedasfollows:
+influencingtheseemissions.Basedonthisanalysis,wedevelopedatiered
+assessmentframeworktoevaluatethesynergybetweenpollutioncontrol M CO2 ¼ M CO2·DþM CO2·I (3)
+andcarbonreduction,incorporatingrelevantindicators,methodologies,
+andevaluationcriteria,whileidentifyingbenchmarkplants.Finally,we Forthedetailedcalculationformulasofeachtypeofgreenhousegas,
+proposed strategic recommendations for integrating pollution control pleaserefertothesupplementarymaterials(SupplementaryMethods).
+andcarbonreductioninChina'surbanwastewatertreatmentsystems.
+2.4. Influencingfactoranalysis
+2. Materialsandmethods
+TheKruskal–Wallis(K–W)testwasappliedtodeterminesignificant
+2.1. Datasource factorsinfluencingGHGemissionsfromWWTPs.Basedonanextensive
+literaturereview,sixkeydimensionswereidentifiedforconsideration:
+Based on data from the National Urban Wastewater Treatment In- designscale,treatmentprocess,geographicalarea,operatingload,elec-
+formation Management System, WWTPs with a design capacity tricity consumption, and influent water quality (COD and C/N ratio).
+exceeding20,000m3/dayin2019wereselected.Afterdatacleansing, Thesedimensionswereselectedastheycollectivelycapturetheprimary
+monthlydatafromJanuarytoDecemberwereextractedfor2232active factorsinfluencingGHGemissions,providingabalancedapproachthat
+WWTPs. A total of 14 variables were considered, including design ca- integratesprocess-specific,operational,andregionalfactors.Theclassi-
+pacity, cumulative treated water volume, cumulative electricity con- ficationsforeachdimensionareasfollows.
+sumption,influentandeffluentCODconcentration,influentandeffluent
+TN concentration, treatment process, carbon source dosage and its (1) DesignScale:WWTPswereclassified intofourgroupsbasedon
+effective components, main phosphorus removal agent dosage and its treatment capacity: 20,000–50,000, 50,000–200,000,
+effective components, main dewatering agent dosage and its effective 200,000–400,000,and(cid:5)400,000(m3/day).
+components. Detailed treatment process information was available for (2) Treatment Process: WWTPs were categorized into five groups
+only 173 WWTPs. The dataset comprises approximately 26,784 data based on the treatment technology used: anaerobic-anoxic-oxic
+points (247,457 monthly records) (Tables S1 and S2), with the total (A2/O), anoxic-oxic (A/O), sequential batch-activated sludge
+cumulative wastewater treatment volume reaching 58.3 billion m3, (SBR), oxidation ditch (OD), and conventional activated sludge
+representing92.1%oftheyearbook'sreportedstatisticalvolume.How- (CAS).
+ever,theexclusionofsmallWWTPsmayintroducesomeuncertaintyinto (3) EconomicandGeographicalZoning:WWTPswereclassifiedinto
+theGHGemissionscalculations.Despitethis,theprimaryfocusofthis ninegroupsusingafour-stageclassificationapproach:
+studyisonestablishingtechnicalpathwaysforhierarchicalassessment
+andidentifyingbenchmarkfacilities,agoalminimallyaffectedbythis First,basedoneconomicandgeographicaldivision,Chinawascate-
+limitation. gorizedintothewesternregion(Chongqing,Sichuan,Shaanxi,Yunnan,
+2
+
+--- Page 3 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+Guizhou,Guangxi,Gansu,Qinghai,Ningxia,Tibet,XinjiangandXilingol, directandindirectemissions,consideringfactorssuchasannualwaste-
+UlanQab,Hohhot,Baotou,Ordos,Bayannur,Wuhai,andAlxaLeaguein watertreatmentvolume,COD,andTNreductionloads.ForeachWWTP,
+InnerMongolia)andthenon-westernregion. thefollowingmetricswerecalculated:directcarbonemissionspertonne
+Second, based on the Qinling-Huaihe Line, the non-western region ofinfluent,indirectcarbonemissionspertonneofinfluent,directcarbon
+wasfurtherdividedintothenorthernandsouthernregions. emissions per unit pollutant removal (calculated as the difference be-
+Third,citieswerecategorizedaccordingtotheireconomicdevelop- tweeninfluentand effluent concentrations), and indirect carbonemis-
+mentlevelandsize,assigningthemto1st-tiercities,2nd-and3rd-tier sions per unit pollutant removal. An evaluation criterion was then
+cities,4th-and5th-tiercities. developedbasedonthedistributionofthedesignscale,carbonemissions
+Finally,theWWTPsweregroupedintoninecategories:North(1st- pertonneofinfluent(F11),andcarbonemissionsperunitofpollutant
+tier),North(2nd-and3rd-tiers),North(4th-and5th-tiers),South(1st- removal(F12)(TableS7).ThescoresforF11andF12werederivedfrom
+tier),South(2nd-and3rd-tiers),South(4th-and5th-tiers), West(1st- thistable,andF1wascalculatedusinganequalweightof0.5forboth
+tier),West(2nd-and3rd-tiers),andWest(4th-and5th-tiers). F11andF12.
+Pollutantremoval(F2):Thepollutantremovalindexwasbasedonthe
+(4) Operating Load Rate: The operational load rate of a WWTP is actualannualwastewatertreatmentvolumeandtheaverageinfluentand
+definedastheratiooftheactualvolumeofwatertreatedwithina effluentconcentrationsofCODandTNateachWWTP.Referringtothe
+given time period to its designed treatment capacity [14]. This CJJ/T228–2014,thecriteriaforpollutantremoval(F21)andpollutant
+metricisakeyindicatoroftheplant'soperationalefficiencyand removalrate(F22)weredetermined(TablesS8andS9).Eachindicator
+thedegreetowhichitstreatmentcapacityisutilized[15].WWTPs was expanded tenfold, and a comprehensive score was assigned using
+wereclassifiedintosixcategoriesbasedontheiroperatingload equalweights(0.5each)forCODandTN.ThescoresforF21andF22
+rate:<60%,60%–70%,70%–85%,85%–100%,100%–120%,and were derived for each WWTP, and F2 was calculated using an equal
+(cid:5)120%. weightof0.5forbothF21andF22.
+(5) Electricity Consumption Intensity: WWTPs were classified into Electricityconsumption(F3):Electricityconsumptionwasevaluated
+four categories based on electricity consumption per tonne of basedoncumulativeannualelectricityconsumption,actualwastewater
+influent:<0.250,0.250–0.350,0.350–0.450,and(cid:5)0.450kWh/t. treatmentvolume,andCODandTNreductions.Twokeyindicatorswere
+(6) Influent COD Concentration: WWTPs were categorized into six calculatedforeachWWTP:electricityconsumptionpertonneofinfluent
+groups based on influent COD concentration: <150, 150–200, (F31)andelectricityconsumptionperunitofpollutantremoval(F32).
+200–250,250–300,300–400,and(cid:5)400mg/L. Referring to the energy consumption index scoring table in the CJJ/T
+(7) InfluentC/NRatio(BasedonCOD):WWTPsweregroupedinto 228–2014, the score for WWTPs with the same energy consumption
+five categories according to their influent C/N ratio: <5.00, decreasesasthedesignscaleincreases.Thecriteriafordeterminingthe
+5.00–6.50,6.50–8.00,8.00–9.50,and(cid:5)9.50. scoresofF31andF32areprovidedinTableS10.ThefinalF3scorewas
+calculatedbyassigningequalweights(0.5each)toF31andF32.
+Operational load (F4): The operational load of each WWTP was
+2.5. Tieredassessment
+determined based on the actual annual wastewater treatment volume,
+designscale,andthenumberofcalendardaysintheassessmentcycle.
+2.5.1. Indicatorsandweights
+Accordingtotheanalysis,WWTPswithoperationalloadsbetween100%
+AtieredassessmentframeworkwasdevelopedbasedontheEvalua-
+and 120% exhibited the lowest average carbon emission intensity.
+tionStandardfortheOperationalQualityofUrbanWastewaterTreatment
+Plants(CJJ/T228–2014),issuedbytheMinistryofHousingandUrban- Therefore, WWTPs operating within this range were assigned the
+maximum score of 10 points, while scores decreased as the operating
+Rural Developmentof the People'sRepublicof China. This framework
+load deviated from this range. Additionally, since the average carbon
+evaluatesfourkeyaspects:carbonemissions,pollutantremoval,energy
+emission intensity of WWTPs with operating loads below 60.0% was
+consumption, and operational load of WWTPs. The weights for each
+34.3% higher than the national average, no points were awarded to
+index were determinedthrough expertconsultation with professionals
+WWTPsinthiscategory.Theremainingintervalsegmentswerescored
+fromfourWWTPslocatedinbothnorthernandsouthernregionsofChina
+usinganinterpolationmethod,andthefinalF4scoreswerecalculatedas
+(Table1).
+showninTableS11.
+2.5.2. Criteria
+The scoring range for each index is 0–10 points. Based on expert 2.5.3. Assessmentmethodology
+BasedontheweightsassignedtoeachevaluationelementinTable1,
+consultation, equal weights (0.5) were assigned to the internal sub-
+thecomprehensivescoreforeachWWTPwascalculatedasfollows:
+indicators.
+Carbonemission(F1):Carbonemissionswereevaluatedusingboth X4 (cid:2) (cid:3)
+F i¼ F jW j (4)
+Table1 j¼1
+Indicesandweightsforthetieredassessment.
+whereFiisthecomprehensivescoreoftheithWWTP,F jisthescoreofthe
+Elements Indicators Weights jth evaluation element; W denotes the weight of the jth evaluation
+j
+Carbonemissionindex Indexofcarbonemissionpertonneofinfluent 3.0 element.
+(F1) (F11)
+Indexofcarbonemissionperunitpollutant
+3. Resultsanddiscussion
+removal(F12)
+Pollutantremovalindex Comprehensiveindexofpollutantremoval 3.0
+(F2) (F21) 3.1. GHGemissionsatmultiplescales
+Comprehensiveindexofpollutantremoval
+rate(F22)
+AnnualGHGemissionsfromChina'smunicipalWWTPswere34.8Mt
+Energyconsumption Indexofelectricityconsumptionpertonneof 2.0
+index(F3) influent(F31) CO2e in 2019 (Fig. 1a). Previous studies on GHG emissions in the
+Indexofelectricityconsumptionperunit wastewatersectorhavereporteddiscrepancies,primarilyduetodiffer-
+pollutantremoval(F32) ences in system boundary definitions and other methodological varia-
+Operationalloadindex Indexofplantoperatingload(F4) 2.0 tions[10].AsthisstudyfocusedsolelyonWWTPswithadesigncapacity
+(F4)
+3
+
+--- Page 4 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+higheremissions.Forinstance,EastChina,themostdenselypopulated
+region,recordedthehighestGHGemissions,accountingfor32.5%ofthe
+nationaltotal(Fig.2a).Similarly,Duetal.[16]reportedthatEastChina
+contributed approximately one-third of total emissions from China's
+wastewater sector in 2019. The top five provinces with the highest
+emissions were Shandong, Guangdong, Jiangsu, Hebei, and Zhejiang,
+togetheraccountingfor36.6%ofthetotalemissionsin2019.Incontrast,
+provinceswithsparsepopulationssuchasTibet,Qinghai,Hainan,Xin-
+jiang, and Ningxia had the lowest emissions, collectively contributing
+only 2.14% of the total emissions (Fig. 2b). Notably, the Northeast,
+Northwest, and Southwest regions have relatively similar emission
+levels,whichmaybeattributedtocomparablepopulationdensitiesand
+WWTP capacities in these regions [26]. Regarding emission intensity,
+provinces with carbon emission intensities above the national average
+areprimarilylocatednorthoftheQinling-HuaiheLine,whileprovinces
+inthesouthernregionsgenerallyexhibitedlower-than-averageemission
+intensities (Fig. 2c). This pattern may be attributed to more advanced
+treatment processes and improved management practices in southern
+provinces [11]. Nevertheless, GHG emissions from WWTPs are influ-
+encedbymultiplefactors,includingpopulationserved,treatmenttech-
+nology,andfacilityage[17].Therefore,acomprehensiveexaminationof
+theseinfluencingvariablesispresentedinthefollowingsections.
+3.2. InfluencefactorforGHGemissions
+IncomparisontothestudyconductedbyXietal.[11],thepresent
+research extends the analysis by incorporating geographical area and
+electricity consumption as additional explanatory variables, offering a
+more comprehensive assessment. The findings indicate that all six
+Fig.1. (a)Structureand(b)monthlydistributionofGHGemissionsfromna- examined dimensions—design size, treatment process, geographical
+tionalWWTPs. location, operational load, electricity consumption, and influent water
+quality—significantlyimpacttheGHGemissionintensityofWWTPs(P<
+exceeding20,000m3/day,thetotalGHGemissionsarelowerthanthose 0.05).TheGHGemissionintensitiesassociatedwithvariousdesignscales
+utilizingnationaloperatingdata,suchas53.0MtCO2ereportedbyDu andoperationalloadrates(calculatedastheactualtreatedwaterquan-
+etal.[16]and58.3MtCO2ebyHuangetal.[17].However,theemis- titydividedbythedesignedcapacityofWWTPs)areillustratedinFig.3a
+sionsestimatedinthisstudyareslightlyhigherthanthosereportedby and b. WWTPs with a design capacity between 200,000 and 400,000
+Yangetal.[13],whoemployedapopulation-equivalentapproach.These m3/d exhibited the lowest GHG emission intensity (0.505 kg CO2e/t),
+discrepancies highlight the importance of using actual WWTP opera- whichwas8.38%lowerthanthenationalaverage.Conversely,WWTPs
+tionaldataforaccurateGHGemissionsaccounting. withadesigncapacityexceeding400,000m3/dandthosewithinthe20,
+Direct GHG emissions from CH4, N2O, and CO2 originating from 000–50,000m3/drangedemonstratedhigherGHGemissionintensities,
+additionalcarbonsourceswere3.57,10.0,and0.375MtCO2e,respec- exceedingthenationalaverageby6.31%and5.32%,respectively.Zeng
+tively,accountingforapproximately40.1%oftotalemissions.Previous et al. [26] previously noted that large-scale WWTPs generally exhibit
+on-site studies have typically reported CH4 emissions as the dominant lower GHG emission intensities than smaller-scale facilities. However,
+contributorcomparedtoN2Oemissions[18–20].However,aspredicted ourfindingssuggestthatwhenthedesigncapacityofaWWTPsubstan-
+byYanetal.[21],N2OemissionsareexpectedtosurpassCH4emissions tiallyexceedsitsactualoperationalload,theplanttendstoexperience
+inthecomingyears.Thefindingsofthisstudycorroboratethisprojec- higherGHGemissionsduetolow-loadoperationandequipmentidling.
+tion. Stricter wastewater dischargestandards for nitrogenmay lead to Regardingoperationalloadingrates,WWTPsoperatingat100%–120%
+lowernitrogenoxideconcentrationsineffluentsbuthigheratmospheric capacityrecordedthelowestGHGemissionintensity(0.472kgCO2e/t).
+emissions, whichmay explainthistrend [22]. Indirectemissionsfrom Incontrast, plantsoperatingatless than60.0%capacityexhibitedthe
+electricityandchemicalconsumptiontotaled20.9MtCO2e,accounting highest emission intensity (0.741 kg CO2e/t), 34.3% higher than the
+for 60.0% of total emissions. Among these, electricity consumption nationalaverage.Thesefindingssuggestthatlarge-scaleWWTPs,witha
+emergedasthelargestsourceofGHGemissions,contributing18.2Mt well-matched design capacity and actual operational load, along with
+CO2e, or 52.2% of total emissions. This aligns with previous studies, highloadingrates,mayproducelowerGHGemissions.However,emis-
+reflecting China's continued reliance on coal and other fossil fuels for sionintensityislikelytobeinfluencedbyfactorsbeyondloadingrate,
+powergeneration[23].Thenationalaveragecarbonemissionintensity suchastheprevalenceofadvancedtechnologiesandbettermaintenance
+from WWTPs was 0.551 kg/t (Fig. 1b), exhibiting a distinct seasonal practices in economically developed areas where high-load plants are
+pattern with the lowest emissions recorded in August. These seasonal typicallylocated[13].
+variations are likely due to temperature-dependent microbial activity, Regardingthetreatmentprocess(Fig.3c),theODmethodexhibited
+aerationefficiency,andfluctuationsinemissionlevels[24,25]. thelowestGHGemissionintensityat0.473kgCO2e/t,followedbythe
+GHGemissionsfromurbanwastewatertreatmentexhibitsignificant A2/Oprocessat0.515kgCO2e/t,representingreductionsof13.9%and
+spatialvariationatbothregionalandprovinciallevels(Fig.2).TotalGHG 6.61% below the national average, respectively. In contrast, the SBR
+emissions from WWTPs followed a gradual decreasing order of East process showed the highest emission intensity at 0.712 kg CO2e/t.
+China > South China > North China > Northeast China > Southwest Althoughthisvalueislowerthanareportedvalueof0.870kgCO2e/m3
+China > Northwest China. This spatial hierarchy aligns closely with forSBRsystemsinBeijing,thediscrepancyiswithinareasonablerange,
+populationdistributionpatterns,wheremoredenselypopulatedregions consideringtheinfluenceofsite-specificoperationalconditions,influent
+tend to generate greater volumes of wastewater, thereby leading to characteristics, and emission estimation methods [27]. Our results
+4
+
+--- Page 5 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+Fig.2. DistributionofGHGemissionsby(a)region,(b)province,and(c)provincialGHGemissionintensity.
+derived emission intensities based on a large dataset encompassing kgCO2e/twhenCOD<150mg/L.AsinfluentCODreaches(cid:5)400mg/L,
+diverse WWTPs across China, reflecting average real-world operating emissionsriseto0.899kgCO2e/tduetoincreasedmethaneproduction
+conditions. Importantly, the observed trend that SBR systems tend to andgreateraerationenergydemand.Furthermore,thehighestGHGin-
+exhibithigheremissionintensitiescomparedtoODandA2/Oprocessesis tensity(0.611kgCO2e/t)wasobservedataninfluentC/Nratiobelow
+consistentwithboththeoreticalunderstandingandpreviousstudies.For 5.00,10.1%abovethenationalaverage.Thissuggeststhatinefficiencies
+instance,Nguyenetal.[28]reportedthattheGHGemissionintensityof innitrogenremovalfurtherelevateenergyconsumption.Thesefindings
+theA2/Oprocesswasapproximatelyone-fifththatoftheSBRprocessin highlighttheneedtoconsiderbothdirectandindirectemissionswhen
+Australia. assessingtheimpactofinfluentCODonGHGemissionsinWWTPs.
+GHGemissionintensitywasdirectlyproportionaltoelectricitycon- GHGemissionintensityvariedsignificantlyacrossthenineregions,
+sumption.AsshowninFig.3d,WWTPswithanelectricityconsumption categorizedbyeconomicandgeographicalzoning(Fig.3g).Generally,
+below0.250kWh/thadaGHGemissionintensityof0.340kgCO2e/t, emission intensities were higher in the northern and western regions
+whilethoseconsuming(cid:5)0.450kWh/treached0.911kgCO2e/t.Stricter compared to the southern areas. WWTPs in 1st-tier northern cities
+nitrogenandphosphorusremovalstandardshaveledtoincreasedbio- (Beijing, Tianjin, Qingdao, Shenyang, and Zhengzhou) exhibited the
+logical and chemical sludge production, necessitating more advanced highestaverageemissionintensity,51.3%abovethe nationalaverage,
+and energy-intensive technologies [17]. However, the need for such likelyduetostricterlocalwastewatertreatmentrequirements[31].In
+stringent limits on total nitrogen and phosphorus emissions warrants contrast, WWTPs in 4th- and 5th-tier southern cities (e.g., Bozhou,
+furtherinvestigation. Changde,andHuanggang)recordedthelowestemissionintensity,33.4%
+TheimpactofinfluentqualityonGHGemissionintensityisillustrated belowthenationalaverage.
+inFig.3eandf.WheninfluentCODislowerthanthedesignedvalue,
+GHG emissions tend to increasedue to higher electricity consumption 3.3. RankingofnationalWWTPsandthebenchmarkplants
+[29].Conversely,asinfluentCODconcentrationrises,directCH4emis-
+sions also increase under the same effluent standards [30]. Therefore, AsshowninTableS12,theaveragetotalscorefornationalWWTPswas
+considering only direct emissions is insufficient to fully explain the 70.9.ThescoresforthefourelementsofF1,F2,F3,andF4were6.58,8.01,
+relationshipbetweeninfluentCODandtotalGHGemissions.Ouranalysis 6.25,and7.28,respectively.Whilepollutantreductionandtreatmentef-
+accounts for both direct CH4 emissions and electricity-related CO2 ficiencyweregenerallyhigh,energyconsumptionandcarbonemissions
+emissions.TheresultsindicatethathigherinfluentCODcorrelateswith remainedsignificantchallenges.Thefrequencydistributionofscoresfor
+greatertotalGHGemissions,withthelowestintensityrecordedat0.403 each indicator is illustrated in Fig. 4. Among the WWTPs, 57.7% had
+5
+
+--- Page 6 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+Fig.3. GHGemissionintensityacrossdifferentgroups:(a)designscale,(b)operationloadrate,(c)treatmentprocess,(d)electricityintensity,(e)inletCODcon-
+centration,(f)inletC/Nratio,(g)geographicalarea.N,North;S,South;W,West.
+Fig.4. Frequencydistributionofscoresforeachindex.
+carbon emission (F1) scores above the national average, although only ThetotalscoresofWWTPsrangedfrom16.5to95.9,withamedian
+6.21% scored over 9.00 points. Scores for pollutant removal (F2) were scoreof73.9(Fig.5a).Basedontheevaluation,WWTPswerecategorized
+higher,with80.3%ofplantsscoringabove7.00,reflectingtheeffective- intoprioritycontrol,generalcontrol,andmaintenanceplants(Fig.5b).A
+ness of China's point source pollution control initiatives. Similar to F1, total of 861 priority control plants, scoring below 70.0, were mainly
+60.5%ofWWTPshadelectricityconsumption(F3)scoresabovethena- concentratedintheNorthChinaPlain,betweentheQinling-HuaiheLine
+tionalaverage,yetonly10.0%exceeded9.00points.Theaverageoper- andtheGreatWall.Generalcontrolplants,totaling730withscoresbe-
+atingload(F4)scorewasrelativelyhighbutshowednotablepolarization. tween 70.0 and 80.0, were primarily distributed across the densely
+While20.1%ofWWTPsscored10.0points,12.4%scored0points,indi- populatedeasternregion.Maintenanceplants,scoringbetween80.0and
+cating operation below 60.1% of the control value, which suggests un- 100, comprised 641 facilities, mainly concentrated in the Pearl River
+derutilizationofequipmentandfacilities.Notably,9,94,and277WWTPs Delta,followedbytheYangtzeRiverDelta.WWTPsinthetop10.0%by
+receivedascoreof0forF1,F2,andF3,respectively. totalscore((cid:5)85.4)wereidentifiedasbenchmarkplants,demonstrating
+6
+
+--- Page 7 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+Fig. 5. Total scores of national WWTPs: (a)frequency distribution, (b) spatial distribution, and (c) percentage of benchmark plants with low carbon operation
+bygroup.
+synergybetweenpollutioncontrolandcarbonemissionreduction.Atotal Notably,ifallWWTPsoperatedatbenchmarklevels,totalGHGemissions
+of222plantsmetthisbenchmark.For80%ofthesebenchmarkplants, couldbereducedby30.0%.
+the key parameters ranges were as follows: carbon emission intensity
+(0.258–0.482kgCO2e/t),influentCOD(175–338mg/L),influentC/N 3.4. ImplicationsforwastewatertreatmentinChina
+ratio(6.13–10.9),electricityconsumptionintensity(0.149–0.260kWh/
+t),andoperatingloads(88.0%–110%)(TableS13). In 2022, China released the Implementation Plan for Synergizing the
+The proportion of benchmark plants across different influencing Reduction of Pollution and Carbon Emission, which advocates for the
+factorswasfurtheranalyzed(Fig.5c).WWTPswithhighoperatingloads resourcefuluseofwastewater,theestablishmentofresource-andenergy-
+((cid:5)100%),moderateinfluentCODconcentrations(200–400mg/L),and benchmarkingWWTPs,andtheoptimizationofenergyconsumptionand
+highinfluentC/Nratios((cid:5)8.00)weremorelikelytomeetbenchmark carbonemissionmanagement.Thisresearchprovidesinsightsintofuture
+criteria.Theproportion ofbenchmarkplantsin1st-tiercities(17/96), policyramifications.
+2nd-and3rd-tiercities(19/100)inthewesternregionwashigherthanin Reducingcarbonemissionsfromenergyconsumptiononanational
+1st-tiercitiesintheSouth(49/321).Thisdifferencewasprimarilydueto scaleremainsatoppriority.Thefirststepistocontinuouslyoptimizethe
+thesmallernumberofWWTPsassessedinthewesternregion.Asaresult, energy structure, with a greater emphasis on clean energy. Data on
+1st-tier cities in the South had a greater overall advantage in meeting China'selectricitycarbonEFsfrom2006to2019(TableS14)revealsa
+benchmarkstandards.Thisadvantageislargelyattributedtoadvanced general decline in the national electricity carbon EF after 2014. Since
+socioeconomicdevelopmentandwell-managedoperations,whichmini- April2022,thenationalelectricitycarbonEFhasbeenadjustedto0.581t
+mize discrepancies between design specifications and actual perfor- CO2e/MWh[32].UsingthefittedregressioncurvefornationalWWTPs
+mance, allowing WWTPs to maintain optimal operating loads [31]. over the past eight years, the projected urban wastewater treatment
+7
+
+--- Page 8 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+volumeinChinafor2022was70,654millionm3,withGHGemissions Funding acquisition. Yuchen Deng: Methodology, Investigation, Data
+fromelectricityconsumptionestimatedat13.0MtCO2e.Despitea19.1% Curation,Writing-OriginalDraft.LuQin:Software,Validation.XinXie:
+increase in the total volume of treated wastewater, carbon emissions Formalanalysis,Resources.YilanSun:Visualization.GangYan:Writing
+decreasedby28.3%,highlightingthepositiveimpactofenergystructure -Review&Editing,Supervision.MiaoLi:Conceptualization,Writing-
+optimization on reducing emissions from WWTP. Furthermore, the Review&Editing,Projectadministration,Fundingacquisition.
+integration of solar powergenerationin WWTPs is encouraged. Given
+China'sabundantsolarenergyresources,withanannualaveragehori- Dataavailability
+zontalinsolationof1563kWh/m2in2022[33],andthefactthatWWTPs
+are typicallylocatedon city outskirts (awayfrom high-risebuildings), Thedatathatsupportthefindingsofthisstudyareavailablefromthe
+thesefacilitiesarewell-suitedtobenefitfromsolarpowerinstallations. correspondingauthorMiaoLi,uponreasonablerequest.
+Establishing a routine, tiered assessment mechanism for WWTPs is
+stronglyrecommended.Thisstudyhasdevelopedevaluationindicators,
+Declarationofcompetinginterest
+methodologies, and criteria that integrate both pollution control and
+carbonemissionreduction.Byanalyzingtheseindicatorscoresandtheir
+Theauthorsdeclarenocompetingfinancialinterests.
+respectivedimensions,thestrengthsandweaknessesofeachWWTPwill
+beidentified,allowingfortargetedimprovements.This studysuggests
+thatpriorityshouldfirstbegiventothe861prioritycontrolplants,fol- Acknowledgments
+lowedbythe730generalcontrolplants.Forthe156WWTPswithhigh
+ThisworkwassupportedbytheNationalNaturalScienceFoundation
+carbonemissionsresultingfromlowoperatingloads,effortsshouldfocus
+of China (72140003, 52470195) and Tsinghua-Toyota Joint Research
+on inspecting and repairing supporting pipe networks to improve
+Fund.
+wastewatercollectionrates.Additionally,forthe277WWTPsoperating
+above80.0%capacitybutstillexhibitinghighcarbonemissions(above
+AppendixA. Supplementarydata
+the 75th percentile), timely inspectionand maintenance of equipment
+are essential to prevent inefficiencies associatedwith aging infrastruc-
+Supplementarydatatothisarticlecanbefoundonlineathttps://do
+ture.Bestpracticesfrombenchmarkplantsshouldserveasaguidefor
+i.org/10.1016/j.eehl.2025.100155.
+improvingoperationsandmanagement,asachievingbenchmarklevels
+across all WWTPs could reduce GHG emissions by 30.0%. Special
+attentionshouldalsobegiventoWWTPsscoringzeroinanyelementor References
+indicator,asthesefacilitiesmayrequireurgentinterventionorstructural
+[1] J.Wang,N.Zhang,S.Xu,Z.Shao,C.Jiang,H.Yuan,etal.,Carbonfootprintanalysis
+upgrading.
+andcomprehensiveevaluationofmunicipalwastewatertreatmentplantsunder
+Thisstudyalsoprovidesrecommendationsforthedesignandoper- differenttypicalupgradingandreconstructionmodes,Sci.TotalEnviron.880
+ationofnewWWTPs.Thecarbonemissionintensityofthe33WWTPs (2023)163335.
+withadesigncapacityexceeding400,000m3/dwas6.32%higherthan [2] X.He,Z.Li,C.Xing,Y.Li,M.Liu,X.Gao,etal.,Carbonfootprintofaconventional
+wastewatertreatmentplant:ananalysisofwater-energynexusfromlifecycle
+the national average, with only two meeting benchmark standards. perspectiveforemissionreduction,J.Clean.Prod.429(2023)139562.
+Therefore,duringthedesignphaseofnewplants,carefulconsideration [3] L.Lu,J.S.Guest,C.A.Peters,X.Zhu,G.H.Rau,Z.J.Ren,Wastewatertreatmentfor
+carboncaptureandutilization,Nat.Sustain.1(2018)750–758.
+shouldbegiventothecurrentservicelevelandlong-termplanningofthe
+[4] S.Chen,L.Zhang,B.Liu,H.Yi,H.Su,A.Kharrazi,,etal.Crittenden,B.Chen,
+servicearea.Itisadvisabletoadoptaphasedapproachtoplantdesign Decouplingwastewater-relatedgreenhousegasemissionsandwaterstress
+and construction, ensuring that the scale aligns with future needs. alleviationacross300citiesinChinaischallengingyetplausibleby2030,Nature
+Water1(2023)534–546.
+Moreover,thecarbonemissionintensityoftheSBRprocesswas28.6%
+[5] P.Nativ,A.Weisbrod,O.Lahav,Shouldwastewatertreatmentplants'operational
+higher than the national average, and none of the WWTPs using this moderadicallychangetominimizeGHGemissions?Sci.TotalEnviron.926(2024)
+process qualified as benchmark plants. To mitigate excessive carbon 171835.
+emissions,Chinashouldavoidarbitrarilytighteningdischargestandards. [6] E.Ranieri,G.D'Onghia,F.Ranieri,L.Lopopolo,S.Gregorio,A.C.Ranieri,
+CompensatorymeasurestoreduceGHGsinwastewatertreatmentplantsin
+Whenselectingtreatmentprocesses,priorityshouldbegiventooxidation
+SouthernItaly,J.WaterProc.Eng.60(2024)105128.
+ditchandA2/Oprocesses,bothofwhichexhibitlowercarbonemissions, [7] UnitedNations,DepartmentofEconomicandSocialAffairs,Sustainable
+whileminimizingtheuseoftheSBRprocess. Development,TransformingOurWorld:The2030AgendaforSustainable
+Development,2015.https://sdgs.un.org/2030agenda.(Accessed12January2025).
+[8] MinistryofHousingandUrban-RuralDevelopmentofthePeople'sRepublicof
+4. Conclusions China(MOHURD),StatisticalYearbookofUrbanandRuralConstruction,2022(in
+Chinese),https://www.mohurd.gov.cn/gongkai/fdzdgknr/sjfb/tjxx/jstjnj/index.h
+This study significantly advances the understanding of integrated tml,2023.(Accessed12January2025).
+[9] C.Zhang,G.Zhao,Y.Jiao,B.Quan,W.Lu,P.Su,etal.,Criticalanalysisonthe
+pollution control and carbon emission reduction in urban wastewater transformationandupgradingstrategyofChinesemunicipalwastewatertreatment
+treatmentinChina.ThefindingshighlightsubstantialvariationsinGHG plants:towardssustainablewaterremediationandzerocarbonemissions,Sci.Total
+Environ.896(2023)165201.
+emissions and emission intensities across different regions, provinces,
+[10] S.Qu,Y.Hu,R.Wei,K.Yu,Z.Liu,Q.Zhou,etal.,Carbonfootprintdriversin
+and individual plants, influenced by factors such as design capacity, China'smunicipalwastewatertreatmentplantsandmitigationopportunities
+treatment processes, geographic location, operational load, electricity throughelectricityandchemicalefficiency,Engineering(2024),https://doi.org/
+consumption,andinfluentwaterquality.Ofparticularnoteisthatthe 10.1016/j.eng.2024.01.021.
+[11] J.Xi,H.Gong,R.Guo,L.Chen,X.Dai,Characteristicsofgreenhousegasesemission
+proposedtieredassessmentmethodologyoffersvaluableinsightsforthe fromwastewatertreatmentplantsoperationinChina(2009–2016):acasestudy
+developmentofintegratedpollutionandcarbonreductionstrategiesin usingoperationaldataintegratedmethod(ODIM),J.Clean.Prod.402(2023)
+otherregionsandcountries.InChina,effortsshouldinitiallyprioritize 136829.
+[12] H.Hua,S.Jiang,Z.Yuan,X.Liu,Y.Zhang,Z.Cai,Advancinggreenhousegas
+upgradingthe861WWTPsunderprioritycontrol.Furthermore,opera-
+emissionfactorsformunicipalwastewatertreatmentplantsinChina,
+tional and managementimprovements can be informed by the perfor- EnvironmentalPollution295(2022)118648.
+mance of the 222 benchmark plants. If all facilities meet benchmark [13] M.Yang,M.Peng,D.Wu,H.Feng,Y.Wang,Y.Lv,etal.,Greenhousegasemissions
+fromwastewatertreatmentplantsinChina:historicalemissionsandfuture
+standards,GHGemissionscouldbereducedbyupto30.0%.
+mitigationpotentials,Resour.Conserv.Recycl.190(2023)106794.
+[14] J.Smith,Understandingwastewatertreatmentmetrics,J.Environ.Manag.15(3)
+(2020)123–132.
+CRediTauthorshipcontributionstatement
+[15] Q.H.Zhang,W.N.Yang,H.H.Ngo,W.S.Guo,P.K.Jin,M.Dzakpasu,D.Ao,Current
+statusofurbanwastewatertreatmentplantsinChina,Environ.Int.92(2016)
+XiaoshuHou:Writing-OriginalDraft,Writing-Review&Editing, 11–22.
+8
+
+--- Page 9 ---
+X.Houetal. Eco-Environment&Health4(2025)100155
+[16] W.Du,J.Lu,Y.Hu,J.Xiao,Y.Wang,Spatiotemporalpatternofgreenhousegas [25] X.Flores-Alsina,L.Corominas,L.Snip,P.A.Vanrolleghem,Includinggreenhouse
+emissionsinChina'swastewatersectorandpathwaystowardscarbonneutrality, gasemissionsduringbenchmarkingofwastewatertreatmentplantcontrol
+NatureWater1(2023)166–175. strategies,WaterRes.45(16)(2011)4700–4710.
+[17] Y.Huang,F.Meng,S.Liu,S.Sun,K.Smith,China'senhancedurbanwastewater [26] S.H.Zeng,X.Chen,X.Dong,Y.Liu,Efficiencyassessmentofurbanwastewater
+treatmentincreasesgreenhousegasemissionsandregionalinequality,Water treatmentplantsinChina:consideringgreenhousegasemissions,Resour.Conserv.
+Resour.(BeninCity)230(2023)119536. Recycl.120(2016)157–165.
+[18] S.Masuda,I.Sano,T.Hojo,Y.-Y.Li,O.Nishimura,Thecomparisonofgreenhouse [27] Z.Bao,S.Sun,D.Sun,AssessmentofgreenhousegasemissionfromA/OandSBR
+gasemissionsinsewagetreatmentplantswithdifferenttreatmentprocesses, wastewatertreatmentplantsinBeijing,China,Int.Biodeterior.Biodegrad.108
+Chemosphere193(2018)581–590. (2016)108–114.
+[19] B.N.Ross,B.V.Lancellotti,E.Q.Brannon,G.W.Loomis,J.A.Amador,Greenhouse [28] T.Nguyen,H.Ngo,W.Guo,S.-W.Chang,D.D.Nguyen,L.Nghiem,etal.,Insight
+gasemissionsfromadvancednitrogen-removalonsitewastewatertreatment intogreenhousegasesemissionsfromthetwopopulartreatmenttechnologiesin
+systems,Sci.TotalEnviron.737(2020)140399. municipalwastewatertreatmentprocesses,Sci.TotalEnviron.671(2019)
+[20] M.Asadi,K.McPhedran,Estimationofgreenhousegasandodouremissionsfroma 1302–1313.
+coldregionmunicipalbiologicalnutrientremovalwastewatertreatmentplant, [29] K.Niu,J.Wu,L.Qi,Q.Niu,Energyintensityofwastewatertreatmentplantsand
+J.Environ.Manag.281(2021)111864. influencingfactorsinChina,Sci.TotalEnviron.670(2019)961–970.
+P.Yapıcıog(cid:1)lu,O€
+[21] X.Yan,D.Qiu,S.Zheng,K.Cheng,Y.Han,C.Du,etal.,Spatialandtemporal [30] .Demir,Minimizinggreenhousegasemissionsofanindustrial
+distributionofgreenhousegasemissionsfrommunicipalwastewatertreatment wastewatertreatmentplantintermsofwater–energynexus,Appl.WaterSci.11
+plantsinChinafrom2005to2014,EarthsFuture7(2019)340–350. (2021)1–14.
+[22] Y.Zhou,Y.Zhu,J.Zhu,C.Li,G.Chen,Acomprehensivereviewonwastewater [31] J.Zhang,Y.Shao,H.Wang,G.Liu,L.Qi,X.Xu,etal.,Currentoperationstateof
+nitrogenremovalanditsrecoveryprocesses,Int.J.Environ.Res.Publ.Health20 wastewatertreatmentplantsinurbanChina,Environ.Res.195(2021)110843.
+(4)(2023)3429,3429. [32] MinistryofEcologyandEnvironmentofthePeople'sRepublicofChina(MEE),
+[23] J.Xi,H.Gong,Y.Zhang,X.Dai,L.Chen,TheevaluationofGHGemissionsfrom NoticeonKeyWorkRelatedtotheManagementofCorporateGreenhouseGas
+ShanghaimunicipalwastewatertreatmentplantsbasedonIPCCandoperational EmissionsReportingin2022,2022.https://www.mee.gov.cn/xxgk2018/xxgk/xx
+dataintegratedmethods(ODIM),Sci.TotalEnviron.797(2021)148967. gk06/202203/t20220315_971468.html.(Accessed12January2025).
+[24] S.Masuda,S.Suzuki,I.Sano,Y.Y.Li,O.Nishimura,Theseasonalvariationof [33] ChinaMeteorologicalAdministration(CMA),AnnualBulletinofChina'sWindandSolar
+emissionofgreenhousegasesfromafull-scalesewagetreatmentplant, EnergyResources2022,2023.https://www.cma.gov.cn/2011xwzx/2011xqxxw/20
+Chemosphere140(2015)167–173. 11xqxyw/202304/t20230404_5421074.html.(Accessed12January2025).
+9

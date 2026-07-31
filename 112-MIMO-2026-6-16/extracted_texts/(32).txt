@@ -1,0 +1,612 @@
+--- Page 1 ---
+Resources,Conservation&Recycling190(2023)106794
+Contents lists available at ScienceDirect
+&
+Resources, Conservation Recycling
+journal homepage: www.elsevier.com/locate/resconrec
+Full length article
+Greenhouse gas emissions from wastewater treatment plants in China:
+Historical emissions and future mitigation potentials
+Mengjie Yanga, Man Penga, Dong Wua, Haoyuan Fenga, Yixian Wangb, Yongpeng Lvb,
+Fengyun Sunc, Sanjib Sharmad, Yue Chea,*, Kai Yanga,e,*
+aShanghai Key Lab for Urban Ecological Processes and Eco-Restoration, Shanghai Engineering Research Center of Biotransformation of Organic Solid Waste, School of
+Ecological and Environmental Sciences, East China Normal University, Shanghai 200241, China
+bShanghai Municipal Engineering Design Institute (Group) CO., LTD, Shanghai 200092, China
+cSchool of Environmental and Geographical Sciences, Shanghai Normal University, Shanghai 200234, China
+dEarth and Environmental Systems Institute, The Pennsylvania State University, University Park, PA 16802, United States
+eShanghai Institute of Pollution Control and Ecological Security, Shanghai 200092, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Accurate estimation of greenhouse gas (GHG) emissions characteristics and future mitigation potentials of
+Wastewater treatment plants China’s wastewater treatment plants (WWTPs) is essential to propose suitable mitigation strategies. Here we
+Greenhouse gas emissions employ the population-equivalent method recommended by the IPCC to analyze GHG emission characteristics
+Mitigation measures and hotspots of China’s WWTPs from 2005 to 2020 and assess the mitigation potentials by 2035. Results show
+Mitigation potentials
+that GHG emissions from China’s WWTPs more than tripled from 13.34 Mt CO2-eq in 2005 to 30.95 Mt CO2-eq in
+China
+2020. Due to the differences in electricity consumption intensity, emission factors, and economic development
+level, there is significant spatial heterogeneity in the amount, structure, and intensity of emissions by province.
+Scenario analysis reveals that energy-saving improvement generates the largest mitigation potential (15%),
+followed by operational optimization (10%) and thermal energy recovery (10%), while chemical energy recovery
+(4%) and solar energy utilization (3%) contribute the least. Taking all mitigation measures, emissions can reduce
+by about 41% to 21.14 Mt CO2-eq in 2035. What’s more, the mitigation effect of different decarbonization
+measures varies among provinces. Our results highlight the need for targeted policy in priority areas and region-
+specific strategies.
+1. Introduction 2017). Several other developed and developing countries are also facing
+high energy demand from WWTPs, and this will further increase given
+Wastewater treatment plants (WWTPs) are critical to protecting the rise in water consumption and more stringent regulations on
+public health and the ecosystem by reducing the excessive organic wastewater discharge (Mo and Zhang, 2012). Meanwhile, WWTPs are
+carbon, nutrients, and other biohazards from sewage (Li et al., 2021; Wu regarded as important but insufficiently controlled sources of GHGs, of
+et al., 2021). However, in the context of global efforts on climate change which methane (CH4), nitrous oxide (N2O), and carbon dioxide (CO2)
+mitigation, such facilities are facing major low-carbon management are the primary constituents (Wang et al., 2021). CH4 and N2O emissions
+challenges due to their high electricity consumption and greenhouse gas from the wastewater treatment sector account for 5.17% (EPA, 2012;
+(GHG) emissions (Delre et al., 2019; Liu et al., 2021; Shukla et al., 2022; GMI, 2013) and 3.49% (Chen et al., 2020a; IPCC, 2015) of the global
+Wang et al., 2016). In the United States, the energy consumed by emissions budgets, respectively. Therefore, identifying effective strate-
+wastewater treatment plants has reached more than 30 TWh (109 kWh) gies to reduce energy demand and GHG emissions by WWTPs is crucial
+of electricity each year, equivalent to approximately 13 Mt CO2-eq, and for achieving the low-carbon development of WWTPs and mitigating
+the cost of electricity alone can account for 25% to 40% of a WWTP’s climate change.
+total operating budget (EPA, 2018; United States Department of Energy, Along with population growth, rapid urbanization, and large-scale
+* Corresponding authors at: Shanghai Key Lab for Urban Ecological Processes and Eco-Restoration, Shanghai Engineering Research Center of Biotransformation of
+Organic Solid Waste, School of Ecological and Environmental Sciences, East China Normal University, Shanghai 200241, China.
+E-mail addresses: yche@des.ecnu.edu.cn (Y. Che), kyang@re.ecnu.edu.cn (K. Yang).
+https://doi.org/10.1016/j.resconrec.2022.106794
+Received 19 August 2022; Received in revised form 25 October 2022; Accepted 22 November 2022
+Availableonline6December2022
+0921-3449/©2022ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+wastewater treatment infrastructure construction, China’s wastewater in China, while ignoring the analysis of future trends and mitigation
+treatment sector has experienced vigorous progress in recent years. potentials. However, the latter is crucial for informing the design and
+China owns the world’s largest municipal wastewater sector with an implementation of adaptive reduction strategies to achieve the
+overall treatment capacity of 1.95 ×108 m3/d in 2018 (CUWA, 2021; Lu low-carbon development goals.
+et al., 2019; Qu et al., 2019). Predictably, economic development and To address these limitations, we use the population-equivalent
+increasing urbanization in China will continue to expand the scale of method recommended by the IPCC to develop a provincial-level in-
+wastewater treatment, which will bring major challenges to the ventory of GHG emissions from WWTPs in China from 2005 to 2020, and
+low-carbon development of WWTPs. Therefore, in the context of carbon analyze characteristics and hotspots of the historical GHG emissions.
+neutrality, it is a crucial task to accurately assess the GHG emissions of Based on the historical trend, and considering five mitigation measures,
+WWTPs and their emission reduction potentials. we assess the mitigation potentials of reducing GHG emissions from
+The assessment of GHG emissions from China’s wastewater treat- China’s WWTPs through 2035. Finally, we identify the regional emis-
+ment department has been reported in the national literature. Such sions reduction hotspots and priorities. This study can provide insights
+studies focused on the accounting of the GHG emissions from waste- into the design of reliable mitigation strategies for low-carbon devel-
+water treatment departments (MEE, 2018a), municipal WWTPs (Guo opment or even carbon neutrality of WWTPs.
+et al., 2019; Yan et al., 2019), and industrial WWTPs (Hu et al., 2019)
+using the IPCC methods or pollutant removal methods. Some researchers 2. Materials and methods
+also conducted estimates of specific types of GHGs, such as CH4 emis-
+sions (Du et al., 2018; Zhao et al., 2019). These studies provide impor- 2.1. System boundary
+tant resources for a general understanding of the GHG emission from
+wastewater treatment in China. However, the following key gaps remain The GHGs produced by WWTPs can be divided into three types:
+in the existing studies. First, previous studies used the scope 1 emissions (direct emissions, e.g., CH4 and N2O arising from on-
+IPCC-recommended default values or national unified values obtained site wastewater and sludge treatment), scope 2 emissions (indirect
+from literature as the emission factors of CH4 and N2O rather than more emissions, e.g., on-site electricity consumption), and scope 3 emissions
+precise provincial-level parameters (Guo et al., 2019; MEE, 2018a; Yan (value chain emissions, e.g., GHG emissions from chemicals use, trans-
+et al., 2019), which made it difficult to accurately quantify the emissions portation, and off-site sludge disposal) (Farago` et al., 2022; Li et al.,
+patterns and identify the hotspots. More importantly, existing studies 2022; Wu et al., 2022; Zhang et al., 2021). In this study, we mainly
+only focused on the current estimation of GHG emissions from WWTPs quantify the direct emissions (scope 1) and indirect emissions (scope 2).
+Fig. 1. The system boundary of GHG emissions from municipal WWTPs. (a) Wastewater and sludge treatment processes; (b) chemical energy recovery, (c) solar
+energy utilization, and (d) thermal energy recovery, important and feasible measures for reducing electricity consumption and GHG emissions.
+2
+
+--- Page 3 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+We configure the system boundary of the treatment process and GHG wastewater amount treated in WWTPs (m3), and Kmass refers the coef-
+emissions of municipal WWTPs (Fig. 1). The specific sources of CH4 ficient of sludge production, setting as 1.71 (kg sludge/m3) (CUWA,
+emissions in WWTPs are primary sedimentation tanks, biological 2018).
+treatment systems, secondary clarifiers, thickeners, and sludge dew-
+atering (Daelman et al., 2012; Jawaharraj et al., 2020; Li et al., 2022; 2.2.2. N2O emissions
+Nayeb et al., 2019). N2O emissions are mainly caused by biological ni- According to the IPCC (2006, 2019), the N2O emissions from WWTPs
+trogen removal processes in the biological treatment system (Duan et al., in different provinces of China are computed as:
+2021a; Wu et al., 2020). Since sludge transportation and disposal are ∑
+processed outside the scope of WWTPs, GHG emissions from these N 2OEmissions i,j= TN DOMi,j×U k×T Plantk×EF 2i,j (7)
+k
+processes were excluded from our calculations (Hu et al., 2019; Li et al.,
+2022). where TNDOM is the total nitrogen in the wastewater (kg N); and EF2 is
+the N2O emission factor for WWTPs (kg N2O/kg N).
+2.2. Calculation of GHG emissions from WWTPs The amount of nitrogen in wastewater is estimated using:
+Based on the IPCC (2006, 2019) and the up-to-date provin- TN DOMi,j =P i,j×Protein coni,j×F NPR×N HH×F NON(cid:0)CON×F IND(cid:0)COM (8)
+cial-specific emission factors provided by Hua et al. (2022), we develop
+a provincial-level GHG emissions inventory of WWTPs in China from Protein coni,j =Protein supi×F con×β j (9)
+2005 to 2020. The quantitative framework is shown in SI Fig. S1. The
+where Proteincon is per capita protein consumption (kg protein/person);
+annual total GHG emission of municipal WWTPs is given by:
+FNPR is the proportion of nitrogen in protein, using the recommended
+TotalCO 2(cid:0)eqi,j =CH 4 Emissions i,j× 28+N 2OEmissions i,j× 265 value of 0.16 (kg N/kg protein) (IPCC, 2019);NHH, FNON(cid:0)CON, and
++CO 2(cid:0)Electricityi,j (1) FIND(cid:0)COM are the correction coefficients for extra nitrogen in household
+products, non-consumed protein, and industrial and commercial
+where i and j are the year and province, respectively; TotalCO2(cid:0)eq is the co-discharged protein, respectively, using the recommended values of
+total CO2-eq emissions from WWTPs (kg CO2-eq); CH4 Emissions, 1.1, 1.08, and 1.25 (IPCC, 2019); Proteinsup is per capita protein supply
+N2OEmissions, and CO2(cid:0)Electricity are the CH4 emissions (kg CH4), N2O (kg protein/person); Fcon is the proportion of protein consumed, using
+the recommended value of 0.86 (IPCC, 2019); β is the correction factor
+emissions (kg N2O), and CO2-eq emissions from electricity consumption
+for protein consumption in different provinces, using the nitrogen
+(kg CO2-eq) of WWTPs, respectively; the multipliers 28 and 265 repre-
+discharge coefficient (Compilation Committee of the First National
+sent the global warming potential for CH4 and N2O, respectively
+Pollution Source Census, 2011).
+(Stocker et al., 2013).
+2.2.3. CO2-eq emissions from electricity consumption
+2.2.1. CH4 emissions
+The CO2-eq emission from electricity consumption of WWTPs in each
+Following the IPCC (2006, 2019), the CH4 emissions from WWTPs in
+province is calculated by using provincial-specific power consumption
+different provinces of China are estimated as:
+(cid:0) ) data and emission factors (MEE, 2018b; Xi et al., 2021). The calculation
+CH 4 Emissions i,j= TOW Planti,j(cid:0) S OCi,j ×EF 1i,j(cid:0) R i,j (2) process is as follows:
+where TOWPlant is the organics in wastewater of WWTPs (kg BOD); SOC is CO 2(cid:0)Electricityi,j =EC i,j×f Electricityi,j (10)
+eth me i o ssr ig oa nn i fc a cc to om r p foo rn e Wn Wt in T Pth s e ( ksl gu d Cg He 4 o /kf gW BW OT DP )s ; ( ak ng d B RO D is) ; t E hF e1 ai ms t oh ue n C t H o4 f EC i,j=Q DOMi,j×ECI i,j (11)
+CH4 recovered (kg CH4), which was set to 0 since there is still no large-
+where EC is the electricity consumption of WWTPs (kWh); fElectricity is the
+scale methane recovery in China (Zeng et al., 2017; Zhao et al., 2019).
+CO2 emission factor for electricity (kg CO2-eq/kWh); QDOM is the do-
+The organics in wastewater of WWTPs are calculated as:
+∑[ ] mestic wastewater amount treated in WWTPs (m3); and ECI is the
+TOW Planti,j = TOW i,j×U k×T Plantk×I Planti,j (3) electricity consumption intensity of WWTPs (kWh/m3).
+k
+TOW i,j=P i,j×BOD j×α i× 0.001 × 365 (4)
+2.3. Scenarios of future GHG emissions from WWTPs
+where k is the urban income group, including urban high and low in-
+To understand the impacts of interventions on GHG emissions from
+come; TOW is total organics in the wastewater (kg BOD); U is the pro-
+WWTPs in China and assess the mitigation potential by 2035, we design
+portion of population in urban income group, setting as 0.29 for high
+a baseline scenario without specific mitigation interventions, i.e., the
+income and 0.71 for low income (IPCC, 2019); TPlant is the utilization
+business as usual (BAU) scenario, and six mitigation scenarios (Table 1).
+degree of BOD of WWTPs, which was set as 0.67 for high income and
+These mitigation scenarios include energy saving (scenario S1), opera-
+0.68 for low income (IPCC, 2019); IPlant is the correction coefficient for
+tional optimization (scenario S2), chemical energy recovery (scenario
+additional industrial BOD, using the recommended value of 1 (IPCC,
+S3), solar energy utilization (scenario S4), thermal energy recovery
+2019); P is the urban population (person); BOD is per capita BOD (g
+(scenario S5), and all mitigation measures (scenario S6).
+BOD/person/day); α is the correction factor for BOD value in different
+In the BAU scenario, the mitigation measures of GHG emissions from
+years, using the rate of change in food consumption (Feng et al., 2021).
+WWTPs remain constant at the base year level (2020), i.e. there are no
+The organic component in the sludge is given by:
+mitigation interventions. For other key variables, we assume that with
+S OCi,j =S massi,j×K OC (5) the advancement of urbanization, the urban population and wastewater
+treatment amount in China is projected to increase in the future (Chen
+S massi,j =Q DOMi,j×K mass (6) et al., 2020b; Ma et al., 2015). Due to the low-carbon transformation of
+the electricity system in the future, the emission factor of electricity will
+where Smass is the amount of sludge produced in WWTPs (kg sludge); KOC decrease gradually. The food consumption and protein supply are
+is the organic composition factor in sludge, setting as 0.25 (kg BOD/kg assumed to be the same as in 2020.
+sludge) (Guo et al., 2019; Hao et al., 2020); QDOM refers the domestic Based on the same precondition as the BAU scenario, scenarios S1-S6
+3
+
+--- Page 4 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+Table 1 We perform a sensitivity analysis to identify the impact of different
+Scenarios of future GHG emissions from WWTPs in China. mitigation measures on total emission reduction potentials. Specifically,
+Scenarios Description we assume that the target setting values of the five mitigation measures
+change by ±10%. We then evaluate the corresponding changes in the
+BAU (Baseline –
+total GHG mitigation potential of China’s WWTPs in 2035.
+scenario)
+S1 (Energy saving) By 2035, the electricity consumption intensity will reduce
+by 30% a 2.5. Data sources
+S2 (Operational By 2035, the emission factors of CH4 and N2O will reduce
+optimization) by 20% b
+We use two different datasets: i) emission factors for CH4, N2O, and
+S3 (Chemical energy By 2035, the recovery ratio of biogas (CH4) from
+recovery) anaerobic digestion will increase by 30% c electricity, and ii) activity data. The CH4 and N2O emission factors are
+S4 (Solar energy By 2035, the utilization ratio of solar energy will increase derived from the provincial-level emission factors of China’s WWTPs
+utilization) by 30% c provided by Hua et al. (2022). Since these original emission factors are
+S5 (Thermal energy By 2035, the recovery ratio of thermal energy in
+calculated based on pollutant removal, they are converted into emission
+recovery) wastewater will increase by 20% c
+factors based on influent pollutants to apply to the IPCC method (see
+S6 (All mitigation A comprehensive scenario to combine all measures (S1-
+measures) S5). more information in Table S2). The activity data for the urban popula-
+a The 14th Five-Year Plan for Municipal Wastewater Treatment and Resource tion and the electricity consumption intensity are obtained from NBSC
+(https://data.stats.gov.cn/) and the Urban Drainage Statistics Yearbook
+Utilization (NDRC, 2021) and the Outline of Development Plan 2035 for Urban
+Water Sector (CUWA, 2021) both proposed to strengthen the energy-saving (CUWA, 2018), respectively. We relied on the China Urban and Rural
+optimization of WWTPs in the following years. Construction Statistical Yearbook for the domestic wastewater treat-
+b Since not all WWTPs could or will adopt operation optimization measures to ment amount (MHURD, 2020). Per capita BOD and protein supply are
+reduce direct CH4 and N2O emissions, it is assumed that part of large WWTPs can derived from the Compilation Committee of the First National Pollution
+implement these measures. Source Census (2011) and FAO (http://www.fao.org), respectively.
+c The implementation plan to promote the synergy on pollution reduction and Detailed information is presented in SI Table S1.
+carbon mitigation (MEE, 2022) and the Outline of Development Plan 2035 for
+Urban Water Sector (CUWA, 2021) both encourage to utilize the renewable
+3. Results and discussion
+energy such as chemical, solar and thermal energy in WWTPs.
+3.1. Historical GHG emissions from WWTPs
+respectively introduce different mitigation measures to predict the
+future GHG emission trends by 2035. In scenario S1 (energy saving), we
+Annual GHG emissions from municipal WWTPs in China increased
+assume that the electricity consumption intensity of WWTPs can be
+from 13.34 Mt CO2-eq in 2005 to 30.95 Mt CO2-eq in 2020, with a
+reduced by 30% through conservation interventions and improvements.
+growth of 232% (Fig. 2a). This increase in GHG emissions can be
+For scenario S2 (operational optimization), appropriate monitoring can
+attributed to rapid urbanization, improvement in living standards, and
+be implemented at large WWTPs to identify operational interventions to
+substantial increase in wastewater treatment volume (Yan et al., 2019;
+reduce the direct emission of CH4 and N2O in the treatment process
+Zhao et al., 2019). In terms of emission structure, the largest GHG
+(Campos et al., 2016; Duan et al., 2021b; Kumar et al., 2021). We thus
+emission source is electricity consumption, reaching 16.16 Mt CO2-eq in
+assume that the emission factor of CH4 and N2O could be reduced by
+2020. Electricity consumption accounts for about 52% of the total
+20%. For scenario S3 (chemical energy recovery), the recovery of
+emissions. Direct GHG emissions from CH4 and N2O in 2020 are 1.10 Mt
+chemical energy in wastewater can be realized by adopting anaerobic
+CO2-eq and 13.67 Mt CO2-eq, respectively. These emissions account for
+digestion and combined heat and power technology (Hao et al., 2015;
+approximately 48% (4% for CH4 and 44% for N2O) of the total emissions
+Liu et al., 2021; Yan et al., 2017). We assume that the recovery ratio of
+in 2020. Furthermore, the GHG emission intensity of WWTPs decreases
+biogas (CH4) from anaerobic digestion will increase by 30%. For sce- from 0.74 kg CO2-eq/m3 in 2005 to 0.47 kg CO2-eq/m3 in 2020 (Fig. 2b).
+nario S4 (solar energy utilization), the photovoltaic modules can be laid
+Similar to the trend of emission intensity, per capita GHG emissions
+on the construction surface of WWTPs to achieve the utilization of solar
+declines slowly from 49.90 kg CO2-eq per capita in 2006 to 35.38 kg
+energy (Hao et al., 2015; Liu et al., 2021; Yang et al., 2020). Hence, we
+CO2-eq per capita in 2020.
+assume that the ratio of solar energy utilization will increase by 30%.
+The total GHG emissions from WWTPs varies across provinces in
+Similarly, for scenario S5 (thermal energy recovery), considering that
+2020 (Fig. 2c). The emission hotspots mainly emerge on the southern
+the thermal energy in wastewater can be extracted and utilized through
+and eastern coasts of China. Provinces with the largest urban population
+the application of a wastewater source heat pump (Hao et al., 2015; Liu
+and wastewater treatment amount typically contribute higher emis-
+et al., 2021), we assume that the recovery ratio of thermal energy in
+sions. Guangdong (2.93 Mt CO2-eq), Jiangsu (2.42 Mt CO2-eq), and
+wastewater will increase by 20%. Finally, scenario S6 (all mitigation
+Shandong (2.16 Mt CO2-eq) are the top three GHG emission contribu-
+measures) combines all mitigation measures, including energy saving,
+tors, accounting for 9%, 8%, and 7% of the total emission in 2020,
+operational optimization, chemical energy recovery, solar energy utili-
+respectively. Qinghai (0.12 Mt CO2-eq), Hainan (0.14 Mt CO2-eq), and
+zation, and thermal energy recovery, to assess the maximum mitigation
+Ningxia (0.19 Mt CO2-eq) have the lowest emissions, contributing less
+potentials. Detailed descriptions of these scenarios are provided in SI
+than 2% together. There are apparent differences in the emissions shares
+Text S1 and Table S3.
+of three sources among provinces (Fig. 2c). For example, Beijing and
+Qinghai in northern China have the highest emissions share from elec-
+2.4. Uncertainty characterization tricity consumption, exceeding 70%, while Yunnan and Guizhou in
+southern China have the largest emissions share from N2O, with more
+We adopt Monte Carlo simulation to characterize the uncertainties of than 60%. In addition, the northern provinces generally have higher
+GHG emissions based on the key variables, including activity data and emission intensity than the southern provinces (Fig. 2d). Inner Mongolia
+emission factors. Following the IPCC (2006, 2019), we assume that key and Beijing in northern China have the highest emission intensity (0.75
+variables are of normal distribution or triangle distribution (Table S4). kg CO2-eq/m3) and per capita GHG emissions (58.21 kg CO2-eq per
+We perform 10,000 Monte Carlo simulations to characterize the un- capita), respectively. These spatial variations among provinces could be
+certainty. We represent the uncertainty of GHG emissions by the lower due to the differences in provincial electricity consumption intensity
+and upper bounds of the 90% confidence interval (5th-95th percentile) (Fig. S2), emission factors (Table S2), and economic development level
+around the estimated mean. (Ma et al., 2015; Zhao et al., 2019).
+4
+
+--- Page 5 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+Fig. 2. Historical GHG emissions of municipal WWTPs in China. (a) Historical total GHG emissions and emission structure of municipal WWTPs in China from 2005
+to 2020; (b)The GHG emission intensity and per capita GHG emissions of WWTPs from 2005 to 2020; provincial (c) total GHG emissions, shares, and (d) emission
+intensity of municipal WWTPs in 2020. The error bars represent the uncertainty at the 90% confidence interval of the GHG emissions from WWTPs. Per capita GHG
+emissions are calculated by service population.
+3.2. Projected GHG emissions and mitigation potential From the perspective of mitigation hotspots, total mitigation po-
+tential varies across provinces (Fig. 3c). Guangdong, Jiangsu, Shandong,
+In the BAU scenario (Fig. 3a), i.e., with all WWTPs operating as usual Sichuan, Zhejiang, and Henan have the largest abatement potential with
+without any mitigation interventions, the WWTPs’ GHG emissions will 1.47, 1.02, 0.95, 0.83, 0.78, and 0.77 Mt CO2-eq, respectively. These
+continue to increase, from 31.95 Mt CO2-eq in 2021 to 36.01 Mt CO2-eq hotspot provinces can contribute about 39% of the GHG mitigation
+in 2035. For the five alternative technical mitigation scenarios, the potentials of China’s WWTPs. Furthermore, the mitigation effect of
+annual GHG emissions from WWTPs are projected to reach the lowest different decarbonization interventions also varies among provinces,
+value (30.72 Mt CO2-eq) in 2035 under scenario S1, followed by sce- especially energy saving and operational optimization (Fig. 3d). For
+nario S2, scenario S5, scenario S3, and scenario S4, with values being example, energy saving measures can contribute 50% to the total
+32.38, 32.53, 34.46, and 35.10 Mt CO2-eq, respectively. Specifically, emission reductions in Beijing (Fig. S3), while operational optimization
+energy saving (scenario S1) has the greatest GHG emissions reduction occupies 15%. However, the contribution of emission reduction through
+potential and can reduce GHG emissions by 15% compared with the operational optimization accounts for 36% in Yunnan, and the share of
+BAU scenario in 2035 (Fig. 3b). Operational optimization (scenario S2) energy saving measures is only 26%. These differences suggest that the
+and thermal energy recovery (scenario S5) have the equivalent emission targeted policy in priority areas and region-specific strategies are crucial
+reduction potential, both contributing about 10% of the emission to effectively achieving GHG mitigation of WWTPs in China.
+reduction. While chemical energy recovery (scenario S3) and solar en-
+ergy utilization (scenario S4) can only reduce the total emissions by 4%
+and 3%, respectively. The comprehensive scenario (scenario S6) can 3.3. Uncertainty characterization
+achieve synergy in mitigating GHG emissions that are greater than that
+of the individual options. GHG emissions of scenario S6 can drop to The results of the Monte Carlo simulation demonstrate that the
+21.14 Mt CO2-eq in 2035, implying that the total mitigation potentials overall uncertainty of GHG emissions from WWTPs in 2020 is (cid:0) 13%(cid:0)
+can reach 14.88 Mt CO2-eq, i.e., a 41% reduction compared to the BAU 14% for a 90% confidence interval (Table S5). The uncertainties esti-
+scenario. mated for the CH4 emissions, N2O emissions, and CO2-eq emissions from
+electricity consumption are (cid:0) 43%(cid:0) 49%, (cid:0) 24%(cid:0) 27%, and (cid:0) 12%(cid:0)
+5
+
+--- Page 6 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+Fig. 3. Future GHG emissions and mitigation potentials of municipal WWTPs in China. (a) Future GHG emissions from WWTPs under different scenarios; (b)
+Mitigation potentials of different measures in 2035; (c) Provincial total mitigation potential in 2035; (d) The distribution of emission reduction proportion of each
+measure among provinces in 2035. S1 represents energy saving; S2 represents operational optimization; S3 represents chemical energy recovery; S4 represents solar
+energy utilization; S5 represents thermal energy recovery.
+13%, respectively. The uncertainty in our estimates mainly exists in two respectively. Obviously, operational optimization has the greatest
+aspects. The first is the representativeness and accuracy of emission impact on total emission reduction, followed by energy saving and
+factors. Although we adopted the provincial-specific emission factors thermal energy recovery, while chemical energy and solar energy have
+from the latest study by Hua et al. (2022), there is still uncertainty the least effect.
+compared with the more detailed field measured data. So, obtaining
+higher-precision local on-site emission factors can further reduce the
+uncertainty of emission factors. Secondly, the limitation of the appli- 3.4. Comparison of historical emissions with previous studies
+cability of parameters will also affect the uncertainty. Because some
+technical parameters, such as the utilization degree of WWTPs and the To ensure the validity of estimation results, we compare the histor-
+fraction of nitrogen in protein, lack Chinese-specific values, we have to ical GHG emissions of this study with those of existing studies (Table 2).
+use the IPCC default values, which will bring uncertainty to our Guo et al. (2019) estimated that the GHG emissions in 2016 were 31.40
+estimates. Mt CO2-eq, slightly higher than the 27.06 Mt CO2-eq in this study. The
+The sensitivity analysis shows that the changes in five mitigation main reasons for this difference are that Guo et al. (2019) used the
+measures have various effects on total emission reductions (Fig. S4). pollutant removal method, while this study adopted the
+When the setting values of these measures change by ±10%, the total population-equivalent method recommended by the IPCC, which
+emission reduction will change by ± 12% (energy saving), ± 13% resulted in different sources of activity data. In addition, the N2O
+(operational optimization), ± 3% (chemical energy recovery), ± 2% emission factor of the former uses the national-specific value (0.035 kg
+(solar energy utilization) and ± 12% (thermal energy recovery) N2O/kg TNremoval), which is higher than the latest provincial-specific
+emission factor from Hua et al. (2022) used in this paper. Contrary to
+6
+
+--- Page 7 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+Table 2 most significant emission reduction contribution to China’s WWTPs
+Historical emissions between our results and literature. over the next fifteen years (Fig. 3b). Electricity consumption of WWTPs
+Year Boundary of Category Result Our Unit Refs. in China has increased by more than 200% from 2005 to 2020 (Fig. S5).
+previous work Rapid urbanization and stringent wastewater discharge standards will
+studies further drive the electricity demand of plants, which will bring more
+2016 Wastewater CH4 & N2O 21.35 12.99 Mt Guo et al. pressure on the energy and carbon neutrality of China’s WWTPs
+treatment plant CO2- (2019) (Fern´andez-Ar´evalo et al., 2017; Wu et al., 2021). Therefore, it is urgent
+eq to implement effective energy-saving interventions to reduce the energy
+Electricity 10.05 14.05 Mt
+demand of WWTPs. The NDRC (2021) and CUWA (2021) recently issued
+CO2-
+eq relevant policy documents, both proposing to strengthen the
+GHG 31.40 27.06 Mt energy-saving transformation of WWTPs, which provides a benign pol-
+emission CO2- icy environment for maximizing energy-saving benefits. However, it is
+eq important that regions with high energy intensity, such as Inner
+2014 Wastewater CH4 0.77 0.93 Mt Yan et al.
+Mongolia, Beijing, and Shanxi, can be given priority for implementing
+treatment plant CO2- (2019)
+eq energy-saving optimization measures (Fig. S2).
+N2O 0.52 10.84 Mt As another important measure of on-site operation management,
+CO2- operational optimization can bring notable emission reduction benefits
+eq for China’s WWTPs, which are second only to energy-saving improve-
+Electricity – 13.08 Mt
+CO2- ments. Similar to the study of Sweetapple et al. (2014), we find that N2O
+eq is the main source of direct GHG emissions in WWTPs with the greatest
+Total 1.29 24.83 Mt scope of emission reduction (Fig. 3b). Specifically, the effective miti-
+CO2- gation of N2O emission from the WWTP can be achieved through mea-
+eq
+sures such as aeration control, feed optimization, and process
+2010 Wastewater CH4 61.43 0.83 Mt MEE
+treatment CO2- (2018a) optimization (Duan et al., 2020, 2021b). For example, a full-scale
+sector eq WWTP in Australia has achieved the comprehensive benefits of
+N2O 25.44 9.14 Mt reducing N2O emissions by 35% and operating costs by 20% by reducing
+CO2-
+the dissolved oxygen levels, without affecting the treatment perfor-
+eq
+Electricity – 10.03 Mt mance (Duan et al., 2020). Therefore, it is necessary for policymakers to
+CO2- formulate incentive policies to urge plant operators to implement tar-
+eq geted measures to reduce direct GHG emissions (especially N2O).
+Total 86.87 20.00 Mt Importantly, provinces with high N2O emission factors or high emission
+CO2-
+reduction shares, such as Yunnan and Guangdong, should be considered
+eq
+as mitigation priorities. Additionally, we should also pay attention to the
+identification of emission hotspots at different stages of the wastewater
+Guo et al. (2019), Yan et al. (2019) used the national average values of treatment plant, which contributes to formulating targeted process
+2.3064 kg CH4/t CODremoval and 2.0794 kg N2O/t TNremoval that are optimization strategies (Ren et al., 2013).
+much smaller than ours as CH4 and N2O emission factors. Moreover, the For three energy recovery technologies, thermal energy recovery
+indirect emission, i.e., energy consumption, was not included in Yan’s shows considerable mitigation potential which is equivalent to that of
+study. So, the result (1.29 Mt CO2-eq in 2014) of Yan et al. (2019) is operational optimization measures, while chemical energy extraction
+lower than our estimates (24.83 Mt CO2-eq in 2014). The estimates of and solar energy utilization have a relatively small potential for emis-
+the Third National Communication (MEE, 2018a) are different from sion reduction (Fig. 3b). As reported by Hao et al. (2019), the thermal
+those of this study, which can be attributed to the different accounting energy recovery potential of wastewater is substantially greater than its
+boundaries and emission factors from ours. The accounting boundary of chemical energy potential. In spite of this, due to specificities in
+the MEE (2018a) involves GHG emissions from domestic and industrial plant-level operation, all these renewable energy technologies can play
+wastewater treatment. Meanwhile, the emission factors of CH4 (national crucial roles in the realization of low carbon development and energy
+unified value 0.099 kg CH4/kg BOD) and N2O (national unified value neutrality of specific WWTPs (Gu et al., 2017; McCarty et al., 2011; Yan
+0.005 kg N2O/kg TN) in the MEE (2018a) are about 11 times and 0.5 et al., 2017). For example, about 3% of buildings in Switzerland and
+times of ours respectively. In general, there are differences between our Germany can be heated or cooled by wastewater source heat pumps
+estimation results and existing studies, which can be mainly attributed (Hepbasli et al., 2014). A case assessment in China shows that the
+to three aspects, i.e., the difference in system boundaries, the diversity of chemical energy generated by anaerobic digestion could meet up to 50%
+evaluation methods and data sources, and the choice of emission factors. of the energy demand in the plant (Hao et al., 2015). A study of WWTPs
+in California found that solar energy could provide 8–30% of the elec-
+3.5. Mitigation strategies towards low-carbon development targets tricity demand in plants with a flow greater than 50 million gallons per
+day while providing 30–100% of the electricity demand in plants with a
+A comprehensive analysis of the past and future GHG emission pat- flow less than 50 million gallons per day (Strazzabosco et al., 2019). At
+terns of WWTPs is crucial to guide emission reduction efforts for low- present, the use of these energy recovery technologies is still very
+carbon development. On the basis of a quantitative assessment of pro- limited in China’s WWTPs (Chang et al., 2021; Zhang et al., 2016). But,
+vincial GHG emissions from WWTPs in China, we further assess future the Chinese government and water industry managers are gradually
+emission trends, mitigation potential, and hotspots by 2035 (Fig. 3). paying attention to the decarbonization benefits brought by these
+GHG emissions from WWTPs more than tripled between 2005 and 2020. technologies. The latest policy documents clearly propose to expand the
+What’s more, with the further increase in domestic wastewater treat- application of chemical energy, solar power, and thermal energy tech-
+ment demand, the GHG emissions from China’s WWTPs will continue to nologies in WWTPs (CUWA, 2021; MEE, 2022). However, it should be
+grow steadily, deviating from the low-carbon development or even noted that due to geographical location and application constraints,
+carbon neutrality goal. This indicates that ambitious decarbonization decision-makers should apply targeted renewable energy technologies
+interventions are urgently needed to curb this trend. in combination with regional characteristics and plant conditions.
+Our results show that energy-saving improvements can provide the Full implementation of these mitigation measures is challenging. For
+7
+
+--- Page 8 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+the implementation of operational optimization, we need large-scale operating data of WWTPs. If it is feasible in the future, access to plant-
+process emissions monitoring combined with appropriate data and level actual operating data of all WWTPs in China allows for more ac-
+tools to identify the best practices. However, on the one hand, the suc- curate assessments. Second, it is worth noting that influenced by the
+cess and economic costs of these operational adjustments are uncertain IPCC accounting framework, the non-biogenic (fossil) carbon emissions
+(Duan et al., 2021b). On the other hand, long-term monitoring and (also referred to as scope 1 emissions) associated with wastewater
+evaluation are necessary to determine the impact of the improvement on treatment operations were not counted, which might underestimate the
+pollutant removal performances (Duan et al., 2020). In addition, the low carbon contribution of chemicals (IPCC, 2019; Li et al., 2022; Tseng
+carbon content in the anaerobic digestion of sludge is a key factor et al., 2016). Finally, in addition to the five mitigation measures
+limiting the extraction potential of chemical energy (Qu et al., 2022). analyzed in this study, there are other potential measures for reducing
+One potential solution could be the use of co-digestion with off-site GHG emissions from WWTPs, such as wind power (Li et al., 2022), hy-
+organic waste such as kitchen wastes (Chang et al., 2021; Gu et al., draulic energy recovery (Gude, 2015), the application of microalgae
+2017). Finally, for thermal energy recovery technology, the limited (Campos et al., 2016), and enacting water-saving policies.
+energy supply range, high-cost investment, and lack of incentive policy
+are the main obstacles for large-scale implementation (Gu et al., 2017; CRediT authorship contribution statement
+Hao et al., 2015). In summary, when promoting and applying these five
+decarbonization measures, we need to find an optimal balance between Mengjie Yang: Conceptualization, Methodology, Writing – original
+a variety of factors, such as mitigation benefits, pollutant removal per- draft, Visualization. Man Peng: Conceptualization, Formal analysis,
+formance, economic costs, etc. Writing – review & editing. Dong Wu: Formal analysis, Writing – review
+& editing. Haoyuan Feng: Formal analysis, Methodology, Writing –
+4. Conclusions review & editing. Yixian Wang: Formal analysis, Investigation. Yong-
+peng Lv: Formal analysis, Investigation. Fengyun Sun: Writing – re-
+In this study, we use the population-equivalent method recom- view & editing. Sanjib Sharma: Writing – review & editing. Yue Che:
+mended by the IPCC to compile a provincial-level inventory of GHG Conceptualization, Writing – review & editing, Supervision. Kai Yang:
+emissions from WWTPs in China during 2005–2020 and analyze the Conceptualization, Writing – review & editing, Supervision.
+emission characteristics and hotspots. Additionally, based on the his-
+torical trend, and considering several crucial factors of GHG emissions,
+such as urban population, wastewater treatment amount, electricity Declaration of Competing Interest
+emission factors, and five mitigation measures, we project the possible
+trajectory of reducing GHG emissions from China’s WWTPs. The major We declare that we do not have any commercial or associative in-
+findings are as follows: terest that represents a conflict of interest in connection with the work
+We estimate that, in the last 15 years, GHG emissions from WWTPs in submitted.
+China dramatically increased from 13.34 Mt CO2-eq in 2005 to 30.95 Mt
+CO2-eq in 2020. Electricity consumption contributes the largest share of Data Availability
+emissions, accounting for about 52% of the total emissions. The share of
+emissions from N2O and CH4 account for approximately 44% and 4%, Data will be made available on request.
+respectively. In addition, on account of the differences in electricity
+consumption intensity, emission factors, and the level of economic
+development, there is significant spatial heterogeneity in the amount, Acknowledgments
+structure, and intensity of emissions in different provinces. The emission
+hotspots mainly emerge on the southern and eastern coasts provinces of This work was supported by the National Key R&D Program of China
+China, which has the largest urban population and wastewater treat- (2020YFC1908701) and the National Natural Science Foundation of
+ment amount. Provinces in northern China (such as Beijing and Qinghai) China (42107457). We also appreciate Dr. Guangyin Zhen and Dr.
+have a higher emission share of electricity consumption, while provinces Xiuyan Li of East China Normal University for their useful comments and
+in southern China (such as Yunnan and Guizhou) have a higher emission suggestions.
+share of N2O.
+The prediction results show that if no mitigation measures are Supplementary materials
+implemented, the GHG emissions will continue to increase to 36.01 Mt
+CO2-eq by 2035. In terms of mitigation potentials, energy-saving Supplementary material associated with this article can be found, in
+improvement will generate the largest reduction potential (15%), fol- the online version, at doi:10.1016/j.resconrec.2022.106794.
+lowed by operational optimization (10%) and thermal energy recovery
+(10%), while chemical energy recovery (4%) and solar energy utiliza-
+References
+tion (3%) will contribute the least. Taking all mitigation options, the
+GHG emissions can reduce by about 41% in 2035, reaching 21.14 Mt Campos, J.L., Valenzuela-Heredia, D., Pedrouso, A., Val del Río, A., Belmonte, M.,
+CO2-eq. Guangdong, Jiangsu, Shandong, Sichuan, Zhejiang, and Henan Mosquera-Corral, A., 2016. Greenhouse gases emissions from wastewater treatment
+plants: minimization, treatment, and prevention. J. Chem. 3796352 https://doi.org/
+are mitigation hotspots, which can contribute about 39% to the total
+10.1155/2016/3796352, 2016.
+mitigation potentials in 2035. What’s more, the mitigation effect of Chang, J., Jing, Y., Geng, Y., Song, X., 2021. Promote the low-carbon transformation of
+different decarbonization measures varies among provinces, especially municipal sewage treatment industry and facilitate the realization of emission peak
+and carbon neutrality. China Environ. Prot. Ind. (6), 9–17.
+energy saving and operational optimization. The sensitivity analysis
+Chen, H., Zeng, L., Wang, D., Zhou, Y., Yang, X., 2020a. Recent advances in nitrous oxide
+results show that the total emission reduction potential is most sensitive production and mitigation in wastewater treatment. Water Res. 184, 116168
+to operational optimization measures. Therefore, targeted policy in https://doi.org/10.1016/j.watres.2020.116168.
+priority areas and region-specific strategies are essential for reducing Chen, Y., Guo, F., Wang, J., Cai, W., Wang, C., Wang, K., 2020b. Provincial and gridded
+population projection for China under shared socioeconomic pathways from 2010 to
+GHG emissions and achieving the carbon neutrality goal of China’s 2100. Sci. Data 7 (1), 83. https://doi.org/10.1038/s41597-020-0421-y.
+WWTPs. Compilation Committee of the First National Pollution Source Census, 2011. Handbook
+Our analysis, of course, is subject to several limitations. First, the of Pollution Production and Discharge Coefficient in Pollution Sources Census. China
+Environmental Science Press, Beijing, China.
+emission estimates of CH4 and N2O using the population-equivalent
+CUWA, 2018. Urban Drainage Statistics Yearbook (2015-2018). China Urban Water
+method recommended by the IPCC may differ from the actual Association, Beijing, China.
+8
+
+--- Page 9 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+CUWA, 2021. Outline of Development Plan 2035 For Urban Water Sector. China Li, L., Wang, X., Miao, J., Abulimiti, A., Jing, X., Ren, N., 2022. Carbon neutrality of
+Architecture & Building Press, Beijing, China. wastewater treatment - a systematic concept beyond the plant boundary. Environ.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van Sci. Ecotechnol. 11, 100180 https://doi.org/10.1016/j.ese.2022.100180.
+Loosdrecht, M.C.M., 2012. Methane emission during municipal wastewater Li, X., Lee, H.-.S., Wang, Z., Lee, J., 2021. State-of-the-art management technologies of
+treatment. Water Res. 46 (11), 3657–3670. https://doi.org/10.1016/j. dissolved methane in anaerobically-treated low-strength wastewaters: a review.
+watres.2012.04.024. Water Res. 200, 117269 https://doi.org/10.1016/j.watres.2021.117269.
+Delre, A., ten Hoeve, M., Scheutz, C., 2019. Site-specific carbon footprints of Liu, R., Huang, R., Shen, Z., Wang, H., Xu, J., 2021. Optimizing the recovery pathway of
+Scandinavian wastewater treatment plants, using the life cycle assessment approach. a net-zero energy wastewater treatment model by balancing energy recovery and
+J. Clean. Prod. 211, 1001–1014. https://doi.org/10.1016/j.jclepro.2018.11.200. eco-efficiency. Appl. Energy 298, 117157. https://doi.org/10.1016/j.
+Du, M., Zhu, Q., Wang, X., Li, P., Yang, B., Chen, H., Wang, M., Zhou, X., Peng, C., 2018. apenergy.2021.117157.
+Estimates and predictions of methane emissions from wastewater in China from Lu, J.-.Y., Wang, X.-.M., Liu, H.-.Q., Yu, H.-.Q., Li, W.-.W., 2019. Optimizing operation of
+2000 to 2020. Earth’s Future 6 (2), 252–263. https://doi.org/10.1002/ municipal wastewater treatment plants in China: the remaining barriers and future
+2017EF000673. implications. Environ. Int. 129, 273–278. https://doi.org/10.1016/j.
+Duan, H., van den Akker, B., Thwaites, B.J., Peng, L., Herman, C., Pan, Y., Ni, B.-.J., envint.2019.05.057.
+Watt, S., Yuan, Z., Ye, L., 2020. Mitigating nitrous oxide emissions at a full-scale Ma, Z., Feng, P., Gao, Q., Lu, Y., Liu, J., Li, W., 2015. CH4 emissions and reduction
+wastewater treatment plant. Water Res. 185, 116196 https://doi.org/10.1016/j. potential in wastewater treatment in China. Adv. Clim. Change Res. 6 (3), 216–224.
+watres.2020.116196. https://doi.org/10.1016/j.accre.2015.11.006.
+Duan, H., Zhao, Y., Koch, K., Wells, G.F., Weißbach, M., Yuan, Z., Ye, L., 2021a. Recovery McCarty, P.L., Bae, J., Kim, J., 2011. Domestic wastewater treatment as a net energy
+of nitrous oxide from wastewater treatment: current status and perspectives. ACS producer–can this be achieved? Environ. Sci. Technol. 45 (17), 7100–7106. https://
+ES&T Water 1 (2), 240–250. https://doi.org/10.1021/acsestwater.0c00140. doi.org/10.1021/es2014264.
+Duan, H., Zhao, Y., Koch, K., Wells, G.F., Zheng, M., Yuan, Z., Ye, L., 2021b. Insights into MEE, 2018a. The people’s republic of China third national communication on climate
+nitrous oxide mitigation strategies in wastewater treatment and challenges for wider change. https://unfccc.int/sites/default/files/resource/China_NC3_Chinese_0.pdf.
+implementation. Environ. Sci. Technol. 55 (11), 7208–7224. https://doi.org/ (Accessed October 19, 2022).
+10.1021/acs.est.1c00840. MEE, 2018b. Technical guidelines for greenhouse gases accounting of municipal
+EPA, 2012. Global anthropogenic non-CO2 greenhouse gas emissions: 1990-2030. https wastewater treatment plants (Trial). http://www.mee.gov.cn/gkml/sthjbgw/stbgth
+://www.epa.gov/global-mitigation-non-co2-greenhouse-gases/global-non-co2-ghg- /201804/t20180410_434147.htm. (Accessed May 19, 2022).
+emissions-1990-2030. (Accessed May 19, 2022). MEE, 2022. The implementation plan to promote the synergy on pollution reduction and
+EPA, 2018. Emissions & generation resource integrated database (eGRID). https://www. carbon mitigation. https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202206/t2
+epa.gov/egrid. (Accessed May 19, 2022). 0220617_985879.html. (Accessed October 19, 2022).
+Farago`, M., Damgaard, A., Rebsdorf, M., Nielsen, P.H., Rygaard, M., 2022. Challenges in MHURD, 2020. China Urban and rural construction statistical yearbook. https://www.
+carbon footprint evaluations of state-of-the-art municipal wastewater resource mohurd.gov.cn/. (Accessed May 19, 2022).
+recovery facilities. J. Environ. Manage. 320, 115715 https://doi.org/10.1016/j. Mo, W., Zhang, Q., 2012. Can municipal wastewater treatment systems be carbon
+jenvman.2022.115715. neutral? J. Environ. Manage. 112, 360–367. https://doi.org/10.1016/j.
+Feng, H., Sun, F., Liu, Y., Zeng, P., Deng, L., Che, Y., 2021. Mapping multiple water jenvman.2012.08.014.
+pollutants across China using the grey water footprint. Sci. Total Environ. 785, Nayeb, H., Mirabi, M., Motiee, H., Alighardashi, A., Khoshgard, A., 2019. Estimating
+147255 https://doi.org/10.1016/j.scitotenv.2021.147255. greenhouse gas emissions from Iran’s domestic wastewater sector and modeling the
+Ferna´ndez-Ar´evalo, T., Lizarralde, I., Fdz-Polanco, F., P´erez-Elvira, S.I., Garrido, J.M., emission scenarios by 2030. J. Clean. Prod. 236, 117673 https://doi.org/10.1016/j.
+Puig, S., Poch, M., Grau, P., Ayesa, E., 2017. Quantitative assessment of energy and jclepro.2019.117673.
+resource recovery in wastewater treatment plants based on plant-wide simulations. Qu, J., Dai, X., Hu, H.-.Y., Huang, X., Chen, Z., Li, T., Cao, Y., Daigger, G.T., 2022.
+Water Res. 118, 272–288. https://doi.org/10.1016/j.watres.2017.04.001. Emerging trends and prospects for municipal wastewater management in China. ACS
+GMI, 2013. Municipal Wastewater Methane: Reducing Emissions. Advancing Recovery ES&T Eng. 2 (3), 323–336. https://doi.org/10.1021/acsestengg.1c00345.
+and Use Opportunities. https://www.globalmethane.org/documents/ww_fs_eng.pdf Qu, J., Wang, H., Wang, K., Yu, G., Ke, B., Yu, H.-.Q., Ren, H., Zheng, X., Li, J., Li, W.-.W.,
+(Accessed May 19, 2022). Gao, S., Gong, H., 2019. Municipal wastewater treatment in China: development
+Gu, Y., Li, Y., Li, X., Luo, P., Wang, H., Robinson, Z.P., Wang, X., Wu, J., Li, F., 2017. The history and future perspectives. Front. Environ. Sci. Eng. 13 (6), 88. https://doi.org/
+feasibility and challenges of energy self-sufficient wastewater treatment plants. Appl. 10.1007/s11783-019-1172-x.
+Energy 204, 1463–1475. https://doi.org/10.1016/j.apenergy.2017.02.069. Ren, Y.G., Wang, J.H., Li, H.F., Zhang, J., Qi, P.Y., Hu, Z., 2013. Nitrous oxide and
+Gude, V.G., 2015. Energy and water autarky of wastewater treatment and power methane emissions from different treatment processes in full-scale municipal
+generation systems. Renew. Sustain. Energy Rev. 45, 52–68. https://doi.org/ wastewater treatment plants. Environ. Technol. 34 (21), 2917–2927. https://doi.
+10.1016/j.rser.2015.01.055. org/10.1080/09593330.2012.696717.
+Guo, S., Huang, H., Dong, X., Zeng, S., 2019. Calculation of greenhouse gas emissions of Shukla, P.R., Skea, J., Slade, R., Al Khourdajie, A., van Diemen, R., McCollum, D.,
+municipal wastewater treatment and its temporal and spatial trend in China. Water Pathak, M., Some, S., Vyas, P., Fradera, R., Belkacemi, M., Hasija, A., Lisboa, G.,
+& Wastewater Eng. 45 (4), 56–62. https://doi.org/10.13789/j.cnki. Luz, S., Malley, J., 2022. Climate change 2022: mitigation of climate change.
+wwe1964.2019.04.009. Contribution of Working Group III to the Sixth Assessment Report of the
+Hao, X., Chen, Q., van Loosdrecht, M.C.M., Li, J., Jiang, H., 2020. Sustainable disposal of Intergovernmental Panel On Climate Change. IPCC. Cambridge University Press,
+excess sludge: incineration without anaerobic digestion. Water Res. 170, 115298 Cambridge, UK and New York, NY, USA.
+https://doi.org/10.1016/j.watres.2019.115298. Stocker, T.F., Qin, D., Plattner, G.-.K., Tignor, M., Allen, S.K., Boschung, J., Nauels, A.,
+Hao, X., Li, J., van Loosdrecht, M.C.M., Jiang, H., Liu, R., 2019. Energy recovery from Xia, Y., Bex, V., Midgley, P.M., 2013. Climate Change 2013: The Physical Science
+wastewater: heat over organics. Water Res. 161, 74–77. https://doi.org/10.1016/j. Basis. Contribution of Working Group I to the Fifth Assessment Report of the
+watres.2019.05.106. Intergovernmental Panel On Climate Change. IPCC, Cambridge University Press,
+Hao, X., Liu, R., Huang, X., 2015. Evaluation of the potential for operating carbon neutral Cambridge, United Kingdom and New York, NY, USA, p. 1535.
+WWTPs in China. Water Res. 87, 424–431. https://doi.org/10.1016/j. Strazzabosco, A., Kenway, S.J., Lant, P.A., 2019. Solar PV adoption in wastewater
+watres.2015.05.050. treatment plants: a review of practice in California. J. Environ. Manage. 248, 109337
+Hepbasli, A., Biyik, E., Ekren, O., Gunerhan, H., Araz, M., 2014. A key review of https://doi.org/10.1016/j.jenvman.2019.109337.
+wastewater source heat pump (WWSHP) systems. Energy Convers. Manage. 88, Sweetapple, C., Fu, G., Butler, D., 2014. Identifying sensitive sources and key control
+700–722. https://doi.org/10.1016/j.enconman.2014.08.065. handles for the reduction of greenhouse gas emissions from wastewater treatment.
+Hu, W., Tian, J., Chen, L., 2019. Greenhouse gas emission by centralized wastewater Water Res. 62, 249–259. https://doi.org/10.1016/j.watres.2014.06.002.
+treatment plants in Chinese industrial parks: inventory and mitigation measures. Tseng, L.Y., Robinson, A.K., Zhang, X., Xu, X., Southon, J., Hamilton, A.J., Sobhani, R.,
+J. Clean. Prod. 225, 883–897. https://doi.org/10.1016/j.jclepro.2019.03.311. Stenstrom, M.K., Rosso, D., 2016. Identification of preferential paths of fossil carbon
+Hua, H., Jiang, S., Yuan, Z., Liu, X., Zhang, Y., Cai, Z., 2022. Advancing greenhouse gas within water resource recovery facilities via radiocarbon analysis. Environ. Sci.
+emission factors for municipal wastewater treatment plants in China. Environ. Technol. 50 (22), 12166–12178. https://doi.org/10.1021/acs.est.6b02731.
+Pollut. 295, 118648 https://doi.org/10.1016/j.envpol.2021.118648. NDRC, 2021. The 14th five-year plan for municipal wastewater treatment and resource
+IPCC, 2006. 2006 IPCC Guidelines for National Greenhouse Gas Inventories. The Utilization. https://www.mohurd.gov.cn/gongkai/fdzdgknr/tzgg/202106/202
+Intergovernmental Panel on Climate Change, Japan. 10616_250477.html. (Accessed May 19, 2022).
+IPCC, 2015. Climate Change 2014: Mitigation of Climate Change. Cambridge University United States Department of Energy, 2017. Energy data management manual for the
+Press. wastewater treatment sector. https://www.energy.gov/sites/prod/files/2018/0
+IPCC, 2019. 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas 1/f46/WastewaterTreatmentDataGuide_Final_0118.pdf. (Accessed May 19, 2022).
+Inventories. IPCC, Switzerland. Wang, H., Yang, Y., Keller, A.A., Li, X., Feng, S., Dong, Y.-n., Li, F., 2016. Comparative
+Jawaharraj, K., Shrestha, N., Chilkoor, G., Dhiman, S.S., Islam, J., Gadhamshetty, V., analysis of energy intensity and carbon emissions in wastewater treatment in USA,
+2020. Valorization of methane from environmental engineering applications: a Germany, China and South Africa. Appl. Energy 184, 873–881. https://doi.org/
+critical review. Water Res. 187, 116400 https://doi.org/10.1016/j. 10.1016/j.apenergy.2016.07.061.
+watres.2020.116400. Wang, S., Liu, Q., Li, J., Wang, Z., 2021. Methane in wastewater treatment plants: status,
+Kumar, A., Thanki, A., Padhiyar, H., Singh, N.K., Pandey, S., Yadav, M., Yu, Z.-.G., 2021. characteristics, and bioconversion feasibility by methane oxidizing bacteria for high
+Greenhouse gases emission control in WWTS via potential operational strategies: a value-added chemicals production and wastewater treatment. Water Res. 198,
+critical review. Chemosphere 273, 129694. https://doi.org/10.1016/j. 117122 https://doi.org/10.1016/j.watres.2021.117122.
+chemosphere.2021.129694.
+9
+
+--- Page 10 ---
+M. Yang et al. R e s o u r c e s , C o n s e r v a t i o n & R e c y c l i n g 190(2023)106794
+Wu, D., Li, X., Li, X., 2021. Toward energy neutrality in municipal wastewater treatment: Yang, X., Wei, J., Ye, G., Zhao, Y., Li, Z., Qiu, G., Li, F., Wei, C., 2020. The correlations
+a systematic analysis of energy flow balance for different scenarios. ACS ES&T Water among wastewater internal energy, energy consumption and energy recovery/
+1 (4), 796–807. https://doi.org/10.1021/acsestwater.0c00154. production potentials in wastewater treatment plant: an assessment of the energy
+Wu, L., Peng, L., Wei, W., Wang, D., Ni, B.-.J., 2020. Nitrous oxide production from balance. Sci. Total Environ. 714, 136655 https://doi.org/10.1016/j.
+wastewater treatment: the potential as energy resource rather than potent scitotenv.2020.136655.
+greenhouse gas. J. Hazard. Mater. 387, 121694 https://doi.org/10.1016/j. Zeng, S., Chen, X., Dong, X., Liu, Y., 2017. Efficiency Assessment of Urban Wastewater
+jhazmat.2019.121694. Treatment Plants in China: Considering greenhouse Gas Emissions, 120. Resources,
+Wu, Z., Duan, H., Li, K., Ye, L., 2022. A comprehensive carbon footprint analysis of Conservation and Recycling, pp. 157–165. https://doi.org/10.1016/j.
+different wastewater treatment plant configurations. Environ. Res. 214, 113818 resconrec.2016.12.005.
+https://doi.org/10.1016/j.envres.2022.113818. Zhang, Q., Smith, K., Zhao, X., Jin, X., Wang, S., Shen, J., Ren, Z.J., 2021. Greenhouse gas
+Xi, J., Gong, H., Zhang, Y., Dai, X., Chen, L., 2021. The evaluation of GHG emissions from emissions associated with urban water infrastructure: what we have learnt from
+Shanghai municipal wastewater treatment plants based on IPCC and operational China’s practice. WIREs Water 8 (4), e1529. https://doi.org/10.1002/wat2.1529.
+data integrated methods (ODIM). Sci. Total Environ. 797, 148967 https://doi.org/ Zhang, Q.H., Yang, W.N., Ngo, H.H., Guo, W.S., Jin, P.K., Dzakpasu, M., Yang, S.J.,
+10.1016/j.scitotenv.2021.148967. Wang, Q., Wang, X.C., Ao, D., 2016. Current status of urban wastewater treatment
+Yan, P., Qin, R., Guo, J., Yu, Q., Li, Z., Chen, Y., Shen, Y., Fang, F., 2017. Net-zero-energy plants in China. Environ. Int. 92-93, 11–22. https://doi.org/10.1016/j.
+model for sustainable wastewater treatment. Environ. Sci. Technol. 51 (2), envint.2016.03.024.
+1017–1023. https://doi.org/10.1021/acs.est.6b04735. Zhao, X., Jin, X.K., Guo, W., Zhang, C., Shan, Y.L., Du, M.X., Tillotson, M.R., Yang, H.,
+Yan, X., Qiu, D., Zheng, S., Cheng, K., Han, Y., Sun, J., Su, X., 2019. Spatial and temporal Liao, X.W., Li, Y.P., 2019. China’s urban methane emissions from municipal
+distribution of greenhouse gas emissions from municipal wastewater treatment wastewater treatment plant. Earth’s Future 7 (4), 480–490. https://doi.org/
+plants in China From 2005 to 2014. Earth’s Future 7 (4), 340–350. https://doi.org/ 10.1029/2018EF001113.
+10.1029/2018EF001058.
+10

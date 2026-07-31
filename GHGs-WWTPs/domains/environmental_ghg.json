@@ -1,0 +1,103 @@
+{
+  "name": "环境-温室气体排放",
+  "description": "污水处理、温室气体排放、碳足迹相关研究",
+  "keywords": [
+    "greenhouse gas",
+    "GHG",
+    "wastewater",
+    "emission",
+    "carbon footprint",
+    "CO2",
+    "CH4",
+    "N2O",
+    "WWTP",
+    "treatment plant"
+  ],
+  "method_categories": {
+    "emission_accounting": {
+      "name": "排放核算",
+      "methods": {
+        "IPCC method": {
+          "keywords": [
+            "IPCC",
+            "IPCC guidelines",
+            "emission factor"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|based on|applied|adopted|followed|employed).*?(?:IPCC|emission factor)",
+            "(?:IPCC|Tier \\d).*?(?:methodology|approach|method|guideline)"
+          ]
+        },
+        "LCA": {
+          "keywords": [
+            "life cycle assessment",
+            "LCA"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|based on|applied|adopted|conducted|performed).*?(?:life cycle assessment|LCA)"
+          ]
+        },
+        "carbon footprint": {
+          "keywords": [
+            "carbon footprint"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|calculated|computed|estimated|assessed|evaluated).*?carbon\\s+footprint"
+          ]
+        },
+        "mass balance": {
+          "keywords": [
+            "mass balance"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|based on|applied|adopted).*?mass\\s+balance"
+          ]
+        }
+      }
+    },
+    "statistical_methods": {
+      "name": "统计方法",
+      "methods": {
+        "ANOVA": {
+          "keywords": [
+            "ANOVA",
+            "analysis of variance"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied).*?(?:ANOVA|analysis of variance)"
+          ]
+        },
+        "regression": {
+          "keywords": [
+            "regression",
+            "linear regression"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied|fitted).*?(?:regression|linear regression)"
+          ]
+        }
+      }
+    },
+    "uncertainty_methods": {
+      "name": "不确定性分析",
+      "methods": {
+        "Monte Carlo": {
+          "keywords": [
+            "Monte Carlo"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied).*?Monte\\s+Carlo"
+          ]
+        },
+        "sensitivity analysis": {
+          "keywords": [
+            "sensitivity analysis"
+          ],
+          "usage_patterns": [
+            "(?:was|were|using|performed|conducted|applied).*?sensitivity\\s+analysis"
+          ]
+        }
+      }
+    }
+  }
+}

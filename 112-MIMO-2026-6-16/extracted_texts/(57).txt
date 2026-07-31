@@ -1,0 +1,512 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment929(2024)172598
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+More applicable quantification of non-CO greenhouse gas emissions from
+2
+wastewater treatment plants by on-site plant-integrated measurements
+Yutong Chonga, Haiyan Lia,*, Tianyu Pana, Liangfang Youa, He Dua, Bowen Yua,
+Juanjuan Chena,b, Nanqi Rena, Lu Lua,*
+aState Key Laboratory of Urban Water Resource and Environment, School of Civil and Environmental Engineering, Harbin Institute of Technology, Shenzhen, Shenzhen
+518055, China
+bGuangdong Branch, Beijing General Municipal Engineering Design & Research Institute Co., Ltd, Guangzhou 510075, China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•Non-CO2 greenhouse gas emissions were
+quantified from an underground WWTP.
+•Plant-integrated measurements yield
+3–9 times higher emissions than unit-
+based measurements.
+•Plant-integrated measurements are
+more applicable for total plant’s emis-
+sion quantification.
+•Improving accuracy of emission ac-
+counting needs more plant-integrated
+measurements.
+A R T I C L E I N F O A B S T R A C T
+Editor: Huu Hao Ngo Wastewater treatment is an important source of non-CO2 greenhouse gases (GHGs). However, current quanti-
+fication of these GHG emissions mainly employs unit-based measurements, where emissions from individual
+Keywords: process units are identified, leading to large uncertainties of overall emissions. Here we introduce plant-
+Non-CO2 greenhouse gases integrated measurements, where emissions from the whole plant are measured through the off-gas pipelines
+Wastewater treatment
+of the enclosed facility, to quantify methane (CH4) and nitrous oxide (N2O) emissions from an underground
+Unit-based measurements
+municipal wastewater treatment plant (WWTP) in southern China. Our results show that the primary oxic tank
+Plant-integrated measurements
+contributes the largest in total CH4 and N2O emissions, with an average fraction of over 80 % and over 90 %,
+Emission factor
+respectively. This can be attributed to the vigorous aeration process, which facilitates the transfer of dissolved
+CH4 and N2O from the liquid phase to the atmosphere through intensive air stripping. The plant-integrated
+measurements yield around 3–9 times higher emission factors of CH4 and N2O than the unit-based measure-
+ments. This difference in emission accounting is attributed to both varying survey durations of the two ap-
+proaches and the omission of uncertain emission sources during unit-based measurements. The comparison
+* Corresponding authors.
+E-mail addresses: lihaiyan2021@hit.edu.cn (H. Li), lulu@hit.edu.cn (L. Lu).
+https://doi.org/10.1016/j.scitotenv.2024.172598
+Received 27 December 2023; Received in revised form 21 March 2024; Accepted 17 April 2024
+Availableonline18April2024
+0048-9697/©2024ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+between these two approaches indicates that plant-integrated measurements are more applicable for emission
+quantification of the whole plant whereas unit-based measurements provide insights into the emission charac-
+teristics of individual process units. More plant-integrated measurements are needed in the future for more
+accurate emission accounting of WWTPs.
+1. Introduction rates by combining the ground-based remote sensing approach with a
+controlled release of tracer gas from the plant and downwind concen-
+Wastewater and sludge treatment is a major anthropogenic source of tration measurements (Delre et al., 2017; Reinelt et al., 2017; Yoshida
+greenhouse gases (GHG) (Li et al., 2022). In addition to carbon dioxide et al., 2014). The IR video camera technique can detect unknown
+(CO2), methane (CH4) and nitrous oxide (N2O) are potent GHGs with a emission sources in a scene and measure gas species from a distance up
+global warming potential (GWP) 25 and 298 times of CO2, respectively, to several hundred meters without disrupting the daily operations of the
+over a 100-year time horizon. According to Emissions Database for plant (Gålfalk et al., 2022). The IDM conducts concentration measure-
+Global Atmospheric Research (EDGAR), about 12 % of anthropogenic ments both up- and downwind of a stationary source and estimates
+CH4 and 4 % of anthropogenic N2O are contributed by wastewater emissions with an atmospheric dispersion model (Buhler et al., 2022).
+treatment and discharge globally (https://edgar.jrc.ec.europa.eu/). CH4 While these techniques provide valuable quantitative information on
+forms mainly through the anaerobic degradation of organics and then plant-specific emissions, the reported results show significant variabil-
+enters the atmosphere during the air stripping (Daelman et al., 2012). ities among different methods. For example, a comparative monitoring
+N2O is generated during biological nitrogen removal through nitrifica- campaign using both the TDM and IR methods was performed to
+tion and denitrification (Massara et al., 2017). Recent studies show that quantify CH4 emissions from four Danish biogas plants (Fredenslund
+direct CH4 and N2O emissions from the biological processes of a et al., 2018). Results showed that the emission rates measured by the IR
+wastewater treatment plant (WWTP) contribute up to 57 % and 15 % of method were either significantly lower or higher than those obtained by
+the overall carbon footprint (including both direct and indirect emis- the TDM, probably caused by varying degrees of spatial and temporal
+sions) (Ribera-Guardia et al., 2019). Historically, the wastewater sector coverage of the two approaches. The inconsistency among different
+possesses an overall growing trend of CH4 and N2O emissions in emission quantification methods has become a great obstacle to improve
+response to population growth and the increasingly stringent waste- the accuracy in GHG emission accounting. Therefore, it is essential to
+water discharge standards (Shao and Xu, 2023; Du et al., 2023). With advance our understanding of different approaches and subsequently
+China’s pledge to achieve carbon neutrality by 2060, there is an urgent provide a more comprehensive view of GHG emissions from WWTPs.
+need to quantify and subsequently reduce CH4 and N2O emissions from In this study, we quantified CH4 and N2O emissions from an under-
+wastewater treatment (Lu et al., 2023). ground municipal WWTP equipped with enclosed systems in Guangz-
+Numerous studies have developed GHG accounting methods for hou, China, utilizing both conventional unit-based measurements and
+wastewater treatment. However, large uncertainties persist within the plant-integrated measurements by monitoring the gas concentrations
+quantification results. For example, Song et al. (2023) estimated annual from the off-gas collection pipes. The emission rates of CH4 and N2O
+CH4 emissions from the U.S. wastewater treatment sector to be from the plant and furthermore their emission factors were estimated for
+approximately 10.9 MMT CO2-eq/year, which doubled the IPCC 2019 these two accounting methods. The differences between these two ap-
+Tier2 estimation (4.3–6.1 MMT CO2-eq/year). In China, the reported proaches in emission accounting were illustrated by including more
+CH4 emissions from wastewater treatment ranged from 6.2 kt to 1271.5 results from literatures. Ultimately, suggestions were proposed for more
+kt (Du et al., 2018; Wang et al., 2011; Yan et al., 2019; Zhao et al., 2019). accurate GHG emission accounting of WWTPs in the future.
+The discrepancies in emission accounting are mainly attributed to the
+choice of inappropriate emission factors, defined as emissions per unit 2. Materials and methods
+influent pollutant removed, such as CH4 emissions per unit influent
+chemical oxygen demand (COD) removed or N2O emissions per unit 2.1. Investigated sites
+influent total nitrogen (TN) removed (Li et al., 2024). The majority of
+reported studies currently adopt constant emission factors published by The field experiment was carried out at an underground municipal
+IPCC guidelines to estimate GHG emissions from WWTPs at the regional WWTP located in Guangzhou, a metropolis in southern China. The fa-
+or national scale, which doesn’t take into account the discrepancies (e.g. cility receives mainly domestic sewage with an average influent flow of
+technologies, scale, geographic location etc.) among different WWTPs. 1.9 ×104 m3 d(cid:0) 1. Detailed wastewater quality and pollutant removal
+The studies using emission factors directly collected from field mea- efficiencies are outlined in Table S1. The influent and effluent quality
+surements are limited. changes slightly in different seasons.
+Over the past two decades, most field campaigns obtained the As illustrated in Fig. 1, the treatment processes of the plant consist of
+emission factors of WWTPs by unit-based measurements using a flux three lines: wastewater treatment, sludge treatment and off-gas treat-
+chamber. The unit-based measurements quantify emissions from indi- ment. (1) After the wastewater enters the WWTP, it undergoes pre-
+vidual process units and provide insights into their temporal and spatial liminary treatment through coarse and fine screens, followed by the
+variations (Aboobakar et al., 2013; Foley et al., 2010; Rodriguez-Ca- aerated grit chamber to remove large objects and sand particles. Sub-
+ballero et al., 2014; Yver Kwok et al., 2015). The overall emissions are sequently, the wastewater enters the biological treatment stage, passing
+acquired by aggregating the measured emissions from individual sour- through “Anaerobic/anoxic/oxic-anoxic/oxic (AAO + AO)” reactors
+ces. Recently, plant-integrated measurements have been proposed to which are achieved by a combination of an anaerobic tank, an anoxic
+directly quantify total emission rates of the whole plant, using tech- tank and an oxic tank followed by a back-end anoxic tank and a back-end
+niques like the off-gas concentration measuring method, tracer gas oxic tank, to eliminate organic substances, nitrogen, phosphorus and
+dispersion method (TDM), optical gas imaging infrared (IR) video other contaminants. These processes lead to the release of GHGs to the
+camera, and inverse dispersion method (IDM). The off-gas concentration atmosphere and the growth of biomass. After that, the wastewater
+measuring method focuses on WWTPs equipped with air collection comes to the secondary clarifier to separate the microbial biomass by
+systems, measuring both the gas concentrations and the flow rates from gravity. Additionally, the wastewater treatment line includes advanced
+the off-gas collection pipes (Baresel et al., 2016; Daelman et al., 2013; treatments for meeting more stringent discharge requirements,
+Kosonen et al., 2016). The TDM quantifies plant-integrated emission comprising the high efficiency sedimentation tank and denitrification
+2
+
+--- Page 3 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+deep bed filter. (2) The sludge treatment line is composed of four units: a N2O released from the water surface during a set period were sampled
+sludge pond storing sludge produced by the wastewater treatment, a and the emission fluxes were acquired. See Section S3 for more infor-
+press dumper followed by a low temperature heat pump dryer for mation about the principle.
+dewatering sludge and finally a sludge bin for biosolids storage. (3) The The emission fluxes from each process unit show spatial variabilities
+facility is equipped with four gas collection pipelines, which gather the according to previous studies (Wang et al., 2011; Yan et al., 2014).
+gases released from the pretreatment system, the anaerobic-anoxic re- Therefore, the measurements were located at the front, in the middle,
+actors and secondary clarifier of the biological treatment processes, the and at the end of each reactor along the water flow direction in order to
+oxic reactors of the biological treatment processes, and the sludge improve the representativeness and accuracy of the monitoring data
+treatment, respectively. The collected gases are filtered by the biological (Fig. S2).
+deodorizer before being centrally discharged into the atmosphere
+through the exhaust tower.
+The monitoring campaigns were conducted in January 2022, to 2.3. Plant-integrated measurements
+examine the variations of CH4 and N2O emissions from individual re-
+actors and the exhaust tower. Except for the high efficiency sedimen- The air system of the underground WWTP is enclosed and the pres-
+tation tank and denitrification deep bed filter for advanced treatment, sure in the off-gas pipelines is lower than the atmospheric pressure. The
+all other units within the WWTP are located underground and enclosed. equipped air collection system facilitates centralized collection, treat-
+Each enclosed tank contains a few accessible observation ports designed ment, and discharge of waste gases. Specifically, the off-gases generated
+for daily sampling and routine equipment maintenance. by different reactors first entered the pipelines and were then filtered by
+the biological deodorizer to remove odor substances including ammonia
+and hydrogen sulfide through microbial metabolism. Subsequently, the
+2.2. Unit-based measurements off-gases reaching the emission standard (“Discharge standard of pol-
+lutants for municipal wastewater treatment plant” issued by the People’s
+The emission flux measurements were performed using a smart Republic of China) were discharged into the atmosphere through the
+chamber system connected to trace gas analyzers (LI-7810 for CH4 and exhaust tower. It should be noted that the biological deodorizer may
+LI-7820 for N2O, LI-COR, Inc.). The smart chamber is a portable, self- mitigate the emissions of CH4 and N2O at the same time. The monitoring
+powered, GPS- and Wi-Fi-enabled survey system that controls gas flow results based on the plant-integrated measurements refer to the amount
+to the analyzer and provides real-time flux calculations. The LI-7810 and of CH4 and N2O emissions released into the atmosphere after being
+LI-7820 analyzers offer high-precision and stable CH4 and N2O mea- treated by the deodorizer. Our sampling site for plant-integrated mea-
+surements based on Optical Feedback-Cavity-Enhanced Absorption surements was set at the outlet of the exhaust tower.
+Spectroscopy (OF-CEAS). After connecting the analyzers (0.8 m ×0.4 m The CH4 and N2O concentrations were measured continuously by the
+×0.1 m) to the smart chamber (0.5 m diameter, 0.61 m high, circular trace gas analyzers at the sampling site throughout the day. At the same
+shape) through a sampling tube, the chamber was placed on the water time, the flow rates of the exhaust system were monitored using a digital
+surface of each reactor with the help of a floating hood. The CH4 and multi-function measuring instrument Testo 480 (TESTO SE&Co.,
+Fig. 1. Schematic diagram of the full-scale WWTP.
+3
+
+--- Page 4 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+Germany). By combining the measured concentration and flow rates of
+E
+the off-gas, total GHG emissions were estimated for the whole plant. See EF CH4 = M CH4 (3)
+CODremoved
+Section S4 for more information.
+E
+EF N2O= TNN re2 mO (4)
+2.4. Water sampling and analysis M
+oved
+The influent and effluent were sampled every hour during the where ECH4 and EN2O represent the average CH4 and N2O emissions of
+campaign and analyzed for the chemical oxygen demand (COD), unit-based measurements or plant-integrated measurements during the
+ammonia nitrogen (NH3(cid:0) N), total nitrogen (TN) and total phosphorus sampling periods, MCODremoved and MTNremoved represent the amount of
+(TP) in accordance with the “National Environmental Protection Stan- pollutant removal during the sampling periods.
+dards” issued by the Ministry of Ecology and Environment of the Peo-
+ple’s Republic of China. In addition, the suspended solids (SS), pH, water 3. Results and discussion
+flow and water temperature were monitored via the online monitoring
+system positioned at the influent and effluent pipelines. 3.1. Emission quantification by unit-based measurements
+The CH4 and N2O emission fluxes per unit area of different process
+2.5. Emission estimations
+units are presented in Fig. 2. For CH4, its emission fluxes fluctuated by
+orders of magnitude among different process units, consistent with the
+For the unit-based measurements, the total emissions of CH4 or N2O
+gh(cid:0)1) m Cae ba as lu lere rom e en t as lo f C 2z 0e 1p 4i )e .l Tet a el o. ( e1 t9 ic9 a3 ll) y, ,Y Can 4e t a l. ( e2 n0 e1 ra4 t) a dn pd R imod ar ri ig lyu e bz y-
+(Eunit(cid:0)based,i, during the experiment were estimated by aggregating
+t . ( h r H i s g e r
+emissions from individual reactors as follows:
+∑ (cid:0) ) (cid:0) ) (cid:0) ) methanogens under anaerobic conditions (Guisasola et al., 2008).
+E unit(cid:0)based,i= F ij gm(cid:0)2s(cid:0)1 •A j m2 •3600 sh(cid:0)1 (1) However, the highest CH4 emission fluxes in this study were observed at
+the primary oxic tank (OTI) with an average emission flux of 297.75 mg
+w SN e2h eOe Sr )e eo cF f i t ij h or nee p j r t 3e h s fre oen rat cs tt o oh r re e( e g im nm fi os (cid:0)s r2i o sn (cid:0) t1fl i) ou , nAx j o if s t th he e i a t rh e G a H ofG t h(i en jc tl hu d rein ag c tC oH r (4 m an 2)d . mm 23(cid:0) (cid:0)62 2. 4h h8(cid:0) (cid:0) 1 m 1, .gf o Sml il mo (cid:0)w 2 e ahd r(cid:0) 1b r) ey sa ut nh ld te fi a he n ar ea st ee c d r ae lg se or ni st (c eFh eSa n;m a rb en pe ar ov r( e tA erG a dg C be; a fl n pu rxa v o ve f r o1a u5g s5e s.fl 3 tu0u x m eo g sf
+t S m m a . ) il s v b y e i d i
+For the plant-integrated measurements, the total emissions of CH4 (Tumendelger et al., 2018). Generally, CH4 production is quite limited
+and N2O (Eplant(cid:0)integrated,i, g h(cid:0) 1) were estimated based on the measured during the primary treatment process due to relatively low biological
+activity (Yan et al., 2014). The high CH4 emission fluxes from the AGC
+concentrations and flow rates from the exhaust tower:
+∑ (cid:0) ) (cid:0) ) (cid:0) ) and FS can be closely associated with the saturated dissolved CH4 in the
+E plant(cid:0)integrated,i= Q m3s(cid:0)1 •ΔC i gm3 •3600 sh(cid:0)1 (2) influent caused by its large generation in sewer networks, which is
+further released through mechanical disturbance in the AGC and FS
+where Q is the flow rate of the exhaust system (m3 s(cid:0) 1), ΔCi is the (Guisasola et al., 2008). Previous studies found that the concentration of
+concentration difference of the i th GHG between the measured con- dissolved CH4 in the wastewater gradually decreased along the process
+centration in the exhaust tower and the background concentration of the units of WWTPs, with the highest concentration observed in the influent
+atmospheric environment (g m(cid:0) 3). During our measurements, the and the lowest in the aerobic zones (Ribera-Guardia et al., 2019).
+equipped fans of the WWTP continuously pumped air from the envi- Therefore, the largely released CH4 in the OTI is mainly attributed to
+ronment into the off-gas collection system. Therefore, the influence of residual dissolved CH4 generated in sewer networks and CH4 produced
+the atmospheric CH4 and N2O concentration should be deducted as the in the anaerobic tank that later stripped out by mechanical aeration into
+background when calculating the whole plant emissions. See Section S4 the atmosphere (Aboobakar et al., 2014). The negative value of emission
+for more information. fluxes can be caused by the large fluctuations of the water surface
+The emission factors were defined as the released emissions by each associated with the rapid aeration.
+unit of pollutants removed. Therefore, the CH4 and N2O emission factors The units presenting high emission fluxes are remarkably similar for
+can be represented by the CH4/N2O emissions released per COD/TN N2O and CH4 although their production mechanisms are different. As
+removed (kg CH4 (kg CODremoved)(cid:0) 1 or kg N2O (kg TNremoved)(cid:0) 1) (Eqs. shown in Fig. 2(b), the emission flux of N2O also ranked the highest in
+(3), (4)). the OTI, with an average flux of 3.89 mg m(cid:0) 2 h(cid:0) 1, followed by the AGC
+Fig. 2. Emission fluxes of (a) CH4 and (b) N2O from wastewater treatment processes (‘FS’-Fine screens, ‘AGC’-Aerated grit chamber, ‘AnT’-Anaerobic tank, ‘AxTI’-
+Primary anoxic tank, ‘OTI’-Primary oxic tank, ‘AxTII’-Secondary anoxic tank, ‘OTII’-Secondary oxic tank, ‘SC’-Secondary clarifier, ‘EST’-High efficiency sedimen-
+tation tank, ‘DNBF’-Denitrification deep bed filter).
+4
+
+--- Page 5 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+with an average flux of 2.04 mg m(cid:0) 2 h(cid:0) 1. The results are consistent with high efficiency sedimentation tank and the denitrification deep bed fil-
+the findings of previous studies that aerated zones were the main N2O ter. Fig. 4 presents the quantified emission rates of CH4 and N2O
+emitting sources in WWTPs (Aboobakar et al., 2013; Ahn et al., 2010). throughout the day. Generally, both CH4 and N2O emission rates exhibit
+N2O is primarily produced during the nitrification and denitrification great fluctuations during the measurement period, following the
+processes (Yan et al., 2023). The high N2O emission flux in the OTI can changes of influent flow. The diurnal variations of CH4 and N2O emis-
+be caused by N2O generation due to oxygen inhibited denitrification, sion rates are similar, especially between 6:00 and 18:00. Both of their
+N2O as a by-product during nitrification, and the intensive air-stripping emission rates peak at around 13:00 when the influent flow is highest
+due to aeration which transfers dissolved N2O in liquid phase into the (2012.83 g/h for CH4 and 72.11 g/h for N2O). The lowest emission rate
+atmosphere (Ren et al., 2013). The emission fluxes of N2O in the occurs at around 6:00 in the morning for CH4 with an average value of
+anaerobic tank (AnT) and the primary anoxic tank (AxTI) were much 1220.61 g/h and 0:00 for N2O with an average value of 37.98 g/h. The
+smaller than that in the OTI. The results may indicate that the N2O close correlations between emission rates and influent flow indicate that
+emissions were primarily produced in the OTI instead of transporting more influent water brings more COD and TN load into the WWTP and
+from the previous non-aerated zones, AnT and AxTI (Massara et al., thus results in higher GHG emissions associated with biological
+2017; Wang et al., 2016). Previous studies also found that emission pollutant removal processes (Kosonen et al., 2016). The detailed emis-
+fluxes from the anaerobic and anoxic zones contributed little to total sion data can be found in Table S4.
+N2O emissions in full-scale WWTPs since there is no gas flow and only
+surface mass transfer is occurring (Aboobakar et al., 2013; Yu et al., 3.3. Comparison between unit-based and plant-integrated measurements
+2010). High N2O fluxes were also observed from the aerated grit for emission accounting
+chamber (AGC), consistent with the findings of Czepiel et al. (1995) and
+Kyung et al. (2015). The N2O emissions from the AGC can be attributed The CH4 and N2O emission factors were determined for both unit-
+to the removal of nutrients by the primary treatment (Kyung et al., based and plant-integrated measurements based on the quantified
+2015). emission rates and the recorded pollutant removal of the plant (see
+The CH4 and N2O emissions from each unit were quantified based on details in Section 2.5). The average emission factors obtained by unit-
+the measured emission fluxes and the area of each unit (Fig. 3). The OTI based measurements are 0.00276 kg CH4 (kg CODremoved)(cid:0) 1 and
+was the largest contributor to GHG emissions in the wastewater treat- 0.00020 kg N2O (kg TNremoved)(cid:0) 1 (Table 1). For plant-integrated mea-
+ment processes with an average emission rate of 411.86 g/h for CH4 and surements, the average emission factors are 0.00950 kg CH4 (kg
+5.39 g/h for N2O. Other aerated zones such as the FS and the AGC were CODremoved)(cid:0) 1 and 0.00182 kg N2O (kg TNremoved)(cid:0) 1, much higher than
+also important GHG emitting sources. But the emissions of CH4 and N2O those of unit-based measurements. Briefly, the emission rates acquired
+from these units were considerably lower than those from the OTI by unit-based measurements are 3.6–54.3 % of plant-integrated mea-
+probably caused by the weak biological pollutant removal processes, the surements for CH4 and 0–30.6 % for N2O, as shown in Fig. 5. The dif-
+lower aeration intensity, and the limited water-air interface area. As ference in emission accounting between unit-based and plant-integrated
+described before, substantial amounts of CH4 and N2O can be produced, measurements can be caused by different survey timeframes of the ap-
+dissolved and accumulated in the biological treatment processes and proaches and the overlooked individual on-site emission sources during
+stripped from the liquid phase to the atmosphere by aeration. Therefore, unit-based measurements. For example, limited by the field operating
+aerobic zones are important units for GHG emissions mitigation in conditions, the lifting pump and the sludge pond were not included in
+municipal WWTPs. The emissions of subsequent reactors following the our unit-based measurements, which could lead to an underestimation
+OTI, such as the AxTII, OTII and SC, decreased significantly and of the plant’s total emissions. In addition, the flux measurements of the
+contributed a negligible fraction in total emissions. The detailed emis- reactors are subject to the opening of the cover plates. Together with the
+sion data can be found in Tables S2 and S3. unstable water flow and strong turbulence, the unit-based measure-
+ments may not represent well the emissions from the whole plant. In
+3.2. Emission quantification based on plant-integrated measurements comparison, the plant-integrated measurements covered the emissions
+from all on-site sources through the off-gas pipelines, thus reducing the
+The emission rates of CH4 and N2O during wastewater treatment potential uncertainty in emission accounting of the whole plant (Delre
+processes were also quantified based on their measured concentrations et al., 2018; Jensen et al., 2017; Samuelsson et al., 2018).
+in the off-gas pipe of the whole plant, the flow rates, and other sup- Previous studies have also shown that the CH4 and N2O emission
+porting parameters according to Sections 2.4 and S4. The off-gas pipe of factors obtained by different approaches may vary significantly. Fig. 6
+the plant covers the off-gas from almost all unit processes except for the (a) compared the CH4 emission factors acquired in our study with those
+reported in literatures. The results indicate that the CH4 emission factors
+obtained by different studies and different methods can vary over
+several orders of magnitude, from 0.00016 to 0.0886 kg CH4 (kg
+CODremoved)(cid:0) 1 (Aboobakar et al., 2014; Czepiel et al., 1993; Delre et al.,
+2017; Rodriguez-Caballero et al., 2014; Yan et al., 2014; Yoshida et al.,
+2014). Most studies acquired the emission factors through unit-based
+measurements such as the flux chamber method and the emission fac-
+tors were at the lower end of the range. The highest CH4 emission factors
+were observed at a Danish WWTP using the ground-based sensing
+approach which combined a controlled release of tracer gas from the
+plant with downwind concentration measurements (Yoshida et al.,
+2014). Moreover, the CH4 emission factors measured from the off-gas
+collection system in our study and Daelman et al. (2012) also exhibi-
+ted higher values than those from flux chamber measurements.
+Fig. 6(b) presents the N2O emission factors of our study and those
+reported in literatures. Similar to CH4, most N2O emission factors were
+gained based on the flux chamber method, with the values varying from
+0.00003 to 0.044 kg N2O (kg TNremoved)(cid:0) 1 (Ahn et al., 2010; Foley et al.,
+Fig. 3. The quantified CH4 and N2O emissions from each unit. 2010; Ren et al., 2013; Ribera-Guardia et al., 2019; Valkova et al., 2021;
+5
+
+--- Page 6 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+Fig. 4. The variations of CH4 and N2O emission rates by plant-integrated measurements together with the influent flow over time.
+Table 1
+Comparison of emission rates and emission factors by different methods.
+Methods GHG Emission rate (kg•h(cid:0)1) Emission factor
+(kg CH4 (kg CODremoved)(cid:0)1
+or kg N2O (kg TNremoved)(cid:0)1)
+Range Average value Range Average value
+Unit-based CH4 0.044–1.097 0.477 0.000079–0.0147 0.00276
+measurements N2O (cid:0) 0.000072-0.022 0.006 (cid:0) 0.000002–0.0013 0.00020
+Plant-integrated measurements CH4 1.221–2.019 1.643 0.00220–0.0271 0.00950
+N2O 0.038–0.072 0.051 0.00090–0.0043 0.00182
+Fig. 5. Emission rate comparison of (a) CH4 and (b) N2O between unit-based and plant-integrated measurements (The number above the column indicates the
+maximum emission rate of CH4 or N2O and the number below indicates the minimum. The number besides the dotted arrow represents the percentage of the emission
+rate obtained by the unit-based measurements as compared to the plant-integrated measurements.)
+Wang et al., 2016). The relatively higher emission factors of Ahn et al. Tables S5 and S6 for detailed emission factors collected from other
+(2010) were measured from the activated sludge processes. Generally, literatures).
+the plant-integrated N2O emission factors obtained using either the TDM The comparisons among different approaches to quantify CH4 and
+or the off-gas concentration measuring method are in the higher range of N2O emission factors indicate that the plant-integrated measurements
+the reported values. The N2O emission factors of our study are lower using the TDM or off-gas concentration measuring method tend to
+than those of other research studies. This may be caused by different provide more comprehensive emission accounting of the whole plant
+operating conditions and different organic loads of WWTPs (see than the unit-based measurements using the flux chamber method.
+6
+
+--- Page 7 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+are quite limited in literatures compared with the unit-based measure-
+ments. We highlight the need of more plant-integrated measurements in
+future studies for more accurate emission accounting of WWTPs.
+4. Conclusions
+Understanding and quantifying GHG emissions from wastewater
+treatment is critically important for emission reduction and finally
+achieving carbon neutrality. CH4 and N2O emissions from biological
+processes have been demonstrated to contribute a large fraction in total
+carbon footprint of WWTPs. This study presents a comprehensive survey
+on CH4 and N2O emission monitoring through two measuring ap-
+proaches at an underground municipal WWTP in southern China using
+online instruments. The unit-based measurements using a flux chamber
+focused on the emissions from individual process units of the WWTP
+whereas the plant-integrated measurements quantified the emissions
+through the off-gas collection systems of the whole plant. The main
+conclusions of this study are:
+• The results of unit-based measurements showed that aerobic zones
+including the oxic tank and the aerated grit chamber are important
+GHG emission sources. Around 10 times higher emissions were found
+in plant-integrated measurements than unit-based measurements,
+which was likely due to the omission of individual on-site emission
+sources using the latter method and different survey timeframes of
+the two approaches.
+• The CH4 and N2O emission factors measured in this study fell within
+the lower range reported in literatures, probably caused by different
+influent quality and different operational conditions of the plants.
+• Plant-integrated measurements serve as a feasible method when the
+primary goal is to quantify overall GHG emissions of WWTPs.
+However, the plant-integrated measurements in this study were
+conducted as a short-term monitoring attempt to explore the feasi-
+bility of the approach. A long-term study in the future will help
+reducing the uncertainties of emission quantification.
+• Furthermore, limitations in plant-specific local conditions may
+hinder the application of plant-integrated measurements, prompting
+the use of a bottom-up approach. This involves identifying and
+quantifying the largest emitters at the unit-based level and then
+aggregating these individual sources. Nevertheless, the unit-based
+method may overlook unknown emission sources. In this context,
+combining plant-integrated measurements with individual process
+unit assessments can not only pinpoint the emission sources but also
+enhance the accuracy of total GHG emission accounting of WWTPs.
+This integrated approach should be highly recommended for GHG
+Fig. 6. Literature comparison of (a) CH4 and (b) N2O emission factors. emission inventories, environmental assessments, and mitigation
+policy documentation.
+Plant-integrated measurements include emissions from all on-site sour-
+ces and thus reduce the uncertainty caused by ignoring individual CRediT authorship contribution statement
+sources during unit-based measurements (Reinelt et al., 2017;
+Samuelsson et al., 2018). For example, the TDM quantifies the emission Yutong Chong: Writing – original draft, Investigation. Haiyan Li:
+rates of the whole plant by measuring the downwind plumes of both CH4 Writing – review & editing, Writing – original draft, Supervision,
+and N2O coupled with a mobile, highly sensitive analytical platform Methodology, Conceptualization. Tianyu Pan: Writing – original draft,
+without even locating specific on-site emission sources (Delre et al., Data curation. Liangfang You: Data curation. He Du: Data curation.
+2017). The off-gas concentration measuring method covers total plant Bowen Yu: Conceptualization. Juanjuan Chen: Writing – review &
+emissions by measuring from the tail pipes. However, compared with editing. Nanqi Ren: Writing – review & editing. Lu Lu: Writing – review
+the unit-based measurements using a flux chamber, it is difficult to & editing, Conceptualization.
+identify the major CH4 and N2O generation pathways and the spatial
+variations of different emission units by relying only on the plant- Declaration of competing interest
+integrated measurements (Daelman et al., 2015). Therefore, plant-
+integrated measurements will be the better choice for emission quanti- The authors declare that they have no known competing financial
+fication of the whole plant whereas unit-based measurements provide interests or personal relationships that could have appeared to influence
+insights into the emission characteristics of individual units which is the work reported in this paper.
+important for mitigating the emissions of WWTPs by optimization of
+operating conditions. In addition, the plant-integrated measurements
+7
+
+--- Page 8 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+Data availability Gålfalk, M., Påledal, S.N., Sehl´en, R., Bastviken, D., 2022. Ground-based remote sensing
+of CH4 and N2O fluxes from a wastewater treatment plant and nearby biogas
+production with discoveries of unexpected sources. Environ. Res. 204, 111978
+Data will be made available on request. https://doi.org/10.1016/j.envres.2021.111978.
+Guisasola, A., De Haas, D., Keller, J., Yuan, Z., 2008. Methane formation in sewer
+Acknowledgements systems. Water Res. 42, 1421–1430. https://doi.org/10.1016/j.watres.2007.10.014.
+Jensen, M.B., Møller, J., Mønster, J., Scheutz, C., 2017. Quantification of greenhouse gas
+emissions from a biological waste treatment facility. Waste Manag. 67, 375–384.
+This work was supported by the Science Fund for Creative Research https://doi.org/10.1016/j.wasman.2017.05.033.
+Groups of the National Natural Science Foundation of China (52321005), Kosonen, H., Heinonen, M., Mikola, A., Haimi, H., Mulas, M., Corona, F., Vahala, R.,
+2016. Nitrous oxide production at a fully covered wastewater treatment plant:
+Shenzhen Science and Technology Program (RCBS20210609103731062,
+results of a long-term online monitoring campaign. Environ. Sci. Technol. 50,
+KCXST20221021111404011, KQTD20190929172630447, JCYJ202103 5547–5554. https://doi.org/10.1021/acs.est.5b04466.
+24124209025 and GXWD20220811173949005), and Natural Science Kyung, D., Kim, M., Chang, J., Lee, W., 2015. Estimation of greenhouse gas emissions
+from a hybrid wastewater treatment plant. J. Clean. Prod. 95, 117–123. https://doi.
+Foundation of Guangdong Province (2021A1515110887, 2022A151501
+org/10.1016/j.jclepro.2015.02.032.
+2016). Li, L., Wang, X., Miao, J., Abulimiti, A., Jing, X., Ren, N., 2022. Carbon neutrality of
+wastewater treatment - a systematic concept beyond the plant boundary.
+Environmental Science and Ecotechnology 11, 100180. https://doi.org/10.1016/j.
+Appendix A. Supplementary data
+ese.2022.100180.
+Li, H., You, L., Du, H., Yu, B., Lu, L., Zheng, B., Zhang, Q., He, K., Ren, N., 2024. Methane
+Supplementary data to this article can be found online at https://doi. and nitrous oxide emissions from municipal wastewater treatment plants in China: a
+org/10.1016/j.scitotenv.2024.172598. plant-level and technology-specific study. Environmental Science and Ecotechnology
+20, 100345. https://doi.org/10.1016/j.ese.2023.100345.
+Lu, X., Tong, D., He, K., 2023. China’s carbon neutrality: an extensive and profound
+References systemic reform. Front. Environ. Sci. Eng. 17, 14. https://doi.org/10.1007/s11783-
+023-1614-3.
+Massara, T.M., Malamis, S., Guisasola, A., Baeza, J.A., Noutsopoulos, C., Katsou, E.,
+Aboobakar, A., Cartmell, E., Stephenson, T., Jones, M., Vale, P., Dotro, G., 2013. Nitrous
+2017. A review on nitrous oxide (N2O) emissions during biological nutrient removal
+oxide emissions and dissolved oxygen profiling in a full-scale nitrifying activated
+sludge treatment plant. Water Res. 47, 524–534. https://doi.org/10.1016/j. from municipal wastewater and sludge reject water. Sci. Total Environ. 596–597,
+watres.2012.10.004. 106–123. https://doi.org/10.1016/j.scitotenv.2017.03.191.
+Reinelt, T., Delre, A., Westerkamp, T., Holmgren, M.A., Liebetrau, J., Scheutz, C., 2017.
+Aboobakar, A., Jones, M., Vale, P., Cartmell, E., Dotro, G., 2014. Methane emissions from
+Comparative use of different emission measurement approaches to determine
+aerated zones in a full-scale nitrifying activated sludge treatment plant. Water Air
+methane emissions from a biogas plant. Waste Manag. 68, 173–185. https://doi.org/
+Soil Pollut. 225, 1814. https://doi.org/10.1007/s11270-013-1814-8.
+10.1016/j.wasman.2017.05.053.
+Ahn, J.H., Kim, S., Park, H., Rahm, B., Pagilla, K., Chandran, K., 2010. N2O emissions
+from activated sludge processes, 2008(cid:0) 2009: results of a National Monitoring Ren, Y.G., Wang, J.H., Li, H.F., Zhang, J., Qi, P.Y., Hu, Z., 2013. Nitrous oxide and
+Survey in the United States. Environ. Sci. Technol. 44, 4505–4511. https://doi.org/ methane emissions from different treatment processes in full-scale municipal
+wastewater treatment plants. Environ. Technol. 34, 2917–2927. https://doi.org/
+10.1021/es903845y.
+10.1080/09593330.2012.696717.
+Baresel, C., Andersson, S., Yang, J., Andersen, M.H., 2016. Comparison of nitrous oxide
+Ribera-Guardia, A., Bosch, L., Corominas, L., Pijuan, M., 2019. Nitrous oxide and
+(N2O) emissions calculations at a Swedish wastewater treatment plant based on
+methane emissions from a plug-flow full-scale bioreactor and assessment of its
+water concentrations versus off-gas concentrations. Adv. Clim. Chang. Res. 7,
+185–191. https://doi.org/10.1016/j.accre.2016.09.001. carbon footprint. J. Clean. Prod. 212, 162–172. https://doi.org/10.1016/j.
+Buhler, M., Hani, C., Ammann, C., Bronnimann, S., Kupper, T., 2022. Using the inverse jclepro.2018.11.286.
+Rodriguez-Caballero, A., Aymerichi, I., Poch, M., 2014. Evaluation of process conditions
+dispersion method to determine methane emissions from biogas plants and
+triggering emissions of green-house gases from a biological wastewater treatment
+wastewater treatment plants with complex source configurations. Atmos. Environ-X
+system. Sci. Total Environ. 493, 384–391. https://doi.org/10.1016/j.
+13, 100161. https://doi.org/10.1016/j.aeaoa.2022.100161.
+scitotenv.2014.06.015.
+Czepiel, P.M., Crill, P.M., Harriss, R.C., 1993. Methane emissions from municipal
+wastewater treatment processes. Environ. Sci. Technol. 27, 2472–2477. https://doi. Samuelsson, J., Delre, A., Tumlin, S., Hadi, S., Offerle, B., Scheutz, C., 2018. Optical
+technologies applied alongside on-site and remote approaches for climate gas
+org/10.1021/es00048a025.
+emission quantification at a wastewater treatment plant. Water Res. 131, 299–309.
+Czepiel, Peter, Crill, Patrick, Harriss, Robert, 1995. Nitrous oxide emissions from
+municipal wastewater treatment. Environ. Sci. Technol. 29, 2352–2356. https://doi. https://doi.org/10.1016/j.watres.2017.12.018.
+Shao, Y., Xu, Y., 2023. Challenges and countermeasures of urban water systems against
+org/10.1021/es00009a030.
+climate change: a perspective from China. Front. Environ. Sci. Eng. 17, 156. https://
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van
+doi.org/10.1007/s11783-023-1756-3.
+Loosdrecht, M.C.M., 2012. Methane emission during municipal wastewater
+treatment. Water Res. 46, 3657–3670. https://doi.org/10.1016/j. Song, C., Zhu, J.-J., Willis, J.L., Moore, D.P., Zondlo, M.A., Ren, Z.J., 2023. Methane
+emissions from municipal wastewater collection and treatment systems. Environ.
+watres.2012.04.024.
+Sci. Technol. acs.est.2c04388 https://doi.org/10.1021/acs.est.2c04388.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, L.G.J.M., Volcke, E.I.P., van
+Tumendelger, A., Alshboul, Z., Lorke, A., 2018. Methane and nitrous oxide emission from
+Loosdrecht, M.C.M., 2013. Methane and nitrous oxide emissions from municipal
+wastewater treatment – results from a long-term study. Water Sci. Technol. 67, different treatment units of municipal wastewater treatment plants in Southwest
+2350–2355. https://doi.org/10.2166/wst.2013.109. Germany. PLOS 17. https://doi.org/10.1371/journal.pone.0209763.
+Valkova, T., Parravicini, V., Saracevic, E., Tauber, J., Svardal, K., Krampe, J., 2021.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, U.G.J.M., Volcke, E.I.P., van
+A method to estimate the direct nitrous oxide emissions of municipal wastewater
+Loosdrecht, M.C.M., 2015. Seasonal and diurnal variability of N2O emissions from a
+full-scale municipal wastewater treatment plant. Sci. Total Environ. 536, 1–11. treatment plants based on the degree of nitrogen removal. J. Environ. Manage. 279,
+111563 https://doi.org/10.1016/j.jenvman.2020.111563.
+https://doi.org/10.1016/j.scitotenv.2015.06.122.
+Delre, A., Mønster, J., Scheutz, C., 2017. Greenhouse gas emission quantification from Wang, J., Zhang, J., Xie, H., Qi, P., Ren, Y., Hu, Z., 2011. Methane emissions from a full-
+scale a/a/O wastewater treatment plant. Bioresour. Technol. 102, 5479–5485.
+wastewater treatment plants, using a tracer gas dispersion method. Sci. Total
+Environ. 605–606, 258–268. https://doi.org/10.1016/j.scitotenv.2017.06.177. https://doi.org/10.1016/j.biortech.2010.10.090.
+Delre, A., Mønster, J., Samuelsson, J., Fredenslund, A.M., Scheutz, C., 2018. Emission Wang, Y., Lin, X., Zhou, D., Ye, L., Han, H., Song, C., 2016. Nitric oxide and nitrous oxide
+emissions from a full-scale activated sludge anaerobic/anoxic/oxic process. Chem.
+quantification using the tracer gas dispersion method: the influence of instrument,
+tracer gas species and source simulation. Sci. Total Environ. 634, 59–66. https://doi. Eng. J. 289, 330–340. https://doi.org/10.1016/j.cej.2015.12.074.
+Yan, X., Li, L., Liu, J., 2014. Characteristics of greenhouse gas emission in three full-scale
+org/10.1016/j.scitotenv.2018.03.289.
+Du, M., Zhu, Q., Wang, X., Li, P., Yang, B., Chen, H., Wang, M., Zhou, X., Peng, C., 2018. wastewater treatment processes. J. Environ. Sci. 26, 256–263. https://doi.org/
+10.1016/S1001-0742(13)60429-5.
+Estimates and predictions of methane emissions from wastewater in China from
+2000 to 2020. Earth Future 6, 252–263. https://doi.org/10.1002/2017EF000673. Yan, X., Qiu, D., Zheng, S., Cheng, K., Han, Y., Sun, J., Su, X., 2019. Spatial and temporal
+distribution of greenhouse gas emissions from municipal wastewater treatment
+Du, W.-J., Lu, J.-Y., Hu, Y.-R., Xiao, J., Yang, C., Wu, J., Huang, B., Cui, S., Wang, Y.,
+Li, W.-W., 2023. Spatiotemporal pattern of greenhouse gas emissions in China’s plants in China from 2005 to 2014. Earth’s Future 7, 340–350. https://doi.org/
+wastewater sector and pathways towards carbon neutrality. Nat Water 1, 166–175. 10.1029/2018EF001058.
+Yan, X., Shen, X., Wang, J., Zhuang, J., Wang, Y., Yao, J., Liu, H., Liu, Y., Shapleigh, J.P.,
+https://doi.org/10.1038/s44221-022-00021-0.
+Li, W., 2023. Higher N2O production in sequencing batch reactors compared to
+Foley, J., de Haas, D., Yuan, Z., Lant, P., 2010. Nitrous oxide generation in full-scale
+biological nutrient removal wastewater treatment plants. Water Res. 44, 831–844. continuous stirred tank reactors: effect of feast-famine cycles. Front. Environ. Sci.
+Eng. 17, 50. https://doi.org/10.1007/s11783-023-1650-z.
+https://doi.org/10.1016/j.watres.2009.10.033.
+Yoshida, H., Monster, J., Scheutz, C., 2014. Plant-integrated measurement of greenhouse
+Fredenslund, A.M., Hinge, J., Holmgren, M.A., Rasmussen, S.G., Scheutz, C., 2018. On-
+gas emissions from a municipal wastewater treatment plant. Water Res. 61,
+site and ground-based remote sensing measurements of methane emissions from four
+biogas plants: a comparison study. Bioresour. Technol. 270, 88–95. https://doi.org/ 108–118. https://doi.org/10.1016/j.watres.2014.05.014.
+Yu, R., Kampschreur, M.J., Loosdrecht, M.C.M.V., Chandran, K., 2010. Mechanisms and
+10.1016/j.biortech.2018.08.080.
+specific directionality of autotrophic nitrous oxide and nitric oxide generation during
+8
+
+--- Page 9 ---
+Y. Chong et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t929(2024)172598
+transient anoxia. Environ. Sci. Technol. 44, 1313–1319. https://doi.org/10.1021/ municipal waste water treatment plant. Atmos. Meas. Tech. 8, 2853–2867. https://
+es902794a. doi.org/10.5194/amt-8-2853-2015.
+Yver Kwok, C.E., Müller, D., Caldow, C., Leb`egue, B., Mønster, J.G., Rella, C.W., Zhao, X., Jin, X.K., Guo, W., Zhang, C., Shan, Y.L., Du, M.X., Tillotson, M.R., Yang, H.,
+Scheutz, C., Schmidt, M., Ramonet, M., Warneke, T., Broquet, G., Ciais, P., 2015. Liao, X.W., Li, Y.P., 2019. China’s urban methane emissions from municipal
+Methane emission estimates using chamber and tracer release experiments for a wastewater treatment plant. Earth’s Future 7, 480–490. https://doi.org/10.1029/
+2018EF001113.
+9

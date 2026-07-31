@@ -1,0 +1,469 @@
+--- Page 1 ---
+Journal of Cleaner Production 509 (2025) 145592
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Methane emissions features from China’s municipal wastewater
+management, based on the whole-process evaluation of collection,
+treatment and discharge
+Han Gaoa, Daming Weia,*, Peng Zhanga,b, Wenjing Zhanga,b, Gang Yana,b, Wenbo Xuea,
+Yue Zhaoa,c, Weili Yea,d, Liqing Guoa,b, Shuojia Penga
+aChinese Academy of Environmental Planning, Ministry of Ecology and Environment, Beijing, 100041, China
+bCenter of Environmental Pollution and Greenhouse Gases Co-control, Chinese Academy of Environmental Planning, Beijing, 100041, China
+cYellow River Ecology and Environment Protection Center, Chinese Academy of Environmental Planning, Beijing, 100041, China
+dCenter for Beijing-Tianjin-Hebei Regional Environment and Ecology, Chinese Academy of Environmental Planning, Beijing, 100041, China
+A R T I C L E I N F O A B S T R A C T
+Handling Editor: Shen Qu Municipal wastewater system, significantly influencing water environment via centralized treatment and
+discharge, becomes a major methane emission source. Anthropogenic organic matter degrades and transfers into
+Keywords: methane throughout whole processes of wastewater collection, treatment, discharge and sludge disposal, yet the
+Methane emission overall emissions, major contributors, spatial variations, and the synergy between pollutant elimination and
+Municipal wastewater system
+emission mitigation remain rarely discussed. In this study we report a nationwide city-resolved estimate of
+Whole process analysis
+methane emission from municipal wastewater system, involving (1) sewer networks and uncollected wastewater;
+Synergistic mitigation
+(2) municipal wastewater treatment plants; (3) treated effluents; (4) sludge disposal, based on bottom-up
+analysis with firm-level active data and localized emission factor. We demonstrated that methane emissions
+from municipal wastewater system in China was 911 Gg, while wastewater collection (56.8 %) and sludge
+disposal (34.6 %) were the dominant contributors to nationwide emissions, which were generally excluded from
+previous estimations. Driven by regional climate, economic and infrastructure differences, major contributors for
+regions and cities showed spatial discrepancies. A negative linear relationship was identified between the sewage
+collection rate and per capita methane emissions in wastewater sector at city-level, which was explained by
+sewer management features linked to influent COD concentration, wastewater transportation and treatment
+efficiencies. Fine maintenance of sewer pipelines, appropriate match of sewers and treatment facilities, transition
+in sludge disposal methods may serve to realize synergistic mitigation of pollution and methane emission. This
+study highlighted the potential to achieve environment and climate co-benefits within municipal wastewater
+system, providing scientific basis and policy foresight for sustainable urbanization progress.
+1. Introduction recognized as a key source of anthropogenic methane emission
+(Karakurt et al., 2012; Yusuf et al., 2012; Zhang et al., 2021). The
+In recent years, methane (CH4) received a major attention among all centralized collection and treatment system reduces excessive sewage
+the greenhouse gases (GHGs), as methane emissions have a much larger organic content loads for public health and ecosystem protection, yet
+global warming potential than CO2 (Dlugokencky, 2021; IPCC, 2021; provides abundant anaerobic conditions for methane production
+Ferna´ndez-Amador et al., 2020; Myhre et al., 2013; Nisbet et al., 2019). (Daelman et al., 2012; Guisasola et al., 2008; Liu et al., 2015b; Shirai
+CH4 emissions from inland waters significantly affect global climate, et al., 2003). Effluents, sewer overflows or unauthorized discharges pose
+especially highly polluted areas (Cui et al., 2024; Fan et al., 2024; deterioration and eutrophication threats to aquatic environment (Liao
+Rocher-Ros et al., 2023). Municipal wastewater system, which accounts et al., 2015; Qiu et al., 2010; Xie et al., 2012; Zhang et al., 2021),
+for approximately half of pollutant input to water environment, is also increasing the potential for methane emissions from downstream
+* Corresponding author. No.15 Shixingdajie Rd., Shijingshan Dist., Beijing, China.
+E-mail address: weidm@caep.org.cn(D. Wei).
+https://doi.org/10.1016/j.jclepro.2025.145592
+Received 12 November 2024; Received in revised form 29 March 2025; Accepted 24 April 2025
+Available online 25 April 2025
+0959-6526/© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+(Brigham et al., 2019; Kan et al., 2024; Peterse et al., 2024; Wang et al., efficacy of these measures highly relies on regional technological ca-
+2015; Yu et al., 2025; Zhu et al., 2024). As a developing country, a dual pabilities and funding inputs, rendering their implementation on a
+challenge lies for China to balance the ongoing urbanization process boarder scale challenging. For wastewater pollution control, advanced
+with mitigating its environmental and climate impacts (Cui et al., 2024; treatment technologies such as high-efficiency sedimentation, nano-
+Fan et al., 2024; Zhu and Wang, 2024). This urgency requires a filtration, constructed wetlands, were proposed to enhance pollutant
+comprehensive overview of methane emissions from wastewater system, removal and comply with high water quality demands (Liu et al., 2021;
+as well as synergistic optimization strategies targeting not only methane Tarpani and Azapagic, 2023). However, these technologies might
+emission mitigation but also improvement to sustainable wastewater inevitably exacerbate climate impacts through increased GHG emissions
+system and water environment quality. (Cao et al., 2025; Chen et al., 2023). Given the complex interplay be-
+Accurate estimation of methane emissions from wastewater systems tween methane emissions and pollution mitigation, compounded by the
+is crucial for effective strategic decision. The Intergovernmental Panel variation of wastewater systems practices across regions, there is an
+on Climate Change (IPCC) has provided a methodology for estimation urgent need to conduct integrative research on the synergy effect and to
+based on emission factors (EFs) (IPCC, 2006), which has become the develop multi-objective strategies on this basis.
+mainstream approach for assessing methane emissions from wastewater In light of aforementioned research gaps, existing studies were
+system. Macro-accounted methods using default EF values were often insufficient to provide comprehensive methane emission estimates for
+adopted in national GHG emission inventories for wastewater sector entire wastewater systems and offer policy recommendations to achieve
+(NDRC, 2018; EPA, 2022). However, these methods failed to involve the synergistic pollutant and emission reductions. To address these issues,
+highly diverse conditions of construction, operation and natural influ- the main purposes of this study were: (1) to conduct a nationwide whole-
+ence factors into estimation, resulted in lack of guidance for specific process estimation on methane emissions from China’s municipal
+practices. Instead, bottom-up analysis has been developed to incorpo- wastewater system, including wastewater collection, treatment,
+rate these factors into methane emission estimation, based on discharge and sludge disposal, based on bottom-up analysis using
+high-resolution operational data (Du et al., 2018; Ma et al., 2015; Pan localized EFs for 8986 WWTPs and 328 cities; (2) to identify the
+et al., 2011; Wang et al., 2011; Wei et al., 2020; Zhao et al., 2019) and dominant contributors of emissions at the national and regional levels,
+selected EF values (Du et al., 2023; Wang et al., 2022) to reflect the address the correlation between pollution reduction and methane
+individual differences of wastewater systems. This method has displayed emission, thereby providing specific guidance for achievable optimiza-
+the superiority to reduce estimation uncertainty, providing detailed data tion methods towards synergetic environment and climate benefits.
+for in-depth analysis and formulation, as well as compensating for the These findings offered scientific basis and policy foresight for integrated
+limitations of macro-level estimation methods. methane emission reduction and pollutant mitigation of municipal
+The boundaries of estimation also have a significant influence on wastewater systems, contributing to the sustainable development of
+understanding the overall methane emission from the wastewater sys- future urbanization.
+tem. Previous estimates mainly considered emissions from treatment
+process and treated effluents in wastewater treatment plants (WWTPs) 2. Materials and methods
+(Du et al., 2018; Ma et al., 2015; Pan et al., 2011; Wang et al. 2011,
+2022; Wei et al., 2020; Zhao et al., 2019), in compliance with the scope 2.1. System boundary and data acquisition
+recommended by IPCC (IPCC, 2021). Nevertheless, to view from the
+perspective of carbon flow in municipal wastewater (Chen et al., 2024), The system boundary included four sectors: (1) wastewater collec-
+the organic matter undergoes loss during sewage transportation in tion, to analyze direct emissions from organic carbon decomposition in
+sewers (Guisasola et al., 2008; Jin et al., 2019; Liu et al., 2015a) and sewers and from uncollected wastewater discharge; (2) wastewater
+ultimately meets complete degradation during sludge disposal (Lu et al., treatment, for direct methane emissions from treatment facilities in
+2019; Wei et al., 2020), both of which are substantial sources of methane municipal WWTPs; (3) wastewater discharge, for emissions caused by
+emission yet excluded from previous research framework and analyzed effluent discharge from municipal WWTPs; (4) sludge disposal, to
+as separate parts. Studies concentrating on single perspective of carbon analyze methane emissions from three major sludge disposal pathways
+emissions from sludge disposal (Pan et al., 2023; Yu et al., 2024) or in China: landfilling, incineration and composting (Fig. 1). Urban septic
+wastewater collection system (Jin et al., 2019; Liu et al., 2015a; Zhu tanks were excluded due to the lack of data, even though the significant
+et al., 2024) proposed advanced estimation tools (e.g., assessment contribution of methane from pretreatment systems were widely re-
+models, empirical equations). However, these studies overlooked the ported (Liao et al., 2015). Owing to the limited implementation of
+influence on specific practices of wastewater treatment as upstream or anaerobic digestion in China, emissions from anaerobic digestion were
+downstream, which would lead to differences in influent concentration presumed to be negligible and excluded from subsequent estimation.
+and sludge organic matter content, resulting in insufficient systematic Construction and operation data in 2020 were collected for 8986
+analysis of emission reduction strategies. WWTPs nationwide in China (Fig. S1, Table S1), obtained from pollution
+In the face of global challenge regarding environmental pollution source statistics and field survey. The dataset included the locations,
+and climate change, the synergy between pollution control and GHGs designed capacity, treated wastewater volume, influent and effluent
+mitigation, along with the cost-effective strategies thereby arising, has water quality, receiving waterbody, mass of sludge and disposal
+garnered considerable attention (Adnan et al., 2024; Santis et al., 2024; methods, which were used to calculate methane emissions from treat-
+Yimrattanabovorn et al., 2024; Zhang et al., 2022a). The Action Plan for ment, discharge and sludge disposal sectors for each individual WWTP.
+Methane Emission Control, issued in 2023, emphasized the necessity of As for WWTPs processing mixed municipal and industrial wastewater,
+coordinating methane emission mitigation with water pollutant control domestic wastewater volume was used following the suggestions from
+(MEE, 2023). However, within the wastewater system, the potential IPCC (IPCC, 2019). Information for sewers in 328 cities (prefecture-level
+synergies remain underexplored and poorly understood. Existing studies cities and municipality) was derived from China Urban Construction
+mainly focused on single aspects of wastewater pollution control or GHG Statistical Yearbook in the same year to calculate methane emission from
+emission reduction, with proposed strategies lacking sufficient integra- sewers in each prefecture-level city. Pollutant generation rates from
+tion to achieve dual goals. Strategies aiming at decarbonizing the urban populations for different regions were adopted from The Hand-
+wastewater system emphasized energy saving and recovery through book of Coefficients in the Second Pollution Sources Census. Other statistical
+technological innovation as a key measure towards carbon reduction data, such as annual rainfall and urban population, was collected from
+(Hall et al., 2011; Liu et al., 2024; Yang et al., 2024; Zheng and Lam, China Statistical Yearbook. Chemical Oxygen Demand (COD) was used in
+2024), but without targeted pollution control benefits. Nevertheless, the this study as an indicator of mass change of organic carbon in municipal
+2
+
+--- Page 3 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+Fig. 1. Study boundary and logistic figure. Emissions from wastewater collection sector, including sewers and uncollected wastewater, were estimated for cities.
+Emissions from WWTPs, treated effluent discharge and sludge disposal were calculated at firm-level.
+wastewater. CH4,i: total methane emission from wastewater system in the ith city
+(Mg/y)
+2.2. Determination of EF values CH4SW,i, CH4UCL,i: methane emissions caused by organic carbon
+degradation in sewer network and uncollected wastewater in the ith
+The choice of EFs, which represent the amount of methane emission city (Mg/y)
+generated from various activities for each kilogram of pollutant treated CH4TR,i,j, CH4EF,i,j: methane emission from treatment process and
+or discharged, significantly impacts emission calculation result in terms effluent discharge in the jth WWTPs in the ith city (Mg/y)
+of scientific validity and accuracy. Localized EF values have been widely CH4LF,i,j,CH4IN,i,j,CH4CP,i,j: methane emission from landfill, incinera-
+reported for optimization based on case studies and field monitoring, tion and composting by sludge from the jth WWTPs in the ith city
+which however exhibited substantial inconsistencies due to diverse (Mg/y)
+emission sources and monitoring methods. To determine credible EF
+values for this study, localized data from studies (Aboobakar et al., 2013; Emissions from sewage collection sector. The total amount of
+Bao et al., 2016; Hwang et al., 2016; Liu et al., 2014; Masuda et al., COD production from urban population was estimated firstly. The mass
+2018; Qi et al., 2019; Ren et al., 2013; Schneider et al., 2015; Schouten of organic carbon degraded or lost within the collection system was
+et al., 2014; Tumendelger et al., 2019; Wang et al., 2011; Yan et al., quantified by the difference between the mass of COD generated and
+2014) were collected and categorized by wastewater management collected by municipal WWTPs.
+sector and particular scenario involved, e.g. specific wastewater treat-
+TOWGN,i=POPUR,i×CODGN,i×365×10(cid:0)6
+ment process (Table S2). Probability distribution analysis by Monte (2)
+Carlo simulation, employed from Du et al. (2023), was performed to
+obtain the EF value for calculation (Fig. S2, Table S3). Considering the TOWCL,i =TOWGN,i(cid:0) TOWIF,i (3)
+limited samples size of EFs reported for several wastewater treatment
+where:
+processes, discharge sector and sludge disposal sector, which lack sta-
+tistical significance, default values were adopted to avoid data bias
+(Tables S3–5). TOWGN,i: mass of COD in domestic wastewater generated by urban
+population in ith city (t COD/y)
+POPUR,i: urban population in ith city (persons)
+2.3. Methane emission estimation from each sector
+CODGN,i: per capita COD generation rates in ith city (g/capita⋅d)
+Total emissions from the whole process of wastewater system. 10(cid:0)6: converting factor for gram to ton
+Total methane emissions included emissions from wastewater collec- TOWCL,i: mass loss of COD through wastewater collection system (t
+tion, treatment, discharge and sludge disposal, further divided into COD/y)
+seven sub-sectors: TOWIF,i: annually influent mass of organic matter mass in all WWTPs
+in the ith city (t COD/y)
+CH4,i=CH4SW,i+CH4UCL,i
+∑m (cid:0) ) For methane emission caused by organic matter degraded in sewers,
++ CH4TR,i,j+CH4EF,i,j+CH4LF,i,j+CH4IN,i,j+CH4CP,i,j (1)
+empirical equation derived from SewEx model (Foley et al., 2008; Foley
+j=1
+et al., 2009) was applied for estimation.
+[ ( ) ]
+where, CH4SW,i= 5.24*10(cid:0)5× 4 d×HRTi +0.0015 ×Qi×365×10(cid:0)3 (4)
+3
+
+--- Page 4 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+where: CH4EF,i,j=TOWEF,i,j×EFEF,i,j (10)
+d: average diameter of sewage pipeline (m), valued 0.6 m according TOWEF,i,j=CODEF,i,j*Qi,j×365×10(cid:0)6 (11)
+to the construction standards for sewage pipelines in China
+HRTi: average hydraulic retention time of wastewater in sewer where:
+network in the ith city (h)
+Qi: flow rate in sewer network in the ith city (m3/d) TOWEF,i,j: organic matter mass discharged through treated effluents
+5.24*10(cid:0)5: empirical rate of methanogenic activity of pipeline bio- by the jth WWTPs in the ith city (t/year)
+film (kg/m(cid:0) 2⋅h) (Foley et al., 2008, 2009) EFEF,i,j: EF for the specific discharge pathway for effluents in the jth
+0.0015: average residual concentration of dissolved methane in raw WWTP in ith city (Table S4)
+wastewater (kg/m(cid:0) 3) (Foley et al., 2009)
+10(cid:0)3: converting factor for kilogram to megagram Emissions from sewage sludge disposal. For most landfills, solid
+waste (including sludge) is deposited continuously throughout the year
+The mass of organic matter in uncollected wastewater was estimated with a delay time for methane production after deposition. To facilitate a
+based on the difference between the total mass loss within the waste- comparative assessment of the cumulative emission impacts across
+water collection system and the mass of degraded organic matter. Given various sludge disposal approaches, assumption for complete sludge
+the uncertainty of discharge pathways of uncollected wastewater, degradation and methane release in landfills within a one-year time-
+default value was adopted for the EFs (IPCC, 2019). frame was employed. According to IPCC (2019)Vol.5 Ch.3, the equation
+( )
+is as follows.
+TOWUCL,i=TOWCL,i (cid:0) C 0H .4 25sw,i (5)
+16
+CH4LF,i,j=SLF,i,j×DOCi,j×DOCf×MCF×F× 12×(1(cid:0) RLF)×(1(cid:0) OX)
+CH4UCL,i=TOWUCL,i×EFUCL (6) (12)
+where: where:
+TOWUCL,i: organic matter mass of uncollected sewage (t COD/y) SLF,i,j: dry mass of sludge deposited in landfills from the jth WWTPs in
+EFUCL: EF for wastewater discharge into aquatic environments (kg the ith city
+CH4/kg COD), adopted 0.028 from IPCC (2019)(Table S4) DOCi,j: fraction of degradable organic carbon in sludge from the jth
+0.25: default value of methane producing capacity for domestic WWTPs in the ith city, valued 30 % for WWTPs adopted with
+wastewater (IPCC, 2019) anaerobic sludge digestion and 50 % for WWTPs without sludge
+treatment practices
+Emissions from wastewater treatment sector. IPCC equations DOCf: fraction of DOC that can decompose (Table S5)
+based on EF was adopted from Vol.5 Ch.2 (IPCC, 2019). To reflect the MCF: methane correction factor (Table S5)
+differential impacts of emissions from various treatment processes, the F: fraction of methane in landfill gas (Table S5)
+EFs corresponding to the specific processes of individual wastewater OX: oxidation factor (Table S5)
+treatment plants were employed for the calculation (Table S3). 16/12: molecular weight ratio of CH4/C
+CH4TR,i,j=(cid:0) TOWTR,i,j(cid:0) SCOD,i,j) ×EFTR,i,j(cid:0) RTR,i,j (7) dR eLF fa: ur le tc eo sv tie mry tr ea ote ro ef om ve et rh ya en fe ci in nl ca yn d afi nl dl s f, cv ia lil tu ye d 2 v0 a% eb ia ns e Cd io nn
+a f c fi e a co er g h a
+TOWTR,i,j=(cid:0) CODIF,i,j(cid:0) CODEF,i,j) ×Qi,j×365×10(cid:0)6 (8) (Table S5)
+Based on IPCC (2019)Vol.5 Ch.5, the equation for emissions from
+SCOD,i,j=Si,j×Ri,j×1.42 (9)
+sludge incineration is as follows:
+where: CH4IN,i,j=SIN,i,j×EFIN (13)
+TOWTR,i,j: mass of organic matter removed by the treatment process where:
+in jth WWTPs in the ith city (t COD/y)
+SCOD,i,j: COD removed in the form of sludge in the jth WWTP in ith SIN,i,j: wet mass of sludge for incineration from the jth WWTPs in the
+city (t COD/y) ith city (t), converted from dry wet by assuming a moisture content of
+Si,j: mass of dry sludge in the jth WWTP in ith city (t/y) 60 % in wet sludge (IPCC, 2006) to align with the EFIN on a
+Ri,j: fraction of organic component in dry sludge in the jth WWTP in wet-weight basis
+ith city (%) EFIN: methane EF for waste incineration (kg CH4/10(cid:0) 6 kg waste on wet
+1.42: converting coefficient between organic component and COD in weight basis), utilizing the default value for continuous incineration
+dry sludge (kg COD/kg sludge) (CAEPI, 2022) stoker (IPCC, 2019) due to the extensive use of grate incinerators in
+EFTR,i,j: EF for the specific treatment process in the jth WWTP in ith China (Table S5)
+city (kg CH4/kg COD) (Table S3)
+RTR,i,j: mass of recovered methane in the jth WWTP in ith city WWTP According to IPCC (2006) Vol.5 Ch.4, the equation for methane
+(Mg), which was regarded as 0 in China emissions from biological treatment is as follows:
+CH4CP,i,j=SCP,i,j×EFCP(cid:0) RCP (14)
+CODIF,i,j, CODEF,i,j: influent and effluent COD concentration of the jth
+WWTP in ith city (mg/L). where:
+Emissions from wastewater discharge sector. Equations were
+adopted based on IPCC (2019) Vol.5 Ch.2. EFs corresponding to the SCP,i,j: dry mass of sludge for composting from the jth WWTPs in the
+specific discharge pathways of each WWTP were selected to ensure ac- ith city (t)
+curate quantification (Table S4).
+4
+
+--- Page 5 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+EFCP: methane EF for composting on a dry weight basis (kg CH4/kg pollutant reduction and methane emission. The scale category included
+waste on dry weight basis) (Table S5) large, medium and small cities, with urban populations above 3 million,
+RCP: total amount of methane recovered in inventory year (Mg), between 1 and 3 million, and below 1 million.
+regarded as 0 in China
+3. Results
+2.4. Technical validation
+3.1. Total methane emissions from wastewater system
+The emission factor methodology, commonly used to estimate
+emissions, may introduce uncertainties due to variations in the values of In 2020, the total methane emission in China’s municipal wastewater
+EFs. To confirm the robustness of emission estimates, both sensitivity system is 911 Gg. Fig. 2A displays the distribution characteristics of
+analysis and uncertainty analysis were employed. Specifically, consid- methane emissions across 328 cities. While the mean value of citywide
+ering the independent variability of EFs across different sectors and emissions is 2778.4 Mg, the standard deviation reaches 3280.2 Mg,
+process, One-At-a-Time (OAT) sensitivity analysis method were applied exhibiting large regional differences. A clear dividing line can be
+to observe the changes in total emissions when the values of EFs varied observed in Fig. 2A between cities with relative larger or smaller
+within a ±20 % range, thereby identifying the most sensitive factors emissions, which is essentially consistent with the Hu Huanyong Line,
+influencing the overall emission estimates. To further demonstrate the the demographic dividing line of China. The estimated emission on the
+reliability of the results, the uncertainty propagation method was uti- southeast side of the line is 3054 Mg on average, which is almost 2.5
+lized to quantify the uncertainty in total emissions, based on the times greater than average emission among cities on the northwest side
+inherent uncertainties of the EFs. For comparison, emissions and asso- of the line (1246.0 Mg). Shanghai, Guangzhou, Chongqing, Beijing and
+ciated uncertainties using IPCC default values were calculated to pro- Shenzhen are the five cities with the largest total emission above 13,000
+vide a comprehensive validation framework. Mg, which are also among the most populous cities in China. The city
+with the lowest emission is Sansha, which is an island city with a limited
+2.5. Correlation between pollutant mitigation and methane emission population capacity due to its small land area.
+The national average per capita emission reaches 1.13 kg while the
+In China, the wastewater treatment rate among cities reached 97.53 standard deviation is 0.41 kg, suggesting the dispersion of emission data
+% in 2020 (MOHURD, 2021), suggesting that wastewater can be well is reduced after excluding the effect of citywide population size. Fig. 2B
+treated and discharged in compliance with standards once collected. shows the geographic distribution of per capita emission in cities, which
+However, sewer deficiencies, overflow and infiltration cause loss in shows similar but opposite distribution patterns compared to the total
+pollutants entering the WWTPs (Liao et al., 2015; Zhang et al., 2021), emission. The average per capita emission among the cities on the
+which end up discharging into aquatic environment, and can be indi- northwest side of Hu Huanyong Line is 1.34 kg, while that on the
+cated by the wastewater collection rate. In this study, the wastewater southeast side is 1.09 kg. The highest emission intensity is observed in
+collection rate was defined as an indicator of pollutant reduction in the Sichuan Basin and the Inner Mongolia Plateau while cities with the
+wastewater systems, representing the proportion of water pollutants (in lowest per capita emission distribute unevenly in North China Plain and
+form of COD) captured by centralized wastewater treatment systems. South Coastal Region.
+The regression relationship between the wastewater collection rate and
+per capita methane emissions from wastewater sector (collection, 3.2. Methane emissions from sectors
+treatment, discharge) was analyzed, both at the national level and across
+cities of different scales, in order to discover the correlations between On national scale, the wastewater collection sector is the largest
+Fig. 2. Total CH4 emissions and per capita CH4 emissions in 2020 in China. (A)Total CH4 emissions from municipal wastewater systems in each city; (B) per
+capita CH4 emissions from municipal wastewater systems in each city.
+5
+
+--- Page 6 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+contributor (517 Gg) to total methane emissions, accounting for 56.8 % exhibit no discernible correlation, both in terms of total and per capita
+of total emissions. In this sector, 43.4 % of emissions is generated by emissions. For wastewater sector, the average share of emissions from
+microbial degradation in sewer network. Emissions from uncollected the wastewater collection sector is 85.8 % among 31 provinces, implying
+wastewater account for more than half of emissions within the sector, a dominate role of emission contribution in wastewater sector for all
+and 32.2 % of the total emissions, which is an unexpectedly significant provinces. In the context of the sludge sector, the mean proportion of
+contributor. The sludge disposal sector is the second-greatest contrib- emissions attributable to sludge landfilling across all provinces reaches
+utor (315 Gg), accounting for 34.6 % of total emissions. It is noteworthy 89.2 %, which emphasizes the pronounced influence of sludge land-
+that emissions from WWTPs and treated effluents, which are mostly filling practice on the overall emission of the sludge treatment process.
+studied by scholars and included in national emission inventories, only
+accounted for 8.6 % together of the system-wide emissions, which is
+relatively small contributors. 3.3. Sensitivity and uncertainty analysis
+In Fig. 3, methane emissions from the four sectors are presented to
+further explore spatial composition differences. Fig. 3A–D displays Emissions from each sector demonstrated varying degrees of sensi-
+citywide emission from four sectors with the same color scale. Most tivity to changes in respective EFs (Fig. S3). Specifically, the sludge
+cities have greater emissions from wastewater collection and sludge disposal sector exhibits notable sensitivity (±18.5 % change) to EF for
+disposal rather than WWTPs and effluent discharging, which are landfills, while the wastewater collection sector is highly sensitive
+consistent with the nationwide pattern. In particular, wastewater (±11.3 % change) to EF for uncollected wastewater. Similarly, the
+collection sector is the dominant emission contributor in East, Central, wastewater treatment and discharge stage are sensitive (±11.0 % and
+South China and Southern West, with the highest share of 79 % found in ±11.1 % change) to EF for anaerobic biological methods and discharge
+South China. In North China, Northern West and Northern East regions, pathways into stagnant drainage ditches respectively. The significance
+the most significant source of methane emissions is sludge disposal of sensitivities can be attributed to the high emission contribution of
+sector, with the highest share of 63 % occurring in the Northern West these practices to sector emission (weighing 92 %, 57 %, 56 %, and 49 %
+region. Only a few cities present noticeable emissions in treatment respectively). The total emissions are most sensitive (±6.4 % change) to
+sector, such as Harbin, Qingdao, Wenzhou, and Hengyang. the EFs of untreated wastewater and sludge landfilling, both of which
+Fig. 4presents methane emissions from wastewater and sludge sec- are determined on IPCC default values owing to the absence of localized
+tors separately at inter-provincial level. Emissions from the two sectors parameters. The uncertainty of total emissions based on localized EFs is
+(cid:0) 66 %–112 %, narrower than uncertainty derived from IPCC ((cid:0) 68 %–
+Fig. 3. Distribution of emissions by sector. Including total CH4 emissions from four sectors at prefecture-city level in 2020. (A) CH4 emissions in municipal
+wastewater collection sector; (B) CH4 emissions in municipal wastewater treatment sector; (C) CH4 emissions in municipal wastewater discharge sector; (D) CH4
+emissions in municipal sludge disposal sector; (E) relative contributions of four sectors for seven regions. See Table S6for the composition of seven regions.
+6
+
+--- Page 7 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+Fig. 4. Emissions by province. Total and per capita CH4 emissions from wastewater and sludge sector, and their composition, at a provincial level. See Table S6for
+abbreviation.
+114 %) (Table S7). In particular for the wastewater treatment sector, the in the methane emissions from the wastewater sector (Fig. 6B). This
+application of localized EFs results in a substantially reduced uncer- opposite pattern is prevalent in large, medium and small cities grouped
+tainty range of (cid:0) 47 %–55 %, compared with the broader range of (cid:0) 75 by urban population (Fig. 6C–E). The linear relationship between
+%–151 % obtained using IPCC methodology. collection rate and per capita emission in medium sized cities exhibits
+the largest slope, while the smallest slope is observed in large sized
+cities, indicating different degrees of carbon emission sensitiveness to-
+3.4. Methane emission intensity vs. wastewater collection rate wards change in urban wastewater infrastructure.
+The average methane emission per unit of organic carbon reduction 4. Discussion
+in wastewater systems across China is 0.13 kg CH4/kg COD, exhibiting
+significant variability among cities with values fluctuating between 4.1. Comparison to other studies
+0.02 kg CH4/kg COD and 0.73 kg CH4/kg COD. To further clarify the
+relationship between system pollution mitigation and emissions in- Existing studies on methane emissions from wastewater systems
+tensity, Fig. 5shows the spatial coupling of wastewater collection rates have been conducted at the enterprise, city, province and national level.
+and methane emissions per capita from the wastewater sector on a city- However in most cases the current estimation results are not comparable
+by-city basis. A clear trend is revealed that in regions with higher per (Table S10). The use of different system boundaries across studies is one
+capita emissions (e.g. the southeast area compared to northwest re- of the main reasons for the difference (Chaosakul et al., 2014; Peng
+gions), the collection rates are relatively lower. et al., 2016). China’s second biennial update report on climate change in
+The regional data highlight similar correlation (Fig. 6A): in the 2014 and some studies that measured total methane emissions from both
+Northern China, Northern East, and Northern West area, higher collec- industrial and domestic wastewater treatment processes had a larger
+tion rates are observed ranging from 55 % to 63 %, while per capita emission estimation result. Most recent studies were conducted on
+emissions tend to be lower. In contrast, the Central, Southern, and WWTPs and treated effluent discharges, and their estimated emissions
+Southern West regions exhibit the opposite trend, with lower sewage (ranged from 2.9 Gg to 139 Gg) are generally consistent with the
+collection rates and higher per capita emissions. Statistically, a 1 % in- emissions of 78 Gg corresponding to same sectors in this study. The use
+crease in wastewater collection rate is correlated with a 0.38 % decrease
+7
+
+--- Page 8 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+Fig. 5. Distribution of wastewater collection rate and CH4 emissions (kg per capita) in wastewater sector.
+of methane EFs and measurement methods is another major factor 4.2. Major contributors and regional differences
+contributing to variation (Xu et al., 2018). The IPCC-recommended
+methane EFs, which is often used for calculations, is 2.8–14.4 times The total emissions result indicates the sewage collection sector and
+larger compared to the localized methane EFs used in studies (Liu et al., the sludge disposal sector are the two primary sources of methane
+2014; Wang et al., 2011; Yan et al., 2014). Earlier studies based on IPCC emissions across the whole wastewater management process. The dif-
+2006algorithm directly multiplies the amount of COD removed by the ferences in emission contributions among regions might be highly
+methane EFs, while recent studies adopted the updated IPCC 2019al- correlated with the specific variations in local practices.
+gorithm eliminated the organic components removed in the form of This finding reveals sludge treatment emerges as the predominant
+sludge from the treated COD amount. As IPCC has not provided a rec- source of methane emissions in the Northern China, Northern East, and
+ommended formula for methane emissions estimation in sewers, the Northern West regions, further clarifies regional differences based on
+uncertainty use of different empirical formulas is also one of the key prior research (Zhou et al., 2023). The emissions in the sludge disposal
+reasons for the discrepancies in the study results. Other objective factors sector are likely correlated with disposal method selection (Chu et al.,
+also contribute to the non-comparability of the results of studies, such as 2024; Zhao et al., 2023) and sludge yield coefficient (Rong et al., 2023).
+sample size, data source and year of inventory (Yan et al., 2019; Zhang The proportion of landfilling sludge in the Northern East, Northern
+and Chen, 2014). West, and Northern China regions averages 66 %, with typical provinces
+It is noteworthy that urban septic tanks, as a potential source of such as Gansu and Qinghai exhibiting a landfill proportion exceeding 80
+methane, were excluded from the research boundary. Based on litera- %, resulting in a methane emission share as high as 95 %. In contrast,
+ture estimates (CUWA, 2024), urban septic tanks could contribute 273.3 other regions have an average landfill proportion of only 38 %
+Gg methane emissions in China annually, representing 30 % of the total (Table S11). However, the average sludge yield coefficient in the
+emissions from the whole municipal wastewater system in this study. Northern East, Northern West, and Northern China regions is 0.68 kg dry
+Studies have reported that methane emissions from septic tanks are at sludge/kg COD reduced, smaller than the mean value of 0.85 kg dry
+the same level as GHG emissions from WWTPs (Cheng et al., 2022; sludge/kg COD in other regions (Table S11). This discrepancy may be
+Zhang et al., 2021), while this study further highlighted methane attributed to the higher proportion of sludge landfilling in the northern
+emissions from septic tanks are comparable to methane emissions from regions, where the increased emissions from landfilling outweigh the
+sludge disposal sector (315 Gg), simultaneously reach 3.5 times the reduction in emissions resulting from lower sludge yields.
+methane emissions of WWTPs and treated effluents, corroborating urban In southern regions including Eastern, Central, Southern China and
+septic tanks to be a significant source of methane emissions within Southern West, sewage collection is the major source of emissions, and
+municipal wastewater system. emission pattern is divided by the Hu Huanyong Line, corroborating the
+conclusions of previous studies (Zhu et al., 2024). These regions, being
+closer to the equator, had an average temperature of 18.0 ◦C in 2020,
+8
+
+--- Page 9 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+Fig. 6. Linear correlation between wastewater collection rate and CH4 emissions (kg per capita). (A) comparison of average wastewater collection rate and
+CH4 emissions in seven regions in China. See Table S5for abbreviation. (B) Changes of CH4 emission with wastewater collection rate in 328 cities. (C) in large cities
+with urban population over 3 million; (D) in medium-size cities with urban population range from 1 to 3 million; (E) in small cities with urban population less than 1
+million. Wastewater collection rate is divided into 23 groups, with each data point representing an average value of a certain city group. The number of cities in each
+group used for analysis is shown in Tables S8 and S9.
+while high temperature is proven to be an important cause of high sewer networks remained neglected (Huang et al., 2018; Zhang et al.,
+methane production rates (Liu et al., 2015b), compared to the northern 2022b). In general, a higher wastewater collection rate indicates sound
+regions with an average annual temperature of only 8.8 ◦C (Table S12). urban planning and greater investment in infrastructure, leading to
+A positive correlation of emissions with per capita GDP is also observed. robust facilities and rational management practices. These factors
+In the southern regions with more coastal developed cities, the average collectively contribute to reduced methane emissions from wastewater
+regional per capita GDP reaches 64,000 yuan, slightly higher than the systems. To clarify the key factors affecting wastewater collection rate
+52,000 yuan in the northern regions (Table S12), as the increased con- and methane emissions, Pearson correlation of representative indicators
+sumption of food and water in high-income areas might cause more among wastewater system practices were displayed (Fig. 7), providing
+burden for sewers (Zhu et al., 2024). In terms of HRT, the mean value in an in-depth exploration of the negative correlation.
+the southern regions is 8.05 h, while the northern regions have a slightly Sewer network management. Both wastewater collection rate (r =
+lower average of 7.72 h (Table S12). Longer HRTs is considered to lead 0.61, p ≤0.001) and methane emission (r =(cid:0) 0.42, p ≤0.001) exhibit
+to longer retention times, providing better growth conditions for strong but opposite correlations with WWTP influent COD concentra-
+methanogens (Guisasola et al., 2008, 2009; Sharma et al., 2013; Song tion, suggesting the primary cause of this negative correlation. Low
+et al., 2023). influent COD concentrations indicate inefficient wastewater collection
+and infiltration of extraneous water (e.g. groundwater, rainwater) in
+sewers, which may be caused by improper combined sewer systems,
+4.3. Synergy between pollutant mitigation and methane emission
+mismatch of stormwater pipelines, or lack of pipeline maintenance (Liao
+et al., 2015; Zhang et al., 2022b; Zhu et al., 2024), leading to the leakage
+A linear negative correlation between the wastewater collection
+of organic matter into the external environment and additional methane
+rates and methane emission intensities in city-level was found in this
+emissions. Simultaneously, the infiltration of extraneous water dilutes
+study. China has experienced rapid scale growth of urban wastewater
+the wastewater concentration, resulting in high water levels, reduced
+treatment facilities, while the importance of proper maintenance of
+9
+
+--- Page 10 ---
+H. Gao et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 509 (2025) 145592
+Fig. 7. Correlation among urban wastewater infrastructure indicators, wastewater collection rate and methane emissions. WCR, wastewater collection rate;
+CH4, methane emissions per capita; CODIF, average COD concentration in WWTP influents; PR, annual precipitation; CTR, wastewater treatment capacity per capita;
+QTR, treated wastewater volume per capita; LRTR, average load rate in WWTPs; LSW, total length of sewer pipelines; POPD, population density by urban population per
+area. Significance signs for correlation coefficients are marked in the circles. * means p <0.05, ** means p <0.01, *** means p <0.001.
+flow velocity, extended hydraulic retention times in the sewers, which emissions. For urban margins and undeveloped districts with less pop-
+collectively increase the potential for methane emissions within the ulation, increasing sewer coverage with construction of small-sized
+pipelines (Chen et al., 2024; Guisasola et al., 2008; Liu et al., 2015b; Zhu treatment facilities may be necessary to prevent long-distance sewage
+et al., 2024). Overflow in rainy areas may also intensify the decrease of transportation (Zhu et al., 2024).
+COD concentration (Bizer and Kirchhoff, 2022), which could be further The wastewater collection rates and methane emission intensities of
+reinforced by the negative correlation between precipitation and large, medium, and small-sized cities all show a linear negative corre-
+influent COD concentration (r =(cid:0) 0.45, p ≤0.001). lation, but with different slopes. The largest slope is observed in
+Wastewater treatment practices. Both per capita wastewater treatment medium-sized cities, indicating the greatest potential to reduce emission
+capacity (r = (cid:0) 0.16, p ≤ 0.001) and per capita treated wastewater intensity by increasing wastewater collection rate in cities with urban
+volume (r =0.55, p ≤0.001) were correlated with wastewater collection population between 1 million to 3 million. These cities are generally
+rate, but neither indicators showed significant correlation with methane boomtowns experiencing sharp economic expansion and fast-growing
+emissions (p >0.05). It can be inferred that cities with higher waste- public services (Sun et al., 2017), where WWTPs have been signifi-
+water collection rates have implemented appropriate wastewater system cantly increased and advanced technologies applied over past decades.
+planning, focusing on fully utilizing existing treatment facilities rather This high efficiency in wastewater treatment system leads to lower
+than on excessive construction of treatment capacity. This observation emission intensity when collection rate is high. As a comparison, the
+aligned with the positive correlation between wastewater collection rate relatively higher emission intensities in large and small cities are
+and average load rate of WWTPs (r =0.14, p ≤0.05). Notably, a high observed with high collection rate. Among them, large cities obtain
+wastewater collection rate can reduce the methane emissions from un- higher methane emission intensity from WWTPs and treated effluents,
+treated wastewater but theoretically increase the amount of organic probably due to dietary habits differences in well-developed cities,
+matter entering WWTPs, potentially leading to higher methane emis- which have a greater amount of organic carbon entering treatment
+sions from treatment process. However, methane emission displayed no system. Small cities have larger methane emission intensity from sewer
+significant correlation with treated wastewater volume, indicating that network degradation, as the low urban population density and low
+the emission reduction benefits of increased collection rates outweighed frequency of sewer maintenance in small cities may have an impact on
+the increased emissions from treatment process. This deduction was higher emission.
+consistent with the extensive use of aerobic treatment processes in
+China, which have high pollutant reduction efficiency and relatively low
+4.4. Implications and limitations
+methane emission intensity.
+Sewer coverage and population distribution. Sewer pipeline length was
+positively correlated with wastewater collection rates (r = 0.28, p ≤ This study further demonstrates that wastewater collection and
+0.001) but also with methane emission intensity (r =0.21, p ≤0.001). sludge treatment sectors are significant yet unmanaged sources of
+methane emissions in China’s wastewater systems. Given the substantial
+While the sewer networks construction is an effective way to enhance
+climate impact of methane emissions, multi-objective control in water
+wastewater collection rates, longer pipelines may also increase HRT in
+pollutant reduction and carbon mitigation should be considered in the
+sewers, leading to higher methane emissions. As population density
+showed positive correlation with wastewater collection rates (r =0.27, future urbanization process.
+p ≤0.001) but no significant correlation with methane emissions (p > The negative correlation between wastewater collection rates and
+methane emissions in China suggests a feasible opportunity to integrate
+0.05), it was deduct that sewer network extension by branch sewer
+climate co-benefits into municipal wastewater systems. It is recom-
+construction could effectively improve wastewater collection rates in
+mended that urban management authorities implement regulatory pol-
+densely populated areas while avoiding excessive increases in methane
+icies and engineering measures to systematically enhance wastewater
+10

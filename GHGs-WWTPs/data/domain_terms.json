@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "category": "domain_terms",
+    "description": "领域术语",
+    "version": 2,
+    "created": "2026-05-26T08:12:45.165373+00:00",
+    "updated": "2026-06-09T00:00:00+00:00",
+    "source": "initial"
+  },
+  "entries": {
+    "DO": {
+      "value": {
+        "term_en": "Dissolved Oxygen",
+        "term_zh": "溶解氧",
+        "unit": "mg/L",
+        "abbr": "DO"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "CH4": {
+      "value": {
+        "term_en": "Methane",
+        "term_zh": "甲烷",
+        "unit": "mg/L",
+        "abbr": "CH4"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "CO2": {
+      "value": {
+        "term_en": "Carbon Dioxide",
+        "term_zh": "二氧化碳",
+        "unit": "mg/L",
+        "abbr": "CO2"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "TOC": {
+      "value": {
+        "term_en": "Total Organic Carbon",
+        "term_zh": "总有机碳",
+        "unit": "mg/L",
+        "abbr": "TOC"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "BOD": {
+      "value": {
+        "term_en": "Biochemical Oxygen Demand",
+        "term_zh": "生化需氧量",
+        "unit": "mg/L",
+        "abbr": "BOD"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "COD": {
+      "value": {
+        "term_en": "Chemical Oxygen Demand",
+        "term_zh": "化学需氧量",
+        "unit": "mg/L",
+        "abbr": "COD"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "TN": {
+      "value": {
+        "term_en": "Total Nitrogen",
+        "term_zh": "总氮",
+        "unit": "mg/L",
+        "abbr": "TN"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "TP": {
+      "value": {
+        "term_en": "Total Phosphorus",
+        "term_zh": "总磷",
+        "unit": "mg/L",
+        "abbr": "TP"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "EC": {
+      "value": {
+        "term_en": "Electrical Conductivity",
+        "term_zh": "电导率",
+        "unit": "uS/cm",
+        "abbr": "EC"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "pH": {
+      "value": {
+        "term_en": "pH Value",
+        "term_zh": "pH值",
+        "unit": "",
+        "abbr": "pH"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "TEMP": {
+      "value": {
+        "term_en": "Temperature",
+        "term_zh": "温度",
+        "unit": "C",
+        "abbr": "TEMP"
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "sewer_system": {
+      "value": {
+        "term_en": "Sewer System",
+        "term_zh": "污水管网",
+        "unit": "",
+        "abbr": ""
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "campus_sewage": {
+      "value": {
+        "term_en": "Campus Sewage",
+        "term_zh": "校园污水",
+        "unit": "",
+        "abbr": ""
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "carbon_pollutant": {
+      "value": {
+        "term_en": "Carbon Pollutant",
+        "term_zh": "碳污染物",
+        "unit": "",
+        "abbr": ""
+      },
+      "confidence": 1.0,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "CO2eq": {
+      "value": {
+        "term_en": "Carbon Dioxide Equivalent",
+        "term_zh": "二氧化碳当量",
+        "unit": "kgCO2eq",
+        "abbr": "CO2eq",
+        "description": "统一衡量不同温室气体的标准单位，将CH4、N2O等按全球增温潜势(GWP)折算为CO2等效量"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "GWP": {
+      "value": {
+        "term_en": "Global Warming Potential",
+        "term_zh": "全球增温潜势",
+        "unit": "",
+        "abbr": "GWP",
+        "description": "衡量温室气体对全球变暖贡献的相对指标，CO2的GWP=1，CH4的GWP=28-36，N2O的GWP=265-298"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "emission_factor": {
+      "value": {
+        "term_en": "Emission Factor",
+        "term_zh": "排放因子",
+        "unit": "kgCO2eq/m3",
+        "abbr": "EF",
+        "description": "单位活动水平的温室气体排放量，如每立方米污水排放的CO2当量。IPCC提供默认值，但本地化因子更准确"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "direct_emission": {
+      "value": {
+        "term_en": "Direct Emission",
+        "term_zh": "直接排放",
+        "unit": "",
+        "abbr": "Scope 1",
+        "description": "污水处理过程中产生的CH4和N2O排放，主要来自厌氧消化、生物脱氮等工艺环节"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "indirect_emission": {
+      "value": {
+        "term_en": "Indirect Emission",
+        "term_zh": "间接排放",
+        "unit": "",
+        "abbr": "Scope 2",
+        "description": "电力消耗、化学品使用等导致的温室气体排放，通常占WWTP总排放的30-60%"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "carbon_sink": {
+      "value": {
+        "term_en": "Carbon Sink",
+        "term_zh": "碳汇",
+        "unit": "",
+        "abbr": "",
+        "description": "污水/污泥中固存的有机碳，通过污泥处置（填埋/焚烧/土地利用）实现碳封存"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "WWTP": {
+      "value": {
+        "term_en": "Wastewater Treatment Plant",
+        "term_zh": "污水处理厂",
+        "unit": "",
+        "abbr": "WWTP",
+        "description": "城市/工业污水处理设施，是温室气体排放的重要来源之一"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "N2O": {
+      "value": {
+        "term_en": "Nitrous Oxide",
+        "term_zh": "氧化亚氮",
+        "unit": "mg/L",
+        "abbr": "N2O",
+        "description": "强效温室气体，GWP=265-298，主要来自生物脱氮过程中的硝化和反硝化"
+      },
+      "confidence": 1.0,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    }
+  }
+}

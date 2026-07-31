@@ -1,0 +1,51 @@
+（61）CH4 and CO2 emissions rate of Iranian municipal wastewater treatment plants using IPCC and USEPA approaches
+研究方法：
+a. [排放因子法] - IPCC 2006温室气体清单指南排放因子法：IPCC 2006推荐的排放系数（B0=0.6 kg CH4/kg BOD，MCF=0.165），伊朗137座市政污水处理厂的运行数据（处理工艺类型、覆盖人口、排放率），估算2022年各省份CH4和CO2排放量
+b. [排放因子法] - USEPA排放因子法：USEPA推荐的排放系数（B0=1.375 kg CO2/kg BOD，CH4修正因子0.3），同一数据集，与IPCC方法进行对比分析
+c. [空间分析] - GIS空间制图：ArcGIS 10.2软件，基于IPCC和USEPA排放系数估算结果，绘制伊朗各省温室气体排放分区图
+d. [统计分析] - 描述性统计分析：各省排放数据，比较不同省份和两种估算方法的差异
+
+（62）A Comparative Study of Carbon Emissions from Industrial and Domestic Wastewater Treatment Plants under the Background of Carbon Neutralization
+研究方法：
+a. [碳排放核算] - 直接碳排放计算：IPCC 2006指南及其2019年修订版推荐的排放因子（CH4排放因子0.086 kg CH4/kg BOD，N2O排放因子0.035 kg N2O/kg TN），陕西省某工业园区工业和生活污水处理厂2020年进出水水质数据（BOD、TN、碱度），分别计算CH4、N2O和CO2直接排放量
+b. [碳排放核算] - 间接碳排放计算：电力排放因子0.997 kg CO2/(kWh)，化学品排放因子（NaOH 1.74、PAM 25、消毒剂1.4、HCl 1.6 kg CO2/kg），2020年电力和化学品消耗量，计算间接碳排放
+c. [碳排放核算] - 碳减排量计算：再生水回用量与对应的电力和化学品消耗减少量，评估中水回用的碳减排效益
+d. [对比分析] - 工业与生活污水碳排放对比：两类污水处理厂的碳排放强度（kg CO2/t水）对比，分析直接与间接排放的贡献比例差异
+
+（63）Tofu wastewater as a carbon source flowing into municipal wastewater treatment plants for reductions of costs and greenhouse gas emissions
+研究方法：
+a. [排放因子法] - GHG排放核算：IPCC 2019排放因子（B0=0.25 kg CH4/kg CODCr，MCF=0.003-0.09，N2O排放因子0.016 kg N2O/kg TN），20000 m3/d规模WWTP 2022年运行数据，分别计算直接排放（CH4和N2O）、间接排放（电力和化学品）及管网排放
+b. [实验研究] - 反硝化速率批式实验：NaAC和豆腐废水分别作碳源，MLSS=4533 mg/L、MLVSS=2720 mg/L，充氮除氧后添加NaNO3，测定硝酸盐氮浓度变化，比较反硝化速率（豆腐废水3.05 mg NO3-N/(g MLVSS·h)）
+c. [长期监测] - 全规模WWTP运行监测：20000 m3/d的AAO工艺WWTP，2017-2022年连续监测进出水水质（CODCr、TN、TP、NH4+-N），评估豆腐废水作为外加碳源对脱氮除磷效果的影响
+d. [水质检测] - 水质标准方法检测：APHA标准方法（2005），检测pH、CODCr、NH4+-N、TN、TP等参数
+e. [成本核算] - 直接成本法：核算电力、污泥处置、设备维护、化验、药剂、人工等运营成本，比较单独处理与协同处理的经济性
+
+（64）Evaluation of the role of urban domestic wastewater treatment systems for greenhouse gases emissions in China
+研究方法：
+a. [排放因子法] - GHGdwts综合建模框架：IPCC方法及区域修正因子，覆盖建设阶段（管网、污水厂、污泥处置设施）和运行阶段（生物处理、电力消耗、材料使用、污泥处置、管网运行、尾水排放），中国2001-2020年30个省份城市生活污水处理系统数据
+b. [不确定性分析] - 蒙特卡洛分析：对各环节估算值赋予10%的不确定性，评估GHGdwts估算结果的稳健性
+c. [因素分解] - LMDI对数均值迪氏指数分解法：基于Kaya恒等式将GHGdwts分解为处理效率、处理率、排放强度、经济发展水平和人口规模五个驱动因素，分析各省驱动因素贡献率
+d. [计量经济学] - 环境库兹涅茨曲线分析：人均GHGdwts与人均污水处理固定资产投资的倒U型关系检验（y=ax+bx2+c），识别拐点年份
+e. [预测建模] - 人工神经网络（ANN）预测模型：三层前馈反向传播网络（30-20-10架构），输入为人口和GDP，预测2025年GHGdwts排放量；同时采用多元回归、线性拟合和曲线拟合方法进行对比
+
+（65）Compensatory measures to reduce GHGs in wastewater treatment plants in Southern Italy
+研究方法：
+a. [排放因子法] - GHG排放因子计算：基于COD和N去除量的质量平衡，采用文献综合排放因子（CH4、N2O和CO2分别乘以GWP系数30、300、1），对意大利南部Apulia地区183座污水处理厂各处理单元（预处理、初沉、好氧氧化、二沉、浓缩池、好氧/厌氧消化）进行逐单元排放估算
+b. [质量平衡] - COD和氮质量平衡法：基于AQP设施5年（2018-2022）运行数据，计算各处理单元的COD和N去除比例，乘以对应排放因子得到各单元GHG排放量
+c. [能耗分析] - 电力消耗碳排放核算：AQP报告的电力排放因子（1 kWh=0.406 kg CO2），统计各厂电力消耗，计算间接碳排放
+d. [情景分析] - 补偿措施减排评估：对比升级前后（C.E. vs A.U.）的排放量，评估浓缩污泥回流至缺氧区、好氧消化池覆盖铝结构、沼气系统改造及AI智能控制等措施的减排效果
+
+（66）Mitigating greenhouse gas emissions from municipal wastewater treatment in China
+研究方法：
+a. [排放因子法] - 工艺特定GHG排放因子法：采用Hua等（2022）建立的分工艺技术排放因子数据集（涵盖A/A/O、A/O、IAS、CAS、BIOLAK、OD、SBR、MBR、BF、ET等11种工艺），对3444座集中式污水处理厂的CH4、N2O和间接CO2排放分别估算
+b. [统计分析] - 单因素方差分析（one-way ANOVA）及Tukey事后多重比较：SPSS 23.0软件，分析不同处理工艺和不同省份之间污染物去除效率的统计差异（P<0.05）
+c. [偏差校正] - 省级偏差修正因子法：当调查的WWTP数量低于国家统计数据时，计算修正因子（VN/VE）调整估算结果
+d. [文献综述] - 减排策略综述：系统梳理先进生物技术（好氧颗粒污泥AGS、厌氧氨氧化Anammox）、智慧水务管理（变频泵、智能曝气、智能加药）和可再生能源利用（水源热泵、光伏、沼气能源）三类减排策略的潜力
+
+（67）Achieving low-carbon and sustainable wastewater treatment by controlling the flow of pollutants: A pilot scale investigation on reducing greenhouse gas emissions and enhancing resource recovery
+研究方法：
+a. [碳排放核算] - AAO工艺碳足迹核算：IPCC规则，系统边界包括直接排放（CH4和N2O，排放因子分别为0.0042 kg CH4/kg COD和0.0032 kg N2O/kg TN）、间接排放（电力0.9419 t CO2/MWh、化学品PAM 1.5/PAC 1.62/乙酸钠1.6 kg CO2/kg）和污泥填埋排放，对山西省25座AAO工艺WWTP进行碳足迹评估
+b. [实验研究] - CSM-ADLA中试工艺实验：混凝沉淀+微藻高速率藻塘（HRAP，有效面积9.14 m2，体积3.66 m3）+厌氧消化+土地利用，自然光照、无曝气、桨轮搅拌（200W电机），优势藻种为小球藻和斜生栅藻，水力停留时间24h，模拟城镇污水（COD 312、TN 54、TP 6 mg/L）
+c. [水质检测] - 标准方法检测：COD、TN、TP和污泥量按标准方法检测，浊度采用HACH 2100N浊度仪，藻细胞计数和生物质测定按文献方法
+d. [物料衡算] - 污染物流向与分配分析：基于污染物参数归一化法（PPNM），以单位污染物去除量而非单位水量为基准，分析C、N、P在混凝沉淀、微藻处理和厌氧消化各环节的流向与回收率
+e. [CO2固定核算] - 微藻碳固定率计算：基于微藻化学式CO0.48H1.83N0.11P0.01和生物质生长速率160 g/(m3·d)，计算碳、氮、磷同化速率及CO2固定量（0.301 kg CO2/(m3·d)）

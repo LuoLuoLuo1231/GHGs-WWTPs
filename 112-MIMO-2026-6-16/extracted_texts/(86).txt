@@ -1,0 +1,672 @@
+--- Page 1 ---
+Article
+Research on Carbon Emission Accounting of Municipal
+Wastewater Treatment Plants Based on Carbon Footprint
+SaijunZhou1,2,* ,YongyiYu1,ZhijieZheng1,LiangZhou1,ChuangWang1,RenjianDeng1,
+AndrewHursthouse1,3 andMingjunDeng4,*
+1 CollegeofCivilEngineering,HunanUniversityofScienceandTechnology,Xiangtan411201,China;
+yy1987551@outlook.com(Y.Y.);23020201026@mail.hnust.edu.cn(Z.Z.);beilinzhouliang@sina.com(L.Z.);
+chuangwang0401@163.com(C.W.);deng800912@163.com(R.D.);andrew.hursthouse@uws.ac.uk(A.H.)
+2 HunanUniversityofScienceandTechnologyEngineeringTestingCo.,Ltd.,Xiangtan411201,China
+3 SchoolofComnputing,EngineeringandPhysicalSciences,UniversityoftheWestofScotland,
+PaisleyPA12BE,UK
+4 SchoolofMedicalHumanityandInformationManagement,HunanUniversityofMedicine,
+Huaihua418000,China
+* Correspondence:sjzhou@hnust.edu.cn(S.Z.);1150012@hnust.edu.cn(M.D.)
+Abstract
+Inthecontextofglobalcarbonneutrality,municipalwastewatertreatmentplants(WWTPs),
+as key sources of greenhouse gas emissions, urgently require quantification of carbon
+emissionsandimplementationofmitigationstrategies. Thisstudyestablishesalife-cycle
+carbon footprint model encompassing the stages of pretreatment, biological treatment
+(AAOprocess),andsludgetreatment,withintegratedconsiderationofmunicipalsewer
+networks. Keyfindingsrevealthefollowing: Thebiologicaltreatmentstagecontributes
+68.14% of total carbon emissions. N O (nitrous oxide), due to its high global warming
+2
+potential(GWP),istheprimarysourceofdirectemissions(0.333kgCO eq/m3). Inthe
+2
+pretreatmentstage,80.4%ofcarbonemissionsoriginatefromtheelectricityconsumption
+ofsewageliftingpumpstations(0.030kgCO eq/m3). Duringthesludgetreatmentstage,
+2
+carbonemissionsareconcentratedinresidualsludgelifting(0.0086kgCO eq/m3)and
+2
+sludgedewatering/pressing(0.0088kgCO eq/m3). Accordingly,thisstudyproposesthe
+2
+followingmitigationstrategies: novelnitrogenremovalprocessesshouldbeimplemented
+AcademicEditor:JoséA.Peres tooptimizeaerationcontrolandenhancemethane(CH )recoveryduringthebiological
+4
+Received:14August2025 period,andvariablefrequencydrive(VFD)pumpsandIoT(InternetofThings)technolo-
+Revised:18September2025 giesshouldbeemployedtoreduceenergyconsumptionduringthepretreatmentperiod,
+Accepted:21September2025
+andduringthesludgetreatmentperiod,low-carbondewateringtechnologiesshouldbe
+Published:25September2025
+adopted. Thisworkprovidesatheoreticalfoundationforprocess-specificcarbonmanage-
+Citation: Zhou,S.;Yu,Y.;Zheng,Z.;
+mentinWWTPsandfacilitatesthesynergisticadvancementofenvironmentalstewardship
+Zhou,L.;Wang,C.;Deng,R.;
+anddual-carbonobjectivesthroughtechnology–systemintegration.
+Hursthouse,A.;Deng,M.Researchon
+CarbonEmissionAccountingof
+Keywords: carbonfootprint;WWTPs;anaerobic-anoxic-oxic(AAO);carbonaccounting;
+MunicipalWastewaterTreatment
+PlantsBasedonCarbonFootprint. carbonmitigation
+Processes2025,13,3057. https://
+doi.org/10.3390/pr13103057
+Copyright:©2025bytheauthors.
+1. Introduction
+LicenseeMDPI,Basel,Switzerland.
+Thisarticleisanopenaccessarticle Since China proposed the “dual carbon” goal [1], high-carbon emission industries
+distributedunderthetermsand
+such as energy and transportation have accelerated their low-carbon transition. As a
+conditionsoftheCreativeCommons
+criticalcomponentofurbaninfrastructure,wastewatertreatmentsystemshavebecomea
+Attribution(CCBY)license
+significantanthropogenicsourceofgreenhousegasemissions. Dataindicatesthatapprox-
+(https://creativecommons.org/
+licenses/by/4.0/). imately9%ofglobalmethane(CH 4)and3%ofnitrousoxide(N 2O)emissionsoriginate
+Processes2025,13,3057 https://doi.org/10.3390/pr13103057
+
+--- Page 2 ---
+Processes2025,13,3057 2of17
+fromwastewatertreatmentactivities[2]. InChina,CO emissionsfromwastewatertreat-
+2
+mentsurgedfrom13.34milliontonsin2005to53milliontonsin2019[3,4]. Althoughthe
+IPCCGuidelinesexcludemicrobiallymetabolizedCO fromaccounting,studiesreveal
+2
+thataround28%oforganiccarboninwastewaterderivesfromfossilcarbonsources. The
+CO emissionsfromthissourceaccountfor13%oftotalCO emissions,andcanreachas
+2 2
+highas23%underspecificconditions. DespitetheexclusionoftheseCO emissionsfrom
+2
+theIPCC’sNationalGreenhouseGasInventoryGuidelines,considerabledebatespersist
+inacademiaregardingtheirinclusionintotalemissionstoenablemoreaccuratecarbon
+assessment[5–7].Currently,manycarbonaccountingmethodsintheliteraturearebasedon
+IPCC2006orIPCC2019guidelines,butsomescholarshaveidentifiedsignificantaccount-
+ingerrorsassociatedwiththeseapproaches[8,9]. Consequently,thereisgrowinginterest
+indevelopingcarbonaccountingmethodologiesforwastewatertreatmentplants(WWTPs)
+that align with the needs of national strategic development. For instance, Xi et al. [10]
+conductedacomparativeanalysisof50WWTPsinShanghaiusingtheOperationalData
+Integration Method (ODIM) alongside IPCC 2006/2019 guidelines. Liao et al. [11] and
+Chenetal.[12]utilizedLCAtoassessthecarbonfootprintofWWTPsemployingdifferent
+treatmentprocesses.Qiuetal.[13]utilizedtheemissionfactormethodtoaccountforcarbon
+emissionsinurbanWWTPsacrossChina’sfivemajorcityclusters,analyzingthespatio-
+temporaldistributionandinfluencingfactorsofgreenhousegasemissions. Baoetal.[14]
+employeddirectmeasurementmethodstoquantifyon-siteCO emissionsfromWWTPs.
+2
+Shresthaetal.[15]usedPythonprogrammingtoestimatetheGHGsemissionsfromthe
+domestic wastewater sector in Nepal under various technological development scenar-
+iosfor2020to2040usingtherefined2019estimationmethodologydevelopedbyIPCC.
+MaziotisandMolinos-Senante[16]employedtheEfficiencyAnalysisTree(EAT)methodto
+accountforcarbonemissionsin109WWTPsinSpain. Corominasetal.[17]appliedboth
+staticanddynamicpredictionmodelstosimulatecarbonemissionprocessesinWWTPs,
+findingthatdynamicmodelscouldcapturefluctuationsinfluencedbyparameterssuchas
+temperatureandC/Nratio,whereasstaticmodelsfailedtoreflectsuchvariations. Despite
+theseadvances,existingaccountingmethodsprimarilyfocusontotalcarbonemissionsat
+theplantlevelandgenerallylackunit-levelcarbonemissiondata. Thislimitationhinders
+theabilitytoprovidespecificortargetedrecommendationsforcarbonreductionstrategies
+withinindividualtreatmentunitsofWWTPs.
+BasedonthecurrentrealitythatAAOwastewatertreatmentprocessesaccountforover
+60%ofChina’smarketshare[18],thisstudyfocusesonanAAOwastewatertreatmentplant
+inHunanProvince. Itincorporatesdirectcarbonemissionsfrommunicipalsewernetworks
+intotheaccountingframework,establishingacomprehensivecarbonfootprintandemission
+quantificationmodelspanningtheentire“sewernetwork-wastewatertreatment-sludge
+disposal”chain. Thewastewatertreatmentprocessiscategorizedintothreedistinctstages:
+(1)pretreatmentstage,centeredonsewageliftingpumpstationsandvortexgritchambers,
+whileextendingtoincorporatemunicipalsewernetworks;(2)biologicaltreatmentstage,
+identifiedastheprimarycarbonemissionsourceduringtreatment,encompassingfacil-
+itiessuchasaerationtanks,secondarysedimentationtanks,anddisinfectionunits;and
+(3)sludgetreatmentstage,comprisingsludgethickeninganddewatering,filteringpressing,
+andoff-sitetransportation. Thisstudyestablishesatheoreticalframeworkforbothunit-
+levelcarbonemissionsaccountingandtargetedcarbonmanagementwithinwastewater
+treatment plants (WWTPs). It offers guidance for implementing specific and targeted
+carbonreductionmeasuresinWWTPsoperations,therebypromotingsynergisticprogress
+betweenenvironmentalbenefitsandtheachievementof“dual-carbon”goals.
+
+--- Page 3 ---
+Processes2025,13,3057 3of17
+2. MaterialandMethods
+2.1. BasicInformationonMunicipalWWTPsInvestigated
+The wastewater treatment plant selected for this study, which employs an AAO
+process,islocatedinHunanProvince,China. Thisfacilityoperateswithadailytreatment
+capacityof2.0×105m3/d. Itservesatotalcatchmentareaof72.7km2andapopulation
+of486,200residents. Theoperationalparametersfortheinfluentandbiologicaltreatment
+stages,alongwithinfluent/effluentwaterqualitydata,aredetailedinTable1. Theeffluent
+dischargecomplieswiththeClass1AstandardsspecifiedinChina’sDischargeStandardof
+PollutantsforMunicipalWastewaterTreatmentPlants(GB18918-2002)[19]. Thesludge
+treatmentprocessprimarilyinvolvedgravitythickeningfollowedbydewateringusing
+abeltfilterpress(SIEBT-PRESS4000,Speyer,Germany). Thecharacteristicflowswithin
+thesludgetreatmentstage—specifically, theinfluentsludgevolumeandthevolumeof
+dewateredsludgedischargedfromtheplant—arepresentedinTable1.
+Table1. WaterqualityofinfluentandeffluentaswellasoperationalparametersoftheWWTPin
+HunanProvince(Jan–Dec2023).
+OperationParameters ConcentrationofPollutants
+Influent(m3/d) Effluent(m3/d) COD(mg/L) BOD5(mg/L) TN(mg/L) TP(mg/L)
+Phase
+Range Range Range Range Range Range
+(Mean) (Mean) (Mean) (Mean) (Mean) (Mean)
+177,866–234,429 169.67–270.17 85.02–108.16 14.43–19.59 2.13–3.73
+Pretreatmentstage —
+(205,551) (205.84) (100.14) (16.45) (2.78)
+Biologicaltreatment 169,576–198,477 12.19–15.98 2.61–4.89 6.88–9.23 0.17–0.28
+—
+stage (184,352) (13.82) (3.73) (7.78) (0.23)
+58.7–68.4
+3224–4627
+Sludgetreatmentstage (65.6moisture — — — —
+(3952)
+conten78%)
+2.2. SystemBoundaryoftheCaseStudy
+Thecarbonaccountingboundaryforthewastewatertreatmentplantextendsbeyond
+thefacilitytoincludemunicipalsewernetworks(Figure1). Conventionally,carbonemis-
+sionaccountingcommenceswhenwastewaterentersthetreatmentplant. However,this
+approachoverlooksgreenhousegases(CO ,CH ,andN O)generatedthroughmicrobial
+2 4 2
+activitywithinmunicipalsewersystems[20]. Consequently,toenablemoreaccurateassess-
+mentofcarbonemissionsfromwastewatertreatmentplants,theaccountingscopemust
+incorporatethissewernetwork.
+Pretreatment stage Biological treatment stage Sludge treatment stage
+Input Processes Emission Input Processes Emission Input Processes Emission
+Electricity Domestic sewage Anaerobic tank CH4 Chemicals
+CC 管H O24 N管 管2O Electricity Sludge thickener C 管O2
+Carbon Anoxic tank
+Municipal pipe
+N管 管2O C C管O O2 Electr ic ity S lu dg e d ew a tering C 管O2
+Sewage Coarse screen Electricity Aerobic tank 2
+Lifting CO2 管 Sludge storage
+pump Fine screen 管 Chemicals sS ete tc lio nn gd ta ar ny k CO2
+管 Diesel Transportation CO2
+Motor Cy cc hl ao mne b eg rr it CO2 Chemicals Disi tn af ne kc tion CO2 Internal recirculation Input 管
+管 管
+Direct emission Sludge return
+Effluent
+Indirect emission Process
+Figure1.Theboundaryofaccounting:frommunicipalsewagenetworktothewastewatertreatment
+plant(pretreatmentstage,biologicaltreatmentstage,andsludgetreatmentstage).
+
+--- Page 4 ---
+Processes2025,13,3057 4of17
+2.3. CarbonEmissionCalculationinthePretreatmentStage
+2.3.1. DirectCarbonEmissionsandEmissionIntensity
+Thepreliminarytreatmentstageextendsfromthemunicipalsewernetworktothe
+cyclone grit chamber. The carbon emission sources within this stage, as illustrated in
+Figure1,primarilycomprisedirectandindirectcarbonemissions. Directcarbonemissions
+arisepredominantlyfromCO generatedbytheaerobicmicrobialdegradationoffossil-
+2
+derivedcarboninwastewaterwithinsedimentsofthemunicipalsewernetwork[21],and
+CH andN Oproducedbyanaerobicmetabolismoforganicmatterinbiofilmsattachedto
+4 2
+pipewallsandbymicroorganismswithinthepipelines[22,23],Theseemissionsexclude
+biogenicCO ofbiologicalorigin,whichconstitutesacarbon-neutralfluxsinceitoriginates
+2
+from—andultimatelyreturnsto—theatmosphericcarbonpoolwithoutcontributingto
+netatmosphericCO increase. IndirectcarbonemissionsaremainlyattributabletoCO
+2 2
+emissions resulting from the electricity consumption required to operate the hydraulic
+liftpumpstationlocatedafterthecoarsescreensandthecyclonegritchamberwithinthe
+wastewatertreatmentplant. Thecalculationmethodologiesfortheemissionquantities
+ofthesethreegreenhousegases(CO , CH , N O)originatedfromthemunicipalsewer
+2 4 2
+networkaredetailedinEquations(1)–(3).
+m = F ×EF ×C×β×Q (1)
+CO2f1,i CF CO2 0,i
+m = EF ×C×β×Q (2)
+CH4f1,i CH4 0,i
+m = EF ×PE (3)
+N2Of1,i N2O,PE
+m :thefossil-derivedCO emissions(kgCO )fromthemunicipalsewernetwork
+CO2f1,i 2 2
+ondayi. F : thefossilcarbonfractionforCO emissions,setat12%[7]. EF : theCO
+CF 2 CO2 2
+emissionfactorforthemunicipalsewernetwork(kgCO /kgCOD ),withthevalueof
+2 cr
+0.0124kg/kg. β:theCOD degradationcoefficient,withthevalueof0.6[24].C:theaverage
+cr
+concentrationoforganicmatterinthewastewaterwithinthemunicipalsewernetwork
+(expressedasCODcr),kg/m3. Q : thewastewaterflowvolumeconveyedthroughthe
+0,i
+sewer network on day i, m3. m : the CH emissions (kg CH ) from the municipal
+CH4f1,i 4 4
+sewernetworkondayi. EF : theCH emissionfactorforthemunicipalsewernetwork
+CH4 4
+(kgCH /kgCOD ),withthevalueof0.00105kg/kg.m :theN Oemissions(kgN O)
+4 cr N2Of1,i 2 2
+fromthemunicipalsewernetworkondayi. EF : thepercapitaN Oemissionfactor,
+N2O,PE 2
+whichadoptstheIPCCdefaultemissionfactorforN Ofromwastewaterdischargedto
+2
+aquaticenvironments,specifically0.0035kg/(person·year)[25]. PE:theservedpopulation,
+innumberofpersons.
+Thecarbonemissionintensityofawastewatertreatmentplant(WWTP)referstothe
+amountofcarbonemissionsgeneratedperunitvolumeoftreatedwastewater. Itserves
+asakeymetricforcomparingcarbonemissionsacrossdifferentWWTPs. Thecalculation
+formulasforthedirectcarbonemissionintensityduringthepreliminarytreatmentstage
+areEquations(4)–(6).
+∑t m
+i=1 CO2f1,i
+E = (4)
+CO2f1 ∑t Q
+i=1 0,i
+∑t m ×28
+i=1 CH4f1,i
+E = (5)
+CH4f1 ∑t Q
+i=1 0,i
+∑t m
+i=1 N2Of1,i
+E = ×298 (6)
+N2Of1 ∑t Q
+i=1 0,i
+E : Fossilcarbonemissionintensityinmunicipalsewernetworks,kgCO /m3.
+CO2f1 2
+E : CH emissionintensityinmunicipalsewernetworks,kgCO eq/m3. E : N O
+CH4f1 4 2 N2Of1 2
+
+--- Page 5 ---
+Processes2025,13,3057 5of17
+emissionintensityinmunicipalsewernetworks,kgCO eq/m3. Thevalues28and298
+2
+representtheGlobalWarmingPotentials(GWP)ofCH andN O,respectively[26].
+4 2
+2.3.2. IndirectCarbonEmissionsandEmissionIntensity
+Theindirectcarbonemissionsduringthesewagepretreatmentstageprimarilyorig-
+inate from the electricity consumption during the operation process. This specifically
+includestheenergyuseofhydraulicliftinginwastewaterpumpingstationsandmechani-
+calagitationinvortexgritchambers. Thecalculationofcarbonemissionsatthisstageis
+showninEquation(7).
+m =W ×EF (7)
+ej,i j,i e
+m : thecarbonemissions(kgCO eq)resultingfromelectricityconsumptionunder
+ej,i 2
+scenariojondayi,wherej=1representstheoperationalscenarioofthesewagepumping
+stationatthewastewatertreatmentplant, andj=2representstheoperationalscenario
+oftheaeratedgritchamber. W : theelectricityconsumption(kW·h)underscenariojon
+j,i
+dayi. EF : Emissionfactorfortheregionalgridelectricity,kgCO eq/(kW·h). Thevaluefor
+e 2
+theCentralChinaregionalgrid,0.8587kgCO eq/(kW·h),isselected[27].
+2
+Thecalculationofcarbonemissionintensityofelectricityconsumptionduringthe
+preliminarytreatmentphaseisinEquation(8).
+∑t m
+E = i=1 ej (8)
+ej ∑t Q
+i=1 0,i
+E : Carbon emission intensity from electricity consumption for scenario j
+ej
+(kgCO eq/m3).
+2
+2.4. CarbonEmissionCalculationintheBiologicalTreatmentStage
+2.4.1. DirectCarbonEmissionsandEmissionIntensity
+AsthecoreoftheAAOprocess,thebiologicaltreatmentstagebearsthekeyfunction
+ofremovingorganicmatterfrommunicipalsewage. Consequently,themajorityofdirect
+carbonemissions(greenhousegasessuchasCH , N O,andCO )aregeneratedinthis
+4 2 2
+stage. Furthermore, this biological treatment stage also involves other forms of carbon
+emissions,asshowninFigure1.
+Figure1showsthesourcesofcarbonemissionsinthebiologicaltreatmentstage:Inthe
+anaerobictank,methanogensdecomposeorganicacids,producingCH ;Intheanoxictank,
+4
+denitrifyingbacteriareduceNO −/NO − toN throughaseriesofintermediateproduct
+3 2 2
+conversions,accompaniedbythegenerationofN O.Furthermore,whendenitrification
+2
+occursintheanoxictank,theinsufficientcarbonsourcesnecessitatetheadditionofexternal
+carbonsources;thisprocessalsoleadstoindirectcarbonemissions. Intheoxidetank,or-
+ganicmatterdecomposesduetoaeration,producingfossil-derivedcarbon. Simultaneously,
+N Oisreleasedduringtheoxidationofammoniaandhydroxylamine[28]. Thecalculation
+2
+ofdirectcarbonemissionsforthisstageisshowninEquations(9)–(12).
+m = [Q ×(COD −COD )×10−3−SG ×P ×ρ ]×EF (9)
+CH4f2,i 1,i 1,i 2,i i v,i s CH4
+EF = B ×MCF (10)
+CH4 0
+m = Q ×(TN −TN )×10−3×EF ×C (11)
+N2Of2,i 1,i 1,i 2,i N2O N2O
+N2
+m = [Q ×(COD −COD )×10−3]×F (12)
+CO2f2,i 1,i 1,i 2,i CF
+m : CH emissionsondayi, kgCH . Q : Influentflowratetothebiological
+CH4f2,i 4 4 1,i
+treatmentstageondayi, m3. COD : AverageinfluentCOD concentrationinthebio-
+1,i cr
+
+--- Page 6 ---
+Processes2025,13,3057 6of17
+chemicalreactiontankondayi,mg/L.COD : AverageeffluentCOD concentrationin
+2,i cr
+the biochemical reaction tank on day i, mg/L. SG: sludge production at the wastewa-
+i
+ter treatment plant on day i, kg. P : Percentage content of organic matter in sludge on
+v
+dayi,%. ρ :ConversionfactorbetweenorganicmatterandCOD insludge,withthevalue
+s cr
+of1.42kgCOD /kgDS.EF : CH emissionfactor, kgCH /kgCOD . B : Methane
+cr CH4 4 4 cr 0
+yield coefficient for anaerobic COD degradation, 0.25 kg CH /kg COD . MCF: CH
+cr 4 cr 4
+correctionfactor,0.03. m : N Oemissionsondayi,kgN O.TN : Averageinfluent
+N2Of2,i 2 2 1,i
+TN concentration in the biochemical tank on day i, mg/L. TN : Average effluent TN
+2,i
+concentrationinthebiochemicaltankondayi,mg/L.EF : N Oemissionfactor(default
+N2O 2
+value: 0.016kgN O-N/kgTN).C / : MolarmassratioofN OtoN ,44/28. m :
+2 N2O N2 2 2 C2Of2,i
+Fossil-derivedCO emissionsfromorganicmatterdecompositioninaerobictanksondayi,
+2
+kgCO .
+2
+Thecalculationofdirectcarbonemissionintensityduringthebiologicaltreatment
+phaseisprovidedinEquations(13)–(15).
+∑t m ×28
+i=1 CH4f2,i
+E = (13)
+CH4f2 ∑t Q
+i=1 1,i
+∑t m ×298
+i=1 N2Of2,i
+E = (14)
+N2Of2 ∑t Q
+i=1 1,i
+∑t m
+i=1 CO2f2,i
+E = (15)
+CO2f2 ∑t Q
+i=1 1,i
+E : Methaneemissionintensityfromanaerobicdigestion,kgCO eq/m3. E :
+CH4f2 2 N2Of2
+Nitrousoxideemissionintensityfromtheanoxic-aerobicphase,kgCO eq/m3. E :
+2 C2Of2,i
+Fossil-derivedcarbonemissionintensityfromorganicmatterdecompositioninaerobic
+tanks,kgCO /m3.
+2
+2.4.2. IndirectCarbonEmissionsandEmissionIntensity
+Aerationconstitutesthepredominantfactorcontributingtoindirectcarbonemissions
+during the biological treatment phase. In fully aerated aerobic tanks, microorganisms
+sequentiallydecomposenitrogenousorganicmatterintoNH +-N(ammonification),ox-
+4
+idize NH +-N to NO − (nitritation), and ultimately convert NO − to NO − (nitration).
+4 2 2 3
+Insufficientdissolvedoxygeninaerobictanksseverelyimpedesnitrationwhilepromoting
+thegenerationofbyproductN O[29]. Concurrently,underaerobicconditions,phosphate-
+2
+accumulating organisms (PAOs) regain metabolic activity, enabling them to assimilate
+phosphorusbeyondgrowthrequirementsandultimatelyremoveitfromwastewateras
+phosphateprecipitates. Consequently,aerationinaerobictanksdemandssubstantialelec-
+tricalenergy,therebyinducingsignificantCO emissions. Additionally,indirectcarbon
+2
+emissionsarisefromtheelectricityconsumptionformixedliquorrecirculation, mixing
+inbiochemicaltanks,andsludgereturnfromsecondaryclarifiersandchemicalreagents
+dosedinsecondaryclarifiersanddisinfection. Thecalculationofindirectcarbonemissions
+forthisphaseisprovidedinEquations(16)–(18).
+m =W ×EF (16)
+e3,i 3,i e
+m = m ×EF (17)
+p1,i N,i NaClO
+m = m ×EF (18)
+p2,i PAC,i PAC
+m : Carbonemissionsfromelectricityconsumptionforaeration, internalrecircu-
+e3,i
+lation, sludge return, mixed liquor mixing, and chemical dosing (phosphorus removal
+
+--- Page 7 ---
+Processes2025,13,3057 7of17
+agents/disinfectants)inthebiologicaltreatmentphaseondayi,kgCO eq. W : Purchased
+2 3i
+electricity for the aforementioned processes in the biological treatment phase on day i,
+kW·h. m : Indirect carbon emission equivalent from disinfectant dosing (NaClO) in
+p1,i
+disinfectionunitsondayikgCO eq. m : Disinfectantconsumptionondayi,kg. EF :
+2 N,i NaClO
+Carbon emission factor of sodium hypochlorite, 0.92 kg CO eq/kg [30]. m : Indirect
+2 p2,i
+carbonemissionfromphosphorusremovalagentdosing(PAC)insedimentationtankson
+dayi,kgCO eq. m : Dailyphosphorusremovalagentconsumptionondayi,kg. EF :
+2 PAC,i PAC
+Carbonemissionfactorofpolyaluminumchloride(PAC),1.6kgCO eq/kg[26].
+2
+Thecalculationofthecorrespondingindirectcarbonemissionintensityforthebiologi-
+caltreatmentphaseisprovidedinEquations(19)–(21).
+∑t m
+E = i=1 e3,i (19)
+e3 ∑t Q
+i=1 1,i
+∑t m
+E = i=1 p1,i (20)
+p1 ∑t Q
+i=1 1,i
+∑t m
+E = i=1 p2,i (21)
+p2 ∑t Q
+i=1 1,i
+E : Carbon emission intensity from electricity consumption for aeration, internal
+e3
+recirculation, sludge return, mixed liquor mixing, and reagent of phosphorus precipi-
+tant/disinfectantsinthebiologicaltreatmentphase,kgCO eq/m3. E : Indirectcarbon
+2 p1
+emissionintensityfromdisinfectantdosingindisinfectionunits,kgCO eq/m3. E : Indi-
+2 p2
+rectcarbonemissionintensityfromphosphorusremovalagentdosinginsedimentation
+tanks,kgCO eq/m3.
+2
+2.5. CarbonEmissionCalculationofSludgeTreatmentStage
+Sludgetreatment, asacriticalprocessinmunicipalwastewatertreatmentsystems,
+carriessignificantimplicationsforlife-cyclecarbonemissionswithinwastewatertreatment
+plantenvironments. Thisstudysystematicallyanalyzesthecarbonemissioncharacteristics
+acrossvarioussludgetreatmentstages(asillustratedinFigure1),elucidatingtheirprimary
+sourcesandformationmechanisms.
+Theresidualsludgeisgeneratedinsecondaryclarifier.
+Consequently, indirect carbon emissions during sludge treatment stage primarily
+originatefromthreesources: (1)Electricityconsumptionforsludgethickening,mixing,
+coagulantaiddosing,andfilteringpressoperation;(2)Carbonemissionsassociatedwith
+chemicalreagent(PAM)dosing;(3)Dieselcombustionemissionsduringtrucktransporta-
+tionofDewateredsludge.
+WasteActivatedSludgeexhibitssignificantbiphasicseparationcharacteristics,with
+the liquid phase accounting for over 99% of the total volume. In engineering practice,
+a cascade dewatering process is typically employed for mass reduction: Primary me-
+chanicalthickeningreducesmoisturecontentto97%(w/w). Polymericflocculant(PAM)
+dosing precedes belt filterpress treatment to enhance solid-liquid separation efficiency.
+Final belt filter press produces stabilized dewatered sludge with moisture content be-
+low80%(w/w),whichissubsequentlytransportedtoenddisposalfacilitiesviahermeti-
+callysealedskiploaders. Thecorrespondingcarbonemissioncalculationsareprovided
+inEquations(22)–(24).
+m =W ×EF (22)
+e6,i 6,i e
+m = m ×EF (23)
+CO2f3,i PAM,i PAM
+m =V ×ρ ×EF (24)
+CO2exp,i i oil oil
+
+--- Page 8 ---
+Processes2025,13,3057 8of17
+m : Indirectcarbonemissionsfromelectricityconsumptionduringsludgetreatment
+e6,i
+ondayi,kgCO eq. W : Purchasedelectricityforsludgetreatmentprocessesondayi,
+2 6,i
+kW·h. m : IndirectCO emissionsfromcoagulantaiddosingduringsludgedewater-
+CO2f3,i 2
+ingondayi,kgCO eq. m : Massofcoagulantaid(PAM)dosedforsludgedewatering
+2 PAM,i
+ondayi,kg. EF : CarbonemissionfactorofPAM,1.50kgCO eq/kg[31]. m :
+PAM 2 CO2,exp,i
+Indirectcarbonemissionequivalentfromtrucktransportofdewateredsludgeondayi,
+CO eq/kg. V: Diesel consumption for sludge transport trucks on day i, L, with a fuel
+2 i
+consumptionrateof0.25L/km·ton. ρ : Densityofdieselfuel,0.86×103 kg/m3. EF
+oil oil:
+Carbonemissionfactorfordieselcombustion,3.15kgCO eq/kg[26].
+2
+Thecalculationofthecorrespondingindirectcarbonemissionintensityforthesludge
+treatmentstageisprovidedinEquations(25)–(27).
+∑t m
+E = i=1 e6,i (25)
+e6 ∑t Q
+i=1 1,i
+∑t m
+i=1 CO2f3,i
+E = (26)
+CO2f3 ∑t Q
+i=1 1,i
+∑t m
+E = i=1 CO2exp,i (27)
+CO2exp,i ∑t Q
+i=1 1,i
+E : Indirect CO emission intensity from electricity consumption during sludge
+e6 2
+treatment, kgCO eq/m3. E : IndirectCO emissionintensityfromPAMinsludge
+2 CO2f3 2
+dewatering,kgCO eq/m3. E : IndirectCO emissionintensityfromtrucktransport
+2 CO2exp,i 2
+ofdewateredsludge,kgCO eq/m3.
+2
+3. ResultsandDiscussion
+Toquantifythetotalcarbonemissionsandcarbonemissionintensityofawastewater
+treatmentplant(employingtheAAOprocess)inHunanProvince,operationallogdatafor
+2023wereobtained. However,astheselogsonlyprovidedtheplant’saggregateelectricity
+consumption,theyprovedinsufficientforgranularcarbonaccountingacrossindividual
+treatmentunits.Toaddressthislimitation,electricityallocationratiosforAAOprocessunits
+werefromtherelevantliterature[32],enablingapproximationofelectricityconsumption
+pertreatmentstage. Theelectricitydistributionprofileacrosstheplant’streatmentunitsis
+illustratedinFigure2.
+Figure2.CompositionofelectricityconsumptionineachlinkoftheAAOprocessinthewastewater
+treatmentplant.
+
+--- Page 9 ---
+Processes2025,13,3057 9of17
+Figure2revealsthatthebiologicaltreatmentstageaccountsfor56.23%oftotalelectric-
+ityconsumption,representingthemostenergy-intensivestagethroughoutthewastewater
+treatmentprocess.Thispredominanceisprimarilyattributedtoaerobicaerationandsludge
+return,whichcollectivelyconstitute42.56%oftheplant’stotalelectricitydemand. Concur-
+rently,thepreliminarytreatmentstagecontributes22.29%tooverallconsumption,largely
+drivenbysewagepumpingstations. Meanwhile,sludgetreatmentaccountsfor21.28%of
+totalelectricityusage,withbeltfilterpressoperationexhibitingthehighestenergyintensity
+(6.54%)withinthisstage.
+Giventhatcertaincarbonemissionsourcedenominationsexhibitexcessivelengthfor
+graphicalrepresentation,abbreviationsareadoptedforallemissionsources,asspecified
+inTable2.
+Table2. Namesofcarbonemissionsourcesandtheirabbreviationforthethreetreatmentstages,
+includingtheemissionsandemissionofeachsource.
+Emission Intensity
+Phase CarbonSource Abbreviation
+(kg/y) (kgCO eq/m3)
+2
+Fossil-derived
+CO f 13,780 0.00018
+CO 2 1
+2
+Pretreatment Methane CH f 1389 0.00052
+4 1
+stage Nitrousoxide N Of 1702 0.00676
+2 1
+Sewageliftingpump e 2,255,517 0.03006
+1
+Cyclonegrit
+e 20,238 0.00027
+chamber 2
+Methane CH f 74,658 0.02786
+4 2
+Nitrousoxide N Of 84,273 0.33275
+2 1
+Fossil-derived
+CO f 1,728,081 0.02303
+CO 2 2
+Biological 2
+Aeration e 3,056,933 0.04074
+treatment 3
+Internalrecirculation e 503,923 0.00672
+stage 4
+sludgereturn e 1,249,690 0.01666
+5
+Mixedliquormixing e 683,029 0.00910
+6
+Chemicalreagentaddition e 196,101 0.00261
+7
+Disinfectants p 818,901 0.01091
+1
+Phosphorusprecipitant p 2,213,548 0.02950
+2
+Sludgethickening e 237,759 0.00317
+8
+Sludgedewateringviafilter
+e 642,553 0.00856
+Sludge pressing 9
+treatment Flocculationaiddosing e 217,557 0.00290
+10
+stage Conveyanceof
+e 661,779 0.00882
+WAS 11
+Sludgeagitation e 393,627 0.00525
+12
+Coagulantaids CO f 13,545 0.00018
+2 3
+Sludgetransportation CO exp 518,610 0.00691
+2
+3.1. AnalysisofAccountingResultsinthePretreatmentStage
+Duringthepretreatmentstage,directcarbonemissions—specificallyCO ,N O,and
+2 2
+CH generatedfrommunicipalsewernetworks—wereincorporatedintotheaccounting
+4
+framework. Thiscriticalstepisconventionallyoverlookedintraditionalaccountingmeth-
+ods,despitetheseemissionsconstitutinganon-negligibleshareofthetotalcarbonfootprint.
+QuantitativeresultsarepresentedinFigure3andTable2.
+As evidenced in Figure 3, carbon emission sources exhibit substantial variations.
+Table 3 summarizes the direct and indirect carbon emissions during the pretreatment
+stage. Analysis reveals that direct emissions amount to 17 t CO eq/y, while indirect
+2
+emissions reach 2276 t CO eq/y, 135-times higher than direct emissions. This demon-
+2
+stratesthatcontrollingindirectcarbonemissionsiscriticalforeffectivemitigationinthe
+pretreatmentstage.
+
+--- Page 10 ---
+Processes2025,13,3057 10of17
+Figure3.Theemissionandintensityofeachcarbonemissioninthepretreatmentstage.
+Table3.Carbonemissionandemissionintensityofthethreetreatmentstagesandthewholeplant
+aredividedintothreemajoremissiontypesandsixemissionsources.
+DirectEmission ElectricityEmission ChemicalEmission
+Phase TotalEmission
+CO2-Fossil CH4 N2O CO2-Electricity CO2-Chemical CO2-Transportion
+Emission
+Pretreatment 14 35 507 2276 - - 2832
+(tCO2eq/y)
+stage
+Intensity
+(kgCO2eq/m3) 0.00018 0.00052 0.00672 0.03033 - - 0.03775
+Emission
+Biological 1728 1866 25,113 5690 3032 - 37,429
+(tCO2eq/y)
+treatmentstage
+Intensity
+(kgCO2eq/m3) 0.02303 0.02786 0.33275 0.07583 0.04041 - 0.49988
+Emission
+Sludge - - - 2153 14 519 2686
+(tCO2eq/y)
+treatmentstage
+Intensity
+(kgCO2eq/m3) - - - 0.0287 0.00018 0.00691 0.03579
+Emission
+1742 1901 25,620 10,119 3046 519 42,947
+Wholeplant (tCO2eq/y)
+Intensity
+(kgCO2eq/m3) 0.02321 0.02838 0.33947 0.13486 0.04059 0.00691 0.57342
+Seen from the perspective of emission, fossil-derived carbon emissions (CO f )
+2 1
+in municipal sewer networks exhibit the lowest specific emission and are statistically
+negligible. Furthermore, both methaneequivalent emission intensity (CH f ) in sewer
+4 1
+networks and equivalent emission intensity of cyclone grit chambers (e ) fall below
+2
+0.005kgCO eq/m3,indicatingtheyarenon-prioritysourcesformitigation. Conversely,
+2
+bothnitrousoxide-equivalentemissionintensity(N Of )andcarbonemissionintensity
+2 1
+ofliftingpumpstationsexceed0.005kgCO eq/m3,representingthecriticaltargetsfor
+2
+carbonreductioninpretreatment. Notably,pumpstationmitigationshouldenjoypriority,
+with the adoption of the following measures. Firstly, to enhance energy efficiency via
+high-efficiency equipment retrofitting, variable frequency drive (VFD) technology and
+hydrauliccalculation optimization. Secondly, to adopt intelligent control systemssuch
+as IoT sensors for real-time monitoring of wet-well levels and pipe network flow, and
+AI-drivenpumpoperationoptimizationalgorithms.
+3.2. AnalysisofAccountingResultsintheBiologicalTreatmentStage
+Thebiologicaltreatmentstageisthecoreprocessinwastewatertreatment,withits
+decisive role being unequivocal. This phase exhibits the highest levels of both direct

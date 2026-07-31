@@ -1,0 +1,437 @@
+--- Page 1 ---
+Archives of Environmental Protection PL ISSN 2083-4772
+Vol. 51 no. 4 pp. 38–49 DOI: 10.24425/aep.2025.157227
+© 2025. The Author(s). This is an open-access article distributed under the terms of the Creative Commons Attribution-
+ShareAlike 4.0 International Public License (CC BY SA 4.0, https:// creativecommons.org/licenses/by-sa/4.0/legalcode),
+which permits use, distribution, and reproduction in any medium, provided that the article is properly cited.
+Comparative analysis of calculation tools for estimating
+carbon footprint of wastewater treatment plants:
+methodologies and emission factors
+Paulina Szulc-Kłosińska1*, Ewa Zaborowska2, Jacek Mąkinia2, Zbysław Dymaczewski1
+1Poznań University of Technology, PUT, Poland
+2Gdańsk University of Technology, GUT, Poland
+* Corresponding author’s e-mail: paulina.szulc24@gmail.com
+Keywords: GHG emissions; CF validation; Emission factors; Nitrous oxide; Methane; Sustainable Development
+Goals; Sustainability
+Abstract: Wastewater treatment plants (WWTPs) are significant sources of greenhouse gas (GHG) emissions, particularly
+methane (CH) and nitrous oxide (NO). This study compares two widely used carbon footprint (CF) calculation tools,
+4 2
+CFCT and ECAM, and validates their results with a self-developed Validation Tool. The findings reveal substantial
+differences in CF estimates, with ECAM reporting emissions more than twice as high as those computed by CFCT. The
+Validation Tool, which incorporates site-specific empirical emission factors (EFs), estimates emissions approximately
+80% lower than the other tools. The analysis identifies key methodological limitations, including the oversimplification
+of NO emissions in CF models, inconsistencies in EF selection, and the lack of standardized validation methodologies.
+2
+The study underscores the need for refining CF methodologies by integrating real-world operational data and establishing
+harmonized validation frameworks to enhance the reliability of emissions accounting.
+Abbreviations IPCC – Intergovernmental Panel on Climate Change
+JHB – Johannesburg (BNR configuration)
+AD – Anaerobic Digester N – Total Nitrogen
+tot
+AR – Assessment Report PE – Population Equivalent
+BEAM – Biosolids Emissions Assessment Model PWWTP – Poznan Wastewater Treatment Plant
+BNR – Biological Nutrient Removal PS – Primary Sludge
+BOD – 5-day Biochemical Oxygen Demand RS – Results Set
+5
+CF – Carbon Footprint S1, S2, S3 – Scope 1, Scope 2, Scope 3
+CFCT – Carbon Footprint Calculation Tool SDG – Sustainable Development Goal
+CHP – Combined Heat and Power TN – Total Nitrogen
+COD – Chemical Oxygen Demand v – Version
+COe – Carbon Dioxide Equivalent WaCCliM – Water and Wastewater Companies for Climate
+2
+DEFRA – Department for Environment, Food & Rural Affairs Mitigation Project
+ECAM – Energy Performance and Carbon Emissions WAS – Waste Activated Sludge
+Assessment and Monitoring WBCSD – World Business Council for Sustainable Development
+EF – Emission Factor WRI – World Resources Institute
+FTIR – Fourier-Transform Infrared Spectroscopy WWT – Wastewater Treatment
+GHGs – Greenhouse Gases WWTP – Wastewater Treatment Plant
+GWP – Global Warming Potential
+Introduction to environmental burdens due to high energy use and greenhouse
+gas (GHG) emissions, especially methane (CH) and nitrous
+4
+Wastewater treatment plants (WWTPs) play a crucial role in oxide (NO), which strongly influence climate change.
+2
+urban infrastructure by ensuring water quality and regulatory Reducing these two aspects while meeting strict regulations is
+compliance (Zhang et al. 2024). However, they also contribute a key challenge (Asadi et al. 2024). Emission levels vary due
+
+--- Page 2 ---
+Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants 39
+Table 1. Scope 1 process emissions calculation completeness – comparison of the CF tools selected for the in-depth analysis
+Nitrogen-based Organics-based
+Biogas-based calculation
+calculations calculation
+Tool CH emission
+N O emission CH emission 4
+name 2 4
+BNR Recipient BNR Recipient Combustion Leakage Upgrading Slip
+Possibility of
+COD
+CFCT N TN effluent Not Calculated calculation Calculated as default
+denetrified influent
+v2014 (removed) load calculated as Scope 1 as Scope 1 if Scope 1
+load
+needed
+Possibility of
+COD BOD
+CFCT N TN effluent Considered calculation Calculated as default
+denetrified influent effluent
+v2024 (removed) load as biogenic as Scope 1 if Scope 1
+load load
+needed
+BOD BOD Possibility of
+TN influent TN effluent Considered Calculated as
+ECAM influent effluent calculation as Scope
+load load as biogenicw default Scope 1
+load load 1 if needed
+TN – total nitrogen, COD – chemical oxygen demand, BOD – biochemical oxygen demand
+to regional differences in plant design, operational practices, The influence of changing GWP values on long-term
+technologies and local conditions, making accurate assessment emission estimates remain unaddressed. This study
+difficult (Toivonen and Räsänen 2024). The carbon footprint addresses these issues by assessing open-access CF tools and
+(CF) is a tool that is widely used to quantify and reduce WWTP proposing a refined validation framework. It incorporates
+emissions, supporting both operational optimization and site-specific EFs and updated GWPs to boost accuracy and
+policy objectives such as the European Green Deal. However, adaptability. By improving CF methodologies, it enables
+CF assessments often rely on default emission factors (EFs) more reliable reporting, aids tool selection, and supports the
+and global warming potential (GWP) values, even in advanced development of standardized calculators. The findings offer
+scenario analysis. valuable guidance for utility managers, policymakers, and
+Existing CF tools have notable limitations (Fighir et al. researchers in achieving globally consistent WWTP emission
+2019), as many rely on fixed emission factors (EFs), causing assessments.
+inaccuracies under specific facility conditions. Inconsistencies
+with IPCC guidelines, including outdated GWPs and EFs, Materials and methods
+reduce credibility (Massara et al. 2017) and hinder cross-tool
+validation. Biogenic emissions, CH leakages, and NO from CF calculation tools
+4 2
+biological treatment are often over- or underreported, leading Supported by the broad adoption, two open-access CF tools
+to incorrect and incomplete CF estimates. were selected for comparison: Tool 1 - CFCT (versions 2014
+Current studies on WWTP GHG emissions reveal and 2024) from Sweden (CFCT 2014, CFCT 2024), and Tool
+significant gaps (Toivonen and Räsänen 2024). There is no 2 - ECAM (WaCCliM 2024) from Germany. CFCT 2014 uses
+standardized framework for comparing CF outputs across 2007 GWP values (Pachauri and Reisinger 2007) and allows
+different plant configurations (Huang et al. 2022), and limited users to modify calculations. CFCT 2024 incorporates updated
+validation using real-world data or regional traits (Faragò EFs and GWPs (Lee and Romero 2023), but its equations and
+et al. 2022). The temporal effects of revised GWPs on CF default factors are not user-editable. ECAM is a web-based tool
+assessments are underexplored (Wei et al. 2024). Research employing default equations, EFs, and GWP values (Pachauri
+often focuses on specific technologies, overlooking broader and Meyer 2014); however, users may request computation
+CF tool relevance (Lotfikatouli et al. 2024). Furthermore, model changes via its developers. Both CFCT (Nejad 2020)
+fugitive CH and NO emissions remain underreported, and CF and ECAM (Tian et al. 2022) have been widely used in research
+4 2
+calculators lack empirical validation, limiting their decision- (Saidan et al. 2019). Table 1 presents a comparison of Scope
+making utility. As a result, researchers rarely justify their 1 process emission components and EF considerations in both
+choice of CF tools or compare outputs, leading to inconsistent tools, with a particular focus on N₂O and CH₄ to highlight
+conclusions (Tian et al. 2022). methodological similarities and differences.
+Despite growing adoption of CF tools, gaps in
+standardization and validation persist. No unified framework CF validation tool
+exists for comparing outputs across WWTP types, and real- The CF algorithm for the municipal WWTP in this study follows
+world data use is limited in regions with poor infrastructure. the GHG Protocol guidelines (WRI, WBCSD 2014) and IPCC
+
+--- Page 3 ---
+40 Paulina Szulc-Kłosińska, Ewa Zaborowska, Jacek Mąkinia, Zbysław Dymaczewski
+Figure 1. Study framework.
+standards (IPCC 2019), aligning with EU requirements (EU Fugitive Scope 1 emissions were calculated using total
+2022/2464). The new tool, customized for the facility, includes: nitrogen (TN) load for NO and chemical oxygen demand
+2
+Scope 1 emissions: (COD) load for CH. Emissions from biogas used for heat and
+4
+a. NO from bioreactors and recipient, electricity were excluded as renewable, but leakage losses and
+2
+b. CH from bioreactors and recipient, incomplete combustion were included.
+4
+c. CH from sludge management, biogas production, and on-
+4
+site use. Stepwise analysis procedure
+Supporting activity emissions: A stepwise procedure was developed to compare the analyzed CF
+● Fossil fuel consumption in on-site power units tools. Figure 1 presents the overall study structure, and Figure 2
+Scope 2: electricity consumption from external grid. illustrates the multi-stage evaluation approach. Six distinct CF
+Figure 2. The concept of Step 3.
+
+--- Page 4 ---
+Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants 41
+Figure 3. Overview of CF structure: scopes of GHG emission (based on [39]). Red dotted line presents calculation boundaries
+of this study.
+results were generated, enabling comparison between default Step 4: Comparison and analysis of the results (section 4)
+tool-based GHG emission factors (EFs) and those recalculated The structured comparison reveals that changes in EFs and
+using updated and site-specific empirical EFs and GWPs. To GWPs significantly affect CF results, pinpointing key areas for
+validate these outputs, an independent algorithm developed by optimizing GHG mitigation.
+the authors was used. This structured comparison allowed the
+identification of key contributors to direct emissions (NO and Step three, shown in Figure 2, is the study’s critical phase.
+2
+CH), ensuring that the most impactful parameters inform the GWP values from IPCC reports: 2007 (Pachauri and Reisinger
+4
+final methodological recommendations. 2007), 2014 (Pachauri and Meyer 2014), and 2021 (Lee and
+Romero 2023), were combined with default EFs in the CF tools.
+Step 1: Setup of the calculation boundaries (section 2.4) The self-developed algorithm included all GWPs and empirical
+The process begins with the setup of CF calculation boundaries. EFs. Two approaches were used: a horizontal comparison
+Each tool analyzed covers the scope of the analysis. assessed the impact of GWP updates, while a vertical comparison
+Step 2: Collection of data (section 2.6) evaluated results based on different EF values.
+The tools incorporate a primary dataset comprising annual qualitative
+and quantitative operational data from the studied WWTP, ensuring Setup of the calculation boundaries
+consistent full-scale input. Additionally, a dedicated measurement Recently, CF has been used as a tool for controlling GHG
+campaign at the Poznań WWTP provided full-scale GHG emission impacts (Maktabifard et al. 2019). The GHG Protocol (WRI,
+data for estimating empirical EFs (NO and CH) specific to the WBCSD 2014) defines three CF scopes (Figure 3). Scope 1 (S1)
+2 4
+facility’s BNR (Biological Nutrient Removal) process. includes direct emissions – particularly NO emissions from
+2
+Step 3: CF calculations and validation (section 3) BNR processes, and CH emissions from anaerobic stages and
+4
+The selected CF tools and collected data were used to perform sludge treatment with biogas. Scope 2 (S2) covers emissions
+calculations. The comparison applied various CH and NO from purchased energy, while Scope 3 (S3) involves indirect
+4 2
+GWP updates and default EFs to evaluate their impact on CF emissions, such as those associated with chemical production
+results. Each outcome was then verified using Tool 3, which or by-product disposal beyond the WWTP’s value chain.
+incorporates EFs from the GHG measurement campaign and This research targets only S1 and S2 emissions within
+includes all GWP sets. WWTP boundaries, as these are prioritized by regulations
+
+--- Page 5 ---
+42 Paulina Szulc-Kłosińska, Ewa Zaborowska, Jacek Mąkinia, Zbysław Dymaczewski
+Table 2. Summary of the WWTP’s annual average characteristics (2021).
+Unit Influent Effluent
+Flowrate m3/d 100,000
+COD gO /m3 1,240 49.9
+2
+BOD gO /m3 550 3.7
+5 2
+TN gN/m3 100 9.4
+Biogas CHP plant External grid
+Electricity used kWh/a 15,200,000 5,750,000
+Biogas produced/
+Nm3/a 7,760,000 -
+consumed
+Natural gas consumption m3/a 130,000
+(EU 2022/2464, EU 2024/3019) and required for compliance uncertainty and limited controllability by WWTP operators
+(Burchart-Korol and Zawartka 2019). This boundary (Ko et al. 2024).
+definition highlights how CF tool selection affects the
+composition and magnitude of WWTP GHG emissions Study site
+(Awaitey 2021). S3 emissions, including those from chemical The Poznań WWTP (PWWTP) is one of the largest wastewater
+production and third-party transport, are excluded due to high treatment plants in Poland, treating about 100,000 m³/day
+Figure 4. The idea of wastewater and sludge treatment processes employed in the investigated facility with GHG emission
+hotspots included in assessment.
+
+--- Page 6 ---
+Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants 43
+Figure 5. CF calculation results: a) Total CF (Scopes 1&2), tCOe/year; b) CF elements, tCOe/year c) Total CF composition -
+2 2
+Scopes,%
+of wastewater from Poznań and surrounding areas. It serves Data collection
+up to 1,000,000 population equivalents (PE; 1 PE = 60 g
+BOD₅). The plant operates using a Johannesburg (JHB) BNR Routine data
+configuration, consisting of six activated sludge bioreactors The CF assessments are based on the 2021 routine operational
+with a total volume of 25,500 m³ each. The treated effluent is dataset from PWWTP (Table 2). Average influent and effluent
+discharged to the Warta River after secondary clarification. concentrations of COD, BOD and TN were provided by the
+5
+All facilities related to primary sludge management are plant operator, derived from biweekly sampling. Quantitative
+hermitized and connected to dedicated biofilters. Primary data on flow rates, fuel and biogas consumption, and energy
+and waste activated sludge are thickened and anaerobically production and use were obtained from water, gas, and
+digested at 35°C in digesters with a total volume of 29,760 electricity meters.
+m³. The digested sludge is then dewatered and incinerated Emission factors
+externally. Biogas produced in the digesters is utilized in on- In September 2021, a -day full-scale measurement campaign
+site combined heat and power (CHP) units to generate heat was conducted at PWWTP. The campaign included routine
+and electricity, with energy demand supplemented by the data collection, sampling, laboratory analyses, and off-gas
+electrical grid and gas boilers. Figure 4 shows the PWWTP measurements in biological reactors. These data were used
+layout. to calculate direct N₂O and CH₄ emission factors (EFs) and
+
+--- Page 7 ---
+44 Paulina Szulc-Kłosińska, Ewa Zaborowska, Jacek Mąkinia, Zbysław Dymaczewski
+Figure 6. Process emission composition, CH and NO as % of total (Scope1&2) CF
+4 2
+to apply them in Validation Tool 3. The PWWTP operates in CH/NO contributions to CF, with EF variations exerting
+4 2
+autonomously, with dissolved oxygen (DO) levels regulated a stronger influence. Total CF trends align with IPCC’s GWP
+through ammonia-based control. For this study, the average revisions for NO. For example, when using the Validation
+2
+DO concentration was maintained at 1.0 ± 0.3 mg O₂/L and the Tool without EF changes, total CF decreased from 10,344
+average inflow rate was 600.0 ± 29.8 m³/h. tCOe/year under GWP 2007 to 10,077 tCOe/year (-2.58%)
+2 2
+Emission factors were determined by measuring four under GWP 2021, and 9,995 tCOe/year (-0.81%) under GWP
+2
+points in the aerobic compartment for one hour each, at five- 2014 (Figure 5a). Comparing Tool 3 results (Figure 6), CH₄’s
+minute intervals, using a FTIR analyzer (Gasmet DX 4000) share within S1 increased by 2%, corresponding to an 8.8%
+with a floating hood. Wastewater samples were collected at rise in its GWP value (from 25 to 27.2). Similarly, CFCT
+each measurement point, and the Gasmet was calibrated daily. v2014 and v2024 show a 13% drop in total CF, from 54,366
+To minimize uncertainty, the optimal GHG measurement point t COe/year (GWP 2021) to 47,303 t COe/year (GWP 2014).
+2 2
+was identified prior to campaign. Final EFs, expressed as kg The horizontal comparison evaluates the impact of default
+COe per kg COD (for CH) and per kg TN (for NO), were vs. empirical EFs on CF estimates. Using default EFs, CFCT
+2 4 2
+weighted according to compartment area and gas flux. (v2014, v2024) and ECAM v2024 consistently show higher
+process GHG emissions than Tool 3, which uses empirical
+Results EFs. Tool 1 and Tool 2 report significantly higher annual CFs
+- by 18,192, 16,718, and 17,068 tCOe, respectively - than
+2
+Figures 5 and 6 present CF results comparing the effects of the Validation Tool (Figure 5a). Within Tool 1, the difference
+GWP and EF variations. CFCT v2014 estimates 29,310 between versions is small (459 t COe/year), a 2.1% drop
+2
+tCOe /year, slightly decreasing to 28,730 tCOe /year in from v2014 to v2024. Figure 6 further illustrates how EF
+2 2
+v2024. ECAM reports a significantly higher 54,370 tCOe / changes affect both CF magnitude and emission composition.
+2
+year - more than twice the CFCT values. The Validation Tool, ECAM v2024 uses BOD-based EFs, alternative recipient
+adjusted for three GWP scenarios, yields considerably lower assumptions, and IPCC (2019) tier approaches, leading to
+results of 10,340-10,080 tCOe /year (Figure 5a). S1 fugitive higher CH emissions. Its role differs further as CFCT v2014
+2 4
+emissions dominate the CF composition (Figure 5b), especially omits emissions from the recipient. These differences highlight
+CH and NO emissions from biological processes. In CFCT diverse approaches to biogenic process emissions. A distinct
+4 2
+v2014, these account for 22,280 tCOe/year (76% of total), and divergence in NO-related CF levels is seen between Tool 1
+2 2
+21,820 tCOe/year in v2024. ECAM estimates 47,300 tCOe/ and Tool 2 (Figure 7). NO emissions strongly influence CF
+2 2 2
+year, representing over 87% of its total, with CH₄ from BNR due to EF selection. CFCT versions use 2010 EFs (Foley et al.
+and NO from effluent discharge being ~211% higher than in 2010), whereas ECAM applies IPCC 2019 values, which are
+2
+CFCT v2024. Biogas-related emissions, including CH₄ leakage 37.6% higher.
+and slip, are also critical. CFCT v2014 and v2024 estimate
+2,400 and 2,600 tCOe /year, respectively; ECAM shows 2,410 Discussion
+2
+tCOe/year, while the Validation Tool reports 1,930 tCOe /
+2 2
+year across GWPs (Figure 5b). Natural gas-related emissions CF estimates differ among the analyzed tools due to variations
+are smaller but vary slightly: CFCT v2014 reports 0.321 in emission factors (EFs), GWP constants, and calculation
+tCOe /year, v2024 shows 0.239 tCOe /year, and ECAM and methods. S1 process emissions dominate the total GHG fluxes
+2 2
+Validation Tool each yield approximately 0.259 t COe/year. in all tools, particularly in CFCT (both versions) and ECAM,
+2
+Scope 2 electricity-related emissions are relatively consistent: more than in the Validation Tool. S2 emissions, associated
+4.30 tCOe/year (CFCT v2014), 4.10 tCOe/year (v2024), and with purchased electricity, remain more consistent - showing
+2 2
+~4.07 tCOe/year (ECAM, Validation Tool). GWP updates from only a 7.5% variation - due to uniformly applied grid-based
+2
+2007 to 2021 cause minor changes in total GHG emissions and EFs. These results show that EF selection and methodology
+
+--- Page 8 ---
+Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants 45
+differences exert a greater impact on calculated S1 emission The tool comparison, which shows only minor variations
+levels than GWP updates. This underscores the need for in S2 emissions, confirms the relevance of CF for sustainable
+developing standardized CF methods to enhance comparability energy optimization (Szaja and Bartkowska 2024).
+and accuracy in WWTP assessments. Differences in anaerobic-related fugitive emissions support
+Heatmaps (Figures 7 and 8) visualize deviations from the Fighir et al.’s (2019) recommendations for harmonized
+mean CF estimates by category (tCO₂e/year), using a blue-to- biogas integration in CF tools, as biomethane recovery
+red gradient to indicate negative to positive variations. Despite is not fully accounted for. Findings align with previous
+differences in accounting methods, CH and NO emissions research suggesting that energy-efficient upgrades, such as
+4 2
+from recipients remain relatively consistent (Figure 7). CFCT aeration systems, can reduce S2 emissions (Maktabifard et
+v2014 excludes CH from recipient pathways, resulting in al. 2021). The tools show limitations in addressing regional
+4
+slightly lower process-related CF values. ECAM’s higher and site-specific variability, causing potential biases in CF
+NO emissions suggest that its BNR-specific EFs cover more estimates. This study also confirms the dominance of N₂O in
+2
+emission pathways. Both CFCT versions yield similar results, biological emissions (Maktabifard et al. 2021), with CH₄ and
+indicating minimal methodological or EF-related changes over N₂O forming over 80% of S1 emissions (Smith et al. 2019).
+the past decade. Conversely, Validation Tool results show that Persistent inconsistencies in CFCT and ECAM’s treatment of
+GWP updates have a smaller effect than EF adjustments, as CF sludge and biogas emissions highlight the need for flexible,
+values remain stable across the GWP scenarios. region-specific EFs (Jiménez-Paute 2025) and updated GWPs
+Figure 8 illustrates how the CF associated with biogas to support accurate policy reporting.
+combustion varies across the tools. CFCT v2014 links biogenic The findings underscore the need for CF tools to adapt
+CO to direct emissions, whereas CFCT v2024 and the other to site-specific conditions and evolving regulations, ensuring
+2
+tools exclude it, based on IPCC (2019) guidelines. CFCT v2014 that emissions estimates accurately reflect operational data
+assumes a high biogas capture efficiency, showing the lowest and align with policy goals. Given the discrepancies observed
+CH leakage, while v2024 shows moderate leakage, aligning across tools, this study recommends a harmonized validation
+4
+more with operational realities. ECAM and the Validation Tool framework using site-specific EFs and updated GWPs to
+report higher leakage, stressing the significant contribution correct for generalized assumptions. Accounting for variability
+of fugitive CH₄ to total CF. Analysis of biogas slip emissions in fugitive emissions is essential to improve CH and NO
+4 2
+during upgrading reveals major methodological differences estimates, as these gases significantly influence WWTP CF.
+among CF tools. Both CFCT v2014 and v2024 show higher- Enhancing CF tools to capture these trends will support more
+than-average emissions, indicating alignment with Swedish effective mitigation, reduce reporting uncertainty, and improve
+WWTP operations, which are not captured in the other tools. decision-making in WWTP operations.
+Figure 8. Heatmap of deviations from mean emissions by This study provides valuable insights into CF estimations
+category - biogas, tCOe/year (2021). for WWTPs, yet there remain opportunities to expand and
+2
+ECAM and the Validation Tool, reflecting Central refine the analysis. Extending the dataset to multi years or
+European norms, exclude biogas slip due to its limited presence facilites could better capture GHG variability. While this study
+in the region. Although CFCT v2014 covers a broader range of focuses on Scope 1 and Scope 2 emissions, future work could
+biogas-related categories, it reports the lowest total emissions, incorporate Scope 3 emissions to assess a fuller environmental
+showing that broader boundaries do not necessarily yield footprint. Including CF tools from additional regions, such
+higher CF values. In contrast, CFCT v2024 includes biogas as Australia, would further broaden the analysis. Differences
+slip, resulting in the highest reported emissions. ECAM and in tool structure, input requirements, and output formats,
+the Validation Tool consistently attribute emissions to leakage complicate direct comparisons and highlight the need for
+events, providing a more conservative estimate. The heatmap in methodological harmonization. Operational strategies, such as
+Figure 8 underscores the need for site-specific EF adjustments aeration regimes, which can affect emissions, were not fully
+supported by actual operational data. These differences explored. Integrating such factors could clarify how operations
+highlight the importance of selecting CF tools that reflect a influence CF over time, improving assessment accuracy and
+facility’s actual biogas management scenario, supporting more offering practical guidance for sustainability and emissions
+accurate policy decisions and operational planning. management.
+This study reinforces that CFCT and ECAM tools are This research underscores the potential for adaptive CF
+highly sensitive to EF assumptions (De Haas and Andrews tools using machine learning to calibrate EFs in real time based
+2022). Observed emission levels and CF composition on operational data, thereby improving emission estimation
+highlight the limitations of using uniform EFs, such as those accuracy. The use of real-time data enables long-term trend
+provided by the IPCC, which can cause both overestimation analysis, enhancing predictive insights and supporting
+(De Haas and Andrews 2022) and underestimation (Song operational planning. Site-specific EFs also enhance CF
+et al. 2024) of fugitive emissions. These results support comparability across regions, facilitating the development
+concerns about oversimplified N₂O calculations and of a shared emissions database that reflects the diversity of
+demonstrate that relying on generic EFs fails to capture site- WWTP configurations, climates, and treatment efficiencies.
+specific conditions, especially regarding nitrogen emissions Regional CF models should account for climate, treatment
+(Maktabifard et al. 2021). Empirical BNR EFs derived in this technologies, and regulations, including standardized methods
+study challenge the default value of 1.1% TN suggested by for biogenic emissions accounting. The influence of climate
+De Haas and Andrews (2022), showing instead ~0.11% TN change, such as extreme weather events, on CFs warrants
+for the investigated facility. further investigation, given its impact on treatment efficiency
+
+--- Page 9 ---
+46 Paulina Szulc-Kłosińska, Ewa Zaborowska, Jacek Mąkinia, Zbysław Dymaczewski
+Figure 7. Heatmap of deviations from mean emissions by category - process, tCOe/a (2021).
+2
+Figure 8. Heatmap of deviations from mean emissions by category - biogas, tCOe/a (2021).
+2
+
+--- Page 10 ---
+Comparative analysis of calculation tools for estimating carbon footprint of wastewater treatment plants 47
+and emissions. Additionally, in-situ measurements of biogas 10.24425/aep.2019.128640.
+leakage are critical to establish more accurate benchmarks than Carbon Footprint Calculation Tool (CFCT). (2014). VA-teknik
+those based on generalized assumptions. Södra. [software] Retrieved on October 3, 2024 from https://
+Future research should investigate how resource recovery, va-tekniksodra.se/2014/11/carbonfootprint-calculation-tool-for-
+particularly circular economy strategies, can contribute to wwtps-now-available-in-english/
+reducing CF. The development of internationally recognized Carbon Footprint Calculation Tool (CFCT). (2024). VA-teknik Södra.
+validation protocols is essential to standardize emissions [software] Retrieved on November 3, 2024 from https://va-
+reporting. Additionally, WWTPs could participate in carbon tekniksodra.se/wp-content/uploads/2014/11/Calculation-Tool-
+markets, using emission reductions achieved through Carbon-Footprint-Wastewater-Treatment-Plants.xls
+biogas recovery to generate credits and support global De Haas, D., & Andrews, J. (2022). Nitrous oxide emissions from
+decarbonization efforts. wastewater treatment - Revisiting the IPCC 2019 refinement
+guidelines. Environmental Challenges, 8, 100557. https://doi.
+Conclusions org/10.1016/j.envc.2022.100557
+Faragò, M., Damgaard, A., Rebsdorf, M., Nielsen, P. H., & Rygaard,
+This study highlights substantial discrepancies in CF estimates M. (2022). Challenges in carbon footprint evaluations of state-
+for WWTPs across different tools, primarily driven by of-the-art municipal wastewater resource recovery facilities.
+variations in EFs, GWP values, and methodologies. Scope 1 Journal of Environmental Management, 320, 115715. https://doi.
+(S1) emissions, especially from BNR processes and fugitive org/10.1016/j.jenvman.2022.115715
+CH and NO, dominate across all tools, whereas Scope 2 (S2) Fighir, D., Teodosiu, C., & Fiore, S. (2019). Environmental and
+4 2
+emissions from electricity remain relatively consistent. ECAM Energy assessment of municipal wastewater treatment plants
+shows higher CFs due to its BOD-based approach, while the in Italy and Romania: a comparative study. Water, 11(8), 1611.
+Validation Tool, using empirical EFs, reports lower values, https://doi.org/10.3390/w11081611
+demonstrating the value of real-world data. Foley, J., De Haas, D., Yuan, Z., & Lant, P. (2010). Nitrous oxide
+The findings confirm concerns regarding the generation in full-scale biological nutrient removal wastewater
+oversimplification of N₂O emissions and the limitations treatment plants. Water Research, 44(3), 831–844. https://doi.
+of default IPCC EFs, which can compromise CF accuracy. org/10.1016/j.watres.2009.10.033
+Although GWP updates from 2007 to 2021 affect results, Huang, Y., Meng, F., Liu, S., Sun, S., & Smith, K. (2022). China’s
+the choice of EFs exerts a greater influence. Variability enhanced urban wastewater treatment increases greenhouse gas
+in biogas emissions across methods underscores the need emissions and regional inequality. Water Research, 230, 119536.
+for standardization. Overall, using empirical EFs notably https://doi.org/10.1016/j.watres.2022.119536
+improves CF accuracy, especially for BNR-related emissions. Intergovernmental Panel on Climate Change. (2019). 2019 Refinement
+As this study is based on a single full-scale WWTP and does to the 2006 IPCC Guidelines for National Greenhouse
+not consider Scope 3 emissions due to limited data availability, Gas Inventories: Guidelines for wastewater treatment and
+the findings should be interpreted within this specific context. discharge (Vol. 5, Chapter 6). https://www.ipccnggip.iges.or.jp/
+Nevertheless, the methodology and results offer a valuable public/2019rf/index.html
+reference point for future studies across diverse wastewater Jiménez-Paute, R., Hidalgo, M., Guaya, D., & Martí-Herrero,
+treatment facilities. J. (2025). Performance of a low-cost full-scale wastewater
+treatment system: Tubular digesters combined with granular
+Acknowledgements filtration for domestic wastewater in the Ecuadorian Amazon.
+Journal of Water Process Engineering, 69, 106797. https://doi.
+This work was financially supported by the Norway Grants org/10.1016/j.jwpe.2024.106797
+2014-2021 under the Polish-Norwegian Research Program Lee, H. and Romero, J. eds. (2023). Climate Change 2014: Sixth
+(Core Call), administered by the National Centre for Research Assessment Report (AR6). Contribution of Working Groups I, II and
+and Development in Poland (grant no. NOR/POLNOR/ III to the Fifth Assessment Report of the Intergovernmental Panel on
+SIREN/0069/2019-00). Climate Change. IPCC, https://www.ipcc.ch/report/ar6/syr/
+Lotfikatouli, S., Pan, Q., Wang, M., Russo, F. M., Gobler, C. J., & Mao,
+References X. (2024). Effective nitrogen removal from onsite wastewater
+using a sequencing aerated biofilm reactor. Journal of Water
+Asadi, A., Verma, A., Yang, K., & Mejabi, B. (2016). Wastewater Process Engineering, 60, 105132. https://doi.org/10.1016/j.
+treatment aeration process optimization: A data mining approach. jwpe.2024.105132
+Journal of Environmental Management, 203, 630–639. https:// Maktabifard, M., Awaitey, A., Merta, E., Haimi, H., Zaborowska, E.,
+doi.org/10.1016/j.jenvman.2016.07.047 Mikola, A., & Mąkinia, J. (2021). Comprehensive evaluation
+Awaitey, A. (2021). Carbon footprint of Finnish wastewater treatment of the carbon footprint components of wastewater treatment
+plants. Master’s Programme in Water and Environmental plants located in the Baltic Sea region. The Science of the
+Engineering (WAT). Aalto Univerity – School of Engineering. Total Environment, 806, 150436. https://doi.org/10.1016/j.
+https://aaltodoc.aalto.fi/items/ef9c9429-deb3-45d5-9f10- scitotenv.2021.150436
+974bf481d394 Massara, T. M., Malamis S., Guisasola A., Baeza J. A., Noutsopoulos
+Burchart, D., Zawartka, P. (2023). Determinants of environmental C., Katsou E. (2017). A review on nitrous oxide (N2O) emissions
+assessment of Polish individual wastewater treatment plants in during biological nutrient removal from municipal wastewater
+a life cycle perspective. Archives of Environmental Protection. and sludge reject water. Science of The Total Environment,

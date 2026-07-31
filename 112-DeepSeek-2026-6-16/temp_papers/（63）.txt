@@ -1,0 +1,540 @@
+--- Page 1 ---
+EcologicalInformatics81(2024)102571
+Contents lists available at ScienceDirect
+Ecological Informatics
+journal homepage: www.elsevier.com/locate/ecolinf
+Evaluation of the role of urban domestic wastewater treatment systems for
+greenhouse gases emissions in China
+Tianxiang Wanga,b,c,d,*, Zixiong Wange, Tianzi Wanga, Ma Shumina, Suduan Hua,
+Shanjun Gaoa, Li Yea, Cui Runfaa, George Arhonditsisb
+aSchool of Ocean Science and Technology, Dalian University of Technology, Panjin 124221, China
+bDepartment of Physical & Environmental Sciences, University of Toronto, Toronto M1C 1A4, Canada
+cKey Laboratory of Coastal Science and Integrated Management, Ministry of Natural Resources, Qingdao 266061, China
+dState Key Laboratory of Lake Science and Environment, Nanjing 210008, China
+eGuangzhou Pearl River Water Resources Protection Technology Development Co. LTD, Guangzhou 510610, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Rapid urbanization has exacerbated the dual challenge of mitigating water pollution and reducing greenhouse
+Greenhouse gas emissions gas (GHG) emissions. The present study offers insights into the actual role of urban domestic wastewater
+Urban domestic wastewater treatment systems treatment systems by shedding light on their capacity to act as GHG emitters. We introduce a modelling
+Carbon neutrality
+framework to calculate GHG emissions from wastewater treatment systems in China over the past two decades.
+Climate change
+Our analysis showed that treated wastewater volume increased by over 4.5 times, but GHG emissions also
+increased by 2.9 times. The annual emissions from wastewater treatment were -on average- nearly 60 Tg CO2-eq
+over the past two decades, accounting for <1% of the total national emissions. We also found a significant spatial
+variability with thirteen developed areas contributing >70% of the GHG emissions. Constructions and operations
+of wastewater treatment systems approximately accounted for 17% and 83% of the GHG emissions, respectively.
+Our study also proposes a hierarchical governance framework based on ten major regions that could maximize
+the efficiency in mitigating water pollution and GHG emissions in China.
+1. Introduction emissions often leads to management solutions that have conflicting
+results, and the construction of wastewater treatment plants (WWTPs) is
+Climate change and environmental pollution are major challenges a case in point. Current global urbanization trends exacerbate the
+that shape the global agenda in establishing a roadmap to achieve sus- problem of domestic wastewater discharges, which has been the focal
+tainable socioeconomic development, while reducing the human foot- point of water pollution control for nearly five decades (Wang et al.,
+print on the environment (Gao and Bryan, 2017; Wang et al., 2019a; 2019b; Zhang and Liu, 2021). The advent of WWTPs has successfully
+Wang et al., 2019b). The Paris Agreement identified as an imperative to addressed the extent and severity of eutrophication phenomena around
+limit the increase of global average surface temperature to <2 ◦C (or the globe, but has also rendered a major source of GHGs that can be
+even 1.5 ◦C) in this century (Lu et al., 2018; Rogelj et al., 2015). Like- produced during the wastewater treatment processes (Nayeb et al.,
+wise, the United Nations Environment Programme: “Making Peace with 2019; Shrestha et al., 2022). Wastewater treatment contributes over
+Nature 2021” states that our focus should be on reducing carbon dioxide 1.6% of global GHG emissions and consumes nearly 3% of the global
+(CO2) emissions and minimizing pollution and waste for the well-being electricity (Lu et al., 2018; McCarty et al., 2011). Being the largest
+of today’s youth and future generations (United Nations Environment developing country, China has experienced rapid urbanization over the
+Programme, 2021). Methane (CH4) and nitrous oxide (N2O) are also past 20 years, with the proportion of urban population increasing from
+important greenhouse gases (GHGs) that have significant global warm- 37.6% in 2001 to 57.8% in 2020 (Yao et al., 2018). Being the world’s
+ing potential estimated to be 28 and 273 times that of CO2 for a 100-year largest carbon emitter, China accounted for 31.1% of global GHG
+timescale (IPCC, 2019). Facing the multifaceted challenges associated emissions and 20.6% of the global urban population in 2020
+with efforts to jointly mitigate environmental pollution and reduce GHG (http://www.globalcarbonatlas.org/en/CO2-emissions). Consequently,
+* Corresponding author at: School of Ocean Science and Technology, Dalian University of Technology, Panjin 124221, China.
+E-mail address: tianxiang@dlut.edu.cn (T. Wang).
+https://doi.org/10.1016/j.ecoinf.2024.102571
+Received 10 March 2024; Received in revised form 19 March 2024; Accepted 22 March 2024
+Availableonline23March2024
+1574-9541/©2024TheAuthors. PublishedbyElsevierB.V.ThisisanopenaccessarticleundertheCCBY-NClicense(http://creativecommons.org/licenses/by-
+nc/4.0/).
+
+--- Page 2 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+the improvement of our understanding of the spatial distribution and of considering the entire chain of UDWTTS and explicitly recognizes
+temporal trends of GHG emissions from WWTPs is essential to aid the their dual role in mitigating water pollution and contributing to GHG
+formulation of development plans that account for the repercussions of emissions. The initial step in urban domestic wastewater management
+rapid urbanization and rising expectations of environmental protection involves the construction of sewage networks and treatment plants,
+(Han et al., 2016; Liu et al., 2021). ensuring the efficient collection and treatment of domestic sewage.
+The construction and daily operation of urban domestic wastewater Subsequently, the wastewater treatment process involves several stages,
+treatment systems (UDWTTS) involves a multitude of complex processes encompassing biological processes, the use of chemicals, electricity
+that can directly (or indirectly) act as GHG sources and sinks (Gallego- consumption, and proper sludge disposal. The treated sewage is then
+Schmid and Tarpani, 2019; Habert et al., 2020; Jin et al., 2014). The discharged into water bodies (Fig. 1a). The effectiveness of sewage and
+construction of sewage treatment facilities and sewer networks requires sludge treatment can be limited by the capacity of facilities or man-
+the extraction of raw materials, supply of fuels/electricity and other agement practices, leading to the direct discharge of untreated sewage
+products that are equivalent to “GHG-emitting” processes (Chen et al., and sludge into the surrounding environment. Collectively, the afore-
+2023; Friedlingstein et al., 2020; Habert et al., 2020). Microbial anabolic mentioned processes constitute the complete urban sewage treatment
+metabolism in aerobic environments can assimilate a fraction of the chain, with each stage contributing to GHG emissions. Treated domestic
+organic matter in wastewater and release GHGs, before the treated water wastewater can reduce pollutant concentrations in tailwater and
+is separated from the sludge in settling tanks. GHG emissions from the improve the water quality of the receiving water bodies. Considering
+daily operations also include the electricity use, material consumption, that GHG production in water bodies is fueled by elevated concentra-
+and anaerobic biological reactions in WWTPs, sewer networks, and tions of particulate and dissolved carbon, nitrogen, and phosphorus (Du
+sludge disposal (Bani Shahabadi et al., 2009; Wei et al., 2020). There is a et al., 2023), the treated domestic wastewater results in a decrease of
+wealth of research aiming to quantify the GHG emissions associated latent GHG emissions from the receiving water bodies. Exploring the
+with WWTPs and to shed light on the contribution of individual urban wastewater treatment chain is thus profoundly valuable to
+wastewater treatment processes. For example, the Intergovernmental comprehensively understand the tradeoffs for the environment between
+Panel on Climate Change (IPCC) proposed using the COD or BOD wastewater treatment and greenhouse gas emissions.
+reduction as a proxy to calculate CH4 emissions from the anaerobic In this study, our key objectives aim to: (i) develop a comprehensive
+treatment processes in WWTPs, and encouraged studies to establish framework to quantify GHG emissions from UDWTTS (GHGdwts),
+robust country-specific GHG emission factors (IPCC, 2006). In addition, comprising the multitude of construction and operation wastewater
+the electricity consumption and material use generate GHG emissions treatment processes; (ii) analyze the characteristics of spatial and tem-
+during the treatment processes (Bani Shahabadi et al., 2009). In sewer poral emission trends from UDWTTS; (iii) analyze the driving factors of
+networks, anaerobic environmental conditions can also be responsible GHG emissions and assess the net environmental benefits of UDWTTS;
+for non-negligible GHG emissions (Jin et al., 2019; Short et al., 2014). (iv) propose governance and management strategies that effectively
+Sludge disposal is another important GHG emission source, and the control GHG emissions from UDWTTS. We first analyzed the role of GHG
+common disposal methods include anaerobic digestion, aerobic emissions from completed UDWTTS in China over the past two decades
+compost, sanitary landfills, sludge incineration, and production of and quantified the contribution of the individual processes involved.
+building materials with GHG emission factors of 960, 731, 1587, 2341, GHGdwts are also expected to display significant variability among
+and 1240 kg CO2-eq/t dry matter, respectively (Wei et al., 2020). provinces and cities. Our working hypothesis is that higher emissions
+Published scholarship based on the IPCC method and region-specific from UDWTTS operations as well as greater environmental benefits (i.e.,
+correction factors has attempted to characterize the temporal trends in water pollution amelioration) must have been brought about in more
+CO2, CH4, and N2O emissions from biological processes in WWTPs, or economically developed Chinese regions. In contrast, higher emissions
+direct wastewater discharges (Ding et al., 2017; Du et al., 2018; Yan from their construction and less discernible environmental benefits
+et al., 2019; Zhao et al., 2019). For example, the Emissions Database for should be the predominant trend in developing regions over the past two
+Global Atmospheric Research (7.0) showed an acceleration in methane decades. Improving wastewater treatment efficiency and wastewater
+emission rates from wastewater treatment and discharge in China and discharge intensity would likely contribute to GHGdwts reduction, while
+the United States from 2001 to 2020, which corresponded to 1.37 and increasing wastewater production, economic growth, and urban popu-
+1.23 times increase, respectively (EDGAR, 2022). Chinese scholars lation size are conducive to GHGdwts increase. Our study concludes by
+similarly used the IPCC method to calculate GHG emissions from proposing a hierarchical governance framework that divides China into
+wastewater treatment in China. Ding et al. (2017) indicated that GHG ten major regions, based on site-specific socioeconomic attributes and
+emissions from wastewater treatment displayed a twofold increase from on-going water quality management targets.
+1990 to 2013, while methane emissions increased by 2.54 times be-
+tween 2000 and 2014 (Du et al., 2018). Likewise, Yan et al. (2019) 2. Methods
+investigated the CH4 and N2O emission factors from biological processes
+in WWTPs and reported a nearly fourfold increase between 2005 and 2.1. GHGdwts modelling framework
+2014. However, a major caveat of the available studies is the lack of
+consideration of the role of construction of wastewater treatment facil- We analyzed the operational processes of UDWTTS to develop a
+ities and sewer networks, the operation processes of material usage, modelling framework for GHGdwts estimation (Fig. 1a and Fig. 1 in the
+electricity consumption, and sludge disposal (Bani Shahabadi et al., Supporting Information or Fig. S1). Urban domestic wastewater is
+2009; Ding et al., 2017; Wei et al., 2020; Yan et al., 2019; Zhao et al., transported through the sewer networks to WWTPs for treatment,
+2019), which can be responsible for significant GHG emissions (Chen generating sludge, and tailwater. GHGdwts comprise emissions from
+et al., 2023; Short et al., 2014; Shrestha et al., 2022). Even more so, the infrastructure construction and operation (Friedlingstein et al., 2020;
+majority of the existing literature has provided short-term estimates on IPCC, 2006; IPCC, 2019). The infrastructure construction mainly refers
+individual treatment processes, which are not suitable to assess the long- to sewage pipes, WWTPs, sludge disposal plants, etc. The operation of
+term GHG emission trends nor do they quantify their relative contri- UDWTTS involved the following steps: In the collection stage, waste-
+bution in space and time. Thus, a comprehensive inventory of GHGs water in closed underground sewers are subject to multitudinous
+collectively emitted from UDWTTS, as well as from individual pro- contaminant degradation reactions, whereby GHGs are released (Jin
+cesses/steps is still profoundly missing (Bani Shahabadi et al., 2009; Du et al., 2019; Short et al., 2014). In the wastewater treatment stage,
+et al., 2023; Yan et al., 2019). biological processes, material usage, electrical consumption in WWTPs,
+Counter to recent work, the present study emphasizes the importance and sludge disposal all generate GHG emissions (Bani Shahabadi et al.,
+2
+
+--- Page 3 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+Fig. 1. (a) Diagram of the wastewater treatment chain, environmental tradeoffs, and individual GHG emission processes; (b) Temporal trends of GHGdwts in China
+and its individual components (error bars represent the 95% uncertainty bounds); (c) Temporal trends of different expressions of GHGdwts in China.
+2009; Jin et al., 2019; Wei et al., 2020). The untreated wastewater, 2019; Short et al., 2014; Wei et al., 2020), can be seen in the Supporting
+untreated sludge, and tailwater of WWTPs that are discharged into the Information section. There are inevitable errors involved in the data
+natural environment also produce GHG emissions (Chen et al., 2023; Du collection process, assumptions made during the GHGdwts calculations,
+et al., 2023). Treated wastewater and sludge are equivalent to reducing while model parameters often varied across regions. For this reason, we
+the pollution load of the natural environment, and thus indirectly used Monte Carlo analysis to examine the robustness of our estimates
+reducing GHG emissions. We calculated the GHGs emitted from un- (Hu et al., 2022), by assigning a nominal 10% uncertainty to the mean
+treated sewage and sludge using the IPCC method, and their difference estimated value for each process considered.
+against the emissions from their treated counterparts can be regarded as Log-Mean Divisia Index (LMDI) method was employed to identify
+indirect GHG reductions. The detailed calculation steps of our GHGdwts the relative importance of various regulatory factors of GHGdwts (Lin and
+modelling framework, based on the previous conceptual description and Long, 2016; Zhao et al., 2010). According to a Kaya-type identity, the
+existing research (Bani Shahabadi et al., 2009; IPCC, 2019; Jin et al., GHG emissions can be decomposed as follows.
+3
+
+--- Page 4 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+GHG dwts=G QH trG eatd ew dts× QQ distr ce ha at re gd ed×Q Tdi Gsch Dar Pged×T PG oD pP ×Pop (1) T Ga Hb Gle 2
+dw ts estimates in China by the year 2025 using artificial neural networks
+(ANN), multiple regression model, linear and curve fitting against time vis-a`-vis
+where GHGdwts represents GHG emissions from UDWTTS; Qtreated is two recently published studies by Du et al. (2023) and Chen et al. (2023).
+treated wastewater; Qdischarged is the total volume of urban domestic Number Methods Results (Tg R2 Equations
+wastewater; TGDP is total gross domestic product; Pop is the population CO2-eq)
+size. The factors considered were the wastewater treatment efficiency y =f(x1, x2)
+(WTE, GHGdwts); wastewater treatment rate (WTR, Qtreated ); wastewater 1 ANN 94 0.994 y is GHGdwts, x1 is
+Qtreated Qdischarged population size, x2 is GDP.
+discharge intensity (WTI, Qd Tis Gch Dar Pged); economic development level (EL, y =1.15 ×x1 +0.01 ×
+TGDP); and population size (PZ, Pop). 2 Multiple 97 0.957 x2–22,056.7
+Pop regression y is GHGdwts, x1 is
+population size, x2 is GDP.
+y =2926.3×+29,150
+2.2. Environmental Kuznets curve
+3 Linear-fitting 102 0.962 y is GHGdwts, x is time
+(year).
+Population and economic growth initially increase wastewater dis- y =20.106×+2504.1×+
+charges, but improvements in wastewater treatment systems become 4 Curve-fitting 106 0.963 30,698
+y is GHGdwts, x is time
+more prevalent, when a threshold level of economic development is
+(year).
+reached. We examined whether there was a Kuznets curve relationship 5 Du et al. <60
+between per capita wastewater treatment fixed investment and per (2023)
+capita GHGdwts. The equation is as follows (Guo et al., 2022; Yao et al., 6 Chen et al. 153–184
+(2023)
+2019):
+y=ax+bx2+c (2)
+0.999, 0.997, and 0.994 for training, validation, and testing, respec-
+where y is per capita GHGdwts; x is per capita wastewater treatment fixed tively. The second approach was a multiple regression model (Table 2),
+investment; a, b, and c are the coefficients. with input and output variables similar to the ANN model. The
+remaining two models were based on linear- and curve-fitting of GHGdwts
+2.3. Prediction methods for GHG emissions data against time (Table 2). Through the comparative analysis of diverse
+models, we can deduce the prospective range of greenhouse gas (GHG)
+Our results showed that economic development, population size, emissions for forthcoming wastewater treatment systems.
+sewage network, WWTPs, wastewater discharged, treated wastewater,
+and wastewater treatment fixed investment were the key factors for 3. Results
+GHGdwts in China (Section 4). According to China’s 14th Five-Year Plan
+(2021–2025), the proportion of the urbanized population is expected to 3.1. Long-term GHGdwts trends in China
+increase to 65% and the growth rate of disposable income per capita will
+be 2.1% by 2025. Considering the data availability and these de- GHGdwts in China increased from 31.9 Tg CO2-eq in 2001 to 92.5 Tg
+mographic and economic projections together with their strong corre- CO2-eq in 2020, displaying a local peak in 2010 with a value of 67.6 Tg
+lation to the rest of the potential influencing factors (R >0.90, Table 1), CO2-eq, due to the influence of the accelerated UDWTTS constructions
+we tried to use the population, economic and time indicators to develop (Fig. 1b). The average GHGdwts was 59.8 Tg CO2-eq over the past 20
+four models for prediction the GHG emissions from wastewater treat- years, accounting for 0.80% of the total national GHG emissions. In
+ment systems. The first model was ANN model (Table 2). Considering terms of the relative contribution of individual wastewater processes to
+the artificial neural networks (ANN) could be more suitable in multi- the GHGdwts (see conceptual diagram of our calculation framework in
+dimensional problems (Bakay and Ag˘bulut, 2021; Uzlu, 2021), we Fig. S1), GHG emissions from biological processes in WWTPs accounted
+developed a three-layer feedforward back-propagation neural network for 21.74%, followed by the sludge disposal-treated part (16.78%),
+with a 30–20-10 architecture, and the activation functions were tansig, electrical consumption in WWTPs (14.40%), construction of wastewater
+tansig, and purelin, respectively. The input factors were population size treatment facilities (11.11%), material usage in WWTPs (10.73%),
+and GDP, and the predicted output was GHGdwts. 70% of the data were operation of sewer networks (9.97%), construction of sewer networks
+used for training, 15% for validation, and 15% for model testing. The (5.57%), discharge of untreated wastewater (5.45%), discharge of
+GHGdwts predictions showed the ANN model was accurate with R2 = treated wastewater (3.69%), and sludge disposal-untreated part
+Table 1
+Correlation matrix among GHGdwts and seven covariates (GDP, population, volume of wastewater treatment, number of WWTPs, volume of discharged wastewater,
+length of sewer network, wastewater treatment fixed investment) of urban domestic wastewater treatment systems.
+GHGdwts GDP Population Volume of Number of Volume of discharged Length of sewer Wastewater treatment
+wastewater treatment WWTPs wastewater network fixed investment
+GHGdwts 1.000 0.971 0.978 0.981 0.980 0.942 0.964 0.964
+GDP 0.971 1.000 0.989 0.992 0.991 0.988 0.996 0.962
+Population 0.978 0.989 1.000 0.997 0.997 0.965 0.983 0.945
+Volume of wastewater
+treatment 0.981 0.992 0.997 1.000 0.998 0.965 0.983 0.943
+Number of WWTPs 0.980 0.991 0.997 0.998 1.000 0.965 0.984 0.948
+Volume of discharged
+wastewater 0.942 0.988 0.965 0.965 0.965 1.000 0.994 0.964
+Length of sewer network 0.964 0.996 0.983 0.983 0.984 0.994 1.000 0.971
+Wastewater treatment
+fixed investment 0.964 0.962 0.945 0.943 0.948 0.964 0.971 1.000
+4
+
+--- Page 5 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+(0.56%). GHG emissions from the construction and operation of untreated wastewater decreased from 22.48% to 0.52%. Our analysis of
+UDWTTS generated 16.68% and 83.32% of GHGdwts, respectively. the GHGdwts trends in China also factored in four covarying parameters:
+Interestingly, GHG emissions from wastewater collection, wastewater economy, population, urban construction, and wastewater treatment
+treatment, and sludge disposal contributed 20.99%, 61.67%, and volume (Fig. 1c). Specifically, we recorded a decrease from 52.28 to
+17.34% of GHGdwts, respectively. Another angle to view these results is 11.12 kg CO2-eq per GDP (104 Yuan), as well as a decline from 2.67 to
+the relative change in the contribution of each of the GHGdwts compo- 1.66 kg CO2-eq per m3 of treated wastewater. In contrast, the ratio of
+nents over the past twenty years. In particular, the proportions of GHG GHGdwts to population and GHGdwts per unit of urban built-up area
+emissions from biological processes in WWTPs and sludge treatment to increased from 66.43 kg CO2-eq per capita and 1.33 GgCO2-eq per km2
+GHGdwts increased from 14.66% and 9.23% in 2001 to 24.40% and to 102.58 kg CO2-eq per capita and 1.52 Gg CO2-eq per km2,
+18.58% in 2020, respectively, whereas the share of GHG emissions from respectively.
+Fig. 2. Spatial GHGdwts differences (20-year average values) in Chinese provinces and cities. (a) GHGdwts; (b) GHGdwts per capita; (c) GHGdwts per m3 of treated
+wastewater; (d) GHGdwts per unit area of urban built-up area; (e) GHGdwts per GDP (104 Yuan); (f) volume of wastewater treatment; and (g) individual GHGdwts
+components, the values on the top of the bars represent the proportion of GHGdwts to total GHG emissions in each province and city. Correspondence between
+numbers along the X axis of panel (g) and location names are provided in Fig. S2. The left Y axis in panel (g) refers to the wastewater treatment rates across the
+examined provinces and cities.
+5
+
+--- Page 6 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+3.2. Spatial GHGdwts differences in China 3.3. Environmental benefits of UDWTTS
+Owing to their differences in population, economy, and wastewater We then analyzed the direct and indirect (or potential) environ-
+treatment, there is significant variability in GHGdwts among Chinese mental benefits from the operation of UDWTTS at a national level.
+provinces and cities, displaying a coefficient of variation of 75.5%. The Aquatic environments with higher concentrations of organic pollutants
+proportion of GHGdwts to total GHG emissions ranged from 0.29% to have been found to display greater propensity for GHG emissions, which
+2.06% in Chinese provinces and cities over the past two decades. suggests that the discharge of untreated wastewater into natural water
+GHGdwts are mainly concentrated in the developed areas in China (Fig. 2 bodies can also exacerbate the release of GHGs (Du et al., 2023; IPCC,
+and Figs. S2-S22). In the past 20 years, GHGdwts in Guangdong, Jiangsu, 2019). Thus, treated domestic wastewater with lower pollutant con-
+Shandong, Zhejiang, Liaoning, Shanghai, Hubei, Hebei, Henan, Sichuan, centrations cannot only improve the prevailing water quality conditions
+Hunan, Anhui, and Beijing were discernably greater than the national of the receiving water bodies (direct benefits), but can also prevent an
+average value, accounting for 70.85% of the national GHGdwts. These additional GHG emission increase (indirect benefits). During the
+thirteen provinces and cities collectively account for 21.77% of the total 2001–2020 period, China’s urban domestic wastewater treatment vol-
+area of China and 70.38% of the national GDP. By 2020, the GHG ume was raised from 11.97 billion m3 to 55.76 billion m3, an increase by
+emissions of these thirteen provinces and cities continued to constitute a 4.66 times, whereas the untreated wastewater was reduced by 93.26%,
+significant share of China’s total, amounting to 68.5%. In stark contrast, i.e., from 20.89 billion m3 to 1.41 billion m3. The increase in wastewater
+GHGdwts in Xinjiang, Yunnan, Guizhou, Gansu, Ningxia, Hainan, and treatment capacity has contributed to the improvement of water quality,
+Qinghai only contributed 7.42% of the national GHGdwts, while these and the proportion of pollution-free rivers, defined as water quality
+seven provinces represent 36.50% of the area and 6.78% of the national better than the level III limitation of the Environmental Quality Stan-
+GDP. The share of GHG emissions of these provinces and cities increased dards for Surface Waters in China, has increased from 62.6% in 2003 to
+to 8.98% in 2020, reflecting the increase in wastewater treatment ca- 83.8% now (Fig. 3a). The water quality of the seven major Chinese rivers
+pacity in these areas. Even more so, the increasing trends of GHGdwts consistently improved. By 2020, the proportion of pollution-free seg-
+displayed significant variability among the studied provinces and cities, ments in Pearl River and Yangtze River have increased to over 90%, and
+ranging between 1.39 and 8.61 times over the past two decades. GHGdwts those in the rest five rivers have increased between 63.8% and 77.0%.
+in thirteen provinces, including Guangdong, Shandong, Jiangsu, Zhe- The indirect GHG emission reductions brought about by the water
+jiang, Sichuan, Hunan, Liaoning, Hebei, Beijing, Anhui, Henan, Hubei quality amelioration due to improved wastewater treatment facilities
+and Shaanxi, grew above the national average (106 Gg CO2-eq yr(cid:0) 1), were equal to 24.8 Tg CO2-eq in 2020 from only 5.5 Tg CO2-eq in 2001,
+contributing 70.01% of the national annual increment. GHGdwts increase while the average indirect GHG emission reduction was equal to 14.5 Tg
+rates of Yunnan, Gansu, Ningxia, Guizhou, Heilongjiang, Shanghai, CO2-eq. The reductions caused by wastewater treatment and sludge
+Tianjin, Hainan, and Qinghai were less than half of the national increase disposal were equal to 8.8 Tg CO2-eq and 5.7 Tg CO2-eq, accounting for
+rate. The low annual GHGdwts increments in Shanghai and Tianjin are 14.72% and 9.53% of GHGdwts, respectively (Fig. 3b). Interestingly, the
+attributed to their already developed wastewater treatment system fa- indirect GHG reductions caused by wastewater treatment and sludge
+cilities, as the wastewater treatment rates in these two regions had disposal displayed different rates of change. The indirect GHG emission
+reached fairly high levels by the year 2001; namely, 61.12% and reductions caused by wastewater treatment increased by 5.0 times,
+61.99%, and were distinctly higher than the national average of 36.4% while those from sludge disposal by 3.9 times. This discrepancy could be
+at that time. The low GHGdwts rates of increase in the remaining areas attributed to the lower wastewater treatment rates in earlier years,
+reflect their lower population and economic development. whereas the generated sludge was already being treated at distinctly
+In terms of the standardized expressions of GHGdwts, GHGdwts per higher rates. China’s wastewater treatment rate was only 36.4% in
+capita and GHGdwts per unit of urban built-up area were higher in 2001, but the corresponding sludge treatment rate was up to 87.9%.
+economically developed regions, whereas GHGdwts per GDP (104 Yuan) The indirect GHG emission reductions from wastewater treatment at
+and GHGdwts per m3 of treated wastewater were higher in economically the national level, driven by both the increase in wastewater volume and
+developing regions (Fig. 2 and Figs. S2-S22). In particular, Shanghai treatment rate, surpassed the benefits resulting solely from an increase
+(143.88 kg CO2-eq per capita), Inner Mongolia (3.49 kg CO2-eq per m3), in sludge treatment volume. In developed areas like Shanghai, where a
+Shanghai (2.90 Gg CO2-eq per km2) and Ningxia (28.49 kg CO2-eq per relatively well-established UDWTTS has been in place for over two de-
+GDP) displayed the highest GHGdwts values after factoring in the impact cades, the indirect GHG emission reduction benefits from wastewater
+of population, wastewater treatment volume, urban extent, and econ- treatment increased by 1.9 times, whereas the benefits from sludge
+omy. In contrast, Jiangxi (55.26 kg CO2-eq per capita), Shanghai (1.43 treatment increased by 1.2 times. The increased benefits from both
+kg CO2-eq per m3), Heilongjiang (0.92 Gg CO2-eq per km2), and Fujian wastewater treatment and sludge disposal simply reflect the increase in
+(9.45 kg CO2-eq per GDP) were characterized by the lowest GHGdwts the treated wastewater volume (Fig. 2f-g; Fig. 3c). Overall, the total
+standardized values, respectively. Compared with 2001, the standard- indirect GHG emission reductions were realized more rapidly with the
+ized expressions of GHGdwts showed partial improvement in most prov- economic growth and associated increase of the wastewater treatment
+inces and cities by 2020, with Ningxia and Gansu experiencing a volume across the 30 provinces and cities of China (Fig. 3d). For
+decrease due to construction of sewage treatment systems. The contri- example, more developed provinces, located within the Pearl River and
+bution from individual GHGdwts sources similarly displayed significant Yangtze River Basins, have high sewage discharges, more complete
+variability, with emissions from their construction ranging from 8.13% wastewater treatment systems, and higher environmental benefits.
+to 46.67%, while emissions from their operation varying from 53.33% to Specifically, Guangdong had the highest mean and incremental values,
+91.87%. Likewise, the relative contribution of GHG emissions from which were 60 and 51 times higher, respectively, than the lowest per-
+biological processes in WWTPs, sludge disposal-treated part, electrical forming Qinghai province. Higher proportion of indirect GHG emission
+consumption in WWTPs, and construction of wastewater treatment fa- reductions to GHGdwts was also found in the developed regions of China
+cilities displayed significant spatial variability, accounting for (Fig. 3e). These trends corroborate the assertion that it is critical to
+11.42–27.33%, 7.09–21.77%, 9.65–16.61%, and 6.97–29.40%, respec- accelerate the construction of wastewater treatment systems to reduce
+tively. Notably, GHG emissions from WWTP biological processes played pollution discharge and GHG emissions in developing regions.
+the prevalent role in twenty-five provinces and cities, while the con-
+struction of wastewater treatment facilities was the primary contributor 4. Contributing factors of GHGdwts
+only in five.
+Log-Mean Divisia Index (LMDI) method was employed to decompose
+6
+
+--- Page 7 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+Fig. 3. Environmental benefits and management measures of UDWTTS. (a) Improvement of water quality in China. (b) Indirect GHG emission reductions caused by
+wastewater treatment and sludge disposal, and the proportion of total indirect GHG emission reductions mediated by UDWTTS to GHGdwts (20-year average values) in
+China. (c) Indirect GHG emission reductions; (d) Increment of indirect GHG emission reductions; and (e) Proportion of indirect GHG emission reductions mediated by
+UDWTTS to GHGdwts over the past 20 years in Chinese provinces and cities. (f) Regional governance of UDWTTS by aligning the corresponding jurisdictions (ten
+regions) in China.
+the influence of different factors on the temporal GHGdws trends (Lin and Urban and Rural Construction from 2001 to 2020, https://www.mee.
+Long, 2016; Zhao et al., 2010). Wastewater treatment efficiency and gov.cn/; China Statistical Yearbook from 2001 to 2020, http://www.
+wastewater discharge intensity were the drivers of GHGdwts reduction at stats.gov.cn/tjsj/). GHG emissions from the construction of UDWTTS
+the national level over the past two decades, while wastewater treat- reached a maximum value in 2010, accounting for 20.73% of GHGdwts,
+ment rate, economic development, and urban population size were the which is also depicted by the corresponding local GHGdwts peak (Fig. 1b).
+drivers of GHGdwts increase (Table 3). Wastewater treatment efficiency, With the continuous improvement of sewage facilities, several metrics
+wastewater treatment rate, economic development, urban population that characterize the GHG emission patterns showed a similar
+size, and volume of wastewater discharged increased by 1.61, 2.67, improvement. For example, despite GHGdwts having increased by 2.89
+7.26, 1.88, and 1.74 times, respectively, while wastewater discharge times over the past two decades, the per capita GHG emissions and GHG
+intensity decreased by 87.24%. The density of sewage networks and emissions per unit of urban built-up area only increased by 1.54 times
+number of WWTPs in China increased by 3.21 and 5.79 times, respec- and 1.14 times, respectively. Importantly, the indirect GHG emission
+tively, which enhanced by 2.67 times the capacity of wastewater reductions increased by as much as 4.5 times, while the GHG emissions
+collection and wastewater treatment rate. As the volume of treated per m3 of treated wastewater and GHG emissions per GDP (104 Yuan)
+wastewater increased, so did the GHGdwts and GHG emissions from decreased by 37.74% and 79.01%, respectively. In general, the con-
+biological processes in WWTPs, treated-sludge disposal, electrical con- struction cost of UDWTTS increases with the socioeconomic develop-
+sumption, and material usage. In contrast, GHG emissions from the ment of society (Lv et al., 2021; Muga and Mihelcic, 2008). National
+discharge of untreated wastewater and untreated sludge disposal statistics showed that the construction cost per kilometer of pipe
+decreased. The on-going construction of sewer networks and WWTPs network in China has increased 2.13 times over the past twenty years.
+have influenced the registered trends throughout our study period, but Further, data analysis (environmental Kuznets curve) is suggestive of an
+the progressive completion of UDWTTS will be conducive to the prev- inverted U-shaped curve relationship between per capita GHGdwts and
+alence of a pattern of lower GHGdwts per m3 of treated wastewater in the per capita fixed investment in wastewater treatment, indicating that per
+near future (Friedlingstein et al., 2020; Gao et al., 2023; Zhang et al., capita GHGdwts is likely to peak in 114 kg CO2-eq, with a turning point
+2016). China’s wastewater treatment fixed investment accounted for around 2031 (Table 4).
+0.22% of the total GDP from 2001 to 2010, and then this ratio was In terms of the trends at the provincial level (Fig. 2 and Figs. S2-S22),
+reduced to 0.16% for the succeeding decade (Statistical Yearbook of GHGdwts were higher in regions with developed economies, large
+7
+
+--- Page 8 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+Table 3
+Contribution of different regulatory factors to GHGdwts (Gg CO2-eq) during the 2001–2020 study period. The contribution rates represent the proportion of GHG
+emissions from each influencing factor to the corresponding GHGdwts increment. WTE is the wastewater treatment efficiency; WTR is the wastewater treatment rate;
+WTI stands for the wastewater discharged intensity; EL represents the economic development level; and PZ refers to population size.
+Number Region Contribution rates (%) GHGdwts increments
+WTE WTR WTI EL PZ Gg CO2-eq yr-1
+China (cid:0) 40.89 81.18 (cid:0) 179.29 177.09 61.91 3190.60
+1 Beijing (cid:0) 57.99 73.76 (cid:0) 182.96 204.05 63.14 84.21
+2 Tianjin (cid:0) 39.66 58.97 (cid:0) 132.69 156.52 56.86 45.58
+3 Hebei (cid:0) 30.01 91.57 (cid:0) 174.22 138.05 74.61 128.38
+4 Shanxi (cid:0) 74.54 90.15 (cid:0) 145.31 170.99 58.71 59.85
+5 Inner Mongolia (cid:0) 64.79 94.08 (cid:0) 146.91 168.53 49.09 67.21
+6 Liaoning (cid:0) 62.16 112.14 (cid:0) 115.35 129.59 35.78 151.58
+7 Jilin (cid:0) 107.36 165.84 (cid:0) 101.50 130.88 12.14 60.64
+8 Heilongjiang (cid:0) 19.01 137.95 (cid:0) 252.76 212.73 21.08 46.94
+9 Shanghai (cid:0) 73.09 136.39 (cid:0) 616.15 494.64 158.20 46.02
+10 Jiangsu (cid:0) 20.72 47.10 (cid:0) 244.22 227.31 90.52 202.28
+11 Zhejiang (cid:0) 57.02 80.28 (cid:0) 144.63 147.56 73.81 169.87
+12 Anhui (cid:0) 30.62 60.69 (cid:0) 180.56 193.84 56.65 114.93
+13 Fujian (cid:0) 27.58 85.35 (cid:0) 163.88 148.02 58.09 89.54
+14 Jiangxi (cid:0) 54.70 135.14 (cid:0) 202.52 164.86 57.21 68.17
+15 Shandong (cid:0) 29.22 61.72 (cid:0) 114.14 129.19 52.45 235.94
+16 Henan (cid:0) 62.53 122.04 (cid:0) 246.44 194.46 92.47 108.32
+17 Hubei (cid:0) 54.25 97.72 (cid:0) 253.69 245.04 65.17 108.26
+18 Hunan (cid:0) 33.36 82.95 (cid:0) 119.00 127.17 42.24 157.94
+19 Guangdong (cid:0) 40.35 72.25 (cid:0) 94.18 109.66 52.62 478.72
+20 Guangxi (cid:0) 23.68 89.33 (cid:0) 190.37 160.88 63.83 82.29
+21 Hainan (cid:0) 50.35 71.62 (cid:0) 147.85 161.88 64.70 18.09
+22 Chongqing (cid:0) 72.71 80.79 (cid:0) 122.98 159.15 55.74 76.33
+23 Sichuan (cid:0) 55.02 90.73 (cid:0) 123.85 135.98 52.16 159.16
+24 Guizhou (cid:0) 171.69 189.87 (cid:0) 163.38 168.4 76.81 46.99
+25 Yunnan (cid:0) 51.06 49.95 (cid:0) 145.63 182.36 64.38 57.52
+26 Shaanxi (cid:0) 36.05 72.64 (cid:0) 83.16 104.09 42.48 106.43
+27 Gansu 20.31 66.36 (cid:0) 147.14 114.71 45.76 48.21
+28 Qinghai (cid:0) 138.95 139.08 (cid:0) 158.31 162.18 95.99 7.66
+29 Ningxia 25.19 53.83 (cid:0) 102.29 84.74 38.53 47.08
+30 Xinjiang 37.38 38.78 (cid:0) 94.28 67.79 50.33 91.75
+populations, high wastewater discharges and treatment rates. These driver of GHGdwts increase in the remaining three provinces; Gansu,
+regions also had larger GHGdwts increments over the past two decades, Ningxia, and Xinjiang. Our environmental Kuznets curve analysis found
+except from Shanghai and Tianjin, where the wastewater treatment that the relationship between per capita GHGdwts and per capita fixed
+systems had been relatively developed and the wastewater treatment investments in wastewater treatment displayed an inverted-U shape in
+rate was already higher. Conversely, GHGdwts were lower in regions with fourteen provinces and cities. In these regions, the per capita GHGdwts
+poorer economic performance, smaller populations, and low wastewater ranged from 62.89 to 144.81 kg CO2-eq per capita, with Beijing, Inner
+treatment rates. The indirect GHG emission reductions followed similar Mongolia, Guangdong, and Shandong reaching a turning point in 2017,
+pattern to that of GHGdwts, with higher reductions expected in developed 2016, 2019, and 2019, respectively. The remaining ten provinces and
+area. Population size and economic growth were thus predominant cities, such as Anhui, Fujian, and others, are expected to realize similar
+drivers of increasing GHGdwts, while the construction of wastewater turning points between 2021 and 2039. Albeit the year-to-year vari-
+treatment systems further modulated the magnitude of the GHGdwts rates ability, GHGdwts per capita in Shanghai, Jiangsu, Zhejiang, and Tianjin
+of change. In most provinces and cities, GHGdwts per GDP and GHGdwts experienced an overall declining trend over the past two decades (Fig.
+per m3 treated wastewater decreased, whereas GHGdwts per capita and S23). Although population and economic growth could promote GHGdwts
+GHGdwts per unit of built-up area increased over the past two decades increases in these areas, the establishment of an efficient wastewater
+(Table 5). Our analysis identified two types of regions with high GHGdwts treatment infrastructure will ultimately lead to a reduced GHGdwts per
+per capita. This first type involved economically developed regions, such capita. Finally, GHGdwts per capita in the rest twelve provinces and cities
+as Shanghai, Beijing, Jiangsu, and Guangdong, where higher water continued to increase (Table 4).
+consumption and wastewater treatment rates resulted in high GHGdwts In summary, economic development, population size, sewage
+per capita, and the same regions usually had high GHGdwts per unit of network, wastewater discharged, treated wastewater, and wastewater
+urban built-up area. The second type comprised developing regions, treatment fixed investments were the key regulatory factors of GHGdwts
+such as Ningxia, Xinjiang, and Inner Mongolia. With a rudimentary in China (Fig. 4). The predicted GHGdwts fluxes in China by the year 2025
+wastewater treatment infrastructure, these regions generated higher suggest an emission range between 94 and 106 Tg CO2-eq (Table 2).
+GHG emissions during the construction processes, accounting for up to GHG emissions from UDWTTS will continue to display an ascending
+30% of GHGdwts and identified as the dominant component (Fig. 2). The trajectory throughout the 2020s until a turning point is reached around
+LMDI method and environmental Kuznets curve analysis were also used 2031, as shown by the projected inflection point of the environmental
+to delineate the predominant GHGdwts drivers (Tables 3 and 4). The re- Kuznets curve analysis. This increase is believed to be associated with
+sults for twenty-seven provinces and cities were consistent with the the on-going growth of urban populations. The future increase rate of
+GHGdwts trends at a national level, i.e., increase in wastewater treatment GHG emissions from UDWTTS is expected to decelerate compared to the
+efficiency and wastewater discharge intensity contributed to GHGdwts previous two decades, owing to the reduction in GHG emissions from the
+reduction, whereas increases in wastewater treatment rate, economic completion of construction of sewage treatment facilities. Counter to our
+development, and urban population size led to a GHGdwts increase. work, Du et al. (2023) study demonstrated that municipal sewage will
+Interestingly, the wastewater treatment efficiency was the predominant experience a gradual increase in GHG emissions from 2019 to 2025
+8
+
+--- Page 9 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+Table 4
+Environmental Kuznets curve analysis: y denotes the per capita GHGdwts (kg CO2-eq per capita); x is the per capita wastewater treatment fixed investment; a, b, and c are
+the coefficients. Provinces and cities in bold displayed a statistically significant inverted U-shaped curve relationship between per capita GHGdwts and per capita fixed
+investment in wastewater treatment. The per capita GHGdwts in other provinces and cities either displayed year-to-year variability, with no discernible long-term trend
+(H0), or increased.
+Number Region Environmental Kuznets curve (EKC): y =a +bx +cx2 Theoretical value
+a b c r2 P(Ho) Turning point Per capita GHGdwts
+kg CO2-eq per capita
+China 69.62 236.39 (cid:0) 311.38 0.94 <0.001 2031 114
+1 Beijing 90.96 226.30 (cid:0) 237.73 0.80 <0.001 2017 145
+2 Tianjin 114.03 (cid:0) 322.53 1618.7 0.17 0.341 – –
+3 Hebei 63.77 564.68 (cid:0) 3745.6 0.24 0.277 – –
+4 Shanxi 52.69 6.79 3399.9 0.70 <0.001 – –
+5 Inner Mongolia 62.92 611.43 (cid:0) 1627.6 0.74 <0.001 2016 120
+6 Liaoning 90.05 186.24 1022.8 0.72 <0.001 – –
+7 Jilin 54.07 168.50 3324.8 0.85 <0.001 – –
+8 Heilongjiang 65.03 (cid:0) 11.27 2213.1 0.40 0.012 – –
+9 Shanghai 197.45 (cid:0) 686.51 197.45 0.51 0.004 – –
+10 Jiangsu 107.96 62.50 (cid:0) 161.07 0.08 0.795 – –
+11 Zhejiang 76.59 165.64 195.78 0.60 <0.001 – –
+12 Anhui 63.08 163.92 (cid:0) 184.49 0.75 <0.001 2032 99
+13 Fujian 53.87 204.79 (cid:0) 343.92 0.71 <0.001 2025 84
+14 Jiangxi 48.35 81.12 398.34 0.65 <0.001 – –
+15 Shandong 55.35 438.98 (cid:0) 1326.1 0.71 <0.001 2019 92
+16 Henan 52.42 275.21 (cid:0) 1782.9 0.59 0.002 – –
+17 Hubei 86.77 4.10 234.76 0.70 <0.001 – –
+18 Hunan 51.95 400.55 (cid:0) 1083.5 0.64 <0.001 2026 89
+19 Guangdong 51.76 1055.5 (cid:0) 3980.1 0.93 <0.001 2019 122
+20 Guangxi 61.5 124.17 (cid:0) 158.29 0.71 <0.001 2039 86
+21 Hainan 45.01 521.56 (cid:0) 1285.8 0.81 <0.001 2021 98
+22 Chongqing 46.38 302.33 (cid:0) 509.72 0.82 <0.001 2033 91
+23 Sichuan 43.84 369.30 (cid:0) 606.64 0.93 <0.001 2029 100
+24 Guizhou 36.81 611.55 (cid:0) 3550.1 0.56 0.002 – –
+25 Yunnan 42.11 318.43 (cid:0) 1219.4 0.70 <0.001 2025 63
+26 Shaanxi 34.52 741.45 (cid:0) 2080.3 0.87 <0.001 2028 101
+27 Gansu 61.13 (cid:0) 87.70 3044.6 0.35 0.026 – –
+28 Qinghai 38.97 717.09 (cid:0) 3362 0.81 <0.001 2025 77
+29 Ningxia 75.5 1201.7 (cid:0) 5401 0.07 0.544 – –
+30 Xinjiang 62.56 475.5 2.08 0.72 <0.001 – –
+based on the existing sewage treatment processes, but the inflection implemented treatment technologies and decarbonization in the energy
+point will likely occur around 2035 instead (Du et al., 2023). This sector and chemical production industry are effectively realized (Choi
+discrepancy in the timing of the turning point can be attributed to the et al., 2020; Van Drecht et al., 2009). The construction of wastewater
+comprehensive consideration of a multitude of factors by our study, treatment systems must be improved, especially in areas with low pipe
+including the construction of sewer networks and wastewater treatment network density and sewage treatment rate (Xu and Xu, 2022), as the
+plants, the role of untreated sludge, indirect GHG emission reductions production of the required materials, such as steel and cement, are
+caused by wastewater treatment, and indirect GHG emission reductions responsible for considerable GHG emissions. It is thus critical to intro-
+caused by sludge disposal. In particular, an interesting lesson learned duce new practices, such as supplementary cementitious materials,
+from our analysis is that as China strives to achieve carbon neutrality by green hydrogen, ash from agricultural wastes, and replace or improve
+investing in a multitude of carbon sink technologies, the assessment of the traditional materials which in turn could reduce GHG emissions
+this goal for municipal sewage systems should also factor in the indirect from WWTP constructions (Daehn et al., 2021; Nguyen et al., 2020; Rux
+GHG emission reduction effects of wastewater treatment. et al., 2022). Furthermore, the operational processes of the wastewater
+treatment also need to be upgraded. Clean forms of energy could be used
+5. Policy implications to replace the thermal power and decrease GHG emissions from elec-
+tricity consumption in UDWTTS (Silvestre et al., 2015). Construction
+Notwithstanding the discernible improvement during the 2000s, and maintenance of the pipe network system should be strengthened to
+recent national investigations of the water quality and associated drivers improve the BOD concentrations at the inlets of WWTPs and reduce the
+in China’s lakes, reservoirs, and rivers concluded that the prevailing amount of external carbon source input (de Oliveira et al., 2021; Liao
+conditions have not reached acceptable levels with many systems still et al., 2015). The new technologies of wastewater treatment and sludge
+being threatened by excessively high nutrient concentrations, harmful disposal, such as methane recovery, thermal energy utilization, and drug
+algal blooms, hypoxia, and less so by heavy metal pollution (Huang use, should also receive greater attention (Contreras et al., 2022; Liew
+et al., 2019; Huang et al., 2020; Huang et al., 2021). Although the et al., 2022; Masuda et al., 2018; Wang et al., 2018). It is important to
+collection and treatment capacity of urban domestic wastewater in note though that owing to the lack of initial investments, reflecting the
+China have greatly improved over the past 20 years, there is an ever- lags associated with the socio-economic transitions, insufficient tech-
+increasing demand for enhanced wastewater treatment efficiency and nology maturity and restrictions in land availability, product quality,
+capacity to eliminate the instances where sewage are directly discharged and market demand, it is unlikely that low-carbon technologies will fully
+into waterbodies or to meet the increasingly stringent WWTP effluent replace the conventional treatment processes in the foreseeable future.
+standards in China (Liao et al., 2015; Xu and Xu, 2022). With the Another course of action involves investing in infrastructure and
+planned expansion of urban wastewater infrastructure, the energy use raising public awareness about the importance of water conservation by
+and GHG emissions will also be exacerbated, unless the advances in creating conditions that promote the use of water-saving devices and
+9
+
+--- Page 10 ---
+T. Wang et al. E c o lo g i c a l I n f o r m a t i cs81(2024)102571
+Table 5 water recycling. The provision of freshwater resources in all the major
+Changes (=2020/2001) of four GHGdwts expressions across thirty (30) Chinese urban settings in China lags behind the potable water demand, and this
+provinces and cities. water stress is further exacerbated by the broader impact of climate
+Number Region GHGdwts GHGdwts per GHGdwts GHGdwts change on the hydrological cycle. Counter to the exponentially
+per m3 treated per unit of per GDP increasing trends with the construction of WWTPs, water saving and
+capita wastewater built-up reuse remains in its infancy in China and is discernably lower than the
+area
+water management rates in other advanced societies (Antwi et al., 2022;
+China 1.54 0.62 1.15 0.21 Shi et al., 2022). The per capita GHG emissions in developed areas of
+1 Beijing 1.36 0.53 1.38 0.21 China were higher than in developing regions, primarily due to the
+2 Tianjin 1.27 0.71 0.81 0.26
+increased sewage discharge caused by higher per capita water con-
+3 Hebei 1.34 0.73 1.24 0.30
+4 Shanxi 1.50 0.41 1.37 0.21 sumption. A recent study argued that opting to jointly advance waste-
+Inner water treatment efficiency and downstream water recycling capability
+5 1.78 0.48 1.56 0.21
+Mongolia can offer a fertile ground for the synergistic mitigation of water stress
+6 Liaoning 1.73 0.50 1.48 0.43
+and GHG emissions (Chen et al., 2023; Tan and Yao, 2023). Specifically,
+7 Jilin 1.96 0.28 1.22 0.34
+8 Heilongjiang 1.43 0.90 1.23 0.38 the marginal water stress alleviation in Chinese urban areas has been
+9 Shanghai 0.85 0.78 0.62 0.17 achieved due to the augmented urban wastewater treatment capacity,
+10 Jiangsu 1.14 0.92 0.72 0.16 the increased flow of high-quality treated wastewater that replenishes
+11 Zhejiang 1.43 0.49 1.00 0.25 surface waters, and the expansion of reclaimed water reuse within
+12 Anhui 1.48 0.67 1.08 0.17
+Chinese cities. These joint benefits could be maximized in areas that rely
+13 Fujian 1.66 0.54 0.96 0.25
+14 Jiangxi 1.48 0.41 0.81 0.18 heavily on distant and/or alternative sources of water, as water reuse
+15 Shandong 1.97 0.67 1.08 0.36 industries could potentially reduce the energy consumption and related
+16 Henan 1.20 0.51 1.02 0.18 GHG emissions from long-distance water transportation projects. The
+17 Hubei 1.23 0.70 1.11 0.17
+same study pinpointed the need to establish a socioeconomic environ-
+18 Hunan 2.31 0.50 1.96 0.30
+ment that will further incentivize the development of water-conserving
+19 Guangdong 2.66 0.54 1.62 0.46
+20 Guangxi 1.40 0.74 1.08 0.20 and low-carbon technologies in the wastewater treatment and reuse
+21 Hainan 1.57 0.82 1.10 0.24 companies (Chen et al., 2023; Guo et al., 2021; Tan and Yao, 2023).
+22 Chongqing 2.06 0.39 0.89 0.21 Generally, the tailwater discharged from WWTPs is transported from
+23 Sichuan 1.95 0.39 1.36 0.24
+upstream to downstream, implying that the functionality and efficiency
+24 Guizhou 1.26 0.08 0.82 0.11
+25 Yunnan 1.57 0.68 0.90 0.19 of UDWTTS is not only of local interest, but can also shape both water
+26 Shaanxi 2.71 0.34 1.93 0.28 quality and socioeconomic interactions within broader regions (Guo
+27 Gansu 1.94 1.14 1.77 0.30 et al., 2021; Tang et al., 2022). Consequently, it stands to reason that the
+28 Qinghai 1.35 0.28 0.93 0.17
+efficiency in the governance of UDWTTS should improve by aligning the
+29 Ningxia 3.97 1.31 2.78 0.50
+corresponding jurisdictions with those established for water pollution
+30 Xinjiang 1.95 1.34 1.76 0.37
+management, based on the seven major river basins and three broader
+geographic regions in China (Fig. 3f). The untreated wastewater in each
+yr(cid:0)1)
+Fig. 4. GHGdwts modelling framework: Average direct and indirect GHG emissions (Tg CO2-eq from various processes involved in the construction and
+operation of urban domestic wastewater treatment systems in China during the 2001–2020 study period.
+10

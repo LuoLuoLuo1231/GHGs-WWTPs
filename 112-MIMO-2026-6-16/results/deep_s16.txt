@@ -1,0 +1,59 @@
+（94）Analysis of greenhouse gas production at the El Prat del Llobregat wastewater treatment plant, Spain: the decarbonization challenge
+研究方法：
+a. [质量与能量平衡分析] - 物料平衡法：迭代计算程序（迭代流量Q、总悬浮固体TSS、生化需氧量BOD5），基于年均运行工况建模（15°C），用于评估El Prat del Llobregat污水处理厂水线和泥线的物质流与能量流
+b. [温室气体排放核算] - IPCC排放因子法：经验排放因子（基于处理水量、出水浓度、去除污染物质量），IPCC 2006/2019指南，用于计算CH4、N2O和CO2的直接与间接排放
+c. [能源审计] - 网络分析仪+热流计：电能消耗通过电网分析仪测量，热能通过热流计量测，数据采集覆盖2022年全年，用于评估各处理单元能耗并提出节能改进方案
+d. [温室气体排放计算] - 经验公式模型：CH4排放基于TOW-SOC模型（公式含可降解有机物、污泥有机分量、排放因子及回收量），N2O排放基于出水氮负荷与排放因子，CO2排放基于COD去除量与生物排放因子
+e. [间接排放核算] - 电力排放因子法：采用西班牙CNMC公布的电力排放因子0.259 kg CO2-eq/kWh，结合化学品生产过程排放因子（文献值），用于核算电力消耗和化学品使用的间接碳排放
+
+（95）Flexible Carbon Source Regulation for Mitigating Greenhouse Gas Emissions in Full-Scale Wastewater Treatment
+研究方法：
+a. [过程建模] - 全厂动力学模型（SUMO平台）：基于SumoSlang语言开发的Sumo4N模型，含384个动力学参数和15个水质参数，模拟AAO工艺全流程，用于量化GHG排放并评估碳源调控策略
+b. [现场监测] - 便携式FTIR气体分析仪+浮动罩：在曝气池4个点位每日测量CH4和N2O排放速率，配合流量计记录气体流量，用于模型校准与验证
+c. [水质分析] - Hach标准方法+标准方法（TSS/VSS）：连续一年（2021.7-2022.6）逐日监测进出水TCOD、SCOD、TN、NO3-、NH4+、TP、PO43-等指标，用于模型输入与数据协调
+d. [模型校准] - Nelder-Mead单纯形优化算法：分稳态校准（夏季/冬季均值）和动态校准（一年时间序列数据）两阶段，通过单向敏感性分析筛选50个关键参数，用于优化模型预测精度（MAPE约20-32%）
+e. [碳源调控策略评估] - 情景模拟法：对比基线策略（常规活性污泥+机械脱水+填埋）、厌氧消化策略（AD）、短程发酵策略（SF）和自适应碳源调控策略（ACSR），在不同进水C/N比条件下模拟GHG排放与出水水质
+f. [统计分析] - 双因素方差分析（Two-way ANOVA）+Pearson相关分析：检验季节变化和C/N比对GHG排放的显著性影响，识别关键影响因子（如C/N与N2O的负相关 r=-0.832）
+
+（96）Reduction of energy consumption and greenhouse gas emissions in wastewater treatment plant: A case study of utilizing anaerobic sludge digestion
+研究方法：
+a. [能源消耗分析] - 设备功率-运行时间法：逐台记录泵、鼓风机、搅拌器等设备的额定功率和运行时间，通过公式Ee=(P1*T1+P2*T2+...+PN*TN)/Q计算单位水量能耗，用于评估各情景下的能源消耗差异
+b. [温室气体排放核算] - IPCC排放因子法：N2O排放基于进水总氮的0.5%转化率（IPCC 2024指南），CH4排放基于厌氧消化产气方程（Qgas=0.9 m3/kg VSS destroyed），CO2排放基于产气组分（CO2占比0.3），用于计算直接GHG排放
+c. [间接排放核算] - 台湾电力碳排放因子法：采用台湾电力碳排放因子0.494 kg CO2e/kWh，通过逐月电表读数获取实际电力消耗，用于核算间接CO2排放
+d. [情景比较分析] - 四情景对比法：设定好氧消化（现状）、厌氧消化（无发电）、厌氧消化+沼气发电、两阶段厌氧消化（产氢+产甲烷+发电）四种情景，比较能耗和GHG减排潜力
+e. [生物气体分析] - 气体组分测定：基于VSS去除量估算产气量，CH4产率采用416 mL/g VS（文献值），两阶段AD中氢气和甲烷产率分别为177和224 mL/gVS，用于评估沼气发电潜力
+
+（97）System assessment and multivariate analysis of greenhouse gas emission dynamics in Anaerobic-Anoxic-Oxic wastewater treatment systems
+研究方法：
+a. [现场监测] - OFF-GAS浮动罩法：采用直径70cm、高30cm的圆柱形浮动罩（底部面积1m2）收集水面逸散气体，每5分钟采样一次（每次约200mL，共5次），在初沉池、厌氧区、缺氧区、好氧区和二沉池5个处理单元的后端设置采样点
+b. [气体浓度分析] - 气相色谱法（GC）：CH4采用配备氢火焰离子化检测器（FID）的气相色谱仪（Agilent 6890N），N2O采用配备电子捕获检测器（ECD）的气相色谱仪（Agilent HP Chemistation 5890），用于测定气样中GHG浓度
+c. [溶解态GHG测定] - 顶空平衡法：用注射器采集50mL水样注入预抽真空的125mL玻璃血清瓶（预充100%氩气），加入20mM HgCl2抑制微生物活性，振荡10分钟后30°C平衡，通过Henry定律计算溶解态GHG浓度
+d. [结构方程模型（SEM）] - AMOS 26.0软件：以进出水水质（TN、COD、NH4+）、温度、去除效率为观测变量，构建"进水水质""出水水质""运行效率""环境因子"潜变量路径模型，采用最大似然法估计参数，用于揭示多因素对GHG排放的直接与间接影响路径
+e. [多元线性回归（MLR）] - SPSS 26.0逐步回归：以CH4/N2O释放通量为因变量，进水TN、COD、NH4+、温度、出水TN、COD及去除效率为自变量，通过方差膨胀因子（VIF）检验多重共线性，建立预测模型（Adj.R2=0.91-0.94）
+f. [排放因子计算] - 质量通量法：基于释放通量F与水面面积A计算释放量M=F*A*10^-6（kg/d），分别按进水COD/TN负荷和去除量计算CH4和N2O排放因子
+
+（98）Locating and quantifying CH4 sources within a wastewater treatment plant based on mobile measurements
+研究方法：
+a. [移动监测] - 车载CRDS光谱监测系统：采用Picarro G2201-i腔衰荡光谱分析仪（精度5ppb±0.05%），配合GPS和气象仪器，沿WWTP外部和内部道路连续移动测量CH4浓度，2023年夏季（3天）和冬季（5天）共8天完整监测数据
+b. [气象观测] - 便携式气象站（SWS-500）：在厂区主入口和滤池顶部各部署一台，测量风速、风向、温度、湿度和气压，用于高斯扩散模型的输入参数
+c. [排放通量反演] - 多源高斯扩散模型+遗传算法反演框架：将CH4浓度增强值与风速风向数据输入多点源高斯烟羽模型，结合遗传算法迭代优化12个点源和1个线源的排放通量和位置，通过最小化模型预测与实测浓度的绝对差异求解
+d. [线源建模] - 有限长线源模型（GFLSM）：对粗格栅与初沉池之间的道路区域采用线源模型建模，将线源表示为点源集合，通过误差函数（erf）计算线源对CH4浓度的贡献
+e. [IPCC清单法对比] - IPCC 2006排放因子法：采用浙江省推荐排放因子0.0046（tCH4/tCOD），基于《城市排水统计年鉴》数据计算TOW和污泥产量，用于与移动监测反演结果进行对比验证
+f. [不确定性分析] - 误差传播公式：综合风速（εs）、风向（εd）和仪器测量（εm）的不确定性，通过εt=sqrt(εs^2+εd^2+εm^2)计算排放通量反演的总体不确定性
+g. [敏感性分析] - 控制变量法：在各排放源周围200m×200m范围内逐一改变源位置参数，通过RMSE变化评估源定位准确性对反演结果的影响
+
+（99）Synergistic strategies for pollution and carbon emission reduction in China's wastewater treatment: A comprehensive tiered assessment and benchmarking framework
+研究方法：
+a. [大数据分析] - 全国污水处理厂运行数据统计：基于全国城镇污水处理信息管理系统，筛选2019年设计规模>2万m3/天的2232座WWTPs的月度数据（14个变量，约26,784个数据点，247,457条月记录），覆盖全国92.1%的统计处理量
+b. [GHG排放核算] - 直接+间接排放公式法：直接排放（M_CO2.D = M_CH4 + M_N2O + M_CO2.C）含CH4、N2O和外加碳源CO2，间接排放（M_CO2.I = M_CO2.E + M_CO2.Y）含电力和化学品消耗排放，用于全国尺度WWTP碳排放清单编制
+c. [影响因素分析] - Kruskal-Wallis检验：从设计规模、处理工艺、地理区域、运行负荷、电耗强度、进水水质（COD和C/N比）六个维度检验GHG排放强度的显著性差异（P<0.05），用于识别关键影响因子
+d. [分级评估方法] - 多指标加权评分体系：参照CJJ/T 228-2014标准，构建碳排放（F1，权重3.0）、污染物去除（F2，权重3.0）、能源消耗（F3，权重2.0）和运行负荷（F4，权重2.0）四要素评估框架，通过专家咨询确定权重，用于WWTP分级分类（优先管控/一般管控/维持类）
+e. [基准厂识别] - 综合评分排序法：按总分前10%（≥85.4分）识别222座基准厂，提取其碳排放强度（0.258-0.482 kgCO2e/t）、进水COD（175-338 mg/L）、C/N比（6.13-10.9）、电耗强度（0.149-0.260 kWh/t）和运行负荷（88%-110%）等关键参数范围，用于设定行业基准标准
+
+（9）Greenhouse gas emission estimation from municipal wastewater using a hybrid approach of generative adversarial network and data-driven modelling
+研究方法：
+a. [实验室规模模拟] - 生物营养去除（BNR）反应器模拟：在实验室规模好氧反应器中模拟Saskatoon污水处理厂（SWTP）的运行条件，采集66组数据点，涵盖温度（13-17°C）、HRT、DO、TOC、PO43-、NO2-、NO3-、NH4+等运行参数与CO2/CH4/N2O排放速率
+b. [数据驱动建模] - 非线性回归模型（二次多项式）：以HRT、温度、TOC和DO为输入变量建模CO2排放速率，以HRT、温度、DO和PO43-建模CH4排放速率，以温度、DO和氮形态浓度建模N2O排放速率，通过MATLAB nlinfit函数拟合，采用四折交叉验证
+c. [生成对抗网络（GAN）] - 虚拟数据增强：采用Keras/TensorFlow框架实现GAN（生成器2层隐藏层26+6神经元，判别器同结构），基于原始66组数据的统计特征生成100个虚拟数据点，通过Adam优化器（学习率0.0002）训练，用于扩充训练数据集改善模型精度（RMSE降低22%以上）
+d. [遗传算法优化（GA）] - 运行参数优化：以回归模型为适应度函数，种群规模50-200，迭代1000次，变异概率0.01，交叉概率0.8，搜索最小化/最大化GHG排放速率的最优运行参数组合（如最小N2O排放：13°C、DO=1.0 mg/L、N=25 mg/L）
+e. [模型性能评估] - 统计指标法：采用相关系数R、均方根误差RMSE、一致性指数IA和归一化RMSE评估模型精度，对比原始数据模型与GAN增强数据模型的性能差异

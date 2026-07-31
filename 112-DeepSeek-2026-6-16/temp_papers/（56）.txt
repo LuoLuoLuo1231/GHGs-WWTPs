@@ -1,0 +1,481 @@
+--- Page 1 ---
+BioresourceTechnology404(2024)130897
+Contents lists available at ScienceDirect
+Bioresource Technology
+journal homepage: www.elsevier.com/locate/biortech
+Performance of wastewater treatment plants in emission of
+greenhouse gases
+Ezio Ranieria,*, Gianfranco D’Onghiaa,1, Francesca Ranierib, Luigi Lopopoloa, Sarah Gregorioa,
+Ada Cristina Ranieric,d
+aUniversita’ degli Studi di Bari, Dipartimento di Bioscienze, Biotecnologie ed Ambiente, Bari, Italy
+bUniversita’ degli Studi di Foggia, Dipartimento di Dipartimento di Economia, Management e Territorio, Italy
+cPolitecnico di Bari, Dipartimento Interateneo di Fisica, Bari, Italy
+dUniversita’ Internazionale Telematica Uninettuno, Roma, Italy
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•CO2, N2O, CH4, have been assessed in
+each treatment step in 183 Italian
+WWTP.
+•Total emissions for aerobic digestion
+WWTP amount to 91 kgCO2eq/PE*y as
+average.
+•Total emissions for anerobic digestion
+WWTP amount to 73 kgCO2eq/PE*y as
+average.
+A R T I C L E I N F O A B S T R A C T
+Keywords: The present work has estimated greenhouse gas emissions in aerobic and anaerobic Wastewater Treatment Plants
+Mass balance in Southern Italy. Greenhouse gases emissions from each treatment unit were calculated based on emission
+Nitrous oxide factors related to Chemical Oxygen Demand removal for biogenic CO2 and CH4 assessment and on Nitrogen
+Methane
+removal for N2O. N2O, biogenic CO2, and CH4 emissions vary for aerobic and anaerobic-based WWTPs respec-
+Carbon dioxide
+tively from 73 kgCO2eq/PE*y for anaerobic plants to 91 kgCO2eq/PE*y for aerobic plants. In aerobic and
+Emissions
+anaerobic digestion systems WWTPs the contributions to CO2eq total emissions from N2O, CH4, biogenic CO2, and
+fossil CO2 are 30 %–33 %, 20 %–29 %, 22 %–25 %, and 26 %–16 %, respectively. N2O emissions from biological
+processes were found the most contributing sources of greenhouse gases while in the physical processes higher
+contribution is indirect carbon dioxide related to energy consumption. Compensatory measures are reported to
+reduce greenhouse gases emissions.
+* Corresponding author.
+E-mail address: ezio.ranieri@uniba.it (E. Ranieri).
+1 Consorzio Nazionale Interuniversitario per le Scienze del Mare CoNISMa, Italy.
+https://doi.org/10.1016/j.biortech.2024.130897
+Received 8 May 2024; Received in revised form 22 May 2024; Accepted 23 May 2024
+Availableonline24May2024
+0960-8524/©2024TheAuthor(s).PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+1. Introduction potential (GWP) of 30 and 300 respectively (Ranieri et al., 2023),
+indicating that 1 kg of CH4 released in the atmosphere equals 30 kg of
+Wastewater treatment plants (WWTPs) are a significant source of CO2 and 1 kg of N2O released in the atmosphere 300 kg of CO2. For
+Greenhouse Gases (GHGs), (Shahabadi et al., 2009, Daelman et al., municipal wastewater GHGs emissions in WWTPs range from 0.5 to 2.2
+2013). In many European countries, the urban water cycle accounts for kg CO2eq/m3 (Chen and Kuo, 2016; Chen,et al., 2019). Thereby, the
+1–3 % of the total electric energy consumption (Longo et al., 2016) and adoption of more stringent treatments, requiring higher consumption of
+3–10 % of the Global Warming Potential (GWP) by contributing towards reagents and energy (Cardoso et al., 2021), resulting in increased
+GHG emissions into the atmosphere, both as direct and indirect foot- emissions of climate-changing gases both direct and indirect from the
+prints (Samuelsson et al., 2018). Different technologies for wastewater integrated water service (Bakhshi and Demonsabert, 2012).Therefore, it
+treatment are directly correlated to the amount of GHGs emissions becomes necessary to consider the energy and environmental aspects
+(Ranieri et al., 2023). Electric energy consumed in the WWTPs is also a instead of capital and operative costs to develop more and more sus-
+relevant GHGs source (Ranieri et al., 2021; Menduni et al., 2023). In tainable treatment wastewater treatment (Ranieri et al., 2023; Ranieri
+addition, recently, an average increase in the energy requirements in et al., 2021). Many studies have monitored and analysed total GHG
+WWTPs has been perceived due to technological upgrades for treatment emissions from wastewater plants, but the literature appears to be
+to meet the more rigorous environmental standards (Van Lienden et al., lacking regarding singular GHG for each unit of the plant due to a lack of
+2010; Gandiglio et al., 2017). While fossil CO2 emission in WWTPs is data. Current GHGs quantification often doesn’t consider differences in
+directly linked to the production of the energy required for the WWTP treatment processes. Many authors use IPCC emission factors which are
+operation, in the biological wastewater treatment processes are emitted considered CH4 and N2O centralized only into the aerobic and anaerobic
+biogenic carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) process but neglecting the differentiation with other treatments and
+(Cakir and Stenstrom, 2005; Xiuhong, et al., 2008; UNFCCC, 2018; excluding account of CO2, leading to large uncertainties of GHG emis-
+Wang et al., 2022). The strength of wastewater and the degree of organic sion factors. (IPCC, 2019). Meanwhile, the possibility to make waste-
+substances removal influence the GHGs emissions. So, the wastewater water management energy-neutral (or even energy-positive) has
+treatment process can reduce GHG emissions by up to 30 % under the attracted considerable attention on different aspects (Menduni et al.,
+controlled COD and N conditions (Yapıcıog˘lu and Demir, 2021). The 2020; Sharawat et al., 2021), and it should be possible to reduce the
+GHGs emissions correlated to the WWTPs processes may be directly GHGs emissions from wastewater treatment plants to the aim of
+reduced by appropriately selecting the treatment technology or achieving climate neutrality concerning similar waste and wastewater
+enhancing the process and energy efficiency of the WWTPs (Ranieri treatment (EUDP, 2018; Wang et al., 2022).
+et al., 2017). Usually, WWTP CH4 emission is associated with anaerobic The present study is aimed to carry out an environmental analysis of
+conditions (Monteith et al., 2005), while N2O is produced mainly by Apulian WWTPs (Fig. 1) based on the assessment of GHGs emissions
+biological treatment specifically within an activated sludge basin and associated with them.
+aerobic digestion sludge (Valkova et al., 2021). Biogenic CO2 is emitted The general aim of the paper is to estimate the GHGs distribution on
+generally in secondary biologic treatment and the aerobic sludge sta- the specific unit of aerobic or anaerobic digestion-based WWTP process
+bilization basin similar to N2O emission due to bacterial metabolism or to individuate where the emissions result higher and most contribute to
+organic substances oxidation (Valkova et al., 2021; Ranieri et al., 2023), climate change (Kalimeris et al., 2017). In addition, some technical
+indeed fossil CO2 emission is correlated to the electric energy con- suggestions will be figured out to understand how each GHG source
+sumption because production is principally based on fossil fuels (Larsen could be reduced improving the sustainability of the wastewater treat-
+et al., 2015). In addition, CH4 and N2O have a 100-year global warming ment systems (Capodaglio et al., 2016). All this would result in
+Fig. 1. Apulian WWTP analysed.
+2
+
+--- Page 3 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+decreased energy consumption, treatment costs, and environmental treatment, the CO2eq from CH4, N2O, and CO2 have been calculated with
+impact (Petrella et al., 2016). GHG Emission Factors (EF) in relationship to % of COD remotion and N
+Therefore, the specific objectives of this paper are: remotion and their kg per day removed for each unit. Principally,
+emission factors of CH4 and N2O to biological treatments, thereby,
+• To assess the COD and N removal in each wastewater treatment aerobic oxidation and sludge digestion in aerobic and anaerobic pro-
+section of a conventional aerobic and anaerobic digestion-based cesses have been taken from the IPCC, 2019 averaged with supple-
+WWTP mentary emission factors found in the literature. Table 2 shows the GHG
+• To evaluate GHGs emitted in the pre-treatment section, biological emission inventory of wastewater facilities.
+section, secondary sedimentation, and sludge treatment As reported by Wang et al. (2022), each Emission Factor (EF) result is
+• To define what process measures should be done to reduce CO2, N2O, specific for each WWTP. Thereby, in the EF analysis, it has been
+and CH4 emissions. considered, wherever possible, similar EF where the same WWTP
+technology occurs. Thus, a range of values of emission factors have been
+2. Materials and methods considered to estimate emissions from each treatment.
+Mass balance on carbon removal and N removal is based on knowl-
+All the 183 WWTPs analysed for the present investigation are found edge of AQP facilities and wastewater samples analysis at the exit of
+throughout the Apulian region. They are managed by one of the largest each treatment section. Similar WWTP mass balances have been also
+Italian water management companies – Acquedotto Pugliese S.p.A. considered (Mininni et al., 2015; Garrido et al., 2013; Mannina et al.,
+(AQP). 140 WWTPs are based on the aerobic process for sludge man- 2009) with the aim of critically analyse the COD and N distribution in
+agement while 43 are equipped with anaerobic digestion sludge (Ranieri wastewater, sludge and air. Thus, the amount of each GHGs for all units
+et al., 2023). of treatment is calculated using Eqs. (1), (2) and (3):
+kgCH4=EFCH4(kgCH4/kgCODremoved)xkgCODremoved (1)
+2.1. Design plants compared
+kgN2O=EFN2O(kgN2O/kgCODremoved)xkgNremoved (2)
+The typical configuration of aerobic plants is characterized by three
+steps to the water line and three steps to the sludge line, following re- kgCO2biogenic=EFCO2xkgCODremoved (3)
+ported. The first step is preliminary treatments of which only the grit
+tank was considered significant to analyse and quantify. It’s constituted Where: the EF is defined as the ratio of kilograms of greenhouse gas
+from an open tank that receives raw influent. The next treatment is (GHG) emitted per kilogram of chemical oxygen demand (COD) or ni-
+based on Conventional Activated sludge (CAS), an open and ventilated trogen (N) removed.
+tank to abatement biodegradable organic substances, and a circular The kg COD removed is determined by multiplying the kg COD in the
+settler to separate clarified water from the sludge (biomass generated by influent by the percentage removal of carbon at each station. Similarly,
+bacterial metabolism). The sludge from the biological treatment is the kg N removed is calculated by multiplying the kg N in the influent by
+collected, thickened, and transferred in a centrifuge unit for dewatering the percentage removal of nitrogen at each station. The multiplication of
+before being disposed of in a landfill. Each of them is an open tank and these emission factors and the kilograms of COD or N removed from
+considered a source of emissions Anaerobic plants represent the com- each unit allows for the calculation of GHG emissions.
+parison scenario where the first step is the same as an aerobic process. To convert the obtained kg GHG to kg CO2 equivalent, the emissions
+After these, in some cases, the grit tank follows a primary clarification of CH4, N2O, and CO2 are multiplied by 30, 300, and 1, respectively,
+before the biological process for the water treatment line. While, the based on their global warming potential (GWP). The amount of fossil
+sludge is thickened, and stabilized in anaerobic digestion and dewater- CO2 is calculated using Eq. (4):
+ing. Tertiary treatments: filtration and disinfection of the effluent before
+EFxElectricconsumption (4)
+being discharged into the surface body are not included in the boundary
+system due lack of data in the literature to compare. Water in the outlet
+Where: EF of electric energy is reported in the report of Acquedotto
+isn’t reused within the plants or in urban and agricultural fields. Neither
+Pugliese (AQP, 2021).
+the sludge is reused nor the potential biogas, in the anaerobic scenario,
+isn’t recovered but burned on the industrial torch.
+2.3. Statistical analysis
+2.2. Dataset of investigation
+A statistical analysis has been conducted. After identifying the out-
+All starting data are average value refer to five years of investigation liers using the Generalized Extreme Value Distribution test from the
+(from 2018 to 2022) as shown in Table 1. Aerobic WWTPs serving each software Past 4.13, they were removed from the dataset, this rigorous
+an average population of about 10,543 PE, an average capacity of 1473 approach ensured the robustness of the analysis by excluding extreme
+m3/d, and an average daily consumption of 1668 kwh/d. The raw values that could potentially bias the results. Following outlier removal,
+sewage presents average influent of 1175 kgCOD/d and 115 kgN/d. On the Mann-Whitney U test was conducted to compare greenhouse gas
+the other side, anaerobic WWTPs described previously, are larger, emissions between aerobic and anaerobic wastewater treatment plants.
+indeed serving each an average population of about 87,700 with average Results indicated a significant difference (p < 0.05) in emissions,
+capacity plants of 11,646 m3/d and an average daily consumption of highlighting the impact of treatment methods on greenhouse gas
+6,501 kwh/d. The raw sewage presents an average influent of 10,330 outputs.
+kgCOD/d and 873 kgN/d.
+To account for the emission from different scenarios and steps of 3. Result and discussion
+The estimation of emissions by each treatment station related to AQP
+Table 1
+Average value for Anaerobic and Aerobic WWTPs. plants was based on COD and N removals, reported in flowcharts below,
+and based on experimental values collected on field and emission factors
+Average value PE kwh/d m3/d COD (kg/d) N (kg/d)
+found in literature for GHGs emissions reported in Table 2.
+Anaerobic 87,700 6,501 11,646 10,330 873 As reported in the flow diagrams for aerobic (Fig. 2) and anaerobic
+Aerobic 10,543 1,668 1,473 1,175 115
+plants (Fig. 3), it is shown that the removal of Chemical Oxygen Demand
+3
+
+--- Page 4 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+Table 2
+Emission factors to GHG for each treatment in aerobic/anaerobic WWTPs.
+UNITS FOR AEROBIC AND ANAEROBIC WWTPs
+Emission factors N2O CH4 CO2 biogenic Notes References
+Units process PRELIMINARY TREATMENTS
+Oxidation ditch 0.2 gN2O 0.9 kgCH4 2.1 kgCO2 7 ×104 m 3/d Yan et al., 2014
+Reversed A2O 24.6 gN2O 18.3 kgCH4 78.3 kgCO2 23 ×104 m 3/d
+A2O 24.6 gN2O 18.3 kgCH4 78.3 kgCO2 23 ×104 m 3/d
+A2O 5.25gCO2/ m3 CODin: 397 mg/L Bao et al., 2014.
+AO // // 4.38gCO2/ m3 CODin: 384 mg/L
+Oxidation ditch 5.45gCO2/ m3 CODin: 488 mg/L
+Aerated grit tank 1.6 ×103 gN2O/y 5.7 ×104 gCH4/y 3.9 ×106 gCO2/y 11,000 PE Czepiel et al., 1993
+Non-aerated grit tank 1.6 ×102 gN2O/y 9.2 ×104 gCH4/y 1.1 ×106 gCO2/y 1.1 ×109 L/y Czepiel et al., 1995
+WWTP 18,000 PE Value Range Value Range CODin:318 ton/y Marinelli et al.,
+WWTP 22,000 PE 2.6 ×10(cid:0) 4 kg N2O 1.3 ×10(cid:0) 4 – 4.1 ×10(cid:0)3 – 0.1 kgCO2/ CODin:444 ton/y 2021
+/kgNrem kgCODrem
+WWTP10,000 PE 1.5 ×10(cid:0)3 kg CH4/kgCODin CODin:237 ton/y
+0.0075 kg CH4/kg (CODinfluent (cid:0) Load COD influent (kg/ IPCC et al., 2019
+CODsludge) PE/y)
+// // Load CODin sludge
+(kg/PE/y)
+Units process PRIMARY SETTLER
+A2O 0.28 gCO2/m3 Bao et al., 2014
+AO // // 0.25 gCO2/m3
+// 0.34 g CH4/m3 // Czepiel et al.,
+(1993)
+// 0.16 g CH4/m3 // Wang et al., (2011)
+0.00055 0.00084 kg CH4/kgCOD removed Samuelsson et al.,
+kgN2O/kgNrem // 2018
+Units process AEROBIC OXIDATION
+Oxidation ditch 4975 gN2O 88 kgCH4 4128.3 kgCO2 7 ×104 m 3in/d Yan et al., 2014
+Reversed A2O 6718.1 gN2O 147.7 kgCH4 13743.1 kgCO2 23 ×104 m 3in/d
+A2O 9778.8 gN2O 74.4 kgCH4 24,878 kgCO2 23 ×104 m 3in/d
+A2O 168.65 gCO2/ m3 CODin: 397 mg/L Bao et al., 2014
+AO // // 167.99 gCO2/ m3 CODin: 384 mg/L
+Oxidation ditch 355.87 gCO2/ m3 CODin: 488 mg/L
+Active sludge 0.00032 kgN2O-N/ NH4-Nin:52.4 mg/l Caniani et al., 2019
+(15,000 PE) kgNH4-N in // //
+Italian CAS 0.027 g N2O-N 30,000 PE Gori et al., 2016
+Netherlands CAS 0.25 g N-N2O/N // //
+Activated sludge (11,000 3.2 ×104 gN2O/L 2.2 ×105 gCH4/y 3.6 ×108 gCO2/y 1.1 ×109 L/y Czepiel et al., 1993
+PE) Czepiel et al., 1995
+WWTP 1–6 Value range Value Range Value Range Marinelli et al.,
+(>15,000 PE) 6.7 ×10(cid:0)8 to 0.02 kg 2.2 ×10(cid:0)8 to 0.003 kg 1.8 ×10(cid:0)5 to 3.1 kg 2021
+WWTP 7–12 N2O/kgNrem CH4/kgCODin CO2/kgCODrem
+(<15,000 PE)
+0 // working efficiently Noyola et al., 2018
+0.025 kg N2O /kgTN 0.075 kg CH4/kgCOD // IPCC, 2019
+Units process SECONDARY SETTLER
+Oxidation ditch 114.3 kgN2O 0 kgCH4 43.4 kgCO2 7 ×104 m 3in/d Yan et al., 2014
+Reversed A2O 829.2 kgN2O 0 kgCH4 181.7 kgCO2 23 ×104 m 3in/d
+A2O 240.1 kgN2O 0 kgCH4 211.4 kgCO2 23 ×104 m 3in/d
+A2O 0.52 gCO2/ m3 CODin: 397 mg/L Bao et al., 2014.
+AO // // 0.41 gCO2/ m3 CODin: 384 mg/L
+Oxidation Ditch 2.08 gCO2/ m3 CODin: 488 mg/L
+Units process SLUDGE THICKENER TANK
+Oxidation Ditch // // 0.07 gCO2/m3 CODin: 488 mg/L Bao et al., 2014
+Units process AEROBIC STABILIZATION
+11,000 PE 1.7 ×103 gN2O/L 6.3 ×104 gCH4/y 2.1 ×107 gCO2/y 1.1 ×109 L/y Czepiel et al., 1993
+Czepiel et al., 1995
+WWTP 6 (<15,000 PE) 8.9 ×10(cid:0)8 kg N2O/kgTS 3.8 ×10(cid:0) 7 kg CH4/ kgTS 1.3 ×10(cid:0)3 kg CO2/kgTS TS unspecified Marinelli et al.,
+2021
+// 0.15 g CH4/PE⋅d // Daelman et al., 2013
+PE >5000 0.001 kg N2O-N/kg N // // Valkova et al.
+(2021)
+0.00024 kg N2O/kg N 0 kgCH4/kgCOD // IPCC, 2019
+Units process ANAEROBIC DIGESTION
+(continued on next page)
+4
+
+--- Page 5 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+Table 2 (continued)
+UNITS FOR AEROBIC AND ANAEROBIC WWTPs
+Emission factors N2O CH4 CO2 biogenic Notes References
+0.34 gCH4/PE⋅d Daelman et al., 2013
+// 3.44 g CH4/m3 //
+// // 0.38 kgCO2/kgCOD Wang et al., 2022
+0 0.2 // IPCC, 2019
+Fig. 2. Mass balance of Aerobic Wastewater Treatment Plant in terms of COD, Ntot, and CO2eq.
+Fig. 3. Mass balance of Anaerobic Wastewater Treatment Plant in terms of COD, Ntot, and CO2eq.
+(COD) and Nitrogen (N) predominantly occurs in biological oxidation removes COD by 35 % and N by 70 %, while anaerobic digestion
+and sludge line digestion. In the aerobic WWTPs, aerobic oxidation re- removes 24 % of COD.
+duces COD by 40 % and N by 73 % with 58 kg CO2eq emitted while As illustrated in Fig. 3, COD and N content in sludge is higher when
+aerobic digestion removes 34 % of COD and 4 % of N with 33 kg CO2eq derived from the anaerobic plant, due to the presence of primary settler,
+released. These values are near to the scenario hypothesized by Garrido into account that it contributes around 30 % of the influent BOD on the
+et al. (2013), particularly analysing COD removal efficiency in the sludge (Metcalf and Eddy, 2003). This outcome in the CO2eq comes from
+digester sludge systems. The varying organic substance percentages in the operations of anaerobic plants being lower compared to that of
+sludge highlight the potential benefits of concentrating carbon in sludge, aerobic plants.
+both for its soil amendment properties and the reduction of greenhouse Fig. 4 shows direct GHGs contributions in each section of treatment
+gas emissions. While aerobic digestion plant sludge exhibits 10 % COD both aerobic and anaerobic plants.
+and 1 % N, anaerobic digestion plant sludge shows higher concentra- As higher rates of COD and N removal in biological processes have
+tions at 23 % COD and 5 % N. This difference suggests the potential for been found, the higher contribution of emissions in these phases has
+enhanced carbon sequestration and reduced atmospheric greenhouse been relatively quantified.
+gas emissions in anaerobic digestion systems. The total annual emissions are displayed in Fig. 4 and resulted in 91
+Indeed, in the case of the anaerobic WWTPs, aerobic oxidation kgCO2eq/PE*Y (Person Equivalent per Year) in aerobic WWTPs equal to
+5
+
+--- Page 6 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+Fig. 4. Emissions in kgCO2eq for each section of the anaerobic and aerobic plant arising from N2O, CH4, biogenic CO2, and fossil CO2.
+1.8 kg CO2eq/m3 and 73 kgCO2 eq/PE*Y in anaerobic WWTPs equal to bacteria, low chemical oxygen demand to nitrogen (low C/N ratio), low
+1.4 kg O2eq/m3. dissolved oxygen, low temperature, and low SRT. According to these
+In aerobic WWTPs have been estimated total annual emissions of 91 findings, some compensatory measures have been introduced in Apulian
+kgCO2 eq/PE*Y (Person Equivalent per Year) equal to be 1.8 kg CO2eq/ WWTPs (D’Onghia et al., 2024).
+m3. In anaerobic WWTPs have accounted for total annual emissions of
+According to Yan et al., 2014, the aerators and circulating flow of 73 kgCO2eq/PE*y equal to 1.4 kg CO2eq/m3 with N2O contributing by
+dissolved N2O in the biological basins had a great impact on total GHG 24 kgCO2eq/PE*y, CH4 contributing by 21 kgCO2eq/PE*y, biogenic CO2
+emission, which resulted in a discrepancy between the GHG generation contributing by 16 kgCO2eq/PE*y and fossil CO2 by 11 kgCO2eq/PE*y
+and GHG emission amount. showing that the presence of the primary sedimentation step, before the
+Aerobic oxidation has resulted N2O contribute, as average, by 26 aeration tank, does not interfere with the N2O emissions released in the
+kgCO2eq/PE*y, CH4 contribute by 7 kgCO2eq/PE*y, biogenic kgCO2 aeration tank and there is not much difference in terms of emissions
+contribute by 22 kgCO2eq/PE*y and fossil CO2 by 23 kgCO2eq/PE*y. In released into the atmosphere in this step. It is evident that anaerobic
+aerobic digester the N2O contribution has been estimated to be lower digestion doesn’t emit significant N2O emissions but results in high
+than 1 kgCO2eq/PE*y, CH4 contributes approx. 7 kgCO2eq/PE*y, emissions of CH4 and CO2.
+biogenic kgCO2 contribute 12 kgCO2eq/PE*y and fossil CO2 approx. 9 Cakir and Stenstrom, 2005 in their study shown how at higher
+kgCO2eq/PE*y. wastewater strengths there is sufficient CO2 and CH4 production to
+These values obtained from this simulation have resulted higher than reduce the nitrogen concentrations to the low levels usually observed in
+those measured by Caniani et al., 2019 which presented a smaller plant anaerobic digesters.
+with scarce efficiency in the aeration system and utilised several emis- The emission of GHGs produced in the considered Apulian in terms
+sion factors. For instance, the N2O fraction was calculated with an of CO2eq has been estimated as reported in Table 3:
+emission factor of 0.00032 corresponding to 0.032 % of influent TKN In both typologies of plant, the most impactful units were biological
+(Total Kjeldahl Nitrogen) and resulted in 70 gN2O/day from the aeration treatment (aerobic oxidation and sludge digestion) with a contribution
+tank. Moreover, Marinelli et al., (2021) highlight that the emission of 58 % and 33 % on the total CO2eq emitted respectively to aerobic
+factor values were inversely proportional to the WWTP size, resulting in plants and 67 % and 26 % to anaerobic plants. This is probably due to
+higher specific values for the smallest WWTP plant (<15,000 PE) about the decay rate of the substance.
+0.27 kg N2O/kgTNrem. Shahabadi et al., (2009) show that emissions from the oxidation tank
+In addition, the COD/TKN ratio significantly influences direct GHG increase sharply with increasing decay rate and that they had significant
+emissions and specifically N2O emissions. A rapid increase in TKN effects on the total amount of GHGs emissions, up to 62 % as total.
+concentration led to an increase in N2O emissions in the aerobic reactors
+(Mannina et al., 2019).
+Foley et al., (2010) and Law et al. (2012) found an inverse propor- Table 3
+tionality in the considered WWTPs between high levels of nitrogen GHGs Emission (in kgCO2eq/PE*Y) produced by Apulian wastewater treatment
+removal and N2O emitted. plants.
+Nitrous oxide emissions from wastewater treatment plants vary TOTAL N2O CH4 Biogenic CO2 Fossil CO2
+substantially between plants, ranging from negligible to substantial, EMISSIONS (SD) (SD) (SD) (SD)
+depending on the operability of the system (He et al., 2023). Kamps- AEROBIC PLANTS 27 18 22 (0.92) 23 (0.98)
+chreur et al., (2009) and Massara et al., (2017) evidenced that N2O (1.21) (0.82)
+release in the atmosphere is regulated by the slow growth of denitrifying ANAEROBIC 24 21 16 (0.75) 11 (0.52)
+PLANTS (1.05) (0.97)
+6
+
+--- Page 7 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+Concerning fossil CO2 emission, in the biological treatments is due to secondary activated sludge treatment. The IPCC Guidelines (2006) re-
+the electricity consumption of air blowers, and in the remained physical ported that the highest CH4 emission occurs in aerobic oxidation, sludge
+treatments is due to the electricity consumption of pumps in both aer- digestion, and primary settler and established that a well-managed
+obic and anaerobic plants. It can be seen that aerobic ones are more treatment facility using conventional activated sludge normally pro-
+energy-intensive. duces little or no CH4. The high contribution that has been found in both
+In Fig. 5 the percentages of each GHGs contribution per treatment plants could be due to low dissolved oxygen concentration (<0.2 mg/l)
+unit are shown, respectively for aerobic and anaerobic WWTPs. in aerobic oxidation and dissolved methane in aerobic digestion and
+The highest fluxes of GHGs refer to N2O followed by CH4, biogenic dewatering unit as reported by Wang et al., (2011), indeed the methane
+CO2 in biological steps while in physical steps the largest contribution is emission factor is much higher than those values reported by Yan et al.,
+due to fossil CO2. (2014) and Czepiel et al. (1993). In anaerobic plants, especially in pri-
+Most of the N2O was released from the nitrification process in the mary sedimentation, CH4 emissions can be formed as a result of inade-
+aerobic oxidation tank and the N2O emission factor significantly affected quate underflow removal leading to deep sludge blankets (Monteith
+the contribution of N2O emission to the total GHGs production. Higher et al., 2005) and in the anaerobic digester step, partly emitted as fugitive
+N2O emissions from aerobic oxidation tanks have been shown by Yan CH4 from scruffy pipes, and partly in flare and converted into CO2. On
+et al. (2014) and He et al., 2023. Czepiel et al. (1993), based on an the basis of the mass balance reported in Fig. 3, in terms of the initial
+annual wastewater flow of 1.1 ×109 L/y, reported annual fluxes to be COD percentage, the average theoretical production of methane in
+5.6 ×109 gCH4/y from primary treatment and 7.9 ×109 gCH4/y from Apulian anaerobic digestion is 1.287 kg CH4/AE*y. The average
+Fig. 5. (a) Percentage contribution to the total emission of CH4, N2O, biogenic, and fossil CO2, for each section of the aerobic plant. (b) Percentage contribution to
+the total emission of CH4, N2O, biogenic, and fossil CO2, for each section of the anaerobic plant.
+7
+
+--- Page 8 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+measured methane production in all plants is 1.222 kgCH4/AE*y that
+reveal a methane loss of 0.065 kg CH4/AE*y as average, equal to approx
+5.1 % of the total CH4 production in the anaerobic based WWTPs and
+18.5 % of the total GHGs emission from the anaerobic digester, in terms
+of kg CO2/AE*y, as average (Fig. 6). CH4 fugitive emissions values are
+slightly higher than others reported in similar experiences (Liebetrau
+et al., 2010; Tauber et al., 2019).
+Yoshida et al., (2014) reported that the fugitive emissions represent
+between 2 and 10 % of the total methane emissions that characterize
+biogas and if there are failures in the biogas production and transport
+these values could become even higher.
+Methane can be produced, in a low quantity, less than 1 kgCO2eq/
+PE*y, also in grit tanks and preliminary treatments, depending on bio-
+logical nutrient decomposition processes in the sewer systems (Guisa-
+sola et al., 2008, Yan et al., 2014).
+Fig. 6. Methane production and fugitive emission. COD initial Mass Balance in
+Finally, it can be seen that biogenic CO2 characterizes mainly aerobic the anaerobic digestor. Average values.
+digesters differently from anaerobic digesters.
+Cakir and Stenstrom (2005) in their study showed how CO2 emission Gianfranco D’Onghia: . Francesca Ranieri: Formal analysis. Luigi
+from an aerobic digester could be produced ranging from 1 to 10 tons/
+Lopopolo: Validation. Sarah Gregorio: Investigation. Ada Cristina
+day as a function of the BOD while in an anaerobic digester, it could be
+Ranieri: Data curation.
+assumed up to zero if CH4 it would have recovered. Caniani et al.,
+(2019), also considering the same emission value to measure indirect
+emission released from air diffusers, found 35,8 tCO2/y (for each Declaration of competing interest
+treatment line) and 4.8 kgCO2/year/inhabitants. Marinelli et al., (2021)
+quantified biogenic CO2 in 25 % of the impact on total carbon footprint The authors declare that they have no known competing financial
+and indirect emissions due to energy consumption ranging from 10 to interests or personal relationships that could have appeared to influence
+40 % as a function of the carbon and nitrogen removed loads in the the work reported in this paper.
+different WWTPs.
+Possible compensatory measures for reducing N2O emissions Data availability
+concern new sludge line with the recirculation flow from the sludge
+thickener directly in the anoxic section of the biological compartment to The data that has been used is confidential.
+increase the C/N ratio and to limit O2 presence in this anoxic basin
+(D’Onghia et al., 2024) and the use of covers for stations are also po- Acknowledgment
+tential strategies. This strategy has been recently implemented in the
+upgrading of three Apulian wastewater treatment plants connecting a The research activity has been executed within the Italian National
+by-pass line from the sludge thickener direct to the denitrification step Recovery and Resilience Plan (NRRP) Framework, Activity M4C2 by the
+determining a N2O emission reduction of approx. 38 % than in config- Italian Ministry of the University and Research, CUP: H91I23000060007
+uration previous the upgrade. and H91I22000650007 and the NRRP Prin Project: P2022234RJ “Smart
+Possible compensatory measures for reducing CH4 emissions may Sustainable Saving Solutions for urban WAter and wastewater Treat-
+include preventing biogas leaks from digesters, in anaerobic plants. In ment (S4WAT)”. AIP, Autorit`a Idrica Pugliese is well acknowledged for
+some anaerobic digestion plants, biogas is currently incinerated, pro- the WWTPs electrical data supply.
+ducing CO2. Recovering and utilizing this biogas for on-site electricity
+generation could significantly reduce environmental impact, mitigating References
+greenhouse gas emissions and enhancing overall energy efficiency.
+Possible compensatory measures for reducing CO2 emissions may Acquedotto Pugliese (AQP), 2019-21. Social budget document: wastewater treatment
+plant data.
+include the reduction of electrical consumption by using artificial in-
+Bakhshi, A.A., Demonsabert, S.M., 2012. Estimating the carbon footprint of the
+telligence to control and optimize the biological process and to enhance municipal water cycle. J. Am. Water Works Ass. 104 (5), E337–E347.
+operational efficiency, particularly for pumping stations and recircula- Bao, Z., Sun, S., Sun, D., 2014. Characteristics of direct CO2 emissions in four full-scale
+wastewater treatment plants. Desalin. Water Treat. https://doi.org/10.1080/
+tion in aerobic and anaerobic wastewater treatment systems.
+19443994.2014.940389.
+Cakir, F.Y., Stenstrom, M.K., 2005. Greenhouse gas production: a comparison between
+4. Conclusions aerobic and anaerobic wastewater treatment technology. Water Res. Oct 39 (17),
+4197–4203. 10.1016/j.watres.2005.07.042.
+Caniani, D., Caivano, M., Pascale, R., Bianco, G., Mancini, I., Masi, S., Mazzone, G.,
+N2O emissions are the most significant in terms of their contribution Firouzian, M., Rosso, D., 2019. CO2 and N2O from water resource recovery facilities:
+to the overall carbon footprint, especially in secondary biological Evaluation of emissions from biological treatment, settling, disinfection, and
+receiving water body. Sci. Total Environ. 648, 1130–1140.
+treatments, in both aerobic and anaerobic plants, ranging from 24
+Capodaglio, A.G., Ranieri, E., Torretta, V., 2016. Process enhancement for maximization
+kgCO2eq/PE*y for anaerobic plants to 27 kgCO2eq/PE*y for aerobic of methane production in codigestion biogas plants. Manag. Environ. Qual. 27 (3),
+plants. The flow varies depending on various operating parameters as 289–298. https://doi.org/10.1108/MEQ-04-2015-0059.
+´
+well as plant characteristics and technologies and this proves that N2O Card Co oso n, uB m.J p., iR oo nd ori fg Wue as s, eE w., aG tea rs p Ta rr e, aA tm.R e. n, tG Po lm anes ts, A in., t2 h0 e2 N1 o. rA thn a oly s Pis ro tf gS ap le .c Ii nfi :c Energy
+s t t f o u
+may be mitigated through proper functionality of the system. International Conference on Water Energy Food and Sustainability. Springer
+The total emissions for aerobic digestion plants amount to 91 International Publishing, Cham, pp. 361–369.
+kgCO2eq/PE*y, whereas for anaerobic digestion plants is 73 kgCO2eq/ Chen m, aY n.C ag., K mu eo n, :J . a, c2 a0 s1 e6 s. tP uo dt ye n ot fi a Tl o iwf ag nre e Jn h Co lu ease .g Pas oe dm i 1s 2si 9o ,n 1s 9f 6ro –m 1se wage sludge
+e t a . . n r . 20 .
+PE*y.
+Chen, X., Mielczarek, A.T., Habicht, K., Andersen, M.H., Thornberg, D., Sin, G., 2019.
+431 Assessment of full-scale N2O emission characteristics and testing of control
+CRediT authorship contribution statement concepts in an 432 activated sludge wastewater treatment plant with alternating
+aerobic and anoxic phases. 433. Environ. Sci. Technol. 53 (21), 12485–12494.
+Czepiel, P.M., Crill, P.M., Harriss, R.C., 1993. Methane emissions from municipal
+Ezio Ranieri: Project administration, Conceptualization. wastewater treatment processes. Environ. Sci. Technol. 27 (12), 2472–2477.
+8
+
+--- Page 9 ---
+E. Ranieri et al. B i o r e s o u r c e T e c h n o l o g y 404(2024)130897
+Czepiel, P., Crill, P., Harriss, R., 1995 Sep 1. Nitrous oxide emissions from municipal Mininni, G., Laera, G., Bertanza, G., Canato, M., Sbrilli, A., 2015. Mass and energy
+wastewater treatment. Environ. Sci. Technol. 29 (9), 2352–2356. https://doi.org/ balances of sludge processing in reference and upgraded wastewater treatment
+10.1021/es00009a030. plants. Environ. Sci. Pollut. Res. 22, 7203–7215.
+Daelman, M.R.J., van Voorthuizen, E.M., van Dongen, L.G.J.M., van Loosdrecht, M.C.M., Monteith, H.D., Sahely, H.R., MacLean, H.L., Bagley, D.M., 2005. A rational procedure
+Volcke, E.I.P., 2013. Methane and nitrous oxide emissions from municipal for estimation of greenhouse-gas emissions from municipal wastewater treatment
+wastewater treatment – results from a long-term study. Water Sci. Technol. 67 (10), plants. Water Environ. Res 77 (4), 390–403.
+2350–2355. Noyola, A., Paredes, M.G., Güereca, L.P., Molina, L.T., Zavala, M., 2018. Methane
+D’Onghia, G., Ranieri, E., Ranieri, F., Lopopolo, L., Gregorio, S., Ranieri, A.C., 2024. correction factors for estimating emissions from aerobic wastewater treatment
+Compensatory measures to reduce GHGs in wastewater treatment plants in Southern facilities based on field data in Mexico and on literature review. Sci. Total Environ.
+Italy. J. Water Process Eng. 60, 105128. 639, 84–91.
+EUDP, 2018. EUDP 14-II. J.nr. 64014-0565, pp. 1–50. Petrella, A., Mascolo, G., Murgolo, S., Petruzzelli, V., Ranieri, E., Spasiano, D.,
+Foley, J., de Haas, D., Yuan, Z., Lant, P., 2010. Nitrous oxide generation in full-scale Petruzzelli, D., 2016. Photocatalytic oxidation of organic micro-pollutants: pilot
+biological nutrient removal wastewater treatment plants. Water Res. 44, 831–844. plant investigation and mechanistic aspects of the degradation reaction. Chem. Eng.
+Gandiglio, M., Lanzini, A., Soto, A., Leone, P., Santarelli, M., 2017. Enhancing the energy Commun. 203 (10), 1298–1307. https://doi.org/10.1080/00986445.2016.1188292.
+efficiency of wastewater treatment plants through co-digestion and fuel cell systems. Ranieri, E., Ionescu, G., Fedele, A., Palmieri, E., Ranieri, A.C., Campanaro V., 2017.
+Front. Environ. Sci. 5, 70. Sampling, characterisation and processing of solid recovered fuel production from
+Garrido, J.M., Fdz-Polanco, M., Fdz-Polanco, F., 2013. Working with energy and mass municipal solid waste: An Italian plant case study. Waste Manag Res. Aug;35(8):890-
+balances: a conceptual framework to understand the limits of municipal wastewater 898. doi: 10.1177/0734242X17716276.
+treatment. Water Sci. Technol. 67 (10), 2294–2301. Ranieri, E., Giuliano, S., Ranieri, A.C., 2021. Energy consumption in anaerobic and
+Gori, R., G. Bellandi, and C. Caretti, 2016. “Experience, progresses and perspectives of aerobic based wastewater treatment plants in Italy. Water Pract. Technol. 16 (3),
+off-gas testing in wastewater treatment: From aeration efficiency towards CFP 851–863. https://doi.org/10.2166/wpt.2021.045.
+assessment.” In Proc., SIDISA 2016. Roma: DEI Tipografia del Genio Civile. Ranieri, E., D’Onghia, G., Lopopolo, L., Gikas, P., Ranieri, F., Gika, E., Spagnolo, V.,
+Guisasola, A., de Haas, D., Keller, J., Yuan, Z., 2008. Methane formation in sewer Ranieri, A.C., 2023. Evaluation of greenhouse gas emissions from aerobic and
+systems. Water Res. 42 (6–7), 1421–1430. anaerobic wastewater treatment plants in Southeast of Italy. J. Environ. Manage.
+He, X., Li, Z., Xing, C., Li, Y., Liu, M., Gao, X., Ding, Y., Lu, L., Liu, C., Li, C., Wang, D., 337, 117767.
+2023. Carbon footprint of a conventional wastewater treatment plant: An analysis of Samuelsson, J., Delre, A., Tumlin, S., Hadi, S., Offerle, B., Scheutz, C., 2018. Optical
+water-energy nexus from life cycle perspective for emission reduction. J. Clean. technologies applied alongside on-site and remote approaches for climate gas
+Prod. 429, 139562. emission quantification at a wastewater treatment plant. Water Res. 131, 299–309.
+IPCC (2019) Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Shahabadi, M.B., Yerushalmi, L., Haghighat, F., 2009. Impact of process design on
+Inventories. greenhouse gas (GHG) generation by wastewater treatment plants. Water Res. 43
+Kalimeris, A., Ranieri, E., Founda, D., Norrant, C., 2017. Variability Modes of (10), 2679–2687.
+Precipitation along a Central Mediterranean Area and Their Relations with ENSO, Sharawat, I., Dahiya, R., Dahiya, R.P., 2021. Analysis of a wastewater treatment plant for
+NAO, and Other Climatic Patterns. Atmos. Res. 198, 56–80. https://doi.org/ energy consumption and greenhouse gas emissions. Int. J. Environ. Sci. Technol. 18,
+10.1016/j.atmosres.2017.07.031. 871–884.
+Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S., van Loosdrecht, M.C., Tauber, J., Parravicini, V., Svardal, K., Krampe, J., 2019 Nov. Quantifying methane
+2009. Nitrous oxide emission during wastewater treatment. Water Res. 43 (17), emissions from anaerobic digesters. Water Sci. Technol. 80 (9), 1654–1661. https://
+4093–4103. doi.org/10.2166/wst.2019.415.
+Liebetrau, J., Clemens, J., Cuhls, C., Hafermann, C., Friehe, J., Weiland, P., Daniel- UNFCCC, 2018. UN Framework Convention on Climate Change: Climate Change Annual
+Gromke, J. (2010).Methane emissions from biogas-producing facilities within the Report.
+agricultural sector(Vol. 10, No. 6, pp. 595-599). Weinheim: WILEY-VCH Verlag. Valkova, T., Parravicini, V., Saracevic, E., Tauber, J., Svardal, K., Krampe, J., 2021.
+Longo, S., d’Antoni, B.M., Bongards, M., Chaparro, A., Cronrath, A., Fatone, F., A method to estimate the direct nitrous oxide emissions of municipal wastewater
+Hospido, A., 2016. Monitoring and diagnosis of energy consumption in wastewater treatment plants based on the degree of nitrogen removal. J. Environ. Manag. 279,
+treatment plants. A state of the art and proposals for improvement. Appl. Energy 111563.
+179, 1251–1268. Van Lienden, C., Shan, L., Rao, S., Ranieri, E., Young, T.M., 2010. Metals removal from
+Mannina, G., Rebouças, T.F., Cosenza, A., Chandran, K., 2019. A plant-wide wastewater stormwater by commercial and non-commercial granular activated carbons. Water
+treatment plant model for carbon and energy footprint: model application and Environ. Res 82 (4), 351–356. https://doi.org/10.2175/
+scenario analysis. J. Clean. Prod. 217, 244–256. 106143009X12487095236874.
+Marinelli, E., Radini, S., Foglia, A., Lancioni, N., Piasentin, A., Eusebi, A.L., Fatone, F., Wang, D., Ye, W., Wu, G., Li, R., Guan, Y., Zhang, W., Hubacek, K., 2022. Greenhouse gas
+2021. Validation of an evidence-based methodology to support regional carbon emissions from municipal wastewater treatment facilities in China from 2006 to
+footprint assessment and decarbonisation of wastewater treatment service in Italy. 2019. Sci. Data 9 (1), 317.
+Water Res. 207, 117831 https://doi.org/10.1016/j.watres.2021.117831. Wang, J., Zhang, J., Xie, H., Qi, P., Ren, Y., Hu, Z., 2011. Methane emissions from a full-
+Massara, T.M., Malamis, S., Guisasola, A., Baeza, J.A., Noutsopoulos, C., Katsou, E., scale A/A/O wastewater treatment plant. Bioresour. Technol. 102 (9), 5479–5485.
+2017. A review on nitrous oxide (N2O) emissions during biological nutrient removal Xiuhong, L., Yi, P., Changyong, W., Takigawa, A.K.I.O., Yongzhen, P.E.N.G., 2008.
+from municipal wastewater and sludge reject water. Sci. Total Environ. 596, Nitrous oxide production during nitrogen removal from domestic wastewater in lab-
+106–123. scale sequencing batch reactor. J. Environ. Sci. 20 (6), 641–645.
+Menduni, G., Sgobba, F., Russo, S.D., Ranieri, A.C., Sampaolo, A., Patimisco, P., Yan, X., Li, L., Liu, J., 2014. Characteristics of greenhouse gas emission in three full-scale
+Giglio, M., et al., 2020. Fiber-coupled quartz-enhanced photoacoustic spectroscopy wastewater treatment processes. J. Environ. Sci. 26 (2), 256–263.
+system for methane and ethane monitoring in the near-infrared spectral range. Yapıcıog˘lu, P., Demir, O¨ ., 2021. Minimizing greenhouse gas emissions of an industrial
+Molecules 25 (23). https://doi.org/10.3390/molecules25235607. wastewater treatment plant in terms of water-energy nexus. Appl. Water Sci. 11 (12),
+Menduni, G., Zifarelli, A., Kniazeva, E., Dello Russo, S., Ranieri, A.C., Ranieri, E., 180.
+Patimisco, P., Sampaolo, A., Giglio, M., Manassero, F., Dinuccio, E., Provolo, G., Yoshida, H., Mønster, J., Scheutz, C., 2014. Plant-integrated measurement of greenhouse
+Wu, H., Lei, D., Spagnolo, V., 2023. Measurement of methane, nitrous oxide and gas emissions from a municipal wastewater treatment plant. Water Res. 61,
+ammonia in atmosphere with a compact quartz-enhanced photoacoustic sensor. 108–118.
+Sens. Actuators B 375, 132953.
+9

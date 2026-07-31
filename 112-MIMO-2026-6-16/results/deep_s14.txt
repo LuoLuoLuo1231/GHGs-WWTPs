@@ -1,0 +1,51 @@
+（81）Tracking China's methane emissions from wastewater: Inventories, driving forces, and mitigation potential
+研究方法：
+a. [排放清单编制] - IPCC质量平衡法：IPCC 2006/2019指南推荐的排放因子法，NDRC省级温室气体清单编制指南，B0=0.25 kgCH4/kgCOD，MCF校正因子；中国统计年鉴、中国环境统计年报、中国城市统计年鉴数据；计算2000-2020年中国31省废水中甲烷排放量
+b. [驱动因素分解] - 对数平均迪氏指数法（LMDI）：加法分解形式，Ang（2005）方法；GDP、人口、城镇化率等省级社会经济数据；将废水甲烷排放变化分解为人口规模、城镇化水平、经济产出、产生强度、处理结构、排放强度六个驱动因素
+c. [情景预测] - 情景分析法：基于六个驱动因素解决方案设置七种情景（BAU、排放强度、处理结构、产生强度、经济产出、城镇化、人口）；外推各驱动因素至2050年；预测2020-2050年废水甲烷减排潜力
+
+（82）Synergy reduction of contaminants discharge and GHGs emission of liquor wastewater treatment plants: Benefits assessment and reconstruction strategies
+研究方法：
+a. [综合评估] - 熵权法（EWM）：对电力成本、药剂成本、人工成本、其他成本及COD/NH3-N/TN/TP削减量共8项二级指标赋权，合成成本综合指数和减排综合指数两个一级指标；遵义市8座酱香型白酒废水处理厂2022年运营数据；降维以提高DEA评估精度
+b. [效率评估] - 超效率松弛变量模型（Super-SBM DEA）：以总投资和成本综合指数为投入，减排综合指数为期望产出，污泥产生量和温室气体排放为非期望产出；8座LWTPs的2022年运营记录（进出水水质、处理水量、污泥产量、电耗、药耗）；评估各厂污染物与温室气体协同减排效益
+c. [敏感性分析] - 逐一剔除指标法：移除某一指标后重新运行Super-SBM模型，以原始效益为自变量、剔除后效益为因变量进行线性拟合，通过R²、斜率和p值判断指标敏感性；识别各指标改善优先级
+d. [外部因素分析] - Tobit回归模型：以Super-SBM效益值为因变量，水量负荷率、进水COD/NH3-N/TN/TP浓度为自变量；分析评估方法之外的因素对LWTPs效益的影响
+e. [温室气体核算] - IPCC 2019指南精细化方法：基于2019 Refinement to the 2006 IPCC Guidelines计算温室气体排放，结合运营记录数据（进出水水质、电耗、药耗）；核算各厂GHG排放量
+
+（83）Greenhouse Gas Emissions from a Full-Scale Vermifilter for Sewage Treatment: Effects of Seasonality and Sewage Parameters
+研究方法：
+a. [气体采样] - 静态箱法（Static Chamber Method）：直径10cm、高35cm的圆柱体箱，埋入土层5cm深，60mL注射器经软管连接，每15分钟采样一次持续1小时；智利Concepción农村地区全规模蚯蚓滤池（VF）活性层与大气之间；采集CO2、CH4和N2O气体样品
+b. [气体分析] - 气相色谱法（GC）：Shimadzu气相色谱仪，配备甲烷化器、火焰离子化检测器（FID）和电子捕获检测器（ECD）；2024年秋冬和春夏季节的气体样品瓶；定量分析CO2、CH4和N2O浓度并计算排放通量
+c. [水质分析] - 标准方法比色法/光度法：COD（5220-D比色法）、BOD5（叠氮化物改进Winkler法5210-B）、TOC（催化燃烧氧化-非分散红外检测法）、NH4+-N/NO3--N/NO2--N（Shimadzu UV1800紫外可见分光光度计）、TN（Spectroquant-Nova60，Merck试剂盒）；进出水样品经0.7μm Whatman膜过滤后分析
+d. [固体分析] - 灼烧失重法/KCl提取法/Kjeldahl法：有机碳（550°C灼烧失重法）、NH4+-N和NO3--N（2mol/L KCl提取后Skalar自动分析仪比色测定）、总氮（Kjeldahl法）；活性层木屑在不同使用时间取样分析
+e. [质量平衡分析] - 物料平衡方程：Ci·Qi - Storage - Emission = Ce·Qe，分别对TOC和TN进行碳氮质量平衡；结合液相和气相分析数据；量化VF中碳氮的去向（出水、气态排放、滞留）
+f. [统计分析] - 主成分分析（PCA）/相关性矩阵/方差分析：R软件4.4.2和RStudio；Shapiro-Wilk正态性检验和Levene方差齐性检验，随后进行ANOVA或Kruskal-Wallis检验；PCA评估进水水质参数（C/N、COD、TN）对GHG排放的影响（解释方差66.9%）
+
+（84）Optimization of Greenhouse Gas Accounting Methods for Wastewater Treatment Plants in East Chinese Regions: A Comparative Analysis of IPCC and Group Standards Based on 49 Plants in Shandong Province
+研究方法：
+a. [排放核算] - 排放因子法（三种标准对比）：IPCC 2019修订版、T/CAEPI 49-2022（低碳运行评价技术规范）、T/CUWA 50055-2023（碳减排评估标准）；山东省15个地级市49座污水处理厂2022年完整运营数据（设计规模、工艺类型、进出水COD/BOD/TN、电耗、药剂量及有效成分、污泥产量等）；系统比较三种方法在省级尺度的核算差异
+b. [代表性检验] - Kolmogorov-Smirnov检验：验证49座样本厂的代表性，p值>0.05表明样本符合全省总体分布；确认样本的14.8%处理规模占比具有统计代表性
+c. [统计分析] - Kruskal-Wallis检验/SPSS 23软件：对N2O、CH4、化学品、电力及总温室气体的碳排放强度进行显著性差异分析；评估不同工艺类型和规模对碳排放的影响
+d. [能源消费分析] - 单位过程能耗分析法：将49座WWTPs的电力消耗按生物处理（65.8%）、进水提升泵（18.8%）、深度处理（9.5%）、污泥脱水消毒等环节分类统计；识别主要碳排放源和节能减排重点
+
+（85）Estimation of greenhouse gas emission from biological wastewater treatment plants
+研究方法：
+a. [排放估算] - 排放因子法（EF Technique）：EPA排放因子标准，IPCC 2006/2022国家温室气体清单指南；加拿大某城市两座市政污水处理厂（Plant A为BAF工艺，Plant B为AS工艺含完全混合和推流两个反应器）三年运行数据；分别估算CO2、N2O和CH4排放
+b. [排放估算] - 质量平衡法（Mass Balance）：基于化学计量学理论计算，Rittmann和McCarty（2001）模型；BOD5去除和硝化过程的CO2产量计算，内源呼吸CO2计算；用于好氧反应器的CO2排放理论估算
+c. [现场估算] - 生物过程动力学计算：BOD5利用量和内源呼吸量的方程计算，推流反应器和完全混合反应器分别计算；SRT（污泥龄）和BOD5负荷率作为关键参数；估算不同反应器类型的现场CO2排放
+d. [回归分析] - 多元回归分析：Minitab 16统计软件；以温度、SRT、BOD5负荷率为自变量，GHG排放为因变量；评估操作参数对GHG排放的影响（调整R²分别为0.88和0.83）
+e. [间接排放核算] - 生命周期排放因子法：IPCC（2022）电力排放因子（水电10、核能9、煤电877、燃油604 g CO2-eq/kWh），天然气生产排放因子（234 g CO2/m³ CO2，83 g CO2/m³ CH4）；核算电力消耗、天然气消耗、出水BOD5降解、污泥处置的场外GHG排放
+
+（86）Research on Carbon Emission Accounting of Municipal Wastewater Treatment Plants Based on Carbon Footprint
+研究方法：
+a. [碳足迹建模] - 全生命周期碳足迹模型：涵盖"管网-污水处理-污泥处置"全链条，分为预处理阶段（含市政管网）、生物处理阶段（AAO工艺）、污泥处理阶段三个单元；湖南省某AAO工艺污水处理厂2023年全年运营数据（日处理量2.0×10⁵ m³/d，进出水COD/BOD5/TN/TP，电耗，药耗等）；建立单元级碳排放核算与碳管理框架
+b. [直接排放核算] - 排放因子法：CO2化石碳排放（化石碳比例12%，排放因子0.0124 kgCO2/kgCODcr，降解系数0.6）、CH4排放（B0=0.25 kgCH4/kgCODcr，MCF=0.03）、N2O排放（IPCC默认人均排放因子0.0035 kg/(人·年)，TN去除排放因子0.016 kgN2O-N/kgTN）；分别计算管网、生物处理各单元的直接温室气体排放
+c. [间接排放核算] - 电力/化学品排放因子法：华中区域电网排放因子0.8587 kgCO2-eq/(kW·h)；NaClO排放因子0.92 kgCO2-eq/kg，PAC排放因子1.6 kgCO2-eq/kg，PAM排放因子1.50 kgCO2-eq/kg，柴油燃烧排放因子3.15 kgCO2-eq/kg；核算各阶段电力消耗、化学品投加和柴油运输的间接碳排放
+d. [能源分配] - 文献参考电力分配比例法：基于相关文献的AAO工艺各单元电力分配比例（生物处理56.23%，预处理22.29%，污泥处理21.28%）；将总电耗分配到各处理单元以实现单元级碳排放核算
+
+（87）Energy Consumption and Greenhouse Gas (GHG) Emissions in Urban Wastewater Treatment Facilities: A Case Study of Seoul Metropolitan City (SMC)
+研究方法：
+a. [能耗分析] - 基于单元过程的能耗分析法（Unit-Process-Based Energy Consumption）：参照Reekie等（2023）的单元过程能耗强度数据，Cho（2012）的除臭能耗强度；首尔市4座WWTPs（Nanji、Jungrang、Tancheon、Seonam）2021年运行数据（日处理流量、进出水TN和BOD5负荷、电力和燃料消耗、可再生能源产量、污泥处置量）；逐单元估算各处理过程能耗并识别高耗能环节
+b. [直接排放核算] - IPCC指南排放因子法：IPCC 2019国家温室气体清单指南；CH4排放（B0=0.625 kgCH4/kgBOD，MCF=0.03，排放因子0.021 kgCH4/kgBOD）、N2O排放（AAO工艺0.013 kgN2O/kgTN，BAF 0.016 kgN2O/kgTN，MLE 0.0007 kgN2O/kgTN等）、燃料燃烧CO2排放（柴油20.090 tC/TJ，汽油19.731 tC/TJ，LNG 15.236 tC/TJ等）；GWP值CH4=34，N2O=298
+c. [间接排放核算] - 电力排放因子法：韩国电力排放因子0.4781 tCO2-eq/MWh；结合各单元过程电力消耗计算间接GHG排放；区分Scope I（直接排放）、Scope II（间接内部排放）和Scope III（间接外部排放）
+d. [情景分析] - 五种2050年减排情景：情景1（更换曝气扩散器为带DO控制的微孔曝气器）、情景2（减少10%废水产生量）、情景3（调整处理水平至刚好达标避免过度处理）、情景4（增加可再生能源生产）、情景5（综合所有措施）；基于2021年基准数据外推至2050年，评估各情景的能源和GHG减排效果

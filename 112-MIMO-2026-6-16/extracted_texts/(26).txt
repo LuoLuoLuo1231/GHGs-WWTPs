@@ -1,0 +1,579 @@
+--- Page 1 ---
+water
+Article
+Energy Consumption and Carbon Footprint of Greek
+Wastewater Treatment Plants
+NikosGoliopoulos,DanielMamais*,ConstantinosNoutsopoulos ,ArgyriDimopoulouandChristosKounadis
+SanitaryEngineeringLaboratory,DepartmentofWaterResourcesandEnvironmentalEngineering,SchoolofCivil
+Engineering,NationalTechnicalUniversityofAthens,5IroonPolytechniou,Zografou,15780Athens,Greece;
+nkgoliopoulos@gmail.com(N.G.);cnoutso@central.ntua.gr(C.N.);adimopoulou@mou.gr(A.D.);
+chriskounadis@yahoo.gr(C.K.)
+* Correspondence:mamais@central.ntua.gr
+Abstract:Wastewatertreatmentplants(WWTPs)exhibitsignificantenergyconsumptionandproduce
+largeamountsofGreenhouseGasemissions(GHGemissions).Energyefficiencyandreductionin
+GHGemissionsinWWTPshavebecomeimportantissues,especiallyinviewoftheclimatecrisis.
+ThecoreobjectiveofthisworkistoassesstheenergyandcarbonfootprintofGreekWWTPsand
+toproposemethodstoimproveenergyefficiencyandreduceGHGemissions.Datawerecollected
+from31GreekWWTPswithanaveragetreatmentcapacitybetween250and3,650,000population
+equivalents(PE).Thetotalpopulationservedbythe31WWTPswasover6,000,000,whichismore
+thanhalfofthepopulationinGreecewithaccesstoWWTPs.Basedontheresults,theannualaverage
+energyconsumptionforsmall,mediumandlargeWWTPsequals137kWh/PE,48kWh/PEand
+32kWh/PE,respectively. Accordingly, annualaverageGHGemissions, bothbiogenicandnon-
+biogenicinsmall,mediumandlargeWWTPsareequalto207kgCO /PE,144kgCO /PEand
+2e 2e
+89kgCO /PE,respectively.Annualaverageon-siteGHGemissionsareequalto56.5kgCO /PE,
+2e 2e
+(cid:1)(cid:2)(cid:3)(cid:1)(cid:4)(cid:5)(cid:6)(cid:7)(cid:8)(cid:1) whiletheaverageoff-siteGHGemissionsaccountfor16.9kgCO 2e/PE.Basedontheresults,acceptable
+(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)(cid:6)(cid:7)
+andattainabletargetsforWWTPsenergyconsumptionandGHGemissionsareproposed.
+Citation:Goliopoulos,N.;Mamais,
+D.;Noutsopoulos,C.;Dimopoulou, Keywords:WWTPenergyconsumption;GHGemissions;energyoptimizationstrategies;wastewater
+A.;Kounadis,C.Energy treatment;self-sufficientWWTPs
+ConsumptionandCarbonFootprint
+ofGreekWastewaterTreatment
+Plants.Water2022,14,320.
+https://doi.org/10.3390/w14030320 1. Introduction
+AcademicEditor:XuliangZhuang WWTPs are traditionally designed to achieve effluent requirements and prevent
+pollutionofreceivingwaterbodies. However,duringthelastfewyears,energy-saving
+Received:23December2021
+andenergyefficiencyareprogressivelybecomingmoreurgentissues,mainlyduetothe
+Accepted:20January2022
+problemsassociatedwiththeclimatecrisis[1]. Inviewofthispressure,thewastewater
+Published:21January2022
+industryisurgedtofacesuchchallengesbyadoptingmoresustainablepracticessuchasthe
+Publisher’sNote:MDPIstaysneutral reductioninenergyconsumptionandgreenhousegasesemissions[2]. Accordingly,efforts
+withregardtojurisdictionalclaimsin toprovideservicesto2.3billionpeoplewholackaccesstobasicsanitationservicesrequire
+publishedmapsandinstitutionalaffil- theintegrationofenergyconsumptionandclimatepolicies[3]onaworldwidescale.
+iations.
+WWTPsareimportantenergyconsumerswithanestimated3–4%shareoftotalU.S.
+electricity consumption attributed to the water industry [4]. For Beijing WWTPs, en-
+ergyconsumptionaccountsfor4–6%ofthetotalenergyconsumption[5]. Accordingto
+Vergara-Arayaetal.[6], theenergyconsumptionofconventionalactivatedsludgetreat-
+Copyright: © 2022 by the authors.
+mentsystemsvariesbetween0.27and1.89kWh/m3. Theaverageannualenergyconsump-
+Licensee MDPI, Basel, Switzerland.
+tioninWWTPsintheUSAisapproximately29kWh/PE,rangingfrom16to71kWh/PE[7].
+This article is an open access article
+AccordingtoJonasson[8],averageannualenergyconsumptionintheUK,Swedishand
+distributed under the terms and
+Austrian WWTPs equals 38 kWh/PE, 42 kWh/PE and 23 kWh/PE, respectively, while
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// comparablevalueswerereportedby[9]forfiveNordicWWTPs(31–47.2kWh/PE).Further-
+creativecommons.org/licenses/by/ more,asreportedbyKrampe[10],theannualspecificenergyconsumptionof11WWTPsin
+4.0/). SouthAustraliarangedfrom30to120kWh/PEwithanaveragevalueof60kWh/PE.These
+Water2022,14,320.https://doi.org/10.3390/w14030320 https://www.mdpi.com/journal/water
+
+--- Page 2 ---
+Water2022,14,320 2of12
+valuesarequitesimilartotheGermanGuideManual,whichsetsanobjectiveforannual
+energyoptimizationofapproximately20–30kWh/PE,basedonthesizeoftheWWTP[10].
+Average annual specific energy consumption in Greek WWTPs ranges between 15 and
+86kWh/PE,withanaveragevalueof38.4kWh/PE[11]. AsreportedbyMamaisetal.[11],
+mediumWWTPsserving15,000–100,000PEhavehigherpercapitaenergyconsumption
+(44kWh/PE)thanlargeronesservingmorethan100,000PE(32kWh/PE).
+Energyconsumptiondependsonseveralfactors,suchaslocation,size,theextentof
+sewer network, treatment configuration, type of aeration, equipment energy efficiency
+and WWTP overall efficiency [1]. The main energy consumer in a WWTP is aeration.
+Aerationusuallyaccountsforabout25–60%ofthetotalenergyconsumptioninWWTPs[12].
+Energy requirements for aeration depend on the aeration system, with WWTPs with
+diffusion systems consuming much lower energy, compared to treatment plants using
+surfaceaerationsystems[11].
+It is widely accepted that WWTPs are also a significant source of greenhouse gas
+emissions(GHG)inthewaterindustry[13]. Specifically,WWTPsdirectlyproduceseveral
+greenhousegases,suchascarbondioxide(CO ),nitrousoxide(N O)andmethane(CH ),as
+2 2 4
+aresultofthetreatmentprocedureandadditionallycontributetoCO andCH emissions
+2 4
+throughenergyconsumption[11]. StudiesintheUSreportanaverageGHGemissionvalue
+of0.38kgCO /m3[14]. AnnualGHGemissions,rangebetween7and108kgCO /PEfor
+2e 2e
+16ScandinavianWWTPs[15]and33–38kgCO /PEinRomaniaWWTPs[16]. According
+2e
+toapreviousstudyfocusingonmoderateandlargeWWTPs,theannualGHGemissions
+fromGreekWWTPsrangedbetween61and161kgCO /PE[11]. ThereductioninGHG
+2e
+emissionsofWWTPsiscrucial,consideringthattheEuropeanCommissionhassetatarget
+ofatleasta55%decreaseinGHGemissionsby2030(EuropeanCommission,2021)[17].
+ThecarbonfootprintofaWWTPincludesbothGHGemissionsreleasedfromatreatment
+activitydirectlyand/orindirectly. DirectGHGemissionsarisefromwastewatercollection,
+treatment and disposal, while indirect GHG emissions are related to electricity supply,
+transportationofdifferentchemicalsorsludge,useofchemicalsandadditivesanddisposal
+ofresiduals[18].
+RecentresearchhighlightsthatWWTPsloading,whichisalsolinkedwiththeclimate
+crisis,isexpectedtoincreaseenergyconsumptionbytheendofthecentury[19]. Accord-
+ingly,wastewaterproductionisexpectedtoincreasegloballyby24%and51%by2030and
+2050,respectively[20]. Therefore,controllingtheenergyconsumedfromwastewatertreat-
+mentplantsiscrucial. ImprovementofWWTP’senergyfootprintcanbeachievedinmany
+ways,suchasselectingappropriateWWTPconfiguration,improvedpumpingandaeration
+efficiencywithproperautomaticcontrolsystems,usingrenewablesourcesofenergyand
+supportingwithin-systemgenerationofenergy[21]. Inthiscontext,theenergyproduced
+throughtheanaerobicdigestionofsludgecanbeintegratedwithotherrenewablesources
+suchasphotovoltaicandwindpower[22]. Furthermore,potentialexcessofenergyand
+heatproductioninWWTPs,whichmightoccurduetotheapplicationoftheserenewable
+sources,canbepotentiallyemployedtosupplyexternalenergyconsumers[23].
+Minimizingenergyconsumptionandusinglow-carbontechnologiesaresignificant
+formitigatingtheclimatecrisis[24]. ThebenefitsfromtheoptimizationofWWTPenergy
+efficiency are both environmental and financial. Air pollution and GHG emissions are
+reduced,energycostsaredecreased,newjobsarecreated,andthemarketgrows,while
+publichealthisprotectedandinfrastructurelifeisextended[25].
+ThepresentstudyaimsatpresentingaholisticoverviewoftheGreekWWTPsenergy
+consumptionandGHGemissionsandproposesequationstocalculatetheacceptablelevel
+ofenergyconsumptionandGHGemissionsbasedonthecapacityofaplant. Thestudy
+includedcollectingdataonenergyconsumptionfromseveralWWTPs,toevaluateboth
+on-siteandoff-siteGHGemissionsandtoproposestrategiestoincreasetheefficiencythat
+canbeimplementedtoreducebothenergyconsumptionandGHGemissionsinWWTPs.
+To the best of our knowledge, this is the first study with sufficient data to adequately
+
+--- Page 3 ---
+Water 2022, 14, 320 3 of 13
+Water2022,14,320 3of12
+can be implemented to reduce both energy consumption and GHG emissions in WWTPs.
+To the best of our knowledge, this is the first study with sufficient data to adequately
+evaluateandderiveacceptableandattainabletargetsforWWTPsenergyconsumptionand
+evaluate and derive acceptable and attainable targets for WWTPs energy consumption
+GHGemissionsbasedontheircapacity.
+and GHG emissions based on their capacity.
+2. MaterialsandMethods
+2. Materials and Methods
+Operational data were collected from 31 out of the total 231 WWTPs operating in
+Operational data were collected from 31 out of the total 231 WWTPs operating in
+Greece, withanaveragetreatmentcapacityrangingfrom250to3,650,000PE.Thetotal
+Greece, with an average treatment capacity ranging from 250 to 3,650,000 PE. The total
+populationservedbythe31WWTPswasover6,000,000,whichismorethanhalfofthe
+population served by the 31 WWTPs was over 6,000,000, which is more than half of the
+population in Greece with access to WWTPs. The WWTPs studied are geographically
+population in Greece with access to WWTPs. The WWTPs studied are geographically
+evenlydispersed,rangingfromthedistrictofMacedoniainthenorthtotheislandofCrete
+evenly dispersed, ranging from the district of Macedonia in the north to the island of Crete
+inthesouth,asshowninFigure1.
+in the south, as shown in Figure 1.
+FFigiguurere1 1..T Thheel oloccaatitoionno offt hthee3 311W WWWTTPPss..
+For each WWTP, the available data included design calculations, drawings, utility
+For each WWTP, the available data included design calculations, drawings, utility
+bills and a list of equipment with its operational characteristics in order to develop an
+bills and a list of equipment with its operational characteristics in order to develop an
+understanding of the wastewater and sludge treatment processes used and the energy
+understanding of the wastewater and sludge treatment processes used and the energy
+consumptionateachtreatmentstage. OperationaldataforeachWWTPwerecollectedover
+consumption at each treatment stage. Operational data for each WWTP were collected
+a3-yearperiod.
+over a 3-year period.
+ThepopulationservedandthetreatmentmethodofeachplantarepresentedinTable1.
+The population served and the treatment method of each plant are presented in Table
+The31WWTPsweredividedintothefollowingthreecategories:
+1. The 31 WWTPs were divided into the following three categories:
+Category 1: Small-sized WWTPs: This category includes 12 small WWTPs with a
+Category 1: Small-sized WWTPs: This category includes 12 small WWTPs with a
+treatmentcapacitylowerthan10,000PE.AlloftheseWWTPsappliedextendedaeration-
+treatment capacity lower than 10,000 PE. All of these WWTPs applied extended aeration-
+activatedsludgetreatmentprocesses;
+activated sludge treatment processes;
+Category2:Medium-sizedWWTPs:Thiscategoryincludes12mediumWWTPswitha
+Category 2: Medium-sized WWTPs: This category includes 12 medium WWTPs with
+treatmentcapacityrangingfrom10,000to100,000PE.MostofthesetwelveWWTPsapplied
+a treatment capacity ranging from 10,000 to 100,000 PE. Most of these twelve WWTPs ap-
+extendedaerationactivatedsludgetreatmentprocesses,whereasfewhadconventional
+plied extended aeration activated sludge treatment processes, whereas few had conven-
+activatedsludgewastewatertreatmentwithprimaryandsecondarytreatmentstagesand
+tional activated sludge wastewater treatment with primary and secondary treatment
+anaerobicsludgedigestion;
+stages and anaerobic sludge digestion;
+Category 3: Large-sized WWTPs: This category includes 7 large WWTPs with a
+Category 3: Large-sized WWTPs: This category includes 7 large WWTPs with a treat-
+treatmentcapacityofover100,000PE.AllWWTPsinthiscategoryemployedconventional
+ment capacity of over 100,000 PE. All WWTPs in this category employed conventional
+activatedsludgeprocessandanaerobicdigestionforsludgestabilization.
+activated sludge process and anaerobic digestion for sludge stabilization.
+
+--- Page 4 ---
+Water2022,14,320 4of12
+Table1.WWTP’spopulationservedandtreatmentmethod.
+Nutrient
+Groups A/a PopulationServed TreatmentMethod
+Removal
+1 250 Type1 N
+2 500 Type1 N
+3 1000 Type1 N&P
+4 1101 Type1 N
+5 1230 Type1 N
+6 1850 Type1 N&P
+Small
+7 2000 Type1 N
+8 2209 Type1 N&P
+9 3620 Type1 -
+10 6215 Type1 N&P
+11 8704 Type1 -
+12 9123 Type1 N
+13 10,033 Type1 N&P
+14 10,494 Type1 N
+15 13,125 Type1 N&P
+16 13,268 Type1 N&P
+17 15,000 Type1 N
+18 16,243 Type1 -
+Medium
+19 42,672 Type2 N&P
+20 47,475 Type1 N
+21 52,003 Type2 N
+22 63,167 Type1 N&P
+23 77,278 Type1 N&P
+24 99,760 Type1 N
+25 105,421 Type2 N
+26 109,814 Type2 N
+27 155,080 Type2 N&P
+Large 28 180,997 Type2 N
+29 224,517 Type2 N
+30 1,050,874 Type3 N
+31 3,646,388 Type3 N
+Type1:ExtendedAeration,sludgethickeninganddewatering.Type2:ConventionalActivatedSludge,sludge
+thickening,anaerobicdigestionanddewatering. Type3: ConventionalActivatedSludge,sludgethickening,
+anaerobicdigestion,cogenerationanddewatering.
+For each category, energy consumption and GHG emissions were calculated, and
+equationsbasedontheplant’scapacitywerederived. GHGemissioncalculationsincluded
+on-siteandoff-siteproductionofCO ,CH andN O,andthelattertwowereconverted
+2 4 2
+inCO equivalentunitsbymultiplyingby23and296,respectively[26]. Moreover,GHG
+2
+emissions were separated as biogenic and non-biogenic. GHG emissions originating
+fromorganicmatterdegradationfrombiologicalwastewatertreatment,anaerobicsludge
+digestion,incineration,landfillandlandapplicationareconsideredbiogenic(notderived
+fromfossil-fuel-relatedactivities). AccordingtothecurrentIntergovernmentalPanelon
+Climate Change [26], biogenic CO emissions should not be included in the national
+2
+GHG emissions inventory. GHG emissions from energy consumption, chemicals and
+transportationareconsiderednon-biogenic.
+The model applied to calculate GHG emissions was based on the comprehensive
+approachsuggestedbyBridleetal.[27]. Adetailedpresentationofthismethodologycan
+befoundinSnip[28],whilstananalyticaldescriptionofthemodelispresentedin[11]. For
+theGHGemissionscalculations,theenergymixof2019inGreecewasusedaspresented
+bythePublicPowerCorporation. Thisincluded18%energyfromcoal,6%fromnuclear
+energy, 8% from oil, 32% from natural gas, 10% from other fossil fuels and 26% from
+renewableenergy[29].
+Themodelcalculatesbothon-siteandoff-siteGHGemissions. On-siteGHGemissions
+arerelatedtotheGHGemissionsfrombiotreatmentprocesses,combustionofthebiogas
+
+--- Page 5 ---
+Water2022,14,320 5of12
+forenergyproduction,leakageofthebiogastotheatmosphereandchemicals. TheGHG
+emissions from biotreatment processes come from endogenous decay, the Biochemical
+OxygenDemand(BOD)oxidationandnitrogenremoval. Theoff-siteGHGemissionsare
+relatedtothesludgedisposal/reuse,theuseofelectricpowerproducedinpowerplants
+andtheemissionsrelatedtothedischargedeffluent. Inmoredetail,on-siteGHGemissions
+(kg/d)duringbiologicalwastewatertreatmentwereestimatedbytakingintoaccountthe
+followingprocesses:
+• CO productionfrombiomassdecay;
+2
+• CO productionfromBODremovalandbiomassproduction;
+2
+• CO consumptionfromnitrification;
+2
+• CO productionfromdenitrification;
+2
+• N O(inequivalentCO )productionfromnitrificationanddenitrificationprocesses;
+2 2
+• CO productionfrombiogasuseforheatingandelectricityproduction;
+2
+• CO productionfrombiogasleakagetotheatmosphere. Abiogasleakageof1%was
+2
+assumedinthisstudy;
+• CO productionfromchemicalsusedintheWWTP;
+2
+• Off-siteGHGemissionsconsideredinthisstudywere:
+• Netpowerconsumption;
+• Sludgedisposal;
+• Dischargetotheeffluent.
+3. ResultsandDiscussion
+3.1. EnergyConsumption
+TheaveragedailyenergyconsumptionfortheWWTPsstudiedwascalculatedperPE
+byadoptingaBOD loadforeachPEequalto60g/dasdefinedintheEUCouncilDirective
+5
+91/271/EEC. Average daily energy consumption for small WWTPs is 0.374 kWh/PE
+(withastandarddeviationof0.204kWh/PE),formediumWWTPs0.132kWh/PE(witha
+standarddeviationof0.036kWh/PE)andforlargeWWTPs0.087kWh/PE(withastandard
+deviationof0.020kWh/PE).Furthermore,energyconsumptionforsmall,mediumand
+largeWWTPswascalculatedtobeequalto1.65kWh/m3,0.43kWh/m3and0.33kWh/m3,
+respectively. TheboxplotsofdailyenergyconsumptioninkWh/PEofsmall,mediumand
+largeGreekWWTPsarepresentedinFigure2. Aninterestingobservationisthatlarger
+WWTPshavealowerfluctuationintheenergyconsumptionvalues,whilesmallWWTPs
+presentahighervariationinenergyconsumption. Thiswasratherexpectedasthecategory
+ofsmallWWTPsincludesWWTPswithavarietyoftreatmentcapacitiesthatrangefrom
+250to10,000PE.
+TheresultsillustratethatlargerWWTPswithconventionalactivatedsludgetreatment
+andanaerobicdigestionconsumelessenergythansmalleroneswithextendedaeration
+activatedsludgetreatment. Theaverageconsumptionofconventionalactivatedsludge
+treatment is 0.104 kWh/PE/d, while the average consumption of extended aeration is
+morethandouble(0.261kWh/PE/d). Theaverageannualspecificenergyconsumption
+ofallGreekWWTPsis32kWh/PE,avaluewithintherangereportedintheliteraturefor
+WWTPsinEuropeandUSA[7,30].
+Figure3representsthedailyenergyconsumptionofallWWTPsbysize. Theequation
+ofthebluelinepresentedinFigure3is:
+=2.2287∗x−0.268
+y
+whereyistheWWTP’sdailyenergyconsumptionpercapita,andxistheaveragepop-
+ulationservedbytheWWTP.ThisequationcanbeappliedforWWPTswithanaverage
+treatment capacity in the 500–3,650,000 PE range. The above equation represents the
+averageenergyconsumptionobtainedinWWTPsaccordingtotheirtreatmentcapacity.
+
+--- Page 6 ---
+Water2022,14,320 6of12
+Water 2022, 14, 320 6 of 13
+Water 2022, 14, 320 7 of 13
+FigFuirgeu 2re. E2n.eErngeyr gCyoCnsounmsupmtiponti obny bsyizsei zoef WofWWTWPT. P.
+The results illustrate that larger WWTPs with conventional activated sludge treat-
+ment and anaerobic digestion consume less energy than smaller ones with extended aer-
+ation activated sludge treatment. The average consumption of conventional activated
+sludge treatment is 0.104 kWh/PE/d, while the average consumption of extended aeration
+is more than double (0.261 kWh/PE/d). The average annual specific energy consumption
+of all Greek WWTPs is 32 kWh/PE, a value within the range reported in the literature for
+WWTPs in Europe and USA [7,30].
+Figure 3 represents the daily energy consumption of all WWTPs by size. The equation
+of the blue line presented in Figure 3 is:
+y=2.2287x−0.268
+where y is the WWTP’s daily energy consumption per capita, and x is the average popu-
+lation served by the WWTP. This equation can be applied for WWPTs with an average
+treatment capacity in the 500–3,650,000 PE range. The above equation represents the av-
+erage energy consumption obtained in WWTPs according to their treatment capacity.
+Furthermore, based on the available data, the more energy-efficient WWTPs (green
+symbols in Figure 3) were identified according to their average treatment capacity, and a
+similar equation was derived for WWTPs operating in the 1000–3,650,000 PE range:
+Figure3.WWTPEnergyConsumptionbyPopulationServed.
+Figure 3. WWTP Energy Consumption by Population Served.
+y=0.5151x−0.17
+Furthermore,basedontheavailabledata,themoreenergy-efficientWWTPs(green
+Detailed evaluation of energy consumption per treatment stage (Figures 4–6) was
+whseyrme byo ilss tihneF WigWurTeP3’)s wdearileyi deneenrtgifiye cdoancscuomrdpitniognt optehr eciarpaivtae,r aagned txre iast tmhee natvcearpagaeci ptyo,paun-da
+conducted for 21 out of the 31 WWTPs where all energy and equipment data were avail-
+latsioimn islearrveeqdu bayti othnew WasWdTePri.v Tehdisf oerquWaWtioTnP csaonp beer aetminpgloinyethde to1 0s0e0t –a3n, 6e5n0e,r0g0y0 cPoEnrsaunmgpe:tion
+able. Figure 4 presents the contribution of aeration to the total energy consumption. As
+target for WWTPs serving more than 1000 PE that is attainable without any additional
+shown in Figure 4, energy consumpyti=on0 f.o5r1 5a1er∗atxi−on0. 1a7ccounts in most cases for 40–70% of
+modifications for energy recovery.
+the total energy consumption of the WWTPs, thus confirming that aeration is the primary
+wenheerrgeyy ciosntshuemWeWr aTmPo’sndga wilyasetneewrgaytecr otnresautmmpetniot nstpaegresc.a pSpiteac,iafnicdalxlyi,s itnh esmavaelrlearg eWpWopTuPlsa,-
+atieornatsieornv ceodnbtryibthuetioWnW toT tPh.eT thoitsael qeunaetrigoyn fcoaontpbreinetm rapnlogyees dbetotwseeetna n60e naenrdg y70c%on, swuhmilpet itohne
+rtaersgpeetctfiovre WvaWluTePs sfosre rmveindgiummo arendth laanrg1e0 W00WPTEPtsh aratnisgea tbtaeitnwaebelne w50i tahnodu t60a%ny aanddd 4it0i oannadl
+5m0o%d.i Tfichaet ipornimsfaorrye rneearsgoyn rfeocro tvheer ys.ignificantly higher energy consumption due to aeration
+obtaiDneedta iinle sdmeavlla WluaWtiToPnso isf tehnaetr aglyl scmonasllu WmWptTioPns poperertarteea tams eexnttenstdaegde a(eFriagtuiorens tr4e–a6t)mweanst
+scyosntdeumcste. dSifmoril2a1r voualtuoefst haree3 r1eWpoWrteTdP sbwy htheere Satalltee noefr Ngyewan Sdoeuqtuhi pWmaelenst danatda Owfefriceea ovfa iElanbvlie-.
+rFoignumreen4t parnedse nHtsertihtaegceo nSttraitbeu t[i3o1n], owfaheerraet ioacntitvoattheed tosltualdegnee rageyractoionns uamttpritbiounte.sA aspsphroowxin-
+minaFtieglyu r4e04–,5e0n%e rogfy tocotanls eunmerpgtiyo ncofnosruamerpattiioonn ianc cWouWntTsPins. mostcasesfor40–70%ofthetotal
+energyconsumptionoftheWWTPs,thusconfirmingthataerationistheprimaryenergy
+consumeramongwastewatertreatmentstages. Specifically,insmallerWWTPs,aeration
+Figure 4. Percentage of Aeration Energy Consumption.
+The contribution of each treatment stage in the total energy footprint for each WWTP
+is highlighted in Figures 5 and 6. Based on these data, it is anticipated that the biological
+treatment (i.e., aeration and secondary treatment) is the primary energy consumption,
+
+--- Page 7 ---
+Water 2022, 14, 320 7 of 13
+Figure 3. WWTP Energy Consumption by Population Served.
+Detailed evaluation of energy consumption per treatment stage (Figures 4–6) was
+conducted for 21 out of the 31 WWTPs where all energy and equipment data were avail-
+able. Figure 4 presents the contribution of aeration to the total energy consumption. As
+Water2022,14,320 shown in Figure 4, energy consumption for aeration accounts in most cases for 40–770o%f 1o2f
+the total energy consumption of the WWTPs, thus confirming that aeration is the primary
+energy consumer among wastewater treatment stages. Specifically, in smaller WWTPs,
+caoenrtartiibount icoonnttoribthuetitoonta tloe ntheer gtyotfaolo etnperirngtyr faonogtepsribnett wraenegnes6 0baentwde7e0n% 6,0w ahnidle 7t0h%er, ewspheilcet itvhee
+vraelsupeesctfiovrem veadluieusm foarn mdeladriguemW anWdT lPasrgrea nWgWebTePtws reaenng5e0 baentwde6e0n% 50a nadnd4 060a%nd a5n0d% 4.0T ahned
+p5r0im%.a Tryhere parsiomnafroyr rtehaessoing nfoifir ctahnet slyighniigfihcearntelnye hrgigyhceor nesnuemrgpyt icoonnsduumeptotiaoenr adtuioen too baetariantieodn
+inobstmaianleldW inW sTmPaslli sWthWatTaPlsl sism thalaltW alWl sTmPasllo WpeWraTtePsa sopexetreanted aeds eaxetreantdioendt areearatmtioenn ttrseyasttmemens.t
+Ssiymstileamrsv. aSliumesilaarr evarelupeosr taerde breyptohreteSdt abtye tohfeN SetawteS oofu NthewW aSloeustahn WdaOleffis caenodf OEfnfvicier oonf mEnenvit-
+arnodnmHeenritt aagnedS tHateeri[t3a1g]e, wShtaetree a[3c1ti]v, awtehdesrelu dacgteivaaetreadt iosnluadtgtrei bauetreastiaopnp raottxriimbuatteesly a4p0p–r5o0x%i-
+omftaottealyl e4n0e–r5g0y%c oonf stuotmalp etinoenrginy WcoWnsTuPmsp.tion in WWTPs.
+Water 2022, 14, 320 8 of 13
+followed by sludge treatment facilities and primary treatment. These data are comparable
+Figure 4. Percentage of Aeration Energy Consumption.
+Fwigiuthre o4t.hPeerr cseunrtvaegyeso sfhAoewraitniogn tEhnee ergnyerCgoyn suusmedp tiino ne.ach treatment stage [6].
+The contribution of each treatment stage in the total energy footprint for each WWTP
+is highlighted in Figures 5 and 6. Based on these data, it is anticipated that the biological
+treatment (i.e., aeration and secondary treatment) is the primary energy consumption,
+Figure 5. Energy Consumption by WWTP treatment phase.
+Figure5.EnergyConsumptionbyWWTPtreatmentphase.
+ThecontributionofeachtreatmentstageinthetotalenergyfootprintforeachWWTP
+As shown in Figure 6, aeration exerts the highest energy consumption, followed by
+ishighlightedinFigures5and6. Basedonthesedata,itisanticipatedthatthebiological
+other secondary treatment processes (i.e., bioreactors mixing, sludge recycling, mixed liq-
+treatment (i.e., aeration and secondary treatment) is the primary energy consumption,
+uor recirculation, etc.). A promising approach to cope with the increased energy require-
+followedbysludgetreatmentfacilitiesandprimarytreatment. Thesedataarecomparable
+ments for aeration is the adoption of the demand response (DR) concept [32]. Specifically,
+withothersurveysshowingtheenergyusedineachtreatmentstage[6].
+wastewater treatment case studies have proven the potential flexibility of WWTPs in aer-
+AsshowninFigure6,aerationexertsthehighestenergyconsumption,followedby
+ation and pumping, using built-in redundancy for delaying treatment and sludge pro-
+othersecondarytreatmentprocesses(i.e.,bioreactorsmixing,sludgerecycling,mixedliquor
+cessing [33]. Shifting energy consumption from peak to off-peak periods to reduce eco-
+recirculation,etc.). Apromisingapproachtocopewiththeincreasedenergyrequirements
+nomic costs for water utilities is crucial for energy-intensive activities such as wastewater
+foraerationistheadoptionofthedemandresponse(DR)concept[32]. Specifically,wastew-
+treatment.
+atertreatmentcasestudieshaveproventhepotentialflexibilityofWWTPsinaerationand
+pumping,usingbuilt-inredundancyfordelayingtreatmentandsludgeprocessing[33].
+Shiftingenergyconsumptionfrompeaktooff-peakperiodstoreduceeconomiccostsfor
+waterutilitiesiscrucialforenergy-intensiveactivitiessuchaswastewatertreatment.
+Figure 6. Average Proportional Energy Consumption by WWTP treatment phase.
+3.2. GHG Emissions
+Daily GHG emissions of the three categories of WWTPs based on size are presented
+in Figure 7. The average daily GHG emissions for small WWTPs is 0.567 kgCO2e/PE, for
+medium WWTPs it is 0.393 kgCO2e/PE and for large WWTPs it is 0.244 kgCO2e/PE. In gen-
+eral, larger WWTPs that apply conventional activated sludge wastewater treatment and
+anaerobic digestion tend to have much lower GHG emissions compared to small WWTPs
+that operate as extended aeration activated sludge treatment systems. This is to be
+
+--- Page 8 ---
+Water 2022, 14, 320 8 of 13
+followed by sludge treatment facilities and primary treatment. These data are comparable
+with other surveys showing the energy used in each treatment stage [6].
+Figure 5. Energy Consumption by WWTP treatment phase.
+As shown in Figure 6, aeration exerts the highest energy consumption, followed by
+other secondary treatment processes (i.e., bioreactors mixing, sludge recycling, mixed liq-
+uor recirculation, etc.). A promising approach to cope with the increased energy require-
+ments for aeration is the adoption of the demand response (DR) concept [32]. Specifically,
+wastewater treatment case studies have proven the potential flexibility of WWTPs in aer-
+ation and pumping, using built-in redundancy for delaying treatment and sludge pro-
+Water2022,14,320 cessing [33]. Shifting energy consumption from peak to off-peak periods to reduc8e oefc1o2-
+nomic costs for water utilities is crucial for energy-intensive activities such as wastewater
+treatment.
+FFigiguurere6 6..A AvvereargageeP ProrpoporotritoinonalaEl EnneregrygyC Conosnusmumptpiotinonb ybyW WWWTPTPtr teraetamtmenetnpt hpahsaes.e.
+33.2.2..G GHHGGE Emmisisssioionnss
+DDaailiylyG GHHGGe emmisisssioionnsso offt htheet hthrereeec caateteggoorireiesso offW WWWTTPPssb baasseeddo onns sizizeea arerep preresesenntetedd
+ininF Figiguurere7 .7.T Thheea vavereargageed daialiylyG GHHGGe memisissisoinosnsfo frosr msmalallWl WWWTPTsPiss i0s. 506.576k7g kCgOC2Oe/ 2eP/PEE,,f oforr
+W ater 2022, 14, 320 mmeeddiuiummW WWWTTPPss iitt iiss 00..339933 kkggCCOO 22ee//PPEE anadn dfofro lralragreg WeWWWTPTsP ist iist 0is.204.42 4k4gCkgOC 2eO/P29 Ee /o . fPI n1E 3 g. eInn-
+geernael,r alal,rglaerrg WerWWTWPsT Pthsatth aaptpalpyp cloyncvoennvteionntiaol naacltiavcattievda tseldudslgued wgeaswteawstaetwera ttreerattrmeaetnmt eanntd
+and anaerobic digestion tend to have much lower GHG emissions compared to small
+anaerobic digestion tend to have much lower GHG emissions compared to small WWTPs
+expWethcWtaetTd P,o cpsoetnrh asaittde oearpisne rgea xttteheena srdeeesdxp tee acn etid rvaeetd oeannee rraagctyti io vcn aotna esc dut imv slaputtdeidognes lrtuerdseuag tletmst erfoe nart tam seyre san ttetimosny .sa tnTedm iss sl. uiTds hgtei os i bs
+i s h e
+stabtoilibzeateixopn.e cted, consideringtherespectiveenergyconsumptionresultsforaerationand
+sludgestabilization.
+FigFuirgeu 7r.e G7H.GGH eGmiesmsioisnssio bnys sbiyzes iozfe WofWWTWP.T P.
+FigFuirgeu 8r ere8prreepsreenstesn dtsaidlya iGlyHGGH eGmeismsiiossniso nofs aolfl aWllWWTWPsT Pbys bsiyzes itzheatth saetrvseersv mesomreo trheatnh an
+100100 0P0E.P E.
+TheequationoftheGHGemissionspresentedinFigure8(blueline)is:
+=1.8757∗x−0.16forWWPTsserving500–3,500,000PE
+y
+whereyistheWWTP’sdailyGHGemissionspercapita,andxisthepopulationservedby
+theWWTP.TheaboveequationrepresentstheaverageGHGemissionsobtainedinWWTPs
+accordingtotheirtreatmentcapacity.
+Figure 8. WWTP GHG Emissions by Population Served.
+The equation of the GHG emissions presented in Figure 8 (blue line) is:
+y=1.8757x−0.16
+for WWPTs serving 500–3,500,000 PE
+where y is the WWTP’s daily GHG emissions per capita, and x is the population served
+by the WWTP. The above equation represents the average GHG emissions obtained in
+WWTPs according to their treatment capacity.
+Furthermore, based on the available data, the WWTPs performing better in terms of
+GHG emissions (green symbols in Figure 8) were identified according to their average
+treatment capacity, and a similar equation was derived for WWTPs operating in the 1000–
+3,650,000 PE range:
+
+--- Page 9 ---
+Water 2022, 14, 320 9 of 13
+expected, considering the respective energy consumption results for aeration and sludge
+stabilization.
+Figure 7. GHG emissions by size of WWTP.
+Water2022,14,320 9of12
+Figure 8 represents daily GHG emissions of all WWTPs by size that serves more than
+1000 PE.
+FFiigguurree 88.. WWWWTTPP GGHHGG EEmmiissssiioonnss bbyy PPooppuullaattiioonn SSeerrvveedd..
+FTuhret heeqrumatoioren, obfa tsheed GoHnGth eemavisasiiloanbsl epdreastean,ttehde iWn FWigTuPrse 8p e(brflourem liinneg) bise: tter in terms
+of GHG emissions (green symbols in Figure 8) were identified according to their aver-
+y=1.8757x−0.16
+for WWPTs serving 500–3,500,000 PE
+agetreatmentcapacity,andasimilarequationwasderivedforWWTPsoperatinginthe
+1000–3,650,000PErange:
+where y is the WWTP’s daily GHG emissions per capita, and x is the population served
+=2.0065∗x−0.185
+y
+by the WWTP. The above equation represents the average GHG emissions obtained in
+wWhWerTePysi sacthcoerWdiWngT tPo’ sthdeairil ytreGaHtmGeenmt cisaspioacnistyp.e rcapita,andxisthepopulationservedby
+theWFWurTthP.eTrmhiosreeq, ubaatsieodn ocnan thbee aevmapillaobyleed dtaotas,e tthae GWHWGTePms ipsseirofnosrmtairngge tbfeotrteWr iWn TtePrsmtsh aotf
+iGsHatGta ienmabislesiwonitsh o(gurteaenny saydmdbitoilosn ianl mFiogduirfiec 8a)t iownesrefo irdeemntiisfsiieodn sacrceodrudcitniogn t.oT thhiesitrh arevsehroaglde
+ctarenabtmeaendtju csatpeadcfiotyr, oatnhde rac soimuniltarire esqbuyatcihoann wgiansg dtehreiveende rfgoyr WmWix.TPs operating in the 1000–
+3,650T,0h0e0a PvEer raagnegaen: nualGHGemissionsfromallGreekWWTPsis73kgCO /PE,avalue
+2e
+thatiswithintherangeofvaluesreportedintheliterature[11,15,16,34]. Averageannual
+on-siteGHGemissionsareequalto56.1kgCO /PE,whileoff-siteGHGemissionsaccount
+2e
+for16.9kgCO /PE.Approximately30%ofthetotalGHGemissionsarerelatedtoelectrical
+2e
+energyconsumption,andthustheycanbereducedifrenewableenergysourcesareused.
+Figure8providesacomparisonbetweenthecalculatedvaluesofthisstudywiththe
+respective ones from other studies for WWTPs with a capacity over 50,000 PE [35–37].
+BlueandgreenpointsrepresenttheGHGemissionsofWWTPsofthisstudy,andorange
+points represent emissions from other studies. It should be underlined that the higher
+GHGemissionsofthepresentstudycomparedtothevaluesofotherstudiesaremostly
+attributedtotheinclusionoftheemissionsduetochemicaluseandeffluentdisposalinthe
+presentstudy.
+Theaverageannualbiogenicemissionsareequalto57.8kgCO /PE,whilethenon-
+2e
+biogenicemissionsareequalto15.6kgCO /PE.Greekenergypolicyincludesthewith-
+2e
+drawalofallcoal-firedpowerplantsby2028,andtheproportionofrenewableenergyinthe
+energymixissettoreach35%ofthetotal.ThiswilldecreaseGHGemissionstosomeextent,
+especiallytheoff-siteemissionsofWWTPs,whicharerelatedtoenergyconsumption,and
+furtherreductionisexpectedby2050whenclimateneutralityshouldbeachievedaccording
+totheEuropeanGreenDeal[38].
+Futureresearchcanintegrateon-sitemeasurementsforGHGemissions,asindirect
+calculations are not always representative, considering the spatial, temporal and other
+variationsinWWTPs[39]. Furthermore,thelifecycleassessment(LCA)applicationcan
+highlighttheenvironmentalimpactsoftheselectedWWTPsandcanbeusedasatoolto
+findthemostefficientoperationalstrategy[40].
+
+--- Page 10 ---
+Water2022,14,320 10of12
+Many measures can be taken in order to achieve the goal of energy consumption
+andGHGemissionsreduction. Thesemeasuresincludetheestablishmentofafacility’s
+energypolicy,performingenergyauditsandidentifyingenergy-consumingactivities,the
+prioritizationofenergyimprovementprojects,thedefinitionofkeyperformanceindicators
+(KPIs),aswellastheimplementationofanenergyimprovementsystemandmonitoring
+theresultsofthemanagementprogramand,ultimately,itsmaintenance. Thereplacement
+oftheexistingequipmentwithnew,moreenergy-efficientequipmentandtheoptimization
+of the operation can also be important factors towards the improvement of the energy
+profileofWWTPs[41]. Renewableenergysourcescanalsobeimplementedsuccessfullyin
+WWTPs[42,43],andgreenpublicprocurementcriteriafortheconstructionandoperation
+ofWWTPsshouldincludeenergyconsumptionandGHGemissionsrequirements. Imple-
+mentationofautomaticcontrolcanalsoimproveenergyconsumptionandreduceGHG
+emissions. Moreover,asproveninthecurrentstudy,theWWTP’soperationalpriorities
+andtreatmentmethodscanalsoreduceenergyconsumptionandemissions. Thisworkcan
+provideusefulthresholdvaluesforbothenergyconsumptionandGHGgasemissionsre-
+ductionwithoutanyadditionalmodificationsforenergyrecovery. Itshouldbeunderlined
+thatthepotentialchemicalenergyinmunicipalwastewaterthatcanbeharvestedthrough
+treatmentexceedstheenergyconsumptionofaconventionalactivatedsludgeplantby
+at least a factor of 5. Recently, new emerging configurations of wastewater treatment
+wereproposedthatcouldachievenetenergy-neutralorevenenergy-positivewastewater
+treatment [44]. These novel processes such as chemically enhanced primary treatment
+(CEPT),highrateactivatedsludgeprocess(A/Bprocess),partialnitritation/anammox,
+bio-solidspretreatment,anaerobicmembranebioreactors(AnMBR),microbialfuelcells,
+co-digestion of bio-solids, etc., rely on energy recovery from biosolids and wastewater
+whileminimizingenergyconsumption[45].
+4. Conclusions
+StudiesfortheoptimizationofenergyefficiencyofWWTPshavebeencarriedoutfor
+decades,buttheclimatecrisisismakingthereductioninenergyconsumptionandGHG
+emissionsanemergency. EnergyefficiencyandGHGemissionsreductionareapriorityfor
+nationalauthoritiesglobally,andwastewatertreatmentexertsasignificantenergydemand.
+The extended survey of Greek WWTPs shows that smaller WWTPs tend to have
+higherspecificelectricityconsumptionandGHGemissionsthanlargerWWTPs. Equations
+arederivedforcalculatingtargetenergyconsumptionandGHGemissionsdependingon
+thepopulationservedbythetreatmentplant. TheconventionalactivatedsludgeWWTPs
+consumelessenergythanextendedaerationWWTPs.
+Theenergyconsumptionofaerationstandsfor40–70%ofthetotalenergyconsump-
+tionoftheWWTP.TheWWTPsthatincludeanaerobicdigestersaremoreenergyefficient.
+TheresultsofthisstudyarecomparabletoenergyconsumptionandGHGemissionsvalues
+reportedintheliterature. Averageannualenergyconsumptionforsmall, mediumand
+largeWWTPsinGreeceequals137kWh/PE,48kWh/PEand32kWh/PE,respectively.The
+averageannualGHGemissionsforsmall,mediumandlargeWWTPsis207kgCO /PE,
+2e
+144 kgCO /PE and 89 kgCO /PE, respectively. Annual average on-site GHG emis-
+2e 2e
+sions are equal to 56.5 kgCO /PE, while average off-site GHG emissions account for
+2e
+16.9kgCO /PE.Biogenicemissionsareequalto57.8kgCO /PEandthenon-biogenic
+2e 2e
+emissionsare15.6kgCO /PE.
+2e
+AuthorContributions: Conceptualization,N.G.andD.M.;Formalanalysis,N.G.,A.D.andC.K.;
+Investigation,N.G.,A.D.andC.K.;Methodology,N.G.,D.M.andC.N.;Software,N.G.;Supervision,
+D.M.;Validation,D.M.andC.N.;Writing—originaldraft,N.G.;Writing—reviewandediting,D.M.
+andC.N.Allauthorshavereadandagreedtothepublishedversionofthemanuscript.
+Funding:Thisresearchreceivednoexternalfunding.
+InstitutionalReviewBoardStatement:Notapplicable.

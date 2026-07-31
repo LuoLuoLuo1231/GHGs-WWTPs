@@ -1,0 +1,632 @@
+--- Page 1 ---
+Desalination and Water Treatment 197 (2020) 101–111
+September
+www.deswater.com
+doi: 10.5004/dwt.2020.25993
+Calculation of greenhouse gas emissions in Canary Islands wastewater
+treatment plants
+B. Del Río-Gamero*, S.O. Perez-Baez, A. Gómez Gotor
+Department of Process Engineering, University of Las Palmas de Gran Canaria, Campus de Tafira Baja, 35017, Las Palmas de Gran Canaria,
+Spain; Tel. + 34-928.454.582; emails: beatriz.delrio@ulpgc.es (B. D. Río-Gamero), sebastianovidio.perez@ulpgc.es (S.O. Perez-Baez),
+antonio.gomezgotor@ulpgc.es (A. Gómez Gotor)
+Received 14 August 2019; Accepted 17 April 2020
+abstract
+This research analyzes the water-energy nexus contribution to climate change from the integral
+water cycle perspective. A prior analysis of the sectors involved in global warming showed that
+clear water/energy interdependence was a crucial factor in increasing greenhouse gas (GHG)
+emissions. Although the analysis of water consumption in the energy sector has been widely stud-
+ied, global requirements of energy for water are still poorly understood as is their contribution
+to climate change. With this in mind, wastewater treatment plants (WWTPs) were chosen for the
+specific analysis conducted in the present study as they are one of the biggest GHG emitters in
+the water industry. They are located in the Canary Islands (Spain), an archipelago that, like many
+others, is characterized by its dependence on external water and energy resources. The methodol-
+ogy employed involved an initial analysis of the WWTPs in the islands and the selection of four
+full-scale WWTPs of varying capacity for further in-depth analysis. This was followed by consid-
+eration of the different protocols and tools that can be used to quantify direct and indirect GHGs
+emissions. The Intergovernmental Panel on Climate Change protocol was selected due to the great
+diversity of operational data and the emission factors proposed by experts when the data are not
+available for a specific region under analysis. The results show that the highest emission source is
+due to energy consumption (ranging from 165 to 2,716 Tm CO/y for the smallest and largest size
+eq 2
+WWTPs, respectively). To solve the problem, the introduction of renewable energies is presented as
+a feasible and attractive option due to the specific characteristics of the analyzed territory. Likewise,
+the use of sludge as an internal energy resource (in anaerobic digestion) obviates the need for its
+transport and management, contributing to the circular technology and reducing emissions.
+Keywords: Wastewater treatment plants; Greenhouse gas emissions; Global warming; Direct/indirect
+emissions; Climate change
+1. Introduction with a view to limiting and reducing greenhouse gas (GHG)
+emissions [2–8].
+Climate change is no longer considered a possibil-
+From an ecological perspective, measures such as affor-
+ity, but rather a reality caused largely by the human-
+estation and sustainable agricultural intensification are
+kind. Anthropogenic-induced warming has resulted in an
+being promoted as ways to ensure food production without
+increase in the global mean temperature of approximately
+compromising the Paris agreement on climate targets [2].
+1°C compared to pre-industrial levels [1]. Innumerable
+However, it should be borne in mind that urban trees are
+research studies and policy changes in a wide range of fields
+also affected by the harsher conditions found in urban envi-
+(industrial, social, ecological, etc.) have been carried out
+ronments [3] and that agriculture systems in different parts
+* Corresponding author.
+1944-3994/1944-3986 © 2020 Desalination Publications. All rights reserved.
+
+--- Page 2 ---
+102 B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111
+of the world need to be managed in accordance with the The water cycle is an important player in global
+specificities of each ecosystem [4]. Similarly, when consider- warming. This work focuses specifically on the water cycle
+ing ways to limit climate change from a social perspective, a in wastewater treatment plants (WWTPs), a major GHG
+place-based approach can be useful to analyze the abstract emitter which produces 56% of GHG emissions in the
+entity of climate change as a whole or classified by its differ- water industry [16].
+ent independent sources [5,6]. It was decided to use island regions as the scenario for
+There is no doubt that the industrial sector is leading this study given the problem of water/energy interdepen-
+GHG emitter. With this in mind, Wang and Feng [7] devel- dency they typically have to deal with. This is the case of
+oped a decomposition framework which was used to quan- the Canary Islands (Fig. 1). This archipelago is one of the
+tify the impacts of both oriented technologies and economic seventeen autonomous communities of Spain [17,18] and the
+factors on CO emissions in China. Their results highlighted southernmost region in the country. It has been granted spe-
+2
+investment scale expansion as the leading factor in pro- cial status by the EU as one of it is nine outermost regions
+moting the growth of emissions and confirmed the need to [19,20].
+keep improving the energy structure to reduce emissions Located in the transitioning area between the temperate
+[7]. In another study, which aimed to develop a low-carbon and tropical zones, the climate in the islands is character-
+scenario for the energy sector in less developed countries ized by very scarce and irregular precipitations [21]. In some
+such as Brazil, it was again reported how the increase in cases, this can mean a shortfall of as much as 90% in terms of
+energy consumption was a crucial factor in CO emissions water requirements [22]. One way to quantify the problem
+2
+[5]. As far as Europe is concerned, while a lot of the research that this can generate is to compare the significant differ-
+undertaken has focused on a similar transformation of the ence between the water capital of a resident in the islands
+energy sector, it has also been reported that there has been a (20 m3/inhabitant/y) with that of a resident on the Spanish
+systematic overestimation in the literature of the consequent mainland (2,470 m3/inhabitant/y) [23]. The major social con-
+costs of the transition to a low carbon scenario [8]. cern of water scarcity is further exacerbated by the growing
+Despite these problems, the goal of finding ways to demand for an increase in life quality [24] and an expected
+reduce GHG emissions is one that must necessarily con- rise in population which will shortly mean the need to guar-
+tinue. One way to contribute to achieving this goal is to antee domestic water supply for an estimated 2,150,000
+identify, analyze, and quantify the main emission points. inhabitants [22].
+Such research requires an understanding of the complicated This problem has made the Canary Islands pioneers in
+scenario inherent to the management of water and energy, satisfying demand with innovative techniques for water
+two essential resources for life that have been the focus of the production [25]. However, in a territory characterized by its
+World Energy Outlook (WEO) since 2016 [9]. The processes external energy dependence, water production plants tend
+involved in water and energy generation and the intrinsic to require high levels of energy consumption as a result
+relationship between them are vital factors that need to be of the technologies used in the desalination and wastewa-
+considered in a world of climate change. ter treatment processes [26]. Almost inevitably, this high
+Water consumption in the energy sector has been widely energy consumption increases the carbon footprint of
+studied [10,11]. Most studies have prioritized the analysis the islands [27,28].
+of an energy transition in which fossil fuels give way to This work focuses on an analysis of the contribution to
+renewable technologies in terms of cost [12], GHG emis- global warming by WWTPs. After identifying the problem,
+sions reduction [13], and manufacturing and storage capac- the main objective is to provide a numerical value for its
+ity [14]. In all of these cases, water consumption is a crucial quantification. To do so, an evaluation is made of the dif-
+factor. However, global requirements of energy for water ferent sources of GHG emissions of the WWTPs. These
+are still poorly understood, which may result in biases in trouble spots are differentiated according to whether the
+projections and consequently in policies adopted for its emissions are direct (produced by the different processes
+management [15]. and equipment of the plant itself, as well as the sludge that
+Fig. 1. Location of the Canary Islands.
+
+--- Page 3 ---
+B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111 103
+it generates) or indirect (not produced directly through the Given the heterogeneity of the WWTPs and the territo-
+mechanisms and equipment of the plant) [29]. rial fragmentation of the Canary Islands, it was decided to
+This framework gives us a starting point to restruc- evaluate one plant for each of the four established ranges
+ture the management of water resources in the Canary in order to guarantee reliable results. The four plants are
+Islands, underlining the importance of the water-energy- chosen (representative of each range) are shown in Fig. 2.
+environment nexus and the need to apply optimizations
+and improvements in both the water and energy sector.
+2.2. Protocol selection for calculating the GHG emissions
+The global concern about the adverse effects and conse-
+2. Methodology
+quences of climate change [32] has triggered the develop-
+The methodology used in this research work can be ment of various strategies to mitigate this change. Examples
+divided into three subsections: include the National Roadmap 2020 [33], Europe 2020
+(the growth strategy) at the European level [34], and the
+• Subsection 2.1: WWTPs analysis guidelines set out in the “Mitigation Change 2014” document
+• Subsection 2.2: protocol selection for calculating GHG prepared by the Intergovernmental Panel on Climate Change
+emissions (IPCC) [35].
+• Subsection 2.3: data calculation With regard to the application methodologies for the
+quantification of GHG emissions (web-based platform,
+software tools, etc.), they are few in comparison with the
+2.1. WWTPs analysis
+regulations provided for them. There are two types of
+In accordance with Directive 91/271/EC, since December methodologies classified respectively as top-down and bot-
+31 of 2005, any urban nucleus with a population of between tom-up. The difference between them lies in the strategy of
+2,000 and 15,000 inhabitants has been required to have a information processing and knowledge ordering. The top-
+collector system and a wastewater treatment process [30]. down methodology firstly considers the overall picture and
+As a result, the number of WWTPs has increased in the dif- is then broken down into smaller segments. Unit indicators
+ferent islands, causing a consequent decentralization of the are commonly analyzed, while, a detailed analysis of indi-
+treatment system [31]. vidual devices is less often performed. In the bottom-up
+Due to the wide range of WWTP sizes found in all the methodologies, the individual base parameters of the sys-
+islands, a characterization procedure was established based tem are first specified in detail and then linked together to
+on the treated water capacity. The range limits were estab- form a complex system [36]. In this context, the difficulties
+lished in a previous statistical survey which provided the in obtaining detailed data from the WWTPs considered
+various mode values. The classification ranges are shown in in the present study suggested that a top-down methodo-
+Table 1. logical approach was the most appropriate for this work.
+The 142 WWTPs in the islands were classified in this way Due to the lack of established procedures at the regional
+at both island and archipelago level in order to evaluate their level, the calculations of GHG emissions for this study
+distribution throughout the region. were based on operational data and emission factors, using
+the protocol stipulated by the IPCC. This protocol was
+selected on the basis of a previous discussion about various
+Table 1 possible tools derived mainly on the basis of four method-
+WWTP classification ologies. Table 2 shows these methodologies and their main
+advantages and disadvantages.
+WWTP Capacity (m3/d) The IPCC methodology lays the foundation for most
+of the aforementioned documents and consists of a great
+Very small <1,000
+diversity of values and technical data evaluated by expert
+Small 1,000–5,000
+commissions. These data values are particularly necessary
+Medium 5,000–10,000
+for application in the Canary Islands because of the absence
+Big >10,000
+of any information on this sector in the local territory.
+Fig. 2. WWTP selection.
+
+--- Page 4 ---
+104 B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111
+Table 2
+Methodologies used to calculate GHG emissions.
+Methodology Advantages Disadvantages
+Top-down methodology
+Free access and easy to use IPCC and USEPA approaches
+LGOa It provides several forms of calculation that allow it Standardized set of guidelines to assist US local govern-
+to be more precise depending on the availability of ments
+site-specific data
+Different levels of data requirements, rigor and
+National and state-level estimations using IPCC basis
+USEPAb accuracy
+More appropriate method for the state of California
+Free access and easy to use
+Methodology follows the IPCC guidelines and the IPCC
+Top-down methodology good practice guidance
+NERIc
+Free access and easy to use It does not provide a default operating database
+Country-specific data on the emission factor for direct NO
+2
+Internationally recognized
+Basis for subsequent protocols
+IPCCd Top-down methodology Does not use facility-specific information
+Designed for macroscale evaluations
+Great contribution of revised data
+Adapted from [37–41].
+aLocal Governments Operations protocol (USA and Canada).
+bUnited States Environmental Protection Agency. Wastewater treatment methodology.
+cNational Environmental Research Institute of Denmark methodology.
+dIntergovernmental Panel on Climate Change protocol.
+The other methodologies mostly try to use local/state Table 3
+data and sometimes modify some of the equations based WWTP energy consumption
+on-site regulations to improve the accuracy of the calculation.
+To better understand the evolution of a methodology, the WWTP Capacity (m3/y) Energy consumption (kWh/y)
+work prepared by the California wastewater climate change
+Sureste 4,380,000 3,349,255
+group and Bay area clean water agencies in 2007 provides a
+Jinámar 3,650,000 1,554,719
+detailed analysis of the differences between the United States
+Tazacorte 547,500 164,079
+Environmental Protection Agency (USEPA) and IPCC meth-
+odologies [42]. P. Hidalgo 232,140 203,632
+2.3. Data calculation
+analysis was conducted of the distance between the two loca-
+For the purposes of this study, direct and indirect emis- tions, truck engine capacities, type of journey, and the num-
+sions were considered separately [43]. ber of days of sludge removal [49]. Table 4 shows the distance
+traveled for each of the selected plants.
+2.3.1. Indirect emissions
+2.3.2. Direct emissions
+The main factor that needs to be considered is inten-
+sive energy consumption [44]. Conventional electricity, in The direct emissions were classified into two clearly
+most cases, is produced through an energy mix in which differentiated subdivisions. One considers the different
+fossil fuels predominate [45], causing GHG emissions in processes used in treating the water, while the other corre-
+the power plant that generates it [46]. To carry out this cal- sponds to the emissions of the sludge itself [50].
+culation, carbon dioxide emission factors and transition
+coefficients to primary energy, provided by the Spanish
+2.3.2.1. Treatment process emissions
+Institute for Energy Diversification and Saving were
+used [47]. Table 3 lists the treated wastewater treatment It should be noted that, within the components of the
+capacities and the energy consumption necessary for plant carbon footprint that are part of the biogenic source, CO
+2
+operation. emissions were not included since they are considered part
+The second indirect emission factor considered is related of the natural cycle [51]. CH and NO, as they have a greater
+4 2
+to the transport of sludge from the WWTP to the correspond- global warming potential, must be quantified [41]. Likewise,
+ing biomethane plants or landfills [48]. For this purpose, an the null emission of these three components in the water
+
+--- Page 5 ---
+B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111 105
+Table 4 or by incorporating the mean value of the corresponding
+Distance traveled for sludge removal IPCC protocol.
+NO emissions are associated with the degradation
+2
+WWTP Distance between locations (km) of nitrogenous components in wastewater, namely urea,
+Sureste 33 nitrates, and proteins. In this study, the NO emissions
+2
+(kg NO/y) were determined through Eq. (2) [51].
+Jinámar 25.7 2
+Tazacorte 45
+44
+P. Hidalgo 60 N OEmissions=N ⋅EF ⋅ (2)
+2 EFLUENT EFLUENT 28
+The same procedure used for calculating methane emis-
+collection process is confirmed, because the entire Canary
+sions was used. The equation parameters are shown in
+water collection is confined under the soil [52].
+Table 6.
+Anaerobic treatments produce higher emissions of these
+compounds than aerobic treatments. In this respect, as cen-
+tralized aerobic systems predominate in the archipelago, 2.3.2.2. Emissions from sewage sludge
+GHG emissions should not be very noticeable. However,
+Two separate calculations were made to determine
+the Canary climate is within the temperature range that
+the emissions from sewage sludge, one for the biodegrad-
+favors methane production processes (>15°C). In addition,
+able organic carbon and the other for the possible NO that
+there are a large number of plants ending their service life. 2
+remains and/or forms in the sludge.
+These factors support the decision to calculate the emission
+According to the IPCC protocol, in the domestic sludge
+of methane and nitrous oxide.
+sector, the biodegradable organic carbon content is about
+The CH emission produced by anaerobic degradation
+4 45% of the dry matter [53]. Using the data available and the
+and its quantification is a function of the degradable organic
+stoichiometric ratio in the oxidation reaction, the emission
+matter content of the wastewater, as well as the temperature
+value was obtained.
+and type of treatment. Emissions of CH (kg CH/y) were
+4 4 With respect to NO and considering the characteristics
+determined through Eq. (1) [51]. 2
+of the wastewater treatment in the islands applied in the
+selected protocol [51], Eq. (3) was obtained, as follows [54].
+ 
+CH 4Emissions= ∑ i,j( U i×T i,j×EF j) ( TOW−S)−R (1)
+N 2O (L)−N=( F ON+F SOM)⋅Frac LIXIVIACION−(H)⋅EF (3)
+5
+The equation parameters are shown in Table 5. Data The conversion of NO –N emissions to NO emissions
+2 (L) 2
+values were either provided by the different WWTP owners was performed through Eq. (4).
+Table 5
+Parameters used in the calculation of CH emissions
+4
+Parameter Definition Data value Function
+Fraction of population in Income group: rural, urban high income and urban low
+U By default
+i income group “i” income
+Degree of the utilization of
+treatment/discharge system, Income group: rural, urban high income and urban low
+T By default
+ij “j”, for each income group income
+fraction “i”
+“j” = each treatment/discharge pathway or system
+Emission factor, (kg CH/
+EF 4 B·MCF B = maximum CH producing capacity, (kg CH/kg BOD)
+j kg BOD) 0 j 0 4 4
+MCF = methane correction factor
+j
+P = country population, (person)
+BOD = country-specific per capita BOD, (g/person/d)
+Total organics in wastewater,
+TOW P·BOD·0.001·I·365 0.001 = conversion from grams BOD to kg BOD
+(kg BOD/y)
+I = correction factor for additional industrial BOD
+discharged into sewers (default value)
+Organic component removed Value contributed by each
+S Type of system
+as sludge (kg BOD/y) plant
+Amount of CH recovered, Not applicable in the
+R 4 –
+(kg CH/y) archipelago
+4
+Adapted from [51].
+
+--- Page 6 ---
+106 B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111
+Table 6
+Parameters used in the calculation of NO emissions
+2
+Parameter Definition Data value Function
+EF Emission factor for By default –
+EFLUENT
+NO emissions from
+2
+discharged wastewater,
+(kg NO–N/kg N]
+2
+N Nitrogen in the effluent (P·Protein· P = human population
+EFLUENT
+discharged to aquatic F ·F · Protein = annual per capita protein consumption, (kg/person/y)
+NPR NON-CON
+environments, (kg N/y) F ) − N F = fraction of nitrogen in protein, default = 0.16, (kg N/kg protein)
+IND-COM SLUDGE NPR
+F = factor for non-consumed protein added to the wastewater
+NON-CON
+F = factor for industrial and commercial co-discharged protein
+IND-COM
+into the sewer system
+N = nitrogen removed with sludge (default = zero), (kg N/y)
+SLUDGE
+44/28 Conversion of kg – –
+NO–N into kg NO
+2 2
+Adapted from [51].
+plants are presented in percent terms in Fig. 4. To high-
+44
+N 2O (L)=N 2O (L)−N⋅ (4) light the input of smaller plants, in the first circle diagram
+28
+in Fig. 4 the percentage named “others” corresponds to
+the sum of the small and very small plants, with their cor-
+Table 7 shows the parameters used in Eq. (3). responding percentages broken down in the second circle
+diagram to the right.
+The distribution of the total treated wastewater
+3. Results and discussion
+volume by plant capacity range (Table 1) is shown in Fig. 4.
+The various figures below synthesize the results that A more detailed analysis is found in Fig. 5, showing
+were obtained in the analysis of the WWTPs in the Canary the number of WWTPs and their distribution according to
+Islands. Fig. 3 shows the distribution of the treated wastewa- the capacity range classification (Table 1) for each island.
+ter volume by island. At the same time, the 142 WWTPs of The number of plants with a capacity below 1,000 m3/d
+the archipelago were classified based on the volume range accounts for more than 50% of the total number of plants. In
+shown in Table 1. The big, medium, small, and very small terms of the installed capacity range, the number of plants
+Table 7
+Parameters used in the calculation of NOsludgeemissions
+2
+Parameter Definition Data value Function
+Annual amount of NO–N produced from leaching and runoff
+NO –N 2 – –
+2 (L) of N additions (kg NO–N y–1)
+2
+Annual amount of sewage sludge and other organic N F = annual amount
+SEW
+F additions applied to soils in regions where leaching/runoff F = F of total sewage N that is
+ON ON SEW
+occurs, (kg N y–1) applied to soils, (kg N y–1)
+Annual amount of N mineralized in mineral soils associ-
+ated with loss of soil C from soil organic matter as a result Not competent in the archi-
+F Null value
+SOM of changes to land use or management in regions where pelago
+leaching/runoff occurs, (kg N y–1)
+Fraction of all N added to/mineralized in managed soils
+Frac in regions where it is lost through leaching and runoff, By default Calculated by experts
+LIXIVIACIÓN–(H)
+[kg N (kg of N additions)–1]
+Emission factor for NO emissions from N leaching and
+EF 2 By default Calculated by experts
+5 runoff, [kg NO–N (kg N leached)–1]
+2
+NO NO emissions from leaching and runoff – –
+2 (L) 2
+Adapted from [54].
+
+--- Page 7 ---
+B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111 107
+the installed capacity covers considerably more than the
+actual number of inhabitants. This is due to the oversizing
+caused by holiday resorts where the tourist sector doubles
+the number of inhabitants [55]. On the other hand, the more
+rural islands (La Palma, La Gomera) manage to reach the
+equilibrium of the inhabitant/ treated wastewater ratio
+with other kinds of wastewater treatment systems like filter
+wells or septic tanks, which are usually located in the most
+decentralized areas [56,57].
+For the evaluation of GHG emissions, the following sub-
+sections provide the results obtained from the four plants
+under study expressed in equivalent annual metric tons of
+Fig. 3. Treated wastewater volume distribution in the Canary carbon dioxide (Tm CO/y) for purposes of comparison
+eq 2
+Islands (m3/d). [41]. Global warming potential conversion factors should be
+used for the respective components that make up the GHGs
+emitted by the WWTPs.
+The results are classified according to the type of emis-
+sion (direct or indirect) and the component of the emissions.
+3.1. Indirect emissions
+Energy consumption is the largest indirect emitter ana-
+lyzed. As the vast majority of the WWTPs operate with aer-
+obic secondary biological treatments, the most important
+factors are the pumping and aeration systems. The robust
+equipment required for the smallest WWTPs to operate
+results in them having a relatively high energy consump-
+tion (Table 8). Table 9 shows the relationship between energy
+consumption and treated wastewater volume.
+With respect to transport emissions, the distance between
+Fig. 4. Distribution of treated wastewater volume by plant
+the treatment plant and the landfill or sludge treatment area
+capacity range (%).
+(Table 4) clearly has an important impact. Although sludge
+transport emissions are low in comparison to energy con-
+built is inversely proportional to their size. The low num- sumption emissions, they are a concern because of the
+ber of big plants (capacity > 10,000 m3/d), located in the two increasing need for WWTP installation in smaller urban
+provincial capital islands (Gran Canaria and Tenerife) which centers.
+are characterized by larger population centers, is due to
+the implementation of the previously mentioned Directive
+3.2. Direct emissions
+91/271/EC [30].
+Fig. 6 compares the number of inhabitants in each island The results of direct emissions of CH and NO are shown
+4 2
+with the theoretical number of people with access to waste- in Table 10. Although the WWTPs use aerobic treatments,
+water sanitation according to the total installed wastewater methane emissions are confirmed in all plant sizes, con-
+treatment capacity. As can be seen, in some of the islands firming the major influence of the climatic conditions (high
+Fig. 5. Canary Islands WWTPs distribution.
+
+--- Page 8 ---
+108 B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111
+Fig. 6. Access to wastewater sanitation.
+Table 8 Table 9
+Indirect emissions The ratio between treated wastewater volume and energy
+consumption (kWh/m3) of the WWTP case studies
+Energy consumption Sludge transport
+WWTP WWTP Volume Energy consumption Ratio
+emissions (Tm CO/y) emissions (Tm CO/y)
+eq 2 eq 2
+(m3/y) (kWh/y) (kWh/m3)
+Sureste 2,716 4
+Sureste 4,380,000 3,349,255 0.76
+Jinámar 1,259 3
+Jinámar 3,650,000 1,554,719 0.42
+Tazacorte 133 5
+Tazacorte 547,500 164,079 0.30
+P. Hidalgo 165 7
+P. Hidalgo 232,140 203,632 0.87
+temperature) in the islands. The degree of NO emissions
+2
+tends to vary due to the installation of de-nitrification pro- Table 10
+cesses in some plants. Direct quantified emissions
+Finally, emissions from sludge biodegradation, whether
+in landfills or in confined spaces, have in most cases low val- Treatment process emissions
+ues (Table 10). However, when the total amount of sludge
+WWTP CH (Tm CO/y) NO emissions (Tm CO/y)
+produced in all the WWTPs is considered, as well as the 4 eq 2 2 eq 2
+corresponding sludge transport emissions, the result- Sureste 10,801 1,479
+ing value would be a concern. In addition, the European Jinámar 4,980 4,624
+Parliament has called for the progressive banning of landfills
+Tazacorte 13 9
+before 2020 [58].
+P. Hidalgo 82 55
+Sewage sludge emissions
+3.3. Total emissions
+WWTPs BOC emissions NO emissions (Tm CO/y)
+Table 11 summarizes the emissions of the four plants 2 eq 2
+(Tm CO/y)
+used as case studies. As is widely known, no wastewater eq 2
+treatment plant can carry out its operation without emit- Sureste 9 48
+ting GHGs. However, the quantification of these emissions Jinámar 6 32
+allows the problem to be considered in a tangible and real Tazacorte – –
+way. If the analysis is extended to cover the total emissions
+P. Hidalgo – 1.7
+produced by a plant over its average useful life (25 y), the
+resulting values are alarming. As an example, and based
+on the values shown in Table 11, the smallest and larg- While there are several ways to reduce these emis-
+est size WWTPs considered in this study would emit an sions, for the Canary Islands an increased use of renew-
+estimated total of 7,767 and 446,975 Tm CO, respectively. able energy sources (RES) is a feasible and very attractive
+eq 2
+Fig. 7 shows how the respective percentages of direct option. The islands are excellently suited for the exploitation
+and indirect emissions vary according to plant size. of RES, with an average 4.68 kWh/m2/d of solar irradiation,
+
+--- Page 9 ---
+B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111 109
+Table 11
+Total quantified emissions
+Tm CO Sureste Jinámar Tazacorte P. Hidalgo
+eq 2
+Indirect emissions 2,720 1,262 138 172
+Direct emissions 12,336 9,642 22 138.7
+Total 17,879 10,904 160 310.7
+Fig. 7. Percentage of direct and indirect emissions of the analyzed WWTPs.
+a 5.5–8 m/s wind speed range in many suitable areas [59] and power grid [62]. The approach that has been taken in Gran
+an average 19–20 kW/m wave energy potential. The integra- Canaria, a highly populated island, took into account the
+tion of these clean technologies, (internal and external to the large amount of sludge on the island and its optimized road
+plant) will be explained and simulated in later publications. network. However, specific solutions need to be analyzed for
+The direct methane emissions are the most difficult to each region on an individual basis, depending on the type
+reduce due to the impossibility of changing the ambient of sludge to be treated and whether the objective (nutrient
+temperature. With respect to sludge removal, and given the recovery, obtaining compost, obtaining energy, mass reduc-
+increasingly more restrictive waste discharge legislation tion, and stabilization, etc.) or technique is economically and
+[60], a new approach is required for its treatment (either technically feasible.
+centralized or in each plant) through the implementa- Finally, the selection of the technology used for manag-
+tion of technologies such as anaerobic digestion to reduce ing wastewater sludge should have as one of its main criteria
+emissions, to generate energy as a by-product (possibly evaluation of the environmental footprint. Teoh and Li [63]
+for consumption by the plant itself) and to contribute to published a study in 2020 using life cycle assessments of each
+enhancing the circular economy in the islands. process. Their conclusions confirm that anaerobic digestion,
+A new economic approach is required in the islands, pyrolysis, and supercritical water oxidation are not only
+one that interrelates with sustainability and aims to increase more effective in reducing sludge volume and pollutants but
+the value of the endogenous products, materials, and also have lower global warming and toxicity potential.
+resources of the application area, enabling them to remain
+in the economy for the longest possible time. In this regard,
+4. Conclusions
+European policies are committed to the transition of the
+linear economy towards a circular model, in which waste The aim of this study was to quantify and evaluate
+generation is minimized. In the particular situation with GHG emissions in WWTPs. The proliferation of this kind of
+which this study is concerned, restructuring the manage- plant has generated a new climate change focus within the
+ment model of WWTPs could be used to facilitate second- islands and other regions characterized by its dependence
+generation products. on external water and energy resources.
+Until about a year ago, 98.5% of the sludge from the For the purposes of GHG emissions quantification in this
+Canary Islands was dumped into landfills [61]. However, study, the absence of local/regional guidelines or a compre-
+in Gran Canaria (responsible for 26% of the sludge in the hensive methodology to calculate the carbon footprint left
+archipelago), a biomethanation plant has recently been by WWTPs resulted in the need to use IPCC protocols to
+installed to treat the sludge and generate biogas that sub- obtain many of the results.
+sequently generates energy through a combustion process According to the results obtained, a typical large capac-
+covering 60% of the energy demand of the Ecopark where ity plant (>10,000 m3/d) in the Canary Islands would emit
+the plant is located. The next step is to exceed 100% of the 446,975 Tn CO per plant over its estimated 25 y of useful
+eq 2
+energy demand and inject the energy surplus into the insular life. After taking into account the number and capacities of all
+
+--- Page 10 ---
+110 B. Del Río-Gamero et al. / Desalination and Water Treatment 197 (2020) 101–111
+the WWTPs in the islands, the contribution of the archipelago dimensions of climate change meanings, Geoforum, 104 (2019)
+amounts to 228,436 Tn CO/y. 92–100.
+eq 2 [7] M. Wang, C. Feng, Impacts of oriented technologies and
+In terms of indirect emissions, energy consumption is
+economic factors on China’s industrial climate mitigation,
+the most intensive emitter in the vast majority of the plants
+J. Cleaner Prod., 233 (2019) 1016–1028.
+under study, with aerobic processes as the main consumers. [8] G. Bachner, J. Mayer, K.W. Steininger, Costs or benefits?
+Likewise, the robust equipment necessary for the operation Assessing the economy-wide effects of the electricity sector’s
+of the smaller-sized WWTPs increases their specific energy low carbon transition – the role of capital costs, divergent risk
+perceptions and premiums, Energy Strategy Rev., 26 (2019)
+consumption and consequently their emissions, with per-
+100373.
+centages of 0.06% compared to 2.42% Tn CO/m3 in the
+eq 2 [9] IEA, World Energy Outlook 2016, International Energy Agency,
+largest and smallest size plants, respectively. With respect to Paris.
+the development of improved climate change mitigation, the [10] E.S. Spang, W.R. Moomaw, K.S. Gallagher, P.H. Kirshen,
+introduction of the use of RES in WWTPs is a feasible and D.H. Marks, The water consumption of energy production:
+an international comparison, Environ. Res. Lett., 9 (2014)
+highly attractive option.
+105002.
+Regarding the transport of sludge, the relative GHG
+[11] C.P. Tan, Q. Zhi, The energy-water nexus: a literature review
+emissions value increases as the size of the plant decreases. of the dependence of energy on water, Energy Procedia,
+This is because the very small plants are located in small 88 (2016) 277–284.
+municipalities, generally far from landfills. Consequently, [12] J.L. Peña, R. Rodríguez, Are EU’s climate and energy package
+20-20-20 targets achievable and compatible? Evidence from the
+the replacement of this type of sludge management model
+impact of renewables on electricity prices, Energy, 183 (2019)
+and the incorporation of technologies that facilitate a circu-
+477–486.
+lar economy must be specifically analyzed to assess whether [13] P. Tsafack, D. Ngwashi, B. Ducharne, E. Tanyi, Greenness
+on-site management outweighs the advantages of central- percentage of the said green renewable energy: a case study,
+ized management as well as causing a lower environmental Energy Rep., 5 (2019) 979–986.
+[14] A. Rahil, R. Gammon, N. Brown, J. Udie, M.U. Mazhar, Potential
+impact as a whole.
+economic benefits of carbon dioxide (CO) reduction due to
+The direct emissions of the WWTP plants are particularly 2
+renewable energy and electrolytic hydrogen fuel deployment
+significant, due not only to the amounts involved but more under current and long term forecasting of the social carbon
+importantly to their much higher warming potential than cost (SCC), Energy Rep., 5 (2019) 602–618.
+CO. Of the chemical compounds analyzed, the CH values [15] Y.L. Liu, M. Hejazi, P. Kyle, S.H. Kim, E. Davies,
+2 4 D.G. Miralles, A.J. Teuling, Y.J. He, D. Niyogi, Global and
+are more constant than those for NO due to the installation
+2 regional evaluation of energy for water, Environ. Sci. Technol.,
+of de-nitrification processes in some plants. In this regard,
+50 (2016) 9736–9745.
+reducing the amount of emissions entails a high degree of [16] P.T. Vo, H.H. Ngo, W. Guo, J.L. Zhou, P.D. Nguyen, A. Listowski,
+difficulty, as the conventional processes of the plants them- X.C. Wang, A mini-review on the impacts of climate change
+selves generate it. on wastewater reclamation and reuse, Sci. Total Environ.,
+494 (2014) 9–17.
+[17] J. Bosque-Maurel, J. Vilá-Valentí, Geography of Spain, Planeta
+Acknowledgment Publishing House, Barcelona, 1990.
+[18] M. de Terán, L.S. Sabaris, Regional Geography of Spain, Ariel
+This research has been co-funded by ERDF funds, Publishing House, Barcelona, 1987.
+INTERREG MAC 2014-2020 program, MITIMAC project [19] G. Morales-Matos, The Canary Islands, an isolated region?,
+Assoc. Spanish Geogr. Bull., 32 (2001) 155–175.
+(MAC2/1.1a/263).
+[20] Articles 349 and 355 of the Treaty on the Functioning of the
+European Union (TFEU), The Outermost Regions, Technical
+References Sheets on the European Union, Estrasburgo, France, 2016.
+[21] Great Virtual Encyclopedia of the Canary Islands: Nature and
+[1] IPCC, Working Group I Technical Support Unit, An IPCC Culture, GEVIC Project, Rincon Association for the Study of
+Special Report on the Impacts of Global Warming of 1.5°C Social Creativity, Canary Islands, Spain, Available at: http://
+Above Pre-Industrial Levels and Related Global Greenhouse www.gevic.net/, access date: 02/02/2015.
+Gas Emission Pathways, in the Context of Strengthening the [22] Canary Islands Institute of Statistics, Indicators for Years on
+Global Response to the Threat of Climate Change, Sustainable Water Supply and Treatment in Canary Islands, Total Volume
+Development, and Efforts to Eradicate Poverty, Intergovern- of Water Controlled and Distributed to Users, Las Palmas,
+mental Panel on Climate Change, Geneva, Switzerland, 2018. 2013.
+[2] J.C. Doelman, E. Stehfest, A. Tabeau, H. van Meijl, Making the [23] J.J. Braojos, I. Farrujia, J.D. Fernandez, Tenerife Water Resources
+Paris agreement climate targets consistent with food security to Climate Change, Island Council of Aguas de Tenerife, Canary
+objectives, Global Food Secur., 23 (2019) 93–103. Islands, Spain, 2006.
+[3] G.M. Locosselli, E.P. de Camargo, T.C.L. Moreira, E. Todesco, [24] United Nations, Water for a Sustainable World. Report on Water
+M. de Fátima Andrade, C.D.S. de André, P.A. de André, Resources in the World, Italy, 2015.
+J.M. Singer, L.S. Ferreira, P.H.N. Saldiva, M.S. Buckeridge, The [25] J.M. Veza, Desalination in the Canary Islands: an update,
+role of air pollution and climate on the growth of urban trees, Desalination, 133 (2001) 259–270.
+Sci. Total Environ., 666 (2019) 652–661. [26] Government of the Canary Islands, Canary Islands Energy
+[4] L. Onofri, F. Bianchin, V. Boatto, How to assess future Plan, Ministry of Industry, Commerce and New Technologies,
+agricultural performance under climate change? A case-study Canary Islands, Spain, 2007.
+on the Veneto region, Agric. Food Econ., 7 (2019) 16. [27] J.R. Stokes, A. Horvath, Energy and air emission effects of water
+[5] J.F.T. de Souza, S.A Pacca, How far can low-carbon energy supply, Environ. Sci. Technol., 43 (2009) 2680–2687.
+scenarios reach based on proven technologies?, Mitigation [28] Y.F. Gu, Y.-N. Dong, H.T. Wang, A. Keller, J. Xu, T. Chiramba,
+Adapt. Strategies Global Change, 24 (2019) 687–705. F.T. Li, Quantification of the water, energy and carbon footprints
+[6] C. de Guttry, D. Süsser, M. Döring, Situating climate change: of wastewater treatment plants in China considering a water–
+psychological distances as tool to understand the multifaceted energy nexus perspective, Ecol. Indic., 60 (2016) 402–409.

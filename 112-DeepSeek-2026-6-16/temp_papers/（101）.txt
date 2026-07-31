@@ -1,0 +1,657 @@
+--- Page 1 ---
+Article
+Assessing Greenhouse Gas Emission Factors in
+Wastewater Treatment
+HaiyanYang,ZheWang* ,XuerongZhangandHaoruoLu
+BeijingClimateChangeResearchandTalentTrainingBase,BeijingUniversityofCivilEngineeringand
+Architecture,Beijing100044,China;yanghaiyan@bucea.edu.cn(H.Y.);xrong0111@163.com(X.Z.);
+lhrwwwua@163.com(H.L.)
+* Correspondence:wangzhe9702@126.com
+Abstract: Inthecontextofcombatingclimatechange,accuratelyevaluatingtheenviron-
+mentalimpactofwastewatertreatmentisofgreatsignificanceforsustainabledevelopment.
+Thisstudycentersontwomethodsfordetermininggreenhousegasemissionfactorsin
+wastewatertreatment. Oneapproachcalculatesper-unit-volumeemissionfactorsbyutiliz-
+ingmeasuredgreenhousegasdataandthevolumeoftreatedwater. Whenmeasureddata
+areunavailable,analternativemethodisadoptedtoobtainempiricalvalues. Wastewater
+treatmentplantA,withitsrelativelylargescaleandcertainmonitoringcapabilities,canac-
+quirepartiallymeasureddataongreenhousegasemissionsfromitstreatmentunits. Thus,
+boththeemissionfactormeasurementmethodandtheempiricalvaluecalculationmethod
+wereutilizedtoanalyzethegreenhousegasemissioncharacteristicsandcomparethediffer-
+encesinaccountingresults. Forthisplant,theaveragemeasuredvaluesofCH andN O
+4 2
+emissionswere0.0304kgCO -eq/m3and0.0343kgCO -eq/m3,respectively. Incontrast,
+2 2
+theempiricalvalueswere0.0505kgCO -eq/m3forCH and0.0711kgCO -eq/m3forN O.
+2 4 2 2
+WastewatertreatmentplantB,duetoitssmallerscale,currentlylackstheconditionsfor
+on-sitegreenhousegasmeasurement. Consequently,onlytheempiricalvaluecalculation
+methodcouldbeusedtoanalyzeitsgreenhousegasemissioncharacteristics. Itsempirical
+CH andN Ovalueswere0.0645kgCO -eq/m3and0.1135kgCO -eq/m3,respectively.
+4 2 2 2
+Keywords: greenhousegasemissions;wastewatertreatmentplant;CH ;N O;emission
+4 2
+factormethod
+AcademicEditor:AgostinaChiavola
+Received:8January2025 1. Introduction
+Revised:29January2025
+Inrecentyears,humanactivitieshaveledtoariseinthelevelsofgreenhousegases
+Accepted:30January2025
+likeCO ,CH ,andN Ointheatmosphere. Thisisamajorcauseofglobalwarming[1]. In
+Published:11February2025 2 4 2
+responsetothischallenge,researchersworldwideareactivelyengagedinstudiesaimed
+Citation: Yang,H.;Wang,Z.;Zhang,
+atreducinggreenhousegasemissionsduringproductionprocessesacrossvariousindus-
+X.;Lu,H.AssessingGreenhouseGas
+EmissionFactorsinWastewater tries[2,3]. Asaresponsiblecountry,Chinahasannounceditsaimtopeakcarbondioxide
+Treatment.Sustainability2025,17,1488. emissionsby2030andachievecarbonneutralityby2060,whileactivelyestablishingand
+https://doi.org/10.3390/su17041488 improvingagreenhousegasemissionaccountingsystemacrossvarioussectors.
+Copyright:©2025bytheauthors. Wastewater treatment plants are significant contributors to anthropogenic green-
+LicenseeMDPI,Basel,Switzerland. house gas emissions [4–8]. Research shows that these facilities are responsible for ap-
+Thisarticleisanopenaccessarticle proximately1–2%ofglobalgreenhousegasemissions[9],withthispercentageincreasing
+distributedunderthetermsand
+annually[10–12]. Accordingtotherelatedliterature[13], directemissionsamountedto
+conditionsoftheCreativeCommons
+15.221milliontCO -eq,withCH emissionsaccountingfor6.653milliontCO -eqandN O
+Attribution(CCBY)license 2 4 2 2
+emissionsfor8.568milliontCO -eq—collectivelyrepresenting45%oftotalemissions. In
+(https://creativecommons.org/ 2
+licenses/by/4.0/). contrast,indirectemissionswererecordedat18.939milliont,accountingfortheremaining
+Sustainability2025,17,1488 https://doi.org/10.3390/su17041488
+
+--- Page 2 ---
+Sustainability2025,17,1488 2of15
+55%. Overallemissionsfromwastewatertreatmentreach24.624milliontCO -eq,while
+2
+emissionsfromsludgetreatmentanddisposalare9.536milliontCO -eq,resultingina
+2
+ratioofapproximately7:3. Thisarticlefocusesonquantifyinggreenhousegasesemitted
+directlyduringthewastewatertreatmentprocess. Non-carbondioxidegreenhousegases,
+particularlyCH andN OreleasedbyurbanWWTPs,aresignificantcontributors[14,15].
+4 2
+Duetotheincreasinglystringentwastewaterdischargestandards,theemissionsofCH and
+4
+N Oaregraduallyincreasing[16,17]. AccordingtotheIPCC2014report,CH hasaGlobal
+2 4
+WarmingPotential(GWP)28timesgreaterthanthatofCO overacentury.CH isgenerated
+2 4
+duringtheanaerobicdigestionphaseofwastewatertreatment[18–22]. N Oalsopossesses
+2
+aGWPsignificantlyhigher—265timesthatofCO overacentury—andisreleasedduring
+2
+biologicaltreatmentthroughnitrificationanddenitrificationprocesses[18,23–26].
+Furthermore,accordingtoIPCCguidelinesof2006,CO producedfrombiochemical
+2
+oxygendemand(BOD)duringwastewaterorsludgetreatmentisconsideredpartofthe
+naturalcarboncycleandshouldbeexcludedfromgreenhousegasemissionscalculations.
+Most assessments of greenhouse gas emissions from WWTPs have not included emis-
+sionsfromfossil-sourcedCO [27–29]. Consequently,thisstudyexcludesfossil-sourced
+2
+CO emissionsfromitscalculationsandindicatestheneedforfurtherresearchonlocal
+2
+wastewaterdischarges.
+Based on the described background and requirements, this study focuses on
+twowastewatertreatmentplantsofvaryingscales,bothadoptingtheA2/Oprocessforni-
+trogenandphosphorusremoval.WastewatertreatmentplantAisrelativelylarge-scale,and
+itsmanagershavecertainmonitoringcapabilities,enablingthemtoobtainsomemeasured
+dataongreenhousegasemissionsfromthetreatmentunits. Byusingboththemeasured
+andempiricalmethods,theycancomprehensivelyanalyzetheplant’sgreenhousegasemis-
+sioncharacteristicsandcomparetheaccountingresults. From2019to2021,theymeasured
+theamountsofCODandTNremoved,thevolumeoftreatedwater,andthegreenhouse
+gasemissions[30],obtainingsomemeasureddata. Incontrast,wastewatertreatmentplant
+Bissmallerinscale. Duetothecurrenttechnologicalandresourcelimitations,itsmanagers
+donotyethavethemeanstomeasuregreenhousegasemissionson-site. However,they
+havecollectedmonthlydatafrom2018to2021ontheamountsofremovedCODandTN,
+as well as the volume of treated water. Since a direct measurement of emissions is not
+possibleatpresent,basedontheseexistingdata,anempiricalmethodwasemployedto
+estimatethegreenhousegasemissions. Themanagersofbothplantsarestrivingforlow-
+carbonoperations,inaccordancewiththenationalgoalsof“carbonpeakingandcarbon
+neutrality”,contributingtoenvironmentalprotectionandthesustainabledevelopmentof
+thewastewatertreatmentindustry.
+To account the greenhouse gas emissions at the national level, the emission factor
+methodprovidedbytheIntergovernmentalPanelonClimateChange(IPCC)iswidely
+usedinwastewatertreatmentstudies[31–34]. Thispaperestablishesaprovincialemission
+factormethodbasedonrecommendedCH emissionfactorsbyCaiBofengetal.[35]to
+4
+calculateCH emissionsresultingfromCODremoval. Inthispaper,therecommended
+4
+valuesofN Oemissionfactorsforwastewatertreatmentplants,whichwereobtainedby
+2
+AliyaAblimitetal.[36]throughliterature-basedstatistics,areutilizedtocalculatetheN O
+2
+emissionsresultingfromTNremoval.
+2. DataandMethods
+2.1. WastewaterTreatmentProcessOverviewofWastewaterTtreatmentPlantsAandB
+2.1.1. WastewaterTreatmentPlantA(600,000m3/d)ProcessOverview
+WastewatertreatmentplantAhasadesigneddailytreatmentcapacityof600,000m3/d.
+ItislocatedinnorthChina. Therelevantdataaresourcedfromon-the-spotresearch. Due
+
+--- Page 3 ---
+Sustainability 2025, 17, x FOR PEER REVIEW 3 of 17
+2. Data and Methods
+2.1. Wastewater Treatment Process Overview of Wastewater Ttreatment Plants A and B
+Sustainability2025,17,1488 2.1.1. Wastewater Treatment Plant A (600,000 m3/d) Process Overview 3of15
+Wastewater treatment plant A has a designed daily treatment capacity of 600,000
+m3/d. It is located in north China. The relevant data are sourced from on-the-spot research.
+toconfidentialityprinciples,theplant’snameanditslocationcannotbedisclosed. The
+Due to confidentiality principles, the plant’s name and its location cannot be disclosed.
+wastewatertreatmentprimarilyemploystheA2/Oprocessfornitrogenandphosphorus
+The wastewater treatment primarily employs the A2/O process for nitrogen and
+removal. The treated wastewater can be utilized for applications such as agricultural
+phosphorus removal. The treated wastewater can be utilized for applications such as
+irrigation, urban river and lake landscaping, and industrial water supply. Figure 1 il-
+agricultural irrigation, urban river and lake landscaping, and industrial water supply.
+luFsitgruatrees 1t hilelupstrroacteesss thfleo wprodcieasgsr aflmowo fdtihagerwamas otef wthaet ewratrseteawtmateenr ttrpelaatnmtewnti tphlaancta wpaitchi tay of
+60c0a,p0a0c0itmy 3 o/f d60(0A,0)0.0 m3/d (A).
+FiFgiugruere1 .1P. Prorocecessssfl folowwd diiaaggrraamm ooff tthhee WWaasstteewwaatteerr TTrreeaattmmeenntt PPlalannt twwitihth a acacpaapcaictyit yofo 6f0600,000,000 m03m/d3./ d.
+2.1.2. WastewaterTreatmentPlantB(40,000m3/d)ProcessOverview
+2.1.2. Wastewater Treatment Plant B (40,000 m3/d) Process Overview
+WWasatsetwewaateterrt rtreeaattmmeenntt ppllaanntt BB ooffffiicciiaallllyy ccoommmmeenncceedd ooppereartaiotinosn isni AnuAguugsut 2st00250,0 w5,itwh ith
+aad edseisgingnededt rteraeatmtmeenntt ccaappaacciittyy ooff 4400,,000000 mm33 //dd. .ThTeh ererleelveavnatn dtadtaa tfarofrmo mthitsh iwsawstaeswteawtear ter
+trteraetamtmenenttp plalanntt aarree oobbttaaiinneedd ffrroomm tthhee ooffffiicciaial lwweebbsistiet eofo fa aseswewagaeg etretaretmatemnet nptlapnlta nint in
+nonrotrhth-w-weeststC Chhininaa.. IInn JJuullyy 22001166,, iitt uunnddeerrwweennt taann uuppggrardade etot oenehnahnacnec ietsi tcsacpaapbailbitiileisti, easl,soal so
+emempploloyyininggt hthee AA22//OO pprroocceessss ffoorr nnitirtrooggeenn aanndd pphhosopshpohroursu srermemovoavl aalnadn adchaicehviienvgi nagn an
+efeflfufleunetnqt quuaaliltiytyt hthaattm meeeettss tthhee CCllaassss AA ssttaannddaarrdd oof fththe e“D“Disicshcahragreg SetSantadnadrdar fdorf oProPlluotllaunttasn ts
+frformomU UrbrbaannW Waasstetewwaatteerr TTrreeaattmmeenntt PPllaannttss”” [[3377]]. .TThhisi spplalnatn itsi sprpimrimarailryi lryesrpesopnosinbsleib floerf or
+coclolellcetcintignga nadntdre attrienagtimngu nmicuipnaicliwpaals tewwaastteewraantedr inadnuds triniadluesffltruiaeln te,fafsluweneltl, aassr egweenlle raatsi ng
+Sustainability 2025, 17, x FOR PEER uRErrbVeag IEne Wnwe raasttienwg auterrb.aFni gwuraest2ewillautsetrr.a tFeisguthree p2r oilcleussstrflaotews dthiaeg rparmocoesfst hfelowwa sdteiawgaratemr t4or ef o aft thm17e e nt
+plw ana tst wew ita hte ar ct are pa at cm ite yn ot fp 4la 0n ,0t 0w 0i mth3 a c dap (Ba )c .ity of 40,000 m3/d (B).
+/
+FiFgiugurere2 2..P Prroocceessss flflooww ddiiaaggrraamm ooff tthhee wwaasstteewwaateter rtrteraetamtmenetn ptlpalnatn wtwithit chacpaapciatcyi t4y0,4000,00 0m03/md.3 /d.
+2.2. GreenhouseGasEmissionsProducedDuringtheWastewaterTreatmentProcess
+2.2. Greenhouse Gas Emissions Produced During the Wastewater Treatment Process
+TThheea caccocouunntitninggo fofg rgereenehnohuosueseg agsaes meimssiisosniosngs egneenraerteadtedd udruinrgintgh ethwe awstaeswteawteartetrre at-
+mtreenattmpreoncte pssroicnecslsu dinecsluedmesis seimonisssioofnsC Hof4 CaHnd aNnd2O Np 2Oro dpurocdeudcdedu rdinugrinthge thane aaenraoebriocbtirce at-
+4
+mtreenattmopeenrt aotipoenrsa.tiFoonrs.w Faosrt ewwaastteerwtareteart mtreenattmpelannt tspluasnitns gutshiengA 2th/eO Ap2r/oOc epssroacnesds caanpda ble
+capable of direct greenhouse-gas measurement, this study adopts a Gas Chromatograph-
+MS for measurement. Stainless-steel sampling probes are used to collect gas samples from
+key treatment areas, such as anaerobic, anoxic and aerobic tanks, as well as primary and
+secondary sedimentation tanks. These samples are then conveyed via PTFE tubes to the
+Gas Chromatograph-MS for analysis. Regular calibration with standard gas mixtures
+ensures measurement accuracy. However, if measured data are unavailable, emissions
+can be estimated using the recommended emission factors based on the amount of
+pollutants removed, calculated using Formula (1):
+𝐸 = 𝐴𝐷 ×𝐸𝐹 ×𝐺𝑊𝑃 (1)
+(cid:3036) (cid:3036) (cid:3036) (cid:3036)
+where 𝐸 is the emission amount of CH4 or N2O generated during the wastewater
+(cid:3036)
+treatment process (expressed in a carbon dioxide equivalent) (kg CO2-eq); 𝐴𝐷 is the
+(cid:3036)
+amount of pollutants (COD and TN) removed during the wastewater treatment process
+(kg); 𝐸𝐹 is the emission factor for CH4 or N2O during the wastewater treatment process
+(cid:3036)
+(kgCH4/kg COD or kg N2O/kg TN), using recommended emission factor data from the
+relevant literature or guidelines; 𝐺𝑊𝑃 is the Global Warming Potential values for CH4
+(cid:3036)
+and N2O, which are 28 for CH4 and 265 for N2O; i indicates CH4 or N2O.
+2.2.1. Activity Data
+Activity data refer to the characterization values that represent the quantity of
+activities leading to greenhouse gas emissions. The activity data obtained in this article
+consists of raw data, including the volume of water treated by the wastewater treatment
+plant, the concentrations of pollutants in influent and effluent, and the greenhouse gas
+emissions from each treatment unit.
+2.2.2. Emission Factor
+Emission factors refer to coefficients that characterize the amount of greenhouse gas
+emissions per unit of treatment or consumption activity. Currently, the wastewater
+treatment industry lacks corresponding standard specifications for emission factors, and
+most wastewater treatment plants do not have emission factor data that reflect their own
+greenhouse gas emissions, resulting in the absence of a systematic dataset of emission
+factors. Therefore, Formula (1) utilizes the recommended emission factor data from the
+
+--- Page 4 ---
+Sustainability2025,17,1488 4of15
+ofdirectgreenhouse-gasmeasurement,thisstudyadoptsaGasChromatograph-MSfor
+measurement. Stainless-steelsamplingprobesareusedtocollectgassamplesfromkey
+treatmentareas,suchasanaerobic,anoxicandaerobictanks,aswellasprimaryandsec-
+ondarysedimentationtanks. ThesesamplesarethenconveyedviaPTFEtubestotheGas
+Chromatograph-MSforanalysis. Regularcalibrationwithstandardgasmixturesensures
+measurement accuracy. However, if measured data are unavailable, emissions can be
+estimated using the recommended emission factors based on the amount of pollutants
+removed,calculatedusingFormula(1):
+E = AD ×EF ×GWP (1)
+i i i i
+whereE istheemissionamountofCH orN Ogeneratedduringthewastewatertreatment
+i 4 2
+process (expressed in a carbon dioxide equivalent) (kg CO -eq); AD is the amount of
+2 i
+pollutants(CODandTN)removedduringthewastewatertreatmentprocess(kg);EF isthe
+i
+emissionfactorforCH orN Oduringthewastewatertreatmentprocess(kgCH /kgCOD
+4 2 4
+orkgN O/kgTN),usingrecommendedemissionfactordatafromtherelevantliterature
+2
+orguidelines;GWP istheGlobalWarmingPotentialvaluesforCH andN O,whichare
+i 4 2
+28forCH and265forN O;iindicatesCH orN O.
+4 2 4 2
+2.2.1. ActivityData
+Activitydatarefertothecharacterizationvaluesthatrepresentthequantityofactivities
+leadingtogreenhousegasemissions. Theactivitydataobtainedinthisarticleconsistsof
+rawdata,includingthevolumeofwatertreatedbythewastewatertreatmentplant,the
+concentrationsofpollutantsininfluentandeffluent,andthegreenhousegasemissions
+fromeachtreatmentunit.
+2.2.2. EmissionFactor
+Emissionfactorsrefertocoefficientsthatcharacterizetheamountofgreenhousegas
+emissionsperunitoftreatmentorconsumptionactivity. Currently,thewastewatertreat-
+mentindustrylackscorrespondingstandardspecificationsforemissionfactors,andmost
+wastewatertreatmentplantsdonothaveemissionfactordatathatreflecttheirowngreen-
+housegasemissions,resultingintheabsenceofasystematicdatasetofemissionfactors.
+Therefore,Formula(1)utilizestherecommendedemissionfactordatafromtheotherrele-
+vantliteratureorguidelines,basedontheamountofpollutantsremoved,asthebasisfor
+calculatinggreenhousegasemissions.Suchemissionfactordatacanbedividedintodomes-
+ticrecommendedvaluesandforeignrecommendedvalues,withdomesticrecommended
+values being more closely aligned with the actual operating conditions of wastewater
+treatmentplantsinChina,therebytakingprecedenceoverforeignrecommendedvalues.
+2.3. AccountingMethodsforEmissionFactorsBasedonMeasuredandEmpiricalValuesperUnit
+ofTreatedWaterVolume
+2.3.1. AccountingMethodsforMeasuredEmissionFactorsintheWastewaterTreatment
+ProcessperUnitofTreatedWaterVolume
+Whenthewastewatertreatmentplanthasactualmeasureddata E ongreenhouse
+t
+gasemissionsfromitstreatmentunits,thefollowingmethodisprovidedforcalculating
+theaveragevalueofthemeasuredgreenhousegasemissionfactorEF perunitoftreated
+a
+water,asshowninFormulas(2)and(3).
+∑mEF
+EF = 1 j (2)
+a
+m
+
+--- Page 5 ---
+Sustainability2025,17,1488 5of15
+∑nE
+EF = 1 t (3)
+j
+Q
+j
+where EF istheaveragevalueofthemeasuredgreenhousegasemissionfactorforthe
+a
+wastewatertreatmentplant(kgCO -eq/m3);EF isthegreenhousegasemissionfactorfor
+2 j
+thewastewatertreatmentplantcalculatedinthej-thmeasurement(kgCO -eq/m3);mis
+2
+thetotalnumberofmeasurementsconducted; jisthej-thmeasurement(1≤j≤m); E
+t
+isthegreenhousegasemissionsfromthetreatmentunitt(kgCO );Q isthevolumeof
+2-eq j
+watertreatedbythewastewatertreatmentplantduringthej-thmeasurement(m3);tisthe
+t-thtreatmentunit(1≤t≤n);nisthetotalnumberoftreatmentunits.
+2.3.2. AccountingMethodsforEmpiricalEmissionFactorsintheWastewaterTreatment
+ProcessperUnitofTreatedWaterVolume
+When the wastewater treatment plant lacks measured data E on greenhouse gas
+t
+emissionsfromitstreatmentunits,thegreenhousegasemissionscanfirstbecalculated
+using Formula (1). Subsequently, the method for calculating the average value of the
+empirical greenhouse gas emission factor EF per unit of treated water is provided, as
+b
+showninFormulas(4)and(5).
+∑mEF
+EF = 1 j (4)
+b m
+E
+j
+EF = (5)
+j
+Q
+j
+where EF istheaveragevalueoftheempiricalgreenhousegasemissionfactorforthe
+b
+wastewatertreatmentplant(kgCO -eq/m3); EF isthegreenhousegasemissionfactor
+2 j
+forthewastewatertreatmentplantobtainedfromthej-thcalculation(kgCO -eq/m3);m
+2
+is the total number of calculations conducted; j is the j-th measurement (1 ≤ j ≤ m); E
+j
+is the greenhouse gas emissions from the wastewater treatment plant calculated in the
+j-thassessment,whichcanbeobtainedusingemissionfactordatarecommendedbyother
+literatureorguidelines(kgCO -eq);Q isthevolumeofwatertreatedbythewastewater
+2 j
+treatmentplantduringthej-thcalculation(m3).
+2.3.3. LimitationsandApplicationDiscussionsoftheMeasuredandEmpiricalMethods
+When determining greenhouse gas emission factors in wastewater treatment, the
+measuredandempiricalmethodshavedistinctfeatures. Knowingtheirlimitationsand
+applicablescenariosiscrucialforaccurateemissionassessment.
+Themeasuredemissionfactorinourstudycomesdirectlyfromtheexperimentalmea-
+surementofgreenhousegasemissionsatwastewatertreatmentplants. Weuseprofessional
+equipmenttomeasureemissionsfromeachtreatmentunitandcalculatethefactorwiththe
+treatedwatervolume. Itcanaccuratelyreflecttheactualemissions.
+Theempiricalemissionfactorinourstudyiscalculatedbasedontherecommended
+literaturedata,usuallyrelatedtopollutantremoval. First,wecalculategreenhousegas
+emissionsandthendividebythetreatedwatervolumetogetthefactorfortheplant. This
+methodisusedwhenon-sitemeasurementdataarelacking.
+Themeasurementmethodisofgreatimportanceasitcandirectlyobtaintheactual
+emission data of wastewater treatment plants. These data accurately reflect real-world
+emissionsunderspecificconditions,supportingpreciseassessmentandtargetedprocess
+optimization. However, this method has several limitations. It highly depends on the
+professional equipment and technicians, resulting in high costs. For example, a high-
+precisionCH andN Ogasmonitorisquiteexpensive,andtheexpensesforcalibration
+4 2
+andmaintenancearealsoconsiderable. Moreover,toobtainreliabledata,long-termand
+high-frequencymonitoringisessential. Thisnotonlyconsumesasignificantamountof
+
+--- Page 6 ---
+Sustainability2025,17,1488 6of15
+timebutalsorestrictstheimmediateanalysisandapplicationofdata,makingitdifficultto
+promptlysupporttreatmentprocessesthatrequirerapidresponseandadjustment.
+In contrast, the empirical method is a practical approach when data collection is
+challenging. It utilizes the emission factor data recommended in the literature, which
+is related to the amount of pollutant removal, to provide a feasible way for calculating
+greenhouse gas emissions. This enables a rapid estimation of emissions, especially for
+wastewatertreatmentplantslackingon-sitemeasurementconditions.However,itshouldbe
+notedthatduetothedifferencesinwastewaterquality,treatmentprocesses,operationand
+managementlevels,andenvironmentalconditionsamongdifferentwastewatertreatment
+plants,thegreenhousegasemissionfactorsrecommendedintheliteraturemaynotbefully
+applicabletoeachplant. Forexample,insomeregions,thewastewatermaycontainspecial
+substancesthataffectthegenerationofCH andN O.Iftheemissionfactorsrecommended
+4 2
+intheliteraturearedirectlyusedforcalculation,theresultsmaydeviatetosomeextent,
+whichiscurrentlyunavoidable.
+In practice, choose the method according to the wastewater treatment plant’s sit-
+uation. Large-scale plants with strong capabilities and complete monitoring systems
+shouldusethemeasuredmethodforprocessoptimizationandemissionreduction. Small-
+scaleplantsorthoseintheinitialresearchstagecanusetheempiricalmethodtoquickly
+estimateemissions.
+2.4. PriorityinSelectingGreenhouseGasEmissionFactorsintheWastewaterTreatmentProcess
+BycomparingtherecommendedemissionfactorsusedinFormula(1)withthemea-
+suredandempiricalvaluesobtainedfromFormulas(2)–(5),thepriorityforselectingemis-
+sionfactorsforthewastewatertreatmentprocess,asshowninTable1,canbedetermined.
+Table1.Priorityforselectinggreenhousegasemissionfactors.
+EmissionFactorsType Description Priority
+Measureddataofthewastewatertreatmentplant’s
+Measuredemissionfactors High
+emissionfactorsperunitoftreatedwater
+Empiricaldataofthewastewatertreatmentplant’s
+Empiricalemissionfactors Medium
+emissionfactorsperunitoftreatedwater
+Emissionfactorsdatarecommendedbythe
+Recommendedemissionfactors Low
+relevantliteratureorguidelines
+3. ResultsandDiscussion
+Wastewater treatment plant A has obtained partial measured data on greenhouse
+gasemissionsfromitstreatmentunits. Therefore,boththeemissionfactormeasurement
+methodandtheempiricalvaluecalculationmethodareusedtoanalyzeitsgreenhousegas
+emissioncharacteristicsandcomparethedifferencesintheaccountingresults. Duetothe
+smallerscaleofwastewatertreatmentplantB,itcurrentlylackstheconditionsforon-site
+measurementofgreenhousegases,whichmeansthatnomeasureddataongreenhousegas
+emissionsareavailable. Therefore,theempiricalvaluecalculationmethodisemployedto
+analyzeitsgreenhousegasemissioncharacteristics.
+ThestepsforcalculatinggreenhousegasemissionfactorsareshowninFigure3.
+
+--- Page 7 ---
+Sustainability 2025, 17, x FOR PEER REVIEW 7 of 17
+Table 1. Priority for selecting greenhouse gas emission factors.
+Emission Factors Type Description Priority
+Measured data of the wastewater treatment plant’s
+Measured emission factors High
+emission factors per unit of treated water
+Empirical data of the wastewater treatment plant’s emission
+Empirical emission factors Medium
+factors per unit of treated water
+Emission factors data recommended by the relevant
+Recommended emission factors Low
+literature or guidelines
+3. Results and Discussion
+Wastewater treatment plant A has obtained partial measured data on greenhouse gas
+emissions from its treatment units. Therefore, both the emission factor measurement
+method and the empirical value calculation method are used to analyze its greenhouse
+gas emission characteristics and compare the differences in the accounting results. Due to
+the smaller scale of wastewater treatment plant B, it currently lacks the conditions for on-
+site measurement of greenhouse gases, which means that no measured data on
+greenhouse gas emissions are available. Therefore, the empirical value calculation method
+Sustainability2025,17,1488 7of15
+is employed to analyze its greenhouse gas emission characteristics.
+The steps for calculating greenhouse gas emission factors are shown in Figure 3.
+Figure 3. Steps for calculating greenhouse gas emission factors.
+Figure3.Stepsforcalculatinggreenhousegasemissionfactors.
+3.31..1G. GrereenenhhououseseG GaassE Emmisisssiioonn AAccccoouunnttiinngg iinn WWaasstteewwaatteerr TTrreeaattmmeenntt PPllaanntt AA UUssiningg MMeaesausurerde dand
+Emanpdi rEicmapliVriaclaule VMalueteh ModesthfoordsE fmori sEsmioinssFioanc tFoarsctors
+3.31..11..1A. Accccoouunntitningg ffoorr MMeeaassuurreedd GGrreeeennhhoouussee GGaass EEmmisissisoionns sanadn dGGrereenehnohuosues GeaGs as
+EmissionsCausedbytheRemovalofPollutants(COD,TN)
+Emissions Caused by the Removal of Pollutants (COD, TN)
+For wastewater treatment plant A, statistical analysis was conducted on the CH
+For wastewater treatment plant A, statistical analysis was conducted on the CH4 4
+emissionsfromtheprimarysedimentationtank,biologicaltank,andsecondarysedimen-
+emissions from the primary sedimentation tank, biological tank, and secondary
+tasteiodnimteanntkatbioentw taenekn b2e0t1w9eaennd 2021092 1a.nAd d2d02it1i.o Anadldlyi,titohnealNly2, Othee mNi 2sOsi oenmsisfsrioomns tfhreompr itmhea ry
+sepdriimmaernyt astieodnimtaennktaatinodn btaionlko gaincadl tbainoklogbiectawl eteannk2 0b1e9twaneedn2 0220119w aenred a2ls0o21a nwaelyrez eadl.soT he
+reasnualltyszsehdo. wTheed rtehsautlttsh sehmoweeadsu threadt tghree menehaosuurseedg garseeenmhiosussioe ngsasw eemreis1si1ondsa ywserfoe r11C dHa4yas nd
+13fodra CyHsf 4o arndN 12O3 d.ays for N2O.
+AAdddditiitoionnaalllyly,,u suisninggF oFromrmuulala( 1()1a) saas rae freerfeenrecne,ceg,r egerneehnohuosuesgea sgaesm eimssiisosniosnasr iasirnisginfgro m
+thferormem thoev arelmofoCvaOl Dofa CnOdDT Nanwd iTllNb ewcialll cbuel actaelcdualantdedc oanmdp caoremdpwarietdh wthiethm theae smureeadsuvraeldu es.
+Thvealrueecso. mThmee rnedceodmCmHendeemdi sCsHio₄n efmacistosiroins bfaacsteodr oisn bvaasleude osnfr vomaluCeas ifBroomfe nCgaie Btaolf.e[n3g5 ]e,tw ahl. ich
+4
+is[03.50]0, 5w5hkicghC isH 0 4./00k5g5C kOg DCH.T4/hkegr CecOoDm.m Thene dreecdoNm 2mOenemdeidss Nio₂nOf aemctoisrsiiosnb afascetdoro ins vbaalsueeds ofnro m
+AvliaylaueAs bfrliommi tAeltiyaal. A[3b6l]im,with eitc hal.i s[306.]0,0 w85h2ickhg isN 0.0O0/85k2g kTgN N.2O/kg TN.
+2
+The variations in greenhouse gas emissions obtained from field measurements and
+Thevariationsingreenhousegasemissionsobtainedfromfieldmeasurementsand
+Sustainability 2025, 17, x FOR PEER RtEhVt ohIEso eWse c aca lcl ucu lala tete dd uu ss ii nn gg tt hh ee rr ee cc oom mm me en nd de ed d e em mis is si so ion n fa fc at co tr os r, sa ,l ao ln og n gwi wth i tt hhe th c eha cn hg ae ns g8 einosf i1n7
+pollutant removal amounts, are illustrated in Figure 4 for different calculation days.
+pollutantremovalamounts,areillustratedinFigure4fordifferentcalculationdays.
+FFiigguurree 44.. RReellaattiioonnsshhiipp bbeettwweeeenn tthhee ppoolllluuttaanntt rreemmoovvaall aammoouunnttss aanndd tthhee ggrreeeennhhoouussee ggaass eemmiissssiioonnss
+ggeenneerraatteedd bbyy wwaasstteewwaatteerr ttrreeaattmmeenntt ppllaanntt AA oovveerr ddiiffffeerreenntt ccaalclcuulalattioionn ddaayyss.. NNoottee:: TThhee ppoolllluuttaanntt
+rreemmoovvaall aammoouunnttss rreeffeerr ttoo tthhee aammoouunnttss ooff CCOODD aanndd TTNN rreemmoovveedd.. TThhee ggrreeeennhhoouussee ggaass eemmiissssiioonnss
+includemeasuredvaluesofCH andN Oemissions,aswellasaccountingvaluescalculatedusing
+include measured values of CH4₄ and N2₂O emissions, as well as accounting values calculated using
+theemissionfactormethod.
+the emission factor method.
+Figure 4 shows that the calculated values for CH and N O emissions using the
+4 2
+Figure 4 shows that the calculated values for CH4 and N₂O emissions using the
+emissionfactormethodaregreaterthanthefield-measuredvalues. Theaverageaccounting
+emission factor method are greater than the field-measured values. The average
+value of CH emissions is 23,330 kg, which is 1.65 times the average measured value
+4
+accounting value of CH4 emissions is 23,330 kg, which is 1.65 times the average measured
+of14,170kg. Additionally,theaverageaccountingvalueofN Oemissionsis33,568kg,
+2
+value of 14,170 kg. Additionally, the average accounting value of N₂O emissions is 33,568
+kg, 2.09 times the average measured value of 16,085 kg. The measured CH4 emissions in
+wastewater treatment plant A generally increase with an increase in COD removal and
+decrease with a reduction in COD removal. Similarly, the measured N₂O emissions tend
+to rise with an increase in TN removal and decline with a decrease in TN removal.
+A correlation analysis was conducted between the measured values of COD removal
+and CH₄ emissions, as well as between TN removal and N₂O emissions in wastewater
+treatment plant A. The results of this analysis are presented in Table 2.
+Table 2. Correlation analysis between measured greenhouse gas emissions and pollutant removal
+amounts for wastewater treatment plant A.
+COD removal amount
+Pearson correlation 0.621 ①
+CH₄ emission measured value
+Significance (two-tailed) 0.041377
+TN removal amount
+N₂O emission measured value Pearson correlation 0.871 ②
+Significance (two-tailed) 0.000104
+Note: ① Correlation is significant at the 0.05 level (two-tailed). ② Correlation is very significant at
+the 0.01 level (two-tailed).
+The correlation analysis shows that in wastewater treatment plant A, CH₄ emissions
+and COD removal have a significance level < 0.05 and a positive Pearson correlation
+coefficient (r = 0.621), indicating a strong positive correlation. For N₂O emissions and TN
+removal, the significance level is <0.01 and the Pearson correlation coefficient (r = 0.871) is
+also positive, showing a strong positive correlation. Thus, controlling biodegradable
+organic matter in wastewater can reduce greenhouse gas emissions [6].
+As shown in Figure 4, the average measured value of CH₄ emissions is 14,170 kg CO2-
+eq/d, while that of N₂O emissions is 16,090 kg CO2-eq/d. This indicates that the N₂O
+emissions are approximately 1.14 times that of CH₄ emissions, suggesting that the
+contribution of N₂O to greenhouse gas emissions from this plant is greater than that of
+
+--- Page 8 ---
+Sustainability2025,17,1488 8of15
+2.09 times the average measured value of 16,085 kg. The measured CH emissions in
+4
+wastewatertreatmentplantAgenerallyincreasewithanincreaseinCODremovaland
+decreasewithareductioninCODremoval. Similarly,themeasuredN Oemissionstendto
+2
+risewithanincreaseinTNremovalanddeclinewithadecreaseinTNremoval.
+AcorrelationanalysiswasconductedbetweenthemeasuredvaluesofCODremoval
+andCH emissions, aswellasbetweenTNremovalandN Oemissionsinwastewater
+4 2
+treatmentplantA.TheresultsofthisanalysisarepresentedinTable2.
+Table2.Correlationanalysisbetweenmeasuredgreenhousegasemissionsandpollutantremoval
+amountsforwastewatertreatmentplantA.
+CODremovalamount
+Pearsoncorrelation 0.621⃝1
+CH emissionmeasuredvalue
+4
+Significance(two-tailed) 0.041377
+TNremovalamount
+N Oemissionmeasuredvalue Pearsoncorrelation 0.871⃝2
+2
+Significance(two-tailed) 0.000104
+Note: ⃝1 Correlation is significant at the 0.05 level (two-tailed). ⃝2 Correlation is very significant at the
+0.01level(two-tailed).
+ThecorrelationanalysisshowsthatinwastewatertreatmentplantA,CH emissions
+4
+and COD removal have a significance level < 0.05 and a positive Pearson correlation
+coefficient(r=0.621),indicatingastrongpositivecorrelation. ForN OemissionsandTN
+2
+removal,thesignificancelevelis<0.01andthePearsoncorrelationcoefficient(r=0.871)
+isalsopositive, showingastrongpositivecorrelation. Thus, controllingbiodegradable
+organicmatterinwastewatercanreducegreenhousegasemissions[6].
+As shown in Figure 4, the average measured value of CH emissions is 14,170 kg
+4
+CO -eq/d, while that of N O emissions is 16,090 kg CO -eq/d. This indicates that the
+2 2 2
+N Oemissionsareapproximately1.14timesthatofCH emissions,suggestingthatthe
+2 4
+contributionofN OtogreenhousegasemissionsfromthisplantisgreaterthanthatofCH .
+2 4
+SincetheGWPofN Ois265—farexceedingCH ’sGWPof28—evenifN Oemissions
+2 4 2
+arelowerthanthoseofCH , itsoverallimpactonthegreenhouseeffectcouldbemore
+4
+significant. Therefore,whilepayingattentiontoCH emissions,weshouldalsofocuson
+4
+theenvironmentalimpactofN Oemissions.
+2
+ToreduceCH emissions,optimizingtheanaerobicdigestionprocesscanbeeffective.
+4
+Bypreciselycontrollingparameterssuchastemperature,pH,andtheratiooforganicmatter
+in the anaerobic digestion stage, the production of CH can be minimized. Regarding
+4
+N O emissions, adjusting the aeration strategy in the biological treatment process can
+2
+be beneficial. Controlling the dissolved oxygen concentration in the nitrification and
+denitrificationtankscanregulatethemetabolicactivitiesofmicroorganisms.
+Itshouldbenoted,thatalthoughthisstudyhasdiscoveredsignificantpositivecorrela-
+tionsbetweenCH emissionsandCODremoval,aswellasbetweenN Oemissionsand
+4 2
+TNremovalthroughcorrelationanalysis,thisanalyticalmethodhascertainlimitations.
+Correlationanalysiscanonlyreflectthedegreeofassociationbetweenvariables,isunable
+torevealcausalrelationships,andhasnotquantifiedtherelativeimpactsofvariablessuch
+asCODandTNremovalonCH andN Oemissions. Futureresearchcouldconsiderusing
+4 2
+methodssuchasregressionanalysisorgeneralizedadditivemodels(GAMs)tofurther
+exploretherelationshipsamongthesevariables.
+
+--- Page 9 ---
+Sustainability 2025, 17, x FOR PEER REVIEW 9 of 17
+CH₄. Since the GWP of N₂O is 265—far exceeding CH₄’s GWP of 28—even if N₂O
+emissions are lower than those of CH₄, its overall impact on the greenhouse effect could
+be more significant. Therefore, while paying attention to CH₄ emissions, we should also
+focus on the environmental impact of N₂O emissions.
+To reduce CH4 emissions, optimizing the anaerobic digestion process can be
+effective. By precisely controlling parameters such as temperature, pH, and the ratio of
+organic matter in the anaerobic digestion stage, the production of CH4 can be minimized.
+Regarding N2O emissions, adjusting the aeration strategy in the biological treatment
+process can be beneficial. Controlling the dissolved oxygen concentration in the
+nitrification and denitrification tanks can regulate the metabolic activities of
+microorganisms.
+It should be noted, that although this study has discovered significant positive
+correlations between CH₄ emissions and COD removal, as well as between N₂O emissions
+and TN removal through correlation analysis, this analytical method has certain
+limitations. Correlation analysis can only reflect the degree of association between
+variables, is unable to reveal causal relationships, and has not quantified the relative
+impacts of variables such as COD and TN removal on CH₄ and N₂O emissions. Future
+research could consider using methods such as regression analysis or generalized additive
+models (GAMs) to further explore the relationships among these variables.
+Sustainability2025,17,1488 9of15
+3.1.2. Analysis of Measured and Empirical Greenhouse Gas Emission Factor Results per
+Unit of Treated Water Volume
+3.1.2. AnalysisofMeasuredandEmpiricalGreenhouseGasEmissionFactorResultsper
+UnitUofsiTnrge aFteodrmWualtaesr V(2o)l–u(m5)e, the measured and empirical values of greenhouse gas
+emissUiosnin fgacFtoorrms ufolar sC(H2)₄– (a5n)d,t hNe₂Om einas wuraesdteawnadteerm tpreiraitcmalevnatl upelasnotf Agr weeenrheo cuaslceuglaasteedm bisassieodn
+ofanc tthores vfoolruCmHe oaf ntrdeaNtedO winatwera.s Ttehwe arteesrutlrtes aotfm tehnetsep lcaanlctuAlawtioenres caarelc purlaetseedntbeads eind Foinguthree
+4 2
+5v.o lumeoftreatedwater. TheresultsofthesecalculationsarepresentedinFigure5.
+FFiigguurree 55.. CCaalcluculalatitoionn rerseusultlst sofo CfCHH₄ anadn Nd₂NO eOmeimssiiossni ofancftaocrsto irns winaswteawstaetwera ttreerattrmeaetnmt epnlatnptl aAn. t(aA) .
+4 2
+C(aH)C₄ Hemiesmsioisns ifoanctfoarcst oirns iwnawstaeswteawteart etrretartematemnet nptlapnlat nAtA. (.b()b )NN₂OO eemmisissisoionn fafacctotorrss iinn wwaasstteewwaatteerr
+4 2
+ttrreeaattmmeenntt ppllaanntt AA..
+ThecalculationresultsindicatethatthemeasuredCH emissionfactorinwastewater
+The calculation results indicate that the measured CH₄4 emission factor in wastewater
+treatment plant A ranges from 0.0267 kg CO -eq/m3 to 0.0336 kg CO -eq/m3, with an
+treatment plant A ranges from 0.0267 kg CO2₂-eq/m3 to 0.0336 kg CO2₂-eq/m3, with an
+average value of 0.0304 kg CO -eq/m3 and a variance of 4.61 × 10−6. The empirical
+average value of 0.0304 kg CO₂-2eq/m3 and a variance of 4.61 × 10⁻⁶. The empirical CH₄
+CH emission factor ranges from 0.0348 kg CO -eq/m3 to 0.0688 kg CO -eq/m3, with
+emis4sion factor ranges from 0.0348 kg CO₂-eq/m3 2to 0.0688 kg CO₂-eq/m3, w2ith an average
+anaverageof0.0505kgCO -eq/m3 andavarianceof8.83×10−5. ThemeasuredN O
+of 0.0505 kg CO₂-eq/m3 and 2a variance of 8.83 × 10⁻⁵. The measured N₂O emission fact2or
+emissionfactorrangesfrom0.0153kgCO -eq/m3to0.0529kgCO -eq/m3,withanaverage
+ranges from 0.0153 kg CO₂-eq/m3 to 0.05229 kg CO₂-eq/m3, with an2 average value of 0.0343
+valueof0.0343kgCO -eq/m3andavarianceof1.17×10−4. TheempiricalN Oemission
+2 2
+factor ranges from 0.0356 kg CO -eq/m3 to 0.1057 kg CO -eq/m3, with an average of
+2 2
+0.0711kgCO -eq/m3 andavarianceof4.97×10−4. Basedonthevariancecomparison
+2
+presentedearlier,itisevidentthatthemeasuredemissionfactorsforbothCH andN O
+4 2
+aremorestablethantheirempiricalcounterpartsinwastewatertreatmentplantA.The
+lowervarianceofthemeasureddataindicateslessfluctuationcomparedtotheempirical
+data. Fromthecomparisonofaveragevalues,themeasuredvaluesarelower. Theaverage
+empirical CH emission factor is about 1.66 times the average measured CH emission
+4 4
+factor,andtheaverageempiricalN Oemissionfactorisroughly2.07timestheaverage
+2
+measuredN Oemissionfactor. Thissuggeststhatusingmeasuredemissionfactorsmight
+2
+leadtoamoreconservativeestimateofgreenhouse-gasemissionsfromtheplant. Inthe
+future monitoring ofgreenhousegas emissions atthis plant, obtaining more measured
+emissionfactorvaluescanfurtherenrichthedatasetforthisfacility,providingadditional
+dataforfuturecalculations.
+3.2. GreenhouseGasEmissionAccountinginWastewaterTreatmentPlantBUsingEmpirical
+ValueMethodsforEmissionFactors
+3.2.1. AccountingforGreenhouseGasEmissionsCausedbytheRemovalofPollutants
+(COD,TN)
+Due to the lack of measured values for CH and N O emissions from wastewater
+4 2
+treatment plant B, the provincial emission factor method in Formula (1) can be used
+to calculate the greenhouse gas emissions caused by the removal of COD and TN in
+
+--- Page 10 ---
+Sustainability2025,17,1488 10of15
+wastewater treatment plant B. The recommended CH emission factor is based on the
+4
+valuesfromCaiBofengetal.[35],whichis0.0087kgCH /kgCOD.Therecommended
+4
+N OemissionfactorisbasedonvaluesfromAliyaAblimitetal.[36],whichis0.00852kg
+2
+N O/kgTN.
+2
+UsingFormula(1),theemissionsofCH andN OcausedbytheremovalofCODand
+4 2
+TNinwastewatertreatmentplantBfrom2018to2021arecalculated. Figure6showsthe
+Sustainability 2025, 17, x FOR PEER REreVlIaEtWio nshipbetweenthepollutantremovalamountsandtheassociatedgreenhou11s eofg a17s
+emissionsinwastewatertreatmentplantBfrom2018to2021.
+FFiigguurree 66..R eRlealtaiotinosnhsihpipbe tbweetweneepno llpuotallnuttraenmt orveamlaomvaolu natmsoaunndtas ssaoncdia teadssgorceiaentehdo ugsreegeansheomusiess igoanss
+einmwisasisotenws ainte wrtarsetaetwmaetnert ptrleaanttmBefnrto pmla2n0t1 B8 ftroo2m02 210.18 to 2021.
+AAccccoorrddiinngg ttoo tthhee rreessuullttss iilllluussttrraatteedd iinn FFiigguurree 66,, tthhee aavveerraaggee mmoonntthhllyy eemmiissssiioonnss ooff CCHH₄
+4
+ffrroomm wwaasstteewwaatteerr ttrreeaattmmeenntt ppllaanntt BB wweerree 3377,,991166..8877 kkgg CCOO₂2--eeqq iinn 22001188,, aanndd tthhee aavveerraaggee
+mmoonntthhllyy eemmiissssiioonnss ooff NN2₂OO wweerree 5500,,443311..5500 kkgg CCOO2₂--eeqq.. IInn 22001199,, tthhee aavveerraaggee mmoonntthhllyy
+eemmiissssiioonnss ooff CCHH₄4 iinnccrreeaasseedd ttoo 5544,,443333..5511 kkgg CCOO₂2--eeqq,, wwhhiillee tthhee aavveerraaggee ffoorr NN₂2OO rroossee ttoo
+7733,,330099..8833 kkgg CCOO₂2--eeqq.. IInn 22002200,, tthhee aavveerraaggee mmoonntthhllyy eemmiissssiioonnss ooff CCHH₄4 rreeaacchheedd 6622,,887700..9977 kkgg
+CCOO₂2--eeqq,, aanndd tthhee aavveerraaggee NN₂2OO eemmiissssiioonnss wweerree 112200,,886677..2299 kkgg CCOO₂2--eeqq.. BByy 22002211,, tthhee aavveerraaggee
+mmoonntthhllyy eemmiissssiioonnss ooff CCHH4₄ ffuurrtthheerr iinnccrreeaasseedd ttoo 7755,,774499..4488 kkgg CCOO2₂--eeqq,, wwiitthh NN2₂OO eemmiissssiioonnss
+aavveerraaggiinngg 116600,,994499..5511 kkgg CCOO2₂--eeqq.. IItt iiss eevviiddeenntt tthhaatt ffrroomm 22001188 ttoo 22002211,, tthhee eemmiissssiioonnss ooff CCHH4₄
+aanndd NN₂2OO frforomm wwasatsetwewataetre trretraetamtmenetn ptlapnlat nBt hBavhea vsheoswhonw a nyeaaryleya urlpywuaprdw tarredndtr.e Tnhde. toTthael
+gtorteaelnghroeuenseh oguasse egmasisesmioinsssi ocnaussceadu sbeyd bpyolpluotlaluntta nretmreomvoavl a(lC(OCDO Danadn dTTNN) )aatt wwaasstteewwaatteerr
+ttrreeaattmmeenntt ppllaanntt BB iinnccrreeaasseeddf rfroomm1 1,0,06600,1,18800.4.242k gkgC COO2-₂e-qeqin in2 0210818to to2, 824,804,308,378.971.9k1g kCgO C2O-e₂q-
+einq 2in0 2210,2r1e, prerepsreensetinntginag gar gorwowththra rtaeteo fo1f 6176.79.29%2%..T Thhees siittuuaattiioonn rreeggaarrddiinngg ggrreeeennhhoouussee ggaass
+eemmiissssiioonn rreedduuccttiioonn iiss qquuiittee sseevveerree..
+TThhee rraattiioo ooff NN2₂OO eemmiissssiioonnss rreessuullttiinngg ffrroomm TTNN rreemmoovvaall ttoo CCHH4₄ eemmiissssiioonnss rreessuullttiinngg
+ffrroomm CCOODD rreemmoovvaall dduurriinngg tthhee ttrreeaattmmeenntt pprroocceessss ooff wwaasstteewwaatteerr ttrreeaattmmeenntt ppllaanntt BB ffrroomm
+22001188 ttoo 22002211 wwaass aannaallyyzzeedd,, aanndd tthhee rreessuullttss aarree pprreesseenntteedd iinn FFiigguurree 77..

@@ -1,0 +1,611 @@
+--- Page 1 ---
+Water Research X 30 (2026) 100480
+Contents lists available at ScienceDirect
+Water Research X
+journal homepage: www.sciencedirect.com/journal/water-research-x
+Methane emissions monitoring at wastewater treatment plants in Europe
+and Australia
+P de Jonga, B Srinamasivayamb,*, A Harrisonb, P Wardropa, M Rebsdorfc , S Thorgaardc ,
+P Valeb
+aMelbourne Water, Docklands, VIC, Australia
+bSevern Trent Water, Coventry, CV1 2LZ, United Kingdom
+cAarhus Vand, Hasselager All´e 29, 34, DK-8260 Viby J, Denmark
+A R T I C L E I N F O A B S T R A C T
+Keywords: Methane (CH₄) emissions from wastewater treatment plants (WWTPs) represent a significant greenhouse gas
+Methane (GHG) source, challenging utilities aiming for net-zero carbon goals. The majority of the non-biogenic, direct
+CH4 (Scope 1) wastewater treatment plant emissions originate from i) nitrous oxide from the secondary wastewater
+Process emissions
+treatment, and ii) CH4 from the anaerobic degradation of wastewater and wastewater sludge. This study evaluates
+GHG mitigation
+the effectiveness and suitability of various emissions measurement technologies and methodologies for quantifying
+LDAR
+methane emissions from wastewater treatment processes using data from monitoring trials conducted across treatment
+Net-zero
+plants in Europe and Australia. The results provide a practical framework to guide utilities in selecting the most
+appropriate methods for monitoring and quantifying fugitive methane emissions from key sources such as open sludge
+storage, digesters, and sludge drying pans. . Findings across the 3 utilities indicate CH4 losses of 5 %–25 % of total
+CH4 production, with legacy assets like floating roof digesters contributing 245–2200 tCO₂e/year. At Melbourne
+Water’s Eastern Treatment Plant (ETP), measurement campaigns found that the open sludge drying pans were a
+major source of emissions and a mobile survey mapping campaign measured site-wide emissions of
+46,000–114,000 tCO₂e/year. Aarhus Vand’s Egå WWTP measured CH4 losses at ~7 % of total CH4 production,
+predominantly from vented sludge storage tanks. The study reviews advanced CH4 measurement technologies,
+analysing emissions from WWTPs with sludge treatment centres. Normalised emissions key performance in-
+dicators are proposed, with discussions on limitations and mitigation strategies. Recommendations include
+tailored measurement methods, immediate leak detection and repair, and long-term investments in asset up-
+grades and alternative sludge treatment technologies.
+Introduction emissions from aging infrastructure, such as leaks in floating roof di-
+gesters and valves, contribute significantly to overall emissions, under-
+As the global effort to combat climate change intensifies, the scoring the urgency of addressing these challenges. Previous studies on
+wastewater sector has become a focal point for reducing Greenhouse Gas measuring methane emissions from WWTPs have typically used generic
+(GHG) emissions. CH4, a potent GHG with a global warming potential emissions factors, models or focussed on specific measurement tech-
+significantly higher than carbon dioxide (28 times (Pachauri et al., niques (Parravicini et al., 2022). There are large uncertainties in the
+2014)), constitutes a major portion of Scope 1 emissions from waste- quantification of CH4 emissions from wastewater treatment plants
+water treatment plants (WWTPs). Wastewater treatment is the because emissions can vary substantially due to different treatment
+fifth-largest source of CH4 emissions worldwide and represents 7 - 9 % of processes, operational practices, control parameters and site-specific
+global anthropogenic CH4 emissions (Khabiri et al., 2022). These influent characteristics (Li et al., 2024). Kupper et al. (2018)describe
+emissions primarily arise from anaerobic digestion processes, open the results of field measurements conducted at two WWTPs in
+sludge storage, and sludge drying facilities. In addition, fugitive Switzerland using flux chamber measurements, total off-gas collection,
+* Corresponding author.
+E-mail addresses: Pieter.deJong@melbournewater.com.au (P. de Jong), Bharanitharan.Srinamasivayam@severntrent.co.uk (B. Srinamasivayam), Morten.
+rebsdorf@aarhusvand.dk(M. Rebsdorf).
+https://doi.org/10.1016/j.wroa.2025.100480
+Received 1 July 2025; Received in revised form 29 December 2025; Accepted 29 December 2025
+Available online 8 January 2026
+2589-9147/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-
+nc-nd/4.0/) .
+
+--- Page 2 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+and remote sensing techniques such as the tracer gas dispersion. Dael- Materials and methods
+man et al. (2013)measured methane and nitrous oxide emissions from a
+fully covered municipal wastewater treatment plant in the Netherlands. The following section reviews monitoring methods and techniques,
+Zhang et al. (2024)used flux chambers to measure methanogenic ac- most of which have been trialled by Aarhus Vand (AAV), Melbourne
+tivity and developed an activated sludge model to predict the growth of Water (MW), and Severn Trent (ST), including tuneable diode laser
+methanogens in the sludge. absorption spectroscopy (TDLAS), optical gas imaging (OGI), quantum
+Despite its critical importance, methane (CH₄) emissions from gas LiDAR, tracer gas, Eddy Covariance, flux chamber, inverse disper-
+wastewater treatment plants (WWTPs) remain significantly under- sion modelling (IDMM), and gas-sniffer technologies. The calculation
+reported and poorly quantified in the national emission inventories. approaches to measure the emission fluxes from individual unit pro-
+This is due to the inherent complexity of measuring an unconfined gas cesses all the way up to facility level are also presented.
+with a high level of variability in emission profiles, influenced by site- Fig. 1illustrates a generalised schematic of a wastewater treatment
+specific factors such as sludge characteristics, treatment technologies, plant (WWTP), capturing the core process components observed across
+and operational practices. CH₄ is released from multiple sources across a the facilities monitored in this study. The diagram incorporates both
+site, each with distinct emission profiles. For instance, open tanks stor- conventional and alternative treatment elements to provide a compre-
+ing digested sludge may continue to generate and release entrained hensive representation of CH₄ generating and emitting assets typically
+methane, resulting in diffuse, low-concentration emissions. In contrast, found in WWTPs. These include emission sources such as sludge storage
+point sources such as leaks in pipework and storage assets, or failures in tanks, anaerobic digester covers, biogas upgrading units, pressure relief
+equipment like flares and combined heat and power (CHP) engines, can valves, and open lagoons - each of which was a focus during the moni-
+produce concentrated plumes. The unpredictable nature and variability toring trials. While the diagram reflects common emission sources
+of these emissions pose a significant challenge to developing stand- identified by the NZP, it is important to acknowledge site-specific
+ardised monitoring methodologies and implementing effective mitiga- variability in CH₄ emissions based on process type and asset condi-
+tion strategies. tions. Therefore, a top-down/ broad scale assessment to identify emis-
+To address these challenges, Aarhus Vand (Denmark), Melbourne sion sources at each facility is recommended, followed by targeted
+Water (Australia), and Severn Trent (UK) have initiated a Net Zero monitoring to enable accurate quantification.
+Partnership (NZP). This partnership is designed to bring together Table 1summarises the measurement techniques employed for both
+extensive experience and resources from diverse operational contexts to broad scale and targeted monitoring, it provides a comparative over-
+explore and evaluate solutions to help achieve net carbon neutrality view of the techniques used to monitor CH4 emissions across the
+across our sites by 2030. Tackling CH4 emissions would be instrumental different facilities. These techniques were tailored to suit the specific
+in delivering this target. configurations and operational characteristics of each site, ensuring
+This paper presents a comprehensive review of advanced CH4 robust data collection and meaningful comparisons. Ideally mass emis-
+monitoring technologies tested by the NZP companies. These technol- sions (units in kg) are preferred as it can quantify actual emissions to air.
+ogies have been deployed to capture both point-source emissions from However, many of the technologies currently used are only able quantify
+leaks and vents, as well as diffuse emissions from broader site-wide emissions concentrations (ppm, mg/l etc.). Whilst still providing a
+activities. By integrating continuous monitoring systems with targeted valuable insight into site emissions (e.g. locating leaks to aid with
+measurement campaigns, this study identifies critical emission hotspots LDAR), it cannot adequately support with emissions reporting or in-
+and provides actionable data for effective mitigation planning. The re- vestment planning.
+sults section provides a review of the state-of-the-art technologies in For a more in-depth exploration, Appendix 1 offers detailed de-
+methane monitoring, summary of measurement campaigns at each scriptions of the CH4 measurement techniques deployed in the study.
+water authority, and summary of emissions reporting based on emis- This includes descriptions of technologies such as quantum gas LiDAR,
+sions factors. The Discussion section covers reflections on our learnings, tracer gas dispersion, and optical gas imaging, as well as insights into the
+technology limitations, knowledge gaps, and potential mitigation application of these techniques at different types of WWTPs. By
+strategies. combining the generalised diagram, summary of measurement tech-
+In addition to presenting measurement approaches, this paper out- niques (Table 1below), and detailed appendices, the paper provides a
+lines a framework for emission reduction strategies tailored to site- holistic understanding of CH4 monitoring approaches, supporting the
+specific conditions. Short-term measures such as leak detection and development of effective emission mitigation strategies (Tables 2–4).
+repair (LDAR) are essential for addressing immediate emission sources,
+while long-term strategies focus on asset upgrades and transitioning to Results
+advanced sludge treatment technologies. The results highlight the po-
+tential of combining low-cost, rapidly deployable measurement tools This section presents the outcomes from the monitoring trials and
+with state-of-the-art systems for sustained CH4 monitoring and implementation of CH₄ monitoring technologies across multiple waste-
+reduction. water treatment plants (WWTPs). As large-scale monitoring efforts
+Through these efforts, this study aims to bridge the gap between continue to evolve, these findings highlight the practical challenges,
+emission reporting and reality, offering utilities valuable insight to performance insights, and comparative effectiveness of various tech-
+support with planning and achieving their net-zero route map. The niques trialled by the NZP. By sharing these learnings, the study aims to
+findings underscore the critical importance of balancing environmental support the development of tailored monitoring approaches, enabling
+responsibility with operational efficiency and financial viability, other operators to enhance methane quantification and mitigation
+enabling the wastewater treatment sector to contribute meaningfully to strategies - ultimately contributing to sector-wide progress toward
+global climate goals. decarbonisation. The obtained results are divided into three sections.
+Disclaimer: Working with CH4 can pose significant safety risks,
+including potential hazards related to explosive atmospheres (ATEX). Always 1. Qualitatively Comparison of Monitoring Methods
+adhere to applicable safety regulations, follow the guidelines provided by your 2. Results of Measuring campaigns
+technology provider, and exercise proper caution and common sense when 3. Results of emissions reporting based on emission factors
+handling CH4.
+2
+
+--- Page 3 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Fig. 1. Generalised diagram of a WWTP showing common CH4 emitting assets. This is a visual guide based on several measurement campaigns at multiple NZP sites;
+however, emission levels will also depend on asset operation, age and condition.
+Qualitatively comparison of monitoring methods Development of a facility level baseline is essential to achieve a
+better understanding of the system performance and provide context for
+Selecting the appropriate methods for CH₄ emission monitoring is interpreting CH4 emissions. This would enable improvements in both
+critical to achieving your goals efficiently. The choice of techniques short-term maintenance activities as well as to help prioritise longer
+should be guided by the specific objectives, whether for detecting leaks, term investment strategies for effective mitigation. Key data to gather as
+quantifying emissions, or capturing long-term trends. Tools and mea- a starting point includes:
+surement techniques (detailed in Table 1) such as LiDAR campaigns,
+drone-based Tuneable Diode Laser Absorption Spectroscopy (TDLAS), or • Biogas Production and CH4 Concentration: Measuring biogas
+handheld Optical Gas Imaging (OGI) systems offer cost-effective and production and CH4 concentration is critical for assessing the effi-
+rapid deployment options, making them ideal for many applications. ciency of anaerobic digestion processes and identifying potential CH4
+However, there is no universal solution; selecting the right approach losses. This data serves as a benchmark for understanding how much
+requires balancing accuracy, complexity, and cost while aligning with CH4 is captured versus emitted and aids in optimising energy
+the desired outcomes (Figs. 2and 3). recovery.
+The radar plots below provide a comprehensive overview of the • Sludge Balance (COD and VS Conversion in Digesters): Moni-
+methods discussed earlier, introducing a systematic approach to toring the balance of chemical oxygen demand (COD) and total
+selecting suitable techniques based on key evaluation criteria. Each volatile solids (VS) conversion in digesters is crucial for evaluating
+criterion is rated on a scale where 0 represents the lowest suitability and anaerobic digestion efficiency. Combined with biogas CH4 produc-
+5 the highest: tion data, COD mass balances can provide insight into CH4 capture
+efficiency and potential emissions. Discrepancies between expected
+• Affordability – Relative cost comparison at the time of testing and actual CH4 recovery can indicate leaks or inefficiencies, helping
+Scale: 0 =very expensive; 5 =low cost identify emission sources.
+• Ease of implementation at operational sites (factors in process
+disruption, resource requirement) Having this baseline data is important because it informs emission
+Scale: 0 = very difficult (e.g. interferes with operations/ requires trending, models, supports decision-making for mitigation technology
+specialist resource); 5 =very easy (enables non-intrusive monitoring) selection, and allows for effective tracking of emission reduction efforts
+• Leak detection suitability for leak detection and repair (LDAR) over time. Without accurate initial data, it becomes challenging to
+Scale: 0 = no leak detection capability; 5 = highly suited for leak quantify CH4 emissions accurately, evaluate mitigation measures, or
+detection validate the success of implemented strategies.
+• Quantification at asset level
+Scale: 0 =no quantification; 5 =provides reliable asset baseline Results of measurements campaigns
+• Quantification at site level
+Scale: 0 =no quantification; 5 =provides reliable site level baseline The following section summarises direct measurement campaigns
+• Ability to capture long-term trends (e.g. seasonal variation) and CH4 monitoring projects conducted at Aarhus Vand, Melbourne
+Scale: 0 =snapshot only; 5 =long-term trends captured Water, and Severn Trent to quantify CH4 emissions.
+• Certainty of flux or mass emissions estimates
+Scale: 0 =low certainty; 5 =high certainty
+3
+
+--- Page 4 ---
+P.
+de
+Table 1
+Jong
+Techniques to measure CH4. AAV is Aarhus Vand, Denmark; MW is Melbourne Water, Australia; ST is Severn Trent, United Kingdom (Fredenslund et al., 2023; UKWIR 2023; Mønster et al., 2019; Ricardo 2017; Titchener
+et al., 2022; GHG Emissions Monitoring and Assessment: Chapter 6 Equipment/Instrumentation Selection 2023). et
+al.
+Equipment / Description Best suited Advantages & Limitations Intrusive Quantifies CH4 CH4 limit Flux Continuous or Trialled
+Measurement Application (e.g. Benefits or non- concentration or flux of calculation single by
+techniques point sources, intrusive detection basis measurements
+diffuse sources,
+site wide etc.)
+Handheld Optical Infrared gas imaging Point source Portable Quantification is limited, Non- Quantification is ≈5 ppm N/A Single AAV, ST
+Gas Imaging camera more suited for LDAR intrusive limited, more suited measurement
+(OGI) for LDAR
+Sniffer/ Hi-Flow Infrared gas detection Point source Portable Only good for leak Non- Concentration ≈5 ppm N/A Handheld AAV,
+Sampler detection intrusive MW
+OP-FTIR Fourier transform infrared Individual area Can measure other Cannot pinpoint location Non- Concentration/ Flux <1 ppm or Mass balance Continuous MW
+spectroscopy (FTIR) emissions and compounds and of emissions. May require intrusive 20 ppm*m or inverse
+asset wide with cover wide area external IR source dispersion
+additional IR modelling
+sources
+Pitot tube Flame ionisation detectors Exhaust stacks or Low uncertainty Cannot be used for leaks or Intrusive Flux ​ Mass balance Continuous AAV,
+or photoacoustic gas ventilation shafts diffuse emissions sources MW
+analysers only
+Analyse CH4 Headspace sampling of Diffuse liquid Can validate other Only good for liquid Intrusive No 0.01 mg/L N/A Single MW
+concentration in dissolved CH4 sources only techniques sources measurements
+liquid phase
+Closed surface flux Hoods have built in sensors Diffuse liquid Low uncertainty Hoods can impact the rate Intrusive Flux ​ Mass balance Continuous MW, ST
+chambers/ hoods sources only with multiple hood of emissions because they
+deployment reduce the emissions that
+result from convection
+4
+Open surface flux Hoods are combined with a Ideal for aeration Low uncertainty If several hoods are needed Intrusive Flux 0.3 ppm Mass balance Continuous MW
+chambers/hoods gas analyser tanks with multiple hood the method is time and
+deployment labour intensive
+Mobile surveying Cavity ring-down or Asset wide Vehicle based Very high uncertainty. Non- Concentration/ Flux 0.001ppm Pasquil/ Measurements MW
+portable flame ionization (including diffuse which means the Susceptible to interfering intrusive (only if good wind Gaussian only during
+detector sources) or site instrument is emissions sources and measurements are analyses survey period
+wide emissions portable requires consistent also completed)
+weather conditions
+Tracer gas Uses a continuous release Asset wide Low uncertainty Susceptible to interfering Non- Flux ​ Mass balance Measurements AAV,
+dispersion method of a gaseous tracer at the (including diffuse emissions sources and intrusive and ratio of only during of MW
+(e.g. acetylene, facility, combined with sources) or site requires consistent gases tracer gas
+C2H2) downwind measurements wide emissions weather conditions
+using a mobile gas analyser
+Eddy covariance Measures the turbulent Asset wide, but Good in flat terrain Dependent on wind Non- Flux ​ Inverse Continuous ​
+transfer of gases between requires uniform and can be done conditions. Difficult to intrusive dispersion
+the ground surface and the emissions (e.g. over long periods. apply in variable modelling
+atmosphere diffuse sources) topography and with
+interfering CH4 sources
+Radial plume Uses open-path tuneable Asset wide, but Good in flat terrain Is limited to measuring Non- Flux 0.1 ppm Inverse Continuous MW, ST W
+mapping using diode laser absorption requires uniform and can be done only one dimension and intrusive dispersion a
+one or more lasers spectroscopy (TDLAS) emissions (e.g. over long periods. relies on a relatively stable modelling t e r
+R
+Intensity-modulated and continuous-wave mirrors Uses diode open-path laser absorption tuneable diffuse Asset (including wide sources) diffuse use wavelengths multiple to wind Relies stable direction wind on a relatively direction and Non- intrusive Flux 0.1 ppm Inverse dispersion Continuous ​ e s e a r c h
+X
+laser absorption spectroscopy (TDLAS) sources) and site measure different difficult to apply in modelling 30
+spectroscopy wide GHGs over two variable topography (2026)
+dimensions
+(continued on next page)
+100480
+
+--- Page 5 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Table 2
+dellairT TS Monitoring work carried out at Aarhus Vand facilities.
+,WMsuounitnoCecnalab
+yb Monitoring deployment Learnings
+​ ​suounitnoCecnalab
+LDAR using Gas sniffer A simple handheld gas-sniffer (GMI Gasurveyor 700) is
+thgifl
+used for monthly checking of the biogas-systems on the
+ro stnemerusaem stnemerusaeM four WWTPs as “self-control” for internal audit reports.
+suounitnoC gnirud
+Measurements are point measurements which gives an
+indication of the concentration at the exact time of the
+elgnis
+ylno measurement but not quantity.
+CH4 flux is hard to assess from e.g. valves, pipes etc.
+From ventilation channels a flux can be calculated when
+ecnalab having the ventilator specs and a concentration. But it
+noitaluclac -esrevni noisrepsid gnilledom will only be random samples.
+Tracer gas dispersion The tracer gas dispersion method was used to estimate
+xulF sisab ssaMmpp ssaMmpp ssaMm*mpp method (TDM) total plant emissions. A continuous release of a gaseous
+roevisurtni tracer combined with downwind measurements of
+atmospheric concentrations of CH4 and tracer gas.
+Screening ambient concentrations of CH4 in the
+timil noitceted
+surrounding areas is necessary to ensure that any
+4HC fo 1.0xulF 50.0xulF 01xulF interfering taken into consideration. emissions sources not from the plant are
+Measurements were obtained over 1–2 h, which gave an
+xufl indication of the plant’s total emissions at that specific
+time in relation to the gas production.
+4HC ro The method was very sensitive to wind directions and
+noitartnecnoc weather conditions as well as access to surrounding
+sefiitnauQ roads for traversing the plume.
+External audit CH4- The Danish Energy Agency requires audits which is
+leakage conducted by an external third party (Lundsby biogas).
+The monitoring campaign utilised the following
+equipment:
+evisurtnI evisurtni evisurtni evisurtni FLIR Gas-camera
+-non GMI Gassurveyor 700
+-noN -noN -noN
+Leakage spray
+ro
+The audit is used to assess minor and major leaks, incl.
+acceptable time frame for fixing the identified leaks.
+nac mret-trohs ,sngiapmac .evisnepxe .evisnepxe Main findings documented in an external audit-report.
+srosnes srosnes
+dna snoitairav wol esuffid wol esuffid Measurements are spot/point measurements which
+egnar derutpac snoissime rof snoissime rof gives an indication concentration at the exact time of
+snoitatimiL thgifl timiL rof desu eb ylno tnemerusaem laropmet eb tonnacsexufl ediw etiS elpitlum eriuqer ti sekam hcihw esu ot tlucfifiDsnrettap noitartnecnoc snoissime ediw etiS elpitlum eriuqer ti sekam hcihw esu ot tlucfifiDnoitazilacol noitartnecnoc snoissime Aarhus Vand – Danish water the measurement utility experience but not quantity.
+os
+Data on fugitive CH4 emissions from Aarhus Vand are scarce. As a
+yfitnedi dna part of the GHG reporting, the CH4 emissions from AD´s is set to 1.3 % of
+snoissime snoissime deliated noitamrofni fo /kael dna the CH4 production according to Danish reporting standards (Nielsen
+&
+segatnavdA ylkciuq dna noitazilausivsnoissime sag noitazilausivsnoissime)CPSCT( et al., 2023).
+stfieneB cfiiceps ,secruossthgifl yfitnauqenord sedivorP noissimederusaem sedivorP D3 Two tests of approximately one hour, using the Tracer Gas Dispersion
+emulp
+method, revealed CH4 emissions from Egå WWTP at approximately 7 %
+naC D3
+of the CH4 production. This finding corresponds well with the survey on
+Danish biogas plants (Fredenslund et al., 2023) where leakage from
+.g.e( ,secruos ,secruos ).cte dna htiw dna aera dna aera biogas plants at WWTP´s is reported to reach an average value of 6.7 %.
+The main emission points are an exhaust-vent from a covered sludge
+detius noitacilppA ,ediw ediw laudividni ediw laudividni
+ediw ediw elpitlum)SALDT( storage tank and from the scum-overflow system on the AD. Attempts
+esuffid
+tseB tniop etis tessA etis tessA tessA were made to further quantify the emissions from the point sources,
+however the results remain inconclusive. A link between sludge level in
+the sludge storage tank and CH4 emission was suspected and confirmed
+evoba trap detalerroc
+elbaenut noitprosba eht derettacskcab noitceted by measuring Annual external CH4 flux audits at varying are used sludge to assess levels. minor and major leaks,
+morf
+otni including confirming acceptable timeframes for fixing the identified
+htap-nepo ypocsortceps tohs ro emit notohp leaks. The main findings are documented in an external audit-report
+noitpircseD resal erehpsomta dna annually, which is then approved by the Danish Energy Agency (DEA).
+si
+sesU edoid resal eht dna)LAID( SALDTRADiL elgnis In are August requested 2024 to the submit DEA a updated mitigation an obligation plan regarding where leakages the Danish specifically utilities
+A si
+from sludge storage tanks.
+)deunitnoc( RADiL
+tfarcria
+stnemerusaem
+/ tnemerusaeM noitprosba saG Melbourne water – Australian water utility experience
+tnempiuqE seuqinhcet na laitnereffiD
+mutnauQ
+1 laireA gnisu At Melbourne Water’s Eastern Treatment Plant (ETP) a long-term
+elbaT ro
+open path laser absorption spectroscopy campaign on 1 open sludge
+drying pan found that it emitted approximately 32 tonnes of CH₄ over a
+5
+
+--- Page 6 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Table 3 Table 4
+Monitoring work carried out at Melbourne water facilities. Monitoring work carried out at Severn Trent Water facilities.
+Monitoring deployment Learning Monitoring deployment Learnings
+Sludge Drying Pan CH4 Emission This study utilised two open-path lasers LDAR using drone mounted Drone-Based Tuneable Diode Laser Absorption
+Measurement at ETP (Gasfinder 2.0, Boreal Laser Inc., TDLAS and OGI Spectroscopy (TDLAS) Sensor (DJI U10) and
+Edmonton, Canada) to measure CH4 Handheld OGI (FLIR GF77) for Leakage
+concentrations of an open-air sludge Detection and Repair (LDAR)
+drying pan (SDP) at ETP. The Inverse Since December 2020, Severn Trent has been
+Dispersion Modelling (IDM) technique using drone-based TDLAS sensors (DJI U10)
+was then used to quantify CH4 emissions and handheld OGI (FLIR GF77) for leakage
+from the SDP over an entire drying cycle detection and repair (LDAR).
+(90 weeks). Additionally, an open-path LDAR using drone-based TDLAS and handheld
+Fourier transform infrared spectroscopy OGI helps locate sources of emissions easily,
+(OP-FTIR) sensor was used to measure gas enabling faster repairs. This approach is a good
+concentrations of CH4, N2O, NH3, and option for CH4 reductions due to its low cost,
+CO2 from a sludge drying pan (SDP). ease of entry, and quick deployment. However,
+CH4 Emission Scoping study at ETP Three different CH4 measurement multiple flights may be needed to pinpoint
+techniques were trialled including: In line some leaks, and the inability to quantify the
+CH4 measurement from odour treatment volume of gas loss makes it difficult to use the
+stacks; CH4 flux measurements around the data to prioritise longer-term investments or
+entire site (ground mobile surveying track the benefits of fixing issues. The nature of
+method); A tracer release validated CH4 a campaign also means that fugitive or
+flux estimation over one night across temperamental emissions could easily be
+southern drying pan area (several missed (see more in the LiDAR section).
+downwind measurements taken). Long term monitoring via inverse Twelve metal oxide sensors and a weather
+Satellite Monitoring Observations over Melbourne Water engaged GHGSat to dispersion modelling station were installed around the Minworth
+ETP and WTP by GHGSat conduct one-time CH4 emissions cake pad, positioned 2 m above ground level.
+monitoring over ETP and WTP, using the These sensors sampled ambient CH4
+satellite DATA.SAT product. According to concentrations at 1-minute intervals
+the report, over the duration of the project continuously for a year, from February 2021 to
+carried out by GHGSat on the Melbourne December 2022.
+Water sites, no emissions were detected. The inverse dispersion modelling, carried out
+In discussions with GHGSat it was using the data from these ground-based
+concluded that the emissions were below sensors, proved useful in profiling and
+the sensitivity limit of the technology. establishing clear diurnal and seasonal trends
+CH4 emissions from Pond 1 E55 Lagoon Melbourne Water to conduct a survey to in continuous emissions from the cake pad
+at WTP monitor CH4 emissions from Pond 1 storing digested, dewatered sludge.
+Lagoon E55 at WTP in 2013. To measure However, our experience indicates that these
+CH4 concentration in air a Thermo types of systems are not well-suited for
+TVA1000B intrinsically safe portable monitoring tall, heavily built areas or tall
+flame ionization detector (FID) was used. assets. The model assumptions may not hold
+The detector was deployed on a vehicle true when wind and gases are channelled
+for land-based measurements and on a through built-up areas of the site. Conversely,
+boat for measurements over Pond 1. an open tanks or storage areas are easier to
+160S NRP GHG Monitoring Project Gas collection hoods were used for long- model due to the absence of such complexities.
+term gas phase on-line monitoring of Because of wind channelling, it is also
+fugitive nitrous oxide and CH4 emissions challenging to pinpoint point emission sources
+at a step-fed activated sludge treatment from complex sites, making these types of
+plant with four anoxic and four aerobic sensors ineffective for LDAR. Approximate
+passes, treating effluent from an emissions sources can still be estimated using
+anaerobic lagoon at WTP. inverse dispersion modelling, emissions
+Quantum gas LiDAR trial at ETP Melbourne Water trialled a quantum gas occurring at height (such as from PRVs,
+digester area (QLM Technology) LiDAR for 6 weeks at ETP. The digester roofs, and flares) may be missed when
+preliminary estimate indicated that the monitors are placed at ground level.
+total average emissions leaking from the Short term (campaigns) via Survey carried out in two separate days of
+floating roof seals of the digesters is inverse dispersion modelling. measurement of sludge treatment facility
+approximately 3–5 % of CH4 production, IDMM utilised gas analyser and emissions on two days. The pathogen kill tanks
+which is equivalent to approximately an inverse dispersion model were identified as key contributor to the site’s
+15,000 tCO2e per year. Some minor total emissions. However high levels of
+intermittent CH4 emissions were also variations observed across the two campaigns
+detected from the waste gas burners, and (even though they were monitored at the same
+odour control facility, while other stage in the process) likely due to seasonal
+facilities (including the power station differences and environmental conditions such
+exhausts, boiler exhausts, primary as wind speeds and direction on the day.
+sedimentation tanks, and dehumidifier In situ measurements taken by measuring
+area) showed zero detectable emissions. concentrations of CH4 gas above the tanks
+Measurement of CH4 Emissions from 25 The University of Melbourne conducted a indicated CH4 emissions rising throughout the
+W Pond1 at WTP (University of collaborative study to measure CH4 fill phase, peaking towards the end and then
+Melbourne) emissions from 25 W Pond 1 at Melbourne gradually decreasing through the retain and
+Water’s Western Treatment Plant using decant phases. Higher CH4 concentrations were
+Inverse-Dispersion Modelling (IDM) observed when volatile solids concentrations
+coupled with open path laser entering the pathogen kill tank were higher.
+spectroscopy techniques. The summer Fugitive emissions monitoring QLM LiDAR utilises a combination of TDLAS,
+monitoring campaign was conducted over using LiDAR Differential Absorption LiDAR (DIAL), and
+5 weeks while the winter campaign was Time Correlated Single Photon Counting
+conducted over 7 weeks. (TCSPC) to scan gas plumes and measure the
+amount of CH4 within them.
+(continued on next page)
+6
+
+--- Page 7 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Table 4 (continued) variations between reported and measured emissions arise from the
+relevant immaturity in the science at the time that the current as-
+Monitoring deployment Learnings
+sumptions in the emission reporting calculation methods under the
+LiDAR is a new technology that provides
+NGER (Measurement) Determination 2008 were set out in the National
+continuous monitoring capabilities on sites,
+helping to locate and track sources of fugitive Greenhouse and Energy Reporting Regulations 2008. As the wastewater
+emissions. External validation of the sector’s understanding of actual emissions evolves, it is anticipated that
+technology and quantification methodology at emission reporting methods and calculations will need to be updated to
+METEC offers additional reassurance that the enable reported emissions to more closely match measured real emis-
+measured leak rates and quantities are accurate
+sions. Until this occurs, it is anticipated that emissions measurement
+when using a long-term average. These systems
+have proven valuable for LiDAR, helping us research will continue, to ensure that adaptive plans focus on real
+identify several intermittent leaks that were emissions reductions. In future, methane emissions factors for specific
+missed during previous campaigns. The long- wastewater treatment facilities such as digesters and treatment ponds
+term data also enables bottom-up accounting of
+might be revised higher in line with research and published literature,
+site emissions, although several assumptions
+need to be made during this estimation process. but there could also be exceptions due to differences in wastewater
+There are some limitations as well. Line of sight treatment processes and operational practises.
+is required to detect and quantify emissions,
+which can be overcome by using multiple Severn Trent – United Kingdom water utility experience
+cameras to cover different angles of view.
+Alternatively, installing the system at height
+can improve coverage even with fewer Severn Trent have implemented a comprehensive programme of
+cameras. LDAR (Leak Detection and Repair) using gas sniffers, OGI cameras, or
+drone-mounted sensors. This has proven to be a successful strategy in
+enabling significant emission reductions whist also enhancing site
+90-week cycle (Bai et al., 2023). During the first 52 weeks (which is now
+safety. This approach can be rapidly deployed and is straightforward to
+the average sludge drying cycle period) the measured cumulative
+implement. However, accurately quantifying site-level emissions re-
+emissions totalled 29 tonnes of CH4, which corresponds to ~41,400
+mains complex due to the mixture of continuous and intermittent point
+tCO₂e/year for all 51 pans. The findings from the Sludge Drying Pan CH4
+source emissions and likely seasonal variability in emissions from
+Emission Measurement project at ETP showed that on average the
+digestate storage tanks. A combination of continuous monitoring and
+measured emissions were reasonably close to the emissions reporting
+targeted campaigns is recommended to capture a comprehensive emis-
+data which used National Greenhouse and Energy Reporting (NGER)
+sion profile, although practical constraints and the required level of
+(National Greenhouse and Energy Reporting Scheme 2025) generic
+accuracy must be considered when selecting the appropriate technology
+emission factors (based on IPCC methodology) (Pachauri et al., 2014),
+mix.
+however, the measured emissions were much greater when sludge is first
+Preliminary data indicates that point source CH4 emissions are
+pumped into the pans and as the sludge dries the emissions rate grad-
+significantly lower than current UK industry standards (Carbon Ac-
+ually reduces. The tracer gas method extrapolated to all 51 sludge drying
+counting Workbook v17) suggest. It is worth noting that emission
+pans indicated emissions of 22,100–24,700 tCO₂e/year, however, the
+quantification followed multiple years of LDAR activity using the tech-
+method is not suitable for measuring temporal variation of emissions
+nologies mentioned above. Therefore, it is difficult to conclude if the
+that occur during an entire sludge drying cycle. The mobile survey
+findings would be typical of all AD facilities, and further long-term
+method conducted at the ETP estimated site-wide CH₄ emissions of 46,
+monitoring across multiple sites is necessary to confirm these findings.
+000–114,000 tCO₂e/year. While this method has large uncertainties, the
+As suspected, open tanks containing sludge are also key sources of
+reported emissions of 74,000 tCO₂e for the same year were within this
+CH4 emissions. It will be beneficial to consider asset optimisation stra-
+range. Preliminary data from the quantum gas LiDAR trial showed that
+tegies or covering to minimise emissions from these sources. Integrating
+there are significant fugitive emission (approximately 3–5 % of CH₄
+continuous monitoring for leaks with campaigns for open tank emis-
+production) coming from the floating roof seals of the digesters at ETP
+sions, validated by top-down methods like tracer gas studies, offers a
+and these emissions are not currently reported under the emissions
+promising approach for robust emission accounting.
+reporting guidelines. The laser absorption spectroscopy-based moni-
+toring completed by the University of Melbourne indicated that the
+Results of emissions reporting based on emission factors
+average real emissions from 25 W Pond 1 at WTP could be substantially
+higher than the emissions currently reported using the NGER emission
+Table 5 presents a condensed summary of the reported methane
+factors for that particular asset. In general, the preliminary results of
+emissions, based on emission factors (typically IPCC emission factors)
+measured emissions from specific assets such as digesters and treatment
+for different WWTP processes. Each country’s specific emissions
+ponds indicated that the real emissions are much higher than emissions
+reporting standards are outlined below.
+that are reported for these assets using the NGER Measurement Deter-
+Reporting standards for each country:
+mination generic emission factors. Generic emissions factors are typi-
+cally based on the IPCC guidelines and methodology. These results agree
+with findings from studies on CH₄ emissions from WWTPs in the US and • Denmark: Total plant emission based on CH4 production (Nielsen
+et al., 2023)
+Sweden which found that measured emissions were approximately 2
+• Australia: National Greenhouse and Energy Reporting (NGER)
+times IPCC/EPA estimates based on emission factors (Moore et al., 2023;
+Scheme (National Greenhouse and Energy Reporting Scheme 2025)
+Song et al., 2023; Gålfalk and Bastviken 2025).
+• United Kingdom: Total plant emissions based on treated sludge
+While emissions reporting follows the best practice interpretation of
+volumes and treatment technology (UK Water Industry Research
+the prescribed NGER methodology, some WWTP processes and atypical
+Carbon Accounting Workbook (CAW) 2025)+ literature factors
+assets are not adequately covered by the NGER guidelines because of
+(2024 reported baseline)
+gaps in the emissions reporting methodology. For these unique processes
+it is not possible to accurately report emissions based on emission factors
+The main findings show, not surprisingly, that CH4 emissions vary
+alone. Furthermore, emissions reporting derived from direct measure-
+significantly, particularly depending on the type of sludge treatment and
+ment of emissions is not specifically defined or even permitted for
+post-processing technique used. As shown in Table 5, open sludge drying
+wastewater handling under the present NGER principles. Therefore,
+pans emit substantially more CH4 compared to other drying
+7
+
+--- Page 8 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Fig. 2. Radar plots of monitoring technologies and techniques for site level monitoring (prioritising top down/ broad level assessment). The plot shows the NZP
+assessment of these technologies based on affordability, ease of implementation, leak detection for LDAR, long term trends captured, flux or mass emissions certainty.
+8
+
+--- Page 9 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Fig. 3. Radar plots of monitoring technologies and techniques for asset level monitoring (prioritising bottom up/ asset level assessment). The plot shows the NZP
+assessment of these technologies based on affordability, ease of implementation, leak detection for LDAR, long term trends captured, flux or mass emissions certainty.
+technologies. Older assets, which were originally designed with a focus noted that emissions from some of the forementioned assets (e.g. emis-
+on reducing solids mass rather than GHG emissions, are major contrib- sions from digesters with floating roofs and pressure relief valves) are
+utors to CH4 emissions. These assets include open sludge storage tanks, not reported under Australian or European reporting guidelines.
+anaerobic digesters (AD) with floating roofs, outdated valve technolo- There are two key performance indicators (KPIs) in Table 5which
+gies (such as hydraulic back pressure valves on ADs), and ATEX- enables the emissions from different WWTPs to be compared side-by-
+ventilated areas intended for explosion prevention. It should also be side regardless of each plants total annual influent flow or treatment
+9
+
+--- Page 10 ---
+P. de Jong et al. W a t e r R e s e a r c h X 30 (2026) 100480
+Table 5
+Key plant information and CH4 emissions reporting in relation to total COD influent and digester CH4 production. Further information about each WWTP can be found
+in Appendix 2. (1) The CH4 GWP used in this report is 28 ((Pachauri et al., 2014): IPCC 5th assessment report), (2) CH4 mass was converted to COD using the ratio: 1 g of
+COD equals 0.25 g of CH4, (3) Cumulative uncertainty assessment, (4) NGER scheme CH4 emissions reporting cumulative uncertainty (based on root-sum-of-squares
+method), however, emission measurement trials indicate that this uncertainty should be substantially higher.
+Utility, WWTP Aarhus Vand Egaa Melbourne Water Western Melbourne Water Eastern Severn Trent Water Minworth
+Treatment Plant (WTP) Treatment Plant (ETP)
+Size - Average Dry Weather Flow 86 485 350 450
+(ML/d)
+Serving Population Equivalent 0.1M 2.6M 2.2M 1.8M
++0.7 M from external sludge
+imports
+Wastewater treatment Primary, secondary and tertiary Activated sludge plant (ASP), Primary, secondary and Primary and secondary treatment
+description treatment. Plug-flow Activated diffused aeration lagoons and tertiary treatment. Activated activated sludge plant (Bio P
+sludge plant, bio-P (ASP) facultative lagoons sludge plant (ASP) configuration).
+Sludge treatment description Mesophilic anaerobic digestion, Sludge dredged from lagoons Mesophilic anaerobic Mesophilic anaerobic Digestion
+mechanical dewatering sent to open air sludge drying digestion and open-air sludge (THP +Conventional) and
+pans drying pans mechanical dewatering
+Total plant influent loading (t 4499 187,231 121,697 75,686
+COD/year)
+Total digester CH4 production 736 21,253 10,481 13,711
+(tCH4 captured/year)
+Total reported CH4 emissions 680 46,663 57,885 33,800
+from Sludge treatment (tCO2e/
+year) (1)
+Total reported CH4 emissions 340 85,910 16,679 N/A - as not covered by the UK
+from Liquid (wastewater) reporting methodology
+treatment (tCO2e/year)
+Total CH4 (treatment process) 1020 132,573 74,564 33,800
+emissions (tCO2e/year)
+Load normalised CH4 emissions (t 0.23 0.71 0.61 0.45
+CO2e/t COD influent)
+CH4 emission COD (2) / plant 3.2 10.1 8.8 6.4
+influent COD (%)
+Total CH4 emissions/ digester 5 % 22 % 25 % 9 %
+CH4 production (%)
+Data year 2023/2024 2022/2023 2022/2023 2023/2024
+Estimated uncertainty ±20–30 % (3) ±7–8 % (4) ±6–7 % (4) ±20–30 % (3)
+method. The first KPI is the Total CH4 emissions (tCO2e/year) / Total discrepancy between measured emissions and reporting based on
+COD influent (t/year) which enables a comparison of the total process emission factors.
+emissions from each treatment plant independent of their annual total Sewage wastewater treatment acts as a “societal liver”, serving the
+COD influent. The second KPI is total annual CH4 emissions / total public through recycling much of society’s liquid waste residues while
+annual digester CH4 production (%) which enables a comparison of the minimising environmental impacts. Utilities face increasing pressure to
+different treatment plants in terms of their total process emissions as a deliver these essential services with the lowest possible climate foot-
+percentage of CH4 digester production. It can be observed that both print, especially given the high variability in GHG emissions, particu-
+Melbourne Water’s ETP and WTP have substantially higher emissions as larly CH4. Depending on the age and condition of assets, utilities must
+a percentage of digester CH4 production compared to the European navigate difficult choices to achieve climate-friendly performance while
+plants in Table 5, because of the emissions from the sludge drying pans. maintaining operational efficiency.
+In addition, WTP has substantial emissions from its diffused aeration The phrase you can’t manage what you can’t measure is at present
+lagoons and facultative lagoons. As a result, reported emissions of CH4 holds true in the world of carbon reduction. It is possible to develop best
+make up 25 % of digester CH4 production. practices that could help reduce emissions without needing to monitor
+assets. However, developing those best practices, assessing compliance
+Discussion and curtailing risk of ‘green washing’ often needs a robust monitoring
+program.
+Reported CH4 emissions based on emission factors in Table 5ranged This study demonstrates the importance of robust CH4 emission
+from 0.23–0.71 g CO2e/g COD, depending on the type of WWTP. monitoring program, aiming to outline learnings from the partnership to
+Considering the lower end of this range, these results are in line with the help guide others embarking on a journey to net-zero emissions. Effec-
+findings from Moore et al. (Moore et al., 2023) who concluded that tive CH4 monitoring not only reduces GHG emissions but also provides
+methane emissions are underestimated by a magnitude of 1.5–2.4 times co benefits such as improving site safety by identifying potential ex-
+in US wastewater treatment. Actual emissions are reported in a range of plosion risks and may also help improve production by providing
+3.3–3.8 ×10–2 g CH4/g BOD (depending on plant size and type), which valuable process/asset insights uncovering operational inefficiencies.
+corresponds to approx. 0.5 g CO2e/ g COD (considering a COD/BOD
+ratio of 2 of incoming wastewater and GWP(CH4) of 28 g CO2e/g CH4).
+As an example, Egaa WWTP, based on, losses 5 % (Table 5) of the CH4 The role of measurement in the path to net-zero
+production compared to an average of 7 % methane loss on average in
+Danish Biogas plants (Fredenslund et al., 2023), based on measure- Advanced monitoring technologies, such as quantum gas LiDAR,
+ments, resulting in this example to an underestimation in magnitude of tracer gas dispersion, and optical gas imaging, have enabled more pre-
+1,4 times. This example underlines the crucial need of better and more cise emission profiling, from single assets to site-wide surveys. Any of
+accurate monitoring of methane losses from WWTP´s to highlight the these methods provides valuable insights from operations that can drive
+action towards improving site performance in emissions, safety as well
+10

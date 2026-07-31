@@ -1,0 +1,809 @@
+--- Page 1 ---
+Critical Reviews in Biotechnology
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/ibty20
+Bioelimination of low methane concentrations
+emitted from wastewater treatment plants: a
+review
+Bahman Khabiri, Milad Ferdowsi, Gerardo Buelna, J. Peter Jones & Michèle
+Heitz
+To cite this article: Bahman Khabiri, Milad Ferdowsi, Gerardo Buelna, J. Peter Jones & Michèle
+Heitz (2021): Bioelimination of low methane concentrations emitted from wastewater treatment
+plants: a review, Critical Reviews in Biotechnology, DOI: 10.1080/07388551.2021.1940830
+To link to this article: https://doi.org/10.1080/07388551.2021.1940830
+Published online: 14 Jul 2021.
+Submit your article to this journal
+Article views: 59
+View related articles
+View Crossmark data
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ibty20
+
+--- Page 2 ---
+CRITICALREVIEWSINBIOTECHNOLOGY
+https://doi.org/10.1080/07388551.2021.1940830
+REVIEW ARTICLE
+Bioelimination of low methane concentrations emitted from wastewater
+treatment plants: a review
+Bahman Khabiri , Milad Ferdowsi , Gerardo Buelna , J. Peter Jones and Mich(cid:1)ele Heitz
+Department ofChemical EngineeringandBiotechnological Engineering,Faculty of Engineering,Universit(cid:3)e deSherbrooke,
+Sherbrooke, Canada
+ABSTRACT ARTICLEHISTORY
+Sewage from residents and industries is collected and transported to wastewater treatment Received16July2020
+plants (WWTPs) with sewer networks. The operation of WWTPs results in emissions of green- Revised18April2021
+house gases, such as methane (CH ), mostly due to sludge anaerobic digestion. Amounts of Accepted7May2021
+4
+emissions depend on the source of influent, i.e. municipal and industrial wastewater as well as
+KEYWORDS
+sewer systems (gravity and rising). Wastewater is the fifth-largest source of anthropogenic CH
+4 Globalwarming;
+emissions in the world and represents 7–9% of total global CH emissions into the atmosphere.
+4 greenhousegas;wastegas;
+GlobalwastewaterCH 4 emissiongrew byapproximately20%from 2005 to2020 andis expected wastewater;biological
+to grow by 8% between 2020 and 2030, which makes wastewater an important CH 4 emitter treatment;biofilter;
+worldwide. This review initially considers the emission of CH 4 from WWTPs and sewer networks. biotricklingfilter;two-liquid
+In the second part, biotechniques available for biodegradation of low CH concentrations (<5% phasebioreactor;
+4
+v/v) encountered in WWTPs have been studied. The paper reviews major bioreactor configura- methane;sewage
+tions for the treatment of polluted air, i.e. biotrickling filters, bioscrubbers, two-liquid phase bio-
+reactors, biofilters, and hybrid reactor configurations, after which it focuses on CH biofiltration
+4
+systems. Biofiltration represents a simple and efficient approach to bio-oxidize CH in waste
+4
+gases from WWTPs. Major factors influencing a biofilter’s performance along with knowledge
+gapsinrelationtoitsapplicationfortreatinggaseousemissionsfromWWTPsarediscussed.
+Introduction annually [6]. A massive annual increase of 8ppbv
+between 2007 and 2010 led to a CH atmospheric con-
+In order to keep the global earth temperature increase 4
+less than 2(cid:1)C between the years 1800 and 2100, a glo- centration of 1800ppbv. In 2019, the highest concen-
+tration of CH in the atmosphere over the past 800,000
+bal consensus of the United Nations Framework 4
+yearswasobserved,i.e.1866ppbv[7].AtmosphericCH
+Convention on Climate Change (UNFCCC), i.e. France 4
+concentration continues to rise rapidly. Global
+COP21 (2015), Morocco COP22 (2016), Germany COP23
+anthropogenic CH emissions in 2020 are estimated to
+(2017), Poland COP24 (2018) and Spain COP25 (2019), 4
+be 9.4(cid:3)109 tonnes and will increase to 10.2(cid:3)109
+aimed toreduce greenhouse gas (GHG)production and
+tonnes (CO equivalent) by 2030 (9% more than 2020).
+its release into the environment [1,2]. Methane (CH ), a 2
+4
+Approximately, 54% of these emissions will come from:
+colorless and odorless gas, is an important GHG that
+agriculture (mostly manure management), coal mines,
+leads to global warming and climate change. Wetlands,
+oceans, and plant degradation as natural CH emitting municipalsolidwastes(MSW),naturalgasrefineriesand
+4
+sources account for 40% of the total CH annual world- WWTPs [4,8]. According to the World Meteorological
+4
+wide emissions [3]. Anthropogenic CH is produced by Organization (WMO), because of the forced confine-
+4
+the energy sectors: natural gas refineries, landfills, mentinearly2020duetotheCOVID-19pandemic,CO 2
+wastewater treatment plants (WWTPs), sewer networks emissions might have fallen by 17%, but almost no
+(SNWs), livestock, coal mines and agriculture. Each CH 4 change was observed in CO 2 atmospheric concentra-
+moleculehas28–34timestheglobalwarmingpotential tions. Up to now, no overall report for 2020 GHG con-
+(GWP)ofacarbondioxide(CO )molecule[4,5]. centrations and specifically CH atmospheric levels has
+2 4
+Between 1750 and 1990, the atmospheric CH con- been published by the international organizations.
+4
+centration grew by 4ppbv (parts per billion by volume) However, reports from individual monitoring stations
+CONTACT Mich(cid:1)ele Heitz Michele.Heitz@USherbrooke.ca Department of Chemical Engineering and Biotechnological Engineering, Faculty of
+Engineering,Universit(cid:3)edeSherbrooke,Sherbrooke,Quebec,Canada
+(cid:1)2021InformaUKLimited,tradingasTaylor&FrancisGroup
+
+--- Page 3 ---
+2 B.KHABIRIETAL.
+showthattheannual-basedGHGconcentrationrisehas atmosphere such as pumping stations, sewage man-
+continueddespitetheCOVID-19lockdowns[9,10]. holes and when the sewage is charged to WWTPs,
+Wastewaters are the mixed liquid and solid wastes which can be a potential contributor to global warm-
+collectedthroughsewersandtreatedinWWTPs.During ing. For instance, CH production in Australian SNWs
+4
+the biological wastewater treatment processes in wasestimatedtobe18%oftheoverallcarbonfootprint
+WWTPs, CH is produced, which makes wastewater the of wastewater transporting and treating systems.
+4
+5th most significant CH emitter among anthropogenic Although, the real CH emissions could be higher than
+4 4
+sources (7–9% of worldwide CH emissions) [4,11]. The that[24].
+4
+compositionofbiogasproducedbyanaerobicdigestion In past years, most efforts in regards to WWTPs’ effi-
+in WWTPs is typically 55–75% CH (v/v), 24–44% CO ciency have been related to effluent quality [25].
+4 2
+(v/v) and less than 1% (v/v) of trace gases like alcohols However, a big challenge during wastewater treatment
+andaromatics[12]. is the emission of waste gases. The GHG emission is
+According to the US EPA (The United States one of the factors that has been taken into consider-
+Environmental Protection Agency), wastewater CH ation in order to examine the overall performance of
+4
+emissions (WWMEs) have increased by 20% worldwide WWTPs [26]. Other than CH , volatile organic com-
+4
+since2005andwillreach565(cid:3)106tonnes(CO equiva- pounds(VOCs)and volatile inorganiccompounds(VICs)
+2
+lent) in 2020. An 8% WWME increase is also expected are also emitted during wastewater transportation in
+from 2020 to 2030 [4,13]. China, India, Indonesia, and SNWs and during treatment processes in WWTPs, and
+the United States together account for about 50% of particularly for industrial effluents. A large variety of
+the world’s CH emissions from wastewaters. VOCs such as benzene (C H ), styrene (C H ), acetone
+4 6 6 8 8
+Wastewater treatment was reported to be the 7th larg- (C H O), chloroform (CHCl ), toluene (C H ), xylene
+3 6 3 7 8
+est emitter of CH in the United States [14]. In China, (C H ), methanol (CH OH), and ethanol (C H OH) as
+4 8 10 3 2 5
+between 2000 and 2020, WWME increased from well as VICs such as hydrogen sulfide (H S), nitrous
+2
+34(cid:3)106 to 130(cid:3)106 tonnes, with an average increase oxide (N O), nitrogen monoxide (NO), nitrogen dioxide
+2
+of 4.3(cid:3)106 tonnes yr(cid:4)1 (CO equivalent) [13]. The total (NO ), sulfur dioxide (SO ), carbon monoxide (CO), and
+2 2 2
+amount of wastewater produced in Canada was esti- CO are found in wastewaters from refineries, petro-
+2
+mated at about 5.5(cid:3)109 m3 yr(cid:4)1. Trends in Canadian chemical complexes and industries which use or pro-
+WWMEs between 1990 and 2017 revealed an increase duce solvents [11,16,25–36]. In a comprehensive study
+from 0.85(cid:3)106 to 1.2(cid:3)106 tonnes (CO equivalent) by Tata et al. [37], emissions, control and elimination
+2
+[15]. All of the above-mentioned reports confirm that techniquesofVOCs(e.g.C H ),andVICs(e.g.H S)origi-
+6 6 2
+wastewater is one of the growing sources of nating from WWTPs were reviewed. In a review paper,
+CH emissions. Mun~oz et al. [36] focused on bioreactor configurations
+4
+Various concentrations of WWMEs from different andmodelingforthetreatmentofVOCsatlowconcen-
+WWTPshavebeenreported,frombelow7gm(cid:4)3(1%v/ 5gm(cid:4)3),
+trations (below which can be emitted from
+v¼10,000ppmv¼6.66gm(cid:4)3)asdiffuseCH emissions anthropogenic sources such as wastewater. Lo(cid:3)pez et al.
+4
+to more than 465g m(cid:4)3 [16–19]. Generally, WWMEs [34] studied the biochemistry, kinetics and bioreactor
+m(cid:4)3
+with concentrations superior to 200g (total biogas technology for the abatement of GHGs (i.e. CH , N O,
+4 2
+flowrateofatleast30m3 h(cid:4)1)arevalorizedtoproduce andCO )andearlier,Malhautieretal.[38]reviewedthe
+2
+energy [3,20]. Methane emissions higher than 200g application of biofiltration in the elimination of VOCs
+m(cid:4)3
+are usually detected in anaerobic digesters of emitted from various sources (e.g. WWTPs, landfills,
+WWTPs [19,20]. However, because of the large surface andlivestock).
+in contact with the atmosphere in a typical WWTP, low The main objective of this review paper is to study
+CH concentrations (7–33g m(cid:4)3) are continuously WWMEs and their bioelimination at concentrations
+4
+m(cid:4)3
+releasedintotheatmosphere,whichisnoteasytotreat below 33g CH , where valorization is not feas-
+4 air
+and are considered to be an important challenge at ible. In the literature, few papers are found reviewing
+large scales with an important contribution to global the emissions and elimination techniques of low CH
+4
+warming.[21]. concentrations originating from particular sources such
+Inaddition,SNWs,whichcollectandtransportwaste- as landfills, coal mines and animal husbandry industries
+waters from residents and industries to WWTPs, also [3,20,39–42].Toourknowledge,thereisnocomprehen-
+upto33gm(cid:4)3,whichistheexplosivelimitof
+emitCH sive review paper on challenges, problems and
+4
+gaseous CH [22,23]. Methane emissions from SNWs improvements concerning the biological elimination of
+4
+mostly occur from structures exposed to the CH produced during wastewater treatment. This paper
+4
+
+--- Page 4 ---
+CRITICALREVIEWSINBIOTECHNOLOGY 3
+presents the state-of-the-art situation in the field of losses of 10–100% [44]), or after it is formed in situ in
+WWMEs’biofiltrationmostlybasedonliteraturereferen- the plant. Methane could also remain dissolved in the
+ces during the years 2005–2020. To this end, the cur- inlet wastewater stream to the plant [28,45,46]. For
+rent study first considers several field reports on CH instance, Short et al. [47] reported dissolved CH con-
+4 4
+emissions from WWTPs and SNWs. Residential and centrations of 0.5–0.8g m(cid:4)3 in gravity sewers
+influent
+industrial wastewaters along with effluents flowing in influents to three WWTPs in New South
+SNWs are separately addressed. Second, potential bio- Wales,Australia.
+logical reactors for gaseous CH elimination with con- Investigation of GHG emissions from a WWTP in
+4
+centrations similar to those emitted from WWTPs, are Sendai, Japan, by Masuda et al. [48] showed that the
+reviewed. Third, the biofiltration process as a promising main GHG emissions are related to CO (43% v/v) from
+2
+candidate for WWME bioelimination is studied due to electricityconsumption(theplant’senergysource),N O
+2
+its environmental friendliness and effective operation. (42% v/v) from the sludge incineration and CH (8%
+4
+In this regard, removal efficiencies, as well as oper- v/v) from the sewage treatment processes. In another
+ational factors such as inoculation of filter beds, inlet investigation,theamountofCH intheemissionfroma
+4
+gas concentration, residence time, nutrient content, WWTP near Gothenburg, Sweden, was reported as high
+packingmaterials,temperature,andpH,arediscussed. as 31% (v/v) [14]. In a large municipal WWTP
+(270,000m3 d(cid:4)1) in Helsinki, Finland, CH emis-
+influent 4
+sions were reported to be around 3.5(cid:3)102 tonnes yr(cid:4)1
+Methane emissions from wastewater
+m(cid:4)3
+(3.5 gCH ) [49]. Wang et al. [50] investigated
+4 influent
+The SNWs and WWTPs are important components of the CH emissions from a typical full-scale anaerobic/
+4
+the urban water infrastructure. The main CH emitting anoxic/oxic WWTP in Jinan, Eastern China. The major
+4
+partsofSNWsþWWTPsareshowninFigure1. emission sections from the plant (descending order)
+during spring and summer of 2010 were anaerobic
+tanks, oxidation tanks, aerated grit chambers and
+Methane emitted from municipal wastewater
+sludge concentration tanks. Total annual CH emissions
+4
+In a typical WWTP, wastewater is usually treated by: were 16.9 tonnes yr(cid:4)1. Daelman et al. [45] studied the
+screening, primary settling, secondary biological treat- Kralingseveer WWTP (360,000 persons) in Capelle aan
+ment processes and finally, a second settling if needed den IJssel (near Rotterdam), Netherlands, for one year.
+[43]. An aerobic decomposition process in wastewater Methane emissions of 0.31kg person(cid:4)1yr(cid:4)1 (2.7 g of
+requires more oxygen than can be supplied by surface CH m(cid:4)3 ) during October and 0.23kg person-
+4 influent
+(cid:4)1yr(cid:4)1 m(cid:4)3
+diffusion. If there is no mechanical aeration, anaerobic (2 g of CH ) during February were
+4 influent
+decomposition of organic matter is activated by meth- observed. Three-quarters of the total CH emission was
+4
+anogenic bacteria, which will produce CH . In a WWTP, from the anaerobic digestion of primary and secondary
+4
+CH can be emitted either after it enters the plant via sludge.Itwas found thatCH accountedfor 13.5%(v/v)
+4 4
+stripping from the incoming wastewater (dissolved CH of all GHG emissions in the plant, even more than the
+4
+Figure 1. Schematic of potential CH emission points in typical WWTPs and SNWs. (A) Sewage from municipal and industrial sec-
+4
+tors; (B) Pumping stations/pressure sewers; (C) Manholes/gravity sewers; (D) Wet well/WWTP influent; (E) Screening/Primary settle-
+ment; (F) Wastewater treatment process/Aeration tanks; (G) Secondary settlement; (H) Anaerobic digesters; (I) Sludge storage
+tanks; (J) Sludge further treatment/Disposal; (K) Treated wastewater/WWTP effluent [12,24–26,33].
+
+--- Page 5 ---
+4 B.KHABIRIETAL.
+CO produced (8% v/v) due to the plant’s electricity production systems are rich in lactose (0.2–60kg
+2
+m(cid:4)3 m(cid:4)3
+andnaturalgasconsumption[17]. ), protein (1.4-34kg ) and fats
+effluent effluent
+Czepiel et al. [51] studied a small WWTP (12,500 per- (0.1–11kgm(cid:4)3 )whicharemajorsourcesofwaste-
+effluent
+sons) in Durham, New Hampshire, USA, and reported a water pollution and CH production [58]. According to
+4
+CH emission of 0.039kg person(cid:4)1yr(cid:4)1 (0.14 g of CH the United Nations’ Food and Agricultural Organization
+4 4
+m(cid:4)3
+).Alargeplant(1,500,000persons)studiedby (FAO), between 2005 and 2015, the dairy cattle indus-
+influent
+Wangetal.[50]inJinan,EasternChina,hadaCH emis- try’s GHG emissions increased by 18% due to rising
+4
+sion of about 0.011kg person(cid:4)1yr(cid:4)1 (0.16 g of CH demands for milk and reached 1.7(cid:3)109 tonnes (CO
+4 2
+m(cid:4)3
+). Data on two WWTPs in the Netherlands, equivalent)globally[59].
+influent
+monitored by the Dutch Foundation for Applied In Canada,the swineindustry isan important part of
+Water Research, showed CH emissions of 0.266kg per- the agricultural sector. The main waste product of this
+4
+son(cid:4)1yr(cid:4)1 m(cid:4)3
+(2.44 g of CH ) for Papendrecht industry is swine slurry, which contains feces and urine
+4 influent
+WWTP (40,000 persons) and 0.14kg person(cid:4)1yr(cid:4)1 (1.56 [39].Nutrients’concentrationsinswineslurry(e.g.2–3.8
+gofCH m(cid:4)3 )forKortenoordWWTP(100,000per- kg of N m(cid:4)3 and 0.5–0.9 kg of P m(cid:4)3) are 60–100 times
+4 influent
+sons). The portion of CH in the total GHG emission by higher than those of municipal wastewaters [60].
+4
+the plants was estimated to be up to 75% (v/v) [35,45]. Wastewater from piggeries is usually stored in anaer-
+It should be noted that the reported CH emissions are obic conditions and produces GHG emissions (mostly
+4
+mainly direct emissions via stripping inlet sewage and/ CH and N O). Methane concentrations from piggery
+4 2
+wastewaterstoragevaryfrom0.1to20gm(cid:4)3[39,41].
+or from anaerobic digesters. Due to design differences
+inWWTPs,CH emissionratesvarytremendously.Using Waste stabilization ponds (WSPs) in WWTPs, which
+4
+field data, obtained either online or offline, in order to are used for the physical, chemical and biological treat-
+develop mathematical models, would produce more ment of wastewater, also emit CH . A study conducted
+4
+comprehensiveresults. by Glaz et al. [61] on WSPs in WWTPs for municipal/
+industrial wastewaters located close to Quebec City,
+Canada, showed annual production of 0.23–10.5 g of
+Methane emitted from industrial wastewater
+m(cid:4)2
+CH .
+4 WSP
+Generally,onlyindustriesthatproduce wastewatercon-
+taining organic matter will emit CH , for example: meat
+4 Methane emitted from sewer networks
+and poultry, pulp and paper, fruit, vegetable and juice
+processing industries [52–54]. Industrial wastewater Sewersystemscanbedividedintotwocategories:pres-
+receives preliminary treatment inside the industries, sure sewers (rising main) and gravity sewers. Emission
+such as coarse screening and grit removal, and then modeling, measurement methods and production
+they are discharged into the SNW with the domestic mechanisms of GHGs in sewers have been reported
+wastewaters for additional treatment [55]. The compos- [28,46,62–64]. Eijo-R(cid:3)ıo et al. [43] studied the formation
+ition of industrial wastewater anaerobic digester gases ofCH ,N OandH Sinsewersandconductedsampling
+4 2 2
+can vary with the seasonal ambient temperature (hot campaigns in two Spanish cities. The winter campaign
+summer and freezing winter), with a typical biogas showedlowerCH emissionsincomparisontothesum-
+4
+composition of 65±5% (v) CH , 35±5% (v) CO and mer results (60–80% decrease), which proved that tem-
+4 2
+trace amounts of H S [19]. The food industries produce perature is a key factor when transporting sewage in
+2
+considerable amounts of lipid-rich wastes in slaughter- networks. It was shown that wet wells, were the most
+m(cid:4)3
+houses and the processing of edible oils and dairy important CH emission sources (0.32 g of CH )
+4 4 air
+products. Wastes of fat, oils and grease contain high [43]. The wet well is the connection between the pres-
+amounts of biodegradable volatile solids ranging from sure and gravity sewers which receives and temporarily
+17to93%(w/w)[56,57].Digesters,treatinglipidwastes, storeswastewater[62].
+theoretically produce 1.43m3 kg(cid:4)1 of biogas with Guisasola et al. [28] reported more than 20g
+fat
+CH in the range of 66–73% (v/v) [18]. Dairy production m(cid:4)3 of dissolved CH in rising main sewers in the
+4 sewage 4
+facilities are important industrial wastewater sources, as Gold Coast, Queensland, Australia. With a sewage flow
+large volumes of water are used in production steps of 200m3 d(cid:4)1, dissolved CH with concentrations of 4.4
+4
+m(cid:4)3
+and equipment cleaning. For example, during cheese to 6.1g were detected at the end of an 828-
+sewage
+production, 37(cid:3)106 tonnes yr(cid:4)1 of cheese whey are meter-long rising main SNW [65]. Another rising main
+produced worldwide [58]. Effluents from dairy sewer in Perth, Australia, with a sewage flow of
+
+--- Page 6 ---
+CRITICALREVIEWSINBIOTECHNOLOGY 5
+11,000m3 d(cid:4)1 showed an average dissolved CH con- treatment of CH emitting directly from SNWs (e.g.
+4 4
+centration of about 5g m(cid:4)3 , while gaseous CH , manholesandpumpingstations).
+sewage 4
+measured in the atmosphere, was 10–20g m(cid:4)3 [66]. In regards to CH elimination in WWTPs, at low CH
+4 4
+Data from several manholes in Melbourne, Australia, concentrations (7–33g m(cid:4)3), biotechnological treat-
+presented gaseous CH emissions up to 33g m(cid:4)3 ments such as biofilters (BFs) are more promising and
+4 air
+(700m3 d(cid:4)1)[22]. Dissolved CH of 15g m(cid:4)3 cost-effective compared to physicochemical processes
+sewage 4 sewage
+was estimated for a hydraulic retention time (HRT) of (e.g. incineration and catalytic oxidation) [39,40,70]. The
+2.6h in the Gold Coast, Queensland, Australia (22.5(cid:1)C) bioprocesses for the elimination of low concentration
+WWMEsaresummarizedbelow.
+[22]. Liu et al. [67] reported higher dissolved CH con-
+4
+centrationsintherisingmainsewer(2840m3 d(cid:4)1)
+sewage
+overnight in the Gold Coast of Australia, and lower CH 4 Bioreactors for CH 4 elimination
+concentrations during the day (day to night dissolved
+concentrationof5to15gm(cid:4)3 Biological techniques have been initially applied at
+CH duringsummerand
+4 WWTPs for odor removal [71]. These techniques were
+m(cid:4)3
+3.5 to 12g in winter), due to the diurnal fluctu-
+also useful for different gaseous pollutants’ removal.
+ation of about 75% in HRT in the network (average dis-
+Pollutants emitting from WWTPs mostly contain carbon
+solved CH of 9.1g m(cid:4)3 at 25(cid:1)C and average HRT
+4 sewage and hydrogen atoms (e.g. CH , C H ), oxygen (e.g.
+4 8 8
+of 9h). The HRT is a measure of the average time that
+CH OH) and/or sulfur such as H S. The final products of
+3 2
+sewage remains in pipes of SNW on the way to WWTP
+gaseous pollutant’s biological treatment are usually:
+andvariedgenerallybetween1and30h[24,64].
+water (H O), CO , biomass and salts [70]. Researchers
+2 2
+When sewage (from an enclosed anaerobic sewer
+have been studying the development of biological
+pipe) is discharged into a ventilated space, such as
+treatment systems in order to eliminate the harmful
+pumping stations, downstream gravity sections, wet
+gaseous emissions from anthropogenic sources
+wells and downstream WWTPs inlet, a large part of the [40–42,72–76]. These biological reactors could be also
+dissolvedCH isreleasedintotheatmosphere(i.e.point
+4 usedfortreatingWWMEs.Thefollowingparametersare
+D, Figure 1) [24,63]. In Perth, Australia, CH 4 was being used in order to evaluate a bioreactor’s performance
+m(cid:4)3
+emitted with concentrations between 4 and 8g [40,70]:
+when discharged from a gravity sewer network at a C (cid:3)Q (cid:1) (cid:3)
+sewage flowrateof17,000m3 d(cid:4)1 [66].AnaverageCH Inlet load ðILÞ¼ in g m(cid:4)3 h(cid:4)1 (1)
+4 V
+m(cid:4)3
+emission of 11.5g was reported from gravity sew- C (cid:4)C
+Removal efficiency ðREÞ¼ in out ð%Þ (2)
+ers located in Rattanakosin, Thailand, while an average
+C
+(cid:1)in (cid:3)
+m(cid:4)3
+dissolved CH 4 concentration of 10g sewage Elimination capacity ðECÞ¼IL(cid:3)RE g m(cid:4)3 h(cid:4)1 (3)
+remained in the sewage (an average HRT of 28h at
+33(cid:1)C) [63]. Dissolved CH concentrations were very low where C in and C out are the pollutant inlet and outlet
+4 m(cid:4)3),
+concentrations (g respectively. Q is the gas flow
+in pumping stations. In sewer pumping stations of the
+rate(m3h(cid:4)1)andVisthebioreactorvolume(m3).
+Gold Coast, Australia, average dissolved CH concentra-
+4
+tions of 0.5–1.5g m(cid:4)3 were observed for a sewer
+sewage
+flow of 700-2000m3 d(cid:4)1. Gaseous CH concentrations Biotrickling filters
+4
+of 1–2g m(cid:4)3 were reported around the pumping sta-
+A liquid phase is fed continuously over inert packing
+tion with a sewer flow of 2000m3 d(cid:4)1 [46,66,67].
+materials in a biotrickling filter (BTF). A regular supply
+Methane formation in SNWs is not limited to warm
+of micro and macro nutrients, as a nutrient solution
+countries such as Thailand and Australia. A field study,
+(NS), provides efficient performance for BTFs for waste
+during the autumn in Boston, MA, USA, revealed that
+gas treatment [77]. Table 1 presents a few examples of
+many manholes have CH concentrations of more than
+4 the BTF used in CH elimination. The performance of
+m(cid:4)3 m(cid:4)3 4
+27g [68]. Lower emissions of about 1g were
+also reported in rising main sewers in DeKalb County, Table 1. Methane removal in biotrickling filters.
+GA, USA, with a sewage flow rate of 1855m3 d(cid:4)1 [69]. CH IL EBRT RE EC
+All mentioned studies illustrated the importance of Packingmaterial (gm–4 3h–1) (min) (%) (gm(cid:4)3h(cid:4)1) Ref.
+Polyurethanefoam 160 4.8 16 26 [72]
+SNWsasanimportantCH emissionsource.
+4 Stone 67 4.25 40 26 [73]
+Most efforts so farinvolve treating CH 4 (gaseous and Polyethylenerings 3 67 50 1.5 [74]
+dissolved) after sewage discharge into WWTPs. To our 23 26 6
+Ceramicpallrings 82 4.3 61 50 [78]
+knowledge, no effort has been conducted for the
+
+--- Page 7 ---
+6 B.KHABIRIETAL.
+Table 2. Air treatment in two-liquid phase stirred tank bioreactors (STBR) and biotrickling filters (BTF).
+Second
+Bioreactor liquid SLP/FLP IL EC RE
+Pollutant type phase (v/v%) (gm–3h–1) (gm–3h–1) (%) Ref.
+Benzene STBR Hexadecane 33 140 133 95 [87]
+Hexane STBR Siliconeoil 10 180–480 135±17 70±5 [84,88]
+Hexane STBR Siliconeoil 20 64 60 94 [89]
+Toluene STBR Hexadecane 33 748 733 98 [85]
+Toluene BTF Siliconeoil 10 114 114 100 [90]
+150–210 140 72–84
+240–350 200 55–81
+Styrene BTF Siliconeoil 5 120 110 92 [91]
+Styrene STBR Siliconeoil 10 548 426 78 [92]
+Styrene BTF Siliconeoil 20 555 537 97 [93]
+Methane BTF Siliconeoil 0 140 22 16 [72]
+10 51 36
+Methane BTF Siliconeoil 25 250 45 18 [75]
+Dichloromethane BTF Siliconeoil 10 500 200 40 [94]
+BTFs depends on the CH concentration and flow rate. solubility of CH in the aqueous phase (0.00126mol
+4 4
+Zhu et al. [78] investigated the bioelimination of low CH kg(cid:4)1 (cid:5) 20.21 gCH m(cid:4)3 at 30(cid:1)C and
+4 water 4 water
+concentrations CH (<7g m(cid:4)3) in a BTF packed with 100kPa) [81]. Poor solubility of CH in water leads to a
+4 4
+ceramic pall rings. For a gas flow rate of 0.12m3 h(cid:4)1 need for a high empty bed residence time (EBRT),
+and inlet CH concentrations of 0.7 to 7g m(cid:4)3, RE which subsequently requires either a large size bioreac-
+4
+reducedfrom98to40%. tororalowgasflowrate,whichmaynotbecost-effect-
+ive. For instance, the value of EBRTs in the majority of
+BFs is less than 1min for hydrophilic components (e.g.
+Bioscrubbers
+CH OH). However, for hydrophobic pollutants, like CH ,
+3 4
+When a suspended growth bioreactor (SGBR) is com- it needs tobe at least2min [82]. A second liquidphase
+bined with a conventional scrubber (SC), it is called a (SLP) in bioreactors might impose a driving force that
+bioscrubber (BSC). These two units operate separately. allows continuous and slow release of CH from SLP
+4
+An important advantage of BSCs is the capability to (organic phase with high CH concentration) to the
+4
+work at high gas flows of up to 4000m3 m(cid:4)2 liquid phase (water) with poor CH concentration. In
+filter bed 4
+h(cid:4)1.
+Generally, corresponding flow rates in CH BFs do addition, since MOs are mostly in the water phase, as
+4
+not exceed 500m3 m(cid:4)2 h(cid:4)1 [71]. When polluted the first liquid phase (FLP), they will not be exposed to
+filter bed
+air is injected, the SC works as an absorption tower. In high concentrations of (inhibitory) pollutants accumu-
+this case, pollutants are transferred from the gas phase lating in SLP [70]. The nature of the SLP should involve
+(air) to the liquid phase (water). The effluent air from properties such as non-biodegradable, nontoxic to
+the SC is released into the atmosphere and contami- MOs,lowvaporpressure,immisciblewithFLPandadif-
+nated water goes to the SGBR. Microorganisms (MOs) ferent density compared to FLP [83]. Silicone oil and
+present in the aqueous phase in SGBR (suspended bio- hexadecanemetimportantfeaturesofSLPs[84–86].
+mass) biodegrade the pollutants, such as CH , in the Table 2 illustrates the performances of two-liquid
+4
+bioreactor [79]. Instead of injecting polluted air to an phase STBRs and BTFs in terms of EC and RE. In the
+SC and then treating the polluted aqueous phase in an case of using a two-liquid phase technique in a BTF for
+SGBR, it is also possible to directly inject polluted air to eliminating CH , SLP/FLP up to 25% (v/v), was investi-
+4
+a stirred tank bioreactor (STBR). For instance, in a gated at the lab scale (water as FLP and silicone oil as
+WWTP, an activated sludge reactor (already available SLP). Rocha-Rios et al. [72] obtained 130% higher CH
+4
+m(cid:4)3 h(cid:4)1)
+on-site) could be used instead of BSC. In this case, the EC (51g in a BTF with SLP/FLP of 10% (v/v)
+m(cid:4)3 h(cid:4)1)
+cost of gas compression for injection and mass transfer compared with a BTF without SLP (EC of 22g
+ILof140gm(cid:4)3h(cid:4)1for
+limitsshouldbetakenintoconsideration[80]. withanEBRTof4.8minandCH
+4
+both BTFs. Lebrero et al. [75] obtained an EC of 45g
+m(cid:4)3 h(cid:4)1 m(cid:4)3 h(cid:4)1
+at an IL of 250g (EBRT of 4min) in a
+Two-liquid phase bioreactors
+CH BTF (SLP/FLP of 25% v/v). The improvement of the
+4
+Methane removal in bioreactors such as BTFs is influ- CH REs and ECs in two-liquid phase BTFs could be
+4
+encedbyseveralparameters,suchasvariationsinoper- attributed to the absorption properties of SLP (silicone
+ating conditions and limitations in the mass transfer of oil) for CH , which provides a high rate of CH mass
+4 4
+CH from the gas to liquid phase due to the poor transferfromthegasphasetoFLP(water)[36].
+4
+
+--- Page 8 ---
+CRITICALREVIEWSINBIOTECHNOLOGY 7
+Biofilters biofiltration of VOCs. In this situation, a hybrid system
+containing a low pH inorganic BF (because sulfur bio-
+Biofilters (BFs) are bioreactors (downflow or upflow) in
+degradation results in medium acidification) followed
+which MOs on the packing materials act as catalysts
+byaneutralpH,organicBF(becausethepHforbacteria
+[20,40]. Organic packing materials, which are widely
+biodegrading VOCs should be almost neutral) was sug-
+used for odor removal at WWTPs, could also be used in
+gested[110].
+CH BFs, such as soil, compost and peat [70].
+4
+Hybridsystemsinseriescouldbeusefulforreluctant
+Conventional BFs due to the absence of continuous NS
+compounds like CH , especially when dealing with gas-
+addition(unlikeBTFs)andthepossibilityofloweffluent 4
+eous and dissolved CH , simultaneously. To avoid dis-
+drainfromthesystem(lessleachate)couldbeapromis- 4
+solved CH going to the atmosphere, Hatamoto et al.
+ingapproachfortreatingWWMEs.ExamplesofCH bio- 4
+4
+filtration at different operating conditions are shown in [111] and Matsuura et al. [112] developed a biofilm
+Table3. reactor, while van der Ha et al. [113] introduced a co-
+A report issued by the Canadian Pork Council indi- culture of methanotrophic bacteria (MB) and microal-
+catedanREof50–60%(ECof16–20gm(cid:4)3h(cid:4)1)withan gae to degrade CH in the effluent of the WWTP. In a
+4
+average IL of 30g m(cid:4)3 h(cid:4)1 for bioelimination of CH in WWTP (National Autonomous University of Mexico,
+4
+BFs (EBRT of 10min) packed with four different organic Mexico), a hybrid system (desorption/biofiltration) was
+materials (without inoculation) [76]. Mixtures of: com- operated to recover dissolved CH in the municipal
+4
+post, wood chips, soil and peat were used as packing wastewater (effluent of an anaerobic sludge reactor) by
+materials. The CH (1.3–2.3g m(cid:4)3) was being emitted means of a desorption column packed with pall plastic
+4
+from a 3800m3 wastewater storage (swine slurry) [76]. rings and then oxidize CH in a compost-based bed BF
+4
+Bioelimination of CH from wastewater reservoir (6m3 [106,114]. The hybrid system operated at a constant air
+4
+pilot-scale slurry) by means of BFs packed with com- flow of 1m3 h(cid:4)1. The desorption column recovered
+post/perlite (EBRT range of 1 to 80min and CH 4 IL 99% of the dissolved CH 4. Subsequently, in the BF, CH 4
+m(cid:4)3 h(cid:4)1)
+range of 1 to 25g was also studied by Mesle RE of70% was achieved at an EBRT of 23min (CH IL of
+4
+and van der Werf [41]. The inoculation of the BF was 60g m(cid:4)3 h(cid:4)1). A WWME reduction of 54% (CO equiva-
+2
+carried out with activated sludge from the WWTP. At a
+lent)wasreportedforthemunicipalWWTP[106].Inthe
+m(cid:4)3,
+CH concentration of 5.6g a RE of 85% was
+4 case of gaseous CH mixed with other gases (e.g.
+4
+obtained, which showed that biofiltration can be a
+VOCs), using hybrid systems such as two BFs in series
+potential approach to apply on WWTPs. However, the
+can help to provide sufficient EBRT for CH biodegrad-
+4
+research focusing on the biofiltration of waste gases
+ation. Since VOCs are more biodegradable than CH
+4
+containing CH , which are being emitted directly from
+4 [115,116], VOCs removal could take place in the first
+WWTPs,remainslimited.
+stage with low EBRT (e.g. 1min [91]) and CH removal
+4
+could occur in the second stage with high EBRT (e.g.
+Hybrid systems 6min [108]). No study on this matter was found in
+theliterature.
+Air treatment in hybrid systems involves two or more
+bioreactors (either similar or different bioreactors) in
+ordertoachievecompleteorhigherremovalofatarget
+pollutant or a mixture of pollutants [70]. Rene et al. Factors affecting CH biofiltration
+4
+[109] used a combination of a BTF and a BF to treat a
+m(cid:4)3 h(cid:4)1), Promising performance at ambient temperature and
+mixture of H S (IL of 20g CH OH (IL of 200g
+2 3
+m(cid:4)3 h(cid:4)1), m(cid:4)3 h(cid:4)1). atmospheric pressure, the possibility of using organic
+and pinene (C H ) (IL of 50g In
+10 16
+and inorganic packing materials which are already
+the BTF, a RE of 98% for both H S and CH OH and 40%
+2 3
+being used in WWTPs, low effluent drain, low capital
+for C H were achieved. The BF located in the second
+10 16
+stage, in series after the BTF, resulted in C H RE of and operating costs, tolerance to ILs variations and
+10 16
+90%. In a WWTP, a combination of two BFs in series for shock loads, and being easy to install, made biofiltra-
+removing sulfur compounds (target pollutant) from a tion a potential approach to bioeliminate WWMEs
+waste gas mixture (H S and VOCs) ended up with 98% [40,70,104,117]. An understanding of the key factors in
+2
+H SRE(averageREof70%forVOCs)[110].Thismixture BFs helps researchers and technology owners develop
+2
+is difficult to treat since oxidation of H S can produce the whole treatment system, especially when it is uti-
+2
+sulfuric acid, which accumulates in the filter bed and lized at full scale and for a particular situation such
+reduces the pH. The decline in pH can inhibit the asWWTPs.
+
+--- Page 9 ---
+8 B.KHABIRIETAL.
+Table 3. Performance of biofilters for CH elimination.
+4
+Packingmaterial Operatingconditions REandEC Ref.
+Gravel IL¼20gm–3h–1 [95]
+EBRT¼6min
+T¼N/A EC¼16gm–3h–1
+NS:1.5Ld–1 RE¼80%
+V¼18(cid:3)10–3m3
+Q¼0.18m3h–1
+Gravel IL¼38gm–3h–1 [96]
+EBRT¼4.2min
+T¼20–25(cid:1)C EC¼14.5gm–3h–1
+NS:1.6Ld–1 RE¼38%
+V¼18(cid:3)10–3m3
+Q¼0.25m3h–1
+Sponge-based IL¼20gm–3h–1 EC¼3gm–3h–1 [97]
+EBRT¼7.4min RE¼15%
+Blastfurnacesslag T¼19–36(cid:1)C EC¼4gm–3h–1
+NS:nonadded RE¼20%
+Expandedvermiculite V¼8(cid:3)10–3m3 EC¼6gm–3h–1
+Q¼0.06m3h–1 RE¼30%
+Multi-layerlandfillcover: IL¼2gm–2h–1 RE¼57–98% [98]
+compostplussand(0.3m)loamysand(0.9m) T¼5–20(cid:1)C
+NS:nonadded
+V¼4.8m(cid:3)0.8m(cid:3)2.1m
+Q¼18(cid:3)10–3m3h–1
+Multi-layerpacking: IL¼19±9.5gm–3h–1 RE¼62%(annually) [99,100]
+Topsoil(0.1m) T¼ambienttemperature
+Sand(0.02m) NS:N/A
+Gravel(0.02m) V¼15m3
+Clay(0.67m) Q¼1.87m3h–1
+Gravel(0.1–0.3m)
+Inorganicpackings IL¼80gm–3h–1 [101]
+EBRT¼3.4min
+NS:0.6–1.8Ld–1 EC¼30gm–3h–1(31–34(cid:1)C)
+V¼14(cid:3)10–3m3 EC¼18gm–3h–1(43(cid:1)C)
+Q¼0.25m3h–1
+Coal IL¼139gm–3h–1 EC¼27gm–3h–1 [102]
+EBRT¼2.4min RE¼20%
+T¼30(cid:1)C
+NS:2Lper3days
+V¼4(cid:3)10–3m3
+Q¼0.1m3h–1
+Mixtureofwoodpinebarkchips,perliteandcompost IL¼17gm–3h–1 EC¼11gm–3h–1 [103]
+EBRT¼4.4min RE¼62%
+T¼20(cid:1)C
+NS:0.066Lmin–1(during5mind–1)
+V¼13.4(cid:3)10–3m3
+Q¼0.1m3h–1
+Inorganicpacking IL¼87gm–3h–1 EC¼45gm–3h–1 [104]
+(stonebased) EBRT¼6min RE¼52%
+NS:1.5Ld–1
+T¼22(cid:1)C
+V¼18(cid:3)10–3m3
+Q¼0.18m3h–1
+Compost IL¼41gm–3h–1 EC¼37gm–3h–1 [105]
+EBRT¼20min RE¼90%
+T¼25(cid:1)C
+NS:0.2Ld–1
+V¼5(cid:3)10–3m3
+Q¼0.015m3h–1
+Compost IL¼60±13gm–3h–1 RE¼70±8% [106]
+EBRT¼23min
+T¼2–31(cid:1)C
+NS:N/A
+V¼567(cid:3)10–3m3
+Q¼0.9m3h–1
+Biochar/lavarock/compost IL¼45gm–3h–1 [107]
+EBRT¼83min
+T¼22±3(cid:1)C EC¼37gm–3h–1
+NS:nonadded RE¼82%
+V¼13.5(cid:3)10–3m3
+Q¼0.01m3h–1
+Inorganicpacking IL¼13gm–3h–1 [108]
+(stonebased) EBRT¼6min
+T¼22(cid:1)C EC¼8gm–3h–1
+NS:2Ld–1recycledfroma10Ltank RE¼62%
+V¼18(cid:3)10–3m3
+Q¼0.18m3h–1
+Abbreviations: IL: inlet load; EBRT: empty bed residence time; T: temperature; NS: nutrient solution; V: volume of the filtering bed; Q: air flow rate; EC:
+eliminationcapacity;RE:removalefficiency;N/A:notavailable.
+
+--- Page 10 ---
+CRITICALREVIEWSINBIOTECHNOLOGY 9
+Inoculation and acclimation period Using an SLP might allow reaching higher REs with
+lowerEBRTs[36,72,73,75].
+Methanotrophic bacteria types (MBs) are the specific
+MOs that biodegrade CH , which are aerobic and pre-
+4
+sent in nature in all sorts of environments, such as wet- Mass transfer and kinetic limitations
+lands,soilandwastewater[118].InaBF,duringthefirst
+Mass transfer limitations and kinetic restrictions are
+days of operation, when MBs are exposed to CH , there
+4 important challenges for CH treatment in a BF. It
+will be an acclimation period where CH RE is normally 4
+4 becomes even more challenging while confronting a
+less than 10%. Methane RE increases to a maximum RE,
+mixture of pollutants. Mass transfer limited pollutants
+corresponding to a pseudo steady-state after the accli-
+are generally hydrophobic and kinetic limited pollu-
+mation period when MBs are grown and activated. The
+tants are generally hydrophilic. Mass transfer limited
+duration of the acclimation period depends on the
+pollutants involve compounds like CH with low bio-
+operating conditions, especially the CH IL and inocula- 4
+4 availability in the biofilm phase, which leads to a
+tion procedure [119]. Inoculating the packings with a
+decrease in the BF’s performance [36,116]. Regarding
+specific culture might be useful to achieve the max-
+the impact of operating parameters on mass transfer
+imumREwithashorteracclimationperiod[20].Inorder
+limited compounds, there are different conflicting
+to reach a pseudo steady-state in a CH BF, a period of
+4
+results in the literature and a conflict of effects can be
+at least 3 weeks (and sometimes more than 3 months)
+found. For instance, a decreasing temperature or water
+was required [120]. An inoculation step is not always
+content of the filter bed could improve the RE of a
+necessary. A common procedure for starting organic
+masstransfer limitedpollutant. However,regarding kin-
+packed bed BFs is to pass CH through the bed for a
+4
+etic limited pollutants such as CH OH, C H OH, and
+long time. A prolonged passage of CH in a BF for sev- 3 2 5
+4
+C H O, it is not the same, even the opposite in some
+eral days or weeks might lead to activation of MBs in 3 6
+cases [116]. For kinetic limited pollutants, the high con-
+the filter bed [20]. Biofilters containing inorganic pack-
+centration of the substrate in the biofilm might lead to
+ing materials usually need inoculation with an enriched
+toxicity or excess biomass growth and consequently,
+liquid sample, i.e. the leachate from an active BF
+thepressuredropincreases[124].Forsimultaneousbio-
+[115,121]. In the case of the intention for using BFs for
+filtration of mass transfer and kinetic limited com-
+CH removal in WWTPs, samples of activated sludge
+4
+pounds, one must find operating conditions that suit
+could be used as the inoculum, because of the high
+both.Toovercomemasstransferandkineticlimitations,
+concentration of active aerobic MOs, such as
+MBs[80,104]. special configurations of BF systems such as two-liquid
+phase BFs [125,126], two-stage systems [109] and
+hybrid reactors, a modification in gas injection strat-
+Residence time
+egies and NS addition strategies might be useful. For
+Relatively long EBRTs are known to be one of the instance, for kinetic limited compounds such as CH OH
+3
+requirements to achieve high CH RE in biofiltration. and C H O, split feeding of inlet gas was suggested to
+4 3 6
+For CH BFs, EBRTs of longer than 4min were generally increase RE [127,128]. For mass transfer limited com-
+4
+recommended [40]. Methane diffusion from the gas pounds like CH , Estrada et al. [129] used a gas-recy-
+4
+phasetotheliquidphaserestrictsgasabsorptioninthe cling strategy in a CH BTF to overcome the limitation.
+4
+m(cid:4)3 h(cid:4)1
+biofilm and hinders biodegradation and influences the A total CH IL of 230g with an EBRT of 4min
+4
+performance of the BF. Methane has low solubility in and gas flow rate of 1.1m3 h(cid:4)1 resulted in a 2.5-fold
+water(20.21gm(cid:4)3)andHenry’sdimensionlessconstant m(cid:4)3 h(cid:4)1)
+increase in CH EC (29g when the internal
+4
+of 30 at 20(cid:1)C and 100kPa and a diffusion coefficient of gas recirculation was implemented. The same strategy
+1.49(cid:3)10(cid:4)9 m2 s(cid:4)1 at 25(cid:1)C [81]. Methane must be dis- (gas-recycling)mightbeusefulinCH BFs.
+4
+solved in the biofilm in order to be available for MBs to
+degrade it. This requires an appropriate contact time
+Operating conditions
+[40]. In a study carried out by Sly et al. [122], at an inlet
+m(cid:4)3, Inlet loads
+CH concentration of 7g CH REs of 20 and 90%
+4 4
+were achieved for EBRTs of 5 and 20min, respectively. Methane EC in BFs generally correlates with CH inlet
+4
+In regards to an evaluation of the effects of gas flow concentration [122]. Girard et al. [96] showed that by
+rate (0.06–0.3 m3 h(cid:4)1) on CH biofiltration (inlet con- increasing the inlet CH concentration from 0.17 to
+4 4
+m(cid:4)3), m(cid:4)3
+centration of 1.5g when EBRT decreased from 2.84g with an EBRT of 4min, CH EC increased
+4
+m(cid:4)3 h(cid:4)1.
+17.5 to 3.2min, RE declined from 100 to 40% [123]. from 2.5 to 12g The dependency of CH
+4

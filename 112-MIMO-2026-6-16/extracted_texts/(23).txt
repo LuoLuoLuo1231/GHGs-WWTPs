@@ -1,0 +1,602 @@
+--- Page 1 ---
+ARTICLE
+OPEN
+https://doi.org/10.1038/s43247-022-00413-w
+Whole-system analysis reveals high greenhouse-
+gas emissions from citywide sanitation in Kampala,
+Uganda
+Jake Johnson1,3, Fiona Zakaria 1,3, Allan G. Nkurunziza2,3, Celia Way1, Miller A. Camargo-Valero1,3 &
+✉
+Barbara Evans 1,3
+Global estimates of emissions of greenhouse gasses do not take into account the complex
+service chain in rapidly growing cities in low- and middle-income countries. This paper
+;,:)(0987654321
+presents an end-to-end analysis to estimate emissions from all stages of the sanitation-
+servicechain,usingKampalainUgandaasanexample.Weshowthatemissionsassociated
+withlongperiodsofstorageoffaecalwasteinsealedanaerobictanks(49%),dischargefrom
+tanksandpitsdirecttoopendrains(4%),illegaldumpingoffaecalwaste(2%),leakagefrom
+sewers (6%), wastewater bypassing treatment (7%) and uncollected methane emissions
+at treatment plants (31%), are contributing to high levels of greenhouse-gas emissions.
+SanitationinKampalaproduces189ktCO eperyear,whichmayrepresentmorethanhalfof
+2
+thetotalcity-levelemissions.Significant furtherempiricaland modellingworkisrequired to
+update estimates of greenhouse-gas emissions from sanitation systems globally.
+1WateratLeeds,SchoolofCivilEngineering,UniversityofLeeds,WoodhouseLane,LeedsLS2,9JT,UK.2KampalaCapitalCityAuthority,P.O.Box7010
+Kampala,Uganda.3Theseauthorscontributedequally:JakeJohnson,FionaZakaria,AllanG.Nkurunziza,MillerA.Camargo-Valero,BarbaraEvans.
+✉
+email:b.e.evans@leeds.ac.uk
+COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv 1
+
+--- Page 2 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+B
+iological decomposition of human faeces produces green-
+morfONdnaHC:4D/PTSFmorfONdnaHC:3Da/n:2DstipmorfONdnaHC:1DtceriD morfONdnaHC:4D/PTSFmorfONdnaHC:3D-nimorfONdnaHC:2Da/n:1DtceriD
+housegases(GHGs),includingmethane(CH ),nitrousoxide
+4
+(N O) and carbon dioxide (CO ) when faecal sludge or
+2 2
+wastewater is contained for sufficient time to allow microbial 242424 esuer/egrahcsidbPTWWsknatdna 242424 esuer/egrahcsidbPTWWretawetsawrewes
+digestion.Indirectemissionsarisefromburningoffossilfuelstorun
+sanitationoperations and as embedded carbonin infrastructure. alasopsiDtnemtaerTdnagniytpme/gniytpmEtnemniatnoCniahcecivresnoitatinaS
+Emissions from sanitation are being underestimated1,2. Most a/n:4OPTWW/PTSFOC:3OleufkcurtmorfOC:2Oa/n:1OlanoitarepO a/n:4Enoitcurtsnocnislairetam:3Ea/n:2EtcurtsnocotslairetaM:1EnobracdeddebmE a/n:4OPTWW/PTSFOC:3OgnipmupmorfOC:2Oa/n:1OlanoitarepO a/n:4Enoitcurtsnocnislairetam:3Enoitcurtsnocnislairetam:2Ea/n:1EnobracdeddebmE
+publishedliteraturefocusesonwastewater-treatmenttechnologies
+discharge3–8,
+and with only a few estimating emissions from
+onsite containment9,10. No attempt has yet been published that
+considers both direct and indirect emissions from an entire
+sanitation system that combines sewers and onsite sanitation
+systems, along the whole sanitation-service chain from contain-
+ment, up to treatment.
+The Intergovernmental Panel on Climate Change (IPCC)
+models greenhouse-gas emissions from sanitation under the
+categoryof ‘waste’11,andmakesa linkto‘agricultural associated .smetsysetisffo)b(,smetsysetisno)a(smetsysnoitatinasniahc-elohwmorfsnoissimesagesuohneergfosecruoslapicnirP1elbaT
+emissions’ because of the use of manure for fertiliser. The 2006 bPTWW/PTSFfosknatdnastip bPTWW/PTSFfoegarewesfo.nwo’srohtuA:ecruoS
+IPCC methods document proposes methane-correction factors
+besuygrenenoitsubmoc besuygreneretawetsaw
+(MCF) for the most common wastewater-treatment options, for
+‘septic tanks’ and for four types of pit latrines based on expert 22 22 .egarewesmorfretawetsawdnasmetsysetisnomorfegdulslaceafhtobtaertstnalptnemtaertynamytilaernI.tnalptnemtaertretawetsaW–PTWW,tnalptnemtaertegdulslaceaf–PTSFb
+judgement12.IPCC suggests that emission ratesfor methane can
+be linked to national income—with lower emission rates sug-
+gested for low- and middle-income countries. No guidance is
+providedforestimatingnitrousoxideemissionsfromanysystems
+beyond wastewater-treatment plants.
+The 2019 IPCC update includes a few additional sanitation
+options and pathways, but there is insufficient information to
+enableafullmodellingofpotentialemissionsinatypicalcitywitha
+mixofonsiteandoffsitesanitationsystemsmanagedimperfectly13.
+This affects the reliability of national estimates of emissions from
+sanitation. In this paper, we propose a framework that could be
+usedtoestimatethecompleteemissionprofileforacity-sanitation
+system, including direct and indirect emissions, from both onsite
+and offsiteservices, alongthe entire sanitation-servicechain. tropsnarttnemele
+We estimated GHG emissions along the sanitation-service
+chain, including containment (at the toilet), emptying and
+transport and treatment. Three broad categories of emissions )tropsnartdesabdaorhtiwsreniatnocdnasknatcitpes,senirtaltip(smetsysetisnO)a(
+were considered: (a) direct emissions from faecal sludge and/or
+wastewater that is in the process of stabilisation; (b) operational
+emissions associated with the management, movement and
+aeration of faecal sludge and/or wastewater; and (c) embedded
+carbonentrainedinconstructedinfrastructure(Table1).Wedid .deredisnocneebtonevahtnemtaertfomaertsnwodsnoissime,repapsihtfosesoprupehtroFa
+notincludeemissionsarisingfromdownstreamdisposalorreuse
+snoissimefoyrogetaC
+of sludge or effluent after treatment. Reuse of treated sludge or
+effluent,forexample,inagriculture,offsetsemissionsfromother
+sources;thecalculationoftheseoffsetsfallsoutsidethepurviewof
+this paper.
+Wepresentthefirstattempttomakesuchananalysisusingthe
+city of Kampala as an example. Kampala was selected as it has
+)tropsnartdesabreweshtiw(smetsysetisffO)b(
+good data availability and is served by both on-site (78%) and
+sewer-based (22%) sanitation. A summary of the sanitation sys-
+teminKampalaisshowninFig.1.WeusedtheSFDestimatesfor
+the proportion of the population whose faecal waste flows along
+each pathway, and used the 2018 estimated population of 2.25
+millionforthecityasawhole.Thegeneralmethodissummarised
+in Supplementary Note 1.
+The main finding is that for Kampala, sanitation produces
+189ktCO eperyearandmayrepresentmorethanhalfoftotal
+2
+city-levelemissions.Therearesubstantialopportunitiestoreduce
+overall emissions through improved management of sanitation.
+Results
+Resultant emission rates from typical on-site sanitation-
+containment systems. Per-capita-modelled direct methane- and
+2 COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv
+
+--- Page 3 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Fig.1Excretaflowdiagram(SFD)forKampala(fromSchoebitzetal.14).Aggregatedfaecalflowsthataresafelyseparated(green)andnotsafely
+separated(red)fromhumancontactatthecontainment,emptying,transportandtreatmentstagesofurbansanitationasaproportionofthetotalfaecal
+wasteproducedbythepopulationinKampala,Uganda.Theproportionofthepopulationusingoffsite(sewered)sanitation,on-sitesanitation(pitsand
+tanks)andnosanitation(opendefecation)isindicatedbythesizeoftherelevantdivisionofthewhitebarontheleft.Proportionsoffaecalwastethat
+subsequentlyescapeintotheenvironmentareindicatedbythesizeoftheredverticalarrowsshowingflowsthatenterthelocalarea,neighbourhoodor
+city-leveldrainagesystem,respectively.
+nitrous-oxide emission rates from typical sanitation systems in Resultant emissions from treatment. The calculations for esti-
+Kampala are summarised in Tables 2 and 3, in Fig. 2, and in matesofdirectemissionsfromthetwomaintreatmentplantsare
+expanded form, in Supplementary Tables 1–4. The aggregate inSupplementaryTables9–12.Thetotalannualdirectemissions
+averagerateofemissionsfromallcontainmentsystemsinthecity from treatment are 59 ktCO e/year, fairly evenly distributed
+2
+usingapopulation-weightedaverageis58.62kgCO e/capita/year between the wastewater treatment and faecal-sludge-treatment
+2
+for methane and 15.13 kgCO e/capita/year for nitrous oxide. processes. Direct attribution of emissions from treatment to
+2
+The total embedded carbon for containment systems was excreta that originated in on-site and offsite systems is compli-
+calculated to be 3.7 ktCO /year (Supplementary Table 6). Opera- catedbythefactthatsolidandliquidfractionsarebothseparated
+2
+tional carbonfor containment was assumed to benegligible. and later recombined at both treatment plants. Embedded
+emissions from treatment were low at 0.06 ktCO (Supplemen-
+2
+Resultant emissions from transport. Direct emissions from tary Table 13). Total operational emissions at treatment are
+estimated to be 2.9 ktCO (Supplementary Table 14).
+faecal sludge in trucks were considered negligible due to the 2
+relatively short time that faecal matter is in the transport
+phase compared with the containment and treatment phases. Summary of resultant emission rates. The emissions rates on a
+Emissions from sewers arise from biofilms and sediments and per-capitaannualbasisforkeyelementsofthesanitationsystem
+may emit methane at high rates14. There is a lack of are summarised in Table 4. Emission rates from wastewater
+data on sewer-sedimentation rates. In view of the relatively treatment (which in Kampala are dominated by ponds and
+low coverage of sewerage that reaches treatment in Kampala trickling filters) and from typical containment systems, are sig-
+(13%),weexcludedthissourcefromourcalculation.Embedded nificantly higher than rates from other elements of the system.
+carbon in the sewer network accounts for 0.97 ktCO /year To assess the relative importance of emissions from the
+2
+(Supplementary Table 7) differentexcretapathwaysinKampala,theseper-capitaemission
+Annual operational emissions from trucking faecal sludge were rates can be combined (Fig. 3 and refer to Fig. 1).
+verylowcomparedwithemissionsfromstorage,at0.52ktCO /year On the left of Fig. 2 are the emissions rates for excreta that
+2
+and from pumping wastewater, 0.024 ktCO /year (Supplementary originate in onsite systems with road-based transport. These
+2
+Table8). emissionsaredominatedbymethanethatisgeneratedinanaerobic
+COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv 3
+
+--- Page 4 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Table2 Methanecorrection factors, emissionsfactors andper capitamethane emissionrates calculated fortypicaltypesof
+containment systemsfoundinKampala basedondata fromNakagiri et al.21.
+Onsitecontainment Conditiondescriptora Methanecorrection Emissionfactor Emissionrate
+classification factor(MCF) (EF)=B xMCFb kgCH /cap/year
+0 4
+UnlinedPit 1 Individualorsharedtoilets,sludgeispermanently 0.70 0.175 3.175
+submergedbygroundwater
+2 Individualor,morecommonly,sharedfacilities,sludge 0.35 0.0875 1.587
+isabovethegroundwatertableevenintherainy
+season,surfacewaterrunoffandwashingwaterraise
+moisturecontent
+3 Individualfacilities,sludgeisabovethegroundwater 0.25 0.0625 1.134
+tableduringthedryseasononly,lowlevelsofsurface
+andwashingwaterrunoff,DOlevelsareoftenlow.
+LinedPitc 1 Sharedandhasneverbeenemptied 0.50 0.1250 2.268
+2 Sharedandemptiedoncefull 0.40 0.1000 1.814
+3 Individualhouseholdandhasneverbeenemptied 0.40 0.1000 1.814
+4 Individualhouseholdandemptiedoncefull 0.30 0.0750 1.361
+Septictanks 0.35 0.0875 1.587
+Flushtoiletconnected 1 Un-linedpitswithhighmoisturecontent 0.40 0.1000 1.814
+topits 2 Linedpitswithhighmoisturecontent 0.60 0.1500 2.721
+Compostinglatrine Largelyaerobic 0.10 0.0250 0.454
+Opendefecation 1 Toopendrainsduringtherainyseason 0.30 0.0750 1.361
+2 Toopendrainsduringthedryseason 0.20 0.0500 0.907
+3 Totheopenenvironment,largelyaerobic 0.10 0.0250 0.454
+aSeeSupportingInformationTablesSI-01,SI-03formoredetailsonthistable.
+bWhereB0isthemaximummethaneproducingcapacitykgCH4/kgCODbyprocessinthelocalcontext.
+cMostlyinfiltratingexceptwheregreywaterloadisveryhighorthereisahighgroundwatertable.
+Table3Modellednitrousoxideemissionsfactorsandpercapitanitrousoxideemissionratesfortypicalcontainmentsystemsin
+Kampala.
+Onsitecontainment Conditiondescriptora AssumedEF EmissionrateskgN O/
+2
+classification cap/year
+Unlinedpit A Groundwatertableisabovecontainedsludge,resultinginreduced 0.0050 0.0367
+nitrificationonthesurface
+B VIPblatrinewithincreasednitrificationonthesurfaceofpits 0.0090 0.0661
+C Simplepit,largelyaerobicconditionsclosetothesurfacebutnot 0.0065 0.0477
+penetratingtodepth
+Linedpitc A VIPblatrinewithenhancednitrificationatthesurface 0.0100 0.0734
+B Simplepit,largelyaerobicconditions 0.0075 0.0551
+Septictanks Surfaceisnotexposed–assumefullyanaerobic 0.0050 0.0367
+Flushtoiletconnectedtopits A Un-linedsimplepits 0.0060 0.0441
+B Un-lined/infiltratingVIPb 0.0080 0.0587
+C Linedsimplepitwithinfiltration 0.0065 0.0477
+D Lined,partiallysealed,pitlatrines 0.0090 0.0661
+Compostinglatrine Designedforaerobicdecomposition,itisassumednitrificationcanoccur 0.0100 0.0734
+throughoutthepitwithsomedenitrification
+Opendefecation A Degradeinopendrainsinthewetseason 0.0090 0.0661
+B Degradeinopendrainsinthedryseason 0.0080 0.0587
+aSeeSupportingInformationTablesSI-02,SI-04formoredetailsonthistable.
+bVentilatedImprovedPitLatrine.
+cmostlyinfiltratingexceptwheregreywaterloadisveryhighorthereisahighgroundwatertable.
+conditions in pits and tanks, in open drains when excreta are Summary emission profile for the whole city system. These
+dumped after emptying and at the treatment plant. The rate of pathway-basedemissionrateswerethencombinedwithpopulation
+emissions is the highest for excreta that are emptied and either data from the excreta flow diagram to build up a total emission
+taken to treatment or dumped untreated. The category ‘not safely profile (Table 5, Fig. 4, and see Supplementary Tables 16, 17).
+contained at the household level’ has relatively low emissions in Total sanitation-associated emissions in Kampala are estimated to
+Kampala because most of the excreta leaving these systems are be 189ktCO eannually.
+2
+leaching into the ground with relatively low associated emission In Fig. 4, sanitation service-chain outcomes are shown as
+rates. Onthe right of Fig. 2 arethe emissionrates for excreta that population-weightedflowarrowsbasedonthemethoddescribed
+aretransportedinthesewersystem.Emissionsareagaindominated by Peal et al.15,16 and total annual emissions by service-chain
+by methane. In this category, excreta that are treated have the outcome and category of emission.
+highestemissionratesduetothedominanceofanaerobictreatment Directemissionsfromon-sitecontainers,anddirectemissions
+processes withno methane capture. from treatment of both wastewater and faecal sludge dominate,
+4 COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv
+
+--- Page 5 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Fig.2Aggregateper-capitaemissionratesfortypicalsanitationcontainmentsystemsinKampala.Annualper-capitaemissionsofmethane(black)and
+nitrousoxide(grey)expressedinkgCO equivalentfromcontainers(pitsandtanks)inKampalaunderobservedoperatingconditions.Emissionsrateswere
+2
+calculatedusingtheIPCCmethod.Methane-correctionfactorsandemissionsfactorswerecalculatedusinginformationabouttheextentofaerobicand
+anaerobicconditionsobservedinsidecontainersbyNakagirietal.21.
+Fig.3Aggregateper-capitaannualemissionsfromexcretainKampalabysanitationpathwayandultimatefate.Verticalbarsrepresentthetotalannual
+emissionsassociatedwiththeexcretaofonepersontravellingalongthedesignatedsanitationpathwayfromcollection,throughemptyingandtransportto
+treatment(whererelevant)foron-sitesystems(a)andoffsitesystems(b).Thedirectemissionsofmethane(solidpalegrey)andnitrousoxide(shaded
+grey),indirectoperationalemissionsassociatedwithtruckingandpumping(black)andembeddedcarbon(soliddarkgrey)foreachstageofsanitationare
+summedineachcase.Thesecond,fifthandeighthbarsrepresentemissionsfromflows,whicharesafelyseparatedfromhumancontact(knownas‘safely
+managed’sanitation).Allotherpathwaysresultinriskofhumanexposuretofaecalmatterandleakageintotheenvironment.
+Table4 Percapita annualemissions ratesfrom sanitation system elementsinKampala (kgCO e/capita/year).
+2
+Sanitationserviceelement DirectCH DirectN O OperationalCO Embeddedcarbon Total
+4 2 2
+Containment 58.63 15.13 – 2.43 76.18
+Transportoffaecalsludgeintrucks – – 0.85 – 0.85
+Treatmentoffaecalsludge 51.35 2.49 – 0.12 53.96
+Transportofwastewaterinsewers – – – 4.06 4.06
+Treatmentofwastewater 140.27 24.34 16.16 0.02 180.79
+Unsafedischargestotheenvironment 22.84 11.02 – – 33.85
+COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv 5
+
+--- Page 6 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Table5Principal sourcesof greenhousegasemissions from whole-chain sanitation systems(a)onsite systems,(b)offsite
+systemsinKampala.
+Emissioncategorya Totalemissionsbycategory(tCO e)
+2
+(1)Containment (2)Emptying/emptyingandtransport (3)Treatment
+(a)Onsitesystems(pitlatrines,septictanksandcontainerswithroadbasedtransport)
+Direct(D) Contained:87,950 Delivered:0 Treated:26,650
+Notcontained:8,036 Notdelivered:2572 Nottreated:6429
+Operational(O) Contained:0 Delivered:556 Alltreatment:0
+Notcontained:0 Notdelivered:0
+Embeddedcarbon(E) Allsystems:4,262 Alltrucks:0 Treated:59
+Nottreated:0
+(b)Offsitesystems(withsewerbasedtransport)
+Direct(D) Contained:0 Delivered:0 Treated:29,629
+Notcontained:0 Notdelivered:11,572 Nottreated:6429
+Operational(O) Contained:0 Delivered:41 Treated:2909
+Notcontained:0 Notdelivered:0 Nottreated:0
+Embeddedcarbon(E) Allsystems:0 Allsewers:2011 Treated:3
+Nottreated0
+aDetailsofemissionscategoriesareinTable1.
+Fig.4AnnualsanitationemissionsforKampalamappedtotheexcretaflowdiagram.Totalemissionsfromelementsofthesanitationsystemin
+Kampala,showingdirectemissions(black),operationalemissions(darkgreen)andembeddedcarbon(grey).Areaofcirclesindicatesthescaleof
+emissionsineachcase.Ofthetotalemissions,49%arefromfeacalmatter-storedtanksandpits(a),4%fromdischargesfromtanksandpitsdirectto
+opengroundordrains(b),2%fromillegaldumpingoffaecalwaste(c),6%leakagefromsewers(d),anegligibleamount(lessthan1%)fromtransportof
+feacalwastebytruck(e),1%fromtransportofwastewaterinsewers(f),7%fromwastewaterandfeacalsludgebypassingtreatment(g+g)and31%
+i ii
+fromtreatmentplants(h+h).
+i ii
+6 COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv
+
+--- Page 7 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Table6Selectedresultsfromthesensitivityanalysisforend-to-endGHGemissionsfromurbansanitationinKampala,Uganda.
+Totalemissions(ktCO2eperannum)
+Baseline Changeinassumptions
+Onsite:methane OnsiteN O CODproductionkgpercapitaperyear Truckefficiency
+2
+conversion emission
+factor(MCF) Factor(EF)
++10% +25% +10% +25% +20% +200%
+Totalemissions 189 196 207 191 194 213 194
+%change 4% 9% 1% 2% 13% 2%
+TotalemissionsfromOnsite 137 144 154 138 141 156 141
+%change 5% 13% 1% 3% 14% 3%
+TotalemissionsfromOffsite 53 53 53 53 53 58 53
+%change 0% 0% 0% 0% 10% 0%
+followed by emissions from waste dumped into open drains. sanitation may be underestimated by one-third. Sanitation
+Emissions from transport of both wastewater and faecal sludge could plausibly be contributing approximately half of total
+are insignificant. emissions from Kampala city.
+The sanitation system in Kampala is typical of many rapidly
+growing cities in low- and middle income countries and
+Sensitivityanalysis.Sensitivityanalysisshowsthatthemodelis
+relies on a blend of on-site and offsite sanitation. The city has
+relativelyrobusttomostassumptionsusedtopredictemissions
+relatively good management of sanitation, but our analysis
+from stabilization of sludges and wastewater. A summary of shows that there are significant avoidable emissions occurring
+the sensitivity analysis is in Supplementary Table 18. Key
+throughoutthesanitationservicechain.Theuseofsystemsthat
+findings from the sensitivity analysis are presented below in
+areoftensaidtoprovideahigherlevelofservice(e.g.,so-called
+Table 6. The results of our modelling of theoretical emissions
+septic tanks) is not associated with better management of
+from various on-site sanitation systems have an impact on
+the service chain from the perspective of emissions. Overall,
+theoverallresults,buttheleveragedchangeislow(achangeof
+sewered systems perform relatively well in Kampala, but this
+10% in any value changes the resultant total emissions by does not imply a generalizable conclusion—the relative weight
+less than 5%). The most significant assumption relates to
+of emissions from onsite and offsite systems could vary sig-
+total COD in faecal waste. A reduction or increase of 20% nificantly in different cities, depending on topography and
+for the COD value changes the overall estimated emissions by
+design details. Emissions from trucking faecal sludge are not
+approximately 13%. currently significant. There are other reasons to reduce the use
+of fossil fuels for road-based transport of faecal sludge,
+Discussion including its impact on air quality, but until direct emissions
+arecontrolled,theimpactontheoverallemissionprofilewould
+Thehighestper-capitaemissionsareassociatedwithtreatmentof
+wastewater (181 kgCO e/capita/year), storage of faecal sludge in be minimal.
+2
+pitsandtanks(76kgCO e/capita/year),treatmentoffaecalsludge Theworkpresentedhereisbasedonastronglevelofempirical
+2
+(54kgCO e/capita/year)andunsafedischargestoopendrains(34 information from Kampala. Many cities would struggle to carry
+kgCO e/ca2 pita/year).Sealedtanks,so-calledseptictanks,andany out a similar analysis without collecting significant additional
+2
+toilets that are inundated with ground or surface water have data.However,ourmodelisbasedlargelyonIPCCmethodsand
+lacksverificationfromfieldobservations.Thereisapressingneed
+higher emissions than dry latrines.
+Thereisnocorrelationbetweenfaecalflowsthatareconsidered for more observational data on emissions from real sanitation
+‘safelymanaged’andlowemissions.Thereisalsonoevidencethat systems as they are found and operated in situ.
+on-site or offsite systems are inherently ‘better’ from an emissions Thereisconsiderableuncertaintyaroundourestimatesandthe
+perspective. Interventions that could immediately reduce emission absolute numbers should be treated with caution. However, this
+representsasignificantimprovementoverpreviousmethodsthat
+therefore need to focus both on improved management of onsite
+sanitation containment (better and more frequent emptying and made blanket assumptions about the types of onsite and offsite
+transport), and modifications to treatment, while continuing to systems likely to be found in cities such as Kampala. The results
+improvethesafemanagementoffaecalmatterfromapublic-health suggest that emissions from sanitation and their management
+perspective.Whereneworupgradedon-sitesanitationinvestments couldplayavitalpartinreducinggreenhousegasses,particularly
+areplanned,thissuggeststhepromotionoftheuseofsmallertanks, methane,andasmanylow-andmiddle-incomecountriesgearup
+ortheuseofcontainer-basedsystems,bothofwhichmighthavea to meeting SDG 6.2, there will be opportunities to make
+netpositiveimpactonemissions.Theadditionofmethane-capture improvements in sanitation management and reduce the long-
+technology at the treatment plants would require upfront invest- term impact on the climate.
+ment, but couldoffer significant returns in terms of conversion of
+methane topower. Methods
+Our analysis suggests that estimates based on the IPCC Inordertomaximisethepotentialforcomparabilitywithestablishedglobalesti-
+method may seriously underestimate global emissions asso- matesGHGemissionrateswerebuiltupforeachemissioncategoryfromestab-
+lishedIPCCmethodologywhereverpossible.Allemissionswereconvertedto
+ciated with sanitation. Our estimate of total emissions from
+carbondioxideequivalent(COe)usingthe100-yearglobalwarmingpotential
+sanitation in Kampala is significantly higher than previous (GWP)ofeachgas(34formet2 hane,298fornitrousoxide)18.
+estimatesforthecity.Basedonanadaptationofthemostrecent
+city-level emission inventory from Lwasa17 (see Supporting Methaneemissionfactorfortypicalsanitationcontainmentandtreatment
+Information), our estimates suggest that emissions from systems.TheIPCCestimatesmethaneemissionsforsanitationsystemsfrom
+COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv 7
+
+--- Page 8 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+chemicaloxygendemandbasedonEq.1.EmissionfactorsarederivedfromEq.2, infaecesandurinecombinedforKampala(basedonareportedvalueof12.8g/cap/
+summedforthepopulationsegmentusingeachtypeofsanitationsystem. day)27.Fortreatmentprocessesweusedthestandardemissionfactorsprovidedby
+IPCC11,13.Detailsoftheresultantemissionfactorsfornitrousoxideareinthe
+CH ¼∑P´COD´PR ´EF ð1Þ
+4 COD SupplementaryTables2,4withasummaryoftheresultsshowninTable3.
+where;CH =totalmethaneemissionsfromagivenelementofthesystem(kgCH/
+4 4
+year),P=populationusingthesystem,COD=chemicaloxygendemandfromthe
+Operationalemissions(trucking).Operationalemissionswerecalculatedonthe
+excretaofeachperson(kgCOD/cap/year),PR COD=percentagereductionof basisoffuelusefortruckingfaecalsludge(seealsoSupplementaryMethod4).We
+chemicaloxygendemandwhilstinsitu(0–1),EF=emissionfactorforeachcon- useddatafromtruckoperationstoestimatetypicaltransportdistances28and
+tainmenttechnology(kgCH 4/kgCOD) combinedthiswithestimateofemissionsfactorsfortypicaltrucks,basedonwork
+EF ¼B ´MCF ð2Þ conductedonthetransportsectorinSouthAfrica29.Theemissionsfromfaecal
+c 0 c sludgetruckingwerecalculatedusingEq.5summedforallknowntrucksoperating
+where;EF =emissionfactorforeachcontainmenttechnology,B =maximum inKampala28.
+C 0
+methane-producingcapacitykgCH/kgCOD,MCF =methanecorrectionfactor
+foreachcontainmenttechnology 4 C CO 2;T¼∑N T´DT´EF V ð5Þ
+WeusedEqs.1and2tomodelestimatesofdirectemissionsfromtypical whereCO =totalCO emissionsfromthetransportofFS(kgCO/year),
+sanitationsystemsbasedonupdatedmethanecorrectionfactors(MCF c).MCF =num2 b,T ertripsmade2 peryear,DT=averagedistancetravelledpe2
+c N rtrip(vehicle
+variesfrom0(forafullyaerobicenvironment)to1(forafullyanaerobic kmT ),EF =emissionfactorforeachtypeofvehiclewithintheFSMfleet(kgCO/
+environment)19,20.Wedevelopednewmodelsforthetypesoflatrinescommonly V 2
+foundinKampalabasedonfielddataprovidedbyNakagirietal21.Asinputs,we vkm)
+DataontruckjourneysaresummarisedinSupplementaryTable8,whichalso
+assumedatypicalvaluefortheCODofrawfeaces(upstreamofthetoilet)of71kg
+showstheresultanttotalCO emissionsobtainedbyapplyingEq.5.
+COD/capita/day22,andatypicalvalueforPRof70%22,23.ThevalueofB is0.25kg 2
+0
+CH/kgCOD12.
+4
+Themethane-formingreaction,methanogenesis,occursunderobligate Operationalemissions(pumpingandaeratingwastewaterinsewersand
+anaerobicconditions.Alowdissolvedoxygen(DO)levelisagoodindicatorfor treatmentplants).Emissionsassociatedwithelectricityorfuelusage(e.g.,diesel)
+higherratesofmethaneemission.DOfallswhentheloadingishigh,and werecalculatedusingEqs.6and 7forelectricityanddieselrespectivelysummed
+correspondinglywhendilutionratesarelow.DOwillalsotendtobeloweratdepth foreachpumpingstationand/ortreatmentplant.
+instaticflowsystems(i.e.,withinpitlatrinesorstagnantwaterbodies)21.DOalso
+appearstofallindryseasonsandriseduringtherains24.ConsistentwithDO,low CO 2;el¼∑C el´EF el ð6Þ
+co ox nid da it ti io on n.r Fed uu rtc ht eio r,n lop wote On Rti Pal b( eO twRP ee) no −fl 1e 9ss 9t ah na dn −+ 55 10 mm VV ii nn dd ii cc aa tt ee ss aa cn idox icic ew leh ce tr re icC ityO n= suC mO tioem ni (s Msio Wns h/a ys es ao rc )i ,a Ete Fdw =it eh me il se sc it or nici ft ay ctu os rag (te C( Okg eC /O W/ye ha /r y) e, aC r)el=
+2 c, oel p2 M2
+environment,idealformethaneformation21.Almostallpitlatrinessurveyedby el 2
+Nakagirietal.21werewithinlowDOandacidicORP.Insludges,withinpitsand CO ¼∑C ´EF ð7Þ
+2d d d
+tanks,orinwastewaterandfaecalsludgetreatmentplants,highermoisturecontent
+andacidicenvironmentareassociatedwithenhancedmethanogenesis.Thus,lined/ whereCO 2d=CO 2emissionsassociatedwithdieselusage(kgCO 2/year),C d=diesel
+sealedcontainers,waterloggedtoilets,waterbornepipedsewerageandanaerobic, consumption(l/year),EF d=emissionfactor(kgCO 2e/ldiesel)
+highloadorsaturatedtreatmentprocessesarealllikelytobeassociatedwithhigher Weuseddataonelectricityandfuelusageinsewerandwastewatertreatment
+methaneemissions. operationsandappliedEqs.6and7toobtaintotaloperationalemissionsfor
+ToestablishvaluesforMCF,thephysicalcharacteristicsofsludgeinside wastewateroperations.SupplementaryMethod7providesmoredetailsinthe
+c
+containersarerequired,particularlytheextentofaerobicandanaerobicconditions methodandtheresultsarebrokendownonSupplementaryTable14.
+atdifferentdepths(seealsoSupplementaryMethod1).Nakagirietal.21examined
+thephysicalpropertiesofsludgecorestakenfromanumberofpitsinKampala. Embeddedcarboninconstructionmaterial.Weusedanalyticalestimationto
+ThesedatawerecombinedwithcitywidesanitationdatafromMusabe25toproduce
+modelemissionsassociatedwithembeddedcarbon.Fulldetailsoftheapproach
+emissionsprofilesforasetof‘typicaltypes’ofcontainersinthecityusingtheIPCC
+areinSupplementaryMethod2forcontainment,3forsewerage,and6for
+method11,13.DetailsofthedeterminationofMCF andEFformethanearein
+c treatmentplants.Quantitiesofmaterialsinsanitationstructures(toilets,sewers,
+SupplementaryTables1,3withasummaryoftheresultsshowninTable2.
+treatmentplantsetc.)wereestimatedbasedonstandarddesignsandinformation
+Methaneemissionsfromtreatmentplantswerecalculatedusingamodified
+onthedesignoftoiletsinKampalafromNakagiri,etal.30.Standardemission
+IPCCformulathatisbasedonReidetal.20 factorswereapplied31–33.Typicalestimatesofinfrastructuredesignlifewere
+CH ¼Σ½UxEFxðTOWÞxð1(cid:2)ðLþSþRÞÞ(cid:3) ð3Þ usedtocreateanannualvalue.Asummaryoftheemissionfactorsusedisshown
+4 inSupplementaryTable5anddetailsofthesystem-wisecalculationsarein
+wheremethaneemissionsareexpressedinkgCH 4/yearandaresummedforeach SupplementaryTables6,7,13.
+treatmentplant.U=effectivepopulation(thepopulationequivalentofexcreta
+pfr ro om cesd si )r ,e Ect Fi =nfl eo mw ist so iot nhe fap cr to oc rses (s kp glu Cs Hef /fl ku gen Ct Of Dro )m =p Brev ×io Mu Cs, Fu ,s Bual =ly Mdr ay xi in mg u, SanitationsysteminKampala.Inordertocreatetheemissionprofileforthecity
+m
+4 0 0 sanitationsystemofKampala,weuseddatafromNakagirietal.21,Kimulietal.24,
+methaneproducingcapacitykgCH/kgCODbyprocessinthelocalcontext,
+MCF=methanecorrectionfactor,T4 Musabe25,Schoebitzetal.34,McConvilleetal.35andLwasa17.Thesectionbelow
+OW=totalorganicsinwastewaterperyear
+S(k =gC prO oD po/ rty ie oa nr) o, fL o= rgp ar no icpo cr ot mio pn oo nf enor tg ra en mic ovc eo dm ap son sle un dt gr ee ,m Ro =ve pd roa ps oe rf tfl iou nen ot, ed nra dw A ss c uc po on r id na inl tl hgt eh toe es nte h vies ro omu nr o mc se t es nr. e tc uen nt tre es at ti em da 3t 4e .Aof roex uc nr det oa nfl eow fifs thin oK fa thm ep pa ola p, uc ll ao ts ie onto hh aa vl ef
+f
+methanerecoveredthroughcaptureprocesses
+sanitationconnectedtosewers;aroundathirdofwastewateristreated,whiletwo-
+DetailedcalculationsarepresentedintheSupplementaryInformation.
+thirdsendupindrainsorotherwaterbodies.Theremainingpopulationprimarily
+useonsitesanitationsystemsthatareeitherunlinedorlinedpitlatrines,orso-
+Nitrous-oxideemissionfactorsfortypicalsanitationcontainmentandtreat- calledseptictanks,manyofwhichareshared.Two-thirdsofthepopulation,and
+mentsystems.Nitrousoxideisproducedduringbothnitrificationanddeni- manyofthepeoplewhorelyononsitesystems,liveininformallowincome
+trification.Nitrificationoccursatthesurfacefacilitatingtheescapeofnitrousoxide settlementinlowlyingareaswithhighwatertable,anditiswidelyreportedthat
+gas,andisthereforethemoresignificantprocess.Duringdenitrificationnitrous mostonsitesystemsareregularlyinundatedwithsurfacewaterorfloodedwith
+oxideformedinananaerobiczonemaybedissolvedintoaliquidphaseorcon- groundwater.Oftheexcretacollectedinonsitesanitationsystems,aboutonethird
+vertedtodinitrogen(N 2)beforeitcanescapeasagas26.Therateofnitrousoxide remainssafelystoredinpitlatrinesandonethirdarestoredintanksandpitsthat
+emissionisthereforedependentontheextenttowhichaerobicconditionsexistat arelocatedinareaswherethereissignificantriskofgroundwaterpollution.The
+thesurfaceandanaerobicconditionsbelowthesurface.Thesecanbeimpactedby remainingthirdarecollectedintanksandpitsthatareemptiedonaverageonce
+bothsystemdesignandoperationalconditions. everythreeyears.Duringfloodeventsthereisevidencethatmanytoiletslocated
+NitrousoxideemissionsarecalculatedbasedonEq.4summedforthe neartodrainsareflushedout,usinga‘footvalve’orverticalgateatthebottomof
+populationsegmentusingeachtypeofsanitationsystem11,13,21: thetankthatcanbeliftedmanually.Agraphicalsummaryofthesanitationsystem
+isshowninFig.1.
+NO¼∑P´N ´EF´44 ð4Þ Therearetwomajortreatmentplants,LubigiandBugolobi.TheLubigiplant
+2 I 28
+comprisesaseriesofwastestabilizationponds(anaerobicfollowedbyfacultative
+whereN 2O=totalN 2Oemissions(kgN 2O/year),P=populationusingeach ponds)followedbydryingbedsforwastewatersludge.Faecalsludgefromonsite
+sanitationfacility(cap),N I=nitrogeninfluentfromurineandfaeces(kgN/cap/year), sanitationisdeliveredtosettling/thickeningtanks;liquidsareco-treatedwith
+EF=emissionfactorforeachsanitationfacility(kgN 2O-N/kgN),4 24 8=conversion wastewaterinthestabilisationponds,andsolidsinthedryingbeds.Thefaecal
+factorforNO–NintokgNO. sludgetreatmentplantwasreportedlyalreadyatdesigncapacityof400m3faecal
+2 2
+Forcontainment,weusedfield-study-deriveddata21,25togeneratemodelled sludgeperdaywithinthefirstmonthsofoperation28.Lubigireceives3,000m3
+estimatesforemissionfactors.Weassumedaproductionof4.672kgN/capita/year wastewaterdailyoutofthe5,000m3designcapacity35.
+8 COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv
+
+--- Page 9 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+Bugolobiwastewatertreatmentplantconsistsofsettlingtankswithsupernatant 11. Doorn,M.etal.,IPCCGuidelinesforNationalGreenhouseGasInventories
+goingtotricklingfilters,solidsgoingtodigesters(ifoperational)followedbydrying Volume5:Waste.TheNationalGreenhouseGasInventoriesProgramme,the
+beds28.WhileBugolobiwasnotdesignedtoco-treatfaecalsludge,itnonetheless IntergovernmentalPanelonClimateChange.Hayama,Kanagawa,Japan(2006).
+receivesabout200m3faecalsludgeperday.Theplantreceives13,000m3 12. Doorn,M.R.etal.Wastewatertreatmentanddischarge,2006IPCCguidelines
+wastewaterdailyoutofthe32,000m3designcapacity35. fornationalgreenhousegasinventories(IPCC,2006).
+TheremainingthreewastewatertreatmentplantsinKampala,Naalya,Ntinda 13. IPCC.Refinementtothe2006IPCCguidelinesfornationalgreenhousegas
+andBugolobiFlatshavenegligiblecapacityof1,175m3/d14,approximately3%of inventories;ISBN978-4-88788-232-4;IntergovernmentalPanelonClimate
+thecapacityofLubigiandBugolobicombined(37000m3).Basedontheavailable Change:Geneva(2019).
+datawethereforeassumethatoftheexcretathataretreated,80percentof 14. Liu,Y.,Ni,B.-J.,Sharma,K.R.&Yuan,Z.Methaneemissionfromsewers.
+wastewaterand33percentoffaecalsludgearetreatedatBugolobiwiththebalance Sci.TotalEnviron,524–525,40–51,(2015).
+treatedatLubigi. 15. Peal,A.,Evans,B.E.,Blackett,I.,Hawkins,P.&Heymans,C.FecalSludge
+Management:analyticaltoolsforassessingFSMincities.J.WaterSanit.Hyg.
+Emissionsprofile.Toproduceanemissionprofileacrosstheentiresystem,the Dev.4,371–383,(2014).
+unitemissionsratescalculatedasdescribedaboveweremappedontotheactual 16. Peal,A.etal.,Estimatingsafelymanagedsanitationinurbanareas;lessons
+sanitationserviceprofileforKampalausingtheexcreta-flowdiagramorSFDfor learnedfromaglobalimplementationofexcreta-flowdiagrams.Front.
+thecity34.TheprocessisdescribedinSupplementaryMethods8.Pealetal.16note Environ.Sci.10.3389/fenvs.2020.00001(2020).
+thatsignificantsystemfailuresoccurintypicalurbansanitationsystemsinSub- 17. Lwasa,S.,GreenhouseGasEmissionsInventoryforKampalaCityand
+saharanAfrica.ThisconfirmsthefindingsofSchoebitzetal.34.Manysystem MetropolitanRegion.InUN-Habitat.http://mirror.unhabitat.org/downloads/docs
+failuresresultindischargestotheopenstormwaterdrainagenetwork.Becausethe (2013).
+drainsaresometimesdryweusedthemeanoftheemissionratesforuntreated 18. Myhre,G.etal.,AnthropogenicandNaturalRadiativeForcing,Climate
+wastedischargedtoopendrainsinthewetanddryseasonstoestimatemethane Change2013:ThePhysicalScienceBasis.ContributionofWorkingGroupIto
+andnitrousoxideemissionscausedbyflowstoopendrains(see‘Nofacility’
+theFifthAssessmentReportoftheIntergovernmentalPanelonClimate
+emissionratesinSupplementaryTable4).Weassumedthatallillegaldumpingand Change,659–740(CambridgeUniversityPress,2013).
+dischargesupstreamofthetreatmentplantswenttoopendrains.However,failures 19. Diaz-Valbuena,L.R.etal.Methane,carbondioxide,andnitrousoxideemissions
+atcontainmentweredivided.Shoebitzetal.reportthatmost‘failed’containment fromseptictanksystems.Environ.Sci.Technol.45,2741–2747(2011).
+resultsininfiltrationtothegroundwaterthatisassumedtohavenegligibleimpact
+20. Reid,M.C.,Guan,K.,Wagner,F.&Mauzerall,D.L.Globalmethane
+onemissions34.Aquarteroffailuresatcontainmentareassumedtoresultinpits emissionsfrompitlatrines.Environ.Sci.Technol.48,8727–8734(2014).
+andtanksbeingflushedouttodrainsduringfloodevents.
+21. Nakagiri,A.etal.,Assessingambientandinternalenvironmentalconditions
+ofpitlatrinesinurbanslumsofKampala,Uganda:effectonperformance.J.
+Data availability WaterSanit.Hyg.Dev.,7,92–101(2017).
+Thedatasetsgeneratedduringthecurrentstudyareavailableathttps://doi.org/10.5518/1110. 22. Nwaneri,C.,Foxon,K.,Bakare,B.,Buckley,C.InBiologicaldegradation
+processeswithinapitlatrine,WISABiennialConference&Exhibition,2008p.
+22(WISA,2008).
+Code availability
+23. Bakare,B.,Foxon,K.,Brouckaert,C.&Buckley,C.VariationinVIPlatrine
+Supplementaryinformationisprovidedtooutlinethedetailsofthecalculationsmaking sludgecontents.WaterSA38,479–486(2012).
+upthismodel.AcopyoftheExcelbasedmodelusedtoassembletheseestimatesis 24. Kimuli,D.etal.Quantificationofphysico-chemicalcharacteristicsand
+depositedathttps://doi.org/10.5518/1110. modelingfaecalsludgenutrientsfromKampalacityslumpitlatrines.Int.J.
+Res.Eng.Adv.Technol.3,129–141(2016).
+Received: 13October 2021;Accepted: 10 March2022; 25. Musabe,K.ProvisionofConsultancyServicesforSanitationMapping/Baseline
+Assessment(KampalaCapitalCityAuthority,2017).
+26. Law,Y.,Ye,L.,Pan,Y.&Yuan,Z.Nitrousoxideemissionsfromwastewater
+treatmentprocesses.Phil.Trans.R.Soc.BBiol.Sci.367,1265–1277(2012).
+27. Rose,C.,Parker,A.,Jefferson,B.&Cartmell,E.Thecharacterizationoffeces
+andurine:areviewoftheliteraturetoinformadvancedtreatmenttechnology.
+Criti.Rev.Environ.Sci.Technol.45,1827–1879(2015).
+References
+28. Schoebitz,L.etal.GISanalysisandoptimisationoffaecalsludgelogisticsat
+1. Camposetal.Simulatingnutrientandenergyfluxesinnon-networked city-widescaleinKampala,Uganda.Sustainability9,194(2017).
+sanitationsystems,FaecalSludgeManagementConference,Durban,29.10.–
+29. Tongwane,M.,Piketh,S.,Stevens,L.&Ramotubei,T.Greenhousegas
+01.11.2012(2012). emissionsfromroadtransportinSouthAfricaandLesothobetween2000and
+2. Schützeetal.Simulationandvisualizationofmaterialflowsinsanitation 2009.Transp.Res.PartDTransp.Environ.37,1–13(2015).
+systemsforstreamlinedsustainabilityassessment.Wat.Sci.Technol.79,
+30. Nakagiri,A.etal.ArepitlatrinesinurbanareasofSub-SaharanAfrica
+1966–1976,(2019). performing?Areviewofusage,filling,insectsandodournuisances.BMC
+3. Romeiko,X.X.Comprehensivewaterfootprintassessmentofconventional PublicHealth16,120(2015).
+andfouralternativeresourcerecoverybasedwastewaterserviceoptions. 31. Nielsen,C.V.InCarbonfootprintofconcretebuildingsseeninthelifecycle
+Resour.Conserv.Recycl.151,104458(2019). perspective,ProceedingsNRMCA2008ConcreteTechnologyForum,2008.1–14
+4. Cashman,S.etal.Energyandgreenhousegaslifecycleassessmentandcost (NRMCA,2008).
+analysisofaerobicandanaerobicmembranebioreactorsystems:Influenceof
+32. Purnell,P.,Black,L.J.C.&Research,C.Embodiedcarbondioxideinconcrete:
+scale,populationdensity,climate,andmethanerecovery.Bioresour.Technol. Variationwithcommonmixdesignparameters42,874–877(2012).
+254,56–66(2018).
+33. USEPADocumentationforGreenhouseGasEmissionandEnergyFactors
+5. Chen,X.etal.Greenhousegasemissionsandwastewatertreatment UsedintheWasteReductionModel(WARM)(USEnvironmentalProtection
+performancebythreeplantspeciesinsubsurfaceflowconstructedwetland
+Agency,2020).
+mesocosms.Chemosphere239,124795(2020).
+34. Schoebitz,L.,Niwagaba,C.B.,Strande,L.SFDReportKampala,Uganda.In
+6. Koutsou,O.P.,Gatidou,G.&Stasinakis,A.S.Domesticwastewater SFDPromotionInitiative:2016.RetrievedfromtheSFDPromotionInitiative
+managementinGreece:Greenhousegasemissionsestimationatcountryscale. Portal(www.sfd.susanna.org),specificallyathttps://www.susana.org/
+J.Clean.Prod.188,851–859(2018).
+_resources/documents/default/3-2593-7-1478269444.pdf(2016).
+7. Zhang,P.etal.Anintegratedgravity-drivenecologicalbedfor 35. McConville,J.R.,Kvarnström,E.,Maiteki,J.M.&Niwagaba,C.B.Infrastructure
+wastewatertreatmentinsubtropicalregions:processdesign,performance investmentsandoperatingcostsforfecalsludgeandsewagetreatmentsystemsin
+analysis,andgreenhousegasemissionsassessment.J.Clean.Prod.212, Kampala,Uganda.UrbanWaterJournal16,584–593(2019).
+1143–1153(2019).
+8. CasasLedón,Y.,Rivas,A.,López,D.&Vidal,G.Life-cyclegreenhousegas
+emissionsassessmentandextendedexergyaccountingofahorizontal-flow
+constructedwetlandformunicipalwastewatertreatment:acasestudyinChile. Acknowledgements
+Ecol.Indicators74,130–139(2017). Thisworkwasfundedby(1)TheBillandMelindaGatesFoundation(Grantnumber
+9. Huynh,L.T.etal.Greenhousegasemissionsfromblackwatersepticsystems. OPP1153400)and(2)TheNaturalEnvironmentResearchCouncil/Foreign,Com-
+Environ.Sci.Technol.55,1209–1217(2021). monwealthandDevelopmentOffice(FCDO)—formerlytheDepartmentforInterna-
+10. Ryals,R.,McNicol,G.,Porder,S.&Kramer,S.Greenhousegasfluxes tionalDevelopment(DFID)(NE/M02038X/1)viatheFutureClimateforAfrica(FCFA)
+fromhumanwastemanagementpathwaysinHaiti.J.Clean.Prod.226,106–113 fundedproject,IntegratingHydro-ClimateScienceintoPolicyDecisionsforClimate-
+(2019). ResilientInfrastructureandLivelihoodsinEastAfrica(HyCRISTAL).Theideato
+COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv 9
+
+--- Page 10 ---
+ARTICLE
+COMMUNICATIONSEARTH&ENVIRONMENT|https://doi.org/10.1038/s43247-022-00413-w
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoBarbaraEvans.
+estimateemissionsfromdifferenttypesofsanitationsystemswasproposedbyRaduBan
+attheBillandMelindaGatesFoundation.Theauthorsacknowledgethecontributionof
+PeerreviewinformationCommunicationsEarth&Environmentthankstheanonymous
+GovernmentandCivilSocietypartnersinKampalatovariousactivitiesofthe
+HyCRISTALprojectthatfacilitatedthisanalysis.AndrewPealreviewedthepaperand reviewersfortheircontributiontothepeerreviewofthiswork.PrimaryHandling
+providedvaluablefeedback. Editors:ClareDavis.Peerreviewerreportsareavailable.
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+Author contributions
+TheworkdescribedinthispaperwasconceptualisedanddevelopedbyEvans‡.The Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+modellingofon-siteemissionfactorswascarriedoutbyJohnson‡underthesuper- publishedmapsandinstitutionalaffiliations.
+visionofZakaria‡,WayandEvans.Groundtruthingofrelevantcontextualinfor-
+mationwasdonebyNkurunziza‡.Directemissioncalculationsfromcontainersand
+treatmentwerecheckedbyCamargo-Valero‡.Thefirstend-to-endcalculationwas
+Open Access This article is licensed under a Creative Commons
+carriedoutbyZakaria.TheinitialdraftofthismanuscriptwaspreparedbyZakaria
+Attribution 4.0 International License, which permits use, sharing,
+fromareportpreparedbyJohnson.Paperformulationandeditingwasoverseenby
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+Evans.Allauthorsmadetextcontributionsandcontributedtothefinaledit.All
+authorshavegivenapprovaltothefinalversionofthepaper.‡Theseauthorscon- appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+tributedequally. materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+Competing interests article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+Theauthorsdeclarenocompetinginterests. regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+Additional information licenses/by/4.0/.
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+availableathttps://doi.org/10.1038/s43247-022-00413-w. ©TheAuthor(s)2022
+10 COMMUNICATIONSEARTH&ENVIRONMENT| (2022) 3:80 |https://doi.org/10.1038/s43247-022-00413-w|www.nature.com/commsenv

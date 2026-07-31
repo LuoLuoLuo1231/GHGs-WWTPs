@@ -1,0 +1,448 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment902(2023)166017
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Insights into greenhouse gas emissions from a wastewater treatment plant
+in vulnerable water areas of China
+Jiemiao Maa, Xiaojing Nia, Chen Caia,b,*, Yuewu Dac, Kan Huc, Ru Guoa,b,d, Jia Liua,b,e,
+Kaiming Penga,b, Erwu Liuf, Xiangfeng Huanga,b,e,*
+aCollege of Environmental Science and Engineering, Tongji University, Shanghai 200092, China
+bInstitute of Carbon Neutrality, Tongji University, Shanghai 200092, China
+cWuxi Water Group Co., Ltd., Wuxi 214031, China
+dKey Laboratory of Cities Mitigation and Adaptation to Climate Change in Shanghai, Shanghai 200092, China
+eFrontiers Science Center for Intelligent Autonomous Systems, Shanghai 201210, China
+fCollege of Electronic Information and Engineering, Tongji University, Shanghai 200092, China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•The GHG emissions of a case WWTP in
+vulnerable water areas were
+investigated.
+•Stricter discharge limits increased the
+total GHG emission intensity by 18.2 %.
+•Fugitive emissions were more suscepti-
+ble to discharge standard improvement.
+•Scale effects of both direct and indirect
+GHG emissions were observed.
+•Influent COD and TN are important
+factors driving GHG emissions.
+A R T I C L E I N F O A B S T R A C T
+Editor: Huu Hao Ngo Wastewater treatment plants (WWTPs) are a significant anthropogenic source of greenhouse gas (GHG), but the
+quantitative assessment of GHG emissions from WWTPs in vulnerable water areas under stricter discharge limits
+Keywords: remains unclear. Herein, depending on a case WWTP in southern China, we investigated the impacts of discharge
+Greenhouse gas emissions standard improvement and key drivers of GHG emissions using daily operating data. We demonstrated that the
+Wastewater treatment plants
+stricter discharge limits increased the total GHG emission intensity by 18.2 %, with direct emissions increasing
+Vulnerable water areas
+more than indirect GHG emissions. The GHG emissions were negatively correlated with water quantity, showing
+Discharge standard improvement
+the scale effect, which became more pronounced after the discharge standard improvement. Increasing influent
+chemical oxygen demand and total nitrogen concentrations significantly drove the variations in GHG emissions,
+which were accelerated under stricter discharge limits. This study provides insights into the evaluation of GHG
+emission from WWTPs in vulnerable water areas and carbon-neutral wastewater management policies.
+* Corresponding authors at: Tongji University, 1239 Siping Road, Shanghai 200092, China.
+E-mail addresses: caic@tongji.edu.cn (C. Cai), hxf@tongji.edu.cn (X. Huang).
+https://doi.org/10.1016/j.scitotenv.2023.166017
+Received 3 April 2023; Received in revised form 11 July 2023; Accepted 1 August 2023
+Availableonline5August2023
+0048-9697/©2023ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+1. Introduction 2. Materials and methods
+Global warming has become a nonnegligible environmental issue 2.1. Description of the studied WWTP
+(Anderson et al., 2016) that requires efforts from all sectors to address it
+(McNicol et al., 2020; Rosa et al., 2021). While the energy and The WWTP in this study locates in the Taihu Lake Basin in southern
+manufacturing sectors play a dominant role in the goal of decarbon- China, treating domestic wastewater within a zone of about 127 km2 and
+ization, the wastewater sector is also receiving more attention (Du et al., serving a population of about 0.25 million. It was built in 2004 and
+2023). Wastewater treatment plants (WWTPs) are considered to be one expanded in 2010 with a design influent flow of 150,000 m3/d. The core
+of the most important sources of anthropogenic greenhouse gas (GHG) process of the plant is a modified anaerobic-anoxic-oxic (AAO) process,
+emissions (Ma et al., 2017; Mannina et al., 2018; Corominas et al., 2012; which is one of the most widely used processes in domestic WWTPs in
+Yerushalmi et al., 2013; Zhao et al., 2019), accounting for 1–2 % of total China. Before 2021, the discharge standard of the plant was “Class I A”
+GHG emissions with an increasing trend (Zhu et al., 2022; Parravicini based on GB18918-2002, and after 2021, the discharge standard was
+et al., 2016; Tian et al., 2022). Three main greenhouse gases emitted “DB32” originating from the Emission Limits for Major Water Pollution
+from WWTPs are CO2, CH4, and N2O (Chen, 2019). CH4 and N2O are from Urban Sewage Treatment Plants and Key Industrial Sectors in
+mainly generated from biological treatment and CO2 is generated from Taihu Lake Area (DB32/1072-2018). The specific discharge limits of the
+energy consumption and chemical use (Shahabadi et al., 2009; Shaha- two standards were listed in Table S1. The common discharge limit in-
+badi et al., 2010; Kyung et al., 2013; Wang et al., 2022). Over the past dexes of the two standards are chemical oxygen demand (COD),
+years, China has been actively upgrading wastewater utilities for biochemical oxygen demand (BOD5), suspended solids (SS), total
+enhanced water purification (Du et al., 2023). Meanwhile, it is stricter phosphorus (TP), and pH while the differences are total nitrogen (TN)
+discharge standards from comprehensive to industry standards and from and ammonia nitrogen (NH3-N), from 15 mg/L to 12 mg/L and 5 mg/L
+national to local standards (Ni et al., 2023) that contribute to China's to 4 mg/L, respectively. Since the plant locates in a water quality-
+environmental protection. It is a controversial topic because the sensitive area, stricter nutrient-related discharge limit indicators are
+discharge standard improvement leads to an increase in energy con- necessary. Meanwhile, the case WWTP would face the possibility of
+sumption and GHG emissions (Marinelli et al., 2021). However, previ- further improvement of discharge standards.
+ous studies focused on GHG emissions from WWTPs under national Daily operating data (1325 observations) were collected from this
+discharge standards while the evaluation of GHG emissions from WWTP over the period from 2019 to 2022, mainly representing the
+WWTPs in vulnerable water areas implementing stricter discharge limits characteristics of the two discharge standards. The data of the general
+remains lacking. discharge standard (Class I A) were from January 2019 to December
+Some recent studies have begun to investigate the synergistic control 2020, while that of the stricter discharge standard (DB32) were from
+of pollutant removal and GHG emissions from WWTPs. Xi et al. (2021) January 2021 to August 2022. The collected data include influent water
+pointed out that raising discharge standard resulted in higher indirect volume, water quality (COD, BOD, SS, pH, TP, TN, and NH3-N), energy
+emissions. Through three case WWTPs in Beijing, Tianjin, and Jiangsu, consumption, chemical consumption, and sludge production. After
+Zhang et al. (2021) have found that the discharge standard improvement removing some missing values and outliers (17 missing values and 2
+from Class II to Class I B (both based on the National Standard for the outliers), the descriptive statistics of the data were presented in
+Discharge of Pollutants from Wastewater Treatment Plants, GB18918- Table S2. During this period, the mean values of influent COD, TN, NH3-
+2002) helped to reduce GHG emissions and that from Class I B to N and TP concentration were 248.80, 34.23, 24.32 and 3.91 mg/L,
+Class I A (the highest level of the national standard) increased GHG respectively.
+emissions instead. However, previous studies focused exclusively on
+indirect GHG emissions (i.e., energy and chemical consumption) under 2.2. GHG emissions calculation boundary
+general national standards while either the fugitive emissions or stricter
+discharge standards were always neglected. Some factors can influence The system boundary for the calculation of GHG emissions was
+the fugitive emissions from WWTPs. For example, the choice of the ni- illustrated in Fig. 1, including direct GHG emissions of CH4 and N2O
+trogen removal process and operating conditions (e.g., aeration) played from pollutant removal and indirect GHG emissions from electricity
+an important role in N2O emissions (Foley et al., 2010; Guo et al., 2012; consumption, and chemical use. Other sources of GHG emissions (e.g.,
+Kampschreur et al., 2009). In addition, the WWTP scale and load factor WWTP construction, equipment maintenance, and direct methane
+were also important factors affecting electricity consumption (Cardoso emissions in sewers), sludge disposal (dewatered sludge from this
+et al., 2021). Although few studies have reported the effects of scale and WWTP was delivered out of the boundary for treatment) and discharged
+water quality on GHG emissions (Xi et al., 2021), it is still unknown that treated wastewater were not included in this study.
+how these factors drive GHG emissions under stricter discharge stan-
+dards and what is the quantitative difference compared with general 2.3. GHG emissions calculation methods
+discharge standards. Such limitations not only hinder accurate assess-
+ments of GHG emissions from WWTPs in typical regions but also lead to The activity data and emission factors (EFs) were utilized to calculate
+the lack of a reliable basis for local decarbonization policies. GHG emissions according to the 2006 IPCC Guidelines for National
+Here, we provided the quantitative assessment and investigate key Greenhouse Gas Inventories (IPCC, 2006), 2019 Refinement to the 2006
+drivers of GHG emissions from a case WWTP in a vulnerable water area IPCC Guidelines for National Greenhouse Gas Inventories (IPCC, 2019)
+(Taihu Lake Basin, China) under stricter discharge limits. The daily and literatures (Fu et al., 2021; Xi et al., 2021). The GHG emissions were
+operating data of the case WWTP over a period of 4 years were adopted divided into two categories (direct emissions and indirect emissions),
+for the estimation. This study aims to analyze the influence of discharge where COD and TN removal were used for the activity data of direct
+standard improvement, scale effect and influent quality on GHG emis- emissions.
+sions to fill the research gap on the impact on GHG emissions after
+further upgrading the discharge standard in vulnerable water areas. 2.3.1. Direct emissions
+Direct emissions contained the fugitive CH4 and N2O from the
+wastewater treatment process. Pollutant removal, which is the differ-
+ence between influent and effluent pollutant concentrations, was chosen
+as the activity data and EFs refer to IPCC guidelines and some studies. As
+the discharge standard was one of the factors influencing the GHG
+2
+
+--- Page 3 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+emissions in this study, the environmental discharge was excluded from 2.3.2. Indirect emissions
+the integral GHG emissions. Meanwhile, the discharge standard Indirect emissions included electricity consumption and chemical
+improvement would lead to the adjustment of the process operating use. The CO2 emissions due to electricity consumption were calculated
+parameters, which may affect the sludge generation, so the calculation using Eq. (5):
+equation incorporated the sludge production as well.
+GHG electricity=W×EF electricity (5)
+The CH4 emissions from the wastewater treatment process were
+calculated [using (cid:0) Eqs. (1)–(2): ) ] / where GHG electricity is the daily CO2 emission intensity due to electricity
+GHG CH4 = Q× COD in(cid:0) COD eff (cid:0) S ×10(cid:0)3×EF CH4 Q (1) consumption (kgCO2/d⋅m3); W is the daily electricity consumption of
+the WWTP; and EF electricity is the power grid boundary emission factor
+S=Sludge×(1(cid:0) WF)×OF×1.42×10(cid:0)6 (2) (0.7035 kgCO2/kWh in East China).
+The CO2 emissions due to chemical use were calculated using Eq. (6)
+tw reh ae tr me eG nH t G pC rH o4 ci es s sth e (k d ga Ci Hly 4 C /dH ⋅m4 e 3m ); is Qsi o in s in thte en s dit ay il yfr o Wm W th Te P w ta rs et ae tw ma et ner t GHG chemical=∑ C i×EF i (6)
+q cou na cn et nit ty r a( tm io3 n/ d o); f C thO eD i Wn a Wn Td P C , O rD ese pff e a cr tie v eth lye i (n mfl gu /e Ln )t ; a Sn d is ef tfl hu e en ot r gC aO niD c where GHG chemical is the daily CO2 emission intensity due to chemical
+c Co Hm 4 p fo rn oe mn t tr he em wov ae sd te a ws a s telu rd tg re e a(g tmCO enD t) ; p E roF cC eH s4 s is ( 0th .0e 1 e 8m kis gs Cio Hn 4 /f ka gct Co Or Do )f u chse e m(k icg aC lO (2 ke gq )/ ;d a⋅ nm d3 ) E; Fi i i is s t th he e ek min id s so iof nt h fae c c toh re m ofi c i a cl h; eC mi ii cs at lh (e k gd Cos Oa 2g ee q /o kf g i ,
+polyacrylamide (PAM):1.5; sodium hypochlorite: 1.4; Polymerized
+(IPCC, 2019); Sludge is the sludge quantity (t); WF is the water content
+aluminum iron: 1.6; sodium acetate: 1.6 (Wang, 2019)).
+of sludge (%); OF is the organic component of sludge (kgVSS/kg sludge);
+and 1.42 is the conversion factor from VSS to COD (Tak´acs and Van- Indirect emissions were obtained by summing electricity and
+chemical-related emissions, as shown in Eq. (7).
+rolleghem, 2006).
+The N2O emissions from the wastewater treatment process were GHG indirect=GHG electricity×1+GHG chemical (7)
+calculated using Eq. (3):
+(cid:0) ) 44 where GHG indirect is the daily indirect emission intensity (kgCO2eq/
+GHG N2O= TN in(cid:0) TN eff ×10(cid:0)3×EF N2O× 28 (3) d⋅m3); and 1 is the global warming potential with a 100-year horizon of
+CO2 (IPCC, 2014).
+where GHGN2O is the daily N2O emission intensity from wastewater
+treatment process (kgN2O/d⋅m3); TNin and TNeff are the influent and 2.4. Statistical analysis
+effluent TN concentration of the WWTP, respectively (mg/L); EFN2O is
+the emission factor of N2O from wastewater treatment process (0.016 The impact of raising the effluent standard from Class I A to DB32 on
+kgN2O-N/kgTN) (IPCC, 2019); and 44/28 the conversion factor from GHG emissions was analyzed based on daily operating data. Statistical
+N2O-N to N2O (IPCC, 2019). analysis was conducted in R 4.2.1 by Rstudio (https://www.rstudio.
+Direct emissions were obtained by multiplying CH4 and N2O emis- com/) with the packages, ggpubr, ggpmisc and Rmisc. The compara-
+sions by their corresponding global warming potential (GWP), respec- tive analysis between the two effluent standards was performed using
+tively, and summing, as shown in Eq. (4). the Wilcoxon test (significance tests in box plots) and the Chow test
+(significance tests of regression coefficients in scatter plots with linear
+GHG direct=GHG CH4×28+GHG N2O×265 (4)
+regression).
+where GHG direct is the daily direct emission intensity (kgCO2eq/d⋅m3);
+and 28 and 265 are the global warming potentials with a 100-year ho-
+rizon of CH4 and N2O, respectively (IPCC, 2014).
+Fig. 1. Analytical system boundary for greenhouse gas emissions. The cells with solid black lines are within the system boundary while that with dashed black lines
+are out of the system boundary. The solid blue lines with arrows are wastewater lines and the dashed black arrows are sludge lines.
+3
+
+--- Page 4 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+3. Results and discussion which may be caused by different calculation boundaries and emission
+factors of direct and indirect emissions.
+3.1. Influence of stricter discharge standard on GHG emissions As shown in Fig. 2b, direct and indirect GHG emission intensity both
+had a significant difference (Wilcoxon test, p <0.0001) between the two
+GHG emission intensities under the discharge standard of Class I A standards. The direct GHG emission intensity rose by 26.8 % from 0.194
+and DB32 were compared, as shown in Fig. 2. The discharge standard kgCO2eq/m3 (Class I A) to 0.246 kgCO2eq/m3 (DB32), and the indirect
+improvement significantly enhanced the total GHG emission intensity GHG emission intensity increased by 9.4 %. These results showed that
+(Wilcoxon test, p < 0.0001). The median value of emission intensity stricter discharge limits lead to both higher direct and indirect GHG
+increased from 0.423 kgCO2eq/m3 under the Class I A stage to 0.500 emissions. Smith et al. (2019) and Xi et al. (2021) also found that stricter
+kgCO2eq/m3 under the DB32 stage. These results were in line with the discharge limits led to higher energy-associated indirect emissions.
+previous study which found that GHG emission intensity increases with However, they did not find changes in direct emission intensity, which
+the discharge standard improvement from Class I B (GB18918-2002) to may be caused by the fact that the organic matter removed in the form of
+Class I A (Zhang et al., 2021). The average GHG emission intensity was sludge was not subtracted from the calculation. Fig. 2c further showed
+similar to that of Beijing (0.603 kgCO2eq/m3; (Zhou et al., 2022)). that the stricter discharge limits leveled up the CH4 (Wilcoxon test, p <
+However, the values of Shanghai (0.290 kgCO2eq/m3; (Xi et al., 2021)) 0.0001, an increase of 38.5 %) and N2O (Wilcoxon test, p <0.0001, an
+and Shenzhen (0.30 kgCO2eq/m3; (Liao et al., 2020)) were much lower, increase of 22.4 %) emission intensity, responsible for the increase of
+Fig. 2. The greenhouse gas (GHG) emission patterns of the case wastewater treatment plant across two discharge standards. (a) The emission intensity of the total
+GHG emissions. (b) The emission intensity of direct and indirect emissions. (c) The emission intensity of CH4, and N2O. (d) The emission intensity ratio of direct and
+indirect emissions. Boxes denote the interquartile range between the 25th and 75th percentiles, respectively. The line and white diamond inside denote the median
+and average values. Asterisks indicate significantly different median values (adjusted p-values **** <0.0001 checked by Wilcoxon tests).
+4
+
+--- Page 5 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+direct GHG emissions (Fig. 2b). It was noted that the emission value of 3.2. Influence of stricter discharge standards on scale effects
+N2O was larger than that of CH4, which may be explained by the fact that
+part of the organic matter in the WWTP was discharged in the form of It has been reported that the influent water volume of WWTPs
+sludge, and the calculation boundary of this study did not include the significantly affected its energy intensity, demonstrating that there was
+sludge disposal process, which was an important source of CH4 emis- a scale effect of indirect GHG emissions (Cardoso et al., 2021; Mizuta
+sions (Kwok et al., 2015). and Shimada, 2010). In this study, the effects of water quantity on both
+Fig. 2d demonstrated that the ratio of direct and indirect emission direct and indirect GHG emissions were investigated. Linear regressions
+intensity was less than one, indicating that indirect GHG emissions were conducted with water quantity as the independent variable and
+contributed more to the total GHG emissions (i.e., 53.9 % for Class I A GHG emission intensities as the dependent variables. Total GHG emis-
+and 51.3 % for DB32, respectively). The proportion of indirect emissions sions were found to be negatively correlated with water quantity
+in previous reports ranged from 26 % to 82 % (Zhou et al., 2022; Chen, (Fig. S2). The effects of water quantity on direct and indirect GHG
+2019; Maktabifard et al., 2019; Xi et al., 2021; Pan et al., 2011), and our emission intensities were further compared, and negative correlations
+results were in the middle of the range. Moreover, the ratio of direct and were also observed (Fig. 4). The results indicated that treatment scale
+indirect emission intensity was significantly increased after the affects both direct and indirect GHG emissions, and the larger the
+discharge standard improvement (Wilcoxon test, p <0.0001). Combined treatment scale of a WWTP, the more ecological (direct GHG emissions)
+with the results in Fig. 2b, it can be found that direct GHG emissions and economic (indirect GHG emissions) benefits it had. D.W. et al. (de
+were more susceptible to the discharge standard improvement. This was Haas et al., 2014) found that the trendline of total GHG emissions and
+because the influent and effluent water quality significantly changed average daily flow treated was y =(cid:0) 0.107ln(x) +1.2834 (R2 =0.2924)
+(Fig. S1) and more pollutant was removed after the standard improve- and pointed out that there were economies of scale on GHG emissions
+ment. From the calculation equations of direct GHG emissions, it was from WWTPs. However, our work showed that the proportion of the
+known that the more pollutant removal, the more GHG emissions. The variation in the dependent variable (water quantity) was relatively low
+proportion of different kinds of GHG emissions was further compared, as for direct GHG emissions (R2 =0.002 for Class I A and 0.009 for DB32,
+shown in Fig. 3. The electricity consumption and chemical use respectively). Other factors (e.g. dissolved oxygen, nitrite, COD/N,
+accounted for 46.51 % and 4.97 % under Class I A, and for 42.69 % and process, process conditions and process design) may be significant
+7.29 % under DB32. Compared with Class I A, the proportion of elec- drivers affecting direct GHG emissions. Nitrite, lower dissolved oxygen
+tricity consumption decreased and chemical consumption increased in concentration and limited availability of biodegradable organic carbon
+the DB32 stage. The discharge standard improvement from Class I A to led to higher N2O emissions (Kampschreur et al., 2009). Itokawa et al.
+DB32 was mainly related to the nitrogen-related indicators and the (2001) pointed out that during steady-state operation of an intermit-
+removal of nitrogen in WWTPs usually required the addition of carbon tently aerated bioreactor treating high-strength wastewater, 20–30 % of
+sources (Wang et al., 2017), thus leading to an increase in the amount of the nitrogen load was emitted as N2O when the COD/N ratio was below
+chemical use. However, the absolute amount of electricity consumption 3.5. The N2O emission factors of different processes varied from 0.01 to
+increased, indicating more GHG emissions. 2 % of the N-load (Vasilaki et al., 2019), which showed the impact of
+In general, stricter discharge standard (from Class I A to DB32) in a process. Additionally, high N2O-N generation factors generally corre-
+water quality-sensitive area enhanced the GHG emission intensity of the spond with higher bulk N2O-N concentration in the bioreactor and the
+case WWTP, with both direct and indirect GHG emissions being WWTPs that had more highly variable N2O-N generation factors tended
+elevated. Moreover, a more obvious increase in the direct GHG emis- to have lower a-recycle rates (i.e. recycle from aerobic zone to anoxic
+sions was observed compared with indirect GHG emissions, indicating zone) and correspondingly higher effluent TN concentration (Foley
+that direct GHG emissions should not be ignored and would be taken et al., 2010). All results of N2O-N generation factors >0.03 kgN2O-N/
+into serious consideration by decision-makers. kgNdenitrified occurred under conditions where bulk N2O-N concentra-
+tions exceeded 0.4 mg/L and effluent TN concentrations exceeded 10
+Fig. 3. Proportion of different kinds of GHG emissions under Class I A and DB32.
+5
+
+--- Page 6 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+Fig. 4. Scale effect of direct and indirect GHG emission intensity under Class I A (the red line and dots) and DB32 (the blue line and dots). The gray shade is 95 %
+confidence interval.
+mg/L (Foley et al., 2010). According to the study of Wang et al. (2011), 3.3. Influence of influent quality on GHG emissions
+the main factors influencing methane emissions were dissolved oxygen
+concentration and water temperature. The effects of influent COD and TN concentration on GHG emission
+The influence of discharge standards on the scale effect of direct GHG intensity between two discharge limits were investigated. The total GHG
+emissions was shown in Fig. 4a. The elevated discharge limits signifi- emission intensity of the case WWTP increased with influent COD or TN
+cantly (Chow test, p <0.0001) affected the scale effect of direct GHG content (Fig. S3), and the direct and indirect GHG emissions had similar
+emissions. The regression coefficient increased from (cid:0) 0.00815 (Class I results (Fig. 5). Both direct and indirect GHG emission intensities were
+A) to (cid:0) 0.027 (DB32). A similar tendency was found in the scale effect of positively correlated with influent COD and TN. The influent COD and
+indirect GHG emissions (Fig. 4b). The regression model slope of indirect TN were highly explained for direct GHG emissions (R2 ranging from
+GHG emissions increased by 239 % from (cid:0) 0.00988 to (cid:0) 0.0335, which 0.65 to 0.76). This was because direct GHG emission intensities were
+was larger than that of direct GHG emissions. These results showed that obtained based on the calculation, in which influent COD and TN con-
+stricter discharge standards could lead to more prominent scale effects centration were the two main parameters of the activity data. According
+of both direct and indirect GHG emissions. Although there were studies to the equations, effluent water quality and sludge production were also
+reporting the scale effects of electricity consumption per unit pollutant key factors. However, for indirect GHG emissions, the explanation of
+removed (Zhou et al., 2022) or of indirect GHG emission intensity per influent COD was low (R2 ranging from 0.01 to 0.06), indicating that the
+treated water (Xi et al., 2021), the scale effects of direct GHG emissions fluctuation of influent COD concentrations (73.90–980.00 mg/L) in this
+were scarcely found. Additionally, the impacts of stricter discharge case WWTP had less impact on electricity consumption and chemical
+standard than the national standard, as we know, were first reported in use. Compared with influent COD, the explanation of influent TN was
+this study. In fact, the higher requirement of WWTP effluent had to be higher (R2 ranging from 0.12 to 0.36). Spearman correlation results
+considered especially in sensitive areas such as bioreserve or vulnerable (Table S3) also indicated that indirect GHG emissions were positively
+waters (Eggen et al., 2014). For this situation, it might be a feasible way correlated with influent TN concentration and similar results have been
+to utilize the scale effect, such as centralized domestic wastewater reported in another study (Wang et al., 2016). Additionally, the use of
+treatment, to mitigate GHG emissions from wastewater treatment sec- carbon source chemicals, which was mainly for nitrogen removal, might
+tors. Compared with direct GHG emissions, the environmental benefits be one of the reasons for the increase of indirect GHG emissions (Wang
+resulting from the scale effect of indirect GHG emissions were more et al., 2017).
+significant. However, the absolute reduction of GHG emissions from Furthermore, the impacts of discharge standards were compared,
+WWTPs still ought to be paid more attention to. For direct GHG emis- and significant differences (Chow test for slope, p <0.0001) were ob-
+sions, process improvement is an important option. High-rate activated tained in both COD and TN. These results showed that GHG emissions
+sludge (HRAS), high-solid anaerobic digestion (HSAD), partial nitrita- were more sensitive to the influent concentrations after the discharge
+tion/anaerobic ammonia oxidation (PN/A) and anaerobic membrane standard improvement. It was implied that discharge standard upgrade
+bioreactor (AnMBR) were several choices (Du et al., 2023). For indirect may accelerate GHG emissions from the case WWTP and the accelera-
+emissions, the automatic control system used for chemicals or aeration tion was more obvious in influent TN. This was because the stricter
+could reduce the amount of chemicals (Zhang et al., 2021) and improve discharge limits were mainly reflected in nitrogen-related indicators,
+pumping and aeration efficiency (Howard et al., 2016) to reduce the though effluent COD and TN both declined. Therefore, GHG emissions
+electricity consumption (Kyung et al., 2015). In addition, energy re- due to nitrogen removal ought to be paid more attention and some new
+covery from biogas through combined heat and power (CHP) (Makta- technologies, such as anaerobic ammonia oxidation (Zhang et al., 2022)
+bifard et al., 2019) could substantially reduce GHG emissions. Other and precise dosing, are the focus of future research. For influent COD,
+renewable energy, such as photovoltaic and wind power, were also the median value was 228.00 mg/L, which was within the range of other
+optional approaches (Campana et al., 2021; Markov et al., 2013; Xu Chinese cities (e.g., Shanghai and Beijing in the range of 100–400 mg/L;
+et al., 2018). (Xi et al., 2021; Zhou et al., 2022)), and was lower than developed
+6
+
+--- Page 7 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+Fig. 5. Effects of influent COD and TN on direct and indirect GHG emission intensity under Class I A (the red line and dots) and DB32 (the blue line and dots). The
+gray shade is 95 % confidence interval.
+countries (e.g., Germany and Greece up to 800 mg/L; (Hao et al., 2021)). GHG emissions using daily operating data. The stricter discharge limits
+Considering the retrofitting of urban pipe networks and the improve- enhanced the total GHG emission intensity of the case WWTP by 18.2 %
+ment of living levels, the influent COD concentration of the case WWTP and the increase of direct GHG emissions was more significant than that
+would be further increased (Niu et al., 2019). Therefore, the growth rate of indirect GHG emissions. Both direct and indirect GHG emissions were
+of GHG emissions in the case WWTP would be significantly higher than negatively correlated with water quantity, indicating the scale effects of
+in other non-environmentally sensitive areas. With the continuous the case WWTP. More prominent scale effects of GHG emissions were
+improvement of environmental quality in key regions of China, the obtained after the discharge standard improvement. The influent COD
+environmental capacity of water bodies to which treated wastewater and TN concentration were also important factors driving GHG emis-
+from WWTPs is discharged might be re-evaluated and improved. The sions and stricter discharge limits could accelerate the GHG emissions
+readjustment or lowering of discharge standards for pollutant removal due to the increasing concentration of influent pollutants. This case
+and their trade-offs with GHG reduction need to be focused on for future study provides a reference for the GHG emission pattern of WWTP in
+environmental policies. vulnerable water areas. Although strict discharge limits are unfavorable
+for GHG emission mitigation, critical factors such as scale and influent
+4. Conclusions quality tested in this study may be helpful for policymakers to seriously
+consider the trade-offs between environmental pollution and GHG
+In this study, the influence of stricter discharge limits on GHG emissions.
+emissions was investigated depending on the case WWTP in a vulnerable
+water area. The integrated method was carried out for calculating the
+7
+
+--- Page 8 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+CRediT authorship contribution statement Foley, J., De Haas, D., Yuan, Z., et al., 2010. Nitrous oxide generation in full-scale
+biological nutrient removal wastewater treatment plants. Water Res. [J] 44,
+831–844. https://doi.org/10.1016/j.watres.2009.10.033.
+Jiemiao Ma: Conceptualization, Methodology, Writing – original Fu, J., Feng, X., Gao, Q., et al., 2021. Collaborative control method and case study of
+draft, Validation, Writing – review & editing. Xiaojing Ni: Investigation, greenhouse gases in urban sewage treatment plants. Res. Environ. Sci. [J] 34,
+Validation, Writing – review & editing. Chen Cai: Methodology, Su- 2086–2093. https://doi.org/10.13198/j.issn.1001-6929.2021.06.19.
+Guo, L., Porro, J., Sharma, K.R., et al., 2012. Towards a benchmarking tool for
+pervision, Project administration, Funding acquisition, Conceptualiza-
+minimizing wastewater utility greenhouse gas footprints. Water Sci. Technol. [J] 66,
+tion, Writing – review & editing. Yuewu Da: Resources, Project 2483–2495. https://doi.org/10.2166/wst.2012.495.
+administration, Funding acquisition. Kan Hu: Resources, Project Hao, X., Zhang, Y., Li, J., et al., 2021. Case analysis of energy neutrality and carbon
+administration, Funding acquisition. Ru Guo: Supervision, Writing – neutrality for wastewater treatment. China Water Wastewater [J] 37, 1–8. https://
+doi.org/10.19853/j.zgjsps.1000-4602.2021.20.001.
+review & editing. Jia Liu: Supervision, Writing – review & editing. Howard, G., Calow, R., Macdonald, A., et al., 2016. Climate change and water and
+Kaiming Peng: Supervision, Writing – review & editing. Erwu Liu: sanitation: likely impacts and emerging trends for action [M]. In: Gadgil, A.,
+Gadgil, T.P. (Eds.), Annual Review of Environment and Resources, vol 41,
+Funding acquisition. Xiangfeng Huang: Supervision, Project adminis-
+pp. 253–276.
+tration, Funding acquisition. IPCC, 2006. Good Practice Guidance and Uncertainty Management in National
+Greenhouse Gas Inventories. [M].
+IPCC, 2014. Climate Change 2014: Mitigation of Climate Change. Contribution of
+Declaration of competing interest Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on
+Climate Change. Cambridge University Press, Cambridge, United Kingdom and New
+York, NY, USA (M).
+The authors declare that they have no known competing financial
+IPCC, 2019. Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas
+interests or personal relationships that could have appeared to influence Inventories [M].
+the work reported in this paper. Itokawa, H., Hanaki, K., Matsuo, T., 2001. Nitrous oxide production in high-loading
+biological nitrogen removal process under low COD/N ratio condition. Water Res.
+[J] 35, 657–664. https://doi.org/10.1016/s0043-1354(00)00309-2.
+Data availability Kampschreur, M.J., Temmink, H., Kleerebezem, R., et al., 2009. Nitrous oxide emission
+during wastewater treatment. Water Res. [J] 43, 4093–4103. https://doi.org/
+10.1016/j.watres.2009.03.001.
+Data will be made available on request.
+Kwok, C.E.Y., Mueller, D., Caldow, C., et al., 2015. Methane emission estimates using
+chamber and tracer release experiments for a municipal waste water treatment plant.
+Acknowledgments Atmos. Measur. Techniques [J] 8, 2853–2867. https://doi.org/10.5194/amt-8-
+2853-2015.
+Kyung, D., Kim, D., Park, N., et al., 2013. Estimation of CO2 emission from water
+This work was financially supported by National Natural Science treatment plant - model development and application. J. Environ. Manag. [J] 131,
+Foundation of China (42071293), Shanghai Rising-Star Program 74–81. https://doi.org/10.1016/j.jenvman.2013.09.019.
+Kyung, D., Kim, M., Chang, J., et al., 2015. Estimation of greenhouse gas emissions from
+(23QC1400300), Fundamental Research Funds for the Central Univer- a hybrid wastewater treatment plant. J. Clean. Prod. [J] 95, 117–123. https://doi.
+sities (2022–4-YB-01), Development of Carbon Emission Accounting org/10.1016/j.jclepro.2015.02.032.
+System for Wastewater Treatment Plant and Key Low Carbon Technol- Liao, X., Tian, Y., Gan, Y., et al., 2020. Quantifying urban wastewater treatment sector’s
+greenhouse gas emissions using a hybrid life cycle analysis method - an application
+ogies Research Project (KH0040020212378), Science and Technology
+on Shenzhen city in China. Sci. Total Environ. [J] 745, 141176. https://doi.org/
+Innovation Plan of Shanghai Science and Technology Commission 10.1016/j.scitotenv.2020.141176.
+(21DZ1209600, 22DZ1209500), Shanghai Municipal Science and Ma, R., Hu, Z., Zhang, J., et al., 2017. Reduction of greenhouse gases emissions during
+Technology Major Project (2021SHZDZX0100), and Shanghai Munic- anoxic wastewater treatment by strengthening nitrite-dependent anaerobic methane
+oxidation process. Bioresour. Technol. [J] 235, 211–218. https://doi.org/10.1016/j.
+ipal Commission of Science and Technology Project (19511132101). biortech.2017.03.094.
+Maktabifard, M., Zaborowska, E., Makinia, J., 2019. Evaluating the effect of different
+operational strategies on the carbon footprint of wastewater treatment plants - case
+Appendix A. Supplementary data
+studies from northern Poland. Water Sci. Technol. [J] 79, 2211–2220. https://doi.
+org/10.2166/wst.2019.224.
+Supplementary data to this article can be found online at https://doi. Mannina, G., Ekama, G.A., Capodici, M., et al., 2018. Influence of carbon to nitrogen
+org/10.1016/j.scitotenv.2023.166017. ratio on nitrous oxide emission in an integrated fixed film activated sludge
+membrane BioReactor plant. J. Clean. Prod. [J] 176, 1078–1090. https://doi.org/
+10.1016/j.jclepro.2017.11.222.
+References Marinelli, E., Radini, S., Foglia, A., et al., 2021. Validation of an evidence-based
+methodology to support regional carbon footprint assessment and decarbonisation of
+wastewater treatment service in Italy. Water Res. [J] 207. https://doi.org/10.1016/
+Ande wr aso rmn, nT g.R . f, oH maw thk ein ps, oE n., eJ ro in ne gs , P o. rD k. , 2 0 A1 r6 rh. eC nO iu2, t ah ne g Cre ae lln eh no du as re oef f te oc dt a yn ’sd g al ro tb ha l
+j.watres.2021.117831.
+i : r i e w o f s d t a E
+System Models. Endeavour [J] 40, 178–187. https://doi.org/10.1016/j. Markov, Z., Dimitrovski, D., Jovanoski, I., et al., 2013. Production and utilising of biogas
+and other measures for increasing energy efficiency in the municipal wastewater
+endeavour.2016.07.002. treatment plant. J. Environ. Protect. Ecol. [J] 14, 1014–1022.
+Campana, P.E., Mainardis, M., Moretti, A., et al., 2021. 100% renewable wastewater
+Mcnicol, G., Jeliazovski, J., Francois, J.J., et al., 2020. Climate change mitigation
+treatment plants: techno-economic assessment using a modelling and optimization
+potential in sanitation via off-site composting of human waste. Nat. Clim. Change [J]
+approach. Energy Convers. Manag. [J] 239. https://doi.org/10.1016/j. 10, 545+. https://doi.org/10.1038/s41558-020-0782-4.
+enconman.2021.114214.
+Mizuta, K., Shimada, M., 2010. Benchmarking energy consumption in municipal
+Cardoso, B.J., Rodrigues, E., Gaspar, A.R., et al., 2021. Energy performance factors in wastewater treatment plants in Japan. Water Sci. Technol. [J] 62, 2256–2262.
+wastewater treatment plants: a review. J. Clean. Prod. [J] 322. https://doi.org/
+https://doi.org/10.2166/wst.2010.510.
+10.1016/j.jclepro.2021.129107. Ni, X., Huang, X., Guo, R., et al., 2023. Water–energy–carbon synergies and trade-offs: a
+Chen, Y.C., 2019. Estimation of greenhouse gas emissions from a wastewater treatment
+plant using membrane bioreactor technology. Water Environ. Res. [J] 91, 111–118. daily nexus analysis for wastewater treatment plants. Resour. Conserv. Recycl. [J]
+188. https://doi.org/10.1016/j.resconrec.2022.106712.
+https://doi.org/10.1002/wer.1004.
+Niu, K., Wu, J., Qi, L., et al., 2019. Energy intensity of wastewater treatment plants and
+Corominas, L., Flores-Alsina, X., Snip, L., et al., 2012. Comparison of different modeling influencing factors in China. Sci. Total Environ. [J] 670, 961–970. https://doi.org/
+approaches to better evaluate greenhouse gas emissions from whole wastewater
+treatment plants. Biotechnol. Bioeng. [J] 109, 2854–2863. https://doi.org/10.1002/ 10.1016/j.scitotenv.2019.03.159.
+Pan, T., Zhu, X.-D., Ye, Y.-P., 2011. Estimate of life-cycle greenhouse gas emissions from
+bit.24544.
+a vertical subsurface flow constructed wetland and conventional wastewater
+De Haas, D.W., Pepperell, C., Foley, J., 2014. Perspectives on greenhouse gas emission treatment plants: a case study in China. Ecol. Eng. [J] 37, 248–254. https://doi.org/
+estimates based on Australian wastewater treatment plant operating data. Water Sci.
+Technol. [J] 69, 451–463. https://doi.org/10.2166/wst.2013.572. 10.1016/j.ecoleng.2010.11.014.
+Parravicini, V., Svardal, K., Krampe, J., 2016. Greenhouse gas emissions from wastewater
+Du, eW m.- iJ s. s, oL nu s, iJ n.- Y C. h, iH nau ’, Y w.- aR s. t, e wt a tel. r, 2 se0 c2 t3 o. S ap na dt i po ate thm wp ao yr sa l op wat at re drn co af g br oe ne n nh eo uu trs ae ig tya .s treatment plants [C]. In: Energy Procedia; City, pp. 246–253.
+i s e a r t s r l
+Rosa, L., Sanchez, D.L., Mazzotti, M., 2021. Assessment of carbon dioxide removal
+Nat. Water [J] 1, 166–175. https://doi.org/10.1038/s44221-022-00021-0.
+potential via BECCS in a carbon-neutral Europe. Energy Environ. Sci. [J] 14,
+Eggen, R.I.L., Hollender, J., Joss, A., et al., 2014. Reducing the discharge of 3086–3097. https://doi.org/10.1039/d1ee00642h.
+micropollutants in the aquatic environment: the benefits of upgrading wastewater
+treatment plants. Environ. Sci. Technol. [J] 48, 7683–7689. https://doi.org/
+10.1021/es500907n.
+8
+
+--- Page 9 ---
+J. Ma et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t902(2023)166017
+Shahabadi, M.B., Yerushalmi, L., Haghighat, F., 2009. Impact of process design on Wang, D., Ye, W., Wu, G., et al., 2022. Greenhouse gas emissions from municipal
+greenhouse gas (GHG) generation by wastewater treatment plants. Water Res. [J] wastewater treatment facilities in China from 2006 to 2019. Sci. Data [J] 9, 317.
+43, 2679–2687. https://doi.org/10.1016/j.watres.2009.02.040. https://doi.org/10.1038/s41597-022-01439-7.
+Shahabadi, M.B., Yerushalmi, L., Haghighat, F., 2010. Estimation of greenhouse gas Xi, J., Gong, H., Zhang, Y., et al., 2021. The evaluation of GHG emissions from Shanghai
+generation in wastewater treatment plants - model development and application. municipal wastewater treatment plants based on IPCC and operational data
+Chemosphere [J] 78, 1085–1092. https://doi.org/10.1016/j. integrated methods (ODIM). Sci. Total Environ. [J] 797, 148967. https://doi.org/
+chemosphere.2009.12.044. 10.1016/j.scitotenv.2021.148967.
+Smith, K., Guo, S., Zhu, Q., et al., 2019. An evaluation of the environmental benefit and Xu, J., Luo, P., Lu, B., et al., 2018. Energy-water nexus analysis of wastewater treatment
+energy footprint of China’s stricter wastewater standards: can benefit be increased? plants (WWTPs) in China based on statistical methodologies [C]. In: Energy
+J. Clean. Prod. [J] 219, 723–733. https://doi.org/10.1016/j.jclepro.2019.01.204. Procedia; City, pp. 259–264.
+Taka´cs, I., Vanrolleghem, P., 2006. Elemental Balances in Activated Sludge Modelling. Yerushalmi, L., Ashrafi, O., Haghighat, F., 2013. Reductions in greenhouse gas (GHG)
+Tian, Y., Liu, S., Guo, Z., et al., 2022. Insight into greenhouse gases emissions and energy generation and energy consumption in wastewater treatment plants. Water Sci.
+consumption of different full-scale wastewater treatment plants via ECAM tool. Int. Technol. [J] 67, 1159–1164. https://doi.org/10.2166/wst.2013.681.
+J. Environ. Res. Public Health [J] 19. https://doi.org/10.3390/ijerph192013387. Zhang, Y., Ge, T., Liu, J., et al., 2021. The comprehensive measurement method of energy
+Vasilaki, V., Massara, T.M., Stanchev, P., et al., 2019. A decade of nitrous oxide (N2O) conservation and emission reduction in the whole process of urban sewage treatment
+monitoring in full-scale wastewater treatment processes: a critical review. Water based on carbon emission. Environ. Sci. Pollut. Res. Int. [J] 28, 56727–56740.
+Res. [J] 161, 392–412. https://doi.org/10.1016/j.watres.2019.04.022. https://doi.org/10.1007/s11356-021-14472-7.
+Wang, X., 2019. Study on Calculating Carbon Footprint and Assessing the Total Zhang, L., Jiang, L., Zhang, J., et al., 2022. Enhancing nitrogen removal through directly
+Environmental Impact of Wastewater Treatment [M]. Beijing University of Civil integrating anammox into mainstream wastewater treatment: advantageous, issues
+Engineering and Architecture. and future study. Bioresour. Technol. [J] 362. https://doi.org/10.1016/j.
+Wang, J., Zhang, J., Xie, H., et al., 2011. Methane emissions from a full-scale A/A/O biortech.2022.127827.
+wastewater treatment plant. Bioresour. Technol. [J] 102, 5479–5485. https://doi. Zhao, X., Jin, X.K., Guo, W., et al., 2019. China’s urban methane emissions from
+org/10.1016/j.biortech.2010.10.090. municipal wastewater treatment plant. Earth’s Future [J] 7, 480–490. https://doi.
+Wang, H., Yang, Y., Keller, A.A., et al., 2016. Comparative analysis of energy intensity org/10.1029/2018ef001113.
+and carbon emissions in wastewater treatment in USA, Germany, China and South Zhou, X., Yang, F., Yang, F., et al., 2022. Analyzing greenhouse gas emissions from
+Africa. Appl. Energy [J] 184, 873–881. https://doi.org/10.1016/j. municipal wastewater treatment plants using pollutants parameter normalizing
+apenergy.2016.07.061. method:a case study of Beijing. J. Clean. Prod. [J] 376. https://doi.org/10.1016/j.
+Wang, Q., Chen, Q., Chen, J., 2017. Optimizing external carbon source addition in jclepro.2022.134093.
+domestics wastewater treatment based on online sensoring data and a numerical Zhu, L., Wang, C., Huang, N., et al., 2022. Developing an indicator system to monitor
+model. Water Sci. Technol. [J] 75, 2716–2725. https://doi.org/10.2166/ city’s sustainability integrated local governance: a case study in Zhangjiakou.
+wst.2017.128. Sustainability [J] 14. https://doi.org/10.3390/su14095047.
+9

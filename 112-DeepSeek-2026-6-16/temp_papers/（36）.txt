@@ -1,0 +1,712 @@
+--- Page 1 ---
+EnergyReports9(2023)2310–2320
+ContentslistsavailableatScienceDirect
+EnergyReports
+journalhomepage:www.elsevier.com/locate/egyr
+ResearchPaper
+Minimizinggreenhousegasesemissionsandenergyconsumption
+fromwastewatertreatmentplantsviarationaldesignandengineering
+strategies:AcasestudyinMashhad,Iran
+VahidAghabalaeia,HosseinNayebb,ShimaMardania,MahlaTabeshniaa,
+MajidBaghdadia,∗
+aSchoolofEnvironment,CollegeofEngineering,UniversityofTehran,Tehran,Iran
+bDepartmentofEnvironmentalEngineering,FacultyofWaterandEnvironment,ShahidBeheshtiUniversity,Tehran,Iran
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Wastewater treatment plants (WWTPs) play direct and indirect roles in the emission of greenhouse
+Received3August2022 gases (GHG) produced by biological processes and energy consumption, respectively. Nowadays,
+Receivedinrevisedform7November2022 reducingGHGemissionandtheenergyconsumptionofWWTPsareofinterest.Inthisstudy,atfirst,the
+Accepted3January2023 GHGemissionsandenergyconsumptionoftheMashhadWWTP(MLEandaerobicdigestionprocess)
+Availableonline19January2023
+werecomparedwithenergyself-sufficientWWTPs.Inthenextstage,fourscenariosweredeveloped
+Keywords: toreduceGHGemissionsandenergyconsumption.Accordingtotheresults,energyconsumptionand
+Energyconsumption GHG emissions in this WWTP is outside of the acceptable value. By changing aerobic digestion to
+Greenhousegasesemission anaerobic digestion, the energy consumption will decreases from 1 kWh/m3 to 0.58 kWh/m3, and
+Anaerobicdigestion the total amount of CO equivalent (CO -T) increases from 0.64 kg CO /m3 to 1.65 kg CO /m3. In
+2 2e 2e 2e
+Processoptimization order to reduce energy consumption and GHG emissions, anaerobic digester and CHP must be used
+Wastewatertreatmentplants together. This process leads to reduced energy consumption and GHG emissions by about 70% and
+53%,respectively.Thelowest(highest)GHGemissionswilloccurinMLEwithanaerobicdigesterand
+CHP (without CHP). Based on this study, GHG emissions and energy consumption can be controlled
+byselectingacorrectprocessforWWTPs.
+©2023TheAuthor(s).PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBYlicense
+(http://creativecommons.org/licenses/by/4.0/).
+1. Introduction (reuse, energy recovery, and GHG emissions reduction) for con-
+ventional WWTPs (Corominas et al., 2013). The focus of current
+The water–energy nexus is one of the crucial elements for global attention is on environmental and climatic change (Chen
+national security and human sustainable development (Jiang etal.,2022;Wehbiaetal.,2022).TheWWTPsconsumemorethan
+1% of energy consumption at the world. Although WWTPs with
+et al., 2016; Wehbia et al., 2022). Wastewater treatment plants
+energy consumption less than 0.3 kWh/m3 have been built in
+(WWTPs)arethetypicalcasesofthesewater–energyinteractions
+recentyears,thetypicalrangeofenergyconsumptionfrom0.3to
+(Corominas et al., 2013; Xu et al., 2017). In the past years, most
+0.8kWh/m3 hasbeenreportedinmostWWTPs(Gandiglioetal.,
+effortstoimprovetheperformanceofWWTPsfocusedonobtain-
+2017;Maktabifardetal.,2018).
+ing good effluent quality (Bolong et al., 2009; Luo et al., 2014;
+Municipal wastewater management has been done in many
+Mardani et al., 2021; Zanetti et al., 2012). However, nowadays,
+cases in an unsustainable manner, thereby consuming a lot of
+there are new challenges regarding high energy consumption
+energyandresultinginasubstantialcarbonfootprint,whichhas
+and greenhouse gas (GHG) emissions in WWTPs, especially in
+a significant effect on climate change. The amount of energy
+developing countries (Cheng et al., 2022; Chen et al., 2022; Ma-
+consumption for WWTPs was influenced by many factors such
+mais et al., 2015; Parravicini et al., 2022; Sharawat et al., 2021). as the quantity and quality of influent wastewater and the type
+The life cycle assessments (LCA) have been applied to evaluate of treatment process in liquid and sludge sections (Awe et al.,
+environmentalimpactsandtosuggesttheimprovementoptions 2016). Investigations have shown that annual specific energy
+usage in WWTPs in Europe is estimated between 20 and 120
+∗ kWh/PE. Stillwell et al. found that the average annual specific
+Correspondingauthor.
+energy consumption at WWTPs in the United States is almost
+E-mailaddresses: aghabalaeivahid@ut.ac.ir(V.Aghabalaei),
+29 kWh/PE, which is in the range of 16 to 71 kWh/PE (Stillwell
+h_nayeb@sbu.ac.ir(H.Nayeb),mardani.sh@ut.ac.ir(S.Mardani),
+mahlatabeshnia@ut.ac.ir(M.Tabeshnia),m.baghdadi@ut.ac.ir(M.Baghdadi). etal.,2010).AccordingtoKrampe’sstudyon11SouthAustralia
+https://doi.org/10.1016/j.egyr.2023.01.017
+2352-4847/©2023TheAuthor(s). PublishedbyElsevierLtd.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+WWTPs,theyearlyspecificenergyconsumptionwasintherange Table1
+of30to120kWh/PE(Krampe,2013).Similarly,Balmerreported Specificationsofinfluentandeffluentwastewater.
+that annual specific energy consumption in five Nordic WWTPs Parameter Influent(mg/L) Effluent(mg/L)
+has been between 31 to 47.2 kWh/PE (Balmér, 2000). Nowa- ChemicalOxygenDemand(COD) 532 60
+days,energyself-sufficientWWTPsalsohavebeendevelopedand BiochemicalOxygenDemand(BOD5) 266 30
+TotalSuspendedSolid(TSS) 325 40
+widely studied worldwide to reduce operation costs and energy
+TotalNitrogen(TN) 40 16
+consumptionandalsotoachievecarbonneutrality(WERF,2016, Totalphosphorus(TP) 9 6
+2014;Gandiglioetal.,2017).
+Ontheotherhand,theWWTPshavebeenknownasoneofthe
+mainsourcesofGHGemissionsandairpollution(CO ,N O,and
+2 2
+wereevaluated withenergy self-sufficientWWTPs. Second,four
+CH ).TheamountofGHGemittedbyadvancedactivatedsludge
+4
+scenarios were investigated to reduce energy consumption and
+systems (nitrogen and phosphorus removal) is reported in the
+range of 0.9 to 2.2 kg CO /m3 (Shahabadi et al., 2009; Flores- GHGemissions.Finally,aneconomicassessmentandnetpresent
+2e value (NPV) for digesters in two scenarios (A and B-CHP) com-
+Alsina et al., 2011; Sweetapple et al., 2014). CO is produced
+2 pered. The results of this study can be utilized in other cities
+through two sources: direct emission from biological treatment
+with similar capacities to achieve the goal of reducing energy
+and indirect emission from electric energy consumption (Foley
+consumption and GHG emissions by selecting the appropriate
+et al., 2011; Mamais et al., 2015; Masuda et al., 2018; Nayeb
+process.
+et al., 2020). In the liquid phase, organic carbon is used for
+the production of new cells or conversion to CO . In the sludge
+2 2. Materialsandmethods
+treatment line, organic carbon is converted mainly to CH and
+4
+CO in an anaerobic digester, in which CH is oxidized to CO
+2 4 2 ThecurrentstatusofGHGemissionsandenergyconsumption
+duringtheburningbiogas(IPCC,2006).Also,CO isproducedby
+2 from the Mashhad WWTP (MLE and aerobic digestion process
+energy consumption (indirect emission) in WWTPs. CO can be
+2 with a population of 500,000 people) has been compared in
+reduced because of increased energy efficiency; as a result, the
+the acceptable range of other WWTPs (especially self-sufficient
+treatment costs, environmental impact, and GHG emissions can
+WWTPs).Inthenextsectionofthisstudy,fourscenariosforre-
+bereduced(Larsen,2015).
+ducingGHGemissionsandenergyconsumptionweredeveloped.
+N Oisproducedbybiologicalprocesses(Massaraetal.,2017).
+2
+Studies showed that about 72% of CH emissions are related to
+4 2.1. ThedescriptionofEastMashhadWWTP
+the sludge phase in WWTPs where sludge anaerobic digestion
+occurs and the remaining emissions are released in the liquid
+EastMashhadWWTPhasbeeninoperationsince2016.Itin-
+phase (biological treatment). The results demonstrated that the
+cludestwomodulesandfourstreamsforapopulationof500,000
+predominant amount of CH 4 production in WWTPs is related to (average flow rate of 80,000 m3/d). As shown in Fig. 1, wastew-
+thetypeofprocessesinthesludgephaseforsludgestabilization
+ater is transferred to initial treatment units (coarse screen, fine
+(Oshitaetal.,2014).AccordingtoDaelmanetal.around1%ofthe
+screen, and aerated grit chamber), physical treatment (primary
+COD input to a municipal WWTP can be released into the envi-
+sedimentation unit), biological treatment with nitrogen removal
+ronmentasCH (Daelmanetal.,2012).AsshownbyYverKwok
+4 (anoxic/aeration/secondarysedimentationunits),anddisinfection
+et al. and Oshita et al. the principal source of CH in a WWTP
+4 unit (chlorination), respectively in the liquid phase. Also, in the
+isconnectedtosludgeprocessingunits(Oshitaetal.,2014;Yver
+sludge phase, primary sludge and waste sludge are transferred
+Kwoketal.,2015).Moreover,Koutsouetal.accountedthatemis-
+to a gravity thickener and mechanical thickener, separately. The
+sionsfromGreekWWTPswereabout0.9%oftotalGHGemissions thickened sludge is pumped to an aerobic digester for sludge
+in Greece each year (Koutsou et al., 2018). Between 2005 and stabilization and then transferred to a mechanical dewatering
+2014years,Yanetal.observedthatoverallGHGemissionsfrom unitfordewatering.
+ChinesemunicipalWWTPsgrewfrom326.54to1294.03GgCO
+2e
+(Yanetal.,2019). 2.2. Specificationsofinfluentandeffluentwastewater
+Inthepresentsituation,Iranwithapopulationof84,350,000
+has237and37unitsofurbanandruralWWTPsrespectively,in The characteristics of influent and effluent wastewater are
+which the wastewater network and WWTP covered about 53% notedinTable1.Inthisstudy,inordertodeterminethequality
+and40%ofthetotalpopulation,respectively.About5,500,000m3/
+of raw wastewater, the operation results of the last four years,
+day of domestic wastewater have been treated using WWTPs, which were analyzed by SPSS 22 statistical software. It should
+amongwhichabout60%ofWWTPshavevarioustypesofactive benotedthatthementionedWWTPwasdesignedtoachievethe
+sludgeprocessesand40%ofWWTPshaveotherprocessessuchas quality of effluent for discharge into surface water by the stan-
+stabilizationpond.Inrecentyears,someWWTPslocatedinMash- dard of the Environment Organization of Iran (Iranian National
+had,Karaj,Hashtgerd,Isfahan,Mazandaran,andNahavandcities Standardization Organization, 2019). Also, the quality of waste
+wherethewastewaterflowrateisfrom11,220to80,000m3/day sludge (Biosolid) was according to the class B of United States
+have been constructed with energy consumptions of more than Environmental Protection Agency (USEPA) regulation (Metcalf &
+1kWh/m3,whichnotonlywilloperatingcostsincreasebutalso Eddyetal.,2014).
+there is a negative impact on the environment because of GHG
+emissions(NationalWater&WastewaterEngineeringCompany, 2.3. Descriptionofscenarios(differentprocesses)
+2019).
+Duetotheeffectofthetypeofwastewatertreatmentprocess It is clear that sludge residence time (SRT) is a significant
+on energy consumption and GHG emissions, in this study, pos- parametertodesignandoperatetheactivatedsludgeprocesses.
+sible options to reduce GHG emissions and energy consumption Therefore,increasingthisfactorleadstoadecreaseinthewaste
+in the east Mashhad WWTP with a capacity of 80,000 m3/day, activatedsludgefromthesystem,andfollowingsludgemanage-
+operatedbyMLEandaerobicdigestionprocess,wasinvestigated. ment costs can be reduced, whereas the aeration unit volume
+Theaimsofthispaperarebasedonthreeaspects,atfirst,the increases (Metcalf & Eddy et al., 2014; Turovskiy and Mathai,
+energy consumption and GHG emissions of the existing WWTP 2006). In this study, four scenarios (available system and three
+2311
+
+--- Page 3 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Fig.1. TheEastMashhadWWTPingoogleearthmap.
+Table2 maintenance,economicjustification,theapplicabilityofthesys-
+Scenarioscomparison. tem, the possibility of its implementation on site, and the most
+Parameter Primary Typeofdigester CHPsystem important parameter is type of existing treatment system (MLE
+sedimentationtank
+process).TheflowdiagramoftheprocessesisshowninFig.2.
+ScenarioA Yes Aerobicdigester No
+ScenarioB Yes Anaerobicdigester Yes
+2.4. Totalenergyconsumption
+ScenarioC No Aerobicdigester No
+ScenarioD No No No
+Inordertocalculatetheenergyconsumption,theoperational
+data included BOD , COD, TSS, TN and etc were collected and
+5
+usedtoevaluatetheenergyconsumptionoftheWWTPaccording
+proposedprocesses)wereevaluatedtoreduceenergyconsump-
+tothetypeoftreatmentprocess.Furthermore,theprimarydata,
+tionandGHGemissions.Thecomparisonofscenarioswasshown
+suchastypeandnumberofequipmentappliedincludingpumps
+atTable2.
+andblowers,theelectricpowerofeachequipment,totalworking
+ScenarioA.ExistingWWTP(MLEprocessatanSRTof7daysand hours required for the calculation of total energy consumption,
+aerobicdigesterforsludgestabilization) were collected by visiting the existing WWTP. The amount of
+Thisprocessisincludedphysicaltreatment,primarysedimen- energyconsumptioniscalculatedusingEq.(1).
+tation tank, biological treatment, secondary sedimentation tank
+and disinfection in liquid phase and there are gravity thickener, E e =(P×T)/Q (1)
+belt thickener, aerobic digester and belt filter press in sludge
+where:
+phase. :theelectricalenergy(kWh/m3).
+E
+e
+Scenario B. MLE process at an SRT of 7 days and anaerobic P:electricpower(kW)
+digesterforsludgestabilization. T:operationtime(h/day)
+This scenario is similar to scenario A in the liquid phase. Q:averageinfluentflowrate(m3/d)
+But in the sludge phase, the aerobic digester is replaced by the
+anaerobic digester. Additionally, CHP was used as an option for 2.5. EstimationofGHGemissions
+biogasproductionintheanaerobicdigester(scenariB-CHP).
+EmissionofGHGincludesthein-siteandoff-siteCO ,CH ,and
+Scenario C. Extended aeration activated sludge process with ni- 2 4
+N Oproduction,amongwhichCH andN Oaremultipliedin21
+trogen removal (BNR-EAAS) at an SRT of 20 days and aerobic 2 4 2
+and 296, respectively, resulting in CO equivalents (CO ) (IPCC,
+digester. 2 2e
+This process is included physical treatment, biological treat- 2006).
+ment, secondary sedimentation tank and disinfection in liquid
+phase and there are gravity belt thickener, aerobic digester and 2.5.1. Methodology for calculation of GHG emissions produced in-
+beltfilterpressinsludgephase.Inthisprocessduetotheabsence site
+of primary sludge, aerobic digestion is considered for sludge GHGemissionsfromWWTPsconsistofCO 2 frombiodegrada-
+stabilization. tionoforganicmatter,N 2Ofrombiologicalnitrogenremoval,and
+CH fromsludgeanaerobicdigestion.ThecalculationofCO isnot
+ScenarioD.BNR-EAASatanSRTof40days(inthisscenario,the 4 2
+considered in this study due to the fact that the amount of CO
+sludgeisstabilizedinaliquidline). 2
+emitted from the biodegradation of organic matter is related to
+This scenario is similar to scenario C in the liquid phase.
+biogenicorigin(IPCC,2006).
+However, in the sludge phase, due to the high sludge retention
+timeinthebiologicalsystem,thesludgestabilizationunitisnot (a) N 2O produced from the nitrification–denitrification pro-
+consideredandthesecondarysludgeistransferreddirectlytothe cess
+dewateringunit. Duetothenatureofnitrificationanddenitrificationprocesses,
+These scenarios have been selected according to parameters someN Ogasisreleasedduringtheseprocesses.Theemissionof
+2
+such as the quantity and quality of influent, covered popula- thisgasanditsCO isestimatedbyusingEqs.(2)and(3)(Nayeb
+2e
+tion,energy consumption,required space,easeof operationand etal.,2019;Snip,2010).AccordingtoIPCCestimates,about0.5%
+2312
+
+--- Page 4 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Fig.2. ThelayoutofthefourWWTPsconfigurationsevaluatedintermsofGHGemissions.
+ofthetotalinfluentnitrogenloadedintotheWWTPisconverted Q:averageinfluentflowrate(m3/d)
+toN O(IPCC,2006).
+2 N : Total nitrogen concentration in influent wastewater (g
+total
+N 2O emission =Q ×N total×0.005×0.365 (2) N/m3)
+CO 2,eq =N 2O emission×GWP N2O =N 2O emission×296 (3) GWP N2O:globalwarmingpotentialforN 2O
+where: N O :Totalnitrogenoxideemissions(kg/yr)
+2 emission
+2313
+
+--- Page 5 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Table3
+Estimationofelectricalenergyconsumptionforoxygenrequired.
+Typeofscenarios Oxygenrequired(kgO2/h) Numberofblowers Totalpower(kW) Operationtime(h/day) Ee (kWh/m3)
+Liquidphase 2300 8+1 1200 24 0.36
+A Sludgephase 960 9+1 1350 24 0.4 0.76
+Liquidphase 2300 8+1 1200 24 0.36
+B 0.36
+Sludgephase 0 – – – –
+Liquidphase 3800 13+1 1950 24 0.58
+C Sludgephase 425 4+1 600 24 0.18 0.76
+Liquidphase 4100 15+1 2250 24 0.67
+D 0.67
+Sludgephase 0 – – – –
+Table4
+Powerconsumptionandproductionindifferentscenarios(kW).
+Scenario SRT(day) Aeration Total Screeningandgrit Thickeningand Otherunits Totalpower Totalpower
+pumps removal dewateringofsludge consumption production
+A 7 2550 420 40 45 250 3305 –
+B 7 1200 420 40 45 250 1955 –
+B-CHP 7 1200 420 40 45 250 1955 940
+C 20 2550 390 40 30 250 3260 –
+D 40 2250 390 40 20 250 2950 –
+It should be noted that, when the nitrification process takes per1000m3ofnaturalgasconsumed.Thisdatawasderivedfrom
+place only in WWTPs, the ratio of conversion of total organic Iranenergybalance,2015(Nayebetal.,2019).
+chargetoN 2Owillbeabout0.3%(Garnieretal.,2006). e p.p: average efficiency of thermal power plants in the country
+(35%iniran)(Nayebetal.,2019).
+(b)CH producedfromsludgeanaerobicdigestion
+4
+ThetotalcapacityofCH producedinananaerobicdigesteris
+4
+3. Resultsanddiscussion
+calculatedfromEq.(4).
+Q gas =0.9m3/kgVSS destroyed×(VSS in−VSS out) (4) 3.1. Totalenergyconsumption
+where:
+Q :Totalgasproduction(m3/d) In this section, the oxygen demand and energy consump-
+gas
+VSS : Volatile suspended solid in influent sludge to digester tion in various processes were compared with each other (Met-
+in
+(kg/d) calf & Eddy et al., 2014). Also, the energy consumption in the
+VSS :Volatilesuspendedsolidindigestedsludge(kg/d) current study was compared with those reported in previous
+out
+The emission of this gas (CH ) and its equivalent CO is esti- investigations.
+4 2
+matedusingEqs.(5)and(6)respectively(Snip,2010).
+3.1.1. comparisonoftheoxygenrequiredindifferentscenarios
+CH
+CH 4,emission =Q gasproduction× 4 ×0.657×365 (5) The amount of oxygen required for organic matter removal
+totalgas
+and nitrification in the aeration tank was calculated based on
+CO 2,eq =CH 4,emission×GWP CO2 =CH 4,emission×21 (6) the quality of influent wastewater for each scenario. Also, the
+oxygenrequiredforaerobicdigesterwascalculatedfortwotypes
+where:
+ofsludge(oxygenforcelltissueandoxygenforBOD inprimary
+CH /totalgas:0.7 5
+4 sludge). The number of blowers and estimation of electrical en-
+GWP :globalwarmingpotentialforCH .
+CO2 4 ergy consumption for blowers (Capacity of each blower is equal
+CH emission:Methaneemissions(kg/yr)
+4 to 150 kW) in each process for the liquid and sludge sections is
+illustratedseparatelyinTable3.
+2.5.2. Methodology for calculation of GHG emissions produced off-
+According to Table 3, aerobic digestion of primary sludge re-
+site
+quiresthehigheroxygenamountandSRTcomparedtosecondary
+TheamountofCO emittedduetoenergyconsumptioniscal-
+2
+sludge.Therefore,theoxygenrequirementforthemixtureofpri-
+culatedtoestimatetheamountofGHGemissionsoff-siteinthis
+maryandsecondarysludgeismorethanthatforonlysecondary
+investigation. The most important indicator of CO produced by
+2
+theenergyconsumptionreferstoenergyintensityintheWWTP sludge in the digestion process (Metcalf & Eddy et al., 2014;
+(energy consumption per cubic meter of treated wastewater). TurovskiyandMathai,2006).Therefore,theoxygenrequirement
+Based on the emission logic of GHGs, emissions from energy for the sludge phase in scenario A is almost twice as much as
+consumptioncanbecalculatedusingEq.(7)(Nayebetal.,2019). in scenario C. Although, the largest electrical energy (E e = 0.76
+kWh/m3) was observed in scenarios A and C because of the
+presence of aerobic digestion, the amount of E is the least in
+CO 2E =(Q×If×CO2NG×356×3.6)/ (ep.p×TV) (7) scenarioBwhentheSRTis7days,andsludgestabe ilizationisdone
+Accordingtothisequation inanaerobicdigestion.Ontheotherhand,caseDrequiresmore
+CO : total emission from energy consumption in the treatment oxygenduetotheincreasingofsludgeretentiontimeto40days
+2E
+plant andusingofextendedaeratedactivatedsludgesystem.
+Q:averageinfluentflowrate(m3/d)
+I:energyconsumptionintensity(kWh/m3 wastewater)(Table5) 3.1.2. Comparingthetotalenergyconsumptionindifferentscenarios
+f
+T : the thermal value of natural gas (MJ/m3 natural gas); the The power consumption and energy produced in the treat-
+V
+relatedvalueinIranis37MJ/m3 naturalgas mentplantforthedifferentscenariosareshowninTable4.The
+CO :CO emissionfromnaturalgascombustion(kgofCO /m3 highesttotalpowerconsumptionisinscenarioA(availablepro-
+2NG 2 2
+ofnaturalgasconsumed).Estimatedemissionsof2.11tonsofCO cess) because of the primary and secondary sludge stabilization
+2
+2314
+
+--- Page 6 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Fig.3. Percentageofenergyconsumptionindifferentscenarios.
+Fig.4. Theamountofenergyconsumptionandproductionindifferentscenarios.
+inanaerobicdigester.However,powerconsumptioninscenario digestion.ButtheenergyconsumptioninscenarioDislessthan
+B is the lowest; as a result, the anaerobic digester is applied for in scenarios A and C. It is about 0.88 kWh/m3 because of the
+sludge stabilization. In addition, the share of different forms of sludge stabilization in the aeration tank and the elimination of
+energy consumed in treatment plants is demonstrated in Fig. 3. theaerobicdigestionunit.
+Itisclearthatthemostenergyconsumptionisinairblowersused Therefore, energy consumption in activated sludge processes
+such as MLE with aerobic digester (scenario A) will be approxi-
+foraerationinscenariosA,B,andC.Theyconsumeabout77%of
+matelyequaltotheBNR-EAASprocess(scenarioC)thathasbeen
+the electrical energy. Also, the total energy consumption in the
+usedforsmallcommunities(QasimandZhu,2017).Accordingto
+treatmentplantandtheamountofenergyproducedfordifferent
+Table 4, about 40% of energy in scenario A is consumed in the
+scenariosareshowninFig.4.
+sludge section that this consumption can be reduced to about
+Asshowninthisfigure,thetotalcalculatedenergyconsump-
+40%bychangingdigestertypefromaerobictoanaerobic(scenario
+tion is about 1 kWh/m3 (61 kWh/person.year) in scenarios A
+B).Furthermore,energyconsumptionwillbefurtherreducedby
+and C, which is more than 75% of energy consumption utilized theelectricityandheatgeneratedfromtheproducedbiogas(CHP
+for the aeration of liquid and sludge phase. Hence, the amount system)AsdepictedinFig.4,ifelectricityisgeneratedbybiogas
+of aeration and consequently the energy consumption of both at the rate of 0.28 kWh/m3 in scenario B-CHP, the amount of
+processes are very close to each other and only this level of energyconsumptionwillbereducedtoabout70%comparedwith
+energy is divided between the liquid phase and sludge aerobic scenarioAanditwillbe0.3kWh/m3.
+2315
+
+--- Page 7 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Table5
+TotalandseparateenergyconsumptionincurrentstudyWWTPandpreviousresearching.
+SpecificationsofWWTPs Typeofprocess Energyconsumption Distributionofenergyconsumption(%) References
+(kWh/m3) Aeration Sludge Otherunits
+AdvancedWWTPinChina Conventionalactivated 0.26 57 5 38 Ganseetal.
+(Beijing)-2,400,000person sludgewiththeanaerobic (2007)
+digester
+AdvancedWWTPinItaly Activatedsludgeby 0.3 51 29 20 Panepinto
+(Turin)-2,700,000person removingnitrogenand etal.(2016)
+phosphoruswiththe
+anaerobicdigester
+AdvancedWWTPin Two-stageactivatedsludge 0.32 57 13 30 Jonassonand
+Australia(Strass)-250,000 withtheanaerobicdigester UlfJeppsson
+person (2007)
+452WWTPssinChinawith AO-A2Owiththeanaerobic Lessthan0.33 – – – Heetal.
+acapacityofmorethan digester (2019)
+50,000m3/d
+WWTPinSweden-500,000 Activatedsludgewiththe 0.48 48 14 38 Haoetal.
+person anaerobicdigester (2015)
+WWTPinIran(Tabriz-after Activatedsludgewiththe 0.3 77 7 18 Maktabifard
+upgrading)withacapacity anaerobicdigester etal.(2018)
+of1.5m3/s
+UnderstudyWWTPs- ScenarioA 0.992 38 42 20 Thisstudy
+500,000person (SRT7day)
+UnderstudyWWTPs- ScenarioB 0.587 64 2 34 Thisstudy
+500,000person (SRT7day)
+UnderstudyWWTPs- ScenarioB+CHP 0.307 64 2 34 Thisstudy
+500,000person (SRT7day)
+UnderstudyWWTPs- ScenarioC 0.978 61 19 20 Thisstudy
+500,000person (SRT20day)
+UnderstudyWWTPs- ScenarioD 0.885 77 1 22 Thisstudy
+500,000person (SRT40day)
+3.1.3. Thecomparisonofenergyconsumptionincurrentdesignwith emissionsduetoenergyconsumption.AsgiveninTable6,despite
+previousstudies thefactthattotalCO inindirectemissionsisthelowestamount
+2e
+The energy consumption in several WWTPs in the world inscenarioBwhenproducedbiogaswasusedforgeneratingelec-
+and its comparison with the treatment systems in the current tricity and heat (CHP), the high energy consumption in scenario
+study are shown in Table 5. Researches conducted by Gu et al. AcausesthetotalCO emissionstoreach16563tonCO /year,
+2e 2e
+and He et al. on 534 WWTPs with Anoxic/Oxic (AO), Anaero- whichascanbeseen,thehighenergyconsumptioninscenarioA
+bic/Anoxic/Oxic A2O, and, Modified Ludzack Ettinger (MLE) pro- causesthatquantitybecomesmorethan3timesoftotalCO in
+2e
+cesses showed that the amount of energy consumed in these scenarioBwithCHP.
+treatment plants is in the range of 0.267 to 0.33 kWh/m3 (Gu Flores-Alsinaetal.reportedthatthevaluesofGHGemissions
+etal.,2017;Heetal.,2019).Thisresearchindicatedthatevenif are in the range of 0.9 to 2.2 kgCO /m3 for biological nutrient
+2e
+the system is changed from the aerobic digester to anaerobic in removal WWTPs (Flores-Alsina et al., 2011). The annual GHG
+theEastMashhadWWTP,theenergyconsumptionofthisWWTP emissions are between 0.3–1.65 kg CO /m3. The scenario B can
+2e
+(0.58 kWh/m3) can be about 2 times more than the studied reach the lowest GHG emissions compared to that reported by
+treatmentplants.Therefore,itisnecessarytouseothermethods Flores-Alsina, when CHP is used for produced biogas (0.3 kg
+to reduce energy consumption, such as electricity generation CO /m3).
+2e
+frommethanegasandrecoveryofmorethan45%ofenergywith Moreover, Gustavs-son & Tumlin described the annual GHG
+the help of the CHP system. In this state, the amount of energy emissions in the range of 7–108 kgCO /PE for 16 Scandinavian
+2e
+consumptionwillbe0.3kWh/m3. WWTPs (Gustavsson and Tumlin, 2013). The results of Table 5
+showthattheannualGHGemissionsarebetween17.35–96.3kg
+3.2. EstimationofGHGemissions CO 2e/PE.Althoughthecalculatedamountsfordifferentprocesses
+areintherangeofreportedamountsbyGustavssonandTumlin,
+The greenhouse gases (CH and N O) released from the thecalculatedamountforscenarioB-CHPisintheminimumlevel
+4 2
+wastewaterdependonitsbiodegradableorganicmatterandthe becauseofusingtheCHP.
+WWTP. According to IPCC guidelines, Eqs. (2) to (6) have been
+usedtoappraisethequantityofCH andN Oreleasedfromthe 3.3. The relation between specific energy consumption and GHG
+4 2
+WWTPs.TheannualemissionsofCH andN OfromtheWWTPs emissions
+4 2
+in different scenarios and indirect CO emissions by electrical
+2
+energyconsumptioninWWTPsandtheannualGHGemissionsin Therelationbetweenannualspecificenergyconsumptionand
+differentscenariosareindicatedinTables6and7,respectively. the annual GHG emissions in different scenarios is illustrated in
+According to Table 6, although, total annual emission of CH Fig.5.
+4
+and N O from WWTPs in scenarios A, C, and D is 1728 kg According to Fig. 5, the annual specific energy consumption
+2
+CO /year, and maximum annual CH and N O emissions are is in the range of 18–58 kWh/PE for various scenarios. These
+2e 4 2
+relatedtoscenarioBbecausetheCH isreleasedfromanaerobic results were in the range of 16 to 71 kWh/PE for WWTPs in
+4
+digesters. On the other hand, the WWTPs lead to indirect GHGs the USA (Stillwell et al., 2010) and 20–120 kWh/PE WWTPs in
+2316
+
+--- Page 8 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Table6
+TheannualemissionsofCH4,N2O,indirectemissions,andannualGHGemissionsfromthedifferentscenarios.
+Scenario TheannualemissionsofCH4 andN2O(TonCO2e/year) Indirectemissions TotalCO2e
+CH4 emissions N2Oemissions Totalannual Energyconsumption indirectCO2e (Ton kgCO2e/m3 (kg
+emissions intensity(kWh/m3) CO2e/year) CO2e/PE)
+A 0 1728 1728 0.9915 16563 0.63(36.6)
+B 36619 1728 38348 0.5865 9798 1.65(96.3)
+B-CHP 1831 1728 3559 0.3065 5120 0.3(17.35)
+C 0 1728 1728 0.978 16338 0.62(36.1)
+D 0 1728 1728 0.885 14784 0.56(33)
+Fig.5. TherelationbetweenGHGemissionsandenergyconsumptionindifferentscenarios.
+Europe (Jonasson and Ulf Jeppsson, 2007). It can be recognized to raise the temperature of the sludge in anaerobic digestion is
+that scenarios A and C have the most annual specific energy lessthanCHPheatpower(26333kWh/day).
+consumption,whereastheannualGHGemissionsaremaximum
+in scenario B as a result of the anaerobic digesters and CH 4 3.4.2. Netpresentvalueandpaybackperiod
+production. It is noticed that, if CHP is considered, not only In this study, the revenues are comprised revenue from the
+will energy consumption be minimized, but GHG emissions will sale of electricity and reduced GHG emissions. As shown in Ta-
+also be minimized due to the converting of anaerobic digestion ble 7, the electrical production in scenario B-CHP and energy
+CH 4 intoheatandenergy.Therefore,scenarioB-CHPisthemost requiredinscenarioAforaerobicdigestionwithoutothersunits
+optimal scenario where specific energy consumption and GHG are22282and32400kWh/d,respectively.Therefore,thediffer-
+emissions are 17.78 kWh/PE and 17.35 kg CO /PE, respectively.
+2e ence in electrical consumption of the two scenarios is equal to
+Therefore, the value of specific energy consumption is in the
+54682kWh/d.
+range between 20–30 kWh/PE reported by the German Guide
+The second part is the revenue from the sale of credits from
+Manual,dependingontheWWTPcapacity(Krampe,2013).
+the Clean Development Mechanism (CDM) for GHG emissions.
+Apparently,GHGemissionsreductioninacost-efficientoption
+TheCDMisoneoftheflexiblemechanismsoftheKyotoProtocol,
+without decline effluent quality appears as a considerable chal-
+under which developed countries are allowed to support devel-
+lengeforWWTPsoperators.Theresultsshowedthataremarkable
+oping countries’ projects that lead to GHG reductions. This plan
+reductionofGHGemissionscanbeachievedbyexecutingspecific
+reducesGHGemissionsintwowaysincludingpreventionofthe
+controlstrategies.
+methanereleaseintotheatmosphereandgenerationofelectricity
+andheatfromrenewablesources(Bruijestensetal.,2008).
+3.4. Economicassessment
+HouseholdelectricitypriceinIranis0.05and5USDperkWh
+in 2019 and 2022, respectively (Fatourehchi et al., 2022). Also,
+In this study, for economic analysis, the initial capital and
+theCHPsystemcapitalcostisbetween800–3200USD/kW(Riley
+operating costs and also potential revenues were compared for
+et al., 2020). The price of electricity and CHP capital cost are
+digestersintwoscenarios(AandB-CHP).Itshouldbenotedthat
+considered 0.015 USD per kWh (for iranian WWTPs) and 2000
+theinitialcapitalandoperatingcostsofotherunitsandrevenues
+from the sale of effluent and biosolid were considered constant USD/kW in this study. The agreed and efficient method applied
+inbothscenarios. for reducing the CO 2 and other GHGs (global warming) is CO 2
+pricing (or carbon pricing). A carbon tax or carbon emission
+3.4.1. Theinitialcapitalandoperatingcosts trading are generally used for carbon pricing. The carbon price
+Differencesincapitalcostsoftwoscenariosareincludingthe ofthesystemswereUSD10–40pertonCO 2 inSeptember2021.
+costs of digesters construction (aerobic/anaerobic) and equip- Due to the lack of carbon price study in Iran, a USD 18 per ton
+ments (blower/pump/CHP) and related operating costs. The de- CO 2 wasusedinthisstudy(WorldBank,2021).
+sign parameters and operating characteristics are shown in Thenetpresentvalue(NPV)wascalculatedatadiscountrate
+Table7.AccordingtothenormalrangesofoverallCHPefficiency of10%over25yearsfortwoscenarios.Costs,revenues,andNPV
+(65%–78%)andthermal/electricalefficiency(22-45/33%–43%)(Ri- in two scenario are shown in Table 8. As shown in Table 8,
+ley et al., 2020), the amount of heat required (13992 kWh/day) the scenario B-CHP recommended because it provides 100% of
+2317
+
+--- Page 9 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Table7
+Thedesignparametersandoperatingcharacteristicsfordigesters.
+Variable Unit ScenarioA ScenarioB-CHP
+SRTindigester Day 40 15
+Volumeofdigester m3 24000 9000
+AnnualGHGemissions Ton/yr 18292 8680
+Energyrequired kWh/day 32400 –
+Heatrequired kWh/day – 13992
+Electricalproduction kWh/day – 22282
+Thermalproduction kWh/day – 26333
+CHPsize kWe – 940
+Power/Heatratio – – 0.86
+Thermalefficiency % – 39
+Electricalefficiency % – 33
+Table8
+Thecosts,revenues,andNPVfordigestersintwoscenarios(AandB-CHP).
+Variable Unit ScenarioA ScenarioB-CHP
+Economiccalculationcriteria
+ElectricusagecostinIran USD/kWh about0.015 about0.015
+CapitalcostofCHP USD/kWe – 2000
+Operationandmaintenancecosts – 3%capitalcosts 3%capitalcosts
+Costsinbaseyear
+Capitalcost USD 2,490,000 3,860,000
+Annualelectricalconsumption USD 177,390 –
+AnnualGHGemissions USD 329,256 156,240
+RevenuesfromchangingscenarioAtoBinbaseyear
+Annualelectricalsaving USD 299,383
+AnnualGHGemissionssaving USD 173,016
+NPV(a10%discountrateanda25-yearstudyperiod)
+TotalRevenue (USD) 0 4,333,370
+Totalcosts (USD) 7,764,305 6,654,813
+NetPresentValue USD −7,764,305 −2,321,443
+its thermal demand and also giving roughly USD 299,383 and self-sufficient WWTPs must be developed for controlling GHGs
+173,016 in annual energy cost savings and annual carbon (CO 2) emissionsandreducingenergyconsumption.
+pricingsavingsinbaseyear,therebyresultinginpaybackofabout
+4years(USD1,370,000).
+CRediTauthorshipcontributionstatement
+4. Conclusion
+Vahid Aghabalaei: Devised the project, the main conceptual
+Inthepresentstudy,thecurrentstatusoftheGHGemissions ideasandproofoutlineanddesignedthedescriptionofscenarios,
+and energy consumption from the WWTP (MLE and aerobic di- Collected and analyzed the data and calculated the total energy
+gestion process) in Mashhad was calculated and compared with consumptionandtheGHGemissionsandeconomicassessmentof
+otherprocesses.Theresultsrevealedthat: scenarios, Performed and verified the numerical calculation and
+• The energy consumption (1 kWh/m3) and GHG emissions results,Wrotethemanuscriptanddiscussedtheresultsandcon-
+(0.63 kg CO /m3) in this WWTP are out of the acceptable tributed to the final manuscript. Hossein Nayeb: Collected and
+2e
+analyzed the data and calculated the total energy consumption
+values(especiallyenergyself-sufficientWWTPs).
+• ScenarioB-CHP(MLEwiththecombinationofanaerobicdi- and the GHG emissions and economic assessment of scenarios,
+gestionandCHP)hadmoreadvantagesthanotherscenarios Wrotethemanuscriptanddiscussedtheresultsandcontributed
+todecreaseGHGemissionsandenergyconsumption.Inthis to the final manuscript. Shima Mardani: Devised the project,
+scenario,not onlyenergyconsumptionand GHGemissions the main conceptual ideas and proof outline and designed the
+are reduced by about 70% (0.3 kWh/m3) and 53% (0.3 kg descriptionofscenarios,Collectedandanalyzedthedataandcal-
+CO /m3),respectively. culatedthetotalenergyconsumptionandtheGHGemissionsand
+2e
+• Totalannualenergyandcarbonpricingcostsavingsinbase economic assessment of scenarios, Performed and verified the
+year obtained at scenario B-CHP was about USD 480,000 numericalcalculationandresults,Wrotethemanuscriptanddis-
+comparedtotheexistingprocess(scenarioA). cussedtheresultsandcontributedtothefinalmanuscript.Mahla
+• The aerobic digester is not suitable for the MLE process Tabeshnia: Collected and analyzed the data and calculated the
+(scenario A) for optimizing energy and GHGs emissions. totalenergyconsumptionandtheGHGemissionsandeconomic
+Additionally,althoughscenarioBwilldecreaseenergycon- assessment of scenarios, Performed and verified the numerical
+sumptionbyabout42%,thetotalamountofCO 2 equivalent calculationandresults,Wrotethemanuscriptanddiscussedthe
+(CO e-T) will increase by about 126%. Therefore, for min-
+2 resultsandcontributedtothefinalmanuscript.MajidBaghdadi:
+imizing of GHGs emissions and energy consumption, CHP
+Collected and analyzed the data and calculated the total energy
+mustbeusedinWWTPs.
+consumption and the GHG emissions and economic assessment
+Duetotheneedfordomesticwastewatertreatmentforabout of scenarios, Performed and verified the numerical calculation
+60% of Iran’s population in the coming years, selecting appro- andresults,Wrotethemanuscriptanddiscussedtheresultsand
+priate wastewater treatment processes and constructing energy contributedtothefinalmanuscript.
+2318
+
+--- Page 10 ---
+V.Aghabalaei,H.Nayeb,S.Mardanietal. EnergyReports9(2023)2310–2320
+Declarationofcompetinginterest Koutsou,O.P.,Gatidou,G.,Stasinakis,A.S.,2018.Domesticwastewatermanage-
+ment in Greece: Greenhouse gas emissions estimation at country scale. J.
+Theauthorsdeclarethattheyhavenoknowncompetingfinan- Clean.Prod.188,851–859.
+Krampe,J.,2013.EnergybenchmarkingofsouthAustralianWWTPs.WaterSci.
+cialinterestsorpersonalrelationshipsthatcouldhaveappeared
+Technol.67(9),2059–2066.
+toinfluencetheworkreportedinthispaper.
+Larsen,T.A.,2015.CO2-neutralwastewatertreatmentplantsorrobust,climate-
+friendly wastewater management? A systems perspective. Water Res. 87,
+Dataavailability 513–521.
+Luo, W., Hai, F.I., Price, W.E., Guo, W., Ngo, H.H., Yamamoto, K., Nghiem, L.D.,
+2014. High retention membrane bioreactors: challenges and opportunities.
+Datawillbemadeavailableonrequest.
+Bioresour.Technol.167,539–546.
+Maktabifard, M., Zaborowska, E., Makinia, J., 2018. Achieving energy neutrality
+References in wastewater treatment plants through energy savings and enhancing
+renewableenergyproduction.Rev.Environ.Sci.Biotechnol.17(4),655–689.
+Awe, O.W., Liu, R., Zhao, Y., 2016. Analysis of energy consumption and saving Mamais, D., Noutsopoulos, C., Dimopoulou, A., Stasinakis, A., Lekkas, T., 2015.
+inwastewatertreatmentplant:casestudyfromIreland.J.WaterSustain.6 Wastewater treatment process impact on energy savings and greenhouse
+(2),63. gasemissions.WaterSci.Technol.71(2),303–308.
+Balmér, P., 2000. Operation costs and consumption of resources at nordic Mardani, S., Aghabalaei, V., Tabeshnia, M., Baghdadi, M., 2021. Modification of
+nutrientremovalplants.WaterSci.Technol.41(9),273–279. conventionalcoagulationflocculationprocesswithgrapheneoxideandmag-
+Bolong, N., Ismail, A., Salim, M.R., Matsuura, T., 2009. A review of the effects netite nanoparticles for turbidity removal from surface water. Desalination
+of emerging contaminants in wastewater and options for their removal. WaterTreat.229,206–2016.
+Desalination239(1–3),229–246. Massara,T.M.,Malamis,S.,Guisasola,A.,Baeza,J.A.,Noutsopoulos,C.,Katsou,E.,
+2017.Areviewonnitrousoxide(N2o)emissionsduringbiologicalnutrient
+Bruijestens,A.J.,Beuman,W.P.H.,Moelen,M.V.D.,Bleuanus,S.,2008.Biogascom-
+removal from municipal wastewater and sludge reject water. Sci. Total
+position and engine performance, including database and biogas property
+Environ.596,106–123.
+model.
+Masuda, S., Sano, I., Hojo, T., Li, Y.-Y., Nishimura, O., 2018. The comparison
+Chen, Y., Zhang, H., Yin, Y., F, Zeng., Cui, Z., 2022. Smart energy savings for
+of greenhouse gas emissions in sewage treatment plants with different
+aerationcontrolinwastewatertreatment.EnergyRep.8(2022),1711–1721.
+treatmentprocesses.Chemosphere193,581–590.
+Cheng, sh., Longa, J., Evans, B., Zhan, Z., Li, T., Chen, C., HP, Mang., Li, Z.,
+Metcalf&Eddy,Abu-Orf,M.,Bowden,G.,Burton,F.L.,Pfrang,W.,Stensel,H.D.,
+2022.Non-negligiblegreenhousegasemissionsfromnon-seweredsanitation
+Tchobanoglous, G., Tsuchihashi, R., AECOM, 2014. Wastewater Engineering:
+systems:Ameta-analysis.Environ.Res.212(2022),113468.
+TreatmentandResourceRecovery.McGrawHillEducation,UnitedStates.
+Corominas, L., Foley, J., Guest, J., Hospido, A., Larsen, H., Morera, S., Shaw, A.,
+National Water & Wastewater Engineering Company, 2019. Iranian water and
+2013. Life cycle assessment applied to wastewater treatment: state of the
+wastewaterindustryperformancein2019.https://www.nww.ir/.
+art.WaterRes.47(15),5480–5492.
+Nayeb,H.,Mirabi,M.,Motiee,H.,Alighardashi,A.,Khoshgard,A.,2019.Estimat-
+Daelman, M.R., van Voorthuizen, E.M., van Dongen, U.G., Volcke, E.I., van
+ing greenhouse gas emissions from Iran’s domestic wastewater sector and
+Loosdrecht, M.C., 2012. Methane emission during municipal wastewater
+modelingtheemissionscenariosby2030.J.Clean.Prod.236,117673.
+treatment.WaterRes.46(11),3657–3670.
+Nayeb,H.,Mirabi,M.,Motiee,H.,Alighardashi,A.,Khoshgard,A.,2020.Astudy
+Fatourehchi, D., Noguchi, M., Doloi, H., 2022. Iranian household electricity use
+onestimationofgreenhousegasemissionsfromindustrialwastewatersector
+comparedtoselectedcountries.Encyclopedia2,1637–1665,2022.
+inIran.J.Appl.Res.WaterWastewater7(1),64–69.
+Flores-Alsina, X., Corominas, L., Snip, L., Vanrolleghem, P.A., 2011. Including
+Oshita, K., Okumura, T., Takaoka, M., Fujimori, T., Appels, L., Dewil, R., 2014.
+greenhouse gas emissions during benchmarking of wastewater treatment
+Methaneandnitrousoxideemissionsfollowinganaerobicdigestionofsludge
+plantcontrolstrategies.WaterRes.45(16),4700–4710.
+inJapanesesewagetreatmentfacilities.Bioresour.Technol.171,175–181.
+Foley, J., Yuan, Z., Keller, J., Senante, E., Chandran, K., Willis, J., Shah, A., van
+Panepinto,D.,Fiore,S.,Zappone,M.,Genon,G.,Meucci,L.,2016.Evaluationof
+Loosdrecht, M., van Voorthuizen, E., 2011. N2O and CH4 Emission from
+the energy efficiency of a large wastewater treatment plant in Italy. Appl.
+WastewaterCollectionandTreatmentSystems.TechnicalReport.
+Energy161,404–411.
+Gandiglio,M.,Lanzini,A.,Soto,A.,Leone,P.,Santarelli,M.,2017.Enhancingthe
+Parravicini, V., Nielsen, P.H., Thornberg, D., Pistocchi, A., 2022. Evaluation of
+energyefficiencyofwastewatertreatmentplantsthroughco-digestionand
+greenhousegasemissionsfromtheEuropeanurbanwastewatersector,and
+fuelcellsystems.Front.Environ.Sci.5,70.
+optionsfortheirreduction.Sci.TotalEnviron.838(2022),156322.
+Ganse,N.,Mobini,S.,XN,Z.,2007.AppendixE.Massandenergybalancesatthe
+Qasim,S.R.,Zhu,G.,2017.WastewaterTreatmentandReuseTheoryandDesign
+gaobeidianwastewatertreatmentplantinBeijing,Chaina.pp.203–209.
+Examples,Volume2:Post-Treatment,Reuse,andDisposal.CRCPress.
+Garnier,J.,Cébron,A.,Tallec,G.,Billen,G.,Sebilo,M.,Martinez,A.,2006.Nitrogen Riley,D.M.,Tian,J.,Güngör-Demirci,G.,Phelan,P.,Villalobos,J.R.,Milcarek,R.J.,
+behaviour and nitrous oxide emission in the tidal Seine River estuary 2020.Techno-economicassessmentofCHPsystemsinwastewatertreatment
+(France) as influenced by human activities in the upstream watershed. plants.Environments7,74.
+Biogeochemistry77(3),305–326. Shahabadi, M.B., Yerushalmi, L., Haghighat, F., 2009. Impact of process design
+Gu,Y.,Li,Y.,Li,X.,Luo,P.,Wang,H.,Wang,X.,Wu,J.,Li,F.,2017.Energyself- ongreenhousegas(GHG)generationbywastewatertreatmentplants.Water
+sufficient wastewater treatment plants: feasibilities and challenges. Energy Res.43(10),2679–2687.
+Procedia105,3741–3751. Sharawat, I., Dahiya, R., Dahiya, R., 2021. Analysis of a wastewater treatment
+Gustavsson,D.,Tumlin,S.,2013.CarbonfootprintsofScandinavianwastewater plantforenergyconsumptionandgreenhousegasemissions.Int.J.Environ.
+treatmentplants.WaterSci.Technol.68(4),887–893. Sci.Technol.18(4),871–884.
+Hao,X.,Liu,R.,Huang,X.,2015.Evaluationofthepotentialforoperatingcarbon Snip, L., 2010. Quantifying the greenhouse gas emissions of wastewater
+neutralWWTPsinChina.WaterRes.87,424–431. treatmentplants.Environ.Sci.Netherl.8–13.
+He, Y., Zhu, Y., Chen, J., Huang, M., Wang, P., Wang, G., Zou, W., Zhou, G., Stillwell,A.S.,Hoppock,D.C.,Webber,M.E.,2010.Energyrecoveryfromwastew-
+2019.Assessmentofenergyconsumptionofmunicipalwastewatertreatment atertreatmentplantsintheUnitedStates:acasestudyoftheenergy-water
+plantsinChina.J.Clean.Prod.228,399–404. nexus.Sustainability2(4),945–962.
+Intergovetnmental Panel on Climate Change, 2006. IPCC guidelines for na- Sweetapple,C.,Fu,G.,Butler,D.,2014.Identifyingsensitivesourcesandkeycon-
+tionalgreenhousegasinventories.In:Eggleston,H.S.,Buendia,L.,Miwa,K., trolhandlesforthereductionofgreenhousegasemissionsfromwastewater
+Ngara, T., Tanabe, K. (Eds.), Prepared By the National Greenhouse Gas treatment.WaterRes.62,249–259.
+Inventories Programme. Published 2006 by IGES, Japan, https://www.ipcc- Turovskiy, I.S., Mathai, P., 2006. Wastewater Sludge Processing. John Wiley &
+nggip.iges.or.jp/public/2006gl/. Sons.
+IranianNationalStandardizationOrganization,2019.ReuseofMunicipalTreated Wehbia,Z.,Taherb,R.,Farajc,J.,Ramadance,M.,Castelaine,C.,Khaledc,M.,2022.
+WastewaterforDifferentApplications-Specifications.Iran. Ashortreviewofrecentstudiesonwastewaterheatrecoverysystems:Types
+Jiang, S., Wang, J., Zhao, Y., Lu, S., Shi, H., He, F., 2016. Residential water and andapplications.EnergyRep.8(2022),896–907.
+energynexusforconservationandmanagement:AcasestudyofTianjin.Int. WaterEnvironmentResearchFundation(WERF),2014.EnergyfromWastewater.
+J.Hydrog.Energy41(35),15919–15929. WaterEnvironment&ReuseFoundation,Alexandria.
+Jonasson, M., Ulf Jeppsson, I., 2007. Energy Benchmark for Wastewater Treat- WaterEnvironmentResearchFundation(WERF),2016.WERFEnergyFactsheet.
+ment Processes (MS Thesis). Dept. of Industrial Electrical Engineering and WaterEnvironment&ReuseFoundation,Alexandria.
+Automation. WorldBank,2021.Stateandtrendsofcarbonpricing2021.pp.29–30.
+2319

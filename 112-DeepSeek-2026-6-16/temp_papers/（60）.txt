@@ -1,0 +1,547 @@
+--- Page 1 ---
+Journal of Environmental Chemical Engineering 12 (2024) 114666
+ContentslistsavailableatScienceDirect
+Journal of Environmental Chemical Engineering
+journalhomepage:www.elsevier.com/locate/jece
+Releasing characteristics and influencing factors analysis of
+nitrogen-containing gaseous pollutants in wastewater treatment plants with
+sequencing batch reactor process
+Linlin Maa, Yufan Dongc, Xue Dua, Qing Yanga,*, Kehua Zoub
+aNationalEngineeringLaboratoryforAdvancedMunicipalWastewaterTreatmentandReuseTechnology,BeijingUniversityofTechnology,Beijing100124,China
+bKeyLaboratoryofOdorPollutionControlinMinistryofEcologyandEnvironmentofthePeople’sRepublicofChina,TianjinAcademyofEco-environmentalSciences,
+Tianjin300191,China
+cChinaNuclearPowerEngineeringCo.,Ltd.,Beijing100840,China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Thedischargeofnitrogen-containinggaseouspollutantsfromwastewatertreatmentplants(WWTP)hascauseda
+Nitrogen-containingodorousgases certainthreattothesurroundingenvironmentandhumanhealth,whichhasattractedwideattentioninrecent
+Nitrogen-containinggreenhousegases years.Thisstudyinvestigatedthereleasecharacteristicsofnitrogen-containingpollutantsatdifferenttreatment
+Wastewatertreatmentplants
+stagesinWWTPwithsequencingbatchreactor(SBR)process,includingnitrogen-containingodorousgases(NH3
+Emissionfactors
+anddimethylamine)andnitrogen-containinggreenhousegases(N2O),allofwhichachievedthehighestrelease
+Emissionreduction
+intheaerationstage,withemissionsof35.2,12.5mg/(m2⋅d)and229.7mg/L,respectively.Besides,theemission
+factorsofNH3anddimethylaminewerecalculatedfor0.0091and0.0026g/m3,andthecarbonemissionofN2O
+wasestimatedfor158.4kgofCO2perday.Furthermore,thepilotexperimentofSBRshowedthattheodorous
+gas decreased first and then increased with the increase of aeration intensity and sludge concentration, and
+increased with the increase of influent chemical oxygen demand (COD) concentration. This study provides
+theoreticalanddatasupportfortheemissionreductionofnitrogen-containingpollutantsinSBRprocessWWTP.
+1. Introduction mostcommonnitrogen-containingmalodorousgas,whichiscolorless,
+highlyactive,highlytoxic,andhasalowodorthreshold[6].Whenthe
+Withtherapiddevelopmentofsocialeconomyandtherapidgrowth environmentalconcentrationreaches4ppm,itwillcauseaveryobvious
+ofpopulation,thedischargeofdomesticsewagehasincreasedsignifi- irritatingodor.ItisreportedthatWWTPsarethe5thlargestsourceof
+cantly [1]. According to the statistics of the [2], more than 2800 NH3 in the atmosphere [7], where anaerobic decomposition of
+wastewatertreatmentplants(WWTPs)havebeenbuiltinurbanareasin nitrogen-containing organic matter, denitrification process, microbial
+China, with a daily processing capacity of 216 million cubic meters. growthandmetabolism,andaerationstrippinginwastewatercanlead
+Therefore,WWTPsplayanincreasinglyimportantroleintreatingdo- toalargereleaseofNH3andorganicamines[8](Fig.S1).Itshowsthe
+mesticsewageandimprovingurbanwaterenvironment[3].Itisworth importance of the issue of nitrogen-containing odorous gas release in
+noting that the treatment of nitrogenous pollutants such as nitrate in WWTPs. It’s worth noting that, these foul odors can cause sensory
+sewage plays an important role in the work of WWTPs, and a large discomfort among surrounding residents, and long-term exposure can
+amountofnitrogen-containinggaseouspollutantswillbeproducedin lead to problems such as nausea, headache, insomnia, and loss of
+the treatment process, which may bring negative impact on the envi- appetite[9].Inaddition,volatileodorousgasessuchasNH3andorganic
+ronment[4]. amines can enter the human body through respiration, causing
+These nitrogen-containing gaseous pollutants can be divided into discomfortinvariousbodilyfunctions[10].Withtheincreasingdemand
+twocategories.Onetypeismalodorousgases,suchasammonia(NH3), forqualityoflifefromhumans,thenumberofcomplaintscausedbythe
+methylamine (MA), dimethylamine (DMA), trimethylamine (TMA), foul odor ofWWTPs hassignificantly increasedglobally inrecent de-
+ethylamine(EA),andpropylamine(PA)[5].Amongthem,NH3isthe cades. According to the data from the Ministry of Ecology and
+* Correspondingauthor.
+E-mailaddress:yangqing@bjut.edu.cn(Q.Yang).
+https://doi.org/10.1016/j.jece.2024.114666
+Received27June2024;Receivedinrevisedform18September2024;Accepted1November2024
+Available online 2 November 2024
+2213-3437/© 2024 Published by Elsevier Ltd.
+
+--- Page 2 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+EnvironmentofthePeople’sRepublicofChina[11],atotalof111000 factor[16,19].Clarifyingtheimpactofvariousinfluencingfactorson
+and 98,000 odor complaints were received in 2019 and 2020, ac- thegasemissionfactorisconducivetotheemissionreductionofgaseous
+countingfor20.8%and22.1%ofthetotalenvironmentalcomplaints, pollutantsfromWWTPs.
+respectively.Inaddition,theemissionoffoulodorgasesfromWWTPs In this study, the emission characteristics of nitrogen-containing
+also causes a negative impact on the economic benefits of the sur- pollutants (NH3, DMA and N2O) in different treatment stages of
+rounding real estate industry (reduced by about 15%), as well as SequencingBatchReactor(SBR)processcommonlyusedinsmalland
+tourism and employment [12]. Therefore, the emission reduction of medium-sized WWTPs were discussed, and the emission factor of
+nitrogen-containingodorousgasesinWWTPsurgentlyneedstobecar- malodorous gases and carbon emission of N2O were estimated.
+riedout. Furthermore, the effects of different aeration intensity, aeration time
+Thesecondtypeofnitrogen-containinggaseouspollutantisgreen- andsludgeconcentrationonthereleaseofmalodorousgasesweredis-
+house gas, mainlyreferringtoN2O.Intermsofthegreenhouseeffect cussedthroughpilotexperiments,whereconditionswereoptimizedby
+causedbyN2O,itsenvironmentalimpactismuchhigher thanthatof softwaretodeterminetheoptimaloperatingconditionsforthereleaseof
+CO2,with300timeshigherofglobalwarmingpotentialvaluethanthat nitrogen-containingpollutantsintheWWTPswithSBRtreatmentpro-
+ofCO2[13].Wastewatertreatmentprocessisknowntobeanimportant cess(Fig.S2).
+sourceofanthropogenicN2O,whichismainlyreleasedduringbiological
+nitrogen removal by three microbial processes (Fig. S1): (1) 2. Materialsandmethods
++
+Ammonia-oxidizing bacteria (AOB) oxidize NH4 to NH2OH, NO, and
+NO2- through nitrification process, where the incomplete oxidation of 2.1. BasicinformationoftheWWTP
+NH2OHleadstotheformationofN2O;(2)Theincompletedenitrifica-
+tioncausedbylowdissolvedoxygen(DO)inthebiologicaltreatment Inthisstudy,aWWTPinBeijingusingSBRprocesswasselectedfor
+unit,i.e.NO2- accumulation,willpromoteAOBtoreduceNO2- toN2O;(3) field monitoring of nitrogen-containing gases. The SBR tank of the
+In the denitrification process, heterotrophic denitrifying bacteria pro- studiedWWTPis28mlong,53mwide,andtheeffectivewaterdepthis
+duceN2OasanintermediateintheprocessofreducingNO3- toN2[14]. about5.4m.Besides,theSBRtankadoptsafullymixedtreatmentmode,
+Therefore,furtherresearchisneededontheemissioncharacteristicsand witheachreactioncycledividedintothreestages:fillinganddecanta-
+influencingfactorsofN2OfromWWTPstocontrolthereleaseofN2O. tion, aeration, and sedimentation, where decantation and filling are
+Currently,researchesongaseouspollutantinWWTPsmainlyfocus carried out simultaneously. Among them, the filling and decantation
+on volatile sulfur compounds such as H2S, methyl mercaptan and timeis90min,theaerationtimeis130min,andthesedimentationtime
+dimethylsulfide,withrelativelylittleresearchonnitrogen-containing is 20min. Each tank has a treatment capacity of 2000m3 per cycle
+odorous gases. By comparing the NH3 emissions of WWTPs with during the filling phase, and operates four cycles per day, with the
+differentprocessesindifferentregions,Zhu(2016)foundthatthepri- volumeexchangeratioof25%.
+marytreatmentunitssuchasgrilleandsandsedimentationtankwere
+the areas with the largest emissions, and the emission intensity of 2.2. Samplingmethodofgas
+aerationareasineachprocesswasalsohigher(2.7~132.2mg/t).While
+the NH3 emission of a typical WWTP in Beijing showed that the NH3 ThefluxchambermethodrecommendedbytheUnitedStatesEnvi-
+emission flux in the primary sedimentation tank was the highest, ronmentalProtectionAgencywasusedtocollectgaseouspollutantsin
+reaching724.0mg/m3,andthelowestemissionachievedingrillewith thisstudy.Thefluxshieldusedisahemisphericalplexiglassdevicewith
+only0.2mg/m3emission[15].Besides,themonitoringresultsofN2O a radius of 190mm and a collection area of 1256cm2 (Fig. S3). The
+releasefromAAOprocessWWTPshowthattheorderofreleasefluxis: hemispheresaresupportedbyfoam,whichallowsthemtofloatonthe
+aerobic zone > aerated grit tank > anaerobic zone > anoxic zone > water surface. The flux chamber is connected with two polytetra-
+secondary settling tank > primary settling tank [16]. The limited fluoroethylene pipes, one of which is connected with the valve or ni-
+research on nitrogen-containing gaseous pollutants in WWTPs is rela- trogencylinder,andtheotherisconnectedwiththeaircollectionbag
+tivelyshallow,andthedatacoverageisnotcomprehensive,makingit throughtheelectronicflowmeter.Theelectronicflowmetercanmeasure
+impossible to obtain a relatively unified data range. In addition, it is thegasvolumeandinstantaneousflowthroughtheaircollectionbag.
+necessarytoincludebothodorousgasesandgreenhousegasesintothe
+monitoring objectives of WWTPs, which is more conducive to the 2.2.1. Gassamplinginaeratedregions
+optimaloperationofactualWWTPs. Tocollectthegasreleasedfromtheaeratedsurface,thefluxchamber
+Thegasemissionfactorisagoodcalculationparametertocompare isfirstlyplacedonthewatersurface,andthentheplasticpipeconnected
+the gas emission rates of different discharge units from different totheairintakeisblockedbyavalve.Aftertheresidualairintheflux
+WWTPs, which means the amount of gas pollutants released into the chamberiscompletelyreplaced,thevalueoftheelectronicflowmeteris
+atmospherebytheunitvolumeofsewageduringitsresidencetime[17]. resettozeroandstarttiming.Openthebagandcollectthegasreleased
+However,therearefewliteraturereportsonthegasemissionfactorof from the aerated surface. Finally, the gas sample is stored and trans-
+WWTPs,andmostoftherelevantresearchdataareobtainedbysmall portedtoagascollectionbagatroomtemperatureandanalyzedwithin
+experimentorsoftwaresimulationestimation,whiletherearestillfew 12h.
+studies on the emission factor of actual WWTPs. The NH3 emission
+factors from a WWTP in the pearl river delta region, utilizing three 2.2.2. Gassamplinginnon-aeratedregions
+typicalbiologicaltreatmenttechnologiestoprocesswastewaterinSouth When collecting samples on the non-aerated water surface, the
+China,werecalculatedusingtheUSEPA’sWATER9modelwiththree plastic pipe connected with the air inlet is connected to the nitrogen
+yearsofrawsewagemeasurementsandinformationaboutthefacility, cylinder.Firstly,thefluxchamberisfastenedonthewatersurface,then
+where gained the NH3 emission factor of 150 ~ 290mg/m3 [18]. thenitrogencylinderisopened.Thenitrogeninputflowrateisadjusted
+However, the Ministry of environmental protection (MEP) of China to 200mL/min, and the flux chamber is purged for 10min. After the
+suggestedthattheNH3emissionfactorofWWTPsshouldbe3mg/m3, residualairinthefluxchamberiscompletelyreplaced,theaircollection
+which is far lower than the calculation results of the above model. bagvalveisopened,andthepurgedgassampleiscollected.
+Therefore, it is necessary to calculate the NH3 emission factor of the
+actualWWTPs,nottomentiontheN2Oemissionfactor,whichhasrarely
+been explored. In addition, different treatment processes, operating
+parameters,andinfluentqualityofWWTPscanaffectthegasemission
+2
+
+--- Page 3 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+2.3. Detectionmethodofgas WhereE(mg/(m2⋅d))istheemissionfluxofgaspollutants;S(m2)isthe
+totalsurfaceareaofthecorrespondingtreatmentunittankbody;Q(m3/
+2.3.1. DetectionmethodofNH3andDMA
+d)isthedailywatertreatedbytheWWTP.
+TheNH3andDMAwerequantitativelyanalyzedusinganionchro-
+matograph(940,metrohm,Switzerland)withtheAptarMetro-C4–250
+2.4.4. Methodforestimatinggreenhousegascarbonemissions
+cation column (inner diameter 4mm, length 250mm) was used to
+In order to intuitively evaluate the carbon footprint effect of N2O
+analyze the samples, in which the elution was pyridinium nitrate
+dicarboxylicacid(1.7mmol/LHNO3+1.7mmol/Land2,6-pyridinic mpr uo ld tiu pc le ied dp be yru itn si 1t 0o 0f -w ya et ae rr gt lr oe ba ate ld grb ey enW hW ouT sP es e, ft fh ee cte im ncis rs ei mon eno tf pN o2 tO enw tia as
+l
+acid). The column temperature was 30℃, the flow rate was 1.0mL/
+(calculated as 310 times CO2) and converted into CO2 equivalent. A
+min,thesamplesizewas100μL,andtheanalysistimewas25min.
+carbonemissionaccountingmethodwasestablishedbasedontheCO2
+equivalent(kgCO2equivalent/m3)producedbytreatingunitvolumeof
+2.3.2. DetectionmethodofN2O water(m3).
+The N2O content of collected gas was determined by the Agilent
+7890a gas chromatograph (GC), which was equipped with HP plot/
+molecular sieve (molecular sieve (30M × 0.53M × 25um) capillary 2.5. Pilotexperiment
+columnandmicrocellelectroncapturedevice(ECD)foranalysisand
+detection.Injectthesampleintothechromatographwitha250μLin- 2.5.1. Experimentalfacility
+jection needle for determination, and N2 was used as the carrier gas. Theexperimentalfacilityinthisstudyisa20LvolumeSBRreactor,
+Chromatographic conditions: inlet temperature 110℃, furnace tem- withthespecificstructureshownintheFig.S4.Themainbodyofthe
+perature180℃,ECDdetectortemperature300℃.Duringthedetermi- SBRreactorismadeofplexiglassandisinaclosedstateduringopera-
+nation,allsamplesweredeterminedforseveraltimes,andtheaverage tion.Thegasgeneratedduringthereactionleadstothegasabsorption
+ofthethreemeasuredvalueswiththebestreproducibilitywastakenas liquidthroughtheoutletatthetopofthereactor.Inthisexperiment,the
+thefinalresult. temperaturewasnotcontrolledduringoperation,andtheactualsewage
+The determination of dissolved N2O was carried out by the head- watertemperatureshallprevail.
+space method. Using a 10mL anaerobic headspace bottle to collect
+dissolvedN2Oinwastewater,asyringeandexhaustneedlewereusedto 2.5.2. Effectsofdifferentoperatingconditionsonthereleaseofodorgas
+collecttheeffluentintotheheadspacebottle.Thevolumeofthewater fromSBR
+sampleandthevolumeoftheheadspacearerecorded,andtheanaerobic Thesewageusedinthepilotexperimentistheactualsewage,which
+headspacebottleisplacedinaconstanttemperaturebox.Aftershaking wastakenfromtheseptictankofthefamilybuildingintheWestDistrict
+for1hatatemperatureof34℃andaspeedof220r/min,thetopspace ofBeijingUniversityofTechnology.Themainpollutantswerechemical
+N2Owasmeasuredinatimelymanner.Themeasurementmethodisthe oxygen demand (COD), NH4+ -N, NO3--N and NO2--N. Influent sewage
+sameasthatofgaseousN2O. quality fluctuates with seasonal changes, and the specific influent
+qualityparametersareshowninTable1.TheactivatedsludgeofSBR
+reactor was inoculated from the returned sludge from the secondary
+2.4. Dataprocessingmethod sedimentation tank of a WWTP with AAO process in Beijing, with a
+mixed sludge concentration of 4000 ~ 5000mg/L. After a period of
+2.4.1. Methodforcalculatingtheemissionfluxofgaseouspollutantsfrom domestication,theeffluentfromtheSBRreactorreachedastablestate,
+non-aeratedunits andpilotexperimentsbegan.
+ThegaseouspollutantemissionfluxE(mg/(m2⋅d))atthewater-gas
+EachoperationcycleofSBRreactorcanbedividedintofourstages:
+interfaceofthenon-aeratedunitiscalculatedbyEq.(1). filling (12min), aeration (changed with aeration intensity), anoxic
+C×q×1440 stirring (60min) and sedimentation (60min), while drainage process
+E= A×1000000 (1) took 4min,running3cyclespercondition.The sewageinflowofthe
+reactor was set to 10L per cycle, with a drainage ratio of 50%. The
+Where C (mg/m3) is the concentration of the gas sample collected; q sludgeretentiontime(SRT)wasnotcontrolledforthisexperiment[20].
+(mL/min)istheflowrateofnitrogenpurging;andA(m2)indicatesthe Then,theeffectsofaerationintensity(1.5,2.5,3.5,4.5,and6.0L/min),
+areaofthesewagesurfacecoveredbythesamplingequipment. aerationduration(0~60,60~120,120~180,and180~240min),
+andsludgeconcentration(calculatedbymixedliquorsuspendedsolids
+2.4.2. Methodforcalculatingtheemissionfluxofgaseouspollutantsfrom (MLSS),3000,5000,and7000mg/L)onthereleasefactorsofNH3and
+aeratedunits C3H6NHwereinvestigatedseparately.
+ThegaseouspollutantemissionfluxE(mg/(m2⋅d))atthewater-gas
+interfaceoftheaeratedunitiscalculatedbyEq.(2). 2.5.3. Explorationofcompositeinfluencingfactorsbasedonresponse
+C×V×1440 surfacemethodology
+E= A×T (2) Inthisstudy,DesignExpert8.0.6wasusedtoexploretheinfluencing
+factors of odor gas release in SBR aeration stage based on response
+Where C(mg/m3) is the concentration of the gassample collected; V surface method. With aeration intensity, sludge concentration and
+(m3)isthevolumeofthegassamplecollected;A(m2)istheareaofthe influentCODconcentrationasindependentvariables,NH3releasefactor
+sewagesurfacecoveredbythesamplingequipment;andT(min)isthe
+samplingtime. Table1
+Specificinfluentqualityofthepilotexperiment.
+2.4.3. Calculationmethodforthereleaseofnitrogen-containinggas Influentquality TCOD SCOD NH4+-N NO3--N NO2--N
+pollutantspertonofwater index
+TheemissionofgaspollutantspertonofwaterEf(mg/tofwaste-
+Range 212.1~ 100.0~ 43.7~ 0.0~ 0.0~
+water)iscalculatedbyEq.(3). 507.6 213.6 78.1 1.4 2.3
+E×S Average 367.6 152.8 61.0 0.6 0.3
+Ef = (3)
+Q Note:TCODistotalchemicaloxygendemand,SCODissolublechemicaloxygen
+demand.
+3
+
+--- Page 4 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+as target response value, the experimental design was carried out to 23mg/(m2⋅d).Aftertheendoftheintake,theSBRtankbegantostirand
+determinetheoptimalconditionsforcontrollingNH3emission. aerate(Fig.2d),andtherawwaterwasfullymixedwiththeremaining
++
+water of the previous cycle, resulting in the increase of NH4 concen-
++
+tration(Fig.2c).FreeNH4 inthesewagewasreleasedintotheatmo-
+2.6. Analyticalmethods
+sphericenvironmentduetotheblowoffeffectofaeration[22],sothe
+The NO3-, NO2-, and NH4+ were detected by spectrophotometry odorous gases (NH3 and C2H6NH) emission flux r +eached the highest
+valueatthisstage.Atthesedimentationstage,NH4 inthesewagehas
+(UNICO, UV-2802, USA). The COD was measured by the COD fast
+beendegraded,sothepotentialforNH3releaseisgreatlyreduced,and
+measuringinstrument(5B-1,LianhuaTechnology,China).Inaddition,
+the release flux is not significantly different from the filling and
+theDOandpHweremonitoredusingtheportabledetector(3420,WTW,
+decantationstage,butslightlyhigher.Thatmaybeduetotheincom-
+Company,Germany).
+pletesludgeseparationintheinitialstageofsedimentation.
+3. Resultsanddiscussion
+3.1.2. GreenhousegasesofN2O
+AsillustratedinFig.3a,thegaseousN2Owasmainlyproducedinthe
+3.1. Releasecharacteristicsofnitrogen-containinggaseouspollutantsin
+aerationstagewithanaverageconcentrationof229.7mg/L,whilethe
+differentoperatingstagesofSBR
+gaseousN2Oreleasewaslessinthesedimentationstage,withanaverage
+valueof10.5mg/L.TherewasbasicallynoreleaseofgaseousN2Oin
+3.1.1. Nitrogen-containingodorousgases
+fillinganddecantationstage.
+According to the monitoring results, the emission fluxes of NH3,
+ThedissolvedN2Obroughtbyinfluent(0.2mg/L)andtheremaining
+C2H6NHandN2OindifferenttreatmentstagesofSBRinonereaction
+mixture from the previous cycle was basically converted to N2 after
+cyclewerecalculated.TheresultsofodorousgasesNH3andC2H6NHare
+shown in Fig. 1, with the emission flux (mg/(m2⋅d)) sequence being anoxic denitrification in the filling and decantation stage. Therefore,
+aeration stage (35.2) > sedimentation stage (20.1) > filling and bothdissolvedandgaseousN2Owererelativelylowinthefillingand
+dd ee cc aa nn tt aa tt ii oo nnst sa tag ge e(1 (8 5.5 .6) )of >NH se3, da imnd ena te ar ta ioti non ss tt aa gg ee( (1 32 .0.5 ))> offi Cll 2in Hg 6Nan Hd d cee rc ta an inta ct oio nn cest na tg rae t. iI on nth ofe Nae Or 2-at (i Fo in g.s 2ta cg )e a, nw dit dh ist sh oe lvn ei dtri Nfi 2c Oat wio an sr ge ea nc eti ro an te, da
+,
+(Fig.3b).Thismaybeduetothefactthatittakesacertainamountof
+respectively.Thatistosay,theamountofodorgasemissionsduringthe
+timetofullyopentheaerationpumpintheactualWWTP,sotheaera-
+aerationstageismuchhigherthantheothertwostages.
+tionamountwaslowduringtheinitialperiod,coupledwiththerela-
+When the settling stage is complete, the decanter descends to the
+tivelyhighconcentrationofpollutantsinthewastewater,resultingina
+drainagelevelfordrainage,whilethesewagebeginstoenterthewater
+low DO (< 2.0mg/L) in the early stage of aeration (Fig. 2d). In the
+from the bottom of the biobank for a second cycle. At this time, the
+gw eh no el re ats ey dst de um rini gs ti hn epa rn eva in oa ue sr ao eb ri ac tioco nn ad ni dtio nn itr( ifiFi cg a. ti2 od n) s, taa gn ed wt ih lle mN akO e3- n bait cr ti efi rc ia ati (o Nn Os Bt )ag toe, alo cw ertD aiO nc ea xn tenin t,h sib oit tht ah te Na Oct 2-iv ci aty nno of tn bi etr cit oe no sux mid eiz din ing
+time.Inthiscase,ammoniaoxidizingbacteria(AOB)canalsouseNO2- to
+fulluseoforganicmatterintherawsewagefordenitrification,thereby
+generatingNH3[18].AlthoughtheconcentrationofNH4+ generateN2Othroughdenitrification,andtheblowoffeffectofaeration
+intheinfluent
+leadstoahigherreleaseofgaseousN2O[23,24].Thealmostzerodis-
+isrelativelyhigh(36.1mg/L),duetotheslowinflowfromthebottom,it
+solvedN2Ointheinitialaerationstageindicatesthattherewasnores-
+willnotaffectthetreatedwaterbodyintheupperpartoftheSBRtankin
+idue from the previous stage, so the large amount of gaseous and
+ashorttime(Fig.2a),sothereleaseofNH3andC2H6NHisstilllowinthe
+filling and decantation stage. The lower concentration of NO2- also dissolved N2O in this stage almost entirely came from the aerobic
+denitrificationofAOB.Inthesedimentationstage,dissolvedN2Owasall
+verified the weak denitrification reaction in this stage (Fig. 2b). The
+averageemissionflux(18.5mg/(m2⋅d))ofNH3inthisstagewassimilar producedbytheaerationstage,asthewaterbodyinthisstageisrela-
+tivelystable,sothegaseousN2Oreleasefluxwasrelativelylow.
+to that by [21] in the Yangtze River Delta, which achieved 13 ~
+Fig.1. TheemissionfluxofodorousgasesNH3(a)andC2H6NH(b)indifferenttreatmentstagesofSBR.
+4
+
+--- Page 5 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+Fig.2. TheconcentrationchangeofNH4+ (a),NO3- (b),NO2- (c),DOandpH(d)indifferenttreatmentstagesofSBR.
+Fig.3. TheconcentrationofgaseousanddissolvedN2OindifferenttreatmentstagesofSBR.
+3.2. Emissionfactorcalculationandcarbonemissionestimationof C2H6NH release factors in AO process WWTP, respectively. From the
++
+nitrogen-containinggaseouspollutantsfromSBR perspectiveofinfluentwaterquality,theinfluentNH4 concentrationof
+AO process is about 53.5mg/L, and that of SBR process is about
+3.2.1. Nitrogen-containingodorousgases 35.4mg/L.Theoretically,thereleaseofNH3fromtheWWTPisclosely
++
+ThedailyemissionsofNH3,C2H6NH,andN2OduringtheentireSBR relatedtotheinfluentNH4 concentration,andthehighertheinfluent
++
+operationwere108.2,30.9,and341.3g/d,respectively(Table2).The NH4 concentration,thegreaterthereleasefactor.However,basedon
+highestemissionsofthethreenitrogen-containinggaseouspollutantsof the monitoring of these two actual WWTPs, this is not the case. This
++
+NH3,C2H6NH,andN2Oalloccurredintheaerationstage,accountingfor indicatesthatinadditiontothefactorsaffectingtheinfluentNH4 con-
+49.5%,57.6%,and91.3%ofthetotalemissions,respectively.Itsug- centration, the actual treatment process of the WWTP has a greater
++
+gestedthattheaerationstageisthemainsourceofnitrogen-containing impactonthegasrelease.AlthoughtheinfluentNH4 concentrationof
+gaseous pollutants. Then,based onthe liquidsurface area oftheSBR the SBR process is lower, the aeration intensity during the aeration
+reactor(1984.0m2)andthedailytreatmentwatervolumeoftheWWTP processisgreaterthanthatoftheAOprocess,whichmaydirectlycause
+(12,000m3),theemissionfactorsofthethreegasesandtheproportion thatthereleasefactorsofNH3andC2H6NHinSBRprocess.
+ofdifferentformsofnitrogeninthetotalnitrogenoftheinfluentwere
+calculated. The results showed that the release factors of NH3 and 3.2.2. GreenhousegasesofN2O
+C2H6NH in the SBR process WWTP in this study were 0.0091 and ThereleasefactorofN2OinSBRprocessinthisstudywas0.028g/
+0.0026g/m3,respectively.Besides,thenitrogenremovalratiosofthe m3,andapproximately0.08%ofnitrogenwasreleasedintotheatmo-
+two in the form of nitrogen are 0.026% and 0.073‰, respectively. sphere in the form of gaseous N2O during the entire denitrification
+ThesevaluesaremuchhigherthantheAOprocessWWTPmonitoredin process.ThisvalueismuchlowerthanthatofAOprocesswiththesame
+our previous research (0.0023g/m3 for NH3 and 0.0018g/m3 for sampling method (6.4g/m3 of release factor and 8.1% of nitrogen
+C2H6NH)[1],whichisabout4.0and1.4timeshigherthantheNH3and conversion rate) [1], which is also due to differences in actual
+Table2
+Totalemissionsofnitrogen-containinggaseouspollutantsfromSBR.
+Treatmentstage Area(m2) NH3emission(g/d) C2H6NHemission(g/d) N2Oemission(g/d)
+Fillinganddecantationstage 1984.00 25.94(5.54–47.37) 7.97(1.43–26.04) 7.42(0–11.80)
+Aerationstage 53.59(11.97–88.09) 17.80(0.92–42.82) 311.64(230.02–445.20)
+Sedimentationstage 28.65(4.64–50.99) 5.14(1.61–12.56) 22.26(7.42–32.60)
+Totalemissions 108.19(22.17–186.45) 30.93(3.97–81.41) 341.32(237.44–489.70)
+5
+
+--- Page 6 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+wastewater treatment processes. The lower DO concentration (< 3.3. Pilotexperiment
+2.0mg/L) in the whole aerobic tank of the AO process leads to the
+generation of a large amount of N2O through aerobic denitrification. Themonitoringresultsofgaseouspollutantreleasecharacteristicsin
+Besides, based on the 100-year global greenhouse effect incremental actualSBRprocessshowthattheaerationstageisthemainlinkinthe
+potential of N2O, the SBR process produces 158.4kg of CO2 per day, releaseofgaseouspollutants.Therefore,takingthenitrogen-containing
+whichismuchlowerthanthatinAOprocesswith15,882.4kgCO2per odorous gases NH3 and C2H6NH asexamples, laboratorypilot experi-
+day[1]. ments were conducted to further explore the influencing factors of
+Theaboveresultsindicatethatthewastewatertreatmentprocesshas gaseous pollutant release during the aeration stage of SBR, and the
+an important effect on the generation of gaseous pollutants, and the optimal operating conditions for their emission reduction were deter-
+effectsondifferentgaseouspollutantsmaybedifferent.Therefore,the minedbyresponsesurfacemethodology.
+emissionreductionofgaseouspollutantsinWWTPsshouldbeanalyzed
+and measured comprehensively to balance the release of different 3.3.1. Effectofaerationintensity
+gaseouspollutants. Since aeration intensity willhave a certain impacton nitrification
+process, pre-experiments were conductedtodetermine and adjustthe
+aerationtime basedontheDOandpHchangecurvesunder different
+Fig.4. TheEffectofdifferentaerationintensityontheemissionsofNH3(a)andC2H6NH(b);TheEffectofdifferentaerationtimeontheemissionsofNH3(c)and
+C2H6NH(d);TheEffectofdifferentMLSSontheemissionsofNH3(e)andC2H6NH(f).
+6
+
+--- Page 7 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+aerationintensityconditions.Whentheaerationintensitywas1.5,2.5, [26].Inaddition,heterotrophicmicroorganismscanproduceCO2dur-
+3.5,4.5,and6.0L/min,thecorrespondingnitrificationtimewas200, ingcatabolismandanabolismoforganicmatter,andCO2dissolvedin
+165,113,125,and118min,respectively,whichwasdeterminedasthe waterwillleadtoadecreaseinpH.However,theCO2producedinthe
+correspondingaerationdurations(Fig.S5).Therunningtimeofother aerationprocesswillconstantlyblowaway,sothepHwillcontinueto
+operating stages, including influent, anoxic stirring, precipitation and riseduringtheinitialperiodofaeration.Then,theriseinpHwillpro-
++
+drainagestages,is12,60,60and10min,respectively. motethetransformationofNH4intoNH3inwater,indirectlypromoting
+AsshowninFig.4a,underalldifferentaerationintensityconditions, thereleaseofNH3[27].WiththedegradationofCODtothepartthatis
++
+NH4 insewagecanbecompletelydegradedafteraeration.Whilewith difficulttodegrade,heterotrophicbacteriacannolongertakeupalarge
+theincreaseofaerationintensity,theNH3releasefactordecreasedfirst amountoforganicmatter,andDOwillgraduallyincreasewhentheO2
+andthenincreased.Whentheaerationintensitywas3.5L/min,theNH3 supplyrateismuchhigherthantheO2consumptionrateofheterotro-
+releaseintensitywasthelowest,withthereleasefactorof12.5mg/m3. phic bacteria. At this time, nitrifying bacteria began to carry out the
++
+Ontheonehand,themagnitudeofaerationintensitydirectlycanaffect nitrification reaction, when NH4 in the reaction system will be
++
+thereleaseoffreeNH3fromsewageintotheatmosphere,thatis,higher consumed, so pH will continue to decline until NH4 was completely
+aeration intensity can promote the stripping of NH3 from sewage, degraded.Therefore,asthereactionprogresses,thepotentialforNH3
+therebyintensifyingthereleaseofNH3.Ontheotherhand,theincrease releasegraduallydecreased[28].
+ofaerationintensitycanalsoincreasetheDOconcentrationinthere- ThereleaseofC2H6NHwassimilartothatofNH3,andtheamountof
+action system, thereby accelerating the degradation rate of nitrifying release gradually decreased as the reaction progresses (Fig. 4d). In
++
+bacteria on NH4, which can ultimately shorten the aeration time to addition, it was found that during the aeration process of 180 ~
++
+reducethereleaseofNH3duringtheentireprocess[25]. 240min,dissolvedNH4andC2H6NHinthereactionsystemwerealmost
+The changes in DO and pH under different aeration intensities completelydegraded,butNH3andC2H6NHwerestillreleased.Thismay
+indicatethatwhentheaerationrateisgraduallyincreasedfrom1.5to beduetothegrowthandmetabolismofmicroorganismsinthesludge,
+3.5L/min, the DO concentration in the aeration stage gradually in- andmicrobialactivitylargelydeterminesthepotentialforthereleaseof
+creases, and the required aeration time for the reaction system is foulgases.
+shortenedfrom200to113min,andthereleasefactorofNH3alsode-
+creases (Fig. S5). This suggested that in the nitrification process with 3.3.3. Effectofsludgeconcentration
+relatively low DO (< 2.5mg/L), increasing the aeration intensity can The influence of different sludge concentrations on the release of
+shortenthenitrificationtimeduringthereactionprocess,whichismore NH3andC2H6NHduringaerationprocesshasalsobeenexplored.The
+conducive to reducing the release of NH3 throughout the process. aerationintensitywassetas3.5L/min,aerationtimewas240min,and
+However,whentheaerationintensitywasfurtherincreasedto4.5and sludgeconcentrationswere3000,5000and7000mg/L,respectively.As
++
+6.0L/min, the increase of DO concentration during aeration did not shownintheFig.4e,theconcentrationrangeofNH4 intheinfluentof
++ +
+improve the degradation rate of NH4, the nitrification time did not thethreereactionsystemswas45~52mg/L,andNH4 canbasicallybe
+change,andthereleasefactorofNH3showedasignificantincrease.In completely degraded after aeration under different sludge concentra-
+thecaseofaerationof4.5L/min,theaveragereleasefactorwas22mg/ tions.IncreasingthesludgeconcentrationwillchangetheNH3release
+m3,whichwas1.8timesthatof3.5L/mincondition;andattheaeration duringthewholeaerationprocess,andtheNH3releasefactorshoweda
+rateof6.0L/min,theaveragereleasefactorwas28mg/m3,2.2timesof trendoffirstdecreasingandthenincreasing,whichconsistentwiththe
+thelowestreleasefactor(Fig.4a).Thisisbecausewhentheaerationrate conclusion of Feng et al. [29]. When the sludge concentration was
+is 3.5L/min, the DO concentration provided by aeration can already 5000mg/L, the NH3 release intensity was the lowest and the release
+meettheDOlevelofNH4+ degradationbynitrifyingbacteriainactivated factor was 9.0mg/m3. And when the sludge concentration was
+sludge, andthenitrificationratehasreachedthehighestvalueofthe 3000mg/L,thereleasefactorwas16.1mg/m3;whenthesludgecon-
+reaction system. Therefore, further increasing the aeration intensity centrationwas7000mg/L,itgainedthereleasefactorof12.5mg/m3.
++
+cannotacceleratetheutilizationofNH4 bynitrifyingbacteriainwater, Thatmaybeduetothelowsludgeconcentrationdirectlyaffectedthe
+butinsteadwillincreasetheblowingeffectofNH3inwastewaterduring degradation of COD and the rate of nitrification process in the initial
+theaerationprocess,therebyintensifyingthereleaseofNH3. aerationstage,greatlyprolongatingthetimeofCODdegradationand
+Different from the NH3 mentioned above, the change of aeration nitrificationstage,resultinginalargenumberoftransformationsfrom
++
+intensity showed no obvious effect on the release of C2H6NH, with a NH4 toNH3.Withtheincreaseofsludgeconcentration(to5000mg/L),
+releasefactorofapproximately2.0mg/m3(Fig.4b).Thisisduetothe theefficiencyofCODdegradationandnitrificationofthereactionsys-
++
+lowconcentrationofdissolvedC2H6NHinthewater,whichisquickly temwasimproved,andNH4 inthewaterbodycanberapidlydegraded,
+degraded completely under aerobic conditions. Therefore, there is no thus reducing the release of NH3 in the aeration process. However,
+significantrelationshipbetweenthereleaseamountofC2H6NHandthe further increasing the sludge concentration (7000mg/L) revealed an
+aerationintensityinSBRaerationstage. increase in NH3 release from the system, which may be due to the
+insufficientaerationintensityatthistimetomeetthedissolvedoxygen
++
+3.3.2. Effectofaerationduration concentrationrequiredforCODandNH4 degradationofhighconcen-
+TheaerationintensityofSBRwassetto1.5L/mintoexplorethegas trationsludge.Theincreaseinsludgeconcentrationactuallyreducedthe
++ +
+release under different aeration duration. The dissolved NH4 concen- reaction rate,resulting inmore free NH4 being blown out duringthe
+tration in the wastewater after mixing with the influent was around earlystageofaeration,ultimatelyexacerbatingNH3release.
+30.2mg/L, which gradually decreased with aeration, and was Whenthesludgeconcentrationis3000,5000,and7000mg/L,the
+completely degraded after 200min of aeration (Fig. 4c). It can be releasefactorsofC2H6NHwere1.7,1.6,and2.18mg/m3,respectively
+observedthattheNH3releaseintensitywithin0~60ministhehighest (Fig. 4f). When the sludge concentration was between 3000 and
+duringtheentireaerationprocess,withareleasefactorof8.0mg/m3. 5000mg/Linthereactionsystem,therewasnosignificantchangeinthe
+Subsequently,thereleaseintensitygraduallydecreasedwithtime.This release factor of C2H6NH, which may be due to the low dissolved
+isbecauseduringtheinitialstageofaeration,microbialdegradationof C2H6NHintheinfluent.Athighsludgeconcentrations,thereleasefactor
+CODconsumedalargeamountofDO,resultingintheDOconcentration ofC2H6NHsignificantlyincreased,whichmayberelatedtothegrowth
+inthewastewaterbeingmaintainedbelow1.0mg/L.Therefore,inthe andmetabolismofmicroorganismsinthesludge.FromFig.5d,itwas
+earlystageofaeration,thenitrifyingbacteriadidnotbegintodegrade alsofoundthatC2H6NHhadbeencompletelydegradedduringthefinal
++ +
+NH4, and the highest concentration of NH4 dissolved in the system stage of aeration from 180 to 240min, but the release of gaseous
+resultedinthehighestcontentofNH3blownoutintotheatmosphere C2H6NHcouldstillbedetected.ThisindicatesthattheC2H6NHreleased
+7
+
+--- Page 8 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+Fig.5. Thethree-dimensionalresponsesurfaceofNH3emissionfactor.
+bycontinuedaerationafterthenitrificationreactionmayoriginatefrom pollutantsduringtheaerationprocess.
+thesludgeitself,especiallyinsituationswithhighersludgeconcentra-
+tionswherethereleaseofC2H6NHismorepronounced.Therefore,in 3.3.4. Compositeinfluencingfactorsexploration
+practicalengineering,itisnecessarytocontrolthesludgeconcentration On the basis of the single factor experiment mentioned above,
+and aeration rate reasonably in order to minimize the release of gas referringtotheBox-Behnkencentralcombinationexperimentprinciple,
+8
+
+--- Page 9 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+a responsesurfaceanalysisexperimentwas designedforatotalof17 acquisition.QingYang:Supervision,Fundingacquisition.
+experimentalpoints,withaerationintensity,sludgeconcentration,and
+influentCODconcentrationasindependentvariables,andNH3release
+factorastargetresponsevalue.Amongthem,12factorialpointsand5 DeclarationofCompetingInterest
+zeros (numbered 13–17) were included. The experimental design
+schemeandresultsareshowninTableS1. The authors declare the following financial interests/personal re-
+ResponsesurfacesoftwareDesignExpert8.0.6wasusedtoconduct lationshipswhichmaybeconsideredaspotentialcompetinginterests:
+multiple regression analysis on the data [30] in Table S1, and the QingYangreportsfinancialsupportwasprovidedbyNationalNatural
+regression equation of NH3 release factor was shown in Eq. (4). The ScienceFoundationofChina.QingYangreportsfinancialsupportwas
+correlationcoefficientR2oftheequationis0.9744,whichindicatesthat provided by the National Natural Science Foundation of Beijing in
+China.LinlinMareportsfinancialsupportwasprovidedbytheChina
+theregressionmodelfitstheactualsituationwell.
+PostdoctoralScienceFoundation.Ifthereareotherauthors,theydeclare
+Y=7.81293-5.48796A+6.59300E(cid:0)3B+1.50E(cid:0)5C(cid:0) 3.55E(cid:0)5AB-2.28750E(cid:0)3BC(cid:0) 8.0937E(cid:0)7AC+1.15628A2(cid:0) 7.07062E(cid:0)7B2+2.19172E(cid:0)5C2
+(4)
+AscanbeseenfromFig.5a,whenthesludgeconcentrationiscon- thattheyhavenoknowncompetingfinancialinterestsorpersonalre-
+stant,theNH3releasefactorfirstdecreasedandthenincreasedwiththe lationshipsthatcouldhaveappearedtoinfluencetheworkreportedin
+increase of aeration intensity. When the aeration intensity remained thispaper.
+unchanged,theNH3releasefactorofthereactorsystemshowedatrend
+offirstincreasingandthendecreasingwiththeincreaseofsludgecon- Acknowledgments
+centration, which was different from the result in 3.3.3 of this study.
+That may be caused by the relatively large setting range of aeration TheauthorsacknowledgefinancialsupportfromtheNationalNat-
+volumeduringtheresponsesurfaceexperiment.AsillustratedinFig.5b, uralScienceFoundationofChina(52170017,62021003),theNational
+when influent COD concentration is constant, NH3 release first Natural Science Foundation of Beijing in China (8222038), the China
+decreased and then increased with the increase of aeration intensity. Postdoctoral Science Foundation (2022M720316), and the Key Labo-
+Whilewhentheaerationintensitywasunchanged,NH3releasefactor ratoryofOdorPollutionControlinMinistryofEcologyandEnvironment
+gradually increased with the increase of influent COD concentration, ofthePeople’sRepublicofChina(No.20230803).
+and the increasing trend is relatively gentle in the range of low COD
+concentration,whiletheincreasetrendwasstrengthenedathighcon-
+AppendixA. Supportinginformation
+centrationlevel.AsshowninFig.5c,undertheconditionofconstant
+sludge concentration,NH3releasefactorgraduallyincreasedwiththe
+Supplementarydataassociatedwiththisarticlecanbefoundinthe
+increase of influent COD concentration. When the influent COD was
+onlineversionatdoi:10.1016/j.jece.2024.114666.
+stable,theinteractionbetweenthechangeofsludgeconcentrationand
+NH3releaseinthereactorsystemwasnotobvious.Theresultsshowed
+DataAvailability
+thattheinfluentCODconcentrationgainedthemostsignificantimpact
+ontheNH3releasefactorintheSBRsystem,whichisconsistentwiththe
+Datawillbemadeavailableonrequest.
+conclusion of Sadaf et al. [31], followed by aeration intensity. Lower
+influentCODconcentrationandaerationintensityofabout3.5L/min
+References
+areconducivetoNH3emissionreduction.
+[1] Y.F.Dong,L.L.Ma,Y.Peng,Z.H.Hu,Z.Z.Xu,X.C.Jiang,R.Cheng,H.L.Chen,
+4. Conclusions Q.Yang,Nitrogen-containingmalodorousgaspollutantsemissioncharacteristics
+andhealthriskassessmentfromanA/Owastewatertreatmentplant,J.Water
+ProcessEng.54(2023)103961.
+Inthisstudy,thereleasecharacteristicsandkeyinfluencingfactors
+[2] MinistryofHousingandUrban-RuralDevelopment,2022.Statisticalyearbookof
+ofnitrogen-containinggaseouspollutantsinSBRprocessWWTPwere urbanandruralconstructionof2022.000013338/2023-00635.〈https://www.
+mohurd.gov.cn/〉.
+discussed. The results showed that both nitrogen-containing odorous
+[3] Z.Z.Xu,Q.Yang,X.C.Jiang,Y.F.Dong,Z.H.Hu,L.Shi,R.H.Zhao,Multi-dimension
+gases(NH3andDMA)andnitrogen-containinggreenhousegases(N2O)
+analysisofvolatilesulfurcompoundemissionsfromanurbanwastewater
+gainedthehighestreleaseduringtheaerationstageofSBR.Inaddition, treatmentplant,J.Environ.Manag.345(2023)118632.
+the emission factorsof odorous gaseswere calculated and the carbon [4] S.Y.Xu,X.L.Wu,H.J.Lu,Overlookednitrogen-cyclingmicroorganismsin
+biologicalwastewatertreatment,Front.Environ.Sci.Eng.15(6)(2021)133.
+emissions of greenhouse gases were estimated. The pilot experiment
+[5] K.Barbusinski,K.Kalemba,D.Kasperczyk,K.Urbaniec,V.Kozik,Biological
+results indicated that aeration intensity, sludge concentration and methodsforodortreatment–areview,J.Clean.Prod.152(2017)223–241.
+influentCODconcentrationallhadanimpactonthereleaseofnitrogen- [6] V.Decottignies,A.Huyard,R.F.Kelly,B.Barillon,Developmentofadiagnostic
+tool:thewastewatercollectionnetworkodourwheel,WaterSci.Technol.68(4)
+containing odorous gas in SBR process WWTP. Reasonable control of
+(2013)839–847.
+aerationintensity,sludgeconcentrationanddrainageratioinactualSBR [7] W.J.Meng,Q.R.Zhong,X.Yun,X.Zhu,T.B.Huang,H.Z.Shen,Y.L.Chen,H.Chen,
+process WWTP is conducive to reducing the release of nitrogen- F.Zhou,J.F.Liu,X.M.Wang,E.Y.Zeng,S.Tao,Improvementofaglobalhigh-
+containingodorousgas.Thisstudyprovidestheoreticalsupportforthe resolutionammoniaemissioninventoryforcombustionandindustrialsourceswith
+newdatafromtheresidentialandtransportationsectors,Environ.Sci.Technol.5
+emissionreductionofnitrogen-containinggaseouspollutantsinWWTP (51)(2017)2821–2829.
+withSBRprocess. [8] X.Dai,C.K.Saha,J.Ni,A.J.Heber,V.Blanes-Vidal,J.L.Dunn,Characteristicsof
+pollutantgasreleasesfromswine,dairy,beef,andlayermanure,andmunicipal
+wastewater,WaterRes.76(2015)110–119.
+CRediTauthorshipcontributionstatement [9] H.Bylinski,J.Gebicki,J.Namiesnik,Evaluationofhealthhazardduetoemission
+ofvolatileorganiccompoundsfromvariousprocessingunitsofwastewater
+XueDu:Visualization,Formalanalysis,Datacuration.YufanDong: treatmentplant,Int.J.Environ.Res.PublicHealth16(10)(2019)1712.
+Formalanalysis,Datacuration.LinlinMa:Writing–review&editing, [10] R.Li,Z.Han,H.Shen,F.Qi,M.Ding,C.Song,D.Sun,Emissioncharacteristicsof
+odorousvolatilesulfurcompoundfromafull-scalesequencingbatchreactor
+Writing – original draft, Funding acquisition. Kehua Zou: Funding wastewatertreatmentplant,Sci.TotalEnviron.776(2021)145991.
+9
+
+--- Page 10 ---
+L.Maetal. Journal of Environmental Chemical Engineering 12 (2024) 114666
+[11] MinistryofEcologyandEnvironmentofthePeople’sRepublicofChina,2020. [22] L.R.Chinkin,P.A.Ryan,D.L.Coe,RecommendedimprovementstotheCMU
+AnalysisofNationalMalodor/OdorPollutionComplaintsfrom2018to2020. ammoniaemissioninventorymodelforusebyLADCO,U.S.LakeMich.AirDir.
+〈https://www.mee.gov.cn/〉. Consort.(2003).
+[12] M.Schiavon,L.M.Martini,C.Corra`,M.Scapinello,G.Coller,P.Tosi,M.Ragazzi, [23] T.M.Massara,S.Malamis,A.Guisasola,J.A.Baeza,C.Noutsopoulos,E.Katsou,
+Characterisationofvolatileorganiccompounds(VOCs)releasedbythecomposting Areviewonnitrousoxide(N2O)emissionsduringbiologicalnutrientremovalfrom
+ofdifferentwastematrices,Environ.Pollut.231(2017)845–853. municipalwastewaterandsludgerejectwater,Sci.TotalEnviron.596-597(2017)
+[13] IPCC2019Wastewatertreatmentanddischarge.In:2019Refinementtothe2006 106–123.
+IPCCGuidelinesforNationalGreenhouseGasInventories(Volume5). [24] J.H.Wang,J.Zhang,J.Wang,P.Y.Qi,Y.G.Ren,Z.Hu,Nitrousoxideemissions
+[14] B.Solís,A.Guisasola,M.Pijuan,L.Corominas,J.A.Baeza,Systematiccalibration fromatypicalnorthernChinesemunicipalwastewatertreatmentplant,Desalin.
+ofN2Oemissionsfromafull-scaleWWTPincludingatracertestandaglobal WaterTreat.32(2011)145–152.
+sensitivityapproach,Chem.Eng.J.435(2022)134733. [25] Y.X.Zhang,C.H.Wei,B.Yan,Emissioncharacteristicsandassociatedhealthrisk
+[15] Y.P.Liang,A.G.Lin,X.D.Wu,Comparisonoftestmethodsfordeterminationof assessmentofvolatileorganiccompoundsfromatypicalcokingwastewater
+ammoniaemissionfactorfromsewagetreatmentplant,Adm.Tech.Environ. treatmentplant,Sci.TotalEnviron.693(2019)133417.
+Monit.30(1)(2018)50–53. [26] G.Ciudad,R.Gonz´alez,C.Bornhardt,C.Antileo,ModesofoperationandpH
+[16] S.C.Sun,X.Cheng,S.Li,F.Qi,Y.Liu,D.Z.Sun,N2Oemissionfromfull-scaleurban controlasenhancementfactorsforpartialnitrificationwithoxygentransport
+wastewatertreatmentplants:acomparisonbetweenA2OandSBR,WaterSci. limitation,WaterRes.41(20)(2007)4621–4629.
+Technol.67(9)(2013)1887–1893. [27] Y.Wang,W.Q.Xu,Q.X.Cong,Y.X.Wang,W.Z.Wang,W.Q.Zhang,Z.P.Zhu,H.
+[17] C.Domingo-Félez,M.M.Jensen,A.Bang,B.F.Smets,Variabilityanduncertainty M.Dong,ResponsesofCH4,N2O,andNH3emissionstodifferentslurrypHvalues
+analysisofN2OemissionsfromWWTPtoimprovetheaccuracyofemissionfactors of5.5–10.0:Characteristicsandmechanisms,Environ.Res.234(2023)116613.
+andthedesignofmonitoringstrategies,ACSESTWater4(6)(2024)2542–2552. [28] H.Y.Jia,F.G.Duan,Wastewatertreatmentunitinlargescalesyntheticammonia
+[18] C.L.Zhang,X.S.Geng,H.Wang,L.Zhou,B.G.Wang,Emissionfactorfor plantanditsoperation,LargeScaleNitrogen.Fertil.Ind.37(4)(2014)278–282.
+atmosphericammoniafromatypicalmunicipalwastewatertreatmentplantin [29] L.Feng,L.Q.Zhang,B.N.Lv,Effectofsludgeconcentrationonoperational
+SouthChina,Environ.Pollut.220(2017)963–970. characteristicsofmembranebioreactor,J.HarbinInst.Technol.35(3)(2003)
+[19] L.Kanders,J.J.Yang,C.Baresel,J.Zambrano,Full-scalecomparisonofN2O 307–310.
+emissionsfromSBRN/DNoperationversusone-stagedeammonificationMBBR [30] S.Goyal,J.Singh,Bioprocessoptimizationforglycopeptidebiosurfactant
+treatingrejectwater–andoptimizationwithpHset-point,WaterSci.Technol.79 productionbymeansofLactobacillusdelbrueckii:Designexpertladenapproach,
+(8)(2019)1616–1625. J.FoodProcess.Preserv.46(12)(2022)e17195.
+[20] Z.Y.Zhou,M.X.Qi,H.P.Wang,Achievingpartialnitrificationviaintermittent [31] S.Sadaf,A.K.Singh,J.Iqbal,R.N.Kumar,J.Sulejmanovi´c,M.Habila,J.H.
+aerationinSBRandshort-termeffectsofdifferentC/Nratiosonreactor P.Am´erico-Pinheiro,F.Sher,Advancementsofsequencingbatchbiofilmreactor
+performanceandmicrobialcommunitystructure,Water12(12)(2020)3485. forslaughterhousewastewaterassistedwithresponsesurfacemethodology,
+[21] S.Zhu,StudyonEmissionCharacteristicsandControlMeasuresofNH3and Chemosphere307(2022)135952.
+(CH3)3NinMunicipalWastewaterTreatment,BeijingForestryUniversity,Beijing,
+2019.
+10

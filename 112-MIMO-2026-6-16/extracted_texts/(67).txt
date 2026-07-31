@@ -1,0 +1,551 @@
+--- Page 1 ---
+JournalofWaterProcessEngineering64(2024)105665
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Achieving low-carbon and sustainable wastewater treatment by controlling
+the flow of pollutants: A pilot scale investigation on reducing greenhouse
+gas emissions and enhancing resource recovery
+Shuo Chen, Hailong Liu*
+School of Environmental Science and Resources, Shanxi Laboratory for Yellow River, Shanxi University, Taiyuan 030006, China
+A R T I C L E I N F O A B S T R A C T
+Editor: Ludovic F. Dum´ee To achieve the carbon peaking and carbon neutrality goals, the greenhouse gas (GHG) emission reduction of
+wastewater treatment plants (WWTPs) has aroused widespread concern in the society. This study calculated and
+Keywords: evaluated the carbon footprint of mainstream anaerobic/anoxic/aerobic (AAO) process WWTPs. A coagulation-
+Greenhouse gas sedimentation +microalgae and anaerobic digestion +land application (CSM-ADLA) process was developed for
+Carbon emissions
+wastewater treatment. The new process rearranged pollutants control and employed treatment techniques of low
+Coagulation-sedimentation
+GHG emissions according to the intergovernmental panel on climate change (IPCC) rules. Most of the organic
+Pollutants flow
+pollutants (78.7 % of chemical oxygen demand) and organic nitrogen compounds (49.4 % of total nitrogen) were
+Microalgae
+captured in sludge and lowered the loads of microalgae, and then the sludge underwent AD degradation. These
+designs avoided the above-mentioned pollutants from entering the biological treatment process, thereby
+reducing GHG emissions. A microalgae treatment featured with natural light source and no aeration was
+employed to refine the product water. The carbon emission of the CSM-ADLA process (i.e., 0.298 kg carbon
+dioxide equivalent/m3 wastewater) was 32.6 % of that of the conventional AAO process. Meanwhile, the CSM-
+ADLA process enhanced capture and utilization of carbon, nitrogen and phosphorus. Resource recycling provides
+an effective way for carbon emission reduction and avoids resource waste. In general, this process could be
+considered as a low-carbon, cost-effective and sustainable wastewater treatment technology.
+1. Introduction system (CASS) and so on [5,6]. The AAO process is currently the most
+widely used in China’s WWTPs [7]. Although effectiveness of AAO
+Global warming is a world-wide challenge for the human society that pollution control withstands the test historically, its ecological effects
+may lead to a 1.5 ◦C temperature rise by 2030 [1]. This poses a serious such as carbon emissions need to be reconsidered. Direct GHG emissions
+threat to the Earth’s ecological environment and the survival of organ- include methane (CH4) and nitrous oxide (N2O). They are produced
+isms. The main cause of global warming is considered to be greenhouse during the biological treatment and transport stages, and are discharged
+gas (GHG) emissions from anthropogenic activities. In China’s total from structures in WWTPs [8]. Indirect GHG emissions include energy
+carbon emissions, reports suggest that the wastewater treatment in- consumption and chemicals usage. In China’s total electricity con-
+dustry accounted for 1–2 % [2,3]. The low-carbon development of sumption, the energy consumption of conventional WWTPs accounted
+wastewater treatment plants (WWTPs) play an important role in for about 1 %, and the aeration could account for 50–90 % of the
+achieving the goals of carbon peaking and carbon neutrality [4]. WWTPs’ energy consumption [6,9]. The usage of chemicals includes
+Wastewater treatment, accompanied by the generation of sludge, the external carbon sources, coagulant, disinfection agents, etc. Approxi-
+handling processes and energy consumption are pressed for reconsid- mately 100,000 tons of chemicals are used in WWTPs every year [6].
+eration and upgradation to fulfil its mission in carbon emissions control. The usage of chemicals would produce a massive amount of sludge, and
+The biological treatment methods of conventional WWTPs include GHG would be emitted during the sludge treatment process [10]. Both
+anaerobic/anoxic/aerobic (AAO), membrane bioreactor (MBR), oxida- direct carbon emissions of GHG and indirect carbon emissions from
+tion ditch (OD), sequencing batch reactor (SBR), cyclic activated sludge energy and chemicals consumption [11] should be taken into account in
+* Corresponding author.
+E-mail address: hlliu827@aliyun.com (H. Liu).
+https://doi.org/10.1016/j.jwpe.2024.105665
+Received 16 May 2024; Received in revised form 10 June 2024; Accepted 13 June 2024
+Availableonline22June2024
+2214-7144/©2024ElsevierLtd.Allrightsarereserved,includingthosefortextanddatamining,AItraining,andsimilartechnologies.
+
+--- Page 2 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+designing the new low-carbon wastewater treatment process. methods and pollutants flow direction, and a treatment process char-
+Microalgae are a common aquatic plant in the environment, which acterized by a combination of coagulation-sedimentation, microalgae
+often endangers the water environment due to overgrowth. However, (CSM), and anaerobic digestion along with land application (ADLA) was
+microalgae have excellent capability to fix carbon dioxide (CO2) for they designed and constructed. Different from the existing studies, this study
+can assimilate both organic and inorganic carbon compounds as carbon intensively discussed the roots and distributions of GHG emissions, and
+sources. Therefore, the biotransformation of microalgae is regarded as a reduced GHG emissions and enhanced resource recovery in wastewater
+promising approach to reduce CO2 emissions [12]. As an alternative to treatment from the perspective of process design. The process was pre-
+pollutant removal methods in conventional wastewater treatment, liminarily verified and its GHG emission intensity was evaluated. This
+microalgae are widely studied for wastewater treatment due to their study provides new insights into low-carbon and sustainable wastewater
+capability to assimilate nitrogen (N) and phosphorus (P) simultaneously treatment technologies.
+[13]. Applying microalgae to the wastewater treatment can form a
+beneficial cycle between microalgae and bacteria, thereby reducing 2. Materials and methods
+aeration requirements and related CO2 emissions [14]. In addition, the
+biomass harvested by microalgae in wastewater treatment has impor- 2.1. GHG emissions calculations method
+tant application value in many fields [15]. Microalgae-based wastewater
+treatment is a prospective process to achieve carbon emission reduction 2.1.1. System boundaries
+and carbon neutrality in WWTPs [16]. Currently, the research on the
+application of microalgae for wastewater treatment focuses on the (1) This study calculated the GHG emissions from the AAO process
+design of photobioreactors, the effects of different light intensity, light WWTPs, including direct carbon emissions caused by CH4 and
+time and algae species, etc. [17–19]. However, there are disadvantages, N2O, indirect carbon emissions from energy and chemicals con-
+such as excessive hydraulic retention time (HRT), huge electricity con- sumption, and carbon emissions from sludge landfill treatment.
+sumption for artificial light and aeration, which reduce water treatment The flow and system boundary diagram of the AAO process were
+efficiency and increase GHG emissions. How to carry out process design shown in Fig. 1a.
+to solve this problem becomes the key point. (2) The CSM-ADLA process calculated indirect carbon emissions
+In this paper, the GHG distribution of conventional wastewater from energy and chemicals consumption, carbon emissions from
+treatment were calculated and analyzed according to intergovernmental sludge ADLA treatment, and CO2 fixed by microalgae. The flow
+panel on climate change (IPCC) rules. In order to reduce the overall level and system boundary diagram of the CSM-ADLA process were
+and intensity of GHG, this paper researched and improved the treatment shown in Fig. 1b.
+Fig. 1. Process flow and system boundary diagram (a) AAO process, (b) CSM-ADLA process.
+2
+
+--- Page 3 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+(3) The transport of chemicals and sludge was not included in GHG electricity consumption.
+e lom gi is cs ai lo sn os c ra cl ec u inla wti ao sn t. G wH atG c aa nu dse sd b dy eC O tr2 e, c tmon es nid e pr re od ea ss ,a b ei ro e- CO2(cid:0)diesel=T1×(cid:0) f1+f2×28+f3×265)
+(6)
+u e er lu g a t c s w
+not included in GHG emissions calculation [20]. The uncalcu-
+where T1 is the diesel consumption, which is 3.1 L diesel/ton [24]. f1, f2
+lated GHG emissions did not affect the results of the comparison
+between the conventional AAO and CSM-ADLA processes. a 1n 0d (cid:0) 2f 3 k ga r Ce O t 2h , e 2 .E 5F × o 1f 0G (cid:0)H 5 G ks g f Cr Hom 4 a d ni de s 4e .l 5 c ×on 1s 0u (cid:0)m 4 p kt gio Nn 2, Ow fh oi rc h ea a cr he l i7 te.4 r o× f
+diesel consumption [25].
+2.1.2. Direct GHG emission factors (EFs)
+The EFCH4 and EFN2O of the AAO process were 0.0042 kg CH4/kg CO2(cid:0)electricity=EFelectricity⋅T2 (7)
+chemical oxygen demand (COD) and 0.0032 kg N2O/kg total nitrogen
+(TN), respectively [8]. where T2 is the electricity consumption, which is 70 kWh/t DS [24].
+According to the calculation, CO2-landfill was 1763.334 kg CO2-eq/t DS.
+2.1.3. Direct CH4 and N2O emissions
+The pollutants parameter normalizing method (PPNM) was used to 2.2. Experimental system configuration and analytical methods
+quantify GHG emissions from municipal WWTPs. This method improves
+the accuracy of GHG emission estimates because we calculated and The experiment was carried out from May to July in Shanxi Uni-
+analyzed the estimations by using the per unit pollutant removed instead versity, Taiyuan, China. The pilot system consisted of storage tank,
+of per cubic wastewater treated [8]. The COD and TN were chosen as coagulation-sedimentation tank and HRAP. The raceway ponds had an
+pollutant parameters because they are the main indicators of the effi- active surface of 9.14 m2, and a volume of 3.66 m3. The paddle wheel
+ciency of organic matter and nitrogen removal from wastewater. was configured with a 200-w motor. The algae species were taken from
+The calculation method of carbon dioxide equivalent (CO2-eq) caused the pond of Shanxi University, where Chlorella and Scenedesmus obliquus
+by CH4: were the dominant algal species.
+The average influent water quality of the 25 AAO process WWTPs
+CO2(cid:0)CH4=Q⋅(COD1(cid:0) COD2)⋅EFCH4⋅GWP(CH4) (1) were COD 390 ±78.5 mg/L, TN 54 ±16.6 mg/L and TP 6 ±1 mg/L,
+respectively. This study assumed that 20 % of COD was removed in the
+where CO2-CH4 is the CO2-eq produced by the discharge of CH4 in
+pretreatment facility [10], so the pilot system influent COD was 312 mg/
+wastewater treatment. Q is the annual treatment quantity of the WWTPs
+L. Simulated municipal wastewater were prepared according to the
+(t/a). COD1 is the influent COD concentration; COD2 is the effluent COD
+literature [26] formula, in which the COD, TN and TP were 312 ±9.7
+concentration (mg/L). GWP is global warming potential, GWP (CH4) and
+mg/L, 54 ±2.2 mg/L, and 6 ±0.5 mg/L, respectively. The concentra-
+GWP (N2O) are 28 and 265, respectively [21].
+tion of COD, TN, TP and sludge quantity were detected according to the
+The calculation method of CO2-eq caused by N2O:
+Standard Methods [27]. Turbidity was measured using HACH 2100N
+CO2(cid:0)N2O=Q⋅(TN1(cid:0) TN2)⋅EFN2O⋅GWP(N2O) (2) Turbidimeter (USA). The number of algae cells was measured according
+to the literature [28], and the biomass and specific growth rates were
+where CO2-N2O is the CO2-eq produced by the discharge of N2O in measured according to the literature [29].
+wastewater treatment. TN1 is the influent TN concentration; TN2 is the
+effluent TN concentration (mg/L). 2.3. Data resources
+2.1.4. Indirect GHG emissions The WWTPs data source was Shanxi Provincial Statistical Yearbook
+[30], including field surveys and public data on the Internet. Experi-
+(1) Electricity consumption carbon emissions: mental data were obtained from the laboratory of Shanxi University.
+CO2(cid:0)electricity=W⋅EFelectricity (3)
+3. Results and discussion
+where CO2-electricity is the CO2-eq produced by the electricity consump-
+tion. W is the annual electricity consumption in WWTPs (kWh/a). EFe- 3.1. Carbon footprints of the AAO process WWTPs
+lectricity is the EF of electricity in Shanxi Province (0.9419 t CO2/MWh in
+North China). In this study, the 33 WWTPs were investigated, in Shanxi Province,
+China. Basic information related to the 33 WWTPs was listed in Table
+(2) Chemicals consumption carbon emissions: A.1. Among them, there were 25 AAO process WWTPs. In this circum-
+stance, it was widely representative to choose the AAO process for
+CO2(cid:0)chemical=M⋅EFchemical (4)
+carbon accounting research. GHGs emission related to the 25 AAO
+process WWTPs was listed in Table A.2. This was the first case report on
+where CO2-chemical is the CO2-eq produced by the chemical consumption.
+carbon emissions from local wastewater treatment with the typical
+M is the annual chemicals consumption in WWTPs (t/a). EFchemicals is the
+geographical characteristics of the Loess Plateau. Local wastewater
+EF of chemicals (kg CO2/kg). EF of chemicals: poly-acrylamide (PAM)
+treatment processes as well as carbon emissions characteristics exhibit
+1.5 kg CO2/kg, poly-aluminium chloride (PAC) 1.62 kg CO2/kg, sodium
+their unique feature due to the particularities of climate, people living
+acetate 1.6 kg CO2/kg.
+habits, population density and other characteristics in the plateau. This
+paper systematically calculated and evaluated the direct, indirect and
+2.1.5. Sludge landfill GHG emissions
+sludge landfill treatment carbon emissions. The contribution of carbon
+Sludge landfill was the most important disposal method of sludge in
+footprint from high to low was electricity consumption, sludge landfill
+Shanxi Province, China, accounting for about 49 % [22]. Therefore, the
+treatment, chemicals consumption and direct GHG emissions, account-
+sludge treatment of AAO process was calculated by landfill.
+ing for 34 %, 30.4 %, 27 % and 8.6 %, respectively (Fig. 2a).
+CO2(cid:0)landfill=CO2(cid:0)CH4+CO2(cid:0)diesel+CO2(cid:0)electricity (5) Indirect GHG emissions came from the consumption of electricity
+and chemicals and the emissions were 236,376.2 t CO2-eq/a (Fig. 2b).
+where CO2-CH4 is the CO2-eq produced by CH4 from sludge landfill. Emissions from electricity consumption accounted for 34 % (Fig. 2a) of
+Landfill emits 60.6 kg CH4/t dry sludge (DS) [23]. CO2-diesel is the CO2-eq the total GHG emissions, and the order of electricity consumption during
+produced by diesel use in landfill. CO2-electricity is the CO2-eq produced by AAO was listed as aeration, pumping, centrifuge and filter-press and so
+3
+
+--- Page 4 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+Fig. 2. The GHG emissions of AAO process are demonstrated from different perspectives (a) Proportion of GHG emissions generated by different types, (b) Total GHG
+emissions and average emissions intensity of different types, (c) Proportion of GHG emissions generated by different chemicals consumption.
+on. Aeration as the main source of electricity consumption drew inten- products could be used for land application as fertilizers [34,35]. All
+sive attention. Adequate aeration is essential for biological wastewater these substitutions would be benefit to curb GHG emissions from
+treatment e.g. AAO. Organics are oxidized during aeration. Tradition- traditional electricity or fertilizers productions.
+ally, nitrification of ammonia was believed to initiate following a low Direct GHG emissions were mainly CH4 and N2O generated during
+organic state [31]. In addition, since nitrifying bacteria and phosphorus- wastewater treatment. Under the anaerobic conditions, organic matter
+collecting bacteria need adequate aeration for better growth, ensuring from wastewater decomposes to produce CH4, while N2O is produced by
+adequate aeration is essential for nitrification and phosphorus aggre- nitrification and denitrification of microbials [36]. The CH4 and N2O
+gation in the biological stage [32]. Indeed, organic oxidation takes a have a GWP of 28 and 265 CO2-eq, respectively, thus even a small
+quite part (more than 60 %) of HRT in AAO process. The indirect GHG amount of CH4 and N2O emissions still have a significant impact on the
+emissions of external carbon source were much greater than that of carbon footprint. According to the rule of IPCC, direct GHG emissions
+coagulants. As shown in Fig. 2c, the highest emission, sodium acetate were calculated by the loads of pollutants multiplied by corresponding
+used to enhance denitrification, accounted for 79.7 % and the lowest, coefficients. The emissions would be determined by pollutant control
+PAM, accounted for only 1.2 %. PAC, the popular coagulant, accounted efficiency of treatment process. However, direct emissions of AAO in this
+for the other 19.1 %. Compared with PAC, the low carbon emission of study were very small. The direct GHG emissions were 33,532.3 t CO2-
+PAM was mainly due to the small dosage. In addition to the high eq/a and the average emissions intensity was 0.079 kg CO2-eq/m3
+emission intensity caused by the high demand for chemicals, part of the (Fig. 2b). The low contribution of direct GHG emissions to carbon
+reason is unnecessary dosage of chemicals, which requires more precise footprint was partly due to the fact that CO2 emissions, considered as
+chemicals dosage. Indirect GHG emissions played an important role in biological sources, were not included in GHG emissions calculation.
+the total carbon footprint profile, accounting for up to 61 % (Fig. 2a). In Almost 80–90 % of organics was removed during AAO process, and most
+this case, the focus of carbon emission reduction must be on indirect of them were converted to sludge (15–25 %) or CO2 (45–65 %) [37,38].
+GHG emissions in WWTPs. Reasonable design was needed to reduce the The carbon utility efficiency of AAO needed to be improved whether its
+consumption of electricity and chemicals. GHG emissions were taken into consideration or not following corre-
+The emissions from sludge landfill treatment were second only to sponding regulations. Unfortunately, most of the excess sludge was
+electricity consumption, and the emissions were 117,980.4 t CO2-eq/a landfilled without controlling GHG emissions efficiently, not to speak of
+(Fig. 2b). Although sludge treatment was calculated outside of water recovering resources. And most of WWTPs were open-air and discharged
+treatment in most reports, it was included in the study because the gas products directly. Direct emissions were actually large (60.6 kg CH4/
+following designed process substantially affected the sludge from the t DS) despite of the calculation rules. Thus, redesigning wastewater
+amount of production, quality to resources recovery. Among many pollutants control process and improving sludge treatment method
+sludge treatment methods, sludge landfill is a relatively low-cost one, should be managed to avoid GHG emissions.
+but it will lead to the degradation of organic compounds to produce The total carbon emissions and average emissions intensity were
+methane [33], which is the main source of GHG in sludge treatment 387,888.9 t CO2-eq/a and 0.915 kg CO2-eq/m3 (Fig. 2b) respectively,
+[23]. Reasonable design of sludge treatment system would reduce GHG which was higher than the emission intensity of Beijing (0.603 kg CO2-
+emissions and increase substance and energy recovery. For example, eq/m3; [8]), and it was much higher than that of Shanghai and Shenzhen
+anaerobic digestion could recover biogas as energy, and digestion (0.290 and 0.30 kg CO2-eq/m3, respectively; [7,39]). This mainly caused
+4
+
+--- Page 5 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+by the different calculation boundaries, process and direct and indirect 12.8 ±0.5 mg/L and 0.2 ±0.01 mg/L, respectively. The effluent quality
+emission factors (This paper added GHG emissions from chemicals met China’s Class 1 A Discharge Standard of Pollutants for Municipal
+consumption and sludge treatment). These discussions seemed beyond Wastewater Treatment Plant (GB 18,918–2002).
+of the study, and the results analyzed would be meaningful to modify
+wastewater treatment processes of local or places with the same 3.3. GHG emissions in the CSM-ADLA process
+geographical features.
+Above, the GHG of the AAO process WWTPs are expressed by carbon 3.3.1. Indirect GHG emissions
+emissions, emission intensity and emission proportion. The high total The emphasis of pollutants control was placed at the coagulation-
+carbon emissions and average emissions intensity (387,888.9 t CO2-eq/a sedimentation stage, and then its effluent was sent to undergo micro-
+and 0.915 kg CO2-eq/m3 (Fig. 2b) respectively) of AAO need to be algae treatment with nature daylight and no aeration, lowering the
+documented. The balance among pollutants control efficiency, eco- expenditure of energy input. As mentioned above, aeration and pumping
+nomic costs and the cost of climate influence of AAO need to be consumed multiple electricity in AAO process. The pre-separation of
+reevaluated. It’s urgent to find some other treatment strategies to coagulation-sedimentation avoided a large part of pollutants entering
+ameliorate the high GHG emissions of wastewater treatment. Waste- the following biological treatment process. As a cost, certain coagulants
+water treatment technologies, excess sludge (ES) disposal, energy con- and electricity for stirring were used. In a certain range, the more
+sumption and structures, as well as the use of chemicals were considered coagulant used the higher pollutants control efficiency. This trend
+to mitigate GHG emissions in recent reports. In this study, we managed would continue to a certain extent, until it would be contained by the
+to make a holistic design to achieve pollutants removal under low GHG increase in costs and carbon emissions. As a result, according to Tables 1,
+emissions through the pollutant treatment process called CSM-ADLA. 2, under almost the same pollutants control efficiencies, the electricity
+and PAC consumption of the CSM-ADLA process were 0.171 kWh/m3
+3.2. Design and performance of the CSM-ADLA process and 45 g/m3, respectively. The average electricity and chemical con-
+sumption of the 25 AAO process WWTPs were 0.33 kWh/m3 and 154 g/
+The primary idea of the design to deal with high emissions of AAO m3, respectively (Table A.1). The CSM-ADLA process was just 51.8 %
+was to separate pollutants first, preventing them from entering subse- and 29.2 % (Including PAC, PAM and sodium acetate) comparing to
+quent processes and ameliorating conditions (low load, better trans- those of AAO. Through formula (3) and (4), it could be calculated that
+parency and more feasible materials) for biological treatment followed. the emission intensities were 0.161 kg CO2-eq/m3 and 0.073 kg CO2-eq/
+Secondly, microalgae treatment was employed as a refine process to m3, respectively.
+eliminate residual nutrients. A CSM-ADLA treatment process charac-
+terized as preset separation (coagulation-sedimentation) combined with 3.3.2. GHG emissions from sludge treatment
+microalgae and biogas production (anaerobic digestion) combined with The emissions from sludge landfill treatment were the second large
+land application was designed and constructed. The majority of pollut- contributor of the total GHG emissions from WWTPs. This should be
+ants were removed by coagulation-sedimentation. It enhanced C, N and given sufficient attention. The dry sludge yield of pretreatment and
+P capture capacity by moving more pollutants to sludge. These pollut- coagulation-sedimentation treatment was 172.6 g/m3 wastewater,
+ants were to be recovered and organic carbon was to be used to offset which was about 1.1 times that of AAO process. The sludge yield was
+carbon emissions through the energy production. The remaining pol- slightly higher than that of AAO process. The reason was that this pro-
+lutants in the settled effluent were treated by HRAP to achieve standard cess removed pollutants and channeled into the sludge by physical and
+discharge. As an open ponds, HRAP has the advantages of durability, chemical methods. However, AAO process, as a biological treatment
+cost-effectiveness, easy construction and operation [40]. It is a more method through anaerobic, anoxic and aerobic, inevitably caused some
+sustainable and economical way of wastewater treatment and micro- substances to be emitted in the form of GHGs. The ADLA was used for
+algae cultivation. The natural lighting on the Loess Plateau is relatively sludge treatment, and emission intensity was 372 kg CO2-eq/t DS [46].
+sufficient, and the intensity of the light is high. During the experiment, The carbon emission of ADLA was 21.1 % of sludge landfill treatment.
+the sunshine duration was approximately 8–12 h. Considering high According to the calculation, the emission intensity of sludge treatment
+electricity consumption of artificial light and aeration, the HRAP was 0.064 kg CO2-eq/m3 wastewater.
+designed adopted natural light source and paddle wheel stirring. Abso-
+lutely, the adoption to substitute artificial light and aeration would 3.3.3. Carbon footprints of the CSM-ADLA process
+negatively affect the treatment efficiency. It would prolong the HRT. In this study, coagulation treatment was set in front of microalgae
+However, its combination with coagulation-sedimentation filled this treatment to remove the majority of pollutants, and reduced the HRT of
+gap. microalgae treatment, thereby reducing electricity consumption and
+The influent and effluent quality of the pilot system was listed in carbon emissions. Carbon emissions generated by electricity were much
+Table 1. The dosage of PAC in coagulation-sedimentation tank was 20 larger than that of chemicals. The carbon emissions of PAC production
+mg/L. The removal rates of COD, TN and TP were 94.8 ±2.6 %, 73.4 ± and sludge treatment were 1.62 kg CO2-eq/kg and 0.372 kg CO2-eq/kg
+1.9 %, 49.4 ±1.9 % and 59.8 ± 2.5 %, respectively. The initial con- DS, respectively. Therefore, using 1 g PAC generates about 2 g CO2, but
+centration of HRAP microalgae was 1 ×107 cells/ml. The HRAP was consuming 1 kWh electricity generates 941.9 g CO2. It seemed beneficial
+designed to operate with a 24-h HRT. The biomass growth rate was 160
+g/(m3⋅d). The effluent COD, TN and TP of HRAP were 25.6 ±5.2 mg/L,
+Table 2
+Electricity and chemical consumption parameters.
+Table 1
+Design parameters Unit Reference
+Influent and effluent quality of the pilot system.
+Pretreatment kWh/m3 0.024 [41,42]
+Unit System Coagulation HRAP China’s class 1A Coagulation-sedimentation tank kWh/m3 0.015 [43]
+influent effluent effluent discharge standard High rate algae pond kWh/m3 0.055 Calculated
+COD mg/ 312 ±9.7 83 ±6 25.6 ± 50 Microalgae harvesting kWh/m3 0.047 [42,44]
+L 5.2 Ultraviolet disinfection kWh/m3 0.03 [45]
+TN mg/ 54 ±2.2 27.3 ±1 12.8 ± 15 PAC (coagulation-sedimentation) g/m3 20 Calculated
+L 0.5 PAC (microalgae harvesting) g/m3 25 Calculated
+TP mg/ 6 ±0.5 2.41 ±0.15 0.2 ± 0.5
+(The electricity consumption carbon emissions generated by sludge thickening
+L 0.01
+and dewatering was calculated in the sludge treatment part).
+5
+
+--- Page 6 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+for low-carbon removal of pollutants by employing efficient photosynthesis performance and pollutants control efficiency. But they
+coagulation-sedimentation instead of biological treatment. Of course, were abolished for their high energy expenditures. Instead, natural light
+the dosages of coagulants should vary with the influent wastewater and paddle wheel stirring were adopted in our study, at the cost of
+quality. Increasing coagulant dosage led to more efficient pollutants longer hydraulic retention time. In a way, the CO2 produced by micro-
+control, less loads of subsequent microalgae treatment, some more organism respiration and the oxygen produced by microalgae photo-
+sludge production in sediment tanks but less excess sludge in microalgae synthesis form a cycle. Bacteria utilize oxygen to oxidize organic carbon,
+tank. Although the total carbon emissions of the process may be further while microalgae utilize CO2 for photosynthesis, so it has lower energy
+reduced with the increase of coagulant dosage, there would be a re- requirement than AAO process [14,44]. Although the CSM-ADLA pro-
+stability phenomenon within a certain range. Continuing dosing also cess design made up for the weakness caused by energy consumption, it
+raises issues such as process cost, sludge properties, nutrients recovery inevitably affected CO2 supply and photosynthesis efficiency, as well as
+and environmental impact. the pollutants removal. There would be a balance point between energy
+In the CSM-ADLA process, the contribution of carbon footprint from consumption for light and aeration and the costs of HRT. In the future,
+high to low was microalgae harvesting, sludge treatment, HRAP, research can be placed on the nexus between artificial light sources,
+coagulation-sedimentation, ultraviolet disinfection and pretreatment, aeration, treatment efficiency, and GHG emissions to find an optimal
+accounting for 28.4 %, 21.5 %, 17.4 %, 15.6 %, 9.5 % and 7.6 %, state.
+respectively (Fig. 3a). From another perspective, the contribution of This study reduced the use of chemicals through reasonable design,
+carbon footprint from high to low was electricity consumption, chem- and the chemicals consumption emission of CSM-ADLA was 29.6 % of
+icals consumption and sludge ADLA treatment, accounting for 54 %, the AAO process (Fig. 3b). In the AAO process, the external carbon
+24.5 % and 21.5 %, respectively (Fig. 3b). Similar to the AAO process, source contributed the most to the carbon footprint of chemical con-
+electricity consumption was still the main contribution of carbon foot- sumption. It seemed conflict to remove organic matters from wastewater
+print; but about 50 % of electricity was saved in CSM-ADLA process. and to supplement external carbon source for denitrification. However,
+Carbon footprint contributions of both chemical consumption and there were at least 3 points to solve these problems in CSM-ADLA.
+sludge treatment were reduced significantly in CSM-ADLA. However, Firstly, a relatively large part (49.4 %) of TN was removed by
+the carbon footprint contribution order of chemical consumption and coagulation-sedimentation, which lowered the load of denitrification
+sludge treatment became opposite to that of AAO process. The carbon subsequently. According to Table 1, most TN (49.4 %) was removed in
+footprint reduction of sludge treatment was more than that of chemicals the coagulation-sedimentation and 26.9 % of the TN was removed in
+consumption. HRAP. Secondly, although it’s difficult for coagulation to remove dis-
+The emission intensities of the AAO and CSM-ADLA process were solved nitrogen compounds such as ammonia and nitrate nitrogen, et al.,
+shown in Fig. 3b. The electricity consumption emission of CSM-ADLA microalgae-based process solved this problem. Both ammonia and ni-
+was 51.8 % of the AAO process, ranking the highest cause. According trate nitrogen could be consumed by multiple microbes including algae.
+to the electricity consumption of the biochemical treatment stage Ammonia nitrogen would be preferentially absorbed by algae and other
+accounted for 58.4 % of the WWTP [32], it could be calculated that the microorganisms. The consumptions of both ammonia and nitrate ni-
+electricity consumption of the biochemical treatment stage was 0.193 trogen would reduce electricity and chemicals used for aeration and
+kWh/m3. However, according to Table 2, the total electricity con- denitrification. Thirdly, both inorganic and organic carbon could be
+sumption of coagulation-sedimentation tank and HRAP was 0.07 kWh/ consumed as carbon source for microalgae photosynthesis [47–49].
+m3. The electricity saving was mainly due to the use of coagulation- Inorganic carbon could be endlessly supplemented by air on the expense
+sedimentation +microalgae instead of biochemical treatment. In view of longer HRT in this case. Even if an external carbon source was
+of AAO process, GHG for electricity consumption was the highest also, required, the dosage was very small and it was ignored in this paper. In
+especially due to aeration. In this study, the microalgae-based process addition, the treatment efficiency and carbon emissions were balanced
+was designed and operated adopting natural light source and no aera- in the coagulation-sedimentation and microalgae harvesting parts and
+tion. It was rooted from energy saving as well as reducing GHG emis- the optimal PAC dosage was selected.
+sions. Artificial light and forced aeration would obviously improve In general, the coagulation-sedimentation +microalgae design has
+Fig. 3. (a) Proportion of GHG emissions generated by different parts in the CSM-ADLA process, (b) GHG emission intensities of AAO and CSM-ADLA processes.
+6
+
+--- Page 7 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+the potential to alternate conventional pollutants control e.g. activated fertilizers, food, bioenergy, pharmaceuticals, etc. [53]. According to the
+sludge treatment especially in the view of GHG emission mitigation. formula in reference [54], the fixation rate of CO2 by microalgae was
+Without the condition compromising effluent quality, the emission was 0.301 kg CO2/(m3⋅d). In addition, it has been reported that the pro-
+36.7 % of the AAO process (Fig. 3b). In addition, controlling the flow of duction of 1 kg of microalgae biomass requires 1.83 kg of CO2 [55].
+pollutants, more nutrients flowed into sludge and microalgae for recy- Microalgae have high CO2 capture capacity. Through photosynthesis,
+cling, which made the process more attractive. In wastewater treatment, microalgae could fix CO2 in the atmosphere and flue gas [53,56].
+the harvested microalgae could be used as a carbon sink, and microalgae Considering the combination of wastewater treatment and flue gas
+treatment with low energy consumption would exhibit great potential to treatment is a feasible route. This is conducive to the green-oriented
+carbon neutralization. transition of the industry. Microalgae cultivation achieves the purpose
+Sludge treatment adopted ADLA instead of landfill and the emission of wastewater treatment, CO2 fixation, and by-products production, and
+was 23 % of the AAO process (Fig. 3b). Anaerobic treatment is a provides an economically feasible and environmentally friendly carbon
+promising sludge treatment method because of its low energy con- emission reduction approach.
+sumption and energy recovery by biogas capture [50]. The CH4 recov- The study just puts forward a case in pilot-scale to express the great
+ered by anaerobic digestion could not only reduce GHG emissions, but potential for conventional wastewater treatment improvement or
+also offset part of carbon emissions generated by electricity consumption replacement. Parameters involved in CSM-ADLA were of great impor-
+[32]. Residue from the anaerobic digestion of sludge contains nutrients tance to the efficiencies of pollutants control, economic costs and carbon
+such as N and P, which could partially substitute chemical fertilizer emissions. The performances of coagulation, sedimentation, microalgae
+[51]. On the other hand, the design of anaerobic digestion for resource and microbial metabolisms, sludge production and harvesting, and
+recovery would make it easier to control other pollutants such as N2O, sludge treatment would affect the holistic results. And according to the
+volatile organic amine, odorants or H2S. objective quality of wastewater, they need to be optimized further. A
+water quality limitation is underway to provide further guidance for
+using CSM-ADLA efficiently. By rearranging the pollutants distributions
+3.4. Substance recovery of the CSM-ADLA process in the treatment process, CSM-ADLA tends to exhibits its great charm in
+water treatment, resources recovery and ameliorating climate deterio-
+3.4.1. Pollutants flow and nutrients recovery analysis rate change. This studied here would provide the possibility of carbon
+The pollutants flow direction and distributions in the CSM-ADLA neutralization in wastewater treatment process, and facilitate the real-
+process were shown in Fig. 4. Results showed that the 78.7 % C, 49.4 ization of the carbon peaking and carbon neutrality goals.
+% N and 59.8 % P of influent was converted to excess sludge, and these
+substances were recycled by anaerobic digestion and land application. 4. Conclusions
+Unlike the above-mentioned AAO process where only 15–25 % C of
+influent was channeled into excess sludge and 45–65 % ended up as CO2. The CSM-ADLA process achieved efficient pollutants removal and
+Furthermore, lower pollutants (21.3 % COD, 50.6 % TN and 40.2 % TP) carbon emission reduction by reasonable design during wastewater
+were allocated to HRAP and 14.7 % C, 26.9 % N and 36.8 % P were treatment. Without the condition compromising effluent quality, con-
+removed by HRAP. From the perspective of pollutant removal, the trolling pollutants flow increased the contribution of the CSM-ADLA
+emission intensity of the AAO process was 2.667 g CO2-eq/(g COD process to carbon neutrality through lower GHG emissions and higher
+removed) and 23.668 g CO2-eq/(g TN removed). However, the CSM- substance (C, N and P) recovery capacity, compared to that of the AAO
+ADLA process was 0.818 g CO2-eq/(g COD removed) and 7.233 g CO2- process. Meanwhile, this process had the capability of fixing carbon
+eq/(g TN removed). This was more low-carbon and cost-effective than dioxide (0.301 kg CO2/m3⋅d). In addition, controlled pollutants alloca-
+AAO process to remove nutrients. Overall, the CSM-ADLA process has tion toward the CSM-ADLA process optimized the treatment efficiency
+achieved superior treatment performance by optimizing the flow of and energy consumption, which facilitated carbon emission reduction.
+pollutants. The CSM-ADLA process would provide a low-carbon, cost-effective and
+sustainable wastewater treatment technology in order to achieve carbon
+3.4.2. Nutrients and CO2 assimilation by microalgae neutrality of wastewater treatment.
+Microalgae have the capability to capture C, N and P. In HRAP, the
+biomass growth rate of microalgae was 160 g/(m3⋅d). Through the CRediT authorship contribution statement
+microalgae chemical formula CO0.48H1.83N0.11P0.01 [52], the assimila-
+tion rate of carbon, nitrogen and phosphorus were 82.2 g/(m3⋅d), 10.5 Shuo Chen: Writing – review & editing, Writing – original draft,
+g/(m3⋅d) and 2.1 g/(m3⋅d), respectively. The N and P were assimilated Visualization, Project administration, Investigation, Conceptualization.
+by microalgae, and the resulting biomass could be used to produce
+Fig. 4. The pollutants flow direction and distributions of CSM-ADLA process.
+7
+
+--- Page 8 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+Hailong Liu: Writing – review & editing, Supervision. [15] X. Wu, Q. Cen, M. Addy, H. Zheng, S. Luo, Y. Liu, Y. Cheng, W. Zhou, P. Chen,
+R. Ruan, A novel algal biofilm photobioreactor for efficient hog manure
+wastewater utilization and treatment, Bioresour. Technol. 292 (2019) 121925,
+Declaration of competing interest https://doi.org/10.1016/j.biortech.2019.121925.
+[16] X. You, L. Yang, X. Zhou, Y. Zhang, Sustainability and carbon neutrality trends for
+microalgae-based wastewater treatment: a review, Environ. Res. 209 (2022)
+The authors declare that they have no known competing financial 112860, https://doi.org/10.1016/j.envres.2022.112860.
+interests or personal relationships that could have appeared to influence [17] W.S.K. Abudaqqa, C.M.R. Madhuranthakam, O. Chaalal, Algae-based membrane
+bioreactors: a mini review on their progress and processes for wastewater
+the work reported in this paper.
+treatment, J. Water Process Eng. 59 (2024) 104937, https://doi.org/10.1016/j.
+jwpe.2024.104937.
+Data availability [18] A. Kumar, S. Mishra, N.K. Singh, M. Yadav, H. Padhiyar, J. Christian, R. Kumar,
+Ensuring carbon neutrality via algae-based wastewater treatment systems: Progress
+and future perspectives, J. Environ. Manage. 360 (2024) 121182, https://doi.org/
+Data will be made available on request. 10.1016/j.jenvman.2024.121182.
+[19] Y. Yang, S. Tang, J.P. Chen, Carbon capture and utilization by algae with high
+concentration CO2 or bicarbonate as carbon source, Sci. Total Environ. (2024)
+Acknowledgment
+170325, https://doi.org/10.1016/j.scitotenv.2024.170325.
+[20] IPCC, 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas
+This study was supported by the National Natural Science Founda- Inventories, Chacter 6-Wastewater Treatment and Discharge, Intergovernmental
+tion of China Joint Fund for Regional Innovation and Development Panel on Climate Change, Japan, 2019.
+[21] IPCC, Climate Change 2014: Mitigation of Climate Change. Contribution of
+(Grant No. U23A202760). Working Group III to the Fifth Assessment Report of the Intergovernmental Panel
+on Climate Change, Cambridge University Press, Cambridge, United Kingdom and
+New York, NY, USA, 2014.
+Appendix A. Supplementary data
+[22] B. Duan, W. Zhang, H. Zheng, C. Wu, Q. Zhang, Y. Bu, Disposal Situation of Sewage
+Sludge from Municipal Wastewater Treatment Plants (WWTPs) and Assessment of
+Supplementary data to this article can be found online at https://doi. the Ecological Risk of Heavy Metals for Its Land Use in Shanxi, China, IJERPH 14,
+org/10.1016/j.jwpe.2024.105665. 2017, p. 823, https://doi.org/10.3390/ijerph14070823.
+[23] D. Guo, B. Li, W. Yu, J.-C. Han, Y. Zhou, Z. Ye, X. Wu, B. Young, Y. Huang,
+Revisiting China’s domestic greenhouse gas emission from wastewater treatment: a
+References quantitative process life-cycle assessment, Sci. Total Environ. 876 (2023) 162597,
+https://doi.org/10.1016/j.scitotenv.2023.162597.
+[1] IPCC, An IPCC Special Report on the Impacts of Global Warming of 1.5 ◦C above [24] Y m. a-C n. gC eh men e, J t:. aK cu ao s, P so tute dn yt i oa fl To af ig wr ae ne ,n Jh .o Cu ls ee nga s re om di .s 1si 2o 9n s 2f 0ro 1m s 1e 9w 6a –g 2e 1sl ,u hd tg tpe
+a n e a . P ( 6) 0 s ://
+Preindustrial Levels and Related Global Greenhouse Gas Emission Pathways, in the
+doi.org/10.1016/j.jclepro.2016.04.084.
+Context of Strengthening the Global Response to the Threat of Climate Change,
+[25] IPCC, IPCC Guidelines for National Greenhouse gas Inventories, Institute for Global
+Sustainable Development, and Efforts to Eradicate Poverty (Incheon, Republic of
+Environmental Strategies, Hayama, Japan, 2006.
+Korea), 2018.
+[26] S. Aiyuk, W. Verstraete, Sedimentological evolution in an UASB treating SYNTHES,
+[2] Y. Shan, J. Liu, Z. Liu, X. Xu, S. Shao, P. Wang, D. Guan, New provincial CO2
+a new representative synthetic sewage, at low loading rates, Bioresour. Technol. 93
+emission inventories in China based on apparent energy consumption data and (2004) 269–278, https://doi.org/10.1016/j.biortech.2003.11.006.
+updated emission factors, Appl. Energy 184 (2016) 742–750, https://doi.org/
+[27] APHA, Standard Methods for the Examination of Water and Wastewater, 21st ed.,
+[3] 1 Y0 . . S1 h0 a1 n6 , / Qj. .a Hpe un ae nr gg ,y D.2 . 0 G1 u6 a. n0 ,3 K.0 . 7 H3 u. bacek, China CO2 emission accounts 2016–2017, A Enm ve irr oic na mn eP nu tb Fli ec eH re aa til oth ,A Nss eo wc ia Yt oio rkn ,, 2A 0m 1e 2r ican Water Works Association & Water
+d n .
+Sci. Data 7 (2020) 54, https://doi.org/10.1038/s41597-020-0393-y.
+[28] Y. Luo, P. Le-Clech, R.K. Henderson, Assessment of membrane photobioreactor
+[4] C. Zhang, G. Zhao, Y. Jiao, B. Quan, W. Lu, P. Su, Y. Tang, J. Wang, M. Wu, N. Xiao,
+(MPBR) performance parameters and operating conditions, Water Res. 138 (2018)
+Y. Zhang, J. Tong, Critical analysis on the transformation and upgrading strategy of 169–180, https://doi.org/10.1016/j.watres.2018.03.050.
+Chinese municipal wastewater treatment plants: towards sustainable water
+[29] F. Almomani, A. Al Ketife, S. Judd, M. Shurair, R.R. Bhosale, H. Znad,
+remediation and zero carbon emissions, Sci. Total Environ. 896 (2023) 165201,
+M. Tawalbeh, Impact of CO2 concentration and ambient conditions on microalgal
+https://doi.org/10.1016/j.scitotenv.2023.165201.
+growth and nutrient removal from wastewater by a photobioreactor, Sci. Total
+[5] H. Guven, M.E. Ersahin, H. Ozgun, I. Ozturk, I. Koyuncu, Energy and material Environ. 662 (2019) 662–671, https://doi.org/10.1016/j.scitotenv.2019.01.144.
+refineries of future: wastewater treatment plants, J. Environ. Manage. 329 (2023)
+[30] Shanxi Provincial Statistical Yearbook. https://data.cnki.net/ accessed June 5,
+117130, https://doi.org/10.1016/j.jenvman.2022.117130.
+2024.
+[6] J. Zhang, Y. Shao, H. Wang, G. Liu, L. Qi, X. Xu, S. Liu, Current operation state of
+[31] S. Jenni, S.E. Vlaeminck, E. Morgenroth, K.M. Udert, Successful application of
+wastewater treatment plants in urban China, Environ. Res. 195 (2021) 110843,
+nitritation/anammox to wastewater with elevated organic carbon to ammonia
+[7] h Xt . t Lp is a:/ o/ , d Yo .i . To ir ag n/ ,1 Y0 .. 1 G0 a1 n6 ,/ Jj. .e Jn iv , r Qes u.2 an0 t2 i1 fy.1 in1 g0 8 u4 rb3 a. n wastewater treatment sector’s ratios, Water Res. 49 (2014) 316–326, https://doi.org/10.1016/j.
+greenhouse gas emissions using a hybrid life cycle analysis method – an application watres.2013.10.073.
+[32] Y. Li, H. Gu, G. Zhao, H. Li, M. Zhang, X.-L. Yang, H.-L. Song, Carbon accounting of
+on Shenzhen city in China, Sci. Total Environ. 745 (2020) 141176, https://doi.org/ A2O process based on carbon footprint in a full-scale municipal wastewater
+10.1016/j.scitotenv.2020.141176.
+treatment plant, J. Water Process Eng. 55 (2023) 104162, https://doi.org/
+[8] X. Zhou, F. Yang, F. Yang, D. Feng, T. Pan, H. Liao, Analyzing greenhouse gas
+10.1016/j.jwpe.2023.104162.
+emissions from municipal wastewater treatment plants using pollutants parameter
+[33] H. Yang, Y. Guo, N. Fang, B. Dong, Life cycle assessment of greenhouse gas
+normalizing method:a case study of Beijing, J. Clean. Prod. 376 (2022) 134093,
+emissions of typical sewage sludge incineration treatment route based on two case
+https://doi.org/10.1016/j.jclepro.2022.134093.
+[9] J. Drewnowski, A. Remiszewska-Skwarek, S. Duda, G. Łago´d, Aeration process in studies in China, Environ. Res. 231 (2023) 115959, https://doi.org/10.1016/j.
+envres.2023.115959.
+bioreactors as the main energy consumer in a wastewater treatment plant, in:
+[34] G. Yang, G. Zhang, H. Wang, Current state of sludge production, management,
+Review of Solutions and Methods of Process Optimization, Processes 7, 2019, treatment and disposal in China, Water Res. 78 (2015) 60–73, https://doi.org/
+p. 311, https://doi.org/10.3390/pr7050311.
+10.1016/j.watres.2015.04.002.
+[10] W. Hu, J. Tian, L. Chen, Greenhouse gas emission by centralized wastewater [35] B.M. Cie´slik, J. Namie´snik, P. Konieczka, Review of sewage sludge management:
+treatment plants in Chinese industrial parks: inventory and mitigation measures, standards, regulations and analytical methods, J. Clean. Prod. 90 (2015) 1–15,
+J. Clean. Prod. 225 (2019) 883–897, https://doi.org/10.1016/j.
+https://doi.org/10.1016/j.jclepro.2014.11.031.
+jclepro.2019.03.311.
+[36] A.G. Schneider, A. Townsend-Small, D. Rosso, Impact of direct greenhouse gas
+[11] M. Ji, J. Wang, S.K. Khanal, S. Wang, J. Zhang, S. Liang, H. Xie, H. Wu, Z. Hu,
+emissions on the carbon footprint of water reclamation processes employing
+Water-energy-greenhouse gas nexus of a novel high-rate activated sludge-two-stage nitrification–denitrification, Sci. Total Environ. 505 (2015) 1166–1173, https://
+vertical up-flow constructed wetland system for low-carbon wastewater treatment,
+doi.org/10.1016/j.scitotenv.2014.10.060.
+Water Res. 229 (2023) 119491, https://doi.org/10.1016/j.watres.2022.119491.
+[37] C. Chai, D. Zhang, Y. Yu, Y. Feng, M. Wong, Carbon footprint analyses of
+[12] Q. Ye, J. Cheng, W. Guo, J. Xu, K. Li, J. Zhou, Serial lantern-shaped draft tube
+mainstream wastewater treatment technologies under different sludge treatment
+le in fth ca in rc ce ud m fl fla us xh i cn og lu l migh n t p e hff oe tc ot b f io or r eim acp toro r,v Bin ig o rC eO so2 u fi r.x Tat ei co hn n w oli .t h 2 5m 5i c (r 2o 0a 1lg 8a ) e 1 i 5n 6 a – 1g 6a 2s- , scenarios in China, Water 7 (2015) 918–938, https://doi.org/10.3390/w7030918.
+[38] A. Taboada-Santos, E. Rivadulla, L. Paredes, M. Carballa, J. Romalde, J.M. Lema,
+https://doi.org/10.1016/j.biortech.2018.01.127.
+Comprehensive comparison of chemically enhanced primary treatment and high-
+[13] X. Zhao, K. Kumar, M.A. Gross, T.E. Kunetz, Z. Wen, Evaluation of revolving algae
+rate activated sludge in novel wastewater treatment plant configurations, Water
+biofilm reactors for nutrients and metals removal from sludge thickening
+Res. 169 (2020) 115258, https://doi.org/10.1016/j.watres.2019.115258.
+supernatant in a municipal wastewater treatment facility, Water Res. 143 (2018)
+467–478, https://doi.org/10.1016/j.watres.2018.07.001. [39] J. Xi, H. Gong, Y. Zhang, X. Dai, L. Chen, The evaluation of GHG emissions from
+Shanghai municipal wastewater treatment plants based on IPCC and operational
+[14] J. Liu, B. Pemberton, J. Lewis, P.J. Scales, G.J.O. Martin, Wastewater treatment
+using filamentous algae – a review, Bioresour. Technol. 298 (2020) 122556, data integrated methods (ODIM), Sci. Total Environ. 797 (2021) 148967, https://
+doi.org/10.1016/j.scitotenv.2021.148967.
+https://doi.org/10.1016/j.biortech.2019.122556.
+8
+
+--- Page 9 ---
+S. Chen and H. Liu J o u r n a l o f W a t e r P r o c e s s E n g i n e e r in g64(2024)105665
+[40] S. Abinandan, S. Shanthakumar, Challenges and opportunities in application of [49] F. Gao, H.-L. Yang, C. Li, Y.-Y. Peng, M.-M. Lu, W.-H. Jin, J.-J. Bao, Y.-M. Guo,
+microalgae (Chlorophyta) for wastewater treatment: a review, Renew. Sustain. Effect of organic carbon to nitrogen ratio in wastewater on growth, nutrient uptake
+Energy Rev. 52 (2015) 123–132, https://doi.org/10.1016/j.rser.2015.07.086. and lipid accumulation of a mixotrophic microalgae Chlorella sp, Bioresour.
+[41] S. Longo, Monitoring and diagnosis of energy consumption in wastewater Technol. 282 (2019) 118–124, https://doi.org/10.1016/j.biortech.2019.03.011.
+treatment plants. A state of the art and proposals for improvement, Appl. Energy [50] Z. Wu, H. Duan, K. Li, L. Ye, A comprehensive carbon footprint analysis of different
+(2016). wastewater treatment plant configurations, Environ. Res. 214 (2022) 113818,
+[42] C. Saúco, R. Cano, D. Marín, E. Lara, F. Rogalla, Z. Arbib, Hybrid wastewater https://doi.org/10.1016/j.envres.2022.113818.
+treatment system based in a combination of high rate algae pond and vertical [51] A. Hospido, M. Carballa, M. Moreira, F. Omil, J.M. Lema, G. Feijoo, Environmental
+constructed wetland system at large scale, J. Water Process Eng. 43 (2021) 102311, assessment of anaerobically digested sludge reuse in agriculture: potential impacts
+https://doi.org/10.1016/j.jwpe.2021.102311. of emerging micropollutants, Water Res. 44 (2010) 3225–3233, https://doi.org/
+[43] S. Bukhary, J. Batista, S. Ahmad, An analysis of energy consumption and the use of 10.1016/j.watres.2010.03.004.
+renewables for a small drinking water treatment plant, Water 12 (2019) 28, [52] W. Chen, S. Zhang, J. Rong, X. Li, H. Chen, C. He, Q. Wang, Effective biological
+https://doi.org/10.3390/w12010028. DeNOx of industrial flue gas by the mixotrophic cultivation of an oil-producing
+[44] N. Kohlheb, M. van Afferden, E. Lara, Z. Arbib, M. Conthe, C. Poitzsch, green alga Chlorella sp. C2, Environ. Sci. Technol. 50 (2016) 1620–1627, https://
+T. Marquardt, M.-Y. Becker, Assessing the life-cycle sustainability of algae and doi.org/10.1021/acs.est.5b04696.
+bacteria-based wastewater treatment systems: high-rate algae pond and sequencing [53] A.L. Gonçalves, J.C.M. Pires, M. Simo˜es, A review on the use of microalgal
+batch reactor, J. Environ. Manage. 264 (2020) 110459, https://doi.org/10.1016/j. consortia for wastewater treatment, Algal Res. 24 (2017) 403–415, https://doi.
+jenvman.2020.110459. org/10.1016/j.algal.2016.11.008.
+[45] P. Gikas, Towards energy positive wastewater treatment plants, J. Environ. [54] S.A. Razzak, M.M. Hossain, R.A. Lucky, A.S. Bassi, H. De Lasa, Integrated CO2
+Manage. 203 (2017) 621–629, https://doi.org/10.1016/j.jenvman.2016.05.061. capture, wastewater treatment and biofuel production by microalgae culturing—a
+[46] D. Niu, H. Huang, X. Dai, Y. Zhao, Greenhouse gases emissions accounting for review, Renew. Sustain. Energy Rev. 27 (2013) 622–653, https://doi.org/10.1016/
+typical sewage sludge digestion with energy utilization and residue land j.rser.2013.05.063.
+application in China, Waste Manag. 33 (2013) 123–128, https://doi.org/10.1016/ [55] S. Li, X. Li, S.-H. Ho, Microalgae as a solution of third world energy crisis for
+j.wasman.2012.06.024. biofuels production from wastewater toward carbon neutrality: an updated review,
+[47] Y. Su, Revisiting carbon, nitrogen, and phosphorus metabolisms in microalgae for Chemosphere 291 (2022) 132863, https://doi.org/10.1016/j.
+wastewater treatment, Sci. Total Environ. 762 (2021) 144590, https://doi.org/ chemosphere.2021.132863.
+10.1016/j.scitotenv.2020.144590. [56] A.H. Alami, S. Alasad, M. Ali, M. Alshamsi, Investigating algae for CO2 capture and
+[48] L. Evans, S.J. Hennige, N. Willoughby, A.J. Adeloye, M. Skroblin, T. Gutierrez, accumulation and simultaneous production of biomass for biodiesel production,
+Effect of organic carbon enrichment on the treatment efficiency of primary settled Sci. Total Environ. 759 (2021) 143529, https://doi.org/10.1016/j.
+wastewater by Chlorella vulgaris, Algal Res. 24 (2017) 368–377, https://doi.org/ scitotenv.2020.143529.
+10.1016/j.algal.2017.04.011.
+9

@@ -1,0 +1,524 @@
+--- Page 1 ---
+Environmental Research 270 (2025) 121052
+Contents lists available at ScienceDirect
+Environmental Research
+journal homepage: www.elsevier.com/locate/envres
+Comprehensive assessment, intelligent prediction, and precise mitigation
+strategies for greenhouse gas emissions in full-scale wastewater
+treatment plants
+Zitan Zhanga, Fei Qia,* , Yao Liub,**, Muhammad Bilal Asifc , Amir Ikhlaqd, Zhenbei Wanga,
+Caocao Chene , Chen Lia, Jing Changb, Qun Lib, Ye Lib, Yujie Lia, Yunhan Jiaa, Yatao Liua,
+Bingbing Xuf, Dezhi Suna
+aBeijing Key Laboratory for Source Control Technology of Water Pollution, College of Environmental Science and Engineering, Beijing Forestry University, Beijing,
+100083, PR China
+bBeijing Drainage Group Co., LTD, 100044, PR China
+cAdvanced Membranes and Porous Materials Center (AMPMC), Physical Sciences and Engineering (PSE), King Abdullah University of Science and Technology
+(KAUST), Thuwal, 23955, Saudi Arabia
+dInstitute of Environment Engineering and Research, University of Engineering and Technology, GT Road, 54890, Lahore, Punjab, Pakistan
+eScientific and Technological Program of Beijing Municipal Science and Technology Commission, 100012, PR China
+fState Key Laboratory of Environmental Criteria and Risk Assessment, Chinese Research Academy of Environmental Sciences, Beijing, 100012, PR China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater treatment plants (WWTPs) are major contributors to global anthropogenic greenhouse gas (GHG)
+Greenhouse gases emissions, with China ranks among the leading emitters. In the context of China’s "dual-carbon" journey, pre-
+Emission factors cision quantification and predictive forecasting of GHG fluxes, particularly methane (CH4) and nitrous oxide
+M Wa ac sth ei wne tl ee ra r tn rein ag (N2O)—are crucial for developing advanced mitigation strategies of WWTPs. To accurately assess GHG emis-
+a tment
+sions, this study firstly introduced customized emission factors (EFs) to precisely evaluate the GHG emissions of a
+Predictive model
+full - scale A2O - based WWTP in Beijing. This approach addressed the overestimation of emissions when using
+the IPCC’s standard EFs. Additionally, the study proposed machine learning (ML) techniques to predict GHG
+fluxes based on routine wastewater quality parameters. Specifically, Long Short-Term Memory (LSTM) and
+Random Forest (RF) models showed the strong performance in predicting CH4 and N2O emissions, respectively.
+Moreover, our findings revealed distinct spatiotemporal patterns of GHG emission: CH4 emissions peak during
+the summer solstice, while N2O emissions rise during the winter months. For the first time, this study identified
+the nitrification biofilter in the advanced treatment unit as a significant direct source of N2O emissions. Even-
+though, indirect CO2 emissions account for a dominant 57%–90% of the total GHG emissions. Scenario analyses
+revealed a strategic mitigation approach. Energy conservation emerged as the most effective measure, capable of
+reducing emissions by 23.41%, followed by heat recovery, which could cut emissions by 10.15%. In practical
+applications, improving energy efficiency is of utmost importance in real - world mitigation strategies. This
+highlights the significance of integrated approaches for achieving the sustainable development of WWTPs in the
+"dual - carbon" background.
+Nomenclature (continued)
+CO2 Carbon Dioxide COD Chemical Oxygen Demand
+WWTP Wastewater Treatment Plant DN Biofilters for Denitrification GHG Greenhouse Gas TN Total Nitrogen
+CH4 Methane CN Biofilters for Nitrification PST Primary Sedimentation Tank NH4+ - Ammonia Nitrogen
+N2O Nitrous Oxide VF V-type Sand Filter N
+(continued on next column) (continued on next page)
+* Corresponding author.
+** Corresponding author.
+E-mail address: qifei@bjfu.edu.cn(F. Qi).
+https://doi.org/10.1016/j.envres.2025.121052
+Received 21 December 2024; Received in revised form 3 February 2025; Accepted 4 February 2025
+Available online 5 February 2025
+0013-9351/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+(continued) 0.0075 kg CH4 per kg COD and 0.016 kg N2O-N per kg N (IPCC et al.,
+AnaT Anaerobic Tank NO3(cid:0) -N Nitrate Nitrogen. 2019). In a previous study, Xi et al. analyzed the calculation techniques
+(cid:0)
+AnoT Anoxic Tank NO2-N Nitrite Nitrogen utilized in IPCC 2006 and IPCC 2019, as well as operational data inte-
+OT Oxic Tank FID flame ionization detector grated methods (ODIM) to estimate CH4 and N2O emissions from 50
+SST Secondary Sedimentation Tank ECD electron capture detector
+Shanghai WWTPs (Xi et al., 2021). Their findings revealed that the IPCC,
+2019method overestimates emissions by 355% compared to ODIM. This
+is because ODIM considers significant EF variations in each treatment
+process, yielding more precise results (Xi et al., 2021). However, since
+1. Introduction these EFs are primarily derived from data collected from WWTPs in
+developed countries, they may not fully capture the unique attributes of
+The significance of limiting global warming to below 1.5 ◦C and Chinese WWTPs, such as local environmental conditions and opera-
+achieving net-zero greenhouse gas (GHG) emissions by 2050 is high- tional practices (Ramirez-Melgarejo et al., 2020). Therefore, ongoing
+lighted in the "Special Report on Global Warming of 1.5 ◦C" (Bongaarts, efforts are needed to more accurately evaluate and quantify GHG
+2019). This report states that in order to restrict global warming to emissions (e.g., CH4 and N2O emissions) from WWTPs.
+below 1.5 ◦C, global CO2 emissions originating from anthropogenic As machine learning (ML) approaches have developed and become
+sources must decrease by 45% from 2010 levels by the end of this decade more sophisticated, a wealth of research is utilizing them to predict
+(i.e., 2030) and reach net-zero emissions by 2050. Importantly, even to water quality (Yang et al., 2023a), energy consumption (Harrou et al.,
+limit global warming to below 2 ◦C, a 25% decrease in CO2 emissions by 2021; Li et al., 2021a), N2O concentration (Li et al., 2022), and carbon
+2030 is required. This would also facilitate in attaining net zero by 2070 footprint (Zhao et al., 2022) in WWTPs. Techniques such as long
+(Bongaarts, 2019). The 28th United Nations Climate Change Conference short-term memory (LSTM), random forest, artificial neural networks
+(UNCCC) in Dubai, United Arab Emirates, successfully underscored the (ANNs), and other models play a crucial role in forecasting and con-
+potential severe environmental impacts of global warming. Primary trolling parameters such as biological oxygen demand (BOD), and
+focus of UNCCC was to expedite the global shift towards a low-carbon nutrient concentration (Singh et al., 2023). Therefore, it could be
+economy, while stressing the critical need to cap global warming at implied that ML holds the potential for accurately predicting and
+1.5 ◦C above the pre-industrial levels (Guan et al., 2023). Since 2005, assessing CH4 and N2O emissions from WWTPs.
+China has consistently ranked as the world’s largest emitter of CO2, Accurate measurement of GHG emissions from WWTPs is essential to
+contributing around 30% of the global emissions in 2021 (Centre, 2022). promptly meet China’s "dual-carbon" strategy goals. This will enable the
+Against the backdrop of China’s Double-Carbon Policy, the issue of GHG development of an effective GHG emission elimination strategy
+emissions holds particular importance, encompassing not only CO2 but (Hwangbo et al., 2021; Khalil et al., 2023). Combining on-site moni-
+also methane (CH4) and nitrous oxide (N2O). toring methods with the EF approach and utilizing advanced ML pre-
+Emissions of GHGs from the wastewater treatment plants (WWTPs) diction models will guide precise forecasting of GHG emissions.
+account for 1%–2% of total anthropogenic emissions (Dai et al., 2021). Therefore, it is crucial to develop ML models that can accurately esti-
+Over the past few decades, the wastewater treatment sector in China has mate and predict both the CH4 and N2O emissions from WWTPs.
+experienced rapid expansion (Qu et al., 2019). By the end of 2022, a In this study, to gain a comprehensive understanding of total GHG
+total of 2894 WWTPs had been constructed in China, with a combined emissions from WWTPs, direct emissions of CH4 and N2O were moni-
+treatment capacity of nearly 216 million m3/d (Fu and Liu, 2022). tored through on-site measurements, identifying key locations and
+Significant progress has been made in terms of infrastructure develop- analyzing key influencing factors. Notably, while direct CO2 emissions
+ment and treatment technology innovation (Qu et al., 2019; Asif et al., from WWTPs are not covered by in IPCC guidelines, only CH4 and N2O
+2020). However, these advancements have also led to substantial GHG were monitored as direct GHGs source and indirect CO2 emissions
+emissions (Huang et al., 2023; Luo et al., 2019), primarily consisting of originating from power generation and raw materials were considered
+CH4, N2O, and CO2. The warming potential of CH4 being 28 times that of using the EF method. To address the challenges of accurately measuring
+CO2, and oxic tanks (OT) and anaerobic tanks (AnaT) are notable and detecting GHGs, machine learning (ML) models are developed for
+sources for CH4 (Wang et al., 2011a). On the other hand, N2O, with a precise predictions. The study also includes a scenario analysis to pro-
+warming potential 265 times higher than CO2 (IPCC et al., 2014), is a pose a GHG reduction strategy specifically designed for Chinese
+major concern due to its significant impact on global warming anaerobic-anoxic-oxic (AAO)-based WWTPs. The research aims to offer
+(Zaborowska et al., 2021). Through on-site monitoring, Gruber et al. a precision-guided approach for forecasting CH4 and N2O emissions by
+(2020)highlighted the significant relationship between N2O generation uncovering the complex temporal and spatial emission patterns from a
+and N2O emission and reported seasonal and daily fluctuations. Notably, representative WWTP.
+N2O emissions contribute to 75% of the total carbon footprint of WWTPs
+(Daelman et al., 2013a). On a global scale, WWTPs are responsible for 2. Materials and methods
+approximately 12% of anthropogenic CH4 emissions and 4% of
+anthropogenic N2O emissions (Li et al., 2024). As a result, significant 2.1. Features of the selected WWTP
+research efforts have recently focused on investigating and under-
+standing GHG emissions from WWTPs. While most of this research has The selected WWTP is located in Beijing (China) and covers 56 ha,
+concentrated on conventional treatment units, emissions from advanced with a daily treatment capacity and recycled water production capacity
+treatment units, which have rapidly developed in China in recent years, of 600,000 m3 each. This facility services a 223.5 km2 area and a pop-
+have been largely overlooked. ulation of 2.415 million people. The plant comprises three operational
+Common methods for tracking GHG emissions currently include on- sections: wastewater treatment, reclaimed water treatment, and sludge
+site monitoring, the emission factor (EF) approach, and mechanistic treatment. In this WWTP, wastewater treatment is carried out using the
+modeling (Duan et al., 2021; Mannina et al., 2016; Guo et al., 2019). AAO process. Our research focuses on analyzing GHG emissions from the
+While on-site monitoring is accurate in measuring direct GHG emissions, wastewater treatment section of this full-scale WWTP excluding sludge
+it is expensive, labor-intensive, with sample size limitations. These treatment. The influent and effluent concentrations of chemical oxygen
++
+methods entail both online and offline monitoring (Wang et al., 2011a; demand (COD), total nitrogen (TN), and ammonia nitrogen (NH4-N) are
+Bao et al., 2015; Yan et al., 2014). Some studies have utilized EFs esti- presented in Table S1.
+mated by the Intergovernmental Panel on Climate Change (IPCC) to
+estimate GHG emissions from urban Chinese WWTPs, with EFs of
+2
+
+--- Page 3 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+2.2. GHG sampling protocol (kg CO2⋅d(cid:0) 1); Q is wastewater flow rate (m3⋅d(cid:0) 1); Se is power con-
+sumption (kW⋅h⋅m(cid:0) 3); EF1 represent CO2 EF for power consumption (kg
+2.2.1. Sampling locations CO2⋅kW(cid:0) 1⋅h(cid:0) 1); W2CO2 is indirect CO2 emission from raw material or
+In this study, CH4 and N2O samples were collected from the main chemical consumption (kg CO2⋅d(cid:0) 1); Mchemicals is the mass of each
+treatment unit of the WWTP, including primary sedimentation tank chemical (kg); and EF2 is the CO2 EF of the chemicals (kg CO2⋅kg
+(PST), anaerobic tank (AnaT), anoxic tank (AnoT), oxic tank (OT), sec- (cid:0) 1chemicals).
+ondary sedimentation tank (SST), biofilters for denitrification (DN), According to W value, the Direct GHGs emission intensity (g CO2-eq/
+biofilters for nitrification (CN), and V-type sand filter (VF). A total of m3) can be gotten by Eq. (6).
+nine samples were collected as follows: thrice in winter (November 2021 (cid:0) / ) /
+IndirectGHGsemissionintensity gCO2(cid:0) eq m3 =(W1CO2+W2CO2) Q
+to January 2022), twice in spring (April 2022 and May 2023), twice in
+summer (July to August 2022), and twice in fall (September to October (6)
+2022). The sampling point layout is displayed in Fig. S1, while the
+number and locations of sampling points are detailed in Table S2. 2.4. Pearson correlation coefficient analysis
+2.2.2. Sampling methods and analytical methods The Pearson correlation coefficient (PCC) was utilized to assess the
+A static chamber sampling method was used to collect CH4, N2O, and pairwise correlation between GHG (CH4 and N2O) flux and water quality
+CO2 released from PST, AnaT, DN, and VF tanks of the WWTP (Bao et al., parameters, with a significance level of p <0.05.
+2016). A cylindrical stainless steel flux box with a volume of 75 L
+covering a sampling area of 0.13 m2 was used. The static chamber was 2.5. Establishment and performance evaluation of machine learning
+fixed to the wastewater surface for gas collection, with 100 mL samples models
+collected at every 10 min interval over 50 min. On the other hand, CH4
+and N2O emissions from units with aerated water surfaces, including OT One of the objectives of this study was to use machine learning to
+and CN, were collected using an air bag method as a regular method predict the flux of CH4 and N2O. Multiple linear regression (MLR),
+(Bao et al., 2016). Gas samples from the aeration zones were collected support vector regression (SVR), random forest (RF), and long short-
+with a 90 L polyethylene sample bag mounted on the inside of a term memory (LSTM) models were developed for this purpose. The
++ (cid:0)
+stainless-steel support frame. input variables included the concentrations of COD, TN, NH4-N, NO3-N,
+(cid:0)
+At the designated sampling points, dissolved oxygen (DO) and pH NO2-Nand DO and pH value. 1044 samples were collected for both CH4
+were analyzed on-site, with simultaneous collection of water samples for and N2O in total, which will be used in the establishment and perfor-
++ (cid:0) (cid:0)
+COD, TN, NH4-N, nitrate-nitrogen (NO3-N), and nitrite-nitrogen (NO2- mance evaluation of machine learning models. he dataset was randomly
+N) measurements. The concentrations of CH4 and N2O in gas samples divided into two groups for training and testing: 80% for training and
+were analyzed using a GC equipped with FID and ECD (Bao et al., 2016). 20% for testing to evaluate model performance on new data (Lu et al.,
+The limit of detection for CH4 and N2O are 200 ×10(cid:0) 9 L L(cid:0) 1 and 30 × 2022). Bayesian optimization was employed to adjust the model’s pa-
+10(cid:0) 9 L L(cid:0) 1, respectively. Detailed information on other instruments and rameters for optimal performance. To ascertain the model with the
+experimental methods is given in Table S3 and Table S4. highest predictive performance, various evaluation metrics were uti-
+lized, including mean squared error (MSE), root mean squared error
+(RMSE), coefficient of determination (R2), mean absolute error (MAE),
+2.3. GHG emission calculation procedure and residual prediction deviation (RPD). These metrics provided valu-
+able insights into the models’ explanatory capacity, accuracy in pre-
+2.3.1. Direct GHG emissions dictions, and error magnitude (Nyarko et al., 2022). To investigate the
+The GHG flux, F (g⋅m(cid:0) 2⋅min(cid:0) 1), from the liquid surface in static relative relevance and interactions of different input features in "black
+chambers was calculated by Eqs. (1) and (2)(Bao et al., 2016). box", ML models on the output variables (i.e., CH4 and N2O flux) was
+F=V/A×M×dc/dt (1) applied to pinpoint the crucial elements affecting CH4 and N2O levels.
+This study utilized Shepley Additive explanation (SHAP), an ML model
+The GHG samples collected using the air bag method can be calcu- interpreter based on game theory, to prioritize and rank these attributes
+lated by Eq. (2)(Bao et al., 2016). (Lundberg and Lee, 2017).
+F=M×c×/A (2)
+2.6. GHG emission reduction scenario from WWTP
+According to the obtained F value, the GHGs emission intensity can
+be gotten by Eq. (3). To comprehend the impact of emission reduction measures on GHG
+/
+(cid:0) / ) ∑n emissions from an AAO-based WWTP and evaluate the mitigation po-
+DirectGHGsemissionintensity gCO2(cid:0) eq m3 = α×Fi×Ai Qi tential until 2035, a baseline scenario, referred to as the business-as-
+1 usual (BAU) scenario, and six mitigation scenarios were formulated
+(3) (Yang et al., 2023b). Detailed specifics of these scenarios are delineated
+in Table S6.
+Where, i is the unit in WWTP, A is the surface area of unit and Q is the
+flow rate and α is the Global Warming Potential. 3. Results and discussion
+2.3.2. Indirect GHG emissions 3.1. Assessment of GHG emissions
+Indirect GHG emissions resulting from power consumption and raw
+materials can be determined using Eqs. (4) and (5)(Bao et al., 2016). 3.1.1. Spatial variations in GHG emission
+Accordingly, the EFs for CO2 are given in Table S5. The variations in CH4 flux among different treatment units were
+W1CO2=Q×Se×EF1 (4) significant, as illustrated in Fig. 1(a). While some studies have suggested
+that the highest CH4 emissions occur in the OT, several studies have
+W2CO2=Mchemicals×EF2 (5) reported AnaT as the primary source of CH4 (Wang et al., 2011a; Hwang
+et al., 2016; Ren et al., 2013; Zhao, 2019). Based on average values,
+where, W1CO2 is indirect CO2 emission by consuming electric resource substantial CH4 emission was observed in the samples obtained from
+3
+
+--- Page 4 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+Fig. 1. Spatial variations in CH4 and N2O flux and their intensities at the selected locations of the WWTP. (a) CH4 emission flux; (b) CH4 emission intensity; (c) N2O
+emission flux; and (d) N2O emission intensity.
+PST, OT, and AnaT. On the other hand, based on the maximum values, an intermediate product in denitrification, may potentially be emitted in
+the OT exhibited the highest CH4 emission (i.e., 363.97 g m(cid:0) 2⋅d(cid:0) 1), substantial amounts from the OT and CN. While several studies highlight
+followed by the PST with a value of 152.52 g m(cid:0) 2⋅d(cid:0) 1. Accordingly, the OT as the primary source of N2O (Hwang et al., 2016; Ren et al., 2013;
+inflow from the sewer system of this WWTP could be a significant source Zhao, 2019; Sun et al., 2013), there remains a scarcity of research on
+of CH4, due to the water retention in the pipelines that facilitates its monitoring GHG emissions from CN in full-scale WWTP. When
+formation through anaerobic processes. Moreover, three potential re- contemplating the average values, it becomes evident that the N2O flux
+action mechanisms for CH4 production under anaerobic or lacking suf- in the OT and CN surpasses that of other treatment units significantly, as
+ficient oxygen conditions are presented in in Fig. S2(Ren et al., 2022). In shown in Fig. 1 (c). The N2O flux peaks notably in the CN at 148.92 g
+sewage, CH4 is produced during the breakdown of acetic acid, and m(cid:0) 2⋅d(cid:0) 1, followed by the OT at 53.84 g m(cid:0) 2⋅d(cid:0) 1. Similarly, Fig. 1 (d)
+Methanosaeta and Methanothrix have been reported to be the primary indicates that both the OT and CN exhibit significantly higher N2O
+methanogens (Li et al., 2019). Consequently, significant amounts of CH4 emission intensities compared to other units. The maximum N2O emis-
+are released in the PST. Additionally, substantial aeration in the OT sion intensity in the OT was found to be 180.28 g CO2-eq⋅m(cid:0) 3, while the
+facilitated the release of CH4 generated during the anaerobic or anoxic samples collected from the CN had a maximum intensity of 141.17 g
+processes (Wang et al., 2011a). Since the influent into the SST originates CO2-eq⋅m(cid:0) 3. Compared to previously reported N2O emission intensities
+from the DO-saturated OT, the CH4 flux in the SST was observed to be (4.9–6.64 g CO2-eq⋅m(cid:0) 3) in the OT (Wang et al., 2011b), N2O emission
+relatively lower than in the PST and OT in this study. CH4 was not intensity in this study was up to 30 times higher. The remaining units
+produced in the SST due to the very low COD and the absence of show relatively lower N2O emission intensities, which ranged from 0.2
+anaerobic conditions. to 1.5 g CO2-eq⋅m(cid:0) 3.
+The GHG emission intensity of the treatment units was highly The discussion above reveals significant temporal variations in CH4
+correlated with the emission flux. As displayed in Fig. 1(b), PST and OT and N2O flux and intensity across treatment units compared to previous
+upheld notably high CH4 emission intensities, followed by SST, AnoT, research. Samples from PST and OT exhibited greater CH4 emission flux
+and AnaT. The PST showcased the highest CH4 emission intensity, with and intensities, while OT and CN displayed elevated N2O emission
+the values ranges from 54.54 g CO2-eq⋅m(cid:0) 3 to 1.55 g CO2-eq⋅m(cid:0) 3. On levels. Notably, this study identifies CN as one of the primary sources of
+the other hand, the OT exhibited a maximum intensity of 30.61 g CO2- N2O emissions, a novel finding rarely documented in literature.
+eq⋅m(cid:0) 3 with a minimum value of 3.32 g CO2-eq⋅m(cid:0) 3. In a study by Liu
+et al. (2014), the CH4 emission intensity in the OT ranged from 0.90 to 3.1.2. Temporal variations in GHG emission
+10.42 g CO2-eq⋅m(cid:0) 3, which is three times lower than that of this study’s The temporal variations in CH4 flux and intensity for each treatment
+results at maximum. Nonetheless, the CH4 emission intensity in the SST unit are depicted in Fig. S3. During the summer season, the PST, AnoT,
+surpassed those obtained in the samples collected from AnoT and AnaT. OT, and CN exhibited elevated CH4 flux as compared to other seasons.
+This could be attributed to larger surface area of the SST. Specifically, PST had the highest CH4 flux (0.106 g m(cid:0) 2⋅min(cid:0) 1), while
+N2O, which is produced as a byproduct of nitrification and serves as the maximum flux value in the OT samples was 0.205 g m(cid:0) 2⋅min(cid:0) 1.
+4
+
+--- Page 5 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+Fig. S3(b)indicates that the PST samples had higher emission intensity denitrification reaction. This reduces the electrons that would otherwise
+in summer, whereas AnoT had increased emissions in the spring and flow to CO2 for methanogenesis, inhibiting the methanogenesis pathway
+autumn seasons. Notably, the AnoT consistently emitted CH4, with and promoting more denitrification.
+higher emissions observed in the samples collected during summer Although previous research demonstrated a positive relationship
+months. On the other hand, OT had above-average CH4 emission in- between COD and CH4 formation, CH4 is an unavoidable byproduct of
+tensity from May to August, peaking at 30 g CO2-eq⋅m(cid:0) 3 in May. In a COD biodegradation that could not be regulated through adjustments to
+previous work, Asadi et al. (Asadi and Mcphedran, 2021) analyzed GHG the WWTP’s process operation (Ross et al., 2020). In the sewage pipe-
+emissions from a bio-digester, noting that CH4 emission intensity line, the primary strategy of CH4 elimination is to decrease the activity
+increased from 6.58 g CO2-eq⋅m(cid:0) 3 to 9.8 g CO2-eq⋅m(cid:0) 3 in summer, of CH4 producing bacteria, such as by controlling DO, pH, nitrate, ni-
+which is lower than that observed in this study. The SST had the highest trite, and iron salt concentrations, rather than converting the already
+CH4 emissions in spring and fall potentially due to increased methano- generated CH4 to benign products (Gu et al., 2023).
+genic activity prompted by rising temperatures (Watanabe et al., 2005). In this study, no clear mathematical relationship was observed be-
+Consistent with the findings of Daelman et al. (2013a), CH4 emission tween CH4 formation and water quality parameters in the case of AnaT
+intensity in thus study is higher in summer than in winter. This em- and AnoT (Figs. S5(b–c)). This observation is in-agreement with the
+phasizes the need to target summer for CH4 emission reduction. findings of a previous study (Wang et al., 2011a). In the SST (Fig. S5(d)),
+According to the results in Fig. S4(a), all treatment units exhibited CH4 flux was observed to be positively correlated with COD and nega-
+higher N2O emission flux in winter compared to other seasons. Specif- tively correlated with DO.
+ically, the OT and CN had elevated N2O emission flux, with the OT unit
+reaching a maximum value of 0.03739 g m(cid:0) 2⋅min(cid:0) 1. However, the N2O 3.2.2. N2O formation vs. water quality
+emission flux from the OT and CN notably decreased in spring and In the PST, there was a significant positive correlation between N2O
+(cid:0)
+summer seasons compared to the winter season. These observations flux and COD, NO3-N, C/N ratio, and DO, with Pearson correlation
+align well with the findings of Gruber et al. (2021) who reported a coefficients of 0.55, 0.45, 0.58, and 0.67, respectively (Fig. S6(a)). In the
+significant seasonal variation in N2O emissions, with higher levels AnaT, N2O flux was positively correlated with COD and DO (Fig. S6(b)).
+observed in the winter season. In Fig. S4(b), the seasonal N2O emission In the AnoT, N2O flux showed a significant positive correlation with
+intensity for each treatment unit is presented. In the winter season, the COD, TN, and C/N ratio (Fig. S6(d)). According to the reported literature
+OT and CN had notably higher N2O emission intensity. The reported (Massara et al., 2017), certain autotrophic ammonia-oxidizing bacterial
+N2O emission intensity in bioreactors during winter was 9.01 g strains can produce N2O during the ammonia and hydroxylamine
+CO2-eq⋅m(cid:0) 3 (Asadi and Mcphedran, 2021), which is significantly lower oxidation process (Fig. S7(a)) under low DO and high substrate con-
+than that found in this study. Nevertheless, the emission intensity from centrations. Generally, increased carbon source during denitrification is
+these units notably decreased in the spring and summer seasons. Inter- a well-known N2O mitigation strategy; however, when the carbon
+estingly, the N2O emission intensity from the OT was comparable in the source increasing did not was controlled well, it was observed that
+samples collected in May and December. This observation could be promoting biodegradation of organic compounds and subsequently
+linked to water quality parameters such as the C/N ratio, DO levels, and increasing N2O production (Kampschreur et al., 2008). N2O flux in the
+nitrite concentration. A C/N ratio of less than 2.5 may lead to limited SST was also positively correlated with COD and C/N ratio, and nega-
+electron donors, potentially causing N2O accumulation during denitri- tively correlated with DO (Fig. S6(e)).
+fication due to electron donor competition between nitrate and nitrite In the advanced stages of treatment (Figs. S6(f–h)), a positive cor-
++ (cid:0)
+(Mohan et al., 2016; Lee et al., 2019). Given the spatial and temporal relation was observed between N2O flux and COD, NH4-N, and NO2-N.
+variations, it is worth noting that the direct GHG emission measurement In the denitrification stage (Fig. S6(f)), a negative correlation was
+is crucial to validate ML models for accurate prediction in WWTPs. observed between N2O flux and DO. This study is the first to report the
+correlation between N2O flux from advanced stages of WWTP and water
+(cid:0)
+3.2. Factors influencing GHG formation quality parameters. When the NO3-N concentration was sufficiently
+high and in an anaerobic or hypoxic environment, a greater amount of
+The water quality characteristics in WWTPs are complex and chal- N2 was produced, followed by lower production of N2O as an interme-
+lenging to assess due to the large-scale operation, which is different from diate product (Butler et al., 2009). However, compared to other re-
+small-scale laboratory-based bioreactors. To study the impact of water ductases, many denitrifying bacteria show decreased activity under
+quality parameters on CH4 and N2O emissions, on-site measurements anaerobic conditions or are incapable of reducing N2O, leading to the
+were carried out at each sampling point. Pearson correlation analysis temporary accumulation of N2O (Rassamee et al., 2011). In the nitrifi-
+was utilized to examine the relationship between water quality and GHG cation stage (Fig. S6(g)), if DO was insufficient, it could lead to the
+flux, as depicted in Fig. S5 and Fig. S6. We have thoroughly elucidated production of N2O as a side reaction (Butler et al., 2009).
+influencing factor in this section below. Based on above analysis, DO is an important parameters influenced
+N2O formation, showing an impact on both nitrification and denitrifi-
+3.2.1. CH4 formation vs. water quality cation processes to change the N2O formation and emission. In the
+The absence of CH4 production in the OT, CN, DN, and VF treatment denitrification process, the denitrifying bacteria use nitrate as an elec-
+units required that they be excluded from the correlation analysis. The tron acceptor to carry out the denitrification reaction, gradually
+correlation between CH4 flux and water quality for each WWTP unit is reducing nitrate to NO, N2O, and N2. When DO is low but not completely
+illustrated in Figs. S5(a–d). The PST primarily functions to eliminate zero, the denitrification process may be interfered with to a certain
+suspended solids. Fig. S5(a) exhibited an inverse correlation between extent. In this micro - aerobic environment, denitrifying bacteria may
++ (cid:0)
+CH4 flux and concentrations of COD, TN, NH4-N, and NO3-N in the PST. preferentially use DO as an electron acceptor, thus reducing the electron
+(cid:0) (cid:0)
+This is because the presence of NO2-N and NO3-N inhibited the activity flow used to reduce nitrate. This leads to incomplete denitrification,
+of CH4 producing bacteria, thereby suppressing CH4 formation preventing N2O from being completely converted into N2, and conse-
+(cid:0)
+(Daelman et al., 2013a). The presence of NO3-N might lead to more quently increasing the production and release of N2O. During the
+denitrifying bacteria that competes with methanogens, resulted in the nitrification process, when DO is low, the nitrifying bacteria may carry
+suppressing on CH4 formation. In the normal anaerobic methanogenesis out denitrification, reducing nitrite or nitrate to N2O. In addition, DO
+process, the electron transport chain transfers electrons to final electron fluctuations may also cause changes in the metabolic pathways of the
+(cid:0)
+acceptors such as CO2, thereby producing CH4. However, when NO3-N nitrifying bacteria, enabling them to produce more N2O while con-
+(cid:0)
+is present, electrons may preferentially flow to NO3-N, initiating the ducting the nitrification reaction. Moreover, when DO is too high, the
+5
+
+--- Page 6 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+number of the denitrifying bacteria adapted to low oxygen or anoxic negative correlations between N2O emissions and influent C/N ratio (r
+environments may decrease, while some aerobic microorganisms will =0.165) were found, with significant positive correlations with influent
+multiply in large numbers. This change in the microbial community NH4+ -N (r =0.165) and effluent TN (r =0.252). Moreover, Wang et al.
+(cid:0)
+structure may affect the balance between the denitrification and nitri- (2011b)identified NO2-N as exerting a significant adverse influence on
+fication processes, thus influencing the production and release of N2O. N2O emissions.
++ (cid:0)
+When there is insufficient DO, the microorganisms may activate some The relationship between CH4 flux and COD, TN, NH4-N, and NO3-N
+(cid:0)
+genes and metabolic pathways related to anaerobic metabolism, which is positive, while the connection with NO3-N is negative. In contrast, the
+(cid:0)
+may increase the production of N2O. Conversely, when DO is excessive, correlation between N2O flux and NO3-N, C/N ratio, and DO is positive,
++
+microorganisms may engage more in aerobic metabolism, reducing the whereas association with TN and NH4-N is negative. However, the
+production of N2O. However, due to factors such as metabolic stress, the statistical significance levels for N2O flux are relatively low. In conclu-
+production of N2O may also become abnormal. sion, understanding the complex relationships between water quality
+Recognizing that water quality parameters have an impact on CH4 parameters and CH4 as well as N2O emissions in WWTPs is crucial for
+and N2O formation enables the implementation of effective measures to effective emission mitigation strategies. Nevertheless, the correlation
+reduce GHG emissions. These measures include managing DO levels, analysis alone does not fully explain the underlying causes, and there
+strategically adding carbon sources, improving TN removal efficiency, may be other important factors that are not captured by the measure-
+and optimizing the operation of wastewater treatment plants. ments. The on-site measurements and Pearson correlation analyses
+highlighted the significant influences on GHG flux. To effectively reduce
+3.2.3. CH4 and N2O emissions vs. water quality of entire WWTP greenhouse gas emissions in WWTPs, measures such as managing DO
+As shown in Fig. S8(a), the CH4 flux exhibited a positive correlation levels, optimizing carbon sources, and enhancing nitrogen removal ef-
+with COD in the WWTP, which is consistent with the expected role of ficiency can be implemented, which was reported before.
+organic matter in wastewater as a substrate for the respiration of het-
+erotrophic microorganisms, under anaerobic conditions. Furthermore, 3.3. Development and performance assessment of ML models
++
+the CH4 flux showed a significant positive correlation with TN and NH4-
+N, with correlation coefficients of 0.23 and 0.22, respectively. This could 3.3.1. Evaluation of CH4 prediction models
++
+be attributed to NH4-N competitively inhibiting methane mono- In this study, four ML models were utilized to predict the emission
+oxygenase and promoting the oxidation of CH4 by methanotrophic flux of CH4 and N2O. The performance of each model was assessed by
+bacteria (Ross et al., 2020), which will be observed in urban wastewater evaluating the training and test datasets, and the differences between
+treatment plant more frequently. Therefore, as the concentration of the models were examined. Initially, the performance of the Multiple
++
+NH4-N in wastewater increases, the methane flux may also increase. On Linear Regression (MLR) model on the test dataset for predicting CH4
+the other hand, there was a significant negative correlation between the flux was found to be disappointing, with a test dataset R2 value of only
+(cid:0) (cid:0)
+methane flux and NO3-N, with a correlation coefficient of 0.23. NO3-N 0.4401 (Fig. 2(a)). This poor outcome may have been due to the limi-
+is potentially toxic to certain methanogenic bacteria and serves as a tations of the MLR model in capturing complex nonlinear relationships,
+terminal electron acceptor, which inhibits CH4 production (Anderson as well as its sensitivity to outliers and noise in the data (Li et al., 2021b).
+et al., 2019). With regard to other factors, their impact on CH4 flux was Although the MLR model has the advantages of simplicity and fast
+not apparent, but the C/N ratio and pH value had a positive effect on computation, its predictive ability was limited when dealing with water
+(cid:0)
+CH4 emission, while NO2-N and DO have inhibitory effects on CH4 quality and flux data. This is also evident from the non-linear relation-
+production. Previously published results showed that the CH4 emission ship between water quality and CH4 flux, leading to subpar predictive
+flux was significantly (p <0.05) and negatively correlated with DO in performance. Subsequently, the Support Vector Regression (SVR) model
+the OT, with a correlation coefficient of 0.73 (Wang et al., 2011a). This produced slightly better results, with a test dataset R2 value of 0.4653
+relationship is related to the aeration rate in the aerobic tank. Consistent (Fig. 2(b)). The SVR model, which is capable of handling nonlinear
+with the findings of this work, Wang et al. (2011a)and Liu et al. (2014) problems and exhibiting good generalization ability, outperformed the
+did not find any significant (p >0.05) correlation between CH4 flux and MLR model. However, the SVR model was sensitive to hyperparameter
+(cid:0) (cid:0)
+temperature, pH, NO3-N, or NO2-N. selection and adjustment, requiring a certain level of computational
+In evaluating N2O flux and water quality across the entire WWTP complexity.
+depicted in Fig. S8, intriguing patterns emerged. The N2O flux displayed The Random Forest (RF) model showed promising performance in
+negative correlations with both TN (r =0.13) and NH4+ -N (r =0.19). predicting both water quality and flux, achieving an R2 value of 0.7723
+However, some previously studies suggested different results (Wang from the test dataset (Fig. 2(c)), which was not an ideal model for the
+et al., 2011b; Ross et al., 2020). Additionally, N2O flux showed a positive data in this study. It effectively handled high-dimensional data and
+(cid:0)
+correlation with NO3-N, potentially resulting from reduced DO during nonlinear relationships, while also maintaining robustness against out-
+nitrification reactions, which produced N2O as a byproduct (Wang et al., liers and noise (Zhu et al., 2023). However, the RF model exhibited some
+2011b). Despite some studies indicating a negative correlation between underfitting, particularly when the training dataset contained noise
+the C/N ratio and N2O flux (Yan et al., 2017), operational conditions and (Zhu et al., 2023). The Long Short-Term Memory (LSTM) model per-
+meteorological factors may alter N2O emissions. In this study, the C/N formed the best among the four models evaluated, achieving an R2 value
+ratio exhibited a noteworthy positive impact (r = 0.13). In the of 0.9042 from the test dataset (Fig. 2(d)), which result is better for the
+AAO-based WWTP, the denitrification at low C/N ratios in the influent acceptance. By utilizing LSTM model to capture long-term dependencies
+was the primary source of N2O emission, probably due the lack of in sequential data, this model demonstrated outstanding predictive
+available carbon source. On the other hand, the nitrification at high C/N performance. In addition to the R2 value, alternative evaluation metrics
+ratios in the influent significantly contributed to N2O flux (Yan et al., such as MSE, RMSE, MAE, and RPD were employed to comprehensively
+2017). Denitrification emerged as the key driver of N2O emissions in assess model performance. Smaller values of these metrics indicate
+wastewater treatment, with the low C/N ratio indicating denitrification lower prediction errors and higher accuracy, while higher RPD values
+as the chief source of N2O and the lack of available carbon might be led indicate better predictive performance in this study. According to the
+to this. Notably, low DO encouraged N2O production via denitrification MSE and RMSE values of the four models on the test dataset, the RF
+in anoxic settings. High DO hindered denitrification in AnoT and AnaT, model exhibited the smallest values (MSE: 7.46 ×10(cid:0) 6, RMSE: 0.0027),
+resulting in negligible N2O emissions (Kampschreur et al., 2008). A while the LSTM model showed acceptable values (MSE: 1.04 ×10(cid:0) 5,
+comprehensive analysis revealed a positive correlation between N2O RMSE: 0.0032) (Figs. S9(a–b)). The RF model also had the smallest MAE
+flux and DO. In the study conducted by Sun et al. (2013), significant value on the test dataset (i.e., 0.0018), indicating relatively smaller
+6
+
+--- Page 7 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+Fig. 2. Relationship between the predicted values using ML models and actual values of CH4 (a–d) and N2O (e–h) measured during on-site monitoring, where the
+blue line indicated the best fitting result between the predicted and actual values. These predictions were made by MLR (a and e); SVR (b and f); RF (c and g); and
+LSTM (d and h) models. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)
+7
+
+--- Page 8 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+absolute prediction errors (Fig. S9(d)). The LSTM model had the highest R2 value of 0.5196 on the training set, which improved to 0.7551 on the
+RPD value (3.23) on the test dataset, suggesting higher accuracy in its test set (Fig. 2(h)).
+predictions compared to the other models (Fig. S9(e)). Evaluation of the N2O flux prediction metrics indicated that the RF
+Concluding from the extensive analysis as discussed above, it can be model exhibited the lowest MSE, RMSE, and MAE values on the test
+inferred that the RF model exhibited smaller values of MSE, RMSE, and dataset, indicating minimal errors and average absolute errors (Fig. S10
+MAE on the test dataset, while the LSTM model displayed higher R2 and (a, b, and d)). Notably, the RF model achieved a remarkable RPD value
+RPD values. The LSTM model demonstrated superior fitting capability of 2.68, signifying increased accuracy in predicting the correlation be-
+and predictive accuracy, thus establishing itself as the optimal model for tween water quality parameters and N2O emission flux (Fig. S10(e)).
+predicting CH4 flux. In environmental applications, the LSTM model is Consequently, based on the aforementioned analysis, the RF model
+commonly deployed for time series prediction, such as water quality demonstrated superior performance in predicting the relationship be-
+prediction (Yang et al., 2023a; Perelman et al., 2012). This research tween water quality and N2O flux in the selected WWTP, with lower
+constituted the first instance of employing it for GHG flux prediction in RMSE, higher R2, reduced MAE, and elevated RPD values on the test
+WWTPs. This demonstrates its robust predictive performance and po- dataset. In summary, the RF model showcased superior predictive per-
+tential for CH4 flux prediction in WWTPs, thereby furnishing valuable formance and overall capability to forecast N2O emission flux effec-
+evidence for the deployment of the LSTM model in such applications. tively. It captured the variance in the target variable and demonstrated
+strong generalization ability.
+3.3.2. Evaluation of N2O prediction models
+The application of MLR and SVR models for predicting N2O flux
+3.4. Variable importance analysis for GHG prediction
+revealed suboptimal results. On examining Fig. 2(e) and (f), it became
+evident that both models did not align well with the training and test
+To examine the effect of input factors on the predicational results
+datasets, leading to poor predictive outcomes. On the other hand, the RF
+(the LSTM model predicting CH4 flux and the RF model forecasting N2O
+model displayed exceptional performance in predicting N2O flux, with
+flux), the SHAP method was employed to rank the significance of the
+impressive R2 values of 0.8366 for training data and 0.8607 for test data
+feature variables influencing the prediction outcomes (Jones et al.,
+(Fig. 2(g)). This demonstrates its ability to accurately forecast re-
+2013). In Fig. 3(a) and (b), the importance ranking of feature variables
+lationships and generalize effectively to new data. In contrast, the LSTM in the LSTM model for CH4 flux prediction was as follows: NO3(cid:0) -N >pH
+model displayed weaker overall performance compared to RF, with an > NO2(cid:0) -N > TN > COD > C/N > DO > NH4+ -N. In the SHAP value
+Fig. 3. The variable importance analysis (a and c); and the SHAP summary explanation plots (b and d) of the best performing ML models to predict CH4 and
+N2O emissions.
+8
+
+--- Page 9 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+(cid:0) (cid:0)
+analysis, NO3-N, NO2-N, TN, and COD had a negative impact on CH4 direct influence of input factors on greenhouse gas (GHG) emissions
++
+flux, while pH, C/N ratio, DO, and NH4-N had a positive effect. In Fig. 3 (Ross et al., 2020), as was discussed in Section 3.2.
+(c), among the eight input features, DO demonstrated the most signifi-
+cant influence on predicting N2O flux in the RF model, followed by TN, 3.5. Direct and indirect GHG emissions
+(cid:0)
+pH, and NO2-N. The SHAP analysis revealed an initial negative impact
+of DO on N2O flux, which transitioned to a positive influence (Fig. 3(d)). 3.5.1. Direct GHG emissions based on-site monitoring
+(cid:0)
+TN, pH, and NO2-N displayed adverse effects. The direct GHG emissions from its units are illustrated in Fig. 4,
+The SHAP output results in this study contradicted the conclusion based on the comprehensive operation of the WWTP. It is to be noted
+shown in Section 3.2 obtained from Pearson correlation coefficients that these results are based on the on-site monitoring campaigns. The
+analysis, and differed from previous on-site investigation and mecha- significant contributions of CH4 and N2O emissions from the OT in direct
+nistic studies. Considering the simultaneous variation of numerous GHG emissions can be observed throughout the year in Fig. 4(a and b).
+variables, it is highly probable that no definite conclusions can be Notably, in the PST, higher direct GHG emissions were recorded in July
+reached. There are a multitude of underlying factors that have not been and August, while significant emissions were noted in CN during the
+considered, and herein, only correlations can be identified, rather than months of January, November, and December. Hence, the OT, PST, and
+causal relationships. This outcome merely reflects the impact of input CN are critical areas for mitigating emissions in the WWTP. By means of
+factors on the prediction results, presented as a black - box mathematical various on-site measurements, it was determined that the secondary
+output of the machine learning (ML) method. It indicates that there is no biochemical treatment significantly contributes to GHG emissions year-
+Fig. 4. Contribution of different sources to direct and indirect GHG emissions. (a) Contribution of different treatment units to direct GHG emissions; (b) The
+proportion of GHG emissions of each treatment unit; (c) Contribution of different process stages to direct GHG emissions; (d) The proportion of GHG emissions in
+different process stages; (e) The various sources of indirect greenhouse gas emissions depending on sampling time; and (f) The proportion of power and chemical to
+indirect GHG emissions.
+9
+
+--- Page 10 ---
+Z. Zhang et al. E n v i r o n m e n t a l R e s e a r c h 270 (2025) 121052
+round, which can be addressed by optimizing aeration rates, operating Water temperature plays a pivotal role in CH4 solubility, with higher
+facilities, and strategies in the OT. temperatures reducing its solubility, which results in increased emis-
+Furthermore, focusing on CH4 emissions during the summer, espe- sions of CH4. Additionally, oxygen transfer in the OT significantly boosts
+cially in the primary treatment stage, is essential. N2O emissions in the CH4 emissions. During winter, low temperatures impede the activity of
+advanced treatment stage can be controlled effectively during spring nitrite-reducing bacteria, hindering the denitrification processes, ulti-
+and winter (Fig. 4(c and d)). To achieve this goal, strict control over DO mately leading to the release of N2O as a byproduct (Zhang et al., 2012).
+is necessary during the denitrification process (David et al., 1987). In When it comes to indirect CO2 emissions from power consumption, they
+conclusion, the optimization of operations in the OT, PST, and CN is vital are substantial. To mitigate CO2 emissions, it is essential to enhance
+for reducing GHG emissions in the selected WWTP. These findings can energy efficiency through the use of high-efficiency gas transfer systems
+guide the development of targeted mitigation strategies and the imple- or improved aeration equipment design (Parravicini et al., 2022).
+mentation of measures to minimize the environmental and climatic Conversely, as expected, indirect CO2 emissions from chemical con-
+impact of WWTPs. sumption are notably lower than those from power consumption.
+As illustrated in Fig. 5(b), the direct emission intensity does not differ
+3.5.2. Indirect CO2 emissions based on IPCC method significantly from that of the oxidation ditch and sequencing batch re-
+Indirect CO2 emissions are a significant concern in the operation actors (SBR) processes. However, the indirect emission intensity in this
+process of a WWTP (Papen, 1989). The primary contributing factor to study surpasses that of the AAO-based WWTPs in other studies, as well
+these emissions is power consumption, specifically the power required as outstrips the emission intensity of the oxidation ditch and SBR
+by sewage lift pumping stations, aerators, and other equipment that process.
+consume substantial amounts of electricity (Gu et al., 2016). This leads
+to a high percentage of CO2 production in WWTPs. In addition to power 3.6. Development of localized EFs
+consumption, chemicals, such as methanol, polyaluminum chloride, and
+sodium acetate, used in WWTPs are also primary sources of CO2 emis- Fig. 6(a) displays the CH4 emission factor (EFCH4) based on the
+sions (Gu et al., 2016). As illustrated in Fig. 4(e and f), the contribution influent COD concentration. After long-term monitoring, the average
+of power consumption to indirect CO2 emissions ranges from 85% to EFCH4 for the selected AAO-based WWTP was determined to be 0.00414
+98% in different time periods. A study by Chai et al. (2015) further kg CH4⋅kg(cid:0) 1 COD. It is worth noting that the value of EFCH4 estimated by
+highlighted that CO2 emissions from power consumption account for China’s National Development and Reform Commission (NDRC) is
+85%–99% of the total indirect emissions. CO2 emissions from the con- relatively high (NDRC, 2011). This may result in significant deviations
+sumption of chemicals contribute to a smaller proportion of indirect in actual calculations. The IPCC-recommended EFCH4 stands at 0.0075
+emissions, ranging from 2% to 15% in this study. It is noteworthy that kg CH4⋅kg(cid:0) 1 COD (IPCC et al., 2019), which is slightly higher than that
+polyaluminum chloride and sodium acetate significantly contribute to observed for the selected WWTP. Results of this study align closely with
+indirect CO2 emissions (Fig. 4(e and f)). Therefore, it is crucial and the average EFs of existing WWTP studies (Fig. 6(a)), further confirming
+necessary to optimize all chemical dosing and select more environ- its reliability and accuracy.
+mentally friendly chemicals to minimize the generation of GHGs (Gu Fig. 6(b) illustrates the N2O emission factor (EFN2O) based on the
+et al., 2016). influent TN concentration. EFN2O peaks in winter, being roughly 3 to13
+times higher than in summer and about 90 times higher than in spring.
+3.5.3. Contributions of direct and indirect GHG emissions The lowest EFN2O is observed in spring, revealing distinctive seasonal
+This study aims to thoroughly evaluate GHG emissions within patterns. The average EFN2O in this study was 0.00537 kg N2O⋅kg(cid:0) 1 TN,
+defined limits by examining the contributions of both direct and indirect slightly below the average values reported in literature (i.e., 0.0086 kg
+emissions to the overall total, as depicted in Fig. 5(a). We uncovered that N2O⋅kg(cid:0) 1 TN). The EFN2O value recommended by the IPCC et al., 2019
+direct N2O emissions surpassed the direct CH4 emissions in autumn and stands at 0.016 kg N2O⋅kg(cid:0) 1 TN (IPCC et al., 2019). Therefore, applying
+winter season. N2O emissions constituted 2.89%–44.71% of the overall the IPCC’s EF directly for calculations may lead to overestimations of
+output, reaching its peak at 1.8 ×105 kg CO2-eq⋅d(cid:0) 1 in winter. There- CH4 and N2O emissions.
+fore, winter emerges as a critical period for GHG reduction, which is in- Due to the variations in EFs, the resulting GHG emissions will fluc-
+agreement with the findings of Daelman et al. (2013a). In July, CH4 tuate significantly and cannot directly guide the low-carbon operation of
+emissions exceeded N2O emissions, ranging from 10.14% to 21.37%, WWTPs. The IPCC suggested EFs is more useful to assess the GHG
+with levels attaining 4.8 ×104 to 5.3 ×104 kg CO2-eq⋅d(cid:0) 1 in summer. emissions at the scale of the total industry, or the specific region. The
+Fig. 5. The cumulative emissions of GHGs in the selected WWTP including both direct and indirect emissions (a); and the intensity of GHG emissions obtained in this
+study vs. the published literature (b). Data from 10 previously published studies was collected, which include 32 points for the AAO process, 12 points for the DO
+process, and 5 points for the SBR process (Wang et al., 2011a; Xi et al., 2021; Sun et al., 2013; Asadi and Mcphedran, 2021; Chang et al., 2017; Daelman et al., 2013b;
+Masuda et al., 2015; Feng, 2019; Li et al., 2013, 2017).).
+10

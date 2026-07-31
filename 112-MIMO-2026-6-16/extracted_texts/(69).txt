@@ -1,0 +1,428 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment924(2024)171637
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Modeling greenhouse gas emissions from biological wastewater treatment
+process with experimental verification: A case study of paper mill
+Jiahui Hana,1, Yin Liua,1, Wenqing Lia, Feini Huanga, Wenhao Shena,*, Tianlong Liub,
+Jean-Pierre Corriouc, Panagiotis Seferlisd
+aState Key Laboratory of Pulp & Paper Engineering, South China University of Technology, Guangzhou 510640, PR China
+bDepartment of Chemical and Biochemical Engineering, Western University, London, ON N6A 3K7, Canada
+cLaboratoire R´eactions et G´enie des Proc´ed´es, UMR 7274-CNRS, Lorraine University, ENSIC, 1, rue Grandville BP 20451, 54001 Nancy Cedex, France
+dDepartment of Mechanical Engineering, Aristotle University of Thessaloniki, PO Box 484, Thessaloniki 54124, Greece
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•Develop on-site and off-site GHG emis-
+sion calculation models for paper-
+making WWTP.
+•Validate GHG calculation model by
+GHG experimental model with GC
+analysis method.
+•Accuracies of calculated CO2 and N2O
+from papermaking WWTP were 94.6 %
+and 91.1 %.
+•Compare the on/off-site GHG emissions
+from industry wastewater and domestic
+sewage.
+•Calculate the contributions of various
+GHG emission sources to total GHG
+emission.
+A R T I C L E I N F O A B S T R A C T
+Editor: Huu Hao Ngo Wastewater treatment plants (WWTPs) have been regarded as the main sources of greenhouse gas (GHG)
+emissions. This study compares the influent characteristics of industrial wastewater represented by the WWTP of
+Keywords: paper mill and that of domestic sewage represented by the Benchmark Simulation Model No. 1 (BSM1) under
+GHG calculation model stormy weather. The various sources of GHG emissions from the two processes are calculated, and the contri-
+Papermaking wastewater
+bution of each source to the total GHG emissions is assessed. Firstly, based on the mass balance analysis and the
+GHG emission source
+recognized emission factors, a GHG emission calculation model was established for the on-site and off-site GHG
+GHG experimental model
+emission sources from the WWTP of paper mill. Simultaneously, a GHG emission experimental model was
+established by determining the dissolved concentrations of carbon dioxide (CO2) and nitrous oxide (N2O) in the
+papermaking wastewater, to verify the accuracy of the developed GHG calculation model. Subsequently, an
+optimum aeration rate for the paper mill was investigated to comply with the discharging norms. Under the
+h(cid:0)1,
+optimum aeration rate of 10 the obtained calculation accuracies of CO2 and N2O emissions were 94.6 % and
+CO2-eq⋅h(cid:0)1,
+91.1 %, respectively. The mean total GHG emission in the WWTP of paper mill was 550 kg of which
+44.6 % came from the on-site emission sources and 55.4 % from the off-site emission sources. It was also
+* Corresponding author.
+E-mail address: ppwhshen@scut.edu.cn (W. Shen).
+1 These authors contributed equally to this manuscript.
+https://doi.org/10.1016/j.scitotenv.2024.171637
+Received 5 November 2023; Received in revised form 3 February 2024; Accepted 9 March 2024
+Availableonline11March2024
+0048-9697/©2024ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+uncovered that the electrical consumption for aeration was the largest contributor to the total GHG emissions
+with a proportion of 25.2 %, revealing that the control strategy of the aeration rate is highly significant in
+reducing GHG emissions in WWTP of paper mills.
+Abbreviations Pi Partial pressure of component i (Pa)
+Q Flow rate of wastewater (m3⋅h(cid:0) 1)
+ΔBOD Variation of BOD in pollutants degradation (g⋅m(cid:0) 3) QA Flow rate of gas (m3⋅h(cid:0) 1)
+ΔNH Ammonia nitrogen removal in biochemical treatment qEC Flow rate of external carbon (g⋅m(cid:0) 3)
+process (g⋅m(cid:0) 3) Qin Flow rate of influent wastewater (m3⋅h(cid:0) 1)
+(cid:0) ARΔ S R Aa reti ao oo ff rs eo al cu tt ii oo nn te an nt kr o (p my )c hange to ideal gas constant (K) Q Qo Wu t F Wlo aw ar ga ete o of e f rfl au tee n (mt w 3⋅a hs (cid:0)t 1e )w ater (m3⋅h(cid:0) 1)
+2 st fl w
+AE Aeration energy (kwh) ri reaction rate of variable i (g⋅m(cid:0) 3⋅s(cid:0) 1)
+BODin BOD value of influent wastewater (g⋅m(cid:0) 3) R Constant of ideal gas (kPa L mol(cid:0) 1⋅K(cid:0) 1)
+B BBO OOD DDo pu roit edB dO BD v Da l ou pxe do dif ee cdf ifl cu e mmnt cw oa bes it ae lw cga e⋅t le lsr (( gg ⋅⋅ mm(cid:0) 3 3) r SSN 2 OO N Soi2 lO be lvm i ids ns eCio tn r rca got ae ci ien o mtrx aaic eta n ((k ⋅( mgm (cid:0)mg )(cid:0)N 32 )O -N⋅m(cid:0) 3)
+o x d da ut ce BO D ri z go ip l re t l y ( m (cid:0) 3 ) C 2 D s uso l ee rO 2 n cn tt ti o rn gm ⋅
+O o u n (cid:0) ) I o n 3
+c ci n VV aa rr ii aa bb ll ee cc oo nn cc ee nn tt rr aa tt ii oo nn oat f t inh fle uc eu nrr t e wn at st ti em we a ter (g⋅m(cid:0) 3) SSN N2 DO D Sois luso bl lv ee bd i oN d2 eO g rc ao dn ac be ln et r oa rt gi ao nn i c(m ng it⋅ rm og(cid:0) e3 n) (g⋅m(cid:0) 3)
+C CCC O OOO2 2 2B d Ve iO Stn SD ii ,ft d, irr ci ee f cm i tc aiao yotv nia ol n OC C OO 2O 2 2 rp p or or do o ud d cu u tc ic oit t oi i no o n n rf ofr or mo o mm m B d dtO e on iD gfii t cr r nae i ofi tm uc oo sa v t ia po el rn op cpr yeo r so pc se c os e (s cs s e( k s( skg (cid:0)⋅ g (h k⋅ )h(cid:0) (cid:0)1 ⋅h) 1 (cid:0)) S SSSN N H O A N Sam ii st tr usm a rt alo e tn ia oi da n d n xi n at yr i lgo t ur eg ei nte se n gn f( ⋅ig dmt⋅ r im o s(cid:0) sg 3(cid:0) o)e3 n) e( dg ⋅ om x(cid:0) y3 g)
+2 n r a CC 2 p p r d u c t n f f r e n n i r e i n d c a r k g ⋅ h 1 g 1) O s Oa t D o v e n o v ( o l v e n (8 g⋅m(cid:0) 3)
+CODEC C exo tn ec re nn at r ca ati ro bn no f ore ua rd ceil y b ⋅mio (cid:0)d 3e )g radable substrate in the S SSR T RSl eu ad dg ie R be it oe dn et gio rn T ai bm lee s( uh b)
+l o s (g ly ad strate (g⋅m(cid:0) 3)
+cout Variable concentration of effluent wastewater (g⋅m(cid:0) 3) SS Suspended solids (g⋅m(cid:0) 3)
+DL Reactor depth of original laboratory (m) t Time (s)
+D ECR R Coea nc st uo mr pd te ip ot nh o f p xa tep re nr am a ck ai rn bg nW sW ouT rP e( m (k) TT Nθ S Tt oa tn ad a nr id ote gm enp e (r ga ⋅mtu (cid:0)re ( 298.15 K)
+o f e l o c g ⋅h(cid:0) 1) l tr 3)
+E EF Fc G GH HG e em mi is ss si io on f fa ac ct to or o of E elC c( t1 r. i5 ca4 k cg nC sO u2 m-e pq t⋅ ik og n(cid:0) (1 0) T TN Ni on T To ot ta al n ni it tr ro og ge en o of i en fflfl uu ee nn tt ww aa ss tt ee ww aa tt ee rr (( gg ⋅⋅ mm (cid:0)(cid:0) 33 ))
+e G n r f e l o . 8959 u t l n f
+kg⋅kwh(cid:0) 1) TP Temperature of wastewater treatment process (293.15 K)
+GWPCH4 Global warming potential of CH4 vg Flow rate of gas on reactor surface (m⋅s(cid:0) 1)
+G HW PN2O G Hl eo nb ra yl w La ar wm cin og sp to at ne tn oti fa cl oo mf pN o2 nO n(2 9 8 (2) v Vi j S Vt oo li uc mhi eo m ofe etr ai cc c o ree affi ctc ii oe nn t ao nf kv a (mria 3)b le i in the jth reaction
+i 's n e t i 88.15 K, kPa) h t
+HRT Hydraulic retention time (h) VR Volume of reactor (m3)
+i Variable i in process model x Mole fraction of component i (%)
+j the jth reaction in process model XBA Active autotrophic biomass (g⋅m(cid:0) 3)
+kH Henry coefficient of N2O (mol⋅L(cid:0) 1⋅bar(cid:0) 1) XBH Active heterotrophic biomass (g⋅m(cid:0) 3)
+(k 2θ H K,H men or l⋅y (cid:0)co 1⋅e bf afi rc (cid:0)ie 1n t of N2O at standard temperature X Xe O Par rg ta icn uis lm ec o inn ec re tn otr ra gt ai no in o mf ae tf tfl eu e (n gt w (cid:0)a 3s )t ewater (g⋅m(cid:0) 3)
+9 8.15 L ) I at c r ⋅m
+K K ML L La a V, ,N N S2 2O O , 293.1N M52 K iO Nm 2a lO it qe umri oa a rl t e vt rr oia la an l s itf lre ear n sc uso f see prf fi c nc o di ee efn dfit c s( i oh e ln(cid:0) idt1 ) ( 2 kg9 ⋅3 m.1 (cid:0)5 )K , h(cid:0) 1) X XXN P D P P Pa a ror rt t di i uc cu u ctl l ia a ot t ne e b p oi r fo o md de u icg c rr t oa s d a ia r ab i ls l i ce n o g r sfg r (a o gn m ⋅i mc b (cid:0)n i 3oi )t mr o ag se sn d ( eg c⋅ am y (cid:0) (3 g) ⋅ m(cid:0) 3)
+S xe d t e ( 3 pr o duced b e ll
+n Number of sets of the verification data XS Slowly biodegradable substrate (g⋅m(cid:0) 3)
+N Number of reactors Xsludge Decay amounts of microbial cells (g⋅m(cid:0) 3)
+NN H2O ine mission AmN m2O ne im i nss itio ron gs ( nk g v⋅ ah l(cid:0) u1 e) XVSS,decay mO ir cg ra on bi ic lc a cr eb llo sn kin g⋅v ho (cid:0)lv 1)e d in endogenous decay in
+o a e of influent wastewater (g⋅m(cid:0) 3) a (
+NHnitrification Ammonia nitrogen used in nitrification (g⋅m(cid:0) 3) yi Gas percentage of component i
+NN HHo pu rot ducedAm Amm mon oi na an i ntr io trg oe gn nv a plu roe o uf e inffl u men ict w oba is at le w cea llt se r g( ⋅g m⋅m (cid:0)(cid:0) 3)3 ) y Ym obo sd el,i G OH bsG re vm edis s pi ro on ds b ca tis oe nd o on mth ie rc oa blc iau ll a ct ei lo lsn (m o Vd Se Sl ⋅o gf (cid:0) t 1h Be Oith s )e t
+i e d c g r ( e u f c g D
+Pθ Barometric pressure (102.2 kPa) yrealplant,i GHG emissions based on real plant of the ith set
+PE Electricity energy consumed by pumping (kwh) ρ j Process rate expression of the jth reaction
+intricate nature of organic pollutants, and their poor biodegradability, a
+series of physical, chemical, and biological treatment processes are
+employed to eliminate these pollutants from industrial wastewater, in
+1. Introduction
+turn resulting in the generation of GHGs. According to the latest report
+from the Intergovernmental Panel on Climate Change (IPCC), GHG
+With the increase in industrial water consumption and wastewater
+concentrations have increased continuously, the atmospheric CO2 con-
+treatment facilities, industrial wastewater treatment plants (WWTPs)
+centration of 410 ppm, methane (CH4) concentration of 1866 ppb, and
+have been regarded as one of the main sources of anthropogenic
+N2O concentration of 332 ppb were reported in 2019 (IPCC, 2023). The
+greenhouse gas (GHG) emissions. Due to the abundant presence and
+2
+
+--- Page 3 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+accumulation of GHGs in the atmosphere is a primary driver of climate reactions, Bridle et al. (2008) presented a simple GHG emission model of
+change and global warming. Under the general consciousness of climate WWTP including five segments (biotreatment, sludge treatment,
+change mitigation, the 2015 Paris Agreement was established and chemical usage, power consumption, and biogas production), and
+committed to limiting the increase of global temperature within 2 ◦C explained the importance of plant-wide modeling by identifying the
+above pre-industrial levels, and ideally striving for a more ambitious main influencing factors of GHG emissions. Hiatt and Grady Jr. (2008)
+target of limiting it to 1.5 ◦C. Due to the increasingly strict national extended the ASM model to the Activated Sludge Model for Nitrogen
+environmental policies on the mitigation of GHG emissions, the esti- (ASMN). The original one-step nitrification and one-step denitrification
+mation and reduction of GHG emissions have become the frontier in this processes were extended to two-step nitrification and four-step denitri-
+research area. fication processes. By introducing Hiatt and Grady's research into
+Statistically, wastewater treatment process contributes 1.3 % of the Benchmark Simulation Model No. 2 (BSM2), Snip (2009) calculated
+global GHG emissions (Hannah, 2020). The papermaking industry is one GHG emissions in the wastewater treatment process and compared the
+of the main contributors to industrial wastewater. It was reported that simulation results with those with the Bridle model. The comparison
+the discharges of chemical oxygen demand (COD) and ammonia nitro- demonstrated that the Bridle model exhibits practical feasibility and can
+gen (NH) from Chinese papermaking industry were 52,803 tons and be used for real-time GHG emission monitoring in industrial
+1435 tons respectively in the year of 2021, accounting for 14.0 % and applications.
+9.1 % of the total national industrial COD and NH discharges (Hu and The increasing attention has been directed towards plant-wide
+Sun, 2022). Papermaking wastewater is commonly treated using a modeling approaches which include liquid, solid, and gas emissions.
+multi-stage comprehensive treatment approach, in which activated At this scale, the prospect of real-time GHG calculation becomes
+sludge treatment is the most widely employed method. The GHGs from attainable by incorporating GHG emission estimation techniques with
+the activated sludge wastewater treatment process are classified as on- plant-wide modeling. Moreover, Benchmark Simulation Model No. 2
+site and off-site emissions (Bani Shahabadi et al., 2009; Monteith Gas (BSM2G) was developed to assess control strategies and address
+et al., 2005; Wei et al., 2008). The on-site emissions, tied to the pro- effluent quality, operational costs, and GHG emissions (Flores-Alsina
+duction process, refer to the GHGs directly generated from the biological et al., 2011). However, due to the substantial computational demands
+degradation of organic pollutants in wastewater. In contrast, the off-site and the requirement for extensive real-time monitoring instrumenta-
+emissions are associated with the overall plant operations and arise from tion, it is not practical to implement BSM2 in the actual papermaking
+multiple factors, such as the consumption of electrical and thermal en- wastewater process. Moreover, the phosphorus removal process, as
+ergy, the production and transportation of chemicals and fuels, as well considered in the BSM2G model, may have limited relevance in the
+as the disposal of sludge (Bani Shahabadi et al., 2009). context of papermaking wastewater treatment, due to the typically low
+Many efforts have been made to identify the sources and estimate the phosphorus content in such effluents (Ekholm et al., 2007; Pokhrel and
+amount of GHG emissions from WWTPs. Currently, the estimation of Viraraghavan, 2004).
+GHGs from the wastewater treatment process is predominantly based on In this study, to study the GHG emission sources from papermaking
+the 2006 IPCC Guidelines for National GHG Inventories. The carbon WWTP and evaluate their contributions to the total GHG emission, based
+accounting method recommended by IPCC, which relies on emission on the recognized BSM1 and the reported Bridle model, a comprehen-
+factors and activity data, has been widely adopted due to its straight- sive GHG emission calculation model for the papermaking wastewater
+forward model and convenient computational approach (Gupta and treatment process was established, encompassing on-site and off-site
+Singh, 2015; Kristanto et al., 2020; Nayeb et al., 2019; Nguyen et al., GHG emissions. Firstly, the WWTP in an existing paper mill (repre-
+2019). However, the important on-site CO2 emissions are excluded by senting industrial wastewater) was investigated, and the collected field
+IPCC Guidelines due to their biogenic nature and are not included in data from its online distributed control system equipped in WWTP were
+national total emissions (IPCC, 2019). Practically, the sources of organic characterized and compared with those from the BSM1 (representing
+carbons in papermaking wastewater are not unique. The fossil organic domestic sewage) under storm weather. Subsequently, a GHG emission
+carbons, such as residual cooking aids, bleaching agents, and fillers in calculation model was established for the on-site and off-site GHG
+pulp and paper production, are also the main sources of organic carbons emission sources. Simultaneously, a GHG emission experimental model
+in wastewater, thus the CO2 emissions generated from the degradation was established by determining the dissolved concentrations of CO2 and
+of these organic carbons should be considered (Bao et al., 2014; Buja- N2O in the papermaking wastewater with gas chromatography (GC)
+novic et al., 2010; Odabas et al., 2016; Pokhrel and Viraraghavan, method, to verify the accuracy of the developed GHG calculation model.
+2004). Furthermore, the recognized IPCC emission factors are affected Moreover, an optimum aeration rate for the paper mill was investigated
+by many elements, such as wastewater characteristics, treatment pro- and determined to ensure compliance with the discharging norms. Ul-
+cesses, and operation conditions, etc. (Noyola et al., 2018; Paredes et al., timately, to investigate the impact of different wastewater on GHG
+2015; Vasilaki et al., 2019). Therefore, the method using the IPCC emissions, under the optimum aeration rate, the GHG emissions from
+emission factor has been mainly applied to large-scale GHG calculation various sources in WWTP of paper mill calculated by the calculation
+and is not suitable to provide accurate GHG estimations for a specific model were evaluated. Besides, considering the different types of
+WWTP. wastewater, the calculated GHG emissions were compared with those
+Regarding the aforementioned problems, a method for estimating calculated by BSM1. This study provides critical insights by assessing the
+GHG emissions in the wastewater treatment process based on activated GHG emissions sources from papermaking WWTPs and evaluating their
+sludge model and mass balance was presented (Flores-Alsina et al., contributions to the total GHG emissions, and finally identifies the key
+2014; Flores-Alsina et al., 2011; Snip, 2009). Considering the complex efforts for targeted GHG reduction.
+and non-linear nature of the wastewater treatment process, the Inter-
+national Water Association (IWA) has investigated the reaction mecha- 2. Case Study
+nism of biological wastewater treatment process and developed the
+Activated Sludge Model No. 1 (ASM1) (Henze et al., 1987). ASM1 pro- 2.1. Anoxic/oxic process of papermaking WWTP
+vides essential kinetic parameters and stoichiometric coefficients rele-
+vant to the microbial degradation of pollutants. Furthermore, it has In this study, the wastewater collected within the activated sludge
+engendered a series of ASM models (ASM2, ASM2D, and ASM3) for treatment section originates from diverse sources, including the deink-
+different wastewater treatment aspects, aligned with the intricate ing processes, papermaking process, and domestic wastewater of a
+mechanisms of wastewater treatment reactions. Based on the recognized newsprint paper mill. The roadmap of papermaking wastewater treated
+ASM1 framework and the mass balance governing biological treatment by the traditional activated sludge process of anoxic/oxic (A/O) process
+3
+
+--- Page 4 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+is shown in S1 of Supplementary Information (SI). During the contam- during the second week, and the stormy weather data contains one week
+inant degradation in the anoxic and oxic process, the readily degradable of dynamic dry weather influent data and two storm events super-
+substances in papermaking wastewater were converted into GHGs and imposed on the dry weather data during the second week (Alex et al.,
+volatile gases subsequently released into the atmosphere. Meanwhile, 2008). The BSM1 data from stormy weather is more variable than data
+the recalcitrant components proceed to the settler along with the acti- from dry and rainy weather, it was employed in this study to compare
+vated sludge. with wastewater data from the papermaking WWTP. The averaged
+influent flow rates and pollutant concentrations from papermaking
+WWTP and BSM1 (Huang et al., 2020) are shown in Table 1.
+2.2. Characteristics of influent wastewater
+Table 1 indicates several noticeable observations: (1) The influent
+flow rate of papermaking WWTP is relatively higher than that of BSM1
+2.2.1. Influent characteristics of papermaking wastewater
+WWTP. This disparity is attributed to the substantial water consumption
+The field data of wastewater in this study was obtained from a paper
+by the paper mill. (2) The COD and SS concentrations of papermaking
+mill and were continuously collected from its online distributed control
+wastewater are approximately 2 times higher than those of BSM1
+system equipped in WWTP. The influent data of papermaking WWTP
+wastewater, due to the considerable presence of fiber fines within the
+includes flow rate (Q), COD, biochemical oxygen demand (BOD), sus-
+papermaking wastewater. (3) In contrast, the NH concentration of
+pended solids (SS), NH, and total nitrogen (TN). 140 sets of consecutive
+papermaking WWTP is much lower than that of BSM1 WWTP. This
+data were collected with a sampling rate of 1 set per hour, as shown in
+distinction can be attributed to the fact that BSM1 wastewater is pri-
+Fig. 1. The flow rate of the influent evidently exhibits pronounced
+fluctuations, varying irregularly from 221.7 m3⋅h(cid:0) 1 to 1495.3 m3⋅h(cid:0) 1. m nua tr ri il ey td co om me ps oti nc nw tsa (s Mtew ora ´et ee r a an l.d 20co 1n 3t ;a Rin os a s au l.b s 2t 0an 2t 1i )a .l (4a )m To hu en Bt Oo Df
+n e e t , u t e t ,
+And the variation of the flow rate in adjacent moments reaches up to
+1015.3 m3⋅h(cid:0) 1, which brings great disturbance to the wastewater and TN concentrations exhibit minimal differences between the two
+types of wastewater. In summary, the BOD/COD ratio of papermaking
+treatment system. The influent COD concentration also presents an
+wastewater is much lower than that of BSM1 wastewater, which ex-
+irregular pattern, with a wide variation range and an average value of
+608.4 g⋅m(cid:0) 3. The influent BOD and SS mirror the trend of influent COD, plains the poor biodegradability of papermaking wastewater.
+with average values of 168.1 g⋅m(cid:0) 3 and 363.6 g⋅m(cid:0) 3, respectively. The
+3. Methodologies
+concentrations of NH and TN in the influent are relatively low, with
+average concentrations of 17.10 g⋅m(cid:0) 3 and 48.50 g⋅m(cid:0) 3, respectively.
+In this study, the activated sludge stage of A/O process wastewater
+treatment was simulated based on ASM1. Firstly, the COD and TN from
+2.2.2. Comparison of wastewater characteristics between BSM1 and
+the field wastewater data of the paper mill were transformed into seven
+papermaking WWTPs
+variables (SI, SS, XI, XS, SNO, SND, XND) to agree with the influent variable
+Three standard sets of wastewater data (dry, rain and storm weather
+setting of the ASM1. Secondly, influent data were used as inputs for
+data) were derived from literature and used as the standardized waste-
+ASM1 model to calculate the on-site and off-site GHG emissions based on
+water data for BSM1 to simulate the operation state of the WWTP model
+the GHG emission calculation model established in Section 3.1.2. The
+under different weather conditions (Vanhooren and Nguyen, 1996). The
+collected water samples of the paper mill were pretreated according to
+data is later noted as “BSM1 data”. BSM1 data from dry weather contains
+the described methods in S4 of SI, the concentrations of dissolved CO2
+two weeks of dynamic dry weather influent data, rainy weather data
+and N2O in the water samples were measured by GC, and the CO2 and
+contains one week of dynamic dry weather data and a long rain event
+Fig. 1. The 140 sets of influent data from the A/O process of the papermaking WWTP (The dotted lines are the average values of influent).
+4
+
+--- Page 5 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+Table 1
+The comparison of wastewater characteristics between papermaking WWTP and BSM1 (Huang et al., 2020).
+WWTP Wastewater characteristics
+Q COD BOD SS NH TN
+(m3⋅h(cid:0)1) (g⋅m(cid:0)3) (g⋅m(cid:0)3) (g⋅m(cid:0)3) (g⋅m(cid:0)3) (g⋅m(cid:0)3)
+Papermaking WWTP 985.4 608.4 168.1 363.3 17.1 48.5
+BSM1 (Storm) (Domestic sewage) 816.3 353.5 179.9 195.8 29.3 50.3
+N2O emissions were calculated by the experimental model established in 3.1.2. GHG emission calculation model for papermaking wastewater
+Section 3.2.2. Finally, the on-site emissions of CO2 and N2O calculated treatment process
+by the calculation model were compared with those calculated by the According to the BSM1 model as detailed in Section S2 and the newly
+experimental model. Fig. 2 displays the technical roadmap for this study. designed papermaking wastewater treatment process model in Section
+3.1.1, the emitted GHG amount could be calculated by considering mass
+3.1. Calculation model for GHG emissions balance within biochemical reaction processes and the widely
+acknowledged emission factors defined by IPCC (Bridle et al., 2008;
+3.1.1. Papermaking wastewater treatment process model Huang et al., 2020).
+Taking into account the practical wastewater treatment technology To identify the GHG emission sources and calculate GHG emissions
+implemented within the paper mill and the specific characteristics of the for GHG reductions, the on-site and off-site GHG emission sources for the
+wastewater detailed in Section 2.2.1, the simulation model of the papermaking wastewater biological treatment process were determined,
+papermaking wastewater treatment process in this study was established detailed method was presented in Section S3 of SI (Huang et al., 2020).
+according to the predefined BSM1. As shown in Section S2 of SI, the The primary sources of on-site GHG emissions include endogenous
+organic pollutants in wastewater of BSM1 are systematically categorized decay, BOD removal, nitrification, and denitrification. For each source,
+into distinct variables based on their biodegradability. In this study, the the GHG emission was calculated in the unit of kg CO2-eq⋅h(cid:0) 1.
+collected field data from the paper mill (including Q, COD, SS, NH, and Leveraging an extensive dataset comprising determined parameters
+TN) was preprocessed to align with the BSM1 model variables (SI, SS, XI, (stoichiometric and kinetic parameters in the ASM1) and preprocessed
+XS, XBH, XBA, XP, SO, SNO, SNH, SND, XND, SALK). influent data (the conversion of COD and TN into SS, SI, XS, XI, and SNO,
+According to the division method proposed in the reference, the COD XND, SND, respectively), the biological wastewater treatment process was
+in this paper mill was subdivided into four variables SS, SI, XS, and XI simulated (Henze et al., 1987; Man et al., 2017). The predominant
+(Man et al., 2017), which account for 18.11 %, 4.11 %, 19.97 %, and sources of off-site GHG emissions include the sub-processes of sludge
+57.81 % of the COD, respectively. In addition, according to the refer- disposal, electrical consumptions of aeration and pumping, and chemi-
+ence, the TN in the paper mill was classified as SNO, XND, and SND (Jin cal usage (Bani Shahabadi et al., 2009). GHG emissions from sludge
+et al., 2015; Huang et al., 2022; Zheng et al., 2023), accounting for 2.23 disposal were calculated based on microbial reaction mechanism and
+%, 91.63 %, and 6.14 % of the TN, respectively. The COD and TN in the mass balance. Those from the electrical consumption and chemical
+influent and effluent were calculated as shown in Eqs. (1) and (2). The usage processes were calculated based on the released emission factors
+converted variables aligned with the COD and TN were plotted in Fig. 3. in the literature. The GHG emissions from the electrical consumption in
+the papermaking process were obtained by multiplying the corre-
+COD=S S+S I+X S+X I (1) sponding emission factor EFe, which is 0.8959 kg⋅kwh(cid:0) 1 (Li et al., 2017;
+TN=S NO+X ND+S ND (2) NDRC, 2015). The GHG emission from chemical usage were obtained by
+multiplying external carbon source by the corresponding emission factor
+Therefore, based on the above methods, the different component EFc, which is 1.54 kg CO2-eq⋅kg(cid:0) 1 (Dong and Steinberg, 1997). The
+concentrations in the influent of the collected 140 sets from the paper calculation methods for the consumption of aeration energy, pumping
+mill were accordingly classified as shown in Fig. 3. energy, and chemical dosage were obtained from BSM1. Fig. 4 presents
+the calculation models related to the on-site GHG emissions and the off-
+site GHG emissions from different sources.
+Fig. 2. The technology roadmap for this study.
+5
+
+--- Page 6 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+Fig. 3. The 140 sets of influent variables from papermaking WWTP. (a) COD and its constitutes, (b) TN and its constitutes. (Note: The division data in the legends
+were sourced from the references (Man et al., 2017; Jin et al., 2015).)
+It worths mention that in many papermaking WWTPs, CH4 emitted further verified by experiments. In general, two experimental ap-
+from the wastewater anoxic treatment process has often been recycled proaches are often employed. (1) Direct method: Directly capture the
+for power generation and are recognized as a process of sustainable GHGs with a floating chamber and analyze the total on-site GHG emis-
+development (Kehrein et al., 2020; Velasco et al., 2018). Therefore, the sions by GC analysis; (2) Indirect method: After volatilizing the GHGs
+CH4 emissions from anoxic treatment process were not accounted for in from the wastewater, the dissolved GHGs can be indirectly quantified by
+this study. GC, and then the total on-site GHG emissions are calculated based on the
+dissolved GHGs, dimensionless Henry's law constants, and gas transfer
+3.2. Experimental model for determining GHG emissions coefficients (Schulthess and Gujer, 1996; Schulthess et al., 1995;
+Schulthess et al., 1994). In this study, the on-site GHG emissions were
+To validate the feasibility of the GHG emission calculation model calculated by the indirect method detailed as follows and used to verify
+developed for the papermaking WWTP, the on-site GHG emissions were the developed GHG emission calculation model.
+6
+
+--- Page 7 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+Fig. 4. Calculations for GHG emissions from different sources in papermaking WWTP.
+7
+
+--- Page 8 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+3.2.1. Measurement of dissolved GHGs in wastewater
+1
+dissA oc lvc eo drd in Gg Gto D coal nt co en n's rl aa tw no sf p ia nr tia gl sp -r lie qs usu idr e ea qn ud lH ibe rn iury m's l ca aw n, th be H Ccc O2 = k H,CO2×R×T P×103 (13)
+H t io a i e
+[ ( )]
+measured indirectly by analyzing gas-phase GHG concentrations with
+the GC method. The detailed procedure for analyzing gas-phase GHG (cid:0)ΔSCO2 1(cid:0) 1
+concentrations is presented in S4 of SI (Guo et al., 2011). The dissolved k H,CO2 =k Hθ ,CO2×e R TP Tθ (14)
+GHG concentrations are calculated as follows.
+1
+lawT oh fe p aa rtr it aia l C reO ss2 a rn e:d N2O pressures are calculated through Dalton's H Ncc 2O= (15)
+k H,N2O×R×T P×103
+p l p u
+[ ( )]
+P CO2 =y CO2•Pθ (3) (cid:0)ΔSN2O 1(cid:0) 1
+k H,N2O=k Hθ ,N2O×e R TP Tθ (16)
+P N2O=y N2O•Pθ (4)
+sw d te uh t de er yce t )e .y dC O b2 y a Gn Cd , y rN e2 sO p ea cr te i vth ele y ,g a Ps θ p ise r tc he en tt oa tg ae ls p o rf e sg sa us r- ep h (a 1s 0e 2 C .2O k2 P a an id n N th2O is Jpw ⋅r mh oe c or e le s (cid:0) sk 1 H ⋅t K, eC (cid:0)mO 12 p . a e An rad t t k tu hH r ee,N 2 sTO tP a( nm (2 do 8 al r8⋅L d.1(cid:0) t51 e⋅ b mKa ) pr , e(cid:0) R r1 a) tia usr re t eh t eh T e θi dH (e 2e an 9l r 8gy .1a c s 5o e c Kf ofi )n ,c si t ke a θ Hn n ,Ct ts 8 2a .t 3 a t n1h d4e
+O
+The dissolved CO2 and N2O concentrations in wastewater samples kθ H,N2O are 0.0345 mol L(cid:0) 1⋅bar(cid:0) 1 and 0.0247 mol⋅L(cid:0) 1 bar(cid:0) 1, and (cid:0)ΔS RC O2
+are calculated by Henry's law. and (cid:0)ΔSN2Oare 2429 K and 2675 K, respectively.
+R
+x CO2 = HP C PO x2 (5) empT ih rie c aN l 2 mO o t dra en l s ff re or m c o lae bffi -sc ci ae ln et ew xa ps e rc ia mlc eu nl ta st e (Dd ub dy l eE yq ,. 1( 91 97 5) )b . ased on an
+CO2
+HP K La, UN2 sO in= K thLa e,N e2O m,29 p3 i.1 r5 iK ca× 1 m.0 o2 d4 e(T P ((cid:0) F29 o3 l.1 e5 y) transfer( 1 c7 o)
+x N2O= N NP2 2xO (6)
+O g l l et al., 2010), the gas -
+where HP Cx O2 (1.24 × 105 kPa, 288.15 K) and HP Nx 2O (1.68 × 105 kPa, ce affi lcc uie lan tt e do f a sN E2 qO s . K (1L 8a,N ) 2 aO n,2 d93 . (1 15K 9 )a . t the temperature of 293.15 K was
+288.15 K) are Henry's law constants. ( )
+andT th he er e mfo or le a, b mas ae sd eo sn ot fh e m O2o l aa nr dc o Nn 2c Oen (t bra ot ti ho n o 4f w ga ⋅t mer ( l5 (cid:0)5 1).6 tm heo l⋅ mL(cid:0) o1 le) K La,N2O,293.15K= D DR (cid:0)0.49 ×(cid:0) 34500×v g) 0.86 (18)
+r s C 4 .0 o , L
+tfr ra ac tit oio nn s s S x COCO 2 2 ( ka gn ⋅d m x (cid:0)N 32 )O a c na dn Sb Ne 2 Oc o (kn gv ⋅e mrt (cid:0)e 3d ) t io n t wh ae sd teis wso al tv ee r d a sG HG concen- v g ≅ Q AA (19)
+S CO2 =44×55.6×x CO2 (7)
+where DR is the reactor depth of papermaking wastewater biotreatment
+S N2O=44×55.6×x N2O (8) p thr eo c fle os ws ( r6 a. t5 m of) , D asL ois t th he d fie ep ldth eo af cl ta ob s st ur rip fap ci en g co ⋅sl (cid:0)u 1m ),n ( n0 d. 8 A1 i5 m th) e, av rg ei as
+e g n e r r (m a s
+3.2.2. Experimental GHG emission model for papermaking wastewater of field reaction tank (m2).
+treatment process
+Based on the dissolved GHG concentrations SCO2 and SN2O in waste- 4. Results and discussion
+water, the experimental CO2 emission model for on-site GHG emission
+and the experimental N2O emission model for denitrification sub- 4.1. Effluent quality based on process model
+process in papermaking wastewater treatment process were developed
+subsequently. Since the aerator provides the dissolved oxygen (DO), the DO con-
+The GHG emission mass flow rates Q (kg⋅h(cid:0) 1) and the GHG emission centration is considerably and positively correlated with the aeration
+rates r (kg⋅m(cid:0) 3⋅h(cid:0) 1) of CO2 and N2O can be calculated in Eqs. (9)–(12) volume. Aeration volume (oxygen transfer coefficient, kLa) was used to
+(Schulthess and Gujer, 1996; Schulthess et al., 1995; Schulthess et al., express DO concentration in this study. In the open-loop manual oper-
+1994). ation, various kLa values were set to simulate the papermaking waste-
+water treatment process. Specifically, kLa was configured at 0, 5, 10, 15,
+Q CO2 =r CO2×V R (9) and 20 h(cid:0) 1 to study its impact on effluent quality and the results are
+r CO2 =H Ccc O2×S CO2×( 1(cid:0) exp(cid:0)KLa H,C CO O2 2/24 × QVR A) ×Q V RA (10) p c Brr Oee Dase s ,e n Sst S e a ,d s N i k Hn L ,aF a i i ng n. dc 5 r Te. N aE s v pei s rd e. e dWn ot h mly e i, n n t ah k nLe ta le yif sfl f au s le le tn b t a e ltp o 1o wl 0l u thhta e(cid:0) n 1 e,t f fltc h uo en e nc ee tf fln dt u ir sea cnt hi to a C rn g O id nDe g- ,
+limits.
+Q N2O=r N2O×V R (11)
+4.2. Verification of GHG calculation model
+r N2O=H Ncc 2O×S N2O×( 1(cid:0) exp(cid:0)KLa H,N N2 2O O/24 × QVR A) ×Q RA (12)
+V By employing the data processing method in Section 3.1.1, 25 sets of
+wastewater samples and corresponding influent data were collected to
+where QA represents the total gas flow rate (7800 m3⋅h(cid:0) 1), VR represents feed the GHG emissions model. The calculated and experimental CO2
+the reactor volume (10,067 m3) in the A/O wastewater treatment pro- and N2O emissions are shown in Fig. 6, respectively. The average rela-
+c ce os es f fifo cir e p na tsp e (dr (cid:0)m 1)i l al, n K dL Ka,C LO a,2 C Oa 2n id s K 4.L 5a, 6N 2 dO (cid:0) a 1r (e P t ah ue s sd ee tt e ar lm ., i 1n 9e 9d 0 g )a , s H t c Cr c Oa 2n asf ne dr t Ei qv .e (a 2c 0c )u . racy of the GHG emission calculation model was calculated in
+H Ncc are the dimensionless Henry's law constants of CO2 and N2O.
+2O
+The dimensionless Henry's law constants were determined by Eqs.
+(13)–(16) (Jenni et al., 2012).
+8
+
+--- Page 9 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+Fig. 5. (a)–(e) Effluent quality (COD, BOD, SS, NH and TN) of papermaking wastewater under different kLa values. (f) Difference between effluent quality and
+h(cid:0)1.
+discharging limit under kLa of 10
+⎛ ⃒ ⃒⎞
+Accuracy=⎜ ⎜ n∑ i= =2 15⃒ ⃒ ⃒ycalculate yd nc, ai l(cid:0) cuy lae tx ep de ,irimental,i⃒ ⃒ ⃒⎟ ⎟ o 0 laf . t7 t i8h o3 ne 3 sc ,a l r ec e tu s wpla eet ece ntd i v ta hen l eyd c. e aTx lh cp uee lr P aim eve dan l aut na el ds m l eeo xs pd s ee t rhls ia o nf 0C n. tO 0 a2 1 a min n od d iN eca l2 stO e a ft r h Ce a t0 2. t5 h a8 e n9 dc5 o a rr 2n e Od -
+⎜ ⎜ ⎝1(cid:0) ⎟ ⎟ ⎠×100% (20) b t m e l d o O N
+are significant. The N2O calculation model achieves a relatively lower
+accuracy than the CO2 calculation model. Deviations in the N2O emissions
+model can be primarily attributed to two key factors: (1) Emission factor
+where ycalculated,i is the calculated value and yexperimental,i is the experi- variability. Within this model, N2O emissions were computed solely based
+mental value. on a fixed N2O emission factor, introducing some degree of discrepancy;
+Engineering simulation considers the simulation model to be credible (2) Unaccounted influences. The model does not factor in other potential
+if the discrepancy between the simulation results and the true value is less contributors to N2O emissions beyond TN quantity. N2O, as an interme-
+than 10 % of the true value. Fig. 6 illustrates that the calculation models of diate product of the nitrification process, undergoes changes influenced
+CO2 and N2O represent the real plant relatively accurate, and the overall by denitrification reactions and is susceptible to numerous factors,
+accuracy are 94.6 % and 91.1 % respectively. The correlation coefficients including NH, DO, and pH (as illustrated in Fig. 3).
+9
+
+--- Page 10 ---
+J. Han et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t924(2024)171637
+Fig. 6. The calculated and experimental CO2 and N2O emissions from A/O wastewater treatment process of paper mill.
+Given these considerations, the study indicates that the GHG emis- wastewater were calculated according to the methods shown in Fig. 4.
+sion calculation model developed for the papermaking wastewater A/O The GHG emissions from the different source of papermaking waste-
+treatment process can be an effective tool to estimate WWTP GHG water are presented in Fig. 7.
+emissions. As shown in Fig. 7, the mean net total calculated GHG emissions are
+402.93 kg CO2-eq⋅h(cid:0) 1. If including the CO2 consumed of 144.42 kg CO2-
+4.3. GHG emissions based on calculation model eq⋅h(cid:0) 1 during nitrification, the mean total GHG emissions are 547.35 kg
+CO2-eq⋅h(cid:0) 1. Similarly, the mean net on-site GHG emissions are 99.90 kg
+4.3.1. GHG emissions from papermaking WWTP CO2-eq⋅h(cid:0) 1, and the mean on-site GHG emissions are 244.32 kg CO2-
+In this section, the kLa value was set to 10 h(cid:0) 1 to ensure the effluent eq⋅h(cid:0) 1 when including the CO2 consumed by nitrification (accounting
+quality in accordance with discharge requirements. The field data from for 44.6 % of the total GHG emissions). The BOD removal process gen-
+papermaking wastewater was preprocessed according to Eqs. (1) and (2) erates 121.90 kg CO2-eq⋅h(cid:0) 1 GHGs and is the second-largest contributor
+and used as the input of the calculation model, and the GHG emissions to the total GHG emissions, accounting for 22.3 %. GHGs from the BOD
+from each source in the biological treatment process of papermaking removal refer to the CO2 generated during the stage of complete
+Fig. 7. GHG emissions from different sources in papermaking wastewater treatment process.
+10

@@ -1,0 +1,425 @@
+--- Page 1 ---
+©2022TheAuthors JournalofWaterandClimateChangeVol13No8,3100doi:10.2166/wcc.2022.146
+Economicperformanceindexassessmentofanindustrialwastewatertreatmentplantin
+terms of the European Green Deal: effect of greenhouse gas emissions
+Pelin Yapıcıoğ lu * and Mehmet Irfan Yeşilnacar
+EngineeringFaculty,EnvironmentalEngineeringDepartment,HarranUniversity,Sanliurfa,Turkey
+*Correspondingauthor.E-mail:pyapicioglu@harran.edu.tr
+PY,0000-0002-6354-8132;MIY,0000-0001-9724-8683
+ABSTRACT
+Thisstudyaimstodeterminetheeffectofgreenhousegas(GHG)emissionsoneconomicperformanceintermsofenergycostsforanindus-
+trialwastewatertreatmentplant.Also,themitigationofGHGemissionsaimedatusingprocessmodificationtoobtainpossiblereductionsin
+energycosts.OptimumenergyconsumptionswerereportedfortheminimumGHGemissionusingtheDataEnvelopmentAnalysis(DEA)and
+MonteCarlosimulationmodel.Inthispaper,anewempiricalapproachhasbeendevelopeddependingontheGHGemissionsforestimating
+theeconomicperformanceofthewastewatertreatmentplants.Theresultsrevealedthatnitrousoxide(N O)emissionsledtothehighest
+2
+energy costs among direct emissions. In the second stage of the study, the effects of design conditions on GHG emissions and energy
+costs were investigated. If the aeration tank is operated at 24h of hydraulic retention time (HRT) and 22 days of solid retention time
+(SRT),then,onaverage,27,27.9,and30.7%ofreductioninenergycostsintermsofdirectcarbondioxide(CO ),methane(CH )andnitrous
+2 4
+oxide(N O)emissions,respectively,isobservedintheplant.Thesereductionscorrespondedtoapproximately17.33€/kWhofcost-savingin
+2
+thisplant.
+Keywords:energyconsumption,EuropeanGreenDeal,greenhousegas,optimization,processmodification,wastewatertreatment
+HIGHLIGHTS
+(cid:129)
+AnewempiricalapproachbasedonGHGemissionshasbeendeveloped.
+(cid:129)
+ProcessmodificationhasbeenappliedtomitigateGHGemissionsandeconomicperformanceassessmentwasfulfilledinsituGHGemis-
+sionsunderdesignandoperationalconditions.
+(cid:129)
+Itwouldbeasignificantreduction(onaverage32.7%)inGHGemissionswithinthescopeofcompliancewiththeEUGreenDeal.
+ThisisanOpenAccessarticledistributedunderthetermsoftheCreativeCommonsAttributionLicence(CCBY-NC-ND4.0),whichpermitscopyingand
+redistributionfornon-commercialpurposeswithnoderivatives,providedtheoriginalworkisproperlycited(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 2 ---
+JournalofWaterandClimateChangeVol13No8,3101
+GRAPHICALABSTRACT
+1. INTRODUCTION
+Thecorrespondenceofwaterandenergyhasbeendefinedaswaterisneededforenergygenerationandenergyisneeded
+for water supply and treatment. Within the scope of the water–energy nexus, wastewater treatment plants (WWTPs) are
+energy-intensive. In particular, energy consumption is in huge amounts to treat industrial wastewater due to its high
+organiccontent.Also,higherenergyintensityisnecessarytotreatwastewatertomeetthedischargingstandards.Further-
+more,influentandeffluentpumpingprocesseshaveledtohigherenergyconsumption(Castellet-Vicianoetal.2018).This
+energy consumption has led to considerable indirect greenhouse gas (GHG) emissions. In the last decades, preventions
+should have been applied to develop the system performance by mitigating GHG emissions due to the rising attention
+tosustainableoperationofWWTPs.ManagementofWWTPshasconcentratedonreducingoperatingcostswhileobtaining
+effluentdischargelimits.EffluentqualityandoperatingcostsoftheWWTPsaregreatlyinfluencedbyoperatingconditions
+which are hydraulic retention time (HRT) and solid retention time (SRT) for biochemical treatment plants. High energy
+consumption leads to higher operational costs for the WWTPs. From this perspective, energy consumption and its main
+effectswhichareGHGemissionsshouldbetakenundercontrolandreduced.GHGemissionsandenergycostshavecor-
+respondedwitheachotherandhaveaconsiderablerelation.Furthermore,GHGemissionsshouldberegardedasthemain
+componentofeconomic performance assessmentduetotheirenvironmentalimpacts(Adebayoetal.2021;Morettietal.
+2021;Pahunangetal.2021;Udembaetal.2021;Vossetal.2021).Thistopichasreceivedalotofattentionworldwide,in
+recentyears.GHGemissiongeneratorunitsareofcriticalimportancefordeterminingeconomicperformance.According
+totheEuropeanUnion(EU)GreenDeal,GHGemissionsshouldbereducedinconsiderableamounts,andthisreduction
+ofGHGemissionswouldleadtoeconomicwealthintheworld(EU2018).AccordingtotheEUGreenDealfitfor55
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 3 ---
+JournalofWaterandClimateChangeVol13No8,3102
+packages(EU2021),nearly40%ofreductionshouldbeachievedforthewastesectorby2030.Especially,WWTPshave
+beenconsideredasthemainGHGproducerinthewastesector(IPCC2014).TheWWTPsshouldobtainincentivesto
+enhanceandcarryoutclimate-neutralprocessmanagementtoalignwiththeGreenDealobjectives.Especially,indus-
+trialWWTPsareanessentialelementoftheEuropeanGreenDealandcirculareconomy(EU2018).IndustrialWWTPs
+shouldprovidecost-effectiveandgreenerwastewatertreatmentprocessesleadingtominimumGHGemissions.Inthis
+context, an economic performance assessment tool should be developed based on GHG emissions for industrial
+WWTPs.
+TheindustrialWWTPscouldberegardedasoneoftheGHGemissionssourcesduetotheirhighlyorganicwastewater
+contentandhighenergyconsumption(Kumaretal.2021;Pata&Kumar2021).GHGemissionscouldbecategorizedas
+direct and indirect emissions (Parravicini et al. 2016). The direct emissions have been released from collection points,
+treatmentprocess,anddischargingpointsoftheWWTPs.Theindirectemissionscontainenergyconsumption,chemical
+use,andthesludgehandlingprocess(Parravicinietal.2016).Severalstudiesconfirmthatespeciallyindirectemissions
+from energy consumption have led to higher GHG emissions and operational costs at the WWTPs (Kyung et al. 2015;
+Qiao et al. 2020). One approach should be developed as an optimization method for operating a complex nonlinear
+systemsuchaswastewatertreatmentprocesses.ForWWTPs,optimaloperatingconditionscouldbedefinedusingoptim-
+ization methods coupled with an estimative mathematical model of the WWTPs (Kim et al. 2015). A few numbers of
+studies have investigated optimization solutions carried out for the analysis or operational design of WWTPs. Several
+researchershaveconcentratedonmodelcalibration(Kimetal.2015;Kyungetal.2015).Inthisstudy,apartfromthepre-
+viousstudiesoptimumenergyconsumptionwerereportedfortheminimumGHGemissionusingtheDataEnvelopment
+Analysis(DEA)andMonteCarlosimulationmodel.Thenoveltyofthisstudyisthatanewempiricalapproachhasbeen
+developed based on the GHG emissions for determining the economic performance of the WWTPs. Also, in this work
+apart from the previous studies the DEA model and Monte Carlo simulation have been simultaneously performed to
+determine the optimum energy consumption to release the minimum GHG emissions. In previous studies, the
+DEAmodelhasbeenusedasanestimationtoolforenvironmentalperformanceandenergyefficiency(Molinos-Senante
+etal.2014;Sala-Garrido&Molinos-Senante2020).Inthispaper,newestimationtoolsofoptimumenergyconsumption
+for the minimum GHG emissions have been developed using the DEA model and Monte Carlo simulation. Monte
+Carlosimulationwasfirst appliedforthedeterminationofoptimumenergyconsumptionfortheminimumGHGemis-
+sions for WWTPs in the literature. In this paper, these two optimization tools have been benchmarked with each
+other.Also,thisworkisuniqueinthatGHGemissionsweremeasuredunderdesignparametersforafull-scaleindustrial
+WWTP, and economic performance assessment was fulfilled for in situ GHG emissions under design and operational
+conditions.
+ThisstudydealswiththeinvestigationoftheoptimaloperationofanindustrialWWTPinordertomitigateGHGemissions
+andoperatingcosts.Inthiscontext,DEAandMonteCarlosimulationweresimultaneouslyperformedfordefiningthecor-
+respondence between energy consumption and GHG emissions. Optimum energy consumptions were reported for the
+minimum GHG emission using the DEA and Monte Carlo simulation model. In the second stage of the study, the effect
+of process modificationon GHG emissions and energy costswasinvestigated. Due to higherenergy costsand GHG emis-
+sions, researchers have focused on WWTPs design parameters for energy-saving management (Panepinto et al. 2016; He
+etal.2019;Qiaoetal.2020).Fromthispointofview,carbondioxide(CO ),methane(CH ),andnitrousoxide(N O)emis-
+2 4 2
+sionsweremonitored,andaneconomicperformanceassessmentwasappliedunderdesignconditions(24hofHRTand22
+daysofSRT)foradairyindustryWWTP.Comparisonsofdesignandoperatingconditionswerealsomadestatistically.Onthe
+basis of the economic performance assessment based on GHG emissions, recommendations and strategies have been pre-
+sented to help optimize the operation of industrial WWTPs in terms of maximum energy saving. Also, GHG emissions
+which are CO , CH and N O emissions were categorized according to energy consumption and operating costs. This
+2 4, 2
+research presented a new empirical approach based on the GHG emissions for determining the economic performance of
+the WWTPs. This study mainly aimed to correspond the GHG emissions and energy costs using a numerical approach
+thatcouldbeappliedbyallWWTPauthoritiesintermsoftheEUGreenDeal.Thisstudyisuniqueinthataneconomicper-
+formance assessment has been carried out considering GHG emissions foran industrial WWTP in terms of the EU Green
+Deal.ThispaperalsoaimedtodeterminetheeffectofprocessmodificationonGHGemissionsandeconomicperformance
+in termsofenergycostswithin thescope ofthewater–energy nexus.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 4 ---
+JournalofWaterandClimateChangeVol13No8,3103
+2. MATERIALS AND METHODS
+2.1.Processconfigurationandmodificationof theplant
+ThedairyindustryisinanorganizedindustrialzonelocatedinTurkey.Inthispaper,afull-scaleWWTPofadairyplantwas
+selectedasthepilotplant,having600tons/dayofrawcow’smilkprocessingcapacity.Dairywastewatercontainsmainlycool-
+ingwater, sanitarywastewater, andprocesswastewater.Extendedaerationactivatedsludgesystemhas beenperformedfor
+the removal of organic materials. Blower and air pumps have led to higher electricity consumption in this plant. Sludge
+pumps have consumed large amounts of energy. Also, denitrification and nitrification processes have been performed
+fornitrogenremovalintheplant.Methanolhasbeenaddedasacarbonsourceforthesustainabilityofthedenitrification
+process. Energy consumption of the treatment units, methanol use, and lime addition for the sludge handling process
+havecomprisedindirectGHGemissionsintheplant.DirectGHGemissionscouldoriginatefromthebiochemicaltreat-
+mentprocess.Also,thedissolvedairflotation(DAF)tankisoperatedforoilandgreaseremoval.Thisprocessneedsair
+and the air pumping process has led to a huge amount of energy consumption. Also, coagulant has been used for this
+process. Ferric chloride is used as a chemical, and it leads to indirect emissions in the plant. From this perspective,
+extendedaerationandtheDAFprocesswereconsideredasthemainGHGemissionspointsinthisstudy.Figure1pre-
+sents the industrial wastewater treatment process flow scheme in the plant. Table 1 shows the wastewater
+characterization.
+Process modification could be a GHG emission mitigation technique (Rodríguez-Caballero et al. 2014; Sweetapple
+etal.2018).ManyresearchersproposedtheoperationofWWTPsunderdesignconditionsforminimumenergyconsump-
+tion(Castellet-Vicianoetal.2018).Thisplanthasbeenoperatedunderconditionsof18hofHRTand20daysofSRT.The
+design conditions are 24h of HRT and 22 days of SRT. From this perspective, the operating conditions have been
+adjusted to the design conditions. GHG emissions have been measured for both design and operating conditions in
+the plant.
+Figure1| Wastewatertreatmentprocessconfiguration.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 5 ---
+JournalofWaterandClimateChangeVol13No8,3104
+Table1 | Wastewatercharacteristicsofthedairyindustry
+Parameter Influent Effluent
+COD(mg/L) 6,227 1,040
+BOD(mg/L) 3,151 203
+TSS(mg/L) 3,151 481
+FOG(mg/L) 339 10
+pH 7.17 6.92
+2.2. Estimation of GHGemissions
+FortheextendedaerationprocessandDAFunit,greenhousegaseswerecollectedinafluxchamberandanalyzedwithgas
+chromatographyforCO ,CH ,andN OemissionsfordeterminingthedirectGHGemissions.Equation(1)showsthecal-
+2 4 2
+culation of direct GHG emissions. In Equation (1), global warming potentials of CO , CH and N O are 1, 28, 265,
+2 4, 2
+respectively(IPCC 2014).
+GHG ¼(C (cid:2)GWPCH ,CO N O)(cid:2)1,000 (1)
+direct GHG 4 2, 2
+whereGHG isthedirect GHGemission(kg CO e/day)(GHGCO , GHGCH ,GHGN O);C istheCO , CH , or
+direct 2 2 4 2 GHG 2 4
+N O concentration(mg/Ld); GWPCH , CO ,NO istheglobal warming potentialof CO orCH orN O.
+2 4 2 2 2 4 2
+Table2showsthedatasetfortheestimationofindirectGHGemissions.Equations(2)–(4)showthecalculationofindirect
+emissions.
+GHG ¼EC(cid:2)EF (2)
+electricity electricity
+In Equation (2), electricity consumption (EC) of the plant includes the energy demand of the blower and air pumps
+(EC )andtheenergyconsumptionofsludgepumps(EC )fortheaerationandDAFprocess.EF
+blower&airpumps sludgepumps electricity
+meanstotheemissionfactor(IEA2016).ThecalculationtoolisdependentontheIPCCmethod(IPCC2014;Kyungetal.
+2015).Indirectemissionduetochemicalusecouldbefiguredoutusingchemicalconsumptionandemissionfactorofeach
+chemicalsubstance.Methanolisusedasanaddedcarbonsourceforthedenitrificationprocesstoensurenitrogenremoval
+hasledtothedirectGHGemissionintheaerationtank.Itcouldbefiguredoutwiththehelpofmultiplyingdailymethanol
+consumption(L )(kg/day)andtheemissionfactorofmethanol(EF )(Kyungetal.2015).Also,ferricchlorideis
+methanol methanol
+used as a coagulant in the DAF tank. The indirect GHG emissions of the chemical use could be calculated as follows
+(Equation(3)) (Kyung etal. 2015).
+GHGE ¼L (cid:2)EF (3)
+chemical chemical chemical
+The other component of indirect GHG emissions is the sludge handling process. Lime is used for the stabilization of
+chemicalsludge(DAFsludge)andwasteactivatedsludge.Itcouldbecalculatedbymeansofmultiplyingsludgeload(L )
+sludge
+(kg/day) and the emission factor of lime (EF ) (IPCC 2014). The calculation model was given for GHG emissions from
+lime
+sludge stabilization in Equation (4).Total indirect emissionsarethe sum ofthese three components.
+GHGE ¼L (cid:2)EF (4)
+sludge sludge lime
+2.3. Economicperformance index assessment
+Previousstudieshaveconfirmedthatthewater–energynexusensurescross-cuttingopportunitiestomitigateenergyandwater
+demand (Molinos-Senante & Guzman 2018). Furthermore, synergistic approaches are important for wastewater treatment
+authorities to realize the correspondence between water and energy. An economic performance index (EPI) is one of
+these synergistic approaches which contains available water pollution, water treatment capacity, and water amount. The
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 6 ---
+Table2 | DatasetforindirectGHGemissions
+EC ECblower&airpumps ECsludgepumps EFelectricity Lmethanol EFmethanol(kgCO2/ Lferric-chloride EFferric-chloride(kgCO2/ Lsludge EFlime(kgCO2/
+Process Months (kWh) (kWh) (kWh) (kgCO2/kWh.day) (kg/day) kgmethanol) (kg/day) kgferric-chloride) (kg/day) kglime)
+Aeration June 12,075 9,465 2,610 0.47 65 1.54 – – 6,808 0.43971
+Tank July 12,318 9,618 2,700 0.47 66 1.54 – – 6,900 0.43971
+August 12,700 9,900 2,800 0.47 67 1.54 – – 6,950 0.43971
+September 12,021 9,521 2,500 0.47 64 1.54 – – 6,800 0.43971
+October 12,009 9,559 2,450 0.47 60 1.54 – – 6,750 0.43971
+November 11,850 9,550 2,300 0.47 58 1.54 – – 6,701 0.43971
+December 11,300 9,500 1,800 0.47 57 1.54 – – 6,600 0.43971
+January 10,850 9,100 1,750 0.47 55 1.54 – – 6,500 0.43971
+February 9,500 8,000 1,500 0.47 56 1.54 – – 6,550 0.43971
+March 10,100 8,290 1,810 0.47 62 1.54 – – 6,655 0.43971
+April 11,010 8,710 2,300 0.47 63.5 1.54 – – 6,700 0.43971
+May 12,000 9,520 2,480 0.47 64.5 1.54 – – 6,790 0.43971
+DAF June 8,620 7,510 1,110 0.47 – – 10 2.71 3,500 0.43971
+Process July 8,650 7,525 1,125 0.47 – – 12 2.71 3,550 0.43971 JournalofWaterandClimateChangeVol13No8,3105
+August 8,750 7,550 1,200 0.47 – – 15 2.71 3,600 0.43971
+September 8,450 7,395 1,055 0.47 – – 13 2.71 3,480 0.43971
+October 8,400 7,375 1,025 0.47 – – 11 2.71 3,450 0.43971
+November 8,350 7,350 1,000 0.47 – – 10.5 2.71 3,425 0.43971
+December 8,200 7,213 987 0.47 – – 9.75 2.71 3,200 0.43971
+January 7,500 6,645 855 0.47 – – 9 2.71 2,900 0.43971
+February 7,700 6,800 900 0.47 – – 9.5 2.71 3,100 0.43971
+March 8,300 7,350 950 0.47 – – 10.2 2.71 3,250 0.43971
+April 8,453 7,463 990 0.47 – – 11 2.71 3,300 0.43971
+May 8,550 7,506 1,044 0.47 – – 11.5 2.71 3,470 0.43971
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 7 ---
+JournalofWaterandClimateChangeVol13No8,3106
+EPIwasfiguredoutusingaverifiednumericalmethodologyastheresultofsensitivityanalysis.Thismodelwasadaptedfrom
+themethodbyCastellet-Vicianoetal.(2018)andHernandez-Sanchoetal.(2011).Thisdevelopedmodelisbasedonempiri-
+calanalysesin thisstudy. Thebasic model wasgiven inEquation (5)(Hernandez-Sancho etal. 2011).
+P
+EC¼PWseð afxfÞ
+(5)
+whereECistheenergycostofthetreatmentplant;Wisthemassofwastewater/year;xfindicatekindsoffactors;P,s,andα
+arecoefficientsofthe sensitivityanalysis.
+Inthederivedmodel,theperformanceindicator(X)isthevariablethatdefinesthecorrelationofdesignandoperational
+wastewater treated amount (Equation (6)). Operational flow (Q) (m3/day) and the design flow of the plant (q) (m3/day)
+comprisetheperformanceindex(X).Equation(2)presentsestimationoftheperformanceindicator(X)(Castellet-Viciano
+et al. 2018).
+(q(cid:3)Q)
+X¼ (cid:2)100 (6)
+(q)
+In this paper, coefficients were decided using the Box–Benken method. Q (operational flow rate) (x ), CO (x ), CH
+1 2 2 4
+(x ),and N O(x )emissions arethemajor independentvariables for direct GHGemissions. Variableconcentrations are
+3 2 4
+analyzed during operation twice per month and they corresponded to mean values. In the result of the sensitivity analy-
+sis, the objective function of the framework was described in Equation (7) using the Box–Benken methodology. It
+describes the correlation of the data. The regression models have ensured multiple linear regressions as the target func-
+tion at MATLAB. Figure 2 presents the regression and correlation experiments for direct GHG emissions. The
+experimental nexus of optimal parameters and independent variables were obtained using a multiple regression analysis
+Figure2| NormalprobabilityplotsfortheproposedmethodintermsofdirectandindirectGHGemissions.
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 8 ---
+JournalofWaterandClimateChangeVol13No8,3107
+of empirical data. The optimal parameters (y) could be figured out using the quadric polynomial formulation within the
+scope of significant variables. The quadric regression model was derived using analysis of variance (ANOVA) in
+Equation (7).
+y¼3:027x2(cid:3)16:4x (cid:3)3:27x (cid:3)1:68x (7)
+1 2 3 4
+Intheresultofthesensitivityanalysis,theEPItoolwasgiveninEquation(8)forCO emission.Thecoefficientsweredeter-
+2
+mined according to the Box–Benken design method. The economic performance assessment tools for CH and N O
+4 2
+emissions weregivenin Equations (9)and (10),respectively.
+EPI¼1881:106W0:757e((cid:3)14:99[GHGCO2]þ0:640X)
+(8)
+EPI¼1881:106W0:757e((cid:3)8:69[GHGCH4]þ0:640X)
+(9)
+EPI¼1881:106W0:757e((cid:3)2:21[GHGN2O]þ0:640X)
+(10)
+Also,aneconomicperformanceassessmentintermsofindirectGHGemissionswascarriedout.Anewestimationtoolwas
+developedbasedonGHGemissionsduetoelectricityconsumption(x ),chemicalconsumption(x ),andsludgehandling
+2,2 3,3
+process (x ).Q isthe variable as (x ). In the resultof the sensitivityanalysis, the objectivefunction of the framework was
+4,4 1
+describedin Equation(11)using the Box–Benkenmethod.
+y¼2:035x2(cid:3)12:1x (cid:3)2:57x (cid:3)1:25x (11)
+1 2,2 3,3 4,4
+Intheresultofthesensitivityanalysis,theeconomicperformanceassessmenttoolwasgiveninEquation(12)forindirect
+GHGdue toelectricityconsumption. Theeconomic performanceassessmenttools for indirectGHGdue tochemicalcon-
+sumptionandthesludgehandlingprocessweregiveninEquations(13)and(14),respectively.Figure2presentstheregression
+andcorrelation experimentsfor direct andindirect GHGemissions.
+EPI¼1999:106W0:17e((cid:3)0:25[GHGelectricityþ0:97X)
+(12)
+EPI¼1999:106W0:17e((cid:3)0:42[GHGchemicalþ0:92X)
+(13)
+EPI¼1999:106W0:17e((cid:3)0:35[GHGsludgeþ0:12X)
+(14)
+2.4.Statisticalanalysisandvalidationof themethod
+TheempiricaldesignmatrixfordirectandindirectGHGemissionsandcalculatedresponsesintheresultoftheBox–Behn-
+ken method have been presented in Tables 3 and 4, respectively. The effects of the variables for estimating optimal GHG
+emissionswerestatisticallyanalyzedwiththehelpofANOVA.TheresponsesurfacemethodhasbeencarriedoutusingSta-
+tistica 7.1. software. The model was applied as it has a low standard deviation (0.0057) and high values of R2 (0.99) and
+adjusted R2 (0.97) for direct GHG emissions. For indirect GHG emissions, standard deviation (0.0063) and high values of
+R2(0.98)andadjustedR2(0.96)werefiguredout.Figure3demonstratedtheempiricalcorrespondenceofoptimalparameters
+andindependent variables for direct and indirect GHGemissions.
+Therelevancetestwasperformed.Thedegreeofstatisticalrelevanceisnotatedbyβ-value.TheresultsofANOVAforthe
+Box–Behnkenmethod, designedforoptimaldirectand indirectGHG emissions are given inTable 5.
+Multiple linear regression model was performed to reveal a mathematical model for the response. ANOVA
+results showed that the model was efficient with R2 (adjusted) values of 96.00 and 97.00%. The proposed cost model
+had a β-value of 0.015 which defined the significance. The test results have revealed that optimal direct GHG emissions
+are 0.368 kgCO e/day of CO emissions, 0.596 kgCO e/day of CH emissions and 1.980 kgCO e/day of N O emissions.
+2 2 2 4 2 2
+Optimal indirect GHG emissions are 4,300 kgCO e/day of GHG 54 kgCO e/day of GHG and 6,650
+2 electricity, 2 chemical
+kgCO e/day of GHG . This research proposes a new extended economic performance estimation methodology
+2 sludge
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 9 ---
+JournalofWaterandClimateChangeVol13No8,3108
+Table3 | EmpiricaldesignmatrixrelatedtodirectGHGemissions
+Runorder x 1(Q) x 2(GHG,CO2) x 3(GHG,CH4) x 4(GHG,N2O) R2 Standarddeviation(STD)
+1 2,900 0.375 0.6 2.020 0.68 0.0091
+2 2,850 0.410 0.6105 2.080 0.70 0.0092
+3 2,700 0.395 0.608 2.100 0.71 0.0083
+4 2,600 0.360 0.596 2.090 0.65 0.0087
+5 2,550 0.357 0.586 2.000 0.80 0.0081
+6 2,875 0.355 0.525 2.095 0.82 0.0080
+7 2,645 0.350 0.505 1.950 0.69 0.0077
+8 2,725 0.318 0.601 1.970 0.75 0.0095
+9 3,600 0.350 0.578 1.825 0.98 0.0090
+10 3,400 0.356 0.569 1.803 0.74 0.0091
+11 3,250 0.362 0.584 1.925 0.93 0.0088
+12 3,500 0.368 0.596 1.980 0.99 0.0058
+13 3,000 0.00 0.525 1.010 0.95 0.0059
+14 4,000 0.00 0.54 1.100 0.55 0.0086
+15 4,250 0.00 0.538 1.150 0.74 0.0060
+16 2,900 0.00 0.521 1.145 0.69 0.0079
+17 2,500 0.00 0.51 1.000 0.73 0.0071
+18 4,100 0.00 0.5 1.140 0.87 0.0075
+19 3,400 0.00 0.425 0.985 0.85 0.0073
+20 3,300 0.00 0.526 0.990 0.72 0.0069
+21 2,915 0.00 0.508 0.975 0.79 0.0067
+22 2,850 0.00 0.515 0.950 0.66 0.0064
+23 2,600 0.00 0.517 0.985 0.63 0.0061
+24 2,700 0.00 0.522 0.998 0.81 0.0066
+x 1:Q(m3/day),x 2:GHG,CO2(kgCO2e/day),x 3:GHG,CH4(kgCO2e/day),x 4:GHG,N2O(kgCO2e/day),R2¼0.99;adjustedR2¼0.97,STD:0.0058.
+dependent on corroboration for wastewater treatment. The optimal operational flow (Q) was 3,500m3/day for direct and
+indirect GHG emissions.
+2.5. Optimization usingDEA andMonteCarlosimulation
+DEA and Monte Carlo simulation have been simultaneously performed to determine the correspondence between energy
+consumption and GHG emissions. Optimum energy consumptions were determined for the minimum GHG emission
+fromtheDAF tank andaeration tankusing the DEAand MonteCarlosimulation tools.
+DEA is a non-parametric method dependent on linear programming that obtains an index of efficiency for determining
+the performance set of entities which are called decision-making units which change inputs into outputs (Sala-Garrido &
+Molinos-Senante 2020).Accordingto this paper,the inputsareenergyconsumption,GWP, thevolumeofwastewatertrea-
+ted, and the total indirect GHG emissions. The outputs are optimum energy consumption for the minimum GHG
+emissions.
+TheDEAmodelthatperformedVariableReturntoScale(VRS)wasregardedasmodelBCCmodel(Cooperetal.2011).
+Inthisstudy,theBCCmodelwasusedforanindustrialWWTPduetoitsoverlappingwiththecharacteristicsoftheplant.
+Theaimistooptimizetheenergyconsumptionwhileproducingeffluentandmeetingthewaterqualitystandards.Also,the
+categorization of groundwater pollutant parameters has been carried out according to energy intensity using the DEA
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026
+
+--- Page 10 ---
+JournalofWaterandClimateChangeVol13No8,3109
+Table4 | EmpiricaldesignmatrixrelatedtoindirectGHGemissions
+Runorder x 1(Q) x 2,2 x 3,3 x 4,4 R2 Standarddeviation(STD)
+1 2,900 5,800 62 6,950 0.78 0.0081
+2 2,850 5,250 61 6,875 0.69 0.0092
+3 2,700 4,850 60 6,800 0,73 0.0074
+4 2,600 4,500 58 6,900 0.67 0.0085
+5 2,550 5,125 57 6,650 0.83 0.0080
+6 2,875 5,001 55 6,550 0.80 0.0084
+7 2,645 5,003 63 6,500 0.66 0.0079
+8 2,725 5,125 67.5 6,730 0.74 0.0091
+9 3,600 4,250 66 6,740 0.95 0.0093
+10 3,400 4,389 65 6,800 0.79 0.0094
+11 3,250 4,400 56 6,600 0.92 0.0085
+12 3,500 4,300 54 6,650 0.98 0.0063
+13 3,000 4,125 64 6,750 0.97 0.0055
+14 4,000 4,009 52 6,650 0.95 0.0088
+15 4,250 5,010 57 6,680 0.64 0.0062
+16 2,900 5,036 51 6,875 0.79 0.0075
+17 2,500 5,011 68 6,925 0.71 0.0074
+18 4,100 5,450 50 6,735 0.88 0.0078
+19 3,400 4,111 52.5 6,840 0.87 0.0071
+20 3,300 4,078 63.5 6,530 0.70 0.0065
+21 2,915 4,117 61.5 6,730 0.75 0.0069
+22 2,850 5,009 60.5 6,670 0.62 0.0062
+23 2,600 4,215 66.5 6,560 0.64 0.0060
+24 2,700 4,017 67 6,490 0.89 0.0064
+x 1:Q(m3/day),x 2,2:electricityconsumption(kWh),x 3,3:chemicalconsumption(CC)(kg/day),x 4,4:sludgetreatment(ST)(kg/day),R2¼0.98;adjustedR2¼0.96,STD:0.0063.
+methodology. The basic model is given in Equation (15) (Cooper et al. 2011).
+Minu
+s:t:
+Xn
+lkXik(cid:4)uXik01(cid:4)i(cid:4)E
+k¼1
+Xn
+(15)
+lkyrk(cid:5)yrk01(cid:4)r(cid:4)P
+k¼1
+lk(cid:5)01(cid:4)k (cid:4)n
+Xn
+lk¼1
+k¼1
+InEquation(15),E(Xk¼X k,X k,…,X k)definesthevectorofinputsandP(yk¼y k,y k,…,y k)definesthevectorof
+1 2 E 1 2 P
+outputs.Accordingtothebasicmodel,θrepresentstheoptimumenergycostofthewastewatertreatmentplantanditcouldbe
+figuredout by means ofEquation(15).
+Downloaded from http://iwaponline.com/jwcc/article-pdf/13/8/3100/1093950/jwc0133100.pdf
+by guest
+on 27 March 2026

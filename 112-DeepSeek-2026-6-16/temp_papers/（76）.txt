@@ -1,0 +1,458 @@
+--- Page 1 ---
+EnvironmentalResearch259(2024)119398
+Contents lists available at ScienceDirect
+Environmental Research
+journal homepage: www.elsevier.com/locate/envres
+Urbanization and greenhouse gas emissions from municipal wastewater in
+coastal provinces of China: Spatiotemporal patterns, driving factors, and
+mitigation strategies
+Qibiao Yua, Shaobin Lia, Nengwang Chena,b,*
+aFujian Provincial Key Laboratory for Coastal Ecology and Environmental Studies, College of the Environment and Ecology, Xiamen University, Xiamen, 361102, China
+bState Key Laboratory of Marine Environment Science, Xiamen University, Xiamen, 361102, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Coastal cities, as hubs of social and economic activity, have witnessed rapid urbanization and population growth.
+Wastewater This study explores the transformative changes in urban municipal wastewater treatment practices and their
+WWTP profound implications for greenhouse gas (GHG) emissions in Chinese coastal provinces. The approach employed
+GHG emission
+in this study integrates comprehensive data analysis with statistical modeling to elucidate the complex interplay
+Climate change
+between urbanization, wastewater treatment practices, and GHG emissions. Results reveal a substantial surge in
+GHG emissions from coastal wastewater treatment, rising from 3367.1 Gg CO2e/yr in 1990–23644.8 Gg CO2e/yr
+in 2019. Spatially, the top 20 cities contribute 56.0% of emissions, with hotspots in the Bohai Sea Region,
+Yangtze River Delta, and Pearl River Delta. Initially dominated by emissions from untreated wastewater, post-
+2004, GHG emissions from treatment processes became the primary source, tied to electricity use. Growing
+population and urbanization rates escalated wastewater discharge, intensifying GHG emissions. From 1990 to
+2019, average GHG intensity ranged between 320.5 and 676.6 g CO2e/m3 wastewater, with an annual increase
+of 12.3 g CO2e/m3. GHG intensity variations relate to the wastewater treatment rate, impacting CH4, N2O, and
+CO2 emissions, underscoring the need for targeted strategies to mitigate environmental impact.
+1. Introduction et al., 2021; Qu et al., 2022), which accounts for more than 60% of the
+national wastewater GHG emissions (Yan et al., 2019).
+Municipal wastewater treatment plants (WWTPs) stand as pivotal WWTPs are instrumental in promoting municipal water sustain-
+elements of urban infrastructure, playing a vital role in improving ability through a comprehensive process that includes the collection,
+regional water quality and managing municipal systems (Tong et al., treatment, and discharge of wastewater (Li et al., 2021; Moussavi et al.,
+2020; Zhang et al., 2021c; Thompson et al., 2022; Lu et al., 2024). The 2021). This process facilitates the transformation of organic compounds
+pressing challenge of global water scarcity, coupled with the imposition into GHG emission hotspots, with the consumption of chemicals and
+of stricter water quality standards, underscores the critical need for electricity further contributing to indirect carbon emissions (Fang et al.,
+centralized wastewater treatment systems to protect water resources 2019; Wei et al., 2020; Kumar et al., 2021). The production of sludge, as
+(Qu et al., 2019; Zhang et al., 2021c; Ehalt Macedo et al., 2022). How- a by-product of wastewater treatment, poses additional challenges by
+ever, while fulfilling their primary objective of water purification, increasing GHG output. The diversity among treatment plants and
+WWTPs also inadvertently contribute to greenhouse gas (GHG) emis- technologies leads to varying levels of GHG emissions, necessitating a
+sions through their energy and chemical usage (Foley et al., 2010a). In deeper understanding of the factors influencing these emissions (Bao
+recent decades, coastal cities have become focal points of et al., 2016; Mannina et al., 2019; Du et al., 2023). Emissions from
+socio-economic activities, experiencing rapid urbanization and popula- wastewater treatment are categorized into direct and indirect sources,
+tion growth. This surge has led to an increase in wastewater generation, with direct emissions arising during the treatment of wastewater and
+further degrading water quality and amplifying GHG emissions (Wang sludge, and indirect emissions stemming from energy and material
+* Corresponding author. Fujian Provincial Key Laboratory for Coastal Ecology and Environmental Studies, College of the Environment and Ecology, Xiamen
+University, Xiamen, 361102, China.
+E-mail address: nwchen@xmu.edu.cn (N. Chen).
+https://doi.org/10.1016/j.envres.2024.119398
+Received 5 March 2024; Received in revised form 31 May 2024; Accepted 9 June 2024
+Availableonline27June2024
+0013-9351/©2024ElsevierInc.Allrightsarereserved,includingthosefortextanddatamining,AItraining,andsimilartechnologies.
+
+--- Page 2 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+consumption (Wu et al., 2022; Du et al., 2023; Yang et al., 2023). plants, WWTPs facilities that can operate for a lifespan of 30–50 years,
+Despite advancements in wastewater treatment infrastructure, the GHG emissions during the construction and demolition phases of these
+resultant increase in energy consumption and GHG emissions presents a plants are relatively low, and can therefore be disregarded (Gu et al.,
+paradox, highlighting the need for a nuanced analysis of WWTPs’ 2016). In the urban wastewater system, there are main five main scopes:
+environmental impacts (Zhang et al., 2021b). Coastal regions, with their wastewater collection, wastewater treatment, sludge treatment and
+varied economic activities and population densities, present unique disposal, treated water effluent, and untreated wastewater. According to
+patterns of GHG emissions, underscoring the importance of under- previous studies (Zhang et al., 2017, 2021b), GHG emission during
+standing these spatial disparities for effective emission reduction stra- wastewater collection was relative low. In this study, we only take
+tegies (Vitousek et al., 1997; Jin et al., 2014). While the need for wastewater treatment, sludge treatment and disposal, treated water
+research and background information on this topic is evident, the cur- effluent, and untreated wastewater into account. Fig. 1 shows the con-
+rent literature primarily focuses on the general impact of WWTPs ceptual framework designed to meet the objective of municipal
+without adequately addressing the unique challenges faced by coastal wastewater-related GHG release. During wastewater treatment, energy
+areas in China. This study aims to fill this research gap by specifically and chemicals are used to drive the water cycle. After treatment,
+examining coastal provinces, where the convergence of high population wastewater is released into the aquatic environment, and the remaining
+density, industrial activity, and environmental sensitivity amplifies the COD and nitrogen can also transfer, generating and emitting GHG. The
+importance of effective wastewater management strategies. Further- GHG released during water treatment, sludge treatment and disposal,
+more, there is a lack of comprehensive studies that explore the temporal WWTPs treated water effluent, and untreated water are examined. GHG
+and spatial characteristics of GHG emissions from WWTPs in China emissions from wastewater and sludge treatment processes comprise
+(Vitousek et al., 1997). direct and indirect emissions. Direct emissions are related to GHG pro-
+Hence, the main objectives of this research are to: (1) delineate the duction and release on-site during proceedings. According to IPCC
+temporal and spatial characteristics of GHG emissions in prefecture- (2019), CO2 production and emissions originate from the biosolids
+level cities in coastal regions; (2) identify the driving factors behind carbon, which is defined as carbon neutral and excluded from the
+GHG emissions from wastewater treatment in these areas; and (3) pro- calculation of GHG emissions. Indirect emissions are generated from
+pose strategies to mitigate GHG emissions through improved wastewater energy and chemical usage.
+treatment practices. A central hypothesis of this study is that centralized The emissions of three GHG gases (including CO2, CH4, and N2O)
+wastewater treatment, while essential, may exacerbate GHG emissions, were all converted into CO2 equivalents of emission according to the
+and an increase in treatment efficiency could lead to a reduction in recently updated global warming potential values of 27.0 CO2e/yr for
+carbon emissions. This research contributes to the existing body of CH4 and 273 CO2e/yr for N2O over a 100-year global warming potential
+knowledge by offering a detailed analysis of the impact of WWTPs on (IPCC, 2021). The boundary of the framework includes all processes that
+GHG emissions in coastal provinces of China, providing insights that have a significant contribution to GHG emissions. As a result, CH4 and
+could inform policy and practice nationally. N2O emissions from each stage were calculated, and they were also
+summed by category.
+2. Methods and data sources
+2.1. Framework and scope of wastewater and wastewater treatment GHG 2.2. Calculation of GHG emission from wastewater and wastewater
+emission treatment
+The term “wastewater system" refers to an integrated system that There are 11 provinces in China coastal regions, except Hong Kong,
+includes asset construction, operations and maintenance, and demoli- Macau, and Taiwan (Supplement Information Table S1). In the last few
+tion. In comparison to the operational phase of wastewater treatment decades, turning a county into a county-level city, a county into districts,
+or a county-level into districts has been an important way for
+Fig. 1. A systematic illustration of GHG emissions from urban wastewater infrastructure.
+2
+
+--- Page 3 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+administrative reform in China, which has a direct effect on the built 2.3. Indirect emissions
+district area, urban population, water supply, and wastewater discharge.
+By the end of 2019, there were 115 prefecture-level cities and 15 county- 2.3.1. Energy consumptions
+level cities that were directly governed by the provincial government in Electricity consumption and fossil energy usage during wastewater
+coastal provinces, except Hong Kong, Macau, and Taiwan. In this study, and sludge treatment. CO2 emissions from fossil usage mainly occur
+we use all these 130 cities on the mainland as the basic unit to analyze during the period of sludge treatment and disposal. Electricity is widely
+temporal and spatial wastewater GHG emissions. Under prefecture-level used during the wastewater and sludge treatment process, such as
+cities, municipal districts and county-level cities are expressed as urban pumping, mixing, aeration, thickening, dewatering, etc. In this study,
+cities, while others are denoted as county seats. Prefecture-level cities’ the average energy consumption is based on water quality treatment and
+data was summed up by urban cities and county seats. Prefecture-level the treatment process. Electricity usage CO2 emission is expressed as:
+statistical data was collected individually based on these two kinds of
+EM1 =e⋅Q⋅OM
+cities. Ele
+To calculate the total GHG emissions from wastewater in coastal
+where, EM1 is the CO2 emission from electricity consumption, e is the
+cities, we collected different datasets including basic WWTP informa- Ele
+electricity intensity, which indicates electricity usage per unit of treated
+tion, statistics data on social-economic factors, monitoring data on
+wastewater (kWh/t wastewater). Electricity usage per ton of wastewater
+inflow and effluent wastewater, GHG emission factors during waste-
+was collected from the Urban Water Drainage Statistical Yearbook
+water treatment, electricity usage, and many other datasets (Supplement
+(Association, 2014–2018). Taking into account the regional disparities
+information). According to the framework of wastewater GHG emis-
+in electricity usage due to geographical variations, this study categorizes
+sions, the total GHG emission consist of four sections:
+the coastal regions into northern coastal provinces, middle coastal
+EMTotal=EMWaterTre+EMWaterTre(cid:0)Effluent+EMSludgeTre+EMUntreWater
+provinces, and southern coastal provinces (SI 1.4.2). Additionally,
+wastewater treatment plants are classified based on treatment technol-
+where, EMtotal represents total GHG emissions (Gg CO2e/yr), EMWaterTre ogy and scale into large, medium, and small categories, facilitating the
+represents GHG emissions in wastewater treatment section (Gg CO2e/ calculation per ton of water. Q is total treated wastewater volume (m3).
+yr), EMWaterTre-Effluent represents GHG emissions from treated water OM is the electricity intensity, EF grid OM (kg CO2/kWh), which is
+discharge into surface water (Gg CO2e/yr), EMSludgeTre is GHG emissions related to CO2 emissions during electricity generation, is collected from
+in the section of sludge treatment and disposal (Gg CO2e/yr), and the Ministry of Ecology and Environment of the People’s Republic of
+EMUntreWater is GHG emissions from untreated wastewater (Gg CO2e/yr). China (MEE, 2006–2019, https://www.mee.gov.cn/ywgz/ydqhbh/wsqt
+Previous studies have shown significant differences in electricity kz). In these reports, China is divided into 6 major regions, with 4 of
+consumption, removal efficiencies of COD and TN, as well as generation them being coastal areas namely the Northeast region (Liaoning), the
+and emission coefficients of CH4 and N2O among different wastewater north China region (Hebei, Tianjin, and Shandong), the East China re-
+treatment processes (Bao et al., 2016; Mannina et al., 2019; Du et al., gion (Jiangsu, Shanghai, Zhejiang, and Fujian), and the Southern region
+2023). Therefore, this study employed different coefficients to account (Guangdong, Guangxi, and Hainan). Finally, electricity carbon intensity
+for various wastewater treatment technologies when calculating GHG for each WWTP is set based on its distribution area serviced regional
+emissions and electricity consumption during wastewater treatment grid, which is determined by its geographical location. From 2006 to
+processes (Supplement information). 2019, the direct data from these reports were used for electricity in-
+COD and TN concentrations at the wastewater treatment plant level tensity, while data before 2006 was substituted with figures from the
+were collected from the Urban Water Drainage Statistical Yearbook year 2006.
+(Association, 2014–2018). Previous studies have shown that at the na-
+tional level, the influent and effluent concentrations (median values) of 2.3.2. Chemical production usage
+COD at wastewater treatment plants have exhibited a decreasing trend, During wastewater treatment, sludge treatment, and disposal pro-
+while the variation in TN is relatively small (Hu, 2021). However, trends cesses, a large quantity of chemicals is used to resist reactions, such as
+vary among different provinces. Among coastal provinces, some show an extra carbon source, polyaluminium chloride (PAC), PAM, polymer, etc.
+increasing trend, some show a decreasing trend, while others show no Chemical CO2 emission mainly originate from PAC (0.0227 kg CO2e/
+significant change (Tong et al., 2020). According to the statistical data, kg), PAM (1.50 kg CO2e/kg), and carbon sources (Bani Shahabadi et al.,
+there was no significant change of COD and TN concentrations in inflow 2010; Frijns, 2012; Chai et al., 2015).GHG emissions from chemical
+and effluent at the city level from 2014 to 2017 (Figs. S3–S6). Addi- usage refer to the embedded CO2 in the production of chemicals. This
+tionally, detailed data on COD and TN concentrations from wastewater part of CO2 emissions is relatively low compared to other addressed
+treatment plants in Zhejiang Province were collected for the period from sources (Song et al., 2015; Zhang et al., 2017). The chemical usage and
+2013 to 2018 (http://sthjt.zj.gov.cn/col/col1201962/index.html). A CO2 emissions of sludge are calculated. GHG emissions from the pro-
+regression analysis of this data indicated that the intercepts for COD and duction of inputted chemicals in the water supply system were estimated
+TN concentrations were both less than 0.03, and the R2 values were both by wastewater quantity as
+below 0.10 (Fig. S9). These results suggest a minimal trend in COD and
+EM1 Chem=fchem⋅Q
+TN concentrations over the analyzed period. Furthermore, a comparison
+with the data presented by Tong et al. (2020) showed that, at the pro-
+vincial average level, the inflow and effluent concentrations of TN in where, EM1 Chem is total chemical equivalent CO2 emission in the waste-
+most provinces did not experience significant changes over 2008–2017. water treatment process (Gg CO2e/yr). fchem is the fraction of equivalent
+Based on these findings, it was assumed that COD and TN concentrations CO2 emission (kg CO2/m3 wastewater). Q is the treated wastewater
+in inflow and effluent at the city level remained stable from 1990 to (m3). There is seldom research presenting chemical usage per unit of
+2019. The same activity data for COD and TN concentrations were used wastewater. fchem is not as significant as other emission factors, which is
+for each city. For cities with missing data, average concentrations of 0.02 kg CO2/m3 and 0.04 kg CO2/m3 for WWTPs in Zhengzhou city (Yu
+COD and TN at the provincial level were used to fill in the gaps. et al., 2020), 0.06 kg CO2/m3 in Shenzhen City (Song et al., 2015), and
+0.024 kg CO2/m3 in Beijing (Hu et al., 2021). In this study, the average
+value is adopted to calculate the chemical equivalent CO2 emission for
+all WWTPs, which is set at 0.036 kg CO2/m3.
+3
+
+--- Page 4 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+2.4. GHG emission from treated wastewater
+After being treated by WWTPs, wastewater effluents still have a
+substantial quantity of COD and TN, which is mostly discharged into
+surface water. Hydraulic turbulence of effluent water may decrease DO
+in receiving water bodies, which can stimulate CH4 and N2O generation.
+Monitoring results showed that substantial amount of CH4 emit after
+discharging into surface water, which could even be comparable to that
+from WWTPs (Guisasola et al., 2008). GHG emission from this scope can
+be calculated as follows:
+EMWaterTre(cid:0)Effluent=EM3 CH4+EM3
+N2O
+where, EMWaterTre-Effuent is the total GHG emission from treated waste-
+water, EM3 and EM3 is the CH4 and N2O emission (Gg CO2e/yr),
+CH4 N2O
+which can be calculated as follows:
+EM3 CH4=EFCH4⋅mCOD⋅f
+Fig. 2. Temporal variations in GHG emissions from different municipal
+wastewater scopes in China’s coastal provinces.
+EM3 N2O=EFN2O⋅mTN⋅f
+(Fig. 2). Starting at 3367.1 Gg CO2e/yr in 1990, the emissions surged to
+where, EFCH4 and EFN2O are the emission factors of CH4 (kg CH4/kg
+23644.8 Gg CO2e/yr in 2019, indicating a marked upward trend with an
+COD) and N2O (g N2O/kg TN) in surface water. mCOD and mTN are the
+annual growth rate of 6.95%. Notably, there are distinct temporal var-
+quantities of COD (t) and TN (t). For most aquatic water, the emission
+factor is 0.028 kg CH4/kg COD for CH4 and 0.005 (0.0005–0.075) kg iations in GHG emissions across different facets of wastewater man-
+N2O–N/kg N for N2O, respectively. While if the receiving water is agement, including wastewater treatment, sludge treatment, treated
+wastewater effluent, and untreated wastewater. GHG emissions from
+eutrophic or hypoxic, the values would be 0.048 kg CH4/kg COD and
+0.019 (0.0041–0.091) kg N2O–N/kg N (IPCC, 2019), respectively. wastewater treatment, sludge treatment, and treated wastewater
+effluent exhibit a synchronized upward trend from 1990 to 2019. The
+total emissions from these categories showed a modest increase from
+2.5. Driving force analysis 1990 to 2000, rising from 819.5 Gg CO2e/yr in 1990–2629.5 Gg CO2e/
+yr in 2000. Subsequently, post-2000, there was a substantial 7.77-fold
+Structure decomposition analysis and index decomposition analysis increase in total GHG emissions from these three categories, consti-
+(IDA) are two widely used methods to analyze indicator changes tuting 97.9% of the total emissions in 2019. Among these three cate-
+(Hoekstra and van den Bergh, 2003). To assess the effects of gories, wastewater treatment emerged as the largest source, accounting
+socio-economic factors on variation in GHG emission from city waste- for an average of 60.5%. Sludge treatment ranked second with 33.6%,
+water, Logarithmic Mean Divisia Index (LMDI) model was employed, while treated wastewater contributed the least at 5.9%. Conversely,
+which was initiated by Ang and Choi (1997) with zero residual errors. GHG emissions from untreated wastewater displayed an increasing
+GHG emission from wastewater has been proven to be highly related to trend from 1990 to 2002, peaking in 2002 at 3529.6 Gg CO2e/yr. Sub-
+the factors of total population, urban population, wastewater discharge, sequently, there was a decreasing trend from 2002 to 2019, reaching its
+and wastewater GHG emission intensity (Zhang et al., 2019; Wang et al., lowest point in 2019 at 489.4 Gg CO2e/yr. Before 2002, emissions from
+2023; Xiao et al., 2024). As a result, the effects of population, urbani- untreated wastewater dominated, accounting for an average of 67.1% of
+zation, wastewater discharge per capita, and wastewater GHG emission total emissions. However, after 2002, emissions from wastewater
+intensity were chosen as driving factors to decompose changes in the treatment became more significant, eventually becoming the dominant
+city wastewater GHG emission as follows: contributor from 2004 onward.
+There were notable variations in the composition of GHG emissions
+EMTotal=P⋅Pu Prban⋅W PuW rbaD n⋅E WM WTo Dtal
+from wastewater in the coastal areas of China between 1990 and 2019
+(Fig. 3). Primarily, electricity emerged as the most significant source,
+where, EMTotal is the total GHG emissions from wastewater, P is the total followed by CH4 and N2O emissions, CO2 emissions from chemical
+population, Purban is the urban population, and WWD is the total processes, fossil CO2 emissions, and offset CO2. Although the GHG
+wastewater discharge quantity. emissions from these components exhibited an increasing trend over the
+Purban/P signifies the urbanization rate, denoting the ratio of the specified period, there were substantial differences in emission quanti-
+urban population to the total population, and it serves as an indicator of ties. In 1990, CH4 emissions accounted for the highest proportion at
+the population’s level of urbanization. 62.1%, while in 2019, GHG emissions from electricity consumption
+WWD/Purban represents the annual wastewater discharge per capita, were the highest, reaching 43.5%. Aligned with the total wastewater
+serving as a metric for the intensity of wastewater discharge. treatment volume, CO2 emissions originating from chemical usage and
+EMTotal/WWD refers to GHG emission per unit volume of wastewater direct CO2 emissions from coal and diesel usage experienced a modest
+discharge, providing insight into the intensity of GHG emissions asso- increase, progressing from 67.9 Gg CO2e/yr in 1990–2454.9 Gg CO2e/yr
+ciated with wastewater. in 2019, contributing 2.0% in 1990 and rising to 10.4% in 2019. CH4
+and N2O emissions constituted the major share, undergoing a significant
+3. Result increase from 2092.2 Gg CO2e/yr and 817.7 Gg CO2e/yr in
+1990–6196.6 Gg CO2e/yr and 4787.5 Gg CO2e/yr, respectively. Elec-
+3.1. Trend and evolution of wastewater GHG emission in coastal tricity usage-originated GHG emissions experienced a modest upswing
+provinces from 1990 to 2000, followed by a substantial increase from 2000 to
+2019. GHG emissions from electricity usage stood at 392.2 Gg CO2e/yr
+Over the past few decades, there has been a substantial increase in in 1990, witnessing a remarkable 26.4-fold surge to reach 10364.1 Gg
+total GHG emissions from municipal wastewater in coastal provinces CO2e/yr in 2019. CH4 emissions dominated as the primary GHG source
+4
+
+--- Page 5 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 3. Temporal variations of (a) annual GHG emissions and (b) proportional analysis by type (CO2, CH4, and N2O as direct emissions, chemical and electricity usage
+as indirect emissions) from municipal wastewater in coastal provinces.
+before 2006, after which it assumed a secondary position to GHG 3.3. Drivers of the trend in the wastewater GHG emissions
+emissions from electricity usage.
+The LMDI method was applied to attribute GHG emission driving
+factors, including population, urbanization rate, wastewater discharge
+3.2. Spatial and temporal variation of GHG emission at city level per capita, and wastewater GHG emission intensity. The spatial patterns
+on the contributions of different factors to changes in GHG emissions
+The spatial and historical variation of municipal wastewater GHG from wastewater for the periods 1990–2000, 2001–2010, and
+emissions from 1990 to 2019 at the city level is shown in Fig. 4. A sig- 2010–2019 are shown in Fig. 5. The contributions to the trends in
+nificant increasing trend was observed not only in developed regions (e. wastewater GHG emissions were about 543.5, 1797.1, 75.7, and 481.1
+g., Yangtze River Delta agglomeration, Pearl River Delta agglomeration) Gg CO2e, respectively, for population, urbanization rate, wastewater
+but also in developing regions (e.g., inner-city in Guangxi). Clear dif- discharge per capita, and emission intensity in the period from 1990 to
+ferences in temporal and spatial characteristics were observed in total 2000. The values were 1015.4, 5115.3, 2355.0, and 5587.9 Gg CO2e for
+GHG emissions. Cities in coastal provinces showed a large range of GHG the years 2000–2010, and 1241.1, 3876.6, 1352.7, and 1704.8 Gg CO2e
+emissions from wastewater management both spatially and temporally, for the years 2010–2019. Generally, urbanization rate and emission
+ranging from 0.027 to 666.2 Gg CO2e/yr in 1990 and 0.114–1894.3 Gg intensity were the two most important factors controlling wastewater
+CO2e/yr in 2019, indicating a huge disparity in cities’ GHG emissions. GHG emissions. In contrast, drivers of population were relatively low.
+Generally, GHG emissions in the northern coastal provinces were higher However, wastewater per capita contributed negatively to GHG emis-
+than those in the southern coastal provinces. Rapidly increasing GHG sions in the periods from 1990 to 2000 and from 2000 to 2010, while
+emissions were observed in the regions of Liaoning-Tianjin-Hebei- posing a positive driver for the years 2010–2019.
+Shandong urban agglomeration, Yangtze River Delta Agglomeration, Specifically, the positive increase of the drivers in the period from
+and Pearl River Delta Agglomeration. In the southern coastal provinces, 1990 to 2000 was relatively small for all the coastal province cities
+higher emission cities were located in the Pearl River Delta Agglomer- (Fig. 6). The promotion of urbanization rate and emission intensity was
+ation, while the GHG emission differences were relatively low in generally spatially distributed from northern to southern coastal prov-
+northern and middle coastal provinces. In 2019, the highest GHG inces, while few cities had a negative driver effect for the periods from
+emissions of 1875.3 Gg CO2e/yr were in Shanghai. Besides, cities with 2000 to 2010 and from 2010 to 2019. The decrease in wastewater per
+total GHG emissions above the average level were mainly located in capita mainly occurred in southern coastal provinces for the period from
+northern provinces. The lowest GHG emissions were in Sansha City in 2000 to 2010. The increase of emission intensity was less significant for
+Hainan Province. The top ten cities in total emissions are either capital northern coastal provinces for the period from 2010 to 2019, and a
+cities or the most vibrant economic cities (e.g., Suzhou in Jiangsu, decreasing trend was promoted in southern coastal provinces.
+Shenzhen in Guangdong). In contrast, the bottom-ranked cities (Sansha
+City in Hainan) have relatively small economies with a low level of 4. Discussion
+industrialization. The top 20 cities contribute 56.0% of the total emis-
+sions of the 130 cities in 2019, while the bottom half or 65 cities emitted 4.1. Interpretation of trends and spatial disparities in GHG emissions
+11.6% of total emissions. Cities with higher emissions are predomi-
+nantly concentrated in the Yangtze River Delta, Pearl River Delta, and In this study, the estimated GHG emissions from wastewater gener-
+the cities surrounding the Bohai Sea, with 3 of the top 20 emitting cities ally align with previous research. The emission ranges for wastewater
+located in the southern coastal provinces, 8 in the middle coastal GHG, CH4, and N2O in coastal provinces cities were within expected
+provinces, and 9 in the northern coastal provinces. values (Yan et al., 2019; Du et al., 2023), emphasizing CH4 and N2O
+5
+
+--- Page 6 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 4. Reginal distribution of GHG emissions from municipal wastewater in cities of coastal provinces of China in (a)1990, (b)2000, (c)2010, and (d)2019. Data for
+Hong Kong, Macao, and Taiwan are not included.
+emissions during wastewater and sludge treatment. Notably, N2O times more than the water treatment process (Fig. 3). The results are in
+emissions in this study, calculated using TN removal concentration, accordance with a meta-analysis which indicates that CH4 emission was
+slightly exceed previous estimates (Yan et al., 2019). CH4 emissions lower during the wastewater treatment process while higher in sludge
+from wastewater treatment are lower than in other studies (Zhao et al., treatment and disposal process (Fang et al., 2019; Wei et al., 2020; Du
+2019), attributed to our use of COD removal concentration. However, et al., 2023). The high levels of CH4 and N2O emissions from the
+the study underscores the substantial contribution of sludge treatment to wastewater treatment process can be attributed to the high rates of COD
+CH4 emissions, often overlooked in prior research. As the byproduct of and TN removal. The removal of pollutants during wastewater treatment
+wastewater treatment, about 18% of TN and 39% of COD in inflowing can lead to increased retention and conversion rates of CH4 and N2O
+water were removed through sludge, and about half of COD was finally production. Pollutant removal may make high retention and high con-
+converted to CH4 (Peng et al., 2015).This study reveals a significant role version rate of CH4 and N2O production and emission during the
+of sludge treatment and disposal in CH4 emissions, contributing about 9 wastewater treatment process and sludge treatment and disposal process
+6
+
+--- Page 7 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 5. The changes in wastewater GHG emission caused by changes of population, urbanization rate, wastewater discharge per capita, and wastewater GHG
+emission intensity during the period of 1990–2019.
+(Jia et al., 2019; Mannina et al., 2019). discharge, the expansion of urbanized areas markedly heightened
+Spatial disparities in wastewater discharge and treatment within overall wastewater discharge from cities (Fig. S10). Therefore, changes
+coastal provinces of China exhibit intricate patterns shaped by various in both population size and total population are pivotal factors driving
+factors, contributing to notable temporal and spatial differences in GHG GHG emissions from wastewater in coastal regions.
+emissions from municipal wastewater (Massara et al., 2017; Yan et al., In contrast to the growth in the total population and urban popula-
+2019). Linear correlations between GHG emissions and gross domestic tion, per capita wastewater discharge in coastal regions exhibited min-
+product (GDP), total population, urban population, regional urban imal change in total volume, a trend consistent across most cities. In
+population, number of WWTPs, total capacity of WWTPs, volume of some instances, there was even a declining trend in per capita water
+wastewater discharge, treated wastewater, and GHG emission intensity consumption. Consequently, the contribution of per capita wastewater
+of wastewater from 1990 to 2019 are depicted in Fig. 7a–h. Regional discharge to the growth of GHG emissions from wastewater in coastal
+economic development (represented by GDP) and wastewater treatment regions was relatively low, and in certain cases, negative during the
+capacity appear to have the close relationship with GHG emissions. period from 2000 to 2010 (Fig. 6). This suggests that variations in per
+Indeed, regional GHG emissions may reflect the status of local envi- capita wastewater discharge had a relatively minor impact on driving
+ronmental protection facilities’ construction and operation to some the increase in GHG emissions from wastewater in coastal cities.
+extent. Typically, economically developed regions with high pop- Concurrently, the rising GHG intensity, representing emissions per ton
+ulations, high urban population, and large wastewater discharge vol- of wastewater, contributed significantly to the overall increase in GHG
+umes tend to prioritize environmental protection efforts. Consequently, emissions. From 1990 to 2019, the average GHG intensity ranged from
+higher wastewater treatment capacities and rates may lead to increased 320.5 to 676.6 g CO2e/m3 wastewater, displaying an average annual
+GHG production during WWTP processing (Fig. S10). However, total increase of 12.3 g CO2e/m3, representing a 2.11-fold increase (Fig. 8).
+population and urban wastewater discharge alone may not accurately The dynamics of GHG intensity were intricately linked to the wastewater
+reflect wastewater treatment rates and efficiency, which are directly treatment rate, exerting a considerable influence on CH4 and N2O
+linked to GHG emissions. As total treated wastewater is most closely emissions, as well as CO2 emissions associated with electricity usage.
+associated with GHG emissions from WWTPs (Fig. 7g). This underscores the significant role played by the elevation of carbon
+The study results indicate a significant upward trend in GHG emis- emission intensity in wastewater in promoting overall GHG emissions.
+sions from municipal wastewater treatment plants in coastal provinces Unlike the IPCC’s approach which calculates wastewater GHG emissions
+(Fig. 2). This trend is likely closely associated with economic develop- based on population and protein intake levels, this study employs a
+ment, population growth, and increased urbanization. Population in- method based on wastewater treatment plant scales (IPCC, 2019). This
+crease is expected to be the primary factor in wastewater discharge approach takes into account variations in wastewater concentration
+quantity. Over the past three decades, there has been a continuous rise in across different cities, the influence of different wastewater treatment
+the total population of China’s coastal regions, with a particularly rapid processes, as well as factors such as wastewater treatment rates and
+surge during the period from 2000 to 2010. Coastal population figures pollutant retention rates in treatment plants.
+escalated from 235 million to 272.6 million, while urban population The diminishing impact of wastewater treatment on emissions post-
+numbers surged from 94.8 million to 169.3 million by 2010 (Fig. S12). 2010 suggests that higher concentrations of COD and TN in northern
+This heightened urbanization also led to population concentration, cities become pivotal factors contributing to elevated emissions
+fostering the expansion of urban construction areas and subsequently (Figs. S3–S6). It is noteworthy that this study assumes constant influent
+escalating municipal water usage and wastewater discharge. The and effluent concentrations in wastewater treatment plants. However,
+consequential surge in urban wastewater discharge contributed signifi- due to factors such as rainfall, rainwater collection rates, and waste-
+cantly to the rise in GHG emissions from wastewater (Xu et al., 2020). water collection rates, COD and TN concentrations exhibit interannual
+Despite a lack of a significant increase in per capita wastewater fluctuations (Hu, 2021). Comparative analysis indicates that GHG
+7
+
+--- Page 8 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 6. Historical changes of wastewater GHG emission driver in the period of (a)1990–2000, (b)2000–2010, and (c) 2010–2019.
+Note: D1 denotes population, D2 is urbanization rate, D3 is wastewater per capita, D4 is wastewater GHG emission intensity.
+emissions from wastewater in northern coastal provinces surpass those investments. Factors such as population size, urbanization rate,
+in the south. Substantial differences in wastewater treatment rates pollutant concentrations, and wastewater treatment rate play crucial
+among coastal provinces highlight the influence of higher populations roles in determining GHG emissions from municipal wastewater. The
+and pollutant concentrations in the north, resulting in pronounced GHG intricate correlation between GHG emissions and various factors,
+emissions during wastewater discharge and treatment (Figs. S13 and including regional economic development, population size, and waste-
+S14), attributed to increased pollutant concentrations (Figs. S3–S6). In water treatment capacity, underscores their role as key indicators
+addition to the differences between northern and southern coastal reflecting the status of local environmental protection facilities.
+provinces, the characteristics of disparities among cities within coastal Economically prosperous regions with high population densities and
+provinces also vary. Regarding the disparities among the 11 coastal substantial wastewater discharge volumes, coupled with a strong focus
+provinces, the differences between northern and southern coastal on environmental protection, tend to exhibit elevated GHG emissions
+provinces have been increasing over time. Furthermore, within each of during wastewater processing at WWTPs. The geographical positioning
+the 11 coastal provinces, the internal differences among cities in the of a region also influences wastewater discharge patterns. Regions with
+northern coastal provinces are relatively small, while those in the elevated wastewater treatment capacities and high treatment rates
+southern coastal provinces are gradually increasing. This demonstrates experience increased GHG emissions during wastewater processing at
+changes in the driving forces and influencing factors among the 11 WWTPs.
+coastal provinces, particularly manifested in differences in urban Over the past few decades, significant spatial disparities have
+populations. emerged in the discharge and treatment of municipal domestic waste-
+Despite advancements, persistent temporal and spatial differences in water due to uneven regional economic development, changes in envi-
+wastewater discharge and treatment are influenced by urban develop- ronmental policies, and variations in environmental investments. China,
+ment, regional locations, population sizes, and environmental home to the world’s largest number of wastewater treatment plants (Qu
+8
+
+--- Page 9 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 7. Linear regression of wastewater GHG emissions from 1990 to 2019. Relationship between total GHG emissions and different factors: (a) GDP, (b) total
+population, (c) urban population, (d) WWTPs number, (e) WWTPs capacity, (f) total wastewater, (g) treated wastewater, and (h) GHG emission intensity.
+et al., 2022), exhibits notable regional differences in GHG emissions, As a result of these regulations, the GHG emissions from municipal
+influenced by uneven economic development, distinct environmental wastewater are expected to increase.
+protection policies, and varying investments across different regions.
+Despite constituting the majority of WWTPs, small-sized WWTPs 4.2. Disturbance of wastewater treatment on GHG emissions and scenario
+contribute approximately 4.0% of treatment capacities which are mainly analysis
+located in the southern region (Fig. S1). Conversely, medium-sized
+WWTPs dominate the size scale in the northern area. The uneven In the realm of city-scale drivers of GHG emissions from wastewater,
+spatial distribution of carbon emissions from wastewater treatment the evolution of wastewater GHG emission intensity stands out as a
+plants has been influenced by varying levels of plant construction, pivotal factor steering the augmentation of urban GHG emissions (Singh
+particularly before 2010, causing significant disparities between cities at et al., 2016; Lu et al., 2019; Yan et al., 2019). The alterations in GHG
+the prefecture level. However, as the treatment capacities of wastewater emission intensity predominantly manifest in the fluctuations of CH4
+plants have continuously improved across regions over time, the and N2O emissions, coupled with variations in electricity consumption
+disruptive effect of wastewater treatment plants on carbon emission (Zhang et al., 2021b). Crucially, these variations are intricately tied to
+intensity has diminished. changes in wastewater treatment rates, spotlighting the pivotal role
+It is important to note that this study only considers the energy played by GHG emission intensity in propelling overall GHG emissions
+consumption per ton of wastewater based on the processes and scale of from urban wastewater. Over the analyzed period from 1990 to 2019,
+wastewater treatment plants, and the GHG emissions during the treat- the GHG emission intensity exhibited dynamic patterns, reflecting
+ment process solely account for the reduction of pollutants. It is note- changes in the composition of emissions and the efficiency of waste-
+worthy that as the concentration of pollutants removed from wastewater water treatment processes (Fig. 9). The construction of wastewater
+increases, more chemicals need to be added, resulting in higher elec- treatment plants in China has rapidly progressed over the past few de-
+tricity consumption. Therefore, both direct and indirect GHG emissions cades, marked by substantial improvements in both quantity and total
+also increase accordingly. Since 2019, the environmental and housing treatment scale (Figs. S1 and S2). The escalating demand for surface
+departments have introduced a series of regulations aimed at further water quality has led to continuous growth in China’s wastewater
+increasing the urban wastewater treatment rate and improving the treatment volume (Fig. S10). This, however, poses a dual challenge, an
+effluent standards of wastewater treatment plants. As a result, the GHG increase in direct GHG emissions during wastewater treatment and
+emissions from municipal wastewater are expected to increase. Indeed, heightened energy consumption, making wastewater treatment a major
+the environmental and housing departments introduced a series of energy-consuming industry (Qu et al., 2019). Consequently, wastewater
+regulations in 2019 aimed at increasing the urban wastewater treatment treatment significantly impacts the types, structural composition, and
+rate and raising the effluent standards of wastewater treatment plants. spatiotemporal distribution characteristics of GHG emissions from
+9
+
+--- Page 10 ---
+Q. Yu et al. E n v i r o n m e n t a l R e s e a r c h 259(2024)119398
+Fig. 8. Historical change of wastewater GHG emissions intensity in the period of 1990–2019.
+increasing N2O emission amount and markedly promoting electricity
+usage CO2 emission. Initially, emissions were dominated by untreated
+wastewater, marked by substantial CH4 emissions before 2004. How-
+ever, a pivotal shift occurred post-2004, where emissions from waste-
+water treatment processes, particularly driven by electricity usage and
+N2O emissions, took precedence. The development of wastewater
+treatment infrastructure in China has undergone significant expansion,
+characterized by both increased quantity and expanded treatment scales
+over the past few decades (Figs. S1 and S2). This section explores the
+profound impact of wastewater treatment on GHG emissions, focusing
+on the alterations in emission types, structural composition, and
+spatiotemporal distribution. To evaluate the impact of wastewater
+treatment on GHG emissions, an extensive analysis was undertaken to
+calculate the changes in GHG emissions under different wastewater
+treatment rates from 1990 to 2019. Specifically, scenarios where
+wastewater treatment rates were determined based on the carbon
+emission intensity for GHG levels were excluded from the calculations.
+For cities lacking specific data on wastewater and sludge treatment
+emissions, provincial-level data was utilized to fill the gaps. The findings
+reveal an overall increase in total GHG emissions across different
+Fig. 9. GHG emissions from municipal wastewater under different wastewater
+wastewater treatment rates during the specified period, with higher
+treatment rates
+rates correlating with elevated GHG emissions (Fig. 9). Throughout this
+In this figure, actual rate was the real treatment rate, the others denote emission
+timeframe, both actual wastewater treatment volume and treatment
+under given wastewater treatment rates.
+rates exhibited a consistent upward trajectory, aligning with the
+continuous rise in total GHG emissions from wastewater. Notably, the
+wastewater. In total, the wastewater treatment rate increased from
+impact of wastewater treatment on GHG emissions intensified with the
+10.5% in 1990 to 94.2% in 2019. The increasing wastewater treatment
+escalation in wastewater treatment rates. Between 1990 and 2000, when
+rate not only alters the total emission amount but also affects the
+the overall wastewater treatment rate remained below 20%, the influ-
+composition of GHG emission type (Fig. 3). Generally, increasing of the
+ence of centralized wastewater treatment on GHG emissions was rela-
+wastewater treatment rate reduces CH4 emission amount while slightly
+tively modest. However, post-2000, with a rapid surge in wastewater
+10

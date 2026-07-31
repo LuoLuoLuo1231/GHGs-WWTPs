@@ -1,0 +1,634 @@
+--- Page 1 ---
+Process Safety and Environmental Protection 204 (2025) 108045
+Contents lists available at ScienceDirect
+Process Safety and Environmental Protection
+journal homepage: www.journals.elsevier.com/process-safety-and-environmental-protection
+Unveiling the seasonal variations in greenhouse gas emissions from a
+representative full-scale swine farm’s wastewater treatment system via life
+cycle assessment
+Xingyun Yuana, Meiling Lua, Zhiyin Wuf, Zixuan Liua, Xin Wena, Baohua Mag, Yongde Zoug,
+Tao Chenb,*, Yinbao Wua,c,d,e,**
+aGuangdong Laboratory for Lingnan Modern Agriculture, National Engineering Research Center for Breeding Swine Industry, College of Animal Science, South China
+Agricultural University, Guangzhou 510642, China
+bKey Laboratory of Efficient Utilization of Non-grain Feed Resources (Co-construction by Ministry and Province), Ministry of Agriculture and Rural Affairs, Shandong
+Provincial Key Laboratory of Animal Nutrition and Efficient Feeding, College of Animal Science and Technology, Shandong Agricultural University, Taian 271017, China
+cGuangdong Provincial Key Lab of Agro-Animal Genomics and Molecular Breeding, and Key Lab of Chicken Genetics, Breeding and Reproduction, Ministry of Agriculture
+and Rural Affairs, South China Agricultural University, Guangzhou 510642, China
+dState Key Laboratory of Swine and Poultry Breeding Industry, College of Animal Science, South China Agricultural University, Guangzhou 510642, China
+eMinistry of Agriculture Key Laboratory of Tropical Agricultural Environment, South China Agricultural University, Guangzhou 510642, China
+fWens Foodstuff Group Co., Ltd., Yunfu 527400, China
+gFoshan Customs Comprehensive Technology Center, Foshan 528200, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Swine farm wastewater treatment systems (WWTSs) are important contributors to greenhouse gas (GHG)
+Swine farm emissions in the agricultural sector. While life cycle assessment (LCA) is a well-established method for quanti-
+Wastewater treatment systems fying such emissions, few studies have addressed seasonal variability at the process level in full-scale systems. In
+Greenhouse gas
+this study, LCA was employed to evaluate the GHG emissions from a full-scale WWTS on a swine farm, including
+Life cycle assessment
+Two-stage anoxic–oxic pre-treatment, a two-stage anoxic–oxic (A/O/A/O) unit, and deep treatment, using operational data collected
+over four seasons. The results revealed that 95.61 % (189.60 kg CO₂-e) of the total emissions were direct, mainly
+Biogas digester
+from nitrous oxide (N₂O, 79.13 %) and methane (CH₄, 20.87 %). The A/O/A/O unit was the dominant source of
+N₂O emissions (93.09 %), particularly in fall, whereas CH₄ emissions were associated primarily with the biogas
+digester (94.31 %), peaking in summer. Recovering biogas for energy generation reduced direct emissions by
+37.31 kg CO₂-e and further offset 5.28 kg CO₂-e from electricity consumption. Indirect emissions (4.39 %, 8.71 kg
+CO₂-e) were attributed mainly to electricity consumption, with the energy-intensive A/O/A/O unit accounting
+for 49.36 % of these. After the mitigation benefits from biogas utilization were considered, The net GHG
+emissions were calculated as 155.72 kg CO₂-e per cubic meter of treated wastewater. This study provides a
+comprehensive, seasonally resolved assessment of GHG emissions from swine farm WWTSs and identifies high-
+impact units for emission reduction, providing valuable insights for optimizing future technological improve-
+ments and development.
+1. Introduction to agricultural greenhouse gas (GHG) emissions, and swine farming is
+the second-largest source of GHG emissions in the livestock sector, ac-
+Climate change represents one of the most pressing challenges con- counting for approximately 13 % of the total emissions from livestock (Li
+fronting humanity in the 21st century, with the greenhouse effect et al., 2022). Nearly half of global pork production and consumption
+exerting profound effects on global ecosystems and human societies occurs in China, and the net GHG emissions from the pig sector in China
+(Hoegh-Guldberg et al., 2019). Livestock farming is a major contributor increased by 16 million tons (Mt) of carbon dioxide equivalents (CO2-eq)
+* Corresponding author.
+** Corresponding author at: Guangdong Laboratory for Lingnan Modern Agriculture, National Engineering Research Center for Breeding Swine Industry, College of
+Animal Science, South China Agricultural University, Guangzhou 510642, China.
+E-mail addresses: chentao@sdau.edu.cn(T. Chen), wuyinbao@scau.edu.cn(Y. Wu).
+https://doi.org/10.1016/j.psep.2025.108045
+Received 21 July 2025; Received in revised form 15 October 2025; Accepted 21 October 2025
+Available online 22 October 2025
+0957-5820/© 2025 Institution of Chemical Engineers. Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and
+similar technologies.
+
+--- Page 2 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+from 1976 to 2016 (Dai et al., 2021). These emissions continue to grow variations in GHGD emissions. Unlike previous research focused on
+due to the rapid transition toward large-scale, standardized, and inten- isolated treatment units, this study provides an integrated assessment of
+sified production systems in the agricultural sector (Yan et al., 2023). GHG emissions across an entire full-scale system, offering a more
+Swine farm wastewater is characterized by high concentrations of comprehensive understanding of emission dynamics and reduction
+organic matter and nitrogen compounds, and its storage and treatment opportunities.
+are significant sources of GHG emissions (Li et al., 2024a; Wu et al.,
+2020). 2. Materials and methods
+In regions with limited land capacity for manure utilization, the
+decoupling of crop and livestock systems, together with severe land 2.1. Unit description of an A/O/A/O WWTS at a typical large-scale
+fragmentation, has led large-scale swine farms to adopt standard swine farm
+discharge treatment systems predominantly. These systems typically
+involve solid–liquid separation, followed by anoxic–oxic (A/O) treat- In this study, a representative full-scale WWTS at a swine farm in
+ment and advanced treatment using membrane bioreactor (MBR) tech- Huizhou, Guangdong Province, with a treatment capacity of more than
+nology to meet discharge standards (Zhou et al., 2024). However, direct 400 m³ /day, which complies with effluent discharge standards, was
+greenhouse gas (GHGD) emissions from wastewater treatment systems evaluated. The wastewater treatment units included mainly a solid-
+(WWTSs) include methane (CH₄), nitrous oxide (N₂O), and carbon di- –liquid separator, biogas digester, sump, aeration tank, two-stage
+oxide (CO₂), which are released through processes such as anaerobic anoxic–oxic (A/O/A/O) unit, sedimentation tank, ultrafiltration mem-
+digestion, aerobic oxidation, nitrification, and denitrification (Chen brane bioreactor (UF-MBR), reverse osmosis (RO) unit, and artificial
+et al., 2018). In addition, indirect greenhouse gas (GHGIND) emissions wetland (Fig. 1). In brief, after the solid–liquid separator, the waste-
+arise from the significant energy and chemical demands of these systems water enters the biogas digester for biogas generation and power pro-
+(Maktabifard et al., 2023). Given both the direct and indirect GHG duction. The wastewater then sequentially flows through the sump for
+emissions associated with WWTSs, accurate assessment of their overall flow equalization and through the aeration tank for oxygenation pre-
+emission potential is essential for evaluating their environmental impact treatment. The core treatment uses the A/O/A/O system for nitrogen
+(Bai et al., 2022). and phosphorus removal, in which microbial processes degrade organic
+Given the complex interactions between treatment wastewater units matter and convert ammonia nitrogen into nitrogen gas through nitri-
+and GHG emissions, a holistic evaluation framework is necessary to fication and denitrification. Advanced treatment employs the UF-
+quantify environmental impacts. Life cycle assessment (LCA) is a critical MBR+RO system: UF enhances solid–liquid separation, the MBR com-
+tool for evaluating the environmental performance of products and bines biological degradation with membrane filtration, and RO removes
+processes from a “cradle-to-grave” perspective. Depending on its scope, dissolved salts and trace contaminants. The effluent undergoes final
+LCA encompasses raw material extraction, manufacturing, trans- polishing in a constructed wetland to meet the discharge standard of
+portation, operation and maintenance, reuse or recycling, and final pollutants for livestock and poultry breeding industry (GB 18596–2001)
+disposal (Pryshlakivsky and Searcy, 2021). In the context of wastewater in China. The parameters of the facilities involved in the wastewater
+treatment, LCA enables a comprehensive assessment of resource con- treatment units are listed in Table S1in the supporting information.
+sumption, emissions, and environmental impacts beyond effluent qual-
+ity, encompassing energy use, GHG emissions, and waste generation. 2.2. Sample collection and operational parameter monitoring
+This methodology provides a scientific basis for formulating effective
+GHG mitigation strategies (Corominas et al., 2020). In recent years, LCA In this study, four rounds of sample collection and operational
+has been increasingly applied to assess GHG emissions from WWTSs on parameter monitoring were conducted, with each round spanning four
+swine farms. For instance, Shih et al. (2023) evaluated the environ- consecutive days across distinct seasons: spring (May 2023), summer
+mental performance of a rapid-build anaerobic fermenter module using (July 2023), autumn (October 2023), and winter (January 2024). Water
+LCA and reported significant emission reductions, such as a 51.8 % samples were collected in triplicate from sequential treatment units
+decrease in CH₄ and a 28.6 % decrease in N₂O emissions. The system also using sterile sampling containers, such as swine wastewater, biogas
+improved resource efficiency by generating more than 16,900 m³ of slurry, aeration tank outflow, A/O/A/O effluent, UF-MBR+RO
+biogas annually while maintaining treatment efficacy. Similarly, Zhang permeate, and artificial wetland final discharge. During sampling, in-
+et al. (2023)applied LCA to compare different wastewater pretreatment dicators such as ambient temperature, water temperature, and pH were
+technologies and reported that compared with conventional treatment measured in situ, while the remaining parameters, such as chemical
+without separation, screw extrusion solid–liquid separation signifi- oxygen demand (COD) and total nitrogen (TN) content, were measured
+cantly reduced the global warming potential (135.461 kg CO₂-eq) and according to the China National Standard Method (MEPPRC, 2002). To
+eutrophication potential (23.096 kg PO₄-eq). Recent in situ monitoring elaborate, temperatures were measured with a mercury thermometer.
+studies have also provided valuable insights into GHG emissions from The pH was measured using a portable pH meter (PHB-4, Shanghai
+wastewater treatment systems. For example, a full-scale municipal plant Yidian Scientific Instrument Co., Ltd., China). Samples for COD and TN
+demonstrated clear seasonal variations in CH₄, CO₂, and N₂O, with determination were digested in a digestion furnace and analyzed using
+biological treatment units identified as the primary sources (Masuda an ultraviolet spectrophotometer (UV754N, Shanghai Aucy Scientific
+et al., 2015). Similarly, farm-scale investigations in Taiwan revealed Instrument Co., Ltd., China). Concurrently, daily operational parameters
+that anaerobic digesters for piggery waste emit approximately 14.4 kg of the WWTS, such as machine runtime, consumption of chemical re-
+CH₄ and 0.055 kg N₂O per head per year, while maintaining high agents and fossil fuels, effluent flow rate, and wastewater treatment
+pollutant removal efficiency (Su and Chen, 2018). However, most volume, were collected from daily reports.
+existing LCA studies focus on individual treatment units—such as sol-
+id–liquid separation, anaerobic digestion, or biogas utilization—while 2.3. System boundary
+overlooking the interconnected nature of full-scale treatment systems.
+Consequently, a comprehensive evaluation of integrated WWTSs on This study is based on several key assumptions: the system bound-
+swine farms is urgently needed. aries are limited to the wastewater treatment process, excluding the
+The specific objectives of this study are as follows: (1) establish a upstream and downstream stages; the influent characteristics and
+comprehensive accounting framework based on LCA for GHG emissions operational parameters are considered representative of high-strength
+from a full-scale swine farm’s A/O/A/O WWTS; (2) quantify emissions wastewater systems in the region; and the monitoring data and
+across individual treatment units; and (3) explore the seasonal literature-based parameters are assumed to reasonably reflect actual
+2
+
+--- Page 3 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Fig. 1. Schematic diagram of the operational units of the swine farm A/O/A/O WWTS.
+emission conditions. The system boundary is the production process 2.4. Estimation of GHG emissions
+included in the accounting scope. The system boundaries of the WWTS
+are shown in Fig. 2. This study employs an LCA approach to evaluate 2.4.1. Estimation of GHGD emissions
+only the GHG emissions generated in the wastewater treatment units at LCA was performed on each unit of the swine farm wastewater
+the swine farm. The environmental impact of the equipment treatment system, using relevant date obtained from fieldwork at swine
+manufacturing process during project construction is not considered, farms, related literature, and technology providers. A total of 1m3 of
+but the energy consumption of the equipment during system operation is wastewater was treated as the functional unit (FU) throughout the work,
+considered. In this study, the effects of biological carbon dioxide pro- and all the input energy, material, and GHG emissions were calculated
+duction were not considered (Wang et al., 2022). based on the FU.
+In accordance with the IPCC approach, GHG emissions from swine The GHGD emissions are estimated to quantify the emissions gener-
+farm WWTSs are categorized into direct and indirect emissions. Direct ated during the operation of the swine farm WWTS. Direct emissions
+emissions occur within the system boundaries and include primarily consist of mainly greenhouse gases from the degradation of pollutants in
+CO₂, CH₄, and N₂O released from biochemical units, including the A/O/ wastewater during the operation of the various components of WWTS in
+A/O unit and other treatment units. Indirect emissions, on the other anaerobic or aerobic environments and greenhouse gases from the
+hand, arise from activities within the system boundaries but are linked discharge of compliant final effluent to the receiving water body.
+to external sources, such as the electricity and chemical consumption The GHG accounting results are recorded in terms of carbon dioxide
+required for system operations. These emissions are associated with equivalent (CO2-e) per FU, and the different types of GHG emissions are
+energy use (e.g., for air blowers, pumps, lighting, and heating) and based on the conversion of global warming potential (GWP) into carbon
+chemical usage in various treatment units. In this study, CH₄ and N₂O dioxide equivalents. According to the 6th IPCC Assessment Report (AR6)
+emissions were quantified using COD and TN concentrations before and in 2021, the GWP values of CH4 and N2O in this study are 27 and 273,
+after each treatment unit, providing direct emission factors. Indirect respectively (IPCC, 2021).
+emission factors were estimated based on power consumption, biogas To estimate the GHGD emissions from the swine farm WWTS,
+utilization, and chemical use. experimental data on the removal loads of COD and TN were used. The
+emission calculation was conducted according to Eqs. (1)–(3).
+∑
+GWPD = (N2Oj*GWPN2O +CH4,j*GWPCH4) (1)
+N2Oj =LTN,j*EFN2Oj (2)
+CH4,j =LCOD,j*EFCH4,j (3)
+Here, N2Oj and CH4,j represent the amounts of N2O and CH4 emitted
+from the jth stage of the unit, respectively. The IPCC manual defines the
+warming potential of N2O [GWP(N2O)] and CH4 [GWP(CH4)] as stated
+above. LTN,j and LCOD,j express the removal load of TN (kg TN/m3) and
+COD (kg COD/m3), respectively, from the jth stage of the unit. The vari-
+ables EFN2Oj and EFCH4,j represent the emission factors for N2O (kg N2O/
+kg TN) and CH4 (kg CH4/kg COD), respectively, for the jth unit. The
+emission factors for CH4 and N2O for wastewater treatment units are
+listed in Table S2in the Supplementary data.
+2.4.2. Estimation of GHGIND emissions
+GHGIND refers to GHGs indirectly discharged from the swine farm
+WWTS. These emissions originate primarily from electricity consump-
+tion, chemical use, and fossil fuel combustion, as represented by Eqs.
+Fig. 2. System boundaries of the WWTS.
+3
+
+--- Page 4 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+(4)–(7). ∑ ∑
+Valu∑eof allindicatorsofthe∑data(cid:0) Indicatorminimum
+p=
+GHGIND =GHGE +GHGC +GHGF (4) Indicatormaximum(cid:0) Indicatorminimum
+(10)
+GHGE =CE*EFE (5)
+GHGC =CC*EFC (6) 2.7. Data analysis
+GHGF =CF*EFF*k (7)
+All tests were conducted in triplicate, and the values are presented as
+Here, GHGE, GHGC, and GHGF represent indirect GHG emissions the means ± standard deviations. SPSS 20 statistical software (IBM,
+from electricity consumption, chemical use, and fossil fuel combustion, USA) was used for statistical analysis, and figures were generated with
+respectively, and are measured in kg CO2-e. CE represents the power by GraphPad Prism 8.0 software (GraphPad Software, Inc.). Compari-
+consumption of the sewage treatment plant in kWh, whereas EFE rep- sons of means were performed using one-way analysis of variance
+resents the fuel-equivalent CO2 generation consumed for power gener- (ANOVA). Statistical significance was defined as P<0.05.
+ation. Cc denotes the weight of the chemicals used by the wastewater
+treatment plant in kg, and EFc indicates the emission factor for chemical 3. Results and discussion
+use. Ef denotes fossil fuel combustion in kg, EFf denotes the emission
+factor for fossil fuel combustion, and k is the conversion coefficient of 3.1. Treatment efficiency of the WWTS on wastewater
+standard coal in kg/kg, where k equals 1.4571 (Zhang et al., 2022).
+Table S3 in the Supplementary data presents the emission factors for The air and water temperatures showed seasonal variations consis-
+electricity consumption, chemical use, and fossil fuel combustion for tent with the typical subtropical climate of southern China (Fig. 3a). The
+GHGIND. water temperature was generally higher than the ambient temperature,
+especially in the winter, which may help maintain microbial activity and
+2.5. Estimation of greenhouse gas emissions reduction (GHGr) treatment performance (Lishman et al., 2000). The pH values exhibited
+limited seasonal fluctuations, with a general increase followed by a
+The technical specification of a biogas digester for a swine farm decline throughout the WWTS (Fig. 3b). This trend may reflect
+WWTS requires that the biogas generated during operation should be temperature-dependent changes in microbial processes, with higher
+comprehensively utilized to reduce secondary pollution, of which power summer temperatures potentially enhancing nitrification and leading to
+generation and combustion are the most common methods of biogas slightly elevated pH levels (Ravishankar et al., 2019).
+utilization.Through rational utilization, biogas is exempted from CH4 The COD concentration and its seasonal variation at different units of
+emissions and, at the same time, substitutes for energy, reducing the the WWTS are shown in Fig. 3c. The highest COD concentration
+emissions originally generated by energy consumption. All the biogas (15,307.40mg/L) was observed in the swine wastewater during the
+from this swine farm is used for power generation, and the GHGr from winter, which decreased to 1633.33mg/L after the biogas digester. COD
+power generation can be calculated by Eqs. (8)–(9). removal in the biogas digester was highest in summer (12,183.88
+±2525.18g) and lowest in winter (6311.11±874.15g) (Table S5),
+GHGr =Cr*EFr (8)
+reflecting the temperature sensitivity of anaerobic fermentation. Sub-
+Cr=E 0CH .74 1× 7q ×× 3.4 61 ×86 1× 06η (9) s toe qu 6e 7n 2t 6tr 7ea mtm g/e Ln t i Tn t eh e a /e Ora /t Aio /n t a an nk d e Ucr Fe -a Mse Bd t +h Re OC O tD c ao tmnc ee nn tt ra ut nio itn
+. . h A O d R re s
+further reduced the COD concentration, with the final effluent from the
+The GHGr (in kg CO2-e) achieved through biogas power generation
+artificial wetland approaching 0mg/L, indicating that the process meets
+can be calculated using Eq. (8), where Cr represents the electricity
+the wastewater treatment needs of swine farms and conforms to the
+generated (in kWh), as determined by Eq. (9), and ECH4 denotes the
+typical characteristics of the A/O/A/O treatment system. The A/O/A/O
+methane produced (in kg CH4). The parameter q refers to the lower
+process, which combines anoxic and aerobic units, effectively degrades
+calorific value of methane, which is assumed to be 8578kcal/Nm³,
+COD through the use of microbial processes that break down organic
+while η is the calorific conversion efficiency of the generator, which is
+compounds under both oxygen-rich and oxygen-limited conditions (Chu
+set at 35% (Gao et al., 2020). A methane density of 0.717g/L under
+et al., 2021). Seasonality and temperature fluctuations affect microbial
+standard conditions is used alongside the conversion factor of 4186 to
+convert kcal to joules (Bernat et al., 2017). Additionally, 3.6×106 activity, leading to changes in pollutant degradation efficiency (Chen
+et al., 2023a). Seasonal analysis revealed significantly higher COD
+represents the heat energy contained in 1 kWh of electricity (in joules),
+concentrations in the winter (p<0.05).
+and EFr is the baseline emission factor for the regional grid in South
+The concentration of TN in different treatment units and its seasonal
+China in t CO2/MWh, where EFr equals 0.7722.
+trends are shown in Fig. 3d. The highest TN concentration was observed
+in swine wastewater during the winter (1024.89mg/L), which was
+2.6. Evaluation of data quality
+significantly greater than that during the other seasons (P<0.05). The
+A/O/A/O unit notably enhances TN removal, primarily through the
+In this study, greenhouse gas emissions are quantified using the
+processes of nitrification and denitrification (Zhang et al., 2019a).
+emission factor method. To address potential uncertainties in activity
+Studies have shown that the use of such combined systems, along with
+data and emission factor parameters, data quality evaluation is essential.
+advanced filtration technologies, can achieve high TN removal effi-
+This process involves scoring data based on five key indicators—reli-
+ciency (Assefa et al., 2019; Kwon et al., 2019; Li et al., 2024a). These
+ability, temporal correlation, data source, geographic coverage, and
+findings highlight the importance of integrating anoxic and aerobic
+technological relevance—with each indicator categorized into one of
+processes for effective TN removal in WWTSs. The TN concentration
+five quality levels (Table S4). After scoring, a comprehensive quality
+gradually decreased during the treatment unit, reaching nearly 0mg/L
+value (p) is calculated to quantify overall data quality. A smaller p value
+in the UF-MBR+RO unit. During this unit, considerable TN mass
+indicates lower variability and higher data quality. The method for
+removal was observed in winter (408.24±160.61g) (Table S6), high-
+calculating the p value is provided in Eq. (10)(May et al., 2003).
+lighting the effectiveness of the deep treatment unit and the adaptability
+of membrane separation technology to low-temperature and high-load
+conditions (Cao et al., 2024). No significant seasonal difference was
+observed in the TN concentrations after the artificial wetland unit
+4
+
+--- Page 5 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Fig. 3. Seasonal variations in the WWTS (a). Water temperature and ambient temperature (b). pH (c). COD (d). TN.
+(P>0.05), suggesting that the system was stable during in the final 2016), and water temperatures in the Guangdong region remain above
+treatment phase. 15◦C year-round, facilitating consistent CH₄ production. In contrast,
+Overall, the WWTS exhibited strong stability and low sensitivity to other treatment units contributed minimally to CH₄ emissions, with N₂O
+temperature fluctuations, maintaining the effective removal of COD and becoming the dominant greenhouse gas in these units. Notably, this
+TN across seasons. The effluent from the artificial wetland met the study did not account for the digestate produced in the biogas digester,
+discharge standard of pollutants for livestock and poultry breeding in- which may contribute to GHG emissions, particularly CH₄.
+dustry (GB 18596–2001) in China for both COD and TN concentrations. N₂O emissions were primarily associated with the A/O/A/O unit of
+These characteristics align well with the treatment requirements of the WWTS, where values peaked significantly in fall (193.97kg CO₂-e,
+typical swine farms, ensuring consistent compliance with discharge P<0.05) (Fig. 4c). The elevated N₂O emissions during this period are
+standards. likely attributable to intensified microbial processes, such as hydroxyl-
+amine (NH₂OH) oxidation, nitrification–denitrification, and heterotro-
+phic denitrification (Kozlowski et al., 2014). The majority of N₂O release
+3.2. GHGD emissions in the WWTS
+occurred during the aerobic phase, when aeration and nutrient trans-
+formation facilitated gaseous nitrogen loss (Bao et al., 2016). N₂O
+3.2.1. Seasonal variations in CH₄ and N₂O emissions across different
+emissions were also recorded in the aeration basin and the UF-MBR+RO
+wastewater treatment units
+unit (Fig. 4d), with the latter exhibiting significantly higher emissions
+Biogas digesters were identified as the predominant source of CH₄
+during winter (P<0.05). This pattern may result from changes in mi-
+emissions across the WWTS, with emission rates peaking in summer
+crobial activity or oxygen availability during advanced treatment units.
+(49.81kg CO₂-e) and reaching a minimum in winter (25.80kg CO₂-e),
+In contrast, the constructed wetlands demonstrated relatively low GHG
+with summer emissions significantly higher than those in winter
+(P<0.05) (Fig. 4a). Elevated ambient temperatures in summer increase emissions, with N₂O emissions significantly reduced during fall
+(P<0.05) (Fig. 4e), possibly attributable to efficient residual nitrogen
+methanogenic microbial activity, whereas lower winter temperatures
+uptake by plant roots and moderate autumn temperatures, jointly
+suppress CH₄ production (Lyautey et al., 2021). According to Wang et al.
+facilitating the complete reduction of N₂O to N₂ and thus reducing
+(2014), CH₄ dominated the total GHG emissions from swine farm
+emissions (Li et al., 2024b). The receiving water body displayed low N₂O
+effluent digesters, accounting for more than 85% of the total emissions,
+emissions overall (Fig. 4f), suggesting that pollutant attenuation in this
+further confirming that CH₄ production is the primary metabolic
+pathway in the biogas digester. Notably, 15◦C is considered the critical unit occurs primarily via natural self-purification processes (Wen et al.,
+2025).
+temperature threshold for optimal CH₄-producing activities (Wang et al.,
+5
+
+--- Page 6 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Fig. 4. Seasonal variations in GHGD across different wastewater treatment units (a). Biogas digester (b). Aeration tank (c). A/O/A/O (d). UF-MBR+RO (e). Artificial
+wetland (f). Receiving water body. * represents P<0.05.
+3.2.2. Seasonal variations in total GHGD emissions across wastewater (P>0.05). These results are consistent with the findings of Masuda et al.
+treatment units (2015), who reported that CH₄ and N₂O emissions from a full-scale
+As shown in Fig. 5a, total CH₄ emissions were significantly higher in wastewater treatment plant exhibited clear seasonal variation, with
+summer (51.96kg CO₂-e) than in winter (28.47kg CO₂-e) (P<0.05), generally higher fluxes in warmer months. This seasonal trend reflects
+with spring and fall emissions being intermediate but not significantly the complex interplay between microbial nitrification, denitrification,
+different (P>0.05). Total N₂O emissions peaked in fall (207.99kg CO₂- and methanogenesis processes, all of which are strongly
+e), significantly exceeding those in winter (97.13kg CO₂-e) (P<0.05), temperature-dependent (Tumendelger et al., 2019).
+whereas spring and summer emissions were statistically similar As shown in Fig. 5b, the A/O/A/O and biogas digester units were the
+(P>0.05). The total GHGD emissions exhibited a seasonal pattern that dominant contributors to seasonal GHGD emissions. Notably, the A/O/
+closely mirrored the trend of N₂O emissions, the dominant contributor. A/O unit maintained consistently high emission levels year-round,
+Emissions in fall (250.32kg CO₂-e) were significantly higher than in which were significantly higher than those from all other units
+winter (125.60kg CO₂-e) (P<0.05), while those in spring and summer (P<0.05), with a peak observed in fall. In comparison, units such as the
+were intermediate and not significantly different from each other UF-MBR+RO units and the artificial wetland displayed relatively low
+6
+
+--- Page 7 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Fig. 5. Seasonal variations in total GHGD emissions (a). Direct emissions of CH₄ and N₂O (b). GHGD emissions from different treatment units. * represents P<0.05.
+and stable emissions with no significant variation (P>0.05), indicating second-highest indirect emissions (320.11kg CO₂-e), reflecting the
+limited sensitivity to environmental temperature shifts. The results substantial power requirements of advanced treatments such as mem-
+highlight the pronounced seasonal variability in GHG emissions, brane bioreactors and reverse osmosis. Indirect emissions from the
+particularly from treatment processes involving active microbial trans- aeration basin were also significant (234.96kg CO₂-e), entirely due to
+formations, such as methanogenesis in biogas digesters and denitrifi- the high-intensity aeration provided by the roots blower for oxygen
+cation in the A/O/A/O unit. Targeted mitigation strategies should supply (Table S7). In contrast, GHGIND emissions from the solid–liquid
+account for these seasonal dynamics to improve the overall climate separation unit were lower (46.28kg CO₂-e), reflecting its relatively
+performance of wastewater treatment systems (Jamaludin et al., 2024). lower energy consumption. Several studies have suggested various
+One limitation of this study is the lack of direct in-situ monitoring of techniques to reduce GHGIND emissions from electricity consumption,
+CH₄ and N₂O emissions. While emission factors were selected based on such as improving biogas recovery system efficiency, varying the oper-
+site-specific data and the literature, future studies could incorporate ational speed of the pumping system, and optimizing the aeration sys-
+direct monitoring, such as continuous gas analyzers, to improve the tem to reduce oxygen demand. Ultimately, the aim of these technologies
+accuracy of the results under full-scale conditions. is to lower the electricity emission factor. A simple and effective
+approach to reducing the life-cycle carbon footprint is to reduce the
+electricity emission factor by transitioning to low-carbon, especially
+3.3. GHGIND emissions in the WWTS zero-emission, renewable energy sources (Kaewmai et al., 2013; Mak-
+tabifard et al., 2018; Smith et al., 2018).
+Building on the clarification of GHGD emissions, Fig. 6illustrates the The chemicals used in wastewater treatment include PAC, PAM,
+sources and variations in GHGIND emissions across different units of the calcium carbonate, sodium citrate, and sodium hypochlorite. Among
+WWTS. GHGIND emissions arise primarily from electricity consumption, these, PAC is particularly effective for phosphorus removal at appro-
+chemical use, and fossil fuel combustion. The results show that elec- priate concentrations and has a minimal effect on microbial community
+tricity consumption is the dominant source of GHGIND emissions, with activity (Xiao et al., 2023). In the A/O/A/O unit, PAC, PAM, and calcium
+emissions at each unit closely linked to their respective energy demands. carbonate work together to promote flocculation and precipitation. PAC
+These findings align with those of previous studies, which reported that and PAM act as flocculants, whereas calcium carbonate regulates pH and
+electricity consumption accounts for 86.4% of the indirect emissions enhances precipitation. Sodium citrate and sodium hypochlorite are
+from wastewater treatment, making it the greatest contributor to used for monthly cleaning and maintenance of the UF-MBR+RO mem-
+GHGIND emissions (He et al., 2023). The A/O/A/O unit exhibited the brane system (Table S8). As shown in Fig. 6, chemical use contributed
+highest indirect emissions (586.16kg CO₂-e), driven primarily by the marginally to indirect emissions in the A/O/A/O and UF-MBR+RO units
+high energy demand of the nitrification–denitrification process, espe- (57.50kg CO₂-e and 19.73kg CO₂-e, respectively), due mainly to the
+cially the continuous operation of the agitator pump, lift pump, and consumption of PAC, PAM, and calcium carbonate in the A/O/A/O unit.
+sludge discharge pump (Table S7). The UF-MBR+RO unit had the Additionally, during the biogas digester phase, indirect emissions
+amounted to only 0.72kg CO₂-e (Fig. 6), resulting primarily from the
+average monthly consumption of approximately 25kg of diesel fuel for
+genset operation (Table S9).
+In addition, the regional and temporal applicability of the emission
+factors used for indirect emissions should be considered. The electricity
+emission factor in this study was derived from the official regional grid
+inventory, reflecting the current energy mix. However, this factor can
+vary across regions and change over time as the use of renewable energy
+increases and the use of fossil power decreases. Future decarbonization
+of the grid could reduce indirect emissions, particularly from energy-
+intensive units such as the A/O/A/O and UF-MBR+RO processes.
+Similarly, the chemical emission factors (e.g., PAC, PAM, CaCO₃ and
+NaClO) were based on published literature but may not fully capture
+regional variations. Since chemical-related emissions accounted for less
+than 5% of total indirect emissions, the main conclusions are unlikely to
+be affected.
+Fig. 6. Sources and differences in GHGIND emissions at different units of
+the WWTS.
+7
+
+--- Page 8 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+3.4. GHGr by biogas generation that A/O/A/O processes contribute the most to indirect emissions. The
+use of chemicals in the deep treatment unit also contributes to indirect
+High summer temperatures facilitated the anaerobic fermentation emissions, although its impact is minimal compared with that of elec-
+process, significantly increasing CH4 production and energy recovery tricity consumption. Indirect emissions can be further reduced by
+efficiency while enhancing greenhouse gas emission reduction. Specif- improving the energy efficiency of equipment, adopting renewable en-
+ically, CH4 utilization generated 1354.12±140.33 kWh of electricity ergy sources, and optimizing chemical usage (Maktabifard et al., 2018).
+and reduced emissions by 1045.66±108.36kg CO₂-e in summer, which Overall, without biogas recycling, the WWTS of the swine farm
+was significantly greater than that in other seasons, especially in winter would produce 198.31kg CO₂-e of GHG emissions per cubic meter of
+(P<0.05) (Table 1). This swine farm WWTS is equipped with a biogas wastewater treated. However, after recycling the biogas produced in the
+collection and power generation process that utilizes the generated biogas digester and subtracting the CH4 utilized (37.31kg CO₂-e) and
+biogas to produce electricity, thereby achieving energy recovery and the reduction in emissions from electricity generation (5.28kg CO₂-e),
+GHGr. Based on the Southern Power Grid OM emission factor (0.7722t the net GHG emissions from the system amount to 155.72kg CO₂-e per
+CO₂/MWh), the system’s average daily power generation was calculated cubic meter of wastewater treated. This value is significantly higher than
+to be 938.91 kWh, corresponding to a GHG emission reduction of the average reported value for municipal wastewater treatment plants,
+725.02kg CO₂-e. This resulted in an average reduction of 5.28kg CO₂-e which is approximately 0.88kg CO₂-e per cubic meter (Chen et al.,
+per m³of wastewater processed, demonstrating the environmental 2023b). This discrepancy is due primarily to the substantially higher
+benefits of biogas power generation in swine farm wastewater treatment concentrations of COD and TN in swine wastewater, which greatly in-
+through the efficient utilization of CH4. Gingerich et al. (2018)similarly crease the potential for methane production during anaerobic treatment.
+highlighted the environmental benefits of biogas energy recovery, In addition, the system boundaries differ markedly: the present study
+reporting that retrofitting municipal wastewater treatment plants in the adopts a full-scale, life cycle perspective encompassing all relevant up-
+United States to recover energy from anaerobically digested sludge via stream and downstream processes, whereas typical municipal waste-
+combined heat and power systems could reduce air pollution damage by water treatment plant assessments are limited to the operational
+up to 24.9%. emissions within the treatment plant itself.
+To increase the efficiency of methanogenesis and reduce emissions The relatively high net GHG emissions observed in this study also
+under low winter temperatures, several strategies can be implemented. highlight the implications for the operational costs and sustainability of
+These include substrate pretreatment, codigestion with locally available the A/O/A/O WWTS. Energy-intensive processes such as the nitrifica-
+modifiers, and advanced reactor designs. Additionally, in order to tion–denitrification, UF-MBR, and RO processes not only dominate in-
+optimize anaerobic digestion at low temperatures, straightforward direct emissions but also account for a significant portion of operating
+methods such as heating and insulation can be employed to maintain the costs, as noted in previous studies (Yang et al., 2020). This suggests that
+optimal temperature, ensuring that the process remains economically improving energy efficiency (e.g., variable-speed pumping, optimized
+viable (Yao et al., 2020; Zhang et al., 2019b). aeration, and enhanced biogas recovery) could reduce both GHG emis-
+sions and operating costs, improving the system’s overall sustainability.
+This highlights the practical importance of improving energy efficiency
+3.5. Analysis of total GHG emissions and contributions
+and resource recovery in livestock wastewater treatment operations, as
+such measures can simultaneously enhance economic performance and
+The characteristics of GHG emissions at various units of the WWTS,
+environmental sustainability.
+along with the relationships between direct and indirect emissions and
+To mitigate GHG emissions, several practical strategies can be
+emission reduction, are shown in Fig. 7. The GHG emissions from the
+adopted in full-scale wastewater treatment systems. In the near term,
+operation of the wastewater treatment plant at the case swine farm
+process optimization remains the most feasible approach, such as fine-
+constitute 95.61% (189.60kg CO₂-e) of direct emissions and 4.39%
+tuning aeration control, improving sludge retention time, and
+(8.71kg CO₂-e) of indirect emissions. Among the direct emissions,
+enhancing anaerobic digestion stability to reduce CH₄ and N₂O emis-
+79.13% (150.04kg CO₂-e) were contributed by N₂O, and 20.87%
+sions. Applying biochar to sludge management or as a support medium
+(39.57kg CO₂-e) were contributed by CH₄. The A/O/A/O unit was the
+in biological reactors can increase microbial activity while sequestering
+primary contributor to N₂O emissions (93.09%), which is closely related
+carbon, making it a promising option for existing facilities. Integrating
+to the accumulation of nitrites in the nitrification–denitrification pro-
+renewable energy sources, such as solar or biogas utilization for internal
+cess. Optimizing aeration conditions and denitrification efficiency is key
+power supply, and improving overall energy efficiency through
+to reducing N₂O emissions (Chen et al., 2020). The biogas digester was
+advanced monitoring and control can further reduce the dependence on
+the main source of CH₄ emissions (94.31%), and the use of CH₄ from the
+fossil energy. In addition, the gradual replacement of high-carbon
+biogas digester for power generation not only reduced direct CH₄
+chemicals with eco-friendly alternatives could lower indirect emis-
+emissions by 37.31kg CO₂-e but also decreased the overall system’s
+sions. These strategies are technically mature or under active demon-
+power demand by 5.28kg CO₂-e. Masuda et al. (2015)reported similar
+stration, suggesting that significant GHG mitigation in full-scale
+seasonal variations in CH₄ and N₂O emissions, with temperature as a
+wastewater treatment plants is achievable in the near future.
+major driver, which aligns with our results of higher CH₄ emissions in
+summer and elevated N₂O peaks in fall. Indirect emissions were driven
+primarily by electricity consumption, especially in the energy-intensive 3.6. Data quality assessment
+A/O/A/O unit (49.36%, 4.30kg CO₂-e). Huang et al. (2023)reported
+increasing GHG emissions in Chinese WWTPs due to increasing effluent Table S10presents the results of the quality assessment for the GHG
+standards and electricity intensity, which is consistent with our finding emission data from the wastewater treatment units both direct and
+Table 1
+CH4 production from biogas digesters and electricity generation.
+Spring Summer Fall Winter
+CH4 (m³) 227.50±44.80c 387.89±40.20a 295.44±38.01b 164.97±11.43c
+Electricity generation (kWh) 794.19±156.39c 1354.12±140.33a 1031.40±132.68b 575.91±39.88c
+Emission reduction (kg CO2-e) 613.27±120.77c 1045.66±108.36a 796.44±102.46b 444.72±30.80c
+Note: Values within the same column followed by different letters are significantly different at the P<0.05 level.
+8
+
+--- Page 9 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Fig. 7. Contribution of greenhouse gases from different units.
+indirect emissions. The results show that data related to COD and TN full–scale swine farm’s A/O/A/O WWTS were assessed based on LCA,
+removal received the highest quality scores (1, 1, 1, 1, 1), with a p value with a focus on direct, indirect, and reduced emissions. GHG emissions
+of 0%, indicating high credibility in terms of completeness, reliability, from the WWTS were predominantly direct (95.61%, 189.60kg CO₂-e),
+and consistency. These data provide a solid foundation for assessing with N₂O (79.13%) as the main contributor. The A/O/A/O unit was the
+direct emissions. However, GHG emissions accounting, which is based primary source of N₂O emissions (93.09%), which peaked in fall
+on activity data and emission factors, has an uncertainty of 25%–40%, (207.99kg CO₂-e), while CH₄ emissions were highest in summer
+due primarily to the lack of onsite monitoring data, with emission fac- (51.96kg CO₂-e) and lowest in winter (28.47kg CO₂-e), originating
+tors being the main source of this uncertainty. Although uncertainties of mainly from the biogas digester. The utilization of biogas for power
+25–40% exist, the relative contributions of different units and emission generation reduced direct CH₄ emissions by 37.31kg CO₂-e and offset
+pathways remain consistent, indicating that the main conclusions about 5.28kg CO₂-e in electricity-related emissions. Indirect emissions were
+dominant emission sources are robust. In contrast, indirect emissions mainly from electricity consumption, with the A/O/A/O unit contrib-
+data are relatively high quality. For instance, the p-value of 5% for uting 49.36%. After considering emission reductions, the net GHG
+electricity and chemical consumption data supports reliable indirect emissions were 155.72kg CO₂-e per cubic meter of treated wastewater,
+emission estimates. However, lower scores for grid and chemical emis- highlighting the mitigation potential of biogas recovery and energy
+sion factors, especially in terms of temporal and geographical relevance generation in WWTSs. The assessment results demonstrate that the
+(p value of 30%), may introduce uncertainty in indirect emission esti- collected data are highly reliable.
+mates. Additionally, the data for effluent COD and TN concentration also
+received the highest quality score (p value of 0%), providing crucial CRediT authorship contribution statement
+support for assessing emission reduction.
+Overall, the data quality assessment confirms that the available data Yinbao Wu: Project administration, Funding acquisition, Concep-
+are reliable, facilitating accurate evaluation of GHG emissions and the tualization. Tao Chen: Methodology, Funding acquisition, Conceptual-
+effectiveness of emission reduction efforts in wastewater treatment ization. Yongde Zou: Methodology, Conceptualization. Baohua Ma:
+units. Methodology, Conceptualization. Xin Wen: Methodology, Conceptual-
+ization. Meiling Lu: Writing – review & editing, Conceptualization.
+4. Conclusion Xingyun Yuan: Writing – original draft, Visualization, Methodology,
+Formal analysis, Conceptualization. Zixuan Liu: Investigation. Zhiyin
+In this study, the seasonal GHG emissions from a representative Wu: Investigation, Data curation.
+9
+
+--- Page 10 ---
+X. Yuan et al. P r o c e s s S a f e t y a n d E n v i r o n m e n t a l P r o t e c t i o n 204 (2025) 108045
+Declaration of Competing Interest He, X.X., Li, Z., Xing, C.Y., Li, Y.C., Liu, M.M., Gao, X., Ding, Y.S., Lu, L.H., Liu, C., Li, C.,
+Wang, D.C., 2023. Carbon footprint of a conventional wastewater treatment plant:
+an analysis of water-energy nexus from life cycle perspective for emission reduction.
+The authors declare that they have no known competing financial J. Clean. Prod. 429, 139562. https://doi.org/10.1016/j.jclepro.2023.139562.
+interests or personal relationships that could have appeared to influence Hoegh-Guldberg, O., Jacob, D., Taylor, M., Guill´en Bolan˜os, T., Bindi, M., Brown, S.,
+the work reported in this paper. Camilloni, I.A., Diedhiou, A., Djalante, R., Ebi, K., Engelbrecht, F., Guiot, J.,
+Hijioka, Y., Mehrotra, S., Hope, C.W., Payne, A.J., Po¨rtner, H.O., Seneviratne, S.I.,
+Thomas, A., Warren, R., Zhou, G., 2019. The human imperative of stabilizing global
+Acknowledgments climate change at 1.5◦C. Science 365 (6459), eaaw6974. https://doi.org/10.1126/
+science.aaw6974.
+Huang, Y.J., Meng, F.L., Liu, S.M., Sun, S.A., Smith, K., 2023. China’s enhanced urban
+This work was supported by the National Key R&D Program of China
+wastewater treatment increases greenhouse gas emissions and regional inequality.
+(2023YFD1701705), Key-Area Research and Development Program of Water Res 230, 119536. https://doi.org/10.1016/j.watres.2022.119536.
+Guangdong Province, China (2023B0202060001), the Science and IPCC, Climate Change 2021: The Physical Science Basis. Contribution of Working Group I
+to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change.
+Technology Program of Guangdong Province, China
+Jamaludin, M., Tsai, Y.C., Lin, H.T., Huang, C.Y., Choi, W., Chen, J.G., Sean, W.Y., 2024.
+(2023B1212060057), Postdoctoral Fellowship Program of CPSF Modeling and control strategies for energy management in a wastewater center: a
+(GZC20240506), and China Postdoctoral Science Foundation review on aeration. Energies 17 (13), 3162. https://doi.org/10.3390/en17133162.
+Kaewmai, R., H-Kittikun, A., Suksaroj, C., Musikavong, C., 2013. Alternative
+(2024M750962).
+technologies for the reduction of greenhouse gas emissions from palm oil mills in
+Thailand. Environ. Sci. Technol. 47 (21), 12417–12425. https://doi.org/10.1021/
+Appendix A. Supporting information es4020585.
+Kozlowski, J.A., Price, J., Stein Lisa, Y., 2014. Revision of N2O-Producing pathways in
+the ammonia-oxidizing bacterium nitrosomonas europaea ATCC 19718. Appl.
+Supplementary data associated with this article can be found in the Environ. Microbiol. 80 (16), 4930–4935. https://doi.org/10.1128/AEM.01061-14.
+online version at doi:10.1016/j.psep.2025.108045. Kwon, K., Kim, H., Kim, W., Lee, J., 2019. Efficient nitrogen removal of reject water
+generated from anaerobic digester treating sewage sludge and livestock manure by
+combining anammox and autotrophic sulfur denitrification processes. Water 11 (2),
+Data availability 204. https://doi.org/10.3390/w11020204.
+Li, X.T., Chen, T., Ren, Q.H., Lu, J.B., Cao, S.L., Liu, C., Li, Y.B., 2024b. Phages in sludge
+from the A/O wastewater treatment process play an important role in the
+Data will be made available on request.
+transmission of ARGs. Sci. Total Environ. 926, 172111. https://doi.org/10.1016/j.
+scitotenv.2024.172111.
+References Li, J.G., Li, Q., Liu, L.L., 2022. Carbon emissions from smallholder pig production in
+China: a precise account based on farmers’ survey. Environ. Sci. Pollut. Res. 29 (17),
+25651–25664. https://doi.org/10.1007/s11356-021-17720-y.
+Assefa, R., Bai, R., Leta, S., Kloos, H., 2019. Nitrogen removal in integrated anaerobic-
+Li, J., Niu, Z., Li, L., Zhou, S.T., 2024a. Optimizing nitrogen removal in advanced
+aerobic sequencing batch reactors and constructed wetland system: a field
+wastewater treatment using biological aerated filters. Front. Bioeng. Biotechnol. 12,
+experimental study. Appl. Water Sci. 9 (5), 136. https://doi.org/10.1007/s13201-
+1463544. https://doi.org/10.3389/fbioe.2024.1463544.
+019-1015-8.
+Lishman, L.A., Legge, R.L., Farquhar, G.J., 2000. Temperature effects on wastewater
+Bai, R.L., Jin, L., Sun, S.R., Cheng, Y., Wei, Y., 2022. Quantification of greenhouse gas treatment under aerobic and anoxic conditions. Water Res. 34 (8), 2263–2276.
+emission from wastewater treatment plants. Greenh. Gases 12 (5), 587–601. https://
+https://doi.org/10.1016/S0043-1354(99)00393-0.
+doi.org/10.1002/ghg.2171.
+Lyautey, E., Billard, E., Tissot, N., Jacquet, S., Domaizon, I., 2021. Seasonal dynamics of
+Bao, Z.Y., Sun, S.C., Sun, D.Z., 2016. Assessment of greenhouse gas emission from A/O
+abundance, structure, and diversity of methanogens and methanotrophs in lake
+a 1n 0d S 1B 0R –w 1a 1s 4te w hta tt pe sr /t /re da ot im .oe rn g/t 1p 0la .1n 0ts 6in jB .ie bi ij oin dg .2, 0C 1h 5i .n 1a 1. 0In 2t 8. .Biodeterior. Biodegrad sediments. Microb. Ecol. 82 (3), 559–571. https://doi.org/10.1007/s00248-021-
+8 , 8 . : 1 / .
+01689-9.
+Bernat, K., Cydzik-Kwiatkowska, A., Wojnowska-Baryła, I., Karczewska, M., 2017.
+Maktabifard, M., Al-Hazmi, H.E., Szulc, P., Mousavizadegan, M., Xu, X., Zaborowska, E.,
+P ach ty ivsi ac to ec dh se lm udic ga el p Br io op ce hr et mie .s Ea nn gd b Ji .o 1g 1a 7s ,p 4r 3o –d 5u 1ct i hvi tt ty so :/f /a de or io .ob ric /g 1r 0a .n 1u 0l 1a 6r /s jl .u dge and Li, X., Mąkinia, J., 2023. Net-zero carbon condition in wastewater treatment plants: a
+. . . p g
+systematic review of mitigation strategies and challenges. Renew. Sust. Energ. Rev.
+bej.2016.11.002.
+185, 113638. https://doi.org/10.1016/j.rser.2023.113638.
+Cao, S.B., Tao, Y.C., Fang, J.X., Du, R., Peng, Y.Z., 2024. Biological nitrogen removal
+Maktabifard, M., Zaborowska, E., Makinia, J., 2018. Achieving energy neutrality in
+from nitrate sewage via novel CANDAN process in continuous-flow UASB reactor
+wastewater treatment plants through energy savings and enhancing renewable
+with municipal wastewater as co-substrate. Chem. Eng. J. 488, 150847. https://doi. energy production. Rev. Environ. Sci. BioTechnol. 17 (4), 655–689. https://doi.org/
+org/10.1016/j.cej.2024.150847.
+10.1007/s11157-018-9478-x.
+Chen, S.M., Harb, M., Sinha, P., Smith, A.L., 2018. Emerging investigators series:
+Masuda, S., Suzuki, S., Sano, I., Li, Y.Y., Nishimura, O., 2015. The seasonal variation of
+revisiting greenhouse gas mitigation from conventional activated sludge and
+emission of greenhouse gases from a full-scale sewage treatment plant. Chemosphere
+a (1n 1a )e ,r o 1b 7i 3c 9-b –a 1s 7e 5d w ha ts tt pe sw :/a /t der it .r oe ra gt /m 1e 0n .1t 0s 3y 9st /e Cm 8s E. WEn 0v 0i 5r 4o 5n A. S .ci. Water Res. Technol. 4 140, 167–173. https://doi.org/10.1016/j.chemosphere.2014.09.042.
+8 . o
+May, J.R., Brennan, D.J., 2003. Application of data quality assessment methods to an
+Chen, H.B., Zeng, L., Wang, D.B., Zhou, Y.Y., Yang, X., 2020. Recent advances in nitrous LCA of electricity generation. Int. J. Life Cycle Assess. 8, 215–225. https://doi.org/
+oxide production and mitigation in wastewater treatment. Water Res 184, 116168.
+10.1007/BF02978474.
+https://doi.org/10.1016/j.watres.2020.116168. MEPPRC (Ministry Environmental Protection of the People’s Republic of China) Standard
+Chen, N.W., Zhang, X.B., Du, Q., Huo, J.B., Wang, H.Z., Wang, Z.W., Guo, W.S., Ngo, H.
+Methods for Water and Wastewater Monitoring and Analysis (fourth ed.), China
+H., 2023a. Advancements in swine wastewater treatment: removal mechanisms,
+Environmental Science Press, Beijing (2002) (in Chinese).
+influential factors, and optimization strategies. J. Water Process. Eng. 54, 103986.
+Pryshlakivsky, J., Searcy, C., 2021. Life cycle assessment as a decision-making tool:
+https://doi.org/10.1016/j.jwpe.2023.103986.
+practitioner and managerial considerations. J. Clean. Prod. 309, 127344. https://
+Chen, W., Zhang, Q., Hu, L., Geng, Y., Liu, C.Q., 2023b. Understanding the greenhouse
+gas emissions from China’s wastewater treatment plants: based on life cycle doi.org/10.1016/j.jclepro.2021.127344.
+Ravishankar, H., Moazzem, S., Jegatheesan, V., 2019. Performance evaluation of A2O
+assessment coupled with statistical data. Ecotox. Environ. Safe 259, 115007. https://
+MBR system with graphene oxide (GO) blended polysulfone (PSf) composite
+doi.org/10.1016/j.ecoenv.2023.115007.
+membrane for treatment of high strength synthetic wastewater containing lead.
+Chu, H.Q., Liu, X.Q., Ma, J.Y., Li, T., Fan, H.F., Zhou, X.F., Zhang, Y.L., Li, E.C., Zhang, X. Chemosphere 234, 148–161. https://doi.org/10.1016/j.chemosphere.2019.05.264.
+W., 2021. Two-stage anoxic-oxic (A/O) system for the treatment of coking
+Shih, M.F., Lay, C.H., Lin, C.Y., Chang, S.H., 2023. Exploring the environmental and
+wastewater: full-scale performance and microbial community analysis. Chem. Eng. J.
+economic potential for biogas production from swine manure wastewater by life
+417, 129204. https://doi.org/10.1016/j.cej.2021.129204. cycle assessment. Clean. Technol. Environ. Policy 25 (2), 451–464. https://doi.org/
+Corominas, L., Byrne, D.M., Guest, J.S., Hospido, A., Roux, P., Shaw, A., Short, M.D.,
+10.1007/s10098-021-02157-1.
+2020. The application of life cycle assessment (LCA) to wastewater treatment: a best
+Smith, K., Liu, S.M., Liu, Y., Guo, S.J., 2018. Can China reduce energy for water? A
+practice guide and critical review. Water Res 184, 116058. https://doi.org/10.1016/
+review of energy for urban water supply and wastewater treatment and suggestions
+j.watres.2020.116058. for change. Renew. Sust. Energ. Rev. 91, 41–58. https://doi.org/10.1016/j.
+Dai, X.W., Sun, Z., MÜLler, D., 2021. Driving factors of direct greenhouse gas emissions
+from China’s pig industry from 1976 to 2016. J. Integr. Agric. 20 (1), 319–329. rser.2018.03.051.
+Su, J.J., Chen, Y.J., 2018. Monitoring of greenhouse gas emissions from farm-scale
+https://doi.org/10.1016/S2095-3119(20)63425-6. anaerobic piggery waste-water digesters. J. Agric. Sci. 156 (6), 739–747. https://doi.
+Gao, Z., Li, B.B., Li, J.H., Zhang, Y., Ren, C.H., Wang, B., 2020. Study on the adsorption
+org/10.1017/S0021859618000734.
+and thermodynamic characteristics of methane under high temperature and
+Tumendelger, A., Alshboul, Z., Lorke, A., 2019. Methane and nitrous oxide emission from
+pressure. Energy Fuels 34 (12), 15878–15893. https://doi.org/10.1021/acs.
+different treatment units of municipal wastewater treatment plants in southwest
+energyfuels.0c02584.
+Germany. PLoS One 14 (1), e0209763. https://doi.org/10.1371/journal.
+Gingerich, D.B, Mauter, M.S., 2018. Air emission reduction benefits of biogas electricity
+pone.0209763.
+generation at municipal wastewater treatment plants. Environ. Sci. Technol. 52 (3),
+1633–1643. https://doi.org/10.1021/acs.est.7b04649.
+10

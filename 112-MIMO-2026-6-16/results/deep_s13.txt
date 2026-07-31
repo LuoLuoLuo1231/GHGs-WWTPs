@@ -1,0 +1,55 @@
+（74）Multi-Objective Optimization Based on Simulation Integrated Pareto Analysis to Achieve Low-Carbon and Economical Operation of a Wastewater Treatment Plant
+研究方法：
+a. [仿真建模] - 工艺模型构建：GPS-X软件（Hydromantics 8.0.1），AAO-MBR工艺实际运行数据，构建污水处理厂工艺模型并进行参数校准
+b. [多目标优化] - Pareto非支配排序方法：NSGA-II算法（非支配排序遗传算法），MATLAB 2021B编程，从数万种模拟场景中筛选Pareto最优解集
+c. [实验设计] - 正交场景设置：数据遍历法，6个运行参数（DO、ECR、PAC、IRR、ERR、SD）组合，形成80000组正交场景进行模拟
+d. [自动化控制] - Python脚本管理：GPS-X内置Python Script Manager，Python环境编写脚本，实现自动数据导入导出和循环运行
+e. [碳排放核算] - 排放因子法与质量平衡法：IPCC方法学，2022年日均水质数据，计算10个碳排放分量（直接排放+间接排放）
+
+（75）Quantifying Methane Influx from Sewer into Wastewater Treatment Processes
+研究方法：
+a. [气体监测] - 排气测量法（Exhaust measurement）：Agilent 8890气相色谱仪（GC-FID），除臭系统排气管道采样，量化各处理单元CH4排放
+b. [在线监测] - 中红外吸收光谱技术：MIRA Ultra Gas Analyzer（Aeris Technologies），PRI-5253数据采集系统，1秒间隔实时监测CH4浓度
+c. [水质分析] - 顶空法（Headspace method）：真空采血管+氮气顶空平衡，Henry定律计算溶解态CH4浓度
+d. [统计分析] - Spearman相关分析：IBM SPSS Statistics 27软件，分析CH4排放与COD、ORP等运行参数的相关性
+e. [排放因子计算] - 排放因子法：IPCC全球增温潜势（GWP=28），基于COD去除量计算CH4排放因子（gCH4/kgCODrem）
+
+（76）Urbanization and greenhouse gas emissions from municipal wastewater in coastal provinces of China: Spatiotemporal patterns, driving factors, and mitigation strategies
+研究方法：
+a. [碳排放核算] - IPCC排放因子法：IPCC 2019指南，CH4（GWP=27.0）和N2O（GWP=273），计算污水处理、污泥处理、出水排放和未处理废水4个范围的GHG排放
+b. [驱动因素分析] - 对数均值迪氏指数（LMDI）分解：人口、城镇化率、人均废水排放量、废水GHG排放强度4个驱动因素，零残差分解
+c. [能源核算] - 电力碳排放计算：区域电网排放因子（生态环境部公报），分北方、中部、南方沿海省份分类计算
+d. [空间分析] - GIS空间可视化：130个地级市单元，1990-2019年时间序列，渤海湾、长三角、珠三角三大热点区域识别
+e. [情景分析] - 不同处理率情景模拟：假设不同废水处理率，评估集中处理对GHG排放的影响
+
+（77）Carbon footprint analysis of advanced biological wastewater treatment plant
+研究方法：
+a. [碳足迹核算] - IPCC 2006指南与UNFCC方法学：IPCC 2006国家温室气体清单指南，UNFCCC ACM0014大规模废水处理方法学（版本8.0），计算直接排放（CH4和N2O）
+b. [间接排放核算] - 国家温室气体账户因子（NGA Factors）：土耳其电力排放因子（0.497×10^-3 tCO2/kWh），阳离子聚电解质排放因子（1.182 kgCO2e/kg）
+c. [生物气核算] - UNFCCC方法学：厌氧消化产生生物气，CHP系统发电，低位热值和转换系数表计算避免排放
+d. [工艺分析] - 全流程碳足迹分析：厌氧稳定塘、生物处理、深度处理三个单元，分别计算CH4和N2O直接排放
+e. [数据来源] - 运行记录数据：2018-2019年BOD、TN、流量、电力消耗、化学药剂消耗、生物气产量等实际运行数据
+
+（78）Development and validation of an off-gas tool for oxygen transfer efficiency and N2O emission monitoring in wastewater treatment
+研究方法：
+a. [气体监测] - Off-gas分析系统：浮动商业罩（AC'SCENT Flux Hood），氧气传感器和N2O传感器，Mettler-Toledo O2分析仪，同时测量OTE和N2O排放
+b. [液体监测] - Clark型微电极：Unisense N2O微电极（丹麦），WTW溶解氧仪（德国），液相N2O和DO实时监测
+c. [验证方法] - 原位氧摄取率（OUR）法：停止曝气后测量DO衰减速率，计算OTE验证off-gas方法准确性（相对差异5.05%）
+d. [统计分析] - Pearson相关分析：标准差法（K=3）剔除异常值，评估两种方法的线性关系
+e. [校准方法] - 传感器校准：精密气体质量流量控制器（Alicat Scientific）创建O2梯度（0-20.99%），Na2SO3零溶解氧校准
+
+（7）Environmental performances of the wastewater treatment plants: Green Index
+研究方法：
+a. [环境性能评估] - 绿色指数（Green Index）：马来西亚理工大学开发的综合环境性能指标，包含电力消耗、CO2排放、N2O排放、空气消耗和出水水质参数
+b. [气体监测] - 闭室（CC）法：排放隔离通量箱（直径31cm，高31cm，半球形），30分钟气体滞留时间，Drager X-Am 5000便携式多气体分析仪
+c. [直接排放监测] - CO2和N2O现场测量：砂池、初沉池、曝气池（好氧区）、二沉池等开放处理单元的排放监测点
+d. [间接排放核算] - 电力和空气消耗：鼓风机指标读取月度空气消耗，电费账单获取电力消耗
+e. [出水水质分析] - 标准方法：COD、BOD、NO3-浓度测定，有机物去除效率计算
+
+（80）Characteristics and key driving factors of nitrous oxide emissions from a full-scale landfill leachate treatment system
+研究方法：
+a. [气体监测] - 静态浮动室法与气流速率法：静态浮动室用于非曝气表面，气流速率法用于曝气表面，Agilent 7890A气相色谱仪检测N2O
+b. [在线监测] - 便携式水质仪：HQ40d（HACH）现场测量pH、DO、温度等参数，15天采样间隔，1.4年连续监测
+c. [微生物分析] - 16S rRNA基因高通量测序：Illumina MiSeq平台，515F/806R引物扩增V4可变区，FastDNA SPIN kit提取DNA
+d. [统计分析] - 多元统计方法：Spearman相关分析（SPSS 22.0）、主成分分析（PCA）、冗余分析（RDA）、偏最小二乘路径模型（PLS-PM，R软件plspm包）
+e. [功能基因分析] - FAPROTAX数据库：基于功能注释分析原核生物分类群，预测硝化/反硝化功能基因相对丰度

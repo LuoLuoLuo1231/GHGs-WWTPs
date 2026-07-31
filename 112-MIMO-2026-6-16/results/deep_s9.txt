@@ -1,0 +1,59 @@
+（48）Carbon Emission Accounting and the Carbon Neutralization Model for a Typical Wastewater Treatment Plant in China
+研究方法：
+a. [碳排放核算] - 温室气体排放清单法：IPCC温室气体排放系数（GWP: CO2=1, CH4=21, N2O=298），北京电网排放因子（0.604 t/MWh），北京供暖系统排放因子（0.11 t/GJ），用于核算高碑店污水处理厂的直接和间接碳排放
+b. [数学模型] - 碳排放计算方程组：包含CO2排放方程（基于醋酸钠氧化）、N2O排放方程（基于IPCC经验系数0.035 kgN2O/kgTN）、CH4排放方程（基于COD去除），用于量化污水处理和污泥处理各环节的GHG排放
+c. [能源核算] - 能量平衡分析法：基于污水处理厂实际能耗数据（电力、热力）和能源回收数据（沼气热电联产、水源热泵、通风系统余热），用于评估能源中和率
+d. [数学模型] - 热能回收模型：基于Hao等人开发的水源热泵热能回收模型，利用二级出水温差和COP值计算理论供热/制冷能力，用于评估出水余热利用潜力
+e. [碳减排核算] - 碳减排计算方程：包含水质改善减排方程（基于BOD5和TN去除量及地表水排放因子）、污泥处置减排方程（基于替代化肥的碳汇效应）、余热回收减排方程，用于评估各环节碳减排贡献
+f. [案例分析] - 典型WWTP案例研究：以北京高碑店污水处理厂（100万吨/天）为对象，基于2020年实际运行数据，用于验证碳排放核算模型和碳中和路径
+
+（49）Evaluating the Operation of a Full-Scale Sequencing Batch Reactor–Reverse Osmosis–Evaporation System Used to Treat Landfill Leachates
+研究方法：
+a. [水质分析] - 标准化学分析法：APHA标准方法，使用Hach-Lange DR3900分光光度计测定COD/TN/NH4-N，OxiTop系统测定BOD5，Hach-Lange HQ440d电导率仪测定电导率，玻璃纤维滤膜（GF Type A/E, 1.0μm孔径）测定TSS，用于监测渗滤液处理系统各工艺段的污染物去除效果
+b. [运行监测] - 全尺度系统监测法：在Mavrorachi卫生填埋场渗滤液处理厂进行为期两年的连续监测，每周从进水、初沉、SBR出水、RO产水四个采样点取样，用于评估SBR-RO-MVR蒸发系统的长期运行性能
+c. [能耗计算] - 设备功率实测法：基于各用电设备的额定输入功率、电机效率和运行时间计算实际功耗，功率因数取0.90，年运行小时数取8000小时，用于量化各处理工艺的能耗（35.3 kWh/m3渗滤液）
+d. [温室气体排放估算] - Bridle建模方法：基于Koutsou等人的方法学，包含生物质衰减产GHG、BOD氧化产GHG、硝化反硝化产N2O、净电力消耗产CO2等方程，用于估算生物处理阶段的场内外GHG排放
+e. [经验方程] - GHG排放经验公式：基于希腊电力结构的排放因子（kgCO2/kWh）和处理水量，计算RO和MVR蒸发器运行的间接GHG排放，用于评估深度处理工艺的碳足迹
+
+（4）Estimation of greenhouse gas (GHG) emissions from natural lagoon wastewater treatment plant: Case of AinTaoujdate-Morocco
+研究方法：
+a. [温室气体核算] - 简化建模方法：基于BOD5去除量（ΔBOD）计算各处理单元的CH4排放，使用最大CH4产生能力B0=0.6 kgCH4/kgBOD和甲烷校正系数MCF=0.8，用于量化厌氧塘和兼性塘的直接甲烷排放
+b. [温室气体核算] - IPCC经验法（2019年指南）：基于人口、人均蛋白质消耗量（摩洛哥0.9 kg/人/年）、氮转化因子等参数计算总氮量（TN），使用排放因子EF=0.001 kgN2O-N/kgN估算N2O排放，用于估算氧化亚氮排放
+c. [温室气体核算] - GHG Protocol框架：遵循WBCSD/WRI温室气体议定书，分三步进行（设定组织边界、设定运营边界、计算GHG排放），区分Scope 1（直接排放）和Scope 2（间接排放），用于系统化核算污水处理厂的GHG排放
+d. [情景分析] - 多年份对比分析：对2013年（基准年）、2018年和2019年的月度排放数据进行对比，分析气候变化、进水量和有机负荷对排放的影响，用于评估自然塘处理工艺的排放趋势
+e. [地理数据] - NASA POWER气象数据：利用NASA POWER数据访问查看器获取研究区域的温度和降水数据，结合Digital Terrain Model，用于分析气候条件对塘系统处理效率和GHG排放的影响
+
+（50）Carbon footprint of a conventional wastewater treatment plant: An analysis of water-energy nexus from life cycle perspective for emission reduction
+研究方法：
+a. [现场监测] - 浮箱法气体通量测量：使用0.02 m3体积、0.12 m2面积的浮箱（配备温度探测器和搅拌风扇），以2分钟间隔用注射器采集6个100 mL气样，使用Agilent 8860 GC（配备FID和ECD检测器）分析CH4和N2O浓度，用于测量各处理单元的气-水界面GHG通量
+b. [水质分析] - 标准方法水质检测：使用YSI EXO2探头现场测量pH/水温/溶解氧，使用Shimadzu TOC-V分析仪测定TOC，按照APHA标准方法（2012）测定COD/BOD5/TN/TP/NH3-N/SS/NO2-N/NO3-N，用于监测不同工况下的进出水水质
+c. [生命周期评价] - LCA方法（ReCiPe 2016 Midpoint）：使用SimaPro v9.3.0.3软件，采用ReCiPe 2016 Midpoint (I)方法学，选择全球变暖影响类别，系统边界包含建设、运维、拆除三个阶段（30年生命周期），用于评估污水处理厂全生命周期碳足迹
+d. [统计建模] - 结构方程模型（SEM）：揭示GHG排放、水质参数、电力消耗和化学药剂投加之间的关系，结合逐步多元线性回归（MLR）模型预测直接和间接GHG排放，使用R 4.1.3软件进行统计分析，用于识别关键影响因素
+e. [情景分析] - 电力排放因子情景分析：设定三种电力排放因子情景（0.45 kgCO2e/kWh、0.05 kgCO2e/kWh、0 kgCO2e/kWh），评估不同清洁能源比例下WWTP的碳足迹变化，用于探索碳减排路径
+f. [概念模型] - 水-能关联概念模型：建立直接和间接GHG排放的幂函数关系模型，通过最小包围面积法求解最优排放点（直接GHG排放0.0095 kgCO2e/m3、葡萄糖投加0.0039 kg/m3、电力消耗0.1081 kWh/m3），用于优化WWTP运行策略
+
+（51）Underestimation of Sector-Wide Methane Emissions from United States Wastewater Treatment
+研究方法：
+a. [移动监测] - 移动实验室测量法：使用PACE移动实验室（电动汽车平台），搭载LI-7700开路CH4分析仪（5-10 Hz），配备Airmar WX200气象站（风速/风向/温度）和1-10 Hz GPS定位，同时使用开路量子级联激光CO传感器排除交通燃烧干扰，用于测量63座WWTP的CH4排放
+b. [高斯扩散建模] - 积分高斯羽流扩散模型：采用地表全反射的高斯扩散模型表示点源下风向CH4增强浓度，对模型和实测羽流进行横风积分以减少湍流不确定性，结合5项质量控制步骤和2项筛选措施，用于量化单设施集成排放速率
+c. [贝叶斯推断] - 贝叶斯源速率估计法：将贝叶斯框架与逆扩散建模结合，使用贝叶斯定律（后验PDF = 似然函数 x 先验分布 / 证据函数）计算排放速率及其不确定性，初始先验为无信息均匀分布，后续截面的后验PDF作为下一次的先验，用于鲁棒地估计排放速率和不确定性
+d. [蒙特卡洛模拟] - 蒙特卡洛缩放法：按EPA分类（小<1 MGD、中1-10 MGD、大>10 MGD）将63座工厂的测量排放因子按均值和标准差构建分布，通过自举抽样将排放缩放到全国尺度，用于估算美国集中处理废水的总CH4排放量（比EPA清单高1.9倍）
+e. [IPCC指南对比] - IPCC Tier 1方法对比：按照IPCC指南分别计算废水线、污泥线和排放口的CH4排放并汇总为设施集成排放，使用250 mgBOD5/L（±30%）的默认值，与移动测量结果进行比较，用于评估IPCC指南的估算准确性
+
+（52）Improvement of air flowrate distribution in the nitrification reactor of the waste water treatment plant by effluent quality, energy and greenhouse gas emissions optimization via artificial neural networks models
+研究方法：
+a. [机理建模] - 活性污泥1号模型（ASM1/BSM1）：基于Benchmark Simulation Model No.1在Simulink环境中建立动态模拟器，使用实际WWTP数据进行校准，生成64种不同曝气增益组合的458天模拟数据集（30分钟分辨率，21984个数据点），用于产生GA-NARX模型训练所需的综合数据
+b. [人工智能] - GA优化NARX神经网络（GA-NARX）：使用遗传算法（种群大小50，最大代数50）搜索NARX网络的最优拓扑结构（隐藏层数1-2、每层神经元数2-15、传递函数logsig/tansig），采用Levenberg-Marquardt算法训练，开发10个单输出模型预测能耗/EQ/GHG/出水水质，MAPE范围1.14%-21.5%，用于WWTP过程建模和预测
+c. [多目标优化] - 帕累托多目标优化：使用GA（种群大小50，最大代数600，帕累托集分数0.35）进行三目标优化（能耗、GHG排放、出水质量），分别在Case 1（直接预测EQ）和Case 2（基于出水组分浓度计算EQ并设置违规惩罚）下搜索最优曝气分配因子（G1-G3），用于优化曝气系统空气分配策略
+d. [GHG排放评估] - CO2当量排放计算：基于ASM1模型参数计算场内CO2排放（含有机物降解和生物量衰减），使用排放因子EF_N2O=0.005 kgN2O/kgN计算场内N2O排放，基于罗马尼亚电力排放因子（0.323 kgCO2e/kWh）计算场外CO2排放，GWP_N2O=298，用于评估WWTP的GHG排放
+e. [性能指标] - 出水质量指数（EQ）：基于TSS/COD/BOD5/TKN/NO的排放负荷加权计算（kgPU/d），结合罗马尼亚国家排放限值（COD 125、TN 10、BOD5 25 g/m3）设置违规惩罚因子，用于综合评估出水质量
+
+（54）Water-Energy-Carbon Nexus: Greenhouse Gas Emissions from Integrated Urban Drainage Systems in China
+研究方法：
+a. [综合建模] - CGE-SyDWEM集成模型：将可计算一般均衡模型（IMED|CGE，25个经济部门）与系统动力学水环境模型（SyDWEM，含人口/GRP、需水量、供水、排水管网与WWTPs、受纳水体五个模块）耦合，用于模拟深圳市1990-2025年社会经济发展与IUDS系统GHG排放的动态交互
+b. [GHG排放核算] - 直接排放计算：管网系统CH4/CO2排放基于沉积速率和管长计算，WWTPs排放基于污染物去除负荷和排放因子（区分A2O/OD/BF/SBR四种工艺），受纳水体N2O排放基于NO3-输入的0.9%比率，用于量化IUDS各子系统的直接GHG排放
+c. [GHG排放核算] - 间接内部排放计算：基于各处理阶段（收集、预处理、生物处理、消毒、污泥处理）的电力强度（kWh/m3）和电力碳排放强度（kgCO2/kWh），使用时间演变的本地和进口电力排放因子，用于计算WWTPs和泵站的电力相关GHG排放
+d. [GHG排放核算] - 间接外部排放计算：基于CGE模型模拟的各工业部门CO2排放强度和WWTPs的最终需求（化学品、维修维护、行政管理），采用生命周期方法计算供应链隐含排放，用于量化WWTP边界外的间接GHG排放
+e. [情景分析] - BaU与NDC情景分析：BaU情景基于GDP增长率9.1%（2007-2020）/7.9%（2007-2030）和人口增长率0.57%/0.42%，NDC情景额外设置碳排放强度约束（2020年降40%、2030年降65%），并评估工程措施升级（AAO-MBR）的影响，用于评估碳减排政策的综合效果
+f. [敏感性分析] - 多因素敏感性分析：分别评估进口电力燃料结构转型（0-10%碳强度降低）、废水处理率提升（0-10%）、COD/TN去除率提升（0-10%）、GDP增长率变化（7.7%-10.4%）对GHG排放和水质的影响，用于识别关键不确定性因素
+g. [模型验证] - CGE-SyDWEM模型校准与验证：使用1990-2001年历史数据校准、2002-2009年验证、2007-2020年再验证，包含两次实地调查（2004年旱季和2005年雨季，8个监测站），用于确保模型可靠性

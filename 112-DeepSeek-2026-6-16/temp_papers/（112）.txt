@@ -1,0 +1,784 @@
+--- Page 1 ---
+Chemical Engineering Journal 537 (2026) 176290
+Contents lists available at ScienceDirect
+Chemical Engineering Journal
+journal homepage: www.elsevier.com/locate/cej
+Fugitive methane emissions from full-scale wastewater treatment plants: A
+plant-wide model
+Amr Ismaila,b,c, Amr Mustafa Abdelrahmand, Ahmed Elsayeda,e, Mohamed Sherif Zaghloulf,
+Farokh laqa Kakarg, John Willisg, Allegra da Silvag, Domenico Santoroh, Tanush Wadhawani,
+Saba Daneshgarb,j, Ahmed AlSayedc, Elsayed Elbeshbishya,*
+aDepartment of Civil Engineering, Toronto Metropolitan University, Toronto, ON, M5G 1G6, Canada
+bBIOMATH, Department of Data Analysis and Mathematical Modelling, Ghent University, Coupure links 653, 9000, Ghent, Belgium
+cCivil and Environmental Engineering Department, Western University, London, ON, N6A 5B9, Canada
+dChemical and Biochemical Engineering Department, Western University, London, ON, N6A 5B9, Canada
+eIrrigation and Hydraulics Department, Faculty of Engineering, Cairo University, Giza, Egypt
+fDepartment of Civil and Environmental Engineering, United Arab Emirates University, Sheikh Khalifa Bin Zayed Street, Al Ain, United Arab Emirates
+gBrown and Caldwell, 201 North Civic Drive, Walnut Creek, CA, 94596, United States of America
+hUSP Technologies, 3020 Gore Road, London, ON, N5V 4T7, Canada
+iDynamita SARL, 2015 route d'Aiglun, 06910, Sigale, France
+jVITO, Flemish Institute for Technological Research, Boeretang 200, 2400, Mol, Belgium
+A R T I C L E I N F O A B S T R A C T
+Keywords: Greenhouse gases (GHGs) such as carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) naturally occur
+Greenhouse gas emissions in the atmosphere; however, emissions from anthropogenic activities have driven the rapid increase in global
+Plant-wide model temperatures, with wastewater treatment plants (WWTPs) contributing nearly 5% of global non-CO2 GHG
+Uncertainty analysis
+emissions. Plant-wide monitoring campaigns remain resource-intensive and often fail to capture temporal
+Sensitivity analysis
+variability, whereas plant-wide models offer an effective and representative means of quantifying CH4 emissions
+Diagnostics
+across treatment processes. Since previous plant-wide models have poorly evaluated fugitive CH4 emissions, this
+study presents a novel plant-wide modelling framework developed using operational data from a full-scale
+WWTP to quantify fugitive CH4 emissions. Major contributors, including anaerobic digesters, biosolids
+handling, and bioreactors, were identified, while potential sources such as sewers, fermenters, and clarifiers were
+evaluated. Emission factors (EFs) were consistent with full-scale monitoring studies and were 70% higher than
+the current Canadian EF for biological nutrient removal (BNR) plants (0.0036 kg CH4/kg BOD) and 33% lower
+than that of the Intergovernmental Panel on Climate Change (IPCC; 0.018 kg CH4/kg BOD). Monte Carlo sim-
+ulations revealed uncertainties ranging from 39.1% to 46.1% in fugitive emissions and EFs across multiple
+scenarios. The sensitivity analyses revealed that the influent wastewater and anaerobic digesters exerted the
+greatest influence on plant-wide emissions. Overall, the results demonstrate that plant-wide models provide an
+effective alternative to intensive monitoring campaigns while supporting targeted mitigation strategies.
+1. Introduction produced through biologically mediated carbon and nitrogen trans-
+formations across various process units within WWTPs. While GHGs
+Historically, wastewater treatment plants (WWTPs) have been naturally occur in the atmosphere and play a crucial role in maintaining
+exclusively assessed by meeting their regulatory effluent standards and and regulating the Earth's temperature, intensified emissions from
+have often escaped scrutiny as a significant contributor to greenhouse anthropogenic activities are the primary driver of global warming [2].
+gas (GHG) emissions, estimated to account for almost 5% of total non- Unlike N2O, which can be produced under diverse redox environ-
+CO2 GHG emissions [1]. GHGs such as carbon dioxide (CO2), methane ments, CH4 is strictly produced in anaerobic environments by meth-
+(CH4), and nitrous oxide (N2O) are intentionally and unintentionally anogenic archaea, with approximately 70% derived from acetate as the
+* Corresponding author.
+E-mail address: elsayed.elbeshbishy@torontomu.ca(E. Elbeshbishy).
+https://doi.org/10.1016/j.cej.2026.176290
+Received 26 January 2026; Received in revised form 13 April 2026; Accepted 14 April 2026
+Available online 15 April 2026
+1385-8947/© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+primary precursor [3,4]. Consequently, fugitive CH4 emissions from development of targeted mitigation strategies.
+WWTPs have often been attributed solely to anaerobic digesters despite Plant-wide models for GHG estimation can be divided into three
+full-scale evidence of CH4 emissions from nearly all process units within categories: (i) empirical, (ii) steady-state, and (iii) dynamic-state
+the WWTP, as depicted in Fig. 1. CH4 is intentionally produced only models. Pr´endez & Lara-Gonza´lez [10] projected that the WWTPs in
+during anaerobic digestion (AD) and is considered non-fugitive. How- the Santiago Metropolitan Area would contribute to nearly 50% of
+ever, CH4 emissions from the liquid and solids trains, due to infra- Chile's national GHG emissions by 2027, an order of magnitude higher
+structural integrity, turbulence, or gas-liquid exchange, are considered than the actual contribution of WWTPs, highlighting the limitations of
+fugitive. empirical models based solely on activity data as they overlook process
+Wang et al. [5]demonstrated that all process units emitted CH4, with configurations, operational complexity, and site-specific factors. Steady-
+the highest emissions being from the anaerobic selectors, followed by state models relied on oversimplified assumptions, including (i) constant
+aerobic selectors, aerated grit chambers, and biosolids storage tanks. biogas losses or complete transformation of CH4 to CO2 during flaring
+Notably, uncovered process units, such as clarifiers and biological se- [11], (ii) the equivalence of emissions across aerobic and anaerobic
+lectors, were identified as potential CH4 hotspots, particularly when configurations, (iii) the equivalency of the performance of anaerobic and
+sufficient residence time is provided and under suboptimal operation. In aerobic digesters [12], (iv) identical primary sludge (PS) and waste
+a year-long study, Daelman et al. [6]found that 88% of the plant's CH4 activated sludge (WAS) degradation kinetics [13], and (v) collectively
+emissions were in the headspace of the carousel reactor receiving the off- overlooking fugitive emissions from biosolids handling, leading to
+gas of the digested sludge buffer tank, the centrifuge, and the dewatered inaccurate estimates. Dynamic models provided greater resolution than
+sludge storage tank, while the remaining 12% were due to stripping in steady-state models, but were limited to virtual plants, neglecting fugi-
+aerated units. Additionally, dissolved CH4 accounted for 1% of the tive CH4 sources beyond AD and biosolids handling, and relied either on
+influent chemical oxygen demand (COD) load, and emissions from the oversimplified or erroneous assumptions including (i) the adoption of
+headworks, primary clarifiers, selectors, and plug flow reactors the default Anaerobic Digestion Model No. 1 (ADM1) hydrolysis rate (i.
+accounted for 31 ±16% of the total CH4 emissions going to the ozone e., khyd = 10 d(cid:0) 1), reducing the responsiveness of the model to volu-
+washer. metric changes in the digesters [14], (ii) assumed mesophilic kinetics
+Nevertheless, plant-wide monitoring campaigns are highly resource- could be directly applied to thermophilic conditions, overlooking the
+intensive and logistically demanding, particularly when emissions must need for temperature correction adjustments [15,16], and (iii) assumed
+be quantified across multiple process units over extended periods to CH4 produced in the sewer network would be completely released into
+capture diurnal and seasonal variability. Their effectiveness is further the atmosphere at the plant's headworks due to high turbulence [17].
+constrained by equipment accuracy and detection limits, the need for Further developments in plant-wide models expanded the scope of
+stable weather and favourable wind conditions, the availability of skil- GHG accounting to include direct and indirect emissions from secondary
+led operators, and the limited windows during which measurements can treatment, anaerobic digestion, biosolids handling and storage, effluent
+be carried out. These limitations not only hinder long-term continuous disposal, and chemical and power use [16,18–20]. Although some of
+monitoring but also create discrepancies between plant-wide and unit- these models marked a progression from virtual to full-scale WWTPs,
+level emission estimates [7–9]. Therefore, plant-wide modelling can these full-scale implementations did not incorporate actual operational
+extend insights beyond what monitoring alone can provide, enabling the data [18,19]. Additionally, several key modelling assumptions persisted,
+exploration of emission dynamics, scenario testing, and the including (i) fixed biogas losses from AD and flaring, (ii) extended CH4
+Fig. 1. Classification of fugitive CH4 emission sources and mechanisms in WWTPs.
+2
+
+--- Page 3 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+production during storage for periods of up to 12 months, implicitly 2.2. Model setup
+treating volatile solids as fully biodegradable, and (iii) the absence of
+ADM1 kinetic calibration. Fig. 2depicts the plant's model setup. The model setup followed the
+Monitoring campaigns remain constrained by significant resource procedure described by Rieger et al. [21], from the model layout, model
+demands, limited temporal resolution, and inherent uncertainty. At the selection, model setup, and connections between sub-models. Sumo2, a
+same time, existing plant-wide models have largely focused on N2O plant-wide process model in SUMO24 (Dynamita, Fr), encompassing the
+rather than CH4, leaving CH4 emissions comparatively under-addressed. main biological and chemical processes occurring at the plant, was used
+This study addresses these gaps through a novel plant-wide modelling to simulate the WWTP, with the same modelling framework applied
+framework utilising operational data from a full-scale WWTP to across all process units.
+explicitly capture CH4 emissions across both the liquid and solids trains, Certain simplifications were applied to reduce model complexity and
+enabling the dynamic estimation of emissions from the influent waste- computational cost. These simplifications, along with their justification,
+water, bioreactors, fermenters, and clarifiers under realistic operating are summarised in Table 1.
+conditions. Combined with uncertainty and sensitivity analyses, the
+framework identifies the dominant drivers of emissions and provides a
+generalisable, transferable methodology for diagnosis, estimation, and
+mitigation.
+Table 1
+2. Methodology Model simplifications and their rationale.
+Process unit Simplification Justification
+2.1. Site description Primary Primary clarifiers 1–12 and Settling characteristics and
+clarifiers 13–16 were modelled as single removal efficiencies were
+A full-scale WWTP in Canada with average and peak capacities of ideal clarifiers with a combined consistent across the clarifiers.
+396 ML/d and 1069 ML/d, respectively, was evaluated in this study. surface area equivalent to the Their influent and effluent were
+Treatment is distributed across four parallel trains (i.e., Plants A–D) with s Bu iom eo af t th oe i 1n –d 4iv i 5d –u 8a ,l 9c –la 1r 0ifi ae nrs d. c To hm b fli on wed i.
+Bioreactors r c rs , , e s equally distributed
+a combined preliminary stage, followed by primary and secondary 11–12 were modelled as a across the bioreactors of each
+biological nutrient removal (BNR) stages, including chemical phos- single lane with a combined plant.
+phorus (P) removal. Plant A has a Luzack-Ettinger configuration, Plant B volume equivalent to the sum Their influent and effluent were
+of the individual bioreactors. combined.
+has an A/O configuration preceded by a pre-anoxic zone, and Plants C
+Fermenters Fermenters 1–2 and 3–4 were The flow is equally distributed
+and D have Westbank enhanced biological phosphorus removal (EBPR)
+combined into single units. across the individual units, and
+configurations. The plant comprises four PS fermenters, where a portion Modelled as chemostats with no the absence of operational data
+of the PS is fermented to produce volatile fatty acids (VFAs), serving as a PS recirculation. on PS recirculation.
+supplemental carbon source for BNR processes. Each fermenter feeds Digesters were combined into a Influent and effluent
+characteristics from the
+into a downstream gravity thickener (GT). Since the fermenters are not single unit, with the working
+Anaerobic digesters are monitored as a
+heated, their hydraulic retention time (HRT) is decoupled from the SRT digesters volume of the digesters out of single combined flow.
+service subtracted from the
+by recycling thickened fermented PS to the inlet, while the wasted Biogas measurements are
+total volume.
+fraction is directed to the anaerobic digesters, providing greater control similarly aggregated.
+Secondary clarifiers 1–12,
+over the SRT and preventing washout during winter operation. The WAS Settling characteristics and
+13–28, 29–36, and 37–42 were
+is thickened by dissolved air flotation (DAF), mixed with the thickened removal efficiencies were
+Secondary modelled as single ideal
+and fermented PS, and pumped into eight mesophilic anaerobic di- clarifiers clarifiers with a combined consistent across the clarifiers.
+Their influent and effluent were
+gesters. Biosolids are either dewatered on-site or transferred to an off- surface area equivalent to the
+combined.
+site lagoon, where they are ultimately applied to agricultural land. De- sum of the individual clarifiers.
+Removal efficiencies and
+tails of the data collection and reconciliation procedures are provided in Modelled as volumeless point
+DAF and GTs underflow flow rates are the
+Section S1. separators only available data.
+Fig. 2. The WWTP's model setup.
+3
+
+--- Page 4 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+2.3. Model assumptions were still applied. Methanogens ideally operate within a very narrow pH
+range of 6.8–7.2; however, their growth is significantly reduced below a
+1. Digested biosolids are conveyed exclusively to the dewatering unit, pH of 6.5 and they become increasingly susceptible to ammonia inhi-
+rather than the off-site lagoon, to account for on- and off-site bition at a pH higher than 8.5 [29,30]. Hence, the default lower and
+emissions. upper pH limits for methanogenic activity, 4.5 and 9.5, respectively,
+2. Elutriation water is typically fed to the fermenters to improve the were narrowed to a more physiologically relevant range of 6.5–8.5. This
+recovery of biodegradable soluble COD (bsCOD) and VFAs from adjustment also prevents the model from predicting spurious CH4 pro-
+sludge layers, rather than increasing the oxidation reduction poten- duction in the fermenters, where low operational pH naturally sup-
+tial (ORP), suppressing not only methanogenesis but also fermenta- presses methanogenic activity.
+tion, which typically requires an ORP below (cid:0) 100 mV [22–24].
+Considering the underlying assumption of complete mixing within 2.4.3. Anaerobic digesters/fermenters
+the model's process units, explicit modelling of elutriation was not The modifications described for the anaerobic digesters also apply to
+considered. the fermenters, as both are represented using the same process unit. To
+3. A non-negligible portion (i.e., 15%) of the non-settled PS is conveyed avoid overestimating CH4 production from the fermenters, bioreactors,
+to the bioreactors, where it continues to ferment, producing and eventually digesters through hydrogenotrophic methanogenesis,
+hydrogen (H2) and VFAs. The presence of dissolved H2, even at low the H2 yield from fermentation had to be reduced by almost two orders
+concentrations, is therefore considered a potential driver for CH4 of magnitude from 0.35 to 0.0032 g COD/g COD in line with the yield
+production through hydrogenotrophic methanogenesis in down- reported by Zhou et al. [31].
+stream processes [25]. The model treats CH4 transfer as analogous to O2. However, in di-
+4. Since the fermenters are not heated, they were assumed to operate at gesters, CH4 is not diffused into the liquid phase like O2 in aeration
+the same temperature as the wastewater influent. tanks, but produced biologically, often reaching supersaturated con-
+5. Dissolved gases are emitted into the atmosphere only through centrations [32]. Moreover, the digesters' liquid phase is fully mixed
+stripping or gas-liquid exchange. Other potential pathways due to under both actual operating conditions and in the model. Therefore,
+infrastructural defects or turbulence were not considered. both the beta correction factor and the effective saturation depth frac-
+tion were adjusted from 0.3 and 0.1 to 1, respectively; otherwise, no
+2.4. Model calibration and validation driving force would exist for CH4 transfer into the digester's headspace,
+and dissolved CH4 concentrations in the digester, centrate, and dewa-
+A steady-state calibration was performed by adjusting selected tered solids would be underestimated.
+model parameters to reproduce the median effluent quality, sludge A simplified model setup, including only the influent, primary clar-
+production, and biogas production. Subsequently, the model was ification, fermenters, and their downstream gravity thickeners, was used
+internally validated dynamically using the entire dataset to assess its for the calibration of the fermenters without sludge recirculation or
+performance in reproducing the digester's influent flow rates, as well as elutriation, based on the continuous operation data reported by Bahreini
+its influent and effluent solids COD, the key process variables governing et al. [33]to establish the baseline performance. The hydrolysis rate and
+the dynamics of CH4 production in anaerobic digesters, and the vari- fermentation growth rate were adjusted to reproduce the fractionation
+ables of interest for this study [26]. The acceptable error ranges stipu- of sCOD and VFAs in the fermented PS, respectively. Subsequently, the
+lated by Rieger et al. [21]were applied as the evaluation criteria for the setup was extended to include recirculation, as depicted in Fig. S2, with
+model's predictions in addition to the coefficient of determination (R2) a regulated sludge wastage rate from the downstream gravity thickeners
+and the normalised mean absolute error (NMAE) detailed in Section S2. using the SRT tool. The model relies on the active biomass in the influent
+Additional model parameters, including influent characteristics and wastewater for hydrolysis; however, since that fraction is negligible, the
+fractions, along with selected kinetic and physical parameters, were also hydrolysis rates of the fermenters were adjusted to account for the dif-
+adjusted to ensure an accurate prediction of sludge and biogas produc- ferences in operational HRTs, a previously noted limitation of activated
+tion, as described below. sludge models [34]. Tables S4 and S5 summarise the changes applied to
+the global and local default parameters, respectively.
+2.4.1. Influent characteristics and fractions
+The influent characteristics and fractions were adopted from a
+2.5. Emissions sources
+respirometric study carried out by the plant. The influent tool in SUMO
+was used to adjust the “To be estimated” fractions until a “good match”
+2.5.1. Primary sources
+was achieved between the measured and estimated parameters. Here, a
+“good match” corresponds to differences within 5% for COD, volatile The primary emission sources included CH4 emissions from the pri-
+mary contributing sources: (i) anaerobic digesters, (ii) bioreactors, and
+suspended solids (VSS), and total suspended solids (TSS), and within
+(iii) biosolids handling. Emissions from fermenters were excluded since
+10% for biochemical oxygen demand (BOD). The parameters obtained
+the plant typically feeds elutriation water into the fermented sludge line
+from the respirometric study and the changes in the influent tool are
+to maintain a positive ORP and suppress methanogenesis. Since no
+summarised in Tables S2 and S3, respectively.
+sampling was carried out, potential emissions from the influent waste-
+water were not considered. Biogas losses from the digesters were
+2.4.2. Biokinetic parameters
+assumed to be the difference between the measured and predicted
+The decay rate of the ordinary heterotrophic organisms (OHOs),
+which constitute the bulk of the WAS, was reduced from 0.62 to 0.2 d(cid:0) 1, biogas production. Emissions from the bioreactors and biosolids
+handling represent the CH4 produced within or conveyed to these pro-
+consistent with the value reported by Gujer et al. [27] to match the
+plant's WAS production. The default decay rate of 0.62 d(cid:0) 1 originates cesses and are fully released into the atmosphere.
+The predicted biogas was validated whenever influent and effluent
+from the death-regeneration model adopted in the Activated Sludge
+sampling coincided with Eq. (1).
+Model No. 1 (ASM1); however, Sumo2 adopts the significantly different
+endogenous respiration model of ASM3, which typically results in a (cid:0) ) 273.15+T 1
+Qbiogas=Qdig× CODinf–CODeff ×YCH4× × (1)
+lower effective decay rate [27,28]. The kinetics of the ammonia oxi- 273.15 fCH4
+dising bacteria (AOB) and the nitrite oxidising bacteria (NOB) obtained
+from the respirometric study did not differ significantly from the default where Qbiogas is the calculated biogas flow rate (m3/d), Qdig is the di-
+parameters, as shown in Table S4; however, these minor adjustments gesters' influent flow rate (m3/d); CODinf and CODeff are the digesters'
+4
+
+--- Page 5 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+influent and effluent total COD concentrations (kg COD/m3), respec- Table 2
+tively. YCH4 is the theoretical CH4 yield at standard temperature and Uncertainty and sensitivity analyses model variables.
+pressure (0.35 m3 CH4/kg COD; [35]); T is the digesters' operating Variables Description Unit
+temperature (◦C); and fCH4 is the CH4 content in the biogas.
+Simulation output variables
+Qcent Centrate flow rate m3/d
+2.5.2. Potential sources Qds Dewatered solids flow rate m3/d
+Scent Dissolved CH4 concentration in the centrate and kg CH4/m3
+dewatered solids
+2.5.2.1. Fermenters. To evaluate the impact of sludge retention on CH4
+MCH4,dig CH4 mass flow rate from the anaerobic digesters' kg CH4/d
+generation, SRTs ranging from 3 to 7 days were investigated in accor-
+headspace
+dance with the plant's operations report, with elutriation excluded from MCH4,ferm CH4 mass flow rate from the fermenters' headspace kg CH4/d
+the fermenters' feed. Qfsu Fermenter supernatant flow rate m3/d
+Sfsu Dissolved CH4 concentration in the fermenter kg CH4/m3
+supernatant
+2.5.2.2. Secondary clarifiers. Analyses of COD, nitrogen (N), and P
+rn Net hydrogenotrophic methanogens growth rate kg COD/
+species were carried out to identify COD losses that may contribute to m3⋅d
+fugitive CH4 emissions. Changes in soluble species within the sludge
+blanket, denoted as ΔS, were calculated using Eq. (2), where SMLSS and
+Measured or estimated variables
+SRAS are the concentrations of any variable in the mixed liquor sus- Qinf Influent flow rate m3/d
+pended solids (MLSS) from the bioreactors (i.e., secondary clarifier Sinf Dissolved CH4 concentration in the influent kg CH4/m3
+influent) and in the return activated sludge (RAS; g/m3), respectively. CODinf Influent COD concentration kg COD/m3
+ΔS=SMLSS(cid:0) SRAS (2)
+Constants
+MwCH4 Molecular weight of CH4 g/mol
+VSS solubilisation was calculated from changes in ammonia using
+cE hq a. n( g3 e), iw h toe tr ae V amSS mso ol nis at h (ge Nso /l mub 3i )l ,i s ae nd V pNSS V(g SV iS sS t/ hm 3 s) o, iΔ dN H pax- rN ci us lt ah te bM COw DH H2 DM CO eo cDl ae yc eu q rl aua tir ev w a ole fe i n hg t yh o dt f ro oHf 2H en2 dg g/ (cid:0)Cm 1Oo Dl /g H2
+2
+n l i d / S e l s' ti e g otrophic methanogens
+N to VSS ratio (g N/g VSS). Y Hydrogenotrophic methanogens' biomass yield g COD/g
+COD
+VSSsol=ΔNHx(cid:0) N×VSS/pN (3)
+The resulting change in soluble COD was calculated using Eq. (4), Calculated variables
+where ΔsCOD is the change in soluble COD (g COD/m3) and pCOD/VSS ffugitive Estimated fraction of fugitive CH4 emissions from the %
+anaerobic digesters
+is the solids' particulate COD to VSS ratio (g COD/g VSS).
+rp CH4 production rate kg CH4/
+ΔsCOD=VSSsol×pCOD/VSS (4) mm3 3⋅d
+Vr Bioreactor volume
+Changes in soluble P concentrations due to solubilisation were rsu Maximum specific substrate utilisation rate kg COD/
+m3⋅d
+determined using Eq. (5), where Δ sPsol is the change in soluble P due to
+VSS solubilisation (g P/m3) and pP/VSS is the solids' particulate phos-
+phorus to VSS ratio (g P/g VSS). Evaluated variables
+Etotal Total fugitive CH4 emissions per day kg CH4/d
+ΔsPsol=VSSsol×pP/VSS (5) Einf Emissions from the influent wastewater kg CH4/d
+Ecent Emissions from the centrate kg CH4/d
+Ebioreactors Emissions from the bioreactors kg CH4/d
+2.5.2.3. Sewers. To account for the wide variation in influent CH4 Eferm Emissions from the fermenters kg CH4/d
+concentrations, particularly from systems receiving septic tank, cess- Edig Emissions from the anaerobic digesters kg CH4/d
+pool, or greywater effluents and typical municipal sewers, two scenarios Eds Emissions from the dewatered solids kg CH4/d
+EF Emission factor kg CH4/kg
+comprising a lower and upper bound of concentrations were developed.
+COD
+Dissolved CH4 concentrations from gravity sewers and WWTP inlets
+adopted from the literature, as summarised in Table S6. The upper
+bound ranged from 0.04 to 13.1 g CH4/m3, while the lower bound repeated simulations [37]. The sensitivity analysis using the same model
+ranged from 0.001 to 2.59 g CH4/m3. was carried out using the Sobol method, following the procedure
+described by Al et al. [38] and implemented in MATLAB R2025a
+2.6. Uncertainty and sensitivity analyses (MathWorks, USA). The Sobol method was chosen as it distinguishes
+between first- and higher-order effects by decomposing the variance of
+The uncertainty in fugitive CH4 emissions and EFs was evaluated the model output into contributions of each variable and their combi-
+using the model, described by Eqs. (6)–(15)and detailed in Table 2. The nations. The first-order Sobol index (Si) accounts for the individual
+model included primary and potential emission sources that could be contribution of variable i to the output variance, whereas the total-order
+evaluated with the plant-wide model or Monte Carlo simulations, index (STi) accounts for its overall contribution, including its in-
+including the influent wastewater, fermenters, bioreactors, anaerobic teractions with other variables [39,40]. The same number of Monte
+digesters, and downstream biosolids handling. The bioreactors' volume Carlo iterations was employed for consistency.
+is treated as a variable due to the presence of multiple swing zones. Etotal=Einf+Ecent+Ebioreactors+Eferm+Edig+Eds (6)
+The uncertainty was evaluated using Monte Carlo simulations,
+following the procedure described by Sin et al. [36]using Python 3.15 Einf =Qinf×Sinf (7)
+(Python Software Foundation, USA). Input variables were assigned
+truncated probability distributions based on measurements, model Ecent=Qcent×Scent (8)
+outputs, or the available literature to avoid sampling negative values. A
+total of N =106 samples of the model's input variables were generated to Eferm=MCH4,ferm+Qfsu×Sfsu (9)
+propagate their uncertainty to the corresponding model outputs. A
+sufficiently large number of samples was used to ensure convergence, Ebioreactors=rp×Vr (10)
+minimise Monte Carlo error, and reduce variation in results across
+5
+
+--- Page 6 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+Edig=MCH4,dig×fleaked (11) s et re ra od rsy - na tn hd pd ry en da im cti ec d- s flta ot we rc aa tl eib r ra at nio gn es d, frr oes mp e 0c .t 1iv te ol y .5[4 %1 .]. Similarly,
+i e s 5
+Eds=Qds×Scent (12) The results of the dynamic validation, including the digesters'
+influent flow rates and influent and effluent COD loads, are depicted in
+rp=rsu× 4M ×w MC wH4 H2× CO1 DH2 (13) F mig al. S er3 r, o F ri sg (s N. 3 M, Aa En d < 4 1, 1 r %es )p , e wc eti lv l e wly it. h D iny n aa cm cei pc t p abre led i pc eti ro fon rs m sh ao nw cee d ra m ngin esi- ,
+considering no noise filtering was carried out [42]. This demonstrates
+rsu=rn Y+b t dh ige m steo rd se l's s et rr eo bn yg a pb roil vit iy into r ce op nro fid du ec ne et h ie d ty hn ea m rei lc is bo if it th e a n ia te ro pb reic
+(14)
+e , th d g c n a l y o f s -
+dictions, including biogas production. Parity plots of the digesters'
+EF= Etotal (15) influent flow rates, influent and effluent COD concentrations, and vali-
+Q inf×CODinf dated biogas production, depicted in Figs. S5–S8, showed an excellent fit
+between the measured and predicted data with R2 values exceeding
+3. Results and discussion 0.98.
+3.1. Model calibration and validation
+3.2. Primary sources
+Table 3summarises the steady-state calibration results, presenting
+3.2.1. Anaerobic digesters
+the median of the measured values with their standard deviations (σ)
+Discrepancies between the predicted and measured biogas produc-
+alongside the corresponding predicted effluent characteristics, digesters'
+tion ranged from 0.04% to 38%. These deviations were sporadic, as
+influent and effluent COD concentrations, and sludge flow rates. De-
+shown in Fig. 5, with other periods exhibiting close agreement between
+viations in measured and predicted effluent quality concentrations
+predicted and measured values. Such discrepancies are indicative of
+ranged from 0.04 to 1 g/m3, remaining well within the most stringent
+underlying operational disturbances or instrumentation issues such as
+acceptable error recommended by Rieger et al. [21]. Errors in predicted
+flow meter drifts, maintenance, pipeline modifications or even the use of
+influent and effluent sludge COD concentrations were below 10%,
+unmonitored pipelines, several of which occurred during the commis-
+substantially lower than the acceptable deviations of 20% and 40% for
+sioning of the plant's cogeneration facility during the study period (i.e.,
+2021–2024). However, they may also reflect actual biogas losses
+Table 3 resulting in fugitive CH4 emissions, all of which warrant further inves-
+Steady-state calibration results. tigation. Therefore, these deviations provide valuable diagnostics of
+Measured Median σ Predicted Absolute Acceptable plant performance, highlighting periods where additional scrutiny is
+variable variable error error required to distinguish between true emissions and operational or
+instrumentation artefacts.
+Effluent characteristics (g/m3)
+TSS 6.3 1.8 6 0.3 g/m3 10 g/m3 The magnitude of these discrepancies exceeded the previous as-
+COD 44 12.4 45 1 g/m3 3 g/m3 sumptions of either complete transformation of CH4 to CO2 during
+Total nitrogen 17.6 2 17.5 0.1 g/m3 0.5 g/m3 flaring or losses within 2 to 5% [11,43]. The latter assumption primarily
+(TN) reflected the limited accuracy of large-scale biogas flow metres, which
+Nitrite and 15 2.1 14.78 0.22 g/m3 0.5 g/m3
+typically cannot measure flow rates with errors lower than 5% [13]. The
+nitrate (NOx)
+Total ammonia 0.5 0.6 0.59 0.09 g/m3 0.5 g/m3 estimated discrepancies fell within the range reported by Fredenslund
+nitrogen et al. [44], of 2 to 39.4% in full-scale anaerobic digesters across 25
+(TAN) Danish WWTPs, primarily due to issues with pressure relief valves, gas-
+Total 0.6 0.2 0.66 0.06 g/m3 0.5 g/m3
+bearing components, inspection hatches, pipe connections, mixer axles,
+phosphorus
+and soft covers. The discrepancies in CH4 corresponding to those in the
+(TP)
+Soluble 0.25 0.23 0.21 0.04 g/m3 0.5 g/m3 biogas were 3428 ±2067 kg CH4/d.
+phosphorus
+(sP) 3.2.2. Bioreactors
+Emissions from the bioreactors were 245 ±19 kg CH4/d, exclusively
+Sludge quality (g/m3) through hydrogenotrophic methanogenesis, while no acetoclastic
+Digesters' 54,550 8442 55,391 1.5% –
+methanogenesis activity was observed. This was expected, as hydro-
+influent COD
+Di eg fe fls ute er ns t' 24,500 4301 22,584 7.8% – g ace en to ot cr lo ap sh tii cc m me eth tha an no og ge en ns e x (h 1ib .3it a h ig 0h .e 3r g dr (cid:0)ow 1)t h Ara dt de ir te iola nt aiv lle ,t o hth ya dt o of
+COD s v s . y r -
+genotrophic methanogens have a lower half-saturation concentration
+Flow rates (m3/d)
+Gravity 609 109 604 0.9% –
+thickener
+underflow
+Fermenters 1 252 77 245 2.7% –
+and 2
+underflows
+Fermenters 3 479 51 478 0.1% –
+and 4
+underflows
+Plant A WAS 2112 535 2118 0.3% –
+Plant B WAS 2350 535 2388 1.6% –
+Plant C WAS 1475 288 1440 2.4% –
+Plant D WAS 1248 353 1267 1.5% –
+Thickened WAS 1300 245 1298 0.1% –
+Sludge blend 2580 364 2639 2.3% –
+Biogas 47,003 14,894 44,406 5.5%
+Fig. 3. Dynamics of the measured and predicted digesters' influent COD load.
+6
+
+--- Page 7 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+120
+)d/HCgk(
+44 100
+80
+snosisimeHCevitiguF
+60
+40
+20
+0
+0 100 200 300 400 500 600 700 800 900
+Time(d)
+Centrate Dewateredsolids
+Fig. 6. Daily CH4 emissions from biosolids handling units.
+Fig. 4. Dynamics of the measured and predicted digesters' effluent COD load.
+Since gas–liquid exchange is not modelled in the dewatering unit, the
+dissolved CH4 concentration in the digesters' effluent is assumed to
+remain unchanged in both the centrate and the dewatered solids, which
+will eventually be stripped into the atmosphere. Consequently, the
+higher emissions from the centrate are primarily due to its flow rate,
+which is more than twice that of the dewatered solids. Daelman et al. [6]
+reported CH4 emissions from biosolids of 168 kg CH4/d, albeit with an
+uncertainty of almost 100%, and carried out at a smaller plant not
+directly comparable in magnitude; it remains one of the few studies
+explicitly reporting emissions from biosolids handling. Nonetheless, the
+model's predictions remain consistent with the general magnitude of
+those measurements.
+Fig. 5. Dynamics of the discrepancies in CH4 production from the anaer- 3.2.4. Overall emissions
+obic digesters. Overall emissions over the study period were 1111 ±1932 kg CH4/
+d, reflecting temporal variability exceeding 100% during the study
+(Ks =0.00125 g H2/m3), enabling them to utilise H2 at very low con- period, corresponding to EFs of 0.0047 ±0.0081 kg CH4/kg COD and
+centrations. In contrast, the slower growth rate and the higher acetate 0.012 ± 0.02 kg CH4/kg BOD. EFs from the primary sources were
+half-saturation concentration (Ks = 400 g COD/m3) of acetoclastic consistent with the ranges reported by Moore et al. [8]of 0.001 to 0.4 kg
+methanogens prevent them from outcompeting other acetate-utilisers CH4/kg BOD across 63 full-scale WWTPs in the United States. The results
+such as denitrifiers, phosphorus accumulating organisms (PAOs), and are also consistent with other full-scale studies of WWTPs with AD,
+sulphate reducing bacteria (SRB) to eventually produce CH4. Several which report EFs ranging from 0.023 to 0.064 CH4/kg BOD [50,51]. The
+studies have reported H2 generation by Candidatus Accumulibacter average EF was 70% higher than the Canadian EF for BNR plants
+during anaerobic acetate contact and its uptake for poly- (0.0036 kg CH4/kg BOD) but 33% lower than that of the Intergovern-
+hydroxyalkanoate (PHA) synthesis, serving as part of the redox balance mental Panel on Climate Change (IPCC; 0.018 kg CH4/kg BOD), high-
+in EBPR systems [45,46]. Randall et al. [47] also reported anaerobic lighting that existing national EFs may not adequately represent CH4
+COD losses in EBPR systems where fermentable substrates were used emissions from centralised WWTPs [52]. The influent BOD load was
+instead of acetate, partly due to CO2 production during fermentation, used as the reference metric, as it is the conventional organic loading
+but also due to H2 evolution, as trace concentrations of H2 were parameter adopted by the IPCC and is more routinely monitored across
+measured in the off-gas of properly functioning systems. Dissolved H2 WWTPs than COD.
+present in the fermenter supernatant, along with that produced during
+EBPR and in situ fermentation in anaerobic and anoxic selectors, could
+3.3. Potential sources
+be a potential source for CH4 emissions.
+Yan et al. [48]and Wang et al. [5]reported CH4 emissions ranging
+The primary sources were constrained by the routine measurements
+from 74.4 to 147.7 kg CH4/d and from 24 to 49 kg CH4/d, respectively,
+available at the plant; however, as was previously demonstrated in
+from the bioreactors of BNR plants in China, operating at average COD
+Fig. 1, additional CH4 sources may be relevant. Therefore, this section
+loads that were 47% and 73.6% lower than those of the plant in this
+evaluates these potential sources, assesses their significance, and in-
+study. It is noteworthy that it was not possible to distinguish between the
+corporates those that could be quantified into the uncertainty analysis.
+emissions produced in the bioreactors and those conveyed from up-
+stream processes. However, when applying the CH4 production rates
+3.3.1. Sewers
+reported by Ren et al. [49] (i.e., 0.006 to 0.011 kg CH4/m2⋅d across
+CH4 formation in sewer systems, often reaching supersaturated
+anaerobic, anoxic, and aerobic zones) to the surface areas of the bio-
+concentrations, was previously reported by Guisasola et al. [53]. How-
+reactors in this study, emissions exclusively from the bioreactors ranged
+ever, it was not until 2019 that the 2006 IPCC Guidelines for National
+from 221 to 385 kg CH4/d, well-aligned with the model's results,
+Greenhouse Gas Inventories were refined to acknowledge this issue.
+demonstrating the value of rigorous calibration, particularly the
+Even then, the guidelines only considered emissions from stagnant
+reduction in the H2 fermentation yield, given that default values would
+sewers, assuming those from free-flowing waters to be negligible, a
+have inflated the model's predictions by two orders of magnitude.
+stance that has remained unchanged [54,55]. Earlier concerns regarding
+the potential magnitude of CH4 emissions from sewers were raised a
+3.2.3. Biosolids handling
+decade earlier by Foley et al. [56], who reported dissolved CH4 con-
+depE icm tei dss i io nn Fs igfr . o 6m , wth ere e d 1e 0w ±ate 2r e ad n ds o 7l 6id s ± a 1n 0d kt gh e C Hre 4/c dyc , l re ed s pc ee cn tit vra et lye, . oce n at rr ia st ii no gn ms r aa in ng ii nn Gg ofr ldom o1 st to 9 A. u2 s9 rg lC iaH 4 c/ om nc3 uin ia d o thw an ts t cr oe nam w rye tt w te hl el
+f C a , t a , l d n g , tra o
+7
+
+--- Page 8 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+IPCC's assumptions, sewers represent a significant source of CH4 precipitation–dissolution equilibrium toward dissolution [35]. Conse-
+emissions. quently, approximately 79 g COD/m3 remain unaccounted for, which
+Based on the distributions of the data in Table S6, the higher bound may have been released as either CH4 or CO2 or both, depending on the
+of sewer-induced emissions was estimated to be 2726 ±1516 kg CH4/d, prevailing microbial pathways.
+ranging from 0.009 to 11,754 kg CH4/d, while the lower bound was Emissions from clarifiers are associated with substantial uncertainty
+estimated to be 476 ±211 kg CH4/d, ranging from 0.002 to 1870 kg and a lack of data to properly evaluate them. Daelman et al. [6]reported
+CH4/d. While emissions from sewers and the influent wastewater have emissions from primary and secondary clarifiers of 24 ±96 and 24 ±
+been quantified in full-scale studies, they have rarely been incorporated 120 kg CH4/d, while Yan et al. [48] reported no emissions from the
+into plant-wide modelling frameworks to assess their contribution to clarifiers of 3 different WWTPs. One of the key limitations of the model
+plant-wide emissions. The results indicate they are far from negligible was the inability to predict emissions from primary clarifiers, specif-
+and, in some cases, can exceed emissions from anaerobic digesters, ically, due to insufficient data on the PS characteristics. Additionally,
+representing a significant but often overlooked source of CH4 emissions. clarifiers are typically modelled as non-reactive ideal separation units,
+while reactive clarifier models are computationally demanding, and the
+3.3.2. Fermenters necessary data from full-scale plants for calibration are non-existent.
+Considering the fermenters' off-gas is pumped directly into the bio- Hence, the reliance on manual calculations was the only way available
+reactors, any CH4 present in this stream would be considered fugitive. to evaluate any COD losses.
+Emissions from the fermenters were 25 ± 99, 37 ± 157, 396 ± 438,
+1183 ±186, and 1482 ±287 kg CH4/d across SRTs of 3, 4, 5, 6, and 7
+3.4. Uncertainty and sensitivity analyses
+days, respectively. Despite the relatively short HRTs of the fermenters,
+decoupling the HRT from the SRT allows not only hydrogenotrophic
+The first- and total Sobol indices of this scenario are summarised in
+methanogenesis to occur, but also acetoclastic methanogenesis, since
+Table 4. Fugitive CH4 emissions and the EFs from the primary sources
+the minimum SRT required to prevent their washout is 4 days [57]. were estimated to be 3845 ±1774 kg CH4/d and 0.018 ±0.008 kg CH4/
+Considering that the temperatures investigated in this scenario, ranging
+kg COD, respectively, with uncertainties of 46.1% and 44.4% reflecting
+from 9.9 to 18.8 ◦C, were well below the optimal range for methano-
+substantial variability. The sensitivity analysis showed that ffugitive and
+genesis, it is likely that, in heated fermenters, the onset of CH4 pro-
+MCH4 were the most sensitive variables, accounting for 86.7% and 9.7%
+duction would occur over a shorter duration, with the cut-off potentially
+of the output variance, respectively. This was expected given the limited
+falling below 5 days. Overall emissions from the fermenters' off-gas and
+number of contributing variables in this scenario and the magnitude of
+supernatant are depicted in Fig. 7.
+their associated uncertainty. Small numerical errors can arise from the
+truncation of Monte Carlo approximations used in Sobol's method;
+3.3.3. Secondary clarifiers
+therefore, slightly negative indices are assumed to be equal to zero [58].
+Since fermentation in sludge blankets, whether intentional or not,
+In the scenario representing the upper bound of influent CH4 con-
+can create conditions conducive to methanogenesis, secondary clarifiers centrations, fugitive CH4 emissions and the EFs were 7643 ±2440 kg
+represent a potential unaccounted source of CH4 [35]. Due to data CH4/d and 0.034 ±0.012 kg CH4/kg COD, with uncertainties of 31.9%
+limitations, emissions were estimated using manual calculations. Anal-
+and 35.3%, respectively. Sinf was the most sensitive variable, accounting
+ysis of the secondary clarifiers revealed that complete removal of NOx,
+for 83.5% of the output variance, followed by Qinf, and ffugitive, contrib-
+sa lc uc do gm ep ba ln ai ne kd tb y ea an i in nc gr e 3a 6s .e gin N /mHx aa nn dd 2s 6C 1O D Cc Oon Dc /e mn 3tr a rt ei so pn es ti in et lh ye
+uting 10.9% and 1.5%, respectively. The influence of Sinf substantially
+e , r ch 8 N 3 g , c v ,
+reduced the relative sensitivity of ffugitive, from 86.7% from the primary
+indicative of fermentation. Considering the pN/VSS and pCOD/VSS ra-
+sources to 1.5%. This reflects not only the influence of the relatively high
+tios of the WAS being 0.095 g N/g VSS and 1.46 g COD/g VSS, respec-
+concentrations but also the high flow rates exhibited by the plant, which
+tively, it was estimated that on average 137 g VSS/m3 were solubilised, reached 661,200 m3/d during the study period.
+releasing 201 g COD/m3. The COD consumed for denitrification was
+estimated to be 14.3 g COD/m3, based on an average COD/N
+Table 4
+consumptive ratio of 4.5 [35]. Meanwhile, the concentration of ortho-
+First- and total-order Sobol indices of all scenarios.
+phosphate (PO4) increased significantly, from an average of 0.07 to 66.1
+g P/m3. Considering the pP/VSS ratio of the WAS being 0.034, the Sources Primary sources Primary and secondary sources
+amount of PO4 released from fermentation only amounted to 4.7 g P/m3, Upper bound scenario Lower bound
+and the residual COD after denitrification was insufficient for phos- scenario
+phorus release by PAOs. Additionally, due to fermentation, low pH Variable Si STi Si STi Si STi
+pockets may have formed, shifting the aluminium phosphate (AlPO4) Qinf – – 0.109 0.145 0.08 0.1
+Sinf – – 0.835 0.873 0.58 0.6
+Qcent 5 1.8 03 5× 6 1.0 07 5× 1 1.0 02 4× 1 1.0 02 4× 1 1.7 03 3× 1 1.7 09 3×
+2,000 (cid:0) (cid:0) (cid:0) (cid:0) (cid:0) (cid:0)
+)d/HCgk( 1,800 Scent 1.65 × 3.02 × 2.77 × 2.13 × 3.37 × 3.75 ×
+44 10(cid:0)6 10(cid:0)6 10(cid:0)5 10(cid:0)5 10(cid:0)4 10(cid:0)4
+1,600
+MCH4,dig 0.097 0.13 1 1.5 09 3× 2 1. 01 × 0.027 0.037
+1,400 (cid:0) (cid:0) 3
+snoissimeHCevitiguF 1,200 ffugitive 0.869 0.90 0.015 0.01 0.25 0.26
+MCH4,ferm – – (cid:0) 2 1. 00 (cid:0)5 × 3 1.1 02 7× 8 1.4 02 6× 5 1.5 02 6×
+1,000 7 (cid:0) (cid:0) (cid:0)
+800 Qfsu – – 4.5 × 5.9 × 7.8 × 0.01
+10(cid:0)4 10(cid:0)4 10(cid:0)3
+600
+Sfsu – – 7 1. 07 × 9 1.8 02 4× 0.015 0.017
+400 (cid:0) 4 (cid:0)
+200 Qds 1.23 × 1.27 × 2.19 × 2.05 × 3.63 × 3.63 ×
+10(cid:0)6 10(cid:0)6 10(cid:0)4 10(cid:0)4 10(cid:0)3 10(cid:0)3
+0
+3d 4d 5d 6d 7d rp 1.18 × 1.01 × 1.74 × 1.64 × 2.99 × 2.91 ×
+10(cid:0)4 10(cid:0)4 10(cid:0)4 10(cid:0)4 10(cid:0)3 10(cid:0)3
+SRT(d)
+Vr 1.03 × 1.14 × 1.59 × 1.86 × 2.76 × 3.28 ×
+10(cid:0)6 10(cid:0)5 10(cid:0)5 10(cid:0)5 10(cid:0)4 10(cid:0)4
+Fig. 7. Fugitive CH4 emissions from the fermenters at different SRTs.
+8
+
+--- Page 9 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+In the scenario representing the lower bound of influent CH4 con- The model provided key process insights into CH4 formation across
+centrations, fugitive CH4 emissions and the EFs were 5393 ±1925 kg the fermenters and bioreactors. In the fermenters, the operational SRT
+CH4/d and 0.024 ±0.009 kg CH4/kg COD, with uncertainties of 35.7% governed both the onset and magnitude of CH4 production, with longer
+and 37.5%, respectively. Similar to the upper bound scenario, Sinf was SRTs, even at colder temperatures, increasing emissions by orders of
+the most sensitive variable, contributing 58% to the total variance, magnitude. In the bioreactors, the model revealed that CH4 formation
+followed by ffugitive, Qinf, MCH4,dig and Sfsu contributing 25%, 8%, 2.7%, occurred primarily through hydrogenotrophic methanogenesis, persist-
+1.5% to the output variance, respectively. Table S7 summarises the ing even under alternating aerated and non-aerated conditions.
+overall uncertainty in fugitive CH4 emissions and EFs from each sce- Additionally, while emissions from sewers were estimated using
+nario, including minimum, mean (μ), standard deviation, and maximum published data, confirming the presence of dissolved CH4 in the influent
+values. would require limited targeted sampling, which remains far less
+Across all scenarios, the first- and total-order Sobol indices were very resource-intensive than plant-wide measurement campaigns and can be
+similar, indicating that the model behaves nearly additively with respect incorporated into routine influent monitoring.
+to a variable. In such cases, the variable's effect on the output is largely Across all primary sources, including anaerobic digesters, bio-
+independent, contributing to the variance primarily through its main reactors, and biosolids handling, the predicted emissions aligned with
+effect rather than through interactions with other variables [40]. values reported in plant-wide measurement campaigns. This demon-
+strates that the model provides a practical alternative for continuous
+3.4.1. Synopsis plant-wide assessment, as calibration and validation rely primarily on
+The primary reason previous plant-wide models have focused on N2O routine plant data. While additional targeted efforts, such as influent
+rather than CH4, aside from the substantial difference in their global characterisation, may be required, the overall resource demand remains
+warming potentials (273 vs. 27), is the significant spatial and temporal substantially lower than that of comprehensive, long-term plant-wide
+variability of N2O emissions observed in full-scale monitoring cam- monitoring campaigns. Moreover, the framework enables dynamic
+paigns, which can range from 0 to 90% of the influent nitrogen load, in predictions, visualisation, and the identification of atypical operational
+addition to the uncertainty in its production pathways [54,59,60]. In behaviour that can guide targeted mitigation efforts, capabilities that
+contrast, CH4 emissions were long assumed to be static, originating are seldom captured through monitoring campaigns.
+primarily from leaks in anaerobic digesters and typically estimated at
+only 2 to 5%. However, the uncertainty and sensitivity analyses showed 4. Conclusions
+that CH4 emissions can also be highly variable, with uncertainties
+approaching 50%, and amounting to 13.6% of the total influent COD This study presents a plant-wide modelling framework that enables
+load, far beyond IPCC's estimate of 0.75% for centralised aerobic plants quantification of fugitive CH4 emissions, evaluation of uncertainty, and
+[61]. These results also underscore that even strictly aerobic plants may identification of key emission hotspots in full-scale WWTPs. The main
+exhibit significant fugitive CH4 emissions, considering bioreactors findings are as follows:
+contributed negligibly to the overall emissions. The variables with the
+largest influence were the influent flow rate, influent CH4 concentra- • Fugitive CH4 emissions are substantially underestimated when
+tions, CH4 production in the anaerobic digesters, and the corresponding assumed to originate solely from anaerobic digesters and when the
+fugitive CH4 emissions. fugitive fraction is assumed to be constant and not quantified based
+It is important to note that, while influent wastewater characteristics on operational data.
+and fractions are inherent sources of uncertainty in modelling, they were • Thorough model calibration is essential, as default model parameters
+not propagated in this analysis. This decision was supported by the can lead to either under- or overestimation of emissions.
+historical stability of the studied plant's influent; however, this source of • Monte Carlo simulations indicated uncertainties ranging from 39.1%
+uncertainty should be carefully considered when applying the frame- to 46.1% in both CH4 emissions and emission factors.
+work to facilities with more variable influent quality. Frameworks for • The sensitivity analysis revealed that the influent flow rate, dissolved
+propagating influent uncertainty in plant-wide models have been pro- influent CH4 concentrations, CH4 production in anaerobic digesters,
+posed (e.g., Ramin et al. [62]), and could be incorporated where influent and the fraction leaked into the atmosphere are the largest contrib-
+variability is significant. utors to fugitive emissions.
+• A rigorously calibrated and validated plant-wide model can predict
+3.5. Practical implications CH4 emissions while reducing the need for resource-intensive
+monitoring campaigns.
+Capturing the diurnal and seasonal variability of emissions through
+dedicated monitoring campaigns is costly, labour-intensive, and time- While the framework provides a practical tool for plant-wide
+consuming. Moreover, such campaigns often fail to resolve temporal assessment of fugitive CH4 emissions, its performance remains depen-
+variations in emissions and provide limited process-level insight to dent on the availability and quality of operational data. Future work
+support mitigation, particularly when municipalities and WWTPs are should focus on improving the predictive capability of plant-wide
+not required to monitor emissions for regulatory compliance. In models for process units that are not readily identifiable as emission
+contrast, a properly calibrated and validated plant-wide model can hotspots and may require more detailed calibration or a refined process
+identify emission hotspots, quantify emissions, evaluate uncertainties, representation, such as clarifiers.
+and inform targeted mitigation strategies at a much lower cost. Never-
+theless, model performance, as with all models, depends on the quality CRediT authorship contribution statement
+and frequency of the data used for hydraulic and mass balance calcu-
+lations, calibration, and validation. Amr Ismail: Writing – original draft, Visualization, Validation,
+Biogas production predictions, supported by COD mass balance Software, Methodology, Formal analysis, Data curation, Conceptuali-
+calculations, were sufficient to reveal discrepancies indicative of oper- zation. Amr Mustafa Abdelrahman: Writing – original draft, Valida-
+ational disturbances, instrumentation issues, or biogas losses, without tion, Conceptualization. Ahmed Elsayed: Writing – review & editing.
+requiring additional sampling beyond routine monitoring. Therefore, Mohamed Sherif Zaghloul: Funding acquisition. Farokh laqa Kakar:
+the framework does not attempt to directly predict contributing factors Funding acquisition. John Willis: Funding acquisition. Allegra da
+but rather identifies inconsistencies in the COD-to-CH4 mass balance Silva: Funding acquisition. Domenico Santoro: Funding acquisition.
+that signal potential methane losses within the system. Tanush Wadhawan: Software. Saba Daneshgar: Writing – review &
+9
+
+--- Page 10 ---
+A. Ismail et al. C h e m i c a l E n g i n e e r i n g J o u r n a l 537 (2026) 176290
+editing, Supervision, Conceptualization. Ahmed AlSayed: Writing – [14] L. Corominas, X. Flores-Alsina, L. Snip, P.A. Vanrolleghem, Comparison of different
+review & editing, Supervision, Methodology, Conceptualization. modeling approaches to better evaluate greenhouse gas emissions from whole
+wastewater treatment plants, Biotechnol. Bioeng. 109 (11) (2012) 2854–2863,
+Elsayed Elbeshbishy: Writing – review & editing, Supervision, Re- https://doi.org/10.1002/bit.24544.
+sources, Project administration. [15] D.J. Batstone, J. Keller, I. Angelidaki, S.V. Kalyuzhnyi, S.G. Pavlostathis, A. Rozzi,
+W.T.M. Sanders, H. Siegrist, V.A. Vavilin, The IWA anaerobic digestion model no 1
+(ADM1), Water Sci. Technol. 45 (10) (2002) 65–73, https://doi.org/10.2166/
+wst.2002.0292.
+Declaration of competing interest [16] X. Flores-Alsina, M. Arnell, Y. Amerlinck, L. Corominas, K.V. Gernaey, L. Guo,
+E. Lindblom, I. Nopens, J. Porro, A. Shaw, L. Snip, P.A. Vanrolleghem, U. Jeppsson,
+The authors declare that they have no known competing financial Balancing effluent quality, economic cost and greenhouse gas emissions during the
+evaluation of (plant-wide) control/operational strategies in WWTPs, Sci. Total
+interests or personal relationships that could have appeared to influence Environ. 466–467 (2014) 616–624, https://doi.org/10.1016/J.
+the work reported in this paper. SCITOTENV.2013.07.046.
+[17] L. Guo, J. Porro, K.R. Sharma, Y. Amerlinck, L. Benedetti, I. Nopens, A. Shaw, S.W.
+H. Van Hulle, Z. Yuan, P.A. Vanrolleghem, Towards a benchmarking tool for
+Acknowledgments minimizing wastewater utility greenhouse gas footprints, Water Sci. Technol. 66
+(11) (2012) 2483–2495, https://doi.org/10.2166/wst.2012.495.
+[18] M. Arnell, M. Rahmberg, F. Oliveira, U. Jeppsson, Multi-objective performance
+The authors gratefully acknowledge the financial support of the
+assessment of wastewater treatment plants combining plant-wide process models
+National Sciences and Engineering Research Council of Canada and life cycle assessment, J. Water Clim. Change 8 (4) (2017) 715–729, https://
+(NSERC). doi.org/10.2166/wcc.2017.179.
+[19] G. Mannina, T.F. Rebouças, A. Cosenza, K. Chandran, A plant-wide wastewater
+treatment plant model for carbon and energy footprint: model application and
+Appendix A. Supplementary data scenario analysis, J. Clean. Prod. 217 (2019) 244–256, https://doi.org/10.1016/J.
+JCLEPRO.2019.01.255.
+[20] B. Solís, A. Guisasola, X. Flores-Alsina, U. Jeppsson, J.A. Baeza, A plant-wide model
+Supplementary data to this article can be found online at https://doi. describing GHG emissions and nutrient recovery options for water resource
+org/10.1016/j.cej.2026.176290. recovery facilities, Water Res. 215 (2022) 118223, https://doi.org/10.1016/J.
+WATRES.2022.118223.
+[21] L. Rieger, S. Gillot, G. Langergraber, T. Ohtsuki, A. Shaw, I. Tak’cs, S. Winkler,
+Data availability
+Guidelines for Using Activated Sludge Models, IWA Publishing, 2012, https://doi.
+org/10.2166/9781780401164.
+The data that has been used is confidential. [22] A. Bouzas, J. Ribes, J. Ferrer, A. Seco, Fermentation and elutriation of primary
+sludge: effect of SRT on process performance, Water Res. 41 (4) (2007) 747–756,
+https://doi.org/10.1016/J.WATRES.2006.11.034.
+References [23] A.R. Pitman, L.H. Lo¨tter, W.V. Alexander, S.L. Deacon, Fermentation of raw sludge
+and elutriation of resultant fatty acids to promote excess biological phosphorus
+removal, Water Sci. Technol. 25 (4–5) (1992) 185–194, https://doi.org/10.2166/
+[1] M. Maktabifard, H.E. Al-Hazmi, P. Szulc, M. Mousavizadegan, X. Xu,
+E. Zaborowska, X. Li, J. Mąkinia, Net-zero carbon condition in wastewater wst.1992.0494.
+[24] J. Yin, X. Yu, Y. Zhang, D. Shen, M. Wang, Y. Long, T. Chen, Enhancement of
+treatment plants: a systematic review of mitigation strategies and challenges,
+acidogenic fermentation for volatile fatty acid production from food waste: effect
+Renew. Sustain. Energy Rev. 185 (2023) 113638, https://doi.org/10.1016/j. of redox potential and inoculum, Bioresour. Technol. 216 (2016) 996–1003,
+rser.2023.113638.
+https://doi.org/10.1016/J.BIORTECH.2016.06.053.
+[2] R.M. Venegas, J. Acevedo, E.A. Treml, Three decades of ocean warming impacts on
+[25] X. Chen, L.D.M. Ottosen, M.V.W. Kofoed, How low can you go: methane
+marine ecosystems: a review and perspective, Deep-Sea Res. II Top. Stud.
+production of Methanobacterium congolense at low CO2 concentrations, Front.
+Oceanogr. 212 (2023) 105318, https://doi.org/10.1016/j.dsr2.2023.105318.
+Bioeng. Biotechnol. 7 (2019), 2019, https://www.frontiersin.org/journals/bioen
+[3] G. Chen, M.C.M. van Loosdrecht, G.A. Ekama, D. Brdjanovic, Biological
+gineering-and-biotechnology/articles/10.3389/fbioe.2019.00034.
+Wastewater Treatment: Principles, Modelling and Design, 2nd edition, IWA
+[26] P.A. Vanrolleghem, G. Insel, B. Petersen, G. Sin, D. De Pauw, I. Nopens,
+Publishing, 2023, https://doi.org/10.2166/9781789060362.
+H. Dovermann, S. Weijers, K. Gernaey, A comprehensive model calibration
+[4] F. Schreiber, P. Wunderlin, K.M. Udert, G.F. Wells, Nitric oxide and nitrous oxide procedure for activated sludge models, WEFTEC 2003 (2003) 210–237.
+turnover in natural and engineered microbial communities: biological pathways,
+[27] W. Gujer, M. Henze, T. Mino, M. Van Loosdrecht, Activated sludge model no. 3,
+chemical reactions, and novel technologies, Front. Microbiol. 3 (2012), 2012, http Water Sci. Technol. 39 (1) (1999) 183–193, https://doi.org/10.1016/S0273-1223
+s://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2012.003
+(98)00785-9.
+72.
+[28] M. Henze, W. Gujer, T. Mino, M. Van Loosedrecht, Activated Sludge Models ASM1,
+[5] J. Wang, J. Zhang, H. Xie, P. Qi, Y. Ren, Z. Hu, Methane emissions from a full-scale
+ASM2, ASM2d and ASM3, 2006.
+A/A/O wastewater treatment plant, Bioresour. Technol. 102 (9) (2011)
+5479–5485, https://doi.org/10.1016/j.biortech.2010.10.090. [29] A di. gJ e. sW tioa nrd o, fP a.J g. iH cuo lb tub rs a, lP r. eJ s. oH uo rcll eim a Bn io, rD e. sL o. J ro n Te es c, O nop lt .i m 99is (a 1ti 7o )n 2o 0f 0th 8e 7a 9n 2a 8er –o 7b 9i 4c
+r s, u . h ( ) 0 ,
+[6] M.R.J. Daelman, E.M. van Voorthuizen, U.G.J.M. van Dongen, E.I.P. Volcke, M.C.
+https://doi.org/10.1016/j.biortech.2008.02.044.
+M. van Loosdrecht, Methane emission during municipal wastewater treatment,
+Water Res. 46 (11) (2012) 3657–3670, https://doi.org/10.1016/J. [30] O Pr. o Y ce en ssi g Bü in o, c hB e. mD .e m 48ir (e 5l, – 6A )m (m 20o 1n 3ia ) 9in 0h 1i –b 9it 1io 1n . in anaerobic digestion: a review,
+WATRES.2012.04.024.
+[31] P. Zhou, E. Elbeshbishy, G. Nakhla, Optimization of biological hydrogen
+[7] M.R.J. Daelman, B. De Baets, M.C.M. van Loosdrecht, E.I.P. Volcke, Influence of
+production for anaerobic co-digestion of food waste and wastewater biosolids,
+s tra em atp mlin eng s ptr laa nte tg s,i e Ws ao tn rt h Re se s 4ti 7m (a 9t )e (d 0n 1it 3ro u 3s 2o 0xi –d 3e 3em 0,i hss ti to pn /fr /o dm .w ora gs /te 1w 0.a 1t 0e 1r Bioresour. Technol. 130 (2013) 710–718, https://doi.org/10.1016/J.
+t e e . 2 ) 1 1 s: oi 6/J.
+BIORTECH.2012.12.069.
+WATRES.2013.03.016.
+[8] D.P. Moore, N.P. Li, L.P. Wendt, S.R. Castan˜eda, M.M. Falinski, J.-J. Zhu, C. Song, [32] V. Gupta, R. Goel, Managing dissolved methane gas in anaerobic effluents using
+microbial resource management-based strategies, Bioresour. Technol. 289 (2019)
+Z.J. Ren, M.A. Zondlo, Underestimation of sector-wide methane emissions from
+121601, https://doi.org/10.1016/J.BIORTECH.2019.121601.
+United States wastewater treatment, Environ. Sci. Technol. 57 (10) (2023)
+4082–4090, https://doi.org/10.1021/acs.est.2c05373. [33] G. Bahreini, E. Elbeshbishy, J. Jimenez, D. Santoro, G. Nakhla, Integrated
+fermentation and anaerobic digestion of primary sludges for simultaneous resource
+[9] L. Ye, J. Porro, I. Nopens, Quantification and Modelling of Fugitive Greenhouse Gas
+and energy recovery: impact of volatile fatty acids recovery, Waste Manag. 118
+E Mm i Ps rs ´eio nn ds zF ,r So .m aU rr ab -Gan nW za´a lt ee zr S Ay ps pte lim cas t, ioIW A fP su trb al ti esh gi in esg , o2 r0 s2 a2 n. (2020) 341–349, https://doi.org/10.1016/J.WASMAN.2020.08.051.
+[10] . e L o , n o f itation management
+[34] A. Ismail, E. Elbeshbishy, G. Nakhla, Thermal hydrolysis pretreatment of
+in wastewater treatment plants in order to control/reduce greenhouse gas
+emissions, J. Environ. Manage. 88 (4) (2008) 658–664, https://doi.org/10.1016/J. wastewater biosolids: modelling the impact of the aerobic sludge age, J. Water
+Process Eng. 60 (2024) 105114, https://doi.org/10.1016/j.jwpe.2024.105114.
+JENVMAN.2007.03.041. [35] Metcalf & Eddy, Wastewater Engineering: Treatment and Resource Recovery, 5th
+[11] M. Bani Shahabadi, L. Yerushalmi, F. Haghighat, Impact of process design on
+ed., McGraw-Hill Professional, 2014.
+greenhouse gas (GHG) generation by wastewater treatment plants, Water Res. 43
+(10) (2009) 2679–2687, https://doi.org/10.1016/J.WATRES.2009.02.040. [36] G. Sin, K.V. Gernaey, M.B. Neumann, M.C.M. van Loosdrecht, W. Gujer,
+Uncertainty analysis in WWTP model applications: a critical discussion using an
+[12] H.D. Monteith, H.R. Sahely, H.L. MacLean, D.M. Bagley, A rational procedure for example from design, Water Res. 43 (11) (2009) 2894–2906, https://doi.org/
+estimation of greenhouse-gas emissions from municipal wastewater treatment
+plants, Water Environ. Res. 77 (4) (2005) 390–403, https://doi.org/10.1002/ 10.1016/J.WATRES.2009.03.048.
+[37] E. Koehler, E. Brown, S.J.-P. Haneuse, On the assessment of Monte Carlo error in
+j.1554-7531.2005.tb00298.x. simulation-based statistical analyses, Am. Stat. 63 (2) (2009) 155–162.
+[13] R. Gori, L.M. Jiang, R. Sobhani, D. Rosso, Effects of soluble and particulate
+[38] R. Al, C.R. Behera, A. Zubov, K.V. Gernaey, G. Sin, Meta-modeling based efficient
+s Wu ab ts etr ra Rte so n 5th (e c 8a )r (b 2o 0n a 1n d 8e 5n 8er –g 5y 7fo 2o t hp tr ti pn st /o /f w oia .s ot re gw /1at 0e .r 0tr 1e 6a /t Jm ent processes, global sensitivity analysis for wastewater treatment plants – an application to the
+e . 4 1 1 ) 5 8 , : d 1 .
+WATRES.2011.08.036.
+10

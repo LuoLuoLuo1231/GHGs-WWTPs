@@ -1,0 +1,691 @@
+--- Page 1 ---
+water
+Article
+A Comparative Study of Carbon Emissions from Industrial and
+Domestic Wastewater Treatment Plants under the Background of
+Carbon Neutralization
+XiaopingLiu1,2,3,ZhanbinLi1,2,PengLi1,2,WeiqingXu1,TongLiu4,ShengdongCheng1,2,JiajiaLi3,
+ZiyaoMiao3,LinZhang5andXingZheng4,6,*
+1 StateKeyLaboratoryofEco-HydraulicsinNorthwestAridRegionofChina,Xi’anUniversityofTechnology,
+Xi’an710048,China;liuxiaoping0111@163.com(X.L.)
+2 KeyLaboratoryofNationalForestryAdministrationonEcologicalHydrologyandDisasterPreventionin
+AridRegions,Xi’anUniversityofTechnology,Xi’an710048,China
+3 YulinHigh-TechZoneYuhengNo.1IndustrialSewageTreatmentCompany,YulinCoalChemicalWaste
+ResourceUtilizationandLowCarbonEnvironmentalProtectionEngineeringTechnologyResearchCenter,
+Yulin719000,China
+4 InstituteofEco-EnvironmentalResearch,SchoolofEnvironmentalandNaturalResources,
+ZhejiangUniversityofScience&Technology,Hangzhou310023,China
+5 YulinGaoxinSewageTreatmentCo.,Ltd.,Yulin719000,China
+6 NationalSupervision&InspectionCenterofEnvironmentalProtectionEquipmentQuality,
+Yixing214205,China
+* Correspondence:xing.zheng@zust.edu.cn
+Abstract:Thispaperstudiedthecharacteristicsofthecarbonemissionofanindustrialwastewater
+treatmentplant(IWWTP)andadomesticWWTP(DWWTP)locatedinahigh-techindustrialpark
+of Shaanxi Province, China. The results showed that the total carbon emissions of the IWWTP
+andDWWTPwere10.13kg/tand1.84kg/tin2020,respectively. Indirectcarbonemissionsplay
+a dominant role in the total carbon emission of the IWWTP, which accounts for about 97.6% of
+thetotalamount. Thedirectcarbonemissionsofgreenhousegases(e.g.,CH ,N O)accountfor
+4 2
+about62%ofthetotalcarbonemissionsintheDWWTP,followedbytheindirectcarbonemissions
+Citation:Liu,X.;Li,Z.;Li,P.;Xu,W.;
+Liu,T.;Cheng,S.;Li,J.;Miao,Z.; generatedbyelectricityconsumption(31.06%)andchemicalconsumption(6.94%).Additionally,the
+Zhang,L.;Zheng,X.AComparative centralizedrecyclingandre-utilizationofthewastewatercouldachieve1.06kg/tand1.16kg/tof
+StudyofCarbonEmissionsfrom carbonemissionreductionintheIWWTPandDWWTP,respectively,whilethecarbonemissions
+IndustrialandDomesticWastewater oftheDWWTPareinverselyproportionaltothetreatmentcapacity. Therefore,itisofgreatvalue
+TreatmentPlantsunderthe tocollectandutilizeintensivelytherecycledwatertoachievethegoalofregionalcarbonemission
+BackgroundofCarbonNeutralization. reductionandcarbonneutralizationofWWTPsinindustrialparks.
+Water2024,16,1652. https://
+doi.org/10.3390/w16121652
+Keywords:carbonemissions;industrialwastewater;domesticwastewater;reductionincarbonemission
+AcademicEditor:DipakA.Jadhav
+Received:21April2024
+Revised:31May2024
+1. Introduction
+Accepted:31May2024
+Wastewatertreatmentplants(WWTPs)havebeenidentifiedasmainemissionsources
+Published:9June2024
+ofanthropogenicgreenhousegas(GHG)[1]. Domesticandindustrialpollutantsareusually
+transportedintoWWTPsduringtheprocessesofwastewatertreatment[2],whichneed
+to consume a huge amount of electricity and chemicals to achieve good performance.
+Copyright: © 2024 by the authors. Conventional WWTPs require significant energy inputs, making up 3% of the global
+Licensee MDPI, Basel, Switzerland. consumptionofelectricity[3]. Thebiodegradationoforganicmattercontributesto1.57%
+Thisarticleisanopenaccessarticle ofglobalCO -equivalentGHGemissionand5%ofglobalnon-carbondioxidegreenhouse
+2
+distributed under the terms and gas(mainlyCH andN O)emission[4,5],whichresultsinacriticalimpactonclimateand
+4 2
+conditionsoftheCreativeCommons theeconomy. Hence,thecontrolstrategiesofGHGemissionhavegainedmoreandmore
+Attribution(CCBY)license(https:// widespreadattention,asaresultofhardenvironmentalregulations[6].In2020,PresidentXi
+creativecommons.org/licenses/by/
+JinpingproposedthatChinawillfurtherimprovethecountry’sindependentcontribution,
+4.0/).
+Water2024,16,1652.https://doi.org/10.3390/w16121652 https://www.mdpi.com/journal/water
+
+--- Page 2 ---
+Water2024,16,1652 2of13
+strivetoachievecarbonpeaksin2030,andachievecarbonneutralizationgoalsby2060
+andpromotethehigh-qualitydevelopmentofsocialeconomy. Togainthereductionin
+effectivecarbonemissionsproducedduringtheprocessesofwastewatertreatment,itis
+importanttoexploretheoriginsofcarbonemissionunderdifferentconditionsofinfluent
+(industrialanddomestic)andtreatmentprocesses[4,7],whichwouldbemeaningfulto
+guidesustainableGHGcontrolstrategies(IPCC2019).
+TheIntergovernmentalPanelonClimateChange(IPCC)hasreportedthetotalcarbon
+emissionofsomedomesticWWTPs(DWWTPs)[8,9]. Forinstance, in[10], Zhangetal.
+reportedthatthecontributionofGHGfromtheanaerobic, anoxic, andaerobicunitsin
+a DWWTP was 29.7%, 32.5%, and 37.8% of the total carbon emission, respectively, in
+whichthedirectcarbonemissionofCH occupied27.86%[11];Nguyenetal. conducted
+4
+acomparativeanalysisofthegreenhousegasemissionofA2/OandanSBR(Sequencing
+BatchReactor)andconfirmedthatcarbonemissionismainlygeneratedbyaerobicpro-
+cesses[12].ScholarsalsoextractedorganicenergyandheatenergyfromDWWTPsandthen
+achievedlowcarbonemission,e.g.,incinerationwastepowergeneration[13–15],biological
+hydrogenproduction[2],andheatpump[16,17]. However,thedatafromDWWTPsare
+stillinvalidafterintegratingwithmembraneprocesses. Forinstance,theintegrationof
+an MBR (Membrane Biological Reactor) and A2O led to a 30.5% contribution of direct
+carbonemission, whiletheelectricityconsumptionmadeup68.35%oftheindirectcar-
+bonemission[18]. Therefore,theintegrationofmembraneandbiologicalsystemscould
+increaseenergyconsumption,whichisdisproportionatetothedirectandindirectgreen-
+house emissions from the A2/O process. In addition, in comparison with the indirect
+and direct carbon emissions of DWWTPs, there are rare publications about industrial
+WWTPs(IWWTPs)whichplayanimportantroleintheindustrializationofChinaandother
+developing countries (IWWTPs contribute to about 50% of the global total greenhouse
+gasemission)[19]. WastewatertreatmentprocessesforIWWTPs,containingpretreatment
++ reverse osmosis membrane separation + evaporation solvent crystallization, need to
+bespecificallyaddressed,whicharecommontreatmentprocessesinhandlingindustrial
+wastewaterfromcoalindustries[20]. Currently,littleisknownaboutGHGemissionand
+distributionfromtypicalIWWTPswhichcontainmanymoremembraneprocessesand
+relevantpre/post-treatmentprocedurescomparedtodomesticones. Inaddition,thereare
+increasingdemandsinthewastewaterreclamationofbothDWWTPsandIWWTPs,butas
+forhowthosereclamationprocesseswouldimpactcarbonemission,furtherinvestigations
+needtobecarriedouttoanswerthosequestions. Suchinformationwouldbehelpfulfor
+carbonreductionintheprocessesofwastewatertreatment.
+ThisstudyanalyzedthecharacteristicsofcarbonemissionproducedfromtheIWWTP
+andtheDWWTPinahigh-techindustrialparkinShaanxiProvince,China,whichwere
+based on the 2006 IPCC Guidelines for National Greenhouse Gas Inventories (https://
+www.ipcc-nggip.iges.or.jp/public/2006gl/index.html;accessedon3May2024),its2019
+Refinement(https://www.ipcc-nggip.iges.or.jp/public/2019rf/;accessedon3May2024),
+and the Provincial Greenhouse Gas Inventories and Greenhouse Gas Accounting Tool
+forChineseCities(https://ghgprotocol.org/chinese-city-tool; accessedon3May2024,
+Greenhouse Gas Accounting Tool for Chinese Cities (Pilot Version 1.0), http://pdf.wri.
+org/ghg_accounting_tool_for_chinese_cities_guidance.pdf;accessedon3May2024). This
+investigationfocusedondirectandindirectcarbonemissionsfromdifferentprocessesof
+IWWTPsandDWWTPsin2020andevaluatedthebenefitsofcarbonemissionreduction
+afterthecentralizedutilizationofrecycledwater. Inaddition,strategiesforthereduction
+incarbonemission,recyclingcrystallinemiscellaneoussaltinIWWTPsandre-utilizing
+biomassenergyfromtheDWWTP,werealsoreportedinthisstudy.
+2. MethodsandMaterials
+2.1. AnOverviewoftheIWWTP
+TheIWWTP,locatedinanindustrialparkinShaanxiProvince,occupies358,700km2
+andsupportsa30,000m3/dcapacityofwastewatertreatmentandisdevotedtotreating
+
+--- Page 3 ---
+Water 2024, 16, x FOR PEER REVIEW 3 of 14
+2. Methods and Materials
+2.1. An Overview of the IWWTP
+The IWWTP, located in an industrial park in Shaanxi Province, occupies 358,700 km2
+Water2024,16,1652 and supports a 30,000 m3/d capacity of wastewater treatment and is devoted to treating 3of13
+the industrial wastewater from various chemical manufacturers (Table 1 and Table S1).
+The treatment processes included pretreatment, membrane concentration, and evapora-
+ttihoen icnrdysutastllriizaaltiwona.s tTehwe aetfflerufernotm ofv tahrei oIWusWcThPem wiacsa lremcyacnleudfa ucntutirle mrsee(Ttianbgl ethse1 carnitedriSa1 ). The
+(tTre/CatUmWeAn t5p00ro55c-e2s0s2e3s; ihntctplus:d//ewdwpwre.cturewaat.moregn.ctn,/mxiaenmxbinrgatnueanctoibnicaeonzhtruanti.hotnm,la, nadcceesvsaepdo ration
+ocnry 3s tMalalyiz 2a0ti2o4n),. wThhielee tfhfleu cernytsotafltlihzeedIW saWlt aTnPdw slausdrgeec ywcelered turanntsilpmoreteedti ntog at hlaencdrfiitlel.r Tiah(eTse/ CUWA
+processes were typical industrial wastewater treatment process in northwest China. A
+50055-2023;https://www.cuwa.org.cn/xianxingtuantibiaozhun.html,accessedon3May
+flow chart of the IWWTP and carbon emission is illustrated in Figure 1.
+2024),whilethecrystallizedsaltandsludgeweretransportedtoalandfill. Theseprocesses
+weretypicalindustrialwastewatertreatmentprocessinnorthwestChina. Aflowchartof
+Table 1. Wastewater capacity for IWWTP and DWWTP in 2020.
+theIWWTPandcarbonemissionisillustratedinFigure1.
+Month IWWTP (×104 m3) DWWTP (×104 m3)
+Table1.1W astewatercapacityfo6r6I.W71W39T PandDWWTPin2020. 68.485
+2 58.3853 50.443
+3 Month 54.2453 IWWTP(×104m3) 64.1D6W3 WTP(×104m3)
+4 1 58.8956 66.7139 73.127 68.485
+2 58.3853 50.443
+5 50.8384 81.678
+3 54.2453 64.163
+6 4 54.8501 58.8956 83.109 73.127
+7 5 46.5732 50.8384 91.719 81.678
+6 54.8501 83.109
+8 62.419 92.397
+7 46.5732 91.719
+9 8 67.9071 62.419 88.735 92.397
+9 67.9071 88.735
+10 54.1464 86.85
+10 54.1464 86.85
+11 11 46.666 46.666 84.894 84.894
+12 12 46.913 46.913 85.535 85.535
+FFiigguurree 11. .TThhe eopoepreartiaotnioanl aplropcreoscseesss oefs tohef tIhWeWIWTPW. TP.
+22..22.. AAnn OOvevrevrivewie wof othfet hDeWDWWTWP TP
+TThhee DDWWWWTPT,P l,olcoactaedte idn iann ainndiunsdturisatlr piaalrkp ainr kShinaaSnhxai aPnroxviiPnrcoev, oincccuep,oiecsc 7u3p,0ie0s0 7k3m,02 00km2
+aanndd ssuuppppoorrtst saa 330,00,0000 0mm3/d3/ cdapcaacpitayc iotfy woafswteawsatetewr atrteearttmreeanttm (Teanbtl(eT 1a balneds T1aabnled SS22)). .TThhe emajor
+mtreaajotrm treenattmpreoncte pssroesceosfsetsh iosf DthWis WDWTPWwTePr ewtehree tshaen dsatnadn kta,nakn, aaenraoebriocb/iac/naonxoixci/c/aaeerroobbiicc (A2/O)
+(pAro2/cOe)s sp,raoncedsss,e adnidm seendtiamtieonntattainonk .taTnhke. rTehcey crelecdycwleadt ewrawtear swtares attreedatebdy bpyr epcriepciitpaittiaotniofin ltration
+fialntrdattihonen anddis tchheanr gdeisdchaafrtgeerdm aefteetri nmgeebtointhg bthoethd tihsec hdaisrcghearsgtae nsdtaanrddarfdo rfotrh ethWe WWWTPTPa nd the
+Water 2024, 16, x FOR PEER REVIEWaren uds tehoe freuursbea nofr uecrbyacnli nregcwycalitnegr— wtahteerw—athteer wqautaelri tqyusatlaitnyd satardndfaorrdi nfodru isntdriuaslturisael .u 4A s oe f.fl 1Ao4w chart
+floofwth cehDarWt oWf tThPe DanWdWcaTrPb aonnde cmaribssoino nemisispsiroens eisn tperdesienntFeidg uinr eFi2g.ure 2.
+Figure 2. The operational processes of the DWWTP.
+Figure2.TheoperationalprocessesoftheDWWTP.
+2.3. Analytic Methods
+The direct and indirect carbon emissions of both the IWWTP and DWWTP were cal-
+culated. The carbon emission reductions achieved by water and salt recycling were also
+analyzed.
+2.3.1. Direct Carbon Discharge Calculation
+Direct carbon emissions, in terms of CO2, CH4, and N2O, refer to the greenhouse gases
+that were directly discharged into the atmosphere during the treatment processes.
+The carbon emission calculation formula of CH4 is shown as follows [18]:
+( )
+CEE =Q×β ×E × C −C
+(1)
+CH CH BOD i,BOD e,BOD
+4 4
+CEE
+In the formula, CH represents the CH4 emission (kg CO2e); Q indicates the in-
+4
+β
+flow volume of the wastewater treatment plant, which is in the unit of m3 (month); CH
+4
+represents the conversion coefficient of the CH4 emissions, taking the value of 28 (IPCC
+E
+2014 ) [21]; BOD shows the CH4 emission factor for BOD (Biochemical Oxygen De-
+C C
+mand) as 0.086 kg (CH4)/kg (BOD) (IPCC 2014); i,BOD and e,BOD indicate the influent
+and effluent concentrations in terms of BOD in kg/m3. For the treatment processes of in-
+dustrial wastewater, the formula will be modified for wastewater containing high carbon
+loading, and organics in industrial wastewater are often expressed in terms of COD.
+The formula for carbon emission caused by N2O is as follows:
+( )
+CEE =Q×β ×E × C −C
+(2)
+NO NO NO i,TN e,TN
+2 2 2
+CEE β
+In the formula, NO represents N2O carbon emission (kg CO2e); NO indicates
+2 2
+E
+the conversion coefficient of N2O emission, taking the value of 298 (IPCC 2014); NO
+2
+C C
+represents the emission factor of 0.035 kg (N2O)/kg (TN) (IPCC 2014); i,TN and e,TN
+indicate the TN concentrations of the influent and effluent in kg/m3, respectively.
+The formula for carbon emission caused by CO2 is as follows:
+( )
+CEE =Q×E × C −C
+(3)
+CO CO i,ALK e,ALK
+2 2
+
+--- Page 4 ---
+Water2024,16,1652 4of13
+2.3. AnalyticMethods
+The direct and indirect carbon emissions of both the IWWTP and DWWTP were
+calculated. The carbon emission reductions achieved by water and salt recycling were
+alsoanalyzed.
+2.3.1. DirectCarbonDischargeCalculation
+Directcarbonemissions,intermsofCO ,CH ,andN O,refertothegreenhousegases
+2 4 2
+thatweredirectlydischargedintotheatmosphereduringthetreatmentprocesses.
+ThecarbonemissioncalculationformulaofCH isshownasfollows[18]:
+4
+CEE =Q×β ×E ×(C −C ) (1)
+CH4 CH4 BOD i,BOD e,BOD
+Intheformula,CEE representstheCH emission(kgCO );Qindicatestheinflow
+CH4 4 2e
+volume of the wastewater treatment plant, which is in the unit of m3 (month); β
+CH4
+representstheconversioncoefficientoftheCH emissions,takingthevalueof28(IPCC
+4
+2014)[21];E showstheCH emissionfactorforBOD(BiochemicalOxygenDemand)
+BOD 4
+as 0.086 kg (CH )/kg (BOD) (IPCC 2014); C and C indicate the influent and
+4 i,BOD e,BOD
+effluentconcentrationsintermsofBODinkg/m3. Forthetreatmentprocessesofindustrial
+wastewater,theformulawillbemodifiedforwastewatercontaininghighcarbonloading,
+andorganicsinindustrialwastewaterareoftenexpressedintermsofCOD.
+TheformulaforcarbonemissioncausedbyN Oisasfollows:
+2
+CEE =Q×β ×E ×(C −C ) (2)
+N2O N2O N2O i,TN e,TN
+Intheformula,CEE representsN Ocarbonemission(kgCO ); β indicates
+N2O 2 2e N2O
+the conversion coefficient of N O emission, taking the value of 298 (IPCC 2014); E
+2 N2O
+represents the emission factor of 0.035 kg (N O)/kg (TN) (IPCC 2014); C and C
+2 i,TN e,TN
+indicatetheTNconcentrationsoftheinfluentandeffluentinkg/m3,respectively.
+TheformulaforcarbonemissioncausedbyCO isasfollows:
+2
+CEE =Q×E ×(C −C ) (3)
+CO2 CO2 i,ALK e,ALK
+Intheformula,CEE indicatestheCO emissionproducedinthecarbonatealka-
+CO2 2
+linity decompositionfromindustrial wastewater treatment, presented inthe unit ofkg
+CO ;E representstheCO emissionfactorforalkalinity(ALK)of0.7213kg(CO )/kg
+2e CO2 2 2
+(ALK), respectively [22]; C and C indicate the concentration of the carbonate
+i,ALK e,ALK
+alkalinityoftheinflowandeffluentinunitKg/m3,respectively(chemicaltransformation
+isHCO − +H+=H O+CO ).
+3 2 2
+2.3.2. IndirectCarbonDischargeCalculation
+Indirectcarbonemissionsaregeneratedbyelectricityandreagentconsumption,which
+areinvolvedinaeration,waterpumplifting,electricalequipment,sludgepressurefiltration,
+aircompressors,heatpumps,andtheconsumptionofallkindsofreagents. Indirectcarbon
+emissionsarecalculatedbythefollowingformula:
+n
+∑
+CEE = EW (4)
+i j j
+j=1
+Intheformula,CEE representsindirectcarbonemissionsintermsofCO emission
+i 2
+(kgCO );E representstheCO emissionfactorsofenergyconsumptionandagentcon-
+2e j 2
+sumption. W represents the level of energy consumption and reagent consumption in
+j
+terms of kWh. And the energy consumption factor is 0.997 kg (CO )/kW·h [23]. The
+2
+agentconsumptionfactorsofsodiumhydroxide,flocculantPAM(polyacrylamide),dis-
+infectant(sodiumchloride),andhydrochloricacidare1.74,25,1.4,and1.6kg(CO )/kg,
+2
+respectively[24,25].
+
+--- Page 5 ---
+Water2024,16,1652 5of13
+2.3.3. CarbonEmissionReductionCalculation
+Thevalueofcarbonemissionreductionismainlyevaluatedintermsofthecarbon
+emissionreductioninelectricityandchemicalconsumptionfromthedecreaseinthewater
+andsaltproductdemandforthereclaimedwaterandcrystallinesaltofsewagetreatment
+plants;theformulaispresentedasfollows:
+n
+∑
+TGW =V× EW (5)
+R j j
+j=1
+Intheformula,TGW representstheextentofCO emissionreduction,presentedin
+R 2
+theunitofkgCO ;E representsCO emissionfactorssuchaselectricityconsumptionand
+2e j 2
+flocculantPAM,whiletheemissionfactorofthebasaltis1.6kg(CO )/kg[26];W represents
+2 j
+theenergyconsumption;V(m3)isthevolumeofreclaimedwastewatergeneratedbythe
+wastewatertreatmentplant.
+3. Results
+3.1. DirectCarbonEmissionAccounting
+3.1.1. AnalysisofDirectCarbonEmissionCharacteristicsofIWWTP
+Thedataofthechemicalconsumption,energyconsumption,wastewaterquality,and
+Water 2024, 16, x FOR PEER REVIEWw astewaterquantityoftheIWWTPandDWWTPinthehigh-techi6n odf u14s trialparkin2020
+W ater 2024, 16, x FOR PEER REVIEW 6 of 14
+areshowninFigures3and4.
+3 ht ht
+hn ht 3 Carbonate B CO BOD aD rb r oe reduction nd au tc et basicity i bo an s i city abatement aba C teO COD mD e nr te reduction d uction Energy Energy consumption T coN TN n r se ud reduction mu pc tt ii oon n 300 300 hn to nm om/t hn to nm om/hW
+to nm / ttn /hWk
+om/t
+2 te nm
+/ t N 2 ee mta 4k0
+N T 200 etb 41 0
+Tdn 200 aa 1n
+da n b at y nit op o
+aD , yic itm
+,O DC O C,D 1 1 100 100 ti is ca isb a bt e pmus un so nc
+,O DB OBht etn ao nb a o cg yr y
+or ge
+0 0 ba rC aC rn eE nEht
+0 1 2 3 4 5 6 7 8 9 10 11 12 0
+1 2 3 4 5 6Mon7th 8 9 10 11 12
+Month
+Figure 3. Variation in TN, BOD, COD, alkalinity, and electricity consumption in IWWTP from Jan-
+Figure3.VariationinTN,BOD,COD,alkalinity,andelectricityconsumptioninIWWTPfromJanuary
+Fuigauryre t o3 .D Veacreiamtiboenr .i n TN, BOD, COD, alkalinity, and electricity consumption in IWWTP from Jan-
+utaoryD teo cDeemcebmebre.r.
+BOD reduction COD reduction 60 hn
+hn 800 B TOND r reedduuccttiioonn C EOneDr gryed cuocntsiuonmption 60 to nm
+to nm 800 TN reduction Energy consumption om/hW
+om/t
+ht /hWk
+/to n hn
+nit to nm 4k0
+oc iu tcd o/ mt 41 0
+ue dr e r DC D O 400 400 30 30 /to nit oc iu tcd n 1n nit op itm pmus o
+O ue dr
+Cdn e r N un so
+da n a D NT T nc o cg y
+DB O yr ge
+OB rn
+eE
+0 0 n E
+0 1 2 3 4 5 6 7 8 9 10 11 12 0
+1 2 3 4 5 6Mon7th 8 9 10 11 12
+Month
+Figure 4. The change in TN, BOD, COD, and electricity consumption in the DWWTP from January
+F Ftiog ig uDuree rc 4 ee.m 4Tb.hee Tr .c h h ean cg he a i nn g T eN i, n BO TD N, ,C BO OD D, a ,n Cd Oel Dec ,tr aic nit dy c eo ln es cu trm icp it ti yon c i on n th sue mDW ptW ioT nP if nrom th J ean Du Wary W TPfromJanuaryto
+to December.
+December.
+The quality of the influent and effluent wastewater of the IWWTP are presented in
+TablTeh 2e, iqnu taelirtmy so of ft hthe ei naflvuereangte a cnodn teefflntu oenf tB wOaDs,t eTwNa,t aern do fc tahreb oIWnaWte TaPlk aalrie i np rtehsee nintefldu einn t
+Taanbdle e2ffl, iune tnetr omf st hoef tIhWeW avTePra fgroe mco Jnatneunat royf tBoO DDe,c eTmNb, earn idn c2a0r2b0o.n Tahtee alelkvaelli oifn dthiree citn cflaurebnotn
+aenmd iesfflsioune nwt aosf ctahlec uIWlatWedT bPy f rFoomrm Jaunlausa (r1y) –to(3 D) aencedm isb sehr oinw 2n0 i2n0 T. aTbhlee l3e.v el of direct carbon
+emission was calculated by Formulas (1)–(3) and is shown in Table 3.
+Table 2. Quality of influent and effluent wastewater of IWWTP in 2020 (mg/L).
+Table 2. Quality of influent and effluent wastewater of IWWTP in 2020 (mg/L).
+COD HCO3- BOD5 TN
+InfluenC tO D E ffluent InfluenH t CO3E- ffluent InflueB nO t D E5f fluent InfluenT tN Effluent
+Influent Effluent Influent Effluent Influent Effluent Influent Effluent
+30.43 ± 328.29 ± 438.50 ± 72.00 ±
+30.43 ± 2.22 ±1.6 328.29 ± 12.26 ± 4.0 6.05 ± 2.4 5.49 ± 2.2 438.50 ± 72.00 ±
+5.5 2.22 ±1.6 60.1 12.26 ± 4.0 6.05 ± 2.4 5.49 ± 2.2 83.6 13.7
+5.5 60.1 83.6 13.7
+The direct carbon emissions of the IWWTP were 1621.51 tCO2e in 2020, which were
+mainTlhye pdrioredcut cceadr bboyn tehme iscsairobnosn oaft et hael kIaWliWnitTyP awnder ea c1i6d2 1n.e5u1 ttrCalOiz2ae tiino n2 0r2e0a,c wtiohnic ha nwde raec -
+mcoaiunnlyts pforor daubcoeudt 9b4y% t hoef tchaer btoontaalt ec aarlbkoanli neimtyi sasinodn sa c(Tida bnlee u3t)r. aMlizeaatniownh irleea, cNtio 2On eamndis saico-n
+counts for about 94% of the total carbon emissions (Table 3). Meanwhile, N2O emission
+
+--- Page 6 ---
+Water2024,16,1652 6of13
+ThequalityoftheinfluentandeffluentwastewateroftheIWWTParepresentedin
+Table2,intermsoftheaveragecontentofBOD,TN,andcarbonatealkaliintheinfluent
+andeffluentoftheIWWTPfromJanuarytoDecemberin2020. Thelevelofdirectcarbon
+emissionwascalculatedbyFormulas(1)–(3)andisshowninTable3.
+Table2.QualityofinfluentandeffluentwastewaterofIWWTPin2020(mg/L).
+COD HCO − BOD TN
+3 5
+Influent Effluent Influent Effluent Influent Effluent Influent Effluent
+30.43±5.5 2.22±1.6 328.29±60.1 12.26±4.0 6.05±2.4 5.49±2.2 438.50±83.6 72.00±13.7
+Table3.ThedataofdirectcarbonemissionintheIWWTPin2020(tCO ).
+2e
+Quarter CH N O CO DirectCarbonEmission
+4 2 2
+1 2.42 37.66 384.34 424.42
+2 2.28 16.25 362.27 380.80
+3 2.28 23.19 446.51 471.98
+4 1.97 11.57 330.78 344.31
+Sum 8.95 88.67 1523.90 1621.51
+ThedirectcarbonemissionsoftheIWWTPwere1621.51tCO in2020,whichwere
+2e
+mainlyproducedbythecarbonatealkalinityandacidneutralizationreactionandaccounts
+forabout94%ofthetotalcarbonemissions(Table3). Meanwhile, N Oemissionmade
+2
+up 5.5% of the total carbon emission; the carbon emission caused by CH contributed
+4
+to the smallest part (0.5%). With the season change, Q of the IWWTP contributed the
+3
+largestportiontodirectcarbonemissions(471.98tCO );Q (asthesmallestcontribution)
+2e 4
+onlyaccountedfor244.31tCO . CH andN Oemissionscontinuedtodeclinewiththe
+2e 4 2
+seasonchange.
+3.1.2. AnalysisofDirectCarbonEmissionCharacteristicsofDWWTP
+ThequalityoftheinfluentandeffluentwastewateroftheDWWTParepresentedin
+Table4,basedonBODandTNcontentintheinfluentandeffluentoftheDWWTPfrom
+JanuarytoDecember2020. Andthedirectcarbonemissiondatawerecalculatedaccording
+toFormulas(1)and(2)andareshowninTable5.
+Table4.QualityofinfluentandeffluentwastewaterofDWWTPin2020(mg/L).
+COD BOD TN
+5
+Influent Effluent Influent Effluent Influent Effluent
+523.80±103 21.13±3.9 271.44±56 3.13±1.9 61.93±24 13.22±2.7
+Table5.DirectcarbonemissionintheDWWTPin2020(tCO ).
+2e
+Quarter CH N O DirectCarbonEmission
+4 2
+1 1268.62 992.15 2260.77
+2 1521.12 1323.73 2844.85
+3 1693.36 1068.54 2761.91
+4 1624.54 1379.88 3004.42
+Sum 6107.64 4764.30 10,871.94
+The direct carbon emission from the DWWTP was 10,871.94 tCO in 2020, which
+2e
+wasmainlyproducedbyCH carbonemissionandaccountsforabout56.18%ofthedirect
+4
+carbonemission;CH carbonemissionsweremainlygeneratedbyBODreduction(Table3).
+4
+
+--- Page 7 ---
+Water2024,16,1652 7of13
+Meanwhile,N Oemissionoccupied43.82%ofthedirectcarbonemission. Additionally,the
+2
+directcarbonemissionshadafluctuatingupwardtrendquarterly,andthecontributionof
+CH tocarbonemissionwashigherthanthatofN O,whichwasconsistentwithprevious
+4 2
+findings[11].
+3.2. IndirectCarbonEmissionAccounting
+3.2.1. AnalysisofIndirectCarbonEmissionCharacteristicsofIWWTP
+AccordingtotheconsumptionofelectricityandchemicalsoftheIWWTPin2020,the
+levelofindirectcarbonemissioniscalculatedbyFormula(4)andshowninTables6andS3.
+Table6.ThedateofindirectcarbonemissionintheIWWTPin2020(tCO ).
+2e
+ChemicalAddition
+IndirectCarbon
+Quarter Electricity
+NaOH Coagulation HCl Sum Emission
+1 5378.59 7029.93 59.38 3396.01 10,485.31 15,863.90
+2 5286.07 6830.96 65.63 2858.47 9755.06 15,041.14
+3 4893.97 7729.56 71.88 3523.66 11,325.09 16,219.06
+4 5643.34 8630.78 61.25 3999.48 12,691.51 18,334.84
+Sum 21,201.97 30,221.24 258.13 13,777.62 44,256.98 65,458.95
+Table6showsthattheindirectcarbonemissionoftheIWWTPwas65,458.95tCO in
+2e
+2020. Themaincontributortocarbonemissionwasfromtheconsumptionofchemicals,
+accounting for 67.61% of the total indirect carbon emission, and the rest of the indirect
+carbonemissiondependedonelectricityconsumption. Intermsoftheconsumptionof
+chemicals,thecarbonemissionoftheconsumptionofliquidalkaliaccountsforthelargest
+proportion of the total amount of indirect carbon emission, which was 46.17%, while
+hydrochloricacidconsumptionaccountsfor21.05%,andPAMconsumptionoccupiesthe
+smallestportion. Withtheseasonschanging,theindirectcarbonemissionsshowagradual
+growth trend. Compared to Q , Q was augmented by 2115.78 tCO , which is mainly
+3 4 2e
+relatedtothesignificantincreaseinliquidalkaliandelectricityconsumption.Incomparison,
+electricityconsumptioncontributedthelowestcarbonemissionsinQ andQ ,whichmeans
+2 3
+thatthevariationintemperatureledtoadirectimpactonelectricityconsumption.
+3.2.2. AnalysisofIndirectCarbonEmissionCharacteristicsofDWWTP
+BasedonelectricityandchemicalconsumptionintheDWWTPin2020,thelevelof
+theindirectcarbonemissioniscalculatedbyFormula(4)andshowninTables7andS4.
+Table7.IndirectcarbonemissionintheDWWTPin2020(tCO ).
+2e
+ChemicalAddition
+IndirectCarbon
+Quarter Electricity
+PAM Disinfectant Sum Emission
+1 1162.62 101.88 110.61 212.49 1375.11
+2 1297.45 157.25 175.59 332.84 1630.29
+3 1451.76 125.00 184.44 309.44 1761.20
+4 1532.62 184.50 177.91 362.41 1895.03
+sum 5444.45 568.63 648.55 1217.18 6661.63
+Table7showsthattheindirectcarbonemissionoftheDWWTPwas6661.63tCO
+2e
+in2020. Themaincontributortocarbonemissionistheconsumptionofelectricenergy,
+accountingfor81.73%,andthefollowingonesaretheconsumptionofdisinfectant(sodium
+chlorate) and PAM. In the consumption of chemicals of carbon emission, disinfectant
+consumptionaccountsfor9.74%asthelargestproportion,followedbyPAMconsumption.
+With the seasons changing, it can be concluded that Q had the largest indirect carbon
+4
+emission,whichwasmainlyrelatedtothelargeconsumptionofelectricityandchemicals.
+
+--- Page 8 ---
+Water2024,16,1652 8of13
+3.3. CarbonEmissionCalculation
+3.3.1. AnalysisofTotalCarbonEmissionCharacteristicsofIWWTP
+The total carbon emission of 2020 is presented in Figure 5, and the total carbon
+emissionsfromtheIWWTPwereinafluctuatinggrowthtrendfromJanuarytoSeptember.
+And the direct and indirect carbon emissions were in positive correlation during this
+Water 2024, 16, x FOR PEER REVIEWp eriod. However,fromOctobertoDecember,thetotalcarbonemissionswerepropor9t ioofn 1a4l.
+ThepeakofbothdirectcarbonemissionsandindirectcarbonemissionsoccurredinNov,
+whichwere6473.03and95.41tCO , separately. Thisphenomenonwasmainlyrelated
+2e
+totemAsp eprraetsuernetvedar iiant iToanb.lWesi t2h athned q3u, atrhtee rtlyotcahl acnagrbeos,nt heemdisirseioctnc farrobmon theme iIsWsiWonTsPo fwthaes
+6IW7,0W80T.P46i ntCQO42w ienr e2t0h2e0,l oawndes tth(aeb coaurtb3o4n4 etmCOis2seio),nw whialse t1h0e.1i3n dkigr/etc t(pcaerr btoonn eomf iwssaiotenrs).w Tehree
+e
+itnhdeihreigcth ceastrbinonQ e4m(wishsiiochn wcoenrteri1b8u,3te3d5 ttCo O972.e6).% of the total carbon emission.
+8000
+1-)t
+Indirect carbon emission
+htnom/t
+Direct carbon emission htnom/t 00001(
+Volume of water treatment 200
+noissime noissime emulov
+retaw
+nobrac nobrac
+100
+fo
+tceridnI tceriD tnemtaerT
+4000
+0
+1 2 3 4 5 6 7 8 9 10 11 12
+Month
+Figure 5. The variation in the total amount of carbon emission in the IWWTP in 2020.
+Figure5.ThevariationinthetotalamountofcarbonemissionintheIWWTPin2020.
+3.3.2.A Asnpalryessiesn otef dToitnalT Cabarlebson2 Eamndiss3i,otnh Cehtoartaalctcearrisbtoicns oemf DisWsioWnTfPro m the IWWTP was
+67,08T0a.4b6let C8 Opr2eesienn2ts0 2th0,ea tnodtatl hcearcbaorbno enmeimssiisosnio onf wthaes D10W.1W3TkgP/ itn( 2p0e2r0t.o Tnhoef twotaatle cr)a.rbTohne
+einmdiisrseicotnc aorfb tohne eDmWisWsioTnPc wonatsr i1b7u,5te3d3.5to7 9t7C.O6% 2e oinf t2h0e20to, taanldca trhbeo ncaermboisns ieomn.ission was 1.84
+kg/t. This is consistent with the previous results (0.95-2.26 kg/t) [10,27]. The direct carbon
+3.3.2. AnalysisofTotalCarbonEmissionCharacteristicsofDWWTP
+emission accounts for 62% of the total carbon emission from the DWWTP. With the quar-
+ter chTaanbglein8g,p trheese tnottsalt hceartbootanl ecmaribsosinone mshisoswiosn ao flfuthcteuDatWingW gTrPowinth2 0t2re0n.dT. hTeheto ctaalrbcoanr-
+ebmonisesimonis sfrioonmo tfhteh DeWDWWWTPT iPs winavser1s7e,l5y3 3p.r5o7ptoCrOtio2neainl t2o0 t2h0e, atrnedattehde wcaartbero nvoelmumises.i onwas
+1.84kg/t. Thisisconsistentwiththepreviousresults(0.95-2.26kg/t)[10,27]. Thedirect
+Tcaabrbleo n8. eTmheis tsoitoanl aamccoouunnt tosf fcoarrb6o2n% emofistshioent ointa 2l0c2a0r. bonemissionfromtheDWWTP.Withthe
+quarterchanging,thetotalcarbonemissionshowsafluctuatinggrowthtrend. Thecarbon
+Direct Carbon Indirect Carbon Treated Vol- Carbon Emission
+emissionfromtheDWWTPisinverselyproportionaltothetreatedwatervolume.
+Quarter Emission/t Emission/t ume/10,000 m3 per Ton Water kg/t
+Table8.TIhWetWotaTlPa mDoWunWtoTfPca rIbWonWeTmPis sDioWniWn2T0P20 .IWWTP DWWTP IWWTP DWWTP
+1 424.42 2260.77 15,863.90 1375.11 179.34 183.09 9.08 1.99
+DirectCarbon IndirectCarbon Treated CarbonEmission
+Qu2 a rter 380.80E mis2s8io4n4./8t5 15,041.1E4m i1ss6i3o0n./2t9 16V4o.5lu8m e/102,3070.09m1 3 p9e.r3T7o nWate1r.8k8g /t
+3 47I1W.9W8 TP276D1W.9W1 T1P6,2I1W9W.06T P176D1W.20W TP17IW6.9W0T P 2D72W.8W5 TP IW9.4W4T P D1W.6W6 TP
+4 344.31 3004.42 18,334.84 1895.03 147.73 257.28 12.64 1.90
+1 424.42 2260.77 15,863.90 1375.11 179.34 183.09 9.08 1.99
+Sum2 162318.05.18 010,827814.49.485 65,41558,0.9415. 14666116.3603. 29 66816.545.5 8 95213.71.491 109..1337 11..8884
+3 471.98 2761.91 16,219.06 1761.20 176.90 272.85 9.44 1.66
+4 344.31 3004.42 18,334.84 1895.03 147.73 257.28 12.64 1.90
+3.4. The Analysis of the Carbon Emission Reduction Effect
+Sum 1621.51 10,871.94 65,458.95 6661.63 668.55 951.14 10.13 1.84
+Based on the quarterly statistical data of recycled water from the IWWTP and
+DWWTP in 2020, the reductions in the carbon emission of the two investigated plants are
+calculated by Formula (5) and shown in Figure 6.
+
+--- Page 9 ---
+Water2024,16,1652 9of13
+3.4. TheAnalysisoftheCarbonEmissionReductionEffect
+BasedonthequarterlystatisticaldataofrecycledwaterfromtheIWWTPandDWWTP
+Water 2024, 16, x FOR PEER REVIEW 10 of 14
+in2020,thereductionsinthecarbonemissionofthetwoinvestigatedplantsarecalculated
+byFormula(5)andshowninFigure6.
+t/gk Tons of water carbon emission (a) Tons of water carbon emission (b)
+15 Tons of water net carbon emission Tons of water net carbon emission
+noissime Tons of water carbon emission reduction Tons of water carbon emission reduction
+nobrac 10
+fo
+tnuoma
+5
+ehT
+0
+1 2 3 4 1 2 3 4
+Quarter Quarter
+FFiigguurree 66.. VVaarriiaattiioonn iinn ccaarrbboonn eemmiissssiioonn aanndd rreedduuccttiioonn wwiitthh qquuaarrtteerr:: ((aa)) IIWWWWTTPP aanndd ((bb)) DDWWWWTTPP..
+AAss sshhoowwnn iinn FFiigguurree 66,, tthhee ccaarrbboonn eemmiissssiioonn rreedduuccttiioonn ffrroomm bbootthh tthhee IIWWWWTTPP aanndd
+DDWWWWTTPP iiss ssttaabbllee iinn ddiiffffeerreenntt sseeaassoonnss,,w whhicichha arree1 1.0.066k kgg//tt aanndd 11..1166 kkgg//tt,, sseeppaarraatteellyy.. TThhee
+aavveerraaggee ccaarrbboonn eemmiissssiioonn iiss 99..0077 kkgg//tt aanndd 00..77 kkgg//tt,, rreessppeeccttiivveellyy.. AAnndd tthhee ccaarrbboonn eemmiissssiioonn
+ffoolllloowweedd aa ttrreenndd oof fgrgorwowtht,h w, whihchic whaws amsaminalyin alyffeacftfeedct beyd tbhye dtheeclidneec lainnde rainsed inri stheei nqutahre-
+qteuralyrt etrrelyatterdea wteadtewr avtoelruvmoelu omf tehoef ttwhoe tpwlaonptsl.a nts.
+TThhee ccaarrbboonne emmisissisoionnr erdeudcutciotinonin itnh ethDeW DWWTWPTaPcc oacucnotuedntfeodr afobro uatb6o2u.t4 56%2.4o5f%th eoft otthael
+ctoatrablo cnarebmonis seimonis,ssiiognn, isfiicgannifitlcyan10tl.y4 61%0.4h6i%gh heirgthhearn thtahna tthoaftt hoef tIhWe WIWTWPTinP 2in0 2200,2w0,h wichhicihs
+mis aminaliynlrye lraetleadtedto toth tehesm smalallcl acrabrobnone memisissisoionno offt htheeD DWWWWTTPP..T Thheerreeffoorree,, rreeuussiinngg rreeccyycclleedd
+wwaatteerr iinn tthheeD DWWWWTTPPc ocouuldlds usubsbtsatnatniatilalyllyre rdeudcueccea crabrobnoenm eimssiisosnios,nasn, dantdh etheex teexntteonft coafr bcaorn-
+emissionreductionwassignificantlyhigherthanthatoftheIWWTP.
+bon emission reduction was significantly higher than that of the IWWTP.
+4. Discussion
+4. Discussion
+4.1.AnalysisofCarbonEmissionCharacteristicsofIndustrialandDomesticWastewaterTreatment
+4.1. Analysis of Carbon Emission Characteristics of Industrial and Domestic Wastewater Treat-
+AspresentedinTable8,thedirectcarbonemissionoftheDWWTPis4.7timeshigher
+ment
+thanthatoftheIWWTPintermsofcarbonemissionpercubicmeterofwastewaterin2020.
+As presented in Table 8, the direct carbon emission of the DWWTP is 4.7 times higher
+CH carbonemissionproducedbyCODandBODremovalisthemajorcontributingpartof
+4
+than that of the IWWTP in terms of carbon emission per cubic meter of wastewater in
+theDWWTP,whileitonlyaccountsfor0.5%oftheIWWTPduetothelowcontentoforganic
+m20 a2 t0 te. rC iH n4i nca dr ub so tn ri e am lwis as sio ten w p ar to ed r.u Ace dd d b ity io C nO alD ly ,a and la rB gO eD am re om uo nv ta ol f i Cs t Ohe im spaj ro or d c uo cn et drib bu yt ti hn eg
+2
+part of the DWWTP, while it only accounts for 0.5% of the IWWTP due to the low content
+decompositionofcarbonatealkalinityintheprocessofindustrialwastewatertreatment
+porfo ocregsasensi,c wmhaittchera cinco iunndtussftorria9l 4w%aostfetwheatteort.a Alddidreitcitocnaarlblyo,n ae lmarigssei oanms.ount of CO2 is pro-
+duceTdh beyi nthdei rdeecctocmarpboonsiteimonis osifo cnarfbroomnatthee alIkWaWlinTitPy iisn1 t3h.e9 8ptriomceesssh oigf ihnedruthstarniatlh watafsrtoemwattheer
+DtrWeaWtmTePnti nprtoercmessseosf, cwarhbiochn aecmcoisusniotns fpoerr 9c4u%b iocfm theete trootaflw dairsetecwt caatrebroinn 2em02i0ss(iToanbsl.e 7). The
+carboTnheem inisdsiiroencto cfacrhbeomni ceamlicsosniosnu mfrpotmio nthies ItWheWmTaPjo risc 1o3n.t9r8ib tuimtoerst ohicgahrbero ntheamn itshsiaotn f,rofoml-
+ltohwe eDdWbWytThPat inof teelremctsr iocfi tcyacrboonnsu emmpistisoionn. Ipnecro cmubpiacr imsoente,rt hoef cwaarbstoenweamteirs sinio 2n0o2f0e (lTeacbtrliec i7ty).
+cTohnes cuamrbpotnio enmfirsosmionth oef DchWemWicTaPl caocncsouumntpstfioonr aisb tohuet m81a.j7o3r %coonftrtihbeuttoort atol ccaarrbboonn eemmiissssiioonn,,
+ffoolllloowweedd bbyy cthhaetm oifc aelleccotrniscuitmy pcotinosnu,mwphtiicohn.i sIns icmoimlapratroistohna,t trheep ocartrebdonb yem[2i8s]s.ioHn oowf eevleecr-,
+Gtrricuibtye rcoentsaul.m[2p9t]iornep froormted thteh aDtWthWeTcaPr bacocnoeumntiss sfoiorn asboofuet l8e1c.t7r3ic%it yofc tohnes tuomtapl ctiaornboanc ceomuinst-
+fsoiorn4,3 f.4o%lloowfetdh ebtyo tcahlecmaribcaoln ceomnsiussmiopnt.ioHne, nwche,icthh eisc osinmtriilbaur ttioo nthoaft erleepcotrritceidty btyo [th28e]c. aHrboown-
+eemveirs,s iGornuvbaerri eest aarl.o [u2n9d] rtehpeowrtoerdld t.hat the carbon emissions of electricity consumption ac-
+counItn fothr e4p3.r4e%se notf sthtued tyo,ttahl ecachrbeomni ceamlcisosniosun.m Hpetinocne,o tfhteh ecoInWtrWibTuPtiopnri mofa erlielyctcroicmityes tofr othme
+tchaerbaopnp elimcaistisoionno vfasroiedsi uarmouhnydd trhoex iwdeoraldn.d hydrochloric acid. A total of 22.9 thousand
+tonsoInf cthhee mpriecsaelsntw satusdcyo,n tshuem chedeminic2a0l 2c0o,nwsuhmicphtiisonfa orfm thoer eIWthWanTtPh perciomnasruilmy pcotimoneso ffrtohme
+DthWe aWppTlPic(a7titohno uofs asnoddituomns h).yFdurortxhiderem anodre h,tyhderoeclehcltorriicci taycicdo.n Asu tmotpalt ioofn 2(23.9.5 tkhWou·sha/nmd 3t)onosf
+tohfe cIhWemWicTaPls( 7w5a%s icsofnrosummreedv eirns e20o2s0m, owsihsicahn dise vfaarp omroartieo nthsaonl vtehnet ccorynsstuamllipztaitoino no)fw thase
+3D.7WtiWmTePs h(7ig thheorutshaannd tthoantso).f FtuhrethDeWrmWoTreP,, twheh eiclhecitnridciictya tceosntshuamthpitgiohne n(3e.r5g kyWco·hn/smu3m) opft itohne
+aIWndWoTpPer a(7ti5o%na ilsc ofrsotmar erethveermsea ionsrmeaossoisn sanfodr tehveapgoenraetriaotnio nsoolvfethnet gcrryeesntahloliuzasetiognas) ewsoasf t3h.e7
+times higher than that of the DWWTP, which indicates that high energy consumption and
+operational cost are the main reasons for the generation of the greenhouse gases of the
+IWWTP. In the IWWTP, the use of chemical agents accounted for 67.61% of indirect car-
+bon emission. With the seasons changing, the indirect carbon emissions of these two
+WWTPs in Q4 were larger than those in other periods, which could be achieved by the
+
+--- Page 10 ---
+Water2024,16,1652 10of13
+IWWTP.IntheIWWTP,theuseofchemicalagentsaccountedfor67.61%ofindirectcarbon
+emission. Withtheseasonschanging,theindirectcarbonemissionsofthesetwoWWTPs
+inQ werelargerthanthoseinotherperiods, whichcouldbeachievedbythelowered
+4
+efficiencyofchemicalsatlowtemperature,decreasedRO(reverseosmosis)recovery,and
+increased energy consumption of outdoor equipment in winter [30]. Considering the
+information in Figure 5 and Table 7, the carbon emission from the IWWTP (10.13 kg/t,
+indirectcarbonemissionis9.79kg/t)was5.5timeshigherthanthatfromtheDWWTP
+(1.84kg/t)in2020.TheDWWTPdegradedorganiccontaminantsviaoxidation,nitrification,
+anddenitrification.Meanwhile,theIWWTPcouldneutralizeandseparatetheinorganicion
+fromwaterviatheconsumptionofchemicalsandelectricity[31,32]. Inaddition,thecarbon
+emissionofthesetwoWWTPsisinverselyproportionaltothetreatedwatervolume,which
+isconsistentwiththeresultsofthecarbonemissionofsomeWWTPsintheUK,India,and
+China[18,33]. Thisresultreflectstheimportanceofcentralizedwastewatertreatmentto
+achievethereductioninregionalcarbonemission.
+4.2.BenefitAnalysisofCarbonEmissionReductioninIndustrialandDomesticWastewaterTreatment
+BothIWWTPsandDWWTPshaveachievedcarbonemissionreductionafterwater
+reclamationandreuse(Figure6). In2020,thecarbonemissionreductioninIWWTPsand
+DWWTPs accounted for 10.46% and 62.45% of the total carbon emission, respectively.
+ThepercentageofcarbonemissionreductionintheDWWTwashigherthanthatofthe
+IWWTP.Inaddition,iftherecycledwaterfromtheDWWTPintheindustrialareawasat
+thepriceofUSD0.7perm3 (thepriceoftapwaterinthisarea),theDWWTPcouldearn
+USD6millionperyear.Hence,developingtherecycledwatertechnologyoftheDWWTP
+would be helpful to achieve the regional goal of carbon emission reduction and obtain
+economicbenefitaswell.
+4.3. StrategyAnalysisofCarbonNeutralizationinIndustrialandDomesticWastewaterTreatment
+Carbonneutralizationisdefinedastheabsorptionorneutralizationofthetotalcarbon
+emissioninenergyconservationanddeductioninaspecificperiodinordertobalancethe
+carbonemissionandcarbonabsorptioninthelongterm[27].Therecyclingofindustrialsalt
+andchemicalenergycouldachieveacarbonemissionreductionof4.79kg/tand0.12kg/t,
+accountingfor52.81%and17.14%ofthenetcarbonemissionsofindustrialwastewater
+treatmentplantsanddomesticwastewatertreatmentplants. Andthetransformationof
+operational processes would be one of the most efficient methods for the reduction in
+carbonemissions.
+ThenetcarbonemissionoftheIWWTPis9.07kg/t(Figure6). Toachievethegoalof
+carbonneutralization,thesolidcrystallineimpuritysalt(suchasthesodiumchlorideand
+sodiumsulfatepreparationofindustrialsalts)producedbytheIWWTPcouldbereduced
+andrecycledbyseparationandpurification;someofthissaltcouldbesoldasrawmaterials
+forcosmeticsandtextiles[34]. Andthen,someofthissaltcouldberefinedintoindustrial
+products, such as sodium hydroxide, sodium carbonate, and hydrochloric acid, which
+wouldbehelpfultoreducethedemandforexternalchemicalsinWWTPs[20,35],realize
+self-sufficiency chemicals in the process of sewage treatment, and even transport and
+sellthem. Inaddition,industrialsewageplantscouldproduceabout20,000tonsofsolid
+heteropolysalteveryyear. Ifthissaltwereseparatedandpurifiedintoindustrialsodium
+chlorideandsodiumsulfateviathetechnologyoffractionalcrystallization,thensoldto
+chemicalindustrialcompaniesatapriceofUSD30/ton,theannualprofitcouldbeabout
+USD600,000. Atthesametime,ifthecarbonemissionfactoroftheby-productofsaltis
+calculatedas1.6kg(CO )/kg(salt),thecarbonemissionreductioncanbe4.79kgaccording
+2
+toFormula(5). Morethan52.81%ofthecarbonemissionreductionintheexistingIWWTP
+wouldbefurtherreduced. Thus,theeconomicandenvironmentalbenefitsaresignificant.
+Compared to IWWTPs, the remaining net carbon emission of DWWTPs is small
+(about0.7kg/t),whichfacilitatestheachievementofthecarbonneutralizationgoal. Or-
+ganicpollutantsinDWWTPscontainalargeamountoforganicchemicalenergy(about

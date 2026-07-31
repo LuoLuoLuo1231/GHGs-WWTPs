@@ -1,0 +1,672 @@
+--- Page 1 ---
+International Journal of
+Environmental Research
+and Public Health
+Article
+Carbon Emission Accounting and the Carbon Neutralization
+Model for a Typical Wastewater Treatment Plant in China
+ChenxiPang1,†,XiLuo1,2,†,BingRong3,XuebiaoNie4,ZhengyuJin1andXueXia1,*
+1 CollegeofLifeandEnvironmentalSciences,MinzuUniversityofChina,Beijing100081,China
+2 YangtzeEcologyandEnvironmentCo.,Ltd.,Wuhan430062,China
+3 BeijingUrbanConstructionDesign&DevelopmentGroupCo.,Limited,Beijing100037,China
+4 BeijingEnterprisesWaterGroup(China)InvestmentLimited,Beijing100102,China
+* Correspondence:xiaxue@muc.edu.cn
+† Theseauthorscontributedequallytothiswork.
+Abstract: ToreducecarbonemissionsandachievecarbonneutralityinChina, itispivotaltoex-
+plorelow-carbonwastewatertreatmentprocessesandcarbon-neutralwastewatertreatmentplants
+(WWTPs).ThisstudyinvestigatedtheBeijingGaobeidianWWTPtoexplorethecurrentenergycon-
+sumptionandcarbonemissionstatusofrepresentativeWWTPsinChina.Furthermore,itexplored
+apossiblelow-carbonoperatingmodel.Resultsshowthatthecurrenttotalenergyconsumptionof
+GaobeidianWWTPis280,717MWh/y,whileitsenergyrecoveryis268,788MWh/y.Asaresult,the
+energyneutralizationratiois95.8%,andtheplantisclosetoreachingenergyneutrality.Thecarbon
+emissionofthisplantis446,468t/y. However,itreduceditscarbonemissionsby252,994t/yand
+reachedonly56.7%ofcarbonneutrality.Althoughtheplantalmostreachedenergyneutrality,ithas
+alongwaytogobeforereachingcarbonneutrality.Itwasfoundthatasubsequentincreaseinthe
+recoveryofresidualheatfromsecondaryeffluentcanincreasetheenergyandcarbonneutralization
+ratioto523.1%and219.0%,respectively,meaningthattheWWTPcanbecomeapowerproduction
+unitandacarbonsink. Thisstudycanprovideareferenceforexploringefficientenergyuseand
+reachingcarbonneutralityfordomesticWWTPs.
+Keywords:wastewatertreatmentplant;carbonneutrality;energyself-sufficiency;carbonemission
+Citation:Pang,C.;Luo,X.;Rong,B.;
+reduction;Gaobeidian
+Nie,X.;Jin,Z.;Xia,X.Carbon
+EmissionAccountingandtheCarbon
+NeutralizationModelforaTypical
+WastewaterTreatmentPlantinChina.
+1. Introduction
+Int.J.Environ.Res.PublicHealth2023,
+20,140. https://doi.org/10.3390/ Inthecontextofimprovedsewagetreatmenttechnologyandsevereclimatechange,
+ijerph20010140 theenergyconsumptionofwastewatertreatmentplants(WWTPs)inChinahasbecome
+an important topic. Currently, the energy consumption of WWTPs has accounted for
+AcademicEditor:PaulB.Tchounwou
+morethan2%ofthetotalenergyconsumptioninChina[1,2]. Inaddition,scientistsand
+Received:14November2022 academicsaredevotingmoreattentiontocarbonemissionsfromWWTPs[3]. Accordingto
+Revised:10December2022 statistics,China’scarbonemissionfromWWTPsisaround187,000t(CO )/d,accounting
+2
+Accepted:15December2022 forapproximately2~5%ofthetotalcarbonemissionsofthewholecountry[4]. Therefore,
+Published:22December2022 itisimperativetoreducebothenergyconsumptionandcarbonemissioninthewastewater
+treatmentindustry. Giventhelowcostofwastewatertreatmentanditsremarkableeffect
+oncarbonemissionreduction,somedevelopedcountrieshaveincorporatedwastewater
+treatmentintotheircarbonemissionreductionplans[5–8]. Byoptimizingtheanaerobic
+Copyright: © 2022 by the authors.
+ammoniaoxidationprocess,theAustrianStrassWWTPreachedcarbonneutralityand100%
+Licensee MDPI, Basel, Switzerland.
+energyself-sufficiency. Finland’sKakolanmäkiWWTPattachesimportancetotherecovery
+This article is an open access article
+of energy from the effluent so that it recovers energy and operates in a carbon-neutral
+distributed under the terms and
+manner while meeting effluent quality standards [9]. Therefore, attention needs to be
+conditionsoftheCreativeCommons
+Attribution(CCBY)license(https:// directedtowardreducinggreenhousegas(GHG)emissionsfromWWTPs.
+creativecommons.org/licenses/by/ GHGemissionsfromWWTPsaredividedintodirectandindirectones. Directemis-
+4.0/). sionsareCO 2,N 2O,andCH 4,directlyemittedduringthewastewaterandsludgetreatment
+Int.J.Environ.Res.PublicHealth2023,20,140.https://doi.org/10.3390/ijerph20010140 https://www.mdpi.com/journal/ijerph
+
+--- Page 2 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 2of15
+process,likeCO releasedasaresultofthedegradationoforganicmatterduringwastew-
+2
+atertreatment,oftencalledbiogeniccarbon,andCO fromdecomposedorganicmatter
+2
+containedinpetrochemicalproducts, calledfossilcarbon. Althoughbiogeniccarbonis
+animportantcomponent,theIntergovernmentalPanelonClimateChange(IPCC)does
+notincludeitinGHGemissioncalculations,giventhattheseareofbiogenicoriginand
+notcausedbytheapplicationofWWTPs[10–12]. Indirectemissionsrepresentemissions
+resultingfromtheconsumptionofelectricityandchemicalsinWWTPs[13]. Electricityisa
+majorcomponentofindirectGHGemissionsfromWWTPs,andover99%ofitisconsumed
+byaerationequipment,pumps,mixingmotors,andotherfacilities[14–16]. Comparedto
+carbonemissionsfromelectricityconsumption,carbonemissionsfromchemicaldosingare
+relativelysmall[12].
+ToreducecarbonemissionsfromWWTPs,researchersproposedseveralmeasuresfor
+carbonemissionreduction. Forinstance,modifyingequipmentsuchasbloweraeration
+systems and optimizing the chemical dosing process are sustainable ways of reducing
+energyconsumptionandcarbonemissions. Inordertoincreasecarbonsinksandachieve
+low-carbonoperation,thechemicalenergycontainedinthesewageneedstobeusedand
+converted into a stable energy carrier [17]. This is mainly carried out through sludge
+treatment,especiallythroughtherecoveryofelectricalandthermalenergyfrombiogas
+cogeneration[18,19]. Usingtreatedsludgeinlandapplicationinsteadofafertilizeralso
+playsaroleincarbonemissionreduction. Intermsofpotentialdevelopment,carbonemis-
+sionreductioncanalsobeachievedthroughtheutilizationofwasteheatfromsecondary
+effluent,thedevelopmentofsolarorwindenergyforpowergeneration,andelectricity
+recoveryfromwastewaterusingbioelectrochemicaltechnologies[12,20,21]. Inaddition,
+organicandnitrogencontainingpollutantscanbelargelyremovedfromwastewaterby
+advancedtreatment,thusreducingthetotalamountofpollutantsdischargedintonatural
+waterbodies.Comparedwithdirectdischargeofwastewater,thiscanreducetheamountof
+GHGsreleasedintotheatmospheresinceincompletedegradationofpollutantsinnatural
+waterbodieswillproduceGHGslikeCH andN O.Therefore,waterqualityimprovement
+4 2
+hasapositiveeffectoncarbonemissionreduction.
+AsatypicalsecondaryWWTPinBeijing,GaobeidianWWTPmadeabreakthroughin
+energysavingandpowerproductionthroughadvancedanaerobicdigestiontechnology.
+ThisstudyfocusedonthecurrentstateofGaobeidianWWTPandinvestigatedwhether
+theplantcanbeenergyneutralbycalculatingboththeenergyconsumptionandenergy
+recoveryoftheWWTP.Onthebasisofenergycalculations,directandindirectcarbonemis-
+sionsduringtheoperationoftheWWTPwerecalculated. Thecarbonemissionreductions
+correspondingtowaterqualityimprovement,sludgetreatment,andresidualheatrecovery
+werealsocalculatedandsummarized. Thevaluesofcarbonemissionandcarbonemission
+reduction were then compared to evaluate the total net carbon emission of the WWTP
+andanalyzewhetheritcanachievecarbonneutrality. Themodelforoptimizingcarbon
+neutralitywasdiscussedthroughouttheprocessofcarbonaccountingandanewmodelof
+energysavingandcarbonemissionreductionwasproposedtopromotecarbonneutrality.
+2. MaterialsandMethods
+2.1. TheDefinitionoftheCarbonFootprint
+ThecarbonfootprintinthisstudyisdefinedasthedirectandindirectGHGemissions
+causedbywastewaterandsludgetreatmentwithindefinedsystemboundaries. TheGHG
+emissionsaccountedforincludecarbondioxide(CO ),methane(CH ),andnitrousoxide
+2 4
+(N O).Allareconvertedintocarbondioxideequivalents(CO )basedon100-yearglobal
+2 2
+warmingpotentials(GWPs),namely,1forCO ,21forCH ,and298forN O[5]. Because
+2 4 2
+mostoftheorganicmatterinwastewaterisbiogenicandgenerallynotaccountedforin
+carbonemissioninventoriesandbecausetheproportionoffossilcarboninwastewatercan
+beoverlooked[20],thisstudyonlyfocusedonCO emissionduetoexternalchemicalinput.
+2
+AsshowninFigure1,thecalculationofdirectGHGemissionsincludedirectemissions
+fromthewastewatertreatmentprocess(e.g.,CO emissionsfromanexternalcarbonsource,
+2
+
+--- Page 3 ---
+Int. J. Environ. Res. Public Health 2023, 20, x 3 of 16
+(N2O). All are converted into carbon dioxide equivalents (CO2) based on 100-year global
+warming potentials (GWPs), namely, 1 for CO2, 21 for CH4, and 298 for N2O [5]. Because
+most of the organic matter in wastewater is biogenic and generally not accounted for in
+carbon emission inventories and because the proportion of fossil carbon in wastewater
+can be overlooked [20], this study only focused on CO2 emission due to external chemical
+input. As shown in Figure 1, the calculation of direct GHG emissions include direct emis-
+Int.J.Environ.Res.PublicHealth2023,20,140 3of15
+sions from the wastewater treatment process (e.g., CO2 emissions from an external carbon
+source, N2O emissions from the nitrification/denitrification process, and CH4 emissions
+from the anaerobic zone of A2O process), the sludge treatment process (e.g., CH4 emissions
+N Oemissionsfromthenitrification/denitrificationprocess,andCH emissionsfromthe
+2 4
+anfr ao em ro a bn icae zr oo nb eic o d fAig 2e Osti po rn o) c, ea sn sd ), t th he e s sl lu ud dg ge e d tris ep ao tmsa el n p tr po rc oe cs es s( se. (g e. ., g C .,H C4H an ed m N is2O si oe nm si fs rs oio mns
+4
+from land application of sludge). The calculation of indirect GHG emissions included
+anaerobicdigestion),andthesludgedisposalprocess(e.g.,CH andN Oemissionsfrom
+4 2
+emissions from electricity and chemical consumptions within the defined system bound-
+landapplicationofsludge). ThecalculationofindirectGHGemissionsincludedemissions
+ary [22].
+fromelectricityandchemicalconsumptionswithinthedefinedsystemboundary[22].
+Figure1.Thesystemboundariesof(A)GaobeidianWWTP,(B)thewastewatertreatmentprocess,
+and(C)thesludgetreatmentprocessforcalculatingthecarbonfootprint.
+2.2. TheCurrentStateofGaobeidianWWTP
+GaobeidianWWTPisthelargestsecondaryWWTPinBeijing,withatreatmentscaleof
+100×104m3/d. Atpresent,amodifiedversionoftheA2Oprocessisusedforwastewater
+treatment. The secondary effluent is further treated using the denitrification biofilter,
+ultrafiltration,ozonecontactreactor,andultravioletdisinfectionprocesses. Thequalityof
+theeffluentfromthisWWTPmeetstheGradeBstandardoftheBeijinglocalDischarge
+Standard of Water Pollutants for Municipal Wastewater Treatment Plants (DB11/890-
+
+--- Page 4 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 4of15
+2012)[23]. TheaverageinfluentandeffluentwaterqualityindicatorsoftheGaobeidian
+WWTP in 2020 are shown in Table 1. The sludge system adopts the main processes of
+thermalhydrolysis,advancedanaerobicdigestion,plateandframedewatering,andland
+applicationoftreatedsludge.
+Table1.QualitiesoftheinfluentandeffluentinGaobeidianWWTP.
+WaterQuality Influent Effluent Removal EffluentStandards
+Indexes (mg/L)[24] (mg/L)[24] Efficiency(%) (mg/L)[23]
+COD 283 15 95% 30
+BOD 175 2.5 99% 6
+5
+TP 6.90 0.059 99% 0.3
+TN 50.6 10.9 78% 15
+SS 239 <5 >98% 5
+Chroma 50 5.4 89% 15
+NH +-N 44.28 0.45 99% 1.5
+4
+2.3. EstimationofDirectGHGEmissions
+2.3.1. DirectGHGEmissionsfromtheWastewaterTreatmentProcess
+SodiumacetateiscurrentlyusedasanadditionalcarbonsourceinGaobeidianWWTP
+to promote nitrate and nitrite reduction by denitrifying bacteria. The carbon source it-
+selfwasoxidizedtoCO . ThedirectCO emissionsatthisstagewerecalculatedusing
+2 2
+Equation(1)asfollows:
+n×M
+m = CO2 ×m (1)
+CO2,carbonsource M carbonsource
+NaAc
+wherem istheCO emissionthatresultedfromtheadditionofsodiumacetate
+CO2,carbonsource 2
+(t/y),m istheamountofsodiumacetate(t/y),nistheamountofCO produced
+carbonsource 2
+permolofoxidizedsodiumacetate(n=2),andM andM aretherelativemolecular
+CO2 NaAc
+massesofCO andsodiumacetate,respectively(M =44g/mol, M =82g/mol).
+2 CO2 NaAc
+N Oemissionsmainlycomefromtheintermediatesofnitrificationanddenitrification
+2
+processes. IPCC uses an empirical method to estimate the N O emission coefficient of
+2
+WWTPs.TheN Oemissioncoefficientrangesfrom0.008to0.39kgN O/kgTNforWWTPs
+2 2
+basedontheaerobicprocess[9]. Inthisstudy,anempiricalcoefficientof0.035kgN O/kg
+2
+TNwasusedfortraditionalnitrification-denitrificationtechniquesinreferencetoprevious
+studies[25]. TheN Oemissionfromthesewagetreatmentprocesswascalculatedusing
+2
+Equation(2)asfollows:
+m = Q×TN −TN ×EF (2)
+N2O,st inf eff N2O,st
+wherem istheannualdischargeofN Ointhesewagetreatmentprocess(t/y),Qisthe
+N2O,st 2
+treatedsewagevolume(m3/y),TN andTN arethetotalnitrogen(TN)concentrations
+inf eff
+ininfluentandeffluent,respectively(mg/L),andEF istheempiricalcoefficientofthe
+N2O,st
+dischargeofN O(0.035kgN O/kgTN).
+2 2
+CH emissionfromtheanaerobiczoneoftheA2Oprocesscanbecalculatedusing
+4
+Equation(3)asfollows:
+m = m ×EF −R (3)
+CH4,st COD CH4,st
+wherem istheamountofCH releasedfromtheanaerobicprocessduringsewage
+CH4,st 4
+treatment(t/y),m isthetotalamountofCODintheinfluent(t/y;m =Q×COD ,
+COD COD inf
+COD istheinfluentconcentrationofCOD),EF istheCH emissioncoefficientduring
+inf CH4,st 4
+the sewage treatment process (0.025 kg CH /kg of COD as recommended by previous
+4
+studies)[26],andRistheamountofrecoveredCH (ithasa0valueinthisstudysinceitis
+4
+difficulttorecovermethaneduringwastewatertreatment).
+
+--- Page 5 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 5of15
+2.3.2. DirectGHGEmissionsfromtheSludgeTreatmentandDisposalProcess
+Duringthesludgetreatmentprocess,approximately5%ofthebiogasleaksfrompipes
+and escape into the atmosphere, resulting in direct carbon emissions [27]. This carbon
+emissioncanbecalculatedusingEquation(4)asfollows:
+M
+m = η×Q ×65%× CH4 =2.127×10−5×Q (4)
+ad,CH4 biogas V biogas
+m
+wherem istheamountofCH releasedintotheatmosphereduringanaerobicdiges-
+ad,CH4 4
+tionofsludge(t/y),ηistheuncontrollablemethaneleakageratioduringbiogasproduction
+(5%), Q istheamountofbiogasproducedbyanaerobicdigestionofsludge(m3/y,
+biogas
+which is 2.555 × 107 m3/y for Gaobeidian WWTP [28]), 65% is the volume fraction of
+methaneinbiogas[20], M istherelativemolecularmassofCH (16g/mol),andV is
+CH4 4 m
+themolarvolumeofgas(24.451L/molat25◦Candoneatmosphericpressure).
+ThetreatedsludgefromGaobeidianWWTPIscurrentlyusedinforestlandapplication,
+horticultureandnurseries,andsandywastelandimprovement. GHGssuchasCH and
+4
+N Oareproducedduringlandapplicationoftreatedsludge.TheamountofGHGsreleased
+2
+fromthisprocesscanbecalculatedusingEquations(5)and(6)asfollows:
+M
+m =0.011×W ×ω × N2O (5)
+land,N2O land N n,×M
+N
+m =0.003·W (6)
+land,CH4 land
+where M and M aretheamountofN OandCH releasedfromlandappli-
+land,N2O land,CH4 2 4
+cationoftreatedsludge(t/y),respectively,W isthevolumeofdrysludgeusedinland
+land
+application(t/y),ω isthemassfractionofNindrysludge(0.12[29]),M andM arethe
+N N2O N
+molecularmassesofN OandN,respectively(M = 44g/mol, M = 14g/mol),n’is
+2 N2O N
+theamountofNneededpermoleoftheproducedN O(n’=2),and0.011and0.003arethe
+2
+emissionfactorsofN OandCH fromlandapplicationoftreatedsludge[29],respectively.
+2 4
+2.4. CalculationofIndirectGHGEmissions
+IndirectcarbonemissionsfromWWTPsarebyproductsofelectricity,heat,andchemi-
+calconsumption. Electricalenergyisconsumedduringtheprocessesofaeration,sludge
+transportation,sludgedewatering,etc. Moreover,heatisconsumedduringsludgepyroly-
+sis,whilechemicalsareconsumedthroughdosingofadditionalcarbonsources,phosphorus
+removalchemicals,anddisinfectants.
+Carbonemissionsfromelectricity,heat,andchemicalconsumptioncanbecalculated
+usingEquations(7)–(9),respectively.
+m = EF ·C (7)
+ec ec ec
+m = EF ·C (8)
+hc hc hc
+∑N
+m = C EF (9)
+cc i=1 cc,i cc,i
+where m , m , and m areindirectcarbonemissionsfromelectricity, heat, andchemi-
+ec hc cc
+calconsumption,respectively(t/y,carbonemissionsarecalculatedinCO equivalents),
+2
+C iselectricityconsumption(MWh/y),C isheatconsumption(GJ/y),C istheannual
+ec hc cc,i
+consumptionofagenti(t/y), EF istheCO emissionfactorofelectricityconsumption
+ec 2
+(0.604t/MWhfortheBeijingmunicipalgrid[30]),EF istheemissionfactorofheatcon-
+hc
+sumption(0.11t/GJfortheheatingsysteminBeijing[30]),andEF isthecorresponding
+cc,i
+CO emissionfactorofagenti(t/t).
+2
+
+--- Page 6 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 6of15
+2.5. CalculationoftheCarbonEmissionReduction
+2.5.1. CarbonEmissionReductionResultingfromWaterQualityImprovement
+Carbon emission reduction resulting from water quality improvement can be ex-
+pressedthroughtheemissionfactorsofthereceivingwaterbodies. Itiscalculatedusing
+Equation(10)asfollows:
+(cid:104) (cid:105)
+J = Q× 21×BOD −BOD ×0.06+298×TN −TN ×0.008 (10)
+wq 5,inf 5,eff inf eff
+where J isthecarbonemissionreductionresultingfromwaterqualityimprovement(t/y),
+wq
+21istheCO emissioncoefficientequivalenttoCH ,298istheCO emissioncoefficient
+2 4 2
+equivalenttoN O,QistheeffluentvolumeoftheWWTP(m3/y),BOD ,BOD ,TN ,
+2 5,inf 5,eff inf
+andTN aretheinfluentandeffluentconcentrationsofBOD andTN,respectively(mg/L),
+eff 5
+0.06kgCH /kgBOD istheCH emissionfactorofsurfacewater,and0.008kgN O/kg
+4 5 4 2
+TNistheN Oemissionfactorofsurfacewater[29].
+2
+2.5.2. CarbonEmissionReductionResultingfromSludgeTreatmentandDisposal
+Carbonemissionreductionfromsludgetreatmentisachievedbyrecoveringheatand
+electrical energy from anaerobic digestion. A subsequent treatment of the liquid from
+sludgedigestionalsosavesenergy. Besides,carbonemissionreductionfromsludgedis-
+posal is achieved by using the treated sludge in land application instead of a fertilizer.
+During land application of sludge, plants absorb 61% of N and 70% of P from sludge.
+Therefore,sludgeoffersasustainablealternativetotraditionalfertilizersandincreasescar-
+bonsequestration. Energyconsumptionduringtheproductionofthetraditionalnitrogen
+fertilizer, ammonium nitrate (NH NO ), is 1 GJ/t, while that during the production of
+4 3
+thetraditionalphosphatefertilizer,calciumsuperphosphateCa(H PO ) ,is1.3GJ/t[31].
+2 4 2
+Hence,thecarbonsinkresultingfromlandapplicationofsludgecanbecalculatedaccording
+toEquation(11)asfollows:
+S =W ·0.604·(cid:18) 61%× M NH4NO3 ×1×ω +70%× M Ca(H2PO4) 2 ×1.3×ω (cid:19) (11)
+land land M N M P
+N P
+where S is the carbon sink resulting from land application of treated sludge (t/y),
+land
+W is the amount of dry sludge in land application (t/y), 0.604 t CO /MWh is the
+land 2
+emission factor of electricity consumption of the Beijing municipal grid [30], M ,
+NH4NO3
+M , and M are the relative molecular masses of NH NO , Ca(H PO ) , and
+Ca(H2PO4) P 4 3 2 4 2
+2
+P(M =80g/mol,M =234g/mol,M =31g/mol),respectively,andω
+NH4NO3 Ca(H2PO4) P N
+2
+andω arethemassfractionsofNandPindrysludge(ω =0.12,ω =0.02),respectively.
+P N P
+2.5.3.CarbonEmissionReductionResultingfromtheRecoveryofResidualThermalEnergy
+To estimate the potential of reducing carbon emission by heat recovery, a thermal
+energyrecoverymodeldevelopedbyHaoetal. wasusedforGaobeidianWWTP[32]. The
+modelcalculatestheenergythatcanbeextractedfromthesecondaryeffluent.
+Thetheoreticalheatingorcoolingcapacitycontainedintheeffluentcanbecalculated
+usingEquation(12)asfollows:
+A = M×∆T×C (12)
+whereAdenotestheheatingorcoolingcapacitycontainedinthesecondaryeffluent(kJ),
+Mdenotesthemassofthesecondaryeffluent(kg),∆Tdenotesthetemperaturedifference
+betweentheinfluentandeffluentwhenusingthesecondaryeffluentforcoolingorheating
+(◦C),andCdenotesthespecificheatcapacityofthesecondaryeffluent(4.18kJ/(kg·◦C)).
+A water-source heat pump system can be used to extract thermal energy from the
+secondaryeffluent. Therefore,theheatingorcoolingcapacityreleasedfromthissystem
+canbecalculatedusingEquation(13)[9]asfollows:
+A
+A = A±W = A± (13)
+H/C COP∓1
+
+--- Page 7 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 7of15
+where A istheheatingorcoolingcapacityextractedfromthesecondaryeffluentand
+H/C
+releasedfromthewater-sourceheatpump(kJ,subscriptsHandCrepresenttheheating
+andcoolingoperationmode, respectively), W isenergyconsumedbythewater-source
+heatpump,andCOPstandsfortheratioofheatingorcoolingcapacitytotheelectricity
+consumedbythewater-sourceheatpump.
+3. ResultsandDiscussion
+3.1. AnalysisoftheEnergyBalanceofGaobeidianWWTP
+TheenergyinGaobeidianWWTPismainlyconsumedbyelectricityandheatingsystems
+(Table2).ThetotalannualenergyconsumptionofGaobeidianWWTPwas280,717MWh/y.
+Table2.EnergyconsumptionofGaobeidianWWTP[28].
+Projects EnergyConsumption(MWh/y)
+Electricityconsumptionofthewastewatertreatmentprocess 94,900
+Electricityconsumptionofthesludgetreatmentunit 20,795
+Thermalhydrolysisofsludge 104,920
+Electricityconsumptionofthepumpstation 52,080
+Heatingsystemforbuildings 4133
+Electricityconsumptionofadministrativebuildings 3793
+Electricityconsumptionoffueltransportation 96
+Total 280,717
+TheprimaryenergyrecoverypathwaysofGaobeidianWWTPincludetheproduction
+of methane from anaerobic digestion for combined heat and power (CHP) generation,
+heatrecoveryfromthesecondaryeffluentthroughthewater-sourceheatpumpsystem,
+and heat extraction from the cooling water of pumping station, air compressors, and
+ventilation pipes. The sludge treatment and disposal processes of Gaobeidian WWTP
+andotherrelevantdataareshowninFigure1C.Thetotalamountofprimaryandexcess
+sludge was 5432 t/d with a water content of 95% [12]. In the sludge treatment center,
+themixedsludgewaspumpedintoathickenerandthendewateredwiththeadditionof
+polyacrylamide(PAM).Thedewateredsludgewastransferredtoasludgestoragetank
+where it was thermally hydrolyzed and anaerobically digested for heat and power co-
+generation. Afterthethickeningtreatment,thermalhydrolysis,andanaerobicdigestion,
+509 t/d of sludge with a water content of 60% was placed into the plate and frame fil-
+ter press for further treatment [16]. The biogas production of Gaobeidian WWTP was
+2555×104 m3/y,ofwhich1285×104 m3/ywasusedforheatandpowercogeneration,
+withacumulativeannualpowergenerationofupto43,040MWh[28]. Theotherhalfofthe
+biogaswasusedintheboilersystemtoproducesteamforheatingthedigestiontanksin
+thethermalhydrolysisstageandheatingtheWWTPanditssurroundingarea. Theannual
+energyrecoverycapacityofthesludgetreatmentprocess(i.e.,thesumofelectricalenergy
+fromheatandpowercogeneration,heatrecoveryfromfluegas,heatrecoveryfromwater
+cylinderjackets,andsteamfromboilers)was178,940MWh/y,ofwhich104,920MWh/y
+wasusedforthethermalhydrolysistreatmentofsludge,while20,800MWh/y[28]was
+usedasanelectricitysupplyforequipmentandsludgetransportation. Energygenerated
+from anaerobic digestion reduced the energy required for sludge treatment, so surplus
+energywasusedasanoutputforotherprocessesandtreatments.
+Heatfromtheeffluentwasrecoveredbyawater-sourceheatpumpsystemlocated
+withintheplant. Thissystemprovidedheatingorcoolingfortheplantareabyextracting
+thetemperaturedifferencebetweentheeffluentandinfluenttemperature. Thepotential
+ofthermalenergyrecoveryfromthesecondaryeffluentwasestimatedusingthethermal
+energy recovery model [9]. In particular, the amount of secondary effluent that can be
+used for heat recovery was 339 × 106 m3/y [29], while the annual average extractable
+temperaturedifferencewas~4◦C.Therefore,thetheoreticalheatingorcoolingcapacity
+of the secondary effluent (A) was 5,668,080 GJ/y. Furthermore, the heating or cooling
+
+--- Page 8 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 8of15
+capacitythatcouldbereleasedfromthewater-sourceheatpumpsystemwascalculated
+andshowninTable3. Theheatingcapacityreleasedfromthewater-sourceheatpump
+system(A )was7,417,487GJ/y,whilethecoolingcapacity(A )was4,569,615GJ/y. These
+H C
+areequalto2,060,413MWh/yand1,269,337MWh/yofelectricenergy,respectively. After
+subtracting the electricity consumption of the water-source heat pump system, the net
+energyproductioncapacityfromtheheatofthesecondaryeffluentwas1,574,467MWh/y
+for heating and 964,208 MWh/y for cooling. Assuming that heating and cooling each
+lastfor6monthsperyear,atheoreticalannualenergyrecoveryof1,269,337MWhcanbe
+obtainedfromthewasteheatofthesecondaryeffluent. Presently,theannualheatrecovery
+fromtheheatpumpsysteminGaobeidianWWTPisonly69,610MWh/y[33],lessthan6%
+ofthetheoreticalvalue. Theseresultsindicatethattheresidualenergyfromthesecondary
+effluenthasagreatdevelopmentvalue. Thus,areasonableuseofthelow-gradeenergy
+containedintheeffluentisalsoofgreatsignificancetothelow-carbonoperationofWWTPs.
+Table3.Theoreticalheatingandcoolingcapacityofthewater-sourceheatpumpsysteminGaobeid-
+ianWWTP.
+Heating/Cooling EnergyConsumptionby
+Equivalent NetEnergy
+Project COP[32] Capacity Water-SourceHeatPump
+Electricity(MWh/y) Production(MWh/y)
+(GJ/y) (MWh/y)
+Heatingcapacity 4.24 7,417,487 2,060,413 485,947 1,574,467
+Coolingcapacity 4.16 4,569,615 1,269,337 305,129 964,208
+Lastly,theannualheatrecoveryoftheventilationsystemwas20,238MWh/y[33].
+Insummary,thetotalenergyrecoveryofGaobeidianWWTPis268,788MWh/y(Figure2),
+among which the energy recovery from the sludge treatment process (178,940 MWh/y)
+accountsfor66.6%,heatrecoveryfromthesecondaryeffluent(69,610MWh/y)accounts
+for25.9%, andheatrecoveryfromtheventilationsystem(20,238MWh/y)accountsfor
+7.5%(Table4). Becausethetotalenergyconsumptionoftheplantis280,717MWh/y,ithas
+achieved95.8%ofenergyneutralization. However,iftheresidualheatenergycontained
+in thesecondary effluent can be completely extracted, thetotal energyrecoverywould
+be increased to 1,468,515 MWh/y, which is 4.2 times greater than energy consumption.
+Andtheproportionofheatrecoveryfromsecondaryeffluent(1,269,337MWh/y)risesto
+86.4%,whilethoseofenergyrecoveryfromsludgetreatmentprocessandheatrecovery
+Int. J. Environ. Res. Public Health 2023, 20, x 9 of 16
+fromtheventilationsystemdecreaseto12.2%and1.4%,respectively. Theimprovementof
+heatrecoverytechnologycantransformtheWWTPintoanenergygenerationfactory.
+1600
+Water source heat pump system
+1400
+Ventilation system
+)y/hWM301×(
+1200 Sludge treatment system
+1000
+800
+600
+ygrenE
+400
+200
+0
+Energy Actual energy Improved energy
+comsumption recovergy recovery
+Figure2.Annualenergyconsumption,actualenergyrecovery,andimprovedenergyrecoveryafter
+Feixgturraec t2in. Agnhneuatalf reonmertghye csoencsounmdaprtyioenf,fl aucetunatli nenGeargoyb eriedcioavneWryW, anTdP. improved energy recovery after
+extracting heat from the secondary effluent in Gaobeidian WWTP.
+Table 4. Calculations of energy recovery in Gaobeidian WWTP.
+Actual
+Energy Recovery after
+Energy
+Project Proportion (%) Residual Thermal Energy Proportion (%)
+Recovery
+Utilization (MWh/y)
+(MWh/y)
+Biogas system 178,940 66.6 178,940 12.2
+Ventilation system 20,238 7.5 20,238 1.4
+Water source heat pump system 69,610 25.9 1,269,337 86.4
+Total 268,788 100 1,468,515 100
+3.2. The Carbon Footprint of Gaobeidian WWTP
+3.2.1. Direct GHG Emissions
+This study considered only CO2 emissions from the external carbon source, but not
+CO2 emissions from the influent TOC conversion [34]. Gaobeidian WWTP uses sodium
+acetate as the external carbon source with an annual dosing of 10,950 t/y [7]. The corre-
+sponding direct CO2 emission from the oxidation of sodium acetate (𝑚 (cid:2929)(cid:2925)(cid:2931)(cid:2928)(cid:2913)(cid:2915)) was
+(cid:3004)(cid:3016)(cid:3118),(cid:2913)(cid:2911)(cid:2928)(cid:2912)(cid:2925)(cid:2924)
+11,751 t/y. Furthermore, N2O emission from the wastewater treatment process (𝑚 (cid:3015)(cid:3118)(cid:3016),(cid:2929)(cid:2930))
+was calculated to be 507 t/y, while CH4 emission from the anaerobic stage of wastewater
+treatment (𝑚 ) was 2582 t/y.
+(cid:3004)(cid:3009)(cid:3120),(cid:2929)(cid:2930)
+The amount of CH4 released into the atmosphere during anaerobic digestion of
+sludge (𝑚 ) was calculated using Equation (4) and estimated to be 543 t/y. Sludge of
+(cid:3028)(cid:3031),(cid:3004)(cid:3009)(cid:3120)
+1358 t/d with a water content of 80% entered the sludge treatment center for thermal hy-
+drolysis and anaerobic digestion, which reduced the weight of sludge by 25%. As a result,
+the dry sludge used in land application (Wland) was 74,351 t/y. The amount of N2O released
+from land application (𝑚 (cid:3039)(cid:3028)(cid:3041)(cid:3031),(cid:3015)(cid:3118)(cid:3016)) was 154 t/y, while that of CH4 (𝑚 (cid:3039)(cid:3028)(cid:3041)(cid:3031),(cid:3004)(cid:3009)(cid:3120)) was 223 t/y.
+After converting all the amounts of GHGs into CO2 equivalents, the direct carbon
+emission from Gaobeidian WWTP was summarized and is shown in Table 5. Firstly, the
+direct carbon emission from the wastewater treatment process was 217,117 t/y. Although
+the amount of N2O emission during the wastewater treatment (507 t/y) was much lower
+than that of CO2 (11,751 t/y) and CH4 (2582 t/y), the carbon emission equivalent to N2O
+(151,136 t/y) was significantly higher than that of CO2 (11,751 t/y) and CH4 (54,230 t/y).
+Therefore, the carbon emission equivalent to N2O accounted for 69.6% of the direct carbon
+
+--- Page 9 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 9of15
+Table4.CalculationsofenergyrecoveryinGaobeidianWWTP.
+Actual EnergyRecoveryafter
+Project Energy Proportion(%) ResidualThermalEnergy Proportion(%)
+Recovery(MWh/y) Utilization(MWh/y)
+Biogassystem 178,940 66.6 178,940 12.2
+Ventilationsystem 20,238 7.5 20,238 1.4
+Watersourceheat
+69,610 25.9 1,269,337 86.4
+pumpsystem
+Total 268,788 100 1,468,515 100
+3.2. TheCarbonFootprintofGaobeidianWWTP
+3.2.1. DirectGHGEmissions
+ThisstudyconsideredonlyCO emissionsfromtheexternalcarbonsource,butnot
+2
+CO emissionsfromtheinfluentTOCconversion[34]. GaobeidianWWTPusessodium
+2
+acetateastheexternalcarbonsourcewithanannualdosingof10,950t/y[7]. Thecorre-
+spondingdirectCO emissionfromtheoxidationofsodiumacetate(m )was
+2 CO2,carbonsource
+11,751t/y. Furthermore,N Oemissionfromthewastewatertreatmentprocess(m )
+2 N2O,st
+wascalculatedtobe507t/y,whileCH emissionfromtheanaerobicstageofwastewater
+4
+treatment(m )was2582t/y.
+CH4,st
+TheamountofCH releasedintotheatmosphereduringanaerobicdigestionofsludge
+4
+(m )wascalculatedusingEquation(4)andestimatedtobe543t/y. Sludgeof1358t/d
+ad,CH4
+withawatercontentof80%enteredthesludgetreatmentcenterforthermalhydrolysis
+andanaerobicdigestion,whichreducedtheweightofsludgeby25%. Asaresult,thedry
+sludgeusedinlandapplication(W )was74,351t/y. TheamountofN Oreleasedfrom
+land 2
+landapplication(m )was154t/y,whilethatofCH (m )was223t/y.
+land,N2O 4 land,CH4
+AfterconvertingalltheamountsofGHGsintoCO equivalents, thedirectcarbon
+2
+emissionfromGaobeidianWWTPwassummarizedandisshowninTable5. Firstly,the
+directcarbonemissionfromthewastewatertreatmentprocesswas217,117t/y. Although
+theamountofN Oemissionduringthewastewatertreatment(507t/y)wasmuchlower
+2
+thanthatofCO (11,751t/y)andCH (2582t/y),thecarbonemissionequivalenttoN O
+2 4 2
+(151,136t/y)wassignificantlyhigherthanthatofCO (11,751t/y)andCH (54,230t/y).
+2 4
+Therefore,thecarbonemissionequivalenttoN Oaccountedfor69.6%ofthedirectcarbon
+2
+emissionsduringwastewatertreatment. Secondly,thedirectcarbonemissionfromsludge
+treatmentanddisposalwas62,054t/y,inwhichN Ocontributed74.1%.Therefore,thetotal
+2
+directcarbonemissionfromGaobeidianWWTPwas279,171t/y.Thedirectcarbonemission
+fromthewastewatertreatmentprocessaccountedfor77.8%andthatfromsludgetreatment
+anddisposalaccountedfor22.2%. Theseresultsindicatethatdirectcarbonemissionfrom
+wastewatertreatmentismuchhigherthanthatfromsludgetreatmentanddisposal. In
+bothprocesses,N Oemissionsareamajorcontributortodirectcarbonemissions.
+2
+Table5.DirectcarbonemissionsfromGaobeidianWWTP.
+GHGEmission
+EmissionProcess GHGSpecies CarbonEmission(t/y)
+(t/y)
+CO 11,751 11,751
+2
+Wastewatertreatment CH 4 2582 54,230 217,117
+N O 507 151,136
+2
+CH (fromanaerobicdigestion) 543 11,412
+4
+Sludgetreatmentanddisposal CH (fromlandapplication) 223 4684 62,054
+4
+N O(fromlandapplication) 154 45,958
+2
+Total 279,171
+
+--- Page 10 ---
+Int.J.Environ.Res.PublicHealth2023,20,140 10of15
+3.2.2. IndirectGHGEmissions
+As described in 2.4, indirect GHG emissions include electricity, heat, and chemi-
+calconsumption. Electricitywasconsumedforwastewatertreatment(94,900MWh/y),
+sludgetreatment(20,795MWh/y),pumpstation(52,080MWh/y),administrativebuild-
+ings(3793MWh/y),andfueltransportation(96MWh/y)(Table2). Asaresult,thetotal
+electricityconsumptionofGaobeidianWWTPwas171,664MWh/yandthecorresponding
+carbonemissionfromelectricityconsumption(m )was103,685t/y. Furthermore,thermal
+ec
+energywasusedduringthethermalhydrolysisofsludge(104,920MWh/y)andconsumed
+bytheheatingsystemofbuildings(4133MWh/y)(Table2). Thetotalheatconsumption
+was109,053MWh/y,anditscorrespondingcarbonemissionwas43,185t/y. Thechemical
+consumptionanditscorrespondingindirectcarbonemissionisshowninTable6. Thetotal
+indirectcarbonemissionfromchemicalconsumptionswas20,427t/y,with75.0%coming
+fromtheuseofsodiumacetate. Therefore,thetotalindirectcarbonemissionfromGaobeid-
+ianWWTPwas167,297t/y,withelectricity,heat,andchemicalconsumptioncontributing
+to62.0%,25.8%,and12.2%oftheindirectcarbonemission,respectively.
+Table6.Chemicalconsumptionanditsindirectcarbonemission.
+Annual CarbonEmission IndirectCarbon
+Chemicals Usage
+Consumption(t/y)[28] Factor(kgCO2/kg) Emission(t/y)
+Sodiumacetate 10,950 Externalcarbonsource 1.4 15,330
+Sodiumhypochlorite 4562.5 Disinfectant 0.89 4061
+Polyacrylamide(PAM) 461.7 Dewateringflocculant 1.9 877
+Fe2O3 25.5 Drydesulfurizerforbiogas 1.3 33
+FeCl3(38%) 601.4 Desulfurizerindigester 0.18 108
+Polyaluminumchloride(PAC) 32.9 Chemicalphosphorsremoval 0.537 18
+Total 20,427
+3.2.3. TotalGHGEmissions
+IntermsoftheCO equivalentemission,thetotalannualcarbonemissionfromGaobei-
+2
+dianWWTPwas446,468t/y,ofwhich279,171t/y(62.5%)wastheproductofdirectand
+167,297t/y(37.5%)wastheproductofindirectcarbonemissions. Emissionsfromdifferent
+processesareshowninFigure3. Firstly,thedirectcarbonemissionresultingfromN O
+2
+emission(197,094t/y)wasthemaincontributortoGHGemissions,accountingfor44.2%.
+N Owasdischargedfromthewastewatertreatmentprocess(151,136t/yequivalentcarbon
+2
+emission)andlandapplicationofsludge(45,958t/yequivalentcarbonemission),which
+accounted for 33.9% and 10.3% of the total GHG emissions, respectively. This demon-
+stratesthatefficientnitrogenremovaltechnologiesareurgentlyrequiredtofullyconvert
+thesubstancescontainingnitrogeninsewageintonitrogengasforthelow-carbonoper-
+ationofWWTPs. Then, theindirectcarbonemissionfromelectricityconsumptionwas
+thesecondhighestcontributor(103,685t/y,23.2%)tothetotalGHGemissions,indicating
+thatenergy-efficientoperationmodesforWWTPsareneeded,aswell. Thedirectcarbon
+emissionresultingfromCH emission(70,326t/yequivalentcarbonemission)wasthe
+4
+thirdhighestcontributortothetotalGHGemissions,accountingfor15.8%. Unexpectedly,
+CH emissionsfromwastewatertreatment(54,230t/yequivalentcarbonemission,12.1%)
+4
+weremuchhigherthanthosefromanaerobicdigestion(11,412t/y,2.6%)andlandappli-
+cation of sludge (4684 t/y, 1.1%). This result could stem from the fact that most of the
+sewagetreatmentstructuresareopensystems,sotheCH directlyenterstheatmosphere.
+4
+Although a large amount of CH was produced during anaerobic digestion, most of it
+4
+wasrecoveredforheatandpowercogeneration. Therefore,biogasrecoveryisanefficient
+methodtoreduceCH emissions. Likewise,wastewatertreatmenttechnologiesthatlower
+4
+CH emissionareimportantinreducingGHGemissions. Followingthesecontributors,
+4
+indirectcarbonemissionfromheatconsumption,indirectcarbonemissionfromchemical
+consumption, and direct CO emission accounted for 9.7%, 4.6%, and 2.6% of the total
+2
+GHGemissions,respectively.

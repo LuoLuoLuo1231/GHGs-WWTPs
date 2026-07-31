@@ -1,0 +1,42 @@
+{
+  "name": "自定义领域名称",
+  "description": "在此填写领域描述",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3",
+    "keyword4",
+    "keyword5"
+  ],
+  "method_categories": {
+    "category1": {
+      "name": "方法类别1名称",
+      "methods": {
+        "method1": {
+          "keywords": ["method1_keyword1", "method1_keyword2"],
+          "usage_patterns": [
+            r"(?:was|were|using|applied|conducted|performed).*?method1_keyword1",
+            r"(?:we|this study).*?(?:used|applied|conducted).*?method1_keyword1"
+          ]
+        },
+        "method2": {
+          "keywords": ["method2_keyword1", "method2_keyword2"],
+          "usage_patterns": [
+            r"(?:was|were|using|applied|conducted|performed).*?method2_keyword1"
+          ]
+        }
+      }
+    },
+    "category2": {
+      "name": "方法类别2名称",
+      "methods": {
+        "method3": {
+          "keywords": ["method3_keyword1", "method3_keyword2"],
+          "usage_patterns": [
+            r"(?:was|were|using|applied|conducted|performed).*?method3_keyword1"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,563 @@
+--- Page 1 ---
+Article
+Quantification of CH and N O Fluxes from Piggery Wastewater
+4 2
+Treatment System for Emission Factor Development
+AnthonyKintuKibwika ,Il-HwanSeo andIn-SunKang*
+DepartmentofRuralConstructionEngineering,JeonbukNationalUniversity,Baekje-daero567,
+Jeonju-si54896,RepublicofKorea;anthony@jbnu.ac.kr(A.K.K.);ihseo@jbnu.ac.kr(I.-H.S.)
+* Correspondence:insunk@jbnu.ac.kr
+Abstract
+PiggeryfarmingisthelargestsourceoflivestockmanureinSouthKorea,yetgreenhouse
+gas(GHG)datafrompiggerywastewatertreatmentsystemsremainlimited. Thisstudy
+quantifiedmethane(CH )andnitrousoxide(N O)fluxesfromafull-scaletreatmentfacility
+4 2
+todevelopstage-,seasonal-,anddiurnal-specificemissionfactors. Continuouslaser-based
+monitoringusingaPVCair-poolchamberwasappliedacrossrawwastewaterstorage,an
+anoxic nitrogen-conversion reactor, and strongly aerated nitrification units. Mean CH
+4
+fluxesrangedfrom1.1to15.6mgs−1m−2peakinginsummer,whileN Ofluxesranged
+2
+from0.01to17,971mgs−1m−2,withmaximainfall. Emissionsweredominatedbytwo
+functional zones: aerated basins where vigorous mixing enhanced CH stripping, and
+4
+anupstreamanoxicreactorwhereoxygeninstabilityandnitriteaccumulationproduced
+extremeN Opeaks. Derivedemissionfactorswere0.11kgCH head−1yr−1and45.2kg
+2 4
+N Ohead−1 yr−1,equivalentto3.1and12,300kgCO -eqhead−1 yr−1. CH variability
+2 2 4
+wascontrolledmainlybytreatmentstageandtemperature,whereasN Owasgoverned
+2
+by internal redox conditions. These results refine emission factors for inventories and
+underscoretheneedforimprovedaerationstabilityanddenitrificationcontroltoreduce
+GHGemissionsfrompiggerywastewatersystems.
+Keywords: piggerywastewater;methane;nitrousoxide;emissionfactors;temperature;
+aeration;denitrification;SouthKorea
+1. Introduction
+Greenhouse gas (GHG) emissions, particularly methane (CH ) and nitrous oxide
+4
+(N O), are major contributors to global climate change. Agriculture accounts for ap-
+2
+proximately 9 to 18% of global anthropogenic GHG emissions, with livestock manure
+managementrecognizedasasignificantsourceofbothCH andN O[1]. International
+AcademicEditor:Andreas 4 2
+frameworkssuchastheParisAgreementemphasizetheneedforaccurateGHGquantifi-
+N.Angelakis
+cationtoguidemitigationstrategies[2],yetemissionsfromlivestockwastewaterremain
+Received:11November2025
+difficulttocharacterizeduetomethodologicalinconsistencies,highspatialandtemporal
+Revised:8December2025
+Accepted:19December2025 variability,andlimitedemissionfactor(EF)datasets[3,4].
+Published:29December2025 SouthKoreahaspledgedcarbonneutralityby2050[5],withlivestock-sectormitigation
+Copyright:©2025bytheauthors. identifiedasakeypriority. Asof2023,thenationallivestockpopulationreachedroughly
+LicenseeMDPI,Basel,Switzerland. 190millionhead,including11.09millionpigs[6]. Piggeryoperationsgeneratethelargest
+Thisarticleisanopenaccessarticle shareofmanureinKorea,contributingabout39%(≈19.7milliontonsyr−1)ofthenational
+distributedunderthetermsand
+total[7].Despitethis,comprehensiveCH andN Oemissionfactorsforpiggerywastewater
+conditionsoftheCreativeCommons 4 2
+treatmentprocessesremainscarce,asmostpreviousstudieshavefocusedonbarn-levelor
+Attribution(CCBY)license.
+Sustainability2026,18,321 https://doi.org/10.3390/su18010321
+
+--- Page 2 ---
+Sustainability2026,18,321 2of15
+slurry-pitemissions. Thisgaplimitstherefinementofnationalinventoriesandassessment
+ofmitigationopportunities[8,9].
+QuantifyingGHGemissionsfrompigmanuresystemsremainschallengingbecause
+emissionsvarywidelywithchamberconfiguration,samplingfrequency,environmental
+conditions, and treatment-stage operation [8,10–12]. Flux-gradient and micrometeo-
+rological approaches can be difficult to apply in complex wastewater environments
+suchasaerationbasinsandstoragetanks[13,14]. Emissionsalsorespondstronglyto
+operational and seasonal conditions: CH generally increases during warm periods,
+4
+whileN Ooftenpeaksincooler,oxygen-limitedconditions[13,14]. Existingempirical
+2
+models only partially capture these dynamics, contributing to uncertainty in current
+inventories[15,16].
+Advancesinlaser-basedgasanalyzersandautomatedmonitoringsystemsnowallow
+high-resolutionCH andN Omeasurementswithimprovedstabilityandsensitivity[17–20].
+4 2
+However,theirapplicationinpiggerywastewatertreatmentsystemsremainslimited,and
+localizedemissionfactorsreflectingdiurnalandseasonalvariabilityarelacking[21].
+ThisstudyquantifiesCH andN Oemissionsfromacommercialpiggerywastewater
+4 2
+treatment facility and evaluates how fluxes vary across treatment stages, diurnal peri-
+ods,andseasons. Byderivingstage-andtime-resolvedemissionfactors,thisworkfills
+a critical data gap in Korea’s GHG inventory framework and provides empirical guid-
+ance for designing low-emission wastewater treatment strategies under warm, humid
+agriculturalconditions.
+2. MaterialsandMethods
+2.1. WasteWaterTreatmentPlantandWeatherConditions
+ThestudywasconductedatacommercialpigfarmlocatedinBaeksan-myeon,Jojong-
+ri,KimjeCity,SouthKorea(35◦52′1.31′′ N,126◦52′41.31′′ E).Figure1illustratesthefour-
+seasonclassificationsystemappliedinthisstudyforseasonalfluxanalysis.Table1presents
+the average monthly weather characteristics of the study area during the monitoring
+period. Theexperimentalsitegeographicallocationandlayoutoftheswinewastewater
+treatment system used for GHG monitoring are represented in Figure 2. The pig farm
+housesapproximately9000pigs,generatinganaverage16.47tday−1ofsolidwasteand
+25.65tday−1ofeffluent. Thetreatmentplantisaself-purificationwastewatertreatment
+systemdesignedbasedonaerobicandanaerobicprocessestodegradeorganiccontentat
+multipletreatmentstages(Figure2B).
+Figure1.Seasonalvariationsinambientenvironmentalconditions(temperature,relativehumidity,
+andwindspeed)obtainedfromthenearestKoreaMeteorologicalAdministration(KMA)station
+duringthemeasurementperiod.Windspeedcorrespondstothestandard10mmeasurementheight.
+https://doi.org/10.3390/su18010321
+
+--- Page 3 ---
+Sustainability2026,18,321 3of15
+Table1.Averageannualweatherconditionsofthestudyareaduringtheexperimentperiod.
+Index Fall Winter Spring Summer
+Windspeed(m/s) 1.2 1.5 2.0 1.7
+Temperature(◦C) 18.0 1.5 13.4 26.5
+Relativehumidity(%) 75.3 69.9 64.5 74.9
+(A) (B)
+(C)
+Figure2.ExperimentalsitelocationandlayoutofthewastewatertreatmentsystemusedforGHG
+monitoring. (A)GeographicallocationofthestudysiteinKorea. (B)Aerialviewofthefarmand
+wastetreatmentfacilityshowingsamplingpoints(1to10)andkeyunits(atod).(C)Illustrationof
+thetreatmentsequence,tankdimensions,andsamplingstages.
+FromFigure2,thetreatmentprocessbeginsatTank(a),whererawwasteisreceived
+beforeundergoingaseparationprocessat(b)todividesolidandliquidwastefractions.The
+liquidwasteisthenstoredinliquidwastetanks(c)and(d)beforebeingpumpedintothe
+treatmentunit. Thewastewaterfirstaccumulatesinanundergroundstoragetank(Stage1)
+andthenmovestotheanaerobictreatmentstage(Stage2),wheremicroorganismsbreak
+downorganicmatterunderoxygen-deficientconditions,releasingGHGasabyproduct.
+Following this, the waste undergoes aerobic treatment (Stages 3 to 7), where organic
+matterisfurtherdegradedinaerationtanks(Aerobic1–5)underoxygen-richconditions.
+SecondaryanaerobictreatmentoccursinAnaerobicTank2(Stage8),followedbysecondary
+aerobictreatmentinAerobicTank2(Stage9)beforefinaldischarge.
+Figure2Cprovidesadetailedlayoutofthewastewaterhandlingprocess,technical
+specificationsofthetreatmentunit,andGHGmonitoringpointsconsideredinthisstudy.
+The CH and N O emissions were monitored at three main stages: pre-treatment (raw
+4 2
+https://doi.org/10.3390/su18010321
+
+--- Page 4 ---
+Sustainability2026,18,321 4of15
+wastestorage),primarytreatment(anaerobicandaerobicstages),andsecondarytreatment
+(anaerobicandaerobicstages).
+2.2. EquipmentandGHGsCollection
+2.2.1. Equipment
+A custom floating PVC air-pool chamber was installed at Stages 2, 3, 8, and 9 to
+enable continuous gas capture while preventing corrosion from wastewater emissions
+(Figure3). Thechambermeasured1.22m×2.44m×0.60m(collectionarea2.98m2)and
+wasconnectedtoflexibleairducts,anairblower,and0.25-inchTeflontubingfortransport
+totheanalyzer(Figure4a). AtStage1,wherechamberdeploymentwasnotpossibledueto
+theundergroundlocationandrestrictedaccess,astainless-steelcoverwithtwoinletports
+andoneoutletportwasused,andgaswasextractedusing117m3s−1blowers(Figure4b).
+Figure3.Schematicillustrationofgascollectionandmonitoringsetup,showingtheisometricand
+cross-sectionalviewsofthePVCairpoolsystem.Thesetupincludesanairblowerairflow,Teflon
+samplingtubesforinletandoutletgascollection,andalasergasspectrometer(LGS)unitforreal-time
+CH andN Omeasurement.
+4 2
+Figure4.FieldinstallationandanalyticalsystemusedforGHGfluxmonitoring.(a)FloatingPVCair
+poolchamberdeployedatmonitoringstages2,3,8,and9;(b)gascollectionandtransfersetupatthe
+raw-waterstoragetank(stage1)and(c)LaserGasAnalyzer(LGR)unit.
+https://doi.org/10.3390/su18010321
+
+--- Page 5 ---
+Sustainability2026,18,321 5of15
+Gasconcentrationsweremeasuredusingalaser-basedanalyzer(ABBMeasurement
+&Analytics, QuebecCity, QC,Canada; LGR-ICOS™GLA351-N2OM1; Figure4c). The
+analyzeralternatedbetweenCH andN Ousingitsinternaloptical-switchingmechanism.
+4 2
+AllsampledgaswasconveyedthroughTeflontubingtominimizeadsorptionorchemical
+loss. SensordetectionrangesandmeasurementmethodsaresummarizedinTable2.
+Table2.Measurementrange,interval,andmethodofthegassensors.
+Measurement Measurement Measurement
+SensorType
+Range Cycle Method
+Methane(CH ) 0–1000ppm 1s Laseranalysis
+4
+Nitrousoxide(N O) 0–40ppm 1s Laseranalysis
+2
+Beforeeachmonthlymonitoringevent, theanalyzerwascalibratedusingcertified
+low-andhigh-concentrationCH andN Ostandards. Calibrationchecksincludedzero
+4 2
+stability,spanaccuracy,andspectral-fitperformanceaccordingtomanufacturerguidelines.
+2.2.2. GasCollection
+Monitoringwasperformedforten24-hcampaignsfrom6September2024to30August
+2025,coveringautumn,winter,spring,andsummer. Duringeachcampaign,continuous
+samplingwasconductedatallfivetreatmentstages. ThePVCchamberinletsandoutlets
+weremonitoredsimultaneously,withtheinletmeasurementsservingastheblankreference.
+ThedetailedmonitoringdaysandseasonalcoveragearerepresentedinTable3.
+Table3.Monitoringperiodandseasonalcoverage.
+Item Description
+Monitoringperiod 6September2024–30August2025
+Autumn(Sep–Nov),Winter(Dec–Feb),Spring(Mar–May),
+Seasonscovered
+Summer(Jun–Aug)
+6Sep2024;24Sep2024;24Oct2024;9Nov2024;17Dec
+Monitoringdays 2024;13Feb2025;13Mar2025;29May2025;30Jun2025;
+30Aug2025
+CH andN Owererecordedat1-sintervalsproducingupto86,400measurements
+4 2
+per stage per day. Approximately 90% of all measurements were retained after quality
+controlandusedinfluxcalculation. Measurementsweregroupedintomorning(06:00to
+12:00), afternoon(12:00to18:00), evening(18:00to00:00), andnight(00:00to06:00)for
+seasonalfluxaggregation. Negativevaluesweretreatedaszeroswhileoccasionalgapsdue
+tooperationalinterruptionsweretreatedasmissingdataandexcludedfromaveraging.
+Environmentalvariables,includingtemperatureandhumidity,wereobtainedfrom
+theKoreaMeteorologicalAdministration(KMA)foreachmonitoringdayandwereused
+toassesstheinfluenceofweatherconditionsonGHGfluxpatterns.
+2.3. DataAnalysisandEmissionFluxCalculation
+2.3.1. CH andN OAnalysis
+4 2
+ThecollectedGHGemissiondatawereanalyzedtoassessseasonalandtreatmentstage
+variationsinCH andN Ofluxes.Seasonalclassificationwasbasedonlocalmeteorological
+4 2
+records,anddataweregroupedintospring,summer,fallandwintertostudyenvironmental
+effectsonemissiontrends.Tocharacterizediurnalbehavior,allhourlyfluxeswereassignedto
+four6hperiodsincludingmorning(06:00to12:00),afternoon(12:00to18:00),evening(18:00
+to00:00),andnight(00:00to06:00).Fortreatment-stagecharacterization,emissiondatawere
+https://doi.org/10.3390/su18010321
+
+--- Page 6 ---
+Sustainability2026,18,321 6of15
+categorizedaccordingtopre-treatment(rawwastestorage),primarytreatment(anaerobic
+tankIandaerobicI),andsecondarytreatment(anaerobicIIandaerobicII)stages.
+Descriptivestatistics(mean,standarddeviation,coefficientofvariation)wereused
+to characterize greenhouse gas. The differences among groups were evaluated using
+one-wayANOVA,followedbyTukey’sHSDmultiplecomparisontest(p<0.05)where
+appropriate. To quantify the influence of environmental factors, linear regression was
+appliedwithtemperatureandrelativehumidityascovariatesbasedonthemodelasshown
+inEquation(1). Allstatisticalanalysesandgraphicalvisualizationswereperformedusing
+OriginPro2025bSR1(OriginLabCorporation,Northampton,MA,USA).
+F = β +β T +β RH +ε (1)
+i 0 1 i 2 i i
+2.3.2. CH andN OFluxCalculation
+4 2
+Fluxrateswerecalculatedusingstandardgasfluxequations,integratingmeasured
+gasconcentrations,airflowrates,andenvironmentalparameters(Equation(2)).
+.
+(C −C)×p ×m
+F = o i air (2)
+GHG T×R×A×1000
+isthegreenhousehousegasflux(cid:0) mgsm−2(cid:1)
+where F ,C andC aretheoutletand
+GHG o i
+inletgreenhousegasconcentrations(CH :ppm,N O:ppb), p istheatmosphericair
+4 2 air
+pressure(pa),m. istheairflowratethroughthechambersystem(m3s−1),Tistheambient
+airtemperature(K),Risthemolargasconstant(Jmol−1K−1)andAistheeffectiveareaof
+thechamber(m2).
+2.3.3. EmissionFactorsCalculation
+Measuredfluxesforeachtreatmentstagewereaggregatedacrossthefourdailymea-
+surementperiodsandseasons. Foreachstagesandseasonkthedailyrepresentativeflux
+wasobtainedastheMeanofthefourperiod-levelfluxes[9,22]. Thedailyemissionswere
+calculatedas:
+E = F ×A ×86,400×10−6,
+s,k,day s,k,day s
+where F isthedailyrepresentativeflux, A isthestageemittingsurfacearea(m2),
+s,k,day s
+86,400 converts seconds to days and 10−6 converts mg to kg. Seasonal total emissions
+wereobtainedbymultiplyingE bythenumberofdaysineachseason(E ). The
+s,k,day s,k,season
+annualemissionsperstagewerethencomputedasfollows.
+∑
+E = E .
+s,year s,k,season
+k
+Overalltreatmentplantannualemissions(E )werethesumofallstagetotals.
+total,year
+PeranimalemissionfactorswerecalculatedbydividingE bytheaveragenumberof
+total,year
+pigsonthefarm. CO -equivalentemissionfactorswerederivedusingIPCCAR6GWP
+2 100
+values(CH =27.2,N O=273)[9].
+4 2
+3. ResultsandDiscussion
+3.1. DiurnalGHGFluxCharacteristics
+DiurnalCH andN Ofluxesshowedclear6-hintervalpatternsacrossthemonitor-
+4 2
+ing period (Figure 5). CH fluxes were highest during the evening and night (7.2 and
+4
+7.0mgs−1m−2respectively),withsecondarypeakinthemorninghours(5.8mgs−1m−2).
+ThelowestmeanFluxoccurredduringtheafternoon(3.2mgs−1 m−2). CH variability
+4
+https://doi.org/10.3390/su18010321
+
+--- Page 7 ---
+Sustainability2026,18,321 7of15
+remainedcomparativelynarrow,withcoefficientofvariation(CV)rangingfrom1.7atnight
+to3.4inthemorning.
+Mean ± 1 SD
+120
+Mean ± 1.96 SD
+Mean
+100
+Data
+80 Outliers
+)²⁻m¹⁻sgm(
+60
+40
+μ+SD
+xulF
+19.9
+20
+42
+HC)²⁻m¹⁻sgm( 0
+μ-SD
+−20 -8.3
+−40
+−60
+Morning Afternoon Evening Night
+×104
+10 Mean ± 1 SD
+Mean ± 1.96 SD
+Mean
+8
+Data
+Outliers
+6
+4
+xulF 2 μ+SD
+10337.8
+ON 0
+μ-SD
+−2 -7230.5
+−4
+−6
+Morning Afternoon Evening Night
+Figure5.(Top)CH and(Bottom)N OdiurnalfluxdistributionsforMorning,Afternoon,Evening,
+4 2
+andNightperiods.
+N O fluxes exhibited far greater diurnal variability. The highest mean Flux oc-
+2
+curredduringmorninghours(3174.6mgs−1 m−2),followedbyasecondarynightpeak
+(2056.5mgs−1m−2). Afternoonemissionsweresubstantiallylower,being7.2-and4.6-fold
+lowerthanmorningandeveningFluxes,respectively. Table4summarizestheofdiurnal
+CH andN Ofluxstatistics. ThehighCVvalues(2.6–4.8)underlinetheinstabilityofN O
+4 2 2
+productionandrelease,whichisstronglyinfluencedbyrapidoperationalandbiochemical
+transitionssuchaschangesinoxygenavailabilityandnitrification–denitrificationcycling.
+ThesefindingsareconsistentwithpreviousstudiesshowingthatN Oemissionsfromlive-
+2
+stockwastewatersystemsoftenoccurinshort-livedburstslinkedtointermittentaeration
+andredoxshifts[23,24].
+https://doi.org/10.3390/su18010321
+
+--- Page 8 ---
+Sustainability2026,18,321 8of15
+Table4. SummaryofdiurnalCH andN Ofluxstatisticsfrompigwastewatertreatmentsystem.
+4 2
+ValuesrepresenttheMean,standarddeviation(SD),standarderror(SE),coefficientofvariation(CV),
+andmaximumobservedflux(n=35perperiod).
+Period GHG Mean SD SEofMean CV Max
+CH 5.8 19.8 3.3 3.4 116.8
+Morning 4
+N O 3174.6 15,199.2 2569.1 4.8 90,162.9
+2
+CH 3.2 7.5 1.3 2.3 36.5
+4
+Afternoon
+N O 439.9 1501.4 253.8 3.4 8671.8
+2
+CH 7.0 14.1 2.4 2.0 79.1
+Evening 4
+N O 543.6 1434.7 242.5 2.6 7900.4
+2
+CH 7.2 12.4 2.1 1.7 60.5
+Night 4
+N O 2056.5 8650.5 1462.2 4.2 49,913.1
+2
+3.2. TreatmentStageSpecificGHGFluxCharacteristics
+Treatment-stagefluxdistributionsareshowninFigure6andsummarizedinTable5.
+CH emissionsvariedmarkedlyacrossthesystem,withthehighestmeanfluxobserved
+4
+inAerationTankII(27.8mgm−2 s−1). Short-termCH peaks(upto119.8mgm−2 s−1)
+4
+coincidedwithstrongturbulenceevents,whichlikelyreleasedCH accumulatedwithin
+4
+sludgeflocs. Suchaeration-drivenstrippinghasbeenreportedinbothmunicipaland
+livestockwastewatersystems[22,25–27]). LowerCH fluxesinAnaerobicTankIIand
+4
+the raw-water tank (2.8–3.7 mg m−2 s−1) align with reduced substrate availability,
+higherredoxpotential,andpossibleammoniainhibition,conditionsknowntosuppress
+methanogenesis[28–31].
+120
+Mean ± 1 SD
+100 Mean ± 1.96 SD
+Mean
+80 Data
+Outliers
+)²⁻m¹⁻sgm(
+60
+40
+μ+SD
+xulF 20 19.7
+HC)²⁻m¹⁻sgm( 4 0
+μ-SD
+−20 -8.6
+−40
+−60
+Aeration II Anaerobic II Aeration I Anearobic I Raw storage
+×104
+Mean ± 1 SD
+2 Mean ± 1.96 SD
+Mean
+Data
+1 Outliers
+1
+μ+SD
+xulF 2281.2
+O2 0
+N μ-SD
+-1127.7
+−1
+−1
+Aeration II Anaerobic II Aeration I Anearobic I Raw storage
+Figure 6. Treatment stage variability in CH and N O fluxes measured across the swine
+4 2
+wastewaterprocess.
+https://doi.org/10.3390/su18010321
+
+--- Page 9 ---
+Sustainability2026,18,321 9of15
+Table5. SummaryoftreatmentstagespecificCH andN Ofluxstatisticsfrompigwastewater
+4 2
+treatmentsystem.ValuesrepresenttheMean,standarddeviation(SD),standarderror(SE),coefficient
+ofvariation(CV),andmaximumobservedflux(n=35perstage).
+Period GHG Mean SD SEofMean CV Max
+CH 4.3 8.3 1.6 1.9 36.5
+4
+AerationtankI
+N O 2108.4 3297.3 623.1 1.6 13,803.1
+2
+CH 14.5 27.8 5.3 1.9 116.8
+4
+AerationtankII
+N O 202.9 323.2 61.1 1.6 1039.3
+2
+CH 2.0 2.8 0.5 1.4 10.8
+4
+AnaerobictankII
+N O 279.5 666.0 125.9 2.4 3522.4
+2
+CH 5.5 7.2 1.4 1.3 20.8
+4
+AnaerobicTankI
+N O 5163.9 19,129.6 3615.2 3.7 90,162.9
+2
+CH 2.7 3.7 0.7 1.4 13.3
+Rawwaterstoragetank 4
+N O 13.5 39.9 7.5 2.9 181.8
+2
+N Oemissionswerehighlystagedependent. AnaerobicTankIproducedthehighest
+2
+meanandpeakfluxes(5163.9mgm−2s−1and90,162.9mgm−2s−1,respectively),reflect-
+ingunstablenitrification–denitrificationprocessesdrivenbyoxygenfluctuations,nitrite
+accumulation, andlowC/Nratios. SimilarextremeN Opeakshavebeenobservedin
+2
+pig-slurryandintermittentlyaeratedreactors,whereupto18%ofinfluentnitrogenmay
+beemittedasN O[32,33]. ThehighCVinAnaerobicTankI(3.7)reinforcestheepisodic
+2
+natureofN Oproduction, consistentwithwastewaterstudiesshowinglargetemporal
+2
+variabilityinN Oyields[22,34].
+2
+Bycontrast,AerationTankIIandtheraw-watertankexhibitedminimalN Oemissions
+2
+(<300mgs−1m−2),likelyduetomorestableredoxenvironmentswherenitritedoesnot
+accumulateanddenitrificationproceedsfullytoN [24,35]. Thesecontrastingemission
+2
+behaviorsindicatethatCH andN Omitigationstrategiesmusttargetdifferentstagesand
+4 2
+processes. CH mitigationshouldfocusonmixingandturbulencecontrol,whereasN O
+4 2
+reductionrequiresimprovingbiochemicalstabilitythroughcontrolledaeration,adequate
+carbonsupply,andpreventionofnitriteaccumulation.
+3.3. SeasonalGHGFluxCharacteristics
+SeasonalCH andN OfluxpatternsareshowninFigure7andTable6. CH fluxes
+4 2 4
+exhibitedmoderatebutconsistentseasonalvariability,withthelowestvaluesinsummer
+(3.2mgs−1m−2)andthehighestinlatefallandwinter(7.0to7.2mgs−1m−2). Thesepat-
+ternsreflecttemperature-drivenchangesinmethanogenicandmethanotrophicactivity,as
+wellasdifferencesingas–liquidtransferefficiencyundercoolerconditions[36]. Persistent
+CH generationinwinterlikelyarisesfromthermallybufferedsludgelayers[37].
+4
+120
+Mean ± 1 SD
+Mean ± 1.96 SD
+100
+Mean
+Data
+80 Outliers
+)²⁻m¹⁻sgm(
+60
+40
+μ+SD
+xulF 20 19.8
+HC 4 0
+μ-SD
+−20 -8.3
+−40
+−60
+Fall Winter Spring Summer
+Figure7.Cont.
+https://doi.org/10.3390/su18010321
+
+--- Page 10 ---
+Sustainability2026,18,321 10of15
+×104
+Mean ± 1 SD
+8 Mean ± 1.96 SD
+Mean
+Data
+6 Outliers
+)²⁻m¹⁻sgm(
+4
+xulF 2 10296.6 μ+SD
+ON2 0
+μ-SD
+−2 -7210.6
+−4
+Fall Winter Spring Summer
+Figure7.SeasonalvariationsinCH (top)andN O(bottom)fluxesacrossthemonitoringperiod.
+4 2
+SeasonalN OfluxeswereagaindominatedbyAnaerobicTankI(mean=5163.9mgs−1m−2,
+2
+max = 90,162.9 mg s−1 m−2), consistent with nitrogen transformation instability rather
+thanclimaticinfluence. AerationTankIIandtheraw-watertankcontinuedtoexhibitlow
+fluxes(<300mgs−1m−2). TheseresultsreaffirmthatN Oemissionsinthissystemaregov-
+2
+ernedprimarilybyoperationalandbiochemicalfactorsratherthanseasonaltemperature
+orhumidityconditions.
+Table6. SummaryofseasonalCH andN Ofluxstatisticsfromtheswinewastewatertreatment
+4 2
+system. Values represent the Mean, standard deviation (SD), standard error (SE), coefficient of
+variation(CV),andmaximumobservedfluxforeach6-hmonitoringinterval(n=35perperiod).
+Seasons GHG Mean SD SE CV Max
+CH 5.8 19.8 3.3 3.4 116.8
+Spring 4
+N O 3174.6 15,199.2 2569.1 4.8 90,162.9
+2
+CH 3.2 7.5 1.3 2.3 36.5
+4
+Summer
+N O 439.9 1501.4 253.8 3.4 8671.8
+2
+CH 7.0 14.1 2.4 2.0 79.1
+4
+Fall
+N O 543.6 1434.7 242.5 2.6 7900.4
+2
+CH 7.2 12.4 2.1 1.7 60.5
+4
+Winter
+N O 2056.5 8650.5 1462.2 4.2 49,913.1
+2
+3.4. EffectofEnvironmentalFactorsonGHGEmissionFluxes
+TheseasonalrelationshipsbetweenGHGfluxesandenvironmentalvariablesare
+shown in Figure 8. CH fluxes exhibited a very strong positive correlation with tem-
+4
+perature(r=0.97;R2 =0.95),confirmingthatmethanogenesisintensifiesunderwarmer
+conditions. Relativehumidity(RH)showedamoderatenegativecorrelationwithCH
+4
+flux(r=−0.63;R2 =0.39),indicatingthatdrier,moreventilatedconditionsenhancegas
+transferandpromoteCH release. Thesepatternsareconsistentwithpreviousstudies
+4
+showingstrongmicroclimaticcontroloverCH emissionsfromstoredandaeratedpig
+4
+manure[36–38].
+https://doi.org/10.3390/su18010321

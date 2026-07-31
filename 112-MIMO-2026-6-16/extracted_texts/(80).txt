@@ -1,0 +1,489 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment931(2024)172821
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+Characteristics and key driving factors of nitrous oxide emissions from a
+full-scale landfill leachate treatment system
+Bo Zhanga,b, Wenlong Maoa,c, Shaohua Chena, Xiaojun Wanga,*
+aCAS Key Laboratory of Urban Pollutant Conversion, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen 361021, China
+bUniversity of Chinese Academy of Sciences, Beijing 100049, China
+cZhejiang Key Laboratory of Urban Environmental Processes and Pollution Control, CAS Haixi Industrial Technology Innovation Center in Beilun, Ningbo 315830, China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•Larger N2O emission flux occurred in
+nitrification tanks.
+•N2O EF (8.86–49.6 %) of leachate sys-
+tem was higher than that of municipal
+wastewater.
+•Extremely low N2O EF after system
+maintenance was due to low salinity of
+influent.
+•Following salinity, limited oxygen and
+high nitrite contributed to higher N2O
+emissions.
+•The dominant genus changed with the
+different N2O emissions.
+A R T I C L E I N F O A B S T R A C T
+Editor: Jose Julio Ortega-Calvo The characteristics of N2O emission from a full-scale landfill leachate treatment system were investigated by in-
+situ monitoring over 1.4 years and driving factors responsible for these emissions were identified by statistical
+Keywords: analysis of multidimensional environmental variables. The results showed that the maximum N2O emission flux
+N2O emission of 2.21 ×107 mg N⋅h(cid:0)1 occurred in the nitrification tanks, where 98.5 % of the total N2O was released, with only
+Full-scale landfill leachate treatment system
+1.5 % of the total N2O emitted from the denitrification tanks. Limited oxygen in nitrification tank was responsible
+Salinity
+for N2O hotspot. The N2O emissions from the parallel lines A and B (both comprising the primary biochemical
+Microbial community evolution
+system) accounted for 52.6 % and 46.6 %, respectively, while the secondary biochemical system contributed only
+Statistical analysis
+0.8 % to the total emissions. Higher nitrite concentration in line A and lower nitrogen loading in the secondary
+biochemical system caused these discrepancies. We found that during the steady state of leachate treatment,
+intensive N2O emissions of 253.4–1270.5 kg N⋅d(cid:0)1 were measured. The corresponding N2O emission factor (EF)
+ranged from 8.86 to 49.6 %, much higher than those of municipal wastewater treatment. But N2O EF was
+inconceivably as low as 0.42 % averagely after system maintenance. Influent with low salinity was the key
+reason, followed by the high MLSS and varying microbial community after maintenance. The dominant genus
+shifted from Lentimicrobium and Thauera to Norank-F-Anaerolineaceae and Unclassified-F-Rhodocyclaceae. This
+study underscores the significance of landfill leachate treatment in urban nitrogen management and provides
+valuable insights into the characteristics and driving factors of N2O emissions from such systems. The findings
+* Corresponding author at: CAS Key Laboratory of Urban Pollutant Conversion, Institute of Urban Environment, Chinese Academy of Sciences, 1799 Jimei Road,
+Xiamen 361021, China.
+E-mail addresses: bzhang@iue.ac.cn (B. Zhang), wlmao@iue.ac.cn (W. Mao), shchen@iue.ac.cn (S. Chen), xjwang@iue.ac.cn (X. Wang).
+https://doi.org/10.1016/j.scitotenv.2024.172821
+Received 17 January 2024; Received in revised form 1 April 2024; Accepted 25 April 2024
+Availableonline28April2024
+0048-9697/©2024ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+offer important references for greenhouse gas emission inventories and strategies for N2O control in full-scale
+wastewater treatment plants.
+1. Introduction of N2O. Furthermore, the information could be applied to the manage-
+ment of full-scale wastewater treatment plants with the aim of miti-
+Nitrous oxide (N2O) is considered a potent greenhouse gas (GHG) gating N2O emissions.
+with a steady-state lifetime of 116 ±9 years and a global warming po-
+tential of 273 ±130 times that of carbon dioxide (CO2) (IPCC, 2021; 2. Materials and methods
+Prather et al., 2015). The research showed that the N2O discharged in
+waste sector presented a rising trend year by year (Aryal et al., 2022). 2.1. Description of the full-scale leachate treatment plants
+When discussing N2O emissions from the process of wastewater treat-
+ment, it mainly referred to N2O emissions from the municipal waste- The full-scale leachate treatment plants located in Xiamen East Solid
+water. Studies have shown that municipal wastewater treatment plants Waste Treatment Center, China. It received wastewater from garbage
+(WWTPs) provide 3.2–10.2 % to N2O anthropogenic source and the sanitation landfill, garbage sorting plant, garbage incineration power
+maximum N2O EF could reach up to 14.6 % in a full-scale WWTP plant, and sanitation comprehensive utilization plant. The treatment
+(Desloover et al., 2012; Kampschreur et al., 2009; Liu et al., 2021; station adopted the combination process of biological treatment system
+Wunderlin et al., 2012). However, N2O emissions from landfill leachate + nanofiltration (NF) + Reverse Osmosis (RO) (Fig. 1). The designed
+are excluded either in emission inventory of wastewater treatment or loading capacity is 1600 m3⋅d(cid:0) 1, and the effluent quality meets the
+solid waste disposal. Considerably high N2O dissolved in the leachate Chinese National Standard (GB16889-2008).
+samples was found (Lin et al., 2008). A lab-scale study reported that the The leachate successively flowed into storage tank, equalization
+N2O emission factor (EF) during the treatment of landfill leachate could tank, and biological treatment system. The biological treatment system
+reach a maximum of 42.7 % (Mao et al., 2022). Our team has observed consisted of two-stage biological units. Firstly, the primary biological
+intensive N2O emissions from the landfill leachate systems during short- units had two parallel treatment processes (referred as line A and line B),
+term monitoring, accounting for 8–12 % of the removal nitrogen (Wang which included one denitrification tank (DA/DB) and three nitrification
+et al., 2014). Despite the discharge amount of landfill leachate being tanks (NA1/NB1, NA2/NB2, and NA3/NB3). Then, the flow from line A
+much lower than that of municipal wastewater, the N2O emission factor and line B gathered in secondary biological units, which included sec-
+of landfill leachate is significantly higher. It indicates that landfill ondary denitrification tank (SD) and secondary nitrification tank (SN)
+leachate treatment is an important N2O source that warrants attention. (Table S1). The treatment capacity of every single line fluctuated in the
+But field sampling campaigns conducted in actual landfill leachate range of 450–830 m3⋅d(cid:0) 1. Moreover, a total of 6.52 tons of carbon
+treatment systems are still limited. sources (acetic acid) were daily added to the denitrification tanks of line
+Landfill leachate exhibited significant differences in water charac- A and line B, ensuring the COD/N ratio of both lines maintain at about
+teristics compared with municipal wastewater, resulting in a huge 3.85. The average hydraulic retention time (HRT) of the biological
+discrepancy in N2O emissions between the two sources. Mao et al. treatment system was 10.13 d. The MLSS ranged from 18.3 to 45.1
+(2022) pointed out three dominant characteristics of landfill leachate g⋅L(cid:0) 1. The average daily influent flow of the leachate system monitored
+were high concentrations of ammonium, refractory organics, and chlo- in this study was 1333.79 m3⋅d(cid:0) 1.
+rides. It may significantly vary N2O emissions by affecting nitrification
+and denitrification processes (Itokawa et al., 2001; Tsuneda et al., 2.2. Experimental procedures
+2005). On the other hand, these discrepancies in water characteristics
+can lead to dramatically different operating conditions between landfill A total of 24 sampling rounds was conducted at 9:30–12:30 am over
+leachate and municipal wastewater treatment, potentially exacerbating a 1.4-year timeframe from August 2019 to December 2020. Sampling
+N2O emissions from the leachate system. For example, landfill leachate campaign was performed every 15 days averagely. Due to the covid-19
+treatment system had higher mixed liquor suspended solids (MLSS); due epidemic, sampling was interrupted from January 13th to May 20th
+to high content of ammonium in leachate, more intensive aeration rate 2020, then resumed. During May 8th to 16th, the sludge inside the
+was applied and lower dissolved oxygen (DO) was achieved by nitrifying primary biochemical treatment units was emptied for maintenance.
+bacteria consuming oxygen; and due to incompatible COD/N ratio, a Afterwards, the sludge in the secondary biochemical reactor was refilled
+substantial amount of carbon source was extra added as electron donor to the primary denitrification reactor. Based on this, we divided the
+for denitrification (Chung et al., 2015; Nag et al., 2018; Tsilogeorgis monitoring period into two phases: before and after maintenance. The
+et al., 2008). These operating conditions inevitably affect N2O emissions sampling locations for both gas and liquid collection are illustrated in
+by influencing the activities of the relevant bacteria. However, the key Fig. 1. The collected gas was used to analyze the N2O release flux, and
+driving factors and the underlying mechanisms are unclear. Fully un- the liquid samples were used to analyze various water quality parame-
+derstanding the key reasons is beneficial to propose control strategy, ters and dissolved N2O content in the lab. Two methods were adopted
+which is critical to mitigate N2O emissions. for emission flux determination. One is floating static chamber, which
+In this study, long-term monitoring of N2O emission from an actual was applied for N2O emission from nonaerated surfaces. Another is gas
+landfill leachate treatment system was conducted, and the leachate and flow rate approach, more suitable for N2O emission from aerated sur-
+the sludge were sampled as well. The characteristics of N2O emission faces. Our previous paper described the detailed procedures of both
+from leachate were investigated by integrating in-situ monitoring data. methods (Wang et al., 2017). Gas sampling was conducted in triplicate
+Meanwhile, the relationships between N2O emission, water quality, to reduce bias. Moreover, some water quality parameters, such as pH,
+operating parameters, and microorganism would be revealed by multi- dissolved oxygen (DO), and temperature, were measured in situ by a
+ple statistics. The succession of microbial community in relation to portable water quality meter (HQ40d, HACH). And we also collected the
+varying N2O emissions would also be unveiled. This will enable us to online recorded water quality parameters for data comparison and
+identify the driving factors and underlying reasons for intensive N2O supplementation.
+emissions from the leachate system. The results could provide valuable
+references for greenhouse gas emission inventories, and offer insights
+into the microcosmic processes involved in the generation and emission
+2
+
+--- Page 3 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+2.3. Analysis methods serum bottle after centrifugation, seal with butyl rubber plug and
+aluminum cap, and oscillate in a shaker at 25 ◦C and 300 rpm for 10 min
+The analysis methods for water quality parameters including total to reach the gas-liquid equilibrium state. Gas in headspace was extracted
++ (cid:0) (cid:0)
+organic carbon (TOC), ammonium (NH4), nitrite (NO2), nitrate (NO3), and analyzed by gas chromatograph. The concentration of dissolved
+total nitrogen (TN), Cl(cid:0) , COD and BOD, etc. are shown in Table S2. Gas N2O (C, mg⋅L(cid:0) 1) in liquid phase was calculated according to Eq. 4 (Wang
+chromatography (GC, Agilent 7890A, Palo Alto, CA) was used to detect et al., 2014):
+N2O. [ )+(cid:0) )
+(KRT×S×V S×V
+C= 1 g (4)
+V
+2.3.1. Computational formula 1
+For static chamber method, each group of five samples collected at 3-
+where, K is the dissolution coefficient, R is the ideal gas constant (0.082
+m N⋅i mn (cid:0) i 2n ⋅hte (cid:0)r 1v )a wl aw a cas lcm ule aa ts eu dr e bd y, Eqa .n 1d the N2O emission flux (F, mg tL aa tt im on⋅m oo l N(cid:0) 21 O⋅K (cid:0) in1 ) h, eT dis pt ah ce a (b ms go ⋅l Lu (cid:0)te )t e Vm p ise tr ha etu vr oe lu(K m) e, S fi s qth ue c so an mce pn le-
+s . r f a s e 1 , l o li id
+dcMPT (L), and Vg is the volume of gas sample in serum bottle (L).
+F= H (1)
+dtV P T
+0 0 0
+2.3.2. Sludge sampling, DNA extraction, PCR, and amplicon sequencing
+where M is the molar mass of the sample (g mol(cid:0) 1), P0 and T0 are the air Since the nitrification liquid returned to the denitrification tank in
+pressure and temperature in the ideal gas standard state (101.325 kPa the individual line A, line B, and secondary biological unit, the mixed
+and 273.15 K, respectively), and V0 is the molar volume of the substance activated sludge in nitrification and denitrification tanks was considered
+in the standard state, namely 22.41 L⋅mol(cid:0) 1, H is the height of the static to be homogeneous. So, we collected the same amount of the activated
+box (m), P and T are the actual air pressure and air temperature in the sludge from denitrification and nitrification tanks of each line and mixed
+box at the time of sampling (units are Pa, K, respectively), dc/dt is the together, which were regarded as the sludge samples withdrawn from
+change of the target gas concentration in the box with time. line A, line B, and secondary biological unit, respectively. After the
+The N2O emission flux (F, mg N⋅h(cid:0) 1) using gas flow rate method can system maintenance, the N2O emission varied significantly. We
+be calculated by Eq. 2. collected the sludge sample at the phase 1 of the relatively low N2O
+60VAρM emissions (AAfter1, BAfter1) from May 20th to July 6th and the phase 2
+F= V (2) of the relatively high N2O emissions (AAfter2, BAfter2) from July 20th
+0
+to December 28th after maintenance. DNA was extracted following the
+where V is the wind speed, m⋅s(cid:0) 1; A is the exhaust port area, m2; ρ is the manufacturer’s protocol by using the FastDNA SPIN kit (MP Bio-
+sample gas concentration, ppm; M is the molar mass of N2O-N, 28 medicals, Santa Ana, CA). The V4 hypervariable region of the bacterial
+g⋅mol(cid:0) 1; V0 is the gas molar volume, L⋅mol(cid:0) 1. 16S rRNA gene was amplified using the primer set 515F (5′-
+Foley’s definition of N2O EF is the ratio of N2O emission amount to GTGCCAGCMGCCGCGGTAA-3′) and 806R (5′-GGAC-
+the mass of total nitrogen removal (Foley et al., 2010) (Eq. 3): TACHVGGGTWTCTAAT-3′) (Mao et al., 2022). High-throughput
+sequencing of the V4 hypervariable region of the bacterial 16S rRNA
+E
+EF= (3) gene was conducted using an Illumina MiSeq platform (Majorbio Bio-
+M N,Inf (cid:0) M N,Eff pharm Technology Co., Ltd. Shanghai, China). Then, we analyzed the
+where E is the amount of N2O released from each reactor (kg⋅N⋅d(cid:0) 1), MN, c spo em cm iesu n ci lt ay ss ifitr cu ac tt iu or ne aa nt dt h pe em dii cc tr eo db tia hl p reh ly al tu ivm aa bn ud g de an nu cs ole fv ne il t, oO gT eU
+s , r e e n e r n
+(In kf ga ⋅n Nd ⋅d M (cid:0) 1N ), ,E f rf e a sr pe e cth tie v et lo yt .a l nitrogen content of the influent and effluent cycle functional genes based on Functional Annotation of Procaryotic
+Taxa (FAPROTAX) database (Sansupa et al., 2021; Zou et al., 2023).
+Determination of dissolved N2O: fill the centrifuge tube with sludge-
+water mixed samples, and quickly transfer the supernatant to a 120 mL
+Fig. 1. Process and sampling point of leachate treatment.
+3
+
+--- Page 4 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+2.3.3. Statistical analysis least squares path model (PLS-PM) were carried out for the relationships
+The calculation of Spearman correlation coefficient that was used to between variables and N2O release by R software (3.6.1) (Gao et al.,
+analyze the relationships between water quality, N2O release and dis- 2021; Zhang et al., 2022). PLS-PM is a statistical analysis method that
+solved concentration was conducted by SPSS 22.0 and Origin 2022. used to study the complex multivariable relationship between explicit
+Principal component analysis (PCA) was used to investigate the differ- variables (which can be measured directly) and implicit variables
+ences in operating status of reactors and species richness at OTU level (which are difficult to measure directly). In the PLS-PM, the connection
+before and after maintenance. Redundancy analysis (RDA) and partial of the network represents a causal process. The process flows in one
+Fig. 2. Emission flux of N2O in each unit of the leachate treatment system during the whole monitoring period.
+4
+
+--- Page 5 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+direction, and circulation is not allowed. After constructing the network, maintenance ((3.83 ±1.06) ×107 and (3.24 ±2.21) ×105 mg N⋅h(cid:0) 1).
+one of the goals is to quantify the relationship between variables. PLS- After a period of acclimatization and operation, N2O emissions set
+PM was performed by R software (3.6.1) based on the plspm package about climbing up since July 20th. Overall, the average N2O fluxes from
+(Wang et al., 2021; Zhang et al., 2022). the entire leachate treatment system were (2.50 ± 1.63) × 107 mg
+N⋅h(cid:0) 1. N2O emissions from nitrification tanks accounted for 98.5 %,
+3. Results compared to 1.5 % of denitrification tanks. It indicated that nitrification
+tanks were the significant N2O sources. Moreover, N2O emissions from
+3.1. Nitrogen removal and physicochemical parameters of the treatment lines A and B, and secondary units accounted for 52.6 %, 46.6 %, and
+system 0.8 %, respectively.
+The N2O EFs of the primary biological unit, secondary biological unit
+Physical and chemical parameters of each tank of the leachate and the entire system are shown in Fig. 3. The N2O EF of the entire
+treatment system during the monitoring period of this study are shown leachate treatment system fluctuated in the range of 8.86–49.61 %
+in Table S3 and Fig. S1. Combined process of biological reactor +NF + without considering the maintenance and recovery stage. As for the
+RO operated stably, and the biological treatment system had an efficient primary biochemical units, the highest N2O EF of line A reached 61.05
+operating performance with 98.37 ± 0.75 % and 90.59 ± 2.91 % of %, and the value of line B was 42.88 %. The highest average N2O EF
+NH4+ -N and TN removal rates, respectively. Concentrations of COD and occurred in line A (20.84 ±15.53 %), followed by line B (17.16 ±11.71
+TOC in the influent fluctuated in the range of 2928.75–14,855.00 and %) and secondary units (13.34 ± 13.95 %). It was noted that during
+1833.35–9538.35 mg⋅L(cid:0) 1 respectively. The removal rates of COD and system maintenance, the average N2O EF of the entire system was only
+TOC were 66.62 ±6.83 % and 54.98 ±15.74 %, respectively, which 0.42 % in nearly two months, then it gradually resumed to the level
+mainly occurred in the denitrification tank. Salinity of the inlet water before maintenance. The possible intrinsic reason would be discussed in
+was relatively high (20.6 ± 4.8 ‰), which was mainly related to the the Section 4.1.
+high alkalinity (11,333.86 ± 1640.58 mg⋅L(cid:0) 1, CaCO3) and the high
+concentration of chloride ions (4502.58 ±909.51 mg⋅L(cid:0) 1). In the sec- 3.3. Dissolved N2O in treatment system
+ondary nitrification tank, the salinity decreased to about 9.58 ‰. In spite
+of the aeration rate of the system was high, the actual DO of the nitri- The concentration of the dissolved N2O in each treatment unit is
+fication tank in line A and B was only in the range of 0.26–1.23 mg⋅L(cid:0) 1. shown in Fig. S3. NA2 had the highest dissolved N2O concentration of
+The N-species variations are presented in Fig. S2. In the primary 11.62 mg⋅L(cid:0) 1, and SN had the lowest value. Besides, other treatment
+biochemical stage, despite line A and line B handled comparative plants had comparative dissolved N2O of 5 mg⋅L(cid:0) 1 averagely. Overall,
++
+amounts of landfill leachate daily, a significant increase in NH4-N the dissolved N2O were positively correlated with N2O emissions. The
+concentration existed in DA and NA1 compared to DB and NB2, and it dissolved N2O in nitrification tanks is the combined result of the
+gradually dropped equivalently in NA3 and NB3, with the values of byproduct of vigorous nitrification process and intensive aeration, and
+45.17 ± 37.91 mg⋅L(cid:0) 1 and 38.91 ± 21.22 mg⋅L(cid:0) 1, respectively. For the dissolved N2O in denitrification tanks was formed probably due to
+(cid:0)
+NO2-N, its concentration of line A was also significantly higher than line the intermediate of denitrification process.
+(cid:0)
+B. Especially, NA2 had a highest average NO2-N concentration of 21.17
+±32.17 mg⋅L(cid:0) 1, consecutive of NA3 with the value of 13.21 ±30.78 3.4. Variation of microbial community structure
+mg⋅L(cid:0) 1. Nitrate was removed in DA and DB, where extra carbon was
+added to ensure appropriate COD/N ratio. As the treatment progressed, Community structure at microbial phylum and genus level is pre-
+(cid:0)
+NO3-N concentration gradually rose in the nitrification tanks due to sented in Fig. 4(a). Among the top 10 phyla, the dominant bacterial
++
+complete nitrification. Overall, the removal rates of TN and NH4-N of phyla included Proteobacteria, Bacteroidetes, and Chloroflexi, which
+the primary biochemical stage were 90.11 ±2.88 % and 98.32 ±1.15 accounted for >70 % of the total bacteria. Proteobacteria was most
+%, respectively. It seemed that secondary biochemical units had a poor dominant, which most of denitrifying bacteria belong to. And, Chloro-
+performance of TN removal, with only 5.92 ±12.01 % of removal rate flexi and Bacteroidetes existed a relation of “as one falls, another rises”
+(cid:0)
+by further diminishing the residual NO2 in the water phase. In addition, before and after maintenance.
+there was no significant difference in nitrogen removal of the whole PCA analysis (Fig. S4) showed that microbial community composi-
+biochemical treatment system before and after maintenance. tions of line A and B clustered together but separated from each other
+before and after maintenance. It indicated that microbial community
+3.2. N2O emissions from treatment system structure significantly changed before and after maintenance. At genus
+level, the community structure of line A and B had similar changing
+N2O emission flux of each tank of the leachate treatment system is patterns Fig. 4(b). Taking line A as an example, the dominant genera
+presented in Fig. 2. Variance of N2O emission flux between each unit was were Lentimicrobium (18.19 %) and Thauera (12.86 %) before mainte-
+found. The hotpots of N2O emission occurred in the primary nitrification nance. After maintenance (phase 1), Norank-F-Anaerolineaceae had the
+tanks, where the maximum of N2O flux was 2.21 × 107 mg N⋅h(cid:0) 1. highest relative abundance (14.85 %), followed by Thauera (8.65 %) and
+Among these, NA2 had the highest N2O fluxes averagely, reaching up to Norank-F-Norank-O-SBR1031 (8.29 %). At phase 2, the dominant genus
+(7.32 ± 5.24) × 106 mg N⋅h(cid:0) 1, and the lowest N2O emission flux further changed to Unclassified-F-Rhodocyclaceae (16.96 %), and the
+occurred in NA3 ((2.24 ±2.13) ×106 mg N⋅h(cid:0) 1). The N2O emission flux previous most dominant genus Lentimicrobium almost diminished (0.07
+of denitrification unit was generally one or two orders of magnitude %). Inter-group difference analysis Fig. 4(c) showed that Lentimicrobium,
+smaller than that of the nitrification unit in the primary biochemical Norank-c-Gracilibacteria, Norank-F-Anaerolineaceae, and Unclassified-F-
+stage. As for the parallel A and B lines, the flux of N2O emission in line A Rhodocyclaceae were the most differentiated genus before and after
+((1.30 ±0.96) ×107 mg N⋅h(cid:0) 1) were larger than that in line B ((1.12 ± maintenance.
+0.75) × 107 mg N⋅h(cid:0) 1) during the entire monitoring period. And,
+compared to the primary units, the N2O emissions from secondary bio- 4. Discussion
+logical units were 1–3 orders of magnitudes lower. It was noted that
+after maintenance (May 20th–July 6th), the average N2O emissions 4.1. Screening of relevant factors influencing N2O emissions from the
+either from the primary or the secondary biological units dramatically leachate treatment systems
+decreased, which was as low as (4.06 ±1.53) ×105 and (4.74 ±8.87)
+× 103 mg N⋅h(cid:0) 1, two orders of magnitude lower than those before Spearman correlation analysis (Fig. S5) was used to investigate the
+5
+
+--- Page 6 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+Fig. 3. Emission factors of N2O in each unit of the leachate treatment system during the whole monitoring period.
+6
+
+--- Page 7 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+Fig. 4. Community structure at microbial phylum (a) and genus (b) levels, and inter-group difference analysis at genus levels (c). (A: line A, B: line B, Before: before
+maintenance, After: after maintenance, 1: phase 1, 2: phase 2).
+correlations between water quality parameters, physicochemical in- concentrations and was negatively correlated with COD and TOC (Quick
+dexes, and N2O emission. Results showed that N2O emissions were et al., 2019; Xiao et al., 2019). However, salinity played a more
+(cid:0) (cid:0)
+positively correlated with NO2-N concentration, NO3-N concentration, important role in N2O emission in DB.
+(cid:0)
+Cl , DO, salinity, and conductivity, while negatively correlated with Furthermore, PLS-PM was used to analyze and evaluate the in-
++
+NH4-N concentration, alkalinity, temperature, COD, and TOC. None- teractions and the influencing pathways between multiple factors.
+theless, the results could not tell the priorities of these factors affecting Considering most N2O emitted from NA2 and NB2, the environmental
+N2O emission. Accordingly, RDA was used to further characterize the and operating variables adopted in PLS-PM most reflected their relation
+influences of environmental factors on N2O emissions in the individual with N2O emission in the targeted landfill leachate treatment system
+biochemical plant (Fig. S6). Taking DA as an example, the N2O emission (Fig. 5). The goodness-of-fit (GoF) indexes of the analysis model was
+had a strongest positive correlation with NO2(cid:0) -N and NO3(cid:0) -N 0.621, and the models had a good prediction performance (GoF >0.5).
+Fig. 5. PLS-PM analysis results of NA2 and NB2. ‘Gene_N’ stands for the relative abundance of nitrifying functional genes; ‘Gene_D’ stands for the relative abundance
+of denitrifying functional genes.
+7
+
+--- Page 8 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+Results showed that salinity was the most critical factor influencing N2O 4.2.3. Driving factors causing N2O emission discrepancies between the
+emission with the maximum total influencing coefficient of 0.589, and primary and secondary biochemical systems
+salinity affected N2O emission mainly through direct (0.695) and indi- The results of this study showed that the N2O emissions from primary
+rect ((cid:0) 0.106) pathways. Salinity may directly affect the copy numbers and secondary biochemical treatment units accounted for 99.2 % and
+of methyl-coenzyme M reductase A-type (mcrA), nitrite reductase S-type 0.8 % of the total N2O emissions, respectively. It was probably due to the
+(nirS) and nitrite reductase K-type (nirK) genes and activities of related significant differences in TN concentrations of the influent (primary
+enzymes involved in the process of N2O production and consumption (Li 2576.30 ±347.50 mg L(cid:0) 1, secondary 229.77 ±72.93 mg L(cid:0) 1) and the
+et al., 2019). While salinity indirectly affected N2O emission by its effect nitrogen removal rates (primary 90.11 ± 2.22 %, secondary 5.92 ±
+on nitrite concentration, nitrifying and denitrifying functional genes. As 12.01 %) between them. Wu et al. (2015) found that the increasing ni-
+for nitrite, it also had a slight positive effect (0.064) on N2O emission by trogen loading promoted N2O emission. When the maximum TN con-
+considering both direct and indirect effects. Moreover, the abundances centration of the influent was fed, N2O emission reached the peak
+of both nitrifying and denitrifying functional genes had negative effects (Zhang et al., 2019).
+on N2O emission, indicating that the increase in the abundances of ni-
+trifying and denitrifying microorganisms tended to alleviate N2O emis- 4.2.4. Driving factors causing N2O emission discrepancies before and after
+sion without considering the transcription and expression of functional maintenance
+genes. Herein, salinity, nitrite, and microorganism were screened as the It was noted that N2O emissions of the whole system dramatically
+relevant influencing factors by the statistical analysis. These results were decreased after maintenance (phase 1), with the EF inconceivably as low
+beneficial to identify the key driving factors causing N2O emission dis- as 0.42 %. Afterwards, the N2O EF gradually climbed up to the level of
+crepancies under different conditions during leachate treatment process. before maintenance (phase 2). After maintenance, the sludge in the
+secondary biochemical reactors was refilled to the primary reactors. The
+4.2. Driving factors of N2O emission discrepancies under different MLSS of the primary biochemical units were higher than before, and
+conditions during leachate treatment process gradually decreased at phase 2 (Table S5). We speculated that higher
+MLSS would be potentially linked with the lower N2O emissions.
+4.2.1. Driving factors causing N2O emission discrepancies between Besides sludge concentration, microbial community composition
+denitrification and nitrification tanks may also significantly affect N2O emissions. We can see that the clusters
+The nitrification tanks accounted for the vast majority (98.47 %) of of microbial community before and after maintenance obviously sepa-
+the total N2O emission, much higher than those of the denitrification rated from each other (Fig. S4). And, the dominant genus gradually
+tanks (1.53 %). Despite intensive aeration was supplied to nitrification changed from Lentimicrobium and Thauera to Norank-F-Anaerolineaceae
+tanks, the DO still kept as low as <0.2 mg L(cid:0) 1 averagely (Table S3, and Unclassified-F-Rhodocyclaceae after maintenance. Previous studies
+Fig. S1). Ammonium oxidation bacteria (AOB) had a better tolerance to have shown that the presence of Lentimicrobium was indispensable for
+limited DO compared to nitrite oxidation bacteria (NOB), resulting in the continuous removal of high concentration nitrate (Wang et al.,
+nitrite accumulation (Ruiz et al., 2006). We observed an increase in 2020), which played a significant role in the reduction and oxidation of
+nitrite concentration in nitrification tanks, verifying that inappropriate N-species. It was speculated that N2O was released as a final product of
+DO may inhibit nitrification. Moreover, such a DO condition is likely to denitrification due to lack of N2O reductase gene (nosZ) in this genus
+cause incomplete oxidation of hydroxylamine in nitrification process (Gonzalez-Cortes et al., 2021). Meanwhile, Thauera is also a major genus
+and nitrifier denitrification, which will produce a large amount of N2O of anaerobic denitrifiers. Denitrification conducted by some species of
+as an intermediate (Chuang et al., 2007). Thauera requires appropriate COD concentration, otherwise nitrite or
+N2O would be accumulated (Liu et al., 2013). The existence of both
+4.2.2. Driving factors causing N2O emission discrepancies between lines A genus of Lentimicrobium and Thauera may explain why such high N2O
+and B emission occurred before maintenance to a certain degree. Norank-F-
+In this study, lines A and B were two parallel treatment processes, Anaerolineaceae is a strict anaerobic filamentous bacterium. This genus
+comprising of the primary biochemical system. The daily loadings, might possess relatively complete denitrifying functional genes, and
+carbon addition, and MLSS of lines A and B were comparative, but the generate less N2O (Jia et al., 2023). It could be a reason for decreasing of
+N2O emissions from line A were higher than line B. Statistical analysis N2O emission at phase 1 after maintenance. Rhodocyclaceae had 95 %
+showed that higher nitrite accumulated in line A may be the reason. The kinship with Thauera, which meant Rhodocyclaceae may also form N2O
+accumulated nitrite may inhibit the enzyme involved in nitrification and as end product (Boden et al., 2017). It was consistent with the moni-
+denitrification (Neubauer and Gotz, 1996). Moreover, nitrite may form toring data showing a rise of N2O at phase 2 after maintenance. It can be
+free nitric acid (FNA), which was more toxic to N-cycling functional seen that the succession of microbial community composition could well
+bacteria (Jiang et al., 2019; Zhao et al., 2019). And nitrite existence may explain the changes in N2O emissions.
+also contribute to nitrifier denitrification to promote N2O production Last but not least, salinity had been screened as the most influential
+(Peng et al., 2015). Thus, nitrite accumulation tended to promote N2O factor for N2O emissions, as discussed in Section 4.2. In this study, we
+generation and emission (Law et al., 2013). observed a perfect match of the changing patterns between influent
+In addition, we found that the N2O emissions from the three parallel salinity and N2O emissions. Tsuneda et al. reported that high-strength
+(cid:0)
+nitrification tanks either in line A or B were not similar. Taking line B as salinity wastewater could cause an increase in N2O release, when Cl
+an example, N2O emission fluxes followed the order NB2 >NB3 >NB1 concentration increased from 6000 to 12,000 mg⋅L(cid:0) 1, the N2O accu-
+before maintenance, and NB1 > NB2 > NB3 after maintenance. The mulation rate increased by 2.2 times (Tsuneda et al., 2005). They
+dissolved N2O was also in line with this changing pattern. It was prob- attributed this increase to the inhibition of N2O reductase activity,
+ably due to the adjustment of aeration rate. After maintenance, the which was also endorsed by Kong (2015). Moreover, osmotic stress is
+aeration rate of NB1 raised up (Table S4). Correspondingly, the N2O identified as another contributing factor to intensive N2O emission from
+release hotspots in B line moved forward to NB1 from NB2 and NB3. The high salinity wastewater treatment (Zhao et al., 2013). It could syner-
+highest N2O emissions always occurred in NA2 and NB2, which had the gistically combine with high ammonium concentration and low DO
+most intensive aeration rate. Collectively, the succession of N2O hotspot concentration to exacerbating N2O production (Liu et al., 2014).
+may be the results of aeration intensity and nitrite accumulation. Moreover, the changes in influent water quality can impact the micro-
+organisms responsible for the nitrogen cycle (Zhao et al., 2021),
+consequently influencing N2O emissions. Collectively, all of salinity,
+sludge addition, and variations of microbial community structure
+8
+
+--- Page 9 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+contributed to N2O emission discrepancies before and after Data availability
+maintenance.
+No data was used for the research described in the article.
+4.3. Importance of N2O in landfill leachate for urban nitrogen
+management Acknowledgments
+N2O emissions from waste and wastewater sectors, as non-negligible This research was financially supported by the Science and Tech-
+anthropogenic emission sources, are expected to continue increasing nology Program of Fujian Province (3502ZCQXT2021011), and the
+(Aryal et al., 2022). Zhang et al. found that the emission of reactive National Natural Science Foundation of China (51708536).
+nitrogen (Nr, including NH3, N2O, NOX and nitrogen discharged into
+aquatic environment) in Xiamen was approximately 26.53 Gg in 2010 Appendix A. Supplementary data
+(Zhang et al., 2017). We obtained the N2O emission flux of
+253.38–1270.47 kg N⋅d(cid:0) 1 during stable operation of the leachate Supplementary data to this article can be found online at https://doi.
+treatment system, accounting for 0.34–1.74 % of the total Nr emission in org/10.1016/j.scitotenv.2024.172821.
+Xiamen city. Leachate treatment is an important anthropogenic N2O
+emission source that needs to be continuously monitored in densely References
+populated cities. Other studies have shown that with the development of
+social economy and the improvement of residents’ consumption level, Aryal, B., Gurung, R., Camargo, A.F., Fongaro, G., Treichel, H., Mainali, B., Angove, M.J.,
+Ngo, H.H., Guo, W., Puadel, S.R., 2022. Nitrous oxide emission in altered nitrogen
+the proportion of food containing protein in the diet habits will increase.
+cycle and implications for climate change. Environ. Pollut. 314, 120272.
+It will directly lead to the increase of organic nitrogen content in do- Boden, R., Hutt, L.P., Rae, A.W., 2017. Reclassification of Thiobacillus aquaesulis (Wood &
+mestic garbage and landfill leachate as well, which may aggravate N2O Kelly, 1995) as Annwoodia aquaesulis gen. nov., comb. nov., transfer of Thiobacillus
+(Beijerinck, 1904) from the Hydrogenophilales to the Nitrosomonadales, proposal of
+emissions from this view (Martinez et al., 2019). However, in recent
+Hydrogenophilalia class. nov within the ‘Proteobacteria’, and four new families
+years, there is a positive trend with China’s promotion and standardi- within the orders Nitrosomonadales and Rhodocyclales. Int. J. Syst. Evol. Microbiol.
+zation of waste sorting practices. With a greater proportion of waste 67 (5), 1191–1205.
+Chuang, H.P., Ohashi, A., Imachi, H., Tandukar, M., Harada, H., 2007. Effective partial
+being incinerated for energy recovery and a reduced reliance on land-
+nitrification to nitrite by down-flow hanging sponge reactor under limited oxygen
+filling, it’s anticipated that N2O emissions from the leachate may condition. Water Res. 41 (2), 295–302.
+decrease in the future. Chung, J., Kim, S., Baek, S., Lee, N.H., Park, S., Lee, J., Lee, H., Bae, W., 2015.
+Acceleration of aged-landfill stabilization by combining partial nitrification and
+leachate recirculation: a field-scale study. J. Hazard. Mater. 285, 436–444.
+5. Conclusion Desloover, J., Vlaeminck, S.E., Clauwaert, P., Verstraete, W., Boon, N., 2012. Strategies
+to mitigate N2O emissions from biological nitrogen removal systems. Curr. Opin.
+At present, there are relatively few studies on the actual N2O emis- Biotechnol. 23 (3), 474–482.
+Foley, J., de Haas, D., Yuan, Z.G., Lant, P., 2010. Nitrous oxide generation in full-scale
+sion from leachate biochemical treatment system. This study conducted
+biological nutrient removal wastewater treatment plants. Water Res. 44 (3),
+an in-situ monitoring of N2O emission over a long-term period of 1.4- 831–844.
+year timeframe. Intensive N2O emissions of 253.38–1270.47 kg N⋅d(cid:0) 1 Gao, X.F., Chen, H.H., Gu, B.H., Jeppesen, E., Xue, Y.Y., Yang, J., 2021. Particulate
+organic matter as causative factor to eutrophication of subtropical deep freshwater:
+from the leachate treatment system was measured. More specifically, the
+role of typhoon (tropical cyclone) in the nutrient cycling. Water Res. 188.
+nitrification tanks emitted more N2O than the denitrification tanks, line Gonzalez-Cortes, J.J., Almenglo, F., Ramirez, M., Cantero, D., 2021. Simultaneous
+A emitted more N2O than line B, the primary biochemical system removal of ammonium from landfill leachate and hydrogen sulfide from biogas using
+a novel two-stage oxic-anoxic system. Sci. Total Environ. 750.
+emitted more N2O than the secondary system, and the system before
+IPCC, 2021. Climate Change 2021: The Physical Science Basis. Cambridge University
+maintenance emitted more N2O than that after maintenance. DO, nitrite Press.
+accumulation, nitrogen loading, salinity, MLSS, and microbial commu- Itokawa, H., Hanaki, K., Matsuo, T., 2001. Nitrous oxide production in high-loading
+biological nitrogen removal process under low COD/N ratio condition. Water Res. 35
+nity composition were identified as the key driving factors causing N2O
+(3), 657–664.
+emission discrepancies in the four scenarios as mentioned above, Jia, L., Zhou, Q., Li, Y., Wu, W., 2023. Integrated treatment of suburb diffuse pollution
+respectively. Among them, DO, nitrite accumulation, MLSS, and mi- using large-scale multistage constructed wetlands based on novel solid carbon:
+crobial community composition are strongly linked with operating pa- nutrients removal and microbial interactions. J. Environ. Manage. 326, 116709.
+Jiang, Y.S., Poh, L.S., Lim, C.P., Ng, W.J., 2019. Impact of free nitrous acid shock and
+rameters. These information are valuable references for management of dissolved oxygen limitation on nitritation maintenance and nitrous oxide emission in
+N2O emissions in full-scale wastewater treatment plants. Our results a membrane bioreactor. Sci. Total Environ. 660, 11–17.
+provided basic data for a comprehensive understanding of characteris- Kampschreur, M.J., Temmink, H., Kleerebezem, R., Jetten, M.S.M., van Loosdrecht, M.C.
+M., 2009. Nitrous oxide emission during wastewater treatment. Water Res. 43 (17),
+tics and driving factors of N2O emission from the leachate biochemical 4093–4103.
+treatment process, references for GHG emission inventory, and N2O Kong, Q., 2015. Impact of ammonium and salinity concentrations on nitrous oxide
+control strategy as well. emission in partial nitrification system. KSCE J. Civ. Eng. 19 (4), 873–879.
+Law, Y., Lant, P., Yuan, Z.G., 2013. The confounding effect of nitrite on N2O production
+by an enriched ammonia-oxidizing culture. Environ. Sci. Technol. 47 (13),
+CRediT authorship contribution statement 7186–7194.
+Li, X.F., Gao, D.Z., Hou, L.J., Liu, M., 2019. Salinity stress changed the biogeochemical
+Bo Zhang: Writing – original draft, Investigation, Formal analysis. controls on CH4 and N2O emissions of estuarine and intertidal sediments. Sci. Total
+Environ. 652, 593–601.
+Wenlong Mao: Methodology, Investigation. Shaohua Chen: Writing – Lin, L., Lan, C.Y., Huang, L.N., Chan, G.Y.S., 2008. Anthropogenic N2O production from
+review & editing, Conceptualization. Xiaojun Wang: Writing – review landfill leachate treatment. J. Environ. Manage. 87 (3), 341–349.
+& editing, Supervision, Funding acquisition. Liu, B.B., Mao, Y.J., Bergaust, L., Bakken, L.R., Frostegard, A., 2013. Strains in the genus
+Thauera exhibit remarkably different denitrification regulatory phenotypes. Environ.
+Microbiol. 15 (10), 2816–2828.
+Declaration of competing interest Liu, M., Liu, T.T., Peng, Y.Z., Wang, S.Y., Xiao, H., 2014. Effect of salinity on N2O
+production during shortcut biological nitrogen removal from landfill leachate.
+J. Biosci. Bioeng. 117 (5), 582–590.
+The authors declare that they have no known competing financial Liu, T., Liu, S.F., He, S.S., Tian, Z.C., Zheng, M.S., 2021. Minimization of N2O emission
+interests or personal relationships that could have appeared to influence through intermittent aeration in a sequencing batch reactor (SBR): main behavior
+the work reported in this paper. and mechanism. Water 13 (2).
+Mao, W., Yang, R., Shi, H., Feng, H., Chen, S., Wang, X., 2022. Identification of key water
+parameters and microbiological compositions triggering intensive N2O emissions
+during landfill leachate treatment process. Sci. Total Environ. 833, 155135.
+9
+
+--- Page 10 ---
+B. Zhang et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 931(2024)172821
+Martinez, S., Alvarez, S., Marin, R.M., Delgado, M.D., 2019. Food consumption Wang, X.J., Jia, M.S., Chen, X.H., Xu, Y., Lin, X.Y., Kao, C.M., Chen, S.H., 2014.
+contribution to nitrogen pollution of cities in Northern and Southern Europe. Greenhouse gas emissions from landfill leachate treatment plants: a comparison of
+Sustain. Cities Soc. 50. young and aged landfill. Waste Manag. 34 (7), 1156–1164.
+Nag, M., Shimaoka, T., Komiya, T., 2018. Influence of operations on leachate Wang, X.J., Jia, M.S., Zhang, C.L., Chen, S.H., Cai, Z.C., 2017. Leachate treatment in
+characteristics in the aerobic-anaerobic landfill method. Waste Manag. 78, 698–707. landfills is a significant N2O source. Sci. Total Environ. 596, 18–25.
+Neubauer, H., Gotz, F., 1996. Physiology and interaction of nitrate and nitrite reduction Wu, D., Wang, C., Dolfing, J., Xie, B., 2015. Short tests to couple N2O emission mitigation
+in Staphylococcus carnosus. J. Bacteriol. 178 (7), 2005–2009. and nitrogen removal strategies for landfill leachate recirculation. Sci. Total Environ.
+Peng, L., Ni, B.J., Ye, L., Yuan, Z.G., 2015. The combined effect of dissolved oxygen and 512, 19–25.
+nitrite on N2O production by ammonia oxidizing bacteria in an enriched nitrifying Wunderlin, P., Mohn, J., Joss, A., Emmenegger, L., Siegrist, H., 2012. Mechanisms of N2O
+sludge. Water Res. 73, 29–36. production in biological wastewater treatment under nitrifying and denitrifying
+Prather, M.J., Hsu, J., DeLuca, N.M., Jackman, C.H., Oman, L.D., Douglass, A.R., conditions. Water Res. 46 (4), 1027–1037.
+Fleming, E.L., Strahan, S.E., Steenrod, S.D., Søvde, O.A., 2015. Measuring and Xiao, Q., Xu, X., Zhang, M., Duan, H., Hu, Z., Wang, W., Xiao, W., Lee, X., 2019.
+modeling the lifetime of nitrous oxide including its variability. J. Geophys. Res.- Coregulation of nitrous oxide emissions by nitrogen and temperature in China’s third
+Atmos. 120 (11), 5693–5705. largest freshwater lake (Lake Taihu). Limnol. Oceanogr. 64 (3), 1070–1086.
+Quick, A.M., Reeder, W.J., Farrell, T.B., Tonina, D., Feris, K.P., Benner, S.G., 2019. Zhang, L., Yan, C.Z., Wang, D.P., Zhen, Z., 2022. Spatiotemporal dynamic changes of
+Nitrous oxide from streams and rivers: a review of primary biogeochemical pathways antibiotic resistance genes in constructed wetlands and associated influencing
+and environmental variables. Earth Sci. Rev. 191, 224–262. factors. Environ. Pollut. 303.
+Ruiz, G., Jeison, D., Rubilar, O., Ciudad, G., Chamy, R., 2006. Nitrification- Zhang, Q.H., Gao, B., Huang, W., Yan, X.M., Cui, S.H., 2017. Analysis of anthropogenic
+denitrification via nitrite accumulation for nitrogen removal from wastewaters. reactive nitrogen emissions and its features on a prefecture-level city in Fujian
+Bioresour. Technol. 97 (2), 330–335. Province. Environ. Sci. 38 (09), 3610–3619.
+Sansupa, C., Wahdan, S.F.M., Hossen, S., Disayathanoowat, T., Wubet, T., Purahong, W., Zhang, S.N., Liu, F., Luo, P., Xiao, R.L., Zhu, H.X., Wu, J.S., 2019. Nitrous oxide emissions
+2021. Can we use functional annotation of prokaryotic taxa (FAPROTAX) to assign from pilot scale three-stage constructed wetlands with variable nitrogen loading.
+the ecological functions of soil bacteria? Appl. Sci. 11 (2). Bioresour. Technol. 289.
+Tsilogeorgis, J., Zouboulis, A., Samaras, P., Zambouhs, D., 2008. Application of a Zhao, R.X., Liu, J., Feng, J., Li, X.Y., Li, B., 2021. Microbial community composition and
+membrane sequencing batch reactor for landfill leachate treatment. Desalination metabolic functions in landfill leachate from different landfills of China. Sci. Total
+221 (1–3), 483–493. Environ. 767.
+Tsuneda, S., Mikami, M., Kimochi, Y., Hirata, A., 2005. Effect of salinity on nitrous oxide Zhao, W., Wang, Y.Y., Liu, S.H., Pan, M.L., Yang, J., Chen, S.W., 2013. Denitrification
+emission in the biological nitrogen removal process for industrial wastewater. activities and N2O production under salt stress with varying COD/N ratios and
+J. Hazard. Mater. 119 (1–3), 93–98. terminal electron acceptors. Chem. Eng. J. 215, 252–260.
+Wang, H.J., Hou, L.Y., Liu, Y.Q., Liu, K.S., Zhang, L.P., Huang, F.Y., Wang, L., Rashid, A. Zhao, Y.F., Zeng, D.F., Wu, G.X., 2019. Efficient nitrous oxide production and
+Z.R., Hu, A.Y., Yu, C.P., 2021. Horizontal and vertical gene transfer drive sediment metagenomics-based analysis of microbial communities in denitrifying systems
+antibiotic resistome in an urban lagoon system. J. Environ. Sci. 102, 11–23. acclimated with different electron acceptors. Int. Biodeter. Biodegr. 138, 92–98.
+Wang, H.S., Chen, N., Feng, C.P., Deng, Y., Gao, Y., 2020. Research on efficient Zou, S.P., Liu, R.S., Luo, Y., Bo, C.T., Tang, S.Q., Xue, Y.P., Zheng, Y.G., 2023. Effects of
+denitrification system based on banana peel waste in sequencing batch reactors: fungal agents and biochar on odor emissions and microbial community dynamics
+performance, microbial behavior and dissolved organic matter evolution. during in-situ treatment of food waste. Bioresour. Technol. 380.
+Chemosphere 253.
+10

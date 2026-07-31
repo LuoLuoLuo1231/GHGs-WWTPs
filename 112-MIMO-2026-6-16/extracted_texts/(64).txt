@@ -1,0 +1,573 @@
+--- Page 1 ---
+Journal of Environmental Management 370 (2024) 122550
+Contents lists available at ScienceDirect
+Journal of Environmental Management
+journal homepage: www.elsevier.com/locate/jenvman
+Research article
+Tofu wastewater as a carbon source flowing into municipal wastewater
+treatment plants for reductions of costs and greenhouse gas emissions
+Hongbo Fenga,e, Linyi Jina, Yongfeng Chenb, Junchao Jib, Zhen Gongb, Wangxian Huc,
+Chao Yingd, Yifan Lianga, Jun Lia,*
+aKey Laboratory of Microbial Technology for Industrial Pollution Control of Zhejiang Province, College of Environment, Zhejiang University of Technology, Hangzhou,
+310014, China
+bYiwu Water Treatment Co., Ltd., Jinhua, 322000, China
+cHangzhou Yuhang Water Purification Co., Ltd., Hangzhou, 311113, China
+dHangzhou Bean Food Co., Ltd., Hangzhou, 311115, China
+eHangzhou Rian Ecological Environment Technology Co., Ltd., Hangzhou, 311201, China
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater treatment processes significantly contribute to greenhouse gas (GHG) emissions. Municipal waste-
+Tofu wastewater water treatment also faces challenges related to low strength and a low carbon-to-nitrogen (C/N) ratio. This
+Greenhouse gas study investigates the high-carbon tofu wastewater flowing into municipal sewers for co-treatment at a waste-
+Municipal wastewater
+water treatment plant (WWTP) directly, with the goal of enhancing nitrogen removal and reduce GHG emissions.
+Carbon emissions calculation
+Within the framework of a circular economy for wastewater treatment, tofu wastewater serves as an external
+Circular economy
+carbon source for sustainable solutions. The concentrated tofu wastewater had an average chemical oxygen
+demand (CODCr) of 21,894 ±11,485 mg/L, total nitrogen (TN) of 591.8 ±238.2 mg/L, and a C/N ratio of 36.9
+±7.4. The denitrification rate reached 3.05 mg NO3(cid:0) -N/(g MLVSS⋅h). Therefore, tofu wastewater is a suitable
+alternative carbon source. A full-scale WWTP with a capacity of 20,000 m3/day was monitored from 2017 to
+2022 to evaluate the co-treatment effects of municipal wastewater and tofu wastewater. The results showed an
+increase in 53.3% in the average CODCr concentration of the influent wastewater, while the total nitrogen and
+total phosphorus removal efficiencies were enhanced to 75.8% and 95.2%, respectively. In addition, the study
+quantified GHG emissions from tofu wastewater and municipal wastewater treatment. Compared to separate
+treatment processes, the co-treatment reduced GHG emissions by 337.9 t CO2-eq., approximately 15.8% of the
+total emissions of WWTP, and achieved a cost saving of 7–10% of the total operational costs. These findings
+demonstrate the environmental and economic advantages of integrating high-carbon industrial wastewater
+treatment directly into wastewater treatment plants.
+1. Introduction of sustainable development (Crini and Lichtfouse, 2019). The waste-
+water treatment process produces significant amounts of greenhouse gas
+As urbanization and industrialization accelerate, the societal water (GHG) emissions (Nguyen et al., 2019). In China, traditional treatments
+cycle is undergoing significant transformations (Lam and van der Hoek, require additional energy and chemicals to maintain high pollutant
+2020; Li et al., 2022a). During this transformation, most of the water is removal efficiency in microbial wastewater bioreactors (Qu et al.,
+converted into domestic sewage and industrial wastewater. These are 2019). They also emit substantial quantities of greenhouse gases such as
+primary sources of water pollution and constitute critical barriers to the methane (CH4), nitrous oxide (N2O) and carbon dioxide (CO2), thereby
+coordinated development of socio-economic progress and environ- raising new challenges to energy and environmental management
+mental protection (Koseoglu-Imer et al., 2023; Wu and Ye, 2020). From (Akdag and Yildirim, 2020). According to recent statistics, GHG emis-
+the perspectives of energy balance and carbon footprint, conventional sions from the wastewater treatment sector account for 1–2% of total
+wastewater treatment methods are not considered “green” in the context societal carbon emissions, ranking it among the top ten industries in
+* Corresponding author. Zhejiang University of Technology, Hangzhou, 310014, China.
+E-mail address: tanweilijun@zjut.edu.cn(J. Li).
+https://doi.org/10.1016/j.jenvman.2024.122550
+Received 10 May 2024; Received in revised form 9 September 2024; Accepted 16 September 2024
+Available online 1 October 2024
+0301-4797/© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+terms of GHGs output (Lu et al., 2018; Su et al., 2023; Zhang et al., is a type of high-carbon wastewater that can serve as a high-quality
+2021). external carbon source for bioremediation of nitrogen in WWTPs. In
+The Chinese government has set a target for reducing carbon emis- this study, a municipal wastewater treatment plant with a capacity of
+sions, aiming to reach peak carbon emissions by 2030 and achieve 20,000 m3/d was designed as an experimental WWTP. The concentrated
+carbon neutrality by 2060 (Zhang et al., 2023). Municipal wastewater tofu wastewater is directly mixed with other municipal wastewater
+treatment plants (WWTPs) face significant technological and managerial through municipal sewers, establishing a new co-treatment model for
+challenges in microbial wastewater bioreactors(Guo et al., 2023). In tofu wastewater and municipal wastewater. Most importantly, it utilizes
+response, relevant authorities in China have issued several key policy tofu wastewater, which is expensive to treat independently and emits
+documents, including the “Implementation plan for synergistic effi- large amounts of GHGs as an additional carbon source for low C/N
+ciency in reducing pollution and carbon” (MEE, 2002) and the “Imple- municipal wastewater, maximizing benefits. This approach also updates
+mentation opinions on promoting synergistic efficiency of pollution and supplements previous management policies. Through long-term
+reduction and carbon reduction in sewage treatment” (NDRC, 2023), monitoring, the economic and environmental benefits of the co-
+among others. The documents propose promoting coordinated re- treatment of tofu wastewater with municipal wastewater were
+ductions in pollutants and greenhouse gas emissions across the entire evaluated.
+wastewater treatment process. In addition, they aim to enhance energy
+savings and carbon reduction in the treatment process and to compre- 2. Methods
+hensively improve the efficacy of future wastewater treatment to assist
+in achieving carbon peak and carbon neutrality goals. As these policies 2.1. Methods accounting of GHG emissions
+move forward, municipal wastewater treatment is evolving toward
+pollution and carbon reduction, alongside improvements in quality, ef- In this study, the system boundaries for the accounting of GHG
+ficiency, and sustainability. Consequently, an increasing amount of emissions are limited to the treating processes within the WWTP,
+research is focusing on reducing pollution and carbon in the wastewater excluding other processes such as wastewater collection, sludge
+treatment process (Du et al., 2023; Lam and van der Hoek, 2020; Lu disposal, impacts of treated effluent released into the environment, and
+et al., 2018). carbon emissions generated by the staff of the WWTP (Zhou et al., 2022).
+Currently, most municipal wastewater treatment plants in China face Direct emissions encompass CH4 and N2O produced during wastewater
+significant challenges with low carbon sources and high nitrogen of the treatment and internal transportation processes, excluding CO2 emis-
+influent wastewater, characterized by a low carbon-to-nitrogen (C/N) sions from biological sources and minor petroleum-based products; in-
+ratio. Insufficient municipal wastewater collection and the dilution by direct emissions mainly consist of the indirect carbon emissions from
+storm water significantly lowers the organic strength (Qu et al., 2019). electricity and materials (Hao and Liu, 2024; IPCC, 2019). Additionally,
+Note that the average influent CODCr concentration of WWTPs in China carbon emissions associated with the transportation of tofu wastewater
+(262 mg/L) is only 0.7 times the European level (400 mg/L) (Cao et al., via sewers or trucks were also accounted for. The specific accounting
+2019). In southern China, the average CODCr of influent wastewater is methods used are as follows.
+even lower than 200 mg/L. This often necessitates the addition of sub- Direct CH4 emissions during the wastewater treatment process occur
+stantial amounts of external carbon sources and other chemical agents to primarily during the anaerobic processes in the biological treatment
+meet effluent discharge standards (Qu et al., 2019). However, certain units. The CO2 equivalent of CH4 emissions during wastewater treat-
+types of food production wastewater, such as those from beer breweries, ment processes was calculated by Equation (1).
+sweet factories, soft drink manufacturers, and dairy plants, exhibit high {[ ] }
+carbon and low nitrogen and phosphorus water quality characteristics mCO2-CH4= Q in×(C 1O 0D 0in 0-CODout) -SG×Pv×ρ ×B0×MCF-mR-CH4
+s
+(Bodik et al., 2009; Zhang et al., 2022; Zheng et al., 2024). Such
+×fCH4
+wastewaters are easily utilized by microorganisms and serve as
+high-quality carbon sources. The concept of the Circular Economy, (1)
+w efh fii cc ih na cim s t ho t sr an res cfo er nm w a bs ete oin mto re inso cu rer ace sis t gh le yr eb py pe un lh aa nc (i Zn ag ap cr oc ae ns ds Qm iC nO —2- —CH4 — Infl— wD i wre ac st eC wH a4 ee rm vis os li uo mns o of t th he W WW WT TP P, k ing tC hO 2 a-e cq co;
+e y, a tly c e n o r j
+o t t e f e e unting
+Avdiushchenko, 2020). By adopting a circular economy model, the period, m3;
+utilization of these food production wastewaters as a resource could CODin—— Average influent CODCr concentration of WWTP, mg/L;
+yield significant benefits. CODout—— Average effluent CODCr concentration of WWTP, mg/L;
+Some researchers have started to develop wastewater co-treatment SG—— The amount of dry sludge produced by the WWTP, kg DS;
+models within a circular economy framework. For instance, Kim et al. Pv—— Percentage of organic composition in sludge;
+( m2 e0 r1 c7 ia) ut ci ali rz be od fo so od rw ca es st e fore cy bc il oin log w ica at er a es ia trn fia cl ate tir on na ,t iv ee ft eo tc ivo em ly- ρ s—— Conversion coefficient of organic matter and CODCr in sludge.
+l n u r g l d n i f c
+The value is approximated by the COD Cr mass equivalent of the acti-
+reducing costs and environmental impact. Similarly, Liang et al. (2023)
+vated sludge microorganisms (C2H7O2N), 1.42 kg CODCr/kg DS (CAEPI,
+proposed transporting brewery wastewater to a WWTP by car for
+2022);
+co-treatment, which not only saved costs but also reduced carbon
+B0—— Maximum CH4 producing capacity, default value is 0.25 kg
+emissions. However, practical implementation faces challenges such as
+CH4/kg CODCr (IPCC, 2019);
+the collection and storage of production wastewater, transportation
+MCF—— The CH4 correction factor. The default value range for
+distance, and cost. According to current regulations, if production
+centralized aerobic treatment plants is 0.003–0.09 (IPCC,2019);
+wastewater is integrated into municipal sewers and treated at WWTPs, it
+mR-CH4—— The quantity of CH4 recovered, kg;
+must meet the standards set by the “Wastewater quality standards for
+fCH4—— Global warming potential of CH4, default value is 27 kg
+discharge to municipal sewers (GB_T 31,962-2015)” (MHURD, 2015),
+w 50h 0ic mh gin /c Ll ,u td oe ts lr e nq itu ri or ge em ne n (Tts l )i k ≤e 7ch 0e mm gic /a Ll o tx oy tag le pn d oe sm pha on rd s( C (O TPD )C r ≤) ≤ CO2 T-e hq e/ k eg q uC iH va4 l e(I nP tC C o, f 2 N0 22 O3) . emissions from the biological nitrogen
+a N , h u 8
+removal process in wastewater treatment was calculated using Equation
+mg/L and so on. This has necessitated significant investment by pro-
+(2).
+ducers to build their own wastewater treatment stations for preliminary
+t sr oe ua rt cm e.ent, even though this wastewater could serve as a valuable carbon mCO2-N2O=Q in×(TNi 1n- 0T 0N 0out)×EFN2OCN2O/N2×fN2O
+(2)
+The wastewater produced during the processing of soybean products
+2
+
+--- Page 3 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+mCO2-N2O—— Direct N2O emissions of the WWTP, kg CO2-eq; (t⋅km); Emission factors for medium diesel truck (10t load) is 0.162 kg
+TNin—— Average influent TN concentration of WWTP, mg/L; CO2-eq/(t⋅km); Emission factors for heavy diesel truck (30t load) is
+TNout—— Average effluent TN concentration of WWTP, mg/L; 0.078 kg CO2-eq/(t⋅km) (Hao and Liu, 2024).
+fN2O—— Global warming potential of N2O, default value is 273 kg The GHG emission intensity is the average GHG emissions generated
+CO2-eq/kg N2O (IPCC, 2023). per unit of wastewater treatment, calculated using Equation (7).
+valuE eF N fo2O — ce— rC aO liz2 e dm ai es rs oio bn f a trc et ao tr o ef N 2 pO la, nk tg iN 2 0O .0/k 1g 6T N kg; T Nh 2e /d ke gfa Tu Nlt GECO2,i=m QCO2,i
+r nt e ic m n t s s 0 O (7)
+i
+(Hao and Liu, 2024);
+28;CN2O/N2——The conversion of kg N2O-N into kg N2O, the value is 44/ mGE CC OO 2,2 i, —i— —— G oH taG e Hm Gis esi mon si in ot nen s init y th, ek g cC cO ou2- ne tq in/ gm p3 e;
+T l G is s a riod, kg CO2-eq;
+Electricity consumption refers to the amount of electricity purchased Q i—— The total wastewater volume in the accounting period, m3.
+during the operation of WWTP. The GHG emissions for electricity from
+the grid were calculated using Equation (3). 2.2. Calculation of theoretical carbon source addition
+mCO2-E=W×fe (3)
+During the denitrification process, nitrate nitrogen (NO3-N) in the
+mCO2-E—— CO2 emission equivalent of electricity, kg CO2-eq; wastewater is reduced to nitrogen gas (N2) under the action of deni-
+fe—— GHG emission factor for electricity from the grid, kg CO2-eq/ trifying bacteria. Denitrification is a biochemical reaction carried out by
+(kW⋅h), based on the electricity from the grid of the region where the heterotrophic microbes mainly that utilize the nitrogen from nitrates
+WWTP is located, the value is 0.5320 kg CO2-eq/(kW⋅h); (NO3-N) as electron acceptors and carbon sources as electron donors
+W——Total electricity consumption of the WWTP during the ac- under conditions of extremely low dissolved oxygen.
+counting period, kW⋅h; Based on practical engineering applications, when the ratio of BOD5
+Material consumption refers to the chemicals used in the WWTP, to TN in the wastewater entering the denitrification process is less than
+including coagulants, flocculants, and carbon sources. The carbon 4, the addition of external carbon sources should be considered. If the
+emissions from material consumption were calculated using Equation ratio c(BOD5)/c(TN) is 4 or higher, the process of denitrification can be
+(4). considered complete (Fu et al., 2022; Sun et al., 2016). If the carbon
+∑ ( ) source is insufficient, the amount of carbon added to the system can be
+mCO2-C= m fCg×MCg (4) calculated based on the amount of total nitrogen removed, using the
+g=1
+following Equation (8).
+fm CeC gqO —;2(cid:0) —C— C— C emO2 se im onis fs aio ctn re oq fu tiv ha el ce hn et mo if am l,a kte gr Cia Ol 2c -o en q/su km g;p et mio in ss, iok ng X=( nin)
+CO2 - 4(cid:0) BO TND i5 ×TN ηin (8)
+O2 is o c
+factor of polyaluminum chloride (PAC) is 0.53 kg CO2-eq/kg; emission X—— Additional carbon source dosage, mg/L;
+factor of polyacrylamide (PAM) is 1.48 kg CO2-eq/kg; emission factor of BOD5in—— Average influent biochemical oxygen demand (BOD5) of
+sodium acetate anhydrous (NaAC) is 0.62 kg CO2-eq/kg (Hao and Liu, the wastewater treatment plant;
+2024); TNin—— Average influent total nitrogen concentration of the
+MCg—— The quantity of the chemical, kg; wastewater treatment plant;
+In the anaerobic environment of sewers, the organic matter in the η—— BOD5 equivalency of the additional carbon source. The NaAC
+wastewater is converted into CH4, CO2, H2O, etc. The CO2 equivalent of has a BOD5 equivalency of 0.52 mg BOD5/mg NaAC.
+CH4 in the sewers was calculated using Equation (5).
+( )
+2.3. Costs accounting methods
+1
+mCO2-sewerCH4 =Q sewer×EFCH4×CCOD× 1(cid:0) ×fCH4 (5)
+1+η t
+T Costs accounting was conducted using the direct costing method. The
+mCO2-sewerCH4—— CO2 emission equivalent of CH4 from sewers, kg operational costs of wastewater treatment primarily include power
+CO2-eq; costs, chemical consumption, transportation costs for surplus sludge,
+Q —— The amount of wastewater passing through the sewers, testing fees, management fees, and necessary equipment maintenance.
+sewer
+m3; In the cost accounting of this study, expenses related to land use, con-
+EFCH4—— CO2 emission equivalent of CH4 from Sewers, kg CH4/kg struction projects, and equipment investment were not considered; only
+CODCr; According to the anaerobic reaction of organic matter, the value costs incurred during the operation processes of the wastewater treat-
+is 0.25 kg CH4/kg CODCr (IPCC, 2019); ment plant were included.
+CCOD—— Average concentration of organic matter in sewers, kg
+CODCr/m3; 2.4. Tofu wastewater treatment station
+t—— Hydraulic retention time of sewage in sewers, d;
+η T—— Anaerobic conversion rate of CODCrCr in sewers, η T= In this study, a tofu wastewater treatment station at the tofu pro-
+η εT-20 , η is 0.221, ε is 1.117, T is the average temperature of the cessing factory was selected as a case study. The factory has constructed
+20 20
+sewage in the local sewer, ◦C (Hao and Liu, 2024). its own wastewater treatment station with a capacity of 2000 m3/d. In
+The GHG emissions generated by the transportation of sludge by 2022, the plant treated an average of 1717 m3/d of production waste-
+vehicles were calculated using Equation (6). water, operating at an average load of 85.9%. The tofu wastewater
+treatment station process is shown in Fig. 1-a. The average concentra-
+mCO2-Tra.=∑ i=n 1(Mi⋅Li⋅EFi) (6) 7ti 9o .n o mf gin /fl L,u e Tn Pt w 21a .s a ±s fo 7l .l 2o w ms g: /C LO D TC hr 9 p0 r6 im4 a± ry9 2 p8 m ceg s/ sL es, T aN t2 h6 is3 . t7 f±
+3 6 . e ro t o u
+wastewater treatment station include anaerobic fermentation, anoxic-
+mCO2-Tra.—— CO2 emissions equivalent from transportation, kg CO2-
+oxic (AO), and membrane bioreactor (MBR) techniques. And the
+eq;
+design hydraulic retention time is 72 h. The average effluent concen-
+LM i—i— —— T hh ee t io st ta al a cem oo fu tn rt nof ptr oa rn tas tp io or nt ,e kd sl ;udge, t; 5tr .a 1t i ±on o .2f C mO gD /LC .r , T hN ea fn fld T enP w me er ee t: s3 0 ± “1 W3 am stg e/ wL a, t5 e7 .1 u± al8 it.8 Sm tag n/L aa rn dd
+T d n a s m
+1 T e u t th e r Q y d s
+EFi—— Emission factors for different modes of transport, kg CO2-eq/
+for Discharge to Municipal Sewers (GB_T 31,962-2015)” (MHURD,
+3
+
+--- Page 4 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+Fig. 1. a. Tofu wastewater treatment process; b. Cost of tofu wastewater treatment; c. Greenhouse gas emissions of tofu wastewater treatment.
+2015) (Main control index including CODCr ≤500 mg/L, TN ≤70 mg/L, wastewater is suitable for biological denitrification, it can be used as an
+TP ≤8 mg/L) and is subsequently discharged into municipal sewers for external carbon source during the treatment of low-strength, low C/N
+further treatment at the WWTP. During the biological treatment process, ratio municipal wastewater. As illustrated in Fig. 2, this design proposes
+the high organic load of tofu wastewater also results in the generation of directly integrating the tofu production wastewater flowing into the
+a significant amount of waste activated sludge. The waste activated municipal wastewater collection sewers, thereby enhancing the carbon
+sludge will be dewatered using a centrifuge and then transported off-site source of influent and improving the C/N ratio. The concentrated tofu
+for disposal. wastewater is immediately diluted upon entering the sewers, providing
+a buffering effect. There is no wastewater treatment unit at the soybean
+production factory, nor is there a tofu wastewater storage tank at the
+2.5. Design of co-treatment in the full-scale WWTP WWTP.
+To utilize tofu wastewater as an additional carbon source for deni- 2.6. Testing and analysis methods
+trification of low C/N ratio municipal wastewater, an integrated treat-
+ment scheme was designed. The full-scale WWTP has a design capacity Water quality parameters (pH, CODCr, NH4+ -N, TN, and TP) were
+of 20,000 m3/d, with an initial operating load range of 48.8%–74.0%. It tested using the Standard methods (APHA, 2005).
+primarily collects municipal wastewater while also handling some pre- Three sets of beakers were prepared using control group, sodium
+treated industrial effluents, including aquaculture wastewater and acetate (NaAC) and concentrated tofu wastewater as carbon sources to
+landfill leachate, which are high in nitrogen and low carbon, make up compare the rates of denitrification. Sludge from the biochemical tanks
+about 20% of the total influent. The main parameters of the influent of the WWTP was aerated for 3 h to deplete residual carbon sources,
+were as follows: CODCr 184 ±36 mg/L, TN 33.4 ±9.3 mg/L, NH4+ -N followed by a 10-min nitrogen gas purge to remove oxygen. The reactors
+19.1 ±9.9 mg/L, TP 2.67 ±0.74 mg/L. The main treatment process is contained 500 mL of sludge with MLSS (Mixed Liquor Suspended Solids)
+the Anaerobic Anoxic Oxic (AAO) process, supplemented by a biological and MLVSS (Mixed Liquor Volatile Suspended Solids) concentrations of
+denitrification filter for advanced treatment. The hydraulic retention 4533 mg/L and 2720 mg/L, respectively. Identical concentrations of
+time was 18 h. The effluent must meet the Level A standards of the NaNO3 were added to the three beaker groups, along with concentrated
+“Discharge standard of pollutants for municipal wastewater treatment solutions of NaAC, tofu wastewater, and an equivalent volume of pure
+plant (GB18918-2002)” (MEE, 2022) (Main control index including water for the control group. The concentration changes of nitrate ni-
+COD ≤50 mg/L, TN ≤15 mg/L, TP ≤0.5 mg/L). The average effluent trogen were measured to assess the denitrification process.
+concentration of CODCr, TN and TP were:24 ±9 mg/L, 6.9 ±1.6 mg/L
+and 0.13 ±0.12 mg/L.
+In the wastewater collection area of this WWTP, there is a soybean
+production factory enterprise generating approximately 200 m3/d of
+wastewater from tofu production, including concentrated tofu waste-
+water constituting about 30 m3/d. Considering the tofu production
+4
+
+--- Page 5 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+Fig. 2. The process of tofu wastewater flowing into WWTP.
+3. Results and discussion Greenhouse gas emissions from this wastewater treatment station
+were calculated, with boundaries encompassing all emissions generated
+3.1. Typical tofu wastewater treatment processes throughout the year. The total GHG emissions were 1242.3 t CO2-eq.,
+with direct emissions contributing 541.1 t CO2-eq., accounting for
+The treatment processes for concentrated tofu wastewater are com- 43.6%. These direct emissions included carbon from methane,
+plex, often involving an integrated approach that combines both phys- amounting to 219.5 t CO2-eq., and N2O emissions contributing 321.7 t
+icochemical and biological methods (Zhou et al., 2023). Traditionally, CO2-eq. Indirect emissions primarily resulted from electricity con-
+large tofu processing factories generating substantial amounts of sumption, use of chemicals such as PAC, PAM, and surplus sludge
+wastewater have constructed their own treatment facilities to meet transportation. Electricity consumption was the largest contributor,
+standards before discharging effluent into municipal sewers. This estimated at 506.7 t CO2-eq. accounting for 40.78% of total GHG
+approach requires substantial initial investments, ample land, and emissions. Chemical usage contributed 187.3 t CO2-eq. accounting for
+robust operational management. Conversely, smaller factories face dif- 15.07%, and surplus sludge transportation produced 7.2 t CO2-eq.,
+ficulties in treating their own wastewater, initially needing to collect constituting 0.6% of the total emissions. The calculation results of GHG
+and store the wastewater, and then periodically transporting it via emissions intensity were shown in Fig. 1-c. The total GHG emissions
+tanker trucks to capable factories for treatment. The WWTP receiving intensity was 1.98 kg CO2-eq./m3.
+this wastewater must also establish a storage reservoir to gradually mix Compared with that of ordinary municipal wastewater, the costs and
+it, preventing shock loads that could disrupt the wastewater treatment total GHG emissions intensity of tofu wastewater treatment are signifi-
+systems. cantly higher (Hu et al., 2019; Guo et al., 2023). Inefficient wastewater
+This study analyses the wastewater treatment station operation sta- treatment processes can also contribute significantly to greenhouse gas
+tus at a modernized soybean production factory. The operational costs of emissions (Cardoso et al., 2021; Maziotis and Molinos-Senante, 2023).
+the wastewater treatment station include electricity, sludge disposal, Several studies have focused on utilizing carbon sources in tofu waste-
+equipment maintenance and upgrades, laboratory testing, chemical re- water to achieve carbon neutrality. Li et al. (2024) used Nanno-
+agents, and labor costs. Based on the operational data from 2022, a total chloropsis oceanica to remove nutrients from tofu wastewater,
+of 626,530 m3 of production wastewater was treated, with operating achieving both carbon neutrality and resource recycling.
+expenses amounting to approximately 3.15 million RMB. After deduct-
+ing methane recovery revenues of about 0.55 million RMB, the total
+costs amounted to approximately 2.60 million RMB, resulting in an 3.2. Feasibility of tofu wastewater as carbon source
+operational cost of about 4.15 RMB/m3. As shown in Fig. 1-b, electricity
+costs constituted approximately 43.6% of the total operational costs, Tofu, a traditional delicacy in China, accounts for over 14 million
+while sludge transportation accounted for about 42.9%. Due to the small tons of annual consumption in the country, used in tofu products and
+scale and cost-control measures, the sludge dewatering equipment is protein powders. As shown in Fig. 3-a, the production process of soybean
+simple, and the moisture content of the dewatered sludge exceeds 90%, products primarily involves the following steps: impurity removal,
+increasing transportation costs. soaking, grinding, separation, boiling, fine filtration, brine coagulation,
+and molding filtration. These steps generate a significant amount of
+5
+
+--- Page 6 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+Fig. 3. a. Process of tofu production and source of wastewater b. Water quality of several kinds of tofu wastewater c. Changes of nitrate nitrogen concentration under
+different carbon sources.
+concentrated wastewater, especially during soybean product processing Rinsing wastewater is more dispersed and occurs in larger quantities,
+where approximately 12–20 m3 of wastewater is produced per ton of with significant variability in water quality depending on the rinsing
+soybeans processed. volume. Except for the initial rinsing water, a large portion of rinsing
+The primary sources of wastewater from tofu product processing water is sufficient to meet the standards for discharge to municipal
+include (a) bean washing and soaking water; (b) separation water and sewers directly and also is easily segregated from the concentrated tofu
+filter press water; (c) wash water from production containers and floor. wastewater. Thus, most rinsing water is discharged directly into the
+During the selection and soaking process, soybeans are first washed and municipal sewers or the wastewater treatment station in the factory.
+then soaked in water for several hours to allow adequate hydration and The concentrated tofu wastewater primarily comprises bean soaking
+expansion. The wastewater remaining after soaking contains numerous water, yellow serofluid, and a minor portion of rinsing water. The results
+dissolved substances from the beans, with longer soaking times resulting of continuous monitoring for a period have shown that the concentrated
+in higher wastewater concentrations. As shown in Fig. 3-b, test results tofu wastewater has an average CODCr of 21,894 ±11,485 mg/L, NH4+ -
+indicate average CODCr at 640 ±192 mg/L, NH4+ -N at 13.8 ±8.0 mg/L, N at 204.4 ±180.9 mg/L, TN at 591.8 ±238.2 mg/L, and TP at 63.0 ±
+TN at 22.5 ±2.1 mg/L, and TP at 3.8 ±1.7 mg/L, with a C/N ratio of 12.6 mg/L, with a C/N ratio of 36.9 ±7.4.
+24.0 ±4.0. The processes of grinding, boiling, and coagulation produce The change of nitrate nitrogen concentration is shown in Fig. 3-c. By
+minimal wastewater. Another main source of wastewater is the molding calculating the slope, a comparison of denitrification rates using NaAC
+filtration, where coagulated tofu is placed in a mold lined with filter and tofu wastewater as carbon sources reveals that the denitrification
+cloth and pressed to expel excess water, thus forming the tofu into a rate with concentrated tofu wastewater is 3.05 mg NO3(cid:0) -N/(g MLVSS⋅h).
+fixed shape and texture. The pressure and duration of the pressing Although this rate is lower than the 4.88 mg NO3(cid:0) -N/(g MLVSS⋅h) ach-
+process vary depending on the type of tofu product, resulting in varia- ieved with NaAC, it still maintains a relatively high denitrification ef-
+tions in the quality of the wastewater produced. This step produces ficiency. In contrast to inorganic carbon sources, the concentrated tofu
+“yellow serofluid”. For common products, such as dried tofu, the wastewater demonstrates superior biocompatibility due to the presence
+pressing wastewater has an average CODCr of 20,550 ± 1221 mg/L, of readily utilizable organic carbon sources such as whey. Larger mo-
+NH4+ -N at 50.8 ±16.2 mg/L, TN at 519.6 ±81.8 mg/L, and TP at 63.0 lecular carbon sources, however, require decomposition into smaller
+±12.6 mg/L, with a C/N ratio of 40.4 ±5.2. And “Qianzhang” tofu, molecules before further utilization, hence the average rate of denitri-
+known for its lower water content, results in even higher concentrations fication with tofu wastewater is lower than that with sodium acetate.
+of pressing wastewater with an average CODCr of 28,804 ±3593 mg/L, Nevertheless, such biological carbon sources are likely stored by mi-
+NH4+ -N at 113.2 ±36.0 mg/L, TN at 651.0 ±133.1 mg/L, and TP at croorganisms and slowly released for use, with the wastewater flocs
+134.2 ±41.4 mg/L, and a C/N ratio of 40.4 ±5.8. being adsorbed by activated sludge, allowing for storage, gradual
+6
+
+--- Page 7 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+release, and utilization in subsequent process stages (Li et al., 2022b). by soybean production factory flowed into WWTP via the municipal
+The research by Mahmoud et al. (2022)also indicates that using pure sewers (Table. S1). At this time, the proportion of concentrated tofu
+whey powder and similar substances as external carbon sources for wastewater in the total wastewater volume ranged from 0.24% to
+denitrification yields better outcomes compared to conventional 0.29%. As shown in Fig. 4-a, from 2018 to 2022, the addition of tofu
+external carbon sources like methanol and acetates. Thus, it is evident wastewater consistently resulted in a significant increase in influent
+that concentrated tofu wastewater, rich in biological organic carbon, CODCr concentration, with an average increase of 53.3%. In contrast, as
+offers good biocompatibility and is suitable as an external carbon source illustrated in Fig. 4-b and 4-c, the average increases in TN and TP con-
+for wastewater denitrification. centrations in the influent were only 5.7% and 8.1%, respectively. With
+the increased influent substrate concentration, the removal rates for
+both TN and TP improved significantly, especially for TN, where the
+3.3. Inflow of tofu wastewater as carbon source of WWTP
+removal rate increased from 56.3% in 2018 to 75.8% in 2022. The
+removal rate for TP also increased from 90.3% in 2018 to 95.2% in 2022.
+3.3.1. Water quality changes of the WWTP
+In the biological denitrification process, an appropriate C/N ratio is a
+The full-scale WWTP began operations in 2017 with initially low
+key factor affecting the efficiency of biological denitrification, with
+overall influent substrate concentrations. In such low substrate condi-
+wastewater typically considered low C/N ratio when the ratio is below
+tions, the growth of activated sludge was somewhat inhibited (Henze
+8.0 (Sun et al., 2010). As shown in Fig. 4-d, prior to the addition of tofu
+et al., 2006). Despite achieving the required discharge standards, the
+wastewater, the original wastewater consistently had a C/N ratio below
+removal rates for nitrogen and phosphorus were not very high. After the
+5, classifying it as a typical low-concentration wastewater, with an
+WWTP began operations, it served as an experimental WWTP. In 2017, a
+average C/N ratio of just 3.94 in 2019. After the addition of concen-
+trial involved flowing a portion of tofu wastewater through the munic-
+ipal sewers into the WWTP, with a total of 2000 m3 of concentrated tofu trated tofu wastewater, the C/N ratios consistently exceeded 5, which is
+a significant reason for the improved biological denitrification
+wastewater added, accounting for about 0.06% of the annual waste-
+performance.
+water treatment volume. The average influent CODCr in 2017 was 106
+±20 mg/L, TN was 19.7 ±2.0 mg/L, and TP was 1.65 ±0.08 mg/L.
+3.3.2. Impact on the wastewater treatment system
+This influent already included the concentrated tofu wastewater. Based
+The concentrated tofu wastewater is slightly acidic, with pH levels
+on the volume and water quality calculations, prior to the mixing of the
+ranging from 5.2 to 6.3, which are slightly lower than the typical
+concentrated tofu wastewater, the average influent CODCr was about 94
+municipal wastewater pH of 6.5–6.9. Prolonged storage of tofu waste-
+mg/L, TN was 19.4 mg/L, and TP was 1.61 mg/L. By comparison, the
+water tends to produce acidic substances, resulting in a gradual pH
+CODCr increased by approximately 12.8%, while the TN and TP was
+decline of about 3–5% after 48 h. The measured suspended solids (SS)
+minimal increases, at 1.5% and 2.5% respectively. The addition of
+content of the wastewater is 269.5 ±162.5 mg/L, which is comparable
+concentrated tofu wastewater increased the C/N ratio from 4.85 to 5.39,
+to that of municipal wastewater. As shown in Fig. 5-a, the appearance is
+representing a 10% improvement. After 2018, all wastewater produced
+Fig. 4. Water quality changes of influent and effluent from WWTP (a. COD, b. TN, c.TP, d. C/N).
+7
+
+--- Page 8 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+Fig. 5. a. Characteristics of tofu wastewater; b. Elements of solid suspensions in tofu wastewater c. Characteristics of sludge of WWTP.
+yellowish or milky white. Further microscopic observation reveals that production wastewater. The WWTP produced actual GHG emissions of
+the suspended matter in the wastewater primarily consists of flocculent 1805.8 t CO2-eq. Direct emissions were 634.9 t CO2-eq., indirect emis-
+tofu curds of varying sizes dispersed throughout the solution. Over 99% sions were 1125.2 t CO2-eq., and emissions from sewers at 45.7 t CO2-eq.
+of suspended matter is composed of organic components. Among these CH4 emissions contributed 45.0 t CO2-eq. and N2O emissions contrib-
+organic components of the suspended matter, carbon (C) constitutes uted 589.8 t CO2-eq. for direct emissions. The largest contributor from
+53.1%, hydrogen (H) 8.2%, nitrogen (N) only 4.3%, and sulfur (S) 0.4% indirect emissions was electricity consumption, totaling 910.3 t CO2-eq.,
+(Fig. 5-b). The C/N ratio of the suspended matter is 12.3, qualifying it as accounting for 50.4% of the total calculated emissions. Dosage and
+a biologically slow-release carbon source potentially utilized gradually sludge transportation contributed 214.9 t CO2-eq., accounting for 11.9%
+by microorganisms in subsequent stages of wastewater treatment. of emissions.
+Based on GHG emission intensity calculations typical for separate
+3.3.3. The GHG emissions reduction in WWTP treatment tofu wastewater, the estimated total annual carbon emissions
+Wastewater treatment processes are associated with the production were approximately 144.7 t CO2-eq., which direct emissions was 63.0 t
+of substantial amounts of GHGs, which primarily consist of direct and CO2-eq., accounting for 2.9% of the total emissions. Direct emissions
+indirect emissions. As shown in Table 1, based on the operational data of included 25.6 t CO2-eq. from methane emissions and 37.5 t CO2-eq. from
+the WWTP in 2022, the total GHG emissions were calculated. This ac- N2O emissions. Indirect emissions were predominantly from electricity
+counting includes main relevant sources of GHG emissions in the WWTP, consumption, contributing 59.0 t CO2-eq., accounting for 2.8% of total
+from the energy consumption of mechanical and electrical equipment to emissions. Dosage and sludge transportation accounted for approxi-
+the biochemical processes that release N2O and CH4, and the con- mately 1.1%.
+sumption of chemicals. In addition, GHGs from sludge transport were Calculations based on pollutant concentration and wastewater
+also estimated. The integration of tofu wastewater, due to its high quantity suggest that if tofu wastewater had not been added, treating
+organic carbon content, can influence the overall carbon footprint of the that volume of municipal wastewater alone would have resulted in
+plant. Typically, the organic matter in wastewater can lead to emissions emissions of 1998.9 t CO2-eq. annually. Adding the emissions from
+of methane, a potent GHG, during anaerobic digestion processes. separate tofu wastewater treatment, which total 144.7 t CO2-eq., the
+However, it also provides carbon sources for microbial processes that combined emissions would reach 2143.7 t CO2-eq. In contrast, inte-
+can potentially reduce the release of N2O, another significant GHG grating tofu wastewater directly into the municipal treatment via the
+produced during nitrification and denitrification processes. The sewers resulted in total annual emissions of only 1805.8 t CO2-eq.,
+comparative analysis of emissions from these scenarios helps in under- saving approximately 337.9 t CO2-eq. annually, or about 15.8% of the
+standing the impact of different treatment strategies on the overall GHG total emissions of WWTP compared to the separate treatment scenario.
+emissions of the WWTP. In Table 1, GHG emissions of tofu wastewater This significant reduction highlights the environmental benefit of inte-
+separately, municipal wastewater and municipal wastewater combined grating tofu wastewater treatment with municipal services, reducing
+with tofu wastewater are calculated respectively. This analysis is crucial overall carbon footprint.
+for developing strategies that meet regulatory requirements for waste- As shown in Fig. 6, further analysis of the GHG emissions intensities
+water treatment and minimize the environmental impact in terms of of different parts reveals that the GHG emissions intensity from treating
+carbon footprint. tofu wastewater separately is significantly higher than that from treating
+In 2022, the WWTP integrated approximately 73,000 m3 of tofu municipal wastewater at the WWTP. The GHG emission intensity for
+Table 1
+Comparison of greenhouse gas emissions.
+Greenhouse gas emissions classification Separate treatment Co-treatment
+Annual (kg CO2-eq) Proportion Annual (kg CO2-eq) Proportion
+Tofu Wastewater treatment station Direct CH4 25,570 1.19% –
+N2O 37,478 1.75%
+Indirect PAC 20,737 0.97%
+PAM 1083 0.05%
+Electricity 59,031 2.75%
+Transportation 844 0.04%
+Wastewater treatment plant Direct CH4 42,666 1.99% 45,027 2.49%
+N2O 559,352 26.09% 589,822 32.66%
+Indirect PAC 192,718 8.99% 204,194 11.31%
+PAM 6130 0.29% 6130 0.34%
+NaAC 253,250 11.81% –
+Electricity 908,148 42.36% 910,334 50.41%
+Transportation 4530 0.21% 4530 0.25%
+Sewers Direct CH4 32,116 1.50% 45,742 2.53%
+Total 2,143,653 100% 1,805,779 100%
+8
+
+--- Page 9 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+Fig. 6. Greenhouse gas emissions intensity accounting results.
+treating tofu wastewater separately is 1.98 kg CO2-eq./m3, compared to approximately 5.03 RMB/m3. This co-treatment approach could
+0.42 kg CO2-eq./m3 at the WWTP. This intensity decreases further to potentially save approximately 367,000 RMB (approximately 51,420
+0.37 kg CO2-eq./m3 when tofu wastewater is utilized as an external USD or 46,900 EUR) annually in wastewater treatment expenses for the
+carbon source. soybean production factory.
+The primary reason for the higher GHG emission intensity from The nutrient ratio in the influent is imbalanced, with TN and TP in
+treating tofu wastewater separately is due to the high concentrations of the wastewater unable to be removed by the low carbon sources in the
+COD in tofu wastewater, which increase the requirement for chemicals wastewater. This necessitates the addition of external carbon sources
+and energy during treatment. Additionally, the smaller scale of tofu and chemical agents such as aluminum or iron salts for phosphorus
+wastewater treatment facilities leads to higher energy consumption per removal. When tofu wastewater is directly integrated into the municipal
+unit of water treated, thus increasing GHG emissions. By directly flowing sewers for co-treatment, the effluent can meet discharge standards
+tofu wastewater into the WWTP, the small wastewater treatment station without additional carbon sources. Theoretical calculations based on
+at soybean production factory can be canceled, thus reducing GHG influent water quality estimate an annual carbon source saving of about
+emissions associated with these processes. 406.5 t. Given the current market price of commercial carbon sources in
+The reduction in GHG emissions at the WWTP when tofu wastewater China at 900 RMB/t, the WWTP could save approximately 366,000 RMB
+is added primarily reduces need for external carbon sources. Municipal (approximately 51,280 USD or 46,770 EUR) in costs.
+wastewater treatment plants often lack sufficient organic carbon for Compared to commercial carbon sources, using tofu wastewater as
+effective denitrification to meet discharge standards. To compensate, an alternative carbon source slightly increases in TN and TP. Based on
+external carbon sources, such as NaAC, must be added. It is estimated changes in total phosphorus concentration, the dosage of PAC is esti-
+that approximately 406.5 t NaAC, would be required, which contributes mated to increase by about 6%, requiring an additional 22 t PAC, costing
+to significant GHG emissions. Utilizing tofu wastewater as an alternative about 11,000 RMB (approximately 1540 USD or 1410 EUR). This results
+carbon source allows the WWTP to reduce its reliance on external car- in an increased cost of 0.002 RMB/m3. The WWTP sludge production
+bon sources, potentially saving approximately 253.3 t CO2-eq., which coefficient is calculated at 1.37 × 10(cid:0) 4 t/m3, and the electricity con-
+accounts for 12.9% of the total GHG emissions of the wastewater sumption is 0.35 kW h/m3, which are average for similar municipal
+treatment plant. This integration not only streamlines operations but wastewater treatment plants. Therefore, the effect of the addition of
+also significantly enhances the environmental sustainability of waste- concentrated tofu wastewater on electricity consumption and sludge
+water treatment. production was not further evaluated. Overall, using concentrated tofu
+wastewater as a carbon source could save approximately 355,000 RMB
+3.3.4. Operating costs (approximately 49,740 USD or 45,360 EUR) in chemical costs, reducing
+To evaluate the cost reduction in wastewater treatment through the at least 0.073 RMB/m3. This reduction represents a savings of 7–10% of
+use of tofu wastewater as an alternative carbon source, key factors the total operational costs.
+affecting costs were analyzed. These factors include operational ex- In addition, for some smaller tofu processing plants, the tofu
+penses, savings from reduced use of additional carbon sources (such as wastewater is treated by collecting and transporting it to the WWTP. The
+NaAC) at the WWTP, and costs associated with extra electricity and cost of transporting tofu wastewater will increase dramatically with the
+chemicals required for co-treatment. increase of distance, and the cheapest and most efficient solution is to
+Fig. 1-b details the operational costs of treating tofu wastewater use the current municipal sewers, which will be the future direction.
+separately, where the cost of treating one cubic meter of tofu wastewater
+is 4.15 RMB/m3, already accounting for benefits derived from methane
+recovery. In small-scale soybean production factory, due to lower 3.4. Revision of the previous regulations
+wastewater volumes and high initial investments, methane recovery is
+not implemented economically, which further increases the cost to Traditionally, high concentrations of production wastewater, such as
+tofu wastewater, have been considered waste, necessitate significant
+9
+
+--- Page 10 ---
+H. Feng et al. J o u r n a l o f E n v ir o n m e n t a l M a n a g e m e n t 370 (2024) 122550
+efforts and resources to mitigate their environmental impact ratio municipal wastewater could become a significant trend. Further-
+(Espinoza-Quin˜ones et al., 2021; Threrujirapapong et al., 2017). How- more, the cooperative treatment and utilization of various types of high-
+ever, under the circular economy model of integrated wastewater carbon production wastewater with municipal wastewater could be
+treatment, high-carbon wastewater can serve as an alternative carbon further expanded to achieve pollution and GHG emissions reductions.
+source for treating municipal wastewater with low strength and low C/N
+ratios. This approach not only facilitates co-treatment and improves CRediT authorship contribution statement
+effluent quality but also effectively reduces GHG emissions and yields
+substantial economic benefits. Hongbo Feng: Writing – review & editing, Writing – original draft,
+In China, previous regulations require all production wastewater to Methodology, Investigation, Conceptualization. Linyi Jin: Writing –
+be treated to meet the standards for discharge into municipal sewers. review & editing, Investigation. Yongfeng Chen: Resources, Investiga-
+Long-term observations of the WWTP designed in this study indicate tion. Junchao Ji: Investigation. Zhen Gong: Investigation. Wangxian
+that high-carbon wastewaters like tofu wastewater can be utilized as an Hu: Resources, Investigation. Chao Ying: Investigation. Yifan Liang:
+external carbon source, replacing traditional chemicals. Furthermore, Writing – review & editing, Methodology. Jun Li: Writing – review &
+this type of wastewater does not disrupt the municipal sewer system and editing, Supervision, Funding acquisition, Conceptualization.
+can be directly mixed with municipal wastewater and flowing together
+to the WWTP, achieving pollution reduction and GHG emissions
+reductions. Declaration of competing interest
+Liang et al. (2023)also confirmed that wastewater with high con-
+centrations of organic matter, such as brewery wastewater, serves as an The authors declare that they have no known competing financial
+excellent external carbon source and can be added during municipal interests or personal relationships that could have appeared to influence
+wastewater treatment processes. Ferna´ndez-Nava et al. (2010) tested the work reported in this paper.
+three alternative sources of carbon: wastewater from a sweet factory, a
+residue from a soft drinks factory and a residue from a dairy plant to Data availability
+treat high nitrate concentration wastewater, achieving good results.
+According to new policy guidelines, legally and regulatory compliant No data was used for the research described in the article.
+wastewater from upstream production enterprises, with good biode-
+gradability, can supplement carbon sources for downstream WWTPs. Acknowledgments
+For example, in Zhejiang Province, efforts are underway to compile the
+“Technical guide for synergistic pollution reduction and carbon reduc- This work was supported by the Zhejiang Key Research and Devel-
+tion—comprehensive utilization of wastewater carbon sources”. This opment Program, China (No. 2023C03151), and the National Natural
+guide suggests that production wastewater from the agri-food process- Sciences Foundation of China (No. 51478433).
+ing industry, food manufacturing, and the industries producing alcohol,
+beverages, and refined tea, if meeting the requirements in the guide, can Appendix A. Supplementary data
+be used for comprehensive carbon utilization. Moreover, wastewater
+from other manufacturing sectors with good biodegradability, which Supplementary data to this article can be found online at https://doi.
+meets the guide’s criteria can also be processed in collaboration with org/10.1016/j.jenvman.2024.122550.
+urban or industrial WWTPs. The guidelines are currently out for
+consultation.
+References
+However, permitting such utilizable wastewater to enter WWTP
+through the sewers should also be preceded by thorough risk assess- Akdag, S., Yildirim, H., 2020. Toward a sustainable mitigation approach of energy
+ments. It is crucial to avoid situations where toxic, environmentally efficiency to greenhouse gas emissions in the European countries. Heliyon 6, e03396.
+harmful, persistent, and bioaccumulative pollutants are diluted and APHA, 2005. Standard Methods for the Examination of Water and Wastewater, twenty-
+first ed. American Public Health Association, Washington, DC.
+discharged without effective treatment (Lee et al., 2023; Venkatesan and Bodik, I., Blstakova, A., Sedlacek, S., Hutnan, M., 2009. Biodiesel waste as source of
+Halden, 2014). The co-treatment process must ensure the safety and organic carbon for municipal WWTP denitrification. Bioresour. Technol. 100,
+2452–2456.
+uninterrupted operation of the sewage network, without compromising
+Cao, Y., Tang, J., Henze, M., Yang, X., Gan, Y., Li, J., et al., 2019. The leakage of sewer
+drainage facilities or their normal operation, thereby maintaining stable systems and the impact on the ‘black and odorous water bodies’ and WWTPs in
+operations and ensuring standard-compliant effluent discharges at the China. Water Sci. Technol. 79, 334–341.
+´
+WWTP. Cardoso, B.J., Rodrigues, E., Gaspar, A.R., Gomes, A., 2021. Energy performance factors
+in wastewater treatment plants: a review. J. Clean. Prod. 322.
+China Association of Environment Protection Industry (CAEPI), 2022. Technical
+4. Conclusion specification for low-carbon operation evaluation of sewage treatment plant (T/
+CAEPI 49-2022) (in Chinese). https://sthjt.hubei.gov.cn/hjsj/ztzl/hbsh/dtxw/2022
+06/t20220613_4173249.shtml.
+This study designed a WWTP in which tofu wastewater is directly
+Crini, G., Lichtfouse, E., 2019. Advantages and disadvantages of techniques used for
+discharged into municipal sewers for co-treatment with municipal wastewater treatment. Environ. Chem. Lett. 17, 145–155.
+wastewater. The tofu wastewater has a C/N ratio of 36.9 ±7.4. When Du, W., Lu, J., Hu, Y., Xiao, J., Yang, C., Wu, J., et al., 2023. Spatiotemporal pattern of
+greenhouse gas emissions in China’s wastewater sector and pathways towards
+utilizing the concentrated tofu wastewater as an additional carbon
+sources, the denitrification rate was 3.05 mg NO3(cid:0) -N/(g MLVSS⋅h), Espinca or zb ao -Qn un ie n˜u ot nr ea sli ,t Fy. . RN .,a Dtu ar le l’ OW ga lt ie or , 1 I., C 1 .,6 d6 e– 1 P7 a5 u. li, A.R., Romani, M., Mo´denes, A.N.,
+proving it to be a suitable alternative carbon source for wastewater Trigueros, D.E.G., 2021. Insights into brewery wastewater treatment by the electro-
+Fenton hybrid process: how to get a significant decrease in organic matter and
+treatment. Annually, this could save carbon sources of 406.5 t. Through
+toxicity. Chemosphere 263, 128367.
+GHG emissions accounting, this process can reduce GHG emissions by Fern´andez-Nava, Y., Maran˜o´n, E., Soons, J., Castrillo´n, L., 2010. Denitrification of high
+337.9 t CO2-eq, approximately 15.8% of the total emissions of WWTP, nitrate concentration wastewater using alternative carbon sources. J. Hazard Mater.
+while also reducing the chemical costs of WWTP by 0.072 RMB/m3. 173, 682–688.
+Fu, X., Hou, R., Yang, P., Qian, S., Feng, Z., Chen, Z., et al., 2022. Application of external
+Directly flowing tofu wastewater into the municipal WWTP as an carbon source in heterotrophic denitrification of domestic sewage: a review. Sci.
+alternative carbon source holds significant potential to enhance treat- Total Environ. 817, 153061.
+ment efficiency and offer substantial economic and environmental Guo, X., Guo, F., Chen, J., Xu, C., Wu, F., Bryan, B.A., 2023. Optimal pathways for
+upgrading China’s wastewater treatment plants for achieving water quality
+benefits. In the future, overcoming policy restrictions and utilizing high-
+standards at least economic and environmental cost. J. Environ. Manag. 344,
+carbon production wastewater for treating low-concentration, low C/N 118397.
+10

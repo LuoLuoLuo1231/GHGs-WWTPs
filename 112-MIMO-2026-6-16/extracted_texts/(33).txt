@@ -1,0 +1,811 @@
+--- Page 1 ---
+Original Research Article
+Quantification of greenhouse gas
+emission from wastewater treatment
+plants
+Ruolin L. Bai and Lei Jin,Xiamen University of Technology, Xiamen, Fujian, China
+Shurui R. Sun,Xiamen University of Technology, Xiamen, Fujian, China and McMaster University,
+Hamilton, Ontario, Canada
+Yang Cheng and Yi Wei,Xiamen University of Technology, Xiamen, Fujian, China
+Abstract: In this study, a new quantitative approach of greenhouse gas (GHG) emissions from
+wastewater treatment plants (WWTPs) is established. It is developed based on three categories of
+WWPTs: (1) energy and chemical consumption; (2) final disposal of biosolids; and direct GHG emission
+from treatment processes, which is helpful to better estimate the GHG emission pathways. The
+developed approach can provide actual results of GHG emission in terms of carbon dioxide (CO ),
+2
+nitrous oxide (N O), and methane (CH ) from wastewater treatment process. Then, this method is
+2 4
+applied to a municipal WWPT, where the GHG emission from the processes of final treatment,
+biological treatment, and anaerobic digestion, at the southside of Guelph city in Canada. The results
+show that there are 6743.8 CO eq.kg/day of CO and 1924.48 CO eq.kg/day of N O emissions from
+2 2 2 2
+aeration tank/activated sludge system. The biological treatment and anaerobic digestion release
+74177.58 CO eq.kg/day of CH , 7258.5 CO eq.kg/day of CO , and 59022.6 CO eq.kg/day of CH ,
+2 4 2 2 2 4
+3493.24 CO eq.kg/day of CO . If the methane, which discharged from biological treatment and
+2 2
+anaerobic digestion, is captured and burned for energy regeneration, then it can produce 12937.9 CO
+2
+eq.kg/day of CO . The total amount of GHG indicates that about 80% GHG is emitted from the final
+2
+disposal field while 9% and 11% GHG is emitted from biological treatment and anaerobic digestion,
+respectively. Therefore, based on the calculated results, engineers can put forward suggestions to
+optimize operation conditions to reduce greenhouse gas emissions. © 2022 Society of Chemical
+Industry and John Wiley & Sons, Ltd.
+Keywords: GHG emissions; wastewater treatment plants; carbon dioxide; anaerobic digestion
+Introduction keepingtheearth’ssurfacewarmerthanitwouldbe.1
+ObservationsbyclimatologistKeelingandsimulations
+Recently,globalwarmingcausedbygreenhouse
+bySyukuroManabeshowthathumanemissionsof
+gaseshasbecomeoneofthemostcritical
+greenhousegasesareasignificantcauseofglobal
+issuesintheenvironmentalandclimatechange
+warming(Yongyun,2022).2 Carbondioxide,methane,
+community.Agreenhousegas(oftenabbreviatedas
+andnitrousoxidearethreeofthemostabundant
+GHG)isagasthattrapstheheatintheatmosphere,
+greenhousegasesinEarth’satmosphere.Different
+Correspondenceto:LeiJin,CollegeofEnvironmentalScienceandEngineering,XiamenUniversityofTechnology,Xiamen,Fujian361024China.
+E-mail:seabook2000@msn.com
+ReceivedApril28,2022;revisedJuly18,2022;acceptedJuly27,2022
+PublishedonlineatWileyOnlineLibrary(wileyonlinelibrary.com).DOI:10.1002/ghg.2171
+587
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 2 ---
+21523878,
+2022,
+Baietal.
+5,
+Downloaded
+from
+gaseshaveaspecificimpactontheatmospherein Daelmanetal.concludedthatabout1%ofchemical
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+termsoftheirradiativeefficiencyandlifetime.Other oxygendemand(COD)inputtoamunicipal
+GHGandairpollutantscanalsoaffecttheclimate,and wastewatertreatmentplantisemittedtothe
+carbondioxideremainsthemaindriverofclimate environmentintheformofCH .7Theyconsideredthe
+4
+change(IPCC,2021).3 Globalwarmingpotential majorsourcesofCH productioninawastewater
+4
+(GWP)wasdevelopedtocomparetheglobalwarming treatmentplanttoberelatedtothemanagementand
+impactsofdifferentgases.Generally,itrepresentsthe sludgeprocessingunits,inwhichsomeanaerobic
+ratiobetween1kgofgasand1kgofcarbondioxide processoccursincludinggravitythickener,mechanical
+withasimilarwarmingeffectoverthechosentime thickener(e.g.,centrifuge),stabilizationtanks,sludge
+horizon,whichisnormally100years.1Basedondata digester,andfinallystoragetanksandsludge
+measuredonahorizontalscaleof100years,relativeto dewatering.Generally,theseunitsaccountforabout
+theemissionsofcarbondioxide.Theglobalwarming 72%ofCH emissionsinacommonwastewater by
+4 Northwest
+potentialofCH andN Oarehigh,25forCH and treatmentplantwithsludgeprocessingunits.The
+4 2 4
+298forN 2 Oin100years.Withhighradiation remainderofthegascomesfromotherbiological University,
+efficiency,3.03×10−3(W/m2·ppb)forCH
+and wastewatertreatmentplants.CO inthewastewater
+4 2
+3.7×10−4(W/m2·ppb)forN O,respectively. treatmentplantisemittedfromtwosourcesincluding Wiley
+2
+Additionally,N Owillbecomethemostimportant biologicaltreatment(directemission)andelectric Online
+2
+ozonedepletinggasinthenearfuture.4Therefore, energyconsumption(indirectemission).8Inthe
+Library
+measuringtheamountoftheseGHGemissionsand wastewaterflowline,organiccarbonisusedtoproduce
+on
+consideringprocedurestoreducetheirproductionis newcellsduringbiologicalmetabolismoritconvertsto [27/03/2026].
+required. CO intheoxidationphase.Organiccarboninsludge
+2
+Wastewatertreatmentplants(WWTPs)are treatmentlines(especiallyinanaerobicdigestion)is See
+consideredasoneoftheindustrialGHGproduction convertedtomethaneorcarbondioxide.Themethane the
+Terms
+sourcesthathavethepotentialtoproduceCO ,CH , isthenoftenburnedascarbondioxide,whichnotonly
+2 4 and
+andN 2 Obyconsumingenergy(Demir&Yapıcıoglu, producesenergybutalsopreventsitsreleaseintothe Conditions
+2019).5 GHGSareproducedfromtheproductionand atmosphere.9
+transportationofmaterialsusedinvariousbiological Inrecentstudies,intheevaluationscenarioof (https://onlinelibrary.wiley.com/terms-and-conditions)
+orphysicochemicalprocesses,energyproduction,and wastewaterenergyresourceutilization,theresults
+fieldon-siteuse(AshrafiO,2012).Inthisrespect, showthattheimplementationofwastewaterenergy
+WWTPshavedrawnmoreattentionandare utilizationisbeneficialtotheemissionreductionof
+consideredtobeoneoftheGHGemissionsources.In greenhousegases.Amongthem,wastewaterreusehas
+thepast,managersinwastewatertreatmentplantshave thehighestGHGemissionreduction(18–31%),while
+traditionallyonlyfocusedonminimizingoperating wastewaterphosphorusrecoveryandwastewater
+costonthebasisofmeetingeffluentdischargelimits. energyrecoveryhaveasmalleremissionreduction
+Powergenerationandtransporttogetheraccountedfor (7–18%).Atthesametime,throughtheanalysisof
+on
+overtwo-thirdsoftotalGHGemissionsfromfuel energyflow,materialflow,andgreenhousegas Wiley
+combustionin2020andhavebeenresponsiblefor emissions,thedirectionofgreenhousegasemission Online
+almostallglobalgrowthsince2010.Theremaining reductionofdifferenttreatmentprocessesisclear:for
+Library
+one-thirdwasmainlyassociatedwiththeindustryand wastewaterenergyrecovery,byincreasingthesurplus
+for
+buildingssectors.TheGHGemissionfromwastewater sludgeoutputandorganicmattercontentinthesludge, rules
+treatmentaccountsfor3%ofthetotalemission. theenergyconversionefficiencyofbiogasisimproved of
+use;
+Therefore,theGHGemissionsgeneratedbytheenergy toachieveenergyself-sufficiencyandcarbonbalance.
+OA
+consumptionofWWTPdailyoperationandsludge Intheaspectofwastewaterreuse,itisnotnecessaryto articles
+treatmentmaybehuge,andalsoincludedindifferent blindlypursuetherequirementsofhighwaterquality. are
+section.6WWTPswillsoonbeconfrontedwiththe Itisimportanttodeterminethewaterqualityindex governed
+challengesofGHGmitigationandthemaintenanceof accordingtothepurposeofreuseandchoosethe
+by
+the
+waterqualitystandards.Therefore,thepotentialof appropriatetreatmenttechnology;phosphorus
+applicable
+GHGemissionsfromWWTPsshouldbeaccurately recoveryfromsludgeneedstoimprovetherecoveryof
+estimatedtoeffectivelymanagetheirmitigations phosphorusandthecontentofphosphorusinthe Creative
+(Chen,2018). by-productsofphosphatefertilizer.
+Commons
+License
+588
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 3 ---
+21523878,
+2022,
+Quantificationofgreenhousegasemissionfromwastewatertreatmentplants
+5,
+Downloaded
+from
+Althoughgreenhousegasemissionsfromwastewater canputforwardsuggestionstooptimizetheoperating
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+treatmentplantsareaglobalenvironmentalissue,the conditions.
+generationanddischargeofwastewaterisincreasing.
+Insufficientwastewatertreatmentcapacityisgradually
+Materials and methods
+becomingabottleneckforthefurtherdevelopmentof
+manycities,andwastewatertreatmentisthestagewith Scopes to estimate GHG emissions in a
+thehighestenergyconsumptionintheentiresocial WWTP
+watercycle.10Thewastewatersectoraccountsfor3%of
+TherearethreecategoriesofGHGemissionin
+globalGHGemissionsandcontributestoglobal wastewatertreatment:6(1)electricityandchemical
+climatechange.11Whilethequantitativeanalysisof
+consumption,(2)finaldisposalofbiosolids,and(3)
+greenhousegasesisstillintheprocessofoptimization
+directemissionfromwastewatertreatmentprocesses.
+(Demir&Yapıcıoglu,2019).5 Inrecentyears,inorder by
+Inthecategory1ofGHGemissionscausedby Northwest
+toincreasetheavailabledataandliteratureonGHG
+wastewatertreatment,theemissionswillbecalculated
+emissions,variousquantificationandmeasurement byseparatetreatmenttodeterminetheprocessinthe University,
+methodshavebeenproposed,howeverourincomplete
+WWTPs.Themajorunitprocessesofthewastewater
+understandingofGHGproductioncanaffectthe Wiley
+treatmentplantsinCanadaareshowninTable1.Some
+outputresults.Thedirectmeasurementmethodhas unitsarenotindispensable,itdependsonthedesign Online
+certainuncertaintiesandlimitationsduetothe andobjectiveofthewastewatertreatment.In2009, Library
+variabilityoftheinfluent,thecomplexityofthe
+approximately69%oftheCanadianpopulationhad on
+treatmentprocess,therunningtime,anddifferent [27/03/2026].
+sewersystemswithsecondarytreatmentorbetter,
+standardevaluationcriteria.Nguyenetal.appliedlife
+whichmeansmostwastewatertreatmentplantsinclude
+cycleassessment(LCA)researchtotheproblemof secondarytreatment.Therefore,theGHGemission See
+quantifyinggreenhousegasemissionsfromwastewater the
+fromallprocesseswillbetakenintoaccount. Terms
+treatmentplants.12Usingaground-basedremote
+ThesecondcategoryincludestheGHGemissionthat
+and
+sensingapproach,Delrecombinedthecontrolled occursfromthedisposedbiosolids.Thecomposition Conditions
+releaseoftracergasesfromtheplantwithdownwind
+ofGHGproducedbythefinaldisposalofbiosolids
+concentrationmeasurementstocomprehensively dependsonthedisposalmethod.Forexample,ifthe (https://onlinelibrary.wiley.com/terms-and-conditions)
+quantifyplantmethane(CH )andnitrousoxide(N O)
+4 2 biosolidsareincinerated,thetotalorganiccarbon
+emissions.13Yoshidausedthetracerdispersion
+(TOC)willconverttocarbondioxide.Forlandfills,the
+methodtoquantifythecombinedreal-timeemissions
+emittedGHGconsistsofmethaneandcarbondioxide.
+ofmethaneandnitrogenoxidesfromtheplant.14
+Inthethirdcategory,theamountofgreenhousegases
+However,plant-widecharacterizationofGHG
+emissionwillbeestimatedintermsofelectricityand
+emissionsfromWWTPsfacesmanyobstaclesdueto
+chemicalconsumptioninWWTPs.Basically,the
+thespatiotemporalvariabilityofemissions.
+electricitytomaintainthedailyoperationofeach
+Inthisstudy,wastewatertreatmentplantsare treatmentprocesswillbecounted.15Chemical
+on
+identifiedasasignificantsourceofgreenhousegas consumptionreferstometalsaltsusedtoremove Wiley
+emissionsandthequantitiesoftheseemissionsandthe phosphorusinsewagetreatment.Forexample,ferric Online
+processesbywhichtheyaregeneratedaredetermined.
+salt;lime,disinfectionanddechlorinating.Besides, Library
+ThehypothesisofthisstudyisthatGHGemissionscan
+energyconsumptionofthesludgehaulageisalsoa
+for
+bereducedthroughprocessoptimizationwithout criticalsourceofGHGemission.However,this rules
+worseningthequalityofwastewaterdischarge. categorywillnotbeincludedinthisstudy. of
+use;
+Literaturestudiessupportthisargumentandshowthat
+OA
+GHGemissionshavethepotentialtobereduced.The articles
+Diverse types of GHG emission during
+purposeofthisstudyistodevelopanaccurateand are
+wastewater treatment process governed
+comprehensivequantitativemodelformeasuring
+greenhousegasemissionsfromwastewatertreatment Figure1schematicallydepictsatypicalwastewater
+by
+the
+plants,whichwillcontributetoabetterunderstanding treatmentplantwithaconventionallyactivatedsludge
+applicable
+ofgreenhousegasemissions.Onthisbasis,theGuelph system.Differentboxesshowthedifferenttreatment
+wastewatertreatmentisquantitativelyanalyzed,and processesandtheGHGemittedareillustratedbeside Creative
+finally,accordingtotheestimatedresults,engineers eachprocess.Carbondioxide,methane,andnitrous
+Commons
+License
+589
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 4 ---
+21523878,
+2022,
+Baietal.
+5,
+Downloaded
+from
+Table1. Eachprocessofurbansewagetreatmentplant. https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+Treatmentprocess Serialnumber Unitname Function GHGemission
+Primary 1 Gritchamber Removalofverylargematerials Negligible
+Treatment
+2 PrimaryClarifier Removalofsettleableorganics Negligible
+Secondary 3 Bioreactor Conversionofdissolvedorganics CO andN O
+2 2
+Treatment intobacteriacellsandnutrients
+removal
+4 Secondary Removalofbacteriacells Negligible
+TertiaryTreatment 5 Tertiarytreatment Furtherremovalofspecific Negligible
+substances
+Sludge 6 Aerobicdigestion Reducesludgemassandnutrient CO by
+2 Northwest
+Treatment
+7 Thickening Thickeningsludge;increasingsolids Negligible
+concentration University,
+8 Anaerobicdigestion Reducesludgemass CO andCH
+2 4
+Wiley
+9 Dewatering Reducewatercontentby Negligible
+mechanicalmanners Online
+Library
+on
+[27/03/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+Figure1. AschematicallayoutofaWWTPwithconventionallyactivatedsludgesystem.
+oxidearethreemajorgreenhousegasesreleasedina Accordingtothemechanismofmicrobialaction,the
+typicalWWTPs(Metcalfetal.,1980). organicpollutantsinwastewateraremetabolizedinthe
+aerobicenvironmentthroughthecatalysisofenzymes
+Carbon dioxide emission in WWTPs inmicroorganisms,soastoremovetheorganic on
+Wiley
+Carbondioxideisgeneratedinbothaerobicand pollutantsinwastewater.Microorganismsconvert Online
+anaerobictreatmentprocesses.Anaerobicwastewater organicpollutantsintoCO 2andH 2Othrough
+Library
+treatmentprocessisabiologicalprocessthattakes catabolism,andorganicpollutantsintonewmicrobial
+placeinthepresenceofoxygen.Ithasdifferentkindsof cellsthroughanabolismintheformofresidualsludge. for rules
+techniquessuchasanactivatedsludgeprocess, Anaerobicwastewatertreatmentprocessisa of
+use;
+tricklingfilters,aeratedlagoons,etc.Theactivated biologicalprocessthatoccursintheabsenceofoxygen. OA
+sludgeprocessisthemostwidelyusedbiological Inmunicipalwastewatertreatmentplants,anaerobic articles
+wastewatertreatmentinsecondarytreatment.Organic treatmentisgenerallyappliedforsludgetreatment are
+matterisoxidizedintheaerobictreatmentprocessin takingplaceintheanaerobicdigesterwhichiscalled governed
+whichoxygenactsasanelectronacceptor,whichis anaerobicdigestion(AD).Itconsistsofvarious by
+showninEqn(1)(Theelementalcompositionof biologicalreactions,includinghydrolysis, the
+applicable
+fermentation,acidogenesis,andmethanogenesis.16
+substrateisC H O N)(Metcalf&eddy,2003).
+10 19 3
+Carbondioxideandmethanearereleasedduringthe Creative
+C H O N+25O → 20CO +16H O+2NH (1) process.
+10 19 3 2 2 2 3 Commons
+License
+590
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 5 ---
+21523878,
+2022,
+Quantificationofgreenhousegasemissionfromwastewatertreatmentplants
+5,
+Downloaded
+from
+Nitrous oxide emission in WWTPs bysewagetreatmentplants,andcanbeusedasa
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+N Ocanbeproducedduringbiologicalnitrogen standard(Figure2).
+2
+removalprocesses,whichrefertobothnitrificationand
+denitrification.17Nitrificationisabiologicalprocess Methane emission in WWTPs
+−
+thatconvertsammoniasequentiallytonitrite(NO ) Methanegasisgenerallyproducedinanaerobic
+2
+−
+andnitrate(NO ).Thesereactionsareperformedby digestionandpotentiallyinfinalbiosolidsdisposaldue
+3
+twodifferentgroupsofbacteria:ammonium-oxidizing tothedecompositionoftheorganicmattersinthe
+bacteria(AOB)andnitrite-oxidizingbacteria(NOB). absenceofoxygen.Ingeneral,thestepstoprepare
+Nitrificationcouldbedividedintototwosubprocesses. methanefromdomesticwastewaterareasfollows:(1)
+−
+ThefirstsubprocessistoproduceNO byoxidation Estimationofthetotalamountoforganicdegradable
+2
+ofammoniawhichiscarriedoutbyAOB.Inthesecond carboninwastewater.(2)Selectpathsandsystems
+− by
+subprocess,nitriteisoxidizedtoNO 3 byNOB. basedonnationalactivitydata.(3)Estimateemissions, Northwest
+Denitrificationisabiologicalprocessreducingnitrate adjustforpossiblesludgeremovaland/ormethane
+ornitritetonitrogengas(N )viaN Oasanobligate recovery,andsummarizetheresultsofeach University,
+2 2
+intermediate.17AccordingtoComposetal.(2017), pathway/system.
+Wiley
+therearethreemainpathwaysforN Oproduction:
+2
+Characteristics of municipal wastewater Online
+(a) Hydroxylamine(NH OH)oxidation
+2 Domesticwastewatercomesmainlyfromhouseholds, Library
+NH OHisproducedasanintermediateduringthe
+2 offices,commercial,andurbanutilities.Itismainly on
+firstsub-processcatalyzedbyammonia [27/03/2026].
+excrementandwashingwastewater,whichis
+mono-oxygenase.18,19IntheNH OHoxidation
+2 centralizedintothemunicipalwastewaterpipe
+pathway,N 2 OisformedifNH 2 OHisnotfullyoxidized networksystemandistransferredtothewastewater See
+toNO − .20 the
+2 treatmentplantfortreatment.Thewaterquality Terms
+(b) Heterotrophicdenitrification obviouslyhasthecharacteristicsofdayandnight and
+periodicityandseasonalcycle. Conditions
+Wunderlinetal.17statethatincomplete
+denitrificationcanleadtoN Oemissionbecauseofthe (https://onlinelibrary.wiley.com/terms-and-conditions)
+2 Methods
+nitriteaccumulationoroxygeninhibition.Various
+Aeration tank/conventional activated
+enzymesareinvolvedindenitrification,forexample,
+sludge system
+nitratereductases(NaR),nitritereductases(NirR),
+Inthetypicalflowprocessoftheactivatedsludge
+nitricoxidereductases(NOR),andnitrousoxide
+process,effluentfromtheprimaryclarifierflowsinto
+reductases(N OR).18
+2
+anaerationtankforfurtherremovaloforganicmatters
+(c) Nitrifierdenitrification andnutrients.Duringthisprocess,carbondioxideand
+nitrousoxidewillbeemitted.22
+Nitrifierdenitrificationisapossiblepathwayof
+− on
+nitrificationwhereAOBreducesNO 2 toNOand (a) EstimationofCO emittedfromtheaerationtank Wiley
+N 2 O.Thisisbecauserespiratoryenzymesin 2 Online
+− (b) CODbalanceforsubstrate
+denitrification,whichreducesNO toNO,andN O
+2 2 Library
+hasbeenfoundinAOBspecies.21Underthe
+− ACODbalanceofbiomassinbiologicaltreatment for
+insufficientoxygencondition,NO 2 startstobe rules
+canbeexpressedasfollows:
+reducedtoNObyAOBinsteadofbeingoxidizedto of
+redu3 NO − .18Aperiplasmiccopper-containingnitrite (cid:2)COD,as=Q in,as×COD in,as−(Q e×COD use; OA
+eff,as
+ctase(NirK)and/orunidentifiednitritereductase articles
+NO 2− primarilyperformthereductionofNO 2− to +Q ×COD was) (2) are
+w
+NO.Then,NOisreducedtoN OcatalyzedbyNOR.20 governed
+2
+N Oistheendproductinthenitrifierdenitrification where(cid:2)COD,asistheCODchangeafteraerobic
+2 by
+processsincenitrousoxidereductases(N OR),which treatment[mg/L];Q =aerobictankinfluentflow the
+2 in,as applicable
+reducesN OtoN ,havenotbeenfoundinAOB.18 rate[m3/d];Q =secondaryClarifierflowrate[m3/d];
+2 2 e
+Insummary,wecangetthemainemissionroutesof Q =wasteactivatedsludgeflowrate[m3/d];COD Creative
+w in,as
+nitrogenoxidesintheprocessofwastewatertreatment =influentCODofactivesludge[mg/L];COD =
+eff,as Commons
+License
+591
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 6 ---
+21523878,
+2022,
+Baietal.
+5,
+Downloaded
+from
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+by
+Figure2. Theprocessofnitrogenremovalduringwastewatertreatment Northwest
+effluentCODofactivesludge[mg/L];COD =COD (a) EstimationofN Oemissionfromactivatedsludge University,
+was 2
+ofwasteactivatedsludge[mg/L].
+MostwastewatertreatmentplantsinOntario Wiley
+1. DerivationofCOD/TOCratio achievednitrificationwithlongsludgeretentiontime, Online
+soN OemissionisincludedinthisGHGestimation
+Inthisstudy,C H O N,andC H O Nareusedto 2 Library
+10 19 3 5 7 2 calculator.
+representthesubstrateandbiomass.Accordingtothe on
+[27/03/2026].
+chemicalequationofoxidationofthesubstrate,the 1. TotalKjeldahlnitrogen(TKN)balanceforsubstrate
+stoichiometricrelationshipbetweenoxygenandcarbon
+(cid:2)TKN,as=Q in,as×TKN in,as−(Q e×TKN
+eff,as
+canbecalculated.Then,theCOD/TOCratiocouldbe See
+the
+derived.Thestoichiometricrelationshipofsubstrate +Q ×TKN ), (5) Terms
+w was
+oxidationcanbeexpressedasthefollowingequation: where(cid:2)TKN,as=theTKNchangeafteraerobic and
+Conditions
+2C H O N+25O → 20CO +16H O+2NH . treatment[mg/L];Qin,as=aerobictankinfluentflow
+10 19 3 2 2 2 3
+rate[m3/d];Qe=secondaryClarifiereffluentflowrate
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+(3a)
+[m3/d];Qw=wasteactivatedsludgeflowrate[m3/d];
+TKNin,as=influentTKNofactivesludge[mg/L];
+BasedonEqn(3a),theCOD/TOCratiocouldbe
+TKNeff,as=effluentTKNofactivesludge[mg/L];
+calculatedas:
+TKNwas=TKNofwasteactivatedsludge[mg/L]
+25mol−O 32g−O 1mol−VSS
+2 × 2 ×
+2mol−VSS 1mol−O 201g−VSS
+1. Interpretationof%removedTKNemittedasN O
+2 2
+g−O
+Thedataofthisstudyarefrompreviousresearch
+= 1.99 2 , (3b)
+g−VSS papers,asshowninTable235andTable3.29
+on
+2. TotalN Oemissionfromactivatedsludge Wiley
+g−O 201g−VSS g−O 2
+1.99 2 × = 3.33 2, (3c) InTable4(Kyungetal.,2015),bothon-siteand Online
+g−VSS 120g−VSS g−C
+Library
+off-siteGHGSfrommunicipalWWTPsareshown.
+(cid:2)COD (cid:2) mg (cid:3) N Oemission,as=(cid:2)TKN,as for rules
+TOC,as = . (3d) 2
+3.33g g− −O C2 L ×%removedTKNasN O. (6) of use;
+2 OA
+1. TotalCO emissionfromactivatedsludge articles
+2
+Anaerobic digestion
+are
+Weassumethatallthecarbonintheaerobicreaction governed
+Intheanaerobicnitrificationprocess,thickenedsludge
+isconvertedintoCO anddischargedintothe
+2 flowsintotheanaerobictanktobreakdownthe
+by
+atmosphere.Therefore,thetotalCO 2 emissionof biodegradablematerialsintheabsenceofoxygen. the
+activatedsludgecanbecalculatedas: applicable
+Methaneandcarbondioxidearereleasedbecauseof
+(cid:2) (cid:3)
+CO emission,as = TOC,as× 44g−CO 2 g . (4) biosolidsdecompositionbyvariousbiological Creative
+2 12g−C d reactions:hydrolysis,fermentation,acidogenesis,and
+Commons
+License
+592
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 7 ---
+21523878,
+2022,
+Quantificationofgreenhousegasemissionfromwastewatertreatmentplants
+5,
+Downloaded
+from
+Table2. Nitrousoxideemissions(%ofN-load)infull-scaleandlab-scalemeasurement. https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+N Oemission(%
+2
+Reference ofN-load) Remarks
+Full-scale
+23 0.035
+24 0.6 N Oemissionincreasedwithincreasingnitrogenload
+2
+25 0.02
+26 0.05
+Lab-scale
+by
+27 0.25 N 2 OemissionincreasedwithdecreaseofCOD/N Northwest
+Tallecetal.19 0.2–1(0.4average) N Oemissionratioincreasedwithdecreasingoxygenconcentration
+2
+University,
+Tallecetal.19 0.1–1.3(0.2average) N Oemissionratioincreasedwithdecreasingmethanoladdition
+2
+28 0.4 N Oemissionislargestat0.3mg−O /Landloweraboveandbelow
+2 2 Wiley
+thisoxygenconcentration
+Online
+Library
+Table3. SummaryofN Ofluxesandemissionfactorsmeasuredatfull-scaleWWTPs.
+2
+on
+[27/03/2026].
+%InfluentTKN %InfluentTN
+Plantconfiguration Temp(°C) emittedasN O emittedasN O
+2 2
+See
+Separate-stageBNR 15±0.48 0.03±0.00 0.03±0.01 the
+23±0.28 0.01±0.00 0.01±0.00 Terms
+14±0.248 0.16±0.10 0.19±0.12 and
+Conditions
+Four-stageBardenpho 23±0.20 0.60±0.29 0.66±0.32
+Step-feedBNR1 25±0.28 0.62±0.27 0.90±0.39
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+17±0.12 0.18±0.18 0.37±0.36
+Step-feednon-BNR 30±2.3 0.24±0.02 0.63±0.06
+Separatecentrate 34±0.32 0.54±0.16 0.96±0.32
+11±0.20 0.40±0.14 0.92±0.32
+Plug-flow1 23±0.46 0.41±0.14 0.70±0.24
+11±0.41 0.62±0.15 1.7±0.41
+Plug-flow2 22±0.58 0.09±0.03 0.22±0.06
+MLE1 26±1.8 0.07±0.04 0.09±0.05
+MLE2 26±0.17 0.06±0.02 0.07±0.03 on Wiley
+Oxidationditch 19±0.58 0.03±0.01 0.03±0.01 Online
+Step-feedBNR3 24±0.78 0.05±0.03 0.06±0.03 Library
+for
+rules
+methanogenesis.Theamountofmethaneproduction (b) CODBalanceforsludge
+of
+couldbecalculatedbybalancingtheCODbetweenthe use;
+ACODbalanceofbiomassinanaerobicdigestioncan OA
+influentsludgeandeffluentsludgeoftheanaerobic
+beexpressedasfollows: articles
+digester.Thecarbondioxideandmethaneemission
+are
+couldbeestimatedbasedonthebiosolidcomposition. (cid:2)COD,as = Q in,ad×COD in,ad−Q out,ad×COD eff,ad, governed
+Typically,thebiogasfromanaerobicdigestionconsists
+oftwo-thirdsCH 4 andone-thirdCO 2 . (7) by the
+applicable
+where(cid:2)COD,as=theCODchangeafteranaerobic
+(a) Estimationofbiogasemittedfromanaerobic treatment[mg/L];Q =theamountofsludgeflow Creative
+in,ad
+digestion intotheanaerobicdigester[m3/d];Q =the
+out,ad Commons
+License
+593
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 8 ---
+21523878,
+2022,
+Baietal.
+5,
+Downloaded
+from
+(a) TotalCH andCO emissionfromanaerobic
+Table4. On-siteandoff-sitegreenhousegases 4 2 https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+frommunicipalwastewatertreatmentplants. digestion
+Asillustratedbefore,approximatelyone-thirdof
+Greenhouse
+biogasisCO whiletheremainingtwo-thirdsareCH .
+gases 2 4
+Thus,thetotalCH andCO emissionfromanaerobic
+Typesandproductionpathways produced 4 2
+digestioncouldbecalculatedrespectivelyas:
+On-sitegreenhousegas
+(cid:2) (cid:3)
+Biochemicaltreatmentofwastewater CO 2,CH 4,N 2O TOC,ad×2 ×16g−CH g
+CH emission,as = 4 ,
+Biochemicaltreatmentofsludge CO 2,CH 4,N 2O 4 3 1mol−C d
+Electricityandfuelconsumptionduring CO
+2 (9)
+sludgeandwastewatertreatment
+by
+Northwest
+Heatingprocessofwastewaterand CO 2 (cid:2) (cid:3)
+sludgeanaerobictreatment 1 44g−CO g
+Off-sitegreenhousegases CH 2 emission,as = TOC,ad× 3 × 1mol−C 2 d . University,
+Productionandtransportationof CO
+2 (10) Wiley
+electricity,fuelandchemicals
+Online
+neededforwastewatertreatment
+Insomewastewatertreatmentplants,CH produced
+plants 4 Library
+inanaerobicdigestionwillbeburnedforreducingthe
+Afterthetreatmentwaterisdischarged CO 2 ,CH 4 ,N 2 O globalwarmingimpactorenergyrecovery.Inthatcase, on [27/03/2026].
+intothereceivingwater,theresidual
+alltheamountofCH willconverttoCO (Eqn11):
+materialdegrades 4 2
+Finaldisposalofsludge CO 2,CH 4,N 2O CH +2O → CO +2H O (11) See
+4 2 2 2 the
+Terms
+amountofsludgeflowoutfromanaerobicdigester Final biosolid disposal and
+Conditions
+[m3/d];COD =CODofinfluentsludgein Afterthedehydrationprocess,theconcentratedsludge
+in,ad
+anaerobicdigestion[mg/L];COD =EffluentCOD cakesareneededtobedisposed.TheamountofGHG
+eff,ad (https://onlinelibrary.wiley.com/terms-and-conditions)
+ofanaerobicdigestion[mg/L]; emissionbydisposedbiosolidsdependsonthedisposal
+method.Forlandfilldisposal,TOCofthedisposed
+1. DerivationofCOD/TOCratio
+biosolidswillbedistributedintoCO andCH .Based
+2 4
+onthelandfillcomposition,thefractionbetweenCO
+Accordingtothechemicalequationofoxidationof 2
+andCH couldbedeterminedas45%and55%.15
+substrate,thestoichiometricrelationshipbetween 4
+oxygenandcarboncouldbecalculated.Thenthe
+GHG emission from the final disposal of
+COD/TOCratiocouldbederived.Thestoichiometric
+biosolids
+relationshipofsludgeoxidationcanbeexpressedas
+on
+Eqn(8a): 1. CODbalanceforthefinalbiosolids Wiley
+Online
+C 5H 7O 2N+5O 2 → 5CO 2+2H 2O+NH 3 (8a) (cid:2)COD,fb = Q out,ds×COD eff,ds, (12)
+Library
+Basedontheequationabove,theCOD/TOCratio Where(cid:2)COD,fb=theCODchangeafteraerobic
+for
+couldbecalculatedas: treatment[mg/L];Q =theamountof rules
+out,ds of
+5mol−O 32g−O g−O concentratedsludgecomeoutfromdewateringsystems use;
+1mol−VS2 S× 1mol−O2 = 160 1mol−V2 SS, (8b) [m3/d];COD eff,ds=EffluentCODofdewateredsludge OA
+articles
+2
+[mg/L].
+are
+governed
+5mol−O 32g−O g−O
+2 × 2 = 160 2 , (8c) 1. DerivationofCOD/TOCfactorratio
+1mol−VSS 1mol−O 1mol−VSS by
+2 the
+Thestoichiometricrelationshipofbiosolidsoxidation applicable
+(cid:4) (cid:5)
+(cid:2)COD mol canbeexpressedasthefollowingequation.
+TOC,ad = . (8d) Creative
+32 g−O2 L C H O N+5O → 5CO +2H O+NH , (13a)
+mol−C 5 7 2 2 2 2 3 Commons
+License
+594
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 9 ---
+21523878,
+2022,
+Quantificationofgreenhousegasemissionfromwastewatertreatmentplants
+5,
+Downloaded
+from
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+by
+Northwest
+University,
+Wiley
+Online
+Library
+on
+[27/03/2026].
+See
+the
+Figure3. Studyarea Terms
+and
+Conditions
+Basedontheequationabove,theCOD/TOCratio Case study
+couldbecalculatedas: Statement of problem (https://onlinelibrary.wiley.com/terms-and-conditions)
+5mol−O 32g−O g−O
+2 × 2 = 160 2 , (13b) AsshowninFig.3,Guelphislocatedonthebanksof
+1mol−VSS 1mol−O 1mol−VSS
+2 theSpeedRiver40miles(65km)west-southwestof
+Toronto,withacityareaof86.72km2.Guelphisa
+g−O 1g−VSS g−O
+majormanufacturing,agricultural,andeducational
+160 2 × = 32 2 ,(13c)
+1mol−VSS 1mol−O 1mol−VSS centerinoneofCanada’smostdenselypopulated
+2
+areas.Guelph’saverageGHGemissionsfrom
+(cid:4) (cid:5)
+(cid:2)COD mol 2018–2020were881,587tons,ofwhichabout21,526
+TOC,ad = g−O2 . (13d) tonscamefromsewagetreatment.Guelph’splanto on
+32 L Wiley
+mol−C becomeanetzerocarboncommunityby2050.Thecity
+encouragespeopleandorganizationsinthe Online
+1. TotalCH andCO emissionfromfinaldisposal
+4 2
+communitytohelpimplementGuelph’sCommunity Library
+biosolids
+EnergyInitiativeandbecomeanetzerocarbon for
+ForCH emission: communityby2050.InTheCity’sfirstreporton rules
+4
+16g−CH (cid:2) g(cid:3) EnergyandClimateChange,thecityofGuelph of use;
+CH emission,as = TOC,ad×0.55× 4 . reportedanincreaseinGHGemissions.Whiletherise OA
+4 1mol−C d articles
+isrelativelysmall(0.02%kgCO for2019comparedto
+2
+are
+(14) its’levelin2018),itclearlyisapoorwaytoreach100%
+governed
+renewableenergy(RE)andnetzerocarbonby2050
+ForCO emission:
+2 withoutanyseriousactiontoreduceitsemissions. by
+(cid:2) (cid:3) the
+44g−CO g OnJuly27,2021,Guelphwasawarded$200,000to applicable
+CO emission,as = TOC,as×0.45× 2 .
+2 1mol−C d reducegreenhousegasemissions.Thecity’splanwill
+Creative
+improveenergyefficiencyandperformanceandreduce
+(15)
+Commons
+License
+595
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171
+
+--- Page 10 ---
+21523878,
+2022,
+Baietal.
+5,
+Downloaded
+from
+greenhousegasesemissionsofenterprisesin18,19,
+https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ghg.2171
+and20yearswere19528261kgCO equivalent,
+2
+19671467kgCO equivalent,and16924468kgCO
+2 2
+equivalent,respectively(thesedataareobtainedfrom
+CityofGuelphEnvironmentalSustainabilityReport).
+Communitygreenhousegasesemissionsin19and20
+yearswere775,887tonesand929,859tonesCO
+2
+equivalent,respectively.
+Guelph’swastewatertreatmentplantontheSpeed
+Riverisaleaderinwastewateroptimization.The
+wastewatertreatmentplantisanimportantsourceof
+greenhousegasemissionsintheregion.Thispaper by
+Northwest
+takesGuelph’swastewatertreatmentplantasthe
+Figure4. CompositionofcorporateGHG(CO ) researchobjecttoestablishaquantitativemodelof University,
+2
+emissions greenhousegasemissionsinthewastewatertreatment
+processofGuelph.Tomeasuregreenhousegas Wiley
+emissionsfromfinaltreatmentplants,biological Online
+treatments,andanaerobicdigestion.Thecalculator Library
+developedinthisstudywillprovideaccurateestimates
+on
+ofgreenhousegasemissionsfromCO andmethane [27/03/2026].
+2
+emissionsduringwastewatertreatment.Takingthisas
+anexample,theprospectofgreenhousegasemission See
+treatmentinGuelphisexplored. the
+Terms
+and
+Conditions
+GHG emission from aeration tank/
+Figure5. Corporateandcommunitygreenhousegases activated sludge system
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+(CO )emissionsfrom2018to2020
+2 ThedatainTable5arefromtheGuelphWastewater
+TreatmentPlantandusedasassumedinputparameters
+operatingcostsatmorethan100facilitiesincluding forsamplecalculations.Duringtheprocessofeffluent
+officebuildings,libraries,firestations,parking fromtheprimaryclarifierflowsintoanaerationtank,
+structures,thewastewatertreatmentplant,and thetotalCO 2emissionscanbecalculatedbasedonthe
+communityandrecreationcenters.Thecityis balanceofsubstrateCODandCOD/TOC.
+contributing$435,000towardtheprojecttocoverthe
+totalcostof$635,000.Quantifyingandcontrolling
+GHG emission from anaerobic digestion
+on
+greenhousegasemissionsfromwastewatertreatment Wiley
+ThedatafromTable6areobtainedfromGuelph
+plantsisnecessarytomeetthegoalofmeetingallofthe Online
+wastewatertreatmentplant.Carbondioxideand
+city’sneedsby2050with100%renewableenergy.
+methanearereleasedinanaerobicdigesterand Library
+InthecaseofCO ,in2020,thetotalcorporateGHG
+2
+disposedbiosolids.Inputparametersofdisposed for
+emissionswere16,924,468kgofcarbondioxide rules
+biosolidsforthesamplecalculationareassumed.
+equivalent.30Thisworksoutto121kgofcarbon of
+DewaterSludge(Qin,ad)andoutflowCOD use;
+dioxideequivalentperpersoninthecommunity.The concentration(CODin,ad)areobtainedas54.7(m3/d) OA
+totalgreenhousegasemissiondistributionofthe articles
+and214,400(mg/L),respectively.
+enterpriseisshowninFig.4. are
+governed
+Guelph’s2020communitygreenhouse
+gasesemissionswere775,887tonesofCO 2 Result and discussion by
+equivalent.30Thisequatesto5.35tonesofcarbon the
+applicable
+dioxideequivalentperpersoninGuelph;changesin ForCO 2emissions,thecalculatedvalueis6743.8
+2q.(k dg
+corporateandcommunitygreenhousegasesemissions CO )afterpluggingthedataintotheformula. Creative
+O,itiscalculatedas6.458(kg
+overthepastfewyearsareshowninFig.5.The FortheemissionofN ),
+2 d Commons
+License
+596
+©2022SocietyofChemicalIndustryandJohnWiley&Sons,Ltd. Greenhouse.Gas.Sci.Technol.12:587–601(2022);DOI:10.1002/ghg.2171

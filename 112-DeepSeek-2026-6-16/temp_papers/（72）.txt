@@ -1,0 +1,491 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment924(2024)171420
+Contents lists available at ScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+The effect of aeration mode (intermittent vs. continuous) on nutrient
+removal and greenhouse gas emissions in the wastewater treatment plant of
+Corleone (Italy)
+Giorgio Manninaa,*, Paulo Marcelo Bosco Mofattoa, Alida Cosenzaa, Daniele Di Trapania,
+Hazal Gulhana,b, Antonio Mineoa, Jacek Makiniac
+aEngineering Department, Palermo University, Viale delle Scienze ed. 8, 90128 Palermo, Italy
+bEnvironmental Engineering Department, Civil Engineering Faculty, Istanbul Technical University, Ayazaga Campus, Maslak, 34469 Istanbul, Turkey
+cFaculty of Civil and Environmental Engineering, Gdansk University of Technology, Narutowicza Street 11/12, Gdansk 80-233, Poland
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+•Both configurations adhered to the legal
+requirements for effluent quality.
+•OSA-IA reduced sludge production but
+settleability worsened (SVI up to 180
+mL/g).
+•OSA-IA did not affect nitrification abil-
+ity with similar average efficiency of 85
+%.
+•Similar N2O values in gas-liquid samples
+of both configurations (0.5 and 0.22
+mg/L).
+•OSA-IA reduced CF (0.36 kgCO2/m3)
+with higher proportion of indirect
+emissions.
+A R T I C L E I N F O A B S T R A C T
+Keywords: The paper reports the results of an experimental study aimed at comparing two configurations of a full-scale
+Carbon footprint wastewater treatment plant (WWTP): conventional activated sludge (CAS) and oxic-settling-anaerobic process
+Full-scale (OSA) with intermittent aeration (IA). A comprehensive monitoring campaign was carried out to assess multiple
+Kinetics
+parameters for comparing the two configurations: carbon and nutrient removal, greenhouse gas emissions,
+Oxic-settling-anaerobic process
+respirometric analysis, and sludge production. A holistic approach has been adopted in the study with the
+Sludge reduction
+novelty of including the carbon footprint (CF) contribution (as direct, indirect and derivative emissions) in
+comparing the two configurations. Results showed that the OSA-IA configuration performed better in total
+chemical oxygen demand (TCOD) and ortho-phosphate (PO4-P) removal. CAS performed better for Total Sus-
+pended Solids (TSS) removal showing a worsening of settling properties for OSA-IA. The heterotrophic yield
+coefficient and maximum growth rate decreased, suggesting a shift to sludge reduction metabolism in the OSA-IA
+configuration. Autotrophic biomass showed a reduced yield coefficient and maximum growth yield due to the
+negative effects of the sludge holding tank in the OSA-IA configuration on nitrification. The OSA-IA configuration
+had higher indirect emissions (30.5 % vs 21.3 % in CAS) from additional energy consumption due to additional
+* Corresponding author.
+E-mail address: giorgio.mannina@unipa.it (G. Mannina).
+https://doi.org/10.1016/j.scitotenv.2024.171420
+Received 17 December 2023; Received in revised form 10 February 2024; Accepted 29 February 2024
+Availableonline2March2024
+0048-9697/©2024TheAuthors.PublishedbyElsevierB.V.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+mixers and sludge recirculation pumps. The CF value was lower for OSA-IA than for CAS configuration (0.36
+kgCO2/m3 vs 0.39 kgCO2/m3 in CAS).
+1. Introduction (Wang et al., 2023). Therefore, it is of great importance to introduce
+measures that may optimise processes in WWTPs with energy efficiency
+The global population growth and industrialisation have strained as a key issue. This aspect is particularly relevant considering the Eu-
+wastewater treatment systems, resulting in challenges related to energy ropean Union (EU) energy dependency and the need to minimise GHG
+consumption, sludge production and carbon footprint (CF) (Garrido- emissions (Elías-Maxil et al., 2014). In this light, introducing new stra-
+Baserba et al., 2015; Campos et al., 2016; Kumar et al., 2021). Green- tegies and/or advanced wastewater treatment technologies could
+house gas (GHG) emissions in wastewater treatment originate directly represent a possible solution. Among the latest techniques, intermittent
+from biological processes and indirectly from electricity consumption, aeration (IA) can be an optimal solution (Di Bella and Mannina, 2020).
+transportation and use of chemicals (Mannina et al., 2020). The direct More specifically, IA reduces the aeration time in a bioreactor by
+emissions arise from biomass growth producing carbon dioxide (CO2), introducing non-aerated periods to enhance denitrification, while
+from the reactions of nitrogenous substances, producing nitrous oxide reducing energy consumption (Pang et al., 2020; Xu et al., 2020; Huang
+(N2O), and from anaerobic digestion and sludge disposal, generating et al., 2021). Karlikanovaite-Balikci and Yagci (2019) tested IA in a
+methane (CH4). These two latter with a higher global warming potential laboratory scale OSA configuration (sequencing-batch reactor - SBR)
+than CO2 (IPCC, 2014). While efforts to reduce indirect emissions and achieved TN removal efficiencies of over 85 %. Recently, Luan et al.
+through electricity consumption minimisation seem promising, the (2022) showed the effectiveness of applying IA in an advanced pilot-
+trade-off between treatment performance and energy savings in waste- scale moving bed biofilm reactor given guaranteeing nitrogen removal
+water treatment plants (WWTP) remains a significant challenge (Feng with low energy consumption from a low C/N influent wastewater.
+et al., 2018; Lu et al., 2023). The management practices and disposal of In this light, the present study explored a modified configuration of
+waste activated sludge (WAS) also require substantial energy con- the OSA system, referred to as OSA-IA that implements IA in the main
+sumption and chemical usage, leading to notable rises in CF and aerobic bioreactor. As the authors are aware, the OSA-IA configuration
+resource utilisation (Wang et al., 2023). Implementing sludge reduction has never been adopted at full scale in the literature. The treatment
+strategies is an alternative approach in view of WAS disposal, but such a performance of the OSA-IA configuration, including carbon, nitrogen,
+strategy must adhere to environmentally friendly practices to achieve and phosphorus removal efficiencies, was compared with the CAS
+sustainable wastewater treatment. configuration in a full-scale WWTP located in Corleone, Italy. The pro-
+Several technologies/strategies for reducing sludge production in cess kinetics, EPS production, settleability, and sludge production were
+WWTPs have been adopted worldwide (Foladori et al., 2010). In regularly monitored and quantified throughout the study. This study
+particular, chemical (e.g., ozonation or chlorination), biological (e.g., offers a novel aspect of conducting a full-scale comparison of the two
+biological predation), physical (increasing biomass retention membrane configurations investigated with a holistic approach, including GHG
+and granular sludge bioreactors), thermal (e.g., combustion, pyrolysis) emissions and CF.
+and electrochemical processes (e.g., electro-osmosis) have been applied
+(Mannina et al., 2022a, 2022b). The reduced amounts of sludge to be 2. Materials and methods
+treated in the sludge line will decrease the related operational cost and
+GHG emissions (Ferrentino et al., 2023). Among the processes that can 2.1. Study site
+be applied in the water line, adopting the oxic-settling-anaerobic (OSA)
+process strongly favours the reduction of sludge production (Mannina The WWTP in Corleone has a capacity of 12,000 population equiv-
+et al., 2023). Specifically, the OSA process modifies the conventional alents (PE) and employs a CAS configuration; the WWTP layout is
+activated sludge (CAS) by inserting a sludge holding tank in the return characterised by two identical aeration tanks followed by three identical
+activated sludge (RAS) line between the secondary settler and the aer- settling tanks. Since the Corleone WWTP is underloaded compared to
+obic bioreactor (Chudoba et al., 1992). Retaining the recirculated sludge the design values, only one aeration tank followed by two secondary
+under anaerobic conditions favours biological processes of sludge clarifiers are under operation (Mannina et al., 2021a, 2021b, 2023). The
+reduction (Ferrentino et al., 2023). wastewater is transported to the plant by a combined sewer system. The
+In traditional WWTPs, energy consumption may be responsible for average influent flow rate to the aeration tank is given in Table 1.
+approximately 25–40 % of the operational costs (Descoins et al., 2012; The aeration tank has a volume of 384 m3, while each clarifier has a
+Campo et al., 2023). Moreover, energy consumption-related indirect diameter of 12 m. The RAS flow rate from the clarifiers to the aeration
+emissions may represent 30 % of the total CF of WWTPs (Wang et al., tank is 74 m3/h. In the CAS configuration, RAS is pumped back to the
+2023). Therefore, it is important to find a trade-off between CF reduc- aeration reactor, and this flow rate is referred to as R-1.
+tion while maintaining high effluent quality and low operational costs To modify the Corleone WWTP to the OSA configuration, a sludge
+holding tank (SHT), piping and instruments have been implemented
+using the existing empty aeration tank (Fig. 1). Additionally, the blower
+Table 1 supplying air to the aeration tank is controlled in an on/off mode to
+Basic characteristics of the influent wastewater (average values ± standard achieve IA with 40 min of aeration and 20 min of mixing. Under the
+deviations). OSA-IA configuration, the same amount of sludge is recirculated from
+Parameter Units CAS OSA-IA the clarifiers to the aeration tank. However, the flow rate is equally split
+between the aeration tank (referred to as R-1) and the SHT (referred to
+COD mg O2/L 173 186
+(±47.5) (±40.7) as R-2). Excess sludge is pumped from the bottom of the clarifiers to
+BOD5 mg O2/L 100 78 (±26) aerobic digesters. The digested sludge is then thickened in drying beds
+(±43.4) before disposal. The secondary effluent is directed to the disinfection
+T Ao mta ml on nit iuro mg e nn i t( rT oN ge) n (NH4+-N) mm gg NN // LL 24 52 (( ±± 41 .2 5) ) 3 21 3 (( ±± 26 .. 49 )) unit and discharged into a nearby river.
+Phosphate (PO4(cid:0)3-P) mg P/L 7 (±2.6) 5 (±2.2)
+Food to Microorganisms ratio kgBOD/(kgTSS 0.24 0.21
+(F/M) d) (±0.15) (±0.10)
+2
+
+--- Page 3 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 1. Layout of the CAS (a) and OSA-IA (b) systems.
+2.2. Sampling campaigns parallel to the gas sampling.
+Table 1 presents basic characteristics (average values ± standard
+Two sampling strategies were implemented, each characterised by a deviations) of the influent wastewater, including chemical oxygen de-
+different sampling frequency: (i) in-depth analysis during 24 h and (ii) mand (COD), 5-day biochemical oxygen demand (BOD5), total and
+long-term monitoring. In the first strategy, 24 samples were collected ammonium nitrogen, orthophosphate and TSS concentrations.
+daily using refrigerated autosamplers (one sample per hour in one day of
+operation). In the second strategy, two weekly grab samples were 2.3. Analytical methods
+collected to get information on the long-term plant behaviour. In more
+detail, the long-term monitoring campaign aimed to gain insights into The concentrations of COD, BOD5, NH4-N, nitrate nitrogen (NO3-N),
+the treatment performance and WAS production in the CAS and the nitrite nitrogen (NO2-N), orthophosphate (PO4-P), TSS, and volatile
+OSA-IA layout. In the long-term campaign, the samples were collected at suspended solids (VSS) were determined using the Standard Methods
+the inlet to the biological reactor, the outlet from the final clarifiers, (APHA, 2012). The sludge settling performance was evaluated using the
+points inside the bioreactor and in the RAS line. Samples at the outlet of sludge volume index (SVI). To extract extracellular polymeric sub-
+the clarifiers were collected 6.5 h after the inlet samples, to account for stances (EPS) and soluble microbial products (SMP), the method
+the HRT of the system. The duration of the long-term campaign was 30 described in Le-Clech et al. (2006) was followed. Proteins were quan-
+days for both configurations. In two in-depth sampling campaigns, tified based on the procedure outlined by Lowry et al. (1951), while
+influent (after pre-treatment) and effluent (at the outlet of final clari- carbohydrates were measured according to the method given by DuBois
+fiers) were collected hourly for one day by refrigerated auto-samplers. et al. (1956). Respirometric batch tests were carried out according to
+To account for the plant’s HRT, the autosampler placed at the outlet literature (Di Trapani et al., 2018) and were aimed at measuring the
+of clarifiers was started 6.5 h after that in the inlet. In addition, three Oxygen Uptake Rate (OUR) for consuming a readily biodegradable
+grab samples were collected from the bioreactor and one from the RAS substrate spiked during the test (sodium acetate for heterotrophs and
+line to monitor the MLSS concentration. N2O emissions from the bio- ammonium chloride for autotrophs, respectively). The dissolved and
+reactors were monitored between 11:00 and 14:00 h and comprised four gaseous N2O concentrations were measured using the methodology
+samples per hour. A gas sampling hood (cross-sectional area: 1.0 m × described by Mannina et al. (2018). They were conducted using a Gas
+0.9 m) was placed on the surface of the bioreactors (CAS) and the aer- Chromatograph (GC) equipped with an Electron Capture Detector (ECD)
+obic and anaerobic tanks (OSA-IA configuration). Gas samples were (Agilent 8860). The N2O emission factor (EFN2O) was determined using
+collected in 0.5 L Tedlar bags (Tedlar, USA) through an air pump the calculation method outlined by Tsuneda et al. (2005) (Eq. (1)):
+(Sensidyne, USA). The airflow rate from the surface of the aerobic tank
+N2O=N H2O R(cid:0) ThN sg T+ NN2 HO R(cid:0) TNd
+w eta as .m (2e 0as 1u 9r )e d b ty ea n qa un ie dm po hm ase et ,e Nr 2( OEx ct oe nch ce, nU trS aA t) a nc sc wor ed ri en mg eto sC ura en dia bn yi
+EF (1)
+l . In h li io a
+a micro-sensor (Unisense Environment A/S, Denmark) per minute
+where N2O-Ng represents the concentration of gaseous N2O, while N2O-
+3
+
+--- Page 4 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 2. Treatment performances and legislative limits for CAS and OSA-IA for (a) TCOD, (b) NH4-N, (c) PO4-P, and (d) BOD5.
+Nd refers to the concentration of dissolved N2O. The HRT stands for the rate, and ΔX represents the daily WAS produced.
+hydraulic retention time in the plant, while HRThs represents the
+retention time in the tank headspace. TN represents the influent con- 2.4. Carbon footprint quantification
+centration of total nitrogen in the influent flow.
+The observed yield coefficient (Yobs) was calculated by dividing the To assess the CF of the WWTP under study, the GHG emissions
+cumulative mass of biomass produced by the COD removed (Mannina (direct, indirect and derived) were quantified and summed. The direct
+et al., 2023) and is represented by Eq. (2): emissions (DE) were quantified by considering the emitted CO2 due to
+( gTSS) organic carbon oxidation (CO2,OrgOx), endogenous respiration (CO2,
+ΔX
+Y obs gCOD = Q i×(cid:0) TCOD inf(cid:0)TCODeff) (2) E On rgd Oog x. ) Ean qd (t 3h )e e aq nu di v Cal Oe 2n ,t nC doO g2 (d Eu qe (t 5o )N 2 wO re em qis us aio nn fi(C edO 2 ae cq, cN o2 rO d) i. C gO t2 o,
+( . ) E . ) e ti n
+Boiocchi et al. (2023):
+where CODinf and CODeff represent the total COD concentrations at the
+influent and effluent, respectively. Qi denotes the daily influent flow CO 2,OrgOx=FCs•r o2 [kgCO 2/d] (3)
+4
+
+--- Page 5 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 3. Comparison of the SVI values end effluent TSS concentrations in (a) CAS and (b) OSA-IA.
+Table 2 CO 2,Endog=FC End•mvss [kgCO 2/d] (5)
+Summary of the main heterotrophic kinetic and stoichiometric parameters as the
+average values (±the standard deviation). where FCEnd is the conversion factor describing the amount of CO2
+emitted per kg of produced VSS (equal to 1.947 kg CO2/kgVSS according
+Parameter Symbol Units Heterotrophic
+to Boiocchi et al., 2023) and mVSS is the mass of VSS evaluated based on
+CAS OSA-IA
+the mass balance.
+Y Di ee cl ad Y bHH [ [g 1V /dS ]S /gCOD] 0 0. .4 44 ( (± ±0 0. .0 04 9) 0 0. .3 49 ( (± ±0 0. .0 17 7) ET qh e 6C )O 2eq,N2O was quantified based on the measured data according
+y rate 7 ) 6 )
+to . ( :
+Max. growth rate μ H [1/d] 1.64 (±0.39) 0.93 (±0.68) [ / ]
+M Nea tx g. rr oe wm to hv a ral tr ea te ν μH [ [1 1/ /d d] 3 1. .9 10 ( (± ±0 0. .4 25 2) 2 0. .2 44 ( (± ±1 0. .3 51 2) CO 2,N2O=Q g•C g,N2O•GWP N2O kgCO 2eq d (6)
+H -bH ] 6 ) 7 )
+Active fraction fX [%] 14.2 (±1.32) 18.1 (±1.06)
+where Qg [m3/d] is the average gas flow rate, Cg,N2O [kgN2O/m3] is the
+average gaseous measured N2O concentration emitted and GWPN2O
+[kgCO2eq/kgN2O] is the N2O global warming potential (equal to 298
+Parameter Symbol Units Autotrophic
+according to IPCC, 2022).
+Literature OSA-IA
+The indirect emissions (IE) count the equivalent CO2 due to energy
+Yield YA [gVSS/ 0.19–0.26 0.15 consumption (CO2eq,En) (Eq. (7)) and to the sludge treatment, trans-
+gNH4-N] (Ramirez-Vargas (±0.09) portation and landfill disposal (CO2eq,Sludge) (Eq. (8)).
+et al., 2013) [ / ]
+Max. growth μ A [1/d] 0.26–0.38 0.19 CO 2eq,En=E n•FC En kgCO 2eq d (7)
+rate (Ramirez-Vargas (±0.06)
+et al., 2013)
+Max. removal ν A [1/d] 1.39–1.48 2.154 where En [kWh/d] is the total energy consumption of the water line and
+rate (Ramirez-Vargas (±1.79) FCEn [kgCO2eq/kWh] is the conversion factor of the energy (equal to
+et al., 2013) 0.252 kgCO2eq/kWh according to EEA, 2016).
+Nitrification NR [mgNH4/L na 3.77 [ / ]
+rate h] (±2.66) CO 2eq,Sludge=M Sludge•FC Sludge kgCO 2eq d (8)
+where Msludge [ton/day] is the mass of wasted sludge per day and
+Table 3 FCSludge [kgCO2eq/ton] is the emission factor due to the sludge treat-
+Operational parameters of Corleone WWTP during the monitoring campaign (in ment, transportation and landfill disposal (equal to 714.74 kgCO2eq/ton
+brackets the standard deviation). according to Zhao et al. (2023)).
+Finally, the derivative emissions (DerE) were quantified as those
+Parameter Units CAS OSA-IA
+originated from the pollutants discharged into receiving water bodies
+Y F/ob Ms [ [g kT gCSS O/ Dg /C (O kgD T] 0 0. .4 25 ( (± ±0 0. .0 18 9) 0 0. .3 24 ( (± ±0 0. .0 18 0) (Eq. (9)):
+S S d)] 4 ) 1 )
+[ / ]
+SRT [d] 20 (±4.5) 59.71 (±7.56) DerE=CO 2eq,effBOD+CO 2eq,effN2O kgCO 2eq d (9)
+Specifically, the contribution of BOD (CO2eq,effBOD) and dissolved
+where FCS is the conversion factor describing the amount of CO2 emitted N2O (CO2eq,effN2O) was calculated according to Eqs. (10) and (11),
+per kg of consumed O2 (equal to 1.1 kg CO2/kg O2 according to Boiocchi respectively.
+e dt a cl a. l( c2 u0 l2 at3 e) d) a an cd r ro d2 nis t h toe Ea qm o (u 4n ):t of oxygen consumed per day [kg O2/ [ 2eq/ d]
+] co i g . CO 2eq,effBOD=M BOD•FC BOD kgCO (10)
+r o2=V rs×1/f(cid:0) 1.42×Y) (4) where MBOD [kgBOD/d] is the mass of discharged BOD per day and
+FCBOD [kgCO2eq/kgBOD] is the conversion factor due to the BOD
+where Vrs is the removed BOD5 [kgBOD5/d] calculated based on the discharge (equal to 0.96 kgCO2eq/kgBOD according to Boiocchi et al.
+measured data, f equals 0.68 and Y is the yield coefficient [kgVSS/ (2023)).
+kgBOD5]. In this study, the average measured Yobs value was adopted as [ / ]
+Y. CO 2eq,effN2O=Q w•C 1,N2O•GWP N2O kgCO 2eq d (11)
+5
+
+--- Page 6 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 4. TSS concentrations in the aeration tank, SHT, and RAS for (a) CAS and (b) OSA-IA.
+Fig. 5. Variations in N2O concentrations in the gas and liquid samples and the N2O flux during the three-phase cycle.
+where Qw [m3/d] is the average effluent flow rate, Cl,N2O [kgN2O/m3] 3. Results and discussion
+is the average liquid measured N2O concentration discharged into the
+3.1. Comparison of the treatment performances
+water body and GWPN2O [kgCO2eq/kgN2O] is the N2O global warming
+potential (equal to 298 according to IPCC, 2022).
+Fig. 2 presents the performances for COD, NH4-N, PO4-P, and BOD5
+for both CAS and OSA-IA configurations along with the corresponding
+2.5. Comparison criteria
+legislative limits. The CAS configuration exhibited a COD removal effi-
+ciency of 74 ±14 %, while the OSA-IA configuration achieved a higher
+The study compared the treatment performance of the CAS and OSA-
+COD removal efficiency of 87 ± 4 %. For comparison, Vitanza et al.
+IA configurations by measuring carbon, nitrogen, and phosphorus
+(2019) reported an 85 % COD removal efficiency in a pilot-scale OSA
+removal efficiencies. Further, the carbon footprint was assessed as a
+plant over an extended period, which aligns with this study’s findings
+further criterion of the comparison.
+regarding the OSA-IA configuration. That configuration outperformed
+the CAS configuration regarding the PO4-P removal efficiency, with
+values of 55 ±27 % vs. 35 ±17 %. These results are in line with the
+results of earlier studies, which also reported enhanced biological
+6
+
+--- Page 7 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 6. Comparison of N fractions in (a) CAS and (b) OSA-IA.
+phosphorus removal (EBPR) in WWTPs employing the OSA process. implemented. This suggests the establishment of the maintenance
+Cosenza et al. (2023) emphasised that altering between aerobic/anoxic metabolism responsible for the reduced sludge production. The net
+and anaerobic conditions in the OSA configuration could foster the growth rate also showed a significant decrease, in agreement with the
+development of phosphate-accumulating organisms (PAOs) or deni- previous results.
+trifying phosphate-accumulating organisms (DPAOs). Although the OSA When the plant configuration was changed to OSA-IA, respirometric
+configuration enhances phosphorus removal by promoting PAO or batch tests were also performed on autotrophs. The observed results
+DPAOs with increased anoxic/anaerobic conditions, the OSA-IA showed a slight decrease in both the yield coefficient and the maximum
+configuration in this study did not negatively affect the NH4-N specific growth rate, thus corroborating the findings of Sun et al. (2020).
+removal efficiency. The CAS and OSA-IA configurations demonstrated In that study, the implementation of the anaerobic reactor resulted in a
+similar efficiencies, with the values of 85 ±8 % vs. 85 ±6 %, respec- reduction of the nitrification activity (Sun et al., 2020).
+tively. However, regarding the BOD5 removal efficiency, the CAS
+configuration had a higher performance, achieving 94 ±4 % compared 3.3. Comparison of sludge production in the two configurations
+to 86 ± 7 % for the OSA-IA configuration. Similarly, in terms of TSS
+removal, the CAS configuration outperformed the OSA-IA configuration, Table 3 reports the average values of Yobs, F/M and SRT. It can be
+achieving a removal efficiency of 89 ±6 % compared to 59 ±22 %. noticed that the average Yobs value decreased from 0.45 gTSS/gCOD
+Mannina et al. (2023) compared the CAS and OSA configurations, (period CAS) to 0.34 in the OSA-IA period, respectively. The modifica-
+demonstrating that the OSA configuration did not influence COD tion of the WWTP layout (insertion of the anaerobic reactor in the RAS
+removal. This suggests that intermittent aeration compromised settling line) coupled with changing the aeration strategy (from continuous to
+performance in the OSA-IA configuration. Singh et al. (2018) also intermittent) had a positive role in reducing WAS production. Indeed,
+observed a worsening of the sludge settleability with intermittent sludge reduction could be improved by the intermittent aeration strat-
+aeration. Nevertheless, both configurations had an effluent quality that egy, which generally might reduce sludge production compared to a
+complies with the legal Italian limits. conventional system with continuous aeration (Jung et al., 2006). Fig. 4
+Fig. 3 shows the trend of SVI and the effluent TSS concentrations in shows the trend of TSS concentrations in the aeration tank, SHT, and
+the CAS (Fig. 3a) and the OSA-IA (Fig. 3b) periods. The worsened sludge recirculation line for the CAS and OSA-IA configuration.
+settleability and TSS removal efficiency during the OSA-IA configuration
+were correlated with the huge decrease in EPS content observed in the 3.4. Comparison of N2O emissions
+OSA-IA configuration. The sum of bound EPS and SMP decreased from
+1812 mg/g TSS to 44 mg/g TSS. This reduction in the EPS content may Liquid and gas samples were collected at specific time intervals to
+be related to the consumption of stored substrates under fasting condi- assess the concentrations of N2O. Fig. 5 shows three cycles of IA with
+tions. Such conditions promoted the destruction of the activated sludge alternating on/off periods. During the blower off periods, the concen-
+flocs, thus causing a worsening of settling properties. Indeed, alternating trations of N2O decreased in both gas and liquid samples and the N2O
+aerobic/anoxic conditions may enhance the reductive conditions and fluxes were also reduced.
+promote hydrolysis (Singh et al., 2018). When the blower was on, the average N2O concentrations in the gas
+and liquid samples were measured at 0.16 ±0.04 mgN2O/L and 0.23 ±
+3.2. Comparison of kinetic and stoichiometric coefficients 0.05 mgN2O/L, respectively. When the blower was off, the average N2O
+concentration decreased to 0.13 ± 0.06 mg/L in the gas samples and
+Table 2 summarises the kinetic/stoichiometric parameters achieved 0.21 ±0.02 mg/L in the liquid samples. This decrease in N2O concen-
+during experiments using respirometric batch tests. The data reported in trations led to a significant 67 % reduction in the N2O flux, which
+Table 2 suggest that the shift from the CAS to OSA-IA configuration decreased from 4.24 ±1.95 mg N2O/m2/h to 1.39 ±1.78 mg N2O/m2/
+significantly impacted the biomass activity. Concerning the hetero- h. The N2O concentrations in the gas and liquid samples collected from
+trophs, the yield coefficient showed a slight decrease from 0.44 to 0.39 the SHT were 0.17 mg/L and 0.27 mg/L, respectively, and the calculated
+gVSS g(cid:0) 1COD, thus highlighting that the new plant layout might effec- N2O flux from the SHT was 1.18 mg N2O/m2/h.
+tively promote the reduction of biological sludge production. This result The average N2O concentrations in the gas and liquid samples
+was corroborated by the maximum specific growth rate, which showed a collected in an IA cycle were 0.15 ±0.05 mg/L and 0.22 ±0.04 mg/L,
+significant reduction when the new OSA-IA configuration was respectively. The flux from the OSA-IA configuration was 3.29 ±2.35
+7
+
+--- Page 8 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Fig. 7. Contributions of emission compounds for the CAS (a) and OSA-IA (b) configuration; the direct (c), indirect (d) and derived € emission contributions for the
+CAS and OSA-IA configurations.
+mg N2O/m2/h. For comparison, the CAS configuration had the same 3.5. Nitrogen mass balance
+average N2O concentrations in the gas and liquid samples (0.15 ±0.07
+mg/L and 0.22 ± 0.02 mg/L, respectively). However, the N2O flux Fig. 6 illustrates the N mass balance, which includes various
+calculated from the CAS configuration was 2.25 ±1.06 mg N2O/m2/h. nitrogenous components, such as N consumed for metabolic activities,
+The increased N2O flux observed in the OSA-IA configuration resulted the effluent N in the forms of NO3-N, NO2-N, NH4-N, and N2O-N, as well
+from a higher air flow rate measured over the aeration tank surface, as N denitrified and others referring to organic N.
+likely due to the lower MLSS concentration in this layout. The average In the CAS configuration, 13 ± 8 % of the influent N load was
+MLSS concentrations were 4.6 ±1.2 g/L and 3.6 ±0.6 g/L for the CAS consumed for metabolic activities. However, this percentage decreased
+and OSA-IA configurations, respectively. It is worth noting that the re- to 9 ±3 % in the OSA-IA configuration, indicating a reduced biomass
+ported N2O concentrations in the liquid and gas phase represent the activity. The decrease in the percentage of N load consumed for meta-
+average value of three replicates, with standard deviation values one bolic activities during OSA-IA configuration was debited to the reduc-
+order of magnitude lower compared to the mean, thus highlighting good tion during this period of the influent BOD5. Indeed, the average BOD5
+data reliability. concentration decreased from 100 (±43.4) mg/L during the CAS
+configuration period to 78 (±26) mg/L of OSA-IA one. The effluent
+8
+
+--- Page 9 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+fractions of NH4-N (9 ±5 % for CAS and 9 ±3 % for OSA-IA) and NO2-N CRediT authorship contribution statement
+(0.9 ±1.4 % for CAS and 1.1 ±0.6 % for OSA-IA) were similar for both
+configurations. However, notable differences were observed in the Giorgio Mannina: Methodology, Investigation, Funding acquisition,
+effluent NO3-N and N denitrified fractions. The OSA-IA configuration Formal analysis, Data curation, Conceptualization. Paulo Marcelo
+exhibited higher denitrification with an N denitrified fraction of 34 ±4 Bosco Mofatto: Conceptualization. Alida Cosenza: Data curation,
+%, compared to 22 ±9 % for the CAS configuration with an N denitrified Conceptualization, Investigation, Formal analysis, writing. Daniele Di
+fraction. Consequently, the effluent fraction of NO3-N was lower in the Trapani: Data curation, Conceptualization. Hazal Gulhan: Data cura-
+OSA-IA configuration (11 ±5 %) than in the CAS configuration (21 ±8 tion, Conceptualization, Investigation, Formal analysis, writing. Anto-
+%). This difference could be attributed to the anoxic exposure of biomass nio Mineo: Data curation. Jacek Makinia: Data curation,
+in the SHT (Vitanza et al., 2019) and the off-period of IA cycles (Miao Conceptualization.
+et al., 2022).
+Declaration of competing interest
+3.6. Carbon footprint
+The authors declare that they have no known competing financial
+The CF value obtained for the CAS and OSA-IA configuration was
+interests or personal relationships that could have appeared to influence
+equal to 0.39 kgCO2/m3 and 0.36 kgCO2/m3, respectively, showing a
+the work reported in this paper.
+slight CF reduction for the OSA-IA configuration. These values are lower
+than those reported in the literature for CAS systems treating real
+Data availability
+wastewater (Hu et al., 2019). The contributions of the direct, indirect
+and derived emissions for both CAS and OSA-IA configurations are
+The data that has been used is confidential.
+shown in Fig. 7. For the CAS configuration, the most outstanding CF
+contribution was due to the derived emissions (41.1 %), followed by the
+Acknowledgement
+direct (37.6 %) and derived emissions (21.3 %) (Fig. 7a). For the OSA-IA
+configuration, the contributions were different with the values of 36.3
+This work was funded by the project “Achieving wider uptake of
+%, 33.3 % and 30.5 %, respectively, for the direct, indirect and derived
+water-smart solutions—WIDER UPTAKE” (grant agreement number:
+emissions (Fig. 7b).
+869283) financed by the European Union’s Horizon 2020 Research and
+The indirect emission contribution in the OSA-IA configuration
+Innovation Programme, in which the first author of this paper, Giorgio
+(30.5 %) strongly increased compared to CAS (21.3 %). In Fig. 7c–e, the
+Mannina, is the principal investigator for the University of Palermo. The
+direct, indirect and derived emissions compounds are reported for both
+UNIPA project website can be found at: https://wideruptake.unipa.it/.
+CAS and OSA-IA configurations to illustrate better which emission
+compound greatly contributes to the total CF. By analysing the data
+References
+reported in Fig. 7c–e, it can be seen that except for the combinations of
+the indirect emissions, all the emission contributions related to the OSA-
+APHA, 2012. Standard Methods for the Examination of Water and Waste Water, 22nd ed.
+IA configurations are lower than that of CAS. Indeed, the direct emis- American Public Health Association, American Water Works Association, Water
+sions of OSA-IA reduced to 0.12 kgCO2/m3 from 0.14 kgCO2/m3 of CAS Environment Federation.
+Boiocchi, R., Viotti, P., Lancione, D., Stracqualursi, N., Torretta, V., Ragazzi, M.,
+(Fig. 7c). The derived emissions of OSA-IA were also reduced to 0.13
+Ionescu, G., Rada, E.C., 2023. A study on the carbon footprint contributions from a
+kgCO2/m3 from 0.16 kgCO2/m3 of CAS (Fig. 7e). In contrast, the large wastewater treatment plant. Energy Rep. 9, 274–286.
+contribution due to the energy consumption of OSA-IA (0.1 kgCO2/m3) Caniani, D., Caivano, M., Pascale, R., Bianco, G., Mancini, I.M., Masi, S., Mazzone, G.,
+was higher than that of the CAS configuration (0.07 kgCO2/m3) F evir ao lu uz ai ta ion n, M of. , eR mo is ss so i, D ns., f2 ro0 m19 . C ioO lo2 a icn ad N tr2 eO mfro em ,w sa et te tlr nre gs o du ir sc ine r ee cc to iov ne ,r y nfa dc ilities:
+o b g l at nt i , f a
+(Fig. 7d). This result is mainly related to the additional energy con- receiving water body. Sci. Total Environ. 648, 1130–1140. https://doi.org/10.1016/
+sumption due to the mixer and RAS pumps installed in the plant to set up j.scitotenv.2018.08.150.
+the OSA-IA configuration. However, despite the increased energy con- Campo, G., Miggiano, A., Panepinto, D., Zanetti, M., 2023. Enhancing the energy
+efficiency of wastewater treatment plants through the optimization of the aeration
+sumption, the total CF of the OSA-IA configuration was lower than that systems. Energies 16, 2819.
+of CAS. Campos, J.L., Valenzuela-Heredia, D., Pedrouso, A., Val del Río, A., Belmonte, M.,
+Mosquera-Corral, A., 2016. Greenhouse gases emissions from wastewater treatment
+plants: minimisation, treatment, and prevention. J. Chem. 2016.
+4. Conclusions
+Chudoba, P., Chudoba, J., Capdeville, B., 1992. The aspect of energetic uncoupling of
+microbial growth in the activated sludge process: OSA system. Water Sci. Technol.
+This study has the novelty of comparing CAS and OSA-IA configu- 26, 2477–2480.
+Cosenza, A., Di Trapani, D., Bosco Mofatto, P.M., Mannina, G., 2023. Sewage sludge
+ration at full-scale using a holistic approach including GHG emissions
+minimisation by OSA-MBR: a pilot plant experiment. Chemosphere 347, 140695.
+and CF. Both configurations enabled the meeting of regulation limits for Descoins, N., Deleris, S., Lestienne, R., Trouv´e, E., Mar´echal, F., 2012. Energy efficiency
+effluent quality. The OSA-IA configuration performed better than CAS in in wastewater treatments plants: optimization of activated sludge process coupled
+with anaerobic digestion. Energy 41, 153–164.
+COD and PO4-P removal, but had lower efficiencies in BOD5 and TSS
+Di Bella, G., Mannina, G., 2020. Intermittent aeration in a hybrid moving bed biofilm
+removal, suggesting a compromised settling performance. However, the reactor for carbon and nutrient biological removal. Water 12, 492.
+addition of the SHT negatively affected nitrifiers activity and the overall Di Trapani, D., Mannina, G., G., 2018. VivianiMembrane Bioreactors for wastewater
+nitrification performance. reuse: respirometric assessment of biomass activity during a two year survey.
+J. Clean. Prod. 202, 311–320. https://doi.org/10.1016/j.jclepro.2018.08.014.
+The OSA-IA configuration produced less sewage sludge than CAS as DuBois, M., Gilles, K.A., Hamilton, J.K., Rebers, P.A., Smith, Fred, 1956. Colorimetric
+Yobs was 0.45 gTSS/gCOD for CAS vs. 0.34 gTSS/gCOD for OSA-IA. method for determination of sugars and related substances. Anal. Chem. 28,
+Regarding the CF, both configurations had similar N2O concentrations 350–356. https://doi.org/10.1021/ac60111a017.
+Elías-Maxil, J., van der Hoek, J.P., Hofman, J., Rietveld, L., 2014. Energy in the urban
+in gas and liquid samples, but the N2O flux in the OSA-IA configuration
+water cycle: actions to reduce the total expenditure of fossil fuels with emphasis on
+was higher. Furthermore, the OSA-IA setup had a higher contribution heat reclamation from urban water. Renew. Sustain. Energy Rev. 30, 808–820.
+from the indirect emissions (21.3 % in CAS vs. 30.5 % in OSA-IA) due to European Environment Agency–EEA, 2016. Database available on line. https://www.
+eea.europa.eu/data.
+the additional energy consumption from mixers and recycled sludge
+Feng, T.T., Yang, Y.S., Yang, Y.H., 2018. What will happen to the power supply structure
+pumps. Despite this increase, the total CF of OSA-IA (0.36 kgCO2/m3) and CO2 emissions reduction when TGC meets CET in the electricity market in
+was slightly lower than that of CAS (0.39 kgCO2/m3). China? Renew. Sustain. Energy Rev. 92, 121–132.
+Ferrentino, R., Langone, M., Fiori, L., Andreottola, G., 2023. Full-scale sewage sludge
+reduction technologies: a review with a focus on energy consumption. Water 2023
+(15), 615. https://doi.org/10.3390/w15040615.
+9
+
+--- Page 10 ---
+G. Mannina et al. S c i e n c e o f t h e T o t a l E n v i r o n m e n t 924(2024)171420
+Foladori, P., Andreottola, G., Ziglio, G., 2010. Sludge Reduction Technologies in Mannina, G., Badalucco, L., Barbara, L., Cosenza, A., Di Trapani, D., Gallo, G.,
+Wastewater Treatment Plants. IWA Publishing, London, UK. Laudicina, V.A., Marino, G., Muscarella, S.M., Presti, D., Helness, H., 2021b.
+Garrido-Baserba, M.M.S.P.G., Molinos-Senante, M., Abelleira-Pereira, J.M., Fdez- Enhancing a transition to a circular economy in the water sector: the EU project
+Güelfo, L.A., Poch, M., Hern´andez-Sancho, F., 2015. Selecting sewage sludge WIDER UPTAKE. Water 13 (7), 946. https://doi.org/10.3390/w13070946.
+treatment alternatives in modern wastewater treatment plants using environmental Mannina, G., Gulhan, H., Ni, B., 2022a. Water reuse from wastewater treatment: the
+decision support systems. J. Clean. Prod. 107, 410–419. transition towards circular economy in the water sector. Bioresour. Technol. 363,
+Hu, W., Tian, J., Chen, L., 2019. Greenhouse gas emission by centralized wastewater 127951 https://doi.org/10.1016/j.biortech.2022.127951.
+treatment plants in Chinese industrial parks: inventory and mitigation measures. Mannina, G., Barbara, L., Cosenza, A., Bing-Jie, N., 2022b. Advances in technologies for
+J. Clean. Prod. 225, 883–897. sewage sludge management. In: Current Developments in Biotechnology and
+Huang, J., Xu, L., Guo, Y., Liu, D., Chen, S., Tang, Q., Zheng, H., Tan, J., Peng, F., 2021. Bioengineering: Smart Solutions for Wastewater: Road-mapping the Transition to
+Intermittent aeration improving activated granular sludge granulation for nitrogen Circular Economy, pp. 137–1561.
+and phosphorus removal from domestic wastewater. Bioresour. Technol. Rep. 15, Mannina, G., Cosenza, A., Di Trapani, D., Gulhan, H., Mineo, A., Bosco Mofatto, P.M.,
+100739 https://doi.org/10.1016/j.biteb.2021.100739. 2023. Reduction of sewage sludge and N2O emissions by an Oxic Settling Anaerobic
+IPCC, 2014. Mitigation of Climate Change. Contribution of Working Group III to the Fifth (OSA) process: the case study of Corleone Wastewater Treatment Plant. Sci. Total
+Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge Environ. 906, 1–14.
+University Press, Cambridge, United Kingdom and New York, NY, USA. Miao, Y., Zhang, L., Yu, D., Zhang, J., Zhang, W., Ma, G., Zhao, X., Peng, Y., 2022.
+IPCC, 2022. Intergovernmental panel on climate change. Available at: https://www.ipcc. Application of intermittent aeration in nitrogen removal process: development,
+ch/. advantages and mechanisms. Chem. Eng. J. 430, 133184 https://doi.org/10.1016/j.
+Jung, S.-J., Miyanaga, K., Tanji, Y., Unno, H., 2006. Effect of intermittent aeration on the cej.2021.133184.
+decrease of biological sludge amount. Biochem. Eng. J. 246–251. https://doi.org/ Pang, J., Pan, J., Tong, D., Fu, X., Sun, B., Yang, M., Li, H., 2020. How do hydraulic load
+10.1016/j.bej.2005.07.002. and intermittent aeration affect pollutants removal and greenhouse gases emission in
+Karlikanovaite-Balikci, A., Yagci, N., 2019. Determination and evaluation of kinetic wastewater ecological soil infiltration systems? Ecol. Eng. 146, 105747 https://doi.
+parameters of activated sludge biomass from a sludge reduction system treating real org/10.1016/j.ecoleng.2020.105747.
+sewage by respirometry testing. J. Environ. Manag. 240, 303–310. https://doi.org/ Ramirez-Vargas, R., Ordaz, A., Carrion, M., Hernandez-Paniagua, I., Thalasso, F., 2013.
+10.1016/j.jenvman.2019.03.131. Comparison of static and dynamic respirometry for the determination of
+Kumar, A., Thanki, A., Padhiyar, H., Singh, N.K., Pandey, S., Yadav, M., Yu, Z., 2021. stoichiometric and kinetic parameters of a nitrifying process. Biodegradation 24,
+Greenhouse gases emission control in WWTS via potential operational strategies: a 675–684. https://doi.org/10.1007/s10532-012-9615-0.
+critical review. Chemosphere 273, 129694. https://doi.org/10.1016/j. Singh, N.K., Pandey, S., Singh, R.P., Dahiya, S., Gautam, S., Kazmi, A.A., 2018. Effect of
+chemosphere.2021.129694. intermittent aeration cycles on EPS production and sludge characteristics in a field
+Le-Clech, P., Chen, V., Fane, T.A.G., 2006. Fouling in membrane bioreactors used in scale IFAS reactor. J. Water Process Eng. 23, 230–238. https://doi.org/10.1016/j.
+wastewater treatment. J. Membr. Sci. 284, 17–53. https://doi.org/10.1016/j. jwpe.2018.03.012.
+memsci.2006.08.019. Sun, L.P., Lin, Y.J., Shi, C.Y., Wang, S.Q., Luo, W.X., Wang, M., 2020. Effects of
+Lowry, O.H., Rosebrough, N.J., Farr, A.L., R.J., 1951. RandallProtein measurement with interchange ratio on sludge reduction and microbial community structures in an
+the Folin phenol reagent. J. Biol. Chem. 193, 265–275. https://doi.org/10.1016/ anaerobic/anoxic/oxic process with combined anaerobic side-stream reactor. Water
+s0021-9258(19)52451-6. Sci. Technol. 81, 1250–1263. https://doi.org/10.2166/wst.2020.223.
+Lu, H., Wang, H., Wu, Q., Luo, H., Zhao, Q., Liu, B., Si, Q., Zheng, S., Guo, W., Ren, N., Tsuneda, S., Mikami, M., Kimochi, Y., 2005. Effect of salinity on nitrous oxide emission
+2023. Automatic control and optimal operation for greenhouse gas mitigation in in the biological nitrogen removal process for industrial wastewater. J. Hazard.
+sustainable wastewater treatment plants: a review. Sci. Total Environ. 855, 158849 Mater. 119, 93–98. https://doi.org/10.1016/j.jhazmat.2004.10.025.
+https://doi.org/10.1016/j.scitotenv.2022.158849. Vitanza, R., Cortesi, A., De Arana-Sarabia, M.E., Gallo, V., Vasiliadou, I.A., 2019. Oxic
+Luan, Y.N., Yin, Y., An, Y., Zhang, F., Wang, X., Zhao, F., Xiao, Y., Liu, C., 2022. settling anaerobic (OSA) process for excess sludge reduction: 16 months of
+Investigation of an intermittently-aerated moving bed biofilm reactor in rural management of a pilot plant fed with real wastewater. J. Water Process Eng. 32,
+wastewater treatment under low dissolved oxygen and C/N condition. Bioresour. 100902 https://doi.org/10.1016/j.jwpe.2019.100902.
+Technol. 358, 127405. Wang, Q., Xiqi, L., Wenzong, L., Siyuan, Z., Qiongying, X., Chang’an, H., Shichen, N.,
+Mannina, G., Ekama, G.A., Capodici, M., Cosenza, A., Di Trapani, D., Ødegaard, H., van Qinghua, O., Chang’an, Nie, S., Ouyang, O., Wang, H., Wang, A., 2023. Carbon
+Loosdrecht, M.C.M., 2018. Influence of carbon to nitrogen ratio on nitrous oxide source recovery from waste sludge reduces greenhouse gasemissions in a pilot-scale
+emission in an integrated fixed film activated sludge membrane BioReactor plant. industrial wastewater treatment plant. Environ. Sci. Ecotechnol. 14 (2023), 100235.
+J. Clean. Prod. 176, 1078–1090. Xu, Z., Zhang, L., Gao, X., Peng, Y., 2020. Optimization of the intermittent aeration to
+Mannina, G., Ni, B.J., Rebouças, T.F., Cosenza, A., Olsson, G., 2020. Minimizing improve the stability and flexibility of a mainstream hybrid partial nitrification-
+membrane bioreactor environmental footprint by multiple objective optimization. anammox system. Chemosphere 261, 127670. https://doi.org/10.1016/j.
+Bioresour. Technol. 302, 122824. chemosphere.2020.127670.
+Mannina, G., Alduina, R., Badalucco, L., Barbara, L., Capri, F.C., Cosenza, A., Di Zhao, Y., Yang, Z., Niu, J., Du, Z., Conti, F., Zhu, Z., Yang, K., Li, Y., Zhao, B.,
+Trapani, D., Gallo, G., Laudicina, V.A., Muscarella, S.M., Presti, D., 2021a. Water Pedersen, H.T., Liu, C., Mutabazi, E., 2023. Systematical analysis of sludge treatment
+resource recovery facilities (WRRFS): the case study of Palermo university (Italy). and disposal technologies for carbon footprint reduction. J. Environ. Sci. 128,
+Water 13, 3413. 224–249.
+10

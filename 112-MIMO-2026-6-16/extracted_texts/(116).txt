@@ -1,0 +1,633 @@
+--- Page 1 ---
+Journal of Water Process Engineering 87 (2026) 110044
+Contents lists available at ScienceDirect
+Journal of Water Process Engineering
+journal homepage: www.elsevier.com/locate/jwpe
+Spatially explicit process-resolved fluxes and microbial drivers: Linking
+community succession to greenhouse gas emissions from full-scale
+industrial wastewater treatment
+Weiwei Konga, Rui Daia,b, Zhaohui Yanga, Qinyang Lia, Xin Chenga,b,*, Yuling Tanga,b,
+Jianfei Zhoua,b,*, Bi Shia,b
+aNational Engineering Laboratory for Clean Technology of Leather Manufacture, College of Biomass Science and Engineering, Sichuan University, Chengdu, 610065, PR
+China
+bKey Laboratory of Leather Chemistry and Engineering (Sichuan University), Ministry of Education, Chengdu, 610065, PR China
+A R T I C L E I N F O A B S T R A C T
+Editor: Soroush Abolfathi Anthropogenic greenhouse gas (GHG) emissions from wastewater treatment plants (WWTPs) represent a sig-
+nificant yet poorly constrained, component of urban carbon budgets. Currently, integrated field assessments that
+Keywords: resolve GHG fluxes across individual process units of full-scale industrial WWTPs are lacking. To address this
+Greenhouse gas emission critical knowledge gap, a spatially explicit investigation was carried out at a full-scale industrial tannery
+Industrial wastewater treatment plant in Hebei
+wastewater treatment plant in Hebei, China. This facility utilizes a hydrolysis-acidification coupled anoxic-oxic
+Microbial community
+process. The comprehensive data collection and analysis approach integrated real-time static chamber flux
+Static chamber sampling technique
+measurements, dissolved-gas monitoring, and high-throughput 16S rRNA sequencing to link macroscopic
+Full-scale carbon footprint assessment
+emissions with dynamic microbial successions. The direct emission intensity was quantified as 1437.021 ±
+112.202 gCO2-eq/m3, with CH4 as the dominant contributor, accounting for 96.5% of on-site GHG emissions,
+primarily from the hydrolysis-acidification tank. This pattern sharply contrasts with the N2O-dominant emission
+profiles usually reported for municipal systems. Microbial community analysis revealed that methanogenic
+archaea were specifically enriched in anaerobic zones, while ammonia-oxidizing and denitrifying bacteria
+facilitated N2O production in aerated tanks. Indirect emissions associated with electrical energy consumption
+were estimated at 3073.20 gCO2-eq/m3, representing 68.1% of the total carbon footprint. This underscores the
+dual challenge of mitigating process-derived CH4 emissions while improving energy efficiency. This study pro-
+vides a process-resolved, microbiology-informed emission inventory for industrial wastewater treatment and
+emphasizes the significance of unit-level monitoring and microbial management in designing targeted strategies
+for carbon mitigation.
+1. Introduction implementing rigorous energy optimization have become imperative for
+the wastewater industry [4,5]. GHG release during wastewater treat-
+Wastewater treatment plants (WWTPs) have emerged as significant ment is fundamentally driven by the intricate interplay between indirect
+and growing contributors to anthropogenic greenhouse gas (GHG) and direct pathways [6]. Indirect emissions arise primarily from energy-
+emissions, driven by rapid global urbanization and the expansion of intensive operations, such as aeration, pumping, and sludge treatment,
+centralized wastewater management [1]. Current estimates indicate that which largely depend on fossil fuel-based electricity [7]. Direct emis-
+WWTPs are responsible for approximately 1–2% of total societal carbon sions, on the other hand, originate mainly from on-site biological pro-
+emissions [2]. Against the backdrop of international commitments to cesses, which produce carbon dioxide (CO2), methane (CH4), and
+achieve carbon neutrality and tightening global environmental regula- nitrous oxide (N2O) [7–9]. Crucially, the dual challenge of mitigating
+tions [3], accurately elucidating GHG emission dynamics and these emissions is amplified in industrial wastewater treatment, where
+* Corresponding authors at: National Engineering Laboratory for Clean Technology of Leather Manufacture, College of Biomass Science and Engineering, Sichuan
+University, Chengdu, 610065, PR China.
+E-mail addresses: xin.cheng@scu.edu.cn(X. Cheng), zhoujf2014@scu.edu.cn(J. Zhou).
+https://doi.org/10.1016/j.jwpe.2026.110044
+Received 20 January 2026; Received in revised form 2 April 2026; Accepted 6 April 2026
+Available online 10 April 2026
+2214-7144/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+--- Page 2 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+elevated organic loading and complex pretreatment requirements Table 1
+generate GHG profiles that diverge significantly from conventional Operational parameters of various treatment units in the WWTP.
+municipal systems. Unit Surface area Volume HRT
+The production and release of these GHGs in WWTPs are intrinsically (m2) (m3) (h)
+linked to the metabolic activities of microorganisms and are funda-
+Regulating tank 346.50 2500 24
+mentally governed by the structure and function of the microbial com- Primary sedimentation tank 201.62 870 8
+munities inhabiting different treatment units [10]. The specific Hydrolytic-acidification tank 568.80 2500 120
+biochemical pathways employed under dynamically varying environ- Oxic tanks A 480.00 2700 24
+Sedimentation tank(west) 82.50 870 4
+mental conditions directly determine the type and magnitude of GHG
+Sedimentation tank (east) 82.50 870 4
+emissions. CO2 is primarily released through microbial respiration, Anoxic tank 136.00 1000 3–4
+where heterotrophic bacteria oxidize organic carbon in oxic zones to Oxic tanks B 633.60 3000 9–12
+produce energy and CO2 [11,12]. CH4, which has a global warming Final clarifier 201.62 870 4
+potential (GWP) 27 times higher than CO2, is generated exclusively by
+methanogenic archaea under strict anaerobic conditions [13], such as in
+primary sedimentation tank (PST), hydrolysis-acidification tank (HAT),
+sludge digesters, sewer biofilms, or anoxic treatment units, via the
+oxic tank A (OTA), sedimentation tank west (STW), sedimentation tank
+breakdown of organic matter through acetoclastic or hydrogenotrophic
+east (STE), anoxic tank (AT), oxic tank B (OTB), and final clarifier (FC).
+methanogenesis. N2O, a potent GHG with a GWP approximately 273
+The hydrolysis-acidification stage serves to convert refractory organic
+times that of CO2, arises largely as an intermediate during biological
+compounds into more biodegradable forms, while the subsequent
+nitrogen removal [14,15]. It is produced by ammonia-oxidizing bacteria
+anoxic/oxic zones achieve targeted nitrogen and COD removal via (de)
+(AOB) during nitrification, especially under low-DO conditions, and by
+(cid:0) nitrification and biodegradation. The concentrated activated sludge
+denitrifying bacteria that incompletely reduce nitrite (NO2) to nitrogen
+from the FC is continuously recirculated to the terminal section of the
+gas (N2). Consequently, its emission flux is highly sensitive to these and
+OTA, maintaining system stability and essential microbial biomass. All
+other operational parameters, such as sludge retention time (SRT) and
+field monitoring and strictly controlled sampling campaigns were
+total nitrogen removal efficiency, where highly efficient nitrogen
+executed during the summer peak period of July 2024. Given that bio-
+removal effectively mitigates N2O accumulation and release [16]. Thus,
+logical treatment units are recognized as major sources of GHG emis-
+the complex interplay among these microbial groups and process-
+sions in WWTPs, particular attention was paid to the oxic tanks in this
+specific parameters, such as redox conditions, substrate availability,
+study. Three spatially distributed monitoring points were established
+and hydraulic retention, collectively shapes the overall GHG emission
+along each oxic tank (i.e., OTA and OTB) to capture longitudinal vari-
+profile of a treatment plant.
+ability in GHG emission patterns.
+Despite the recognized centrality of microbial processes, current
+assessments of GHG emissions from full-scale WWTPs remain limited,
+with most studies relying on estimation models rather than systematic 2.2. On-site GHG flux and dissolved gas monitoring
+direct measurements that capture spatial and temporal variations across
+treatment units [17,18]. Moreover, integrated approaches that concur- GHG fluxes across the water-air interface of each treatment unit were
+rently monitor direct gas fluxes, dissolved GHG concentrations, and measured using a static chamber sampling technique, based on estab-
+associated microbial community structures are notably scarce. Such lished flux-box principles and assuming a linear increase in GHG con-
+multidimensional data are essential to establish mechanistic links centration inside the chamber during the monitoring period [8,21]. As
+among operational conditions, microbial ecology, and emission pat- explicitly detailed through both schematic diagrams and on-site opera-
+terns, ultimately informing targeted mitigation strategies. In this tional photographs in Fig. S1, the custom-built floating static chamber
+context, the present study conducts a comprehensive, field-based system consisting of three components: i) a buoyant frame which
+investigation of GHG emissions from an industrial tannery WWTP in allowed the device to float steadily on the surface of wastewater,
+Hebei, China, which employs a hydrolysis-acidification process coupled minimizing the disturbance from water turbulence; ii) an opaque PVC
+with anoxic/oxic (A/O) process, thereby providing a novel, spatially static chamber enclosing a known area of the water surface; and iii) an
+explicit dataset that links process-resolved GHG fluxes directly to dy- electrical control box equipped with temperature and voltage displays,
+namic microbial successions. By integrating real-time flux measure- control switches, sampling ports, and a programmable logic controller
+ments, dissolved gas monitoring, and high-throughput 16S rRNA (PLC). The PLC regulated the gas mixing and collection process via inlet
+sequencing [17,19,20], this study aims to: i) quantify the contributions and outlet nozzles connected to the chamber. Gas samples (≥100 mL
+of CO2, CH4, and N2O from individual treatment units, ii) elucidate the each) were collected at 15-min intervals over 1 h [22].
+underlying microbial drivers of these emissions, and iii) provide a Dissolved GHG concentrations in the wastewater were determined
+scientifically grounded basis for carbon-reduction strategies in indus- using a headspace equilibrium technique [23]. Water samples were
+trial wastewater treatment systems. collected concurrently from the same site as the gas flux measurements,
+using a water sampler positioned 20 cm below the surface. Samples were
+carefully transferred into 250-mL airtight serum bottles along the inner
+2. Materials and methods
+wall, which could strip dissolved gases, to avoid agitation or bubble
+formation [24]. To halt any ongoing biological activity, 1 mL of 20 mM
+2.1. Full-scale tannery WWTP and A/O process configuration
+mercury chloride was added immediately after sampling. A headspace
+was then generated by displacing a portion of wastewater with high-
+This study was conducted at a full-scale industrial WWTP located in
+purity N2 (99.999%). The bottles containing the samples were placed
+Hebei, China, which specializes in treating tannery wastewater with a
+designed treatment capacity of 3500 m3/d, with the detailed operational in a shaker and equilibrated at 35 ◦C for 1 h. After stabilization, the
+headspace gas was extracted for analysis. Concentrations of dissolved
+parameters of various treatment units, including surface area, volume,
+GHGs, i.e., N2O, CH4, and CO2, were calculated based on Henry's Law
+and hydraulic retention time (HRT), explicitly summarized in Table 1.
+(details in Text S1).
+The plant employs a hydrolysis-acidification coupled with an A/O pro-
+cess for the effective removal of nitrogen and phosphorus, which exist in
+leather manufacturing effluent with high concentration levels. As illus- 2.3. Analytical methods
+trated in the process flow diagram (Fig. 1), the influent is sequentially
+treated through the following primary units: regulating tank (RT), Concentrations of GHGs in the collected gas samples were quantified
+2
+
+--- Page 3 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Fig. 1. Diagrams of wastewater flow and the sampling points of the urban WWTP (Red points indicate the sampling locations for gas and liquid phase analysis;
+Numerical values represent the corresponding chemical oxygen demand concentrations.) (For interpretation of the references to color in this figure legend, the reader
+is referred to the web version of this article.)
+using a gas chromatograph (Shimadzu GC-2014) configured with dual on the SILVA 138.1 reference database at 99% similarity.
+detection systems. N2O concentration was analyzed by an electron
+capture detector (GC-ECD), while the concentrations of CH4 and CO2
+2.4. GHG emission and carbon footprint calculation
+were measured using a flame ionization detector (GC-FID). Both de-
+tectors were equipped with Hayasep D GC columns, with the carrier gas
+The flux of each GHG (N2O, CH4, or CO2) from the wastewater sur-
+consisting of a mixture of N2 and H2. The ECD was operated with Ar/CH4
+face of a treatment unit in the static chamber, fundamentally reflecting
+(95%/5%) as the balance gas at a detector temperature of 300 ◦C, while
+t mh 2e dlo ),c a wli az se d lg ca us l- ali tq eu di d ym Ea qs .s 1tr )a nsfer kinetics, termed as Ereactor (g/
+the FID used N2 as the balance gas and was maintained at 250 ◦C. The • ca b ( :
+column temperature was held isothermally at 60 ◦C for both detectors. ( )
+B ste af no dre rs da gm ap sele sa pn aa nly ns ii ns g, t th he ein xs pt er cu tm ede n ct nw ca es tc ra al ti ib or na t re ad gu es si .ng certified Ereactor= d dC (273M +V (1)
+a s e o n n t T)AtR
+Water quality indexes, including chemical oxygen demand (COD),
+total organic carbon (TOC), mixed liquor suspended solids (MLSS), total where d dC t is the linear rate of increase in each GHG concentration inside
+nitrogen (TN), ammonia nitrogen (NH4+ -N), nitrate (NO3(cid:0) ), and nitrite the static chamber, M (g/mol) is the molar mass of each GHG, V (m3) is
+(NO2(cid:0) ), were measured using either standard methods or rapid water the volume of the chamber headspace above the liquid surface, T (◦C) is
+quality analyzers as detailed in Text S2. As shown in Table S1, the high the temperature inside the chamber during sampling, At (m2) is the
+influent COD provided an abundant organic carbon source, fueling surface area of the enclosed area, and R (J/mol•K) is the ideal gas
+subsequent methanogenesis and denitrification. The significant COD constant, typically taken as 0.08. This calculation assumes a constant
+reduction in the PST and HAT suggests that anaerobic conditions trig- emission rate and negligible pressure change within the chamber during
+gered hydrolysis and acidogenesis, forming precursors for CH4. While the monitoring period. Evaluating the integrated climate burden by
+the sharp decline of NH4+ -N in the OTB confirms the occurrence of mathematically coupling this instantaneous flux with macroscopic
+nitrification, the accumulation of NO3(cid:0) points to incomplete nitrification reactor dimensions and hydraulic loads, the total emission of each GHG,
+[16]. This transient buildup of intermediate nitrogen implies a meta- EGHG (g/m3), is then obtained using Eq. (2):
+boli Mc ib co rott ble ian le c ck o, p mro uv ni id ti yn g rf oa fivo lir na gb l we ac so n pd erit fi oo rn ms ef do r N 2 hO gp hr -o td hu roc uti go hn p. EGHG=Sreactor Q• wEreactor
+m p b y i ut (2)
+sequencing of the 16S rRNA gene (Illumina NovaSeq PE250). Mixed li-
+quor samples of approximately 1–2 L were collected from each desig- where Sreactor (m2) is the total surface area of the corresponding treat-
+nated treatment unit. To remove large particulate debris and coarse ment tank and Qw (m3/d) is the daily capacity of wastewater treatment.
+sand, the raw sewage was first passed through four layers of sterile The direct emission from the entire process was calculated as the sum of
+medical gauze. The microbial biomass was then concentrated by emissions from all individual units.
+filtering the liquid through a 0.22 μm sterile membrane. These mem- To report total direct emissions in CO2-equivalents (CO2-eq), the
+branes were immediately sealed in sterile centrifuge tubes and trans- GWP of 273 for N2O and 27 for CH4 (over a 100-year timeframe) were
+p sto or rt ee dd ao tn d 8r 0y ◦i Cce . GU ep no on ia cr r Div Na Al a wt at sh e xl ta rb ao ctr ea dto fr ry o, mth se wsa am gep l se as mw pe lere ia np cp ll ui ded ed. iR ne tg ha er d Gin Wg C aO cc2 ue nm ti is ns gio n T, uo sn l ty et h toe tafo s ds ii rl e-d cte r Giv He Gd ef mra ic st si io on i Ts
+(cid:0) . m e e s P o . h , h l n ,
+collected from each treatment unit using a commercial soil and water (g CO2-eq/m3), is calculated by Eq. (3):
+DNA kit, following the manufacturer's protocol. Raw sequencing data
+were processed using QIIME 2. After demultiplexing, paired-end reads T=ECO2×(1(cid:0) pMC)+ECH4×27+EN2O×273 (3)
+were merged, quality-filtered, and denoised with DADA2 to infer
+where ECO2, ECH4, and EN2O are the mass emissions (g/m3) of each gas,
+amplicon sequence variants (ASVs) [25]. Taxonomic assignment of
+and pMC is the fraction of modern (biogenic) carbon in the total emitted
+representative ASVs was conducted with a Naive Bayes classifier trained
+CO2 [15].
+3
+
+--- Page 4 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Indirect GHG emissions from electrical energy use were calculated now enriched with nitrate during the treatment in the sedimentation
+based on the electricity consumption of the main operational facilities tanks (STW and STE), underwent denitrification in AT [27,28]. Due to
+within the plant, including treatment processes and auxiliary systems. the absence of aeration, the N2O generated herein was predominantly
+The indirect CO2-equivalent emission, INDE (kg CO2-eq), is estimated by sequestered in the aqueous phase rather than being discharged. Subse-
+Eq. (4) based on the 2023 baseline emission factors for the regional quent transfer to OTB triggered the most substantial emission with a flux
+power grids of China. of 464.007 ± 42.976 mg/(m2•d), attributed to the rapid stripping of
+INDE=CE×EFgrid,OM (4) a crc ec au tm edu l la ot ce ad izd ei dss o mlv ice rd aN er2 oO b. F zu or nth ee r (m Do Ore >, 0t .h 8e min gt /e Lr )m i St ute cn ht om xyi gxi en ng
+l o i c s . -
+restricted microenvironments heavily promote the coupling of hydrox-
+where CE (kWh) is the total plant electricity consumption, and EFgrid, OM
+ylamine oxidation and heterotrophic denitrification pathways [29]. The
+(kg CO2-eq/kWh) is the operating margin emission factor for the
+synergistic effect of intense physical stripping and in-situ microenvi-
+regional coal power plants in Hebei, China.
+ronmental production firmly established the OTB as the primary flux
+The total GHG emission from the WWTP was expressed in kilograms
+hotspot [30]. In the FC, the dissolved N2O concentration decreased
+of CO2-equivalents per cubic meter of wastewater treated (kg CO2-eq/
+m3). It represents the arithmetic sum of direct emissions (fossil-derived significantly due to prior extensive aeration [31], and the combination
+of quiescent flow regime and stable water surface in this unit led to a
+CO2, CH4, and N2O, all in CO2-eq) and indirect emissions from electricity
+comparatively low gaseous N2O flux [32].
+consumption.
+While spatial flux delineates the localized kinetic intensity of gas
+release at the water-air interface, assessing the absolute environmental
+3. Results and discussion
+burden requires integrating these rates across the macroscopic engi-
+neering dimensions. Consequently, when scaled by surface area and
+3.1. Spatial variations in direct GHG emissions across treatment units
+flow rate, the total N2O emission (in CO2-equivalents) from each unit
+further highlighted the dominance of specific compartments as shown in
+3.1. N1 2. OS p fla uti xa el h eet xe hr io bg ie tn ee di ty ro of N ou2O fl eu dx se ps aa tn iad e hm ei ts es rio on gs
+Fig. 2b. The OTB contributed 13.377 ±0.964 gCO2-eq/m3, accounting
+s p n nc l eneity across the
+for 58.28% of the total direct N2O emissions of the WWTP, a conse-
+treatment train, reflecting the distinct redox conditions and microbial
+quence of its high flux and the largest water surface area among bio-
+activities in each unit. As shown in Fig. 2a, N2O fluxes followed a clear
+logical tanks. The HAT also emerged as a notable source, largely due to
+systematic variation trend among various treatment units, with the OTB
+exhibiting the highest flux at 464.007 ±42.976 mg/(m2•d), followed by its extended hydraulic retention time and considerable surface area,
+which together promoted the prolonged emission of accumulated N2O
+OTA, HAT, FC, PST, AT, RT, STW, and STE (details in Table S2). The RT
+contributed a low flux at 11.121 ±2.001 mg/(m2•d), consistent with its [33]. In addition, dissolved N2O dynamics (Fig. 2c) revealed a pro-
+low dissolved N2O concentration (0.00013 ± 0.00003 mg/L) and the n cho au rn ac ce td a izc ec du m bu la reti co an p ita rt at ner n a rglo an ng t sh e t Ore Dat m =e 4n 2t 1tr a min g. I Ln ,t h the A sT su tn ei mt,
+er y lc t o ic (C / ) e y
+absence of mechanical or biological agitation during wastewater treat-
+ment. A moderate increase to 18.910 ±3.001 mg/(m2•d) was observed suffered from electron donor limitations that directly triggered incom-
+plete heterotrophic denitrification. Consequently, unreduced N2O
+in the PST, where weak mechanical mixing slightly enhanced gas
+accumulated in the liquid phase to a peak of 0.00343 ±0.00087 mg/L.
+release. As an unaerated zone, the HAT allowed gradual accumulation of
+Contrasting with its minimal gaseous flux, this elevated dissolved con-
+N2O derived from preceding anaerobic reactions, yielding a measurable
+centration identifies the non-aerated AT as a critical reservoir, seques-
+emission flux. Upon entering the OTA, the system faced a severe oxygen
+deficit (DO <0.5 mg/L) driven by high incoming organic and nitroge- tering N2O before its advection and subsequent burst emission in the
+OTB. Ultimately, these spatial dynamics elucidate that plant-wide N2O
+nous loads. This extreme hypoxic stress significantly perturbed the
+footprints are not merely products of isolated microbial hotspots.
+metabolism of AOB. While both hydroxylamine oxidation and nitrifier
+Rather, they emerge from the complex interplay between localized
+denitrification might trigger N2O production, the sustained low-DO
+biochemical bottlenecks (e.g., electron donor deficiency), the inter-unit
+environment suggests that nitrifier denitrification was likely the pre-
+advective transport of dissolved gases, and macroscopic engineering
+dominant pathway in this unit. Under such stringent oxygen limitation,
+parameters including hydraulic retention time and exposed surface area.
+AOB tended to utilize nitrite as an alternative electron acceptor for en-
+ergy conservation, a process that inherently yields higher N2O emissions
+3.1.2. Spatial heterogeneity of CH4 fluxes and emissions
+compared to the hydroxylamine pathway [26]. Concurrently, this oxy-
+CH4 fluxes and emissions demonstrated a distinct spatial pattern
+gen limitation fostered the formation of anoxic micro-niches inside the
+across the treatment units, with the detailed numerical values in
+sludge flocs. Facilitating localized heterotrophic denitrification, this
+microenvironmental shift led to a marked rise in N2O flux to 41.723 ± Table S3. As shown in Fig. 3a, a release flux of 2.104 ±0.181 g/(m2•d)
+9.987 mg/(m2•d), which is further corroborated by the microbial was recorded upon entering the RT, suggesting that CH4 generated
+within the upstream sewer networks reached the WWTP in a supersat-
+community profiling discussed in subsequent sections. A key shift
+urated dissolved state and underwent initial physical desorption [34].
+occurred following the oxic stage. When leaving the OTA, the effluent,
+Fig. 2. Visual representation of N2O variation from different treatment units, including N2O flux (a), N2O emission (b), and dissolved N2O concentration (c).
+4
+
+--- Page 5 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Fig. 3. Visual representation of CH4 variation from different treatment units, including CH4 flux (a), CH4 emission (b), and dissolved CH4 concentration (c).
+When the wastewater entered the PST, the continuous settling of sus- layer was severely restricted. Consequently, the HAT acted as a massive
+pended solids formed a dense sludge layer at the bottom. This benthic thermodynamic sink, profoundly sequestering CH4 in the aqueous phase
+accumulation rapidly depleted residual dissolved oxygen and estab- rather than releasing it as a gaseous flux. Following the transition to
+lished a strict anaerobic microenvironment. Consequently, methano- aerobic stages, intensive aeration effectively stripped the remaining
+genic archaea thrived on the concentrated organic matter and initiated dissolved CH4, causing the concentrations to drop sharply from the OTA
+substantial localized methane production. Because this localized gen- onwards and approach near-zero levels by the end of the treatment train
+eration rate exceeded the aqueous solubility threshold, the methane [38].
+underwent a rapid phase transition. Facilitated by transport mechanisms In summary, CH4 emissions in this A/O-based system were largely
+involving microbubbles and minimal contact time with the overlying governed by two parallel paths, including i) rapid release of pre-formed
+water column, the gas bypassed the dissolved phase and escaped directly CH4 from the sewer network, enhanced by in-situ production and effi-
+into the atmosphere [35,36]. This localized supersaturation and subse- cient stripping in the PST, and ii) accumulation and moderated emission
+quent physical release generated the highest observed flux of approxi- of CH4 produced in the HAT, where metabolic activity was high, but gas
+mately 399.524 ±20.020 g/(m2•d). In the HAT, complex organics were transfer was limited. This spatial decoupling between production,
+converted into volatile fatty acids (VFAs, e.g., acetate and propionate), accumulation, and release underscores the importance of considering
+which served as direct substrates for methanogenic archaea but simul- both physicochemical and microbiological drivers when designing CH4
+taneously suppressed their metabolic activity through the hydrolytic- mitigation strategies for industrial wastewater treatment plants.
+acidogenic processes. Limited mixing in the HAT created stratified mi-
+croenvironments, i.e., deeper anaerobic zones within sludge deposits, to 3.1.3. Spatial heterogeneity of CO2 fluxes and emissions
+support active methanogenesis [37], while the main liquid zone was The spatial distribution of CO2 across the treatment train exhibited a
+dominated by acidogenic bacteria with lower methane-yielding capac- profile fundamentally distinct from that of CH4, with flux and emission
+ity. Unlike the rapid phase transition observed in the PST, methano- maxima primarily localized within the biochemical treatment units
+genesis in the HAT was dispersed and lacked the intensity to reach local (details in Table S4). As shown in Fig. 4a, upon entering the RT, raw
+supersaturation, rendering the mass transfer heavily reliant on slow wastewater exhibited a relatively low flux, driven mainly by the physical
+molecular diffusion. This combination of biological suppression and desorption of inorganic carbon conveyed by the influent. The flux
+physical diffusion limitation collectively led to comparatively lower CH4 increased moderately in the PST, where biological activity remained
+fluxes from the HAT than the PST. A slight rebound in flux occurred in limited, and the unit primarily facilitated physical sedimentation.
+the OTA (20.994 ± 1.903 g/(m2•d)), attributable to the aeration- Notably, the CO2 flux from the HAT was comparable to that of the OTA,
+induced stripping of residual dissolved methane. Beyond this point, despite the absence of aeration in the former. This substantial release
+CH4 fluxes declined to negligible levels in subsequent aerobic and anoxic was driven by concurrent biological and chemical mechanisms. During
+units, as elevated dissolved oxygen strongly suppressed methanogenic hydrolytic-acidogenic conversions, microbial degradation of high
+activities and promoted the aerobic oxidation of any residual CH4. organic loads directly emitted CO2. Concurrently, the biological accu-
+Fig. 3b shows the CH4 emissions and further highlights the impor- mulation of volatile fatty acids lowered the local pH. This acidification
+tance of the early treatment stages. The PST was the dominant emission thermodynamically forced the inherent inorganic carbon, which pri-
+source, yielding 833.293 ± 50.648 gCO2-eq/m3 and contributing marily originated from the carbonate and bicarbonate alkalinity char-
+60.18% of the total gaseous CH4 emissions of the WWTP. Despite its acteristic of the raw tannery influent and was continuously transported
+moderate flux, the HAT emerged as the second-largest emission source through the upstream units, to shift equilibrium and convert into dis-
+(441.954 ±42.547 gCO2-eq/m3) due to its extensive surface area and solved CO2 [39,40]. Furthermore, the exceptionally slow mechanical
+prolonged hydraulic retention time. In addition, the dissolved CH4 mixing in the absence of active aeration severely restricted interfacial
+concentration depicted in Fig. 3c revealed a complementary accumu- mass transfer. This restricted physical release effectively trapped a
+lation pattern that directly explains the apparent discrepancy between massive amount of the generated CO2 in the liquid phase, while the
+the PST and HAT flux dynamics. While the concentration in the RT was sheer magnitude of internal generation simultaneously sustained a
+nearly negligible, the PST maintained a low dissolved concentration prominent continuous gaseous flux. In the following OTA unit, CO2
+despite its massive gaseous flux. This confirms that the gaseous CH4 fluxes were predominantly driven by aerobic heterotrophic respiration,
+produced in the PST escaped predominantly via the aforementioned wherein microbial degradation of organic substrates produced CO2 as a
+transport mechanisms involving micro bubbles, preventing significant metabolic byproduct. Concurrently, moderate aeration stripped dis-
+dissolution into the aqueous phase. Conversely, a significant increase solved CO2 through enhanced gas-liquid interfacial exchange. CO2
+was observed in the HAT, which exhibited the highest dissolved CH4 fluxes attenuated substantially during wastewater transit through the
+levels. Functioning as a system without intense mechanical agitation or intermediate sedimentation tanks (STW, STE) and the AT. The sedi-
+aeration, the volumetric mass transfer coefficient at the air-water mentation tanks operated principally via physical settling, with negli-
+interface of the HAT remained exceptionally low. Driven solely by gible biological degradation or turbulence-induced emission. In the AT,
+sluggish molecular diffusion, the transport of CH4 across the boundary functioning as a denitrification unit, microbial communities utilized
+5
+
+--- Page 6 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Fig. 4. Visual representation of CO2 variation from different treatment units, including CO2 flux (a), CO2 emission (b), and dissolved CO2 concentration (c).
+nitrate as the terminal electron acceptor for organic matter decompo- contributions of N2O and fossil-derived CO2, establishing an over-
+sition, with CO2 generation occurring merely as a secondary metabolic whelming methanogenic footprint that indicates the prevalent forma-
+byproduct. Furthermore, the anoxic environment suppressed the het- tion of localized anaerobic microenvironments within the HAT. While
+erotrophic bacterial activities, collectively resulting in diminished CO2 the unit primarily serves as a preliminary acidification stage for mo-
+fluxes. Notably, a pronounced flux resurgence occurred in the OTB, lecular breakdown, the development of these internal anaerobic zones
+which recorded the highest CO2 flux across the entire process, attributed facilitates concurrent and extensive methanogenesis. Consequently, this
+to the intense aerobic degradation of residual organic matter, coupled prominent CH4 generation acts as a substantial carbon drain for the
+with the vigorous stripping of both newly produced CO2 and the dis- entire biochemical system, as valuable organic matter intended for
+solved CO2 carried over from the preceding anoxic stage. Finally, flux downstream biological nutrient removal is prematurely stripped from
+receded to 59.340 ±13.496 g/(m2•d) in the FC, as microbial endoge- the aqueous phase and lost to the atmosphere as gaseous carbon. This
+nous respiration slowed down and weak agitation inhibited further gas unintended spatial decoupling reduces the availability of essential car-
+release. bon sources and thereby limits subsequent denitrification efficiencies.
+When expressed as cumulative emissions per volume of treated
+wastewater, Fig. 4b shows the total gaseous CO2 emissions. HAT 3.2. Microbial community structure with its mechanistic link to GHG
+demonstrated dominant contributions, discharging 198.659 ± 33.412 emissions
+gCO2-eq/m3 and accounting for 67.4% of the total gaseous CO2 release
+across the entire A/O process. Although its instantaneous flux was lower High-throughput 16S rRNA gene sequencing was employed to
+than that of OTB, the significantly longer hydraulic retention time in the resolve the microbial community structure across all treatment units,
+HAT led to the highest integrated emission. Dissolved CO2 concentra- providing a biological framework to interpret the spatial heterogeneity
+tions provided further mechanistic insights, as shown in Fig. 4c. The of GHG emissions. After rigorous quality control, chimera removal, and
+HAT exhibited the highest dissolved concentration (26.21934 ± denoising using the DADA2 pipeline, a total of 5512 high-quality
+4.26173 mg/L), confirming that the synergistic effect of biological amplicon sequence variants (ASVs) were obtained for downstream
+organic loading and chemical inorganic carbon conversion, combined analysis. Sequencing depth was sufficient for all samples, with Q30
+with limited gas-phase renewal under mechanical agitation, facilitated scores consistently exceeding 97.6%.
+substantial liquid-phase accumulation. Conversely, the introduction of
+aeration in the downstream OTA and OTB fundamentally altered this 3.2.1. Microbial diversity and community succession along treatment units
+equilibrium. Notably, the OTB maintained minimal residual levels An integrated assessment of alpha- and beta-diversity revealed pro-
+(2.70062 ± 0.29610 mg/L) despite its high flux, demonstrating that nounced ecological succession along the treatment train, corresponding
+intense aeration derived rapid interfacial stripping and depleting the to the shifting redox and substrate conditions. As shown in Fig. 5a,
+dissolved pool effectively. The subsequent concentration rebound following the confirmation of sampling sufficiency via rarefaction
+observed in the FC further indicates that the cessation of active stripping curves, the Chao1 index, a measure of species richness, demonstrated a
+facilitated the re-accumulation of endogenous respiratory byproducts. significant increase within the core biological units relative to the
+influent, particularly the HAT, OTB, STE, and AT. This elevated richness
+3.1.4. Quantification of total direct GHG emissions suggests that the development of a functionally robust and redundant
+The total direct GHG emissions from the WWTP were calculated by community might enhance system stability and resilience against fluc-
+aggregating the CO2-equivalent emissions of N2O, CH4, and the fossil- tuating operational loads, thereby indirectly influencing steady-state
+derived fraction of CO2, as derived from the unit-specific fluxes and GHG production rates. Complementing this richness profile, the Shan-
+emissions. Consistent with the Intergovernmental Panel on Climate non index (Fig. 5b) and Simpson index (Fig. 5c) provided insights into
+Change (IPCC) methodology [41], CO2 emissions from fossil sources and community evenness and structural complexity with detailed corre-
+biogenic origins are assigned a GWP factor of 1 kgCO2-eq/kg and sponding Dominance indices and Rarefaction curves of observed fea-
+0 kgCO2-eq/kg, respectively. In this study, the proportion of fossil car- tures and good's coverages in Figs. S2–S4. The biological treatment
+bon in the total organic carbon (TOC) of the influent was conservatively stages have evolved into a mature, highly diverse community architec-
+estimated at 10%, within the reported range of 4–20% for typical in- ture capable of sustaining complex metabolic networks. The high
+dustrial wastewaters [24,42,43], with the remaining 90% to biogenic evenness observed in the HAT was of particular ecological importance,
+origins, thus not contributing to the GWP. The resulting direct emis- as it likely reflected a balanced syntrophic partnership between hydro-
+sions, expressed in CO2-equivalents per cubic meter of wastewater lytic/acidogenic bacteria and methanogenic archaea. This balance was
+treated, were determined as 22.943 ± 2.343 gCO2-eq/m3 for N2O, critical for maximizing the conversion of complex organics to volatile
+1384.867 ±103.973 gCO2-eq/m3 for CH4, and 29.209 ±5.887 gCO2- fatty acids while preventing the unchecked dominance of methanogens,
+eq/m3 for CO2, revealing that the plant's direct climate impact was which would otherwise lead to excessive CH4 emissions [44,45].
+overwhelmingly driven by CH4, which accounted for 96.5% of the total Fig. 6illustrates the spatiotemporal succession trajectory of the mi-
+direct emissions. This proportion significantly exceeds the combined crobial community along the treatment process through Beta diversity
+6
+
+--- Page 7 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Fig. 5. Alpha diversity index of bacterial community: (a) Chao1; (b) Shannon; (c) Simpson.
+Fig. 6. Beta diversity indexes of bacterial community for PCoA (a) and NMDS (b).
+analysis based on Weighted UniFrac distances, including Principal Co- terminal OTB unit. While the OTB establishes a mature aerobic com-
+ordinate Analysis (PCoA) and Non-metric Multidimensional Scaling munity and restores intense respiratory metabolism as evidenced by the
+(NMDS). The first principal coordinate (PC1) explains 52.19% of the release of CO2, this abrupt high-load shock imposes physiological stress
+structural variance, reflecting the overall succession trend along the on the microorganisms. Such a high-pressure environment hinders the
+treatment gradient. Within this general trend, a distinct spatial separa- metabolic pathways of nitrogen transformation, ultimately triggering
+tion is evident between the two aerobic stages. Notably, the replicates of the explosive emission of N2O in the OTB unit [47].
+OTA do not cluster with the downstream oxidative units but instead
+exhibit a strong topological affinity for the upstream units, clustering 3.2.2. Taxonomic succession and functional partitioning governing GHG
+tightly with the HAT and PST in the right quadrant. In contrast, the OTB pathways
+clearly diverges from this region, migrating to the left quadrant. This As shown in Fig. 7, the taxonomic profiling at the phylum level de-
+significant compartmentalization reveals a severe structural lag in the lineates a distinct microbial succession driven by substrate availability,
+early aerobic stage, indicating that the OTA microbiome remains wherein Pseudomonadota constituted the ubiquitously dominant phylum
+structurally dominated by influent anaerobic populations rather than throughout the system, attributable to its exceptional metabolic versa-
+immediately acclimatizing to the aerobic environment. A definitive tility across oscillating redox gradients. Concurrently, the pronounced
+ecological regime shift is only observed as the wastewater transitions to enrichment of Bacteroidota and Bacillota in the initial treatment units
+OTB. As visualized in the NMDS plot (Stress =0.03), the OTB separates underscores their crucial ecological roles in the primary hydrolysis and
+sharply from the anaerobic/OTA legacy cluster and coalesces with the fermentation of the complex and recalcitrant organic substrates char-
+mature activated sludge core (the AT and FC). This spatial decoupling acteristic of tannery wastewater. The most salient finding for GHG
+between the OTA and OTB highlights that the establishment of a func- interpretation was the selective enrichment of the methanogenic
+tional oxidative consortium is not instantaneous but requires a stabili- archaeal phylum Halobacteriota within the anaerobic environments of
+zation period to overcome the ecological resilience of the incoming the PST and HAT, offering direct and compelling microbiological evi-
+anaerobic microbiome. This delayed successional pattern corresponds to dence for identifying these zones as the key biological hotspots for CH4
+the greenhouse gas emission characteristics described earlier [46]. The biosynthesis and emission. In addition, the discernible presence of
+persistence of an anaerobic-like community structure in the OTA facil- Campilobacterota in the OTA suggests the occurrence of active denitri-
+itates the survival of methanogens, leading to the residual CH4 emissions fication niches even under aerobic conditions. This metabolic plasticity
+observed in this unit. Furthermore, this lag results in the direct transfer served as a potent precursor pathway for N2O generation, as fluctuating
+of pollutant loads, which should have been removed in the OTA, to the oxygen tensions could lead to incomplete denitrification. The presence
+7
+
+--- Page 8 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+Fig. 7. Microbial community composition at the phylum level across different treatment units.
+Fig. 8. Heatmap and clustering analysis of the microbial community composition at the genus level across different treatment units in the WWTP.
+8
+
+--- Page 9 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+of this phylum thus provides a plausible microbial mechanism for the intrinsically linked to the biological performance and process
+N₂O emissions recorded from the aerobic tanks, bridging community configuration.
+composition to process function [31,48]. The integration of these parallel emission streams yields a total GHG
+Genus-level analysis provided higher-resolution insights into the emission intensity of 4510.220 ±112.202 gCO2-eq/m3 for the WWTP,
+functional guilds driving GHG dynamics, as shown in Fig. 8with taxo- revealing that direct and indirect emissions contribute 31.9% and
+nomic profiles of the five additional hierarchical levels in Fig. S5. Spe- 68.1%, respectively, to the overall carbon footprint. While the indirect
+cifically, the HAT was distinctly enriched with Methanomicrococcus, a emissions from energy use constitute the larger share, the dispropor-
+hydrogenotrophic methanogen, as a critical hotspot for methanogenesis tionate global warming potential embodied in the direct methane flux
+[49,50]. The co-occurrence of this archaeon with fermentative genera, e. renders it an equally critical target. Even a smaller mass emission
+g., Proteiniclasticum and Acetoanaerobium, delineated a syntrophic con- translates into a massive climate forcing effect, as evidenced by its
+sortium to catalyze the sequential depolymerization of complex organic 96.4% domination of the direct emission budget. This co-dominance
+matter into accessible precursors (e.g., acetate, H2, and CO2), thereby structure indicates that neither pathway can be marginalized in a
+providing the essential thermodynamic substrates required to drive credible mitigation strategy. Focusing solely on energy efficiency would
+methanogenesis and resultant CH4 emissions. In the oxic and anoxic leave a significant, microbiology-driven methane source unaddressed.
+tanks, a high relative abundance of the genus Denitratisoma was Conversely, targeting only methanogenesis would neglect the larger,
+observed. As a known denitrifier, its prominence signals a high potential albeit lower-GWP-per-unit, stream of CO2 from fossil-fuel combustion
+for N2O production, especially under the dynamic dissolved oxygen for electricity. While this study systematically elucidates the spatial
+conditions prevalent in these tanks, which can inhibit the N2O reduction heterogeneity of greenhouse gas emissions across the full-scale tannery
+to N2 in the denitrification pathway. Concurrently, the ecological wastewater treatment plant, field monitoring was exclusively conducted
+landscape was further complicated by the presence of sulfur-cycling during the summer peak period. This timeframe represents a temporal
+genera, including Sulfurovum, Arcobacter, and Desulfuromonas, which limitation but concurrently captures the peak emission profile of the
+introduced a competitive regulatory mechanism based on the thermo- facility. The elevated summer temperatures maximize the metabolic
+dynamic hierarchy of electron acceptors. These bacteria compete activities of methanogenic and nitrogen-converting bacteria, revealing
+aggressively with methanogens for common electron donors (specif- the absolute maximum emission potential of the biological treatment
+ically H2 and acetate) and, due to the higher energy yield of sulfate process. To fully understand these temporal shifts, ongoing future
+reduction compared to methanogenesis, effectively modulate the carbon research will incorporate continuous monitoring to evaluate the diurnal,
+flow away from CH4 production, ultimately defining the net greenhouse seasonal, and annual emission dynamics.
+gas footprint through redox-controlled community assembly [51].
+4. Conclusions
+3.3. Integrated carbon footprint analysis balancing direct and indirect
+emission pathways The direct GHG emissions from the evaluated industrial tannery
+wastewater treatment process were overwhelmingly dominated by CH4
+A holistic carbon footprint assessment was conducted to quantify the contributing 96.4%. This was conclusively linked to the selective
+integrated climate impact of the full-scale hydrolysis-acidification/A/O enrichment of methanogenic archaea within the HAT, revealing that this
+process, aiming to weigh the relative contributions of biologically driven pretreatment unit functions as a critical methanogenic hotspot. The total
+direct emissions against energy-derived indirect emissions. The direct carbon footprint reached 4510.220 ±112.202 gCO2-eq/m3, with indi-
+GHG emissions, originating from on-site microbial activities across all rect emissions from energy consumption comprising the larger share,
+treatment units, were quantified at 1437.021 ±112.202 gCO2-eq/m3. establishing a co-dominance structure of GHG emissions. While indirect
+While typical municipal wastewater treatment plants generally process emissions from aeration dominate the total mass, the high global
+readily biodegradable organics using conventional activated sludge warming potential of the process-derived CH4 constitutes a dispropor-
+configurations, yielding emission profiles dominated by N2O [52], the tionately significant climate impact. Consequently, effective decarbon-
+investigated full-scale tannery wastewater treatment system handles an ization cannot prioritize one pathway but requires a dual-strategy
+extreme influx of recalcitrant proteins, lipids, and synthetic chemical imperative. Mitigation must simultaneously target the microbial ecology
+agents. Managing such complex industrial compositions necessitates of anaerobic units to suppress methanogenesis and pursue radical en-
+extensive pretreatment architectures featuring prolonged hydraulic ergy efficiency in aerobic zones. Translating these dual objectives into
+retention times. Driven by these massive organic loadings and extended actionable measures requires a condition-dependent mitigation frame-
+reaction periods, the preliminary units accommodate exceptionally high work. Under conventional organic loads, introducing trace dissolved
+biological demands and consequently establish the HAT as the absolute oxygen or strategically dosing sulfate can thermodynamically suppress
+primary source of these emissions. The microbial forensic analysis links methanogenic archaea in the HAT. However, these interventions entail
+this anomaly to the selective enrichment of methanogenic archaea potential operational considerations. Specifically, trace oxygenation
+within the HAT's anaerobic microenvironments. Thus, the direct emis- might partially oxidize the volatile fatty acids needed for downstream
+sion portfolio is not merely a sum of gases but a direct reflection of denitrification, while sulfate dosing can lead to hydrogen sulfide gen-
+process-driven microbial ecology. Concurrently, the indirect GHG eration, which requires appropriate odor management and infrastruc-
+emissions attributable to electrical energy consumption for plant oper- ture maintenance. Conversely, during extreme shock loads where
+ation were calculated as 3073.200 gCO2-eq/m3, derived from meticu- localized methanogenesis becomes irreversible, installing enclosed
+lous accounting of energy use and application of the regional grid biogas recovery systems provides a necessary physical failsafe for energy
+emission factor (details in Table S5) for the regional power grid in Hebei, capture. Concurrently, transitioning from rigid timed cycles to dynamic
+China. The principal driver of this substantial indirect footprint is the aeration control in the OTB prevents the drastic anoxic-aerobic fluctu-
+intensive aeration required in the oxic tanks, necessary to meet the ox- ations that trigger nitrous oxide emissions. This tiered approach un-
+ygen demand for carbon oxidation and nitrification of the complex derscores the necessity of moving beyond generic models to spatially
+tannery wastewater. The identified microbial community in the OTA, explicit, microbiology-informed monitoring for developing targeted
+where the microbiome retained anaerobic characteristics, suggests carbon-mitigation strategies in industrial wastewater systems. As a
+suboptimal biodegradation kinetics in the first aerobic stage. This likely critical next step to complement this spatial framework, future in-
+transferred a higher pollutant load to the downstream OTB, increasing vestigations should incorporate continuous long-term monitoring to
+its aeration burden and, consequently, the indirect carbon footprint. systematically evaluate the diurnal, seasonal, and annual temporal dy-
+Therefore, the indirect emissions are not a fixed overhead but are namics of greenhouse gas emissions in full-scale treatment facilities.
+9
+
+--- Page 10 ---
+W. Kong et al. J o u r n a l o f W a t e r P r o c e s s E n g i n e e r i n g 87 (2026) 110044
+CRediT authorship contribution statement [10] C.A. Dykes, J. Pearson, G.D. Bending, S. Abolfathi, Spatial and temporal dynamics
+of methane and carbon dioxide fluxes in a constructed wetland, J. Water Process
+Eng. 76 (2025) 108130, https://doi.org/10.1016/j.jwpe.2025.108130.
+Weiwei Kong: Writing – review & editing, Writing – original draft, [11] Y. Chong, H. Li, T. Pan, L. You, H. Du, B. Yu, J. Chen, N. Ren, L. Lu, More
+Investigation, Formal analysis, Data curation. Rui Dai: Writing – review applicable quantification of non-CO2 greenhouse gas emissions from wastewater
+& editing, Conceptualization. Zhaohui Yang: Investigation. Qinyang treatment plants by on-site plant-integrated measurements, Sci. Total Environ. 929
+Li: Investigation. Xin Cheng: Writing – review & editing, Supervision. (2024) 172598, https://doi.org/10.1016/j.scitotenv.2024.172598.
+[12] T.K.L. Nguyen, H.H. Ngo, W. Guo, S.W. Chang, D.D. Nguyen, L.D. Nghiem, Y. Liu,
+Yuling Tang: Writing – review & editing, Supervision. Jianfei Zhou: B. Ni, F.I. Hai, Insight into greenhouse gases emissions from the two popular
+Writing – review & editing, Supervision, Resources, Funding acquisition, treatment technologies in municipal wastewater treatment processes, Sci. Total
+Conceptualization. Bi Shi: Writing – review & editing, Supervision, Environ. 671 (2019) 1302–1313, https://doi.org/10.1016/j.
+scitotenv.2019.03.386.
+Resources. [13] J. Zhuo, R. Zheng, Z. Luan, L. Li, S. Xi, Z. Du, W. He, C. Sun, X. Zhang, Advancing
+anaerobic microbial studies with in situ raman spectroscopy: methanogenic
+archaea as a model, Spectrochim. Acta A Mol. Biomol. Spectrosc. 336 (2025)
+Declaration of competing interest 126043, https://doi.org/10.1016/j.saa.2025.126043.
+[14] M. Ji, H. Liao, Z. Lu, L. Mao, X. Zhou, F. Yang, D. Feng, Q. Wang, Analyzing the
+The authors declare that they have no known competing financial variation of greenhouse gas emissions from typical municipal wastewater
+treatment plants in Beijing during 2007–2021, Environ. Pollut. (Barking, Essex:
+interests or personal relationships that could have appeared to influence 1987) 360 (2024).
+the work reported in this paper. [15] G. Rodriguez-Garcia, A. Hospido, D.M. Bagley, M.T. Moreira, G. Feijoo,
+A methodology to estimate greenhouse gases emissions in life cycle inventories of
+wastewater treatment plants, Environ. Impact Assess. Rev. 37 (2012) 37–46.
+Acknowledgments [16] D. Di, M. Xue, C. Ping, X. Zhou, Tuning the influent sulfur-to-nitrogen ratio to
+mitigate nitrous oxide emissions in a sulfite-driven autotrophic denitrification
+This work was supported by the Jing-Jin-Ji Regional Integrated system, Bioresour. Technol. 445 (2026) 134126, https://doi.org/10.1016/j.
+biortech.2026.134126.
+Environmental Improvement-National Science and Technology Major
+[17] W. Chen, Q. Zhang, L. Hu, Y. Geng, C. Liu, Understanding the greenhouse gas
+Project (2025ZD1203500), Sichuan Science and Technology Program emissions from China’s wastewater treatment plants: based on life cycle assessment
+(2025ZNSFSC1255), and China Postdoctoral Science Foundation coupled with statistical data, Ecotoxicol. Environ. Saf. 259 (2023) 115007, https://
+doi.org/10.1016/j.ecoenv.2023.115007.
+(2023M732424).
+[18] T.K.L. Nguyen, H.H. Ngo, W. Guo, L.D. Nghiem, G. Qian, Q. Liu, J. Liu, Z. Chen, X.
+T. Bui, B. Mainali, Assessing the environmental impacts and greenhouse gas
+Appendix A. Supplementary data emissions from the common municipal wastewater treatment systems, Sci. Total
+Environ. 801 (2021) 149676, https://doi.org/10.1016/j.scitotenv.2021.149676.
+[19] V. Aghabalaei, H. Nayeb, S. Mardani, M. Tabeshnia, M. Baghdadi, Minimizing
+Supplementary data to this article can be found online at https://doi. greenhouse gases emissions and energy consumption from wastewater treatment
+org/10.1016/j.jwpe.2026.110044. plants via rational design and engineering strategies: a case study in Mashhad, Iran,
+Energy Rep. 9 (2023) 2310–2320, https://doi.org/10.1016/j.egyr.2023.01.017.
+[20] V. Monje, M. Owsianiak, H. Junicke, K. Kjellberg, K.V. Gernaey, X. Flores-Alsina,
+Data availability Economic, technical, and environmental evaluation of retrofitting scenarios in a
+full-scale industrial wastewater treatment system, Water Res. 223 (2022) 118997,
+https://doi.org/10.1016/j.watres.2022.118997.
+Data will be made available on request.
+[21] M. Bai, Z. Wang, J. Lloyd, D. Seneviratne, T. Flesch, Z. Yuan, D. Chen, Long-term
+onsite monitoring of a sewage sludge drying pan finds methane emissions
+References consistent with IPCC default emission factor, Water Res. X 19 (2023) 100184,
+https://doi.org/10.1016/j.wroa.2023.100184.
+[22] J.P. Silva, A. Lasso, H.J. Lubberding, M.R. Pen˜a, H.J. Gijzen, Biases in greenhouse
+[1] N.T. Tung Lam, L.T.L. Anh, T. Le Luu, Greenhouse gas emissions in industrial
+gases static chambers measurements in stabilization ponds: comparison of flux
+wastewater treatment: technologies, challenges, and strategies, Curr. Opin.
+estimation using linear and non-linear models, Atmos. Environ. 109 (2015)
+Environ. Sci. Health 47 (2025) 100661, https://doi.org/10.1016/j. 130–138, https://doi.org/10.1016/j.atmosenv.2015.02.068.
+coesh.2025.100661.
+[23] M.M. Calvert, M.A. Davidson, A. Nunez Garcia, K.G. Mumford, Measuring changes
+[2] X. Zheng, K.L. Lam, An overview of environmental co-benefits and trade-offs to
+in background dissolved gases to evaluate multi-component gas dissolution:
+reduce greenhouse gas emissions in municipal wastewater management,
+Sustainable Prod. Consumption 46 (2024) 1–10, https://doi.org/10.1016/j. laboratory experiments and implications for stray gas monitoring, Adv. Water
+Resour. 186 (2024) 104654, https://doi.org/10.1016/j.advwatres.2024.104654.
+spc.2024.02.002.
+[24] Z. Bao, S. Sun, D. Sun, Assessment of greenhouse gas emission from A/O and SBR
+[3] Z. Zhang, F. Qi, Y. Liu, M.B. Asif, A. Ikhlaq, Z. Wang, C. Chen, C. Li, J. Chang, Q. Li,
+wastewater treatment plants in Beijing, China, Int. Biodeter. Biodegr. 108 (2016)
+Y. Li, Y. Li, Y. Jia, Y. Liu, B. Xu, D. Sun, Comprehensive assessment, intelligent 108–114, https://doi.org/10.1016/j.ibiod.2015.11.028.
+prediction, and precise mitigation strategies for greenhouse gas emissions in full-
+[25] M.A. El-Liethy, B.A. Hemdan, G.E. El-Taweel, New insights for tracking bacterial
+scale wastewater treatment plants, Environ. Res. 270 (2025) 121052, https://doi.
+community structures in industrial wastewater from textile factories to surface
+org/10.1016/j.envres.2025.121052.
+water using phenotypic, 16S rRNA isolates identifications and high-throughput
+[4] S. Borzooei, Y. Amerlinck, D. Panepinto, S. Abolfathi, I. Nopens, G. Scibilia,
+sequencing, Acta Trop. 238 (2023) 106806, https://doi.org/10.1016/j.
+L. Meucci, M.C. Zanetti, Energy optimization of a wastewater treatment plant
+actatropica.2022.106806.
+based on energy audit data: small investment with high return, Environ. Sci. Pollut.
+Res. 27 (15) (2020) 17972–17985, https://doi.org/10.1007/s11356-020-08277-3. [26] L. Strubbe, H. Keck, P.M. Magyar, J. Mohn, A. Joss, A. Froemelt, Activating specific
+N2O production pathways to understand emission dynamics in wastewater
+[5] S. Borzooei, G.H.B. Miranda, S. Abolfathi, G. Scibilia, L. Meucci, M.C. Zanetti,
+treatment, Water Res. 296 (2026) 125580, https://doi.org/10.1016/j.
+Application of unsupervised learning and process simulation for energy
+watres.2026.125580.
+optimization of a WWTP under various weather conditions, Water Sci. Technol. 81
+(8) (2020) 1541–1551, https://doi.org/10.2166/wst.2020.220. [27] Y. Lv, X. Chen, X. Zhang, C. Zhu, Y. Pan, T. Sun, L. Wang, Denitrification for acidic
+wastewater treatment: long-term performance, microbial communities, and nitrous
+[6] Z. Shang, C. Cai, Y. Guo, X. Huang, K. Peng, R. Guo, Z. Wei, C. Wu, S. Cheng, oxide emissions, J. Biosci. Bioeng. 134 (6) (2022) 513–520, https://doi.org/
+Y. Liao, C.-Y. Hung, J. Liu, Direct and indirect monitoring methods for nitrous
+10.1016/j.jbiosc.2022.09.006.
+oxide emissions in full-scale wastewater treatment plants: a critical review,
+[28] S. Sun, Z. Bao, R. Li, D. Sun, H. Geng, X. Huang, J. Lin, P. Zhang, R. Ma, L. Fang,
+J. Environ. Manage. 358 (2024) 120842, https://doi.org/10.1016/j.
+X. Zhang, X. Zhao, Reduction and prediction of N2O emission from an anoxic/oxic
+jenvman.2024.120842.
+wastewater treatment plant upon DO control and model simulation, Bioresour.
+[7] C. Xian, C. Gong, F. Lu, H. Wu, Z. Ouyang, The evaluation of greenhouse gas Technol. 244 (2017) 800–809, https://doi.org/10.1016/j.biortech.2017.08.054.
+emissions from sewage treatment with urbanization: understanding the
+opportunities and challenges for climate change mitigation in China’s low-carbon [29] Y. He, X. Yang, Y. Jin, Y. Liu, Y. Wang, T. Zhu, B.-J. Ni, Y. Liu, Biofilm increases
+N2O production in a sidestream partial nitritation system under low dissolved
+pilot city, Shenzhen, Sci. Total Environ. 855 (2023) 158629, https://doi.org/
+oxygen conditions, Water Res. 290 (2026) 125077, https://doi.org/10.1016/j.
+10.1016/j.scitotenv.2022.158629.
+watres.2025.125077.
+[8] Q. Wang, Y. Sheng, Y. Zhang, X. Zhong, H. Liu, Z. Huang, D. Li, H. Wu, Y. Ni,
+[30] L. Debel, P.A. Stentoft, M.A. Stokholm-Bjerregaard, D. Ortiz-Arroyo, P. Durdevic,
+J. Zhang, W. Lin, K. Qiu, X. Qian, Complete long-term monitoring of greenhouse
+Model predictive control for nitrous oxide mitigation in a full-scale wastewater
+gas emissions from a full-scale industrial wastewater treatment plant with different
+treatment plant: a data-driven simulation study, J. Water Process Eng. 76 (2025)
+cover configurations, J. Environ. Manage. 360 (2024) 121206, https://doi.org/
+108128, https://doi.org/10.1016/j.jwpe.2025.108128.
+10.1016/j.jenvman.2024.121206. [31] A. Castellano-Hinojosa, P. Maza-M´arquez, Y. Melero-Rubio, J. Gonza´lez-Lo´pez,
+[9] S. Koh, A.R. Shaw, Gaseous emissions from wastewater facilities, Water Environ.
+Res. 89 (10) (2017) 1268–1280, https://doi.org/10.2175/ B. Rodelas, Linking nitrous oxide emissions to population dynamics of nitrifying
+and denitrifying prokaryotes in four full-scale wastewater treatment plants,
+106143017X15023776270296.
+10

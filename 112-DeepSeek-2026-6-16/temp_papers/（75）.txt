@@ -1,0 +1,791 @@
+--- Page 1 ---
+pubs.acs.org/est Article
+Quantifying Methane Influx from Sewer into Wastewater Treatment
+Processes
+Yijun Yin,∥ Xiang Qi,∥ Lan Gao, Xi Lu,* Xufei Yang, Kang Xiao, Yanchen Liu, Yong Qiu, Xia Huang,
+and Peng Liang*
+CiteThis:Environ.Sci.Technol.2024,58,9582−9590 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+.selcitra
+ABSTRACT: Wastewater treatment contributes substantially to methane
+dehsilbup (CH ) emissions, yet monitoring and tracing face challenges because the
+4
+.)CTU( treatment processes are often treated as a “black box”. Particularly, despite
+growinginterest,theamountofCH carryoverandinfluxfromthesewerand
+4
+62:64:80 erahs its impacts on overall emissions remain unclear. This study quantified CH 4
+emissions from six wastewater treatment plants (WWTPs) across China,
+yletamitigel utilizing existing multizonal odor control systems, with a focus on Beijing
+andGuiyangWWTPs.IntheBeijingWWTP,almost90%ofCH emissions
+ta 4
+6202 from the wastewater treatment process were conveyed through sewer pipes,
+affecting emissions even in the aerobic zone of biological treatment. In the
+,11 ot
+woh Guiyang WWTP, where most CH 4 from the sewer was released at the inlet
+yaM
+well, a 24 h online monitoring revealed CH fluctuations linked to
+4
+no
+no neighborhoodwaterconsumptionandastrongcorrelationtoinfluentCOD
+snoitpo
+VINU inputs. CH 4 emission factors monitored in six WWTPs range from 1.5 to 13.4 gCH 4 /kgCOD rem , higher than those observed in
+previous studies using A2O technology. This underscores the importance of considering CH influx from sewer systems to avoid
+4
+TSEWHTRON rof underestimation.TheodorcontrolsysteminWWTPsdemonstratesitspotentialasacost-effectiveapproachfortracing,monitoring,
+senilediuggnirahs/gro.sca.sbup//:sptth and mitigating CH .
+4
+KEYWORDS: methane, wastewater treatment, sewer system, greenhouse gas emissions, A2O technology, emission factor
+aiv
+1. INTRODUCTION ment,18−23beforebeingreleasedtotheairthroughgas−liquid
+dedaolnwoD
+equilibriumandhydraulicdisturbance.16Thesewersystemand
+Methane (CH ) is a major greenhouse gas contributing to an
+approximately4 30% global temperature rise.1−3 Its residence centralizedwastewatertreatmentplants(WWTPs)areintegral
+and interdependent components of an urban wastewater
+timeintheatmosphereisaround10years,substantiallyshorter
+system. Wastewater and gas are conveyed by sewer pipes
+thanthatofcarbondioxide,whichunderscoresitspronounced
+role in near-term carbon emissions.4,5 With a global warming into WWTPs for treatment. Consequently, a substantial
+eeS potential of 80−83 over a 20-year period,6−8 mitigating CH 4 quantityof enters WWTPs CH 4(0.004−9mg/L)generated alongside water and other bysewersystems gases,14,21
+emissionsisanticipatedtocontributetoapproximately50%of
+presenting a challenge in discerning CH sources. While
+thetotalcarbonreductioninthenexttwodecades.9 Amidthe 4
+some studies measured influent CH concentrations,18,21 only
+current imperative for carbon reduction, all industries must 4
+the work by Daelman et al. systematically measured CH
+thoroughly assess their CH emissions to implement effective 4
+4 concentrations in both off-gas and water in a WWTP. Their
+control strategies. The wastewater treatment industry plays a
+results revealed that dissolved CH in the influent accounted
+pivotal role in urban functionality. With the burgeoning 4
+for approximately 31% of all CH emissions from the plant
+population and expansion of cities, the volume of urban 4
+(including sludge disposal).14,24 Moreover, many previous
+wastewater has consistently increased, resulting in a rise in
+studies failed to differentiate between CH carryover from the
+CH emissions.10,11InChina,wastewatertreatmentstandsasa 4
+4 sewer system and that generated within the treatment units,
+main CH emission source, constituting 3.96% of all industry
+4
+emissions.12 Therefore,itiscrucialtoaccuratelyquantifyCH
+4
+emissions from the wastewater treatment process.13 Received: January23,2024
+The generation and discharge of CH are two distinct Revised: May13,2024
+4
+processes during wastewater treatment, posing difficulties in Accepted: May15,2024
+tracing and monitoring its emissions.14−17 A product of Published: May23,2024
+microbial anaerobic degradation of organics, CH emanates
+4
+from sewer systems and subsequent wastewater treat-
+©2024AmericanChemicalSociety https://doi.org/10.1021/acs.est.4c00820
+9582 Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 2 ---
+Environmental Science & Technology pubs.acs.org/est Article
+resulting in a widespread omission of the former portion of L and a NH + concentration of 24 ± 7 mg/L. The effluent
+4
+CH in the literature.15−17 This oversight has caused an water quality complies with the China’s national discharge
+4
+underestimation of measured CH emissions from wastewater standard A. Specific water quality parameters for both the
+4
+facilities, leading to a further underestimation of regional or influent and effluent are detailed in Table S1.
+national carbon emissions.25,26 Both the Beijing and Guiyang WWTPs are equipped with
+To minimize odor nuisance in neighboring communities, onlinemonitoringsystemsfortrackingthequalityandquantity
+comprehensive deodorization systems have been increasingly of wastewater at 1 h intervals. The monitoring items include
+adopted at large-scale WWTPs.27 A typical odor control influent and effluent flow rates, COD, ammonia nitrogen
+system often comprises multiple subsystems corresponding to (NH +),totalnitrogen(TN),totalphosphorus(TP),pH,and
+4
+various wastewater treatment units/stages. For instance, these suspended solids (SS). Real-time monitors for the oxidation−
+may include the primary treatment, the anaerobic and anoxic reduction potential (ORP) and dissolved oxygen (DO) are
+sections of biological treatment, and the aerobic section of alsoavailableintheanaerobic,anoxic,andaerobiczonesofthe
+biological treatment in WWTPs employing anaerobic-anoxic- A2O tank.
+aerobic(A2O)technology.Alignedwiththiszoning,thisstudy
+2.2. Monitoring Approach. Three methods have been
+proposedamonitoringstrategythatleveragestheexistingodor
+commonly employed in previous studies for quantifying CH
+4
+control system to monitor CH emissions at each treatment
+4 emissions from WWTPs: flux chamber method, mobile
+stage. The strategy helps to pinpoint the sources of CH 4 platform method, and exhaust measurement.13,14 The flux
+generation and release, particularly in distinguishing between
+chambermethod,alsocalledfloatingchambermethod,iseasily
+the sewer system and the wastewater treatment process. This
+implemented with an airtight box placed on the water surface
+inturnfacilitatestheidentificationofmajorinfluencingfactors. to measure gasemissions from variousunits.15,29−32 However,
+The widespread use of underground WWTPs in China
+it is not suitable to use within sealed tank spaces and its
+provides a unique opportunity to trace gas emissions using
+coverageareaisratherlimited.Incontrast,themobileplatform
+theodorcontrolsystemaseachtreatmentstageishousedina
+method, also known as open-path method, enables the
+completely enclosed space.28 measurement at the entire plant scale.7 The method can
+In this study, we first compared CH emissions between
+4 hardly distinguish the emissions from the individual treatment
+underground and aboveground treatment facilities, demon-
+units. In addition, the data accuracy outcomes rely on the
+strating the effectiveness of the facilities’ odor control system
+chosen calculation models. Measuring CH concentrations in
+in capturing almost all released gases. Next, we employed the 4
+the exhaust gas presents a comprehensive and precise way to
+proposedstrategytomonitorCH emissionsfromsixWWTPs
+4 quantify gas emissions from various units of WWTPs into the
+in China, focusing on a detailed comparison between Beijing
+atmosphere.14,33 Consequently, the method was adopted in
+and Guiyang WWTPs. The comparison revealed a significant
+this study.
+impactofCH carryover/influxfromsewerpipesonmeasured
+4 Thepointsofgasmonitoringweredecideduponathorough
+CH emissions.Finally,weanalyzedtherelationshipsbetween
+4
+analysis of the WWTPs’ odor control systems. At the Beijing
+CH emissions and key operating parameters to elucidate the
+4
+aboveground facility and Guiyang WWTP, the odor control
+pathways involved in CH generation and release, providing
+4
+system was divided into multiple zones including primary
+suggestions for CH accounting.
+4
+treatment, the anaerobic and anoxic areas of biological
+2. MATERIALS AND METHODS treatment, and the aerobic areas of biological treatment
+(abbreviated as Primary, Bio-AA, and Bio-O zones, respec-
+2.1. Field Sites Description. We monitored CH
+4 tively). In the Beijing aboveground facility, CH emission in
+emissions from six WWTPs across China. These plants are 4
+each zone was monitored at the discharge outlet of the zone’s
+situated in Beijing (WWTPs B and C), Wuhan (WWTP D),
+deodorizationmodule,asillustratedinFigureS3a,whileinthe
+Shenzhen (WWTPs E and F), and Guiyang (WWTP G),
+Guiyang WWTP, CH emissions were monitored at the duct
+respectively.LocationsoftheWWTPsareshowninFigureS1. 4
+All WWTPs employ A2O, which is a mainstream treatment before deodorization (Figure S3b). The CH 4 concentrations
+before and after the biological deodorization modules were
+technology adopted in the industry. Each plant has tanks fully
+almostidentical,asdemonstratedbyourtestingattheGuiyang
+capped to enable odor collection and mitigation. Particularly,
+WWTP (Figure S4). The odor control system of the Beijing
+we conducted thorough monitoring at the Beijing (B) and
+underground facility has no zoning setup, and the odor
+Guiyang (G) WWTPs (hereafter abbreviated as Beijing and
+collected across the entire plant is treated and discharged
+Guiyang, respectively), with similar treatment processes yet
+distinct sewer features (Figure 2). The Guiyang WWTP is throughasingleoutlet.Therefore,atthisfacility,CH 4emission
+entirely subterranean. The Beijing WWTP comprises two wassolelymonitoredattheoutlet.Thedeodorizationsystems
+facilities: one aboveground and one underground, constructed in WWTPs C and D mirror the design of the Beijing
+during different time periods. Each plant comprises a lifting undergroundfacility,utilizingasinglecollectiveoutlet;whilein
+pump station, a grille, a sand settling tank, and biochemical WWTPs E and F, the systems comprise multiple zonal
+treatment units. For biological treatment, the Beijing WWTP modules, similar to the configuration of the Beijing above-
+uses A2O and MBR technologies.In theGuiyang WWTP, the ground facility and the Guiyang WWTP.
+A2Oprocessiscoupledwithasquaresecondarysedimentation Thisstudyencompassedbothofflineandonlinemonitoring.
+tank serving as the separation unit. Detailed information on Detailed information on sampling methods and dates of
+treatment processes in Beijing and Guiyang WWTPs is monitoring campaigns can be found in Table S2. The Beijing
+available in Figure S2. WWTPwasmonitoredfor9monthsusingtheofflinemethod,
+ThesixWWTPsmanagestandarddomesticwastewaterwith with results shown in Figure S5. The Guiyang WWTP was
+influent flow rates ranging from 48000 to 400000 m3/day. monitored for 5 months using the offline method and for 5
+TheinfluentexhibitsaCODconcentrationof240±108mg/ days using the online method.
+9583 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 3 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Offline CH emission monitoring aimed to compare CH Beijing and 88.1 kPa for Guiyang), T* is the standard
+4 4
+emission levels and identify key influencing factors between temperature (273.15 K), and t is the exhaust gas temperature
+different WWTPs. For offline monitoring, gas samples were in the odor control system (25 °C).
+taken into airbags for subsequent laboratory analysis. The gas Two types of emission factors (EF) were calculated to
+concentration was determined using an Agilent 8890 gas enable a comparison of CH emission between different
+4
+chromatograph equipped with a flame ionization detector facilities
+(GC-FID). Water samples were obtained at the point where
+GWP ·ER
+the wastewater first enters the WWTPs (inlet well at Guiyang EF = 100
+flow Q
+WWTPandinletgateatBeijingWWTP)andtheoutletofthe water (3)
+primary treatment zone to measure the concentration of
+dissolved CH in the wastewater, using headspace method.19 1000·ER
+4 EF =
+Specifically, 4 mL of water sample, 1 mL of chlorhexidine COD COD
+rem (4)
+gluconate bactericide, and 5 mL of nitrogen gas were added
+intoa10mLvacuum bloodcollectiontubeandremainedstill where Q is the influent wastewater flow rate (m3/h),
+water
+for 24 h. Then, gas from the headspace was analyzed for CH GWP is the 100-year global warming potential of CH
+4 100 4
+concentration using the same GC-FID. Finally, the concen- provided by IPCC (28),1 and COD is the COD removed
+rem
+trations of CH gas dissolved in the liquid were determined due to wastewater treatment (kg/h).
+4
+according to Henry’s law.34 Weconductedcorrelationanalysistoexploretheconnection
+Comparatively, online CH monitoring, designed to unveil between CH emissions and operational parameters such as
+4 4
+diurnal variability in CH emissions, entailed inserting a gas water quality, ORP in biochemical tanks, etc. The correlation
+4
+sampling probe into the system’s ductwork and a downstream between the gas concentrations and operational parameters in
+monitorto measurereal-time CH concentrations. Theonline different zones could indicate the production and emission
+4
+monitoringwasperformedusinganMIRAUltraGasAnalyzer paths of CH . CH emissions were presented as ER, with the
+4 4
+(Aeris Technologies, Inc., USA) interfaced with a PRI-5253 unit of kgCH /h. As the influent flow rate (m3/h) and COD
+4
+instrument (PRI-ECO, Inc., China) for data acquisition and concentration (mg/L) both influence COD loading to the
+visualization. Utilizing mid-infrared absorption spectroscopy WWTP, COD input (kgCOD/h) was chosen for the
+technology, the analyzer can accurately quantify CH correlation analysis to match with CH emissions (kgCH /
+4 4 4
+concentration at 1 s intervals, with a detection limit of 1 ppb h).Whiletheinfluentmeasurementsweretakenattheentryof
+and a detection range of 0−500 ppm. WWTPs at 1 h intervals, the correlation analysis was
+2.3. Data Analysis. Given the large cross-sectional area of conducted using the average CH concentration of each
+4
+theductandthevigorousairflow,weassumecompletemixing hour to match the amount of data on water quality. However,
+of gases within the ductwork, resulting in a uniform CH duetotheimpactofhydraulicretentiontimeandreturnratio,
+4
+concentration. The blowers/fans of the deodorization systems therewasatemporalmisalignmentbetweenthemeasuredCH
+4
+at all of the sites were custom-designed to match the systems’ emissions and water quality parameters. To address this, a
+specified flow rates. For simplicity, we employed the nominal PythonprogramwasemployedtorealigninfluentCODinputs
+air flow rate as an approximation of the actual flow rate. It is with CH emissions based on the best-correlated time point
+4
+importanttonotethat,inprinciple,thevolumetricflowrateof (refer to Table S5). Considering the skewed distribution in
+the deodorization system remains nearly constant despite carbon emissions and operating data,35 this study conducted
+fluctuations in air pressure or temperature. This is due to the Spearman’s correlation analysis using IBM SPSS Statistics 27
+synchronousvariationofboththefanoutputandairrestriction software.
+in the system with air density. The system design permitted
+stepwise adjustment of the flow rate by altering the operating 3. RESULTS AND DISCUSSION
+alternatingcurrentfrequency.TableS3entailstheinformation 3.1. Comparison of Aboveground and Underground
+on the fans/blowers. Typically, the air flow rate of a WWTP’s WWTPs. To compare emissions between aboveground and
+deodorizing system was barely adjusted during operation. A
+underground WWTPs and assess the quantity of fugitive CH
+4
+CH emission rate (ER; kgCH /h) was calculated with eq 1.
+4 4 escaping from the odor control system, monitoring was
+(C C )·Q ·F ·M conducted in the Beijing WWTP. The site comprises an
+ER = 1 0 air F gas abovegroundandaparallelundergroundfacility,bothutilizing
+V·106
+(1) the same influent and treatment process. The only distinction
+lies in the influent flow rate. All wastewater treatment units in
+where C is the measured CH concentration in the exhaust
+1 4 the aboveground facility are fully enclosed, featuring capped
+(ppm), C is the atmospheric background CH concentration
+Q0 (m3/h),4 tanksurfaces.Gaseswithintheheadspaceofenclosedtanksare
+(ppm), is the exhaust air flow rate F is the actual
+air directed into a biological odor control system using exhaust
+operating frequency (Hz) of fan motors, F* is the nominal
+fans. The headspace is termed by the plant a deodorization
+frequency(50Hz),M isthemolecularweightofCH (16g/
+gas 4 space(Dspace)(Figure1).Likewise,theundergroundfacility
+mol), and V is themolar volume under the given temperature
+also incorporates D spaces. However, directly above the D
+and pressure conditions. V was calculated as
+space, there is an underground room equipped with
+p*·(T*+ t) mechanical ventilation (referred to as V space). Since the
+V = V*·
+T*·p roomisnotentirelyair-isolatedfromtheDspace,theVspace
+(2)
+was also considered during gas emission measurements.
+whereV*isthemolarvolumeunderstandardconditions(22.4 To quantify CH emissions from the D space, semi-
+4
+L/mol), p* is the standard atmospheric pressure (101.325 continuous monitoring was conducted at the exhaust duct
+kPa), p is the local atmospheric pressure (e.g., 102.2 kPa for after the deodorizing tower, with sampling points depicted in
+9584 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 4 ---
+Environmental Science & Technology pubs.acs.org/est Article
+form (above or underground), our work suggests that the
+deodorizationsystemofaWWTPcanbeutilizedforassessing
+CH emissions from wastewater treatment processes.
+4
+Considering that there could be CH escaping from the D
+4
+space,emissionsfromtheundergroundVspaceweremeasured
+at the vents as illustrated in Figure S3c. An emission factor of
+0.0006kgCO -e/m3wasobtained,accountingforonly0.5%of
+2
+the total CH emission from the underground facility. CH
+4 4
+emissions through the deodorization system constituted
+approximately 99.5% of the total emission, making fugitive
+CH negligible. Thus, almost all of the CH gas can be
+4 4
+collected by the odor control system, further confirming that
+the system could serve as a crucial means to centrally collect,
+monitor, and even treat CH .
+4
+3.2. Sectional CH Emissions in Beijing and Guiyang
+4
+Figure 1. CH 4 emission factors based on the volume of wastewater WWTPs. Identifying the sources of CH generation and
+treatedfortheabovegroundandundergroundfacilitiesoftheBeijing 4
+release during wastewater treatment is intricate, making it
+plant.Theemissionsfromtheundergroundfacilityconsistedofthose
+challengingtopinpointthekeyfactorsthatresultinvariations
+fromthedeodorizationsystem(D)andventilationsystem(V),with
+errorbarsrepresentingthestandarddeviationofacquireddata.Data of CH 4 emissions in different WWTPs. We identified the
+wascollected throughoffline tests inAugust 2023(TableS2). locations of CH 4 emissions by utilizing existing odor control
+systems for emission testing. As the Beijing and Guiyang
+Figure S3a. In the aboveground facility, emission testing was WWTPs share a nearly identical treatment process (A2O) but
+performed for each of the primary, bio-AA, and bio-O zones. differ significantly in their upstream sewer systems, they were
+The result presented in Figure 1 represents the sum of these selected for a detailed comparison among all of the WWTPs
+three monitoring points. For the D space of the underground monitored. The Primary zone, consisting of the inlet well,
+facility, there is only one collective exhaust port for emission liftingpumpstation,screen,andgritchamber,wasidentifiedas
+measurements.ResultsshowedthatCH emissionfactorswere the major source of CH emission, contributing to 60.1 and
+4 4
+approximatelythesamefortheabovegroundDspace(0.118± 35.8% of total emissions, respectively, in the Beijing and
+0.025kgCO -e/m3)versustheundergroundDspace(0.116± Guiyang plants (Figure 2a). Given the short hydraulic
+2
+0.014 kgCO -e/m3). Therefore, regardless of the construction retention time (10 min) during primary treatment, almost all
+2
+Figure 2. Sectional CH emission in Beijing and Guiyang WWTPs. (a,c) CH emission factors based on the volumeof wastewater treated for
+4 4
+Beijing(a)andGuiyang(c)WWTPsfromeachofthePrimary,Bio-AA,andBio-O(&MBR)zones.GrayandwhitebackgroundsdifferentiateCH
+4
+emissions between the Primary and Bio zones. (b, d) Material balance of CH in Beijing (b) and Guiyang (d) WWTPs, where blue arrows
+4
+represent the amount of dissolved CH in water and the green arrows represent the amount of CH released in the gas form. All values are
+4 4
+measuredonesexceptfortheoneinthegreendashbox(calculated).DatawerecollectedthroughofflinetestsconductedfromJulytoOctober
+2023inthe twoplants (TableS2). Error barsrepresentdata standard deviation.
+9585 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 5 ---
+Environmental Science & Technology pubs.acs.org/est Article
+Figure3.DiurnalchangesinCH emissionratesfromthethreezonesoftheGuiyangWWTP.(a)24honlinemonitoringdataat1sintervalin
+4
+August2023.(b−d)ComparisonofCH emissionrates(1haverage)withCODconcentrationinthePrimaryzone(b),theBio-AAzone(c),and
+4
+the Bio-O zone (d); the inset depicts the correlation between CH emission rates and COD concentration, with “ρ” denoting the Spearman
+4
+correlation coefficientand “**”indicating p < 0.01.
+CH emissions from this section could originate from the To quantify the CH carried over from the sewer pipes and
+4 4
+sewer system.14,16,18 The organic components in wastewater its contribution to the difference in CH emission factors
+4
+can transform into VFAs and produce CH in the anaerobic between the Guiyang and Beijing WWTPs, we measured
+4
+environment of the sewer system. We analyzed the VFA dissolved CH in the influents of the two plants. The results
+4
+concentrations in the influent of the Beijing WWTP, which revealed a considerable amount of dissolved CH introduced
+4
+indicates an average concentration of 29.9 mg/L (Figure S6), into the Beijing WWTP (2.41 mg/L, equivalent to 0.067
+in line with the previous study.36 Following the Primary zone, kgCO -e/m3)(FigureS7),closelymatchingtheCH emission
+2 4
+theBio-AAprocessreleased32.8and34.6%oftotalCH 4inthe factoroftheplant’sprimaryzone(0.070±0.02kgCO 2-e/m3).
+Beijing and Guiyang WWTPs, respectively. This emission was Incontrast,duetoafullyopeninletwellallowingCH release
+4
+produced by microorganisms through the anaerobic decom-
+into the atmosphere, the influent of the Guiyang WWTP
+positionoforganicmatter.MovingtotheBio-Ozone,vigorous
+containedmuchlessdissolvedCH (0.079mg/L,equivalentto
+4
+aeration led to the stripping out of dissolved CH 4 in 0.0022 kgCO -e/m3), thereby resulting in an overall lower
+wastewater,resultinginCH emissionsintheaerobiczone.16,17 2
+4 CH emission. Further analysis revealed that in the Beijing
+The discrepancy in CH emissions between the Beijing and 4
+4 WWTP, approximately 1.27 mg/L (equivalent to 0.036
+GuiyangWWTPswasstriking,withtheformer(0.117kgCO -
+2 kgCO -e/m3) of dissolved CH was transported from the
+e/m3)emitting12timesmorethanthelatter(0.010kgCO -e/ 2 4
+2 Primary to the Bio-AA zone and released there, leading to an
+m3).InfluentwaterqualitywasfoundtoaffectCH emissions.
+4 elevated CH emission in the Bio-AA section.
+TheBeijingplant’shigherCH emissionfactorcoincidedwith 4
+4 The material balance diagrams of CH in the Beijing and
+its higher influent COD concentrations (Table S1), which 4
+Guiyang WWTPs are given in Figure 2b,d. Calculations
+makes sense since CH is a product of the anaerobic
+4 revealed that CH from the sewer system constituted 91% of
+decompositionoforganicmatter.Anotherpossibleinfluencing 4
+thetotalCH emissionfromtheBeijingWWTP.Ofthis,58%
+factor is the sealing condition of the inlet well; if not sealed, 4
+was conveyed as dissolved CH within the influent, while the
+CH produced within sewer pipes can be discharged into the 4
+4
+remaining portion entered the WWTP in the gas form (from
+atmosphere. In many WWTPs, even though the treatment
+units were fully enclosed, the inlet wells were excluded from theheadspaceofthesewerpipes).WithintheBio-AAandBio-
+the odor control system. Neglecting this part of the CH 4 O zones, CH 4 underwent anaerobic production and aerobic
+emission can lead to a significant underestimation of total consumption. However, the net CH 4 emission from the
+emissions.Inthisstudy,allofthetreatmentunitsintheBeijing biologicaltreatmentwasrelativelylow,atonly0.011kgCO 2-e/
+plant are enclosed and fully integrated into the odor control m3. The vast majority of CH 4 emissions from the two Bio
+system. In contrast, the Guiyang plant features a fully open zones were attributed to dissolved CH inflow from the
+4
+inlet well at the front. The CH release at the well is the Primary zone, amounting to 0.036 kgCO -e/m3. In the
+4 2
+primary reason for the difference in CH emissions between Guiyang WWTP, substantial CH produced in the sewer
+4 4
+the Beijing and Guiyang plants. system was emitted as fugitive emission at the inlet well,
+9586 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 6 ---
+Environmental Science & Technology pubs.acs.org/est Article
+resulting in very low CH emission factors from field Thelattertwozonesdemonstratedstrongercorrelations.Since
+4
+measurements. CH is primarily produced from anaerobic processes, a
+4
+Apartfromtheinletwell,thecharacteristicsofsewersystems significant correlation of CH emission with COD input was
+4
+also play a crucial role in determining the amount of CH observed in the Bio-AA zone (ρ = 0.714**). A substantial
+4
+transported through sewer pipes into WWTPs. The ground- portion of the CH generated in the Bio-AA zone can be
+4
+water table, which influences the drainage depth, determines transporteddownstreamandreleasedintheBio-Ozone,which
+the need for wastewater lifting pump stations. In the Beijing explains the strong correlation (ρ = 0.662**) between CH
+4
+WWTP, the absence of pumping stations in the wastewater emission in this zone and influent COD loading. Given the
+transport process minimizes CH escape within the sewer significant implication of influent COD inputs for CH
+4 4
+network,therebyincreasingtheamountofCH conveyedinto emissions, it is deemed appropriate to employ COD removal
+4
+theWWTP.Incontrast,intheGuiyangWWTP,themultilevel asthemeasureofaWWTP’sproductivitytocalculateitsCH
+4
+pumping within the sewer network releases a significant emission factor.
+amount of CH during wastewater transportation. Thus, the CH emission in the Bio-AA zone exhibited a negative
+4 4
+CH emission from the Primary zone offers a unique correlation with ORP (ρ = −0.801**), as shown in Table S6,
+4
+perspective for assessing the characteristics of the sewer indicatingthatenhancedanaerobicconditionscorrespondedto
+system,asitreflectstheamountofCH influxfromthesewer. higher CH production through biochemical reactions. This
+4 4
+3.3. Diurnal Variability in CH Emissions. Other than finding underscores the crucial role of the ORP adjustment in
+4
+the CH influx from the sewers, due to fluctuations in water mitigating CH emissions from biological treatment. Since
+4 4
+consumption, municipal WWTPs receive wastewater with CH emission demonstrated a strong correlation with water
+4
+diurnal variability in influent flow and water quality,37 which quality indicators, factoring pollutants in a statistical or
+may affect CH emissions. Compared to the Beijing WWTP, process-basedemissionmodelappearstobeaviableapproach
+4
+onlyalimitedamountofCH fromthesewerpipesenteredthe especiallywhencalculatingCH emissionfactorsforbiological
+4 4
+treatment units downstream of the inlet wells in the Guiyang treatment units.
+WWTP, providing a better baseline for studying the effect of 3.4.UnderestimationofMethaneEmissionFactor.As
+water quality and flow on CH emissions from the treatment illustrated in Figure 3, CH emissions from the wastewater
+4 4
+process. A 24 h online monitoring of CH emissions (Figure treatment process exhibited a significant correlation with the
+4
+S3d) was conducted at the Guiyang WWTP to unveil the COD concentrations. To facilitate comparisons among
+diurnal emission pattern and further identify influencing WWTPswithvaryinginfluentCODconcentrations,wefurther
+factors.38 normalized CH emission with the amount of COD removal.
+4
+Figure 3a presents the monitoring data obtained from the As depicted in Figure 4, the acquired CH 4 emission factor for
+Guiyang WWTP. The CH emissions from the treatment
+4
+process exhibited a 2.5-fold diurnal variation (as measured by
+maximum/minimum). The Guiyang WWTP services an area
+of approximately 20 km2 in the neighborhood. Given that the
+mainsewerpipeisaround4.5kmlongandtheflowvelocityof
+wastewateris0.8m/s,ittakes1.5hfordischargedwastewater
+to reach the WWTP. As CH is predominantly generated in
+4
+the Bio-AA zone, its emission from this zone exhibited a
+discernible diurnal pattern, with three peaks occurring at
+around 13:00 pm, 20:50 pm, and 3:30 am. Considering the
+transportation time (1.5 h) of discharged wastewater and the
+hydraulicretentiontime(1h),thesethreepeakscorresponded
+to10:30am(0.59kgCH /h),18:20pm(1.09kgCH /h),and
+4 4
+1:00 am (0.73 kgCH /h), respectively. These time points
+4
+alignedwith therushhours of wateruse intheneighborhood.
+The CH emission from the Bio-AA zone remained high Figure4.ComparisonofCH emissionfactorsbasedontheamount
+4 4
+during the night (18:30 pm−1:30 am) compared with the ofCODremoved.Bluestarsdenotethemeasurementdatafromthis
+daytime. study (B−G) and the literature (stars in the blue-shaded area). The
+We conducted a correlation analysis to examine the impact solid ones (1−6) represent studies utilizing flux chamber methods,
+while the hollow marker (7) indicates the study using exhaust
+of influent water quality and operating parameters on CH
+4 monitoring.RedstarssignifytheemissionfactorsafterexcludingCH
+emissions. A Spearman correlation coefficient was chosen due 4
+carryover from the sewer system, i.e., the net CH emission from
+to the non-normal distribution of the emission data (Table 4
+wastewatertreatmentprocesses.“B”and“G”representtheBeijingand
+S4). Figure S2b indicates a time lag between influent
+Guiyang WWTPs, respectively. The double crosses indicate the
+measurements (at the plant’s headworks) and CH 4 emission IPCC’svalues,whicharepresentedasaboxplotinthepurple-shaded
+levels (at downstream treatment units), due to hydraulic area.
+retention time and water mixture in the treatment units.39
+Therefore, we used the maximum correlation coefficient to the entire wastewater treatment process (EF ) of the six
+total
+pinpointthemostrelevanttimepoint,asoutlinedinTableS5. WWTPs varied widely. The Beijing WWTP exhibited the
+The correlation analysis revealed a strong correlation highest EF (13.4 gCH /kgCOD ), while the Guiyang
+total 4 rem
+between the CH emission in the three zones and influent WWTP had the lowest EF (1.50 gCH /kgCOD ). As
+4 total 4 rem
+COD loading. The Primary zone exhibited the weakest mentioned above, this 7.8-fold difference was primarily
+correlation (ρ = 0.519**), likely due to the presence of attributed to CH release from the inlet well. Excluding CH
+4 4
+additional factors influencing CH production in the sewer. carryover from the sewer pipes (CH emissions from Primary
+4 4
+9587 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 7 ---
+Environmental Science & Technology pubs.acs.org/est Article
+zone and dissolved CH in the outlet of Primary zone), the The boxplotdenotes theEF valuesadopted bytheIPCC.43
+4
+CH emission factor (EF ) solely due to biological The average value (7.5 gCH /kgCOD) is derived from CH
+4 biological 4 4
+treatment(redstarsinFigure4)was1.27gCH /kgCOD for monitoring studies employing various sampling methods,
+4 rem
+theBeijingWWTPand0.96gCH /kgCOD fortheGuiyang including flux chamber, exhaust detection, and open-path
+4 rem
+WWTP, indicating a close similarity between the two. methods, across WWTPs utilizing different treatment
+CH emissions exhibited significant variations among processes. It falls within the range of the monitoring data
+4
+WWTPs C−F. Similar to Beijing WWTP, all processing obtained from our research and is higher than points 1−6.
+units in WWTP C are enclosed and equipped with odor Furthermore,theIPCC’sEFsexhibitawiderange(0.75−22.5
+collection systems. Hence, it is reasonable to observe gCH /kgCOD) and may not represent specific treatment
+4
+comparable EF values in the two plants. The inlet well of processes. As CH emissions in WWTPs are not “one fits all”,
+total 4
+WWTPDisenclosed;however,noodorcollectionsystemhas it is essential to conduct more monitoring campaigns to
+been implemented; accordingly, no quantification of CH capture the variability in emissions across different facilities.
+4
+emission from the inlet well was performed. Approximately In line with the IPCC guidelines, it is necessary to
+80% of the influent in WWTP E is pumped up at an external incorporate the amount of CH carryover from the sewer
+4
+liftingpumpstation,whichlacksodorcollection,resultingina systemintotheemissionfactorcalculationofWWTP.Givena
+partial loss of CH . Thus, the EF values of plants D and E robust correlation between CH emission and influent COD
+4 total 4
+weresimilar.WWTPFhasnoodorcollectionattheinletwell, loading in the primary zone, one may use the COD
+grilles, and lift pump, leading to significant CH losses. This concentration to predict CH emissions conveyed by sewer
+4 4
+furtherdemonstratesthesignificantimplicationsofCH influx when no CH measurement data are available. Additionally,
+4 4
+for the assessment of CH emissions in wastewater treatment the carryover should be excluded from the emission factor of
+4
+processes. the sewer system to avoid double counting.
+Figure 4 compares the CH emission factors derived from
+4
+thisstudywiththoseintheliterature.Amongthosestudies,the 4. IMPLICATIONS AND FUTURE WORK
+treatment processes in “1”−“6” all utilized the A2O We identified CH carryover from the sewer system as a
+process,15,17,25,40−42andStudy“7”employedthesameexhaust o4
+significant source f CH emissions in WWTPs, emphasizing
+sampling method as this study.14 The emission factors the need for its consider4 ation in the development of carbon
+reported by Studies “1”−“6” were considerably lower than emission factors to prevent underestimation. Researchers
+thoseoftheBeijingandGuiyangWWTPswhenCH 4fromthe studying CH emissions from wastewater treatment systems
+4
+upstream sewer systems of the two sites were included in should focus more on investigating CH produced by sewer
+4
+calculation. However, they aligned well with the net CH 4 systems, particularly on mitigating CH 4 in sewers and
+emission from the biological process in this study (with sewer measuring fugitive CH in pipe wells. Policy makers should
+4
+CH 4 excluded). This discrepancy primarily arose from considerregulatingtheconstructionofsewersystemstoenable
+differences in the monitoring methods. The method adopted improved capture and mitigation of produced CH .
+4
+in the literature was the flux chamber method, involving the This study proposes a method for detecting CH emissions
+4
+acquisitionof CH 4emissionfluxesthrough thedeploymentof using a multizonal odor control system, which facilitates the
+afloatingboxonthewatersurface.However,thismethoddoes identification and differentiation of CH production and
+4
+not apply to treatment units with no well-defined water emission sources. For WWTP managers, the implementation
+surface, such as inlet wells and grilles, potentially resulting in of a multizonal deodorization system offers a convenient and
+an underestimation of the CH emission factor. For rapid means of assessing the plant’s CH emission levels.
+4 4
+quantifying CH emissions from the entire wastewater Furthermore, the significance of capping all units, including
+4
+treatment process, we recommend the use of the exhaust headworks such as inlet wells, and directing odorous gases to
+testingmethod.Furthermore,dividingatreatmentprocessinto odor control systems is underscored, as it enables centralized
+multiplezonesandmeasuringCH emissionsineachzonecan collection,detection,andtreatmentofnotonlyodorsbutalso
+4
+provide insights regarding the origins of CH (within-zone greenhouse gases.
+4
+production versus sewer system carryover). We identified two factors contributing to the variance in
+In Study “7”, the researchers measured CH in the gas CH emission levels among different WWTPs: CH influx
+4 4 4
+exhaust of the WWTP and included CH in the influent in from sewers and influent water quality. The analysis aimed to
+4
+their calculation, and thus, the emission factor was relatively address the issue of significant variations in the reported CH
+4
+high. Like the Beijing WWTP, massive CH was carried over emissionsfromwastewatertreatmentprocesses.However,this
+4
+bythesewer.WerecalculatedtheEF ofStudy“7”andit study relied on monitoring data exclusively from A2O
+biological
+turned out to be negative. This may be explained by the WWTPs;andtheeffectsoftheCH influxfromsewersystems
+4
+consumption of influent CH by biological reactions. In this may vary for WWTPs utilizing other treatment processes. We
+4
+case,thewastewatertreatmentprocessproducedminimalCH advocateforimprovedaccuracyandrepresentativenessinCH
+4 4
+and might even function as a sink. Besides, the inlet wells are emissionfactorsbydirectlytestingCH inWWTPs,regardless
+4
+sometimes excluded by WWTP’s odor control system. As of whether they are underground or equipped with odor
+evidenced in the Guiyang WWTP, excluding this could control systems across various sections within the plant.
+potentially yield a lower CH emission monitoring value. Reducing CH emissions will play a crucial role in climate
+4 4
+Therefore, it is highly recommended to implement an odor change mitigation over the next 12 years.9 While the
+control system that collects gas from all treatment units, wastewater treatment industry is not the largest contributor
+including inlet wells. This not only improves overall odor to total CH emissions, efforts toward carbon mitigation may
+4
+mitigation effectiveness but also enables the utilization of an become morechallenging aftertop-emitting industriesachieve
+odorcontrolsystemformonitoringandremovingGHGsfrom carbon neutrality. This study identifies the sources of CH
+4
+wastewater treatment. emissions from wastewater treatment processes and provides
+9588 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 8 ---
+Environmental Science & Technology pubs.acs.org/est Article
+■
+guidance for developing CH mitigation strategies in the REFERENCES
+4
+future.
+(1) Pachauri, R. K.; Meyer, L. Climate Change 2014: Synthesis
+■ Report. Contribution of Working Groups I, II and III to the Fifth
+ASSOCIATED CONTENT Assessment Report of the Intergovernmental Panel on Climate
+* sı Supporting Information Change 2014 https://www.ipcc.ch/site/assets/uploads/2018/02/
+AR5_SYR_FINAL_Front_matters.pdf. (accessedMar26, 2024).
+The Supporting Information is available free of charge at
+(2) Bousquet, P.; Ciais, P.; Miller, J. B.; Dlugokencky, E. J.;
+https://pubs.acs.org/doi/10.1021/acs.est.4c00820.
+Hauglustaine, D. A.; Prigent, C.; Van der Werf, G. R.; Peylin, P.;
+Brunke,E.G.;Carouge,C.;Langenfelds,R.L.;Lathiere,J.;Papa,F.;
+Additional monitoring details; methods; results of
+Ramonet, M.; Schmidt, M.; Steele, L. P.; Tyler, S. C.; White, J.
+monitoring; and data analysis (PDF)
+Contribution of anthropogenic and natural sources to atmospheric
+■ methane variability.Nature 2006, 443(7110),439−443.
+AUTHOR INFORMATION (3)GlobalMethaneTracker;IEA Paris2023https://www.iea.org/
+reports/global-methane-tracker-2023.(accessedMar 22,2024).
+Corresponding Authors (4) Prather, M. J.; Holmes, C. D.; Hsu, J. Reactive greenhouse gas
+Xi Lu − School of Environment, Tsinghua University, Beijing scenarios: Systematic exploration of uncertainties and the role of
+100084, P. R. China; orcid.org/0000-0002-5063-3776; atmospheric chemistry Geophys. Res. Lett. 2012; Vol. 39 9
+Email: xilu@mail.tsinghua.edu.cn DOI: 10.1029/2012GL051440.
+Peng Liang − School of Environment, Tsinghua University, (5)Nzotungicimpaye,C.-M.;MacIsaac,A. J.;Zickfeld,K.Delaying
+methanemitigationincreasestheriskofbreachingthe2°Cwarming
+Beijing100084,P.R.China; orcid.org/0000-0001-7345-
+limit. Commun.Earth Environ. 2023, 4(1), 250.
+0844; Email: liangpeng@tsinghua.edu.cn
+(6)Masson-Delmotte,V.;Zhai,P.;Pirani,A.;Connors,S.L.;Péan,
+C.;Berger,S.;Caud,N.;Chen,Y.;Goldfarb,L.;Gomis,M.I.;Huang,
+Authors
+M.; Leitzell, K.; Lonnoy, E.; Matthews, J. B. R.; Maycock, T. K.;
+Yijun Yin − School of Environment, Tsinghua University,
+Waterfield, T.; Yelekçi, O.; Yu, R.; Zhou, B. The Earth’s Energy
+Beijing 100084, P. R. China
+Budget, Climate Feedbacks and Climate Sensitivity. In Climate
+Xiang Qi − School of Environment, Tsinghua University, Change 2021 − The Physical Science Basis: Working Group I
+Beijing 100084, P. R. China Contribution to the Sixth Assessment Report of the Intergovernmental
+Lan Gao − School of Environment, Tsinghua University, PanelonClimateChange;CambridgeUniversityPress,2023;pp923−
+Beijing 100084, P. R. China 1054.
+Xufei Yang − Department of Agricultural and Biosystems (7)Moore,D.P.;Li,N.P.;Wendt,L.P.;Castaneda,S.R.;Falinski,
+Engineering,SouthDakotaStateUniversity,Brookings,South M.M.;Zhu,J.J.;Song,C.;Ren,Z.J.;Zondlo,M.A.Underestimation
+Dakota 57007, United States of Sector-Wide Methane Emissions from United States Wastewater
+KangXiao−CollegeofResourcesandEnvironment,University Treatment. Environ. Sci.Technol. 2023, 57(10),4082−4090.
+(8) Song, C.; Zhu, J. J.; Willis, J. L.; Moore, D. P.; Zondlo, M. A.;
+of Chinese Academy of Sciences, Beijing 100049, P. R.
+Ren,Z.J.MethaneEmissionsfromMunicipalWastewaterCollection
+China; orcid.org/0000-0001-6475-1960
+and Treatment Systems. Environ. Sci. Technol. 2023, 57 (6), 2248−
+Yanchen Liu − School of Environment, Tsinghua University,
+2261.
+Beijing100084,P.R.China; orcid.org/0000-0001-9431-
+(9)Bertram,S.S.C.;Kennedy,H.S.;Liu,J.;Behrendt,H.;McJeon,
+6919 R. C.; Hultman, N. Ramping Up Methane Emissions Reductions in
+Yong Qiu − School of Environment, Tsinghua University, This Decade: Implications of Methane Emissions for Near- and
+Beijing100084,P.R.China; orcid.org/0000-0001-5423- Medium-Termwarming.InCenterforGlobalSustainability;University
+6869 of Maryland,2023.
+Xia Huang − School of Environment, Tsinghua University, (10)Bai,M.;Wang,Z.;Lloyd,J.;Seneviratne,D.;Flesch,T.;Yuan,
+Beijing100084,P.R.China; orcid.org/0000-0003-4076- Z.;Chen,D.Long-termonsitemonitoringofasewagesludgedrying
+1464 pan finds methane emissions consistent with IPCC default emission
+factor. Water Res.X 2023, 19,No. 100184.
+Complete contact information is available at: (11) Li, H.; You, L.; Du, H.; Yu, B.; Lu, L.; Zheng, B.; Zhang, Q.;
+https://pubs.acs.org/10.1021/acs.est.4c00820 He,K.;Ren,N.Methaneandnitrousoxideemissionsfrommunicipal
+wastewater treatment plants in China: A plant-level and technology-
+Author Contributions specific study. Environ.Sci. Ecotechnol. 2024, 20,No. 100345.
+∥Y.Y. and X.Q. contributed equally to this work. (12)MinistryofEcologyandEnvironmentofthePeople’sRepublic
+of China. The People’s Republic of China Third National
+Notes
+Communication on Climate Change 2018 https://unfccc.int/sites/
+The authors declare no competing financial interest. default/files/resource/China%203NC_English_0.pdf. (accessed Mar
+■ 24, 2024).
+ACKNOWLEDGMENTS (13) Ye, L.; Porro, J.; Nopens, I. Quantification and Modelling of
+Fugitive Greenhouse Gas Emissions from Urban Water Systems; IWA
+Theauthorsgratefullyacknowledgethefinancialsupportfrom
+Publishing, 2022.
+Natural Science Foundation of China (52125001) and (14)Daelman,M.R.;vanVoorthuizen, E.M.;vanDongen, U.G.;
+Tsinghua-Toyota Joint Research Institute Inter-Disciplinary Volcke, E. I.; van Loosdrecht, M. C. Methane emission during
+Program (20223930042). municipal wastewater treatment. Water Res. 2012, 46 (11), 3657−
+■ 3670.
+ABBREVIATIONS (15) Liu, Y.; Cheng, X.; Lun, X.; Sun, D. CH4 emission and
+conversion from A2O and SBR processes in full-scale wastewater
+WWTP,wastewatertreatmentplant;IPCC,intergovernmental treatmentplants.J. Environ. Sci. 2014, 26(1),224−230.
+panelonclimatechange;COD,chemicaloxygendemand;EF, (16) Bao, Z.; Sun, S.; Sun, D. Assessment of greenhouse gas
+emission factor; ER, emission rate emissionfromA/OandSBRwastewatertreatmentplantsinBeijing,
+9589 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590
+
+--- Page 9 ---
+Environmental Science & Technology pubs.acs.org/est Article
+China. Int. Biodeterior. Biodegrad. 2016, 108, 108−114, plants:Aligningmodelperformance,complexity,andinterpretability.
+DOI:10.1016/j.ibiod.2015.11.028. Water Res.2023, 245, No. 120667.
+(17) Yan, X.; Li, L.; Liu, J. Characteristics of greenhouse gas (36) Jin, P.; Wang, B.; Jiao, D.; Sun, G.; Wang, B.; Wang, X. C.
+emissioninthreefull-scalewastewatertreatmentprocesses.J.Environ. Characterizationofmicrofloraandtransformationoforganicmatters
+Sci.2014, 26(2), 256−263. inurban sewersystem. WaterRes.2015, 84, 112−119.
+(18) Masuda, S.; Suzuki, S.; Sano, I.; Li, Y. Y.; Nishimura, O. The (37) Shen, T.; Qiu, Y.; Shi, H. Mathematical Simulation of
+seasonal variation of emission of greenhouse gases from a full-scale Feedforward Control for Nutrient Removal in Anaerobic−Anoxic−
+sewagetreatmentplant.Chemosphere 2015, 140, 167−173. Oxic Processes. Environ.Eng. Sci. 2010, 27(8),633−641.
+(19) Guisasola, A.; de Haas, D.; Keller, J.; Yuan, Z. Methane (38)Daelman,M.R.;DeBaets,B.;vanLoosdrecht,M.C.;Volcke,
+formationinsewersystems.WaterRes.2008,42(6−7),1421−1430. E. I. Influence of sampling strategies on the estimated nitrous oxide
+(20)Tumendelger,A.;Alshboul,Z.;Lorke,A.Methaneandnitrous emissionfromwastewatertreatmentplants.WaterRes.2013,47(9),
+oxideemissionfromdifferenttreatmentunitsofmunicipalwastewater 3120−3130.
+treatment plants in Southwest Germany. PLoS One 2019, 14 (1), (39)Yoo,C.K.;Lee,J.M.;Lee,I.B.;Vanrolleghem,P.A.Dynamic
+No. e0209763. monitoring system for full-scale wastewater treatment plants. Water
+(21)Short,M.D.;Daikeler,A.;Wallis,K.;Peirson,W.L.;Peters,G. Sci. Technol. 2004, 50(11),163−171.
+M.Dissolved methane inthe influentof three Australianwastewater (40) Wang, J.; Zhang, J.; Xie, H.; Qi, P.; Ren, Y.; Hu, Z. Methane
+treatmentplantsfedbygravitysewers.Sci.TotalEnviron.2017,599− emissions from a full-scale A/A/O wastewater treatment plant.
+600,85−93. Bioresour. Technol.2011, 102 (9),5479−5485.
+(22)Liu,Y.;Sharma,K.R.;Fluggen,M.;O’Halloran,K.;Murthy,S.; (41) Ren, Y.; Wang, J. H.; Li, H. F.; Zhang, J.; Qi, P. Y.; Hu, Z.
+Yuan, Z. Online dissolved methane and total dissolved sulfide Nitrous oxide and methane emissions from different treatment
+measurementinsewers.WaterRes. 2015, 68,109−118. processesinfull-scalemunicipalwastewatertreatmentplants.Environ.
+(23) Noyola, A.; Paredes, M. G.; Guereca, L. P.; Molina, L. T.; Technol. 2013, 34(21−24), 2917−2927.
+Zavala,M.Methanecorrectionfactorsforestimatingemissionsfrom (42)Li,H.J.;Peng,D.C.;Liu,W.B.;Yao,Q.;Zhuo,Y.Non-CO2
+aerobicwastewatertreatmentfacilitiesbasedonfielddatainMexico Greenhouse Gas Release from Different Biological Wastewater
+andon literaturereview. Sci.Total Environ. 2018, 639, 84−91. Treatment Processes.Environ. Sci. (in Chinese) 2017, 38(4), 1640−
+(24)Daelman,M.R.J.;vanVoorthuizen,E.M.;vanDongen,L.G.; 1646.
+Volcke, E. I.; van Loosdrecht, M. C. Methane and nitrous oxide (43)Doorn,M.R.J.;Towprayoon,S.;Vieira,S.M.M.;Irving,W.;
+emissionsfrommunicipalwastewatertreatment-resultsfromalong- Palmer,C.;Pipatti,R.;Wang,C.2019Refinementtothe2006IPCC
+termstudy.Water Sci.Technol. 2013, 67(10),2350−2355. Guidelines for National Greenhouse Gas Inventories 2019 https://
+(25)Du,W.-J.;Lu,J.-Y.;Hu,Y.-R.;Xiao,J.;Yang,C.;Wu,J.;Huang, www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/5_Volume5/V5_6_
+B.;Cui,S.;Wang,Y.;Li,W.-W.Spatiotemporalpatternofgreenhouse Ch6_Wastewater.pdf. (accessedMar6, 2024).
+gas emissions in China’s wastewater sector and pathways towards
+carbonneutrality. Nat.Water 2023, 1, 166−175.
+(26) Hua, H.; Jiang, S.; Yuan, Z.; Liu, X.; Zhang, Y.; Cai, Z.
+Advancinggreenhousegasemissionfactorsformunicipalwastewater
+treatmentplantsinChina. Environ. Pollut.2022, 295,No. 118648.
+(27)Adams,G.;Witherspoon,J.IdentifyingandControllingOdorin
+the Municipal Wastewater Environment Phase 1: Literature Search and
+Review;IWA Publishing,2004.
+(28) Wang, M.; Gong, H. Not-in-My-Backyard: Legislation
+Requirements and Economic Analysis for Developing Underground
+Wastewater Treatment Plant in China. Int. J. Environ. Res. Public
+Health2018, 15(11),2339DOI: 10.3390/ijerph15112339.
+(29) Czepiel,P.M.; Crill,P. M.;Harriss, R.C.Methaneemissions
+frommunicipalwaste-watertreatmentproceses.Environ.Sci.Technol.
+1993, 27(12),2472−2477.
+(30)Sun,S.;Cheng,X.;Li,S.;Qi,F.;Liu,Y.;Sun,D.N2Oemission
+from full-scale urban wastewater treatment plants: a comparison
+between A(2)O and SBR. Water Sci. Technol. 2013, 67 (9), 1887−
+1893.
+(31)Sun,S.;Cheng,X.;Sun,D.EmissionofN2Ofromafull-scale
+sequencingbatchreactor wastewatertreatmentplant:Characteristics
+andinfluencingfactors.Int.Biodeterior.Biodegrad.2013,85,545−549,
+DOI:10.1016/j.ibiod.2013.03.034.
+(32) Aboobakar, A.; Cartmell, E.; Stephenson, T.; Jones, M.; Vale,
+P.;Dotro,G.Nitrousoxideemissionsanddissolvedoxygenprofiling
+in a full-scale nitrifying activated sludge treatment plant. Water Res.
+2013, 47(2),524−534.
+(33)Kosonen,H.;Heinonen,M.;Mikola,A.;Haimi,H.;Mulas,M.;
+Corona,F.;Vahala,R.NitrousOxideProductionataFullyCovered
+Wastewater Treatment Plant: Results of a Long-Term Online
+Monitoring Campaign. Environ. Sci. Technol. 2016, 50 (11), 5547−
+5554.
+(34) Aquino, S. F.; Chernicharo, C. A. L.; Souza, C. L.
+Quantification of dissolved methane in UASB reactors treating
+domesticwastewaterunderdifferentoperatingconditions.WaterSci.
+Technol.2011, 64(11),2259−2264.
+(35) Khalil, M.; AlSayed, A.; Liu, Y.; Vanrolleghem, P. A. Machine
+learning for modeling N2O emissions from wastewater treatment
+9590 https://doi.org/10.1021/acs.est.4c00820
+Environ.Sci.Technol.2024,58,9582−9590

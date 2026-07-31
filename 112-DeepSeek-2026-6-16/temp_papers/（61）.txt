@@ -1,0 +1,389 @@
+--- Page 1 ---
+Environmental Health Engineering and Management Journal 2024, 11(2), x-x doi 10.34172/EHEM.2024.xx
+http://ehemj.com
+Environmental Health
+HE
+Engineering and
+MJ Original Article
+Management Journal
+Open Access
+Publish Free
+CH4 and CO2 emissions rate of Iranian municipal wastewater
+treatment plants using IPCC and USEPA approaches
+Kamyar Yaghmaeian1ID, Masoud Panahi Fard2ID, Mehdi Ahmadi Moghadam3ID, Maryam Mousavi2,4ID, Neematollah
+Jaafarzadeh3*ID, Maryam Omidinasab5ID, Bamshad Shenavar6ID, Rozhan Feizi2ID
+1Center for Air Pollution Research (CAPR), Institute for Environmental Research (IER), Tehran University of Medical Sciences,
+Tehran, Iran
+2Student Research Committee, School of Health, Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran
+3Environmental Technologies Research Center, Medical Basic Sciences Research Institute, Ahvaz Jundishapur University of Medical
+Sciences, Ahvaz, Iran
+4Department of Environmental Health Engineering, School of Health, Ahvaz Jundishapur University of Medical Sciences, Ahvaz, Iran
+5Department of Environmental Health Engineering, Abadan Faculty of Medical Sciences, Abadan, Iran
+6Human Environment Office of the Khuzestan Department of Environment, Ahvaz, Iran
+Abstract
+Article History:
+Background: Wastewater treatment plants are important sources of emissions of greenhouse gases
+Received: 27 August 2023
+(GHSs) such as carbon dioxide and methane in the atmosphere. Also, energy consumption in the
+Accepted: 23 December 2023
+wastewater treatment process causes indirect carbon dioxide emissions.
+ePublished: 26 April 2024
+Methods: One hundred thirty-three operating wastewater treatment plants in Iran treat municipal
+wastewater. The carbon dioxide and methane emissions from the wastewater treatment plants for the
+year 2022 were estimated by establishing a calculation model according to the methods recommended
+by the Intergovernmental Panel on Climate Change for National Greenhouse Gas Inventories (2006)
+and United States Environmental Protection Agency (USEPA) guidelines.
+Results: Based on the Intergovernmental Panel on Climate Change guideline, the total methane
+emission was 158.63 tons. Based on the USEPA guideline, the total emissions of methane and carbon
+dioxide were 47.61 and 351.47 tons, respectively. This amount is 3.2% of all the methane and carbon
+dioxide emissions of Iran. Isfahan and Tehran provinces have the highest emissions rates of methane
+at 31.85 and 22.91 tons, respectively. While South Khorasan and Kerman provinces have the lowest
+methane emissions rates of 0.46 and 0.67 tons, respectively.
+Conclusion: The results will provide a scientific basis and effective strategies for policymakers to reduce
+the methane and carbon dioxide emissions from the wastewater treatment plants of Iran.
+Keywords: Methane, Carbon dioxide, Greenhouse gases, Wastewater, Iran
+Citation: Yaghmaeian K, Panahi Fard M, Ahmadi Moghadam M, Mousavi M, Jaafarzadeh N, *Correspondence to:
+Omidinasab M, et al. CH4 and CO2 emissions rate of Iranian municipal wastewater treatment plants Neematollah Jaafarzadeh,
+using IPCC and USEPA approaches. Environmental Health Engineering and Management Journal Email: N.jaafarzade@gmail.
+2024; 11(2): x-x doi: 10.34172/EHEM.2024.xx. com
+Introduction change (6-8). Excessive GHS emissions pose risks such
+Various human activities have led to a significant increase as floods, droughts, the spread of disease in the tropics,
+in greenhouse gas (GHG) emissions in the atmosphere global warming, and the rise of storms, tsunamis, and
+(1,2). Since 1800, the atmospheric concentrations of volcanoes (9). Wastewater treatment plants (WWTPs) are
+carbon dioxide (CO) and methane (CH) have increased known as one of the most common sub-sources of GHS
+2 4
+about 30% and 145%, respectively (3). GHSs act as a emissions (10-12). Zhao et al reported that cities with a
+reflector of heat from the ground, which obstructs the higher gross domestic product produced more degradable
+escape of heat in the atmosphere, causing an increase organics in wastewater, thus, more GHGs emissions (13).
+in the global average temperature (4,5). GHSs from The primary methods used for wastewater treatment,
+anthropological activities such as agriculture, industry, including aerobic processes like activated sludge-based
+waste disposal deforestation, and most especially processes, and significant anaerobic processes, both make
+burning of fossil fuels are the leading causes of climate significant contributions to the production and emission
+© 2024 The Author(s). Published by Kerman University of Medical Sciences. This is an open-access article distributed under
+the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use,
+distribution, and reproduction in any medium, provided the original work is properly cited.
+
+--- Page 2 ---
+Yaghmaeian et al
+of GHGs (14). WWTPs produce three main types of ECO2=(TOW×EF)−R (2)
+GHSs, including CO, CH, and NO (15). Koutsou et al
+2 4 2
+reported that emissions from Greek WWTPs were about Where ECH is the total amount of CH emissions (tons
+4 4
+0.9% of total GHGs emissions in Greece each year (12). CH/year), ECO is the total amount of CO emissions
+4 2 2
+Yan et al observed that overall GHGs emissions from (tons CO/year), TOW is total organic matter emissions
+2
+Chinese municipal WWTPs increased from 326.54 to of living wastewater treatment (kg BOD/year), EF is the
+1294.03 Gg (16). Therefore, the determination of GHGs emission factor (kg (CH, CO)/kg BOD), and R is the
+4 2
+emissions by applying various estimation techniques has volume of recovered CH, CO （kg (CH, CO)/ year).
+4 2 4 2
+increased in recent years. One of the emission estimation The formula of the emission factor (EF) is shown in Eq.
+techniques in the environment is the emission coefficient (3):
+method used to estimate GHGs in the air, land, and water
+(17). Emission coefficients have long been considered EF =B0×MCF (3)
+essential tools for air quality management (18). Emission
+coefficients, despite their specific limitations, are the best Where B is the maximum production capacity (kg
+0
+or only available method for estimating GHGs emissions (CH, CO)/kg BOD). Since there is still no large‐scale
+4 2
+(19). These coefficients provide an average of all available recovery of CH and CO in Iran, the amount of R is
+4 2
+data of acceptable quality (20,21). As Iran is a member assumed to be zero. MCF is the correction factor of CH
+4
+of various conventions in the field of environmental and CO. According to the actual situation in our country
+2
+protection and climate change, it is necessary to determine and using the related parameters, it is concluded that the
+the share of wastewater treatment in this country in the national average MCF is 0.165.
+production of CH and CO gases. The present study The emission coefficients used for the emission sources
+4 2
+aimed to evaluate the emission rate of CH and CO from related to WWTPs are presented in Table 1.
+4 2
+municipal WWTPs in Iran using a calculation model
+established by the Intergovernmental Panel on Climate Preparation of zoning maps
+Change for National Greenhouse Gas Inventories 2006 After estimating CH and CO emissions rates using IPCC
+4 2
+(IPCC2006) and the United States Environmental 2006 and USEPA approaches, classified zoning maps
+Protection Agency (USEPA) guidelines. Emission zoning of the studied greenhouse gas emissions in municipal
+maps prepared using geographic information system WWTPs in all studied provinces were prepared and
+(GIS). This study as the first study in this field in our drawn using GIS 10.2 software.
+country provides emission reduction scenarios.
+Results
+Materials and Methods The main wastewater treatment processes in the studied
+Study area treatment plants included activated sludge, stabilization
+Iran is the 16th largest globally, with a total land area pond, and aeration lagoon. These processes are operated
+of 1 648 195 km2. The combined population of the 32 aerobically. The results of greenhouse gas emissions (CH
+4
+provinces is 82.91 million people. In the present study, and CO) from WWTPs based on emission coefficients
+2
+CH and CO emission rates from 137 municipal WWTPs (IPCC 2006 and USEPA 2006) in the studied provinces
+4 2
+in all provinces of Iran were considered. are presented in Table 2.
+The difference in estimated emission rates for CH using
+4
+Data collection and estimation of CH and CO emissions IPCC 2006 and USEPA approaches is shown in Figure 1.
+4 2
+To estimate CH and CO emissions from municipal As shown in Figure 1, the emission rate estimated by the
+4 2
+WWTPs in all provinces of Iran, the basic information, IPCC 2006 method is higher than USEPA. This difference
+including the type of treatment process, the total can be related to the higher emission coefficients of this
+population covered, and the discharge rate of 137 method than the USEPA. The zoning maps based on the
+WWTPs in all provinces, were collected from wastewater emission coefficient of IPCC 2006 and USEPA are shown
+and water companies of each province. The rate of CH in Figures 2 and 3, respectively. In all zoning maps, CO
+4 2
+and CO emissions in different provinces were estimated
+2
+according to the emission factors recommended by the
+Table 1. The maximum production capacity emission coefficients based on
+2006 IPCC for National Greenhouse Gas Inventories
+the IPCC 2006 and USEPA (23,24)
+(the 2006 IPCC Guidelines for short; IPCC, 2006) and
+the USEPA (US EPA, 2006) guidelines (22). The CH and B 0(kg (CH 4, CO 2)/kg BOD)
+4 Approach
+CO emissions from a municipal WWTP are calculated CO CH
+2 2 4
+using equations 1 and 2. IPCC 2006 - kg CH/kg BOD 0.06
+4
+USEPA 1.375 kg CO/kg BOD 0.06 kg CH/kga
+2 4
+ECH4=(TOW×EF)−R (1) a BOD by applying the CH correction factor (0.3) for central aerobic
+4
+treatment.
+2 Environmental Health Engineering and Management Journal 2024, 11(2), x-x
+
+--- Page 3 ---
+Yaghmaeian et al
+Table 2. The total amount of CH and CO emissions (tons/year) from WWTP has the highest emissions rate of CH and CO,
+municipal WWTPs in all provinces o4 f Iran in 22 022 4 2
+9.64 and 74.07 tons/year, respectively. The lowest emission
+IPCC USEPA, 0.6 kg CH.kg USEPA, rates of CH and CO were related to South Khorasan,
+4 4 2
+Provinces 2006:0.6 BOD by applying the CH 4 1.375 0.14 and 1.04 tons/year, respectively. The total estimated
+kg CH. correction factor for central Kg CO.
+4 2 emissions rates of CH and CO were 47.61 and 351.47
+kg BOD aerobic treatment (0.3) Kg BOD 4 2
+tons/year, respectively. Isfahan and Tehran are the two
+East Azerbaijan 10.39 3.11 23.81
+most populated cities. The common feature of these cities
+West Azerbaijan 8.37 2.51 19.2
+is that they are the economic centers of the country and
+Isfahan 31.85 9.64 74.07
+have a higher level of prosperity. These two metropolises
+Ardabil 2.09 0.63 4.80 have a total share of 34.52% of the total emissions of CH
+4
+Alborz 1.82 0.55 4.17 and 35.9% of the total emissions of CO from the 133
+2
+Ilam 8.40 2.52 19.25 investigated WWTPs (Table 2). Larger cities with larger
+Bushehr 1.81 0.54 4.16 populations emit more GHG from their WWTPs because
+they tend to produce more municipal wastewater. The
+Tehran 22.91 6.87 52.51
+present study found that cities with more population have
+Chaharmahal and
+Bakhtiari 2.37 0.71 5.44 more GHG emissions per capita. The study by Zhao et al
+has shown a significant relationship between population,
+North Khorasan 0.85 0.25 1.95
+level of prosperity, and economy of society with the
+Razavi Khorasan 2.35 1.99 15.26
+amount of GHG emissions in China (13). The share of
+South Khorasan 0.46 0.14 1.04
+Iran’s GHG emissions from total world GHG emissions
+Khuzestan 5.32 1.30 11.42
+is 1.58% (14171 tons/year), which according to the results
+Zanjan 1.40 0.42 3.20 of this study, 2.82-3.59% of this amount is related to CH
+4
+Semnan 2.65 0.79 6.06 and CO emissions from WWTPS in Iran. According to a
+2
+Sistan and study by Daelman et al, the total emissions of the WWTPs
+2.95 0.88 6.76
+Baluchestan are 2,728 tons/year, and the excess CO emissions are
+2
+Fars 4.26 1.23 9.75 related to electricity and natural gas consumption. CH
+4
+Qom 2.99 0.90 6.86 emissions were much lower than CO in two Dutch
+2
+Qazvin 1.94 0.58 4.44 WWTPs (25). At the Kortenoord WWTPs, annual CH
+4
+emissions were 960 tons/year, while CO emissions were
+Kurdistan 8.73 2.62 20.01 2
+estimated at 500 tons/year. At the Papendrecht WWTPs,
+Kerman 0.67 0.20 1.55
+CH emissions were 730 tons/year, and CO emissions
+Kermanshah 3.93 1.18 9.00 4 2
+were 3458 tons/year (26). Yerushalmi et al reported that
+Kohgiluyeh and
+1.91 0.57 4.38 in aerobic, anaerobic, and hybrid treatment systems,
+Boyer-Ahmad
+the total CO emissions are 1.6, 3.3, and 3.6 tons/year,
+Gilan 0.94 0.28 2.15 2
+respectively (27,28). In Iran, per capita emission of GHG
+Lorestan 5.71 1.71 13.10
+resulting from urban wastewater treatment is equal to 0.5
+Mazandaran 2.68 0.82 5.96 g/year for CH, 4.1 g/year for CO (based on USEPA), and
+4 2
+Markazi 2.09 0.63 4.79 1.82 g/year for CH (based on IPCC). Zhao et al stated
+4
+Hormozgan 5.10 1.53 11.68 that the per capita production of GHG in China is 4.3
+Hamadan 0.72 0.22 1.65 kg per capita on average (13). The chemical and physical
+characteristics of treated wastewater, the population
+Yazd 10.97 2.29 3.05
+covered by wastewater collection systems, per capita
+Total 158.63 47.61 351.47
+production of wastewater, the type of process used for
+wastewater treatment, and different climatic conditions
+emissions were higher than CH emissions.
+4 can be the reasons for differences in the estimated GHG
+emission rates with other studies.
+Discussion
+Based on the emission coefficient of IPCC 2006, municipal
+Conclusion
+WWTPs of Isfahan and Tehran provinces have the
+This research estimated CH and CO emissions in
+highest emissions rates of CH, 31.85, and 22.91 tons/year, 4 2
+4 municipal WWTPs in Iran based on a calculation model
+respectively. WWTPs of South Khorasan and Kerman
+established by the IPCC 2006 and USEPA guidelines.
+provinces have the lowest emissions rates of CH, 0.46,
+4 The estimated CH emission from WWTPs based on the
+and 0.67 tons/year, respectively. Based on the IPCC 2006 4
+IPCC 2006 and USEPA guidelines was 158.63 and 47.61
+coefficient, the total CH released from Iran’s municipal
+4 tons, respectively. Also, based on the USEPA guideline,
+WWTPs was calculated at 158.63 tons/year. Based on
+CO emission was estimated to be 351.47 tons in 2022.
+the emission coefficient of the USEPA, Isfahan provinces 2
+Environmental Health Engineering and Management Journal 2024, 11(2), x-x 3
+
+--- Page 4 ---
+Yaghmaeian et al
+35
+30
+raey/snoTnajiabrezA 25
+20
+15
+10
+5
+0 …-reyoB
+najiabrezA nahafsI libadrA zroblA malI rhehsuB narheT iraithkaB nasarohk nasarohK nasarohk natsezuhK najnaZ nanmeS natsehculaB sraFmoQ nivzaQ natsedruK namreK hahsnamreK naliG natseroL naradnazaM izakraM nagzomroH nadamaH dzaY
+dna
+dna htroN ivazaR htuoS
+tsaE tseW heyulighoK
+dna
+lahamrahahC
+natsiS
+Provinces
+estimated rate using IPCC 2006 method estimated rate using USEPA method
+Figure 1. Estimated CH emission rates from WWTP using IPCC 2006 and USEPA approaches
+4 S
+Figure 1. Estimated CH4 emission rates from WWTPS using IPCC 2006 and USEPA approaches
+14
+Figure 2. The classified zoning map of CH based on the emission coefficient of IPCC 2006
+4
+Iran is a developing country and with the possibility of hoods and burn together with the biogas, 3- Reducing the
+an exponential increase in the number of WWTPs in the use of fossil fuels by supplying the required heating energy
+near future, it is necessary to adopt appropriate policies of WWTPs through recovering energy from biogas,
+to manage GHGs emissions from WWTPs. The following 4- Use of available technologies to eliminate GHGs, 5-
+strategies are recommended to reduce GHGs emissions in To remove more organic matter, future generations of
+the WWTPs of Iran: 1- Reduce the need for heating energy WWTPs must use more anaerobic processes.
+in WWTPs by running anaerobic reactors and digesters
+at lower temperatures, 2- Increasing anaerobic digestion Acknowledgments
+efficiency to produce more biogas, and capture GHGs by This study was funded and supported by the Center
+4 Environmental Health Engineering and Management Journal 2024, 11(2), x-x
+
+--- Page 5 ---
+Yaghmaeian et al
+Figure 3. The classified zoning map of CH and CO based on the emission coefficient of USEPA
+4 2
+for Air Pollution Research (CAPR), the Institute for for Air Pollution Research (CAPR), the Institute for
+Environmental Research (IER) of Tehran University of Environmental Research (IER) of Tehran University of
+Medical Sciences, Tehran, Iran. Medical Sciences, Tehran, Iran (Grant No. 23313-46-02-
+92).
+Authors’ contributions
+Conceptualization: Kamyar Yaghmaeian. References
+Data curation: Mehdi Ahmadi Moghadam. 1. Kazancoglu Y, Ozbiltekin-Pala M, Ozkan-Ozen YD.
+Prediction and evaluation of greenhouse gas emissions for
+Formal analysis: Maryam Mousavi.
+sustainable road transport within Europe. Sustain Cities
+Funding acquisition: Neematollah Jaafarzadeh.
+Soc. 2021;70:102924. doi: 10.1016/j.scs.2021.102924.
+Investigation: Maryam Omidinasab.
+2. Tang YH, Luan XB, Sun JX, Zhao JF, Yin YL, Wang YB,
+Methodology: Masoud Panahi Fard. et al. Impact assessment of climate change and human
+Project administration: Neematollah Jaafarzadeh. activities on GHG emissions and agricultural water use.
+Resources: No Applicable. Agric For Meteorol. 2021;296:108218. doi: 10.1016/j.
+Software: Bamshad Shenavar. agrformet.2020.108218.
+3. Prather MJ, Holmes CD, Hsu J. Reactive greenhouse gas
+Supervision: Neematollah Jaafarzadeh.
+scenarios: systematic exploration of uncertainties and
+Validation: Kamyar Yaghmaeian.
+the role of atmospheric chemistry. Geophys Res Lett.
+Visualization: No Applicable.
+2012;39(9):1-5. doi: 10.1029/2012gl051440.
+Writing–original draft: Rozhan Feizi.
+4. El-Fadel M, Massoud M. Methane emissions from
+Writing–review & editing: Masoud Panahi Fard. wastewater management. Environ Pollut. 2001;114(2):177-
+85. doi: 10.1016/s0269-7491(00)00222-0.
+Competing interests 5. Mikhaylov A, Moiseev N, Aleshin K, Burkhardt T. Global
+The authors declare that they have no conflict of interests climate change and greenhouse effect. Entrep Sustain
+Issues. 2020;7(4):2897-913. doi: 10.9770/jesi.2020.7.4(21).
+regarding the publication of the present article.
+6. Chang J, Kyung D, Lee W. Estimation of greenhouse gas
+(GHG) emission from wastewater treatment plants and
+Ethical issues
+effect of biogas reuse on GHG mitigation. Adv Environ
+Not applicable. Res. 201;3(2):173-83. doi: 10.12989/aer.2014.3.2.173.
+7. Gupta D, Singh SK. Greenhouse gas emissions from
+Funding wastewater treatment plants: a case study of Noida. Journal
+This research was financially supported by the Center of Water Sustainability. 2012;2(2):131-9.
+Environmental Health Engineering and Management Journal 2024, 11(2), x-x 5
+
+--- Page 6 ---
+Yaghmaeian et al
+8. Ahmadi Moghadam M, Feizi R, Panahi Fard M, 18. Ahmed OY, Ries MJ, Northrop WF. Emissions factors
+Jaafarzadeh Haghighi Fard N, Omidinasab M, Faraji M, et from distributed, small-scale biomass gasification power
+al. Estimating greenhouse emissions from sanitary landfills generation: comparison to open burning and large-scale
+using Land-GEM and IPCC model based on realistic biomass power generation. Atmos Environ. 2019;200:221-
+scenarios of different urban areas: a case study of Iran. J 7. doi: 10.1016/j.atmosenv.2018.12.024.
+Environ Health Sci Eng. 2021;19(1):819-30. doi: 10.1007/ 19. Salami HA, Adegite JO, Olalekan HI, Ahmed MO.
+s40201-021-00649-2. Estimation of pollutants’ emission rates and associated
+9. Nguyen TK, Ngo HH, Guo W, Chang SW, Nguyen DD, impact on local air quality: a case study of cottage industry
+Nghiem LD, et al. Insight into greenhouse gases emissions in Ibadan metropolis. Niger J Technol. 2021;40(1):146-53.
+from the two popular treatment technologies in municipal doi: 10.4314/njt.v40i1.19.
+wastewater treatment processes. Sci Total Environ. 20. Environmental Protection Agency (EPA). Air Emissions
+2019;671:1302-13. doi: 10.1016/j.scitotenv.2019.03.386. Factors and Quantification. EPA; 2009. p. 1-10.
+10. Corominas L, Flores-Alsina X, Snip L, Vanrolleghem PA. 21. Ahmadi Moghadam M, Ghodrati S, Jaafarzadeh Haghighi
+Comparison of different modeling approaches to better Fard N. CO2 and CH4 emission estimation using emission
+evaluate greenhouse gas emissions from whole wastewater factors from sugarcane development company. Jentashapir
+treatment plants. Biotechnol Bioeng. 2012;109(11):2854- J Cell Mol Biol. 2013:9-17. [Persian].
+63. doi: 10.1002/bit.24544. 22. Liu B, Zhao W, Zhang Y. Status of methane emission in
+11. Kim H, Cheon Y, Lee HK, Lee IB. Effects of greenhouse sewage treatment process and emissions estimate in Henan
+gas emission on decentralized wastewater treatment and province. Int J Environ Agric Res. 2017;3(12):23-6.
+reuse system. Comput Aided Chem Eng. 2012;31:515-9. 23. Xi J, Gong H, Zhang Y, Dai X, Chen L. The evaluation
+doi: 10.1016/b978-0-444-59507-2.50095-0. of GHG emissions from Shanghai municipal wastewater
+12. Koutsou OP, Gatidou G, Stasinakis AS. Domestic treatment plants based on IPCC and operational
+wastewater management in Greece: greenhouse gas data integrated methods (ODIM). Sci Total Environ.
+emissions estimation at country scale. J Clean Prod. 2021;797:148967. doi: 10.1016/j.scitotenv.2021.148967.
+2018;188:851-9. doi: 10.1016/j.jclepro.2018.04.039. 24. Anderson K, Moore PA Jr, Martin J, Ashworth AJ.
+13. Zhao X, Jin XK, Guo W, Zhang C, Shan YL, Du MX, et Evaluation of a novel poultry litter amendment on
+al. China’s urban methane emissions from municipal greenhouse gas emissions. Atmosphere. 2021;12(5):563.
+wastewater treatment plant. Earths Future. 2019;7(4):480- doi: 10.3390/atmos12050563.
+90. doi: 10.1029/2018ef001113. 25. Daelman MR, van Voorthuizen EM, van Dongen UG,
+14. Chen S, Harb M, Sinha P, Smith AL. Emerging Volcke EI, van Loosdrecht MC. Methane emission
+investigators series: revisiting greenhouse gas mitigation during municipal wastewater treatment. Water Res.
+from conventional activated sludge and anaerobic-based 2012;46(11):3657-70. doi: 10.1016/j.watres.2012.04.024.
+wastewater treatment systems. Environ Sci Water Res 26. Guo Z, Sun Y, Pan SY, Chiang PC. Integration of green
+Technol. 2018;4(11):1739-58. doi: 10.1039/c8ew00545a. energy and advanced energy-efficient technologies for
+15. Ashrafi O, Yerushalmi L, Haghighat F. Greenhouse gas municipal wastewater treatment plants. Int J Environ
+emission and energy consumption in wastewater treatment Res Public Health. 2019;16(7):1282. doi: 10.3390/
+plants: impact of operating parameters. Clean (Weinh). ijerph16071282.
+2014;42(3):207-20. doi: 10.1002/clen.201200158. 27. Yerushalmi L, Haghighat F, Bani Shahabadi M. Contribution
+16. Yan X, Zhang W, Wang Z, Zhou Z, Han Y, Cao Y. Spatial of on-site and off-site processes to greenhouse gas (GHG)
+and Temporal Distribution of Greenhouse Gas Emissions emissions by wastewater treatment plants. Int J Environ
+from Rural Sewage Treatment in China. Available at SSRN Ecol Eng. 2009;3(6):144-8. doi: 10.5281/zenodo.1073323.
+4435740. doi:10.21203/rs.3.rs-3470580/v1 28. Maktabifard M, Zaborowska E, Makinia J. Evaluating the
+17. Shrestha A, Bhattarai TN, Ghimire S, Mainali B, Treichel effect of different operational strategies on the carbon
+H, Paudel SR. Estimation of greenhouse gases emission footprint of wastewater treatment plants - case studies from
+from domestic wastewater in Nepal: a scenario-based northern Poland. Water Sci Technol. 2019;79(11):2211-20.
+analysis applicable for developing countries. Chemosphere. doi: 10.2166/wst.2019.224.
+2022;300:134501. doi: 10.1016/j.chemosphere.2022.134501.
+6 Environmental Health Engineering and Management Journal 2024, 11(2), x-x

@@ -1,0 +1,504 @@
+--- Page 1 ---
+Minimising greenhouse gas emissions from small and medium-sized wastewater
+treatment plants
+Jerzy Mikosz
+Cracow University of Technology, Faculty of Environmental Engineering and Energy, Chair
+of Environmental Technologies, ul. Warszawska 24, 31-155 Cracow, email:
+jmikosz@pk.edu.pl
+Abstract
+Municipal wastewater treatment plants often use the activated sludge process in single-stage
+reactors with nitrification or in two-stage reactors with nitrification and denitrification. Both
+processes, if operated under unfavourable environmental conditions, can lead to excessive
+production of nitrous oxide (N O), a gas with a high global warming potential (GWP) of about
+2
+300). In turn, the decomposition of organic pollutants leads to the release of CO and CH into
+2 4
+the atmosphere. When analysing greenhouse gas emissions from wastewater treatment, it is also
+necessary to consider indirect emissions, mainly related to the use of energy from external
+sources. Estimating the magnitude of these emissions based on actual measurements is difficult.
+This article presents the results of simulation studies on the potential for reducing greenhouse
+gas emissions from small and medium-sized wastewater treatment plants with aerobic sludge
+digestion (AD) through operational optimisation of existing plants or the application of new
+technologies.
+Keywords: wastewater treatment; greenhouse gases; nitrous oxide; activated sludge,
+multiphase reactors, computer simulation
+1 Introduction
+Municipal wastewater treatment plants (WWTPs) are significant producers of greenhouse gases
+(GHGs), including carbon dioxide (CO ) and methane (CH ) from the decomposition of organic
+2 4
+compounds and sludge treatment processes, and nitrous oxide (N O) from biological
+2
+nitrification and denitrification processes in the multi-phase activated sludge process.
+Shahabadi et al. (2009) estimate that total GHG emissions from a WWTP can reach up to 3.8
+kgCO eq. per kg of organic compounds, expressed as BOD in the influent wastewater. Among
+2 5
+these gases, N O plays a special role, both as a gas with a high global warming potential (GWP)
+2
+of about 300 and as an indicator of disturbance of biological nitrification and denitrification
+processes (IPCC, 2006; Domingo-Felez et al., 2019). The amount of GHG emissions can be
+estimated using empirical formulae and generalised indices that only approximate the
+emissions. For example, Foley et al. (2010) estimate it at about 0.06-0.25 kg N O-N per kg
+2
+denitrified nitrogen. Similar figures are given by Law et al. (2012) with N O emissions to be
+2
+between 0.001% and 25% of the nitrogen load in the reactor influent. Haas et al. (2022) provide
+a summary of N O emissions for different WWTP types and using different measurement
+2
+
+--- Page 2 ---
+methods. The values reported there for WWTPs with multiphase reactors in different
+configurations range from 0.00012 to 0.0443 kg N O-N per kg nitrogen in the influent. These
+2
+are significantly lower than the upper limits reported by Folley et al. (2010) and Law et al.
+(2012). However, the actual N O emission is difficult to determine accurately due to the
+2
+difficulty of making measurements under normal operating conditions. Another approach is to
+use simple static mathematical models. Such models have been developed by Monteith et al.
+(2005), Bridle et al. (2008) and others. However, the most accurate results can be obtained using
+dynamic computer simulation with a properly constructed and calibrated model of a given
+WWTP. These models describe N O production by heterotrophic denitrification, such as the
+2
+ASMN model (Hiatt and Grady, 2008), and by autotrophic nitrification and denitrification
+processes, such as the models of Ni et al. (2012) and Mampaey et al. (2013). However, it should
+be noted that even these models do not fully describe these processes due to difficulties in fully
+understanding autotrophic bacterial N O production mechanisms (Mikosz, 2017; Massara et
+2
+al., 2017). Recently, there has been a great deal of research into the pathways for N O
+2
+production by autotrophic transformations (e.g. Li et al., 2017; Lang, 2019; Maktabifard et al.,
+2022). This gives hope for the development of new mathematical models describing this process
+and the emergence of new measurement methods.
+While most research has focused on large wastewater treatment plants using anaerobic sludge
+stabilisation, very little attention has been paid to GHG emissions from smaller facilities using
+aerobic sludge digestion (AD) as a simultaneous or stand-alone process. Smaller WWTPs
+typically use simple biological treatment methods, usually in the form of one- or two-stage
+activated sludge. Studies conducted to date on GHG emissions from AD systems have tended
+to be of a review nature and based on indicator measurements (e.g . Yapıcıoğlu, 2021; Kemmou
+et al. 2022). The novelty of the presented research is the use of dynamic computer simulation
+to accurately determine the magnitude and structure of GHG emissions from AD processes
+under different operating conditions.
+The results presented here are limited to two-stage activated sludge systems with pre-
+denitrification, such as the modified Ludzack-Ettinger (MLE), which is one of the most
+common. Such a system is potentially a source of significant GHG emissions, especially N O,
+2
+if the nitrification and denitrification processes are disrupted. The results of this study allowed
+general conclusions to be drawn about the considerations and limitations of using two-phase
+activated sludge technology with AD of sludge in the context of GHG emissions.
+2 Methods
+2.1 Description of the wastewater treatment plant
+The study was carried out using computer simulation methods with the program GPS-X v.7.01.
+The subject of the study was a model of a mechanical-biological wastewater treatment plant
+with mechanical treatment without primary sedimentation, with a two-phase activated sludge
+reactor, a secondary horizontal rectangular clarifier and aerobic digestion of the sludge located
+in southern Poland. Sludge digestion was carried out as a simultaneous process in the biological
+
+--- Page 3 ---
+reactor or separately in a stand-alone aerobic digestion chamber (ADC), depending on the
+layout. An external carbon source could be dosed into the reactor to enhance denitrification,
+and a coagulant could be dosed into the effluent of the biological reactor for simultaneous
+phosphorus precipitation. In addition, the design of the WWTP includes dewatering of the
+digested sludge using a centrifuge and transport of the dewatered sludge for disposal. The
+technological scheme of the WWTP system is shown in Figure 1.
+Fig 1 Technological scheme of the wastewater treatment plant under study
+The municipal wastewater flows into the WWTP at 2,000 m3/d and has quantitative and
+qualitative characteristics typical of a plant of this size. The population equivalent (p.e.) for the
+WWTP is 8333. The WWTP discharges the treated wastewater into a reservoir which,
+according to the Polish ordinance on substances particularly harmful to the aquatic environment
+(2019), results in a limitation of the total nitrogen concentration in the treated wastewater to 15
+g N/m3 and total phosphorus to 2 g P/m3. The most important plant’s operating parameters are
+listed in Table 1. The data for the model comes from the WWTP’s operator and the raw
+wastewater quality data is for the period May-October 2021.
+Table 1 Summary of the most important operating parameters of the treatment plant under study
+Parameter Unit Value
+Average daily flow m3/d 2,000
+Person equivalent - 8,333
+Reactor volume m3 1,300
+Ratio of anoxic zone to total reactor volume - 0.3
+Wastewater temperature ºC 16
+Composition of the influent:
+- BOD g O /m3 250
+5 2
+- COD g O /m3 431
+2
+- Total suspended solids g/m3 229
+
+--- Page 4 ---
+- Kjeldahl nitrogen g N/m3 60
+- Ammonia nitrogen g N-NH /m3 48
+4
+- Total phosphorus g P/m3 10
+Activated sludge parameters:
+- Mixed liquor suspended solids (MLSS) g DS/m3 4,260/5,160*
+- Dissolved oxygen concentration g O /m3 1.5
+2
+- Solids retention time (SRT) d 26.7/25.6*
+Excess sludge production kg DS/d 273/236*
+Dry solids content is dewatered sludge % 27.2
+*) for Layout 1/Layout 2
+2.2 Model description and assumptions
+The study used the mathematical model Mantis3 to describe N O emissions during
+2
+heterotrophic denitrification and autotrophic nitrification of nitrogen contained in the
+wastewater. Denitrification is included in the model as a 4-step process as described by Hiatt
+and Grady (2008), and autotrophic nitrification is based on models proposed by Ni et al. (2012)
+and Mampaey et al. (2013) with all respective restrictions. The model is integrated, meaning
+that it is applied consistently to all objects included in the simulation model, maintaining
+continuity and integrity in the description of biological, chemical and physical processes,
+including GHG emissions. Following the standard adopted by the GHG Protocol (IPCC, 2006),
+GHG emissions in the model include direct emissions (Scope 1), indirect energy emissions
+(Scope 2) and other indirect emissions (Scope 3). This methodology is also adopted as the
+mandatory way to report GHG emissions in the EU for companies, firms and businesses
+(Directive 2022/2464). The model also takes into account negative emissions (offsets) resulting
+from the use of renewable fuels, CO capture and their use as a source of inorganic carbon by
+2
+micro-organisms.
+2.3 Organization of the study
+The study included a basic operating strategy that is typical for small WWTPs when removal
+of nitrogen and phosphorus compounds is required (e.g. a WWTP has a larger capacity or is
+located within the boundaries of a larger agglomeration). Under such conditions, it is necessary
+to achieve effective biological denitrification, and phosphorus is usually removed by chemical
+precipitation. The GHG emissions in scopes 1, 2 and 3 were determined for typical operating
+conditions of a treatment plant with stand-alone aerobic sludge stabilization (Layout 1) and for
+a hypothetical operating strategy with simultaneous aerobic sludge stabilization (Layout 2). In
+subsequent stages of the study, these systems were subjected to a sensitivity analysis with
+respect to the most important technological parameters, such as oxygen concentration in the
+reactor, influent temperature and availability of organic substrate for the denitrification process.
+The level and structure of greenhouse gas emissions were monitored. During the study, the
+required technological efficiency of the wastewater treatment process was ensured. The block
+diagram of the tests is shown in Figure 2.
+
+--- Page 5 ---
+SIMULATION: O2 CONC. (0-2 gO2/m3)
+WWTP MODEL LAYOUT 1 EFFLUENT SENSITIVITY
+DEVELOPMENT STANDARDS MET ANALYSIS PROCESS TEMP. (6-26 oC)
++ GHG EMISSIONS (GHG
+& CALIBRATION
+SIMULATION: (SCOPE 1, 2, 3) EMISSIONS)
+LAYOUT 2 INFLUENT BOD5/TKN (1.7-25)
+Fig 2 Block diagram of organization of the study
+4 Results
+4.1 System with stand-alone aerobic digestion (Layout 1)
+Under the typical plant operating conditions shown in Table 1, the treatment plant uses stand-
+alone aerobic sludge digestion and achieves technological effects that meet regulatory
+requirements what is shown for layouts 1 and 2 in Table 2 below. Sludge digestion is carried
+out in a separate 500 m3 aerobic digestion chamber, which allows a total sludge age of 26.7 d.
+The sludge is then mechanically dewatered in a centrifuge.
+Table 2 Quality of the treated wastewater for Layout 1 and Layout 2
+Parameter Unit Layout 1 Layout 2 Effluent limits
+BOD g O /m3 4.4 4.2 25
+5 2
+COD g O /m3 27.0 28.0 125
+2
+Total suspended solids g/m3 11.1 11.9 35
+Total nitrogen g N/m3 12.1 10.8 15
+Ammonia nitrogen g N-NH /m3 0.5 0.4 -
+4
+Total phosphorus g P/m3 0.8 1.1 2
+The volume of GHG emissions is then 8,764 kgCO eq/d, of which 5,352, 3,411 and 1
+2
+kgCO eq/d are attributed to Scopes 1, 2 and 3 respectively. These emissions are mainly due to
+2
+the operation of the biological reactor (5,546 kgCO eq/d) and the aerobic digestion chamber
+2
+(3,136 kgCO eq/d). Only about 82 kgCO eq/d can be attributed to emissions from other
+2 2
+wastewater and sludge treatment processes. At the same time, the balance takes into account
+the offset of greenhouse gas emissions, mainly due to CO used as an inorganic carbon source
+2
+in the activated sludge process, for a total of 1,256 kgCO eq/d. This reduces the GHG emissions
+2
+to 7,508 kgCO eq/d. Emissions from the reactor are 92% direct emissions (Scope 1), while in
+2
+the stand-alone aerobic digestion chamber they are 93% indirect emissions (Scope 2) due to
+energy consumption for sludge aeration. These figures are detailed in Table 3.
+Table 3 GHG emissions from the investigated WWTP by emission source and scope in
+kgCO eq/d for Layout 1.
+2
+
+--- Page 6 ---
+Aerobic
+Biological
+Emission scope digestion Other WWTP total
+reactor
+chamber
+Scope 1, including: 5,122 230 0 5,352
+- CO 1,146 108,8 0 1,254.8
+2
+- CH 0 2,8 0 2.8
+4
+- N O 3,976 118.4 0 4,094.4
+2
+Scope 2 424 2,906 81 3,411
+Scope 3 0 0 1 1
+Total gross 5,546 3,136 82 8,764
+Offset (for scope 1) 1,146 110 0 1,256
+Total net 4,400 3,026 82 7,508
+4.2 System with simultaneous aerobic digestion (Layout 2)
+It was further assumed that the WWTP would continue to operate under similar conditions to
+the baseline, but that sludge digestion would take place simultaneously and in a multi-stage
+reactor. The SRT is then 25.6 d, which is sufficient to achieve full sludge stabilisation. After
+digestion, the sludge is sent to a sludge holding tank and then to a centrifuge for dewatering.
+The quality of the treated effluent is not significantly different from Layout 1, but the production
+of excess sludge is lower at 235.7 kg DS/d compared to 272.6 kg DS/d for Layout 1.
+The volume of GHG emissions in Layout 2 is 5,798 kg CO eq/d, of which 5,228 and 570 kg
+2
+CO eq/d are in Scopes 1 and 2 respectively. Scope 3 emissions are practically non-existent
+2
+(Table 4). These emissions come almost exclusively from the biological reactor (5,647 kg
+CO eq/d) and are 91% direct emissions (scope 1). All other WWTP facilities, including the
+2
+stabilised sludge storage tank, contribute only a small amount of GHG emissions (about 222 kg
+CO eq/d), mainly in the form of direct methane emissions (60 kg CO eq/d) and indirect Scope
+2 2
+2 emissions (82 kg CO eq/d). This is significantly lower than in Layout 1, where total gas
+2
+emissions were 8,764 kg CO eq/d - a difference of 33.8%. Taking into account the offset of
+2
+emissions due to CO consumed as an inorganic carbon source in the activated sludge process,
+2
+which amounts to 1,216 kg CO eq/d, the volume of GHG emissions is reduced to 4,582 kg
+2
+CO eq/d. This is 39% less than for Layout 1.
+2
+Table 4 GHG emissions from the investigated WWTP by emission source and scope in
+kgCO eq/d for Layout 2.
+2
+Aerobic
+Biological
+Emission scope digestion Other WWTP total
+reactor
+chamber
+Scope 1, including: 5144 84 0 5228
+- CO 1184 23 0 1207
+2
+- CH 0 60 0 60
+4
+
+--- Page 7 ---
+- N O 3960 1 0 3961
+2
+Scope 2 432 56 82 570
+Scope 3 0 0 0 0
+Total gross 5647 140 82 5798
+Offset (for scope 1) 1184 32 0 1216
+Total net 4392 108 82 4582
+5 Model sensitivity analysis
+Reducing greenhouse gas emissions is not the only factor to consider when choosing an
+operational strategy. Also important is the sensitivity of the treatment system to varying
+operating conditions such as oxygen concentration in the biological reactor, wastewater
+temperature fluctuations and organic substrate availability. These factors were analysed during
+sensitivity analysis of the developed model.
+5.1 Oxygen concentration in the reactor
+The oxygen concentration in the aerobic zone of the reactor was varied from 0 to 2 g O /m3
+2
+while monitoring the level of GHG emissions (Figure 2). Oxygen concentrations below 0.1 g
+O /m3 prevented nitrification and therefore GHG emissions were relatively low. Above this
+2
+value, nitrification occurred, but the lack of oxygen resulted in accelerated production of N O
+2
+in the aerobic zone as an intermediate product of incomplete nitrification, as can be clearly seen
+in Figure 3. When the oxygen concentration was increased above 0.4-05 g O /m3, the
+2
+production of N O gradually decreased, with the process occurring faster and to a lower final
+2
+value for Layout 2. After exceeding the value of 1.7 g O /m3 in both layouts, an increase in the
+2
+rate of N O production in the anoxic zone due to incomplete denitrification is evident. For both
+2
+layouts, at oxygen concentrations above 0.3 g O /m3, it was possible to achieve the required
+2
+technological efficiency for the removal of carbon, nitrogen and phosphorus compounds.
+
+--- Page 8 ---
+18000
+16000
+Layout 1
+14000 Layout 2
+d
+/
+q
+e 12000
+2
+O
+C 10000
+g
+k
+, n 8000
+o
+is
+s 6000
+im
+e
+4000
+t
+e
+n
+G 2000
+H
+G
+0
+0,0 0,2 0,4 0,6 0,8 1,0 1,2 1,4 1,6 1,8 2,0
+Oxygen conc., gO /m3
+2
+Fig 2 Effect of dissolved oxygen concentration in the aerobic zone on net GHG emissions for
+Layouts 1 and 2
+8
+AE1 AX1
+6
+d AE2 AX2
+*
+3 4
+m
+d
+/ 2
+N
+g
+m
+0
+,e
+t
+a -2
+r
+n
+o
+it -4
+c
+u
+d -6
+o
+r
+p
+-8
+O
+2
+N
+-10
+-12
+Oxygen conc., gO /m3
+2
+Fig 3 Effect of dissolved oxygen concentration on N O production rate in the anoxic (AX)
+2
+and aerobic (AE) zones of the reactor for Layouts 1 and 2
+In both systems N O was the main product. In the case of Layout 1, there are significant indirect
+2
+emissions related to the energy consumption for aeration of the stand-alone digestion chamber.
+
+--- Page 9 ---
+Direct CO emissions remain constant at around 1,000 kg CO eq/d and are virtually
+2 2
+independent of the oxygen concentration in the reactor. Only at very low oxygen concentrations
+(below 0.4 g O /m3) it is replaced by CH emissions associated with anaerobic conditions in the
+2 4
+reactor (Figure 4).
+Layout 1
+20000
+d Reactor - CO2
+/
+q Reactor - CH4
+e
+O2 15000 Reactor - N2O
+C
+g Reactor - scope 2
+k
+,
+n
+o
+is 10000
+s
+im
+e
+s
+s
+o 5000
+r
+g
+G
+H
+G
+0
+0 0,2 0,4 0,6 0,8 1 1,2 1,4 1,6 1,8 2
+Oxygen conc., gO /m3
+2
+Layout 2
+20000
+Reactor - CO2
+d
+/
+q Reactor - CH4
+e
+O2 15000 Reactor - N2O
+C
+g
+k
+,
+n
+o
+is 10000
+s
+im
+e
+s
+s
+o 5000
+r
+g
+G
+H
+G
+0
+0 0,2 0,4 0,6 0,8 1 1,2 1,4 1,6 1,8 2
+Oxygen conc., gO /m3
+2
+Fig 4 Structure of gross GHG emissions as function of oxygen concentration in the reactor for
+Layouts 1 and 2
+5.2 Process temperature
+
+--- Page 10 ---
+Temperature has a significant effect on the course of biochemical degradation processes of
+pollutants, especially the nitrification process. During the study, the effect of temperature
+changes between 6 and 26 ºC on the production of greenhouse gases was analysed for the
+layouts studied. For both systems, gas production decreased with increasing temperature, which
+was mainly due to increased nitrification and denitrification kinetics and thus reduced N O
+2
+production at higher temperatures. Over the whole temperature range, the production was
+significantly lower for layout 2 with simultaneous sludge digestion (Figure 5). The effect of
+temperature was significantly lower for Layout 2.
+8000
+Layout 1
+7000 Layout 2
+d 6000
+/
+q
+e
+O25000
+C
+g
+k
+4000
+,
+n
+o
+is
+s 3000
+im
+e
+t 2000
+e
+n
+G
+1000
+H
+G
+0
+6 8 10 12 14 16 18 20 22 24 26
+Temperature, oC
+Fig 5 Effect of reactor temperature on net GHG emissions for Layouts 1 and 2
+Temperature has no discernible effect on the source structure of GHG emissions (Figure 6). For
+both layouts, the N O fraction decreased slightly with increasing temperature. This is due to the
+2
+reduced rate of N O production during biological nitrification, as seen in Figure 7. On the other
+2
+hand, the negative values indicate the consumption of N O by biomass under anoxic conditions.
+2
+In Layout 1, regardless of temperature, a significant source was indirect emissions from the
+stand-alone aerobic digestion chamber.

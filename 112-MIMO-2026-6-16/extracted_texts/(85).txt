@@ -1,0 +1,676 @@
+--- Page 1 ---
+Cite this article Research Article
+Das S, Ray R and Biswas N Paper 2400007
+Estimation of greenhouse gas emission from biological wastewater treatment plants. Received 11/01/2024; Accepted 18/09/2025
+Journal of Environmental Engineering and Science,
+https://doi.org/10.1680/jenes.24.00007 Emerald Publishing Limited: All rights reserved
+Journal of Environmental Engineering and Science
+Estimation of greenhouse gas emission from
+biological wastewater treatment plants
+Seema Das Nihar Biswas
+Corporate Energy, Climate & Environment, The city of Calgary, Calgary, Department of Civil & Environmental Engineering, University of Windsor,
+Canada Windsor, Canada
+Rajan Ray
+Department of Civil & Environmental Engineering, University of Windsor,
+Windsor, Canada (corresponding author: rayr@uwindsor.ca)
+Wastewater treatment plants, although they may have a small footprint, are known sources of substantial greenhouse
+gas (GHG) emissions. Two separate municipal wastewater treatment plants (Plant A and Plant B), both providing sec-
+ondary level of treatment, were evaluated to quantify their GHG emissions and make a comparison. Plant A is a biologi-
+cal aerated filter (BAF) treatment system, while Plant B is an activated sludge (AS) system with two separate
+bioreactors; one is a plug-flow type and the other is completely mixed. BAF treatment system and the AS system, based
+on energy consumption, can release, on average, 0.02 and 0.03kg of equivalent CO per m3 of treated wastewater,
+2
+respectively. Plant B had significant higher off-site NO emission (0.005kg of equivalent CO per m3) compared to onsite
+2 2
+emission (0.0005kg of equivalent CO per m3). In comparison, Plant A has overall higher NO emission (0.0075kg of
+2 2
+equivalent CO per m3) than plant B (0.0065kg of equivalent CO per m3). However, Plant B has higher (overall) meth-
+2 2
+ane emissions than Plant A (0.024 and 0.011kg of equivalent CO per m3, respectively). A regression analysis showed
+2
+that temperature, SRT, and BOD loading rate strongly influence GHG emission.
+5
+Keywords: environmental engineering/GHG emission/pollution/wastewater treatment
+1. Introduction In Canada, significant contributors to GHG emissions include sec-
+The increase in global average temperature due to the accumula- tors covering transportation, industrial processes, and energy pro-
+duction. However, according to Ashrafi et al. (2015), various
+tion of greenhouse gases (GHG) in the atmosphere is a serious
+waste management sectors such as wastewater treatment, incinera-
+concern for the environment and the humanity. Carbon dioxide
+tion of solid wastes, and landfill gas emissions accounted for
+(CO ), methane, and nitrous oxide are the major GHG responsible
+2
+�24.8 megatonnes (Mt) of carbon dioxide) equivalent in Canada
+for global warming (Anon, 2013; IPCC, 2022). The accumulation
+in 2013 (Ashrafi et al., 2015).
+of these gases has increased significantly in recent years, disrupt-
+ing the energy flow cycle in the atmosphere and causing global
+GHG emission from the wastewater management sector is consid-
+warming (Massara et al., 2017). This phenomenon has negative
+ered a concern in the “Waste” sector for the Canadian national
+impacts on the environment, economy, and overall well-being of
+inventories for GHGs (Environment and Climate Change Canada,
+people (Yerushalmi et al., 2009; IPCC, 2022).
+2021; Zawartka et al., 2020). Kyoto Protocol had proposed spe-
+cific regulations and/or penalties for emissions of methane (CH )
+It is important to note that tackling global warming and reducing 4
+and nitrous oxide (N O) from wastewater treatment plants
+2
+GHG emissions is a collective responsibility of all countries.
+(Greenfield and Batstone, 2005). As a result, there is a need to
+Countries must work together to find effective solutions to this
+properly identify the sources and quantify the rate at which these
+global challenge. Scientists, policymakers, and individuals must
+gases are emitted from wastewater treatment plants providing
+take urgent actions to reduce GHG emissions and promote sustain-
+secondary-level treatment. With this knowledge, strategies could
+able practices that can help mitigate the impact of global warming.
+be developed to limit and reduce the rate of GHG emissions into
+the atmosphere (Baresel et al., 2016).
+Canada, along with other countries, signed the Kyoto Protocol,
+which aimed to reduce GHG emissions by 6% from 1990 levels Most municipal wastewater treatment plants (WWTPs) use bio-
+during the period of 2008–2012 (UNFCCC, 1997). However, logical treatment processes emitting carbon dioxide. Furthermore,
+Canada did not meet its target. Later, Canada signed the Paris some carbon dioxide is produced during energy production and
+Agreement, which aimed to keep the global average temperature plant operation. Because almost all municipalities in the developed
+rise well below 28C. However, the average temperature rise was world, as well as many in the developing world, use biological
+2.78C in 2021, indicating that the Paris Agreement has also failed treatment to treat their wastewater, they have become a significant
+(UNEP, 2021). contributor to GHGs (Campos et al., 2016).
+1
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 2 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+GHG emissions from wastewater treatment plants consist of both The study presented here focused on two wastewater treatment plants,
+on-site and off-site sources. On-site emissions originate from treat- Plant A and Plant B, located in a Canadian city. Plant A uses a biologi-
+ment processes, including aerobic, anaerobic, and other combined cal aerated filter (BAF) treatment system, while Plant B has an AS sys-
+methods. Off-site GHG emissions arise during the management of tem with two types of reactors – one plug-flow type and one
+biosolids, which encompasses the transportation of biosolids off- completely mixed. Previous literature on GHG emissions from BAF
+site and their eventual degradation, as well as off-site energy pro- treatment systems, including this specific site, is limited. The main
+duction and chemical manufacturing (Mamais et al., 2015; objectives of the study were to develop a methodology for estimating
+Massara et al., 2017; Monteith et al., 2005). GHG emissions from both plants, determine the carbon-based and non-
+carbon based GHG emissions per cubic metre of treated wastewater,
+There are two ways to quantify GHG emissions: direct measure- and compare the off-site GHG emissions from both plants. The plants
+ment or estimation. The World Resources Institute has identified were selected based on the actual scenario of a specific city, which
+four quantification methods, including the emission factor (EF)- employs particular treatment types suited to its unique wastewater man-
+based method, the mass balance method, the predictive emissions agement needs. These treatment plants reflect the city’s infrastructure
+monitoring system, and the continuing emissions monitoring sys- and operational practices, providing a real-world context for studying
+tem based on a review of the IPCC (2006)guidelines and guide- emissions associated with the specific treatment technologies in use.
+lines from national government agencies (World Resources
+Institute, 2004). Mass balance and emission-factor technique are Quantifying emissions in wastewater treatment plants involves
+the most used for GHG estimation for wastewater treatment plants addressing several scientific questions. These include identifying
+(El-Fadel and Massoud, 2001; EPA, 2018; MOECC, 2016). In the the types and quantities of emissions produced, as well as how
+mass balance technique, overall stoichiometry is used for the theo- emissions can be quantified separately across different treatment
+retical calculation of GHG. For the EF technique, EPA has set out stages. Understanding the role of operational factors, such as tem-
+the EF for calculating GHG emissions from various industrial perature, aeration rates, and organic loading, in determining emis-
+sources, including wastewater treatment, which can be used to cal- sions is crucial, as is assessing how different treatment technologies
+culate the total emissions from a specific source (EPA, 2018). impact emission levels. In addition, quantifying emissions from
+sludge management processes like dewatering and land application
+The EF technique was used by Monteith et al. (2005)to estimate presents challenges. The influence of wastewater composition,
+GHG from 16 different wastewater treatment plants from 10 prov- whether industrial, domestic, or agricultural, on emissions must also
+inces across Canada. They estimated the emission rate to be be considered. Other key questions involve how climate and geo-
+0.005kg CO equivalent/m3 of wastewater treated in the primary graphic factors affect emissions, how real-time monitoring and
+2
+treatment facilities and 0.26kg CO equivalent/m3 from conven- accurate measurement can be achieved, and how uncertainties in
+2
+tional activated sludge (AS) process. Though Monteith et al. rec- emission measurements can be minimised. Finally, exploring effec-
+ognised the importance of GHG emission from non-carbon-based tive strategies for implementing and monitoring emission reductions
+compounds, due to lack of nitrous oxide emission data their study is essential. These questions reflect the complexity of emissions
+was limited only to carbon dioxide emission. Shahabadi (2008) quantification in wastewater treatment, influenced by a range of
+compared GHG emissions from food processing industrial waste- variables across systems, processes, and external conditions.
+water to the findings of Monteith et al. (2005). Shahabadi (2008)
+only included the GHG emissions from municipal wastewater dur- The current study aimed to address these questions by examining
+ing the on-site treatment processes, ignoring the nitrification/deni- the emissions from wastewater treatment plants in a specific city,
+trification process, which can act as a carbon sink. Shahabadi focusing on the treatment types implemented in the region. By
+(2008)recommended that further research is needed in calculating analysing the types and quantities of emissions produced, as well
+GHG emissions from wastewater treatment plants where the as the impact of operational factors, treatment technologies, and
+wastewater undergoes the nitrification/denitrification process. wastewater composition, the study sought to provide insights into
+the complexities of emissions in this real-world scenario. In addi-
+Parravicini et al. (2016) came up with a rational model where tion, the study explored methods for accurate measurement, real-
+available EF, considered by previous researchers, were used for time monitoring, and strategies for emission reduction, contribut-
+calculating the GHG emission from two specific treatment plants: ing to a better understanding of emissions in wastewater treatment
+one aerobic digester (AD) and another surplus activated sludge systems.
+(SAS). For AD, they estimated the direct methane emission to be
+equal to 9.5kg CO equivalent per capita per year and nitrous 2. Information on treatment plants and
+2
+oxide emission to be equal to 15.5kg CO equivalent per capita methodology
+2
+per year. For SAS, these numbers were 4.6 and 1.3kg CO equiva- Plant A, having a BAF in secondary treatment, serves the western
+2
+lent per capita per year for methane and nitrous oxide, respec- part of the city and county, has a maximum capacity of 218000 m3/d
+tively. Nitrous oxide emission is much lower here because of the and is designed to handle an average flow of 146000 m3/d. The treat-
+higher total nitrogen removal rate. ment process includes primary clarifiers with chemical precipitation,
+2
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 3 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+BAF cells, and dewatering facilities to treat the wastewater from a in Figure 1. For Plant A there is no secondary clarifier. Aeration
+total population of 181000. tank is replaced by BAF and primary clarifier includes chemical
+precipitation. For Plant B drive train is similar to the typical clari-
+Plant B, having a typical AS process, is responsible for treating fier with two different drive train of mixed reactor and plug flow
+wastewater from the eastern region of the city and has a capacity reactor.
+of 63700m3/d. Its average daily flow is 47500m3/d, and it serves
+a population of 87000. The plant has primary clarifiers and aera- Flow is expressed by Q, BOD concentration is expressed by S,
+5
+tion tanks, followed by secondary clarifiers. It is comprised of two and VSS concentration is expressed by X. X is the concentration
+pc
+distinct trains –the first train features a completely mixed reactor of biomass in primary clarifier effluent (mg VSS/L).
+(reactor 1) with a uniform air supply throughout the tank, and the
+second train features a plug flow reactor (reactor 2) with tapered The current study highlights the importance of understanding how
+aeration. reactor 1 has a capacity of 36400m3/d, while reactor 2 the integration of a BAF can influence the GHG emission profile
+has a capacity of 27300m3/d. of an AS system. BAF systems, which typically operate with a
+combination of aeration and filtration, may modify the GHG emis-
+Total GHG emission was estimated using both on-site and off-site sions by altering the microbial dynamics and oxygen transfer effi-
+emission for Plant B. Human generated waste was considered for ciency compared to conventional AS systems. In particular, BAF
+nitrous oxide emissions calculation based on an annual per capita pro- systems are often more efficient in removing organic matter,
+tein intake as suggested by the IPCC (IPCC, 2022). Mass balance and which could potentially lead to lower methane emissions, a potent
+EF techniques were used for theoretical calculation. Industrial co- GHG, compared to AS systems. However, BAFs may also pro-
+discharge is applicable for this plant and a co discharge factor was mote conditions conducive to nitrous oxide production under cer-
+used. The IPCC (2022) guidelines for National Greenhouse Gas tain operational conditions, especially in the presence of nitrogen
+Inventory were used to calculate the EF. The life cycle analyses of compounds.
+infrastructures were not considered for off-site GHG emission calcula-
+tion, which may be considered as a limitation of this study. To clarify which system BAF or AS is more prone to generating
+higher GHG emissions, it is essential to consider factors such as
+2.1 On-site GHG emissions oxygen transfer rates, microbial activity, and the specific opera-
+A typical layout of AS process, the system boundary, steps/sources tional conditions (e.g. aeration rates, influent characteristics).
+of GHG emissions and the nomenclatures for Plant A are shown Typically, AS systems are more prone to producing higher nitrous
+Figure 1. A typical activated sludge process with a system boundary
+3
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 4 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+oxide emissions due to the denitrification process, especially under oxide emissions at the treatment plant and the off-site emissions
+suboptimal aeration conditions. On the other hand, BAFs may from the effluent wastewater. To estimate emissions from waste-
+reduce methane emissions through better oxygenation but might water treatment the results using the following equation for each
+experience variable nitrous oxide emissions depending on the treatment pathway/system needs to be calculated (Appendix B). It
+level of nitrification and denitrification. A detailed comparison of is also required to estimate direct nitrous oxide emissions arising
+these systems, based on their respective operational characteristics from the discharge of wastewater (treated or untreated) into
+and microbial processes, can offer a clearer understanding of the aquatic receiving environments: In both cases the calculated
+GHG emission dynamics in wastewater treatment. nitrous oxide should be multiplied by 1.25 for industrial co-
+discharge.
+2.1.1 Carbon dioxide emission estimation
+The primary sedimentation tank removes the settleable suspended The methodology to calculate the amount of N content in waste-
+solids (SS), so for simplicity it is assumed that there is no biological water effluent (NEFFLUENT,DOM) presented in previous guide-
+reaction taking place at this stage. The solids dewatering procedure lines (IPCC, 2006) and revised (IPCC, 2013) does not account for
+receives these SS (primary sludge). The detention time and constitu- the removal of ammonia-N via nitrification-denitrification proc-
+ent concentration influence BOD and TSS removal in the primary esses in the sewer and the WWTP, or the removal of N in sludge,
+sedimentation tank (Metcalf and Eddy, 2004). The mass of raw SS which can result in a significant overestimate of N discharged to
+removed in the primary clarifiers in a treatment was calculated by aquatic receiving environments. This section updates the method-
+using Equation 2.1(Monteith et al., 2005). Total SS removal in pri- ology presented in the 2006 IPCC Guidelines to estimate the
+mary clarifier is calculated by Equation 0.1(Appendix A). amount of N content in wastewater entering treatment (TNDOM),
+the loss or removal of N through the treatment process (either
+through biological conversion or removal with sludge) (NREM),
+The heavier SS are settled by gravity in the primary clarifiers, and
+and the N content in wastewater discharged to aquatic systems
+then these settled solids are removed (Metcalf and Eddy, 2004). A
+(NEFFLUENT,DOM). The total nitrogen in wastewater effluent is
+primary clarifier also removes some biodegradable organic matter
+estimated using (Appendix B).
+by simple sedimentation, which is not stabilised. An increase in
+the sludge production in primary clarifiers results in less GHGs
+2.1.3 Methane emissions estimation
+emissions (Levi et al., 2009). Czepiel et al. (1995)estimated the
+Methane emissions from every treatment system pathway for a
+amount of nitrous oxide emissions from the surface of the primary
+domestic wastewater treatment plant were estimated using
+settling tank to be negligible.
+Equation 11shown in Appendix C.
+For secondary treatment (aerobic treatment), total carbon dioxide
+2.2 Off-site GHG emissions
+emission in the aerobic reactor was calculated using Equation 2
+(Appendix A). The amount of carbon dioxide produced resulting 2.2.1 Carbon dioxide and methane emissions
+from the CBOD removal and nitrification can be expressed by the The off-site GHG emissions were calculated for three major
+following equation (Rittmann and McCarty, 2001; Shahabadi sources: electricity production for the operation of the treat-
+et al., 2010). Amount of carbon dioxide produced from endoge- ment plant and the production of natural gas for on-site usage,
+nous respiration is calculated as (Shahabadi, 2008) (Appendix A). degradation of the remaining parameters (BOD , TKN) in the
+5
+effluent and, the degradation and transport of biosolids
+A secondary clarifier separates the biosolids from the liquid and (Appendix D).
+removes settled solids from the bottom of clarifier. The nitrous
+oxide emissions from secondary clarification tank were negligible Now, the total emissions of off-site GHG are calculated using
+(Czepiel et al., 1995). Tables 1and 2.
+2.1.2 Nitrous oxide estimation Sludge management is an important component of lowering GHG
+Estimation of nitrous oxide includes all unit operations in domes- emissions from wastewater treatment plants. The GHG emissions
+tic wastewater treatment plant. It also includes the on-site nitrous inventory for these sludge handling and treatment scenarios was
+Table 1. Emission factors of each source of electricity generation (based on CO equivalent units and base case scenarios)
+2
+Fuel type, g CO equiv/kWh
+2
+Hydroelectric Nuclear Coal Oil
+Emission factors 10 9 877 604
+References IPCC (2022) IPCC (2022); Liu et al. (2022b) IPCC (2022) IPCC (2022)
+4
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 5 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+Table 2. Emission factors of natural gas (NG) production (Natural was then normalised using inflow rates into each reactor. The on-
+Resources Canada, 1999) site CO emissions per m3 of flow from the plug flow reactor
+2
+Emission factor (Reactor 1) were higher than the completely mixed AS (Reactor 2)
+despite the equivalent flow received in both reactors. This could
+EFNG, CO 234 g CO /m3 NG
+2 2 be due to higher conversion of volatile solids to biogas in the plug
+EFNG, CH 83 g CO /m3 NG
+4 2 flow reactors due to higher SRT, which may have caused higher
+carbon dioxide emission compared to the completely mixed AS
+generated using EPA criteria (EPA, 2018). It included both on-site system (Figures 2 and 3) (Yang et al., 2024; Chen et al., 2016).
+(direct carbon dioxide, methane, and nitrous oxide emissions) and The total on-site CO 2 emissions (tonnes/m3/yr) by a microbial
+off-site sources (electricity, fuel, and chemical usages).
+2.2.2 Nitrous oxide estimation
+The researchers discovered that measured EF from treatment proc-
+esses are geographically and temporally variable, especially for
+off-site emission. High levels of dissolved oxygen and high con-
+centrations of ammonia and nitrite can be catalysts for biogenic
+nitrous oxide generation (Samuelsson et al., 2018). Off-site or
+indirect emission of nitrous oxide was calculated according to
+Scheehle and Doorn (2001)(Appendix E).
+3. Results and discussions
+3.1 On-site emission
+The on-site GHG emission was calculated by using Equation 3
+for carbon dioxide, Equation 6for nitrous oxide, and Equation
+11for methane. The GHG emissions were calculated for both
+Figure 2. On-site GHG emissions from Reactor 1 at Plant B
+the plants (Plant A and Plant B) for three consecutive years and
+the results are presented in Table 3. The off-site GHG emis-
+sions were calculated for three major sources: electricity pro-
+duction for the operation of the treatment plant and the
+production of natural gas for on-site usage, degradation of the
+remaining parameters (BOD , TKN) in the effluent and, the
+5
+degradation and transport of biosolids. For electricity genera-
+tion and natural gas consumption, the carbon dioxide equiva-
+lent off-site emissions can be calculated using Equations 14
+and 15, respectively. Carbon dioxide equivalent off-site emis-
+sions for sludge handling and treatment can be calculated from
+Equation 17. Total off-site nitrous oxide emission can be calcu-
+lated using Equation 21.
+For Plant B, the SRT values for both reactors (Reactor 1 and
+Reactor 2) were calculated using operational parameters. BOD
+5
+utilisation and endogenous respiration were considered and carbon
+dioxide emission from both, Reactor 1 and Reactor 2, were calcu-
+Figure 3. On-site GHG emissions from Reactor 2 at Plant B
+lated using Equations 1and 2. The total carbon dioxide emission
+Table 3. On-site GHG emissions rate from energy consumption
+Year 1 (tonnes CO equiv/d) Year 2 (tonnes CO equiv/d) Year 3 (tonnes CO equiv/d)
+2 2 2
+Treatment plant
+CO N O CH Total CO CO N O CH Total CO CO N O CH Total CO
+2 2 4 2 2 2 4 2 2 2 4 2
+Plant A 2.66 1.15 0.98 4.74 2.10 2.60 1.14 0.76 4.5 2.61 1.2 0.84 4.65
+Plant B 1.16 0.68 0.26 2.10 1.03 0.76 0.21 2.0 1.18 0.9 0.23 2.31
+5
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 6 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+process for summer and winter are presented in Figure 4for a 3-year
+period. The overall CO emission per m3 of flow was �15%–20%
+2
+higher in the winter than that in the summer for both reactors in
+Year 1 and Year 3 (Figure 4). In Year 2, the difference was
+between 1% and 5%, although this is not statistically different
+(p > 0.05). This indicates that BOD utilisation and endogenous
+5
+respiration are more in summer, while bugs accumulate more car-
+bon dioxide in the summer but release less. However, carbon diox-
+ide release is more in the winter and in line with results found by
+other researchers (Slavov, 2017).
+For Plant B, the carbon dioxide emission ranged from 0.024 to
+0.033kg CO equiv/m3 for the conventional completely mixed AS
+2
+system (reactor 1) without sludge digestion. For an AS system
+CO emission was 0.23–0.26kg CO equiv/m3 with anaerobic
+2 2
+sludge digestion, compared to 0.168kg CO equiv/m3 for the
+2
+same system without anaerobic sludge digestion (Monteith et al., Figure 5. On-site and off-site N O emissions from Plant B in Year 3
+2
+2005). Shahabadi (2008)has reported 0.20kg CO equiv/m3 emis-
+2
+sions from food processing industrial wastewater using a conven-
+tional AS system with anaerobic sludge digestion. be noted that off-site nitrous oxide emissions are still the highest
+source of GHG emission here.
+3.2 On-site and off-site nitrous oxide emission
+The nitrous oxide emission inventory from Plant A and B was cal- Hua et al. (2022) show that GHG EFs for different wastewater
+culated using the available data for Year 3 for on-site treatment treatment technologies range from 180.0 to 615.7 g CO -eq/t
+2
+and degradation of remaining nitrogenous matter in the receiving wastewater. Significant regional variations are also observed
+water bodies. Equations 6and 7were used to calculate the nitrous across China, with EFs ranging from 190.5 to 600.3 g CO -eq/t
+2
+oxide emission from on-site treatment. From the on-site treatment, wastewater, reflecting differences in local treatment practices,
+0.19 tonnes N O/year (56.24 tonnes CO equiv/yr) and wastewater characteristics, and energy sources.
+2 2
+0.127 tonnes N O/yr (37.59 tonnes CO equiv/yr) were released
+2 2
+from Plant 1 and Plant 2, respectively (Figure 5). For calculate The off-site GHG emissions were calculated for three major sour-
+nitrous oxide emission due to degradation of remaining nitroge- ces: electricity production for the operation of the treatment plant
+nous matter, Equation 10 was used, and 5.21 and 3.45 tonnes and the production of natural gas for on-site usage, degradation of
+N 2O/yr were found to be emitted from Plant 1 and Plant 2, respec- the remaining parameters (BOD5, TKN) in the effluent, and the
+tively (Figure 5). Off-site nitrous oxide was calculated using degradation and transport of biosolids.
+Equation 21. The detailed values for on-site and off-site GHG
+emission from Plant B in Year 3 are reported in Table 4. It should 3.3 Off-site consumption due to electricity and
+natural gas consumption
+Figure 6illustrates (based on Equations 14and 15) the contribu-
+tion of off-site GHG emissions due to electricity consumption and
+natural gas consumption for space heating at the Plant A and Plant
+B, respectively. The electricity consumption rate for operational
+devices such as pumps, blowers, dewatering system, and UV dis-
+infection as well as general lighting was 0.4kWh/m3 for Plant B
+(0.03kg CO /m3 for the AS system) and 0.3kWh/m3 for Plant A
+2
+(0.02kg CO /m3 for the BAF) and Plant A, respectively. It should
+2
+be noted that though natural gas is used almost exclusively for
+heating purposes in both treatment plants, a lower amount of elec-
+tricity was required to treat wastewater by the BAF system than
+the conventional AS system. However, overall gas consumption
+increased in Plant A after the new addition of BAF in Year 1. This
+is mainly due to the onsite higher energy consumption by aeration
+Figure 4. On-site GHG emissions trends for Reactor 1 and Reactor 2
+at the Plant B (Ray et al., 2012). Sahely et al. (2006)have reported that the aver-
+age electricity consumption rate is 0.2kWh/m3 of wastewater
+6
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 7 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+Table 4. Summary of total GHG release from Plant B in Year 3
+Year Scope Source CO equiv/yr (tonnes) % of subtotal % of total
+2
+Year 3 Off-site Electricity consumption 532 15.12 11.6
+- - Natural gas consumption 310 8.81 6.75
+- - Remaining BOD degradation 75 2.13 1.63
+- - Biosolids disposal 26 0.74 0.57
+- - Off-site biosolids — — —
+- - Degradation 16 0.45 35
+- - Indirect N O emissions 2561 72.76 55.81
+2
+- - Subtotal 3520 100 —
+- Onsite BOD utilization 300 28.07 6.54
+- - Endogenous respiration 675 63.12 14.7
+- - Direct N O emissions 94 8.79 2.05
+2
+- - Subtotal 1069 100 —
+- - Total 4589 — 100
+3years old (29kg of CO -eq emission per Mg of biosolid per
+2
+year).
+There is a significant relationship between the BOD loading rate
+5
+and total GHG emission for both the treatment plant. Figure 8rep-
+resents the relationship for Reactor 1 and Reactor 2 at the Plant B,
+respectively. The relationship shows an 88% coefficient of deter-
+mination (R2) for Reactor 1 and 84% for Reactor 2. This is in line
+with other researchers who reported similar relationship between
+BOD loading rate and GHG emission in different wastewater
+5
+treatment plants (Toprak, 1995). However, it is also recognised
+that the relationship can be established considering the BOD
+5
+elimination rate at any individual plant, which would show higher
+methane production along with increased BOD removal
+5
+Figure 6. Off-site GHG emissions from electricity and natural gas (Jahangir et al., 2016).
+consumption at the Plant A and Plant B
+A regression analysis was done using Minitab 16 statistical soft-
+ware, where temperature, SRT, and BOD loading rate of GHG
+5
+treated in several wastewater treatment plants across Canada emissions for the mixed flow reactor and plug flow reactor was
+where aerobic treatment is used as the secondary treatment proc- considered to understand the influence of those variables on GHG
+esses. According to Degrémont (2010), the overall electricity con- emission. In that analysis adjusted R2 values are very similar to
+sumption for a nitrifying BAF and nitrifying MBBR is estimated the R2 value. This means that these three variables have a strong
+at 0.65 and 0.80kWh/m3, respectively. influence on the GHG emissions. The adjusted R2 for reactor 1
+and reactor 2 was also calculated with an additional variable,
+The off-site GHG emissions from the BOD degradation of the efflu- Qw/Qi. With these four variables (temperature, SRT, BOD load-
+5
+ent, biosolids disposal, and biosolids degradation are depicted in ing rate, and wasting ratio, Qw/Qi) the adjusted R2 values were
+Figures 7(a)–7(c). These were calculated using Equations 17–20 found to be 0.88, 0.83, in reactor 1 and reactor 2, respectively.
+(Appendix E). It was assumed that biosolids degraded anaerobically This indicates that even with the addition of extra variable (Qw/Qi),
+in the landfill sites. the GHG emissions (dependent variable) did not change.
+As expected, the results from Figure 7show that the GHG emis- 4. Conclusions
+sion from biosolids degradation was highest (61%) in Year 1 com- The practical application of GHG monitoring and management in
+pared to 14% in Year 3. The main reason is the amount of wastewater treatment is critical for reducing environmental impact
+decomposable organic matter that is present in the biosolids, and improving sustainability. WWTPs are significant sources of
+which go through anaerobic decomposition in the landfill over a GHG emissions, primarily methane, nitrous oxide, and carbon
+long time. Majumder et al. (2014)reported that biosolids younger dioxide. These emissions arise from various stages of treatment,
+than 1years produced 60.2kg of CO -eq emission per Mg of bio- such as the biological degradation of organic matter, nitrification/
+2
+solid per year. That number is way lower when the biosolids are denitrification processes, and the handling of sludge.
+7
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 8 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+Figure 7. The off-site GHG’s emissions from remaining BOD5 degradation (diagonal stripes pattern), biosolids degradation (wavey pattern),
+and biosolids disposal (dotted pattern) at the Plant B in (a) Year 1,(b) Year 2,and (c) Year 3
+GHG emissions per cubic metre of wastewater treated by Plant B
+and Plant A was 0.03 and 0.02kg CO /m3, respectively.
+2
+Electricity and natural gas consumptions in Plant B are primarily
+accounted for this.
+At the Plant B, the plug flow reactor emitted significantly higher
+on-site CO /m3 than the completely mixed reactor. The total direct
+2
+and indirect nitrous oxide emissions from the completely mixed
+reactors were considerably lower than the plug flow reactors.
+It was found that wastewater temperature, SRT, and the BOD
+5
+loading rate had an effect on the overall on-site GHG emissions at
+the Plant B.
+Figure 8. Effect of BOD5 loading on GHG emissions for Reactor 1
+and Reactor 2 in Plant B Acknowledgements
+This research was funded by NSERC Canada. The data received
+from Plant A and Plant B is gratefully acknowledged here.
+The direct emissions were considerably lower than the indirect at
+the Plant B. Several factors such as off-site degradation of the Appendix A
+remaining constituents, energy consumptions, and hauling activities
+are major components of indirect emissions. To control the GHG A2.1.1 CO emission estimation
+2
+emissions, the first step should be to control indirect emissions.
+A2.1.1.1 Primary treatment (primary sedimentation tank/
+primary clarifier)
+For overall GHG emission, the AS system, both completely mixed and
+plug-flow reactors, at the Plant B produced higher GHG emission 1. SS ðkgVSS=dÞ¼%SS �Q �X
+R R i i
+compared to the attached growth system, BAF, at the Plant A. The
+8
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 9 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+A2.1.1.3 Secondary treatment (secondary clarifier)
+where,
+SS = total SS removal in primary clarifier
+R
+Appendix B
+% SS = the percentage of SS removal from influent VSS in pri-
+R
+mary clarifier (65% in Plant A)
+Q = influent wastewater flow rate (m3/d) B2.1.2 Nitrous oxide (N 2O) estimation
+i
+X = influent volatile suspended solids (mg VSS/L) � �
+i 6. N O ðkgN O=yearÞ¼ ∑U �T �EF TN �44=28
+The mass of BOD removed in primary clarifiers both soluble and 2 PlantsDOM 2 i ij j DOM
+insoluble was estimated.
+by using Equation 2.2.
+The removal rate of BOD 5 in primary clarifiers: N 2O PlantsDOM = N 2O emissions from domestic wastewater treat-
+ment plants in inventory year, kg N O/yr
+2. BOD ðkgBOD5=dÞ¼%BOD �Q �S 2
+R R i i
+TN = total nitrogen in domestic wastewater in inventory year,
+DOM
+kg N/yr.
+where,
+U = fraction of population in income group i in inventory year.
+% BOD = the percentage of BOD removal in primary clarifier i
+R 5
+(50% in Plant A)
+T = degree of utilisation of treatment/discharge pathway or sys-
+S = the influent BOD (mg/L) ij
+i 5 tem j, for each income group
+A2.1.1.2 Secondary treatment (aerobic treatment)
+fraction i in inventory year.
+TotalCO 2emissionintheaerobicreactor;CO 2ðperdayÞ i = income group: rural, urban high income and urban low income
+3. ¼C þC
+CBOD endogenous
+j = each treatment/discharge pathway or system
+EF = emission factor for treatment/discharge pathway or system
+j
+where, j, kg N O-N/kg N
+2
+CO is expressed for CO emission.
+2 2
+The amount of CO produced resulting from the CBOD removal The factor 44/28 is for the conversion of kg N 2O-N into kg N 2O.
+2
+and nitrification can be expressed by the following equation
+(Rittmann and McCarty, 2001; Shahabadi et al., 2010). It is also required to estimate direct N O emissions arising from
+2
+the discharge of wastewater (treated or untreated) into aquatic
+C ðgm=dayÞ¼0:33½QðS (cid:0) SÞ–1:42M �
+CBOD i i CBOD receiving environments:
+4. –0:25NO Q
+Y i
+N O ðkgN O=yearÞ¼N
+2 EFFLUENT;DOM 2 EFFLUENT;DOM
+7. �EF �44=28
+where, EFFLUENT
+Q = influent wastewater flow rate (m3/d)
+i
+S = primary effluent BOD (mg/L)
+i 5
+S = secondary effluent BOD (mg/L) Where:
+5
+M CBOD = mass of biomass wasted per day (g VSS/d) N 2O EFFLUENT,DOM = N 2O emissions from domestic wastewater
+NO = amount of NH-N in the influent that is nitrified to nitrate effluent in inventory year, kg N 2O/yr
+Y
+(mg N/L) 4 N EFFLUENT,DOM = nitrogen in the effluent discharged to aquatic
+environments, kg N/yr.
+amount of CO produced from endogenous respiration is calcu-
+2
+EF = emission factor for N O emissions from waste-
+lated as (Shahabadi, 2008): EFFLUENT 2
+water discharged to aquatic systems, kg N O-N/kg N
+2
+5. CO2 ðgm=dayÞ¼1:56CO =M The factor 44/28 is the conversion of kg N O-N into kg N O.
+endogenous 2 degraded 2 2
+In both cases, the calculated N O should be multiplied by 1.25 for
+2
+industrial co-discharge.
+where,
+TN ¼½ðPtreatment j�Protein�F �N
+M (g VSS/d) = amount of biomass (heterotrophic and auto- DOM j NPR HH
+degraded
+trophic cell tissues) degraded by auto-oxidation process in the aer- 8. �F �F
+NON(cid:0) CON IND(cid:0) COM
+ation tank.
+9
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026
+
+--- Page 10 ---
+Journal of Environmental Engineering Estimation of greenhouse gas emission from
+and Science biological wastewater treatment plants
+Das, Ray and Biswas
+Where: TOW j = organics in wastewater of treatment/discharge pathway
+TN = total annual amount of nitrogen in domestic waste- or system, j, in inventory year, kg BOD/yr.
+DOM_j
+water for treatment pathway j, kg N/yr S j = organic component removed from wastewater (in the form of
+Ptreatment_j = human population who are served by the treatment sludge) from treatment/discharge pathway or system, j, in inven-
+tory year, kg BOD/yr. For wastewater discharged to aquatic envi-
+pathway j, person/yr
+Protein = annual per capita protein consumption, kg protein/per- ronments, there is no sludge removal (Sj = 0) and no CH 4
+recovery (Rj = 0). For wastewater treatment systems, please see
+son/yr
+Section 6.2.2.3 for additional guidance on how to estimate S,
+F = fraction of nitrogen in protein, default = 0.16kg N/kg pro-
+NPR organic component removed as sludge, if country-specific data are
+tein
+not available.
+F = factor for nitrogen in non-consumed protein disposed
+NON-CON j = each treatment/discharge pathway or system
+in sewer system, kg N/kg N. (1.13 for Canada)
+EFj = emission factor for treatment/discharge pathway or system,
+F = factor for industrial and commercial co-discharged
+IND-COM j, kg CH /kg BOD.
+4
+protein into the sewer system, kg N/kg N
+Rj = amount of CH recovered or flared from treatment/discharge
+4
+N = additional nitrogen from household products added to the
+HH pathway or system, j, in
+wastewater (1.1 Canada)
+inventory year, kg CH /yr. Default value is zero.
+9. Protein¼Protein �FPC 4
+SUPPLY
+12. EFðkgN O=yearÞ¼B �MCF
+j 2 0 j
+Where:
+Protein SUPPLY = annual per capita protein supply, kg protein/
+person/yr Where:
+FPC = Fraction of protein consumed. (0.80 for Canada) EFj = emission factor, kg CH 4/kg BOD
+j = each treatment/discharge pathway or system
+The total nitrogen in wastewater effluent is estimated as follows: B 0 = maximum CH 4 producing capacity, kg CH 4/kg BOD (0.6kg
+X� � CH 4/kg BOD)
+10. N EFFLUENT;DOM ¼ ðTN DOM�TjÞ�ð1(cid:0) N REM:jÞ MCFj = methane correction factor (fraction). 0.035 for most
+aquatic environments including rivers are supersaturated in CH .
+4
+Nutrient oversupply will increase CH emissions.
+4
+Where:
+The following equation should be used to estimate CH emissions
+4
+N EFFLUENT,DOM = total nitrogen in the wastewater effluent dis- from every treatment system pathway for a domestic wastewater
+charged to aquatic environments in inventory year, kg N/yr treatment plant.
+TN = total nitrogen in domestic wastewater in inventory year,
+DOM
+kg N/yr.
+13. CH Emissions¼∑CH4 Emissions j�10(cid:0) 6
+Tj = degree of utilisation of treatment system j in inventory (0.95) 4 j
+j = each wastewater treatment type used in inventory year
+N = fraction of total wastewater nitrogen removed during
+REM
+wastewater treatment per Where:
+treatment type j. (0.10−3 Primary, 0.10−3 Secondary, 0.10−4 for CH emissions = CH emissions in inventory year, kg CH /yr
+4 4 4
+Tertiary treatment) CH emissions j = CH emissions from treatment/discharge path-
+4 4
+way or system, j, in inventory year, kg
+Appendix C CH /yr
+4
+j = each treatment/discharge pathway or system
+C2.1.3 CH emissions estimation 10−6 = conversion of kg to Gg
+4
+Equation 2.8should be used to estimate CH emissions from every 2.2 Off-site GHG emissions
+4
+treatment system pathway for a domestic wastewater treatment
+plant. Appendix D
+11. CH emissions¼ ½ðTOW (cid:0) SÞ�EF (cid:0) R�
+4 j j j j D2.2.1 CO and CH emissions
+2 4
+D2.2.1.1 Electricity and natural gas production and
+usage
+Where:
+CH Emissionsj = CH emissions from treatment/discharge path- 14. CO 2;electricity¼QE�∑ðPFi�EFiÞ
+4 4
+way or system, j, in inventory year, kg CH /yr
+4
+10
+Downloaded from http://www.emerald.com/jenes/article-pdf/doi/10.1680/jenes.24.00007/11041005/jenes.24.00007en.pdf by Universidad Nacional Autonoma de Mexico user on 27 January 2026

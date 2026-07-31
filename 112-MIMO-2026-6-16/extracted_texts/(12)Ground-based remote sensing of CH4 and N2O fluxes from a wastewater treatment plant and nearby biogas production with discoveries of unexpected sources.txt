@@ -1,0 +1,618 @@
+--- Page 1 ---
+EnvironmentalResearch204(2022)111978
+Contents lists available at ScienceDirect
+Environmental Research
+journal homepage: www.elsevier.com/locate/envres
+Ground-based remote sensing of CH and N O fluxes from a wastewater
+4 2
+treatment plant and nearby biogas production with discoveries of
+unexpected sources
+Magnus Gålfalka,*, So¨ ren Nilsson Påledalb, Robert Sehl´ enb, David Bastvikena
+aDepartment of Thematic Studies – Environmental Change, Linko¨ping University, 581 83, Linko¨ping, Sweden
+bTekniska Verken i Link¨oping AB, Box 1500, 581 15, Link¨oping, Sweden
+A R T I C L E I N F O A B S T R A C T
+Keywords: This study is an attempt to assess CH4 and N2O emissions from all the treatment steps of a wastewater treatment
+Methane plant (WWTP) in Sweden, serving 145 000 persons, and an adjacent biogas production facility. We have used
+Nitrous oxide novel mid-IR ground-based remote sensing with a hyperspectral camera to visualize and quantify the emissions
+W Bioas gt ae sw pa rt oe dr ut cre tia ot nm ent on 21 days during a year, with resulting yearly fluxes of 90.4 ±4.3 tonne CH4/yr and 10.9 ±1.3 tonne N2O/yr
+for the entire plant. The most highly emitting CH4 source was found to be sludge storage, which is seldom
+Hyperspectral imaging
+included in literature as in-situ methods are not suitable for measuring emissions extended over large surfaces,
+still contributing 90 % to the total CH4 emission in our case. The dominating N2O source was found to be a Stable
+High rate Ammonia Removal Over Nitrite reactor, contributing 89 % to the total N2O emissions. We also
+discovered several unexpected CH4 sources. Incomplete flaring of CH4 gave fluxes of at least 30 kg CH4/min,
+corresponding to plume concentrations of 2.5 %. Such highly episodic fluxes could double the plant-wide yearly
+emissions if they occur 2 days per year. From a distance of 250 m we found a leak in the biogas production
+facility, corresponding to 1.1 % of the CH4 produced, and that loading of organic material onto trucks from a
+biofertilizer storage tank contributed with high emissions during loading events. These results indicate that
+WWTP emissions globally may have been grossly underestimated and that it is essential to have effective
+methods that can measure all types of fluxes, and discover new potential sources, in order to make adequate
+priorities and to take effective actions to mitigate greenhouse gas emissions from WWTPs.
+1. Introduction urban development worldwide higher future CH4 emissions are ex-
+pected unless appropriate mitigation policies are designed and imple-
+During wastewater treatment, the greenhouse gases (GHGs) methane mented rapidly (Saunois et al., 2020).
+(CH4), nitrous oxide (N2O), and carbon dioxide (CO2) are emitted to the Currently the most frequently used methods for estimating GHG
+atmosphere (Hofman et al., 2011). Large emissions of CH4 and N2O, emissions at wastewater treatment plants (WWTPs) are in-situ methods
+which are present in high amounts in wastewater, can have a significant such as flux chamber or point source emission measurements at loca-
+impact on global warming as the 100-year global warming potentials of tions where such approaches are possible, and sample collection,
+CH4 and N2O are 34 and 265 times higher than CO2 (Myhre et al., 2013). bringing sludge material to a lab for follow-up measurements and in-
+The waste and wastewater industry contributes approximately 3 % of cubation experiments. Tumendelger et al. (2019) used flux chambers to
+the global anthropogenic emissions of GHGs (IPCC 2007), with the measure the CH4 and N2O emission rates from different treatment steps
+landfills and waste sector together making up about 68 Tg CH4 yr(cid:0) 1, or having air-water interfaces in two municipal WWTPs in Germany.
+12 % of total global anthropogenic emissions (Saunois et al., 2020). Will´en et al. (2016) stored dewatered digested sewage sludge in
+Wastewater with its high organic content is treated anaerobically. This is meter-sized cylinders and measured CH4 and N2O during a year, testing
+turn leads to increased CH4 emissions, and with an excessive and rapid the effect of different environmental conditions and addition of
+* Corresponding author.
+E-mail addresses: magnus.galfalk@liu.se (M. Gålfalk), Soren.Nilsson-Paledal@tekniskaverken.se (S.N. Påledal), Robert.Sehlen@tekniskaverken.se (R. Sehl´en),
+david.bastviken@liu.se (D. Bastviken).
+https://doi.org/10.1016/j.envres.2021.111978
+Received 14 May 2021; Received in revised form 19 August 2021; Accepted 24 August 2021
+Availableonline2September2021
+0013-9351/©2021TheAuthors.PublishedbyElsevierInc.ThisisanopenaccessarticleundertheCCBYlicense(http://creativecommons.org/licenses/by/4.0/).
+
+--- Page 2 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+ammonia to reduce emissions.
+A treatment step that could potentially have very high CH4 emis-
+sions, but is more difficult to measure using in-situ methods, is dewa-
+tered sludge storage, produced after the digestion of wastewater in large
+digestion chambers. The difficulty arise as sludge storage takes up a very
+large surface area, which flux chambers cannot sample in a represen-
+tative way, and active gas production in the sludge can continue during
+the storage time before being used in agriculture. A similar situation is
+open digestate storage tanks at biogas production plants. Scheutz and
+Fredenslund (2019) measured fluxes from 23 biogas plants using a tracer
+gas dispersion method and found CH4 losses in the range 0.4–14.9 %
+from biogas production, with wastewater treatment biogas plants hav-
+ing the highest losses (7.5 % in average) and open storage tanks being
+the dominant source.
+Remote sensing of GHGs uses infrared (IR) radiation to detect and
+quantify emissions from a distance, having several advantages over in-
+situ methods such as not disturbing everyday operations at an indus-
+trial site and being able to cover a large area in a short time. Examples
+from literature include CH4 mapping of natural gas fields from an
+airplane (Thorpe et al., 2016) at about 1 m resolution, and the upcoming
+MethaneSat satellite targeting emissions from oil and gas operations,
+typically within an area of 200 ×140 km2, with a similar instrument,
+MethaneAir, already tested successfully on airplanes (Staebell et al.,
+2021). While satellites have provided a major progress in global over-
+views of GHGs, their spatial resolutions have typically been >10
+km/pixel (e.g. Bril et al., 2013), hampering source identification.
+Recently, however, satellites have been launched targeting high emis-
+sion point sources at much higher resolutions, such as GHGSat-D with a Fig. 1. An overview of the process steps at the Linko¨ping WWTP.
+50 m resolution within a 12 km2 area (Jervis et al., 2021). The upcoming
+MethaneSat targets emissions from oil and gas operations within an area
+residence time of around 12 h at the plant before reaching the small river
+of 200 ×140 km2, with a similar instrument MethaneAIR having been Stångån.
+tested successfully on airplanes (Staebell et al., 2021).
+Ground-based remote sensing has both high spatial resolution and
+high sensitivity as its advantages as longer measurement times and 2.1. Hyperspectral camera and other equipment
+shorter target distances are used. An example is hyperspectral quanti-
+fication of CH4 and N2O emissions from waste incineration (Gålfalk and We have used a customized mid-IR hyperspectral camera (Telops
+Bastviken, 2018) and CH4 flux measurements from a refinery using an HyperCam Methane), sensitive in a narrow spectral range that includes
+active (DIAL) system mounted on a truck (Chambers and Strosher, the highly absorbing 7.7 μm band of CH4 and the double band of N2O in
+2008). Ground-based remote sensing has the capacity to map different the range 7.57–8.07 μm as well as spectral features of H2O. The system
+emission sources at a WWTP, with the ability to find unknown sources (described in Gålfalk et al., 2016) has since then been complemented
+that can be quantified in post-processing, and to include all the treat- with a customized Lidar (DST Control AB) that simultaneously maps
+ment steps of a plant. In this study we have measured CH4 and N2O background distances in the same field of view as the camera (25 ×20
+emissions from all eleven treatment steps at the Linko¨ping WWTP in deg). The spectral resolution (which is variable and can be set to values
+Sweden using a hyperspectral camera technique. Emission estimates >0.25 cm(cid:0) 1) was set to 1 cm(cid:0) 1 in this project, which we found to be a
+also include emissions from a connected biogas plant, with several good compromise in our spectroscopic modeling between separating
+previously unknown emissions sources found at both plants. To our spectral features of different species (CH4, N2O, and H2O) and the total
+knowledge this type of ground-based remote sensing has not been exposure time. As the hyperspectral camera is an imaging Fourier
+applied previously in WWTPs, where it could be of high importance as transform spectrometer, each measurement consists of a so-called data
+many potential fluxes are challenging to reliably estimate using tradi- cube (typically generated over 15–60 s), with an interferogram for each
+tional methods. pixel on the detector (up to 320 ×256 pixels).
+The camera (weight about 30 kg) is set up on a tripod, having the
+2. Data and methods Lidar mounted on top, and connected to a field computer typically
+located on a foldable table. The Lidar runs on a battery, but the camera
+This study presents a one-year study visualizing and quantifying CH4 and computer was connected to a power outlet at the WWTP in most of
+and N2O emissions from all the process steps at a WWTP in Linko¨ping, the cases. For the sludge deposits, located on a field far from any
+Sweden based on 21 measurement days in 2018–2019 covering all four buildings, we used a Honda eu30i electrical generator running on petrol
+seasons. To investigate temporal variability in emissions on short (days/ which was located at least 25 m downwind from the camera. An over-
+weeks) to long (seasons) time scales, we aimed for five measurement view of the instrumentation is shown in the Supplementary data. Each
+days in each season. CH4 and N2O emissions from all the process steps at field of view, or scene, consisted of many data cubes (often at least 16,
+the WWTP (Fig. 1) were visualized and quantified using ground-based but more in case of known low emissions) in order to achieve a lower
+remote sensing from distances in the range 10–250 m. Our measure- detection limit. Advantages with the method are that unknown emis-
+ments also aimed at including potential CH4 emissions from an adjacent sions anywhere in a scene can be detected and quantified in post-
+biogas plant. processing, the ability to measure several species at once, not disturb-
+The Linko¨ping WWTP receives about 42 000 m3 of wastewater each ing everyday activities at a plant as everything is measured from a dis-
+day, with 145 000 people connected, and includes treatment steps that tance (up to hundreds of meters), and that interference-corrected videos
+are mechanical, chemical, and biological, with the water having a can be made from the interferograms for visualization and calculation of
+2
+
+--- Page 3 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+air movement – in turn meaning that flux calculations can be made from direction from autocorrelation of identified emissions, as we have a
+the combined concentration and air transport mapping. Disadvantages corresponding distance map of the scene from the Lidar and the time
+are that a temperature contrast (of at least 1 ◦C) is needed between the step between frames is known. In case of very weak signal (low tem-
+background and gas temperatures, in order to achieve sufficient ab- perature contrast) or to get values for gas extended over large areas,
+sorption or emission lines for quantifying the gas content, which means simultaneous measurements from the weather station at some distance
+that the sensitivity of the method is weather dependent. The perfor- from the source can be used to verify air motion. The advantage with
+mance of the camera system and of the flux calculation approaches have hyperspectral air motion tracking, which was preferentially used, is that
+been carefully evaluated under various conditions as reported elsewhere it gives the average air speed close to an emission source.
+(Gålfalk et al. 2016, 2017; Gålfalk et al. 2018) in different types of en-
+vironments and for controlled gas emissions, comparing results with a 2.4. Flux calculations
+portable CH4 analyzer (the Los Gatis Inc. UGGA instrument) and syringe
+samples analyzed by gas chromatography. As the method relies on ab- By combining the column density maps, calculated air motion, and
+sorption spectroscopy, without any additional instruments needed, it known geometry from distance mapping, the emission from a point
+uses less assumptions than traditional methods (e.g. flux chambers) and source or extended source can be calculated for both CH4 and N2O (see
+is less influenced by potentially confounding factors such as disturbing Gålfalk and Bastviken, 2018 for an example involving waste incinera-
+the sampled area, sample procedures, sample storage, lab analyses, tion). The camera was, whenever possible, set up perpendicular to the
+possible leakage, materials interacting with gases, temperature and wind direction and outflows from a source were calculated across a
+pressure changes. vertical area (vertical line with column densities in the gas maps just
+We also used a portable Vaisala WXT520 weather station for many of downwind of a source); this outflow is subtracted from the inflow (ob-
+the measurements, as a complement to the gas speeds calculated from tained from a similar vertical line upwind of a source) to obtain the
+the hyperspectral data. This was done for two reasons: as a backup in emission. In the case of vertical air motion, a horizontal area is used for
+case there was low temperature contrast in the remote sensing data and the mass balance calculation. Averaged emissions can be calculated
+as a control to compare gas transport velocities. from a single cube in case of high emissions (typically over times of
+15–60 s depending on the spectral resolution and the detector area
+2.2. Spectroscopic modeling (quantification) used), resolving emission changes between cubes with high temporal
+resolution, or in the case of low emissions, using many averaged cubes
+The spectroscopic modeling (see Gålfalk et al., 2017 for details) is for each emissions estimate.
+based on simultaneous fitting of CH4, N2O and H2O in selected spectral The detection limit of the system is dependent on the background –
+windows where these species have strong absorption bands. This is done gas temperature contrast, the number of averaged cubes for a scene, and
+for each pixel in a scene, meaning that there could be up to 320 ×256 the background and gas distances. For a temperature difference of 1 ◦C
+model solutions made to produce gas concentration maps. (it is often much higher in sunny conditions), a background distance of
+Large look-up tables are used in Matlab, containing pre-calculated 50 m, and using 16 cubes for each scene (the minimum used in this
+models of transmission curves (1024 curves for each species; each step study) the detection limit for CH4 is about 65 ppm m, but it can be as low
+corresponding to about 1 m increase in ambient air and using the in- as a few ppm⋅m if many averages are used and for a temperature contrast
+strument profile and resolution of the measurements) in order to speed of about 10 ◦C (Gålfalk et al., 2017). In terms of real-world emission
+up the calculations considerably. For each pixel, initial models are made detection limits, this will also depend on factors such as wind speed, the
+for three very different column densities (ppm⋅m) for all three species geometrical gas distribution, and the scene background (with water
+(meaning a grid of 3 ×3 ×3 =27 models) e.g. 0, 500 and 1000 ppm m being a very reflective background except for when it is seen from angles
+for CH4. The model with the smallest residuals in this grid of models is close to the surface normal). For the conditions and the methods used in
+chosen as the center point for the next iteration, with a new smaller grid this study we detected extended emissions down to 0.3 kg N2O/d, which
+of 3 ×3 ×3 models centered on this column density. This continues can also be considered a conservative detection limit for CH4 (as the
+until the grid of models is small enough to only use adjacent trans- method is much more sensitive for CH4 than N2O due to more defined
+mission curves in the lookup-tables, where an interpolation is made for absorption features in the spectra) for the emissions detected in this
+the final best-fit model. Pixel-by-pixel this technique is used to render study.
+column density maps of CH4, N2O and H2O. The models are often
+divided into layers, also including parameters such as air temperature 3. Results and discussion
+(from the most highly absorbing H2O lines), background temperature
+(from the spectral continuum), and background emissivity (estimated The results include emissions both from expected and previously
+using reflected sky spectra) in cases with high reflectivity; all which can unknown sources, for CH4 and N2O at the WWTP and the nearby biogas
+be visualized after the rendering of a scene into maps. plant, described and discussed in separate sections below.
+2.3. Air motion modeling 3.1. Wastewater treatment plant
+The same interferograms that are used to calculate spectra can also Treatment steps will be presented in the same order as in Table 1,
+be corrected for interference and visualized as a large set of images or with an estimate of the total WTTP emission in the last section.
+made into a video. The signal will be dominated by the thermal heat
+radiation from the background, but by subtracting two frames made 3.1.1. Grit removal
+with a slight difference in time only the signals that change are kept. Modeling of this scene was based on at least 16 hyperspectral cubes
+Adding many such difference images (e.g. subtracting 20 frames taken at for each of the two parallel grit removal steps, each giving a CH4 dis-
+time t =0.40–0.54 s from 20 frames at times t =0–0.14s) the S/N can be tribution map (Fig. 2). It is clear that higher gas concentrations were
+greatly improved. This results in a video of scene changes (mostly gas found in regions with slow moving air (being in wind shadow).
+motion but also flying birds, moving cars etc.) consisting of more than The spectroscopic modeling included measurements of the clear sky
+3500 frames if a spectral resolution of 1 cm(cid:0) 1 is used, corresponding to including its reflections off of the far wall, producing column densities of
+the same time-period as the spectra used for the gas concentrations H2O, CH4, and N2O for all pixels in the scene. We calculated total CH4
+maps. emissions from mass balance calculations using the far wall as a thermal
+Feature tracking of gas structures in a video yields gas speed and background, measuring vertical air motion from movement of water
+3
+
+--- Page 4 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+Table 1 close to the digestion chambers, for which we measured emissions of
+Treatment steps at the Linko¨ping WWTP. Numbers, which are also marked in the 10.7 kg CH4/d and 3.8 kg N2O/d, based on one measurement day. The
+overview (Fig. 1), refers to their order relative to the water and material buffer tank has a variable level of sludge material, with a 0.1 m2 hole in
+transport through the plant. the top of the tank where gas flows out when material is added and air
+No. Description of process step flows in when the level in the tank decreases. As we only made one
+hyperspectral measurement of this source and it is a very variable point
+1 In the grit removal, sand and gravel is removed. Iron sulphate is added to
+increase the separation of phosphorus and organic material from the source that can be measured using conventional techniques, we esti-
+wastewater. mated yearly emissions using the average emission of three days based
+2 The aeration step mixes the wastewater to reduce odor and to distribute the on the above mentioned hyperspectral and two additional conventional
+added iron sulphate more evenly.
+measurements (1.6 and 0.4 kg CH4/d on 28 March and 14 August,
+3 Two circular pre-sedimentation basins where the formed flocks settle.
+4A The sedimented material (from 3) is pumped into three digestion chambers respectively) giving yearly emissions of 1530 ±1190 kg CH4 and 550 ±
+where sludge is digested in anaerobic conditions at a mesophilic temperature 730 kg N2O (assuming the same N2O/CH4 ratio as N2O was not
+(38 ◦C) for 20 days. Produced gas (≈65 % CH4 and ≈35 % CO2) is transported measured with the conventional method). The high uncertainties reflect
+via a pipeline to an adjacent biogas plant (800 m north) for upgrading to 97 % the very high variability of this source between measurement days.
+CH4 to be used in vehicles.
+4B Residual sludge (from 4A) is stored for 1–3 days in a buffer tank.
+4C After dewatering using a screw presses, the sludge is stored for at least 6 3.1.5. Sludge storage
+months in a sludge pile, with a new pile made for each calendar month. At the plant there were always 12 piles used for sludge storage as the
+5 The reject water from the dewatering process is quite rich in ammonia and is material is stored for a year (twice the required minimum time
+treated in a process called Stable High rate Ammonia Removal Over Nitrite
+mentioned in Table 1), with a new pile replaced every month. During the
+(SHARON) which involves an open basin with a continuous flow of water from
+first season we could not find any emissions from piles older than four
+the dewatering of sludge (4B) used for removal of ammonia. This step has a 90
+min cycle of alternating nitrification (oxic, aeration) and denitrification months, and therefore focused on material up to 120 days old. In a
+(anoxic, non-aeration) periods. The length of the oxic period is dependent on typical measurement day where sludge deposits were targeted, we
+water inflow and ammonium content and dosing ethanol as a carbon source imaged piles representing the three or four most recent months, often
+takes place at the beginning of the non-aeration period. Nitrification is the
+combining several scenes and a corresponding visual CH4 mosaic
+biological oxidation of ammonia to nitrite/nitrate. N2O can be produced in the
+during the reduction of nitrate/nitrite in anaerobic conditions. After this (Fig. 3). In total we measured emissions from 11 sludge piles over a year.
+process the water is pumped back to the grit removal stage (1). The sludge deposits were divided into four monthly categories based
+6 The liquid part from pre-sedimentation (3) is pumped to aerated basins where on their age (<30 d, 30–60 d, 60–90 d, and 90–120 d). Although there
+microorganisms break down organic material. Organic nitrogen is converted
+was a variability in the emissions across seasons (which in the category
+to ammonia and nitrate (NH4-N and NO3-N). This biological treatment stage
+“<30 d” was partly caused by some piles not being finished yet) a clear
+has periods with and without aeration, with durations that are determined by
+the nitrogen content of the ammonium and nitrate (NH4-N, NO3-N). decrease in CH4 emissions with time can be seen for all seasons, with
+7 Ozone is added to break down drug residues (≈90 % is removed). very low relative emissions after four months (Fig. 4.).
+8 The last step for nitrogen removal uses a Moving Bed Biofilm Reactor (MBBR), Fitting an exponential decay function to the data (Fig. 4A) and
+with a carbon source added for growth of microorganisms. Here dissolved
+considering that a typical sludge deposit at this plant increases in mass
+nitrogen is converted to nitrogen gas.
+9 In the after-sedimentation basins aluminum chloride is added to further reduce by 27 tonnes per day during until an age of 30 days we find the following
+phosphorus material. relation for how emission per tonne dry sludge material changes with
+time:
+vapor patterns in the IR videos across the horizontal area marked with a F w(t)= 125.57⋅e(cid:0)0.025⋅t (1)
+white line in panel B of Fig. 2, and combining this with CH4 column
+densities along this line. Average yearly emissions based on our four where Fw is the emission per weight sludge (kg CH4/yr/tonne) and t the
+measurements (one for each season) in the ranges 2.4–17 kg CH4/d and time passed from a sludge deposit was started until the time of mea-
+0–3.7 kg N2O/d were calculated to 3160 ±1250 kg CH4 and 360 ±330 surement (days).
+kg N2O, respectively. Fitting a polynomial to the measured emissions of the different
+sludge deposits versus their ages (Fig. 4B) with the condition of no
+3.1.2. Aeration emission at time 0 (because no pile had yet been created at time 0), we
+The aeration process step was measured three times (autumn, spring, find the following relation for a typical pile at this particular plant:
+summer) using a wall, heated by the Sun, as a background. The yearly F(t)=0.399⋅t3(cid:0) 77.276⋅t2+3619.2⋅t (2)
+CH4 emission, based on measurements in the range 1.5–4.2 kg CH4/d,
+was found to be 960 ±290 kg CH4, with no N2O emissions detected. Air
+where F is the emission (kg CH4/yr). The plotted curve (Fig. 4B) shows
+motion was calculated from the hyperspectral data cubes.
+an increase in emissions from zero at the beginning of a pile as there is no
+material yet, reaching a maximum after 30 days when the pile is full,
+3.1.3. Primary clarifier
+then decreasing with time.
+Despite six attempts (over three seasons) to find elevated CH4 or N2O
+For an average-sized pile, with a weight of 830 tonnes the total in-
+levels from the primary clarifier we did not detect any emissions from tegrated yearly emission was found to be 6790 ±1100 kg CH4, giving a
+this treatment step, suggesting that fluxes were low relative to the total lifetime (1 year) emission of 8.2 ± 1.3 kg CH4 per tonne stored
+emitting surface and the air masses passing the tanks during the mea-
+sludge. Uncertainty ranges for each sludge pile on the best-fit curves
+surement period (diluting the emitted gas). Hence, this treatment step
+(Fig. 4) were estimated from the variability in emissions between the
+contributed negligible emissions compared to total emission from the
+three measurement points (sludge piles) of each month. The total un-
+WWTP.
+certainty in CH4 emission was then calculated using a Monte Carlo
+simulation based on 1000 distributions of simulated measurement
+3.1.4. Digestion chambers and sludge buffer tank
+points, all located within the error bars shown in Fig. 4. From 1000 fitted
+The two digestion chambers were surveyed for leaks on two mea-
+curves and simulated total emissions, the standard deviation of these
+surement days using the cold sky as background to increase the tem-
+emissions represents the uncertainty in our best estimate.
+perature contrast, but no leaks were found from the digestion chambers
+As there are always 12 piles in the sludge storage area (one new
+at the WWTP. started each month) this means a total yearly emission of 81 500 ±3800
+An additional source of emissions was however the sludge buffer
+kg CH4 which was by far the largest CH4 emission source at the plant.
+4
+
+--- Page 5 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+Fig. 2. The grit removal processing step with a monochromatic visual image (A), the calculated CH4 distribution map (B), an example spectrum (C), and residuals of
+the spectroscopic model (D) for the pixel marked with a cross in panel B. The arrow indicates the air direction and the white line the horizontal area used for mass
+balance calculations to determine the emissions.
+Fig. 3. Visual (A) and hyperspectral CH4 mosaic (B) of three sludge deposits
+from measurements made November 12th, 2019, having ages of 2–4 months. A
+mobile weather station (marked with a circle) can be seen in panel A. Black
+pixels in the CH4 mosaic are indicative of background-air temperature differ-
+ences close to 0 (for which CH4 column densities could not be calculated).
+There is an excess of CH4 across the whole mosaic, with higher concentrations
+in the left part (youngest pile) and at locations in the scene with low wind speed
+(yellow features). (For interpretation of the references to colour in this figure
+legend, the reader is referred to the Web version of this article.)
+The emissions correspond to about 6 % of the CH4 produced during
+sludge digestion in the digestion chambers. Fig. 4. Change in CH4 emissions with sludge deposit age for all measured piles.
+The emission per tonne sludge (A) described by an exponential decay function,
+3.1.6. SHARON reactor showing decreasing emission with time as the material gets older. The emission
+The SHARON reactor showed very variable emissions of N2O ranging for a typical sludge pile at this particular plant (B) described by a 3rd deg.
+polynomial. Age is defined as the time from the start of a sludge deposit to the
+from 10 to 170 kg/d on a full cycle scale (Fig. 5). By calculating emis-
+date of measurement. Emissions increase during the first 30 days as new ma-
+sions from each data cube, giving a time resolution better than 1 min, a
+terial is added to the pile and thereafter decline over time. Error bars marks
+clear correspondence between fluxes for both CH4 and N2O and the
+uncertainty intervals centered on the best fitted curves. See text for equations.
+operational aeration/non-aeration cycle of approximately 90 min could
+be reveled (Fig. 6). There was a “phase shift” of 180◦between the two
+gases, i.e. CH4 emissions peaked during the non-aeration period, while
+N2O peaked during aeration. Given this extensive temporal variability
+5
+
+--- Page 6 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+Fig. 5. N2O maps of the SHARON treatment step for non-aeration (A) and aeration (B) periods and an example spectrum with fitted models of CH4, N2O, H2O, and
+total absorption for a line of sight during high emissions (C).
+treatment step, can use the external carbon source (ethanol) added in
+the beginning of the non-aeration phase, and on-line monitoring data
+showed that the highest CH4 flux coincided with the highest dosage of
+ethanol. During a full year, we estimate that high doses of ethanol were
+added 10 % of the time (based on the duration of high pH). Dividing the
+year into two cases; 90 % with low potential for CH4 emissions (1610 ±
+560 kg CH4/yr) and 10 % with high potential for CH4 emissions (11 690
+kg CH4/yr) the estimated total yearly emission was found to be 2620 ±
+500 kg CH4 (equivalent in 100-year warming potential to 89 000 kg
+CO2).
+Fig. 6. The detailed variability in CH4 and N2O fluxes during one complete
+3.1.7. Biological treatment
+cycle of the SHARON reactor, showing much higher N2O emission during the
+The biological treatment is carried out in three different areas of the
+aeration period and higher CH4 emission during the non-aeration period.
+plant, each with a basin that has phases of aeration and non-aeration, for
+which we measured over a cycle each measurement day focusing on the
+on a hourly basis, single short-term measurements could give very
+biological treatment. Our first measurement (autumn 2018) did not
+misleading information (Fig. 5), in this case in the range 0–550 kg N2O/
+show any emissions in either of the phases. In the following measure-
+d and 0–13.7 kg CH4/d on a minute timescale.
+ments we chose to focus on one of the basins (the rightmost in Fig. 1)
+Following the CH4 and N2O fluxes from the SHARON reactor for at
+that had a sunlit brick wall as a background. The thermal contrast was
+least one operational cycle on all six measurement days during a year
+increased even more on parts of the well using a Halogen lamp to heat it
+and correlating this with parameters from the on-line monitoring
+up.
+indicative of conditions for high and low N2O emissions, a yearly Using measurements from nine days in the ranges 0–9 kg CH4/d and
+emission could be calculated. 0–2.7 kg N2O/d, each including a full cycle, yearly emissions of 640 ±
+Considering information from on-line monitoring of parameters in 400 kg CH4 and 260 ± 140 kg N2O were calculated. The emissions
+the tank, high levels of nitrite and ammonium coincided with high N2O
+varied between the different measurement days indicating some process
+emissions to air (data not shown). Dividing a full year of continuous
+variability, however, flux levels were overall small compared to the total
+nitrite and ammonium data into time periods corresponding to condi-
+emissions of the WWTP.
+tions for low and high N2O emission it was found that 90 % and 10 % of
+the time had potential for low and high N2O emission, respectively.
+3.1.8. Drug residue, N removal, and secondary clarifier steps
+From the hyperspectral data we calculated the yearly emissions of 4700
+No emissions were found from these treatment steps when measured
+±760 kg N2O/yr and 54 200 ±7020 kg N2O/yr for these two classes.
+on two days with high thermal contrast. This indicates that these
+These assumptions yielded a total estimated emission for a year of 9700
+±980 kg N2O (equivalent in 100-year warming potential to 2 900 000 atr re ea at sm e pn at ss it ne gp s h ira v me n sse eg sl ig ai nb dle cC oH m4 ao rr N 2 tO e om this es ri o fln us r e sl oa uti rv ce st o tt h te hi er
+, s a a p e d o x e a
+kg CO2).
+WWTP.
+Our CH4 measurements showed lower emissions during the aeration
+period, which is logical given the likelihood of rapid degassing of the
+3.1.9. Incomplete flaring of methane at the wastewater treatment plant
+CH4 right upon start of aeration and limited new production and/or
+During our measurements downwind of a ventilation outlet (Fig. 7)
+possibly CH4 oxidation in the presence of O2. However, some CH4
+there was a very sudden and extreme increase in CH4 concentrations.
+emission occurred during aeration (Fig. 6) possibly due to CH4 coming
+This was due to a flaring event with incomplete burning of excess CH4
+with the inlet water from the upstream treatment step (drying of sludge
+gas some distance behind and upwind of our target area. The imaged
+in anaerobic conditions). The high CH4 fluxes during the non-aeration
+plume showed column densities in excess of 300 000 ppm m between the
+period were likely sustained by both incoming CH4 and production in camera and the building in the background (12–20 m distant), corre-
+the tank when O2 was depleted. A possibility for this CH4 production is
+sponding to average CH4 concentrations of up to 25 000 ppm (2.5 %). As
+that the microbial community, added to the tank from the previous
+part of another project, the same ventilation outlet was measured the
+6
+
+--- Page 7 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+flaring, however plumes periodically entered our field of view during
+the 2 h of measurements at this measurement location). Compared to the
+timescale of a year, events of incomplete CH4 flaring are probably rare
+and of short duration, however, given the extremely high fluxes
+involved, and the inability of conventional methods used for routine
+controls to capture such fluxes, future studies would be of interest for
+investigating the contribution from this source type, accounting for
+frequency, durations, and typical emissions. If our estimate is correct,
+such emissions from incomplete flaring for only two days per year would
+double the total yearly emission from the plant.
+Table 3
+Summary of yearly emissions from each treatment step and from the overall
+plant. See Table 2 for explanations of abbreviations and text for details.
+Process step CH4 emissions (kg/yr) (Nm3/ N2O emissions (kg/yr) (Nm3/
+Fig. 7. Visualization of the unexpected incomplete flaring of excess CH4 at the yr) yr)
+plant during measurements of a ventilation outlet. The visual image (A) shows Grit removal 3 160 (4660) ±1 250 360 (190) ±330 (180)
+the ventilation outlet (red square) and camera field of view (blue square) (1840)
+downwind of the outlet, with CH4 column density maps before (B) and during Aeration 960 (1420) ±290 (430) bd
+the flaring event (C). The flaring took place behind the camera with winds Sludge buffer 1 530 (2260) ±1 190 550 (290) ±730 (390)
+blowing the plume into the field of view at times with southerly winds. Note the (1760)
+elevated CH4 levels in panel C. (For interpretation of the references to colour in Sludge storage 81 500 (120 ±3 800 bd
+this figure legend, the reader is referred to the Web version of this article.) 200) (5600)
+SHARON 2 620 (3860) ±500 (740) 9 700 (5180) ±980 (520)
+reactor
+same day using a traditional method based on air speed and gas con- Biological 640 (940) ±400 (590) 260 (140) ±140 (75)
+centration measurements inside the ventilation pipe, which does not Flaring eventsa 43 200 per – bd
+enable detection of the flaring event and resulting CH4 concentrations, e 9v 0e 4n 0t- 0d a (1y
+Totalb 33 ±4 240 (6 10 870 ±1 280
+showing the advantages of remote sensing to pick up unexpected
+300) 250) (5800) (680)
+emissions. Total CO2eq 2 260 000 (1 ±110 000 3 200 000 (1 ±390 000
+Although probably only part of the plume entered our field of view, a (100 yr)b 226 900) (59 700) 737 000) (211 700)
+conservative emission estimate based only on the CH4 in our field of a Value for a total time of emissions corresponding to 1 day per year is pro-
+view gave a flux of at least 30 kg CH4/min, corresponding to almost 200 vided for comparison. The total time of emission per year for this emission type
+times the total CH4 emission of the entire WWTP during the duration of in not known.
+our measurements (unknown source duration as our target was not the b Flaring events not included making this value conservative.
+Table 2
+Summary of all the treatment steps at the WWTP from the hyperspectral data. The range in age of sludge deposits are referring to the average storage time of the
+material in each pile. Measurements with no detected emissions are marked by bd (below detection; can be due to low fluxes and/or poor measurement conditions with
+too low temperature contrast). Process steps measured more than once in a given time period are indicated by 1st-3rd meas., and steps without measurements in that
+time period are marked with a – sign.
+Treatment step Fall 2018 Spring 2019 Summer 2019 Fall 2019
+CH4 (kg/d) N2O (kg/d) CH4 (kg/d) N2O (kg/d) CH4 (kg/d) N2O (kg/d) CH4 (kg/d) N2O (kg/d)
+Grit removal 3.7 bd 2.4 3.7 11.5 <0.3 17 bd
+Aeration 4.2 bd 1.5 bd 2.2 Bd – –
+Primary clarifier bdb bdb bd bd bd Bd – –
+Digestion chamb. bdb bdb bd bd bd Bd – –
+Sludge buffer – – 10.7 3.8 – – – –
+Sludge storage
+<30 d 220 bd 102 bd 62 Bd – –
+30–60 d – – 56 bd 117 Bd 137 bd
+60–90 d 27 bd 22 bd – – 20 bd
+90–120 d 21 bd – – – – – –
+120–150 d <6 bd – – – – – –
+SHARONa
+1st meas. 5.2 165 9 110 <1 10 <1 17
+2nd meas. 32 12 6 170 – – – –
+Biologicalc
+1st meas. Bd bd 9 2 2 2.7 3 <1
+2nd meas. Bd bd – – bdb bdb bd bd
+3rd meas. – – – – 2 1.5 – –
+Drug residue bdb bdb – – – – – –
+N removal MBBR bdb bdb – – – – – –
+Second. clarifier bdb bdb – – – – – –
+Flaring eventd – – – – >30d kg/min Bd – –
+a Emissions are averages of the full 90 min cycle of the SHARON.
+b Several measurements were made during the time period.
+c Emissions are averages of the aerated on non-aerated periods of the biological treatment.
+d Please note the separate unit for this flux, being rare and episodic, making estimates for extended time periods challenging. The value given regards an estimate
+from one event unexpectedly discovered (see text for details).
+7
+
+--- Page 8 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+3.1.10. Total CH4 and N2O emissions from all treatment steps have not included sludge storage as this source is not included in the
+By combining all the emissions detected by the hyperspectral mea- other studies. We however note that sludge storage corresponds to 90 %
+surements (Table 2) we estimated the total CH4 and N2O emissions at the of the total CH4 emission at the plant, and that inclusion of this source
+WWTP (see Table 3). would increase the normalized emissions considerably for all WWTPs
+The total CH4 emission previously measured from the plant with that have sludge storage. A large increase could also come from flaring
+traditional methods was only 3350 kg CH4/yr, much lower than the 90 events and although we identify this is a potentially large emissions
+400 kg CH4/yr from remote sensing in our study (corresponding to 6.7 % source, it is not possible from current data to estimate the duration and
+of the biogas production from sludge digestion at the plant). The reason frequency of flaring events on the timescale of a year. Overall, it is vital
+for this is that many important emission sources belong to treatment to assess all large emission sources at WWTPs to enable meaningful
+steps that are extended sources, mainly sludge storage, which is pres- comparisons of total WWTP emissions, and there is a risk that WWTP
+ently not included in routine measurements, instead focusing mainly on emissions globally have been grossly underestimated given the incom-
+ventilation outlets and specific potential leak points. This study high- plete previous emission assessments.
+lights the need for methods that can quantify all types of emissions
+sources, including distributed non-point sources (which clearly domi- 3.2.2. Comparison of sludge storage emissions with another WWTP in
+nated over point sources) and at the same time having the ability to scan Sweden
+scenes and discover unknown sources that may be of importance. As the dominating CH4 source in the Linko¨ping WWTP was sludge
+storage, we made additional measurements of sludge storage emissions
+3.1.11. Measures to reduce GHG emissions at another WWTP in Norrko¨ping (a nearby city with approximately 100
+We have identified sludge deposits as the dominant source of GHG 000 inhabitants; located 39 km from Linko¨ping) as a comparison and to
+emissions at both the Linko¨ping and at nearby Norrko¨ping WWTP. These check if our results were valid also at other WWTPs. Measurements for
+emissions arise due to organic material, remaining microorganisms from the three youngest sludge piles were made from of distance of 120–200
+the digestion chambers, and a favorable environment for CH4 produc- m (Fig. 8) on Apr. 25, 2019, yielding a total flux of 137 kg CH4/d.
+tion. The organic material can be influenced by changing the efficacy of Follow-up measurements on Jun. 28, 2019 were made on individual
+the digestion process. It should also be possible to reduce emissions from sludge piles yielding fluxes of 200 kg CH4/d (age 28 days), 56 kg CH4/
+the storage piles by modifying the environment, making it less favorable d (age 58 days) and 16 kg CH4/d (and 88 days). The three piles have a
+for the microorganisms, this could for example be a reduction of the total flux of 272 kg CH4/d, which can be compared to the corresponding
+sludge temperature or by adding substances such as ammoniacal nitro- emission of 254 kg CH4/d for three typical, equally aged piles at the
+gen (Fidjeland et al., 2013; Will´en et al., 2016) or an increased oxygen Linko¨ping WWTP (Table 2). These results confirm that sludge storage is
+supply. Another possibility would be to collect the produced gas for the dominating CH4 source for two large WTTPs in Sweden and that the
+incineration, preferably using the generated heat for other purposes. emissions are of similar magnitude between the plants, with a similar
+The dominant source for N2O emissions was the nitrogen removal of dependence on sludge age.
+reject water, being quite rich in ammonia (Massara et al., 2017), which
+at the Linko¨ping plant is the SHARON reactor, having variable emissions
+that could sometimes be very high. Changing the reactor technique to 3.3. Biogas plant
+another type, e.g. a DeAmmon reactor would reduce the emissions
+substantially (we did test measurements at the Norrko¨ping plant which The biogas plant is located north of the WWTP and is connected via a
+uses a DeAmmon reactor and found no N2O emissions). Optimizing the
+operation of a SHARON reactor can also lower emissions which is sug-
+gested by our measurements, as there is a correlation between high ni-
+trogen content in the reject water and high N2O emissions (Baresel et al.,
+2016) which we also found in our study.
+3.2. Comparisons with other WTTPs
+3.2.1. Comparison with other full-scale studied in literature
+Normalizing our full-scale WWTP CH4 emission to emission per
+person and per m3 influent wastewater (Table 4) we find that the
+Linko¨ping WWTP had relatively low emissions. In this comparison, we
+Table 4
+Comparison of normalized CH4 emissions between our study and other full-scale
+studies in literature of WWTPs.
+Study g CH4 person(cid:0)1 g CH4 (m3
+yr(cid:0)1 influent)(cid:0)1
+Czepiel et al. (1993) - Durnham WWTP 39 0.14
+Wang et al. (2011) - Jinan WWTP 11 0.16
+STOWA (2010) – Papendrecht 266 2.44
+STOWA (2010) – Kortenoord 140 1.56
+STOWA (2010) - Kralingseveer 310 2.73
+(October)
+STOWA (2010) - Kralingseveer 230 2.03
+(February)
+Daelman et al. (2012) – Kralingseveer 306 3.44
+WWTP
+This studya 61 0.58
+Fig. 8. Visual image (A) and calculated CH4 map (B) for the sludge storage at
+a We do not include sludge storage in our estimates as this is not included in the Norrko¨ping WWTP. The line marks the vertical surface used to calculate the
+other studies in the comparison. total CH4 emission from the three youngest sludge piles (left in the image).
+8
+
+--- Page 9 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+gas pipeline transporting gas from the WWTP digestion chambers to
+almost pure CH4. It also has its own digestion chambers, producing
+biogas from organic material such as food and slaughterhouse waste
+(total production of 22 800 kg CH4/d). A known source of CH4 emissions
+prior to his project was the tank where biofertilizer material is stored.
+This source and two previously unknown sources are described and
+discussed in separate sections below.
+3.3.1. Biofertilizer storage tank
+We measured this source in a separate effort described in detail
+elsewhere (Gålfalk et al.; in review) and found a total emission of 144 ± Fig. 10. Tracking of horizontal (x) and vertical (y) air motion in the plume
+32 kg CH4/d (52 600 ± 11 700 kg CH4/yr). The measurements were from the biogas plant, with average values used in the mass balance calcula-
+made on the September 5, 2018 and included the whole tank with a tions represented the dashed lines.
+diameter of 37.5 m (surface area 1104 m2 and maximum storage volume
+of 4000 m3). Air motion on the downwind side of the circular tank was leaks can go undetected in routine inspections as they may be located in
+calculated from interference-corrected differential IR images of the places that are difficult to reach or to survey from a close distance, as
+hyperspectral camera and obtaining the total emission through a vertical well as not being part of regular routine measurement spots. We also
+area at the edge of the tank with calculated CH4 column densities. note that the leak is of similar magnitude as the total CH4 emission of the
+whole adjacent WWTP. This example also shows that once detected,
+3.3.2. The unexpected discovery of a biogas production plant leak such leaks can rapidly and effectively be remedied, highlighting the
+While mapping CH4 emissions from sludge deposits (extending benefit of effective measurement methods.
+18–50 m from the camera setup; e.g. Fig. 3) we discovered an unknown
+high emission source which was identified as a leak in the adjacent 3.3.3. Emissions from loading of organic material onto trucks
+biogas plant situated at a distance of 250 m from the camera. After From the set of measurements targeting the left side of the bio-
+calculating new transmission models for CH4 at these higher absorption fertilizer storage tank we found that during the event of a truck being
+levels we made a map of the CH4 column density distribution (Fig. 9). filled up with biofertilizer material, this becomes an additional unex-
+Using an interference corrected IR difference video (Supplementary pected emission source (Fig. 11) with a flux of 74.4 kg CH4/d which is
+data) it was then possible to calculate horizontal and vertical plume about half that of the entire storage tank flux during the specific leading
+velocities (Fig. 10). From mass balance modeling we obtained the total period.
+flux of the leak after integrating fluxes along a horizontal and vertical Although this source may not be important on the timescale of a year
+surface area (Fig. 9). (if trucks are not that frequent) it shows the importance of accurate
+The total flux was calculated to be 245 ±34 kg CH4/d (89 500 ±12 source identification, including the discovery of unexpected emissions,
+500 kg CH4/yr), corresponding to 1.1 % of the CH4 produced by the to ensure representative flux estimation on longer timescale based on
+biogas plant. After the discovery of this leak it was sealed. Going back to measurements made on shorter timescales.
+a set of test measurements made one year earlier (from another mea-
+surement spot) we found this leak in the older data as well from a large 3.3.4. Combined emissions at the biogas plant
+distance, having a similar emissions rate. This shows that high emission Combining the sources (biofertilizer storage tank, big gas leak, and
+Fig. 9. Emissions of CH4 from a leak at the adjacent biogas plant (250 m distant). A calculated CH4 column density map (A) is combined with vertical (B) and
+horizontal (C) flux profiles to give an estimate of the total flux via mass balance calculations. The x- and y-axes in B and C represent pixel number along the horizontal
+and vertical lines respectively and the excess column density (beyond the background) in ppm⋅m.
+9
+
+--- Page 10 ---
+M. Gålfalk et al. E n v ir o n m e n t a l R e s e a r c h 204(2022)111978
+Fig. 11. Background temperature (A) and excess CH4 map (B) of truck loading biofertilizer material from a storage tank at the biogas plant. Spectroscopic modeling
+(C) with residuals (D) for an example spectrum at the position marked with a white cross in panel B.
+trucks filling up with biofertilizer) we found an overall emission from relationships which may be considered as potential competing interests:
+the biogas plant in the range 52 600–170 000 kg CH4/yr (0.6–2.1 % of Authors So¨ren Nilsson Påledal and Robert Sehl´en work at the waste-
+the CH4 produced) depending on if the previously unknown sources water treatment plant and gave us access to the plant form doing mea-
+(loading of trucks and leakage) are included or not (at times these make surements, as well as contributed with process descriptions of the
+up almost 70 % of the total emissions). This represents a crude estimate treatment steps at the plant.
+which is less comprehensive than for the WWTP and a more systematic
+effort would be needed for assessing total biogas plant emissions at Acknowledgements
+greater accuracy.
+Funding: The work was supported by the Swedish Research Council
+4. Conclusions VR (grant 2016-04829), Formas (grant 2018-01794), the European
+Union’s Horizon 2020 research and innovation programme under grant
+This study, representing one of the first attempts to assess total CH4 agreement No 101015825 (TRIAGE) and an instrument grant from the
+and N2O fluxes from a WWTP and adjacent relevant facilities using novel Knut and Alice Wallenberg Foundation (ref no. KAW2010.0126). This
+ground-based remote sensing, reveals that previous efforts with tradi- project has received funding from the European Research Council (ERC)
+tional methods grossly underestimate total fluxes. In our case, 90 % of under the European Union’s Horizon 2020 research and innovation
+the total continuous fluxes were previously undetected. On top of this programme (grant agreement No 725546). We are very grateful to
+there were several unexpected and very high episodic fluxes, potentially Camilla Johansson at Tekniska Verken for valuable contributions
+more than doubling overall emissions, that were not known previously throughout the project, and highly appreciate the assistance related to
+at that require additional work for accurate long-term quantification. measurements from involved staff at Tekniska Verken and at Slott-
+This study thereby highlights that it is absolutely essential to have shagens wastewater treatment plant run by NODRA, Norrko¨ping, and
+effective methods for measurements of all types of greenhouse gas fluxes the field assistants from personnel at Tema Environmental Change,
+and for effective detection of unknown episodic emission sources to Linko¨ping university.
+allow making adequate priorities and design effective actions to mitigate
+the emissions. Ground-based remote sensing is shown by this study to be Appendix ASupplementary data
+a highly capable approach to meet these needs for improved greenhouse
+gas flux measurements at WWTPs, biogas plants and other relevant Supplementary data to this article can be found online at https://doi.
+facilities. org/10.1016/j.envres.2021.111978.
+Supplementary data related to this article can be found at https
+://doi.org/10.1016/j.envres.2021.111978.
+References
+Declaration of competing interest Baresel, C., Andersson, S., Yang, J.J., Andersen, M.H., 2016. Comparison of nitrous oxide
+(N2O) emissions calculations at a Swedish wastewater treatment plant based on
+water concentrations versus off-gas concentrations. Adv. Clim. Change Res. 7 (3),
+The authors declare the following financial interests/personal 185–191. https://doi.org/10.1016/j.accre.2016.09.001.
+10

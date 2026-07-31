@@ -1,0 +1,574 @@
+--- Page 1 ---
+https://doi.org/10.1590/S1413-415220200325
+Artigo Técnico
+Desempenho energético e pegada de carbono
+de um sistema de esgotamento sanitário
+centralizado no nordeste brasileiro
+Energy performance and carbon footprint of a
+centralized sewage system in northeastern Brazil
+Monique Cerqueira Araujo1* , Diego Lima Medeiros2 , Eduardo Cohim1
+RESUMO ABSTRACT
+O objetivo do trabalho foi avaliar a operação e manutenção de um sistema This aim of this work was to evaluate the operation and maintenance of a
+de esgotamento sanitário centralizado, composto de três subsistemas, centralized wastewater treatment system, composed of three subsystems,
+que atende 367 mil habitantes no Nordeste do Brasil. A avaliação do ciclo which serves 367 thousand inhabitants in northeastern Brazil. The life cycle
+de vida considerou um inventário amplo de operação e manutenção do assessment considered a comprehensive inventory of the wastewater
+sistema de esgotamento sanitário com as redes de coleta, estações de treatment system operation and maintenance with the collection networks,
+tratamento de esgoto, disposição do esgoto tratado no corpo hídrico e wastewater treatment plants, disposal of the treated wastewater in the
+gestão do lodo. O arranjo tecnológico das estações de tratamento de water body and sludge management. The technological arrangement of
+esgoto avaliadas incluiu o reator do tipo upflow anaerobic sludge blanket, the evaluated wastewater treatment plants included the Upflow Anaerobic
+seguido de lagoa aerada e lagoa de polimento em um subsistema, e Sludge Blanket reactor, followed by aerated and polishing ponds in one
+upflow anaerobic sludge blanket seguido de reator de lodo ativado por subsystem, and Upflow Anaerobic Sludge Blanket followed by extended
+aeração prolongada em dois subsistemas. O desempenho energético aeration activated sludge in two subsystems. The energy performance used
+utilizou o método de demanda de energia acumulada e a pegada de the cumulative energy demand method and the carbon footprint used the
+carbono empregou o método de potencial de aquecimento global de global warming potential method for 100 years of the Intergovernmental
+100 anos do Painel Intergovernamental sobre Mudanças Climáticas. O Panel on Climate Change. The evaluated wastewater treatment system
+sistema de esgotamento sanitário avaliado demandou 5,12 MJ·m-3 e emitiu presented 5.12 MJ·m-3 and 4.08 kg COeq·m-3. The largest contribution of
+2
+4,08 kg COeq·m-3. As maiores contribuições do sistema de esgotamento the evaluated wastewater treatment system was the electricity use with
+2
+sanitário avaliado foram a eletricidade, com 62% da demanda energética, 62% of the energy demand and direct emissions to the air with 94% of
+e as emissões diretas para o ar, com 94% da pegada de carbono, sendo the carbon footprint, being direct emissions from Upflow Anaerobic Sludge
+as emissões dos reatores upflow anaerobic sludge blanket com 76% da Blanket reactors with 76% of the carbon footprint. The identification of
+pegada de carbono. A identificação dos aspectos e impactos ambientais do environmental aspects and impacts of the evaluated wastewater treatment
+sistema de esgotamento sanitário avaliado apoia a inovação tecnológica system supports technological and management innovations to optimize
+e gerencial para otimizar o desempenho energético e mitigar as emissões its energy performance and mitigate greenhouse gases emission.
+de gases de efeito estufa.
+Keywords: LCA; sewage system; energy demand; greenhouse gas;
+Palavras-chave: ACV; saneamento; demanda energética; gás de efeito operation and maintenance.
+estufa; operação e manutenção.
+1Universidade Estadual de Feira de Santana – Feira de Santana (BA), Brasil.
+2Universidade Federal da Bahia – Salvador (BA), Brasil.
+*Autor correspondente: engcivil.monique@hotmail.com
+Conflitos de interesse: os autores declaram não haver conflitos de interesse.
+Financiamento: CAPES (Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) [88882.447874/2019-01].
+Recebido: 06/09/2020 – Aceito: 09/04/2021 – Reg. ABES: 20200325
+Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221 205
+
+--- Page 2 ---
+Araujo, M.C.; Medeiros, D.L.; Cohim, E.
+INTRODUÇÃO METODOLOGIA
+A cobertura dos serviços de esgotamento sanitário tem aumentado nos paí- A avaliação da demanda energética e das emissões de gases de efeito estufa (GEE)
+ses em desenvolvimento, porém ela enfrenta desafios econômicos, técnicos e do ciclo de vida do SES deste estudo, baseada na Norma Técnica Brasileira/
+políticos para a sua universalização e carece de sustentabilidade (GALLEGO- Organização Internacional de Normalização (NBR ISO) 14040 (ABNT, 2009a)
+SCHMID et al., 2019). A implementação de um sistema de esgotamento sani- e NBR ISO 14044 (ABNT, 2009b), considerou as seguintes partes da ACV: defi-
+tário (SES) tem um caráter ambientalmente favorável por sua contribuição para nição de objetivo e escopo, análise de inventário de ciclo de vida (ICV), avalia-
+a diminuição do lançamento de patógenos e poluentes nos corpos hídricos. ção do impacto do ciclo de vida (AICV) e interpretação.
+No entanto, a construção, a operação e a manutenção do SES causam impactos
+ambientais (PAULO et al., 2019). Nesse sentido, os indicadores de sustentabi- Definição de objetivo e escopo
+lidade são essenciais no processo decisório para a otimização do SES (PAULO O objetivo deste estudo foi avaliar o desempenho energético e a pegada de car-
+et al., 2019). Os indicadores ambientais são utilizados na gestão de um SES bono do SES centralizado de um município do Nordeste brasileiro, referente às
+para identificar os processos de maior relevância, monitorar o desempenho e fases de O&M das etapas de coleta, tratamento, disposição de esgoto tratado
+apoiar o desenvolvimento tecnológico e a tomada de decisão. A avaliação do e gestão do lodo (Figura 1). A unidade funcional do sistema de produto1 ava-
+ciclo de vida (ACV) é uma técnica robusta e abrangente para avaliar os aspec- liado foi 1 m³ de esgoto doméstico coletado e tratado em 2017. As etapas de
+tos e impactos ambientais de um sistema de produto. captação, tratamento e distribuição da água potável foram objeto de estudo de
+A literatura consultada de ACV do SES apresenta uma variedade de obje- Guanais et al. (2017) e desconsideradas neste trabalho.
+tivos e escopos, que devem ser analisados em detalhe para evitar compara- O SES centralizado de Feira de Santana (SES-FSA), estado da Bahia,
+ções inadequadas. Por exemplo, alguns estudos de ACV consideraram todo Brasil, atendeu 62% da população urbana, em 2017, com três subsistemas
+o sistema de água e esgoto, desde a captação de água para o abastecimento (Subaé, Jacuípe I e Jacuípe II), o que correspondeu a 367 mil habitantes.
+até a disposição do esgoto tratado (AMORES et al., 2013; LEMOS et al., Os subsistemas do SES-FSA são constituídos de rede de coleta e transporte,
+2013; FRIEDRICH et al., 2009), enquanto outros delimitaram a ACV no SES composta de condutos coletores e estações elevatórias de esgoto (EEE) e
+(GALLEGO-SCHMID et al., 2019). Entre as pesquisas de ACV do SES, algu- ETE. Uma parte da vazão de esgoto coletado dos domicílios pela rede cole-
+mas consideraram a fase de construção (SINGH et al., 2018; BUONOCORE tora da Jacuípe I é exportada para a rede coletora da Jacuípe II, aproxima-
+et al., 2018; STOKES et al., 2010; AMORES et al., 2013; FRIEDRICH et al., damente 100 L·s-1. O esgoto coletado passa por tratamento preliminar (gra-
+2009), enquanto outras excluíram a fase de construção dada a indisponibi- deamento e caixa de areia), tratamento primário no reator upflow anaerobic
+lidade de dados e contestaram a relevância dessa fase comparada à de ope- sludge blanket (UASB) e tratamento secundário com lagoas aeradas e lagoas
+ração (LIMPHITAKPHONG et al., 2016; MAKTABIFARD et al., 2020). O de polimento (LA + LP) na ETE Subaé e lodo ativado por aeração prolon-
+SES é constituído de rede de coleta, estação de tratamento de esgoto (ETE), gada (LAP) nas ETE Jacuípe I e Jacuípe II. O SES-FSA não utiliza produto
+disposição do esgoto tratado e gestão do lodo. Corominas et al. (2013) revi- químico no tratamento do esgoto.
+saram 45 artigos de ACV de SES, dos quais 18 incluíram a rede de coleta na Os coprodutos da etapa de tratamento do SES são gerenciados da seguinte
+fronteira de estudo. A extensão da infraestrutura da rede de coleta influen- forma: o lodo de esgoto das três ETE é enviado para a fazenda de lodo na
+cia os impactos de sua construção e manutenção; assim, deve-se estimar esse ETE Jacuípe II; o biogás do tratamento anaeróbio é liberado para a atmos-
+impacto para identificar a sua relevância (RISCH et al., 2015), especialmente fera, exceto na ETE Jacuípe II, onde é direcionado para a queima em flare; e
+em SES centralizados. o esgoto tratado é conduzido por emissários até o corpo hídrico mais pró-
+Os estudos de ACV de SES do Brasil somam poucos trabalhos. Gallego- ximo para a disposição final. A Tabela 1 apresenta um resumo das caracte-
+Schmid et al. (2019) revisaram 43 artigos sobre esse tema com o foco nos rísticas do SES-FSA.
+países em desenvolvimento, dos quais apenas três se referiram a estudos A vazão afluente de cada ETE (Tabela 1) foi estimada com base na Equação 1.
+brasileiros, e nenhum se referiu a um SES urbano. No entanto, Lopes et al.
+(2020), Alves (2016) e Gutierrez (2014) avaliaram SES de pequeno porte do
+Brasil. A pouca disponibilidade de dados de inventário limita a elaboração de (1)
+Ligesgoto
+estudos de ACV em SES de grande porte do Brasil para subsidiar a tomada Qágua_residual∶=Qágua×� � ×0,8
+de decisão. Ademais, o avanço das pesquisas sobre tratamento de esgoto Ecomicro × Ecoágua
+em reatores anaeróbios é estratégico para o desenvolvimento sustentável do Em que:
+saneamento no Brasil. Q =representa a vazão afluente da ETE (m³·ano−1);
+água_residual
+O objetivo deste artigo foi avaliar o desempenho energético e a pegada de Q = representa a vazão micromedida de água dos domicílios do SES-FSA
+água
+carbono das fases de operação e manutenção (O&M) do SES de uma cidade (m³·ano−1); Eco = representa a quantidade de domicílios ligados à rede de
+esgoto
+de grande porte no Nordeste brasileiro. As etapas do SES avaliado foram coleta coleta (adimensional); Eco = representa a parcela de domicílios microme-
+micro
+e transporte, tratamento, disposição final do esgoto tratado e gestão do lodo. didos ligados ao sistema de abastecimento de água (%);
+1O sistema de produto é um “conjunto de unidades de processo, conectadas material e energeticamente, que realiza uma ou mais funções definidas” de acordo com a NBR ISO 14040
+(ABNT, 2009a).
+206 Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221
+
+--- Page 3 ---
+Desempenho energético e pegada de carbono do SES-FSA
+Figura 1 – Sistema de produto do serviço de esgotamento sanitário centralizado de Feira de Santana (BA).
+Tabela 1 – Resumo das características técnicas do sistema de esgotamento sanitário centralizado de Feira de Santana em 2017.
+Parâmetro Grandeza
+Unidade
+Sistema SES-FSA*
+Vazão micromedida de água (Q ) m³·d-1 50.923
+água
+Parcela de domicílios micromedidos (Eco ) (%) 98,6
+micro
+Quantidade de domicílios abastecidos (Eco ) adimensional 215.347
+água
+Vazão de esgoto coletado m³·d-1 44.256
+Subsistema SES Subaé SES Jacuípe I SES Jacuípe II
+Rede de coleta**
+Quantidade de economia (Eco ) adimensional 27.694 42.966 28.644
+esgoto
+Quantidade de EEEa adimensional 11 6 9
+Extensão da rede de coleta m 165.761 155.181 103.454
+Tratamento do esgoto***
+Vazão de esgoto coletadob (Q ) m³·d-1 5.599 8.687 5.791
+água_residual
+Capacidade máxima de tratamento m³·d-1 19.250 16.070 31.140
+DQO na entrada mg·L-1 507 810 694
+DQO na saída mg·L-1 150 117 149
+DBO na entrada mg·L-1 232 385 283
+DBO na saída mg·L-1 39 24 26
+Arranjo tecnológico UASB, LA e LP UASB e LAP UASB e LAP
+Eficiência da remoção de DQO na ETE (%) 70 86 79
+Eficiência da remoção de DQO no UASB (%) 65 65 65
+Quantidade de lodo produzida na ETE (base seca) t·ano-1 561 871 580
+SES: sistema de esgotamento sanitário; FSA: Feira de Santana; EEE: estações elevatórias de esgoto; DQO: demanda química de oxigênio; DBO: demanda bioquímica de
+oxigênio; UASB: upflow anaerobic sludge blanket; LA: lagoas aeradas; LP: lagoas de polimento; LAP: lodo ativado por aeração prolongada; ETE: estação de tratamento de
+esgoto. aMais detalhes no Apêndice 2; bCalculado pela Equação 1 com a conversão da unidade. Fonte: *EMBASA (2018a); **PMSB (2017); ***EMBASA (2018b).
+Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221 207
+
+--- Page 4 ---
+Araujo, M.C.; Medeiros, D.L.; Cohim, E.
+Eco = representa a quantidade de domicílios ligados ao sistema de abaste- equipamentos de desobstrução e limpeza e veículos de transporte de funcio-
+água
+cimento de água (adimensional); e 0,8 é o coeficiente de retorno de água de nários. Os equipamentos e veículos demandaram 53.690 L de diesel em 2017,
+abastecimento convertida em água residual. que foram alocados em 85% para a etapa de coleta do SES-FSA e em 15% para
+a etapa de tratamento. Os principais equipamentos de limpeza e desobstrução
+Inventário do ciclo de vida foram jatinhos e hidrojatos (high-velocity), enquanto os veículos foram cami-
+O inventário de primeiro plano2 da O&M do SES-FSA incluiu dados primários nhões roots e caminhões combinados.
+e secundários (Tabela 2). Os dados primários de insumos, transporte e resíduos As obras de manutenção do SES-FSA para a substituição dos condutos
+foram disponibilizados pela operadora do SES-FSA com base em observações incluíram seis atividades: demolição do pavimento; escavação da vala; extra-
+e medições de campo. Os dados secundários de emissões diretas de metano ção do conduto antigo; colocação do novo conduto sobre o novo leito em areia;
+(CH) e óxido nitroso (NO) foram obtidos por meio de equações do Painel aterro da vala; e pavimentação da superfície. A obra de manutenção do SES-
+4 2
+Intergovernamental sobre Mudanças Climáticas — Buendia et al. (2019a, 2019b), FSA demandou materiais (areia, asfalto e tubos), diesel e transporte dos insu-
+enquanto aquele de dióxido de carbono fóssil (CO fóssil) foi obtido com a esti- mos para o local de substituição da rede de coleta. Foi assumida uma taxa de
+2
+mativa de Law et al. (2013). A fase de construção do SES-FSA foi desconsiderada substituição dos condutos de 3% ao ano. O diâmetro dos condutos de policlo-
+em razão da indisponibilidade de dados. reto de vinila (PVC) é de 150 mm, 200 mm e 300 mm, e cada um deles corres-
+A O&M do SES-FSA considerou o uso de eletricidade nas EEE e ETE, ponde a 90, 5 e 5% da extensão total da rede de coleta, respectivamente. A lar-
+assim como o uso de diesel em maquinários de substituição dos condutos, gura do pavimento removido para a abertura da vala correspondeu à largura
+Tabela 2 – Inventário de primeiro plano de 1 m³ de esgoto coletado e tratado por subsistema do serviço de esgotamento sanitário centralizado de Feira de Santana.
+Parâmetro Unidade SES Subaé SES Jacuípe I SES Jacuípe II
+Coleta do esgoto
+Diesel queimado (máquinas na substituição dos condutos)a L 1,9 × 10−2 1,1 × 10−2 1,1 × 10−2
+Condutos de PVC kg 8,0 × 10−3 4,8 × 10−3 4,8 × 10−3
+Transporte dos condutosb kg·km 1,6 × 10 0 9,7 × 10−1 9,7 × 10−1
+Areia (leito dos condutos) kg 5,4 × 10−1 3,3 × 10−1 3,3 × 10−1
+Asfalto
+Areia kg 3,5 × 10-2 4,4 × 10-3 4,4 × 10-3
+Brita kg 1,0 × 10-1 6,2 × 10-2 6,2 × 10-2
+Betume kg 7,2 × 10-3 2,1 × 10-2 2,1 × 10-2
+Diesel queimadoa (processamento do asfalto) MJ 4,3 × 10-2 2,6 × 10-2 2,6 × 10-2
+Eletricidade (EEE) kWh 2,7 × 10-1 8,7 × 10-2 7,5 × 10-2
+Diesel queimadoa (equipamentos e veículos)c L 6,2 × 10-3 6,2 × 10-3 6,2 × 10-3
+Metano para o ar kg 1,4 × 10-2 7,3 × 10-3 5,2 × 10-3
+Tratamento do esgoto
+Eletricidade (ETE) kWh 2,0 × 10-1 4,2 × 10-1 4,7 × 10-1
+Diesel queimadoa (equipamentos e veículos)c L 1,1 × 10-3 1,1 × 10-3 1,1 × 10-3
+Metano para o ar (UASB) kg 9,5 × 10-2 1,1 × 10-1 1,3 × 10-1
+Metano para o ar (LAP) kg − 1,7 × 10-3 4,4 × 10-3
+Metano para o ar (LA e LP) kg 9,6 × 10-3 − −
+Óxido nitroso para o ar (LAP) kg − 8,0 × 10-4 2,4 × 10-3
+Óxido nitroso para o ar (fazenda de lodo) kg 1,5 × 10-4 1,5 × 10-4 1,5 × 10-4
+Dióxido de carbono fóssil para o ar kg 5,3 × 10-3 6,3 × 10-3 1,6 × 10-2
+Transporte do lodod kg·km 6,4 × 100 − −
+Disposição do esgoto tratado
+Metano para o ar (após a disposição no rio) kg 2,4 × 10-4 2,8 × 10-4 7,3 × 10-4
+Óxido nitroso para o ar (após a disposição no rio) kg 1,5 × 10-4 1,5 × 10-4 1,5 × 10-4
+SES: sistema de esgotamento sanitário; PVC: policloreto de vinila; EEE: estações elevatórias de esgoto; ETE: estação de tratamento de esgoto; UASB: upflow anaerobic sludge
+blanket; LAP: lodo ativado por aeração prolongada; LA: lagoas aeradas; LP: lagoas de polimento. aDiesel com densidade de 0,853 kg·L-1 e poder calorífico de 45,5 MJ·kg-1; bdistância
+percorrida considerada de 200 km; ccombustível utilizado nos equipamentos de limpeza e veículos de transporte de operadores; ddistância percorrida considerada de 14 km.
+2O inventário de primeiro plano considerou as etapas e processos do SES avaliado (Figura 1), enquanto o inventário de segundo plano considerou os processos da base de dados (Tabela 4)
+conforme descrito por IBICT (2014).
+208 Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221
+
+--- Page 5 ---
+Desempenho energético e pegada de carbono do SES-FSA
+da vala mais 0,15 m de cada lado, e sua espessura foi 0,025 m. A profundidade
+n (4) Eq. (4)
+média da vala foi estimada em 1,75 m, enquanto as larguras foram estimadas
+CH4emissão j∶=���TOWj−Sj�×FECH4 j−Rj�
+em 0,65 m, 0,70 mm e 0,80 mm para diâmetros de conduto de 150 mm, 200 j=1
+(5)
+mm e 300 mm, respectivamente. O leito de areia localizado dentro da vala, onde
+FECH4 j∶=Bo×MCFj
+foi colocado o conduto, tem uma altura que resulta da soma de 0,10 m mais Em que:
+a metade do diâmetro do conduto (Apêndice 1). O solo escavado da vala foi CH = representa a emissão de CH do método de tratamento j (kg·ano);
+4 emissão j 4
+aplicado acima do conduto no aterro da vala. O pavimento considerado neste TOW = representa a demanda química de oxigênio (DQO) afluente
+j
+estudo foi o concreto betuminoso usinado a quente, constituído de areia, brita (kg DQO·ano−1);
+e betume nas proporções de 120 kg, 1.700 kg e 580 kg, respectivamente, para S = representa a DQO removida na forma de lodo de esgoto (kg DQO·ano−1);
+j
+cada m³ de asfalto, acrescido de 18,5 L de diesel do processamento do asfalto. FE = representa o fator de emissão de CH do método de tratamento j
+CH4 j 4
+A degradação da matéria orgânica produz gases nas linhas de recalque (kg CH(kg DQO)-1);
+4
+(FOLEY et al., 2009), ETE (LOBATO et al., 2012), corpo hídrico receptor dos R = representa a quantidade de CH recuperado ou queimado no flare (kg
+j 4
+esgotos tratados (STANLEY et al., 2016) e solo receptor do lodo (ROCHETTE CH·ano−1);
+4
+et al., 2018). O tempo de detenção do esgoto em condutos forçados tem uma B = representa a capacidade de produção de CH do método de tratamento j
+o 4
+relação linear com a produção de CH dissolvido em virtude da formação de (kg CH·(kg DQO)-1); e
+4 4
+um biofilme metanogênico na superfície interna do conduto (GUISASOLA MCF= representa o fator de correção de metano (adimensional).
+j
+et al., 2008). O tempo de detenção do esgoto, por sua vez, está relacionado à
+velocidade de escoamento e ao comprimento da linha de recalque (Equação 2). Os parâmetros de TOW foram estimados com base na DQO remanes-
+j
+A concentração de CH formado nas linhas de recalque foi estimada conforme cente por processo das ETE (Tabela 1). O TOW da UASB, LA, LP e LAP
+4 j
+Foley et al., (2009) (Equação 3). foi estimado com o valor da DQO de entrada em cada processo, enquanto
+o TOWdas emissões do rio foi estimado com o valor da DQO de saída da
+j
+(2) ETE. A Tabela 3 apresenta os demais parâmetros utilizados nas estimativas
+L de metano. Neste estudo, apenas a ETE Jacuípe II apresentou um sistema
+TDH∶= ×24
+(Q/At)
+(3) de captação de biogás e queima em flare aberto com eficiência de 55% de
+−5 Abio transformação do metano em dióxido de carbono (BRASIL et al., 2015),
+CCH4∶=5,24×10 ×� ×TDH�+0,0015
+Em que: V considerado no parâmetro de R. As ETE Subaé e Jacuípe I emitiram todo
+j
+TDH = representa o tempo de detenção hidráulica (h); o CH produzido para o ar.
+4
+L = representa o comprimento da linha de recalque (m); As emissões de NO dos reatores LAP das ETE Jacuípe I e Jacuípe II, esgoto
+2
+Q = representa a vazão diária (m³·d−1); tratado disposto no rio e fazenda de lodo foram estimadas por meio da Equação 6
+A= representa a área transversal do conduto (m²); do Buendia et al. (2019a), apresentada de forma resumida.
+t
+C = representa a concentração de CH nos esgotos (kg·m−³);
+CH4 4
+A = representa a área de biofilme das paredes internas do conduto (m²);
+bio
+e V = representa o volume do conduto (m³).
+Tabela 3 – Parâmetros das estimativas de emissão de metano e óxido nitroso.
+Parâmetro Grandeza Unidade Fonte
+A Apêndice 2 apresenta os dados utilizados na Equação 2 e na Equação 3
+Esgoto bruto
+para as linhas de recalque.
+MCF 2,0 × 10-1 adimensional Buendia et al. (2019a)
+As emissões diretas de CO, CH e NO nas ETE dependem da caracte- LA
+2 4 2
+rística da matéria orgânica do esgoto e do método de tratamento. A maior MCF LAP 3,0 × 10-2 adimensional Buendia et al. (2019a)
+parcela do carbono orgânico total (COT) emitido do processo biológico MCF 8,0 × 10-1 adimensional Buendia et al. (2019a)
+UASB
+da ETE é de origem biogênica renovável. No entanto, uma parcela de 1,4 B 2,5 × 10-1 kg CH·(kg DQO)−1 Buendia et al. (2019a)
+O 4
+a 2,0% do COT é emitida como CO e CH de origem fóssil, decorrente NT 4,0 × 10+1 mg N·L−1 Jordão et al. (2011)
+2 4 afluente
+da utilização de cosméticos, detergentes, surfactantes, produtos farma- FE 1,6 × 10-2 kg NO−N·(kg N)−1 Buendia et al. (2019a)
+N20 LAP 2
+cêuticos e aditivos de comida (LAW et al., 2013). Neste estudo, conside-
+Esgoto tratado
+raram-se 2,0% do COT degradado em CO fóssil com fator de produção
+2 NT 3,0 × 10+1 mg N·L-1 Jordão et al. (2011)
+efluente
+máxima de 1,37 kg CO·(kg DQO)−1, com base no cálculo teórico da oxi-
+2 FE 5,0 × 10-3 kg NO−N·(kg N)-1 Buendia et al. (2019a)
+dação da matéria orgânica. As emissões de CH foram consideradas de N20 rio 2
+4 MCF 3,5 × 10-2 adimensional Buendia et al. (2019a)
+origem biogênica neste trabalho, uma vez que o carbono fóssil tem baixa rio
+Fazenda de lodo de esgoto
+degradabilidade em reatores anaeróbios (LAW et al., 2013). As emissões
+NTa 3,5 × 100 (%) Santos et al. (2017)
+de CH dos reatores UASB das três ETE avaliadas, lagoas (LA e LP) da
+4
+FE 1,0 × 10-2 kg NO−N·(kg N)-1 Buendia et al. (2019b)
+ETE Subaé, reatores LAP das ETE Jacuípe I e Jacuípe II e esgoto tratado Lodo 2
+disposto no rio foram estimadas por meio da Equação 4 e da Equação 5 S j 1,38 × 10+1 (%) Lobato et al. (2012)
+do Buendia et al. (2019a). aPercentual da massa de lodo em base seca.
+Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221 209
+
+--- Page 6 ---
+Araujo, M.C.; Medeiros, D.L.; Cohim, E.
+O inventário de segundo plano da O&M do SES-FSA utilizou os pro-
+n (6)
+cessos da base de dados ecoinvent™ na versão 3.5. As informações de ICV
+44
+N2Oemissão j∶= ��NTj×FEN2Oj× �
+Em que: j=1 28 dos insumos, transporte e emissões da O&M do SES-FSA foram resumi-
+NO = representa a emissão de NO do método de tratamento j (kg NO·m−3); das no Tabela 4.
+2 emissão j 2 2
+NT= representa o nitrogênio total do esgoto afluente (kg N·m−3);
+j
+FE = representa o fator de emissão de NO do método de tratamento j Avaliação de impacto do ciclo de vida e interpretação
+N2O j 2
+(kg NO−N·(kg N)−1); e Foi utilizado o software SimaPro® versão 9.0 para se obter a demanda energé-
+2
+44/28 = é o fator de conversão de kg NO−N para kg NO. tica e a pegada de carbono dos processos de inventário de segundo plano do
+2 2
+SES-FSA. As categorias avaliadas neste estudo foram: a demanda energética,
+As emissões de NO dos reatores UASB e lagoas (LA e LP) foram despre- com o método demanda de energia acumulada (DEA, em inglês cumulative
+2
+zíveis (BUENDIA et al. , 2019a). A Tabela 3 apresenta os parâmetros utilizados energy demand) versão 1.11 (FRISCHKNECHT et al., 2007), em Joule (J);
+nas estimativas de óxido nitroso. e a pegada de carbono, com o método de potencial de aquecimento global
+(PAG) de 100 anos (em inglês global warming potential) versão 1.03 (IPCC,
+Tabela 4 – Resumo das informações de inventário de ciclo de vida do sistema de esgotamento sanitário centralizado de Feira de Santana.
+Etapa Descrição Fonte Inventário do ecoinventa GSD2c
+Coleta do esgoto
+Tabela de composição de
+Diesel, burned in building
+Máquinas da substituição dos condutos custo unitários da SEINFRA 1,56
+machine {GLO}b
+(2019)
+Polyvinylchloride, suspension
+Demanda de material e energia da TIGRE (2020) polymerised {RoW} 1,09
+fabricação dos condutos de PVC
+Extrusion, plastic pipes {GLO}b 1,09
+Distância percorrida do Transport, freight, lorry >32 metric
+Substituição da rede de coleta Comunicação pessoal 2,05
+transporte dos condutos ton, euro4 {RoW}
+Areia do leito dos condutos SEINFRA (2019) Sand {GLO}b 1,53
+Betume (ligante) Pitch {RoW}b 1,53
+Areia Sand {GLO}b 1,53
+Pavimento asfáltico Brita DNIT (2006) Gravel, crushed {RoW} b 1,53
+Processamento Diesel, burned in building
+1,53
+do asfalto machine {GLO}b
+Bombeamento na EEE Eletricidade utilizada EMBASA (2018c) Electricity, medium voltage {BR}b 1,07
+Equipamentos de limpeza e Diesel, burned in building
+Diesel utilizado EMBASA (2018c) 1,50
+transporte de operadores machine {GLO}b
+Emissões diretas no biofilme dos
+CH Foley, Yuan e Lant (2009) Methane, biogenic 1,17
+condutos 4
+Tratamento do esgoto
+Bombeamento na ETE Eletricidade utilizada EMBASA (2018c) Electricity, medium voltage {BR}b 1,07
+Equipamentos de limpeza e Diesel, burned in building machine
+Diesel utilizado EMBASA (2018c) 1,50
+transporte de operadores {GLO}b
+Methane, biogenic 1,40
+Buendia et al. (2019a)
+Emissões diretas no tratamento CH NO e CO Dinitrogen monoxide 1,40
+4, 2 2
+Law et al. (2013) Carbon dioxide, fossil 1,40
+Emissões diretas na fazenda de lodo NO Buendia et al. (2019b) Dinitrogen monoxide 1,40
+2
+Distância percorrida para Transport, freight, lorry >32 metric
+Transporte do lodo Estimado 2,05
+a disposição do lodo ton, euro4 {RoW}
+Disposição do esgoto tratado
+Methane, biogenic 1,40
+Emissões diretas no rio CH e NO IPCC (2019a)
+4 2 Dinitrogen monoxide 1,40
+GLO: global; RoW: resto do mundo; BR: Brasil; GSD: desvio padrão geométrico; EEE: estação elevatória de esgoto; ETE: estação de tratamento de esgoto; CH: metano; NO:
+4 2
+óxido nitroso; CO: dióxido de carbono. aNomes abreviados do original com as siglas das regiões de cada processo entre chaves; bTransporte considerado no processo market
+2
+da base de dados; cDesvio padrão geométrico quadrado (GSD2) com base na incerteza básica e matriz pedigree.
+210 Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221
+
+--- Page 7 ---
+Desempenho energético e pegada de carbono do SES-FSA
+RESULTADOS
+2013), em kg de dióxido de carbono equivalente (kg COeq). A interpreta-
+2
+ção do estudo considerou a análise comparativa, a análise de contribuição
+e a análise de sensibilidade (HEIJUNGS et al., 2001). Desempenho energético
+A análise de sensibilidade utilizou diferentes métodos e parâmetros para A demanda energética do SES-FSA foi 5,12 MJ·m-3 com base na média ponde-
+estimar as emissões diretas de CO fóssil, CH e NO com o cenário base do rada de 5,48 MJ·m-3 do SES-Subaé, 4,91 MJ·m-3 do SES-Jacuípe I e 5,10 MJ·m-3 do
+2 4 2
+SES-FSA. Foram avaliados sete cenários de análise de sensibilidade, cujos SES-Jacuípe II (Figura 2). A maior contribuição da demanda energética do SES-
+parâmetros são descritos na Tabela 5. Primeiramente, os menores e maio- FSA foi o uso da eletricidade com 62%, seguido do uso de diesel em equipamen-
+res valores do FE do reator UASB foram estimados com base no balanço tos e veículos com 23% (Apêndice 5). A produção e o transporte dos materiais
+CH4
+de massa da DQO (Apêndice 3) no programa computacional ProBio (pro- representaram 15% da demanda energética do SES-FSA. A maior contribuição
+grama de estimativa de produção de biogás em reatores UASB) versão 1.0 da demanda energética na substituição da rede de coleta do SES-FSA foi o uso
+(POSSETTI et al., 2015) para o cenário ProBio−CH−UASB. Os menores de equipamentos e veículos (14% da DEA total), seguido do conduto de PVC (8
+4
+e maiores valores de FE e FE dos processos das ETE foram definidos % da DEA total) e pavimento (7% da DEA total). A contribuição do transporte
+CH4 N20
+conforme o Buendia et al. (2019a) para os cenários IPCC−CH −UASB, dos condutos na demanda energética do SES-FSA foi desprezível (Apêndice 6).
+4
+IPCC−CH−LAP, IPCC−CH−LA+LP e IPCC−NO−LAP; e para uma com- Quanto às contribuições por etapa do SES-FSA, 53% da demanda energé-
+4 4 2
+binação dos quatro cenários em IPCC−Combinado. Ademais, o lançamento tica foi da coleta e 47% do tratamento e disposição. A etapa de coleta do SES-
+indevido de águas pluviais na rede de coleta do esgoto influencia a dilui- Subaé apresentou contribuição de 76% na demanda energética em razão da maior
+ção da carga orgânica. Sendo assim, os menores e maiores valores de TOW extensão da rede de coleta e do maior uso de eletricidade das EEE em compara-
+associado às emissões diretas de CO fóssil e CH do SES-FSA foram defi- ção aos demais SES avaliados. O SES-Subaé atende uma área com o relevo mais
+2 4
+nidos com recurso à variação anual da DQO afluente (Apêndice 4) para o acidentado do que o das áreas dos demais SES avaliados, o que resultou em maior
+cenário DQO−Combinado. potência instalada dos conjuntos motor-bomba das EEE (Apêndice 2). No entanto,
+Tabela 5 – Parâmetos da análise de sensibilidade das estimativas de emissão de metano e óxido nitroso.
+Grandeza
+Cenário Parâmetro Unidade Fonte
+Menor Maior Típicoa
+ProBio−CH−UASB FE 1,1 × 10-1 1,4 × 10-1 − kg CH·kg-1 DQO Possetti et al. (2015)
+4 CH4 4
+IPCC−CH−UASB FE 2,0 × 10-1 2,5 × 10-1 2,0 × 10-1 kg CH·kg-1 DQO IPCC (2019a)
+4 CH4 4
+IPCC−CH−LAP FE 7,5 × 10-4 2,3 × 10-2 7,5 × 10-3 kg CH·kg-1 DQO IPCC (2019a)
+4 CH4 4
+IPCC−CH−LA+LP FE 0,0 × 100 7,5 × 10-2 2,0 × 10-1 kg NO−N·kg-1 N IPCC (2019a)
+4 N2O 2
+IPCC−NO−LAP FE 1,6 × 10-4 4,5 × 10-2 1,6 × 10-2 kg NO−N·kg-1 N IPCC (2019a)
+2 N2O 2
+IPCC−Combinado FE e FE b b − − IPCC (2019a)
+CH4 N2O
+DQO−Combinado DQO 2,4 × 10+2 1,1 × 10+3 6,9 × 10+2 mg·L-1 EMBASA (2018b)
+afluente
+aValor adotado no cenário base do SES-FSA; bMenores e maiores valores dos quatro cenários de análise de sensibilidade do IPCC de forma combinada.
+CO: coleta; tratamento e disposição (TD); SES: sistema de esgotamento sanitário; FSA: Feira de Santana.
+Figura 2 – Demanda energética de 1 m³ de esgoto coletado e tratado por subsistema do sistema de esgotamento sanitário centralizado de Feira de Santana.
+Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221 211
+
+--- Page 8 ---
+Araujo, M.C.; Medeiros, D.L.; Cohim, E.
+o SES-Subaé usou menos eletricidade na etapa de tratamento (0,20 kWh·m-3) SES-FSA. A contribuição representativa do NO no LAP do SES-FSA resultou
+2
+comparado aos demais SES avaliados, em virtude do seu arranjo tecnológico de em redução de 7% para menor valor de fator de emissão (FE) e aumento de 11%
+menor complexidade, composto de UASB e lagoas (LA e LP). Por outro lado, a para maior valor FE na pegada de carbono do IPCC−NO−LAP. O IPCC−CH−
+2 4
+maior contribuição da demanda energética do SES-Jacuípe I e do SES-Jacuípe II UASB apresentou aumento de 16% na pegada de carbono com o maior valor
+foi oriunda da etapa de tratamento (55 e 58% da DEA total, respectivamente) em de FE em virtude de o metano apresentar a maior contribuição na pegada
+CH4
+decorrência da demanda de eletricidade do arranjo tecnológico de UASB e LAP de carbono do SES-FSA e conservou a pegada de carbono com o menor valor
+(0,42 kWh·m-3 na ETE Jacuípe I e 0,47 kWh·m-3 na ETE Jacuípe II). de FE , pois este corresponde ao valor típico. O ProBio−CH−UASB apresen-
+CH4 4
+tou reduções de 23 e 6% na pegada de carbono para o menor e maior valor de
+Pegada de carbono FE , respectivamente, comparado ao SES-FSA. O IPCC−Combinado apresen-
+CH4
+A pegada de carbono do SES-FSA foi 4,08 kg COeq·m-3, sendo 3,60 kg tou redução de 11% e aumento de 26% na pegada de carbono com uma com-
+2
+COeq·m-3 do SES-Subaé, 3,86 kg COeq·m-3 do SES-Jacuípe I e 4,86 kg binação dos menores e maiores valores de FE, respectivamente, comparado ao
+2 2
+COeq·m-3 do SES-Jacuípe II (Figura 3). A contribuição das emissões diretas SES-FSA. Ademais, a variação da DQO afluente ao longo do ano influenciou a
+2
+de gases das etapas de coleta, tratamento e disposição do esgoto representou emissão de dióxido de carbono fóssil e metano por m3 de esgoto do SES-FSA.
+94% da pegada de carbono do SES-FSA, enquanto das emissões indiretas do A menor DQO resultou na redução de 21% da pegada de carbono, enquanto a
+uso de eletricidade e diesel representou 5% e do transporte de materiais repre- maior DQO resultou no aumento de 24% da pegada de carbono em compara-
+sentou 1% (Apêndice 7). ção ao cenário base do SES-FSA.
+As etapas de tratamento e disposição apresentaram a maior contribui-
+ção da pegada de carbono dos SES avaliados, com 91% de contribuição para o
+DISCUSSÃO
+SES-FSA (Apêndice 8). As emissões diretas de CH contribuíram com 80% da
+4
+pegada de carbono da etapa de tratamento e disposição do SES-FSA, princi- A comparação dos resultados deste estudo com aqueles da literatura de ACV
+palmente aquelas do reator UASB (76%), seguidas das emissões diretas de NO do SES deve considerar diferenças entre os trabalhos, como a definição de uni-
+2
+(9%). A contribuição da etapa de coleta representou 9% da pegada de carbono dade funcional, a fronteira do sistema, a abrangência do inventário e os méto-
+do SES-FSA, sendo a maior contribuição dessa etapa oriunda da emissão de dos de impacto. Ademais, as características do esgoto e a configuração do SES
+CH da linha de recalque (6% do PAG total). influenciam a demanda energética e a pegada de carbono (COROMINAS et al.,
+4
+2013). Entre as categorias avaliadas em ACV de SES, PAG foi a mais examinada
+Análise de sensibilidade nos estudos (GALLEGO−SCHMID et al., 2019), enquanto alguns avaliaram a
+A análise de sensibilidade da pegada de carbono considerou cenários de varia- demanda energética (Tabela 6).
+ção de valores dos parâmetros utilizados nas estimativas das emissões diretas de As maiores demandas energéticas da literatura consultada foram de Xue
+CO fóssil, CH e NO (Figura 4). O IPCC−CH−LA+LP e o IPCC−CH−LAP et al. (2019), Amores et al. (2013) e Stokes et al.,(2010), com as maiores con-
+2 4 2 4 4
+apresentaram menor variação da pegada de carbono em razão da menor con- tribuições oriundas do uso de eletricidade e insumos químicos da ETE. Xue
+tribuição do FE nas lagoas de aeração e de polimento e do FE no LAP do et al. (2019) identificaram as maiores contribuições da demanda energética no
+CH4 CH4
+CO: coleta; TD: tratamento e disposição; SES: sistema de esgotamento sanitário; FSA: Feira de Santana.
+Figura 3 – Pegada da carbono de 1 m³ de esgoto coletado e tratado por subsistema do sistema de esgotamento sanitário centralizado de Feira de Santana.
+212 Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221
+
+--- Page 9 ---
+Desempenho energético e pegada de carbono do SES-FSA
+FE: fator de emissão; DQO: demanda química de oxigênio; CO: coleta; TD: tratamento e disposição.
+Figura 4 – Análise de sensibilidade da pegada da carbono de 1 m³ de esgoto coletado e tratado do sistema de esgotamento sanitário centralizado de Feira de Santana.
+tanque de aeração da ETE, no bombeamento na ETE e na incineração do lodo em algumas pesquisas (RISCH et al., 2015; MORERA et al., 2016). A fase de
+de esgoto. Amores et al. (2013) designaram a maior contribuição da demanda manutenção representou de 26 a 40% da demanda energética dos SES avaliados
+energética oriunda do uso de eletricidade. Para Stokes et al., (2010), o uso da neste estudo. Sendo assim, os condutos com maior vida útil devem ser con-
+eletricidade e a produção de materiais de construção do SES apresentaram as siderados para reduzir a taxa de substituição da rede de coleta e os impactos
+maiores contribuições na demanda energética. da fase de manutenção do SES (MORERA et al., 2016). A obtenção de dados
+Singh et al.(2018) analisaram 35 ETE de diferentes configurações em Delhi, é um fator limitante para avaliar a infraestrutura em ACV de SES; assim, a
+Índia, e a demanda energética do SES variou de 0,50 MJ·m-³ a 1,66 MJ·m-³. A etapa operadora do SES deve atualizar e disponibilizar o registro da infraestrutura
+de coleta de Singh et al.(2018) apresentou a maior demanda energética compa- instalada. Ademais, os dados disponibilizados por fabricantes e fornecedores
+rada à dos demais estudos (Tabela 6), em consequência de áreas com topografia de materiais, máquinas e equipamentos apoiam a construção do inventário
+acidentada e pouca concentração de pessoas. A demanda energética da etapa de (GEORGIOU et al., 2019).
+coleta do SES-Subaé deste estudo foi maior que aquela da etapa de tratamento A pegada de carbono da maioria dos estudos da literatura consultada apre-
+por conta da maior extensão da rede de coleta por m3 de esgoto coletado, o que sentou valor menor do que o do SES-FSA (Tabela 6) por causa, principalmente,
+requer mais manutenção, e da topografia mais acidentada, o que requer mais dos arranjos tecnológicos das ETE. Os reatores anaeróbios presentes nas ETE
+eletricidade, em comparação aos demais SES avaliados. do SES-FSA, de Lopes et al. (2020) e de Lemos et al. (2013) apresentaram as
+A inclusão dos insumos da construção e da manutenção da infraestru- maiores contribuições da pegada de carbono em virtude das emissões de CH
+4
+tura nos inventários de ACV de SES foi relevante para as categorias avalia- para a atmosfera. Os reatores UASB são muito utilizados para tratar esgoto
+das neste estudo (Tabela 6). Por exemplo, a inclusão dos processos da base de em países tropicais, a exemplo do Brasil, graças às suas vantagens de custo e
+dados do ecoinvent™ para representar a infraestrutura do SES-FSA aumentou operação. As sedes municipais brasileiras usam reatores anaeróbios em 926
+a demanda energética em 36% na coleta e 33% no tratamento. Alguns estudos das 2.657 ETE (ANA, 2017). O fator de emissão dos reatores de lodo ativado
+consideraram apenas o material dos condutos da rede de coleta na implanta- (7,5 × 10-3 kg CH·kg-1 DQO), método de tratamento utilizado na maioria dos
+4
+ção, supondo que os demais itens são desprezíveis ou por indisponibilidade estudos da literatura consultada (Tabela 6), é menor do que o dos reatores
+dos dados (GALLEGO−SCHMID et al., 2019). No entanto, a reabilitação das anaeróbios (valores até 2,0 × 10-1 kg CH·kg-1 DQO) (BUENDIA et al., 2019a).
+4
+vias tanto na fase de manutenção quanto na implantação foi representativa
+Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221 213
+
+--- Page 10 ---
+Araujo, M.C.; Medeiros, D.L.; Cohim, E.
+Tabela 6 – Demanda energética e pegada de carbono do sistema de esgotamento sanitário centralizado de Feira de Santana e da literatura relevante.
+DEA (MJ·m-³) PAG (kg COeq·m-³)
+Estudo 2
+Coleta Tratamento e disposição Coleta Tratamento e disposição
+SES-FSA 2,70 2,42 0,38 4,08
+SES-FSA com análise de sensibilidade − − − 3,68 – 5,50a
+SES-FSA com infraestruturab 4,22 3,61 0,55 4,21
+Maktabifard et al. (2020) − − − 0,60 – 1,70
+Lopes et al. (2020) − − 8,03
+Xue et al. (2019) 0,22 7,56 0,01 0,45
+Singh et al. (2018) 0,18 – 0,83 0,36 – 1,26 1,05 0,40
+Buonocore et al. (2018) − − − 0,62
+Limphitakphong et al. (2016) − − 0 1,06 – 2,70
+Amores et al. (2013) 0,14 5,82 0,01 0,12
+Lemos et al. (2013) − − 0,16 0,64
+Stokes et al. (2010) 0,026 2,01c e 6,11d 0,02 0,04c e 0,49d
+Friedrich et al. (2009) − − 0,15 0,12
+DEA: demanda de energia acumulada; PAG: potencial de aquecimento global; SES-FSA: sistema de esgotamento sanitário de Feira de Santana. aVariação devida à análise de
+sensibilidade; bProcessos da base de dados ecoinvent™, na versão 3.5, denominados “Sewer grid, 1.1E10l/year, 242 km {GLO}” e “Wastewater treatment facility, capacity1.1E10l/
+year {GLO}”; cBiogás aproveitado; dBiogás em flare.
+No entanto, os reatores de lodo ativado são emissores de NO (BUONOCORE (IPCC, 2019c). Dessa forma, a pegada de carbono per capita deve ser restrita
+2
+et al., 2018; MAKTABIFARD et al., 2020) e intensivos no uso de eletricidade. a 16,7 kg COeq·(hab.ano)-1 para o setor de esgotamento sanitário doméstico
+2
+A obtenção de parâmetros locais é recomendada para estimar as emissões manter o mesmo percentual de contribuição e limitar o aquecimento global a
+diretas de CH e NO do SES de modo a reduzir as incertezas da pegada de car- 1,5 °C. Sendo assim, a meta de redução de 88% da pegada de carbono do SES-
+4 2
+bono (BUONOCORE et al., 2018; MAKTABIFARD et al., 2020). A emissão direta FSA exige mudanças tecnológicas e gerenciais de oferta e demanda dos servi-
+de gases depende de condições locais, portanto o uso de parâmetros genéricos ços de esgotamento sanitário de forma rápida, significativa e sem precedentes.
+ou de regiões distintas do estudo aumenta a incerteza na tomada de decisão. A A recuperação energética na ETE é uma solução possível de redução da
+metodologia utilizada no software ProBio (POSSETTI et al., 2015), baseada nas pegada de carbono (MAKTABIFARD et al., 2020; SINGH et al., 2018) e demanda
+condições climáticas do Brasil, aumenta a representatividade da estimativa de energética (STOKES et al., 2010). A recuperação energética do biogás reduziu
+CH de reatores UASB. A estimativa do metano da UASB com o ProBio redu- 87% da pegada de carbono e 64% da demanda energética do SES comparada
+4
+ziu a pegada de carbono do SES-FSA, indicando que a metodologia do Buendia à queima do biogás no flare (STOKES et al., 2010). A recuperação energética
+et al. (2019a) superestimou as emissões de metano para as condições brasileiras. reduz as emissões diretas de CH da ETE e as emissões de GEE da produção e
+4
+A maior contribuição da pegada de carbono em alguns estudos de SES foi o uso de energia (MAKTABIFARD et al., 2020).
+uso de eletricidade, principalmente na ETE (LIMPHITAKPHONG et al., 2016;
+LEMOS et al., 2013; FRIEDRICH et al., 2009). Nesta investigação, a eletricidade
+CONCLUSÕES
+contribuiu com 3% da pegada de carbono dos SES avaliados em razão, princi-
+palmente, das fontes energéticas da matriz elétrica brasileira, com a sua maior Os países em desenvolvimento precisam alcançar maiores índices de cober-
+parcela oriunda de hidrelétrica (65,2%) (EPE, 2018). A matriz elétrica brasi- tura do esgotamento sanitário. A ampliação e o gerenciamento do esgota-
+leira apresentou pegada de carbono menor que aquela de Tailândia, Portugal mento sanitário devem considerar o desempenho energético e ambiental para
+e África do Sul (EPE, 2018). apoiar as decisões mais sustentáveis. A ACV do sistema de esgotamento sani-
+As projeções de aumento da população, mudança no padrão de consumo tário centralizado deste estudo (SES-FSA), com três arranjos tecnológicos de
+e severidade das mudanças climáticas demandam mais infraestrutura, prin- ETE, mostraram que:
+cipalmente em serviços essenciais como o esgotamento sanitário. De acordo • a maior contribuição da demanda energética do SES-FSA foi da etapa
+com a pegada de carbono deste estudo, a emissão per capita do SES-FSA foi de de coleta (53%) por causa do uso de diesel em máquinas, equipamentos
+137,2 kg COeq·(hab.ano)-1, considerando-se a geração média diária de esgoto e veículos, seguido da produção e do transporte de materiais e uso da
+2
+de 93 m³. Segundo o relatório do Observatório do Clima (SEEG, 2019), a pegada eletricidade;
+de carbono per capita do setor de esgotamento sanitário doméstico representou • a fase de manutenção, com a substituição da rede de coleta, foi relevante
+1% das emissões totais de GEE brasileiras, em média, em 2018. Para limitar o na demanda energética e deve ser considerada em estudos de ACV de SES,
+aquecimento global a 1,5 °C até 2050 e garantir uma sociedade mais sustentável uma vez que essa fase demanda insumos intensivos em energia, como o
+e equitativa, as emissões de GEE devem ser restritas a 1,5 Mg COeq·(hab.ano)-1 diesel e PVC dos condutos;
+2
+214 Eng Sanit Ambient | v.27 n.1 | jan/fev 2022 | 205-221

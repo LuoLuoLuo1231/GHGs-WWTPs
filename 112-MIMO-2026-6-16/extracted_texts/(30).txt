@@ -1,0 +1,620 @@
+--- Page 1 ---
+ATMOSPHERICENVIRONMENT:X13(2022)100161
+Contents lists available at ScienceDirect
+Atmospheric Environment: X
+journal homepage: www.journals.elsevier.com/atmospheric-environment-x
+Using the inverse dispersion method to determine methane emissions from
+biogas plants and wastewater treatment plants with complex
+source configurations
+Marcel Bühlera,b,c,*,1, Christoph Ha¨ nia, Christof Ammannd, Stefan Bro¨ nnimannb,c,
+Thomas Kuppera
+aSchool of Agricultural, Forest and Food Sciences HAFL, Bern University of Applied Sciences, La¨nggasse 85, 3052 Zollikofen, Switzerland
+bOeschger Centre for Climate Change Research, University of Bern, Hochschulstrasse 4, 3012 Bern, Switzerland
+cInstitute of Geography, University of Bern, Hallerstrasse 12, 3012 Bern, Switzerland
+dClimate and Agriculture Group, Agroscope, Reckenholzstrasse 191, 8046 Zürich, Switzerland
+A R T I C L E I N F O A B S T R A C T
+Keywords: Wastewater treatment plants (WWTPs) and biogas plants (BGPs) are significant sources of methane (CH4), with a
+Anaerobic digestion combined share of around 40% within the waste sector of the Swiss national emission inventory. We conducted
+Backward Lagrangian stochastic whole-plant CH4 emission measurements at two WWTPs and four agricultural BGPs in Switzerland using the
+GasFinder
+inverse dispersion method (IDM). This involved open-path concentration measurements up- and downwind of
+Open-path tunable diode laser
+the plant in combination with a backward Lagrangian stochastic (bLS) model. WWTPs in particular consist of
+Source combination
+multiple CH4 sources with different areas and emission strengths. For the combination of the individual emission
+sources in the bLS modelling, three different calculation approaches with different levels of detail were applied:
+(i) single source over enveloping polygon area, (ii) uniform emission density for all individual source areas, (iii)
+specified relative weighting of individual sources based on literature data. Average CH4 emissions for WWTP-1
+h(cid:0)1 h(cid:0)1 PE(cid:0)1 y(cid:0)1
+and WWTP-2 were 0.82 kg and 0.61 kg and scaled to population equivalents (PE) 166 g and
+PE(cid:0)1 y(cid:0)1, h(cid:0)1 h(cid:0)1,
+381 g respectively. BGPs CH4 emissions varied between 0.39 kg and 2.22 kg corresponding to
+less than 5% of the plants’ CH4 production. The highest numbers were due to measurements during other than
+normal operating conditions. The emissions of WWTPs and BGPs comply with literature values. Approach (iii)
+with source weighting led to a difference of up to 43% for the two WWTPs compared to the assumption of
+uniform emissions. Furthermore, we demonstrate how multiple open-path concentration measurements can be
+combined and how the measurements can be corrected for nearby external CH4 sources not belonging to the
+investigated plants. The results of the present study contribute to improved emission data from the waste sector.
+1. Introduction reduction targets (FOEN, 2021a). After agriculture, the waste sector is
+the second most important source of CH4 emissions in Switzerland.
+Methane (CH4) is a relevant greenhouse gas (GHG) with a global Wastewater treatment plants (WWTPs) and biogas plants (BGPs) are
+warming potential 28 times greater than that of carbon dioxide (CO2). significant sources of CH4 with a combined share of around 40% within
+Anthropogenic CH4 emissions of which agriculture (mainly ruminants the waste sector (as of 2019) (FOEN, 2021b). WWTPs comprise a me-
+and rice paddies), fossil fuel extraction, landfills and waste are the chanical, biological and chemical stage for wastewater treatment (Gujer,
+principal sources, account for 50–65% of total CH4 emissions (Stocker 2007), denoted here as water line. Solids removed from the water line
+et al., 2013). Within the framework of the revised CO2 Act and the Kyoto during treatment are directed to the sludge line where dewatering,
+Protocol, Switzerland is obliged to report regularly on the current status anaerobic digestion and storage of the sludge occur. In WWTPs, CH4 is
+of its GHG emissions including CH4 with regard to the specified mainly produced in the sludge line and in the energy line i.e. combustion
+* Corresponding author. School of Agricultural, Forest and Food Sciences HAFL, Bern University of Applied Sciences, La¨nggasse 85, 3052, Zollikofen, Switzerland.
+E-mail address: marcel.buehler@bfh.ch (M. Bühler).
+1 Now at: Department of Biological and Chemical Engineering, Aarhus University, 8200 Aarhus N, Denmark.
+https://doi.org/10.1016/j.aeaoa.2022.100161
+Received 17 August 2021; Received in revised form 3 February 2022; Accepted 24 February 2022
+Availableonline28February2022
+2590-1621/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+--- Page 2 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+of biogas in the combined heat and power unit (CHP) and biogas storage be corrected for. We investigated the effect of the complex source dis-
+(Daelman et al., 2012; Delre et al., 2017). In addition to WWTPs, the tribution and associated uncertainties on the quantification of the total
+sewer system is also a significant source of CH4 within urban water CH4 emission of the whole plants (WWTP or BGP). For this purpose,
+management (Eijo-Río et al., 2015; Mannina et al., 2018). Agricultural different approaches for combining individual sources were compared.
+biogas plants (BGPs) process manure from livestock production, organic It is hypothesised that with an optimised experimental setup, the effect
+residues from food processing, landscape and garden maintenance, and of the distributed multiple sources within the plant is small and that
+catering waste. As for WWTPs, the main sources of CH4 from BGPs are neighbouring external sources can be separated from the emissions of
+anaerobic digestion, storage of feedstock material and digestates, and the investigated plant.
+the combustion of biogas. The organic waste is fed directly into an
+anaerobic digester but, in contrast to most WWTPs, there is usually a 2. Material and methodology
+post-digester and often no balloon for biogas storage.
+Measurements of CH4 emissions from the whole WWTPs based on 2.1. Experimental sites and periods
+direct measurements at exhaust pipes or indirectly by means of the
+tracer gas dispersion method are available. However, the former is based Measurements were conducted at two WWTPs and four agricultural
+on measuring the flow rates and the concentration of air from exhaust BGPs in Switzerland. The selected WWTPs and BGPs are common plant
+pipes from plants where those parts of a WWTP producing odours are types and can be considered representative of plants occurring in
+covered, ventilated and their exhaust air undergoes treatment. None- Switzerland. In the following, the selected WWTPs and BGPs and their
+theless, not all parts of WWTPs are necessarily covered and thus some surroundings are explained in detail.
+WWTP emissions are excluded from the measurements (STOWA, 2010;
+Daelman et al., 2012). For investigations using the tracer gas dispersion 2.1.1. Wastewater treatment plants
+method mobile analysers were used to obtain a cross-section of the WWTP-1 (Table 1, Fig. 1A) is located in a rather flat topography. The
+downwind plume (Yoshida et al., 2014; Delre et al., 2017; Samuelsson only major increase in elevation is a mound from the road crossing the
+et al., 2018). The analysers were mounted to a car. This implies rela- train line and the motorway, situated about 110 m southwest of WWTP-
+tively short measurement periods, i.e. mostly ≤5 measurement cam- 1. Between WWTP-1 and the mound there were 11 heifers grazing. Trees
+paigns over ca. 1 to ≤6 h. Thus, whole WWTP emission measurements grow along the river northeast of WWTP-1. 300 m northeast of WWTP-1
+including all sources over a longer time period are lacking. As for is a small settlement with several cattle housings (138 head in total).
+WWTPs, for BGPs, whole plant emission data from extended measure- Inside the WWTP-1 area, there is an open storage for road-sweepings
+ment periods are needed for reliable emission estimates since it can be covered by a roof (Table 4). WWTP-2 is located in a valley with
+expected that CH4 released from BGPs undergoes a distinct variability approximately south-north direction. In the prevailing wind directions
+over time and this might escape measurement campaigns over a few at WWTP-2, there are no major obstacles or elevations outside the
+days or even hours. WWTP area that could potentially influence the turbulence. West of
+Measurements with the inverse dispersion method (IDM), which WWTP-2 along the river are trees and 160 m north of WWTP-2 is a small
+combines concentration measurements up- and downwind of a source barn with 29 sheep (Fig. 1B, Table 4).
+with an atmospheric dispersion model, have been successfully con- WWTP-1 consists of a conventional activated sludge treatment with
+ducted to estimate emissions from stationary sources such as whole complete nitrification and denitrification with open sludge storage
+farms (VanderZaag et al., 2014; Bühler et al., 2021), manure stores tanks. The population equivalent (PE) of WWTP-1 during the measure-
+(Flesch et al., 2013) and BGPs (Flesch et al., 2011; Reinelt et al., 2017; ments was 43,534. WWTP-2 consists of a sequencing batch reactor (SBR)
+Hrad et al., 2021). These studies have highlighted the flexibility in the system with complete nitrification and denitrification with open sludge
+application of IDM measurements of various sources. Thus, the IDM is a storage tanks. The population equivalent of WWTP-2 during the cam-
+promising option to conduct whole plant emission measurements of paigns was 14,071. For both WWTPs, the sludge is regularly evacuated
+WWTPs over a period of several weeks. and transported to a larger WWTP for further treatment and disposal.
+In the present study, we conducted CH4 emissions measurements For both WWTPs the biogas produced in the digester is used in an onsite
+over several consecutive days with the IDM deploying open-path CH4 CHP and part of the heat is used to heat the digester. Further information
+measurements and a backward Lagrangian stochastic (bLS) model at two on the WWTPs is given in Table 1 and the Supporting information 1,
+WWTPs and four agricultural BGPs in Switzerland. They all represent section 1. Measurements were conducted continuously between
+source configurations of greater complexity because they consist of September 23, 2019 and October 14, 2019 at WWTP-1 and between May
+multiple spatially distributed sources, and/or the measurements were 6, 2020 and May 20, 2020 at WWTP-2.
+complicated by the influence of other nearby CH4 sources that needed to
+Table 1
+Operating data and characteristics of the sludge line and energy line as major source of CH4 for WWTP-1 and WWTP-2. MC: measuring campaign. The total WWTP area
+corresponds to the orange outlined polygon in Fig. 1.
+WWTP-1 WWTP-2
+Name Moossee-Urtenenbach Gürbetal
+Geographical coordinates 47.05572◦N 46.84409◦N
+7.53964◦E 7.50276◦E
+Total WWTP area [m2] 21,803 7,354
+Population equivalents (PE)a 43,534 14,071
+Connected inhabitants 33,126 14,365
+Total digester volume [m3] 2,200 1,400
+Gas production during MC [m3 d(cid:0)1] 1,261 672
+Sludge storage tanks (uncovered) Total volume [m3] 1,960 400
+Used volume during MC [m3] 632 93
+Surface [m2] 331 64
+a The PE of WWTP-2 was calculated based on analyses for the first six months of 2020 and not for an entire year as for WWTP-1 which might explain the number of PE
+being somewhat smaller than that of connected inhabitants. Another reason could be commuters leaving the catchment area during workdays.
+2
+
+--- Page 3 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+Fig. 1. Schematic overview of the two WWTPs with a wind rose. A =WWTP-1, B =WWTP-2. The wind rose indicates the frequency of occurrence of wind directions
+and the friction velocity u* in each wind direction sector. dw =downwind, bgd =background. The name for the numbers indicating the different WWTP sources and
+the letters indicating external sources from structures are given in Table 4. The height of the mound increases towards southeast.
+2.1.2. Biogas plants BGP-3 is a housing with 36 dairy cows, 6 non-lactating dairy cows and 3
+Measurements were conducted at four different agricultural BGPs. A heifers (livestock housing 3). Measurements were conducted continu-
+schematic overview of each BGP is given in Fig. 2. The agricultural BGPs ously between December 2, 2019 and December 18, 2019.
+have at least 80% (by fresh weight) of feedstock input as manure and BGP-4 is located on a plain. However, directly south of it is a slope
+organic residues of agricultural origin. The remaining amount is organic with an average inclination of about 7% facing southwest. There is a
+waste from non-agricultural sources to increase gas production. BGP-1, forest northeast of BGP-4. The farm operating BGP-4 has 91 dairy cows
+BGP-3 and BGP-4 have a non-gastight digestate store, while the storage and 46 heifers that were either in the housing or grazing on the pastures
+tank of BGP-2 is gastight (Table 2). At all BGPs, there was livestock around the BGP. Measurements were conducted from August 10, 2018
+housing in the close vicinity. At each BGP, the biogas is incinerated in an until September 11, 2018.
+onsite CHP to produce electricity and heat. The heat is used to heat the
+digester and other purposes such as heating houses or drying agricul-
+2.2. Measurement setup
+tural goods. There was no biogas upgrading or injecting of biogas into
+gas distribution grids at these four sites.
+2.2.1. Methane concentration measurements
+BGP-1 is located on a slope facing northeast. The average inclination
+CH4 concentration measurements at all sites were conducted with
+of the slope is about 9%. Southwest of the farm on top of the hill is a
+GasFinder3-OP (Boreal Laser Inc., Edmonton, Canada), which are open-
+small forest. BGP-1 belongs to a farm with dairy cows and heifers. At this
+path tunable diode laser spectrometers. As retroreflectors, either seven
+site, CH4 originating from housed and grazing cattle can represent a
+(BGP-1.1 BGP-2.1, BGP-4) or twelve (WWTP-1, WWTP-2, BGP-1.2, BGP-
+source of CH4 that is in a similar order of magnitude as that of the BGP.
+2.2, BGP-3) corner cubes were used. To reduce data loss due to
+Next to the farm are residential and farm buildings. During the second
+misalignment of the laser beam with the retroreflectors, the tripods of
+campaign (BGP-1.2), the dairy cows and heifers were occasionally
+the GasFinder sensors and retroreflectors were fixed to the ground by a
+grazing on the field northwest of the housing (Fig. 2A). Measurements at
+clamping set and a base screw from 2019 onwards (Supporting infor-
+BGP-1 were continuously conducted from February 21, 2018 until April
+mation 1, section 3). The measured concentration was adjusted for local
+27, 2018 (BGP-1.1) and from May 30, 2019 until June 19, 2019 (BGP-
+air temperature and pressure using device-specific relationships deter-
+1.2). During the first period, 38 dairy cows and 17 heifers were present mined by factory calibration. The concentrations measured at 0.3–1 Hz
+and during the second period 28 dairy cows and 16 heifers.
+were averaged to 30 min periods and periods with data coverage lower
+BGP-2 is located in a rather hilly area. However, the elevation dif-
+than 75% (22.5 min) were excluded.
+ferences in a radius of 250 m around the BGP are less than 10 m. Next to
+GasFinder output concentrations have a bias which must be cor-
+BGP-2 is a fattening pig housing and, adjacent to it, a circular slurry tank rected (H¨ani et al., 2021). Therefore, an offset and span correction of the
+covered with a tent structure. Northwest of BGP-2, there were non-
+individual concentration measurements is necessary. This was achieved
+lactating cows and heifers grazing. In Fig. 2B, only the area within the
+either with an intercomparison of the utilised GasFinders before or after
+pasture is denoted, where the animals were resting. Measurements were
+the campaign by placing the GasFinders in parallel or/and by using wind
+conducted continuously from June 7, 2018 until July 23, 2018 (BGP-
+sectors during the campaigns for which all GasFinders were exposed to
+2.1) and July 1, 2019 until July 19, 2019 (BGP-2.2). During both cam-
+the same background concentration (Supporting information 1, section
+paigns, there were 380 fattening pigs inside the housing. In the first
+3). The uncertainty of the utilised GasFinder ranges from 2.1 pmm-m to
+campaign, 8 non-lactating dairy cows and 8 heifers were grazing and in 10.6 ppm-m (Ha¨ni et al., 2021).
+the second campaign there were 5 non-lactating dairy cows grazing.
+BGP-3 is in a valley on a southeast facing slope with an inclination of
+2.2.2. Positioning of GasFinders
+about 5%. Northwest of BGP-3 is a fattening pig (480 head) farm
+Harper et al. (2011) recommend placing the GasFinder at least ten
+(livestock housing 2 in Figs. 2C), 300 m southwest is a farm with 59
+times the measuring height of the source. In our case, this corresponds to
+dairy cows and 33 heifers (livestock housing 1) and 130 m northeast of a concentration fetch of 100–150 m. We generally planned the
+3
+
+--- Page 4 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+Fig. 2. Schematic overview of BGPs with wind roses. A =BGP-1, B =BGP-2, C =BGP-3, D =BGP-4. The wind rose indicates the frequency of occurrence of wind
+directions and the friction velocity u* in each wind direction sector. For BGP-1 and BGP-2, the wind data from both measuring campaigns are plotted. For BGP-2, the
+positions of the GasFinders for the second campaign (MC2), which differed substantially from those of campaigns one, are plotted in red. For MC2 of BGP-2, emissions
+were calculated with southwesterly and northeasterly winds. For BGP-4, there was also the intention to measure emissions with southwesterly and northeasterly
+winds. For BGP-2, the resting place for the cattle within the pasture and for BGP-1 and BGP-4 the entire pasture is used as external source. (For interpretation of the
+references to colour in this figure legend, the reader is referred to the Web version of this article.)
+2.2.3. Turbulence measurements and data filtering
+Table 2
+The turbulence characteristics were recorded with sonic anemome-
+General characteristics of the BGP operating data. Power size according to en-
+ters (Gill Windmaster, Gill Instrument Ltd., Lymington, UK) and the data
+ergy production. Small: <1000 MhW, medium: 1000–2000 MhW, large: >2000
+were corrected for a Gill software bug affecting the magnitude of the
+MhW. The BGP area corresponds to the filled orange polygon in Fig. 2.
+vertical wind component (Gill Instruments, 2016). As wind vector
+BGP Power size Digestate storage BGP area [m2] rotation, a two-axis coordinate rotation was used. The 10 Hz data were
+BGP-1 small covered 1,525 averaged to 30 min periods.
+BGP-2 large covered gastight 4,924 The measuring sites were located in landscapes with rather complex
+BGP-3 medium covered 1,713
+topography that does not fulfil the idealised assumptions (horizontal,
+BGP-4 large uncovered 3,211
+homogeneous and flat terrain) of the Monin-Obukhov similarity theory
+(MOST). Therefore, the bLS model output was filtered to avoid unreal-
+measurements for only one wind direction except for BGP-2.2, where we istic and error-prone emission results. For each site, an individual
+projected the measurements with two prevailing wind directions. The quality filtering was applied. Filters were used for friction velocity (u*),
+pathlengths of the downwind sensors and the minimal distance between the standard deviation of the along wind scaled by u* (σ u/u*), the
+the source and the closest downwind sensor are given in Table 3. standard deviation of the acrosswind divided by u* (σ v/u*), the Kol-
+mogorov constant of the Lagrangian structure function (C0), the Obu-
+4
+
+--- Page 5 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+Table 3
+Pathlengths and minimal distance between any source and the measuring path for all sites. Several figures indicate more than one path (Fig. 1. 2).
+Site Location of downwind sensor Downwind path length [m] Minimal distance to source [m]
+WWTP-1 Northeast side 65, 49, 52 106
+WWTP-2 South side 64, 59 97
+BGP-1.1a Northeast side 145, 125 73
+BGP-1.2 Northeast side 190, 111 73
+BGP-2.1 Northeast side 125, 176 93
+BGP-2.2 Northeast and southwest side 99, 143, 109b 107, 146b
+BGP-3 Northeast side 122 93
+BGP-4 Northeast side 75, 107 127
+a The pathlength of the GasFinder in the north was extended towards west and the pathlength of the GasFinder in the east was reduced compared to BGP-1.1. In
+Fig. 2A the setting of BGP-1.2 is shown.
+b Sensor on the southwest side of BGP-2.2 measuring downwind concentration with north-easterly winds.
+kohv length (L), the roughness length (z0), the number of touchdowns length. For each of these point sensors and each emission interval, 50,
+within the source area, the dispersion factor (D) and a minimal con- 000–250,000 backward trajectories were calculated and analysed for
+centration difference (ΔC) between the upwind (background) and the touchdowns within the source area. The simulations were done with the
+downwind concentration. The applied quality filtering for each site is R package bLSmodelR (Ha¨ni et al., 2018), available at https://github.co
+given in the Supporting information 1, section 2. m/ChHaeni/bLSmodelR.
+2.3.2. Combining multiple sensors
+2.3. bLS modelling and post-calculations Often, there was more than one GasFinder used at the downwind side
+of the WWTPs and BGPs. If two or more GasFinders were used at one
+2.3.1. bLS model calculations side, these GasFinders were combined post measurement to a single
+The IDM is a micrometeorological method that combines measure- sensor to cover a larger fraction of the emission plume and to be less
+ments of the turbulence parameters that are used in a dispersion model prone to erroneous measurements as fluctuations within one device are
+with gas concentration measurements up- and downwind of the spatially evened out. For each 30 min interval, the weighted average according to
+confined source. the path length of the sensors over the concentration measurements and
+C (cid:0) C D values were taken (Eq. (2)),
+Q= DW UW⋅A (1) ∑
+D NX⋅P
+X comb= ∑i iPi i (2)
+Q is the emission of the source (standard SI units kg s(cid:0) 1), CUW and CDW N i
+the upwind (background) and downwind concentration (kg m(cid:0) 3) and D
+the dispersion factor (s m(cid:0) 1) depending on the geometrical configura- with X either concentration C or dispersion factor D for the corre-
+sponding device, P = path length, comb = combined sensor. For the
+tion of source and sensor as well as on the micrometeorological condi-
+tions. To gain emissions in kg s(cid:0) 1 the calculations have to be multiplied number of touchdowns within a source the numbers were summed up.
+by the area A (units m(cid:0) 2) of the source. GasFinders that did not measure a valid CH4 concentration were ignored
+and thus not combined with the remaining GasFinder(s).
+As dispersion model, a backward Lagrangian stochastic model (bLS)
+described in Flesch et al. (2004) was used to simulate the dispersion
+2.3.3. Combining multiple sources
+factor D (Eq. (1)) for each individual source and each open-path sensor
+If the source (e.g., WWTP) consists of multiple sources, different
+based on the actual turbulence measurements and the source-sensor
+levels of detail on how to calculate the total emission are possible. In the
+geometry. The open-path concentration measurements were approxi-
+present study we used three approaches.
+mated by a series of point sensors with a 1-m spacing along the path
+Table 4
+Data used for combining multiple sources with the EHD and EWS approaches for the two WWTPs. The number given in the first column indicates the location of the
+source in Fig. 1. wi=relative emission ratio in relation to sludge storage tanks used in Eq. (5). Letters indicate external sources. NA =This source does not exist on at the
+corresponding WWTP. * =not relevant for combining multiple sources.
+No Source Area [m2] wi EHD wi EWS
+WWTP-1 WWTP-2 WWTP-1 WWTP-2 WWTP-1 WWTP-2
+1 Inlet NA 123 NA 1.8 NA 0.0
+2 Sand trap 163 41 0.5 0.6 0.5 0.8
+3 Primary clarifier 808 156 2.4 2.2 0.3 0.3
+4 Activated sludge tanks 2258 171 6.7 2.5 0.2 0.3
+5 Secondary clarifier 1501 NA 4.5 NA 0.1 NA
+6 SBR NA 1017 NA 14.7 NA 0.2
+7 Thickener for primary sludge 92 246 0.3 3.5 0.2 0.3
+8 Overflow sludge 320 NA 1.0 NA 0.0 NA
+9 Digester 236 NA 0.7 NA 0.1 NA
+10 Digester +CHP NA 274 NA 4.0 NA 3.1
+11 Sludge storage tanks 336 69 1.0 1.0 1.0 1.0
+12 Supernatants 226 69 0.7 1.0 0.1 0.5
+13 Balloon for biogas storage 120 151 0.4 2.2 0.0 0.2
+14 CHP 44 NA 0.1 NA 1.0 NA
+A Open storage for road sweepings 162 NA * * * *
+B Sheep barn NA 285 * * * *
+5
+
+--- Page 6 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+(i) ESP: Emissions with a single polygon. For this approach, the mostly housed livestock or grazing cattle. This issue is illustrated for the
+WWTP is treated as a single polygon source that covers all indi- example of BGP-3 (Fig. 2C). A few meters northwest of BGP-3, fattening
+vidual sources. pigs are housed (polygon 2 in Figs. 2C), 300 m southwest (1) and 130 m
+(ii) EHD: Emissions with homogeneous emission densities. For this northeast (3) of the BGP cattle are housed. The emissions from the
+approach, it is assumed that the individual source areas have external sources (1, 2, 3) confound the concentration measurements and
+equal emission densities (i.e., the same emission per area). thus alter the determined emission of the BGP. The bLS model simula-
+(iii) EWS: Emissions with weighted sources. For this approach, the tions also included (in addition to the BGP source polygon) calculations
+individual source areas have specified relative emissions. for all external sources. For each GasFinder measuring path (upwind and
+downwind), the dispersion factor Dexternal i was available. Instead of
+The different approaches are explained with the example of WWTPs. calculating the BGP emission directly with the measured concentration
+ESP corresponds to the orange outlined polygon in Fig. 1 and to calculate difference (Eq. (1)), the partial effect of the external sources (Qexternal i)
+the emissions, Eq. (1) is used. The approaches EHD and EWS are on the measured concentrations was simulated (Eq. (6)).
+calculated as follow:
+Q
+Each emission of an individual source Qi within the WWTP con- ΔC external i=D external i⋅ Aexternal i (6)
+external i
+tributes to the total emission Qtot of the WWTP (Eq. (3)):
+The emission from the BGP was then calculated as (Eq. (7)):
+∑N
+( ) ( )
+Q tot= Q i (3) ∑ ∑
+i=1 C DW(cid:0) ΔC DW external i (cid:0) C UW(cid:0) ΔC UW external i
+We assume that the relative emission strengths wi to a reference Q BGP= i D i ⋅A BGP (7)
+source Qref, which is a source within the WWTP, are known (Eq. (4)):
+Frequently, it was not possible to use the IDM to measure the emis-
+Q i=Q ref⋅w i (4) sions of the external sources as they were too close to the target source or
+for other reasons. In such cases, the emissions of the external sources had
+With the values for wi and for the areas Ai of the individual sources,
+to be assigned based on literature values. Emissions from enteric
+the total emission of the WWTP can be calculated using Eq. (5):
+fermentation of pigs are based on the national inventory values and for
+ΔC ∑N cattle on a model which considers age and energy corrected milk yield
+Q tot= ∑ (tot )⋅ w i (5) (FOEN, 2021b). Emissions factors for manure stores are based on Kupper
+N i=1 wi A⋅D ii i=1 et al. (2020). These assigned emissions may differ from the gas release
+occurring in reality and thus induce an uncertainty in the emission in the
+The full derivation of Qtot is given in the appendix. Note that the source being investigated. We assumed a general uncertainty of 20% for
+approaches EHD and EWS only differ in the determination of wi. The wi the external CH4 emissions and their ΔCexternal values.
+and Ai to calculate Qtot with the EHD and EWS approaches are given in For grazing cattle, we used two different approaches to define the
+Table 4. source polygon in the bLS model. If the cattle had limited time access to
+The ESP approach was used for the BGPs because their components the pasture, we used the entire pasture as source polygon (BGP-1.2 and
+(storage, digester, CHP, etc) are positioned close to each other and the BGP-4). However, if the animals were outside 24 h a day over a period of
+total extension of the plants is relatively small (Fig. 2). This is not the several days, we used the area on which they usually rested as source
+case for the WWTPs, where the total plant area and the distance between polygon only. This is supported by Kilgour (2012), who found that if
+the individual sources is larger. Within a WWTP, the individual sources cattle are on the pasture all day, they spend about one third of their time
+differ in emission density, e.g., the emissions from the sludge storage grazing and most of the remaining time lying (resting and ruminating).
+tanks are expected to be substantially higher per area than those from
+the secondary settlers. Thus, the use of specified relative emissions is a 3. Results
+more appropriate solution. Therefore, the EWS approach was used to
+calculate emissions from the WWTPs, although the ESP and EHD 3.1. Emissions from wastewater treatment plants
+approach were also applied, and the calculations compared with the
+results from the EWS approach. 3.1.1. Overview on emissions
+To calculate the wi for the EWS, literature data were used. Depending There were 398 and 280 valid half-hourly emission values for
+on the source, the emissions from the literature data were scaled to the WWTP-1 and WWTP-2, respectively. This corresponds to an average
+corresponding WWTP with population equivalent (PE) or with the area. data loss of 50% and 53% for WWTP-1 and WWTP-2, respectively, due
+The sludge storage tanks were used as reference sources. The literature to quality filtering or GasFinder failure. For both WWTPs, the data loss
+data used for the specified emissions are given in the Supporting infor- was two to three times larger during the night than during the day
+mation 1, section 1. (Fig. 3).
+For the WWTPs a simple sensitivity analysis of the EWS approach As the amount of valid data was not evenly spread over the course of
+was done. For this purpose, the wi of one individual source was multi- the day and as there might be a diurnal pattern in the emissions, daily
+plied or divided by a factor of 4, while the other wi retained the original averaged emissions were calculated (Fig. 4). The daily averaged CH4
+value. The resulting emission was then compared to the original WWTP emissions ±standard deviation (with the EWS approach) were 0.82 ±
+emission. For the analysis, we used a factor of 4 because the specified 0.15 kg h(cid:0) 1 and 0.61 ± 0.08 kg h(cid:0) 1, for WWTP-1 and WWTP-2,
+emissions from the literature data are on average about four times larger respectively. The emissions scaled by population equivalent (PE) were
+and four times smaller than the minimum and maximum value, 166 ±31 g PE(cid:0) 1 y(cid:0) 1 and 381 ±17 g PE(cid:0) 1 y(cid:0) 1 for WWTP-1 and WWTP-
+respectively. 2, respectively. The CH4 emission scaled by chemical oxygen demand
+(COD) for WWTP-1 was 1.9 g m(cid:0) 3 of the inflow or 0.7% of COD. For
+2.3.4. Treating external sources WWTP-2, it was 4.0 g m(cid:0) 3 of the inflow or 1.5% of COD.
+At each site, CH4 sources occurred in close vicinity not belonging to Both WWTPs showed a similar emission pattern with lower emis-
+the WWTPs or BGPs. This is a problem if the influence of the external sions during the night, highest emission in the morning around 8:00 and
+source’s CH4 emissions on the up- and downwind concentration mea- then decreasing emission until late afternoon (Fig. 4). Measurement data
+surements differ. These emissions need to be corrected for in the emis- can be found in Supporting information 2.
+sion calculation for the WWTPs and BGPs. The external sources were
+6
+
+--- Page 7 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+Fig. 3. Proportion of data loss of IDM emission intervals after data filtering given as diurnal cycles for the two WWTPs. Higher bar means higher data loss.
+Fig. 4. Diurnal cycle of CH4 emissions calculated
+with three different approaches of the two WWTPs
+plotted as boxplot. ESP (orange), EHD (red) and EWS
+(blue). The red asterisks indicate outliers that are
+h(cid:0)1 h(cid:0)1
+above 10 kg and 3 kg for WWTP-1 and
+WWTP-2, respectively. For WWTP-1 there are two
+h(cid:0)1
+outliers per asterisk. ESP (13.58 kg and 14.87 kg
+h(cid:0)1), h(cid:0)1 h(cid:0)1),
+EHD (14.48 kg and 16.24 kg EWS
+h(cid:0)1 h(cid:0)1).
+(12.69 kg and 13.78 kg For WWTP-2 there
+is one outlier per asterisk. In chronological order: ESP
+h(cid:0)1 h(cid:0)1), h(cid:0)1
+(6.63 kg and 5.32 kg EHD (6.54 kg and
+h(cid:0)1), h(cid:0)1 h(cid:0)1).
+5.31 kg EWS (6.35 kg and 5.04 kg (For
+interpretation of the references to colour in this figure
+legend, the reader is referred to the Web version of
+this article.)
+3.1.2. Combining multiple sources 3.2. Emissions from biogas plants
+For both WWTPs, the emissions were calculated with all three ap-
+proaches in accordance with section 2.3.3. For the ESP approach, the The number of valid half-hourly emission values for the measuring
+daily averaged emissions for WWTP-1 and WWTP-2 would be 1.01 kg campaigns at BGPs ranged from 78 to 310 and the data loss from 77% to
+h(cid:0) 1 and 0.62 kg h(cid:0) 1, respectively or 202 g PE(cid:0) 1 y(cid:0) 1 and 388 g PE(cid:0) 1 y(cid:0) 1, 91%, respectively (Table 6). The average CH4 emissions varied between
+respectively. For the EHD approach, the daily averaged emissions for 0.44 kg h(cid:0) 1 and 2.95 kg h(cid:0) 1 and the median CH4 emissions between
+WWTP-1 and WWTP-2 would be 1.17 kg h(cid:0) 1 and 0.60 kg h(cid:0) 1, respec- 0.39 kg h(cid:0) 1 and 2.22 kg h(cid:0) 1. The highest numbers are due to mea-
+tively or 236 g PE(cid:0) 1 y(cid:0) 1 and 375 g PE(cid:0) 1 y(cid:0) 1, respectively. The diurnal surements during other than normal operating conditions (OTNOC). The
+cycles of the two methods are also given in Fig. 4. emissions without treatment of external sources are substantially higher
+The simple sensitivity analysis showed that for WWTP-1, the sources for BGP-1, but in a similar range for BGP-2 and lower for BGP-3 than the
+that are most sensitive to the total WWTP emission are the sand trap and mean which includes the correction (Table 6). Fig. 5 shows the large
+the sludge storage tanks. The activated sludge tanks and the primary variation of hourly emissions of the BGPs.
+clarifier have a smaller sensitivity to the total emission. All the other For BGP-4, the calculation procedure gave predominantly physically
+sources have low or no influence on the total emission. For WWTP-2 the implausible results, most likely because of the potentially strong but
+source digester +CHP and the sand trap have the biggest sensitivities to varying influence of the grazing cattle between the BGP and the con-
+the total plant emission. All other sources have only small or negligible centration measurements. Therefore, no meaningful results can be
+influence on the total emission of the WWTP according to the sensitivity shown. More information on this issue is provided in section 4.3.1.
+analysis (Table 5). Measurement data can be found in Supporting information 2.
+7
+
+--- Page 8 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+Table 5
+Results of the sensitivity analysis. Percent change in the total WWTP emission if
+the specified wi of a single source is increased or decreased by a factor of 4. NA =
+This source does not exist on the corresponding WWTP.
+WWTP-1 WWTP-2
+Source Increasing wi Decreasing wi Increasing wi Decreasing wi
+by factor 4 by factor 4 by factor 4 by factor 4
+Inlet NA NA 0% 0%
+Sand trap +17% (cid:0) 4% (cid:0) 9% +4%
+Primary +11% (cid:0) 3% (cid:0) 3% +1%
+clarifier
+Activated +7% (cid:0) 2% (cid:0) 3% +1%
+sludge tanks
+Secondary +2% 0% NA NA
+clarifier
+SBR NA NA 0% 0%
+Thickener for 0% 0% 0% 0%
+primary
+sludge
+Overflow 0% 0% NA NA
+sludge
+Digester (cid:0) 4% +1% NA NA
+Digester +CHP NA NA +9% (cid:0) 6%
+Sludge storage (cid:0) 14% +26% 0% 0%
+tanks
+Supernatants +1% 0% +2% 0%
+Balloon for (cid:0) 1% 0% +2% 0%
+biogas
+storage Fig. 5. CH4 emissions from three different BGPs. For BGP-1 and BGP-2, emis-
+CHP +13% (cid:0) 3% NA NA sions from two campaigns. The red asterisks indicate outliers that are above 10
+h(cid:0)1. h(cid:0)1)
+kg There are three outliers for BGP-2.1 (10.77, 11.26, 11.93 kg and
+h(cid:0)1).
+BGP-2.2 (13.48, 21.65, 35.97 kg BGP-2* measurements were conducted
+during other than normal operating conditions (OTNOC). (For interpretation of
+3.3. Uncertainty assessment the references to colour in this figure legend, the reader is referred to the Web
+version of this article.)
+Bühler et al. (2021) conducted an uncertainty analysis of a mea-
+surement campaign with the IDM at an experimental dairy cow housing. 4. Discussion
+They demonstrated that the uncertainty of the average emission de-
+creases with increasing number of observations, i.e., valid emission in- 4.1. Wastewater treatment plants
+tervals. As the sites in the present study exhibit similar characteristics
+regarding topography and micrometeorological conditions as the loca- 4.1.1. Comparison with literature data
+tion used by Bühler et al. (2021) and as the same GasFinders were used, Daelman et al. (2012), Daelman et al. (2013), Delre et al. (2017),
+their function to determine the uncertainty was applied for the data of Samuelsson et al. (2018), Scheutz and Fredenslund (2019), STOWA
+the present study. The resulting random uncertainty ranged from 14% to (2010) and Yoshida et al. (2014) reported average CH4 emissions from
+21%. However, the sites in the present study exhibit additional (sys- 16 European WWTPs in the range of 140–1339 g PE(cid:0) 1 y(cid:0) 1. The average
+tematic) uncertainties due to external sources and the EWS approach. of these 16 WWTPs was 458 g PE(cid:0) 1 y(cid:0) 1 (median: 324 g PE(cid:0) 1 y(cid:0) 1). Scaled
+The total uncertainty for each site was therefore estimated assuming that to COD in the influent, the average emissions were 0.9% with a range of
+the uncertainties introduced by the bLS model, external sources and the 0.3–1.7%. The 16 WWTPs have a size between 40,000 and 805,000 PE
+EWS approach are independent. Using the corresponding values for each and the sewage was mostly of domestic origin. A detailed overview on
+site, the total uncertainty in emission of WWTP-1 and WWTP-2 resulted the emission data of these plants is provided in the Supporting infor-
+in 36% and 27%, respectively. For the BGPs, the total uncertainties in mation 1, section 4.
+emissions range from 25% to 30%. Note that in section 3.1.1, the pre- The CH4 emissions of 177 g PE(cid:0) 1 y(cid:0) 1 and 420 g PE(cid:0) 1 y(cid:0) 1 for WWTP-
+cisions of the daily averaged WWTPs emissions are given and not the 1 and WWTP-2, respectively, lie within the range of the reported liter-
+uncertainty (or accuracy) calculated here. ature data. Compared to this data, the emissions of WWTP-1 are at the
+lower end. In terms of COD in the influent, the emissions of 0.7% and
+1.5% compare well with the literature. Overall, the measured emissions
+observed in the present study are in line with investigations conducted
+Table 6
+Summary of CH4 emissions of the BGP-1, BGP-2, and BGP-3 (data not shown for BGP-4; see section 4.3.1).
+BGP-1.1 BGP-1.2 BGP-2.1a BGP-2.2a BGP-3
+N of valid values 310 78 143 132 121
+Data loss 77% 91% 91% 82% 81%
+Median [kg h(cid:0)1] (with correction for external sources) 0.39 0.44 2.22 1.93 0.60
+Mean [kg h(cid:0)1] (with correction for external sources) 0.44 0.49 2.95 2.61 0.57
+SD [kg h(cid:0)1] 0.50 0.35 2.62 3.69 0.41
+Mean [kg h(cid:0)1] (without correction for external sources) 0.94 0.82 3.23 2.83 0.37
+a Measurements during other than normal operating conditions (OTNOC) due to a damaged membrane of the fermenter.
+8
+
+--- Page 9 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+previously. that are closer to the downwind measurement path tend to have a higher
+sensitivity than those situated further away. But if the wi of these sources
+4.1.2. Combining multiple sources is low, they also have a low sensitivity. The applicability of these find-
+The main problem of the source combination is that the ratios wi of ings to other sites needs to be investigated in further studies since
+the specified emissions between the individual sources need to be additional factors like the position of the GasFinders, the prevailing
+known. As usually no direct measurement of an individual source is wind direction, or other micrometeorological parameters may also in-
+possible with the IDM, these ratios are estimated based on available fluence the resulting emission data.
+literature data, which are still sparse and might be uncertain. Addi- Another reason for the differences between the three approaches for
+tionally, the data need to be scaled to the site. For scaling, we used the the two WTTPs could be the total WWTP area size. WWTP-1 (21,803 m2)
+PE if possible. This parameter may introduce an additional uncertainty is about three times larger than WWTP-2 (7,354 m2) and thus the dis-
+as it depends on the accuracy of the measured WWTP inflow and the tance between the different sources is larger. For WWTP-1, the EHD
+COD contents of the sewage. For the digester and the balloon for biogas approach had the highest emission and the EWS approach the lowest.
+storage, we made our own assumptions. Despite these challenges, the This can be explained by the mechanism of the EWS approach: the
+comparison in section 4.1.1 with the literature showed that the results sludge storage tanks (No 11 on Fig. 1A) are located at the northern
+obtained are reasonable. corner of the WWTP-1. Southwest of the sludge storage tanks is a larger
+For WWTP-2, the differences in total emissions between the ESP and empty area that is included in the polygon for the ESP approach. For this
+EHD approaches and the EWS approach were 2% and thus of minor approach, this configuration allocates more “weight” to the northern
+importance. But for WWTP-1, the differences were larger. The total CH4 part of the WWTP compared to the EHD approach, but less than for the
+emission of the ESP approach and the EHD approach were higher by EWS approach. Thus, the emissions with the ESP approach are between
+23% and 43%, respectively, than the EWS approach. the other two approaches.
+The higher differences between the different approaches in WWTP-1 The question remains as to whether the specified relative emission
+compared to WWTP-2 are also reflected in the simple sensitivity anal- densities are necessary for the source combination or if a simpler
+ysis. For WWTP-1, a change by factor an of four in the wi of the sludge approach could be used. Based on our two examples, we recommend the
+storage tanks led to a maximum change of 26% in emission, whereas for EWS approach for sources like WWTPs. Additional emission data from
+WWTP-2 the maximum change caused by a single source was 9%. This individual sources within WWTPs will be available in the future, which
+shows that reliable literature data on the individual sources within a might improve the accuracy of the EWS approach.
+WWTP are important. For the sensitivity analysis, we expected that a
+change in the emission of the sources with the highest specified emission 4.1.3. Interrelations between emission rate and operations at WWTPs
+density would induce the largest change in the total WWTP emission. The emissions of individual measurement intervals varied over a
+This was the case for both WWTPs. However, at WWTP-2, the total plant large range (Fig. 6). The variability can be due to fluctuations in the gas
+emission is not sensitive to a variation in the specified wi of the sludge release from the WWTPs or/and due to varying micrometeorological
+storage tank with the second highest specified emission. The sensitivity conditions. Several studies have reported CH4 emission evolution
+analysis of the EWS approach done in the present study suggests that a characterised by a high incidental gas release from slurry storage (i.e.
+combination of the location of a source within the source complex, the ebullition; (Kaharabata et al., 1998; Bald´e et al., 2016). They have
+distance between the emission source and the measurement path, the shown large variability in gas releases with or without operations at
+concentration measurements and the specified emission density (wi), storage tanks. It seems likely that sludge storage tanks, which contribute
+define the sensitivity. Sources that are rather at the edge of the source a large proportion of emissions at the investigated WWTPs, show char-
+complex have a higher sensitivity than sources in its middle. Sources acteristics regarding emission variability that are similar to those of
+Fig. 6. Interrelations between CH4 emissions (EWS
+approach) and agitation of sludge storage tanks and
+flaring at WWTP-1 and WWTP-2. Red vertical bars
+indicate the operational time of the agitator of either
+or both storage tanks. Green vertical bars indicate the
+flaring periods. The CH4 emissions are given as 30-
+min intervals. For WWTP-2, only the starting time
+of agitation is known and an operation time of 30 min
+was assumed. Grey dotted vertical lines indicate the
+start and the end of the measurement campaign. (For
+interpretation of the references to colour in this figure
+legend, the reader is referred to the Web version of
+this article.)
+9
+
+--- Page 10 ---
+M. Bühler et al. A t m o s p h e r i c E n v i r o n m e n t : X13(2022)100161
+slurry storage tanks on livestock farms. The temporal variability in CH4 Liebetrau et al. (2013) found emissions from the CHP ranging from
+emission observed here is within the range observed in previous studies 0.04% to 3.28% (average: 1.74%) of the utilised CH4 at BGPs. Princi-
+e.g. conducted at farm sites (Flesch et al., 2005). We investigated in- pally, the same technology is used for the CHP at WWTPs and it can be
+terrelations between more than 100 parameters from the operational assumed that CH4 losses are similar at BGPs and WWTPs. We used the
+system and CH4 emissions at WWTP-1. Having selected those related to average value 1.74% from Liebetrau et al. (2013) of the gas production
+activities potentially influencing the gas release of CH4, we identified and the gas production data from Table 1. This yields CH4 releases from
+several parameters associated with sludge treatment that coincided with the CHP of 3,493 kg CH4 y(cid:0) 1 and 1,862 kg CH4 y(cid:0) 1 for WWTP-1 and
+emission peaks. Fig. 6 shows a coincidence for periods with the agitation WWTP-2, respectively. This corresponds to a share relative to the total
+of sludge in either or both storage tanks and CH4 emission peaks. Other WWTP emissions of 48% and 35% for WWTP-1 and WWTP-2, respec-
+parameters with interrelations are, for example the filling level of the tively. The emissions from the sludge tanks and the CHP combined give
+sludge storage tank or the removal of sludge from the tank (not shown). 96% and 48% of the total plant emissions for WWTP-1 and WWTP-2,
+Parameters related to the energy line (e.g. flaring, the volume of biogas respectively, which is in the range of values for the sludge line found
+storage balloon) did not coincide with CH4 emission peaks. in the literature with WWTP-1 at the higher and WWTP-2 at the lower
+For the WWTP-2, numerical data was not available, and we thus end. We thus assume that the emissions from the CHP at WWTP-1 are
+employed a visual analysis of images from agitation and flaring obtained rather in the lower range of the reported values of Liebetrau et al. (2013)
+from the operational system of the WWTP. Slurry store agitation mostly for the CHP and vice versa for the WWTP-2. A higher contribution of the
+occurred over a period of less than 1 h duration between 8:00 and 12:00 CHP leakage for the latter is supported by the lower effect of the sludge
+in the morning. Fig. 6 shows a coincidence for periods with agitation of storage tank agitation on CH4 emission and the lower variability of the
+the sludge storage tank and flaring with emission peaks in some cases. hourly emissions (Fig. 6). This suggests a continuous CH4 flow which
+The agitator was operated on average at a capacity of 70% and the gas levels out emission peaks due to operations at the sludge and energy
+torch of 10%, which suggests a relatively low effect on gas release. line. With the assumptions above regarding leakage from CHP, both
+Information on other potentially non-negligible emission sources plants would achieve a contribution from the sludge line to the total CH4
+such as leakages, e.g. bursts from pressure relief valves (Reinelt et al., WWTP emissions in the range of 60–80%, which we believe to be
+2017; Nisbet et al., 2020), could play a role in the total emissions at both plausible.
+of the investigated plants but could not be specifically obtained in the
+present study. 4.1.5. Calculated emissions below zero
+The CH4 emissions at both WWTPs exhibited a diurnal cycle with a Emissions below zero occur, if after the treatment of potential
+maximum at approximately 9:00 and a second, smaller peak mid- external sources confounding any concentration measurement, the up-
+afternoon (Fig. 4). As the pattern is not WWTP-specific, we suggest wind concentration is higher than the downwind concentration. These
+coincidence with operating activities at the WWTPs and not with negative emissions are solely due to calculations and should not be
+micrometeorological conditions. The peak in the morning is partly due understood as deposition of CH4. For WWTP-1, 12% of the emissions
+to sludge storage tank agitation, although this did not occur every day. were below zero (49 intervals). Most of the intervals (33) were in the
+Another reason for the peak in the morning could be the CH4 emissions time periods September 29, 2019 14:00 – September 29, 2019 23:00 and
+from the sewer system. CH4 builds up in the sediments and in the biofilm October 8, 2019 22:00 – October 10, 2019 08:00. The occurrence of an
+of the sewer system (Mannina et al., 2018) where CH4 production is unknown external source emitting and confounding the upwind con-
+higher with longer retention time of the wastewater in the sewer system centration over these time periods is rather unlikely. We also analysed
+(Guisasola et al., 2008). During the night, the influent into the WWTPs all filtering parameters and could not find any reason to allow exclusion
+was small and thus CH4 could have built up in the sewer system that was of these periods.
+then released in the morning leading to an emission peak. There were no According to Ha¨ni et al. (2021), negative emissions can occur for
+operational activities at the WWTPs during the night and therefore the statistical reasons due to low concentration differences between the up-
+emissions were low. and downwind measurements. They describe an uncertainty range of the
+The observed variability indicates that for a reliable emission esti- used GasFinders between 2.1 ppm-m and 10.6 ppm-m and report drifts
+mate, measurement campaigns of sufficient duration are required. Based and jumps in the concentration measurements that could be indistin-
+on our experience, we recommend measuring beyond 10 consecutive guishable from real concentration fluctuations without an external
+days (Bühler et al., 2021) not only to ensure data acquisition under reference device. Such jumps or drifts could lead to systematic errors.
+different micrometeorological conditions and the distinct diurnal cycle, As we did not have a second GasFinder or another measuring device
+but also to compensate for an eventual data loss of more than 60%. placed upwind, we were not able to verify whether the upwind sensor
+was influenced by any external CH4 source or if a problem with the
+4.1.4. Source apportionment GasFinder occurred. Nevertheless, we decided to retain these two pe-
+With the bLS model, it is not possible to distinguish between indi- riods in the data set because removing or excluding such calculated
+vidual sources within a source complex. Therefore, we evaluated the below zero emissions could unintentionally increase the emission of the
+feasibility of source apportionment based on literature data. Literature measured source: without these two periods, the CH4 emission of
+data were not available for CH4 emissions from sludge storage tanks. WWTP-1 would be higher by 14%.
+Due to the similarity of human and pig excretions (both human and pigs
+are monogastric), data from pig slurry storage (Kupper et al., 2020) 4.2. Biogas plants
+corrected for the lower methanisation potential when anaerobically
+digested (VanderZaag et al., 2018) were used as a proxy for emissions For all BGPs except BGP-2.2, emission measurements were con-
+from stored sewage sludge. Based on these data, the estimated propor- ducted for one wind direction sector only (Table 3). For BGP-2.2, mea-
+tion of CH4 emissions originating from sludge storage tanks was 48% surements with two prevailing wind directions were possible as we
+and 13% of the total emissions for WWTP-1 and WWTP-2, respectively. placed the GasFinder at the southwest side further away compared to
+The results of WWTP-1 coincide with findings from the literature BGP-2.1 (Fig. 2). The reasons for only one general wind direction at the
+(STOWA, 2010; Daelman et al., 2012; Delre et al., 2017; Samuelsson other BGPs were either the topography, the surrounding sources or lack
+et al., 2018) that suggest the sludge line as main CH4 source. WWTP-2 of wind from more than one direction that would fulfil the filter criteria.
+exhibits a substantially lower value. Given that a much higher emis- The relative fugitive CH4 emissions of the BGPs in the present study
+sion share for the water line is implausible, we hypothesise that other were lower than 5% of the plants’ CH4 production. This is in line with
+sources occurred, such as leakage from digestors, gas pipes or the CHP. literature data based on measurements with IDM and GasFinder-2 from
+10

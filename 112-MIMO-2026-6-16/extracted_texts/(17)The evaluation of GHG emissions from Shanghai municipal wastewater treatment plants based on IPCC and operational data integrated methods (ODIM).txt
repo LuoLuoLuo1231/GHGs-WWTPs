@@ -1,0 +1,570 @@
+--- Page 1 ---
+ScienceoftheTotalEnvironment797(2021)148967
+ContentslistsavailableatScienceDirect
+Science of the Total Environment
+journal homepage: www.elsevier.com/locate/scitotenv
+The evaluation of GHG emissions from Shanghai municipal wastewater
+treatment plants based on IPCC and operational data integrated
+methods (ODIM)
+⁎
+JiaruiXi,HuiGong ,YujiuZhang,XiaohuDai,LingChen
+StateKeyLaboratoryofPollutionControlandResourcesReuse,CollegeofEnvironmentalScienceandEngineering,TongjiUniversity,Shanghai200092,China
+H I G H L I G H T S G R A P H I C A L A B S T R A C T
+• DirectandindirectGHGsemissionsof
+allWWTPsinShanghaiwere243,320
+and511,851tCO-eqin2016.
+2
+• Average GHGs emission intensity for
+ShanghaiWWTPswas0.290kgCO-eq/
+2
+m3.
+• IPCC2006underestimatedbothdirect
+NOandCH emissionsduetotheout-
+2 4
+of-datedefaultvalues.
+• ODIMmadeuseofthelocaloperational
+data to achieve more accurate city-
+levelestimation.
+• The indirect emission intensity of
+WWPTswithlowCODandNH-Ncon-
+3
+centrationswastwicethanothers.
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Duetotherapidwastewatertreatmentplants(WWTPs)developmentandtheChina's2060goalofcarbon
+Received3April2021 neutrality,thecontributionofgreenhousegas(GHG)emissionsfromWWTPsshouldnotbeoverlooked.Thus,
+Receivedinrevisedform23June2021 theGHGaccountingmethod,featuredwithsite-specificandrealoperationdatatargetingcity-levelWWTPs,is
+Accepted6July2021 scientificallyandpragmaticallycalledfor.Inthispaper,wecomparedIPCC(IPCC2006andIPCC2019),optimized
+Availableonline9July2021
+IPCCandoperationaldataintegratedmethods(ODIM)forthedirectNOandCH emissionsfortotal50WWTPs
+2 4
+inShanghai.DataforallWWTPswerecollectedforODIMandindirectGHGemissionsevaluation,covering
+Editor:YifengZhang
+frequentlyusedwastewatertreatmentprocessesinChinasuchasanaerobicanoxicoxic,oxidationditch,se-
+quencingbatchreactor,anoxicoxic,biofilmandmembranebio-reactor.ThefactorsaffectingthetotalGHGemis-
+Keywords: sions intensity were also analyzed. The results showed that, in comparison with IPCC 2019, IPCC 2006
+N2Oemissions underestimatedbothdirectN 2OandCH 4emissionsforatotalpercentageof87%.What'smore,IPCC2019
+CH4emissions overestimatedbyapercentageof355%comparedtoODIMduetothegeneraldefaultvalues.ODIMconsidered
+Greenhousegases thesignificantdifferencesinemissionfactorvaluesofspecifictreatmentprocess,makinguseofthelocal
+Wastewatertreatmentplants operationaldatatoachievemoreaccuratecity-levelestimationwithdirectGHGemissionsof243,320tCO-eq
+GHGsaccountingmethods 2
+in2016.Whileindirectemissionswere511,851tCO-eq,accountingfor68%oftotaldirectandindirectemissions.
+2
+AverageGHGsemissionintensityforShanghaiWWTPswasevaluatedas0.290kgCO-eq/m3whilethespecific
+2
+WWTPintensityvariedbetween0.268and0.738kgCO -eq/m3.Indetail,WWTPswithAAOprocess,large-
+2
+scale(>100km3/day),highloadrate(80%–100%),lowtheoreticaloxygenconsumption(0.2–0.4kgO /t),
+2
+⁎ Correspondingauthorat:1239SipingRoad,Shanghai200092,China.
+E-mailaddress:gonghui001@tongji.edu.cn(H.Gong).
+https://doi.org/10.1016/j.scitotenv.2021.148967
+0048-9697/©2021ElsevierB.V.Allrightsreserved.
+
+--- Page 2 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+influentCODof150–250mg/L,NH-Nof15–25mg/LanddischargelimitsBdemonstratedloweramountsof
+3
+totalGHGemissionsthanotherWWTPs.Shanghaicasesinthisstudyprovidedareferenceforfuturecity-level
+WWTPsGHGmanagementinChina.
+©2021ElsevierB.V.Allrightsreserved.
+1.Introduction 2020).TherehavealsobeenstudiesonGHGemissionsincitiesindevel-
+opingcountriessuchasMexicoCityinMexico(Ramirez-Melgarejoetal.,
+Globalwarmingisanurgentworld-widechallengeforthehuman 2020)andDanSaiinThailand(Sununtaetal.,2019).EventhoughShang-
+societythatmayleadtoa1.5°Ctemperatureriseby2030ifnourgent haiisthelargestcityinChina,extensiveGHGsestimationforallWWTPs
+andincreasedmitigationambitionsareappliedthatmayresultintheir- inthecitywasnotreportedfrompreviousliterature.Shanghaiisthefirst
+reversiblelossofthemostfragileecosystemsandvulnerablesocieties cityinChinathathasproposeditsowncarbonpeakingscheduleforthe
+(IPCC,2018).Greenhousegas(GHG)emissionscausedbyanthropo- carbonneutralityby2060.Further,therearenospecificcity-leveltools
+genic sources are the major contributors to global warming. GHGs toestimateGHGemissionsinWWTPsacrosscitiesinChina.Insummary,
+fromwastewatertreatmentplants(WWTPs)includecarbondioxide itwouldbeofspecialinteresttoknowandcomparetheexistingmethods
+(CO ),nitrous oxide(N O) andmethane(CH )whichaccountsfor toquantifytheGHGemissionsinShanghai.
+2 2 4
+about1–3%oftotalemissionscomparedtotheGHGemissionsofa Inthisstudy,datafrom50WWTPsinShanghaiwerecollectedfordi-
+city.However,comparedtoenergy,transportationandotherindustries rectandindirectGHGemissionsevaluation,covering6commonlyused
+whichhavebeenincludedasthekeyforemissionmitigation,GHGsre- wastewatertreatmentprocessesinChinaincludingAAO,OD,SBR,AO,
+ductioncostsofWWTPsarelowandthebenefitsareobvious.Thus,the BiofilmandMBR.Thestudyaimedtocompareevaluationmethodsofdi-
+characteristicsofGHGemissionsinWWTPsneededtobeeffectively rectN OandCH emissions,andtotalGHGsemissionsofWWTPsin
+2 4
+treated(IPCC,2013). Shanghai(includingdirectandindirectemissions)andtoanalyzefactors
+GHGsfromWWTPscanbedividedintodirectemissionsandindirect affectingGHGemissionsincludingtreatmentprocess,treatedwastewater
+emissions.ThedirectemissionsincludeCO ,N OandCH .Indirect scale,loadrate,wastewatercharacteristicsanddischargelimits.
+2 2 4
+emissions indicate life-cycle emissions based on electricity and
+chemicalsconsumptioninWWTPs.ThedirectemissionsofCO during 2.Materialsandmethods
+2
+wastewatertreatmentareusuallyconsideredasbiogenicsourcesand
+notbeincludedintheGHGemissionslist(IPCC,2019).N OandCH 2.1.Dataresources
+2 4
+fromwastewatertreatment,whose100-yearglobalwarmingpotential
+(GWP)valueswere265and28timeshigherthanCO ,werereportedas Actualoperationaldataofatotal50WWTPsinShanghaiwascol-
+2
+thefourthhighestcontributortoatmosphericN Oandthesixthhighest lectedandusedforanalysis.Thedataincludedtotalnitrogen(TN)and
+2
+contributortoatmosphericCH (USEPA,2019).Inrespecttoindirect ChemicalOxygenDemand(COD)removedbytheplants,treatment
+4
+emissions of WWTPs,electricityconsumed byaeration equipment, process and electricity consumption obtained from Chinese Urban
+blowers,pumps,stirringmotorsandotherfacilities(Zengetal.,2017) DrainageStatisticalYearbook(2017).Humanpopulationanddegreeof
+was the major composition, above 99%, of indirect GHG emissions utilizationofmoderncentralizedWWTPswereobtainedfromStatistical
+(Koutsouetal.,2018;Liaoetal.,2020). YearbookofUrbanConstruction(2017).Wastewatercharacteristicssuch
+TherearemainlytwotypesGHGassessmentapproachesforWWTPs asTNandtotalorganicsinShanghaiwereobtainedfromtheNational
+whicharebasedonemissionfactorsanddynamic/staticapproaches Statistical Yearbook (2020) (NBS, 2020). Average protein supply in
+(Koutsouetal.,2018).Dynamicandstaticmodelapproachesareunsuit- foodforChinesepopulationwasobtainedfromtheFoodandAgriculture
+ableforestimatingGHGemissionsforalargenumberofWWTPsdueto Organization(2017)(FAO,2017).
+the complex reaction mechanism and difficult model applicability TheemissionfactorsofN OandCH wereobtainedfrom40real
+2 4
+(Manninaetal.,2019).Emissionfactorsapproachiswidelyusedfor WWTPsallovertheworldintheliterature.SeeinTableA.2fordetails.
+city, province and country scale due to its simplicity and easy-
+operation.Emissionfactorsvalueshavebeenreportedbyvariousorga- 2.2.GeneralsituationofwastewatertreatmentplantsinShanghai
+nizations including IPCC, United States Environmental Protection
+Agency(USEPA,2012),EmissionsDatabaseforGlobalAtmosphericRe- Shanghaicity(120°52′-122°12′E,30°40′-31°53′N)islocatedinthe
+search (EDGAR, 2016), Danish Center for Environment and Energy YangtzeRiverDeltaregionthatisoneofthesixmajorurbanagglomera-
+(Thomsen,2016)andsoon.Amongthesemethods,themostwidely tionsinChina.Shanghaiwasoneoftheeconomiccentersandcompre-
+used emission factor method for estimating GHGs emissions is the hensivetransportationhubsinChinawithaGDPof3870billionRMBin
+2006IPCCGuidelinesforNationalGreenhouseGasInventories(IPCC, 2020(NBS,2021),makingitfirstamongChinesecities.Furthermore,its
+2006) that was later updated to a refined version in 2019 (IPCC, urbanpopulationincreasedfrom12.7millionin2002to24.2millionin
+2019).However,bothofthetwoIPCCmethodsusedthespecificemis- 2016.Economicdevelopmentandpopulationincreasenecessitatedthe
+sionfactorstoestimateCH 4andN 2Oemissionswithoutconsidering constructionandoperationofmoremunicipalwastewatertreatmentfa-
+profilesofdifferentWWTPtreatmentprocessesandlackingsufficient cilities.By2016,Shanghaiachievedthelargestwastewatertreatmentca-
+site-specific operation data. Thus, it is necessary to modify IPCC pacitywith7.14milliontonsofwastewaterperdaywhichwasthelargest
+methodsformoreaccurateWWTPsGHGevaluation.AlthoughIPCC among36keycitiesinChina.Thedailytreatmentcapacitypercapitawas
+methodsaremassivelyappliedinpreviousstudies,thereisahighde- 0.295tons/person/daywhichwasmuchhigherthanthenationalaverage
+greeofuncertaintyassociatedwiththehugedifferences.Althoughthe of0.103tons/person/day.Thegeographicaldistributionofthe50WWTPs
+actualdatawasusedforWWTPGHGsemissionevaluationinprevious inShanghaiisillustratedinFig.A.1inSupplementaryinformation.
+studies,thedatawasmoreorlessaimedatcity-leveldataandnotspe-
+cificWWTP,ortheEFs(emissionfactors)inthecalculationweresimply 2.3.DirectGHGsemissionsestimatedbyIPCCandODIMmethods
+defaultvaluesthatneglectedthedifferencesoftreatmentprocess.
+GHGemissionsmanagementatcity-levelistheefficientactiontomit- IPCCandODIMwereusedtoestimatethedirectCH andN Oemis-
+4 2
+igateglobalclimatechangetoagreatextent(CNCA,2017;Hsuetal., sionsin50ShanghaiWWTPsandtheresultswerecompared.Both2006
+2
+
+--- Page 3 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+IPCCGuidelinesforNationalGreenhouseGasInventories(IPCC2006) Table2
+and2019Refinementtothe2006IPCCGuidelinesforNationalGreen- ThedifferencesbetweensixinitialandmodifiedIPCCmethodsfordirectCH4emission
+calculation.
+houseGasInventories(IPCC2019)wereutilized(IPCC,2006,2019).
+Severalparameterssuchastotalnitrogen(TN)andtotalorganicsin Method ∑ ijUi·Tij MCF TOW
+wastewater(TOW)inIPCCwerereplacedbylocaldataaccordingtoNa-
+IPCC2006 0.2776 0.05 SeeEq.(7)
+tionalYearbookvaluestooptimizeIPCCmethodologies.Sofar,IPCC IPCC2019 1 0.03 SeeEq.(10)
+2006isthemostwidelyusedmethodinliteratureandIPCC2019is 2006-a 1 0.05 SeeEq.(7)
+thenewestreferencemethodproposedbyIPCC.Incontrast,operational 2006-b 0.2776 0.05 TOWwas147,500tonsCOD/yearbasedon
+dataintegratedmethods(ODIM)arebasedonspecifictreatmentpro- 2006-c 1 0.05 NationalStatisticalYearbook(2020)(NBS,
+2019-a 1 0.03 2020)a
+cessandpracticaloperationaldatafordirectGHGemissionsevaluation.
+a TheTOWofNationalStatisticalYearbook(2020)wasfromSecondNationalSurveyof
+AccordingtoIPCC,directCO emissionsweremainlyderivedfrom
+2 PollutionSourcesanddatawasannualaveragebasedon1105.8thousandsamplesinChina.
+modern(biogenic)organicmatterwhichwasnotconsideredforGHG
+management(IPCC,2019).Thus,thisstudysimplyfocusedonthedirect
+GHGsemissionsofCH andN OfromtheWWTPswithoutCO .Further-
+4 2 2
+more,theindirectemissionscausedbyelectricityconsumptionandthe
+factorstheydependedonincludingWWTPprocess,scale,loadrateand
+oxygenconsumptionwerethoroughlyanalyzed. DirectemissionsofCH 4basedonIPCC2006(IPCC,2006),seedetails
+inTableA.1:
+2.3.1.IPCCmethodtoquantifydirectemissions(NOandCH ) (cid:4) (cid:1) (cid:3)(cid:5)
+2 4
+DirectemissionsofN 2OwereevaluatedbyinitialandmodifiedIPCC CH 4Emissions¼ ∑ ij U i∙T ij∙EF j ðTOW−SÞ−R ð5Þ
+methods including IPCC 2006, IPCC 2019 and modified IPCC 2019
+(2019-a,2019-band2019-b).Eq.(1)isforIPCC2006whileEqs.(2)– EF j¼Bo∙MCF j ð6Þ
+(4)areforIPCC2019.Thedifferencesbetweenthefivemethodscome
+TOW¼P∙BOD∙0:001∙I∙365 ð7Þ
+fromthevaluesof∑ U ·T andTN ,asshowninTable1.
+ij i ij DOM
+DirectemissionsofN OaccordingtoIPCC2006(IPCC,2006),seede-
+2
+tailsinTableA.1: DirectemissionsofCH accordingtoIPCC2019(IPCC,2019):
+4
+(cid:4) (cid:1) (cid:3)(cid:5)
+N 2O PLANTS¼P∙T PLANT∙F IND−COM∙EF PLANT ð1Þ CH 4Emissions¼ ∑ j TOW j−S j ∙EF j−R j ð8Þ
+EF ¼Bo∙MCF ð9Þ
+j j
+DirectemissionsofN 2OaccordingtoIPCC2019(IPCC,2019),seede- TOW¼P∙BOD∙0:001∙365 ð10Þ
+tailsinTableA.1:
+N 2O PlantDOM¼(cid:4) ∑ ij(cid:1) U i∙T ij∙EF j(cid:3)(cid:5) ∙TN DOM∙ 4 24 8 ð2Þ 2.3.2 O. DO ID MIM wt ao sq eu sta an bti lf iy shd eir dec bt ae sm edis osi non ts he(N E2 FO sa on fd diC fH fe4 r) entprocessesand
+practicaloperationaldata.TheEFsofN OandCH werereviewedand
+2 4
+TN DOM¼P treatment∙Protein∙F NPR∙N HH∙F NOR−CON∙F IND−COM ð3Þ c Wol Wle Tct Pe sd af lr lo om veo rv te hr e30 wr oe rp ldo .rt Te hd eli st pe era ct ifiur ce dc ao tv ae ori nng emm io sr se iot nha fan c4 to0 rr se oa fl
+Protein¼Protein SUPPLY∙FPC ð4Þ N 2OandCH 4forvariousWWTPsprocessbynumerousliteraturecan
+beseeninTableA.2underSupportingmaterials.
+InEq.(2),U iandT ijvaluesarefromIPCC.Fori,1representsurban- TheemissionsofN 2OandCH 4werecalculatedusingEqs.(11)–(12).
+highand2representsurban-low;forj,3representssewer;U =0.12, ItwasreportedthattherewasnegligibledifferencebetweenEFscalcu-
+1
+U =0.29;T =0.67,T =0.68,thenU ·T +U ·T =0.2776. lation byinfluentpollutants amount(CODorTN) andby removed
+2 13 23 1 13 2 23
+DirectemissionsofCH werealsoevaluatedbyinitialandmodified amount(Delreetal.,2017).Hence,theamountofTNremovedinthis
+4
+IPCCmethodsincludingIPCC2006,IPCC2019,2006-a,2006-b,2006-c, studywasreplacedbytheamountofNH 3-NremovedinWWTPs,and
+2019-a.Eqs.(5)–(7)arebasedonIPCC2006whileEqs.(8)–(10)are thesetwokindofdataarealmostthesamefromtheSecondNational
+basedonIPCC2019.Thedifferencesbetweenseveralmethodsliein SurveyofPollutionSources(M.o.E.a.E.o.t.P.s.R.o,2020).
+thevaluesof∑ U ·T ,MCFandTOW,asshowninTable2.
+ij i ij N O ¼EFðN OÞ∙TN ð11Þ
+2 discharge 2 removed
+CH ¼EFðCH Þ∙COD ð12Þ
+4discharge 4 removed
+Table1
+ThedifferencesbetweeninitialandmodifiedIPCCmethodsfordirectN2Oemission
+whereTN istheTNremovedinWWTPsperyear,t/yearwhile
+calculation. removed
+COD istheCODremovedinWWTPsperyear,t/year.
+removed
+Method ∑ ijUi·Tij SourceofTNvalue Carbondioxideequivalent(CO 2-eq)isanemissionmetricusedto
+IPCC2006 TPLANT= Eq.(1) comparedifferentGHGs.N 2OandCH 4obtainedbytheaboveIPCCand
+0.9399 ODIMmethodswerethenconvertedintocarbondioxideequivalent
+IPCC2019 0.2776 Eq.(3) byusingEqs.(13)–(14)(IPCC,2019).
+2019-a 1a Eq.(3)
+2 20 01 19 9- -b 0 1.2776 YTN eaw rba os ok65 (, 21 00 20 0t )o (n Ns B/y Se ,a 2r 0b 2a 0s )e bdonNationalStatistical CO 2−eqðN 2OÞ¼N 2O discharge∙GWPðN 2OÞ ð13Þ
+c
+a ∑ ijUi·Tijwassetas1,whichrepresentedthattheurbanizationrateofShanghaiwas CO 2−eqðCH 4Þ¼CH 4discharge∙GWPðCH 4Þ ð14Þ
+100%.
+b TheTNofNationalStatisticalYearbook(2020)wasfromsecondnationalsurveyofpol-
+whereGWPisglobalwarmingpotential,GWP(N O)was265andGWP
+lutionsources(MinistryofEcologyandEnvironmentofthePeople'sRepublicofChina), 2
+anddatawasannualaveragebasedon1105.8thousandsamplesinChina. (CH 4)was28.
+3
+
+--- Page 4 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+2.4.IndirectGHGemissionscalculation equivalent.Ineffect,IPCC2019improvedN Oemissionsestimationby
+2
+adjustingemissionfactordependentontotalnitrogeninwastewater
+IndirectGHGemissionsmainlyincludeelectricityandchemicals (TN ).TN inIPCC2019wascalculatedbasedontheannualper
+DOM DOM
+consumptionofwhichwasdominatedbyelectricityconsumption.Elec- capitaproteinconsumptionandF torepresentTNofinfluentwaste-
+NPR
+tricityconsumptiondatacollectedfrom50WWTPsinShanghaiwere water.Moreover,IPCC2019utilized∑ U ·T toreplacetheT
+ij i ij PLANT
+usedforindirectGHGemissionscalculation.Thegeneralinformation (utilizationdegreeofmoderncentralizedWWTPplants)inEq.(2),con-
+onthe50WWTPsinShanghaicanbeseeninTableA.3.Theindirect sideringtheregionaldifferences.TheEFvaluesofIPCC2019werealso
+GHGemissionswerecalculatedbasedonEq.(15): updated based on recent literature ranging from 0.00016 to 0.045
+kgN O-N/kgNwhileIPCC2006wasbasedonasinglestudyinwhich
+2
+CO 2−indirect¼EF grid∙y∙W ð15Þ theWWTPwasnotdesignedforremovalofnitrogenin1995(Czepiel
+etal.,1995).ApreviousstudycomparingthedirectN Oemissionsin
+2
+whereEF wasregionalpowergridbaselineemissionfactorinChina WWTPsofMexicoCityandBarcelonaalsoreportedthattheresultsof
+grid,y
+whichwas0.8046kgCO /kWhforShanghaibasedon2016EmissionFac- IPCC 2019 were much higher than that of IPCC 2006 (Ramirez-
+2
+torofChinaregionalpowergridbaseline. Melgarejoetal.,2020).
+ConsideringthatN Oemissionsweremuchimpactedbywastewa-
+2
+2.5.GHGemissionsanalysismethods terTN,itwasnecessarytoperformfurtherimprovementsformoreac-
+curateTNestimation.Thecalculationof∑ U ·T inIPCC2019was
+ij i ij
+Inthispaper,aftercomparingtheevaluationmethodsofN Oand basedontheaveragesituationinChinainsteadofspecificsituationin
+2
+CH ,ODIMwaschosentocalculatethedirectemissionsandtotalGHG ShanghaiCity,thereby2019-aand2019-cutilized1insteadofthede-
+4
+emissionsincludeddirectemissionsandindirectemissionscausedby faultvalueformodification.Meanwhile,IPCC2019chosefoodprotein
+electricityconsumption.Thepercentageofvariousprocesses,design intakeforTNcalculation,whichisnotdirectlyrelatedwithwastewater
+scale,annualloadrate,dischargelimits,influentCODandinfluentam- TN.Therefore,TNdataaboutwastewaterinShanghairegionfromNa-
+moniaforthe50WWTPsinShanghaiisshownundertheSupplemen- tionalStatisticalYearbook2020wasusedfor2019-band2019-basdirect
+taryfileFigs.A.2andA.1.GHGemissionspertreatedwater(kgCO - dataforTNdescription.Theresultof2019-aisalmostthreetimeshigher
+2
+eq/m3)wereanalyzedfordifferenttreatmentprocess,scale,loadrate, thanIPCC2019,whiletheresultof2019-bisonlyonethirdofIPCC2019,
+theoreticaloxygenconsumption,influentqualityanddischargelimits illustrating sensitivity of TN value on N O emissions evaluation.
+2
+inShanghai,includingdirect,indirectandtotalGHGemissionintensity Ramirez-Melgarejoetal.alsocomparedtheSnip'smethodwhichesti-
+usingOriginsoftware.Kruskal-WallissinglefactorANOVAtestbySPSS matedN ObyinfluentNanddefaultEFof0.005kgN O-N/kgN.There-
+2 2
+wasusedtoanalyzetheimpactofthosefactors.Fortreatmentprocess, sultwasfourtimeshigherthantheIPCC2019meaningthatTNamount
+wealsoanalyzedthetotalGHGemissionsfordifferentprocesses. washigherthanactualTNandthustheTNvalueiscrucialinN Oemis-
+2
+sionestimation(Ramirez-Melgarejoetal.,2020)andisneededwhen
+3.Resultsanddiscussion accountingforGHGsemission.
+TheresultofODIMisalmostfivetimeshigherthanIPCC2006butis
+3.1.DirectGHGemissionsevaluatedbyIPCCandODIM onlyonefifthofIPCC2019.Onestudyfoundthatthemeasuredemis-
+sionswerehigherthantheresultofIPCC2006(Delreetal.,2017).De-
+3.1.1.ThecomparisonofN Oemissionsbetweendifferentmethodologies faultEFvalueswereusedinIPCC2006and2019whileODIMmethod
+2
+ThedirectN OemissionsresultsofvariousmethodologiesbyIPCC distinguishedtheeffectsofvariousprocessesandtheTN data
+2 removed
+2006,IPCC2019,ODIMandtheoptimized2019-a,2019-band2019-c wascollectedfromeachWWTPindicatingitsresultsweremorereli-
+andemissionfactorsareillustratedinFig.1.TheresultofIPCC2006is able.Infact,theEFsofdifferentprocessesdifferedgreatlyinvarying
+thelowestwhichestimatedN Oemissionsbasedonpopulationequiv- magnitudeasshowninFig.1(b)whichshouldbecarefullyconsidered
+2
+alenttheWWTPsservedwithassumptionthatallpeoplecontributed duringN Oemissionsevaluation.Inprincipal,thecalculationmethod
+2
+thesameamountsofemissions.Inreality,wastewatercharacteristic for TN needs further investigation and the actual TN data from
+andtreatmentsystemwerelargelyresponsiblefortheGHGsemissions WWTPswouldbebetter,andotherparameterssuchasEFsand∑ U
+ij i
+(Ramirez-Melgarejoetal.,2020).N OemissionsfromWWTPswere ·T wouldalsogreatlyinfluenceevaluationresults.
+2 ij
+mainlycausedbytheincompletenitrificationanddenitrificationpro-
+cessduringbiologicalnitrogenremoval(Kampschreuretal.,2008). 3.1.2.ThecomparisonofCH emissionsbetweendifferentmethodologies
+4
+Therefore,itwasbelievedtobemoreaccuratetousetotalnitrogenin TheresultsofdirectCH emissionsestimatedbyIPCC2006,IPCC
+4
+the influent wastewater for evaluation other than population 2019andoptimizedmethods2006-a,2006-b,2006-cand2019-aand
+Fig.1.DirectN2Oemissionsandemissionfactors((a)N2Oemissionsevaluationresultsbyvariousmethodologies,(b)N2Oemissionfactorsofdifferentprocesses,EFswererepresentedby
+theamountofN2OproducedbyTNinfluent).
+4
+
+--- Page 5 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+Fig.2.DirectCH4emissionsandemissionfactors((a)CH4emissionsevaluationresultsbyvariousmethodologies,(b):CH4emissionfactorsofdifferentprocesses,EFswererepresentedby
+theamountofCH4producedbyCODinfluent).
+emissionfactorsareshowninFig.2.AsopposedtoN O,theadjustments consumptionwas511,851tCO -eqaccountingfor68%ofthetotal(see
+2 2
+fromIPCC2006toIPCC2019arelimitedandfocusonspecificwastewa- detailsinTableA.5).TheaverageGHGemissionsintensityinShanghai
+tertreatmentsystems.TheresultofIPCC2019istwicehigherthanthat was0.290kgCO -eq/m3similartothe0.30kgCO -eq/m3ofShenzhen,
+2 2
+ofIPCC2006.MCFrangingfrom0to0.1inIPCC2006isweightedatone anotherlargecityinChina(Liaoetal.,2020),whoseelectricityuse
+regionalorindustriallevelwhosedefaultvalueisbasedonexpertjudg- alsoaccountedfor70%ofthetotalGHG emissionsin WWTPs.One
+ment instead of local situation. In contrast, default MCF value of studycalculatedtheGHGemissionintensityforChinawiththeresult
+0.003–0.09inIPCC2019isbasedonaerobicwastewatertreatmentsys- of0.581kgCO -eq/m3,muchhigherthantheGHGsinShanghaiproba-
+2
+temsaccordingtopracticalWWTPsreports. blyduetotheregiondifferenceandthemuchhigherdefaultEFsvalues
+SimilarmodificationsforN Oevaluationmethodwerealsoper- (Wang,2017).
+2
+formedforCH investigation.Thevalueof∑ U ·T waschosenas1
+4 ij i ij
+for2006-aand2006-cinsteadofdefaultvalue.Moreover,IPCCmethods 3.2.1.TheinfluenceofvariouswastewaterprocessesonGHGemissions
+utilizecountry-specificpercapitaBODasTOWvaluebasedonresearch ThetotalGHGemissionswereanalyzedforeachWWTPprocessin
+in1999andisnotupdatedaccordingtocurrentlocalsituation(Doorn Shanghai as shown in Fig. 3(a). AAO process contributed themost
+andLiles, 1999).Therefore, TOW from National Statistical Yearbook GHGemissionssinceitwasutilizedby23of50WWTPswithlargest
+2020wasusedfor2006-b,2006-cand2019-a.Itisworthnotingthat treatmentscale.Forexample,ShanghaiBailonggangPlantasthelargest
+theresultsof2006-b,2006-cand2019-aarefarbelowtheunmodified WWTPinAsiacontributedtotalGHGemissionsof252,905tCO -eqwith
+2
+IPCCmethods.ThesethreemethodsutilizedTOWvalueof147,500 AAOprocess.However,thespecificemissionintensityofAAOisnot
+tonsCOD/yearfromStatisticalYearbookwhichweremuchlowerthan high.Inonestudy,theGHGemissionintensityofAAOwasonefifthof
+thosecalculatedbyIPCC(783,900tonsCOD/year)andUrbanDrainage thatofSBRinWWTPsofAustralia(Nguyenetal.,2019).Inanother
+StatisticalYearbook(2017)(839,500tonsCOD/year).Incontrast,the study, monitored methane in WWTPs of China was 0.50 g CH /m3
+4
+totalnitrogenbasedonChinaStatisticalYearbook(TN=65,100tons/ wastewaterwithSBRprocesswhile0.18gCH /m3wastewaterwasre-
+4
+year)wasclosertothatfromUrbanDrainageStatisticalYearbook(total leasedfromanAAOprocess,whichmightexplainthereasonofitswide
+NH -N=61,100tons/year)whichwasquitedifferentfromTOWsitua- application(Baoetal.,2016).Theprocessindicatinghighestemission
+3
+tion.Hence,theTOWandTNvaluesmaydifferindifferentyearbooks. intensityisMBRprocess(0.738kgCO -eq/m3),nearlytwicehigher
+2
+TheresultofODIMishigherthanmostIPCCresultssuchasbeing thanotherprocesses,mainlycausedbyitshighelectricityconsumption.
+twicehigherthanIPCC2006.ODIMquantifiedCH emissionsbasedon Similarresultsof0.79kgCO -eq/m3werereportedbyapreviousstudy
+4 2
+specifictreatmentprocessandeachprocessdemonstrateditsownEF inShenzhenMBRplant(Liaoetal.,2020).
+valuewhichvariedbetween0.0034and0.0163(Fig.2(b)).ODIMpro- ThedetailedcompositionoftotalGHGemissionsandemissionin-
+videdmorereliableevaluationbasedonthesituationofeachkindof tensity including directN O emissions, CH emissions andindirect
+2 4
+WWTPconsideringtheamountofwastewatertreatedbydifferentpro- emissionsareshowninFig.3.MBRprocessobtainsthehighestindirect
+cessesvariedgreatly. emissionintensityof0.644kgCO -eq/m3.Liaoetal.(2020)alsore-
+2
+Basedontheaboveresults,totaldirectemissionswerefoundtobe ported the highest indirect emission intensity of MBR process in
+81,713, 645,430 and 243,320 tCO -eq in 2016 for IPCC 2006, IPCC Shenzhen(0.55kgCO -eq/m3).Theaverageelectricityconsumption
+2 2
+2019andODIMrespectively.TheresultofIPCC2006isapercentage (0.8 kWh/m3) of MBR process is also higher than other process
+of87%lowerthanIPCC2019whiletheresultofIPCC2019is355%higher (0.13–0.38kWh/m3)asshowninTableA.3.Ingeneral,indirectemis-
+comparedtoODIM.DirectGHGemissionsintensitywas0.093kgCO - sionscontributemorethandirectemissionsindicatingtheimportance
+2
+eq/m3byODIMsimilarwiththe0.09kgCO -eq/m3inShenzhen in ofreducingenergyintensity.Inaddition,CH emissionscontribute
+2 4
+2017.Inthatstudy,ahybridlifecycleanalysismethodwasusedtoqual- morecomparedtoN Oemissionsinmostprocessesaswasalsore-
+2
+ifywastewatertreatmentsector'sgreenhousegasemissions(Liaoetal., portedinpreviousstudies(AsadiandMcPhedran,2021;Masudaetal.,
+2020). 2018;Rossetal.,2020).Yanetal.foundtheproportionofN Oincreased
+2
+from25.9to40.6%inChinaWWTPsbutCH decreasedfrom74.1to
+4
+3.2.GHGemissionsimpactedbyvariousfactorsofWWTPs 59.4%(2005to2014)suggestingN Owasincreasingandwouldbe
+2
+much higher than CH emission in the following years (Yan et al.,
+4
+ThedirectGHGemissions(CH andN O)estimatedbyODIMandin- 2014).ThedirectN OemissioninaWWTPinshanghaiwasmeasure
+4 2 2
+directemissionbasedonregionalpowergridemissionfactorwereused tobeODprocessproducedmoreCH thanotherprocessduetothe
+4
+forfurtherdiscussion.ThetotalGHGemissionofShanghaiWWTPswas higherconversionratio(Renetal.,2013),butitsN Oemissionswere
+2
+75,5171 tCO -eq and the indirect emissions caused by electricity relatively low. Masuda et al. (2018) compared WWTP of OD with
+2
+5
+
+--- Page 6 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+Fig.3.GHGemissionsandemissionintensityofdifferentWWTPprocess((a)totalemissionsandemissionintensityofdifferentprocess,(b)N2O,CH4andindirectemissionsandemission
+intensityofdifferentprocess).
+WWTPofAAO/AOprocessandachievedsimilarconclusion.Besides, analyzedtheGHGemissionsinChinaandalsoreportedthattheemis-
+someoftheotheradditionalpretreatmentprocessorbiogasupgrading sionintensityoflarge-scaleWWTPswaslowerthansmall-scaleones.
+processappliedinspecificWWTPscouldalsoachievelow-carbonor Onaccountoftheloadrate,bothdirectandindirectGHGemission
+carbon-neutraloperation(Borzooeietal.,2020;Nguyenetal.,2019). intensityhadsimilartrendfordifferentloadrates.WWTPswithload
+Hence,whenfocusingatonespecificWWTPtheeffectofotheraddi- rateof80–100%hadthelowestGHGemissionintensityforbothdirect
+tionaltreatmenttechnologiesneedstobeconsidered. andindirectGHGemissions.MizutaandShimada(2010)foundthe
+highertheloadratewasthelowerenergyconsumptionpertreated
+3.2.2.TheinfluenceofWWTPsscaleandloadrateonGHGemissions waterandalsofoundthehigherthescalewas,theloadratetendedto
+GHGemissionintensityofWWTPswithvariousscalesandloadrate be100%.Alltheaboveresultsshowthatlarge-scaleandhigh-loadrate
+(actualtreatedwaterquantityperdaydividedbythescaleofWWTPs) WWTPswouldemitrelativelowerGHGsmeaningthatthescaleand
+isillustratedinFig.4.Thedetailedinformationabouttreatmentscale loadrateneededtobefactoredinactualoperationofWWTPswithre-
+andactualannualloadrateforeachWWTPinShanghaiislistedin specttotheGHGemissionintensity.
+TablesA.3andA.5.Thedirectemissionintensityshowsnosignificant
+differencebetweendifferentWWTPsscalegroups.Onthecontrary, 3.2.3.TheinfluenceoftheoreticaloxygenconsumptiononGHGemissions
+small-scaleWWTPswithscale≤10km3/dobtainhighertotalemission Theoxygenconsumptiondirectlycorrelateswithorganicsaerobic
+intensityduetotheirhighindirectemissions.Forindirectemissionsor degradationandelectricityconsumptionwhichconsequentlyinflu-
+electricityconsumption,small-scaleWWTPstendtoobtainhighercon- ences thedirect and indirect GHG emission intensity. As shown in
+sumptionofelectricitybecauseoffluctuationsininfluentloading(Lee Fig.5,WWTPswiththeoreticaloxygenconsumptionrangeof0–0.2
+et al., 2008) and lack continuous monitoring (Lorenzo-Toja et al., kgO /t demonstrate the lowest direct emission intensity. In detail,
+2
+2015)toobtainbettertechno-economicperformance.Furthermore,in- hightheoreticaloxygenconsumptionresultsinhighdirectemissionin-
+directemissionswerethemoresignificantfortotalemission,sothe tensityhoweverlowindirectemissionintensity.Highdirectemissions
+changingrangeoftotalemissionintensitywasmainlyaffectedbyindi- werepossiblycausedbyenhancedN Ogenerationundersufficientsub-
+2
+rectemissionintensity.Wangetal.(2016)analyzedtheindirectemis- stancesandhighstrengthengasstripping(Renetal.,2013).However,it
+sionintensitycausedbyelectricityinChinain2014atBailonggang wasalsoreportedthatlowaerationratesresultedinhighN₂Oemissions
+WaterPurificationPlantinShanghaicity(2000km3/day)andatJiaxing (Tumendelgeretal.,2014)requiringfurtherinvestigation.Lowindirect
+LianheinZhejiangprovince(600km3/day),andfoundthattheGHG emissionintensitymainlyresultingfromtheelectricityconsumptionof
+emissionintensitywas0.19and0.45kgCO -eq/m3respectively.Inthis aerationtankindicatesover-aerationusuallyoccurredwhentheoretical
+2
+presentstudy,theintensitycausedbyelectricityis0.237kgCO -eq/m3 oxygenconsumptionofinfluentwastewaterwaslow(Baoetal.,2015).
+2
+andislessthantheintensitywithsmallerscale.Zengetal.(2017)also Accurate and dynamic aeration management based on influent
+Fig.4.GHGemissionintensityofWWTPswithvariousscaleandloadrate((a)scale,(b)actualannualloadrate).Remarks(e):**representedP<0.01(Kruskal-WallissinglefactorANOVA
+test).
+6
+
+--- Page 7 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+Fig.5.GHGemissionintensityofdifferenttheoreticaloxygenconsumptionpertonofwaterinWWTPs((a)(d)directemissionintensity,(b)(e)indirectemissionintensity,(c)(f)total
+emissionintensity).
+Remarks(e):**representedP<0.01(Kruskal-WallissinglefactorANOVAtest).
+wastewatercharacteristicswassuggestedtocontrolindirectemissions COD,NH -Nconcentrationandstricterdischargelimitsleadtohigher
+3
+especiallywheninfluentCODandTNwaslow. emissionintensity.
+3.2.4. The influence of influent quality and discharge limits on GHG 4.Conclusions
+emissions
+TheinfluenceofinfluentqualityanddischargelimitsonGHGemis- Inthisstudy,greenhousegas(GHG)emissionsfromall50Shanghai
+sionintensityareshowninFig.6.LowinfluentCODandNH -Ndemon- municipalwastewaterplants(WWTPs)in2016wereevaluatedbased
+3
+stratelowdirectbuthighindirectGHGemissionintensitysimilartothat onIPCCmethodsandoperationaldataintegratedmethods(ODIM).
+oftheoreticaloxygenconsumptionduetotherelativestableCOD/N IPCC2006underestimatedbothdirectN OandCH emissionsfora
+2 4
+ratio.Thelowesttotalemissionintensityisobtainedwheninfluent totalpercentageof87%whileIPCC2019overestimatedbyapercentage
+CODisintherangeof150–250mg/LandNH -Nintherangeof15–25 of355%duetocomparedtoODIMindicatingtheimportanceoflocal
+3
+mg/L.Ingeneral,stricterdischargelimitsleadtohigherindirectemis- datasuchasTNandTOWvalues.ODIMachievedmuchaccurateGHG
+sionintensitybutresultinlimitedinfluenceondirectemission.Italso emissionestimationwith243,320tCO -eq,duetoconsideringtheEF
+2
+shouldbenotedthatlowdischargelimitssuchassecondclassdoes valuesofspecifictreatmentprocessandmakinguseofthelocalopera-
+not necessarily result in low total emission intensity. First Class B tionaldata.ThevalueoftotalGHGemissionsofallmunicipalWWTPsin
+(fromDischargelimitsofPollutantsforMunicipalWastewaterTreatment Shanghaiwas755,171tCO -eqandindirectemissionswas511,851
+2
+Plant, China (GB18918–2002),shownin TableA.4, with NH -N <8 tCO -eq,accountingfor68%ofthetotal.Emissionintensitywas0.290
+3 2
+mg/LandCOD<60mg/LinFirstClassB)demonstratebetteremission kgCO -eq/m3whichvariedfrom0.268to0.738kgCO -eq/m3fordiffer-
+2 2
+performancebasedonfindingsofthisresearch.Thehigherinfluent enttreatmentprocesssoitisrecommendedtodifferentiateWWTPs
+Fig.6.GHGsemissionintensityofdifferentinfluentCOD,NH3-Nanddischargelimits((a)influentCOD(mg/L),(b)influentNH3-N(mg/L),(c)dischargelimits).
+Remarks(e):**representedP<0.01(Kruskal-WallissinglefactorANOVAtest).
+7
+
+--- Page 8 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+processwhenevaluatingGHGemissions.WWTPswithlowrangeof EnvironmentalAssessmentAgency(PBL).http://edgar.jrc.ec.europa.eu/overview.
+theoreticaloxygenconsumption(0–0.2kgO /t),CODconcentration php?v=431.
+2 FAO,2017.FAOSTAT-China-averageproteinsupply(g/cap/day)(3-yearaverage)p.
+(150–250mg/L)andNH 3-N(15–25mg/L)hadlowestdirectGHGemis-
+http://www.fao.org/faostat/en/#search/Average%20protein%20supply.
+sionsintensitybuthighestindirectemissionintensityindicatingover- Hsu,A.,Tan,J.,Ng,Y.M.,Toh,W.,Vanda,R.,Goyal,N.,2020.Performancedeterminants
+aerationoccurredwheninfluentCODandNH -Nconcentrationswere showEuropeancitiesaredeliveringonclimatemitigation.Nat.Clim.Chang.10
+3
+(11).https://www.nature.com/articles/s41558-020-0879-9.
+low. So WWTPs need to change the aeration rate to reduce GHG
+IPCC,2006.2006IPCCGuidelinesforNationalGreenhouseGasInventories.Intergovern-
+emissions. mentalPanelonClimateChange,Japan.
+ThiscasestudyofShanghaiprovidesareferenceforfuturecity-level IPCC,2013.ClimateChange2013:ThePhysicalScienceBasis:WorkingGroupIContribu-
+WWTPsGHGevaluationincitiesacrossChina.Thecomparisonbetween tiontotheFifthAssessmentReportoftheIntergovernmentalPanelonClimate
+Change.IntergovernmentalPanelonClimateChange,Cambridge,UnitedKingdom
+IPCCandODIMshowsthatabigdifferenceexistsbetweentheresults
+andNewYork,p.731.https://doi.org/10.1017/CBO9781107415324.004.
+evaluatedbydefaultvaluesandvaluesfromeachWWTP.Furthermore, IPCC,2018.AnIPCCSpecialReportontheImpactsofGlobalWarmingof1.5°CAbovePre-
+factorssuchasprocess,scale,loadrate,influentqualityanddischarge industrialLevelsandRelatedGlobalGreenhouseGasEmissionPathways,intheCon-
+textofStrengtheningtheGlobalResponsetotheThreatofClimateChange,Sustain-
+limitscouldallaffectGHGemissionsandthatdifferenceexistinGHG
+ableDevelopment,andEffortstoEradicatePoverty(Incheon,RepublicofKorea).
+emissionsbetweenthoseoperationalparametersprovidingapointof IPCC,2019.2019Refinementtothe2006IPCCGuidelinesforNationalGreenhouseGasIn-
+referenceforneworupgradedWWTPstocarbonneutralgoal. ventories,Chacter6-WastewaterTreatmentandDischarge.IntergovernmentalPanel
+onClimateChange,Japan.
+Kampschreur,M.J.,Tan,N.C.G.,Kleerebezem,R.,Picioreanu,C.,Jetten,M.S.M.,Loosdrecht,
+CRediTauthorshipcontributionstatement
+M.C.M.,2008.Effectofdynamicprocessconditionsonnitrogenoxidesemissionfrom
+anitrifyingculture.Environ.Sci.Technol.42(2),429–435.https://doi.org/10.1021/
+JiaruiXi:Writing-Originaldraftpreparation,Methodology,Formal es071667p.
+analysis;HuiGong:Writing-Originaldraftpreparation,Conceptualiza- Koutsou,O.P.,Gatidou,G.,Stasinakis,A.S.,2018.Domesticwastewatermanagementin
+Greece:greenhousegasemissionsestimationatcountryscale.J.Clean.Prod.188,
+tion,Supervision,Writing-Reviewingandediting;YujiuZhang:For- 851–859.https://doi.org/10.1016/j.jclepro.2018.04.039.
+mal analysis, Data curation; Xiaohu Dai: Conceptualization, Lee,M.W.,Hong,S.H.,Choi,H.,Kim,J.H.,Lee,D.S.,Park,J.M.,2008.Real-timeremotemon-
+Methodology; Ling Chen: Conceptualization, Methodology, Data itoringofsmall-scaledbiologicalwastewatertreatmentplantsbyamultivariatesta-
+tisticalprocesscontrolandneuralnetwork-basedsoftwaresensors.ProcessBiochem.
+curation.
+43(10),1107–1113.https://doi.org/10.1016/j.procbio.2008.06.002.
+Liao,X.W.,Tian,Y.J.,Gan,Y.W.,Ji,J.P.,2020.Quantifyingurbanwastewatertreatmentsec-
+Declarationofcompetinginterest tor’sgreenhousegasemissionsusingahybridlifecycleanalysismethod-anapplica-
+tiononShenzhencityinChina.Sci.TotalEnviron.745.https://doi.org/10.1016/j.
+Theauthorsdeclarethattheyhavenoknowncompetingfinancial scitotenv.2020.141176.
+Lorenzo-Toja,Y.,Vazquez-Rowe,I.,Chenel,S.,Marin-Navarro,D.,Moreira,M.T.,Feijoo,G.,
+interestsorpersonalrelationshipsthatcouldhaveappearedtoinflu- 2015.Eco-efficiencyanalysisofSpanishWWTPsusingtheLCAplusDEAmethod.
+encetheworkreportedinthispaper. WaterRes.68,651–666.https://doi.org/10.1016/j.watres.2014.10.040.
+M.o.E.a.E.o.t.P.s.R.o,2020.BulletinoftheSecondNationalCensusofPollutionSources.
+Beijing. pp. 4–5. http://www.mee.gov.cn/home/ztbd/rdzl/wrypc/zlxz/202006/
+Acknowledgments
+t20200616_784745.html.
+Mannina,G.,Reboucas,T.F.,Cosenza,A.,Chandran,K.,2019.Aplant-widewastewa-
+This project is supported by special fund of State Key Joint tertreatmentplantmodelforcarbonandenergyfootprint:modelapplication
+andscenarioanalysis.J.Clean.Prod.217,244–256.https://doi.org/10.1016/j.
+Laboratory of Environmental Simulation and Pollution Control
+jclepro.2019.01.255.
+(21K08ESPCT), the Center for Industrial Development and
+Masuda,S.,Sano,I.,Hojo,T.,Li,Y.Y.,Nishimura,O.,2018.Thecomparisonofgreenhouse
+EnvironmentalGovernance(CIDEG)andSummerInstituteforChina's gasemissionsinsewagetreatmentplantswithdifferenttreatmentprocesses.
+GreenInnovators(SICGI). Chemosphere193,581–590.https://doi.org/10.1016/j.chemosphere.2017.11.018.
+Mizuta,K.,Shimada,M.,2010.Benchmarkingenergyconsumptioninmunicipalwastewa-
+tertreatmentplantsinJapan.WaterSci.Technol.62(10),2256–2262.https://doi.
+AppendixA.Supplementarydata org/10.2166/wst.2010.510.
+NBS,2020.ChinaStatisticalYearbook.ChinaStatisticsPress,Beijing.https://data.cnki.net/
+Supplementarydatatothisarticlecanbefoundonlineathttps://doi. Yearbook/Single/N2020100004.
+NBS,2021.Shanghaistatisticalbulletinonnationaleconomicandsocialdevelopment,
+org/10.1016/j.scitotenv.2021.148967.
+2020.https://data.cnki.net/YearData/Report/2cc6108891b8a864.
+Nguyen,T.,Ngo,H.H.,Guo,W.,Chang,S.W.,Nguyen,D.D.,Long,D.N.,Liu,Y.,Ni,B.,Hai,F.I.,
+References 2019.Insightintogreenhousegasesemissionsfromthetwopopulartreatmenttech-
+nologiesinmunicipalwastewatertreatmentprocesses.Sci.TotalEnviron.671(25),
+Asadi,M.,McPhedran,K.,2021.Estimationofgreenhousegasandodouremissionsfroma 1302–1313.https://doi.org/10.1016/j.scitotenv.2019.03.386.
+coldregionmunicipalbiologicalnutrientremovalwastewatertreatmentplant. Ramirez-Melgarejo,M.,Reyes-Figueroa,A.D.,Gasso-Domingo,S.,Guereca,L.P.,2020.
+J.Environ.Manag.281.https://doi.org/10.1016/j.jenvman.2020.111864. AnalysisofempiricalmethodsforthequantificationofN2Oemissionsinwastewater
+Bao,Z.Y.,Sun,S.C.,Sun,D.Z.,2015.CharacteristicsofdirectCO2emissionsinfourfull-scale treatmentplants:comparisonofemissionresultsobtainedfromtheIPCCTier1
+wastewatertreatmentplants.Desalin.WaterTreat.54(4–5),1070–1079.https://doi. methodologyandthemethodologiesthatintegrateoperationaldata.Sci.TotalEnvi-
+org/10.1080/19443994.2014.940389. ron.747.https://doi.org/10.1016/j.scitotenv.2020.141288.
+Bao,Z.Y.,Sun,S.C.,Sun,D.Z.,2016.AssessmentofgreenhousegasemissionfromA/Oand Ren,Y.G.,Wang,J.H.,Li,H.F.,Zhang,J.,Qi,P.Y.,Hu,Z.,2013.Nitrousoxideandmethane
+SBRwastewatertreatmentplantsinBeijing,China.Int.Biodeterior.Biodegradation emissionsfromdifferenttreatmentprocessesinfull-scalemunicipalwastewater
+108,108–114.https://doi.org/10.1016/j.ibiod.2015.11.028. treatmentplants.Environ.Technol.34(21),2917–2927.https://doi.org/10.1080/
+Borzooei,S.,Campo,G.,Cerutti,A.,Meucci,L.,Zanetti,M.,2020.Feasibilityanalysisforre- 09593330.2012.696717.
+ductionofcarbonfootprintinawastewatertreatmentplant.J.Clean.Prod.122526. Ross,B.N.,Lancellotti,B.V.,Brannon,E.Q.,Loomis,G.W.,Amador,J.A.,2020.Greenhouse
+https://doi.org/10.1016/j.jclepro.2020.122526. gasemissionsfromadvancednitrogen-removalonsitewastewatertreatmentsys-
+CNCA,2017.Mobilizingtransformationclimateactionincities.https://carbonneutralcities. tems.Sci.TotalEnviron.737.https://doi.org/10.1016/j.scitotenv.2020.140399.
+org/#featured-news. Sununta,N.,Kongboon,R.,Sampattagul,S.,2019.GHGevaluationandmitigationplanning
+Czepiel,P.,Crill,P.,Harriss,R.,1995.Nitrousoxideemissionsfrommunicipalwastewater forlowcarboncitycasestudy:DanSaiMunicipality.J.Clean.Prod.228,1345–1353.
+treatment. Environ. Sci. Technol. 29 (9), 2352–2356. https://doi.org/10.1021/ https://doi.org/10.1016/j.jclepro.2019.03.297.
+es00009a030. Thomsen,M.,2016.WastewaterTreatmentandDischarge:ScientificReportFromDCE.
+Delre,A.,Monster,J.,Scheutz,C.,2017.Greenhousegasemissionquantificationfrom DanishCentreforEnvironmentandEnergyDanishCenterforEnvironmentandEn-
+wastewatertreatmentplants,usingatracergasdispersionmethod.Sci.TotalEnviron. ergy,AarhusUniversity.http://dce2.au.dk/pub/SR193.pdf.
+605,258–268.https://doi.org/10.1016/j.scitotenv.2017.06.177. Tumendelger,A.,Toyoda,S.,Yoshida,N.,2014.IsotopicanalysisofN2Oproducedinacon-
+Doorn,M.,Liles,D.,1999.GlobalMethane,QuantificationofMethaneEmissionsandDis- ventionalwastewatertreatmentsystemoperatedunderdifferentaerationcondi-
+cussionofNitrousOxide,andAmmoniaEmissionsFromSepticTanks,Latrines,and tions. Rapid Commun. Mass Spectrom. 28 (17), 1883–1892. https://doi.org/
+StagnantOpenSewersintheWorld.EPA-600/R-99-089,PreparedforUSEPA,Re- 10.1002/rcm.6973.
+searchTrianglePark,NC,USA. https://doi.org/10.1007/978-94-015-9343-4. USEPA,2012.Globalanthropogenicnon-CO2greenhousegasemissions:1990–2030.https://
+EDGAR,2016.EmissionDatabaseforGlobalAtmosphericResearch(EDGAR),releasever- cfpub.epa.gov/si/si_public_record_report.cfm?Lab=OAP&count=10000&dirEntryId=
+sion 4.3.1. European Commission, Joint Research Centre (JRC)/Netherlands 268252&searchall=&showcriteria=2&simplesearch=0&timstype.
+8
+
+--- Page 9 ---
+J.Xi,H.Gong,Y.Zhangetal. ScienceoftheTotalEnvironment797(2021)148967
+USEPA,2019.InventoryofU.S.GreenhouseGasEmissionsandSinks:1990–2017.Envi- Yan,Liu,Xiang,Cheng,Xiaoxiu,Lun,Dezhi,Sun,College,of,2014.CH_4emissionandcon-
+ronmentalProtectionAgency(EPA),Washington,pp.41–42.https://www.epa.gov/ versionfromA~2OandSBRprocessesinfull-scalewastewatertreatmentplants.
+ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks. J.Environ.Sci.01(v.26),226–232.https://doi.org/10.1016/S1001-0742(13)60401-5.
+Wang,H.C.,2017.Carbonemissionreductionpathandpotentialofurbanwastewater Zeng,S.Y.,Chen,X.,Dong,X.,Liu,Y.,2017.Efficiencyassessmentofurbanwastewater
+treatmentindustryinChina.WaterWastewaterEng.53(03),1–3.https://doi.org/ treatmentplantsinChina:consideringgreenhousegasemissions.Resour.Conserv.
+10.13789/j.cnki.wwe1964.2017.0094. Recycl.120,157–165.https://doi.org/10.1016/j.resconrec.2016.12.005.
+Wang,H.T.,Yang,Y.,Keller,A.A.,Li,X.,Feng,S.J.,Dong,Y.N.,Li,F.T.,2016.Comparative
+analysisofenergyintensityandcarbonemissionsinwastewatertreatmentinUSA,
+Germany,ChinaandSouthAfrica.Appl.Energy184,873–881.https://doi.org/
+10.1016/j.apenergy.2016.07.061.
+9

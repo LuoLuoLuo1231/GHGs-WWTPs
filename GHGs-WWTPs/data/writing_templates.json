@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "category": "writing_templates",
+    "description": "写作模板（句式/结构/讨论）",
+    "version": 2,
+    "created": "2026-05-26T08:12:45.165373+00:00",
+    "updated": "2026-06-09T00:00:00+00:00",
+    "source": "initial"
+  },
+  "entries": {
+    "intro_opening_zh": {
+      "value": "近年来，{领域}受到了广泛关注。{具体问题}是该领域的关键问题之一。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_gap_zh": {
+      "value": "然而，现有研究主要集中在{方向}，对{空白}的研究仍然不足。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_objective_zh": {
+      "value": "本研究旨在{目标}，以{方法}为核心手段，探究{问题}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_finding_zh": {
+      "value": "结果表明，{变量1}与{变量2}呈显著{方向}相关(r={值}, p<{值})。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_comparison_zh": {
+      "value": "{组1}的{指标}显著{高于/低于}{组2}({值} vs {值}, p={值})。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_mechanism_zh": {
+      "value": "这一现象的可能机制是{机制描述}。{引用}也报道了类似的发现。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_contrast_zh": {
+      "value": "与{引用}的研究不同，本研究发现{差异}。这一差异可能源于{原因}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_significance_zh": {
+      "value": "本研究的发现对{领域}具有{理论/实践}意义，为{应用}提供了{依据/参考}。",
+      "confidence": 0.7,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "conclusion_summary_zh": {
+      "value": "本研究通过{方法}，系统分析了{对象}，发现{核心发现}。",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_opening_en": {
+      "value": "{Topic} has attracted considerable attention in recent years.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "intro_gap_en": {
+      "value": "However, existing studies have primarily focused on {direction}, leaving {gap} largely unexplored.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "result_finding_en": {
+      "value": "The results revealed a significant {positive/negative} correlation between {var1} and {var2} (r={value}, p<{value}).",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_mechanism_en": {
+      "value": "A possible mechanism underlying this phenomenon is {mechanism}.",
+      "confidence": 0.8,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "discussion_finding_structure_zh": {
+      "value": {
+        "pattern": "发现描述 + 机制解释 + 文献对比 + 数据支撑",
+        "template": "{发现描述}。这一现象可归因于{机制}。与{作者等}的研究一致/不同，本研究发现{对比}({数据支撑})。",
+        "example": "CH4排放在厌氧条件下显著升高。这一现象可归因于产甲烷古菌在严格厌氧状态下的活性增强。与Guisasola等(2008)的研究一致，本研究发现DO<0.5 mg/L时CH4浓度达到峰值(p<0.001)。",
+        "rules": [
+          "每个发现必须有机制解释(为什么)",
+          "必须与文献对比(一致或不同)",
+          "必须有数据支撑(p值、r值、均值)",
+          "不能只描述现象不解释原因"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "discussion_finding_structure_en": {
+      "value": {
+        "pattern": "Finding + Mechanism + Literature comparison + Data support",
+        "template": "{finding_description}. This can be attributed to {mechanism}. Consistent with / Unlike {et al.}, this study found {comparison} ({data_support}).",
+        "example": "CH4 emissions were significantly higher under anaerobic conditions. This can be attributed to enhanced methanogenic archaea activity under strictly anaerobic conditions. Consistent with Guisasola et al. (2008), this study found CH4 concentrations peaked when DO < 0.5 mg/L (p < 0.001).",
+        "rules": [
+          "Every finding must have a mechanism explanation (why)",
+          "Must compare with literature (consistent or different)",
+          "Must have data support (p-value, r-value, mean)",
+          "Cannot only describe phenomenon without explanation"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "limitations_template_zh": {
+      "value": {
+        "template": "本研究存在以下局限性：\n（1）{局限1}。\n（2）{局限2}。\n（3）{局限3}。",
+        "common_limitations": [
+          "采样时间有限，未能覆盖全年四季变化",
+          "采样频次为瞬时采样，可能未能反映日变化特征",
+          "未开展微生物群落分析，缺乏功能微生物的直接证据",
+          "碳平衡计算基于简化模型，未考虑所有过程",
+          "样本量有限，统计检验力可能不足",
+          "排放因子采用IPCC默认值，未进行本地化验证"
+        ],
+        "rules": [
+          "局限性是高质量论文的标志(51%的论文包含)",
+          "必须具体，不能泛泛而谈",
+          "每个局限性应对应一个改进方向"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "limitations_template_en": {
+      "value": {
+        "template": "Several limitations of this study should be acknowledged:\n\n(1) {limitation_1}.\n(2) {limitation_2}.\n(3) {limitation_3}.",
+        "common_limitations": [
+          "Sampling was limited to specific seasons, which may not fully capture annual variation",
+          "Instantaneous grab samples may not represent diurnal variation patterns",
+          "Microbial community analysis was not performed, leaving a gap in mechanistic understanding",
+          "The carbon balance calculation was based on a simplified mass-balance model",
+          "The sample size was limited, which may affect statistical power",
+          "Default IPCC emission factors were used without local calibration"
+        ],
+        "rules": [
+          "Limitations are a hallmark of high-quality papers (51% include them)",
+          "Must be specific, not generic",
+          "Each limitation should correspond to a future improvement direction"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "data_reporting_rules": {
+      "value": {
+        "description": "118篇文献总结的数据报告规范",
+        "rules": [
+          "必须报告: n, mean±SD, median(IQR), p值",
+          "建议报告: 效应量(Cohen's d), 95%CI",
+          "高度偏态数据(CV>100%): 用中位数和IQR，不用均值±SD",
+          "图表: 箱线图优于柱状图(能展示分布)",
+          "统计检验: 先做正态性检验，再决定参数/非参数方法",
+          "相关性: 报告r值和p值，强相关阈值|r|>0.5"
+        ],
+        "statistics_workflow": [
+          "1. 描述统计 → 了解数据分布",
+          "2. 正态性检验(Shapiro-Wilk) → 决定参数/非参数",
+          "3. 相关性分析(Pearson/Spearman) → 探索变量关系",
+          "4. 组间比较(t-test/Mann-Whitney) → 检验差异",
+          "5. PCA/聚类 → 降维和分组",
+          "6. 回归分析 → 建立预测模型",
+          "7. 不确定性分析(蒙特卡洛) → 量化可靠性"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    }
+  }
+}

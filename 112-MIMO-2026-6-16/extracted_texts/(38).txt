@@ -1,0 +1,600 @@
+--- Page 1 ---
+EnvironmentalScienceandEcotechnology20(2024)100345
+ContentslistsavailableatScienceDirect
+Environmental Science and Ecotechnology
+journal homepage: www.journals.elsevier.com/environmental-science-and-
+ecotechnology/
+Original Research
+Methane and nitrous oxide emissions from municipal wastewater
+treatment plants in China: A plant-level and technology-specific study
+Haiyan Li a,* , Liangfang You a, He Du a, Bowen Yu a, Lu Lu a, Bo Zheng b,** , Qiang Zhang c,
+Kebin He d, Nanqi Ren a
+aSchoolofCivilandEnvironmentalEngineering,HarbinInstituteofTechnology,Shenzhen,518055,China
+bShenzhenKeyLaboratoryofEcologicalRemediationandCarbonSequestration,InstituteofEnvironmentandEcology,TsinghuaShenzhenInternational
+GraduateSchool,TsinghuaUniversity,Shenzhen,518055,China
+cMinistryofEducationKeyLaboratoryforEarthSystemModeling,DepartmentofEarthSystemScience,TsinghuaUniversity,Beijing,100084,China
+dStateKeyJointLaboratoryofEnvironmentSimulationandPollutionControl,SchoolofEnvironment,TsinghuaUniversity,Beijing,100084,China
+a r t i c l e i n f o a b s t r a c t
+Articlehistory: Wastewatertreatmentisanimportantsourceofgreenhousegases(GHGs).Yetlargeuncertaintiesremain
+Received26April2023 in the quantification of GHG emissions from municipal wastewater treatment plants (MWWTPs) in
+Receivedinrevisedform China.Ahigh-resolutionandtechnology-specificemissioninventoryisstilllackingtosupportmitigation
+11November2023
+strategies of MWWTPs. Here we develop a plant-level and technology-based MWWTP emission in-
+Accepted12November2023
+ventory for China covering 8703 plants and 19 treatment technology categories by compiling and
+harmonizingthemostup-to-datefacility-leveldatabases.China'smethane(CH4)andnitrousoxide(N2O)
+Keywords:
+emissions from MWWTPs in 2020 are estimated to be 150.6 Gg and 22.0 Gg, respectively, with the
+Methane
+uncertainty rangeof (cid:1)30% to 37% and (cid:1)30% to26% at 95% confidence interval. We find an emission
+Nitrousoxide
+Emissions inequalityacrosscities,withtherichestcitiesemittingtwotimesmoreCH4andN2Opercapitafrom
+Municipalwastewatertreatmentplants municipal wastewatertreatment thanthe poorestcities.TheemittedCH4andN2Oaredominatedby
+Anaerobic/Anoxic/Oxic-,SequencingBatchReactor-,OxidationDitch-,andAnoxic/Oxic-basedMWWTPs
+of less than 20 years old. Considering the relatively young age structure of China's MWWTPs, the
+committedemissionshighlighttheimportanceofreducingon-siteGHGemissionsbyoptimization of
+operating conditions and innovation management. The emission differences among our estimates,
+previousstudies,andtheIntergovernmentalPanelonClimateChangeguidelinesarelargelyattributedto
+theuncertaintiesinemissionfactors,implyingtheurgentneedformoreplant-integratedmeasurements
+toimprovetheaccuracyofemissionaccounting.
+©2023TheAuthors.PublishedbyElsevierB.V.onbehalfofChineseSocietyforEnvironmentalSciences,
+HarbinInstituteofTechnology,ChineseResearchAcademyofEnvironmentalSciences.Thisisanopen
+accessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+1. Introduction anthropogenicCH4and4%ofanthropogenicN2Oaregeneratedby
+wastewater treatment and discharge at present (Emissions Data-
+Municipal wastewater treatment plants (MWWTPs) are key baseforGlobalAtmosphericResearch(EDGAR)v6.0,https://edgar.
+infrastructurestoalleviatewaterpollutionbutarealsoanimpor- jrc.ec.europa.eu/). Many countries have committed to achieving
+tantsourceofgreenhousegases(GHGs),whichcontributetoglobal carbon neutrality byaround the middle of the century. However,
+warming[1e3].ConsiderableamountsofthepotentGHGmethane detailedandaccurateinformationonGHGemissionaccountingfor
+(CH4)andnitrousoxide (N2O)canbeemittedduringwastewater MWWTPsremainslacking,whichimpedesthedesignofeffective
+treatment by anaerobic digestion and nitrification/denitrification mitigationmeasures.
+processes, respectively [4e6]. Globally, around 12% of China, the world's largest carbon emitter at present, has wit-
+nessed a rapid increase in the numberand treatment capacityof
+MWWTPsduring the lastdecade [7,8]. However,thereremains a
+* Correspondingauthor. lackofconsistentandaccurateunderstandingregardingtheextent
+** Correspondingauthor. ofGHGemissionsreleasedfromMWWTPs.Forexample,theesti-
+E-mailaddresses:lihaiyan2021@hit.edu.cn(H.Li),bozheng@sz.tsinghua.edu.cn mationofCH4emissionsfromMWWTPsinChinaspanstwoorders
+(B.Zheng).
+https://doi.org/10.1016/j.ese.2023.100345
+2666-4984/©2023TheAuthors.PublishedbyElsevierB.V.onbehalfofChineseSocietyforEnvironmentalSciences,HarbinInstituteofTechnology,ChineseResearch
+AcademyofEnvironmentalSciences.ThisisanopenaccessarticleundertheCCBY-NC-NDlicense(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+--- Page 2 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+ofmagnitudefrom6.2to1271.5Gg[9e14],contributing0.01e2.0% treatment capacity smaller than 2000 metric tons of wastewater
+toChina'santhropogenicCH4emissionsaccordingtoEDGARv6.0. perday.
+To date, these reported emission estimates have been built at Based on the newly developed plant-level database for
+coarse spatial resolutions (e.g., country and province) where MWWTPs,weestimatedannualon-siteemissionsofCH4andN2O
+default emission factors have been universally applied. However, fromeachofthe8703MWWTPsin2020usingequation(1):
+GHGemissionsfromwastewatertreatmenthighlydependonthe
+specific treatment technology of a MWWTP [15e18]. A lack of E i;s¼A i;s(cid:3)EF j;s (1)
+plant-andtechnology-basedinventoriesofMWWTPscomplicates
+the assignment of appropriate emission factors. Moreover, the whereirepresentsaMWWTP;jrepresentswastewatertreatment
+coarse spatial resolution estimates hamper the development of technologyusedbyplanti;srepresentsemissionspecies(i.e.,CH4
+spatiallyexplicitemissionmapsdafundamentalinputforatmo- andN2O);Erepresentsannualon-siteemissions(metrictonCH4or
+sphericinversionmodeling[19].Recentstudies,suchasWangetal. N2O); Arepresentsactivity rate(metricton), whichis theannual
+(2022)[20]andDuetal.(2023)[21],improvedtheGHGemission removalofchemicaloxygendemand(COD)forCH4estimationand
+accounting fromChina'sMWWTPsbasedonplant-levelinforma- totalnitrogen(TN)removalforN2Oestimation;andEFrepresents
+tion, while the spatial distribution and detailed characteristics of emissionfactor(kgCH4perkgCODremovedorkgN2OperkgTN
+CH4andN2Oemissionswerenotreportedyet. removed),dependingontreatmenttechnologyj.TherecoveredCH4
+Here we develop a plant-level, technology-based MWWTPs and N2O emissions are regarded as being zero, considering the
+emission inventory for China by compiling and harmonizing the actualsituationinChina.
+most up-to-date facility-level databases. The CH4 and N2O emis- Tomapemissionsatgeologicallocations,weinferredthelati-
+sionsfrombiologicaltreatmentprocessesareestimatedthrougha tude and longitude coordinates of each MWWTP from the Baidu
+bottom-up approach and are located on a map according to the Map Platform [22] based on their physical addresses. The infor-
+geographicallocationofeachMWWTP.Additionalinformationon mationonthephysicaladdressofeachMWWTPcontainsprovince,
+treatmentcapacityandoperationyeariscollectedandsummarized city, county, town, and street number. The derived latitudes and
+tocharacterizeemissiondistributionpatterns.Theunprecedented longitudeswereusedtoidentifytheadministrativedistrictwhere
+details of emission features can imply mitigation challenges and theyarelocatedandtocross-checkthephysicaladdress.Discrep-
+opportunities,andtheplant-levelinventorycanaccuratelysupport ancies within the recordshighlighted the potential forerroneous
+locations,whichwerefixedthroughfurtherinspection.Toensure
+atmospheric inverse modeling. We compare our emission results
+with previous studies which are primarily based on the 2006 the accuracy of locations of large MWWTPs, we visuallychecked
+IntergovernmentalPanelonClimateChangeguidelinesforNational thegeolocationsofMWWTPswithatreatmentcapacitylargerthan
+GreenhouseGasInventories(2006IPCCGuidelines).Tounderstand 200 thousand metric tons of wastewater per day. These plants
+thedisagreeingpartswithpreviousestimates,wealsousethe2006 compriselessthan2.3%ofthenumberofMWWTPsbutaccountfor
+IPCCGuidelinesandthe2019refinementtoestimateemissionsat 28.2%ofthetotalcapacity.
+the country level. Our study aims to develop a high-resolution
+emission inventory for China's MWWTPs which represents our 2.2. Activityrates
+currentbestunderstanding.
+WederivedAi,sbycombiningournewlydevelopedplant-level
+2. Materialsandmethods database with national and provincial statistical data based on
+several assumptions. The plant-level Ai,s were estimated using
+2.1. Developmentofplant-leveldatabase equation(2):
+nesW eme ad ie nv le al no dpe (ed xca lup dla inn gt-l He ov nel gd Ka ot nab ga ,s Me af co ar oM ,aW ndW TaT iP ws ai nn )t ih ne 2C 0h 2i 0- i;s¼Ap;s(cid:3)PC Ci;p
+A (2)
+i;p
+by integrating three different plant-level datasets (Fig. 1). We i
+startedfromtheListofCentralizedSewageTreatmentFacilitiesin
+whereprepresentstheprovincewhereMWWTPiislocated;andC
+China(DataSet1),whichismaintainedbytheMinistryofEcology
+representswastewatertreatmentcapacity(metrictonwastewater
+and Environment (MEE) in China. This source provides essential
+per day). In equation (2), the amount of pollutant removal by a
+information, including each plant's name, address, wastewater
+treatment capacity, and classification for municipal or industrial MWWTP(Ai,s)isassumedproportionaltoitswastewatertreatment
+capacity(Ci,p)withinaprovincep.Thisassumptionisconfirmedby
+wastewater treatment. Subsequently, 8703 MWWTPs were iden-
+tifiedinoperationfromatotalof10829plantsinthisdatabase.The a good correlation between actual pollutant removal and waste-
+watertreatmentcapacityatplantscalesbasedondatafromZhe-
+informationonwastewatertreatmenttechnologyandthestartyear
+jiangandGuangdongprovinces(Fig.S1,TextS1).
+ofoperationwerederivedfromanothertwodatasetsbymatching
+The provincial activity rates Ap,s were estimated based on
+plant name and physical address, including the List of National
+equations(3)and(4):
+Municipal Sewage Treatment Facilities (DataSet2) from the MEE
+andtheDirectoryofNationalMunicipalSewageTreatmentPlants
+Ap;s¼As(cid:3)PAp;s
+(DataSet3;BeijingHuahaiXindianInformationConsultingCo.,Ltd.). (3)
+Ap;s
+Wefurthercollecteddatafromeachfacility'swebsiteandreportsto
+p
+supplementmissinginformationwhereneeded.Theintegrationof
+the three datasets above (DataSet1, DataSet2, and DataSet3) pro-
+W
+v Mid Wes WTc Po sm ,p inle ct le udp inla gnt fa-l ce iv lie tyl nin af mor em a pt hio yn sicafo lr adm dro es st s,o tf reC ath min ea n's As¼Ps(cid:3) municipm alu þnic Wipa inl (4)
+, t W dustrial
+capacity,treatmenttechnology,andstartyearofoperation(Fig.1).
+However,somesmallplants,whichaccountfor8%oftotalwaste- where As represents China's total activity rates in 2020; Ap;s rep-
+watertreatmentcapacity,lacktechnologyinformation.Notely,70% resentstheactivityratesofprovincepaveragedbetween2011and
+of those small MWWTPs without technology information have a 2015whiledataarenotavailableafter2016;Psrepresentsthetotal
+2
+
+--- Page 3 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+technologycategorywasassignedanaverageEFderivedfromfield
+measurement data, which were based on a thorough literature
+review of 48 peer-reviewed papers. For those small MWWTPs
+whereinformationon treatment technology was lacking,weuti-
+lizedemissionfactorsthatwereaveragedoverthemostcommonly
+usedtechnologiesinChina.ForEFdataselectionandprocessing,we
+accorded high priority to the measurement of plant-integrated
+emission factors because it can reliably represent overall emis-
+sions from MWWTPs compared to reactor-scale measurements
+(TextS2).
+2.4. Comparisonwithpreviousestimates
+To evaluate our emission results, we compared our estimates
+withpreviousstudiesthatcalculatedemissionsfromMWWTPsin
+the Chinese mainland [9e14,20,23]. Althoughtheyears foremis-
+sion estimation diverged among studies (all after 2010), the
+inconsistency, especiallythe largediscrepancyshownin the data
+Fig.1. Frameworkoftheemissionmodelinthisstudy.
+comparison,stillhelpedinvestigatemajordifferences inouresti-
+mates and previous studies. Activity rates and emission factors
+amountof pollutant removal byall centralized wastewater treat-
+usedindifferentstudieswerecollectedandcomparedtorevealthe
+mentplantsin2020;andWrepresentstheamountoftotaltreated
+sourcesofuncertaintyininputdata(TablesS3eS4).Moreover,we
+wastewater in China. In equation (4), the amount of pollutant
+notedthatmostpreviousstudieshaveusedmethodsbasedonthe
+removalbymunicipalwastewatertreatmentplants(As)isassumed
+2006IPCCGuidelines[9e14,23].Todigdeepintothemethodology
+tobeproportionaltotheamountoftreatedmunicipalwastewater
+differences,wealsousedthe2006IPCCGuidelines(IPCC2006)and
+(Wm Thun eic iip na pl) u. tdatarequiredbyequations(2)e(4)arederivedfrom the 2019 refinement (IPCC 2019) to estimate CH4 and N2O emis-
+sions from China's MWWTPs in 2020 independently (Text S3;
+severalstatisticalyearbooksandreports.Ps,Wmunicipal,andWind-
+Tables S1eS2), which helped us understand the differences be-
+ustrialarederivedfromSection5.2.1intheAnnualStatisticReport
+tween the IPCC-based methods and our plant- and technology-
+onEcologyandEnvironmentreleasedbyMEE(https://www.mee.
+basedmethodsdevelopedinthisstudy.
+gov.cn/hjzl/sthjzk/sthjtjnb/). The fraction of
+W =W þW is estimated as 88.0% in 2020.
+municipal municipal industrial
+Ap;s comes from the China Environment Yearbook. The sharing 2.5. Uncertaintyanalysis
+percentages of each province in the national total activity rates
+P
+(Ap;s= pAp;s)remainrelativelystablebetween2011and2015. anaT lyo sa isss we ass st ph ee rfu on rmce er dta bin yti ee ss tio mf ae tm ini gss ti ho en 9e 5s %tim coa nte fis d, eM nco ent ie ntC ea rvrl ao
+l
+ofCH4andN2Oemissions.Wecollecteduncertaintyinformationon
+2.3. Emissionfactors activity data and emission factors that can be described as a
+probability density function and built a Monte Carlo framework.
+Emissionfactors(EFj,s)aredeterminedaccordingtothebiolog- The plant-level activity rates were assumed to followa normally
+icaltreatmenttechnologyusedineachMWWTP.Weclassifiedthe distributedpatternwithacoefficientofvariations(CV)of70%for
+MWWTPsinourplant-leveldatabaseinto19technologycategories CODremovaland100%forTNremoval,accordingtodatasources.
+according to their biological treatment processes (Table 1). Each The emission factors were assumed to follow triangular
+Table1
+Emissionfactors(EF)ofdifferentbiologicaltreatmenttechnologiesinthisstudy.
+No. Biologicaltreatmenttechnology EF(CH4) References EF(N2O) References
+(kgCH4perkgCODremoved) (kgN2OperkgTNremoved)
+1 AAO 0.0091 [29] 0.0081 [37]
+2 ReverseAAO 0.0091 SameasNo.1 0.0081 SameasNo.1
+3 AO 0.0138 [38e40] 0.0209 [38e40]
+4 SBR 0.0098 [31] 0.0196 [31]
+5 OD 0.0094 [15,24,25,37,41] 0.0111 [37]
+6 Membranebio-reactor 0.0027 [37] 0.0141 [37]
+7 Activatedsludge 0.0123 [31,42] 0.0178 [31,42]
+8 Biologicalaeratedfilter 0.0029 SameasNo.12 0.0102 SameasNo.12
+9 Rotatingbiologicalcontactor 0.0029 SameasNo.12 0.0102 SameasNo.12
+10 Biofilter 0.0029 SameasNo.12 0.0102 SameasNo.12
+11 Biologicalcontactoxidation 0.0029 SameasNo.12 0.0102 SameasNo.12
+12 Biofilm 0.0029 [37] 0.0102 [37]
+13 Aerobicbiologicaltreatment 0.0123 SameasNo.7 0.0178 SameasNo.7
+14 Anaerobichydrolysis 0.2 IPCC2019[43] 0 IPCC2019[43]
+15 Anaerobicbiologicaltreatment 0.2 IPCC2019[43] 0 IPCC2019[43]
+16 Biologicaltreatment 0.0095 TheaverageofNo.1e7 0.0142 TheaverageofNo.1e7
+17 Stabilizationpond 0.0571 SameasNo.18 0.0065 SameasNo.18
+18 Constructedwetland 0.0571 [37] 0.0065 [37]
+19 Others 0.0095 TheaverageofNo.1e7 0.0142 TheaverageofNo.1e7
+20 Unrecognized 0.0095 TheaverageofNo.1e7 0.0142 TheaverageofNo.1e7
+3
+
+--- Page 4 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+magnitude, with the top 1000 MWWTPs accounting forapproxi-
+matelytwo-thirdsoftotalCH4andN2Oemissions.Theseemission
+hotspotsaremostlyconcentratedindenselypopulatedcities.The
+plant hotspots of CH4 emissions mainly use the treatment tech-
+nologyofAAO(pinkdotsinFig.S2aandpinkpartinFig.S3a),while
+thehotspotsofN2Oemissionscomefromallthefourwidelyused
+treatmenttechnologies,AAO,SBR(greendotsinFig.S2bandgreen
+partinFig.S3b),OD(bluedotsinFig.S2bandbluepartinFig.S3b),
+andAO(reddotsinFig.S2bandredpartinFig.S3b).
+3.2. Socioeconomicfactorsdrivingemissiondistribution
+Emission totals of each city are integrated to investigate the
+socioeconomicfactorsthataffectemissiondistributions.MWWTP
+emissions vary widely bycity, ranging from 0.5 to 8602.0 metric
+tonsforCH4andfrom0.08to1020.0metrictonsforN2O.Thetop
+three cities with the largest emissions from MWWTPs are
+Shanghai,Beijing,andTianjin(Fig.S4),whichaccountfor11.0%of
+CH4 emissions and 12.1% of N2O emissions, surpassing their pro-
+portionsinChina'spopulation(4.3%)andGDP(8.8%).Theothertop
+20 cities of MWWTP emissions are also shown in Fig. S4. These
+biggestemissioncitiesproducethemostmunicipalwastewaterdue
+to their large population and economic production, and large
+amountsofCODandTNareremovedbyMWWTPsinthesecities
+Fig. 2. Plant-level and technology-specific CH4 (a) and N2O (b) emissions from (Fig.S4).
+MWWTPsinChina,witheachdotrepresentingawastewatertreatmentfacility. As shown in Fig. 3, we further examined the variations in
+emissionsfromMWWTPsamongcitiesonapercapitabasis,with
+thecumulativeemissionsonthey-axisandthecumulativepopu-
+distributions for technologies with mean values and ranges. For
+lation on the x-axis ranked by GDP per capita of different cities.
+othertechnologies,100%deviationswereappliedasthelowerand
+CitieswithhigherGDPpercapitatendtoemitmoreCH4andN2O
+upperbounds,consideringthelargevariationsofemissionfactors.
+fromMWWTPsthancitieswithlowerGDPpercapitaforthesame
+100000trialswereconductedtoestimatetheuncertaintyrangeat population.Themosteconomicallyinfluentialcities,where20.0%
+a95%confidenceinterval.
+ofChina'spopulationresides,accountfor34.3%and30.7%ofCH4
+andN2OemissionsfromMWWTPsin2020,respectively(Fig.3).In
+3. Results contrast, in the cities with the lowest GDP per capita, 20.0% of
+China's population onlyaccounts for 10.7% and 11.6% of CH4 and
+3.1. MagnitudeanddistributionofemissionsfromMWWTPs N2O emissions, respectively, in 2020 (Fig. 3). The contrast of city
+emissiondistributionsindicatesanemissioninequalityacrosscit-
+The emissions from MWWTPs in China are estimated to be ies,i.e,peoplelivingintherichestcitiesemittwotimesmoreCH4
+150.6 Gg CH4 and 22.0 Gg N2O in 2020, over 70% of which are andN2Opercapitathanthoselivinginthepoorestcities,probably
+dominated by four widely used wastewater treatment technolo- due to a two-time larger amount of wastewater and pollutant
+gies, namely anaerobic/anoxic/oxic (AAO), sequencing batch produced.Suchahighcorrelationbetweenwastewaterproduction
+reactor (SBR), anoxic/oxic (AO), and oxidation ditch (OD) (Fig. 2). andsocioeconomicgrowthhasbeenreportedglobally[27,28].The
+Specifically,theAAO-,OD-,SBR-,andAO-basedMWWTPsaccount emission inequality among cities indicates that cities of different
+for 39.1%,18.8%,11.2%, and 10.6%, of CH4 emissions, respectively, development levels should formulate differentiated emission
+and account for 27.3%,18.2%,17.8%, and 12.7% of N2O emissions, mitigationpoliciesforwastewatertreatment.Besides,weobserved
+respectively. The GHG emissions of different treatment processes a significant difference in technology preferences for wastewater
+can vary widely due to different operational characteristics, site- treatment among cities, with AAO systems more widely used in
+specific influent concentrations, control parameters, and mea- citieswithhigherGDPpercapita.
+surement methods. Previous studies show that the CH4 and N2O
+emissionfactorsofdifferenttreatmenttechnologiesvarywidelyby 3.3. MWWTPsemissionsbyyearsofservice
+orders of magnitude, and generally, SBR has higher emission in-
+tensitiesthanAAO[15e18,24e26].TheCH4emissionfactorofAAO The CH4 and N2O emissions in 2020 are mostly generated by
+applied in this study is comparable tothose of OD, SBR, and AO, MWWTPswithyearsofservicelessthan20years(i.e.,builtafter
+whileitsN2OemissionfactorislowerthanOD,SBR,andAO.That 2000) (Fig. 4), especially within 10e20 years (i.e., built between
+explains why MWWTPs using the AAO technology generate the 2000and2010),whilefeweremissionscomefromolderornewer
+largestshareofCH4emissionsinChinabuthavearelativelysmaller MWWTPs. Such an emission distribution pattern reflects the
+contributiontoN2Oemissions. developmenttrendofMWWTPsinChinaoverthelasttwodecades.
+Fig. S2 presents the geographical distribution of the 8703 In 2000, 66.7% of China's wastewater was discharged into the
+MWWTPsinChina,theiremissionsin2020(dotsize),andwaste- environmentuntreated,whilethispercentagedeclinedto17.7%in
+water treatment technology (dot color). MWWTPs and their 2010 (Ministry of Housing and Urban-Rural Construction of the
+emissionsareunevenlydistributedinspaceandaremainlylocated People's Republic of China, https://www.mohurd.gov.cn/) due to
+in East China, where most of China's population and Gross Do- thelarge-scaleconstructionofMWWTPs,whichincreasedwaste-
+mestic Product (GDP) are concentrated. The emissions from all watertreatmentcapacityby383.6%duringthetenyears[29].The
+China's MWWTPs vary by a wide data range across orders of constructionofMWWTPscontinuedbutsloweddownafter2010,
+4
+
+--- Page 5 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+37% at a 95% confidence interval) and N2O (22.0 Gg; uncertainty
+rangeof(cid:1)30%to26%ata95%confidenceinterval)emissionsfrom
+MWWTPsinChinain2020areconsistentwiththelateststudyof
+Wang et al. (2022) [20], which also used plant-level information
+andestimatedemissionsof69.1GgCH4and17.8GgN2Ofor2019.
+We give a larger estimate of CH4 emissions because the plant-
+integratedCH4emissionfactorsofthemostcommonlyusedtech-
+nologies,AAO,SBR,OD,andAO,derivedfromfieldmeasurementin
+this studyare 2.1e18.7 times the emission factors used by Wang
+et al. (2022) [20], coming from reactor-scale measurements. Pre-
+vious studies also suggest that plant-integrated emission factors
+tend to be larger than those aggregated from reactor-scale mea-
+surements[31],probablybecauseplant-integratedemissionfactors
+are more appropriate to represent total emissions from a waste-
+waterplant[32].
+Other previous studies show a large spread of annual CH4
+emissionestimatesforMWWTPsinChina,whichspansfrom6.2to
+1271.5Gg for theyears before 2016 (Fig.5).While ourresults lie
+withinthisrange,thedifferenceoftwoordersofmagnitudeshown
+here suggests potential large uncertainties in our current under-
+standing of MWWTPs emissions. Comparisons across different
+studies(TableS3)suggestthatthelargediscrepanciesaremainly
+duetotheusageofdifferentemissionfactors,whileactivityrates
+Fig.3. VariationsofcumulativeCH4andN2Oemissionswiththecumulativepopula-
+are broadly consistent based on statistical data. The studies that
+tionofdifferentcities.Citiesarerankedfromlefttorightbasedonthedescending
+provide lower emission estimates mostly use emission factors
+orderofGDPpercapita.Piechartsonthetoppanelshowthecontributionofdifferent
+technologiestowastewatertreatmentcapacityacrosscitiesandpopulations. derivedfromreactor-scalemeasurements,suchasCaietal.(2015)
+[10],Wangetal.(2022)[20],Guoetal.(2019)[23],andYanetal.
+further increasing wastewater treatment capacity by 84.6% from (2018) [33]. The studies that give higher estimates of emissions
+2010to2020andreducingthepercentageofuntreatedwastewater tend to use emission factors based on the 2006 IPCC Guidelines
+to 2% during the same period [30]. The slower growth during [11,12,14,34].TheIPCCapproacheshavebeenoptimizedandcom-
+2010e2020explainswhyMWWTPsbuiltafter2010contributetoa bined with local data if available in these studies. However, the
+lower share, amounting to less than half, of emissions than studiesbasedonthe2006IPCCguidelinesstilltendtogivelarger
+MWWTPsbuiltbetween2000and2010. emission estimates thanthose based on field-measured emission
+We further explored the MWWTP emission distributions by factors.Inourstudy,weconductedathoroughliteraturereviewto
+treatmenttechnologyandagegroup(Fig.S5).TheremovalofCOD obtainplant-integratedemissionfactors,which,toourknowledge,
+andTNismostlydominatedbyAAO-basedMWWTPslessthan20 couldreflectthecurrentbestunderstandingofMWWTPemission
+yearsold,followedbyOD-andSBR-basedMWWTPsinthesame levels. However, the measurement of plant-integrated emission
+agegroup(Figs.S5aandb).TheCH4emissiondistributionpatterns factors is still insufficient at present to constrain uncertainties in
+acrosstreatmenttechnologiesandagegroupsbroadlyagreewith emissioninventories,whichdeservesmoreattentioninthefuture.
+the COD removal (Fig. S5c), while the distributions of N2O emis- Few studies have estimated N2O emissions from MWWTPs in
+sions differ from those of TN removal (Fig. S5d). Unlike the TN China, which provides a large spread between 1.3 and 93.5 Gg
+removal,AAO-,SBR-,OD-,andAO-basedMWWTPsoflessthan20 (Fig.5).Ouremissionresultsfallwithinthiswidedatarange.Like
+years old all contributed significantly to N2O emissions. This is CH4,thesubstantialdifferencesintheestimatesofN2Oemissions
+mainlyduetothelowerplant-integratedN2Oemissionfactorsof reflectlargeuncertaintiesincurrentemissioninventories,mainly
+AAOprocessesthantheothertreatmenttechnologiesusedinthis attributedtoalackofreliableN2Oemissionfactors(TableS4).Our
+study(Table1).Previousstudiesusingreactor-scalemeasurements study here adopts the latest field measurement of N2O emission
+havealsoobservedhigherN2OemissionratesofSBRsystemsthan factorstobuildouremissioninventory,aimingtoimproveemission
+AAOsystems[15e18,25,26]. estimates as much as possible, which could benefit from more
+SincethelifeexpectancyofMWWTPsistypically40e50years measurementdataifavailable.
+onaverage,therelativelyyoungagestructureofChina'sMWWTPs
+suggeststhatmostofChina'sMWWTPscouldcontinuetooperate 4.2. ComparisonwithIPCCmethods
+andgenerateCH4andN2Oemissionsinthecoming20e30years.
+Those operational MWWTPs in 2020, even those emission hot- Ouremission approach differs fromthe IPCC methods in esti-
+spots, are not expected to retire shortly. Therefore, any emission mating activity data and emission factors. The IPCC methods
+mitigationmeasuresmustbedesignedconsideringthecommitted multiply population by per capita organic matter generation and
+emissions from the current MWWTPs in China. To reduce the consumption to roughly represent activity data. For example,
+climateimpactsofMWWTPs,wemayneedtopayattentiontothe population and country-specific per capita biochemical oxygen
+measures that can reduce on-site emissions by optimizing oper- demand (BOD)/COD are combined tocalculateBOD/COD removal
+atingconditionsandintroducinginnovativemanagement. for CH4 emission estimation. For N2O, the IPCC 2019 refinement
+method estimates activity data by combining the amount of
+4. Discussion wastewater plant-served populationwith percapita proteincon-
+sumption.OurstudyusestheamountofCODandTNremovalby
+4.1. Comparisonwithpreviousstudies MWWTPs derived from actual statistics as activity data, repre-
+sentingmoredirectmeasuresof theactivitiesrelatedtoCH4and
+OurestimatesofCH4 (150.6 Gg;uncertainty rangeof(cid:1)30% to N2Oemissionsduringwastewatertreatment.
+5
+
+--- Page 6 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+findingisconsistentwithXietal.(2021)[18],whichsuggeststhat
+N2Oemissionscalculatedusingfirm-leveloperationdataarelower
+thantheestimateoftheIPCC2019refinementmethodbuthigher
+thantheestimatebasedonthe2006IPCCGuidelines.
+4.3. Limitationsandfuturework
+Thecomprehensivecomparisonswithpreviousstudiesandthe
+IPCC methods indicate the necessity of developing plant-level
+emissioninventoriesforMWWTPs,especiallyconsideringtheun-
+even distribution of emissions in space and the dependence of
+emissionfactorsonwastewatertreatmenttechnology.Ourstudyis
+one of the first attempts to establish plant-level emission in-
+ventoriesforMWWTPsinChinausingplant-andtechnology-based
+information.Basedonthehigh-resolutionemissionaccounting,our
+analysis reveals unprecedented emission features and details not
+shownbefore.However,thelargediscrepanciesinthecomparison
+still suggest large uncertainties underlying our current under-
+standingofGHG emissionsfromMWWTPs.Toaddresstheseun-
+certainties and harmonize different estimates, further
+investigations are imperative, including improvements in the
+followingaspects.
+Firstly, acquiring data on the COD or TN removal of each
+Fig.4. AgestructureofCH4andN2OemissionsfromMWWTPsinChina.Barsindicate MWWTP becomes imperative to reduce uncertainties in activity
+theemissiondistributionfromdifferentregionsforeachagegroup.Note:0yearsold
+data,whicharecausedbydownscalingcountry-levelactivitydata
+means the WWTP began operating from 2020 in this study. Pie charts show the
+contribution of different biological treatment technologies to total CH4 and N2O to plant scales in this study. Secondly, measurements of plant-
+emissions. integrated emission factors are urgently needed to extend to
+coveralltreatmenttechnologieswithmorereliablesamples.This
+canhelpimprovetheaccuracyoftheemissionfactor,whichisone
+TheemissionfactorsrecommendedbytheIPCCguidelinesare
+ofthemostuncertainparametersinourcurrentemissionestimates
+mostlyderivedfromexpertjudgmentbasedonaliteraturereview,
+forMWWTPs.Furthermore,theemissionfactorsofMWWTPsare
+failingtodistinguishdifferentwastewatertreatmenttechnologies.
+alsoaffectedbyoperatingconditions,suchaswastewatertemper-
+CH4 emission factors are calculated as the product of the default
+ature,dissolvedoxygen,andCODandTNconcentrations[15,35,36].
+maximum CH4-producing capacity and country-specific methane
+Developingadata-drivenorprocess-basedemissionfactormodel
+correction factor, both of which do not distinguish treatment
+can further improve dynamic estimates of MWWTP emissions,
+technologies.ForN2O,the2006IPCCGuidelinesestimateemissions whichisbeneficialtoaccurateemissionestimates,emissionman-
+based onpopulation and N2O emissions percapita, and the IPCC
+agement,andmitigationmeasuredesign.Moredatasetsshouldbe
+2019 refinement method further recommended emission factors
+establishedandintegratedtodevelopamorecomprehensiveun-
+based on full-scale plant measurement. Distinct from the IPCC
+derstandingofMWWTPemissions.
+methods, our study collects technology-specific emission factors,
+whicharederivedfromplant-integratedmeasurementtechniques,
+5. Conclusionsandimplications
+andcombinesthemwithournewlydevelopedplant-leveldatabase
+forMWWTPstodepictemissioncharacteristicsinmoredetail.
+Inconclusion,wehavedevelopedahigh-resolutioninventoryof
+Due to the methodological differences described above, our
+CH4 and N2O emissions from biological treatment processes of
+emissionresultsarelargelydifferentfromtheestimationbasedon
+MWWTPsinChinain2020.Usingthemostup-to-datefacility-level
+theIPCCmethods(Fig.5).ForCH4,thetotalCODremovalfromthe
+databases,ourinventoryoffersanunprecedentedlevelofdetailon
+Annual Statistic Report on Ecology and Environment released by
+emission features. The national CH4 and N2O emissions from
+MEE (https://www.mee.gov.cn/hjzl/sthjzk/sthjtjnb/), used as ac-
+MWWTPs are 150.6 Gg and 22.0 Gg, with the uncertainties esti-
+tivitydatainourmethod,is62.9%largerthanthatestimatedbythe mated to be (cid:1)30% to 37% and (cid:1)30% to 26% (at a 95% confidence
+IPCC methods. The average CH4 emission factor used in our esti-
+interval),respectively.Ourbottom-upanalysesrevealanemission
+mation is 76.7% lower than that of the 2006 IPCC Guidelines but
+inequality among different cities, with the most economically
+28.0%higherthanthatfromtheIPCC2019refinement.Therefore,
+developedcitiesemittingtwotimesmoreCH4andN2Opercapita
+ourCH4emissionresultsarelowerthantheestimatebasedonthe
+than the poorest cities. China's MWTTPs exhibit a relatively
+2006IPCCGuidelinesbyaround(cid:1)246Gg((cid:1)369Ggcontributedby
+youthfulagestructure,withmostCH4andN2Oemittedbyplants
+emission factorand þ123 Gg caused byactivitylevel)but higher
+lessthan20yearsold.Thisstudyshowsthatthewastewatersector
+thantheestimatebasedontheIPCC2019refinementmethodby
+is an important source of GHGs, especially for CH4 and N2O. The
+aroundþ78Gg(þ26Ggcontributedbyemissionfactorandþ52Gg
+wastewater sector can make valuable contributions to realizing
+byactivitylevel;Fig.5).ForN2O,theactivitydataandtheaverage
+carbon neutrality in China through technological innovation and
+emission factor in our study are 43.8% and 62.5%, respectively,
+integration, though this transformation requires both time and
+lower than those estimated based on the IPCC 2019 refinement
+investment. In addition, the emission inequality across cities im-
+method. Our estimation of N2O emissions is thus lower than the
+pliesthateconomicallydevelopedcitiesbearmoreresponsibilityto
+estimation based on the IPCC 2019 refinement method by
+reduce carbon emissions from wastewater treatment. Taking all
+around(cid:1)54Gg((cid:1)31Ggcontributedbyemissionfactorand(cid:1)23Gg
+these factors into consideration, there stands a good chance that
+byactivitylevel).TheN2Oemissionsestimatedinthisstudyare3.2
+technological innovation in wastewater treatment will be imple-
+times higher than the 2006 IPCC Guidelines-based estimate. This mented first in more developed regions, such as East China. It
+6
+
+--- Page 7 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+AppendixA. Supplementarydata
+Supplementary data to this article can be found online at
+https://doi.org/10.1016/j.ese.2023.100345.
+References
+[1] M.El-Fadel,M.Massoud,Methaneemissionsfromwastewatermanagement,
+Environ.Pollut.114(2001)177e185,https://doi.org/10.1016/S0269-7491(00)
+00222-0.
+[2] V.Parravicini,K.Svardal,J.Krampe,Greenhousegasemissionsfromwaste-
+water treatment plants, Energy Proc. 97 (2016) 246e253, https://doi.org/
+10.1016/j.egypro.2016.10.067.
+[3] T.K.L.Nguyen,H.H.Ngo,W.Guo,L.D.Nghiem,G.Qian,Q.Liu,J.Liu,Z.Chen,
+X.T.Bui,B.Mainali,Assessingtheenvironmentalimpactsandgreenhousegas
+emissionsfromthecommonmunicipalwastewatertreatmentsystems,Sci.
+Total Environ. 801 (2021) 149676, https://doi.org/10.1016/
+j.scitotenv.2021.149676.
+[4] M.J. Kampschreur, H. Temmink, R. Kleerebezem, M.S.M. Jetten, M.C.M. van
+Loosdrecht,Nitrousoxideemissionduringwastewatertreatment,WaterRes.
+43(2009)4093e4103,https://doi.org/10.1016/j.watres.2009.03.001.
+[5] M.R.J. Daelman, E.M. van Voorthuizen, U.G.J.M. van Dongen, E.I.P. Volcke,
+M.C.M. van Loosdrecht, Methane emission during municipal wastewater
+treatment, Water Res. 46 (2012) 3657e3670, https://doi.org/10.1016/
+j.watres.2012.04.024.
+[6] T.M.Massara,S.Malamis,A.Guisasola,J.A.Baeza,C.Noutsopoulos,E.Katsou,
+Areviewonnitrousoxide(N2O)emissionsduringbiologicalnutrientremoval
+from municipal wastewater and sludge reject water, Sci. Total Environ.
+596e597(2017)106e123,https://doi.org/10.1016/j.scitotenv.2017.03.191.
+[7] A.Xu,Y.-H.Wu,Z.Chen,G.Wu,Q.Wu,F.Ling,W.E.Huang,H.-Y.Hu,Towards
+mFig e. th5 o. dC ,H IP4 Ca Cnd 20N 12 9O mem eti hs osi do ,n ae nv da plu ra et vio ion ub sy stf ua dci il eit sy .-baseddatainthisstudy,IPCC2006 t sh tae tun se ,w ane dra fo uf tuw reast de iw rea ct te ior nt sr ,ea Wtm ate en rt Co yf cC lehin 1a (: 2d 0e 2v 0e )lo 8p 0m ee 8n 7t ,h hi ts tt po sr :y /, /dc ou ir .r oe rn gt
+/
+10.1016/j.watcyc.2020.06.004.
+[8] J.Qu,X.Dai,H.-Y.Hu,X.Huang,Z.Chen,T.Li,Y.Cao,G.T.Daigger,Emerging
+trendsandprospectsformunicipalwastewatermanagementinChina,ACS
+ES&T Engineering 2 (2022) 323e336, https://doi.org/10.1021/
+should be noted that innovative, low-carbon technologies won't acsestengg.1c00345.
+replacethecurrentconventionaltreatmenttechnologiesmassively [9] J.Wang,J.Zhang,H.Xie,P.Qi,Y.Ren,Z.Hu,Methaneemissionsfromafull-
+scale A/A/O wastewater treatment plant, Bioresour. Technol. 102 (2011)
+inthenearfuture,especiallyconsideringtheyoung-agestructureof
+5479e5485,https://doi.org/10.1016/j.biortech.2010.10.090.
+China's MWWTPs. Therefore, attention should also be paid to [10] B. Cai, Q. Gao, Z. Li, J. Wu, J. Wang, Estimation of methane emission of
+reducingcarbonemissionsfromtreatmentprocessesbyoptimizing wastewater treatment plants in China, China Environ. Sci. 35 (2015)
+3810e3816.
+theoperatingconditionsofcurrenttechnologies.
+[11] Z.-Y.Ma,P.Feng,Q.-X.Gao,Y.-N.Lu,J.-R.Liu,W.-T.Li,CH4emissionsand
+reductionpotentialinwastewatertreatmentinChina,Adv.Clim.ChangeRes.
+Dataavailability 6(2015)216e224,https://doi.org/10.1016/j.accre.2015.11.006.
+[12] M.Du,Q.Zhu,X.Wang,P.Li,B.Yang,H.Chen,M.Wang,X.Zhou,C.Peng,
+EstimatesandpredictionsofmethaneemissionsfromwastewaterinChina
+The dataset in this study is available from the corresponding from2000to2020,Earth'sFuture6(2018)252e263,https://doi.org/10.1002/
+author(lihaiyan2021@hit.edu.cn)uponreasonablerequest. 2017EF000673.
+[13] X.Yan,D.Qiu,S.Zheng,K.Cheng,Y.Han,J.Sun,X.Su,Spatialandtemporal
+distributionofgreenhousegasemissionsfrommunicipalwastewatertreat-
+CRediTauthorshipcontributionstatement mentplantsinChinafrom2005to2014,Earth'sFuture7(2019)340e350,
+https://doi.org/10.1029/2018EF001058.
+Haiyan Li: Conceptualization, Methodology, Visualization, [14] X.Zhao,X.K.Jin,W.Guo,C.Zhang,Y.L.Shan,M.X.Du,M.R.Tillotson,H.Yang,
+Writing-OriginalDraft,Writing-Reviewing&Editing.Liangfang X w. aW te. rLi ta ro e, atY m.P e. nL ti, pC lh ai nn ta ,'s Eau rr tb ha 'sn Fm ue tuth rean 7ee (2m 0i 1ss 9i )on 4s 80fr eo 4m 90m ,u hn ti tc pi sp :a //l dw oia .os rte g-
+/
+You:DataCuration,Validation.HeDu:DataCuration.BowenYu: 10.1029/2018EF001113.
+Data Curation. Lu Lu: Writing - Reviewing & Editing. Bo Zheng: [15] Y.G.Ren,J.H.Wang,H.F.Li,J.Zhang,P.Y.Qi,Z.Hu,Nitrousoxideandmethane
+Conceptualization, Supervision, Writing - Reviewing & Editing. e wm atis es rio tn res af tr mom entdi pff le ar ne tn st t Er ne va it rm onen .t Tp ecro hc ne os ls .e 3s 4in (2fu 0l 1l- 3s )ca 2le 91m 7eun 2i 9c 2ip 7a ,l hw tta ps st :e /-
+, /
+QiangZhang:Writing-Reviewing&Editing.KebinHe:Writing-
+doi.org/10.1080/09593330.2012.696717.
+Reviewing&Editing.NanqiRen:Writing-Reviewing&Editing. [16] S.Sun,X.Cheng,S.Li,F.Qi,Y.Liu,D.Sun,N2Oemissionfromfull-scaleurban
+wastewatertreatmentplants:acomparisonbetweenA2OandSBR,WaterSci.
+Technol.67(2013)1887e1893,https://doi.org/10.2166/wst.2013.066.
+Declarationofcompetinginterest [17] T.K.L.Nguyen,H.H.Ngo,W.Guo,S.W.Chang,D.D.Nguyen,L.D.Nghiem,Y.Liu,
+B.Ni,F.I.Hai,Insightintogreenhousegasesemissionsfromthetwopopular
+The authors declare that they have no known competing treatment technologies in municipal wastewater treatment processes, Sci.
+Total Environ. 671 (2019) 1302e1313, https://doi.org/10.1016/
+financial interests or personal relationships that could have j.scitotenv.2019.03.386.
+appearedtoinfluencetheworkreportedinthispaper. [18] J.Xi,H.Gong,Y.Zhang,X.Dai,L.Chen,TheevaluationofGHGemissionsfrom
+ShanghaimunicipalwastewatertreatmentplantsbasedonIPCCandopera-
+tionaldataintegratedmethods(ODIM),Sci.TotalEnviron.797(2021)148967,
+Acknowledgements https://doi.org/10.1016/j.scitotenv.2021.148967.
+[19] D.J.Jacob,D.J.Varon,D.H.Cusworth,P.E.Dennison,C.Frankenberg,R.Gautam,
+This work was supported by the Shenzhen Science and Tech- L. Guanter, J. Kelley, J. McKeever, L.E. Ott, B. Poulter, Z. Qu, A.K. Thorpe,
+J.R.Worden,R.M.Duren,Quantifyingmethaneemissionsfromtheglobalscale
+nologyInnovationCommission(No.RCBS20210609103731062,No.
+downtopointsourcesusingsatelliteobservationsofatmosphericmethane,
+WDZC20220810110301001), and Guangdong Basic and Applied Atmos. Chem. Phys. 22 (2022) 9617e9646, https://doi.org/10.5194/acp-22-
+Basic Research Foundation (No. 2021A1515110887). H.L. acknowl- 9617-2022.
+[20] D.Wang,W.Ye,G.Wu,R.Li,Y.Guan,W.Zhang,J.Wang,Y.Shan,K.Hubacek,
+edge additional support from the Shenzhen Overseas High-Level
+Greenhousegasemissionsfrommunicipalwastewatertreatmentfacilitiesin
+TalentProject. China from 2006 to 2019, Sci. Data 9 (2022) 317, https://doi.org/10.1038/
+7
+
+--- Page 8 ---
+H.Li,L.You,H.Duetal. EnvironmentalScienceandEcotechnology20(2024)100345
+s41597-022-01439-7. municipal waste water treatment plant, Atmos. Meas. Tech. 8 (2015)
+[21] W.-J.Du,J.-Y.Lu,Y.-R.Hu,J.Xiao,C.Yang,J.Wu,B.Huang,S.Cui,Y.Wang,W.- 2853e2867,https://doi.org/10.5194/amt-8-2853-2015.
+W. Li, Spatiotemporal pattern of greenhouse gas emissions in China's [33] X.Yan,D.Qiu,D.Guo,X.Qi,S.Zheng,K.Cheng,J.Sun,J.Liu,Emissionin-
+wastewatersectorandpathwaystowardscarbonneutrality,NatureWater1 ventoryofgreenhousegasfromurbanwastewatertreatmentplantsandits
+(2023)166e175,https://doi.org/10.1038/s44221-022-00021-0. temporalandspatialdistributioninChina,Environ.Sci.J.Integr.Environ.Res.
+[22] Y.Xue,C.Li,ExtractingChinesegeographicdatafromBaidumapAPI,STATAJ. 39(2018).
+20(2020)805e811,https://doi.org/10.1177/1536867x20976313. [34] J.Ren,Q.Gao,H.Chen,D.Meng,Y.Zhang,Z.Ma,Q.Liu,J.Tang,Simulation
+[23] S.Guo,H.Huang,X.Dong,S.Zeng,Calculationofgreenhousegasemissionof research on greenhouse gas emissions from wastewater treatment plants
+municipalwastewatertreatmentanditstemporalandspatialtrendinChina, under the vision of carbon neutrality, Climate Change Research 17 (2021)
+Water&Wastewaterengineering45(2019)56e62. 410e419.
+[24] Y.Liu,X.Cheng,X.Lun,D.Sun,CH4emissionandconversionfromA2Oand [35] D.Kim,J.D.Bowen,E.C.Ozelkan,Optimizationofwastewatertreatmentplant
+SBRprocessesinfull-scalewastewatertreatmentplants,J.Environ.Sci.26 operation for greenhouse gas mitigation, J. Environ. Manag. 163 (2015)
+(2014)224e230,https://doi.org/10.1016/S1001-0742(13)60401-5. 39e48,https://doi.org/10.1016/j.jenvman.2015.07.005.
+[25] X.Yan,L.Li,J.Liu,Characteristicsofgreenhousegasemissioninthreefull- [36] F.Huang,W.Shen,X.Zhang,P.Seferlis,Impactsofdissolvedoxygencontrol
+scale wastewater treatment processes, J. Environ. Sci. 26 (2014) 256e263, ondifferentgreenhousegasemissionsourcesinwastewatertreatmentpro-
+https://doi.org/10.1016/S1001-0742(13)60429-5. cess, J. Clean. Prod. 274 (2020) 123233, https://doi.org/10.1016/
+[26] X.Zhou,F.Yang,F.Yang,D.Feng,T.Pan,H.Liao,Analyzinggreenhousegas j.jclepro.2020.123233.
+emissions from municipal wastewater treatment plants using pollutants [37] H.Hua,S.Jiang,Z.Yuan,X.Liu,Y.Zhang,Z.Cai,Advancinggreenhousegas
+parameternormalizingmethod：acasestudyofBeijing,J.Clean.Prod.376 emissionfactorsformunicipalwastewatertreatmentplantsinChina,Environ.
+(2022)134093,https://doi.org/10.1016/j.jclepro.2022.134093. Pollut.295(2022)118648,https://doi.org/10.1016/j.envpol.2021.118648.
+[27] M.Flo€rke,E.Kynast,I.Ba€rlund,S.Eisner,F.Wimmer,J.Alcamo,Domesticand [38] M.R.J. Daelman, E.M. van Voorthuizen, L.G.J.M. van Dongen, E.I.P. Volcke,
+industrial water uses of the past 60 years as a mirror of socio-economic M.C.M.vanLoosdrecht,Methaneandnitrousoxideemissionsfrommunicipal
+development:aglobalsimulationstudy,GlobalEnviron.Change23(2013) wastewatertreatmenteresultsfromalong-termstudy,WaterSci.Technol.
+144e156,https://doi.org/10.1016/j.gloenvcha.2012.10.018. 67(2013)2350e2355,https://doi.org/10.2166/wst.2013.109.
+[28] E.R. Jones, M.T.H. van Vliet, M. Qadir, M.F.P. Bierkens, Country-level and [39] H.Yoshida,J.Mønster,C.Scheutz,Plant-integratedmeasurementofgreen-
+griddedestimatesofwastewaterproduction,collection,treatmentandreuse, house gas emissions from amunicipal wastewatertreatment plant, Water
+EarthSyst.Sci.Data13(2021)237e254,https://doi.org/10.5194/essd-13-237- Res.61(2014)108e118,https://doi.org/10.1016/j.watres.2014.05.014.
+2021. [40] S.Masuda,S.Suzuki,I.Sano,Y.-Y.Li,O.Nishimura,Theseasonalvariationof
+[29] Y.Chong,H.Li,T.Pan,L.You,H.Du,B.Yu,J.Chen,L.Lu,ComparisonofOn-Site emission of greenhouse gases from a full-scale sewage treatment plant,
+and Plant-Integrated Measurements of Greenhouse Gas Emissions from a Chemosphere 140 (2015) 167e173, https://doi.org/10.1016/
+MunicipalWastewaterTreatmentPlant,preparation,2023. j.chemosphere.2014.09.042.
+[30] H.W.JiuhuiQu,KaijunWang,GangYu,BingKe,YuHan-Qing,HongqiangRen, [41] S.Masuda,I.Sano,T.Hojo,Y.-Y.Li,O.Nishimura,Thecomparisonofgreen-
+XingcanZheng,JiLi,Wen-WeiLi,SongGao,HuiGong,Municipalwastewater house gas emissions in sewage treatment plants with different treatment
+treatmentinChina:developmenthistoryandfutureperspectives,Front.En- processes, Chemosphere 193 (2018) 581e590, https://doi.org/10.1016/
+viron.Sci.Eng.13(2019)88,https://doi.org/10.1007/s11783-019-1172-x. j.chemosphere.2017.11.018.
+[31] A.Delre,J.Mønster,C.Scheutz,Greenhousegasemissionquantificationfrom [42] J. Samuelsson, A. Delre, S. Tumlin, S. Hadi, B. Offerle, C. Scheutz, Optical
+wastewatertreatmentplants,usingatracergasdispersionmethod,Sci.Total technologiesappliedalongsideon-siteandremoteapproachesforclimategas
+Environ. 605e606 (2017) 258e268, https://doi.org/10.1016/ emission quantification at a wastewater treatment plant, Water Res. 131
+j.scitotenv.2017.06.177. (2018)299e309,https://doi.org/10.1016/j.watres.2017.12.018.
+[32] C.E.YverKwok,D.Müller,C.Caldow,B.Lebe(cid:2)gue, J.G.Mønster,C.W.Rella, [43] IPCC2019,Refinementtothe2006IPCCGuidelinesforNationalGreenhouse
+C.Scheutz,M.Schmidt,M.Ramonet,T.Warneke,G.Broquet,P.Ciais,Methane Gas Inventories, Intergovernmental Panel on Climate Change, Japan, 2019
+emission estimates using chamber and tracer release experiments for a (Chapter6)-WastewaterTreatmentandDischarge.
+8

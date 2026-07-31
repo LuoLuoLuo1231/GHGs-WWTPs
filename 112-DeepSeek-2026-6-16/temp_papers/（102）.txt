@@ -1,0 +1,459 @@
+--- Page 1 ---
+Journal of Cleaner Production 532 (2025) 146894
+Contents lists available at ScienceDirect
+Journal of Cleaner Production
+journal homepage: www.elsevier.com/locate/jclepro
+Operational data-based greenhouse gas analysis for wastewater and sludge
+treatment at a megacity level
+Eric Twagirayezua, Xi Luob, Liezhong Fana, Xiaojing Xieb, Feixiang Zana,* , Xiejuan Lua,
+Xiaohui Wua, Xiaoming Liuc,**
+aSchool of Environmental Science and Engineering, and Hubei Key Laboratory of Multi-media Pollution Cooperative Control in Yangtze Basin, Huazhong University of
+Science and Technology, Wuhan, 430074, China
+bChangjiang Institute of Survey, Planning, Design and Research, Co. ,Ltd, Hubei Wuhan, 430010, China
+cSchool of Materials and Environmental Engineering, Shenzhen, Polytechnic University, Guangdong, 518055, China
+H I G H L I G H T S
+•Greenhouse gas emissions from electricity consumption make the most contribution.
+•Sequencing batch processes contribute the highest GHG intensity.
+•Influent concentrations significantly affect GHG emissions growth.
+•Carbon control strategies need to consider geographical situations.
+•Dearth of local data is a serious obstacle for more accurate carbon accounting.
+A R T I C L E I N F O A B S T R A C T
+Keywords: Climate change increases extreme weather events and ecosystem disruptions. It is imperative to estimate and
+Greenhouse gas emission further eliminate greenhouse gas (GHG) emissions in wastewater treatment sector. However, it lacks practical
+Wastewater treatment wastewater and sludge treatment and disposal (STD) GHG evaluation by using onsite datasets at a megacity level.
+Sludge treatment
+This study proposes a comprehensive GHG evaluation approach, integrating the carbon footprint accounting,
+Climate change
+mass balance modeling, and IPCC-recommended first-order of decay method by using the most practical datasets
+to estimate Wuhan City’s wastewater GHG emissions from 30 wastewater treatment plants (WWTPs) and 11
+sludge treatment and disposal sites. It is concluded that 317832 t CO2eq GHG emissions are generated in WWTPs,
+and 588913.5 t CO2eq are generated in STD. Within WWTPs, indirect emissions from energy consumption
+constitute the highest emissions at 68 % of the total emissions. This is followed by onsite nitrous emissions with
+23 % contribution, and methane emissions with a 9 % contribution. In WWTPs, sequencing batch reactors
+exhibited the highest GHG emission intensity with 1.63 kg CO2eq/m3, while in STD, building material appli-
+cation generated the highest contribution (52 %). Within the system boundary, direct GHG emissions accounted
+for 37 %, primarily stemming from onsite biological wastewater treatment and landfilling. Conversely, indirect
+GHG emissions were predominantly attributed to sludge disposal of building material applications. Sensitivity
+analysis identified the emissions factor in electricity is the most critical parameter, highlighting its significance
+towards carbon neutrality. The findings of this study highlight the significance of using practical datasets to
+develop city-specific strategies in mitigating GHG emissions.
+1. Introduction dramatically increased globally over the last two decades due to esca-
+lating urbanization and population explosion. In China, the amount of
+The production of wastewater and its by-product sludge have wastewater treatment and sewage sludge generated was around 63
+* Corresponding author.
+** Corresponding author.
+E-mail addresses: fxzan@hust.edu.cn(F. Zan), liuxiaoming@szpu.edu.cn(X. Liu).
+https://doi.org/10.1016/j.jclepro.2025.146894
+Received 14 March 2025; Received in revised form 4 August 2025; Accepted 17 October 2025
+Available online 30 October 2025
+0959-6526/© 2025 Published by Elsevier Ltd.
+
+--- Page 2 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+billion m3 and 3904 ×104 tons (80 % water content) in 2019, respec- solutions for low-carbon transition at megacity level; 3) to perform a
+tively. Wastewater treatment sector accounts for around 3 % of the sensitivity analysis to pinpoint the substantial variability of various
+global GHG emissions output, and for many towns wastewater treatment parameters to GHG emissions in wastewater treatment and sludge
+sector is among the top energy consumers with direct methane (CH4), disposal. To address these objectives, Wuhan City, a megacity in central
+nitrous oxide (N2O), and indirect carbon dioxide (CO2) being its primary China with rapid development in wastewater treatment sector, is
+constituents (Maktabifard et al., 2019). The direct CH4 and N2O emis- selected as a reference for conducting this study. By now, there are 30
+sions from WWTPs have been reported to constitute 12 % (Huang et al., WWTPs and 11 sludge disposal sites treating 5.4 million m3 wastewater
+2023) and 3.4 % (Chen et al., 2020) of global CH4 and N2O production. and 2029.6 tons of dried sludge per day (Yu et al., 2024; WMEEB, 2020),
+CH4 emissions are predominantly generated from sewer pipelines, pri- serving approximately thirteen million people. However, its GHG
+mary treatment, biological treatment, and anaerobic digestion (Nguyen emissions from WWTPs and STD is mostly unclear. Here, a compre-
+et al., 2019), while N2O is generated during nitrification, hensive GHG emission analysis is conducted by considering both
+ammonia-oxidizing, and heterotrophic denitrification (Ayotte et al., wastewater and sludge disposal using the most accurate data from
+2024; D. Wang et al., 2024). The indirect CO2 emissions are sourced official reports (WWRB, 2024). This study employed operational data
+from electricity consumption during aeration for biomass growth, coupled with reported emissions factors (EFs), mass balance modeling,
+degradation of organic matter, and sludge disposal (Daneshgar et al., and IPCC IPCC-recommended first order of decay (FOD) method (IPCC,
+2024; Xi et al., 2023), and marginal contribution from chemical and fuel 2006), to account for GHG emissions from WWTPs and STD using
+uses (Kosonen et al., 2016). Wuhan City as a reference. Furthermore, critical variables within the
+In recent years, GHG emissions from China’s wastewater systems system boundary were identified by sensitivity analysis, and potential
+have increased markedly. For instance, Yang et al. (2023)reported 30 solutions were provided to reduce GHG emissions This case study is
+Mt CO2eq was generated in 2020, which was just 13 Mt CO2eq in 2005. expected to provide supportive suggestions for better executing GHG
+However, carbon footprint varies depending on the implemented mitigation measures to achieve longer-term carbon-neutral targets in
+treatment technics and local factors such as treatment scale, discharging wastewater treatment sector, not only in Wuhan City but in other
+standards, etc. (Wu et al., 2022). Although GHG emissions from WWTPs megacities facing similar wastewater and sludge decarbonization issues.
+have been extensively reported, most of the studies employed regional
+or national collected data (summarized in supplementary Information 2. Materials and methods
+(SI), Table S1) rather than plant-level actual operating data (Wu et al.,
+2023; Yang et al., 2023). These are generally default values overlooking 2.1. Wastewater management in Wuhan City
+the discrepancies in various treatment technologies and geographical
+influences (Dong et al., 2023). Besides, previous studies focused on Wuhan City, the capital city of Hubei province, is a megacity in
+wastewater stages of either the current treatment technics (He et al., central China. Wuhan City has an urban area of 8570 km2 and runs 30
+2023; Ribera-Guardia et al., 2019), newly developed technics (Liu et al., WWTPs and 11 sludge disposal sites as shown in Fig. 1. The wastewater
+2022), or individual emissions sources such as CH4 (Moore et al., 2023; treatment is about 5.4 million m3/day with an average wastewater
+Song et al., 2023) and N2O (Ramírez-Melgarejo et al., 2020). Precedent production of 0.39 m3/person/day from Wuhan Water Resource Bulletin
+research on emissions in wastewater treatment sector assessed both (WWRB, 2024). The operational data from WWTPs in Wuhan City were
+direct and indirect GHG emissions. However, system boundaries of in- obtained from official databases such as Wuhan City Municipal Bureau
+clusion or exclusion are still issues (Yan et al., 2025). For instance, many of Ecology and Environment (WMEEB, 2020), including total nitrogen
+studies overlooked emissions from sewers, sludge transport, and carbon (TN), chemical oxygen demand (COD), treatment standards, etc. (in
+credits from energy recovery (Gao et al., 2025; Su et al., 2025). There- Table S3). The wastewater treatment technologies in Wuhan City
+fore, a more complete picture of GHG emissions from wastewater include AAO (aerobic, anaerobic, oxic), oxidation ditch (OD), aerated
+treatment and sludge disposal is necessary. biological biofilm (BF), sequencing batch reactors (SBR), conventional
+Megacities in China have implemented stringent wastewater treat- activated sludge systems (CAS), air-water backwash filter tank,
+ment and discharging standards, requiring high energy consumption high-efficiency secondary sedimentation tank, improved SBR, and
+and generating excessive sludge, leading to substantial GHG emissions others, of which, AAO and OD are the mainly used technics (Zhang et al.,
+during treatment and disposal (Song et al., 2025). Some studies have 2016; Guo et al., 2023).
+identified GHG emissions from wastewater treatment in megacities in
+China, such as in Shanghai (Fang et al., 2024), Beijing (Zhou et al., 2.2. System boundary definition and carbon emissions reduction
+2022a, 2022b), and Shenzhen (Liao et al., 2020). It is reported that assessment
+managing GHG emissions at the city scale is crucial for achieving sig-
+nificant reduction in carbon footprints, as it accounts for city-specific In this study, three main GHG emissions include CO2, CH4, and N2O.
+profiles (Hsu et al., 2020; Xi et al., 2021). However, from Megacities’ Besides, CO2 from biological wastewater treatment was considered
+perspectives, no GHG emissions analysis has been conducted consid- carbon neutral and excluded from the calculation, and only non-
+ering an extendable system boundary encompassing different treatment biogenic CO2 is counted as GHG emissions (IPCC, 2006). According to
+processes tailored to the specific influent characteristics, along with relevant studies (Su et al., 2023; Zhang et al., 2024), GHG emissions are
+localized sludge treatment and disposal alternatives (Table S2). Such an quantified from four different sources: a) CH4 and CO2 across sewers; b)
+analysis is necessary to quantify the overall GHG emissions from WWTPs N2O and CH4 from biological wastewater treatment operations; c) in-
+and sludge treatment and disposal (STD). Furthermore, previous studies direct emissions from internal electricity consumption during biological
+rarely assess the key sensitivity factors contributing to the variability in wastewater treatment operations including pretreatment, biological
+GHG emissions from WWTPs and STD, leaving a gap in the ability to treatment, and tertiary treatment; and d) direct and indirect GHG
+implement innovative strategies for achieving carbon peaking and emissions from sludge disposal. The typical wastewater treatment flow
+neutrality targets in wastewater treatment sector. is presented in Fig. 2, and calculation configuration is presented in
+Given the above-mentioned issues, previous studies are insufficient Fig. 3. The wastewater flow, wastewater influent, and effluent standards
+in establishing unified WWTPs and STD alternatives for GHG emissions are using the datasets in 2017, because it is the most complete and
+accounting at a megacity level. Therefore, the objectives of this study current data to be accessed.
+are: 1) to conduct a megacity-wide GHG emissions accounting in
+wastewater sector by integrating operational datasets and literature
+mining; 2) to identify key emission sources and propose strategic
+2
+
+--- Page 3 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+Fig. 1. Locations and distributions of wastewater treatment plants (WWTPs) and sludge treatment and disposal sites (STD) in Wuhan City. (P1-P30 represent the
+position of wastewater treatment plants, while C1-C11 represent sludge disposal sites).
+Fig. 2. The typical wastewater treatment stages and major GHG emissions sources. (WWT: wastewater treatment).
+3
+
+--- Page 4 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+Fig. 3. System boundary and calculation configurations of GHG emissions from wastewater treatment sector in Wuhan City.
+2.3. Direct GHG emissions from wastewater treatment operation latest grid electricity factor considered in Wuhan City (Wu et al., 2023).
+GHG emissions from electricity consumption were calculated as elabo-
+The recommended IPCC method calculates CH4 emissions from total rated in SI-2.3.
+organic matter (TOM), serving persons, biochemical oxygen demand
+(BOD), and income group (urban/rural). For N2O emissions, the IPCC 2.6. GHG emissions from sewer network
+uses per capita protein consumption and the percentage of nitrogen in
+protein as primary source of N2O emissions (IPCC, 2006, 2019). How- In 2017, the length of sewers was 2284.8 km in Wuhan City. Ac-
+ever, Zhou et al. (2022a); Zhou et al. (2022b)demonstrated that these cording to the literature, Jin et al., (2014) calculated GHG emissions
+indicators are volume equivalents in form of BOD and total nitrogen from sewer networks in Xi’an City, China, and stated that CH4 and CO2
+(TN), calculating GHG emissions on regional or city-wide scale instead are the predominant carbon emissions in sewers. Even though auto-
+of for the specific technique. Therefore, direct GHG emissions of CH4 and mated sensors provide the most accurate GHG estimation from sewers,
+N2O from wastewater treatment operations follow the pollutant removal they are challenged to be installed to monitor GHG emissions in each
+method (Su et al., 2023; Xi et al., 2021). Organic matter concentration in sewer in Wuhan City (Defratyka et al., 2021). Therefore, Su et al.
+wastewater was represented by chemical oxygen demand (COD) for CH4 (2023)’s method of combining EFs with sediment deposits is used to
+calculation, while TN represented nitrogen removal efficiency for N2O estimate CH4 and CO2 from sewers in Wuhan City. The detailed calcu-
+calculation. Moreover, Wuhan City implemented diverse treatment lation is elaborated in SI-2.4.
+technologies with different operating parameters, including hydraulic
+retention time (HRT), temperature, DO, and pH, and it resulted in sub-
+2.7. GHG emissions from sludge disposal option in Wuhan City
+stantial variations in pollutant removal rates and GHG emissions.
+Therefore, EFs of WWTPs’ GHG emissions are varied based on the
+To quantify the total GHG emissions from WWTPs in Wuhan City,
+treatment technologies. The detailed calculation of direct GHG emis-
+three sludge disposal options are included: incineration (INC), building
+sions is illustrated in SI-2.2.
+material application/cement production (BM), and landfilling (LF). LF is
+a conventional method used as an emergency sludge disposal in Wuhan
+2.4. Emissions factors used for direct GHG calculation City. At present, there are two landfills in Wuhan City: Changshankou
+Landfill and Chenjiachong Landfill, with sludge capacity of 2000 t/d and
+Even though calculating direct GHG emissions using EFs method will 320 t/d, respectively, and sludge is co-disposed with other municipal
+generate relatively high errors, recent studies have pointed out that it is solid wastes. As for INC, after dewatered, sludge is directly dried before
+more accurate to employ EFs from field monitoring studies by using over mixing with other solid wastes for combustion. The INC capacity is 2800
+one-year operating cycle (Huang et al., 2024; Liu et al., 2024). There- t/d, and the mixing ratio of sludge is 25 %. For BM, sludge is dewatered
+fore, EFs’ values used in this study were carefully selected based on the by plate and frame dewatering machine and then sent to a cement
+most accurate and longest operational data availability. After an production site for mixing with other solids and then burning in cement
+exhaustive literature review of more than 30 different studies conducted kiln. The capacity of the cement kiln is 12000 t/d, and the sludge ratio is
+mainly in China, CH4 and N2O EFs are normalized to COD (kg CH4/kg 10 %. GHG emissions are evaluated from sludge thickening, dewatering,
+COD) and TN (kg N2O/kg TN), by utilizing the mean EFs values from drying, and transportation to final disposal as illustrated in Fig. S2. The
+each treatment technology as shown in Table S3 and illustrated in initial water content of sludge thickening was 99 % (1 % solid content),
+Fig. S1. then it was reduced to 97 % (3 % solid content) (Wang et al., 2024a,
+2024b). After thickening, sludge was dewatered to 80 % in the first step
+2.5. Indirect GHG emissions from electricity consumption and then dried to 30 % for INC and BM, while it was directly dewatered
+to 75 % for LF (Liu et al., 2021). The energy consumption during sludge
+The indirect GHG emissions generated from electricity consumption thickening and dewatering was calculated following the methodology
+depend on electricity intensity, significantly affecting the total GHG developed in previous studies (Hao et al., 2020; Zhao et al., 2023).
+emissions in wastewater treatment (Kim and Chen, 2018). The emissions Sludge drying and disposal alternatives also consumed substantial en-
+intensity from electricity consumption is accessed from the local official ergy, which was calculated following preceding study (Twagirayezu
+report (in Table S5), with a value of 0.3906 kg CO2/kW⋅h. by using the et al., 2024). GHG emissions can be avoided from the potential energy
+4
+
+--- Page 5 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+recovery from INC and BM, which were subtracted from the final GHG high global warming potential of N2O with 273 compared to CH4 with
+emissions following methodology from previous study (Chen and Kuo, 28, the total direct GHG emissions from N2O were significantly higher
+2016; Wei et al., 2020). The average transportation distance from than that of CH4 as shown in Fig. 4(f) and (g), and it is consistent with
+WWTPs to STD was 30 km, 35 km, and 50 km for INC, BM, and LF, preceding study that N2O accounts more than CH4 (Fang et al., 2024;
+respectively, considering round trips using Google Maps in Wuhan City. Song et al., 2024a, 2024b). AAO process had the highest direct GHG
+Truck transportation mode with GHG factor of 0.548 kg CO2/km was emissions of 36416 t CO2eq because of the high annual treatment load of
+used in Wuhan City (Zhang et al., 2023). The First Order Decay (FOD) 687.9 million m3, which serves as the major treatment technic in Wuhan
+Tie two-based method was used to estimate CH4 emissions from sludge City (11 out of 30 WWTPs) (Zhang et al., 2016).
+landfilling (IPCC, 2006), besides, N2O emissions are excluded because of
+their insignificant contribution to LFs (Hoy et al., 2023). For INC and 3.2. Direct and indirect GHG emissions intensities
+BM, a mass balance-based method is applied to calculate indirect GHG
+emissions from electricity consumption following the methodology The total direct GHG emissions intensities from CH4 and N2O are
+introduced in previous studies (Hao et al., 2020; Murray et al., 2008), illustrated in Fig. 4 (h)and Fig. S3. The average emissions intensity from
+and CH4 and N2O emissions from INC and BM were excluded due to their WWTPs in Wuhan City was 0.35 kg CO2eq/m3. These results are
+insignificant contribution as per pertinent study (Liu et al., 2013). The consistent with the study from Liao et al. (2020), who reported that GHG
+detailed calculations on GHG emissions from sludge disposal are illus- emissions intensity in Shenzhen’s WWTPs is 0.2 kg CO2eq/m3. Another
+trated in SI-3. study conducted in Shanghai also documented an intensity of 0.3 kg
+CO2eq/m3 (Xi et al., 2021), which is almost similar to our findings. In
+2.8. Sensitivity analysis and uncertainty analysis addition, emission intensities of 0.2 kg CO2eq/m3 and 0.1 kg CO2eq/m3
+were reported in Mexico City and Barcelona, respectively. The WWTPs
+Perturbation sensitivity method (Liu et al., 2022) was adopted to in Wuhan City and Barcelona treat 100 % of their wastewater, while in
+investigate the impact of parameter alteration in both wastewater Mexico City, the wastewater treatment rate is only 14 %
+treatment and sludge disposal. A 10 % increase in the initial parameters (Ramírez-Melgarejo and Stringer, 2024). On the contrary, emission in-
+was considered to highlight the influence on total GHG emissions. A tensity in Beijing (0.60 kg CO2eq/m3) and the average value across
+sensitivity ratio (SR) exceeding 0.8 indicates significance (Iqbal et al., China in 2016 (about 0.61 kg CO2eq/m3) (Guo et al., 2019) were higher
+2019), implying that optimizing these parameters could notably reduce than in Wuhan. The great discrepancies in emissions intensity could be
+overall GHG emissions. The uncertainty of the accessed data included due to many factors, i.e., treatment methods, wastewater influent
+the errors in EFs, method, influent and effluent of wastewater, substrate quality, EFs employed in different studies, data sources, etc. (Huang
+contents in wastewater and sludge, etc. Distribution types were mostly et al., 2024). Furthermore, a study conducted in rural China was re-
+accessed from the original data, while uniform distribution with 20 % ported at slightly higher GHG emissions intensity of 0.58 kg CO2eq/m3
+errors was used as suggested from the previous study (Liu et al., 2023a, (Su et al., 2025). This difference is primarily attributed to factors such as
+2023b). The results were presented with a 95 % confidence interval smaller design capacity, widespread distribution, and larger pollution
+(Iqbal et al., 2023). areas in rural WWTPs. The GHG emissions intensity from 30 WWTPs
+fluctuates between 1.63 and 0.22 kg CO2eq/m3, indicating the signifi-
+3. Results and discussion cant variabilities among different technics, with the highest and lowest
+intensities in BF and SBR, respectively.
+3.1. GHG emissions from wastewater treatment unit SBR had the highest GHG emissions intensity at 1.63 kg CO2eq/m3,
+because of the high influent pollutant concentration (316 mg/l COD and
+As shown in Fig. 4 (c), the total GHG emissions from wastewater 31.7 mg/l TN) and the high EFs of N2O and CH4 (0.0277 kg N2O/kg TN
+treatment units were 317832 t CO2eq, which were almost half of the and 0.0073 kg CH4/kg COD) than other techniques. These factors
+calculated GHG emissions from 38 WWTPs in Beijing (797920.1 t contribute to the high GHG emissions per m3 of wastewater treated
+CO2eq) (Zhou et al., 2022a, 2022b), mostly due to the discrepancies in (Zhou et al., 2022a, 2022b). The second highest GHG emissions intensity
+wastewater treatment amounts and discharging standards. Besides, the was AAO-MBR with 0.72 kg CO2eq/m3, which is also consistent with the
+total direct N2O emissions were 73891 t CO2eq, accounting for 23 %, reported findigns (Bao et al., 2016). Furthermore, a study conducted on
+and CH4 emissions were 28832 t CO2eq, accounting for 9 %, as shown in WWTPs in Australia also reported that the emissions intensity of SBR
+Fig. 4 (d). This result is consistent with Liu et al. (2025), who docu- was almost doubled compared to AAO process (Nguyen et al., 2019). BF
+mented that N2O (34.7 %) were considerably higher than CH4 (3.55 %) generated the lowest GHG emissions intensity of 0.22 kg CO2/m3, and
+in the total GHG emissions in China’s WWTPs. A study conducted in OD generated the second lowest GHG emissions intensity of 0.4 kg
+southern Italy also documented that N2O contributed almost 31 % of the CO2/m3. However, a study reported that OD process generated higher
+total emission in 183 WWTPs (Ranieri et al., 2024). The total direct GHG GHG emissions than AAO and AO processes in Shanghai (Xi et al., 2021).
+emissions from WWTPs line accounted for 32 %; however, it was less The discrepancies may be due to the high COD concentration in influent
+than indirect GHG emissions of 215108 t CO2eq, accounting for 68 % of in OD process in Shanghai being higher than that in Wuhan City.
+electricity consumption as illustrated in Fig. 4 (e). The differences be- Overall, WWTPs using SBR and AAO-MBR had high GHG emissions in-
+tween direct and indirect emissions were also reported in the previous tensities because they normally consume high energy in biological
+studies, for instance, it was reported that direct and indirect GHG wastewater treatment operations (Rani et al., 2022).
+emissions account for 18 % and 82 % in Beijing (Zhou et al., 2022a, As for the indirect emissions intensities from energy consumption in
+2022b), 32 % and 68 % in Shanghai (Xi et al., 2021), and 25 % and 75 % Fig. 4 (h), the emissions intensities range between 0.203 kg CO2eq/m3 to
+in Shenzhen (Liao et al., 2020). Indirect GHG emissions currently 0.039 kg CO2eq/m3, which are slightly dissimilar to a recently reported
+contribute significant proportion in the total GHG emissions. In China, range of 0.13 kg CO2eq/m3 to 0.63 kg CO2eq/m3 (Chen et al., 2023). The
+indirect emissions from electricity contributed 60.26 %–62.45 % in the high energy consumption was observed in AAO-MBR process with the
+total emissions in 2017 (Liu et al., 2025), demonstrating its critical role highest emissions intensity of 0.203 kg CO2eq/m3. This high energy is
+in rising GHG emissions in WWTPs. It is therefore encouraged to pro- generally required for membrane filtration, which is primarily attrib-
+mote on-site energy production to reduce the dependency on electricity uted to strong aeration and constant backwashing. Despite high energy
+imports. consumption, AAO-MBR systems offer benefits such as elevated biomass
+It can also be found that CH4 and N2O emissions from 30 WWTPs concentrations, superior effluent quality, resilience to shock loads, and
+were 986.31 tons and 273.52 tons (in Table S3), respectively. Due to the prevention of bulking, thereby meeting stringent discharging standards.
+5
+
+--- Page 6 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+Fig. 4. Annual GHG emissions from different treatment technics and treatment intensities in Wuhan: a) CH4 generation factor from COD (kg CH4/kg COD); b) N2O
+generation factor from total nitrogen (kg N2O/kg TN); c) The total GHG emissions (t CO2 eq); d) Total direct GHG emissions(t CO2 eq); e) Indirect GHG emissions
+from electricity consumption(t CO2 eq); f) Direct GHG emissions N2O (t CO2 eq); g) direct GHG emissions from CH4 (t CO2 eq); and h) direct and indirect GHG
+emission intensities(t CO2 eq/m3).
+6
+
+--- Page 7 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+AAO, OD, and SBR also had relatively high indirect GHG intensities of 3.3. Effect of pollutant removal and wastewater quality on electricity
+0.121 kg CO2eq/m3, 0.092 kg CO2eq/m3, and 0.082 kg CO2eq/m3, consumption
+respectively. In practice, the emissions intensity of SBR was lower than
+that of AAO and OD due to the high treatment rate of SBR and short Wastewater treatment process consumes substantial energy to
+hydraulic rotation time, subsequently reducing energy consumption. remove pollutants to meet the relevant effluent discharge standards. The
+However, Nguyen et al. (2019)reported that the emissions intensity of treatment technics, regional climate, and operation practices are also
+SBR was almost five times higher than that of AAO process in Australia. the driving forces that may influence electricity consumption as well as
+Discrepancies are mainly due to the different geographical locations, WWTP performance. The pollutant removal rate may affect the indirect
+pollutant removal rates, and wastewater treatment quality. GHG emissions. The concentration of COD in the wastewater in Wuhan
+City varies between 350 mg/l to 30 mg/l, while the influent TN ranges
+Fig. 5. Influence of energy consumption of different treatment technologies on COD and TN removal: a) Energy consumed to remove 1 kg COD in each treatment
+technology; b) Energy consumed to remove 1 kg TN in each treatment technology; c) Energy consumed to remove 1 kg COD by comparing WWTPs with different
+daily treatment scale from (0.1 kt-2kt) to (≤20 kt); d) Energy required to remove one kg of TN by comparing WWTPs with different daily treatment scale from (2 kt-
+5kt) to (≤20 kt); e) Energy consumed to remove one kg of COD by comparing WWTPs with different pollutant removal rates ranging from (10mg/l-50 mg/l) to 250
+mg/l (cid:0) 300 mg/l; f) Energy consumed to remove one kg of TN by comparing WWTPs with different pollutant removal rates ranging from (5mg/l-10 mg/l) to (30 mg/l
+(cid:0) 35 mg/l).
+7
+
+--- Page 8 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+from 40 mg/l to 10 mg/l. Electricity consumption from WWTPs is 3.4. GHG emissions from sludge disposal, sewer system, and overall
+influenced by the pollutant removal rates and wastewater treatment emissions composition
+scale and treatment technics to some extent. The removal of COD had
+less impact on electricity consumption, irrespective of the employed GHG emissions from STD are increasingly becoming a major concern
+treatment technology, with a range of 0.947–2.606 kWh/kg COD as due to the escalating demand for carbon neutrality. The GHG emissions
+shown in Fig. 5 (a). The electricity consumption for TN removal varies from STD are shown in Fig. 6 (a, b, c). The net GHG emissions among the
+with an average range of 4.774–22.273 kWh/kg TN as indicated in Fig. 5 sludge disposal options were in order of BM (305862.5t CO2eq) ac-
+(b). This finding is consistent with Zhou et al. (2022a); Zhou et al. counting for 52 %, LF (200217 t CO2eq) accounting for 34 %, and INC
+(2022b)’s study. The reason for the increase in energy consumption (82834.46 t CO2eq) accounting for 14 % of the total GHG emission from
+when removing TN than COD removal is that TN requires higher oper- STD line. The GHG emissions from sludge transportation were much
+ational control (Xiong et al., 2021). WWTPs’ capacities also affected the lower (13800.66 t CO2eq), resulting from short distances between the
+energy consumption as indicated in Fig. 5(c) and (d). The amount of WWTPs and STD locations. In total, GHG emissions generated from
+wastewater treated had a relatively minor impact on COD removal, with sludge disposal were 588913.5 t CO2eq, accounting for 64 % of the total
+a range of 1.692–3.040 kWh/kg COD. Conversely, the scale of the GHG emissions from WWTPs and STD combined, which is consistent
+wastewater treatment exerted a significant influence on TN removal with the findings from Xian et al. (2023) who reported 57 % GHG
+ranging from from 19.052-8.174 kWh/kg TN which is consistent with emissions were from sludge disposal. BM and LF approaches contributed
+previous studies (Ji et al., 2024). Furthermore, as illustrated in Fig. 5(e) the highest GHG emissions in STD. This finding is reasonable because
+and (f), WWTPs with low COD and TN concentrations exhibit higher BM requires enormous energy and landfilling generates a significant
+energy consumption in comparison to those with elevated pollutant amount of CH4 (Bhada-Tata and Hoornweg, 2016). Sludge disposal in LF
+concentrations for removing 1 kg of pollutant. For instance, WWTPs in Wuhan City is quite low (320 t/d), but other regions in China, such as
+with 10–50 mg/l COD and 5–10 mg/L TN showed markedly high energy Gansu and Qinghai, even reach 80 % of sludge disposal to LFs, gener-
+consumption per kilogram of pollutant removal, attributable to pro- ating considerable GHG emissions (Gao et al., 2025). Energy recovery
+longed aeration in facilities with minimal pollutant loads in the influent from BM and INC significantly reduced GHG emissions. In particular,
+and possible fluctuations in influent loading (Bao et al., 2016; Ji et al., relatively low emissions from sludge INC were attributed to carbon
+2024). offsetting from electricity generation. However, unprecedented urban-
+ization and population growth starved land availability, leading
+Fig. 6. GHG emissions from a) incineration, b) building material application, c) landfill, d) sewers; and e) is total GHG emissions.
+8
+
+--- Page 9 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+Table 1
+Comparison with previous studies conducted in China.
+Characteristics Wuhan City Shanghai Beijing Shenzhen
+Year 2017 2016 2017 2017
+Population 13 million 24 million 21 million 13 million
+Number of WWTPs studied 30 50 38 26
+Average influent COD 148 mg/l 292.8 mg/l 332.6 mg/l 303.1 mg/l
+Average influent TN 18.7 mg/l 21.9 mg/l 47.4 mg/l 37.9 mg/l
+Boundary of the study CH4, N2O, Sewers, and sludge disposal and CH4, N2O, and electricity CH4, N2O, and electricity CH4, N2O, and electricity
+electricity consumption consumption consumption consumption
+Total treatment capacity 5.40 Mt m3/d 7.14 Mt m3/d 6.87 Mt m3/d 5.19 Mt m3/d
+Category of the work Wastewater treatment sector Wastewater treatment plants Wastewater treatment plants Wastewater treatment sector
+Total GHG emission 0.92 Mt CO2eq 0.75 Mt CO2eq 0.79 Mt CO2eq 0.60 Mt CO2eq
+Direct GHG emission 0.10 Mt CO2eq 0.24 Mt CO2eq 0.18 Mt CO2eq 0.15 Mt CO2eq
+Indirect GHG emission 0.21 Mt CO2eq 0.51 Mt CO2eq 0.65 Mt CO2eq 0.45 Mt CO2eq
+Average GHG emissions 0.35 kg CO2eq/m3 0.2 kg CO2eq/m3 0.49 kg CO2eq/m3 0.39 kg CO2eq/m3
+intensity
+Sludge disposal 0.58 Mt CO2eq N/A N/A N/A
+Reference This study Xi et al. (2021) (Zhou et al., 2022a, 2022b) Liao et al. (2020)
+policymakers to switch to INC as an alternative(Hao et al., 2020). The WWTPs and STD need to be considered depending on the specific
+current GHG emissions contribution within the whole system boundary conditions.
+from INC is 8.9 %, which will be significantly increased in the near
+future. As illustrated in Fig. 6 (d), the overall GHG emissions from sewer
+3.5. Comparison with studies conducted across China
+system were 8610 t CO2eq, with CH4 accounting for 90 % (7750 t
+CO2eq) and CO2 accounting for the remaining 10 % (860 t CO2eq). These
+To ensure the effectiveness and credibility of these findings, GHG
+findings are consistent with the findings from Zhu et al. (2024). How-
+emissions in wastewater treatment sector were compared in four
+ever, the finding of GHG emissions from sewers is significantly lower
+megacities in China as stated in Table 1. These studies only accounted
+(approximately 30 times less) than the case in Xi’an City (Jin et al.,
+for direct emissions and indirect emissions from wastewater treatment
+2019). The differences could result from discrepancies in local condi-
+units, without accounting for emissions from sludge disposal. This in-
+tions, such as sewer structure, water quality characteristics, sewer
+dicates a lack of consensus on the system boundaries and emission
+length, and hydraulic conditions. Low GHG emissions from sewers
+scopes in the urban wastewater treatment sector, which may pose a
+observed in this study can be attributed to the predominance of
+significant challenge when comparing emissions from different cities.
+gravity-type sewers in Wuhan City. Unlike rising main sewers that rely
+For instance, it can be found that the total GHG emissions from WWTPs
+on energy-consuming pressurized pipes, gravity sewers operate with
+in Wuhan City were 0.92 Mt CO2eq, higher than that of Shanghai (0.75
+minimal energy input. This finding is also consistent with previous study
+Mt CO2eq), Beijing (0.79 Mt CO2eq) and Shenzhen (0.60 Mt CO2eq). The
+that minimal contribution was made from sewers in the wastewater
+existing differences were mainly due to GHG emissions from Wuhan City
+system (Ganigu´e and Yuan, 2014). Furthermore, sediment decomposi-
+incorporated WWTPs and STD, while previous studies excluded sludge
+tion has also been reported as a major source of CH4 emissions in sewers
+disposal. This finding emphasized that there is a need for further
+(Liu et al., 2015). Therefore, proper control of sewer pipelines, reducing
+investigation of GHG profile for the completed wastewater treatment
+infiltration of extraneous water into sewers, and constant maintenance
+cycle in other cities. Regarding the GHG emissions without sludge
+of sewers could reduce GHG emissions. Moreover, due to the dearth of
+disposal, GHG from WWTPs in Wuhan City was lower than that of Bei-
+available data, further studies are required to properly explore GHG
+jing, Shanghai, and Shenzhen, which was attributed to the less amounts
+emissions from sewers by using locally available data.
+of removed pollutants (COD and TN). The average COD and TN con-
+The GHG emissions compositions in the wastewater treatment sector
+centration in influent were 148 mg/l and 18 mg/l in Wuhan City, which
+(WWTPs and STD) are presented in Fig. 6 (e). Considering the whole
+were lower than that of 292.8 mg/l and 21.8 mg/l in Shanghai, 332.6
+system boundary of wastewater and sewage sludge, the total GHG
+mg/l and 47.7 mg/l in Beijing, and 303.1 mg/l and 39.7 mg/l in
+emissions from BM accounted for 32.9 %, followed by energy con-
+Shenzhen, respectively. The employed methodologies also contributed
+sumption during biological wastewater treatment of 23.1 %, and land-
+to the GHG emissions disparities among different cities. For instance,
+filling of 21.5 %. The direct GHG emissions of CH4 and N2O accounted
+Liao et al. (2020) noted that the environmental extended life cycle
+for 3.1 % and 8 %, respectively. Meanwhile, GHG emissions from sludge
+analysis (EIO-LCA) methodology significantly underestimated waste-
+transportation accounted for 1.5 %. The contribution of GHG emissions water GHG emissions by using the water sector’s average parameters.
+from sewers was 1 % of the total emissions in Wuhan City, which was
+Overall, the differences in GHG emissions from cities can be attributed to
+much lower than the contribution from sewers (7 % of total emissions)
+several aspects i.e., EFs selection, amount of pollutant removed,
+in Shenzhen (Su et al., 2023). The dissimilarity could be the result of
+wastewater treatment load, diversity of system boundary, methodology
+different water quality characteristics between the two cities as well as
+adopted for GHG calculation, wastewater treatment technologies, and
+the adoption of main sewer types in Shenzhen (Su et al., 2023). The
+GWP value adjustment.
+energy consumption during sludge disposal process highly depends on
+the technics used and the facilities’ efficiencies, which may range be-
+tween 15 % and 57 % of the total energy consumption in wastewater 3.6. Sensitivity analysis
+treatment sector (Mamais et al., 2015; Su et al., 2023; Xian et al., 2023;
+Zhuang et al., 2020). In general, the GHG emissions from wastewater Sensitivity analysis was conducted using the perturbation sensitivity
+and sludge disposal vary via place, due to discrepancies in treatment analysis method by considering a 10 % increase in the initial parameter.
+technologies, treatment amounts, and pollutant concentrations. For Sensitivity ratio (SR) is the rate of proportional change of final param-
+instance, GHG emissions intensity was higher in wastewater treatment eter values to the change of the initial parameters (Liu et al., 2022). As
+process than in sludge disposal process in Europe than in China (Liu shown in Fig. 7(a) and (b), for sludge disposal via INC, the most s sen-
+et al., 2013). Therefore, incentive measures for GHG reduction from sitive parameter to GHG emissions was the VS content of sludge with an
+inverse SR of (cid:0) 6.28. Sludge low heating value had high inverse
+9
+
+--- Page 10 ---
+E. Twagirayezu et al. J o u r n a l o f C l e a n e r P r o d u c t i o n 532 (2025) 146894
+Fig. 7. Sensitivity ratios (SR) of the influential factors on total GHG emissions considering a 10 % increase of the initial parameters in a) wastewater treatment unit
+and b) the sludge disposal unit. Ele and Con: denote electricity consumption during the aeration process.
+sensitivity towards GHG emissions with SR of (cid:0) 1.19 in sludge disposal power, wind power, etc. For advanced wastewater treatment technics,
+of BM. Meanwhile, landfill CH4 fraction was sensitive to GHG emissions partial nitritation/anaerobic ammonia oxidation (PN/A) for enhanced
+in LF with SR of 0.8. With regards to EFs of CH4 and N2O, their in- nitrogen removal could also be implemented in megacities. The
+fluences on the total GHG emissions varied with technics. EFs of CH4 was side-stream application of PN/A has been demonstrated to be successful
+more noteworthy in AAO and OD, with SRs of 0.291 and 0.206, in Beijing (Du et al., 2023). Phosphorus could be recovered to comply
+respectively, while N2O EFs were more sensitive in SBR with SR of with the current nutrient recovery paradigm (Mayor et al., 2023).
+0.286. Generally, SBR has been reported to have higher EFs compared to Recovering phosphorus from WWTPs could meet 15–20 % of the global
+other technologies (Xi et al., 2021). SRs of EFs involved with electricity demand for phosphorus (Zhu et al., 2021). Phosphorus recovery from
+were indicated as the most influential parameters on GHG emissions in wastewater could not only offset indirect GHG emitted through the
+both wastewater treatment and sludge disposal with the highest values manufacturing of industrial fertilizer but also alleviate high aquatic
+of 3.875 in BF, and 3.37 in INC, then followed closely by electricity pollution caused by high concentrations of phosphorus in effluent.
+consumption during aeration with 2.595 in OD process. It highlighted Additionally, combining sewage sludge with other substrates such as
+the parameters that needed to be carefully selected based on real situ- kitchen wastes could not only prevent low C/N ratio, low methane
+ations. Besides, GHG intensity from electricity mix indicated a signifi- production, rapid acidification, and low buffering capacity limiting
+cant influence on the total GHG emissions (Li et al., 2024a, 2024b). It organic loading rate during sludge mono-digestion (Liu et al., 2023a,
+also addresses the positive effluence of implementing GHG mitigation 2023b) but also reduce the cost associated with biosolid management.
+alternatives, i.e. energy saving, solar energy utilization, and thermal Meanwhile, a high-rate anaerobic dynamic membrane bioreactor
+energy recovery in WWTPs and STD (Song et al., 2024a, 2024b). (AnDMBR) has been proven to improve CH4 recovery due to its ability,
+operating at the conditions of low HRT, short digester volume, and
+prolonged SRTs, to subsequently improve CH4 production (Nyitrai et al.,
+3.7. Perspectives
+2023). A study in Mexico reported that a 27 % reduction in GHG
+emissions was achieved by recovering methane to generate electricity
+Energy consumption is highly related to GHG emissions in waste-
+(Noyola et al., 2016).
+water treatment and engineering fields. Wastewater engineering plan-
+For efficient energy recovery, WWTPs with large wastewater treat-
+ners generally find AAO-MBR to be an attractive technology despite its
+ment capacity have a higher chance of energy self-sufficiency and even
+high energy consumption and GHG emissions, because of its high
+generate surplus energy, eventually achieving carbon neutrality (Xiong
+pollutant removal efficiency. Emerging carbon capture and storage
+et al., 2021). Furthermore, process optimization and aeration control
+technologies, such as microalgae fuel cells and microbial electrolysis,
+could minimize direct emissions of CH4 and N2O from onsite wastewater
+could be employed in megacities to decelerate GHG emissions and en-
+treatment. Additionally, it is reasonable to phase out landfills or pro-
+ergy consumption (Su et al., 2023). Additionally, given the sensitivity of
+mote landfills with methane gas recovery where space permits. Waste-
+power generation to overall GHG emissions, it is crucial to further lower
+water and sludge characteristics influence the variability in GHG
+its carbon intensity by promoting low-carbon energy sources, i.e., solar
+10

@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "category": "methods",
+    "description": "分析方法",
+    "version": 3,
+    "created": "2026-05-26T08:12:45.165373+00:00",
+    "updated": "2026-06-09T00:00:00+00:00",
+    "source": "initial + meta_analysis_v2 + dispersion_analysis"
+  },
+  "entries": {
+    "pearson": {
+      "value": {
+        "name_zh": "Pearson相关分析",
+        "name_en": "Pearson Correlation",
+        "use_case": "双变量线性相关",
+        "assumption": "正态分布、线性关系",
+        "report_format": "r={r:.3f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "spearman": {
+      "value": {
+        "name_zh": "Spearman秩相关",
+        "name_en": "Spearman Rank Correlation",
+        "use_case": "非正态数据相关",
+        "assumption": "无",
+        "report_format": "rho={r:.3f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "ttest": {
+      "value": {
+        "name_zh": "独立样本t检验",
+        "name_en": "Independent t-test",
+        "use_case": "两组均值比较",
+        "assumption": "正态分布、方差齐性",
+        "report_format": "t={t:.2f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "anova": {
+      "value": {
+        "name_zh": "单因素方差分析",
+        "name_en": "One-way ANOVA",
+        "use_case": "多组均值比较",
+        "assumption": "正态分布、方差齐性",
+        "report_format": "F({df1},{df2})={f:.2f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "pca": {
+      "value": {
+        "name_zh": "主成分分析",
+        "name_en": "Principal Component Analysis",
+        "use_case": "降维、变量关系探索",
+        "assumption": "变量间存在相关性",
+        "report_format": "前{n}个主成分解释{var:.1f}%方差"
+      },
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "regression": {
+      "value": {
+        "name_zh": "多元线性回归",
+        "name_en": "Multiple Linear Regression",
+        "use_case": "多变量预测",
+        "assumption": "线性、独立、正态残差、方差齐性",
+        "report_format": "R2={r2:.3f}, F({df1},{df2})={f:.2f}, p={p:.4f}"
+      },
+      "confidence": 0.9,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "shapiro": {
+      "value": {
+        "name_zh": "Shapiro-Wilk正态性检验",
+        "name_en": "Shapiro-Wilk Test",
+        "use_case": "检验数据正态性",
+        "assumption": "样本量<5000",
+        "report_format": "W={w:.4f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "mann_whitney": {
+      "value": {
+        "name_zh": "Mann-Whitney U检验",
+        "name_en": "Mann-Whitney U Test",
+        "use_case": "非正态两组比较",
+        "assumption": "无",
+        "report_format": "U={u:.0f}, p={p:.4f}"
+      },
+      "confidence": 0.95,
+      "source": "hardcoded",
+      "updated": "2026-05-26T08:12:45.165373+00:00",
+      "version": 1
+    },
+    "meta_analysis_methodology": {
+      "value": {
+        "name_zh": "元分析-核算方法偏差检验",
+        "name_en": "Meta-Analysis: Accounting Methodology Bias",
+        "use_case": "检验不同核算方法(排放因子法/实测法/模型法)是否导致系统性偏差",
+        "applicable_domain": "污水处理厂温室气体排放、碳排放核算、环境科学文献综述",
+        "workflow": [
+          "1. 数据清洗: 方法学分类标准化(排放因子法/实测法/模型法/混合法)",
+          "2. 异常值剔除: IQR法(1.5倍四分位距)，逐气体独立剔除",
+          "3. 分组描述统计: 均值、中位数、标准差、95%CI、CV",
+          "4. Kruskal-Wallis H检验: 非参数多组比较(适合非正态数据)",
+          "5. 效应量计算: eta-squared(组间SS/总SS)",
+          "6. 两两比较: Mann-Whitney U检验 + Bonferroni校正",
+          "7. 效应量: Cohen's d(标准化均值差) + r(Z/sqrtN)",
+          "8. 异质性分析: Cochran Q统计量 + I-squared"
+        ],
+        "key_tests": {
+          "overall": "Kruskal-Wallis H检验 (p<0.05表示方法间存在显著差异)",
+          "pairwise": "Mann-Whitney U + Bonferroni校正 (alpha=0.05/n_comparisons)",
+          "effect_size": "eta-squared: <0.01极小, 0.01-0.06小, 0.06-0.14中等, >0.14大",
+          "cohens_d": "|d|<0.2无差异, 0.2-0.5小, 0.5-0.8中等, >0.8大"
+        },
+        "report_format": "KW H={H:.4f}, p={p:.4f}, eta2={eta2:.4f}; pairwise: U={U:.1f}, p={p:.4f}, r={r:.3f}",
+        "visualization": [
+          "森林图(Forest Plot): 各方法均值+95%CI",
+          "箱线图+散点: 方法间分布对比",
+          "效应量柱状图: Cohen's d比较"
+        ],
+        "findings_template": "CH4和N2O的核算方法偏差显著(p<0.05)，排放因子法系统性偏高; CO2不受方法学影响; 组内异质性极高(I2>99%)说明方法学不是唯一偏差来源",
+        "limitations": [
+          "部分方法学分组样本量小，统计检验力有限",
+          "文献异质性高，不同研究边界条件差异大",
+          "未考虑发表偏倚"
+        ]
+      },
+      "confidence": 0.9,
+      "source": "meta_analysis_v2.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "dispersion_analysis": {
+      "value": {
+        "name_zh": "离散分析-方法内部变异特征",
+        "name_en": "Dispersion Analysis: Methodology Internal Variability",
+        "use_case": "分析不同核算方法内部的离散程度、变异来源、分布稳定性",
+        "applicable_domain": "跨研究数据比较、方法学评估、环境科学文献综述",
+        "workflow": [
+          "1. 数据清洗: 方法学分类 + IQR异常值剔除",
+          "2. 基础离散指标: 标准差、IQR、CV、MAD、Robust CV(IQR/中位数)",
+          "3. 方差齐性检验: Levene检验(非参数) + Bartlett检验(参数)",
+          "4. 变异系数排序: CV从小到大=稳定性从高到低",
+          "5. 稳健离散指标: MAD(Median Absolute Deviation) + Robust CV",
+          "6. 分布形态: 偏度(Skewness) + 峰度(Kurtosis)",
+          "7. 方差分解: 组间(Method) vs 组内(Within) SS占比"
+        ],
+        "key_metrics": {
+          "CV": "变异系数=标准差/均值*100%，>100%为高变异",
+          "MAD": "中位数绝对偏差=median(|xi-median|)，不受异常值影响",
+          "robust_cv": "稳健CV=IQR/中位数*100%，适合偏态数据",
+          "skewness": "偏度: >1右偏, <-1左偏, -1~1近似对称",
+          "kurtosis": "峰度: >1尖峰(重尾), <-1平峰(轻尾), -1~1正态峰",
+          "levene_p": "Levene p<0.05表示不同组的离散程度存在显著差异",
+          "variance_decomposition": "组间SS/总SS=方法学解释的变异比例"
+        },
+        "report_format": "Levene W={W:.4f}, p={p:.4f}; CV={cv:.1f}%; MAD={mad:.3f}; skew={skew:.2f}, kurtosis={kurt:.2f}",
+        "visualization": [
+          "CV与稳健CV对比柱状图",
+          "箱线图+IQR标注",
+          "方差分解堆叠柱状图(组间vs组内)",
+          "偏度-峰度散点图",
+          "标准差vs MAD对比图"
+        ],
+        "interpretation_rules": [
+          "实测法CV最高但最真实: 捕获了真实工况变异",
+          "排放因子法CV最低但可能失真: 统一因子人为压缩变异",
+          "方法学解释的变异<20%: 工艺/规模/气候是主要变异来源",
+          "右偏分布: 使用中位数和IQR优于均值和标准差",
+          "Std/MAD>2: 存在异常值影响，MAD更稳健"
+        ],
+        "findings_template": "所有方法内部均呈高离散性(CV>80%); 实测法最不稳定但最真实; 排放因子法最稳定但可能失真; 方法学仅解释9-17%总变异",
+        "limitations": [
+          "高CV可能反映真实变异而非方法缺陷",
+          "样本量小时CV估计不稳定",
+          "IQR法剔除异常值可能丢失有意义的极端值"
+        ]
+      },
+      "confidence": 0.9,
+      "source": "dispersion_analysis.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "kruskal_wallis": {
+      "value": {
+        "name_zh": "Kruskal-Wallis H检验",
+        "name_en": "Kruskal-Wallis H Test",
+        "use_case": "非参数多组比较(单因素方差分析的非参数替代)",
+        "assumption": "独立样本、有序数据",
+        "report_format": "H={H:.4f}, p={p:.4f}",
+        "post_hoc": "Mann-Whitney U + Bonferroni校正"
+      },
+      "confidence": 0.95,
+      "source": "meta_analysis_v2.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "levene_test": {
+      "value": {
+        "name_zh": "Levene方差齐性检验",
+        "name_en": "Levene's Test for Equality of Variances",
+        "use_case": "检验多组数据的离散程度(方差)是否相同",
+        "assumption": "独立样本",
+        "report_format": "W={W:.4f}, p={p:.4f}",
+        "interpretation": "p<0.05表示各组方差不齐(离散程度存在显著差异)"
+      },
+      "confidence": 0.95,
+      "source": "dispersion_analysis.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "cohens_d": {
+      "value": {
+        "name_zh": "Cohen's d效应量",
+        "name_en": "Cohen's d Effect Size",
+        "use_case": "衡量两组均值差异的标准化效应大小",
+        "formula": "d = (M1 - M2) / pooled_SD",
+        "thresholds": {
+          "negligible": "|d| < 0.2",
+          "small": "0.2 <= |d| < 0.5",
+          "medium": "0.5 <= |d| < 0.8",
+          "large": "|d| >= 0.8"
+        },
+        "report_format": "d={d:.3f} ({magnitude})"
+      },
+      "confidence": 0.95,
+      "source": "meta_analysis_v2.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "iqr_outlier": {
+      "value": {
+        "name_zh": "IQR异常值剔除法",
+        "name_en": "IQR Outlier Removal",
+        "use_case": "基于四分位距识别和剔除异常值",
+        "formula": "异常值: x < Q1 - 1.5*IQR 或 x > Q3 + 1.5*IQR",
+        "steps": [
+          "1. 计算Q1(25%分位数)和Q3(75%分位数)",
+          "2. 计算IQR = Q3 - Q1",
+          "3. 下界 = Q1 - 1.5*IQR, 上界 = Q3 + 1.5*IQR",
+          "4. 超出边界的值标记为异常值并剔除"
+        ],
+        "advantages": "不受极端值影响，适合偏态分布",
+        "report_format": "剔除{n}个异常值 (IQR={iqr:.3f}, bounds=[{lower:.3f}, {upper:.3f}])"
+      },
+      "confidence": 0.95,
+      "source": "meta_analysis_v2.py",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "method_combinations": {
+      "value": {
+        "name_zh": "研究方法组合模式",
+        "name_en": "Research Method Combination Patterns",
+        "description": "基于118篇WWTP GHG排放文献总结的方法使用规律",
+        "frequency_ranking": [
+          {
+            "method": "IPCC排放因子法",
+            "usage_rate": "92%",
+            "role": "基础方法，几乎必用"
+          },
+          {
+            "method": "模型法",
+            "usage_rate": "95%",
+            "role": "预测和情景分析"
+          },
+          {
+            "method": "LCA",
+            "usage_rate": "71%",
+            "role": "全流程碳足迹评估"
+          },
+          {
+            "method": "实测法",
+            "usage_rate": "63%",
+            "role": "验证排放因子，数据最可靠"
+          },
+          {
+            "method": "不确定性分析",
+            "usage_rate": "53%",
+            "role": "量化结果可靠性"
+          },
+          {
+            "method": "相关性分析",
+            "usage_rate": "52%",
+            "role": "探索变量关系"
+          },
+          {
+            "method": "碳足迹分析",
+            "usage_rate": "48%",
+            "role": "聚焦碳排放评估"
+          },
+          {
+            "method": "回归分析",
+            "usage_rate": "24%",
+            "role": "建立预测模型"
+          },
+          {
+            "method": "蒙特卡洛模拟",
+            "usage_rate": "19%",
+            "role": "不确定性分析核心"
+          },
+          {
+            "method": "PCA",
+            "usage_rate": "19%",
+            "role": "降维和变量探索"
+          }
+        ],
+        "classic_combinations": [
+          {
+            "name": "排放因子法 + 不确定性分析",
+            "description": "最常见的搭配，用于量化估算的可靠性",
+            "usage": "基础研究标配"
+          },
+          {
+            "name": "实测法 + 模型法",
+            "description": "实测验证模型，提高可信度",
+            "usage": "高水平研究验证组合"
+          },
+          {
+            "name": "LCA + 碳足迹",
+            "description": "全流程碳评估",
+            "usage": "综合评估研究"
+          },
+          {
+            "name": "情景分析 + 敏感性分析",
+            "description": "评估减排策略的鲁棒性",
+            "usage": "政策建议类研究"
+          }
+        ],
+        "advanced_combinations": [
+          "机器学习 + 排放因子法 — 用ML优化排放因子",
+          "遥感 + 实测法 — 大尺度验证",
+          "蒙特卡洛 + 排放因子法 — 量化不确定性"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    },
+    "wwtp_emission_factors": {
+      "value": {
+        "name_zh": "WWTP温室气体排放因子经验值",
+        "name_en": "WWTP GHG Emission Factor经验值",
+        "description": "基于118篇文献的排放因子统计",
+        "data_characteristics": {
+          "distribution": "高度右偏(skewness>1)",
+          "variability": "CV通常>100%，排放差异巨大",
+          "central_tendency": "用中位数和IQR，不用均值±SD",
+          "seasonal_effect": "春夏排放通常高于秋冬",
+          "process_effect": "厌氧工艺CH4高，好氧工艺N2O高"
+        },
+        "key_influencing_factors": [
+          "处理工艺: 厌氧→高CH4，好氧→高N2O",
+          "处理规模: 大型厂单位排放通常更低(规模效应)",
+          "温度: 高温促进CH4，低温可能增加N2O",
+          "进水水质: 高有机物→高CH4，高氮→高N2O",
+          "运行管理: 曝气控制、污泥回流比等"
+        ],
+        "reporting_recommendations": [
+          "必须报告: n, median, IQR, min, max",
+          "建议报告: mean±SD(如果正态), CV",
+          "图表: 箱线图优于柱状图",
+          "统计: 先做Shapiro-Wilk正态性检验"
+        ]
+      },
+      "confidence": 0.95,
+      "source": "literature_review_118papers",
+      "updated": "2026-06-09T00:00:00+00:00",
+      "version": 1
+    }
+  }
+}
